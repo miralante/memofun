@@ -16,7 +16,8 @@ if (window.App.i18n) {
       quickAccess: 'Quick access',
       continue: 'Continue →',
       pinButton: 'Pin as my course',
-      pinnedButton: 'Course pinned'
+      pinnedButton: 'Course pinned',
+      completedOf: '{done}/{total} completed'
     }
   }, 'en');
 }

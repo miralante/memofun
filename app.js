@@ -53,7 +53,15 @@
   }
 
   function backLinkHtml(href) {
-    return '<a class="back-link" href="' + href + '">' + App.i18n.t('core.back') + '</a>';
+    return '<a class="btn secondary" href="' + href + '">' + App.i18n.t('core.back') + '</a>';
+  }
+
+  /** How many of these decks are already marked completed — a derived
+      read of the same progreso.completado map used for the per-deck ⭐
+      badge, never a new tracked field (SPEC.md §2.6). */
+  function completedCount(decks, progreso) {
+    var done = (progreso && progreso.completado) || {};
+    return decks.filter(function (d) { return done[d.id]; }).length;
   }
 
   /** Groups decks by a key, preserving first-seen order (manifest order). */
@@ -99,11 +107,18 @@
 
     html += '<h2 class="section-heading">' + App.i18n.t('home.chooseCourse') + '</h2>';
     html += '<div class="deck-grid" role="list">' + byCourse.order.map(function (curso) {
-      var subjectCount = groupBy(byCourse.map[curso], function (d) { return d.asignatura || ''; }).order.length;
+      var courseDecks = byCourse.map[curso];
+      var subjectCount = groupBy(courseDecks, function (d) { return d.asignatura || ''; }).order.length;
+      var done = completedCount(courseDecks, progreso);
+      var meta = subjectCount + ' ' + App.i18n.t('home.subjects');
+      if (done > 0) {
+        meta += ' · ' + App.i18n.t('home.completedOf')
+          .replace('{done}', done).replace('{total}', courseDecks.length);
+      }
       return '<a class="deck-card" role="listitem" href="' + buildUrl(curso) + '">' +
         '<span class="deck-icon" aria-hidden="true">🎓</span>' +
         '<h3>' + App.utils.escapeHtml(curso) + '</h3>' +
-        '<span class="deck-meta">' + subjectCount + ' ' + App.i18n.t('home.subjects') + '</span>' +
+        '<span class="deck-meta">' + meta + '</span>' +
         '</a>';
     }).join('') + '</div>';
 

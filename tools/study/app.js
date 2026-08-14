@@ -59,6 +59,7 @@
     var card = cards[index];
     cardEl.innerHTML = '<div class="cara">' + card.pregunta + '</div>';
     btnReveal.classList.remove('hidden');
+    btnNext.classList.add('secondary');
     popIn();
     updateProgress();
     btnNext.textContent = (index === cards.length - 1)
@@ -74,6 +75,7 @@
       '<hr>' +
       '<div class="respuesta">' + card.respuesta + '</div>';
     btnReveal.classList.add('hidden');
+    btnNext.classList.remove('secondary');
     popIn();
     updateProgress();
   }

@@ -16,7 +16,8 @@ if (window.App.i18n) {
       quickAccess: 'Acceso rápido',
       continue: 'Continuar →',
       pinButton: 'Fijar como mi curso',
-      pinnedButton: 'Curso fijado'
+      pinnedButton: 'Curso fijado',
+      completedOf: '{done}/{total} completadas'
     }
   }, 'es');
 }

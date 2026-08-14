@@ -22,7 +22,7 @@ if (window.App.i18n) {
       importError: 'No se pudo abrir ese archivo.',
       resetTitle: 'Borrar progreso guardado',
       resetHint: 'Borra las estrellas y las barajas marcadas como completadas en este dispositivo.',
-      resetButton: 'Borrar progreso',
+      resetButton: '🗑️ Borrar progreso',
       resetConfirm: '¿Seguro? Se borrará todo el progreso guardado aquí.',
       resetConfirmYes: 'Sí, borrar',
       resetDone: 'Progreso borrado.'

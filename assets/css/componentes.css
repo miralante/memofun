@@ -5,8 +5,12 @@
 /* ---------- Header ---------- */
 
 header.app-header {
-  padding: var(--space-3) 0 var(--space-2);
+  padding-bottom: var(--space-2);
   text-align: center;
+}
+
+header.app-header .app-hero {
+  padding-top: var(--space-2);
 }
 
 header.app-header .logo {
@@ -40,7 +44,6 @@ header.app-header .tagline {
   display: flex;
   justify-content: center;
   gap: var(--space-1);
-  margin-bottom: var(--space-2);
 }
 
 .btn-lang {
@@ -70,9 +73,13 @@ header.app-header .tagline {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: var(--text-large);
+  min-height: 40px;
+  padding: 6px 16px;
+  font-size: var(--text-base);
   font-weight: var(--weight-strong);
   color: var(--color-star);
+  background: var(--accent-2-soft);
+  border-radius: var(--radius-pill);
 }
 
 /* ---------- Buttons ---------- */
@@ -145,25 +152,6 @@ header.app-header .tagline {
   }
 }
 
-/* ---------- Back link ---------- */
-
-.back-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: var(--button-min);
-  padding: 6px 16px;
-  border-radius: var(--radius);
-  background: var(--color-surface);
-  border: 2px solid var(--color-border);
-  color: var(--color-text);
-  font-size: var(--text-small);
-  font-weight: var(--weight-strong);
-  text-decoration: none;
-}
-
-.back-link:hover { border-color: var(--accent); }
-
 /* ---------- Course / subject navigation (home screen) ---------- */
 
 .section-heading {
@@ -208,6 +196,7 @@ header.app-header .tagline {
 }
 
 .deck-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -242,8 +231,15 @@ header.app-header .tagline {
 }
 
 .deck-card .deck-stars {
+  position: absolute;
+  top: 10px;
+  right: 10px;
   color: var(--accent-2);
-  font-size: var(--text-base);
+  background: var(--accent-2-soft);
+  font-size: var(--text-small);
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: var(--radius-pill);
 }
 
 .empty-state {
@@ -448,6 +444,12 @@ header.app-header .tagline {
   background: var(--accent-soft);
   color: var(--accent);
 }
+
+/* Text-size options demonstrate the size they set directly in their own
+   label, instead of relying on an icon — a stronger affordance than an
+   arbitrary glyph for a "how big is this text" choice. */
+#text-size-group .btn-pref[data-value="large"] { font-size: calc(var(--text-base) * 1.1); }
+#text-size-group .btn-pref[data-value="extraLarge"] { font-size: calc(var(--text-base) * 1.25); font-weight: var(--weight-strong); }
 
 /* ---------- Forms (settings) ---------- */
 

@@ -5,13 +5,13 @@ if (window.App.i18n) {
     study: {
       showAnswer: '👀 Show the answer',
       progress: 'Card {n} of {total}',
-      finish: "I'm done",
+      finish: "✅ I'm done",
       loading: 'Loading the deck…',
       error: 'This deck could not be opened.',
       doneTitle: "You've reviewed the whole deck!",
       transferPhrase: 'You now know a little more about {tema}.',
-      studyAgain: 'Study again',
-      backToHome: 'Back to home'
+      studyAgain: '🔁 Study again',
+      backToHome: '🏠 Back to home'
     }
   }, 'en');
 }
