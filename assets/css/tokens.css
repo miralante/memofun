@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Memofun — Design tokens
+   High-contrast LIGHT theme by default (SPEC.md §3.5/§4.5: light theme,
+   WCAG AA minimum). Single source of truth for visual tokens — components
+   read these, never hardcode a color/size.
+
+   Values are taken directly from Apptonomia's assets/css/tokens.css (the
+   canonical design system the whole sibling family shares) — same
+   surfaces, same feedback colors, same type/spacing scale. Identifiers
+   stay in English per this project's language policy (CLAUDE.md), even
+   though Apptonomia's own custom properties are named in Spanish.
+   ========================================================================== */
+
+:root {
+  /* ---------- Surfaces ---------- */
+  --color-bg: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F3F0EA;
+  --color-border: #D8D2C8;
+
+  /* ---------- Text ---------- */
+  --color-text: #1A1A2E;
+  --color-text-soft: #4A4A68;
+  --color-text-tenue: #6E6E86;
+
+  /* ---------- Brand accent — Apptonomia's "razonamiento" (reasoning)
+     module teal. Memofun doesn't have Apptonomia's per-module palette
+     (it's a single tool, not a catalogue), so it borrows the module
+     whose spirit is closest to studying flashcards: understanding, not
+     just memorizing. ---------- */
+  --accent: #00695C;
+  --accent-soft: #E0F0EE;
+  --accent-2: #B8860B;
+  --accent-2-soft: #F7EFDD;
+
+  /* ---------- Feedback: only ever praise, never a punitive red ----------
+     Exact values from Apptonomia's tokens.css — same reasoning: mistakes
+     get an encouraging warm tone, never red. */
+  --color-success: #2E7D32;
+  --color-success-soft: #E6F2E6;
+  --color-encourage: #C05621;
+  --color-encourage-soft: #F9EBE2;
+  --color-star: #B8860B;
+
+  /* ---------- Typography ----------
+     --text-scale is applied by assets/js/storage.js from a saved
+     preference; defaults to 1, so nobody who hasn't touched the
+     preference sees a change. */
+  --font: 'Atkinson Hyperlegible', 'Nunito', system-ui, -apple-system, sans-serif;
+  --text-scale: 1;
+  --text-small: calc(17px * var(--text-scale));
+  --text-base: calc(20px * var(--text-scale));
+  --text-large: calc(28px * var(--text-scale));
+  --text-title: calc(36px * var(--text-scale));
+  --line-base: 1.5;
+  --weight-regular: 400;
+  --weight-medium: 600;
+  --weight-strong: 800;
+
+  /* ---------- Touch and spacing (SPEC.md §3.5: buttons >=64px, gap >=16px) ---------- */
+  --button-min: 64px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --radius: 16px;
+  --radius-pill: 999px;
+  --shadow: 0 2px 8px rgba(26, 26, 46, 0.12);
+  --shadow-lg: 0 8px 24px rgba(26, 26, 46, 0.16);
+
+  /* ---------- Focus (must stay highly visible, never removed) ----------
+     Matches Apptonomia's --mod-coordinacion blue, reused there as the
+     focus/active color too. */
+  --color-focus: #1B6CA8;
+
+  /* ---------- Motion — disabled wholesale via prefers-reduced-motion in base.css ---------- */
+  --motion-fast: 150ms;
+  --motion-normal: 240ms;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+
+  /* ---------- Layout ---------- */
+  --container-max: 720px;
+}

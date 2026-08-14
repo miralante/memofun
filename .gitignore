@@ -1,0 +1,28 @@
+# Local graphify build output (metrics, caches, generated reports)
+graphify-out/
+
+# Editor / IDE
+.dev/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude / AI agent runtime state
+.claude/
+
+# AI / graphify workflow files (kept local — repo is content + code only)
+.github/copilot-instructions.md
+.graphifyignore
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node (nothing required to run, but scripts/ may touch node_modules in dev)
+node_modules/
+
+# Local overrides / secrets (none expected, but defensive)
+.env
+.env.local

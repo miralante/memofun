@@ -1,0 +1,192 @@
+# CLAUDE.md — AI agent workflow
+
+## Service worker cache (read this before touching any cached file)
+
+`sw.js` is cache-first for the app shell — every file listed in `FILES`
+is served from the cache. **Any change to a cached file without
+bumping `VERSION` is invisible to users with the PWA installed.** The
+bug is silent: the developer sees the change on a hard refresh, but the
+user sees the old version until the SW updates.
+
+**Rule**: when you edit any file listed in `FILES` in `sw.js` (or add a
+new file that should be cached), bump `VERSION` (e.g. `memofun-v1` →
+`memofun-v2`). Bump liberally rather than conservatively.
+
+## No generative AI in the shipped product — read before touching this rule
+
+Memofun's public site makes **zero** calls to any AI service, and the
+codebase contains **zero API integrations of any kind** — no API key,
+no `fetch` to an external AI endpoint, anywhere in this repo. This is
+not an oversight — it is a direct requirement inherited from
+Apptonomia's `SPEC.md` (determinism, accessibility, predictability for
+the end user; also "sin coste, sin cuenta"). Deck content is written
+directly by the AI coding agent working in this repository — see
+"Generating deck content" below — never fetched at runtime by
+`index.html`/`app.js`/`tools/study/`/`settings/`, and never via a
+script that calls an external AI API with a key. Do not add a
+client-side (or build-time) call to Gemini or any other AI API to the
+site, even behind a flag or a "for teachers" label — see
+`doc/en/SPEC.md` §2.1 for the full reasoning and what was explicitly
+rejected (an earlier version *did* call the Gemini REST API from a
+script; it was removed on purpose). If a task seems to require
+re-adding an API call, stop and raise it with the user rather than
+implementing it.
+
+## Generating deck content — this is now your job, not a script's
+
+There is no `scripts/generate.js` anymore. When asked to create or
+extend a deck, **you** (the AI coding agent) write the `{pregunta,
+respuesta}` pairs directly, following the exact rules below — this
+replaces what used to be a system prompt sent to an external API, and
+that's the only thing that changed: the rules themselves are unchanged
+and still binding.
+
+1. Read the content config: either a `content-indices/**/*.md` file or
+   a one-off `config.md`-shaped file (frontmatter: `tema`, `nivel`,
+   `cantidad`, `salida`, optional `idioma`; body: optional `# Índice`
+   bullet list — see `doc/es/tecnico.md` §3 and §8 for the exact shape,
+   `scripts/config-parser.js` for the parsing rules if you need them
+   read programmatically).
+2. If the topic has an underlying mechanic or rule the learner needs
+   before they can answer anything about it (a procedure, a notation,
+   a formula — e.g. how Roman numerals combine to form a value before
+   drilling calculations with them), open the deck with a small run of
+   **lesson cards** that teach that mechanic directly and build on each
+   other, before moving into the regular quiz-style cards from step 3.
+   Same `{pregunta, respuesta}` shape, no schema change — just placed
+   first and more directly didactic (state the rule, then show it
+   working) rather than quiz-style. Skip this step for topics that are
+   just a set of facts with no mechanic to front-load.
+3. Write `cantidad` cards in Spanish (or `idioma` if set), each
+   `{"pregunta": "...", "respuesta": "..."}`:
+   - Questions: clear, concrete, evaluable (no yes/no), warm and
+     curious in tone — never exam-like.
+   - Answers: never a dictionary definition. Built around ONE of: an
+     everyday ANALOGY, a concrete PRACTICAL EXAMPLE, or the real
+     PROBLEM the concept solves ("why it matters") — wrap that key
+     phrase in `<mark></mark>`.
+   - Control conceptual density, not just sentence length — Easy Read
+     for this audience (`doc/en/SPEC.md` §1.2: always someone with an
+     intellectual disability) means short sentences AND few new ideas
+     at once. At most one new named/abstract concept per card (a
+     movement, an author, a technical term). Anchor every abstract idea
+     in a concrete everyday image before naming it (e.g. explain
+     *desengaño* as "a soap bubble: it shines, then it's gone," not as
+     a bare label). A "how do X and Y differ" card is only allowed
+     after X and Y have each already had their own concrete card — and
+     even then, ground the comparison in the same concrete images
+     already used, not in new abstraction. Topics with many names in a
+     row (literary movements, historical periods) need *more*, smaller
+     cards and deliberate repetition, not compression.
+   - Tone: fun and warm, like explaining something interesting to a
+     friend — never sarcasm, irony, wordplay, or double meanings (they
+     break literal comprehension and Easy Read).
+   - When it fits naturally, add ONE surprising/curious fact (a
+     "¿Sabías que...?") — never forced, never at the cost of clarity.
+   - 2-5 sentences per answer, ≤12 words each, one idea per sentence,
+     everyday vocabulary, active voice. Simple HTML only (`<b>`, `<i>`,
+     `<br>`) — never markdown.
+   - Adapt depth to `nivel` (principiante/intermedio/avanzado). Don't
+     number cards or repeat the topic name verbatim in every question.
+     No duplicate or redundant cards.
+   - Never use "discapacidad", "paciente", or clinical language — the
+     content is about the topic, not about who's studying it.
+   - If there's a `# Índice`: spread the cards across **every** point
+     — none skipped, none invented that aren't in the list. Without
+     one, pick the subtopics yourself.
+   - Full reasoning: `doc/en/SPEC.md` §2.5.
+4. Write the deck directly: `decks/<salida>` (or `decks/<slug>.json`
+   derived from `tema` if `salida` wasn't given — see
+   `scripts/config-parser.js`'s `slugify()`), matching the schema in
+   `doc/en/technical.md` §3: `{tema, nivel, idioma, tarjetas}`.
+5. Add the entry to `decks/manifest.json` yourself: `{id, tema, nivel,
+   cantidad, file, icono}` — `id` can just be the slug (readable,
+   deterministic, no hashing needed). If the source was a
+   `content-indices/<etapa>/<curso>/<asignatura>.md` file, also set
+   `curso` and `asignatura` (derived from the path, e.g.
+   `primaria/3/lengua-castellana.md` → `curso: "3º de Primaria"`,
+   `asignatura: "Lengua Castellana"` — `doc/en/technical.md` §4) so the home
+   screen groups it under that course instead of listing it as a
+   one-off topic. Leave both unset for ad-hoc "modo simple" decks.
+6. Tell the user what you generated and where, and that you've applied
+   the review checklist yourself (`doc/es/guia-crear-barajas.md` §4) —
+   but if the topic is unfamiliar, technical, or high-stakes, say so
+   and suggest a human double-check before the deck ships.
+
+## Vanilla only — no dependencies, no Anki format
+
+The whole project is plain HTML/CSS/JS (and plain Node.js for the
+`scripts/` tooling — parsing and structural checks only, no AI calls).
+No frameworks, no bundler, no npm/pip packages of any kind. Decks are
+Memofun's own JSON format (`doc/en/technical.md` §3), not Anki's
+`.apkg` — that was a deliberate simplification (see `doc/en/SPEC.md`
+§2.9) to drop Python and any ZIP/SQLite-reading library from the
+stack. Do not reintroduce a build step, a package manager, or the Anki
+format without raising it with the user first.
+
+## Language policy
+
+- **UI**: multilingual. Default locales: **Spanish (`es`)** and
+  **English (`en`)**; `es` is the default and fallback. Every UI string
+  (buttons, navigation, feedback messages) must exist in both — see
+  `doc/en/I18N.md` / `doc/es/I18N.md`.
+- **Deck content is not part of this parity rule**: a deck ships in
+  whichever language it was generated in and is labelled with that
+  language in `decks/manifest.json`. Translating deck content is out
+  of scope for the i18n system.
+- **Technical code**: always English — identifiers, comments, commit
+  messages. UI text lives in `strings.<locale>.js` files; dictionary
+  keys are code and must be English.
+
+## 1. Canonical sources
+
+| Topic | Canonical source |
+|---|---|
+| Product, audience, non-negotiable principles | [`doc/en/SPEC.md`](doc/en/SPEC.md) · [`doc/es/SPEC.md`](doc/es/SPEC.md) |
+| Roles (persona usuaria / apoyo / construcción) | [`doc/en/roles.md`](doc/en/roles.md) · [`doc/es/roles.md`](doc/es/roles.md) |
+| Architecture, file-by-file, accessibility rules | [`doc/en/technical.md`](doc/en/technical.md) · [`doc/es/tecnico.md`](doc/es/tecnico.md) |
+| Content ingestion (`config.md` → deck, written by the AI agent), step by step | [`doc/en/creating-decks-guide.md`](doc/en/creating-decks-guide.md) · [`doc/es/guia-crear-barajas.md`](doc/es/guia-crear-barajas.md) |
+| Internationalization | [`doc/en/I18N.md`](doc/en/I18N.md) · [`doc/es/I18N.md`](doc/es/I18N.md) |
+| Cloudflare deploy | [`CLOUDFLARE.md`](CLOUDFLARE.md) |
+| Human contribution flow | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
+| Roadmap and closed decisions | Git only: `git log` |
+
+## 2. Mandatory workflow
+
+Read the affected source files before editing. Keep i18n parity per
+the I18N docs. Keep changes minimal and on-target; do not bundle
+unrelated refactors.
+
+### 2.1 Session start
+
+Run before any modification:
+
+```bash
+git status --short
+node scripts/check.js
+```
+
+### 2.2 Before finishing
+
+1. Run `node scripts/check.js` — it enforces i18n parity, the
+   no-clinical-language rule, `sw.js`/`manifest.json`/`decks/`
+   integrity, and CSP quoting in one pass.
+2. Run `node scripts/check-version-bump.js` if you touched any file
+   listed in `sw.js`'s `FILES`.
+3. Report only verifications you actually ran.
+
+## 3. External and destructive operations
+
+- A deploy is a network operation: request explicit approval first.
+- Never publish, push, or open/close external resources without an
+  explicit request.
+- Editing a sibling repo (Apptonomia, Calculia, Okeymoney, Sinonimia,
+  Teclatlon) — even a one-line README table entry — touches a project
+  outside this one; confirm scope with the user before doing it again
+  beyond what was already agreed.
+
+## 4. Out of scope for this file
+
+Product principles, accessibility rules, architecture, roadmaps, and
+bug chronicles belong in the §1 sources, not here. Detailed change
+history lives in Git.

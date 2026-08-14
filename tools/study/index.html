@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memofun</title>
+<meta name="theme-color" content="#FAF7F2">
+<link rel="manifest" href="../../manifest.json">
+<link rel="icon" href="../../assets/img/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/base.css">
+<link rel="stylesheet" href="../../assets/css/componentes.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
+
+<div class="top-bar container">
+  <a class="back-link" href="../../index.html" data-i18n="core.back">← Volver</a>
+  <h1 id="deck-title" style="font-size: var(--text-large); margin: 0; flex: 1;"></h1>
+  <span class="stars" id="stars-total">⭐ 0</span>
+</div>
+
+<main id="contenido" class="container flashcard-wrap">
+  <div id="study-status" class="empty-state" data-i18n="study.loading">Cargando la baraja…</div>
+
+  <div id="study-area" class="hidden">
+    <div class="progress-bar" aria-hidden="true">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div id="progress" class="flashcard-progress" aria-live="polite"></div>
+
+    <div id="flashcard" class="flashcard" aria-live="polite"></div>
+
+    <div class="btn-row">
+      <button id="btn-reveal" class="btn" type="button" data-i18n="study.showAnswer">👀 Ver la respuesta</button>
+    </div>
+
+    <div class="flashcard-controls">
+      <button id="btn-prev" class="btn secondary" type="button" data-i18n="core.previous">← Anterior</button>
+      <button id="btn-next" class="btn" type="button" data-i18n="core.next">Siguiente →</button>
+    </div>
+  </div>
+
+  <!-- End screen: persistent, no auto-redirect — the person decides
+       when to leave (SPEC.md §2.7 autonomy). -->
+  <div id="end-screen" class="end-screen hidden">
+    <div class="emoji-large" aria-hidden="true">⭐</div>
+    <h2 data-i18n="study.doneTitle">¡Has repasado toda la baraja!</h2>
+    <p id="transfer-phrase" class="transfer-phrase"></p>
+    <div class="btn-row">
+      <button id="btn-study-again" class="btn" type="button" data-i18n="study.studyAgain">Repasar otra vez</button>
+      <a class="btn secondary" href="../../index.html" data-i18n="study.backToHome">Volver al inicio</a>
+    </div>
+  </div>
+</main>
+
+<script src="../../assets/js/utils.js"></script>
+<script src="../../assets/js/i18n.js"></script>
+<script src="../../assets/js/tts.js"></script>
+<script src="../../assets/js/storage.js"></script>
+<script src="../../assets/js/feedback.js"></script>
+<script src="../../assets/js/deck-loader.js"></script>
+<script src="strings.es.js"></script>
+<script src="strings.en.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

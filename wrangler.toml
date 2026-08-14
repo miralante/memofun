@@ -1,0 +1,21 @@
+# wrangler.toml — Cloudflare Workers (static assets) configuration for
+# Memofun.
+#
+# Memofun is a fully static site (plain HTML/CSS/JS, no build step, no
+# server-side code), so it's deployed as a Worker with no `main` script —
+# just a static-assets binding. This is Cloudflare's current recommended
+# path for static sites, and the same model the sibling projects
+# (Sinonimia, Okeymoney, Teclatlon, Calculia) use — see their
+# CLOUDFLARE.md and the canonical guide in Apptonomia's CLOUDFLARE.md.
+#
+# See: https://developers.cloudflare.com/workers/static-assets/
+
+name = "memofun"
+compatibility_date = "2026-08-11"
+
+[assets]
+directory = "."
+# Serve 404.html for any path that isn't a static asset. The app itself
+# never needs server-side routing (tools/study/ and settings/ each ship
+# their own real index.html).
+not_found_handling = "404-page"

@@ -1,0 +1,138 @@
+# Guía para crear barajas (ingesta de contenido)
+
+> Esta guía es para el rol de **apoyo** (familia, docente): cómo pedir
+> una baraja nueva, paso a paso. **No hace falta instalar nada, ni
+> tener una API key de nada**: el contenido lo escribe directamente el
+> agente de IA de programación (Claude Code u otro) que trabaja en
+> este proyecto. Si quieres el resumen de arquitectura en vez del paso
+> a paso, ve a [`tecnico.md`](tecnico.md) §8.
+
+> 💡 **¿Buscas un temario ya hecho?** [`content-indices/`](../../content-indices/)
+> tiene índices listos de Primaria (1º-6º), ESO (1º-4º) y el Grado Medio
+> de Gestión Administrativa. Puedes pedir directamente "genera la
+> baraja de `content-indices/primaria/3/lengua-castellana.md`" sin escribir
+> nada más. Ver [`content-indices/README.md`](../../content-indices/README.md).
+
+---
+
+## 1. Qué necesitas
+
+Nada que instalar ni ninguna cuenta que crear. Solo abrir este
+proyecto en un IDE con un agente de IA de programación (por ejemplo,
+Claude Code) y pedirle la baraja. El agente lee y escribe archivos
+directamente en el repositorio.
+
+## 2. El punto de ingesta: un tema, o un tema con índice
+
+Puedes pedir una baraja de dos formas:
+
+**Modo simple** — solo el tema:
+
+> "Genera una baraja de Memofun sobre el aparato circulatorio, nivel
+> intermedio, 15 tarjetas."
+
+El agente elige por su cuenta los subtemas más relevantes para cubrir
+ese tema al nivel indicado.
+
+**Modo con índice** — si ya tienes un temario y quieres que la baraja
+lo siga punto por punto, descríbelo (o pega la lista) y pide que la
+baraja cubra exactamente esos puntos:
+
+> "Genera una baraja de Memofun para 'Docker y Contenedores', nivel
+> intermedio, 10 tarjetas, cubriendo estos puntos: qué es una imagen y
+> qué es un contenedor; Dockerfile; volúmenes; redes en Docker;
+> despliegue en un servidor Linux."
+
+También puedes escribir primero un archivo `config.md` con ese
+formato (frontmatter + `# Índice`, ver el ejemplo en la raíz del
+proyecto o en `content-indices/`) y pedir "genera la baraja a partir
+de este archivo" — es exactamente el mismo formato que antes, solo que
+ahora lo lee el agente en vez de un script.
+
+### Campos del `config.md` (si lo usas)
+
+| Campo | Obligatorio | Qué es | Por defecto |
+|---|---|---|---|
+| `tema` | Sí | El tema de la baraja, en pocas palabras. | — |
+| `nivel` | No | `principiante`, `intermedio` o `avanzado`. | `intermedio` |
+| `cantidad` | No | Cuántas tarjetas generar. | `10` |
+| `salida` | No | Nombre del archivo `.json` de salida. | se genera del `tema` |
+| `idioma` | No | Idioma del contenido de la baraja (no de la interfaz). | `es` |
+| `# Índice` | No | Lista de viñetas con los subtemas a cubrir. | el agente los elige |
+
+## 3. Lo que hace el agente
+
+Cuando le pides una baraja, el agente:
+
+1. Escribe las `cantidad` tarjetas siguiendo las reglas de
+   `CLAUDE.md` → "Generating deck content" — aprendizaje significativo
+   (analogía, ejemplo práctico o "por qué importa"), Lectura Fácil,
+   tono divertido y cercano, algún dato curioso cuando encaja, y
+   cobertura completa del índice si le diste uno. Si el tema tiene una
+   mecánica o regla de base (un procedimiento, una notación, una
+   fórmula — p. ej. cómo se combinan los números romanos antes de
+   calcular con ellos), la baraja empieza con unas tarjetas de lección
+   que explican esa mecánica primero.
+2. Escribe el archivo `decks/<salida>.json` directamente.
+3. Añade la entrada correspondiente a `decks/manifest.json` — si
+   pediste la baraja a partir de un archivo de `content-indices/`,
+   incluye también `curso` y `asignatura`, así la pantalla de inicio
+   la agrupa dentro de ese curso en vez de mostrarla suelta (ver
+   `tecnico.md` §4.1). Puedes fijar un curso como acceso rápido desde
+   la pantalla de asignaturas: se guarda en tu `localStorage`, solo en
+   tu dispositivo.
+4. Te dice qué generó y dónde, y si conviene una revisión humana
+   adicional (por ejemplo, en temas muy técnicos o sensibles).
+
+## 4. Revisar antes de dar por publicada la baraja
+
+Aunque el agente aplica las reglas al escribir, sigue mereciendo la
+pena echar un vistazo antes de considerarla publicada — es la misma
+idea que revisar cualquier contenido antes de un examen. Comprueba:
+
+- [ ] **Lectura fácil**: frases cortas, una idea por frase.
+- [ ] **Densidad conceptual**: como mucho un concepto nuevo por
+      tarjeta, anclado en algo concreto — no varios nombres o ideas
+      abstractas seguidos sin ejemplo (temas como movimientos
+      literarios o épocas históricas son los que más fallan aquí).
+- [ ] **Sin lenguaje clínico**: nada de "discapacidad", "paciente", etc.
+- [ ] **Tono divertido y cercano**: como quien cuenta algo interesante a
+      un amigo — nunca sarcasmo, ironía ni dobles sentidos
+      (`SPEC.md` §2.5).
+- [ ] **Dato curioso** cuando el tema se presta a ello.
+- [ ] **Sin tarjetas repetidas** ni redundantes entre sí.
+- [ ] Si pediste un índice: **todos los puntos están cubiertos**.
+
+Si algo no cumple, pide al agente que reescriba esa tarjeta o edita el
+`.json` directamente (es texto plano).
+
+## 5. Comprobar que todo encaja
+
+```
+node scripts/check.js
+```
+
+Valida, entre otras cosas, que `decks/manifest.json` apunta a archivos
+reales con tarjetas, y que ningún archivo de `content-indices/` está
+mal formado. No revisa la calidad del contenido — eso sigue siendo
+cosa de una persona (o del agente aplicando el checklist del punto 4).
+
+## 6. Publicar la baraja
+
+Si el agente ya añadió la entrada a `decks/manifest.json`, no queda
+nada más que hacer: abre `index.html` y la baraja ya aparece en la
+rejilla de inicio.
+
+---
+
+## 7. Referencias cruzadas
+
+- `CLAUDE.md` → "Generating deck content" — el ruleset completo que
+  sigue el agente al escribir las tarjetas.
+- [`tecnico.md`](tecnico.md) §3 — formato JSON de una baraja.
+- [`tecnico.md`](tecnico.md) §8 — cómo funciona la ingesta de contenido por dentro.
+- [`SPEC.md`](SPEC.md) §2.1 — por qué no hay ninguna IA generativa en el producto.
+- [`SPEC.md`](SPEC.md) §2.5 — el porqué del tono divertido y los datos curiosos.
+- [`CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) — cómo abrir un PR con la baraja nueva.
+
+🌐 English version: [`../en/creating-decks-guide.md`](../en/creating-decks-guide.md)

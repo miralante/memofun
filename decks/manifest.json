@@ -1,0 +1,22 @@
+[
+  { "id": "primaria-1-literatura", "tema": "Literatura - 1º de Primaria", "nivel": "principiante", "curso": "1º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_1_literatura.json", "icono": "📖" },
+  { "id": "primaria-2-literatura", "tema": "Literatura - 2º de Primaria", "nivel": "principiante", "curso": "2º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_2_literatura.json", "icono": "📖" },
+  { "id": "primaria-3-literatura", "tema": "Literatura - 3º de Primaria", "nivel": "principiante", "curso": "3º de Primaria", "asignatura": "Literatura", "cantidad": 8, "file": "primaria_3_literatura.json", "icono": "📖" },
+  { "id": "primaria-4-literatura", "tema": "Literatura - 4º de Primaria", "nivel": "principiante", "curso": "4º de Primaria", "asignatura": "Literatura", "cantidad": 10, "file": "primaria_4_literatura.json", "icono": "📖" },
+  { "id": "primaria-5-literatura", "tema": "Literatura - 5º de Primaria", "nivel": "intermedio", "curso": "5º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_5_literatura.json", "icono": "📖" },
+  { "id": "primaria-6-literatura", "tema": "Literatura - 6º de Primaria", "nivel": "intermedio", "curso": "6º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_6_literatura.json", "icono": "📖" },
+  { "id": "eso-1-literatura", "tema": "Literatura - 1º de ESO", "nivel": "intermedio", "curso": "1º de ESO", "asignatura": "Literatura", "cantidad": 6, "file": "eso_1_literatura.json", "icono": "📖" },
+  { "id": "eso-2-literatura", "tema": "Literatura - 2º de ESO", "nivel": "intermedio", "curso": "2º de ESO", "asignatura": "Literatura", "cantidad": 10, "file": "eso_2_literatura.json", "icono": "📖" },
+  { "id": "eso-3-literatura", "tema": "Literatura - 3º de ESO", "nivel": "intermedio", "curso": "3º de ESO", "asignatura": "Literatura", "cantidad": 16, "file": "eso_3_literatura.json", "icono": "📖" },
+  { "id": "eso-4-literatura", "tema": "Literatura - 4º de ESO", "nivel": "avanzado", "curso": "4º de ESO", "asignatura": "Literatura", "cantidad": 19, "file": "eso_4_literatura.json", "icono": "📖" },
+  { "id": "primaria-1-literatura-2", "tema": "Literatura - 1º de Primaria", "nivel": "principiante", "curso": "1º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_1_literatura_2.json", "icono": "📖" },
+  { "id": "primaria-2-literatura-2", "tema": "Literatura - 2º de Primaria", "nivel": "principiante", "curso": "2º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_2_literatura_2.json", "icono": "📖" },
+  { "id": "primaria-3-literatura-2", "tema": "Literatura - 3º de Primaria", "nivel": "principiante", "curso": "3º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_3_literatura_2.json", "icono": "📖" },
+  { "id": "primaria-4-literatura-2", "tema": "Literatura - 4º de Primaria", "nivel": "principiante", "curso": "4º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_4_literatura_2.json", "icono": "📖" },
+  { "id": "primaria-5-literatura-2", "tema": "Literatura - 5º de Primaria", "nivel": "intermedio", "curso": "5º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_5_literatura_2.json", "icono": "📖" },
+  { "id": "primaria-6-literatura-2", "tema": "Literatura - 6º de Primaria", "nivel": "intermedio", "curso": "6º de Primaria", "asignatura": "Literatura", "cantidad": 6, "file": "primaria_6_literatura_2.json", "icono": "📖" },
+  { "id": "eso-1-literatura-2", "tema": "Literatura - 1º de ESO", "nivel": "intermedio", "curso": "1º de ESO", "asignatura": "Literatura", "cantidad": 6, "file": "eso_1_literatura_2.json", "icono": "📖" },
+  { "id": "eso-2-literatura-2", "tema": "Literatura - 2º de ESO", "nivel": "intermedio", "curso": "2º de ESO", "asignatura": "Literatura", "cantidad": 7, "file": "eso_2_literatura_2.json", "icono": "📖" },
+  { "id": "eso-3-literatura-2", "tema": "Literatura - 3º de ESO", "nivel": "intermedio", "curso": "3º de ESO", "asignatura": "Literatura", "cantidad": 7, "file": "eso_3_literatura_2.json", "icono": "📖" },
+  { "id": "eso-4-literatura-2", "tema": "Literatura - 4º de ESO", "nivel": "avanzado", "curso": "4º de ESO", "asignatura": "Literatura", "cantidad": 8, "file": "eso_4_literatura_2.json", "icono": "📖" }
+]

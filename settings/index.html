@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" data-i18n-title="settings.title">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memofun</title>
+<meta name="theme-color" content="#FAF7F2">
+<!-- Hidden route: not linked from the home screen, aimed at the person
+     supporting the studying (family/teacher), not the end user. -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../assets/img/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/componentes.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
+
+<div class="top-bar container">
+  <a class="btn secondary" href="../index.html" data-i18n="core.back">← Volver</a>
+  <h1 style="font-size: var(--text-large); margin: 0;" data-i18n="settings.title">Ajustes</h1>
+  <span style="width: var(--button-min);" aria-hidden="true"></span>
+</div>
+
+<main id="contenido" class="container">
+  <p class="tagline" data-i18n="settings.subtitle">Esta sección es para quien acompaña el estudio.</p>
+
+  <section class="panel">
+    <h2 data-i18n="settings.textSizeLabel">Tamaño del texto</h2>
+    <div class="pref-group" id="text-size-group" role="group" aria-label="Tamaño del texto">
+      <button type="button" class="btn-pref" data-value="normal" aria-pressed="false" data-i18n="settings.textSizeNormal">Normal</button>
+      <button type="button" class="btn-pref" data-value="large" aria-pressed="false" data-i18n="settings.textSizeLarge">Grande</button>
+      <button type="button" class="btn-pref" data-value="extraLarge" aria-pressed="false" data-i18n="settings.textSizeExtraLarge">Muy grande</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 data-i18n="settings.soundsLabel">Sonidos de acierto</h2>
+    <div class="pref-group" id="sounds-group" role="group" aria-label="Sonidos">
+      <button type="button" class="btn-pref" data-value="on" aria-pressed="false" data-i18n="settings.soundsOn">🔊 Activados</button>
+      <button type="button" class="btn-pref" data-value="off" aria-pressed="false" data-i18n="settings.soundsOff">🔇 Desactivados</button>
+    </div>
+    <p class="tagline" data-i18n="settings.soundsNote">Esto no afecta a la voz que lee las tarjetas, solo al sonido corto al terminar una baraja.</p>
+  </section>
+
+  <section class="panel">
+    <h2 data-i18n="settings.languageLabel">Idioma</h2>
+    <div class="btn-row">
+      <button id="lang-es" class="btn secondary" type="button">🇪🇸 Español</button>
+      <button id="lang-en" class="btn secondary" type="button">🇬🇧 English</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 data-i18n="settings.importTitle">Repasar una baraja propia</h2>
+    <p class="tagline" data-i18n="settings.importHint">Abre cualquier archivo .json de baraja para repasarlo aquí, sin guardarlo.</p>
+
+    <div id="dropzone" class="dropzone" tabindex="0" role="button" data-i18n-aria="settings.dropHint" aria-label="Toca o arrastra un archivo .json">
+      <span data-i18n="settings.dropHint">Toca o arrastra un archivo .json de baraja</span>
+      <input id="file-input" type="file" accept=".json" hidden>
+    </div>
+    <div id="import-status" class="feedback-zone hidden" role="status"></div>
+
+    <div id="import-viewer" class="hidden" style="margin-top: var(--space-2);">
+      <div id="progress" class="flashcard-progress" aria-live="polite"></div>
+      <div id="flashcard" class="flashcard" tabindex="0" role="button" aria-live="polite"></div>
+      <div class="flashcard-controls">
+        <button id="btn-prev" class="btn secondary" type="button" data-i18n="core.previous">← Anterior</button>
+        <button id="btn-listen" class="btn secondary icon" type="button" data-i18n-aria="core.listenInstructions" aria-label="Escuchar">🔊</button>
+        <button id="btn-next" class="btn secondary" type="button" data-i18n="core.next">Siguiente →</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2 data-i18n="settings.resetTitle">Borrar progreso guardado</h2>
+    <p class="tagline" data-i18n="settings.resetHint">Borra las estrellas y las barajas marcadas como completadas en este dispositivo.</p>
+    <button id="btn-reset" class="btn secondary" type="button" data-i18n="settings.resetButton">Borrar progreso</button>
+    <div id="reset-status" class="feedback-zone hidden" role="status"></div>
+  </section>
+</main>
+
+<footer class="app-footer">
+  <div class="container btn-row">
+    <a class="btn secondary" href="../index.html" data-i18n="settings.backToDecks">Ir a las barajas</a>
+    <a class="btn secondary" href="../legal/" data-i18n="core.dataProtection">Protección de datos</a>
+  </div>
+</footer>
+
+<script src="../assets/js/utils.js"></script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/tts.js"></script>
+<script src="../assets/js/storage.js"></script>
+<script src="../assets/js/feedback.js"></script>
+<script src="../assets/js/deck-loader.js"></script>
+<script src="strings.es.js"></script>
+<script src="strings.en.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
