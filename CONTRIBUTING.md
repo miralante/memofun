@@ -11,7 +11,7 @@ just open the app.
 
 | I want to… | How |
 |---|---|
-| Add a new deck | Follow [`doc/en/creating-decks-guide.md`](doc/en/creating-decks-guide.md) (full step-by-step); summary: ask the AI agent to write the deck from a topic or a `config.md`, **review the content**, and add the entry to `decks/manifest.json` before opening a PR with the `.json` and the manifest. |
+| Add a new deck | Follow [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) (full step-by-step); summary: ask the AI agent to write the deck from a topic or a `config.md`, **review the content**, and add the entry to `decks/manifest.json` before opening a PR with the `.json` and the manifest. |
 | Fix or improve an existing deck | Edit the `.json` directly (it's plain text), or ask the agent to regenerate it and replace the file in `decks/`. |
 | Touch code (HTML/CSS/JS) | Follow the GitHub flow below. Read [`doc/en/technical.md`](doc/en/technical.md) first. The whole project is vanilla: no frameworks, no new dependencies. |
 | Translate the UI into a new language | Follow the [`doc/en/I18N.md`](doc/en/I18N.md) guide. |

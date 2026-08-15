@@ -1,0 +1,47 @@
+{
+  "tema": "La energía y la electricidad - 3º de ESO",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué significa hacer un uso racional de la energía?",
+      "respuesta": "Significa consumir solo la energía necesaria, evitando el derroche. <mark>Es como no dejar el grifo abierto cuando no lo estás usando</mark>. Apagar luces innecesarias o aprovechar la luz natural son ejemplos sencillos."
+    },
+    {
+      "pregunta": "¿Qué es la electrización de un cuerpo?",
+      "respuesta": "Es el proceso por el que un objeto adquiere carga eléctrica. <mark>Es como cuando te frotas un globo en el pelo y luego atrae pequeños papelitos</mark>. Ocurre al ganar o perder electrones por fricción o contacto."
+    },
+    {
+      "pregunta": "¿Qué es la carga eléctrica?",
+      "respuesta": "Es una propiedad de la materia que provoca fuerzas de atracción o repulsión. <mark>Es como una etiqueta invisible, positiva o negativa, que llevan algunas partículas</mark>. Cargas iguales se repelen; cargas distintas se atraen."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre la fuerza eléctrica y la fuerza gravitatoria?",
+      "respuesta": "Ambas actúan a distancia, sin necesidad de contacto directo. <mark>La eléctrica puede atraer o repeler; la gravitatoria, en cambio, siempre atrae</mark>. La fuerza eléctrica suele ser mucho más intensa que la gravitatoria."
+    },
+    {
+      "pregunta": "¿Qué es la corriente eléctrica?",
+      "respuesta": "Es el movimiento ordenado de cargas eléctricas a través de un material conductor. <mark>Es como el flujo de agua por una tubería, pero con electrones en vez de agua</mark>. Necesita un circuito cerrado para poder circular."
+    },
+    {
+      "pregunta": "¿Qué dice la ley de Ohm?",
+      "respuesta": "Relaciona la corriente eléctrica, el voltaje y la resistencia de un circuito. <mark>Es como decir que cuanto más 'empuje' hay y menos 'obstáculo', más corriente circula</mark>. Permite calcular cualquiera de esos valores si conoces los otros dos."
+    },
+    {
+      "pregunta": "¿Qué es un circuito eléctrico?",
+      "respuesta": "Es el camino cerrado por el que circula la corriente eléctrica. <mark>Es como una pista de carreras cerrada, por la que da vueltas la corriente</mark>. Necesita una fuente de energía, cables y algún elemento que use esa energía."
+    },
+    {
+      "pregunta": "¿Qué es una resistencia eléctrica?",
+      "respuesta": "Es un componente que dificulta el paso de la corriente eléctrica. <mark>Es como un estrechamiento en una tubería que frena el paso del agua</mark>. Se usa para controlar la cantidad de corriente que circula."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre asociar resistencias en serie y en paralelo?",
+      "respuesta": "En serie, las resistencias se colocan una detrás de otra en el mismo camino. <mark>En paralelo, se colocan en caminos distintos, por los que la corriente se reparte</mark>. Ambas formas se usan según lo que se necesite."
+    },
+    {
+      "pregunta": "¿Dónde se usa la electricidad en la vida diaria?",
+      "respuesta": "En la iluminación, los electrodomésticos, los transportes y muchos otros aparatos. <mark>Está tan presente que muchas veces solo la notamos cuando falla</mark>. Su descubrimiento cambió por completo la forma de vivir de la humanidad."
+    }
+  ]
+}

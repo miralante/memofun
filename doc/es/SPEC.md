@@ -33,11 +33,40 @@ forma **autónoma**.
 - **Persona usuaria** (con discapacidad intelectual): repasa las
   barajas ya preparadas, de forma autónoma.
 - **Apoyo** (familia, docente): pide al agente de IA del proyecto que
-  prepare cada baraja (a partir de un tema o de `content-indices/`) y
+  prepare cada baraja (a partir de un tema o de `doc/curriculum/`) y
   revisa el contenido antes de publicarlo.
 - **Construcción** (desarrollador/a): mantiene el código.
 
 Ver [`roles.md`](roles.md) para el detalle de cada rol.
+
+### 1.3 Refuerzo: repetición y fidelidad al temario
+
+El aprendizaje significativo (§1) no es solo "explicarlo bien una
+vez". Se apuntala con dos mecanismos deliberados en el diseño de las
+barajas:
+
+- **Repetición, pura y con variaciones**: un concepto clave de un
+  tema (una definición, una fecha, un autor) puede — y debe —
+  reaparecer en más de una tarjeta y en más de una baraja del mismo
+  tema o curso. A veces de forma literal (la misma pregunta casi
+  igual, para consolidar memoria); a veces variada (la misma idea con
+  otro ejemplo o desde otro ángulo, para tejer varias conexiones a la
+  misma idea). No es un fallo de diseño ni contenido "redundante que
+  sobra": es refuerzo por repetición, una técnica de aprendizaje real.
+  La revisión (`guia-interna-crear-barajas.md` §4) no descarta una tarjeta
+  solo por parecerse a otra — descarta una que repite sin aportar
+  ningún matiz, ejemplo o contexto nuevo.
+- **Fidelidad al temario**: cuando existe un temario de referencia (un
+  `doc/curriculum/**/*.md`, un `# Índice` en un `config.md`, o el
+  currículo oficial de la asignatura y el curso), las barajas se ciñen
+  a esos puntos exactos en vez de derivar hacia temas adyacentes que
+  "quedan bien" pero no forman parte de lo que se estudia en ese
+  curso. Ajustarse al temario real es, en sí mismo, una forma de
+  apuntalar el aprendizaje significativo: el contenido coincide con lo
+  que la persona usuaria necesita repasar de verdad.
+
+Ver "Generating deck content" en `CLAUDE.md` para cómo se aplica esto
+al escribir o ampliar una baraja.
 
 ---
 
@@ -67,7 +96,7 @@ estudia. Las razones:
 - **Revisión antes de publicar**: todo el contenido que llega a
   `decks/` se revisa (por quien lo pidió, o por el propio agente que
   lo escribió) antes de añadirlo a `decks/manifest.json` — ver
-  `guia-crear-barajas.md` §4.
+  `guia-interna-crear-barajas.md` §4.
 
 Esta decisión ha evolucionado dos veces, siempre en la misma
 dirección — menos superficie de IA en el producto, no más:
@@ -175,7 +204,7 @@ ataque, más fácil de mantener por cualquiera que sepa HTML/CSS/JS.
 | `index.html` (inicio) | Persona usuaria | Elegir una baraja ya preparada. Nada más. |
 | `tools/study/` | Persona usuaria | Repasar la baraja elegida, tarjeta a tarjeta. |
 | `settings/` | Apoyo | Tamaño de texto, idioma, importar un `.json` de baraja propio para repasarlo sin publicarlo, borrar progreso local. |
-| Agente de IA del proyecto | Apoyo / construcción | Escribir el contenido de una baraja nueva a partir de un tema o de `content-indices/`, siguiendo las reglas de "Generating deck content" (`CLAUDE.md`), para revisar antes de publicar. |
+| Agente de IA del proyecto | Apoyo / construcción | Escribir el contenido de una baraja nueva a partir de un tema o de `doc/curriculum/`, siguiendo las reglas de "Generating deck content" (`CLAUDE.md`), para revisar antes de publicar. |
 
 ---
 

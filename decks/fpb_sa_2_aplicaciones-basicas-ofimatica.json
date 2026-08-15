@@ -1,0 +1,67 @@
+{
+  "tema": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Para qué sirve un procesador de textos?",
+      "respuesta": "Sirve para escribir, editar y dar formato a documentos en el ordenador. <mark>Es como una máquina de escribir moderna, pero mucho más flexible</mark>. Permite corregir errores sin tener que empezar de nuevo."
+    },
+    {
+      "pregunta": "¿Qué significa dar formato a un texto?",
+      "respuesta": "Es cambiar cómo se ve: el tipo de letra, el tamaño o el color. <mark>Es como vestir el mismo contenido de una forma más clara y profesional</mark>. Un buen formato ayuda a que el documento se lea mejor."
+    },
+    {
+      "pregunta": "¿Qué es poner un texto en negrita?",
+      "respuesta": "Es hacer que las letras se vean más gruesas y oscuras. <mark>Es como subrayar con más fuerza una parte importante del texto</mark>. Se usa para destacar palabras o títulos importantes."
+    },
+    {
+      "pregunta": "¿Para qué sirve cambiar el tamaño de la letra en un documento?",
+      "respuesta": "Ayuda a diferenciar títulos, subtítulos y texto normal. <mark>Es como escribir un cartel más grande para lo que quieres que se vea primero</mark>. Facilita mucho la lectura de un documento largo."
+    },
+    {
+      "pregunta": "¿Qué es la alineación de un texto?",
+      "respuesta": "Es cómo se coloca el texto respecto a los márgenes de la página. <mark>Puede estar a la izquierda, a la derecha, centrado o justificado</mark>. Una buena alineación hace que el documento se vea más ordenado."
+    },
+    {
+      "pregunta": "¿Para qué sirve insertar una tabla en un documento?",
+      "respuesta": "Ayuda a organizar información en filas y columnas, de forma ordenada. <mark>Es como ordenar datos en cajones, en vez de dejarlos todos sueltos</mark>. Facilita comparar datos de un vistazo."
+    },
+    {
+      "pregunta": "¿Para qué sirve insertar una imagen en un documento?",
+      "respuesta": "Ayuda a ilustrar o explicar mejor algo que solo con texto sería más difícil. <mark>Es como acompañar una explicación con una foto que lo aclara todo</mark>. Se usa en informes, presentaciones o manuales."
+    },
+    {
+      "pregunta": "¿Para qué sirve una hoja de cálculo?",
+      "respuesta": "Sirve para organizar datos numéricos y hacer cálculos de forma automática. <mark>Es como tener una calculadora gigante conectada a una tabla ordenada</mark>. Se usa para presupuestos o control de gastos."
+    },
+    {
+      "pregunta": "¿Qué es una celda en una hoja de cálculo?",
+      "respuesta": "Es cada casilla individual dentro de la cuadrícula de la hoja. <mark>Es como cada casilla de un tablero, identificada por su fila y su columna</mark>."
+    },
+    {
+      "pregunta": "¿Qué es una fila en una hoja de cálculo?",
+      "respuesta": "Es una línea horizontal de celdas, numerada de arriba abajo. <mark>Es como una estantería puesta de lado, con casillas una al lado de otra</mark>. Cada fila suele representar un registro distinto."
+    },
+    {
+      "pregunta": "¿Qué es una columna en una hoja de cálculo?",
+      "respuesta": "Es una línea vertical de celdas, identificada con una letra. <mark>Es como una estantería puesta de pie, con casillas una encima de otra</mark>. Cada columna suele representar un tipo de dato."
+    },
+    {
+      "pregunta": "¿Qué es una fórmula en una hoja de cálculo?",
+      "respuesta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano</mark>."
+    },
+    {
+      "pregunta": "¿Cómo se suma en una hoja de cálculo?",
+      "respuesta": "Se usa una fórmula que indica qué celdas hay que sumar. <mark>Es como pedirle a la hoja que sume varias cifras a la vez, sin hacerlo a mano</mark>. Si cambian los datos, el resultado se actualiza solo."
+    },
+    {
+      "pregunta": "¿Para qué sirve calcular totales en una hoja de cálculo?",
+      "respuesta": "Ayuda a saber rápidamente el resultado final de una lista de datos. <mark>Es como sacar la cuenta final de un ticket de compra</mark>. El total se actualiza automáticamente si cambia algún dato."
+    },
+    {
+      "pregunta": "¿Por qué es útil una hoja de cálculo en tareas administrativas?",
+      "respuesta": "Porque permite organizar datos numéricos y hacer cálculos de forma automática. <mark>Su capacidad de actualizarse sola ahorra mucho trabajo repetitivo</mark>."
+    }
+  ]
+}

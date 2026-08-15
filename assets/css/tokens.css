@@ -42,11 +42,28 @@
   --color-encourage-soft: #F9EBE2;
   --color-star: #B8860B;
 
+  /* ---------- Decorative "sticker" hues — deck-card icon-badge
+     backgrounds only. Cycle with --accent/--accent-2 for variety across
+     the deck grid. Never a text color and never a stand-in for the
+     semantic tokens above (accent/success/encourage/star/focus each
+     carry real meaning); these two exist purely so different topics get
+     a different badge color, the way stickers in a sticker book do. ---------- */
+  --sticker-c: #A32362;
+  --sticker-c-soft: #FBEAF2;
+  --sticker-d: #5B4A9E;
+  --sticker-d-soft: #ECE9F7;
+
   /* ---------- Typography ----------
      --text-scale is applied by assets/js/storage.js from a saved
      preference; defaults to 1, so nobody who hasn't touched the
-     preference sees a change. */
+     preference sees a change.
+     --font-display is used ONLY for the two spots that aren't reading
+     content — the logotype and the star-count numeral. Every actual
+     sentence (headings, questions, answers, buttons, labels) stays on
+     --font (Atkinson Hyperlegible), which is the only typeface this
+     project treats as legible enough for real reading content. */
   --font: 'Atkinson Hyperlegible', 'Nunito', system-ui, -apple-system, sans-serif;
+  --font-display: 'Nunito', system-ui, -apple-system, sans-serif;
   --text-scale: 1;
   --text-small: calc(17px * var(--text-scale));
   --text-base: calc(20px * var(--text-scale));
@@ -78,6 +95,10 @@
   --motion-normal: 240ms;
   --ease: cubic-bezier(.2, .7, .2, 1);
 
-  /* ---------- Layout ---------- */
+  /* ---------- Layout ----------
+     --container-max-wide is only used for the home screen's deck grid —
+     reading-heavy screens (study card, settings) keep the narrower
+     --container-max, since long lines hurt Easy Read line length. */
   --container-max: 720px;
+  --container-max-wide: 1080px;
 }

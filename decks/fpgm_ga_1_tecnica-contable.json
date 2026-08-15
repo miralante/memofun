@@ -1,0 +1,87 @@
+{
+  "tema": "Técnica Contable - FP GM Gestión Administrativa (1º)",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué es el patrimonio empresarial?",
+      "respuesta": "Es el conjunto de bienes, derechos y obligaciones que tiene una empresa. <mark>Es como hacer un resumen de todo lo que tiene y todo lo que debe una empresa</mark>. Conocerlo es el punto de partida de toda la contabilidad."
+    },
+    {
+      "pregunta": "¿Qué es el activo de una empresa?",
+      "respuesta": "Es todo lo que la empresa posee: bienes y derechos de cobro. <mark>Es como la lista de todo lo que tienes, desde dinero hasta máquinas o mercancía</mark>. Representa los recursos con los que cuenta la empresa."
+    },
+    {
+      "pregunta": "¿Qué es el pasivo de una empresa?",
+      "respuesta": "Es todo lo que la empresa debe a otras personas o entidades. <mark>Es como la lista de todo lo que tienes que devolver, tarde o temprano</mark>. Incluye préstamos, deudas con proveedores o impuestos pendientes."
+    },
+    {
+      "pregunta": "¿Qué es el neto patrimonial?",
+      "respuesta": "Es la diferencia entre lo que la empresa tiene y lo que debe. <mark>Es como calcular cuánto te queda realmente después de restar tus deudas a tus bienes</mark>. Representa el valor real que le queda a la empresa."
+    },
+    {
+      "pregunta": "¿Qué es el Plan General de Contabilidad?",
+      "respuesta": "Es el conjunto de normas que regulan cómo debe llevarse la contabilidad en España. <mark>Es como un manual de instrucciones común, para que todas las empresas contabilicen de forma parecida</mark>. Su cumplimiento es obligatorio."
+    },
+    {
+      "pregunta": "¿Qué es una cuenta contable?",
+      "respuesta": "Es un registro donde se anota la evolución de un elemento del patrimonio. <mark>Es como una ficha individual para cada tipo de bien, deuda o gasto de la empresa</mark>. Sumando todas las cuentas se obtiene una imagen completa."
+    },
+    {
+      "pregunta": "¿Qué es el método de la partida doble?",
+      "respuesta": "Es el sistema contable donde cada operación afecta al menos a dos cuentas distintas. <mark>Es como anotar cada movimiento de dinero desde dos puntos de vista distintos, a la vez</mark>. Ayuda a comprobar que la contabilidad esté cuadrada."
+    },
+    {
+      "pregunta": "¿Qué es el libro diario?",
+      "respuesta": "Es el libro contable donde se anotan las operaciones de una empresa, día a día. <mark>Es como un diario personal, pero donde en vez de sentimientos se anotan movimientos de dinero</mark>. Es uno de los libros contables obligatorios."
+    },
+    {
+      "pregunta": "¿Qué es el libro mayor?",
+      "respuesta": "Es el libro donde se agrupan los movimientos de cada cuenta contable por separado. <mark>Es como reorganizar el diario, pero clasificando cada movimiento según a qué cuenta pertenece</mark>. Permite ver cómo ha evolucionado cada cuenta."
+    },
+    {
+      "pregunta": "¿Qué es el balance de comprobación?",
+      "respuesta": "Es un listado que resume el saldo de todas las cuentas en un momento dado. <mark>Es como hacer una foto rápida para comprobar que las cuentas están cuadradas</mark>. Ayuda a detectar errores antes de cerrar el ejercicio."
+    },
+    {
+      "pregunta": "¿Qué es el ciclo contable?",
+      "respuesta": "Es el conjunto de pasos que sigue la contabilidad de una empresa durante un año. <mark>Es como un año completo de la vida contable de la empresa, de principio a fin</mark>. Empieza con el asiento de apertura y termina con el cierre."
+    },
+    {
+      "pregunta": "¿Qué es el asiento de apertura del ciclo contable?",
+      "respuesta": "Es el primer asiento del año, que recoge el patrimonio con el que empieza la empresa. <mark>Es como abrir un nuevo cuaderno de cuentas, copiando el saldo con el que se termina el anterior</mark>. Se basa en el balance final anterior."
+    },
+    {
+      "pregunta": "¿Qué ocurre en el cierre del ciclo contable?",
+      "respuesta": "Se cierran todas las cuentas y se calcula el resultado del ejercicio. <mark>Es como hacer las cuentas finales de todo un año de actividad</mark>. A partir de ahí se elaboran las cuentas anuales del ejercicio."
+    },
+    {
+      "pregunta": "¿Qué son las cuentas anuales de una empresa?",
+      "respuesta": "Son los documentos que resumen la situación económica de la empresa al final del año. <mark>Es como el informe final que resume cómo le ha ido a la empresa durante todo el año</mark>. Son obligatorias para la mayoría de empresas."
+    },
+    {
+      "pregunta": "¿Por qué es importante que la contabilidad esté siempre cuadrada?",
+      "respuesta": "Porque una contabilidad descuadrada indica que hay algún error en los registros. <mark>Es como si las cuentas de un juego no salieran: algo se ha anotado mal por el camino</mark>. Detectar esos errores a tiempo evita problemas legales."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre un cargo y un abono en contabilidad?",
+      "respuesta": "El cargo se anota en la columna izquierda de una cuenta (debe); el abono, en la derecha (haber). <mark>Es como anotar entradas por un lado y salidas por otro, para no mezclarlas</mark>. Entender esa lógica es clave para aprender contabilidad."
+    },
+    {
+      "pregunta": "¿Por qué se dice que la contabilidad es el 'lenguaje de los negocios'?",
+      "respuesta": "Porque traduce toda la actividad de una empresa en cifras claras y comparables. <mark>Es como un idioma común que permite entender cómo le va a cualquier empresa</mark>. Gracias a ella, se puede comparar la situación de distintas empresas."
+    },
+    {
+      "pregunta": "¿Qué utilidad tiene la contabilidad para la toma de decisiones de una empresa?",
+      "respuesta": "Permite conocer con datos reales si conviene invertir, ahorrar o pedir un préstamo. <mark>Es como consultar el estado de tu cuenta antes de decidir un gasto importante</mark>. Sin información contable fiable, las decisiones se tomarían casi a ciegas."
+    },
+    {
+      "pregunta": "¿Qué es un asiento contable?",
+      "respuesta": "Es el registro de una operación económica en el libro diario. <mark>Es como una entrada concreta que resume qué ha pasado y en qué cuentas se refleja</mark>. Cada asiento respeta siempre el método de la partida doble."
+    },
+    {
+      "pregunta": "¿Por qué la técnica contable es una herramienta clave para un técnico en gestión administrativa?",
+      "respuesta": "Porque gran parte de las tareas administrativas de una empresa giran en torno a sus cuentas. <mark>Es como el hilo conductor que atraviesa casi todas las tareas de una oficina</mark>. Sin conocerla, sería difícil gestionar facturas, nóminas o impuestos."
+    }
+  ]
+}

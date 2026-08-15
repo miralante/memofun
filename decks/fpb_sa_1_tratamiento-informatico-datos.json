@@ -1,0 +1,67 @@
+{
+  "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué partes básicas tiene un ordenador?",
+      "respuesta": "La torre, el monitor, el teclado y el ratón son las partes más básicas. <mark>Es como el cuerpo del ordenador: cada parte cumple una función distinta</mark>. La torre guarda los componentes principales."
+    },
+    {
+      "pregunta": "¿Qué es la torre de un ordenador?",
+      "respuesta": "Es la caja que contiene los componentes principales, como el procesador y la memoria. <mark>Es como el cerebro y el corazón del ordenador, guardados en una misma caja</mark>. Ahí se procesa toda la información."
+    },
+    {
+      "pregunta": "¿Qué es un periférico?",
+      "respuesta": "Es un dispositivo que se conecta al ordenador para ampliar sus funciones. <mark>Es como un accesorio que añade una función nueva al equipo principal</mark>. La impresora, el escáner o los altavoces son periféricos."
+    },
+    {
+      "pregunta": "¿Para qué sirve una impresora?",
+      "respuesta": "Sirve para pasar documentos digitales a papel. <mark>Es como convertir lo que ves en pantalla en algo que puedes tocar</mark>. Se usa mucho en oficinas para imprimir contratos, facturas o cartas."
+    },
+    {
+      "pregunta": "¿Para qué sirve un escáner?",
+      "respuesta": "Sirve para convertir un documento en papel en un archivo digital. <mark>Es como hacer el proceso contrario a una impresora</mark>. Facilita mucho archivar y compartir documentos sin usar papel."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre hardware y software?",
+      "respuesta": "El hardware son las partes físicas del ordenador, las que se pueden tocar. <mark>El software son los programas, la parte que no se puede tocar</mark>. Ambos son necesarios para que un ordenador funcione."
+    },
+    {
+      "pregunta": "¿Qué es un sistema operativo?",
+      "respuesta": "Es el programa principal que permite usar y controlar un ordenador. <mark>Es como el director de una orquesta, coordinando todos los programas y el hardware</mark>. Windows es un ejemplo muy conocido."
+    },
+    {
+      "pregunta": "¿Para qué sirve un sistema operativo en el día a día?",
+      "respuesta": "Permite abrir programas, guardar archivos y conectar dispositivos al ordenador. <mark>Es la base sobre la que funciona todo lo demás en el ordenador</mark>. Sin él, el ordenador no sabría cómo hacer nada."
+    },
+    {
+      "pregunta": "¿Qué es un archivo informático?",
+      "respuesta": "Es cualquier documento, imagen o programa guardado en el ordenador. <mark>Es como una hoja de papel guardada dentro de una carpeta digital</mark>. Cada archivo tiene un nombre y un tipo."
+    },
+    {
+      "pregunta": "¿Qué es una carpeta informática?",
+      "respuesta": "Es un espacio donde se guardan y organizan archivos relacionados entre sí. <mark>Es como una carpeta física, pero dentro del ordenador</mark>. Sin carpetas, sería mucho más difícil encontrar cualquier archivo."
+    },
+    {
+      "pregunta": "¿Por qué es importante organizar bien archivos y carpetas?",
+      "respuesta": "Porque facilita encontrar cualquier documento rápidamente cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo mezclado en un mismo montón</mark>."
+    },
+    {
+      "pregunta": "¿Qué es una red local en una oficina?",
+      "respuesta": "Es la conexión que une varios ordenadores dentro de un mismo espacio de trabajo. <mark>Es como una calle privada que conecta solo las casas de un mismo barrio</mark>. Permite compartir archivos e impresoras."
+    },
+    {
+      "pregunta": "¿Para qué sirve compartir una impresora en red?",
+      "respuesta": "Permite que varios ordenadores usen la misma impresora sin necesidad de tener una cada uno. <mark>Es como compartir un electrodoméstico entre varias personas de la misma casa</mark>."
+    },
+    {
+      "pregunta": "¿Qué papel tiene el teclado en el uso diario de un ordenador?",
+      "respuesta": "Permite escribir texto y dar órdenes básicas al ordenador. <mark>Es la herramienta principal para introducir información escrita</mark>. Junto al ratón, es uno de los periféricos más usados."
+    },
+    {
+      "pregunta": "¿Por qué es importante distinguir hardware de software al pedir ayuda técnica?",
+      "respuesta": "Porque el problema puede estar en el equipo físico o en un programa. <mark>Es como saber si un coche falla por el motor o por el sistema de navegación</mark>."
+    }
+  ]
+}

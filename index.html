@@ -25,13 +25,16 @@
     <span class="stars" id="stars-total">⭐ 0</span>
   </div>
   <div class="app-hero container">
-    <img src="assets/img/icono.svg" alt="" width="64" height="64">
+    <div class="hero-mark" aria-hidden="true">
+      <img class="hero-mark-front" src="assets/img/icono.svg" alt="" width="64" height="64">
+      <span class="hero-mark-back">⭐</span>
+    </div>
     <div class="logo">Memofun</div>
     <p class="tagline" data-i18n="home.tagline">Elige una baraja y practica con tarjetas.</p>
   </div>
 </header>
 
-<main id="contenido" class="container">
+<main id="contenido" class="container container-wide">
   <div id="deck-grid" aria-live="polite"></div>
 </main>
 

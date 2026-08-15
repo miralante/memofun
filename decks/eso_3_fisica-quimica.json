@@ -1,0 +1,55 @@
+{
+  "tema": "El método científico: magnitudes, unidades y notación científica - 3º de ESO",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué son las magnitudes derivadas?",
+      "respuesta": "Son magnitudes que se calculan combinando otras magnitudes más básicas. <mark>Es como calcular la velocidad combinando distancia y tiempo, dos magnitudes distintas</mark>. La superficie o el volumen son ejemplos de magnitudes derivadas. Se diferencian de las fundamentales, como la masa."
+    },
+    {
+      "pregunta": "¿Qué es un factor de conversión?",
+      "respuesta": "Es una herramienta matemática para cambiar una magnitud de una unidad a otra. <mark>Es como una tasa de cambio que te permite pasar de una 'moneda' de medida a otra</mark>. Se basa en la equivalencia exacta entre dos unidades. Usarlo bien evita errores graves en los cálculos."
+    },
+    {
+      "pregunta": "¿Qué es la notación científica?",
+      "respuesta": "Es una forma de escribir números muy grandes o muy pequeños de manera más manejable. <mark>Es como resumir un número larguísimo en una expresión corta y clara</mark>. Se escribe como un número entre uno y diez, multiplicado por una potencia de diez."
+    },
+    {
+      "pregunta": "¿Qué son las cifras significativas?",
+      "respuesta": "Son las cifras de un número que aportan información realmente fiable. <mark>Es como decir solo lo que sabes con certeza, sin inventar más precisión de la que tienes</mark>. Ayudan a expresar los resultados con el grado de precisión adecuado."
+    },
+    {
+      "pregunta": "¿Por qué es importante saber interpretar información científica?",
+      "respuesta": "Porque no toda la información disponible está bien explicada o es fiable. <mark>Es como aprender a leer entre líneas antes de creer algo del todo</mark>. Ayuda a distinguir datos reales de conclusiones exageradas. Evita dejarse engañar por titulares llamativos."
+    },
+    {
+      "pregunta": "¿Para qué sirve registrar datos en tablas y gráficos?",
+      "respuesta": "Ayuda a organizar y comparar resultados de forma clara. <mark>Es como ordenar información dispersa en un mueble con cajones bien etiquetados</mark>. Una tabla muestra datos exactos; un gráfico muestra tendencias de un vistazo."
+    },
+    {
+      "pregunta": "¿Qué es un informe científico?",
+      "respuesta": "Es un documento que explica de forma ordenada cómo se hizo una investigación. <mark>Es como contar una historia con introducción, desarrollo y conclusión, pero sobre ciencia</mark>. Incluye objetivos, método, resultados y conclusiones."
+    },
+    {
+      "pregunta": "¿Qué elementos suele incluir un informe científico?",
+      "respuesta": "Introducción, materiales y métodos, resultados y conclusiones. <mark>Es como las distintas partes de una receta: ingredientes, pasos y resultado final</mark>. Seguir esa estructura ayuda a que el trabajo sea claro y fácil de entender."
+    },
+    {
+      "pregunta": "¿Qué significa seleccionar información relevante en un texto de divulgación científica?",
+      "respuesta": "Significa identificar las ideas realmente importantes, dejando fuera lo secundario. <mark>Es como quedarte con el resumen útil de un texto muy largo</mark>. Ayuda a estudiar de forma más eficiente y a entender mejor lo esencial."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre un texto de divulgación científica y un artículo especializado?",
+      "respuesta": "El texto de divulgación explica ciencia de forma accesible para el público general. <mark>El artículo especializado usa un lenguaje muy técnico, pensado para expertos</mark>. Ambos son útiles, pero para lectores distintos."
+    },
+    {
+      "pregunta": "¿Por qué se usan tantas unidades distintas en ciencia?",
+      "respuesta": "Porque cada magnitud necesita una unidad adecuada a su tamaño o naturaleza. <mark>No mides la distancia entre ciudades igual que el grosor de un cabello</mark>. El Sistema Internacional hace que esas unidades sean compatibles entre sí."
+    },
+    {
+      "pregunta": "¿Por qué la precisión es importante al comunicar resultados científicos?",
+      "respuesta": "Porque un dato mal expresado puede llevar a conclusiones erróneas. <mark>Es como dar una dirección equivocada: aunque casi correcta, puede hacer que te pierdas</mark>. Usar bien unidades y cifras significativas evita esos errores."
+    }
+  ]
+}

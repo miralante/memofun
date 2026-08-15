@@ -32,7 +32,9 @@
   document.title = deckTitle + ' | Memofun';
 
   function renderStars() {
-    starsEl.textContent = '⭐ ' + App.storage.totalStars();
+    starsEl.innerHTML =
+      '<span class="stars-icon" aria-hidden="true">⭐<span class="spark">✦</span></span>' +
+      '<span class="stars-count">' + App.storage.totalStars() + '</span>';
   }
 
   function progressText() {
@@ -46,21 +48,47 @@
     progressFillEl.style.width = Math.round(((index + 1) / cards.length) * 100) + '%';
   }
 
-  /* Small "pop" on every card change — purely CSS (@keyframes cardPop),
-     and already neutralized site-wide by the prefers-reduced-motion
-     rule in base.css, so no JS-level motion check is needed here. */
-  function popIn() {
-    cardEl.classList.remove('pop');
-    void cardEl.offsetWidth;
-    cardEl.classList.add('pop');
+  /* "The Flip" — every card change (a new question, or its answer being
+     revealed) plays as a 2D squash-and-release rather than a plain
+     content swap (see .flashcard.flip-out in componentes.css). `flipping`
+     blocks a second flip from starting mid-transition — without it a
+     rapid double-swipe/double-tap could stack transitions and desync the
+     visible card from `index`. `transitionend` is the real signal the
+     squash finished; the timeout is a fallback because
+     prefers-reduced-motion sets the transition to a near-zero duration,
+     where transitionend can be unreliable in some browsers. */
+  var flipping = false;
+
+  function onceSquashed(cb) {
+    var done = false;
+    function finish() {
+      if (done) return;
+      done = true;
+      cardEl.removeEventListener('transitionend', onEnd);
+      clearTimeout(timer);
+      cb();
+    }
+    function onEnd(e) { if (e.target === cardEl && e.propertyName === 'transform') finish(); }
+    cardEl.addEventListener('transitionend', onEnd);
+    var timer = setTimeout(finish, 200);
   }
 
-  function renderCard() {
+  function flip(paint) {
+    if (flipping) return;
+    flipping = true;
+    cardEl.classList.add('flip-out');
+    onceSquashed(function () {
+      paint();
+      cardEl.classList.remove('flip-out');
+      onceSquashed(function () { flipping = false; });
+    });
+  }
+
+  function paintQuestion() {
     var card = cards[index];
     cardEl.innerHTML = '<div class="cara">' + card.pregunta + '</div>';
     btnReveal.classList.remove('hidden');
     btnNext.classList.add('secondary');
-    popIn();
     updateProgress();
     btnNext.textContent = (index === cards.length - 1)
       ? App.i18n.t('study.finish')
@@ -68,7 +96,7 @@
     btnPrev.disabled = index === 0;
   }
 
-  function revealAnswer() {
+  function paintAnswer() {
     var card = cards[index];
     cardEl.innerHTML =
       '<div class="cara">' + card.pregunta + '</div>' +
@@ -76,9 +104,11 @@
       '<div class="respuesta">' + card.respuesta + '</div>';
     btnReveal.classList.add('hidden');
     btnNext.classList.remove('secondary');
-    popIn();
     updateProgress();
   }
+
+  function renderCard() { flip(paintQuestion); }
+  function revealAnswer() { flip(paintAnswer); }
 
   function showEndScreen() {
     App.storage.completeDeck(deckId);
@@ -91,6 +121,7 @@
   }
 
   function goNext() {
+    if (flipping) return;
     if (index === cards.length - 1) {
       showEndScreen();
       return;
@@ -100,6 +131,7 @@
   }
 
   function goPrev() {
+    if (flipping) return;
     if (index === 0) return;
     index--;
     renderCard();

@@ -1,0 +1,47 @@
+{
+  "tema": "El método científico avanzado - 4º de ESO",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué es un control experimental?",
+      "respuesta": "Es un grupo de comparación que no recibe el tratamiento que se está probando. <mark>Es como comparar una planta regada normalmente con otra que recibe un fertilizante nuevo</mark>. Permite saber si el cambio observado se debe realmente al tratamiento. Sin control, sería difícil confiar en los resultados."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre un control positivo y uno negativo?",
+      "respuesta": "El control positivo confirma que el experimento puede detectar el efecto esperado. <mark>El control negativo comprueba que no aparece ese efecto cuando no debería aparecer</mark>. Ambos ayudan a confiar en que el experimento funciona bien. Sin ellos, sería difícil interpretar cualquier resultado."
+    },
+    {
+      "pregunta": "¿Por qué es importante distinguir entre variables independientes y dependientes?",
+      "respuesta": "La variable independiente es la que el investigador decide cambiar. <mark>La variable dependiente es la que se mide, porque puede cambiar a causa de la primera</mark>. Por ejemplo, la luz que recibe una planta y su crecimiento. Identificarlas ayuda a diseñar experimentos claros."
+    },
+    {
+      "pregunta": "¿Qué es el modelado científico?",
+      "respuesta": "Es representar un proceso complejo de una forma más sencilla de estudiar. <mark>Es como usar una maqueta para entender algo demasiado grande o complicado de observar directamente</mark>. Un modelo del ADN o del sistema solar son ejemplos comunes. Ayuda a comprender procesos invisibles a simple vista."
+    },
+    {
+      "pregunta": "¿Cómo se distingue una fuente científica fiable de una que no lo es?",
+      "respuesta": "Se comprueba quién la escribió, con qué objetivo y si está actualizada. <mark>Es como comprobar la reputación de quien te da un consejo antes de seguirlo</mark>. Las revistas científicas revisadas por expertos suelen ser más fiables. Contrastar varias fuentes evita información falsa o incompleta."
+    },
+    {
+      "pregunta": "¿Por qué se dice que la ciencia avanza de forma colectiva e interdisciplinar?",
+      "respuesta": "Porque los descubrimientos suelen apoyarse en trabajos de otras personas y otras áreas. <mark>Es como construir un puzle entre muchas manos, cada una aportando piezas distintas</mark>. Biólogos, físicos o químicos a veces colaboran en un mismo proyecto. Esa colaboración acelera el conocimiento."
+    },
+    {
+      "pregunta": "¿Cómo ha cambiado el conocimiento científico a lo largo de la historia?",
+      "respuesta": "Las teorías científicas se corrigen o se sustituyen cuando aparecen mejores pruebas. <mark>Es como actualizar un mapa a medida que se descubren territorios nuevos</mark>. Ideas que antes se creían ciertas pueden cambiar con el tiempo. Esa capacidad de corregirse es una gran fortaleza de la ciencia."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre analizar resultados y solo describirlos?",
+      "respuesta": "Describir es contar qué se observó, sin explicar por qué ocurrió. <mark>Analizar es buscar el porqué, comparando datos y buscando patrones</mark>. El análisis ayuda a sacar conclusiones útiles de un experimento. Sin análisis, los datos por sí solos dicen muy poco."
+    },
+    {
+      "pregunta": "¿Por qué es importante reconocer el trabajo de las personas dedicadas a la ciencia?",
+      "respuesta": "Porque sus descubrimientos mejoran la vida de toda la sociedad. <mark>Detrás de cada avance científico hay años de trabajo, dudas y persistencia</mark>. Reconocer ese esfuerzo ayuda a valorar mejor la ciencia. También anima a que más personas se interesen por investigar."
+    },
+    {
+      "pregunta": "¿Qué papel tiene el trabajo de campo en la investigación científica?",
+      "respuesta": "Permite observar fenómenos directamente en su entorno natural. <mark>Es como investigar sobre el terreno, en vez de solo desde un laboratorio</mark>. Aporta datos que a veces no se pueden conseguir de otra forma. Se combina con el trabajo de laboratorio para una visión completa."
+    }
+  ]
+}

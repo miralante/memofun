@@ -14,10 +14,52 @@ header.app-header .app-hero {
 }
 
 header.app-header .logo {
+  font-family: var(--font-display);
   font-size: var(--text-title);
-  font-weight: var(--weight-strong);
+  font-weight: 800;
   color: var(--accent);
   margin-bottom: var(--space-1);
+}
+
+/* ---------- Hero mark — a one-time, load-only peek: the app icon flips
+   to a star and back, the same scaleX squash-and-release used by the
+   study screen's real card flip (see .flashcard.flip-out below), so the
+   home screen previews the flip motif before the person ever studies a
+   card. Purely decorative (aria-hidden in the markup); neutralized to an
+   instant no-op by the sitewide prefers-reduced-motion rule since it
+   starts and ends on the same frame (the icon). ---------- */
+.hero-mark {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+.hero-mark-front,
+.hero-mark-back {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Base transform matches each face's own 0% keyframe, so the very first
+   paint (before the animation engine applies its first frame) can't
+   show both faces overlapping. */
+.hero-mark-front { transform: scaleX(1); animation: heroMarkFront 2.6s var(--ease) 1; }
+.hero-mark-back { font-size: 40px; transform: scaleX(0); animation: heroMarkBack 2.6s var(--ease) 1; }
+
+@keyframes heroMarkFront {
+  0%, 15% { transform: scaleX(1); }
+  25%, 75% { transform: scaleX(0); }
+  85%, 100% { transform: scaleX(1); }
+}
+
+@keyframes heroMarkBack {
+  0%, 25% { transform: scaleX(0); }
+  35%, 65% { transform: scaleX(1); }
+  75%, 100% { transform: scaleX(0); }
 }
 
 header.app-header .tagline {
@@ -74,12 +116,37 @@ header.app-header .tagline {
   align-items: center;
   gap: 8px;
   min-height: 40px;
-  padding: 6px 16px;
+  padding: 6px 18px 6px 14px;
   font-size: var(--text-base);
   font-weight: var(--weight-strong);
   color: var(--color-star);
   background: var(--accent-2-soft);
+  border: 2px solid var(--accent-2-soft);
   border-radius: var(--radius-pill);
+}
+
+.stars .stars-icon {
+  position: relative;
+  display: inline-block;
+  font-size: var(--text-large);
+  line-height: 1;
+}
+
+/* Small sparkle riding the main star — a static texture, not a
+   per-star counter (the total only ever grows, see assets/js/storage.js,
+   so one glyph per star would grow without bound). */
+.stars .stars-icon .spark {
+  position: absolute;
+  top: -2px;
+  right: -8px;
+  font-size: 10px;
+  color: var(--accent-2);
+}
+
+.stars .stars-count {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--text-large);
 }
 
 /* ---------- Buttons ---------- */
@@ -188,6 +255,13 @@ header.app-header .tagline {
 
 /* ---------- Deck grid ---------- */
 
+/* Wider column for the home screen's deck grid only — reading-heavy
+   screens (study card, settings) keep the narrower .container so line
+   length stays good for Easy Read. Chained with .container for higher
+   specificity than the plain .container rule in base.css, regardless of
+   stylesheet order. */
+.container.container-wide { max-width: var(--container-max-wide); }
+
 .deck-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -214,10 +288,36 @@ header.app-header .tagline {
 
 .deck-card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
 
-.deck-card .deck-icon {
-  font-size: 48px;
-  line-height: 1;
+/* Devices with a real pointer only — a hover tilt would just be stuck
+   "on" after a tap on touchscreens. */
+@media (hover: hover) {
+  .deck-card {
+    transition: transform var(--motion-normal) var(--ease),
+      box-shadow var(--motion-normal) var(--ease),
+      border-color var(--motion-normal) var(--ease);
+  }
+  .deck-card:hover { transform: translateY(-4px) rotate(-1deg); box-shadow: var(--shadow-lg); }
 }
+
+.deck-card .deck-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  line-height: 1;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  border: 2px solid var(--accent);
+}
+
+/* Badge color cycles per deck (same index app.js already uses to cycle
+   the emoji icon) — purely decorative variety, like different-colored
+   stickers for different topics. Never used behind text. */
+.deck-card.badge-b .deck-icon { background: var(--accent-2-soft); border-color: var(--accent-2); }
+.deck-card.badge-c .deck-icon { background: var(--sticker-c-soft); border-color: var(--sticker-c); }
+.deck-card.badge-d .deck-icon { background: var(--sticker-d-soft); border-color: var(--sticker-d); }
 
 .deck-card h3 {
   font-size: var(--text-base);
@@ -230,16 +330,36 @@ header.app-header .tagline {
   color: var(--color-text-soft);
 }
 
-.deck-card .deck-stars {
+/* "Peeled corner" completion stamp — a folded-paper triangle with a
+   star tucked under it, replacing a flat badge chip. */
+.deck-card .deck-stamp {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  color: var(--accent-2);
-  background: var(--accent-2-soft);
-  font-size: var(--text-small);
-  line-height: 1;
-  padding: 4px 8px;
-  border-radius: var(--radius-pill);
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  border-top-right-radius: var(--radius);
+}
+
+.deck-card .deck-stamp::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 44px 44px 0;
+  border-color: transparent var(--accent-2-soft) transparent transparent;
+}
+
+.deck-card .deck-stamp::after {
+  content: '⭐';
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 16px;
 }
 
 .empty-state {
@@ -276,11 +396,25 @@ header.app-header .tagline {
 }
 
 .progress-bar .progress-fill {
+  position: relative;
   height: 100%;
   width: 0%;
   background: var(--accent);
   border-radius: 14px;
   transition: width var(--motion-normal) var(--ease);
+}
+
+/* A marker riding the leading edge of the fill — the fill's width
+   already encodes real progress through a real sequence of cards, this
+   just gives that number a game-like face. */
+.progress-bar .progress-fill::after {
+  content: '★';
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #FFFFFF;
 }
 
 .progress-bar .progress-text {
@@ -306,18 +440,18 @@ header.app-header .tagline {
   justify-content: center;
   gap: var(--space-2);
   touch-action: pan-y;
+  transform: scaleX(1);
+  transition: transform var(--motion-fast) var(--ease);
 }
 
-/* Small "pop" whenever the card changes (new question, or the answer
-   is revealed) — neutralized site-wide by prefers-reduced-motion. */
-.flashcard.pop {
-  animation: cardPop var(--motion-normal) var(--ease);
-}
-
-@keyframes cardPop {
-  from { opacity: 0.6; transform: scale(0.97) translateY(4px); }
-  to { opacity: 1; transform: none; }
-}
+/* "The Flip" — the study screen's real reveal/next mechanic, whenever a
+   new question or its answer appears. A 2D scaleX squash-and-release,
+   deliberately not a 3D rotateY/perspective transform, to avoid the
+   spatial disorientation a 3D flip can cause. tools/study/app.js toggles
+   this class, swaps the content once the squash finishes, then removes
+   it so the card releases back open. Neutralized to an instant swap
+   site-wide by prefers-reduced-motion. */
+.flashcard.flip-out { transform: scaleX(0); }
 
 .flashcard .cara {
   font-size: var(--text-large);
@@ -510,5 +644,20 @@ footer.app-footer a { color: var(--color-text-soft); }
 
 @media (max-width: 560px) {
   header.app-header .logo { font-size: 30px; }
-  .flashcard { min-height: 220px; }
+  .flashcard { min-height: 220px; padding-bottom: calc(var(--space-4) + var(--button-min)); }
+
+  /* Sticky bottom bar for easier thumb reach. Padding-bottom on
+     .flashcard above keeps a long answer's last line clear of it once
+     scrolled fully. */
+  .flashcard-controls {
+    position: sticky;
+    bottom: 0;
+    background: var(--color-bg);
+    border-top: 2px solid var(--color-border);
+    margin-left: calc(-1 * var(--space-2));
+    margin-right: calc(-1 * var(--space-2));
+    padding: var(--space-2);
+    padding-bottom: calc(var(--space-2) + env(safe-area-inset-bottom));
+    z-index: 10;
+  }
 }

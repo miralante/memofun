@@ -19,6 +19,7 @@ family (Apptonomia, Calculia, Okeymoney, Sinonimia, Teclatlon):
 | If you are… | Start with… |
 |---|---|
 | 👤 End user or direct family member | The app — nothing else to read |
-| ❤️ Family/teacher preparing content | [`creating-decks-guide.md`](creating-decks-guide.md) — full step-by-step |
+| ❤️ Family/teacher preparing content with an AI that has repo access (Claude Code, Cursor, Cowork…) | [`internal-creating-decks-guide.md`](internal-creating-decks-guide.md) — full step-by-step |
+| ❤️ Family/teacher preparing content with a standalone AI chat (ChatGPT, Claude.ai…), or unsure which case applies | [`ai-creating-decks-guide.md`](ai-creating-decks-guide.md) — pick your path |
 | 🤔 Just want to understand what it is | [`SPEC.md`](SPEC.md) |
 | 💻 Developer | [`technical.md`](technical.md) |

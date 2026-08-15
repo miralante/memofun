@@ -26,8 +26,11 @@ memofun/
 ├── legal/                protección de datos
 ├── scripts/              config-parser.js · check.js · check-version-bump.js (Node, offline)
 ├── config.md             ejemplo de config de contenido (ver §8)
-├── content-indices/      biblioteca de índices Primaria→FP GM (ver README propio)
-└── doc/es/ · doc/en/     esta documentación
+└── doc/
+    ├── es/ · en/         esta documentación
+    └── curriculum/es/    biblioteca de índices curriculares Primaria→FP GM (ver README propio)
+                          curriculum/en/ es una carpeta hermana vacía, reservada
+                          para la misma biblioteca en otro idioma
 ```
 
 ## 2. Módulos compartidos (`assets/js/`)
@@ -93,7 +96,7 @@ paridad ES/EN, igual que `tema`), por ejemplo:
 Si están presentes, la pantalla de inicio (`app.js`) agrupa las
 barajas en curso → asignatura en vez de una rejilla plana — ver §4.1.
 Al generar una baraja desde un archivo
-`content-indices/<etapa>/<curso>/<asignatura>.md`, deriva ambos campos
+`doc/curriculum/<idioma>/<etapa>/<curso>/<asignatura>.md`, deriva ambos campos
 de la ruta/frontmatter (p. ej. `primaria/3/lengua-castellana.md` →
 `curso: "3º de Primaria"`, `asignatura: "Lengua Castellana"`); déjalos sin
 definir en barajas sueltas de "modo simple" sin curso propio — caen en
@@ -181,19 +184,19 @@ que ahora lo lee el agente directamente en vez de un script:
   entre todos los puntos, sin dejar ninguno sin tarjeta ni inventar
   otros. Útil cuando la persona de apoyo ya tiene un temario o guion
   claro y quiere que la baraja lo siga fielmente. Ver el ejemplo en
-  `config.md`, o la biblioteca ya preparada en `content-indices/`.
+  `config.md`, o la biblioteca ya preparada en `doc/curriculum/`.
 
 `scripts/config-parser.js` conserva el **análisis** de este formato
 (`parseMarkdown()`, `parseIndice()`, `slugify()`) como funciones puras
 sin red ni claves — las usa `scripts/check.js` para validar que todos
-los archivos de `content-indices/` tienen un frontmatter correcto y,
+los archivos de `doc/curriculum/` tienen un frontmatter correcto y,
 si declaran un índice, que no está vacío. No genera contenido; solo
 entiende su forma.
 
-**Flujo completo** (ver también `guia-crear-barajas.md`):
+**Flujo completo** (ver también `guia-interna-crear-barajas.md`):
 
 1. Se pide al agente que genere una baraja, señalando un archivo de
-   `content-indices/` o un `config.md` nuevo.
+   `doc/curriculum/` o un `config.md` nuevo.
 2. El agente escribe las tarjetas siguiendo las reglas de
    `CLAUDE.md` → "Generating deck content" (aprendizaje significativo,
    Lectura Fácil, tono divertido, datos curiosos, cobertura del
@@ -201,7 +204,7 @@ entiende su forma.
 3. El agente escribe `decks/<salida>.json` directamente (formato de §3).
 4. El agente añade la entrada correspondiente a `decks/manifest.json`,
    con `curso`/`asignatura` si la baraja viene de un archivo de
-   `content-indices/` (ver §4).
+   `doc/curriculum/` (ver §4).
 5. Se revisa el contenido (la propia persona que lo pidió, o el
    agente aplicando el checklist) antes de darlo por publicado.
 

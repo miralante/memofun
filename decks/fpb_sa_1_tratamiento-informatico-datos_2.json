@@ -1,0 +1,67 @@
+{
+  "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué es internet?",
+      "respuesta": "Es una red mundial que conecta ordenadores de todo el planeta entre sí. <mark>Es como una red de carreteras invisible que conecta a todo el mundo</mark>. Permite buscar información, comunicarse y trabajar a distancia."
+    },
+    {
+      "pregunta": "¿Qué es un navegador de internet?",
+      "respuesta": "Es el programa que se usa para acceder a páginas web. <mark>Es como la ventana desde la que miras todo lo que hay en internet</mark>. Chrome o Firefox son ejemplos conocidos de navegadores."
+    },
+    {
+      "pregunta": "¿Qué funciones básicas tiene un navegador?",
+      "respuesta": "Permite escribir una dirección web, buscar información y guardar páginas favoritas. <mark>Es como un mando a distancia que te lleva a cualquier rincón de internet</mark>. También guarda un historial de páginas visitadas."
+    },
+    {
+      "pregunta": "¿Qué es una copia de seguridad?",
+      "respuesta": "Es una copia de los datos importantes, guardada aparte por si algo falla. <mark>Es como tener una fotocopia guardada de un documento importante, por si el original se pierde</mark>."
+    },
+    {
+      "pregunta": "¿Por qué es importante hacer copias de seguridad con regularidad?",
+      "respuesta": "Porque un fallo del ordenador puede hacer perder toda la información guardada. <mark>Es como asegurar algo valioso por si ocurre un imprevisto</mark>. Sin copia, esos datos podrían perderse para siempre."
+    },
+    {
+      "pregunta": "¿Qué hace que una contraseña sea segura?",
+      "respuesta": "Combinar letras, números y símbolos, y no ser fácil de adivinar. <mark>Es como poner una buena cerradura a una puerta, en vez de una fácil de forzar</mark>. Evitar datos personales la hace más segura."
+    },
+    {
+      "pregunta": "¿Qué buenas prácticas básicas conviene seguir con las contraseñas?",
+      "respuesta": "No compartirlas, cambiarlas de vez en cuando y no usar la misma en todos lados. <mark>Es como no dejar la misma llave para todas las puertas de tu vida</mark>."
+    },
+    {
+      "pregunta": "¿Qué es un virus informático?",
+      "respuesta": "Es un programa dañino que se instala en un ordenador sin permiso. <mark>Es como una infección que afecta al funcionamiento normal del equipo</mark>. Puede robar información o dañar archivos."
+    },
+    {
+      "pregunta": "¿Cómo se puede proteger un ordenador de los virus?",
+      "respuesta": "Usando un antivirus, evitando enlaces sospechosos y actualizando los programas. <mark>Es como vacunarse y evitar lugares de riesgo al mismo tiempo</mark>. No abrir archivos de desconocidos también ayuda."
+    },
+    {
+      "pregunta": "¿Qué es la protección de datos personales?",
+      "respuesta": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a sus datos personales</mark>."
+    },
+    {
+      "pregunta": "¿Por qué hay que tener cuidado al usar el ordenador del trabajo con datos personales?",
+      "respuesta": "Porque esos datos pertenecen a otras personas y deben tratarse con responsabilidad. <mark>Es como cuidar algo que no es tuyo, pero de lo que eres responsable</mark>."
+    },
+    {
+      "pregunta": "¿Qué es el mantenimiento básico de un equipo informático?",
+      "respuesta": "Incluye limpiarlo, actualizar sus programas y revisar que todo funcione bien. <mark>Es como el mantenimiento regular de un coche, para que no se estropee</mark>."
+    },
+    {
+      "pregunta": "¿Por qué es importante actualizar regularmente los programas de un ordenador?",
+      "respuesta": "Porque las actualizaciones suelen corregir fallos de seguridad conocidos. <mark>Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar</mark>."
+    },
+    {
+      "pregunta": "¿Qué relación hay entre el mantenimiento del equipo y la seguridad informática?",
+      "respuesta": "Un equipo bien mantenido y actualizado es mucho más difícil de atacar. <mark>Es como mantener bien cerrada una casa para que sea más difícil entrar en ella</mark>."
+    },
+    {
+      "pregunta": "¿Por qué es importante formarse en seguridad informática básica en cualquier puesto de oficina?",
+      "respuesta": "Porque cada vez más tareas de trabajo dependen de herramientas digitales. <mark>Es como necesitar saber nadar en un entorno donde cada vez hay más agua</mark>."
+    }
+  ]
+}

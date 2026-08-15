@@ -19,6 +19,13 @@
     return ICONS[index % ICONS.length];
   }
 
+  var BADGE_CLASSES = ['', 'badge-b', 'badge-c', 'badge-d'];
+
+  function badgeClassFor(index) {
+    var cls = BADGE_CLASSES[index % BADGE_CLASSES.length];
+    return cls ? ' ' + cls : '';
+  }
+
   function buildUrl(curso, asignatura) {
     var qs = new URLSearchParams();
     if (curso) qs.set('curso', curso);
@@ -36,11 +43,11 @@
   function deckCardHtml(deck, i, progreso) {
     var done = progreso.completado && progreso.completado[deck.id];
     return (
-      '<a class="deck-card" role="listitem" href="' + studyUrl(deck) + '">' +
+      '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + studyUrl(deck) + '">' +
       '<span class="deck-icon" aria-hidden="true">' + (deck.icono || iconFor(i)) + '</span>' +
       '<h3>' + App.utils.escapeHtml(deck.tema) + '</h3>' +
       '<span class="deck-meta">' + (deck.cantidad || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
-      (done ? '<span class="deck-stars" aria-hidden="true">⭐</span>' : '') +
+      (done ? '<span class="deck-stamp" aria-hidden="true"></span>' : '') +
       '</a>'
     );
   }
@@ -106,7 +113,7 @@
     }
 
     html += '<h2 class="section-heading">' + App.i18n.t('home.chooseCourse') + '</h2>';
-    html += '<div class="deck-grid" role="list">' + byCourse.order.map(function (curso) {
+    html += '<div class="deck-grid" role="list">' + byCourse.order.map(function (curso, i) {
       var courseDecks = byCourse.map[curso];
       var subjectCount = groupBy(courseDecks, function (d) { return d.asignatura || ''; }).order.length;
       var done = completedCount(courseDecks, progreso);
@@ -115,7 +122,7 @@
         meta += ' · ' + App.i18n.t('home.completedOf')
           .replace('{done}', done).replace('{total}', courseDecks.length);
       }
-      return '<a class="deck-card" role="listitem" href="' + buildUrl(curso) + '">' +
+      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + buildUrl(curso) + '">' +
         '<span class="deck-icon" aria-hidden="true">🎓</span>' +
         '<h3>' + App.utils.escapeHtml(curso) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
@@ -155,14 +162,14 @@
       (pinned ? '⭐ ' + App.i18n.t('home.pinnedButton') : '☆ ' + App.i18n.t('home.pinButton')) +
       '</button></div>';
 
-    html += '<div class="deck-grid" role="list">' + bySubject.order.map(function (asignatura) {
+    html += '<div class="deck-grid" role="list">' + bySubject.order.map(function (asignatura, i) {
       var subjectDecks = bySubject.map[asignatura];
       var single = subjectDecks.length === 1;
       var href = single ? studyUrl(subjectDecks[0]) : buildUrl(curso, asignatura);
       var meta = single
         ? (subjectDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards')
         : subjectDecks.length + ' ' + App.i18n.t('home.decks');
-      return '<a class="deck-card" role="listitem" href="' + href + '">' +
+      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
         '<span class="deck-icon" aria-hidden="true">' + (single ? (subjectDecks[0].icono || '📘') : '📘') + '</span>' +
         '<h3>' + App.utils.escapeHtml(asignatura) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
@@ -228,7 +235,9 @@
   document.getElementById('lang-en').addEventListener('click', function () { App.i18n.setLocale('en'); });
   paintLanguageSelector();
 
-  document.getElementById('stars-total').textContent = '⭐ ' + App.storage.totalStars();
+  document.getElementById('stars-total').innerHTML =
+    '<span class="stars-icon" aria-hidden="true">⭐<span class="spark">✦</span></span>' +
+    '<span class="stars-count">' + App.storage.totalStars() + '</span>';
 
   loadDecks();
 

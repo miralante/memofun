@@ -41,7 +41,7 @@ replaces what used to be a system prompt sent to an external API, and
 that's the only thing that changed: the rules themselves are unchanged
 and still binding.
 
-1. Read the content config: either a `content-indices/**/*.md` file or
+1. Read the content config: either a `doc/curriculum/**/*.md` file or
    a one-off `config.md`-shaped file (frontmatter: `tema`, `nivel`,
    `cantidad`, `salida`, optional `idioma`; body: optional `# Índice`
    bullet list — see `doc/es/tecnico.md` §3 and §8 for the exact shape,
@@ -88,7 +88,8 @@ and still binding.
      `<br>`) — never markdown.
    - Adapt depth to `nivel` (principiante/intermedio/avanzado). Don't
      number cards or repeat the topic name verbatim in every question.
-     No duplicate or redundant cards.
+     Repeating a concept on purpose (see step 7 below) is fine; padding
+     with a card that adds zero new nuance, example, or angle is not.
    - Never use "discapacidad", "paciente", or clinical language — the
      content is about the topic, not about who's studying it.
    - If there's a `# Índice`: spread the cards across **every** point
@@ -102,16 +103,31 @@ and still binding.
 5. Add the entry to `decks/manifest.json` yourself: `{id, tema, nivel,
    cantidad, file, icono}` — `id` can just be the slug (readable,
    deterministic, no hashing needed). If the source was a
-   `content-indices/<etapa>/<curso>/<asignatura>.md` file, also set
-   `curso` and `asignatura` (derived from the path, e.g.
+   `doc/curriculum/<idioma>/<etapa>/<curso>/<asignatura>.md` file, also
+   set `curso` and `asignatura` (derived from the path, e.g.
    `primaria/3/lengua-castellana.md` → `curso: "3º de Primaria"`,
    `asignatura: "Lengua Castellana"` — `doc/en/technical.md` §4) so the home
    screen groups it under that course instead of listing it as a
    one-off topic. Leave both unset for ad-hoc "modo simple" decks.
 6. Tell the user what you generated and where, and that you've applied
-   the review checklist yourself (`doc/es/guia-crear-barajas.md` §4) —
+   the review checklist yourself (`doc/es/guia-interna-crear-barajas.md` §4) —
    but if the topic is unfamiliar, technical, or high-stakes, say so
    and suggest a human double-check before the deck ships.
+7. **Repetition reinforces, it isn't redundancy.** When a deck extends
+   an existing topic/course (e.g. adding `literatura_3` next to an
+   existing `literatura`/`literatura_2` for the same course), reuse
+   that course's key concepts on purpose instead of hunting for
+   never-touched trivia. Some cards can repeat an earlier question
+   near-verbatim (pure repetition, for consolidation); others should
+   restate the same idea through a new example, angle, or context
+   (varied repetition, for multiple encoding). Don't chase novelty at
+   the cost of dropping a concept the syllabus expects the learner to
+   meet more than once. Full reasoning: `doc/en/SPEC.md` §1.3.
+8. **Stick to the temario.** When a `doc/curriculum/**/*.md` file or
+   the subject/course's real official curriculum exists, that is both
+   the floor and the ceiling for what a deck (or a deck extending it)
+   covers — don't drift into adjacent-but-unlisted topics just because
+   they "read well." Full reasoning: `doc/en/SPEC.md` §1.3.
 
 ## Vanilla only — no dependencies, no Anki format
 
@@ -145,7 +161,9 @@ format without raising it with the user first.
 | Product, audience, non-negotiable principles | [`doc/en/SPEC.md`](doc/en/SPEC.md) · [`doc/es/SPEC.md`](doc/es/SPEC.md) |
 | Roles (persona usuaria / apoyo / construcción) | [`doc/en/roles.md`](doc/en/roles.md) · [`doc/es/roles.md`](doc/es/roles.md) |
 | Architecture, file-by-file, accessibility rules | [`doc/en/technical.md`](doc/en/technical.md) · [`doc/es/tecnico.md`](doc/es/tecnico.md) |
-| Content ingestion (`config.md` → deck, written by the AI agent), step by step | [`doc/en/creating-decks-guide.md`](doc/en/creating-decks-guide.md) · [`doc/es/guia-crear-barajas.md`](doc/es/guia-crear-barajas.md) |
+| External-AI entry point (which guide to use depending on whether the tool — Cowork, Cursor, ChatGPT… — has repo access or not) | [`doc/en/ai-creating-decks-guide.md`](doc/en/ai-creating-decks-guide.md) · [`doc/es/guia-ia-crear-barajas.md`](doc/es/guia-ia-crear-barajas.md) |
+| Content ingestion (`config.md` → deck, written by the AI agent), step by step | [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) · [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) |
+| Same, but via a generic AI chat with no repo access (support role copies a prompt, pastes the JSON back) | [`doc/en/chat-ai-creating-decks-guide.md`](doc/en/chat-ai-creating-decks-guide.md) · [`doc/es/guia-chat-ia-crear-barajas.md`](doc/es/guia-chat-ia-crear-barajas.md) |
 | Internationalization | [`doc/en/I18N.md`](doc/en/I18N.md) · [`doc/es/I18N.md`](doc/es/I18N.md) |
 | Cloudflare deploy | [`CLOUDFLARE.md`](CLOUDFLARE.md) |
 | Human contribution flow | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |

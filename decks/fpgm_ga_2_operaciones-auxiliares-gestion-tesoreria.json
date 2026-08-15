@@ -1,0 +1,87 @@
+{
+  "tema": "Operaciones Auxiliares de Gestión de Tesorería - FP GM Gestión Administrativa (2º)",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué es la tesorería de una empresa?",
+      "respuesta": "Es el dinero disponible que tiene una empresa para hacer frente a sus pagos. <mark>Es como el monedero de la empresa, siempre listo para gastos del día a día</mark>. Incluye el dinero en caja y en las cuentas bancarias."
+    },
+    {
+      "pregunta": "¿Qué es el control de caja?",
+      "respuesta": "Es comprobar que el dinero físico coincide con lo que deberían reflejar los registros. <mark>Es como contar el cambio de una hucha para ver si coincide con lo apuntado</mark>. Un buen control de caja evita pérdidas y fraudes."
+    },
+    {
+      "pregunta": "¿Qué es el arqueo de caja?",
+      "respuesta": "Es el recuento físico del dinero en efectivo que hay en un momento dado. <mark>Es como vaciar la caja y contar cada billete y moneda uno por uno</mark>. Si no coincide con los registros, hay que investigar dónde está el error."
+    },
+    {
+      "pregunta": "¿Qué es el libro de caja?",
+      "respuesta": "Es el documento donde se anotan todas las entradas y salidas de dinero en efectivo. <mark>Es como un diario, pero solo del dinero físico que entra y sale cada día</mark>. Es una herramienta básica para controlar la tesorería."
+    },
+    {
+      "pregunta": "¿Qué es una cuenta corriente bancaria?",
+      "respuesta": "Es una cuenta que permite ingresar, retirar y gestionar dinero a través de un banco. <mark>Es como un monedero digital que guarda el dinero de la empresa de forma segura</mark>. Permite hacer pagos, cobros y transferencias."
+    },
+    {
+      "pregunta": "¿Qué es la conciliación bancaria?",
+      "respuesta": "Es comparar los movimientos que la empresa tiene registrados con los del banco. <mark>Es como comprobar que tu cuaderno de cuentas coincide con el extracto bancario</mark>. Ayuda a detectar errores o movimientos pendientes."
+    },
+    {
+      "pregunta": "¿Qué es un cheque?",
+      "respuesta": "Es un documento con el que una persona ordena al banco pagar una cantidad a otra. <mark>Es como una orden de pago en papel, respaldada por el dinero de una cuenta</mark>. Quien lo recibe puede cobrarlo o ingresarlo."
+    },
+    {
+      "pregunta": "¿Qué es un pagaré?",
+      "respuesta": "Es un documento en el que alguien se compromete a pagar una cantidad en una fecha futura. <mark>Es como una promesa de pago por escrito, con una fecha concreta</mark>. Se usa mucho para aplazar pagos entre empresas."
+    },
+    {
+      "pregunta": "¿Qué es una letra de cambio?",
+      "respuesta": "Es un documento que ordena a alguien pagar una cantidad a otra persona, en una fecha fijada. <mark>Es como un pagaré, pero donde una tercera persona da la orden de pago</mark>. Puede transmitirse a otra persona antes de su vencimiento."
+    },
+    {
+      "pregunta": "¿Qué es una transferencia bancaria?",
+      "respuesta": "Es el traspaso de dinero de una cuenta bancaria a otra. <mark>Es como mover dinero de un monedero a otro, sin tocarlo físicamente</mark>. Puede hacerse de forma inmediata o programada."
+    },
+    {
+      "pregunta": "¿Qué es la domiciliación bancaria?",
+      "respuesta": "Es autorizar a una empresa a cobrar directamente de tu cuenta de forma periódica. <mark>Es como dejar una llave para que alguien de confianza cobre lo acordado cada mes</mark>. Se usa mucho para pagos recurrentes."
+    },
+    {
+      "pregunta": "¿Qué es el descuento comercial de efectos?",
+      "respuesta": "Es adelantar el cobro de un documento de pago, como una letra, a cambio de una comisión. <mark>Es como cambiar en un banco un pago futuro por dinero disponible ahora mismo</mark>. El banco cobra un interés por adelantarlo."
+    },
+    {
+      "pregunta": "¿Qué es un impagado?",
+      "respuesta": "Es un documento de cobro que no se ha pagado en la fecha acordada. <mark>Es como esperar un pago que, en la fecha prevista, no llega</mark>. Puede deberse a falta de fondos o a un error del cliente."
+    },
+    {
+      "pregunta": "¿Cómo se gestiona un impagado en una empresa?",
+      "respuesta": "Se reclama el pago, se negocia un nuevo plazo o, en último caso, se inician acciones legales. <mark>Es como intentar recuperar algo prestado que no te han devuelto a tiempo</mark>. Cuanto antes se actúe, más fácil es recuperarlo."
+    },
+    {
+      "pregunta": "¿Qué son las aplicaciones informáticas de gestión de tesorería?",
+      "respuesta": "Son programas que ayudan a controlar los cobros, pagos y saldos de una empresa. <mark>Es como tener una calculadora especializada que organiza todo el dinero que entra y sale</mark>. Facilitan la conciliación bancaria."
+    },
+    {
+      "pregunta": "¿Por qué es importante mantener una buena liquidez en la empresa?",
+      "respuesta": "Porque permite pagar a tiempo nóminas, proveedores e impuestos sin problemas. <mark>Es como tener siempre algo de dinero disponible, aunque tengas más ahorrado en otro lado</mark>. Una empresa rentable puede tener problemas sin ella."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre el cheque, el pagaré y la letra de cambio?",
+      "respuesta": "El cheque se paga al momento de presentarlo. <mark>El pagaré y la letra de cambio, en cambio, fijan una fecha futura de pago</mark>. La letra de cambio, además, la puede emitir una tercera persona distinta al pagador."
+    },
+    {
+      "pregunta": "¿Por qué es importante revisar con frecuencia los movimientos bancarios de la empresa?",
+      "respuesta": "Porque permite detectar errores, cobros duplicados o cargos no autorizados. <mark>Es como revisar el ticket de la compra para comprobar que no te han cobrado de más</mark>. Detectarlo a tiempo evita pérdidas difíciles de recuperar."
+    },
+    {
+      "pregunta": "¿Qué relación hay entre la gestión de tesorería y la contabilidad de la empresa?",
+      "respuesta": "Todos los movimientos de tesorería deben quedar reflejados también en la contabilidad. <mark>Es como llevar dos registros que siempre deben coincidir entre sí</mark>. Esa coherencia permite conocer la situación económica real."
+    },
+    {
+      "pregunta": "¿Por qué se dice que la tesorería es 'el oxígeno' de una empresa?",
+      "respuesta": "Porque sin dinero disponible, una empresa no puede funcionar día a día, aunque sea rentable en el papel. <mark>Es como tener comida en la despensa, pero sin poder respirar mientras tanto</mark>. Muchas empresas rentables cierran por falta de liquidez."
+    }
+  ]
+}

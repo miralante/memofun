@@ -1,0 +1,63 @@
+{
+  "tema": "El movimiento: cinemática y las fuerzas - 3º de ESO",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué diferencia hay entre una magnitud escalar y una vectorial?",
+      "respuesta": "Una magnitud escalar queda definida solo con un número y una unidad. <mark>Una magnitud vectorial necesita además una dirección y un sentido</mark>. La temperatura es escalar; la velocidad, vectorial."
+    },
+    {
+      "pregunta": "¿Qué es el espacio recorrido por un cuerpo?",
+      "respuesta": "Es la distancia total que ha recorrido un objeto en su movimiento. <mark>Es como sumar todos los pasos que has dado, aunque acabes cerca de donde empezaste</mark>. No es lo mismo que la distancia entre el inicio y el final."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre velocidad media y velocidad instantánea?",
+      "respuesta": "La velocidad media se calcula con el espacio total y el tiempo total del recorrido. <mark>La velocidad instantánea es la rapidez exacta en un momento concreto</mark>. El velocímetro de un coche muestra siempre la instantánea."
+    },
+    {
+      "pregunta": "¿Qué es la aceleración?",
+      "respuesta": "Es la rapidez con la que cambia la velocidad de un cuerpo. <mark>Es como medir cuánto pisas el acelerador o el freno de un coche</mark>. Puede ser positiva, si el cuerpo acelera, o negativa, si frena."
+    },
+    {
+      "pregunta": "¿Qué es la ley de Hooke?",
+      "respuesta": "Explica cómo se deforma un muelle en relación con la fuerza que se le aplica. <mark>Cuanta más fuerza se aplica, más se estira o se comprime el muelle, de forma proporcional</mark>. Se usa para fabricar básculas o dinamómetros."
+    },
+    {
+      "pregunta": "¿Cómo se calcula la fuerza resultante de varias fuerzas?",
+      "respuesta": "Se suman teniendo en cuenta su dirección y su sentido. <mark>Es como combinar varios empujones para saber hacia dónde se moverá realmente el objeto</mark>. Si van en direcciones opuestas, se restan entre sí."
+    },
+    {
+      "pregunta": "¿Qué dice la primera ley de Newton?",
+      "respuesta": "Dice que un cuerpo mantiene su estado de reposo o movimiento si ninguna fuerza actúa sobre él. <mark>Es como un balón que seguiría rodando eternamente si no hubiera rozamiento que lo frenara</mark>. También se llama principio de inercia."
+    },
+    {
+      "pregunta": "¿Qué dice la segunda ley de Newton?",
+      "respuesta": "Relaciona la fuerza aplicada a un objeto con la aceleración que produce. <mark>Cuanta más fuerza se aplica a un mismo objeto, más rápido cambia su velocidad</mark>. También depende de la masa del objeto."
+    },
+    {
+      "pregunta": "¿Qué dice la tercera ley de Newton?",
+      "respuesta": "Dice que toda fuerza provoca una fuerza igual y de sentido contrario. <mark>Es como empujar una pared: la pared también te empuja a ti con la misma fuerza</mark>. Explica cómo funciona el despegue de un cohete."
+    },
+    {
+      "pregunta": "¿Qué es la ley de la Gravitación Universal?",
+      "respuesta": "Explica que todos los cuerpos con masa se atraen entre sí. <mark>Es como un imán invisible que actúa entre cualquier par de objetos con masa</mark>. La propuso Isaac Newton, y explica por qué los planetas giran alrededor del Sol."
+    },
+    {
+      "pregunta": "¿Qué son las máquinas simples?",
+      "respuesta": "Son herramientas básicas que facilitan realizar un trabajo con menos esfuerzo. <mark>Es como conseguir el mismo resultado empujando con menos fuerza, gracias a un buen diseño</mark>. La palanca, la polea y el plano inclinado son ejemplos comunes."
+    },
+    {
+      "pregunta": "¿Qué es un fenómeno magnético?",
+      "respuesta": "Es un fenómeno relacionado con la atracción o repulsión entre ciertos materiales. <mark>Es como la fuerza invisible que hace que un imán atraiga objetos de hierro</mark>. Se usa en motores, altavoces y muchos otros aparatos actuales."
+    },
+    {
+      "pregunta": "¿Qué relación hay entre los fenómenos eléctricos y los magnéticos?",
+      "respuesta": "Están profundamente conectados: una corriente eléctrica puede generar un campo magnético. <mark>Es como si electricidad y magnetismo fueran dos caras de la misma moneda</mark>. Se aprovecha en motores eléctricos y generadores."
+    },
+    {
+      "pregunta": "¿Por qué las leyes de Newton siguen siendo tan importantes hoy en día?",
+      "respuesta": "Porque explican con precisión el movimiento de la mayoría de los objetos cotidianos. <mark>Desde un coche hasta un satélite, muchas cosas se diseñan usando esas leyes</mark>. Siguen siendo la base de la física que se estudia primero."
+    }
+  ]
+}

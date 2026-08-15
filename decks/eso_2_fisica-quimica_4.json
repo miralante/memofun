@@ -1,0 +1,55 @@
+{
+  "tema": "El movimiento y las fuerzas - 2º de ESO",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué es el movimiento en física?",
+      "respuesta": "Es el cambio de posición de un cuerpo respecto a un punto de referencia. <mark>Es como notar que algo se mueve solo si lo comparas con algo que se queda quieto</mark>. Sin un punto de referencia, no se puede decir si algo se mueve. Alguien sentado en un tren se mueve respecto a tierra."
+    },
+    {
+      "pregunta": "¿Qué es un sistema de referencia?",
+      "respuesta": "Es el punto fijo que se usa para describir el movimiento de un objeto. <mark>Es como elegir desde dónde vas a mirar para decidir si algo se mueve o no</mark>. Puede ser un punto en el suelo, un edificio o cualquier lugar fijo. Sin él, hablar de movimiento no tendría sentido claro."
+    },
+    {
+      "pregunta": "¿Qué es la trayectoria de un cuerpo en movimiento?",
+      "respuesta": "Es el camino que recorre un objeto mientras se mueve. <mark>Es como la línea que dejaría marcada si llevara pintura goteando</mark>. Puede ser recta, curva o de cualquier otra forma. Conocerla ayuda a predecir por dónde pasará un objeto en movimiento."
+    },
+    {
+      "pregunta": "¿Qué es la velocidad?",
+      "respuesta": "Es la rapidez con la que un cuerpo cambia de posición. <mark>Es como medir cuántos metros recorres en cada segundo que pasa</mark>. Se calcula dividiendo la distancia recorrida entre el tiempo empleado. Cuanto mayor es, más rápido se mueve un objeto."
+    },
+    {
+      "pregunta": "¿Qué es el movimiento rectilíneo uniforme?",
+      "respuesta": "Es un movimiento en línea recta con velocidad constante, sin acelerar ni frenar. <mark>Es como un coche que circula siempre a la misma velocidad, sin pisar el freno ni el acelerador</mark>. Su gráfica de espacio y tiempo forma una línea recta."
+    },
+    {
+      "pregunta": "¿Qué muestra una gráfica espacio-tiempo?",
+      "respuesta": "Muestra cómo cambia la posición de un objeto a medida que pasa el tiempo. <mark>Es como un mapa que dibuja, minuto a minuto, dónde está un objeto</mark>. Su pendiente indica la velocidad del movimiento. Cuanto más inclinada, más rápido se mueve el objeto."
+    },
+    {
+      "pregunta": "¿Qué es una fuerza?",
+      "respuesta": "Es toda acción capaz de cambiar el movimiento o la forma de un objeto. <mark>Es como un empujón o un tirón que puede acelerar, frenar o deformar algo</mark>. Se mide en una unidad llamada newton. Está presente en casi cualquier acción cotidiana."
+    },
+    {
+      "pregunta": "¿Qué efectos puede producir una fuerza sobre un cuerpo?",
+      "respuesta": "Puede cambiar su velocidad, su dirección o incluso deformarlo. <mark>Es como empujar una pelota, girarla en el aire o aplastarla al apretarla</mark>. No siempre produce movimiento: a veces solo cambia la forma del objeto."
+    },
+    {
+      "pregunta": "¿Qué es la composición de fuerzas?",
+      "respuesta": "Es sumar varias fuerzas que actúan a la vez sobre un mismo objeto. <mark>Es como combinar varios empujones distintos para saber el resultado final</mark>. El resultado se llama fuerza resultante. Esa fuerza final determina cómo se moverá el objeto."
+    },
+    {
+      "pregunta": "¿Qué es una palanca?",
+      "respuesta": "Es una herramienta simple que amplifica la fuerza aplicada usando un punto de apoyo. <mark>Es como hacer más fácil levantar algo pesado apoyándote en un punto fijo</mark>. Se usa, por ejemplo, en las tijeras o en una carretilla."
+    },
+    {
+      "pregunta": "¿Qué fuerzas actúan constantemente en la naturaleza?",
+      "respuesta": "La gravedad, el rozamiento y el magnetismo, entre otras. <mark>Son fuerzas invisibles que actúan aunque no las veamos directamente</mark>. La gravedad nos mantiene pegados al suelo; el rozamiento frena el movimiento. Sin ellas, el mundo sería muy distinto."
+    },
+    {
+      "pregunta": "¿Qué relación hay entre las fuerzas y las deformaciones de los objetos?",
+      "respuesta": "Aplicar una fuerza puede cambiar la forma de un objeto, aunque no siempre se note. <mark>Es como apretar una esponja: cambia de forma mientras se aplica la fuerza</mark>. Algunos materiales vuelven a su forma original; otros no."
+    }
+  ]
+}

@@ -52,12 +52,12 @@ entry to `decks/manifest.json`. **Review the content** before
 considering it published (easy read, no clinical language, a fun tone
 and a curious fact — see [`doc/en/SPEC.md`](doc/en/SPEC.md) §2.5).
 
-`config.md` (at the repo root) and [`content-indices/`](content-indices/)
+`config.md` (at the repo root) and [`doc/curriculum/`](doc/curriculum/)
 are the project's content ingestion point: a bare `tema` (topic) lets
 the agent pick its own subtopics, or `tema` + a `# Índice` section with
 your own bullet list of subtopics if you already have a syllabus and
 want the deck to follow it point by point — see the full guide at
-[`doc/en/creating-decks-guide.md`](doc/en/creating-decks-guide.md).
+[`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md).
 
 ## Validating changes
 
@@ -84,7 +84,7 @@ node scripts/check-version-bump.js
 |---|---|
 | Understand what Memofun is and who it's for | [`doc/en/SPEC.md`](doc/en/SPEC.md) |
 | Know who's involved and how | [`doc/en/roles.md`](doc/en/roles.md) |
-| Create and publish a new deck, step by step | [`doc/en/creating-decks-guide.md`](doc/en/creating-decks-guide.md) |
+| Create and publish a new deck, step by step | [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) |
 | See the technical architecture | [`doc/en/technical.md`](doc/en/technical.md) |
 | Add a deck, a language, or touch code | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | Have an AI agent touch the code | `CLAUDE.md` |

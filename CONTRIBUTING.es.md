@@ -11,7 +11,7 @@ usuaria no necesita leer nada de esto, solo abrir la app.
 
 | Quiero… | Cómo |
 |---|---|
-| Añadir una baraja nueva | Sigue [`doc/es/guia-crear-barajas.md`](doc/es/guia-crear-barajas.md) (paso a paso completo); resumen: pide al agente de IA que escriba la baraja a partir de un tema o de un `config.md`, **revisa el contenido** y añade la entrada en `decks/manifest.json` antes de abrir el PR con el `.json` y el manifest. |
+| Añadir una baraja nueva | Sigue [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) (paso a paso completo); resumen: pide al agente de IA que escriba la baraja a partir de un tema o de un `config.md`, **revisa el contenido** y añade la entrada en `decks/manifest.json` antes de abrir el PR con el `.json` y el manifest. |
 | Corregir o mejorar una baraja existente | Edita el `.json` directamente (es texto plano), o pide al agente que la regenere y sustituya el archivo en `decks/`. |
 | Tocar código (HTML/CSS/JS) | Sigue el flujo de GitHub de abajo. Lee primero [`doc/es/tecnico.md`](doc/es/tecnico.md). Todo el proyecto es vanilla: nada de frameworks ni dependencias nuevas. |
 | Traducir la interfaz a un idioma nuevo | Sigue la guía de [`doc/es/I18N.md`](doc/es/I18N.md). |

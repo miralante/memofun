@@ -25,8 +25,11 @@ memofun/
 ├── legal/                data protection
 ├── scripts/              config-parser.js · check.js · check-version-bump.js (Node, offline)
 ├── config.md             example content config (see §8)
-├── content-indices/      Primaria→FP GM outline library (own README)
-└── doc/es/ · doc/en/     this documentation
+└── doc/
+    ├── es/ · en/         this documentation
+    └── curriculum/es/    Primaria→FP GM curriculum-outline library (own README)
+                          curriculum/en/ is an empty sibling, reserved for the
+                          same library in another language
 ```
 
 ## 2. Shared modules (`assets/js/`)
@@ -88,7 +91,7 @@ as the deck's own content, no ES/EN parity required, same rule as
 
 When present, the home screen (`app.js`) groups decks into a
 course-then-subject drill-down instead of a flat grid — see §4.1. When
-generating a deck from a `content-indices/<etapa>/<curso>/<asignatura>.md`
+generating a deck from a `doc/curriculum/<idioma>/<etapa>/<curso>/<asignatura>.md`
 file, derive both from the path/frontmatter (e.g. `primaria/3/lengua-castellana.md`
 → `curso: "3º de Primaria"`, `asignatura: "Lengua Castellana"`); leave both
 unset for one-off "modo simple" decks with no course of their own —
@@ -170,25 +173,25 @@ agent directly instead of by a script:
   listed point — none skipped, none invented. Useful when the support
   person already has a syllabus or outline and wants the deck to
   follow it closely. See the example in `config.md`, or the
-  ready-made library in `content-indices/`.
+  ready-made library in `doc/curriculum/`.
 
 `scripts/config-parser.js` keeps the **parsing** of this format
 (`parseMarkdown()`, `parseIndice()`, `slugify()`) as pure functions,
 no network, no keys — used by `scripts/check.js` to validate that
-every file under `content-indices/` has correct frontmatter and, if it
+every file under `doc/curriculum/` has correct frontmatter and, if it
 declares an outline, that it isn't empty. It doesn't generate content;
 it only understands its shape.
 
-**Full workflow** (see also `creating-decks-guide.md`):
+**Full workflow** (see also `internal-creating-decks-guide.md`):
 
-1. Ask the agent to generate a deck, pointing at a `content-indices/`
+1. Ask the agent to generate a deck, pointing at a `doc/curriculum/`
    file or a new `config.md`.
 2. The agent writes the cards following `CLAUDE.md` → "Generating deck
    content" (meaningful learning, Easy Read, fun tone, curious facts,
    outline coverage if there is one).
 3. The agent writes `decks/<salida>.json` directly (§3's format).
 4. The agent adds the matching entry to `decks/manifest.json`, with
-   `curso`/`asignatura` if the deck came from a `content-indices/`
+   `curso`/`asignatura` if the deck came from a `doc/curriculum/`
    file (see §4).
 5. The content gets reviewed (by whoever asked for it, or by the agent
    applying the checklist) before it's considered published.

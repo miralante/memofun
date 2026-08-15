@@ -58,12 +58,12 @@ entrada a `decks/manifest.json`. **Revisa el contenido** antes de
 darlo por publicado (lectura fácil, sin lenguaje clínico, tono
 divertido y algún dato curioso — ver [`doc/es/SPEC.md`](doc/es/SPEC.md) §2.5).
 
-`config.md` (en la raíz) y [`content-indices/`](content-indices/) son
+`config.md` (en la raíz) y [`doc/curriculum/`](doc/curriculum/) son
 el punto de ingesta de contenidos: basta con un `tema` (el agente
 elige los subtemas), o `tema` + una sección `# Índice` con una lista
 de subtemas propia si ya tienes un temario y quieres que la baraja lo
 siga punto por punto — ver la guía completa en
-[`doc/es/guia-crear-barajas.md`](doc/es/guia-crear-barajas.md).
+[`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md).
 
 ## Validar los cambios
 
@@ -90,7 +90,7 @@ node scripts/check-version-bump.js
 |---|---|
 | Entender qué es Memofun y para quién es | [`doc/es/SPEC.md`](doc/es/SPEC.md) |
 | Saber quién participa y cómo | [`doc/es/roles.md`](doc/es/roles.md) |
-| Crear y publicar una baraja nueva, paso a paso | [`doc/es/guia-crear-barajas.md`](doc/es/guia-crear-barajas.md) |
+| Crear y publicar una baraja nueva, paso a paso | [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) |
 | Ver la arquitectura técnica | [`doc/es/tecnico.md`](doc/es/tecnico.md) |
 | Añadir una baraja, un idioma o tocar código | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
 | Que un agente de IA toque el código | `CLAUDE.md` (en inglés) |

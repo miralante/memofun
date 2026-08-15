@@ -24,7 +24,7 @@
       <script src> bundle.
    8. decks/manifest.json: every listed deck's `file` exists in decks/
       and is valid JSON with a non-empty `tarjetas` array.
-   9. content-indices/ (recursively): every .md file parses as a valid
+   9. doc/curriculum/ (recursively): every .md file parses as a valid
       content config (frontmatter with `tema`, via scripts/config-parser.js)
       and, if it has a `# Índice` section, that section is not empty.
    Output: list of failures with the exact file. Exit code 1 if there
@@ -414,16 +414,16 @@ checks += 1;
   });
 })();
 
-/* --- 9. content-indices/ (recursive): valid config + non-empty índice --- */
+/* --- 9. doc/curriculum/ (recursive): valid config + non-empty índice --- */
 (function checkContentIndices() {
-  var dir = path.join(ROOT, 'content-indices');
+  var dir = path.join(ROOT, 'doc', 'curriculum');
   if (!fs.existsSync(dir)) return;
 
   var configParser;
   try {
     configParser = require(path.join(ROOT, 'scripts', 'config-parser.js'));
   } catch (e) {
-    failures.push('content-indices/: could not load scripts/config-parser.js — ' + e.message);
+    failures.push('doc/curriculum/: could not load scripts/config-parser.js — ' + e.message);
     return;
   }
 

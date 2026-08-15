@@ -1,0 +1,71 @@
+{
+  "tema": "El movimiento y las fuerzas - 4º de ESO",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué caracteriza al movimiento rectilíneo uniforme?",
+      "respuesta": "Es un movimiento en línea recta con velocidad constante, sin acelerar ni frenar. <mark>Es como un coche circulando siempre a la misma velocidad, sin tocar el acelerador ni el freno</mark>. Su gráfica espacio-tiempo es siempre una línea recta."
+    },
+    {
+      "pregunta": "¿Qué caracteriza al movimiento rectilíneo uniformemente acelerado?",
+      "respuesta": "Es un movimiento en línea recta donde la velocidad cambia de forma constante. <mark>Es como un coche que va cada segundo un poco más rápido, siempre de la misma manera</mark>. La caída de un objeto es un ejemplo cotidiano."
+    },
+    {
+      "pregunta": "¿Qué es el movimiento circular uniforme?",
+      "respuesta": "Es un movimiento en el que un cuerpo recorre una trayectoria circular a velocidad constante. <mark>Es como las agujas de un reloj, que siempre giran a la misma velocidad</mark>. Aunque la velocidad no cambia de valor, sí cambia de dirección."
+    },
+    {
+      "pregunta": "¿Por qué la fuerza se considera una magnitud vectorial?",
+      "respuesta": "Porque no basta con conocer su valor: también hace falta saber su dirección. <mark>Es como una flecha que indica no solo cuánta fuerza hay, sino hacia dónde apunta</mark>. Dos fuerzas iguales en distinta dirección producen efectos distintos."
+    },
+    {
+      "pregunta": "¿Qué fuerzas actúan habitualmente sobre los objetos en la vida cotidiana?",
+      "respuesta": "El peso, el rozamiento, la fuerza normal y la fuerza aplicada, entre otras. <mark>Son fuerzas que actúan constantemente, aunque no siempre las notemos</mark>. El rozamiento, por ejemplo, frena casi todos los movimientos cotidianos."
+    },
+    {
+      "pregunta": "¿Cómo se calcula la fuerza resultante sobre un cuerpo?",
+      "respuesta": "Se suman todas las fuerzas que actúan sobre él, teniendo en cuenta su dirección. <mark>Es como sumar varias flechas apuntando en direcciones distintas para obtener una final</mark>. Si la resultante es cero, el objeto no cambia su movimiento."
+    },
+    {
+      "pregunta": "¿Qué relación hay entre la ley de Gravitación Universal y el peso?",
+      "respuesta": "El peso es la fuerza con la que la Tierra atrae a un cuerpo hacia su centro. <mark>Es una aplicación directa de la ley de Gravitación Universal a nuestro propio planeta</mark>. Por eso una persona pesaría distinto en la Luna."
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre masa y peso?",
+      "respuesta": "La masa es la cantidad de materia de un cuerpo, y no cambia según el lugar. <mark>El peso es la fuerza con la que la gravedad atrae esa masa, y sí puede cambiar</mark>. La masa de una persona es igual en la Tierra y en la Luna."
+    },
+    {
+      "pregunta": "¿Qué es la presión?",
+      "respuesta": "Es la fuerza que se aplica sobre una superficie, dividida entre el área de esa superficie. <mark>Es como repartir la misma fuerza en más o menos espacio: cuanto menos espacio, más presión</mark>. Se mide en unidades como el pascal."
+    },
+    {
+      "pregunta": "¿Qué es la presión hidrostática?",
+      "respuesta": "Es la presión que ejerce un líquido en reposo debido a su propio peso. <mark>Es como sentir más presión cuanto más te sumerges en una piscina profunda</mark>. Los submarinos deben resistir presiones muy altas a grandes profundidades."
+    },
+    {
+      "pregunta": "¿Qué es la presión atmosférica?",
+      "respuesta": "Es la presión que ejerce el aire de la atmósfera sobre la superficie terrestre. <mark>Es como si todo el peso del aire de la atmósfera empujara constantemente hacia abajo</mark>. Disminuye a medida que se sube en altitud."
+    },
+    {
+      "pregunta": "¿Qué dice el principio de Arquímedes?",
+      "respuesta": "Dice que todo cuerpo sumergido en un fluido recibe un empuje hacia arriba. <mark>Ese empuje es igual al peso del fluido que ese cuerpo desplaza</mark>. Es la base de cómo funcionan los barcos y los submarinos."
+    },
+    {
+      "pregunta": "¿Qué dice el principio de Pascal?",
+      "respuesta": "Dice que la presión aplicada sobre un fluido en un espacio cerrado se transmite por igual en todas direcciones. <mark>Es como apretar un globo de agua: la presión se reparte por todo su interior</mark>. Se aplica en los frenos hidráulicos de un coche."
+    },
+    {
+      "pregunta": "¿Cómo influye la física en el comportamiento de la atmósfera?",
+      "respuesta": "Explica fenómenos como el viento, la presión y los cambios de temperatura del aire. <mark>Es como aplicar las mismas reglas de los fluidos, pero a una escala planetaria</mark>. Esas leyes ayudan a predecir el tiempo atmosférico."
+    },
+    {
+      "pregunta": "¿Por qué un objeto pesado puede flotar si tiene la forma adecuada?",
+      "respuesta": "Porque lo importante no es solo su peso, sino cuánto fluido desplaza. <mark>Un barco de acero flota porque desplaza mucha agua, a pesar de ser pesado</mark>. Si el empuje del agua supera al peso del objeto, este flota."
+    },
+    {
+      "pregunta": "¿Por qué es útil estudiar juntos el movimiento, las fuerzas y la presión?",
+      "respuesta": "Porque están profundamente relacionados: las fuerzas producen movimiento, y la presión es una forma de fuerza distribuida. <mark>Es como estudiar distintas piezas de un mismo mecanismo que funciona en conjunto</mark>. Explican desde un cohete hasta un submarino."
+    }
+  ]
+}

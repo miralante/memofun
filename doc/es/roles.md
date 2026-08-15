@@ -21,6 +21,7 @@ Teclatlon):
 | Si eres… | Empieza por… |
 |---|---|
 | 👤 Persona usuaria o familiar directo | La aplicación — no hace falta leer nada más |
-| ❤️ Familiar o docente que prepara contenido | [`guia-crear-barajas.md`](guia-crear-barajas.md) — paso a paso completo |
+| ❤️ Familiar o docente que prepara contenido con una IA que tiene acceso al repositorio (Claude Code, Cursor, Cowork…) | [`guia-interna-crear-barajas.md`](guia-interna-crear-barajas.md) — paso a paso completo |
+| ❤️ Familiar o docente que prepara contenido con un chat de IA suelto (ChatGPT, Claude.ai…), o que no sabe cuál de los dos casos es el suyo | [`guia-ia-crear-barajas.md`](guia-ia-crear-barajas.md) — elige tu camino |
 | 🤔 Solo quiero entender qué es | [`SPEC.md`](SPEC.md) |
 | 💻 Desarrollador/a | [`tecnico.md`](tecnico.md) |

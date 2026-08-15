@@ -32,11 +32,39 @@ disability review a topic **autonomously**.
 - **End user** (with an intellectual disability): reviews decks that
   have already been prepared, autonomously.
 - **Support** (family, teacher): asks the project's AI agent to
-  prepare each deck (from a topic or from `content-indices/`) and
+  prepare each deck (from a topic or from `doc/curriculum/`) and
   reviews the content before publishing it.
 - **Build** (developer): maintains the code.
 
 See [`roles.md`](roles.md) for the detail of each role.
+
+### 1.3 Reinforcement: repetition and syllabus fidelity
+
+Meaningful learning (§1) isn't just "explain it well once." It's
+shored up by two deliberate mechanisms in how decks are designed:
+
+- **Repetition, both pure and with variation**: a key concept in a
+  topic (a definition, a date, an author) can — and should — reappear
+  across more than one card and more than one deck for the same
+  topic/course. Sometimes literally (nearly the same question, to
+  consolidate memory); sometimes varied (the same idea with a
+  different example or angle, to build several connections to the
+  same idea). This is not a design flaw or "redundant filler" — it's
+  reinforcement through repetition, a real learning technique. Review
+  (`internal-creating-decks-guide.md` §4) doesn't discard a card just for
+  resembling another — it discards a card that repeats without adding
+  any new nuance, example, or context.
+- **Syllabus fidelity**: when a reference syllabus exists (a
+  `doc/curriculum/**/*.md` file, a `# Índice` in a `config.md`, or
+  the subject/course's official curriculum), decks stick to those
+  exact points instead of drifting into adjacent topics that "sound
+  nice" but aren't actually part of what's taught in that course.
+  Sticking to the real syllabus is itself a way to shore up meaningful
+  learning: the content matches what the learner actually needs to
+  review.
+
+See "Generating deck content" in `CLAUDE.md` for how this applies when
+writing or extending a deck.
 
 ---
 
@@ -63,7 +91,7 @@ browser. Why:
 - **Reviewed before publishing**: everything that lands in `decks/` is
   reviewed (by whoever asked for it, or by the agent that wrote it)
   before it's added to `decks/manifest.json` — see
-  `creating-decks-guide.md` §4.
+  `internal-creating-decks-guide.md` §4.
 
 This decision has evolved twice, always in the same direction — less
 AI surface in the product, not more:
@@ -170,7 +198,7 @@ to maintain.
 | `index.html` (home) | End user | Pick an already-prepared deck. Nothing else. |
 | `tools/study/` | End user | Review the chosen deck, card by card. |
 | `settings/` | Support | Text size, language, importing your own deck `.json` to review without publishing it, clearing local progress. |
-| Project AI agent | Support / build | Write a new deck's content from a topic or from `content-indices/`, following "Generating deck content" (`CLAUDE.md`), for review before publishing. |
+| Project AI agent | Support / build | Write a new deck's content from a topic or from `doc/curriculum/`, following "Generating deck content" (`CLAUDE.md`), for review before publishing. |
 
 ---
 
