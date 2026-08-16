@@ -206,10 +206,39 @@ node scripts/check.js
 
 1. Run `node scripts/check.js` — it enforces i18n parity, the
    no-clinical-language rule, `sw.js`/`manifest.json`/`decks/`
-   integrity, and CSP quoting in one pass.
+   integrity, and CSP quoting in one pass (92 checks).
 2. Run `node scripts/check-version-bump.js` if you touched any file
-   listed in `sw.js`'s `FILES`.
-3. Report only verifications you actually ran.
+   listed in `sw.js`'s `FILES`. This is the same check that runs as
+   the `cache-bump` job in `.github/workflows/ci.yml` — run it locally
+   before pushing so the CI gate doesn't fail later.
+3. Run `node scripts/i18n-keys-smoke.js` if you touched any UI text
+   or any page that uses `data-i18n*` / `App.i18n.t()`. Same check
+   that runs as the `i18n-smoke` job in `.github/workflows/ci.yml`
+   (which uses `continue-on-error: true`; pass `--strict` if you want
+   it to gate the build).
+4. Run `node scripts/scan-secrets.js` if your change touched anything
+   that might look like an API key, a token, or a private key — same
+   check as the `secrets-scan` job in CI, runnable locally before
+   pushing to catch the issue without burning a CI run.
+5. Report only verifications you actually ran.
+
+## 5. Housekeeping scripts
+
+These are not gates; they are quality-of-life helpers modelled on
+sinonimia's `scripts/limpiar-cache.js`. Run them occasionally, not as
+part of every change:
+
+- `node scripts/smoke-prod.js` — hits the live `*.workers.dev` URL
+  and asserts the i18n / header / `decks/manifest.json` contract
+  holds. Same script the `.github/workflows/smoke-prod.yml` scheduled
+  job runs every 6h. Needs `PROD_URL` (defaults to
+  `https://memofun.miralante.workers.dev`).
+- `node scripts/limpiar-graphify-cache.js` — dry-run; shows what
+  would be removed from `graphify-out/`. Pass `--apply` to actually
+  delete it (safe: the next graphify run rebuilds it from scratch).
+- `node scripts/scan-secrets.js` — pattern-based grep that the CI
+  `secrets-scan` job runs in push; useful to run locally before
+  pushing if your diff added anything that looks like a token.
 
 ## 3. External and destructive operations
 

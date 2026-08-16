@@ -1,0 +1,41 @@
+# EditorConfig (https://editorconfig.org) — keeps coding-style
+# consistent across editors and operating systems without forcing
+# anyone to change their personal setup. Complements .gitattributes,
+# which only governs what ends up in the git object store; this
+# file governs what the editor saves on disk.
+
+root = true
+
+[*]
+# UTF-8 is mandatory — the project's source is in Spanish, English,
+# and emoji (used as section markers in docs), and a default of
+# anything else corrupts characters on save on some editors.
+charset = utf-8
+
+# LF line endings everywhere; .gitattributes enforces this at commit
+# time, but it can drift in the editor between commits. Set it here
+# too so saves never introduce CRLF.
+end_of_line = lf
+
+# Trim trailing whitespace on save and ensure a single newline at
+# end of file. Most modern editors default to this, but worth pinning
+# so CI differences don't show up as noisy diffs.
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Indentation defaults per file type. CSS/JS use 2 spaces (HTML in
+# this project is also 2-space). Markdown files use 2 spaces for
+# list items (no special tab handling needed).
+indent_style = space
+indent_size = 2
+
+# Documents that are formatted as plain prose (Markdown, plain text):
+# the trailing-whitespace rule has false positives in Markdown
+# because two trailing spaces mean "hard line break". Re-enable them.
+[*.md]
+trim_trailing_whitespace = false
+
+# Makefiles must use real tabs for recipes — that's what make(1)
+# expects, and a Makefile with spaces instead breaks `make` silently.
+[Makefile]
+indent_style = tab

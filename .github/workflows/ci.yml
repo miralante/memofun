@@ -1,0 +1,117 @@
+# Memofun — CI gate
+#
+# Runs the project's structural, i18n, no-clinical-language and
+# service-worker cache-bump checks on every push to main and every pull
+# request against main. Deploy is intentionally NOT in this workflow:
+# deploy to Cloudflare is handled by the Cloudflare Git connector
+# reading wrangler.toml and _headers from the repo root — same model
+# as the sibling projects (Apptonomia, Sinonimia, Okeymoney, Calculia,
+# Teclatlon). No npm install step: every script in scripts/ runs with
+# plain `node` and only uses stdlib modules (fs, path, vm, child_process).
+#
+# Job list, in order:
+#   1. check         — main gate. Runs scripts/check.js (92 checks).
+#   2. cache-bump    — pre-deploy safety net. Fails if a file listed in
+#                      sw.js FILES changed in this diff without VERSION
+#                      also being bumped (silently invisible to any
+#                      post-deploy smoke test, so it has to be caught
+#                      from the diff, not after).
+#   3. i18n-smoke    — informational: lists every data-i18n* /
+#                      App.i18n.t() key used in a page that isn't
+#                      registered in any locale. Doesn't fail by
+#                      default; missing keys are content gaps to fix
+#                      in strings.<locale>.js, not a CI gate. Same
+#                      pattern as the sibling apptonomia project's
+#                      scripts/i18n-keys-smoke.js.
+#   4. secrets-scan — best-effort scan for accidentally committed
+#                      secrets (API keys, tokens, private keys);
+#                      pattern-based, not a substitute for GitHub's
+#                      native push protection. Runs scripts/scan-secrets.js.
+#
+# Production smoke testing against the live URL lives in
+# .github/workflows/smoke-prod.yml (scheduled every 6h + on-demand).
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Cancel in-progress runs for the same branch when a new commit lands.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: node scripts/check.js
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run structural, i18n, no-clinical-language and CSP checks
+        run: node scripts/check.js
+
+  cache-bump:
+    name: sw.js VERSION bump check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need enough history to diff against the parent of the current
+          # HEAD — the script uses HEAD~1 (or DIFF_BASE) as the diff base.
+          fetch-depth: 2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify VERSION was bumped when a cached file changed
+        # DIFF_BASE matches the script's documented contract — see the
+        # header comment in scripts/check-version-bump.js.
+        env:
+          DIFF_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: node scripts/check-version-bump.js
+
+  i18n-smoke:
+    name: i18n smoke (informational, --strict flag)
+    runs-on: ubuntu-latest
+    # The smoke reports missing keys (content gaps) but does not block
+    # the pipeline: it exits 0 by default and only fails when --strict
+    # is passed. The content session is responsible for closing the
+    # gaps surfaced in the job log.
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: i18n keys smoke test
+        run: node scripts/i18n-keys-smoke.js
+
+  secrets-scan:
+    name: scan for accidentally committed secrets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Scan for API keys, tokens, private keys
+        # Same script that maintainers run locally; grep version of
+        # the pattern list lived here inline before, but extracting it
+        # lets the same logic be exercised pre-push.
+        run: node scripts/scan-secrets.js

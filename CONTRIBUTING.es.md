@@ -33,9 +33,27 @@ servicio de IA desde `index.html`, `app.js`, `tools/study/`,
 2. 💬 Comentar y consensuar el alcance
 3. 🌿 Crear una rama (fork si no tienes acceso de push)
 4. ✏️  Hacer los cambios siguiendo doc/es/tecnico.md
-5. 📤 Abrir un Pull Request referenciando el issue
-6. 👀 Esperar revisión (al menos 1 persona mantenedora)
-7. ✅ Merge cuando hay aprobación
+5. ✅ Ejecutar los scripts de validación (ver abajo)
+6. 📤 Abrir un Pull Request referenciando el issue
+7. 👀 Esperar revisión (al menos 1 persona mantenedora)
+8. ✅ Merge cuando hay aprobación
+```
+
+## ✅ Validar los cambios
+
+Tres scripts se ejecutan automáticamente en CI en cada push y PR (ver
+[`.github/workflows/ci.yml`](.github/workflows/ci.yml) +
+[`.github/workflows/smoke-prod.yml`](.github/workflows/smoke-prod.yml)),
+pero ejecútalos antes en local para detectar problemas antes:
+
+```
+node scripts/check.js                  # 92 comprobaciones: estructural, paridad i18n, sin lenguaje clínico, comillado CSP, integridad de barajas, sw.js ↔ disco
+node scripts/check-version-bump.js     # falla si cambiaste un archivo de sw.js FILES sin subir VERSION
+node scripts/i18n-keys-smoke.js        # informativo: lista data-i18n* / App.i18n.t() usados pero no registrados en ningún idioma
+node scripts/i18n-keys-smoke.js --strict   # igual, pero sale con código 1 si faltan claves (úsalo en CI o al añadir un idioma)
+node scripts/scan-secrets.js           # grep best-effort para claves API, tokens y claves privadas colados sin querer (mismo script que el job secrets-scan del CI)
+node scripts/smoke-prod.js             # post-despliegue: pega contra la URL en vivo y comprueba cabeceras + paridad i18n + decks/manifest.json (necesita PROD_URL)
+node scripts/limpiar-graphify-cache.js # dry-run: muestra qué se borraría de graphify-out/ (un artefacto regenerable del agente)
 ```
 
 ## ✅ Checklist antes de abrir un PR
@@ -43,6 +61,11 @@ servicio de IA desde `index.html`, `app.js`, `tools/study/`,
 - [ ] `node scripts/check.js` pasa sin errores.
 - [ ] Si tocaste un archivo cacheado por `sw.js`, subiste el `VERSION`
       (`node scripts/check-version-bump.js` lo detecta automáticamente).
+- [ ] `node scripts/i18n-keys-smoke.js --strict` no reporta claves
+      faltantes en los idiomas que tocaste.
+- [ ] `node scripts/scan-secrets.js` dice "no secrets found" (ejecútalo
+      en local antes de pushear si tu cambio toca algo que pueda
+      parecer un token).
 - [ ] Si añadiste un texto de interfaz, está en `strings.es.js` **y**
       `strings.en.js`.
 - [ ] Si añadiste o cambiaste una baraja, revisaste el contenido y

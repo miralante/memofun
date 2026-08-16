@@ -33,9 +33,27 @@ will be rejected.
 2. 💬 Comment and agree on scope
 3. 🌿 Create a branch (fork if you don't have push access)
 4. ✏️  Make the changes following doc/en/technical.md
-5. 📤 Open a Pull Request referencing the issue
-6. 👀 Wait for review (at least 1 maintainer)
-7. ✅ Merge once approved
+5. ✅ Run the validating scripts (see below)
+6. 📤 Open a Pull Request referencing the issue
+7. 👀 Wait for review (at least 1 maintainer)
+8. ✅ Merge once approved
+```
+
+## ✅ Validating changes
+
+Three scripts run automatically in CI on every push and PR (see
+[`.github/workflows/ci.yml`](.github/workflows/ci.yml) +
+[`.github/workflows/smoke-prod.yml`](.github/workflows/smoke-prod.yml)),
+but run them locally first to catch issues faster:
+
+```
+node scripts/check.js                  # 92 checks: structural, i18n parity, no-clinical-language, CSP quoting, deck manifest, sw.js ↔ disk
+node scripts/check-version-bump.js     # fails if you changed a sw.js FILES entry without bumping VERSION
+node scripts/i18n-keys-smoke.js        # informational: lists any data-i18n* / App.i18n.t() keys used but not registered in any locale
+node scripts/i18n-keys-smoke.js --strict   # same, but exits 1 on missing keys (use this in CI or when adding a new locale)
+node scripts/scan-secrets.js           # best-effort grep for accidentally committed API keys, tokens, private keys (same script as the CI secrets-scan job)
+node scripts/smoke-prod.js             # post-deploy: hits the live URL and checks headers + i18n parity + decks/manifest.json (needs PROD_URL)
+node scripts/limpiar-graphify-cache.js # dry-run: shows what would be removed from graphify-out/ (a regenerable agent artefact)
 ```
 
 ## ✅ Checklist before opening a PR
@@ -43,6 +61,11 @@ will be rejected.
 - [ ] `node scripts/check.js` passes with no errors.
 - [ ] If you touched a file cached by `sw.js`, you bumped `VERSION`
       (`node scripts/check-version-bump.js` catches this automatically).
+- [ ] `node scripts/i18n-keys-smoke.js --strict` reports no missing
+      keys for the locales you touched.
+- [ ] `node scripts/scan-secrets.js` reports "no secrets found" (run
+      this locally before pushing if your change touched anything that
+      might look like a token).
 - [ ] If you added UI text, it's in `strings.es.js` **and**
       `strings.en.js`.
 - [ ] If you added or changed a deck, you reviewed the content and

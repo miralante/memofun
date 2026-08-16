@@ -1,0 +1,45 @@
+# Memofun — production smoke test (scheduled)
+#
+# Checks the LIVE deployed site, not the repo — catches drift between
+# what the Git connector published and what visitors actually see, the
+# class of bug scripts/check.js structurally cannot see (check.js only
+# inspects the source tree). See scripts/smoke-prod.js for the exact
+# checks (i18n key usage vs. live registration, decks/manifest.json
+# reachability, security headers from _headers).
+#
+# Runs on a schedule rather than only after deploy because the failure
+# mode is caching going stale over time, not just at deploy time — and
+# Cloudflare Workers Builds deploys outside this workflow, so there's
+# no reliable "deploy finished" event to hook here. Same model as
+# the sibling sinonimia project (see .github/workflows/smoke-prod.yml
+# in miralante/sinonimia).
+#
+# Manual rerun: Actions → "Smoke test (production)" → "Run workflow".
+
+name: Smoke test (production)
+
+on:
+  schedule:
+    # Every 6 hours, offset 17 minutes past the hour so we don't hit
+    # Cloudflare / GitHub cron contention at :00/:30.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run production smoke against the live URL
+        env:
+          # Override per-fork if you have your own workers.dev URL.
+          # No trailing slash — smoke-prod.js normalises.
+          PROD_URL: ${{ vars.PRODUCTION_URL || 'https://memofun.miralante.workers.dev' }}
+        run: node scripts/smoke-prod.js

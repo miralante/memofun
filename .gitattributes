@@ -1,0 +1,38 @@
+# .gitattributes — per-path git behaviour overrides.
+#
+# Memofun ships only small plaintext files; no LFS, no special merge
+# drivers, no release artifacts that need a custom diff. The only
+# thing worth setting is the line-ending default for collaborators
+# who develop on Windows: without this, every `git diff` from a
+# Windows machine shows the entire file as changed because LF gets
+# converted to CRLF on checkout and back to LF on commit. The repo
+# convention is LF everywhere; this attribute just keeps that
+# invariant even on Windows contributors.
+#
+# Same shape as the sibling apptonomia / sinonimia / calculia / etc.
+# repos' .gitattributes (which all use `* text=auto eol=lf` for the
+# same reason).
+#
+# Add per-path overrides below if the project ever needs something
+# more specific (LFS, a binary with no diff, etc.).
+
+# Default for everything: store as LF, normalise line endings on
+# checkout, don't try to do anything clever with non-text files.
+* text=auto eol=lf
+
+# Sweep explicit overrides for known-binary file extensions.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff2 binary
+*.woff binary
+*.ttf binary
+*.eot binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.br binary
