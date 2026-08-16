@@ -79,8 +79,24 @@ jobs:
       - name: Verify VERSION was bumped when a cached file changed
         # DIFF_BASE matches the script's documented contract — see the
         # header comment in scripts/check-version-bump.js.
+        #
+        # Special cases handled in two layers:
+        #  1. On a PR, use the PR's base SHA (always a real commit,
+        #     no zero-SHA case possible).
+        #  2. On a push:
+        #     - If event.before is the zero SHA ("0000…0"), which only
+        #       happens on a first-ever push to a brand-new branch
+        #       (e.g. a restored branch or a tag), fall back to HEAD~1
+        #       — there is always at least one parent in the line of
+        #       history this CI runs over.
+        #     - Otherwise use event.before normally.
+        # `git diff` against the zero SHA lists *every* file in the
+        # repo as added, which falsely flags every sw.js-cached file
+        # as "changed without a bump" — the fix exists to avoid that
+        # false positive. See scripts/check-version-bump.js for the
+        # matching fallback chain (DIFF_BASE → HEAD~1 → skip).
         env:
-          DIFF_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          DIFF_BASE: ${{ github.event.pull_request.base.sha || (github.event.before == '0000000000000000000000000000000000000000' && 'HEAD~1') || github.event.before }}
         run: node scripts/check-version-bump.js
 
   i18n-smoke:
