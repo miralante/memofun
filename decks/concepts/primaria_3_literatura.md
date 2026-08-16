@@ -1,0 +1,31 @@
+# primaria_3_literatura — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Comprender un cuento (fijarse en el porqué): primaria_3_literatura.json (ponerse en el lugar del protagonista)
+- Distinguir lo importante de los detalles: primaria_3_literatura.json (ejemplo: el color de una puerta no suele importar)
+- Verso: primaria_3_literatura.json (línea de un poema, no coincide con la frase)
+- Rima: primaria_3_literatura.json (sonido final parecido, ejemplo "flor"/"color"), primaria_3_literatura_4.json (no repetido como concepto nuevo, ver comparación rima/ritmo)
+- Rima ayuda a memorizar: primaria_3_literatura.json (funciona como pista para la memoria)
+- Ritmo de un poema: primaria_3_literatura.json (compás según sílabas fuertes, "casi se puede cantar")
+- Ritmo y lectura en voz alta: primaria_3_literatura.json (fluidez, "casi como cantar")
+- Rima vs ritmo (comparación): primaria_3_literatura.json (sonido final vs compás al leer)
+- Estrofa: primaria_3_literatura_2.json (analogía: párrafo hecho con versos)
+- Caligrama: primaria_3_literatura_2.json (palabras que forman un dibujo, ejemplo gotas de lluvia)
+- Copla: primaria_3_literatura_2.json (poema corto de cuatro versos que riman)
+- Villancico: primaria_3_literatura_2.json (canción popular navideña, ritmo alegre)
+- Recitar: primaria_3_literatura_2.json (decir un poema de memoria cuidando ritmo y tono)
+- Retahíla: primaria_3_literatura_2.json (lista de palabras rápida y rítmica, ejemplo "pito, pito, colorito")
+- Fábula: primaria_3_literatura_3.json (cuento con animales y moraleja)
+- Moraleja: primaria_3_literatura_3.json (ejemplo "prepararse antes de que llegue el frío")
+- La cigarra y la hormiga: primaria_3_literatura_3.json (prepararse a tiempo importa)
+- Cuento fantástico: primaria_3_literatura_3.json (dragones, hadas, magia, distinto de la vida diaria)
+- Elemento mágico: primaria_3_literatura_3.json (ejemplo alfombra que vuela, poción)
+- Aventura en un cuento: primaria_3_literatura_3.json (viaje o reto fuera de la rutina)
+- Comparación (recurso poético): primaria_3_literatura_4.json (ejemplo "ojos como estrellas")
+- Onomatopeya: primaria_3_literatura_4.json (ejemplo "guau" imita el ladrido)
+- Refrán: primaria_3_literatura_4.json (ejemplo "quien mucho abarca, poco aprieta")
+- Trabalenguas: primaria_3_literatura_4.json (ejemplo "tres tristes tigres tragan trigo")
+- Canción tradicional: primaria_3_literatura_4.json (analogía: receta de familia sin autor conocido)
+- Poema narrativo: primaria_3_literatura_4.json (mezcla de cuento y poema, cuenta una historia en verso)

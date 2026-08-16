@@ -84,7 +84,14 @@ Cuando le pides una baraja, el agente:
    fórmula — p. ej. cómo se combinan los números romanos antes de
    calcular con ellos), la baraja empieza con unas tarjetas de lección
    que explican esa mecánica primero.
-2. Escribe el archivo `decks/<salida>.json` directamente.
+2. Escribe el archivo `decks/<salida>.json` directamente. Si la baraja
+   amplía una serie existente (p. ej. añadir `literatura_3` junto a
+   `literatura`/`literatura_2`), primero lee el registro corto de
+   `decks/concepts/<base-slug>.md` — en vez del JSON completo de cada
+   baraja hermana — para ver qué está cubierto y cómo, así las
+   repeticiones siguen siendo con propósito sin releer la serie
+   entera cada vez. Después actualiza ese registro con lo que añadió
+   la baraja nueva.
 3. Añade la entrada correspondiente a `decks/manifest.json` — si
    pediste la baraja a partir de un archivo de `doc/curriculum/`,
    incluye también `curso` y `asignatura`, así la pantalla de inicio

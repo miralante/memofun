@@ -1,0 +1,32 @@
+# fpgm_ga_2_itinerario-personal-empleabilidad-2 — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Proyecto profesional propio: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (trazar tu propio mapa profesional)
+- Autoempleo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (ser tu propio jefe)
+- Emprendimiento: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (ver un hueco en el mercado y llenarlo)
+- Plan de empresa sencillo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (boceto de un proyecto antes de construirlo)
+- Técnicas avanzadas de búsqueda de empleo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (ampliar la red de contactos; perfil digital)
+- Preparar una entrevista de trabajo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (ensayar antes de una actuación)
+- Adaptarse al cambio en el entorno laboral: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (moverse con soltura cuando cambian las reglas)
+- Negociación en el trabajo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (buscar un punto intermedio)
+- Igualdad de género en el ámbito laboral: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (todos parten de la misma línea de salida)
+- Ética profesional: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (aplicar tus valores personales en el trabajo)
+- Riesgos laborales frecuentes en un puesto administrativo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (malas posturas, fatiga visual, estrés)
+- Importancia de un proyecto profesional claro al terminar el ciclo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (destino claro antes de un viaje)
+- Ventajas e inconvenientes del autoempleo frente a trabajar por cuenta ajena: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (dirigir tu propio barco vs. uno ya dirigido)
+- Calcular bien los costes en un plan de empresa: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (planear un viaje sin calcular el presupuesto)
+- La red de contactos ayuda a encontrar empleo: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (puertas ya entreabiertas)
+- La adaptabilidad como habilidad muy valorada: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (reglas de un juego que cambia constantemente)
+- Relación entre ética profesional y confianza: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (reputación sólida, ladrillo a ladrillo)
+- Por qué se estudia empleabilidad en dos cursos distintos: fpgm_ga_2_itinerario-personal-empleabilidad-2.json (primero caminar, después decidir hacia dónde)
+- Pruebas de selección más allá de la entrevista (test, dinámicas de grupo): fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (varios retos, no solo una conversación)
+- Seguimiento de las candidaturas enviadas: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (llevar una lista ordenada de procesos)
+- Idea de negocio en un proyecto emprendedor: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (la semilla de la que crece el proyecto)
+- Estrategias de marketing de bajo coste para un proyecto pequeño: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (redes sociales, boca a boca)
+- Opciones de financiación para un proyecto emprendedor: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (ahorros, préstamos, subvenciones)
+- Sostenibilidad aplicada a un proyecto emprendedor: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (pensar también en el impacto, no solo el beneficio)
+- Economía social como emprendimiento colectivo: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (fundar un negocio en equipo; cooperativas)
+- Trámites básicos para darse de alta como autónomo: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (inscribirse en Hacienda y Seguridad Social)
+- Prevención de riesgos laborales en un proyecto propio: fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json (aplicarte las normas que exigirías a un empleado)

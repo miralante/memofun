@@ -1,0 +1,30 @@
+# eso_2_literatura — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Métrica (sílabas y compás del verso): eso_2_literatura.json (analogía: "partitura escondida" del poema)
+- Estrofa: eso_2_literatura.json (bloque de versos, como un párrafo en verso)
+- Rima/sílabas iguales suenan parecido: eso_2_literatura.json (compás regular que el oído reconoce)
+- Comparación (recurso con "como"): eso_2_literatura.json (ejemplo "ojos como estrellas")
+- Metáfora: eso_2_literatura.json (ejemplo "ojos eran estrellas"; comparación directa metáfora vs comparación)
+- Mester de Juglaría / juglares: eso_2_literatura.json (recitaban en plazas, cantares de gesta), eso_2_literatura_2.json (repite rol social del juglar vía Cantar de Mio Cid)
+- Mester de Clerecía: eso_2_literatura.json (clérigos cultos, métrica cuidada, temas religiosos; comparado directamente con Juglaría)
+- Hipérbole: eso_2_literatura_2.json (ejemplo "un millón de veces"; contraste directo con personificación)
+- Personificación: eso_2_literatura_2.json (ejemplo "el viento susurraba")
+- Cantar de Mio Cid (contenido/trama): eso_2_literatura_2.json (caballero desterrado que recupera su honor)
+- Cid Campeador (figura histórica): eso_2_literatura_2.json (caballero real mezclado con leyenda)
+- Verso libre: eso_2_literatura_2.json (sin medida ni rima fija, forma moderna)
+- Anáfora: eso_2_literatura_2.json (ejemplo "recuerdo... recuerdo...")
+- Aliteración: eso_2_literatura_3.json (ejemplo "el ruido con que rueda la ronca tempestad")
+- Epíteto: eso_2_literatura_3.json (ejemplo "la blanca nieve", adjetivo que no añade información)
+- Símbolo literario: eso_2_literatura_3.json (ejemplo paloma = paz)
+- Alfonso X el Sabio: eso_2_literatura_3.json (impulsó el castellano como lengua de cultura, tradujo con sabios de varias culturas)
+- El Conde Lucanor (Don Juan Manuel): eso_2_literatura_3.json (cuentos con lección práctica), eso_2_literatura_4.json (como ejemplo de prosa didáctica medieval)
+- Arcipreste de Hita / Libro de Buen Amor: eso_2_literatura_3.json (mezcla humor y seriedad sobre el amor)
+- Paradoja: eso_2_literatura_4.json (ejemplo "vivo sin vivir en mí", poesía mística)
+- Oxímoron: eso_2_literatura_4.json (ejemplo "silencio ensordecedor")
+- Poesía lírica: eso_2_literatura_4.json (expresa sentimientos, contraste con poesía narrativa/romance)
+- Reconquista: eso_2_literatura_4.json (contexto histórico de los cantares de gesta)
+- Convivencia de tres culturas: eso_2_literatura_4.json (cristianos, musulmanes, judíos; enlaza con Alfonso X)
+- Prosa didáctica medieval: eso_2_literatura_4.json (cuentos breves como excusa para una lección)

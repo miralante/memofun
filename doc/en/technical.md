@@ -22,6 +22,7 @@ memofun/
 ├── tools/study/          review screen (flip-card)
 ├── settings/             support area (text size, language, import, clear progress)
 ├── decks/                manifest.json + published, reviewed *.json decks
+│   └── concepts/         per-series "what's already covered" logs (agent-only, see §8)
 ├── legal/                data protection
 ├── scripts/              config-parser.js · check.js · check-version-bump.js (Node, offline)
 ├── config.md             example content config (see §8)
@@ -193,7 +194,14 @@ it only understands its shape.
 4. The agent adds the matching entry to `decks/manifest.json`, with
    `curso`/`asignatura` if the deck came from a `doc/curriculum/`
    file (see §4).
-5. The content gets reviewed (by whoever asked for it, or by the agent
+5. If the deck extends an existing series (`literatura` → `_2` →
+   `_3`…), the agent reads `decks/concepts/<base-slug>.md` instead of
+   every sibling deck's full JSON to see what's already covered and
+   how, then updates that log with what the new deck added — see
+   `CLAUDE.md` → "Generating deck content" step 7. This log is never
+   read by the site itself; it's a workshop file for the agent, so
+   editing it never needs a `sw.js` `VERSION` bump.
+6. The content gets reviewed (by whoever asked for it, or by the agent
    applying the checklist) before it's considered published.
 
 ## 9. `scripts/check.js` and `scripts/check-version-bump.js`

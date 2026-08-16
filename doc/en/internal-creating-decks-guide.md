@@ -83,7 +83,13 @@ When you ask for a deck, the agent:
    mechanic or rule (a procedure, a notation, a formula — e.g. how
    Roman numerals combine before drilling calculations with them), the
    deck opens with a few lesson cards that teach that mechanic first.
-2. Writes `decks/<salida>.json` directly.
+2. Writes `decks/<salida>.json` directly. If this deck extends an
+   existing series (e.g. adding `literatura_3` next to
+   `literatura`/`literatura_2`), it reads the short log at
+   `decks/concepts/<base-slug>.md` first — instead of every sibling
+   deck's full JSON — to see what's already covered and how, so
+   repeats stay purposeful without re-reading the whole series each
+   time. It then updates that log with what the new deck added.
 3. Adds the matching entry to `decks/manifest.json` — if you asked for
    the deck from a `doc/curriculum/` file, this also includes `curso`
    and `asignatura`, so the home screen groups it under that course

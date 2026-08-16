@@ -1,0 +1,31 @@
+# fpgm_ga_1_itinerario-personal-empleabilidad-1 — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Autoconocimiento profesional: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (mapa de quién eres antes de caminar profesionalmente)
+- Itinerario formativo-profesional: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (planificar etapas de un viaje)
+- Mercado laboral del sector administrativo: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (mercado transversal, casi cualquier empresa lo necesita)
+- Búsqueda activa de empleo: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (planificar la búsqueda, no esperar)
+- Currículum vitae: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (tarjeta de presentación profesional)
+- Carta de presentación: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (introducción personal antes del currículum)
+- Contrato de trabajo (elementos) y tipos de contrato: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (reglas del juego; indefinido/temporal/parcial/prácticas)
+- Derechos y deberes laborales: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (red de seguridad / la otra cara de los derechos)
+- Nómina (qué detalla): fpgm_ga_1_itinerario-personal-empleabilidad-1.json (resumen de dónde sale y a dónde va el sueldo)
+- Afiliación y prestaciones de la Seguridad Social: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (sistema que cubre; paraguas que protege)
+- Prevención de riesgos laborales: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (anticiparse al peligro)
+- Trabajo en equipo: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (remar en la misma dirección)
+- Resolver un conflicto en el trabajo: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (negociar hasta que todos cedan un poco)
+- Gestión del tiempo en el trabajo: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (repartir bien las horas del día)
+- Relación entre estrés laboral y salud: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (cuerda tensada que se desgasta)
+- Educación financiera básica y su relación con la empleabilidad: fpgm_ga_1_itinerario-personal-empleabilidad-1.json (llevar bien las cuentas de tu vida)
+- Asertividad: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (punto medio entre callarte e imponerte)
+- Análisis del sector profesional administrativo: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (estudiar el terreno antes de caminar)
+- Tendencias del mercado laboral (digitalización): fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (hacia dónde sopla el viento del empleo)
+- Portales de empleo: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (escaparate gigante de ofertas)
+- Economía social (cooperativas): fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (llevar un negocio entre varios, decidiendo juntos)
+- Emprendimiento colectivo: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (sumar fuerzas para un proyecto)
+- Riesgos específicos de un puesto administrativo: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (malas posturas, cansancio visual, estrés)
+- Equipos de protección en un entorno de oficina: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (silla ergonómica, pausas visuales)
+- Medidas de emergencia en el centro de trabajo: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (conocer el plan de salida)
+- Decisiones sobre el propio itinerario formativo-profesional: fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json (elegir el siguiente paso del camino)

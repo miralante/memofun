@@ -23,6 +23,7 @@ memofun/
 ├── tools/study/          pantalla de repaso (flip-card)
 ├── settings/             zona de apoyo (texto, idioma, importar, borrar progreso)
 ├── decks/                manifest.json + *.json de barajas publicadas y revisadas
+│   └── concepts/         registros de "qué ya está cubierto" por serie (solo agente, ver §8)
 ├── legal/                protección de datos
 ├── scripts/              config-parser.js · check.js · check-version-bump.js (Node, offline)
 ├── config.md             ejemplo de config de contenido (ver §8)
@@ -205,7 +206,14 @@ entiende su forma.
 4. El agente añade la entrada correspondiente a `decks/manifest.json`,
    con `curso`/`asignatura` si la baraja viene de un archivo de
    `doc/curriculum/` (ver §4).
-5. Se revisa el contenido (la propia persona que lo pidió, o el
+5. Si la baraja amplía una serie existente (`literatura` → `_2` →
+   `_3`…), el agente lee `decks/concepts/<base-slug>.md` en vez del
+   JSON completo de cada baraja hermana para ver qué está cubierto y
+   cómo, y actualiza ese registro con lo que añadió la baraja nueva —
+   ver `CLAUDE.md` → "Generating deck content" paso 7. Este registro
+   no lo lee nunca el sitio; es una herramienta de trabajo del agente,
+   así que editarlo nunca requiere subir el `VERSION` de `sw.js`.
+6. Se revisa el contenido (la propia persona que lo pidió, o el
    agente aplicando el checklist) antes de darlo por publicado.
 
 ## 9. `scripts/check.js` y `scripts/check-version-bump.js`

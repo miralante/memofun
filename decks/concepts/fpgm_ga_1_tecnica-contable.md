@@ -1,0 +1,32 @@
+# fpgm_ga_1_tecnica-contable — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Patrimonio empresarial (bienes, derechos y obligaciones): fpgm_ga_1_tecnica-contable.json (resumen de todo lo que tiene y debe una empresa)
+- Activo de una empresa: fpgm_ga_1_tecnica-contable.json (lista de todo lo que tienes)
+- Pasivo de una empresa: fpgm_ga_1_tecnica-contable.json (lista de todo lo que debes)
+- Neto patrimonial: fpgm_ga_1_tecnica-contable.json (lo que queda tras restar deudas a bienes)
+- Plan General de Contabilidad: fpgm_ga_1_tecnica-contable.json (manual de instrucciones común, obligatorio)
+- Cuenta contable: fpgm_ga_1_tecnica-contable.json (ficha individual de cada bien, deuda o gasto)
+- Método de la partida doble: fpgm_ga_1_tecnica-contable.json (cada operación afecta a dos cuentas)
+- Libro diario y libro mayor: fpgm_ga_1_tecnica-contable.json (diario de movimientos día a día / reorganizado por cuenta)
+- Balance de comprobación: fpgm_ga_1_tecnica-contable.json (foto rápida para comprobar que cuadra)
+- Ciclo contable (apertura y cierre): fpgm_ga_1_tecnica-contable.json (año completo de vida contable, de apertura a cierre)
+- Cuentas anuales: fpgm_ga_1_tecnica-contable.json (informe final de cómo le ha ido a la empresa)
+- Importancia de que la contabilidad esté cuadrada: fpgm_ga_1_tecnica-contable.json (cuentas de un juego que no salen)
+- Diferencia entre cargo y abono (debe/haber): fpgm_ga_1_tecnica-contable.json (anotar entradas y salidas por lados distintos)
+- La contabilidad como "lenguaje de los negocios": fpgm_ga_1_tecnica-contable.json (idioma común para comparar empresas)
+- Utilidad de la contabilidad para tomar decisiones: fpgm_ga_1_tecnica-contable.json (consultar tu cuenta antes de un gasto importante)
+- Asiento contable: fpgm_ga_1_tecnica-contable.json (entrada que resume una operación y sus cuentas)
+- La técnica contable como herramienta clave en gestión administrativa: fpgm_ga_1_tecnica-contable.json (hilo conductor de casi todas las tareas de oficina)
+- Equilibrio patrimonial: fpgm_ga_1_tecnica-contable_2.json (tener más de lo que debes)
+- Masas patrimoniales: fpgm_ga_1_tecnica-contable_2.json (cajones grandes del patrimonio, antes del detalle)
+- Plan General de Contabilidad PYME: fpgm_ga_1_tecnica-contable_2.json (versión simplificada para pymes)
+- Marco conceptual de la contabilidad: fpgm_ga_1_tecnica-contable_2.json (reglas del juego antes de empezar a jugar)
+- Cuadro de cuentas: fpgm_ga_1_tecnica-contable_2.json (índice numerado con un código por cuenta)
+- Contabilización de la compraventa de mercaderías: fpgm_ga_1_tecnica-contable_2.json (compra como gasto, venta como ingreso)
+- Inmovilizado material: fpgm_ga_1_tecnica-contable_2.json (herramientas fijas de un taller, no para revender)
+- Ventajas de gestionar asientos con una aplicación informática: fpgm_ga_1_tecnica-contable_2.json (calculadora en vez de lápiz y papel)
+- Asiento predefinido en una aplicación contable: fpgm_ga_1_tecnica-contable_2.json (formulario ya rellenado a medias)
+- Copias de seguridad de la contabilidad informatizada: fpgm_ga_1_tecnica-contable_2.json (fotocopia de tus cuentas por si se estropea el original)

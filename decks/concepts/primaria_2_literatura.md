@@ -1,0 +1,29 @@
+# primaria_2_literatura — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Principio y final de un cuento: primaria_2_literatura.json (analogía: viaje con salida y llegada)
+- Qué se cuenta al principio: primaria_2_literatura.json (protagonista y lugar, ejemplo "Había una vez...")
+- Qué resuelve el final: primaria_2_literatura.json (cierra la historia, feliz o triste)
+- Comprender un cuento: primaria_2_literatura.json (entender qué pasa y por qué, no solo leer palabras)
+- Señal de haber entendido un cuento: primaria_2_literatura.json (poder contarlo con tus palabras)
+- Imaginar mientras se lee: primaria_2_literatura.json (convertir palabras en imágenes mentales)
+- Título de un cuento: primaria_2_literatura_2.json (nombre que da pista del contenido)
+- Narrador: primaria_2_literatura_2.json (voz que cuenta la historia, no un personaje)
+- Escenario: primaria_2_literatura_2.json (lugar de la historia, ejemplo bosque/ciudad/espacio)
+- Personajes secundarios: primaria_2_literatura_2.json (acompañan al protagonista, ejemplo amigo que da consejo)
+- Dibujos en un cuento: primaria_2_literatura_2.json (ayudan a imaginar sin leer cada palabra)
+- Tiempo de la historia (cuándo ocurre): primaria_2_literatura_2.json (pasado/presente/futuro cambia lo que es normal)
+- Protagonista: primaria_2_literatura_3.json (ejemplo Caperucita Roja)
+- Antagonista: primaria_2_literatura_3.json (se opone al protagonista, ejemplo el lobo)
+- Conflicto: primaria_2_literatura_3.json (problema que mueve la historia, ejemplo perderse en el bosque)
+- Desenlace: primaria_2_literatura_3.json (analogía: cerrar la puerta al salir)
+- Colección de cuentos: primaria_2_literatura_3.json (analogía: caja de caramelos de sabores distintos)
+- Cuento de miedo (qué lo produce): primaria_2_literatura_3.json (misterio o lugar oscuro, analogía luces apagadas)
+- Poema: primaria_2_literatura_4.json (texto en versos, ritmo distinto al cuento)
+- Canción infantil: primaria_2_literatura_4.json (poema para cantar, ayuda a recordar con música)
+- Refrán: primaria_2_literatura_4.json (frase corta con consejo, ejemplo "más vale tarde que nunca")
+- Adivinanza: primaria_2_literatura_4.json (ejemplo "blanca por dentro, verde por fuera" = la pera)
+- Cómic: primaria_2_literatura_4.json (historia con dibujos y texto juntos)
+- Autor de un libro: primaria_2_literatura_4.json (analogía: arquitecto que diseña una casa)

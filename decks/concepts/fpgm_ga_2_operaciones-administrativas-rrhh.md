@@ -1,0 +1,32 @@
+# fpgm_ga_2_operaciones-administrativas-rrhh — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Funciones del departamento de recursos humanos: fpgm_ga_2_operaciones-administrativas-rrhh.json (cuida a las personas que hacen funcionar la empresa)
+- Proceso de selección de personal (pasos): fpgm_ga_2_operaciones-administrativas-rrhh.json (filtro que va reduciendo candidatos)
+- Entrevista de trabajo (qué es y papel de la comunicación): fpgm_ga_2_operaciones-administrativas-rrhh.json (charla decisiva; presentar tu mejor versión)
+- Expediente laboral de un trabajador: fpgm_ga_2_operaciones-administrativas-rrhh.json (carpeta personal con su historia laboral)
+- Cálculo de una nómina (bruto menos retenciones = neto): fpgm_ga_2_operaciones-administrativas-rrhh.json (descontar gastos fijos de un billete)
+- Cotizaciones a la Seguridad Social: fpgm_ga_2_operaciones-administrativas-rrhh.json (aportar al fondo común)
+- Comunicación oficial de un contrato de trabajo: fpgm_ga_2_operaciones-administrativas-rrhh.json (avisar oficialmente de que alguien ha empezado a trabajar)
+- Gestión documental de prevención de riesgos laborales: fpgm_ga_2_operaciones-administrativas-rrhh.json (registro de lo que se hace para proteger a los trabajadores)
+- Baja laboral (qué es): fpgm_ga_2_operaciones-administrativas-rrhh.json (permiso especial mientras dura una situación)
+- Diferencia entre vacaciones y permisos laborales: fpgm_ga_2_operaciones-administrativas-rrhh.json (descanso anual pagado vs. ausencias puntuales)
+- Importancia de un buen proceso de selección: fpgm_ga_2_operaciones-administrativas-rrhh.json (elegir mal una pieza clave del equipo)
+- Mantener actualizado el expediente laboral: fpgm_ga_2_operaciones-administrativas-rrhh.json (ficha que refleja la trayectoria)
+- Consecuencias de no comunicar bien un contrato: fpgm_ga_2_operaciones-administrativas-rrhh.json (sanciones económicas y problemas legales)
+- Relación entre nómina y cotizaciones a la Seguridad Social: fpgm_ga_2_operaciones-administrativas-rrhh.json (parte del sueldo va a un fondo compartido)
+- Importancia de gestionar bien las bajas laborales: fpgm_ga_2_operaciones-administrativas-rrhh.json (reorganizar un equipo cuando falta un miembro)
+- Las vacaciones son un derecho, no una costumbre: fpgm_ga_2_operaciones-administrativas-rrhh.json (derecho garantizado, no un favor)
+- RRHH como departamento estratégico: fpgm_ga_2_operaciones-administrativas-rrhh.json (cuidar el motor que hace funcionar la maquinaria)
+- Afiliación de la empresa a la Seguridad Social: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (registrarse antes de incorporar a alguien)
+- Plan de formación continua: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (seguir aprendiendo dentro del trabajo)
+- Plan de carrera dentro de una empresa: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (mapa interno de hacia dónde crecer)
+- Estatuto de los Trabajadores: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (reglamento general de cualquier empleo)
+- Convenio colectivo: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (reglamento más específico de un sector)
+- Bases de cotización a la Seguridad Social: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (cifra de partida sobre la que se aplica un porcentaje)
+- Estructura salarial de una nómina (base, complementos, extras): fpgm_ga_2_operaciones-administrativas-rrhh_2.json (desglosar el sueldo en partidas)
+- Control de presencia (fichar entrada/salida): fpgm_ga_2_operaciones-administrativas-rrhh_2.json (dejar constancia de las horas trabajadas)
+- Incapacidad temporal: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (pausa reconocida por ley mientras te recuperas)
+- Procedimientos de calidad en RRHH: fpgm_ga_2_operaciones-administrativas-rrhh_2.json (mismo protocolo para tratar a todos por igual)

@@ -1,0 +1,29 @@
+# primaria_6_literatura — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Novela (qué es): primaria_6_literatura.json (historia larga en capítulos, tiempo para conocer a fondo personajes)
+- Capítulo: primaria_6_literatura.json (parte de la novela, avanza un poco la trama)
+- Novela con varias tramas: primaria_6_literatura.json (trama principal + secundarias, da profundidad)
+- Cómic: primaria_6_literatura.json (dibujos y texto juntos, se lee mirando y leyendo a la vez)
+- Viñeta: primaria_6_literatura.json (analogía: fotograma de una película)
+- Bocadillo de cómic: primaria_6_literatura.json (nube = pensamiento, globo con punta = habla)
+- Saga de libros: primaria_6_literatura_2.json (misma historia en varios libros, mismos personajes)
+- Trilogía: primaria_6_literatura_2.json (saga de exactamente tres libros)
+- Ilustrador vs autor: primaria_6_literatura_2.json (autor escribe, ilustrador dibuja)
+- Sinopsis: primaria_6_literatura_2.json (resumen en la contraportada, sin destripar el final)
+- Cuento vs novela (comparación): primaria_6_literatura_2.json (corto de una sentada vs largo en capítulos)
+- Editorial: primaria_6_literatura_2.json (empresa que revisa, imprime y publica libros)
+- Prólogo: primaria_6_literatura_3.json (analogía: aperitivo antes de la comida)
+- Índice de un libro: primaria_6_literatura_3.json (analogía: mapa para encontrar un capítulo)
+- Reseña: primaria_6_literatura_3.json (analogía: recomendar una película a un amigo, por escrito)
+- Narrador omnisciente: primaria_6_literatura_3.json (sabe todo, incluso pensamientos secretos, "vuela sobre la historia")
+- Diario personal (tipo de texto): primaria_6_literatura_3.json (primera persona, pensamientos privados del día a día)
+- Qué hace clásico a un libro: primaria_6_literatura_3.json (sigue importando con el paso del tiempo, no solo ventas iniciales)
+- Manuscrito: primaria_6_literatura_4.json (analogía: boceto de un dibujo antes de pintarlo)
+- Traducción: primaria_6_literatura_4.json (analogía: construir el mismo puente con materiales distintos)
+- Idioma original de un libro: primaria_6_literatura_4.json (ejemplo: el Quijote en español, resto son traducciones)
+- Audiolibro: primaria_6_literatura_4.json (se escucha en vez de leerse, alguien lo graba en voz alta)
+- Libro digital / ebook: primaria_6_literatura_4.json (se lee en pantalla, cabe en un solo aparato)
+- Club de lectura: primaria_6_literatura_4.json (grupo que lee el mismo libro y lo comenta en grupo)

@@ -1,0 +1,32 @@
+# fpgm_ga_2_digitalizacion-sectores-productivos — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Transformación digital de una empresa: fpgm_ga_2_digitalizacion-sectores-productivos.json (cambiar papel y teléfono fijo por herramientas digitales)
+- Herramientas de trabajo colaborativo en la nube: fpgm_ga_2_digitalizacion-sectores-productivos.json (escribir todos a la vez en el mismo cuaderno)
+- Teletrabajo: fpgm_ga_2_digitalizacion-sectores-productivos.json (llevar la oficina contigo sin desplazarte)
+- Identidad digital: fpgm_ga_2_digitalizacion-sectores-productivos.json (tu reputación construida online)
+- Medidas básicas de ciberseguridad en la oficina: fpgm_ga_2_digitalizacion-sectores-productivos.json (cerrar puertas y ventanas, en digital)
+- RGPD (protección de datos personales): fpgm_ga_2_digitalizacion-sectores-productivos.json (ley que exige cuidar la información privada)
+- Comercio electrónico: fpgm_ga_2_digitalizacion-sectores-productivos.json (tienda abierta 24 horas sin local físico)
+- Firma electrónica: fpgm_ga_2_digitalizacion-sectores-productivos.json (firmar con bolígrafo, pero de forma segura y digital)
+- Administración electrónica: fpgm_ga_2_digitalizacion-sectores-productivos.json (gestión de ventanilla sin moverte de casa)
+- Inteligencia artificial en el entorno laboral administrativo: fpgm_ga_2_digitalizacion-sectores-productivos.json (ayudante para tareas mecánicas, no sustituye el criterio humano)
+- Brecha digital: fpgm_ga_2_digitalizacion-sectores-productivos.json (distancia invisible entre quien tiene acceso y quien no)
+- Actualizar programas mejora la seguridad: fpgm_ga_2_digitalizacion-sectores-productivos.json (reparar un agujero en la valla)
+- Precauciones con correos sospechosos: fpgm_ga_2_digitalizacion-sectores-productivos.json (no abrir la puerta a un desconocido)
+- Relación entre digitalización y eficiencia: fpgm_ga_2_digitalizacion-sectores-productivos.json (delegar tareas mecánicas para centrarte en lo importante)
+- Importancia de formarse en competencias digitales: fpgm_ga_2_digitalizacion-sectores-productivos.json (saber nadar donde cada vez hay más agua)
+- Proteger la privacidad al usar herramientas digitales en el trabajo: fpgm_ga_2_digitalizacion-sectores-productivos.json (no dejar documentos importantes a la vista)
+- La digitalización como módulo transversal en la FP: fpgm_ga_2_digitalizacion-sectores-productivos.json (habilidad básica sin importar a qué te dediques)
+- Economía lineal vs. economía circular: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (camino recto a la basura vs. círculo que reutiliza)
+- Cuarta revolución industrial: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (nuevo gran salto tras la máquina de vapor)
+- Diferencia entre entornos IT y OT: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (gestionar información vs. controlar procesos físicos)
+- Internet de las cosas (IoT): fpgm_ga_2_digitalizacion-sectores-productivos_2.json (objetos que "hablan" entre ellos por internet)
+- Big Data: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (escuchar miles de conversaciones para hallar un patrón)
+- Robótica colaborativa: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (compañero mecánico en tareas repetitivas)
+- Blockchain: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (cuaderno compartido donde nadie borra lo escrito)
+- Fabricación aditiva y realidad virtual: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (impresora 3D por capas / simular entornos digitales)
+- Plan de transformación digital de una empresa: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (hoja de ruta para no digitalizarse a lo loco)
+- Importancia de conocer estas tecnologías aunque no se trabaje con ellas: fpgm_ga_2_digitalizacion-sectores-productivos_2.json (idioma que cada vez se habla más alrededor)

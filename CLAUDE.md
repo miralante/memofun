@@ -123,6 +123,24 @@ and still binding.
    (varied repetition, for multiple encoding). Don't chase novelty at
    the cost of dropping a concept the syllabus expects the learner to
    meet more than once. Full reasoning: `doc/en/SPEC.md` §1.3.
+
+   To know what's already been covered without re-reading every
+   sibling deck's full JSON (this gets expensive as a series grows —
+   `literatura` → `_2` → `_3` → `_4`…), keep a short log at
+   `decks/concepts/<base-slug>.md`, where `base-slug` is the topic
+   without its trailing `_2`/`_3`/… suffix (e.g. `eso_1_literatura`
+   covers `literatura.json` through `literatura_4.json`). One line per
+   concept: which deck(s) in the series already used it, and — for
+   varied repeats — the angle/analogy/example already spent, so the
+   next repeat is genuinely a new one, not another soap-bubble. Read
+   that log first; only open a sibling deck's full JSON if the log
+   doesn't say enough for a specific card. If the series has no log
+   yet, build one now from the existing sibling decks (a one-time
+   cost) before writing the new deck, so the *next* extension doesn't
+   pay it again. After writing the new deck, update the log with what
+   it added. This file is a workshop tool for you, not shipped
+   content — it's never read by `index.html`/`app.js`/`sw.js` and
+   needs no `VERSION` bump when it changes.
 8. **Stick to the temario.** When a `doc/curriculum/**/*.md` file or
    the subject/course's real official curriculum exists, that is both
    the floor and the ceiling for what a deck (or a deck extending it)

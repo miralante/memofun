@@ -1,0 +1,30 @@
+# fpgm_ga_2_empresa-en-el-aula — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Empresa simulada en el aula (qué es): fpgm_ga_2_empresa-en-el-aula.json (jugar a "ser una empresa de verdad")
+- Constitución de la empresa simulada (nombre, forma jurídica, tareas): fpgm_ga_2_empresa-en-el-aula.json (poner en marcha una empresa real desde cero, en el aula)
+- Elegir la actividad de la empresa simulada: fpgm_ga_2_empresa-en-el-aula.json (decidir a qué se va a dedicar el negocio)
+- Departamentos de una empresa simulada: fpgm_ga_2_empresa-en-el-aula.json (repartir el trabajo entre distintos equipos)
+- Gestión documental en la empresa simulada: fpgm_ga_2_empresa-en-el-aula.json (crear y organizar facturas, pedidos, cartas)
+- Simular la relación con proveedores: fpgm_ga_2_empresa-en-el-aula.json (ensayar sin el riesgo de un error real)
+- Simular la relación con clientes: fpgm_ga_2_empresa-en-el-aula.json (ponerse en el lugar de quien atiende de verdad)
+- Presentar productos o servicios en la empresa simulada: fpgm_ga_2_empresa-en-el-aula.json (preparar un pequeño discurso de ventas)
+- Venta simulada (pedido, entrega, cobro): fpgm_ga_2_empresa-en-el-aula.json (recorrer el camino completo sin dinero real)
+- Seguimiento y evaluación/cierre del proyecto: fpgm_ga_2_empresa-en-el-aula.json (revisar si el viaje va según lo planeado; balance final)
+- "Empresa en el aula" integra otros módulos del ciclo: fpgm_ga_2_empresa-en-el-aula.json (examen final que junta piezas sueltas)
+- Habilidades que se desarrollan (equipo, organización, resolver problemas): fpgm_ga_2_empresa-en-el-aula.json (se aprenden haciendo, no solo leyendo)
+- Ventaja de cometer errores en una simulación: fpgm_ga_2_empresa-en-el-aula.json (pista de pruebas antes de la carretera real)
+- Coordinación entre departamentos: fpgm_ga_2_empresa-en-el-aula.json (engranaje: una pieza afecta a todo el mecanismo)
+- Red de empresas simuladas educativas entre centros: fpgm_ga_2_empresa-en-el-aula.json (comerciar con "empresas" de otros institutos)
+- Documentos administrativos generados en el proyecto: fpgm_ga_2_empresa-en-el-aula.json (casi todo el ciclo documental de una empresa)
+- "Empresa en el aula" como preparación para la FCT: fpgm_ga_2_empresa-en-el-aula.json (ensayo general antes de la función de verdad)
+- Forma jurídica de la empresa simulada (sociedad): fpgm_ga_2_empresa-en-el-aula_2.json (el "traje legal" de la empresa ficticia)
+- Trámites administrativos y fiscales simulados al constituir: fpgm_ga_2_empresa-en-el-aula_2.json (recorrer en modo práctica los papeleos reales)
+- Simular operaciones de compraventa: fpgm_ga_2_empresa-en-el-aula_2.json (pedidos, albaranes y facturas entre "empresas" del centro)
+- Simular la tesorería: fpgm_ga_2_empresa-en-el-aula_2.json (jugar con dinero de mentira, llevando las cuentas de verdad)
+- Analizar la viabilidad básica del proyecto: fpgm_ga_2_empresa-en-el-aula_2.json (comprobar si los números cuadrarían de verdad)
+- Simular el ciclo económico completo: fpgm_ga_2_empresa-en-el-aula_2.json (vivir un año entero de vida empresarial en un curso)
+- Decisiones comerciales y financieras del proyecto: fpgm_ga_2_empresa-en-el-aula_2.json (precio y condiciones de venta; repartir el dinero disponible)
+- Constituir la empresa antes de operar: fpgm_ga_2_empresa-en-el-aula_2.json (no se puede abrir una tienda sin los papeles en regla)

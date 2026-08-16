@@ -1,0 +1,27 @@
+# primaria_1_literatura — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Cuento popular (qué es): primaria_1_literatura.json (historia sin autor conocido, pasa de abuelos a nietos)
+- Caperucita Roja: primaria_1_literatura.json (el lobo la engaña, cuidado con desconocidos)
+- Los tres cerditos: primaria_1_literatura.json (casas de materiales distintos, hacerlo bien merece la pena)
+- Rima: primaria_1_literatura.json (palabras que terminan igual, ejemplo "pan y can")
+- Rimas en canciones infantiles: primaria_1_literatura.json (ayudan a memorizar, nanas pegadizas)
+- Adivinanza: primaria_1_literatura.json (juego de palabras con pista escondida, ejemplo hojas/libro)
+- Fábula: primaria_1_literatura_2.json (cuento corto con animales que hablan, con moraleja)
+- Moraleja: primaria_1_literatura_2.json (enseñanza final, ejemplo "no burlarse de los demás")
+- La liebre y la tortuga: primaria_1_literatura_2.json (exceso de confianza pierde, esfuerzo constante gana)
+- Trabalenguas: primaria_1_literatura_2.json (frase difícil de decir rápido, ejemplo "tres tristes tigres")
+- Refrán: primaria_1_literatura_2.json (frase corta con consejo, ejemplo "más vale tarde que nunca")
+- Cuento vs fábula (diferencia): primaria_1_literatura_2.json (fábula usa animales y casi siempre moraleja)
+- Cuento de hadas (qué es): primaria_1_literatura_3.json (magia, princesas, castillos, final feliz), primaria_1_literatura_3.json (rasgos comunes: hada/bruja/hechizo, protagonista supera un problema)
+- Blancanieves: primaria_1_literatura_3.json (manzana envenenada, sueño profundo)
+- Cenicienta: primaria_1_literatura_3.json (magia dura hasta medianoche, calabaza convertida en carroza, pierde el zapato)
+- Protagonista: primaria_1_literatura_3.json (personaje principal, ejemplo Cenicienta)
+- Autor/autora: primaria_1_literatura_4.json (analogía: cocinero que inventa una receta)
+- Portada de un libro: primaria_1_literatura_4.json (analogía: cartel de una tienda)
+- Biblioteca: primaria_1_literatura_4.json (analogía: tienda de historias gratis)
+- Nana: primaria_1_literatura_4.json (canción suave para dormir, analogía: abrazo)
+- Dibujos/ilustraciones de un cuento: primaria_1_literatura_4.json (analogía: foto de la historia)
+- Cuidado de libros prestados: primaria_1_literatura_4.json (analogía: pedir prestado un juguete)

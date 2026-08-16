@@ -1,0 +1,33 @@
+# fpgm_ga_1_empresa-administracion — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Empresa individual (qué es y responsabilidad del dueño): fpgm_ga_1_empresa-administracion.json (negocio a tu nombre; responde con patrimonio personal)
+- Sociedad mercantil (qué es y personalidad jurídica propia): fpgm_ga_1_empresa-administracion.json (fundar entre varios socios)
+- Diferencia empresa individual vs. sociedad mercantil (responsabilidad): fpgm_ga_1_empresa-administracion.json (todo el patrimonio vs. solo lo aportado)
+- Administración General del Estado: fpgm_ga_1_empresa-administracion.json (nivel de gobierno más amplio)
+- Administración autonómica vs. local: fpgm_ga_1_empresa-administracion.json (comunidad autónoma vs. municipio/provincia)
+- Procedimiento administrativo (solicitud, tramitación, resolución): fpgm_ga_1_empresa-administracion.json (receta con pasos fijos)
+- Órganos de gobierno de una empresa: fpgm_ga_1_empresa-administracion.json (el timón que marca el rumbo)
+- Responsabilidad social corporativa: fpgm_ga_1_empresa-administracion.json (cuidar el barrio, no solo tu casa)
+- IVA (qué es y cómo funciona): fpgm_ga_1_empresa-administracion.json (porcentaje añadido al precio)
+- Obligaciones fiscales del IVA (declarar cobrado y pagado): fpgm_ga_1_empresa-administracion.json (hacer cuentas de lo cobrado y pagado de más)
+- Otros impuestos de una empresa (Sociedades, IRPF): fpgm_ga_1_empresa-administracion.json (cada impuesto grava una parte distinta)
+- Calendario fiscal de una empresa: fpgm_ga_1_empresa-administracion.json (agenda con plazos que no se pueden pasar por alto)
+- Conocer la Administración es clave en gestión administrativa: fpgm_ga_1_empresa-administracion.json (saber a qué puerta llamar)
+- Ventajas de la sociedad limitada frente al autónomo (responsabilidad limitada): fpgm_ga_1_empresa-administracion.json (poner un límite a lo que puedes perder)
+- Relación constante entre empresa y Administración: fpgm_ga_1_empresa-administracion.json (no ocurre solo una vez)
+- Importancia de un control estricto de las obligaciones fiscales: fpgm_ga_1_empresa-administracion.json (pagar un recibo tarde sale más caro)
+- Personalidad jurídica de una empresa: fpgm_ga_1_empresa-administracion.json (capacidad legal de actuar como una persona)
+- La empresa individual es la forma más sencilla de emprender: fpgm_ga_1_empresa-administracion.json (empezar sin fundar una organización nueva)
+- Persona física vs. persona jurídica: fpgm_ga_1_empresa-administracion_2.json (individuo vs. entidad creada por ley)
+- Persona trabajadora autónoma: fpgm_ga_1_empresa-administracion_2.json (ser tu propio jefe)
+- Empresa innovadora: fpgm_ga_1_empresa-administracion_2.json (no conformarse con "como siempre se ha hecho")
+- Empresa que se internacionaliza: fpgm_ga_1_empresa-administracion_2.json (vender fuera del país de origen)
+- Tributo (qué es): fpgm_ga_1_empresa-administracion_2.json (aportación obligatoria para servicios públicos)
+- Censo de empresarios y alta en el IAE: fpgm_ga_1_empresa-administracion_2.json (presentarte ante Hacienda antes de abrir)
+- Diferencia entre IRPF e Impuesto de Sociedades: fpgm_ga_1_empresa-administracion_2.json (personas físicas vs. empresas con personalidad jurídica)
+- Acto administrativo: fpgm_ga_1_empresa-administracion_2.json (resolución que concede, deniega o exige)
+- Silencio administrativo: fpgm_ga_1_empresa-administracion_2.json (no responder a tiempo; la ley decide qué significa)
+- Recurso administrativo: fpgm_ga_1_empresa-administracion_2.json (pedir que se revise una decisión)
