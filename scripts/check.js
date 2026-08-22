@@ -25,12 +25,18 @@
    8. decks/manifest.json: every listed deck's `file` exists in decks/
       and is valid JSON with a non-empty `tarjetas` array; any card's
       optional `imagen` has all its subfields, the referenced file
-      exists on disk, and the license isn't NC/ND (technical.md §3.1).
+      exists on disk, the license isn't NC/ND, and the on-disk image
+      size is within budget (technical.md §3.1 — warn over 200 KB,
+      fail over 500 KB so a single full-res image can't single-handedly
+      blow Cloudflare's ~25 MB total deploy budget).
    9. doc/curriculum/ (recursively): every .md file parses as a valid
       content config (frontmatter with `tema`, via scripts/config-parser.js)
       and, if it has a `# Índice` section, that section is not empty.
    Output: list of failures with the exact file. Exit code 1 if there
-   are any, "OK (N checks)" otherwise.
+   are any, "OK (N checks)" otherwise. Image-size warnings are printed
+   above the OK line but do not affect the exit code — they exist to
+   nudge authors toward the soft 200 KB target without turning
+   borderline cases into CI red.
    ============================================================ */
 'use strict';
 
@@ -53,6 +59,7 @@ process.on('unhandledRejection', function () {});
 
 var ROOT = path.join(__dirname, '..');
 var failures = [];
+var warnings = [];
 var checks = 0;
 
 function rel(p) {
@@ -430,8 +437,29 @@ checks += 1;
                 }
               });
               if (typeof img.archivo === 'string' && img.archivo.trim()) {
-                if (!fs.existsSync(path.join(ROOT, img.archivo))) {
+                var imgPath = path.join(ROOT, img.archivo);
+                if (!fs.existsSync(imgPath)) {
                   failures.push(imgLabel + '.archivo "' + img.archivo + '" does not exist on disk');
+                } else {
+                  var imgBytes = fs.statSync(imgPath).size;
+                  // Hard 500 KB cap — a single full-res Openverse image at this
+                  // size single-handedly blows the ~25 MB total deploy budget
+                  // (technical.md §3.1). 200 KB is the soft target for every
+                  // shipped image, reported as a warning so the author sees
+                  // the nudge without the build turning red on borderline
+                  // cases — but anything over 500 KB is a hard failure
+                  // because that threshold is what breaks Cloudflare's
+                  // deploy on its own, not a soft aesthetic preference.
+                  if (imgBytes > 500 * 1024) {
+                    failures.push(imgLabel + '.archivo "' + img.archivo + '" is ' +
+                      Math.round(imgBytes / 1024) + ' KB — over the 500 KB hard cap (technical.md §3.1). ' +
+                      'Re-encode it (e.g. `cjpeg -quality 75 -outfile foo.jpg foo.jpg` or ' +
+                      'resize to ≤1024 px on the long edge) and re-save before committing.');
+                  } else if (imgBytes > 200 * 1024) {
+                    warnings.push(imgLabel + '.archivo "' + img.archivo + '" is ' +
+                      Math.round(imgBytes / 1024) + ' KB — over the 200 KB target (technical.md §3.1). ' +
+                      'Consider re-encoding to shrink it.');
+                  }
                 }
               }
               if (typeof img.licencia === 'string' && /(^|[\s-])(NC|ND)([\s-]|$)/i.test(img.licencia)) {
@@ -488,6 +516,11 @@ checks += 1;
 })();
 
 /* --- Result --- */
+if (warnings.length) {
+  console.log('WARNINGS (' + warnings.length + ') — non-blocking, see technical.md §3.1:');
+  warnings.forEach(function (w) { console.log('  - ' + w); });
+  console.log('');
+}
 if (failures.length) {
   console.log('FAILURES (' + failures.length + '):');
   failures.forEach(function (f) { console.log('  - ' + f); });

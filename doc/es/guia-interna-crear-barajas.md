@@ -142,9 +142,24 @@ Para cada tarjeta, el agente:
    agente reverificando cada imagen al escribir el contenido.
 3. Descarga la URL `thumb` (no la `image` de resolución completa) en
    `assets/img/decks/<slug-de-la-baraja>/<archivo>.jpg` — es la misma
-   foto a una fracción del tamaño, de sobra para ilustrar una tarjeta;
-   solo recurre a `image` si el proxy de miniaturas falla con un 400
-   para ese origen.
+   foto a una fracción del tamaño, de sobra para ilustrar una tarjeta.
+   Si el proxy de miniaturas de Openverse falla con un 400 en ese
+   origen concreto, **genera la miniatura tú mismo en vez de caer al
+   fallback `image` a resolución completa** — el campo `fuente` de
+   la candidata casi siempre apunta a Wikimedia Commons, y Wikimedia
+   sirve una miniatura oficial de cualquier archivo vía
+   `https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<nombre>&width=800`
+   (o su equivalente por API `?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800`
+   sobre la página con ese `curid`), que es la herramienta correcta
+   para este caso concreto — mismo autor, misma licencia, sólo más
+   pequeña. Sólo si ni la miniatura de Openverse ni la de Wikimedia
+   funcionan, aborta y reporta la imagen que falta — nunca recurras a
+   la URL `image` a resolución completa como opción por defecto.
+   **Presupuesto de tamaño: el archivo guardado tiene que quedar por
+   debajo de 200 KB en disco** (≤1024 px en el lado largo — ver
+   `tecnico.md` §3.1). El check en `scripts/check.js` avisa de
+   cualquier imagen por encima de 200 KB y falla el build por encima
+   de 500 KB.
 4. Añade el campo `imagen` a esa tarjeta con todos sus subcampos
    (`archivo`, `alt`, `titulo`, `autor`, `fuente`, `licencia`) — `alt`
    describe lo que la imagen muestra de verdad, en el idioma de la

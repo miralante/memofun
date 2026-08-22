@@ -23,12 +23,23 @@
  * and record its attribution in the card's `imagen` field (see
  * doc/en/technical.md §3).
  *
- * Prefer the `thumb` URL over `image` for the download: it's the same
- * picture at a much smaller size (a few hundred KB → tens of KB),
- * which is plenty for a support illustration on a card and keeps the
- * shipped page lighter. The thumbnail proxy occasionally fails (HTTP
- * 400) for some source hosts — if `curl -f` on it errors, fall back to
- * the full `image` URL.
+ * Acquisition order is: (a) the Openverse `thumb` URL — the shipped
+ * image is ALWAYS a thumbnail of the source, not the full-resolution
+ * original; the card renders at maybe 300-400 px wide on a phone and
+ * the repo ships as Cloudflare Workers static assets with a ~25 MB
+ * total budget that a single full-res image breaks on its own. The
+ * `thumb` URL is the same picture at a much smaller size (tens of KB),
+ * which is plenty for a card. (b) If the Openverse thumbnail proxy
+ * 400s on that source host, generate the thumbnail yourself from the
+ * source instead of falling back to the full-res `image` URL — the
+ * candidate's `fuente` field almost always points to Wikimedia
+ * Commons, and Wikimedia serves an official thumbnail of any file via
+ * `https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<name>&width=800`
+ * (or the API equivalent on the `curid` page); same author, same
+ * license, just smaller — that's the right tool for this exact case.
+ * (c) Only if neither Openverse's thumb nor the Wikimedia thumbnail
+ * works, abort and report the missing image — never use the full-res
+ * `image` URL as a default.
  *
  * Usage:
  *   node scripts/buscar-imagen.js <term> [maxResults]
@@ -95,12 +106,27 @@ function printResults(results) {
     "here, e.g.:\n" +
     '  curl -f -o assets/img/decks/<deck-slug>/<file>.jpg "<thumb url>"\n' +
     "If that fails (HTTP 400 — the thumbnail proxy sometimes can't render a given\n" +
-    "source host), fall back to the full-res image url instead — but then MATCH\n" +
-    "THE EXTENSION TO THE filetype PRINTED ABOVE (jpg/png/webp/svg), don't assume\n" +
-    ".jpg: a mismatched extension breaks nothing visually in most browsers but is\n" +
-    "wrong and has bitten this repo before (a raw Openverse `image` URL can be\n" +
-    "WebP even when the term/thumb suggested a jpg). e.g.:\n" +
-    '  curl -o assets/img/decks/<deck-slug>/<file>.<real-ext> "<image url>"\n\n' +
+    "source host), DON'T fall back to the full-res `image` URL. Instead,\n" +
+    "generate the thumbnail yourself from the source: the candidate's `fuente`\n" +
+    "field almost always points to Wikimedia Commons, and Wikimedia serves an\n" +
+    "official thumbnail of any file via:\n" +
+    '  curl -L "https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<name>&width=800" -o assets/img/decks/<deck-slug>/<file>.jpg\n' +
+    "(or the API equivalent on the `curid` page: `?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800`).\n" +
+    "Same author, same license, just smaller — that's the right tool for this\n" +
+    "exact case. Only if neither Openverse's thumb nor Wikimedia's thumbnail works,\n" +
+    "abort and report the missing image — never use the full-res `image` URL as\n" +
+    "a default.\n\n" +
+    "SIZE BUDGET — HARD 200 KB PER IMAGE. The shipped file is ALWAYS a thumbnail\n" +
+    "of the source, not the full-resolution original. The repo ships as Cloudflare\n" +
+    "Workers static assets with a ~25 MB total budget; a single full-res `image`\n" +
+    "URL (commonly 1-10 MB) breaks the deploy on its own, and on top of that the\n" +
+    "card renders at maybe 300-400 px wide on a phone so anything above that is\n" +
+    "bytes spent for no visible quality. The Openverse `thumb` URL is already\n" +
+    "well under 200 KB (tens-of-KB JPEG), as is Wikimedia's `Special:FilePath`\n" +
+    "thumbnail at `width=800`. The full-res `image` URL is almost never in budget\n" +
+    "and is explicitly NOT a fallback — see the block above. `scripts/check.js`\n" +
+    "warns over 200 KB and fails the build over 500 KB. See doc/en/technical.md\n" +
+    "§3.1 for the rule.\n\n" +
     "Then add this to that card in the deck's JSON (doc/en/technical.md §3):\n" +
     '  "imagen": {\n' +
     '    "archivo": "assets/img/decks/<deck-slug>/<file>.jpg",\n' +

@@ -109,19 +109,50 @@ the explanation:
 - All five fields are required when `imagen` is present; a card with
   no `imagen` renders exactly as before (image is optional, per card,
   not per deck).
+- **Images are always thumbnails. The shipped file MUST be a thumbnail
+  of the source, not the full-resolution original.** The repo ships as
+  Cloudflare Workers static assets with a hard total budget of ~25 MB
+  for the entire site; a single full-res Openverse `image` (often
+  1-10 MB) blows that budget on its own, and on top of that the image
+  is much larger than a card illustration needs — the card renders
+  it at maybe 300-400 px wide on a phone, so anything above that is
+  bytes spent for no visible quality. The shipped file in
+  `assets/img/decks/<deck-slug>/<file>.<ext>` MUST therefore be a
+  thumbnail (≤1024 px on the long edge) and MUST stay under 200 KB
+  on disk after the download (`scripts/check.js` reports any image
+  over that as a warning, and any over 500 KB as a hard failure — the
+  failure threshold is the size that single-handedly breaks the
+  Cloudflare deploy budget, not a soft aesthetic preference).
+  Acquisition order is: (a) the Openverse `thumb` URL from
+  `buscar-imagen.js`, which is already in this range (tens-of-KB
+  JPEGs); (b) if that 400s, generate the thumbnail yourself instead
+  of falling back to the full-res `image` URL — the Openverse
+  candidate's `fuente` field almost always points to Wikimedia
+  Commons, and Wikimedia serves an official thumbnail of any file
+  via `https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<name>&width=800`
+  (or its API equivalent `?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800`
+  on the `curid` page), which is the same picture at a controlled
+  size and the right tool for this exact case — same author, same
+  license, just smaller; (c) only if neither (a) nor (b) works,
+  abort and report the missing image — never fall back to the
+  full-res `image` URL as a default. `scripts/check.js` enforces the
+  budget so this rule can't silently slip.
 - Sourcing: `node scripts/buscar-imagen.js "<term>"` searches Openverse
   (openverse.org, no key needed) restricted to those same safe
   licenses and lists candidates — title, source, and both a `thumb`
   and a full-res `image` URL — for a human/agent to review and pick;
-  it does not download or pick automatically. Download the `thumb`
-  URL, not `image`: same picture, a fraction of the size, still plenty
-  for a card illustration (falls back to `image` if the thumbnail
-  proxy 400s on a given source host). Pick from the title/source text
-  the script prints and treat it as curated — never open a candidate
-  file to view it, including the final pick, that spends vision tokens
-  for a check the text already gives. A mismatched image that slips
-  through gets caught by a human reader later and reported per
-  `CONTRIBUTING.md`. See `internal-creating-decks-guide.md` §3.1.
+  it does not download or pick automatically. The shipped image MUST
+  come from the `thumb` URL: same picture, a fraction of the size,
+  already in the 200 KB budget. If the Openverse thumbnail proxy 400s
+  on a specific source host, generate the thumbnail from the source
+  instead of falling back to the full-res `image` URL — see the
+  size-budget bullet above for the Wikimedia `Special:FilePath`
+  fallback. Pick from the title/source text the script prints and
+  treat it as curated — never open a candidate file to view it,
+  including the final pick, that spends vision tokens for a check
+  the text already gives. A mismatched image that slips through gets
+  caught by a human reader later and reported per `CONTRIBUTING.md`.
+  See `internal-creating-decks-guide.md` §3.1.
 
 ## 4. `decks/manifest.json`
 

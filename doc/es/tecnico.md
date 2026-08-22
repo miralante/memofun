@@ -115,21 +115,55 @@ visual a la explicación:
 - Los cinco campos son obligatorios cuando `imagen` está presente; una
   tarjeta sin `imagen` se ve exactamente igual que antes (la imagen es
   opcional, por tarjeta, no por baraja).
+- **Las imágenes son siempre miniaturas. El archivo publicado TIENE que
+  ser una miniatura de la fuente, no la imagen a resolución completa.**
+  El repo se publica como static assets de Cloudflare Workers con un
+  presupuesto total de ~25 MB para todo el sitio; una sola imagen a
+  resolución completa de Openverse (suele ocupar 1-10 MB) revienta
+  ese presupuesto ella sola, y encima es mucho más grande de lo que
+  necesita una tarjeta — la tarjeta la renderiza a unos 300-400 px
+  de ancho en el móvil, así que cualquier cosa por encima de eso son
+  bytes gastados sin ganancia visible. El archivo publicado en
+  `assets/img/decks/<slug-de-la-baraja>/<archivo>.<ext>` TIENE que
+  ser, por tanto, una miniatura (≤1024 px en el lado largo) y TIENE
+  que quedar por debajo de 200 KB en disco tras la descarga
+  (`scripts/check.js` avisa de cualquier imagen por encima de eso, y
+  falla en seco si pasa de 500 KB — el umbral de fallo es el tamaño
+  que, él solo, rompe el presupuesto del deploy de Cloudflare, no una
+  preferencia estética blanda). Orden de adquisición: (a) la URL
+  `thumb` de Openverse desde `buscar-imagen.js`, que ya entra en ese
+  rango (JPEGs de decenas de KB); (b) si esa URL falla con un 400,
+  genera la miniatura tú mismo en vez de caer al fallback `image` a
+  resolución completa — el campo `fuente` de la candidata de
+  Openverse casi siempre apunta a Wikimedia Commons, y Wikimedia
+  sirve una miniatura oficial de cualquier archivo vía
+  `https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<nombre>&width=800`
+  (o su equivalente por API `?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800`
+  sobre la página con ese `curid`), que es la misma foto a tamaño
+  controlado y la herramienta correcta para este caso concreto —
+  mismo autor, misma licencia, sólo más pequeña; (c) sólo si ni (a)
+  ni (b) funcionan, aborta y reporta la imagen que falta — nunca
+  recurras a la URL `image` a resolución completa como opción por
+  defecto. `scripts/check.js` enforce el presupuesto, así que esta
+  regla no puede colarse en silencio.
 - Cómo buscarla: `node scripts/buscar-imagen.js "<término>"` busca en
   Openverse (openverse.org, sin necesidad de clave) restringido a esas
   mismas licencias seguras y lista candidatas — título, fuente, y una
   URL `thumb` y otra `image` de tamaño completo — para que una persona
   (o el agente) las revise y elija; no descarga ni elige nada
-  automáticamente. Descarga la URL `thumb`, no `image`: es la misma
-  foto a una fracción del tamaño, de sobra para ilustrar una tarjeta
-  (si el proxy de miniaturas falla con un 400 en algún origen concreto,
-  usa `image` como respaldo). Elige a partir del texto (título/fuente)
-  que imprime el script y trátalo como ya curado — nunca abras un
-  archivo candidato para verlo, ni siquiera la elección final, eso
-  gasta tokens de visión por un chequeo que el texto ya resuelve. Una
-  imagen desajustada que se cuele la detecta después una persona
-  leyendo la baraja y se reporta según `CONTRIBUTING.es.md`. Ver
-  `guia-interna-crear-barajas.md` §3.1.
+  automáticamente. La imagen publicada TIENE que venir de la URL
+  `thumb`: es la misma foto a una fracción del tamaño, ya dentro del
+  presupuesto de 200 KB. Si el proxy de miniaturas de Openverse falla
+  con un 400 en algún origen concreto, genera la miniatura desde la
+  fuente en lugar de caer al fallback `image` a resolución completa —
+  ver el bullet de presupuesto de tamaño de arriba para el fallback
+  `Special:FilePath` de Wikimedia. Elige a partir del texto
+  (título/fuente) que imprime el script y trátalo como ya curado —
+  nunca abras un archivo candidato para verlo, ni siquiera la elección
+  final, eso gasta tokens de visión por un chequeo que el texto ya
+  resuelve. Una imagen desajustada que se cuele la detecta después
+  una persona leyendo la baraja y se reporta según
+  `CONTRIBUTING.es.md`. Ver `guia-interna-crear-barajas.md` §3.1.
 
 ## 4. `decks/manifest.json`
 

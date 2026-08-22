@@ -155,34 +155,54 @@ and still binding.
    the floor and the ceiling for what a deck (or a deck extending it)
    covers — don't drift into adjacent-but-unlisted topics just because
    they "read well." Full reasoning: `doc/en/SPEC.md` §1.3.
-9. **Optional per-card image.** Only when asked — don't add images on
-   your own initiative for every new deck. A card can carry one
-   `imagen` field with a photo/illustration as visual support (schema:
-   `doc/en/technical.md` §3.1). To source one: `node
-   scripts/buscar-imagen.js "<term>"` searches Openverse (free image
-   bank, no signup) restricted to CC0/Public Domain/CC BY/CC BY-SA —
-   never `-NC`/`-ND` — lists candidates with title/source/dimensions,
-   and you pick the one that actually fits **from that text** (search
-   is tag-based, not semantic, so retry with a more concrete or common
-   term when results are empty or off-topic). **Never open the
-   candidate image files to view them, not even the final pick** —
-   the search result's title/source is the curated signal for fit;
-   treating it as sufficient is the point, not a shortcut, since
-   opening any image burns ~1000+ vision tokens for a check the title
-   text already gives. If a shipped card ever turns out to have a
-   mismatched image, that's caught by a human reader after the fact
-   and reported per `CONTRIBUTING.md`, not by the agent re-verifying
-   every image at authoring time. Download the `thumb` URL the
-   script prints, not the full-res `image` one — same picture, a
-   fraction of the size, plenty for a card, and cheaper to inspect if
-   you ever do need to — falling back to `image` only if the thumbnail
-   proxy 400s for that source host. Save it to
-   `assets/img/decks/<deck-slug>/<file>.jpg` and fill in all of
-   `imagen`'s subfields, including the TASL attribution
-   (`titulo`/`autor`/`fuente`/`licencia`). When a request covers a
-   whole deck, batch the JSON edits into as few read/write passes over
-   the file as practical rather than one full round trip per card.
-   Bump `sw.js` `VERSION` if you touched `tools/study/app.js` or
+9. **Optional per-card image — always a thumbnail.** Only when asked —
+   don't add images on your own initiative for every new deck. A card
+   can carry one `imagen` field with a photo/illustration as visual
+   support (schema: `doc/en/technical.md` §3.1). The shipped image is
+   **always a thumbnail of the source**, not the full-resolution
+   original — the card renders it at maybe 300-400 px wide on a phone
+   so anything above that is bytes spent for no visible quality, and
+   the repo ships as Cloudflare Workers static assets with a ~25 MB
+   total budget that a single full-res image (1-10 MB) breaks on its
+   own. To source one: `node scripts/buscar-imagen.js "<term>"`
+   searches Openverse (free image bank, no signup) restricted to
+   CC0/Public Domain/CC BY/CC BY-SA — never `-NC`/`-ND` — lists
+   candidates with title/source/dimensions, and you pick the one that
+   actually fits **from that text** (search is tag-based, not
+   semantic, so retry with a more concrete or common term when results
+   are empty or off-topic). **Never open the candidate image files to
+   view them, not even the final pick** — the search result's
+   title/source is the curated signal for fit; treating it as
+   sufficient is the point, not a shortcut, since opening any image
+   burns ~1000+ vision tokens for a check the title text already
+   gives. If a shipped card ever turns out to have a mismatched
+   image, that's caught by a human reader after the fact and reported
+   per `CONTRIBUTING.md`, not by the agent re-verifying every image
+   at authoring time. **Download the `thumb` URL the script prints,
+   not the full-res `image` one** — same picture, a fraction of the
+   size, plenty for a card, and cheaper to inspect if you ever do
+   need to. If the Openverse thumbnail proxy 400s on that specific
+   source host, **generate the thumbnail yourself instead of falling
+   back to the full-res `image` URL** — the candidate's `fuente` field
+   almost always points to Wikimedia Commons, and Wikimedia serves an
+   official thumbnail of any file via
+   `https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<name>&width=800`
+   (or the API equivalent `?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800`
+   on the `curid` page), which is the right tool for this exact case
+   — same author, same license, just smaller. Only if neither
+   Openverse's thumb nor the Wikimedia thumbnail works, abort and
+   report the missing image — never use the full-res `image` URL as
+   a default. **Size budget: the saved file in
+   `assets/img/decks/<deck-slug>/<file>.<ext>` must end up under 200 KB
+   on disk** (≤1024 px on the long edge) — `scripts/check.js` warns
+   over 200 KB and fails the build over 500 KB, the size that
+   single-handedly breaks the Cloudflare budget, not a soft aesthetic
+   preference. Save it under `assets/img/decks/<deck-slug>/<file>.<ext>`
+   and fill in all of `imagen`'s subfields, including the TASL
+   attribution (`titulo`/`autor`/`fuente`/`licencia`). When a request
+   covers a whole deck, batch the JSON edits into as few read/write
+   passes over the file as practical rather than one full round trip
+   per card. Bump `sw.js` `VERSION` if you touched `tools/study/app.js` or
    `componentes.css` to add the rendering — the images themselves
    don't need a `FILES` entry (see the service-worker rule above;
    they're cached on first view like any deck JSON).

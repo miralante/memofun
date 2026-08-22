@@ -144,8 +144,23 @@ For each card, the agent:
    authoring time.
 3. Downloads the `thumb` URL (not the full-res `image` URL) into
    `assets/img/decks/<deck-slug>/<file>.jpg` — same picture, a
-   fraction of the size, plenty for a card illustration; falls back to
-   `image` only if the thumbnail proxy 400s for that source host.
+   fraction of the size, plenty for a card illustration. If the
+   Openverse thumbnail proxy 400s on that specific source host,
+   **generate the thumbnail yourself instead of falling back to the
+   full-res `image` URL** — the candidate's `fuente` field almost
+   always points to Wikimedia Commons, and Wikimedia serves an
+   official thumbnail of any file via
+   `https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<name>&width=800`
+   (or the API equivalent
+   `?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800` on the
+   `curid` page), which is the right tool for this exact case — same
+   author, same license, just smaller. Only if neither Openverse's
+   thumb nor the Wikimedia thumbnail works, abort and report the
+   missing image — never use the full-res `image` URL as a default.
+   **Size budget: the saved file must end up under 200 KB on disk**
+   (≤1024 px on the long edge — see `technical.md` §3.1). The check
+   in `scripts/check.js` reports any image over 200 KB as a warning
+   and fails the build over 500 KB.
 4. Adds the `imagen` field to that card with all its subfields
    (`archivo`, `alt`, `titulo`, `autor`, `fuente`, `licencia`) — `alt`
    describes what the image actually shows, in the deck's language.
