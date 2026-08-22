@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una fábula?",
-      "respuesta": "Es un cuento corto con animales que actúan como personas. <mark>Casi siempre termina con una enseñanza para la vida</mark>. Esa enseñanza se llama moraleja. Muchas fábulas hablan de la pereza o la generosidad."
+      "respuesta": "Es un cuento corto con animales que actúan como personas. <mark>Casi siempre termina con una enseñanza para la vida</mark>. Esa enseñanza se llama moraleja. Muchas fábulas hablan de la pereza o la generosidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_3/fabula-zorro-cuervo.jpg",
+        "alt": "Dibujo de un zorro mirando hacia arriba a un cuervo, posado en un árbol, con queso en el pico",
+        "titulo": "The Fox and the Crow, Illustration for Aesop's Fables",
+        "autor": "Victor Wilbour",
+        "fuente": "https://collection.cooperhewitt.org/view/objects/asitem/id/24110",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la moraleja de una fábula?",
-      "respuesta": "Es la enseñanza que deja la fábula al terminar. <mark>Es como un consejo escondido dentro de la historia</mark>. Por ejemplo: hay que prepararse antes de que llegue el frío. Sin moraleja, sería solo un cuento con animales."
+      "respuesta": "Es la enseñanza que deja la fábula al terminar. <mark>Es como un consejo escondido dentro de la historia</mark>. Por ejemplo: hay que prepararse antes de que llegue el frío. Sin moraleja, sería solo un cuento con animales.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_3/moraleja-liebre-tortuga.jpg",
+        "alt": "Grabado antiguo de una liebre y una tortuga en una carrera, con un zorro observando entre los árboles",
+        "titulo": "Della lepre, e la testuggine",
+        "autor": "Provenance Online Project",
+        "fuente": "https://www.flickr.com/photos/58558794@N07/7652965654",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué le pasa a la cigarra por no prepararse para el invierno?",
-      "respuesta": "La cigarra canta todo el verano sin guardar comida. <mark>Cuando llega el invierno, no tiene nada que comer</mark>. La hormiga, en cambio, había trabajado guardando alimento. La fábula enseña que prepararse a tiempo importa."
+      "respuesta": "La cigarra canta todo el verano sin guardar comida. <mark>Cuando llega el invierno, no tiene nada que comer</mark>. La hormiga, en cambio, había trabajado guardando alimento. La fábula enseña que prepararse a tiempo importa.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_3/cigarra-hormiga.jpg",
+        "alt": "Ilustración antigua de un saltamontes tocando música junto a una hormiga pequeña, en un bosque",
+        "titulo": "The Ant and the Grasshopper - Richard Heighway",
+        "autor": "dierken",
+        "fuente": "https://www.flickr.com/photos/92282757@N00/6776504474",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un cuento fantástico?",
-      "respuesta": "Es un cuento con cosas que no existen en la vida real. <mark>Dragones, hadas o magia forman parte de su mundo</mark>. Por eso puede pasar lo que quiera el autor. Es distinto a un cuento sobre la vida diaria."
+      "respuesta": "Es un cuento con cosas que no existen en la vida real. <mark>Dragones, hadas o magia forman parte de su mundo</mark>. Por eso puede pasar lo que quiera el autor. Es distinto a un cuento sobre la vida diaria.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_3/cuento-fantastico-dragon.jpg",
+        "alt": "Dibujo de una cabeza de dragón negra con la boca abierta, dientes afilados y garras",
+        "titulo": "The Dragon of Wantley, his tale: by Owen Wister",
+        "autor": "Boston Public Library",
+        "fuente": "https://www.flickr.com/photos/24029425@N06/10559908903",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un elemento mágico en un cuento?",
-      "respuesta": "Es algo que rompe las normas del mundo real. <mark>Una alfombra que vuela o una poción que cambia a alguien</mark>. Ayuda a resolver problemas de forma sorprendente. Sin magia, la historia sería mucho más normal."
+      "respuesta": "Es algo que rompe las normas del mundo real. <mark>Una alfombra que vuela o una poción que cambia a alguien</mark>. Ayuda a resolver problemas de forma sorprendente. Sin magia, la historia sería mucho más normal.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_3/elemento-magico-lampara.webp",
+        "alt": "Dibujo de una lámpara mágica con humo saliendo, como la del genio de los cuentos",
+        "titulo": "Magic lamp, black & white",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/6817430/image-vintage-public-domain-black",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una aventura en un cuento?",
-      "respuesta": "Es un viaje o un reto fuera de lo normal. <mark>El protagonista sale de su rutina para vivir algo distinto</mark>. Por el camino, suele encontrar peligros y sorpresas. Al volver, ya no es el mismo de antes."
+      "respuesta": "Es un viaje o un reto fuera de lo normal. <mark>El protagonista sale de su rutina para vivir algo distinto</mark>. Por el camino, suele encontrar peligros y sorpresas. Al volver, ya no es el mismo de antes.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_3/aventura-mapa-tesoro.webp",
+        "alt": "Dibujo de un mapa del tesoro enrollado, con una brújula y un camino punteado hasta una X",
+        "titulo": "Treasure map clipart illustration",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/6290260/image-vintage-public-domain-illustrations",
+        "licencia": "CC0 1.0"
+      }
     }
   ]
 }

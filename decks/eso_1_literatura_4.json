@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una fábula?",
-      "respuesta": "Es un relato breve, casi siempre con animales que actúan como personas. <mark>Termina con una enseñanza llamada moraleja</mark>. Autores como Esopo la convirtieron en un género propio. Se sigue usando hoy para transmitir valores de forma sencilla."
+      "respuesta": "Es un relato breve, casi siempre con animales que actúan como personas. <mark>Termina con una enseñanza llamada moraleja</mark>. Autores como Esopo la convirtieron en un género propio. Se sigue usando hoy para transmitir valores de forma sencilla.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_4/fabula-liebre-tortuga.jpg",
+        "alt": "Ilustración clásica de la fábula de la liebre y la tortuga",
+        "titulo": "14. THE HARE AND THE TORTOISE",
+        "autor": "laurakgibbs",
+        "fuente": "https://www.flickr.com/photos/38299630@N05/3679422761",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una moraleja?",
-      "respuesta": "Es la enseñanza o el consejo que deja un relato al terminar. <mark>Resume en una frase la idea que quería transmitir la historia</mark>. Por ejemplo, no fiarse de las apariencias. Sin moraleja, una fábula sería solo una anécdota con animales."
+      "respuesta": "Es la enseñanza o el consejo que deja un relato al terminar. <mark>Resume en una frase la idea que quería transmitir la historia</mark>. Por ejemplo, no fiarse de las apariencias. Sin moraleja, una fábula sería solo una anécdota con animales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_4/fabula-saltamontes.jpg",
+        "alt": "Ilustración clásica de una fábula con animales",
+        "titulo": "18. THE GRASSHOPPER AND THE OWL",
+        "autor": "laurakgibbs",
+        "fuente": "https://www.flickr.com/photos/38299630@N05/3680236434",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una parábola?",
-      "respuesta": "Es un relato breve que enseña una idea a través de un ejemplo cotidiano. <mark>Usa personas normales, no animales, a diferencia de la fábula</mark>. Se usa mucho en textos religiosos y morales. Su enseñanza suele quedar implícita, para que el lector la piense."
+      "respuesta": "Es un relato breve que enseña una idea a través de un ejemplo cotidiano. <mark>Usa personas normales, no animales, a diferencia de la fábula</mark>. Se usa mucho en textos religiosos y morales. Su enseñanza suele quedar implícita, para que el lector la piense.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_4/pastor-rebano.jpg",
+        "alt": "Un pastor con su rebaño de ovejas",
+        "titulo": "Shepherd and flock - rural",
+        "autor": "Brad Higham",
+        "fuente": "https://www.flickr.com/photos/83151451@N08/15074716255",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es 'Las mil y una noches'?",
-      "respuesta": "Es una colección de cuentos de origen árabe y persa. <mark>Incluye historias tan conocidas como Aladino o Simbad</mark>. Se fue formando durante siglos, con autores anónimos. Es una de las obras de la literatura popular más influyentes del mundo."
+      "respuesta": "Es una colección de cuentos de origen árabe y persa. <mark>Incluye historias tan conocidas como Aladino o Simbad</mark>. Se fue formando durante siglos, con autores anónimos. Es una de las obras de la literatura popular más influyentes del mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_4/lampara-aladino.jpg",
+        "alt": "Una lámpara mágica como la de Aladino, de Las mil y una noches",
+        "titulo": "La lámpara de Aladino en Somerset House",
+        "autor": "a_marga",
+        "fuente": "https://www.flickr.com/photos/48741202@N00/23835297284",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué cuenta historias Sherezade en 'Las mil y una noches'?",
-      "respuesta": "Sherezade cuenta un cuento cada noche a un rey. <mark>Deja la historia sin terminar para que el rey no la mate al amanecer</mark>. Así consigue salvar su vida noche tras noche. Su ingenio demuestra el poder de contar buenas historias."
+      "respuesta": "Sherezade cuenta un cuento cada noche a un rey. <mark>Deja la historia sin terminar para que el rey no la mate al amanecer</mark>. Así consigue salvar su vida noche tras noche. Su ingenio demuestra el poder de contar buenas historias.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_4/sherezade-teatro.jpg",
+        "alt": "Representación teatral de Sherezade, la narradora de Las mil y una noches",
+        "titulo": "Martxoak 6 marzo. Sherezade y las capas de la cebolla. Vaivén producciones",
+        "autor": "DONOSTIA KULTURA",
+        "fuente": "https://www.flickr.com/photos/43860468@N02/25798663527",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un relato enmarcado?",
-      "respuesta": "Es una historia que contiene otras historias dentro de ella. <mark>Es como una caja que guarda cajas más pequeñas dentro</mark>. 'Las mil y una noches' es un ejemplo clásico. Cada cuento interior puede leerse casi de forma independiente."
+      "respuesta": "Es una historia que contiene otras historias dentro de ella. <mark>Es como una caja que guarda cajas más pequeñas dentro</mark>. 'Las mil y una noches' es un ejemplo clásico. Cada cuento interior puede leerse casi de forma independiente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_4/matrioska-muneca-rusa.jpg",
+        "alt": "Muñecas rusas matrioska, unas dentro de otras, como un relato enmarcado",
+        "titulo": "La matrioska o muñeca rusa",
+        "autor": "M. Martin Vicente",
+        "fuente": "https://www.flickr.com/photos/32179778@N00/7996922008",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

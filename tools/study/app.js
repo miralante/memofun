@@ -37,10 +37,51 @@
       '<span class="stars-count">' + App.storage.totalStars() + '</span>';
   }
 
+  /* Pop a "+1 ⭐" badge out of the header stars chip when a deck
+     finishes. Visual flourish only — the count itself is already
+     updated by the renderStars() call in showEndScreen(); this just
+     makes the moment legible. Single-use: any prior toast is removed
+     first so a fast repeat doesn't stack. Skipped silently if the
+     new total is not strictly greater than the previous one
+     (e.g. deck already completed — see App.storage.completeDeck's
+     completion guard), matching SPEC.md §2.2 "stars only ever go up". */
+  function showStarToast() {
+    var newTotal = App.storage.totalStars();
+    var prev = starsEl.__lastTotalStars;
+    starsEl.__lastTotalStars = newTotal;
+    if (typeof prev !== 'number' || newTotal <= prev) return;
+    var gain = newTotal - prev;
+    var old = starsEl.querySelector('.star-toast');
+    if (old) old.remove();
+    var toast = document.createElement('span');
+    toast.className = 'star-toast';
+    toast.setAttribute('aria-hidden', 'true');
+    toast.textContent = App.i18n.t('study.starEarned').replace('{n}', gain);
+    starsEl.appendChild(toast);
+    /* force reflow so .show triggers the transition on the same frame
+       the node is in the DOM */
+    void toast.offsetWidth;
+    toast.classList.add('show');
+    setTimeout(function () { if (toast.parentNode) toast.remove(); }, 1700);
+  }
+
   function progressText() {
-    return App.i18n.t('study.progress')
+    var base = App.i18n.t('study.progress')
       .replace('{n}', index + 1)
       .replace('{total}', cards.length);
+    /* Gentle milestone nudge (halfway / three-quarters), read by the
+       screen reader via the existing aria-live="polite". Not gamified:
+       no points, no streak, just a warm text cue that the person is
+       making progress. Only fires when the deck is long enough for the
+       midpoint to actually feel like progress (≥ 6 cards). */
+    if (cards.length >= 6) {
+      var pos = (index + 1) / cards.length;
+      var key = pos >= 0.75 ? 'study.milestoneThreeQuarters'
+             : pos >= 0.5  ? 'study.milestoneHalf'
+             : null;
+      if (key) base += ' — ' + App.i18n.t(key);
+    }
+    return base;
   }
 
   function updateProgress() {
@@ -84,11 +125,31 @@
     });
   }
 
+  /* Renders a card's optional `imagen` (visual support — see
+     technical.md §3.1) as a <figure> with the attribution (Title/
+     Author/Source/License) as a small caption underneath. Images are
+     bundled in the repo (never hotlinked), so `archivo` is resolved
+     relative to the site root, same as a deck's own JSON. */
+  function imagenHtml(card) {
+    if (!card.imagen) return '';
+    var img = card.imagen;
+    var caption = App.i18n.t('study.photoBy') + ': "' +
+      App.utils.escapeHtml(img.titulo) + '" — ' +
+      App.utils.escapeHtml(img.autor) + ' · ' +
+      App.utils.escapeHtml(img.licencia) +
+      ' · <a href="' + img.fuente + '" target="_blank" rel="noopener">Openverse</a>';
+    return '<figure class="tarjeta-imagen">' +
+      '<img src="../../' + img.archivo + '" alt="' + App.utils.escapeHtml(img.alt) + '" loading="lazy">' +
+      '<figcaption>' + caption + '</figcaption>' +
+      '</figure>';
+  }
+
   function paintQuestion() {
     var card = cards[index];
-    cardEl.innerHTML = '<div class="cara">' + card.pregunta + '</div>';
+    cardEl.innerHTML = imagenHtml(card) + '<div class="cara">' + card.pregunta + '</div>';
     btnReveal.classList.remove('hidden');
     btnNext.classList.add('secondary');
+    cardEl.classList.remove('revealed');
     updateProgress();
     btnNext.textContent = (index === cards.length - 1)
       ? App.i18n.t('study.finish')
@@ -99,12 +160,22 @@
   function paintAnswer() {
     var card = cards[index];
     cardEl.innerHTML =
+      imagenHtml(card) +
       '<div class="cara">' + card.pregunta + '</div>' +
       '<hr>' +
       '<div class="respuesta">' + card.respuesta + '</div>';
     btnReveal.classList.add('hidden');
     btnNext.classList.remove('secondary');
+    cardEl.classList.add('revealed');
     updateProgress();
+    /* Soft positive reinforcement on reveal — the only moment a card
+       "responds". Tied to the existing sounds-on/off toggle (handled
+       inside App.feedback); no new mechanic, just connects what was
+       already designed. Skipped on the very last card so the bigger
+       finish-time celebration stays the moment of the session. */
+    if (index < cards.length - 1) {
+      App.feedback.encourage();
+    }
   }
 
   function renderCard() { flip(paintQuestion); }
@@ -113,11 +184,21 @@
   function showEndScreen() {
     App.storage.completeDeck(deckId);
     renderStars();
+    showStarToast();
     areaEl.classList.add('hidden');
     document.getElementById('transfer-phrase').textContent =
       App.i18n.t('study.transferPhrase').replace('{tema}', deckTitle);
     endScreenEl.classList.remove('hidden');
-    App.feedback.celebrate(App.i18n.t('study.doneTitle'));
+    /* Vary the headline message across sessions via App.i18n.pick so
+       finishing a deck never feels scripted (still no right/wrong, no
+       streak — SPEC.md §2.2). The static title stays in the end screen
+       for accessibility and i18n parity; this only changes what flashes
+       in the overlay. */
+    var finishPhrases = App.i18n.t('study.finishPhrases');
+    var msg = (Array.isArray(finishPhrases) && finishPhrases.length)
+      ? finishPhrases[Math.floor(Math.random() * finishPhrases.length)]
+      : App.i18n.t('study.doneTitle');
+    App.feedback.celebrate(msg);
   }
 
   function goNext() {
@@ -175,6 +256,11 @@
 
   async function init() {
     renderStars();
+    /* seed the toast baseline so the first completion can detect the +1
+       (see showStarToast); without this the initial render would set
+       __lastTotalStars via showStarToast's own assignment and the very
+       first finish would compare 0 vs N silently. */
+    starsEl.__lastTotalStars = App.storage.totalStars();
     if (!deckFile) {
       statusEl.textContent = App.i18n.t('study.error');
       return;

@@ -18,19 +18,22 @@ memofun/
 ├── assets/
 │   ├── css/  tokens.css · base.css · componentes.css
 │   ├── js/   utils.js · i18n.js · tts.js · storage.js · feedback.js · deck-loader.js
-│   └── fonts/ Atkinson Hyperlegible + Nunito (.woff2)
+│   ├── fonts/ Atkinson Hyperlegible + Nunito (.woff2)
+│   └── img/decks/<slug>/ optional per-card images (see §3.1), bundled not hotlinked
 ├── tools/study/          review screen (flip-card)
 ├── settings/             support area (text size, language, import, clear progress)
 ├── decks/                manifest.json + published, reviewed *.json decks
 │   └── concepts/         per-series "what's already covered" logs (agent-only, see §8)
 ├── legal/                data protection
-├── scripts/              config-parser.js · check.js · check-version-bump.js (Node, offline)
+├── scripts/              config-parser.js · check.js · check-version-bump.js ·
+│                         buscar-imagen.js (Node, offline except the latter, see §3.1)
 ├── config.md             example content config (see §8)
 └── doc/
     ├── es/ · en/         this documentation
-    └── curriculum/es/    Primaria→FP GM curriculum-outline library (own README)
-                          curriculum/en/ is an empty sibling, reserved for the
-                          same library in another language
+    └── curriculum/
+        ├── es/           Comunidad de Madrid: Primaria → FP GM (own README)
+        └── en/           England: Key Stage 1 → Key Stage 4, with vocational
+                          (own README; partially populated, see call for help)
 ```
 
 ## 2. Shared modules (`assets/js/`)
@@ -66,6 +69,60 @@ meaningful-learning phrase is wrapped in `<mark></mark>` (see the
 content rules in §8 and in `CLAUDE.md`). `App.decks` normalizes any
 file with this shape; a file with no `tarjetas` array is rejected.
 
+### 3.1 Optional per-card image (`imagen`)
+
+A card can carry one optional photo/illustration as visual support for
+the explanation:
+
+```json
+{
+  "pregunta": "¿Qué es un cuento popular?",
+  "respuesta": "...",
+  "imagen": {
+    "archivo": "assets/img/decks/primaria_1_literatura/cuento-popular.jpg",
+    "alt": "Portada de un libro de cuentos: una niña sentada, leyendo",
+    "titulo": "Fairy Tales",
+    "autor": "Boston Public Library",
+    "fuente": "https://www.flickr.com/photos/24029425@N06/10871801484",
+    "licencia": "CC BY 2.0"
+  }
+}
+```
+
+- `archivo`: site-root-relative path to the image file, bundled inside
+  the repo at `assets/img/decks/<deck-slug>/<file>.jpg` — **never** a
+  hotlink to an external host. Images are downloaded once at
+  content-authoring time and shipped like any other static asset, so
+  the site keeps making zero runtime calls to any external service
+  (`SPEC.md` §2.1) and the image still works offline once cached (the
+  generic `fetch` handler in `sw.js` caches it on first view, same as
+  a deck's own JSON — no `FILES` entry needed per image).
+- `alt`: plain description of what the image actually shows, in the
+  deck's language — accessibility text, not a restatement of the card.
+- `titulo` / `autor` / `fuente` / `licencia`: attribution for the
+  source work (Title/Author/Source/License — the CC "TASL" convention),
+  shown as a small caption under the image. `licencia` must be a
+  license that allows commercial reuse and modification with no extra
+  restriction — CC0, Public Domain, CC BY, or CC BY-SA. Never a
+  `-NC` (non-commercial) or `-ND` (no derivatives) license: `scripts/check.js`
+  rejects both.
+- All five fields are required when `imagen` is present; a card with
+  no `imagen` renders exactly as before (image is optional, per card,
+  not per deck).
+- Sourcing: `node scripts/buscar-imagen.js "<term>"` searches Openverse
+  (openverse.org, no key needed) restricted to those same safe
+  licenses and lists candidates — title, source, and both a `thumb`
+  and a full-res `image` URL — for a human/agent to review and pick;
+  it does not download or pick automatically. Download the `thumb`
+  URL, not `image`: same picture, a fraction of the size, still plenty
+  for a card illustration (falls back to `image` if the thumbnail
+  proxy 400s on a given source host). Pick from the title/source text
+  the script prints and treat it as curated — never open a candidate
+  file to view it, including the final pick, that spends vision tokens
+  for a check the text already gives. A mismatched image that slips
+  through gets caught by a human reader later and reported per
+  `CONTRIBUTING.md`. See `internal-creating-decks-guide.md` §3.1.
+
 ## 4. `decks/manifest.json`
 
 Array of objects:
@@ -85,19 +142,20 @@ as the deck's own content, no ES/EN parity required, same rule as
 `tema`), e.g.:
 
 ```json
-{ "id": "primaria-3-matematicas", "tema": "Matemáticas - 3º de Primaria",
-  "nivel": "principiante", "curso": "3º de Primaria", "asignatura": "Matemáticas",
-  "cantidad": 12, "file": "primaria_3_matematicas.json", "icono": "🔢" }
+{ "id": "ks2-3-english", "tema": "English - Key Stage 2, Year 3",
+  "nivel": "principiante", "curso": "Year 3 (KS2)", "asignatura": "English",
+  "cantidad": 12, "file": "ks2_3_english.json", "icono": "📚" }
 ```
 
 When present, the home screen (`app.js`) groups decks into a
 course-then-subject drill-down instead of a flat grid — see §4.1. When
 generating a deck from a `doc/curriculum/<idioma>/<etapa>/<curso>/<asignatura>.md`
-file, derive both from the path/frontmatter (e.g. `primaria/3/lengua-castellana.md`
-→ `curso: "3º de Primaria"`, `asignatura: "Lengua Castellana"`); leave both
-unset for one-off "modo simple" decks with no course of their own —
-they fall back to a flat "other topics" section, exactly like before
-this field existed.
+file, derive both from the path/frontmatter (e.g.
+`key-stage-2/3/english-literature.md` → `curso: "Year 3 (KS2)"`,
+`asignatura: "English Literature"`); leave both unset for one-off
+"modo simple" decks with no course of their own — they fall back to
+a flat "other topics" section, exactly like before this field
+existed.
 
 ### 4.1 Home screen navigation (courses/subjects)
 
@@ -118,6 +176,51 @@ and bookmarking work for free:
 
 This adds one level to the flow described in §5 rule 10 *only* for
 decks that opt into `curso`/`asignatura` — flat decks are unaffected.
+
+### 4.2 English locale (en) — invite-only curriculum
+
+When `App.i18n.locale() === 'en'` the home screen **does not read
+`decks/manifest.json` at all**. Every shipped deck today is Spanish
+content (deck content is not covered by the i18n parity rule, see
+`CLAUDE.md`); serving the Spanish deck grid to an English visitor
+would be a silent dead end. Instead, `app.js` renders a
+hardcoded English curriculum (`EN_CURRICULUM` in `app.js`) that
+mirrors `doc/curriculum/en/`:
+
+- **Top level** — one card per stage (`Key Stage 1` … `Key Stage 4`,
+  `Entry Level Business`, `BTEC Business L2`), each linking to its
+  subjects via `?en=1&curso=<stage>`.
+- **Subject level** — one *invite card* per subject (`English
+  Literature`, `Science`, `History`, `Geography`, etc.). The card is
+  not a deck link: it shows the subject, the message "No deck yet —
+  be the first to contribute", and a button that opens
+  [`internal-creating-decks-guide.md`](./internal-creating-decks-guide.md)
+  on GitHub so the visitor lands on the exact workflow that turns a
+  temario into a deck.
+
+The data lives in `app.js` (not the manifest) on purpose — adding
+to `manifest.json` would force a real `decks/<slug>.json` to exist
+(`check.js` rule 8 fails otherwise), and these subjects have no
+decks yet. `EN_CURRICULUM` is a workshop artefact, not a tracked
+deck catalogue: keep it in sync with `doc/curriculum/en/` as a
+matter of authorship hygiene, the same way the Spanish concept logs
+are kept in sync (`decks/concepts/<base-slug>.md`).
+
+The `?en=1` query param is mandatory for EN-side navigation, so a
+visitor who hand-edits a Spanish deck URL can never accidentally
+land on the EN flow and vice versa. Reverting the UI locale to
+`es` (`localStorage 'memofun:locale'`) returns to the manifest
+flow with no other state to reset.
+
+When the first real English deck ships, the rule for promoting a
+subject from "invite card" to "deck card" is the same as for any
+Spanish deck (`§4`): add the `decks/<slug>.json` file, add a
+matching `decks/manifest.json` entry with `curso`/`asignatura`
+matching the EN_CURRICULUM stage and subject, and the EN home will
+automatically surface it (the EN render still branches on locale;
+when a manifest entry exists for a given subject the EN path can
+opt to swap the invite card for the real deck link — see
+`renderEnSubjectLevel` in `app.js`).
 
 ## 5. Accessibility rules
 

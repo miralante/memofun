@@ -5,31 +5,87 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una hipérbole?",
-      "respuesta": "Es exagerar mucho algo para darle más fuerza. <mark>Por ejemplo, decir 'te lo he dicho un millón de veces'</mark>. Nadie se lo cree literalmente, pero se entiende la idea. Sirve para llamar la atención sobre algo."
+      "respuesta": "Es exagerar mucho algo para darle más fuerza. <mark>Por ejemplo, decir 'te lo he dicho un millón de veces'</mark>. Nadie se lo cree literalmente, pero se entiende la idea. Sirve para llamar la atención sobre algo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura_2/vaca-gigante.jpg",
+        "alt": "Una estatua enorme de una vaca, un ejemplo de exageración",
+        "titulo": "Salem Sue",
+        "autor": "Furryscaly",
+        "fuente": "https://www.flickr.com/photos/98528214@N00/3693876263",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una personificación?",
-      "respuesta": "Es dar cualidades humanas a algo que no es persona. <mark>Por ejemplo, decir que 'el viento susurraba' entre los árboles</mark>. El viento no habla, pero suena más poético así. Ayuda a imaginar la naturaleza como si sintiera."
+      "respuesta": "Es dar cualidades humanas a algo que no es persona. <mark>Por ejemplo, decir que 'el viento susurraba' entre los árboles</mark>. El viento no habla, pero suena más poético así. Ayuda a imaginar la naturaleza como si sintiera.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura_2/hojas-viento.jpg",
+        "alt": "Hojas moviéndose con el viento",
+        "titulo": "The joy of Autumn",
+        "autor": "Orchids love rainwater",
+        "fuente": "https://www.flickr.com/photos/37072378@N08/8155707138",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué cuenta el Cantar de Mio Cid?",
-      "respuesta": "Cuenta las hazañas de un caballero desterrado de su tierra. <mark>Lucha para recuperar su honor y el cariño del rey</mark>. Es el cantar de gesta más importante en español. Se recitaba de memoria mucho antes de escribirse."
+      "respuesta": "Cuenta las hazañas de un caballero desterrado de su tierra. <mark>Lucha para recuperar su honor y el cariño del rey</mark>. Es el cantar de gesta más importante en español. Se recitaba de memoria mucho antes de escribirse.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura_2/cid-estatua-burgos-1.jpg",
+        "alt": "Estatua del Cid Campeador en Burgos, el héroe del Cantar de Mio Cid",
+        "titulo": "Burgos, estatua del Cid 3",
+        "autor": "LBM1948",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=89994212",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Quién era el Cid Campeador?",
-      "respuesta": "Fue un caballero castellano que existió de verdad. <mark>Sus hazañas reales se mezclaron con historias inventadas</mark>. Se le recuerda como un guerrero justo y valiente. Su historia inspiró el cantar de gesta más famoso en español."
+      "respuesta": "Fue un caballero castellano que existió de verdad. <mark>Sus hazañas reales se mezclaron con historias inventadas</mark>. Se le recuerda como un guerrero justo y valiente. Su historia inspiró el cantar de gesta más famoso en español.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura_2/cid-estatua-burgos-2.jpg",
+        "alt": "Estatua del Cid Campeador a caballo, en Burgos",
+        "titulo": "Estatua Cid Campeador Burgos",
+        "autor": "Albxx",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=132073103",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es el verso libre?",
-      "respuesta": "Es un verso que no sigue una medida ni rima fijas. <mark>El poeta elige libremente cuántas sílabas y dónde cortar</mark>. Aun así, puede sonar tan poético como uno con rima. Es una forma más moderna de escribir poesía."
+      "respuesta": "Es un verso que no sigue una medida ni rima fijas. <mark>El poeta elige libremente cuántas sílabas y dónde cortar</mark>. Aun así, puede sonar tan poético como uno con rima. Es una forma más moderna de escribir poesía.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura_2/pajaro-libre.jpg",
+        "alt": "Un pájaro volando libremente",
+        "titulo": "Free as a Bird",
+        "autor": "Vincent_AF",
+        "fuente": "https://www.flickr.com/photos/25704219@N04/5281838905",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la anáfora como recurso literario?",
-      "respuesta": "Es repetir la misma palabra al principio de varios versos. <mark>Esa repetición marca un ritmo y refuerza una idea</mark>. Por ejemplo: 'Recuerdo... recuerdo... recuerdo aquel día'. Se usa para insistir en algo importante del poema."
+      "respuesta": "Es repetir la misma palabra al principio de varios versos. <mark>Esa repetición marca un ritmo y refuerza una idea</mark>. Por ejemplo: 'Recuerdo... recuerdo... recuerdo aquel día'. Se usa para insistir en algo importante del poema.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura_2/fichas-fila.jpg",
+        "alt": "Fichas colocadas en fila, como una repetición",
+        "titulo": "In a Row - Domino Drop - TROML - 1677",
+        "autor": "Clint__Budd",
+        "fuente": "https://www.flickr.com/photos/58827557@N06/30056990706",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian la hipérbole y la personificación?",
-      "respuesta": "La hipérbole exagera el tamaño o la cantidad de algo. <mark>La personificación da vida y sentimientos a algo que no es persona</mark>. Una agranda la realidad; la otra la hace parecer humana. Ambas hacen que un texto suene más expresivo."
+      "respuesta": "La hipérbole exagera el tamaño o la cantidad de algo. <mark>La personificación da vida y sentimientos a algo que no es persona</mark>. Una agranda la realidad; la otra la hace parecer humana. Ambas hacen que un texto suene más expresivo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura_2/balanza.jpg",
+        "alt": "Una balanza comparando dos lados",
+        "titulo": "'Balanza'.",
+        "autor": "Biblioteca Rector Machado y Nuñez",
+        "fuente": "https://www.flickr.com/photos/37667416@N04/4030996641",
+        "licencia": "Public Domain"
+      }
     }
   ]
 }

@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué diferencia hay entre una persona física y una persona jurídica en el ámbito empresarial?",
-      "respuesta": "La persona física es un individuo concreto que actúa en su propio nombre. <mark>La persona jurídica, en cambio, es una entidad creada por ley, como una sociedad</mark>. Ambas pueden ser titulares de una empresa, pero con normas distintas."
+      "respuesta": "La persona física es un individuo concreto que actúa en su propio nombre. <mark>La persona jurídica, en cambio, es una entidad creada por ley, como una sociedad</mark>. Ambas pueden ser titulares de una empresa, pero con normas distintas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/apreton-manos-negocio.jpg",
+        "alt": "Un apretón de manos cerrando un acuerdo empresarial.",
+        "titulo": "Two Person Shaking Each Others Hands",
+        "autor": "Homedust",
+        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una persona trabajadora autónoma?",
-      "respuesta": "Es quien trabaja por cuenta propia, asumiendo el riesgo de su propio negocio. <mark>Es como ser tu propio jefe, sin depender de que otra empresa te contrate</mark>. Debe darse de alta y cotizar a la Seguridad Social por su cuenta."
+      "respuesta": "Es quien trabaja por cuenta propia, asumiendo el riesgo de su propio negocio. <mark>Es como ser tu propio jefe, sin depender de que otra empresa te contrate</mark>. Debe darse de alta y cotizar a la Seguridad Social por su cuenta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/autonomo-negocio-propio.jpg",
+        "alt": "Una persona autónoma atendiendo su propio negocio",
+        "titulo": "business owner scooping ice cream",
+        "autor": "franchiseopportunitiesphotos",
+        "fuente": "https://www.flickr.com/photos/150276478@N03/34406844646",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una empresa innovadora?",
-      "respuesta": "Es una empresa que mejora constantemente sus productos, procesos o forma de trabajar. <mark>Es como no conformarse nunca con hacer las cosas 'como siempre se han hecho'</mark>. Suele contar con apoyo institucional, como ayudas o programas públicos."
+      "respuesta": "Es una empresa que mejora constantemente sus productos, procesos o forma de trabajar. <mark>Es como no conformarse nunca con hacer las cosas 'como siempre se han hecho'</mark>. Suele contar con apoyo institucional, como ayudas o programas públicos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/reunion-negocio-diversa.jpg",
+        "alt": "Un grupo de personas reunidas para una idea empresarial.",
+        "titulo": "Group of diverse people having a business meeting",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/31917962768",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que una empresa se internacionalice?",
-      "respuesta": "Significa que empieza a vender o a operar también fuera de su país de origen. <mark>Es como dar el salto de vender solo en tu barrio a vender en toda la ciudad, y más allá</mark>. Requiere adaptarse a normas y mercados distintos."
+      "respuesta": "Significa que empieza a vender o a operar también fuera de su país de origen. <mark>Es como dar el salto de vender solo en tu barrio a vender en toda la ciudad, y más allá</mark>. Requiere adaptarse a normas y mercados distintos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/contenedores-colores.jpg",
+        "alt": "Contenedores de transporte internacional de mercancías.",
+        "titulo": "Multicolored containers",
+        "autor": "Håkan Dahlström",
+        "fuente": "https://www.flickr.com/photos/93755244@N00/3144199355",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un tributo?",
-      "respuesta": "Es una cantidad de dinero que se paga obligatoriamente a la Administración pública. <mark>Es como una aportación obligatoria para pagar entre todos los servicios públicos</mark>. Los impuestos son el tipo de tributo más conocido."
+      "respuesta": "Es una cantidad de dinero que se paga obligatoriamente a la Administración pública. <mark>Es como una aportación obligatoria para pagar entre todos los servicios públicos</mark>. Los impuestos son el tipo de tributo más conocido.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/formularios-calculadora.jpg",
+        "alt": "Formularios de impuestos junto a una calculadora.",
+        "titulo": "Tax Forms and Calculator",
+        "autor": "401(K) 2013",
+        "fuente": "https://www.flickr.com/photos/68751915@N05/6757828303",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el censo de empresarios y el alta en el Impuesto de Actividades Económicas?",
-      "respuesta": "Es el registro oficial donde una empresa se da de alta antes de empezar a operar. <mark>Es como presentarte oficialmente ante Hacienda antes de abrir las puertas de tu negocio</mark>. Sin ese trámite, la actividad no sería legal."
+      "respuesta": "Es el registro oficial donde una empresa se da de alta antes de empezar a operar. <mark>Es como presentarte oficialmente ante Hacienda antes de abrir las puertas de tu negocio</mark>. Sin ese trámite, la actividad no sería legal.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/formulario-impuestos.jpg",
+        "alt": "Un formulario para darse de alta como empresario.",
+        "titulo": "Tax Form",
+        "autor": "401(K) 2013",
+        "fuente": "https://www.flickr.com/photos/68751915@N05/6757895857",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre el IRPF y el Impuesto de Sociedades?",
-      "respuesta": "El IRPF lo pagan las personas físicas, incluidos los autónomos, sobre sus ingresos. <mark>El Impuesto de Sociedades, en cambio, lo pagan las empresas con personalidad jurídica propia</mark>. Ambos gravan el beneficio, pero a sujetos distintos."
+      "respuesta": "El IRPF lo pagan las personas físicas, incluidos los autónomos, sobre sus ingresos. <mark>El Impuesto de Sociedades, en cambio, lo pagan las empresas con personalidad jurídica propia</mark>. Ambos gravan el beneficio, pero a sujetos distintos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/formulario-calculadora-vertical.jpg",
+        "alt": "Un formulario de impuestos con una calculadora.",
+        "titulo": "Tax Form and Calculator",
+        "autor": "401(K) 2013",
+        "fuente": "https://www.flickr.com/photos/68751915@N05/6757892539",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el acto administrativo?",
-      "respuesta": "Es una decisión oficial que toma la Administración y que afecta a una persona o empresa. <mark>Es como una resolución oficial que pone fin, o avanza, en un trámite concreto</mark>. Puede conceder algo, denegarlo o exigir una obligación."
+      "respuesta": "Es una decisión oficial que toma la Administración y que afecta a una persona o empresa. <mark>Es como una resolución oficial que pone fin, o avanza, en un trámite concreto</mark>. Puede conceder algo, denegarlo o exigir una obligación.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/pluma-firma.jpg",
+        "alt": "Una pluma lista para firmar un documento.",
+        "titulo": "Quill",
+        "autor": "sure2talk",
+        "fuente": "https://www.flickr.com/photos/19862723@N00/213926774",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el silencio administrativo?",
-      "respuesta": "Es lo que ocurre cuando la Administración no responde a tiempo a una solicitud. <mark>Es como no recibir respuesta a una carta: la ley decide qué significa ese silencio</mark>. Según el caso, puede entenderse como un sí o como un no."
+      "respuesta": "Es lo que ocurre cuando la Administración no responde a tiempo a una solicitud. <mark>Es como no recibir respuesta a una carta: la ley decide qué significa ese silencio</mark>. Según el caso, puede entenderse como un sí o como un no.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/reloj-tiempo.jpg",
+        "alt": "Un reloj marcando el paso del tiempo.",
+        "titulo": "Clock",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/64581364",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un recurso administrativo?",
-      "respuesta": "Es la forma de pedir que se revise una decisión de la Administración con la que no se está de acuerdo. <mark>Es como pedir una segunda opinión antes de aceptar una decisión que no te convence</mark>. Si no se resuelve, se puede acudir después a la vía judicial."
+      "respuesta": "Es la forma de pedir que se revise una decisión de la Administración con la que no se está de acuerdo. <mark>Es como pedir una segunda opinión antes de aceptar una decisión que no te convence</mark>. Si no se resuelve, se puede acudir después a la vía judicial.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion_2/mazo-tribunal.jpg",
+        "alt": "Un mazo de juez, símbolo de un proceso administrativo o legal.",
+        "titulo": "Courtroom One Gavel",
+        "autor": "Joe Gratz",
+        "fuente": "https://www.flickr.com/photos/63126465@N00/117048243",
+        "licencia": "CC0 1.0"
+      }
     }
   ]
 }

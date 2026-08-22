@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué estudia la geopolítica?",
-      "respuesta": "Estudia cómo la geografía influye en las relaciones de poder entre países. <mark>Es como analizar una partida de ajedrez usando el mapa del mundo como tablero</mark>. Territorio, recursos y fronteras condicionan las decisiones políticas. Ayuda a entender por qué ciertos lugares generan tantos conflictos."
+      "respuesta": "Estudia cómo la geografía influye en las relaciones de poder entre países. <mark>Es como analizar una partida de ajedrez usando el mapa del mundo como tablero</mark>. Territorio, recursos y fronteras condicionan las decisiones políticas. Ayuda a entender por qué ciertos lugares generan tantos conflictos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/geopolitica.png",
+        "alt": "Mapa político del mundo con los países delimitados por fronteras.",
+        "titulo": "World map political ISO",
+        "autor": "Egs",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=5688632",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Estado como organización política?",
-      "respuesta": "Es un territorio con gobierno, leyes y población reconocidos internacionalmente. <mark>Es como una gran comunidad con reglas propias y fronteras definidas</mark>. Tiene soberanía para decidir sobre sus asuntos internos. Casi todo el planeta está organizado hoy en Estados."
+      "respuesta": "Es un territorio con gobierno, leyes y población reconocidos internacionalmente. <mark>Es como una gran comunidad con reglas propias y fronteras definidas</mark>. Tiene soberanía para decidir sobre sus asuntos internos. Casi todo el planeta está organizado hoy en Estados.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/estado.jpg",
+        "alt": "Edificio de gobierno con parlamento y castillo, símbolo de las instituciones de un Estado.",
+        "titulo": "Vaduz - Government building, Parliament And Castle",
+        "autor": "Sumit Surai",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=129019798",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Cómo se organiza políticamente el territorio de España?",
-      "respuesta": "Se divide en comunidades autónomas, provincias y municipios. <mark>Es como una casa con distintos niveles de organización, del país al barrio</mark>. Cada comunidad autónoma tiene competencias propias, como educación o sanidad. Esa organización busca acercar el gobierno a cada territorio."
+      "respuesta": "Se divide en comunidades autónomas, provincias y municipios. <mark>Es como una casa con distintos niveles de organización, del país al barrio</mark>. Cada comunidad autónoma tiene competencias propias, como educación o sanidad. Esa organización busca acercar el gobierno a cada territorio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/organizacion-territorial.jpg",
+        "alt": "Ayuntamiento de una ciudad española con banderas ondeando en la fachada.",
+        "titulo": "Plaza Duquesa da Parcent, Ronda - Ronda City Hall - flags",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/14666515293",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre un mundo unipolar y uno multipolar?",
-      "respuesta": "En un mundo unipolar, una sola potencia domina claramente las relaciones internacionales. <mark>En uno multipolar, el poder se reparte entre varias potencias distintas</mark>. Tras la Guerra Fría, el mundo pasó de bipolar a unipolar durante un tiempo. Hoy muchos analistas hablan de un mundo más multipolar."
+      "respuesta": "En un mundo unipolar, una sola potencia domina claramente las relaciones internacionales. <mark>En uno multipolar, el poder se reparte entre varias potencias distintas</mark>. Tras la Guerra Fría, el mundo pasó de bipolar a unipolar durante un tiempo. Hoy muchos analistas hablan de un mundo más multipolar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/mundo-multipolar.jpg",
+        "alt": "Mapa político del mundo mostrando distintos países y territorios.",
+        "titulo": "World Map, Political, 2012, Cahill-Keyes Projection",
+        "autor": "Duncan Webb",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=32793394",
+        "licencia": "CC BY 1.0"
+      }
     },
     {
       "pregunta": "¿Qué son las instituciones internacionales?",
-      "respuesta": "Son organismos donde varios países colaboran en temas comunes. <mark>Es como un punto de encuentro donde los países negocian en vez de pelear</mark>. La ONU o la OTAN son ejemplos conocidos. Ayudan a mediar en conflictos y a coordinar decisiones globales."
+      "respuesta": "Son organismos donde varios países colaboran en temas comunes. <mark>Es como un punto de encuentro donde los países negocian en vez de pelear</mark>. La ONU o la OTAN son ejemplos conocidos. Ayudan a mediar en conflictos y a coordinar decisiones globales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/instituciones-internacionales.jpg",
+        "alt": "Edificio de la sede de las Naciones Unidas.",
+        "titulo": "United Nations building",
+        "autor": "david_shankbone",
+        "fuente": "https://www.flickr.com/photos/27865228@N06/9861197014",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una misión de paz internacional?",
-      "respuesta": "Es el envío de fuerzas internacionales para proteger a la población en zonas de conflicto. <mark>Actúan como un árbitro que intenta frenar la violencia entre bandos enfrentados</mark>. Suelen actuar bajo el mandato de organismos como la ONU. Buscan estabilizar la zona mientras se busca una solución."
+      "respuesta": "Es el envío de fuerzas internacionales para proteger a la población en zonas de conflicto. <mark>Actúan como un árbitro que intenta frenar la violencia entre bandos enfrentados</mark>. Suelen actuar bajo el mandato de organismos como la ONU. Buscan estabilizar la zona mientras se busca una solución.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/mision-paz.jpg",
+        "alt": "Fuerzas de paz internacionales entrando en una localidad durante una misión de paz.",
+        "titulo": "AMISOM and allied forces enter Kismayo 32",
+        "autor": "AMISOM Public Information",
+        "fuente": "https://www.flickr.com/photos/61765479@N08/8049931925",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿A qué compromisos internacionales de paz y seguridad contribuye España?",
-      "respuesta": "Participa en misiones internacionales y en organismos como la ONU o la OTAN. <mark>Es como aportar su granito de arena a un esfuerzo compartido por muchos países</mark>. Colabora también en ayuda humanitaria y cooperación internacional. Forma parte de su papel en la comunidad internacional."
+      "respuesta": "Participa en misiones internacionales y en organismos como la ONU o la OTAN. <mark>Es como aportar su granito de arena a un esfuerzo compartido por muchos países</mark>. Colabora también en ayuda humanitaria y cooperación internacional. Forma parte de su papel en la comunidad internacional.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/compromisos-espana.jpg",
+        "alt": "Vehículo militar del ejército español utilizado en misiones internacionales.",
+        "titulo": "2 spanish army M109.jpg",
+        "autor": "Oscar in the middle",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=4835589",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las tecnologías de la información geográfica?",
-      "respuesta": "Son herramientas digitales para analizar y representar datos sobre el territorio. <mark>Es como tener un mapa vivo que se actualiza con información en tiempo real</mark>. Se usan en gestión de catástrofes, urbanismo o seguridad. También ayudan a tomar mejores decisiones en política internacional."
+      "respuesta": "Son herramientas digitales para analizar y representar datos sobre el territorio. <mark>Es como tener un mapa vivo que se actualiza con información en tiempo real</mark>. Se usan en gestión de catástrofes, urbanismo o seguridad. También ayudan a tomar mejores decisiones en política internacional.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/tecnologias-geograficas.jpg",
+        "alt": "Imagen de satélite de la Tierra mostrando un fenómeno atmosférico.",
+        "titulo": "NASA-NOAA's Suomi NPP Satellite Captures Night-time Look at Cyclone Felleng",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/8432662779",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo empezó la construcción de la Unión Europea?",
-      "respuesta": "Empezó con acuerdos económicos entre países europeos tras la Segunda Guerra Mundial. <mark>Buscaban unir intereses para que otra guerra entre ellos fuera casi imposible</mark>. La Comunidad Económica Europea fue uno de sus primeros pasos. Con el tiempo creció hasta ser la actual Unión Europea."
+      "respuesta": "Empezó con acuerdos económicos entre países europeos tras la Segunda Guerra Mundial. <mark>Buscaban unir intereses para que otra guerra entre ellos fuera casi imposible</mark>. La Comunidad Económica Europea fue uno de sus primeros pasos. Con el tiempo creció hasta ser la actual Unión Europea.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/union-europea.jpg",
+        "alt": "Varias banderas de la Unión Europea ondeando juntas.",
+        "titulo": "European Union flags",
+        "autor": "futureatlas.com",
+        "fuente": "https://www.flickr.com/photos/87913776@N00/3772577165",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la integración económica y monetaria europea?",
-      "respuesta": "Es el proceso de compartir mercado y, en muchos países, también moneda. <mark>Es como si varios países decidieran usar la misma cartera para comprar y vender</mark>. El euro es la moneda compartida por buena parte de la Unión Europea. Facilita el comercio y los viajes entre países miembros."
+      "respuesta": "Es el proceso de compartir mercado y, en muchos países, también moneda. <mark>Es como si varios países decidieran usar la misma cartera para comprar y vender</mark>. El euro es la moneda compartida por buena parte de la Unión Europea. Facilita el comercio y los viajes entre países miembros.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/integracion-euro.jpg",
+        "alt": "Monedas de euro, la moneda común de la integración económica europea.",
+        "titulo": "Euro",
+        "autor": "wfabry",
+        "fuente": "https://www.flickr.com/photos/22388938@N06/2157854271",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las instituciones europeas?",
-      "respuesta": "Son los organismos que gobiernan y legislan para toda la Unión Europea. <mark>Es como un gobierno compartido entre varios países, con reglas comunes</mark>. Incluyen el Parlamento Europeo, la Comisión y el Consejo. Cada institución tiene un papel distinto dentro de la Unión."
+      "respuesta": "Son los organismos que gobiernan y legislan para toda la Unión Europea. <mark>Es como un gobierno compartido entre varios países, con reglas comunes</mark>. Incluyen el Parlamento Europeo, la Comisión y el Consejo. Cada institución tiene un papel distinto dentro de la Unión.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/parlamento-europeo.jpg",
+        "alt": "El edificio del Parlamento Europeo en Estrasburgo",
+        "titulo": "Parlamento Europeo, Estrasburgo",
+        "autor": "teclasorg",
+        "fuente": "https://www.flickr.com/photos/17884028@N00/91855962",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa ser ciudadano europeo?",
-      "respuesta": "Significa tener derechos añadidos por pertenecer a un país de la Unión Europea. <mark>Es como tener una segunda tarjeta de identidad, además de la de tu propio país</mark>. Permite viajar, estudiar y trabajar más fácilmente en otros países miembros. Es un derecho relativamente reciente en Europa."
+      "respuesta": "Significa tener derechos añadidos por pertenecer a un país de la Unión Europea. <mark>Es como tener una segunda tarjeta de identidad, además de la de tu propio país</mark>. Permite viajar, estudiar y trabajar más fácilmente en otros países miembros. Es un derecho relativamente reciente en Europa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/ciudadano-europeo.jpg",
+        "alt": "Pasaporte, documento que identifica a una persona como ciudadana de un país.",
+        "titulo": "Passport",
+        "autor": "seantoyer",
+        "fuente": "https://www.flickr.com/photos/16143699@N00/4638389389",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué retos tiene el futuro de la Unión Europea?",
-      "respuesta": "Debe decidir si profundiza más su unión o si algunos países se distancian. <mark>Es como un grupo grande que debe seguir decidiendo si camina más unido o más suelto</mark>. Migración, economía y seguridad son temas de debate constante. Su futuro depende de encontrar acuerdos entre intereses distintos."
+      "respuesta": "Debe decidir si profundiza más su unión o si algunos países se distancian. <mark>Es como un grupo grande que debe seguir decidiendo si camina más unido o más suelto</mark>. Migración, economía y seguridad son temas de debate constante. Su futuro depende de encontrar acuerdos entre intereses distintos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/retos-ue.jpg",
+        "alt": "Edificio del Parlamento Europeo en Bruselas.",
+        "titulo": "European Parliament (Brussels)",
+        "autor": "Xaf",
+        "fuente": "https://www.flickr.com/photos/54624226@N00/2289377358",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la globalización?",
-      "respuesta": "Es la conexión cada vez mayor entre economías, culturas y personas de todo el mundo. <mark>Es como si las distancias entre países se hubieran acortado mucho más rápido que nunca</mark>. Facilita el comercio, la comunicación y los viajes. También expone a crisis que ocurren muy lejos."
+      "respuesta": "Es la conexión cada vez mayor entre economías, culturas y personas de todo el mundo. <mark>Es como si las distancias entre países se hubieran acortado mucho más rápido que nunca</mark>. Facilita el comercio, la comunicación y los viajes. También expone a crisis que ocurren muy lejos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/globalizacion.jpg",
+        "alt": "Barcos de contenedores en un puerto, símbolo del comercio mundial.",
+        "titulo": "Container Ships @ Port of Oakland",
+        "autor": "jdnx",
+        "fuente": "https://www.flickr.com/photos/21442511@N08/3464243881",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las nuevas subordinaciones económicas y culturales de la globalización?",
-      "respuesta": "Ocurren cuando unos países o culturas dependen mucho de otros más poderosos. <mark>Es como que una tienda pequeña dependa totalmente de un gran proveedor lejano</mark>. Puede afectar a la economía local o incluso a las costumbres propias. Genera debate sobre cómo repartir mejor esos beneficios."
+      "respuesta": "Ocurren cuando unos países o culturas dependen mucho de otros más poderosos. <mark>Es como que una tienda pequeña dependa totalmente de un gran proveedor lejano</mark>. Puede afectar a la economía local o incluso a las costumbres propias. Genera debate sobre cómo repartir mejor esos beneficios.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/subordinacion-cultural.jpg",
+        "alt": "Mujeres trabajando en una fábrica textil, cosiendo en largas mesas.",
+        "titulo": "Women sewing at long tables next to tall windows in a garment factory.",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279325617",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué problemas políticos y sociales preocupan hoy al mundo globalizado?",
-      "respuesta": "Desigualdad, migraciones, cambio climático y conflictos armados, entre otros. <mark>Son problemas tan conectados entre sí como los países que forman el planeta hoy</mark>. Ningún país puede resolverlos completamente en solitario. Por eso cada vez es más necesaria la cooperación internacional."
+      "respuesta": "Desigualdad, migraciones, cambio climático y conflictos armados, entre otros. <mark>Son problemas tan conectados entre sí como los países que forman el planeta hoy</mark>. Ningún país puede resolverlos completamente en solitario. Por eso cada vez es más necesaria la cooperación internacional.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/problemas-globalizacion.jpg",
+        "alt": "Multitud de personas participando en una manifestación pacífica en la calle.",
+        "titulo": "CL Society 431: Chilean student protest",
+        "autor": "francisco_osorio",
+        "fuente": "https://www.flickr.com/photos/30330906@N04/16973441637",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo ha cambiado el terrorismo en el mundo globalizado actual?",
-      "respuesta": "Puede organizarse y comunicarse usando redes internacionales y tecnología. <mark>Es como una amenaza que ya no respeta fronteras ni distancias</mark>. Eso hace más difícil combatirlo solo con medios de un único país. Por eso los países cooperan cada vez más en seguridad internacional."
+      "respuesta": "Puede organizarse y comunicarse usando redes internacionales y tecnología. <mark>Es como una amenaza que ya no respeta fronteras ni distancias</mark>. Eso hace más difícil combatirlo solo con medios de un único país. Por eso los países cooperan cada vez más en seguridad internacional.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/terrorismo-global.jpg",
+        "alt": "Control de seguridad en un aeropuerto internacional.",
+        "titulo": "Portland International Airport security check",
+        "autor": "M.O. Stevens",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=7935900",
+        "licencia": "CC BY 3.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que hoy vivimos en un mundo más interconectado que nunca?",
-      "respuesta": "Porque una decisión económica o política en un país afecta rápidamente a otros. <mark>Es como una red de hilos invisibles que conecta a todo el planeta</mark>. Internet, el comercio y los viajes han acelerado esa conexión. Entender esa interdependencia ayuda a comprender la geopolítica actual."
+      "respuesta": "Porque una decisión económica o política en un país afecta rápidamente a otros. <mark>Es como una red de hilos invisibles que conecta a todo el planeta</mark>. Internet, el comercio y los viajes han acelerado esa conexión. Entender esa interdependencia ayuda a comprender la geopolítica actual.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_5/mundo-interconectado.png",
+        "alt": "Representación de las conexiones de internet uniendo el mundo.",
+        "titulo": "Internet Tube",
+        "autor": "Stefano.desabbata",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=34897646",
+        "licencia": "CC BY-SA 4.0"
+      }
     }
   ]
 }

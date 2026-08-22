@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un texto narrativo?",
-      "respuesta": "Es un texto que cuenta una historia con hechos. <mark>Tiene alguien a quien le pasan cosas, en un orden</mark>. Los cuentos y las novelas son narrativos. Se diferencia de un texto que solo explica datos."
+      "respuesta": "Es un texto que cuenta una historia con hechos. <mark>Tiene alguien a quien le pasan cosas, en un orden</mark>. Los cuentos y las novelas son narrativos. Se diferencia de un texto que solo explica datos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/texto-narrativo.jpg",
+        "alt": "Varias cestas de una biblioteca llenas de libros de cuentos para niños",
+        "titulo": "Picture Books",
+        "autor": "Enokson",
+        "fuente": "https://www.flickr.com/photos/47823583@N03/4385119849",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué debes buscar al leer un texto narrativo?",
-      "respuesta": "Busca quién protagoniza y qué le va ocurriendo. <mark>Sigue el orden: qué pasó antes, durante y después</mark>. Así entiendes por qué ocurre cada cosa. Perder el orden hace que la historia confunda."
+      "respuesta": "Busca quién protagoniza y qué le va ocurriendo. <mark>Sigue el orden: qué pasó antes, durante y después</mark>. Así entiendes por qué ocurre cada cosa. Perder el orden hace que la historia confunda.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/lectura-atenta.jpg",
+        "alt": "Un niño leyendo con atención",
+        "titulo": "Caught Reading",
+        "autor": "John-Morgan",
+        "fuente": "https://www.flickr.com/photos/24742305@N00/6475701897",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tres partes tiene una narración completa?",
-      "respuesta": "Una narración tiene principio, nudo y desenlace. <mark>El nudo es la parte nueva: ahí aparece el problema</mark>. El principio presenta y el desenlace resuelve. Las tres partes van siempre en ese orden."
+      "respuesta": "Una narración tiene principio, nudo y desenlace. <mark>El nudo es la parte nueva: ahí aparece el problema</mark>. El principio presenta y el desenlace resuelve. Las tres partes van siempre en ese orden.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/caperucita-libro.jpg",
+        "alt": "Un libro ilustrado de un cuento clásico",
+        "titulo": "Little Red Riding-Hood picture book (1865)",
+        "autor": "Toronto Public Library Special Collections",
+        "fuente": "https://www.flickr.com/photos/43021516@N06/23184167653",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ocurre en el nudo de una narración?",
-      "respuesta": "En el nudo aparece un problema o un reto. <mark>Es la parte donde la historia se complica de verdad</mark>. Por ejemplo: el protagonista se pierde o pierde algo. Sin nudo, no habría nada interesante que contar."
+      "respuesta": "En el nudo aparece un problema o un reto. <mark>Es la parte donde la historia se complica de verdad</mark>. Por ejemplo: el protagonista se pierde o pierde algo. Sin nudo, no habría nada interesante que contar.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/nudo-cuerda.jpg",
+        "alt": "Una cuerda con un nudo",
+        "titulo": "(K)not going anywhere",
+        "autor": "docoverachiever",
+        "fuente": "https://www.flickr.com/photos/90692748@N04/43639526790",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué debe hacer el desenlace de una narración?",
-      "respuesta": "El desenlace resuelve el problema que planteaba el nudo. <mark>Cierra la historia y dice cómo acabó todo</mark>. Puede resolverse bien o mal para el protagonista. Pero siempre responde a lo que se complicó antes."
+      "respuesta": "El desenlace resuelve el problema que planteaba el nudo. <mark>Cierra la historia y dice cómo acabó todo</mark>. Puede resolverse bien o mal para el protagonista. Pero siempre responde a lo que se complicó antes.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/final-cinta.jpg",
+        "alt": "La cinta de meta al final de una carrera",
+        "titulo": "Running event organizer hands out finish line ribbon to participants at a race in a busy town square",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=193163417",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué una narración sin nudo resulta aburrida?",
-      "respuesta": "Sin nudo no hay ningún problema que resolver. <mark>Una historia sin conflicto no engancha al lector</mark>. El nudo es lo que hace que sigas leyendo. Por eso suele ser la parte más larga de la historia."
+      "respuesta": "Sin nudo no hay ningún problema que resolver. <mark>Una historia sin conflicto no engancha al lector</mark>. El nudo es lo que hace que sigas leyendo. Por eso suele ser la parte más larga de la historia.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/aburrido-clase.jpg",
+        "alt": "Alguien aburrido bostezando",
+        "titulo": "Another boring school day...",
+        "autor": "Seth Capitulo",
+        "fuente": "https://www.flickr.com/photos/61176293@N05/8031547273",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el diálogo en una obra de teatro?",
-      "respuesta": "Es lo que dicen los personajes en voz alta. <mark>En el teatro, casi todo se cuenta con lo que se dice</mark>. No hay un narrador que explique lo que pasa. Por eso el diálogo tiene que contarlo todo."
+      "respuesta": "Es lo que dicen los personajes en voz alta. <mark>En el teatro, casi todo se cuenta con lo que se dice</mark>. No hay un narrador que explique lo que pasa. Por eso el diálogo tiene que contarlo todo.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/dialogo-teatro.jpg",
+        "alt": "Dos máscaras doradas de teatro, una triste y una sonriente, colgadas en una fachada",
+        "titulo": "Tragedy and Comedy",
+        "autor": "Tim Green aka atoach",
+        "fuente": "https://www.flickr.com/photos/93416311@N00/8094737104",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo sabes quién habla en el guion de una obra de teatro?",
-      "respuesta": "El nombre del personaje aparece antes de su frase. <mark>Así el lector sabe quién dice cada línea</mark>. No hace falta escribir 'dijo', como en un cuento. Es una forma rápida de seguir la conversación."
+      "respuesta": "El nombre del personaje aparece antes de su frase. <mark>Así el lector sabe quién dice cada línea</mark>. No hace falta escribir 'dijo', como en un cuento. Es una forma rápida de seguir la conversación.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/teatro-infantil.jpg",
+        "alt": "Niños representando una obra de teatro",
+        "titulo": "BAPD Summer Play 3",
+        "autor": "obi1323",
+        "fuente": "https://www.flickr.com/photos/9030710@N03/1627963424",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los personajes de una obra de teatro?",
-      "respuesta": "Son quienes actúan y hablan en la historia. <mark>Cada uno tiene su propia forma de hablar y de sentir</mark>. Los actores les dan voz y movimiento en el escenario. Sin personajes no habría nadie que contara la historia."
+      "respuesta": "Son quienes actúan y hablan en la historia. <mark>Cada uno tiene su propia forma de hablar y de sentir</mark>. Los actores les dan voz y movimiento en el escenario. Sin personajes no habría nadie que contara la historia.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/personajes-teatro.jpg",
+        "alt": "Una actriz con un traje y un tocado muy elaborados, actuando sobre un escenario",
+        "titulo": "Children kabuki theater in Nagahama (lady Shizuka, 10 y.o.)",
+        "autor": "lensonjapan",
+        "fuente": "https://www.flickr.com/photos/63312719@N08/8679074379",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencia el personaje principal de uno secundario?",
-      "respuesta": "El personaje principal vive el problema central de la obra. <mark>Los secundarios le acompañan o le ayudan a resolverlo</mark>. La historia gira alrededor del principal. Pero sin los secundarios, muchas cosas no ocurrirían."
+      "respuesta": "El personaje principal vive el problema central de la obra. <mark>Los secundarios le acompañan o le ayudan a resolverlo</mark>. La historia gira alrededor del principal. Pero sin los secundarios, muchas cosas no ocurrirían.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura/protagonista-secundario.jpg",
+        "alt": "Un niño disfrazado de bombero sonríe en primer plano, con otros niños disfrazados detrás",
+        "titulo": "Storybook Character Parade – U.S. Army Garrison Humphreys – 31 October 2012",
+        "autor": "USAG-Humphreys",
+        "fuente": "https://www.flickr.com/photos/31687107@N07/8163345120",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

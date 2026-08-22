@@ -15,6 +15,7 @@ just open the app.
 | Fix or improve an existing deck | Edit the `.json` directly (it's plain text), or ask the agent to regenerate it and replace the file in `decks/`. |
 | Touch code (HTML/CSS/JS) | Follow the GitHub flow below. Read [`doc/en/technical.md`](doc/en/technical.md) first. The whole project is vanilla: no frameworks, no new dependencies. |
 | Translate the UI into a new language | Follow the [`doc/en/I18N.md`](doc/en/I18N.md) guide. |
+| Report a card whose `imagen` doesn't actually match it | Open an issue naming the deck file, the card (question text), and what's wrong. Deck images are picked from the Openverse search result's title/source text at authoring time, on purpose without opening the file to look at it (`doc/en/technical.md` §3.1) — mismatches are expected to slip through occasionally and get caught by readers, not by re-verifying every image up front. |
 
 ## ⚠️ Before touching content generation
 

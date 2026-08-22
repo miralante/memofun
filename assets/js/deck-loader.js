@@ -20,10 +20,12 @@
       nivel: typeof deck.nivel === 'string' ? deck.nivel : '',
       idioma: deck.idioma || 'es',
       tarjetas: deck.tarjetas.map(function (c) {
-        return {
+        var card = {
           pregunta: typeof c.pregunta === 'string' ? c.pregunta : '',
           respuesta: typeof c.respuesta === 'string' ? c.respuesta : ''
         };
+        if (c.imagen && typeof c.imagen === 'object') card.imagen = c.imagen;
+        return card;
       })
     };
   }

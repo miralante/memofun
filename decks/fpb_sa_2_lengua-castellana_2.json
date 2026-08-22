@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué tiempos verbales se usan para hablar del pasado?",
-      "respuesta": "El pretérito perfecto y el pretérito indefinido son los más habituales. <mark>Es como elegir la forma correcta de contar algo que ya ha ocurrido</mark>. Por ejemplo: 'he trabajado' o 'trabajé'."
+      "respuesta": "El pretérito perfecto y el pretérito indefinido son los más habituales. <mark>Es como elegir la forma correcta de contar algo que ya ha ocurrido</mark>. Por ejemplo: 'he trabajado' o 'trabajé'.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/tejido-tiempo-pasado.jpg",
+        "alt": "Una imagen que representa el paso del tiempo hacia el pasado",
+        "titulo": "The fabric of time",
+        "autor": "Tijs Zwinkels",
+        "fuente": "https://www.flickr.com/photos/41668395@N04/3992645143",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tiempo verbal se usa para hablar del futuro?",
-      "respuesta": "El futuro simple, como en 'trabajaré' o 'escribiré'. <mark>Es como anunciar algo que todavía no ha pasado, pero que se espera que ocurra</mark>."
+      "respuesta": "El futuro simple, como en 'trabajaré' o 'escribiré'. <mark>Es como anunciar algo que todavía no ha pasado, pero que se espera que ocurra</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/bola-cristal-futuro.jpg",
+        "alt": "Una bola de cristal, símbolo de mirar hacia el futuro",
+        "titulo": "Fortune-Telling.",
+        "autor": "Esther Spektor",
+        "fuente": "https://www.flickr.com/photos/41890366@N03/4984779476",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los conectores en un texto?",
-      "respuesta": "Son palabras que unen ideas dentro de una frase o entre frases distintas. <mark>Es como el pegamento que mantiene unidas las distintas partes de un texto</mark>. 'Porque', 'aunque' o 'además' son ejemplos comunes."
+      "respuesta": "Son palabras que unen ideas dentro de una frase o entre frases distintas. <mark>Es como el pegamento que mantiene unidas las distintas partes de un texto</mark>. 'Porque', 'aunque' o 'además' son ejemplos comunes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/piezas-puzzle-conectando.jpg",
+        "alt": "Piezas de un puzle encajando entre sí, como conectan las ideas de un texto",
+        "titulo": "Scattered puzzle pieces next to solved fragment",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4273913228",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve el conector 'porque'?",
-      "respuesta": "Sirve para explicar la causa de algo que se acaba de decir. <mark>Es como responder a la pregunta '¿por qué?' dentro de la misma frase</mark>. Por ejemplo: 'Llegué tarde porque perdí el autobús'."
+      "respuesta": "Sirve para explicar la causa de algo que se acaba de decir. <mark>Es como responder a la pregunta '¿por qué?' dentro de la misma frase</mark>. Por ejemplo: 'Llegué tarde porque perdí el autobús'.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/efecto-domino.jpg",
+        "alt": "Fichas de dominó cayendo una tras otra, como causa y efecto",
+        "titulo": "Domino effect",
+        "autor": "Louise",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=2508978",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve el conector 'aunque'?",
-      "respuesta": "Sirve para introducir una idea que contrasta con lo dicho antes. <mark>Es como decir 'sí, pero' dentro de una misma frase</mark>. Por ejemplo: 'Llovía, aunque decidimos salir igual'."
+      "respuesta": "Sirve para introducir una idea que contrasta con lo dicho antes. <mark>Es como decir 'sí, pero' dentro de una misma frase</mark>. Por ejemplo: 'Llovía, aunque decidimos salir igual'.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/cuerda-tira-y-afloja.jpg",
+        "alt": "Una cuerda de un tira y afloja, dos fuerzas opuestas",
+        "titulo": "The other half of the World Record Tug of War rope.",
+        "autor": "jdnx",
+        "fuente": "https://www.flickr.com/photos/21442511@N08/30718513538",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las palabras que se confunden al escribir?",
-      "respuesta": "Son palabras que suenan igual o parecido, pero se escriben distinto y significan cosas diferentes. <mark>Es como 'hay', 'ahí' y 'ay': suenan parecido, pero cada una cumple una función distinta</mark>."
+      "respuesta": "Son palabras que suenan igual o parecido, pero se escriben distinto y significan cosas diferentes. <mark>Es como 'hay', 'ahí' y 'ay': suenan parecido, pero cada una cumple una función distinta</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/diccionario-paginas-espanol.jpg",
+        "alt": "Un diccionario de español abierto en sus páginas",
+        "titulo": "Spanish dictionary pages up into the air",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4268897748",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante fijarse en las palabras que se confunden al escribir?",
-      "respuesta": "Porque un error de este tipo puede cambiar el sentido de una frase. <mark>Es como escribir 'vaso' en vez de 'baso': cambia completamente el significado</mark>."
+      "respuesta": "Porque un error de este tipo puede cambiar el sentido de una frase. <mark>Es como escribir 'vaso' en vez de 'baso': cambia completamente el significado</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/editando-documento-boligrafo.jpg",
+        "alt": "Alguien revisando y corrigiendo un texto con un bolígrafo",
+        "titulo": "2008-01-26 (Editing a paper) - 31",
+        "autor": "Nic's events",
+        "fuente": "https://www.flickr.com/photos/68457656@N00/2349632625",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el vocabulario del mundo laboral y de la oficina?",
-      "respuesta": "Son las palabras específicas que se usan habitualmente en un entorno de trabajo. <mark>Es como aprender el idioma propio de un lugar nuevo al que te incorporas</mark>. Incluye 'factura', 'nómina' o 'expediente'."
+      "respuesta": "Son las palabras específicas que se usan habitualmente en un entorno de trabajo. <mark>Es como aprender el idioma propio de un lugar nuevo al que te incorporas</mark>. Incluye 'factura', 'nómina' o 'expediente'.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/escritorio-oficina-teclado.jpg",
+        "alt": "Un escritorio de oficina con teclado, el entorno del vocabulario laboral",
+        "titulo": "Office Desk Keyboard",
+        "autor": "rawpixel",
+        "fuente": "https://www.rawpixel.com/image/8811998/office-desk-keyboard",
+        "licencia": "Dominio público (CC0 1.0)"
+      }
     },
     {
       "pregunta": "¿Por qué es útil ampliar el vocabulario laboral antes de empezar a trabajar?",
-      "respuesta": "Porque facilita entender instrucciones y documentos desde el principio. <mark>Es como llegar ya preparado, en vez de aprenderlo todo sobre la marcha</mark>."
+      "respuesta": "Porque facilita entender instrucciones y documentos desde el principio. <mark>Es como llegar ya preparado, en vez de aprenderlo todo sobre la marcha</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/herramientas-escritura.jpg",
+        "alt": "Bolígrafos y herramientas de escritura para apuntar vocabulario nuevo",
+        "titulo": "Writing Tools",
+        "autor": "peteoshea",
+        "fuente": "https://www.flickr.com/photos/59668110@N04/5600161625",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué conviene tener en cuenta al preparar una presentación breve?",
-      "respuesta": "Organizar bien las ideas principales y practicar antes de exponerlas. <mark>Es como ensayar antes de una actuación importante, para sentirte más seguro</mark>."
+      "respuesta": "Organizar bien las ideas principales y practicar antes de exponerlas. <mark>Es como ensayar antes de una actuación importante, para sentirte más seguro</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/presentacion-publica-charla.jpg",
+        "alt": "Una persona dando una presentación breve ante otras personas",
+        "titulo": "presentation at air and space",
+        "autor": "woodleywonderworks",
+        "fuente": "https://www.flickr.com/photos/73645804@N00/8007713529",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa participar en una conversación respetando los turnos de palabra?",
-      "respuesta": "Significa esperar a que la otra persona termine antes de hablar tú. <mark>Es como jugar por turnos, sin adelantarte al turno de otra persona</mark>."
+      "respuesta": "Significa esperar a que la otra persona termine antes de hablar tú. <mark>Es como jugar por turnos, sin adelantarte al turno de otra persona</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/conversacion.jpg",
+        "alt": "Dos personas conversando",
+        "titulo": "Deep conversation",
+        "autor": "juhansonin",
+        "fuente": "https://www.flickr.com/photos/38869431@N00/4703017753",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante escuchar antes de responder en una conversación?",
-      "respuesta": "Porque ayuda a entender bien lo que la otra persona quiere decir. <mark>Es como armar un puzle: si te saltas una pieza, la imagen no queda completa</mark>."
+      "respuesta": "Porque ayuda a entender bien lo que la otra persona quiere decir. <mark>Es como armar un puzle: si te saltas una pieza, la imagen no queda completa</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/escuchar-conversacion.jpg",
+        "alt": "Una persona escuchando con atención en una conversación",
+        "titulo": "Listen!",
+        "autor": "Rising Damp",
+        "fuente": "https://www.flickr.com/photos/66126733@N04/7070159495",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el vocabulario laboral y la comunicación oral en el trabajo?",
-      "respuesta": "Conocer el vocabulario adecuado ayuda a expresarse con más seguridad al hablar. <mark>Es como tener las palabras correctas a mano cuando las necesitas</mark>."
+      "respuesta": "Conocer el vocabulario adecuado ayuda a expresarse con más seguridad al hablar. <mark>Es como tener las palabras correctas a mano cuando las necesitas</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/companeros-trabajo-reunion.jpg",
+        "alt": "Compañeros de trabajo hablando en una reunión",
+        "titulo": "Coworkers in a business meeting",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/43972155510",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante dominar bien la lengua castellana en cualquier puesto administrativo?",
-      "respuesta": "Porque casi todas las tareas administrativas implican leer, escribir o hablar con claridad. <mark>Es una herramienta que se usa en casi cualquier tarea de una oficina</mark>."
+      "respuesta": "Porque casi todas las tareas administrativas implican leer, escribir o hablar con claridad. <mark>Es una herramienta que se usa en casi cualquier tarea de una oficina</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/libros-en-espanol.jpg",
+        "alt": "Libros escritos en lengua castellana",
+        "titulo": "Libros en Español",
+        "autor": "Enokson",
+        "fuente": "https://www.flickr.com/photos/47823583@N03/5149267228",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

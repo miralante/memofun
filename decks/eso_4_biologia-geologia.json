@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un control experimental?",
-      "respuesta": "Es un grupo de comparación que no recibe el tratamiento que se está probando. <mark>Es como comparar una planta regada normalmente con otra que recibe un fertilizante nuevo</mark>. Permite saber si el cambio observado se debe realmente al tratamiento. Sin control, sería difícil confiar en los resultados."
+      "respuesta": "Es un grupo de comparación que no recibe el tratamiento que se está probando. <mark>Es como comparar una planta regada normalmente con otra que recibe un fertilizante nuevo</mark>. Permite saber si el cambio observado se debe realmente al tratamiento. Sin control, sería difícil confiar en los resultados.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/tubos-quimica.jpg",
+        "alt": "Tubos de ensayo con distintas sustancias",
+        "titulo": "Transparent chemistry glass tubes filled with substances",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4273225057",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre un control positivo y uno negativo?",
-      "respuesta": "El control positivo confirma que el experimento puede detectar el efecto esperado. <mark>El control negativo comprueba que no aparece ese efecto cuando no debería aparecer</mark>. Ambos ayudan a confiar en que el experimento funciona bien. Sin ellos, sería difícil interpretar cualquier resultado."
+      "respuesta": "El control positivo confirma que el experimento puede detectar el efecto esperado. <mark>El control negativo comprueba que no aparece ese efecto cuando no debería aparecer</mark>. Ambos ayudan a confiar en que el experimento funciona bien. Sin ellos, sería difícil interpretar cualquier resultado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/laboratorio-ambiental.jpg",
+        "alt": "Un laboratorio de análisis ambiental",
+        "titulo": "USACE Savannah District Environmental & Materials Lab",
+        "autor": "U.S. Army Corps of Engineers Savannah District",
+        "fuente": "https://www.flickr.com/photos/45417428@N05/14730317318",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante distinguir entre variables independientes y dependientes?",
-      "respuesta": "La variable independiente es la que el investigador decide cambiar. <mark>La variable dependiente es la que se mide, porque puede cambiar a causa de la primera</mark>. Por ejemplo, la luz que recibe una planta y su crecimiento. Identificarlas ayuda a diseñar experimentos claros."
+      "respuesta": "La variable independiente es la que el investigador decide cambiar. <mark>La variable dependiente es la que se mide, porque puede cambiar a causa de la primera</mark>. Por ejemplo, la luz que recibe una planta y su crecimiento. Identificarlas ayuda a diseñar experimentos claros.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/papel-cuadriculado.jpg",
+        "alt": "Papel cuadriculado para representar datos",
+        "titulo": "Graph Paper",
+        "autor": "Calsidyrose",
+        "fuente": "https://www.flickr.com/photos/17557997@N02/4562203394",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el modelado científico?",
-      "respuesta": "Es representar un proceso complejo de una forma más sencilla de estudiar. <mark>Es como usar una maqueta para entender algo demasiado grande o complicado de observar directamente</mark>. Un modelo del ADN o del sistema solar son ejemplos comunes. Ayuda a comprender procesos invisibles a simple vista."
+      "respuesta": "Es representar un proceso complejo de una forma más sencilla de estudiar. <mark>Es como usar una maqueta para entender algo demasiado grande o complicado de observar directamente</mark>. Un modelo del ADN o del sistema solar son ejemplos comunes. Ayuda a comprender procesos invisibles a simple vista.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/madurodam-maqueta.jpg",
+        "alt": "Una maqueta a escala de un parque de miniaturas",
+        "titulo": "Trip to Madurodam, The Hague, Netherlands",
+        "autor": "Jordanhill School D&T Dept",
+        "fuente": "https://www.flickr.com/photos/42042252@N02/4520831619",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se distingue una fuente científica fiable de una que no lo es?",
-      "respuesta": "Se comprueba quién la escribió, con qué objetivo y si está actualizada. <mark>Es como comprobar la reputación de quien te da un consejo antes de seguirlo</mark>. Las revistas científicas revisadas por expertos suelen ser más fiables. Contrastar varias fuentes evita información falsa o incompleta."
+      "respuesta": "Se comprueba quién la escribió, con qué objetivo y si está actualizada. <mark>Es como comprobar la reputación de quien te da un consejo antes de seguirlo</mark>. Las revistas científicas revisadas por expertos suelen ser más fiables. Contrastar varias fuentes evita información falsa o incompleta.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/leyendo-noticias.jpg",
+        "alt": "Una persona leyendo con atención una noticia",
+        "titulo": "Businessman reading the daily news",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/30849322677",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la ciencia avanza de forma colectiva e interdisciplinar?",
-      "respuesta": "Porque los descubrimientos suelen apoyarse en trabajos de otras personas y otras áreas. <mark>Es como construir un puzle entre muchas manos, cada una aportando piezas distintas</mark>. Biólogos, físicos o químicos a veces colaboran en un mismo proyecto. Esa colaboración acelera el conocimiento."
+      "respuesta": "Porque los descubrimientos suelen apoyarse en trabajos de otras personas y otras áreas. <mark>Es como construir un puzle entre muchas manos, cada una aportando piezas distintas</mark>. Biólogos, físicos o químicos a veces colaboran en un mismo proyecto. Esa colaboración acelera el conocimiento.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/laboratorio-estudiantes.jpg",
+        "alt": "Estudiantes trabajando juntos en un laboratorio",
+        "titulo": "Laboratory broadens student's horizons",
+        "autor": "U.S. Army Combat Capabilities Development Command",
+        "fuente": "https://www.flickr.com/photos/34402227@N03/4968163345",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo ha cambiado el conocimiento científico a lo largo de la historia?",
-      "respuesta": "Las teorías científicas se corrigen o se sustituyen cuando aparecen mejores pruebas. <mark>Es como actualizar un mapa a medida que se descubren territorios nuevos</mark>. Ideas que antes se creían ciertas pueden cambiar con el tiempo. Esa capacidad de corregirse es una gran fortaleza de la ciencia."
+      "respuesta": "Las teorías científicas se corrigen o se sustituyen cuando aparecen mejores pruebas. <mark>Es como actualizar un mapa a medida que se descubren territorios nuevos</mark>. Ideas que antes se creían ciertas pueden cambiar con el tiempo. Esa capacidad de corregirse es una gran fortaleza de la ciencia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/instrumentos-cientificos.jpg",
+        "alt": "Instrumentos científicos antiguos",
+        "titulo": "Scientific Instruments",
+        "autor": "alusch",
+        "fuente": "https://www.flickr.com/photos/185077236@N04/53200138911",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre analizar resultados y solo describirlos?",
-      "respuesta": "Describir es contar qué se observó, sin explicar por qué ocurrió. <mark>Analizar es buscar el porqué, comparando datos y buscando patrones</mark>. El análisis ayuda a sacar conclusiones útiles de un experimento. Sin análisis, los datos por sí solos dicen muy poco."
+      "respuesta": "Describir es contar qué se observó, sin explicar por qué ocurrió. <mark>Analizar es buscar el porqué, comparando datos y buscando patrones</mark>. El análisis ayuda a sacar conclusiones útiles de un experimento. Sin análisis, los datos por sí solos dicen muy poco.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/lupa-analisis.jpg",
+        "alt": "Una lupa para analizar de cerca",
+        "titulo": "Magnifying glass",
+        "autor": "Ivy Dawned",
+        "fuente": "https://www.flickr.com/photos/30264437@N02/6334870607",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante reconocer el trabajo de las personas dedicadas a la ciencia?",
-      "respuesta": "Porque sus descubrimientos mejoran la vida de toda la sociedad. <mark>Detrás de cada avance científico hay años de trabajo, dudas y persistencia</mark>. Reconocer ese esfuerzo ayuda a valorar mejor la ciencia. También anima a que más personas se interesen por investigar."
+      "respuesta": "Porque sus descubrimientos mejoran la vida de toda la sociedad. <mark>Detrás de cada avance científico hay años de trabajo, dudas y persistencia</mark>. Reconocer ese esfuerzo ayuda a valorar mejor la ciencia. También anima a que más personas se interesen por investigar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/investigadora-fermilab.jpg",
+        "alt": "Una investigadora trabajando en un laboratorio científico",
+        "titulo": "At Fermilab, working on Cryogenic",
+        "autor": "U.S. Department of Energy",
+        "fuente": "https://www.rawpixel.com/image/3325563/free-photo-image-hijab-microscope-cc0",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene el trabajo de campo en la investigación científica?",
-      "respuesta": "Permite observar fenómenos directamente en su entorno natural. <mark>Es como investigar sobre el terreno, en vez de solo desde un laboratorio</mark>. Aporta datos que a veces no se pueden conseguir de otra forma. Se combina con el trabajo de laboratorio para una visión completa."
+      "respuesta": "Permite observar fenómenos directamente en su entorno natural. <mark>Es como investigar sobre el terreno, en vez de solo desde un laboratorio</mark>. Aporta datos que a veces no se pueden conseguir de otra forma. Se combina con el trabajo de laboratorio para una visión completa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia/trabajo-campo.jpg",
+        "alt": "Estudiantes haciendo trabajo de campo en la naturaleza",
+        "titulo": "Students Volunteers, BIO453L Field Trip",
+        "autor": "insectsunlockedproject",
+        "fuente": "https://www.rawpixel.com/image/8720098/photo-image-hand-public-domain-people",
+        "licencia": "CC0 1.0"
+      }
     }
   ]
 }

@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un compuesto químico?",
-      "respuesta": "Es una sustancia formada por la unión de dos o más elementos distintos. <mark>Es como una receta fija: siempre los mismos ingredientes, en las mismas proporciones</mark>. El agua o la sal común son compuestos químicos conocidos."
+      "respuesta": "Es una sustancia formada por la unión de dos o más elementos distintos. <mark>Es como una receta fija: siempre los mismos ingredientes, en las mismas proporciones</mark>. El agua o la sal común son compuestos químicos conocidos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/compuesto-quimico.jpg",
+        "alt": "Un modelo de bolas y varillas de una molécula",
+        "titulo": "Apple's Impossible Molecule",
+        "autor": "schoschie",
+        "fuente": "https://www.flickr.com/photos/87569910@N00/3968739422",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué las propiedades de un compuesto son distintas a las de sus elementos?",
-      "respuesta": "Porque al combinarse, los átomos forman una estructura nueva, con comportamiento propio. <mark>Es como mezclar ingredientes para hacer un plato con un sabor totalmente distinto a cada uno por separado</mark>. El sodio y el cloro, peligrosos solos, forman sal de mesa juntos."
+      "respuesta": "Porque al combinarse, los átomos forman una estructura nueva, con comportamiento propio. <mark>Es como mezclar ingredientes para hacer un plato con un sabor totalmente distinto a cada uno por separado</mark>. El sodio y el cloro, peligrosos solos, forman sal de mesa juntos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/sal-cristales.jpg",
+        "alt": "Cristales de sal de mesa, un compuesto químico",
+        "titulo": "Cristal de sal de mesa rodeado de cristales de bicarbonato de sodio",
+        "autor": "Brandon Antonio Segura Torres & Priscilla Vieto Bonilla",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=142658942",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué elementos y compuestos tienen especial interés industrial?",
-      "respuesta": "El hierro, el oxígeno, el amoníaco o el ácido sulfúrico, entre muchos otros. <mark>Son como ingredientes básicos que aparecen en casi cualquier proceso de fabricación</mark>. Se usan para construir, fabricar medicamentos o generar energía."
+      "respuesta": "El hierro, el oxígeno, el amoníaco o el ácido sulfúrico, entre muchos otros. <mark>Son como ingredientes básicos que aparecen en casi cualquier proceso de fabricación</mark>. Se usan para construir, fabricar medicamentos o generar energía.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/interes-industrial.jpg",
+        "alt": "Una fábrica de acero con humo saliendo de sus chimeneas",
+        "titulo": "Teesside: Corus Steel",
+        "autor": "David Barrie",
+        "fuente": "https://www.flickr.com/photos/69639562@N00/388947010",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el mol?",
-      "respuesta": "Es la unidad que se usa para contar una cantidad enorme de partículas, como átomos o moléculas. <mark>Es como una 'docena' gigantesca, pero con un número mucho más grande de elementos</mark>. Permite trabajar con cantidades manejables en el laboratorio."
+      "respuesta": "Es la unidad que se usa para contar una cantidad enorme de partículas, como átomos o moléculas. <mark>Es como una 'docena' gigantesca, pero con un número mucho más grande de elementos</mark>. Permite trabajar con cantidades manejables en el laboratorio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/mol.jpg",
+        "alt": "Miles de estrellas reflejadas en un lago de montaña",
+        "titulo": "Stars Reflecting Mountain Lake",
+        "autor": "ForestWander.com",
+        "fuente": "https://www.flickr.com/photos/10922353@N03/4807392948",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve la nomenclatura química?",
-      "respuesta": "Sirve para nombrar las sustancias químicas siguiendo unas reglas comunes. <mark>Es como un idioma compartido para que cualquier científico del mundo entienda de qué sustancia se habla</mark>. Evita confusiones entre compuestos con nombres parecidos."
+      "respuesta": "Sirve para nombrar las sustancias químicas siguiendo unas reglas comunes. <mark>Es como un idioma compartido para que cualquier científico del mundo entienda de qué sustancia se habla</mark>. Evita confusiones entre compuestos con nombres parecidos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/nomenclatura.webp",
+        "alt": "Una clase de ciencias con material de laboratorio",
+        "titulo": "Science Class",
+        "autor": "Lokesh_Dhakar",
+        "fuente": "https://www.flickr.com/photos/52727389@N00/6767422267",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una ecuación química?",
-      "respuesta": "Es la representación escrita de una reacción química, con reactivos y productos. <mark>Es como una fórmula que resume, con símbolos, lo que ocurre en una reacción</mark>. Los reactivos se escriben a la izquierda; los productos, a la derecha."
+      "respuesta": "Es la representación escrita de una reacción química, con reactivos y productos. <mark>Es como una fórmula que resume, con símbolos, lo que ocurre en una reacción</mark>. Los reactivos se escriben a la izquierda; los productos, a la derecha.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/ecuacion-quimica.jpg",
+        "alt": "Estudiantes observando una ecuación en la pizarra",
+        "titulo": "Students study an equation on a chalk board",
+        "autor": "simpleinsomnia",
+        "fuente": "https://www.flickr.com/photos/95329455@N02/11125348744",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa ajustar una reacción química?",
-      "respuesta": "Significa igualar el número de átomos de cada elemento a ambos lados de la ecuación. <mark>Es como equilibrar una balanza para que ambos lados pesen exactamente lo mismo</mark>. Se hace añadiendo números delante de las fórmulas, no cambiándolas."
+      "respuesta": "Significa igualar el número de átomos de cada elemento a ambos lados de la ecuación. <mark>Es como equilibrar una balanza para que ambos lados pesen exactamente lo mismo</mark>. Se hace añadiendo números delante de las fórmulas, no cambiándolas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/ajustar-reaccion.jpg",
+        "alt": "Una balanza de dos platos equilibrada",
+        "titulo": "Dvouramenná váha; Two-pan balance weight",
+        "autor": "Da4Sal",
+        "fuente": "https://www.flickr.com/photos/112931986@N07/11645154764",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué dice la ley de conservación de la masa?",
-      "respuesta": "Dice que la masa total no cambia durante una reacción química. <mark>Es como decir que, si mezclas ingredientes, el peso final es igual a la suma de los pesos iniciales</mark>. La propuso el científico Lavoisier, hace más de doscientos años."
+      "respuesta": "Dice que la masa total no cambia durante una reacción química. <mark>Es como decir que, si mezclas ingredientes, el peso final es igual a la suma de los pesos iniciales</mark>. La propuso el científico Lavoisier, hace más de doscientos años.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/conservacion-masa.jpg",
+        "alt": "Un retrato del científico Antoine Lavoisier y su esposa",
+        "titulo": "Antoine Laurent Lavoisier (1743-1794) and Marie Anne Lavoisier",
+        "autor": "Jacques Louis David",
+        "fuente": "https://www.metmuseum.org/art/collection/search/436106",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la ley de Lavoisier para entender las reacciones químicas?",
-      "respuesta": "Porque asegura que en una reacción no se pierde ni se gana materia. <mark>Ayuda a comprobar si una ecuación química está bien ajustada de verdad</mark>. Si los átomos no cuadran, la ecuación tiene un error."
+      "respuesta": "Porque asegura que en una reacción no se pierde ni se gana materia. <mark>Ayuda a comprobar si una ecuación química está bien ajustada de verdad</mark>. Si los átomos no cuadran, la ecuación tiene un error.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/importancia-lavoisier.jpg",
+        "alt": "Una balanza de precisión de laboratorio",
+        "titulo": "Sartorius Selecta Original",
+        "autor": "uitdragerij",
+        "fuente": "https://www.flickr.com/photos/27485522@N04/2978177931",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los cálculos estequiométricos sencillos?",
-      "respuesta": "Son cálculos que relacionan las cantidades de reactivos y productos en una reacción. <mark>Es como calcular cuántos ingredientes necesitas según cuántas raciones quieras preparar</mark>. Se basan en las proporciones de la ecuación ajustada."
+      "respuesta": "Son cálculos que relacionan las cantidades de reactivos y productos en una reacción. <mark>Es como calcular cuántos ingredientes necesitas según cuántas raciones quieras preparar</mark>. Se basan en las proporciones de la ecuación ajustada.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/calculos-estequiometricos.jpg",
+        "alt": "Ingredientes de cocina preparados y medidos",
+        "titulo": "Step 1: Ingredients",
+        "autor": "toholio",
+        "fuente": "https://www.flickr.com/photos/66182839@N00/4296150021",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo afecta la temperatura a la velocidad de una reacción química?",
-      "respuesta": "Aumentar la temperatura suele hacer que las reacciones ocurran más rápido. <mark>Es como agitar más fuerte una mezcla: las partículas chocan entre sí con más frecuencia</mark>. Por eso muchos alimentos se cocinan más rápido a mayor temperatura."
+      "respuesta": "Aumentar la temperatura suele hacer que las reacciones ocurran más rápido. <mark>Es como agitar más fuerte una mezcla: las partículas chocan entre sí con más frecuencia</mark>. Por eso muchos alimentos se cocinan más rápido a mayor temperatura.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/temperatura-velocidad.jpg",
+        "alt": "Agua hirviendo y burbujeando en un géiser",
+        "titulo": "The Great Geyser",
+        "autor": "Helgi Halldórsson/Freddi",
+        "fuente": "https://www.flickr.com/photos/8058853@N06/3718241364",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo afecta la concentración a la velocidad de una reacción química?",
-      "respuesta": "Cuanto más concentrados están los reactivos, más rápido suele ir la reacción. <mark>Es como tener más gente en una sala: aumentan las probabilidades de que se crucen entre sí</mark>. Las disoluciones muy diluidas suelen reaccionar más despacio."
+      "respuesta": "Cuanto más concentrados están los reactivos, más rápido suele ir la reacción. <mark>Es como tener más gente en una sala: aumentan las probabilidades de que se crucen entre sí</mark>. Las disoluciones muy diluidas suelen reaccionar más despacio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/concentracion-velocidad.jpg",
+        "alt": "Un grupo grande de personas reunidas en un taller",
+        "titulo": "Millennials Jam Workshop: Youth and ICTs beyond 2015",
+        "autor": "ITU Pictures",
+        "fuente": "https://www.flickr.com/photos/42121221@N07/9025689028",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la interpretación microscópica de una reacción química?",
-      "respuesta": "Es explicar una reacción observando lo que ocurre a nivel de átomos y moléculas. <mark>Es como mirar con una lupa imaginaria lo que pasa dentro de la mezcla</mark>. Ayuda a entender por qué ocurre una reacción, no solo qué ocurre."
+      "respuesta": "Es explicar una reacción observando lo que ocurre a nivel de átomos y moléculas. <mark>Es como mirar con una lupa imaginaria lo que pasa dentro de la mezcla</mark>. Ayuda a entender por qué ocurre una reacción, no solo qué ocurre.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/interpretacion-microscopica.jpg",
+        "alt": "Un microscopio de laboratorio",
+        "titulo": "Microscope",
+        "autor": "tuchodi",
+        "fuente": "https://www.flickr.com/photos/35034360491@N01/4029430691",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué son importantes las reacciones químicas en la vida cotidiana?",
-      "respuesta": "Porque están presentes en procesos tan comunes como cocinar, respirar o que se oxide un metal. <mark>Ocurren constantemente a nuestro alrededor, aunque no siempre las notemos</mark>. Su estudio va mucho más allá del laboratorio."
+      "respuesta": "Porque están presentes en procesos tan comunes como cocinar, respirar o que se oxide un metal. <mark>Ocurren constantemente a nuestro alrededor, aunque no siempre las notemos</mark>. Su estudio va mucho más allá del laboratorio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/reacciones-cotidianas.jpg",
+        "alt": "Un candado oxidado por el óxido",
+        "titulo": "[2005] Rusty Padlock & Fence",
+        "autor": "Diego3336",
+        "fuente": "https://www.flickr.com/photos/31018257@N00/5829881796",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

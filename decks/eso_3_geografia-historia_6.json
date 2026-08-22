@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué significa pasar de súbdito a ciudadano?",
-      "respuesta": "Un súbdito obedece al rey sin apenas derechos propios. <mark>Un ciudadano, en cambio, tiene derechos reconocidos y puede participar en las decisiones</mark>. Ese cambio fue uno de los grandes logros del siglo diecinueve. Todavía hoy seguimos ampliando esos derechos ciudadanos."
+      "respuesta": "Un súbdito obedece al rey sin apenas derechos propios. <mark>Un ciudadano, en cambio, tiene derechos reconocidos y puede participar en las decisiones</mark>. Ese cambio fue uno de los grandes logros del siglo diecinueve. Todavía hoy seguimos ampliando esos derechos ciudadanos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/subdito-ciudadano.jpg",
+        "alt": "Grupo de personas reunidas en una manifestación pacífica",
+        "titulo": "Rally against corporate personhood and for election reform",
+        "autor": "Fibonacci Blue",
+        "fuente": "https://www.flickr.com/photos/44550450@N04/5375823107",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una constitución?",
-      "respuesta": "Es la ley principal de un país, por encima de todas las demás. <mark>Es como el manual de instrucciones que dice cómo debe funcionar un Estado</mark>. Fija los derechos de los ciudadanos y los límites del poder. En el siglo diecinueve, tener una era un símbolo de progreso."
+      "respuesta": "Es la ley principal de un país, por encima de todas las demás. <mark>Es como el manual de instrucciones que dice cómo debe funcionar un Estado</mark>. Fija los derechos de los ciudadanos y los límites del poder. En el siglo diecinueve, tener una era un símbolo de progreso.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/constitucion.jpg",
+        "alt": "Mazo de un juez sobre una mesa de tribunal",
+        "titulo": "Courtroom Gavel - Judge - Court Hearing",
+        "autor": "weiss_paarz_photos",
+        "fuente": "https://www.flickr.com/photos/141290938@N03/27256508896",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la ley funciona como un contrato social?",
-      "respuesta": "Porque establece normas que toda la sociedad acepta cumplir juntos. <mark>Es como firmar un acuerdo entre todos para poder convivir mejor</mark>. A cambio de obedecer las leyes, los ciudadanos reciben derechos y protección. Esa idea fue central en las constituciones liberales del siglo diecinueve."
+      "respuesta": "Porque establece normas que toda la sociedad acepta cumplir juntos. <mark>Es como firmar un acuerdo entre todos para poder convivir mejor</mark>. A cambio de obedecer las leyes, los ciudadanos reciben derechos y protección. Esa idea fue central en las constituciones liberales del siglo diecinueve.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/contrato-social.jpg",
+        "alt": "Dos personas dándose la mano en señal de acuerdo",
+        "titulo": "Handshake",
+        "autor": "Aidan Jones",
+        "fuente": "https://www.flickr.com/photos/25945304@N00/3575000735",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre nacionalismo y movimientos supranacionales?",
-      "respuesta": "El nacionalismo defiende la identidad propia de un pueblo o nación. <mark>Un movimiento supranacional busca unir a varios países en torno a un objetivo común</mark>. Ambas ideas conviven, a veces en tensión, en la política moderna. La futura Unión Europea nacería, mucho después, de esa segunda idea."
+      "respuesta": "El nacionalismo defiende la identidad propia de un pueblo o nación. <mark>Un movimiento supranacional busca unir a varios países en torno a un objetivo común</mark>. Ambas ideas conviven, a veces en tensión, en la política moderna. La futura Unión Europea nacería, mucho después, de esa segunda idea.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/nacionalismo.jpg",
+        "alt": "Ilustración con banderas de distintos países",
+        "titulo": "National Flags by an unknown artist, showing emblems and flags of different countries",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/43118279665",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo cambió la distribución del trabajo con la industrialización?",
-      "respuesta": "Muchas personas dejaron el campo para trabajar en fábricas de la ciudad. <mark>Es como trasladar el motor de la economía de la tierra a la máquina</mark>. Ese cambio también movió a mucha gente de un lugar a otro. Las migraciones internas se hicieron mucho más frecuentes."
+      "respuesta": "Muchas personas dejaron el campo para trabajar en fábricas de la ciudad. <mark>Es como trasladar el motor de la economía de la tierra a la máquina</mark>. Ese cambio también movió a mucha gente de un lugar a otro. Las migraciones internas se hicieron mucho más frecuentes.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/industrializacion-trabajo.jpg",
+        "alt": "Persona trabajando con telares antiguos de tejido",
+        "titulo": "Colonial Williamsburg Va. Virginia Weaving, Spinning Dyeing",
+        "autor": "watts_photos",
+        "fuente": "https://www.flickr.com/photos/126288307@N05/18154641504",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Estado del bienestar?",
-      "respuesta": "Es un sistema donde el Estado garantiza servicios básicos, como sanidad o educación. <mark>Es como una red que sostiene a la gente cuando algo va mal</mark>. Se fue construyendo, sobre todo, gracias a la lucha del movimiento obrero. Hoy sostiene servicios en los que muchas personas confían cada día."
+      "respuesta": "Es un sistema donde el Estado garantiza servicios básicos, como sanidad o educación. <mark>Es como una red que sostiene a la gente cuando algo va mal</mark>. Se fue construyendo, sobre todo, gracias a la lucha del movimiento obrero. Hoy sostiene servicios en los que muchas personas confían cada día.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/estado-bienestar.jpg",
+        "alt": "Una enfermera sujeta la mano de un paciente",
+        "titulo": "Nurse holding patients hand",
+        "autor": "gintheemt",
+        "fuente": "https://www.flickr.com/photos/87287833@N08/8143846488",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo evolucionó el sistema capitalista hasta la Primera Guerra Mundial?",
-      "respuesta": "Fue creciendo desde pequeñas fábricas hasta enormes industrias y bancos. <mark>Es como una bola de nieve que, al rodar, se hace cada vez más grande</mark>. Aumentó la riqueza, pero también la desigualdad social. Esa tensión ayuda a explicar muchos conflictos posteriores."
+      "respuesta": "Fue creciendo desde pequeñas fábricas hasta enormes industrias y bancos. <mark>Es como una bola de nieve que, al rodar, se hace cada vez más grande</mark>. Aumentó la riqueza, pero también la desigualdad social. Esa tensión ayuda a explicar muchos conflictos posteriores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/capitalismo.jpg",
+        "alt": "Edificio de la Bolsa de Nueva York",
+        "titulo": "New York Stock Exchange",
+        "autor": "aherrero",
+        "fuente": "https://www.flickr.com/photos/10414027@N02/6175878927",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación había entre colonialismo e imperialismo en el siglo XIX?",
-      "respuesta": "El colonialismo es ocupar y gobernar un territorio ajeno. <mark>El imperialismo es la política más amplia de dominar países para sacar provecho económico</mark>. Ambas ideas suelen ir de la mano en esa época. Las potencias europeas usaron las dos para expandir su poder."
+      "respuesta": "El colonialismo es ocupar y gobernar un territorio ajeno. <mark>El imperialismo es la política más amplia de dominar países para sacar provecho económico</mark>. Ambas ideas suelen ir de la mano en esa época. Las potencias europeas usaron las dos para expandir su poder.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/colonialismo-imperialismo.jpg",
+        "alt": "Mapa antiguo mostrando el reparto del mundo entre países",
+        "titulo": "How the World is Apportioned (1920)",
+        "autor": "Eric Fischer",
+        "fuente": "https://www.flickr.com/photos/24431382@N03/6151396956",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el patrimonio como recurso, además de como legado del pasado?",
-      "respuesta": "Es un bien que también puede generar actividad económica, como el turismo. <mark>Un monumento antiguo puede atraer visitantes hoy, igual que hace siglos</mark>. Por eso conservarlo bien beneficia tanto a la cultura como a la economía. Gestionarlo con cuidado evita que se deteriore."
+      "respuesta": "Es un bien que también puede generar actividad económica, como el turismo. <mark>Un monumento antiguo puede atraer visitantes hoy, igual que hace siglos</mark>. Por eso conservarlo bien beneficia tanto a la cultura como a la economía. Gestionarlo con cuidado evita que se deteriore.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/patrimonio-recurso.jpg",
+        "alt": "El Alcázar de Toledo, un monumento histórico español",
+        "titulo": "Alcázar of Toledo",
+        "autor": "kevinpoh",
+        "fuente": "https://www.flickr.com/photos/7679455@N03/14082316864",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se difunde y se gestiona el patrimonio histórico hoy?",
-      "respuesta": "A través de museos, rutas turísticas y programas de conservación. <mark>Es como cuidar un jardín antiguo para que otros también puedan disfrutarlo</mark>. Instituciones públicas y privadas colaboran en esa tarea. Sin gestión adecuada, ese patrimonio podría deteriorarse o perderse."
+      "respuesta": "A través de museos, rutas turísticas y programas de conservación. <mark>Es como cuidar un jardín antiguo para que otros también puedan disfrutarlo</mark>. Instituciones públicas y privadas colaboran en esa tarea. Sin gestión adecuada, ese patrimonio podría deteriorarse o perderse.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/museo-arte.jpg",
+        "alt": "Un museo, un lugar donde se gestiona y difunde el patrimonio histórico",
+        "titulo": "Museo de Arte Tigre",
+        "autor": "Tigre Municipio",
+        "fuente": "https://www.flickr.com/photos/81149303@N04/8979961146",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación tienen las nuevas expresiones artísticas del siglo XIX con las artes clásicas?",
-      "respuesta": "Muchos artistas seguían mirando a Grecia y Roma como modelo de belleza. <mark>Otros, en cambio, rompieron con esa tradición para buscar algo nuevo</mark>. Esa tensión entre tradición y novedad marcó buena parte del arte del siglo diecinueve. De ahí nacieron estilos como el Romanticismo o el Realismo."
+      "respuesta": "Muchos artistas seguían mirando a Grecia y Roma como modelo de belleza. <mark>Otros, en cambio, rompieron con esa tradición para buscar algo nuevo</mark>. Esa tensión entre tradición y novedad marcó buena parte del arte del siglo diecinueve. De ahí nacieron estilos como el Romanticismo o el Realismo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/artes-clasicas-xix.jpg",
+        "alt": "Cuadro pintado con flores en un jarrón, estilo moderno",
+        "titulo": "Henri Matisse - Vase of Sunflowers [c.1898-99]",
+        "autor": "Gandalf's Gallery",
+        "fuente": "https://www.flickr.com/photos/45482849@N03/4807647551",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa la pluralidad en las sociedades libres?",
-      "respuesta": "Significa que conviven personas con ideas, culturas y creencias distintas. <mark>Es como un jardín con flores de muchos colores, no todas iguales</mark>. Esa diversidad puede enriquecer a una sociedad si se respeta. Las sociedades más democráticas suelen defenderla como un valor importante."
+      "respuesta": "Significa que conviven personas con ideas, culturas y creencias distintas. <mark>Es como un jardín con flores de muchos colores, no todas iguales</mark>. Esa diversidad puede enriquecer a una sociedad si se respeta. Las sociedades más democráticas suelen defenderla como un valor importante.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/pluralidad.jpg",
+        "alt": "Grupo variado de personas representando la diversidad",
+        "titulo": "Unity in Diversity",
+        "autor": "Untitled blue",
+        "fuente": "https://www.flickr.com/photos/61728987@N00/22800371",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa la responsabilidad colectiva frente a la individual?",
-      "respuesta": "La responsabilidad individual depende de las decisiones de cada persona. <mark>La colectiva es lo que toda una sociedad decide cuidar juntos, como el medio ambiente</mark>. Ambas se complementan en la vida en comunidad. Un problema grande, como el cambio climático, necesita las dos a la vez."
+      "respuesta": "La responsabilidad individual depende de las decisiones de cada persona. <mark>La colectiva es lo que toda una sociedad decide cuidar juntos, como el medio ambiente</mark>. Ambas se complementan en la vida en comunidad. Un problema grande, como el cambio climático, necesita las dos a la vez.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/responsabilidad-colectiva.jpg",
+        "alt": "Grupo de personas colaborando juntas en una tarea",
+        "titulo": "20111031-FNS-LSC-0143",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/6758757633",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué el cuidado del medio ambiente conecta con la historia económica del siglo XIX?",
-      "respuesta": "Porque la industrialización empezó entonces a consumir recursos a gran escala. <mark>Es como abrir un grifo que, siglo y medio después, seguimos sin cerrar del todo</mark>. Muchos problemas ambientales actuales tienen raíces en esa época. Por eso entender esa historia ayuda a entender los retos actuales."
+      "respuesta": "Porque la industrialización empezó entonces a consumir recursos a gran escala. <mark>Es como abrir un grifo que, siglo y medio después, seguimos sin cerrar del todo</mark>. Muchos problemas ambientales actuales tienen raíces en esa época. Por eso entender esa historia ayuda a entender los retos actuales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_6/medioambiente-economia.jpg",
+        "alt": "Fábrica química con chimeneas",
+        "titulo": "Fábrica química Solvay",
+        "autor": "Jorge Franganillo",
+        "fuente": "https://www.flickr.com/photos/46191841@N00/3128460257",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

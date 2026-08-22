@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la salud mental?",
-      "respuesta": "Es el bienestar emocional, tan importante como la salud física. <mark>Es como cuidar la mente igual que cuidas el cuerpo</mark>. Incluye gestionar el estrés, las emociones y las relaciones con los demás."
+      "respuesta": "Es el bienestar emocional, tan importante como la salud física. <mark>Es como cuidar la mente igual que cuidas el cuerpo</mark>. Incluye gestionar el estrés, las emociones y las relaciones con los demás.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/mindfulness-calma.jpg",
+        "alt": "Una persona practicando la calma y la atención plena",
+        "titulo": "Mindfulness",
+        "autor": "ezola",
+        "fuente": "https://www.flickr.com/photos/21124414@N00/125887847",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante cuidar el bienestar emocional?",
-      "respuesta": "Porque afecta a cómo nos sentimos, trabajamos y nos relacionamos con los demás. <mark>Es como el motor invisible que influye en todo lo que hacemos</mark>. Hablar de lo que sentimos forma parte de ese cuidado."
+      "respuesta": "Porque afecta a cómo nos sentimos, trabajamos y nos relacionamos con los demás. <mark>Es como el motor invisible que influye en todo lo que hacemos</mark>. Hablar de lo que sentimos forma parte de ese cuidado.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/atardecer-tranquilo.jpg",
+        "alt": "Un atardecer tranquilo junto al mar",
+        "titulo": "Peaceful Sunset - Maldives - Travel photography",
+        "autor": "Giuseppe Milo (www.pixael.com)",
+        "fuente": "https://www.flickr.com/photos/87690240@N03/29409117887",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa hacer un uso responsable de las pantallas?",
-      "respuesta": "Significa dedicarles un tiempo razonable, sin que ocupen toda tu vida diaria. <mark>Es como comer de todo, sin abusar de un solo alimento</mark>. Incluye descansar la vista y evitar usarlas antes de dormir."
+      "respuesta": "Significa dedicarles un tiempo razonable, sin que ocupen toda tu vida diaria. <mark>Es como comer de todo, sin abusar de un solo alimento</mark>. Incluye descansar la vista y evitar usarlas antes de dormir.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ninas-pantalla-tablet.jpg",
+        "alt": "Dos niñas sentadas en el suelo mirando una tableta",
+        "titulo": "DSC_4022: two girls sitting on the floor looking at a tablet",
+        "autor": "PattayaPatrol",
+        "fuente": "https://www.flickr.com/photos/194424926@N05/53993584848",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué precauciones conviene tener en las redes sociales?",
-      "respuesta": "No compartir datos personales con desconocidos y contrastar la información antes de creerla. <mark>Es como no dar la dirección de tu casa a cualquiera en la calle</mark>."
+      "respuesta": "No compartir datos personales con desconocidos y contrastar la información antes de creerla. <mark>Es como no dar la dirección de tu casa a cualquiera en la calle</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/apps-movil.jpg",
+        "alt": "Aplicaciones de redes sociales en la pantalla de un móvil",
+        "titulo": "Smartphone apps",
+        "autor": "Image Genie",
+        "fuente": "https://www.flickr.com/photos/161176275@N05/40399643554",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los primeros auxilios en situaciones cotidianas?",
-      "respuesta": "Son las primeras acciones para ayudar a alguien antes de que llegue ayuda profesional. <mark>Es como dar los primeros pasos de una ayuda, sin sustituir a un médico</mark>."
+      "respuesta": "Son las primeras acciones para ayudar a alguien antes de que llegue ayuda profesional. <mark>Es como dar los primeros pasos de una ayuda, sin sustituir a un médico</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/botiquin-primeros-auxilios.jpg",
+        "alt": "Un botiquín de primeros auxilios",
+        "titulo": "First aid kit",
+        "autor": "u07ch",
+        "fuente": "https://www.flickr.com/photos/76705972@N00/5575095686",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se debe hacer ante un pequeño accidente en el trabajo?",
-      "respuesta": "Mantener la calma, valorar la situación y pedir ayuda si es necesario. <mark>Es como seguir un protocolo, paso a paso, sin actuar de forma precipitada</mark>."
+      "respuesta": "Mantener la calma, valorar la situación y pedir ayuda si es necesario. <mark>Es como seguir un protocolo, paso a paso, sin actuar de forma precipitada</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/aprendiendo-primeros-auxilios.jpg",
+        "alt": "Una persona aprendiendo a aplicar primeros auxilios",
+        "titulo": "Learning First Aid",
+        "autor": "USFWS Mountain Prairie",
+        "fuente": "https://www.flickr.com/photos/51986662@N05/4976590939",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿De dónde viene la electricidad que se usa en una oficina?",
-      "respuesta": "Puede venir de fuentes renovables, como el sol o el viento, o de fuentes no renovables. <mark>Es como el combustible invisible que hace funcionar todos los aparatos de la oficina</mark>."
+      "respuesta": "Puede venir de fuentes renovables, como el sol o el viento, o de fuentes no renovables. <mark>Es como el combustible invisible que hace funcionar todos los aparatos de la oficina</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/energia-eolica.jpg",
+        "alt": "Turbinas eólicas generando energía renovable",
+        "titulo": "Wind Energy, Southern California",
+        "autor": "moonjazz",
+        "fuente": "https://www.flickr.com/photos/8398907@N02/8628436785",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la eficiencia energética en una oficina?",
-      "respuesta": "Es usar la energía necesaria, sin derrochar más de lo que hace falta. <mark>Es como no dejar el grifo abierto cuando no lo estás usando, pero con la luz</mark>."
+      "respuesta": "Es usar la energía necesaria, sin derrochar más de lo que hace falta. <mark>Es como no dejar el grifo abierto cuando no lo estás usando, pero con la luz</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/bombilla-luz.jpg",
+        "alt": "Una bombilla de luz encendida",
+        "titulo": "Light Bulb",
+        "autor": "le_hollandais_volant",
+        "fuente": "https://www.flickr.com/photos/156969186@N07/37784631166",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la huella ecológica de una persona o de una empresa?",
-      "respuesta": "Es la medida del impacto que su actividad tiene sobre el medio ambiente. <mark>Es como el rastro invisible que deja cada actividad sobre el planeta</mark>. Reducirla es un objetivo cada vez más compartido."
+      "respuesta": "Es la medida del impacto que su actividad tiene sobre el medio ambiente. <mark>Es como el rastro invisible que deja cada actividad sobre el planeta</mark>. Reducirla es un objetivo cada vez más compartido.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/cambio-climatico-financiacion.jpg",
+        "alt": "Una representación del impacto del cambio climático",
+        "titulo": "Financing Climate Change",
+        "autor": "Visible Hand",
+        "fuente": "https://www.flickr.com/photos/18844496@N00/3085307050",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede reducir la huella ecológica en una oficina?",
-      "respuesta": "Reciclando, ahorrando energía y reduciendo el uso de papel innecesario. <mark>Son pequeños gestos que, sumados, ayudan a cuidar un espacio compartido</mark>."
+      "respuesta": "Reciclando, ahorrando energía y reduciendo el uso de papel innecesario. <mark>Son pequeños gestos que, sumados, ayudan a cuidar un espacio compartido</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/papel-reciclaje.jpg",
+        "alt": "Papel siendo depositado en un contenedor de reciclaje",
+        "titulo": "File:Paper To Paper Bin.jpg",
+        "autor": "My Alchemist",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=15972125",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué es el cambio climático, según la ciencia?",
-      "respuesta": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre y esa fiebre no bajara</mark>."
+      "respuesta": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre y esa fiebre no bajara</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/glaciares-nivel-mar.jpg",
+        "alt": "Glaciares afectados por el cambio climático",
+        "titulo": "Glaciers and Sea Level Rise",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/8742463970",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el consumo de energía y el cambio climático?",
-      "respuesta": "Producir energía a partir de combustibles como el petróleo libera gases que calientan el planeta. <mark>Es como acumular calor dentro de una habitación cerrada, poco a poco</mark>."
+      "respuesta": "Producir energía a partir de combustibles como el petróleo libera gases que calientan el planeta. <mark>Es como acumular calor dentro de una habitación cerrada, poco a poco</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/central-energia.jpg",
+        "alt": "Una central de generación de energía",
+        "titulo": "Scottish and Southern Slough Power Station - geograph.org.uk - 1002054",
+        "autor": "Chris Allen",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=13705641",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los equipos de protección en un trabajo de oficina?",
-      "respuesta": "Son elementos que ayudan a prevenir riesgos, aunque menos visibles que en otros trabajos. <mark>Incluyen desde sillas ergonómicas hasta pantallas que protegen la vista</mark>."
+      "respuesta": "Son elementos que ayudan a prevenir riesgos, aunque menos visibles que en otros trabajos. <mark>Incluyen desde sillas ergonómicas hasta pantallas que protegen la vista</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/escritorio-trabajo.jpg",
+        "alt": "Un escritorio de oficina con equipo de trabajo",
+        "titulo": "My Desk @ SimpleGeo SF",
+        "autor": "Jon Rohan",
+        "fuente": "https://www.flickr.com/photos/68503235@N00/5081408605",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se debe hacer ante una emergencia en el lugar de trabajo?",
-      "respuesta": "Mantener la calma, seguir las instrucciones de evacuación y dirigirse al punto de encuentro. <mark>Es como seguir un plan ya preparado, en vez de improvisar en el momento</mark>."
+      "respuesta": "Mantener la calma, seguir las instrucciones de evacuación y dirigirse al punto de encuentro. <mark>Es como seguir un plan ya preparado, en vez de improvisar en el momento</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/simulacro-incendio.jpg",
+        "alt": "Un simulacro de emergencia en un edificio",
+        "titulo": "Fire Drill",
+        "autor": "B4bees",
+        "fuente": "https://www.flickr.com/photos/26314424@N08/5488510332",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante conocer el plan de evacuación de un edificio?",
-      "respuesta": "Porque en una emergencia real no hay tiempo para pensar qué hacer desde cero. <mark>Es como ensayar antes una ruta de salida, para no dudar si hace falta usarla</mark>."
+      "respuesta": "Porque en una emergencia real no hay tiempo para pensar qué hacer desde cero. <mark>Es como ensayar antes una ruta de salida, para no dudar si hace falta usarla</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/salida-emergencia.jpg",
+        "alt": "Un cartel de salida de emergencia",
+        "titulo": "Salida de Emergencia",
+        "autor": "Esparta",
+        "fuente": "https://www.flickr.com/photos/66208256@N00/877183747",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo ha cambiado la tecnología el trabajo administrativo?",
-      "respuesta": "Ha automatizado tareas repetitivas y facilitado la comunicación y el archivo digital. <mark>Es como tener herramientas que hacen más rápido lo que antes costaba mucho tiempo</mark>."
+      "respuesta": "Ha automatizado tareas repetitivas y facilitado la comunicación y el archivo digital. <mark>Es como tener herramientas que hacen más rápido lo que antes costaba mucho tiempo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ordenador-tecnologia.jpg",
+        "alt": "Un ordenador de oficina moderno",
+        "titulo": "Computer",
+        "autor": "Jamiesrabbits",
+        "fuente": "https://www.flickr.com/photos/38389073@N04/5730561541",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

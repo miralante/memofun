@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una estrofa?",
-      "respuesta": "Es un grupo de versos que van juntos en un poema. <mark>Es como un párrafo, pero hecho con versos</mark>. Se separa de otras estrofas con un espacio. Un poema puede tener una o varias estrofas."
+      "respuesta": "Es un grupo de versos que van juntos en un poema. <mark>Es como un párrafo, pero hecho con versos</mark>. Se separa de otras estrofas con un espacio. Un poema puede tener una o varias estrofas.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_2/estrofa-libro-versos.jpg",
+        "alt": "Página de un libro de versos infantiles, con varios grupos de versos separados por dibujos",
+        "titulo": "Little Verses For Very Little People",
+        "autor": "perpetualplum",
+        "fuente": "https://www.flickr.com/photos/14277117@N03/4176923506",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un caligrama?",
-      "respuesta": "Es un poema cuyas palabras forman un dibujo. <mark>Por ejemplo, versos sobre la lluvia dibujando gotas cayendo</mark>. La forma del texto ayuda a entender lo que dice. Es un poema que también se mira, no solo se lee."
+      "respuesta": "Es un poema cuyas palabras forman un dibujo. <mark>Por ejemplo, versos sobre la lluvia dibujando gotas cayendo</mark>. La forma del texto ayuda a entender lo que dice. Es un poema que también se mira, no solo se lee.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_2/caligrama-forma-clave-sol.jpg",
+        "alt": "Poema cuyas palabras están escritas formando el dibujo de una clave de sol musical",
+        "titulo": "Music Shape Poem",
+        "autor": "Dogtrax",
+        "fuente": "https://www.flickr.com/photos/71805365@N00/53575103450",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una copla?",
-      "respuesta": "Es un poema corto, fácil de cantar o recitar. <mark>Suele tener cuatro versos que riman entre ellos</mark>. Muchas canciones populares nacieron de coplas. Son fáciles de aprender de memoria."
+      "respuesta": "Es un poema corto, fácil de cantar o recitar. <mark>Suele tener cuatro versos que riman entre ellos</mark>. Muchas canciones populares nacieron de coplas. Son fáciles de aprender de memoria.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_2/copla-guitarra-cancion.jpg",
+        "alt": "Un hombre toca la guitarra y una mujer canta con un micrófono, en la calle",
+        "titulo": "Fernando's Kitchen, Cambridge 08-08-10",
+        "autor": "Dave Catchpole",
+        "fuente": "https://www.flickr.com/photos/52957117@N04/4890048615",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un villancico?",
-      "respuesta": "Es una canción popular relacionada con la Navidad. <mark>Se canta en familia desde hace generaciones</mark>. Tiene un ritmo alegre y fácil de seguir. Muchos villancicos se transmitieron sin quedar nunca escritos."
+      "respuesta": "Es una canción popular relacionada con la Navidad. <mark>Se canta en familia desde hace generaciones</mark>. Tiene un ritmo alegre y fácil de seguir. Muchos villancicos se transmitieron sin quedar nunca escritos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_2/villancico-coro-navidad.jpg",
+        "alt": "Un grupo de personas abrigadas, con gorros navideños, cantando villancicos en la calle con un micrófono",
+        "titulo": "Carol Singing - Dorchester Christmas Cracker 2022",
+        "autor": "dorsetbays",
+        "fuente": "https://www.flickr.com/photos/82714141@N00/52560471277",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa recitar un poema?",
-      "respuesta": "Es decir un poema en voz alta, de memoria. <mark>Hay que cuidar el ritmo y el tono de la voz</mark>. No es lo mismo leerlo que recitarlo. Recitar bien hace que el poema suene más bonito."
+      "respuesta": "Es decir un poema en voz alta, de memoria. <mark>Hay que cuidar el ritmo y el tono de la voz</mark>. No es lo mismo leerlo que recitarlo. Recitar bien hace que el poema suene más bonito.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_2/recitar-poema-escenario.jpg",
+        "alt": "Una persona de pie sola en un escenario, hablando con un micrófono ante un público sentado",
+        "titulo": "Poetry recitation contest 1",
+        "autor": "Shinfull",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=63762348",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es una retahíla?",
-      "respuesta": "Es una lista de palabras que se dicen seguidas y rápido. <mark>Suena casi como un juego, con ritmo pegadizo</mark>. Se usan en canciones para elegir quién empieza a jugar. Por ejemplo: 'pito, pito, colorito'."
+      "respuesta": "Es una lista de palabras que se dicen seguidas y rápido. <mark>Suena casi como un juego, con ritmo pegadizo</mark>. Se usan en canciones para elegir quién empieza a jugar. Por ejemplo: 'pito, pito, colorito'.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura_2/retahila-ninos-jugando.jpg",
+        "alt": "Tres niños cogidos de la mano, jugando juntos a un juego con ritmo, al aire libre",
+        "titulo": "Children dancing while holding hands",
+        "autor": "simpleinsomnia",
+        "fuente": "https://www.flickr.com/photos/95329455@N02/16818304276",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

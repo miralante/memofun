@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué dos partes no pueden faltar en un cuento?",
-      "respuesta": "Todo cuento necesita un principio y un final. <mark>El principio empieza la historia; el final la cierra</mark>. Sin las dos partes, el cuento queda a medias. Es como un viaje: hace falta salida y llegada."
+      "respuesta": "Todo cuento necesita un principio y un final. <mark>El principio empieza la historia; el final la cierra</mark>. Sin las dos partes, el cuento queda a medias. Es como un viaje: hace falta salida y llegada.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura/camino-hacia-el-horizonte.jpg",
+        "alt": "Un camino de tierra entre dos campos verdes que se pierde en el horizonte, bajo un cielo azul con nubes",
+        "titulo": "path",
+        "autor": "Eddi 07- Free Stock",
+        "fuente": "https://www.flickr.com/photos/47231550@N07/4685330421",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se cuenta al principio de un cuento?",
-      "respuesta": "Al principio conocemos quién es el protagonista. <mark>También descubrimos dónde ocurre la historia</mark>. Por ejemplo: 'Había una vez un niño en un pueblo'. Así el lector sabe por dónde empezar a imaginar."
+      "respuesta": "Al principio conocemos quién es el protagonista. <mark>También descubrimos dónde ocurre la historia</mark>. Por ejemplo: 'Había una vez un niño en un pueblo'. Así el lector sabe por dónde empezar a imaginar.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura/libros-ilustrados.jpg",
+        "alt": "Libros ilustrados infantiles",
+        "titulo": "Picture Books",
+        "autor": "Enokson",
+        "fuente": "https://www.flickr.com/photos/47823583@N03/4385119849",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué debe pasar en el final de un cuento?",
-      "respuesta": "El final resuelve lo que le pasaba al protagonista. <mark>Cierra la historia y responde qué ocurrió</mark>. Puede ser un final feliz o triste. Pero siempre deja claro cómo terminó todo."
+      "respuesta": "El final resuelve lo que le pasaba al protagonista. <mark>Cierra la historia y responde qué ocurrió</mark>. Puede ser un final feliz o triste. Pero siempre deja claro cómo terminó todo.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura/mascaras-teatro.jpg",
+        "alt": "Dos máscaras doradas de teatro: una con cara triste y otra con cara alegre",
+        "titulo": "Tragedy and Comedy",
+        "autor": "Tim Green aka atoach",
+        "fuente": "https://www.flickr.com/photos/93416311@N00/8094737104",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa comprender bien un cuento?",
-      "respuesta": "Comprender un cuento es entender qué pasa y por qué. <mark>No basta con leer las palabras: hay que imaginar la historia</mark>. Por eso ayuda pensar en los personajes mientras lees. Así el cuento cobra vida en tu cabeza."
+      "respuesta": "Comprender un cuento es entender qué pasa y por qué. <mark>No basta con leer las palabras: hay que imaginar la historia</mark>. Por eso ayuda pensar en los personajes mientras lees. Así el cuento cobra vida en tu cabeza.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura/ninos-leyendo.jpg",
+        "alt": "Niños leyendo con atención",
+        "titulo": "Children reading c.1960 'Celebrating World Book Day'",
+        "autor": "Archives New Zealand",
+        "fuente": "https://www.flickr.com/photos/35759981@N08/15963758684",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo sabes si has entendido bien un cuento?",
-      "respuesta": "Una buena señal es poder contarlo con tus palabras. <mark>Si puedes explicar qué pasó, lo has entendido</mark>. También ayuda decir cómo se sentían los personajes. Contarlo a otra persona lo demuestra todavía mejor."
+      "respuesta": "Una buena señal es poder contarlo con tus palabras. <mark>Si puedes explicar qué pasó, lo has entendido</mark>. También ayuda decir cómo se sentían los personajes. Contarlo a otra persona lo demuestra todavía mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura/ninos-compartiendo-cuento.jpg",
+        "alt": "Cuatro niños sentados en la entrada de una casa, cada uno leyendo su propio libro",
+        "titulo": "Vision :'A Book in Every Child's Hand'",
+        "autor": "Pratham Books",
+        "fuente": "https://www.flickr.com/photos/35026043@N03/3291759617",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué ayuda imaginar mientras lees un cuento?",
-      "respuesta": "Imaginar convierte las palabras en imágenes en tu mente. <mark>Así vives la historia como si la vieras</mark>. Eso hace que recuerdes mejor lo que pasó. ¿Sabías que cada persona imagina el mismo cuento de forma distinta?"
+      "respuesta": "Imaginar convierte las palabras en imágenes en tu mente. <mark>Así vives la historia como si la vieras</mark>. Eso hace que recuerdes mejor lo que pasó. ¿Sabías que cada persona imagina el mismo cuento de forma distinta?",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura/libros-e-imaginacion.jpg",
+        "alt": "Varios libros infantiles de colores puestos en círculo alrededor de un globo terráqueo",
+        "titulo": "A Child's Imagination Has No Boundaries",
+        "autor": "Carol (vanhookc)",
+        "fuente": "https://www.flickr.com/photos/97651299@N00/27330045556",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

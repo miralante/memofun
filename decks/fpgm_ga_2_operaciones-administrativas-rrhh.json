@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué funciones tiene el departamento de recursos humanos?",
-      "respuesta": "Gestiona la selección, contratación y administración del personal de una empresa. <mark>Es como el departamento que cuida de las personas que hacen funcionar la empresa</mark>. También se encarga de nóminas, formación y bienestar laboral."
+      "respuesta": "Gestiona la selección, contratación y administración del personal de una empresa. <mark>Es como el departamento que cuida de las personas que hacen funcionar la empresa</mark>. También se encarga de nóminas, formación y bienestar laboral.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/funciones-rrhh.jpg",
+        "alt": "Equipo de personas reunidas trabajando juntas en una oficina.",
+        "titulo": "(sin título)",
+        "autor": "startupphotos",
+        "fuente": "https://www.flickr.com/photos/120262924@N05/13133855813",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el proceso de selección de personal?",
-      "respuesta": "Es el conjunto de pasos para elegir a la persona más adecuada para un puesto. <mark>Es como un filtro que va reduciendo candidatos hasta encontrar el mejor encaje</mark>. Incluye revisar currículums, hacer pruebas y realizar entrevistas."
+      "respuesta": "Es el conjunto de pasos para elegir a la persona más adecuada para un puesto. <mark>Es como un filtro que va reduciendo candidatos hasta encontrar el mejor encaje</mark>. Incluye revisar currículums, hacer pruebas y realizar entrevistas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/proceso-seleccion.jpg",
+        "alt": "Feria de empleo donde varias personas buscan candidatos para trabajar.",
+        "titulo": "Career Fair at College of DuPage 2014 11",
+        "autor": "COD Newsroom",
+        "fuente": "https://www.flickr.com/photos/41431665@N07/12439028663",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una entrevista de trabajo?",
-      "respuesta": "Es una conversación entre la empresa y un candidato para valorar si encaja en el puesto. <mark>Es como una charla decisiva, donde ambas partes se conocen mejor antes de decidir</mark>. Permite valorar aspectos que un currículum no muestra."
+      "respuesta": "Es una conversación entre la empresa y un candidato para valorar si encaja en el puesto. <mark>Es como una charla decisiva, donde ambas partes se conocen mejor antes de decidir</mark>. Permite valorar aspectos que un currículum no muestra.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/entrevista-trabajo.jpg",
+        "alt": "Dos mujeres sentadas hablando cara a cara junto a una mesa.",
+        "titulo": "Two Woman in Black Sits on Chair Near Table",
+        "autor": "quariesofficial",
+        "fuente": "https://www.flickr.com/photos/190888186@N04/51670081094",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el expediente laboral de un trabajador?",
-      "respuesta": "Es el conjunto de documentos que recogen la historia laboral de una persona en la empresa. <mark>Es como una carpeta personal que guarda todo lo relevante sobre su trabajo allí</mark>. Incluye el contrato, las nóminas y cualquier incidencia."
+      "respuesta": "Es el conjunto de documentos que recogen la historia laboral de una persona en la empresa. <mark>Es como una carpeta personal que guarda todo lo relevante sobre su trabajo allí</mark>. Incluye el contrato, las nóminas y cualquier incidencia.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/expediente-laboral.jpg",
+        "alt": "Carpetas de archivo con documentos de trabajadores.",
+        "titulo": "va7",
+        "autor": "MedillNSZ",
+        "fuente": "https://www.flickr.com/photos/55715146@N08/8551460441",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se calcula una nómina?",
-      "respuesta": "Se parte del salario bruto y se restan las retenciones e impuestos correspondientes. <mark>Es como calcular cuánto queda de un billete después de descontar varios gastos fijos</mark>. El resultado final es el salario neto."
+      "respuesta": "Se parte del salario bruto y se restan las retenciones e impuestos correspondientes. <mark>Es como calcular cuánto queda de un billete después de descontar varios gastos fijos</mark>. El resultado final es el salario neto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/calculo-nomina.jpg",
+        "alt": "Billetes de dinero en efectivo, como el pago de un sueldo.",
+        "titulo": "$900 Cash",
+        "autor": "alexik",
+        "fuente": "https://www.flickr.com/photos/44098626@N00/2497904239",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las cotizaciones a la Seguridad Social?",
-      "respuesta": "Son las aportaciones económicas que hacen empresa y trabajador al sistema público. <mark>Es como aportar una parte del sueldo a un fondo común que protege a todos</mark>. Financian pensiones, sanidad y otras prestaciones sociales."
+      "respuesta": "Son las aportaciones económicas que hacen empresa y trabajador al sistema público. <mark>Es como aportar una parte del sueldo a un fondo común que protege a todos</mark>. Financian pensiones, sanidad y otras prestaciones sociales.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/cotizaciones-ss.jpg",
+        "alt": "Sello oficial estampado sobre un documento.",
+        "titulo": "DSCN8201 - The Official Seal",
+        "autor": "archer10 (Dennis)",
+        "fuente": "https://www.flickr.com/photos/22490717@N02/4344221761",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la comunicación de un contrato de trabajo?",
-      "respuesta": "Es informar oficialmente a la Administración de que se ha firmado un nuevo contrato. <mark>Es como avisar de forma oficial de que alguien ha empezado a trabajar</mark>. Es un trámite obligatorio para que el contrato sea válido legalmente."
+      "respuesta": "Es informar oficialmente a la Administración de que se ha firmado un nuevo contrato. <mark>Es como avisar de forma oficial de que alguien ha empezado a trabajar</mark>. Es un trámite obligatorio para que el contrato sea válido legalmente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/comunicacion-contrato.jpg",
+        "alt": "Dos personas dándose la mano al llegar a un acuerdo.",
+        "titulo": "Two Person Shaking Each Others Hands",
+        "autor": "Homedust",
+        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la gestión documental de prevención de riesgos laborales?",
-      "respuesta": "Es organizar los documentos relacionados con la seguridad en el trabajo. <mark>Es como llevar un registro completo de todo lo que se hace para proteger a los trabajadores</mark>. Incluye formación y evaluaciones de riesgo."
+      "respuesta": "Es organizar los documentos relacionados con la seguridad en el trabajo. <mark>Es como llevar un registro completo de todo lo que se hace para proteger a los trabajadores</mark>. Incluye formación y evaluaciones de riesgo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/prevencion-riesgos.jpg",
+        "alt": "Trabajador de la construcción con casco de seguridad.",
+        "titulo": "Polite construction worker",
+        "autor": "Photocapy",
+        "fuente": "https://www.flickr.com/photos/81635051@N00/43880329",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una baja laboral?",
-      "respuesta": "Es la ausencia justificada de un trabajador por enfermedad, accidente u otra causa reconocida. <mark>Es como un permiso especial para no ir a trabajar mientras dura una situación concreta</mark>. Puede recibir una prestación económica."
+      "respuesta": "Es la ausencia justificada de un trabajador por enfermedad, accidente u otra causa reconocida. <mark>Es como un permiso especial para no ir a trabajar mientras dura una situación concreta</mark>. Puede recibir una prestación económica.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/baja-laboral.jpg",
+        "alt": "Mujer descansando en el sofá de casa con un termómetro por encontrarse enferma.",
+        "titulo": "Woman lying on sofa with thermometer showing symptoms of illness at home",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=191778276",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre vacaciones y permisos laborales?",
-      "respuesta": "Las vacaciones son un descanso anual pagado que corresponde a todo trabajador. <mark>Los permisos son ausencias puntuales autorizadas por motivos concretos, como una boda o una mudanza</mark>. Ambos están regulados por ley."
+      "respuesta": "Las vacaciones son un descanso anual pagado que corresponde a todo trabajador. <mark>Los permisos son ausencias puntuales autorizadas por motivos concretos, como una boda o una mudanza</mark>. Ambos están regulados por ley.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/vacaciones-playa.jpg",
+        "alt": "Una persona relajándose en la playa de vacaciones",
+        "titulo": "Relaxing on the beach",
+        "autor": "andrewosterberg",
+        "fuente": "https://www.flickr.com/photos/30772919@N06/2890301351",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante un buen proceso de selección de personal?",
-      "respuesta": "Porque contratar a la persona equivocada puede salir muy caro para la empresa. <mark>Es como elegir mal una pieza clave de un equipo, afectando a todo el resultado</mark>. Un buen proceso ahorra tiempo y dinero a largo plazo."
+      "respuesta": "Porque contratar a la persona equivocada puede salir muy caro para la empresa. <mark>Es como elegir mal una pieza clave de un equipo, afectando a todo el resultado</mark>. Un buen proceso ahorra tiempo y dinero a largo plazo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/importancia-seleccion.jpg",
+        "alt": "Joven vestido formalmente esperando para una entrevista de trabajo.",
+        "titulo": "Young Man on a Job Interview",
+        "autor": "amtec_photos",
+        "fuente": "https://www.flickr.com/photos/141761303@N08/24835247668",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene la comunicación en una entrevista de trabajo?",
-      "respuesta": "Ayuda a transmitir con claridad la experiencia, las habilidades y la motivación del candidato. <mark>Es como presentar tu mejor versión profesional en poco tiempo</mark>. También permite entender mejor qué espera la empresa del puesto."
+      "respuesta": "Ayuda a transmitir con claridad la experiencia, las habilidades y la motivación del candidato. <mark>Es como presentar tu mejor versión profesional en poco tiempo</mark>. También permite entender mejor qué espera la empresa del puesto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/comunicacion-entrevista.jpg",
+        "alt": "Personas conversando y colaborando en una oficina.",
+        "titulo": "(sin título)",
+        "autor": "startupphotos",
+        "fuente": "https://www.flickr.com/photos/120262924@N05/13134020174",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué debe actualizarse constantemente el expediente laboral de un trabajador?",
-      "respuesta": "Porque recoge cambios importantes, como ascensos, sanciones o modificaciones de contrato. <mark>Es como mantener al día una ficha que refleja fielmente la trayectoria de esa persona</mark>. Un expediente desactualizado causa errores."
+      "respuesta": "Porque recoge cambios importantes, como ascensos, sanciones o modificaciones de contrato. <mark>Es como mantener al día una ficha que refleja fielmente la trayectoria de esa persona</mark>. Un expediente desactualizado causa errores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/actualizar-expediente.jpg",
+        "alt": "Archivador con documentos guardados en cajones.",
+        "titulo": "Flat file salvaged",
+        "autor": "zieak",
+        "fuente": "https://www.flickr.com/photos/78552401@N00/4452552407",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué consecuencias tiene no comunicar correctamente un contrato de trabajo?",
-      "respuesta": "Puede suponer sanciones económicas para la empresa y problemas legales para el trabajador. <mark>Es como no registrar oficialmente algo que debería quedar constancia por ley</mark>. Protege tanto a la empresa como al trabajador."
+      "respuesta": "Puede suponer sanciones económicas para la empresa y problemas legales para el trabajador. <mark>Es como no registrar oficialmente algo que debería quedar constancia por ley</mark>. Protege tanto a la empresa como al trabajador.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/consecuencias-contrato.jpg",
+        "alt": "Papeles y documentos desordenados sobre una mesa de trabajo.",
+        "titulo": "paperwork mixup",
+        "autor": "Robert Couse-Baker",
+        "fuente": "https://www.flickr.com/photos/29233640@N07/9590785264",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la nómina y las cotizaciones a la Seguridad Social?",
-      "respuesta": "Parte del salario bruto se destina directamente a esas cotizaciones obligatorias. <mark>Es como una parte del sueldo que va directamente a un fondo compartido, antes de llegar al bolsillo</mark>. Por eso el neto es menor que el bruto."
+      "respuesta": "Parte del salario bruto se destina directamente a esas cotizaciones obligatorias. <mark>Es como una parte del sueldo que va directamente a un fondo compartido, antes de llegar al bolsillo</mark>. Por eso el neto es menor que el bruto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/relacion-nomina-cotizaciones.jpg",
+        "alt": "Calculadora usada para hacer cuentas con números.",
+        "titulo": "Calculator",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5856725357",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante gestionar bien las bajas laborales en una empresa?",
-      "respuesta": "Porque afecta tanto a los derechos del trabajador como a la organización del trabajo. <mark>Es como reorganizar un equipo cuando uno de sus miembros no puede jugar temporalmente</mark>. Una mala gestión genera conflictos legales."
+      "respuesta": "Porque afecta tanto a los derechos del trabajador como a la organización del trabajo. <mark>Es como reorganizar un equipo cuando uno de sus miembros no puede jugar temporalmente</mark>. Una mala gestión genera conflictos legales.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/gestionar-bajas.jpg",
+        "alt": "Persona revisando documentos de trabajo con atención en la oficina.",
+        "titulo": "Outstanding Achievement: Janice Shepherd, Grand Junction Field Office, CO",
+        "autor": "mypubliclands",
+        "fuente": "https://www.flickr.com/photos/91981596@N06/34782520886",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué las vacaciones son un derecho y no solo una costumbre?",
-      "respuesta": "Porque están reguladas por ley como un descanso obligatorio y remunerado. <mark>Es como un derecho garantizado, no un favor que la empresa decide conceder o no</mark>. Su duración mínima está fijada legalmente."
+      "respuesta": "Porque están reguladas por ley como un descanso obligatorio y remunerado. <mark>Es como un derecho garantizado, no un favor que la empresa decide conceder o no</mark>. Su duración mínima está fijada legalmente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/vacaciones-derecho.jpg",
+        "alt": "Persona disfrutando de un día de vacaciones en la playa.",
+        "titulo": "Beach Baby",
+        "autor": "thephotographymuse",
+        "fuente": "https://www.flickr.com/photos/33252645@N00/3421883952",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se considera el departamento de recursos humanos estratégico para una empresa?",
-      "respuesta": "Porque las personas son uno de los recursos más importantes de cualquier organización. <mark>Es como cuidar el motor que hace funcionar toda la maquinaria de la empresa</mark>. Un buen equipo humano mejora el rendimiento."
+      "respuesta": "Porque las personas son uno de los recursos más importantes de cualquier organización. <mark>Es como cuidar el motor que hace funcionar toda la maquinaria de la empresa</mark>. Un buen equipo humano mejora el rendimiento.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/rrhh-estrategico.jpg",
+        "alt": "Reunión del equipo directivo de una empresa hablando de sus planes.",
+        "titulo": "1:30pm - Collis meeting with some of the head office team to discuss the Envato vision for 2020",
+        "autor": "envato",
+        "fuente": "https://www.flickr.com/photos/52617155@N08/11075042884",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

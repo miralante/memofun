@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el movimiento en física?",
-      "respuesta": "Es el cambio de posición de un cuerpo respecto a un punto de referencia. <mark>Es como notar que algo se mueve solo si lo comparas con algo que se queda quieto</mark>. Sin un punto de referencia, no se puede decir si algo se mueve. Alguien sentado en un tren se mueve respecto a tierra."
+      "respuesta": "Es el cambio de posición de un cuerpo respecto a un punto de referencia. <mark>Es como notar que algo se mueve solo si lo comparas con algo que se queda quieto</mark>. Sin un punto de referencia, no se puede decir si algo se mueve. Alguien sentado en un tren se mueve respecto a tierra.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/tren-en-movimiento.jpg",
+        "alt": "Un tren de alta velocidad circulando por una vía en un día soleado",
+        "titulo": "Climbing up towards Cardiff Central: High Speed Train on a summer's day",
+        "autor": "Dai Lygad",
+        "fuente": "https://www.flickr.com/photos/126337928@N05/34776945024",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un sistema de referencia?",
-      "respuesta": "Es el punto fijo que se usa para describir el movimiento de un objeto. <mark>Es como elegir desde dónde vas a mirar para decidir si algo se mueve o no</mark>. Puede ser un punto en el suelo, un edificio o cualquier lugar fijo. Sin él, hablar de movimiento no tendría sentido claro."
+      "respuesta": "Es el punto fijo que se usa para describir el movimiento de un objeto. <mark>Es como elegir desde dónde vas a mirar para decidir si algo se mueve o no</mark>. Puede ser un punto en el suelo, un edificio o cualquier lugar fijo. Sin él, hablar de movimiento no tendría sentido claro.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/faro-punto-referencia.jpg",
+        "alt": "Un faro junto al mar, un ejemplo de punto fijo que sirve como referencia",
+        "titulo": "Pigeon Point Lighthouse",
+        "autor": "Harold Litwiler, Poppy",
+        "fuente": "https://www.flickr.com/photos/116337886@N07/51835474210",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la trayectoria de un cuerpo en movimiento?",
-      "respuesta": "Es el camino que recorre un objeto mientras se mueve. <mark>Es como la línea que dejaría marcada si llevara pintura goteando</mark>. Puede ser recta, curva o de cualquier otra forma. Conocerla ayuda a predecir por dónde pasará un objeto en movimiento."
+      "respuesta": "Es el camino que recorre un objeto mientras se mueve. <mark>Es como la línea que dejaría marcada si llevara pintura goteando</mark>. Puede ser recta, curva o de cualquier otra forma. Conocerla ayuda a predecir por dónde pasará un objeto en movimiento.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/estelas-luz-trafico.jpg",
+        "alt": "Estelas de luz de coches en movimiento que dibujan su trayectoria por la ciudad de noche",
+        "titulo": "Brisbane city traffic trails",
+        "autor": "Kelly Hunter",
+        "fuente": "https://www.flickr.com/photos/47149893@N07/8751794706",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la velocidad?",
-      "respuesta": "Es la rapidez con la que un cuerpo cambia de posición. <mark>Es como medir cuántos metros recorres en cada segundo que pasa</mark>. Se calcula dividiendo la distancia recorrida entre el tiempo empleado. Cuanto mayor es, más rápido se mueve un objeto."
+      "respuesta": "Es la rapidez con la que un cuerpo cambia de posición. <mark>Es como medir cuántos metros recorres en cada segundo que pasa</mark>. Se calcula dividiendo la distancia recorrida entre el tiempo empleado. Cuanto mayor es, más rápido se mueve un objeto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/velocimetro-coche.jpg",
+        "alt": "El salpicadero de un coche mostrando el velocímetro y el nivel de combustible",
+        "titulo": "Dashboard-Car_Tachometer-Speedometer-Fuel-level__233810",
+        "autor": "Public Domain Photos",
+        "fuente": "https://www.flickr.com/photos/28958738@N06/7002030055",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el movimiento rectilíneo uniforme?",
-      "respuesta": "Es un movimiento en línea recta con velocidad constante, sin acelerar ni frenar. <mark>Es como un coche que circula siempre a la misma velocidad, sin pisar el freno ni el acelerador</mark>. Su gráfica de espacio y tiempo forma una línea recta."
+      "respuesta": "Es un movimiento en línea recta con velocidad constante, sin acelerar ni frenar. <mark>Es como un coche que circula siempre a la misma velocidad, sin pisar el freno ni el acelerador</mark>. Su gráfica de espacio y tiempo forma una línea recta.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/carretera-recta.jpg",
+        "alt": "Una carretera recta que se pierde en el horizonte",
+        "titulo": "Endless road",
+        "autor": "TheFriendlyFiend",
+        "fuente": "https://www.flickr.com/photos/98063470@N00/326044514",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué muestra una gráfica espacio-tiempo?",
-      "respuesta": "Muestra cómo cambia la posición de un objeto a medida que pasa el tiempo. <mark>Es como un mapa que dibuja, minuto a minuto, dónde está un objeto</mark>. Su pendiente indica la velocidad del movimiento. Cuanto más inclinada, más rápido se mueve el objeto."
+      "respuesta": "Muestra cómo cambia la posición de un objeto a medida que pasa el tiempo. <mark>Es como un mapa que dibuja, minuto a minuto, dónde está un objeto</mark>. Su pendiente indica la velocidad del movimiento. Cuanto más inclinada, más rápido se mueve el objeto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/grafica-lineas.jpg",
+        "alt": "Una gráfica de líneas que muestra cómo cambia un valor con el tiempo",
+        "titulo": "STACKED LINE GRAPH",
+        "autor": "Lauren Manning",
+        "fuente": "https://www.flickr.com/photos/28541331@N00/5659021847",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una fuerza?",
-      "respuesta": "Es toda acción capaz de cambiar el movimiento o la forma de un objeto. <mark>Es como un empujón o un tirón que puede acelerar, frenar o deformar algo</mark>. Se mide en una unidad llamada newton. Está presente en casi cualquier acción cotidiana."
+      "respuesta": "Es toda acción capaz de cambiar el movimiento o la forma de un objeto. <mark>Es como un empujón o un tirón que puede acelerar, frenar o deformar algo</mark>. Se mide en una unidad llamada newton. Está presente en casi cualquier acción cotidiana.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/empujando-carrito-compra.jpg",
+        "alt": "Una persona empujando un carrito de la compra en una tienda",
+        "titulo": "Man examines kitchen sink in home goods store while pushing shopping cart",
+        "autor": "nenad53",
+        "fuente": "https://www.flickr.com/photos/202780880@N02/54560053317",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué efectos puede producir una fuerza sobre un cuerpo?",
-      "respuesta": "Puede cambiar su velocidad, su dirección o incluso deformarlo. <mark>Es como empujar una pelota, girarla en el aire o aplastarla al apretarla</mark>. No siempre produce movimiento: a veces solo cambia la forma del objeto."
+      "respuesta": "Puede cambiar su velocidad, su dirección o incluso deformarlo. <mark>Es como empujar una pelota, girarla en el aire o aplastarla al apretarla</mark>. No siempre produce movimiento: a veces solo cambia la forma del objeto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/patada-balon-futbol.jpg",
+        "alt": "Un balón de fútbol siendo golpeado con el pie, cambiando su velocidad y dirección",
+        "titulo": "rinji waiting for a kicked soccer ball 1",
+        "autor": "_tar0_",
+        "fuente": "https://www.flickr.com/photos/49946687@N05/5661483127",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la composición de fuerzas?",
-      "respuesta": "Es sumar varias fuerzas que actúan a la vez sobre un mismo objeto. <mark>Es como combinar varios empujones distintos para saber el resultado final</mark>. El resultado se llama fuerza resultante. Esa fuerza final determina cómo se moverá el objeto."
+      "respuesta": "Es sumar varias fuerzas que actúan a la vez sobre un mismo objeto. <mark>Es como combinar varios empujones distintos para saber el resultado final</mark>. El resultado se llama fuerza resultante. Esa fuerza final determina cómo se moverá el objeto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/tira-y-afloja-cuerda.jpg",
+        "alt": "Un grupo de personas tirando de una cuerda en un juego de tira y afloja, combinando sus fuerzas",
+        "titulo": "Tug of War",
+        "autor": "toffehoff",
+        "fuente": "https://www.flickr.com/photos/91545449@N00/244870162",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una palanca?",
-      "respuesta": "Es una herramienta simple que amplifica la fuerza aplicada usando un punto de apoyo. <mark>Es como hacer más fácil levantar algo pesado apoyándote en un punto fijo</mark>. Se usa, por ejemplo, en las tijeras o en una carretilla."
+      "respuesta": "Es una herramienta simple que amplifica la fuerza aplicada usando un punto de apoyo. <mark>Es como hacer más fácil levantar algo pesado apoyándote en un punto fijo</mark>. Se usa, por ejemplo, en las tijeras o en una carretilla.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/carretilla-jardin.jpg",
+        "alt": "Una niña empujando flores en una pequeña carretilla, un ejemplo de palanca",
+        "titulo": "Little girl pushing flowers in a tiny wheelbarrow",
+        "autor": "simpleinsomnia",
+        "fuente": "https://www.flickr.com/photos/95329455@N02/14233829101",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fuerzas actúan constantemente en la naturaleza?",
-      "respuesta": "La gravedad, el rozamiento y el magnetismo, entre otras. <mark>Son fuerzas invisibles que actúan aunque no las veamos directamente</mark>. La gravedad nos mantiene pegados al suelo; el rozamiento frena el movimiento. Sin ellas, el mundo sería muy distinto."
+      "respuesta": "La gravedad, el rozamiento y el magnetismo, entre otras. <mark>Son fuerzas invisibles que actúan aunque no las veamos directamente</mark>. La gravedad nos mantiene pegados al suelo; el rozamiento frena el movimiento. Sin ellas, el mundo sería muy distinto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/magnetismo-iman.jpg",
+        "alt": "Un imán, un ejemplo de fuerza magnética presente en la naturaleza",
+        "titulo": "Magnetismo insospechado",
+        "autor": "patosincharco",
+        "fuente": "https://www.flickr.com/photos/130567304@N02/39880626672",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre las fuerzas y las deformaciones de los objetos?",
-      "respuesta": "Aplicar una fuerza puede cambiar la forma de un objeto, aunque no siempre se note. <mark>Es como apretar una esponja: cambia de forma mientras se aplica la fuerza</mark>. Algunos materiales vuelven a su forma original; otros no."
+      "respuesta": "Aplicar una fuerza puede cambiar la forma de un objeto, aunque no siempre se note. <mark>Es como apretar una esponja: cambia de forma mientras se aplica la fuerza</mark>. Algunos materiales vuelven a su forma original; otros no.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_4/esponja-apretada.jpg",
+        "alt": "Esponjas de cocina azules y rosas, un material que cambia de forma al aplicarle fuerza",
+        "titulo": "Plain blue and pink polyurethane kitchen sponges",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4273918578",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -19,6 +19,159 @@
     return ICONS[index % ICONS.length];
   }
 
+  /* Per-stage icons for the course grid: the home used to show the same
+     🎓 for every course, which read as decorative noise. The mapping
+     below gives each stage a distinct, meaningful icon so the home
+     screen is easier to scan and to remember (still emoji, no extra
+     assets, fully offline). Order matches how the manifest is grouped. */
+  var COURSE_ICONS = {
+    '1º de Primaria': '🌱',
+    '2º de Primaria': '🌿',
+    '3º de Primaria': '📗',
+    '4º de Primaria': '📘',
+    '5º de Primaria': '📙',
+    '6º de Primaria': '📕',
+    '1º de ESO': '🔭',
+    '2º de ESO': '🧪',
+    '3º de ESO': '📐',
+    '4º de ESO': '🧭',
+    '1º de FP GM Gestión Administrativa': '💼',
+    '2º de FP GM Gestión Administrativa': '💼',
+    '1º de FP Básica Servicios Administrativos': '🗂️',
+    '2º de FP Básica Servicios Administrativos': '🗂️',
+    'Key Stage 1': '🌱',
+    'Key Stage 2': '📗',
+    'Key Stage 3': '🔭',
+    'Key Stage 4': '🧭',
+    'Entry Level Business': '💼',
+    'BTEC Business L2': '💼'
+  };
+
+  /* English curriculum mirror — when the UI locale is 'en' the home
+     screen reads from this hardcoded structure instead of the manifest
+     (the manifest only carries Spanish decks). Each stage lists its
+     subjects; each subject renders an "invite to contribute" card
+     instead of a deck link, because no English decks exist yet —
+     the goal is to make the temario visible and inviting, not to
+     fabricate cards that don't ship. Mirrors doc/curriculum/en/ and
+     stays in sync with it as a workshop artefact (CLAUDE.md §1.3). */
+  var EN_CURRICULUM = [
+    {
+      curso: 'Key Stage 1',
+      subjects: [
+        'English Literature',
+        'Science',
+        'History',
+        'Geography'
+      ]
+    },
+    {
+      curso: 'Key Stage 2',
+      subjects: [
+        'English Literature',
+        'Science',
+        'History',
+        'Geography'
+      ]
+    },
+    {
+      curso: 'Key Stage 3',
+      subjects: [
+        'English Literature',
+        'Science',
+        'History',
+        'Geography'
+      ]
+    },
+    {
+      curso: 'Key Stage 4',
+      subjects: [
+        'English Literature',
+        'Combined Science',
+        'Biology',
+        'Chemistry',
+        'Physics',
+        'History',
+        'Geography'
+      ]
+    },
+    {
+      curso: 'Entry Level Business',
+      subjects: [
+        'Business Basics',
+        'Customer Service'
+      ]
+    },
+    {
+      curso: 'BTEC Business L2',
+      subjects: [
+        'Business Administration',
+        'Business Communication',
+        'Business Finance',
+        'Business Operations'
+      ]
+    }
+  ];
+
+  /* Per-subject icons for the subject grid (inside a course). Each
+     subject gets a single, recognisable mark; if a subject isn't listed
+     here it falls back to a generic book. Same reasoning as COURSE_ICONS:
+     fewer generic 📘 repeats, easier to scan, still emoji. */
+  var SUBJECT_ICONS = {
+    'Lengua Castellana': '✍️',
+    'Lengua y Literatura': '📖',
+    'Literatura': '📖',
+    'Biología y Geología': '🌿',
+    'Física y Química': '⚗️',
+    'Geografía e Historia': '🗺️',
+    'Ciencias Aplicadas': '🔬',
+    'Ciencias Sociales': '🌍',
+    'Matemáticas': '📐',
+    'Inglés': '🗣️',
+    'Comunicación Empresarial y Atención al Cliente': '🗣️',
+    'Atención al Cliente': '🤝',
+    'Empresa y Administración': '🏢',
+    'Empresa en el Aula': '🏢',
+    'Operaciones Administrativas de Compraventa': '🛒',
+    'Operaciones Auxiliares de Gestión de Tesorería': '💰',
+    'Operaciones Administrativas de Recursos Humanos': '👥',
+    'Técnica Contable': '🧾',
+    'Tratamiento de la Documentación Contable': '🧾',
+    'Tratamiento Informático de la Información': '💻',
+    'Tratamiento Informático de Datos': '💻',
+    'Aplicaciones Básicas de Ofimática': '💻',
+    'Técnicas Administrativas Básicas': '🗂️',
+    'Archivo y Comunicación': '🗂️',
+    'Itinerario Personal para la Empleabilidad I': '🧭',
+    'Itinerario Personal para la Empleabilidad II': '🧭',
+    'Itinerario Personal para la Empleabilidad': '🧭',
+    'Digitalización Aplicada a los Sectores Productivos': '🌐',
+    'Sostenibilidad Aplicada al Sistema Productivo': '♻️',
+    'Preparación de Pedidos y Venta de Productos': '📦',
+    'English Literature': '📖',
+    'Science': '🔬',
+    'Combined Science': '🔬',
+    'Biology': '🧬',
+    'Chemistry': '⚗️',
+    'Physics': '🧲',
+    'History': '🏺',
+    'Geography': '🗺️',
+    'Business Basics': '🏢',
+    'Customer Service': '🤝',
+    'Business Administration': '🏢',
+    'Business Communication': '🗣️',
+    'Business Finance': '💰',
+    'Business Operations': '🛠️'
+  };
+
+  function courseIcon(curso) {
+    return COURSE_ICONS[curso] || '🎓';
+  }
+
+  function subjectIcon(asignatura) {
+    return SUBJECT_ICONS[asignatura] || '📘';
+  }
+
   var BADGE_CLASSES = ['', 'badge-b', 'badge-c', 'badge-d'];
 
   function badgeClassFor(index) {
@@ -50,6 +203,21 @@
       (done ? '<span class="deck-stamp" aria-hidden="true"></span>' : '') +
       '</a>'
     );
+  }
+
+  /** Shown only above the top-level home screen when the UI locale is
+      English: today every deck is Spanish content (deck content isn't
+      covered by the i18n parity rule, see CLAUDE.md), so an English
+      visitor gets an invite to help build that part instead of silent
+      Spanish-only decks. */
+  function localeInviteHtml() {
+    if (App.i18n.locale() !== 'en') return '';
+    return '<div class="locale-invite">' +
+      '<p class="locale-invite-title">' + App.i18n.t('home.enInviteTitle') + '</p>' +
+      '<p>' + App.i18n.t('home.enInviteBody') + '</p>' +
+      '<a class="btn secondary" href="https://github.com/miralante/memofun" target="_blank" rel="noopener">' +
+      App.i18n.t('home.enInviteCta') + '</a>' +
+      '</div>';
   }
 
   function emptyStateHtml() {
@@ -90,15 +258,15 @@
     var byCourse = groupBy(withCourse, function (d) { return d.curso; });
 
     if (!byCourse.order.length) {
-      grid.innerHTML = withoutCourse.length
+      grid.innerHTML = localeInviteHtml() + (withoutCourse.length
         ? '<div class="deck-grid" role="list">' +
           withoutCourse.map(function (d, i) { return deckCardHtml(d, i, progreso); }).join('') +
           '</div>'
-        : emptyStateHtml();
+        : emptyStateHtml());
       return;
     }
 
-    var html = '';
+    var html = localeInviteHtml();
     var prefs = App.storage.get('prefs');
     var pinned = prefs.cursoFijado;
     if (pinned && byCourse.map[pinned]) {
@@ -106,7 +274,7 @@
         '<p class="quick-access-label">⭐ ' + App.i18n.t('home.quickAccess') + '</p>' +
         '<div class="deck-grid" role="list">' +
         '<a class="deck-card" role="listitem" href="' + buildUrl(pinned) + '">' +
-        '<span class="deck-icon" aria-hidden="true">🎓</span>' +
+        '<span class="deck-icon" aria-hidden="true">' + courseIcon(pinned) + '</span>' +
         '<h3>' + App.utils.escapeHtml(pinned) + '</h3>' +
         '<span class="deck-meta">' + App.i18n.t('home.continue') + '</span>' +
         '</a></div></section>';
@@ -123,7 +291,7 @@
           .replace('{done}', done).replace('{total}', courseDecks.length);
       }
       return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + buildUrl(curso) + '">' +
-        '<span class="deck-icon" aria-hidden="true">🎓</span>' +
+        '<span class="deck-icon" aria-hidden="true">' + courseIcon(curso) + '</span>' +
         '<h3>' + App.utils.escapeHtml(curso) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
         '</a>';
@@ -170,7 +338,7 @@
         ? (subjectDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards')
         : subjectDecks.length + ' ' + App.i18n.t('home.decks');
       return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
-        '<span class="deck-icon" aria-hidden="true">' + (single ? (subjectDecks[0].icono || '📘') : '📘') + '</span>' +
+        '<span class="deck-icon" aria-hidden="true">' + (single ? (subjectDecks[0].icono || subjectIcon(asignatura)) : subjectIcon(asignatura)) + '</span>' +
         '<h3>' + App.utils.escapeHtml(asignatura) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
         '</a>';
@@ -201,9 +369,103 @@
     grid.innerHTML = html;
   }
 
+  /* ----- English curriculum (en locale, invite-only, no real decks) ----- */
+
+  function enCourseByName(curso) {
+    for (var i = 0; i < EN_CURRICULUM.length; i++) {
+      if (EN_CURRICULUM[i].curso === curso) return EN_CURRICULUM[i];
+    }
+    return null;
+  }
+
+  /** Build the URL for an EN curriculum screen. Uses a distinct query
+      key (`en=1`) so the Spanish flow can't accidentally land here
+      and the EN flow can't accidentally trigger Spanish rendering if
+      someone hand-edits the URL. */
+  function enBuildUrl(curso, asignatura) {
+    var qs = new URLSearchParams();
+    qs.set('en', '1');
+    if (curso) qs.set('curso', curso);
+    if (asignatura) qs.set('asignatura', asignatura);
+    return 'index.html?' + qs.toString();
+  }
+
+  /** A non-clickable card used for EN subjects: shows the subject, the
+      "no deck yet" message, and a CTA that links to the contributor
+      guide. It still uses the .deck-card shell so the grid layout and
+      a11y pattern match the rest of the page — only the href is
+      replaced by a CTA inside the card body. */
+  function enSubjectCardHtml(asignatura, i) {
+    return (
+      '<div class="deck-card deck-card-invite' + badgeClassFor(i) + '" role="listitem">' +
+      '<span class="deck-icon" aria-hidden="true">' + subjectIcon(asignatura) + '</span>' +
+      '<h3>' + App.utils.escapeHtml(asignatura) + '</h3>' +
+      '<span class="deck-meta">' + App.i18n.t('home.enSubjectInvite') + '</span>' +
+      '<span class="deck-invite-cta">' +
+      '<a class="btn secondary" href="https://github.com/miralante/memofun/blob/main/doc/en/internal-creating-decks-guide.md" target="_blank" rel="noopener">' +
+      App.i18n.t('home.enContributeGuide') + '</a>' +
+      '</span>' +
+      '</div>'
+    );
+  }
+
+  function renderEnCurriculumLevel(grid) {
+    var html = localeInviteHtml();
+    html += '<h2 class="section-heading">' + App.i18n.t('home.enCurriculumHeading') + '</h2>';
+    html += '<div class="deck-grid" role="list">' + EN_CURRICULUM.map(function (entry, i) {
+      var subjectCount = entry.subjects.length;
+      var meta = subjectCount + ' ' + App.i18n.t('home.subjects');
+      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + enBuildUrl(entry.curso) + '">' +
+        '<span class="deck-icon" aria-hidden="true">' + courseIcon(entry.curso) + '</span>' +
+        '<h3>' + App.utils.escapeHtml(entry.curso) + '</h3>' +
+        '<span class="deck-meta">' + meta + '</span>' +
+        '</a>';
+    }).join('') + '</div>';
+    grid.innerHTML = html;
+  }
+
+  function renderEnSubjectLevel(grid, curso) {
+    var entry = enCourseByName(curso);
+    if (!entry) {
+      history.replaceState(null, '', enBuildUrl());
+      renderEnCurriculumLevel(grid);
+      return;
+    }
+    var html = backLinkHtml(enBuildUrl());
+    html += '<div class="section-header">' +
+      '<h2 class="section-heading">' + App.utils.escapeHtml(curso) + '</h2>' +
+      '</div>';
+    html += '<p class="en-curriculum-help">' + App.i18n.t('home.enSubjectInviteHelp') + '</p>';
+    html += '<div class="deck-grid" role="list">' + entry.subjects.map(function (asignatura, i) {
+      return enSubjectCardHtml(asignatura, i);
+    }).join('') + '</div>';
+    grid.innerHTML = html;
+  }
+
+  /** EN locale render entry. No manifest fetch, no real decks — just
+      a course → subject drill-down with invite cards. Mirrors the
+      Spanish navigation shape so back/forward, bookmarks and the
+      "back" button all work the same way. */
+  function renderEnHome(grid) {
+    var params = new URLSearchParams(location.search);
+    var curso = params.get('curso');
+    var asignatura = params.get('asignatura');
+    if (curso) renderEnSubjectLevel(grid, curso);
+    else renderEnCurriculumLevel(grid);
+  }
+
   async function loadDecks() {
     var grid = document.getElementById('deck-grid');
     var progreso = App.storage.get('progreso');
+
+    /* English locale: bypass the manifest entirely (every deck is
+       Spanish content) and render the EN curriculum with invite-only
+       placeholder cards. Same DOM element, same i18n keys, same
+       back-link semantics — just a different data source. */
+    if (App.i18n.locale() === 'en') {
+      renderEnHome(grid);
+      return;
+    }
 
     try {
       var res = await fetch('decks/manifest.json', { cache: 'no-store' });

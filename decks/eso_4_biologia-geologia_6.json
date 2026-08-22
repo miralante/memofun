@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Cómo se originó el universo, según la ciencia actual?",
-      "respuesta": "Se originó con el Big Bang, una expansión enorme desde un punto muy denso y caliente. <mark>Es como una explosión inicial que sigue expandiéndose todavía hoy</mark>. Ocurrió hace unos trece mil ochocientos millones de años. Desde entonces, el universo no ha dejado de expandirse."
+      "respuesta": "Se originó con el Big Bang, una expansión enorme desde un punto muy denso y caliente. <mark>Es como una explosión inicial que sigue expandiéndose todavía hoy</mark>. Ocurrió hace unos trece mil ochocientos millones de años. Desde entonces, el universo no ha dejado de expandirse.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/estrellas-nebulosa.jpg",
+        "alt": "Un cúmulo de estrellas en el espacio profundo",
+        "titulo": "Starburst Cluster Shows Celestial Fireworks",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/4774472286",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el sistema solar?",
-      "respuesta": "Es el conjunto formado por el Sol y todos los cuerpos que giran a su alrededor. <mark>Es como una gran familia de planetas, lunas y otros cuerpos unidos por la gravedad del Sol</mark>. Incluye ocho planetas, lunas, asteroides y cometas. La Tierra es el tercer planeta desde el Sol."
+      "respuesta": "Es el conjunto formado por el Sol y todos los cuerpos que giran a su alrededor. <mark>Es como una gran familia de planetas, lunas y otros cuerpos unidos por la gravedad del Sol</mark>. Incluye ocho planetas, lunas, asteroides y cometas. La Tierra es el tercer planeta desde el Sol.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/sistema-solar.jpg",
+        "alt": "Un diagrama del sistema solar con sus planetas",
+        "titulo": "Solar System Diagram, updated",
+        "autor": "splinx1",
+        "fuente": "https://www.flickr.com/photos/42837737@N05/26328778460",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene el Sol dentro del sistema solar?",
-      "respuesta": "Es la estrella que aporta luz, calor y gravedad a todo el sistema solar. <mark>Es como el motor central que mantiene a todos los planetas girando a su alrededor</mark>. Su energía es la base de casi toda la vida en la Tierra. Sin el Sol, nuestro planeta sería un lugar helado y sin luz."
+      "respuesta": "Es la estrella que aporta luz, calor y gravedad a todo el sistema solar. <mark>Es como el motor central que mantiene a todos los planetas girando a su alrededor</mark>. Su energía es la base de casi toda la vida en la Tierra. Sin el Sol, nuestro planeta sería un lugar helado y sin luz.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/sol-eclipse.jpg",
+        "alt": "El Sol, la estrella que aporta luz y calor al sistema solar",
+        "titulo": "Partial Solar Eclipse - Edmonton, Canada",
+        "autor": "Kurayba",
+        "fuente": "https://www.flickr.com/photos/48503330@N08/36582348231",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué características hicieron habitable a la Tierra?",
-      "respuesta": "Su distancia al Sol, la presencia de agua líquida y una atmósfera protectora. <mark>Es como estar en el punto justo, ni demasiado cerca ni demasiado lejos del fuego</mark>. Esa zona se llama a veces 'zona habitable' de una estrella. Esa combinación permitió que apareciera la vida."
+      "respuesta": "Su distancia al Sol, la presencia de agua líquida y una atmósfera protectora. <mark>Es como estar en el punto justo, ni demasiado cerca ni demasiado lejos del fuego</mark>. Esa zona se llama a veces 'zona habitable' de una estrella. Esa combinación permitió que apareciera la vida.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/tierra-canica-azul.jpg",
+        "alt": "La Tierra vista desde el espacio",
+        "titulo": "Blue Marble - 2005 (animation still)",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/8245591938",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hipótesis existen sobre el origen de la vida en la Tierra?",
-      "respuesta": "Algunas proponen que la vida surgió de reacciones químicas en el propio planeta. <mark>Otras sugieren que ciertos componentes básicos pudieron llegar desde el espacio</mark>. Ninguna hipótesis está confirmada al cien por cien todavía. La ciencia sigue investigando esa gran pregunta."
+      "respuesta": "Algunas proponen que la vida surgió de reacciones químicas en el propio planeta. <mark>Otras sugieren que ciertos componentes básicos pudieron llegar desde el espacio</mark>. Ninguna hipótesis está confirmada al cien por cien todavía. La ciencia sigue investigando esa gran pregunta.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/oceano-volcanico.jpg",
+        "alt": "Actividad volcánica bajo el océano",
+        "titulo": "Smoking Ocean",
+        "autor": "romainguy",
+        "fuente": "https://www.flickr.com/photos/24046097@N00/4189021519",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la astrobiología?",
-      "respuesta": "Es la ciencia que estudia la posibilidad de que exista vida fuera de la Tierra. <mark>Busca pistas de vida en otros planetas o lunas del sistema solar y más allá</mark>. Combina biología, química, geología y astronomía. Analiza qué condiciones necesitaría la vida en otro lugar."
+      "respuesta": "Es la ciencia que estudia la posibilidad de que exista vida fuera de la Tierra. <mark>Busca pistas de vida en otros planetas o lunas del sistema solar y más allá</mark>. Combina biología, química, geología y astronomía. Analiza qué condiciones necesitaría la vida en otro lugar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/curiosity-marte.jpg",
+        "alt": "El róver Curiosity explorando la superficie de Marte",
+        "titulo": "Curiosity at Work on Mars",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/6385411977",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la Tierra es un planeta frágil?",
-      "respuesta": "Porque sus condiciones para la vida podrían alterarse con relativa facilidad. <mark>Es como un equilibrio delicado que un cambio brusco podría romper</mark>. Cambios en el clima o la atmósfera afectan a toda la vida del planeta. Cuidar el medio ambiente es cuidar esa fragilidad."
+      "respuesta": "Porque sus condiciones para la vida podrían alterarse con relativa facilidad. <mark>Es como un equilibrio delicado que un cambio brusco podría romper</mark>. Cambios en el clima o la atmósfera afectan a toda la vida del planeta. Cuidar el medio ambiente es cuidar esa fragilidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/tierra-marmol-azul.jpg",
+        "alt": "La Tierra vista desde el espacio, frágil y pequeña",
+        "titulo": "What is your favorite...Old, New, Aqua, Blue, White or Black Marble?",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/8250779068",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación existe entre la exploración espacial y entender la Tierra?",
-      "respuesta": "Estudiar otros planetas ayuda a comprender mejor las condiciones únicas de la Tierra. <mark>Es como valorar más tu propia casa después de visitar otras muy distintas</mark>. Comparar atmósferas y climas de otros planetas aporta información valiosa sobre el nuestro."
+      "respuesta": "Estudiar otros planetas ayuda a comprender mejor las condiciones únicas de la Tierra. <mark>Es como valorar más tu propia casa después de visitar otras muy distintas</mark>. Comparar atmósferas y climas de otros planetas aporta información valiosa sobre el nuestro.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/cohete-despegue.jpg",
+        "alt": "El despegue de un cohete espacial",
+        "titulo": "DSCOVR Liftoff",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/16495356966",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué importa el cuidado ambiental cuando se estudia la habitabilidad de la Tierra?",
-      "respuesta": "Porque las mismas condiciones que permitieron la vida pueden perderse por mal uso. <mark>Es como cuidar un jardín único que no se puede sustituir si se estropea</mark>. Contaminación, deforestación o cambio climático amenazan ese equilibrio. Proteger el planeta protege la vida misma."
+      "respuesta": "Porque las mismas condiciones que permitieron la vida pueden perderse por mal uso. <mark>Es como cuidar un jardín único que no se puede sustituir si se estropea</mark>. Contaminación, deforestación o cambio climático amenazan ese equilibrio. Proteger el planeta protege la vida misma.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/tierra-cuidado.jpg",
+        "alt": "La Tierra, un planeta que hay que cuidar",
+        "titulo": "#terra #earth",
+        "autor": "Luciano Emanuel",
+        "fuente": "https://www.flickr.com/photos/24286213@N06/48124326826",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué preguntas sigue investigando hoy la ciencia sobre el origen de la vida y el universo?",
-      "respuesta": "Cómo empezó exactamente la vida y si existe en algún otro lugar del universo. <mark>Son preguntas tan grandes que probablemente tarden generaciones enteras en responderse</mark>. Cada nuevo descubrimiento aporta piezas para ese gran rompecabezas. Astronomía y biología avanzan juntas hoy."
+      "respuesta": "Cómo empezó exactamente la vida y si existe en algún otro lugar del universo. <mark>Son preguntas tan grandes que probablemente tarden generaciones enteras en responderse</mark>. Cada nuevo descubrimiento aporta piezas para ese gran rompecabezas. Astronomía y biología avanzan juntas hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/galaxia-espiral.jpg",
+        "alt": "Una galaxia espiral fotografiada por el telescopio Hubble",
+        "titulo": "Hubble peeks at a spiral galaxy",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/18961260104",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

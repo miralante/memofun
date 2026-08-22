@@ -1,0 +1,30 @@
+# primaria_2_ciencias-naturales — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Clasificar (qué es, mecánica): primaria_2_ciencias-naturales.json (analogía: ordenar juguetes por tipo, agrupar por características)
+- Por qué clasificamos seres vivos: primaria_2_ciencias-naturales.json (analogía: poner etiquetas a cajas)
+- Animal vertebrado (qué es): primaria_2_ciencias-naturales.json (columna vertebral como varilla central; ejemplos perro y pájaro)
+- Animal invertebrado (qué es): primaria_2_ciencias-naturales.json (sin huesos dentro; ejemplos caracol y mariposa)
+- Diferencia vertebrado/invertebrado: primaria_2_ciencias-naturales.json (comparación tras introducir ambos)
+- Animal ovíparo (qué es): primaria_2_ciencias-naturales.json (huevo como cápsula; ejemplos gallina y pollito)
+- Animal vivíparo (qué es): primaria_2_ciencias-naturales.json (nace formado del cuerpo de la madre; ejemplos perro y cachorro)
+- Diferencia ovíparo/vivíparo: primaria_2_ciencias-naturales.json (comparación tras introducir ambos)
+- Semilla (qué es): primaria_2_ciencias-naturales_2.json (analogía: maleta con todo lo necesario)
+- Germinación (qué necesita, qué es, orden raíz→tallo): primaria_2_ciencias-naturales_2.json (agua/calor/luz; experimento casero de la lenteja en algodón)
+- Dato curioso semillas que esperan años: primaria_2_ciencias-naturales_2.json (desierto, lluvias esporádicas)
+- Flor (qué es) y transformación en fruto: primaria_2_ciencias-naturales_2.json (analogía: fábrica de colores; capullo que cambia)
+- Fruto (qué es, dónde están las semillas): primaria_2_ciencias-naturales_2.json (ejemplos manzana, naranja, sandía)
+- Ciclo completo semilla→planta→fruto→semilla: primaria_2_ciencias-naturales_2.json (analogía: rueda que gira)
+- Por qué las plantas hacen frutos con semillas: primaria_2_ciencias-naturales_2.json (dispersión por animales)
+- Huesos (para qué sirven, el cráneo, el esqueleto): primaria_2_ciencias-naturales_3.json (analogía: vigas de una casa, casco)
+- Por qué cuidar los huesos de pequeños: primaria_2_ciencias-naturales_3.json (analogía: cimientos de una casa)
+- Músculos (qué son, cómo mueven los huesos, ejemplo correr): primaria_2_ciencias-naturales_3.json (analogía: gomas elásticas, tirar de una cuerda)
+- Dieta equilibrada (qué es, por qué frutas/verduras, dulces con moderación): primaria_2_ciencias-naturales_3.json (analogía: rompecabezas, depósito de coche)
+- Hábitos saludables (definición, dormir, lavarse manos, moverse): primaria_2_ciencias-naturales_3.json (analogía: regar una planta, recargar batería)
+- Agua: los tres estados (sólido/líquido/gaseoso): primaria_2_ciencias-naturales_4.json (analogía: actor que cambia de disfraz; hielo, vapor)
+- Mezclar y separar arena y agua: primaria_2_ciencias-naturales_4.json (sedimentación, decantar el agua)
+- Ciclo del agua (evaporación, nubes, lluvia): primaria_2_ciencias-naturales_4.json (analogía: noria que da vueltas)
+- Montaña, río, mar (qué son): primaria_2_ciencias-naturales_4.json (analogías: gigante de tierra, camino líquido, piscina enorme)
+- Paisaje del entorno (qué es, por qué observarlo): primaria_2_ciencias-naturales_4.json (analogía: fotografía enorme, mapa de la vida diaria)

@@ -5,63 +5,183 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un sustantivo?",
-      "respuesta": "Es la palabra que nombra personas, animales, objetos o ideas. <mark>Es como la etiqueta que le pones a cada cosa que nombras</mark>. 'Mesa', 'perro' o 'alegría' son ejemplos de sustantivos."
+      "respuesta": "Es la palabra que nombra personas, animales, objetos o ideas. <mark>Es como la etiqueta que le pones a cada cosa que nombras</mark>. 'Mesa', 'perro' o 'alegría' son ejemplos de sustantivos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/sustantivo.jpg",
+        "alt": "Un conjunto de etiquetas con nombres",
+        "titulo": "Set of Labels, King Djer (Abydos, 1st Dynasty)",
+        "autor": "akhenatenator",
+        "fuente": "https://www.flickr.com/photos/86012097@N08/8543944239",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es un verbo?",
-      "respuesta": "Es la palabra que expresa una acción, un estado o un proceso. <mark>Es la palabra que 'mueve' la frase, indicando qué pasa</mark>. 'Correr', 'ser' o 'pensar' son ejemplos de verbos."
+      "respuesta": "Es la palabra que expresa una acción, un estado o un proceso. <mark>Es la palabra que 'mueve' la frase, indicando qué pasa</mark>. 'Correr', 'ser' o 'pensar' son ejemplos de verbos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/verbo.jpg",
+        "alt": "Corredores en plena acción durante una carrera",
+        "titulo": "START: Athlone Flatline Half Marathon 2014",
+        "autor": "Peter Mooney",
+        "fuente": "https://www.flickr.com/photos/25874444@N00/15202227996",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un adjetivo?",
-      "respuesta": "Es la palabra que describe cómo es un sustantivo. <mark>Es como añadir color o detalle a algo que ya has nombrado</mark>. 'Grande', 'azul' o 'amable' son ejemplos de adjetivos."
+      "respuesta": "Es la palabra que describe cómo es un sustantivo. <mark>Es como añadir color o detalle a algo que ya has nombrado</mark>. 'Grande', 'azul' o 'amable' son ejemplos de adjetivos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/adjetivo.jpg",
+        "alt": "Una textura de pintura en aerosol llena de color",
+        "titulo": "Spray Paint Texture 3",
+        "autor": "designm.ag",
+        "fuente": "https://www.flickr.com/photos/36281782@N03/4405690185",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el sujeto de una oración?",
-      "respuesta": "Es quien realiza la acción o de quien se habla en la frase. <mark>Es la persona o cosa protagonista de esa oración</mark>. Por ejemplo, en 'María escribe una carta', María es el sujeto."
+      "respuesta": "Es quien realiza la acción o de quien se habla en la frase. <mark>Es la persona o cosa protagonista de esa oración</mark>. Por ejemplo, en 'María escribe una carta', María es el sujeto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/sujeto.jpg",
+        "alt": "Una persona bailando, protagonista de la escena",
+        "titulo": "dance",
+        "autor": "Lisa Padilla",
+        "fuente": "https://www.flickr.com/photos/43885961@N00/605982942",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el predicado de una oración?",
-      "respuesta": "Es la parte de la frase que dice qué hace o cómo es el sujeto. <mark>Es todo lo que se cuenta sobre el sujeto</mark>. Sujeto y predicado juntos forman una oración completa."
+      "respuesta": "Es la parte de la frase que dice qué hace o cómo es el sujeto. <mark>Es todo lo que se cuenta sobre el sujeto</mark>. Sujeto y predicado juntos forman una oración completa.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/predicado.jpg",
+        "alt": "Un plato de comida recién preparado",
+        "titulo": "French toast #latergram #food #vscocam",
+        "autor": "jeremiah.andrick",
+        "fuente": "https://www.flickr.com/photos/9368841@N07/18217093065",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las reglas básicas de acentuación?",
-      "respuesta": "Son las normas que indican cuándo una palabra lleva tilde. <mark>Es como una guía para saber dónde poner el acento al escribir</mark>. Depende de en qué sílaba recae la fuerza al pronunciarla."
+      "respuesta": "Son las normas que indican cuándo una palabra lleva tilde. <mark>Es como una guía para saber dónde poner el acento al escribir</mark>. Depende de en qué sílaba recae la fuerza al pronunciarla.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/acentuacion.jpg",
+        "alt": "Una máquina de escribir antigua con sus teclas",
+        "titulo": "monique's typewriter",
+        "autor": "jetheriot",
+        "fuente": "https://www.flickr.com/photos/9198432@N02/648950773",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante acentuar bien las palabras al escribir?",
-      "respuesta": "Porque una tilde mal puesta puede cambiar el significado de una palabra. <mark>No es lo mismo 'el' que 'él', aunque se parezcan mucho</mark>. Escribir con acentos correctos facilita que el texto se entienda bien."
+      "respuesta": "Porque una tilde mal puesta puede cambiar el significado de una palabra. <mark>No es lo mismo 'el' que 'él', aunque se parezcan mucho</mark>. Escribir con acentos correctos facilita que el texto se entienda bien.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/importancia-acentuar.jpg",
+        "alt": "Las páginas de un diccionario de español al aire",
+        "titulo": "Spanish dictionary pages up into the air",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4268897748",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirven los signos de puntuación?",
-      "respuesta": "Ayudan a organizar un texto y a marcar pausas al leer. <mark>Es como poner semáforos en una frase, para saber cuándo parar</mark>. Sin ellos, un texto sería mucho más difícil de entender."
+      "respuesta": "Ayudan a organizar un texto y a marcar pausas al leer. <mark>Es como poner semáforos en una frase, para saber cuándo parar</mark>. Sin ellos, un texto sería mucho más difícil de entender.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/signos-puntuacion.jpg",
+        "alt": "Un semáforo con sus luces de tráfico",
+        "titulo": "Traffic Signal Upgrade",
+        "autor": "Greenville, NC",
+        "fuente": "https://www.flickr.com/photos/156869144@N02/52475269549",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre una coma y un punto?",
-      "respuesta": "La coma marca una pausa corta dentro de una misma idea. <mark>El punto marca el final completo de una idea</mark>. Confundirlos puede cambiar el sentido de lo que se escribe."
+      "respuesta": "La coma marca una pausa corta dentro de una misma idea. <mark>El punto marca el final completo de una idea</mark>. Confundirlos puede cambiar el sentido de lo que se escribe.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/coma-punto.jpg",
+        "alt": "Un signo que combina interrogación y exclamación",
+        "titulo": "Interrobang‽",
+        "autor": "madprime",
+        "fuente": "https://www.flickr.com/photos/66843181@N00/5155944515",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil aprender palabras nuevas cada semana?",
-      "respuesta": "Porque amplía tu forma de expresarte y de entender lo que lees. <mark>Es como añadir herramientas nuevas a una caja de herramientas</mark>. Aprender vocabulario poco a poco es más fácil que hacerlo de golpe."
+      "respuesta": "Porque amplía tu forma de expresarte y de entender lo que lees. <mark>Es como añadir herramientas nuevas a una caja de herramientas</mark>. Aprender vocabulario poco a poco es más fácil que hacerlo de golpe.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/palabras-nuevas.jpg",
+        "alt": "Tarjetas para aprender vocabulario nuevo",
+        "titulo": "Japanese Flashcards",
+        "autor": "muninn.net",
+        "fuente": "https://www.flickr.com/photos/28024094@N08/5643033953",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué debe tener una nota o un mensaje claro?",
-      "respuesta": "La información esencial, dicha de forma breve y sin rodeos. <mark>Es como ir directo al grano, sin dar vueltas innecesarias</mark>. Un mensaje confuso puede generar errores o malentendidos."
+      "respuesta": "La información esencial, dicha de forma breve y sin rodeos. <mark>Es como ir directo al grano, sin dar vueltas innecesarias</mark>. Un mensaje confuso puede generar errores o malentendidos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/nota-clara.jpg",
+        "alt": "Una nota con un mensaje breve y directo",
+        "titulo": "do it - procrastination concept",
+        "autor": "hang_in_there",
+        "fuente": "https://www.flickr.com/photos/59632563@N04/6261230701",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un formulario?",
-      "respuesta": "Es un documento con espacios para rellenar con información concreta. <mark>Es como una plantilla que solo necesita que completes los datos que pide</mark>. Se usa para trámites, solicitudes o inscripciones."
+      "respuesta": "Es un documento con espacios para rellenar con información concreta. <mark>Es como una plantilla que solo necesita que completes los datos que pide</mark>. Se usa para trámites, solicitudes o inscripciones.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/formulario-solicitud.jpg",
+        "alt": "Un formulario de solicitud con espacios para rellenar",
+        "titulo": "Solicitud de Voluntariado",
+        "autor": "Leales.org",
+        "fuente": "https://www.flickr.com/photos/148980001@N04/38659758515",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué conviene revisar antes de entregar un formulario?",
-      "respuesta": "Que todos los datos estén completos, correctos y sean legibles. <mark>Es como repasar una lista antes de darla por terminada</mark>. Un dato mal escrito puede retrasar todo un trámite."
+      "respuesta": "Que todos los datos estén completos, correctos y sean legibles. <mark>Es como repasar una lista antes de darla por terminada</mark>. Un dato mal escrito puede retrasar todo un trámite.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/revisar-formulario-12.jpg",
+        "alt": "Alguien revisando y rellenando un formulario",
+        "titulo": "Examiner filling in driver's license road test form",
+        "autor": "f0976531950157",
+        "fuente": "https://www.flickr.com/photos/203928447@N02/54999169448",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante usar bien la gramática al escribir en el trabajo?",
-      "respuesta": "Porque un texto bien escrito se entiende mejor y transmite más profesionalidad. <mark>Es como vestir bien para una ocasión importante, pero con las palabras</mark>. Errores de gramática dan mala imagen."
+      "respuesta": "Porque un texto bien escrito se entiende mejor y transmite más profesionalidad. <mark>Es como vestir bien para una ocasión importante, pero con las palabras</mark>. Errores de gramática dan mala imagen.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/gramatica-trabajo-13.jpg",
+        "alt": "Un profesional con traje trabajando con su ordenador",
+        "titulo": "portrait_of_a_professional_manager_using_sleek_laptop",
+        "autor": "digitalcreators.ch",
+        "fuente": "https://www.flickr.com/photos/192194531@N08/52899626571",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el vocabulario y la comunicación en el trabajo?",
-      "respuesta": "Cuanto más vocabulario tienes, con más precisión puedes explicarte. <mark>Es como tener más colores disponibles para pintar la misma idea</mark>. Un vocabulario amplio ayuda a evitar malentendidos."
+      "respuesta": "Cuanto más vocabulario tienes, con más precisión puedes explicarte. <mark>Es como tener más colores disponibles para pintar la misma idea</mark>. Un vocabulario amplio ayuda a evitar malentendidos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/vocabulario-trabajo-14.jpg",
+        "alt": "Una caja de ceras de muchos colores",
+        "titulo": "Crayons",
+        "autor": "bonheureux",
+        "fuente": "https://www.flickr.com/photos/59967504@N03/5979587149",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

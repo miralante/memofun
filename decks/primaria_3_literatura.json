@@ -5,35 +5,99 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué debes fijarte al leer un cuento para entenderlo bien?",
-      "respuesta": "Fíjate en qué le pasa al protagonista y por qué. <mark>Buscar el porqué de las cosas es comprender de verdad</mark>. No es lo mismo leer que entender. Pregúntate qué sentirías tú en su lugar."
+      "respuesta": "Fíjate en qué le pasa al protagonista y por qué. <mark>Buscar el porqué de las cosas es comprender de verdad</mark>. No es lo mismo leer que entender. Pregúntate qué sentirías tú en su lugar.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/nino-pensando-leyendo.jpg",
+        "alt": "Una niña sujeta un libro y se toca la frente, pensando mucho en lo que lee",
+        "titulo": "And Time Moves On....",
+        "autor": "GollyGforce - Living My Worst Nightmare",
+        "fuente": "https://www.flickr.com/photos/20581458@N00/5827220004",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo distingues lo importante de los detalles pequeños en un cuento?",
-      "respuesta": "Lo importante cambia lo que le pasa al protagonista. <mark>Si lo quitas, la historia deja de tener sentido</mark>. Un detalle pequeño puedes olvidarlo sin perderte. Por ejemplo, el color de una puerta rara vez importa."
+      "respuesta": "Lo importante cambia lo que le pasa al protagonista. <mark>Si lo quitas, la historia deja de tener sentido</mark>. Un detalle pequeño puedes olvidarlo sin perderte. Por ejemplo, el color de una puerta rara vez importa.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/puerta-de-colores.jpg",
+        "alt": "Una puerta de madera pintada de azul, con adornos rojos y amarillos",
+        "titulo": "Colorful wooden door with screened window",
+        "autor": "Aaron Gustafson",
+        "fuente": "https://www.flickr.com/photos/86537625@N00/4103471191",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un verso en un poema?",
-      "respuesta": "Un verso es cada línea de un poema. <mark>No termina donde termina la frase, sino donde decide el poeta</mark>. Varios versos juntos forman el poema completo. Por eso un poema se ve distinto a un cuento."
+      "respuesta": "Un verso es cada línea de un poema. <mark>No termina donde termina la frase, sino donde decide el poeta</mark>. Varios versos juntos forman el poema completo. Por eso un poema se ve distinto a un cuento.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/libro-de-poemas-antiguo.jpg",
+        "alt": "Un libro antiguo abierto, con versos cortos escritos en sus páginas",
+        "titulo": "Book 10",
+        "autor": "~Brenda-Starr~",
+        "fuente": "https://www.flickr.com/photos/37753256@N08/5813347420",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la rima en la poesía?",
-      "respuesta": "La rima es cuando los finales de los versos suenan parecido. <mark>Ese sonido repetido une unos versos con otros</mark>. Por ejemplo: 'flor' rima con 'color'. Escuchar la rima hace el poema más musical."
+      "respuesta": "La rima es cuando los finales de los versos suenan parecido. <mark>Ese sonido repetido une unos versos con otros</mark>. Por ejemplo: 'flor' rima con 'color'. Escuchar la rima hace el poema más musical.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/flor-rosa.jpg",
+        "alt": "Una flor rosa con gotas de agua sobre sus pétalos",
+        "titulo": "Flower",
+        "autor": "CoreBurn",
+        "fuente": "https://www.flickr.com/photos/65765645@N00/9373266123",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué los poemas son más fáciles de memorizar que un texto normal?",
-      "respuesta": "La rima ayuda a adivinar qué palabra viene después. <mark>El sonido repetido funciona como una pista para la memoria</mark>. Por eso muchas canciones también riman. Aprenderse un poema entero cuesta menos de lo que parece."
+      "respuesta": "La rima ayuda a adivinar qué palabra viene después. <mark>El sonido repetido funciona como una pista para la memoria</mark>. Por eso muchas canciones también riman. Aprenderse un poema entero cuesta menos de lo que parece.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/coro-de-ninos-cantando.jpg",
+        "alt": "Un grupo de niños canta junto, todos mirando hacia el mismo lado",
+        "titulo": "ELC Church Children's choir_1677",
+        "autor": "hoyasmeg",
+        "fuente": "https://www.flickr.com/photos/62126383@N00/507873162",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el ritmo de un poema?",
-      "respuesta": "El ritmo es el compás que marca cómo suena el poema. <mark>Se nota igual que el compás de una canción</mark>. Depende de dónde caen las sílabas fuertes. Por eso un poema casi se puede cantar."
+      "respuesta": "El ritmo es el compás que marca cómo suena el poema. <mark>Se nota igual que el compás de una canción</mark>. Depende de dónde caen las sílabas fuertes. Por eso un poema casi se puede cantar.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/tambor-baquetas.jpg",
+        "alt": "Un tambor con dos baquetas de madera encima, listas para marcar un compás",
+        "titulo": "snare drum",
+        "autor": "Vladimir Morozov",
+        "fuente": "https://www.flickr.com/photos/27429206@N02/4124370796",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué el ritmo hace que un poema sea agradable de leer en voz alta?",
-      "respuesta": "Un buen ritmo hace que las palabras fluyan solas. <mark>Leer en voz alta se vuelve casi como cantar</mark>. Por eso los poemas suenan bien aunque no entiendas cada palabra. ¿Sabías que muchos poemas nacieron para cantarse, no para leerse?"
+      "respuesta": "Un buen ritmo hace que las palabras fluyan solas. <mark>Leer en voz alta se vuelve casi como cantar</mark>. Por eso los poemas suenan bien aunque no entiendas cada palabra. ¿Sabías que muchos poemas nacieron para cantarse, no para leerse?",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/nina-leyendo-a-su-hermana.jpg",
+        "alt": "Una niña mayor lee en voz alta un libro a su hermana pequeña, abrazadas",
+        "titulo": "Norah is reading bedtime stories to her little sister!",
+        "autor": "dougbutchy",
+        "fuente": "https://www.flickr.com/photos/13880897@N06/8012654626",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian la rima y el ritmo de un poema?",
-      "respuesta": "La rima es el sonido repetido al final de los versos. <mark>El ritmo es el compás con el que suenan al leerlos</mark>. Un poema puede tener ritmo sin rimar. Pero juntos hacen que el poema suene todavía mejor."
+      "respuesta": "La rima es el sonido repetido al final de los versos. <mark>El ritmo es el compás con el que suenan al leerlos</mark>. Un poema puede tener ritmo sin rimar. Pero juntos hacen que el poema suene todavía mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_3_literatura/leer-con-amor.jpg",
+        "alt": "Una persona disfrutando de la lectura de un poema",
+        "titulo": "love read",
+        "autor": "luis de bethencourt",
+        "fuente": "https://www.flickr.com/photos/20635160@N05/2072134438",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

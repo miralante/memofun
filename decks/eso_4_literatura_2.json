@@ -5,35 +5,99 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué fue la Generación del 27?",
-      "respuesta": "Fue un grupo de poetas españoles muy amigos entre sí. <mark>Se reunieron para homenajear a un poeta del Barroco, Góngora</mark>. Mezclaban la tradición española con ideas muy nuevas. Marcaron una de las épocas más brillantes de la poesía española."
+      "respuesta": "Fue un grupo de poetas españoles muy amigos entre sí. <mark>Se reunieron para homenajear a un poeta del Barroco, Góngora</mark>. Mezclaban la tradición española con ideas muy nuevas. Marcaron una de las épocas más brillantes de la poesía española.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/residencia-estudiantes.jpg",
+        "alt": "La fachada de la Residencia de Estudiantes de Madrid",
+        "titulo": "Residencia de Estudiantes—Fachada",
+        "autor": "Ketamino",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=3621886",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Federico García Lorca?",
-      "respuesta": "Fue poeta y dramaturgo, el más conocido de la Generación del 27. <mark>Escribía sobre el amor, la muerte y la libertad</mark>. Murió asesinado al principio de la Guerra Civil. Sigue siendo uno de los autores españoles más leídos en el mundo."
+      "respuesta": "Fue poeta y dramaturgo, el más conocido de la Generación del 27. <mark>Escribía sobre el amor, la muerte y la libertad</mark>. Murió asesinado al principio de la Guerra Civil. Sigue siendo uno de los autores españoles más leídos en el mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/lorca-falla-foto.jpg",
+        "alt": "Fotografía de Federico García Lorca junto a Manuel de Falla",
+        "titulo": "Foto de Antonio de Luna con Manuel de Falla y Federico García Lorca",
+        "autor": "Antonio de Luna",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=79432630",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué obras destacan de Lorca?",
-      "respuesta": "Escribió obras de teatro como 'La casa de Bernarda Alba'. <mark>Cuenta la vida de mujeres encerradas por una madre autoritaria</mark>. También escribió poesía, como el 'Romancero gitano'. Sus temas mezclan tradición popular con emociones muy intensas."
+      "respuesta": "Escribió obras de teatro como 'La casa de Bernarda Alba'. <mark>Cuenta la vida de mujeres encerradas por una madre autoritaria</mark>. También escribió poesía, como el 'Romancero gitano'. Sus temas mezclan tradición popular con emociones muy intensas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/flamenco-guitarra.jpg",
+        "alt": "Una guitarra flamenca andaluza",
+        "titulo": "Pure Flamenco - El Palacio Andaluz - Seville - the museum - guitar",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/14485020740",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué eran las Vanguardias literarias?",
-      "respuesta": "Fueron movimientos que rompieron con las formas tradicionales de escribir. <mark>Buscaban sorprender, jugando con el lenguaje de formas nunca vistas</mark>. Surgieron a principios del siglo veinte, en toda Europa. Influyeron en cómo escribía la Generación del 27."
+      "respuesta": "Fueron movimientos que rompieron con las formas tradicionales de escribir. <mark>Buscaban sorprender, jugando con el lenguaje de formas nunca vistas</mark>. Surgieron a principios del siglo veinte, en toda Europa. Influyeron en cómo escribía la Generación del 27.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/arte-vanguardia.jpg",
+        "alt": "Una pintura moderna de principios del siglo veinte",
+        "titulo": "Franz Marc's The Foxes (1913) famous painting",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/51927140051",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasó con muchos escritores tras la Guerra Civil?",
-      "respuesta": "Muchos tuvieron que abandonar España para siempre. <mark>Ese exilio los alejó de su lengua y su público</mark>. Siguieron escribiendo desde otros países, con nostalgia. Su obra tardó años en poder leerse de nuevo en España."
+      "respuesta": "Muchos tuvieron que abandonar España para siempre. <mark>Ese exilio los alejó de su lengua y su público</mark>. Siguieron escribiendo desde otros países, con nostalgia. Su obra tardó años en poder leerse de nuevo en España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/maleta-exilio.jpg",
+        "alt": "Una maleta antigua de viaje",
+        "titulo": "Old Suitcase",
+        "autor": "Homini:)",
+        "fuente": "https://www.flickr.com/photos/38434991@N08/14873758161",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la novela social de los años cincuenta?",
-      "respuesta": "Contaba la vida difícil de la gente corriente. <mark>Denunciaba, sin decirlo abiertamente, las injusticias de esa época</mark>. Los personajes eran obreros, campesinos o vecinos de barrio. Era una forma de criticar sorteando la censura."
+      "respuesta": "Contaba la vida difícil de la gente corriente. <mark>Denunciaba, sin decirlo abiertamente, las injusticias de esa época</mark>. Los personajes eran obreros, campesinos o vecinos de barrio. Era una forma de criticar sorteando la censura.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/calle-1952.jpg",
+        "alt": "Una calle en blanco y negro de los años cincuenta",
+        "titulo": "Market Street, 1952",
+        "autor": "Seattle Municipal Archives",
+        "fuente": "https://www.flickr.com/photos/24256351@N04/14559755005",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un ensayo como género literario?",
-      "respuesta": "Es un texto donde el autor expone y defiende sus ideas. <mark>No cuenta una historia, sino que reflexiona sobre un tema</mark>. Puede tratar filosofía, sociedad o cualquier otro asunto. Invita al lector a pensar, más que a imaginar."
+      "respuesta": "Es un texto donde el autor expone y defiende sus ideas. <mark>No cuenta una historia, sino que reflexiona sobre un tema</mark>. Puede tratar filosofía, sociedad o cualquier otro asunto. Invita al lector a pensar, más que a imaginar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/fichero-notas.jpg",
+        "alt": "Un sistema de fichas con notas escritas",
+        "titulo": "Index Card System",
+        "autor": "koalazymonkey",
+        "fuente": "https://www.flickr.com/photos/9544998@N04/3331704619",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo cambió la literatura española con la llegada de la democracia?",
-      "respuesta": "Desapareció la censura que limitaba lo que se podía escribir. <mark>Los autores pudieron tratar temas antes prohibidos, con libertad</mark>. Surgieron voces y estilos mucho más variados. La literatura española actual nace de ese cambio."
+      "respuesta": "Desapareció la censura que limitaba lo que se podía escribir. <mark>Los autores pudieron tratar temas antes prohibidos, con libertad</mark>. Surgieron voces y estilos mucho más variados. La literatura española actual nace de ese cambio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_2/urna-electoral.jpg",
+        "alt": "Una urna electoral",
+        "titulo": "Urna electoral de D.C.",
+        "autor": "Daquella manera",
+        "fuente": "https://www.flickr.com/photos/62518311@N00/1469730565",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

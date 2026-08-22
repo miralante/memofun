@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el prólogo de un libro?",
-      "respuesta": "Es un texto breve antes de que empiece la historia. <mark>Prepara al lector, como el aperitivo antes de la comida</mark>. Puede escribirlo el propio autor u otra persona. No es parte de la historia, sino una introducción a ella."
+      "respuesta": "Es un texto breve antes de que empiece la historia. <mark>Prepara al lector, como el aperitivo antes de la comida</mark>. Puede escribirlo el propio autor u otra persona. No es parte de la historia, sino una introducción a ella.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_3/prologo.jpg",
+        "alt": "Un libro antiguo abierto por sus primeras páginas, con un dibujo y el título del libro, antes de que empiece la historia",
+        "titulo": "Little Women or Meg, Jo, Beth and Amy. Part Second. [Title page and frontispiece]",
+        "autor": "Boston Public Library",
+        "fuente": "https://www.flickr.com/photos/24029425@N06/4403763633",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el índice de un libro?",
-      "respuesta": "Es la lista de capítulos con el número de página. <mark>Funciona como un mapa para encontrar rápido lo que buscas</mark>. Suele estar al principio o al final del libro. Sin índice, sería difícil localizar un capítulo concreto."
+      "respuesta": "Es la lista de capítulos con el número de página. <mark>Funciona como un mapa para encontrar rápido lo que buscas</mark>. Suele estar al principio o al final del libro. Sin índice, sería difícil localizar un capítulo concreto.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_3/indice.jpg",
+        "alt": "Página de un libro con la lista de capítulos y el número de página de cada uno",
+        "titulo": "'Apple II Reference Manual': Table of Contents",
+        "autor": "juandesant",
+        "fuente": "https://www.flickr.com/photos/86651085@N00/2321766358",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una reseña de un libro?",
-      "respuesta": "Es un texto que opina sobre un libro ya leído. <mark>Es como recomendar una película a un amigo, pero por escrito</mark>. Explica qué gustó y qué no, sin contar el final. Ayuda a otros lectores a decidir si leerlo."
+      "respuesta": "Es un texto que opina sobre un libro ya leído. <mark>Es como recomendar una película a un amigo, pero por escrito</mark>. Explica qué gustó y qué no, sin contar el final. Ayuda a otros lectores a decidir si leerlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_3/resena-club-lectura.jpg",
+        "alt": "Notas de un club de lectura comentando un libro",
+        "titulo": "Art Notes Book Club: Thoughts on Balzac's 'The Unknown Masterpiece' II",
+        "autor": "Art Comments",
+        "fuente": "https://www.flickr.com/photos/52072922@N00/199811528",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un narrador omnisciente?",
-      "respuesta": "Es un narrador que sabe todo sobre la historia. <mark>Conoce hasta los pensamientos secretos de cada personaje</mark>. Ve la historia desde fuera, como si volara sobre ella. Por eso puede contar cosas que ningún personaje sabe."
+      "respuesta": "Es un narrador que sabe todo sobre la historia. <mark>Conoce hasta los pensamientos secretos de cada personaje</mark>. Ve la historia desde fuera, como si volara sobre ella. Por eso puede contar cosas que ningún personaje sabe.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_3/narrador-omnisciente.jpg",
+        "alt": "Vista desde la ventanilla de un avión volando por encima de las nubes",
+        "titulo": "Looking down",
+        "autor": "ldifranza",
+        "fuente": "https://www.flickr.com/photos/28921973@N00/19140434681",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un diario personal como tipo de texto?",
-      "respuesta": "Es un escrito donde alguien cuenta su día a día. <mark>Se escribe en primera persona, como hablando con uno mismo</mark>. Suele guardar pensamientos y sentimientos privados. Algunos libros están escritos como si fueran un diario."
+      "respuesta": "Es un escrito donde alguien cuenta su día a día. <mark>Se escribe en primera persona, como hablando con uno mismo</mark>. Suele guardar pensamientos y sentimientos privados. Algunos libros están escritos como si fueran un diario.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_3/diario-personal.jpg",
+        "alt": "Una niña sentada escribiendo con un bolígrafo en un cuaderno",
+        "titulo": "Dear Diary",
+        "autor": "edenpictures",
+        "fuente": "https://www.flickr.com/photos/10485077@N06/5429315570",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hace que un libro se convierta en un clásico?",
-      "respuesta": "Sigue leyéndose e importando muchos años después de escribirse. <mark>Su historia sigue emocionando aunque cambie la época</mark>. No basta con venderse mucho al principio. El tiempo es quien decide qué libros se vuelven clásicos."
+      "respuesta": "Sigue leyéndose e importando muchos años después de escribirse. <mark>Su historia sigue emocionando aunque cambie la época</mark>. No basta con venderse mucho al principio. El tiempo es quien decide qué libros se vuelven clásicos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_3/libro-clasico.jpg",
+        "alt": "Un libro antiguo y muy usado, abierto por dentro, con las páginas gastadas por el tiempo",
+        "titulo": "Book 8",
+        "autor": "~Brenda-Starr~",
+        "fuente": "https://www.flickr.com/photos/37753256@N08/5076790282",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un cuento de hadas?",
-      "respuesta": "Es un cuento con magia, princesas y castillos. <mark>Casi siempre algo mágico ayuda al protagonista</mark>. Por ejemplo, un hada buena o un objeto encantado. Suelen terminar con un final feliz."
+      "respuesta": "Es un cuento con magia, princesas y castillos. <mark>Casi siempre algo mágico ayuda al protagonista</mark>. Por ejemplo, un hada buena o un objeto encantado. Suelen terminar con un final feliz.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_3/cuento-hadas-castillo.png",
+        "alt": "Un castillo de cuento de hadas, rosa, con torres puntiagudas y muchas ventanas altas",
+        "titulo": "Pink castle png sticker, fairy",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/6449245/png-sticker-public-domain",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué le pasa a Blancanieves cuando muerde la manzana?",
-      "respuesta": "La manzana está envenenada por la bruja. <mark>Blancanieves cae en un sueño profundo, como dormida para siempre</mark>. Sus amigos la cuidan esperando que despierte. Al final, algo mágico rompe el hechizo."
+      "respuesta": "La manzana está envenenada por la bruja. <mark>Blancanieves cae en un sueño profundo, como dormida para siempre</mark>. Sus amigos la cuidan esperando que despierte. Al final, algo mágico rompe el hechizo.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_3/blancanieves-dormida.jpg",
+        "alt": "Ilustración antigua de Blancanieves dormida, rodeada de los enanitos, con un príncipe a caballo llegando",
+        "titulo": "Snow White illustration from german children's book 1919",
+        "autor": "crackdog",
+        "fuente": "https://www.flickr.com/photos/88645472@N00/3917968514",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Por qué Cenicienta tiene que volver a casa antes de medianoche?",
-      "respuesta": "La magia de su hada madrina solo dura hasta esa hora. <mark>A medianoche, el vestido y la carroza vuelven a ser lo de antes</mark>. Por eso Cenicienta corre para no llegar tarde. En la prisa, pierde un zapato de cristal."
+      "respuesta": "La magia de su hada madrina solo dura hasta esa hora. <mark>A medianoche, el vestido y la carroza vuelven a ser lo de antes</mark>. Por eso Cenicienta corre para no llegar tarde. En la prisa, pierde un zapato de cristal.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_3/cenicienta-zapato-cristal.jpg",
+        "alt": "Un zapato de cristal transparente con un adorno en forma de mariposa, sobre una base redonda",
+        "titulo": "Cinderella Glass Slipper",
+        "autor": "Tsts Sheng",
+        "fuente": "https://www.flickr.com/photos/40083085@N02/16936171941",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Quién es el protagonista de un cuento?",
-      "respuesta": "Es el personaje principal, al que le pasan las cosas más importantes. <mark>La historia gira siempre alrededor de él o ella</mark>. Por ejemplo, Cenicienta es la protagonista de su cuento. Sin protagonista, no habría historia que contar."
+      "respuesta": "Es el personaje principal, al que le pasan las cosas más importantes. <mark>La historia gira siempre alrededor de él o ella</mark>. Por ejemplo, Cenicienta es la protagonista de su cuento. Sin protagonista, no habría historia que contar.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_3/cenicienta-protagonista.jpg",
+        "alt": "Portada antigua de un libro de Cenicienta: una niña sentada junto a la chimenea, con palomas y un gato",
+        "titulo": "Cinderella book on linen 1896 1 of 16",
+        "autor": "rich701",
+        "fuente": "https://www.flickr.com/photos/63490482@N03/29860734742",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué convierte la calabaza en carroza en el cuento de Cenicienta?",
-      "respuesta": "Es la magia de su hada madrina. <mark>Con una varita, transforma cosas sencillas en algo especial</mark>. La calabaza se convierte en una carroza dorada. Así Cenicienta puede ir al baile."
+      "respuesta": "Es la magia de su hada madrina. <mark>Con una varita, transforma cosas sencillas en algo especial</mark>. La calabaza se convierte en una carroza dorada. Así Cenicienta puede ir al baile.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_3/calabaza-carroza.jpg",
+        "alt": "Una carroza blanca con forma de calabaza, tirada por dos caballos blancos, por una calle",
+        "titulo": "Horse-drawn pumpkin carriage on the Old Kent Road",
+        "autor": "Bex.Walton",
+        "fuente": "https://www.flickr.com/photos/7831824@N04/20008374466",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tienen en común los cuentos de hadas?",
-      "respuesta": "Casi todos mezclan magia con un final feliz. <mark>Un hada, una bruja o un hechizo cambian la historia</mark>. El protagonista suele superar un problema grande. Al final, casi siempre todo se soluciona bien."
+      "respuesta": "Casi todos mezclan magia con un final feliz. <mark>Un hada, una bruja o un hechizo cambian la historia</mark>. El protagonista suele superar un problema grande. Al final, casi siempre todo se soluciona bien.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_3/hada-madrina-varita.jpg",
+        "alt": "Un hada madrina agita su varita mágica junto a una carroza de calabaza iluminada, con una princesa dentro",
+        "titulo": "Cinderella Pumpkin Carriage",
+        "autor": "Mike Saechang",
+        "fuente": "https://www.flickr.com/photos/7390466@N06/4488546277",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

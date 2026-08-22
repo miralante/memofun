@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la sociedad de la información?",
-      "respuesta": "Es una sociedad donde generar, compartir y usar información es una actividad central. <mark>Es como si el conocimiento circulara tan rápido como el agua por una tubería</mark>. Internet y los móviles han acelerado muchísimo ese flujo de datos. Cambió profundamente cómo trabajamos y nos relacionamos."
+      "respuesta": "Es una sociedad donde generar, compartir y usar información es una actividad central. <mark>Es como si el conocimiento circulara tan rápido como el agua por una tubería</mark>. Internet y los móviles han acelerado muchísimo ese flujo de datos. Cambió profundamente cómo trabajamos y nos relacionamos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/fibra-optica.jpg",
+        "alt": "Un técnico revisando un cable de fibra óptica",
+        "titulo": "Fiber Optic cable upgrade",
+        "autor": "Wesley Fryer",
+        "fuente": "https://www.flickr.com/photos/31442459@N00/3280259568",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la desinformación?",
-      "respuesta": "Es la difusión de información falsa o engañosa, a veces de forma intencionada. <mark>Es como un rumor que se multiplica antes de que nadie pueda comprobarlo</mark>. Las redes sociales facilitan que se propague muy rápido. Aprender a detectarla es una habilidad cada vez más necesaria."
+      "respuesta": "Es la difusión de información falsa o engañosa, a veces de forma intencionada. <mark>Es como un rumor que se multiplica antes de que nadie pueda comprobarlo</mark>. Las redes sociales facilitan que se propague muy rápido. Aprender a detectarla es una habilidad cada vez más necesaria.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/titular-noticia.jpg",
+        "alt": "Un titular de periódico en primer plano",
+        "titulo": "Headline News",
+        "autor": "Clearly Ambiguous",
+        "fuente": "https://www.flickr.com/photos/84617037@N00/46997527",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Big Data?",
-      "respuesta": "Es la enorme cantidad de datos que se genera y analiza hoy en día. <mark>Es como intentar leer una biblioteca entera cada segundo, con ayuda de máquinas</mark>. Empresas y gobiernos lo usan para tomar decisiones basadas en datos. También plantea dudas sobre privacidad y uso responsable."
+      "respuesta": "Es la enorme cantidad de datos que se genera y analiza hoy en día. <mark>Es como intentar leer una biblioteca entera cada segundo, con ayuda de máquinas</mark>. Empresas y gobiernos lo usan para tomar decisiones basadas en datos. También plantea dudas sobre privacidad y uso responsable.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/sala-servidores.jpg",
+        "alt": "Una sala llena de servidores informáticos",
+        "titulo": "Awaiting servers",
+        "autor": "bugeaters",
+        "fuente": "https://www.flickr.com/photos/45778851@N00/3025911233",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo han cambiado las relaciones entre sociedad y naturaleza en el mundo actual?",
-      "respuesta": "La actividad humana afecta hoy al planeta a una escala nunca vista antes. <mark>Es como si una sola especie hubiera aprendido a modificar todo el paisaje del planeta</mark>. Eso genera tanto oportunidades como graves riesgos ambientales. Por eso hoy se habla tanto de sostenibilidad."
+      "respuesta": "La actividad humana afecta hoy al planeta a una escala nunca vista antes. <mark>Es como si una sola especie hubiera aprendido a modificar todo el paisaje del planeta</mark>. Eso genera tanto oportunidades como graves riesgos ambientales. Por eso hoy se habla tanto de sostenibilidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/deforestacion.jpg",
+        "alt": "Una zona de bosque talada, vista desde arriba",
+        "titulo": "Acres of deforestation",
+        "autor": "Ben Sutherland",
+        "fuente": "https://www.flickr.com/photos/60179301@N00/70561962",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo ayuda la prevención a reducir el impacto de una catástrofe natural?",
-      "respuesta": "Anticiparse a un riesgo permite proteger vidas y reducir daños. <mark>Es como llevar paraguas antes de que empiece a llover, no después</mark>. Sistemas de alerta y planes de emergencia salvan muchas vidas cada año. Sin prevención, las mismas catástrofes causarían muchos más daños."
+      "respuesta": "Anticiparse a un riesgo permite proteger vidas y reducir daños. <mark>Es como llevar paraguas antes de que empiece a llover, no después</mark>. Sistemas de alerta y planes de emergencia salvan muchas vidas cada año. Sin prevención, las mismas catástrofes causarían muchos más daños.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/senal-inundacion.jpg",
+        "alt": "Una señal de aviso de inundación",
+        "titulo": "Flood Warning Sign",
+        "autor": "mikecogh",
+        "fuente": "https://www.flickr.com/photos/89165847@N00/52758207826",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la ordenación del territorio orientada a la sostenibilidad?",
-      "respuesta": "Es planificar el uso del suelo pensando también en el futuro del planeta. <mark>Es como organizar una casa grande cuidando que quede espacio para quien venga después</mark>. Incluye proteger zonas naturales y evitar un crecimiento urbano descontrolado. Ayuda a equilibrar desarrollo y medio ambiente."
+      "respuesta": "Es planificar el uso del suelo pensando también en el futuro del planeta. <mark>Es como organizar una casa grande cuidando que quede espacio para quien venga después</mark>. Incluye proteger zonas naturales y evitar un crecimiento urbano descontrolado. Ayuda a equilibrar desarrollo y medio ambiente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/paneles-solares.jpg",
+        "alt": "Paneles solares instalados en varios tejados",
+        "titulo": "Solar Panels on Rooftops",
+        "autor": "Kevin Krejci",
+        "fuente": "https://www.flickr.com/photos/48889057888@N01/2278697458",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las actitudes y comportamientos sexistas?",
-      "respuesta": "Son actitudes que tratan de forma desigual a las personas según su género. <mark>Es como aplicar reglas distintas a personas que deberían tener las mismas oportunidades</mark>. Pueden aparecer en el lenguaje, el trabajo o la vida cotidiana. Reconocerlas es el primer paso para una sociedad igualitaria."
+      "respuesta": "Son actitudes que tratan de forma desigual a las personas según su género. <mark>Es como aplicar reglas distintas a personas que deberían tener las mismas oportunidades</mark>. Pueden aparecer en el lenguaje, el trabajo o la vida cotidiana. Reconocerlas es el primer paso para una sociedad igualitaria.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/dia-mujer.jpg",
+        "alt": "Un evento conmemorativo del Día Internacional de la Mujer",
+        "titulo": "国際女性デー記念イベント / International Women's Day",
+        "autor": "Instituto Cervantes de Tokio",
+        "fuente": "https://www.flickr.com/photos/21000978@N08/39809371835",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué reconocimiento histórico merece el pueblo gitano en España?",
-      "respuesta": "Es una minoría con siglos de presencia y cultura propia en el país. <mark>Ha sufrido discriminación histórica, a pesar de formar parte de la sociedad española desde hace generaciones</mark>. Su música, su lengua y sus tradiciones han influido en la cultura española. Conocer su historia ayuda a combatir prejuicios."
+      "respuesta": "Es una minoría con siglos de presencia y cultura propia en el país. <mark>Ha sufrido discriminación histórica, a pesar de formar parte de la sociedad española desde hace generaciones</mark>. Su música, su lengua y sus tradiciones han influido en la cultura española. Conocer su historia ayuda a combatir prejuicios.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/flamenco.jpg",
+        "alt": "Una actuación de flamenco con guitarra",
+        "titulo": "Flamenco Performance Opens Second Half of COD’s Hispanic Heritage Month Celebration 2017 31",
+        "autor": "COD Newsroom",
+        "fuente": "https://www.flickr.com/photos/41431665@N07/36686950953",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante leer prensa plural para entender los problemas sociales actuales?",
-      "respuesta": "Porque cada medio puede mostrar una parte distinta de la misma realidad. <mark>Es como mirar un mismo paisaje desde varias ventanas distintas</mark>. Comparar varias fuentes ayuda a formarse una opinión más completa. Esa costumbre es clave para no dejarse llevar por la desinformación."
+      "respuesta": "Porque cada medio puede mostrar una parte distinta de la misma realidad. <mark>Es como mirar un mismo paisaje desde varias ventanas distintas</mark>. Comparar varias fuentes ayuda a formarse una opinión más completa. Esa costumbre es clave para no dejarse llevar por la desinformación.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/quiosco-prensa.jpg",
+        "alt": "Un quiosco de prensa con varios periódicos",
+        "titulo": "Newspaper Stand",
+        "autor": "Yukiko Matsuoka",
+        "fuente": "https://www.flickr.com/photos/92483809@N08/11527644295",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las fuentes históricas?",
-      "respuesta": "Son documentos, objetos o testimonios que ayudan a reconstruir el pasado. <mark>Son como pistas que un investigador reúne para resolver un misterio</mark>. Pueden ser cartas, fotografías, leyes o incluso entrevistas a testigos. Sin fuentes fiables, sería imposible construir un relato histórico riguroso."
+      "respuesta": "Son documentos, objetos o testimonios que ayudan a reconstruir el pasado. <mark>Son como pistas que un investigador reúne para resolver un misterio</mark>. Pueden ser cartas, fotografías, leyes o incluso entrevistas a testigos. Sin fuentes fiables, sería imposible construir un relato histórico riguroso.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/documentos-antiguos.jpg",
+        "alt": "Documentos y textos antiguos conservados en un archivo",
+        "titulo": "Preserving, sharing rare Medieval texts with IBM Big Data solution",
+        "autor": "j_cadmus",
+        "fuente": "https://www.flickr.com/photos/97810305@N08/9371407038",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa tener conciencia histórica?",
-      "respuesta": "Significa entender el presente teniendo en cuenta lo que ocurrió antes. <mark>Es como leer solo el último capítulo de un libro sin conocer la historia completa</mark>. Ayuda a no repetir errores del pasado. También permite valorar mejor los derechos y logros conseguidos con esfuerzo."
+      "respuesta": "Significa entender el presente teniendo en cuenta lo que ocurrió antes. <mark>Es como leer solo el último capítulo de un libro sin conocer la historia completa</mark>. Ayuda a no repetir errores del pasado. También permite valorar mejor los derechos y logros conseguidos con esfuerzo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/album-fotos-antiguas.jpg",
+        "alt": "Un álbum de fotografías antiguas",
+        "titulo": "Wallace Sharpe. WW1 Photograph Album",
+        "autor": "Kiama.Library",
+        "fuente": "https://www.flickr.com/photos/25022128@N03/13987255810",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué lograron los movimientos feministas y sufragistas del siglo XX?",
-      "respuesta": "Consiguieron avances como el derecho al voto y a la igualdad legal para las mujeres. <mark>Fue una lucha larga para conseguir derechos que hoy muchas personas dan por hechos</mark>. Mujeres relevantes lideraron esas luchas en muchos países. Sus logros siguen inspirando movimientos por la igualdad."
+      "respuesta": "Consiguieron avances como el derecho al voto y a la igualdad legal para las mujeres. <mark>Fue una lucha larga para conseguir derechos que hoy muchas personas dan por hechos</mark>. Mujeres relevantes lideraron esas luchas en muchos países. Sus logros siguen inspirando movimientos por la igualdad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/mujeres-igualdad.jpg",
+        "alt": "Una mujer política celebrando el Día de la Igualdad de la Mujer",
+        "titulo": "Congresswoman Pelosi celebrates Women's Equality Day",
+        "autor": "Speaker Nancy Pelosi",
+        "fuente": "https://www.flickr.com/photos/11461909@N06/20412250593",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué muestran las manifestaciones artísticas del siglo XX sobre la sociedad de su época?",
-      "respuesta": "Reflejan los grandes cambios, guerras y transformaciones sociales vividos entonces. <mark>El arte funciona casi como un espejo que devuelve la imagen de su tiempo</mark>. Movimientos como el cubismo o el pop art rompieron con lo anterior. Estudiarlos ayuda a entender mejor el siglo veinte."
+      "respuesta": "Reflejan los grandes cambios, guerras y transformaciones sociales vividos entonces. <mark>El arte funciona casi como un espejo que devuelve la imagen de su tiempo</mark>. Movimientos como el cubismo o el pop art rompieron con lo anterior. Estudiarlos ayuda a entender mejor el siglo veinte.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/pintura-abstracta.jpg",
+        "alt": "Una pintura abstracta con formas y colores geométricos",
+        "titulo": "Composition with Blue, Red, Yellow, and Black (1922) painting by Piet Mondrian",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/51911810432",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué dimensión ética tienen la ciencia y la tecnología actuales?",
-      "respuesta": "Implican decidir qué avances son beneficiosos y cuáles pueden causar daño. <mark>Es como tener una herramienta muy potente que hay que aprender a usar con responsabilidad</mark>. La inteligencia artificial o la edición genética plantean dilemas nuevos. Ciencia y ética avanzan hoy cada vez más unidas."
+      "respuesta": "Implican decidir qué avances son beneficiosos y cuáles pueden causar daño. <mark>Es como tener una herramienta muy potente que hay que aprender a usar con responsabilidad</mark>. La inteligencia artificial o la edición genética plantean dilemas nuevos. Ciencia y ética avanzan hoy cada vez más unidas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/cohete-lanzamiento.jpg",
+        "alt": "El despegue de un cohete espacial, símbolo de la exploración espacial",
+        "titulo": "Liftoff of Delta IV Rocket with Orion capsule",
+        "autor": "AviatorVic",
+        "fuente": "https://www.flickr.com/photos/123426995@N05/15972547915",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué representa la exploración espacial para la humanidad actual?",
-      "respuesta": "Representa el intento de ampliar el conocimiento más allá de nuestro planeta. <mark>Es como seguir explorando, esta vez mirando hacia arriba en vez de hacia otro continente</mark>. Combina avances tecnológicos con la curiosidad humana de siempre. También plantea nuevos retos éticos."
+      "respuesta": "Representa el intento de ampliar el conocimiento más allá de nuestro planeta. <mark>Es como seguir explorando, esta vez mirando hacia arriba en vez de hacia otro continente</mark>. Combina avances tecnológicos con la curiosidad humana de siempre. También plantea nuevos retos éticos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/astronauta-espacio.jpg",
+        "alt": "Un astronauta realizando un paseo espacial",
+        "titulo": "Astronaut Spacewalk Space Edited 2020",
+        "autor": "chimpwithcan",
+        "fuente": "https://www.flickr.com/photos/188454520@N02/49931432423",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué recoge la Declaración Universal de los Derechos Humanos?",
-      "respuesta": "Recoge los derechos básicos que corresponden a toda persona, sin excepción. <mark>Es como una lista mínima de lo que nadie debería poder quitarte nunca</mark>. Se aprobó en 1948, tras el horror de la Segunda Guerra Mundial. Sigue siendo hoy una referencia mundial para la dignidad humana."
+      "respuesta": "Recoge los derechos básicos que corresponden a toda persona, sin excepción. <mark>Es como una lista mínima de lo que nadie debería poder quitarte nunca</mark>. Se aprobó en 1948, tras el horror de la Segunda Guerra Mundial. Sigue siendo hoy una referencia mundial para la dignidad humana.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/firma-documento.jpg",
+        "alt": "Una persona firmando un documento oficial",
+        "titulo": "Legal Contract & Signature - Cool Tones",
+        "autor": "Visual Content",
+        "fuente": "https://www.flickr.com/photos/143601516@N03/27571322193",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa la ciudadanía ética digital?",
-      "respuesta": "Significa comportarse con responsabilidad también en el mundo digital. <mark>Es como aplicar las mismas normas de respeto que en la vida real, pero en internet</mark>. Incluye no difundir bulos ni participar en el acoso en redes. Es una habilidad cada vez más necesaria hoy."
+      "respuesta": "Significa comportarse con responsabilidad también en el mundo digital. <mark>Es como aplicar las mismas normas de respeto que en la vida real, pero en internet</mark>. Incluye no difundir bulos ni participar en el acoso en redes. Es una habilidad cada vez más necesaria hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/portatil-internet.jpg",
+        "alt": "Un ordenador portátil abierto y listo para usar",
+        "titulo": "N800: Micro Laptop for Airplane",
+        "autor": "Qole Tech",
+        "fuente": "https://www.flickr.com/photos/22764998@N08/2967497897",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el patrimonio inmaterial de una cultura?",
-      "respuesta": "Es aquello que se transmite sin ser un objeto físico, como tradiciones o lenguas. <mark>Es un patrimonio que se guarda en la memoria y en las costumbres, no en un museo</mark>. Fiestas populares, danzas o recetas tradicionales forman parte de él. Protegerlo es tan importante como conservar un monumento."
+      "respuesta": "Es aquello que se transmite sin ser un objeto físico, como tradiciones o lenguas. <mark>Es un patrimonio que se guarda en la memoria y en las costumbres, no en un museo</mark>. Fiestas populares, danzas o recetas tradicionales forman parte de él. Protegerlo es tan importante como conservar un monumento.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_6/danza-folclorica.jpg",
+        "alt": "Un grupo bailando una danza tradicional en una fiesta popular",
+        "titulo": "Folk Dancing - Portuguese Festival",
+        "autor": "avlxyz",
+        "fuente": "https://www.flickr.com/photos/10559879@N00/543996463",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

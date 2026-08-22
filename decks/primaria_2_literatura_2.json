@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el título de un cuento?",
-      "respuesta": "Es el nombre que identifica a un cuento. <mark>Suele dar una pista de lo que vas a leer</mark>. Está siempre al principio, antes de la historia. Un buen título hace que te entren ganas de leer."
+      "respuesta": "Es el nombre que identifica a un cuento. <mark>Suele dar una pista de lo que vas a leer</mark>. Está siempre al principio, antes de la historia. Un buen título hace que te entren ganas de leer.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_2/titulo-portada-libro.jpg",
+        "alt": "Portada de un libro antiguo con el título grande 'Children's Friend' y un dibujo de dos niños mirando un leopardo sobre una roca",
+        "titulo": "Children's Friend",
+        "autor": "snigl3t",
+        "fuente": "https://www.flickr.com/photos/58598613@N00/2284299696",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién es el narrador de un cuento?",
-      "respuesta": "Es la voz que cuenta la historia al lector. <mark>No es un personaje que aparece, sino quien lo explica todo</mark>. Dice qué pasa y dónde ocurre. Sin narrador, nadie contaría la historia."
+      "respuesta": "Es la voz que cuenta la historia al lector. <mark>No es un personaje que aparece, sino quien lo explica todo</mark>. Dice qué pasa y dónde ocurre. Sin narrador, nadie contaría la historia.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_2/narrador-cuenta-historia.jpg",
+        "alt": "Un hombre sentado lee un cuento en voz alta, mostrando los dibujos del libro a tres niños sentados en el suelo de una biblioteca",
+        "titulo": "Mr. Steve Reads",
+        "autor": "Manchester Library",
+        "fuente": "https://www.flickr.com/photos/14802104@N07/3316690132",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el escenario de un cuento?",
-      "respuesta": "Es el lugar donde ocurre la historia. <mark>Puede ser un bosque, una ciudad o hasta el espacio</mark>. Saber el escenario ayuda a imaginar mejor la escena. Cambiarlo cambiaría toda la historia."
+      "respuesta": "Es el lugar donde ocurre la historia. <mark>Puede ser un bosque, una ciudad o hasta el espacio</mark>. Saber el escenario ayuda a imaginar mejor la escena. Cambiarlo cambiaría toda la historia.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_2/escenario-bosque.jpg",
+        "alt": "Un camino de tierra que atraviesa un túnel formado por árboles muy antiguos con las ramas entrelazadas, como en un cuento",
+        "titulo": "The Dark Hedges, N. Ireland",
+        "autor": "ky0nch3ng",
+        "fuente": "https://www.flickr.com/photos/148714304@N03/36928565572",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué son los personajes secundarios de un cuento?",
-      "respuesta": "Son quienes ayudan o acompañan al protagonista. <mark>No viven la aventura principal, pero son importantes igualmente</mark>. Por ejemplo, un amigo que da un consejo. Sin ellos, el protagonista estaría casi siempre solo."
+      "respuesta": "Son quienes ayudan o acompañan al protagonista. <mark>No viven la aventura principal, pero son importantes igualmente</mark>. Por ejemplo, un amigo que da un consejo. Sin ellos, el protagonista estaría casi siempre solo.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_2/personajes-secundarios-amigas.jpg",
+        "alt": "Dos niñas pequeñas sentadas juntas en el suelo, jugando y compartiendo algo, como buenas compañeras",
+        "titulo": "Two Peas in a Pod",
+        "autor": "donnierayjones",
+        "fuente": "https://www.flickr.com/photos/11946169@N00/17022954517",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirven los dibujos en un cuento?",
-      "respuesta": "Los dibujos muestran cómo son los personajes y lugares. <mark>Ayudan a imaginar la historia incluso sin leer cada palabra</mark>. Por eso los cuentos para niños tienen tantas ilustraciones. Un buen dibujo puede contar tanto como una frase."
+      "respuesta": "Los dibujos muestran cómo son los personajes y lugares. <mark>Ayudan a imaginar la historia incluso sin leer cada palabra</mark>. Por eso los cuentos para niños tienen tantas ilustraciones. Un buen dibujo puede contar tanto como una frase.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_2/dibujos-ilustracion-cuento.jpg",
+        "alt": "Página antigua de un libro infantil con un dibujo en color de animales vestidos de personas, junto al texto del cuento",
+        "titulo": "Comical Creatures; A Picture Book for the Nursery",
+        "autor": "crackdog (H. G. Hine)",
+        "fuente": "https://www.flickr.com/photos/88645472@N00/4736229615",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Por qué es importante saber cuándo ocurre un cuento?",
-      "respuesta": "Una historia puede pasar hoy, hace siglos o en el futuro. <mark>Saber cuándo ocurre ayuda a entender por qué pasan ciertas cosas</mark>. Por ejemplo, si no hay coches, será una época antigua. El tiempo de la historia cambia lo que es normal en ella."
+      "respuesta": "Una historia puede pasar hoy, hace siglos o en el futuro. <mark>Saber cuándo ocurre ayuda a entender por qué pasan ciertas cosas</mark>. Por ejemplo, si no hay coches, será una época antigua. El tiempo de la historia cambia lo que es normal en ella.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_2/epoca-carruaje-antiguo.jpg",
+        "alt": "Dibujo antiguo de un carruaje tirado por caballos, sin coches, propio de una época pasada",
+        "titulo": "Nursemaids' Promenade; Frieze of Carriages (1895) by Pierre Bonnard",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/52228734656",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Quién es el protagonista de un cuento?",
-      "respuesta": "Es el personaje principal, al que le pasan las cosas más importantes. <mark>La historia se cuenta siempre siguiéndole a él o ella</mark>. Por ejemplo, en Caperucita Roja, ella es la protagonista. Sin protagonista no habría a quién seguir."
+      "respuesta": "Es el personaje principal, al que le pasan las cosas más importantes. <mark>La historia se cuenta siempre siguiéndole a él o ella</mark>. Por ejemplo, en Caperucita Roja, ella es la protagonista. Sin protagonista no habría a quién seguir.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_3/protagonista-caperucita.jpg",
+        "alt": "Una figura de Caperucita Roja, con capa roja y una cesta con una botella, el personaje principal del cuento",
+        "titulo": "Little Red Riding Hood",
+        "autor": "lllllT",
+        "fuente": "https://www.flickr.com/photos/27318442@N05/2909799113",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién es el antagonista de un cuento?",
-      "respuesta": "Es el personaje que se opone al protagonista. <mark>Le pone problemas, como un obstáculo en su camino</mark>. Por ejemplo, el lobo es el antagonista de Caperucita. Sin antagonista, la historia no tendría ningún problema que resolver."
+      "respuesta": "Es el personaje que se opone al protagonista. <mark>Le pone problemas, como un obstáculo en su camino</mark>. Por ejemplo, el lobo es el antagonista de Caperucita. Sin antagonista, la historia no tendría ningún problema que resolver.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_3/antagonista-lobo.jpg",
+        "alt": "Un lobo gris tumbado entre la hierba, mirando fijamente a la cámara",
+        "titulo": "Gray wolf",
+        "autor": "USFWS Headquarters",
+        "fuente": "https://www.flickr.com/photos/50838842@N06/8952676448",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué es el conflicto de un cuento?",
-      "respuesta": "Es el problema que tiene que resolver el protagonista. <mark>Es el motor que hace avanzar toda la historia</mark>. Por ejemplo, encontrar el camino a casa perdido en el bosque. Sin conflicto, el cuento no tendría nada que contar."
+      "respuesta": "Es el problema que tiene que resolver el protagonista. <mark>Es el motor que hace avanzar toda la historia</mark>. Por ejemplo, encontrar el camino a casa perdido en el bosque. Sin conflicto, el cuento no tendría nada que contar.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-niebla.jpg",
+        "alt": "Un camino estrecho entre árboles altos, cubierto de niebla, como si alguien se pudiera perder allí",
+        "titulo": "Trail in Forest Covered in Fog",
+        "autor": "Image Catalog",
+        "fuente": "https://www.flickr.com/photos/132795455@N08/18656926332",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el desenlace de un cuento?",
-      "respuesta": "Es la parte final, donde se resuelve el problema. <mark>Cierra la historia, como cerrar la puerta al salir</mark>. Puede terminar bien o mal para el protagonista. Pero siempre responde qué pasó al final."
+      "respuesta": "Es la parte final, donde se resuelve el problema. <mark>Cierra la historia, como cerrar la puerta al salir</mark>. Puede terminar bien o mal para el protagonista. Pero siempre responde qué pasó al final.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_3/puerta-cerrada.jpg",
+        "alt": "Una puerta verde cerrada, con unos escalones de piedra delante, como el final de un camino",
+        "titulo": "Quiberon Lighthouse Door",
+        "autor": "Bold Frontiers",
+        "fuente": "https://www.flickr.com/photos/82955120@N05/12276846605",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una colección de cuentos?",
-      "respuesta": "Es un libro con varios cuentos juntos, distintos entre sí. <mark>Es como una caja con caramelos de sabores diferentes</mark>. Puedes leer uno cada vez, sin seguir un orden. Cada cuento tiene su propia historia completa."
+      "respuesta": "Es un libro con varios cuentos juntos, distintos entre sí. <mark>Es como una caja con caramelos de sabores diferentes</mark>. Puedes leer uno cada vez, sin seguir un orden. Cada cuento tiene su propia historia completa.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_3/caja-caramelos.jpg",
+        "alt": "Una caja de bombones con muchos sabores distintos, cada uno en su propio hueco",
+        "titulo": "One missing, oops.",
+        "autor": "CoCreatr",
+        "fuente": "https://www.flickr.com/photos/22746936@N02/2265030196",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hace que un cuento dé un poco de miedo?",
-      "respuesta": "Un misterio o un lugar oscuro que inquieta un poco. <mark>Es como cuando se apagan las luces y todo suena distinto</mark>. Aun así, suele terminar bien para el protagonista. Ese pequeño susto forma parte de la diversión de leer."
+      "respuesta": "Un misterio o un lugar oscuro que inquieta un poco. <mark>Es como cuando se apagan las luces y todo suena distinto</mark>. Aun así, suele terminar bien para el protagonista. Ese pequeño susto forma parte de la diversión de leer.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-noche.jpg",
+        "alt": "Árboles oscuros de noche, con la luna asomando entre las nubes",
+        "titulo": "Night in the Wilderness",
+        "autor": "BLM Oregon & Washington",
+        "fuente": "https://www.flickr.com/photos/50169152@N06/11407402165",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

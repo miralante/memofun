@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el culteranismo?",
-      "respuesta": "Es un estilo poético que cuida muchísimo el lenguaje y el adorno. <mark>Góngora es su representante, con versos difíciles pero bellísimos</mark>. Usa palabras cultas y frases muy elaboradas. Busca la belleza en el propio sonido de las palabras."
+      "respuesta": "Es un estilo poético que cuida muchísimo el lenguaje y el adorno. <mark>Góngora es su representante, con versos difíciles pero bellísimos</mark>. Usa palabras cultas y frases muy elaboradas. Busca la belleza en el propio sonido de las palabras.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_3/galeria-barroca.jpg",
+        "alt": "Una galería con decoración muy recargada, propia del estilo barroco",
+        "titulo": "Gallery in Vatican Museums",
+        "autor": "Dimitry B",
+        "fuente": "https://www.flickr.com/photos/61533954@N00/2437832335",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el conceptismo?",
-      "respuesta": "Es un estilo que busca decir mucho con pocas palabras. <mark>Quevedo es su representante, jugando con ideas ingeniosas</mark>. Prefiere el juego de significados a los adornos. Busca sorprender al lector con una idea inesperada, no con belleza sonora."
+      "respuesta": "Es un estilo que busca decir mucho con pocas palabras. <mark>Quevedo es su representante, jugando con ideas ingeniosas</mark>. Prefiere el juego de significados a los adornos. Busca sorprender al lector con una idea inesperada, no con belleza sonora.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_3/lupa.jpg",
+        "alt": "Una lupa, como la lectura atenta que exige el conceptismo",
+        "titulo": "Lupe",
+        "autor": "Alpha six",
+        "fuente": "https://www.flickr.com/photos/47069022@N00/157515251",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era un corral de comedias?",
-      "respuesta": "Era el patio de un edificio donde se representaba teatro. <mark>El público veía la obra de pie o desde balcones, como en un patio de vecinos</mark>. Era ruidoso y muy popular en el Siglo de Oro. Ahí se estrenaban las obras de Lope de Vega y otros autores."
+      "respuesta": "Era el patio de un edificio donde se representaba teatro. <mark>El público veía la obra de pie o desde balcones, como en un patio de vecinos</mark>. Era ruidoso y muy popular en el Siglo de Oro. Ahí se estrenaban las obras de Lope de Vega y otros autores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_3/corral-comedias-almagro.jpg",
+        "alt": "El Corral de Comedias de Almagro, un teatro del Siglo de Oro",
+        "titulo": "Corral de Comedias, Almagro",
+        "autor": "Festival de Almagro",
+        "fuente": "https://www.flickr.com/photos/59780753@N07/54474962501",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué normas rompió Lope de Vega en su teatro?",
-      "respuesta": "Los clásicos exigían que la obra durara un solo día y lugar. <mark>Lope mezclaba varios días, lugares y hasta comedia con tragedia</mark>. Prefería entretener al público antes que seguir reglas estrictas. Por eso su forma de hacer teatro se llamó comedia nueva."
+      "respuesta": "Los clásicos exigían que la obra durara un solo día y lugar. <mark>Lope mezclaba varios días, lugares y hasta comedia con tragedia</mark>. Prefería entretener al público antes que seguir reglas estrictas. Por eso su forma de hacer teatro se llamó comedia nueva.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_3/teatro-antiguo.jpg",
+        "alt": "Un teatro antiguo",
+        "titulo": "Jefferson Theatre, Beaumont, Texas 0502091409",
+        "autor": "Patrick Feller",
+        "fuente": "https://www.flickr.com/photos/32345848@N07/3497479126",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Tirso de Molina?",
-      "respuesta": "Fue un dramaturgo del Siglo de Oro español. <mark>Creó al personaje de Don Juan, el seductor más famoso de la literatura</mark>. Su obra influyó en escritores de toda Europa después. Don Juan sigue apareciendo en libros, óperas y películas actuales."
+      "respuesta": "Fue un dramaturgo del Siglo de Oro español. <mark>Creó al personaje de Don Juan, el seductor más famoso de la literatura</mark>. Su obra influyó en escritores de toda Europa después. Don Juan sigue apareciendo en libros, óperas y películas actuales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_3/estanteria-libros.jpg",
+        "alt": "Una estantería con libros antiguos",
+        "titulo": "Old bookshelves",
+        "autor": "tristanf",
+        "fuente": "https://www.flickr.com/photos/89056504@N00/4499656362",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la sátira en literatura?",
-      "respuesta": "Es un texto que se burla de algo para criticarlo. <mark>Usa el humor como arma, en vez de decirlo directamente</mark>. Quevedo la usaba mucho en su poesía. Reírse de un defecto puede ser una forma eficaz de señalarlo."
+      "respuesta": "Es un texto que se burla de algo para criticarlo. <mark>Usa el humor como arma, en vez de decirlo directamente</mark>. Quevedo la usaba mucho en su poesía. Reírse de un defecto puede ser una forma eficaz de señalarlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_3/caricatura.jpg",
+        "alt": "Un retrato hecho con caricatura, propio de la sátira",
+        "titulo": "Al Hirschfeld",
+        "autor": "dbking",
+        "fuente": "https://www.flickr.com/photos/65193799@N00/3259723489",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué reflejaba el teatro de Buero Vallejo tras la Guerra Civil?",
-      "respuesta": "Buero Vallejo escribía dramas que hacían pensar al público. <mark>A menudo usaba personajes con alguna limitación para mostrar otra mirada de la realidad</mark>. Su teatro esquivaba la censura hablando de forma simbólica. Se le considera el gran dramaturgo español del siglo veinte."
+      "respuesta": "Buero Vallejo escribía dramas que hacían pensar al público. <mark>A menudo usaba personajes con alguna limitación para mostrar otra mirada de la realidad</mark>. Su teatro esquivaba la censura hablando de forma simbólica. Se le considera el gran dramaturgo español del siglo veinte.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_4/teatro-vacio.jpg",
+        "alt": "Un teatro vacío",
+        "titulo": "Richard in an empty theater",
+        "autor": "Wikimania2009",
+        "fuente": "https://www.flickr.com/photos/41749772@N06/3857732258",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la poesía desarraigada de posguerra?",
-      "respuesta": "Es una poesía angustiada, que refleja el dolor de la época. <mark>Habla de un mundo que se siente roto, sin un lugar cómodo donde estar</mark>. Dámaso Alonso es uno de sus autores principales. Contrastaba con una poesía más serena que también se escribía entonces."
+      "respuesta": "Es una poesía angustiada, que refleja el dolor de la época. <mark>Habla de un mundo que se siente roto, sin un lugar cómodo donde estar</mark>. Dámaso Alonso es uno de sus autores principales. Contrastaba con una poesía más serena que también se escribía entonces.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_4/cielo-tormenta.jpg",
+        "alt": "Un cielo cubierto de nubes de tormenta",
+        "titulo": "Rain Storm Colorado Springs Colorado",
+        "autor": "Brokentaco",
+        "fuente": "https://www.flickr.com/photos/92024986@N00/2781330996",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué cuenta 'La familia de Pascual Duarte' de Camilo José Cela?",
-      "respuesta": "Cuenta la vida violenta y desesperada de un campesino pobre. <mark>Está escrita sin suavizar nada, mostrando la crudeza tal cual</mark>. Es la obra que dio nombre al tremendismo español. Cela ganó después el Premio Nobel de Literatura."
+      "respuesta": "Cuenta la vida violenta y desesperada de un campesino pobre. <mark>Está escrita sin suavizar nada, mostrando la crudeza tal cual</mark>. Es la obra que dio nombre al tremendismo español. Cela ganó después el Premio Nobel de Literatura.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_4/campos-españa.jpg",
+        "alt": "Campos rurales españoles",
+        "titulo": "Camps de Balaguer",
+        "autor": "Jorge Franganillo",
+        "fuente": "https://www.flickr.com/photos/46191841@N00/3851970012",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el Boom latinoamericano?",
-      "respuesta": "Fue un momento en que varias novelas latinoamericanas triunfaron en todo el mundo. <mark>Ocurrió en los años sesenta y setenta del siglo veinte</mark>. Autores de distintos países se dieron a conocer casi a la vez. Cambió para siempre cómo se veía la literatura en español fuera de España."
+      "respuesta": "Fue un momento en que varias novelas latinoamericanas triunfaron en todo el mundo. <mark>Ocurrió en los años sesenta y setenta del siglo veinte</mark>. Autores de distintos países se dieron a conocer casi a la vez. Cambió para siempre cómo se veía la literatura en español fuera de España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_4/calles-guatemala.jpg",
+        "alt": "Calles coloridas de una ciudad colonial latinoamericana",
+        "titulo": "Antigua Guatemala Streets",
+        "autor": "JoseGt1",
+        "fuente": "https://www.flickr.com/photos/190249280@N06/50350037801",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el realismo mágico?",
-      "respuesta": "Es un estilo que mezcla la vida cotidiana con sucesos mágicos, sin sorprenderse por ellos. <mark>Los personajes viven la magia como algo tan normal como el desayuno</mark>. Es típico de la literatura latinoamericana del Boom. Ayuda a contar realidades difíciles de explicar de otra forma."
+      "respuesta": "Es un estilo que mezcla la vida cotidiana con sucesos mágicos, sin sorprenderse por ellos. <mark>Los personajes viven la magia como algo tan normal como el desayuno</mark>. Es típico de la literatura latinoamericana del Boom. Ayuda a contar realidades difíciles de explicar de otra forma.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_4/mariposa-amarilla.jpg",
+        "alt": "Una mariposa amarilla",
+        "titulo": "Dandelion Butterfly",
+        "autor": "Charles Patrick Ewing",
+        "fuente": "https://www.flickr.com/photos/132033298@N04/17243540220",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Gabriel García Márquez?",
-      "respuesta": "Fue un escritor colombiano, autor de 'Cien años de soledad'. <mark>Es el mayor representante del realismo mágico en español</mark>. Ganó el Premio Nobel de Literatura por su obra. Su forma de contar historias influyó en escritores de todo el mundo."
+      "respuesta": "Fue un escritor colombiano, autor de 'Cien años de soledad'. <mark>Es el mayor representante del realismo mágico en español</mark>. Ganó el Premio Nobel de Literatura por su obra. Su forma de contar historias influyó en escritores de todo el mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura_4/garcia-marquez.jpg",
+        "alt": "Retrato de Gabriel García Márquez",
+        "titulo": "Gabriel García Márquez, 1984",
+        "autor": "F3rn4nd0",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=4340982",
+        "licencia": "CC BY-SA 3.0"
+      }
     }
   ]
 }

@@ -5,63 +5,183 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la reprografía?",
-      "respuesta": "Es el conjunto de técnicas para reproducir documentos, como fotocopiar o encuadernar. <mark>Es como multiplicar un documento para que varias personas tengan su propia copia</mark>. Se usa mucho para repartir informes o contratos."
+      "respuesta": "Es el conjunto de técnicas para reproducir documentos, como fotocopiar o encuadernar. <mark>Es como multiplicar un documento para que varias personas tengan su propia copia</mark>. Se usa mucho para repartir informes o contratos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora.jpg",
+        "alt": "Una fotocopiadora de oficina",
+        "titulo": "Fotocopiadora",
+        "autor": "fcomsalamanca",
+        "fuente": "https://www.flickr.com/photos/30631725@N03/6980298651",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hay que comprobar antes de fotocopiar un documento?",
-      "respuesta": "Que la copia salga completa, legible y en el orden correcto. <mark>Es como revisar una copia antes de dártela por buena</mark>. Una fotocopia mal hecha puede causar confusión más adelante."
+      "respuesta": "Que la copia salga completa, legible y en el orden correcto. <mark>Es como revisar una copia antes de dártela por buena</mark>. Una fotocopia mal hecha puede causar confusión más adelante.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora2.jpg",
+        "alt": "Una fotocopiadora de oficina",
+        "titulo": "Photocopier",
+        "autor": "Alan Cleaver",
+        "fuente": "https://www.flickr.com/photos/11121568@N06/4446487390",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve encuadernar un documento?",
-      "respuesta": "Sirve para unir varias hojas de forma ordenada y resistente. <mark>Es como convertir hojas sueltas en un pequeño libro</mark>. Facilita mucho manejar documentos con muchas páginas."
+      "respuesta": "Sirve para unir varias hojas de forma ordenada y resistente. <mark>Es como convertir hojas sueltas en un pequeño libro</mark>. Facilita mucho manejar documentos con muchas páginas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/encuadernar-libros.jpg",
+        "alt": "Libros encuadernados de forma artesanal",
+        "titulo": "Ledgers made at Cowans, Edinburgh",
+        "autor": "edinburghcityofprint",
+        "fuente": "https://www.flickr.com/photos/30239838@N04/4203790938",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es archivar?",
-      "respuesta": "Es guardar documentos de forma ordenada para poder encontrarlos después. <mark>Es como guardar cada cosa en su cajón, en vez de amontonarlo todo</mark>. Un buen archivo ahorra tiempo cuando hace falta consultar algo."
+      "respuesta": "Es guardar documentos de forma ordenada para poder encontrarlos después. <mark>Es como guardar cada cosa en su cajón, en vez de amontonarlo todo</mark>. Un buen archivo ahorra tiempo cuando hace falta consultar algo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/biblioteca-organizada-temas.jpg",
+        "alt": "Una biblioteca reorganizada y ordenada por temas",
+        "titulo": "Design library, reorganized by topic",
+        "autor": "juhansonin",
+        "fuente": "https://www.flickr.com/photos/38869431@N00/4734830821",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se archiva de forma ordenada y no al azar?",
-      "respuesta": "Porque sin un orden claro, sería casi imposible encontrar un documento concreto. <mark>Es como buscar un libro en una biblioteca sin ningún tipo de orden</mark>."
+      "respuesta": "Porque sin un orden claro, sería casi imposible encontrar un documento concreto. <mark>Es como buscar un libro en una biblioteca sin ningún tipo de orden</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/mesa-desordenada.jpg",
+        "alt": "Una mesa de trabajo desordenada, llena de papeles",
+        "titulo": "desk messk",
+        "autor": "becstarr",
+        "fuente": "https://www.flickr.com/photos/62479404@N00/212233944",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la clasificación alfabética de documentos?",
-      "respuesta": "Es ordenar los documentos según las letras de un nombre, de la A a la Z. <mark>Es como ordenar una agenda de contactos por el nombre de cada persona</mark>."
+      "respuesta": "Es ordenar los documentos según las letras de un nombre, de la A a la Z. <mark>Es como ordenar una agenda de contactos por el nombre de cada persona</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fichas-colores-alfabetico.jpg",
+        "alt": "Fichas de colores ordenadas",
+        "titulo": "color index cards 2.5 x 3",
+        "autor": "lexly87 aka Duc N. Ly",
+        "fuente": "https://www.flickr.com/photos/49136729@N00/172895040",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la clasificación numérica de documentos?",
-      "respuesta": "Es ordenar los documentos según un número asignado a cada uno. <mark>Es como ordenar entradas numeradas, cada una en su lugar correspondiente</mark>. Se usa mucho para facturas o expedientes."
+      "respuesta": "Es ordenar los documentos según un número asignado a cada uno. <mark>Es como ordenar entradas numeradas, cada una en su lugar correspondiente</mark>. Se usa mucho para facturas o expedientes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/catalogo-numerico-biblioteca.jpg",
+        "alt": "Un catálogo de fichas numeradas en una biblioteca",
+        "titulo": "University of Michigan Library Card Catalog",
+        "autor": "dfulmer",
+        "fuente": "https://www.flickr.com/photos/28376044@N00/4350629792",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la clasificación por temas?",
-      "respuesta": "Es agrupar los documentos según el asunto del que tratan. <mark>Es como ordenar libros de una biblioteca por su materia</mark>. Es útil cuando se buscan documentos relacionados entre sí."
+      "respuesta": "Es agrupar los documentos según el asunto del que tratan. <mark>Es como ordenar libros de una biblioteca por su materia</mark>. Es útil cuando se buscan documentos relacionados entre sí.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanterias-colores-temas.jpg",
+        "alt": "Estanterías organizadas por colores según el tema",
+        "titulo": "Color-coded shelves...",
+        "autor": "juhansonin",
+        "fuente": "https://www.flickr.com/photos/38869431@N00/4735469550",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre el archivo en papel y el archivo digital?",
-      "respuesta": "El archivo en papel ocupa espacio físico, como carpetas o armarios. <mark>El archivo digital se guarda en el ordenador, sin ocupar espacio físico</mark>. Muchas oficinas combinan ambos tipos."
+      "respuesta": "El archivo en papel ocupa espacio físico, como carpetas o armarios. <mark>El archivo digital se guarda en el ordenador, sin ocupar espacio físico</mark>. Muchas oficinas combinan ambos tipos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/contabilidad-digital-papel.jpg",
+        "alt": "Documentos de contabilidad junto a un ordenador",
+        "titulo": "Financial statistics and accounting concept",
+        "autor": "paola.bazurto4",
+        "fuente": "https://www.flickr.com/photos/131543794@N04/16785701705",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas tiene el archivo digital frente al archivo en papel?",
-      "respuesta": "Ocupa menos espacio y permite buscar documentos de forma mucho más rápida. <mark>Es como tener una biblioteca entera dentro de un solo ordenador</mark>. También facilita compartir documentos al instante."
+      "respuesta": "Ocupa menos espacio y permite buscar documentos de forma mucho más rápida. <mark>Es como tener una biblioteca entera dentro de un solo ordenador</mark>. También facilita compartir documentos al instante.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/nube-almacenamiento.jpg",
+        "alt": "El icono de un servicio de almacenamiento en la nube",
+        "titulo": "Dropbox",
+        "autor": "Johan Larsson",
+        "fuente": "https://www.flickr.com/photos/38305415@N00/4580058581",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas tiene el archivo en papel frente al digital?",
-      "respuesta": "No depende de que un dispositivo funcione o tenga electricidad. <mark>Es como tener algo que siempre puedes consultar, sin depender de una pantalla</mark>. Algunos documentos oficiales todavía exigen una versión en papel."
+      "respuesta": "No depende de que un dispositivo funcione o tenga electricidad. <mark>Es como tener algo que siempre puedes consultar, sin depender de una pantalla</mark>. Algunos documentos oficiales todavía exigen una versión en papel.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/cuadernos-papel.jpg",
+        "alt": "Varios cuadernos de papel apilados",
+        "titulo": "notebooks",
+        "autor": "Muffet",
+        "fuente": "https://www.flickr.com/photos/53133240@N00/4539970",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo conviene nombrar una carpeta digital?",
-      "respuesta": "Con un nombre claro y descriptivo, que indique qué contiene. <mark>Es como poner una etiqueta clara a una caja, en vez de dejarla sin nombre</mark>. Un buen nombre ayuda a encontrarla rápido más adelante."
+      "respuesta": "Con un nombre claro y descriptivo, que indique qué contiene. <mark>Es como poner una etiqueta clara a una caja, en vez de dejarla sin nombre</mark>. Un buen nombre ayuda a encontrarla rápido más adelante.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/ordenador-portatil-oficina.jpg",
+        "alt": "Un ordenador portátil abierto en una mesa de oficina",
+        "titulo": "Weekend office",
+        "autor": "dtweney",
+        "fuente": "https://www.flickr.com/photos/31855341@N00/5822086065",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se pueden organizar bien las carpetas digitales?",
-      "respuesta": "Creando una estructura clara, con carpetas principales y subcarpetas si hace falta. <mark>Es como organizar un armario con secciones y cajones dentro de cada sección</mark>."
+      "respuesta": "Creando una estructura clara, con carpetas principales y subcarpetas si hace falta. <mark>Es como organizar un armario con secciones y cajones dentro de cada sección</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/zona-trabajo-ordenador.jpg",
+        "alt": "Una zona de trabajo con un ordenador",
+        "titulo": "Work Area",
+        "autor": "Harlequeen",
+        "fuente": "https://www.flickr.com/photos/27887748@N00/5352127832",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante mantener un mismo criterio al archivar, sea en papel o digital?",
-      "respuesta": "Porque un criterio mezclado hace mucho más difícil encontrar después un documento. <mark>Es como cambiar de idioma a mitad de una conversación</mark>."
+      "respuesta": "Porque un criterio mezclado hace mucho más difícil encontrar después un documento. <mark>Es como cambiar de idioma a mitad de una conversación</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanteria-oficina-organizada.jpg",
+        "alt": "Una estantería de oficina bien organizada",
+        "titulo": "Office bookcase's, part 2",
+        "autor": "mrJiggy",
+        "fuente": "https://www.flickr.com/photos/31802054@N07/3340514665",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre archivar bien y trabajar de forma eficiente?",
-      "respuesta": "Un buen archivo ahorra tiempo cada vez que hace falta buscar un documento. <mark>Es como tener todo a mano, en vez de tener que buscarlo cada vez</mark>."
+      "respuesta": "Un buen archivo ahorra tiempo cada vez que hace falta buscar un documento. <mark>Es como tener todo a mano, en vez de tener que buscarlo cada vez</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/escritorio-ordenado.jpg",
+        "alt": "Un escritorio de trabajo bien organizado",
+        "titulo": "Rochelle's Work Desk 1",
+        "autor": "Rochelle Hartman",
+        "fuente": "https://www.flickr.com/photos/34756977@N00/15851499",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

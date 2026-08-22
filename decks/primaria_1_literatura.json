@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un cuento popular?",
-      "respuesta": "Es una historia que se cuenta desde hace muchísimos años. <mark>Pasa de abuelos a nietos, como un tesoro compartido</mark>. Nadie sabe quién la inventó primero. ¿Sabías que el mismo cuento existe en países muy distintos?"
+      "respuesta": "Es una historia que se cuenta desde hace muchísimos años. <mark>Pasa de abuelos a nietos, como un tesoro compartido</mark>. Nadie sabe quién la inventó primero. ¿Sabías que el mismo cuento existe en países muy distintos?",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura/cuento-popular.jpg",
+        "alt": "Portada de un libro de cuentos: una niña sentada, con las manos en la cara, leyendo",
+        "titulo": "Fairy Tales",
+        "autor": "Boston Public Library",
+        "fuente": "https://www.flickr.com/photos/24029425@N06/10871801484",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué le pasa a Caperucita Roja en el bosque?",
-      "respuesta": "Caperucita va a ver a su abuela con una cesta. <mark>Un lobo la engaña para llegar antes que ella</mark>. El cuento enseña a tener cuidado con los desconocidos. Es uno de los cuentos más contados del mundo."
+      "respuesta": "Caperucita va a ver a su abuela con una cesta. <mark>Un lobo la engaña para llegar antes que ella</mark>. El cuento enseña a tener cuidado con los desconocidos. Es uno de los cuentos más contados del mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura/caperucita-roja.jpg",
+        "alt": "Caperucita Roja, con su capa roja, mirando a un lobo bajo un árbol con flores",
+        "titulo": "The Fairy Book 01",
+        "autor": "thecmn",
+        "fuente": "https://www.flickr.com/photos/97947597@N00/46527908252",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Por qué los tres cerditos construyen casas diferentes?",
-      "respuesta": "Cada cerdito hace su casa con un material distinto. <mark>La casa de ladrillo resiste al lobo que sopla fuerte</mark>. El cuento enseña que hacerlo bien merece la pena. Las prisas no siempre son buena idea."
+      "respuesta": "Cada cerdito hace su casa con un material distinto. <mark>La casa de ladrillo resiste al lobo que sopla fuerte</mark>. El cuento enseña que hacerlo bien merece la pena. Las prisas no siempre son buena idea.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura/tres-cerditos.jpg",
+        "alt": "Tres casas de juguete, de ladrillo, de madera y de paja, cada una con un cerdito, junto a un lobo",
+        "titulo": "The Three Little Pigs Nesting Puppet Set",
+        "autor": "GlueGunGlory",
+        "fuente": "https://www.flickr.com/photos/96841189@N06/33442670893",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una rima?",
-      "respuesta": "Una rima es cuando dos palabras terminan igual. <mark>Suenan parecido, como pan y can</mark>. Las rimas hacen las canciones más fáciles de recordar. Por eso aparecen en tantas nanas."
+      "respuesta": "Una rima es cuando dos palabras terminan igual. <mark>Suenan parecido, como pan y can</mark>. Las rimas hacen las canciones más fáciles de recordar. Por eso aparecen en tantas nanas.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura/rima.jpg",
+        "alt": "Portada de un libro antiguo titulado Nursery Songs, con animales tocando instrumentos musicales",
+        "titulo": "Nursery Rhyme Book",
+        "autor": "HerryLawford",
+        "fuente": "https://www.flickr.com/photos/32662631@N00/2988037090",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirven las rimas en las canciones infantiles?",
-      "respuesta": "Ayudan a recordar las palabras más fácilmente. <mark>El sonido repetido hace la canción pegadiza</mark>. Por eso cantamos las mismas nanas durante generaciones. Cantar rimas también ayuda a hablar mejor."
+      "respuesta": "Ayudan a recordar las palabras más fácilmente. <mark>El sonido repetido hace la canción pegadiza</mark>. Por eso cantamos las mismas nanas durante generaciones. Cantar rimas también ayuda a hablar mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura/canciones-infantiles.jpg",
+        "alt": "Una madre sostiene a su bebé en brazos junto a una cuna, en un dibujo antiguo",
+        "titulo": "The Cradle (William-Adolphe Bouguereau)",
+        "autor": "Rijksmuseum",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=148799636",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una adivinanza?",
-      "respuesta": "Es un juego de palabras con una pista escondida. <mark>Hay que pensar bien para descubrir la respuesta</mark>. Por ejemplo: tiene hojas y no es un árbol, es un libro. Las adivinanzas hacen pensar mientras te diviertes."
+      "respuesta": "Es un juego de palabras con una pista escondida. <mark>Hay que pensar bien para descubrir la respuesta</mark>. Por ejemplo: tiene hojas y no es un árbol, es un libro. Las adivinanzas hacen pensar mientras te diviertes.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura/adivinanza.jpg",
+        "alt": "La Esfinge de Egipto, una estatua con cuerpo de león y cabeza de persona, junto a las pirámides",
+        "titulo": "The Riddle of the Sphinx",
+        "autor": "Boston Public Library",
+        "fuente": "https://www.flickr.com/photos/24029425@N06/2469131504",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

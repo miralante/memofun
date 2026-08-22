@@ -5,83 +5,243 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué elementos forman parte de la comunicación empresarial?",
-      "respuesta": "Un emisor, un receptor, un mensaje y un canal por el que viaja ese mensaje. <mark>Es como una carta: alguien la escribe, alguien la lee, y el mensaje viaja por un medio concreto</mark>. En la empresa, ese canal puede ser el teléfono, el correo o una reunión."
+      "respuesta": "Un emisor, un receptor, un mensaje y un canal por el que viaja ese mensaje. <mark>Es como una carta: alguien la escribe, alguien la lee, y el mensaje viaja por un medio concreto</mark>. En la empresa, ese canal puede ser el teléfono, el correo o una reunión.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/conversacion-profunda.jpg",
+        "alt": "Dos personas conversando",
+        "titulo": "Deep conversation",
+        "autor": "juhansonin",
+        "fuente": "https://www.flickr.com/photos/38869431@N00/4703017753",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las barreras de la comunicación?",
-      "respuesta": "Son obstáculos que impiden que un mensaje se entienda bien. <mark>Es como una interferencia en una llamada que hace que no se entienda bien lo que se dice</mark>. Pueden ser ruido, un lenguaje confuso o una mala actitud al escuchar."
+      "respuesta": "Son obstáculos que impiden que un mensaje se entienda bien. <mark>Es como una interferencia en una llamada que hace que no se entienda bien lo que se dice</mark>. Pueden ser ruido, un lenguaje confuso o una mala actitud al escuchar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/cables-enredados.jpg",
+        "alt": "Cables enredados, como una comunicación confusa",
+        "titulo": "Telework",
+        "autor": "Peter Kaminski",
+        "fuente": "https://www.flickr.com/photos/35034359460@N01/64783991",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué normas conviene seguir en la atención telefónica profesional?",
-      "respuesta": "Contestar con rapidez, identificarse y hablar con un tono claro y amable. <mark>Es como recibir a alguien en la puerta de una oficina, pero solo con la voz</mark>. Una buena atención telefónica deja una buena imagen de la empresa."
+      "respuesta": "Contestar con rapidez, identificarse y hablar con un tono claro y amable. <mark>Es como recibir a alguien en la puerta de una oficina, pero solo con la voz</mark>. Una buena atención telefónica deja una buena imagen de la empresa.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/operador-call-center.jpg",
+        "alt": "Una persona atendiendo llamadas en un centro de atención",
+        "titulo": "Call center operator",
+        "autor": "aqua.mech",
+        "fuente": "https://www.flickr.com/photos/137169575@N04/24704515719",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre la atención telefónica y la atención presencial?",
-      "respuesta": "En la atención presencial se cuenta también con gestos, mirada y lenguaje corporal. <mark>Por teléfono, en cambio, todo depende de la voz y de las palabras que se eligen</mark>. Por eso conviene cuidar mucho el tono al hablar por teléfono."
+      "respuesta": "En la atención presencial se cuenta también con gestos, mirada y lenguaje corporal. <mark>Por teléfono, en cambio, todo depende de la voz y de las palabras que se eligen</mark>. Por eso conviene cuidar mucho el tono al hablar por teléfono.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/recepcion-oficina.jpg",
+        "alt": "Una persona atendiendo en la recepción de una oficina",
+        "titulo": "reception officer",
+        "autor": "Genista",
+        "fuente": "https://www.flickr.com/photos/50457550@N00/65924148",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una carta comercial?",
-      "respuesta": "Es un documento escrito que una empresa envía para comunicarse formalmente. <mark>Sigue siempre una estructura fija, como membrete, fecha, cuerpo y despedida</mark>. Se usa para pedidos, reclamaciones o para presentar una empresa."
+      "respuesta": "Es un documento escrito que una empresa envía para comunicarse formalmente. <mark>Sigue siempre una estructura fija, como membrete, fecha, cuerpo y despedida</mark>. Se usa para pedidos, reclamaciones o para presentar una empresa.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/maquina-escribir.jpg",
+        "alt": "Una máquina de escribir con una carta",
+        "titulo": "Typewriter Letters",
+        "autor": "Laineys Repertoire",
+        "fuente": "https://www.flickr.com/photos/76283671@N00/184612848",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre un informe y un acta?",
-      "respuesta": "El informe explica o analiza un tema para ayudar a tomar una decisión. <mark>El acta, en cambio, recoge lo que se ha dicho y decidido en una reunión</mark>. El informe se puede escribir en cualquier momento; el acta, durante la reunión."
+      "respuesta": "El informe explica o analiza un tema para ayudar a tomar una decisión. <mark>El acta, en cambio, recoge lo que se ha dicho y decidido en una reunión</mark>. El informe se puede escribir en cualquier momento; el acta, durante la reunión.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/reunion-equipo.jpg",
+        "alt": "Un equipo reunido tomando notas",
+        "titulo": "Team Meeting",
+        "autor": "Startup Stock Photos",
+        "fuente": "https://stocksnap.io/photo/team-meeting-JBW2PXDOL6",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué debe tener un correo electrónico profesional?",
-      "respuesta": "Un asunto claro, un saludo, un mensaje bien organizado y una despedida formal. <mark>Es como una carta, pero pensada para leerse rápido en una pantalla</mark>. Un correo bien escrito transmite seriedad y respeto hacia quien lo recibe."
+      "respuesta": "Un asunto claro, un saludo, un mensaje bien organizado y una despedida formal. <mark>Es como una carta, pero pensada para leerse rápido en una pantalla</mark>. Un correo bien escrito transmite seriedad y respeto hacia quien lo recibe.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/email-portatil.jpg",
+        "alt": "Un hombre revisando su correo en un portátil",
+        "titulo": "Man checking his email on a laptop",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.flickr.com/photos/8561899@N04/2602415335",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las normas de netiqueta?",
-      "respuesta": "Son normas de buena educación para comunicarse por internet. <mark>Es como los buenos modales, pero aplicados a correos, chats y redes sociales</mark>. Incluyen no escribir en mayúsculas, porque suena como gritar."
+      "respuesta": "Son normas de buena educación para comunicarse por internet. <mark>Es como los buenos modales, pero aplicados a correos, chats y redes sociales</mark>. Incluyen no escribir en mayúsculas, porque suena como gritar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/blog-escribiendo.jpg",
+        "alt": "Alguien escribiendo en un ordenador portátil",
+        "titulo": "Blogging?",
+        "autor": "Anonymous Account",
+        "fuente": "https://www.flickr.com/photos/37053322@N00/4263193267",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la atención al cliente?",
-      "respuesta": "Es el conjunto de acciones para ayudar y resolver las necesidades de quien compra o contrata algo. <mark>Es como cuidar a un invitado en tu propia casa, atendiendo lo que necesita</mark>. Incluye desde informar hasta resolver problemas o dudas."
+      "respuesta": "Es el conjunto de acciones para ayudar y resolver las necesidades de quien compra o contrata algo. <mark>Es como cuidar a un invitado en tu propia casa, atendiendo lo que necesita</mark>. Incluye desde informar hasta resolver problemas o dudas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/atencion-cliente-mostrador.jpg",
+        "alt": "Un mostrador de atención al cliente",
+        "titulo": "Customer Service Desk",
+        "autor": "Random Retail",
+        "fuente": "https://www.flickr.com/photos/67408512@N03/15688303538",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre una queja y una reclamación?",
-      "respuesta": "Una queja expresa disgusto por algo, sin pedir necesariamente una compensación. <mark>Una reclamación, en cambio, pide formalmente una solución o una compensación</mark>. Ambas deben atenderse con respeto y rapidez."
+      "respuesta": "Una queja expresa disgusto por algo, sin pedir necesariamente una compensación. <mark>Una reclamación, en cambio, pide formalmente una solución o una compensación</mark>. Ambas deben atenderse con respeto y rapidez.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/cajas-devolucion.jpg",
+        "alt": "Cajas de cartón preparadas para una devolución",
+        "titulo": "How Are Custom Cardboard Boxes Helpful In Reducing Return Rate",
+        "autor": "jamisonalderman",
+        "fuente": "https://www.flickr.com/photos/184511407@N07/48753741838",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante archivar bien la documentación de una empresa?",
-      "respuesta": "Porque permite encontrar cualquier documento rápido cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo amontonado sin orden</mark>. Un archivo desordenado hace perder tiempo y puede causar problemas legales."
+      "respuesta": "Porque permite encontrar cualquier documento rápido cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo amontonado sin orden</mark>. Un archivo desordenado hace perder tiempo y puede causar problemas legales.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/archivador-cajon.jpg",
+        "alt": "Una empleada archivando documentos en un cajón",
+        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué criterios se usan para clasificar documentos?",
-      "respuesta": "Se pueden clasificar por fecha, por tema, por nombre o por número, entre otros. <mark>Es como ordenar libros en una estantería: por autor, por color o por tamaño, según convenga</mark>. Elegir un buen criterio facilita encontrarlos después."
+      "respuesta": "Se pueden clasificar por fecha, por tema, por nombre o por número, entre otros. <mark>Es como ordenar libros en una estantería: por autor, por color o por tamaño, según convenga</mark>. Elegir un buen criterio facilita encontrarlos después.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/estanteria-libros.jpg",
+        "alt": "Una estantería con libros ordenados",
+        "titulo": "book shelf",
+        "autor": "EvelynGiggles",
+        "fuente": "https://www.flickr.com/photos/23797059@N02/2719033602",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la imagen de la empresa en cada comunicación?",
-      "respuesta": "Porque cada carta, correo o llamada transmite cómo es la empresa. <mark>Es como la ropa que alguien lleva a una entrevista: comunica antes incluso de hablar</mark>. Una comunicación cuidada genera confianza en clientes y proveedores."
+      "respuesta": "Porque cada carta, correo o llamada transmite cómo es la empresa. <mark>Es como la ropa que alguien lleva a una entrevista: comunica antes incluso de hablar</mark>. Una comunicación cuidada genera confianza en clientes y proveedores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/traje-negocios.jpg",
+        "alt": "Una persona con traje de negocios",
+        "titulo": "Time to go home",
+        "autor": "Alan Cleaver",
+        "fuente": "https://www.flickr.com/photos/11121568@N06/4118367546",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la comunicación escrita en el ámbito empresarial?",
-      "respuesta": "Es toda comunicación que queda registrada por escrito, como cartas o correos. <mark>A diferencia de una llamada, deja constancia de lo que se dijo exactamente</mark>. Por eso se usa mucho para acuerdos importantes."
+      "respuesta": "Es toda comunicación que queda registrada por escrito, como cartas o correos. <mark>A diferencia de una llamada, deja constancia de lo que se dijo exactamente</mark>. Por eso se usa mucho para acuerdos importantes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/pluma-escritura.jpg",
+        "alt": "Una pluma escribiendo sobre papel",
+        "titulo": "Quill",
+        "autor": "sure2talk",
+        "fuente": "https://www.flickr.com/photos/19862723@N00/213926774",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene la escucha activa en la atención al cliente?",
-      "respuesta": "Consiste en prestar atención real a lo que dice la otra persona, no solo oírla. <mark>Es como leer entre líneas para entender lo que de verdad necesita alguien</mark>. Ayuda a detectar el problema real detrás de una queja."
+      "respuesta": "Consiste en prestar atención real a lo que dice la otra persona, no solo oírla. <mark>Es como leer entre líneas para entender lo que de verdad necesita alguien</mark>. Ayuda a detectar el problema real detrás de una queja.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/escucha-atenta.jpg",
+        "alt": "Una persona escuchando con atención",
+        "titulo": "Listen carefully, I'll tell you a secret...",
+        "autor": "Follow Your Nose",
+        "fuente": "https://www.flickr.com/photos/31816015@N02/3747033656",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el lenguaje no verbal en la atención presencial?",
-      "respuesta": "Son los gestos, la postura y las expresiones que acompañan a las palabras. <mark>A veces dice más un gesto que una frase entera</mark>. Una sonrisa o una mirada atenta transmiten disposición a ayudar."
+      "respuesta": "Son los gestos, la postura y las expresiones que acompañan a las palabras. <mark>A veces dice más un gesto que una frase entera</mark>. Una sonrisa o una mirada atenta transmiten disposición a ayudar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/gesto-mano.jpg",
+        "alt": "Una persona haciendo un gesto con la mano al hablar",
+        "titulo": "Gesture",
+        "autor": "christian.senger",
+        "fuente": "https://www.flickr.com/photos/30928442@N08/4453814948",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un membrete en un documento comercial?",
-      "respuesta": "Es la parte superior de un documento con los datos de la empresa. <mark>Es como la firma que identifica quién envía el documento, antes incluso de leerlo</mark>. Incluye el nombre, el logotipo y los datos de contacto."
+      "respuesta": "Es la parte superior de un documento con los datos de la empresa. <mark>Es como la firma que identifica quién envía el documento, antes incluso de leerlo</mark>. Incluye el nombre, el logotipo y los datos de contacto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/membrete-cerveceria.jpg",
+        "alt": "Un membrete antiguo de una empresa",
+        "titulo": "Vancouver Breweries Limited letterhead",
+        "autor": "Thomas Fisher Rare Book Library, UofT",
+        "fuente": "https://www.flickr.com/photos/34861056@N05/8654958939",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué conviene responder rápido a una reclamación de un cliente?",
-      "respuesta": "Porque una respuesta tardía aumenta el enfado y la desconfianza del cliente. <mark>Es como dejar sonar mucho un teléfono: cuanto más se tarda, peor sensación deja</mark>. Una respuesta rápida, aunque sea para pedir más tiempo, tranquiliza."
+      "respuesta": "Porque una respuesta tardía aumenta el enfado y la desconfianza del cliente. <mark>Es como dejar sonar mucho un teléfono: cuanto más se tarda, peor sensación deja</mark>. Una respuesta rápida, aunque sea para pedir más tiempo, tranquiliza.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/telefono-antiguo.jpg",
+        "alt": "Un teléfono antiguo",
+        "titulo": "Yesterday's Call",
+        "autor": "Vincent_AF",
+        "fuente": "https://www.flickr.com/photos/25704219@N04/4941547991",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la comunicación interna en una empresa?",
-      "respuesta": "Es la comunicación que ocurre entre las personas que trabajan en la misma empresa. <mark>Es como el sistema nervioso de la empresa, que conecta a todos sus departamentos</mark>. Incluye reuniones, correos internos o circulares."
+      "respuesta": "Es la comunicación que ocurre entre las personas que trabajan en la misma empresa. <mark>Es como el sistema nervioso de la empresa, que conecta a todos sus departamentos</mark>. Incluye reuniones, correos internos o circulares.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/reunion-gerentes.jpg",
+        "alt": "Un equipo de trabajo reunido en una oficina",
+        "titulo": "(sin título)",
+        "autor": "startupphotos",
+        "fuente": "https://www.flickr.com/photos/120262924@N05/13134012164",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la primera impresión es tan importante en la atención al cliente?",
-      "respuesta": "Porque condiciona la confianza que el cliente tendrá durante toda la relación. <mark>Es como el primer bocado de un plato: marca la expectativa de todo lo que viene después</mark>. Un mal primer contacto es difícil de corregir después."
+      "respuesta": "Porque condiciona la confianza que el cliente tendrá durante toda la relación. <mark>Es como el primer bocado de un plato: marca la expectativa de todo lo que viene después</mark>. Un mal primer contacto es difícil de corregir después.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_comunicacion-empresarial-atencion-cliente/saludo-manos.jpg",
+        "alt": "Dos personas dándose la mano",
+        "titulo": "Business Handshake",
+        "autor": "ccnull.de Bilddatenbank",
+        "fuente": "https://www.flickr.com/photos/115225894@N07/54003425558",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -11,12 +11,21 @@
 > summary instead of the walkthrough, see [`technical.md`](technical.md)
 > §8.
 
-> 💡 **Looking for a ready-made syllabus?** [`doc/curriculum/es/`](../curriculum/es/)
-> has ready outlines for Primaria (grades 1-6), ESO (grades 1-4), and
-> the Gestión Administrativa mid-level vocational track. You can just
-> ask "generate the deck for `doc/curriculum/es/primaria/3/lengua-castellana.md`"
-> without writing anything else. See
-> [`doc/curriculum/es/README.md`](../curriculum/es/README.md).
+> 💡 **Looking for a ready-made syllabus?** [`doc/curriculum/`](../curriculum/)
+> has ready outlines. Two parallel libraries live there:
+> [`../curriculum/es/`](../curriculum/es/) for the Spanish (Comunidad de
+> Madrid) curriculum — Primaria, ESO, FP Básica/GM — and
+> [`../curriculum/en/`](../curriculum/en/) for the English National
+> Curriculum — Key Stage 1-4, plus Entry Level and BTEC Level 2
+> vocational routes. The English library is partially populated:
+> see its own [README](../curriculum/en/README.md) for what's there,
+> what's still wanted, and why English is **literature-only** in
+> this folder (phonics, spelling and grammar decks live elsewhere
+> by design — the audience meets English as a second language, so
+> literature travels better than orthography does). You can ask
+> "generate the deck for
+> `doc/curriculum/en/key-stage-2/3/english-literature.md`" without
+> writing anything else.
 
 > 🤖 **No AI agent with access to this repository?** If all you have is
 > a standalone AI chat (ChatGPT, Claude.ai, Gemini…), use
@@ -99,6 +108,54 @@ When you ask for a deck, the agent:
 4. Tells you what it generated and where, and flags if extra human
    review is worth doing (e.g. for very technical or sensitive topics).
 
+### 3.1 Optional: adding a visual-support image to a card
+
+Any card can carry one photo/illustration as visual support for the
+explanation (see `technical.md` §3.1 for the full field list). Ask for
+it explicitly — the agent doesn't add images on its own — either while
+generating a deck or afterwards, for one card or the whole deck:
+
+> "Add a supporting image to the cards in `primaria_1_literatura.json`."
+
+For each card, the agent:
+
+1. Searches `node scripts/buscar-imagen.js "<term>"` — this queries
+   Openverse (openverse.org), a free image bank aggregating openly
+   licensed photos with no signup needed, restricted to licenses that
+   allow reuse and modification with no extra restriction (CC0, Public
+   Domain, CC BY, CC BY-SA — never `-NC`/`-ND`). Like ARASAAC search in
+   sinonimia, this is a **content-authoring tool that runs at
+   deck-writing time**, not a runtime call from the shipped site — the
+   downloaded image ends up as a plain static file, same as any other
+   asset (`CLAUDE.md` → "No generative AI in the shipped product").
+2. Picks the candidate that actually fits the card **from the
+   title/source text the script prints, and nothing else** (not just
+   the literal search term — Openverse search is tag-based, not
+   semantic, so trying a more concrete or more common term when the
+   first search comes up empty or off-topic works the same way it does
+   for `buscar-pictograma.js` in sinonimia). **Never opens an image
+   file to view it — including the final pick.** The search result's
+   title/source is treated as the curated signal for fit; that's a
+   deliberate trade-off, not a corner cut, because viewing any image
+   spends ~1000+ vision tokens for a check the title text already
+   gives. The rare card that ends up with a genuinely mismatched image
+   gets caught by a human reader later and reported per
+   `CONTRIBUTING.md`, not by the agent re-verifying every image at
+   authoring time.
+3. Downloads the `thumb` URL (not the full-res `image` URL) into
+   `assets/img/decks/<deck-slug>/<file>.jpg` — same picture, a
+   fraction of the size, plenty for a card illustration; falls back to
+   `image` only if the thumbnail proxy 400s for that source host.
+4. Adds the `imagen` field to that card with all its subfields
+   (`archivo`, `alt`, `titulo`, `autor`, `fuente`, `licencia`) — `alt`
+   describes what the image actually shows, in the deck's language.
+
+When asked to add images across a whole deck rather than one card,
+batch the `imagen` edits into as few passes over the deck's JSON as
+practical instead of a full read-edit round trip per card — the search
++ download step still runs per card (each needs its own image), but
+the file itself doesn't need re-reading each time.
+
 ## 4. Reviewing before considering the deck published
 
 Even though the agent applies the rules while writing, it's still
@@ -126,6 +183,17 @@ reviewing any content before a test. Check:
       adjacent topics not actually taught in that course (`SPEC.md`
       §1.3).
 - [ ] If you asked for an outline: **every point is covered**.
+- [ ] If any card has an `imagen`: the license is CC0/Public Domain/CC
+      BY/CC BY-SA (never `-NC`/`-ND` — `scripts/check.js` catches this,
+      but worth a human glance too) and `alt` describes the image
+      itself. Whether the picture actually matches the card is *not*
+      re-verified here — the search title/source was already the
+      curated signal at authoring time, and re-opening every image
+      file to double-check it would spend the exact vision tokens this
+      workflow is designed to avoid. If you (or anyone reading the
+      published deck) spot a card whose image genuinely doesn't match,
+      report it per `CONTRIBUTING.md` instead of silently fixing it in
+      passing — that keeps the mismatch rate visible.
 
 If something's off, ask the agent to rewrite that card, or edit the
 `.json` directly (it's plain text).
@@ -154,6 +222,7 @@ the home grid.
 - `CLAUDE.md` → "Generating deck content" — the full ruleset the agent
   follows when writing cards.
 - [`technical.md`](technical.md) §3 — a deck's JSON format.
+- [`technical.md`](technical.md) §3.1 — the optional per-card `imagen` field.
 - [`technical.md`](technical.md) §8 — how content ingestion works internally.
 - [`chat-ai-creating-decks-guide.md`](chat-ai-creating-decks-guide.md) — the same task, but with a generic AI chat that has no access to the repository.
 - [`SPEC.md`](SPEC.md) §1.3 — why purposeful repetition and syllabus fidelity shore up meaningful learning.

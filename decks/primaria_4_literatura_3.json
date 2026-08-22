@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Cuáles son los tres grandes géneros literarios?",
-      "respuesta": "Son narrativa, poesía y teatro. <mark>Cada uno cuenta las cosas de una forma distinta</mark>. La narrativa cuenta historias en prosa; la poesía, en versos. El teatro se cuenta con diálogos, para representarse."
+      "respuesta": "Son narrativa, poesía y teatro. <mark>Cada uno cuenta las cosas de una forma distinta</mark>. La narrativa cuenta historias en prosa; la poesía, en versos. El teatro se cuenta con diálogos, para representarse.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura_3/mascaras-teatro.jpg",
+        "alt": "Dos máscaras doradas, una triste y una sonriente, colgadas en la fachada de un teatro",
+        "titulo": "Tragedy and Comedy",
+        "autor": "Tim Green aka atoach",
+        "fuente": "https://www.flickr.com/photos/93416311@N00/8094737104",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la prosa?",
-      "respuesta": "Es la forma normal de escribir, en frases seguidas. <mark>Ocupa toda la línea, sin cortarse como en un poema</mark>. Los cuentos y las novelas están escritos en prosa. Es como hablamos también, sin ritmo marcado."
+      "respuesta": "Es la forma normal de escribir, en frases seguidas. <mark>Ocupa toda la línea, sin cortarse como en un poema</mark>. Los cuentos y las novelas están escritos en prosa. Es como hablamos también, sin ritmo marcado.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura_3/libro-abierto-prosa.jpg",
+        "alt": "Un libro abierto sobre una mesa, con las páginas llenas de texto de un lado a otro",
+        "titulo": "Open book",
+        "autor": "Honou",
+        "fuente": "https://www.flickr.com/photos/9186550@N08/2936937247",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian el verso y la prosa?",
-      "respuesta": "El verso ocupa una línea corta, decidida por el poeta. <mark>La prosa llena toda la línea, hasta el margen</mark>. El verso suele tener ritmo o rima. La prosa se lee más parecido a cómo hablamos."
+      "respuesta": "El verso ocupa una línea corta, decidida por el poeta. <mark>La prosa llena toda la línea, hasta el margen</mark>. El verso suele tener ritmo o rima. La prosa se lee más parecido a cómo hablamos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura_3/libro-poesia-versos.jpg",
+        "alt": "Un libro antiguo abierto, con un poema escrito en líneas cortas, mucho más cortas que un párrafo",
+        "titulo": "Book 10",
+        "autor": "~Brenda-Starr~",
+        "fuente": "https://www.flickr.com/photos/37753256@N08/5813347420",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un texto descriptivo?",
-      "respuesta": "Es un texto que explica cómo es algo o alguien. <mark>Es como pintar con palabras en vez de con pincel</mark>. Describe colores, formas, tamaños o sentimientos. No cuenta qué pasa, sino cómo es."
+      "respuesta": "Es un texto que explica cómo es algo o alguien. <mark>Es como pintar con palabras en vez de con pincel</mark>. Describe colores, formas, tamaños o sentimientos. No cuenta qué pasa, sino cómo es.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura_3/pintura-acuarela-peces.jpg",
+        "alt": "Un cuaderno con un dibujo de peces pintado con acuarelas, con pinceles y pinturas de colores al lado",
+        "titulo": "b r u n o b r u n a n",
+        "autor": "Instagram: Brunobrunan",
+        "fuente": "https://www.flickr.com/photos/13956722@N06/12320888674",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué debe incluir la descripción de un personaje?",
-      "respuesta": "Su aspecto físico, como el pelo o la ropa. <mark>También ayuda describir cómo es su forma de ser</mark>. Por ejemplo, valiente, tímido o gracioso. Así el lector lo imagina mejor en su cabeza."
+      "respuesta": "Su aspecto físico, como el pelo o la ropa. <mark>También ayuda describir cómo es su forma de ser</mark>. Por ejemplo, valiente, tímido o gracioso. Así el lector lo imagina mejor en su cabeza.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura_3/nino-disfraz-pirata.jpg",
+        "alt": "Un niño disfrazado de pirata, con camiseta de rayas y una espada de juguete, con cara seria y decidida",
+        "titulo": "Who dressed YOU?",
+        "autor": "juhansonin",
+        "fuente": "https://www.flickr.com/photos/38869431@N00/1778188040",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el decorado en una obra de teatro?",
-      "respuesta": "Es lo que se coloca en el escenario para representar un lugar. <mark>Puede ser un bosque pintado o una casa de cartón</mark>. Ayuda al público a imaginar dónde ocurre la escena. Sin decorado, el escenario parecería un espacio vacío."
+      "respuesta": "Es lo que se coloca en el escenario para representar un lugar. <mark>Puede ser un bosque pintado o una casa de cartón</mark>. Ayuda al público a imaginar dónde ocurre la escena. Sin decorado, el escenario parecería un espacio vacío.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_literatura_3/decorado-escenario-teatro.jpg",
+        "alt": "Un escenario de teatro decorado como un salón, con sofá, sillón y una imagen de fondo pintada",
+        "titulo": "Set for the play 'Thirst' at the Williamston Theatre, Williamston, MI",
+        "autor": "Joetography LLC",
+        "fuente": "https://www.flickr.com/photos/59398780@N00/54035874420",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

@@ -5,79 +5,231 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué ponía el Romanticismo por encima de la razón?",
-      "respuesta": "El Romanticismo ponía el sentimiento por encima de la razón. <mark>Defendía la libertad de cada persona frente a normas rígidas</mark>. Admiraba lo misterioso y lo apasionado. Fue una rebelión contra el orden estricto anterior."
+      "respuesta": "El Romanticismo ponía el sentimiento por encima de la razón. <mark>Defendía la libertad de cada persona frente a normas rígidas</mark>. Admiraba lo misterioso y lo apasionado. Fue una rebelión contra el orden estricto anterior.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/romanticismo.jpg",
+        "alt": "Persona escribiendo con emoción, dejando fluir sus sentimientos.",
+        "titulo": "Writing.",
+        "autor": "Caitlinator",
+        "fuente": "https://www.flickr.com/photos/21484712@N00/2826079915",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué temas trataba la poesía de Bécquer?",
-      "respuesta": "Bécquer escribía sobre el amor imposible y la tristeza. <mark>Sus poemas son breves, pero cargados de sentimiento</mark>. También le fascinaba lo misterioso. Sigue siendo uno de los poetas españoles más leídos."
+      "respuesta": "Bécquer escribía sobre el amor imposible y la tristeza. <mark>Sus poemas son breves, pero cargados de sentimiento</mark>. También le fascinaba lo misterioso. Sigue siendo uno de los poetas españoles más leídos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/becquer-retrato.jpg",
+        "alt": "Retrato de Gustavo Adolfo Bécquer",
+        "titulo": "Gustavo Adolfo Bécquer",
+        "autor": "martinvarsavsky",
+        "fuente": "https://www.flickr.com/photos/33928733@N00/4534178037",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué buscaba retratar la literatura del Realismo?",
-      "respuesta": "El Realismo quería mostrar la sociedad tal como era. <mark>Sin adornarla, con su vida cotidiana y sus problemas</mark>. Los autores observaban la calle como quien investiga. Preferían los hechos a los sentimientos exagerados."
+      "respuesta": "El Realismo quería mostrar la sociedad tal como era. <mark>Sin adornarla, con su vida cotidiana y sus problemas</mark>. Los autores observaban la calle como quien investiga. Preferían los hechos a los sentimientos exagerados.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/realismo.jpg",
+        "alt": "Pan recién hecho, una escena sencilla y cotidiana.",
+        "titulo": "Fresh Bread",
+        "autor": "Nutrition, Food Safety & Health",
+        "fuente": "https://www.flickr.com/photos/93936679@N05/14713298879",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué retrataba Benito Pérez Galdós en sus novelas?",
-      "respuesta": "Galdós retrataba la sociedad de Madrid de su época. <mark>Mostraba a personas de todas las clases sociales</mark>. Mezclaba historia real con personajes inventados. Es uno de los novelistas más importantes en español."
+      "respuesta": "Galdós retrataba la sociedad de Madrid de su época. <mark>Mostraba a personas de todas las clases sociales</mark>. Mezclaba historia real con personajes inventados. Es uno de los novelistas más importantes en español.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/galdos-retrato.jpg",
+        "alt": "Retrato de Benito Pérez Galdós",
+        "titulo": "Benito Pérez Galdós (Kaulak)",
+        "autor": "Kaulak",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=183641209",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué le pasó a España en 1898?",
-      "respuesta": "España perdió sus últimas colonias en 1898. <mark>Fue un golpe duro para el país y su orgullo</mark>. Un grupo de escritores empezó a preguntarse qué le pasaba a España. A ese grupo se le llamó Generación del 98."
+      "respuesta": "España perdió sus últimas colonias en 1898. <mark>Fue un golpe duro para el país y su orgullo</mark>. Un grupo de escritores empezó a preguntarse qué le pasaba a España. A ese grupo se le llamó Generación del 98.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/desastre-1898.jpg",
+        "alt": "Interior de un barco de vela antiguo, como los que cruzaban el océano.",
+        "titulo": "Diorama of the interior of an old sailing ship",
+        "autor": "quinet",
+        "fuente": "https://www.flickr.com/photos/91994044@N00/38115176005",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo usaban el paisaje de Castilla los escritores de la Generación del 98?",
-      "respuesta": "Describían los campos y pueblos de Castilla. <mark>Ese paisaje representaba el estado de ánimo de España</mark>. Mostraban tanto su belleza como su abandono. Autores como Machado lo hicieron muy famoso."
+      "respuesta": "Describían los campos y pueblos de Castilla. <mark>Ese paisaje representaba el estado de ánimo de España</mark>. Mostraban tanto su belleza como su abandono. Autores como Machado lo hicieron muy famoso.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/campos-de-castilla.jpg",
+        "alt": "Un campo de Castilla, el paisaje que retrató la Generación del 98",
+        "titulo": "Campos de Castilla (Salamanca)",
+        "autor": "jl.cernadas",
+        "fuente": "https://www.flickr.com/photos/38035878@N07/14113495434",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué sentían por España los escritores de la Generación del 98?",
-      "respuesta": "Sentían preocupación, pero también mucho cariño. <mark>Criticaban a España porque querían verla mejor</mark>. No era un rechazo, sino una forma de quererla. Escribían para entenderla, no para abandonarla."
+      "respuesta": "Sentían preocupación, pero también mucho cariño. <mark>Criticaban a España porque querían verla mejor</mark>. No era un rechazo, sino una forma de quererla. Escribían para entenderla, no para abandonarla.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/generacion-98.jpg",
+        "alt": "Molinos de viento en el paisaje de Castilla, símbolo de España.",
+        "titulo": "006469 - Campo de Criptana",
+        "autor": "M.Peinado",
+        "fuente": "https://www.flickr.com/photos/12066793@N05/7617816408",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué imágenes le gustaban al Modernismo?",
-      "respuesta": "El Modernismo soñaba con palacios, princesas y cisnes. <mark>Prefería mundos lejanos y exóticos a la vida cotidiana</mark>. Cuidaba muchísimo el sonido de cada palabra. Buscaba la belleza por encima de todo."
+      "respuesta": "El Modernismo soñaba con palacios, princesas y cisnes. <mark>Prefería mundos lejanos y exóticos a la vida cotidiana</mark>. Cuidaba muchísimo el sonido de cada palabra. Buscaba la belleza por encima de todo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/modernismo-imagenes.jpg",
+        "alt": "Un cisne blanco de cuello curvado nadando en un lago.",
+        "titulo": "Lake Ontario Swan (Curved Neck)",
+        "autor": "Tony Fischer Photography",
+        "fuente": "https://www.flickr.com/photos/22714323@N06/3216348493",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Rubén Darío?",
-      "respuesta": "Fue el poeta que impulsó el Modernismo en español. <mark>Sus versos suenan casi como música</mark>. Escribía sobre mundos lejanos y llenos de belleza. Influyó en poetas de toda España y América."
+      "respuesta": "Fue el poeta que impulsó el Modernismo en español. <mark>Sus versos suenan casi como música</mark>. Escribía sobre mundos lejanos y llenos de belleza. Influyó en poetas de toda España y América.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/ruben-dario.jpg",
+        "alt": "Monumento dedicado al poeta Rubén Darío.",
+        "titulo": "Monument to Ruben Dario at Paseo de Garay, Murcia. Spain",
+        "autor": "jimbowen0306",
+        "fuente": "https://www.flickr.com/photos/82538566@N00/49539554076",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre un poema modernista y uno de la Generación del 98?",
-      "respuesta": "El poema modernista sueña con palacios lejanos. <mark>El de la Generación del 98 mira los campos de Castilla</mark>. Uno se evade; el otro mira de frente a España. Nacieron en la misma época, pero miraron en direcciones distintas."
+      "respuesta": "El poema modernista sueña con palacios lejanos. <mark>El de la Generación del 98 mira los campos de Castilla</mark>. Uno se evade; el otro mira de frente a España. Nacieron en la misma época, pero miraron en direcciones distintas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/diferencia-modernismo-98.jpg",
+        "alt": "Varios libros apilados, cada uno con su propio estilo.",
+        "titulo": "Books",
+        "autor": "Czar Hey",
+        "fuente": "https://www.flickr.com/photos/161174688@N08/39694088401",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué contexto histórico marcó la literatura de posguerra?",
-      "respuesta": "La Guerra Civil había dejado el país destrozado. <mark>Además, la censura limitaba lo que se podía escribir</mark>. Muchos escritores vivían con pocos recursos. Ese ambiente difícil se coló en sus historias."
+      "respuesta": "La Guerra Civil había dejado el país destrozado. <mark>Además, la censura limitaba lo que se podía escribir</mark>. Muchos escritores vivían con pocos recursos. Ese ambiente difícil se coló en sus historias.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/contexto-posguerra.jpg",
+        "alt": "Barras de pan, alimento básico en tiempos difíciles.",
+        "titulo": "Polish_Food_-_Polish_Bread-Loafs",
+        "autor": "PolishFoodInfo.com",
+        "fuente": "https://www.flickr.com/photos/45112459@N03/4146985782",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el tremendismo?",
-      "respuesta": "Es contar la vida más dura, sin suavizarla. <mark>Es como una fotografía sin retocar, con toda su crudeza</mark>. Muestra violencia y miseria tal cual eran. Reflejaba lo difícil que era vivir en esos años."
+      "respuesta": "Es contar la vida más dura, sin suavizarla. <mark>Es como una fotografía sin retocar, con toda su crudeza</mark>. Muestra violencia y miseria tal cual eran. Reflejaba lo difícil que era vivir en esos años.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/tremendismo.jpg",
+        "alt": "Máquina de escribir antigua, herramienta de los escritores de la época.",
+        "titulo": "Underwood 11 Typewriter",
+        "autor": "alexkerhead",
+        "fuente": "https://www.flickr.com/photos/26354629@N02/2783532178",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué otros temas eran frecuentes en la literatura de posguerra?",
-      "respuesta": "Se contaba la pobreza y la vida cotidiana difícil. <mark>Muchos personajes luchaban solo por sobrevivir el día a día</mark>. No había grandes héroes, sino gente corriente. Esa sencillez hacía las historias más cercanas."
+      "respuesta": "Se contaba la pobreza y la vida cotidiana difícil. <mark>Muchos personajes luchaban solo por sobrevivir el día a día</mark>. No había grandes héroes, sino gente corriente. Esa sencillez hacía las historias más cercanas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/temas-posguerra.jpg",
+        "alt": "Máquina de escribir antigua sobre una mesa.",
+        "titulo": "Typewriter",
+        "autor": "Taylor Liberato",
+        "fuente": "https://www.flickr.com/photos/60247182@N02/5590287946",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué te puedes encontrar hoy en una librería española?",
-      "respuesta": "Novela policíaca, fantasía, historias familiares, poesía y mucho más. <mark>Cada autor sigue su propio camino, sin una única moda</mark>. Esa mezcla es la literatura española actual. No hay un solo movimiento que la agrupe."
+      "respuesta": "Novela policíaca, fantasía, historias familiares, poesía y mucho más. <mark>Cada autor sigue su propio camino, sin una única moda</mark>. Esa mezcla es la literatura española actual. No hay un solo movimiento que la agrupe.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/libreria-espanola.jpg",
+        "alt": "Estantería llena de libros en una librería.",
+        "titulo": "You know it's a good bookstore when...",
+        "autor": "Ben+Sam",
+        "fuente": "https://www.flickr.com/photos/11080385@N05/3272821791",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es pronto para saber qué libros actuales pasarán a la historia?",
-      "respuesta": "Hace falta tiempo para ver qué obras perduran. <mark>Con Cervantes también hicieron falta años para saberlo</mark>. Los movimientos literarios se reconocen mirando hacia atrás. Por eso la literatura muy reciente se estudia con cautela."
+      "respuesta": "Hace falta tiempo para ver qué obras perduran. <mark>Con Cervantes también hicieron falta años para saberlo</mark>. Los movimientos literarios se reconocen mirando hacia atrás. Por eso la literatura muy reciente se estudia con cautela.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/libros-pasaran-historia.jpg",
+        "alt": "Estanterías de una biblioteca llenas de libros.",
+        "titulo": "UF Library Shelves Book Place Books Here Sign",
+        "autor": "cdsessums",
+        "fuente": "https://www.flickr.com/photos/53313745@N00/4731909038",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un comentario de texto literario?",
-      "respuesta": "Es explicar qué dice un texto y cómo lo dice. <mark>No basta con resumir: hay que analizar tema y forma</mark>. Se hace paso a paso, con un orden claro. Es una herramienta para leer con más profundidad."
+      "respuesta": "Es explicar qué dice un texto y cómo lo dice. <mark>No basta con resumir: hay que analizar tema y forma</mark>. Se hace paso a paso, con un orden claro. Es una herramienta para leer con más profundidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/comentario-texto.jpg",
+        "alt": "Colección de cuadernos para escribir y tomar notas.",
+        "titulo": "Notebook collection",
+        "autor": "Dvortygirl",
+        "fuente": "https://www.flickr.com/photos/21093323@N02/2445114424",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se analiza primero en un comentario de texto literario?",
-      "respuesta": "Primero se identifica el tema principal del texto. <mark>Después se mira cómo está organizado, en qué partes</mark>. Ese primer paso da una visión general. Sin esa base, es difícil analizar los detalles después."
+      "respuesta": "Primero se identifica el tema principal del texto. <mark>Después se mira cómo está organizado, en qué partes</mark>. Ese primer paso da una visión general. Sin esa base, es difícil analizar los detalles después.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/analiza-primero.jpg",
+        "alt": "Estantería con libros ordenados, lista para consultar.",
+        "titulo": "shelves",
+        "autor": "stu_spivack",
+        "fuente": "https://www.flickr.com/photos/35034346243@N01/66053431",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se analiza después del tema en un comentario de texto?",
-      "respuesta": "Después se mira cómo está escrito el texto. <mark>Se buscan recursos literarios, como metáforas o comparaciones</mark>. También el tipo de lenguaje que usa el autor. Esa forma ayuda a transmitir mejor el tema."
+      "respuesta": "Después se mira cómo está escrito el texto. <mark>Se buscan recursos literarios, como metáforas o comparaciones</mark>. También el tipo de lenguaje que usa el autor. Esa forma ayuda a transmitir mejor el tema.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/analiza-despues-tema.jpg",
+        "alt": "Placa conmemorativa con un texto grabado sobre un poeta.",
+        "titulo": "Poet Plaque",
+        "autor": "darktimespress",
+        "fuente": "https://www.flickr.com/photos/43052097@N02/4284178038",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué comentar un texto no es lo mismo que resumirlo?",
-      "respuesta": "Resumir solo cuenta qué pasa en el texto. <mark>Comentar explica además por qué el autor lo escribió así</mark>. Analiza el efecto que buscan sus palabras. Va más allá del contenido, hasta la forma."
+      "respuesta": "Resumir solo cuenta qué pasa en el texto. <mark>Comentar explica además por qué el autor lo escribió así</mark>. Analiza el efecto que buscan sus palabras. Va más allá del contenido, hasta la forma.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_literatura/comentar-no-resumir.jpg",
+        "alt": "Un rollo de pergamino con un texto extenso escrito.",
+        "titulo": "Jubilee scroll / Sgrôl y Jiwbilî",
+        "autor": "National Assembly For Wales / Cynulliad Cymru",
+        "fuente": "https://www.flickr.com/photos/39069511@N03/7294582196",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

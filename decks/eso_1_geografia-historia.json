@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué son la rotación y la traslación de la Tierra?",
-      "respuesta": "La rotación es el giro de la Tierra sobre sí misma, un giro al día. <mark>Ese giro es lo que causa el día y la noche</mark>. La traslación es la vuelta completa alrededor del Sol, en un año. Juntos explican por qué hay días, noches y estaciones."
+      "respuesta": "La rotación es el giro de la Tierra sobre sí misma, un giro al día. <mark>Ese giro es lo que causa el día y la noche</mark>. La traslación es la vuelta completa alrededor del Sol, en un año. Juntos explican por qué hay días, noches y estaciones.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/tierra-desde-espacio.jpg",
+        "alt": "La Tierra vista desde el espacio, girando sobre sí misma",
+        "titulo": "Black Marble - Asia and Australia",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/8246893143",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué capas tiene la Tierra por dentro?",
-      "respuesta": "Tiene tres capas principales: corteza, manto y núcleo. <mark>Es como un melocotón: piel fina, pulpa gruesa y hueso en el centro</mark>. La corteza es la capa donde vivimos, muy delgada. El núcleo, en el centro, es muchísimo más caliente."
+      "respuesta": "Tiene tres capas principales: corteza, manto y núcleo. <mark>Es como un melocotón: piel fina, pulpa gruesa y hueso en el centro</mark>. La corteza es la capa donde vivimos, muy delgada. El núcleo, en el centro, es muchísimo más caliente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/estratos-roca-capas.jpg",
+        "alt": "Capas de roca visibles, como las capas del interior de la Tierra",
+        "titulo": "Fidalgo Island Strata",
+        "autor": "brewbooks",
+        "fuente": "https://www.flickr.com/photos/93452909@N00/373236831",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las coordenadas geográficas?",
-      "respuesta": "Son dos líneas imaginarias, latitud y longitud, que localizan un lugar exacto. <mark>Funcionan como las calles y avenidas de un plano, cruzándose en un punto</mark>. La latitud mide la distancia al ecuador. La longitud mide la distancia a un meridiano de referencia."
+      "respuesta": "Son dos líneas imaginarias, latitud y longitud, que localizan un lugar exacto. <mark>Funcionan como las calles y avenidas de un plano, cruzándose en un punto</mark>. La latitud mide la distancia al ecuador. La longitud mide la distancia a un meridiano de referencia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/globo-terraqueo-mundo.jpg",
+        "alt": "Un globo terráqueo con líneas de coordenadas geográficas",
+        "titulo": "GOC: World, Broadcasting House, London",
+        "autor": "Peter O'Connor aka anemoneprojectors",
+        "fuente": "https://www.flickr.com/photos/58414938@N00/53079618049",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve la escala de un mapa?",
-      "respuesta": "Indica cuánto se ha reducido el tamaño real para dibujarlo en el mapa. <mark>Es como una maqueta: pequeña, pero con las proporciones reales</mark>. Sin escala, no sabrías si dos ciudades están cerca o lejos de verdad. Por eso todo mapa fiable la incluye."
+      "respuesta": "Indica cuánto se ha reducido el tamaño real para dibujarlo en el mapa. <mark>Es como una maqueta: pequeña, pero con las proporciones reales</mark>. Sin escala, no sabrías si dos ciudades están cerca o lejos de verdad. Por eso todo mapa fiable la incluye.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/mapa-antiguo-1696.jpg",
+        "alt": "Un mapa antiguo del Reino de León, dibujado a escala",
+        "titulo": "León (Reino). Mapas Generales. 1696",
+        "autor": "Giacomo Cantelli da Viga",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=156473778",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es el relieve de un territorio?",
-      "respuesta": "Es el conjunto de formas que tiene la superficie de la Tierra. <mark>Incluye montañas, llanuras, valles y costas, como el relieve de una escultura</mark>. Se forma por fuerzas internas, como los terremotos. También lo transforman el agua, el viento y el hielo."
+      "respuesta": "Es el conjunto de formas que tiene la superficie de la Tierra. <mark>Incluye montañas, llanuras, valles y costas, como el relieve de una escultura</mark>. Se forma por fuerzas internas, como los terremotos. También lo transforman el agua, el viento y el hielo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/pico-orizaba-amanecer.jpg",
+        "alt": "Una montaña alta, un ejemplo de relieve terrestre",
+        "titulo": "Pico de Orizaba al amanecer",
+        "autor": "parlitteras",
+        "fuente": "https://www.flickr.com/photos/37506201@N07/6700039367",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué procesos modifican la superficie terrestre con el tiempo?",
-      "respuesta": "La erosión, el transporte y la sedimentación cambian el paisaje poco a poco. <mark>El agua y el viento actúan como un escultor lentísimo, tallando la roca</mark>. Un río puede tardar millones de años en abrir un cañón. Por eso el relieve nunca deja de cambiar."
+      "respuesta": "La erosión, el transporte y la sedimentación cambian el paisaje poco a poco. <mark>El agua y el viento actúan como un escultor lentísimo, tallando la roca</mark>. Un río puede tardar millones de años en abrir un cañón. Por eso el relieve nunca deja de cambiar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/gran-canon-erosion.jpg",
+        "alt": "El Gran Cañón, formado por la erosión durante millones de años",
+        "titulo": "Grand Canyon National Park: South Rim - Panorama from Moran Point",
+        "autor": "Grand Canyon NPS",
+        "fuente": "https://www.flickr.com/photos/50693818@N08/7290025068",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la atmósfera?",
-      "respuesta": "Es la capa de aire que envuelve la Tierra. <mark>Actúa como una manta que nos protege del frío del espacio</mark>. También filtra parte de la radiación peligrosa del Sol. Sin atmósfera, no podría existir vida como la conocemos."
+      "respuesta": "Es la capa de aire que envuelve la Tierra. <mark>Actúa como una manta que nos protege del frío del espacio</mark>. También filtra parte de la radiación peligrosa del Sol. Sin atmósfera, no podría existir vida como la conocemos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/cielo-nubes-azul.jpg",
+        "alt": "Un cielo azul con nubes, parte de la atmósfera terrestre",
+        "titulo": "Blue sky with clouds 003",
+        "autor": "SoraZG",
+        "fuente": "https://www.flickr.com/photos/11939863@N08/1197112406",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre el tiempo atmosférico y el clima?",
-      "respuesta": "El tiempo es cómo está el cielo hoy, en un lugar concreto. <mark>El clima es la media de ese tiempo durante muchos años</mark>. Por ejemplo, puede nevar un día en un sitio de clima cálido. Eso no cambia el clima general de esa zona."
+      "respuesta": "El tiempo es cómo está el cielo hoy, en un lugar concreto. <mark>El clima es la media de ese tiempo durante muchos años</mark>. Por ejemplo, puede nevar un día en un sitio de clima cálido. Eso no cambia el clima general de esa zona.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/satelite-tormenta-nubes.jpg",
+        "alt": "Una imagen de satélite de un sistema de nubes, el tiempo atmosférico de un día",
+        "titulo": "GOES-13 Satellite Sees a 'Giant Apostrophe' from Strong Eastern U.S. Low Pressure",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/5613590383",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué España tiene climas tan distintos entre el norte y el sur?",
-      "respuesta": "El relieve, la cercanía al mar y la latitud cambian mucho de una zona a otra. <mark>Un país puede ser como un mosaico de climas distintos, no uno solo</mark>. El norte suele ser lluvioso y suave; el sur, más seco y caluroso. Por eso hablamos de diversidad bioclimática."
+      "respuesta": "El relieve, la cercanía al mar y la latitud cambian mucho de una zona a otra. <mark>Un país puede ser como un mosaico de climas distintos, no uno solo</mark>. El norte suele ser lluvioso y suave; el sur, más seco y caluroso. Por eso hablamos de diversidad bioclimática.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/montanas-sur-espana.jpg",
+        "alt": "Montañas del sur de España, un paisaje distinto al del norte",
+        "titulo": "Mountains of South Spain",
+        "autor": "Ari Helminen",
+        "fuente": "https://www.flickr.com/photos/36093266@N06/4529892979",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la hidrosfera?",
-      "respuesta": "Es toda el agua del planeta: mares, ríos, lagos y hielos. <mark>Es como la red de venas de la Tierra, repartiendo agua por todas partes</mark>. La mayor parte del agua del planeta está en los océanos. El agua dulce, la que bebemos, es solo una pequeña parte."
+      "respuesta": "Es toda el agua del planeta: mares, ríos, lagos y hielos. <mark>Es como la red de venas de la Tierra, repartiendo agua por todas partes</mark>. La mayor parte del agua del planeta está en los océanos. El agua dulce, la que bebemos, es solo una pequeña parte.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/playa-praia-grande.jpg",
+        "alt": "El mar visto desde una playa, parte de la hidrosfera",
+        "titulo": "Praia Grande - SP",
+        "autor": "rvcroffi",
+        "fuente": "https://www.flickr.com/photos/55947840@N00/11654605886",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un paisaje natural?",
-      "respuesta": "Es cómo se ve un lugar cuando lo forman sobre todo elementos naturales. <mark>El clima, el relieve y la vegetación se combinan como los ingredientes de una receta</mark>. Un desierto y una selva son paisajes muy distintos. Cada paisaje tiene plantas y animales adaptados a él."
+      "respuesta": "Es cómo se ve un lugar cuando lo forman sobre todo elementos naturales. <mark>El clima, el relieve y la vegetación se combinan como los ingredientes de una receta</mark>. Un desierto y una selva son paisajes muy distintos. Cada paisaje tiene plantas y animales adaptados a él.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/desierto-nubes.jpg",
+        "alt": "Un paisaje de desierto con nubes en el cielo",
+        "titulo": "Nubes en el desierto",
+        "autor": "Christian Frausto Bernal",
+        "fuente": "https://www.flickr.com/photos/34608250@N00/268797341",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una zona bioclimática?",
-      "respuesta": "Es una gran región del planeta con un clima y una vegetación parecidos. <mark>Es como un barrio ecológico, con vecinos adaptados al mismo ambiente</mark>. La selva tropical y la tundra son dos ejemplos muy distintos. Cada zona alberga especies propias."
+      "respuesta": "Es una gran región del planeta con un clima y una vegetación parecidos. <mark>Es como un barrio ecológico, con vecinos adaptados al mismo ambiente</mark>. La selva tropical y la tundra son dos ejemplos muy distintos. Cada zona alberga especies propias.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/picos-rocosos-niebla.jpg",
+        "alt": "Picos rocosos cubiertos de niebla, una zona bioclimática de montaña",
+        "titulo": "Barren rocky peaks covered by white fog",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4268688992",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué caracteriza a la Europa atlántica?",
-      "respuesta": "Tiene un clima lluvioso y suave, gracias a la cercanía del océano. <mark>El mar actúa como un termostato, suavizando el frío y el calor</mark>. Los paisajes son muy verdes durante todo el año. Irlanda o el norte de España son buenos ejemplos."
+      "respuesta": "Tiene un clima lluvioso y suave, gracias a la cercanía del océano. <mark>El mar actúa como un termostato, suavizando el frío y el calor</mark>. Los paisajes son muy verdes durante todo el año. Irlanda o el norte de España son buenos ejemplos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/costa-atlantica-verde.jpg",
+        "alt": "Una costa atlántica verde y frondosa",
+        "titulo": "Cheticamp Coast",
+        "autor": "Bold Frontiers",
+        "fuente": "https://www.flickr.com/photos/82955120@N05/8677576926",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué caracteriza al clima mediterráneo?",
-      "respuesta": "Tiene veranos secos y calurosos, e inviernos suaves y lluviosos. <mark>Es el clima típico de los países bañados por el mar Mediterráneo</mark>. El olivo está adaptado a la falta de agua en verano. Buena parte de España tiene este clima."
+      "respuesta": "Tiene veranos secos y calurosos, e inviernos suaves y lluviosos. <mark>Es el clima típico de los países bañados por el mar Mediterráneo</mark>. El olivo está adaptado a la falta de agua en verano. Buena parte de España tiene este clima.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/olivo-mediterraneo.jpg",
+        "alt": "Un olivo, típico del clima mediterráneo",
+        "titulo": "Close up of an Olive Tree",
+        "autor": "Ian W Scott",
+        "fuente": "https://www.flickr.com/photos/38000818@N06/5767827378",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la biodiversidad?",
-      "respuesta": "Es la variedad de seres vivos que existen en un lugar. <mark>Es como una gran orquesta: cuantos más instrumentos distintos, más rica es la música</mark>. Cada especie cumple un papel dentro de su ecosistema. Perder una especie puede afectar a muchas otras."
+      "respuesta": "Es la variedad de seres vivos que existen en un lugar. <mark>Es como una gran orquesta: cuantos más instrumentos distintos, más rica es la música</mark>. Cada especie cumple un papel dentro de su ecosistema. Perder una especie puede afectar a muchas otras.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/selva-tropical-biodiversidad.jpg",
+        "alt": "Una selva tropical llena de vida y especies distintas",
+        "titulo": "Corcovado, Puntarenas",
+        "autor": "Vamos Car Rental Costa Rica",
+        "fuente": "https://www.flickr.com/photos/72644781@N02/7611652476",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante proteger el patrimonio natural?",
-      "respuesta": "Porque un paisaje o una especie, una vez destruidos, pueden no recuperarse nunca. <mark>Es como un libro único: si se quema, esa historia se pierde para siempre</mark>. Parques naturales y reservas ayudan a conservarlo. Cuidarlo hoy asegura que siga existiendo mañana."
+      "respuesta": "Porque un paisaje o una especie, una vez destruidos, pueden no recuperarse nunca. <mark>Es como un libro único: si se quema, esa historia se pierde para siempre</mark>. Parques naturales y reservas ayudan a conservarlo. Cuidarlo hoy asegura que siga existiendo mañana.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia/ciervo-parque-nacional.jpg",
+        "alt": "Un ciervo en un parque nacional protegido",
+        "titulo": "Deer @ Guindy National (Childrens) Park, Chennai",
+        "autor": "VinothChandar",
+        "fuente": "https://www.flickr.com/photos/44345361@N06/4240774798",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

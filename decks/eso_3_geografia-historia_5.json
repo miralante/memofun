@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Cómo llegó la dinastía de los Borbones al trono de España?",
-      "respuesta": "Llegó en 1700, tras la muerte sin descendencia del último rey de los Austrias. <mark>Es como heredar una empresa sin que quede claro quién debía dirigirla</mark>. Felipe de Borbón, nieto del rey de Francia, fue elegido como nuevo rey. Esa elección provocó una guerra por el trono español."
+      "respuesta": "Llegó en 1700, tras la muerte sin descendencia del último rey de los Austrias. <mark>Es como heredar una empresa sin que quede claro quién debía dirigirla</mark>. Felipe de Borbón, nieto del rey de Francia, fue elegido como nuevo rey. Esa elección provocó una guerra por el trono español.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/dinastia-borbones.jpg",
+        "alt": "Retrato pintado de un rey europeo antiguo",
+        "titulo": "King Ferdinard of Aragon, Father of Catherine of Aragon",
+        "autor": "lisby1",
+        "fuente": "https://www.flickr.com/photos/60861613@N00/3335943661",
+        "licencia": "Public Domain Mark 1.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Guerra de Sucesión española?",
-      "respuesta": "Fue el conflicto por decidir quién sería el nuevo rey de España, tras 1700. <mark>Varias potencias europeas apoyaban a distintos candidatos, temiendo que España se hiciera demasiado fuerte</mark>. Duró más de una década. Terminó con Felipe V como rey, pero con condiciones impuestas."
+      "respuesta": "Fue el conflicto por decidir quién sería el nuevo rey de España, tras 1700. <mark>Varias potencias europeas apoyaban a distintos candidatos, temiendo que España se hiciera demasiado fuerte</mark>. Duró más de una década. Terminó con Felipe V como rey, pero con condiciones impuestas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/guerra-sucesion.jpg",
+        "alt": "Mapa antiguo de Europa, tipo atlas histórico",
+        "titulo": "Cosmographia.",
+        "autor": "Norman B. Leventhal Map Center at the BPL",
+        "fuente": "https://www.flickr.com/photos/24528911@N05/2709976847",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el Tratado de Utrecht?",
-      "respuesta": "Fue el acuerdo que puso fin a la Guerra de Sucesión española, en 1713. <mark>España tuvo que ceder territorios a cambio de que aceptaran a su nuevo rey</mark>. Perdió posesiones como Gibraltar, que sigue siendo motivo de debate hoy. Marcó el inicio de la dinastía borbónica en España."
+      "respuesta": "Fue el acuerdo que puso fin a la Guerra de Sucesión española, en 1713. <mark>España tuvo que ceder territorios a cambio de que aceptaran a su nuevo rey</mark>. Perdió posesiones como Gibraltar, que sigue siendo motivo de debate hoy. Marcó el inicio de la dinastía borbónica en España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/tratado-utrecht.jpg",
+        "alt": "Documento antiguo escrito a mano, con letra manuscrita",
+        "titulo": "IB75 B6388U 771d",
+        "autor": "Provenance Online Project",
+        "fuente": "https://www.flickr.com/photos/58558794@N07/6619860225",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué caracterizó a los reinados de Felipe V, Fernando VI, Carlos III y Carlos IV?",
-      "respuesta": "Fueron los reyes borbones del siglo dieciocho en España. <mark>Poco a poco intentaron modernizar la administración y la economía del país</mark>. Carlos III destacó especialmente por sus reformas ilustradas. Carlos IV, en cambio, gobernó en un periodo de crisis creciente."
+      "respuesta": "Fueron los reyes borbones del siglo dieciocho en España. <mark>Poco a poco intentaron modernizar la administración y la economía del país</mark>. Carlos III destacó especialmente por sus reformas ilustradas. Carlos IV, en cambio, gobernó en un periodo de crisis creciente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/reinados-borbones.jpg",
+        "alt": "Palacio Real de Madrid visto desde fuera",
+        "titulo": "File:Madrid. Royal Palace. Spain (4083783003).jpg",
+        "autor": "Tomás Fano",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=39287754",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Ilustración en España?",
-      "respuesta": "Fue el movimiento que trajo a España ideas de razón, ciencia y reforma. <mark>Llegó más tarde y con menos fuerza que en Francia o Inglaterra</mark>. Impulsó academias, hospitales y mejoras en la educación. Carlos III fue uno de los reyes que más la apoyó."
+      "respuesta": "Fue el movimiento que trajo a España ideas de razón, ciencia y reforma. <mark>Llegó más tarde y con menos fuerza que en Francia o Inglaterra</mark>. Impulsó academias, hospitales y mejoras en la educación. Carlos III fue uno de los reyes que más la apoyó.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/ilustracion.jpg",
+        "alt": "Sala de una biblioteca antigua llena de libros",
+        "titulo": "1800s Library",
+        "autor": "Barta IV",
+        "fuente": "https://www.flickr.com/photos/98640399@N08/10030588973",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación tenía España con América en el siglo XVIII?",
-      "respuesta": "España seguía gobernando un enorme imperio colonial en América. <mark>Ese imperio aportaba plata, productos y también muchos gastos militares</mark>. Se organizó la administración colonial en virreinatos. Esa relación empezaría a debilitarse a comienzos del siglo diecinueve."
+      "respuesta": "España seguía gobernando un enorme imperio colonial en América. <mark>Ese imperio aportaba plata, productos y también muchos gastos militares</mark>. Se organizó la administración colonial en virreinatos. Esa relación empezaría a debilitarse a comienzos del siglo diecinueve.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/espana-america-xviii.jpg",
+        "alt": "Velero histórico navegando, tipo barco colonial",
+        "titulo": "Cutty Sark-Historic Clipper Ship",
+        "autor": "tonynetone",
+        "fuente": "https://www.flickr.com/photos/26208889@N05/5011503365",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué legado dejó España en América?",
-      "respuesta": "Dejó el idioma español, la religión católica y numerosas ciudades y edificios. <mark>Ese legado sigue vivo hoy en la lengua y la cultura de gran parte del continente</mark>. También dejó una mezcla profunda entre culturas indígenas y europeas. Sigue siendo motivo de estudio y de debate."
+      "respuesta": "Dejó el idioma español, la religión católica y numerosas ciudades y edificios. <mark>Ese legado sigue vivo hoy en la lengua y la cultura de gran parte del continente</mark>. También dejó una mezcla profunda entre culturas indígenas y europeas. Sigue siendo motivo de estudio y de debate.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/legado-america.jpg",
+        "alt": "Plaza colonial en una ciudad de América Latina",
+        "titulo": "Plaza de la Independencia, Quito, Ecuador",
+        "autor": "Dallas Krentzel",
+        "fuente": "https://www.flickr.com/photos/31867959@N04/6011813005",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Guerra de la Independencia española?",
-      "respuesta": "Fue el conflicto contra la ocupación francesa de España, entre 1808 y 1814. <mark>El pueblo español se levantó contra las tropas de Napoleón</mark>. Combinó batallas regulares con la resistencia de guerrillas populares. Terminó con la expulsión de las tropas francesas del país."
+      "respuesta": "Fue el conflicto contra la ocupación francesa de España, entre 1808 y 1814. <mark>El pueblo español se levantó contra las tropas de Napoleón</mark>. Combinó batallas regulares con la resistencia de guerrillas populares. Terminó con la expulsión de las tropas francesas del país.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/guerra-independencia.jpg",
+        "alt": "Cañón antiguo de bronce, típico de la guerra napoleónica",
+        "titulo": "'O Cannuni' - Mazzarino",
+        "autor": "Giuseppe Bognanni",
+        "fuente": "https://www.flickr.com/photos/79286287@N00/275261673",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Constitución de Cádiz?",
-      "respuesta": "Fue la primera Constitución liberal de España, aprobada en 1812. <mark>Se redactó mientras el país aún luchaba contra la ocupación francesa</mark>. Reconocía la soberanía nacional y limitaba el poder absoluto del rey. Se la conoce popularmente como 'La Pepa'."
+      "respuesta": "Fue la primera Constitución liberal de España, aprobada en 1812. <mark>Se redactó mientras el país aún luchaba contra la ocupación francesa</mark>. Reconocía la soberanía nacional y limitaba el poder absoluto del rey. Se la conoce popularmente como 'La Pepa'.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/constitucion-cadiz.jpg",
+        "alt": "Un ejemplar de la Constitución de Cádiz de 1812",
+        "titulo": "Constitucion de Cadiz",
+        "autor": "Daniel Henao",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=24454137",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué pasó durante el reinado de Fernando VII?",
-      "respuesta": "Volvió al trono tras la guerra e intentó restaurar el absolutismo. <mark>Anuló la Constitución de Cádiz apenas pudo recuperar el poder</mark>. Su reinado estuvo marcado por tensiones entre liberales y absolutistas. Fue una etapa de gran inestabilidad política en España."
+      "respuesta": "Volvió al trono tras la guerra e intentó restaurar el absolutismo. <mark>Anuló la Constitución de Cádiz apenas pudo recuperar el poder</mark>. Su reinado estuvo marcado por tensiones entre liberales y absolutistas. Fue una etapa de gran inestabilidad política en España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/fernando-vii.jpg",
+        "alt": "Retrato pintado de un rey con traje real",
+        "titulo": "portrait of King George V",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/6061861167",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasó con las colonias americanas durante el reinado de Fernando VII?",
-      "respuesta": "La mayoría de ellas lograron su independencia de España. <mark>Aprovecharon la debilidad española tras la guerra contra Francia</mark>. Surgieron así países como México, Argentina o Colombia. España perdió así la mayor parte de su imperio americano."
+      "respuesta": "La mayoría de ellas lograron su independencia de España. <mark>Aprovecharon la debilidad española tras la guerra contra Francia</mark>. Surgieron así países como México, Argentina o Colombia. España perdió así la mayor parte de su imperio americano.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/colonias-americanas.jpg",
+        "alt": "Estatua de Simón Bolívar, líder de la independencia americana",
+        "titulo": "Simon Bolivar 'The Liberator'",
+        "autor": "dbking",
+        "fuente": "https://www.flickr.com/photos/65193799@N00/469120791",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué caracterizó el reinado de Isabel II?",
-      "respuesta": "Fue un reinado largo, marcado por luchas entre liberales moderados y progresistas. <mark>España vivió entonces continuos cambios de gobierno y varias revueltas</mark>. Terminó siendo derrocada en una revolución en 1868. Su caída abrió una nueva etapa política en España."
+      "respuesta": "Fue un reinado largo, marcado por luchas entre liberales moderados y progresistas. <mark>España vivió entonces continuos cambios de gobierno y varias revueltas</mark>. Terminó siendo derrocada en una revolución en 1868. Su caída abrió una nueva etapa política en España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/isabel-ii.jpg",
+        "alt": "Corona real con joyas",
+        "titulo": "royal crown jewels",
+        "autor": "bwstock",
+        "fuente": "https://www.flickr.com/photos/16962092@N03/36840935411",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el Sexenio Revolucionario?",
-      "respuesta": "Fue un periodo de seis años, tras la caída de Isabel II, con distintos experimentos políticos. <mark>España probó incluso, por primera vez, una forma de gobierno republicana</mark>. Hubo un rey extranjero, una república y mucha inestabilidad. Terminó con la vuelta de la monarquía borbónica."
+      "respuesta": "Fue un periodo de seis años, tras la caída de Isabel II, con distintos experimentos políticos. <mark>España probó incluso, por primera vez, una forma de gobierno republicana</mark>. Hubo un rey extranjero, una república y mucha inestabilidad. Terminó con la vuelta de la monarquía borbónica.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/sexenio-revolucionario.jpg",
+        "alt": "Urnas electorales abiertas antes de una votación",
+        "titulo": "Open ballot boxes before the voting started",
+        "autor": "Antony Njenga",
+        "fuente": "https://www.flickr.com/photos/13667942@N05/2170867663",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Restauración en España?",
-      "respuesta": "Fue el periodo tras el Sexenio en que volvió la monarquía borbónica, de forma más estable. <mark>Se turnaban en el poder dos partidos, casi como si se repartieran los turnos de antemano</mark>. Trajo décadas de mayor estabilidad política. Pero dejó fuera del sistema a buena parte de la población."
+      "respuesta": "Fue el periodo tras el Sexenio en que volvió la monarquía borbónica, de forma más estable. <mark>Se turnaban en el poder dos partidos, casi como si se repartieran los turnos de antemano</mark>. Trajo décadas de mayor estabilidad política. Pero dejó fuera del sistema a buena parte de la población.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/restauracion.jpg",
+        "alt": "Edificio histórico del Museo del Prado en Madrid",
+        "titulo": "Prado Museum..Museo del Prado",
+        "autor": "BOMBMAN",
+        "fuente": "https://www.flickr.com/photos/99622129@N00/9072774549",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué transformaciones económicas y sociales vivió España en el siglo XIX?",
-      "respuesta": "La industria creció, sobre todo en Cataluña y el País Vasco. <mark>El campo, en cambio, siguió siendo pobre en gran parte del país</mark>. Aumentó la población en las ciudades industriales. Esas diferencias regionales marcaron buena parte de la historia española posterior."
+      "respuesta": "La industria creció, sobre todo en Cataluña y el País Vasco. <mark>El campo, en cambio, siguió siendo pobre en gran parte del país</mark>. Aumentó la población en las ciudades industriales. Esas diferencias regionales marcaron buena parte de la historia española posterior.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/transformaciones-xix.jpg",
+        "alt": "Locomotora de vapor antigua, típica del siglo XIX",
+        "titulo": "4-4-0 LSWR X2 Class No 577",
+        "autor": "ahisgett",
+        "fuente": "https://www.flickr.com/photos/37804979@N00/5673950070",
+        "licencia": "Public Domain Mark 1.0"
+      }
     },
     {
       "pregunta": "¿Cómo fue la cultura española del siglo XIX?",
-      "respuesta": "Vivió un momento importante en literatura, pintura y pensamiento. <mark>Autores y artistas reflejaban tanto los cambios políticos como los del paisaje social</mark>. El Romanticismo influyó mucho en la literatura y el arte de la época. Esa cultura preparó el terreno para la Generación del 98."
+      "respuesta": "Vivió un momento importante en literatura, pintura y pensamiento. <mark>Autores y artistas reflejaban tanto los cambios políticos como los del paisaje social</mark>. El Romanticismo influyó mucho en la literatura y el arte de la época. Esa cultura preparó el terreno para la Generación del 98.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/cultura-xix.jpg",
+        "alt": "Sala de una exposición de arte con cuadros colgados",
+        "titulo": "'Finnish Art Society 1846-1896', 50th Anniversary Jubilee Exhibition",
+        "autor": "Finnish National Gallery",
+        "fuente": "https://www.flickr.com/photos/127104863@N05/24182897034",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué relación había entre la Guerra de la Independencia y la Constitución de Cádiz?",
-      "respuesta": "La guerra contra Francia coincidió con el primer gran experimento liberal español. <mark>Mientras el país luchaba fuera, dentro se debatía cómo debía gobernarse</mark>. Los diputados de Cádiz aprovecharon ese momento para limitar el poder absoluto. Por eso ambos hechos están tan unidos en la historia de España."
+      "respuesta": "La guerra contra Francia coincidió con el primer gran experimento liberal español. <mark>Mientras el país luchaba fuera, dentro se debatía cómo debía gobernarse</mark>. Los diputados de Cádiz aprovecharon ese momento para limitar el poder absoluto. Por eso ambos hechos están tan unidos en la historia de España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/guerra-independencia-cadiz.jpg",
+        "alt": "Documento antiguo escrito a mano en el siglo XVIII",
+        "titulo": "Beautifully written in 1793...",
+        "autor": "storebukkebruse",
+        "fuente": "https://www.flickr.com/photos/8536261@N07/6133797257",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué el siglo XIX se considera una época de inestabilidad política en España?",
-      "respuesta": "Porque hubo guerras, cambios de Constitución y varios tipos de gobierno distintos. <mark>Es como cambiar de reglas de juego una y otra vez, sin ponerse de acuerdo</mark>. Liberales y absolutistas se enfrentaron durante décadas. Esa inestabilidad marcó la política española hasta el siglo veinte."
+      "respuesta": "Porque hubo guerras, cambios de Constitución y varios tipos de gobierno distintos. <mark>Es como cambiar de reglas de juego una y otra vez, sin ponerse de acuerdo</mark>. Liberales y absolutistas se enfrentaron durante décadas. Esa inestabilidad marcó la política española hasta el siglo veinte.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_5/inestabilidad-politica.jpg",
+        "alt": "Página de un periódico antiguo",
+        "titulo": "'Dazzled by the brights' - Sunday Sun newspaper.",
+        "autor": "Claire Briston.",
+        "fuente": "https://www.flickr.com/photos/60295285@N00/8511358356",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

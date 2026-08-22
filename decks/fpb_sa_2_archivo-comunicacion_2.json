@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué normas conviene seguir al recibir una llamada de trabajo?",
-      "respuesta": "Contestar con rapidez, identificarse y hablar con un tono claro y amable. <mark>Es como recibir a alguien en la puerta de una oficina, pero solo con la voz</mark>."
+      "respuesta": "Contestar con rapidez, identificarse y hablar con un tono claro y amable. <mark>Es como recibir a alguien en la puerta de una oficina, pero solo con la voz</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/telefono-llamada.jpg",
+        "alt": "Un teléfono, usado para las llamadas de trabajo",
+        "titulo": "Lascia stare l'email e usa il telefono",
+        "autor": "paz.ca",
+        "fuente": "https://www.flickr.com/photos/36133580@N03/6312089182",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué conviene hacer antes de hacer una llamada de trabajo?",
-      "respuesta": "Preparar lo que se quiere decir y tener a mano la información necesaria. <mark>Es como preparar antes lo que vas a decir, para no dudar durante la llamada</mark>."
+      "respuesta": "Preparar lo que se quiere decir y tener a mano la información necesaria. <mark>Es como preparar antes lo que vas a decir, para no dudar durante la llamada</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/notas-antes-llamada.jpg",
+        "alt": "Una persona tomando notas antes de hacer una llamada",
+        "titulo": "Notepad Paper",
+        "autor": "Daria Nepriakhina",
+        "fuente": "https://stocksnap.io/photo/notepad-paper-DB7F22291B",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una centralita telefónica?",
-      "respuesta": "Es un sistema que gestiona y reparte las llamadas dentro de una empresa. <mark>Es como un cartero de llamadas, que las dirige a la persona correcta</mark>. Permite transferir llamadas entre departamentos."
+      "respuesta": "Es un sistema que gestiona y reparte las llamadas dentro de una empresa. <mark>Es como un cartero de llamadas, que las dirige a la persona correcta</mark>. Permite transferir llamadas entre departamentos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/centralita-telefonica.jpg",
+        "alt": "Una centralita telefónica antigua con varios cables",
+        "titulo": "Police telephone switchboard 1955 (archive ref POL-4-10-9-22b)",
+        "autor": "East Riding Archives",
+        "fuente": "https://www.flickr.com/photos/138361426@N08/31980136291",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es transferir una llamada?",
-      "respuesta": "Es pasar una llamada en curso a otra persona o departamento. <mark>Es como pasar el testigo en una carrera, sin que la llamada se corte</mark>. Antes conviene explicar brevemente de qué trata."
+      "respuesta": "Es pasar una llamada en curso a otra persona o departamento. <mark>Es como pasar el testigo en una carrera, sin que la llamada se corte</mark>. Antes conviene explicar brevemente de qué trata.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/transferir-llamada.jpg",
+        "alt": "Una persona transfiriendo una llamada en su turno de trabajo",
+        "titulo": "Answering/transferring phone calls all shift.",
+        "autor": "JoshBermudez",
+        "fuente": "https://www.flickr.com/photos/23567711@N06/8183552336",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué conviene decir antes de poner una llamada en espera?",
-      "respuesta": "Avisar a la persona y pedirle permiso, en vez de dejarla esperando sin explicación. <mark>Es como avisar antes de dejar a alguien esperando en una fila</mark>."
+      "respuesta": "Avisar a la persona y pedirle permiso, en vez de dejarla esperando sin explicación. <mark>Es como avisar antes de dejar a alguien esperando en una fila</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/telefono-espera.jpg",
+        "alt": "Un teléfono de oficina",
+        "titulo": "Office Phone.JPG",
+        "autor": "Deman",
+        "fuente": "https://www.flickr.com/photos/60576602@N00/115111335",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la imagen de la empresa en la atención al público?",
-      "respuesta": "Es la impresión que se lleva una persona al ser atendida por esa empresa. <mark>Es como la ropa que alguien lleva a una entrevista: comunica antes incluso de hablar</mark>."
+      "respuesta": "Es la impresión que se lleva una persona al ser atendida por esa empresa. <mark>Es como la ropa que alguien lleva a una entrevista: comunica antes incluso de hablar</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/recepcionista-atencion.jpg",
+        "alt": "Una recepcionista contestando el teléfono",
+        "titulo": "receptionist answering phone at suburban eye care",
+        "autor": "Suburban Eye Care",
+        "fuente": "https://www.flickr.com/photos/79324464@N05/7269959082",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué cada persona que atiende al público representa a toda la empresa?",
-      "respuesta": "Porque, para quien llama o visita, esa persona es la cara de la empresa entera. <mark>Es como juzgar a todo un equipo por cómo juega uno solo de sus jugadores</mark>."
+      "respuesta": "Porque, para quien llama o visita, esa persona es la cara de la empresa entera. <mark>Es como juzgar a todo un equipo por cómo juega uno solo de sus jugadores</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/equipo-oficina.jpg",
+        "alt": "Un equipo de personas trabajando juntas en una oficina",
+        "titulo": "Development team",
+        "autor": "@boetter",
+        "fuente": "https://www.flickr.com/photos/47854931@N00/972528670",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué normas de cortesía conviene seguir al recibir una visita en la oficina?",
-      "respuesta": "Saludar, ofrecer asiento y avisar con rapidez a la persona que se espera. <mark>Es como recibir a un invitado en tu propia casa, con atención y respeto</mark>."
+      "respuesta": "Saludar, ofrecer asiento y avisar con rapidez a la persona que se espera. <mark>Es como recibir a un invitado en tu propia casa, con atención y respeto</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/saludo-visita-oficina.jpg",
+        "alt": "Dos personas dándose la mano al saludarse",
+        "titulo": "Woman shaking hands with business partner",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/45739277692",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante avisar rápido cuando llega una visita?",
-      "respuesta": "Porque hacerla esperar sin motivo puede dar mala impresión de la empresa. <mark>Es como dejar a alguien esperando en la puerta sin decirle nada</mark>."
+      "respuesta": "Porque hacerla esperar sin motivo puede dar mala impresión de la empresa. <mark>Es como dejar a alguien esperando en la puerta sin decirle nada</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/sala-espera.jpg",
+        "alt": "Una sala de espera con sillas",
+        "titulo": "Doctor's Office, Waiting Room",
+        "autor": "Consumerist Dot Com",
+        "fuente": "https://www.flickr.com/photos/21241181@N00/1893141861",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la comunicación telefónica y la imagen de la empresa?",
-      "respuesta": "Una llamada mal atendida puede generar la misma mala impresión que una visita mal recibida. <mark>Aunque no se vea a la persona, la voz también transmite una imagen</mark>."
+      "respuesta": "Una llamada mal atendida puede generar la misma mala impresión que una visita mal recibida. <mark>Aunque no se vea a la persona, la voz también transmite una imagen</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/mujer-hablando-telefono.jpg",
+        "alt": "Una mujer con ropa profesional hablando por teléfono",
+        "titulo": "A beautiful middle-aged woman dressed in business attire engages in a phone conversation",
+        "autor": "nenadstojkovicart",
+        "fuente": "https://www.flickr.com/photos/202846129@N03/54541504274",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que 'no hay una segunda oportunidad para una primera impresión'?",
-      "respuesta": "Porque la primera impresión condiciona cómo se percibe todo lo que viene después. <mark>Es como el primer bocado de un plato: marca la expectativa del resto</mark>."
+      "respuesta": "Porque la primera impresión condiciona cómo se percibe todo lo que viene después. <mark>Es como el primer bocado de un plato: marca la expectativa del resto</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/apreton-manos.jpg",
+        "alt": "Un apretón de manos entre dos personas",
+        "titulo": "Handshake man - women",
+        "autor": "flazingo_photos",
+        "fuente": "https://www.flickr.com/photos/124247024@N07/14090438714",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene la puntualidad en la atención de visitas o llamadas?",
-      "respuesta": "Ser puntual demuestra respeto por el tiempo de la otra persona. <mark>Es como llegar a tiempo a una cita, en vez de hacer esperar sin motivo</mark>."
+      "respuesta": "Ser puntual demuestra respeto por el tiempo de la otra persona. <mark>Es como llegar a tiempo a una cita, en vez de hacer esperar sin motivo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/reloj-oficina.jpg",
+        "alt": "Un reloj sobre una mesa de oficina",
+        "titulo": "office table top with laptop, potted plant, wheeled clock and magazines",
+        "autor": "ProFlowers.com",
+        "fuente": "https://www.flickr.com/photos/127365614@N08/16182138494",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante mantener el mismo trato amable, presencial o por teléfono?",
-      "respuesta": "Porque la calidad de la atención no debería depender del canal utilizado. <mark>Es como tratar igual de bien a alguien, lo veas o no lo veas</mark>."
+      "respuesta": "Porque la calidad de la atención no debería depender del canal utilizado. <mark>Es como tratar igual de bien a alguien, lo veas o no lo veas</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/atencion-cliente-representante.jpg",
+        "alt": "Una persona atendiendo a otra en un puesto de atención al cliente",
+        "titulo": "Seattle Public Utilities customer service representative, 2000",
+        "autor": "Seattle Municipal Archives",
+        "fuente": "https://www.flickr.com/photos/24256351@N04/3182935316",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que archivo y comunicación son tareas complementarias en una oficina?",
-      "respuesta": "Porque ambas organizan y transmiten información, aunque de formas distintas. <mark>Una guarda la información; la otra la comparte con quien la necesita</mark>."
+      "respuesta": "Porque ambas organizan y transmiten información, aunque de formas distintas. <mark>Una guarda la información; la otra la comparte con quien la necesita</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_2/archivador-oficina.jpg",
+        "alt": "Una empleada de oficina consultando un archivador de documentos",
+        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

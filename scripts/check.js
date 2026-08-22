@@ -23,7 +23,9 @@
       key actually registered (in each locale) by that page's own
       <script src> bundle.
    8. decks/manifest.json: every listed deck's `file` exists in decks/
-      and is valid JSON with a non-empty `tarjetas` array.
+      and is valid JSON with a non-empty `tarjetas` array; any card's
+      optional `imagen` has all its subfields, the referenced file
+      exists on disk, and the license isn't NC/ND (technical.md §3.1).
    9. doc/curriculum/ (recursively): every .md file parses as a valid
       content config (frontmatter with `tema`, via scripts/config-parser.js)
       and, if it has a `# Índice` section, that section is not empty.
@@ -191,8 +193,17 @@ var FORBIDDEN_TERMS = [
   { term: 'intellectual', match: 'substring' },
   { term: 'terapia ocupacional', match: 'substring' },
   { term: 'occupational therap', match: 'substring' },
+  { term: 'dificultades cognitivas', match: 'substring' },
+  { term: 'cognitive difficult', match: 'substring' },
   { term: 'necesidades especiales', match: 'substring' },
   { term: 'special needs', match: 'substring' },
+  { term: 'capacidades diferentes', match: 'substring' },
+  { term: 'different abilities', match: 'substring' },
+  { term: 'menor de edad', match: 'substring' },
+  { term: 'menores de edad', match: 'substring' },
+  { term: 'personas menores', match: 'substring' },
+  { term: 'menor que', match: 'substring' },
+  { term: 'menores que', match: 'substring' },
   { term: 'paciente', match: 'word' },
   { term: 'patient', match: 'word' },
   { term: 'minor', match: 'word' },
@@ -406,6 +417,29 @@ checks += 1;
                 ' tools/study/app.js inserts them into innerHTML unescaped to allow simple HTML');
             }
           });
+          if (card.imagen !== undefined) {
+            var imgLabel = 'decks/' + entry.file + ': tarjetas[' + ci + '].imagen';
+            var img = card.imagen;
+            if (typeof img !== 'object' || img === null) {
+              failures.push(imgLabel + ' must be an object');
+            } else {
+              ['archivo', 'alt', 'titulo', 'autor', 'fuente', 'licencia'].forEach(function (field) {
+                var v = img[field];
+                if (typeof v !== 'string' || !v.trim()) {
+                  failures.push(imgLabel + '.' + field + ' must be a non-empty string, got ' + (typeof v));
+                }
+              });
+              if (typeof img.archivo === 'string' && img.archivo.trim()) {
+                if (!fs.existsSync(path.join(ROOT, img.archivo))) {
+                  failures.push(imgLabel + '.archivo "' + img.archivo + '" does not exist on disk');
+                }
+              }
+              if (typeof img.licencia === 'string' && /(^|[\s-])(NC|ND)([\s-]|$)/i.test(img.licencia)) {
+                failures.push(imgLabel + '.licencia "' + img.licencia + '" is not safe to reuse — ' +
+                  'NC (non-commercial) and ND (no derivatives) licenses are not allowed, see technical.md §3.1');
+              }
+            }
+          }
         });
       }
     } catch (e) {

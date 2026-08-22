@@ -5,71 +5,207 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un presupuesto en una compra?",
-      "respuesta": "Es un documento que indica el precio estimado de un producto o servicio antes de comprarlo. <mark>Es como pedir precio antes de decidir si compras algo</mark>. No es un compromiso de compra, solo una estimación."
+      "respuesta": "Es un documento que indica el precio estimado de un producto o servicio antes de comprarlo. <mark>Es como pedir precio antes de decidir si compras algo</mark>. No es un compromiso de compra, solo una estimación.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/presupuesto-compra.jpg",
+        "alt": "Calculadora usada para hacer cuentas.",
+        "titulo": "Calculator",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5856725357",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil pedir varios presupuestos antes de comprar?",
-      "respuesta": "Porque permite comparar precios y condiciones entre distintos proveedores. <mark>Es como comparar precios en varias tiendas antes de elegir dónde comprar</mark>. Ayuda a tomar una decisión más informada."
+      "respuesta": "Porque permite comparar precios y condiciones entre distintos proveedores. <mark>Es como comparar precios en varias tiendas antes de elegir dónde comprar</mark>. Ayuda a tomar una decisión más informada.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/varios-presupuestos.jpg",
+        "alt": "Documento con la planificación y comparación de un gasto.",
+        "titulo": "Business Planning with Plan-Too",
+        "autor": "plantoo47",
+        "fuente": "https://www.flickr.com/photos/55260169@N07/5126107002",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las operaciones básicas de caja?",
-      "respuesta": "Son los cobros y pagos en efectivo que se hacen a lo largo del día. <mark>Es como el monedero de la empresa, siempre en movimiento</mark>. Cada entrada y salida debe quedar bien registrada."
+      "respuesta": "Son los cobros y pagos en efectivo que se hacen a lo largo del día. <mark>Es como el monedero de la empresa, siempre en movimiento</mark>. Cada entrada y salida debe quedar bien registrada.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/operaciones-caja.jpg",
+        "alt": "Caja registradora utilizada para cobrar en una tienda.",
+        "titulo": "Cash register",
+        "autor": "markhillary",
+        "fuente": "https://www.flickr.com/photos/56087830@N00/9547057312",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un cobro sencillo en caja?",
-      "respuesta": "Es recibir dinero de un cliente a cambio de un producto o servicio. <mark>Es como recibir el pago justo por lo que se entrega</mark>. Debe registrarse siempre, aunque sea una cantidad pequeña."
+      "respuesta": "Es recibir dinero de un cliente a cambio de un producto o servicio. <mark>Es como recibir el pago justo por lo que se entrega</mark>. Debe registrarse siempre, aunque sea una cantidad pequeña.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/cobro-caja.jpg",
+        "alt": "Caja registradora antigua utilizada para cobrar.",
+        "titulo": "Old Cash Register",
+        "autor": "Jo Jakeman",
+        "fuente": "https://www.flickr.com/photos/76713068@N00/2434236126",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un pago sencillo desde caja?",
-      "respuesta": "Es entregar dinero en efectivo para cubrir un gasto pequeño de la empresa. <mark>Es como sacar dinero del monedero para un gasto puntual</mark>. También debe quedar registrado, igual que los cobros."
+      "respuesta": "Es entregar dinero en efectivo para cubrir un gasto pequeño de la empresa. <mark>Es como sacar dinero del monedero para un gasto puntual</mark>. También debe quedar registrado, igual que los cobros.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/pago-caja.jpg",
+        "alt": "Billetes de dinero en efectivo para pagar.",
+        "titulo": "$900 Cash",
+        "autor": "alexik",
+        "fuente": "https://www.flickr.com/photos/44098626@N00/2497904239",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un recibo?",
-      "respuesta": "Es un documento que confirma que se ha realizado un pago. <mark>Es como una prueba en papel de que el pago se hizo de verdad</mark>. Sirve como justificante ante cualquier duda futura."
+      "respuesta": "Es un documento que confirma que se ha realizado un pago. <mark>Es como una prueba en papel de que el pago se hizo de verdad</mark>. Sirve como justificante ante cualquier duda futura.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/recibo.jpg",
+        "alt": "Recibo de pago con los datos de una compra.",
+        "titulo": "Board of Works receipt",
+        "autor": "Laineys Repertoire",
+        "fuente": "https://www.flickr.com/photos/76283671@N00/157827178",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante guardar los justificantes de pago?",
-      "respuesta": "Porque son la prueba de que una operación se realizó correctamente. <mark>Es como guardar un ticket de compra por si necesitas demostrar que pagaste</mark>."
+      "respuesta": "Porque son la prueba de que una operación se realizó correctamente. <mark>Es como guardar un ticket de compra por si necesitas demostrar que pagaste</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/guardar-justificantes.jpg",
+        "alt": "Rollos de papel para imprimir tickets y recibos.",
+        "titulo": "MFLABEL 10 Rolls Thermal Receipt Paper Rolls 3-1/8 x 230ft",
+        "autor": "shop8447",
+        "fuente": "https://www.flickr.com/photos/185514373@N06/49059520758",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la nómina?",
-      "respuesta": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo cada mes</mark>."
+      "respuesta": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo cada mes</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/nomina.jpg",
+        "alt": "Formulario oficial de impuestos relleno con datos.",
+        "titulo": "Form 1040 (US taxes) recovery period",
+        "autor": "AlisonChaiken",
+        "fuente": "https://www.flickr.com/photos/99725460@N00/8525863293",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué información básica incluye una nómina?",
-      "respuesta": "El nombre de la empresa y del trabajador, el salario y los descuentos aplicados. <mark>Es como una ficha que resume exactamente cuánto se cobra y por qué</mark>."
+      "respuesta": "El nombre de la empresa y del trabajador, el salario y los descuentos aplicados. <mark>Es como una ficha que resume exactamente cuánto se cobra y por qué</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/informacion-nomina.jpg",
+        "alt": "Página de un libro de cuentas con datos anotados.",
+        "titulo": "Southern Washtenaw Mill. Account book? for sale on eBay: sample page 1.",
+        "autor": "In Memoriam: Wystan",
+        "fuente": "https://www.flickr.com/photos/70251312@N00/15259843681",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los impresos y formularios oficiales?",
-      "respuesta": "Son documentos con un formato fijo, usados para hacer trámites ante la Administración. <mark>Es como una plantilla oficial que solo hay que rellenar con tus datos</mark>."
+      "respuesta": "Son documentos con un formato fijo, usados para hacer trámites ante la Administración. <mark>Es como una plantilla oficial que solo hay que rellenar con tus datos</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/impresos-formularios.jpg",
+        "alt": "Montón de facturas y formularios oficiales.",
+        "titulo": "Invoices",
+        "autor": "cybrgrl",
+        "fuente": "https://www.flickr.com/photos/84387590@N00/2693815369",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante rellenar bien un impreso oficial?",
-      "respuesta": "Porque un dato mal escrito puede retrasar o invalidar todo el trámite. <mark>Es como cometer un error en un formulario y tener que empezar de nuevo</mark>."
+      "respuesta": "Porque un dato mal escrito puede retrasar o invalidar todo el trámite. <mark>Es como cometer un error en un formulario y tener que empezar de nuevo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/material-oficina.jpg",
+        "alt": "Material de oficina, como folios y bolígrafos",
+        "titulo": "Material de oficina",
+        "autor": "srgpicker",
+        "fuente": "https://www.flickr.com/photos/91485322@N00/524904963",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el control de existencias del material de oficina?",
-      "respuesta": "Es el seguimiento de cuánto material queda disponible, como folios o bolígrafos. <mark>Es como llevar la cuenta de lo que queda en la despensa antes de que se acabe</mark>."
+      "respuesta": "Es el seguimiento de cuánto material queda disponible, como folios o bolígrafos. <mark>Es como llevar la cuenta de lo que queda en la despensa antes de que se acabe</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/control-existencias.jpg",
+        "alt": "Bolígrafos de colores, material típico de una oficina.",
+        "titulo": "Stick-Pens_Colored_30866-480x360",
+        "autor": "Public Domain Photos",
+        "fuente": "https://www.flickr.com/photos/28958738@N06/4904342193",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante controlar bien las existencias de material de oficina?",
-      "respuesta": "Porque quedarse sin material puede frenar el trabajo diario de toda la oficina. <mark>Es como quedarte sin ingredientes clave a mitad de una receta</mark>."
+      "respuesta": "Porque quedarse sin material puede frenar el trabajo diario de toda la oficina. <mark>Es como quedarte sin ingredientes clave a mitad de una receta</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/controlar-existencias.jpg",
+        "alt": "Bolígrafos y lápices ordenados como material de oficina.",
+        "titulo": "Tools for Sketching",
+        "autor": "plindberg",
+        "fuente": "https://www.flickr.com/photos/35237094214@N01/3749477476",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se hace cuando el material de oficina empieza a escasear?",
-      "respuesta": "Se genera un nuevo pedido al proveedor correspondiente, con la cantidad necesaria. <mark>Es como reponer la despensa antes de que se quede vacía del todo</mark>."
+      "respuesta": "Se genera un nuevo pedido al proveedor correspondiente, con la cantidad necesaria. <mark>Es como reponer la despensa antes de que se quede vacía del todo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/material-escasea.jpg",
+        "alt": "Estanterías con espacio libre, con pocos materiales guardados.",
+        "titulo": "Wall of Shelves",
+        "autor": "Jeremy Levine Design",
+        "fuente": "https://www.flickr.com/photos/25186605@N04/2818734013",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el presupuesto y el control de existencias?",
-      "respuesta": "Antes de pedir más material, conviene comparar precios con un presupuesto. <mark>Es como comparar precios antes de reponer algo que se ha acabado en casa</mark>."
+      "respuesta": "Antes de pedir más material, conviene comparar precios con un presupuesto. <mark>Es como comparar precios antes de reponer algo que se ha acabado en casa</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/presupuesto-existencias.jpg",
+        "alt": "Fichero con tarjetas organizadas para controlar existencias.",
+        "titulo": "University of Michigan Library Card Catalog",
+        "autor": "dfulmer",
+        "fuente": "https://www.flickr.com/photos/28376044@N00/4349880311",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante llevar un registro claro de cobros y pagos en caja?",
-      "respuesta": "Porque permite comprobar en cualquier momento si la caja está cuadrada. <mark>Es como comprobar que las cuentas de un juego salen bien al final</mark>."
+      "respuesta": "Porque permite comprobar en cualquier momento si la caja está cuadrada. <mark>Es como comprobar que las cuentas de un juego salen bien al final</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/registro-cobros-pagos.jpg",
+        "alt": "Montón de papeles con anotaciones de cobros y pagos.",
+        "titulo": "February 5, 2010 - Paperwork",
+        "autor": "nerdcoregirl",
+        "fuente": "https://www.flickr.com/photos/51352098@N00/4335907588",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que las técnicas administrativas básicas son la base de cualquier oficina?",
-      "respuesta": "Porque organizan tareas tan cotidianas como archivar, cobrar o pedir material. <mark>Es como los cimientos de un edificio: no se ven, pero sostienen todo lo demás</mark>."
+      "respuesta": "Porque organizan tareas tan cotidianas como archivar, cobrar o pedir material. <mark>Es como los cimientos de un edificio: no se ven, pero sostienen todo lo demás</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/base-oficina.jpg",
+        "alt": "Escritorio de oficina con ordenador, bien organizado.",
+        "titulo": "Desktop View",
+        "autor": "djsmiley2k",
+        "fuente": "https://www.flickr.com/photos/21170187@N04/4775276486",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

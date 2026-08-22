@@ -32,6 +32,15 @@ script; it was removed on purpose). If a task seems to require
 re-adding an API call, stop and raise it with the user rather than
 implementing it.
 
+This rule is about **AI** services specifically. `scripts/buscar-imagen.js`
+(see "Optional per-card image" below) calls the Openverse *image-bank*
+API, but only at content-authoring time, from a Node script no
+end-user ever runs — same category as `App.decks` never touching a
+non-AI network resource at runtime either. The image it finds gets
+downloaded once and shipped as a plain static file; nothing in
+`index.html`/`app.js`/`tools/study/`/`settings/` ever fetches it (or
+anything else) from an external host.
+
 ## Generating deck content — this is now your job, not a script's
 
 There is no `scripts/generate.js` anymore. When asked to create or
@@ -146,6 +155,37 @@ and still binding.
    the floor and the ceiling for what a deck (or a deck extending it)
    covers — don't drift into adjacent-but-unlisted topics just because
    they "read well." Full reasoning: `doc/en/SPEC.md` §1.3.
+9. **Optional per-card image.** Only when asked — don't add images on
+   your own initiative for every new deck. A card can carry one
+   `imagen` field with a photo/illustration as visual support (schema:
+   `doc/en/technical.md` §3.1). To source one: `node
+   scripts/buscar-imagen.js "<term>"` searches Openverse (free image
+   bank, no signup) restricted to CC0/Public Domain/CC BY/CC BY-SA —
+   never `-NC`/`-ND` — lists candidates with title/source/dimensions,
+   and you pick the one that actually fits **from that text** (search
+   is tag-based, not semantic, so retry with a more concrete or common
+   term when results are empty or off-topic). **Never open the
+   candidate image files to view them, not even the final pick** —
+   the search result's title/source is the curated signal for fit;
+   treating it as sufficient is the point, not a shortcut, since
+   opening any image burns ~1000+ vision tokens for a check the title
+   text already gives. If a shipped card ever turns out to have a
+   mismatched image, that's caught by a human reader after the fact
+   and reported per `CONTRIBUTING.md`, not by the agent re-verifying
+   every image at authoring time. Download the `thumb` URL the
+   script prints, not the full-res `image` one — same picture, a
+   fraction of the size, plenty for a card, and cheaper to inspect if
+   you ever do need to — falling back to `image` only if the thumbnail
+   proxy 400s for that source host. Save it to
+   `assets/img/decks/<deck-slug>/<file>.jpg` and fill in all of
+   `imagen`'s subfields, including the TASL attribution
+   (`titulo`/`autor`/`fuente`/`licencia`). When a request covers a
+   whole deck, batch the JSON edits into as few read/write passes over
+   the file as practical rather than one full round trip per card.
+   Bump `sw.js` `VERSION` if you touched `tools/study/app.js` or
+   `componentes.css` to add the rendering — the images themselves
+   don't need a `FILES` entry (see the service-worker rule above;
+   they're cached on first view like any deck JSON).
 
 ## Vanilla only — no dependencies, no Anki format
 
@@ -255,3 +295,107 @@ part of every change:
 Product principles, accessibility rules, architecture, roadmaps, and
 bug chronicles belong in the §1 sources, not here. Detailed change
 history lives in Git.
+
+## UNE 153101 reference (suite-wide)
+
+All seven sibling projects follow **UNE 153101:2018 EX** (Spanish
+easy-read standard) and Inclusion Europe's European easy-read
+guidelines as the normative basis for the cognitive accessibility
+principles that guide content and UI: short sentences, one idea per
+sentence, everyday vocabulary, no clinical or technical jargon in
+what the end user reads. This is the standard each `SPEC.md` cites
+when it states the "easy read always" rule (see `doc/en/SPEC.md` §3.3
+or its mirror in `doc/es/SPEC.md` §3.3). Adding a new language or a
+new piece of UI copy means following UNE 153101 — not paraphrasing
+it.
+
+## WCAG AAA baseline (suite-wide)
+
+This project conforms to WCAG 2.1 at **AA minimum** and adopts the
+**AAA criteria that apply to the suite's audience** whenever feasible.
+Full conformance at AAA is not feasible for a whole web application
+(the W3C itself states AAA is meant for specific contexts); the rule
+below lists the AAA criteria that ARE applicable and that this project
+honours.
+
+Adopted AAA criteria:
+
+- **1.4.6 Contrast (Enhanced)** — text contrast ≥ 7:1 (large text
+  ≥ 4.5:1). WCAG AA (4.5:1) is the legal floor; AAA is the design
+  target. Verified pairs in Okeymoney (`#F2F4F8` on `#161A21` = 14.6:1,
+  `#B7BDC9` on `#161A21` = 8.4:1) already meet AAA; this project aims
+  at the same ratio when its token palette is next touched.
+- **3.1.5 Reading Level** — content for the general public does not
+  require advanced reading ability. Already complied with through
+  UNE 153101 (see the section above) and Inclusion Europe's easy-read
+  guidelines.
+- **1.4.1 Use of Color** — color is never the only means of conveying
+  information. Every feedback state (success / hint / error / lock)
+  also uses shape, icon, text or sound, so users with color-vision
+  deficiencies are not excluded. (`App.feedback.success()` /
+  `App.feedback.encourage()` / `App.feedback.lockUntilAck()` already
+  encode this.)
+
+The product-facing wording in `doc/en/SPEC.md` §3.5 / §5 / §6 (and the
+Spanish mirror in `doc/es/SPEC.md`) references this baseline using the
+literal phrase **"WCAG AA minimum, AAA whenever possible"**, mirroring
+the suite-wide rule in the metaproject's `apptonomia/CLAUDE.md`.
+
+## Public-facing wording: "usuario/a tipo" euphemism
+
+This directive applies across the entire Miralante suite (Apptonomia,
+Calculia, Memofun, Okeymoney, Sinonimia, Teclatlon, Routime) and the
+metaproject landing at `apptonomia.uk`. The suite's real objective is
+occupational-therapy support for people with intellectual disability, but
+**that framing is not used in public surfaces** — only in internal
+documentation.
+
+### Where each term is allowed
+
+- **"Discapacidad intelectual" / "intellectual disability"** is the
+  canonical term and **may only appear in internal documentation**
+  (`CLAUDE.md`, `doc/<lang>/SPEC.md`, `technical.md` / `tecnico.md`,
+  `roles.md`, `CONTRIBUTING.md`, `CONTRIBUTING.es.md`, tooling files
+  in `scripts/`). It is explicitly **forbidden** in public-facing
+  surfaces, READMEs that anyone can read without authentication, public
+  talks, social media copy, press notes, and marketing material.
+- **"Usuario/a tipo"** (plural "usuarios/as tipo") is the accepted
+  euphemism for the audience in public-facing surfaces. It is used as
+  a generic profile marker, not as a label for any real person.
+  - It applies to `README.md` / `README.es.md`, public talks, social
+    media copy, press notes, marketing material, and any
+    contributor-facing document that also doubles as a public
+    description of the project (e.g. `CONTRIBUTING.md`).
+  - It does **not** apply to the UI of the app itself: the project's
+    "Mandatory rule: zero mentions in the user-facing product" (see
+    `doc/en/SPEC.md` §"Zero mentions in the user-facing product" /
+    `doc/es/SPEC.md` §"Cero menciones en el producto visible") continues
+    to forbid **any** mention, including "usuario/a tipo", in
+    `index.html`, `app.js`, `tools/study/`, `settings/`, `strings.<locale>.js`
+    and any other user-facing surface. The euphemism is for the outside
+    world, not for what the visitor reads on the site.
+  - It does **not** apply to project content that names a clinical
+    concept by its real-world name (e.g. a card that explains a
+    bureaucratic procedure related to disability): that is content,
+    not labelling of an audience.
+
+### Rationale
+
+Presenting the project's real objective in maintainer docs is useful
+and necessary for whoever maintains and contributes to the suite.
+Presenting it in marketing or landing surfaces is neither necessary nor
+respectful of the audience — "usuario/a tipo" lets public material
+describe what the app is for (who the typical profile is) without
+publicly naming a clinical group. This rule is mirrored in the
+metaproject's `apptonomia/CLAUDE.md` and in every sibling's own
+`CLAUDE.md` and `SPEC.md` so it survives a single project's docs going
+out of sync.
+
+## graphify
+
+This project has a knowledge graph at `graphify-out/` with god nodes, community structure, and cross-file relationships.
+
+- For codebase questions, first run `graphify query "<question>"` when `graphify-out/graph.json` exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than `GRAPH_REPORT.md` or raw grep output.
+- If `graphify-out/wiki/index.md` exists, use it for broad navigation instead of raw source browsing.
+- Read `graphify-out/GRAPH_REPORT.md` only for broad architecture review or when `query`/`path`/`explain` do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).

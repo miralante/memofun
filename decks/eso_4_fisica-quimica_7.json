@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la energía cinética?",
-      "respuesta": "Es la energía que tiene un cuerpo debido a su movimiento. <mark>Cuanto más rápido se mueve un objeto, más energía cinética tiene</mark>. Un coche a gran velocidad tiene mucha más energía cinética que uno parado."
+      "respuesta": "Es la energía que tiene un cuerpo debido a su movimiento. <mark>Cuanto más rápido se mueve un objeto, más energía cinética tiene</mark>. Un coche a gran velocidad tiene mucha más energía cinética que uno parado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/montana-rusa.jpg",
+        "alt": "Una montaña rusa en movimiento",
+        "titulo": "Edge Coaster- adrenaline rush!",
+        "autor": "shankar s.",
+        "fuente": "https://www.flickr.com/photos/77742560@N06/9245851109",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la energía potencial?",
-      "respuesta": "Es la energía que tiene un cuerpo debido a su posición o a su estado. <mark>Es como energía 'guardada', lista para liberarse en cualquier momento</mark>. Un objeto en lo alto de una montaña tiene energía potencial gravitatoria."
+      "respuesta": "Es la energía que tiene un cuerpo debido a su posición o a su estado. <mark>Es como energía 'guardada', lista para liberarse en cualquier momento</mark>. Un objeto en lo alto de una montaña tiene energía potencial gravitatoria.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/cascada-altura.jpg",
+        "alt": "Una cascada cayendo desde gran altura",
+        "titulo": "Bowen Falls Milford Sound NZ.",
+        "autor": "Bernard Spragg",
+        "fuente": "https://www.flickr.com/photos/88123769@N02/10657996025",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la energía mecánica?",
-      "respuesta": "Es la suma de la energía cinética y la energía potencial de un cuerpo. <mark>Es como sumar la energía del movimiento y la energía de la posición en un solo total</mark>. En ausencia de rozamiento, esa energía total se mantiene constante."
+      "respuesta": "Es la suma de la energía cinética y la energía potencial de un cuerpo. <mark>Es como sumar la energía del movimiento y la energía de la posición en un solo total</mark>. En ausencia de rozamiento, esa energía total se mantiene constante.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-balanceo.jpg",
+        "alt": "Un péndulo balanceándose",
+        "titulo": "Pendulum Swing | [Day 6/365]",
+        "autor": "rocknroll_guitar",
+        "fuente": "https://www.flickr.com/photos/11301657@N02/2922736015",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que la energía mecánica se conserva?",
-      "respuesta": "Significa que la energía total no cambia, aunque se transforme de un tipo a otro. <mark>Es como pasar dinero de un bolsillo a otro sin que la cantidad total cambie</mark>. Un péndulo transforma constantemente energía cinética en potencial."
+      "respuesta": "Significa que la energía total no cambia, aunque se transforme de un tipo a otro. <mark>Es como pasar dinero de un bolsillo a otro sin que la cantidad total cambie</mark>. Un péndulo transforma constantemente energía cinética en potencial.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-foucault.jpg",
+        "alt": "Un péndulo de Foucault en movimiento continuo",
+        "titulo": "the pendulum swings, proving that the Earth is moving",
+        "autor": "maveric2003",
+        "fuente": "https://www.flickr.com/photos/47983324@N00/306748015",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el trabajo en física?",
-      "respuesta": "Es la energía que se transfiere al aplicar una fuerza que provoca un desplazamiento. <mark>Es como medir cuánto 'esfuerzo útil' se ha empleado al mover algo</mark>. Si la fuerza no produce movimiento, no se realiza trabajo físico."
+      "respuesta": "Es la energía que se transfiere al aplicar una fuerza que provoca un desplazamiento. <mark>Es como medir cuánto 'esfuerzo útil' se ha empleado al mover algo</mark>. Si la fuerza no produce movimiento, no se realiza trabajo físico.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/levantar-pesas.jpg",
+        "alt": "Una persona levantando pesas en el gimnasio",
+        "titulo": "person lifting weights in a gym",
+        "autor": "franchiseopportunitiesphotos",
+        "fuente": "https://www.flickr.com/photos/150276478@N03/34517559272",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la potencia?",
-      "respuesta": "Es la rapidez con la que se realiza un trabajo o se transfiere energía. <mark>Es como comparar quién hace la misma tarea, pero en menos tiempo</mark>. Se mide en una unidad llamada vatio."
+      "respuesta": "Es la rapidez con la que se realiza un trabajo o se transfiere energía. <mark>Es como comparar quién hace la misma tarea, pero en menos tiempo</mark>. Se mide en una unidad llamada vatio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/bombilla-filamento.jpg",
+        "alt": "El filamento encendido de una bombilla",
+        "titulo": "Filament, clear lightbulbs #1",
+        "autor": "brokentrinkets",
+        "fuente": "https://www.flickr.com/photos/45795292@N00/4270982027",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el calor y el trabajo?",
-      "respuesta": "Ambos son formas de transferir energía entre sistemas, aunque de manera distinta. <mark>El calor se transfiere por diferencia de temperatura; el trabajo, por una fuerza que provoca movimiento</mark>. Esa relación es la base de muchos motores."
+      "respuesta": "Ambos son formas de transferir energía entre sistemas, aunque de manera distinta. <mark>El calor se transfiere por diferencia de temperatura; el trabajo, por una fuerza que provoca movimiento</mark>. Esa relación es la base de muchos motores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/locomotora-vapor.jpg",
+        "alt": "Una locomotora de vapor",
+        "titulo": "Steam Locomotive",
+        "autor": "Gehmacher_Photography",
+        "fuente": "https://www.flickr.com/photos/126569804@N05/15180148432",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se transporta la energía mediante ondas?",
-      "respuesta": "Las ondas transmiten energía de un lugar a otro sin transportar materia con ellas. <mark>Es como una ola en el mar: el agua sube y baja, pero no viaja con la ola</mark>. La luz y el sonido son ejemplos de energía en forma de ondas."
+      "respuesta": "Las ondas transmiten energía de un lugar a otro sin transportar materia con ellas. <mark>Es como una ola en el mar: el agua sube y baja, pero no viaja con la ola</mark>. La luz y el sonido son ejemplos de energía en forma de ondas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/ola-mar.jpg",
+        "alt": "Una ola del mar rompiendo, un ejemplo de energía transportada por ondas",
+        "titulo": "Rompiendo las olas",
+        "autor": "candi...",
+        "fuente": "https://www.flickr.com/photos/69363241@N07/23947951749",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la energía solar se considera una fuente limpia?",
-      "respuesta": "Porque aprovecha la luz del sol sin generar residuos contaminantes al producir electricidad. <mark>Es como aprovechar un recurso que llega gratis cada día, sin agotarse ni ensuciar</mark>. Es una de las energías renovables más utilizadas."
+      "respuesta": "Porque aprovecha la luz del sol sin generar residuos contaminantes al producir electricidad. <mark>Es como aprovechar un recurso que llega gratis cada día, sin agotarse ni ensuciar</mark>. Es una de las energías renovables más utilizadas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/paneles-solares.jpg",
+        "alt": "Paneles solares fotovoltaicos, una fuente de energía limpia",
+        "titulo": "Paneles solares Fotovoltaicos",
+        "autor": "simbiosc",
+        "fuente": "https://www.flickr.com/photos/46950055@N02/14686895864",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil estimar el consumo de energía en la vida cotidiana?",
-      "respuesta": "Porque ayuda a usarla de forma más eficiente y a ahorrar en la factura. <mark>Es como llevar la cuenta de un gasto para no derrocharlo sin darte cuenta</mark>. Ese conocimiento también contribuye a cuidar el medio ambiente."
+      "respuesta": "Porque ayuda a usarla de forma más eficiente y a ahorrar en la factura. <mark>Es como llevar la cuenta de un gasto para no derrocharlo sin darte cuenta</mark>. Ese conocimiento también contribuye a cuidar el medio ambiente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/contador-electrico.jpg",
+        "alt": "Un contador eléctrico mostrando el consumo de energía",
+        "titulo": "Meter reading shows numbers indicating power usage through the round opening of an electric meter",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=188894151",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

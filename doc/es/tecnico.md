@@ -19,13 +19,15 @@ memofun/
 ├── assets/
 │   ├── css/  tokens.css · base.css · componentes.css
 │   ├── js/   utils.js · i18n.js · tts.js · storage.js · feedback.js · deck-loader.js
-│   └── fonts/ Atkinson Hyperlegible + Nunito (.woff2)
+│   ├── fonts/ Atkinson Hyperlegible + Nunito (.woff2)
+│   └── img/decks/<slug>/ imágenes opcionales por tarjeta (ver §3.1), empaquetadas, no enlazadas
 ├── tools/study/          pantalla de repaso (flip-card)
 ├── settings/             zona de apoyo (texto, idioma, importar, borrar progreso)
 ├── decks/                manifest.json + *.json de barajas publicadas y revisadas
 │   └── concepts/         registros de "qué ya está cubierto" por serie (solo agente, ver §8)
 ├── legal/                protección de datos
-├── scripts/              config-parser.js · check.js · check-version-bump.js (Node, offline)
+├── scripts/              config-parser.js · check.js · check-version-bump.js ·
+│                         buscar-imagen.js (Node, offline salvo este último, ver §3.1)
 ├── config.md             ejemplo de config de contenido (ver §8)
 └── doc/
     ├── es/ · en/         esta documentación
@@ -69,6 +71,65 @@ clave de aprendizaje significativo va envuelta en `<mark></mark>` (ver
 las reglas de contenido en §8 y en `CLAUDE.md`). `App.decks` normaliza
 cualquier archivo con esta forma; un archivo sin `tarjetas` (array) se
 rechaza.
+
+### 3.1 Imagen opcional por tarjeta (`imagen`)
+
+Una tarjeta puede llevar una foto/ilustración opcional como apoyo
+visual a la explicación:
+
+```json
+{
+  "pregunta": "¿Qué es un cuento popular?",
+  "respuesta": "...",
+  "imagen": {
+    "archivo": "assets/img/decks/primaria_1_literatura/cuento-popular.jpg",
+    "alt": "Portada de un libro de cuentos: una niña sentada, leyendo",
+    "titulo": "Fairy Tales",
+    "autor": "Boston Public Library",
+    "fuente": "https://www.flickr.com/photos/24029425@N06/10871801484",
+    "licencia": "CC BY 2.0"
+  }
+}
+```
+
+- `archivo`: ruta relativa a la raíz del sitio, dentro del propio
+  repositorio en `assets/img/decks/<slug-de-la-baraja>/<archivo>.jpg`
+  — **nunca** un enlace directo a un servicio externo. Las imágenes se
+  descargan una vez, en el momento de preparar el contenido, y se
+  publican como cualquier otro recurso estático: el sitio sigue sin
+  hacer ninguna llamada externa en tiempo de ejecución (`SPEC.md`
+  §2.1) y la imagen sigue funcionando sin conexión en cuanto se cachea
+  (el manejador `fetch` genérico de `sw.js` la cachea en la primera
+  visita, igual que el JSON de la baraja — no hace falta añadirla a
+  `FILES`).
+- `alt`: descripción llana de lo que la imagen muestra de verdad, en
+  el idioma de la baraja — texto de accesibilidad, no un resumen de la
+  tarjeta.
+- `titulo` / `autor` / `fuente` / `licencia`: atribución de la obra
+  original (Título/Autor/Fuente/Licencia, el convenio "TASL" de
+  Creative Commons), que se muestra como pie de foto pequeño bajo la
+  imagen. `licencia` debe ser una licencia que permita uso comercial y
+  modificación sin restricciones extra — CC0, Dominio público, CC BY o
+  CC BY-SA. Nunca una licencia `-NC` (no comercial) o `-ND` (sin
+  obra derivada): `scripts/check.js` rechaza ambas.
+- Los cinco campos son obligatorios cuando `imagen` está presente; una
+  tarjeta sin `imagen` se ve exactamente igual que antes (la imagen es
+  opcional, por tarjeta, no por baraja).
+- Cómo buscarla: `node scripts/buscar-imagen.js "<término>"` busca en
+  Openverse (openverse.org, sin necesidad de clave) restringido a esas
+  mismas licencias seguras y lista candidatas — título, fuente, y una
+  URL `thumb` y otra `image` de tamaño completo — para que una persona
+  (o el agente) las revise y elija; no descarga ni elige nada
+  automáticamente. Descarga la URL `thumb`, no `image`: es la misma
+  foto a una fracción del tamaño, de sobra para ilustrar una tarjeta
+  (si el proxy de miniaturas falla con un 400 en algún origen concreto,
+  usa `image` como respaldo). Elige a partir del texto (título/fuente)
+  que imprime el script y trátalo como ya curado — nunca abras un
+  archivo candidato para verlo, ni siquiera la elección final, eso
+  gasta tokens de visión por un chequeo que el texto ya resuelve. Una
+  imagen desajustada que se cuele la detecta después una persona
+  leyendo la baraja y se reporta según `CONTRIBUTING.es.md`. Ver
+  `guia-interna-crear-barajas.md` §3.1.
 
 ## 4. `decks/manifest.json`
 
@@ -126,6 +187,56 @@ normales, así que atrás/adelante y los marcadores funcionan gratis:
 Esto añade un nivel al flujo descrito en la regla 10 de §5 **solo**
 para las barajas que usan `curso`/`asignatura` — las barajas planas no
 se ven afectadas.
+
+### 4.2 Versión en inglés (en) — temario con invitación a participar
+
+Cuando `App.i18n.locale() === 'en'`, la pantalla de inicio **no
+lee `decks/manifest.json` en absoluto**. Hoy todas las barajas
+publicadas son contenido en español (el contenido de las barajas
+no entra en la paridad i18n, ver `CLAUDE.md`); mostrar la rejilla
+de barajas en español a una visita en inglés sería un callejón
+sin salida silencioso. En su lugar, `app.js` renderiza un temario
+en inglés hardcodeado (`EN_CURRICULUM` en `app.js`) que refleja
+`doc/curriculum/en/`:
+
+- **Nivel superior** — una tarjeta por etapa (`Key Stage 1` … `Key
+  Stage 4`, `Entry Level Business`, `BTEC Business L2`), cada una
+  enlazando a sus asignaturas vía `?en=1&curso=<etapa>`.
+- **Nivel de asignatura** — una *tarjeta de invitación* por
+  asignatura (`English Literature`, `Science`, `History`,
+  `Geography`, etc.). La tarjeta **no** es un enlace a baraja:
+  muestra la asignatura, el mensaje "Aún no hay baraja — sé el
+  primero en aportar", y un botón que abre
+  [`guia-interna-crear-barajas.md`](./guia-interna-crear-barajas.md)
+  en GitHub, para que la visita caiga de lleno en el flujo que
+  convierte un temario en baraja.
+
+Los datos viven en `app.js` (no en el manifest) a propósito —
+añadir al `manifest.json` forzaría a que existiera un
+`decks/<slug>.json` real (la regla 8 de `check.js` falla si no), y
+estas asignaturas aún no tienen barajas. `EN_CURRICULUM` es un
+artefacto de taller, no un catálogo de barajas rastreado:
+mantenlo en sincronía con `doc/curriculum/en/` por higiene de
+autoría, igual que se hace con los logs de conceptos en español
+(`decks/concepts/<base-slug>.md`).
+
+El parámetro `?en=1` es obligatorio para la navegación EN, así
+una visita que edita a mano una URL de baraja en español no puede
+acabar en el flujo EN por accidente, ni al revés. Volver al UI
+locale `es` (`localStorage 'memofun:locale'`) devuelve al flujo
+del manifest sin más estado que resetear.
+
+Cuando se publique la primera baraja real en inglés, la regla para
+promocionar una asignatura de "tarjeta de invitación" a "tarjeta
+de baraja" es la misma que para cualquier baraja en español
+(`§4`): añadir el fichero `decks/<slug>.json`, añadir la entrada
+correspondiente en `decks/manifest.json` con `curso`/`asignatura`
+coincidiendo con la etapa y la asignatura de `EN_CURRICULUM`, y la
+pantalla EN la mostrará automáticamente (el render EN sigue
+bifurcando por locale; cuando exista una entrada de manifest para
+una asignatura el camino EN puede optar por cambiar la tarjeta de
+invitación por el enlace a la baraja real — ver
+`renderEnSubjectLevel` en `app.js`).
 
 ## 5. Reglas de accesibilidad
 

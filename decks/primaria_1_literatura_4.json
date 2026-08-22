@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Quién escribe los cuentos que lees?",
-      "respuesta": "Los escribe una persona llamada autor o autora. <mark>Es quien inventa la historia, como un cocinero inventa una receta</mark>. Su nombre aparece en la portada del libro. Sin autor, el cuento no existiría."
+      "respuesta": "Los escribe una persona llamada autor o autora. <mark>Es quien inventa la historia, como un cocinero inventa una receta</mark>. Su nombre aparece en la portada del libro. Sin autor, el cuento no existiría.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_4/pluma-escritor.jpg",
+        "alt": "Dibujo de dos plumas de escribir clavadas en un tintero, en blanco y negro",
+        "titulo": "Vintage quill pen illustration",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/46733126582",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la portada de un libro?",
-      "respuesta": "Es la primera página que ves de un libro. <mark>Muestra el título y un dibujo, como el cartel de una tienda</mark>. Te da una pista de qué trata el libro. Por eso es lo primero que miramos."
+      "respuesta": "Es la primera página que ves de un libro. <mark>Muestra el título y un dibujo, como el cartel de una tienda</mark>. Te da una pista de qué trata el libro. Por eso es lo primero que miramos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_4/portada-libro.jpg",
+        "alt": "Portada de un libro infantil, con un título grande y el dibujo de un ciervo joven",
+        "titulo": "Russian children's book cover",
+        "autor": "normanack",
+        "fuente": "https://www.flickr.com/photos/29278394@N00/2587663664",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una biblioteca?",
-      "respuesta": "Es un lugar con muchísimos libros para leer o llevar prestados. <mark>Es como una tienda de historias, pero gratis</mark>. Puedes devolver el libro cuando termines de leerlo. Así otras personas también pueden disfrutarlo."
+      "respuesta": "Es un lugar con muchísimos libros para leer o llevar prestados. <mark>Es como una tienda de historias, pero gratis</mark>. Puedes devolver el libro cuando termines de leerlo. Así otras personas también pueden disfrutarlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_4/biblioteca-interior.jpg",
+        "alt": "Sala de una biblioteca antigua con estanterías llenas de libros, mesas y sillas de madera",
+        "titulo": "Derry Public Library - Interior (f)",
+        "autor": "derrypubliclibrary",
+        "fuente": "https://www.flickr.com/photos/10409977@N06/3761451719",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una nana?",
-      "respuesta": "Es una canción suave para ayudar a dormir a un bebé. <mark>Su voz tranquila funciona casi como un abrazo</mark>. Suele tener palabras sencillas que se repiten. Por eso las nanas se cantan desde hace generaciones."
+      "respuesta": "Es una canción suave para ayudar a dormir a un bebé. <mark>Su voz tranquila funciona casi como un abrazo</mark>. Suele tener palabras sencillas que se repiten. Por eso las nanas se cantan desde hace generaciones.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_4/nana-cuna.jpg",
+        "alt": "Una madre sostiene a su bebé en brazos junto a una cuna, en un dibujo antiguo",
+        "titulo": "The Cradle (William-Adolphe Bouguereau)",
+        "autor": "Rijksmuseum",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=148799636",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirven los dibujos de un cuento?",
-      "respuesta": "Ayudan a imaginar mejor cómo son los personajes y lugares. <mark>Es como ver una foto de la historia mientras la lees</mark>. Algunos cuentos tienen dibujos en cada página. Así entiendes la historia aunque no leas cada palabra."
+      "respuesta": "Ayudan a imaginar mejor cómo son los personajes y lugares. <mark>Es como ver una foto de la historia mientras la lees</mark>. Algunos cuentos tienen dibujos en cada página. Así entiendes la historia aunque no leas cada palabra.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_4/dibujos-cuento.jpg",
+        "alt": "Página de un libro antiguo con un dibujo de animales vestidos de personas y el texto de la historia debajo",
+        "titulo": "H. G. Hine Illustration from a book called Comical Creatures; A Picture Book for the Nursery",
+        "autor": "crackdog",
+        "fuente": "https://www.flickr.com/photos/88645472@N00/4736229615",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué debes hacer con un libro prestado de la biblioteca?",
-      "respuesta": "Debes cuidarlo y devolverlo cuando termines. <mark>Es como pedir prestado un juguete: hay que tratarlo bien</mark>. Así otro niño podrá leerlo después. Devolverlo a tiempo ayuda a que la biblioteca funcione para todos."
+      "respuesta": "Debes cuidarlo y devolverlo cuando termines. <mark>Es como pedir prestado un juguete: hay que tratarlo bien</mark>. Así otro niño podrá leerlo después. Devolverlo a tiempo ayuda a que la biblioteca funcione para todos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_literatura_4/fecha-devolucion.jpg",
+        "alt": "Página de un libro con muchas fechas selladas en tinta, marcando cuándo debía devolverse",
+        "titulo": "Date Due",
+        "autor": "Calsidyrose",
+        "fuente": "https://www.flickr.com/photos/17557997@N02/6033655868",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

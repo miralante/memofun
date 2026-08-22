@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué significa hacer un uso racional de la energía?",
-      "respuesta": "Significa consumir solo la energía necesaria, evitando el derroche. <mark>Es como no dejar el grifo abierto cuando no lo estás usando</mark>. Apagar luces innecesarias o aprovechar la luz natural son ejemplos sencillos."
+      "respuesta": "Significa consumir solo la energía necesaria, evitando el derroche. <mark>Es como no dejar el grifo abierto cuando no lo estás usando</mark>. Apagar luces innecesarias o aprovechar la luz natural son ejemplos sencillos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/bombilla-led.jpg",
+        "alt": "Una bombilla LED de bajo consumo",
+        "titulo": "LED Light Bulb Upgrade",
+        "autor": "MSVG",
+        "fuente": "https://www.flickr.com/photos/13907834@N00/6671091413",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la electrización de un cuerpo?",
-      "respuesta": "Es el proceso por el que un objeto adquiere carga eléctrica. <mark>Es como cuando te frotas un globo en el pelo y luego atrae pequeños papelitos</mark>. Ocurre al ganar o perder electrones por fricción o contacto."
+      "respuesta": "Es el proceso por el que un objeto adquiere carga eléctrica. <mark>Es como cuando te frotas un globo en el pelo y luego atrae pequeños papelitos</mark>. Ocurre al ganar o perder electrones por fricción o contacto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/rayo-ancho.jpg",
+        "alt": "Un rayo cruzando el cielo",
+        "titulo": "Wide Lightning",
+        "autor": "Kurayba",
+        "fuente": "https://www.flickr.com/photos/48503330@N08/5911053551",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la carga eléctrica?",
-      "respuesta": "Es una propiedad de la materia que provoca fuerzas de atracción o repulsión. <mark>Es como una etiqueta invisible, positiva o negativa, que llevan algunas partículas</mark>. Cargas iguales se repelen; cargas distintas se atraen."
+      "respuesta": "Es una propiedad de la materia que provoca fuerzas de atracción o repulsión. <mark>Es como una etiqueta invisible, positiva o negativa, que llevan algunas partículas</mark>. Cargas iguales se repelen; cargas distintas se atraen.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/rayo-tormenta.jpg",
+        "alt": "Un rayo durante una tormenta",
+        "titulo": "Lightning",
+        "autor": "bscoder",
+        "fuente": "https://www.flickr.com/photos/28552017@N06/4828232225",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre la fuerza eléctrica y la fuerza gravitatoria?",
-      "respuesta": "Ambas actúan a distancia, sin necesidad de contacto directo. <mark>La eléctrica puede atraer o repeler; la gravitatoria, en cambio, siempre atrae</mark>. La fuerza eléctrica suele ser mucho más intensa que la gravitatoria."
+      "respuesta": "Ambas actúan a distancia, sin necesidad de contacto directo. <mark>La eléctrica puede atraer o repeler; la gravitatoria, en cambio, siempre atrae</mark>. La fuerza eléctrica suele ser mucho más intensa que la gravitatoria.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/iman-limaduras.jpg",
+        "alt": "Limaduras de hierro mostrando el campo de un imán",
+        "titulo": "Bar-magnets-attracting-iron-filings max",
+        "autor": "MikeRun, Vera Wurmsdobler",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=189692760",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es la corriente eléctrica?",
-      "respuesta": "Es el movimiento ordenado de cargas eléctricas a través de un material conductor. <mark>Es como el flujo de agua por una tubería, pero con electrones en vez de agua</mark>. Necesita un circuito cerrado para poder circular."
+      "respuesta": "Es el movimiento ordenado de cargas eléctricas a través de un material conductor. <mark>Es como el flujo de agua por una tubería, pero con electrones en vez de agua</mark>. Necesita un circuito cerrado para poder circular.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/circuito.jpg",
+        "alt": "Un circuito electrónico",
+        "titulo": "Line Interface PCB",
+        "autor": "tony_duell",
+        "fuente": "https://www.flickr.com/photos/43851301@N02/16598593970",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué dice la ley de Ohm?",
-      "respuesta": "Relaciona la corriente eléctrica, el voltaje y la resistencia de un circuito. <mark>Es como decir que cuanto más 'empuje' hay y menos 'obstáculo', más corriente circula</mark>. Permite calcular cualquiera de esos valores si conoces los otros dos."
+      "respuesta": "Relaciona la corriente eléctrica, el voltaje y la resistencia de un circuito. <mark>Es como decir que cuanto más 'empuje' hay y menos 'obstáculo', más corriente circula</mark>. Permite calcular cualquiera de esos valores si conoces los otros dos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/placa-pcb.jpg",
+        "alt": "Un circuito eléctrico",
+        "titulo": "Circuit",
+        "autor": "Yu. Samoilov",
+        "fuente": "https://www.flickr.com/photos/110751683@N02/14011462899",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un circuito eléctrico?",
-      "respuesta": "Es el camino cerrado por el que circula la corriente eléctrica. <mark>Es como una pista de carreras cerrada, por la que da vueltas la corriente</mark>. Necesita una fuente de energía, cables y algún elemento que use esa energía."
+      "respuesta": "Es el camino cerrado por el que circula la corriente eléctrica. <mark>Es como una pista de carreras cerrada, por la que da vueltas la corriente</mark>. Necesita una fuente de energía, cables y algún elemento que use esa energía.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/cables-electricos.jpg",
+        "alt": "Cables eléctricos, por donde circula la corriente en un circuito",
+        "titulo": "cables-electricos",
+        "autor": "miniyo73",
+        "fuente": "https://www.flickr.com/photos/38284869@N06/4703554108",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una resistencia eléctrica?",
-      "respuesta": "Es un componente que dificulta el paso de la corriente eléctrica. <mark>Es como un estrechamiento en una tubería que frena el paso del agua</mark>. Se usa para controlar la cantidad de corriente que circula."
+      "respuesta": "Es un componente que dificulta el paso de la corriente eléctrica. <mark>Es como un estrechamiento en una tubería que frena el paso del agua</mark>. Se usa para controlar la cantidad de corriente que circula.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/componentes-electronicos.jpg",
+        "alt": "Un conjunto de componentes electrónicos, incluidas resistencias",
+        "titulo": "A healthy assortment of components",
+        "autor": "oskay",
+        "fuente": "https://www.flickr.com/photos/17425845@N00/437341128",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre asociar resistencias en serie y en paralelo?",
-      "respuesta": "En serie, las resistencias se colocan una detrás de otra en el mismo camino. <mark>En paralelo, se colocan en caminos distintos, por los que la corriente se reparte</mark>. Ambas formas se usan según lo que se necesite."
+      "respuesta": "En serie, las resistencias se colocan una detrás de otra en el mismo camino. <mark>En paralelo, se colocan en caminos distintos, por los que la corriente se reparte</mark>. Ambas formas se usan según lo que se necesite.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/laboratorio-electronica.jpg",
+        "alt": "Un pequeño laboratorio de electrónica con circuitos",
+        "titulo": "Altoids Tin Electronics Lab (tray 1 removed)",
+        "autor": "Nick Ames",
+        "fuente": "https://www.flickr.com/photos/36473423@N02/4121017727",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Dónde se usa la electricidad en la vida diaria?",
-      "respuesta": "En la iluminación, los electrodomésticos, los transportes y muchos otros aparatos. <mark>Está tan presente que muchas veces solo la notamos cuando falla</mark>. Su descubrimiento cambió por completo la forma de vivir de la humanidad."
+      "respuesta": "En la iluminación, los electrodomésticos, los transportes y muchos otros aparatos. <mark>Está tan presente que muchas veces solo la notamos cuando falla</mark>. Su descubrimiento cambió por completo la forma de vivir de la humanidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_5/horno-electrico.jpg",
+        "alt": "Un horno eléctrico de cocina",
+        "titulo": "GE JRS06SKSS 24' Stainless Steel Electric Single Wall Oven",
+        "autor": "Goedeker's",
+        "fuente": "https://www.flickr.com/photos/78234592@N06/13084446975",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una saga de libros?",
-      "respuesta": "Es una serie de libros que siguen la misma historia. <mark>Cada libro añade una nueva parte a la aventura</mark>. Los mismos personajes continúan de un libro a otro. Por eso conviene leerlos en orden."
+      "respuesta": "Es una serie de libros que siguen la misma historia. <mark>Cada libro añade una nueva parte a la aventura</mark>. Los mismos personajes continúan de un libro a otro. Por eso conviene leerlos en orden.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_2/saga-libros.jpg",
+        "alt": "Una torre alta de libros apilados, uno encima de otro, con un libro abierto en la cima",
+        "titulo": "Stack of Books",
+        "autor": "Sam Howzit",
+        "fuente": "https://www.flickr.com/photos/12508217@N08/8395557674",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una trilogía?",
-      "respuesta": "Es una saga formada exactamente por tres libros. <mark>Los tres cuentan una sola historia, dividida en tres partes</mark>. Suele tener principio, desarrollo y final repartidos entre ellos. No toda saga es una trilogía, pero toda trilogía es una saga."
+      "respuesta": "Es una saga formada exactamente por tres libros. <mark>Los tres cuentan una sola historia, dividida en tres partes</mark>. Suele tener principio, desarrollo y final repartidos entre ellos. No toda saga es una trilogía, pero toda trilogía es una saga.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_2/trilogia-tres-libros.jpg",
+        "alt": "Tres libros apilados, cada uno con su propio título visible en el lomo",
+        "titulo": "Three books",
+        "autor": "Ruth and Dave",
+        "fuente": "https://www.flickr.com/photos/95142644@N00/3929037760",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hace el ilustrador de un libro, a diferencia del autor?",
-      "respuesta": "El autor escribe las palabras de la historia. <mark>El ilustrador dibuja las imágenes que la acompañan</mark>. A veces son la misma persona, y a veces no. Juntos forman el libro completo que lees."
+      "respuesta": "El autor escribe las palabras de la historia. <mark>El ilustrador dibuja las imágenes que la acompañan</mark>. A veces son la misma persona, y a veces no. Juntos forman el libro completo que lees.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_2/ilustrador-pinceles.jpg",
+        "alt": "Pinceles de pintar y una espátula, llenos de pintura de colores, sobre una mesa manchada de pintura",
+        "titulo": "Art supplies",
+        "autor": "Average Jane",
+        "fuente": "https://www.flickr.com/photos/64401168@N00/7624350518",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la sinopsis de un libro?",
-      "respuesta": "Es un resumen corto de qué trata el libro. <mark>Suele estar en la contraportada, para ayudarte a elegir</mark>. No cuenta el final, para no destripar la sorpresa. Leerla te ayuda a saber si te interesa el libro."
+      "respuesta": "Es un resumen corto de qué trata el libro. <mark>Suele estar en la contraportada, para ayudarte a elegir</mark>. No cuenta el final, para no destripar la sorpresa. Leerla te ayuda a saber si te interesa el libro.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_2/sinopsis-contraportada.jpg",
+        "alt": "Contraportada de un libro antiguo, con un texto que resume la historia",
+        "titulo": "Fritz Leiber 1964 The Wanderer Rear",
+        "autor": "CthulhuWho1 (Will Hart)",
+        "fuente": "https://www.flickr.com/photos/41340252@N08/5050043702",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian un cuento y una novela?",
-      "respuesta": "El cuento es corto y se lee de una sentada. <mark>La novela es larga y se divide en capítulos</mark>. La novela tiene tiempo para más personajes y tramas. El cuento va directo, sin tantos detalles."
+      "respuesta": "El cuento es corto y se lee de una sentada. <mark>La novela es larga y se divide en capítulos</mark>. La novela tiene tiempo para más personajes y tramas. El cuento va directo, sin tantos detalles.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_2/novela-libro-grueso.jpg",
+        "alt": "Un libro muy grueso, de pie, con un marcapáginas colgando entre sus páginas",
+        "titulo": "One Big Thick Book",
+        "autor": "dejankrsmanovic",
+        "fuente": "https://www.flickr.com/photos/155403590@N07/51942507753",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una editorial?",
-      "respuesta": "Es la empresa que revisa, imprime y publica los libros. <mark>Decide qué libros llegan a las librerías</mark>. Trabaja con el autor y el ilustrador antes de publicar. Sin editorial, un libro no llegaría a tus manos."
+      "respuesta": "Es la empresa que revisa, imprime y publica los libros. <mark>Decide qué libros llegan a las librerías</mark>. Trabaja con el autor y el ilustrador antes de publicar. Sin editorial, un libro no llegaría a tus manos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura_2/editorial-imprenta.jpg",
+        "alt": "Una máquina de imprenta imprimiendo una página con letras y un dibujo",
+        "titulo": "Printing Press",
+        "autor": "Gastev",
+        "fuente": "https://www.flickr.com/photos/12148520@N00/360505392",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

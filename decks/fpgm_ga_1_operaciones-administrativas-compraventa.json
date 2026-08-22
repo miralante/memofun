@@ -5,83 +5,243 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué funciones tiene el departamento de compras de una empresa?",
-      "respuesta": "Se encarga de conseguir los productos o materiales que la empresa necesita. <mark>Es como el encargado de hacer la compra grande para que no falte nada</mark>. Negocia precios, plazos y condiciones con los proveedores."
+      "respuesta": "Se encarga de conseguir los productos o materiales que la empresa necesita. <mark>Es como el encargado de hacer la compra grande para que no falte nada</mark>. Negocia precios, plazos y condiciones con los proveedores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
+        "alt": "Cajas apiladas preparadas para enviar en un almacén",
+        "titulo": "20110826-FS-LSC-0104",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/6097689731",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué funciones tiene el departamento de ventas de una empresa?",
-      "respuesta": "Se encarga de vender los productos o servicios de la empresa a los clientes. <mark>Es como el escaparate y el vendedor de la empresa, todo en uno</mark>. Gestiona pedidos, atiende a clientes y busca nuevas oportunidades de venta."
+      "respuesta": "Se encarga de vender los productos o servicios de la empresa a los clientes. <mark>Es como el escaparate y el vendedor de la empresa, todo en uno</mark>. Gestiona pedidos, atiende a clientes y busca nuevas oportunidades de venta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/equipo-ventas.jpg",
+        "alt": "Equipo de ventas trabajando junto en una oficina",
+        "titulo": "Infosys information technology sales team, Bellevue office, Washington, USA",
+        "autor": "Wonderlane",
+        "fuente": "https://www.flickr.com/photos/71401718@N00/7072298139",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un contrato de compraventa mercantil?",
-      "respuesta": "Es el acuerdo por el que una parte vende un bien y otra lo compra, a cambio de un precio. <mark>Es como cualquier compra normal, pero con normas legales más estrictas al ser entre empresas</mark>. Recoge qué se vende, a qué precio y en qué condiciones."
+      "respuesta": "Es el acuerdo por el que una parte vende un bien y otra lo compra, a cambio de un precio. <mark>Es como cualquier compra normal, pero con normas legales más estrictas al ser entre empresas</mark>. Recoge qué se vende, a qué precio y en qué condiciones.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
+        "alt": "Dos personas dandose la mano al cerrar un acuerdo",
+        "titulo": "Two Person Shaking Each Others Hands",
+        "autor": "Homedust",
+        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un pedido?",
-      "respuesta": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero de forma oficial y por escrito</mark>. Incluye qué se pide, en qué cantidad y en qué plazo se necesita."
+      "respuesta": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero de forma oficial y por escrito</mark>. Incluye qué se pide, en qué cantidad y en qué plazo se necesita.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
+        "alt": "Cajas apiladas preparadas para enviar en un almacén",
+        "titulo": "20110826-FS-LSC-0104",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/6097689731",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un albarán?",
-      "respuesta": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía ha llegado tal y como se pidió</mark>. Después se usa para elaborar la factura correspondiente."
+      "respuesta": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía ha llegado tal y como se pidió</mark>. Después se usa para elaborar la factura correspondiente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
+        "alt": "Reparto de paquetes y cajas desde un camion",
+        "titulo": "20161005-FNS-LSC-0114",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/29959656563",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una factura?",
-      "respuesta": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal y fiscal</mark>. Incluye el precio, los impuestos aplicados y los datos de comprador y vendedor."
+      "respuesta": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal y fiscal</mark>. Incluye el precio, los impuestos aplicados y los datos de comprador y vendedor.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+        "alt": "Una factura con el importe a pagar",
+        "titulo": "Please pay this amount",
+        "autor": "miguelb",
+        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el pedido, el albarán y la factura?",
-      "respuesta": "El pedido solicita la mercancía; el albarán certifica su entrega; la factura certifica el cobro. <mark>Es como los tres pasos de una misma historia: pedir, recibir y pagar</mark>. Cada documento se apoya en el anterior para ser válido."
+      "respuesta": "El pedido solicita la mercancía; el albarán certifica su entrega; la factura certifica el cobro. <mark>Es como los tres pasos de una misma historia: pedir, recibir y pagar</mark>. Cada documento se apoya en el anterior para ser válido.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+        "alt": "Una factura de papel con el importe a pagar",
+        "titulo": "Please pay this amount",
+        "autor": "miguelb",
+        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se aplica el IVA en una operación de compraventa?",
-      "respuesta": "Se añade un porcentaje al precio del producto o servicio vendido. <mark>Es como sumar un pequeño extra al precio final que paga el comprador</mark>. La empresa vendedora lo cobra y luego lo declara a Hacienda."
+      "respuesta": "Se añade un porcentaje al precio del producto o servicio vendido. <mark>Es como sumar un pequeño extra al precio final que paga el comprador</mark>. La empresa vendedora lo cobra y luego lo declara a Hacienda.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+        "alt": "Caja registradora antigua en una tienda",
+        "titulo": "Old Fashioned Retail",
+        "autor": "QUOI Media",
+        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué otros impuestos indirectos existen, además del IVA?",
-      "respuesta": "Impuestos especiales sobre productos concretos, como alcohol, tabaco o combustibles. <mark>Se llaman indirectos porque no se pagan directamente sobre lo que ganas, sino sobre lo que compras</mark>. Se suman al precio final de esos productos."
+      "respuesta": "Impuestos especiales sobre productos concretos, como alcohol, tabaco o combustibles. <mark>Se llaman indirectos porque no se pagan directamente sobre lo que ganas, sino sobre lo que compras</mark>. Se suman al precio final de esos productos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+        "alt": "Caja registradora antigua en una tienda",
+        "titulo": "Old Fashioned Retail",
+        "autor": "QUOI Media",
+        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los medios de pago en una operación comercial?",
-      "respuesta": "Son las formas en que un comprador entrega el dinero al vendedor. <mark>Pueden ser en efectivo, con tarjeta, transferencia o cheque, entre otros</mark>. Cada medio tiene ventajas distintas según la rapidez o la seguridad que ofrece."
+      "respuesta": "Son las formas en que un comprador entrega el dinero al vendedor. <mark>Pueden ser en efectivo, con tarjeta, transferencia o cheque, entre otros</mark>. Cada medio tiene ventajas distintas según la rapidez o la seguridad que ofrece.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
+        "alt": "Pagando una compra con tarjeta de credito",
+        "titulo": "Credit card payment, shopping",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/8809237/credit-card-payment-shopping",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué son los medios de cobro en una operación comercial?",
-      "respuesta": "Son las formas en que una empresa recibe el dinero de sus clientes. <mark>Es la otra cara de la moneda del medio de pago, vista desde quien vende</mark>. Incluyen la domiciliación bancaria, la transferencia o el pagaré."
+      "respuesta": "Son las formas en que una empresa recibe el dinero de sus clientes. <mark>Es la otra cara de la moneda del medio de pago, vista desde quien vende</mark>. Incluyen la domiciliación bancaria, la transferencia o el pagaré.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+        "alt": "Caja registradora antigua en una tienda",
+        "titulo": "Old Fashioned Retail",
+        "autor": "QUOI Media",
+        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el control de existencias?",
-      "respuesta": "Es el seguimiento de cuántos productos tiene una empresa disponibles en un momento dado. <mark>Es como llevar la cuenta de lo que queda en la despensa antes de que se acabe</mark>. Ayuda a saber cuándo pedir más mercancía."
+      "respuesta": "Es el seguimiento de cuántos productos tiene una empresa disponibles en un momento dado. <mark>Es como llevar la cuenta de lo que queda en la despensa antes de que se acabe</mark>. Ayuda a saber cuándo pedir más mercancía.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+        "alt": "Estanterias de un almacen llenas de palets apilados",
+        "titulo": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196431232",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un inventario?",
-      "respuesta": "Es el listado detallado de todos los bienes y mercancías que tiene una empresa. <mark>Es como hacer un recuento completo de todo lo que hay en un almacén</mark>. Ayuda a detectar pérdidas, roturas o errores de gestión."
+      "respuesta": "Es el listado detallado de todos los bienes y mercancías que tiene una empresa. <mark>Es como hacer un recuento completo de todo lo que hay en un almacén</mark>. Ayuda a detectar pérdidas, roturas o errores de gestión.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+        "alt": "Estanterias de un almacen llenas de palets apilados",
+        "titulo": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196431232",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante revisar la mercancía al recibir un pedido?",
-      "respuesta": "Porque hay que comprobar que coincide con lo pedido, en cantidad y en estado. <mark>Es como comprobar la compra antes de guardarla, para detectar cualquier error a tiempo</mark>. Detectarlo pronto evita problemas y reclamaciones posteriores."
+      "respuesta": "Porque hay que comprobar que coincide con lo pedido, en cantidad y en estado. <mark>Es como comprobar la compra antes de guardarla, para detectar cualquier error a tiempo</mark>. Detectarlo pronto evita problemas y reclamaciones posteriores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
+        "alt": "Reparto de paquetes y cajas desde un camion",
+        "titulo": "20161005-FNS-LSC-0114",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/29959656563",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué información debe incluir siempre una factura correcta?",
-      "respuesta": "Los datos del vendedor y del comprador, la descripción del producto, el precio y el IVA aplicado. <mark>Es como una ficha completa que deja constancia exacta de toda la operación</mark>. También debe llevar un número correlativo y la fecha."
+      "respuesta": "Los datos del vendedor y del comprador, la descripción del producto, el precio y el IVA aplicado. <mark>Es como una ficha completa que deja constancia exacta de toda la operación</mark>. También debe llevar un número correlativo y la fecha.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+        "alt": "Una factura de papel con el importe a pagar",
+        "titulo": "Please pay this amount",
+        "autor": "miguelb",
+        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre comprar al contado y comprar a crédito?",
-      "respuesta": "Comprar al contado significa pagar en el momento de la compra. <mark>Comprar a crédito significa pagar más adelante, en uno o varios plazos</mark>. La opción elegida afecta a la liquidez y a la planificación económica de la empresa."
+      "respuesta": "Comprar al contado significa pagar en el momento de la compra. <mark>Comprar a crédito significa pagar más adelante, en uno o varios plazos</mark>. La opción elegida afecta a la liquidez y a la planificación económica de la empresa.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
+        "alt": "Pagando una compra con tarjeta de credito",
+        "titulo": "Credit card payment, shopping",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/8809237/credit-card-payment-shopping",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué consecuencias tiene no controlar bien el inventario de una empresa?",
-      "respuesta": "Puede provocar roturas de stock o, al contrario, tener mercancía acumulada de más. <mark>Es como quedarte sin ingredientes clave a mitad de una receta, o comprar de más y que se estropee</mark>. Ambas situaciones generan pérdidas económicas."
+      "respuesta": "Puede provocar roturas de stock o, al contrario, tener mercancía acumulada de más. <mark>Es como quedarte sin ingredientes clave a mitad de una receta, o comprar de más y que se estropee</mark>. Ambas situaciones generan pérdidas económicas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+        "alt": "Estanterias de un almacen llenas de palets apilados",
+        "titulo": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196431232",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene el departamento de compras en la negociación con proveedores?",
-      "respuesta": "Busca conseguir el mejor precio y las mejores condiciones posibles. <mark>Es como negociar el mejor trato posible antes de cerrar cualquier acuerdo</mark>. También valora plazos de entrega y la calidad del producto."
+      "respuesta": "Busca conseguir el mejor precio y las mejores condiciones posibles. <mark>Es como negociar el mejor trato posible antes de cerrar cualquier acuerdo</mark>. También valora plazos de entrega y la calidad del producto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
+        "alt": "Dos personas dandose la mano al cerrar un acuerdo",
+        "titulo": "Two Person Shaking Each Others Hands",
+        "autor": "Homedust",
+        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante conservar bien los documentos de una compraventa?",
-      "respuesta": "Porque sirven como prueba legal en caso de reclamación o inspección. <mark>Es como guardar un ticket de compra por si necesitas devolver algo más adelante</mark>. También son necesarios para la contabilidad y la declaración de impuestos."
+      "respuesta": "Porque sirven como prueba legal en caso de reclamación o inspección. <mark>Es como guardar un ticket de compra por si necesitas devolver algo más adelante</mark>. También son necesarios para la contabilidad y la declaración de impuestos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/archivador.jpg",
+        "alt": "Empleada guardando documentos en un archivador de oficina",
+        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se relacionan las operaciones de compraventa con la contabilidad de la empresa?",
-      "respuesta": "Cada compra y cada venta debe registrarse contablemente, con su documento correspondiente. <mark>Es como anotar cada movimiento en un cuaderno de cuentas, para no perder el control</mark>. Esos registros permiten conocer la situación económica real."
+      "respuesta": "Cada compra y cada venta debe registrarse contablemente, con su documento correspondiente. <mark>Es como anotar cada movimiento en un cuaderno de cuentas, para no perder el control</mark>. Esos registros permiten conocer la situación económica real.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/calculadora-libro.jpg",
+        "alt": "Calculadora y boligrafo sobre un libro de cuentas",
+        "titulo": "Calculator and Pen with Ledger",
+        "autor": "seniorplanning",
+        "fuente": "https://www.flickr.com/photos/126131780@N08/14877276186",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

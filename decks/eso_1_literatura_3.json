@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un cantar de gesta?",
-      "respuesta": "Es un poema medieval que narra las hazañas de un héroe. <mark>Se recitaba en voz alta, mucho antes de escribirse</mark>. Contaba batallas y aventuras para admirar a ese héroe. El más famoso en español es el Cantar de Mio Cid."
+      "respuesta": "Es un poema medieval que narra las hazañas de un héroe. <mark>Se recitaba en voz alta, mucho antes de escribirse</mark>. Contaba batallas y aventuras para admirar a ese héroe. El más famoso en español es el Cantar de Mio Cid.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_3/cid-estatua.jpg",
+        "alt": "Estatua de El Cid Campeador, un héroe de cantar de gesta",
+        "titulo": "El Cid-estatua-(Parque de Balboa)",
+        "autor": "Basilio",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=8094431",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué es un héroe épico?",
-      "respuesta": "Es un personaje valiente que protagoniza grandes hazañas. <mark>Sus acciones parecen casi imposibles para una persona normal</mark>. Lucha por el honor, su tierra o su familia. Su historia se contaba para inspirar a quien la escuchaba."
+      "respuesta": "Es un personaje valiente que protagoniza grandes hazañas. <mark>Sus acciones parecen casi imposibles para una persona normal</mark>. Lucha por el honor, su tierra o su familia. Su historia se contaba para inspirar a quien la escuchaba.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_3/armadura-medieval.jpg",
+        "alt": "Una armadura medieval completa, como la de un héroe épico",
+        "titulo": "Armadura medieval",
+        "autor": "LALO VAZQUEZ",
+        "fuente": "https://www.flickr.com/photos/30993853@N06/5693275785",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Quién era un juglar en la Edad Media?",
-      "respuesta": "Era un artista que iba de pueblo en pueblo recitando historias. <mark>Actuaba en plazas para gente que no sabía leer</mark>. A cambio recibía comida, dinero o alojamiento. Gracias a ellos, muchas historias se conservaron sin estar escritas."
+      "respuesta": "Era un artista que iba de pueblo en pueblo recitando historias. <mark>Actuaba en plazas para gente que no sabía leer</mark>. A cambio recibía comida, dinero o alojamiento. Gracias a ellos, muchas historias se conservaron sin estar escritas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_3/feria-medieval.jpg",
+        "alt": "Una feria medieval con artistas callejeros, como los juglares de antes",
+        "titulo": "Feira medieval chamada das marabillas na cidadevella da Coruña",
+        "autor": "jl.cernadas",
+        "fuente": "https://www.flickr.com/photos/38035878@N07/6904718843",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la Edad Media para entender la literatura antigua?",
-      "respuesta": "Fue una época donde casi nadie sabía leer ni escribir. <mark>Por eso la literatura se contaba en voz alta, no en libros</mark>. Las historias vivían gracias a quien las recitaba de memoria. Muchas obras solo se escribieron mucho después."
+      "respuesta": "Fue una época donde casi nadie sabía leer ni escribir. <mark>Por eso la literatura se contaba en voz alta, no en libros</mark>. Las historias vivían gracias a quien las recitaba de memoria. Muchas obras solo se escribieron mucho después.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_3/castillo-coca-segovia.jpg",
+        "alt": "El Castillo de Coca, en Segovia, un castillo de la Edad Media",
+        "titulo": "Castillo de Coca (Segovia)",
+        "autor": "jl.cernadas",
+        "fuente": "https://www.flickr.com/photos/38035878@N07/14388762206",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una copla popular?",
-      "respuesta": "Es un poema corto y sencillo, fácil de cantar. <mark>Suele tener cuatro versos que riman entre ellos</mark>. Se transmitía cantando, sin necesidad de escribirla. Muchas canciones populares actuales nacieron de coplas antiguas."
+      "respuesta": "Es un poema corto y sencillo, fácil de cantar. <mark>Suele tener cuatro versos que riman entre ellos</mark>. Se transmitía cantando, sin necesidad de escribirla. Muchas canciones populares actuales nacieron de coplas antiguas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_3/guitarra-acustica.jpg",
+        "alt": "Una guitarra acústica, instrumento habitual en las coplas populares",
+        "titulo": "Acoustic guitar closeup",
+        "autor": "Henry Söderlund",
+        "fuente": "https://www.flickr.com/photos/46563758@N04/49505309502",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era una canción de trabajo?",
-      "respuesta": "Era una canción que la gente cantaba mientras trabajaba en el campo. <mark>Su ritmo ayudaba a coordinar el esfuerzo, como remar al compás</mark>. También hacía el trabajo duro más llevadero. Muchas de esas canciones se han conservado hasta hoy."
+      "respuesta": "Era una canción que la gente cantaba mientras trabajaba en el campo. <mark>Su ritmo ayudaba a coordinar el esfuerzo, como remar al compás</mark>. También hacía el trabajo duro más llevadero. Muchas de esas canciones se han conservado hasta hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_3/trabajadores-campo.jpg",
+        "alt": "Trabajadores en el campo, como los que cantaban canciones de trabajo",
+        "titulo": "20130920-OC-LSC-1326",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/10460713646",
+        "licencia": "Public Domain"
+      }
     }
   ]
 }

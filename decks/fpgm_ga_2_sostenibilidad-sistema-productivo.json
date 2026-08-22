@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el desarrollo sostenible?",
-      "respuesta": "Es crecer y progresar sin poner en riesgo los recursos que necesitarán las próximas generaciones. <mark>Es como usar los recursos de hoy sin dejar vacía la despensa de mañana</mark>. Combina desarrollo económico con cuidado social y ambiental."
+      "respuesta": "Es crecer y progresar sin poner en riesgo los recursos que necesitarán las próximas generaciones. <mark>Es como usar los recursos de hoy sin dejar vacía la despensa de mañana</mark>. Combina desarrollo económico con cuidado social y ambiental.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/desarrollo-sostenible.jpg",
+        "alt": "Manos sosteniendo un brote joven en la tierra",
+        "titulo": "20120414-DM-LSC-2804",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/8425080523",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué son los Objetivos de Desarrollo Sostenible aplicados a la empresa?",
-      "respuesta": "Son metas mundiales que las empresas también pueden ayudar a cumplir con sus decisiones. <mark>Es como aplicar a la empresa una lista de buenos propósitos compartidos por todo el planeta</mark>. Incluyen reducir la desigualdad y cuidar el planeta."
+      "respuesta": "Son metas mundiales que las empresas también pueden ayudar a cumplir con sus decisiones. <mark>Es como aplicar a la empresa una lista de buenos propósitos compartidos por todo el planeta</mark>. Incluyen reducir la desigualdad y cuidar el planeta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ods-empresa.jpg",
+        "alt": "Cartel con los Objetivos de Desarrollo Sostenible de la ONU",
+        "titulo": "Sustainable Development Goals (20 July 2016)",
+        "autor": "UNCTAD",
+        "fuente": "https://www.flickr.com/photos/53390373@N06/28453406865",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la economía circular?",
-      "respuesta": "Es un modelo económico que busca reutilizar y reciclar en vez de desechar. <mark>Es como cerrar el círculo de un producto, dándole una segunda vida en vez de tirarlo</mark>. Se opone al modelo tradicional de 'usar y tirar'."
+      "respuesta": "Es un modelo económico que busca reutilizar y reciclar en vez de desechar. <mark>Es como cerrar el círculo de un producto, dándole una segunda vida en vez de tirarlo</mark>. Se opone al modelo tradicional de 'usar y tirar'.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/economia-circular.jpg",
+        "alt": "Cartel explicando el ciclo de la economia circular.",
+        "titulo": "Sustainability poster - Circular economy",
+        "autor": "kevin dooley",
+        "fuente": "https://www.flickr.com/photos/12836528@N00/23908884102",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la huella de carbono de una organización?",
-      "respuesta": "Es la cantidad de gases de efecto invernadero que genera su actividad. <mark>Es como medir el rastro invisible que deja una empresa sobre el clima del planeta</mark>. Incluye desde la energía hasta los desplazamientos de sus trabajadores."
+      "respuesta": "Es la cantidad de gases de efecto invernadero que genera su actividad. <mark>Es como medir el rastro invisible que deja una empresa sobre el clima del planeta</mark>. Incluye desde la energía hasta los desplazamientos de sus trabajadores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/huella-carbono.jpg",
+        "alt": "Una fábrica con chimeneas expulsando humo",
+        "titulo": "Factory",
+        "autor": "mrhayata",
+        "fuente": "https://www.flickr.com/photos/36516818@N00/8524158330",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede gestionar mejor los residuos en una oficina?",
-      "respuesta": "Separando el papel, el plástico y otros materiales para reciclarlos correctamente. <mark>Es como ordenar la basura de casa, pero aplicado a un entorno de trabajo</mark>. También ayuda reducir el uso de papel innecesario."
+      "respuesta": "Separando el papel, el plástico y otros materiales para reciclarlos correctamente. <mark>Es como ordenar la basura de casa, pero aplicado a un entorno de trabajo</mark>. También ayuda reducir el uso de papel innecesario.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/reciclaje-papel.jpg",
+        "alt": "Papel depositado en un contenedor de reciclaje",
+        "titulo": "Paper To Paper Bin",
+        "autor": "My Alchemist",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=15972125",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué medidas mejoran la eficiencia energética en un puesto de trabajo?",
-      "respuesta": "Apagar luces y equipos que no se estén usando, o aprovechar la luz natural. <mark>Es como no dejar el grifo abierto cuando no lo necesitas, pero con la energía</mark>. Ahorran dinero y reducen el impacto ambiental."
+      "respuesta": "Apagar luces y equipos que no se estén usando, o aprovechar la luz natural. <mark>Es como no dejar el grifo abierto cuando no lo necesitas, pero con la energía</mark>. Ahorran dinero y reducen el impacto ambiental.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/eficiencia-energetica.jpg",
+        "alt": "Una bombilla LED de bajo consumo energético",
+        "titulo": "LED Light Bulb Upgrade",
+        "autor": "MSVG",
+        "fuente": "https://www.flickr.com/photos/13907834@N00/6671091413",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el consumo responsable?",
-      "respuesta": "Es comprar y usar productos pensando en su impacto social y ambiental. <mark>Es como elegir con cuidado lo que compras, no solo por precio, sino por sus consecuencias</mark>. Incluye evitar el derroche y valorar productos duraderos."
+      "respuesta": "Es comprar y usar productos pensando en su impacto social y ambiental. <mark>Es como elegir con cuidado lo que compras, no solo por precio, sino por sus consecuencias</mark>. Incluye evitar el derroche y valorar productos duraderos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/consumo-responsable.jpg",
+        "alt": "Bolsas de tela reutilizables para hacer la compra",
+        "titulo": "grocery bags",
+        "autor": "tyger_lyllie",
+        "fuente": "https://www.flickr.com/photos/67949051@N00/2661977977",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la movilidad sostenible al trabajo?",
-      "respuesta": "Es desplazarse al trabajo de formas que contaminan menos, como caminar, ir en bici o en transporte público. <mark>Es como elegir el camino que menos huella deja al llegar a la oficina</mark>."
+      "respuesta": "Es desplazarse al trabajo de formas que contaminan menos, como caminar, ir en bici o en transporte público. <mark>Es como elegir el camino que menos huella deja al llegar a la oficina</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/movilidad-sostenible.jpg",
+        "alt": "Una persona desplazándose en bicicleta",
+        "titulo": "Father and son ride",
+        "autor": "Richard Masoner / Cyclelicious",
+        "fuente": "https://www.flickr.com/photos/99247795@N00/165049219",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la sostenibilidad puede ser una ventaja competitiva para una empresa?",
-      "respuesta": "Porque cada vez más clientes valoran comprar a empresas responsables con el medio ambiente. <mark>Es como ganar puntos extra frente a otras empresas que no se preocupan por ello</mark>. También ahorra costes a largo plazo."
+      "respuesta": "Porque cada vez más clientes valoran comprar a empresas responsables con el medio ambiente. <mark>Es como ganar puntos extra frente a otras empresas que no se preocupan por ello</mark>. También ahorra costes a largo plazo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ventaja-competitiva.jpg",
+        "alt": "Etiqueta de una prenda que muestra su huella de carbono",
+        "titulo": "Carbon footprint on clothing",
+        "autor": "kevin dooley",
+        "fuente": "https://www.flickr.com/photos/12836528@N00/6158689001",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la sostenibilidad y la responsabilidad social corporativa?",
-      "respuesta": "La sostenibilidad se centra sobre todo en el cuidado ambiental; la responsabilidad social es más amplia. <mark>Es como una pieza más dentro de un compromiso todavía mayor con la sociedad</mark>."
+      "respuesta": "La sostenibilidad se centra sobre todo en el cuidado ambiental; la responsabilidad social es más amplia. <mark>Es como una pieza más dentro de un compromiso todavía mayor con la sociedad</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/responsabilidad-social.jpg",
+        "alt": "Un grupo de personas participando en una actividad de equipo",
+        "titulo": "Create-Learning Team Building and Leadership - Univ at Rochester College Center for Advising Services (2)",
+        "autor": "Mike Cardus Organization Development",
+        "fuente": "https://www.flickr.com/photos/8646749@N07/9351400760",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué reducir el papel en una oficina ayuda a la sostenibilidad?",
-      "respuesta": "Porque fabricar papel consume recursos naturales como agua, energía y madera. <mark>Es como ahorrar árboles cada vez que evitas imprimir algo innecesario</mark>. Usar documentos digitales reduce ese consumo."
+      "respuesta": "Porque fabricar papel consume recursos naturales como agua, energía y madera. <mark>Es como ahorrar árboles cada vez que evitas imprimir algo innecesario</mark>. Usar documentos digitales reduce ese consumo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/reducir-papel.jpg",
+        "alt": "Una pila de cuadernos y papel de oficina",
+        "titulo": "notebooks",
+        "autor": "Muffet",
+        "fuente": "https://www.flickr.com/photos/53133240@N00/4539970",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tienen los trabajadores en la sostenibilidad de una empresa?",
-      "respuesta": "Sus hábitos diarios, como reciclar o ahorrar energía, suman al esfuerzo conjunto de la empresa. <mark>Es como pequeñas gotas que, juntas, forman un cambio mucho más grande</mark>. Una empresa sostenible necesita la implicación de todo su equipo."
+      "respuesta": "Sus hábitos diarios, como reciclar o ahorrar energía, suman al esfuerzo conjunto de la empresa. <mark>Es como pequeñas gotas que, juntas, forman un cambio mucho más grande</mark>. Una empresa sostenible necesita la implicación de todo su equipo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/papel-trabajadores.jpg",
+        "alt": "Un grupo de compañeros trabajando en equipo",
+        "titulo": "teamwork",
+        "autor": "idlebrat",
+        "fuente": "https://www.flickr.com/photos/41454344@N08/4323009381",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que un producto tenga un ciclo de vida sostenible?",
-      "respuesta": "Significa que se ha pensado su impacto ambiental desde que se fabrica hasta que se desecha. <mark>Es como cuidar todas las etapas de la vida de un producto, no solo su fabricación</mark>. Incluye producción, uso y reciclaje final."
+      "respuesta": "Significa que se ha pensado su impacto ambiental desde que se fabrica hasta que se desecha. <mark>Es como cuidar todas las etapas de la vida de un producto, no solo su fabricación</mark>. Incluye producción, uso y reciclaje final.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ciclo-vida-producto.jpg",
+        "alt": "Detalle del empaquetado de un producto",
+        "titulo": "Packaging Detail",
+        "autor": "VFS Digital Design",
+        "fuente": "https://www.flickr.com/photos/58816914@N05/5396608804",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se relaciona la sostenibilidad con el ahorro económico de una empresa?",
-      "respuesta": "Porque usar menos energía, agua o materiales suele reducir también los costes. <mark>Es como ahorrar dinero al mismo tiempo que ahorras recursos</mark>. Esa doble ventaja explica por qué cada vez más empresas las adoptan."
+      "respuesta": "Porque usar menos energía, agua o materiales suele reducir también los costes. <mark>Es como ahorrar dinero al mismo tiempo que ahorras recursos</mark>. Esa doble ventaja explica por qué cada vez más empresas las adoptan.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ahorro-economico.jpg",
+        "alt": "Una hucha con monedas representando el ahorro",
+        "titulo": "Piggy-Bank version 1",
+        "autor": "cafecredit",
+        "fuente": "https://www.flickr.com/photos/143215168@N08/31741047085",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una oficina 'verde'?",
-      "respuesta": "Es una oficina que aplica hábitos y decisiones pensadas para reducir su impacto ambiental. <mark>Es como una oficina normal, pero con el medio ambiente como criterio constante de decisión</mark>. Puede incluir reciclaje o energías renovables."
+      "respuesta": "Es una oficina que aplica hábitos y decisiones pensadas para reducir su impacto ambiental. <mark>Es como una oficina normal, pero con el medio ambiente como criterio constante de decisión</mark>. Puede incluir reciclaje o energías renovables.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/oficina-verde.jpg",
+        "alt": "Una planta verde de interior",
+        "titulo": "Nandarukha (Marathi: नांदरूख)",
+        "autor": "Dinesh Valke",
+        "fuente": "https://www.flickr.com/photos/91314344@N00/818706599",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se incluye la sostenibilidad como módulo en la nueva Formación Profesional?",
-      "respuesta": "Porque cualquier profesión actual necesita tener en cuenta su impacto ambiental. <mark>Es como una competencia básica más, útil sea cual sea el trabajo al que te dediques</mark>. Es un módulo transversal a distintos ciclos formativos."
+      "respuesta": "Porque cualquier profesión actual necesita tener en cuenta su impacto ambiental. <mark>Es como una competencia básica más, útil sea cual sea el trabajo al que te dediques</mark>. Es un módulo transversal a distintos ciclos formativos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/modulo-fp.jpg",
+        "alt": "Estudiantes en una clase de formación profesional",
+        "titulo": "Summer vocational training programs",
+        "autor": "University of the Fraser Valley",
+        "fuente": "https://www.flickr.com/photos/21187388@N06/15072050201",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

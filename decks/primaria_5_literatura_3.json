@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el tema de un cuento o un poema?",
-      "respuesta": "Es la idea principal de la que trata la historia. <mark>Es como el hilo invisible que conecta todo lo que pasa</mark>. Por ejemplo, la amistad o el valor de intentarlo. Distinguirlo ayuda a entender por qué se escribió."
+      "respuesta": "Es la idea principal de la que trata la historia. <mark>Es como el hilo invisible que conecta todo lo que pasa</mark>. Por ejemplo, la amistad o el valor de intentarlo. Distinguirlo ayuda a entender por qué se escribió.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_3/hilo-invisible-tema.jpg",
+        "alt": "Una telaraña con gotas de rocío, con muchos hilos finos que conectan cada punto entre sí",
+        "titulo": "spider web with dew drops",
+        "autor": "minicooper93402",
+        "fuente": "https://www.flickr.com/photos/21703936@N08/6181554829",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el estilo de un autor?",
-      "respuesta": "Es su forma particular de escribir, distinta a la de otros. <mark>Es como la letra de cada persona: reconocible aunque cambie el texto</mark>. Algunos autores usan frases largas; otros, muy cortas. Leyendo varios libros suyos, se nota ese sello personal."
+      "respuesta": "Es su forma particular de escribir, distinta a la de otros. <mark>Es como la letra de cada persona: reconocible aunque cambie el texto</mark>. Algunos autores usan frases largas; otros, muy cortas. Leyendo varios libros suyos, se nota ese sello personal.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_3/estilo-autor-carta.jpg",
+        "alt": "Una carta antigua escrita a mano, con letra cursiva muy personal",
+        "titulo": "old letter",
+        "autor": "Joanna Bourne",
+        "fuente": "https://www.flickr.com/photos/66992990@N00/8380136935",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la rima consonante?",
-      "respuesta": "Es cuando las últimas letras de dos versos suenan exactamente igual. <mark>Coinciden vocales y consonantes desde la última vocal acentuada</mark>. Por ejemplo: 'cielo' y 'anhelo'. Es la rima más marcada y fácil de notar."
+      "respuesta": "Es cuando las últimas letras de dos versos suenan exactamente igual. <mark>Coinciden vocales y consonantes desde la última vocal acentuada</mark>. Por ejemplo: 'cielo' y 'anhelo'. Es la rima más marcada y fácil de notar.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_3/rima-consonante-cielo.jpg",
+        "alt": "Un cielo azul con nubes blancas, como la palabra 'cielo' del ejemplo",
+        "titulo": "Blue sky, white clouds",
+        "autor": "o b s k u r a",
+        "fuente": "https://www.flickr.com/photos/88575173@N00/2743129961",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la rima asonante?",
-      "respuesta": "Es cuando solo coinciden las vocales al final de los versos. <mark>Las consonantes pueden ser distintas, aunque suene parecido</mark>. Por ejemplo: 'casa' y 'nada'. Suena más suave que la rima consonante."
+      "respuesta": "Es cuando solo coinciden las vocales al final de los versos. <mark>Las consonantes pueden ser distintas, aunque suene parecido</mark>. Por ejemplo: 'casa' y 'nada'. Suena más suave que la rima consonante.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_3/rima-asonante-casa.jpg",
+        "alt": "Una casa antigua de piedra con tejado rojo, como la palabra 'casa' del ejemplo",
+        "titulo": "Mary Arden's House / Farm - Wilmcote - Palmer's Farmhouse - Dovecote",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/8442434122",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian la rima consonante y la asonante?",
-      "respuesta": "La consonante repite vocales y consonantes por igual. <mark>La asonante solo repite las vocales, de forma más libre</mark>. Por eso la asonante suena más suave al oído. Ambas ayudan a dar musicalidad a un poema."
+      "respuesta": "La consonante repite vocales y consonantes por igual. <mark>La asonante solo repite las vocales, de forma más libre</mark>. Por eso la asonante suena más suave al oído. Ambas ayudan a dar musicalidad a un poema.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_3/poesia-lectura.jpg",
+        "alt": "Alguien leyendo poesía en voz alta",
+        "titulo": "poetry reading",
+        "autor": "eflon",
+        "fuente": "https://www.flickr.com/photos/23094783@N03/3454075839",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un cuento maravilloso?",
-      "respuesta": "Es un cuento con magia que nadie cuestiona dentro de la historia. <mark>Los personajes aceptan la magia como algo normal, sin sorprenderse</mark>. Por ejemplo, hablar con animales o volar en alfombra. Son muy comunes en los cuentos populares."
+      "respuesta": "Es un cuento con magia que nadie cuestiona dentro de la historia. <mark>Los personajes aceptan la magia como algo normal, sin sorprenderse</mark>. Por ejemplo, hablar con animales o volar en alfombra. Son muy comunes en los cuentos populares.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_3/cuento-maravilloso-lampara.webp",
+        "alt": "Dibujo de una lámpara mágica antigua con humo saliendo, como en los cuentos con magia",
+        "titulo": "Magic lamp clipart, vintage illustration",
+        "autor": "Desconocido (rawpixel, dominio público)",
+        "fuente": "https://www.rawpixel.com/image/6817501/vector-vintage-public-domain-black",
+        "licencia": "CC0 1.0"
+      }
     }
   ]
 }

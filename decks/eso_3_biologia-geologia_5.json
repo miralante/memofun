@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué diferencia hay entre sexo y sexualidad?",
-      "respuesta": "El sexo se refiere a las características biológicas con las que se nace. <mark>La sexualidad es mucho más amplia: incluye emociones, afectividad y forma de relacionarse</mark>. No se reduce solo a lo físico. Entender esa diferencia ayuda a hablar del tema con más claridad."
+      "respuesta": "El sexo se refiere a las características biológicas con las que se nace. <mark>La sexualidad es mucho más amplia: incluye emociones, afectividad y forma de relacionarse</mark>. No se reduce solo a lo físico. Entender esa diferencia ayuda a hablar del tema con más claridad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/simbolo-genero.jpg",
+        "alt": "Los símbolos universales de género.",
+        "titulo": "Universal gender symbol 2",
+        "autor": "lazzarello",
+        "fuente": "https://www.flickr.com/photos/60158717@N00/2444171650",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa la igualdad de género en las relaciones afectivas?",
-      "respuesta": "Significa que todas las personas, sea cual sea su género, merecen el mismo respeto y los mismos derechos. <mark>Es como repartir siempre a partes iguales, sin que nadie decida por encima del otro</mark>. Incluye escuchar y valorar por igual a ambas partes. Es la base de cualquier relación sana."
+      "respuesta": "Significa que todas las personas, sea cual sea su género, merecen el mismo respeto y los mismos derechos. <mark>Es como repartir siempre a partes iguales, sin que nadie decida por encima del otro</mark>. Incluye escuchar y valorar por igual a ambas partes. Es la base de cualquier relación sana.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/icono-igualdad-genero.jpg",
+        "alt": "Símbolos de género representando la igualdad.",
+        "titulo": "gender symbols",
+        "autor": "Mike-wise",
+        "fuente": "https://www.flickr.com/photos/65486489@N00/519903056",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la comunicación en las relaciones afectivas?",
-      "respuesta": "Porque ayuda a expresar sentimientos, deseos y límites con claridad. <mark>Es como hablar el mismo idioma para entenderse de verdad</mark>. Sin comunicación, es fácil que surjan malentendidos o incomodidad. Una relación sana se construye hablando con sinceridad y respeto."
+      "respuesta": "Porque ayuda a expresar sentimientos, deseos y límites con claridad. <mark>Es como hablar el mismo idioma para entenderse de verdad</mark>. Sin comunicación, es fácil que surjan malentendidos o incomodidad. Una relación sana se construye hablando con sinceridad y respeto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/amigas-hablando.jpg",
+        "alt": "Dos personas conversando de forma cercana.",
+        "titulo": "Friends Talking",
+        "autor": "mikecogh",
+        "fuente": "https://www.flickr.com/photos/89165847@N00/10086181464",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el consentimiento en una relación?",
-      "respuesta": "Es el acuerdo libre y consciente de todas las personas implicadas. <mark>Sin un sí claro de todas las partes, no existe consentimiento real</mark>. Se puede cambiar de opinión en cualquier momento, incluso después de haber dicho que sí. Respetarlo es imprescindible siempre."
+      "respuesta": "Es el acuerdo libre y consciente de todas las personas implicadas. <mark>Sin un sí claro de todas las partes, no existe consentimiento real</mark>. Se puede cambiar de opinión en cualquier momento, incluso después de haber dicho que sí. Respetarlo es imprescindible siempre.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/apreton-manos.jpg",
+        "alt": "Un apretón de manos, como señal de acuerdo mutuo.",
+        "titulo": "Handshake",
+        "autor": "Aidan Jones",
+        "fuente": "https://www.flickr.com/photos/25945304@N00/3575000735",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los métodos anticonceptivos?",
-      "respuesta": "Son métodos que ayudan a decidir si se quiere tener descendencia o no. <mark>Permiten planificar de forma responsable las decisiones sobre la propia vida</mark>. Existen distintos tipos, con diferente forma de uso y eficacia. Elegir el más adecuado suele hacerse con ayuda sanitaria."
+      "respuesta": "Son métodos que ayudan a decidir si se quiere tener descendencia o no. <mark>Permiten planificar de forma responsable las decisiones sobre la propia vida</mark>. Existen distintos tipos, con diferente forma de uso y eficacia. Elegir el más adecuado suele hacerse con ayuda sanitaria.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/medicamentos-antiguos.jpg",
+        "alt": "Cajas y envases de medicamentos.",
+        "titulo": "Old-fashioned medications",
+        "autor": "Ruth and Dave",
+        "fuente": "https://www.flickr.com/photos/95142644@N00/11595085864",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las infecciones de transmisión sexual?",
-      "respuesta": "Son infecciones que pueden contagiarse durante las relaciones sexuales. <mark>Algunas no dan síntomas al principio, por eso hay que prevenirlas siempre</mark>. Usar protección adecuada reduce mucho el riesgo de contagio. Hacerse revisiones médicas ayuda a detectarlas a tiempo."
+      "respuesta": "Son infecciones que pueden contagiarse durante las relaciones sexuales. <mark>Algunas no dan síntomas al principio, por eso hay que prevenirlas siempre</mark>. Usar protección adecuada reduce mucho el riesgo de contagio. Hacerse revisiones médicas ayuda a detectarlas a tiempo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/cartel-clinica-salud.jpg",
+        "alt": "El cartel de una clínica de salud.",
+        "titulo": "Paiute Health Clinic Sign",
+        "autor": "meowrer",
+        "fuente": "https://www.flickr.com/photos/56555485@N05/5514953189",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante resolver dudas sobre relaciones con información fiable?",
-      "respuesta": "Porque la desinformación puede generar miedos o decisiones poco seguras. <mark>Es mejor preguntar a alguien de confianza que fiarse de rumores sin comprobar</mark>. Familia, profesorado o profesionales sanitarios pueden ayudar. Tener información fiable ayuda a decidir con seguridad."
+      "respuesta": "Porque la desinformación puede generar miedos o decisiones poco seguras. <mark>Es mejor preguntar a alguien de confianza que fiarse de rumores sin comprobar</mark>. Familia, profesorado o profesionales sanitarios pueden ayudar. Tener información fiable ayuda a decidir con seguridad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/personal-medico.jpg",
+        "alt": "Personal médico dando información fiable a pacientes.",
+        "titulo": "Medics from across the NHS practise in full Personal Protective Equipment (PPE)",
+        "autor": "DFID - UK Department for International Development",
+        "fuente": "https://www.flickr.com/photos/14214150@N02/15649499108",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la actividad física regular es un hábito saludable?",
-      "respuesta": "Porque fortalece el cuerpo y ayuda también a sentirse mejor emocionalmente. <mark>Es como poner a punto una máquina para que funcione mejor cada día</mark>. No hace falta un deporte exigente para notar sus beneficios. Moverse a diario ya marca una diferencia importante."
+      "respuesta": "Porque fortalece el cuerpo y ayuda también a sentirse mejor emocionalmente. <mark>Es como poner a punto una máquina para que funcione mejor cada día</mark>. No hace falta un deporte exigente para notar sus beneficios. Moverse a diario ya marca una diferencia importante.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/corredora-parque.jpg",
+        "alt": "Una persona corriendo en un parque, haciendo ejercicio.",
+        "titulo": "Jogger in Kapiolani Park",
+        "autor": "Chris Hunkeler",
+        "fuente": "https://www.flickr.com/photos/14913305@N00/7285055264",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante dormir suficientes horas?",
-      "respuesta": "Porque el sueño ayuda al cuerpo y a la mente a recuperarse cada día. <mark>Es como recargar una batería que se ha ido gastando durante el día</mark>. Dormir mal afecta al ánimo, la memoria y la concentración. Un horario regular mejora mucho la calidad de vida."
+      "respuesta": "Porque el sueño ayuda al cuerpo y a la mente a recuperarse cada día. <mark>Es como recargar una batería que se ha ido gastando durante el día</mark>. Dormir mal afecta al ánimo, la memoria y la concentración. Un horario regular mejora mucho la calidad de vida.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/dormir-descanso.jpg",
+        "alt": "Una persona durmiendo",
+        "titulo": "sleep.",
+        "autor": ".through my eyes.",
+        "fuente": "https://www.flickr.com/photos/80355002@N00/23669945",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un trastorno de la conducta alimentaria?",
-      "respuesta": "Es un problema de salud relacionado con la forma de comer y de verse a uno mismo. <mark>No es solo una cuestión de comida: afecta también a las emociones y a la autoestima</mark>. Puede necesitar ayuda profesional para superarse. Detectarlo a tiempo facilita la recuperación."
+      "respuesta": "Es un problema de salud relacionado con la forma de comer y de verse a uno mismo. <mark>No es solo una cuestión de comida: afecta también a las emociones y a la autoestima</mark>. Puede necesitar ayuda profesional para superarse. Detectarlo a tiempo facilita la recuperación.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/plato-equilibrado.jpg",
+        "alt": "Un plato de comida equilibrada y saludable.",
+        "titulo": "20111025-FNS-RBN-2046",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/6283058918",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una adicción?",
-      "respuesta": "Es la necesidad fuerte y difícil de controlar de repetir una conducta o consumir una sustancia. <mark>Es como quedar atrapado en un bucle que cuesta mucho romper por uno mismo</mark>. Puede afectar a sustancias o a comportamientos, como el uso excesivo del móvil. Pedir ayuda a tiempo facilita superarla."
+      "respuesta": "Es la necesidad fuerte y difícil de controlar de repetir una conducta o consumir una sustancia. <mark>Es como quedar atrapado en un bucle que cuesta mucho romper por uno mismo</mark>. Puede afectar a sustancias o a comportamientos, como el uso excesivo del móvil. Pedir ayuda a tiempo facilita superarla.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/videojuego-mando.jpg",
+        "alt": "Una persona jugando con un mando de videoconsola.",
+        "titulo": "Savage Wii Boxing Match",
+        "autor": "Sherif Salama",
+        "fuente": "https://www.flickr.com/photos/52226279@N00/2290223478",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre los buenos hábitos y el bienestar emocional?",
-      "respuesta": "Comer bien, dormir suficiente y moverse ayudan también a sentirse mejor por dentro. <mark>El cuerpo y las emociones están más conectados de lo que parece a simple vista</mark>. Cuidar el cuerpo influye directamente en el estado de ánimo. Los hábitos saludables cuidan cuerpo y mente."
+      "respuesta": "Comer bien, dormir suficiente y moverse ayudan también a sentirse mejor por dentro. <mark>El cuerpo y las emociones están más conectados de lo que parece a simple vista</mark>. Cuidar el cuerpo influye directamente en el estado de ánimo. Los hábitos saludables cuidan cuerpo y mente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/bienestar-transformacion.jpg",
+        "alt": "Una persona en un momento de bienestar y calma personal.",
+        "titulo": "Personal Transformation",
+        "autor": "GroggyFroggy",
+        "fuente": "https://www.flickr.com/photos/59255972@N00/3019883317",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

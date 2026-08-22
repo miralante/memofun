@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la transformación digital de una empresa?",
-      "respuesta": "Es el proceso de incorporar tecnología digital a las tareas y procesos habituales. <mark>Es como cambiar poco a poco el papel y el teléfono fijo por herramientas digitales</mark>. Afecta a la comunicación, la gestión documental y la atención al cliente."
+      "respuesta": "Es el proceso de incorporar tecnología digital a las tareas y procesos habituales. <mark>Es como cambiar poco a poco el papel y el teléfono fijo por herramientas digitales</mark>. Afecta a la comunicación, la gestión documental y la atención al cliente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/rincon-ordenador.jpg",
+        "alt": "Un rincon de oficina con un ordenador de trabajo",
+        "titulo": "Computer corner update",
+        "autor": "Stefan Ledwina",
+        "fuente": "https://www.flickr.com/photos/95529805@N00/2465450062",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las herramientas de trabajo colaborativo en la nube?",
-      "respuesta": "Son aplicaciones que permiten a varias personas trabajar sobre el mismo documento a la vez, desde internet. <mark>Es como escribir todos a la vez en el mismo cuaderno, aunque estén en lugares distintos</mark>."
+      "respuesta": "Son aplicaciones que permiten a varias personas trabajar sobre el mismo documento a la vez, desde internet. <mark>Es como escribir todos a la vez en el mismo cuaderno, aunque estén en lugares distintos</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/nube-colaborativa.jpg",
+        "alt": "Concepto visual de almacenamiento y trabajo en la nube",
+        "titulo": "Cloud Security - In the Cloud",
+        "autor": "perspec_photo88",
+        "fuente": "https://www.flickr.com/photos/111692634@N04/11406958795",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el teletrabajo?",
-      "respuesta": "Es trabajar desde un lugar distinto a la oficina, normalmente desde casa, usando tecnología. <mark>Es como llevar la oficina contigo, sin necesidad de desplazarte físicamente cada día</mark>. Requiere conexión a internet y herramientas digitales."
+      "respuesta": "Es trabajar desde un lugar distinto a la oficina, normalmente desde casa, usando tecnología. <mark>Es como llevar la oficina contigo, sin necesidad de desplazarte físicamente cada día</mark>. Requiere conexión a internet y herramientas digitales.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/teletrabajo.jpg",
+        "alt": "Una persona trabajando con el ordenador desde casa",
+        "titulo": "Working at Home",
+        "autor": "mikecogh",
+        "fuente": "https://www.flickr.com/photos/89165847@N00/10014914856",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la identidad digital?",
-      "respuesta": "Es el conjunto de datos e información que te representan en internet. <mark>Es como tu reputación, pero construida a partir de lo que haces y publicas online</mark>. Cuidarla es importante también para la vida profesional."
+      "respuesta": "Es el conjunto de datos e información que te representan en internet. <mark>Es como tu reputación, pero construida a partir de lo que haces y publicas online</mark>. Cuidarla es importante también para la vida profesional.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/pantalla-login.jpg",
+        "alt": "Pantalla de inicio de sesion con usuario y contraseña",
+        "titulo": "page_login",
+        "autor": "meedanphotos",
+        "fuente": "https://www.flickr.com/photos/26097071@N05/5034027183",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué medidas básicas de ciberseguridad conviene aplicar en una oficina?",
-      "respuesta": "Usar contraseñas seguras, actualizar programas y desconfiar de correos sospechosos. <mark>Es como cerrar bien las puertas y ventanas de una oficina, pero en el mundo digital</mark>. Un solo descuido puede comprometer a toda la empresa."
+      "respuesta": "Usar contraseñas seguras, actualizar programas y desconfiar de correos sospechosos. <mark>Es como cerrar bien las puertas y ventanas de una oficina, pero en el mundo digital</mark>. Un solo descuido puede comprometer a toda la empresa.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/candado-seguridad.jpg",
+        "alt": "Un candado que representa la seguridad y la proteccion",
+        "titulo": "Security",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/2294144289",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el RGPD?",
-      "respuesta": "Es el Reglamento General de Protección de Datos, la norma europea que protege los datos personales. <mark>Es como una ley que exige tratar la información privada de las personas con mucho cuidado</mark>. Su incumplimiento acarrea sanciones."
+      "respuesta": "Es el Reglamento General de Protección de Datos, la norma europea que protege los datos personales. <mark>Es como una ley que exige tratar la información privada de las personas con mucho cuidado</mark>. Su incumplimiento acarrea sanciones.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/maza-ley.jpg",
+        "alt": "Una maza de juez, representando la normativa legal",
+        "titulo": "UNFCCC-COP3 Gavel",
+        "autor": "Jason Riedy",
+        "fuente": "https://www.flickr.com/photos/66142667@N00/7029228521",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el comercio electrónico?",
-      "respuesta": "Es la compra y venta de productos o servicios a través de internet. <mark>Es como una tienda abierta las veinticuatro horas, sin necesidad de un local físico</mark>. Requiere una buena gestión digital de pedidos, pagos y envíos."
+      "respuesta": "Es la compra y venta de productos o servicios a través de internet. <mark>Es como una tienda abierta las veinticuatro horas, sin necesidad de un local físico</mark>. Requiere una buena gestión digital de pedidos, pagos y envíos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/comercio-electronico.jpg",
+        "alt": "Una caja de carton de un pedido de comercio electronico",
+        "titulo": "E-Commerce Product Delivery - Brown Cardboard Shipping Box Item From Online Shopping",
+        "autor": "Fresh Materials",
+        "fuente": "https://www.flickr.com/photos/183107169@N08/48683808587",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la firma electrónica?",
-      "respuesta": "Es un sistema que permite firmar documentos digitalmente, con la misma validez que una firma manuscrita. <mark>Es como firmar con bolígrafo, pero de forma segura dentro de un documento digital</mark>. Ahorra tiempo y papel."
+      "respuesta": "Es un sistema que permite firmar documentos digitalmente, con la misma validez que una firma manuscrita. <mark>Es como firmar con bolígrafo, pero de forma segura dentro de un documento digital</mark>. Ahorra tiempo y papel.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/certificado-firmado.jpg",
+        "alt": "Un documento oficial firmado",
+        "titulo": "ROBERT BURNS'S DUMFRIES BURGESS CERTIFICATE",
+        "autor": "summonedbyfells",
+        "fuente": "https://www.flickr.com/photos/8521690@N02/6946184697",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la administración electrónica?",
-      "respuesta": "Es la posibilidad de hacer trámites con la Administración pública a través de internet. <mark>Es como hacer una gestión en una ventanilla, pero sin moverte de casa o de la oficina</mark>. Incluye solicitar certificados o presentar impuestos."
+      "respuesta": "Es la posibilidad de hacer trámites con la Administración pública a través de internet. <mark>Es como hacer una gestión en una ventanilla, pero sin moverte de casa o de la oficina</mark>. Incluye solicitar certificados o presentar impuestos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/torre-cybercity.jpg",
+        "alt": "Un edificio moderno de oficinas dedicado a servicios digitales",
+        "titulo": "Ebene tower Cybercity mauritius",
+        "autor": "austinevan",
+        "fuente": "https://www.flickr.com/photos/19762676@N00/2384601677",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel puede tener la inteligencia artificial en el entorno laboral administrativo?",
-      "respuesta": "Puede ayudar a automatizar tareas repetitivas, como clasificar documentos o responder consultas sencillas. <mark>Es como tener un ayudante que se encarga de tareas mecánicas, dejando tiempo para lo más importante</mark>. No sustituye el criterio humano."
+      "respuesta": "Puede ayudar a automatizar tareas repetitivas, como clasificar documentos o responder consultas sencillas. <mark>Es como tener un ayudante que se encarga de tareas mecánicas, dejando tiempo para lo más importante</mark>. No sustituye el criterio humano.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/robot-ia.jpg",
+        "alt": "Un robot que representa la inteligencia artificial",
+        "titulo": "Robotic Parenting",
+        "autor": "jurvetson",
+        "fuente": "https://www.flickr.com/photos/44124348109@N01/483475990",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la brecha digital?",
-      "respuesta": "Es la diferencia de acceso y manejo de la tecnología entre distintas personas o grupos. <mark>Es como una distancia invisible entre quien tiene herramientas digitales y quien no</mark>. Reducirla es importante para no dejar a nadie atrás."
+      "respuesta": "Es la diferencia de acceso y manejo de la tecnología entre distintas personas o grupos. <mark>Es como una distancia invisible entre quien tiene herramientas digitales y quien no</mark>. Reducirla es importante para no dejar a nadie atrás.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/banda-ancha.jpg",
+        "alt": "Personas debatiendo sobre el acceso a internet de banda ancha",
+        "titulo": "Senate Broadband Caucus",
+        "autor": "senatorheitkamp",
+        "fuente": "https://www.flickr.com/photos/133360078@N07/27712182594",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante actualizar regularmente los programas de un ordenador de oficina?",
-      "respuesta": "Porque las actualizaciones suelen corregir fallos de seguridad conocidos. <mark>Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar</mark>. Un programa desactualizado es más vulnerable a ataques."
+      "respuesta": "Porque las actualizaciones suelen corregir fallos de seguridad conocidos. <mark>Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar</mark>. Un programa desactualizado es más vulnerable a ataques.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/actualizacion-software.jpg",
+        "alt": "Pantalla de un movil mostrando una actualizacion de software",
+        "titulo": "Apple iPhone 6 iOS Update",
+        "autor": "Håkan Dahlström",
+        "fuente": "https://www.flickr.com/photos/93755244@N00/16195046500",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué precauciones conviene tener con los correos electrónicos sospechosos?",
-      "respuesta": "No abrir archivos ni enlaces de remitentes desconocidos o poco fiables. <mark>Es como no abrir la puerta a un desconocido que dice traer un paquete sospechoso</mark>. Muchos ataques empiezan con un correo aparentemente inofensivo."
+      "respuesta": "No abrir archivos ni enlaces de remitentes desconocidos o poco fiables. <mark>Es como no abrir la puerta a un desconocido que dice traer un paquete sospechoso</mark>. Muchos ataques empiezan con un correo aparentemente inofensivo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/phishing-correo.jpg",
+        "alt": "Un correo electronico sospechoso marcado como posible fraude",
+        "titulo": "Gmail responds to phishers",
+        "autor": "smith",
+        "fuente": "https://www.flickr.com/photos/37996612193@N01/6231255",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas ofrece el trabajo colaborativo en la nube frente a guardar documentos solo en un ordenador?",
-      "respuesta": "Permite acceder a los documentos desde cualquier lugar y trabajar varias personas a la vez. <mark>Es como tener el mismo documento disponible en todas partes, en vez de guardado en un único cajón</mark>."
+      "respuesta": "Permite acceder a los documentos desde cualquier lugar y trabajar varias personas a la vez. <mark>Es como tener el mismo documento disponible en todas partes, en vez de guardado en un único cajón</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/nube-colaborativa.jpg",
+        "alt": "Concepto visual de almacenamiento y trabajo en la nube",
+        "titulo": "Cloud Security - In the Cloud",
+        "autor": "perspec_photo88",
+        "fuente": "https://www.flickr.com/photos/111692634@N04/11406958795",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación existe entre la digitalización y la eficiencia de una empresa?",
-      "respuesta": "Automatizar tareas repetitivas libera tiempo para trabajos que requieren más atención humana. <mark>Es como delegar las tareas más mecánicas para centrarte en las que realmente lo necesitan</mark>."
+      "respuesta": "Automatizar tareas repetitivas libera tiempo para trabajos que requieren más atención humana. <mark>Es como delegar las tareas más mecánicas para centrarte en las que realmente lo necesitan</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/rincon-ordenador.jpg",
+        "alt": "Un rincon de oficina con un ordenador de trabajo",
+        "titulo": "Computer corner update",
+        "autor": "Stefan Ledwina",
+        "fuente": "https://www.flickr.com/photos/95529805@N00/2465450062",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante formarse en competencias digitales en cualquier puesto administrativo?",
-      "respuesta": "Porque cada vez más tareas de oficina dependen de herramientas digitales. <mark>Es como necesitar saber nadar en un entorno donde cada vez hay más agua</mark>. No tenerlas puede limitar mucho las oportunidades laborales."
+      "respuesta": "Porque cada vez más tareas de oficina dependen de herramientas digitales. <mark>Es como necesitar saber nadar en un entorno donde cada vez hay más agua</mark>. No tenerlas puede limitar mucho las oportunidades laborales.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/clase-formacion.jpg",
+        "alt": "Un grupo de personas en una clase de formacion",
+        "titulo": "The migration class",
+        "autor": "MarcinMonko",
+        "fuente": "https://www.flickr.com/photos/51646668@N05/6171792843",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa proteger la privacidad al usar herramientas digitales en el trabajo?",
-      "respuesta": "Significa no compartir datos personales o de la empresa sin autorización clara. <mark>Es como no dejar documentos importantes a la vista de cualquiera</mark>. Esa protección es responsabilidad de la empresa y de cada trabajador."
+      "respuesta": "Significa no compartir datos personales o de la empresa sin autorización clara. <mark>Es como no dejar documentos importantes a la vista de cualquiera</mark>. Esa protección es responsabilidad de la empresa y de cada trabajador.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/candado-seguridad.jpg",
+        "alt": "Un candado que representa la seguridad y la proteccion",
+        "titulo": "Security",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/2294144289",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se considera la digitalización un módulo transversal en la nueva Formación Profesional?",
-      "respuesta": "Porque las competencias digitales son necesarias en casi cualquier sector, no solo en administración. <mark>Es como una habilidad básica que se necesita sin importar a qué te dediques</mark>. Se enseña en distintos ciclos formativos."
+      "respuesta": "Porque las competencias digitales son necesarias en casi cualquier sector, no solo en administración. <mark>Es como una habilidad básica que se necesita sin importar a qué te dediques</mark>. Se enseña en distintos ciclos formativos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/clase-formacion.jpg",
+        "alt": "Un grupo de personas en una clase de formacion",
+        "titulo": "The migration class",
+        "autor": "MarcinMonko",
+        "fuente": "https://www.flickr.com/photos/51646668@N05/6171792843",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

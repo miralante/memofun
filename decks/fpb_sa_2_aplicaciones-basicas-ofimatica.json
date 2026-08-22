@@ -5,63 +5,183 @@
   "tarjetas": [
     {
       "pregunta": "¿Para qué sirve un procesador de textos?",
-      "respuesta": "Sirve para escribir, editar y dar formato a documentos en el ordenador. <mark>Es como una máquina de escribir moderna, pero mucho más flexible</mark>. Permite corregir errores sin tener que empezar de nuevo."
+      "respuesta": "Sirve para escribir, editar y dar formato a documentos en el ordenador. <mark>Es como una máquina de escribir moderna, pero mucho más flexible</mark>. Permite corregir errores sin tener que empezar de nuevo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/procesador-textos.jpg",
+        "alt": "Una persona escribiendo en el teclado de un ordenador",
+        "titulo": "170 - Typing",
+        "autor": "LaMenta3",
+        "fuente": "https://www.flickr.com/photos/15304975@N03/4841330621",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa dar formato a un texto?",
-      "respuesta": "Es cambiar cómo se ve: el tipo de letra, el tamaño o el color. <mark>Es como vestir el mismo contenido de una forma más clara y profesional</mark>. Un buen formato ayuda a que el documento se lea mejor."
+      "respuesta": "Es cambiar cómo se ve: el tipo de letra, el tamaño o el color. <mark>Es como vestir el mismo contenido de una forma más clara y profesional</mark>. Un buen formato ayuda a que el documento se lea mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/formato-texto.jpg",
+        "alt": "Un boceto de letras y tipografía decorativa",
+        "titulo": "#MonthlySkillProject | Day 18: 'We go on.'",
+        "autor": "@mist3ry30",
+        "fuente": "https://www.flickr.com/photos/56044513@N06/21455442318",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es poner un texto en negrita?",
-      "respuesta": "Es hacer que las letras se vean más gruesas y oscuras. <mark>Es como subrayar con más fuerza una parte importante del texto</mark>. Se usa para destacar palabras o títulos importantes."
+      "respuesta": "Es hacer que las letras se vean más gruesas y oscuras. <mark>Es como subrayar con más fuerza una parte importante del texto</mark>. Se usa para destacar palabras o títulos importantes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/negrita.jpg",
+        "alt": "El titular de una noticia impresa en letra grande",
+        "titulo": "A Democratic media strategy to save journalism and the nation",
+        "autor": "gruntzooki",
+        "fuente": "https://www.flickr.com/photos/37996580417@N01/54199679476",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve cambiar el tamaño de la letra en un documento?",
-      "respuesta": "Ayuda a diferenciar títulos, subtítulos y texto normal. <mark>Es como escribir un cartel más grande para lo que quieres que se vea primero</mark>. Facilita mucho la lectura de un documento largo."
+      "respuesta": "Ayuda a diferenciar títulos, subtítulos y texto normal. <mark>Es como escribir un cartel más grande para lo que quieres que se vea primero</mark>. Facilita mucho la lectura de un documento largo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/tamano-letra.jpg",
+        "alt": "Un cartel con texto de distintos tamaños",
+        "titulo": "Uffculme Centre sign",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/5613891859",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la alineación de un texto?",
-      "respuesta": "Es cómo se coloca el texto respecto a los márgenes de la página. <mark>Puede estar a la izquierda, a la derecha, centrado o justificado</mark>. Una buena alineación hace que el documento se vea más ordenado."
+      "respuesta": "Es cómo se coloca el texto respecto a los márgenes de la página. <mark>Puede estar a la izquierda, a la derecha, centrado o justificado</mark>. Una buena alineación hace que el documento se vea más ordenado.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/alineacion.jpg",
+        "alt": "Un lápiz y una regla sobre una superficie",
+        "titulo": "Pencil and ruler",
+        "autor": "mdxdt",
+        "fuente": "https://www.flickr.com/photos/74624435@N00/177749386",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve insertar una tabla en un documento?",
-      "respuesta": "Ayuda a organizar información en filas y columnas, de forma ordenada. <mark>Es como ordenar datos en cajones, en vez de dejarlos todos sueltos</mark>. Facilita comparar datos de un vistazo."
+      "respuesta": "Ayuda a organizar información en filas y columnas, de forma ordenada. <mark>Es como ordenar datos en cajones, en vez de dejarlos todos sueltos</mark>. Facilita comparar datos de un vistazo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/insertar-tabla.jpg",
+        "alt": "El icono del programa de hojas de cálculo Excel",
+        "titulo": "MS Excel 2010 ~ What-If Analysis Icon",
+        "autor": "barbourians",
+        "fuente": "https://www.flickr.com/photos/51607907@N03/6052604954",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve insertar una imagen en un documento?",
-      "respuesta": "Ayuda a ilustrar o explicar mejor algo que solo con texto sería más difícil. <mark>Es como acompañar una explicación con una foto que lo aclara todo</mark>. Se usa en informes, presentaciones o manuales."
+      "respuesta": "Ayuda a ilustrar o explicar mejor algo que solo con texto sería más difícil. <mark>Es como acompañar una explicación con una foto que lo aclara todo</mark>. Se usa en informes, presentaciones o manuales.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/insertar-imagen.jpg",
+        "alt": "Un boletín de notas con distintos elementos",
+        "titulo": "1980 Report Card",
+        "autor": "JD Hancock",
+        "fuente": "https://www.flickr.com/photos/83346641@N00/5119801008",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve una hoja de cálculo?",
-      "respuesta": "Sirve para organizar datos numéricos y hacer cálculos de forma automática. <mark>Es como tener una calculadora gigante conectada a una tabla ordenada</mark>. Se usa para presupuestos o control de gastos."
+      "respuesta": "Sirve para organizar datos numéricos y hacer cálculos de forma automática. <mark>Es como tener una calculadora gigante conectada a una tabla ordenada</mark>. Se usa para presupuestos o control de gastos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/hoja-calculo.jpg",
+        "alt": "Una hoja de cálculo en la pantalla de un ordenador",
+        "titulo": "New Spreadsheet Mapper 3",
+        "autor": "Meg Stewart",
+        "fuente": "https://www.flickr.com/photos/54129171@N00/7206842354",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una celda en una hoja de cálculo?",
-      "respuesta": "Es cada casilla individual dentro de la cuadrícula de la hoja. <mark>Es como cada casilla de un tablero, identificada por su fila y su columna</mark>."
+      "respuesta": "Es cada casilla individual dentro de la cuadrícula de la hoja. <mark>Es como cada casilla de un tablero, identificada por su fila y su columna</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/celda.jpg",
+        "alt": "Un tablero de ajedrez con sus casillas",
+        "titulo": "Chessboard HD",
+        "autor": "Rounik Ghosh",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=56885357",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es una fila en una hoja de cálculo?",
-      "respuesta": "Es una línea horizontal de celdas, numerada de arriba abajo. <mark>Es como una estantería puesta de lado, con casillas una al lado de otra</mark>. Cada fila suele representar un registro distinto."
+      "respuesta": "Es una línea horizontal de celdas, numerada de arriba abajo. <mark>Es como una estantería puesta de lado, con casillas una al lado de otra</mark>. Cada fila suele representar un registro distinto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/fila.jpg",
+        "alt": "Una estantería con libros colocados en fila",
+        "titulo": "Book shelf",
+        "autor": "kellinahandbasket",
+        "fuente": "https://www.flickr.com/photos/29482491@N00/48600355",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una columna en una hoja de cálculo?",
-      "respuesta": "Es una línea vertical de celdas, identificada con una letra. <mark>Es como una estantería puesta de pie, con casillas una encima de otra</mark>. Cada columna suele representar un tipo de dato."
+      "respuesta": "Es una línea vertical de celdas, identificada con una letra. <mark>Es como una estantería puesta de pie, con casillas una encima de otra</mark>. Cada columna suele representar un tipo de dato.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/columna.jpg",
+        "alt": "Columnas verticales de un edificio histórico",
+        "titulo": "Roman Forum",
+        "autor": "Benson Kua",
+        "fuente": "https://www.flickr.com/photos/91545223@N00/5409380582",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una fórmula en una hoja de cálculo?",
-      "respuesta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano</mark>."
+      "respuesta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/formula.jpg",
+        "alt": "Una calculadora sencilla",
+        "titulo": "Simple Calculator",
+        "autor": "Dave Dugdale",
+        "fuente": "https://www.flickr.com/photos/37387065@N05/5100067174",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se suma en una hoja de cálculo?",
-      "respuesta": "Se usa una fórmula que indica qué celdas hay que sumar. <mark>Es como pedirle a la hoja que sume varias cifras a la vez, sin hacerlo a mano</mark>. Si cambian los datos, el resultado se actualiza solo."
+      "respuesta": "Se usa una fórmula que indica qué celdas hay que sumar. <mark>Es como pedirle a la hoja que sume varias cifras a la vez, sin hacerlo a mano</mark>. Si cambian los datos, el resultado se actualiza solo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/sumar.jpg",
+        "alt": "Una calculadora de bolsillo en primer plano",
+        "titulo": "Hand-held Calculator - Macro of pocket calculator",
+        "autor": "photosteve101",
+        "fuente": "https://www.flickr.com/photos/42931449@N07/5367500733",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve calcular totales en una hoja de cálculo?",
-      "respuesta": "Ayuda a saber rápidamente el resultado final de una lista de datos. <mark>Es como sacar la cuenta final de un ticket de compra</mark>. El total se actualiza automáticamente si cambia algún dato."
+      "respuesta": "Ayuda a saber rápidamente el resultado final de una lista de datos. <mark>Es como sacar la cuenta final de un ticket de compra</mark>. El total se actualiza automáticamente si cambia algún dato.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/calcular-totales.jpg",
+        "alt": "Un ticket de compra con el total",
+        "titulo": "Tia Geri and Grocery Receipt",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/2047058539",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil una hoja de cálculo en tareas administrativas?",
-      "respuesta": "Porque permite organizar datos numéricos y hacer cálculos de forma automática. <mark>Su capacidad de actualizarse sola ahorra mucho trabajo repetitivo</mark>."
+      "respuesta": "Porque permite organizar datos numéricos y hacer cálculos de forma automática. <mark>Su capacidad de actualizarse sola ahorra mucho trabajo repetitivo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/tareas-administrativas.jpg",
+        "alt": "Una persona trabajando en su escritorio",
+        "titulo": "Working",
+        "autor": "moriza",
+        "fuente": "https://www.flickr.com/photos/44373968@N00/67817599",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

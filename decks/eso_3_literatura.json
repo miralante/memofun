@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué admiraba la literatura del Renacimiento?",
-      "respuesta": "El Renacimiento admiraba la belleza, el amor y la naturaleza. <mark>Buscaba la armonía, como en la antigua Grecia</mark>. Dejó atrás los temas tristes de la Edad Media. La vida y la belleza pasaron a ser lo importante."
+      "respuesta": "El Renacimiento admiraba la belleza, el amor y la naturaleza. <mark>Buscaba la armonía, como en la antigua Grecia</mark>. Dejó atrás los temas tristes de la Edad Media. La vida y la belleza pasaron a ser lo importante.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/renacimiento-admiraba.jpg",
+        "alt": "Mosaico clásico de arte grecorromano en un museo",
+        "titulo": "National Archaeological Museum of Naples - Mosaics from Pompeii - Battle between Alexander and Darius",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/7604944102",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Sobre qué escribía Garcilaso de la Vega?",
-      "respuesta": "Garcilaso escribía poemas de amor y de naturaleza. <mark>Trajo desde Italia un ritmo nuevo para la poesía española</mark>. Sus versos suenan suaves y musicales. Cambió para siempre cómo sonaba un poema en español."
+      "respuesta": "Garcilaso escribía poemas de amor y de naturaleza. <mark>Trajo desde Italia un ritmo nuevo para la poesía española</mark>. Sus versos suenan suaves y musicales. Cambió para siempre cómo sonaba un poema en español.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/garcilaso.jpg",
+        "alt": "Pastor con su rebaño en un paisaje rural",
+        "titulo": "Shepherd in Morey Plains",
+        "autor": "Koshyk",
+        "fuente": "https://www.flickr.com/photos/97235261@N00/2260639712",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la novela picaresca?",
-      "respuesta": "Cuenta la vida de un pícaro, pobre pero ingenioso. <mark>Sobrevive gracias a su astucia, sirviendo a distintos amos</mark>. Se narra en primera persona, como si fuera real. Muestra sin adornos la parte más dura de la vida."
+      "respuesta": "Cuenta la vida de un pícaro, pobre pero ingenioso. <mark>Sobrevive gracias a su astucia, sirviendo a distintos amos</mark>. Se narra en primera persona, como si fuera real. Muestra sin adornos la parte más dura de la vida.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/novela-picaresca.jpg",
+        "alt": "Pan casero rústico recién horneado",
+        "titulo": "rustic homemade sourdough bread and butter",
+        "autor": "jules:stonesoup",
+        "fuente": "https://www.flickr.com/photos/58367355@N00/5070438950",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué cuenta 'El Lazarillo de Tormes'?",
-      "respuesta": "Cuenta la vida de Lázaro, un niño pobre y listo. <mark>Sirve a varios amos distintos para poder comer</mark>. Se considera la primera gran novela picaresca. Está contada por el propio Lázaro, como si fuera real."
+      "respuesta": "Cuenta la vida de Lázaro, un niño pobre y listo. <mark>Sirve a varios amos distintos para poder comer</mark>. Se considera la primera gran novela picaresca. Está contada por el propio Lázaro, como si fuera real.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/lazarillo-cuenta.jpg",
+        "alt": "Libro antiguo abierto con sus páginas",
+        "titulo": "open book pages",
+        "autor": "Jo Naylor",
+        "fuente": "https://www.flickr.com/photos/11598937@N08/4927865092",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué aprende Lázaro con cada amo al que sirve?",
-      "respuesta": "Con cada amo, Lázaro pasa hambre y aprende a espabilar. <mark>Cada amo le enseña una lección distinta sobre el mundo</mark>. Se vuelve cada vez más astuto para sobrevivir. Por eso la novela avanza de amo en amo."
+      "respuesta": "Con cada amo, Lázaro pasa hambre y aprende a espabilar. <mark>Cada amo le enseña una lección distinta sobre el mundo</mark>. Se vuelve cada vez más astuto para sobrevivir. Por eso la novela avanza de amo en amo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/lazaro-amos.jpg",
+        "alt": "Bastón de madera antiguo, como el de un guía ciego",
+        "titulo": "Cane",
+        "autor": "Samuel Duncan Parnell",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=65655694",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué idea repite el arte del Barroco?",
-      "respuesta": "El Barroco repite que la vida es corta y engañosa. <mark>Es como una pompa de jabón: brilla y enseguida desaparece</mark>. Esa idea se llama desengaño. Por eso mezcla lo hermoso con lo triste."
+      "respuesta": "El Barroco repite que la vida es corta y engañosa. <mark>Es como una pompa de jabón: brilla y enseguida desaparece</mark>. Esa idea se llama desengaño. Por eso mezcla lo hermoso con lo triste.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/arte-barroco.jpg",
+        "alt": "Vela encendida con su llama",
+        "titulo": "Candle",
+        "autor": "armin_vogel",
+        "fuente": "https://www.flickr.com/photos/63019370@N06/6714178943",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Miguel de Cervantes?",
-      "respuesta": "Fue un escritor español, autor de 'Don Quijote'. <mark>Vivió aventuras propias, como ser soldado y prisionero</mark>. Escribió su obra más famosa ya mayor. Está considerado el escritor más importante en español."
+      "respuesta": "Fue un escritor español, autor de 'Don Quijote'. <mark>Vivió aventuras propias, como ser soldado y prisionero</mark>. Escribió su obra más famosa ya mayor. Está considerado el escritor más importante en español.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/cervantes-teatro-quijote.jpg",
+        "alt": "Estatuas de Don Quijote y Sancho Panza, personajes de Cervantes",
+        "titulo": "Teatro de Cervantes, estatuas de Don Quijote y Sancho Panza, Béjar",
+        "autor": "لا روسا",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=57978896",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué le pasa a Don Quijote con los molinos de viento?",
-      "respuesta": "Don Quijote ve gigantes donde solo hay molinos de viento. <mark>Los ataca con su lanza, convencido de que son reales</mark>. Termina derribado por las aspas del molino. Es una de las escenas más famosas de la literatura."
+      "respuesta": "Don Quijote ve gigantes donde solo hay molinos de viento. <mark>Los ataca con su lanza, convencido de que son reales</mark>. Termina derribado por las aspas del molino. Es una de las escenas más famosas de la literatura.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/molino-consuegra.jpg",
+        "alt": "Un molino de viento en Consuegra, como los que ataca Don Quijote",
+        "titulo": "Molino de Viento, Consuegra",
+        "autor": "Jose.Madrid",
+        "fuente": "https://www.flickr.com/photos/93624917@N00/97218352",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué Don Quijote confunde la realidad con lo que ha leído?",
-      "respuesta": "Ha leído demasiados libros sobre caballeros y aventuras. <mark>Se cree él mismo un caballero, viviendo esas historias</mark>. Por eso ve gigantes, castillos y princesas donde no los hay. Su imaginación mezcla lo leído con lo real."
+      "respuesta": "Ha leído demasiados libros sobre caballeros y aventuras. <mark>Se cree él mismo un caballero, viviendo esas historias</mark>. Por eso ve gigantes, castillos y princesas donde no los hay. Su imaginación mezcla lo leído con lo real.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/quijote-realidad.jpg",
+        "alt": "Molinos de viento en Campo de Criptana, La Mancha",
+        "titulo": "006469 - Campo de Criptana",
+        "autor": "M.Peinado",
+        "fuente": "https://www.flickr.com/photos/12066793@N05/7617816408",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo era la poesía de Quevedo?",
-      "respuesta": "Quevedo escribía versos ingeniosos, a veces muy burlones. <mark>Le encantaba sorprender al lector con una idea inesperada</mark>. Podía ser gracioso o muy serio, según el poema. Buscaba decir mucho con pocas palabras."
+      "respuesta": "Quevedo escribía versos ingeniosos, a veces muy burlones. <mark>Le encantaba sorprender al lector con una idea inesperada</mark>. Podía ser gracioso o muy serio, según el poema. Buscaba decir mucho con pocas palabras.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/quevedo-retrato.jpg",
+        "alt": "Retrato de Francisco de Quevedo",
+        "titulo": "D. Francisco de Quevedo y Villegas",
+        "autor": "Biblioteca Rector Machado y Nuñez",
+        "fuente": "https://www.flickr.com/photos/37667416@N04/4013195825",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Cómo era la poesía de Góngora?",
-      "respuesta": "Góngora escribía con un lenguaje muy adornado. <mark>Cuidaba cada palabra como si fuera una joya</mark>. Sus poemas suenan bellísimos, aunque cuesta entenderlos a la primera. Buscaba la belleza en el propio sonido de las palabras."
+      "respuesta": "Góngora escribía con un lenguaje muy adornado. <mark>Cuidaba cada palabra como si fuera una joya</mark>. Sus poemas suenan bellísimos, aunque cuesta entenderlos a la primera. Buscaba la belleza en el propio sonido de las palabras.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/gongora-obras.jpg",
+        "alt": "Portada antigua de un libro sobre las obras de Góngora",
+        "titulo": "Lecciones solemnes a las obras de Don Luis de Góngora y Argote",
+        "autor": "Fondo Antiguo de la Biblioteca de Humanidades, Uni",
+        "fuente": "https://www.flickr.com/photos/154183737@N06/24749882528",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Por qué eran rivales Quevedo y Góngora?",
-      "respuesta": "Escribían de forma muy distinta y se criticaban entre ellos. <mark>Cada uno pensaba que su estilo de poesía era mejor</mark>. Se dedicaron versos burlones el uno al otro. Esa rivalidad hizo más famosos a los dos."
+      "respuesta": "Escribían de forma muy distinta y se criticaban entre ellos. <mark>Cada uno pensaba que su estilo de poesía era mejor</mark>. Se dedicaron versos burlones el uno al otro. Esa rivalidad hizo más famosos a los dos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/quevedo-gongora.jpg",
+        "alt": "Pluma de ave usada para escribir",
+        "titulo": "Quill",
+        "autor": "sure2talk",
+        "fuente": "https://www.flickr.com/photos/19862723@N00/213926774",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué aportó Lope de Vega al teatro español?",
-      "respuesta": "Lope de Vega inventó una forma nueva de hacer teatro. <mark>Mezclaba risa y drama en la misma obra</mark>. Antes, ambas cosas iban siempre por separado. Escribió cientos de obras a lo largo de su vida."
+      "respuesta": "Lope de Vega inventó una forma nueva de hacer teatro. <mark>Mezclaba risa y drama en la misma obra</mark>. Antes, ambas cosas iban siempre por separado. Escribió cientos de obras a lo largo de su vida.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/lope-de-vega-estatua.jpg",
+        "alt": "Estatua de Lope de Vega en Madrid",
+        "titulo": "Lope de Vega (M. Fuxà), Madrid",
+        "autor": "Zaqarbal",
+        "fuente": "https://www.flickr.com/photos/44949176@N00/242806962",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué temas trataba el teatro de Lope de Vega?",
-      "respuesta": "Trataba sobre todo el honor y el amor. <mark>Sus personajes defendían su honor por encima de casi todo</mark>. También mostraba conflictos entre ricos y pobres. El público se sentía identificado con esas historias."
+      "respuesta": "Trataba sobre todo el honor y el amor. <mark>Sus personajes defendían su honor por encima de casi todo</mark>. También mostraba conflictos entre ricos y pobres. El público se sentía identificado con esas historias.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/teatro-lope-vega.jpg",
+        "alt": "Escenario de teatro con el telón iluminado",
+        "titulo": "In the Quiet Theater | Stage Curtain Aglow",
+        "autor": "D Christian Harrison",
+        "fuente": "https://www.flickr.com/photos/74081069@N00/421169272",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se nota que el Barroco ya no piensa como el Renacimiento?",
-      "respuesta": "El Renacimiento admiraba la armonía y la belleza sencilla. El Barroco, en cambio, muestra que esa belleza no dura. <mark>Uno mira el mundo con esperanza; el otro, con desengaño</mark>. Los dos comparten el amor por el arte, con miradas opuestas."
+      "respuesta": "El Renacimiento admiraba la armonía y la belleza sencilla. El Barroco, en cambio, muestra que esa belleza no dura. <mark>Uno mira el mundo con esperanza; el otro, con desengaño</mark>. Los dos comparten el amor por el arte, con miradas opuestas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/barroco-renacimiento.jpg",
+        "alt": "Interior dorado y ornamentado de una iglesia barroca en Madrid",
+        "titulo": "Parroquia de San Ginés (Madrid) España",
+        "autor": "Catedrales e Iglesias",
+        "fuente": "https://www.flickr.com/photos/12950131@N06/3327808206",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué seguimos leyendo el Quijote cientos de años después?",
-      "respuesta": "Sigue siendo una historia divertida y también triste. <mark>Sus aventuras se leen hoy casi como entonces</mark>. Es el libro más traducido después de la Biblia. Por eso Cervantes sigue siendo tan conocido en todo el mundo."
+      "respuesta": "Sigue siendo una historia divertida y también triste. <mark>Sus aventuras se leen hoy casi como entonces</mark>. Es el libro más traducido después de la Biblia. Por eso Cervantes sigue siendo tan conocido en todo el mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura/seguimos-leyendo-quijote.jpg",
+        "alt": "Colección de libros clásicos apilados",
+        "titulo": "365 x3 Classics for Summer Reading",
+        "autor": "David Masters",
+        "fuente": "https://www.flickr.com/photos/25652278@N03/3587804365",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

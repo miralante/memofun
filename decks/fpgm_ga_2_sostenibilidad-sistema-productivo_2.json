@@ -5,39 +5,111 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué marcos internacionales sirven de referencia para la sostenibilidad?",
-      "respuesta": "Acuerdos entre países que fijan objetivos comunes, como reducir emisiones contaminantes. <mark>Es como ponerse de acuerdo entre todo el mundo sobre unas mismas normas mínimas</mark>. Sirven de guía para las políticas de cada país."
+      "respuesta": "Acuerdos entre países que fijan objetivos comunes, como reducir emisiones contaminantes. <mark>Es como ponerse de acuerdo entre todo el mundo sobre unas mismas normas mínimas</mark>. Sirven de guía para las políticas de cada país.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/tierra-espacio.jpg",
+        "alt": "La Tierra vista desde el espacio",
+        "titulo": "NASA Blue Marble",
+        "autor": "NASA Goddard Space Flight Center",
+        "fuente": "https://www.flickr.com/photos/35278629@N08/4442496969",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los criterios ESG en una empresa?",
-      "respuesta": "Son criterios ambientales, sociales y de buen gobierno que valoran su comportamiento responsable. <mark>Es como una nota que evalúa a una empresa más allá de sus beneficios económicos</mark>. Cada vez más inversores los tienen en cuenta."
+      "respuesta": "Son criterios ambientales, sociales y de buen gobierno que valoran su comportamiento responsable. <mark>Es como una nota que evalúa a una empresa más allá de sus beneficios económicos</mark>. Cada vez más inversores los tienen en cuenta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/portapapeles-evaluacion.jpg",
+        "alt": "Alguien sosteniendo un portapapeles con una evaluación",
+        "titulo": "Clipboard Hand",
+        "autor": "Kristin Hardwick",
+        "fuente": "https://stocksnap.io/photo/clipboard-hand-TRKNLIGFAJ",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Cómo afecta el cambio climático a los sectores productivos?",
-      "respuesta": "Puede alterar costes, materias primas o incluso la forma de trabajar de muchos sectores. <mark>Es como un factor externo que obliga a las empresas a adaptarse, quieran o no</mark>."
+      "respuesta": "Puede alterar costes, materias primas o incluso la forma de trabajar de muchos sectores. <mark>Es como un factor externo que obliga a las empresas a adaptarse, quieran o no</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/fabrica-quimica.jpg",
+        "alt": "Una fábrica industrial",
+        "titulo": "Fábrica química Solvay",
+        "autor": "Jorge Franganillo",
+        "fuente": "https://www.flickr.com/photos/46191841@N00/3128460257",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se gestionan de forma responsable los residuos de una empresa?",
-      "respuesta": "Separándolos, reduciendo lo que se genera y eligiendo un tratamiento adecuado para cada tipo. <mark>Es como no tratar toda la basura por igual, sino según lo que realmente es</mark>."
+      "respuesta": "Separándolos, reduciendo lo que se genera y eligiendo un tratamiento adecuado para cada tipo. <mark>Es como no tratar toda la basura por igual, sino según lo que realmente es</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/reciclaje-contenedores.jpg",
+        "alt": "Contenedores de reciclaje",
+        "titulo": "Recycling",
+        "autor": "Tobyotter",
+        "fuente": "https://www.flickr.com/photos/78428166@N00/8358917859",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los productos y servicios responsables?",
-      "respuesta": "Son aquellos diseñados pensando en reducir su impacto ambiental y social. <mark>Es como elegir fabricar pensando también en las consecuencias, no solo en el beneficio</mark>."
+      "respuesta": "Son aquellos diseñados pensando en reducir su impacto ambiental y social. <mark>Es como elegir fabricar pensando también en las consecuencias, no solo en el beneficio</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/embalaje-sostenible.jpg",
+        "alt": "Un embalaje sostenible hecho de materiales responsables",
+        "titulo": "Sustainable Packaging Material is Always Valuable",
+        "autor": "hilariopackard",
+        "fuente": "http://www.flickr.com/photos/183991216@N05/48667330781",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué actividades minimizan el impacto ambiental de una empresa?",
-      "respuesta": "Reducir el consumo de papel, energía o agua, y elegir proveedores más responsables. <mark>Es como recortar poco a poco la huella que deja la actividad de la empresa</mark>."
+      "respuesta": "Reducir el consumo de papel, energía o agua, y elegir proveedores más responsables. <mark>Es como recortar poco a poco la huella que deja la actividad de la empresa</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/energia-solar.jpg",
+        "alt": "Un panel solar, ejemplo de energía renovable",
+        "titulo": "Solar Cell",
+        "autor": "ThomasKohler",
+        "fuente": "https://www.flickr.com/photos/28077296@N02/6037863041",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un plan de sostenibilidad de una empresa?",
-      "respuesta": "Es un documento que recoge los objetivos y las acciones concretas para ser más sostenible. <mark>Es como una hoja de ruta con metas claras, en vez de buenas intenciones sueltas</mark>."
+      "respuesta": "Es un documento que recoge los objetivos y las acciones concretas para ser más sostenible. <mark>Es como una hoja de ruta con metas claras, en vez de buenas intenciones sueltas</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/examen-formulario.jpg",
+        "alt": "Alguien rellenando un formulario con un plan",
+        "titulo": "Examiner filling in driver's license road test form",
+        "autor": "f0976531950157",
+        "fuente": "https://www.flickr.com/photos/203928447@N02/54999169448",
+        "licencia": "Public Domain"
+      }
     },
     {
       "pregunta": "¿Qué son los grupos de interés o stakeholders de una empresa?",
-      "respuesta": "Son las personas o entidades afectadas por su actividad: trabajadores, clientes, proveedores o vecinos. <mark>Es como todo el círculo de personas a las que le importa lo que hace esa empresa</mark>."
+      "respuesta": "Son las personas o entidades afectadas por su actividad: trabajadores, clientes, proveedores o vecinos. <mark>Es como todo el círculo de personas a las que le importa lo que hace esa empresa</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/reunion-discusion.jpg",
+        "alt": "Un grupo de personas reunidas discutiendo",
+        "titulo": "Headshift business card discussion",
+        "autor": "Lars Plougmann",
+        "fuente": "https://www.flickr.com/photos/75062596@N00/2744040362",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué escuchar a los grupos de interés ayuda a una empresa más sostenible?",
-      "respuesta": "Porque aportan perspectivas distintas sobre el impacto real de sus decisiones. <mark>Es como pedir opinión a quienes viven de cerca las consecuencias de tus decisiones</mark>."
+      "respuesta": "Porque aportan perspectivas distintas sobre el impacto real de sus decisiones. <mark>Es como pedir opinión a quienes viven de cerca las consecuencias de tus decisiones</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/grupo-focal.jpg",
+        "alt": "Un grupo focal escuchando distintas opiniones",
+        "titulo": "Finance Committee: Finance Wales inquiry - focus group",
+        "autor": "National Assembly For Wales / Cynulliad Cymru",
+        "fuente": "https://www.flickr.com/photos/39069511@N03/12084140733",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Cómo se organiza el cuerpo humano, de lo más pequeño a lo más grande?",
-      "respuesta": "Va de la célula al tejido, del tejido al órgano y del órgano al aparato. <mark>Es como piezas que se van juntando: ladrillo, pared, habitación y casa entera</mark>. Cada nivel es más complejo que el anterior. Esa organización permite que el cuerpo funcione de forma coordinada."
+      "respuesta": "Va de la célula al tejido, del tejido al órgano y del órgano al aparato. <mark>Es como piezas que se van juntando: ladrillo, pared, habitación y casa entera</mark>. Cada nivel es más complejo que el anterior. Esa organización permite que el cuerpo funcione de forma coordinada.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/organos-cuerpo-humano.jpg",
+        "alt": "Ilustración antigua de los órganos internos del cuerpo humano",
+        "titulo": "Internal Organs of the Human Body from The Household Physician, 1905",
+        "autor": "crackdog",
+        "fuente": "https://www.flickr.com/photos/88645472@N00/6404030777",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un tejido en el cuerpo humano?",
-      "respuesta": "Es un grupo de células parecidas que trabajan juntas con la misma función. <mark>Es como un equipo de trabajadores especializados en la misma tarea</mark>. El tejido muscular, por ejemplo, está formado por células musculares. Varios tejidos distintos forman después un órgano completo."
+      "respuesta": "Es un grupo de células parecidas que trabajan juntas con la misma función. <mark>Es como un equipo de trabajadores especializados en la misma tarea</mark>. El tejido muscular, por ejemplo, está formado por células musculares. Varios tejidos distintos forman después un órgano completo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/tejido-histologia.jpg",
+        "alt": "Imagen microscópica de un tejido del cuerpo, con sus células",
+        "titulo": "003-Histology: science meets art",
+        "autor": "nimrlondon",
+        "fuente": "https://www.flickr.com/photos/125989912@N08/18705201343",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la función de nutrición en el cuerpo humano?",
-      "respuesta": "Es el conjunto de procesos que transforman el alimento en energía y materiales útiles. <mark>Es como el proceso completo de convertir combustible en movimiento para una máquina</mark>. Participan los aparatos digestivo, respiratorio, circulatorio y excretor. Sin ella, el cuerpo no obtendría energía."
+      "respuesta": "Es el conjunto de procesos que transforman el alimento en energía y materiales útiles. <mark>Es como el proceso completo de convertir combustible en movimiento para una máquina</mark>. Participan los aparatos digestivo, respiratorio, circulatorio y excretor. Sin ella, el cuerpo no obtendría energía.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras-sanas.jpg",
+        "alt": "Un bol de frutas y verduras frescas y sanas",
+        "titulo": "Eat healthy fruits and veggies bowl",
+        "autor": "Trace Nietert",
+        "fuente": "https://www.flickr.com/photos/53553325@N06/8543057650",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hace el aparato digestivo?",
-      "respuesta": "Transforma los alimentos en sustancias que el cuerpo puede aprovechar. <mark>Es como una fábrica que descompone la comida en piezas pequeñas y útiles</mark>. Incluye la boca, el esófago, el estómago y el intestino, entre otros. Al final, expulsa lo que el cuerpo no puede utilizar."
+      "respuesta": "Transforma los alimentos en sustancias que el cuerpo puede aprovechar. <mark>Es como una fábrica que descompone la comida en piezas pequeñas y útiles</mark>. Incluye la boca, el esófago, el estómago y el intestino, entre otros. Al final, expulsa lo que el cuerpo no puede utilizar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/aparato-digestivo.jpg",
+        "alt": "Diagrama del aparato digestivo humano",
+        "titulo": "Large Scale Digestive System Diagram. Framed Wall Hanging. Hand Embroidery.",
+        "autor": "Hey Paul Studios",
+        "fuente": "https://www.flickr.com/photos/45257015@N03/8480135160",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la digestión?",
-      "respuesta": "Es el proceso de descomponer los alimentos en partes muy pequeñas. <mark>Es como triturar y deshacer la comida hasta que el cuerpo pueda absorberla</mark>. Empieza en la boca, al masticar, y continúa en el estómago y el intestino. Así los nutrientes pueden pasar a la sangre."
+      "respuesta": "Es el proceso de descomponer los alimentos en partes muy pequeñas. <mark>Es como triturar y deshacer la comida hasta que el cuerpo pueda absorberla</mark>. Empieza en la boca, al masticar, y continúa en el estómago y el intestino. Así los nutrientes pueden pasar a la sangre.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/comida-plato.jpg",
+        "alt": "Un plato de comida apetitosa, lista para comer",
+        "titulo": "Delicious food - hot chicken with rice",
+        "autor": "photosteve101",
+        "fuente": "https://www.flickr.com/photos/42931449@N07/5260510345",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hace el aparato respiratorio?",
-      "respuesta": "Permite tomar oxígeno del aire y expulsar dióxido de carbono. <mark>Es como un intercambiador constante de aire limpio por aire usado</mark>. Incluye la nariz, la tráquea y los pulmones. El oxígeno que entra es imprescindible para producir energía."
+      "respuesta": "Permite tomar oxígeno del aire y expulsar dióxido de carbono. <mark>Es como un intercambiador constante de aire limpio por aire usado</mark>. Incluye la nariz, la tráquea y los pulmones. El oxígeno que entra es imprescindible para producir energía.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/pulmones-intercambio-gaseoso.jpg",
+        "alt": "Diagrama del intercambio de gases en los pulmones",
+        "titulo": "Diagram of Gas Exchange in Mammalian Lungs",
+        "autor": "Chic Bee",
+        "fuente": "https://www.flickr.com/photos/80454089@N00/29625696014",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ocurre en los pulmones durante la respiración?",
-      "respuesta": "El oxígeno del aire pasa a la sangre, y el dióxido de carbono sale de ella. <mark>Es un intercambio constante, como cambiar cromos entre dos personas</mark>. Ese intercambio ocurre en unas estructuras diminutas llamadas alvéolos. Así, la sangre lleva oxígeno a todo el cuerpo."
+      "respuesta": "El oxígeno del aire pasa a la sangre, y el dióxido de carbono sale de ella. <mark>Es un intercambio constante, como cambiar cromos entre dos personas</mark>. Ese intercambio ocurre en unas estructuras diminutas llamadas alvéolos. Así, la sangre lleva oxígeno a todo el cuerpo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/pulmon-diagrama.png",
+        "alt": "Diagrama que muestra cómo se mueven los pulmones al respirar",
+        "titulo": "Iron lung action diagrams",
+        "autor": "Penlite",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=89061094",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué hace el aparato circulatorio?",
-      "respuesta": "Transporta la sangre, y con ella oxígeno y nutrientes, por todo el cuerpo. <mark>Es como una red de carreteras que reparte suministros a cada rincón del cuerpo</mark>. Incluye el corazón, las venas y las arterias. Sin circulación, las células no recibirían lo que necesitan."
+      "respuesta": "Transporta la sangre, y con ella oxígeno y nutrientes, por todo el cuerpo. <mark>Es como una red de carreteras que reparte suministros a cada rincón del cuerpo</mark>. Incluye el corazón, las venas y las arterias. Sin circulación, las células no recibirían lo que necesitan.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/modelo-corazon.jpg",
+        "alt": "Un modelo del corazón humano usado para estudiar el aparato circulatorio",
+        "titulo": "Model - Human Heart, W. Ramsay Surgical Co, 1962",
+        "autor": "Photographer: Rodney Start",
+        "fuente": "https://collections.museumsvictoria.com.au/items/404033",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué función cumple el corazón?",
-      "respuesta": "Bombea la sangre para que circule por todo el cuerpo sin parar. <mark>Es como una bomba que trabaja sin descanso, día y noche</mark>. Se contrae y se relaja miles de veces cada día. Ese movimiento constante mantiene la sangre en circulación permanente."
+      "respuesta": "Bombea la sangre para que circule por todo el cuerpo sin parar. <mark>Es como una bomba que trabaja sin descanso, día y noche</mark>. Se contrae y se relaja miles de veces cada día. Ese movimiento constante mantiene la sangre en circulación permanente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/corazon-real.png",
+        "alt": "Un corazón real, el órgano que bombea la sangre por el cuerpo",
+        "titulo": "Cuore vero",
+        "autor": "Cuore58",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196673427",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre venas y arterias?",
-      "respuesta": "Las arterias llevan sangre desde el corazón hacia el resto del cuerpo. <mark>Las venas, en cambio, devuelven la sangre de vuelta hacia el corazón</mark>. Ambas forman parte de la misma red de transporte sanguíneo. Juntas garantizan que la sangre circule en un circuito completo."
+      "respuesta": "Las arterias llevan sangre desde el corazón hacia el resto del cuerpo. <mark>Las venas, en cambio, devuelven la sangre de vuelta hacia el corazón</mark>. Ambas forman parte de la misma red de transporte sanguíneo. Juntas garantizan que la sangre circule en un circuito completo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/vasos-sanguineos.jpg",
+        "alt": "Un primer plano de vasos sanguíneos por donde circula la sangre",
+        "titulo": "blood-1813410",
+        "autor": "exit78",
+        "fuente": "https://www.flickr.com/photos/28826830@N00/24557588028",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué hace el aparato excretor?",
-      "respuesta": "Elimina del cuerpo las sustancias de desecho que ya no sirven. <mark>Es como el sistema de limpieza que saca la basura de una casa</mark>. Los riñones filtran la sangre y producen la orina. Sin excreción, esas sustancias tóxicas se acumularían en el cuerpo."
+      "respuesta": "Elimina del cuerpo las sustancias de desecho que ya no sirven. <mark>Es como el sistema de limpieza que saca la basura de una casa</mark>. Los riñones filtran la sangre y producen la orina. Sin excreción, esas sustancias tóxicas se acumularían en el cuerpo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/torax-abdomen.jpg",
+        "alt": "Ilustración antigua de la disección del tórax y el abdomen",
+        "titulo": "Dissection of the thorax and abdomen",
+        "autor": "Thomas Fisher Rare Book Library, UofT",
+        "fuente": "https://www.flickr.com/photos/34861056@N05/12288505633",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué función cumplen los riñones?",
-      "respuesta": "Filtran la sangre y eliminan las sustancias que el cuerpo no necesita. <mark>Actúan como un filtro de agua, quedándose con lo bueno y expulsando lo malo</mark>. También ayudan a regular la cantidad de agua del cuerpo. Su trabajo es constante, incluso mientras dormimos."
+      "respuesta": "Filtran la sangre y eliminan las sustancias que el cuerpo no necesita. <mark>Actúan como un filtro de agua, quedándose con lo bueno y expulsando lo malo</mark>. También ayudan a regular la cantidad de agua del cuerpo. Su trabajo es constante, incluso mientras dormimos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/rinon-ilustracion.jpg",
+        "alt": "Ilustración artística de un riñón humano",
+        "titulo": "Kidney Art",
+        "autor": "Hey Paul Studios",
+        "fuente": "https://www.flickr.com/photos/45257015@N03/6122228099",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué están conectados entre sí los aparatos de la nutrición?",
-      "respuesta": "Porque cada uno depende del trabajo de los demás para funcionar bien. <mark>Es como un equipo donde cada jugador necesita que los otros hagan bien su parte</mark>. El digestivo aporta nutrientes; el respiratorio, oxígeno; el circulatorio los reparte; el excretor limpia."
+      "respuesta": "Porque cada uno depende del trabajo de los demás para funcionar bien. <mark>Es como un equipo donde cada jugador necesita que los otros hagan bien su parte</mark>. El digestivo aporta nutrientes; el respiratorio, oxígeno; el circulatorio los reparte; el excretor limpia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/organos-digestivos.jpg",
+        "alt": "Los órganos del sistema digestivo conectados entre sí",
+        "titulo": "Organs of the gastrointestinal system",
+        "autor": "Thomas Fisher Rare Book Library, UofT",
+        "fuente": "https://www.flickr.com/photos/34861056@N05/12288770624",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los nutrientes y por qué son importantes para el organismo?",
-      "respuesta": "Son las sustancias de los alimentos que el cuerpo usa para funcionar y crecer. <mark>Son como las piezas necesarias para reparar y mantener una máquina en marcha</mark>. Incluyen proteínas, grasas, azúcares, vitaminas y minerales. Cada uno cumple funciones distintas."
+      "respuesta": "Son las sustancias de los alimentos que el cuerpo usa para funcionar y crecer. <mark>Son como las piezas necesarias para reparar y mantener una máquina en marcha</mark>. Incluyen proteínas, grasas, azúcares, vitaminas y minerales. Cada uno cumple funciones distintas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras.jpg",
+        "alt": "Frutas y verduras variadas, ricas en nutrientes",
+        "titulo": "Frutas e Vegetais",
+        "autor": "Aproximando Ciência e Pessoas",
+        "fuente": "https://www.flickr.com/photos/97513256@N06/9041948559",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasaría si uno de los aparatos de la nutrición dejara de funcionar bien?",
-      "respuesta": "El resto del cuerpo se vería afectado, ya que todos están conectados. <mark>Es como si un eslabón de una cadena se rompiera, afectando a toda la cadena</mark>. Un problema circulatorio, por ejemplo, afecta también a órganos lejanos. Cuidar cada aparato mantiene sano todo el cuerpo."
+      "respuesta": "El resto del cuerpo se vería afectado, ya que todos están conectados. <mark>Es como si un eslabón de una cadena se rompiera, afectando a toda la cadena</mark>. Un problema circulatorio, por ejemplo, afecta también a órganos lejanos. Cuidar cada aparato mantiene sano todo el cuerpo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/diagrama-digestivo.jpg",
+        "alt": "Diagrama completo del sistema digestivo y sus órganos",
+        "titulo": "Diagram of the digestive system",
+        "autor": "(autor desconocido)",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35870292",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Cómo llegan los nutrientes desde el intestino a todo el cuerpo?",
-      "respuesta": "Pasan del intestino a la sangre, que los reparte por todo el organismo. <mark>Es como cargar un camión de reparto que lleva mercancía a cada rincón de la ciudad</mark>. El aparato circulatorio es el encargado de ese transporte. Así cada célula recibe lo que necesita."
+      "respuesta": "Pasan del intestino a la sangre, que los reparte por todo el organismo. <mark>Es como cargar un camión de reparto que lleva mercancía a cada rincón de la ciudad</mark>. El aparato circulatorio es el encargado de ese transporte. Así cada célula recibe lo que necesita.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/intestino-delgado.jpg",
+        "alt": "Vista microscópica del intestino delgado, por donde pasan los nutrientes",
+        "titulo": "Normal Small Intestine Mucosa",
+        "autor": "euthman",
+        "fuente": "https://www.flickr.com/photos/78147607@N00/5916217283",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

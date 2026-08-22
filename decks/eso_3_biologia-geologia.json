@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué diferencia hay entre correlación y causalidad en un estudio científico?",
-      "respuesta": "Correlación significa que dos cosas cambian a la vez, sin que una provoque la otra. <mark>Causalidad significa que una realmente provoca el cambio en la otra</mark>. Por ejemplo, vender helados y los ahogamientos suben juntos en verano, sin causarse entre sí. Confundirlas puede llevar a conclusiones erróneas."
+      "respuesta": "Correlación significa que dos cosas cambian a la vez, sin que una provoque la otra. <mark>Causalidad significa que una realmente provoca el cambio en la otra</mark>. Por ejemplo, vender helados y los ahogamientos suben juntos en verano, sin causarse entre sí. Confundirlas puede llevar a conclusiones erróneas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/grafico-lineas-datos.jpg",
+        "alt": "Un gráfico de líneas con datos científicos.",
+        "titulo": "STACKED LINE GRAPH",
+        "autor": "Lauren Manning",
+        "fuente": "https://www.flickr.com/photos/28541331@N00/5659021847",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una variable en un experimento científico?",
-      "respuesta": "Es cualquier factor que puede cambiar y afectar al resultado de un experimento. <mark>Es como el ingrediente de una receta que decides variar para ver qué pasa</mark>. Se suele cambiar una sola variable cada vez, para saber qué la provoca. Así se identifica con claridad la causa de un resultado."
+      "respuesta": "Es cualquier factor que puede cambiar y afectar al resultado de un experimento. <mark>Es como el ingrediente de una receta que decides variar para ver qué pasa</mark>. Se suele cambiar una sola variable cada vez, para saber qué la provoca. Así se identifica con claridad la causa de un resultado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/clase-ciencias-laboratorio.webp",
+        "alt": "Estudiantes en una clase de ciencias con material de laboratorio.",
+        "titulo": "Science Class",
+        "autor": "Lokesh_Dhakar",
+        "fuente": "https://www.flickr.com/photos/52727389@N00/6767422267",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante contrastar fuentes de información científica?",
-      "respuesta": "Porque no toda la información disponible es fiable o está bien fundamentada. <mark>Es como comprobar varias opiniones antes de confiar del todo en una sola</mark>. Comparar fuentes ayuda a distinguir datos reales de opiniones sin base. Es clave para no caer en bulos científicos."
+      "respuesta": "Porque no toda la información disponible es fiable o está bien fundamentada. <mark>Es como comprobar varias opiniones antes de confiar del todo en una sola</mark>. Comparar fuentes ayuda a distinguir datos reales de opiniones sin base. Es clave para no caer en bulos científicos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/pilas-periodicos.jpg",
+        "alt": "Pilas de periódicos, como fuentes de información distintas.",
+        "titulo": "Newspaper Stacks",
+        "autor": "shauser",
+        "fuente": "https://www.flickr.com/photos/73993978@N00/9559519298",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un volcán?",
-      "respuesta": "Es una abertura en la corteza terrestre por donde sale magma del interior. <mark>Es como una válvula de escape para la energía acumulada dentro de la Tierra</mark>. El magma que sale al exterior se llama lava. Su actividad está relacionada con los movimientos internos del planeta."
+      "respuesta": "Es una abertura en la corteza terrestre por donde sale magma del interior. <mark>Es como una válvula de escape para la energía acumulada dentro de la Tierra</mark>. El magma que sale al exterior se llama lava. Su actividad está relacionada con los movimientos internos del planeta.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/volcan-etna-erupcion.jpg",
+        "alt": "El volcán Etna en erupción, con lava saliendo del interior de la Tierra",
+        "titulo": "Etna Volcano Paroxysmal Eruption",
+        "autor": "gnuckx",
+        "fuente": "https://www.flickr.com/photos/34409164@N06/10492057003",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es un terremoto?",
-      "respuesta": "Es una sacudida brusca de la corteza terrestre, causada por movimientos internos. <mark>Es como cuando dos placas rozan entre sí y liberan de golpe mucha energía</mark>. Su fuerza se mide con una escala de magnitud. Pueden causar grandes daños, sobre todo cerca de su origen."
+      "respuesta": "Es una sacudida brusca de la corteza terrestre, causada por movimientos internos. <mark>Es como cuando dos placas rozan entre sí y liberan de golpe mucha energía</mark>. Su fuerza se mide con una escala de magnitud. Pueden causar grandes daños, sobre todo cerca de su origen.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/terremoto-edificio-danado.jpg",
+        "alt": "Un edificio dañado tras un terremoto.",
+        "titulo": "2004 Chuetsu earthquake Damaged building, Nagaoka 02",
+        "autor": "Naoki Sato",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=98928695",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el magma?",
-      "respuesta": "Es roca fundida que se encuentra en el interior de la Tierra. <mark>Es como un líquido espeso y ardiente que fluye bajo la superficie</mark>. Cuando sale al exterior, se convierte en lava. Su temperatura y composición determinan cómo será una erupción volcánica."
+      "respuesta": "Es roca fundida que se encuentra en el interior de la Tierra. <mark>Es como un líquido espeso y ardiente que fluye bajo la superficie</mark>. Cuando sale al exterior, se convierte en lava. Su temperatura y composición determinan cómo será una erupción volcánica.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/lava-colada.jpg",
+        "alt": "Una colada de lava incandescente.",
+        "titulo": "Lava flow",
+        "autor": "kevin1024",
+        "fuente": "https://www.flickr.com/photos/62742868@N00/2430637676",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué procesos transforman el paisaje por energía interna?",
-      "respuesta": "El movimiento de placas, los terremotos y el vulcanismo cambian el relieve. <mark>Es como si fuerzas desde dentro empujaran y modelaran la superficie terrestre</mark>. Esos procesos pueden crear montañas o abrir grietas enormes. Ocurren muy lentamente, a lo largo de millones de años."
+      "respuesta": "El movimiento de placas, los terremotos y el vulcanismo cambian el relieve. <mark>Es como si fuerzas desde dentro empujaran y modelaran la superficie terrestre</mark>. Esos procesos pueden crear montañas o abrir grietas enormes. Ocurren muy lentamente, a lo largo de millones de años.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/monte-hood-volcan.jpg",
+        "alt": "La cima de un volcán, ejemplo de relieve creado desde el interior.",
+        "titulo": "Top of Mt. Hood, Oregon",
+        "autor": "Tony Fischer Photography",
+        "fuente": "https://www.flickr.com/photos/22714323@N06/3033524024",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué procesos transforman el paisaje por energía externa?",
-      "respuesta": "La erosión, el transporte y la sedimentación desgastan y remodelan el relieve. <mark>Es como el agua y el viento lijando poco a poco una superficie</mark>. El agua de los ríos, el viento y el hielo son sus principales agentes. Con el tiempo pueden cambiar por completo un paisaje."
+      "respuesta": "La erosión, el transporte y la sedimentación desgastan y remodelan el relieve. <mark>Es como el agua y el viento lijando poco a poco una superficie</mark>. El agua de los ríos, el viento y el hielo son sus principales agentes. Con el tiempo pueden cambiar por completo un paisaje.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/gran-canon-erosion.jpg",
+        "alt": "Un cañón formado por la erosión, ejemplo de proceso externo.",
+        "titulo": "D4542 Grand Canyon East Rim Drive Lipan Point",
+        "autor": "Grand Canyon NPS",
+        "fuente": "https://www.flickr.com/photos/50693818@N08/4667245062",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian los procesos geológicos internos y externos?",
-      "respuesta": "Los internos empujan y transforman el relieve desde dentro de la Tierra. <mark>Los externos, en cambio, lo desgastan y lo modelan desde fuera</mark>. Los internos suelen crear relieve; los externos suelen destruirlo poco a poco. Juntos explican por qué el paisaje cambia constantemente."
+      "respuesta": "Los internos empujan y transforman el relieve desde dentro de la Tierra. <mark>Los externos, en cambio, lo desgastan y lo modelan desde fuera</mark>. Los internos suelen crear relieve; los externos suelen destruirlo poco a poco. Juntos explican por qué el paisaje cambia constantemente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/valle-montana-paisaje.jpg",
+        "alt": "Un paisaje de montañas y valle.",
+        "titulo": "Mountain Valley Landscape",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/5966608/mountain-valley-landscape",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Para qué usamos hoy en día los minerales y las rocas?",
-      "respuesta": "Se usan para construir edificios, fabricar objetos y generar energía. <mark>Desde el cemento hasta el móvil, casi todo empieza siendo roca o mineral</mark>. También se usan en joyería, medicina o tecnología. La geología no es solo del pasado, está muy presente hoy."
+      "respuesta": "Se usan para construir edificios, fabricar objetos y generar energía. <mark>Desde el cemento hasta el móvil, casi todo empieza siendo roca o mineral</mark>. También se usan en joyería, medicina o tecnología. La geología no es solo del pasado, está muy presente hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/cantera-piedra.jpg",
+        "alt": "Una cantera donde se extrae piedra.",
+        "titulo": "Work progresses inside the Colorado Stone Quarries mine",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/32380659648",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que el interior de la Tierra sigue siendo un misterio parcial?",
-      "respuesta": "Porque no podemos llegar físicamente hasta el centro del planeta. <mark>Es como estudiar el interior de una fruta sin poder abrirla del todo</mark>. Los científicos usan ondas sísmicas para deducir cómo es por dentro. Así reconstruyen su estructura sin verla directamente."
+      "respuesta": "Porque no podemos llegar físicamente hasta el centro del planeta. <mark>Es como estudiar el interior de una fruta sin poder abrirla del todo</mark>. Los científicos usan ondas sísmicas para deducir cómo es por dentro. Así reconstruyen su estructura sin verla directamente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/estratos-roca-capas.jpg",
+        "alt": "Capas de roca visibles en un acantilado, como el interior de la Tierra.",
+        "titulo": "Fidalgo Island Strata",
+        "autor": "brewbooks",
+        "fuente": "https://www.flickr.com/photos/93452909@N00/373236831",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre los volcanes, los terremotos y los límites de las placas?",
-      "respuesta": "La mayoría de volcanes y terremotos ocurren cerca de los bordes entre placas terrestres. <mark>Es donde la energía interna de la Tierra se libera con más facilidad</mark>. Por eso ciertas zonas del planeta son mucho más sísmicas que otras. Ayuda a predecir dónde son más probables esos fenómenos."
+      "respuesta": "La mayoría de volcanes y terremotos ocurren cerca de los bordes entre placas terrestres. <mark>Es donde la energía interna de la Tierra se libera con más facilidad</mark>. Por eso ciertas zonas del planeta son mucho más sísmicas que otras. Ayuda a predecir dónde son más probables esos fenómenos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia/mapa-placas-tectonicas.jpg",
+        "alt": "Un mapa mundial con las placas tectónicas.",
+        "titulo": "Map Of Major Tectonic Plates In The World",
+        "autor": "BlatantWorld.com",
+        "fuente": "https://www.flickr.com/photos/45150779@N04/5051807235",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

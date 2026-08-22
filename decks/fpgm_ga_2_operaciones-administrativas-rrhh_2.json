@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la afiliación de la empresa a la Seguridad Social?",
-      "respuesta": "Es el trámite obligatorio para que una empresa pueda contratar trabajadores legalmente. <mark>Es como registrarse oficialmente antes de poder incorporar a alguien a tu equipo</mark>. Sin ella, no se podría dar de alta a ningún empleado."
+      "respuesta": "Es el trámite obligatorio para que una empresa pueda contratar trabajadores legalmente. <mark>Es como registrarse oficialmente antes de poder incorporar a alguien a tu equipo</mark>. Sin ella, no se podría dar de alta a ningún empleado.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/tarjeta-seguridad-social.jpg",
+        "alt": "Un documento relacionado con la Seguridad Social.",
+        "titulo": "Social Security Pledge",
+        "autor": "ProgressOhio",
+        "fuente": "https://www.flickr.com/photos/65312697@N00/4898470903",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un plan de formación continua en una empresa?",
-      "respuesta": "Es el conjunto de cursos y formaciones que ofrece la empresa a sus trabajadores ya contratados. <mark>Es como seguir aprendiendo dentro del trabajo, no solo antes de empezarlo</mark>. Ayuda a adaptarse a nuevas herramientas o tareas."
+      "respuesta": "Es el conjunto de cursos y formaciones que ofrece la empresa a sus trabajadores ya contratados. <mark>Es como seguir aprendiendo dentro del trabajo, no solo antes de empezarlo</mark>. Ayuda a adaptarse a nuevas herramientas o tareas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/sesion-formacion.jpg",
+        "alt": "Una sesión formativa para trabajadores.",
+        "titulo": "GearUP Sessions 5+6: Legal, Financing & Fundraising",
+        "autor": "startup_mena",
+        "fuente": "https://www.flickr.com/photos/123943225@N07/15183865204",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un plan de carrera dentro de una empresa?",
-      "respuesta": "Es el camino de posibles ascensos y cambios de puesto que puede seguir un trabajador. <mark>Es como un mapa interno que muestra hacia dónde podrías crecer sin cambiar de empresa</mark>."
+      "respuesta": "Es el camino de posibles ascensos y cambios de puesto que puede seguir un trabajador. <mark>Es como un mapa interno que muestra hacia dónde podrías crecer sin cambiar de empresa</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/escaleras-ascenso.jpg",
+        "alt": "Unas escaleras que suben, como progresar en un plan de carrera.",
+        "titulo": "Onwards and upwards",
+        "autor": "Rising Damp",
+        "fuente": "https://www.flickr.com/photos/66126733@N04/6294434104",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Estatuto de los Trabajadores?",
-      "respuesta": "Es la ley básica que regula los derechos y deberes de cualquier trabajador en España. <mark>Es como el reglamento general que se aplica a todos los empleos, sea cual sea el sector</mark>."
+      "respuesta": "Es la ley básica que regula los derechos y deberes de cualquier trabajador en España. <mark>Es como el reglamento general que se aplica a todos los empleos, sea cual sea el sector</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/mazo-libro-leyes.jpg",
+        "alt": "Un mazo y un libro de leyes cerrado.",
+        "titulo": "Legal Gavel & Closed Law Book",
+        "autor": "Visual Content",
+        "fuente": "https://www.flickr.com/photos/143601516@N03/27571522123",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un convenio colectivo?",
-      "respuesta": "Es un acuerdo entre empresas y trabajadores de un sector que fija condiciones concretas de trabajo. <mark>Es como un reglamento más específico, pactado para un sector o una empresa en particular</mark>. Debe respetar siempre lo que marca la ley."
+      "respuesta": "Es un acuerdo entre empresas y trabajadores de un sector que fija condiciones concretas de trabajo. <mark>Es como un reglamento más específico, pactado para un sector o una empresa en particular</mark>. Debe respetar siempre lo que marca la ley.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/firma-convenio.jpg",
+        "alt": "Representantes firmando un acuerdo entre empresa y trabajadores.",
+        "titulo": "Julius Hochman shakes hands with Barney Hirsch, after signing agreements",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5278450691",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las bases de cotización a la Seguridad Social?",
-      "respuesta": "Es la cantidad sobre la que se calcula lo que hay que pagar a la Seguridad Social cada mes. <mark>Es como la cifra de partida sobre la que se aplica después un porcentaje</mark>. Depende principalmente del salario del trabajador."
+      "respuesta": "Es la cantidad sobre la que se calcula lo que hay que pagar a la Seguridad Social cada mes. <mark>Es como la cifra de partida sobre la que se aplica después un porcentaje</mark>. Depende principalmente del salario del trabajador.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/nomina-antigua.jpg",
+        "alt": "Una nómina antigua con las cantidades desglosadas.",
+        "titulo": "May 1960 Pay Slip",
+        "autor": "D H Wright",
+        "fuente": "https://www.flickr.com/photos/59521130@N00/6622355997",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la estructura salarial de una nómina?",
-      "respuesta": "Es cómo se organiza el salario: salario base, complementos y posibles pagas extra. <mark>Es como desglosar el sueldo en distintas partidas, en vez de dar solo una cifra total</mark>."
+      "respuesta": "Es cómo se organiza el salario: salario base, complementos y posibles pagas extra. <mark>Es como desglosar el sueldo en distintas partidas, en vez de dar solo una cifra total</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/billetes-euros.jpg",
+        "alt": "Billetes de euro, parte de la estructura salarial.",
+        "titulo": "5 Euro Notes",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5856663675",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el control de presencia en una empresa?",
-      "respuesta": "Es el registro de las horas de entrada y salida de cada trabajador. <mark>Es como fichar al llegar y al salir, para dejar constancia de las horas trabajadas</mark>. Es obligatorio para casi todas las empresas."
+      "respuesta": "Es el registro de las horas de entrada y salida de cada trabajador. <mark>Es como fichar al llegar y al salir, para dejar constancia de las horas trabajadas</mark>. Es obligatorio para casi todas las empresas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/fichar-control-horario.jpg",
+        "alt": "Un reloj para fichar la entrada y salida del trabajo",
+        "titulo": "Clocking in no more. . .",
+        "autor": "Elsie esq.",
+        "fuente": "https://www.flickr.com/photos/61132483@N00/6346505761",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la incapacidad temporal?",
-      "respuesta": "Es la situación de baja médica mientras dura una enfermedad o lesión que impide trabajar. <mark>Es como una pausa reconocida por ley, mientras la persona se recupera</mark>. Durante ese tiempo suele recibirse una prestación económica."
+      "respuesta": "Es la situación de baja médica mientras dura una enfermedad o lesión que impide trabajar. <mark>Es como una pausa reconocida por ley, mientras la persona se recupera</mark>. Durante ese tiempo suele recibirse una prestación económica.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/muletas-lesion.jpg",
+        "alt": "Una persona con muletas por una lesión temporal.",
+        "titulo": "Crutches - Personal Injury",
+        "autor": "sandiegopersonalinjuryattorney",
+        "fuente": "https://www.flickr.com/photos/134351668@N07/19929701138",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los procedimientos de calidad en el departamento de recursos humanos?",
-      "respuesta": "Son normas internas que aseguran que la gestión del personal se hace siempre de forma cuidada. <mark>Es como seguir un mismo protocolo para tratar a todos los trabajadores por igual</mark>."
+      "respuesta": "Son normas internas que aseguran que la gestión del personal se hace siempre de forma cuidada. <mark>Es como seguir un mismo protocolo para tratar a todos los trabajadores por igual</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/pulgar-arriba-aprobacion.jpg",
+        "alt": "Un gesto de pulgar hacia arriba, señal de aprobación de calidad.",
+        "titulo": "Thumbs Up",
+        "autor": "Matt Moloney",
+        "fuente": "https://stocksnap.io/photo/thumbs-up-DFIHYCXVEL",
+        "licencia": "CC0 1.0"
+      }
     }
   ]
 }

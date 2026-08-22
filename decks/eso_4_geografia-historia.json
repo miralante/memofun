@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué causas provocaron la Primera Guerra Mundial?",
-      "respuesta": "Rivalidades entre potencias, alianzas militares y un fuerte nacionalismo. <mark>Era como un polvorín esperando solo una chispa para estallar</mark>. El asesinato del archiduque Francisco Fernando fue esa chispa, en 1914. En pocas semanas, casi toda Europa quedó envuelta en guerra."
+      "respuesta": "Rivalidades entre potencias, alianzas militares y un fuerte nacionalismo. <mark>Era como un polvorín esperando solo una chispa para estallar</mark>. El asesinato del archiduque Francisco Fernando fue esa chispa, en 1914. En pocas semanas, casi toda Europa quedó envuelta en guerra.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/mapa-europa-antiguo.jpg",
+        "alt": "Un mapa antiguo de Europa, con sus fronteras de la época",
+        "titulo": "Bacon's standard map of Europe by George Washington Bacon",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/50623714417",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué caracterizó el desarrollo de la Primera Guerra Mundial?",
-      "respuesta": "Se luchó sobre todo en trincheras, con avances mínimos y muchísimas bajas. <mark>Los soldados podían pasar meses enteros en la misma línea, sin apenas moverse</mark>. Se usaron armas nuevas, como gases tóxicos y ametralladoras. Duró de 1914 a 1918, mucho más de lo esperado."
+      "respuesta": "Se luchó sobre todo en trincheras, con avances mínimos y muchísimas bajas. <mark>Los soldados podían pasar meses enteros en la misma línea, sin apenas moverse</mark>. Se usaron armas nuevas, como gases tóxicos y ametralladoras. Duró de 1914 a 1918, mucho más de lo esperado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/monumento-soldado-desconocido.jpg",
+        "alt": "Monumento al Soldado Desconocido de la Primera Guerra Mundial",
+        "titulo": "Monumento al Soldado Desconocido, primera guerra mundial",
+        "autor": "Roberto Fiadone",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=47622538",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué consecuencias tuvo la Primera Guerra Mundial?",
-      "respuesta": "Murieron millones de personas y cayeron varios grandes imperios. <mark>Es como si el mapa de Europa se hubiera roto y hubiera que rehacerlo</mark>. Cambiaron fronteras y nacieron nuevos países. También dejó un resentimiento que preparó el camino a otro conflicto."
+      "respuesta": "Murieron millones de personas y cayeron varios grandes imperios. <mark>Es como si el mapa de Europa se hubiera roto y hubiera que rehacerlo</mark>. Cambiaron fronteras y nacieron nuevos países. También dejó un resentimiento que preparó el camino a otro conflicto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/mapa-mundo-antiguo.jpg",
+        "alt": "Un mapa antiguo del mundo con sus fronteras",
+        "titulo": "Noua totius terrarum orbis geographica ac hydrographica tabula",
+        "autor": "Norman B. Leventhal Map Center at the BPL",
+        "fuente": "https://www.flickr.com/photos/24528911@N05/2709981247",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fueron los tratados de paz tras la Primera Guerra Mundial?",
-      "respuesta": "Fueron los acuerdos que fijaron las condiciones para los países derrotados. <mark>El Tratado de Versalles impuso a Alemania duras condiciones económicas y territoriales</mark>. Muchos alemanes sintieron esas condiciones como un castigo injusto. Ese resentimiento alimentó después ideas extremistas."
+      "respuesta": "Fueron los acuerdos que fijaron las condiciones para los países derrotados. <mark>El Tratado de Versalles impuso a Alemania duras condiciones económicas y territoriales</mark>. Muchos alemanes sintieron esas condiciones como un castigo injusto. Ese resentimiento alimentó después ideas extremistas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/carta-magna.jpg",
+        "alt": "Un documento histórico antiguo, como un tratado",
+        "titulo": "HISTORIC MAGNA CARTA",
+        "autor": "summonedbyfells",
+        "fuente": "https://www.flickr.com/photos/8521690@N02/9921836924",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Revolución rusa?",
-      "respuesta": "Fue el proceso que acabó con el gobierno del zar en Rusia, en 1917. <mark>El pueblo, cansado de la guerra y la pobreza, se levantó contra el poder absoluto del zar</mark>. Los bolcheviques, liderados por Lenin, tomaron el poder. Fue la primera revolución comunista triunfante de la historia."
+      "respuesta": "Fue el proceso que acabó con el gobierno del zar en Rusia, en 1917. <mark>El pueblo, cansado de la guerra y la pobreza, se levantó contra el poder absoluto del zar</mark>. Los bolcheviques, liderados por Lenin, tomaron el poder. Fue la primera revolución comunista triunfante de la historia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/marx-lenin-estatua.jpg",
+        "alt": "Estatua de Marx y Lenin, líderes de la Revolución rusa",
+        "titulo": "Marx eta Lenin estatua",
+        "autor": "Mikel ROA",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=69240131",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es el modelo comunista implantado en la URSS?",
-      "respuesta": "Proponía que el Estado controlara la economía en nombre de todos los trabajadores. <mark>Buscaba acabar con la propiedad privada de las grandes empresas y fábricas</mark>. Se creó así la Unión Soviética, un enorme Estado comunista. Se convirtió en una de las grandes potencias del siglo veinte."
+      "respuesta": "Proponía que el Estado controlara la economía en nombre de todos los trabajadores. <mark>Buscaba acabar con la propiedad privada de las grandes empresas y fábricas</mark>. Se creó así la Unión Soviética, un enorme Estado comunista. Se convirtió en una de las grandes potencias del siglo veinte.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/estatua-lenin.jpg",
+        "alt": "Una estatua de Lenin, líder de la Revolución rusa",
+        "titulo": "My favorite Lenin",
+        "autor": "Clay Gilliland",
+        "fuente": "https://www.flickr.com/photos/26781577@N07/11396249514",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo pasó el poder de Lenin a Stalin en la URSS?",
-      "respuesta": "Lenin lideró la revolución y los primeros años del nuevo Estado soviético. <mark>Tras su muerte, Stalin se hizo con el control absoluto del poder</mark>. Stalin gobernó de forma muy dura, con represión y control total. Bajo su mando, la URSS se convirtió en una potencia industrial y militar."
+      "respuesta": "Lenin lideró la revolución y los primeros años del nuevo Estado soviético. <mark>Tras su muerte, Stalin se hizo con el control absoluto del poder</mark>. Stalin gobernó de forma muy dura, con represión y control total. Bajo su mando, la URSS se convirtió en una potencia industrial y militar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/kremlin-moscu.jpg",
+        "alt": "El Kremlin y la Plaza Roja en Moscú",
+        "titulo": "Kremlin, Red Square, Moscow",
+        "autor": "carefulweb",
+        "fuente": "https://www.flickr.com/photos/8282860@N02/4137045520",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la Primera Guerra Mundial fue diferente a guerras anteriores?",
-      "respuesta": "Porque usó armas industriales y afectó a la vida civil como nunca antes. <mark>Fue la primera guerra verdaderamente 'moderna', con fábricas produciendo para el frente</mark>. Involucró a colonias y países de varios continentes. Por eso se considera la primera guerra realmente mundial."
+      "respuesta": "Porque usó armas industriales y afectó a la vida civil como nunca antes. <mark>Fue la primera guerra verdaderamente 'moderna', con fábricas produciendo para el frente</mark>. Involucró a colonias y países de varios continentes. Por eso se considera la primera guerra realmente mundial.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/trabajadoras-fabrica-historica.jpg",
+        "alt": "Trabajadoras en una fábrica a principios del siglo veinte",
+        "titulo": "Historical Asbestos Image: Female Asbestos Baggers",
+        "autor": "Asbestorama",
+        "fuente": "https://www.flickr.com/photos/34010575@N03/27584842094",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la crisis económica y el estallido de la Revolución rusa?",
-      "respuesta": "La guerra había hundido la economía y dejado hambre en Rusia. <mark>Un pueblo cansado y hambriento perdió la paciencia con su gobierno</mark>. Esa situación desesperada hizo crecer el apoyo a ideas revolucionarias. La combinación de guerra y pobreza fue decisiva para la revolución."
+      "respuesta": "La guerra había hundido la economía y dejado hambre en Rusia. <mark>Un pueblo cansado y hambriento perdió la paciencia con su gobierno</mark>. Esa situación desesperada hizo crecer el apoyo a ideas revolucionarias. La combinación de guerra y pobreza fue decisiva para la revolución.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/reparto-pan-antiguo.jpg",
+        "alt": "Un camión de reparto de pan de los años 1920",
+        "titulo": "Bradford's Bread Truck, Irvine Ranch, circa 1920s",
+        "autor": "Orange County Archives",
+        "fuente": "https://www.flickr.com/photos/30346812@N07/14850234539",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que cayeran varios imperios tras la Primera Guerra Mundial?",
-      "respuesta": "El imperio austrohúngaro, el otomano, el alemán y el ruso desaparecieron. <mark>Es como si varios gigantes históricos se derrumbaran casi a la vez</mark>. En su lugar surgieron nuevos países, con fronteras muy distintas. Ese cambio de mapa provocó tensiones que durarían décadas."
+      "respuesta": "El imperio austrohúngaro, el otomano, el alemán y el ruso desaparecieron. <mark>Es como si varios gigantes históricos se derrumbaran casi a la vez</mark>. En su lugar surgieron nuevos países, con fronteras muy distintas. Ese cambio de mapa provocó tensiones que durarían décadas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/mapa-mundo-1911.jpg",
+        "alt": "Un mapa del mundo de 1911, antes de que cambiaran las fronteras",
+        "titulo": "1911 World Map",
+        "autor": "perpetualplum",
+        "fuente": "https://www.flickr.com/photos/14277117@N03/2866054138",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo cambió la vida cotidiana durante la Primera Guerra Mundial?",
-      "respuesta": "Muchas mujeres tuvieron que ocupar puestos de trabajo que antes eran solo de hombres. <mark>Con los hombres en el frente, alguien tenía que mantener funcionando fábricas y campos</mark>. Esa experiencia impulsó después las demandas de derechos de las mujeres. La guerra cambió mucho más que solo fronteras."
+      "respuesta": "Muchas mujeres tuvieron que ocupar puestos de trabajo que antes eran solo de hombres. <mark>Con los hombres en el frente, alguien tenía que mantener funcionando fábricas y campos</mark>. Esa experiencia impulsó después las demandas de derechos de las mujeres. La guerra cambió mucho más que solo fronteras.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/mujer-trabajadora-guerra.jpg",
+        "alt": "Un cartel y objetos de un museo sobre las mujeres que trabajaron en fábricas durante la guerra",
+        "titulo": "Hampton History Museum Women in World War II Rosie the Riveter",
+        "autor": "watts_photos",
+        "fuente": "https://www.flickr.com/photos/126288307@N05/32461282250",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la Primera Guerra Mundial dejó el terreno preparado para nuevos conflictos?",
-      "respuesta": "Dejó países arruinados, fronteras discutidas y un fuerte resentimiento. <mark>Es como cerrar una herida sin curarla bien, lista para volver a abrirse</mark>. Esas tensiones sin resolver alimentaron ideas extremistas. Por eso ambas guerras mundiales suelen verse como conectadas."
+      "respuesta": "Dejó países arruinados, fronteras discutidas y un fuerte resentimiento. <mark>Es como cerrar una herida sin curarla bien, lista para volver a abrirse</mark>. Esas tensiones sin resolver alimentaron ideas extremistas. Por eso ambas guerras mundiales suelen verse como conectadas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/reloj-torre-europeo.jpg",
+        "alt": "Un reloj de torre en una calle europea antigua",
+        "titulo": "Town Clock Bayswater London",
+        "autor": "pavlinajane",
+        "fuente": "https://www.flickr.com/photos/60291025@N05/10841433164",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia había entre el modelo comunista y el sistema anterior en Rusia?",
-      "respuesta": "Antes, el zar gobernaba con poder casi absoluto, sin apenas derechos para el pueblo. <mark>El modelo comunista prometía repartir la riqueza y el poder entre todos los trabajadores</mark>. En la práctica, el Estado terminó controlando casi toda la vida económica. Ese cambio convirtió a Rusia en un país distinto."
+      "respuesta": "Antes, el zar gobernaba con poder casi absoluto, sin apenas derechos para el pueblo. <mark>El modelo comunista prometía repartir la riqueza y el poder entre todos los trabajadores</mark>. En la práctica, el Estado terminó controlando casi toda la vida económica. Ese cambio convirtió a Rusia en un país distinto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/plaza-san-isaac-petersburgo.jpg",
+        "alt": "Una plaza histórica de San Petersburgo, Rusia",
+        "titulo": "DSC00826, St. Isaac's Square, St. Petersburg, Russia",
+        "autor": "jimg944",
+        "fuente": "https://www.flickr.com/photos/21203533@N00/256988870",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se considera la Primera Guerra Mundial un punto de inflexión del siglo XX?",
-      "respuesta": "Porque cambió fronteras, gobiernos y la forma de entender la guerra misma. <mark>Es como una línea que separa claramente un mundo del anterior</mark>. De ella nacieron la Revolución rusa y las tensiones que llevarían a la Segunda Guerra Mundial. Por eso marca el inicio del siglo veinte más convulso."
+      "respuesta": "Porque cambió fronteras, gobiernos y la forma de entender la guerra misma. <mark>Es como una línea que separa claramente un mundo del anterior</mark>. De ella nacieron la Revolución rusa y las tensiones que llevarían a la Segunda Guerra Mundial. Por eso marca el inicio del siglo veinte más convulso.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia/globo-terraqueo-antiguo.jpg",
+        "alt": "Un globo terráqueo antiguo sobre su soporte",
+        "titulo": "Vintage globe stand illustration",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/39820333443",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

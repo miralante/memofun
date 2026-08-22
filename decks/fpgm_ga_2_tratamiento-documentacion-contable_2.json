@@ -5,39 +5,111 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué son los libros-registro obligatorios en materia fiscal?",
-      "respuesta": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. <mark>Es como un cuaderno oficial que hay que llevar siempre al día, por obligación legal</mark>."
+      "respuesta": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. <mark>Es como un cuaderno oficial que hay que llevar siempre al día, por obligación legal</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/libro-registro.jpg",
+        "alt": "Una página de un libro de registro contable antiguo",
+        "titulo": "Ledger page from Franklin's GPO account book",
+        "autor": "(autor desconocido)",
+        "fuente": "https://postalmuseum.si.edu/object/npm_1982.0786.1",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué documentos sirven de soporte a una compra registrada en contabilidad?",
-      "respuesta": "La factura y el albarán, que justifican qué se compró y en qué condiciones. <mark>Es como guardar las pruebas de cada compra, por si hay que demostrarla más adelante</mark>."
+      "respuesta": "La factura y el albarán, que justifican qué se compró y en qué condiciones. <mark>Es como guardar las pruebas de cada compra, por si hay que demostrarla más adelante</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/facturas.jpg",
+        "alt": "Un montón de facturas",
+        "titulo": "Invoices",
+        "autor": "cybrgrl",
+        "fuente": "https://www.flickr.com/photos/84387590@N00/2693815369",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una nota de abono?",
-      "respuesta": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. <mark>Es como una 'contra-factura' que reduce lo que había que pagar</mark>. Se usa, por ejemplo, si se devuelve mercancía."
+      "respuesta": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. <mark>Es como una 'contra-factura' que reduce lo que había que pagar</mark>. Se usa, por ejemplo, si se devuelve mercancía.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/formulario-nota.jpg",
+        "alt": "Alguien rellenando un formulario",
+        "titulo": "IRS 1040 Tax Form Being Filled Out",
+        "autor": "kenteegardin",
+        "fuente": "https://www.flickr.com/photos/26373139@N08/5512347305",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre una nota de abono y una nota de crédito?",
-      "respuesta": "En la práctica ambos términos se usan casi como sinónimos para corregir una factura anterior. <mark>Ambos reducen una deuda ya registrada, en vez de generar una nueva</mark>. Siempre hacen referencia a la factura original."
+      "respuesta": "En la práctica ambos términos se usan casi como sinónimos para corregir una factura anterior. <mark>Ambos reducen una deuda ya registrada, en vez de generar una nueva</mark>. Siempre hacen referencia a la factura original.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/balanza-comparacion.jpg",
+        "alt": "Una balanza de dos platillos comparando pesos",
+        "titulo": "Dvouramenná váha; Two-pan balance weight",
+        "autor": "Da4Sal",
+        "fuente": "https://www.flickr.com/photos/112931986@N07/11645154764",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué documentos sirven de soporte a una venta registrada en contabilidad?",
-      "respuesta": "La factura de venta y, en su caso, el albarán de entrega al cliente. <mark>Es la misma idea que en las compras, pero mirado desde el lado de quien vende</mark>."
+      "respuesta": "La factura de venta y, en su caso, el albarán de entrega al cliente. <mark>Es la misma idea que en las compras, pero mirado desde el lado de quien vende</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/recibos.jpg",
+        "alt": "Varios recibos de compra",
+        "titulo": "Receipts",
+        "autor": "Steve Snodgrass",
+        "fuente": "https://www.flickr.com/photos/10710442@N08/4034636375",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué documentos de tesorería requieren tramitación contable?",
-      "respuesta": "Recibos, transferencias, cheques y pagarés, entre otros, deben quedar reflejados en las cuentas. <mark>Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero, sea cual sea el medio</mark>."
+      "respuesta": "Recibos, transferencias, cheques y pagarés, entre otros, deben quedar reflejados en las cuentas. <mark>Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero, sea cual sea el medio</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/cuenta-bancaria.jpg",
+        "alt": "Documentos relacionados con una cuenta bancaria",
+        "titulo": "bank-account-stock-images",
+        "autor": "aronbaker2",
+        "fuente": "https://www.flickr.com/photos/144152028@N08/27840035405",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué debe mantenerse la confidencialidad de la información financiera de una empresa?",
-      "respuesta": "Porque revela datos sensibles sobre su situación económica real. <mark>Es como no contar en voz alta cuánto dinero tiene alguien en el banco</mark>. Filtrarla podría perjudicar a la empresa frente a otras."
+      "respuesta": "Porque revela datos sensibles sobre su situación económica real. <mark>Es como no contar en voz alta cuánto dinero tiene alguien en el banco</mark>. Filtrarla podría perjudicar a la empresa frente a otras.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/sello-confidencial.jpg",
+        "alt": "Un sello de \"información restringida\" sobre un documento",
+        "titulo": "'Restricted Data' stamp",
+        "autor": "RestrictedData",
+        "fuente": "https://www.flickr.com/photos/69537337@N02/6322624283",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cuánto tiempo suele haber que conservar los documentos contables de una empresa?",
-      "respuesta": "Varios años, ya que Hacienda puede solicitarlos en una inspección posterior. <mark>Es como guardar tickets importantes por si algún día tienes que justificar un gasto</mark>."
+      "respuesta": "Varios años, ya que Hacienda puede solicitarlos en una inspección posterior. <mark>Es como guardar tickets importantes por si algún día tienes que justificar un gasto</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-cajon.jpg",
+        "alt": "Un cajón de archivador abierto con documentos",
+        "titulo": "Filing Cabinet Open drawer",
+        "autor": "Vegansoldier",
+        "fuente": "https://www.flickr.com/photos/24283435@N08/3233794067",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué procedimientos de archivo facilitan conservar bien la documentación contable?",
-      "respuesta": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad. <mark>Es como tener un archivador tan bien organizado que encuentras cualquier papel en segundos</mark>."
+      "respuesta": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad. <mark>Es como tener un archivador tan bien organizado que encuentras cualquier papel en segundos</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-documentos.jpg",
+        "alt": "Una persona archivando documentos en un archivador de oficina",
+        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

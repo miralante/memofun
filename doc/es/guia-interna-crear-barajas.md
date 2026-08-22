@@ -102,6 +102,61 @@ Cuando le pides una baraja, el agente:
 4. Te dice qué generó y dónde, y si conviene una revisión humana
    adicional (por ejemplo, en temas muy técnicos o sensibles).
 
+### 3.1 Opcional: añadir una imagen de apoyo visual a una tarjeta
+
+Cualquier tarjeta puede llevar una foto/ilustración como apoyo visual
+a la explicación (ver `tecnico.md` §3.1 para la lista completa de
+campos). Pídelo de forma explícita — el agente no añade imágenes por
+su cuenta — al generar la baraja o después, para una tarjeta o para
+toda la baraja:
+
+> "Añade una imagen de apoyo a las tarjetas de `primaria_1_literatura.json`."
+
+Para cada tarjeta, el agente:
+
+1. Busca con `node scripts/buscar-imagen.js "<término>"` — esto
+   consulta Openverse (openverse.org), un banco de imágenes gratuito
+   que agrega fotos con licencia abierta, sin necesidad de registro,
+   restringido a licencias que permiten reutilizar y modificar sin
+   restricciones extra (CC0, Dominio público, CC BY, CC BY-SA — nunca
+   `-NC`/`-ND`). Igual que la búsqueda de ARASAAC en sinonimia, es una
+   **herramienta de preparación de contenido que se ejecuta al
+   escribir la baraja**, no una llamada en tiempo de ejecución desde
+   el sitio publicado — la imagen descargada acaba siendo un archivo
+   estático más, como cualquier otro recurso (`CLAUDE.md` → "No
+   generative AI in the shipped product").
+2. Elige la candidata que de verdad encaja con la tarjeta **solo a
+   partir del texto (título/fuente) que imprime el script** (no solo
+   la que coincide literalmente con el término buscado — la búsqueda
+   de Openverse es por etiquetas, no semántica, así que probar un
+   término más concreto o más común cuando la primera búsqueda no da
+   nada o da resultados fuera de tema funciona igual que con
+   `buscar-pictograma.js` en sinonimia). **Nunca abre un archivo de
+   imagen para verlo — tampoco la candidata final.** El título/fuente
+   del resultado de búsqueda se trata como la señal ya curada para
+   decidir el encaje; es una decisión deliberada, no un atajo, porque
+   abrir cualquier imagen gasta ~1000 tokens de visión o más por un
+   chequeo que el título ya resuelve. La tarjeta puntual que acabe con
+   una imagen de verdad desajustada la detecta después una persona
+   leyendo la baraja, que lo reporta según `CONTRIBUTING.es.md` — no el
+   agente reverificando cada imagen al escribir el contenido.
+3. Descarga la URL `thumb` (no la `image` de resolución completa) en
+   `assets/img/decks/<slug-de-la-baraja>/<archivo>.jpg` — es la misma
+   foto a una fracción del tamaño, de sobra para ilustrar una tarjeta;
+   solo recurre a `image` si el proxy de miniaturas falla con un 400
+   para ese origen.
+4. Añade el campo `imagen` a esa tarjeta con todos sus subcampos
+   (`archivo`, `alt`, `titulo`, `autor`, `fuente`, `licencia`) — `alt`
+   describe lo que la imagen muestra de verdad, en el idioma de la
+   baraja.
+
+Si te piden añadir imágenes a toda una baraja en vez de a una sola
+tarjeta, agrupa las ediciones del campo `imagen` en el menor número de
+pasadas posible sobre el JSON de la baraja, en vez de releer y volver a
+editar el archivo completo por cada tarjeta — la búsqueda y descarga sí
+va tarjeta a tarjeta (cada una necesita su propia imagen), pero el
+archivo en sí no hace falta releerlo cada vez.
+
 ## 4. Revisar antes de dar por publicada la baraja
 
 Aunque el agente aplica las reglas al escribir, sigue mereciendo la
@@ -128,6 +183,18 @@ idea que revisar cualquier contenido antes de un examen. Comprueba:
       baraja se ciñe a esos puntos y no deriva a temas adyacentes que
       no se estudian en ese curso (`SPEC.md` §1.3).
 - [ ] Si pediste un índice: **todos los puntos están cubiertos**.
+- [ ] Si alguna tarjeta tiene `imagen`: la licencia es CC0/Dominio
+      público/CC BY/CC BY-SA (nunca `-NC`/`-ND` — `scripts/check.js` lo
+      detecta, pero conviene un vistazo humano también) y el texto
+      `alt` describe la propia imagen. Si de verdad muestra lo que
+      trata la tarjeta *no* se reverifica aquí — el título/fuente de la
+      búsqueda ya fue la señal curada al escribir el contenido, y
+      reabrir cada archivo para comprobarlo otra vez gastaría
+      justo los tokens de visión que este flujo busca evitar. Si tú (o
+      cualquiera leyendo la baraja publicada) encuentra una tarjeta
+      cuya imagen de verdad no encaja, repórtalo según
+      `CONTRIBUTING.es.md` en vez de arreglarlo de paso sin más — así
+      la tasa de desajustes queda visible.
 
 Si algo no cumple, pide al agente que reescriba esa tarjeta o edita el
 `.json` directamente (es texto plano).
@@ -156,6 +223,7 @@ rejilla de inicio.
 - `CLAUDE.md` → "Generating deck content" — el ruleset completo que
   sigue el agente al escribir las tarjetas.
 - [`tecnico.md`](tecnico.md) §3 — formato JSON de una baraja.
+- [`tecnico.md`](tecnico.md) §3.1 — el campo opcional `imagen` por tarjeta.
 - [`tecnico.md`](tecnico.md) §8 — cómo funciona la ingesta de contenido por dentro.
 - [`guia-chat-ia-crear-barajas.md`](guia-chat-ia-crear-barajas.md) — la misma tarea, pero con un chat de IA genérico sin acceso al repositorio.
 - [`SPEC.md`](SPEC.md) §1.3 — por qué repetir con propósito y ceñirse al temario apuntalan el aprendizaje significativo.

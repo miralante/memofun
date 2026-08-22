@@ -15,6 +15,7 @@ usuaria no necesita leer nada de esto, solo abrir la app.
 | Corregir o mejorar una baraja existente | Edita el `.json` directamente (es texto plano), o pide al agente que la regenere y sustituya el archivo en `decks/`. |
 | Tocar código (HTML/CSS/JS) | Sigue el flujo de GitHub de abajo. Lee primero [`doc/es/tecnico.md`](doc/es/tecnico.md). Todo el proyecto es vanilla: nada de frameworks ni dependencias nuevas. |
 | Traducir la interfaz a un idioma nuevo | Sigue la guía de [`doc/es/I18N.md`](doc/es/I18N.md). |
+| Reportar una tarjeta cuya `imagen` no encaja de verdad | Abre un issue indicando el archivo de la baraja, la tarjeta (texto de la pregunta) y qué está mal. Las imágenes de las barajas se eligen a partir del título/fuente del resultado de búsqueda en Openverse al escribir el contenido, a propósito sin abrir el archivo para mirarlo (`doc/es/tecnico.md` §3.1) — se espera que algún desajuste se cuele de vez en cuando y lo detecte quien lee la baraja, no que se reverifique cada imagen de antemano. |
 
 ## ⚠️ Antes de tocar la generación de contenido
 

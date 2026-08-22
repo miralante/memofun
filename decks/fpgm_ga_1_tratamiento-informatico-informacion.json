@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un sistema operativo?",
-      "respuesta": "Es el programa principal que permite usar y controlar un ordenador. <mark>Es como el director de una orquesta, coordinando todos los programas y el hardware</mark>. Sin él, ningún otro programa podría funcionar."
+      "respuesta": "Es el programa principal que permite usar y controlar un ordenador. <mark>Es como el director de una orquesta, coordinando todos los programas y el hardware</mark>. Sin él, ningún otro programa podría funcionar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/ordenador-sistema-operativo.jpg",
+        "alt": "La pantalla de un ordenador de escritorio",
+        "titulo": "Desktop 8/2012",
+        "autor": "Jiri Brozovsky",
+        "fuente": "https://www.flickr.com/photos/7958754@N03/7833087424",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante organizar bien archivos y carpetas en el ordenador?",
-      "respuesta": "Porque facilita encontrar cualquier documento rápidamente cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo mezclado en un mismo montón</mark>. Una buena organización ahorra tiempo y evita perder documentos."
+      "respuesta": "Porque facilita encontrar cualquier documento rápidamente cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo mezclado en un mismo montón</mark>. Una buena organización ahorra tiempo y evita perder documentos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
+        "alt": "Empleada guardando documentos en un archivador de oficina",
+        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es dar formato a un texto en un procesador de textos?",
-      "respuesta": "Es cambiar cómo se ve el texto: su tipo de letra, tamaño, color o alineación. <mark>Es como vestir el mismo contenido de una forma más clara y profesional</mark>. Un buen formato ayuda a que el documento se lea mejor."
+      "respuesta": "Es cambiar cómo se ve el texto: su tipo de letra, tamaño, color o alineación. <mark>Es como vestir el mismo contenido de una forma más clara y profesional</mark>. Un buen formato ayuda a que el documento se lea mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "alt": "Un ordenador de oficina listo para trabajar",
+        "titulo": "New Office",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tipo de documentos suele crear una empresa con el procesador de textos?",
-      "respuesta": "Cartas, informes, circulares y otros documentos administrativos. <mark>Es la herramienta básica para casi cualquier documento escrito de una oficina</mark>. Permite aplicar plantillas para que todos los documentos tengan un mismo estilo."
+      "respuesta": "Cartas, informes, circulares y otros documentos administrativos. <mark>Es la herramienta básica para casi cualquier documento escrito de una oficina</mark>. Permite aplicar plantillas para que todos los documentos tengan un mismo estilo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "alt": "Un ordenador portatil abierto sobre una mesa",
+        "titulo": "My new Macbook pro",
+        "autor": "MattHurst",
+        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una fórmula en una hoja de cálculo?",
-      "respuesta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano</mark>. Empieza siempre con el símbolo igual."
+      "respuesta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano</mark>. Empieza siempre con el símbolo igual.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "alt": "Un ordenador de oficina listo para trabajar",
+        "titulo": "New Office",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una función básica en una hoja de cálculo?",
-      "respuesta": "Es una fórmula ya preparada para hacer cálculos comunes, como sumar o sacar la media. <mark>Es como una fórmula ya hecha, lista para usar sin tener que inventarla tú mismo</mark>. SUMA o PROMEDIO son ejemplos muy utilizados."
+      "respuesta": "Es una fórmula ya preparada para hacer cálculos comunes, como sumar o sacar la media. <mark>Es como una fórmula ya hecha, lista para usar sin tener que inventarla tú mismo</mark>. SUMA o PROMEDIO son ejemplos muy utilizados.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "alt": "Un ordenador portatil abierto sobre una mesa",
+        "titulo": "My new Macbook pro",
+        "autor": "MattHurst",
+        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil una hoja de cálculo en tareas administrativas?",
-      "respuesta": "Porque permite organizar datos numéricos y hacer cálculos de forma automática. <mark>Es como tener una calculadora gigante conectada a una tabla ordenada</mark>. Se usa para presupuestos, facturas o control de gastos."
+      "respuesta": "Porque permite organizar datos numéricos y hacer cálculos de forma automática. <mark>Es como tener una calculadora gigante conectada a una tabla ordenada</mark>. Se usa para presupuestos, facturas o control de gastos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "alt": "Un ordenador de oficina listo para trabajar",
+        "titulo": "New Office",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las plantillas en un procesador de textos?",
-      "respuesta": "Son documentos ya diseñados, listos para rellenar con información concreta. <mark>Es como tener el molde ya hecho, solo falta poner el contenido dentro</mark>. Ahorran tiempo y aseguran que todos los documentos tengan el mismo estilo."
+      "respuesta": "Son documentos ya diseñados, listos para rellenar con información concreta. <mark>Es como tener el molde ya hecho, solo falta poner el contenido dentro</mark>. Ahorran tiempo y aseguran que todos los documentos tengan el mismo estilo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "alt": "Un ordenador portatil abierto sobre una mesa",
+        "titulo": "My new Macbook pro",
+        "autor": "MattHurst",
+        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas tiene guardar los documentos en carpetas bien organizadas?",
-      "respuesta": "Permite localizarlos rápido y evita duplicados o pérdidas de información. <mark>Es como un archivador físico, pero dentro del ordenador</mark>. También facilita que otras personas del equipo encuentren lo que necesitan."
+      "respuesta": "Permite localizarlos rápido y evita duplicados o pérdidas de información. <mark>Es como un archivador físico, pero dentro del ordenador</mark>. También facilita que otras personas del equipo encuentren lo que necesitan.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
+        "alt": "Empleada guardando documentos en un archivador de oficina",
+        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una celda en una hoja de cálculo?",
-      "respuesta": "Es cada casilla individual dentro de la cuadrícula de la hoja. <mark>Es como cada casilla de un tablero, identificada por su fila y su columna</mark>. En cada celda se puede escribir texto, un número o una fórmula."
+      "respuesta": "Es cada casilla individual dentro de la cuadrícula de la hoja. <mark>Es como cada casilla de un tablero, identificada por su fila y su columna</mark>. En cada celda se puede escribir texto, un número o una fórmula.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "alt": "Un ordenador de oficina listo para trabajar",
+        "titulo": "New Office",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué conviene revisar el formato de un documento antes de enviarlo?",
-      "respuesta": "Porque un documento mal formateado puede parecer poco profesional. <mark>Es como revisar tu ropa antes de una reunión importante</mark>. Errores de formato pueden incluso dificultar la lectura del contenido."
+      "respuesta": "Porque un documento mal formateado puede parecer poco profesional. <mark>Es como revisar tu ropa antes de una reunión importante</mark>. Errores de formato pueden incluso dificultar la lectura del contenido.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "alt": "Un ordenador portatil abierto sobre una mesa",
+        "titulo": "My new Macbook pro",
+        "autor": "MattHurst",
+        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el sistema operativo y los programas de ofimática?",
-      "respuesta": "El sistema operativo permite que los programas de ofimática funcionen correctamente. <mark>Es como el terreno sobre el que se construyen todas las demás herramientas</mark>. Sin él, esos programas no podrían instalarse ni ejecutarse."
+      "respuesta": "El sistema operativo permite que los programas de ofimática funcionen correctamente. <mark>Es como el terreno sobre el que se construyen todas las demás herramientas</mark>. Sin él, esos programas no podrían instalarse ni ejecutarse.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "alt": "Un ordenador de oficina listo para trabajar",
+        "titulo": "New Office",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

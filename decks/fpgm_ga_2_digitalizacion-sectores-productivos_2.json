@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué diferencia hay entre la economía lineal y la economía circular?",
-      "respuesta": "La economía lineal fabrica, usa y tira; la economía circular reutiliza y reduce residuos. <mark>Es como pasar de un camino recto que acaba en la basura a un círculo que vuelve a empezar</mark>. La digitalización ayuda a aplicar este segundo modelo."
+      "respuesta": "La economía lineal fabrica, usa y tira; la economía circular reutiliza y reduce residuos. <mark>Es como pasar de un camino recto que acaba en la basura a un círculo que vuelve a empezar</mark>. La digitalización ayuda a aplicar este segundo modelo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/reciclaje-circular.png",
+        "alt": "Simbolo de reciclaje que representa la economia circular",
+        "titulo": "Road to Zero Waste Logo",
+        "autor": "LC.zemog",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=156267072",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la cuarta revolución industrial?",
-      "respuesta": "Es la etapa actual en la que la tecnología digital transforma cómo trabajan las empresas. <mark>Es como un nuevo gran salto, después de la máquina de vapor o la electricidad</mark>. Incluye internet, la automatización y la inteligencia artificial."
+      "respuesta": "Es la etapa actual en la que la tecnología digital transforma cómo trabajan las empresas. <mark>Es como un nuevo gran salto, después de la máquina de vapor o la electricidad</mark>. Incluye internet, la automatización y la inteligencia artificial.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+        "alt": "Linea de montaje automatizada en una fabrica moderna",
+        "titulo": "Tesla Motors Assembly Line",
+        "autor": "jurvetson",
+        "fuente": "https://www.flickr.com/photos/44124348109@N01/6858583426",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre los entornos IT y OT en una empresa?",
-      "respuesta": "El entorno IT gestiona la información, como los ordenadores y los datos. <mark>El entorno OT, en cambio, controla procesos físicos, como máquinas o instalaciones</mark>. Cada vez están más conectados entre sí."
+      "respuesta": "El entorno IT gestiona la información, como los ordenadores y los datos. <mark>El entorno OT, en cambio, controla procesos físicos, como máquinas o instalaciones</mark>. Cada vez están más conectados entre sí.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+        "alt": "Linea de montaje automatizada en una fabrica moderna",
+        "titulo": "Tesla Motors Assembly Line",
+        "autor": "jurvetson",
+        "fuente": "https://www.flickr.com/photos/44124348109@N01/6858583426",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el internet de las cosas (IoT)?",
-      "respuesta": "Es la conexión a internet de objetos cotidianos, para que puedan enviar y recibir datos. <mark>Es como si una impresora o un termostato pudieran 'hablar' entre ellos por internet</mark>. Permite controlar dispositivos a distancia."
+      "respuesta": "Es la conexión a internet de objetos cotidianos, para que puedan enviar y recibir datos. <mark>Es como si una impresora o un termostato pudieran 'hablar' entre ellos por internet</mark>. Permite controlar dispositivos a distancia.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/dispositivo-conectado.jpg",
+        "alt": "Un dispositivo inteligente conectado a internet",
+        "titulo": "Withings",
+        "autor": "code of the new",
+        "fuente": "https://www.flickr.com/photos/75654647@N05/15174524016",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Big Data?",
-      "respuesta": "Es la gestión y el análisis de cantidades muy grandes de datos para tomar mejores decisiones. <mark>Es como escuchar miles de conversaciones a la vez para descubrir un patrón que a simple vista no se ve</mark>."
+      "respuesta": "Es la gestión y el análisis de cantidades muy grandes de datos para tomar mejores decisiones. <mark>Es como escuchar miles de conversaciones a la vez para descubrir un patrón que a simple vista no se ve</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/grafico-datos.jpg",
+        "alt": "Un grafico con grandes cantidades de datos representados visualmente",
+        "titulo": "WordPress Graphical Post Count Visualization",
+        "autor": "Joe Crawford (artlung)",
+        "fuente": "https://www.flickr.com/photos/37996599088@N01/4356884087",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la robótica colaborativa?",
-      "respuesta": "Son robots diseñados para trabajar junto a personas, sin sustituirlas del todo. <mark>Es como tener un compañero mecánico que ayuda en tareas repetitivas o pesadas</mark>. Se usa cada vez más también fuera de las fábricas."
+      "respuesta": "Son robots diseñados para trabajar junto a personas, sin sustituirlas del todo. <mark>Es como tener un compañero mecánico que ayuda en tareas repetitivas o pesadas</mark>. Se usa cada vez más también fuera de las fábricas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/brazo-robotico.jpg",
+        "alt": "Un brazo robótico en un laboratorio",
+        "titulo": "Robotic arm machine in the lab",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/4042554/photo-image-technology-table-wall",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el blockchain, explicado de forma sencilla?",
-      "respuesta": "Es un sistema que guarda información de forma que resulta muy difícil de falsificar o borrar. <mark>Es como un cuaderno compartido por muchas personas, donde nadie puede cambiar lo ya escrito a escondidas</mark>."
+      "respuesta": "Es un sistema que guarda información de forma que resulta muy difícil de falsificar o borrar. <mark>Es como un cuaderno compartido por muchas personas, donde nadie puede cambiar lo ya escrito a escondidas</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/cadena-eslabones.jpg",
+        "alt": "Primer plano de eslabones de una cadena metalica",
+        "titulo": "Close-up of large rusty chain links",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4439643419",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son la fabricación aditiva y la realidad virtual, aplicadas a la empresa?",
-      "respuesta": "La fabricación aditiva crea piezas capa a capa, como con una impresora 3D. <mark>La realidad virtual, en cambio, simula entornos digitales, útiles por ejemplo para formación</mark>. Ambas son tecnologías cada vez más presentes en distintos sectores."
+      "respuesta": "La fabricación aditiva crea piezas capa a capa, como con una impresora 3D. <mark>La realidad virtual, en cambio, simula entornos digitales, útiles por ejemplo para formación</mark>. Ambas son tecnologías cada vez más presentes en distintos sectores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/impresora-3d.jpg",
+        "alt": "Una pieza fabricada con una impresora 3D",
+        "titulo": "Universal stand-alone filament spool holder (Fully 3D-printable)",
+        "autor": "Creative Tools",
+        "fuente": "https://www.flickr.com/photos/33907867@N02/15573261729",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un plan de transformación digital de una empresa?",
-      "respuesta": "Es un documento que organiza, paso a paso, cómo incorporar tecnología a la empresa. <mark>Es como una hoja de ruta para no digitalizarse de forma improvisada</mark>. Marca prioridades, plazos y recursos necesarios."
+      "respuesta": "Es un documento que organiza, paso a paso, cómo incorporar tecnología a la empresa. <mark>Es como una hoja de ruta para no digitalizarse de forma improvisada</mark>. Marca prioridades, plazos y recursos necesarios.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/gafas-realidad-virtual.jpg",
+        "alt": "Unas gafas de realidad virtual",
+        "titulo": "Virtual Reality Headset",
+        "autor": "Ryan Somma",
+        "fuente": "https://www.flickr.com/photos/14405058@N08/3732730806",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué conviene conocer estas tecnologías aunque no se trabaje directamente con ellas?",
-      "respuesta": "Porque cada vez más empresas las incorporan a sus procesos administrativos habituales. <mark>Es como saber lo básico de un idioma que cada vez se habla más a tu alrededor</mark>. Entenderlas facilita adaptarse a nuevas formas de trabajar."
+      "respuesta": "Porque cada vez más empresas las incorporan a sus procesos administrativos habituales. <mark>Es como saber lo básico de un idioma que cada vez se habla más a tu alrededor</mark>. Entenderlas facilita adaptarse a nuevas formas de trabajar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+        "alt": "Linea de montaje automatizada en una fabrica moderna",
+        "titulo": "Tesla Motors Assembly Line",
+        "autor": "jurvetson",
+        "fuente": "https://www.flickr.com/photos/44124348109@N01/6858583426",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

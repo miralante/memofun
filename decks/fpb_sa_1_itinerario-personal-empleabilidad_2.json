@@ -5,63 +5,183 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un contrato de trabajo?",
-      "respuesta": "Es el acuerdo por escrito entre una empresa y un trabajador sobre las condiciones del empleo. <mark>Es como un acuerdo que fija las reglas del juego entre ambas partes</mark>. Incluye el salario, el horario y la duración."
+      "respuesta": "Es el acuerdo por escrito entre una empresa y un trabajador sobre las condiciones del empleo. <mark>Es como un acuerdo que fija las reglas del juego entre ambas partes</mark>. Incluye el salario, el horario y la duración.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/firma-contrato.jpg",
+        "alt": "Dos personas firmando un contrato",
+        "titulo": "Firma Contrato comodato Taller Patria Nueva",
+        "autor": "talcahuanofotos",
+        "fuente": "https://www.flickr.com/photos/32766975@N04/4109456441",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tipos de contrato de trabajo existen?",
-      "respuesta": "Contratos indefinidos, temporales o a tiempo parcial, entre otros. <mark>Cada tipo se adapta a una necesidad distinta de la empresa o del trabajador</mark>. Conocerlos ayuda a entender bien lo que se está firmando."
+      "respuesta": "Contratos indefinidos, temporales o a tiempo parcial, entre otros. <mark>Cada tipo se adapta a una necesidad distinta de la empresa o del trabajador</mark>. Conocerlos ayuda a entender bien lo que se está firmando.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/contrato-firma-legal.jpg",
+        "alt": "Un contrato de trabajo con firma, sobre una mesa",
+        "titulo": "Legal Contract & Signature - Warm Tones",
+        "autor": "Blogtrepreneur",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=55666535",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los derechos básicos de quien trabaja?",
-      "respuesta": "Son garantías mínimas que protegen a cualquier persona trabajadora. <mark>Es como una red de seguridad que nadie puede quitarte, estés donde estés</mark>. Incluyen el descanso y un salario justo."
+      "respuesta": "Son garantías mínimas que protegen a cualquier persona trabajadora. <mark>Es como una red de seguridad que nadie puede quitarte, estés donde estés</mark>. Incluyen el descanso y un salario justo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/apreton-manos-trabajo.jpg",
+        "alt": "Dos personas dándose la mano, un acuerdo justo en el trabajo",
+        "titulo": "Two Person Shaking Each Others Hands",
+        "autor": "Homedust",
+        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los deberes básicos de quien trabaja?",
-      "respuesta": "Son las obligaciones que debe cumplir toda persona trabajadora en su empleo. <mark>Es la otra cara de los derechos: lo que se espera de ti a cambio</mark>. Incluyen cumplir el horario y respetar las normas."
+      "respuesta": "Son las obligaciones que debe cumplir toda persona trabajadora en su empleo. <mark>Es la otra cara de los derechos: lo que se espera de ti a cambio</mark>. Incluyen cumplir el horario y respetar las normas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/oficina-escritorio-trabajo.jpg",
+        "alt": "Un escritorio de oficina donde alguien realiza sus tareas",
+        "titulo": "m'office",
+        "autor": "Afroswede",
+        "fuente": "https://www.flickr.com/photos/51035768826@N01/368362",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la nómina?",
-      "respuesta": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo cada mes</mark>."
+      "respuesta": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo cada mes</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/billetes-euros.jpg",
+        "alt": "Billetes de euro, el salario que refleja una nómina",
+        "titulo": "Billetes",
+        "autor": "Eric Caballero",
+        "fuente": "https://www.flickr.com/photos/62677469@N00/3467533195",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué información básica incluye una nómina?",
-      "respuesta": "El nombre de la empresa y del trabajador, el salario y los descuentos aplicados. <mark>Es como una ficha que resume exactamente cuánto cobras y por qué</mark>. Revisarla ayuda a comprobar que todo está bien calculado."
+      "respuesta": "El nombre de la empresa y del trabajador, el salario y los descuentos aplicados. <mark>Es como una ficha que resume exactamente cuánto cobras y por qué</mark>. Revisarla ayuda a comprobar que todo está bien calculado.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/nomina-antigua-1960.jpg",
+        "alt": "Una hoja de nómina con el salario y los descuentos",
+        "titulo": "May 1960 Pay Slip",
+        "autor": "D H Wright",
+        "fuente": "https://www.flickr.com/photos/59521130@N00/6622355997",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve estar afiliado a la Seguridad Social?",
-      "respuesta": "Da acceso a prestaciones como la sanidad pública, el paro o la jubilación futura. <mark>Es como estar inscrito en un sistema que te cubre ante enfermedad o pérdida de empleo</mark>."
+      "respuesta": "Da acceso a prestaciones como la sanidad pública, el paro o la jubilación futura. <mark>Es como estar inscrito en un sistema que te cubre ante enfermedad o pérdida de empleo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/tarjeta-seguro-salud.jpg",
+        "alt": "Una tarjeta de la Seguridad Social o del seguro de salud",
+        "titulo": "Apply for your Health Insurance Card",
+        "autor": "Bernie Goldbach",
+        "fuente": "https://www.flickr.com/photos/19994833@N00/221654710",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la prevención de riesgos laborales?",
-      "respuesta": "Porque ayuda a evitar accidentes y problemas de salud en el trabajo. <mark>Es como anticiparse a un peligro antes de que llegue a causar un daño real</mark>. Es obligatoria en cualquier empresa."
+      "respuesta": "Porque ayuda a evitar accidentes y problemas de salud en el trabajo. <mark>Es como anticiparse a un peligro antes de que llegue a causar un daño real</mark>. Es obligatoria en cualquier empresa.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/cartel-peligro-trabajo.jpg",
+        "alt": "Un cartel de advertencia por un lugar de trabajo peligroso",
+        "titulo": "Dangerous workplace",
+        "autor": "Sarah M Stewart",
+        "fuente": "https://www.flickr.com/photos/92632631@N00/2428791757",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué riesgos son comunes en un puesto administrativo?",
-      "respuesta": "Malas posturas, fatiga visual por las pantallas o estrés por el volumen de trabajo. <mark>Son riesgos menos evidentes que los de una obra, pero igual de reales</mark>."
+      "respuesta": "Malas posturas, fatiga visual por las pantallas o estrés por el volumen de trabajo. <mark>Son riesgos menos evidentes que los de una obra, pero igual de reales</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/dolor-espalda-oficina.jpg",
+        "alt": "Un joven de oficina con dolor de espalda por mala postura",
+        "titulo": "Young office man suffering from backache",
+        "autor": "Güel - Centro de Wellness Murcia",
+        "fuente": "https://www.flickr.com/photos/147909363@N06/33379319145",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede prevenir el estrés en un puesto administrativo?",
-      "respuesta": "Organizando bien las tareas y haciendo pausas durante la jornada. <mark>Es como repartir el peso de una mochila, en vez de cargarlo todo de golpe</mark>. Hablar con el equipo si el trabajo se acumula también ayuda."
+      "respuesta": "Organizando bien las tareas y haciendo pausas durante la jornada. <mark>Es como repartir el peso de una mochila, en vez de cargarlo todo de golpe</mark>. Hablar con el equipo si el trabajo se acumula también ayuda.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/pausa-cafe-trabajo.jpg",
+        "alt": "Una persona disfrutando de una pausa con café en el trabajo",
+        "titulo": "A young woman enjoying her coffee break",
+        "autor": "Ivan Radic",
+        "fuente": "https://www.flickr.com/photos/26344495@N05/49488910857",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa tomar decisiones sobre el propio itinerario formativo?",
-      "respuesta": "Significa elegir qué formación seguir o qué camino profesional tomar después. <mark>Es como decidir hacia dónde caminar, en vez de dejarlo al azar</mark>. Puede incluir seguir estudiando o buscar empleo directamente."
+      "respuesta": "Significa elegir qué formación seguir o qué camino profesional tomar después. <mark>Es como decidir hacia dónde caminar, en vez de dejarlo al azar</mark>. Puede incluir seguir estudiando o buscar empleo directamente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/senales-cruce-caminos.jpg",
+        "alt": "Señales de viaje en un cruce de caminos, como elegir un itinerario",
+        "titulo": "Travel Signs",
+        "autor": "Travel Adventures",
+        "fuente": "https://stocksnap.io/photo/travel-signs-7LL45C2GOI",
+        "licencia": "Dominio público (CC0 1.0)"
+      }
     },
     {
       "pregunta": "¿Por qué es importante conocer tus derechos laborales antes de firmar un contrato?",
-      "respuesta": "Porque te permite saber si las condiciones ofrecidas son correctas y legales. <mark>Es como leer bien un acuerdo antes de aceptarlo</mark>. Firmar sin entender bien las condiciones puede traer problemas después."
+      "respuesta": "Porque te permite saber si las condiciones ofrecidas son correctas y legales. <mark>Es como leer bien un acuerdo antes de aceptarlo</mark>. Firmar sin entender bien las condiciones puede traer problemas después.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/leyendo-documento-gafas.jpg",
+        "alt": "Unas gafas sobre un documento, listo para leerlo con atención",
+        "titulo": "Pen, Diary and Glasses",
+        "autor": "Generationbass.com",
+        "fuente": "https://www.flickr.com/photos/46959536@N04/4827013488",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la nómina y la Seguridad Social?",
-      "respuesta": "Parte del salario bruto se destina directamente a las cotizaciones obligatorias. <mark>Es como una parte del sueldo que va directamente a un fondo compartido</mark>. Por eso el salario neto es siempre menor que el bruto."
+      "respuesta": "Parte del salario bruto se destina directamente a las cotizaciones obligatorias. <mark>Es como una parte del sueldo que va directamente a un fondo compartido</mark>. Por eso el salario neto es siempre menor que el bruto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/documentos-carpeta-oficina.jpg",
+        "alt": "Documentos y carpetas de papeleo de oficina",
+        "titulo": "Batch books document education",
+        "autor": "homegets.com",
+        "fuente": "https://www.flickr.com/photos/141436406@N04/49661375853",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante seguir formándose después de terminar un ciclo formativo?",
-      "respuesta": "Porque el mundo laboral cambia y aprender cosas nuevas mejora las oportunidades. <mark>Es como seguir entrenando después de aprender lo básico de un deporte</mark>. Formarse no termina al acabar los estudios obligatorios."
+      "respuesta": "Porque el mundo laboral cambia y aprender cosas nuevas mejora las oportunidades. <mark>Es como seguir entrenando después de aprender lo básico de un deporte</mark>. Formarse no termina al acabar los estudios obligatorios.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/curso-online-formacion.jpg",
+        "alt": "Una persona siguiendo un curso de formación online",
+        "titulo": "Salford Business School launches unique open access online course",
+        "autor": "University of Salford",
+        "fuente": "https://www.flickr.com/photos/32104790@N02/9718507502",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es tan importante planificar bien el propio itinerario profesional?",
-      "respuesta": "Porque ayuda a tomar decisiones con más seguridad sobre el futuro. <mark>Es como tener un mapa antes de emprender un viaje largo</mark>. Sin un plan, es más fácil dejarse llevar sin rumbo claro."
+      "respuesta": "Porque ayuda a tomar decisiones con más seguridad sobre el futuro. <mark>Es como tener un mapa antes de emprender un viaje largo</mark>. Sin un plan, es más fácil dejarse llevar sin rumbo claro.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/sendero-bosque-camino.jpg",
+        "alt": "Un sendero que avanza entre árboles, como un itinerario a seguir",
+        "titulo": "Killarney Forest Trail",
+        "autor": "Bold Frontiers",
+        "fuente": "https://www.flickr.com/photos/82955120@N05/10430459544",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

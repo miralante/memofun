@@ -122,6 +122,11 @@ No visible timers. The person sets the pace.
 ### 2.4 Always Easy Read
 
 - Short sentences, one idea per sentence, everyday vocabulary.
+  - Concrete metric: **2–5 sentences per answer**, **≤ 12 words per
+    sentence**. The `<= 12` figure comes from the UNE 153101:2018 EX
+    easy-read standard and applies to every card — see `CLAUDE.md`
+    §"Generating deck content" for the per-level detail
+    (`principiante` / `intermedio` / `avanzado`).
 - No clinical language in the UI or on the cards ("patient",
   "disability", etc. — see the matching rule in "Generating deck
   content" in `CLAUDE.md`).
@@ -166,7 +171,10 @@ like a manual:
 ### 2.7 Universal accessibility
 
 - Buttons ≥ 64×64 px, gap ≥ 16 px.
-- WCAG AA minimum contrast, light theme by default.
+- High contrast (WCAG AA minimum, AAA whenever possible), light
+  theme by default — see `technical.md` §X for the AAA criteria this
+  project honours and why full AAA conformance is not feasible for a
+  web app.
 - Large type (20 px base), Atkinson Hyperlegible / Nunito.
 - Audio (🔊, Web Speech API) only on demand, never automatic.
 - Full keyboard navigation, `prefers-reduced-motion` respected.
@@ -189,9 +197,97 @@ Python, or a SQLite/ZIP-reading library in the browser. Fewer moving
 parts, smaller attack surface, easier for anyone who knows HTML/CSS/JS
 to maintain.
 
+### 2.10 Public-facing wording: "usuario/a tipo" euphemism
+
+When presenting Memofun to **the general public** (press, talks,
+public READMEs that anyone can read, the metaproject landing at
+`apptonomia.uk`, social media copy, marketing material), the term
+**"intellectual disability" / "discapacidad intelectual"** must not be
+used as a way to describe the audience of the app — even when the
+surrounding text would otherwise be public. The accepted euphemism for
+that audience in those surfaces is **"usuario/a tipo"** (plural
+"usuarios/as tipo"), used as a generic profile marker, not as a label
+for any real person.
+
+Where the euphemism applies and where it doesn't:
+
+- **Applies** to any text that anyone outside the project can read
+  without authentication: `README.md`, `README.es.md`, the portal at
+  `apptonomia.uk`, public talks, social media copy, press notes,
+  marketing material. In these surfaces, refer to the audience as
+  "el/la usuario/a tipo" or "usuarios/as tipo" of the app.
+- **Does NOT apply** to this repo's internal documentation
+  (`CLAUDE.md`, `doc/en/SPEC.md`, `doc/es/SPEC.md`, `technical.md`,
+  `roles.md`, `CONTRIBUTING.md`, `CONTRIBUTING.es.md`) — those files
+  are read by maintainers and contributors, and "intellectual
+  disability" / "discapacidad intelectual" remains the canonical term
+  there, because the project needs an explicit, unambiguous
+  explanation of its real objective for whoever maintains it.
+- **Does NOT apply** to deck content that names a clinical concept by
+  its real-world name (e.g. a card that explains a bureaucratic
+  procedure related to disability): that is content, not labelling of
+  an audience.
+- **Does NOT apply** to the UI of the app itself: §2.4 above
+  continues to forbid **any** mention, including "usuario/a tipo", in
+  `index.html`, `app.js`, `tools/study/`, `settings/`,
+  `strings.<locale>.js`, and any other user-facing surface. The
+  euphemism is for the outside world, not for what the visitor reads
+  on the site.
+
+Rationale: presenting the project's real objective in maintainer docs
+is useful and necessary; presenting it in marketing or landing
+surfaces is neither necessary nor respectful of the audience —
+"usuario/a tipo" lets public material describe what the app is for
+(who the typical profile is) without publicly naming a clinical group.
+
 ---
 
-## 3. Flow separation
+## 3. Persuasive communication in service of learning
+
+Memofun is a review tool, not a consumer product. The motivation to
+study a deck must be **intrinsic** — the pleasure of understanding a
+concept, the confidence of being able to explain it — never
+**extrinsic** or based on pressure. The market patterns that rely on
+scarcity, comparison, or fear of losing must never appear anywhere
+in the site. This rule is suite-wide and shared with Apptonomia,
+Calculia, Okeymoney, Sinonimia, Teclatlon and Routime; the concrete
+list is identical across the seven projects so that no pattern
+rejected here can sneak in through another one.
+
+### 3.7 The closed list of forbidden patterns
+
+The following patterns are part of the "pressure" Memofun disowns
+and **must not** appear anywhere in the site or in any card's
+content:
+
+- **Scarcity**: "Only 1 left!", "Last chance", "Hurry", countdown
+  timers, decks or cards that disappear.
+- **False urgency**: timers, races, "finish quickly", punishing
+  slowness. Connects directly to §2.3 "No time pressure" above.
+- **Social proof turned into pressure**: leaderboards, ranks,
+  "others have already studied this" as social pressure,
+  comparisons between end users, global counters like "1,234 people
+  have seen this card".
+- **Sunk-cost / FOMO**: "you'll lose your progress if you stop",
+  "don't lose your streak", forced retention messages, "we miss
+  you" notifications. Connects to §2.2 "Reviewing never punishes".
+- **Manipulative reciprocity / dark patterns**: forced signups,
+  pre-checked boxes, hidden costs, fake alerts, deceptive
+  confirmations (a "no" button that actually logs the user out or
+  wipes their progress).
+- **Exploitative loss aversion**: "you had 5 ⭐, you lost 2". Stars
+  and progress **only grow**, never shrink as punishment (see §2.2).
+
+The default tone in Memofun is the **calm and predictable** one
+described in §2.3 — the person studies because reviewing is
+engaging, not because we are pushing them. When a pattern from this
+list shows up in a product or UI proposal, it is rejected by
+default; any exception is discussed in a PR with an explicit
+rationale.
+
+---
+
+## 4. Flow separation
 
 | Area | For whom | What it allows |
 |---|---|---|
@@ -202,7 +298,7 @@ to maintain.
 
 ---
 
-## 4. Success criteria
+## 5. Success criteria
 
 A change to Memofun succeeds when:
 
@@ -217,7 +313,7 @@ A change to Memofun succeeds when:
 
 ---
 
-## 5. What Memofun does NOT do
+## 6. What Memofun does NOT do
 
 | NO | Why |
 |----|---|
@@ -229,3 +325,6 @@ A change to Memofun succeeds when:
 | No push notifications | No pressure, no external dependency |
 | No ads, no in-app purchases | Free by design |
 | Never subtracts stars or progress as punishment | The product only adds (§2.2) |
+| No scarcity, false urgency or FOMO messaging ("only 1 left", "hurry", "don't lose your streak") | Pressure; clashes with §2.3 and the closed list in §3.7 |
+| No social-proof pressure (leaderboards, ranks, "others already studied it") | Pressure and discouragement; clashes with §2.2 and §3.7 |
+| No dark patterns (forced signups, pre-checked boxes, hidden costs, fake alerts) | Trust and accessibility; clashes with the closed list in §3.7 |

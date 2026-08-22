@@ -1,0 +1,63 @@
+{
+  "tema": "Tecnología y repaso general antes de la ESO - 6º de Primaria",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "¿Qué es un algoritmo?",
+      "respuesta": "Es una serie de pasos ordenados para conseguir algo. <mark>Es como una receta de cocina, con pasos en el orden correcto</mark>. Cada paso lleva al siguiente, sin saltarse ninguno. Los ordenadores siguen algoritmos para hacer sus tareas."
+    },
+    {
+      "pregunta": "¿Qué es un ejemplo de algoritmo de la vida diaria?",
+      "respuesta": "Lavarse los dientes es un algoritmo con pasos concretos. <mark>Coger el cepillo, poner pasta, cepillar y enjuagar, en ese orden</mark>. Si se cambia el orden, el resultado no es el mismo. Muchas tareas diarias son en realidad pequeños algoritmos."
+    },
+    {
+      "pregunta": "¿Qué es programar un ordenador?",
+      "respuesta": "Es escribir instrucciones claras para que el ordenador las siga. <mark>Es como escribir una lista de órdenes para un robot obediente</mark>. El ordenador hace exactamente lo que se le indica. Por eso las instrucciones deben ser precisas y ordenadas."
+    },
+    {
+      "pregunta": "¿Qué es un bucle en un algoritmo?",
+      "respuesta": "Es una parte que se repite varias veces seguidas. <mark>Es como saltar a la comba diez veces, sin parar entre salto y salto</mark>. Sirve para no repetir la misma instrucción muchas veces por separado. Se usa mucho en juegos y aplicaciones."
+    },
+    {
+      "pregunta": "¿Qué es una condición en un algoritmo?",
+      "respuesta": "Es una regla que dice: si pasa esto, entonces haz aquello. <mark>Es como decidir: si llueve, cojo el paraguas</mark>. El programa elige un camino distinto según lo que ocurra. Así el algoritmo puede reaccionar a distintas situaciones."
+    },
+    {
+      "pregunta": "¿Por qué importa el orden de los pasos en un algoritmo?",
+      "respuesta": "Porque un orden distinto puede dar un resultado distinto o un error. <mark>Es como ponerse los calcetines después de los zapatos: no funciona</mark>. Cada paso depende de que el anterior se haya hecho bien. Por eso programar exige mucha atención al orden."
+    },
+    {
+      "pregunta": "¿Qué es un error o bug en un algoritmo?",
+      "respuesta": "Es un fallo que hace que el programa no funcione bien. <mark>Es como una receta con un ingrediente olvidado, que no sale bien</mark>. Encontrar y corregir errores es una parte normal de programar. Incluso los programas más usados han tenido errores así."
+    },
+    {
+      "pregunta": "Antes de pasar a la ESO, ¿qué es el método científico?",
+      "respuesta": "Es la forma ordenada de buscar respuestas fiables. <mark>Observar, preguntar, comprobar y concluir, como resolver un misterio real</mark>. Se usa para investigar casi cualquier pregunta sobre el mundo. Aprender a usarlo bien es una herramienta para toda la vida."
+    },
+    {
+      "pregunta": "Antes de pasar a la ESO, ¿por qué cuidar la biodiversidad y los ecosistemas?",
+      "respuesta": "Porque cada especie cumple una función dentro de su ecosistema. <mark>Es como un equipo de fútbol: si falta un jugador, el equipo cojea</mark>. Perder especies rompe ese equilibrio natural. Cuidar la biodiversidad mantiene sano todo el planeta."
+    },
+    {
+      "pregunta": "Antes de pasar a la ESO, ¿qué necesita el cuerpo para nutrirse bien?",
+      "respuesta": "Necesita comer alimentos variados con distintos nutrientes. <mark>Es como construir con piezas distintas: energía, ladrillos y tornillos pequeños</mark>. También necesita beber agua y que sus aparatos trabajen juntos. Una buena nutrición ayuda a crecer fuerte y sano."
+    },
+    {
+      "pregunta": "Antes de pasar a la ESO, ¿qué es la energía y cómo se ahorra?",
+      "respuesta": "La energía es lo que hace que las cosas se muevan o cambien. <mark>Ahorrarla es como no dejar un grifo abierto sin necesidad</mark>. Apagar luces y usar aparatos eficientes ayuda mucho. Elegir energías renovables también cuida el planeta."
+    },
+    {
+      "pregunta": "Antes de pasar a la ESO, ¿qué es el universo?",
+      "respuesta": "Es todo lo que existe: galaxias, estrellas y planetas. <mark>Es tan grande que se mide en años luz, no en kilómetros</mark>. Nuestra galaxia, la Vía Láctea, es solo una entre miles de millones. Y la Tierra es un punto diminuto dentro de ella."
+    },
+    {
+      "pregunta": "Antes de pasar a la ESO, ¿qué es una reacción química?",
+      "respuesta": "Es un cambio en el que unas sustancias se convierten en otras distintas. <mark>Es como transformar ingredientes en un plato nuevo, para siempre</mark>. La oxidación y la combustión son ejemplos de la vida diaria. Reconocerlas ayuda a entender cambios que vemos cada día."
+    },
+    {
+      "pregunta": "¿Qué se lleva un alumno o alumna de 6º a la ESO?",
+      "respuesta": "Se lleva curiosidad, ganas de preguntar y de comprobar las cosas. <mark>Es como llevar una mochila llena de herramientas útiles</mark>. También se lleva el hábito de cuidar el planeta y su cuerpo. La ESO trae temas nuevos, pero con las mismas bases de siempre."
+    }
+  ]
+}

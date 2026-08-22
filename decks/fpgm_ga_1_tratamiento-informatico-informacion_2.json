@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una base de datos?",
-      "respuesta": "Es un conjunto organizado de información almacenada en un ordenador. <mark>Es como un archivador digital, pero mucho más rápido de consultar</mark>. Permite guardar, buscar y actualizar grandes cantidades de datos."
+      "respuesta": "Es un conjunto organizado de información almacenada en un ordenador. <mark>Es como un archivador digital, pero mucho más rápido de consultar</mark>. Permite guardar, buscar y actualizar grandes cantidades de datos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+        "alt": "Servidores informaticos donde se almacenan datos",
+        "titulo": "Datacenter Work",
+        "autor": "Leonardo Rizzi",
+        "fuente": "https://www.flickr.com/photos/29479498@N05/4381851322",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una tabla dentro de una base de datos?",
-      "respuesta": "Es donde se organizan los datos en filas y columnas, según un tema concreto. <mark>Es como una hoja de cálculo, pero pensada para guardar información relacionada de forma más ordenada</mark>. Cada fila es un registro; cada columna, un dato."
+      "respuesta": "Es donde se organizan los datos en filas y columnas, según un tema concreto. <mark>Es como una hoja de cálculo, pero pensada para guardar información relacionada de forma más ordenada</mark>. Cada fila es un registro; cada columna, un dato.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+        "alt": "Servidores informaticos donde se almacenan datos",
+        "titulo": "Datacenter Work",
+        "autor": "Leonardo Rizzi",
+        "fuente": "https://www.flickr.com/photos/29479498@N05/4381851322",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una consulta en una base de datos?",
-      "respuesta": "Es una pregunta que se hace a la base de datos para obtener información concreta. <mark>Es como preguntarle a un archivador gigante 'enséñame solo esto', en vez de mirarlo todo</mark>. Permite filtrar, ordenar o combinar datos."
+      "respuesta": "Es una pregunta que se hace a la base de datos para obtener información concreta. <mark>Es como preguntarle a un archivador gigante 'enséñame solo esto', en vez de mirarlo todo</mark>. Permite filtrar, ordenar o combinar datos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/buscar-lupa.jpg",
+        "alt": "Una lupa sobre un texto, representando una busqueda",
+        "titulo": "Search.",
+        "autor": "Jeffrey Beall",
+        "fuente": "https://www.flickr.com/photos/31437555@N00/5133538450",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un informe en una base de datos?",
-      "respuesta": "Es un documento que presenta de forma clara y ordenada los datos de una consulta. <mark>Es como convertir datos sueltos en un documento fácil de leer y presentar</mark>. Se usa mucho para mostrar resultados, como listados de ventas."
+      "respuesta": "Es un documento que presenta de forma clara y ordenada los datos de una consulta. <mark>Es como convertir datos sueltos en un documento fácil de leer y presentar</mark>. Se usa mucho para mostrar resultados, como listados de ventas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/informe-papel.jpg",
+        "alt": "Un informe impreso en papel",
+        "titulo": "1980 Report Card",
+        "autor": "JD Hancock",
+        "fuente": "https://www.flickr.com/photos/83346641@N00/5119801008",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué conviene tener en cuenta al buscar información en internet?",
-      "respuesta": "Comprobar que la fuente sea fiable y contrastarla con otras si es posible. <mark>Es como comprobar quién te está dando un dato antes de creerlo del todo</mark>. No toda la información disponible en internet es correcta o está actualizada."
+      "respuesta": "Comprobar que la fuente sea fiable y contrastarla con otras si es posible. <mark>Es como comprobar quién te está dando un dato antes de creerlo del todo</mark>. No toda la información disponible en internet es correcta o está actualizada.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/buscar-lupa.jpg",
+        "alt": "Una lupa sobre un texto, representando una busqueda",
+        "titulo": "Search.",
+        "autor": "Jeffrey Beall",
+        "fuente": "https://www.flickr.com/photos/31437555@N00/5133538450",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la seguridad informática?",
-      "respuesta": "Es el conjunto de medidas para proteger los datos y los equipos frente a amenazas. <mark>Es como cerrar con llave la información importante de una oficina, pero en el mundo digital</mark>. Incluye contraseñas seguras y antivirus."
+      "respuesta": "Es el conjunto de medidas para proteger los datos y los equipos frente a amenazas. <mark>Es como cerrar con llave la información importante de una oficina, pero en el mundo digital</mark>. Incluye contraseñas seguras y antivirus.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/candado-seguridad.jpg",
+        "alt": "Un candado que representa la seguridad y la proteccion",
+        "titulo": "Security",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/2294144289",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una copia de seguridad?",
-      "respuesta": "Es una copia de los datos importantes, guardada aparte por si algo falla. <mark>Es como tener una fotocopia guardada de un documento importante, por si el original se pierde</mark>. Permite recuperar la información si el equipo falla."
+      "respuesta": "Es una copia de los datos importantes, guardada aparte por si algo falla. <mark>Es como tener una fotocopia guardada de un documento importante, por si el original se pierde</mark>. Permite recuperar la información si el equipo falla.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/disco-duro.jpg",
+        "alt": "Un disco duro donde se guardan copias de seguridad",
+        "titulo": "Hard Drive",
+        "autor": "wwarby",
+        "fuente": "https://www.flickr.com/photos/26782864@N00/11644168395",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la protección de datos personales?",
-      "respuesta": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a sus datos personales</mark>. Las empresas deben guardar esos datos con cuidado y no usarlos sin permiso."
+      "respuesta": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a sus datos personales</mark>. Las empresas deben guardar esos datos con cuidado y no usarlos sin permiso.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/candado-seguridad.jpg",
+        "alt": "Un candado que representa la seguridad y la proteccion",
+        "titulo": "Security",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/2294144289",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante usar contraseñas seguras en el trabajo?",
-      "respuesta": "Porque protegen la información de accesos no autorizados. <mark>Es como poner una buena cerradura a una puerta con información valiosa dentro</mark>. Una contraseña débil es fácil de adivinar o descubrir."
+      "respuesta": "Porque protegen la información de accesos no autorizados. <mark>Es como poner una buena cerradura a una puerta con información valiosa dentro</mark>. Una contraseña débil es fácil de adivinar o descubrir.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/contrasena-segura.jpg",
+        "alt": "Una llave sobre un fondo digital, como símbolo de una contraseña segura",
+        "titulo": "IT Security Schlüssel Key vor Crypto-Hintergrund - Silber Passwort",
+        "autor": "Christoph Scholz",
+        "fuente": "https://www.flickr.com/photos/140988606@N08/41042793204",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre las bases de datos y la gestión administrativa de una empresa?",
-      "respuesta": "Permiten guardar y consultar rápidamente información de clientes, empleados o productos. <mark>Es como tener toda la memoria de la empresa organizada y accesible al instante</mark>. Son una herramienta clave en cualquier oficina moderna."
+      "respuesta": "Permiten guardar y consultar rápidamente información de clientes, empleados o productos. <mark>Es como tener toda la memoria de la empresa organizada y accesible al instante</mark>. Son una herramienta clave en cualquier oficina moderna.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+        "alt": "Servidores informaticos donde se almacenan datos",
+        "titulo": "Datacenter Work",
+        "autor": "Leonardo Rizzi",
+        "fuente": "https://www.flickr.com/photos/29479498@N05/4381851322",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

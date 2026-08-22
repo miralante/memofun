@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el margen comercial?",
-      "respuesta": "Es la diferencia entre el precio al que se compra un producto y el precio al que se vende. <mark>Es como la ganancia que queda después de restar lo que te costó a ti</mark>. Un buen margen permite cubrir gastos y obtener beneficio."
+      "respuesta": "Es la diferencia entre el precio al que se compra un producto y el precio al que se vende. <mark>Es como la ganancia que queda después de restar lo que te costó a ti</mark>. Un buen margen permite cubrir gastos y obtener beneficio.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/rebajas-cartel.jpg",
+        "alt": "Un cartel anunciando rebajas de precios.",
+        "titulo": "Does sale mean lower prices or does it mean get outta here",
+        "autor": "sylvar",
+        "fuente": "https://www.flickr.com/photos/44124401501@N01/3186783884",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un descuento comercial?",
-      "respuesta": "Es una rebaja que se aplica sobre el precio original de un producto o servicio. <mark>Es como quitarle una parte al precio, normalmente para incentivar la compra</mark>. Puede depender de la cantidad comprada o de la forma de pago."
+      "respuesta": "Es una rebaja que se aplica sobre el precio original de un producto o servicio. <mark>Es como quitarle una parte al precio, normalmente para incentivar la compra</mark>. Puede depender de la cantidad comprada o de la forma de pago.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/etiqueta-descuento.jpg",
+        "alt": "Una etiqueta roja anunciando un nuevo precio con descuento.",
+        "titulo": "New Price Red Tag",
+        "autor": "MarkMoz12",
+        "fuente": "https://www.flickr.com/photos/106574022@N04/10797544665",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un recargo comercial?",
-      "respuesta": "Es una cantidad que se añade al precio original, al contrario que un descuento. <mark>Es como sumar un extra al precio, por ejemplo por pagar más tarde de lo acordado</mark>. Suele aplicarse en compras a plazos o entregas urgentes."
+      "respuesta": "Es una cantidad que se añade al precio original, al contrario que un descuento. <mark>Es como sumar un extra al precio, por ejemplo por pagar más tarde de lo acordado</mark>. Suele aplicarse en compras a plazos o entregas urgentes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/factura-venta.jpg",
+        "alt": "Una factura de venta con sus importes.",
+        "titulo": "Bill of sale sedan 1927",
+        "autor": "dlofink",
+        "fuente": "https://www.flickr.com/photos/7259030@N07/5299293398",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué gastos hay que tener en cuenta para calcular el precio final de un producto?",
-      "respuesta": "El coste de compra, el transporte, los impuestos y el margen que quiere ganar la empresa. <mark>Es como sumar todos los ingredientes de una receta antes de saber el coste final del plato</mark>. Olvidar un gasto puede hacer que se venda con pérdidas."
+      "respuesta": "El coste de compra, el transporte, los impuestos y el margen que quiere ganar la empresa. <mark>Es como sumar todos los ingredientes de una receta antes de saber el coste final del plato</mark>. Olvidar un gasto puede hacer que se venda con pérdidas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/caja-supermercado.jpg",
+        "alt": "La caja de un supermercado, donde se paga el precio final.",
+        "titulo": "Walmart Grocery Checkout Line in Gladstone, Missouri",
+        "autor": "Walmart Corporate",
+        "fuente": "https://www.flickr.com/photos/50128414@N05/5684720360",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los libros registro obligatorios en una empresa?",
-      "respuesta": "Son los libros donde se anotan de forma ordenada las facturas emitidas y recibidas. <mark>Es como llevar un cuaderno oficial de cada factura, para que Hacienda pueda comprobarlo</mark>. Su llevanza correcta es obligatoria por ley."
+      "respuesta": "Son los libros donde se anotan de forma ordenada las facturas emitidas y recibidas. <mark>Es como llevar un cuaderno oficial de cada factura, para que Hacienda pueda comprobarlo</mark>. Su llevanza correcta es obligatoria por ley.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/facturas-recibos.jpg",
+        "alt": "Varias facturas y recibos guardados como registro.",
+        "titulo": "Bills, bills, bills",
+        "autor": "moonhouse",
+        "fuente": "https://www.flickr.com/photos/44124386632@N01/38539053",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Con qué frecuencia se suelen presentar las declaraciones de IVA?",
-      "respuesta": "Normalmente cada trimestre, aunque algunas empresas grandes lo hacen cada mes. <mark>Es como hacer cuentas periódicas con Hacienda, en vez de esperar a fin de año</mark>. Presentarlas fuera de plazo puede acarrear recargos."
+      "respuesta": "Normalmente cada trimestre, aunque algunas empresas grandes lo hacen cada mes. <mark>Es como hacer cuentas periódicas con Hacienda, en vez de esperar a fin de año</mark>. Presentarlas fuera de plazo puede acarrear recargos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/calendario-mes.jpg",
+        "alt": "Un calendario mensual de pared.",
+        "titulo": "april 2012, wallpaper calendar",
+        "autor": "nevil zaveri",
+        "fuente": "https://www.flickr.com/photos/43109416@N00/6779100847",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el stock mínimo?",
-      "respuesta": "Es la cantidad más baja de un producto que conviene tener siempre disponible. <mark>Es como la señal de alarma que avisa de que hay que pedir más antes de quedarte sin nada</mark>. Bajar de ese nivel supone el riesgo de no poder atender pedidos."
+      "respuesta": "Es la cantidad más baja de un producto que conviene tener siempre disponible. <mark>Es como la señal de alarma que avisa de que hay que pedir más antes de quedarte sin nada</mark>. Bajar de ese nivel supone el riesgo de no poder atender pedidos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/estanteria-vacia.jpg",
+        "alt": "Estanterías casi vacías en una tienda, con poco stock.",
+        "titulo": "Empty shelves at a grocery store",
+        "autor": "waitscm",
+        "fuente": "https://www.flickr.com/photos/78341140@N00/6987483282",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el stock óptimo?",
-      "respuesta": "Es la cantidad de producto que permite atender la demanda sin acumular de más. <mark>Es como encontrar el punto justo entre no quedarte corto y no llenar el almacén sin necesidad</mark>. Tener demasiado también genera costes."
+      "respuesta": "Es la cantidad de producto que permite atender la demanda sin acumular de más. <mark>Es como encontrar el punto justo entre no quedarte corto y no llenar el almacén sin necesidad</mark>. Tener demasiado también genera costes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/almacen-lleno.jpg",
+        "alt": "Un almacén con las estanterías bien abastecidas.",
+        "titulo": "20161005-FNS-LSC-0032",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/30593614785",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas tiene pagar una compra a través de internet?",
-      "respuesta": "Rapidez, comodidad y la posibilidad de comprar sin desplazarse. <mark>Es como hacer la gestión desde el sofá, en vez de tener que ir en persona a pagar</mark>. Requiere, eso sí, cuidar bien la seguridad del pago."
+      "respuesta": "Rapidez, comodidad y la posibilidad de comprar sin desplazarse. <mark>Es como hacer la gestión desde el sofá, en vez de tener que ir en persona a pagar</mark>. Requiere, eso sí, cuidar bien la seguridad del pago.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/compra-online.jpg",
+        "alt": "Una persona comprando por internet",
+        "titulo": "Online shopping",
+        "autor": "Robbert Noordzij",
+        "fuente": "https://www.flickr.com/photos/30760216@N08/22257890101",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la financiación comercial en una operación de compraventa?",
-      "respuesta": "Es la posibilidad de aplazar el pago de una compra, en vez de pagarla toda de golpe. <mark>Es como pedir un pequeño respiro para pagar, repartido en el tiempo</mark>. Suele implicar un interés adicional a cambio de esa facilidad."
+      "respuesta": "Es la posibilidad de aplazar el pago de una compra, en vez de pagarla toda de golpe. <mark>Es como pedir un pequeño respiro para pagar, repartido en el tiempo</mark>. Suele implicar un interés adicional a cambio de esa facilidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/dinero-ahorro.jpg",
+        "alt": "Dinero relacionado con la financiación de una compra.",
+        "titulo": "Pay Day",
+        "autor": "401(K) 2013",
+        "fuente": "https://www.flickr.com/photos/68751915@N05/6736150457",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una leyenda?",
-      "respuesta": "Es una historia que mezcla hechos reales con fantasía. <mark>Suele explicar el origen de un lugar o una costumbre</mark>. Se transmite de generación en generación, hablada. Mucha gente cree que una parte es verdad."
+      "respuesta": "Es una historia que mezcla hechos reales con fantasía. <mark>Suele explicar el origen de un lugar o una costumbre</mark>. Se transmite de generación en generación, hablada. Mucha gente cree que una parte es verdad.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura/leyenda-castillo.jpg",
+        "alt": "Un castillo antiguo en lo alto de una colina, rodeado de árboles",
+        "titulo": "Schloss Plankenwarth",
+        "autor": "Bernd Thaller",
+        "fuente": "https://www.flickr.com/photos/44296132@N06/26450633343",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué las leyendas suelen estar ligadas a un lugar real?",
-      "respuesta": "Una leyenda casi siempre habla de un sitio concreto. <mark>Ese lugar existe de verdad, aunque la historia sea inventada</mark>. Por ejemplo, un castillo o una fuente del pueblo. Así la leyenda parece más creíble al contarla."
+      "respuesta": "Una leyenda casi siempre habla de un sitio concreto. <mark>Ese lugar existe de verdad, aunque la historia sea inventada</mark>. Por ejemplo, un castillo o una fuente del pueblo. Así la leyenda parece más creíble al contarla.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura/fuente-pueblo.jpg",
+        "alt": "Una fuente de piedra antigua junto a la pared de una iglesia, en la plaza de un pueblo",
+        "titulo": "Lourmarin - Place de l'Eglise - fountain",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/5829751653",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencia una leyenda de un cuento?",
-      "respuesta": "El cuento es una invención sin pretender ser cierto. <mark>La leyenda, en cambio, se cuenta como si hubiera pasado de verdad</mark>. Por eso menciona lugares y personas reales. El cuento puede pasar 'en cualquier lugar'."
+      "respuesta": "El cuento es una invención sin pretender ser cierto. <mark>La leyenda, en cambio, se cuenta como si hubiera pasado de verdad</mark>. Por eso menciona lugares y personas reales. El cuento puede pasar 'en cualquier lugar'.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura/cuento-libro-antiguo.jpg",
+        "alt": "Portada antigua de un libro de cuentos, con una niña con capa roja mirando a un lobo en el bosque",
+        "titulo": "Märchenbuch - German language book of children's fairy tales 1919",
+        "autor": "crackdog",
+        "fuente": "https://www.flickr.com/photos/88645472@N00/3917961982",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué es un mito?",
-      "respuesta": "Es una historia antigua con dioses o seres poderosos. <mark>Explica cosas del mundo que antes nadie sabía explicar</mark>. Por ejemplo, por qué existen el trueno y la noche. Cada cultura antigua tiene los suyos."
+      "respuesta": "Es una historia antigua con dioses o seres poderosos. <mark>Explica cosas del mundo que antes nadie sabía explicar</mark>. Por ejemplo, por qué existen el trueno y la noche. Cada cultura antigua tiene los suyos.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura/mito-estatua-zeus.jpg",
+        "alt": "Una estatua antigua de mármol de un dios griego, sentado, con barba y una tela sobre el hombro",
+        "titulo": "Statue of Zeus",
+        "autor": "Nevit Dilmen",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=1131222",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Para qué servían los mitos en las culturas antiguas?",
-      "respuesta": "Servían para explicar lo que daba miedo o dudas. <mark>Antes de la ciencia, los mitos daban una respuesta</mark>. Por ejemplo, por qué llueve o por qué hay estrellas. Hoy los seguimos contando por su valor como historia."
+      "respuesta": "Servían para explicar lo que daba miedo o dudas. <mark>Antes de la ciencia, los mitos daban una respuesta</mark>. Por ejemplo, por qué llueve o por qué hay estrellas. Hoy los seguimos contando por su valor como historia.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura/estrellas-noche.jpg",
+        "alt": "Un cielo nocturno lleno de estrellas",
+        "titulo": "Cassiopeia, shot at ISO12,800 with ancient Vivitar 135mm, f/2.8 manual focus lens on Nikon D600, stacked with Deep Sky Stacker",
+        "autor": "Darron Birgenheier",
+        "fuente": "https://www.flickr.com/photos/28502132@N05/14231259094",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian un mito y una leyenda?",
-      "respuesta": "El mito suele tener dioses y explica el mundo. <mark>La leyenda habla de un lugar o una persona real</mark>. El mito es más antiguo y universal. La leyenda suele ser propia de un pueblo o región."
+      "respuesta": "El mito suele tener dioses y explica el mundo. <mark>La leyenda habla de un lugar o una persona real</mark>. El mito es más antiguo y universal. La leyenda suele ser propia de un pueblo o región.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura/templo-zeus-atenas.jpg",
+        "alt": "Columnas de piedra de un templo griego antiguo, con la Acrópolis al fondo",
+        "titulo": "The Temple of Olympian Zeus",
+        "autor": "kevinpoh",
+        "fuente": "https://www.flickr.com/photos/7679455@N03/5694484278",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

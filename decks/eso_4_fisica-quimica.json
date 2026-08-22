@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el error de una medida?",
-      "respuesta": "Es la diferencia entre el valor medido y el valor real de una magnitud. <mark>Ningún instrumento mide con una precisión absolutamente perfecta</mark>. Puede deberse al instrumento usado o a quien realiza la medida. Reconocerlo ayuda a interpretar los resultados con más honestidad."
+      "respuesta": "Es la diferencia entre el valor medido y el valor real de una magnitud. <mark>Ningún instrumento mide con una precisión absolutamente perfecta</mark>. Puede deberse al instrumento usado o a quien realiza la medida. Reconocerlo ayuda a interpretar los resultados con más honestidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/balanza-precision.jpg",
+        "alt": "Una balanza electrónica de precisión",
+        "titulo": "Electronic Weighing Scale",
+        "autor": "Aliva Sahoo",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=179983410",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante repetir una medida varias veces?",
-      "respuesta": "Porque permite calcular un valor medio más fiable que una sola medición. <mark>Es como preguntar a varias personas la hora, en vez de fiarte de un solo reloj</mark>. Cuantas más medidas, más se reduce el efecto de pequeños errores."
+      "respuesta": "Porque permite calcular un valor medio más fiable que una sola medición. <mark>Es como preguntar a varias personas la hora, en vez de fiarte de un solo reloj</mark>. Cuantas más medidas, más se reduce el efecto de pequeños errores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/cronometro.jpg",
+        "alt": "Un cronómetro para medir con precisión",
+        "titulo": "Stopwatch",
+        "autor": "smaedli",
+        "fuente": "https://www.flickr.com/photos/75264768@N00/3271558744",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las ecuaciones dimensionales?",
-      "respuesta": "Son ecuaciones que comprueban si las unidades de una fórmula son coherentes entre sí. <mark>Es como comprobar que una receta no mezcla litros con kilos sin sentido</mark>. Ayudan a detectar errores antes de hacer el cálculo completo."
+      "respuesta": "Son ecuaciones que comprueban si las unidades de una fórmula son coherentes entre sí. <mark>Es como comprobar que una receta no mezcla litros con kilos sin sentido</mark>. Ayudan a detectar errores antes de hacer el cálculo completo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/pizarra-matematicas.jpg",
+        "alt": "Una pizarra con ecuaciones matemáticas",
+        "titulo": "Torsten, math teacher",
+        "autor": "blondinrikard",
+        "fuente": "https://www.flickr.com/photos/44093058@N06/13927054414",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se analiza un conjunto de datos experimentales?",
-      "respuesta": "Se organizan, se representan gráficamente y se buscan patrones o tendencias. <mark>Es como intentar encontrar la melodía escondida dentro de muchas notas sueltas</mark>. Ese análisis comprueba si los resultados apoyan la hipótesis inicial."
+      "respuesta": "Se organizan, se representan gráficamente y se buscan patrones o tendencias. <mark>Es como intentar encontrar la melodía escondida dentro de muchas notas sueltas</mark>. Ese análisis comprueba si los resultados apoyan la hipótesis inicial.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/grafico-3d.jpg",
+        "alt": "Un gráfico de barras en 3D con datos",
+        "titulo": "3D Bar Graph Meeting",
+        "autor": "lumaxart",
+        "fuente": "https://www.flickr.com/photos/22177648@N06/2136954043",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tienen las herramientas tecnológicas en la investigación científica actual?",
-      "respuesta": "Permiten medir con más precisión, procesar datos y compartir resultados rápidamente. <mark>Es como tener ayudantes digitales que aceleran cada paso de la investigación</mark>. Sensores, programas informáticos y simuladores forman parte de ellas."
+      "respuesta": "Permiten medir con más precisión, procesar datos y compartir resultados rápidamente. <mark>Es como tener ayudantes digitales que aceleran cada paso de la investigación</mark>. Sensores, programas informáticos y simuladores forman parte de ellas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/laboratorio-tecnologia.jpg",
+        "alt": "Un laboratorio moderno con tecnología avanzada",
+        "titulo": "Blockchain Advanced Protection Lab",
+        "autor": "oakridgelabnews",
+        "fuente": "https://www.flickr.com/photos/37940997@N05/54466792278",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué debe incluir un buen informe científico?",
-      "respuesta": "Una introducción clara, el método usado, los resultados y las conclusiones. <mark>Es como contar una historia completa, sin dejar huecos que confundan al lector</mark>. Un buen informe permite que otra persona repita el experimento sin dudas."
+      "respuesta": "Una introducción clara, el método usado, los resultados y las conclusiones. <mark>Es como contar una historia completa, sin dejar huecos que confundan al lector</mark>. Un buen informe permite que otra persona repita el experimento sin dudas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/informe-tecnico.jpg",
+        "alt": "Un informe técnico escrito",
+        "titulo": "How the Eagle Landed — the Grumman Construction Log",
+        "autor": "jurvetson",
+        "fuente": "https://www.flickr.com/photos/44124348109@N01/7610058658",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante expresar los resultados en distintos formatos?",
-      "respuesta": "Porque cada formato ayuda a entender la información de una forma distinta. <mark>Un número, una gráfica y una tabla cuentan la misma historia de formas diferentes</mark>. Usar varios formatos hace la información más accesible."
+      "respuesta": "Porque cada formato ayuda a entender la información de una forma distinta. <mark>Un número, una gráfica y una tabla cuentan la misma historia de formas diferentes</mark>. Usar varios formatos hace la información más accesible.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/infografia-datos.jpg",
+        "alt": "Una infografía con datos representados visualmente",
+        "titulo": "Cities need stories",
+        "autor": "Paolo Tonon",
+        "fuente": "https://www.flickr.com/photos/44052773@N00/4922597285",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa producir información científica de forma responsable?",
-      "respuesta": "Significa comunicar resultados de manera clara, honesta y bien fundamentada. <mark>Es como contar exactamente lo que se ha descubierto, sin exagerar ni esconder nada</mark>. Incluye reconocer los límites y errores del propio trabajo."
+      "respuesta": "Significa comunicar resultados de manera clara, honesta y bien fundamentada. <mark>Es como contar exactamente lo que se ha descubierto, sin exagerar ni esconder nada</mark>. Incluye reconocer los límites y errores del propio trabajo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/escribiendo.jpg",
+        "alt": "Alguien escribiendo con atención",
+        "titulo": "Writing",
+        "autor": "quinn.anya",
+        "fuente": "https://www.flickr.com/photos/53326337@N00/6391831325",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se selecciona información relevante de un texto de divulgación científica avanzado?",
-      "respuesta": "Se identifican las ideas principales y se contrastan con otras fuentes fiables. <mark>Es como separar el grano de la paja en un texto largo y complejo</mark>. Ayuda a evitar quedarse solo con titulares llamativos pero poco precisos."
+      "respuesta": "Se identifican las ideas principales y se contrastan con otras fuentes fiables. <mark>Es como separar el grano de la paja en un texto largo y complejo</mark>. Ayuda a evitar quedarse solo con titulares llamativos pero poco precisos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/lectura-sofa.jpg",
+        "alt": "Una persona leyendo tranquilamente en el sofá",
+        "titulo": "Individual reading a book on a comfortable sofa in a modern living room",
+        "autor": "nenad53",
+        "fuente": "https://www.flickr.com/photos/202780880@N02/54560053792",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué sigue siendo importante valorar la cultura científica en la sociedad actual?",
-      "respuesta": "Porque ayuda a tomar decisiones informadas sobre salud, tecnología o medio ambiente. <mark>Entender un poco de ciencia ayuda a no dejarse llevar por bulos o exageraciones</mark>. Beneficia a toda la sociedad, no solo a los científicos."
+      "respuesta": "Porque ayuda a tomar decisiones informadas sobre salud, tecnología o medio ambiente. <mark>Entender un poco de ciencia ayuda a no dejarse llevar por bulos o exageraciones</mark>. Beneficia a toda la sociedad, no solo a los científicos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica/centro-visitantes.jpg",
+        "alt": "Un centro de visitantes con paneles educativos",
+        "titulo": "Grand Canyon National Park Visitor Center 4016",
+        "autor": "Grand Canyon NPS",
+        "fuente": "https://www.flickr.com/photos/50693818@N08/6971295030",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

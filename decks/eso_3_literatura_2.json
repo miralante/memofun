@@ -5,31 +5,87 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un soneto?",
-      "respuesta": "Es un poema con catorce versos, siempre organizados igual. <mark>Se reparten en dos estrofas de cuatro versos y dos de tres</mark>. Fue muy popular en el Renacimiento y el Barroco. Muchos poetas españoles famosos escribieron sonetos."
+      "respuesta": "Es un poema con catorce versos, siempre organizados igual. <mark>Se reparten en dos estrofas de cuatro versos y dos de tres</mark>. Fue muy popular en el Renacimiento y el Barroco. Muchos poetas españoles famosos escribieron sonetos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_2/pagina-libro-antiguo.jpg",
+        "alt": "La página de un libro antiguo con anotaciones",
+        "titulo": "Ownership inscriptions of Odoardo Gualando, Francesco Venturi, Nicolaus Bargiacchus, and Sir Sydney Carlyle Cockerell",
+        "autor": "Provenance Online Project",
+        "fuente": "https://www.flickr.com/photos/58558794@N07/8242157260",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Sancho Panza y qué aporta a la novela?",
-      "respuesta": "Es el escudero que acompaña a Don Quijote en sus aventuras. <mark>Es práctico y realista, todo lo contrario a su amo</mark>. Sus comentarios ponen los pies en la tierra a la historia. Juntos forman una de las parejas más famosas de la literatura."
+      "respuesta": "Es el escudero que acompaña a Don Quijote en sus aventuras. <mark>Es práctico y realista, todo lo contrario a su amo</mark>. Sus comentarios ponen los pies en la tierra a la historia. Juntos forman una de las parejas más famosas de la literatura.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_2/sancho-panza-quijote.jpg",
+        "alt": "Estatuas de Don Quijote y Sancho Panza juntos",
+        "titulo": "Don Quijote y Sancho Panza, estatuas, Tandil",
+        "autor": "Roberto Fiadone",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=85253092",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian Don Quijote y Sancho Panza?",
-      "respuesta": "Don Quijote sueña con aventuras y caballeros, casi sin ver la realidad. <mark>Sancho Panza es sencillo, práctico y piensa en comer y descansar</mark>. Uno mira el mundo con fantasía; el otro, con sentido común. Esa diferencia hace reír y pensar a la vez."
+      "respuesta": "Don Quijote sueña con aventuras y caballeros, casi sin ver la realidad. <mark>Sancho Panza es sencillo, práctico y piensa en comer y descansar</mark>. Uno mira el mundo con fantasía; el otro, con sentido común. Esa diferencia hace reír y pensar a la vez.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_2/quijote-sancho.jpg",
+        "alt": "Una escultura de Don Quijote y Sancho Panza",
+        "titulo": "Don Quixote & Sancho Panza Sculpture 1",
+        "autor": "historic.brussels",
+        "fuente": "https://www.flickr.com/photos/22325431@N05/3120740513",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué escribió Calderón de la Barca?",
-      "respuesta": "Fue un autor de teatro del Barroco español. <mark>Su obra más famosa es 'La vida es sueño'</mark>. Escribió sobre el destino, el poder y la libertad. Es uno de los grandes dramaturgos en español."
+      "respuesta": "Fue un autor de teatro del Barroco español. <mark>Su obra más famosa es 'La vida es sueño'</mark>. Escribió sobre el destino, el poder y la libertad. Es uno de los grandes dramaturgos en español.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_2/calderon-de-la-barca.jpg",
+        "alt": "Estatua de Calderón de la Barca",
+        "titulo": "Calderón de la Barca",
+        "autor": "Daquella manera",
+        "fuente": "https://www.flickr.com/photos/62518311@N00/87568793",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué idea central tiene 'La vida es sueño'?",
-      "respuesta": "Plantea que la vida puede ser tan irreal como un sueño. <mark>Nos pregunta si lo que vivimos de verdad importa igual</mark>. Su frase más famosa dice que la vida es sueño. Invita a pensar sobre qué es real de verdad."
+      "respuesta": "Plantea que la vida puede ser tan irreal como un sueño. <mark>Nos pregunta si lo que vivimos de verdad importa igual</mark>. Su frase más famosa dice que la vida es sueño. Invita a pensar sobre qué es real de verdad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_2/nubes-sueno.jpg",
+        "alt": "Nubes suaves en el cielo, como en un sueño",
+        "titulo": "Clouds over Etten-Leur #2",
+        "autor": "jinterwas",
+        "fuente": "https://www.flickr.com/photos/32135758@N02/5734925850",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era la poesía mística en el Renacimiento?",
-      "respuesta": "Era una poesía que hablaba del amor a Dios. <mark>Buscaba describir un sentimiento casi imposible de poner en palabras</mark>. Autores como Fray Luis de León o Santa Teresa la escribieron. Buscaban la paz interior a través de la fe."
+      "respuesta": "Era una poesía que hablaba del amor a Dios. <mark>Buscaba describir un sentimiento casi imposible de poner en palabras</mark>. Autores como Fray Luis de León o Santa Teresa la escribieron. Buscaban la paz interior a través de la fe.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_2/claustro-monasterio.jpg",
+        "alt": "El claustro tranquilo de un monasterio",
+        "titulo": "Cloister",
+        "autor": "Brian Smithson (Old Geordie)",
+        "fuente": "https://www.flickr.com/photos/15636379@N00/7780924174",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué buscaba Fray Luis de León en sus poemas?",
-      "respuesta": "Buscaba paz y tranquilidad, lejos del ruido del mundo. <mark>Soñaba con una vida sencilla, en el campo, en calma</mark>. Escribía sobre alejarse de la envidia y la prisa. Su poesía invita a valorar lo simple."
+      "respuesta": "Buscaba paz y tranquilidad, lejos del ruido del mundo. <mark>Soñaba con una vida sencilla, en el campo, en calma</mark>. Escribía sobre alejarse de la envidia y la prisa. Su poesía invita a valorar lo simple.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_literatura_2/campo-ingles.jpg",
+        "alt": "Un campo tranquilo, lejos del ruido de la ciudad",
+        "titulo": "English countryside - Shrewton, United Kingdom - Landscape photography",
+        "autor": "Giuseppe Milo (www.pixael.com)",
+        "fuente": "https://www.flickr.com/photos/87690240@N03/29085750495",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

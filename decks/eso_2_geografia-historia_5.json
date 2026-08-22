@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Quiénes fueron los Reyes Católicos?",
-      "respuesta": "Fueron Isabel de Castilla y Fernando de Aragón, casados en 1469. <mark>Su matrimonio unió los dos grandes reinos cristianos de la península</mark>. Con ellos, España empezó a formarse como un reino único. Conquistaron Granada, el último territorio de Al-Ándalus, en 1492."
+      "respuesta": "Fueron Isabel de Castilla y Fernando de Aragón, casados en 1469. <mark>Su matrimonio unió los dos grandes reinos cristianos de la península</mark>. Con ellos, España empezó a formarse como un reino único. Conquistaron Granada, el último territorio de Al-Ándalus, en 1492.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/reyes-catolicos.jpg",
+        "alt": "Estatua de los Reyes Católicos, Isabel y Fernando",
+        "titulo": "Reyes Católicos Granada",
+        "autor": "Pedro M. Martínez",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=25689100",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué logros importantes ocurrieron en 1492?",
-      "respuesta": "Los Reyes Católicos conquistaron Granada y Colón llegó a América. <mark>Fue un año que cambió por completo el rumbo de la historia de España</mark>. También se expulsó a la población judía que no se convirtiera. Ese mismo año se publicó la primera gramática del castellano."
+      "respuesta": "Los Reyes Católicos conquistaron Granada y Colón llegó a América. <mark>Fue un año que cambió por completo el rumbo de la historia de España</mark>. También se expulsó a la población judía que no se convirtiera. Ese mismo año se publicó la primera gramática del castellano.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/nina-replica-colon.jpg",
+        "alt": "Réplica de la carabela La Niña, uno de los barcos de Colón",
+        "titulo": "Niña replica - Morro Bay CA",
+        "autor": "Mike Baird from Morro Bay, USA",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=5143909",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué Cristóbal Colón emprendió su viaje hacia el oeste?",
-      "respuesta": "Buscaba llegar a Asia navegando por el Atlántico, en vez de rodear África. <mark>Pensaba que el mundo era más pequeño de lo que en realidad es</mark>. En su camino, sin saberlo, llegó a un continente desconocido para Europa. Ese continente resultó ser América."
+      "respuesta": "Buscaba llegar a Asia navegando por el Atlántico, en vez de rodear África. <mark>Pensaba que el mundo era más pequeño de lo que en realidad es</mark>. En su camino, sin saberlo, llegó a un continente desconocido para Europa. Ese continente resultó ser América.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/barco-vela-oceano.jpg",
+        "alt": "Un barco de vela navegando en el mar",
+        "titulo": "Sailing ship 'Ocean Princess'",
+        "autor": "D.Bellwood",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=127212093",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la colonización de América?",
-      "respuesta": "Fue la ocupación y el gobierno de tierras americanas por España y otros países europeos. <mark>Los pueblos indígenas que ya vivían allí sufrieron una conquista muy violenta</mark>. Se crearon nuevas ciudades, minas y rutas comerciales. También llegaron enfermedades que diezmaron a la población indígena."
+      "respuesta": "Fue la ocupación y el gobierno de tierras americanas por España y otros países europeos. <mark>Los pueblos indígenas que ya vivían allí sufrieron una conquista muy violenta</mark>. Se crearon nuevas ciudades, minas y rutas comerciales. También llegaron enfermedades que diezmaron a la población indígena.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/iglesia-colonial-america.jpg",
+        "alt": "Iglesia de estilo colonial español en América",
+        "titulo": "San José de Gracia Church, Las Trampas, New Mexico",
+        "autor": "Thad Roan - Bridgepix",
+        "fuente": "https://www.flickr.com/photos/80651083@N00/4561546188",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el humanismo renacentista?",
-      "respuesta": "Es una forma de pensar que puso a la persona en el centro del interés. <mark>Antes el centro era casi siempre Dios; ahora también importaba el ser humano</mark>. Se estudiaban de nuevo los textos clásicos de Grecia y Roma. Fue la base cultural del Renacimiento."
+      "respuesta": "Es una forma de pensar que puso a la persona en el centro del interés. <mark>Antes el centro era casi siempre Dios; ahora también importaba el ser humano</mark>. Se estudiaban de nuevo los textos clásicos de Grecia y Roma. Fue la base cultural del Renacimiento.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/pintura-renacentista.jpg",
+        "alt": "Personas observando un cuadro renacentista en un museo",
+        "titulo": "Looking at Renaissance painting at the Met",
+        "autor": "mandiberg",
+        "fuente": "https://www.flickr.com/photos/42586873@N00/7603226934",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué caracteriza al arte renacentista?",
-      "respuesta": "Busca proporciones perfectas y una gran fidelidad a la realidad. <mark>Recupera la belleza y el equilibrio del arte griego y romano</mark>. Nació en Italia y se extendió después por toda Europa. Leonardo da Vinci y Miguel Ángel son artistas muy destacados de esa época."
+      "respuesta": "Busca proporciones perfectas y una gran fidelidad a la realidad. <mark>Recupera la belleza y el equilibrio del arte griego y romano</mark>. Nació en Italia y se extendió después por toda Europa. Leonardo da Vinci y Miguel Ángel son artistas muy destacados de esa época.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/pintura-renacentista.jpg",
+        "alt": "Un tríptico pintado en el estilo del Renacimiento",
+        "titulo": "Tríptico - Coronación de la Virgen",
+        "autor": "jacilluch",
+        "fuente": "https://www.flickr.com/photos/70626035@N00/16439671766",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué el Renacimiento se considera un renacer de la cultura clásica?",
-      "respuesta": "Porque redescubrió y admiró de nuevo el arte y el saber de Grecia y Roma. <mark>Es como desempolvar libros antiguos y volver a leerlos con nuevos ojos</mark>. Tras siglos donde predominaba la religión medieval, volvió el interés por el ser humano. De ahí viene la palabra 'renacimiento'."
+      "respuesta": "Porque redescubrió y admiró de nuevo el arte y el saber de Grecia y Roma. <mark>Es como desempolvar libros antiguos y volver a leerlos con nuevos ojos</mark>. Tras siglos donde predominaba la religión medieval, volvió el interés por el ser humano. De ahí viene la palabra 'renacimiento'.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/escultura-clasica.jpg",
+        "alt": "Una escultura clásica de estilo grecorromano",
+        "titulo": "the dying gaul",
+        "autor": "Xuan Che",
+        "fuente": "https://www.flickr.com/photos/69275268@N00/5383446201",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Reforma protestante?",
-      "respuesta": "Fue un movimiento religioso que criticó a la Iglesia católica y creó nuevas iglesias cristianas. <mark>Martín Lutero fue quien encendió esa chispa, en el siglo dieciséis</mark>. Criticaba, entre otras cosas, la venta de perdones a cambio de dinero. Dividió a Europa entre católicos y protestantes."
+      "respuesta": "Fue un movimiento religioso que criticó a la Iglesia católica y creó nuevas iglesias cristianas. <mark>Martín Lutero fue quien encendió esa chispa, en el siglo dieciséis</mark>. Criticaba, entre otras cosas, la venta de perdones a cambio de dinero. Dividió a Europa entre católicos y protestantes.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/martin-lutero-estatua.jpg",
+        "alt": "Estatua de Martín Lutero, líder de la Reforma protestante",
+        "titulo": "Martin Luther statue - Dresden, Saxony, Germany",
+        "autor": "Glen Bowman",
+        "fuente": "https://www.flickr.com/photos/10978503@N00/16520687622",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Contrarreforma católica?",
-      "respuesta": "Fue la respuesta de la Iglesia católica frente a la Reforma protestante. <mark>Intentó corregir abusos y reforzar la fe católica frente a las críticas</mark>. Se reunió el Concilio de Trento para fijar nuevas normas. También impulsó un arte religioso más emocional e intenso."
+      "respuesta": "Fue la respuesta de la Iglesia católica frente a la Reforma protestante. <mark>Intentó corregir abusos y reforzar la fe católica frente a las críticas</mark>. Se reunió el Concilio de Trento para fijar nuevas normas. También impulsó un arte religioso más emocional e intenso.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/catedral-interior.jpg",
+        "alt": "Interior de una gran catedral católica",
+        "titulo": "Winchester Cathedral, Interior, Hampshire",
+        "autor": "JackPeasePhotography",
+        "fuente": "https://www.flickr.com/photos/76253421@N04/14287903110",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Carlos V?",
-      "respuesta": "Fue un emperador que gobernó un imperio enorme, con territorios en varios continentes. <mark>Se decía que en sus dominios 'no se ponía el sol'</mark>. Heredó Castilla, Aragón y también territorios centroeuropeos. Tuvo que enfrentarse a guerras religiosas y conflictos con Francia."
+      "respuesta": "Fue un emperador que gobernó un imperio enorme, con territorios en varios continentes. <mark>Se decía que en sus dominios 'no se ponía el sol'</mark>. Heredó Castilla, Aragón y también territorios centroeuropeos. Tuvo que enfrentarse a guerras religiosas y conflictos con Francia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/carlos-v-retrato.jpg",
+        "alt": "Retrato del emperador Carlos V",
+        "titulo": "Charles V, Holy Roman Emperor, son of Juana of Castile, nephew of Catherine of Aragon",
+        "autor": "lisby1",
+        "fuente": "https://www.flickr.com/photos/60861613@N00/3390295835",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Felipe II?",
-      "respuesta": "Fue hijo de Carlos V y rey de un imperio español enorme. <mark>Gobernó desde Madrid, convertida entonces en capital del reino</mark>. Durante su reinado, España vivió un gran poder político y militar. También enfrentó guerras costosas que debilitaron las finanzas del reino."
+      "respuesta": "Fue hijo de Carlos V y rey de un imperio español enorme. <mark>Gobernó desde Madrid, convertida entonces en capital del reino</mark>. Durante su reinado, España vivió un gran poder político y militar. También enfrentó guerras costosas que debilitaron las finanzas del reino.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/monasterio-escorial.jpg",
+        "alt": "El monasterio de El Escorial, mandado construir por Felipe II",
+        "titulo": "El Escorial Monastery, Spain",
+        "autor": "roloverjavi",
+        "fuente": "https://www.flickr.com/photos/56804333@N06/5292508249",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que el Imperio español fuera 'donde no se ponía el sol'?",
-      "respuesta": "Significa que sus territorios estaban repartidos por todo el planeta. <mark>Mientras anochecía en un territorio, en otro seguía siendo de día</mark>. Incluía partes de América, Europa, África y Asia. Fue uno de los imperios más extensos de la historia."
+      "respuesta": "Significa que sus territorios estaban repartidos por todo el planeta. <mark>Mientras anochecía en un territorio, en otro seguía siendo de día</mark>. Incluía partes de América, Europa, África y Asia. Fue uno de los imperios más extensos de la historia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/mapa-mundo-antiguo.jpg",
+        "alt": "Un mapa antiguo del mundo con una brújula",
+        "titulo": "Old world map and compass",
+        "autor": "Wallboat",
+        "fuente": "https://www.flickr.com/photos/151415985@N06/36599569683",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué avances técnicos hicieron posible los grandes viajes de exploración?",
-      "respuesta": "Mejores barcos, brújulas y mapas más precisos que antes. <mark>Sin esas herramientas, cruzar un océano entero habría sido casi imposible</mark>. La carabela, un barco rápido y resistente, fue clave en esos viajes. Esos avances abrieron rutas que antes nadie se atrevía a cruzar."
+      "respuesta": "Mejores barcos, brújulas y mapas más precisos que antes. <mark>Sin esas herramientas, cruzar un océano entero habría sido casi imposible</mark>. La carabela, un barco rápido y resistente, fue clave en esos viajes. Esos avances abrieron rutas que antes nadie se atrevía a cruzar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/carabela.jpg",
+        "alt": "Una carabela del siglo XV, el barco usado en los viajes de exploración",
+        "titulo": "Carabela del siglo XV",
+        "autor": "Biblioteca Rector Machado y Nuñez",
+        "fuente": "https://www.flickr.com/photos/37667416@N04/4384618082",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué consecuencias tuvo el Descubrimiento de América para Europa?",
-      "respuesta": "Llegaron nuevos alimentos, metales preciosos y rutas comerciales. <mark>Productos como la patata o el tomate cambiaron para siempre la comida europea</mark>. También llegó mucha plata y oro americanos a España. Ese oro cambió la economía de toda Europa durante siglos."
+      "respuesta": "Llegaron nuevos alimentos, metales preciosos y rutas comerciales. <mark>Productos como la patata o el tomate cambiaron para siempre la comida europea</mark>. También llegó mucha plata y oro americanos a España. Ese oro cambió la economía de toda Europa durante siglos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/monedas-oro.jpg",
+        "alt": "Monedas de oro, símbolo de la riqueza traída a Europa",
+        "titulo": "The Lure Of Gold",
+        "autor": "bogenfreund",
+        "fuente": "https://www.flickr.com/photos/28548387@N00/411453602",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué consecuencias tuvo la conquista para los pueblos indígenas de América?",
-      "respuesta": "Sufrieron la pérdida de sus tierras, su cultura y muchísimas vidas. <mark>Las enfermedades europeas, desconocidas allí, mataron a gran parte de la población</mark>. Sus imperios, como el azteca o el inca, fueron destruidos. Ese impacto marcó profundamente la historia posterior de América."
+      "respuesta": "Sufrieron la pérdida de sus tierras, su cultura y muchísimas vidas. <mark>Las enfermedades europeas, desconocidas allí, mataron a gran parte de la población</mark>. Sus imperios, como el azteca o el inca, fueron destruidos. Ese impacto marcó profundamente la historia posterior de América.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/ceramica-indigena.jpg",
+        "alt": "Objetos de cerámica indígena expuestos en un museo",
+        "titulo": "National Taiwan Museum: Taiwan Indigenous Pottery & Artifacts",
+        "autor": "Gary Lee Todd, Ph.D.",
+        "fuente": "http://www.flickr.com/photos/101561334@N08/48106696647",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Cómo se relacionan el Renacimiento y los viajes de descubrimiento?",
-      "respuesta": "Ambos reflejan una época de curiosidad y ganas de explorar lo desconocido. <mark>Es la misma actitud aplicada al arte, a la ciencia y también a los mapas</mark>. Se cuestionaban ideas antiguas y se buscaban respuestas nuevas. Por eso esta época se considera el inicio de la Edad Moderna."
+      "respuesta": "Ambos reflejan una época de curiosidad y ganas de explorar lo desconocido. <mark>Es la misma actitud aplicada al arte, a la ciencia y también a los mapas</mark>. Se cuestionaban ideas antiguas y se buscaban respuestas nuevas. Por eso esta época se considera el inicio de la Edad Moderna.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_5/mapa-navegacion.jpg",
+        "alt": "Un mapa antiguo del mundo usado para la navegación",
+        "titulo": "A plat of all the world",
+        "autor": "Norman B. Leventhal Map Center at the BPL",
+        "fuente": "https://www.flickr.com/photos/24528911@N05/2709980753",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

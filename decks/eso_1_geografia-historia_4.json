@@ -5,55 +5,159 @@
   "tarjetas": [
     {
       "pregunta": "¿Cómo influyó el relieve de Grecia en su forma de organizarse?",
-      "respuesta": "Grecia tiene montañas y muchas islas, que separan a la población en grupos. <mark>Es como vivir en islas dentro de un archipiélago, cada una a su aire</mark>. Por eso no formó un solo país, sino ciudades independientes. Cada una tenía sus propias leyes y gobierno."
+      "respuesta": "Grecia tiene montañas y muchas islas, que separan a la población en grupos. <mark>Es como vivir en islas dentro de un archipiélago, cada una a su aire</mark>. Por eso no formó un solo país, sino ciudades independientes. Cada una tenía sus propias leyes y gobierno.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/isla-naxos-grecia.jpg",
+        "alt": "La isla de Naxos, en Grecia, con montañas y mar",
+        "titulo": "Isla de Naxos, Grecia",
+        "autor": "Edgardo W. Olivera",
+        "fuente": "https://www.flickr.com/photos/124137421@N04/26624891822",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era una polis?",
-      "respuesta": "Era una ciudad griega independiente, con su propio gobierno. <mark>Funcionaba casi como un pequeño país, con su ejército y sus leyes</mark>. Atenas y Esparta son las polis más conocidas. Cada polis tenía su propia forma de organizarse."
+      "respuesta": "Era una ciudad griega independiente, con su propio gobierno. <mark>Funcionaba casi como un pequeño país, con su ejército y sus leyes</mark>. Atenas y Esparta son las polis más conocidas. Cada polis tenía su propia forma de organizarse.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/acropolis-atenas.jpg",
+        "alt": "La Acrópolis de Atenas",
+        "titulo": "Acropolis, Athens",
+        "autor": "Alun Salt",
+        "fuente": "https://www.flickr.com/photos/79983635@N00/32880684",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la democracia?",
-      "respuesta": "Es una forma de gobierno donde los ciudadanos deciden mediante su voto. <mark>El poder no lo tiene una sola persona, sino todos juntos</mark>. La palabra viene del griego: 'poder del pueblo'. Nació en Atenas hace unos dos mil quinientos años."
+      "respuesta": "Es una forma de gobierno donde los ciudadanos deciden mediante su voto. <mark>El poder no lo tiene una sola persona, sino todos juntos</mark>. La palabra viene del griego: 'poder del pueblo'. Nació en Atenas hace unos dos mil quinientos años.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/agora-atenas.jpg",
+        "alt": "El ágora antigua de Atenas",
+        "titulo": "Stoa of Attalos, Ancient Agora, Athens, Greece",
+        "autor": "Tilemahos Efthimiadis",
+        "fuente": "https://www.flickr.com/photos/64379474@N00/3966275331",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Quién podía votar en la democracia de la Atenas del siglo V a.C.?",
-      "respuesta": "Solo podían votar los hombres libres, nacidos en Atenas. <mark>Mujeres, esclavos y extranjeros quedaban fuera de esa decisión</mark>. Era una democracia limitada, muy distinta a la actual. Aun así, fue un paso enorme para su época."
+      "respuesta": "Solo podían votar los hombres libres, nacidos en Atenas. <mark>Mujeres, esclavos y extranjeros quedaban fuera de esa decisión</mark>. Era una democracia limitada, muy distinta a la actual. Aun así, fue un paso enorme para su época.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/estamnos-atico.jpg",
+        "alt": "Una vasija griega antigua con figuras pintadas",
+        "titulo": "Attic red - figured stamnos",
+        "autor": "Tilemahos Efthimiadis",
+        "fuente": "https://www.flickr.com/photos/64379474@N00/3471205643",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era la Acrópolis de Atenas?",
-      "respuesta": "Era la parte más alta de la ciudad, con templos importantes. <mark>Es como el corazón sagrado de la ciudad, mirando desde arriba</mark>. Allí se encuentra el Partenón, dedicado a la diosa Atenea. Hoy sigue siendo un símbolo de toda Grecia."
+      "respuesta": "Era la parte más alta de la ciudad, con templos importantes. <mark>Es como el corazón sagrado de la ciudad, mirando desde arriba</mark>. Allí se encuentra el Partenón, dedicado a la diosa Atenea. Hoy sigue siendo un símbolo de toda Grecia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/partenon-acropolis.jpg",
+        "alt": "El Partenón, un templo en lo alto de la Acrópolis de Atenas",
+        "titulo": "Parthenon II",
+        "autor": "Zé.Valdi",
+        "fuente": "https://www.flickr.com/photos/38851323@N05/4089733084",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo era la sociedad griega?",
-      "respuesta": "Se dividía entre ciudadanos libres, extranjeros y esclavos. <mark>Solo una parte pequeña de la población tenía derechos plenos</mark>. Los ciudadanos podían participar en política y poseer tierras. Los esclavos, en cambio, no tenían ningún derecho."
+      "respuesta": "Se dividía entre ciudadanos libres, extranjeros y esclavos. <mark>Solo una parte pequeña de la población tenía derechos plenos</mark>. Los ciudadanos podían participar en política y poseer tierras. Los esclavos, en cambio, no tenían ningún derecho.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/ceramica-griega.jpg",
+        "alt": "Cerámica griega de figuras rojas",
+        "titulo": "Greek Red Figure Pottery, The British Museum, Bloomsbury, London",
+        "autor": "nikoretro",
+        "fuente": "https://www.flickr.com/photos/22768390@N00/167742226",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿A qué se dedicaba la economía griega?",
-      "respuesta": "Se basaba en la agricultura, la pesca y sobre todo el comercio marítimo. <mark>El mar era como su gran carretera, conectando ciudades lejanas</mark>. Grecia tiene poca tierra fértil, así que comerciaba para conseguir lo que faltaba. Sus barcos llegaban a puntos de todo el Mediterráneo."
+      "respuesta": "Se basaba en la agricultura, la pesca y sobre todo el comercio marítimo. <mark>El mar era como su gran carretera, conectando ciudades lejanas</mark>. Grecia tiene poca tierra fértil, así que comerciaba para conseguir lo que faltaba. Sus barcos llegaban a puntos de todo el Mediterráneo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/barco-mediterraneo.jpg",
+        "alt": "Un barco navegando por el Mediterráneo",
+        "titulo": "A Calm at a Mediterranean Port - The Sailing Ship (detail)",
+        "autor": "Randy Son Of Robert",
+        "fuente": "https://www.flickr.com/photos/46042146@N00/2711066783",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué eran los Juegos Olímpicos en la Antigua Grecia?",
-      "respuesta": "Eran competiciones deportivas en honor al dios Zeus. <mark>Durante los juegos, incluso se paraban las guerras entre ciudades</mark>. Se celebraban cada cuatro años en la ciudad de Olimpia. De ahí nace la tradición de los Juegos Olímpicos actuales."
+      "respuesta": "Eran competiciones deportivas en honor al dios Zeus. <mark>Durante los juegos, incluso se paraban las guerras entre ciudades</mark>. Se celebraban cada cuatro años en la ciudad de Olimpia. De ahí nace la tradición de los Juegos Olímpicos actuales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/muchacha-corriendo-estatua.jpg",
+        "alt": "Una estatua griega antigua de una joven corriendo",
+        "titulo": "Muchacha corriendo",
+        "autor": "Becante",
+        "fuente": "https://www.flickr.com/photos/45238035@N02/6868368094",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué eran los templos griegos?",
-      "respuesta": "Eran edificios construidos para honrar a los dioses. <mark>Sus columnas de piedra siguen inspirando edificios miles de años después</mark>. El Partenón es el ejemplo más famoso. Su equilibrio y proporción se consideran un modelo de belleza."
+      "respuesta": "Eran edificios construidos para honrar a los dioses. <mark>Sus columnas de piedra siguen inspirando edificios miles de años después</mark>. El Partenón es el ejemplo más famoso. Su equilibrio y proporción se consideran un modelo de belleza.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/friso-partenon.jpg",
+        "alt": "El friso del Partenón, con figuras talladas en piedra",
+        "titulo": "Friso del Partenón",
+        "autor": "ManuelSagra",
+        "fuente": "https://www.flickr.com/photos/62128026@N00/257391878",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la mitología griega?",
-      "respuesta": "Es el conjunto de historias sobre los dioses y héroes griegos. <mark>Explicaban el mundo antes de que existiera la ciencia</mark>. Zeus, Atenea o Hércules son personajes muy conocidos. Sus historias siguen inspirando libros y películas hoy."
+      "respuesta": "Es el conjunto de historias sobre los dioses y héroes griegos. <mark>Explicaban el mundo antes de que existiera la ciencia</mark>. Zeus, Atenea o Hércules son personajes muy conocidos. Sus historias siguen inspirando libros y películas hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/zeus-cabeza.jpg",
+        "alt": "La cabeza de una estatua de Zeus",
+        "titulo": "Colossal head of a statue of Zeus. Marble. Second half of the 2nd c. BC",
+        "autor": "Tilemahos Efthimiadis",
+        "fuente": "https://www.flickr.com/photos/64379474@N00/3470806199",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia había entre Atenas y Esparta?",
-      "respuesta": "Atenas valoraba la democracia, el arte y el pensamiento. <mark>Esparta, en cambio, centraba casi todo en formar buenos guerreros</mark>. Los niños espartanos empezaban entrenamiento militar muy pequeños. Ambas eran polis griegas, pero con formas de vida opuestas."
+      "respuesta": "Atenas valoraba la democracia, el arte y el pensamiento. <mark>Esparta, en cambio, centraba casi todo en formar buenos guerreros</mark>. Los niños espartanos empezaban entrenamiento militar muy pequeños. Ambas eran polis griegas, pero con formas de vida opuestas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/casco-corintio.jpg",
+        "alt": "Un casco griego antiguo de bronce",
+        "titulo": "Corinthian Helmet",
+        "autor": "Egisto Sani",
+        "fuente": "https://www.flickr.com/photos/69716881@N02/26787860537",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hacían los filósofos griegos?",
-      "respuesta": "Se hacían preguntas sobre el mundo, la vida y la verdad. <mark>No aceptaban una respuesta sin antes pensarla y cuestionarla</mark>. Sócrates, Platón y Aristóteles son los más conocidos. Su forma de pensar sigue influyendo en la ciencia y la educación actuales."
+      "respuesta": "Se hacían preguntas sobre el mundo, la vida y la verdad. <mark>No aceptaban una respuesta sin antes pensarla y cuestionarla</mark>. Sócrates, Platón y Aristóteles son los más conocidos. Su forma de pensar sigue influyendo en la ciencia y la educación actuales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/conocete-a-ti-mismo.jpg",
+        "alt": "'Conócete a ti mismo', la máxima filosófica grabada en el templo de Delfos",
+        "titulo": "Conocete a tí mismo",
+        "autor": "=mc2",
+        "fuente": "https://www.flickr.com/photos/47122137@N00/174385761",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué legado dejó la Antigua Grecia?",
-      "respuesta": "Dejó ideas como la democracia, el teatro y la filosofía. <mark>Muchas palabras y edificios actuales todavía se inspiran en Grecia</mark>. Pensadores como Sócrates siguen estudiándose hoy. Por eso se dice que Grecia es una de las raíces de la cultura occidental."
+      "respuesta": "Dejó ideas como la democracia, el teatro y la filosofía. <mark>Muchas palabras y edificios actuales todavía se inspiran en Grecia</mark>. Pensadores como Sócrates siguen estudiándose hoy. Por eso se dice que Grecia es una de las raíces de la cultura occidental.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_4/acropolis-legado.jpg",
+        "alt": "La Acrópolis de Atenas, legado de la Antigua Grecia",
+        "titulo": "Acropolis of Athens",
+        "autor": "Ronny Siegel",
+        "fuente": "https://www.flickr.com/photos/47309201@N02/9262063690",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

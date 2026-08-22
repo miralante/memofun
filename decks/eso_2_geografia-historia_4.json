@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué cambios trajo la Baja Edad Media a las ciudades europeas?",
-      "respuesta": "Las ciudades crecieron y ganaron peso frente al campo feudal. <mark>Es como si el centro de la vida se trasladara del castillo a la plaza del mercado</mark>. Surgió una nueva clase social dedicada al comercio, la burguesía. Ese cambio preparó el camino hacia el mundo moderno."
+      "respuesta": "Las ciudades crecieron y ganaron peso frente al campo feudal. <mark>Es como si el centro de la vida se trasladara del castillo a la plaza del mercado</mark>. Surgió una nueva clase social dedicada al comercio, la burguesía. Ese cambio preparó el camino hacia el mundo moderno.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/cambios-ciudades.jpg",
+        "alt": "La plaza del casco antiguo de una ciudad medieval",
+        "titulo": "Warsaw, Old Town Square",
+        "autor": "Arian Zwegers",
+        "fuente": "https://www.flickr.com/photos/67769030@N07/6467845903",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era la burguesía medieval?",
-      "respuesta": "Era un grupo social formado por comerciantes y artesanos de las ciudades. <mark>No eran nobles ni campesinos: formaban un grupo nuevo, intermedio</mark>. Se hicieron ricos gracias al comercio, no a la tierra. Con el tiempo, ganaron cada vez más influencia en la sociedad."
+      "respuesta": "Era un grupo social formado por comerciantes y artesanos de las ciudades. <mark>No eran nobles ni campesinos: formaban un grupo nuevo, intermedio</mark>. Se hicieron ricos gracias al comercio, no a la tierra. Con el tiempo, ganaron cada vez más influencia en la sociedad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/burguesia.jpg",
+        "alt": "Una ciudad medieval con sus casas y calles",
+        "titulo": "Medieval town",
+        "autor": "enneafive",
+        "fuente": "https://www.flickr.com/photos/75612671@N03/27163679217",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué eran los gremios?",
-      "respuesta": "Eran asociaciones de artesanos del mismo oficio, como zapateros o panaderos. <mark>Funcionaban casi como un sindicato antiguo, defendiendo su propio oficio</mark>. Fijaban normas de calidad y precios para sus productos. También enseñaban el oficio a los aprendices más jóvenes."
+      "respuesta": "Eran asociaciones de artesanos del mismo oficio, como zapateros o panaderos. <mark>Funcionaban casi como un sindicato antiguo, defendiendo su propio oficio</mark>. Fijaban normas de calidad y precios para sus productos. También enseñaban el oficio a los aprendices más jóvenes.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/gremios.jpg",
+        "alt": "Un artesano trabajando la madera en su taller",
+        "titulo": "Elderly craftsman working with wood in a rustic workshop",
+        "autor": "nenadstojkovicart",
+        "fuente": "https://www.flickr.com/photos/202846129@N03/54567806627",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué crisis afectó a Europa en la Baja Edad Media?",
-      "respuesta": "Una gran peste, guerras y malas cosechas golpearon a la población. <mark>Se calcula que la peste negra mató a una tercera parte de la población europea</mark>. Esa crisis debilitó el sistema feudal tradicional. Tras ella, la sociedad medieval empezó a transformarse poco a poco."
+      "respuesta": "Una gran peste, guerras y malas cosechas golpearon a la población. <mark>Se calcula que la peste negra mató a una tercera parte de la población europea</mark>. Esa crisis debilitó el sistema feudal tradicional. Tras ella, la sociedad medieval empezó a transformarse poco a poco.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/crisis-baja-edad-media.jpg",
+        "alt": "Un campo de cosecha dorado",
+        "titulo": "Harvest",
+        "autor": "Frank Shepherd",
+        "fuente": "https://www.flickr.com/photos/142252831@N04/26112552723",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el arte gótico?",
-      "respuesta": "Es el estilo artístico que siguió al románico, con catedrales más altas y luminosas. <mark>Sus paredes casi desaparecen, sustituidas por enormes ventanales de colores</mark>. Usa arcos apuntados y estructuras que permiten edificios más ligeros. Buscaba que la luz entrara como un símbolo de lo divino."
+      "respuesta": "Es el estilo artístico que siguió al románico, con catedrales más altas y luminosas. <mark>Sus paredes casi desaparecen, sustituidas por enormes ventanales de colores</mark>. Usa arcos apuntados y estructuras que permiten edificios más ligeros. Buscaba que la luz entrara como un símbolo de lo divino.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/catedral-gotica-toledo.jpg",
+        "alt": "La catedral gótica de Toledo, con grandes vidrieras",
+        "titulo": "Catedral Gótica Toledo",
+        "autor": "Linaresjoa",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35668037",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia al arte gótico del románico?",
-      "respuesta": "El románico usa muros gruesos y ventanas pequeñas, como una fortaleza. <mark>El gótico, en cambio, parece casi de cristal, con grandes vidrieras de colores</mark>. El gótico permitió construir catedrales mucho más altas. Ambos estilos buscaban lo mismo, pero de forma muy distinta."
+      "respuesta": "El románico usa muros gruesos y ventanas pequeñas, como una fortaleza. <mark>El gótico, en cambio, parece casi de cristal, con grandes vidrieras de colores</mark>. El gótico permitió construir catedrales mucho más altas. Ambos estilos buscaban lo mismo, pero de forma muy distinta.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/gotico-romanico.jpg",
+        "alt": "Una gran vidriera circular de una catedral gótica",
+        "titulo": "Chartres - cathédrale - rosace nord",
+        "autor": "Eusebius@Commons",
+        "fuente": "https://www.flickr.com/photos/35854555@N04/3318918018",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue Al-Ándalus?",
-      "respuesta": "Fue el territorio de la Península Ibérica bajo dominio musulmán. <mark>Duró casi ochocientos años, desde el siglo ocho hasta el quince</mark>. Su capital más importante fue Córdoba. Fue uno de los centros culturales más avanzados de la Europa medieval."
+      "respuesta": "Fue el territorio de la Península Ibérica bajo dominio musulmán. <mark>Duró casi ochocientos años, desde el siglo ocho hasta el quince</mark>. Su capital más importante fue Córdoba. Fue uno de los centros culturales más avanzados de la Europa medieval.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/al-andalus.jpg",
+        "alt": "El exterior de la Mezquita de Córdoba",
+        "titulo": "Exterior of the Mezquita in Cordoba, Spain",
+        "autor": "Bogdan Migulski",
+        "fuente": "https://www.flickr.com/photos/20172348@N00/3160465027",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo evolucionó políticamente Al-Ándalus?",
-      "respuesta": "Pasó de emirato a califato, y luego se dividió en pequeños reinos llamados taifas. <mark>Es como un gran país que, con el tiempo, se fue fragmentando en piezas más pequeñas</mark>. Esa división debilitó su poder frente a los reinos cristianos. Con el tiempo, esos territorios fueron reduciéndose hasta desaparecer."
+      "respuesta": "Pasó de emirato a califato, y luego se dividió en pequeños reinos llamados taifas. <mark>Es como un gran país que, con el tiempo, se fue fragmentando en piezas más pequeñas</mark>. Esa división debilitó su poder frente a los reinos cristianos. Con el tiempo, esos territorios fueron reduciéndose hasta desaparecer.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/evolucion-al-andalus.jpg",
+        "alt": "Un mosaico formado por muchas piezas pequeñas",
+        "titulo": "peace mosaic",
+        "autor": "le dieu",
+        "fuente": "https://www.flickr.com/photos/36521977946@N01/1449008441",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué destacaba de la sociedad y el arte de Al-Ándalus?",
-      "respuesta": "Convivían musulmanes, cristianos y judíos, aunque no siempre en igualdad. <mark>Sus ciudades eran centros de comercio, ciencia y arte muy avanzados</mark>. La Mezquita de Córdoba y la Alhambra de Granada son ejemplos de su arte. Ese legado sigue siendo visible hoy en el sur de España."
+      "respuesta": "Convivían musulmanes, cristianos y judíos, aunque no siempre en igualdad. <mark>Sus ciudades eran centros de comercio, ciencia y arte muy avanzados</mark>. La Mezquita de Córdoba y la Alhambra de Granada son ejemplos de su arte. Ese legado sigue siendo visible hoy en el sur de España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/alhambra-granada.jpg",
+        "alt": "Un salón de la Alhambra de Granada, arte de Al-Ándalus",
+        "titulo": "Nasrid Palaces - The Alhambra - Granada",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/14443071617",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la repoblación de los territorios conquistados a Al-Ándalus?",
-      "respuesta": "Fue el proceso de llevar población cristiana a vivir en las nuevas tierras conquistadas. <mark>Es como volver a llenar un territorio que había cambiado de manos</mark>. Se repartían tierras entre nobles, órdenes militares y campesinos. Así se aseguraba el control cristiano de esos territorios."
+      "respuesta": "Fue el proceso de llevar población cristiana a vivir en las nuevas tierras conquistadas. <mark>Es como volver a llenar un territorio que había cambiado de manos</mark>. Se repartían tierras entre nobles, órdenes militares y campesinos. Así se aseguraba el control cristiano de esos territorios.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/repoblacion.jpg",
+        "alt": "Un pueblo medieval con su torre de iglesia",
+        "titulo": "Lavenham & Church Tower Open Day 06-08-2011",
+        "autor": "Karen Roe",
+        "fuente": "https://www.flickr.com/photos/28752865@N08/6131086490",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el Camino de Santiago en la Edad Media?",
-      "respuesta": "Fue una ruta de peregrinación hacia la tumba del apóstol Santiago, en Galicia. <mark>Miles de personas caminaban semanas o meses para llegar hasta allí</mark>. A su paso surgieron pueblos, hospitales y monasterios. También ayudó a que ideas y arte viajaran por toda Europa."
+      "respuesta": "Fue una ruta de peregrinación hacia la tumba del apóstol Santiago, en Galicia. <mark>Miles de personas caminaban semanas o meses para llegar hasta allí</mark>. A su paso surgieron pueblos, hospitales y monasterios. También ayudó a que ideas y arte viajaran por toda Europa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/camino-santiago.jpg",
+        "alt": "El Camino de Santiago, una ruta de peregrinación medieval",
+        "titulo": "Camino de Santiago",
+        "autor": "FreeCat",
+        "fuente": "https://www.flickr.com/photos/17364971@N00/58438781",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Corona de Castilla?",
-      "respuesta": "Fue uno de los grandes reinos cristianos medievales de la península. <mark>Con el tiempo se convirtió en el territorio más extenso de Hispania</mark>. Tenía como lengua principal el castellano. Su expansión hacia el sur avanzó a costa de Al-Ándalus."
+      "respuesta": "Fue uno de los grandes reinos cristianos medievales de la península. <mark>Con el tiempo se convirtió en el territorio más extenso de Hispania</mark>. Tenía como lengua principal el castellano. Su expansión hacia el sur avanzó a costa de Al-Ándalus.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/corona-castilla.jpg",
+        "alt": "Una fortaleza medieval española en las montañas",
+        "titulo": "Mountains on the road from Cordoba and Granada - La Mota Fortress - Alcala la Real",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/14338169727",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Corona de Aragón?",
-      "respuesta": "Fue otro gran reino cristiano medieval, con fuerte tradición marítima. <mark>Su poder se extendió también por el mar Mediterráneo, no solo por tierra</mark>. Unía los territorios de Aragón, Cataluña y Valencia, entre otros. Su comercio conectaba la península con Italia y el norte de África."
+      "respuesta": "Fue otro gran reino cristiano medieval, con fuerte tradición marítima. <mark>Su poder se extendió también por el mar Mediterráneo, no solo por tierra</mark>. Unía los territorios de Aragón, Cataluña y Valencia, entre otros. Su comercio conectaba la península con Italia y el norte de África.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/corona-aragon.jpg",
+        "alt": "Un puerto mediterráneo con barcos",
+        "titulo": "Istanbul",
+        "autor": "Senol Demir",
+        "fuente": "https://www.flickr.com/photos/10152923@N03/2217955298",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferenciaban Castilla y Aragón como reinos medievales?",
-      "respuesta": "Castilla creció sobre todo hacia el sur, ganando terreno a Al-Ándalus. <mark>Aragón, en cambio, expandió su poder por el Mediterráneo, con barcos y comercio</mark>. Ambos reinos tenían lenguas, leyes e instituciones propias. Con el tiempo, la unión de ambos daría origen a España."
+      "respuesta": "Castilla creció sobre todo hacia el sur, ganando terreno a Al-Ándalus. <mark>Aragón, en cambio, expandió su poder por el Mediterráneo, con barcos y comercio</mark>. Ambos reinos tenían lenguas, leyes e instituciones propias. Con el tiempo, la unión de ambos daría origen a España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/diferencia-castilla-aragon.jpg",
+        "alt": "Las murallas romanas de Tarragona, en la Corona de Aragón",
+        "titulo": "La Torre de l'Arquebisbe / Roman walls of Tarragona",
+        "autor": "SBA73",
+        "fuente": "https://www.flickr.com/photos/7455207@N05/3683563587",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el arte mudéjar?",
-      "respuesta": "Es un estilo que mezcla técnicas islámicas con edificios cristianos. <mark>Lo hacían artesanos musulmanes que seguían trabajando en territorio ya cristiano</mark>. Se reconoce por sus decoraciones geométricas en ladrillo y azulejo. Es un ejemplo claro de mezcla cultural en la España medieval."
+      "respuesta": "Es un estilo que mezcla técnicas islámicas con edificios cristianos. <mark>Lo hacían artesanos musulmanes que seguían trabajando en territorio ya cristiano</mark>. Se reconoce por sus decoraciones geométricas en ladrillo y azulejo. Es un ejemplo claro de mezcla cultural en la España medieval.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/arte-mudejar.jpg",
+        "alt": "La torre mudéjar de San Martín, en Teruel",
+        "titulo": "Torre de San Martín, Teruel",
+        "autor": "Toni Rodrigo",
+        "fuente": "https://www.flickr.com/photos/23419624@N06/2410149864",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué otros estilos artísticos convivieron en la España medieval?",
-      "respuesta": "El arte asturiano, el mozárabe, el románico, el gótico y el mudéjar, entre otros. <mark>Es como un mosaico de estilos, cada uno con su propia influencia</mark>. Cada estilo reflejaba la cultura de quien lo construyó. Esa variedad hace única la historia del arte español medieval."
+      "respuesta": "El arte asturiano, el mozárabe, el románico, el gótico y el mudéjar, entre otros. <mark>Es como un mosaico de estilos, cada uno con su propia influencia</mark>. Cada estilo reflejaba la cultura de quien lo construyó. Esa variedad hace única la historia del arte español medieval.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_4/otros-estilos.jpg",
+        "alt": "El Alcázar de Toledo, ejemplo de la mezcla de estilos españoles",
+        "titulo": "Alcázar of Toledo",
+        "autor": "kevinpoh",
+        "fuente": "https://www.flickr.com/photos/7679455@N03/14082316864",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -12,10 +12,9 @@ expression, level of experience, education, socio-economic status,
 nationality, personal appearance, race, religion, or sexual identity
 and orientation.
 
-Since Memofun exists so that students with an intellectual disability
-can study autonomously and without barriers, we expect that same
-spirit of clarity, patience, and respect in how contributors treat one
-another.
+Since Memofun exists so that our typical user profile can study
+autonomously and without barriers, we expect that same spirit of
+clarity, patience, and respect in how contributors treat one another.
 
 ## Our standards
 

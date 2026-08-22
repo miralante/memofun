@@ -5,83 +5,243 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el autoconocimiento profesional?",
-      "respuesta": "Es identificar tus propias capacidades, intereses y valores relacionados con el trabajo. <mark>Es como hacer un mapa de quién eres antes de decidir hacia dónde caminar profesionalmente</mark>. Es el primer paso para construir un buen itinerario profesional."
+      "respuesta": "Es identificar tus propias capacidades, intereses y valores relacionados con el trabajo. <mark>Es como hacer un mapa de quién eres antes de decidir hacia dónde caminar profesionalmente</mark>. Es el primer paso para construir un buen itinerario profesional.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/espejo-reflejo.jpg",
+        "alt": "Un reflejo en un espejo, como el autoconocimiento",
+        "titulo": "Some Photons the Mirror Didn't Want",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/2247035972",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un itinerario formativo-profesional?",
-      "respuesta": "Es el camino de formación y experiencia que sigue una persona a lo largo de su vida laboral. <mark>Es como planificar las etapas de un viaje, sabiendo a dónde quieres llegar</mark>. Puede incluir estudios, cursos o experiencias laborales distintas."
+      "respuesta": "Es el camino de formación y experiencia que sigue una persona a lo largo de su vida laboral. <mark>Es como planificar las etapas de un viaje, sabiendo a dónde quieres llegar</mark>. Puede incluir estudios, cursos o experiencias laborales distintas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/sendero-camino.jpg",
+        "alt": "Un sendero que representa un camino por recorrer",
+        "titulo": "Great Western Trail",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.flickr.com/photos",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué caracteriza al mercado laboral del sector administrativo?",
-      "respuesta": "Ofrece empleo en oficinas, empresas y administraciones de todo tipo de sectores. <mark>Es un mercado muy transversal: casi cualquier empresa necesita perfiles administrativos</mark>. Valora la organización, la atención al detalle y el manejo de herramientas informáticas."
+      "respuesta": "Ofrece empleo en oficinas, empresas y administraciones de todo tipo de sectores. <mark>Es un mercado muy transversal: casi cualquier empresa necesita perfiles administrativos</mark>. Valora la organización, la atención al detalle y el manejo de herramientas informáticas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/trabajador-oficina.jpg",
+        "alt": "Una persona trabajando en una oficina",
+        "titulo": "Office Worker",
+        "autor": "Much Ramblings",
+        "fuente": "https://www.flickr.com/photos/48837722@N04/8076500975",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la búsqueda activa de empleo?",
-      "respuesta": "Es el conjunto de acciones que se hacen para encontrar trabajo de forma organizada. <mark>Es como planificar una búsqueda, en vez de esperar a que el trabajo llegue solo</mark>. Cuanto más activa y organizada, mayores son las probabilidades de éxito."
+      "respuesta": "Es el conjunto de acciones que se hacen para encontrar trabajo de forma organizada. <mark>Es como planificar una búsqueda, en vez de esperar a que el trabajo llegue solo</mark>. Cuanto más activa y organizada, mayores son las probabilidades de éxito.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/busqueda-empleo-online.jpg",
+        "alt": "Una persona buscando empleo en el ordenador",
+        "titulo": "Chase shares tips on online job searching",
+        "autor": "Gangplank HQ",
+        "fuente": "https://www.flickr.com/photos/61212734@N02/5590138183",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un currículum vitae?",
-      "respuesta": "Es el documento que resume la formación y la experiencia de una persona. <mark>Es como una tarjeta de presentación profesional, pensada para convencer a quien lo lee</mark>. Debe ser claro, breve y adaptado al puesto al que se opta."
+      "respuesta": "Es el documento que resume la formación y la experiencia de una persona. <mark>Es como una tarjeta de presentación profesional, pensada para convencer a quien lo lee</mark>. Debe ser claro, breve y adaptado al puesto al que se opta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/curriculum-busqueda-empleo.jpg",
+        "alt": "Una persona preparando su currículum para buscar empleo",
+        "titulo": "Jobseeker Makeover story featuring Julie Walraven",
+        "autor": "JulieWalraven",
+        "fuente": "https://www.flickr.com/photos/35873052@N05/5482200130",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una carta de presentación?",
-      "respuesta": "Es un texto breve que acompaña al currículum, explicando por qué interesa el puesto. <mark>Es como una introducción personal antes de que lean tu currículum completo</mark>. Permite destacar motivación y aspectos que el currículum no explica del todo."
+      "respuesta": "Es un texto breve que acompaña al currículum, explicando por qué interesa el puesto. <mark>Es como una introducción personal antes de que lean tu currículum completo</mark>. Permite destacar motivación y aspectos que el currículum no explica del todo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/sobre-carta.webp",
+        "alt": "Un sobre de carta cerrado",
+        "titulo": "lick the envelope",
+        "autor": "{studiobeerhorst}-bbmarie",
+        "fuente": "https://www.flickr.com/photos/74782490@N00/8029186137",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué elementos tiene un contrato de trabajo?",
-      "respuesta": "Las partes que lo firman, la duración, el salario y las condiciones del puesto. <mark>Es como un acuerdo por escrito que fija las reglas del juego entre empresa y trabajador</mark>. Debe respetar siempre los derechos laborales mínimos."
+      "respuesta": "Las partes que lo firman, la duración, el salario y las condiciones del puesto. <mark>Es como un acuerdo por escrito que fija las reglas del juego entre empresa y trabajador</mark>. Debe respetar siempre los derechos laborales mínimos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/firma-contrato.jpg",
+        "alt": "Alguien firmando un contrato",
+        "titulo": "Legal Contract & Signature - Cool Tones",
+        "autor": "Visual Content",
+        "fuente": "https://www.flickr.com/photos/143601516@N03/27571322193",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tipos de contrato de trabajo existen?",
-      "respuesta": "Contratos indefinidos, temporales, a tiempo parcial o en prácticas, entre otros. <mark>Cada tipo se adapta a una necesidad distinta de la empresa o del trabajador</mark>. El tipo de contrato afecta a derechos como la indemnización."
+      "respuesta": "Contratos indefinidos, temporales, a tiempo parcial o en prácticas, entre otros. <mark>Cada tipo se adapta a una necesidad distinta de la empresa o del trabajador</mark>. El tipo de contrato afecta a derechos como la indemnización.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/carpetas-tipos.jpg",
+        "alt": "Distintas carpetas de colores, cada una diferente",
+        "titulo": "Stacked folders clipart, office stationery",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué son los derechos laborales?",
-      "respuesta": "Son las garantías mínimas que protegen a cualquier persona trabajadora. <mark>Es como una red de seguridad que nadie puede quitarte, esté donde esté</mark>. Incluyen el descanso, un salario justo o la protección frente a despidos injustos."
+      "respuesta": "Son las garantías mínimas que protegen a cualquier persona trabajadora. <mark>Es como una red de seguridad que nadie puede quitarte, esté donde esté</mark>. Incluyen el descanso, un salario justo o la protección frente a despidos injustos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/red-seguridad.jpg",
+        "alt": "Una red de seguridad",
+        "titulo": "Safety netting protecting the spectators at an NHL hockey game, United Center, Chicago 2015-03-30, Blackhawks vs. Los Angeles Kings",
+        "autor": "mareklug",
+        "fuente": "https://www.flickr.com/photos/34670352@N07/16804872140",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los deberes laborales?",
-      "respuesta": "Son las obligaciones que debe cumplir toda persona trabajadora en su empleo. <mark>Es la otra cara de los derechos: lo que se espera de ti a cambio</mark>. Incluyen cumplir el horario, respetar las normas y trabajar con diligencia."
+      "respuesta": "Son las obligaciones que debe cumplir toda persona trabajadora en su empleo. <mark>Es la otra cara de los derechos: lo que se espera de ti a cambio</mark>. Incluyen cumplir el horario, respetar las normas y trabajar con diligencia.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/despertador.jpg",
+        "alt": "Un despertador que marca la hora",
+        "titulo": "Alarm Clock 1",
+        "autor": "Alan Cleaver",
+        "fuente": "https://www.flickr.com/photos/11121568@N06/4293345631",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la nómina?",
-      "respuesta": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo cada mes</mark>. Incluye el salario bruto, las retenciones y el salario neto final."
+      "respuesta": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo cada mes</mark>. Incluye el salario bruto, las retenciones y el salario neto final.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/dinero-nomina.jpg",
+        "alt": "Billetes de dinero representando un salario",
+        "titulo": "Bicentennial Money",
+        "autor": "rynosoft",
+        "fuente": "https://www.flickr.com/photos/10692244@N00/3301890426",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la afiliación a la Seguridad Social?",
-      "respuesta": "Es el registro que da acceso a las prestaciones y a la protección social del trabajador. <mark>Es como estar inscrito en un sistema que te cubre ante enfermedad, jubilación o desempleo</mark>. Es obligatoria para quien trabaje legalmente."
+      "respuesta": "Es el registro que da acceso a las prestaciones y a la protección social del trabajador. <mark>Es como estar inscrito en un sistema que te cubre ante enfermedad, jubilación o desempleo</mark>. Es obligatoria para quien trabaje legalmente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/tarjeta-sanitaria.jpg",
+        "alt": "Una tarjeta sanitaria europea",
+        "titulo": "European Health Insurance Card",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.muis.ee/museaalView/3814217",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué son las prestaciones de la Seguridad Social?",
-      "respuesta": "Son ayudas económicas o servicios que ofrece el sistema en situaciones concretas. <mark>Es como un paraguas que te protege cuando llueve: enfermedad, paro o jubilación</mark>. Se financian con las cotizaciones de empresas y trabajadores."
+      "respuesta": "Son ayudas económicas o servicios que ofrece el sistema en situaciones concretas. <mark>Es como un paraguas que te protege cuando llueve: enfermedad, paro o jubilación</mark>. Se financian con las cotizaciones de empresas y trabajadores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/paraguas-proteccion.jpg",
+        "alt": "Paraguas abiertos protegiendo de la lluvia",
+        "titulo": "Umbrellas",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.flickr.com/photos",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la prevención de riesgos laborales?",
-      "respuesta": "Es el conjunto de medidas para evitar accidentes y enfermedades en el trabajo. <mark>Es como anticiparse a un peligro antes de que llegue a causar un daño real</mark>. Incluye formación, equipos de protección y buenas prácticas en el puesto."
+      "respuesta": "Es el conjunto de medidas para evitar accidentes y enfermedades en el trabajo. <mark>Es como anticiparse a un peligro antes de que llegue a causar un daño real</mark>. Incluye formación, equipos de protección y buenas prácticas en el puesto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/casco-seguridad.jpg",
+        "alt": "Un casco de seguridad laboral",
+        "titulo": "Safety first",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.flickr.com/photos",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante el trabajo en equipo en un entorno laboral?",
-      "respuesta": "Porque permite repartir tareas y aprovechar mejor las habilidades de cada persona. <mark>Es como remar todos en la misma dirección, en vez de cada uno por su cuenta</mark>. También ayuda a resolver problemas más rápido entre varias personas."
+      "respuesta": "Porque permite repartir tareas y aprovechar mejor las habilidades de cada persona. <mark>Es como remar todos en la misma dirección, en vez de cada uno por su cuenta</mark>. También ayuda a resolver problemas más rápido entre varias personas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/trabajo-equipo.jpg",
+        "alt": "Un equipo trabajando junto y coordinado",
+        "titulo": "Teamwork",
+        "autor": "dolbinator1000",
+        "fuente": "https://www.flickr.com/photos/126654539@N08/17889148419",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede resolver un conflicto en el trabajo?",
-      "respuesta": "Escuchando a todas las partes y buscando una solución que beneficie a todos. <mark>Es como negociar hasta encontrar un punto en el que todos ceden un poco</mark>. Aprender a gestionarlo bien mejora mucho el ambiente de trabajo."
+      "respuesta": "Escuchando a todas las partes y buscando una solución que beneficie a todos. <mark>Es como negociar hasta encontrar un punto en el que todos ceden un poco</mark>. Aprender a gestionarlo bien mejora mucho el ambiente de trabajo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/acuerdo-negociacion.jpg",
+        "alt": "Personas llegando a un acuerdo en una reunión",
+        "titulo": "20140102 Special Measures Agreement",
+        "autor": "UNC - CFC - USFK",
+        "fuente": "https://www.flickr.com/photos/35352823@N06/12265244455",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante gestionar bien el tiempo en el trabajo?",
-      "respuesta": "Porque ayuda a cumplir tareas y plazos sin acumular estrés innecesario. <mark>Es como repartir bien las horas del día para que nada se quede sin hacer</mark>. Una buena gestión del tiempo mejora tanto el rendimiento como el bienestar."
+      "respuesta": "Porque ayuda a cumplir tareas y plazos sin acumular estrés innecesario. <mark>Es como repartir bien las horas del día para que nada se quede sin hacer</mark>. Una buena gestión del tiempo mejora tanto el rendimiento como el bienestar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/reloj-tiempo.jpg",
+        "alt": "Un reloj representando el paso del tiempo",
+        "titulo": "Time",
+        "autor": "John-Morgan",
+        "fuente": "https://www.flickr.com/photos/24742305@N00/2331754875",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el estrés laboral y la salud?",
-      "respuesta": "Un estrés mantenido en el tiempo puede afectar tanto a la salud física como a la mental. <mark>Es como una cuerda tensada durante demasiado tiempo, que acaba desgastándose</mark>. Aprender a gestionarlo ayuda a mantener un buen equilibrio."
+      "respuesta": "Un estrés mantenido en el tiempo puede afectar tanto a la salud física como a la mental. <mark>Es como una cuerda tensada durante demasiado tiempo, que acaba desgastándose</mark>. Aprender a gestionarlo ayuda a mantener un buen equilibrio.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/dolor-espalda-oficina.jpg",
+        "alt": "Un hombre con dolor de espalda en la oficina",
+        "titulo": "Young office man suffering from backache",
+        "autor": "Güel - Centro de Wellness Murcia",
+        "fuente": "https://www.flickr.com/photos/147909363@N06/33379319145",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la educación financiera básica?",
-      "respuesta": "Es saber gestionar el propio dinero de forma responsable, con ingresos y gastos. <mark>Es como aprender a llevar bien las cuentas de tu propia vida, no solo las de una empresa</mark>. Incluye saber ahorrar y evitar deudas innecesarias."
+      "respuesta": "Es saber gestionar el propio dinero de forma responsable, con ingresos y gastos. <mark>Es como aprender a llevar bien las cuentas de tu propia vida, no solo las de una empresa</mark>. Incluye saber ahorrar y evitar deudas innecesarias.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/hucha-ahorro.jpg",
+        "alt": "Una hucha para ahorrar dinero",
+        "titulo": "Piggy Bank",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5930033784",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se incluye la educación financiera en un módulo sobre empleabilidad?",
-      "respuesta": "Porque gestionar bien el propio dinero forma parte de la autonomía personal y laboral. <mark>Saber administrar un sueldo es tan importante como saber conseguirlo</mark>. Ayuda a tomar mejores decisiones al firmar un contrato o negociar un salario."
+      "respuesta": "Porque gestionar bien el propio dinero forma parte de la autonomía personal y laboral. <mark>Saber administrar un sueldo es tan importante como saber conseguirlo</mark>. Ayuda a tomar mejores decisiones al firmar un contrato o negociar un salario.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1/calculadora.jpg",
+        "alt": "Una calculadora para gestionar un presupuesto",
+        "titulo": "Calculator",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5856725357",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -128,6 +128,11 @@ No hay cronómetros visibles. El ritmo lo marca la persona usuaria.
 ### 2.4 Lectura Fácil siempre
 
 - Frases cortas, una idea por frase, vocabulario cotidiano.
+  - Métrica concreta: **2–5 frases por respuesta**, **≤ 12 palabras por
+    frase**. La cifra `<= 12` viene del estándar UNE 153101:2018 EX
+    para lectura fácil y se aplica a todas las tarjetas — ver
+    `CLAUDE.md` §"Generating deck content" para el detalle de cada
+    nivel (`principiante` / `intermedio` / `avanzado`).
 - Sin lenguaje clínico en la interfaz ni en las tarjetas ("paciente",
   "discapacidad", etc. — ver la regla correspondiente en "Generating
   deck content" de `CLAUDE.md`).
@@ -172,7 +177,10 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
 ### 2.7 Accesibilidad universal
 
 - Botones ≥ 64×64 px, separación ≥ 16 px.
-- Contraste WCAG AA mínimo, tema claro por defecto.
+- Alto contraste (WCAG AA mínimo, AAA cuando sea posible), tema claro
+  por defecto — ver `tecnico.md` §X para los criterios AAA que este
+  proyecto honra y por qué la conformidad AAA completa no es viable
+  para una aplicación web.
 - Tipografía grande (base 20 px), Atkinson Hyperlegible / Nunito.
 - Audio (🔊, Web Speech API) solo bajo demanda, nunca automático.
 - Navegación completa por teclado, `prefers-reduced-motion` respetado.
@@ -195,9 +203,101 @@ precisamente para no necesitar Python, ni una librería de lectura de
 SQLite/ZIP en el navegador. Menos piezas móviles, menos superficie de
 ataque, más fácil de mantener por cualquiera que sepa HTML/CSS/JS.
 
+### 2.10 Eufemismo público: "usuario/a tipo"
+
+Cuando se presenta Memofun de cara al **público general** (prensa,
+charlas, READMEs públicos que cualquiera pueda leer, el portal
+`apptonomia.uk`, notas en redes sociales, marketing), el término
+"discapacidad intelectual" **no debe usarse** para describir la
+audiencia de la app, ni siquiera cuando el texto que lo rodea sería
+público. El eufemismo aceptado en esas superficies para referirse a la
+audiencia es **"usuario/a tipo"** (plural "usuarios/as tipo"),
+entendido como marcador genérico de perfil, no como etiqueta para
+ninguna persona real.
+
+Dónde se aplica y dónde no:
+
+- **Se aplica** a cualquier texto que cualquier persona ajena al
+  proyecto pueda leer sin autenticarse: `README.es.md`, `README.md`,
+  el portal en `apptonomia.uk`, charlas públicas, copy en redes, notas
+  de prensa, material de marketing. En estas superficies se habla de
+  la audiencia como "el/la usuario/a tipo" o "los/las usuarios/as
+  tipo" de la app.
+- **No se aplica** a la documentación interna de este repositorio
+  (`CLAUDE.md`, `doc/es/SPEC.md`, `doc/en/SPEC.md`, `tecnico.md`,
+  `roles.md`, `CONTRIBUTING.es.md`, `CONTRIBUTING.md`) — esos
+  archivos los lee quien mantiene o contribuye al proyecto, y
+  "discapacidad intelectual" sigue siendo allí el término canónico,
+  porque el proyecto necesita explicar sin ambigüedad su objetivo real
+  a quien lo mantiene.
+- **No se aplica** al contenido de las barajas que nombra un concepto
+  clínico por su nombre real (p. ej. una tarjeta que explica un
+  trámite administrativo relacionado con discapacidad): eso es
+  contenido, no etiquetado de la audiencia.
+- **No se aplica** a la UI de la propia app: la regla de §2.4 sigue
+  prohibiendo **cualquier** mención, incluida "usuario/a tipo", en
+  `index.html`, `app.js`, `tools/study/`, `settings/`,
+  `strings.<locale>.js` y cualquier otra superficie visible. El
+  eufemismo es para el exterior, no para lo que lee quien visita la
+  app.
+
+Razón: presentar el objetivo real del proyecto en documentación interna
+es útil y necesario; presentarlo en superficies de marketing o landing
+no es necesario ni respetuoso con la audiencia — "usuario/a tipo"
+permite describir en público para qué sirve la app (qué perfil tiene
+quien la usa) sin nombrar públicamente un grupo clínico.
+
 ---
 
-## 3. Separación de flujos
+## 3. Comunicación persuasiva al servicio del aprendizaje
+
+Memofun es una herramienta de repaso, no un producto de consumo. La
+motivación para estudiar una baraja debe ser **intrínseca** — el
+placer de entender un concepto, la confianza de poder explicarlo —,
+nunca **extrínseca** ni basada en presión. Por eso los patrones de
+mercado que dependen de escasez, comparación o miedo a perder
+**no pueden** aparecer en ningún punto del sitio. Esta regla es
+suite-wide y se comparte con Apptonomia, Calculia, Okeymoney,
+Sinonimia, Teclatlon y Routime; la lista concreta es la misma en los
+siete proyectos para que ningún patrón que se rechace aquí pueda
+entrar por la puerta de otro.
+
+### 3.7 La lista cerrada de patrones prohibidos
+
+Los siguientes patrones forman parte de la "presión" que Memofun
+destierra y **no pueden** aparecer en ningún punto del sitio ni en
+ninguna tarjeta del contenido:
+
+- **Escasez**: "¡Solo te queda 1!", "Última oportunidad", "Date
+  prisa", cuentas atrás, barajas o tarjetas que desaparecen.
+- **Falsa urgencia**: cronómetros, carreras, "termina pronto",
+  castigar la lentitud. Conecta directamente con §2.3 "Sin presión
+  temporal".
+- **Prueba social convertida en presión**: rankings, posiciones,
+  "otros ya han estudiado esto" como presión social, comparativas
+  entre personas usuarias, contadores globales del estilo "1.234
+  personas han visto esta tarjeta".
+- **Coste irrecuperable / FOMO**: "perderás tu progreso si paras",
+  "no pierdas tu racha", mensajes forzados de retención,
+  notificaciones de tipo "te echamos de menos". Conecta con §2.2
+  "El repaso nunca castiga".
+- **Reciprocidad manipuladora / dark patterns**: registros forzados,
+  casillas premarcadas, costes ocultos, alertas falsas,
+  confirmaciones tramposas (por ejemplo, un botón de "no" que en
+  realidad cierra la sesión o borra el progreso).
+- **Aversión a la pérdida explotadora**: "tenías 5 ⭐, has perdido
+  2". Las estrellas y el progreso **solo suman**, nunca restan como
+  castigo (ver §2.2).
+
+El tono por defecto en Memofun es el **calmo y predecible** descrito
+en §2.3 — la persona estudia porque el repaso le resulta atractivo,
+no porque la estemos empujando. Cuando un patrón de esta lista
+aparece en una propuesta de producto o de UI, se rechaza por defecto;
+cualquier excepción se discute en una PR con motivo explícito.
+
+---
+
+## 4. Separación de flujos
 
 | Zona | Para quién | Qué permite |
 |---|---|---|
@@ -208,7 +308,7 @@ ataque, más fácil de mantener por cualquiera que sepa HTML/CSS/JS.
 
 ---
 
-## 4. Criterios de éxito
+## 5. Criterios de éxito
 
 Un cambio en Memofun es exitoso cuando:
 
@@ -223,7 +323,7 @@ Un cambio en Memofun es exitoso cuando:
 
 ---
 
-## 5. Lo que Memofun NO hace
+## 6. Lo que Memofun NO hace
 
 | NO | Por qué |
 |----|---------|
@@ -235,3 +335,6 @@ Un cambio en Memofun es exitoso cuando:
 | No usa notificaciones push | No introduce presión ni dependencias externas |
 | No muestra publicidad ni compras integradas | Gratis por diseño |
 | No resta estrellas ni progreso como castigo | El producto solo suma (§2.2) |
+| No usa mensajes de escasez, falsa urgencia ni FOMO ("solo te queda 1", "date prisa", "no pierdas tu racha") | Presión; choca con §2.3 y la lista cerrada de §3.7 |
+| No usa prueba social como presión (rankings, posiciones, "otros ya lo han estudiado") | Presión y desánimo; choca con §2.2 y §3.7 |
+| No usa dark patterns (registros forzados, casillas premarcadas, costes ocultos, alertas falsas) | Confianza y accesibilidad; choca con la lista cerrada de §3.7 |

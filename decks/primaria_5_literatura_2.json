@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un romance?",
-      "respuesta": "Es un poema español que cuenta una historia, no solo sentimientos. <mark>Se recitaba o cantaba de memoria, antes de quedar escrito</mark>. Sus versos riman cada dos líneas. Contaban batallas, amores o hazañas."
+      "respuesta": "Es un poema español que cuenta una historia, no solo sentimientos. <mark>Se recitaba o cantaba de memoria, antes de quedar escrito</mark>. Sus versos riman cada dos líneas. Contaban batallas, amores o hazañas.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_2/caballero-medieval.jpg",
+        "alt": "Ilustración de un caballero medieval con armadura, montado a caballo y con una lanza",
+        "titulo": "Chevalier Francais, XIVe Siecle",
+        "autor": "Free Public Domain Illustrations by rawpixel",
+        "fuente": "https://www.flickr.com/photos/153584064@N07/42663973864",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué solían contar los romances tradicionales?",
-      "respuesta": "Contaban hazañas de héroes, batallas o historias de amor. <mark>Se cantaban en plazas para que la gente los recordara</mark>. Muchos venían de historias mucho más largas, resumidas. Por eso son fáciles de aprender de memoria."
+      "respuesta": "Contaban hazañas de héroes, batallas o historias de amor. <mark>Se cantaban en plazas para que la gente los recordara</mark>. Muchos venían de historias mucho más largas, resumidas. Por eso son fáciles de aprender de memoria.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_2/torneo-caballeros.jpg",
+        "alt": "Dos caballeros a caballo compiten con lanzas en un torneo, delante de una multitud que mira",
+        "titulo": "Knights tournament in Spandauer Zitadelle",
+        "autor": "Sergey Galyonkin",
+        "fuente": "https://www.flickr.com/photos/22974618@N00/33253695044",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencia un romance de una leyenda?",
-      "respuesta": "El romance siempre está escrito en verso, con rima. <mark>La leyenda se cuenta en prosa, como una historia hablada</mark>. Ambos mezclan hechos reales con algo de invención. Pero uno se canta y el otro se narra."
+      "respuesta": "El romance siempre está escrito en verso, con rima. <mark>La leyenda se cuenta en prosa, como una historia hablada</mark>. Ambos mezclan hechos reales con algo de invención. Pero uno se canta y el otro se narra.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_2/erase-una-vez-pluma.jpg",
+        "alt": "Las palabras 'Érase una vez...' escritas de forma decorativa, junto a una pluma sobre papel en blanco",
+        "titulo": "Once upon a time ...",
+        "autor": "UNE Photos",
+        "fuente": "https://www.flickr.com/photos/71926021@N06/6819858446",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una biografía?",
-      "respuesta": "Es el relato de la vida de una persona real. <mark>La escribe otra persona, investigando datos y hechos</mark>. Cuenta desde su nacimiento hasta momentos importantes de su vida. Ayuda a conocer a alguien en profundidad."
+      "respuesta": "Es el relato de la vida de una persona real. <mark>La escribe otra persona, investigando datos y hechos</mark>. Cuenta desde su nacimiento hasta momentos importantes de su vida. Ayuda a conocer a alguien en profundidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_2/retrato-personaje-historico.jpg",
+        "alt": "Retrato en blanco y negro de una persona real de la historia, sobre la que otros escribieron su vida",
+        "titulo": "Ben Franklin",
+        "autor": "perpetualplum",
+        "fuente": "https://www.flickr.com/photos/14277117@N03/4408336967",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una autobiografía?",
-      "respuesta": "Es el relato de una vida escrito por uno mismo. <mark>Cuenta su propia historia, con sus propios recuerdos</mark>. Es distinto porque nadie más investiga por él. Muestra cómo esa persona recuerda su propia vida."
+      "respuesta": "Es el relato de una vida escrito por uno mismo. <mark>Cuenta su propia historia, con sus propios recuerdos</mark>. Es distinto porque nadie más investiga por él. Muestra cómo esa persona recuerda su propia vida.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_2/escribir-diario.jpg",
+        "alt": "Una persona escribe con un bolígrafo en un cuaderno en blanco, al aire libre",
+        "titulo": "Write In Journal",
+        "autor": "Walt Stoneburner",
+        "fuente": "https://www.flickr.com/photos/8404611@N06/7946581522",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian una biografía y una autobiografía?",
-      "respuesta": "La biografía la escribe otra persona sobre alguien. <mark>La autobiografía la escribe la propia persona sobre sí misma</mark>. Una investiga desde fuera; la otra recuerda desde dentro. Por eso pueden contar la misma vida de forma distinta."
+      "respuesta": "La biografía la escribe otra persona sobre alguien. <mark>La autobiografía la escribe la propia persona sobre sí misma</mark>. Una investiga desde fuera; la otra recuerda desde dentro. Por eso pueden contar la misma vida de forma distinta.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_5_literatura_2/diario-biografia.jpg",
+        "alt": "Un bolígrafo y un diario, para escribir sobre la propia vida",
+        "titulo": "Pen, Diary and Glasses",
+        "autor": "Generationbass.com",
+        "fuente": "https://www.flickr.com/photos/46959536@N04/4827013488",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

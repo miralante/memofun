@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué estudia la métrica de un poema?",
-      "respuesta": "La métrica mide cuántas sílabas tiene cada verso. <mark>Ese conteo determina el compás con el que suena el poema</mark>. También se fija en cómo riman los versos entre sí. Es como la partitura escondida detrás de un poema."
+      "respuesta": "La métrica mide cuántas sílabas tiene cada verso. <mark>Ese conteo determina el compás con el que suena el poema</mark>. También se fija en cómo riman los versos entre sí. Es como la partitura escondida detrás de un poema.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/contar-dedos.jpg",
+        "alt": "Contando con los dedos de la mano",
+        "titulo": "7x7 = 49",
+        "autor": "HyperBob",
+        "fuente": "https://www.flickr.com/photos/17569908@N00/3535261",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una estrofa?",
-      "respuesta": "Es un grupo de versos que forman un bloque. <mark>Se separan de otras estrofas por un espacio en blanco</mark>. Es parecido a un párrafo, pero en verso. Un poema puede tener una o varias estrofas."
+      "respuesta": "Es un grupo de versos que forman un bloque. <mark>Se separan de otras estrofas por un espacio en blanco</mark>. Es parecido a un párrafo, pero en verso. Un poema puede tener una o varias estrofas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/bloques-construccion.jpg",
+        "alt": "Bloques de construcción apilados",
+        "titulo": "Building Blocks",
+        "autor": "Holger Zscheyge",
+        "fuente": "https://www.flickr.com/photos/49741083@N00/49012397",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué dos versos con el mismo número de sílabas suenan parecido al leerlos?",
-      "respuesta": "Tener las mismas sílabas da un compás regular. <mark>El oído reconoce ese patrón que se repite</mark>. Por eso algunos poemas suenan como una canción. Cambiar el número de sílabas rompe ese compás."
+      "respuesta": "Tener las mismas sílabas da un compás regular. <mark>El oído reconoce ese patrón que se repite</mark>. Por eso algunos poemas suenan como una canción. Cambiar el número de sílabas rompe ese compás.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/tambor-caja.jpg",
+        "alt": "Un tambor, símbolo del ritmo",
+        "titulo": "snare drum",
+        "autor": "Vladimir Morozov",
+        "fuente": "https://www.flickr.com/photos/27429206@N02/4124370796",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una comparación como recurso literario?",
-      "respuesta": "Es unir dos cosas usando una palabra como 'como'. <mark>Así se describe algo relacionándolo con otra cosa conocida</mark>. Por ejemplo: 'sus ojos brillaban como estrellas'. Ayuda al lector a imaginar mejor lo que se describe."
+      "respuesta": "Es unir dos cosas usando una palabra como 'como'. <mark>Así se describe algo relacionándolo con otra cosa conocida</mark>. Por ejemplo: 'sus ojos brillaban como estrellas'. Ayuda al lector a imaginar mejor lo que se describe.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/cielo-estrellado.jpg",
+        "alt": "Un cielo lleno de estrellas",
+        "titulo": "Starry sky",
+        "autor": "skyseeker",
+        "fuente": "https://www.flickr.com/photos/40422902@N00/23334535734",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una metáfora?",
-      "respuesta": "Es nombrar una cosa como si fuera otra, sin usar 'como'. <mark>Se dice directamente que una cosa es la otra</mark>. Por ejemplo: 'sus ojos eran dos estrellas'. Es más directa e intensa que una comparación."
+      "respuesta": "Es nombrar una cosa como si fuera otra, sin usar 'como'. <mark>Se dice directamente que una cosa es la otra</mark>. Por ejemplo: 'sus ojos eran dos estrellas'. Es más directa e intensa que una comparación.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/via-lactea.jpg",
+        "alt": "La Vía Láctea llena de estrellas",
+        "titulo": "Paul Meets the Milky Way",
+        "autor": "boltron-",
+        "fuente": "https://www.flickr.com/photos/46213661@N00/4112827179",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian la metáfora y la comparación?",
-      "respuesta": "La comparación usa 'como' para relacionar dos cosas. <mark>La metáfora se salta esa palabra y las funde en una sola</mark>. 'Como estrellas' es comparación; 'eran estrellas' es metáfora. Ambas sirven para describir con más fuerza."
+      "respuesta": "La comparación usa 'como' para relacionar dos cosas. <mark>La metáfora se salta esa palabra y las funde en una sola</mark>. 'Como estrellas' es comparación; 'eran estrellas' es metáfora. Ambas sirven para describir con más fuerza.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/cielo-via-lactea.jpg",
+        "alt": "El cielo nocturno con la Vía Láctea",
+        "titulo": "SKY and MILKWAY",
+        "autor": "Ömer Ünlü",
+        "fuente": "https://www.flickr.com/photos/55293400@N07/5917950698",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quiénes eran los juglares del Mester de Juglaría?",
-      "respuesta": "Eran artistas que iban de pueblo en pueblo recitando. <mark>Contaban historias en voz alta para gente que no sabía leer</mark>. Actuaban en plazas, a cambio de comida o dinero. Por eso sus versos eran fáciles de recordar."
+      "respuesta": "Eran artistas que iban de pueblo en pueblo recitando. <mark>Contaban historias en voz alta para gente que no sabía leer</mark>. Actuaban en plazas, a cambio de comida o dinero. Por eso sus versos eran fáciles de recordar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/juglares-mercado.jpg",
+        "alt": "Juglares actuando en un mercado medieval",
+        "titulo": "Mercado Cervantino, juglares (Alcalá de Henares)",
+        "autor": "Raimundo Pastor",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=36529360",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué solían contar los juglares en sus versos?",
-      "respuesta": "Contaban hazañas de héroes y batallas famosas. <mark>Esas historias se llaman cantares de gesta</mark>. Un ejemplo muy conocido es el 'Cantar de Mio Cid'. Servían para entretener y también para admirar a un héroe."
+      "respuesta": "Contaban hazañas de héroes y batallas famosas. <mark>Esas historias se llaman cantares de gesta</mark>. Un ejemplo muy conocido es el 'Cantar de Mio Cid'. Servían para entretener y también para admirar a un héroe.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/laud-instrumento.jpg",
+        "alt": "Un laúd, instrumento tocado por los juglares",
+        "titulo": "Lute Instrument",
+        "autor": "Albane.B",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=31410436",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el Mester de Clerecía?",
-      "respuesta": "Era la poesía que escribían los clérigos, gente culta. <mark>A diferencia de los juglares, ellos sabían leer y escribir</mark>. Cuidaban mucho la métrica de sus versos. Solían escribir sobre temas religiosos o morales."
+      "respuesta": "Era la poesía que escribían los clérigos, gente culta. <mark>A diferencia de los juglares, ellos sabían leer y escribir</mark>. Cuidaban mucho la métrica de sus versos. Solían escribir sobre temas religiosos o morales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/manuscrito-medieval.jpg",
+        "alt": "Un manuscrito medieval con escritura antigua, como los del Mester de Clerecía",
+        "titulo": "falsos apuntes medievales",
+        "autor": "M. Martin Vicente",
+        "fuente": "https://www.flickr.com/photos/32179778@N00/10868422783",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian el Mester de Juglaría y el Mester de Clerecía?",
-      "respuesta": "El de Juglaría lo recitaban artistas que no sabían escribir. <mark>El de Clerecía lo escribían monjes cultos, cuidando más la forma</mark>. El primero hablaba de héroes y batallas. El segundo trataba temas religiosos y morales."
+      "respuesta": "El de Juglaría lo recitaban artistas que no sabían escribir. <mark>El de Clerecía lo escribían monjes cultos, cuidando más la forma</mark>. El primero hablaba de héroes y batallas. El segundo trataba temas religiosos y morales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_literatura/escriba-anglosajon.jpg",
+        "alt": "Un monje copista escribiendo un manuscrito",
+        "titulo": "Anglo-Saxon scribe",
+        "autor": "Futurilla",
+        "fuente": "https://www.flickr.com/photos/52067454@N00/29516343996",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

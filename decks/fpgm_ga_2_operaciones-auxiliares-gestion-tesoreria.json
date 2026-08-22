@@ -5,83 +5,243 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la tesorería de una empresa?",
-      "respuesta": "Es el dinero disponible que tiene una empresa para hacer frente a sus pagos. <mark>Es como el monedero de la empresa, siempre listo para gastos del día a día</mark>. Incluye el dinero en caja y en las cuentas bancarias."
+      "respuesta": "Es el dinero disponible que tiene una empresa para hacer frente a sus pagos. <mark>Es como el monedero de la empresa, siempre listo para gastos del día a día</mark>. Incluye el dinero en caja y en las cuentas bancarias.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/dinero-efectivo.jpg",
+        "alt": "Billetes y dinero en efectivo",
+        "titulo": "Cash money.",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.flickr.com/photos",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el control de caja?",
-      "respuesta": "Es comprobar que el dinero físico coincide con lo que deberían reflejar los registros. <mark>Es como contar el cambio de una hucha para ver si coincide con lo apuntado</mark>. Un buen control de caja evita pérdidas y fraudes."
+      "respuesta": "Es comprobar que el dinero físico coincide con lo que deberían reflejar los registros. <mark>Es como contar el cambio de una hucha para ver si coincide con lo apuntado</mark>. Un buen control de caja evita pérdidas y fraudes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/caja-registradora.jpg",
+        "alt": "Una caja registradora antigua",
+        "titulo": "Old Cash Register",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.flickr.com/photos",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el arqueo de caja?",
-      "respuesta": "Es el recuento físico del dinero en efectivo que hay en un momento dado. <mark>Es como vaciar la caja y contar cada billete y moneda uno por uno</mark>. Si no coincide con los registros, hay que investigar dónde está el error."
+      "respuesta": "Es el recuento físico del dinero en efectivo que hay en un momento dado. <mark>Es como vaciar la caja y contar cada billete y moneda uno por uno</mark>. Si no coincide con los registros, hay que investigar dónde está el error.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/arqueo-caja.jpg",
+        "alt": "Alguien contando dinero en efectivo",
+        "titulo": "Money Counting",
+        "autor": "peretzp",
+        "fuente": "https://www.flickr.com/photos/68877611@N00/3914501583",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el libro de caja?",
-      "respuesta": "Es el documento donde se anotan todas las entradas y salidas de dinero en efectivo. <mark>Es como un diario, pero solo del dinero físico que entra y sale cada día</mark>. Es una herramienta básica para controlar la tesorería."
+      "respuesta": "Es el documento donde se anotan todas las entradas y salidas de dinero en efectivo. <mark>Es como un diario, pero solo del dinero físico que entra y sale cada día</mark>. Es una herramienta básica para controlar la tesorería.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libro-mayor.jpg",
+        "alt": "Un libro contable con anotaciones",
+        "titulo": "Creditor's Ledger, Holmes McDougall",
+        "autor": "edinburghcityofprint",
+        "fuente": "https://www.flickr.com/photos/30239838@N04/4271445364",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una cuenta corriente bancaria?",
-      "respuesta": "Es una cuenta que permite ingresar, retirar y gestionar dinero a través de un banco. <mark>Es como un monedero digital que guarda el dinero de la empresa de forma segura</mark>. Permite hacer pagos, cobros y transferencias."
+      "respuesta": "Es una cuenta que permite ingresar, retirar y gestionar dinero a través de un banco. <mark>Es como un monedero digital que guarda el dinero de la empresa de forma segura</mark>. Permite hacer pagos, cobros y transferencias.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/banca-online.jpg",
+        "alt": "Banca online en un ordenador portátil",
+        "titulo": "Scotiabank Online Banking Laptop",
+        "autor": "PiggyBank Canada",
+        "fuente": "https://www.flickr.com/photos/194322287@N05/51658218600",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la conciliación bancaria?",
-      "respuesta": "Es comparar los movimientos que la empresa tiene registrados con los del banco. <mark>Es como comprobar que tu cuaderno de cuentas coincide con el extracto bancario</mark>. Ayuda a detectar errores o movimientos pendientes."
+      "respuesta": "Es comparar los movimientos que la empresa tiene registrados con los del banco. <mark>Es como comprobar que tu cuaderno de cuentas coincide con el extracto bancario</mark>. Ayuda a detectar errores o movimientos pendientes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/grafico-monedas.jpg",
+        "alt": "Un gráfico junto a pilas de monedas",
+        "titulo": "Graph With Stacks Of Coins",
+        "autor": "kenteegardin",
+        "fuente": "https://www.flickr.com/photos/26373139@N08/6093690339",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un cheque?",
-      "respuesta": "Es un documento con el que una persona ordena al banco pagar una cantidad a otra. <mark>Es como una orden de pago en papel, respaldada por el dinero de una cuenta</mark>. Quien lo recibe puede cobrarlo o ingresarlo."
+      "respuesta": "Es un documento con el que una persona ordena al banco pagar una cantidad a otra. <mark>Es como una orden de pago en papel, respaldada por el dinero de una cuenta</mark>. Quien lo recibe puede cobrarlo o ingresarlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/escribir-cheque.jpg",
+        "alt": "Alguien escribiendo un cheque",
+        "titulo": "Check Writing",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/2204277278",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un pagaré?",
-      "respuesta": "Es un documento en el que alguien se compromete a pagar una cantidad en una fecha futura. <mark>Es como una promesa de pago por escrito, con una fecha concreta</mark>. Se usa mucho para aplazar pagos entre empresas."
+      "respuesta": "Es un documento en el que alguien se compromete a pagar una cantidad en una fecha futura. <mark>Es como una promesa de pago por escrito, con una fecha concreta</mark>. Se usa mucho para aplazar pagos entre empresas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/apreton-manos-acuerdo.jpg",
+        "alt": "Dos personas dándose la mano en un acuerdo",
+        "titulo": "Business people shaking hands in agreement",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/43972154720",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una letra de cambio?",
-      "respuesta": "Es un documento que ordena a alguien pagar una cantidad a otra persona, en una fecha fijada. <mark>Es como un pagaré, pero donde una tercera persona da la orden de pago</mark>. Puede transmitirse a otra persona antes de su vencimiento."
+      "respuesta": "Es un documento que ordena a alguien pagar una cantidad a otra persona, en una fecha fijada. <mark>Es como un pagaré, pero donde una tercera persona da la orden de pago</mark>. Puede transmitirse a otra persona antes de su vencimiento.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/certificado-antiguo.jpg",
+        "alt": "Un certificado financiero antiguo",
+        "titulo": "Long Dock Company, stock certificate 1860s",
+        "autor": "crackdog",
+        "fuente": "https://www.flickr.com/photos/88645472@N00/4409347325",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una transferencia bancaria?",
-      "respuesta": "Es el traspaso de dinero de una cuenta bancaria a otra. <mark>Es como mover dinero de un monedero a otro, sin tocarlo físicamente</mark>. Puede hacerse de forma inmediata o programada."
+      "respuesta": "Es el traspaso de dinero de una cuenta bancaria a otra. <mark>Es como mover dinero de un monedero a otro, sin tocarlo físicamente</mark>. Puede hacerse de forma inmediata o programada.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/transferencia-dinero.jpg",
+        "alt": "Alguien entregando dinero a otra persona",
+        "titulo": "It's a deal - here's the money",
+        "autor": "sandklef",
+        "fuente": "https://www.flickr.com/photos/63114905@N06/18151984640",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la domiciliación bancaria?",
-      "respuesta": "Es autorizar a una empresa a cobrar directamente de tu cuenta de forma periódica. <mark>Es como dejar una llave para que alguien de confianza cobre lo acordado cada mes</mark>. Se usa mucho para pagos recurrentes."
+      "respuesta": "Es autorizar a una empresa a cobrar directamente de tu cuenta de forma periódica. <mark>Es como dejar una llave para que alguien de confianza cobre lo acordado cada mes</mark>. Se usa mucho para pagos recurrentes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/documento-firma.jpg",
+        "alt": "Un documento oficial siendo firmado",
+        "titulo": "Assignment to the Governors of the University of Toronto",
+        "autor": "Thomas Fisher Rare Book Library, UofT",
+        "fuente": "https://www.flickr.com/photos/34861056@N05/12308738613",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el descuento comercial de efectos?",
-      "respuesta": "Es adelantar el cobro de un documento de pago, como una letra, a cambio de una comisión. <mark>Es como cambiar en un banco un pago futuro por dinero disponible ahora mismo</mark>. El banco cobra un interés por adelantarlo."
+      "respuesta": "Es adelantar el cobro de un documento de pago, como una letra, a cambio de una comisión. <mark>Es como cambiar en un banco un pago futuro por dinero disponible ahora mismo</mark>. El banco cobra un interés por adelantarlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/billetes-grandes.jpg",
+        "alt": "Un billete grande de dinero",
+        "titulo": "$100 Billion Dollars...",
+        "autor": "Erik Charlton",
+        "fuente": "https://www.flickr.com/photos/78042080@N00/3238458006",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un impagado?",
-      "respuesta": "Es un documento de cobro que no se ha pagado en la fecha acordada. <mark>Es como esperar un pago que, en la fecha prevista, no llega</mark>. Puede deberse a falta de fondos o a un error del cliente."
+      "respuesta": "Es un documento de cobro que no se ha pagado en la fecha acordada. <mark>Es como esperar un pago que, en la fecha prevista, no llega</mark>. Puede deberse a falta de fondos o a un error del cliente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/sello-rechazado.jpg",
+        "alt": "Un sello de \"rechazado\" sobre un documento",
+        "titulo": "Rejected stamp clipart illustration vector",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/10165688/vector-logo-illustrations-public-domain",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Cómo se gestiona un impagado en una empresa?",
-      "respuesta": "Se reclama el pago, se negocia un nuevo plazo o, en último caso, se inician acciones legales. <mark>Es como intentar recuperar algo prestado que no te han devuelto a tiempo</mark>. Cuanto antes se actúe, más fácil es recuperarlo."
+      "respuesta": "Se reclama el pago, se negocia un nuevo plazo o, en último caso, se inician acciones legales. <mark>Es como intentar recuperar algo prestado que no te han devuelto a tiempo</mark>. Cuanto antes se actúe, más fácil es recuperarlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/mujer-telefono-negocios.jpg",
+        "alt": "Una mujer de negocios hablando por teléfono",
+        "titulo": "A woman dressed in a pinstripe suit smiles while talking on a classic telephone",
+        "autor": "nenadstojkovicart",
+        "fuente": "https://www.flickr.com/photos/202846129@N03/54592859324",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las aplicaciones informáticas de gestión de tesorería?",
-      "respuesta": "Son programas que ayudan a controlar los cobros, pagos y saldos de una empresa. <mark>Es como tener una calculadora especializada que organiza todo el dinero que entra y sale</mark>. Facilitan la conciliación bancaria."
+      "respuesta": "Son programas que ayudan a controlar los cobros, pagos y saldos de una empresa. <mark>Es como tener una calculadora especializada que organiza todo el dinero que entra y sale</mark>. Facilitan la conciliación bancaria.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/software-contable.jpg",
+        "alt": "Alguien usando un programa de contabilidad",
+        "titulo": "Accounting Finance",
+        "autor": "Wilfred Iven",
+        "fuente": "https://stocksnap.io/photo/accounting-finance-JONMP7TPGK",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante mantener una buena liquidez en la empresa?",
-      "respuesta": "Porque permite pagar a tiempo nóminas, proveedores e impuestos sin problemas. <mark>Es como tener siempre algo de dinero disponible, aunque tengas más ahorrado en otro lado</mark>. Una empresa rentable puede tener problemas sin ella."
+      "respuesta": "Porque permite pagar a tiempo nóminas, proveedores e impuestos sin problemas. <mark>Es como tener siempre algo de dinero disponible, aunque tengas más ahorrado en otro lado</mark>. Una empresa rentable puede tener problemas sin ella.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/monedas-apiladas.jpg",
+        "alt": "Monedas apiladas",
+        "titulo": "Stacks of Coins",
+        "autor": "Au Kirk",
+        "fuente": "https://www.flickr.com/photos/64441474@N06/8540279911",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre el cheque, el pagaré y la letra de cambio?",
-      "respuesta": "El cheque se paga al momento de presentarlo. <mark>El pagaré y la letra de cambio, en cambio, fijan una fecha futura de pago</mark>. La letra de cambio, además, la puede emitir una tercera persona distinta al pagador."
+      "respuesta": "El cheque se paga al momento de presentarlo. <mark>El pagaré y la letra de cambio, en cambio, fijan una fecha futura de pago</mark>. La letra de cambio, además, la puede emitir una tercera persona distinta al pagador.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pila-documentos.jpg",
+        "alt": "Una pila de distintos documentos",
+        "titulo": "Bibliography",
+        "autor": "gadl",
+        "fuente": "https://www.flickr.com/photos/24183489@N00/320300354",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante revisar con frecuencia los movimientos bancarios de la empresa?",
-      "respuesta": "Porque permite detectar errores, cobros duplicados o cargos no autorizados. <mark>Es como revisar el ticket de la compra para comprobar que no te han cobrado de más</mark>. Detectarlo a tiempo evita pérdidas difíciles de recuperar."
+      "respuesta": "Porque permite detectar errores, cobros duplicados o cargos no autorizados. <mark>Es como revisar el ticket de la compra para comprobar que no te han cobrado de más</mark>. Detectarlo a tiempo evita pérdidas difíciles de recuperar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/telefono-clasico.jpg",
+        "alt": "Un teléfono móvil",
+        "titulo": "Mobile Phone",
+        "autor": "Dominik Syka",
+        "fuente": "https://www.flickr.com/photos/47285123@N03/4334590250",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la gestión de tesorería y la contabilidad de la empresa?",
-      "respuesta": "Todos los movimientos de tesorería deben quedar reflejados también en la contabilidad. <mark>Es como llevar dos registros que siempre deben coincidir entre sí</mark>. Esa coherencia permite conocer la situación económica real."
+      "respuesta": "Todos los movimientos de tesorería deben quedar reflejados también en la contabilidad. <mark>Es como llevar dos registros que siempre deben coincidir entre sí</mark>. Esa coherencia permite conocer la situación económica real.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libros-contables.jpg",
+        "alt": "Una pila de libros contables",
+        "titulo": "Books (74/365)",
+        "autor": "LifeSupercharger",
+        "fuente": "https://www.flickr.com/photos/8047705@N02/5530819321",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la tesorería es 'el oxígeno' de una empresa?",
-      "respuesta": "Porque sin dinero disponible, una empresa no puede funcionar día a día, aunque sea rentable en el papel. <mark>Es como tener comida en la despensa, pero sin poder respirar mientras tanto</mark>. Muchas empresas rentables cierran por falta de liquidez."
+      "respuesta": "Porque sin dinero disponible, una empresa no puede funcionar día a día, aunque sea rentable en el papel. <mark>Es como tener comida en la despensa, pero sin poder respirar mientras tanto</mark>. Muchas empresas rentables cierran por falta de liquidez.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pulmones-anatomia.jpg",
+        "alt": "Una ilustración de pulmones, como el oxígeno de la empresa",
+        "titulo": "Large Scale Lungs, Framed Anatomy Embroidery",
+        "autor": "Hey Paul Studios",
+        "fuente": "https://www.flickr.com/photos/45257015@N03/7511986150",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -5,35 +5,99 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué relación hay entre los precios y los descuentos y la tesorería de una empresa?",
-      "respuesta": "Un descuento más grande reduce el dinero que entra realmente en caja por cada venta. <mark>Es como recibir menos de lo esperado por cada operación, aunque la venta se haya cerrado</mark>. Por eso hay que calcularlos con cuidado."
+      "respuesta": "Un descuento más grande reduce el dinero que entra realmente en caja por cada venta. <mark>Es como recibir menos de lo esperado por cada operación, aunque la venta se haya cerrado</mark>. Por eso hay que calcularlos con cuidado.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/etiqueta-descuento.jpg",
+        "alt": "Una etiqueta de precio con descuento",
+        "titulo": "New Price Red Tag",
+        "autor": "MarkMoz12",
+        "fuente": "https://www.flickr.com/photos/106574022@N04/10797544665",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los flujos de caja?",
-      "respuesta": "Es el movimiento de entradas y salidas de dinero en efectivo a lo largo del tiempo. <mark>Es como ver el ritmo de respiración del dinero de una empresa: cuándo entra y cuándo sale</mark>. Ayuda a anticipar si habrá dinero suficiente cada mes."
+      "respuesta": "Es el movimiento de entradas y salidas de dinero en efectivo a lo largo del tiempo. <mark>Es como ver el ritmo de respiración del dinero de una empresa: cuándo entra y cuándo sale</mark>. Ayuda a anticipar si habrá dinero suficiente cada mes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/flujo-caja.jpg",
+        "alt": "Un gráfico de flujo de caja positivo",
+        "titulo": "Positive Cash Flow",
+        "autor": "SME Loans",
+        "fuente": "https://www.flickr.com/photos/167652986@N06/48574083241",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las cajas de seguridad en una empresa?",
-      "respuesta": "Son espacios blindados donde se guarda dinero o documentos valiosos con protección extra. <mark>Es como una caja fuerte dentro de la oficina, pensada para lo más delicado</mark>."
+      "respuesta": "Son espacios blindados donde se guarda dinero o documentos valiosos con protección extra. <mark>Es como una caja fuerte dentro de la oficina, pensada para lo más delicado</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/puerta-caja-fuerte.jpg",
+        "alt": "La puerta de una caja fuerte bancaria",
+        "titulo": "Bank vault door",
+        "autor": "walla2chick",
+        "fuente": "https://www.flickr.com/photos/88887525@N00/2411391062",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la custodia de valores?",
-      "respuesta": "Es guardar de forma segura documentos o bienes de valor económico importante. <mark>Es como responsabilizarse de cuidar algo valioso que no es tuyo, con especial atención</mark>. Suele hacerse en cajas de seguridad o en el banco."
+      "respuesta": "Es guardar de forma segura documentos o bienes de valor económico importante. <mark>Es como responsabilizarse de cuidar algo valioso que no es tuyo, con especial atención</mark>. Suele hacerse en cajas de seguridad o en el banco.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/boveda-banco.jpg",
+        "alt": "El interior de una bóveda bancaria",
+        "titulo": "DSC01398 - Inside Bank of Canada Vault",
+        "autor": "archer10 (Dennis)",
+        "fuente": "https://www.flickr.com/photos/22490717@N02/44662916642",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la confidencialidad en las operaciones de tesorería?",
-      "respuesta": "Porque implican información sensible, como saldos, cuentas o movimientos de dinero. <mark>Es como no comentar en voz alta cuánto dinero tiene guardado alguien</mark>. Filtrar esa información podría generar fraudes o robos."
+      "respuesta": "Porque implican información sensible, como saldos, cuentas o movimientos de dinero. <mark>Es como no comentar en voz alta cuánto dinero tiene guardado alguien</mark>. Filtrar esa información podría generar fraudes o robos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/proteccion-datos.jpg",
+        "alt": "Un candado, símbolo de la protección de datos",
+        "titulo": "Password protection, online security concept",
+        "autor": "www.readyelements.com",
+        "fuente": "https://www.flickr.com/photos/155753322@N06/43712541271",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué nuevos medios de pago se usan cada vez más, además del efectivo y la tarjeta?",
-      "respuesta": "Pagos desde el móvil, monederos digitales o pagos sin contacto. <mark>Es como pagar sin necesidad de sacar cartera ni monedas</mark>. Su uso ha crecido mucho en los últimos años."
+      "respuesta": "Pagos desde el móvil, monederos digitales o pagos sin contacto. <mark>Es como pagar sin necesidad de sacar cartera ni monedas</mark>. Su uso ha crecido mucho en los últimos años.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/pago-movil.jpg",
+        "alt": "Un cartel que indica que se puede pagar con el móvil",
+        "titulo": "Wendy's Pay with Your Smartphone sign",
+        "autor": "JeepersMedia",
+        "fuente": "https://www.flickr.com/photos/39160147@N03/14355825950",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre una buena gestión de flujos de caja y evitar impagados?",
-      "respuesta": "Prever bien los cobros y pagos ayuda a detectar antes un posible problema de liquidez. <mark>Es como anticiparte a un bache en la carretera, en vez de encontrártelo de golpe</mark>."
+      "respuesta": "Prever bien los cobros y pagos ayuda a detectar antes un posible problema de liquidez. <mark>Es como anticiparte a un bache en la carretera, en vez de encontrártelo de golpe</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/bache-carretera.jpg",
+        "alt": "Una señal de aviso de bache en la carretera",
+        "titulo": "Pot-Hole-Warning-P1550559",
+        "autor": "citytransportinfo",
+        "fuente": "https://www.flickr.com/photos/47739225@N08/32481371467",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué proteger tanto el efectivo como los datos en la gestión de tesorería?",
-      "respuesta": "Porque un descuido en cualquiera de los dos puede causar pérdidas económicas importantes. <mark>Es como cuidar a la vez el dinero físico y la información sobre ese dinero</mark>. Ambos aspectos van siempre de la mano."
+      "respuesta": "Porque un descuido en cualquiera de los dos puede causar pérdidas económicas importantes. <mark>Es como cuidar a la vez el dinero físico y la información sobre ese dinero</mark>. Ambos aspectos van siempre de la mano.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/efectivo-digital.jpg",
+        "alt": "Dinero en efectivo junto a su equivalente digital",
+        "titulo": "From Cash To Digital",
+        "autor": "FamZoo",
+        "fuente": "https://www.flickr.com/photos/45412570@N03/4880265002",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

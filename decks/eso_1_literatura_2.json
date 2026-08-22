@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué diferencia la literatura oral de la literatura escrita?",
-      "respuesta": "La literatura oral se transmite hablada, de persona a persona. <mark>Cambia un poco cada vez que alguien la cuenta</mark>. La escrita queda fija, igual en cada lectura. Por eso hay tantas versiones distintas de un mismo cuento popular."
+      "respuesta": "La literatura oral se transmite hablada, de persona a persona. <mark>Cambia un poco cada vez que alguien la cuenta</mark>. La escrita queda fija, igual en cada lectura. Por eso hay tantas versiones distintas de un mismo cuento popular.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_2/manuscrito-antiguo.jpg",
+        "alt": "Página de un manuscrito antiguo con letra manuscrita",
+        "titulo": "Escritura y lenguaje de España, en prosa y verso",
+        "autor": "Fondo Antiguo de la Biblioteca de Humanidades, Uni",
+        "fuente": "https://www.flickr.com/photos/154183737@N06/38123547545",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Quién fue Esopo?",
-      "respuesta": "Fue un autor griego famoso por sus fábulas con animales. <mark>Sus fábulas siguen leyéndose miles de años después</mark>. Cada una termina con una moraleja sobre la vida. Muchas fábulas que conocemos hoy vienen de él."
+      "respuesta": "Fue un autor griego famoso por sus fábulas con animales. <mark>Sus fábulas siguen leyéndose miles de años después</mark>. Cada una termina con una moraleja sobre la vida. Muchas fábulas que conocemos hoy vienen de él.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_2/esopo-fabula-asno.jpg",
+        "alt": "Talla en piedra de un asno cargado, escena de una fábula clásica",
+        "titulo": "Sitges - capiteles 02 - El asno cargado de reliquias",
+        "autor": "ferran pestaña",
+        "fuente": "https://www.flickr.com/photos/57956171@N00/3950062789",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Romancero?",
-      "respuesta": "Es el conjunto de todos los romances tradicionales españoles. <mark>Se fue recopilando tras siglos de transmitirse cantados</mark>. Cuenta historias de héroes, amores y batallas. Es como un gran álbum de la memoria popular."
+      "respuesta": "Es el conjunto de todos los romances tradicionales españoles. <mark>Se fue recopilando tras siglos de transmitirse cantados</mark>. Cuenta historias de héroes, amores y batallas. Es como un gran álbum de la memoria popular.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_2/guitarra-flamenca.jpg",
+        "alt": "Una guitarra flamenca española",
+        "titulo": "Guitarra Flamenca",
+        "autor": "Niklas Montelius",
+        "fuente": "https://www.flickr.com/photos/56793598@N00/17058118125",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los refranes y dichos populares?",
-      "respuesta": "Son frases cortas que guardan un consejo o una idea. <mark>Se repiten desde hace generaciones, sin saber quién los inventó</mark>. Por ejemplo: 'a quien madruga, Dios le ayuda'. Forman parte de la sabiduría que se hereda hablando."
+      "respuesta": "Son frases cortas que guardan un consejo o una idea. <mark>Se repiten desde hace generaciones, sin saber quién los inventó</mark>. Por ejemplo: 'a quien madruga, Dios le ayuda'. Forman parte de la sabiduría que se hereda hablando.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_2/libro-antiguo.jpg",
+        "alt": "Un libro antiguo abierto",
+        "titulo": "book open stack 2",
+        "autor": "Jo Naylor",
+        "fuente": "https://www.flickr.com/photos/11598937@N08/4927243431",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencia un cuento popular de un cuento de autor?",
-      "respuesta": "El cuento popular no tiene un autor conocido. <mark>Se transmitió hablado y fue cambiando con el tiempo</mark>. El cuento de autor lo escribió una persona concreta. Por eso el de autor no cambia de una edición a otra."
+      "respuesta": "El cuento popular no tiene un autor conocido. <mark>Se transmitió hablado y fue cambiando con el tiempo</mark>. El cuento de autor lo escribió una persona concreta. Por eso el de autor no cambia de una edición a otra.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_2/quijote-cueva-montesinos.jpg",
+        "alt": "Ilustración antigua de un episodio del Quijote, un cuento de autor conocido",
+        "titulo": "¿fue verdad o fué sueño lo que yo cuento que me pasó en la cueva de Montesinos?",
+        "autor": "Biblioteca Rector Machado y Nuñez",
+        "fuente": "https://www.flickr.com/photos/37667416@N04/6759754661",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Por qué muchos refranes riman o suenan bien al decirlos?",
-      "respuesta": "El sonido repetido ayuda a que se recuerden mejor. <mark>Un refrán que suena bien se queda antes en la memoria</mark>. Por eso muchos usan rima o un ritmo marcado. Sonar bien ayudó a que sobrevivieran sin estar escritos."
+      "respuesta": "El sonido repetido ayuda a que se recuerden mejor. <mark>Un refrán que suena bien se queda antes en la memoria</mark>. Por eso muchos usan rima o un ritmo marcado. Sonar bien ayudó a que sobrevivieran sin estar escritos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_literatura_2/notas-musicales.jpg",
+        "alt": "Notas musicales, como el sonido y el ritmo de un refrán",
+        "titulo": "Music Notes",
+        "autor": "Radek Grzybowski",
+        "fuente": "https://stocksnap.io/photo/music-notes-5ORW0DPIR5",
+        "licencia": "CC0 1.0"
+      }
     }
   ]
 }

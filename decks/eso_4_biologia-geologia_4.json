@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la evolución de las especies?",
-      "respuesta": "Es el proceso por el que las especies cambian a lo largo de muchas generaciones. <mark>Es como un río que va cambiando de forma lentísimamente, sin que se note de un día para otro</mark>. Ese cambio ocurre gracias a variaciones genéticas que se transmiten. Con el tiempo, pueden dar lugar a especies nuevas."
+      "respuesta": "Es el proceso por el que las especies cambian a lo largo de muchas generaciones. <mark>Es como un río que va cambiando de forma lentísimamente, sin que se note de un día para otro</mark>. Ese cambio ocurre gracias a variaciones genéticas que se transmiten. Con el tiempo, pueden dar lugar a especies nuevas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/trex-fosil.jpg",
+        "alt": "El esqueleto fosilizado de un Tyrannosaurus Rex",
+        "titulo": "Day 26 - Tyrannosaurus Rex",
+        "autor": "akhenatenator",
+        "fuente": "https://www.flickr.com/photos/86012097@N08/8026022305",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Quién fue Charles Darwin?",
-      "respuesta": "Fue un científico británico que propuso la teoría de la evolución por selección natural. <mark>Sus observaciones durante un largo viaje por el mundo le ayudaron a formular esa idea</mark>. Publicó su teoría en 'El origen de las especies'. Cambió para siempre cómo entendemos la vida en la Tierra."
+      "respuesta": "Fue un científico británico que propuso la teoría de la evolución por selección natural. <mark>Sus observaciones durante un largo viaje por el mundo le ayudaron a formular esa idea</mark>. Publicó su teoría en 'El origen de las especies'. Cambió para siempre cómo entendemos la vida en la Tierra.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/darwin-estatua.jpg",
+        "alt": "Estatua de Charles Darwin en el Parque de las Ciencias de Granada",
+        "titulo": "Granada-Parque de las Ciencias-Estatua de Charles Darwin",
+        "autor": "Javi Guerra Hernando",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35998841",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es la selección natural?",
-      "respuesta": "Es el proceso por el que sobreviven y se reproducen más los individuos mejor adaptados. <mark>Es como una carrera donde tienen más ventaja quienes están mejor preparados para el terreno</mark>. Esas características ventajosas se transmiten con más frecuencia. Así la especie cambia para adaptarse mejor."
+      "respuesta": "Es el proceso por el que sobreviven y se reproducen más los individuos mejor adaptados. <mark>Es como una carrera donde tienen más ventaja quienes están mejor preparados para el terreno</mark>. Esas características ventajosas se transmiten con más frecuencia. Así la especie cambia para adaptarse mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/darwin-retrato.jpg",
+        "alt": "Retrato de Charles Darwin",
+        "titulo": "Charles Darwin, portrait",
+        "autor": "(autor desconocido)",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35980235",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es el neodarwinismo?",
-      "respuesta": "Es la teoría de la evolución actual, que combina las ideas de Darwin con la genética moderna. <mark>Es como actualizar una idea antigua con herramientas científicas que antes no existían</mark>. Explica cómo las mutaciones generan variedad genética. Esa variedad es la base sobre la que actúa la selección."
+      "respuesta": "Es la teoría de la evolución actual, que combina las ideas de Darwin con la genética moderna. <mark>Es como actualizar una idea antigua con herramientas científicas que antes no existían</mark>. Explica cómo las mutaciones generan variedad genética. Esa variedad es la base sobre la que actúa la selección.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/adn-helice.jpg",
+        "alt": "Un modelo de la doble hélice de ADN",
+        "titulo": "20251019 Replica DNA double helix model Berlin 02",
+        "autor": "Flocci Nivis",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=178341783",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre el hecho evolutivo y los mecanismos de evolución?",
-      "respuesta": "El hecho evolutivo es que las especies cambian con el tiempo, algo comprobado científicamente. <mark>Los mecanismos explican cómo y por qué ocurre exactamente ese cambio</mark>. La selección natural es uno de esos mecanismos, pero no el único. Distinguirlos ayuda a entender mejor la teoría."
+      "respuesta": "El hecho evolutivo es que las especies cambian con el tiempo, algo comprobado científicamente. <mark>Los mecanismos explican cómo y por qué ocurre exactamente ese cambio</mark>. La selección natural es uno de esos mecanismos, pero no el único. Distinguirlos ayuda a entender mejor la teoría.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/mecanismo-reloj.jpg",
+        "alt": "El mecanismo interno de un reloj",
+        "titulo": "Railroad Watch Mechanism",
+        "autor": "mpclemens",
+        "fuente": "https://www.flickr.com/photos/24364103@N04/2436917872",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los fósiles guía?",
-      "respuesta": "Son restos fósiles que ayudan a datar con precisión las rocas donde aparecen. <mark>Es como reconocer una moneda antigua y saber, solo por eso, en qué época se acuñó</mark>. Se usan especies que vivieron poco tiempo, pero en muchos lugares. Ayudan a ordenar el pasado geológico."
+      "respuesta": "Son restos fósiles que ayudan a datar con precisión las rocas donde aparecen. <mark>Es como reconocer una moneda antigua y saber, solo por eso, en qué época se acuñó</mark>. Se usan especies que vivieron poco tiempo, pero en muchos lugares. Ayudan a ordenar el pasado geológico.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/fosil-trilobite.jpg",
+        "alt": "Un fósil de trilobites, usado para datar rocas antiguas",
+        "titulo": "Colpocoryphe grandis - Fósil",
+        "autor": "porshunta",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=2948099",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué es la hominización?",
-      "respuesta": "Es el largo proceso evolutivo que dio lugar a la especie humana actual. <mark>Es como un camino de millones de años, con muchas especies intermedias por el trayecto</mark>. Incluyó caminar erguido, un cerebro más grande y el uso de herramientas. Ocurrió sobre todo en el continente africano."
+      "respuesta": "Es el largo proceso evolutivo que dio lugar a la especie humana actual. <mark>Es como un camino de millones de años, con muchas especies intermedias por el trayecto</mark>. Incluyó caminar erguido, un cerebro más grande y el uso de herramientas. Ocurrió sobre todo en el continente africano.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/craneo-humano.jpg",
+        "alt": "Cráneos humanos antiguos",
+        "titulo": "Nine human skulls - Jericho",
+        "autor": "Hanay",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=19633459",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué evidencias apoyan la evolución de las especies?",
-      "respuesta": "Fósiles, comparaciones genéticas y similitudes anatómicas entre especies distintas. <mark>Es como reunir muchas pruebas distintas que apuntan todas a la misma conclusión</mark>. Cuantas más pruebas coinciden, más sólida resulta la teoría. Por eso está tan respaldada por la ciencia."
+      "respuesta": "Fósiles, comparaciones genéticas y similitudes anatómicas entre especies distintas. <mark>Es como reunir muchas pruebas distintas que apuntan todas a la misma conclusión</mark>. Cuantas más pruebas coinciden, más sólida resulta la teoría. Por eso está tan respaldada por la ciencia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/mandibula-tiburon-fosil.jpg",
+        "alt": "La reconstrucción de una mandíbula de tiburón fósil",
+        "titulo": "Carcharodon megalodon fossil shark jaw (reconstruction) (late Cenozoic) 3",
+        "autor": "James St. John",
+        "fuente": "https://www.flickr.com/photos/47445767@N05/15333023711",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que los seres humanos compartimos antepasados con otros primates?",
-      "respuesta": "Porque estudios genéticos y fósiles muestran un origen evolutivo común. <mark>Es como descubrir que dos personas, aunque distintas hoy, tuvieron el mismo tatarabuelo</mark>. No significa que descendamos de los monos actuales. Significa que compartimos un antepasado mucho más antiguo."
+      "respuesta": "Porque estudios genéticos y fósiles muestran un origen evolutivo común. <mark>Es como descubrir que dos personas, aunque distintas hoy, tuvieron el mismo tatarabuelo</mark>. No significa que descendamos de los monos actuales. Significa que compartimos un antepasado mucho más antiguo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/mono-primate.jpg",
+        "alt": "El rostro de un primate en primer plano",
+        "titulo": "mother ape close up",
+        "autor": "andrechinn",
+        "fuente": "https://www.flickr.com/photos/16167252@N00/146396163",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se relaciona la evolución con la biodiversidad actual del planeta?",
-      "respuesta": "La evolución explica por qué existen tantas especies distintas hoy en día. <mark>Es como un árbol con muchísimas ramas, cada una fruto de adaptaciones distintas</mark>. Cada especie actual es el resultado de millones de años de cambios. Entender la evolución ayuda a proteger esa diversidad."
+      "respuesta": "La evolución explica por qué existen tantas especies distintas hoy en día. <mark>Es como un árbol con muchísimas ramas, cada una fruto de adaptaciones distintas</mark>. Cada especie actual es el resultado de millones de años de cambios. Entender la evolución ayuda a proteger esa diversidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/elefantes-safari.jpg",
+        "alt": "Elefantes en su hábitat natural en África",
+        "titulo": "Elephants - Serengeti National Park safari - Tanzania, Africa",
+        "autor": "David Berkowitz",
+        "fuente": "https://www.flickr.com/photos/25897810@N00/5699832418",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

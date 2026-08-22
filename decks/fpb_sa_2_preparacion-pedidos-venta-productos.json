@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué fases tiene la atención al cliente en una tienda o almacén?",
-      "respuesta": "Acoger, entender la necesidad, ofrecer una solución y despedirse bien. <mark>Es como seguir una receta paso a paso, sin saltarte ninguno</mark>."
+      "respuesta": "Acoger, entender la necesidad, ofrecer una solución y despedirse bien. <mark>Es como seguir una receta paso a paso, sin saltarte ninguno</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/fases-atencion-cliente.jpg",
+        "alt": "Una persona atendiendo a un cliente en un mostrador",
+        "titulo": "Customer service",
+        "autor": "Alan Cleaver",
+        "fuente": "https://www.flickr.com/photos/11121568@N06/4297836062",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante identificar qué necesita cada cliente?",
-      "respuesta": "Porque cada persona busca algo distinto, aunque entre en la misma tienda. <mark>Es como servir la misma comida a personas con gustos diferentes: no a todos les sienta igual de bien</mark>."
+      "respuesta": "Porque cada persona busca algo distinto, aunque entre en la misma tienda. <mark>Es como servir la misma comida a personas con gustos diferentes: no a todos les sienta igual de bien</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/identificar-necesidad.jpg",
+        "alt": "Dos dependientas trabajando en una tienda",
+        "titulo": "Shop assistants",
+        "autor": "Paul Keller",
+        "fuente": "https://www.flickr.com/photos/18259771@N00/2737402633",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede identificar lo que necesita un cliente?",
-      "respuesta": "Escuchando con atención y haciendo preguntas si hace falta. <mark>Es como investigar un poco antes de ofrecer una solución</mark>."
+      "respuesta": "Escuchando con atención y haciendo preguntas si hace falta. <mark>Es como investigar un poco antes de ofrecer una solución</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/como-identificar.jpg",
+        "alt": "Un dependiente de una tienda",
+        "titulo": "Shop assistant",
+        "autor": "Paul Keller",
+        "fuente": "https://www.flickr.com/photos/18259771@N00/2738238212",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las técnicas básicas de venta?",
-      "respuesta": "Son formas de ayudar al cliente a decidir, sin presionarle de más. <mark>Es como aconsejar a un amigo, no como intentar convencerle a toda costa</mark>."
+      "respuesta": "Son formas de ayudar al cliente a decidir, sin presionarle de más. <mark>Es como aconsejar a un amigo, no como intentar convencerle a toda costa</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/tecnicas-venta.jpg",
+        "alt": "Un dependiente trabajando en una tienda",
+        "titulo": "Shop assistant",
+        "autor": "Paul Keller",
+        "fuente": "https://www.flickr.com/photos/18259771@N00/2738238826",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa 'aconsejar sin agobiar' a un cliente?",
-      "respuesta": "Significa ofrecer información útil, sin insistir demasiado si el cliente duda. <mark>Es como acompañar a alguien mientras decide, sin empujarle hacia una opción</mark>."
+      "respuesta": "Significa ofrecer información útil, sin insistir demasiado si el cliente duda. <mark>Es como acompañar a alguien mientras decide, sin empujarle hacia una opción</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/aconsejar-sin-agobiar.jpg",
+        "alt": "Una dependienta sonriente atendiendo con amabilidad",
+        "titulo": "Friendly shop assistant",
+        "autor": "shankar s.",
+        "fuente": "https://www.flickr.com/photos/77742560@N06/15927595026",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la presión excesiva puede alejar a un cliente?",
-      "respuesta": "Porque genera desconfianza y hace que la persona se sienta incómoda. <mark>Es como si alguien insistiera demasiado en convencerte de algo, y eso te hiciera dudar más</mark>."
+      "respuesta": "Porque genera desconfianza y hace que la persona se sienta incómoda. <mark>Es como si alguien insistiera demasiado en convencerte de algo, y eso te hiciera dudar más</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/presion-excesiva.jpg",
+        "alt": "Un vendedor insistiendo con su oferta a un cliente en una tienda de alfombras",
+        "titulo": "Carpet showroom- the hard sell begins",
+        "autor": "shankar s.",
+        "fuente": "https://www.flickr.com/photos/77742560@N06/15331138684",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es preparar un pedido?",
-      "respuesta": "Es reunir y organizar los productos que un cliente ha solicitado, listos para su entrega. <mark>Es como hacer la maleta antes de un viaje, comprobando que no falte nada</mark>."
+      "respuesta": "Es reunir y organizar los productos que un cliente ha solicitado, listos para su entrega. <mark>Es como hacer la maleta antes de un viaje, comprobando que no falte nada</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/preparar-pedido.jpg",
+        "alt": "Alguien preparando una caja con productos",
+        "titulo": "packing up",
+        "autor": "Joanna Bourne",
+        "fuente": "https://www.flickr.com/photos/66992990@N00/6532917427",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué importa el orden al preparar un pedido?",
-      "respuesta": "Porque un pedido desordenado puede llevar a olvidar productos o a confundirlos. <mark>Es como seguir una lista de la compra para no olvidarte de nada</mark>."
+      "respuesta": "Porque un pedido desordenado puede llevar a olvidar productos o a confundirlos. <mark>Es como seguir una lista de la compra para no olvidarte de nada</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/orden-pedido.jpg",
+        "alt": "Estanterías de almacén con productos organizados",
+        "titulo": "CMFPSStorage shelves 1 (2)",
+        "autor": "Reuse Warehouse Houston",
+        "fuente": "https://www.flickr.com/photos/44177494@N04/5344508128",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tipos de mercancía pueden requerir un cuidado especial?",
-      "respuesta": "Productos frágiles, perecederos o de gran tamaño necesitan una manipulación distinta. <mark>No se maneja igual una caja de cristal que un saco de arroz</mark>."
+      "respuesta": "Productos frágiles, perecederos o de gran tamaño necesitan una manipulación distinta. <mark>No se maneja igual una caja de cristal que un saco de arroz</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/mercancia-cuidado.jpg",
+        "alt": "Una caja con la etiqueta de frágil",
+        "titulo": "Fragile",
+        "autor": "bibendum84",
+        "fuente": "https://www.flickr.com/photos/14246531@N04/3979630662",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se deben manipular los productos frágiles?",
-      "respuesta": "Con cuidado, usando protección adecuada y evitando golpes o caídas. <mark>Es como llevar algo delicado con las dos manos, prestando atención constante</mark>."
+      "respuesta": "Con cuidado, usando protección adecuada y evitando golpes o caídas. <mark>Es como llevar algo delicado con las dos manos, prestando atención constante</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/manipular-fragiles.jpg",
+        "alt": "Una caja con la etiqueta 'manéjese con cuidado, frágil'",
+        "titulo": "Please Handle With Care - FRAGILE",
+        "autor": "mrbill",
+        "fuente": "https://www.flickr.com/photos/41894183508@N01/96827834",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la conservación de productos según su tipo?",
-      "respuesta": "Es guardar cada producto en las condiciones que necesita para no estropearse. <mark>Es como guardar la comida en la nevera o en la despensa, según lo que sea</mark>."
+      "respuesta": "Es guardar cada producto en las condiciones que necesita para no estropearse. <mark>Es como guardar la comida en la nevera o en la despensa, según lo que sea</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/conservacion-tipos.jpg",
+        "alt": "Recipientes de comida guardados en la nevera",
+        "titulo": "Glass food storage containers - Fridge",
+        "autor": "Rubbermaid Products",
+        "fuente": "https://www.flickr.com/photos/28040596@N08/5710363066",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante respetar la conservación adecuada de cada producto?",
-      "respuesta": "Porque una mala conservación puede estropear la mercancía antes de venderla. <mark>Es como dejar comida fuera de la nevera y que se estropee antes de tiempo</mark>."
+      "respuesta": "Porque una mala conservación puede estropear la mercancía antes de venderla. <mark>Es como dejar comida fuera de la nevera y que se estropee antes de tiempo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/respetar-conservacion.jpg",
+        "alt": "Una manzana podrida junto a otras manzanas sanas",
+        "titulo": "One Rotten Apple Might Spoil The Whole Bunch, Gitl",
+        "autor": "cogdogblog",
+        "fuente": "https://www.flickr.com/photos/37996646802@N01/9782641042",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre la preparación manual y la automática de pedidos?",
-      "respuesta": "La preparación manual la hace una persona; la automática la realizan máquinas o sistemas informáticos. <mark>Es como elegir entre hacer algo a mano o con ayuda de una máquina</mark>."
+      "respuesta": "La preparación manual la hace una persona; la automática la realizan máquinas o sistemas informáticos. <mark>Es como elegir entre hacer algo a mano o con ayuda de una máquina</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/manual-vs-automatica.jpg",
+        "alt": "El interior de una máquina automática de pesaje y clasificación",
+        "titulo": "The inside of an automatic weighing and sorting machine",
+        "autor": "Lars Plougmann",
+        "fuente": "https://www.flickr.com/photos/75062596@N00/15438468663",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas tiene la preparación manual de pedidos?",
-      "respuesta": "Permite más atención al detalle en pedidos pequeños o especiales. <mark>Es como hacer algo a medida, cuidando cada paso de cerca</mark>."
+      "respuesta": "Permite más atención al detalle en pedidos pequeños o especiales. <mark>Es como hacer algo a medida, cuidando cada paso de cerca</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/ventajas-manual.jpg",
+        "alt": "Un paquete envuelto listo para enviar",
+        "titulo": "Package",
+        "autor": "matsuyuki",
+        "fuente": "https://www.flickr.com/photos/12173213@N00/2926954570",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas tiene la preparación automática de pedidos?",
-      "respuesta": "Permite preparar muchos pedidos en poco tiempo, con menos errores humanos. <mark>Es como tener una máquina que repite el mismo proceso una y otra vez sin cansarse</mark>."
+      "respuesta": "Permite preparar muchos pedidos en poco tiempo, con menos errores humanos. <mark>Es como tener una máquina que repite el mismo proceso una y otra vez sin cansarse</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/ventajas-automatica.jpg",
+        "alt": "Una cinta transportadora en una instalación industrial",
+        "titulo": "coal conveyor belt (and Tim)",
+        "autor": "jasoneppink",
+        "fuente": "https://www.flickr.com/photos/38102495@N00/499644215",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante revisar un pedido antes de enviarlo?",
-      "respuesta": "Porque un error, como un producto equivocado, genera una mala experiencia para el cliente. <mark>Es como comprobar la maleta antes de cerrarla, para no olvidar nada</mark>."
+      "respuesta": "Porque un error, como un producto equivocado, genera una mala experiencia para el cliente. <mark>Es como comprobar la maleta antes de cerrarla, para no olvidar nada</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/revisar-pedido.jpg",
+        "alt": "Una persona sujetando una tabla con un formulario para revisar",
+        "titulo": "Clipboard Hand",
+        "autor": "Kristin Hardwick",
+        "fuente": "https://stocksnap.io/photo/clipboard-hand-TRKNLIGFAJ",
+        "licencia": "CC0 1.0"
+      }
     }
   ]
 }

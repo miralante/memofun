@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué problemas sufrió España durante el siglo XVII?",
-      "respuesta": "Perdió poder político y sufrió graves problemas económicos. <mark>Es como un imperio enorme que empieza a quedarse sin fuerzas para sostenerse</mark>. Las guerras constantes vaciaron las arcas del reino. Esa etapa se conoce como la crisis del siglo diecisiete."
+      "respuesta": "Perdió poder político y sufrió graves problemas económicos. <mark>Es como un imperio enorme que empieza a quedarse sin fuerzas para sostenerse</mark>. Las guerras constantes vaciaron las arcas del reino. Esa etapa se conoce como la crisis del siglo diecisiete.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/castillo-ruinas.jpg",
+        "alt": "Ruinas de un castillo medieval, símbolo de una época de crisis",
+        "titulo": "Medieval castle ruins",
+        "autor": "minka6",
+        "fuente": "https://www.flickr.com/photos/61178002@N00/52320085960",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una monarquía absoluta?",
-      "respuesta": "Es un gobierno donde el rey tiene todo el poder, sin apenas límites. <mark>Es como si una sola persona decidiera todas las reglas del juego</mark>. El rey hacía las leyes y controlaba el ejército y los impuestos. Francia, con Luis XIV, es un ejemplo muy conocido."
+      "respuesta": "Es un gobierno donde el rey tiene todo el poder, sin apenas límites. <mark>Es como si una sola persona decidiera todas las reglas del juego</mark>. El rey hacía las leyes y controlaba el ejército y los impuestos. Francia, con Luis XIV, es un ejemplo muy conocido.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/jacobo-ii-rey.jpg",
+        "alt": "Retrato de un rey con corona, símbolo de la monarquía absoluta",
+        "titulo": "James II, King of Britain, son of Charles I and Henrietta Maria",
+        "autor": "lisby1",
+        "fuente": "https://www.flickr.com/photos/60861613@N00/3986916371",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una monarquía parlamentaria?",
-      "respuesta": "Es un gobierno donde el poder del rey está limitado por un parlamento. <mark>El rey ya no decide solo: debe compartir el poder con otras personas elegidas</mark>. Inglaterra desarrolló pronto este modelo, distinto al absolutismo. Sentó las bases de los sistemas democráticos posteriores."
+      "respuesta": "Es un gobierno donde el poder del rey está limitado por un parlamento. <mark>El rey ya no decide solo: debe compartir el poder con otras personas elegidas</mark>. Inglaterra desarrolló pronto este modelo, distinto al absolutismo. Sentó las bases de los sistemas democráticos posteriores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/parlamento-hungria.jpg",
+        "alt": "Un edificio de parlamento, donde se reúnen los representantes del pueblo",
+        "titulo": "Hungarian Parliament Building by Night",
+        "autor": "Cost3l",
+        "fuente": "https://www.flickr.com/photos/11473706@N03/11211744594",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Guerra de los Treinta Años?",
-      "respuesta": "Fue un conflicto larguísimo y muy destructivo en el centro de Europa. <mark>Mezclaba motivos religiosos y también la lucha por el poder entre países</mark>. Duró de 1618 a 1648 y afectó a buena parte del continente. Tras esa guerra, España perdió peso frente a otras potencias europeas."
+      "respuesta": "Fue un conflicto larguísimo y muy destructivo en el centro de Europa. <mark>Mezclaba motivos religiosos y también la lucha por el poder entre países</mark>. Duró de 1618 a 1648 y afectó a buena parte del continente. Tras esa guerra, España perdió peso frente a otras potencias europeas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/canon-fortaleza.jpg",
+        "alt": "Un cañón antiguo sobre una fortaleza",
+        "titulo": "Cannon atop Castillo San Felipe de Barajas",
+        "autor": "jdlasica",
+        "fuente": "https://www.flickr.com/photos/36521958135@N01/39981791792",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasó con los últimos reyes de la dinastía de los Austrias?",
-      "respuesta": "Fueron reyes cada vez más débiles, con problemas de salud y de gobierno. <mark>Es como una empresa que va perdiendo fuerza con cada nuevo director</mark>. El último de ellos, Carlos II, no dejó descendencia. Su muerte provocó una grave crisis por el trono de España."
+      "respuesta": "Fueron reyes cada vez más débiles, con problemas de salud y de gobierno. <mark>Es como una empresa que va perdiendo fuerza con cada nuevo director</mark>. El último de ellos, Carlos II, no dejó descendencia. Su muerte provocó una grave crisis por el trono de España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/objetos-reales.jpg",
+        "alt": "Objetos y joyas reales de una dinastía europea",
+        "titulo": "Austria-03349 - Royal Items",
+        "autor": "archer10 (Dennis)",
+        "fuente": "https://www.flickr.com/photos/22490717@N02/32811954821",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el arte Barroco?",
-      "respuesta": "Es un estilo artístico lleno de movimiento, contrastes y emoción intensa. <mark>Frente a la calma del Renacimiento, el Barroco busca sorprender y emocionar</mark>. Usa mucho la luz y la sombra para crear dramatismo. Pintores como Velázquez destacaron en esta época."
+      "respuesta": "Es un estilo artístico lleno de movimiento, contrastes y emoción intensa. <mark>Frente a la calma del Renacimiento, el Barroco busca sorprender y emocionar</mark>. Usa mucho la luz y la sombra para crear dramatismo. Pintores como Velázquez destacaron en esta época.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/pintura-barroca.jpg",
+        "alt": "Una sala de museo con pinturas del estilo Barroco",
+        "titulo": "Sales de pintura barroca, Palau del Marquès de Campo",
+        "autor": "Enric",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=75421491",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué avances científicos trajo la revolución científica del siglo XVII?",
-      "respuesta": "Nuevas formas de observar y explicar el universo, con pruebas y experimentos. <mark>La ciencia empezó a mirar el cielo con telescopios, no solo con creencias</mark>. Científicos como Galileo defendieron que la Tierra gira alrededor del Sol. Esas ideas chocaron muchas veces con la Iglesia de la época."
+      "respuesta": "Nuevas formas de observar y explicar el universo, con pruebas y experimentos. <mark>La ciencia empezó a mirar el cielo con telescopios, no solo con creencias</mark>. Científicos como Galileo defendieron que la Tierra gira alrededor del Sol. Esas ideas chocaron muchas veces con la Iglesia de la época.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/telescopio-antiguo.jpg",
+        "alt": "Un telescopio antiguo, como los usados en la revolución científica",
+        "titulo": "Telescopio Antiguo - Museo OAQ",
+        "autor": "GARY FLORES CADENA",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=70291971",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia había entre el racionalismo y el pensamiento anterior?",
-      "respuesta": "El racionalismo defendía usar la razón y la lógica para buscar la verdad. <mark>Antes, muchas respuestas se aceptaban solo porque lo decía una autoridad</mark>. Ahora se pedían pruebas y demostraciones. Esa forma de pensar preparó el camino hacia la ciencia moderna."
+      "respuesta": "El racionalismo defendía usar la razón y la lógica para buscar la verdad. <mark>Antes, muchas respuestas se aceptaban solo porque lo decía una autoridad</mark>. Ahora se pedían pruebas y demostraciones. Esa forma de pensar preparó el camino hacia la ciencia moderna.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/biblioteca-antigua.jpg",
+        "alt": "Una biblioteca antigua llena de libros de filosofía",
+        "titulo": "Long Library",
+        "autor": "MOH-PHO",
+        "fuente": "https://www.flickr.com/photos/47956820@N08/23534875211",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo era la sociedad estamental en la Edad Moderna?",
-      "respuesta": "Seguía dividida entre nobleza, clero y el resto del pueblo llano. <mark>El lugar de nacimiento seguía marcando casi toda la vida de una persona</mark>. La nobleza y el clero pagaban pocos o ningún impuesto. Esa desigualdad generó tensiones que estallarían siglos después."
+      "respuesta": "Seguía dividida entre nobleza, clero y el resto del pueblo llano. <mark>El lugar de nacimiento seguía marcando casi toda la vida de una persona</mark>. La nobleza y el clero pagaban pocos o ningún impuesto. Esa desigualdad generó tensiones que estallarían siglos después.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/vestimenta-historica.jpg",
+        "alt": "Dibujo de personas con distinta vestimenta según su clase social histórica",
+        "titulo": "LAROUSSE - L.C.Bombled COSTUMES CIVILS",
+        "autor": "Louis Charles Bombled (1862-1927), French artist and illustrator",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=155063384",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué pasó con la población judía en la España de los Reyes Católicos?",
-      "respuesta": "Fue expulsada en 1492 si no se convertía al cristianismo. <mark>Muchas familias tuvieron que abandonar de golpe la tierra donde habían vivido siempre</mark>. Se marcharon a otros países del Mediterráneo y Europa. Su cultura y su lengua, el ladino, sobrevivieron fuera de España durante siglos."
+      "respuesta": "Fue expulsada en 1492 si no se convertía al cristianismo. <mark>Muchas familias tuvieron que abandonar de golpe la tierra donde habían vivido siempre</mark>. Se marcharon a otros países del Mediterráneo y Europa. Su cultura y su lengua, el ladino, sobrevivieron fuera de España durante siglos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/sinagoga.jpg",
+        "alt": "Una sinagoga, lugar de culto de la comunidad judía",
+        "titulo": "Synagogue",
+        "autor": "Gabriela__F",
+        "fuente": "https://www.flickr.com/photos/59882593@N05/6471335693",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la leyenda negra sobre España en la Edad Moderna?",
-      "respuesta": "Fue una imagen muy negativa de España difundida por sus países rivales. <mark>Es como una fama exagerada que se repite tanto que parece verdad</mark>. Exageraba la crueldad española en América y en Europa. Estudiarla con sentido crítico ayuda a separar la propaganda de los hechos."
+      "respuesta": "Fue una imagen muy negativa de España difundida por sus países rivales. <mark>Es como una fama exagerada que se repite tanto que parece verdad</mark>. Exageraba la crueldad española en América y en Europa. Estudiarla con sentido crítico ayuda a separar la propaganda de los hechos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/manuscrito-iluminado.jpg",
+        "alt": "Un manuscrito antiguo iluminado con dibujos y texto",
+        "titulo": "Illuminated Manuscript, Duke Albrecht's Table of Christian Faith",
+        "autor": "Walters Art Museum Illuminated Manuscripts",
+        "fuente": "https://www.flickr.com/photos/39699193@N03/5448304392",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué avances hubo en medicina durante la Edad Media y la Edad Moderna?",
-      "respuesta": "Se aprendió más sobre el cuerpo humano y cómo tratar enfermedades. <mark>Aun así, epidemias como la peste seguían siendo casi imposibles de frenar</mark>. Hospitales y universidades empezaron a estudiar medicina de forma más ordenada. Esos avances sentaron las bases de la medicina posterior."
+      "respuesta": "Se aprendió más sobre el cuerpo humano y cómo tratar enfermedades. <mark>Aun así, epidemias como la peste seguían siendo casi imposibles de frenar</mark>. Hospitales y universidades empezaron a estudiar medicina de forma más ordenada. Esos avances sentaron las bases de la medicina posterior.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/boticario-frascos.jpg",
+        "alt": "Frascos antiguos de un boticario, usados para preparar medicinas",
+        "titulo": "display several apothecary bottles containing",
+        "autor": "libraryofcongress",
+        "fuente": "https://www.rawpixel.com/image/6746900/photo-image-medicine-pharmacy-vintage",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el patrimonio documental, como archivos y bibliotecas?",
-      "respuesta": "Son colecciones de documentos y libros que guardan la memoria del pasado. <mark>Son como la memoria escrita de toda una sociedad, guardada en estantes</mark>. Permiten investigar cómo vivía la gente hace siglos. Sin ellos, muchos hechos históricos se habrían perdido para siempre."
+      "respuesta": "Son colecciones de documentos y libros que guardan la memoria del pasado. <mark>Son como la memoria escrita de toda una sociedad, guardada en estantes</mark>. Permiten investigar cómo vivía la gente hace siglos. Sin ellos, muchos hechos históricos se habrían perdido para siempre.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/estanterias-biblioteca.jpg",
+        "alt": "Estanterías repletas de libros antiguos en una biblioteca histórica",
+        "titulo": "The Old Library book shelves at Trinity College, Dublin",
+        "autor": "mark_mcguire",
+        "fuente": "https://www.flickr.com/photos/25916400@N07/10766368614",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación había entre religión y violencia en la Edad Moderna?",
-      "respuesta": "Las diferencias religiosas provocaron guerras y persecuciones en varios países de Europa. <mark>Creer distinto podía convertirte en blanco de sospechas o de castigo</mark>. La Guerra de los Treinta Años es un ejemplo claro de esa violencia. Esa etapa dejó heridas que tardaron generaciones en cerrarse."
+      "respuesta": "Las diferencias religiosas provocaron guerras y persecuciones en varios países de Europa. <mark>Creer distinto podía convertirte en blanco de sospechas o de castigo</mark>. La Guerra de los Treinta Años es un ejemplo claro de esa violencia. Esa etapa dejó heridas que tardaron generaciones en cerrarse.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/iglesia-exterior.jpg",
+        "alt": "El exterior de una iglesia histórica",
+        "titulo": "St Michael's Church, Poole Road, Bournemouth",
+        "autor": "JackPeasePhotography",
+        "fuente": "https://www.flickr.com/photos/76253421@N04/15311865595",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo cambió el comercio mundial tras el Descubrimiento de América?",
-      "respuesta": "Se crearon nuevas rutas que conectaban Europa, América, África y Asia. <mark>El mundo empezó a comerciar como una red conectada, no como zonas aisladas</mark>. Llegaron productos, personas e ideas de continentes muy distintos. Ese intercambio cambió para siempre la economía mundial."
+      "respuesta": "Se crearon nuevas rutas que conectaban Europa, América, África y Asia. <mark>El mundo empezó a comerciar como una red conectada, no como zonas aisladas</mark>. Llegaron productos, personas e ideas de continentes muy distintos. Ese intercambio cambió para siempre la economía mundial.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/barco-velero-comercio.jpg",
+        "alt": "Un velero histórico usado para el comercio marítimo",
+        "titulo": "2808-The Pelican of London en la Tall Ships Race-Coruña.2012",
+        "autor": "jl.cernadas",
+        "fuente": "https://www.flickr.com/photos/38035878@N07/7808042202",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que el siglo XVII fue una época de contrastes en España?",
-      "respuesta": "Porque, mientras el país perdía poder político, su arte vivía un momento brillante. <mark>Es como una casa que se cae a trozos, pero con las paredes llenas de grandes cuadros</mark>. A esa época de gran arte se le llama Siglo de Oro. Pintores y escritores destacaron pese a la crisis económica del país."
+      "respuesta": "Porque, mientras el país perdía poder político, su arte vivía un momento brillante. <mark>Es como una casa que se cae a trozos, pero con las paredes llenas de grandes cuadros</mark>. A esa época de gran arte se le llama Siglo de Oro. Pintores y escritores destacaron pese a la crisis económica del país.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_6/palacio-barroco.jpg",
+        "alt": "Un gran palacio barroco, símbolo de riqueza y contraste social",
+        "titulo": "Blenheim Palace - 1993",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/4295559003",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

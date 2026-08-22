@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué problemas enfrentó el reinado de Alfonso XIII?",
-      "respuesta": "Enfrentó conflictos coloniales en Marruecos y una grave crisis social en 1917. <mark>Es como gobernar un país con varios incendios encendidos a la vez</mark>. La guerra en Marruecos costó muchas vidas y fue muy impopular. Esa inestabilidad debilitó cada vez más el sistema político de la Restauración."
+      "respuesta": "Enfrentó conflictos coloniales en Marruecos y una grave crisis social en 1917. <mark>Es como gobernar un país con varios incendios encendidos a la vez</mark>. La guerra en Marruecos costó muchas vidas y fue muy impopular. Esa inestabilidad debilitó cada vez más el sistema político de la Restauración.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/reinado-alfonso-xiii.jpg",
+        "alt": "Moneda española de 5 pesetas con la efigie del rey Alfonso XIII.",
+        "titulo": "SPAIN, ALFONSO XIII 1898 ---5 PESETAS b",
+        "autor": "woody1778a",
+        "fuente": "https://www.flickr.com/photos/9816248@N03/4277985555",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la dictadura de Primo de Rivera?",
-      "respuesta": "Fue un gobierno autoritario que tomó el poder en España en 1923, con apoyo del rey. <mark>Suspendió la Constitución y gobernó sin necesidad de elecciones</mark>. Buscaba poner orden ante la inestabilidad anterior. Su caída, en 1930, dejó a la monarquía aún más debilitada."
+      "respuesta": "Fue un gobierno autoritario que tomó el poder en España en 1923, con apoyo del rey. <mark>Suspendió la Constitución y gobernó sin necesidad de elecciones</mark>. Buscaba poner orden ante la inestabilidad anterior. Su caída, en 1930, dejó a la monarquía aún más debilitada.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/dictadura-primo-rivera.jpg",
+        "alt": "Palacio Real de Madrid, símbolo de la monarquía de aquella época.",
+        "titulo": "royal palace Madrid Spain",
+        "autor": "gabemac",
+        "fuente": "https://www.flickr.com/photos/38366783@N00/7402252530",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Segunda República española?",
-      "respuesta": "Fue el nuevo régimen democrático proclamado en España en 1931. <mark>Sustituyó a la monarquía tras unas elecciones que mostraron el rechazo popular al rey</mark>. Impulsó reformas en educación, tierra y derechos civiles. Fue un periodo de grandes esperanzas, pero también de fuertes tensiones."
+      "respuesta": "Fue el nuevo régimen democrático proclamado en España en 1931. <mark>Sustituyó a la monarquía tras unas elecciones que mostraron el rechazo popular al rey</mark>. Impulsó reformas en educación, tierra y derechos civiles. Fue un periodo de grandes esperanzas, pero también de fuertes tensiones.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/segunda-republica.svg",
+        "alt": "Bandera tricolor de la Segunda República española.",
+        "titulo": "Flag of Spain (1931–1939)",
+        "autor": "SanchoPanzaXXI",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=3557152",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Guerra Civil española?",
-      "respuesta": "Fue el conflicto armado entre bandos enfrentados dentro de España, de 1936 a 1939. <mark>Dividió al país y a muchas familias entre dos bandos irreconciliables</mark>. Provocó cientos de miles de muertos y un enorme sufrimiento. Terminó con la victoria del bando franquista y el inicio de una dictadura."
+      "respuesta": "Fue el conflicto armado entre bandos enfrentados dentro de España, de 1936 a 1939. <mark>Dividió al país y a muchas familias entre dos bandos irreconciliables</mark>. Provocó cientos de miles de muertos y un enorme sufrimiento. Terminó con la victoria del bando franquista y el inicio de una dictadura.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/guerra-civil.jpg",
+        "alt": "Escultura de una paloma de la paz, símbolo de reconciliación.",
+        "titulo": "The Peace Dove Sculpture, Hermitage Wharf Riverside Memorial Garden, Wapping - London.",
+        "autor": "Jim Linwood",
+        "fuente": "https://www.flickr.com/photos/54238124@N00/7562261512",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el franquismo?",
-      "respuesta": "Fue la dictadura liderada por Francisco Franco, desde 1939 hasta 1975. <mark>Concentró todo el poder político, sin partidos ni elecciones libres</mark>. Reprimió duramente a quien se oponía al régimen. Duró casi cuarenta años, marcando profundamente la sociedad española."
+      "respuesta": "Fue la dictadura liderada por Francisco Franco, desde 1939 hasta 1975. <mark>Concentró todo el poder político, sin partidos ni elecciones libres</mark>. Reprimió duramente a quien se oponía al régimen. Duró casi cuarenta años, marcando profundamente la sociedad española.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/franquismo.svg",
+        "alt": "Bandera de España utilizada durante la época del franquismo.",
+        "titulo": "Flag of Spain (1945–1977)",
+        "autor": "SanchoPanzaXXI",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=3416012",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Transición española?",
-      "respuesta": "Fue el proceso pacífico por el que España pasó de la dictadura a la democracia. <mark>Es como reconstruir un edificio sin destruir del todo lo anterior, buscando el consenso</mark>. Ocurrió tras la muerte de Franco, en 1975. Se considera un modelo admirado por otros países."
+      "respuesta": "Fue el proceso pacífico por el que España pasó de la dictadura a la democracia. <mark>Es como reconstruir un edificio sin destruir del todo lo anterior, buscando el consenso</mark>. Ocurrió tras la muerte de Franco, en 1975. Se considera un modelo admirado por otros países.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/transicion.jpg",
+        "alt": "Edificio del Congreso de los Diputados en Madrid.",
+        "titulo": "Ampliación Congreso de los Diputados Madrid",
+        "autor": "losmininos",
+        "fuente": "https://www.flickr.com/photos/72723202@N00/1508400155",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué representa la Constitución de 1978?",
-      "respuesta": "Es la norma fundamental que rige España desde el final de la dictadura. <mark>Estableció derechos, libertades y una monarquía parlamentaria</mark>. Fue aprobada por una amplísima mayoría de la población española. Sigue siendo hoy la base legal de la democracia en España."
+      "respuesta": "Es la norma fundamental que rige España desde el final de la dictadura. <mark>Estableció derechos, libertades y una monarquía parlamentaria</mark>. Fue aprobada por una amplísima mayoría de la población española. Sigue siendo hoy la base legal de la democracia en España.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/congreso-diputados.jpg",
+        "alt": "El Congreso de los Diputados, sede del Parlamento español",
+        "titulo": "Congreso de los Diputados, Madrid",
+        "autor": "AMPERIO",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=49555121",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué caracterizó a los primeros gobiernos de la democracia española?",
-      "respuesta": "Tuvieron que reconstruir instituciones y garantizar libertades tras la dictadura. <mark>Era como aprender de nuevo las reglas de un juego que llevaba décadas sin jugarse</mark>. También impulsaron la entrada de España en organismos internacionales. Ese proceso fortaleció la democracia de forma progresiva."
+      "respuesta": "Tuvieron que reconstruir instituciones y garantizar libertades tras la dictadura. <mark>Era como aprender de nuevo las reglas de un juego que llevaba décadas sin jugarse</mark>. También impulsaron la entrada de España en organismos internacionales. Ese proceso fortaleció la democracia de forma progresiva.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/primeros-gobiernos-democracia.jpg",
+        "alt": "Urna electoral utilizada para depositar los votos.",
+        "titulo": "Ballot box scanner - London mayor and assembly election 2008",
+        "autor": "secretlondon123",
+        "fuente": "https://www.flickr.com/photos/25834786@N03/2461779607",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significó la integración de España en la Unión Europea?",
-      "respuesta": "Supuso unirse a un proyecto común de cooperación económica y política europea. <mark>Es como entrar en un gran equipo con reglas y beneficios compartidos</mark>. España se incorporó en 1986. Esa integración impulsó su modernización económica y social."
+      "respuesta": "Supuso unirse a un proyecto común de cooperación económica y política europea. <mark>Es como entrar en un gran equipo con reglas y beneficios compartidos</mark>. España se incorporó en 1986. Esa integración impulsó su modernización económica y social.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/integracion-ue.jpg",
+        "alt": "Varias banderas de la Unión Europea ondeando juntas.",
+        "titulo": "European Union flags",
+        "autor": "futureatlas.com",
+        "fuente": "https://www.flickr.com/photos/87913776@N00/3772577165",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el terrorismo de ETA?",
-      "respuesta": "Fue una organización que usó la violencia durante décadas para pedir la independencia del País Vasco. <mark>Sus atentados causaron cientos de víctimas y mucho sufrimiento en toda España</mark>. Actuó desde el franquismo hasta bien entrada la democracia. Anunció el fin definitivo de su actividad en 2018."
+      "respuesta": "Fue una organización que usó la violencia durante décadas para pedir la independencia del País Vasco. <mark>Sus atentados causaron cientos de víctimas y mucho sufrimiento en toda España</mark>. Actuó desde el franquismo hasta bien entrada la democracia. Anunció el fin definitivo de su actividad en 2018.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/terrorismo-eta.jpg",
+        "alt": "Cinta policial de escena del crimen, símbolo de un atentado.",
+        "titulo": "Police Crime Scene Tape",
+        "autor": "JobsForFelonsHub",
+        "fuente": "https://www.flickr.com/photos/144110575@N07/27144250843",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué instituciones garantizan hoy la seguridad y la convivencia en España?",
-      "respuesta": "Las fuerzas de seguridad del Estado, la justicia y las instituciones democráticas. <mark>Funcionan como los cimientos que sostienen la convivencia pacífica del país</mark>. Su trabajo incluye prevenir la violencia y proteger los derechos de todos. Sin ellas, la seguridad de la sociedad sería más frágil."
+      "respuesta": "Las fuerzas de seguridad del Estado, la justicia y las instituciones democráticas. <mark>Funcionan como los cimientos que sostienen la convivencia pacífica del país</mark>. Su trabajo incluye prevenir la violencia y proteger los derechos de todos. Sin ellas, la seguridad de la sociedad sería más frágil.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/instituciones-seguridad.jpg",
+        "alt": "Agente de policía con su uniforme oficial.",
+        "titulo": "Police Officer Uniform with Body Camera",
+        "autor": "JobsForFelonsHub",
+        "fuente": "https://www.flickr.com/photos/144110575@N07/27680528581",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Edad de Plata de la cultura española?",
-      "respuesta": "Fue un momento brillante de la literatura, el arte y la ciencia españolas, a principios del siglo veinte. <mark>Se llama 'de plata' porque siguió al Siglo de Oro, aunque con un brillo propio</mark>. Autores como Lorca o científicos como Ramón y Cajal la representan. La Guerra Civil interrumpió ese momento."
+      "respuesta": "Fue un momento brillante de la literatura, el arte y la ciencia españolas, a principios del siglo veinte. <mark>Se llama 'de plata' porque siguió al Siglo de Oro, aunque con un brillo propio</mark>. Autores como Lorca o científicos como Ramón y Cajal la representan. La Guerra Civil interrumpió ese momento.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/ramon-y-cajal-estatua.jpg",
+        "alt": "Monumento a Santiago Ramón y Cajal, figura de la Edad de Plata española",
+        "titulo": "Monumento a Santiago Ramón y Cajal, Parque del Buen Retiro",
+        "autor": "Benjamín Núñez González",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=44366523",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Por qué la Guerra Civil marcó un final abrupto de la Edad de Plata?",
-      "respuesta": "Porque muchos de sus grandes artistas y pensadores murieron o tuvieron que exiliarse. <mark>Es como cortar de golpe una conversación brillante que estaba en pleno apogeo</mark>. España perdió durante décadas parte de ese talento cultural. Solo con la democracia esa cultura pudo florecer de nuevo."
+      "respuesta": "Porque muchos de sus grandes artistas y pensadores murieron o tuvieron que exiliarse. <mark>Es como cortar de golpe una conversación brillante que estaba en pleno apogeo</mark>. España perdió durante décadas parte de ese talento cultural. Solo con la democracia esa cultura pudo florecer de nuevo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/edad-de-plata.jpg",
+        "alt": "Pila de libros antiguos, símbolo de la literatura de una época.",
+        "titulo": "Books of Knowledge.",
+        "autor": "Tessss",
+        "fuente": "https://www.flickr.com/photos/92675621@N00/2956927902",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la crisis de 1917 y la posterior dictadura de Primo de Rivera?",
-      "respuesta": "La crisis de 1917 mostró la debilidad del sistema político de la Restauración. <mark>Es como una grieta que anuncia que un edificio puede llegar a caer</mark>. Esa inestabilidad facilitó que un golpe militar tomara el poder pocos años después. Por eso los historiadores conectan ambos episodios."
+      "respuesta": "La crisis de 1917 mostró la debilidad del sistema político de la Restauración. <mark>Es como una grieta que anuncia que un edificio puede llegar a caer</mark>. Esa inestabilidad facilitó que un golpe militar tomara el poder pocos años después. Por eso los historiadores conectan ambos episodios.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/crisis-1917.jpg",
+        "alt": "Moneda española de la época del rey Alfonso XIII.",
+        "titulo": "SPAIN, ALFONSO XIII 1898 ---5 PESETAS b",
+        "autor": "woody1778a",
+        "fuente": "https://www.flickr.com/photos/9816248@N03/4277985555",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la Transición española se considera un ejemplo de consenso político?",
-      "respuesta": "Porque personas con ideas muy distintas lograron ponerse de acuerdo en normas comunes. <mark>Es como sentar en la misma mesa a rivales para escribir juntos las nuevas reglas</mark>. Se evitó así una nueva ruptura violenta del país. Ese consenso permitió una democracia estable durante décadas."
+      "respuesta": "Porque personas con ideas muy distintas lograron ponerse de acuerdo en normas comunes. <mark>Es como sentar en la misma mesa a rivales para escribir juntos las nuevas reglas</mark>. Se evitó así una nueva ruptura violenta del país. Ese consenso permitió una democracia estable durante décadas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/consenso-politico.jpg",
+        "alt": "Edificio del Congreso de los Diputados en Madrid.",
+        "titulo": "Congreso de los Diputados, Madrid",
+        "autor": "AMPERIO",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=49555121",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué cambió en la sociedad española tras la llegada de la democracia?",
-      "respuesta": "Se recuperaron libertades como la de expresión, reunión y prensa. <mark>Es como abrir de golpe muchas ventanas que llevaban décadas cerradas</mark>. La sociedad española vivió una modernización rápida en pocos años. Ese cambio afectó a la educación, la cultura y las costumbres cotidianas."
+      "respuesta": "Se recuperaron libertades como la de expresión, reunión y prensa. <mark>Es como abrir de golpe muchas ventanas que llevaban décadas cerradas</mark>. La sociedad española vivió una modernización rápida en pocos años. Ese cambio afectó a la educación, la cultura y las costumbres cotidianas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/cambio-sociedad.jpg",
+        "alt": "Urnas electorales preparadas para una votación.",
+        "titulo": "Ballot boxes from the 2008 London elections",
+        "autor": "secretlondon123",
+        "fuente": "https://www.flickr.com/photos/25834786@N03/2462581488",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que el siglo XX español fue especialmente convulso?",
-      "respuesta": "Porque combinó una dictadura, una guerra civil, otra dictadura y finalmente una democracia. <mark>Pocos países vivieron tantos cambios de sistema político en tan poco tiempo</mark>. Cada cambio dejó una huella profunda en la sociedad española. Por eso es clave para entender la España actual."
+      "respuesta": "Porque combinó una dictadura, una guerra civil, otra dictadura y finalmente una democracia. <mark>Pocos países vivieron tantos cambios de sistema político en tan poco tiempo</mark>. Cada cambio dejó una huella profunda en la sociedad española. Por eso es clave para entender la España actual.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/siglo-xx-convulso.jpg",
+        "alt": "Reloj de bolsillo antiguo, símbolo del paso del tiempo histórico.",
+        "titulo": "Week 7 - Antique Pocket Watch",
+        "autor": "KimCarpenter NJ",
+        "fuente": "https://www.flickr.com/photos/41705940@N03/5462877477",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tuvo la monarquía en la Transición española?",
-      "respuesta": "El rey Juan Carlos I impulsó y respaldó el paso hacia la democracia. <mark>Su papel fue clave para que los cambios ocurrieran de forma pacífica</mark>. Ayudó a frenar intentos de dar marcha atrás, como el golpe de Estado de 1981. Por eso su figura sigue siendo estudiada en ese periodo."
+      "respuesta": "El rey Juan Carlos I impulsó y respaldó el paso hacia la democracia. <mark>Su papel fue clave para que los cambios ocurrieran de forma pacífica</mark>. Ayudó a frenar intentos de dar marcha atrás, como el golpe de Estado de 1981. Por eso su figura sigue siendo estudiada en ese periodo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_geografia-historia_4/monarquia-transicion.jpg",
+        "alt": "Palacio Real de Madrid, sede oficial de la monarquía española.",
+        "titulo": "The Royal Palace, Madrid, Spain IV",
+        "autor": "Komal.tujare",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=21764817",
+        "licencia": "CC BY-SA 3.0"
+      }
     }
   ]
 }

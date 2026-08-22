@@ -13,10 +13,10 @@ experiencia, la educación, el estatus socioeconómico, la nacionalidad, la
 apariencia física, la raza, la religión, o la identidad y orientación
 sexual.
 
-Dado que Memofun existe para que estudiantes con discapacidad
-intelectual puedan estudiar de forma autónoma y sin barreras, esperamos
-ese mismo espíritu de claridad, paciencia y respeto en cómo nos
-tratamos entre quienes contribuimos.
+Dado que Memofun existe para que nuestros/as usuarios/as tipo puedan
+estudiar de forma autónoma y sin barreras, esperamos ese mismo espíritu
+de claridad, paciencia y respeto en cómo nos tratamos entre quienes
+contribuimos.
 
 ## Nuestros estándares
 

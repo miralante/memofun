@@ -5,71 +5,207 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué son los departamentos de una empresa?",
-      "respuesta": "Son las distintas partes en las que se organiza el trabajo de una empresa. <mark>Es como repartir las tareas de una casa entre distintas personas, cada una con su función</mark>. Compras, ventas y recursos humanos son ejemplos comunes."
+      "respuesta": "Son las distintas partes en las que se organiza el trabajo de una empresa. <mark>Es como repartir las tareas de una casa entre distintas personas, cada una con su función</mark>. Compras, ventas y recursos humanos son ejemplos comunes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/departamentos-empresa.jpg",
+        "alt": "Espacio de oficina dividido en distintos puestos de trabajo.",
+        "titulo": "My little artistic statement...",
+        "autor": "DDFic",
+        "fuente": "https://www.flickr.com/photos/13684545@N00/687679971",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué funciones tiene el departamento de compras?",
-      "respuesta": "Se encarga de conseguir los materiales o productos que la empresa necesita. <mark>Es como el encargado de hacer la compra grande para que no falte nada</mark>. Negocia precios y plazos con los proveedores."
+      "respuesta": "Se encarga de conseguir los materiales o productos que la empresa necesita. <mark>Es como el encargado de hacer la compra grande para que no falte nada</mark>. Negocia precios y plazos con los proveedores.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/departamento-compras.jpg",
+        "alt": "Cajas apiladas en un almacén, listas para su compra o envío.",
+        "titulo": "20200417-FNS-LSC-0003",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/49786695837",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué funciones tiene el departamento de recursos humanos?",
-      "respuesta": "Se encarga de contratar, gestionar y cuidar al personal de la empresa. <mark>Es como el departamento que cuida de las personas que hacen funcionar la empresa</mark>. También gestiona las nóminas y la formación."
+      "respuesta": "Se encarga de contratar, gestionar y cuidar al personal de la empresa. <mark>Es como el departamento que cuida de las personas que hacen funcionar la empresa</mark>. También gestiona las nóminas y la formación.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/departamento-rrhh.jpg",
+        "alt": "Grupo de personas reunidas en una sala de juntas.",
+        "titulo": "Board Meeting",
+        "autor": "nosha",
+        "fuente": "https://www.flickr.com/photos/77316550@N00/2980362505",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un organigrama?",
-      "respuesta": "Es un dibujo que muestra cómo se organizan los puestos dentro de una empresa. <mark>Es como un árbol genealógico, pero de los cargos de una empresa</mark>. Muestra quién depende de quién dentro de la organización."
+      "respuesta": "Es un dibujo que muestra cómo se organizan los puestos dentro de una empresa. <mark>Es como un árbol genealógico, pero de los cargos de una empresa</mark>. Muestra quién depende de quién dentro de la organización.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/organigrama.jpg",
+        "alt": "Diagrama con cajas y flechas que muestra una estructura organizativa.",
+        "titulo": "process diagram for poverty in urban areas",
+        "autor": "frankh",
+        "fuente": "https://www.flickr.com/photos/53938557@N00/2175213693",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve consultar el organigrama de una empresa?",
-      "respuesta": "Ayuda a saber a quién dirigirse según el tema que necesites resolver. <mark>Es como un mapa que te indica a qué puerta llamar</mark>. Evita perder tiempo preguntando a la persona equivocada."
+      "respuesta": "Ayuda a saber a quién dirigirse según el tema que necesites resolver. <mark>Es como un mapa que te indica a qué puerta llamar</mark>. Evita perder tiempo preguntando a la persona equivocada.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/consultar-organigrama.jpg",
+        "alt": "Pizarra blanca con un esquema dibujado para consultar.",
+        "titulo": "Day 228: Idea!",
+        "autor": "quinn.anya",
+        "fuente": "https://www.flickr.com/photos/53326337@N00/6050552587",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasos sigue tramitar correctamente la correspondencia de una empresa?",
-      "respuesta": "Recibir, registrar, clasificar y entregar cada documento a quien corresponda. <mark>Es como repartir el correo de un edificio, buzón por buzón</mark>. Un buen registro evita que se pierda o se retrase algún documento."
+      "respuesta": "Recibir, registrar, clasificar y entregar cada documento a quien corresponda. <mark>Es como repartir el correo de un edificio, buzón por buzón</mark>. Un buen registro evita que se pierda o se retrase algún documento.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tramitar-correspondencia.jpg",
+        "alt": "Exhibición de paquetes y sobres del servicio de correos.",
+        "titulo": "New packaging display at the United States Postal Service",
+        "autor": "Aranami",
+        "fuente": "https://www.flickr.com/photos/51526368@N03/5116363810",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se debe comprobar al recibir un paquete o un envío?",
-      "respuesta": "Que el destinatario y los datos coincidan, y que el paquete no esté dañado. <mark>Es como comprobar que un pedido ha llegado bien antes de aceptarlo</mark>. Cualquier incidencia debe anotarse en el momento de la entrega."
+      "respuesta": "Que el destinatario y los datos coincidan, y que el paquete no esté dañado. <mark>Es como comprobar que un pedido ha llegado bien antes de aceptarlo</mark>. Cualquier incidencia debe anotarse en el momento de la entrega.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/comprobar-paquete.jpg",
+        "alt": "Paquete de envío listo para ser entregado.",
+        "titulo": "Fast delivery post package for adv or others purpose use",
+        "autor": "dirkdavidson1",
+        "fuente": "https://www.flickr.com/photos/95904983@N03/20206522323",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el correo postal?",
-      "respuesta": "Es el sistema tradicional de enviar cartas y paquetes a través de un servicio postal. <mark>Sigue siendo útil para documentos oficiales que necesitan quedar registrados</mark>. Muchos trámites oficiales todavía lo requieren."
+      "respuesta": "Es el sistema tradicional de enviar cartas y paquetes a través de un servicio postal. <mark>Sigue siendo útil para documentos oficiales que necesitan quedar registrados</mark>. Muchos trámites oficiales todavía lo requieren.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/buzon-correo.jpg",
+        "alt": "Un buzón de correos, usado para el correo postal",
+        "titulo": "Cuidado con el buzón",
+        "autor": "Bichuas (E. Carton)",
+        "fuente": "https://www.flickr.com/photos/68749058@N00/101678303",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los servicios de mensajería?",
-      "respuesta": "Son empresas especializadas en entregar paquetes de forma rápida y segura. <mark>Es como un correo postal, pero pensado para mayor rapidez y seguimiento</mark>. Permiten seguir el recorrido del paquete hasta que llega."
+      "respuesta": "Son empresas especializadas en entregar paquetes de forma rápida y segura. <mark>Es como un correo postal, pero pensado para mayor rapidez y seguimiento</mark>. Permiten seguir el recorrido del paquete hasta que llega.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/servicios-mensajeria.jpg",
+        "alt": "Bicicleta de carga usada para repartir paquetes.",
+        "titulo": "Cargobike",
+        "autor": "www.routexl.com",
+        "fuente": "https://www.flickr.com/photos/143204884@N06/27873292415",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una factura?",
-      "respuesta": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal y fiscal</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor."
+      "respuesta": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal y fiscal</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/factura.jpg",
+        "alt": "Factura con la cantidad a pagar señalada.",
+        "titulo": "Please pay this amount",
+        "autor": "miguelb",
+        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué información debe contener siempre una factura?",
-      "respuesta": "Los datos del vendedor y del comprador, el producto, el precio y el IVA aplicado. <mark>Es como una ficha completa que deja constancia exacta de toda la operación</mark>."
+      "respuesta": "Los datos del vendedor y del comprador, el producto, el precio y el IVA aplicado. <mark>Es como una ficha completa que deja constancia exacta de toda la operación</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/informacion-factura.jpg",
+        "alt": "Página de un libro de cuentas con datos anotados.",
+        "titulo": "Southern Washtenaw Mill. Account book? for sale on eBay: sample page 1.",
+        "autor": "In Memoriam: Wystan",
+        "fuente": "https://www.flickr.com/photos/70251312@N00/15259843681",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un albarán?",
-      "respuesta": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía ha llegado tal y como se pidió</mark>. Después se usa para elaborar la factura."
+      "respuesta": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía ha llegado tal y como se pidió</mark>. Después se usa para elaborar la factura.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/albaran.jpg",
+        "alt": "Varias cajas de cartón preparadas para su entrega.",
+        "titulo": "36/365: An' the BOXES'll git you Ef you Don't Watch Out!",
+        "autor": "Betsssssy",
+        "fuente": "https://www.flickr.com/photos/39154240@N00/435685903",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un pedido?",
-      "respuesta": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero de forma oficial y por escrito</mark>."
+      "respuesta": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero de forma oficial y por escrito</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/pedido.jpg",
+        "alt": "Paquete de pedido dejado en la puerta de una casa.",
+        "titulo": "one of Amy’s favorite sights",
+        "autor": "Rob Ireton",
+        "fuente": "https://www.flickr.com/photos/24483890@N00/3297021749",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre un pedido, un albarán y una factura?",
-      "respuesta": "El pedido solicita la mercancía; el albarán certifica su entrega; la factura certifica el cobro. <mark>Es como los tres pasos de una misma historia: pedir, recibir y pagar</mark>."
+      "respuesta": "El pedido solicita la mercancía; el albarán certifica su entrega; la factura certifica el cobro. <mark>Es como los tres pasos de una misma historia: pedir, recibir y pagar</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/diferencia-pedido-albaran-factura.jpg",
+        "alt": "Carpetas de archivo con distintos documentos de la empresa.",
+        "titulo": "va7",
+        "autor": "MedillNSZ",
+        "fuente": "https://www.flickr.com/photos/55715146@N08/8551460441",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante archivar bien la correspondencia recibida?",
-      "respuesta": "Porque permite encontrar cualquier documento rápido cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo amontonado sin orden</mark>."
+      "respuesta": "Porque permite encontrar cualquier documento rápido cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo amontonado sin orden</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/archivar-correspondencia.jpg",
+        "alt": "Archivador con documentos guardados en cajones.",
+        "titulo": "Flat file salvaged",
+        "autor": "zieak",
+        "fuente": "https://www.flickr.com/photos/78552401@N00/4452552407",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el organigrama y la correspondencia de una empresa?",
-      "respuesta": "Saber el organigrama ayuda a saber a quién debe entregarse cada documento recibido. <mark>Es como saber en qué buzón dejar cada carta según su destinatario</mark>."
+      "respuesta": "Saber el organigrama ayuda a saber a quién debe entregarse cada documento recibido. <mark>Es como saber en qué buzón dejar cada carta según su destinatario</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/organigrama-correspondencia.jpg",
+        "alt": "Organigrama dibujado en una pizarra mostrando la jerarquía de una empresa.",
+        "titulo": "Robot Org-chart",
+        "autor": "MattHurst",
+        "fuente": "https://www.flickr.com/photos/22937701@N00/4665794076",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es tan importante la organización en las tareas administrativas?",
-      "respuesta": "Porque un pequeño error, como un documento mal archivado, puede causar retrasos importantes. <mark>Es como un engranaje: si una pieza falla, afecta a todo el mecanismo</mark>."
+      "respuesta": "Porque un pequeño error, como un documento mal archivado, puede causar retrasos importantes. <mark>Es como un engranaje: si una pieza falla, afecta a todo el mecanismo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/importancia-organizacion.jpg",
+        "alt": "Escritorio de oficina bien organizado con ordenador.",
+        "titulo": "My Desk @ SimpleGeo SF",
+        "autor": "Jon Rohan",
+        "fuente": "https://www.flickr.com/photos/68503235@N00/5081408605",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la teoría celular?",
-      "respuesta": "Es la idea de que todos los seres vivos están formados por células. <mark>Es como decir que todo organismo, por complejo que sea, se construye con la misma pieza básica</mark>. También afirma que toda célula proviene de otra célula anterior. Es una base fundamental de la biología moderna."
+      "respuesta": "Es la idea de que todos los seres vivos están formados por células. <mark>Es como decir que todo organismo, por complejo que sea, se construye con la misma pieza básica</mark>. También afirma que toda célula proviene de otra célula anterior. Es una base fundamental de la biología moderna.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-contenido.jpg",
+        "alt": "Un microscopio de laboratorio",
+        "titulo": "Microscope Contained",
+        "autor": "gothick_matt",
+        "fuente": "https://www.flickr.com/photos/41308227@N00/1953556697",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo evolucionó históricamente la teoría celular?",
-      "respuesta": "Se fue construyendo gracias a mejoras en el microscopio y a distintos científicos. <mark>Cada avance técnico permitió ver un poco más de lo que antes era invisible</mark>. Al principio solo se observaban células vegetales sencillas. Con el tiempo, se comprobó que aplicaba a todos los seres vivos."
+      "respuesta": "Se fue construyendo gracias a mejoras en el microscopio y a distintos científicos. <mark>Cada avance técnico permitió ver un poco más de lo que antes era invisible</mark>. Al principio solo se observaban células vegetales sencillas. Con el tiempo, se comprobó que aplicaba a todos los seres vivos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-antiguo.jpg",
+        "alt": "Un microscopio antiguo de latón",
+        "titulo": "1750 circa, brass compound microscope, Francis Watkins, England",
+        "autor": "Daderot",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=37588864",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el ciclo celular?",
-      "respuesta": "Es el conjunto de etapas por las que pasa una célula desde que nace hasta que se divide. <mark>Es como el ciclo de vida completo de la célula, desde que crece hasta que se reproduce</mark>. Incluye fases de crecimiento y una fase de división. Se repite constantemente en los tejidos del cuerpo."
+      "respuesta": "Es el conjunto de etapas por las que pasa una célula desde que nace hasta que se divide. <mark>Es como el ciclo de vida completo de la célula, desde que crece hasta que se reproduce</mark>. Incluye fases de crecimiento y una fase de división. Se repite constantemente en los tejidos del cuerpo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-metafase.jpg",
+        "alt": "Una célula en la fase de metafase de la mitosis, vista al microscopio",
+        "titulo": "2 - meta",
+        "autor": "matsjoyce",
+        "fuente": "https://www.flickr.com/photos/57754818@N03/13012994595",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la mitosis?",
-      "respuesta": "Es el proceso por el que una célula se divide en dos células idénticas. <mark>Es como fotocopiar una célula, obteniendo una copia exacta de la original</mark>. Permite que el cuerpo crezca y repare tejidos dañados. Es el tipo de división más habitual en las células del cuerpo."
+      "respuesta": "Es el proceso por el que una célula se divide en dos células idénticas. <mark>Es como fotocopiar una célula, obteniendo una copia exacta de la original</mark>. Permite que el cuerpo crezca y repare tejidos dañados. Es el tipo de división más habitual en las células del cuerpo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/lirio-mitosis.jpg",
+        "alt": "Una célula de lirio en división, vista al microscopio",
+        "titulo": "lily mitosis",
+        "autor": "kat m research",
+        "fuente": "https://www.flickr.com/photos/36128932@N03/3339221708",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve la mitosis en el cuerpo humano?",
-      "respuesta": "Sirve para crecer, reparar tejidos y reemplazar células desgastadas. <mark>Es como sustituir piezas gastadas de una máquina por otras nuevas, iguales</mark>. Gracias a ella, una herida en la piel puede cicatrizar. Ocurre constantemente en la mayoría de tejidos del cuerpo."
+      "respuesta": "Sirve para crecer, reparar tejidos y reemplazar células desgastadas. <mark>Es como sustituir piezas gastadas de una máquina por otras nuevas, iguales</mark>. Gracias a ella, una herida en la piel puede cicatrizar. Ocurre constantemente en la mayoría de tejidos del cuerpo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/vendaje-medico.jpg",
+        "alt": "Alguien practicando cómo vendar una herida",
+        "titulo": "MEDFLAG 2010, Medical Skills Exchange, Kinshasa, Democratic Republic of Congo, September 2010",
+        "autor": "US Army Africa",
+        "fuente": "https://www.flickr.com/photos/36281822@N08/4985984627",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la meiosis?",
-      "respuesta": "Es un tipo especial de división celular que reduce a la mitad el material genético. <mark>Es como repartir la mitad de una baraja de cartas para formar un mazo nuevo</mark>. Se usa para producir células reproductoras, como óvulos y espermatozoides. Al unirse dos, se recupera el número completo de genes."
+      "respuesta": "Es un tipo especial de división celular que reduce a la mitad el material genético. <mark>Es como repartir la mitad de una baraja de cartas para formar un mazo nuevo</mark>. Se usa para producir células reproductoras, como óvulos y espermatozoides. Al unirse dos, se recupera el número completo de genes.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/baraja-cartas.jpg",
+        "alt": "Una baraja de cartas siendo repartida",
+        "titulo": "Shuffling the deck",
+        "autor": "Alan Cleaver",
+        "fuente": "https://www.flickr.com/photos/11121568@N06/4297057643",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la meiosis para la reproducción?",
-      "respuesta": "Porque asegura que la descendencia tenga el número correcto de cromosomas. <mark>Si no existiera, cada generación tendría el doble de material genético que la anterior</mark>. También genera variedad genética entre los descendientes. Esa variedad es clave para la evolución de las especies."
+      "respuesta": "Porque asegura que la descendencia tenga el número correcto de cromosomas. <mark>Si no existiera, cada generación tendría el doble de material genético que la anterior</mark>. También genera variedad genética entre los descendientes. Esa variedad es clave para la evolución de las especies.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/hermanos-familia.jpg",
+        "alt": "Hermanos que se parecen pero son distintos entre sí",
+        "titulo": "siblings",
+        "autor": "Dreaming in the deep south",
+        "fuente": "https://www.flickr.com/photos/22519875@N08/5826652864",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre mitosis y meiosis?",
-      "respuesta": "La mitosis genera dos células idénticas a la original. <mark>La meiosis genera cuatro células distintas entre sí, con la mitad del material genético</mark>. La mitosis sirve para crecer y reparar; la meiosis, para reproducirse. Ambas son división celular, pero con objetivos distintos."
+      "respuesta": "La mitosis genera dos células idénticas a la original. <mark>La meiosis genera cuatro células distintas entre sí, con la mitad del material genético</mark>. La mitosis sirve para crecer y reparar; la meiosis, para reproducirse. Ambas son división celular, pero con objetivos distintos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-anafase.jpg",
+        "alt": "Una célula en división vista al microscopio",
+        "titulo": "3 - meta and ana",
+        "autor": "matsjoyce",
+        "fuente": "https://www.flickr.com/photos/57754818@N03/13012996185",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el núcleo celular y por qué es tan importante?",
-      "respuesta": "Es la estructura que guarda el material genético de la célula. <mark>Es como la sala donde se guardan las instrucciones necesarias para toda la célula</mark>. Controla, desde ahí, gran parte de la actividad celular. Sin núcleo, la célula no podría dividirse correctamente."
+      "respuesta": "Es la estructura que guarda el material genético de la célula. <mark>Es como la sala donde se guardan las instrucciones necesarias para toda la célula</mark>. Controla, desde ahí, gran parte de la actividad celular. Sin núcleo, la célula no podría dividirse correctamente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-citocinesis.jpg",
+        "alt": "Una célula vista al microscopio en división",
+        "titulo": "5 - cyto",
+        "autor": "matsjoyce",
+        "fuente": "https://www.flickr.com/photos/57754818@N03/13013155193",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se pueden observar las fases de la mitosis?",
-      "respuesta": "Se observan con un microscopio, usando muestras de células en división. <mark>Es como hacer fotografías de distintos momentos del mismo proceso</mark>. Cada fase muestra una etapa distinta del reparto del material genético. Ayuda a entender cómo se dividen realmente las células."
+      "respuesta": "Se observan con un microscopio, usando muestras de células en división. <mark>Es como hacer fotografías de distintos momentos del mismo proceso</mark>. Cada fase muestra una etapa distinta del reparto del material genético. Ayuda a entender cómo se dividen realmente las células.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio.jpg",
+        "alt": "Alguien observando una muestra con un microscopio",
+        "titulo": "Doctor with microscope, 1999",
+        "autor": "Seattle Municipal Archives",
+        "fuente": "https://www.flickr.com/photos/24256351@N04/4075303641",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

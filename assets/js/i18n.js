@@ -85,7 +85,20 @@
     return DEFAULT_LOCALE;
   }
 
+  /** ?lang=es|en in the URL (e.g. from the hreflang alternate links in
+      index.html) overrides the saved locale for this read. init() below
+      persists it to localStorage too, so it sticks past this one page. */
+  function urlLocale() {
+    try {
+      var fromUrl = new URLSearchParams(location.search).get('lang');
+      if (fromUrl && SUPPORTED.indexOf(fromUrl) !== -1) return fromUrl;
+    } catch (e) { /* ignore */ }
+    return null;
+  }
+
   function locale() {
+    var fromUrl = urlLocale();
+    if (fromUrl) return fromUrl;
     try {
       var saved = localStorage.getItem(LOCALE_KEY);
       if (saved && SUPPORTED.indexOf(saved) !== -1) return saved;
@@ -179,6 +192,10 @@
   }
 
   function init() {
+    var fromUrl = urlLocale();
+    if (fromUrl) {
+      try { localStorage.setItem(LOCALE_KEY, fromUrl); } catch (e) { /* ignore */ }
+    }
     document.documentElement.lang = locale();
     apply(document);
   }

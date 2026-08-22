@@ -11,7 +11,12 @@ if (window.App.i18n) {
       doneTitle: '¡Has repasado toda la baraja!',
       transferPhrase: 'Ya sabes un poco más sobre {tema}.',
       studyAgain: '🔁 Repasar otra vez',
-      backToHome: '🏠 Volver al inicio'
+      backToHome: '🏠 Volver al inicio',
+      photoBy: 'Foto',
+      finishPhrases: ['¡Has repasado toda la baraja!', '¡Listo! Sigue cuando quieras.', '¡Bien hecho! Otra vez cuando te apetezca.'],
+      milestoneHalf: '¡Vas por la mitad!',
+      milestoneThreeQuarters: '¡Ya casi está!',
+      starEarned: '+{n} ⭐'
     }
   }, 'es');
 }

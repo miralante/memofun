@@ -5,63 +5,183 @@
   "tarjetas": [
     {
       "pregunta": "¿Por qué es útil conocer tus propios puntos fuertes?",
-      "respuesta": "Porque te ayuda a saber en qué tareas puedes destacar más. <mark>Es como saber qué herramientas tienes antes de empezar un trabajo</mark>. Reconocerlos también da más confianza al buscar empleo."
+      "respuesta": "Porque te ayuda a saber en qué tareas puedes destacar más. <mark>Es como saber qué herramientas tienes antes de empezar un trabajo</mark>. Reconocerlos también da más confianza al buscar empleo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/puntos-fuertes.jpg",
+        "alt": "Un juego de herramientas de trabajo",
+        "titulo": "Project 366 #273: 290916 Tools Of The Trade",
+        "autor": "comedy_nose",
+        "fuente": "https://www.flickr.com/photos/23408922@N07/29970207696",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es un área de mejora?",
-      "respuesta": "Es algo que todavía no dominas del todo, pero puedes aprender. <mark>Es como un músculo que aún no has entrenado lo suficiente</mark>. Reconocerlas no es un fallo, es el primer paso para mejorar."
+      "respuesta": "Es algo que todavía no dominas del todo, pero puedes aprender. <mark>Es como un músculo que aún no has entrenado lo suficiente</mark>. Reconocerlas no es un fallo, es el primer paso para mejorar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/area-mejora.jpg",
+        "alt": "Una persona entrenando con pesas",
+        "titulo": "Young woman weight training",
+        "autor": "LyndaSanchez",
+        "fuente": "https://www.flickr.com/photos/93963757@N05/8552318056",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las habilidades sociales en el trabajo?",
-      "respuesta": "Son las formas de relacionarte bien con compañeros, jefes y clientes. <mark>Es como saber jugar en equipo, no solo hacer bien tu parte</mark>. Incluyen escuchar, comunicarte con claridad y resolver desacuerdos."
+      "respuesta": "Son las formas de relacionarte bien con compañeros, jefes y clientes. <mark>Es como saber jugar en equipo, no solo hacer bien tu parte</mark>. Incluyen escuchar, comunicarte con claridad y resolver desacuerdos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/habilidades-sociales.jpg",
+        "alt": "Compañeros de trabajo hablando en una reunión",
+        "titulo": "Coworkers in a business meeting",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/43972155510",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante trabajar en equipo?",
-      "respuesta": "Porque permite repartir tareas y aprovechar lo que cada persona hace mejor. <mark>Es como remar todos en la misma dirección, en vez de cada uno por su cuenta</mark>."
+      "respuesta": "Porque permite repartir tareas y aprovechar lo que cada persona hace mejor. <mark>Es como remar todos en la misma dirección, en vez de cada uno por su cuenta</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/trabajo-equipo.jpg",
+        "alt": "Un equipo remando junto en la misma dirección",
+        "titulo": "Harvard University Crew Races in Xinjin, Chengdu, Sichuan, China",
+        "autor": "treasuresthouhast",
+        "fuente": "https://www.flickr.com/photos/74568056@N00/5992884101",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante gestionar bien el propio tiempo?",
-      "respuesta": "Porque ayuda a cumplir tareas sin acumular estrés innecesario. <mark>Es como repartir bien las horas del día para que nada se quede sin hacer</mark>. Organizar prioridades evita trabajar bajo presión constante."
+      "respuesta": "Porque ayuda a cumplir tareas sin acumular estrés innecesario. <mark>Es como repartir bien las horas del día para que nada se quede sin hacer</mark>. Organizar prioridades evita trabajar bajo presión constante.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/gestion-tiempo.jpg",
+        "alt": "Un reloj y otros objetos de organización sobre un escritorio",
+        "titulo": "Some accessories on a white desk",
+        "autor": "freestocks.org",
+        "fuente": "https://www.flickr.com/photos/135396164@N05/33572876081",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede gestionar mejor el estrés?",
-      "respuesta": "Descansando lo suficiente, organizando tareas y pidiendo ayuda si hace falta. <mark>Es como aflojar poco a poco una cuerda demasiado tensa</mark>. Aprender a gestionarlo mejora mucho el bienestar diario."
+      "respuesta": "Descansando lo suficiente, organizando tareas y pidiendo ayuda si hace falta. <mark>Es como aflojar poco a poco una cuerda demasiado tensa</mark>. Aprender a gestionarlo mejora mucho el bienestar diario.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/gestion-estres.jpg",
+        "alt": "Un momento de calma y silencio en la naturaleza",
+        "titulo": "Silence is Golden",
+        "autor": "moonjazz",
+        "fuente": "https://www.flickr.com/photos/8398907@N02/18185123306",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la búsqueda activa de empleo?",
-      "respuesta": "Es el conjunto de acciones que se hacen para encontrar trabajo de forma organizada. <mark>Es como planificar una búsqueda, en vez de esperar a que el trabajo llegue solo</mark>."
+      "respuesta": "Es el conjunto de acciones que se hacen para encontrar trabajo de forma organizada. <mark>Es como planificar una búsqueda, en vez de esperar a que el trabajo llegue solo</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/busqueda-activa.jpg",
+        "alt": "Un periódico abierto en la sección de ofertas de empleo",
+        "titulo": "Newspaper - Jobs, Classified Ads",
+        "autor": "amtec_photos",
+        "fuente": "https://www.flickr.com/photos/141761303@N08/38651370216",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un currículum vitae?",
-      "respuesta": "Es el documento que resume la formación y la experiencia de una persona. <mark>Es como una tarjeta de presentación profesional, pensada para convencer a quien lo lee</mark>."
+      "respuesta": "Es el documento que resume la formación y la experiencia de una persona. <mark>Es como una tarjeta de presentación profesional, pensada para convencer a quien lo lee</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/curriculum-vitae.jpg",
+        "alt": "Un currículum vitae escrito en papel",
+        "titulo": "TiddlyRésumé",
+        "autor": "psd",
+        "fuente": "https://www.flickr.com/photos/45581782@N00/3055756907",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué información básica debe incluir un currículum?",
-      "respuesta": "Los datos personales, la formación, la experiencia y las habilidades propias. <mark>Es como un resumen ordenado de quién eres profesionalmente</mark>. Cuanto más claro, más fácil es que lo lean entero."
+      "respuesta": "Los datos personales, la formación, la experiencia y las habilidades propias. <mark>Es como un resumen ordenado de quién eres profesionalmente</mark>. Cuanto más claro, más fácil es que lo lean entero.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/info-curriculum.jpg",
+        "alt": "Alguien escribiendo un documento en un ordenador",
+        "titulo": "The First Draft",
+        "autor": "mpclemens",
+        "fuente": "https://www.flickr.com/photos/24364103@N04/2692469539",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Dónde se pueden buscar ofertas de trabajo?",
-      "respuesta": "En portales de empleo, en redes profesionales o preguntando directamente en empresas. <mark>Es como ampliar tu red de búsqueda, en vez de mirar en un solo sitio</mark>."
+      "respuesta": "En portales de empleo, en redes profesionales o preguntando directamente en empresas. <mark>Es como ampliar tu red de búsqueda, en vez de mirar en un solo sitio</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/buscar-ofertas.jpg",
+        "alt": "Una persona buscando información en un ordenador portátil",
+        "titulo": "Aerial view of woman using computer laptop and a smartphone on wooden table",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/40640189245",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil preguntar directamente en las empresas por trabajo?",
-      "respuesta": "Porque a veces hay ofertas que todavía no se han publicado en ningún sitio. <mark>Es como llamar a una puerta antes de que el cartel de 'se busca' esté colgado</mark>."
+      "respuesta": "Porque a veces hay ofertas que todavía no se han publicado en ningún sitio. <mark>Es como llamar a una puerta antes de que el cartel de 'se busca' esté colgado</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/preguntar-empresas.jpg",
+        "alt": "La entrada de una tienda donde se podría preguntar por trabajo",
+        "titulo": "Christopher Wray Lighting Company in the snow",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/4252657748",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre conocerte a ti mismo y encontrar el trabajo adecuado?",
-      "respuesta": "Conocer tus puntos fuertes ayuda a buscar puestos donde encajes mejor. <mark>Es como buscar el zapato de tu talla, en vez de probarte cualquiera</mark>. Esa claridad también ayuda a explicarte mejor en una entrevista."
+      "respuesta": "Conocer tus puntos fuertes ayuda a buscar puestos donde encajes mejor. <mark>Es como buscar el zapato de tu talla, en vez de probarte cualquiera</mark>. Esa claridad también ayuda a explicarte mejor en una entrevista.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/conocerte-trabajo.jpg",
+        "alt": "Unos zapatos nuevos, recién probados",
+        "titulo": "New Shoe Day",
+        "autor": "russteaches",
+        "fuente": "https://www.flickr.com/photos/89119745@N00/7413224080",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que buscar empleo también es un trabajo en sí mismo?",
-      "respuesta": "Porque requiere organización, constancia y dedicar tiempo cada día. <mark>Es como cualquier tarea que necesita esfuerzo regular para dar resultado</mark>. No basta con enviar un currículum y esperar."
+      "respuesta": "Porque requiere organización, constancia y dedicar tiempo cada día. <mark>Es como cualquier tarea que necesita esfuerzo regular para dar resultado</mark>. No basta con enviar un currículum y esperar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/busqueda-es-trabajo.jpg",
+        "alt": "Una lista de tareas pendientes escrita a mano",
+        "titulo": "To do list",
+        "autor": "freestocks.org",
+        "fuente": "https://www.flickr.com/photos/135396164@N05/28123133694",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene la comunicación clara al buscar empleo?",
-      "respuesta": "Ayuda a explicar bien tu experiencia y lo que puedes aportar. <mark>Es como contar tu historia de forma que se entienda a la primera</mark>. Una buena comunicación mejora mucho las entrevistas de trabajo."
+      "respuesta": "Ayuda a explicar bien tu experiencia y lo que puedes aportar. <mark>Es como contar tu historia de forma que se entienda a la primera</mark>. Una buena comunicación mejora mucho las entrevistas de trabajo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/entrevista-trabajo.jpg",
+        "alt": "Una entrevista de trabajo, donde la comunicación clara es clave",
+        "titulo": "Preguntas extrañas en entrevistas de trabajo, ¿de qué sirven?",
+        "autor": "IDaccion",
+        "fuente": "https://www.flickr.com/photos/98106376@N04/13264086154",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es normal tardar tiempo en encontrar el primer empleo?",
-      "respuesta": "Porque el proceso de selección lleva tiempo y depende de muchos factores. <mark>Es como plantar una semilla: hace falta paciencia antes de ver resultados</mark>. Seguir buscando con constancia suele dar sus frutos."
+      "respuesta": "Porque el proceso de selección lleva tiempo y depende de muchos factores. <mark>Es como plantar una semilla: hace falta paciencia antes de ver resultados</mark>. Seguir buscando con constancia suele dar sus frutos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/primer-empleo.jpg",
+        "alt": "Un brote pequeño creciendo en una maceta improvisada",
+        "titulo": "Seedling in a toilet paper roll repurposed as a mini planting pot",
+        "autor": "girlingearstudio",
+        "fuente": "https://www.flickr.com/photos/45605988@N03/5713582241",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

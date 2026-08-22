@@ -5,27 +5,75 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una novela?",
-      "respuesta": "Es una historia larga, escrita en capítulos. <mark>Da tiempo a conocer a fondo a los personajes</mark>. Es más larga y detallada que un cuento. Puede tardar horas o días en leerse entera."
+      "respuesta": "Es una historia larga, escrita en capítulos. <mark>Da tiempo a conocer a fondo a los personajes</mark>. Es más larga y detallada que un cuento. Puede tardar horas o días en leerse entera.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura/novela.jpg",
+        "alt": "Una torre alta de libros antiguos de tapa dura, apilados uno encima de otro",
+        "titulo": "Stack of Books",
+        "autor": "Sam Howzit",
+        "fuente": "https://www.flickr.com/photos/12508217@N08/8395557674",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un capítulo en una novela?",
-      "respuesta": "Es cada parte en la que se divide la novela. <mark>Ayuda a organizar la historia en trozos manejables</mark>. Cada capítulo suele avanzar un poco la trama. Así el lector puede parar y seguir después."
+      "respuesta": "Es cada parte en la que se divide la novela. <mark>Ayuda a organizar la historia en trozos manejables</mark>. Cada capítulo suele avanzar un poco la trama. Así el lector puede parar y seguir después.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura/capitulo.jpg",
+        "alt": "Un libro abierto por dentro, mostrando varias páginas con texto escrito",
+        "titulo": "open book pages",
+        "autor": "Jo Naylor",
+        "fuente": "https://www.flickr.com/photos/11598937@N08/4927865092",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué una novela suele tener varias tramas a la vez?",
-      "respuesta": "Una novela tiene espacio para contar más de una historia. <mark>La trama principal avanza junto a historias secundarias</mark>. Eso da profundidad a los personajes. Un cuento corto no tiene espacio para tantas historias."
+      "respuesta": "Una novela tiene espacio para contar más de una historia. <mark>La trama principal avanza junto a historias secundarias</mark>. Eso da profundidad a los personajes. Un cuento corto no tiene espacio para tantas historias.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura/pila-libros.jpg",
+        "alt": "Una pila de libros, como las tramas de una novela",
+        "titulo": "Books",
+        "autor": "shutterhacks",
+        "fuente": "https://www.flickr.com/photos/36768983@N06/4474421855",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un cómic?",
-      "respuesta": "Es una historia contada con dibujos y texto juntos. <mark>Las imágenes muestran lo que las palabras no necesitan explicar</mark>. Se lee mirando y leyendo a la vez. Por eso se cuenta tan rápido como se mira."
+      "respuesta": "Es una historia contada con dibujos y texto juntos. <mark>Las imágenes muestran lo que las palabras no necesitan explicar</mark>. Se lee mirando y leyendo a la vez. Por eso se cuenta tan rápido como se mira.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura/comic.jpg",
+        "alt": "Portada de un cómic con varios superhéroes dibujados, volando y luchando juntos",
+        "titulo": "Comic book superheros",
+        "autor": "Helgi Halldórsson/Freddi",
+        "fuente": "https://www.flickr.com/photos/8058853@N06/7153401117",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una viñeta en un cómic?",
-      "respuesta": "Es cada recuadro con un dibujo del cómic. <mark>Cada viñeta congela un momento de la historia</mark>. Leídas en orden, cuentan toda la escena. Es parecido a los fotogramas de una película."
+      "respuesta": "Es cada recuadro con un dibujo del cómic. <mark>Cada viñeta congela un momento de la historia</mark>. Leídas en orden, cuentan toda la escena. Es parecido a los fotogramas de una película.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura/vineta.jpg",
+        "alt": "Boceto de una tira cómica con tres viñetas seguidas, cada una con personajes dibujados",
+        "titulo": "PA Comic Strip Panel [photoshops]",
+        "autor": "Clint Tseng",
+        "fuente": "https://www.flickr.com/photos/49622526@N00/2812588045",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve el bocadillo en un cómic?",
-      "respuesta": "El bocadillo muestra lo que dice o piensa un personaje. <mark>Su forma cambia según si se habla, se grita o se piensa</mark>. Una nube indica que es un pensamiento. Un globo con punta indica que se habla en voz alta."
+      "respuesta": "El bocadillo muestra lo que dice o piensa un personaje. <mark>Su forma cambia según si se habla, se grita o se piensa</mark>. Una nube indica que es un pensamiento. Un globo con punta indica que se habla en voz alta.",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_6_literatura/bocadillo.jpg",
+        "alt": "Dos bocadillos de cómic con texto dentro, sobre un fondo amarillo",
+        "titulo": "'What did you make today?' 'Mistakes'",
+        "autor": "tophrrrr",
+        "fuente": "https://www.flickr.com/photos/11317612@N03/15083417861",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

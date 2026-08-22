@@ -5,63 +5,183 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué elementos forman parte de la comunicación con un cliente?",
-      "respuesta": "Un emisor, un receptor, un mensaje y la forma de transmitirlo. <mark>Es como una carta: alguien la escribe, alguien la lee, y el mensaje viaja de uno a otro</mark>. En una oficina, ese mensaje puede ir por teléfono, en persona o por correo."
+      "respuesta": "Un emisor, un receptor, un mensaje y la forma de transmitirlo. <mark>Es como una carta: alguien la escribe, alguien la lee, y el mensaje viaja de uno a otro</mark>. En una oficina, ese mensaje puede ir por teléfono, en persona o por correo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/comunicacion-clientes.jpg",
+        "alt": "Dos clientes hablan con una trabajadora en el mostrador de atención de una tienda.",
+        "titulo": "People at the customer service desk in IKEA Torp Uddevalla",
+        "autor": "W.carter",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=72202844",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante escuchar bien al cliente antes de responder?",
-      "respuesta": "Porque solo así se entiende de verdad lo que necesita. <mark>Es como armar un puzle: si te saltas una pieza, la imagen no queda completa</mark>. Responder sin escuchar bien puede generar errores y malentendidos."
+      "respuesta": "Porque solo así se entiende de verdad lo que necesita. <mark>Es como armar un puzle: si te saltas una pieza, la imagen no queda completa</mark>. Responder sin escuchar bien puede generar errores y malentendidos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/escucha-puzzle.jpg",
+        "alt": "Dos manos juntan dos piezas de un puzle, con luz brillante entre ellas.",
+        "titulo": "Putting The Puzzle Together",
+        "autor": "kenteegardin",
+        "fuente": "https://www.flickr.com/photos/26373139@N08/6147270119",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la comunicación verbal?",
-      "respuesta": "Es la comunicación que usa palabras, habladas o escritas. <mark>Es como el contenido de lo que dices, no cómo lo dices</mark>. Incluye una conversación, una carta o un correo. Es la forma de comunicación más directa y clara."
+      "respuesta": "Es la comunicación que usa palabras, habladas o escritas. <mark>Es como el contenido de lo que dices, no cómo lo dices</mark>. Incluye una conversación, una carta o un correo. Es la forma de comunicación más directa y clara.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/hablar-comunicacion.jpg",
+        "alt": "Una persona hablando en público",
+        "titulo": "Speech",
+        "autor": "Consumerist Dot Com",
+        "fuente": "https://www.flickr.com/photos/21241181@N00/614458271",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la comunicación no verbal?",
-      "respuesta": "Es todo lo que comunicas sin usar palabras: gestos, tono de voz, postura. <mark>Es como cuando una sonrisa dice 'bienvenido' sin decir ni una palabra</mark>. A veces comunica incluso más que lo que se dice."
+      "respuesta": "Es todo lo que comunicas sin usar palabras: gestos, tono de voz, postura. <mark>Es como cuando una sonrisa dice 'bienvenido' sin decir ni una palabra</mark>. A veces comunica incluso más que lo que se dice.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/apreton-manos.jpg",
+        "alt": "Dos personas se dan la mano, una de ellas con traje de chaqueta.",
+        "titulo": "Handshake man - women",
+        "autor": "flazingo_photos",
+        "fuente": "https://www.flickr.com/photos/124247024@N07/14090438714",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué no todos los clientes necesitan lo mismo?",
-      "respuesta": "Porque cada persona llega con una necesidad, un humor y una prisa distintos. <mark>Es como servir la misma comida a personas con gustos diferentes: no a todos les sienta igual de bien</mark>. Fijarse en esas diferencias ayuda a dar un mejor servicio."
+      "respuesta": "Porque cada persona llega con una necesidad, un humor y una prisa distintos. <mark>Es como servir la misma comida a personas con gustos diferentes: no a todos les sienta igual de bien</mark>. Fijarse en esas diferencias ayuda a dar un mejor servicio.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/diversidad-personas.jpg",
+        "alt": "Un grupo de personas diferentes entre sí",
+        "titulo": "Unity in Diversity",
+        "autor": "Untitled blue",
+        "fuente": "https://www.flickr.com/photos/61728987@N00/22800371",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la acogida al recibir a un cliente?",
-      "respuesta": "Es el primer contacto: saludar, sonreír y mostrar disposición a ayudar. <mark>Es como abrir la puerta de tu casa a una visita: el primer gesto marca el ambiente de todo lo que viene después</mark>."
+      "respuesta": "Es el primer contacto: saludar, sonreír y mostrar disposición a ayudar. <mark>Es como abrir la puerta de tu casa a una visita: el primer gesto marca el ambiente de todo lo que viene después</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/mostrador-atencion-cliente.jpg",
+        "alt": "Mostrador de 'Customer Service' con flores, donde dos trabajadoras atienden a la gente.",
+        "titulo": "Customer Service Desk, May 16, 2009",
+        "autor": "Monrovia Public Library - Monrovia, California",
+        "fuente": "https://www.flickr.com/photos/8314140@N05/4994037517",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa 'escuchar activamente' a un cliente?",
-      "respuesta": "Significa prestar atención completa, sin interrumpir ni distraerte. <mark>Es como leer con atención en vez de pasar rápido las páginas</mark>. Incluye asentir, mirar a la persona y hacer preguntas si hace falta."
+      "respuesta": "Significa prestar atención completa, sin interrumpir ni distraerte. <mark>Es como leer con atención en vez de pasar rápido las páginas</mark>. Incluye asentir, mirar a la persona y hacer preguntas si hace falta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/operadora-escucha.jpg",
+        "alt": "Una trabajadora con traje y auriculares de teléfono, atendiendo con atención una llamada.",
+        "titulo": "Call Center Agent",
+        "autor": "Tim Reckmann | a59.de",
+        "fuente": "https://www.flickr.com/photos/115225894@N07/19864171442",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasos sigue resolver bien la petición de un cliente?",
-      "respuesta": "Entender qué pide, comprobar si se puede hacer y actuar con rapidez. <mark>Es como seguir una receta paso a paso, sin saltarte ninguno</mark>. Si no se puede resolver al momento, hay que explicar qué se hará y cuándo."
+      "respuesta": "Entender qué pide, comprobar si se puede hacer y actuar con rapidez. <mark>Es como seguir una receta paso a paso, sin saltarte ninguno</mark>. Si no se puede resolver al momento, hay que explicar qué se hará y cuándo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/pasos-receta.jpg",
+        "alt": "Ingredientes de cocina medidos en tazas sobre una mesa, listos para seguir los pasos de una receta.",
+        "titulo": "Step 1: Ingredients",
+        "autor": "toholio",
+        "fuente": "https://www.flickr.com/photos/66182839@N00/4296150021",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante despedirse bien de un cliente?",
-      "respuesta": "Porque es la última impresión que se lleva de esa atención. <mark>Es como el final de una película: si es bueno, deja mejor sabor de boca a todo lo anterior</mark>. Se cuida tanto como el saludo inicial."
+      "respuesta": "Porque es la última impresión que se lleva de esa atención. <mark>Es como el final de una película: si es bueno, deja mejor sabor de boca a todo lo anterior</mark>. Se cuida tanto como el saludo inicial.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/despedida.jpg",
+        "alt": "Una persona despidiéndose con la mano",
+        "titulo": "Goodbye Crerar!",
+        "autor": "quinn.anya",
+        "fuente": "https://www.flickr.com/photos/53326337@N00/4434693617",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la comunicación no verbal y la confianza del cliente?",
-      "respuesta": "Un gesto tranquilo y una mirada atenta transmiten seguridad. <mark>Es como fiarte más de alguien que te mira a los ojos que de alguien que evita mirarte</mark>. Si las palabras dicen una cosa y el gesto otra, el cliente suele fiarse del gesto."
+      "respuesta": "Un gesto tranquilo y una mirada atenta transmiten seguridad. <mark>Es como fiarte más de alguien que te mira a los ojos que de alguien que evita mirarte</mark>. Si las palabras dicen una cosa y el gesto otra, el cliente suele fiarse del gesto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/mujer-confianza.jpg",
+        "alt": "Mujer con traje de chaqueta, sonriendo con los brazos cruzados, con actitud tranquila y segura.",
+        "titulo": "Happy businesswoman",
+        "autor": "citirecruitment",
+        "fuente": "https://www.flickr.com/photos/125303894@N06/14365669046",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué debe hacer quien atiende al público si no sabe resolver algo?",
-      "respuesta": "Debe ser honesto y buscar ayuda o información, en vez de inventar una respuesta. <mark>Es mejor decir 'voy a comprobarlo' que dar un dato equivocado</mark>. El cliente valora más la honestidad que una respuesta rápida pero incorrecta."
+      "respuesta": "Debe ser honesto y buscar ayuda o información, en vez de inventar una respuesta. <mark>Es mejor decir 'voy a comprobarlo' que dar un dato equivocado</mark>. El cliente valora más la honestidad que una respuesta rápida pero incorrecta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/apoyo-equipo.jpg",
+        "alt": "Dos personas dándose la mano, en señal de apoyo",
+        "titulo": "Handshake - 2 men",
+        "autor": "flazingo_photos",
+        "fuente": "https://www.flickr.com/photos/124247024@N07/13903385550",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la primera impresión importa tanto al atender a alguien?",
-      "respuesta": "Porque condiciona cómo se sentirá esa persona durante el resto de la conversación. <mark>Es como el primer bocado de un plato: marca lo que esperas del resto</mark>. Una mala primera impresión es difícil de corregir después."
+      "respuesta": "Porque condiciona cómo se sentirá esa persona durante el resto de la conversación. <mark>Es como el primer bocado de un plato: marca lo que esperas del resto</mark>. Una mala primera impresión es difícil de corregir después.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/apreton-manos.jpg",
+        "alt": "Un apretón de manos entre dos personas",
+        "titulo": "Business people shaking hands in agreement",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/43972154720",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre oír y escuchar a un cliente?",
-      "respuesta": "Oír es percibir un sonido; escuchar es entender lo que significa. <mark>Es como la diferencia entre ver pasar un coche y fijarte en quién lo conduce</mark>. Escuchar de verdad requiere atención activa, no solo estar cerca."
+      "respuesta": "Oír es percibir un sonido; escuchar es entender lo que significa. <mark>Es como la diferencia entre ver pasar un coche y fijarte en quién lo conduce</mark>. Escuchar de verdad requiere atención activa, no solo estar cerca.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/escucha-atenta-2.jpg",
+        "alt": "Una persona escuchando con atención",
+        "titulo": "The Listener",
+        "autor": "Giles Watson's poetry and prose",
+        "fuente": "https://www.flickr.com/photos/29320962@N07/2741892468",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene el tono de voz en una conversación con un cliente?",
-      "respuesta": "Puede transmitir amabilidad, prisa o cercanía, aunque las palabras sean las mismas. <mark>La misma frase suena distinta dicha con calma que dicha con brusquedad</mark>. Un tono cálido ayuda a que el cliente se sienta bien atendido."
+      "respuesta": "Puede transmitir amabilidad, prisa o cercanía, aunque las palabras sean las mismas. <mark>La misma frase suena distinta dicha con calma que dicha con brusquedad</mark>. Un tono cálido ayuda a que el cliente se sienta bien atendido.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/operadora-telefono.jpg",
+        "alt": "Mujer con camisa blanca y auriculares de teléfono, sonriendo mientras atiende una llamada.",
+        "titulo": "Call center operator",
+        "autor": "aqua.mech",
+        "fuente": "https://www.flickr.com/photos/137169575@N04/24704515719",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que atender bien a un cliente empieza antes de que hable?",
-      "respuesta": "Porque la actitud y la postura de quien atiende ya comunican algo. <mark>Es como cuando alguien se acerca con cara de prisa: ya transmite algo antes de decir nada</mark>. Estar disponible, con buena cara, prepara el terreno."
+      "respuesta": "Porque la actitud y la postura de quien atiende ya comunican algo. <mark>Es como cuando alguien se acerca con cara de prisa: ya transmite algo antes de decir nada</mark>. Estar disponible, con buena cara, prepara el terreno.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/prisa-pasos.jpg",
+        "alt": "Piernas de una persona caminando deprisa por una calle, en blanco y negro.",
+        "titulo": "Rushing to work",
+        "autor": "pavlinajane",
+        "fuente": "https://www.flickr.com/photos/60291025@N05/12341797005",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

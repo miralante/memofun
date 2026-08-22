@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el equilibrio patrimonial?",
-      "respuesta": "Es la situación en la que el activo de la empresa es suficiente para cubrir sus deudas. <mark>Es como tener siempre más de lo que debes, para poder responder sin apuros</mark>. Perder ese equilibrio es una señal de alarma económica."
+      "respuesta": "Es la situación en la que el activo de la empresa es suficiente para cubrir sus deudas. <mark>Es como tener siempre más de lo que debes, para poder responder sin apuros</mark>. Perder ese equilibrio es una señal de alarma económica.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/balanza.jpg",
+        "alt": "Una balanza en equilibrio con los dos platillos igualados",
+        "titulo": "Balance",
+        "autor": "Rekyt",
+        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las masas patrimoniales?",
-      "respuesta": "Son grandes grupos en los que se organiza el patrimonio, como el activo o el pasivo. <mark>Es como separar todo el patrimonio en cajones grandes, antes de mirar el detalle de cada cuenta</mark>. Facilita analizar la situación económica de un vistazo."
+      "respuesta": "Son grandes grupos en los que se organiza el patrimonio, como el activo o el pasivo. <mark>Es como separar todo el patrimonio en cajones grandes, antes de mirar el detalle de cada cuenta</mark>. Facilita analizar la situación económica de un vistazo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/balanza.jpg",
+        "alt": "Una balanza en equilibrio con los dos platillos igualados",
+        "titulo": "Balance",
+        "autor": "Rekyt",
+        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Plan General de Contabilidad PYME?",
-      "respuesta": "Es una versión simplificada del Plan General de Contabilidad, pensada para empresas pequeñas y medianas. <mark>Es como el mismo manual de instrucciones, pero en una versión más sencilla para negocios más pequeños</mark>."
+      "respuesta": "Es una versión simplificada del Plan General de Contabilidad, pensada para empresas pequeñas y medianas. <mark>Es como el mismo manual de instrucciones, pero en una versión más sencilla para negocios más pequeños</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/libro-cuentas.jpg",
+        "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
+        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "autor": "edinburghcityofprint",
+        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el marco conceptual de la contabilidad?",
-      "respuesta": "Es el conjunto de principios básicos que orientan cómo debe elaborarse la contabilidad. <mark>Es como las reglas del juego que hay que respetar antes de empezar a jugar</mark>. Sirve de base para interpretar el resto de normas contables."
+      "respuesta": "Es el conjunto de principios básicos que orientan cómo debe elaborarse la contabilidad. <mark>Es como las reglas del juego que hay que respetar antes de empezar a jugar</mark>. Sirve de base para interpretar el resto de normas contables.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/libro-cuentas.jpg",
+        "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
+        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "autor": "edinburghcityofprint",
+        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el cuadro de cuentas?",
-      "respuesta": "Es el listado ordenado de todas las cuentas que puede usar una empresa en su contabilidad. <mark>Es como un índice numerado, donde cada tipo de cuenta tiene su propio código</mark>. Facilita que todas las empresas usen un lenguaje contable común."
+      "respuesta": "Es el listado ordenado de todas las cuentas que puede usar una empresa en su contabilidad. <mark>Es como un índice numerado, donde cada tipo de cuenta tiene su propio código</mark>. Facilita que todas las empresas usen un lenguaje contable común.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/libro-cuentas.jpg",
+        "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
+        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "autor": "edinburghcityofprint",
+        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se contabiliza la compraventa de mercaderías?",
-      "respuesta": "La compra se anota como un gasto y la venta, como un ingreso, cada una en su cuenta correspondiente. <mark>Es como separar en dos casillas distintas lo que entra y lo que sale del negocio</mark>. Ambas operaciones también reflejan el IVA correspondiente."
+      "respuesta": "La compra se anota como un gasto y la venta, como un ingreso, cada una en su cuenta correspondiente. <mark>Es como separar en dos casillas distintas lo que entra y lo que sale del negocio</mark>. Ambas operaciones también reflejan el IVA correspondiente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/mercaderias.jpg",
+        "alt": "Estanteria de una tienda llena de mercancia ordenada",
+        "titulo": "Merchandise Keeps Us In Line",
+        "autor": "Jason OX4",
+        "fuente": "https://www.flickr.com/photos/46676973@N06/5058108065",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el inmovilizado material de una empresa?",
-      "respuesta": "Son los bienes duraderos que usa la empresa para trabajar, como maquinaria o mobiliario. <mark>Es como las herramientas fijas de un taller, que no se compran para revender</mark>. Suele financiarse con préstamos o con recursos propios."
+      "respuesta": "Son los bienes duraderos que usa la empresa para trabajar, como maquinaria o mobiliario. <mark>Es como las herramientas fijas de un taller, que no se compran para revender</mark>. Suele financiarse con préstamos o con recursos propios.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/taller-maquinaria.jpg",
+        "alt": "Maquinaria y equipo de un taller, ejemplo de bienes de la empresa",
+        "titulo": "Machine Shop at Swift Gold Leaf",
+        "autor": "TunnelBug",
+        "fuente": "https://www.flickr.com/photos/25078342@N00/8284986232",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas ofrece gestionar los asientos contables con una aplicación informática?",
-      "respuesta": "Reduce errores de cálculo y ahorra mucho tiempo frente a hacerlo a mano. <mark>Es como usar una calculadora en vez de sumar columnas enteras con lápiz y papel</mark>. Además, guarda un historial ordenado de toda la contabilidad."
+      "respuesta": "Reduce errores de cálculo y ahorra mucho tiempo frente a hacerlo a mano. <mark>Es como usar una calculadora en vez de sumar columnas enteras con lápiz y papel</mark>. Además, guarda un historial ordenado de toda la contabilidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/oficina-ordenador.jpg",
+        "alt": "Un ordenador de oficina listo para trabajar",
+        "titulo": "New Office",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un asiento predefinido en una aplicación contable?",
-      "respuesta": "Es una plantilla ya preparada para registrar operaciones que se repiten a menudo. <mark>Es como tener un formulario ya rellenado a medias, listo para completar solo lo que cambia</mark>. Ahorra tiempo en tareas repetitivas."
+      "respuesta": "Es una plantilla ya preparada para registrar operaciones que se repiten a menudo. <mark>Es como tener un formulario ya rellenado a medias, listo para completar solo lo que cambia</mark>. Ahorra tiempo en tareas repetitivas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/oficina-ordenador.jpg",
+        "alt": "Un ordenador de oficina listo para trabajar",
+        "titulo": "New Office",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante hacer copias de seguridad de la contabilidad informatizada?",
-      "respuesta": "Porque un fallo técnico podría hacer perder toda la información contable de la empresa. <mark>Es como guardar una fotocopia de tus cuentas por si el original se estropea</mark>. Sin copias, recuperar esos datos puede ser imposible."
+      "respuesta": "Porque un fallo técnico podría hacer perder toda la información contable de la empresa. <mark>Es como guardar una fotocopia de tus cuentas por si el original se estropea</mark>. Sin copias, recuperar esos datos puede ser imposible.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/copia-seguridad-disco.jpg",
+        "alt": "Un disco duro donde se guardan copias de seguridad",
+        "titulo": "Hard Drive",
+        "autor": "wwarby",
+        "fuente": "https://www.flickr.com/photos/26782864@N00/11644168395",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

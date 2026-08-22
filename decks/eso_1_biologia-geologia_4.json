@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es una clave dicotómica?",
-      "respuesta": "Es una herramienta con preguntas de dos opciones para identificar especies. <mark>Es como un juego de veinte preguntas hasta adivinar de qué ser vivo se trata</mark>. En cada paso eliges entre dos posibilidades, hasta llegar al nombre correcto. Se usa mucho para clasificar plantas y animales."
+      "respuesta": "Es una herramienta con preguntas de dos opciones para identificar especies. <mark>Es como un juego de veinte preguntas hasta adivinar de qué ser vivo se trata</mark>. En cada paso eliges entre dos posibilidades, hasta llegar al nombre correcto. Se usa mucho para clasificar plantas y animales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/insectos-ilustracion.jpg",
+        "alt": "Una ilustración antigua con varias especies de insectos distintos",
+        "titulo": "A Swallowtail (Papilio machaon), a Red Admiral (Vanessa atalanta) and other Insects",
+        "autor": "Swallowtail Garden Seeds",
+        "fuente": "https://www.flickr.com/photos/97123293@N07/15715243702",
+        "licencia": "Public Domain"
+      }
     },
     {
       "pregunta": "¿Qué es un grupo taxonómico?",
-      "respuesta": "Es un conjunto de seres vivos que comparten características comunes. <mark>Es como organizar un armario por categorías: camisetas, pantalones, calcetines</mark>. Ayuda a organizar la enorme diversidad de seres vivos del planeta. Cada grupo se puede dividir en grupos más pequeños."
+      "respuesta": "Es un conjunto de seres vivos que comparten características comunes. <mark>Es como organizar un armario por categorías: camisetas, pantalones, calcetines</mark>. Ayuda a organizar la enorme diversidad de seres vivos del planeta. Cada grupo se puede dividir en grupos más pequeños.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/museo-oceano.jpg",
+        "alt": "Una sala de museo con especímenes marinos",
+        "titulo": "Ocean Hall, National Museum of Natural History, Washington, D.C.",
+        "autor": "Ken Lund",
+        "fuente": "https://www.flickr.com/photos/75683070@N00/14299078168",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué criterios se usan para clasificar los seres vivos?",
-      "respuesta": "Se usan características como el tipo de célula, la nutrición o la reproducción. <mark>Es un poco como fichar a alguien por varios rasgos a la vez, no solo por uno</mark>. Cuantas más características se comparan, más precisa es la clasificación. Ayudan a agrupar especies parecidas entre sí."
+      "respuesta": "Se usan características como el tipo de célula, la nutrición o la reproducción. <mark>Es un poco como fichar a alguien por varios rasgos a la vez, no solo por uno</mark>. Cuantas más características se comparan, más precisa es la clasificación. Ayudan a agrupar especies parecidas entre sí.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/arrecife-coral.jpg",
+        "alt": "Un arrecife de coral con distintas especies marinas",
+        "titulo": "reef4436",
+        "autor": "NOAA Photo Library",
+        "fuente": "https://www.flickr.com/photos/51647007@N08/5015135610",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirven las guías de identificación de especies?",
-      "respuesta": "Ayudan a reconocer plantas y animales usando dibujos, fotos y descripciones. <mark>Son como un diccionario visual de la naturaleza</mark>. Permiten identificar una especie sin ser un experto. Son muy útiles para excursiones y actividades al aire libre."
+      "respuesta": "Ayudan a reconocer plantas y animales usando dibujos, fotos y descripciones. <mark>Son como un diccionario visual de la naturaleza</mark>. Permiten identificar una especie sin ser un experto. Son muy útiles para excursiones y actividades al aire libre.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/guia-mariposas.jpg",
+        "alt": "Una guía de identificación de mariposas",
+        "titulo": "Butterflies through Binoculars, The West",
+        "autor": "born1945",
+        "fuente": "https://www.flickr.com/photos/12567713@N00/2827103534",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la biodiversidad?",
-      "respuesta": "Es la variedad de seres vivos que existen en un lugar o en todo el planeta. <mark>Es como una gran orquesta, con muchos instrumentos distintos sonando a la vez</mark>. Incluye la diversidad de especies, de genes y de ecosistemas. Cuanta más biodiversidad, más resistente suele ser un ecosistema."
+      "respuesta": "Es la variedad de seres vivos que existen en un lugar o en todo el planeta. <mark>Es como una gran orquesta, con muchos instrumentos distintos sonando a la vez</mark>. Incluye la diversidad de especies, de genes y de ecosistemas. Cuanta más biodiversidad, más resistente suele ser un ecosistema.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/rana-biodiversidad.jpg",
+        "alt": "Una rana de una especie tropical, ejemplo de biodiversidad",
+        "titulo": "Hyloscirtus princecharlesi",
+        "autor": "Arcasapos",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=20290567",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante conservar la biodiversidad?",
-      "respuesta": "Porque cada especie cumple un papel dentro de su ecosistema. <mark>Es como quitar una pieza de un engranaje: el resto puede dejar de funcionar bien</mark>. Perder biodiversidad afecta también a los recursos que usan las personas. Conservarla mantiene ecosistemas sanos y equilibrados."
+      "respuesta": "Porque cada especie cumple un papel dentro de su ecosistema. <mark>Es como quitar una pieza de un engranaje: el resto puede dejar de funcionar bien</mark>. Perder biodiversidad afecta también a los recursos que usan las personas. Conservarla mantiene ecosistemas sanos y equilibrados.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/selva-biodiversidad.jpg",
+        "alt": "Una selva tropical rica en biodiversidad",
+        "titulo": "Corcovado, Puntarenas",
+        "autor": "Vamos Car Rental Costa Rica",
+        "fuente": "https://www.flickr.com/photos/72644781@N02/7611652476",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué acciones ayudan a conservar los ecosistemas?",
-      "respuesta": "Proteger espacios naturales, evitar la contaminación y no cazar especies protegidas. <mark>Son pequeños gestos que, sumados, ayudan a cuidar un espacio compartido</mark>. Los parques naturales son un ejemplo de esa protección. Cada persona puede aportar su granito de arena."
+      "respuesta": "Proteger espacios naturales, evitar la contaminación y no cazar especies protegidas. <mark>Son pequeños gestos que, sumados, ayudan a cuidar un espacio compartido</mark>. Los parques naturales son un ejemplo de esa protección. Cada persona puede aportar su granito de arena.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/parque-nacional-teide.jpg",
+        "alt": "El Parque Nacional del Teide, un espacio natural protegido",
+        "titulo": "Parque Nacional del Teide, Tenerife",
+        "autor": "El Coleccionista de Instantes",
+        "fuente": "https://www.flickr.com/photos/31195974@N05/5079093012",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que dos especies estén emparentadas evolutivamente?",
-      "respuesta": "Significa que comparten un antepasado común, aunque hoy sean distintas. <mark>Es un poco como primos lejanos que ya no se parecen mucho, pero comparten familia</mark>. Cuanto más recientes son esos antepasados, más se parecen las especies. Se estudia comparando características físicas y genéticas."
+      "respuesta": "Significa que comparten un antepasado común, aunque hoy sean distintas. <mark>Es un poco como primos lejanos que ya no se parecen mucho, pero comparten familia</mark>. Cuanto más recientes son esos antepasados, más se parecen las especies. Se estudia comparando características físicas y genéticas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/adn-parentesco.jpg",
+        "alt": "Un esquema de ADN, relacionado con el parentesco evolutivo",
+        "titulo": "Wonder Who I Am?? - My Ancestry DNA Results",
+        "autor": "Lisa Zins",
+        "fuente": "https://www.flickr.com/photos/94846844@N04/32176800608",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué los protoctistas son un grupo tan variado?",
-      "respuesta": "Porque incluyen organismos muy distintos entre sí, como algas y protozoos. <mark>Es un grupo un poco 'cajón de sastre', con seres que no encajan bien en otros reinos</mark>. Algunos son unicelulares; otros, pluricelulares. Comparten características más sencillas que plantas, animales u hongos."
+      "respuesta": "Porque incluyen organismos muy distintos entre sí, como algas y protozoos. <mark>Es un grupo un poco 'cajón de sastre', con seres que no encajan bien en otros reinos</mark>. Algunos son unicelulares; otros, pluricelulares. Comparten características más sencillas que plantas, animales u hongos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/alga-microscopica.jpg",
+        "alt": "Un alga vista al microscopio, un ejemplo de protoctista",
+        "titulo": "AlgaClosterium",
+        "autor": "Gian",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=76957569",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre clasificar especies y protegerlas mejor?",
-      "respuesta": "Conocer bien una especie ayuda a entender qué necesita para sobrevivir. <mark>Es difícil proteger algo que ni siquiera sabes identificar bien</mark>. La clasificación permite detectar rápido si una especie está en peligro. Por eso ciencia y conservación van siempre de la mano."
+      "respuesta": "Conocer bien una especie ayuda a entender qué necesita para sobrevivir. <mark>Es difícil proteger algo que ni siquiera sabes identificar bien</mark>. La clasificación permite detectar rápido si una especie está en peligro. Por eso ciencia y conservación van siempre de la mano.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_4/leopardo-nieve.jpg",
+        "alt": "Un leopardo de las nieves, una especie en peligro protegida",
+        "titulo": "The endangered Snow Leopard",
+        "autor": "Steve Wilson - over 10 million views Thanks !!",
+        "fuente": "https://www.flickr.com/photos/26811962@N05/13310647514",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

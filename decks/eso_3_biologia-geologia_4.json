@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué diferencia hay entre una enfermedad infecciosa y una no infecciosa?",
-      "respuesta": "Una enfermedad infecciosa la provoca un agente externo, como un virus o una bacteria. <mark>Una no infecciosa surge del propio cuerpo, sin que nadie te la contagie</mark>. La gripe es infecciosa; la diabetes, por ejemplo, no lo es. Esa diferencia cambia cómo se previene y se trata."
+      "respuesta": "Una enfermedad infecciosa la provoca un agente externo, como un virus o una bacteria. <mark>Una no infecciosa surge del propio cuerpo, sin que nadie te la contagie</mark>. La gripe es infecciosa; la diabetes, por ejemplo, no lo es. Esa diferencia cambia cómo se previene y se trata.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/fiebre-recuperacion-historica.jpg",
+        "alt": "Una persona recuperándose en cama de una enfermedad con fiebre",
+        "titulo": "Gail February 1946 just after relapsing fever",
+        "autor": "glenngould",
+        "fuente": "https://www.flickr.com/photos/11962344@N02/6225396950",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un virus?",
-      "respuesta": "Es un agente muy pequeño que necesita entrar en una célula para reproducirse. <mark>Es como un intruso que necesita ocupar una casa ajena para poder actuar</mark>. No puede vivir ni reproducirse por sí solo. Causa enfermedades como la gripe o el resfriado común."
+      "respuesta": "Es un agente muy pequeño que necesita entrar en una célula para reproducirse. <mark>Es como un intruso que necesita ocupar una casa ajena para poder actuar</mark>. No puede vivir ni reproducirse por sí solo. Causa enfermedades como la gripe o el resfriado común.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/virus-respiratorio-microscopio.jpg",
+        "alt": "Un virus respiratorio visto al microscopio",
+        "titulo": "Human Respiratory Syncytial Virus (RSV)",
+        "autor": "National Institutes of Health (NIH)",
+        "fuente": "https://www.flickr.com/photos/132318516@N08/52472734406",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué es una bacteria?",
-      "respuesta": "Es un organismo unicelular capaz de vivir y reproducirse por sí mismo. <mark>A diferencia del virus, no necesita 'invadir' una célula para sobrevivir</mark>. Algunas bacterias son beneficiosas; otras provocan enfermedades. Muchas infecciones bacterianas se tratan con antibióticos."
+      "respuesta": "Es un organismo unicelular capaz de vivir y reproducirse por sí mismo. <mark>A diferencia del virus, no necesita 'invadir' una célula para sobrevivir</mark>. Algunas bacterias son beneficiosas; otras provocan enfermedades. Muchas infecciones bacterianas se tratan con antibióticos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/bacteria-ecoli.jpg",
+        "alt": "Bacteria Escherichia coli vista al microscopio",
+        "titulo": "Bacteria gram negativa, Escherichia coli",
+        "autor": "Jazuchan",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=137741507",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Cuáles son las primeras barreras del organismo frente a los patógenos?",
-      "respuesta": "La piel y las mucosas actúan como primera línea de defensa. <mark>Son como la puerta y las ventanas cerradas de una casa frente a intrusos</mark>. Impiden que muchos microorganismos entren en el cuerpo. Si esas barreras fallan, actúa el sistema inmunitario."
+      "respuesta": "La piel y las mucosas actúan como primera línea de defensa. <mark>Son como la puerta y las ventanas cerradas de una casa frente a intrusos</mark>. Impiden que muchos microorganismos entren en el cuerpo. Si esas barreras fallan, actúa el sistema inmunitario.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/piel-textura-macro.jpg",
+        "alt": "Un primer plano de la piel, la primera barrera del cuerpo",
+        "titulo": "Nothin but skin",
+        "autor": "kevin dooley",
+        "fuente": "https://www.flickr.com/photos/12836528@N00/2188851719",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el sistema inmunitario?",
-      "respuesta": "Es el conjunto de defensas del cuerpo frente a agentes que pueden hacer daño. <mark>Es como un ejército interno preparado para detectar y combatir intrusos</mark>. Reconoce elementos extraños y actúa para eliminarlos. Gracias a él, el cuerpo supera muchas infecciones sin ayuda externa."
+      "respuesta": "Es el conjunto de defensas del cuerpo frente a agentes que pueden hacer daño. <mark>Es como un ejército interno preparado para detectar y combatir intrusos</mark>. Reconoce elementos extraños y actúa para eliminarlos. Gracias a él, el cuerpo supera muchas infecciones sin ayuda externa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/respuesta-inmunitaria-diagrama.svg",
+        "alt": "Diagrama de cómo actúa la respuesta del sistema inmunitario",
+        "titulo": "Immune response",
+        "autor": "Nason vassiliev",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=69869239",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Cómo actúan las células del sistema inmunitario?",
-      "respuesta": "Detectan agentes extraños y los atacan o los neutralizan. <mark>Es como un equipo de seguridad que identifica y detiene a quien no debería estar ahí</mark>. Algunas células 'recuerdan' infecciones pasadas para responder más rápido después. Esa memoria protege frente a futuras infecciones."
+      "respuesta": "Detectan agentes extraños y los atacan o los neutralizan. <mark>Es como un equipo de seguridad que identifica y detiene a quien no debería estar ahí</mark>. Algunas células 'recuerdan' infecciones pasadas para responder más rápido después. Esa memoria protege frente a futuras infecciones.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/celulas-madre-colonia.jpg",
+        "alt": "Células humanas vistas al microscopio, como las del sistema inmunitario",
+        "titulo": "Human induced pluripotent stem cell colony",
+        "autor": "National Institutes of Health (NIH)",
+        "fuente": "https://www.flickr.com/photos/132318516@N08/51816035910",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué es una vacuna?",
-      "respuesta": "Es una sustancia que prepara al sistema inmunitario frente a una enfermedad concreta. <mark>Es como un simulacro de incendio, para que el cuerpo sepa reaccionar si ocurre de verdad</mark>. Enseña a reconocer un agente sin causar la enfermedad real. Así responde mucho más rápido si aparece de verdad."
+      "respuesta": "Es una sustancia que prepara al sistema inmunitario frente a una enfermedad concreta. <mark>Es como un simulacro de incendio, para que el cuerpo sepa reaccionar si ocurre de verdad</mark>. Enseña a reconocer un agente sin causar la enfermedad real. Así responde mucho más rápido si aparece de verdad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/vacuna-jeringa.jpg",
+        "alt": "Un vial y una jeringuilla de una vacuna",
+        "titulo": "Vacuna Oxford AstraZeneca contra el COVID-19",
+        "autor": "Eneas",
+        "fuente": "https://www.flickr.com/photos/99479626@N00/51391737434",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la vacunación masiva de la población?",
-      "respuesta": "Porque, si suficiente gente está vacunada, la enfermedad tiene menos posibilidades de propagarse. <mark>Es como cortar los caminos por los que podría extenderse un incendio</mark>. Protege también a quienes no pueden vacunarse por motivos de salud. Busca cubrir a la mayor parte posible de la población."
+      "respuesta": "Porque, si suficiente gente está vacunada, la enfermedad tiene menos posibilidades de propagarse. <mark>Es como cortar los caminos por los que podría extenderse un incendio</mark>. Protege también a quienes no pueden vacunarse por motivos de salud. Busca cubrir a la mayor parte posible de la población.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/vacunacion-covid-enfermera.jpg",
+        "alt": "Una enfermera poniendo una vacuna a una persona",
+        "titulo": "Covid 19 vaccination, nurse injecting",
+        "autor": "rawpixel",
+        "fuente": "https://www.rawpixel.com/image/6111662/photo-image-public-domain-corona-black",
+        "licencia": "Dominio público (CC0 1.0)"
+      }
     },
     {
       "pregunta": "¿Qué avances han traído las ciencias biomédicas en las últimas décadas?",
-      "respuesta": "Mejores tratamientos, diagnósticos más precisos y nuevas vacunas. <mark>Es como si la medicina fuera actualizando constantemente sus herramientas</mark>. Esos avances han aumentado mucho la esperanza de vida. Siguen investigándose nuevas formas de prevenir y tratar enfermedades."
+      "respuesta": "Mejores tratamientos, diagnósticos más precisos y nuevas vacunas. <mark>Es como si la medicina fuera actualizando constantemente sus herramientas</mark>. Esos avances han aumentado mucho la esperanza de vida. Siguen investigándose nuevas formas de prevenir y tratar enfermedades.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/investigacion-medica-militar.jpg",
+        "alt": "Investigadores médicos trabajando en un laboratorio",
+        "titulo": "U.S. Army Africa hosts military medical researchers - Vicenza, Italy",
+        "autor": "US Army Africa",
+        "fuente": "https://www.flickr.com/photos/36281822@N08/3722540373",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un trasplante de órganos?",
-      "respuesta": "Es sustituir un órgano dañado por otro sano de otra persona. <mark>Es como cambiar una pieza estropeada de una máquina por una que sí funciona</mark>. Requiere que el órgano donado sea compatible con quien lo recibe. Salva o mejora enormemente la vida de muchas personas."
+      "respuesta": "Es sustituir un órgano dañado por otro sano de otra persona. <mark>Es como cambiar una pieza estropeada de una máquina por una que sí funciona</mark>. Requiere que el órgano donado sea compatible con quien lo recibe. Salva o mejora enormemente la vida de muchas personas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/cirugia-cardiaca-quirofano.jpg",
+        "alt": "Un quirófano preparado para una cirugía, como un trasplante de órganos",
+        "titulo": "Cardiac surgery operating room",
+        "autor": "Pfree2014",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=36624700",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante la donación de órganos?",
-      "respuesta": "Porque permite salvar vidas de personas que necesitan un órgano sano. <mark>Es uno de los actos de generosidad más directos que existen entre personas</mark>. Muchas personas siguen esperando un órgano compatible. Decidir ser donante puede llegar a salvar varias vidas."
+      "respuesta": "Porque permite salvar vidas de personas que necesitan un órgano sano. <mark>Es uno de los actos de generosidad más directos que existen entre personas</mark>. Muchas personas siguen esperando un órgano compatible. Decidir ser donante puede llegar a salvar varias vidas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/tarjeta-donante-organos.jpg",
+        "alt": "Tarjetas antiguas de donante de riñón",
+        "titulo": "Kidney donor cards, England, 1971-1981",
+        "autor": "Wellcome Collection",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=36214645",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que un órgano sea compatible para un trasplante?",
-      "respuesta": "Significa que el cuerpo receptor no lo va a rechazar como algo extraño. <mark>Es un poco como encontrar la pieza exacta que encaja en un puzle concreto</mark>. Se comprueban factores como el grupo sanguíneo y otros marcadores. Sin compatibilidad, el trasplante suele fallar."
+      "respuesta": "Significa que el cuerpo receptor no lo va a rechazar como algo extraño. <mark>Es un poco como encontrar la pieza exacta que encaja en un puzle concreto</mark>. Se comprueban factores como el grupo sanguíneo y otros marcadores. Sin compatibilidad, el trasplante suele fallar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/puzle-amarillo-piezas.jpg",
+        "alt": "Piezas de un puzle encajando, como la compatibilidad de un órgano",
+        "titulo": "Yellow puzzle",
+        "autor": "SFB579 Namaste",
+        "fuente": "https://www.flickr.com/photos/50826080@N00/1854748961",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué a veces el cuerpo rechaza un órgano trasplantado?",
-      "respuesta": "Porque el sistema inmunitario lo identifica como algo extraño y lo ataca. <mark>Es como si el sistema de seguridad no reconociera a un nuevo inquilino y lo tratara como intruso</mark>. Por eso se necesitan medicamentos que frenen esa respuesta. Una buena compatibilidad reduce mucho ese riesgo."
+      "respuesta": "Porque el sistema inmunitario lo identifica como algo extraño y lo ataca. <mark>Es como si el sistema de seguridad no reconociera a un nuevo inquilino y lo tratara como intruso</mark>. Por eso se necesitan medicamentos que frenen esa respuesta. Una buena compatibilidad reduce mucho ese riesgo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/camino-recuperacion-hospital.jpg",
+        "alt": "Una persona en su camino de recuperación tras una operación",
+        "titulo": "Road To Recovery",
+        "autor": "mynameisharsha",
+        "fuente": "https://www.flickr.com/photos/27526538@N07/2898188676",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre las vacunas y el sistema inmunitario?",
-      "respuesta": "Las vacunas entrenan al sistema inmunitario sin necesidad de pasar la enfermedad real. <mark>Es como practicar un examen antes de hacerlo de verdad</mark>. Así, si el cuerpo se encuentra con el agente real, ya sabe cómo responder. Esa preparación previa es la base de su protección."
+      "respuesta": "Las vacunas entrenan al sistema inmunitario sin necesidad de pasar la enfermedad real. <mark>Es como practicar un examen antes de hacerlo de verdad</mark>. Así, si el cuerpo se encuentra con el agente real, ya sabe cómo responder. Esa preparación previa es la base de su protección.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_4/cientifica-vacuna-laboratorio.jpg",
+        "alt": "Una científica sosteniendo una jeringuilla y un vial de vacuna",
+        "titulo": "Japanese female scientist wearing plastic gloves holding syringe and vial, researching a coronavirus vaccine",
+        "autor": "Japanexperterna.se",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=99619363",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

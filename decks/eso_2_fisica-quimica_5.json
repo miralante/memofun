@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la energía?",
-      "respuesta": "Es la capacidad de un cuerpo o un sistema para producir cambios o realizar trabajo. <mark>Es como el 'combustible' invisible que hace que las cosas pasen</mark>. Puede transformarse de un tipo a otro, pero nunca se crea de la nada. Sin energía, nada podría moverse ni funcionar."
+      "respuesta": "Es la capacidad de un cuerpo o un sistema para producir cambios o realizar trabajo. <mark>Es como el 'combustible' invisible que hace que las cosas pasen</mark>. Puede transformarse de un tipo a otro, pero nunca se crea de la nada. Sin energía, nada podría moverse ni funcionar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/bombilla-luz.jpg",
+        "alt": "Una bombilla encendida emitiendo luz y energía.",
+        "titulo": "Glowing light bulb with rays of light",
+        "autor": "Markus Grossalber",
+        "fuente": "https://www.flickr.com/photos/58883622@N02/9758986651",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tipos de energía existen?",
-      "respuesta": "Energía cinética, potencial, térmica, eléctrica y química, entre otras. <mark>Es como distintos disfraces que puede llevar la misma energía según la situación</mark>. Cada tipo se manifiesta de forma distinta. Todas ellas pueden transformarse unas en otras."
+      "respuesta": "Energía cinética, potencial, térmica, eléctrica y química, entre otras. <mark>Es como distintos disfraces que puede llevar la misma energía según la situación</mark>. Cada tipo se manifiesta de forma distinta. Todas ellas pueden transformarse unas en otras.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/presa-hidroelectrica.jpg",
+        "alt": "Una presa que genera energía a partir del agua.",
+        "titulo": "dam",
+        "autor": "ogwen",
+        "fuente": "https://www.flickr.com/photos/48851531@N00/54426859",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el principio de conservación de la energía?",
-      "respuesta": "Dice que la energía no se crea ni se destruye, solo se transforma. <mark>Es como pasar dinero de un bolsillo a otro: la cantidad total sigue siendo la misma</mark>. Por ejemplo, la energía eléctrica se transforma en luz y calor en una bombilla."
+      "respuesta": "Dice que la energía no se crea ni se destruye, solo se transforma. <mark>Es como pasar dinero de un bolsillo a otro: la cantidad total sigue siendo la misma</mark>. Por ejemplo, la energía eléctrica se transforma en luz y calor en una bombilla.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/pendulo-oscilando.jpg",
+        "alt": "Un pendulo en pleno movimiento, oscilando de un lado a otro.",
+        "titulo": "Pendulum Swinging",
+        "autor": "thekirbster",
+        "fuente": "https://www.flickr.com/photos/17157315@N00/3004210553",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la temperatura?",
-      "respuesta": "Es una medida de lo caliente o frío que está un cuerpo. <mark>Está relacionada con lo rápido que se mueven las partículas que lo forman</mark>. Se mide con un termómetro, en grados. Cuanto más rápido se mueven, mayor es la temperatura."
+      "respuesta": "Es una medida de lo caliente o frío que está un cuerpo. <mark>Está relacionada con lo rápido que se mueven las partículas que lo forman</mark>. Se mide con un termómetro, en grados. Cuanto más rápido se mueven, mayor es la temperatura.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/termometro-gijon.jpg",
+        "alt": "Un termómetro gigante, para medir la temperatura",
+        "titulo": "Termometro gigante en la playa de Gijon",
+        "autor": "ReservasdeCoches.com",
+        "fuente": "https://www.flickr.com/photos/33083165@N02/3524350227",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué escalas de temperatura existen?",
-      "respuesta": "Las más usadas son la escala Celsius, la Fahrenheit y la Kelvin. <mark>Es como medir la misma distancia en metros o en pies: cambia el número, no la realidad</mark>. Cada escala tiene un punto de referencia distinto para el cero."
+      "respuesta": "Las más usadas son la escala Celsius, la Fahrenheit y la Kelvin. <mark>Es como medir la misma distancia en metros o en pies: cambia el número, no la realidad</mark>. Cada escala tiene un punto de referencia distinto para el cero.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/termometro-escala.jpg",
+        "alt": "Un termómetro mostrando una escala de temperatura.",
+        "titulo": "-12 = 10",
+        "autor": "OliBac",
+        "fuente": "https://www.flickr.com/photos/47757737@N00/6830699975",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el calor?",
-      "respuesta": "Es la energía que se transfiere entre dos cuerpos que están a distinta temperatura. <mark>Es como el agua que fluye siempre de un vaso más lleno a uno más vacío</mark>. El calor pasa siempre del cuerpo más caliente al más frío."
+      "respuesta": "Es la energía que se transfiere entre dos cuerpos que están a distinta temperatura. <mark>Es como el agua que fluye siempre de un vaso más lleno a uno más vacío</mark>. El calor pasa siempre del cuerpo más caliente al más frío.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/manos-calentando.jpg",
+        "alt": "Unas manos calentándose cerca de una fuente de calor.",
+        "titulo": "Warming",
+        "autor": "Roaring Jellyfish",
+        "fuente": "https://www.flickr.com/photos/41594113@N03/5549124166",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre calor y temperatura?",
-      "respuesta": "La temperatura mide cómo de caliente está algo; el calor es la energía que se transfiere. <mark>Es como confundir 'lo lleno que está un vaso' con 'cuánta agua se ha vertido'</mark>. Un objeto pequeño puede tener alta temperatura, pero poca energía calorífica."
+      "respuesta": "La temperatura mide cómo de caliente está algo; el calor es la energía que se transfiere. <mark>Es como confundir 'lo lleno que está un vaso' con 'cuánta agua se ha vertido'</mark>. Un objeto pequeño puede tener alta temperatura, pero poca energía calorífica.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/dia-caluroso-verano.jpg",
+        "alt": "Un día de mucho calor en verano.",
+        "titulo": "Heart of a hot summer day",
+        "autor": "limberlostt",
+        "fuente": "https://www.flickr.com/photos/85654079@N08/27099185184",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué efectos produce el calor sobre la materia?",
-      "respuesta": "Puede provocar cambios de estado y también dilataciones. <mark>Es como si el calor hiciera que las cosas se 'estiren' o cambien de forma</mark>. El hielo se derrite con calor; los metales se dilatan al calentarse."
+      "respuesta": "Puede provocar cambios de estado y también dilataciones. <mark>Es como si el calor hiciera que las cosas se 'estiren' o cambien de forma</mark>. El hielo se derrite con calor; los metales se dilatan al calentarse.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/productos-forjados.jpg",
+        "alt": "Piezas de metal forjadas con calor.",
+        "titulo": "Forged Products",
+        "autor": "Artem Beliaikin",
+        "fuente": "https://www.flickr.com/photos/157635012@N07/32906187487",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la dilatación de un material?",
-      "respuesta": "Es el aumento de tamaño que sufre un material al calentarse. <mark>Es como si las partículas necesitaran más espacio al moverse más rápido</mark>. Se tiene en cuenta al construir puentes o vías de tren, para no dañarlos."
+      "respuesta": "Es el aumento de tamaño que sufre un material al calentarse. <mark>Es como si las partículas necesitaran más espacio al moverse más rápido</mark>. Se tiene en cuenta al construir puentes o vías de tren, para no dañarlos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/forja-hacha.jpg",
+        "alt": "Un metal al rojo vivo cambiando de forma al calentarse.",
+        "titulo": "Axe Forging",
+        "autor": "alusch",
+        "fuente": "https://www.flickr.com/photos/185077236@N04/52285173692",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la naturaleza eléctrica de la materia y la energía?",
-      "respuesta": "La materia contiene cargas eléctricas que pueden moverse y generar energía. <mark>Es como aprovechar el movimiento de diminutas partículas cargadas para producir electricidad</mark>. Esa energía se puede obtener de fuentes como el viento o el sol."
+      "respuesta": "La materia contiene cargas eléctricas que pueden moverse y generar energía. <mark>Es como aprovechar el movimiento de diminutas partículas cargadas para producir electricidad</mark>. Esa energía se puede obtener de fuentes como el viento o el sol.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/rayo-tormenta.jpg",
+        "alt": "Un rayo eléctrico durante una tormenta.",
+        "titulo": "Wide Lightning",
+        "autor": "Kurayba",
+        "fuente": "https://www.flickr.com/photos/48503330@N08/5911053551",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la corriente eléctrica continua?",
-      "respuesta": "Es un flujo de carga eléctrica que se mueve siempre en la misma dirección. <mark>Es como un río eléctrico que fluye siempre hacia el mismo lado</mark>. Las pilas y las baterías generan corriente continua."
+      "respuesta": "Es un flujo de carga eléctrica que se mueve siempre en la misma dirección. <mark>Es como un río eléctrico que fluye siempre hacia el mismo lado</mark>. Las pilas y las baterías generan corriente continua.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/energia-eolica.jpg",
+        "alt": "Molinos de viento generando energía eólica",
+        "titulo": "Energía eólica / wind energy",
+        "autor": "www.energiasrenovablesinfo.com",
+        "fuente": "https://www.flickr.com/photos/131069746@N03/16442040832",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la energía está presente en casi todo lo que hacemos?",
-      "respuesta": "Porque cualquier movimiento, cambio o transformación necesita energía para ocurrir. <mark>Desde encender una luz hasta caminar, todo consume o transforma energía</mark>. Reconocer esa presencia constante ayuda a entender mejor el mundo."
+      "respuesta": "Porque cualquier movimiento, cambio o transformación necesita energía para ocurrir. <mark>Desde encender una luz hasta caminar, todo consume o transforma energía</mark>. Reconocer esa presencia constante ayuda a entender mejor el mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/pilas-baterias.jpg",
+        "alt": "Pilas y baterías, que generan corriente eléctrica continua",
+        "titulo": "Reciclar Pilas Baterías",
+        "autor": "Julio Cesar Velasquez M",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=72659529",
+        "licencia": "CC BY 3.0"
+      }
     }
   ]
 }

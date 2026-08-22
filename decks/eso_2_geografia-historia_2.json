@@ -5,47 +5,135 @@
   "tarjetas": [
     {
       "pregunta": "¿Por qué compiten los países por el control de recursos naturales?",
-      "respuesta": "Porque el petróleo, el agua o los minerales no están repartidos por igual. <mark>Es como pelear por el trozo más grande de una tarta limitada</mark>. Esa competencia puede provocar tensiones o incluso conflictos. Controlar un recurso escaso da mucho poder económico."
+      "respuesta": "Porque el petróleo, el agua o los minerales no están repartidos por igual. <mark>Es como pelear por el trozo más grande de una tarta limitada</mark>. Esa competencia puede provocar tensiones o incluso conflictos. Controlar un recurso escaso da mucho poder económico.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/pozos-petroleo.jpg",
+        "alt": "Pozos de petróleo, un recurso natural muy disputado.",
+        "titulo": "Oil well pump jacks",
+        "autor": "Richard Masoner / Cyclelicious",
+        "fuente": "https://www.flickr.com/photos/99247795@N00/3153652073",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los mercados regionales?",
-      "respuesta": "Son acuerdos entre varios países vecinos para comerciar más fácilmente. <mark>Es como quitar aduanas entre países amigos, para comprar y vender sin trabas</mark>. La Unión Europea es un ejemplo de mercado regional. Facilitan el comercio y fortalecen la economía de la zona."
+      "respuesta": "Son acuerdos entre varios países vecinos para comerciar más fácilmente. <mark>Es como quitar aduanas entre países amigos, para comprar y vender sin trabas</mark>. La Unión Europea es un ejemplo de mercado regional. Facilitan el comercio y fortalecen la economía de la zona.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/banderas-ue-espana.jpg",
+        "alt": "Banderas de España y de la Unión Europea, un mercado regional",
+        "titulo": "Banderas de España y la Unión Europea",
+        "autor": "Contando Estrelas",
+        "fuente": "https://www.flickr.com/photos/96937621@N00/4487668812",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué existe una distribución desigual de la riqueza en el mundo?",
-      "respuesta": "Porque no todos los países tienen los mismos recursos, industrias ni oportunidades. <mark>Es como repartir una tarta en trozos de tamaños muy distintos</mark>. Algunas zonas concentran gran parte de la riqueza mundial. Otras luchan contra la pobreza cada día."
+      "respuesta": "Porque no todos los países tienen los mismos recursos, industrias ni oportunidades. <mark>Es como repartir una tarta en trozos de tamaños muy distintos</mark>. Algunas zonas concentran gran parte de la riqueza mundial. Otras luchan contra la pobreza cada día.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/favela-panorama.jpg",
+        "alt": "Un barrio con viviendas humildes, reflejo de la desigualdad.",
+        "titulo": "Rocinha",
+        "autor": "AHLN",
+        "fuente": "https://www.flickr.com/photos/24265317@N00/2362660336",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa la dignidad humana?",
-      "respuesta": "Significa que toda persona merece respeto, sin importar quién sea. <mark>Es como decir que ningún ser humano vale menos que otro</mark>. Es la base de los derechos humanos universales. Ninguna ley debería contradecir ese principio básico."
+      "respuesta": "Significa que toda persona merece respeto, sin importar quién sea. <mark>Es como decir que ningún ser humano vale menos que otro</mark>. Es la base de los derechos humanos universales. Ninguna ley debería contradecir ese principio básico.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/personas-diversas-circulo.jpg",
+        "alt": "Un grupo diverso de personas dándose la mano en círculo.",
+        "titulo": "Multiethnic Diverse People in a Circle Holding Hands",
+        "autor": "Helge V. Keitel",
+        "fuente": "https://www.flickr.com/photos/17088227@N00/30118072626",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los derechos humanos universales?",
-      "respuesta": "Son derechos que corresponden a toda persona, en cualquier país del mundo. <mark>No dependen de dónde naciste, sino solo de ser un ser humano</mark>. Incluyen el derecho a la vida, la libertad y la educación. Se recogen en una declaración aceptada por casi todos los países."
+      "respuesta": "Son derechos que corresponden a toda persona, en cualquier país del mundo. <mark>No dependen de dónde naciste, sino solo de ser un ser humano</mark>. Incluyen el derecho a la vida, la libertad y la educación. Se recogen en una declaración aceptada por casi todos los países.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/declaracion-derechos-humanos.jpg",
+        "alt": "El documento de la Declaración Universal de los Derechos Humanos.",
+        "titulo": "Universal Declaration of Human Rights (1948)",
+        "autor": "Thomas Cizauskas",
+        "fuente": "https://www.flickr.com/photos/75714412@N00/31456212961",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una situación de discriminación?",
-      "respuesta": "Es tratar peor a alguien por su origen, género, religión o cualquier otra característica. <mark>Es como cerrarle una puerta a alguien solo por cómo es, no por lo que hace</mark>. Va en contra de la igualdad y la dignidad humana. Reconocerla es el primer paso para combatirla."
+      "respuesta": "Es tratar peor a alguien por su origen, género, religión o cualquier otra característica. <mark>Es como cerrarle una puerta a alguien solo por cómo es, no por lo que hace</mark>. Va en contra de la igualdad y la dignidad humana. Reconocerla es el primer paso para combatirla.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/pancarta-derechos-civiles.jpg",
+        "alt": "Una manifestación con carteles contra la discriminación.",
+        "titulo": "Charles Zimmerman speaks at a civil rights rally, signs include Labor Opposes Discrimination",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279334489",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la Convención sobre los Derechos del Niño?",
-      "respuesta": "Es un acuerdo internacional que protege los derechos de los menores de edad. <mark>Reconoce que los niños necesitan cuidados y protección especiales</mark>. Incluye el derecho a la educación, la salud y a no sufrir violencia. La firmaron casi todos los países del mundo."
+      "respuesta": "Es un acuerdo internacional que protege los derechos de los menores de edad. <mark>Reconoce que los niños necesitan cuidados y protección especiales</mark>. Incluye el derecho a la educación, la salud y a no sufrir violencia. La firmaron casi todos los países del mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/ninos-jugando-columpios.jpg",
+        "alt": "Niños jugando en columpios.",
+        "titulo": "Children playing on a swings at Delta Cooperative",
+        "autor": "Kheel Center, Cornell University Library",
+        "fuente": "https://www.flickr.com/photos/38445726@N04/5279320133",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los Objetivos de Desarrollo Sostenible?",
-      "respuesta": "Son diecisiete metas mundiales para mejorar el planeta antes de 2030. <mark>Es como una lista de deberes que se ha propuesto toda la humanidad</mark>. Incluyen acabar con la pobreza, el hambre y proteger el medio ambiente. Los aprobaron casi todos los países de las Naciones Unidas."
+      "respuesta": "Son diecisiete metas mundiales para mejorar el planeta antes de 2030. <mark>Es como una lista de deberes que se ha propuesto toda la humanidad</mark>. Incluyen acabar con la pobreza, el hambre y proteger el medio ambiente. Los aprobaron casi todos los países de las Naciones Unidas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/objetivos-desarrollo-sostenible.jpg",
+        "alt": "El logotipo de los Objetivos de Desarrollo Sostenible.",
+        "titulo": "Sustainable Development Goals (20 July 2016)",
+        "autor": "UNCTAD",
+        "fuente": "https://www.flickr.com/photos/53390373@N06/28453406865",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la seguridad internacional ayuda a cumplir los Objetivos de Desarrollo Sostenible?",
-      "respuesta": "Porque sin paz es muy difícil construir escuelas, hospitales o economías estables. <mark>Es como intentar reconstruir una casa mientras sigue habiendo un incendio</mark>. Los conflictos armados destruyen recursos y detienen el progreso. Por eso la paz es la base para lograr otros objetivos."
+      "respuesta": "Porque sin paz es muy difícil construir escuelas, hospitales o economías estables. <mark>Es como intentar reconstruir una casa mientras sigue habiendo un incendio</mark>. Los conflictos armados destruyen recursos y detienen el progreso. Por eso la paz es la base para lograr otros objetivos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/consejo-seguridad-onu.jpg",
+        "alt": "Una reunion del Consejo de Seguridad de las Naciones Unidas.",
+        "titulo": "United Nations Security Council Resolution 1244",
+        "autor": "BalkanPhotos",
+        "fuente": "https://www.flickr.com/photos/142872259@N05/47376758621",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tienen las instituciones de un Estado en la seguridad y la convivencia?",
-      "respuesta": "Los Estados crean leyes, policía y servicios para proteger a la población. <mark>Actúan como el armazón que sostiene la convivencia pacífica de un país</mark>. También colaboran con otros países para mantener la paz. Sin instituciones fuertes, la seguridad de todos sería más frágil."
+      "respuesta": "Los Estados crean leyes, policía y servicios para proteger a la población. <mark>Actúan como el armazón que sostiene la convivencia pacífica de un país</mark>. También colaboran con otros países para mantener la paz. Sin instituciones fuertes, la seguridad de todos sería más frágil.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/parlamento-edificio.jpg",
+        "alt": "El edificio de un parlamento, sede de las instituciones de un Estado.",
+        "titulo": "Storm brewing over the Parliament",
+        "autor": "cs_one",
+        "fuente": "https://www.flickr.com/photos/137133598@N06/42317245170",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre las tensiones internacionales y el control de recursos?",
-      "respuesta": "Muchos conflictos históricos han tenido detrás la disputa por recursos o territorio. <mark>Detrás de una guerra hay a menudo una razón económica escondida</mark>. Petróleo, agua o tierras fértiles han provocado tensiones entre países. Entender esa relación ayuda a comprender los conflictos actuales."
+      "respuesta": "Muchos conflictos históricos han tenido detrás la disputa por recursos o territorio. <mark>Detrás de una guerra hay a menudo una razón económica escondida</mark>. Petróleo, agua o tierras fértiles han provocado tensiones entre países. Entender esa relación ayuda a comprender los conflictos actuales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia_2/plataforma-petroleo-gas.jpg",
+        "alt": "Una instalación de extracción de petróleo y gas.",
+        "titulo": "Oil and Gas",
+        "autor": "mypubliclands",
+        "fuente": "https://www.flickr.com/photos/91981596@N06/33317868280",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

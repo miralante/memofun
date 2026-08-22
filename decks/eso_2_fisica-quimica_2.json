@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la materia?",
-      "respuesta": "Es todo aquello que ocupa un lugar en el espacio y tiene masa. <mark>Es como decir que cualquier cosa que puedas tocar o pesar es materia</mark>. El aire, el agua y las piedras son ejemplos de materia. Todo lo que existe físicamente está formado por materia."
+      "respuesta": "Es todo aquello que ocupa un lugar en el espacio y tiene masa. <mark>Es como decir que cualquier cosa que puedas tocar o pesar es materia</mark>. El aire, el agua y las piedras son ejemplos de materia. Todo lo que existe físicamente está formado por materia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/estados-materia.jpg",
+        "alt": "Distintos estados de la materia representados juntos.",
+        "titulo": "States of Matter",
+        "autor": "Flavio~",
+        "fuente": "https://www.flickr.com/photos/37873897@N06/4315075111",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la teoría cinético-molecular?",
-      "respuesta": "Explica que la materia está formada por partículas diminutas en constante movimiento. <mark>Es como imaginar que todo, aunque parezca quieto, está lleno de partículas moviéndose sin parar</mark>. Se mueven más rápido cuanto mayor es la temperatura. Explica por qué la materia cambia de estado."
+      "respuesta": "Explica que la materia está formada por partículas diminutas en constante movimiento. <mark>Es como imaginar que todo, aunque parezca quieto, está lleno de partículas moviéndose sin parar</mark>. Se mueven más rápido cuanto mayor es la temperatura. Explica por qué la materia cambia de estado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/geiser-agua-vapor.jpg",
+        "alt": "Un géiser liberando agua y vapor con fuerza.",
+        "titulo": "The Great Geyser",
+        "autor": "Helgi Halldórsson/Freddi",
+        "fuente": "https://www.flickr.com/photos/8058853@N06/3718241364",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cuáles son los estados de agregación de la materia?",
-      "respuesta": "Sólido, líquido y gaseoso son los tres estados más comunes. <mark>Es como el hielo, el agua y el vapor: la misma sustancia, en formas distintas</mark>. En cada estado, las partículas están más o menos unidas. El calor o el frío cambian la materia de estado."
+      "respuesta": "Sólido, líquido y gaseoso son los tres estados más comunes. <mark>Es como el hielo, el agua y el vapor: la misma sustancia, en formas distintas</mark>. En cada estado, las partículas están más o menos unidas. El calor o el frío cambian la materia de estado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/diagrama-estados-materia.png",
+        "alt": "Un diagrama con los estados fundamentales de la materia.",
+        "titulo": "Four Fundamental States of Matter",
+        "autor": "Spirit469",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=23549036",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre un sólido y un líquido según sus partículas?",
-      "respuesta": "En un sólido, las partículas están muy unidas y casi no se mueven de su sitio. <mark>En un líquido, están más sueltas y pueden deslizarse unas sobre otras</mark>. Por eso un sólido mantiene su forma y un líquido se adapta al recipiente."
+      "respuesta": "En un sólido, las partículas están muy unidas y casi no se mueven de su sitio. <mark>En un líquido, están más sueltas y pueden deslizarse unas sobre otras</mark>. Por eso un sólido mantiene su forma y un líquido se adapta al recipiente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/hielo-agua-vaso.jpg",
+        "alt": "Hielo sólido flotando en agua líquida dentro de un vaso.",
+        "titulo": "Water Pouring Over Glass of Ice",
+        "autor": "StockPhotosforFree.com",
+        "fuente": "https://www.flickr.com/photos/79249118@N05/7190209429",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una sustancia pura?",
-      "respuesta": "Es una materia formada por un único tipo de componente. <mark>Es como un ingrediente sin mezclar, sin nada añadido</mark>. El agua destilada o el oro puro son ejemplos de sustancias puras. Tienen propiedades fijas, como su punto de fusión."
+      "respuesta": "Es una materia formada por un único tipo de componente. <mark>Es como un ingrediente sin mezclar, sin nada añadido</mark>. El agua destilada o el oro puro son ejemplos de sustancias puras. Tienen propiedades fijas, como su punto de fusión.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/oro-brazaletes.jpg",
+        "alt": "Brazaletes antiguos hechos de oro puro",
+        "titulo": "Brazaletes de Lamela",
+        "autor": "Á. M. Felicísimo",
+        "fuente": "https://www.flickr.com/photos/8146925@N08/40474135211",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una mezcla?",
-      "respuesta": "Es la unión de dos o más sustancias distintas, sin combinarse químicamente. <mark>Es como mezclar arena y sal: siguen siendo dos cosas distintas, solo revueltas</mark>. Puede ser homogénea, si no se distinguen sus partes, o heterogénea, si sí. Se puede separar de nuevo en sus componentes."
+      "respuesta": "Es la unión de dos o más sustancias distintas, sin combinarse químicamente. <mark>Es como mezclar arena y sal: siguen siendo dos cosas distintas, solo revueltas</mark>. Puede ser homogénea, si no se distinguen sus partes, o heterogénea, si sí. Se puede separar de nuevo en sus componentes.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/frutos-secos-mezcla.jpg",
+        "alt": "Una mezcla de frutos secos de distintos tipos.",
+        "titulo": "trailmix",
+        "autor": "Consumerist Dot Com",
+        "fuente": "https://www.flickr.com/photos/21241181@N00/2863038471",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una disolución acuosa?",
-      "respuesta": "Es una mezcla homogénea donde una sustancia se disuelve en agua. <mark>Es como el azúcar disolviéndose en un vaso de agua, sin verse ya por separado</mark>. La sustancia que se disuelve se llama soluto; el agua, disolvente. Muchas bebidas son disoluciones acuosas."
+      "respuesta": "Es una mezcla homogénea donde una sustancia se disuelve en agua. <mark>Es como el azúcar disolviéndose en un vaso de agua, sin verse ya por separado</mark>. La sustancia que se disuelve se llama soluto; el agua, disolvente. Muchas bebidas son disoluciones acuosas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/sulfato-sodio.jpg",
+        "alt": "Una muestra de una sal química usada en disoluciones.",
+        "titulo": "Sodium Sulfate",
+        "autor": "jill570641",
+        "fuente": "https://www.flickr.com/photos/44362794@N02/6058351820",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una aleación?",
-      "respuesta": "Es una mezcla de metales, o de un metal con otro elemento. <mark>Es como combinar dos metales para conseguir uno más resistente que ninguno de los dos por separado</mark>. El bronce, mezcla de cobre y estaño, es un ejemplo conocido. Suelen mejorar las propiedades de los metales originales."
+      "respuesta": "Es una mezcla de metales, o de un metal con otro elemento. <mark>Es como combinar dos metales para conseguir uno más resistente que ninguno de los dos por separado</mark>. El bronce, mezcla de cobre y estaño, es un ejemplo conocido. Suelen mejorar las propiedades de los metales originales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/bronce-escultura.jpg",
+        "alt": "Una escultura de bronce, una aleación de cobre y estaño",
+        "titulo": "Escultura de Mahatma Gandhi",
+        "autor": "jacilluch",
+        "fuente": "https://www.flickr.com/photos/70626035@N00/10057925563",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un coloide?",
-      "respuesta": "Es una mezcla donde unas partículas muy pequeñas quedan dispersas sin disolverse del todo. <mark>Es como la leche, donde no ves las gotas de grasa, pero tampoco están completamente disueltas</mark>. Muchos alimentos y cosméticos son coloides."
+      "respuesta": "Es una mezcla donde unas partículas muy pequeñas quedan dispersas sin disolverse del todo. <mark>Es como la leche, donde no ves las gotas de grasa, pero tampoco están completamente disueltas</mark>. Muchos alimentos y cosméticos son coloides.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/cafe-leche.jpg",
+        "alt": "Café con leche, un ejemplo cotidiano de coloide.",
+        "titulo": "Morning coffe",
+        "autor": "Tree Leaf Clover",
+        "fuente": "https://www.flickr.com/photos/50744999@N02/6227999014",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la filtración como método de separación?",
-      "respuesta": "Sirve para separar un sólido de un líquido usando un filtro. <mark>Es como colar la pasta: el agua pasa, pero la pasta se queda</mark>. El filtro deja pasar el líquido, pero retiene las partículas sólidas. Se usa mucho para purificar agua."
+      "respuesta": "Sirve para separar un sólido de un líquido usando un filtro. <mark>Es como colar la pasta: el agua pasa, pero la pasta se queda</mark>. El filtro deja pasar el líquido, pero retiene las partículas sólidas. Se usa mucho para purificar agua.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/colador-filtracion.jpg",
+        "alt": "Un colador de cocina, usado para separar un sólido de un líquido",
+        "titulo": "Ricardo con el colador",
+        "autor": "Depersonas cocinando con sentido",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=36536151",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es la destilación como método de separación?",
-      "respuesta": "Separa los componentes de una mezcla líquida aprovechando distintos puntos de ebullición. <mark>Es como dejar que se evapore primero lo que hierve antes, y recogerlo aparte</mark>. El vapor se enfría y vuelve a estado líquido, ya separado. Se usa para obtener agua potable a partir de agua salada."
+      "respuesta": "Separa los componentes de una mezcla líquida aprovechando distintos puntos de ebullición. <mark>Es como dejar que se evapore primero lo que hierve antes, y recogerlo aparte</mark>. El vapor se enfría y vuelve a estado líquido, ya separado. Se usa para obtener agua potable a partir de agua salada.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/destilacion-aparato.jpg",
+        "alt": "Un aparato de destilación en un laboratorio.",
+        "titulo": "1962. Plant pathologist J.H. Ohman adjusting distillation apparatus",
+        "autor": "USDA Forest Service",
+        "fuente": "https://www.flickr.com/photos/151887236@N05/32286611087",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil saber separar los componentes de una mezcla?",
-      "respuesta": "Porque permite purificar sustancias o aprovechar cada componente por separado. <mark>Es como separar los ingredientes de una ensalada para usarlos en otras recetas</mark>. Se usa en la industria, en la limpieza del agua y en procesos cotidianos."
+      "respuesta": "Porque permite purificar sustancias o aprovechar cada componente por separado. <mark>Es como separar los ingredientes de una ensalada para usarlos en otras recetas</mark>. Se usa en la industria, en la limpieza del agua y en procesos cotidianos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_2/reciclaje-separacion.jpg",
+        "alt": "Contenedores de reciclaje para separar distintos materiales.",
+        "titulo": "Complex recycling in Ealing",
+        "autor": "David Hawgood",
+        "fuente": "http://www.geograph.org.uk/photo/730863",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

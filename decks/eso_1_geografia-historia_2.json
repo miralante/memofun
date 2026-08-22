@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la emergencia climática?",
-      "respuesta": "Es el aumento peligroso de la temperatura media del planeta. <mark>Es como si la Tierra tuviera fiebre y no dejara de subir</mark>. Lo provocan sobre todo los gases que soltamos al quemar combustibles. Sus efectos ya se notan en el clima de todo el mundo."
+      "respuesta": "Es el aumento peligroso de la temperatura media del planeta. <mark>Es como si la Tierra tuviera fiebre y no dejara de subir</mark>. Lo provocan sobre todo los gases que soltamos al quemar combustibles. Sus efectos ya se notan en el clima de todo el mundo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/glaciar-derritiendo.jpg",
+        "alt": "Un glaciar derritiéndose por el calor",
+        "titulo": "Rio Manso Melting Glacier Ice Argentina",
+        "autor": "amanderson2",
+        "fuente": "https://www.flickr.com/photos/49399018@N00/533731575",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo afectan las actividades humanas al clima?",
-      "respuesta": "Quemar carbón, petróleo o gas suelta gases que calientan la atmósfera. <mark>Es como cerrar las ventanas de un coche al sol: el calor se queda atrapado dentro</mark>. Cuantos más gases se acumulan, más sube la temperatura. Decisiones de hace décadas afectan al clima de hoy."
+      "respuesta": "Quemar carbón, petróleo o gas suelta gases que calientan la atmósfera. <mark>Es como cerrar las ventanas de un coche al sol: el calor se queda atrapado dentro</mark>. Cuantos más gases se acumulan, más sube la temperatura. Decisiones de hace décadas afectan al clima de hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/central-humo.jpg",
+        "alt": "Una central eléctrica soltando humo a la atmósfera",
+        "titulo": "Power plant, smokestack",
+        "autor": "Salim Virji",
+        "fuente": "https://www.flickr.com/photos/44124427152@N01/187815384",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un riesgo natural?",
-      "respuesta": "Es la posibilidad de que ocurra un fenómeno natural peligroso, como una inundación. <mark>No es el fenómeno en sí, sino la amenaza de que pase donde vive gente</mark>. Un terremoto en un desierto vacío no es un riesgo tan grave. El riesgo depende de dónde y cómo vivimos."
+      "respuesta": "Es la posibilidad de que ocurra un fenómeno natural peligroso, como una inundación. <mark>No es el fenómeno en sí, sino la amenaza de que pase donde vive gente</mark>. Un terremoto en un desierto vacío no es un riesgo tan grave. El riesgo depende de dónde y cómo vivimos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/tormenta-nubes.jpg",
+        "alt": "Nubes de tormenta en el cielo",
+        "titulo": "Pre-dawn Storm",
+        "autor": "Steve Soblick",
+        "fuente": "https://www.flickr.com/photos/39388734@N00/30387330358",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que una población sea vulnerable ante una catástrofe?",
-      "respuesta": "Significa que tiene pocos recursos para protegerse o recuperarse después. <mark>Es como enfrentar una tormenta sin paraguas ni refugio cerca</mark>. La prevención y los planes de emergencia reducen esa vulnerabilidad. Estar preparado marca la diferencia entre un susto y una tragedia."
+      "respuesta": "Significa que tiene pocos recursos para protegerse o recuperarse después. <mark>Es como enfrentar una tormenta sin paraguas ni refugio cerca</mark>. La prevención y los planes de emergencia reducen esa vulnerabilidad. Estar preparado marca la diferencia entre un susto y una tragedia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/refugio-emergencia.jpg",
+        "alt": "Tiendas de campaña de refugio de emergencia",
+        "titulo": "DFID-funded, UNHCR emergency shelter tents, in the IDP camp at Menik Farm, Sri Lanka",
+        "autor": "DFID - UK Department for International Development",
+        "fuente": "https://www.flickr.com/photos/14214150@N02/3694081492",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el desarrollo sostenible?",
-      "respuesta": "Es cubrir las necesidades de hoy sin arruinar el futuro. <mark>Es como no gastar de golpe unos ahorros que también necesitarás mañana</mark>. Combina economía, sociedad y cuidado del medio ambiente. Reciclar o ahorrar energía son pequeñas acciones sostenibles."
+      "respuesta": "Es cubrir las necesidades de hoy sin arruinar el futuro. <mark>Es como no gastar de golpe unos ahorros que también necesitarás mañana</mark>. Combina economía, sociedad y cuidado del medio ambiente. Reciclar o ahorrar energía son pequeñas acciones sostenibles.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/hucha-ahorro.jpg",
+        "alt": "Una hucha con monedas de ahorro",
+        "titulo": "Piggy Bank",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5930033784",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué amenaza principal sufre la biodiversidad hoy?",
-      "respuesta": "La pérdida de hábitats naturales por la actividad humana. <mark>Es como derribar poco a poco todas las casas de un barrio entero</mark>. Talar bosques o contaminar ríos deja a muchas especies sin hogar. Por eso tantos animales están en peligro de extinción."
+      "respuesta": "La pérdida de hábitats naturales por la actividad humana. <mark>Es como derribar poco a poco todas las casas de un barrio entero</mark>. Talar bosques o contaminar ríos deja a muchas especies sin hogar. Por eso tantos animales están en peligro de extinción.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/deforestacion.jpg",
+        "alt": "Un bosque talado por la deforestación",
+        "titulo": "Deforestation",
+        "autor": "crustmania",
+        "fuente": "https://www.flickr.com/photos/76771610@N00/10094847976",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo alteraron los humanos los ecosistemas ya en el pasado?",
-      "respuesta": "En la Prehistoria, la agricultura cambió bosques por campos de cultivo. <mark>Cada campo sembrado sustituyó un trozo de naturaleza salvaje</mark>. Con el tiempo, esos cambios se hicieron cada vez más grandes. Hoy la huella humana se nota en casi todo el planeta."
+      "respuesta": "En la Prehistoria, la agricultura cambió bosques por campos de cultivo. <mark>Cada campo sembrado sustituyó un trozo de naturaleza salvaje</mark>. Con el tiempo, esos cambios se hicieron cada vez más grandes. Hoy la huella humana se nota en casi todo el planeta.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/campo-cultivo.jpg",
+        "alt": "Un campo de cultivo con plantones, un ecosistema transformado por la agricultura",
+        "titulo": "Plantones de lechuga",
+        "autor": "jacilluch",
+        "fuente": "https://www.flickr.com/photos/70626035@N00/9682527261",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las tecnologías de la información?",
-      "respuesta": "Son las herramientas digitales para buscar, guardar y compartir datos. <mark>Es como tener una biblioteca gigante siempre en el bolsillo</mark>. Incluyen internet, aplicaciones y dispositivos como el móvil. Cambiaron por completo cómo aprendemos y nos comunicamos."
+      "respuesta": "Son las herramientas digitales para buscar, guardar y compartir datos. <mark>Es como tener una biblioteca gigante siempre en el bolsillo</mark>. Incluyen internet, aplicaciones y dispositivos como el móvil. Cambiaron por completo cómo aprendemos y nos comunicamos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/movil-smartphone.jpg",
+        "alt": "Un teléfono móvil, una herramienta de las tecnologías de la información",
+        "titulo": "crackberry",
+        "autor": "MattHurst",
+        "fuente": "https://www.flickr.com/photos/22937701@N00/3161506528",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué hay que leer la información de internet con sentido crítico?",
-      "respuesta": "Porque no todo lo que aparece en la pantalla es cierto. <mark>Es como escuchar un rumor: conviene comprobarlo antes de creerlo</mark>. Comparar varias fuentes ayuda a distinguir lo fiable de lo falso. Esa costumbre se llama lectura crítica."
+      "respuesta": "Porque no todo lo que aparece en la pantalla es cierto. <mark>Es como escuchar un rumor: conviene comprobarlo antes de creerlo</mark>. Comparar varias fuentes ayuda a distinguir lo fiable de lo falso. Esa costumbre se llama lectura crítica.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/lupa-noticias.jpg",
+        "alt": "Una lupa sobre un periódico, comprobando la información",
+        "titulo": "Free magnifying glass newspaper photo",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/5904368/photo-image-public-domain-black-newspaper",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es la sociedad del conocimiento?",
-      "respuesta": "Es una sociedad donde la información se comparte y crece muy rápido. <mark>Es como si millones de personas escribieran el mismo libro a la vez</mark>. Internet permite acceder a saberes que antes costaban mucho conseguir. Pero también exige aprender a filtrar tanta información."
+      "respuesta": "Es una sociedad donde la información se comparte y crece muy rápido. <mark>Es como si millones de personas escribieran el mismo libro a la vez</mark>. Internet permite acceder a saberes que antes costaban mucho conseguir. Pero también exige aprender a filtrar tanta información.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/biblioteca-libros.jpg",
+        "alt": "Estanterías llenas de libros en una biblioteca",
+        "titulo": "Library books - Shelving stacks",
+        "autor": "CCAC North Library",
+        "fuente": "https://www.flickr.com/photos/29817792@N08/3554627364",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué precauciones conviene tener en las redes sociales?",
-      "respuesta": "No compartir datos personales con desconocidos y revisar bien la privacidad. <mark>Es como no dar la dirección de tu casa a cualquiera en la calle</mark>. También conviene desconfiar de mensajes demasiado llamativos. Esas costumbres reducen los riesgos de internet."
+      "respuesta": "No compartir datos personales con desconocidos y revisar bien la privacidad. <mark>Es como no dar la dirección de tu casa a cualquiera en la calle</mark>. También conviene desconfiar de mensajes demasiado llamativos. Esas costumbres reducen los riesgos de internet.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/candado-seguridad.jpg",
+        "alt": "Un candado que representa la seguridad y la privacidad",
+        "titulo": "Security",
+        "autor": "CarbonNYC [in SF!]",
+        "fuente": "https://www.flickr.com/photos/15923063@N00/2294144289",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué el cambio climático afecta a todo el planeta y no solo a un país?",
-      "respuesta": "La atmósfera no tiene fronteras entre países. <mark>Es como un aire compartido dentro de una misma habitación grande</mark>. Los gases que emite un lugar afectan al clima de todos. Por eso las soluciones necesitan acuerdos entre muchos países."
+      "respuesta": "La atmósfera no tiene fronteras entre países. <mark>Es como un aire compartido dentro de una misma habitación grande</mark>. Los gases que emite un lugar afectan al clima de todos. Por eso las soluciones necesitan acuerdos entre muchos países.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_2/tierra-espacio.jpg",
+        "alt": "La Tierra vista desde el espacio",
+        "titulo": "Earth from Space",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/6049973495",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

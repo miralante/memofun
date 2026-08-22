@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la asertividad?",
-      "respuesta": "Es expresar lo que piensas o necesitas con claridad, sin faltar al respeto a nadie. <mark>Es como encontrar el punto medio entre callarte siempre y imponer tu opinión a la fuerza</mark>. Ayuda a comunicarse mejor en el trabajo."
+      "respuesta": "Es expresar lo que piensas o necesitas con claridad, sin faltar al respeto a nadie. <mark>Es como encontrar el punto medio entre callarte siempre y imponer tu opinión a la fuerza</mark>. Ayuda a comunicarse mejor en el trabajo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/conversacion-confianza.jpg",
+        "alt": "Una persona conversando con seguridad y respeto.",
+        "titulo": "U.S. Secretary of State Hillary Rodham Clinton speaks with a mother at the Reach Out Mbuya Clinic",
+        "autor": "U.S. Mission Uganda",
+        "fuente": "https://www.flickr.com/photos/54621517@N08/7723416400",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué se analiza al estudiar el sector profesional administrativo?",
-      "respuesta": "Qué tipo de empresas contratan perfiles administrativos y qué tareas suelen pedir. <mark>Es como estudiar el terreno antes de decidir por dónde caminar profesionalmente</mark>. Ayuda a orientar mejor la formación y la búsqueda de empleo."
+      "respuesta": "Qué tipo de empresas contratan perfiles administrativos y qué tareas suelen pedir. <mark>Es como estudiar el terreno antes de decidir por dónde caminar profesionalmente</mark>. Ayuda a orientar mejor la formación y la búsqueda de empleo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/escritorio-oficina-antiguo.jpg",
+        "alt": "Un escritorio de oficina, ejemplo del sector administrativo.",
+        "titulo": "Black Country Living Museum - The Workers Institute - desk",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/6061839213",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las tendencias del mercado laboral?",
-      "respuesta": "Son los cambios que se observan en qué empleos se demandan y cómo se trabaja. <mark>Es como fijarse hacia dónde sopla el viento del empleo, para orientarse mejor</mark>. La digitalización es una de las tendencias más fuertes actualmente."
+      "respuesta": "Son los cambios que se observan en qué empleos se demandan y cómo se trabaja. <mark>Es como fijarse hacia dónde sopla el viento del empleo, para orientarse mejor</mark>. La digitalización es una de las tendencias más fuertes actualmente.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/grafico-empleo.jpg",
+        "alt": "Un gráfico mostrando la evolución del empleo.",
+        "titulo": "What 4.4 Million Jobs Lost Over 14 Months Looks Like",
+        "autor": "Speaker Nancy Pelosi",
+        "fuente": "https://www.flickr.com/photos/11461909@N06/3333412448",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los portales de empleo?",
-      "respuesta": "Son páginas de internet donde empresas publican ofertas de trabajo y personas se inscriben. <mark>Es como un escaparate gigante de ofertas de trabajo, todo reunido en un mismo lugar</mark>. Conviene mantener el perfil actualizado en varios a la vez."
+      "respuesta": "Son páginas de internet donde empresas publican ofertas de trabajo y personas se inscriben. <mark>Es como un escaparate gigante de ofertas de trabajo, todo reunido en un mismo lugar</mark>. Conviene mantener el perfil actualizado en varios a la vez.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/emprendedora-portatil.jpg",
+        "alt": "Una persona buscando empleo desde su ordenador portátil.",
+        "titulo": "Young female entrepreneur working on her laptop while holding it on her lap",
+        "autor": "Ivan Radic",
+        "fuente": "https://www.flickr.com/photos/26344495@N05/49505320077",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la economía social?",
-      "respuesta": "Es una forma de organizar empresas donde las personas socias deciden juntas y reparten los resultados. <mark>Es como llevar un negocio entre varios, decidiendo entre todos en vez de mandar solo uno</mark>. Las cooperativas son un ejemplo habitual."
+      "respuesta": "Es una forma de organizar empresas donde las personas socias deciden juntas y reparten los resultados. <mark>Es como llevar un negocio entre varios, decidiendo entre todos en vez de mandar solo uno</mark>. Las cooperativas son un ejemplo habitual.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/cooperativa-trabajadores.jpg",
+        "alt": "Un grupo de trabajadores de una cooperativa.",
+        "titulo": "20161230-RD-LSC-0279",
+        "autor": "USDAgov",
+        "fuente": "https://www.flickr.com/photos/41284017@N08/31961084194",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el emprendimiento colectivo?",
-      "respuesta": "Es poner en marcha un proyecto entre varias personas que comparten una misma idea. <mark>Es como sumar fuerzas para un proyecto que sería más difícil de sacar adelante solo</mark>. Reparte tanto el trabajo como el riesgo entre todos."
+      "respuesta": "Es poner en marcha un proyecto entre varias personas que comparten una misma idea. <mark>Es como sumar fuerzas para un proyecto que sería más difícil de sacar adelante solo</mark>. Reparte tanto el trabajo como el riesgo entre todos.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/equipo-startup.jpg",
+        "alt": "Un equipo de personas colaborando en un proyecto emprendedor.",
+        "titulo": "(sin título)",
+        "autor": "startupphotos",
+        "fuente": "https://www.flickr.com/photos/120262924@N05/13134012164",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué riesgos específicos tiene un puesto de trabajo administrativo?",
-      "respuesta": "Malas posturas, cansancio visual por las pantallas y estrés por acumulación de tareas. <mark>Parecen riesgos pequeños, pero se notan si se repiten día tras día</mark>. Por eso también hay que prevenirlos, aunque no sea un trabajo físico duro."
+      "respuesta": "Malas posturas, cansancio visual por las pantallas y estrés por acumulación de tareas. <mark>Parecen riesgos pequeños, pero se notan si se repiten día tras día</mark>. Por eso también hay que prevenirlos, aunque no sea un trabajo físico duro.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/puesto-trabajo-ergonomico.jpg",
+        "alt": "Un puesto de trabajo de oficina bien organizado",
+        "titulo": "01 My decluttered, ergonomic, and healthy Workstation",
+        "autor": "Joy Mystic",
+        "fuente": "https://www.flickr.com/photos/55391269@N08/6009475649",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los equipos de protección en un entorno de oficina?",
-      "respuesta": "Son elementos y hábitos que reducen esos riesgos, como una silla ergonómica o pausas visuales. <mark>Es como adaptar el entorno para que trabajar no pase factura al cuerpo</mark>. También incluyen una buena iluminación del puesto."
+      "respuesta": "Son elementos y hábitos que reducen esos riesgos, como una silla ergonómica o pausas visuales. <mark>Es como adaptar el entorno para que trabajar no pase factura al cuerpo</mark>. También incluyen una buena iluminación del puesto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/extintor-seguridad.jpg",
+        "alt": "Un equipo de protección para emergencias.",
+        "titulo": "Coast Guard Station Fire Island conducts Safety Boardings",
+        "autor": "Coast Guard News",
+        "fuente": "https://www.flickr.com/photos/23412076@N06/8862036256",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las medidas de emergencia en un centro de trabajo?",
-      "respuesta": "Son los protocolos que indican cómo actuar ante un incendio u otra situación urgente. <mark>Es como conocer de antemano el plan de salida, para no improvisar si ocurre algo</mark>. Conocerlas puede marcar la diferencia en una emergencia real."
+      "respuesta": "Son los protocolos que indican cómo actuar ante un incendio u otra situación urgente. <mark>Es como conocer de antemano el plan de salida, para no improvisar si ocurre algo</mark>. Conocerlas puede marcar la diferencia en una emergencia real.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/salida-emergencia.jpg",
+        "alt": "Un cartel de salida de emergencia.",
+        "titulo": "Emergency exit sign",
+        "autor": "jepoirrier",
+        "fuente": "https://www.flickr.com/photos/57519914@N00/748257187",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué implica tomar decisiones sobre el propio itinerario formativo-profesional?",
-      "respuesta": "Valorar, con la información disponible, si seguir estudiando, buscar empleo o especializarse. <mark>Es como elegir el siguiente paso de un camino, sabiendo que no hay una única ruta correcta</mark>. Esa decisión puede revisarse más adelante."
+      "respuesta": "Valorar, con la información disponible, si seguir estudiando, buscar empleo o especializarse. <mark>Es como elegir el siguiente paso de un camino, sabiendo que no hay una única ruta correcta</mark>. Esa decisión puede revisarse más adelante.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/cruce-caminos.jpg",
+        "alt": "Un cruce de caminos, como decidir un itinerario profesional.",
+        "titulo": "Crossroads: Retirement or College Fund",
+        "autor": "ccPixs.com",
+        "fuente": "https://www.flickr.com/photos/86530412@N02/8226454024",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

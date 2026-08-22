@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el ADN?",
-      "respuesta": "Es la molécula que guarda toda la información genética de un ser vivo. <mark>Es como un manual de instrucciones completo, escrito con solo cuatro letras distintas</mark>. Se encuentra dentro del núcleo de las células. Determina, en gran parte, cómo es y cómo funciona cada ser vivo."
+      "respuesta": "Es la molécula que guarda toda la información genética de un ser vivo. <mark>Es como un manual de instrucciones completo, escrito con solo cuatro letras distintas</mark>. Se encuentra dentro del núcleo de las células. Determina, en gran parte, cómo es y cómo funciona cada ser vivo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/adn-modelo-museo.jpg",
+        "alt": "Modelo físico de la doble hélice del ADN expuesto en un museo de ciencia",
+        "titulo": "Model of DNA - Science Museum London",
+        "autor": "Haydn Blackey",
+        "fuente": "https://www.flickr.com/photos/54549113@N00/52691961406",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el ARN y qué relación tiene con el ADN?",
-      "respuesta": "Es una molécula parecida al ADN, que ayuda a poner en marcha sus instrucciones. <mark>Si el ADN es el manual guardado, el ARN es la copia que se lleva a la fábrica para trabajar</mark>. Participa en el proceso de fabricar proteínas. Sin ARN, esa información no podría usarse."
+      "respuesta": "Es una molécula parecida al ADN, que ayuda a poner en marcha sus instrucciones. <mark>Si el ADN es el manual guardado, el ARN es la copia que se lleva a la fábrica para trabajar</mark>. Participa en el proceso de fabricar proteínas. Sin ARN, esa información no podría usarse.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/arn-mensajero-vacuna.jpg",
+        "alt": "Viales de una vacuna basada en ARN mensajero",
+        "titulo": "mRNA therapy for COVID-19",
+        "autor": "Oregon State University",
+        "fuente": "https://www.flickr.com/photos/33247428@N08/52427462231",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un gen?",
-      "respuesta": "Es un fragmento de ADN que contiene la información para una característica concreta. <mark>Es como un párrafo dentro del manual de instrucciones completo del ADN</mark>. Por ejemplo, hay genes relacionados con el color de los ojos. Cada gen puede tener distintas versiones entre las personas."
+      "respuesta": "Es un fragmento de ADN que contiene la información para una característica concreta. <mark>Es como un párrafo dentro del manual de instrucciones completo del ADN</mark>. Por ejemplo, hay genes relacionados con el color de los ojos. Cada gen puede tener distintas versiones entre las personas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/cromosoma-diagrama.jpg",
+        "alt": "Célula en división mostrando sus cromosomas, donde se guardan los genes",
+        "titulo": "Dividing cells showing chromosomes (purple) and cell skeleton (green)",
+        "autor": "National Institutes of Health (NIH)",
+        "fuente": "https://www.flickr.com/photos/132318516@N08/20062504363",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el código genético?",
-      "respuesta": "Es el sistema que traduce la información del ADN en instrucciones para fabricar proteínas. <mark>Es como un alfabeto especial que el cuerpo sabe leer para construir cada parte de un ser vivo</mark>. Ese código es casi el mismo en todos los seres vivos. Compartimos un mismo 'lenguaje' genético."
+      "respuesta": "Es el sistema que traduce la información del ADN en instrucciones para fabricar proteínas. <mark>Es como un alfabeto especial que el cuerpo sabe leer para construir cada parte de un ser vivo</mark>. Ese código es casi el mismo en todos los seres vivos. Compartimos un mismo 'lenguaje' genético.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/alfabeto-letras-codigo.jpg",
+        "alt": "Letras de imprenta de madera, como un alfabeto que se combina para formar mensajes",
+        "titulo": "Printer's Wooden Letter Blocks 1",
+        "autor": "Sean-B",
+        "fuente": "https://www.flickr.com/photos/131286397@N03/17223321258",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el dogma central de la biología molecular?",
-      "respuesta": "Explica cómo la información pasa del ADN a las proteínas, pasando por el ARN. <mark>Es como una cadena de traducción: del manual original a una copia y de ahí a la acción</mark>. Ese proceso se llama transcripción y traducción. Explica cómo un gen se convierte en algo visible."
+      "respuesta": "Explica cómo la información pasa del ADN a las proteínas, pasando por el ARN. <mark>Es como una cadena de traducción: del manual original a una copia y de ahí a la acción</mark>. Ese proceso se llama transcripción y traducción. Explica cómo un gen se convierte en algo visible.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/fotocopiadora-copia.jpg",
+        "alt": "Una fotocopiadora haciendo una copia de un documento original",
+        "titulo": "Photocopier",
+        "autor": "Alan Cleaver",
+        "fuente": "https://www.flickr.com/photos/11121568@N06/4446487390",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una mutación genética?",
-      "respuesta": "Es un cambio inesperado en la secuencia del ADN. <mark>Es como una errata que aparece al copiar un texto muy largo</mark>. Puede no tener efecto, ser perjudicial o, en algunos casos, ser beneficiosa. También es una fuente importante de variedad para la evolución."
+      "respuesta": "Es un cambio inesperado en la secuencia del ADN. <mark>Es como una errata que aparece al copiar un texto muy largo</mark>. Puede no tener efecto, ser perjudicial o, en algunos casos, ser beneficiosa. También es una fuente importante de variedad para la evolución.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/raton-modelo-mutacion.jpg",
+        "alt": "Ratón de laboratorio usado para estudiar los efectos de una mutación genética",
+        "titulo": "Mouse Model of Stuttering",
+        "autor": "National Institutes of Health (NIH)",
+        "fuente": "https://www.flickr.com/photos/132318516@N08/48601060501",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre genotipo y fenotipo?",
-      "respuesta": "El genotipo es la información genética que posee un ser vivo. <mark>El fenotipo es cómo se manifiesta esa información, lo que realmente se ve</mark>. Tener el gen del pelo rizado es genotipo; tenerlo rizado de verdad es fenotipo. El ambiente también influye en el fenotipo."
+      "respuesta": "El genotipo es la información genética que posee un ser vivo. <mark>El fenotipo es cómo se manifiesta esa información, lo que realmente se ve</mark>. Tener el gen del pelo rizado es genotipo; tenerlo rizado de verdad es fenotipo. El ambiente también influye en el fenotipo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/pelo-rizado.jpg",
+        "alt": "Pelo rizado, un ejemplo visible de un rasgo heredado (fenotipo)",
+        "titulo": "How to Style Curly Hair",
+        "autor": "Stacie Stacie Stacie",
+        "fuente": "https://www.flickr.com/photos/35754040@N04/8537684061",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son las leyes de Mendel?",
-      "respuesta": "Son las reglas que explican cómo se heredan las características de padres a hijos. <mark>Las descubrió estudiando cómo se combinaban los colores y formas de los guisantes</mark>. Explican por qué algunos rasgos 'dominan' sobre otros. Sentaron las bases de la genética moderna."
+      "respuesta": "Son las reglas que explican cómo se heredan las características de padres a hijos. <mark>Las descubrió estudiando cómo se combinaban los colores y formas de los guisantes</mark>. Explican por qué algunos rasgos 'dominan' sobre otros. Sentaron las bases de la genética moderna.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/guisantes-vainas.jpg",
+        "alt": "Guisantes en sus vainas, la planta que estudió Mendel",
+        "titulo": "Guisantes en Vainas",
+        "autor": "jacilluch",
+        "fuente": "https://www.flickr.com/photos/70626035@N00/8454321298",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que un carácter sea dominante?",
-      "respuesta": "Significa que se manifiesta aunque solo se herede una copia de ese gen. <mark>Es como una voz que se escucha claramente aunque solo hable una vez</mark>. Basta con recibirlo de uno de los progenitores para que aparezca. Por eso suelen ser más frecuentes en la descendencia."
+      "respuesta": "Significa que se manifiesta aunque solo se herede una copia de ese gen. <mark>Es como una voz que se escucha claramente aunque solo hable una vez</mark>. Basta con recibirlo de uno de los progenitores para que aparezca. Por eso suelen ser más frecuentes en la descendencia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/guisantes-flor-morada.jpg",
+        "alt": "Flores de guisante de color morado, el rasgo dominante que estudió Mendel",
+        "titulo": "Sweet pea flowers (1833)",
+        "autor": "Swallowtail Garden Seeds",
+        "fuente": "https://www.flickr.com/photos/97123293@N07/19191311264",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que un carácter sea recesivo?",
-      "respuesta": "Significa que solo se manifiesta si se heredan dos copias iguales de ese gen. <mark>Es como una voz que solo se escucha si se repite dos veces seguidas</mark>. Si solo hay una copia, queda 'tapado' por el dominante. Puede pasar generaciones sin manifestarse, aunque siga presente."
+      "respuesta": "Significa que solo se manifiesta si se heredan dos copias iguales de ese gen. <mark>Es como una voz que solo se escucha si se repite dos veces seguidas</mark>. Si solo hay una copia, queda 'tapado' por el dominante. Puede pasar generaciones sin manifestarse, aunque siga presente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/wallaby-albino.jpg",
+        "alt": "Wallaby albino, de color blanco por un carácter genético recesivo",
+        "titulo": "Albino Wallaby",
+        "autor": "leunix",
+        "fuente": "https://www.flickr.com/photos/65883307@N00/228389012",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la herencia ligada al sexo?",
-      "respuesta": "Es la transmisión de ciertos genes que están situados en los cromosomas sexuales. <mark>Es como si algunas instrucciones solo vinieran incluidas en un tipo concreto de paquete</mark>. Por eso algunos rasgos aparecen más en un sexo que en otro. El daltonismo es un ejemplo conocido."
+      "respuesta": "Es la transmisión de ciertos genes que están situados en los cromosomas sexuales. <mark>Es como si algunas instrucciones solo vinieran incluidas en un tipo concreto de paquete</mark>. Por eso algunos rasgos aparecen más en un sexo que en otro. El daltonismo es un ejemplo conocido.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/paquetes-correo.jpg",
+        "alt": "Paquetes de correo de distintos tipos, como los genes que solo viajan en un tipo de cromosoma",
+        "titulo": "New packaging display at the United States Postal Service",
+        "autor": "Aranami",
+        "fuente": "https://www.flickr.com/photos/51526368@N03/5116363810",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la codominancia?",
-      "respuesta": "Es cuando dos versiones de un gen se manifiestan a la vez, sin que una tape a la otra. <mark>Es como si dos voces se escucharan igual de fuerte, sin que ninguna gane</mark>. Un ejemplo son ciertos grupos sanguíneos. Es distinta a la relación entre dominante y recesivo."
+      "respuesta": "Es cuando dos versiones de un gen se manifiestan a la vez, sin que una tape a la otra. <mark>Es como si dos voces se escucharan igual de fuerte, sin que ninguna gane</mark>. Un ejemplo son ciertos grupos sanguíneos. Es distinta a la relación entre dominante y recesivo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/donacion-sangre-tipo.jpg",
+        "alt": "Cartel de donación de sangre mostrando un grupo sanguíneo, ejemplo de codominancia",
+        "titulo": "AB Rh+ (ខ្ញុំបរិច្ចាគឈាម)",
+        "autor": "hasor",
+        "fuente": "https://www.flickr.com/photos/67806528@N07/44647695394",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la genética explica el parecido entre familiares?",
-      "respuesta": "Porque los hijos heredan combinaciones de los genes de sus progenitores. <mark>Es como mezclar dos barajas de cartas y repartir una selección nueva</mark>. Por eso los hermanos se parecen, sin ser idénticos entre ellos. Cada combinación genética es única, salvo en gemelos idénticos."
+      "respuesta": "Porque los hijos heredan combinaciones de los genes de sus progenitores. <mark>Es como mezclar dos barajas de cartas y repartir una selección nueva</mark>. Por eso los hermanos se parecen, sin ser idénticos entre ellos. Cada combinación genética es única, salvo en gemelos idénticos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/hermanos-parecido-familiar.jpg",
+        "alt": "Dos hermanos que se parecen entre sí sin ser idénticos",
+        "titulo": "siblings",
+        "autor": "JodyDigger",
+        "fuente": "https://www.flickr.com/photos/56424547@N00/9527727011",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se resuelve un problema sencillo de herencia genética?",
-      "respuesta": "Se identifican los genotipos de los progenitores y se combinan sus posibles aportaciones. <mark>Es como calcular todas las combinaciones posibles al lanzar dos dados distintos</mark>. Así se predice la probabilidad de cada resultado en la descendencia. Ayuda a entender cómo se transmiten los rasgos."
+      "respuesta": "Se identifican los genotipos de los progenitores y se combinan sus posibles aportaciones. <mark>Es como calcular todas las combinaciones posibles al lanzar dos dados distintos</mark>. Así se predice la probabilidad de cada resultado en la descendencia. Ayuda a entender cómo se transmiten los rasgos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_3/dados-probabilidad.jpg",
+        "alt": "Un par de dados, como las combinaciones posibles al calcular una herencia genética",
+        "titulo": "wuerfel",
+        "autor": "wilhei55",
+        "fuente": "https://www.flickr.com/photos/86399392@N00/109403969",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

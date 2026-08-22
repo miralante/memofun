@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un átomo?",
-      "respuesta": "Es la partícula más pequeña que conserva las propiedades de un elemento químico. <mark>Es como el ladrillo más diminuto con el que se construye toda la materia</mark>. Durante mucho tiempo se pensó que era indivisible. Hoy sabemos que está formado por partículas más pequeñas."
+      "respuesta": "Es la partícula más pequeña que conserva las propiedades de un elemento químico. <mark>Es como el ladrillo más diminuto con el que se construye toda la materia</mark>. Durante mucho tiempo se pensó que era indivisible. Hoy sabemos que está formado por partículas más pequeñas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/atomo-modelo-bohr.gif",
+        "alt": "Animación de un átomo con un núcleo central y electrones girando a su alrededor",
+        "titulo": "Bohr atom animation 2",
+        "autor": "Kurzon",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=32188518",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué proponía el modelo atómico de Thomson?",
-      "respuesta": "Proponía que el átomo era una esfera con carga positiva y electrones dentro. <mark>Se le suele comparar con un pudin con pasas, donde las pasas serían los electrones</mark>. Fue uno de los primeros modelos con partículas dentro del átomo. Después se demostró que no era del todo correcto."
+      "respuesta": "Proponía que el átomo era una esfera con carga positiva y electrones dentro. <mark>Se le suele comparar con un pudin con pasas, donde las pasas serían los electrones</mark>. Fue uno de los primeros modelos con partículas dentro del átomo. Después se demostró que no era del todo correcto.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-thomson-pudin.svg",
+        "alt": "Esquema del modelo atómico de Thomson: una esfera con electrones repartidos dentro, como pasas en un pudin",
+        "titulo": "Plum pudding model",
+        "autor": "Kurzon",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35252269",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué proponía el modelo atómico de Rutherford?",
-      "respuesta": "Proponía que el átomo tiene un núcleo pequeño y denso, con los electrones girando alrededor. <mark>Es como un pequeño sistema solar, con un núcleo en el centro y electrones orbitando</mark>. Descubrió que la mayor parte del átomo es espacio prácticamente vacío."
+      "respuesta": "Proponía que el átomo tiene un núcleo pequeño y denso, con los electrones girando alrededor. <mark>Es como un pequeño sistema solar, con un núcleo en el centro y electrones orbitando</mark>. Descubrió que la mayor parte del átomo es espacio prácticamente vacío.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-rutherford.jpg",
+        "alt": "Esquema del modelo atómico de Rutherford, con un núcleo central y electrones orbitando como planetas",
+        "titulo": "Rutherford atomic planetary model",
+        "autor": "Bensteele1995",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=21332267",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué es la tabla periódica de los elementos?",
-      "respuesta": "Es un cuadro que organiza todos los elementos químicos conocidos. <mark>Es como un armario ordenado, donde cada elemento tiene su cajón según sus propiedades</mark>. Los agrupa según características parecidas. Ayuda a predecir cómo se comportará un elemento sin probarlo."
+      "respuesta": "Es un cuadro que organiza todos los elementos químicos conocidos. <mark>Es como un armario ordenado, donde cada elemento tiene su cajón según sus propiedades</mark>. Los agrupa según características parecidas. Ayuda a predecir cómo se comportará un elemento sin probarlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/tabla-periodica.jpg",
+        "alt": "La tabla periódica de los elementos químicos",
+        "titulo": "Tabla periodica escolar",
+        "autor": "Pientrepiuno",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=76621629",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es el número atómico de un elemento?",
-      "respuesta": "Es el número de protones que tiene un átomo de ese elemento. <mark>Es como el número de identidad único de cada elemento químico</mark>. Determina de qué elemento se trata exactamente. Los elementos de la tabla periódica están ordenados según ese número."
+      "respuesta": "Es el número de protones que tiene un átomo de ese elemento. <mark>Es como el número de identidad único de cada elemento químico</mark>. Determina de qué elemento se trata exactamente. Los elementos de la tabla periódica están ordenados según ese número.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/numero-atomico-identidad-elemento.png",
+        "alt": "Diagrama que muestra cómo el número atómico identifica a cada elemento químico",
+        "titulo": "Element identity",
+        "autor": "Zygimantus",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=40700677",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre una sustancia simple y una compuesta?",
-      "respuesta": "Una sustancia simple está formada por átomos de un solo elemento. <mark>Una sustancia compuesta combina átomos de dos o más elementos distintos</mark>. El oxígeno que respiramos es una sustancia simple. El agua, formada por hidrógeno y oxígeno, es compuesta."
+      "respuesta": "Una sustancia simple está formada por átomos de un solo elemento. <mark>Una sustancia compuesta combina átomos de dos o más elementos distintos</mark>. El oxígeno que respiramos es una sustancia simple. El agua, formada por hidrógeno y oxígeno, es compuesta.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/sustancia-simple-elemento-puro.jpg",
+        "alt": "Trozos de cromo puro, un ejemplo de sustancia simple formada por un solo elemento",
+        "titulo": "Chromium chuncks",
+        "autor": "johnchryslar",
+        "fuente": "https://www.flickr.com/photos/145379854@N05/50427918671",
+        "licencia": "CC CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es una molécula?",
-      "respuesta": "Es un grupo de átomos unidos que forman la unidad más pequeña de una sustancia. <mark>Es como un pequeño grupo de piezas de Lego unidas de una forma concreta</mark>. Pueden estar formadas por átomos iguales o distintos. El agua es una molécula de hidrógeno y oxígeno."
+      "respuesta": "Es un grupo de átomos unidos que forman la unidad más pequeña de una sustancia. <mark>Es como un pequeño grupo de piezas de Lego unidas de una forma concreta</mark>. Pueden estar formadas por átomos iguales o distintos. El agua es una molécula de hidrógeno y oxígeno.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/molecula-agua-modelo.jpg",
+        "alt": "Modelo de bolas y varillas de una molécula de agua, con un átomo de oxígeno unido a dos de hidrógeno",
+        "titulo": "Water Molecule ball-and-stick model",
+        "autor": "borkia",
+        "fuente": "https://sketchfab.com/3d-models/b3b508a8fde242ddb4d5baa8988ee090",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es un cambio físico de la materia?",
-      "respuesta": "Es un cambio que no altera la composición de la sustancia. <mark>Es como doblar una hoja de papel: sigue siendo el mismo papel, solo con otra forma</mark>. Cambiar de estado, como fundir hielo, es un cambio físico. La sustancia es la misma antes y después."
+      "respuesta": "Es un cambio que no altera la composición de la sustancia. <mark>Es como doblar una hoja de papel: sigue siendo el mismo papel, solo con otra forma</mark>. Cambiar de estado, como fundir hielo, es un cambio físico. La sustancia es la misma antes y después.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/cambio-fisico-hielo-fundiendo.jpg",
+        "alt": "Bloques de hielo fundiéndose, un ejemplo de cambio físico",
+        "titulo": "Art comes in pieces: 2 blocks of ice melting on the street, string, wet concrete, rough and smooth, lines, orange, red, gray, white, Mazatlan, Mexico",
+        "autor": "Wonderlane",
+        "fuente": "https://www.flickr.com/photos/71401718@N00/12899250963",
+        "licencia": "CC CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es un cambio químico de la materia?",
-      "respuesta": "Es un cambio que transforma una sustancia en otra distinta. <mark>Es como quemar papel: se convierte en cenizas y humo, algo totalmente distinto</mark>. Se forman nuevas sustancias con propiedades diferentes. Ese proceso también se llama reacción química."
+      "respuesta": "Es un cambio que transforma una sustancia en otra distinta. <mark>Es como quemar papel: se convierte en cenizas y humo, algo totalmente distinto</mark>. Se forman nuevas sustancias con propiedades diferentes. Ese proceso también se llama reacción química.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/cambio-quimico-papel-quemando.jpg",
+        "alt": "Papel ardiendo, un ejemplo de cambio químico que forma cenizas y humo",
+        "titulo": "Burning paper",
+        "autor": "blmurch",
+        "fuente": "https://www.flickr.com/photos/82439748@N00/95655409",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede saber si ha ocurrido un cambio químico?",
-      "respuesta": "Suele haber señales como cambio de color, de olor, o desprendimiento de gas. <mark>Es como notar que algo ha cambiado de verdad, no solo de aspecto</mark>. También puede aparecer un sólido nuevo o liberarse calor. Distinguen un cambio químico de uno físico."
+      "respuesta": "Suele haber señales como cambio de color, de olor, o desprendimiento de gas. <mark>Es como notar que algo ha cambiado de verdad, no solo de aspecto</mark>. También puede aparecer un sólido nuevo o liberarse calor. Distinguen un cambio químico de uno físico.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/senales-reaccion-quimica.jpg",
+        "alt": "Una reacción química en marcha, con burbujas de gas como señal del cambio",
+        "titulo": "Chemical Reaction",
+        "autor": "katerha",
+        "fuente": "https://www.flickr.com/photos/8489692@N03/5703151566",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una reacción química?",
-      "respuesta": "Es un proceso donde unas sustancias se transforman en otras distintas. <mark>Es como una receta donde los ingredientes originales desaparecen para formar algo nuevo</mark>. Las sustancias iniciales se llaman reactivos; las finales, productos. Ocurren constantemente a nuestro alrededor."
+      "respuesta": "Es un proceso donde unas sustancias se transforman en otras distintas. <mark>Es como una receta donde los ingredientes originales desaparecen para formar algo nuevo</mark>. Las sustancias iniciales se llaman reactivos; las finales, productos. Ocurren constantemente a nuestro alrededor.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/reaccion-quimica-tubos-ensayo.jpg",
+        "alt": "Tubos de ensayo graduados con líquidos rojos y azules, usados para mezclar sustancias en una reacción",
+        "titulo": "Red and blue liquids inside graduated test tubes",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4273224901",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué son importantes los modelos atómicos para entender la química?",
-      "respuesta": "Porque ayudan a explicar cómo se comportan y se combinan los elementos. <mark>Es como tener un mapa que explica por qué las piezas encajan de una forma y no de otra</mark>. Sin un modelo del átomo, sería difícil predecir las reacciones químicas."
+      "respuesta": "Porque ayudan a explicar cómo se comportan y se combinan los elementos. <mark>Es como tener un mapa que explica por qué las piezas encajan de una forma y no de otra</mark>. Sin un modelo del átomo, sería difícil predecir las reacciones químicas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelos-atomicos-mapa-antiguo.jpg",
+        "alt": "Un mapa antiguo, como ejemplo de una guía que ayuda a entender y predecir",
+        "titulo": "Antique map of Leipzig",
+        "autor": "quinet",
+        "fuente": "https://www.flickr.com/photos/91994044@N00/8429631502",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

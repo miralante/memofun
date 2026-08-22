@@ -1,0 +1,67 @@
+# primaria_3_lengua-castellana — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Sustantivo (qué es): primaria_3_lengua-castellana.json (analogía: etiqueta que ponemos a todo lo que existe)
+- Sustantivo común (qué es): primaria_3_lengua-castellana.json (analogía: etiqueta general válida para todos los del grupo)
+- Sustantivo propio (qué es): primaria_3_lengua-castellana.json (analogía: etiqueta única solo para ese alguien)
+- Diferencia sustantivo común/propio (ejemplo "ciudad" vs. "Madrid"): primaria_3_lengua-castellana.json
+- Identificar sustantivos propios en una frase (ejemplo Pablo/Sevilla): primaria_3_lengua-castellana.json
+- Adjetivo calificativo (qué es): primaria_3_lengua-castellana.json (analogía: pincel que añade color a la palabra)
+- Identificar el adjetivo en una frase (ejemplo "perro pequeño ladra fuerte"): primaria_3_lengua-castellana.json
+- Cómo un adjetivo añade información a un sustantivo (ejemplo "casa bonita"): primaria_3_lengua-castellana.json (analogía: detalle extra en un dibujo)
+- Un sustantivo puede tener varios adjetivos: primaria_3_lengua-castellana.json (ejemplo "perro grande y feliz")
+- Por qué los adjetivos enriquecen una descripción: primaria_3_lengua-castellana.json (analogía: dibujo en blanco y negro que se llena de color)
+- Verbo (qué expresa): primaria_3_lengua-castellana.json (analogía: motor que pone en marcha la frase)
+- Identificar el verbo en una frase (ejemplo "la niña salta en el parque"): primaria_3_lengua-castellana.json
+- Verbos que expresan pensar/sentir/hablar, no solo movimiento: primaria_3_lengua-castellana.json
+- Identificar sustantivo, adjetivo y verbo juntos en una frase (ejemplo "el gato negro duerme en el sofá"): primaria_3_lengua-castellana.json
+- Sílaba (qué es): primaria_3_lengua-castellana_2.json (analogía: palmada al decir la palabra despacio)
+- Sílaba tónica (qué es): primaria_3_lengua-castellana_2.json (analogía: golpe de tambor más fuerte; ejemplo "camión")
+- Cómo encontrar la sílaba tónica (decir la palabra despacio): primaria_3_lengua-castellana_2.json (ejemplo "mesa", "pelota")
+- Tilde (qué es, para qué sirve): primaria_3_lengua-castellana_2.json (analogía: bandera en el punto más fuerte de la palabra)
+- Tilde que cambia el significado (ejemplo "papa"/"papá"): primaria_3_lengua-castellana_2.json
+- No todas las palabras llevan tilde: primaria_3_lengua-castellana_2.json
+- Por qué cuidar las tildes al escribir: primaria_3_lengua-castellana_2.json (analogía: cambiar una nota musical altera la canción)
+- Diccionario (qué es): primaria_3_lengua-castellana_2.json (analogía: guía que traduce palabras difíciles)
+- Orden alfabético en el diccionario: primaria_3_lengua-castellana_2.json (analogía: fila donde cada letra tiene su turno)
+- Cómo buscar una palabra en el diccionario (ejemplo "gato"): primaria_3_lengua-castellana_2.json
+- Qué información da el diccionario (significado, ejemplos de uso): primaria_3_lengua-castellana_2.json
+- Cuándo consultar el diccionario: primaria_3_lengua-castellana_2.json
+- Comprensión lectora de cuentos (qué es, cómo saber que entendiste): primaria_3_lengua-castellana_3.json (analogía: seguir el hilo de una película; resumir a un amigo)
+- Partes de un cuento (principio, problema, final): primaria_3_lengua-castellana_3.json (analogía: montaña rusa)
+- Qué hacer si no entiendes una parte de un cuento (releer): primaria_3_lengua-castellana_3.json (analogía: rebobinar una película)
+- Texto informativo (qué es): primaria_3_lengua-castellana_3.json (analogía: ficha con información verdadera)
+- Diferencia cuento/texto informativo: primaria_3_lengua-castellana_3.json
+- Cómo leer bien un texto informativo (fijarse en títulos): primaria_3_lengua-castellana_3.json (analogía: señales de un mapa)
+- Qué esperar de un texto informativo (ejemplo delfines): primaria_3_lengua-castellana_3.json
+- Escuchar con atención una exposición (qué significa): primaria_3_lengua-castellana_3.json (analogía: seguir una pelota con la mirada)
+- Tomar notas sencillas (para qué sirve): primaria_3_lengua-castellana_3.json (analogía: fotos rápidas con palabras)
+- Qué palabras apuntar al tomar notas (palabras clave): primaria_3_lengua-castellana_3.json (analogía: titulares de una noticia; ejemplo exposición sobre planetas)
+- Por qué aprender a escuchar y tomar notas desde pequeño: primaria_3_lengua-castellana_3.json
+- Escribir una descripción (qué es): primaria_3_lengua-castellana_4.json (analogía: pintar un cuadro con palabras)
+- Describir a una persona (qué detalles incluir): primaria_3_lengua-castellana_4.json (analogía: retrato con palabras)
+- Describir un lugar (qué detalles incluir): primaria_3_lengua-castellana_4.json (analogía: grabar un vídeo con palabras; ejemplo el parque)
+- Por qué los adjetivos mejoran una descripción (repaso, distinto ángulo — aplicado a escribir, no solo identificar): primaria_3_lengua-castellana_4.json
+- Carta (qué es): primaria_3_lengua-castellana_4.json (analogía: conversación que viaja en papel)
+- Cómo empieza una carta (saludo): primaria_3_lengua-castellana_4.json (ejemplo "Querida abuela")
+- Cuerpo de la carta (qué se escribe): primaria_3_lengua-castellana_4.json
+- Cómo termina una carta (despedida y nombre): primaria_3_lengua-castellana_4.json (ejemplo "Un abrazo, Marta")
+- Escribir una carta de invitación (datos imprescindibles: día, hora, lugar): primaria_3_lengua-castellana_4.json (ejemplo cumpleaños)
+- Contar una experiencia personal en orden (qué significa): primaria_3_lengua-castellana_4.json (analogía: ordenar fotos de un día)
+- Palabras conectoras de orden (primero, después, al final): primaria_3_lengua-castellana_4.json
+- Ejemplo de experiencia contada en orden (cumpleaños, despertar → apagar velas): primaria_3_lengua-castellana_4.json
+- Por qué contar en orden ayuda a quien escucha: primaria_3_lengua-castellana_4.json (analogía: armar un puzle por las esquinas)
+- Rima (qué es): primaria_3_lengua-castellana_5.json (analogía: eco que se repite al final del verso; ejemplo "prado"/"cansado")
+- Por qué los poemas con rima son fáciles de recordar: primaria_3_lengua-castellana_5.json (analogía: canción pegadiza)
+- Verso (qué es): primaria_3_lengua-castellana_5.json (analogía: escalón de una escalera)
+- Ritmo de un poema (qué es, cómo notarlo): primaria_3_lengua-castellana_5.json (analogía: compás de una canción; dar palmadas)
+- Cuento tradicional (qué es): primaria_3_lengua-castellana_5.json (analogía: tesoro de historias que pasa de generación en generación)
+- Cuentos tradicionales parecidos en distintos lugares: primaria_3_lengua-castellana_5.json (ejemplo héroe que vence a un monstruo)
+- Por qué interesa conocer cuentos de otros lugares: primaria_3_lengua-castellana_5.json (analogía: ventana a otra cultura)
+- Fábula (qué es): primaria_3_lengua-castellana_5.json (analogía: obra de teatro con animales como actores)
+- Moraleja (qué es): primaria_3_lengua-castellana_5.json (analogía: mensaje final envuelto dentro del cuento)
+- Moraleja de la liebre y la tortuga: primaria_3_lengua-castellana_5.json
+- Lenguas que se hablan en España (catalán, gallego, euskera, castellano): primaria_3_lengua-castellana_5.json (analogía: mosaico de idiomas)
+- Por qué es valiosa la diversidad lingüística de España: primaria_3_lengua-castellana_5.json (analogía: colores distintos en la misma bandera)

@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Cómo empezó la civilización romana?",
-      "respuesta": "Roma nació como una pequeña ciudad junto al río Tíber, en Italia. <mark>Empezó siendo un pueblo modesto, no el gran imperio que llegó a ser</mark>. Según la leyenda, la fundaron los hermanos Rómulo y Remo. Con el tiempo, ese pueblo pequeño conquistó medio mundo conocido."
+      "respuesta": "Roma nació como una pequeña ciudad junto al río Tíber, en Italia. <mark>Empezó siendo un pueblo modesto, no el gran imperio que llegó a ser</mark>. Según la leyenda, la fundaron los hermanos Rómulo y Remo. Con el tiempo, ese pueblo pequeño conquistó medio mundo conocido.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/foro-romano.jpg",
+        "alt": "El Foro Romano, el corazón de la antigua Roma",
+        "titulo": "Roman Forum",
+        "autor": "Benson Kua",
+        "fuente": "https://www.flickr.com/photos/91545223@N00/5409380582",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tres etapas políticas tuvo Roma?",
-      "respuesta": "Monarquía, república e imperio, en ese orden. <mark>Es como tres capítulos distintos de la misma historia, con reyes, senadores y luego emperadores</mark>. Cada etapa cambió cómo se tomaban las decisiones. La república duró varios siglos, hasta convertirse en imperio."
+      "respuesta": "Monarquía, república e imperio, en ese orden. <mark>Es como tres capítulos distintos de la misma historia, con reyes, senadores y luego emperadores</mark>. Cada etapa cambió cómo se tomaban las decisiones. La república duró varios siglos, hasta convertirse en imperio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/foro-romano-2.jpg",
+        "alt": "Ruinas del Foro Romano en Roma",
+        "titulo": "Foro Romano / Forum Romanum / Roman Forum",
+        "autor": "Bert Kaufmann",
+        "fuente": "https://www.flickr.com/photos/22746515@N02/8043630550",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era el Senado romano durante la república?",
-      "respuesta": "Era una asamblea de ciudadanos importantes que asesoraba y gobernaba Roma. <mark>Funcionaba casi como un consejo de sabios con mucho poder</mark>. Decidían sobre leyes, guerras e impuestos. Su poder disminuyó cuando llegaron los emperadores."
+      "respuesta": "Era una asamblea de ciudadanos importantes que asesoraba y gobernaba Roma. <mark>Funcionaba casi como un consejo de sabios con mucho poder</mark>. Decidían sobre leyes, guerras e impuestos. Su poder disminuyó cuando llegaron los emperadores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/curia-senado.jpg",
+        "alt": "La Curia, ruinas del edificio del Senado romano",
+        "titulo": "The Curia - Roman Senate ruins",
+        "autor": "fullon2012",
+        "fuente": "https://www.flickr.com/photos/85071122@N05/9485579457",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué cambió cuando Roma pasó de república a imperio?",
-      "respuesta": "El poder pasó a estar en manos de un único gobernante, el emperador. <mark>Es como pasar de decidir entre varios a que decida solo uno</mark>. El primer emperador fue Augusto. A partir de entonces, Roma alcanzó su mayor tamaño y poder."
+      "respuesta": "El poder pasó a estar en manos de un único gobernante, el emperador. <mark>Es como pasar de decidir entre varios a que decida solo uno</mark>. El primer emperador fue Augusto. A partir de entonces, Roma alcanzó su mayor tamaño y poder.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/busto-emperador.jpg",
+        "alt": "Un busto de mármol de un emperador romano",
+        "titulo": "Marble bust of the Roman Emperor Caligula made in Asia Minor about 40 CE (2)",
+        "autor": "mharrsch",
+        "fuente": "https://www.flickr.com/photos/44124324682@N01/450081115",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era la romanización?",
-      "respuesta": "Era el proceso por el que los territorios conquistados adoptaban la cultura romana. <mark>Es como cuando una moda se extiende y todos empiezan a vestir parecido</mark>. Incluía el idioma latín, las leyes y las costumbres romanas. Por eso hoy tantos idiomas europeos vienen del latín."
+      "respuesta": "Era el proceso por el que los territorios conquistados adoptaban la cultura romana. <mark>Es como cuando una moda se extiende y todos empiezan a vestir parecido</mark>. Incluía el idioma latín, las leyes y las costumbres romanas. Por eso hoy tantos idiomas europeos vienen del latín.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/calzada-romana.jpg",
+        "alt": "Una calzada de piedra construida por los romanos",
+        "titulo": "Ancient Paved Road at Bosra, Syria.",
+        "autor": "isawnyu",
+        "fuente": "https://www.flickr.com/photos/34561917@N04/5467960007",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué construcciones romanas todavía se conservan hoy?",
-      "respuesta": "Acueductos, anfiteatros, puentes y calzadas, entre otras. <mark>Algunas siguen en pie más de dos mil años después de construirse</mark>. Los romanos dominaban muy bien la construcción con piedra y cemento. El Coliseo de Roma es uno de los ejemplos más famosos."
+      "respuesta": "Acueductos, anfiteatros, puentes y calzadas, entre otras. <mark>Algunas siguen en pie más de dos mil años después de construirse</mark>. Los romanos dominaban muy bien la construcción con piedra y cemento. El Coliseo de Roma es uno de los ejemplos más famosos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/coliseo-roma.jpg",
+        "alt": "El Coliseo de Roma, un anfiteatro romano que se conserva hoy",
+        "titulo": "El Coliseo, Roma",
+        "autor": "Angel Talansky",
+        "fuente": "https://www.flickr.com/photos/147153897@N06/46463860564",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era el Cristianismo dentro del Imperio romano?",
-      "respuesta": "Era una religión nueva, nacida en tierras del imperio, que creía en un único dios. <mark>Al principio fue perseguida, pero acabó siendo la religión oficial</mark>. Se basaba en las enseñanzas de Jesús de Nazaret. Con el tiempo, se extendió por todo el imperio y más allá."
+      "respuesta": "Era una religión nueva, nacida en tierras del imperio, que creía en un único dios. <mark>Al principio fue perseguida, pero acabó siendo la religión oficial</mark>. Se basaba en las enseñanzas de Jesús de Nazaret. Con el tiempo, se extendió por todo el imperio y más allá.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/basilica-cristiana.jpg",
+        "alt": "Una basílica cristiana antigua con mosaicos",
+        "titulo": "Basilica of San Vitale, Ravenna",
+        "autor": "Dimitry B",
+        "fuente": "https://www.flickr.com/photos/61533954@N00/6867498250",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué era el judaísmo y qué relación tuvo con Roma?",
-      "respuesta": "Era la religión del pueblo judío, basada en un solo dios y su ley. <mark>Convivió, no siempre en paz, con el poder romano en la región de Judea</mark>. De esa tradición religiosa surgió después el Cristianismo. Ambas religiones marcaron profundamente la historia posterior."
+      "respuesta": "Era la religión del pueblo judío, basada en un solo dios y su ley. <mark>Convivió, no siempre en paz, con el poder romano en la región de Judea</mark>. De esa tradición religiosa surgió después el Cristianismo. Ambas religiones marcaron profundamente la historia posterior.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/jerusalen-antigua.jpg",
+        "alt": "La ciudad vieja de Jerusalén, con sus antiguos muros de piedra",
+        "titulo": "Old city of Jerusalem - Israël",
+        "autor": "Emmanuel Dyan",
+        "fuente": "https://www.flickr.com/photos/17616316@N00/4674193049",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Quiénes vivían en la Península Ibérica antes de que llegaran los romanos?",
-      "respuesta": "Pueblos como los iberos, los celtas y los tartesios, entre otros. <mark>Cada pueblo tenía su propia lengua y costumbres, sin un país único</mark>. Fenicios y griegos también fundaron colonias comerciales en la costa. Esa mezcla de pueblos existía antes de cualquier conquista romana."
+      "respuesta": "Pueblos como los iberos, los celtas y los tartesios, entre otros. <mark>Cada pueblo tenía su propia lengua y costumbres, sin un país único</mark>. Fenicios y griegos también fundaron colonias comerciales en la costa. Esa mezcla de pueblos existía antes de cualquier conquista romana.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/dama-elche.jpg",
+        "alt": "La Dama de Elche, una escultura ibera",
+        "titulo": "Dama de Elche (M.A.N. Madrid) 01",
+        "autor": "Zaqarbal",
+        "fuente": "https://www.flickr.com/photos/44949176@N00/348212134",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo conquistaron los romanos la Península Ibérica?",
-      "respuesta": "Fue un proceso largo, de casi doscientos años, con muchas resistencias. <mark>No fue una conquista rápida, sino una guerra larga y desgastante</mark>. Pueblos como los celtíberos lucharon con fuerza contra Roma. Al final, toda la península quedó bajo dominio romano."
+      "respuesta": "Fue un proceso largo, de casi doscientos años, con muchas resistencias. <mark>No fue una conquista rápida, sino una guerra larga y desgastante</mark>. Pueblos como los celtíberos lucharon con fuerza contra Roma. Al final, toda la península quedó bajo dominio romano.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/soldados-romanos.jpg",
+        "alt": "Soldados romanos con su armadura y equipo",
+        "titulo": "Roman Soldiers",
+        "autor": "mikecogh",
+        "fuente": "https://www.flickr.com/photos/89165847@N00/5916194928",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es Hispania?",
-      "respuesta": "Es el nombre que dieron los romanos a la Península Ibérica. <mark>Es como el primer gran nombre común que tuvo toda la península</mark>. Se convirtió en una parte importante del Imperio romano. De 'Hispania' viene, siglos después, el nombre 'España'."
+      "respuesta": "Es el nombre que dieron los romanos a la Península Ibérica. <mark>Es como el primer gran nombre común que tuvo toda la península</mark>. Se convirtió en una parte importante del Imperio romano. De 'Hispania' viene, siglos después, el nombre 'España'.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/acueducto-segovia.jpg",
+        "alt": "El acueducto romano de Segovia, en Hispania",
+        "titulo": "Acueducto Romano (Segovia, España)",
+        "autor": "Felver Alfonzo",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=16748746",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué dejó la romanización en Hispania?",
-      "respuesta": "Dejó el idioma latín, origen del español actual, y muchas ciudades. <mark>Ciudades como Mérida o Tarragona nacieron o crecieron en esa época</mark>. También dejó calzadas, acueductos y puentes que aún existen. La huella romana en España sigue siendo enorme hoy."
+      "respuesta": "Dejó el idioma latín, origen del español actual, y muchas ciudades. <mark>Ciudades como Mérida o Tarragona nacieron o crecieron en esa época</mark>. También dejó calzadas, acueductos y puentes que aún existen. La huella romana en España sigue siendo enorme hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/teatro-romano-merida.jpg",
+        "alt": "El teatro romano de Mérida, una ciudad de la Hispania romana",
+        "titulo": "Teatro Romano Mérida",
+        "autor": "HERNAJM",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=28037314",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Quiénes fueron los visigodos?",
-      "respuesta": "Fueron un pueblo germánico que se instaló en Hispania tras la caída de Roma. <mark>Llegaron cuando el Imperio romano ya se estaba desmoronando</mark>. Formaron un reino propio, con capital en Toledo. Su llegada marca el final de la Edad Antigua en la península."
+      "respuesta": "Fueron un pueblo germánico que se instaló en Hispania tras la caída de Roma. <mark>Llegaron cuando el Imperio romano ya se estaba desmoronando</mark>. Formaron un reino propio, con capital en Toledo. Su llegada marca el final de la Edad Antigua en la península.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/corona-recesvinto.jpg",
+        "alt": "La corona de Recesvinto, una joya visigoda",
+        "titulo": "Corona de Recesvinto - Corona votiva",
+        "autor": "jacilluch",
+        "fuente": "https://www.flickr.com/photos/70626035@N00/15009972181",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasó con el Imperio romano al final de la Edad Antigua?",
-      "respuesta": "Se debilitó por crisis internas y ataques de pueblos germánicos. <mark>Fue como un edificio enorme que se fue agrietando poco a poco</mark>. En el año 476 cayó el Imperio romano de Occidente. Con esa caída, se considera que termina la Edad Antigua."
+      "respuesta": "Se debilitó por crisis internas y ataques de pueblos germánicos. <mark>Fue como un edificio enorme que se fue agrietando poco a poco</mark>. En el año 476 cayó el Imperio romano de Occidente. Con esa caída, se considera que termina la Edad Antigua.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/anfiteatro-romano.jpg",
+        "alt": "Un gran anfiteatro romano en ruinas",
+        "titulo": "Overview of the massive Roman era amphitheatre",
+        "autor": "shankar s.",
+        "fuente": "https://www.flickr.com/photos/77742560@N06/16128886519",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el arte romano?",
-      "respuesta": "Incluye esculturas, mosaicos y edificios monumentales, muy influidos por Grecia. <mark>Los romanos copiaron y perfeccionaron muchas ideas artísticas griegas</mark>. Destacan por su realismo, sobre todo en los retratos. Muchas técnicas romanas se siguieron usando siglos después."
+      "respuesta": "Incluye esculturas, mosaicos y edificios monumentales, muy influidos por Grecia. <mark>Los romanos copiaron y perfeccionaron muchas ideas artísticas griegas</mark>. Destacan por su realismo, sobre todo en los retratos. Muchas técnicas romanas se siguieron usando siglos después.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/mosaico-romano.jpg",
+        "alt": "Un mosaico romano con figuras y formas geométricas",
+        "titulo": "Mosaico romano de la Catedral de Santa María la Vieja, Cartagena",
+        "autor": "amaianos",
+        "fuente": "https://www.flickr.com/photos/24326886@N03/6045731778",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que Roma unió gran parte del mundo antiguo?",
-      "respuesta": "Porque conectó con las mismas leyes, idioma y caminos territorios muy lejanos entre sí. <mark>Es como si un solo país hubiera unido Europa, el norte de África y Oriente Próximo</mark>. Esa red de caminos y ciudades facilitó el comercio y las ideas. Por eso su influencia se nota todavía hoy."
+      "respuesta": "Porque conectó con las mismas leyes, idioma y caminos territorios muy lejanos entre sí. <mark>Es como si un solo país hubiera unido Europa, el norte de África y Oriente Próximo</mark>. Esa red de caminos y ciudades facilitó el comercio y las ideas. Por eso su influencia se nota todavía hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_geografia-historia_5/via-appia.jpg",
+        "alt": "La Vía Apia, una calzada romana que conectaba territorios",
+        "titulo": "Via Appia ruins",
+        "autor": "ZeroOne",
+        "fuente": "https://www.flickr.com/photos/70591690@N00/688344822",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

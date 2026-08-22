@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Cómo se organiza territorialmente España?",
-      "respuesta": "España se divide en comunidades autónomas, y estas en provincias. <mark>Es como un país hecho de piezas más pequeñas, cada una con su propio gobierno</mark>. Cada comunidad autónoma tiene su capital y sus propias competencias."
+      "respuesta": "España se divide en comunidades autónomas, y estas en provincias. <mark>Es como un país hecho de piezas más pequeñas, cada una con su propio gobierno</mark>. Cada comunidad autónoma tiene su capital y sus propias competencias.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/organizacion-territorial.jpg",
+        "alt": "Ayuntamiento de una ciudad española con banderas ondeando.",
+        "titulo": "Plaza Duquesa da Parcent, Ronda - Ronda City Hall - flags",
+        "autor": "ell brown",
+        "fuente": "https://www.flickr.com/photos/39415781@N06/14666515293",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Dónde está Madrid dentro de España?",
-      "respuesta": "Madrid es una comunidad autónoma propia, situada en el centro de España. <mark>Es como el corazón geográfico del país, además de su capital</mark>. Su ciudad principal es también la capital de todo el país."
+      "respuesta": "Madrid es una comunidad autónoma propia, situada en el centro de España. <mark>Es como el corazón geográfico del país, además de su capital</mark>. Su ciudad principal es también la capital de todo el país.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/madrid-espana.jpg",
+        "alt": "La Puerta del Sol, una de las plazas más conocidas de Madrid.",
+        "titulo": "2614-Puerta del Sol (Madrid)",
+        "autor": "jl.cernadas",
+        "fuente": "https://www.flickr.com/photos/38035878@N07/7116257937",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la Unión Europea?",
-      "respuesta": "Es una unión de países europeos que colaboran en economía y política. <mark>Es como un gran equipo de países que comparten normas y beneficios comunes</mark>. España forma parte de ella desde 1986."
+      "respuesta": "Es una unión de países europeos que colaboran en economía y política. <mark>Es como un gran equipo de países que comparten normas y beneficios comunes</mark>. España forma parte de ella desde 1986.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/union-europea.jpg",
+        "alt": "Varias banderas de la Unión Europea ondeando juntas.",
+        "titulo": "European Union flags",
+        "autor": "futureatlas.com",
+        "fuente": "https://www.flickr.com/photos/87913776@N00/3772577165",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué países son vecinos de España?",
-      "respuesta": "Portugal, Francia y Andorra son sus vecinos más cercanos por tierra. <mark>Es como tener vecinos de puerta, pero a escala de países</mark>. Esos países comparten frontera y también historia con España."
+      "respuesta": "Portugal, Francia y Andorra son sus vecinos más cercanos por tierra. <mark>Es como tener vecinos de puerta, pero a escala de países</mark>. Esos países comparten frontera y también historia con España.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/paises-vecinos.svg",
+        "alt": "Mapa de la península ibérica, donde se ve España junto a sus países vecinos.",
+        "titulo": "Map Iberian Peninsula 910-es",
+        "autor": "Crates",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=5754110",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es una Constitución?",
-      "respuesta": "Es la ley más importante de un país, por encima de todas las demás. <mark>Es como el manual de instrucciones que dice cómo debe funcionar un país</mark>. Recoge los derechos, los deberes y cómo se organiza el poder."
+      "respuesta": "Es la ley más importante de un país, por encima de todas las demás. <mark>Es como el manual de instrucciones que dice cómo debe funcionar un país</mark>. Recoge los derechos, los deberes y cómo se organiza el poder.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/constitucion-concepto.jpg",
+        "alt": "Mazo de juez, símbolo de las leyes y la justicia.",
+        "titulo": "Courtroom Gavel - Judge - Court Hearing",
+        "autor": "weiss_paarz_photos",
+        "fuente": "https://www.flickr.com/photos/141290938@N03/27256508896",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la Constitución Española de 1978?",
-      "respuesta": "Es la ley fundamental que rige España desde el final de la dictadura. <mark>Marca el inicio de la democracia moderna en España</mark>. Recoge derechos como la libertad de expresión o la igualdad."
+      "respuesta": "Es la ley fundamental que rige España desde el final de la dictadura. <mark>Marca el inicio de la democracia moderna en España</mark>. Recoge derechos como la libertad de expresión o la igualdad.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/constitucion-1978.jpg",
+        "alt": "Balanza de la justicia frente a un edificio de tribunales.",
+        "titulo": "Scales of Justice Brisbane Supreme Court",
+        "autor": "Sheba_Also",
+        "fuente": "https://www.flickr.com/photos/34534185@N00/108279806",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué derechos básicos recoge la Constitución Española?",
-      "respuesta": "El derecho a la educación, a la salud, al trabajo y a la libertad de expresión, entre otros. <mark>Son garantías que protegen a cualquier persona en España</mark>. También recoge deberes, como pagar impuestos o respetar las leyes."
+      "respuesta": "El derecho a la educación, a la salud, al trabajo y a la libertad de expresión, entre otros. <mark>Son garantías que protegen a cualquier persona en España</mark>. También recoge deberes, como pagar impuestos o respetar las leyes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/derechos-basicos.jpg",
+        "alt": "Balanza de la justicia, símbolo de los derechos y la igualdad.",
+        "titulo": "Scales Of Justice",
+        "autor": "srqpix",
+        "fuente": "https://www.flickr.com/photos/85549619@N00/3367993034",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cuáles son los tres poderes del Estado?",
-      "respuesta": "El legislativo, que hace las leyes; el ejecutivo, que gobierna; y el judicial, que juzga. <mark>Es como repartir el poder en tres partes, para que ninguna tenga demasiado</mark>. Es la base de cualquier democracia moderna."
+      "respuesta": "El legislativo, que hace las leyes; el ejecutivo, que gobierna; y el judicial, que juzga. <mark>Es como repartir el poder en tres partes, para que ninguna tenga demasiado</mark>. Es la base de cualquier democracia moderna.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/tres-poderes.jpg",
+        "alt": "Edificio del Congreso de los Diputados en Madrid.",
+        "titulo": "Ampliación Congreso de los Diputados Madrid",
+        "autor": "losmininos",
+        "fuente": "https://www.flickr.com/photos/72723202@N00/1508400155",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el voto en unas elecciones?",
-      "respuesta": "Es la forma en que los ciudadanos eligen a quienes van a gobernar. <mark>Es como decidir entre todos quién representará nuestras ideas</mark>. Cada voto cuenta igual, sin importar quién lo emita."
+      "respuesta": "Es la forma en que los ciudadanos eligen a quienes van a gobernar. <mark>Es como decidir entre todos quién representará nuestras ideas</mark>. Cada voto cuenta igual, sin importar quién lo emita.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/elecciones-votar.jpg",
+        "alt": "Personas votando en unas elecciones",
+        "titulo": "Elecciones sindicales",
+        "autor": "ccoo-servicios",
+        "fuente": "https://www.flickr.com/photos/37544277@N06/44270752390",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante votar en unas elecciones?",
-      "respuesta": "Porque es la forma más directa de influir en quién toma las decisiones importantes. <mark>Es como opinar sobre las reglas del lugar donde vives</mark>. No votar también es una decisión, pero deja que otros decidan por ti."
+      "respuesta": "Porque es la forma más directa de influir en quién toma las decisiones importantes. <mark>Es como opinar sobre las reglas del lugar donde vives</mark>. No votar también es una decisión, pero deja que otros decidan por ti.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/votar-elecciones.jpg",
+        "alt": "Urna electoral utilizada para depositar los votos.",
+        "titulo": "Ballot box scanner - London mayor and assembly election 2008",
+        "autor": "secretlondon123",
+        "fuente": "https://www.flickr.com/photos/25834786@N03/2461779607",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa la igualdad entre hombres y mujeres como derecho?",
-      "respuesta": "Significa que ambos deben tener las mismas oportunidades y el mismo trato legal. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, de trabajo y de trato social."
+      "respuesta": "Significa que ambos deben tener las mismas oportunidades y el mismo trato legal. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, de trabajo y de trato social.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/igualdad-hombres-mujeres.jpg",
+        "alt": "Hombres y mujeres trabajando juntos como iguales.",
+        "titulo": "Gender Equality in the Workplace (01117946)",
+        "autor": "IAEA Imagebank",
+        "fuente": "https://www.flickr.com/photos/35068899@N03/48750119943",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un presupuesto familiar?",
-      "respuesta": "Es organizar cuánto dinero entra y cuánto se gasta en una casa. <mark>Es como hacer cuentas para que el dinero llegue a fin de mes</mark>. Incluye ingresos, como el sueldo, y gastos, como la comida o el alquiler."
+      "respuesta": "Es organizar cuánto dinero entra y cuánto se gasta en una casa. <mark>Es como hacer cuentas para que el dinero llegue a fin de mes</mark>. Incluye ingresos, como el sueldo, y gastos, como la comida o el alquiler.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/presupuesto-familiar.jpg",
+        "alt": "Hucha para guardar el dinero ahorrado.",
+        "titulo": "Piggy Bank",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5930033784",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil ahorrar dinero?",
-      "respuesta": "Porque permite hacer frente a gastos inesperados o a metas futuras. <mark>Es como guardar comida para cuando haga falta, pero con dinero</mark>. No hace falta ahorrar mucho: cualquier cantidad regular ayuda."
+      "respuesta": "Porque permite hacer frente a gastos inesperados o a metas futuras. <mark>Es como guardar comida para cuando haga falta, pero con dinero</mark>. No hace falta ahorrar mucho: cualquier cantidad regular ayuda.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/ahorrar-dinero.jpg",
+        "alt": "Hucha con monedas dentro, símbolo del ahorro.",
+        "titulo": "Piggy Bank",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5929478505",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los derechos de las personas consumidoras?",
-      "respuesta": "Son garantías legales que protegen a quien compra un producto o contrata un servicio. <mark>Es como una red de seguridad que nadie puede quitarte al comprar algo</mark>. Incluyen el derecho a la información y a reclamar."
+      "respuesta": "Son garantías legales que protegen a quien compra un producto o contrata un servicio. <mark>Es como una red de seguridad que nadie puede quitarte al comprar algo</mark>. Incluyen el derecho a la información y a reclamar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/derechos-consumidoras.jpg",
+        "alt": "Ticket de compra de un supermercado.",
+        "titulo": "Tia Geri and Grocery Receipt",
+        "autor": "phil_g",
+        "fuente": "https://www.flickr.com/photos/68975104@N00/2047058539",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué información debe tener una factura o un ticket de compra?",
-      "respuesta": "El precio, la fecha, el producto comprado y los impuestos aplicados. <mark>Es como un resumen fiel de lo que realmente ha pasado en esa compra</mark>. Sirve como prueba de la compra, por si hay que devolver algo."
+      "respuesta": "El precio, la fecha, el producto comprado y los impuestos aplicados. <mark>Es como un resumen fiel de lo que realmente ha pasado en esa compra</mark>. Sirve como prueba de la compra, por si hay que devolver algo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/caja-registradora.jpg",
+        "alt": "Una caja registradora, donde se emiten los tickets de compra",
+        "titulo": "Caja registradora antigua",
+        "autor": "Pablo F Burgueño",
+        "fuente": "https://www.flickr.com/photos/31749088@N02/7119806177",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué conviene guardar los tickets de compra?",
-      "respuesta": "Porque son la prueba de la compra si hay que reclamar o devolver algo. <mark>Es como guardar un recibo por si necesitas demostrar que pagaste</mark>. Sin ese ticket, es mucho más difícil hacer una reclamación."
+      "respuesta": "Porque son la prueba de la compra si hay que reclamar o devolver algo. <mark>Es como guardar un recibo por si necesitas demostrar que pagaste</mark>. Sin ese ticket, es mucho más difícil hacer una reclamación.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/guardar-tickets.jpg",
+        "alt": "Persona con sus tickets de compra tras ir al supermercado.",
+        "titulo": "Hotcouponworld Member Mi5zonsn1's recent coupon shopping trip to Giant",
+        "autor": "Hotcouponworld.com",
+        "fuente": "https://www.flickr.com/photos/24218656@N03/4597085921",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre el presupuesto familiar y el consumo responsable?",
-      "respuesta": "Un buen presupuesto ayuda a decidir en qué merece la pena gastar. <mark>Es como planificar antes de ir a comprar, en vez de decidir sobre la marcha</mark>. Evita gastos innecesarios y facilita ahorrar para lo importante."
+      "respuesta": "Un buen presupuesto ayuda a decidir en qué merece la pena gastar. <mark>Es como planificar antes de ir a comprar, en vez de decidir sobre la marcha</mark>. Evita gastos innecesarios y facilita ahorrar para lo importante.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/consumo-responsable.jpg",
+        "alt": "Carrito de la compra vacío en un supermercado.",
+        "titulo": "Shopping Cart Supermarket",
+        "autor": "safaritravelplus",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=115816705",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante conocer cómo funciona el Estado en la vida diaria?",
-      "respuesta": "Porque muchas decisiones que nos afectan se toman en esos tres poderes. <mark>Es como saber quién decide las reglas del juego en el que vivimos</mark>. Conocerlo ayuda a ejercer mejor los propios derechos como ciudadano."
+      "respuesta": "Porque muchas decisiones que nos afectan se toman en esos tres poderes. <mark>Es como saber quién decide las reglas del juego en el que vivimos</mark>. Conocerlo ayuda a ejercer mejor los propios derechos como ciudadano.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/conocer-estado.jpg",
+        "alt": "Edificio oficial en la Puerta del Sol de Madrid.",
+        "titulo": "Real Casa de Correos - Puerta del Sol, Madrid",
+        "autor": "kevinpoh",
+        "fuente": "https://www.flickr.com/photos/7679455@N03/5106272252",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

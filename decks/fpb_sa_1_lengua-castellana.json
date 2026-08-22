@@ -5,63 +5,183 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué elementos tiene la comunicación?",
-      "respuesta": "Un emisor que envía el mensaje, un receptor que lo recibe, y el mensaje mismo. <mark>Es como una carta: alguien la escribe, alguien la lee, y el mensaje viaja de uno a otro</mark>."
+      "respuesta": "Un emisor que envía el mensaje, un receptor que lo recibe, y el mensaje mismo. <mark>Es como una carta: alguien la escribe, alguien la lee, y el mensaje viaja de uno a otro</mark>.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/elementos-comunicacion.jpg",
+        "alt": "Una nota escrita a mano",
+        "titulo": "Love Note 2",
+        "autor": "lifelikeapps",
+        "fuente": "https://www.flickr.com/photos/56532794@N02/5352646071",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre la comunicación oral y la escrita?",
-      "respuesta": "La oral se hace hablando, y desaparece en el momento en que se dice. <mark>La escrita queda fija, y se puede volver a leer más tarde</mark>. Por eso los documentos importantes suelen hacerse por escrito."
+      "respuesta": "La oral se hace hablando, y desaparece en el momento en que se dice. <mark>La escrita queda fija, y se puede volver a leer más tarde</mark>. Por eso los documentos importantes suelen hacerse por escrito.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/oral-escrita.jpg",
+        "alt": "Dos personas conversando",
+        "titulo": "Talking girls",
+        "autor": "prague.czech.photo",
+        "fuente": "https://www.flickr.com/photos/99424477@N04/15635583573",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa entender lo esencial de un texto?",
-      "respuesta": "Significa identificar la idea principal, sin quedarte solo con los detalles. <mark>Es como quedarte con el resumen útil de un texto más largo</mark>. Ayuda a leer más rápido y a estudiar mejor."
+      "respuesta": "Significa identificar la idea principal, sin quedarte solo con los detalles. <mark>Es como quedarte con el resumen útil de un texto más largo</mark>. Ayuda a leer más rápido y a estudiar mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/esencial-texto.jpg",
+        "alt": "Un libro con partes del texto marcadas con rotulador",
+        "titulo": "From my copy of Tirole's IO book. Highlighter marks last twenty years.",
+        "autor": "Jose C Silva",
+        "fuente": "https://www.flickr.com/photos/61676142@N00/15525424171",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un texto narrativo?",
-      "respuesta": "Es un texto que cuenta algo que pasa, con personajes y una historia. <mark>Es como contar una anécdota, pero por escrito</mark>. Tiene un principio, un desarrollo y un final."
+      "respuesta": "Es un texto que cuenta algo que pasa, con personajes y una historia. <mark>Es como contar una anécdota, pero por escrito</mark>. Tiene un principio, un desarrollo y un final.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/texto-narrativo.jpg",
+        "alt": "Libros ilustrados que cuentan historias",
+        "titulo": "Picture Books",
+        "autor": "Enokson",
+        "fuente": "https://www.flickr.com/photos/47823583@N03/4385119849",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un texto descriptivo?",
-      "respuesta": "Es un texto que explica cómo es algo o alguien, sin contar una historia. <mark>Es como pintar con palabras en vez de con pincel</mark>. Describe colores, formas, tamaños o características."
+      "respuesta": "Es un texto que explica cómo es algo o alguien, sin contar una historia. <mark>Es como pintar con palabras en vez de con pincel</mark>. Describe colores, formas, tamaños o características.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/texto-descriptivo.jpg",
+        "alt": "Material de pintura para describir con colores",
+        "titulo": "Art Supplies",
+        "autor": "Mustang Joe",
+        "fuente": "https://www.flickr.com/photos/63234672@N04/9308106346",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es un texto instructivo?",
-      "respuesta": "Es un texto que explica cómo hacer algo, paso a paso. <mark>Es como una receta: primero esto, después esto otro</mark>. Debe ser claro y ordenado para que se pueda seguir sin dudas."
+      "respuesta": "Es un texto que explica cómo hacer algo, paso a paso. <mark>Es como una receta: primero esto, después esto otro</mark>. Debe ser claro y ordenado para que se pueda seguir sin dudas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/receta-libro-cocina.jpg",
+        "alt": "Un libro de recetas de cocina",
+        "titulo": "Vintage Cookbooks - Feasts For All Seasons - Roy Andries De Groot",
+        "autor": "GranniesKitchen",
+        "fuente": "https://www.flickr.com/photos/47600671@N04/4405834014",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿En qué se diferencian un texto narrativo y uno descriptivo?",
-      "respuesta": "El narrativo cuenta qué pasa; el descriptivo explica cómo es algo. <mark>Uno avanza en el tiempo; el otro se detiene a observar</mark>. Muchos textos combinan ambos tipos a la vez."
+      "respuesta": "El narrativo cuenta qué pasa; el descriptivo explica cómo es algo. <mark>Uno avanza en el tiempo; el otro se detiene a observar</mark>. Muchos textos combinan ambos tipos a la vez.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/narrativo-descriptivo.jpg",
+        "alt": "Una persona leyendo un libro por la tarde",
+        "titulo": "Evening Read",
+        "autor": "ShardsOfBlue",
+        "fuente": "https://www.flickr.com/photos/9350569@N08/5536312603",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante seguir bien el orden de un texto instructivo?",
-      "respuesta": "Porque saltarse un paso puede hacer que el resultado salga mal. <mark>Es como montar un mueble sin seguir el orden del manual</mark>. Cada paso suele depender del anterior."
+      "respuesta": "Porque saltarse un paso puede hacer que el resultado salga mal. <mark>Es como montar un mueble sin seguir el orden del manual</mark>. Cada paso suele depender del anterior.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/orden-instructivo.jpg",
+        "alt": "Alguien montando un mueble siguiendo las instrucciones",
+        "titulo": "Week 18 - Weight - Building IKEA Furniture",
+        "autor": "Wilson Hui",
+        "fuente": "https://www.flickr.com/photos/51942038@N04/49111787333",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es leer de forma comprensiva?",
-      "respuesta": "Es leer entendiendo el significado, no solo pasando la vista por las palabras. <mark>Es la diferencia entre mirar un texto y entenderlo de verdad</mark>. Ayuda a poder explicar después lo que has leído."
+      "respuesta": "Es leer entendiendo el significado, no solo pasando la vista por las palabras. <mark>Es la diferencia entre mirar un texto y entenderlo de verdad</mark>. Ayuda a poder explicar después lo que has leído.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/lectura-comprensiva.jpg",
+        "alt": "Un hombre concentrado leyendo un libro",
+        "titulo": "A man stands by a large window in an abandoned building, deeply focused on reading a book",
+        "autor": "nenad53",
+        "fuente": "https://www.flickr.com/photos/202780880@N02/54570093034",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es útil resumir un texto después de leerlo?",
-      "respuesta": "Porque ayuda a comprobar si realmente lo has entendido. <mark>Es como repetir con tus palabras lo que acabas de escuchar, para asegurarte</mark>. Si no puedes resumirlo, quizá haga falta volver a leerlo."
+      "respuesta": "Porque ayuda a comprobar si realmente lo has entendido. <mark>Es como repetir con tus palabras lo que acabas de escuchar, para asegurarte</mark>. Si no puedes resumirlo, quizá haga falta volver a leerlo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/resumir-texto.jpg",
+        "alt": "Una carta escrita a mano con notas",
+        "titulo": "Herman Melville to Alexander W. Bradford [Page 3]",
+        "autor": "Boston Public Library",
+        "fuente": "https://www.flickr.com/photos/24029425@N06/4404529160",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué tienen en común un texto narrativo, uno descriptivo y uno instructivo?",
-      "respuesta": "Los tres transmiten información, pero de formas distintas y con objetivos distintos. <mark>Es como usar diferentes herramientas según lo que necesites hacer</mark>. Conocerlos ayuda a leer y a escribir mejor."
+      "respuesta": "Los tres transmiten información, pero de formas distintas y con objetivos distintos. <mark>Es como usar diferentes herramientas según lo que necesites hacer</mark>. Conocerlos ayuda a leer y a escribir mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/tres-tipos-texto.jpg",
+        "alt": "Un banco de trabajo con distintas herramientas",
+        "titulo": "The Workbench",
+        "autor": "Phil Gradwell",
+        "fuente": "https://www.flickr.com/photos/73228447@N02/15225483531",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante saber identificar qué tipo de texto estás leyendo?",
-      "respuesta": "Porque cada tipo se lee de una forma distinta y busca algo diferente. <mark>No lees igual una receta que un cuento</mark>. Reconocer el tipo de texto ayuda a saber qué información buscar."
+      "respuesta": "Porque cada tipo se lee de una forma distinta y busca algo diferente. <mark>No lees igual una receta que un cuento</mark>. Reconocer el tipo de texto ayuda a saber qué información buscar.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/identificar-tipo-texto.webp",
+        "alt": "Dos pilas de libros diferentes una junto a la otra",
+        "titulo": "Two stacks of books next to each other",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4324253901",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene el emisor en la comunicación escrita?",
-      "respuesta": "Es quien decide qué escribir y cómo transmitirlo con claridad. <mark>Es la persona que 'arranca' el proceso de comunicación</mark>. Si no se explica bien, el receptor puede malinterpretar el mensaje."
+      "respuesta": "Es quien decide qué escribir y cómo transmitirlo con claridad. <mark>Es la persona que 'arranca' el proceso de comunicación</mark>. Si no se explica bien, el receptor puede malinterpretar el mensaje.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/emisor.jpg",
+        "alt": "Una mano escribiendo con un bolígrafo sobre papel",
+        "titulo": "Pen to Paper",
+        "autor": "Orin Zebest",
+        "fuente": "https://www.flickr.com/photos/33917831@N00/1574578248",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel tiene el receptor en la comunicación?",
-      "respuesta": "Es quien recibe e interpreta el mensaje enviado. <mark>Es la otra mitad necesaria para que la comunicación se complete</mark>. Si no entiende bien, el mensaje no ha cumplido su función."
+      "respuesta": "Es quien recibe e interpreta el mensaje enviado. <mark>Es la otra mitad necesaria para que la comunicación se complete</mark>. Si no entiende bien, el mensaje no ha cumplido su función.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/receptor.jpg",
+        "alt": "Una persona leyendo una carta que ha recibido",
+        "titulo": "A Brown University Lovecraft CD Acknowledgment Letter Received 08-Nov-2013",
+        "autor": "CthulhuWho1 (Will Hart)",
+        "fuente": "https://www.flickr.com/photos/41340252@N08/10805392594",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que leer y escribir bien ayuda en cualquier trabajo?",
-      "respuesta": "Porque casi cualquier tarea implica entender documentos o escribir mensajes claros. <mark>Es una herramienta que se usa en casi cualquier puesto de trabajo</mark>. Un error de comprensión puede causar problemas serios."
+      "respuesta": "Porque casi cualquier tarea implica entender documentos o escribir mensajes claros. <mark>Es una herramienta que se usa en casi cualquier puesto de trabajo</mark>. Un error de comprensión puede causar problemas serios.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/leer-escribir-trabajo.jpg",
+        "alt": "Papeles y documentos de oficina",
+        "titulo": "paperwork mixup",
+        "autor": "Robert Couse-Baker",
+        "fuente": "https://www.flickr.com/photos/29233640@N07/9590785264",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

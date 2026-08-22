@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué estudia la geografía de la población?",
-      "respuesta": "Estudia cuánta gente vive en un lugar y cómo se distribuye. <mark>Es como hacer un mapa de dónde vive la gente y por qué</mark>. También analiza cómo cambia esa población con el tiempo. Nacimientos, muertes y migraciones forman parte de ese estudio."
+      "respuesta": "Estudia cuánta gente vive en un lugar y cómo se distribuye. <mark>Es como hacer un mapa de dónde vive la gente y por qué</mark>. También analiza cómo cambia esa población con el tiempo. Nacimientos, muertes y migraciones forman parte de ese estudio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/mapa-poblacion-mundial.jpg",
+        "alt": "Un mapa del mundo que muestra cómo se distribuye la población",
+        "titulo": "population world map",
+        "autor": "upyernoz",
+        "fuente": "https://www.flickr.com/photos/48600082269@N01/72625932",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la población mundial no se reparte de forma uniforme?",
-      "respuesta": "Porque el clima, el relieve y los recursos no son iguales en todas partes. <mark>La gente tiende a vivir donde hay agua, tierra fértil y buen clima</mark>. Por eso hay zonas muy pobladas y otras casi vacías. Los desiertos o los polos tienen muy poca población."
+      "respuesta": "Porque el clima, el relieve y los recursos no son iguales en todas partes. <mark>La gente tiende a vivir donde hay agua, tierra fértil y buen clima</mark>. Por eso hay zonas muy pobladas y otras casi vacías. Los desiertos o los polos tienen muy poca población.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/mapa-continentes.jpg",
+        "alt": "Mapa de los continentes del mundo",
+        "titulo": "Location Map of the 7 Continents Of the World",
+        "autor": "BlatantWorld.com",
+        "fuente": "https://www.flickr.com/photos/45150779@N04/5052373414",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los movimientos naturales de la población?",
-      "respuesta": "Son los nacimientos y las muertes de un lugar durante un tiempo. <mark>Es el balance de entradas y salidas de personas, sin que nadie se mueva de sitio</mark>. Si nacen más personas de las que mueren, la población crece. Ese balance se llama crecimiento natural."
+      "respuesta": "Son los nacimientos y las muertes de un lugar durante un tiempo. <mark>Es el balance de entradas y salidas de personas, sin que nadie se mueva de sitio</mark>. Si nacen más personas de las que mueren, la población crece. Ese balance se llama crecimiento natural.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/bebe-recien-nacido.jpg",
+        "alt": "Un bebé recién nacido, ejemplo de un nacimiento",
+        "titulo": "Amelia and Milo",
+        "autor": "donnierayjones",
+        "fuente": "https://www.flickr.com/photos/11946169@N00/27297100433",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los movimientos migratorios?",
-      "respuesta": "Son los desplazamientos de personas de un lugar a otro para vivir. <mark>Es como una mudanza, pero a veces cruzando fronteras enteras</mark>. Pueden ser dentro de un mismo país o entre países distintos. Las personas emigran buscando trabajo, seguridad o una vida mejor."
+      "respuesta": "Son los desplazamientos de personas de un lugar a otro para vivir. <mark>Es como una mudanza, pero a veces cruzando fronteras enteras</mark>. Pueden ser dentro de un mismo país o entre países distintos. Las personas emigran buscando trabajo, seguridad o una vida mejor.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/maleta-inmigracion.jpg",
+        "alt": "Una maleta antigua, símbolo de las personas que emigran a otro lugar",
+        "titulo": "Angel Island Suitcase",
+        "autor": "Roger Wagner",
+        "fuente": "https://www.flickr.com/photos/10135618@N05/4535556965",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una pirámide de población?",
-      "respuesta": "Es un gráfico que muestra cuánta gente hay de cada edad y sexo. <mark>Se llama pirámide porque su forma cambia según si un país envejece o crece</mark>. Ayuda a saber si un país tiene mucha población joven o mayor. Los gobiernos la usan para planificar colegios u hospitales."
+      "respuesta": "Es un gráfico que muestra cuánta gente hay de cada edad y sexo. <mark>Se llama pirámide porque su forma cambia según si un país envejece o crece</mark>. Ayuda a saber si un país tiene mucha población joven o mayor. Los gobiernos la usan para planificar colegios u hospitales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/piramide-poblacion.jpg",
+        "alt": "Una pirámide de población que muestra cuántas personas hay de cada edad",
+        "titulo": "Buddhist population pyramid in India (2011)",
+        "autor": "Centre for Policy Studies",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=158151906",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Cómo ha cambiado la población de España en las últimas décadas?",
-      "respuesta": "España ha envejecido: cada vez hay menos nacimientos y más personas mayores. <mark>Es como una pirámide que, poco a poco, se ensancha por arriba</mark>. También ha recibido personas migrantes de muchos países. Ambos cambios afectan a cómo se organiza la sociedad española."
+      "respuesta": "España ha envejecido: cada vez hay menos nacimientos y más personas mayores. <mark>Es como una pirámide que, poco a poco, se ensancha por arriba</mark>. También ha recibido personas migrantes de muchos países. Ambos cambios afectan a cómo se organiza la sociedad española.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/pueblo-aereo-espana.jpg",
+        "alt": "Vista aérea de un pueblo español",
+        "titulo": "Rascafría, aéreas (1993) 28",
+        "autor": "LBM1948",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=126748408",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es la despoblación rural?",
-      "respuesta": "Es cuando los pueblos pequeños pierden habitantes año tras año. <mark>Es como un pueblo que se va vaciando poco a poco, casa a casa</mark>. Suele ocurrir porque los jóvenes se van a las ciudades a estudiar o trabajar. En España, muchas zonas rurales viven ese problema hoy."
+      "respuesta": "Es cuando los pueblos pequeños pierden habitantes año tras año. <mark>Es como un pueblo que se va vaciando poco a poco, casa a casa</mark>. Suele ocurrir porque los jóvenes se van a las ciudades a estudiar o trabajar. En España, muchas zonas rurales viven ese problema hoy.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/pueblo-abandonado.jpg",
+        "alt": "Un pueblo español abandonado por la despoblación rural",
+        "titulo": "Abandoned Spanish village",
+        "autor": "M McBey",
+        "fuente": "https://www.flickr.com/photos/158652122@N02/49111034892",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un hábitat humano?",
-      "respuesta": "Es la forma en que un grupo de personas organiza su vivienda y su entorno. <mark>Puede ser disperso, como caseríos separados, o concentrado, como un pueblo compacto</mark>. Depende del clima, el relieve y las costumbres de cada zona. Cada hábitat responde a necesidades distintas."
+      "respuesta": "Es la forma en que un grupo de personas organiza su vivienda y su entorno. <mark>Puede ser disperso, como caseríos separados, o concentrado, como un pueblo compacto</mark>. Depende del clima, el relieve y las costumbres de cada zona. Cada hábitat responde a necesidades distintas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/calle-multitud.jpg",
+        "alt": "Una calle llena de gente en una ciudad",
+        "titulo": "Crowded",
+        "autor": "oatsy40",
+        "fuente": "https://www.flickr.com/photos/68089229@N06/11154361593",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el plano de una ciudad?",
-      "respuesta": "Es la forma en que están organizadas sus calles vistas desde arriba. <mark>Puede parecerse a un tablero de ajedrez o a una tela de araña</mark>. El plano en cuadrícula tiene calles rectas que se cruzan en ángulo recto. El plano radial tiene calles que salen desde un centro."
+      "respuesta": "Es la forma en que están organizadas sus calles vistas desde arriba. <mark>Puede parecerse a un tablero de ajedrez o a una tela de araña</mark>. El plano en cuadrícula tiene calles rectas que se cruzan en ángulo recto. El plano radial tiene calles que salen desde un centro.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/mapa-ciudad.jpg",
+        "alt": "El plano de las calles de una ciudad",
+        "titulo": "Map of San Francisco, California",
+        "autor": "Ken Lund",
+        "fuente": "https://www.flickr.com/photos/75683070@N00/10753813465",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la jerarquía urbana?",
-      "respuesta": "Es el orden de las ciudades según su tamaño e importancia. <mark>Es como una escalera, con aldeas abajo y grandes metrópolis arriba</mark>. Una gran ciudad ofrece más servicios que un pueblo pequeño. Por eso atrae a gente de los pueblos cercanos."
+      "respuesta": "Es el orden de las ciudades según su tamaño e importancia. <mark>Es como una escalera, con aldeas abajo y grandes metrópolis arriba</mark>. Una gran ciudad ofrece más servicios que un pueblo pequeño. Por eso atrae a gente de los pueblos cercanos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/mapa-ciudad.jpg",
+        "alt": "Un mapa con el plano de las calles de una ciudad",
+        "titulo": "Mapa de Oporto",
+        "autor": "jlastras",
+        "fuente": "https://www.flickr.com/photos/22662305@N04/2929146460",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cuáles son algunas de las ciudades más grandes de España?",
-      "respuesta": "Madrid y Barcelona son las dos ciudades más pobladas. <mark>Concentran una parte enorme de la actividad económica del país</mark>. También destacan Valencia, Sevilla y otras capitales de provincia. Cada una organiza servicios para su propia región."
+      "respuesta": "Madrid y Barcelona son las dos ciudades más pobladas. <mark>Concentran una parte enorme de la actividad económica del país</mark>. También destacan Valencia, Sevilla y otras capitales de provincia. Cada una organiza servicios para su propia región.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/madrid-gran-via.jpg",
+        "alt": "La Gran Vía de Madrid, una de las ciudades más grandes de España",
+        "titulo": "Madrid, Gran Via",
+        "autor": "edmenendez",
+        "fuente": "https://www.flickr.com/photos/26256981@N04/3283309665",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa que una ciudad sea un espacio de convivencia?",
-      "respuesta": "Significa que en ella conviven personas muy distintas entre sí. <mark>Una ciudad reúne edades, culturas y formas de vida en un mismo espacio</mark>. Parques, plazas y transporte público ayudan a esa convivencia. Diseñar bien esos espacios mejora la vida de todos."
+      "respuesta": "Significa que en ella conviven personas muy distintas entre sí. <mark>Una ciudad reúne edades, culturas y formas de vida en un mismo espacio</mark>. Parques, plazas y transporte público ayudan a esa convivencia. Diseñar bien esos espacios mejora la vida de todos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/plaza-santa-ana.jpg",
+        "alt": "Una plaza de ciudad llena de personas conviviendo",
+        "titulo": "Plaza de Santa Ana, Madrid",
+        "autor": "Edgardo W. Olivera",
+        "fuente": "https://www.flickr.com/photos/124137421@N04/26159833570",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué retos tiene hoy el desarrollo urbano sostenible?",
-      "respuesta": "Reducir la contaminación, mejorar el transporte y cuidar los espacios verdes. <mark>Es como intentar que una ciudad crezca sin perder la calidad de vida</mark>. Las ciudades consumen muchos recursos y generan mucha basura. Por eso se buscan soluciones más sostenibles para vivir en ellas."
+      "respuesta": "Reducir la contaminación, mejorar el transporte y cuidar los espacios verdes. <mark>Es como intentar que una ciudad crezca sin perder la calidad de vida</mark>. Las ciudades consumen muchos recursos y generan mucha basura. Por eso se buscan soluciones más sostenibles para vivir en ellas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/ciudad-sostenible.jpg",
+        "alt": "Una casa con techo verde, ejemplo de construcción sostenible",
+        "titulo": "Green house",
+        "autor": "Terry Wha",
+        "fuente": "https://www.flickr.com/photos/24592131@N00/394640345",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué crecen tanto las grandes ciudades del mundo hoy en día?",
-      "respuesta": "Porque ofrecen trabajo, estudios y servicios que faltan en zonas rurales. <mark>Actúan como un imán que atrae a personas desde muy lejos</mark>. Ese crecimiento rápido también trae problemas, como la falta de vivienda. Entender ese proceso ayuda a planificar mejor las ciudades del futuro."
+      "respuesta": "Porque ofrecen trabajo, estudios y servicios que faltan en zonas rurales. <mark>Actúan como un imán que atrae a personas desde muy lejos</mark>. Ese crecimiento rápido también trae problemas, como la falta de vivienda. Entender ese proceso ayuda a planificar mejor las ciudades del futuro.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_geografia-historia/rascacielos-skyline.jpg",
+        "alt": "Los rascacielos de una gran ciudad",
+        "titulo": "'New York Skyline 2'",
+        "autor": "thenails",
+        "fuente": "https://www.flickr.com/photos/34891526@N03/3406263467",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

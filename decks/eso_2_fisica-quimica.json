@@ -5,51 +5,147 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es el método científico?",
-      "respuesta": "Es la forma ordenada de investigar que siguen los científicos. <mark>Es como seguir una receta de pasos para no perderte al investigar</mark>. Incluye observar, formular hipótesis, experimentar y sacar conclusiones. Gracias a él, la ciencia avanza de forma fiable y comprobable."
+      "respuesta": "Es la forma ordenada de investigar que siguen los científicos. <mark>Es como seguir una receta de pasos para no perderte al investigar</mark>. Incluye observar, formular hipótesis, experimentar y sacar conclusiones. Gracias a él, la ciencia avanza de forma fiable y comprobable.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/metodo-cientifico-diagrama.svg",
+        "alt": "Diagrama circular con los pasos del método científico",
+        "titulo": "The Scientific Method",
+        "autor": "Efbrazil",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=102392470",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué material básico se usa en un laboratorio de ciencias?",
-      "respuesta": "Tubos de ensayo, vasos de precipitados, probetas y mecheros, entre otros. <mark>Cada instrumento está diseñado para una tarea concreta, como medir o calentar</mark>. Usar el material correcto evita errores y accidentes. Aprender a identificarlo es el primer paso antes de experimentar."
+      "respuesta": "Tubos de ensayo, vasos de precipitados, probetas y mecheros, entre otros. <mark>Cada instrumento está diseñado para una tarea concreta, como medir o calentar</mark>. Usar el material correcto evita errores y accidentes. Aprender a identificarlo es el primer paso antes de experimentar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/experimentos-laboratorio.jpg",
+        "alt": "Material de laboratorio, como tubos de ensayo y frascos",
+        "titulo": "Experimentos",
+        "autor": "phylevn",
+        "fuente": "https://www.flickr.com/photos/56262362@N00/3138864940",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué son importantes las normas de seguridad en un laboratorio?",
-      "respuesta": "Porque muchos experimentos usan sustancias o instrumentos que pueden ser peligrosos. <mark>Es como seguir las normas de tráfico para evitar accidentes al conducir</mark>. Usar gafas, guantes o bata protege frente a posibles riesgos. Seguirlas convierte un experimento en algo seguro."
+      "respuesta": "Porque muchos experimentos usan sustancias o instrumentos que pueden ser peligrosos. <mark>Es como seguir las normas de tráfico para evitar accidentes al conducir</mark>. Usar gafas, guantes o bata protege frente a posibles riesgos. Seguirlas convierte un experimento en algo seguro.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/gafas-proteccion-laboratorio.jpg",
+        "alt": "Gafas de protección azules usadas en el laboratorio",
+        "titulo": "Laboratory protection goggles-blue",
+        "autor": "Lilly_M",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=13199737",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve el etiquetado de los productos químicos?",
-      "respuesta": "Informa sobre los riesgos y el uso correcto de cada sustancia. <mark>Es como leer las instrucciones de un medicamento antes de tomarlo</mark>. Incluye símbolos que avisan si algo es inflamable, tóxico o corrosivo. Leer bien una etiqueta puede evitar accidentes graves."
+      "respuesta": "Informa sobre los riesgos y el uso correcto de cada sustancia. <mark>Es como leer las instrucciones de un medicamento antes de tomarlo</mark>. Incluye símbolos que avisan si algo es inflamable, tóxico o corrosivo. Leer bien una etiqueta puede evitar accidentes graves.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/etiqueta-peligro-quimico.jpg",
+        "alt": "Etiqueta con el símbolo de sustancia peligrosa para el medio ambiente",
+        "titulo": "Environmentally hazardous substance–IMG 6878",
+        "autor": "Kızıl",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=165039834",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es una magnitud física?",
-      "respuesta": "Es cualquier propiedad que se puede medir, como la longitud o la masa. <mark>Es como cualquier característica de algo que puedas expresar con un número y una unidad</mark>. Cada magnitud se mide con una unidad concreta. Sin unidades, un número por sí solo no dice nada útil."
+      "respuesta": "Es cualquier propiedad que se puede medir, como la longitud o la masa. <mark>Es como cualquier característica de algo que puedas expresar con un número y una unidad</mark>. Cada magnitud se mide con una unidad concreta. Sin unidades, un número por sí solo no dice nada útil.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/cinta-metrica-medir.jpg",
+        "alt": "Una cinta métrica midiendo una longitud",
+        "titulo": "Frank, July 27, 2011 - measure_tape",
+        "autor": "pat00139",
+        "fuente": "https://www.flickr.com/photos/59836631@N06/5983796116",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el Sistema Internacional de Unidades?",
-      "respuesta": "Es el conjunto de unidades de medida aceptado en casi todo el mundo. <mark>Es como un idioma común para que los científicos se entiendan entre países</mark>. Incluye el metro, el kilogramo o el segundo, entre otras. Usarlo evita confusiones al compartir resultados."
+      "respuesta": "Es el conjunto de unidades de medida aceptado en casi todo el mundo. <mark>Es como un idioma común para que los científicos se entiendan entre países</mark>. Incluye el metro, el kilogramo o el segundo, entre otras. Usarlo evita confusiones al compartir resultados.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/sistema-internacional-unidades.svg",
+        "alt": "Esquema con las siete unidades básicas del Sistema Internacional",
+        "titulo": "SI base units",
+        "autor": "User:DePiep",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=40298951",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante saber cambiar de unidades?",
-      "respuesta": "Porque a veces los datos vienen en unidades distintas a las que necesitamos. <mark>Es como convertir euros a otra moneda antes de poder comparar precios</mark>. Un cambio de unidades mal hecho puede arruinar todo un cálculo. Por eso se practica con cuidado, paso a paso."
+      "respuesta": "Porque a veces los datos vienen en unidades distintas a las que necesitamos. <mark>Es como convertir euros a otra moneda antes de poder comparar precios</mark>. Un cambio de unidades mal hecho puede arruinar todo un cálculo. Por eso se practica con cuidado, paso a paso.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/cambio-divisas-monedas.jpg",
+        "alt": "Billetes y monedas de distintas divisas para cambiar de una a otra",
+        "titulo": "Currency Exchange",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5857220614",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Para qué sirve representar resultados en una gráfica?",
-      "respuesta": "Ayuda a ver de un vistazo cómo cambian los datos de un experimento. <mark>Es como convertir una lista de números en un dibujo fácil de entender</mark>. Permite detectar patrones difíciles de ver en una tabla. Por eso las gráficas son tan usadas en informes científicos."
+      "respuesta": "Ayuda a ver de un vistazo cómo cambian los datos de un experimento. <mark>Es como convertir una lista de números en un dibujo fácil de entender</mark>. Permite detectar patrones difíciles de ver en una tabla. Por eso las gráficas son tan usadas en informes científicos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/grafica-lineas-datos.jpg",
+        "alt": "Gráfica de líneas mostrando la evolución de varios datos",
+        "titulo": "STACKED LINE GRAPH",
+        "autor": "Lauren Manning",
+        "fuente": "https://www.flickr.com/photos/28541331@N00/5659021847",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un proyecto de investigación sencillo?",
-      "respuesta": "Es un pequeño trabajo científico donde se plantea una pregunta y se busca responderla. <mark>Es como un experimento en miniatura, con sus propios pasos y conclusiones</mark>. Ayuda a practicar el método científico de forma guiada. Es una buena forma de aprender ciencia haciendo."
+      "respuesta": "Es un pequeño trabajo científico donde se plantea una pregunta y se busca responderla. <mark>Es como un experimento en miniatura, con sus propios pasos y conclusiones</mark>. Ayuda a practicar el método científico de forma guiada. Es una buena forma de aprender ciencia haciendo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/feria-ciencias-estudiantes.jpg",
+        "alt": "Estudiantes presentando su proyecto en una feria de ciencias",
+        "titulo": "NRC Honors Montgomery County Science Fair Students in Rockville, Md.",
+        "autor": "NRCgov",
+        "fuente": "https://www.flickr.com/photos/69383258@N08/13537297114",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante reciclar los residuos de un laboratorio?",
-      "respuesta": "Porque muchas sustancias usadas en experimentos pueden ser contaminantes. <mark>Tirarlas sin cuidado sería como verter basura directamente a un río</mark>. Cada tipo de residuo necesita un tratamiento distinto y seguro. Reciclarlos protege a las personas y al medio ambiente."
+      "respuesta": "Porque muchas sustancias usadas en experimentos pueden ser contaminantes. <mark>Tirarlas sin cuidado sería como verter basura directamente a un río</mark>. Cada tipo de residuo necesita un tratamiento distinto y seguro. Reciclarlos protege a las personas y al medio ambiente.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/simbolo-reciclaje.jpg",
+        "alt": "Símbolo de reciclaje estampado sobre cartón",
+        "titulo": "Recycle symbol stamped on cardboard",
+        "autor": "Creativity103",
+        "fuente": "https://www.flickr.com/photos/36894712@N04/25094993191",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante valorar el papel de los científicos en la historia?",
-      "respuesta": "Porque muchos avances actuales se apoyan en descubrimientos de hace siglos. <mark>Es como reconocer a quien puso el primer ladrillo de un edificio que seguimos usando</mark>. Conocer su trabajo ayuda a entender cómo avanza realmente la ciencia."
+      "respuesta": "Porque muchos avances actuales se apoyan en descubrimientos de hace siglos. <mark>Es como reconocer a quien puso el primer ladrillo de un edificio que seguimos usando</mark>. Conocer su trabajo ayuda a entender cómo avanza realmente la ciencia.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/isaac-newton-retrato.jpg",
+        "alt": "Retrato clásico del científico Isaac Newton",
+        "titulo": "Isaac Newton Portrait",
+        "autor": "Art.Gallery",
+        "fuente": "https://www.flickr.com/photos/146447419@N08/39961593764",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre una medida directa y una medida indirecta?",
-      "respuesta": "Una medida directa se obtiene usando un instrumento, como una regla. <mark>Una medida indirecta se calcula a partir de otras medidas, sin medir directamente</mark>. Por ejemplo, medir la velocidad calculando distancia y tiempo. Ambas son útiles según lo que se quiera averiguar."
+      "respuesta": "Una medida directa se obtiene usando un instrumento, como una regla. <mark>Una medida indirecta se calcula a partir de otras medidas, sin medir directamente</mark>. Por ejemplo, medir la velocidad calculando distancia y tiempo. Ambas son útiles según lo que se quiera averiguar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica/cronometro-medir-tiempo.jpg",
+        "alt": "Un cronómetro usado para medir el tiempo",
+        "titulo": "Stopwatch",
+        "autor": "wwarby",
+        "fuente": "https://www.flickr.com/photos/26782864@N00/3297205226",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

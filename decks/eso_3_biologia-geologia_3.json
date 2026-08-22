@@ -5,59 +5,171 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la función de relación en el cuerpo humano?",
-      "respuesta": "Es la capacidad de percibir lo que ocurre alrededor y responder a ello. <mark>Es como el sistema de alarma y respuesta de todo el cuerpo</mark>. Permite reaccionar ante peligros, estímulos o cambios del entorno. Sin ella, no podríamos adaptarnos a lo que pasa a nuestro alrededor."
+      "respuesta": "Es la capacidad de percibir lo que ocurre alrededor y responder a ello. <mark>Es como el sistema de alarma y respuesta de todo el cuerpo</mark>. Permite reaccionar ante peligros, estímulos o cambios del entorno. Sin ella, no podríamos adaptarnos a lo que pasa a nuestro alrededor.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mapeo-sensorial.jpg",
+        "alt": "Un mapa de las zonas sensoriales del cuerpo humano",
+        "titulo": "Sensory Mapping",
+        "autor": "colindunn",
+        "fuente": "https://www.flickr.com/photos/31192024@N05/5161722984",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un receptor sensorial?",
-      "respuesta": "Es una estructura del cuerpo que detecta estímulos del entorno. <mark>Es como una antena que capta señales de luz, sonido o temperatura</mark>. Los ojos, los oídos y la piel contienen receptores sensoriales. Cada tipo está especializado en un tipo distinto de información."
+      "respuesta": "Es una estructura del cuerpo que detecta estímulos del entorno. <mark>Es como una antena que capta señales de luz, sonido o temperatura</mark>. Los ojos, los oídos y la piel contienen receptores sensoriales. Cada tipo está especializado en un tipo distinto de información.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/ojo-primer-plano.jpg",
+        "alt": "Primer plano de un ojo humano, un receptor sensorial",
+        "titulo": "August 27, 2016",
+        "autor": "osseous",
+        "fuente": "https://www.flickr.com/photos/10787737@N02/29808987284",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hace el sistema nervioso?",
-      "respuesta": "Recibe información de los receptores y decide cómo responder. <mark>Es como el centro de mando que procesa órdenes y las envía al resto del cuerpo</mark>. Incluye el cerebro, la médula espinal y los nervios. Coordina prácticamente todas las funciones del organismo."
+      "respuesta": "Recibe información de los receptores y decide cómo responder. <mark>Es como el centro de mando que procesa órdenes y las envía al resto del cuerpo</mark>. Incluye el cerebro, la médula espinal y los nervios. Coordina prácticamente todas las funciones del organismo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-ilustracion.jpg",
+        "alt": "Ilustración del cerebro humano, centro del sistema nervioso",
+        "titulo": "pg 226 Our Brain",
+        "autor": "perpetualplum",
+        "fuente": "https://www.flickr.com/photos/14277117@N03/3995210073",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un órgano efector?",
-      "respuesta": "Es la parte del cuerpo que ejecuta la respuesta decidida por el sistema nervioso. <mark>Es como el trabajador que cumple la orden que le llega desde arriba</mark>. Los músculos y las glándulas son ejemplos de órganos efectores. Sin ellos, las órdenes del cerebro no se convertirían en acción."
+      "respuesta": "Es la parte del cuerpo que ejecuta la respuesta decidida por el sistema nervioso. <mark>Es como el trabajador que cumple la orden que le llega desde arriba</mark>. Los músculos y las glándulas son ejemplos de órganos efectores. Sin ellos, las órdenes del cerebro no se convertirían en acción.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/corredor-musculos.jpg",
+        "alt": "Un atleta corriendo, con los músculos de las piernas en acción",
+        "titulo": "Usain Bolt at Brunel University",
+        "autor": "Brunel University London",
+        "fuente": "https://www.flickr.com/photos/31586239@N02/3794966980",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se conecta la percepción con la respuesta del cuerpo?",
-      "respuesta": "Un receptor detecta el estímulo, el sistema nervioso lo procesa y un efector responde. <mark>Es como recibir una llamada, decidir qué hacer y actuar en consecuencia</mark>. Ese proceso puede ocurrir en una fracción de segundo. Así reaccionamos rápido ante situaciones inesperadas."
+      "respuesta": "Un receptor detecta el estímulo, el sistema nervioso lo procesa y un efector responde. <mark>Es como recibir una llamada, decidir qué hacer y actuar en consecuencia</mark>. Ese proceso puede ocurrir en una fracción de segundo. Así reaccionamos rápido ante situaciones inesperadas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/reaccion-cadena.jpg",
+        "alt": "Fichas de dominó cayendo una tras otra, como una reacción en cadena",
+        "titulo": "chain reaction (cc)",
+        "autor": "marfis75",
+        "fuente": "https://www.flickr.com/photos/45409431@N00/14032923230",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué cambios físicos ocurren durante la adolescencia?",
-      "respuesta": "El cuerpo crece rápido y se desarrollan los caracteres sexuales. <mark>Es como una etapa de obras donde el cuerpo se transforma bastante rápido</mark>. Esos cambios están controlados por hormonas. Cada persona los vive a su propio ritmo, sin una norma exacta para todos."
+      "respuesta": "El cuerpo crece rápido y se desarrollan los caracteres sexuales. <mark>Es como una etapa de obras donde el cuerpo se transforma bastante rápido</mark>. Esos cambios están controlados por hormonas. Cada persona los vive a su propio ritmo, sin una norma exacta para todos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-metamorfosis.jpg",
+        "alt": "El ciclo de vida de una mariposa, con sus cambios de forma",
+        "titulo": "Harlequin Butterfly Life Cycle / Mariposa arlequín",
+        "autor": "USFWS/Southeast",
+        "fuente": "https://www.flickr.com/photos/41464593@N02/5840511508",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué cambios psíquicos y emocionales son frecuentes en la adolescencia?",
-      "respuesta": "Aumentan la búsqueda de identidad propia y los cambios de humor. <mark>Es habitual sentir emociones intensas mientras el cuerpo y la mente van cambiando</mark>. También crece la necesidad de independencia respecto a la familia. Son cambios normales de un desarrollo natural."
+      "respuesta": "Aumentan la búsqueda de identidad propia y los cambios de humor. <mark>Es habitual sentir emociones intensas mientras el cuerpo y la mente van cambiando</mark>. También crece la necesidad de independencia respecto a la familia. Son cambios normales de un desarrollo natural.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/adolescente-emociones.jpg",
+        "alt": "Una persona joven con cambios de humor",
+        "titulo": "Working with Moody Children",
+        "autor": "Nithi clicks",
+        "fuente": "https://www.flickr.com/photos/47850033@N08/45964471974",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué hace el aparato reproductor?",
-      "respuesta": "Permite que el cuerpo humano pueda tener descendencia. <mark>Es el aparato encargado de la reproducción, distinto entre hombres y mujeres</mark>. Se desarrolla y madura durante la adolescencia. Su funcionamiento está regulado también por hormonas."
+      "respuesta": "Permite que el cuerpo humano pueda tener descendencia. <mark>Es el aparato encargado de la reproducción, distinto entre hombres y mujeres</mark>. Se desarrolla y madura durante la adolescencia. Su funcionamiento está regulado también por hormonas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-monarca-ciclo.jpg",
+        "alt": "El ciclo de vida de una mariposa monarca, un ejemplo de reproducción y crecimiento en la naturaleza",
+        "titulo": "Monarch butterfly life cycle",
+        "autor": "hspauldi",
+        "fuente": "https://www.flickr.com/photos/99341324@N00/3180508066",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre las hormonas y los cambios de la adolescencia?",
-      "respuesta": "Las hormonas son mensajeras químicas que activan esos cambios en el cuerpo. <mark>Son como órdenes silenciosas que viajan por la sangre y dan instrucciones al cuerpo</mark>. Provocan el crecimiento, el desarrollo sexual y cambios de humor. Por eso se vive de forma tan intensa."
+      "respuesta": "Las hormonas son mensajeras químicas que activan esos cambios en el cuerpo. <mark>Son como órdenes silenciosas que viajan por la sangre y dan instrucciones al cuerpo</mark>. Provocan el crecimiento, el desarrollo sexual y cambios de humor. Por eso se vive de forma tan intensa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/molecula-hormona.png",
+        "alt": "El modelo de una molécula de hormona",
+        "titulo": "Melatonin molecule ball",
+        "autor": "Jynto",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=37803618",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Por qué es normal que los cambios de la adolescencia generen dudas o inseguridad?",
-      "respuesta": "Porque el cuerpo y la mente cambian más rápido que en otras etapas de la vida. <mark>Es como tener que aprender a manejar un cuerpo distinto casi cada año</mark>. Sentir dudas forma parte natural de ese proceso. Hablarlo con confianza ayuda a vivir esa etapa con tranquilidad."
+      "respuesta": "Porque el cuerpo y la mente cambian más rápido que en otras etapas de la vida. <mark>Es como tener que aprender a manejar un cuerpo distinto casi cada año</mark>. Sentir dudas forma parte natural de ese proceso. Hablarlo con confianza ayuda a vivir esa etapa con tranquilidad.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/adolescentes-grupo.jpg",
+        "alt": "Un grupo de adolescentes pasando tiempo juntos",
+        "titulo": "Grill Party",
+        "autor": "Harold R Cologne",
+        "fuente": "https://www.flickr.com/photos/94660722@N02/9068591263",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se relacionan la función de nutrición, la de relación y la de reproducción?",
-      "respuesta": "La nutrición aporta energía; la relación permite adaptarse; la reproducción, continuar la especie. <mark>Son tres funciones vitales que sostienen la vida de una persona y de la especie</mark>. Las tres funcionan de forma coordinada. Ninguna funcionaría bien sin las otras dos."
+      "respuesta": "La nutrición aporta energía; la relación permite adaptarse; la reproducción, continuar la especie. <mark>Son tres funciones vitales que sostienen la vida de una persona y de la especie</mark>. Las tres funcionan de forma coordinada. Ninguna funcionaría bien sin las otras dos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/celula-arte.jpg",
+        "alt": "Una representación artística de una célula del cuerpo",
+        "titulo": "The artistry of the cell spanning 50 years",
+        "autor": "Steve Jurvetson from Los Altos, USA",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=105132566",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué papel cumple el cerebro dentro del sistema nervioso?",
-      "respuesta": "Es el centro que procesa la información y toma la mayoría de decisiones del cuerpo. <mark>Es como el director de una orquesta, coordinando a todos los demás instrumentos</mark>. Controla desde movimientos voluntarios hasta pensamientos y emociones. Su funcionamiento sigue siendo objeto de estudio."
+      "respuesta": "Es el centro que procesa la información y toma la mayoría de decisiones del cuerpo. <mark>Es como el director de una orquesta, coordinando a todos los demás instrumentos</mark>. Controla desde movimientos voluntarios hasta pensamientos y emociones. Su funcionamiento sigue siendo objeto de estudio.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-modelo-cera.jpg",
+        "alt": "Un modelo antiguo de cera de un cerebro humano",
+        "titulo": "Modelo en cera de cerebro humano (casa Tramond, siglo XIX)",
+        "autor": "Littleara",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=59459633",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué es la médula espinal?",
-      "respuesta": "Es el cordón nervioso que conecta el cerebro con el resto del cuerpo. <mark>Es como el cable principal por el que viaja la información nerviosa</mark>. Va protegida dentro de la columna vertebral. También controla algunos reflejos rápidos, sin pasar antes por el cerebro."
+      "respuesta": "Es el cordón nervioso que conecta el cerebro con el resto del cuerpo. <mark>Es como el cable principal por el que viaja la información nerviosa</mark>. Va protegida dentro de la columna vertebral. También controla algunos reflejos rápidos, sin pasar antes por el cerebro.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/sistema-nervioso-dibujo.jpg",
+        "alt": "Dibujo antiguo del sistema nervioso central, con la médula espinal",
+        "titulo": "Central nervous system drawing circa 1900",
+        "autor": "Double--M",
+        "fuente": "https://www.flickr.com/photos/49879584@N00/5551033595",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un acto reflejo?",
-      "respuesta": "Es una respuesta automática y muy rápida ante un estímulo, sin pensarlo. <mark>Es como apartar la mano de algo caliente antes incluso de darte cuenta</mark>. La médula espinal puede generar esa respuesta sin esperar al cerebro. Sirve para proteger al cuerpo de peligros inmediatos."
+      "respuesta": "Es una respuesta automática y muy rápida ante un estímulo, sin pensarlo. <mark>Es como apartar la mano de algo caliente antes incluso de darte cuenta</mark>. La médula espinal puede generar esa respuesta sin esperar al cerebro. Sirve para proteger al cuerpo de peligros inmediatos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/domino-efecto.jpg",
+        "alt": "Fichas de dominó cayendo, como ejemplo de un acto reflejo automático",
+        "titulo": "domino effect (cc)",
+        "autor": "marfis75",
+        "fuente": "https://www.flickr.com/photos/45409431@N00/12741087104",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

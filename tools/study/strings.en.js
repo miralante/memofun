@@ -11,7 +11,12 @@ if (window.App.i18n) {
       doneTitle: "You've reviewed the whole deck!",
       transferPhrase: 'You now know a little more about {tema}.',
       studyAgain: '🔁 Study again',
-      backToHome: '🏠 Back to home'
+      backToHome: '🏠 Back to home',
+      photoBy: 'Photo',
+      finishPhrases: ["You've reviewed the whole deck!", "All done! Pick it up whenever you like.", "Nice work! Again whenever you feel like it."],
+      milestoneHalf: "You're halfway there!",
+      milestoneThreeQuarters: 'Almost there!',
+      starEarned: '+{n} ⭐'
     }
   }, 'en');
 }

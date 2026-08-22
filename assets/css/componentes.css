@@ -112,6 +112,7 @@ header.app-header .tagline {
 /* ---------- Stars ---------- */
 
 .stars {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -147,6 +148,45 @@ header.app-header .tagline {
   font-family: var(--font-display);
   font-weight: 800;
   font-size: var(--text-large);
+}
+
+/* Ephemeral "+1 ⭐" badge that pops out of the header stars chip when
+   a deck finishes, then floats up and fades. Anchored to the chip so
+   it visually "rises from" the counter; the chip itself re-renders the
+   new total via renderStars(). Hidden by default — showStarToast() in
+   tools/study/app.js toggles .show and removes the node after the
+   animation so it never stacks across repeats of the same deck. */
+.star-toast {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  padding: 4px 10px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--text-base);
+  color: #FFFFFF;
+  background: var(--color-success);
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(0) scale(0.6);
+  transition: none;
+}
+
+.star-toast.show {
+  animation: starToast 1.6s ease-out forwards;
+}
+
+@keyframes starToast {
+  0%   { opacity: 0; transform: translateY(0) scale(0.6); }
+  15%  { opacity: 1; transform: translateY(-6px) scale(1.1); }
+  35%  { transform: translateY(-14px) scale(1); }
+  100% { opacity: 0; transform: translateY(-46px) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .star-toast.show { animation: none; opacity: 1; transform: translateY(-6px); }
 }
 
 /* ---------- Buttons ---------- */
@@ -252,6 +292,25 @@ header.app-header .tagline {
   border-color: var(--accent);
   background: var(--accent-soft);
 }
+
+/* ---------- Locale invite (home, English UI only — see app.js localeInviteHtml) ---------- */
+
+.locale-invite {
+  border: 2px solid var(--accent-2);
+  background: var(--accent-2-soft);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.locale-invite p { margin: 0 0 var(--space-2); }
+
+.locale-invite-title {
+  font-size: var(--text-small);
+  font-weight: var(--weight-strong);
+}
+
+.locale-invite .btn { display: inline-block; }
 
 /* ---------- Deck grid ---------- */
 
@@ -362,6 +421,39 @@ header.app-header .tagline {
   font-size: 16px;
 }
 
+/* Invite-only subject card (English locale — no real decks). Same
+   .deck-card shell so the grid layout and a11y pattern match the rest
+   of the page, but no href on the wrapper, no hover transform, and
+   the CTA lives inside the card. */
+.deck-card.deck-card-invite {
+  cursor: default;
+  background: var(--accent-2-soft);
+  border-color: var(--accent-2);
+}
+
+.deck-card.deck-card-invite:hover {
+  border-color: var(--accent-2);
+  box-shadow: none;
+  transform: none;
+}
+
+.deck-card .deck-invite-cta {
+  margin-top: var(--space-1);
+}
+
+.deck-card .deck-invite-cta .btn {
+  display: inline-block;
+  font-size: var(--text-small);
+}
+
+/* Helper line above the subject grid on the EN curriculum — explains
+   what the invite cards mean without forcing the user into a modal. */
+.en-curriculum-help {
+  color: var(--color-text-soft);
+  font-size: var(--text-small);
+  margin: 0 0 var(--space-2);
+}
+
 .empty-state {
   text-align: center;
   color: var(--color-text-soft);
@@ -453,6 +545,21 @@ header.app-header .tagline {
    site-wide by prefers-reduced-motion. */
 .flashcard.flip-out { transform: scaleX(0); }
 
+/* Soft reveal feedback: when the answer appears, the border briefly
+   tints to the success colour and the card does a barely-perceptible
+   pulse (≤6% scale, ~480ms). Deliberately subtle — Easy Read and
+   SPEC.md §2.4 say no visual noise competing with the text. Auto-
+   neutralized to an instant colour change by the site-wide
+   prefers-reduced-motion rule in base.css (animation-duration forced
+   to 0.001ms). */
+.flashcard.revealed { border-color: var(--color-success); animation: cardReveal 0.48s var(--ease); }
+
+@keyframes cardReveal {
+  0% { transform: scaleX(1) scale(1); }
+  35% { transform: scaleX(1) scale(1.03); }
+  100% { transform: scaleX(1) scale(1); }
+}
+
 .flashcard .cara {
   font-size: var(--text-large);
   font-weight: var(--weight-strong);
@@ -477,6 +584,33 @@ header.app-header .tagline {
   padding: 1px 6px;
   border-radius: 6px;
   font-weight: var(--weight-medium);
+}
+
+.tarjeta-imagen {
+  margin: 0;
+  align-self: center;
+  max-width: 100%;
+  text-align: center;
+}
+
+.tarjeta-imagen img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: var(--radius);
+  border: 2px solid var(--color-border);
+  object-fit: cover;
+}
+
+.tarjeta-imagen figcaption {
+  margin-top: var(--space-1);
+  font-size: var(--text-small);
+  color: var(--color-text-tenue);
+}
+
+.tarjeta-imagen figcaption a {
+  color: inherit;
 }
 
 .flashcard-controls {

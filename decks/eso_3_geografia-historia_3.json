@@ -5,67 +5,195 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué era el Antiguo Régimen?",
-      "respuesta": "Era el sistema político y social que dominó Europa antes de las revoluciones liberales. <mark>Se basaba en reyes con poder absoluto y una sociedad dividida en estamentos</mark>. La nobleza y el clero tenían privilegios que el resto no tenía. Ese sistema empezó a tambalearse a finales del siglo dieciocho."
+      "respuesta": "Era el sistema político y social que dominó Europa antes de las revoluciones liberales. <mark>Se basaba en reyes con poder absoluto y una sociedad dividida en estamentos</mark>. La nobleza y el clero tenían privilegios que el resto no tenía. Ese sistema empezó a tambalearse a finales del siglo dieciocho.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/antiguo-regimen.jpg",
+        "alt": "El Palacio de Versalles, símbolo del poder de los reyes absolutos.",
+        "titulo": "France-000422 - Palace of Versailles",
+        "autor": "archer10 (Dennis)",
+        "fuente": "https://www.flickr.com/photos/22490717@N02/14642637019",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo era la sociedad durante el Antiguo Régimen?",
-      "respuesta": "Se dividía en nobleza, clero y el tercer estado, formado por el resto. <mark>El tercer estado pagaba casi todos los impuestos, aunque tenía menos derechos</mark>. Pertenecer a un estamento u otro dependía del nacimiento, no del esfuerzo. Esa desigualdad generó cada vez más descontento social."
+      "respuesta": "Se dividía en nobleza, clero y el tercer estado, formado por el resto. <mark>El tercer estado pagaba casi todos los impuestos, aunque tenía menos derechos</mark>. Pertenecer a un estamento u otro dependía del nacimiento, no del esfuerzo. Esa desigualdad generó cada vez más descontento social.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/sociedad-antiguo-regimen.jpg",
+        "alt": "El Palacio de Versalles, donde vivía la nobleza francesa.",
+        "titulo": "The Palace of Versailles - 020",
+        "autor": "rieh",
+        "fuente": "https://www.flickr.com/photos/58326585@N00/4601575406",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo influyó la Ilustración en las revoluciones liberales?",
-      "respuesta": "Difundió ideas como la igualdad, la libertad y la razón frente al poder absoluto. <mark>Esas ideas fueron la chispa que encendió varias revoluciones posteriores</mark>. Pensadores como Rousseau o Montesquieu cuestionaron el poder de los reyes. Sin la Ilustración, esas revoluciones habrían sido difíciles de imaginar."
+      "respuesta": "Difundió ideas como la igualdad, la libertad y la razón frente al poder absoluto. <mark>Esas ideas fueron la chispa que encendió varias revoluciones posteriores</mark>. Pensadores como Rousseau o Montesquieu cuestionaron el poder de los reyes. Sin la Ilustración, esas revoluciones habrían sido difíciles de imaginar.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/ilustracion-revoluciones.jpg",
+        "alt": "Lista de libros para leer, símbolo del pensamiento ilustrado.",
+        "titulo": "Reading List",
+        "autor": "KJGarbutt",
+        "fuente": "https://www.flickr.com/photos/25187937@N05/5414960417",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la monarquía parlamentaria inglesa?",
-      "respuesta": "Fue un sistema donde el rey compartía el poder con un parlamento electo. <mark>El rey ya no podía gobernar solo, sin el visto bueno de otros representantes</mark>. Se consolidó en Inglaterra antes que en el resto de Europa. Sirvió de modelo para otras revoluciones liberales posteriores."
+      "respuesta": "Fue un sistema donde el rey compartía el poder con un parlamento electo. <mark>El rey ya no podía gobernar solo, sin el visto bueno de otros representantes</mark>. Se consolidó en Inglaterra antes que en el resto de Europa. Sirvió de modelo para otras revoluciones liberales posteriores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/monarquia-parlamentaria.jpg",
+        "alt": "El Parlamento de Westminster, en Londres.",
+        "titulo": "Westminster Parliament, London",
+        "autor": "robuild",
+        "fuente": "https://www.flickr.com/photos/157321328@N03/37610735835",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la revolución americana?",
-      "respuesta": "Fue el proceso por el que las colonias británicas de América lograron su independencia. <mark>Se rebelaron, entre otras cosas, contra impuestos decididos sin su participación</mark>. En 1776 declararon su independencia y nació Estados Unidos. Su Constitución influyó en las revoluciones liberales posteriores."
+      "respuesta": "Fue el proceso por el que las colonias británicas de América lograron su independencia. <mark>Se rebelaron, entre otras cosas, contra impuestos decididos sin su participación</mark>. En 1776 declararon su independencia y nació Estados Unidos. Su Constitución influyó en las revoluciones liberales posteriores.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/revolucion-americana.jpg",
+        "alt": "El edificio de Independence Hall, en Filadelfia.",
+        "titulo": "Independence Hall - Philadelphia Pennsylvania - UNESCO - United States",
+        "autor": "Onasill - Bill Badzo",
+        "fuente": "https://www.flickr.com/photos/7156765@N05/51680879247",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Revolución francesa?",
-      "respuesta": "Fue el proceso que acabó con la monarquía absoluta en Francia, en 1789. <mark>El pueblo se levantó contra los privilegios de la nobleza y el clero</mark>. Su lema fue libertad, igualdad y fraternidad. Cambió para siempre la forma de entender el poder político en Europa."
+      "respuesta": "Fue el proceso que acabó con la monarquía absoluta en Francia, en 1789. <mark>El pueblo se levantó contra los privilegios de la nobleza y el clero</mark>. Su lema fue libertad, igualdad y fraternidad. Cambió para siempre la forma de entender el poder político en Europa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/revolucion-francesa.jpg",
+        "alt": "La bandera tricolor de Francia.",
+        "titulo": "French flag",
+        "autor": "James Cridland",
+        "fuente": "https://www.flickr.com/photos/18378655@N00/613382026",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué pasó con el rey de Francia durante la revolución?",
-      "respuesta": "Luis XVI perdió el poder y finalmente fue ejecutado en 1793. <mark>Fue un símbolo enorme: hasta un rey podía perder la vida ante el pueblo</mark>. Ese hecho asustó a otras monarquías de Europa. Marcó un punto sin retorno en la Revolución francesa."
+      "respuesta": "Luis XVI perdió el poder y finalmente fue ejecutado en 1793. <mark>Fue un símbolo enorme: hasta un rey podía perder la vida ante el pueblo</mark>. Ese hecho asustó a otras monarquías de Europa. Marcó un punto sin retorno en la Revolución francesa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/rey-francia.jpg",
+        "alt": "Una corona real, símbolo del poder de los reyes.",
+        "titulo": "royal crown jewels",
+        "autor": "bwstock",
+        "fuente": "https://www.flickr.com/photos/16962092@N03/36840935411",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué fue el Imperio napoleónico?",
-      "respuesta": "Fue el imperio creado por Napoleón Bonaparte tras la Revolución francesa. <mark>Extendió por buena parte de Europa ideas revolucionarias, aunque gobernaba como un emperador</mark>. Sus ejércitos conquistaron gran parte del continente. Su derrota final devolvió el equilibrio de poder a las monarquías europeas."
+      "respuesta": "Fue el imperio creado por Napoleón Bonaparte tras la Revolución francesa. <mark>Extendió por buena parte de Europa ideas revolucionarias, aunque gobernaba como un emperador</mark>. Sus ejércitos conquistaron gran parte del continente. Su derrota final devolvió el equilibrio de poder a las monarquías europeas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/imperio-napoleonico.jpg",
+        "alt": "El Arco de Triunfo de París, construido en tiempos de Napoleón.",
+        "titulo": "Arc de Triomphe Paris. Shenzhen China.",
+        "autor": "Bernard Spragg",
+        "fuente": "https://www.flickr.com/photos/88123769@N02/12534620103",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué fue la Restauración del absolutismo tras Napoleón?",
-      "respuesta": "Fue el intento de las monarquías europeas de volver al sistema anterior a la revolución. <mark>Es como intentar meter de nuevo en la caja algo que ya se había salido</mark>. Los reyes recuperaron parte de su poder tradicional. Pero las ideas liberales ya no desaparecieron del todo."
+      "respuesta": "Fue el intento de las monarquías europeas de volver al sistema anterior a la revolución. <mark>Es como intentar meter de nuevo en la caja algo que ya se había salido</mark>. Los reyes recuperaron parte de su poder tradicional. Pero las ideas liberales ya no desaparecieron del todo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/restauracion-absolutismo.jpg",
+        "alt": "La bandera francesa ondeando en un desfile.",
+        "titulo": "Bastille Day",
+        "autor": "euthman",
+        "fuente": "https://www.flickr.com/photos/78147607@N00/2667056465",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué fueron las oleadas revolucionarias de 1820, 1830 y 1848?",
-      "respuesta": "Fueron nuevas revueltas liberales que estallaron en distintos países europeos. <mark>Cada oleada era como una réplica del terremoto que había sido la Revolución francesa</mark>. Pedían constituciones, libertades y menos poder para los reyes absolutos. Poco a poco, esas ideas se fueron imponiendo en Europa."
+      "respuesta": "Fueron nuevas revueltas liberales que estallaron en distintos países europeos. <mark>Cada oleada era como una réplica del terremoto que había sido la Revolución francesa</mark>. Pedían constituciones, libertades y menos poder para los reyes absolutos. Poco a poco, esas ideas se fueron imponiendo en Europa.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/oleadas-revolucionarias.jpg",
+        "alt": "Un bolígrafo rojo colocado entre las páginas de un libro.",
+        "titulo": "Red pen stuck between the pages of a book",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4289811229",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el nacionalismo del siglo XIX?",
-      "respuesta": "Es la idea de que un pueblo con lengua y cultura propias merece formar su propio Estado. <mark>Es como decir 'compartimos historia, así que merecemos gobernarnos juntos'</mark>. Impulsó movimientos de independencia y de unificación de países. Cambió el mapa político de Europa durante el siglo diecinueve."
+      "respuesta": "Es la idea de que un pueblo con lengua y cultura propias merece formar su propio Estado. <mark>Es como decir 'compartimos historia, así que merecemos gobernarnos juntos'</mark>. Impulsó movimientos de independencia y de unificación de países. Cambió el mapa político de Europa durante el siglo diecinueve.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/nacionalismo-xix.jpg",
+        "alt": "El Parlamento de Westminster, símbolo de una nación.",
+        "titulo": "Westminster Parliament, London",
+        "autor": "robuild",
+        "fuente": "https://www.flickr.com/photos/157321328@N03/24625351408",
+        "licencia": "CC PDM 1.0"
+      }
     },
     {
       "pregunta": "¿Cómo se unificó Alemania en el siglo XIX?",
-      "respuesta": "Varios reinos y territorios de lengua alemana se unieron en un solo Estado. <mark>Es como juntar piezas sueltas de un mismo puzle en una sola imagen</mark>. Prusia lideró ese proceso, a menudo mediante guerras. En 1871 se proclamó el Imperio alemán unificado."
+      "respuesta": "Varios reinos y territorios de lengua alemana se unieron en un solo Estado. <mark>Es como juntar piezas sueltas de un mismo puzle en una sola imagen</mark>. Prusia lideró ese proceso, a menudo mediante guerras. En 1871 se proclamó el Imperio alemán unificado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/unificacion-alemania.png",
+        "alt": "Bandera histórica usada durante el proceso de unificación de Alemania.",
+        "titulo": "German Unification flag of 1832",
+        "autor": "Prozach1921",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=70183480",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Cómo se unificó Italia en el siglo XIX?",
-      "respuesta": "Distintos reinos y territorios italianos se unieron en un único país. <mark>Antes de eso, Italia era más un conjunto de territorios que una sola nación</mark>. El Reino de Piamonte-Cerdeña lideró gran parte de ese proceso. Figuras como Garibaldi ayudaron con sus campañas militares."
+      "respuesta": "Distintos reinos y territorios italianos se unieron en un único país. <mark>Antes de eso, Italia era más un conjunto de territorios que una sola nación</mark>. El Reino de Piamonte-Cerdeña lideró gran parte de ese proceso. Figuras como Garibaldi ayudaron con sus campañas militares.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/garibaldi-estatua.jpg",
+        "alt": "Estatua de Giuseppe Garibaldi, líder de la unificación de Italia",
+        "titulo": "Jose Garibaldi, estatua en la plaza Manuel H. y Obes",
+        "autor": "Jose castillo urquiza",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=28364582",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre el Antiguo Régimen y una monarquía liberal?",
-      "respuesta": "En el Antiguo Régimen, el rey gobernaba casi sin límites y la sociedad estaba dividida en estamentos. <mark>En la monarquía liberal, existen leyes, una Constitución y derechos para los ciudadanos</mark>. El poder del rey queda limitado por esas normas. Ese cambio fue resultado directo de las revoluciones liberales."
+      "respuesta": "En el Antiguo Régimen, el rey gobernaba casi sin límites y la sociedad estaba dividida en estamentos. <mark>En la monarquía liberal, existen leyes, una Constitución y derechos para los ciudadanos</mark>. El poder del rey queda limitado por esas normas. Ese cambio fue resultado directo de las revoluciones liberales.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/diferencia-antiguo-liberal.jpg",
+        "alt": "La bandera tricolor de Francia, símbolo de la monarquía liberal.",
+        "titulo": "French flag",
+        "autor": "James Cridland",
+        "fuente": "https://www.flickr.com/photos/18378655@N00/613382026",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué las revoluciones liberales asustaron tanto a las monarquías europeas?",
-      "respuesta": "Porque demostraban que el poder absoluto de un rey podía ser derrocado. <mark>Es como ver caer la primera ficha de un dominó y temer que caigan todas</mark>. Los monarcas temían que sus propios pueblos se rebelaran también. Por eso intentaron frenar esas ideas durante décadas."
+      "respuesta": "Porque demostraban que el poder absoluto de un rey podía ser derrocado. <mark>Es como ver caer la primera ficha de un dominó y temer que caigan todas</mark>. Los monarcas temían que sus propios pueblos se rebelaran también. Por eso intentaron frenar esas ideas durante décadas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/miedo-monarquias.jpg",
+        "alt": "Una corona real, símbolo del poder de las monarquías.",
+        "titulo": "royal crown jewels",
+        "autor": "bwstock",
+        "fuente": "https://www.flickr.com/photos/16962092@N03/36840935411",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué legado dejaron las revoluciones liberales a la política actual?",
-      "respuesta": "Dejaron ideas como la separación de poderes, las constituciones y los derechos ciudadanos. <mark>Muchas normas que hoy parecen normales nacieron de esas luchas de hace siglos</mark>. La mayoría de democracias actuales beben de esas ideas. Por eso se consideran un punto de partida de la política moderna."
+      "respuesta": "Dejaron ideas como la separación de poderes, las constituciones y los derechos ciudadanos. <mark>Muchas normas que hoy parecen normales nacieron de esas luchas de hace siglos</mark>. La mayoría de democracias actuales beben de esas ideas. Por eso se consideran un punto de partida de la política moderna.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_geografia-historia_3/legado-revoluciones.jpg",
+        "alt": "Urna electoral utilizada para depositar los votos.",
+        "titulo": "Ballot box scanner - London mayor and assembly election 2008",
+        "autor": "secretlondon123",
+        "fuente": "https://www.flickr.com/photos/25834786@N03/2461779607",
+        "licencia": "CC BY-SA 2.0"
+      }
     }
   ]
 }

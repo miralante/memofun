@@ -5,75 +5,219 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es un proyecto profesional propio?",
-      "respuesta": "Es un plan personal sobre hacia dónde quieres dirigir tu carrera laboral. <mark>Es como trazar tu propio mapa profesional, en vez de dejarlo solo al azar</mark>. Incluye metas, formación necesaria y pasos concretos para lograrlas."
+      "respuesta": "Es un plan personal sobre hacia dónde quieres dirigir tu carrera laboral. <mark>Es como trazar tu propio mapa profesional, en vez de dejarlo solo al azar</mark>. Incluye metas, formación necesaria y pasos concretos para lograrlas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-profesional.jpg",
+        "alt": "Lista de tareas escrita a mano en un cuaderno.",
+        "titulo": "To do list",
+        "autor": "freestocks.org",
+        "fuente": "https://www.flickr.com/photos/135396164@N05/28123133694",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "pregunta": "¿Qué es el autoempleo?",
-      "respuesta": "Es trabajar por cuenta propia, siendo tú mismo quien genera tu empleo. <mark>Es como ser tu propio jefe, en vez de trabajar para otra persona</mark>. Implica asumir más responsabilidad, pero también más libertad de decisión."
+      "respuesta": "Es trabajar por cuenta propia, siendo tú mismo quien genera tu empleo. <mark>Es como ser tu propio jefe, en vez de trabajar para otra persona</mark>. Implica asumir más responsabilidad, pero también más libertad de decisión.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/autoempleo.jpg",
+        "alt": "Espacio de trabajo desde donde una persona dirige su propio negocio.",
+        "titulo": "From here I run my freelance empire",
+        "autor": "TheSeafarer",
+        "fuente": "https://www.flickr.com/photos/22028494@N03/3641988827",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el emprendimiento?",
-      "respuesta": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. <mark>Es como ver un hueco en el mercado y decidir llenarlo tú mismo</mark>. Requiere iniciativa, planificación y asumir cierto riesgo."
+      "respuesta": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. <mark>Es como ver un hueco en el mercado y decidir llenarlo tú mismo</mark>. Requiere iniciativa, planificación y asumir cierto riesgo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/emprendimiento.jpg",
+        "alt": "Personas trabajando juntas en la oficina de una empresa emergente.",
+        "titulo": "Women In Tech - 99",
+        "autor": "wocintechchat.com",
+        "fuente": "https://www.flickr.com/photos/136629440@N06/21909333504",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es un plan de empresa sencillo?",
-      "respuesta": "Es un documento que resume cómo sería y cómo funcionaría un futuro negocio. <mark>Es como el boceto de un proyecto antes de construirlo de verdad</mark>. Incluye la idea de negocio, los costes previstos y los posibles clientes."
+      "respuesta": "Es un documento que resume cómo sería y cómo funcionaría un futuro negocio. <mark>Es como el boceto de un proyecto antes de construirlo de verdad</mark>. Incluye la idea de negocio, los costes previstos y los posibles clientes.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/plan-empresa.jpg",
+        "alt": "Documento con la planificación escrita de un negocio.",
+        "titulo": "Business Planning with Plan-Too",
+        "autor": "plantoo47",
+        "fuente": "https://www.flickr.com/photos/55260169@N07/5126107002",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué técnicas avanzadas existen para buscar empleo?",
-      "respuesta": "Usar redes profesionales, contactar directamente con empresas o crear un perfil digital atractivo. <mark>Es como ampliar tu red de contactos, en vez de esperar solo a que salga una oferta</mark>. También adaptar el currículum a cada oferta."
+      "respuesta": "Usar redes profesionales, contactar directamente con empresas o crear un perfil digital atractivo. <mark>Es como ampliar tu red de contactos, en vez de esperar solo a que salga una oferta</mark>. También adaptar el currículum a cada oferta.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/tecnicas-buscar-empleo.jpg",
+        "alt": "Persona vestida formalmente en una entrevista de trabajo.",
+        "titulo": "Job Interview #2",
+        "autor": "rileyroxx",
+        "fuente": "https://www.flickr.com/photos/41216460@N00/224646677",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se puede preparar mejor una entrevista de trabajo?",
-      "respuesta": "Investigando la empresa, practicando respuestas y preparando preguntas propias. <mark>Es como ensayar antes de una actuación importante, para sentirte más seguro</mark>. Llegar preparado transmite interés real por el puesto."
+      "respuesta": "Investigando la empresa, practicando respuestas y preparando preguntas propias. <mark>Es como ensayar antes de una actuación importante, para sentirte más seguro</mark>. Llegar preparado transmite interés real por el puesto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/entrevista-trabajo.jpg",
+        "alt": "Una entrevista de trabajo",
+        "titulo": "Interview",
+        "autor": "Semtrio",
+        "fuente": "https://www.flickr.com/photos/163837264@N07/29072860487",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa adaptarse al cambio en el entorno laboral?",
-      "respuesta": "Significa ser capaz de ajustarse a nuevas tareas, herramientas o formas de trabajar. <mark>Es como aprender a moverse con soltura cuando cambian las reglas del juego</mark>. Esa capacidad es muy valorada por las empresas."
+      "respuesta": "Significa ser capaz de ajustarse a nuevas tareas, herramientas o formas de trabajar. <mark>Es como aprender a moverse con soltura cuando cambian las reglas del juego</mark>. Esa capacidad es muy valorada por las empresas.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptarse-cambio.jpg",
+        "alt": "Piezas de un puzle esparcidas junto a una parte ya resuelta.",
+        "titulo": "Scattered puzzle pieces next to solved fragment",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4273913228",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la negociación en el trabajo?",
-      "respuesta": "Es llegar a acuerdos satisfactorios para ambas partes en una situación laboral. <mark>Es como buscar un punto intermedio, en vez de que solo gane una de las partes</mark>. Puede aplicarse a un salario, un horario o un conflicto."
+      "respuesta": "Es llegar a acuerdos satisfactorios para ambas partes en una situación laboral. <mark>Es como buscar un punto intermedio, en vez de que solo gane una de las partes</mark>. Puede aplicarse a un salario, un horario o un conflicto.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/negociacion.jpg",
+        "alt": "Dos personas negociando cara a cara.",
+        "titulo": "Negotiation",
+        "autor": "Go-tea 郭天",
+        "fuente": "https://www.flickr.com/photos/131814204@N04/51820085295",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué significa la igualdad de género en el ámbito laboral?",
-      "respuesta": "Significa que todas las personas tienen las mismas oportunidades, sin importar su género. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, de trato y de ascenso."
+      "respuesta": "Significa que todas las personas tienen las mismas oportunidades, sin importar su género. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, de trato y de ascenso.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/igualdad-genero.jpg",
+        "alt": "Hombres y mujeres trabajando juntos como iguales en el trabajo.",
+        "titulo": "Gender Equality in the Workplace (01117946)",
+        "autor": "IAEA Imagebank",
+        "fuente": "https://www.flickr.com/photos/35068899@N03/48750119943",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es la ética profesional?",
-      "respuesta": "Es actuar en el trabajo siguiendo principios de honestidad y responsabilidad. <mark>Es como aplicar tus valores personales también dentro de tu trabajo</mark>. Incluye respetar la confidencialidad y no aprovecharse de la confianza."
+      "respuesta": "Es actuar en el trabajo siguiendo principios de honestidad y responsabilidad. <mark>Es como aplicar tus valores personales también dentro de tu trabajo</mark>. Incluye respetar la confidencialidad y no aprovecharse de la confianza.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-profesional.jpg",
+        "alt": "Dos manos dándose un apretón como símbolo de confianza.",
+        "titulo": "Handshake",
+        "autor": "AndyRobertsPhotos",
+        "fuente": "https://www.flickr.com/photos/21372046@N00/2282881973",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué riesgos laborales son frecuentes en un puesto administrativo?",
-      "respuesta": "Malas posturas, fatiga visual por las pantallas o estrés por el volumen de trabajo. <mark>Son riesgos menos evidentes que los de una obra, pero igual de reales</mark>. Prevenirlos incluye una buena postura y pausas regulares."
+      "respuesta": "Malas posturas, fatiga visual por las pantallas o estrés por el volumen de trabajo. <mark>Son riesgos menos evidentes que los de una obra, pero igual de reales</mark>. Prevenirlos incluye una buena postura y pausas regulares.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/riesgos-laborales.jpg",
+        "alt": "Escritorio de oficina con ordenador, típico de un puesto administrativo.",
+        "titulo": "My Desk @ SimpleGeo SF",
+        "autor": "Jon Rohan",
+        "fuente": "https://www.flickr.com/photos/68503235@N00/5081408605",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante tener un proyecto profesional claro al terminar un ciclo formativo?",
-      "respuesta": "Porque ayuda a decidir si seguir formándose, buscar empleo o emprender un negocio propio. <mark>Es como tener un destino claro antes de emprender un nuevo viaje</mark>. Sin un plan, es más fácil dejarse llevar sin rumbo."
+      "respuesta": "Porque ayuda a decidir si seguir formándose, buscar empleo o emprender un negocio propio. <mark>Es como tener un destino claro antes de emprender un nuevo viaje</mark>. Sin un plan, es más fácil dejarse llevar sin rumbo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-claro-final-ciclo.jpg",
+        "alt": "Estudiantes celebrando su ceremonia de graduación.",
+        "titulo": "College of DuPage 2014 Commencement Ceremony 60",
+        "autor": "COD Newsroom",
+        "fuente": "https://www.flickr.com/photos/41431665@N07/14222463315",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué ventajas e inconvenientes tiene el autoempleo frente a trabajar por cuenta ajena?",
-      "respuesta": "Ofrece más libertad y control, pero también más responsabilidad y menos estabilidad. <mark>Es como comparar dirigir tu propio barco con navegar en uno ya dirigido por otra persona</mark>. No hay una opción mejor: depende de cada persona."
+      "respuesta": "Ofrece más libertad y control, pero también más responsabilidad y menos estabilidad. <mark>Es como comparar dirigir tu propio barco con navegar en uno ya dirigido por otra persona</mark>. No hay una opción mejor: depende de cada persona.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/ventajas-autoempleo.jpg",
+        "alt": "Persona trabajando de forma independiente con su propio equipo.",
+        "titulo": "Aerial view of a man typing on a retro typewriter",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/45789238041",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué es importante calcular bien los costes en un plan de empresa?",
-      "respuesta": "Porque un cálculo erróneo puede hacer que el negocio no sea viable desde el principio. <mark>Es como planear un viaje sin calcular bien el presupuesto disponible</mark>. Una buena previsión reduce el riesgo de fracaso."
+      "respuesta": "Porque un cálculo erróneo puede hacer que el negocio no sea viable desde el principio. <mark>Es como planear un viaje sin calcular bien el presupuesto disponible</mark>. Una buena previsión reduce el riesgo de fracaso.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/calcular-costes.jpg",
+        "alt": "Calculadora usada para hacer cuentas y calcular costes.",
+        "titulo": "Calculator",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5856725357",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo puede ayudar una red de contactos profesionales a encontrar empleo?",
-      "respuesta": "Muchas ofertas de trabajo se conocen antes por contactos que por anuncios públicos. <mark>Es como tener puertas ya entreabiertas, en vez de llamar siempre a una puerta cerrada</mark>. Cuidar esas relaciones tiene valor a largo plazo."
+      "respuesta": "Muchas ofertas de trabajo se conocen antes por contactos que por anuncios públicos. <mark>Es como tener puertas ya entreabiertas, en vez de llamar siempre a una puerta cerrada</mark>. Cuidar esas relaciones tiene valor a largo plazo.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/red-contactos.jpg",
+        "alt": "Dos personas intercambiando tarjetas de visita.",
+        "titulo": "Salesforce.com CEO Marc Benioff exchanges business cards",
+        "autor": "Robert Scoble",
+        "fuente": "https://www.flickr.com/photos/35034363287@N01/5396278484",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué la adaptabilidad es una habilidad tan valorada actualmente?",
-      "respuesta": "Porque las herramientas y formas de trabajar cambian cada vez más rápido. <mark>Es como tener que aprender nuevas reglas de un juego que cambia constantemente</mark>. Quien se adapta bien tiene más facilidad para mantenerse empleado."
+      "respuesta": "Porque las herramientas y formas de trabajar cambian cada vez más rápido. <mark>Es como tener que aprender nuevas reglas de un juego que cambia constantemente</mark>. Quien se adapta bien tiene más facilidad para mantenerse empleado.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptabilidad.jpg",
+        "alt": "Piezas de un puzle encajando entre sí.",
+        "titulo": "sky puzzle",
+        "autor": "jared",
+        "fuente": "https://www.flickr.com/photos/35468148654@N01/501445202",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué relación hay entre la ética profesional y la confianza en el trabajo?",
-      "respuesta": "Actuar con ética genera confianza entre compañeros, jefes y clientes. <mark>Es como construir una reputación sólida, ladrillo a ladrillo, con cada decisión correcta</mark>. Perderla puede ser muy difícil de recuperar después."
+      "respuesta": "Actuar con ética genera confianza entre compañeros, jefes y clientes. <mark>Es como construir una reputación sólida, ladrillo a ladrillo, con cada decisión correcta</mark>. Perderla puede ser muy difícil de recuperar después.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-confianza.jpg",
+        "alt": "Un hombre y una mujer dándose la mano como señal de confianza mutua.",
+        "titulo": "Handshake man - women",
+        "autor": "flazingo_photos",
+        "fuente": "https://www.flickr.com/photos/124247024@N07/14090438714",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Por qué se estudia empleabilidad en dos cursos distintos del ciclo formativo?",
-      "respuesta": "Porque las necesidades cambian: en 1º se sientan las bases; en 2º, se prepara la salida al mundo laboral. <mark>Es como aprender primero a caminar y después a decidir hacia dónde caminar</mark>. En 2º pesa más el proyecto profesional."
+      "respuesta": "Porque las necesidades cambian: en 1º se sientan las bases; en 2º, se prepara la salida al mundo laboral. <mark>Es como aprender primero a caminar y después a decidir hacia dónde caminar</mark>. En 2º pesa más el proyecto profesional.",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/dos-cursos-ciclo.jpg",
+        "alt": "Grupo de graduados celebrando el final de sus estudios.",
+        "titulo": "Graduates",
+        "autor": "spakattacks",
+        "fuente": "https://www.flickr.com/photos/82538355@N00/2469859496",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

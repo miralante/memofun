@@ -5,43 +5,123 @@
   "tarjetas": [
     {
       "pregunta": "¿Qué es la célula?",
-      "respuesta": "Es la unidad más pequeña capaz de realizar las funciones de un ser vivo. <mark>Es como el ladrillo más pequeño con el que se construye cualquier ser vivo</mark>. Todos los seres vivos están formados por una o muchas células. Sin células, no existiría la vida tal y como la conocemos."
+      "respuesta": "Es la unidad más pequeña capaz de realizar las funciones de un ser vivo. <mark>Es como el ladrillo más pequeño con el que se construye cualquier ser vivo</mark>. Todos los seres vivos están formados por una o muchas células. Sin células, no existiría la vida tal y como la conocemos.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-levadura.jpg",
+        "alt": "Células de levadura vistas al microscopio",
+        "titulo": "Yeast Cells Under the Microscope",
+        "autor": "BlueShift 12",
+        "fuente": "https://www.flickr.com/photos/96712513@N07/12947630984",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia a un ser vivo de la materia inerte?",
-      "respuesta": "Un ser vivo nace, se nutre, se relaciona y se reproduce. <mark>Una piedra, en cambio, no come, no crece ni tiene descendencia</mark>. Esas funciones vitales son las que distinguen a los seres vivos. Por eso decimos que un ser vivo está 'vivo' y una roca no."
+      "respuesta": "Un ser vivo nace, se nutre, se relaciona y se reproduce. <mark>Una piedra, en cambio, no come, no crece ni tiene descendencia</mark>. Esas funciones vitales son las que distinguen a los seres vivos. Por eso decimos que un ser vivo está 'vivo' y una roca no.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/roca-piedra.jpg",
+        "alt": "Una roca, ejemplo de materia inerte",
+        "titulo": "Molalla River Recreation Area",
+        "autor": "BLM Oregon & Washington",
+        "fuente": "https://www.flickr.com/photos/50169152@N06/11327186416",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una célula procariota?",
-      "respuesta": "Es una célula sencilla, sin núcleo definido, como en las bacterias. <mark>Su material genético flota libre dentro de la célula, sin una habitación propia</mark>. Son células más simples y pequeñas que las eucariotas. Fueron las primeras formas de vida en la Tierra."
+      "respuesta": "Es una célula sencilla, sin núcleo definido, como en las bacterias. <mark>Su material genético flota libre dentro de la célula, sin una habitación propia</mark>. Son células más simples y pequeñas que las eucariotas. Fueron las primeras formas de vida en la Tierra.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/bacteria-espirilo.jpg",
+        "alt": "Bacterias vistas al microscopio",
+        "titulo": "Spirillum Bacteria",
+        "autor": "adonofrio (Biology101.org)",
+        "fuente": "https://www.flickr.com/photos/48784416@N06/6269249676",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es una célula eucariota?",
-      "respuesta": "Es una célula más compleja, con el núcleo bien delimitado. <mark>Su material genético está guardado dentro de una especie de habitación propia, el núcleo</mark>. Las células de plantas, animales y hongos son eucariotas. Son más grandes y organizadas que las procariotas."
+      "respuesta": "Es una célula más compleja, con el núcleo bien delimitado. <mark>Su material genético está guardado dentro de una especie de habitación propia, el núcleo</mark>. Las células de plantas, animales y hongos son eucariotas. Son más grandes y organizadas que las procariotas.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-mejilla.jpg",
+        "alt": "Células humanas de la mejilla vistas al microscopio",
+        "titulo": "Human cheek cells",
+        "autor": "CodonAUG",
+        "fuente": "https://www.flickr.com/photos/63450246@N03/6936088946",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué diferencia hay entre una célula animal y una célula vegetal?",
-      "respuesta": "La célula vegetal tiene pared celular y cloroplastos; la animal no. <mark>La pared celular es como un caparazón rígido que la célula vegetal usa como protección extra</mark>. Los cloroplastos permiten hacer la fotosíntesis. La célula animal es más flexible y no fabrica su propio alimento."
+      "respuesta": "La célula vegetal tiene pared celular y cloroplastos; la animal no. <mark>La pared celular es como un caparazón rígido que la célula vegetal usa como protección extra</mark>. Los cloroplastos permiten hacer la fotosíntesis. La célula animal es más flexible y no fabrica su propio alimento.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/lithops-disecado.jpg",
+        "alt": "Una planta disecada mostrando su estructura interna",
+        "titulo": "Dissected Lithops 0127",
+        "autor": "yellowcloud",
+        "fuente": "https://www.flickr.com/photos/63794141@N00/3137858909",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Qué es el núcleo de una célula?",
-      "respuesta": "Es la parte de la célula que guarda el material genético. <mark>Es como la sala de control que dirige todo lo que hace la célula</mark>. Contiene las instrucciones necesarias para que la célula funcione. Solo las células eucariotas tienen un núcleo bien diferenciado."
+      "respuesta": "Es la parte de la célula que guarda el material genético. <mark>Es como la sala de control que dirige todo lo que hace la célula</mark>. Contiene las instrucciones necesarias para que la célula funcione. Solo las células eucariotas tienen un núcleo bien diferenciado.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-hela.jpg",
+        "alt": "Células vistas al microscopio, con el núcleo teñido",
+        "titulo": "HeLa cells",
+        "autor": "(autor desconocido)",
+        "fuente": "https://wellcomecollection.org/works/mzz2rjvp",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "pregunta": "¿Por qué se dice que la célula es la unidad funcional de los seres vivos?",
-      "respuesta": "Porque en ella ocurren todas las funciones necesarias para mantenerse con vida. <mark>Es como una pequeña fábrica que hace de todo: se alimenta, respira y se reproduce</mark>. Cada parte de la célula cumple una tarea concreta. Sin esas funciones, la célula no podría sobrevivir."
+      "respuesta": "Porque en ella ocurren todas las funciones necesarias para mantenerse con vida. <mark>Es como una pequeña fábrica que hace de todo: se alimenta, respira y se reproduce</mark>. Cada parte de la célula cumple una tarea concreta. Sin esas funciones, la célula no podría sobrevivir.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/engranajes.jpg",
+        "alt": "Engranajes trabajando juntos como una pequeña fábrica",
+        "titulo": "Gears.",
+        "autor": "ianmunroe",
+        "fuente": "https://www.flickr.com/photos/86838704@N00/3462859629",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "pregunta": "¿Cómo se observan las células?",
-      "respuesta": "Se observan con un microscopio, ya que son demasiado pequeñas para verlas a simple vista. <mark>Es como usar una lupa gigante para ver detalles invisibles al ojo humano</mark>. Los científicos preparan muestras finas para poder mirarlas. Gracias al microscopio se descubrió la célula."
+      "respuesta": "Se observan con un microscopio, ya que son demasiado pequeñas para verlas a simple vista. <mark>Es como usar una lupa gigante para ver detalles invisibles al ojo humano</mark>. Los científicos preparan muestras finas para poder mirarlas. Gracias al microscopio se descubrió la célula.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/microscopio-1930s.jpg",
+        "alt": "Un microscopio antiguo, usado para observar células",
+        "titulo": "Jaime Rivadeneira Microscopio - 1930s",
+        "autor": "Monicoro",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=82073252",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "pregunta": "¿Qué son los organismos unicelulares?",
-      "respuesta": "Son seres vivos formados por una sola célula, que hace todas las funciones vitales. <mark>Es como una empresa diminuta donde una única persona hace absolutamente todo</mark>. Bacterias y algunos protozoos son ejemplos. A pesar de ser tan pequeños, están vivos igual que los seres más grandes."
+      "respuesta": "Son seres vivos formados por una sola célula, que hace todas las funciones vitales. <mark>Es como una empresa diminuta donde una única persona hace absolutamente todo</mark>. Bacterias y algunos protozoos son ejemplos. A pesar de ser tan pequeños, están vivos igual que los seres más grandes.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/bacterias-microorganismos.jpg",
+        "alt": "Ilustración de bacterias y otros microorganismos unicelulares",
+        "titulo": "Billones de bacterias y otros microorganismos",
+        "autor": "German Tenorio",
+        "fuente": "https://www.flickr.com/photos/94200309@N02/18266815062",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "pregunta": "¿Qué son los organismos pluricelulares?",
-      "respuesta": "Son seres vivos formados por muchas células distintas, trabajando juntas. <mark>Es como una gran empresa donde cada trabajador tiene una tarea especializada</mark>. Los humanos, los animales y las plantas son pluricelulares. Cada tipo de célula se especializa en una función del cuerpo."
+      "respuesta": "Son seres vivos formados por muchas células distintas, trabajando juntas. <mark>Es como una gran empresa donde cada trabajador tiene una tarea especializada</mark>. Los humanos, los animales y las plantas son pluricelulares. Cada tipo de célula se especializa en una función del cuerpo.",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/familia-parque.jpg",
+        "alt": "Una familia junta, ejemplo de organismo pluricelular",
+        "titulo": "Family Fun in Themepark Lochmuehle (Usingen, Germany)",
+        "autor": "reiner.kraft",
+        "fuente": "https://www.flickr.com/photos/51876732@N00/1528277113",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }
