@@ -10,6 +10,8 @@ salida: "eso_4_biologia-geologia.json"
 - Bloque 2 — La mitosis y la meiosis
 - Bloque 3 — El ADN, el ARN y el código genético
 - Bloque 3 — Los genes, el genotipo y el fenotipo
+- Bloque 3 — Las mutaciones: origen y relación con la evolución
+- Bloque 3 — La ingeniería genética y la biotecnología
 - Bloque 3 — Las leyes de Mendel
 - Bloque 3 — La evolución de las especies y Darwin
 - Bloque 3 — La hominización y la evolución humana
@@ -19,6 +21,9 @@ salida: "eso_4_biologia-geologia.json"
 - Bloque 4 — El tiempo geológico y los fósiles guía
 - Bloque 5 — El origen del universo y el sistema solar
 - Bloque 5 — La habitabilidad de la Tierra y el origen de la vida
+- Bloque 6 — Los ecosistemas: componentes y relaciones tróficas
+- Bloque 6 — Los ciclos biogeoquímicos: carbono, nitrógeno y fósforo
+- Bloque 6 — El impacto humano: contaminación y gestión de residuos
 
 # Contexto o notas adicionales
 Cuarto curso de ESO (15-16 años), asignatura optativa este curso.
@@ -32,3 +37,4 @@ agrupadas por bloque temático real.
 - [Real Decreto 217/2022, de 29 de marzo (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975) — currículo básico estatal de la ESO que desarrolla el decreto anterior
 - [Museo Nacional de Ciencias Naturales (CSIC)](https://www.mncn.csic.es/) — la genética, la evolución de las especies y la hominización
 - [IGME — Instituto Geológico y Minero de España](https://www.igme.es/) — la tectónica de placas, los riesgos geológicos y el tiempo geológico
+- [educaciongratuita.es — Biología y Geología 4º ESO](https://www.educaciongratuita.es/asignaturas/4-eso/biologia-y-geologia/contenidos-biologia-y-geologia-4-eso.php) — temario detallado usado para ampliar el índice (mutaciones, ingeniería genética, ecología y medio ambiente)

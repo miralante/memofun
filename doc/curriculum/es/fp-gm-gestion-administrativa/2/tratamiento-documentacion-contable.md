@@ -23,6 +23,14 @@ salida: "fpgm_ga_2_tratamiento-documentacion-contable.json"
 - RA5 — Las aplicaciones informáticas de gestión contable
 - RA5 — El software de facturación
 - RA5 — Los procedimientos de archivo y conservación de documentos contables
+- RA1 — El Plan General de Contabilidad de PYMES
+- RA1 — Las cuentas anuales abreviadas
+- RA2 — Las devoluciones de compras
+- RA3 — Las devoluciones de ventas
+- RA4 — Las provisiones contables
+- RA4 — La periodificación contable
+- RA5 — La firma electrónica en los documentos contables
+- RA5 — La conservación legal de la documentación contable
 
 # Contexto o notas adicionales
 Segundo curso del Ciclo Formativo de Grado Medio "Técnico en Gestión
@@ -40,3 +48,4 @@ de 13 de noviembre, del Consejo de Gobierno.
 - [Decreto 14/2010, de 18 de marzo (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2010/04/15/BOCM-20100415-1.PDF) — currículo autonómico del ciclo en la Comunidad de Madrid
 - [ICAC — Plan General de Contabilidad de PYMES (texto refundido)](https://www.icac.gob.es/node/1703) — normativa contable vigente
 - [Agencia Tributaria — IVA](https://sede.agenciatributaria.gob.es/Sede/iva.html) — IVA soportado y repercutido, libros registro
+- [educaciongratuita.es — Ciclos Formativos de Grado Medio](https://www.educaciongratuita.es/ciclos-formativos-grado-medio.php) — usada como fuente de orientación general sobre la estructura de la FP de Grado Medio; el sitio no dispone de temario propio por módulo para este ciclo

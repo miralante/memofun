@@ -23,6 +23,16 @@ salida: "fpgm_ga_2_operaciones-administrativas-rrhh.json"
 - RA5 — Los permisos y las vacaciones
 - RA6 — La gestión documental de la prevención de riesgos laborales
 - RA6 — Los procedimientos de calidad en el departamento de recursos humanos
+- RA1 — El organigrama del departamento de recursos humanos
+- RA1 — Los canales de reclutamiento de personal (internos y externos)
+- RA2 — Las modalidades de formación (presencial, online, mixta)
+- RA2 — La evaluación del desempeño
+- RA3 — El período de prueba y la modificación del contrato
+- RA3 — La extinción del contrato de trabajo
+- RA4 — El IRPF en la nómina y las retenciones
+- RA4 — Los complementos salariales y las percepciones no salariales
+- RA5 — El calendario laboral y la jornada de trabajo
+- RA6 — Los planes de igualdad en la empresa
 
 # Contexto o notas adicionales
 Segundo curso del Ciclo Formativo de Grado Medio "Técnico en Gestión
@@ -39,3 +49,4 @@ noviembre, del Consejo de Gobierno.
 - [Real Decreto 1631/2009, de 30 de octubre (BOE)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-19148) — currículo básico del título, módulo 0442 "Operaciones administrativas de recursos humanos"
 - [Decreto 14/2010, de 18 de marzo (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2010/04/15/BOCM-20100415-1.PDF) — currículo autonómico del ciclo en la Comunidad de Madrid
 - [Seguridad Social — Cotización y recaudación de trabajadores](https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores) — afiliación, cotización y nóminas
+- [educaciongratuita.es — Ciclos Formativos de Grado Medio](https://www.educaciongratuita.es/ciclos-formativos-grado-medio.php) — usada como fuente de orientación general sobre la estructura de la FP de Grado Medio; el sitio no dispone de temario propio por módulo para este ciclo

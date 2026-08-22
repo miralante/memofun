@@ -2490,6 +2490,16 @@
     "icono": "✏️"
   },
   {
+    "id": "mapa-mundi-continentes",
+    "tema": "Continentes y Océanos del Mundo",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Continentes y Océanos",
+    "cantidad": 16,
+    "file": "mapa_mundi_continentes.json",
+    "icono": "🌍"
+  },
+  {
     "id": "mapa-mundi-banderas",
     "tema": "Banderas del Mundo",
     "nivel": "principiante",
@@ -2497,6 +2507,16 @@
     "asignatura": "Banderas del Mundo",
     "cantidad": 19,
     "file": "mapa_mundi_banderas.json",
+    "icono": "🚩"
+  },
+  {
+    "id": "mapa-mundi-banderas-2",
+    "tema": "Banderas del Mundo (2)",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Banderas del Mundo",
+    "cantidad": 18,
+    "file": "mapa_mundi_banderas_2.json",
     "icono": "🚩"
   },
   {
@@ -2510,6 +2530,16 @@
     "icono": "🏛️"
   },
   {
+    "id": "mapa-mundi-capitales-2",
+    "tema": "Capitales del Mundo (2)",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Capitales del Mundo",
+    "cantidad": 18,
+    "file": "mapa_mundi_capitales_2.json",
+    "icono": "🏛️"
+  },
+  {
     "id": "mapa-mundi-ciudades",
     "tema": "Ciudades Importantes del Mundo",
     "nivel": "principiante",
@@ -2518,5 +2548,65 @@
     "cantidad": 15,
     "file": "mapa_mundi_ciudades.json",
     "icono": "🏙️"
+  },
+  {
+    "id": "mapa-mundi-ciudades-2",
+    "tema": "Ciudades Importantes del Mundo (2)",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Ciudades Importantes",
+    "cantidad": 15,
+    "file": "mapa_mundi_ciudades_2.json",
+    "icono": "🏙️"
+  },
+  {
+    "id": "mapa-mundi-banderas-3",
+    "tema": "Banderas del Mundo (3)",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Banderas del Mundo",
+    "cantidad": 16,
+    "file": "mapa_mundi_banderas_3.json",
+    "icono": "🚩"
+  },
+  {
+    "id": "mapa-mundi-capitales-3",
+    "tema": "Capitales del Mundo (3)",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Capitales del Mundo",
+    "cantidad": 16,
+    "file": "mapa_mundi_capitales_3.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "mapa-mundi-ciudades-3",
+    "tema": "Ciudades Importantes del Mundo (3)",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Ciudades Importantes",
+    "cantidad": 12,
+    "file": "mapa_mundi_ciudades_3.json",
+    "icono": "🏙️"
+  },
+  {
+    "id": "mapa-mundi-geografia-fisica",
+    "tema": "Geografía Física del Mundo",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Geografía Física",
+    "cantidad": 18,
+    "file": "mapa_mundi_geografia-fisica.json",
+    "icono": "🏔️"
+  },
+  {
+    "id": "mapa-mundi-records",
+    "tema": "Récords y Curiosidades del Mundo",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Récords y Curiosidades",
+    "cantidad": 14,
+    "file": "mapa_mundi_records.json",
+    "icono": "🏆"
   }
 ]

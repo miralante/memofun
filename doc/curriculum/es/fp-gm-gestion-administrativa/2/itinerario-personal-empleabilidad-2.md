@@ -23,6 +23,14 @@ salida: "fpgm_ga_2_itinerario-personal-empleabilidad-2.json"
 - RA3 — El emprendimiento y la sostenibilidad
 - RA3 — La economía social como forma de emprendimiento colectivo
 - RA3 — Los trámites básicos para constituirse como persona autónoma
+- RA1 — El currículum vitae y la carta de presentación digitales
+- RA1 — La marca personal y las redes profesionales (LinkedIn)
+- RA1 — Los portales de empleo y las plataformas digitales de búsqueda
+- RA2 — El trabajo en equipo y la gestión de conflictos
+- RA2 — La conciliación de la vida laboral, personal y familiar
+- RA2 — Los derechos y deberes laborales básicos
+- RA3 — El estudio de mercado del proyecto emprendedor
+- RA3 — Las ayudas públicas al emprendimiento
 
 # Contexto o notas adicionales
 Segundo curso del Ciclo Formativo de Grado Medio "Técnico en Gestión
@@ -40,3 +48,4 @@ de la Consejería de Educación, Ciencia y Universidades.
 - [Real Decreto 659/2023, de 18 de julio (BOE)](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-16889) — ordenación del Sistema de FP; Anexo V, currículo básico de Itinerario personal para la empleabilidad I y II
 - [Orden 3537/2025, de 12 de agosto (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF) — currículo de los módulos transversales en la Comunidad de Madrid
 - [SEPE — Servicio Público de Empleo Estatal](https://www.sepe.es/HomeSepe/) — búsqueda de empleo, autoempleo y orientación profesional
+- [educaciongratuita.es — Ciclos Formativos de Grado Medio](https://www.educaciongratuita.es/ciclos-formativos-grado-medio.php) — usada como fuente de orientación general sobre la estructura de la FP de Grado Medio; el sitio no dispone de temario propio por módulo para este ciclo

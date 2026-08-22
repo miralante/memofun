@@ -9,7 +9,8 @@ salida: "primaria_6_lengua-castellana.json"
 - Reflexión sobre la lengua y sus usos — Oraciones compuestas
 - Reflexión sobre la lengua y sus usos — Los complementos del verbo: CD y CI
 - Reflexión sobre la lengua y sus usos — El lenguaje formal y el informal
-- Reflexión sobre la lengua y sus usos — Ortografía: repaso de reglas básicas
+- Reflexión sobre la lengua y sus usos — Los conectores textuales: enlazar ideas
+- Reflexión sobre la lengua y sus usos — El diccionario: cómo buscar una palabra
 - Comunicación — Comprensión crítica: hechos y opiniones
 - Comunicación — Escribir un texto argumentativo con mis razones
 - Comunicación — El debate: normas básicas
@@ -17,11 +18,15 @@ salida: "primaria_6_lengua-castellana.json"
 - Comunicación — Preparar una exposición con apoyo visual
 - Comunicación — Reconocer la intención de un texto publicitario
 - Comunicación — El resumen y el esquema como herramientas de estudio
+- Comunicación — La entrevista: preguntas y respuestas
+- Comunicación — Las noticias digitales: distinguir fuentes fiables
 - Educación literaria — La novela: estructura
 - Educación literaria — El cómic: viñetas y bocadillos
 - Educación literaria — El teatro: texto y representación
 - Educación literaria — La poesía: repaso de recursos aprendidos
+- Educación literaria — El microrrelato o cuento muy breve
 - Las lenguas y sus hablantes — Las lenguas de España: mapa y variedad
+- Las lenguas y sus hablantes — El origen del español: del latín a hoy, en sencillo
 - Las lenguas y sus hablantes — El español en el mundo
 - Repaso general antes de la ESO
 
@@ -33,3 +38,4 @@ Sexto curso de Primaria (11-12 años), preparando el paso a la ESO. Temario seg�
 - [Real Decreto 157/2022, de 1 de marzo (BOE)](https://www.boe.es/eli/es/rd/2022/03/01/157/con) — currículo básico estatal de Educación Primaria
 - [BNEscolar — Biblioteca Nacional de España](https://bnescolar.bne.es/) — recursos y secuencias didácticas de lectura para la escuela, adaptados a la LOMLOE
 - [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) — biblioteca digital de acceso libre con literatura infantil y juvenil
+- [Educación Gratuita — Estructura de la EPO](https://www.educaciongratuita.es/estructura/epo-educacion-primaria-obligatoria/estructura-de-la-epo-educacion-primaria-obligatoria.php) y [Descripción y objetivos de la EPO](https://www.educaciongratuita.es/informacion/epo-educacion-primaria-obligatoria/descripcion-objetivos-epo-educacion-primaria-obligatoria.php) — confirman las áreas troncales y objetivos generales de Primaria; el sitio no publica temario detallado por curso para Primaria (sí para ESO/Bachillerato), así que los subtemas añadidos se apoyan en el currículo LOMLOE estándar para este curso y área

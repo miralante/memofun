@@ -1,0 +1,65 @@
+# mapa_mundi_banderas — conceptos ya cubiertos
+
+> Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
+> No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
+
+- Qué es una bandera (introducción): mapa_mundi_banderas.json (camiseta de un equipo, pero de un país)
+- España: mapa_mundi_banderas.json (franja amarilla el doble de ancha, sándwich)
+- Francia: mapa_mundi_banderas.json (bandera tricolor, semáforo)
+- Italia: mapa_mundi_banderas.json (parecida a Francia, primos con la misma ropa)
+- Alemania: mapa_mundi_banderas.json (tres franjas, pastel de tres capas)
+- Reino Unido (Union Jack): mapa_mundi_banderas.json (collage de tres cruces)
+- Portugal: mapa_mundi_banderas.json (escudo con siete castillos)
+- Grecia: mapa_mundi_banderas.json (nueve franjas, olas del Egeo)
+- Estados Unidos: mapa_mundi_banderas.json (una estrella por estado, foto de familia)
+- Canadá: mapa_mundi_banderas.json (hoja de arce, como la paella de España)
+- México: mapa_mundi_banderas.json (águila y serpiente sobre un nopal, leyenda de Tenochtitlan)
+- Brasil: mapa_mundi_banderas.json (círculo azul, mapa del cielo sobre Río)
+- Argentina: mapa_mundi_banderas.json (Sol de Mayo, sol con cara)
+- Japón: mapa_mundi_banderas.json (círculo rojo, país del sol naciente)
+- China: mapa_mundi_banderas.json (cinco estrellas, líder y seguidores)
+- India: mapa_mundi_banderas.json (Rueda de Ashoka, 24 radios como horas de reloj)
+- Egipto: mapa_mundi_banderas.json (águila de Saladino, escudo heredado)
+- Sudáfrica: mapa_mundi_banderas.json (forma de "Y", unión de caminos, bandera de 1994)
+- Australia: mapa_mundi_banderas.json (Cruz del Sur, constelación del hemisferio sur)
+- Suecia: mapa_mundi_banderas_2.json (cruz nórdica, familia con el mismo apellido)
+- Noruega: mapa_mundi_banderas_2.json (cruz nórdica, primos con símbolo compartido)
+- Dinamarca: mapa_mundi_banderas_2.json ("Dannebrog", bandera más antigua en uso, leyenda de que cayó del cielo)
+- Finlandia: mapa_mundi_banderas_2.json (cruz nórdica, blanco de nieve y azul de lagos)
+- Polonia: mapa_mundi_banderas_2.json (dos franjas, tableta de chocolate partida)
+- Arabia Saudí: mapa_mundi_banderas_2.json (frase religiosa, nunca se pone a media asta)
+- Emiratos Árabes Unidos: mapa_mundi_banderas_2.json (siete emiratos, siete piezas unidas)
+- Turquía: mapa_mundi_banderas_2.json (luna y estrella, firma compartida del islam)
+- Tailandia: mapa_mundi_banderas_2.json (franja azul central, corazón del sándwich)
+- Vietnam: mapa_mundi_banderas_2.json (estrella de cinco puntas, cinco grupos sociales)
+- Indonesia: mapa_mundi_banderas_2.json (roja y blanca, casi idéntica a Mónaco)
+- Corea del Sur: mapa_mundi_banderas_2.json (taegeuk, equilibrio de opuestos como día y noche)
+- Marruecos: mapa_mundi_banderas_2.json (Sello de Salomón, sabiduría)
+- Nigeria: mapa_mundi_banderas_2.json (verde-blanco-verde, sin escudos, país más poblado de África)
+- Kenia: mapa_mundi_banderas_2.json (escudo maasái con lanzas, defensa de la libertad)
+- Perú: mapa_mundi_banderas_2.json (franjas rojas y blanca, leyenda de los flamencos)
+- Chile: mapa_mundi_banderas_2.json (Estrella Solitaria, se parece a Texas)
+- Nueva Zelanda: mapa_mundi_banderas_2.json (Cruz del Sur, se confunde con Australia)
+
+- Cuba: mapa_mundi_banderas_3.json (estrella solitaria, triángulo rojo)
+- Costa Rica: mapa_mundi_banderas_3.json (franja roja central el doble de ancha, país sin ejército)
+- Panamá: mapa_mundi_banderas_3.json (cuatro cuadros, dos antiguos partidos políticos)
+- República Dominicana: mapa_mundi_banderas_3.json (única bandera con escudo sobre la cruz)
+- Colombia: mapa_mundi_banderas_3.json (franja amarilla la mitad, origen compartido con Ecuador)
+- Ecuador: mapa_mundi_banderas_3.json (mismo origen que Colombia, cóndor en el escudo)
+- Uruguay: mapa_mundi_banderas_3.json (Sol de Mayo compartido con Argentina)
+- Países Bajos: mapa_mundi_banderas_3.json (tricolor más antiguo, inspiró a otras banderas)
+- Suiza: mapa_mundi_banderas_3.json (una de las dos únicas banderas cuadradas, con el Vaticano)
+- Irlanda: mapa_mundi_banderas_3.json (verde y naranja, dos religiones, blanco de paz)
+- Bélgica: mapa_mundi_banderas_3.json (herencia del escudo regional)
+- Nepal: mapa_mundi_banderas_3.json (única bandera no rectangular del mundo, dos triángulos)
+- Filipinas: mapa_mundi_banderas_3.json (ponerla al revés significa guerra)
+- Pakistán: mapa_mundi_banderas_3.json (verde mayoría musulmana, blanco minorías)
+- Argelia: mapa_mundi_banderas_3.json (país más grande de África por superficie)
+- Etiopía: mapa_mundi_banderas_3.json (colores panafricanos, nunca colonizada)
+
+Regiones aún sin cubrir para una posible cuarta baraja: resto de
+Europa del Este (Rumanía, Hungría, República Checa, Ucrania), resto
+de Sudamérica (Venezuela, Bolivia, Paraguay), Escandinavia/Báltico
+restante (Islandia, Estonia), y más de África subsahariana (Ghana,
+Senegal, Tanzania).

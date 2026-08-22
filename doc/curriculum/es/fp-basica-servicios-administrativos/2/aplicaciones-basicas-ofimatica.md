@@ -8,14 +8,21 @@ salida: "fpb_sa_2_aplicaciones-basicas-ofimatica.json"
 - Bloque Procesador de textos — Para qué sirve un procesador de textos
 - Bloque Procesador de textos — Dar formato a un documento: negrita, tamaño y alineación
 - Bloque Procesador de textos — Insertar tablas e imágenes en un documento
+- Bloque Procesador de textos — Usar una plantilla para cartas y documentos habituales
+- Bloque Procesador de textos — Corregir un documento con el corrector ortográfico
 - Bloque Hoja de cálculo — Para qué sirve una hoja de cálculo
 - Bloque Hoja de cálculo — Las celdas, las filas y las columnas
 - Bloque Hoja de cálculo — Fórmulas sencillas: sumar y calcular totales
 - Bloque Hoja de cálculo — Crear un gráfico sencillo a partir de unos datos
+- Bloque Hoja de cálculo — Ordenar y filtrar datos en una tabla
 - Bloque Presentaciones — Para qué sirve un programa de presentaciones
 - Bloque Presentaciones — Cómo hacer una presentación clara y sin sobrecargarla de texto
+- Bloque Presentaciones — Añadir transiciones sencillas sin distraer al público
 - Bloque Correo electrónico — Escribir y enviar un correo electrónico profesional
 - Bloque Correo electrónico — Organizar el correo con carpetas y filtros
+- Bloque Correo electrónico — Adjuntar archivos a un correo
+- Bloque Seguridad informática — Hacer copias de seguridad de los archivos importantes
+- Bloque Seguridad informática — Crear contraseñas seguras y no compartirlas
 
 # Contexto o notas adicionales
 Segundo curso del Título Profesional Básico en Servicios
@@ -32,3 +39,4 @@ centrado en aplicaciones concretas.
 - [Real Decreto 498/2024, de 21 de mayo (BOE)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10683) — adapta el título a la nueva estructura de FP (Grado A)
 - [Decreto 9/2025, de 26 de marzo, del Consejo de Gobierno (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/03/31/BOCM-20250331-1.PDF) — planes de estudios de los títulos de FP de grado básico en la Comunidad de Madrid, incluido Servicios Administrativos
 - [Aula Mentor — Ministerio de Educación, FP y Deportes](https://aulamentor.es/) — cursos oficiales y gratuitos de ofimática para adultos
+- [educaciongratuita.es — Tecnologías de la Información y la Comunicación, 1º de Bachillerato](https://www.educaciongratuita.es/asignaturas/1-bachillerato/tecnologias-de-la-informacion-y-la-comunicacion/contenidos-tecnologias-de-la-informacion-y-la-comunicacion-1-bachillerato.php) — usado como orientación general de ofimática (procesador de textos, hoja de cálculo, presentaciones); el sitio no tiene un desglose específico de FP Básica para este módulo

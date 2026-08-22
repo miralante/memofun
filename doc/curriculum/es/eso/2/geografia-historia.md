@@ -8,9 +8,13 @@ salida: "eso_2_geografia-historia.json"
 - Bloque 1 — Población: evolución, distribución y movimientos
 - Bloque 1 — Hábitats, paisajes y despoblación rural
 - Bloque 1 — Las ciudades: jerarquía urbana y ciudades españolas
+- Bloque 1 — Los planos de las ciudades: irregular, en cuadrícula y radial
+- Bloque 1 — Los tipos de sociedad: tradicional, industrial y posindustrial
+- Bloque 1 — La organización política de España: municipios, provincias y comunidades autónomas
 - Bloque 2 — Recursos, mercados y desigualdad en el mundo
 - Bloque 2 — Dignidad humana, derechos y Objetivos de Desarrollo Sostenible
 - Bloque 3 — Reinos germánicos, Imperio bizantino y expansión islámica
+- Bloque 3 — El Imperio Carolingio: origen, expansión y sociedad feudal
 - Bloque 3 — El feudalismo: sociedad estamental y la Iglesia
 - Bloque 3 — El arte románico
 - Bloque 3 — La Baja Edad Media: burguesía, gremios y crisis
@@ -20,9 +24,11 @@ salida: "eso_2_geografia-historia.json"
 - Bloque 3 — Corona de Castilla y Corona de Aragón
 - Bloque 3 — Los Reyes Católicos
 - Bloque 3 — El Descubrimiento y la colonización de América
+- Bloque 3 — La organización de las colonias americanas: virreinatos y Consejo de Indias
 - Bloque 3 — El Renacimiento y el humanismo
 - Bloque 3 — La Reforma protestante y la Contrarreforma
 - Bloque 3 — Carlos V y Felipe II
+- Bloque 3 — La Guerra de los Treinta Años y la Paz de Westfalia
 - Bloque 3 — La crisis del siglo XVII y el Barroco
 - Bloque 4/5 — Sociedad estamental, judíos y minorías religiosas
 - Bloque 4/5 — Economía, patrimonio y ciencia medieval y moderna
@@ -39,3 +45,4 @@ bloque temático real.
 - [Real Decreto 217/2022, de 29 de marzo (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975) — currículo básico estatal de la ESO que desarrolla el decreto anterior
 - [Educa IGN — Instituto Geográfico Nacional](https://www.ign.es/web/recursos-educativos) — población, hábitats y ciudades
 - [Museo Arqueológico Nacional](https://www.man.es/) — Al-Ándalus, los reinos cristianos medievales y los Reyes Católicos
+- [educaciongratuita.es — Geografía e Historia, 2º ESO](https://www.educaciongratuita.es/asignaturas/2-eso/geografia-e-historia/contenidos-geografia-e-historia-2-eso.php) — temario detallado de población y sociedad, y de historia medieval y moderna

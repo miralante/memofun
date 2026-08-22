@@ -12,17 +12,23 @@ salida: "primaria_5_ciencias-sociales.json"
 - Sociedades y territorios — Los paisajes de España: de la montaña a la costa
 - Sociedades y territorios — La población: cómo se distribuye
 - Sociedades y territorios — Cómo vivimos: rural y urbano
+- Sociedades y territorios — La economía: producir, distribuir y consumir
+- Sociedades y territorios — Los sectores económicos: primario, secundario y terciario
+- Sociedades y territorios — Las comunidades autónomas de España
 - Sociedades y territorios — La Constitución española
 - Sociedades y territorios — Las instituciones del Estado
+- Sociedades y territorios — El Gobierno de España: qué hace
 - Sociedades y territorios — El Rey y la Familia Real: su papel
 - Sociedades y territorios — La Unión Europea: qué es
 - Sociedades y territorios — Países que forman la Unión Europea
 - Sociedades y territorios — Los derechos y deberes de la ciudadanía
 - Patrimonio cultural — La Edad Media: los reinos cristianos
 - Patrimonio cultural — La Edad Media: Al-Ándalus
+- Patrimonio cultural — Los reinos de Taifas
 - Patrimonio cultural — La convivencia de tres culturas en la Edad Media
 - Patrimonio cultural — Castillos y catedrales: el patrimonio medieval
 - Patrimonio cultural — El arte mudéjar y románico, primeras pistas
+- Patrimonio cultural — El arte gótico, primeras pistas
 - Patrimonio cultural — El Camino de Santiago
 
 # Contexto o notas adicionales
@@ -33,3 +39,4 @@ Quinto curso de Primaria (10-11 años). Temario según el currículo LOMLOE: Rea
 - [Real Decreto 157/2022, de 1 de marzo (BOE)](https://www.boe.es/eli/es/rd/2022/03/01/157/con) — currículo básico estatal de Educación Primaria
 - [Museo Arqueológico Nacional — Recursos educativos](https://www.man.es/man/educacion/recursos.html) — fichas didácticas sobre la Edad Media y Al-Ándalus
 - [Congreso de los Diputados — Portal educativo](https://www.congreso.es/es/portal-educativo) — material sobre la Constitución y las instituciones, dirigido a alumnado de 8 a 12 años
+- [Educación Gratuita — Estructura de la EPO](https://www.educaciongratuita.es/estructura/epo-educacion-primaria-obligatoria/estructura-de-la-epo-educacion-primaria-obligatoria.php) y [Descripción y objetivos de la EPO](https://www.educaciongratuita.es/informacion/epo-educacion-primaria-obligatoria/descripcion-objetivos-epo-educacion-primaria-obligatoria.php) — confirman las áreas troncales y objetivos generales de Primaria; el sitio no publica temario detallado por curso para Primaria (sí para ESO/Bachillerato), así que los subtemas añadidos se apoyan en el currículo LOMLOE estándar para este curso y área

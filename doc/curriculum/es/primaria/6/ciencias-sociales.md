@@ -5,21 +5,25 @@ cantidad: 76
 salida: "primaria_6_ciencias-sociales.json"
 ---
 # Índice
+- Sociedades y territorios — Los continentes y los océanos del mundo
 - Sociedades y territorios — El relieve de Europa
 - Sociedades y territorios — Países y capitales de Europa
 - Sociedades y territorios — Las grandes ciudades de Europa y España
 - Sociedades y territorios — La Unión Europea: instituciones principales
 - Sociedades y territorios — La globalización
 - Sociedades y territorios — El mundo actual: retos globales
+- Sociedades y territorios — El cambio climático: cuidar el planeta
 - Sociedades y territorios — Los medios de comunicación y las redes, con cabeza
 - Sociedades y territorios — El mundo actual: repaso general
 - Patrimonio cultural — Los Reyes Católicos
 - Patrimonio cultural — El descubrimiento de América
 - Patrimonio cultural — La Edad Moderna en España: el imperio español
 - Patrimonio cultural — El arte del Siglo de Oro
+- Patrimonio cultural — La Ilustración, primeras pistas
 - Patrimonio cultural — La Revolución Industrial
 - Patrimonio cultural — Inventos que cambiaron el mundo
 - Patrimonio cultural — El siglo XX: hechos principales
+- Patrimonio cultural — La Guerra Civil y la Transición a la democracia, en sencillo
 - Patrimonio cultural — Los derechos humanos: por qué se crearon
 - Patrimonio cultural — El patrimonio de la humanidad: qué es y ejemplos en España
 - Patrimonio cultural — Museos y archivos: cómo se conserva la memoria
@@ -32,3 +36,4 @@ Sexto curso de Primaria (11-12 años), preparando el paso a la ESO. Temario seg�
 - [Real Decreto 157/2022, de 1 de marzo (BOE)](https://www.boe.es/eli/es/rd/2022/03/01/157/con) — currículo básico estatal de Educación Primaria
 - [Museo Arqueológico Nacional — Recursos educativos](https://www.man.es/man/educacion/recursos.html) — fichas didácticas sobre la Edad Moderna y el descubrimiento de América
 - [Learning Corner — Comisión Europea](https://learning-corner.learning.europa.eu/index_es) — juegos y materiales sobre la Unión Europea para primaria y secundaria
+- [Educación Gratuita — Estructura de la EPO](https://www.educaciongratuita.es/estructura/epo-educacion-primaria-obligatoria/estructura-de-la-epo-educacion-primaria-obligatoria.php) y [Descripción y objetivos de la EPO](https://www.educaciongratuita.es/informacion/epo-educacion-primaria-obligatoria/descripcion-objetivos-epo-educacion-primaria-obligatoria.php) — confirman las áreas troncales y objetivos generales de Primaria; el sitio no publica temario detallado por curso para Primaria (sí para ESO/Bachillerato), así que los subtemas añadidos se apoyan en el currículo LOMLOE estándar para este curso y área

@@ -8,19 +8,26 @@ salida: "eso_1_geografia-historia.json"
 - Bloque 1 — Geografía física: el planeta Tierra, capas y movimientos
 - Bloque 1 — Continentes, océanos, coordenadas geográficas y mapas
 - Bloque 1 — El relieve: formas y procesos de modificación
+- Bloque 1 — El relieve de Europa y España: cordilleras, mesetas y costas
 - Bloque 1 — El clima: atmósfera, elementos y diversidad climática
 - Bloque 1 — Las aguas: la hidrosfera
 - Bloque 1 — Paisajes naturales y zonas bioclimáticas
 - Bloque 2 — Emergencia climática y riesgos naturales
+- Bloque 2 — Riesgos naturales y riesgos provocados por las personas
 - Bloque 2 — Amenazas a la biodiversidad y desarrollo sostenible
 - Bloque 2 — Sociedad digital: información, redes y seguridad
 - Bloque 3 — La Prehistoria: Paleolítico y Neolítico
+- Bloque 3 — La evolución humana: del Homo habilis al Homo sapiens
+- Bloque 3 — La Edad de los Metales: cobre, bronce y hierro
 - Bloque 3 — Arte prehistórico y megalitismo
 - Bloque 3 — Mesopotamia: sumerios, acadios, asirios, babilonios, persas
 - Bloque 3 — El Antiguo Egipto
 - Bloque 3 — La Antigua Grecia: medio físico, polis y cultura
 - Bloque 3 — La democracia ateniense
+- Bloque 3 — El Helenismo: Alejandro Magno y su imperio
+- Bloque 3 — El arte griego: templos, teatros y escultura
 - Bloque 3 — Roma: monarquía, república e imperio
+- Bloque 3 — Las Guerras Púnicas y la conquista romana de Hispania
 - Bloque 3 — La romanización y el arte romano
 - Bloque 3 — Del paganismo al Cristianismo. El judaísmo
 - Bloque 3 — Los pueblos prerromanos y la Hispania romana
@@ -41,3 +48,4 @@ baraja, para respetar la densidad conceptual de Lectura Fácil.
 - [Real Decreto 217/2022, de 29 de marzo (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975) — currículo básico estatal de la ESO que desarrolla el decreto anterior
 - [Educa IGN — Instituto Geográfico Nacional](https://www.ign.es/web/recursos-educativos) — el relieve, el clima y los paisajes naturales
 - [Museo Arqueológico Nacional](https://www.man.es/) — Prehistoria, Mesopotamia, Egipto, Grecia, Roma y la Hispania romana
+- [educaciongratuita.es — Geografía e Historia, 1º ESO](https://www.educaciongratuita.es/asignaturas/1-eso/geografia-e-historia/contenidos-geografia-e-historia-1-eso.php) — temario detallado de geografía física y de historia antigua

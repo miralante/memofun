@@ -13,6 +13,8 @@ salida: "eso_3_lengua-castellana.json"
 - Bloque 2 — El debate: normas, turnos de palabra y respeto
 - Bloque 2 — La reseña y la crítica de una obra
 - Bloque 2 — Los medios de comunicación: prensa, radio y televisión
+- Bloque 2 — El lenguaje publicitario: recursos y estructura de un anuncio
+- Bloque 2 — La denotación y la connotación de las palabras
 - Bloque 3 — El Renacimiento: contexto histórico y valores humanistas
 - Bloque 3 — Garcilaso de la Vega y la poesía renacentista
 - Bloque 3 — La novela picaresca y el Lazarillo de Tormes
@@ -25,7 +27,8 @@ salida: "eso_3_lengua-castellana.json"
 - Bloque 4 — La oración compuesta: yuxtaposición
 - Bloque 4 — Iniciación a la oración subordinada
 - Bloque 4 — Las clases de palabras: repaso y ampliación
-- Bloque 4 — Las reglas de acentuación de diptongos e hiatos
+- Bloque 4 — Los sintagmas: nominal, verbal y sus complementos
+- Bloque 4 — La voz pasiva y el complemento agente
 - Bloque 4 — Los signos de puntuación en textos complejos
 
 # Contexto o notas adicionales
@@ -42,3 +45,4 @@ y sucesivas `_2`..`_6`), agrupadas por bloque temático real.
 - [Real Decreto 217/2022, de 29 de marzo (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975) — currículo básico estatal de la ESO que desarrolla el decreto anterior
 - [Real Academia Española — Recursos](https://www.rae.es/recursos) — diccionario, gramática y ortografía de referencia
 - [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) — ediciones y estudios del Quijote y de la poesía del Siglo de Oro
+- [educaciongratuita.es — Lengua Castellana y Literatura 3º ESO](https://www.educaciongratuita.es/asignaturas/3-eso/lengua-castellana-y-literatura/contenidos-lengua-castellana-y-literatura-3-eso.php) — temario detallado usado para ampliar el índice; su bloque de ortografía se excluyó deliberadamente (decisión de este currículo)

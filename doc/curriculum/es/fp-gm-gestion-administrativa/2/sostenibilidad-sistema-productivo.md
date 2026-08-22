@@ -20,6 +20,13 @@ salida: "fpgm_ga_2_sostenibilidad-sistema-productivo.json"
 - RA6 — El plan de sostenibilidad de una empresa
 - RA6 — Los grupos de interés (stakeholders) y su papel
 - RA6 — La sostenibilidad como ventaja competitiva
+- RA1 — La normativa ambiental básica aplicable a la empresa
+- RA2 — El reciclaje y la reducción de residuos en la oficina
+- RA3 — El ahorro de agua y de papel en el puesto de trabajo
+- RA4 — El etiquetado ecológico y las certificaciones ambientales
+- RA5 — Las buenas prácticas ambientales en el sector servicios
+- RA6 — La memoria de sostenibilidad y los informes no financieros
+- RA6 — La comunicación de la sostenibilidad y el greenwashing
 
 # Contexto o notas adicionales
 Segundo curso del Ciclo Formativo de Grado Medio "Técnico en Gestión
@@ -39,3 +46,4 @@ ahora con foco ambiental y de gobernanza.
 - [Real Decreto 659/2023, de 18 de julio (BOE)](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-16889) — ordenación del Sistema de FP; Anexo VIII, currículo básico de Sostenibilidad aplicada al sistema productivo
 - [Orden 3537/2025, de 12 de agosto (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF) — currículo de los módulos transversales en la Comunidad de Madrid
 - [Ministerio de Derechos Sociales, Consumo y Agenda 2030 — Conoce la Agenda](https://www.dsca.gob.es/es/agenda-2030/conoce-la-agenda) — Objetivos de Desarrollo Sostenible y Estrategia de Desarrollo Sostenible 2030 de España
+- [educaciongratuita.es — Ciclos Formativos de Grado Medio](https://www.educaciongratuita.es/ciclos-formativos-grado-medio.php) — usada como fuente de orientación general sobre la estructura de la FP de Grado Medio; el sitio no dispone de temario propio por módulo para este ciclo

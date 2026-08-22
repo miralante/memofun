@@ -7,6 +7,9 @@ salida: "eso_2_lengua-castellana.json"
 # Índice
 - Bloque 1 — El castellano medieval: los primeros textos escritos
 - Bloque 1 — Los préstamos lingüísticos: palabras que vienen de otras lenguas
+- Bloque 1 — Las variedades del español: dialectos y el español de América
+- Bloque 2 — Las funciones del lenguaje: informar, expresar y persuadir
+- Bloque 2 — Los registros de la lengua: formal, informal y coloquial
 - Bloque 2 — El texto expositivo: explicar con orden y claridad
 - Bloque 2 — El texto instructivo: normas, recetas e instrucciones
 - Bloque 2 — Iniciación al texto argumentativo: dar una opinión razonada
@@ -24,7 +27,8 @@ salida: "eso_2_lengua-castellana.json"
 - Bloque 4 — El sintagma verbal y sus complementos
 - Bloque 4 — La oración: sujeto y predicado
 - Bloque 4 — Los complementos verbales: CD, CI y CC (iniciación)
-- Bloque 4 — La tilde diacrítica
+- Bloque 4 — La voz activa y la voz pasiva
+- Bloque 4 — Los prefijos y los sufijos: formar palabras nuevas
 - Bloque 4 — Los signos de puntuación: la coma y el punto
 
 # Contexto o notas adicionales
@@ -41,3 +45,4 @@ y sucesivas `_2`..`_6`), agrupadas por bloque temático real.
 - [Real Decreto 217/2022, de 29 de marzo (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975) — currículo básico estatal de la ESO que desarrolla el decreto anterior
 - [Real Academia Española — Recursos](https://www.rae.es/recursos) — diccionario, gramática y ortografía de referencia
 - [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) — ediciones y estudios del Cantar de Mio Cid y la literatura medieval
+- [educaciongratuita.es — Lengua Castellana y Literatura, 2º ESO](https://www.educaciongratuita.es/asignaturas/2-eso/lengua-castellana-y-literatura/contenidos-lengua-castellana-y-literatura-2-eso.php) — temario detallado de comunicación, variedades del español, gramática y literatura medieval (excluida la ortografía, fuera del alcance de esta baraja)

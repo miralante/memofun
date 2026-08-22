@@ -12,6 +12,8 @@ salida: "eso_4_geografia-historia.json"
 - Bloque 1 — La Segunda Guerra Mundial y el Holocausto
 - Bloque 1 — La Guerra Fría y el mundo bipolar
 - Bloque 1 — La descolonización de Asia y África
+- Bloque 1 — La Guerra de Corea y la coexistencia pacífica
+- Bloque 1 — La ONU y el nuevo orden internacional tras 1945
 - Bloque 1 — El fin de la Guerra Fría
 - Bloque 2 — Alfonso XIII y la dictadura de Primo de Rivera
 - Bloque 2 — La Segunda República española
@@ -22,6 +24,7 @@ salida: "eso_4_geografia-historia.json"
 - Bloque 3 — Geopolítica: el Estado y el orden mundial
 - Bloque 3 — La construcción de la Unión Europea
 - Bloque 3 — La globalización y sus consecuencias
+- Bloque 3 — El fundamentalismo islámico y los focos de conflicto actuales
 - Bloque 4 — La sociedad de la información y la desinformación
 - Bloque 4 — Igualdad, diversidad y minorías
 - Bloque 5 — Los movimientos feministas y sufragistas
@@ -40,3 +43,4 @@ agrupadas por bloque temático real.
 - [Real Decreto 217/2022, de 29 de marzo (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975) — currículo básico estatal de la ESO que desarrolla el decreto anterior
 - [Congreso de los Diputados — La Constitución de 1978](https://www.congreso.es/es/cem/const1978) — la Transición y la Constitución española de 1978
 - [Biblioteca Nacional de España](https://www.bne.es/es) — fondos y exposiciones sobre la historia española y europea del siglo XX
+- [educaciongratuita.es — Geografía e Historia 4º ESO](https://www.educaciongratuita.es/asignaturas/4-eso/geografia-e-historia/contenidos-geografia-e-historia-4-eso.php) — temario detallado usado para ampliar el índice (Guerra Fría, ONU, fundamentalismo islámico y conflictos actuales)

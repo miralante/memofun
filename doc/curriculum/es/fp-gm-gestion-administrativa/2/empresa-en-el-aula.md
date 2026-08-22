@@ -21,6 +21,13 @@ salida: "fpgm_ga_2_empresa-en-el-aula.json"
 - RA3 — La simulación del ciclo económico completo
 - RA3 — El seguimiento del proyecto empresarial
 - RA3 — La evaluación y el cierre del proyecto
+- RA1 — El plan de empresa simulada
+- RA1 — La denominación social y el objeto social
+- RA2 — El personal de la empresa simulada: funciones y responsabilidades
+- RA2 — La facturación electrónica en la empresa simulada
+- RA2 — Las ferias y foros de empresas simuladas
+- RA3 — La memoria final del proyecto empresarial
+- RA3 — La presentación pública del proyecto
 
 # Contexto o notas adicionales
 Segundo curso del Ciclo Formativo de Grado Medio "Técnico en Gestión
@@ -40,3 +47,4 @@ educativa nacional de empresas simuladas SEFED.
 - [Real Decreto 1631/2009, de 30 de octubre (BOE)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-19148) — currículo básico del título, módulo 0446 "Empresa en el aula"
 - [Decreto 14/2010, de 18 de marzo (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2010/04/15/BOCM-20100415-1.PDF) — currículo autonómico del ciclo en la Comunidad de Madrid
 - [SEFED — Simulación empresarial con fines educativos (Fundació Inform)](https://simulacionempresa.inform.es/) — red española de empresas simuladas usada por institutos de FP
+- [educaciongratuita.es — Ciclos Formativos de Grado Medio](https://www.educaciongratuita.es/ciclos-formativos-grado-medio.php) — usada como fuente de orientación general sobre la estructura de la FP de Grado Medio; el sitio no dispone de temario propio por módulo para este ciclo

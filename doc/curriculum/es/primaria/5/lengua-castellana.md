@@ -11,6 +11,10 @@ salida: "primaria_5_lengua-castellana.json"
 - Reflexión sobre la lengua y sus usos — Prefijos más comunes
 - Reflexión sobre la lengua y sus usos — Sufijos más comunes
 - Reflexión sobre la lengua y sus usos — Palabras compuestas
+- Reflexión sobre la lengua y sus usos — Los determinantes: el artículo y los demostrativos
+- Reflexión sobre la lengua y sus usos — Los pronombres personales
+- Reflexión sobre la lengua y sus usos — Sinónimos y antónimos
+- Reflexión sobre la lengua y sus usos — Palabras con varios significados
 - Comunicación — Comprensión lectora: la noticia
 - Comunicación — Comprensión lectora: el texto argumentativo sencillo
 - Comunicación — Escribir un texto expositivo ordenado
@@ -18,11 +22,14 @@ salida: "primaria_5_lengua-castellana.json"
 - Comunicación — La exposición oral con guion
 - Comunicación — Distinguir hechos de opiniones al leer
 - Comunicación — Buscar y contrastar información en internet
+- Comunicación — Escribir una carta o un correo electrónico
+- Comunicación — El diálogo: turnos de palabra y normas de cortesía
 - Educación literaria — La leyenda
 - Educación literaria — El mito
 - Educación literaria — Recursos del lenguaje poético: la comparación y la metáfora
 - Educación literaria — La novela infantil: personajes y escenarios
 - Las lenguas y sus hablantes — Las lenguas de España y su origen común
+- Las lenguas y sus hablantes — Las lenguas cooficiales de España
 - Las lenguas y sus hablantes — Palabras que vienen de otras lenguas
 
 # Contexto o notas adicionales
@@ -33,3 +40,4 @@ Quinto curso de Primaria (10-11 años). Temario según el currículo LOMLOE: Rea
 - [Real Decreto 157/2022, de 1 de marzo (BOE)](https://www.boe.es/eli/es/rd/2022/03/01/157/con) — currículo básico estatal de Educación Primaria
 - [BNEscolar — Biblioteca Nacional de España](https://bnescolar.bne.es/) — recursos y secuencias didácticas de lectura para la escuela, adaptados a la LOMLOE
 - [Biblioteca Virtual Miguel de Cervantes](https://www.cervantesvirtual.com/) — biblioteca digital de acceso libre con literatura infantil y juvenil
+- [Educación Gratuita — Estructura de la EPO](https://www.educaciongratuita.es/estructura/epo-educacion-primaria-obligatoria/estructura-de-la-epo-educacion-primaria-obligatoria.php) y [Descripción y objetivos de la EPO](https://www.educaciongratuita.es/informacion/epo-educacion-primaria-obligatoria/descripcion-objetivos-epo-educacion-primaria-obligatoria.php) — confirman las áreas troncales y objetivos generales de Primaria; el sitio no publica temario detallado por curso para Primaria (sí para ESO/Bachillerato), así que los subtemas añadidos se apoyan en el currículo LOMLOE estándar para este curso y área

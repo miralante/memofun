@@ -8,14 +8,19 @@ salida: "fpb_sa_2_preparacion-pedidos-venta-productos.json"
 - Bloque Punto de venta — Las fases de la atención al cliente en una tienda o almacén
 - Bloque Punto de venta — Identificar qué necesita cada tipo de cliente
 - Bloque Punto de venta — Técnicas básicas de venta: aconsejar sin agobiar
+- Bloque Punto de venta — El escaparate y la colocación de productos para atraer al cliente
 - Bloque Pedidos — Qué es preparar un pedido y por qué el orden importa
 - Bloque Pedidos — Los tipos de mercancía y cómo se manipulan con cuidado
 - Bloque Pedidos — La conservación de productos según su tipo
 - Bloque Pedidos — Preparación manual frente a preparación automática
+- Bloque Pedidos — El inventario: contar y controlar el stock disponible
+- Bloque Pedidos — Qué hacer si un pedido llega incompleto o dañado
 - Bloque Cobro y devolución — Los documentos de una operación de cobro
 - Bloque Cobro y devolución — La garantía de un producto: qué cubre y durante cuánto tiempo
 - Bloque Cobro y devolución — Cómo gestionar una devolución
+- Bloque Cobro y devolución — Las formas de pago: efectivo, tarjeta y otros métodos
 - Bloque Seguridad — La higiene y la seguridad al manipular productos
+- Bloque Seguridad — El etiquetado y la fecha de caducidad de los productos
 
 # Contexto o notas adicionales
 Segundo curso del Título Profesional Básico en Servicios
@@ -32,3 +37,4 @@ Título Profesional Básico en Servicios Comerciales.
 - [Real Decreto 498/2024, de 21 de mayo (BOE)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10683) — adapta el título a la nueva estructura de FP (Grado A)
 - [Decreto 9/2025, de 26 de marzo, del Consejo de Gobierno (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/03/31/BOCM-20250331-1.PDF) — planes de estudios de los títulos de FP de grado básico en la Comunidad de Madrid, incluido Servicios Administrativos
 - [Organización de Consumidores y Usuarios (OCU)](https://www.ocu.org/) — garantías y derechos en la devolución de productos
+- [educaciongratuita.es — Formación Profesional Básica](https://www.educaciongratuita.es/formacion-profesional-basica.php) — consultado como orientación general; el sitio no ofrece un desglose específico del módulo "Preparación de pedidos y venta de productos", así que el índice se completó con conocimiento curricular estándar del módulo

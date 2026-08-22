@@ -795,3 +795,32 @@ footer.app-footer a { color: var(--color-text-soft); }
     z-index: 10;
   }
 }
+
+/* ---------- Responsive: tablet (601px–1023px) ----------
+   Bridges mobile (<=560/640) and desktop (>=1024). Mostly small
+   spacing/typography tweaks — the deck grid below already adapts to
+   viewport via auto-fill/minmax, so this is mainly about reading
+   comfort on small tablets held in landscape or propped up. */
+@media (min-width: 601px) and (max-width: 1023px) {
+  .flashcard { min-height: 260px; }
+  .flashcard .face { padding: var(--space-3); }
+}
+
+/* ---------- Responsive: wide desktop (>=1024px) ----------
+   On a 1080p+ monitor the default 720px container looks lost and the
+   deck grid (auto-fill/minmax 240px) can stretch cards uncomfortably
+   wide. Cap the container at a comfortable reading width and let the
+   grid breathe with more padding and a slightly larger card minimum.
+   .container.container-wide (used on the home screen) gets a wider cap
+   so the deck grid can show 4–5 columns without crowding. */
+@media (min-width: 1024px) {
+  .container { max-width: var(--container-max); }
+  .container.container-wide { max-width: var(--container-max-wide); }
+  .deck-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-3);
+    padding: var(--space-3) 0 var(--space-4);
+  }
+  header.app-header .logo { font-size: 36px; }
+  .flashcard { min-height: 300px; }
+}

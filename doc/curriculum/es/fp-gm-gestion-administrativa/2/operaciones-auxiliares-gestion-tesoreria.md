@@ -23,6 +23,15 @@ salida: "fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria.json"
 - RA5 — La cuenta corriente bancaria
 - RA5 — La conciliación bancaria: procedimiento
 - RA5 — Las aplicaciones informáticas de gestión de tesorería
+- RA1 — Los descuentos comerciales y financieros en el cálculo de precios
+- RA1 — El cálculo del precio de venta con IVA
+- RA2 — La previsión de tesorería
+- RA2 — Las tarjetas de crédito y de débito
+- RA3 — Los seguros de caudales
+- RA4 — El endoso de efectos comerciales
+- RA4 — El protesto de efectos impagados
+- RA5 — Los extractos bancarios
+- RA5 — Las comisiones y los gastos bancarios
 
 # Contexto o notas adicionales
 Segundo curso del Ciclo Formativo de Grado Medio "Técnico en Gestión
@@ -41,3 +50,4 @@ los medios de cobro y pago.
 - [Real Decreto 1631/2009, de 30 de octubre (BOE)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-19148) — currículo básico del título, módulo 0448 "Operaciones auxiliares de gestión de tesorería"
 - [Decreto 14/2010, de 18 de marzo (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2010/04/15/BOCM-20100415-1.PDF) — currículo autonómico del ciclo en la Comunidad de Madrid
 - [Banco de España — Guía de cuentas, tarjetas y formas de pagar](https://www.bde.es/f/webbe/INF/MenuHorizontal/AreasActuacion/conducta/ficheros/GuiaCuentastarjetasyformasdepagar.pdf) — educación financiera oficial sobre medios de pago
+- [educaciongratuita.es — Ciclos Formativos de Grado Medio](https://www.educaciongratuita.es/ciclos-formativos-grado-medio.php) — usada como fuente de orientación general sobre la estructura de la FP de Grado Medio; el sitio no dispone de temario propio por módulo para este ciclo

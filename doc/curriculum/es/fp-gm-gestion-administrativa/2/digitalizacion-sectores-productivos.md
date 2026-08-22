@@ -23,6 +23,16 @@ salida: "fpgm_ga_2_digitalizacion-sectores-productivos.json"
 - Bloque Aplicación al puesto de trabajo — Los planes de transformación digital de la empresa
 - Bloque Aplicación al puesto de trabajo — La administración electrónica
 - Bloque Aplicación al puesto de trabajo — La brecha digital
+- Bloque Transformación digital — Las herramientas ofimáticas en la nube (Google Workspace, Microsoft 365)
+- Bloque Tecnologías habilitadoras — Los dispositivos conectados y los wearables
+- Bloque Tecnologías habilitadoras — La realidad aumentada aplicada al trabajo
+- Bloque Tecnologías habilitadoras — Los asistentes virtuales y los chatbots
+- Bloque Seguridad — Los tipos de ciberataques más comunes (phishing, malware)
+- Bloque Seguridad — Las contraseñas seguras y la verificación en dos pasos
+- Bloque Seguridad — Las copias de seguridad y la recuperación de datos
+- Bloque Aplicación al puesto de trabajo — El uso responsable de las redes sociales corporativas
+- Bloque Aplicación al puesto de trabajo — Los sistemas de pago digitales
+- Bloque Aplicación al puesto de trabajo — La digitalización en el sector de la gestión administrativa
 
 # Contexto o notas adicionales
 Segundo curso del Ciclo Formativo de Grado Medio "Técnico en Gestión
@@ -41,3 +51,4 @@ Tratamiento Informático de la Información de 1º, que es más operativo
 - [Real Decreto 659/2023, de 18 de julio (BOE)](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-16889) — ordenación del Sistema de FP; Anexo VI, currículo básico de Digitalización aplicada a los sectores productivos (grado medio)
 - [Orden 3537/2025, de 12 de agosto (BOCM)](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF) — currículo de los módulos transversales en la Comunidad de Madrid
 - [INCIBE — Empresas](https://www.incibe.es/empresas) — ciberseguridad y transformación digital para pymes y profesionales
+- [educaciongratuita.es — Ciclos Formativos de Grado Medio](https://www.educaciongratuita.es/ciclos-formativos-grado-medio.php) — usada como fuente de orientación general sobre la estructura de la FP de Grado Medio; el sitio no dispone de temario propio por módulo para este ciclo
