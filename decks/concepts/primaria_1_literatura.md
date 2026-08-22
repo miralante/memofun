@@ -25,3 +25,7 @@
 - Nana: primaria_1_literatura_4.json (canción suave para dormir, analogía: abrazo)
 - Dibujos/ilustraciones de un cuento: primaria_1_literatura_4.json (analogía: foto de la historia)
 - Cuidado de libros prestados: primaria_1_literatura_4.json (analogía: pedir prestado un juguete)
+- Retahíla (qué es): primaria_1_literatura_5.json (analogía: tren de palabras enganchadas una tras otra; "pito, pito, gorgorito")
+- Retahílas para decidir turnos en el juego: primaria_1_literatura_5.json (analogía: echarlo a suertes, pero con música en las palabras)
+- Diferencia entre cuento y poema: primaria_1_literatura_5.json (analogía: poema como canción sin música, solo con ritmo)
+- Reconocer un poema al escucharlo: primaria_1_literatura_5.json (analogía: una rima larga, con pausas especiales)

@@ -83,3 +83,13 @@
 - Repaso: resumen y esquema: primaria_6_lengua-castellana_5.json
 - Repaso: recursos poéticos: primaria_6_lengua-castellana_5.json
 - Cierre motivador hacia la ESO (Lengua): primaria_6_lengua-castellana_5.json (analogía: caja de herramientas)
+- Conectores textuales (qué son): primaria_6_lengua-castellana_6.json (analogía: puentes entre ideas de un texto)
+- Para qué sirven los conectores al escribir: primaria_6_lengua-castellana_6.json (analogía: texto sin ellos suena a frases sueltas, sin hilo)
+- El diccionario: cómo buscar una palabra: primaria_6_lengua-castellana_6.json (analogía: buscar un nombre en la lista de clase, orden alfabético)
+- Qué información da una entrada de diccionario: primaria_6_lengua-castellana_6.json (analogía: ficha completa con significado, tipo y ejemplos)
+- La entrevista (qué es): primaria_6_lengua-castellana_6.json (analogía: abrir una puerta a la vida de otra persona)
+- Preparar buenas preguntas para una entrevista: primaria_6_lengua-castellana_6.json (analogía: llaves que abren puertas distintas)
+- Distinguir una noticia digital fiable: primaria_6_lengua-castellana_6.json (analogía: comprobar el remitente de una carta)
+- Contrastar una noticia en varias fuentes: primaria_6_lengua-castellana_6.json (analogía: preguntar a varios testigos)
+- El origen del español (del latín): primaria_6_lengua-castellana_6.json (analogía: río que nace en una fuente antigua)
+- Cómo cambió el latín hasta ser español: primaria_6_lengua-castellana_6.json (analogía: juego del teléfono, cada generación cambia algo)

@@ -29,3 +29,7 @@
 - Trabalenguas: primaria_3_literatura_4.json (ejemplo "tres tristes tigres tragan trigo")
 - Canción tradicional: primaria_3_literatura_4.json (analogía: receta de familia sin autor conocido)
 - Poema narrativo: primaria_3_literatura_4.json (mezcla de cuento y poema, cuenta una historia en verso)
+- Cuentos tradicionales parecidos en países distintos, por qué existen: primaria_3_literatura_5.json (analogía: dos cocineros lejanos inventan el mismo plato sin copiarse; ejemplo animal pequeño y listo que gana a uno grande — ángulo distinto al usado en primaria_3_lengua-castellana_5.json)
+- Qué gana un niño al conocer cuentos de otras culturas: primaria_3_literatura_5.json (analogía: ventana a una casa distinta, pero con la misma calidez dentro)
+- Personajes de un cuento (quiénes son): primaria_3_literatura_5.json (analogía: actores de una obra de teatro)
+- Lugar y tiempo de un cuento: primaria_3_literatura_5.json (analogía: escenario y reloj de una obra de teatro)

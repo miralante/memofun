@@ -31,3 +31,16 @@
 - Cuento de aventuras: primaria_4_literatura_4.json (viajes, peligros, protagonista vuelve distinto)
 - Ensayo teatral (ensayar antes de la función): primaria_4_literatura_4.json (analogía: entrenar un partido antes de jugarlo)
 - Público en el teatro: primaria_4_literatura_4.json (su reacción forma parte de la experiencia)
+
+- Cómic (qué es): primaria_4_literatura_5.json (analogía: película hecha de imágenes fijas una tras otra)
+- Viñeta y bocadillo (qué son): primaria_4_literatura_5.json (analogía: foto con una nube que guarda las palabras del personaje)
+- Biografía (qué es): primaria_4_literatura_5.json (analogía: contar la historia de alguien real, de principio a fin)
+- Qué suele contar una biografía (nacimiento, hechos importantes, por qué se recuerda a la persona): primaria_4_literatura_5.json (analogía: mapa de una vida completa)
+
+> Nota de auditoría (4º de Primaria, ago. 2026): las bullets "La poesía: comparar poemas sencillos"
+> y "Leyendas populares" del bloque Educación literaria están cubiertas por cartas ya existentes,
+> pero se escribieron por error dentro de la serie lengua-castellana
+> (primaria_4_lengua-castellana_5.json, tema "Poesía, leyendas y las lenguas de España") en vez de
+> en esta serie literatura. El contenido es correcto y suficiente, así que no se han duplicado
+> cartas aquí — se deja constancia para que una futura limpieza sepa dónde mirar si se reorganiza
+> la serie.

@@ -27,3 +27,5 @@
 - Adivinanza: primaria_2_literatura_4.json (ejemplo "blanca por dentro, verde por fuera" = la pera)
 - Cómic: primaria_2_literatura_4.json (historia con dibujos y texto juntos)
 - Autor de un libro: primaria_2_literatura_4.json (analogía: arquitecto que diseña una casa)
+- Fábula (qué es) y moraleja (qué es, ejemplo la liebre y la tortuga): primaria_2_literatura_5.json (analogías: cuento con mensaje escondido, pequeño regalo al terminar, carrera donde gana la constancia)
+- Teatro (qué es) y diálogo entre personajes (qué es, cómo se lee en clase): primaria_2_literatura_5.json (analogías: cuento que cobra vida, partida de tenis con palabras, prestar tu voz a un personaje)

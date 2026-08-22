@@ -23,3 +23,10 @@
 - El cuidado de los libros (por qué, cómo pasar páginas, qué no hacer, cómo guardarlos): primaria_2_lengua-castellana_4.json
 - Cuentos clásicos y sus personajes (qué es un cuento clásico, Caperucita Roja, Los tres cerditos, rasgo común): primaria_2_lengua-castellana_4.json — nota: mismos cuentos ya usados en la serie primaria_1_literatura, aquí con enfoque distinto (identificar personajes, no la trama completa)
 - Poemas cortos para recitar (qué es un poema, qué es recitar, ejemplo con rima, por qué aprenderlos de memoria): primaria_2_lengua-castellana_4.json
+- El adjetivo (qué es, ejemplo describiendo a un amigo): primaria_2_lengua-castellana_5.json (analogía: pincel que pinta con palabras)
+- Sinónimos (qué son): primaria_2_lengua-castellana_5.json (analogía: dos llaves distintas que abren la misma puerta; ejemplo contento/feliz)
+- Antónimos (qué son): primaria_2_lengua-castellana_5.json (analogía: dos extremos opuestos de una cuerda; ejemplo grande/pequeño)
+- Familia de palabras (qué es): primaria_2_lengua-castellana_5.json (analogía: familia con el mismo apellido; ejemplo pan/panadero/panadería)
+- Seguir instrucciones escritas sencillas (cómo, dónde se encuentran): primaria_2_lengua-castellana_5.json (analogía: mapa de un tesoro, paso a paso)
+- Escribir una lista de tareas y una agenda: primaria_2_lengua-castellana_5.json (analogías: mapa del día, memoria de papel)
+- Contar una experiencia personal en orden (ejemplo cumpleaños): primaria_2_lengua-castellana_5.json (analogía: colocar fotos de un álbum en orden; narrar una pequeña película)

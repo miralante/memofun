@@ -2608,5 +2608,245 @@
     "cantidad": 14,
     "file": "mapa_mundi_records.json",
     "icono": "🏆"
+  },
+  {
+    "id": "primaria-1-ciencias-naturales-5",
+    "tema": "El tiempo atmosférico, los hábitats y los hábitos sanos - 1º de Primaria",
+    "nivel": "principiante",
+    "curso": "1º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 12,
+    "file": "primaria_1_ciencias-naturales_5.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-1-ciencias-sociales-5",
+    "tema": "El reciclaje, el mapa y las estaciones del año - 1º de Primaria",
+    "nivel": "principiante",
+    "curso": "1º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 11,
+    "file": "primaria_1_ciencias-sociales_5.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "primaria-1-lengua-castellana-5",
+    "tema": "La comunicación oral y las primeras nociones de gramática - 1º de Primaria",
+    "nivel": "principiante",
+    "curso": "1º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 8,
+    "file": "primaria_1_lengua-castellana_5.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-1-literatura-5",
+    "tema": "Retahílas y la diferencia entre cuento y poema - 1º de Primaria",
+    "nivel": "principiante",
+    "curso": "1º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 4,
+    "file": "primaria_1_literatura_5.json",
+    "icono": "📖"
+  },
+  {
+    "id": "primaria-3-ciencias-naturales-6",
+    "tema": "Ciencias Naturales 3º de Primaria: invertebrados, el cuerpo, los estados de la materia y el tiempo atmosférico",
+    "nivel": "principiante",
+    "curso": "3º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 14,
+    "file": "primaria_3_ciencias-naturales_6.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-3-ciencias-sociales-6",
+    "tema": "Ciencias Sociales 3º de Primaria: puntos cardinales, mapas, servicios públicos, convivencia y el calendario",
+    "nivel": "principiante",
+    "curso": "3º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 15,
+    "file": "primaria_3_ciencias-sociales_6.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "primaria-3-lengua-castellana-6",
+    "tema": "Lengua Castellana 3º de Primaria: el artículo, singular y plural, la puntuación, la noticia y el resumen",
+    "nivel": "principiante",
+    "curso": "3º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 14,
+    "file": "primaria_3_lengua-castellana_6.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-3-literatura-5",
+    "tema": "Literatura - 3º de Primaria",
+    "nivel": "principiante",
+    "curso": "3º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 4,
+    "file": "primaria_3_literatura_5.json",
+    "icono": "📖"
+  },
+  {
+    "id": "primaria-2-ciencias-naturales-5",
+    "tema": "Observar, sentir y descubrir la naturaleza - 2º de Primaria",
+    "nivel": "principiante",
+    "curso": "2º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 20,
+    "file": "primaria_2_ciencias-naturales_5.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-2-ciencias-sociales-5",
+    "tema": "Cuidar mi localidad: convivencia, recursos y leyendas - 2º de Primaria",
+    "nivel": "principiante",
+    "curso": "2º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 10,
+    "file": "primaria_2_ciencias-sociales_5.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "primaria-2-lengua-castellana-5",
+    "tema": "Palabras, instrucciones y contar experiencias - 2º de Primaria",
+    "nivel": "principiante",
+    "curso": "2º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 11,
+    "file": "primaria_2_lengua-castellana_5.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-2-literatura-5",
+    "tema": "Fábulas y teatro sencillo - 2º de Primaria",
+    "nivel": "principiante",
+    "curso": "2º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 6,
+    "file": "primaria_2_literatura_5.json",
+    "icono": "📖"
+  },
+  {
+    "id": "primaria-6-ciencias-naturales-6",
+    "tema": "Hongos y bacterias, electricidad, satélites y el ordenador - 6º de Primaria",
+    "nivel": "intermedio",
+    "curso": "6º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 10,
+    "file": "primaria_6_ciencias-naturales_6.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-6-ciencias-sociales-6",
+    "tema": "Continentes y océanos, la Ilustración y la Guerra Civil y Transición - 6º de Primaria",
+    "nivel": "intermedio",
+    "curso": "6º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 8,
+    "file": "primaria_6_ciencias-sociales_6.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "primaria-6-lengua-castellana-6",
+    "tema": "Conectores textuales, el diccionario, la entrevista y el origen del español - 6º de Primaria",
+    "nivel": "intermedio",
+    "curso": "6º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 10,
+    "file": "primaria_6_lengua-castellana_6.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-6-literatura-5",
+    "tema": "El teatro, la poesía y el microrrelato - 6º de Primaria",
+    "nivel": "intermedio",
+    "curso": "6º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 6,
+    "file": "primaria_6_literatura_5.json",
+    "icono": "📖"
+  },
+  {
+    "id": "primaria-5-ciencias-naturales-6",
+    "tema": "Grupos de seres vivos, aparatos del cuerpo, máquinas simples e internet seguro - 5º de Primaria",
+    "nivel": "intermedio",
+    "curso": "5º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 15,
+    "file": "primaria_5_ciencias-naturales_6.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-5-ciencias-sociales-7",
+    "tema": "La economía, las comunidades autónomas, los reinos de Taifas y el arte gótico - 5º de Primaria",
+    "nivel": "intermedio",
+    "curso": "5º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 11,
+    "file": "primaria_5_ciencias-sociales_7.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "primaria-5-lengua-castellana-6",
+    "tema": "Determinantes, pronombres, sinónimos, la carta y el diálogo - 5º de Primaria",
+    "nivel": "intermedio",
+    "curso": "5º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 13,
+    "file": "primaria_5_lengua-castellana_6.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-5-literatura-5",
+    "tema": "Comparación, metáfora y la novela infantil - 5º de Primaria",
+    "nivel": "intermedio",
+    "curso": "5º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 6,
+    "file": "primaria_5_literatura_5.json",
+    "icono": "📖"
+  },
+  {
+    "id": "primaria-4-ciencias-naturales-5",
+    "tema": "Biodiversidad, aparato excretor, energía y sistema solar - 4º de Primaria",
+    "nivel": "principiante",
+    "curso": "4º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 14,
+    "file": "primaria_4_ciencias-naturales_5.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-4-ciencias-sociales-6",
+    "tema": "Paisaje, ciudad y pueblo, transportes, la Unión Europea y patrimonio - 4º de Primaria",
+    "nivel": "principiante",
+    "curso": "4º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 12,
+    "file": "primaria_4_ciencias-sociales_6.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "primaria-4-lengua-castellana-6",
+    "tema": "Sujeto y predicado, tiempos verbales, escritura y hechos y opiniones - 4º de Primaria",
+    "nivel": "principiante",
+    "curso": "4º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 16,
+    "file": "primaria_4_lengua-castellana_6.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-4-literatura-5",
+    "tema": "Cómics y biografías - 4º de Primaria",
+    "nivel": "principiante",
+    "curso": "4º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 4,
+    "file": "primaria_4_literatura_5.json",
+    "icono": "📖"
   }
 ]
