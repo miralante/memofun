@@ -1,7 +1,7 @@
 ---
 tema: "Capitales del Mundo"
 nivel: "principiante"
-cantidad: 18
+cantidad: 19
 salida: "mapa_mundi_capitales.json"
 ---
 # Índice

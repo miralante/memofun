@@ -2488,5 +2488,35 @@
     "cantidad": 15,
     "file": "eso_4_lengua-castellana_3.json",
     "icono": "✏️"
+  },
+  {
+    "id": "mapa-mundi-banderas",
+    "tema": "Banderas del Mundo",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Banderas del Mundo",
+    "cantidad": 19,
+    "file": "mapa_mundi_banderas.json",
+    "icono": "🚩"
+  },
+  {
+    "id": "mapa-mundi-capitales",
+    "tema": "Capitales del Mundo",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Capitales del Mundo",
+    "cantidad": 19,
+    "file": "mapa_mundi_capitales.json",
+    "icono": "🏛️"
+  },
+  {
+    "id": "mapa-mundi-ciudades",
+    "tema": "Ciudades Importantes del Mundo",
+    "nivel": "principiante",
+    "curso": "Mapa Mundi",
+    "asignatura": "Ciudades Importantes",
+    "cantidad": 15,
+    "file": "mapa_mundi_ciudades.json",
+    "icono": "🏙️"
   }
 ]

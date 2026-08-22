@@ -1,7 +1,7 @@
 ---
 tema: "Banderas del Mundo"
 nivel: "principiante"
-cantidad: 18
+cantidad: 19
 salida: "mapa_mundi_banderas.json"
 ---
 # Índice
