@@ -74,10 +74,21 @@ wizard; here it was off.
 | Setting | Value |
 |---|---|
 | Framework preset | None |
-| Build command | *(empty)* |
+| Build command | `rm -rf .git` (declared in `wrangler.toml` `[build]`) |
 | Build output directory | `.` |
 | Root directory | *(empty — repo root)* |
 | Workers.dev subdomain | **Enabled** (toggle on in the Connect-to-Git wizard, or afterwards in **Settings → Triggers** — see the "Triggers" section above) |
+
+> **About the `Build command` above.** Memofun is a plain static site
+> with no compile / bundle step, so the "build command" is a single
+> `rm -rf .git`. Workers Builds does a `git clone` of the repo into
+> the build environment, which leaves `.git/` in the working tree;
+> Wrangler's `[assets] directory = "."` then lists every file under
+> that tree (including the git pack file, ~78 MiB), and the deploy
+> fails with "Asset too large" against the 25 MiB per-file limit.
+> Removing `.git/` before Wrangler reads the directory fixes it without
+> touching the repo layout, the schema, or any served path. See
+> `wrangler.toml` for the inline comment.
 
 No environment variables are required — the app is vanilla HTML/CSS/JS
 with zero third-party dependencies, not even from a CDN, and makes no

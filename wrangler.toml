@@ -13,6 +13,18 @@
 name = "memofun"
 compatibility_date = "2026-08-11"
 
+# Pre-deploy hook: Workers Builds does `git clone` of the repo into the
+# build environment, which leaves a `.git/` directory in the working
+# tree. Wrangler's `[assets] directory = "."` then lists every file
+# under that working tree (including the git pack file, which currently
+# is ~78 MiB — well over the 25 MiB per-file limit), so the deploy
+# fails with "Asset too large". Running `rm -rf .git` here, BEFORE
+# `buildAssetManifest` reads the directory, removes the pack file from
+# the working tree so it never reaches the assets uploader. See
+# CLOUDFLARE.md for the full story.
+[build]
+command = "rm -rf .git"
+
 [assets]
 directory = "."
 # Serve 404.html for any path that isn't a static asset. The app itself
