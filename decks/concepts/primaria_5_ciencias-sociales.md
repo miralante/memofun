@@ -94,3 +94,6 @@
 - Vertiente atlántica (ríos): primaria_5_ciencias-sociales_8.json (Duero, Guadiana, Guadalquivir y Tajo hacia el océano Atlántico)
 - Río Ebro (vertiente mediterránea): primaria_5_ciencias-sociales_8.json (analogía: autopista de agua, nace en Cantabria, cruza Aragón y Cataluña)
 - Las tres vertientes de España (síntesis): primaria_5_ciencias-sociales_8.json (analogía: tres puertas para vaciar sus ríos, cantábrica/atlántica/mediterránea)
+- Clima subtropical de Canarias: primaria_5_ciencias-sociales_9.json (analogía: eterna primavera, sin apenas cambios de temperatura)
+- Por qué el clima de Canarias es tan estable (vientos alisios, mar): primaria_5_ciencias-sociales_9.json (analogía: manta invisible que mantiene la misma temperatura)
+- Los cuatro climas principales de España (síntesis: mediterráneo/oceánico/montaña/subtropical): primaria_5_ciencias-sociales_9.json (analogía: cuatro caras distintas de España)
