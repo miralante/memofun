@@ -73,3 +73,5 @@
 - Qué cambia en la naturaleza en primavera: primaria_1_ciencias-sociales_6.json (analogía: despertar después de un sueño largo — gap-fill, tercera ronda: solo "otoño" tenía tarjeta propia de las 4 estaciones)
 - Qué cambia en la naturaleza en verano: primaria_1_ciencias-sociales_6.json (analogía: el horno más fuerte del año)
 - Qué cambia en la naturaleza en invierno: primaria_1_ciencias-sociales_6.json (analogía: una manta blanca que cubre el año)
+- Para qué sirve el comedor del colegio: primaria_1_ciencias-sociales_7.json (analogía: una gran mesa familiar, pero con toda la clase — gap-fill, cuarta ronda de verificación: "Los espacios de mi colegio: para qué sirve cada uno" solo tenía aula y patio con frase propia, comedor y biblioteca solo aparecían nombrados en la lista)
+- Para qué sirve la biblioteca del colegio: primaria_1_ciencias-sociales_7.json (analogía: una cueva llena de tesoros de papel)
