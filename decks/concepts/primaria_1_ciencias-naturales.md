@@ -75,3 +75,4 @@
 - Qué es el tiempo atmosférico: primaria_1_ciencias-naturales_5.json (analogía: el humor del cielo, cambia cada día)
 - La lluvia: primaria_1_ciencias-naturales_5.json (analogía: una ducha que dan las nubes)
 - El viento: primaria_1_ciencias-naturales_5.json (analogía: un aire que empuja sin que lo veamos)
+- El sol como tipo de tiempo atmosférico (día soleado, distinto del "Sol nos da luz y calor" astronómico): primaria_1_ciencias-naturales_6.json (analogía: manta calentita que abriga todo — gap-fill, tercera ronda de verificación: "sol, lluvia y viento" solo tenía lluvia y viento con tarjeta propia)

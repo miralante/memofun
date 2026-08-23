@@ -70,3 +70,6 @@
 - Las cuatro estaciones del año: primaria_1_ciencias-sociales_5.json (analogía: cuatro trajes distintos que se pone el año)
 - Qué cambia en otoño: primaria_1_ciencias-sociales_5.json (analogía: el año guardando las hojas para descansar)
 - Fiestas propias de cada estación: primaria_1_ciencias-sociales_5.json (analogía: cada estación trae su propia fiesta)
+- Qué cambia en la naturaleza en primavera: primaria_1_ciencias-sociales_6.json (analogía: despertar después de un sueño largo — gap-fill, tercera ronda: solo "otoño" tenía tarjeta propia de las 4 estaciones)
+- Qué cambia en la naturaleza en verano: primaria_1_ciencias-sociales_6.json (analogía: el horno más fuerte del año)
+- Qué cambia en la naturaleza en invierno: primaria_1_ciencias-sociales_6.json (analogía: una manta blanca que cubre el año)

@@ -2888,5 +2888,25 @@
     "cantidad": 2,
     "file": "primaria_2_ciencias-sociales_6.json",
     "icono": "🏛️"
+  },
+  {
+    "id": "primaria-1-ciencias-naturales-6",
+    "tema": "El sol como tiempo atmosférico - 1º de Primaria",
+    "nivel": "principiante",
+    "curso": "1º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 1,
+    "file": "primaria_1_ciencias-naturales_6.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-1-ciencias-sociales-6",
+    "tema": "Qué cambia en cada estación del año - 1º de Primaria",
+    "nivel": "principiante",
+    "curso": "1º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 3,
+    "file": "primaria_1_ciencias-sociales_6.json",
+    "icono": "🏛️"
   }
 ]
