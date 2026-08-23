@@ -40,3 +40,7 @@
 - Objetos que flotan y objetos que se hunden (por qué): primaria_2_ciencias-naturales_5.json (analogías: balsa ligera, piedra que el agua no sostiene)
 - El Sol (qué es), la Luna y las estrellas (qué vemos de noche): primaria_2_ciencias-naturales_5.json (analogías: gran hoguera, manto oscuro con puntitos brillantes)
 - Cambios de las plantas y los animales con las estaciones (hojas de otoño, hibernación): primaria_2_ciencias-naturales_5.json (analogías: árbol que se quita el abrigo, fuerzas guardadas en una manta)
+- La Luna (qué es, por qué cambia de forma), dedicada aparte del Sol: primaria_2_ciencias-naturales_6.json (analogía: espejo redondo que refleja la luz del Sol) — tercer audit round: "El Sol, la Luna y las estrellas" solo daba tarjeta propia al Sol; Luna y estrellas compartían una sola tarjeta combinada en _5
+- Las estrellas (qué son, luz propia vs. reflejada, el Sol es una estrella), dedicada aparte: primaria_2_ciencias-naturales_6.json (analogía: farolillos encendidos muy lejos)
+- Cambios de la naturaleza en verano (más calor, animales buscan sombra/agua, frutas maduran): primaria_2_ciencias-naturales_6.json (analogía: animales que buscan agua fresca para refrescarse) — verano no tenía ninguna mención en "las cuatro estaciones y sus cambios en la naturaleza"; _5 solo cubría otoño/primavera/invierno
+- Síntesis: cómo cambia la naturaleza en cada una de las cuatro estaciones (primavera/verano/otoño/invierno juntas): primaria_2_ciencias-naturales_6.json

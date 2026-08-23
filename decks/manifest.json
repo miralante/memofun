@@ -2868,5 +2868,25 @@
     "cantidad": 3,
     "file": "primaria_5_ciencias-sociales_9.json",
     "icono": "🏛️"
+  },
+  {
+    "id": "primaria-2-ciencias-naturales-6",
+    "tema": "El cielo nocturno y el verano en la naturaleza - 2º de Primaria",
+    "nivel": "principiante",
+    "curso": "2º de Primaria",
+    "asignatura": "Ciencias Naturales",
+    "cantidad": 4,
+    "file": "primaria_2_ciencias-naturales_6.json",
+    "icono": "🌱"
+  },
+  {
+    "id": "primaria-2-ciencias-sociales-6",
+    "tema": "Cuentos y leyendas de mi región - 2º de Primaria",
+    "nivel": "principiante",
+    "curso": "2º de Primaria",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 2,
+    "file": "primaria_2_ciencias-sociales_6.json",
+    "icono": "🏛️"
   }
 ]

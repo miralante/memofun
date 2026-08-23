@@ -25,3 +25,5 @@
 - Cuidar el agua y la luz como recursos: primaria_2_ciencias-sociales_5.json (analogías: tesoro que se puede acabar, vela que se gasta si se deja encendida)
 - Reciclar y cuidar la localidad: primaria_2_ciencias-sociales_5.json (analogía: dar una segunda vida a un objeto usado; cuidar la casa grande compartida)
 - Leyenda de una región (qué es, por qué es divertido conocerlas): primaria_2_ciencias-sociales_5.json (analogía: cuento que viaja de abuelos a nietos; caja de tesoros de historias locales)
+- Cuento tradicional (qué es), dedicado aparte de la leyenda: primaria_2_ciencias-sociales_6.json (analogía: película contada solo con palabras) — tercer audit round: "Cuentos y leyendas de mi región" solo tenía tarjeta propia para leyenda; cuento solo aparecía de pasada dentro de la tarjeta de leyenda
+- Diferencia cuento/leyenda: primaria_2_ciencias-sociales_6.json (comparación tras introducir ambos por separado; leyenda mezcla algo real con algo mágico y explica un nombre de lugar, cuento es puramente inventado)
