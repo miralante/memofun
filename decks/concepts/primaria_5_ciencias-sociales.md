@@ -90,3 +90,7 @@
 - Por qué se dividió Al-Ándalus en Taifas: primaria_5_ciencias-sociales_7.json (analogía: equipo grande dividido en pequeños, debilidad frente a reinos cristianos)
 - Arte gótico: primaria_5_ciencias-sociales_7.json (analogía: flechas de piedra, catedrales altas, vidrieras)
 - Gótico vs románico (comparación): primaria_5_ciencias-sociales_7.json (muros finos y mucha luz vs fortaleza con poca luz)
+- Vertiente hidrográfica (qué es): primaria_5_ciencias-sociales_8.json (analogía: tejado, el agua cae hacia un lado u otro)
+- Vertiente atlántica (ríos): primaria_5_ciencias-sociales_8.json (Duero, Guadiana, Guadalquivir y Tajo hacia el océano Atlántico)
+- Río Ebro (vertiente mediterránea): primaria_5_ciencias-sociales_8.json (analogía: autopista de agua, nace en Cantabria, cruza Aragón y Cataluña)
+- Las tres vertientes de España (síntesis): primaria_5_ciencias-sociales_8.json (analogía: tres puertas para vaciar sus ríos, cantábrica/atlántica/mediterránea)
