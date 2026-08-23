@@ -119,10 +119,10 @@ the explanation:
   bytes spent for no visible quality. The shipped file in
   `assets/img/decks/<deck-slug>/<file>.<ext>` MUST therefore be a
   thumbnail (≤1024 px on the long edge) and MUST stay under 200 KB
-  on disk after the download (`scripts/check.js` reports any image
-  over that as a warning, and any over 500 KB as a hard failure — the
-  failure threshold is the size that single-handedly breaks the
-  Cloudflare deploy budget, not a soft aesthetic preference).
+  on disk after the download — `scripts/check.js` fails the build over
+  200 KB, a hard gate (not a soft aesthetic preference): a size that
+  large is itself proof the file isn't an actual thumbnail, and enough
+  of them would blow the Cloudflare deploy budget on their own.
   Acquisition order is: (a) the Openverse `thumb` URL from
   `buscar-imagen.js`, which is already in this range (tens-of-KB
   JPEGs); (b) if that 400s, generate the thumbnail yourself instead

@@ -159,8 +159,7 @@ For each card, the agent:
    missing image — never use the full-res `image` URL as a default.
    **Size budget: the saved file must end up under 200 KB on disk**
    (≤1024 px on the long edge — see `technical.md` §3.1). The check
-   in `scripts/check.js` reports any image over 200 KB as a warning
-   and fails the build over 500 KB.
+   in `scripts/check.js` fails the build over 200 KB.
 4. Adds the `imagen` field to that card with all its subfields
    (`archivo`, `alt`, `titulo`, `autor`, `fuente`, `licencia`) — `alt`
    describes what the image actually shows, in the deck's language.

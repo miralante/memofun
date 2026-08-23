@@ -27,6 +27,34 @@ if (window.App.i18n) {
       enSubjectInvite: 'No deck yet — be the first to contribute',
       enSubjectInviteHelp: 'Pick this subject and ask the AI coding agent for the matching deck, or write one by hand following the guide.',
       enContributeGuide: 'See the contributor guide'
+    },
+    core: {
+      back: '← Back',
+      next: 'Next',
+      previous: 'Previous',
+      skipToContent: 'Skip to content',
+      settings: 'Settings',
+      dataProtection: 'Data protection'
+    },
+    study: {
+      loading: 'Loading deck…',
+      showAnswer: '👀 Answer',
+      doneTitle: 'You reviewed the whole deck!',
+      studyAgain: 'Study again',
+      backToHome: 'Back to home',
+      starEarned: '+{n} ⭐!',
+      progress: 'Card {n} of {total}',
+      milestoneHalf: 'You\'re halfway!',
+      milestoneThreeQuarters: 'Almost there!',
+      finish: 'Finish',
+      transferPhrase: 'You practised {tema}',
+      finishPhrases: [
+        'You reviewed everything!',
+        'Great job!',
+        'You made it to the end!'
+      ],
+      error: 'Could not load the deck.',
+      photoBy: 'Photo by'
     }
   }, 'en');
 }

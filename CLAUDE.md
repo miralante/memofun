@@ -194,9 +194,8 @@ and still binding.
    report the missing image — never use the full-res `image` URL as
    a default. **Size budget: the saved file in
    `assets/img/decks/<deck-slug>/<file>.<ext>` must end up under 200 KB
-   on disk** (≤1024 px on the long edge) — `scripts/check.js` warns
-   over 200 KB and fails the build over 500 KB, the size that
-   single-handedly breaks the Cloudflare budget, not a soft aesthetic
+   on disk** (≤1024 px on the long edge) — `scripts/check.js` **fails
+   the build over 200 KB**, a hard gate, not a soft aesthetic
    preference. Save it under `assets/img/decks/<deck-slug>/<file>.<ext>`
    and fill in all of `imagen`'s subfields, including the TASL
    attribution (`titulo`/`autor`/`fuente`/`licencia`). When a request

@@ -586,31 +586,49 @@ header.app-header .tagline {
   font-weight: var(--weight-medium);
 }
 
+/* Visual-support thumbnail: sits to the LEFT of the card's text on
+   wider viewports (read-only picture alongside the question/answer)
+   and stacks above the text on narrow phones so the reading width
+   stays comfortable. The flashcard switches to a row layout via
+   :has(.tarjeta-imagen) — when a card has no image the column layout
+   is unchanged. */
+.flashcard:has(> .tarjeta-imagen) {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-3);
+}
+
 .tarjeta-imagen {
   margin: 0;
+  flex: 0 0 auto;
   align-self: center;
   max-width: 100%;
-  text-align: center;
 }
 
 .tarjeta-imagen img {
   display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: 200px;
+  margin: 0;
+  width: auto;
+  max-width: 140px;
+  max-height: 110px;
   border-radius: var(--radius);
   border: 2px solid var(--color-border);
   object-fit: cover;
 }
 
-.tarjeta-imagen figcaption {
-  margin-top: var(--space-1);
-  font-size: var(--text-small);
-  color: var(--color-text-tenue);
-}
-
-.tarjeta-imagen figcaption a {
-  color: inherit;
+/* On narrow viewports the image returns to its old role: a small
+   centered illustration on top of the text, not a side column that
+   would steal reading width. */
+@media (max-width: 720px) {
+  .flashcard:has(> .tarjeta-imagen) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .tarjeta-imagen img {
+    margin: 0 auto;
+    max-width: 180px;
+    max-height: 96px;
+  }
 }
 
 .flashcard-controls {

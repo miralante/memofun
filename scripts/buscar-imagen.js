@@ -125,7 +125,7 @@ function printResults(results) {
     "well under 200 KB (tens-of-KB JPEG), as is Wikimedia's `Special:FilePath`\n" +
     "thumbnail at `width=800`. The full-res `image` URL is almost never in budget\n" +
     "and is explicitly NOT a fallback — see the block above. `scripts/check.js`\n" +
-    "warns over 200 KB and fails the build over 500 KB. See doc/en/technical.md\n" +
+    "fails the build over 200 KB, a hard gate. See doc/en/technical.md\n" +
     "§3.1 for the rule.\n\n" +
     "Then add this to that card in the deck's JSON (doc/en/technical.md §3):\n" +
     '  "imagen": {\n' +

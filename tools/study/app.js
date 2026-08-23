@@ -126,21 +126,18 @@
   }
 
   /* Renders a card's optional `imagen` (visual support — see
-     technical.md §3.1) as a <figure> with the attribution (Title/
-     Author/Source/License) as a small caption underneath. Images are
-     bundled in the repo (never hotlinked), so `archivo` is resolved
-     relative to the site root, same as a deck's own JSON. */
+     technical.md §3.1) as a small thumbnail to the side of the text.
+     The attribution (Title/Author/Source/License) is intentionally NOT
+     shown on the card itself: that data stays in the JSON and in the
+     repo's CONTRIBUTING.md, but the reader doesn't need to parse it
+     mid-session. Images are bundled in the repo (never hotlinked), so
+     `archivo` is resolved relative to the site root, same as a deck's
+     own JSON. */
   function imagenHtml(card) {
     if (!card.imagen) return '';
     var img = card.imagen;
-    var caption = App.i18n.t('study.photoBy') + ': "' +
-      App.utils.escapeHtml(img.titulo) + '" — ' +
-      App.utils.escapeHtml(img.autor) + ' · ' +
-      App.utils.escapeHtml(img.licencia) +
-      ' · <a href="' + img.fuente + '" target="_blank" rel="noopener">Openverse</a>';
     return '<figure class="tarjeta-imagen">' +
       '<img src="../../' + img.archivo + '" alt="' + App.utils.escapeHtml(img.alt) + '" loading="lazy">' +
-      '<figcaption>' + caption + '</figcaption>' +
       '</figure>';
   }
 
@@ -151,9 +148,9 @@
     btnNext.classList.add('secondary');
     cardEl.classList.remove('revealed');
     updateProgress();
-    btnNext.textContent = (index === cards.length - 1)
+    btnNext.setAttribute('aria-label', (index === cards.length - 1)
       ? App.i18n.t('study.finish')
-      : App.i18n.t('core.next');
+      : App.i18n.t('core.next'));
     btnPrev.disabled = index === 0;
   }
 

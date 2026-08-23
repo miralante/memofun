@@ -27,6 +27,34 @@ if (window.App.i18n) {
       enSubjectInvite: 'Aún no hay baraja — sé el primero en aportar',
       enSubjectInviteHelp: 'Elige esta asignatura y pide al agente de IA la baraja, o escríbela a mano siguiendo la guía.',
       enContributeGuide: 'Ver la guía para colaboradores'
+    },
+    core: {
+      back: '← Volver',
+      next: 'Siguiente',
+      previous: 'Anterior',
+      skipToContent: 'Ir al contenido',
+      settings: 'Ajustes',
+      dataProtection: 'Protección de datos'
+    },
+    study: {
+      loading: 'Cargando la baraja…',
+      showAnswer: '👀 Respuesta',
+      doneTitle: '¡Has repasado toda la baraja!',
+      studyAgain: 'Repasar otra vez',
+      backToHome: 'Volver al inicio',
+      starEarned: '¡+{n} ⭐!',
+      progress: 'Tarjeta {n} de {total}',
+      milestoneHalf: '¡Ya llevas la mitad!',
+      milestoneThreeQuarters: '¡Casi lo tienes!',
+      finish: 'Finalizar',
+      transferPhrase: 'Has practicado con {tema}',
+      finishPhrases: [
+        '¡Lo has repasado todo!',
+        '¡Gran trabajo!',
+        '¡Has llegado al final!'
+      ],
+      error: 'No se ha podido cargar la baraja.',
+      photoBy: 'Foto de'
     }
   }, 'es');
 }

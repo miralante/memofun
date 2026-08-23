@@ -126,11 +126,12 @@ visual a la explicación:
   bytes gastados sin ganancia visible. El archivo publicado en
   `assets/img/decks/<slug-de-la-baraja>/<archivo>.<ext>` TIENE que
   ser, por tanto, una miniatura (≤1024 px en el lado largo) y TIENE
-  que quedar por debajo de 200 KB en disco tras la descarga
-  (`scripts/check.js` avisa de cualquier imagen por encima de eso, y
-  falla en seco si pasa de 500 KB — el umbral de fallo es el tamaño
-  que, él solo, rompe el presupuesto del deploy de Cloudflare, no una
-  preferencia estética blanda). Orden de adquisición: (a) la URL
+  que quedar por debajo de 200 KB en disco tras la descarga —
+  `scripts/check.js` falla en seco por encima de 200 KB, un límite
+  duro (no una preferencia estética blanda): un archivo tan grande ya
+  es en sí mismo la prueba de que no es una miniatura de verdad, y
+  varios así juntos revientan el presupuesto del deploy de Cloudflare.
+  Orden de adquisición: (a) la URL
   `thumb` de Openverse desde `buscar-imagen.js`, que ya entra en ese
   rango (JPEGs de decenas de KB); (b) si esa URL falla con un 400,
   genera la miniatura tú mismo en vez de caer al fallback `image` a

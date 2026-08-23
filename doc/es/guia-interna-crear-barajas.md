@@ -157,9 +157,8 @@ Para cada tarjeta, el agente:
    la URL `image` a resolución completa como opción por defecto.
    **Presupuesto de tamaño: el archivo guardado tiene que quedar por
    debajo de 200 KB en disco** (≤1024 px en el lado largo — ver
-   `tecnico.md` §3.1). El check en `scripts/check.js` avisa de
-   cualquier imagen por encima de 200 KB y falla el build por encima
-   de 500 KB.
+   `tecnico.md` §3.1). El check en `scripts/check.js` falla el build
+   por encima de 200 KB.
 4. Añade el campo `imagen` a esa tarjeta con todos sus subcampos
    (`archivo`, `alt`, `titulo`, `autor`, `fuente`, `licencia`) — `alt`
    describe lo que la imagen muestra de verdad, en el idioma de la

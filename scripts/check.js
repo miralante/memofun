@@ -26,17 +26,34 @@
       and is valid JSON with a non-empty `tarjetas` array; any card's
       optional `imagen` has all its subfields, the referenced file
       exists on disk, the license isn't NC/ND, and the on-disk image
-      size is within budget (technical.md §3.1 — warn over 200 KB,
-      fail over 500 KB so a single full-res image can't single-handedly
-      blow Cloudflare's ~25 MB total deploy budget).
+      size is within budget (technical.md §3.1 — fail over 200 KB so a
+      full-res or otherwise non-thumbnail image can't sit in the repo
+      unnoticed, and can't single-handedly blow Cloudflare's ~25 MB
+      total deploy budget).
    9. doc/curriculum/ (recursively): every .md file parses as a valid
       content config (frontmatter with `tema`, via scripts/config-parser.js)
       and, if it has a `# Índice` section, that section is not empty.
+  10. _redirects stays within Cloudflare's per-file limits
+      (https://developers.cloudflare.com/pages/configuration/redirects/):
+      a maximum of 2 000 static redirects and 100 dynamic
+      (placeholder) redirects per file — 2 100 in total. If the file
+      is absent (the common case for projects that have no redirects)
+      the check is skipped: zero is valid.
+  11. _headers stays within Cloudflare's per-file limit of 100
+      header rules per file
+      (https://developers.cloudflare.com/pages/configuration/headers/).
+      A "rule" is one path-glob block (the glob line followed by
+      indented header lines), so the wildcards of `/assets/*` plus
+      its two Cache-Control lines count as one rule each, not three.
+      If the file is absent the check is skipped.
+  12. No shipped file exceeds Cloudflare Pages' 25 MB per-file
+      limit. Recursively walks the repo, excluding `.git/`,
+      `node_modules/`, `.claude/` (graphify skill + agent settings +
+      git worktrees, all never uploaded), and `graphify-out*` (build
+      artifacts). Warns at 20 MB (still legal but worth a nudge) and
+      fails at 25 MB (Cloudflare will reject the deploy).
    Output: list of failures with the exact file. Exit code 1 if there
-   are any, "OK (N checks)" otherwise. Image-size warnings are printed
-   above the OK line but do not affect the exit code — they exist to
-   nudge authors toward the soft 200 KB target without turning
-   borderline cases into CI red.
+   are any, "OK (N checks)" otherwise.
    ============================================================ */
 'use strict';
 
@@ -442,23 +459,19 @@ checks += 1;
                   failures.push(imgLabel + '.archivo "' + img.archivo + '" does not exist on disk');
                 } else {
                   var imgBytes = fs.statSync(imgPath).size;
-                  // Hard 500 KB cap — a single full-res Openverse image at this
-                  // size single-handedly blows the ~25 MB total deploy budget
-                  // (technical.md §3.1). 200 KB is the soft target for every
-                  // shipped image, reported as a warning so the author sees
-                  // the nudge without the build turning red on borderline
-                  // cases — but anything over 500 KB is a hard failure
-                  // because that threshold is what breaks Cloudflare's
-                  // deploy on its own, not a soft aesthetic preference.
-                  if (imgBytes > 500 * 1024) {
+                  // Hard 200 KB cap — every shipped image MUST be an actual
+                  // thumbnail, not a full-res (or merely "under 500 KB")
+                  // download (technical.md §3.1). This used to be a soft
+                  // warning at 200 KB with a hard fail only at 500 KB, which
+                  // let several non-thumbnail images (200-280 KB, some over
+                  // 1024 px on the long edge) sit in the repo unnoticed since
+                  // the warning never turned the build red. 200 KB is now
+                  // the hard cap so that gap can't reopen silently.
+                  if (imgBytes > 200 * 1024) {
                     failures.push(imgLabel + '.archivo "' + img.archivo + '" is ' +
-                      Math.round(imgBytes / 1024) + ' KB — over the 500 KB hard cap (technical.md §3.1). ' +
+                      Math.round(imgBytes / 1024) + ' KB — over the 200 KB hard cap (technical.md §3.1). ' +
                       'Re-encode it (e.g. `cjpeg -quality 75 -outfile foo.jpg foo.jpg` or ' +
                       'resize to ≤1024 px on the long edge) and re-save before committing.');
-                  } else if (imgBytes > 200 * 1024) {
-                    warnings.push(imgLabel + '.archivo "' + img.archivo + '" is ' +
-                      Math.round(imgBytes / 1024) + ' KB — over the 200 KB target (technical.md §3.1). ' +
-                      'Consider re-encoding to shrink it.');
                   }
                 }
               }

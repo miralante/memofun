@@ -240,226 +240,6 @@
     "icono": "📖"
   },
   {
-    "id": "fpb-sa-1-atencion-cliente",
-    "tema": "Atención al Cliente - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Atención al Cliente",
-    "cantidad": 15,
-    "file": "fpb_sa_1_atencion-cliente.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-atencion-cliente-2",
-    "tema": "Atención al Cliente - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Atención al Cliente",
-    "cantidad": 15,
-    "file": "fpb_sa_1_atencion-cliente_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-ciencias-aplicadas",
-    "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Ciencias Aplicadas",
-    "cantidad": 18,
-    "file": "fpb_sa_1_ciencias-aplicadas.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-ciencias-sociales",
-    "tema": "Ciencias Sociales - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Ciencias Sociales",
-    "cantidad": 18,
-    "file": "fpb_sa_1_ciencias-sociales.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-itinerario-personal-empleabilidad",
-    "tema": "Itinerario Personal para la Empleabilidad - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Itinerario Personal para la Empleabilidad",
-    "cantidad": 15,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-itinerario-personal-empleabilidad-2",
-    "tema": "Itinerario Personal para la Empleabilidad - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Itinerario Personal para la Empleabilidad",
-    "cantidad": 15,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-lengua-castellana",
-    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Lengua Castellana",
-    "cantidad": 15,
-    "file": "fpb_sa_1_lengua-castellana.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-lengua-castellana-2",
-    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Lengua Castellana",
-    "cantidad": 15,
-    "file": "fpb_sa_1_lengua-castellana_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-tecnicas-administrativas-basicas",
-    "tema": "Técnicas Administrativas Básicas - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Técnicas Administrativas Básicas",
-    "cantidad": 17,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-tecnicas-administrativas-basicas-2",
-    "tema": "Técnicas Administrativas Básicas - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Técnicas Administrativas Básicas",
-    "cantidad": 17,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-tratamiento-informatico-datos",
-    "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Tratamiento Informático de Datos",
-    "cantidad": 15,
-    "file": "fpb_sa_1_tratamiento-informatico-datos.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-tratamiento-informatico-datos-2",
-    "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Tratamiento Informático de Datos",
-    "cantidad": 15,
-    "file": "fpb_sa_1_tratamiento-informatico-datos_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-aplicaciones-basicas-ofimatica",
-    "tema": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Aplicaciones Básicas de Ofimática",
-    "cantidad": 15,
-    "file": "fpb_sa_2_aplicaciones-basicas-ofimatica.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-aplicaciones-basicas-ofimatica-2",
-    "tema": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Aplicaciones Básicas de Ofimática",
-    "cantidad": 14,
-    "file": "fpb_sa_2_aplicaciones-basicas-ofimatica_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-archivo-comunicacion",
-    "tema": "Archivo y Comunicación - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Archivo y Comunicación",
-    "cantidad": 15,
-    "file": "fpb_sa_2_archivo-comunicacion.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-archivo-comunicacion-2",
-    "tema": "Archivo y Comunicación - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Archivo y Comunicación",
-    "cantidad": 14,
-    "file": "fpb_sa_2_archivo-comunicacion_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-ciencias-aplicadas",
-    "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Ciencias Aplicadas",
-    "cantidad": 16,
-    "file": "fpb_sa_2_ciencias-aplicadas.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-ciencias-sociales",
-    "tema": "Ciencias Sociales - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Ciencias Sociales",
-    "cantidad": 17,
-    "file": "fpb_sa_2_ciencias-sociales.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-lengua-castellana",
-    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Lengua Castellana",
-    "cantidad": 15,
-    "file": "fpb_sa_2_lengua-castellana.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-lengua-castellana-2",
-    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Lengua Castellana",
-    "cantidad": 14,
-    "file": "fpb_sa_2_lengua-castellana_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-preparacion-pedidos-venta-productos",
-    "tema": "Preparación de Pedidos y Venta de Productos - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Preparación de Pedidos y Venta de Productos",
-    "cantidad": 16,
-    "file": "fpb_sa_2_preparacion-pedidos-venta-productos.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-2-preparacion-pedidos-venta-productos-2",
-    "tema": "Preparación de Pedidos y Venta de Productos - FP Básica Servicios Administrativos (2º)",
-    "nivel": "principiante",
-    "curso": "2º de FP Básica Servicios Administrativos",
-    "asignatura": "Preparación de Pedidos y Venta de Productos",
-    "cantidad": 14,
-    "file": "fpb_sa_2_preparacion-pedidos-venta-productos_2.json",
-    "icono": "📋"
-  },
-  {
     "id": "eso-1-literatura",
     "tema": "Literatura - 1º de ESO",
     "nivel": "intermedio",
@@ -1198,6 +978,226 @@
     "cantidad": 10,
     "file": "eso_4_fisica-quimica_7.json",
     "icono": "⚛️"
+  },
+  {
+    "id": "fpb-sa-1-atencion-cliente",
+    "tema": "Atención al Cliente - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Atención al Cliente",
+    "cantidad": 15,
+    "file": "fpb_sa_1_atencion-cliente.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-atencion-cliente-2",
+    "tema": "Atención al Cliente - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Atención al Cliente",
+    "cantidad": 15,
+    "file": "fpb_sa_1_atencion-cliente_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-ciencias-aplicadas",
+    "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Aplicadas",
+    "cantidad": 18,
+    "file": "fpb_sa_1_ciencias-aplicadas.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-ciencias-sociales",
+    "tema": "Ciencias Sociales - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 18,
+    "file": "fpb_sa_1_ciencias-sociales.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-itinerario-personal-empleabilidad",
+    "tema": "Itinerario Personal para la Empleabilidad - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Itinerario Personal para la Empleabilidad",
+    "cantidad": 15,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-itinerario-personal-empleabilidad-2",
+    "tema": "Itinerario Personal para la Empleabilidad - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Itinerario Personal para la Empleabilidad",
+    "cantidad": 15,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-lengua-castellana",
+    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 15,
+    "file": "fpb_sa_1_lengua-castellana.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-lengua-castellana-2",
+    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 15,
+    "file": "fpb_sa_1_lengua-castellana_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-tecnicas-administrativas-basicas",
+    "tema": "Técnicas Administrativas Básicas - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Técnicas Administrativas Básicas",
+    "cantidad": 17,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-tecnicas-administrativas-basicas-2",
+    "tema": "Técnicas Administrativas Básicas - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Técnicas Administrativas Básicas",
+    "cantidad": 17,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-tratamiento-informatico-datos",
+    "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Tratamiento Informático de Datos",
+    "cantidad": 15,
+    "file": "fpb_sa_1_tratamiento-informatico-datos.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-tratamiento-informatico-datos-2",
+    "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Tratamiento Informático de Datos",
+    "cantidad": 15,
+    "file": "fpb_sa_1_tratamiento-informatico-datos_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-aplicaciones-basicas-ofimatica",
+    "tema": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Aplicaciones Básicas de Ofimática",
+    "cantidad": 15,
+    "file": "fpb_sa_2_aplicaciones-basicas-ofimatica.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-aplicaciones-basicas-ofimatica-2",
+    "tema": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Aplicaciones Básicas de Ofimática",
+    "cantidad": 14,
+    "file": "fpb_sa_2_aplicaciones-basicas-ofimatica_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-archivo-comunicacion",
+    "tema": "Archivo y Comunicación - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Archivo y Comunicación",
+    "cantidad": 15,
+    "file": "fpb_sa_2_archivo-comunicacion.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-archivo-comunicacion-2",
+    "tema": "Archivo y Comunicación - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Archivo y Comunicación",
+    "cantidad": 14,
+    "file": "fpb_sa_2_archivo-comunicacion_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-ciencias-aplicadas",
+    "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Aplicadas",
+    "cantidad": 16,
+    "file": "fpb_sa_2_ciencias-aplicadas.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-ciencias-sociales",
+    "tema": "Ciencias Sociales - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 17,
+    "file": "fpb_sa_2_ciencias-sociales.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-lengua-castellana",
+    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 15,
+    "file": "fpb_sa_2_lengua-castellana.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-lengua-castellana-2",
+    "tema": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 14,
+    "file": "fpb_sa_2_lengua-castellana_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-preparacion-pedidos-venta-productos",
+    "tema": "Preparación de Pedidos y Venta de Productos - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Preparación de Pedidos y Venta de Productos",
+    "cantidad": 16,
+    "file": "fpb_sa_2_preparacion-pedidos-venta-productos.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-preparacion-pedidos-venta-productos-2",
+    "tema": "Preparación de Pedidos y Venta de Productos - FP Básica Servicios Administrativos (2º)",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Preparación de Pedidos y Venta de Productos",
+    "cantidad": 14,
+    "file": "fpb_sa_2_preparacion-pedidos-venta-productos_2.json",
+    "icono": "📋"
   },
   {
     "id": "fpgm-ga-1-comunicacion-empresarial-atencion-cliente",
