@@ -369,7 +369,10 @@
       return;
     }
     var html = backLinkHtml(buildUrl(curso));
-    html += '<h2 class="section-heading">' + App.utils.escapeHtml(asignatura) + '</h2>';
+    html += '<h2 class="section-heading">' +
+      App.utils.escapeHtml(asignatura) +
+      ' <span class="section-heading-meta">' + App.utils.escapeHtml(curso) + '</span>' +
+      '</h2>';
     html += '<div class="deck-grid" role="list">' +
       filtered.map(function (d, i) { return deckCardHtml(d, i, progreso); }).join('') +
       '</div>';

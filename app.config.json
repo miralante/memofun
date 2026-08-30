@@ -1,0 +1,21 @@
+{
+  "name": "Memofun",
+  "domain": "memofun.apptonomia.uk",
+  "title": "Tarjetas de memoria para aprender a tu ritmo | Memofun",
+  "description": "Memofun es una aplicación web gratuita y sin registro de tarjetas de memoria (flashcards) para estudiar y repasar a tu ritmo: barajas por curso y asignatura, sin distracciones. Parte de la suite Apptonomia.",
+  "keywords": "memofun, apptonomia, flashcards, tarjetas de memoria, estudiar, repaso, aprendizaje significativo, easy read, lectura fácil, accesibilidad cognitiva, aplicaciones gratuitas sin registro, primaria, eso",
+  "author": "Apptonomia",
+  "ogSiteName": "Apptonomia",
+  "ogDescription": "Flashcards para estudiar a tu ritmo. Gratis y sin registro. Parte de la suite Apptonomia.",
+  "twitterDescription": "Flashcards para estudiar a tu ritmo. Gratis y sin registro.",
+  "ogImageAlt": "Memofun: tarjetas de memoria para aprender a tu ritmo",
+  "ogAccent": "#C05621",
+  "ogAccentInk": "#FFFFFF",
+  "ogTagline": "Tarjetas de memoria para aprender",
+  "themeColor": "#FAF7F2",
+  "colorScheme": "light",
+  "ogImageAsset": "og-image.svg",
+  "iconAsset": "assets/img/icono.svg",
+  "manifest": "manifest.json",
+  "hasItemList": false
+}

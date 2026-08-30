@@ -267,6 +267,13 @@ header.app-header .tagline {
   margin: var(--space-3) 0 var(--space-1);
 }
 
+.section-heading-meta {
+  display: block;
+  font-size: var(--text-small);
+  font-weight: var(--weight-regular);
+  color: var(--color-text-soft);
+}
+
 .section-header {
   display: flex;
   align-items: center;
