@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es el error de una medida?",
-      "respuesta": "Es la diferencia entre el valor medido y el valor real de una magnitud. <mark>Ningún instrumento mide con una precisión absolutamente perfecta</mark>. Puede deberse al instrumento usado o a quien realiza la medida. Reconocerlo ayuda a interpretar los resultados con más honestidad.",
+      "pregunta": "Ningún instrumento mide con una precisión absolutamente perfecta. Puede deberse al instrumento usado o a quien realiza la medida. Reconocerlo ayuda a interpretar los resultados con más honestidad. ¿Cómo se llama esta diferencia entre el valor medido y el real?",
+      "respuesta": "<mark>Error de una medida</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/balanza-precision.jpg",
         "alt": "Una balanza electrónica de precisión",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante repetir una medida varias veces?",
-      "respuesta": "Porque permite calcular un valor medio más fiable que una sola medición. <mark>Es como preguntar a varias personas la hora, en vez de fiarte de un solo reloj</mark>. Cuantas más medidas, más se reduce el efecto de pequeños errores.",
+      "pregunta": "Es como preguntar a varias personas la hora, en vez de fiarte de un solo reloj. Cuantas más medidas se hacen, más se reduce el efecto de pequeños errores. ¿Cómo se llama el resultado más fiable que se calcula así?",
+      "respuesta": "<mark>Valor medio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/cronometro.jpg",
         "alt": "Un cronómetro para medir con precisión",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las ecuaciones dimensionales?",
-      "respuesta": "Son ecuaciones que comprueban si las unidades de una fórmula son coherentes entre sí. <mark>Es como comprobar que una receta no mezcla litros con kilos sin sentido</mark>. Ayudan a detectar errores antes de hacer el cálculo completo.",
+      "pregunta": "Es como comprobar que una receta no mezcla litros con kilos sin sentido. Comprueban si las unidades de una fórmula son coherentes entre sí. Ayudan a detectar errores antes de hacer el cálculo completo. ¿Cómo se llaman estas ecuaciones de comprobación?",
+      "respuesta": "<mark>Ecuaciones dimensionales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/pizarra-matematicas.jpg",
         "alt": "Una pizarra con ecuaciones matemáticas",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se analiza un conjunto de datos experimentales?",
-      "respuesta": "Se organizan, se representan gráficamente y se buscan patrones o tendencias. <mark>Es como intentar encontrar la melodía escondida dentro de muchas notas sueltas</mark>. Ese análisis comprueba si los resultados apoyan la hipótesis inicial.",
+      "pregunta": "Es como intentar encontrar la melodía escondida dentro de muchas notas sueltas. Los datos se organizan, se representan gráficamente y se buscan patrones. Ese proceso comprueba si los resultados apoyan la hipótesis inicial. ¿Cómo se llama este proceso?",
+      "respuesta": "<mark>Análisis de datos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/grafico-3d.jpg",
         "alt": "Un gráfico de barras en 3D con datos",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué papel tienen las herramientas tecnológicas en la investigación científica actual?",
-      "respuesta": "Permiten medir con más precisión, procesar datos y compartir resultados rápidamente. <mark>Es como tener ayudantes digitales que aceleran cada paso de la investigación</mark>. Sensores, programas informáticos y simuladores forman parte de ellas.",
+      "pregunta": "Sensores, programas informáticos y simuladores forman parte de ellas. Permiten medir con más precisión, procesar datos y compartir resultados rápidamente. Es como tener ayudantes digitales que aceleran cada paso de la investigación. ¿Cómo se llaman estos recursos?",
+      "respuesta": "<mark>Herramientas tecnológicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/laboratorio-tecnologia.jpg",
         "alt": "Un laboratorio moderno con tecnología avanzada",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué debe incluir un buen informe científico?",
-      "respuesta": "Una introducción clara, el método usado, los resultados y las conclusiones. <mark>Es como contar una historia completa, sin dejar huecos que confundan al lector</mark>. Un buen informe permite que otra persona repita el experimento sin dudas.",
+      "pregunta": "Una introducción clara, el método usado, los resultados y las conclusiones son sus partes. Es como contar una historia completa, sin dejar huecos que confundan al lector. Permite que otra persona repita el experimento sin dudas. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Informe científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/informe-tecnico.jpg",
         "alt": "Un informe técnico escrito",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante expresar los resultados en distintos formatos?",
-      "respuesta": "Porque cada formato ayuda a entender la información de una forma distinta. <mark>Un número, una gráfica y una tabla cuentan la misma historia de formas diferentes</mark>. Usar varios formatos hace la información más accesible.",
+      "pregunta": "Un número, una gráfica y una tabla cuentan la misma historia de formas diferentes. Cada formato ayuda a entender la información de una forma distinta. Usar varios formatos hace la información más accesible. ¿Cómo se llama mostrar los datos de estas distintas formas?",
+      "respuesta": "<mark>Representación de datos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/infografia-datos.jpg",
         "alt": "Una infografía con datos representados visualmente",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa producir información científica de forma responsable?",
-      "respuesta": "Significa comunicar resultados de manera clara, honesta y bien fundamentada. <mark>Es como contar exactamente lo que se ha descubierto, sin exagerar ni esconder nada</mark>. Incluye reconocer los límites y errores del propio trabajo.",
+      "pregunta": "Es como contar exactamente lo que se ha descubierto, sin exagerar ni esconder nada. Significa comunicar resultados de manera clara, honesta y bien fundamentada. Incluye reconocer los límites y errores del propio trabajo. ¿Cómo se llama esta forma honesta de producir información científica?",
+      "respuesta": "<mark>Rigor científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/escribiendo.jpg",
         "alt": "Alguien escribiendo con atención",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se selecciona información relevante de un texto de divulgación científica avanzado?",
-      "respuesta": "Se identifican las ideas principales y se contrastan con otras fuentes fiables. <mark>Es como separar el grano de la paja en un texto largo y complejo</mark>. Ayuda a evitar quedarse solo con titulares llamativos pero poco precisos.",
+      "pregunta": "Es como separar el grano de la paja en un texto largo y complejo. Se identifican las ideas principales y se contrastan con otras fuentes fiables. Ayuda a evitar quedarse solo con titulares llamativos pero poco precisos. ¿Qué hay que buscar para contrastar bien la información?",
+      "respuesta": "<mark>Fuentes fiables</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/lectura-sofa.jpg",
         "alt": "Una persona leyendo tranquilamente en el sofá",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué sigue siendo importante valorar la cultura científica en la sociedad actual?",
-      "respuesta": "Porque ayuda a tomar decisiones informadas sobre salud, tecnología o medio ambiente. <mark>Entender un poco de ciencia ayuda a no dejarse llevar por bulos o exageraciones</mark>. Beneficia a toda la sociedad, no solo a los científicos.",
+      "pregunta": "Entender un poco de ciencia ayuda a no dejarse llevar por bulos o exageraciones. Ayuda a tomar decisiones informadas sobre salud, tecnología o medio ambiente. Beneficia a toda la sociedad, no solo a los científicos. ¿Cómo se llama a este conocimiento científico compartido por la sociedad?",
+      "respuesta": "<mark>Cultura científica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/centro-visitantes.jpg",
         "alt": "Un centro de visitantes con paneles educativos",

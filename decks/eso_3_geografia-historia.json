@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es la actividad económica?",
-      "respuesta": "Es el conjunto de trabajos que producen bienes y servicios para vivir. <mark>Es como el motor que mueve todo lo que compramos y usamos cada día</mark>. Incluye desde cultivar alimentos hasta vender un billete de tren. Sin actividad económica, no existirían los productos que consumimos.",
+      "pregunta": "Es como el motor que mueve todo lo que compramos y usamos cada día. Es el conjunto de trabajos que producen bienes y servicios para vivir, desde cultivar alimentos hasta vender un billete de tren. Sin ella no existirían los productos que consumimos. ¿Cómo se llama este conjunto de trabajos?",
+      "respuesta": "<mark>Actividad económica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/actividad-economica.jpg",
         "alt": "Puesto de mercado con productos a la venta",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los factores de producción?",
-      "respuesta": "Son los elementos necesarios para producir bienes: tierra, trabajo y capital. <mark>Es como una receta: hacen falta ingredientes, manos y herramientas para cocinar</mark>. La tierra aporta recursos naturales; el trabajo, el esfuerzo humano. El capital son las máquinas y el dinero invertido.",
+      "pregunta": "Es como una receta: hacen falta ingredientes, manos y herramientas para cocinar. Son los elementos necesarios para producir bienes: tierra, trabajo y capital. La tierra aporta recursos naturales; el trabajo, el esfuerzo humano; el capital, las máquinas y el dinero. ¿Cómo se llaman estos elementos?",
+      "respuesta": "<mark>Factores de producción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/factores-produccion.jpg",
         "alt": "Tractor agrícola trabajando en un campo",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el liberalismo económico?",
-      "respuesta": "Es una idea que defiende que el mercado se regule casi solo, con poca intervención del Estado. <mark>Es como dejar que compradores y vendedores negocien libremente el precio justo</mark>. Adam Smith fue uno de sus grandes defensores. Impulsó buena parte del crecimiento económico moderno.",
+      "pregunta": "Es como dejar que compradores y vendedores negocien libremente el precio justo. Es una idea que defiende que el mercado se regule casi solo, con poca intervención del Estado. Adam Smith fue uno de sus grandes defensores. ¿Cómo se llama esta idea económica?",
+      "respuesta": "<mark>Liberalismo económico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/liberalismo-economico.jpg",
         "alt": "Gráfico económico junto a pilas de monedas",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué propuso el economista Keynes frente al liberalismo puro?",
-      "respuesta": "Defendió que el Estado debía intervenir en la economía en momentos de crisis. <mark>Es como decir que, si el mercado se cae, alguien debe sujetarlo</mark>. Proponía invertir dinero público para crear empleo. Sus ideas se aplicaron mucho tras las grandes crisis económicas del siglo veinte.",
+      "pregunta": "Es como decir que, si el mercado se cae, alguien debe sujetarlo. Un economista defendió que el Estado debía intervenir en momentos de crisis, invirtiendo dinero público para crear empleo. Sus ideas se aplicaron mucho tras las grandes crisis del siglo veinte. ¿Cómo se llamaba este economista?",
+      "respuesta": "<mark>Keynes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/keynes.jpg",
         "alt": "Obreros colocando la primera piedra de una construcción",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la globalización económica?",
-      "respuesta": "Es la conexión cada vez mayor entre las economías de todo el mundo. <mark>Es como si el planeta entero funcionara ya como un único mercado</mark>. Permite comprar productos fabricados a miles de kilómetros de distancia. También hace que una crisis en un país afecte a otros muy lejanos.",
+      "pregunta": "Es como si el planeta entero funcionara ya como un único mercado. Es la conexión cada vez mayor entre las economías de todo el mundo, que permite comprar productos fabricados a miles de kilómetros. También hace que una crisis en un país afecte a otros muy lejanos. ¿Cómo se llama este fenómeno?",
+      "respuesta": "<mark>Globalización económica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/globalizacion.jpg",
         "alt": "Contenedores de colores apilados en un puerto",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el sector primario?",
-      "respuesta": "Agrupa las actividades que obtienen recursos directamente de la naturaleza. <mark>Incluye la agricultura, la ganadería, la pesca y la minería</mark>. Es la base sobre la que se construyen los demás sectores. Sin sector primario, no habría materias primas que transformar después.",
+      "pregunta": "Agrupa las actividades que obtienen recursos directamente de la naturaleza: agricultura, ganadería, pesca y minería. Es la base sobre la que se construyen los demás sectores. Sin él, no habría materias primas que transformar después. ¿Cómo se llama este sector?",
+      "respuesta": "<mark>Sector primario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/siega-campo.jpg",
         "alt": "Trabajo de siega en el campo, una actividad del sector primario",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el sector secundario?",
-      "respuesta": "Agrupa las actividades que transforman materias primas en productos elaborados. <mark>Convierte, por ejemplo, madera en muebles o hierro en coches</mark>. Incluye la industria y la construcción. Su desarrollo cambió por completo la economía moderna.",
+      "pregunta": "Convierte, por ejemplo, madera en muebles o hierro en coches. Agrupa las actividades que transforman materias primas en productos elaborados, como la industria y la construcción. Su desarrollo cambió por completo la economía moderna. ¿Cómo se llama este sector?",
+      "respuesta": "<mark>Sector secundario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/chimeneas-industriales.jpg",
         "alt": "Chimeneas industriales, una imagen del sector secundario",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el sector terciario?",
-      "respuesta": "Agrupa las actividades que ofrecen servicios, no productos físicos. <mark>Incluye desde un profesor hasta un médico o una tienda</mark>. Es el sector que más ha crecido en los países desarrollados. Comercio, turismo y transporte forman parte de él.",
+      "pregunta": "Incluye desde un profesor hasta un médico o una tienda. Agrupa las actividades que ofrecen servicios, no productos físicos, como el comercio, el turismo y el transporte. Es el sector que más ha crecido en los países desarrollados. ¿Cómo se llama este sector?",
+      "respuesta": "<mark>Sector terciario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/calle-comercio-toledo.jpg",
         "alt": "La Calle Comercio de Toledo, con tiendas del sector terciario",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las fuentes de energía renovables?",
-      "respuesta": "Son fuentes de energía que no se agotan, como el sol o el viento. <mark>Es como usar un pozo que siempre vuelve a llenarse, en vez de uno que se seca</mark>. No emiten tantos gases contaminantes como el petróleo o el carbón. Cada vez se usan más para frenar el cambio climático.",
+      "pregunta": "Es como usar un pozo que siempre vuelve a llenarse, en vez de uno que se seca. Son fuentes de energía que no se agotan, como el sol o el viento, y no emiten tantos gases contaminantes. Cada vez se usan más para frenar el cambio climático. ¿Cómo se llaman estas fuentes de energía?",
+      "respuesta": "<mark>Energías renovables</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/energias-renovables.jpg",
         "alt": "Turbinas eólicas generando energía",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los grandes polos de desarrollo industrial en el mundo?",
-      "respuesta": "Son las zonas donde se concentra buena parte de la producción industrial mundial. <mark>Es como los grandes talleres del planeta, trabajando sin parar</mark>. China, Estados Unidos o Alemania son ejemplos actuales. Suelen tener buenas comunicaciones y mucha mano de obra disponible.",
+      "pregunta": "Es como los grandes talleres del planeta, trabajando sin parar. Son las zonas donde se concentra buena parte de la producción industrial mundial, con buenas comunicaciones y mucha mano de obra disponible. ¿Qué tres países son ejemplos actuales de estos polos industriales?",
+      "respuesta": "<mark>China, Estados Unidos y Alemania</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/polos-desarrollo-industrial.jpg",
         "alt": "Fábrica de cemento con grandes instalaciones industriales",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los espacios terciarios?",
-      "respuesta": "Son los lugares donde se concentran actividades de servicios, como oficinas o centros comerciales. <mark>Suelen estar en el centro de las ciudades o cerca de zonas turísticas</mark>. Bancos, hospitales y tiendas son ejemplos de espacios terciarios. Reflejan una economía centrada en servicios.",
+      "pregunta": "Suelen estar en el centro de las ciudades o cerca de zonas turísticas. Son los lugares donde se concentran actividades de servicios, como bancos, hospitales y tiendas. Reflejan una economía centrada en servicios. ¿Cómo se llaman estos lugares?",
+      "respuesta": "<mark>Espacios terciarios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/playa-turismo.jpg",
         "alt": "Una playa turística, ejemplo de la actividad económica del turismo",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el turismo como actividad económica?",
-      "respuesta": "Es el desplazamiento de personas a otros lugares por ocio o descanso. <mark>Genera empleo en hoteles, restaurantes y transporte, entre otros</mark>. Es una parte muy importante de la economía española. Depende mucho de que el lugar visitado esté bien cuidado y sea atractivo.",
+      "pregunta": "Genera empleo en hoteles, restaurantes y transporte, entre otros. Es el desplazamiento de personas a otros lugares por ocio o descanso, y es una parte muy importante de la economía española. Depende mucho de que el lugar visitado esté bien cuidado. ¿Cómo se llama esta actividad económica?",
+      "respuesta": "<mark>Turismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/turismo.jpg",
         "alt": "Playa turística con gente disfrutando del mar",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué hay desigualdades regionales en la ocupación por sectores?",
-      "respuesta": "Porque no todos los territorios se han desarrollado económicamente igual. <mark>Unas zonas siguen viviendo del campo; otras, de la industria o los servicios</mark>. Eso depende de recursos, historia y decisiones económicas pasadas. Esas diferencias afectan a los salarios y al empleo disponible.",
+      "pregunta": "Unas zonas siguen viviendo del campo; otras, de la industria o los servicios. No todos los territorios se han desarrollado económicamente igual, y eso afecta a los salarios y al empleo disponible. ¿Qué tres cosas explican estas desigualdades entre territorios?",
+      "respuesta": "<mark>Recursos, historia y decisiones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/desigualdades-regionales.jpg",
         "alt": "Camino rural entre campos de cultivo",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo han cambiado los sectores económicos en España con el desarrollo?",
-      "respuesta": "España pasó de depender mucho del campo a depender sobre todo de los servicios. <mark>Es un cambio parecido al de la mayoría de países ricos actuales</mark>. La industria creció mucho a mediados del siglo veinte. Hoy el turismo y los servicios son claves en la economía española.",
+      "pregunta": "España pasó de depender mucho del campo a depender sobre todo de otra cosa, un cambio parecido al de la mayoría de países ricos actuales. La industria creció mucho a mediados del siglo veinte. ¿De qué depende sobre todo hoy la economía española?",
+      "respuesta": "<mark>El turismo y los servicios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/sectores-economicos-espana.jpg",
         "alt": "Rascacielos modernos del área de negocios de Madrid",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Qué papel tienen los sectores económicos en la Comunidad de Madrid?",
-      "respuesta": "Predomina claramente el sector terciario, con banca, comercio y administración. <mark>Madrid funciona como un gran centro de servicios para toda España</mark>. La industria y la agricultura tienen un peso mucho menor. Por eso Madrid es una de las regiones económicas más importantes del país.",
+      "pregunta": "Madrid funciona como un gran centro de servicios para toda España, con banca, comercio y administración. La industria y la agricultura tienen un peso mucho menor. ¿Qué sector predomina claramente en la Comunidad de Madrid?",
+      "respuesta": "<mark>Sector terciario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/sectores-madrid.jpg",
         "alt": "Vista del perfil urbano de la ciudad de Madrid",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa interpretar el territorio y el paisaje desde la geografía económica?",
-      "respuesta": "Significa entender por qué una zona se dedica a un tipo de actividad y no a otra. <mark>Es leer el paisaje como si fuera un mapa de decisiones económicas pasadas</mark>. El relieve, el clima y la historia influyen en esa elección. Esa lectura ayuda a comprender cómo se organiza un territorio.",
+      "pregunta": "Es leer el paisaje como si fuera un mapa de decisiones económicas pasadas. Interpretarlo significa entender por qué una zona se dedica a un tipo de actividad y no a otra. Esa lectura ayuda a comprender cómo se organiza un territorio. ¿Qué tres factores influyen en esa elección?",
+      "respuesta": "<mark>Relieve, clima e historia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia/paisaje-geografia-economica.jpg",
         "alt": "Vista aérea de campos de cultivo formando un mosaico",

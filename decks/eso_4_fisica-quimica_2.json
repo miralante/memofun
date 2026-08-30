@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué aportó el modelo atómico de Bohr?",
-      "respuesta": "Propuso que los electrones giran alrededor del núcleo en órbitas fijas y definidas. <mark>Es como peldaños de una escalera: el electrón solo puede estar en ciertos niveles, no entre medias</mark>. Explicó por qué los átomos emiten luz de colores concretos.",
+      "pregunta": "Es como peldaños de una escalera: el electrón solo puede estar en ciertos niveles, no entre medias. Explicó por qué los átomos emiten luz de colores concretos. Propuso órbitas fijas y definidas alrededor del núcleo. ¿Cómo se llama este modelo atómico?",
+      "respuesta": "<mark>Modelo de Bohr</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/bohr-modelo-atomico.png",
         "alt": "Diagrama del modelo atómico de Bohr, con electrones en órbitas",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las partículas elementales del átomo?",
-      "respuesta": "Son las partículas más básicas que forman el átomo: protones, neutrones y electrones. <mark>Es como las piezas fundamentales con las que se construye cualquier átomo del universo</mark>. Sus cargas eléctricas determinan buena parte de su comportamiento.",
+      "pregunta": "Son las piezas fundamentales con las que se construye cualquier átomo del universo. Sus cargas eléctricas determinan buena parte de su comportamiento. Son protones, neutrones y electrones. ¿Cómo se llaman estas partículas más básicas del átomo?",
+      "respuesta": "<mark>Partículas elementales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/particulas-atomo.jpg",
         "alt": "Representación artística de un átomo con su núcleo y electrones",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre un protón, un neutrón y un electrón?",
-      "respuesta": "El protón tiene carga positiva; el electrón, negativa; el neutrón no tiene carga. <mark>Es como tres compañeros con roles distintos dentro del mismo equipo</mark>. Protones y neutrones tienen masa parecida; el electrón es mucho más ligero.",
+      "pregunta": "Uno de ellos tiene carga positiva; otro, carga negativa. El tercero no tiene ninguna carga, aunque su masa es parecida a la del primero. ¿Cómo se llama esta tercera partícula, sin carga eléctrica?",
+      "respuesta": "<mark>Neutrón</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/modelo-rutherford.jpg",
         "alt": "Diagrama del modelo atómico planetario de Rutherford",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el modelo de Bohr-Sommerfeld?",
-      "respuesta": "Es una mejora del modelo de Bohr, con órbitas también elípticas, no solo circulares. <mark>Es como afinar un mapa añadiendo más detalles al dibujo original</mark>. Fue un paso intermedio hacia el modelo cuántico actual.",
+      "pregunta": "Es como afinar un mapa añadiendo más detalles al dibujo original. Añadió órbitas también elípticas, no solo circulares, a las del modelo de Bohr. Fue un paso intermedio hacia el modelo cuántico actual. ¿Cómo se llama esta mejora del modelo de Bohr?",
+      "respuesta": "<mark>Modelo de Bohr-Sommerfeld</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/fisica-clase-instituto.jpg",
         "alt": "Alumnos en una clase de física en un instituto",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué propone el modelo cuántico del átomo?",
-      "respuesta": "Propone que no se puede saber con exactitud dónde está un electrón en cada momento. <mark>En vez de una órbita fija, se habla de zonas donde es más probable encontrarlo</mark>. Esas zonas se llaman orbitales.",
+      "pregunta": "No se puede saber con exactitud dónde está un electrón en cada momento. En vez de una órbita fija, se habla de zonas donde es más probable encontrarlo. ¿Cómo se llaman estas zonas de probabilidad?",
+      "respuesta": "<mark>Orbitales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/estudiantes-fisica-clase.jpg",
         "alt": "Estudiantes trabajando juntos en una clase de física",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la estructura electrónica de un átomo?",
-      "respuesta": "Es la forma en que se distribuyen los electrones alrededor del núcleo. <mark>Es como saber en qué piso vive cada electrón dentro de un edificio con niveles</mark>. Esa distribución determina cómo reacciona un átomo con otros.",
+      "pregunta": "Es como saber en qué piso vive cada electrón dentro de un edificio con niveles. Esa distribución determina cómo reacciona un átomo con otros. ¿Cómo se llama la forma en que se distribuyen los electrones alrededor del núcleo?",
+      "respuesta": "<mark>Estructura electrónica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/modelo-atomico-cuasicristal.jpg",
         "alt": "Modelo físico de la estructura atómica de un cuasicristal",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la configuración electrónica?",
-      "respuesta": "Es la forma escrita de mostrar cómo se reparten los electrones de un átomo. <mark>Es como anotar en qué piso y qué habitación vive cada electrón, de forma ordenada</mark>. Se organiza en niveles y subniveles de energía.",
+      "pregunta": "Es como anotar en qué piso y qué habitación vive cada electrón, de forma ordenada. Se organiza en niveles y subniveles de energía. ¿Cómo se llama esta forma escrita de mostrar cómo se reparten los electrones?",
+      "respuesta": "<mark>Configuración electrónica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/aula-quimica-rotonda.jpg",
         "alt": "Un aula de química con pupitres y material de estudio",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre la configuración electrónica y la tabla periódica?",
-      "respuesta": "Los elementos se ordenan en la tabla según cómo se distribuyen sus electrones. <mark>Es como agrupar personas según a qué piso de un edificio pertenecen</mark>. Elementos de la misma columna comparten propiedades químicas similares.",
+      "pregunta": "Es como agrupar personas según a qué piso de un edificio pertenecen. Los elementos se ordenan según cómo se distribuyen sus electrones. Los de una misma columna comparten propiedades químicas similares. ¿Cómo se llama este cuadro donde se ordenan?",
+      "respuesta": "<mark>Tabla periódica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/tabla-periodica-mendeleyev.jpg",
         "alt": "La tabla periódica de los elementos de Mendeléyev",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los electrones de valencia?",
-      "respuesta": "Son los electrones de la capa más externa de un átomo. <mark>Son como la 'mano' que un átomo extiende para relacionarse con otros átomos</mark>. Son los principales responsables de cómo se forman los enlaces químicos.",
+      "pregunta": "Son como la 'mano' que un átomo extiende para relacionarse con otros átomos. Son los electrones de la capa más externa de un átomo. Son los principales responsables de cómo se forman los enlaces químicos. ¿Cómo se llaman estos electrones?",
+      "respuesta": "<mark>Electrones de valencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/orbitales-metano.jpg",
         "alt": "Representación de los orbitales moleculares del metano",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué los gases nobles son poco reactivos?",
-      "respuesta": "Porque tienen su capa electrónica externa completa, sin necesidad de combinarse. <mark>Es como sentirse ya completo, sin necesitar nada más de fuera</mark>. Se usan, por ejemplo, dentro de bombillas o en atmósferas protectoras.",
+      "pregunta": "Es como sentirse ya completo, sin necesitar nada más de fuera. Tienen su capa electrónica externa completa, sin necesidad de combinarse. Se usan, por ejemplo, dentro de bombillas o en atmósferas protectoras. ¿Cómo se llama este grupo de elementos, tan poco reactivos?",
+      "respuesta": "<mark>Gases nobles</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/letrero-neon.jpg",
         "alt": "Un letrero de neón iluminado, un uso de los gases nobles",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo ha evolucionado el modelo atómico a lo largo de la historia?",
-      "respuesta": "Ha pasado de una esfera maciza a un modelo mucho más complejo y probabilístico. <mark>Es como ir afinando un dibujo, borrando y corrigiendo cada vez que se aprende algo nuevo</mark>. Esa evolución muestra muy bien cómo avanza la ciencia.",
+      "pregunta": "Es como ir afinando un dibujo, borrando y corrigiendo cada vez que se aprende algo nuevo. Ha pasado de una esfera maciza a algo mucho más complejo y probabilístico. Esa evolución muestra muy bien cómo avanza la ciencia. ¿Cómo se llama esta representación del átomo, que ha ido cambiando con el tiempo?",
+      "respuesta": "<mark>Modelo atómico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/atomium-bruselas.jpg",
         "alt": "El Atomium de Bruselas, una escultura con forma de átomo de hierro",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante conocer la estructura electrónica para entender la química?",
-      "respuesta": "Porque explica por qué unos elementos reaccionan fácilmente y otros casi no lo hacen. <mark>Es como entender el carácter de alguien antes de predecir cómo se relacionará con otros</mark>. Determina qué tipo de enlaces puede formar un átomo.",
+      "pregunta": "Es como entender el carácter de alguien antes de predecir cómo se relacionará con otros. Explica por qué unos elementos reaccionan fácilmente y otros casi no lo hacen. Determina qué tipo de enlaces puede formar un átomo. ¿Cómo se llama esto, tan importante para entender la química?",
+      "respuesta": "<mark>Estructura electrónica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/clase-ciencias.jpg",
         "alt": "Alumnado trabajando en una clase de ciencias",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los niveles de energía en un átomo?",
-      "respuesta": "Son las distintas 'distancias' en las que pueden situarse los electrones respecto al núcleo. <mark>Es como los distintos pisos de un edificio, cada uno con su propia energía</mark>. Saltar de un nivel a otro puede absorber o liberar luz.",
+      "pregunta": "Es como los distintos pisos de un edificio, cada uno con su propia energía. Son las distintas 'distancias' en las que pueden situarse los electrones respecto al núcleo. Saltar de uno a otro puede absorber o liberar luz. ¿Cómo se llaman estos pisos energéticos?",
+      "respuesta": "<mark>Niveles de energía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/profesor-fisica.jpg",
         "alt": "Un profesor explicando física con ecuaciones en la pizarra",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué evidencia experimental apoyó el paso del modelo de Bohr al modelo cuántico?",
-      "respuesta": "Ciertos experimentos mostraban comportamientos que el modelo de Bohr no explicaba bien. <mark>Es como notar que un mapa antiguo ya no encaja con lo que se descubre al explorar más</mark>. La física cuántica ofreció una explicación más precisa.",
+      "pregunta": "Es como notar que un mapa antiguo ya no encaja con lo que se descubre al explorar más. Ciertos experimentos mostraban comportamientos que el modelo de Bohr no explicaba bien. Una nueva teoría ofreció una explicación más precisa. ¿Cómo se llama este nuevo modelo del átomo?",
+      "respuesta": "<mark>Modelo cuántico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_2/particula-onda-luz.jpg",
         "alt": "Luz descompuesta en colores, como un espectro atómico",

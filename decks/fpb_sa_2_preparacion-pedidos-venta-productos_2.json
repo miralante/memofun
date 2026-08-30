@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué documentos se generan en una operación de cobro?",
-      "respuesta": "El ticket o la factura, que certifican la compra realizada. <mark>Es como un recibo que demuestra que el pago se hizo de verdad</mark>.",
+      "pregunta": "El ticket o la factura certifican que la compra se realizó. Es como un recibo que demuestra que el pago se hizo de verdad. ¿Qué documentos se generan en una operación de cobro?",
+      "respuesta": "<mark>Ticket o factura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/cobro-caja.jpg",
         "alt": "Una persona cobrando en la caja de una tienda",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante entregar siempre un ticket o factura al cliente?",
-      "respuesta": "Porque es la prueba de la compra, necesaria para una devolución o garantía. <mark>Es como guardar un comprobante por si hace falta demostrar algo más adelante</mark>.",
+      "pregunta": "Es la prueba de la compra, necesaria para una devolución o garantía. Es como guardar un comprobante por si hace falta demostrar algo más adelante. ¿Qué conviene entregar siempre al cliente?",
+      "respuesta": "<mark>Un ticket o factura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/caja-registradora.jpg",
         "alt": "Una caja registradora imprimiendo el ticket de compra",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la garantía de un producto?",
-      "respuesta": "Es el compromiso de que un producto funcionará bien durante un tiempo determinado. <mark>Es como una promesa de calidad que respalda al cliente durante un tiempo</mark>.",
+      "pregunta": "Es el compromiso de que un producto funcionará bien durante un tiempo determinado. Es como una promesa de calidad que respalda al cliente durante un tiempo. ¿Cómo se llama este compromiso?",
+      "respuesta": "<mark>Garantía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/garantia-documento.jpg",
         "alt": "Un documento de garantía de un producto",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué cubre normalmente la garantía de un producto?",
-      "respuesta": "Suele cubrir fallos de fabricación, pero no daños causados por un mal uso. <mark>Es como un seguro que protege ante errores del propio producto, no ante accidentes propios</mark>.",
+      "pregunta": "Suele cubrir fallos de fabricación, pero no daños causados por un mal uso. Es como un seguro que protege ante errores del propio producto, no ante accidentes propios. ¿Qué cubre normalmente la garantía?",
+      "respuesta": "<mark>Fallos de fabricación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/caja-desembalaje-producto.jpg",
         "alt": "Una caja de cartón abierta con un producto dentro",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Durante cuánto tiempo suele estar vigente una garantía?",
-      "respuesta": "Depende del producto, pero suele durar al menos dos años en productos nuevos. <mark>Es un plazo mínimo fijado para proteger a quien compra</mark>.",
+      "pregunta": "Depende del producto, pero suele durar al menos dos años en productos nuevos. Es un plazo mínimo fijado para proteger a quien compra. ¿Cuánto suele durar una garantía?",
+      "respuesta": "<mark>Al menos dos años</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/reloj-arena-tiempo.jpg",
         "alt": "Un reloj de arena, que representa el tiempo que dura una garantía",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una devolución?",
-      "respuesta": "Es cuando un cliente entrega de vuelta un producto que ya había comprado. <mark>Es como deshacer una compra, total o parcialmente</mark>.",
+      "pregunta": "Es cuando un cliente entrega de vuelta un producto que ya había comprado. Es como deshacer una compra, total o parcialmente. ¿Cómo se llama esto?",
+      "respuesta": "<mark>Devolución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/caja-correo-devolucion.jpg",
         "alt": "Un centro postal con cajas listas para devolver un envío",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué pasos sigue gestionar bien una devolución?",
-      "respuesta": "Comprobar el motivo, revisar el producto y aplicar la solución correspondiente. <mark>Es como seguir un protocolo, paso a paso, para resolverlo con orden</mark>.",
+      "pregunta": "Comprobar el motivo, revisar el producto y aplicar la solución correspondiente son sus pasos. Es como seguir un protocolo, paso a paso, para resolverlo con orden. ¿Qué se está gestionando con estos pasos?",
+      "respuesta": "<mark>Una devolución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/devoluciones-tienda.jpg",
         "alt": "El mostrador de devoluciones y cambios de una tienda",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué documento suele pedirse para tramitar una devolución?",
-      "respuesta": "El ticket o la factura de compra, como prueba de que el producto se adquirió allí. <mark>Es como pedir un comprobante antes de aceptar deshacer una compra</mark>.",
+      "pregunta": "El ticket o la factura de compra sirven como prueba de que el producto se adquirió allí. Es como pedir un comprobante antes de aceptar deshacer una compra. ¿Qué documento suele pedirse para tramitar una devolución?",
+      "respuesta": "<mark>El ticket o la factura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/recibo-documento.jpg",
         "alt": "Un recibo de compra en papel",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante gestionar bien las devoluciones, aunque supongan una pérdida de venta?",
-      "respuesta": "Porque una devolución bien gestionada mantiene la confianza del cliente en la empresa. <mark>Es como cumplir una promesa, aunque en el momento no convenga del todo</mark>.",
+      "pregunta": "Una devolución bien gestionada mantiene la confianza del cliente en la empresa. Es como cumplir una promesa, aunque en el momento no convenga del todo. ¿Qué mantiene una devolución bien gestionada, aunque suponga perder una venta?",
+      "respuesta": "<mark>La confianza del cliente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/atencion-cliente-reembolso.jpg",
         "alt": "Una persona atendiendo a un cliente en el mostrador",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué normas de higiene conviene seguir al manipular productos?",
-      "respuesta": "Lavarse las manos, usar guantes si hace falta y mantener limpio el espacio de trabajo. <mark>Es como cuidar la limpieza al preparar cualquier producto que otra persona va a usar</mark>.",
+      "pregunta": "Lavarse las manos, usar guantes si hace falta y mantener limpio el espacio de trabajo son algunas. Es como cuidar la limpieza al preparar cualquier producto que otra persona va a usar. ¿Qué normas conviene seguir al manipular productos?",
+      "respuesta": "<mark>Normas de higiene</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/guantes-manipulando-alimentos.jpg",
         "alt": "Unas manos con guantes manipulando un producto con higiene",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué normas de seguridad conviene seguir al manipular mercancía pesada?",
-      "respuesta": "Levantar el peso con la espalda recta y pedir ayuda si es necesario. <mark>Es como repartir bien el esfuerzo, en vez de forzar el cuerpo de golpe</mark>.",
+      "pregunta": "Levantar el peso con la espalda recta y pedir ayuda si es necesario son algunas. Es como repartir bien el esfuerzo, en vez de forzar el cuerpo de golpe. ¿Qué normas conviene seguir al manipular mercancía pesada?",
+      "respuesta": "<mark>Normas de seguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/carretilla-manual-cajas.jpg",
         "alt": "Una carretilla manual usada para mover cajas pesadas con seguridad",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué la higiene y la seguridad son tan importantes en la preparación de pedidos?",
-      "respuesta": "Porque protegen tanto al trabajador como al cliente que recibirá el producto. <mark>Es como cuidar dos cosas a la vez: tu propia salud y la calidad de lo que entregas</mark>.",
+      "pregunta": "Protegen tanto al trabajador como al cliente que recibirá el producto. Es como cuidar dos cosas a la vez: tu propia salud y la calidad de lo que entregas. ¿Qué es tan importante en la preparación de pedidos?",
+      "respuesta": "<mark>La higiene y la seguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/tienda-supermercado.jpg",
         "alt": "El interior de un supermercado con productos en las estanterías",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre una buena atención y una gestión correcta de devoluciones?",
-      "respuesta": "Ambas buscan que el cliente se sienta bien tratado, incluso cuando algo no sale bien. <mark>Es como mantener el buen trato aunque la venta no termine como se esperaba</mark>.",
+      "pregunta": "Ambas buscan que el cliente se sienta bien tratado, incluso cuando algo no sale bien. Es como mantener el buen trato aunque la venta no termine como se esperaba. ¿Qué tienen en común la atención al cliente y la gestión de devoluciones?",
+      "respuesta": "<mark>El buen trato</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/dependienta-atendiendo-clienta.jpg",
         "alt": "Una dependienta en prácticas atendiendo en una tienda",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué este módulo aplica lo aprendido en atención al cliente de 1º a un contexto de venta?",
-      "respuesta": "Porque la atención en una tienda o almacén sigue los mismos principios, aplicados a productos concretos. <mark>Es como usar la misma base, pero en una situación más específica</mark>.",
+      "pregunta": "La atención en una tienda o almacén sigue los mismos principios, aplicados a productos concretos. Es como usar la misma base, pero en una situación más específica. ¿Qué se aplica aquí a un contexto de venta?",
+      "respuesta": "<mark>La atención al cliente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_2/atencion-cliente-reembolso.jpg",
         "alt": "Una persona atendiendo a un cliente con amabilidad, igual que en atención al cliente",

@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una novela?",
-      "respuesta": "Es una historia larga, escrita en capítulos. <mark>Da tiempo a conocer a fondo a los personajes</mark>. Es más larga y detallada que un cuento. Puede tardar horas o días en leerse entera.",
+      "pregunta": "Es una historia larga, escrita en capítulos. Da tiempo a conocer a fondo a los personajes. Puede tardar horas o días en leerse entera. ¿Cómo se llama este tipo de historia?",
+      "respuesta": "<mark>Novela</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura/novela.jpg",
         "alt": "Una torre alta de libros antiguos de tapa dura, apilados uno encima de otro",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un capítulo en una novela?",
-      "respuesta": "Es cada parte en la que se divide la novela. <mark>Ayuda a organizar la historia en trozos manejables</mark>. Cada capítulo suele avanzar un poco la trama. Así el lector puede parar y seguir después.",
+      "pregunta": "Es cada parte en la que se divide una novela. Organiza la historia en trozos manejables. Así el lector puede parar y seguir después. ¿Cómo se llama cada una de estas partes?",
+      "respuesta": "<mark>Capítulo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura/capitulo.jpg",
         "alt": "Un libro abierto por dentro, mostrando varias páginas con texto escrito",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué una novela suele tener varias tramas a la vez?",
-      "respuesta": "Una novela tiene espacio para contar más de una historia. <mark>La trama principal avanza junto a historias secundarias</mark>. Eso da profundidad a los personajes. Un cuento corto no tiene espacio para tantas historias.",
+      "pregunta": "Una novela tiene espacio para contar más de una historia a la vez. La trama principal avanza junto a historias secundarias. Eso da profundidad a los personajes. ¿Qué tiene una novela que un cuento corto no tiene espacio para tener?",
+      "respuesta": "<mark>Varias tramas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura/pila-libros.jpg",
         "alt": "Una pila de libros, como las tramas de una novela",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un cómic?",
-      "respuesta": "Es una historia contada con dibujos y texto juntos. <mark>Las imágenes muestran lo que las palabras no necesitan explicar</mark>. Se lee mirando y leyendo a la vez. Por eso se cuenta tan rápido como se mira.",
+      "pregunta": "Es una historia contada con dibujos y texto juntos. Las imágenes muestran lo que las palabras no necesitan explicar. Se lee mirando y leyendo a la vez. ¿Cómo se llama este tipo de historia?",
+      "respuesta": "<mark>Cómic</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura/comic.jpg",
         "alt": "Portada de un cómic con varios superhéroes dibujados, volando y luchando juntos",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una viñeta en un cómic?",
-      "respuesta": "Es cada recuadro con un dibujo del cómic. <mark>Cada viñeta congela un momento de la historia</mark>. Leídas en orden, cuentan toda la escena. Es parecido a los fotogramas de una película.",
+      "pregunta": "Es cada recuadro con un dibujo, dentro de un cómic. Congela un momento de la historia. Es parecido a un fotograma de película. ¿Cómo se llama cada uno de estos recuadros?",
+      "respuesta": "<mark>Viñeta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura/vineta.jpg",
         "alt": "Boceto de una tira cómica con tres viñetas seguidas, cada una con personajes dibujados",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirve el bocadillo en un cómic?",
-      "respuesta": "El bocadillo muestra lo que dice o piensa un personaje. <mark>Su forma cambia según si se habla, se grita o se piensa</mark>. Una nube indica que es un pensamiento. Un globo con punta indica que se habla en voz alta.",
+      "pregunta": "Esto muestra lo que dice o piensa un personaje de cómic. Su forma cambia según si se habla, se grita o se piensa. Una nube significa que es un pensamiento. ¿Cómo se llama esto en un cómic?",
+      "respuesta": "<mark>El bocadillo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura/bocadillo.jpg",
         "alt": "Dos bocadillos de cómic con texto dentro, sobre un fondo amarillo",

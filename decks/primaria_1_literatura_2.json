@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una fábula?",
-      "respuesta": "Es un cuento corto con animales que hablan y actúan. <mark>Casi siempre enseña algo importante para la vida</mark>. Esa enseñanza final se llama moraleja. Muchas fábulas tratan sobre la astucia o la paciencia.",
+      "pregunta": "Es un cuento corto con animales que hablan y actúan. Casi siempre enseña algo importante para la vida. Muchos tratan sobre la astucia o la paciencia. ¿Cómo se llama este tipo de cuento?",
+      "respuesta": "<mark>Fábula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-uvas.jpg",
         "alt": "Un zorro mirando hacia arriba un racimo de uvas colgando de una planta",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la moraleja de una fábula?",
-      "respuesta": "Es la enseñanza que deja la fábula al terminar. <mark>Es como un consejo escondido dentro de la historia</mark>. Por ejemplo: no burlarse de los demás. Sin moraleja, una fábula sería solo un cuento con animales.",
+      "pregunta": "Es la enseñanza que deja una fábula al terminar. Es como un consejo escondido dentro de la historia. Por ejemplo: no burlarse de los demás. ¿Cómo se llama esta enseñanza final?",
+      "respuesta": "<mark>Moraleja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/moraleja-hercules-carretero.jpg",
         "alt": "Un hombre fuerte, con los brazos cruzados, mira a un carretero arrodillado junto a un carro atascado en el barro",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué le pasa a la liebre por confiarse en su carrera con la tortuga?",
-      "respuesta": "La liebre corre muy rápido y se para a dormir. <mark>La tortuga, lenta pero constante, llega antes a la meta</mark>. La liebre pierde por exceso de confianza. La fábula enseña que el esfuerzo vale más que la prisa.",
+      "pregunta": "En una carrera, la liebre corre muy rápido y se para a dormir. La tortuga es lenta pero no para nunca. La liebre pierde por exceso de confianza. ¿Quién gana la carrera?",
+      "respuesta": "<mark>La tortuga</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/liebre-tortuga.jpg",
         "alt": "Una liebre y una tortuga se miran de cerca, rodeadas de otros animales vestidos como personas, antes de una carrera",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un trabalenguas?",
-      "respuesta": "Es una frase difícil de decir rápido y sin errores. <mark>Las palabras se parecen mucho y la lengua se lía</mark>. Por ejemplo: 'tres tristes tigres'. Se usa para jugar y para practicar cómo hablamos.",
+      "pregunta": "Es una frase difícil de decir rápido y sin errores. Las palabras se parecen mucho y la lengua se lía. Por ejemplo: 'tres tristes tigres'. ¿Cómo se llama este tipo de frase?",
+      "respuesta": "<mark>Trabalenguas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/trabalenguas-tigre.jpg",
         "alt": "La cara de un tigre dibujada en blanco y negro, como el tigre del trabalenguas 'tres tristes tigres'",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un refrán?",
-      "respuesta": "Es una frase corta que se repite desde hace años. <mark>Guarda un consejo o una idea sobre la vida</mark>. Por ejemplo: 'más vale tarde que nunca'. Los abuelos suelen conocer muchísimos refranes.",
+      "pregunta": "Es una frase corta que se repite desde hace años. Guarda un consejo o una idea sobre la vida. Por ejemplo: 'más vale tarde que nunca'. ¿Cómo se llama este tipo de frase?",
+      "respuesta": "<mark>Refrán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/libro-refranes.jpg",
         "alt": "Un libro abierto con páginas de refranes y dichos populares",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencian un cuento y una fábula?",
-      "respuesta": "Un cuento puede tratar sobre cualquier tema o personaje. <mark>La fábula casi siempre usa animales para dejar una moraleja</mark>. El cuento no siempre enseña una lección al final. La fábula, en cambio, casi siempre sí.",
+      "pregunta": "Un cuento puede tratar sobre cualquier tema o personaje. Esta otra historia casi siempre usa animales para dejar una enseñanza. Casi siempre termina con una moraleja. ¿Cómo se llama esta segunda clase de historia?",
+      "respuesta": "<mark>Fábula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-cuervo.jpg",
         "alt": "Un zorro mirando hacia arriba a un cuervo que sostiene un queso en el pico, encima de un árbol",

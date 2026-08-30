@@ -4,60 +4,60 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una reacción química?",
-      "respuesta": "Es un cambio en el que una sustancia se transforma en otra distinta. <mark>Es como mezclar ingredientes y obtener un plato nuevo, distinto de cada uno</mark>. Antes y después hay sustancias diferentes. Muchas reacciones son invisibles, pero dejan señales claras."
+      "pregunta": "Es un cambio en el que una sustancia se transforma en otra distinta, como mezclar ingredientes y obtener un plato nuevo. Antes y después hay sustancias diferentes. ¿Cómo se llama este cambio?",
+      "respuesta": "<mark>Reacción química</mark>"
     },
     {
-      "pregunta": "¿Qué es la oxidación?",
-      "respuesta": "Es una reacción química cuando un metal toca el aire y la humedad. <mark>Es como una manzana que se pone marrón al cortarla</mark>. El hierro oxidado se cubre de una capa rojiza. Por eso las herramientas de metal necesitan cuidado."
+      "pregunta": "Ocurre cuando un metal toca el aire y la humedad, como una manzana que se pone marrón al cortarla. El hierro se cubre de una capa rojiza. ¿Cómo se llama esta reacción?",
+      "respuesta": "<mark>Oxidación</mark>"
     },
     {
-      "pregunta": "¿Qué es la combustión?",
-      "respuesta": "Es la reacción química que ocurre al quemar algo. <mark>Es como encender una cerilla: la madera se transforma en ceniza y humo</mark>. Necesita oxígeno del aire para producirse. Suelta calor y luz mientras ocurre."
+      "pregunta": "Ocurre al quemar algo, como encender una cerilla que se convierte en ceniza y humo. Necesita oxígeno del aire y suelta calor y luz. ¿Cómo se llama esta reacción?",
+      "respuesta": "<mark>Combustión</mark>"
     },
     {
-      "pregunta": "¿Cómo se sabe si ha ocurrido una reacción química?",
-      "respuesta": "Se nota porque aparecen señales claras de cambio. <mark>Es como ver humo, burbujas o un color nuevo, todo junto</mark>. También puede notarse un cambio de temperatura. Estas pistas indican que algo distinto se ha formado."
+      "pregunta": "Aparecen señales claras de cambio, como humo, burbujas o un color nuevo. También puede notarse un cambio de temperatura. ¿Qué ha ocurrido cuando aparecen estas pistas?",
+      "respuesta": "<mark>Reacción química</mark>"
     },
     {
-      "pregunta": "¿Qué es la energía eléctrica?",
-      "respuesta": "Es la energía que viaja por los cables hasta los aparatos. <mark>Es como el agua que corre por tuberías hasta el grifo</mark>. Hace que se enciendan luces y funcionen máquinas. Llega a las casas a través de la red eléctrica."
+      "pregunta": "Viaja por los cables hasta los aparatos, como el agua que corre por tuberías hasta el grifo. Hace que se enciendan luces y funcionen máquinas. ¿Cómo se llama esta energía?",
+      "respuesta": "<mark>Energía eléctrica</mark>"
     },
     {
-      "pregunta": "¿Qué es un circuito eléctrico?",
-      "respuesta": "Es un camino cerrado por el que circula la corriente. <mark>Es como una pista de carreras circular, sin salidas</mark>. Si el camino se corta, la corriente deja de pasar. Por eso una bombilla se apaga al abrir el circuito."
+      "pregunta": "Es un camino cerrado por el que circula la corriente, como una pista de carreras circular sin salidas. Si el camino se corta, la corriente deja de pasar. ¿Cómo se llama este camino?",
+      "respuesta": "<mark>Circuito eléctrico</mark>"
     },
     {
-      "pregunta": "¿Qué elementos forman un circuito eléctrico sencillo?",
-      "respuesta": "Un circuito necesita una pila, cables y un receptor. <mark>Son como los ingredientes mínimos de una receta, ninguno sobra</mark>. La pila da la energía y los cables la transportan. El receptor, como una bombilla, usa esa energía."
+      "pregunta": "Un circuito necesita una pila, cables y un tercer elemento que usa la energía, como una bombilla. La pila la da y los cables la transportan. ¿Cómo se llama ese tercer elemento?",
+      "respuesta": "<mark>Receptor</mark>"
     },
     {
-      "pregunta": "¿Qué es un circuito en serie?",
-      "respuesta": "Es un circuito con un único camino para la corriente. <mark>Es como una fila de luces de Navidad antiguas, todas en línea</mark>. Si una bombilla se funde, las demás se apagan. Toda la corriente pasa por el mismo hilo, una tras otra."
+      "pregunta": "Tiene un único camino para la corriente, como una fila antigua de luces de Navidad. Si una bombilla se funde, las demás se apagan. ¿Cómo se llama este tipo de circuito?",
+      "respuesta": "<mark>Circuito en serie</mark>"
     },
     {
-      "pregunta": "¿Qué es un circuito en paralelo?",
-      "respuesta": "Es un circuito con varios caminos distintos para la corriente. <mark>Es como las luces de un edificio, cada piso con su interruptor</mark>. Si una bombilla se funde, las demás siguen encendidas. Cada camino funciona de forma independiente."
+      "pregunta": "Tiene varios caminos distintos para la corriente, como las luces de un edificio con un interruptor por piso. Si una bombilla se funde, las demás siguen encendidas. ¿Cómo se llama este tipo de circuito?",
+      "respuesta": "<mark>Circuito en paralelo</mark>"
     },
     {
-      "pregunta": "¿Qué diferencia hay entre un circuito en serie y uno en paralelo?",
-      "respuesta": "En el circuito en serie, un fallo apaga todo el circuito. <mark>En el paralelo, un fallo solo afecta a esa parte</mark>. Por eso las casas usan circuitos en paralelo. Así una bombilla fundida no deja a oscuras toda la vivienda."
+      "pregunta": "En un tipo de circuito, un fallo apaga todo. En el otro, un fallo solo afecta a esa parte. ¿Cuál usan las casas para que una bombilla fundida no deje todo a oscuras?",
+      "respuesta": "<mark>Circuito en paralelo</mark>"
     },
     {
-      "pregunta": "¿Por qué es importante ahorrar energía?",
-      "respuesta": "Porque muchas fuentes de energía son limitadas y contaminan. <mark>Gastar energía sin cuidado es como dejar un grifo abierto sin usarlo</mark>. Ahorrar energía cuida los recursos del planeta. También reduce la contaminación del aire."
+      "pregunta": "Muchas fuentes de energía son limitadas y contaminan. Gastarla sin cuidado es como dejar un grifo abierto sin usarlo. ¿Qué hábito cuida los recursos del planeta?",
+      "respuesta": "<mark>Ahorro de energía</mark>"
     },
     {
-      "pregunta": "¿Cómo se puede ahorrar energía en casa?",
-      "respuesta": "Apagando luces y aparatos que no se están usando. <mark>Es un gesto pequeño, como cerrar una puerta para no perder calor</mark>. Desenchufar cargadores vacíos también ayuda. Cada gesto pequeño suma, si se repite cada día."
+      "pregunta": "Un gesto pequeño ayuda al planeta, como cerrar una puerta para no perder calor. Desenchufar cargadores vacíos también cuenta. ¿Qué conviene hacer con las luces y aparatos sin usar?",
+      "respuesta": "<mark>Apagarlos</mark>"
     },
     {
-      "pregunta": "¿Qué es la etiqueta energética de los electrodomésticos?",
-      "respuesta": "Es una etiqueta que indica cuánta energía gasta un aparato. <mark>Funciona como un semáforo: verde gasta poco, rojo gasta mucho</mark>. Ayuda a elegir aparatos que ahorran energía. Comprar uno eficiente ahorra dinero y cuida el planeta."
+      "pregunta": "Indica cuánta energía gasta un electrodoméstico, como un semáforo: verde gasta poco, rojo gasta mucho. Ayuda a elegir aparatos que ahorran energía. ¿Cómo se llama esta etiqueta?",
+      "respuesta": "<mark>Etiqueta energética</mark>"
     },
     {
-      "pregunta": "¿Qué relación hay entre las energías renovables y el ahorro de energía?",
-      "respuesta": "Las energías renovables, como el sol o el viento, no se agotan. <mark>Usarlas junto con el ahorro es como llenar y cuidar el mismo cubo</mark>. Ahorrar energía hace que esas fuentes limpias alcancen para más gente. Las dos ideas van siempre de la mano."
+      "pregunta": "El sol y el viento dan energía que nunca se agota. Ahorrar energía hace que estas fuentes limpias alcancen para más gente. ¿Cómo se llaman estas fuentes que no se agotan?",
+      "respuesta": "<mark>Energías renovables</mark>"
     }
   ]
 }

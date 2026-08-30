@@ -1,5 +1,9 @@
 # tecnico.md — Arquitectura
 
+El alcance, la audiencia y las reglas de producto están en
+[`SPEC.md`](SPEC.md). Este documento es la fuente canónica de las decisiones
+técnicas y de implementación.
+
 ## 1. Visión general
 
 Sitio 100% estático, **vanilla HTML/CSS/JS puro** (sin build, sin
@@ -66,9 +70,12 @@ JSON plano.
 }
 ```
 
-`respuesta` es HTML simple (`<mark>`, `<b>`, `<i>`, `<br>`) — la frase
-clave de aprendizaje significativo va envuelta en `<mark></mark>` (ver
-las reglas de contenido en §8 y en `CLAUDE.md`). `App.decks` normaliza
+`pregunta` lleva la pista — la analogía cotidiana, el ejemplo práctico
+o el "por qué importa" — cerrada con una pregunta corta que pide
+nombrar o identificar el concepto; `respuesta` es SOLO ese
+concepto/término, corto (1-6 palabras), envuelto en `<mark></mark>`
+(ver las reglas de contenido en §8 y en `CLAUDE.md`). HTML simple
+únicamente (`<mark>`, `<b>`, `<i>`, `<br>`). `App.decks` normaliza
 cualquier archivo con esta forma; un archivo sin `tarjetas` (array) se
 rechaza.
 
@@ -79,8 +86,8 @@ visual a la explicación:
 
 ```json
 {
-  "pregunta": "¿Qué es un cuento popular?",
-  "respuesta": "...",
+  "pregunta": "Es una historia que se cuenta desde hace muchísimos años, de abuelos a nietos. ¿Cómo se llama esta clase de historia?",
+  "respuesta": "<mark>Cuento popular</mark>",
   "imagen": {
     "archivo": "assets/img/decks/primaria_1_literatura/cuento-popular.jpg",
     "alt": "Portada de un libro de cuentos: una niña sentada, leyendo",

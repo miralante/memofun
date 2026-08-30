@@ -1,5 +1,8 @@
 # technical.md — Architecture
 
+Product scope, audience and product rules live in [`SPEC.md`](SPEC.md). This
+document is the canonical source for technical and implementation decisions.
+
 ## 1. Overview
 
 A fully static site, **plain vanilla HTML/CSS/JS** (no build, no
@@ -64,10 +67,13 @@ Memofun uses **its own format**, not Anki's `.apkg`: a plain JSON file.
 }
 ```
 
-`respuesta` is simple HTML (`<mark>`, `<b>`, `<i>`, `<br>`) — the key
-meaningful-learning phrase is wrapped in `<mark></mark>` (see the
-content rules in §8 and in `CLAUDE.md`). `App.decks` normalizes any
-file with this shape; a file with no `tarjetas` array is rejected.
+`pregunta` carries the clue — the everyday analogy, concrete example,
+or "why it matters" — closed by a short question asking the learner to
+name or identify the concept; `respuesta` is ONLY that concept/term
+itself, short (1-6 words), wrapped in `<mark></mark>` (see the content
+rules in §8 and in `CLAUDE.md`). Simple HTML only (`<mark>`, `<b>`,
+`<i>`, `<br>`). `App.decks` normalizes any file with this shape; a file
+with no `tarjetas` array is rejected.
 
 ### 3.1 Optional per-card image (`imagen`)
 
@@ -76,8 +82,8 @@ the explanation:
 
 ```json
 {
-  "pregunta": "¿Qué es un cuento popular?",
-  "respuesta": "...",
+  "pregunta": "Es una historia que se cuenta desde hace muchísimos años, de abuelos a nietos. ¿Cómo se llama esta clase de historia?",
+  "respuesta": "<mark>Cuento popular</mark>",
   "imagen": {
     "archivo": "assets/img/decks/primaria_1_literatura/cuento-popular.jpg",
     "alt": "Portada de un libro de cuentos: una niña sentada, leyendo",

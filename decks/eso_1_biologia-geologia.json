@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es el método científico?",
-      "respuesta": "Es la forma ordenada en que los científicos investigan el mundo. <mark>Es como seguir una receta de pasos para no perderte al investigar</mark>. Incluye observar, preguntar, comprobar y sacar conclusiones. Gracias a él, la ciencia avanza de forma fiable, no por casualidad.",
+      "pregunta": "Es la forma ordenada en que los científicos investigan el mundo. Es como seguir una receta de pasos para no perderte al investigar. Incluye observar, preguntar, comprobar y sacar conclusiones. ¿Cómo se llama esta forma de investigar?",
+      "respuesta": "<mark>Método científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/laboratorio-quimica.jpg",
         "alt": "Un laboratorio de química, con material científico",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una hipótesis?",
-      "respuesta": "Es una posible explicación que se propone antes de comprobarla. <mark>Es como una apuesta razonada, que hay que verificar con pruebas</mark>. Puede confirmarse o rechazarse tras la investigación. Sin hipótesis, no sabrías qué comprobar exactamente.",
+      "pregunta": "Es una posible explicación que se propone antes de comprobarla. Es como una apuesta razonada, que hay que verificar con pruebas. Puede confirmarse o rechazarse tras la investigación. ¿Cómo se llama esta idea inicial?",
+      "respuesta": "<mark>Hipótesis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/pregunta-hipotesis.jpg",
         "alt": "Un cartel con un signo de interrogación",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué son importantes los experimentos en ciencia?",
-      "respuesta": "Porque permiten comprobar si una idea es cierta o no. <mark>Es como poner a prueba una receta antes de decir que funciona</mark>. Sin experimentar, una idea seguiría siendo solo una suposición. Repetirlo ayuda a confirmar que el resultado no fue casualidad.",
+      "pregunta": "Permiten comprobar si una idea es cierta o no. Es como poner a prueba una receta antes de decir que funciona. Sin ellos, una idea seguiría siendo solo una suposición. ¿Cómo se llama esta prueba científica?",
+      "respuesta": "<mark>Experimento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/mechero-experimento.jpg",
         "alt": "Un mechero de laboratorio, usado para hacer experimentos",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirven los modelos científicos?",
-      "respuesta": "Ayudan a representar y entender procesos difíciles de observar directamente. <mark>Es como usar una maqueta para entender un edificio sin construirlo entero</mark>. Un modelo del sistema solar es un buen ejemplo. Simplifican la realidad para que sea más fácil de estudiar.",
+      "pregunta": "Ayudan a representar y entender procesos difíciles de observar directamente. Es como usar una maqueta para entender un edificio sin construirlo entero. Un modelo del sistema solar es un buen ejemplo. ¿Cómo se llaman estas representaciones simplificadas?",
+      "respuesta": "<mark>Modelos científicos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/globo-terraqueo-clase.jpg",
         "alt": "Un globo terráqueo, un modelo de la Tierra",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante contribuir de forma colectiva a la ciencia?",
-      "respuesta": "Porque ningún científico descubre todo solo, sino a partir de trabajos anteriores. <mark>Es como construir un edificio añadiendo un piso sobre los que ya existían</mark>. Compartir resultados ayuda a que otros investigadores avancen más rápido. Así la ciencia crece gracias a muchas personas juntas.",
+      "pregunta": "Ningún científico descubre todo solo, sino a partir de trabajos anteriores. Es como construir un edificio añadiendo un piso sobre los que ya existían. Compartir resultados ayuda a que otros investigadores avancen más rápido. ¿Qué tipo de trabajo hace crecer así a la ciencia?",
+      "respuesta": "<mark>Trabajo colectivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/laboratorio-equipo.jpg",
         "alt": "Un equipo de personas trabajando juntas en un laboratorio",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre una roca y un mineral?",
-      "respuesta": "Un mineral es una sustancia con una composición química fija. <mark>Una roca, en cambio, es una mezcla de varios minerales juntos</mark>. Por ejemplo, el granito es una roca formada por distintos minerales. Por eso las rocas pueden tener aspectos muy variados.",
+      "pregunta": "Una sustancia tiene una composición química fija y propia. Otra, en cambio, es una mezcla de varias de esas sustancias juntas, como el granito. ¿Cómo se llama cada una de estas dos cosas?",
+      "respuesta": "<mark>Mineral y roca</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/gemas-brasil.jpg",
         "alt": "Piedras preciosas y minerales de colores",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las rocas sedimentarias?",
-      "respuesta": "Se forman por la acumulación de restos de otras rocas o seres vivos. <mark>Es como capas de arena que, con el tiempo, se compactan hasta endurecerse</mark>. Suelen formarse en el fondo de mares, ríos o lagos. La piedra caliza es un ejemplo muy común.",
+      "pregunta": "Se forman por la acumulación de restos de otras rocas o seres vivos. Es como capas de arena que, con el tiempo, se compactan hasta endurecerse. Suelen formarse en el fondo de mares, ríos o lagos. ¿Cómo se llama este tipo de roca?",
+      "respuesta": "<mark>Rocas sedimentarias</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/estratos-rocas-sedimentarias.jpg",
         "alt": "Estratos de rocas sedimentarias, formados en capas",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las rocas ígneas?",
-      "respuesta": "Se forman cuando el magma del interior de la Tierra se enfría y se solidifica. <mark>Es como cuando la cera derretida de una vela se enfría y vuelve a ser sólida</mark>. El granito y el basalto son ejemplos conocidos. Pueden formarse dentro o fuera de la Tierra, según dónde se enfríen.",
+      "pregunta": "Se forman cuando el magma del interior de la Tierra se enfría y se solidifica. Es como cuando la cera derretida de una vela se enfría y vuelve a ser sólida. El granito y el basalto son ejemplos conocidos. ¿Cómo se llama este tipo de roca?",
+      "respuesta": "<mark>Rocas ígneas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/basalto-lava.jpg",
         "alt": "Un pueblo construido sobre roca de basalto, formada por lava enfriada",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las rocas metamórficas?",
-      "respuesta": "Se forman cuando otra roca cambia por el calor y la presión del interior de la Tierra. <mark>Es como transformar una masa de pan aplicándole mucho calor y mucha fuerza</mark>. El mármol, por ejemplo, viene de la caliza transformada. No se derriten del todo, pero cambian su estructura.",
+      "pregunta": "Se forman cuando una roca cambia por calor y presión. Es como una masa de pan moldeada con calor y fuerza. El mármol viene de la caliza transformada así. ¿Cómo se llama este tipo de roca?",
+      "respuesta": "<mark>Rocas metamórficas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/marmol-roca-metamorfica.jpg",
         "alt": "Mármol, una roca metamórfica",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se clasifican los minerales?",
-      "respuesta": "Se clasifican según sus propiedades, como el color, la dureza o el brillo. <mark>Es un poco como identificar a alguien por sus rasgos característicos</mark>. La dureza se mide comparando qué mineral raya a otro. Esas propiedades ayudan a reconocerlo sin analizarlo en laboratorio.",
+      "pregunta": "Se clasifican según sus propiedades, como el color, la dureza o el brillo. Es un poco como identificar a alguien por sus rasgos característicos. La dureza se mide comparando qué mineral raya a otro. ¿Qué usamos para reconocer un mineral sin analizarlo en un laboratorio?",
+      "respuesta": "<mark>Sus propiedades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/coleccion-piedras.jpg",
         "alt": "Una colección de piedras y minerales clasificados",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la geosfera?",
-      "respuesta": "Es la parte sólida de la Tierra, desde la superficie hasta el centro. <mark>Es como las capas de una cebolla, una dentro de otra</mark>. Se divide en corteza, manto y núcleo. Cada capa tiene una composición y una temperatura distintas.",
+      "pregunta": "Es la parte sólida de la Tierra, desde la superficie hasta el centro. Es como las capas de una cebolla, una dentro de otra. Se divide en corteza, manto y núcleo. ¿Cómo se llama esta parte de la Tierra?",
+      "respuesta": "<mark>Geosfera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/capas-cebolla.jpg",
         "alt": "Una cebolla cortada, mostrando sus capas, una dentro de otra",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la corteza terrestre?",
-      "respuesta": "Es la capa más externa y delgada de la Tierra, donde vivimos. <mark>Es como la cáscara de una manzana, fina comparada con el resto</mark>. Está formada por rocas y es la parte que mejor conocemos. Bajo ella se encuentra el manto, mucho más grueso.",
+      "pregunta": "Es la capa más externa y delgada de la Tierra, donde vivimos. Es como la cáscara de una manzana, fina comparada con el resto. Está formada por rocas y es la parte que mejor conocemos. ¿Cómo se llama esta capa?",
+      "respuesta": "<mark>Corteza terrestre</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/placas-tectonicas.jpg",
         "alt": "Esquema de los movimientos de la superficie terrestre",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el núcleo de la Tierra?",
-      "respuesta": "Es la capa más interna y caliente del planeta. <mark>Es como el corazón de la Tierra, escondido en el centro</mark>. Se divide en núcleo externo, líquido, y núcleo interno, sólido. Está compuesto sobre todo por hierro y níquel.",
+      "pregunta": "Es la capa más interna y caliente del planeta. Es como el corazón de la Tierra, escondido en el centro. Está compuesta sobre todo por hierro y níquel. ¿Cómo se llama esta capa?",
+      "respuesta": "<mark>Núcleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/erupcion-volcan.jpg",
         "alt": "Un volcán en erupción, con lava del interior de la Tierra",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es útil identificar rocas y minerales del entorno?",
-      "respuesta": "Porque ayuda a entender el paisaje y los materiales que usamos cada día. <mark>Muchos objetos cotidianos, como el cemento o el vidrio, vienen de rocas y minerales</mark>. Reconocerlos también ayuda a valorar el patrimonio geológico de un lugar. Conecta la ciencia con la vida diaria.",
+      "pregunta": "Muchos objetos cotidianos, como el cemento o el vidrio, vienen de rocas y minerales. Reconocerlos ayuda a entender el paisaje y a valorar el patrimonio geológico de un lugar. Conecta la ciencia con la vida diaria. ¿Qué es útil aprender a reconocer en el entorno?",
+      "respuesta": "<mark>Rocas y minerales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/gemas-coleccion.jpg",
         "alt": "Una colección de gemas y minerales de distintos colores",

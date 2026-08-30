@@ -4,20 +4,20 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es la Luna?",
-      "respuesta": "La Luna es una gran bola de piedra. Gira despacio alrededor de la Tierra. <mark>Es como un espejo redondo que refleja la luz del Sol</mark>. Poco a poco cambia de forma en el cielo."
+      "pregunta": "Es una gran bola de piedra que gira despacio alrededor de la Tierra, como un espejo redondo que refleja la luz del Sol. Cambia de forma poco a poco. ¿Cómo se llama esto?",
+      "respuesta": "<mark>La Luna</mark>"
     },
     {
-      "pregunta": "¿Qué son las estrellas?",
-      "respuesta": "Las estrellas son bolas de gas muy calientes. <mark>Son como farolillos encendidos muy lejos en el cielo</mark>. Brillan con luz propia, no reflejada. El Sol también es una estrella, la más cercana a nosotros."
+      "pregunta": "Son bolas de gas muy calientes, como farolillos encendidos muy lejos en el cielo. Brillan con luz propia, no reflejada. ¿Cómo se llaman estas bolas de gas?",
+      "respuesta": "<mark>Estrellas</mark>"
     },
     {
-      "pregunta": "¿Qué le pasa a la naturaleza en verano?",
-      "respuesta": "En verano hace mucho calor y hay más horas de sol. <mark>Los animales buscan sombra o agua fresca para refrescarse</mark>. Las plantas necesitan beber más agua que en otras estaciones. Muchas frutas maduran y están listas para comer."
+      "pregunta": "Hace mucho calor y hay más horas de sol. Los animales buscan sombra o agua fresca para refrescarse. Las plantas necesitan beber más agua. ¿En qué estación pasa esto?",
+      "respuesta": "<mark>En verano</mark>"
     },
     {
-      "pregunta": "¿Cómo cambia la naturaleza en cada estación del año?",
-      "respuesta": "En primavera, las plantas florecen y despiertan. En verano, todo crece bajo el calor y el sol. En otoño, los árboles pierden las hojas poco a poco. <mark>En invierno, muchos animales duermen o se abrigan para pasar el frío</mark>."
+      "pregunta": "En primavera las plantas florecen, y en verano todo crece bajo el calor. En otoño los árboles pierden las hojas poco a poco. ¿Qué hacen muchos animales en la estación más fría?",
+      "respuesta": "<mark>Dormir o abrigarse</mark>"
     }
   ]
 }

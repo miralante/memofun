@@ -4,84 +4,84 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es un lexema?",
-      "respuesta": "Es la parte de la palabra que lleva el significado principal. <mark>Es como el corazón de la palabra, la parte que no cambia</mark>. En \"gatito\", el lexema es \"gat-\". Todas las palabras de una misma familia comparten el mismo lexema."
+      "pregunta": "En \"gatito\", una parte de la palabra lleva el significado principal. <br>Es como el corazón de la palabra, la parte que no cambia. <br>Todas las palabras de una misma familia la comparten. <br>¿Cómo se llama esta parte de la palabra?",
+      "respuesta": "<mark>Lexema</mark>"
     },
     {
-      "pregunta": "¿Qué es un morfema?",
-      "respuesta": "Es la parte de la palabra que añade información extra. <mark>Es como un accesorio que se le añade a una palabra para cambiar su sentido</mark>. En \"gatito\", el morfema \"-ito\" indica que es pequeño. Los morfemas pueden marcar género, número o tamaño."
+      "pregunta": "En \"gatito\", una parte añade información extra, como el tamaño. <br>Es como un accesorio que se añade a una palabra para cambiar su sentido. <br>Puede marcar género, número o tamaño. <br>¿Cómo se llama esta parte de la palabra?",
+      "respuesta": "<mark>Morfema</mark>"
     },
     {
-      "pregunta": "¿Qué es un sustantivo común?",
-      "respuesta": "Es el nombre que se usa para cualquier persona, animal o cosa del mismo tipo. <mark>Es como una etiqueta general, como \"perro\" para cualquier perro que exista</mark>. No empieza con mayúscula, salvo al inicio de una frase. \"Mesa\", \"río\" y \"niño\" son sustantivos comunes."
+      "pregunta": "\"Perro\", \"mesa\" y \"río\" nombran a cualquier cosa de su mismo tipo. <br>Es como una etiqueta general, no un nombre propio. <br>No se escribe con mayúscula, salvo al inicio de una frase. <br>¿Cómo se llama este tipo de sustantivo?",
+      "respuesta": "<mark>Sustantivo común</mark>"
     },
     {
-      "pregunta": "¿Qué es un sustantivo propio?",
-      "respuesta": "Es el nombre que señala a alguien o algo único, sin compartirlo con otros. <mark>Es como el nombre de pila de una persona, que la distingue de las demás</mark>. Siempre se escribe con mayúscula inicial. \"Madrid\", \"Ana\" y \"Everest\" son sustantivos propios."
+      "pregunta": "\"Madrid\", \"Ana\" y \"Everest\" señalan algo único, sin compartirlo con otros. <br>Es como el nombre de pila de una persona. <br>Siempre se escribe con mayúscula inicial. <br>¿Cómo se llama este tipo de sustantivo?",
+      "respuesta": "<mark>Sustantivo propio</mark>"
     },
     {
-      "pregunta": "¿Qué es un sustantivo individual?",
-      "respuesta": "Es el que nombra a un solo ser, aunque en plural pueda haber varios. <mark>Es como llamar a cada oveja de un rebaño por separado</mark>. \"Árbol\", \"oveja\" y \"libro\" son sustantivos individuales. Cada palabra nombra una sola unidad."
+      "pregunta": "\"Árbol\", \"oveja\" y \"libro\" nombran a un solo ser cada uno. <br>Es como llamar a cada oveja de un rebaño por separado. <br>Aunque haya varios, cada palabra nombra una sola unidad. <br>¿Cómo se llama este tipo de sustantivo?",
+      "respuesta": "<mark>Sustantivo individual</mark>"
     },
     {
-      "pregunta": "¿Qué es un sustantivo colectivo?",
-      "respuesta": "Es el que, en singular, ya nombra a un grupo entero. <mark>Es como decir \"rebaño\" en vez de contar oveja por oveja</mark>. \"Bosque\", \"rebaño\" y \"equipo\" son sustantivos colectivos. Con una sola palabra se nombra a muchos seres juntos."
+      "pregunta": "\"Bosque\", \"rebaño\" y \"equipo\" ya nombran a un grupo entero, en singular. <br>Es como decir \"rebaño\" en vez de contar oveja por oveja. <br>Con una sola palabra se nombra a muchos seres juntos. <br>¿Cómo se llama este tipo de sustantivo?",
+      "respuesta": "<mark>Sustantivo colectivo</mark>"
     },
     {
-      "pregunta": "¿Qué es un adjetivo calificativo?",
-      "respuesta": "Es la palabra que describe cómo es un sustantivo. <mark>Es como el condimento de una frase, que añade sabor a lo que describe</mark>. En \"casa grande\", \"grande\" es el adjetivo. Dice cómo es la casa, no qué es."
+      "pregunta": "En \"casa grande\", una palabra dice cómo es la casa, no qué es. <br>Es como el condimento de una frase, que añade sabor. <br>Describe al sustantivo que acompaña. <br>¿Cómo se llama esta palabra?",
+      "respuesta": "<mark>Adjetivo calificativo</mark>"
     },
     {
-      "pregunta": "¿Qué es la concordancia entre sustantivo y adjetivo?",
-      "respuesta": "Es que ambos deben coincidir en género y número. <mark>Es como dos piezas de un puzle que deben encajar exactamente</mark>. Se dice \"niñas altas\", no \"niñas alto\". Si el sustantivo cambia, el adjetivo debe cambiar con él."
+      "pregunta": "Se dice \"niñas altas\", nunca \"niñas alto\". <br>Es como dos piezas de un puzle que encajan exactamente. <br>El sustantivo y el adjetivo coinciden en género y número. <br>¿Cómo se llama esta coincidencia entre ambos?",
+      "respuesta": "<mark>Concordancia</mark>"
     },
     {
-      "pregunta": "¿Qué es un artículo?",
-      "respuesta": "Es un determinante que acompaña al sustantivo y anuncia su género y número. <mark>Es como un cartel pequeño que va justo antes del sustantivo</mark>. \"El\", \"la\", \"los\", \"las\", \"un\" y \"una\" son artículos. Siempre van delante del sustantivo al que acompañan."
+      "pregunta": "\"El\", \"la\", \"los\", \"las\", \"un\" y \"una\" van siempre delante del sustantivo. <br>Son como un cartel pequeño que anuncia su género y número. <br>Acompañan al sustantivo que sigue. <br>¿Cómo se llama este tipo de palabra?",
+      "respuesta": "<mark>Artículo</mark>"
     },
     {
-      "pregunta": "¿Qué es un demostrativo?",
-      "respuesta": "Es un determinante que señala la distancia de algo respecto a quien habla. <mark>Es como señalar con el dedo si algo está cerca o lejos</mark>. \"Este\" indica cercanía y \"aquel\" indica lejanía. \"Ese\" se usa para una distancia intermedia."
+      "pregunta": "\"Este\" indica cercanía y \"aquel\" indica lejanía. <br>Es como señalar con el dedo si algo está cerca o lejos. <br>\"Ese\" se usa para una distancia intermedia. <br>¿Cómo se llama este tipo de palabra?",
+      "respuesta": "<mark>Demostrativo</mark>"
     },
     {
-      "pregunta": "¿Qué es un posesivo?",
-      "respuesta": "Es un determinante que indica a quién pertenece algo. <mark>Es como una etiqueta con un nombre, que dice de quién es cada cosa</mark>. \"Mi\", \"tu\" y \"su\" son posesivos. Acompañan al sustantivo para mostrar de quién es."
+      "pregunta": "\"Mi\", \"tu\" y \"su\" acompañan al sustantivo para mostrar de quién es. <br>Es como una etiqueta con un nombre, que dice de quién es cada cosa. <br>Van siempre junto al sustantivo. <br>¿Cómo se llama este tipo de palabra?",
+      "respuesta": "<mark>Posesivo</mark>"
     },
     {
-      "pregunta": "¿Qué son la persona y el número de un verbo?",
-      "respuesta": "Indican quién realiza la acción y si es una o varias personas. <mark>Es como firmar una acción con el nombre de quien la hace</mark>. \"Yo canto\" es primera persona del singular. \"Ellos cantan\" es tercera persona del plural."
+      "pregunta": "\"Yo canto\" es primera persona del singular. <br>\"Ellos cantan\" es tercera persona del plural. <br>Es como firmar una acción con el nombre de quien la hace. <br>¿Qué dos cosas indican quién hace la acción y si son varios?",
+      "respuesta": "<mark>Persona y número</mark>"
     },
     {
-      "pregunta": "¿Qué es el tiempo verbal?",
-      "respuesta": "Indica cuándo ocurre la acción: antes, ahora o después. <mark>Es como un reloj que marca si la acción ya pasó, pasa o va a pasar</mark>. \"Cantaba\" es pasado, \"canto\" es presente y \"cantaré\" es futuro. Cada tiempo sitúa la acción en un momento distinto."
+      "pregunta": "\"Cantaba\" es pasado, \"canto\" es presente y \"cantaré\" es futuro. <br>Es como un reloj que marca si la acción ya pasó, pasa o va a pasar. <br>Cada uno sitúa la acción en un momento distinto. <br>¿Cómo se llama esto que marca cuándo ocurre la acción?",
+      "respuesta": "<mark>Tiempo verbal</mark>"
     },
     {
-      "pregunta": "¿Qué es el modo verbal?",
-      "respuesta": "Indica la actitud de quien habla sobre la acción. <mark>Es como el tono de voz de la frase: seguro, dudoso o como una orden</mark>. El modo indicativo cuenta hechos reales, como \"camino\". El modo imperativo da órdenes, como \"camina\"."
+      "pregunta": "El modo indicativo cuenta hechos reales, como \"camino\". <br>El modo imperativo da órdenes, como \"camina\". <br>Es como el tono de voz de la frase: seguro, dudoso o como una orden. <br>¿Cómo se llama esto que indica la actitud de quien habla?",
+      "respuesta": "<mark>Modo verbal</mark>"
     },
     {
-      "pregunta": "¿Qué es una sílaba?",
-      "respuesta": "Es cada golpe de voz que se pronuncia en una palabra. <mark>Es como cada salto que das al pasar por unas piedras en un río</mark>. La palabra \"ca-sa\" tiene dos sílabas. Contar sílabas ayuda a saber cómo se pronuncia y se acentúa una palabra."
+      "pregunta": "La palabra \"ca-sa\" tiene dos golpes de voz al pronunciarse. <br>Es como cada salto que das al pasar por piedras en un río. <br>Contarlos ayuda a saber cómo se acentúa una palabra. <br>¿Cómo se llama cada uno de estos golpes de voz?",
+      "respuesta": "<mark>Sílaba</mark>"
     },
     {
-      "pregunta": "¿Qué diferencia hay entre un diptongo y un hiato?",
-      "respuesta": "El diptongo une dos vocales en la misma sílaba, sin separarlas. <mark>Es como dos amigos que caminan tan juntos que parecen uno solo</mark>. El hiato, en cambio, separa esas vocales en sílabas distintas. En \"aire\" hay diptongo; en \"ba-úl\" hay hiato."
+      "pregunta": "En \"aire\", dos vocales se unen en la misma sílaba, sin separarse. <br>Es como dos amigos que caminan tan juntos que parecen uno solo. <br>En \"ba-úl\", en cambio, esas vocales se separan en sílabas distintas. <br>¿Cómo se llama la unión de dos vocales en una misma sílaba?",
+      "respuesta": "<mark>Diptongo</mark>"
     },
     {
-      "pregunta": "¿Qué es una palabra aguda?",
-      "respuesta": "Es la palabra cuya última sílaba suena con más fuerza. <mark>Es como poner el foco de luz al final de la palabra</mark>. Se acentúa cuando termina en vocal, \"n\" o \"s\". \"Camión\" y \"reloj\" son ejemplos de palabras agudas."
+      "pregunta": "\"Camión\" y \"reloj\" suenan con más fuerza en su última sílaba. <br>Es como poner el foco de luz al final de la palabra. <br>Se acentúan cuando terminan en vocal, \"n\" o \"s\". <br>¿Cómo se llama este tipo de palabra?",
+      "respuesta": "<mark>Palabra aguda</mark>"
     },
     {
-      "pregunta": "¿Qué son las palabras llanas y las esdrújulas?",
-      "respuesta": "Las llanas cargan la fuerza en la penúltima sílaba. <mark>Es como poner el foco justo en el centro de la palabra en vez de al final</mark>. Las esdrújulas la cargan tres sílabas antes del final. \"Mesa\" es llana y \"teléfono\" es esdrújula."
+      "pregunta": "\"Mesa\" carga la fuerza en la penúltima sílaba, como un foco en el centro. <br>\"Teléfono\" la carga tres sílabas antes del final. <br>Cada tipo suena fuerte en un lugar distinto. <br>¿Cómo se llaman estos dos tipos de palabras?",
+      "respuesta": "<mark>Llanas y esdrújulas</mark>"
     },
     {
-      "pregunta": "¿Para qué sirve un diccionario?",
-      "respuesta": "Sirve para saber el significado y la ortografía correcta de las palabras. <mark>Es como un amigo experto al que preguntas cuando dudas de una palabra</mark>. También indica su categoría gramatical, como si es sustantivo o verbo. Consultarlo ayuda a escribir y a hablar mejor."
+      "pregunta": "Un amigo experto responde cuando dudas del significado de una palabra. <br>También indica su ortografía correcta y su categoría gramatical. <br>Consultarlo ayuda a escribir y a hablar mejor. <br>¿Cómo se llama este libro de consulta?",
+      "respuesta": "<mark>Diccionario</mark>"
     },
     {
-      "pregunta": "¿Cómo se ordenan las palabras en el diccionario?",
-      "respuesta": "Se ordenan por orden alfabético, de la A a la Z. <mark>Es como ordenar nombres en una lista, letra por letra</mark>. Si la primera letra coincide, se mira la segunda letra. Ese orden hace que buscar una palabra sea rápido y sencillo."
+      "pregunta": "Las palabras del diccionario se ordenan de la A a la Z. <br>Es como ordenar nombres en una lista, letra por letra. <br>Si la primera letra coincide, se mira la segunda. <br>¿Cómo se llama este orden?",
+      "respuesta": "<mark>Orden alfabético</mark>"
     }
   ]
 }

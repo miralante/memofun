@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué diferencia hay entre una magnitud escalar y una vectorial?",
-      "respuesta": "Una magnitud escalar queda definida solo con un número y una unidad. <mark>Una magnitud vectorial necesita además una dirección y un sentido</mark>. La temperatura es escalar; la velocidad, vectorial.",
+      "pregunta": "La temperatura queda definida solo con un número y una unidad. La velocidad, en cambio, necesita además una dirección y un sentido. ¿Cómo se llama este segundo tipo de magnitud, la que necesita dirección?",
+      "respuesta": "<mark>Magnitud vectorial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/veleta-direccion-viento.jpg",
         "alt": "Una veleta señalando la dirección del viento",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el espacio recorrido por un cuerpo?",
-      "respuesta": "Es la distancia total que ha recorrido un objeto en su movimiento. <mark>Es como sumar todos los pasos que has dado, aunque acabes cerca de donde empezaste</mark>. No es lo mismo que la distancia entre el inicio y el final.",
+      "pregunta": "Es como sumar todos los pasos que has dado, aunque acabes cerca de donde empezaste. Es la distancia total que ha recorrido un objeto en su movimiento. No es lo mismo que la distancia entre el inicio y el final. ¿Cómo se llama esta distancia total recorrida?",
+      "respuesta": "<mark>Espacio recorrido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/meta-carrera-corredores.jpg",
         "alt": "Corredores llegando a la meta tras recorrer una distancia",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre velocidad media y velocidad instantánea?",
-      "respuesta": "La velocidad media se calcula con el espacio total y el tiempo total del recorrido. <mark>La velocidad instantánea es la rapidez exacta en un momento concreto</mark>. El velocímetro de un coche muestra siempre la instantánea.",
+      "pregunta": "La velocidad media se calcula con el espacio total y el tiempo total del recorrido. El velocímetro de un coche, en cambio, muestra siempre otro tipo de velocidad, la de cada momento. ¿Cómo se llama esta segunda velocidad, la de un instante concreto?",
+      "respuesta": "<mark>Velocidad instantánea</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/velocimetro-panel-coche.jpg",
         "alt": "El velocímetro de un coche marcando la velocidad",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la aceleración?",
-      "respuesta": "Es la rapidez con la que cambia la velocidad de un cuerpo. <mark>Es como medir cuánto pisas el acelerador o el freno de un coche</mark>. Puede ser positiva, si el cuerpo acelera, o negativa, si frena.",
+      "pregunta": "Es como medir cuánto pisas el acelerador o el freno de un coche. Es la rapidez con la que cambia la velocidad de un cuerpo. Puede ser positiva, si el cuerpo acelera, o negativa, si frena. ¿Cómo se llama esta magnitud?",
+      "respuesta": "<mark>Aceleración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/coche-carrera-aceleracion.png",
         "alt": "Un coche de carreras acelerando en pista",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la ley de Hooke?",
-      "respuesta": "Explica cómo se deforma un muelle en relación con la fuerza que se le aplica. <mark>Cuanta más fuerza se aplica, más se estira o se comprime el muelle, de forma proporcional</mark>. Se usa para fabricar básculas o dinamómetros.",
+      "pregunta": "Cuanta más fuerza se aplica a un muelle, más se estira o se comprime, de forma proporcional. Se usa para fabricar básculas o dinamómetros. ¿Cómo se llama esta ley sobre la deformación de un muelle?",
+      "respuesta": "<mark>Ley de Hooke</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/muelle-metalico-espiral.jpg",
         "alt": "Un muelle metálico en espiral",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se calcula la fuerza resultante de varias fuerzas?",
-      "respuesta": "Se suman teniendo en cuenta su dirección y su sentido. <mark>Es como combinar varios empujones para saber hacia dónde se moverá realmente el objeto</mark>. Si van en direcciones opuestas, se restan entre sí.",
+      "pregunta": "Es como combinar varios empujones para saber hacia dónde se moverá realmente un objeto. Se suman teniendo en cuenta su dirección y su sentido. Si van en direcciones opuestas, se restan entre sí. ¿Cómo se llama esta suma de varias fuerzas?",
+      "respuesta": "<mark>Fuerza resultante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/tira-y-afloja-fuerzas.jpg",
         "alt": "Un tira y afloja, la suma de varias fuerzas en direcciones opuestas",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué dice la primera ley de Newton?",
-      "respuesta": "Dice que un cuerpo mantiene su estado de reposo o movimiento si ninguna fuerza actúa sobre él. <mark>Es como un balón que seguiría rodando eternamente si no hubiera rozamiento que lo frenara</mark>. También se llama principio de inercia.",
+      "pregunta": "Un balón seguiría rodando para siempre si no hubiera rozamiento. Un cuerpo sigue haciendo lo mismo si nada lo empuja. También se llama principio de inercia. ¿Cómo se llama esta primera ley?",
+      "respuesta": "<mark>Primera ley de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/bolas-billar-mesa.jpg",
         "alt": "Bolas de billar quietas sobre la mesa hasta que algo las golpea",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué dice la segunda ley de Newton?",
-      "respuesta": "Relaciona la fuerza aplicada a un objeto con la aceleración que produce. <mark>Cuanta más fuerza se aplica a un mismo objeto, más rápido cambia su velocidad</mark>. También depende de la masa del objeto.",
+      "pregunta": "Cuanta más fuerza se aplica a un mismo objeto, más rápido cambia su velocidad. También depende de la masa del objeto. Relaciona la fuerza aplicada con la aceleración que produce. ¿Cómo se llama esta segunda ley?",
+      "respuesta": "<mark>Segunda ley de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/carritos-supermercado.jpg",
         "alt": "Carritos de la compra, algo que empujamos con una fuerza",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué dice la tercera ley de Newton?",
-      "respuesta": "Dice que toda fuerza provoca una fuerza igual y de sentido contrario. <mark>Es como empujar una pared: la pared también te empuja a ti con la misma fuerza</mark>. Explica cómo funciona el despegue de un cohete.",
+      "pregunta": "Empujar una pared hace que la pared también te empuje a ti con la misma fuerza. Toda fuerza provoca otra igual y de sentido contrario. Explica cómo funciona el despegue de un cohete. ¿Cómo se llama esta tercera ley?",
+      "respuesta": "<mark>Tercera ley de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/cohete-espacial.jpg",
         "alt": "Un cohete espacial, ejemplo de la tercera ley de Newton",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la ley de la Gravitación Universal?",
-      "respuesta": "Explica que todos los cuerpos con masa se atraen entre sí. <mark>Es como un imán invisible que actúa entre cualquier par de objetos con masa</mark>. La propuso Isaac Newton, y explica por qué los planetas giran alrededor del Sol.",
+      "pregunta": "Es como un imán invisible que actúa entre cualquier par de objetos con masa. Explica por qué los planetas giran alrededor del Sol. La propuso Isaac Newton. ¿Cómo se llama esta ley, sobre la atracción entre cuerpos con masa?",
+      "respuesta": "<mark>Ley de la Gravitación Universal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/manzanas-cayendo-arbol.jpg",
         "alt": "Manzanas cayendo de un árbol por la gravedad",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las máquinas simples?",
-      "respuesta": "Son herramientas básicas que facilitan realizar un trabajo con menos esfuerzo. <mark>Es como conseguir el mismo resultado empujando con menos fuerza, gracias a un buen diseño</mark>. La palanca, la polea y el plano inclinado son ejemplos comunes.",
+      "pregunta": "Es como conseguir el mismo resultado empujando con menos fuerza, gracias a un buen diseño. La palanca, la polea y el plano inclinado son ejemplos comunes. ¿Cómo se llaman estas herramientas que facilitan el trabajo?",
+      "respuesta": "<mark>Máquinas simples</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/polea-fija.jpg",
         "alt": "Una polea fija de cable, una máquina simple",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un fenómeno magnético?",
-      "respuesta": "Es un fenómeno relacionado con la atracción o repulsión entre ciertos materiales. <mark>Es como la fuerza invisible que hace que un imán atraiga objetos de hierro</mark>. Se usa en motores, altavoces y muchos otros aparatos actuales.",
+      "pregunta": "Es como la fuerza invisible que hace que un imán atraiga objetos de hierro. Se usa en motores, altavoces y muchos otros aparatos actuales. ¿Cómo se llama este tipo de fenómeno, de atracción o repulsión entre ciertos materiales?",
+      "respuesta": "<mark>Fenómeno magnético</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/iman-limaduras-hierro.jpg",
         "alt": "Limaduras de hierro mostrando el campo magnético de un imán",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre los fenómenos eléctricos y los magnéticos?",
-      "respuesta": "Están profundamente conectados: una corriente eléctrica puede generar un campo magnético. <mark>Es como si electricidad y magnetismo fueran dos caras de la misma moneda</mark>. Se aprovecha en motores eléctricos y generadores.",
+      "pregunta": "Una corriente eléctrica puede generar un campo magnético. Es como si electricidad y magnetismo fueran dos caras de la misma moneda. Se aprovecha en motores eléctricos y generadores. ¿Cómo se llama esta conexión entre electricidad y magnetismo?",
+      "respuesta": "<mark>Electromagnetismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/campo-magnetico-bobina.svg",
         "alt": "El campo magnético creado por una bobina de cable eléctrico",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué las leyes de Newton siguen siendo tan importantes hoy en día?",
-      "respuesta": "Porque explican con precisión el movimiento de la mayoría de los objetos cotidianos. <mark>Desde un coche hasta un satélite, muchas cosas se diseñan usando esas leyes</mark>. Siguen siendo la base de la física que se estudia primero.",
+      "pregunta": "Desde un coche hasta un satélite, muchas cosas se diseñan usando estas reglas. Explican con precisión el movimiento de la mayoría de los objetos cotidianos. Siguen siendo la base de la física que se estudia primero. ¿Cómo se llaman estas reglas, propuestas hace más de tres siglos?",
+      "respuesta": "<mark>Leyes de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/estatua-isaac-newton.jpg",
         "alt": "Una estatua de Isaac Newton",

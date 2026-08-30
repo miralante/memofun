@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es la salud mental?",
-      "respuesta": "Es el bienestar emocional, tan importante como la salud física. <mark>Es como cuidar la mente igual que cuidas el cuerpo</mark>. Incluye gestionar el estrés, las emociones y las relaciones con los demás.",
+      "pregunta": "Es el bienestar emocional, tan importante como la salud física. Es como cuidar la mente igual que cuidas el cuerpo. Incluye gestionar el estrés, las emociones y las relaciones con los demás. ¿Cómo se llama este bienestar?",
+      "respuesta": "<mark>Salud mental</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/mindfulness-calma.jpg",
         "alt": "Una persona practicando la calma y la atención plena",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante cuidar el bienestar emocional?",
-      "respuesta": "Porque afecta a cómo nos sentimos, trabajamos y nos relacionamos con los demás. <mark>Es como el motor invisible que influye en todo lo que hacemos</mark>. Hablar de lo que sentimos forma parte de ese cuidado.",
+      "pregunta": "Afecta a cómo nos sentimos, trabajamos y nos relacionamos con los demás. Es como el motor invisible que influye en todo lo que hacemos. Hablar de lo que sentimos forma parte de cuidarlo. ¿Qué conviene cuidar siempre?",
+      "respuesta": "<mark>El bienestar emocional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/atardecer-tranquilo.jpg",
         "alt": "Un atardecer tranquilo junto al mar",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa hacer un uso responsable de las pantallas?",
-      "respuesta": "Significa dedicarles un tiempo razonable, sin que ocupen toda tu vida diaria. <mark>Es como comer de todo, sin abusar de un solo alimento</mark>. Incluye descansar la vista y evitar usarlas antes de dormir.",
+      "pregunta": "Significa dedicarles un tiempo razonable, sin que ocupen toda tu vida diaria. Es como comer de todo, sin abusar de un solo alimento. Incluye descansar la vista y evitar usarlas antes de dormir. ¿Cómo se llama hacer esto con las pantallas?",
+      "respuesta": "<mark>Uso responsable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ninas-pantalla-tablet.jpg",
         "alt": "Dos niñas sentadas en el suelo mirando una tableta",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué precauciones conviene tener en las redes sociales?",
-      "respuesta": "No compartir datos personales con desconocidos y contrastar la información antes de creerla. <mark>Es como no dar la dirección de tu casa a cualquiera en la calle</mark>.",
+      "pregunta": "No hay que compartir datos personales con desconocidos. Conviene contrastar la información antes de creerla. Es como no dar la dirección de tu casa a cualquiera en la calle. ¿Qué conviene tener en las redes sociales?",
+      "respuesta": "<mark>Precaución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/apps-movil.jpg",
         "alt": "Aplicaciones de redes sociales en la pantalla de un móvil",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los primeros auxilios en situaciones cotidianas?",
-      "respuesta": "Son las primeras acciones para ayudar a alguien antes de que llegue ayuda profesional. <mark>Es como dar los primeros pasos de una ayuda, sin sustituir a un médico</mark>.",
+      "pregunta": "Son las primeras acciones para ayudar a alguien antes de que llegue ayuda profesional. Es como dar los primeros pasos de una ayuda, sin sustituir a un médico. ¿Cómo se llaman estas primeras acciones?",
+      "respuesta": "<mark>Primeros auxilios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/botiquin-primeros-auxilios.jpg",
         "alt": "Un botiquín de primeros auxilios",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué se debe hacer ante un pequeño accidente en el trabajo?",
-      "respuesta": "Mantener la calma, valorar la situación y pedir ayuda si es necesario. <mark>Es como seguir un protocolo, paso a paso, sin actuar de forma precipitada</mark>.",
+      "pregunta": "Hay que mantener la calma, valorar la situación y pedir ayuda si es necesario. Es como seguir un protocolo, paso a paso, sin actuar de forma precipitada. ¿Qué se debe hacer ante un pequeño accidente en el trabajo?",
+      "respuesta": "<mark>Mantener la calma</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/aprendiendo-primeros-auxilios.jpg",
         "alt": "Una persona aprendiendo a aplicar primeros auxilios",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿De dónde viene la electricidad que se usa en una oficina?",
-      "respuesta": "Puede venir de fuentes renovables, como el sol o el viento, o de fuentes no renovables. <mark>Es como el combustible invisible que hace funcionar todos los aparatos de la oficina</mark>.",
+      "pregunta": "Puede venir de fuentes renovables, como el sol o el viento, o de fuentes no renovables. Es el combustible invisible que hace funcionar todos los aparatos de la oficina. ¿Qué usan los aparatos de una oficina para funcionar?",
+      "respuesta": "<mark>Electricidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/energia-eolica.jpg",
         "alt": "Turbinas eólicas generando energía renovable",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la eficiencia energética en una oficina?",
-      "respuesta": "Es usar la energía necesaria, sin derrochar más de lo que hace falta. <mark>Es como no dejar el grifo abierto cuando no lo estás usando, pero con la luz</mark>.",
+      "pregunta": "Es usar la energía necesaria, sin derrochar más de lo que hace falta. Es como no dejar el grifo abierto cuando no lo estás usando, pero con la luz. ¿Cómo se llama hacer esto en una oficina?",
+      "respuesta": "<mark>Eficiencia energética</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/bombilla-luz.jpg",
         "alt": "Una bombilla de luz encendida",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la huella ecológica de una persona o de una empresa?",
-      "respuesta": "Es la medida del impacto que su actividad tiene sobre el medio ambiente. <mark>Es como el rastro invisible que deja cada actividad sobre el planeta</mark>. Reducirla es un objetivo cada vez más compartido.",
+      "pregunta": "Es la medida del impacto que la actividad de una persona o empresa tiene sobre el medio ambiente. Es como el rastro invisible que deja cada actividad sobre el planeta. Reducirla es un objetivo cada vez más compartido. ¿Cómo se llama esta medida?",
+      "respuesta": "<mark>Huella ecológica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/cambio-climatico-financiacion.jpg",
         "alt": "Una representación del impacto del cambio climático",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se puede reducir la huella ecológica en una oficina?",
-      "respuesta": "Reciclando, ahorrando energía y reduciendo el uso de papel innecesario. <mark>Son pequeños gestos que, sumados, ayudan a cuidar un espacio compartido</mark>.",
+      "pregunta": "Se reduce reciclando, ahorrando energía y usando menos papel del necesario. Son pequeños gestos que, sumados, ayudan a cuidar un espacio compartido. ¿Qué se reduce con estos gestos en una oficina?",
+      "respuesta": "<mark>La huella ecológica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/papel-reciclaje.jpg",
         "alt": "Papel siendo depositado en un contenedor de reciclaje",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el cambio climático, según la ciencia?",
-      "respuesta": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre y esa fiebre no bajara</mark>.",
+      "pregunta": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. Es como si la Tierra tuviera fiebre y esa fiebre no bajara. ¿Cómo se llama esta alteración?",
+      "respuesta": "<mark>Cambio climático</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/glaciares-nivel-mar.jpg",
         "alt": "Glaciares afectados por el cambio climático",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre el consumo de energía y el cambio climático?",
-      "respuesta": "Producir energía a partir de combustibles como el petróleo libera gases que calientan el planeta. <mark>Es como acumular calor dentro de una habitación cerrada, poco a poco</mark>.",
+      "pregunta": "Producir energía a partir de combustibles como el petróleo libera gases que calientan el planeta. Es como acumular calor dentro de una habitación cerrada, poco a poco. ¿Qué provoca este calentamiento del planeta?",
+      "respuesta": "<mark>El consumo de energía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/central-energia.jpg",
         "alt": "Una central de generación de energía",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los equipos de protección en un trabajo de oficina?",
-      "respuesta": "Son elementos que ayudan a prevenir riesgos, aunque menos visibles que en otros trabajos. <mark>Incluyen desde sillas ergonómicas hasta pantallas que protegen la vista</mark>.",
+      "pregunta": "Son elementos que ayudan a prevenir riesgos, aunque menos visibles que en otros trabajos. Incluyen desde sillas ergonómicas hasta pantallas que protegen la vista. ¿Cómo se llaman estos elementos?",
+      "respuesta": "<mark>Equipos de protección</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/escritorio-trabajo.jpg",
         "alt": "Un escritorio de oficina con equipo de trabajo",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué se debe hacer ante una emergencia en el lugar de trabajo?",
-      "respuesta": "Mantener la calma, seguir las instrucciones de evacuación y dirigirse al punto de encuentro. <mark>Es como seguir un plan ya preparado, en vez de improvisar en el momento</mark>.",
+      "pregunta": "Hay que mantener la calma, seguir las instrucciones de evacuación y dirigirse al punto de encuentro. Es como seguir un plan ya preparado, en vez de improvisar en el momento. ¿Qué se debe hacer ante una emergencia en el trabajo?",
+      "respuesta": "<mark>Seguir el plan de evacuación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/simulacro-incendio.jpg",
         "alt": "Un simulacro de emergencia en un edificio",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante conocer el plan de evacuación de un edificio?",
-      "respuesta": "Porque en una emergencia real no hay tiempo para pensar qué hacer desde cero. <mark>Es como ensayar antes una ruta de salida, para no dudar si hace falta usarla</mark>.",
+      "pregunta": "En una emergencia real no hay tiempo para pensar qué hacer desde cero. Es como ensayar antes una ruta de salida, para no dudar si hace falta usarla. ¿Qué conviene conocer bien de un edificio?",
+      "respuesta": "<mark>El plan de evacuación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/salida-emergencia.jpg",
         "alt": "Un cartel de salida de emergencia",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo ha cambiado la tecnología el trabajo administrativo?",
-      "respuesta": "Ha automatizado tareas repetitivas y facilitado la comunicación y el archivo digital. <mark>Es como tener herramientas que hacen más rápido lo que antes costaba mucho tiempo</mark>.",
+      "pregunta": "Ha automatizado tareas repetitivas y facilitado la comunicación y el archivo digital. Es como tener herramientas que hacen más rápido lo que antes costaba mucho tiempo. ¿Qué ha cambiado tanto el trabajo administrativo?",
+      "respuesta": "<mark>La tecnología</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ordenador-tecnologia.jpg",
         "alt": "Un ordenador de oficina moderno",

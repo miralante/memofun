@@ -9,10 +9,14 @@
 ## 1. Product
 
 Memofun is a **flashcard study app** built around **meaningful
-learning**: every card explains a concept through an everyday analogy,
-a concrete example, or "why it matters" — never a dictionary
-definition. It is meant to let a person with an intellectual
-disability review a topic **autonomously**.
+learning**: every card presents a concept's everyday analogy, concrete
+example, or "why it matters" as a clue, then asks the learner to
+recall the concept itself — never a dictionary definition recited back
+as the answer. The priority is never "explain a lot" — it's getting
+the person to (a) understand one concrete idea, (b) recognize it in
+another context, (c) recall it with little help. It is meant to let a
+person with an intellectual disability review a topic
+**autonomously**.
 
 ### 1.1 What it is and isn't
 
@@ -122,11 +126,13 @@ No visible timers. The person sets the pace.
 ### 2.4 Always Easy Read
 
 - Short sentences, one idea per sentence, everyday vocabulary.
-  - Concrete metric: **2–5 sentences per answer**, **≤ 12 words per
-    sentence**. The `<= 12` figure comes from the UNE 153101:2018 EX
-    easy-read standard and applies to every card — see `CLAUDE.md`
-    §"Generating deck content" for the per-level detail
-    (`principiante` / `intermedio` / `avanzado`).
+  - Concrete metric: **2–4 clue sentences in `pregunta`**, **≤ 12 words
+    per sentence**, plus a short closing question. The `<= 12` figure
+    comes from the UNE 153101:2018 EX easy-read standard and applies to
+    every card — see `CLAUDE.md` §"Generating deck content" for the
+    per-level (`principiante` / `intermedio` / `avanzado`) detail.
+    `respuesta` is the short concept/term itself (1-6 words), not a
+    sentence.
 - No clinical language in the UI or on the cards ("patient",
   "disability", etc. — see the matching rule in "Generating deck
   content" in `CLAUDE.md`).
@@ -150,10 +156,10 @@ like a manual:
   meanings — those clash with Easy Read (§2.4): a literal reader needs
   the text to mean exactly what it says.
 - **Curious facts**: whenever it fits naturally with the topic, the
-  answer adds a surprising or picturesque "did you know?" to better
-  anchor the meaningful learning and make it memorable. Never forced
-  when the topic doesn't lend itself to one, and never at the cost of
-  clarity.
+  clue in `pregunta` weaves in a surprising or picturesque "did you
+  know?" to better anchor the meaningful learning and make it
+  memorable. Never forced when the topic doesn't lend itself to one,
+  never at the cost of clarity, and never in `respuesta`.
 - This applies when the content is written (a mandatory rule for the
   AI agent — see "Generating deck content" in `CLAUDE.md`) and during
   review before publishing: a flat, exam-like card gets rewritten, not
@@ -186,16 +192,12 @@ like a manual:
 
 Works offline (installable PWA), no login, no cost.
 
-### 2.9 Vanilla, no dependencies
+### 2.9 Simplicity for the learner
 
-The whole project — public site and `scripts/` tooling — is **vanilla
-HTML, CSS, and JavaScript**. No frameworks, no build step, no
-third-party packages (no npm, no pip in earlier versions). Decks
-use **our own JSON format** (see `technical.md` §3), not Anki's
-`.apkg` — that dependency was dropped specifically to avoid needing
-Python, or a SQLite/ZIP-reading library in the browser. Fewer moving
-parts, smaller attack surface, easier for anyone who knows HTML/CSS/JS
-to maintain.
+The learner needs no technical knowledge, account, key or development tools
+to study. The product must be predictable, free and easy to resume. The
+architecture that enables this scope is defined in [`technical.md`](technical.md),
+not in this product specification.
 
 ### 2.10 Public-facing wording: "usuario/a tipo" euphemism
 
@@ -308,8 +310,9 @@ A change to Memofun succeeds when:
 4. It works offline.
 5. It adds no new personal-data collection.
 6. It keeps ES/EN parity of the interface.
-7. New card content follows meaningful learning (analogy / example /
-   why it matters) and Easy Read.
+7. New card content follows meaningful learning (clue built from an
+   analogy / example / why it matters, concept recalled as the short
+   answer) and Easy Read.
 
 ---
 

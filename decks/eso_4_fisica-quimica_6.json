@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué caracteriza al movimiento rectilíneo uniforme?",
-      "respuesta": "Es un movimiento en línea recta con velocidad constante, sin acelerar ni frenar. <mark>Es como un coche circulando siempre a la misma velocidad, sin tocar el acelerador ni el freno</mark>. Su gráfica espacio-tiempo es siempre una línea recta.",
+      "pregunta": "Un coche va siempre igual, sin frenar ni acelerar. Su gráfica espacio-tiempo es una línea recta. ¿Cómo se llama este movimiento en línea recta a velocidad constante?",
+      "respuesta": "<mark>Movimiento rectilíneo uniforme</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/mru.jpg",
         "alt": "Varios vehículos circulando en línea recta por una autopista.",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué caracteriza al movimiento rectilíneo uniformemente acelerado?",
-      "respuesta": "Es un movimiento en línea recta donde la velocidad cambia de forma constante. <mark>Es como un coche que va cada segundo un poco más rápido, siempre de la misma manera</mark>. La caída de un objeto es un ejemplo cotidiano.",
+      "pregunta": "Un coche que cada segundo va más rápido tiene este tipo de movimiento. La caída de un objeto es un ejemplo cotidiano. ¿Cómo se llama este movimiento en línea recta con velocidad creciente?",
+      "respuesta": "<mark>Movimiento rectilíneo uniformemente acelerado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/mrua.jpg",
         "alt": "Montaña rusa acelerando por sus vías.",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el movimiento circular uniforme?",
-      "respuesta": "Es un movimiento en el que un cuerpo recorre una trayectoria circular a velocidad constante. <mark>Es como las agujas de un reloj, que siempre giran a la misma velocidad</mark>. Aunque la velocidad no cambia de valor, sí cambia de dirección.",
+      "pregunta": "Las agujas de un reloj siempre giran igual, sin cambiar de rapidez. La velocidad no cambia de valor, pero sí de dirección. ¿Cómo se llama este movimiento circular a velocidad constante?",
+      "respuesta": "<mark>Movimiento circular uniforme</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/mcu.jpg",
         "alt": "Noria girando en un parque de atracciones.",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué la fuerza se considera una magnitud vectorial?",
-      "respuesta": "Porque no basta con conocer su valor: también hace falta saber su dirección. <mark>Es como una flecha que indica no solo cuánta fuerza hay, sino hacia dónde apunta</mark>. Dos fuerzas iguales en distinta dirección producen efectos distintos.",
+      "pregunta": "Una flecha indica cuánta fuerza hay y hacia dónde apunta. Dos fuerzas iguales en dirección distinta producen efectos distintos. No basta con conocer su valor: también importa su dirección. ¿Qué tipo de magnitud es la fuerza, por necesitar dirección?",
+      "respuesta": "<mark>Magnitud vectorial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/fuerza-vectorial.jpg",
         "alt": "Veleta que señala la dirección del viento.",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué fuerzas actúan habitualmente sobre los objetos en la vida cotidiana?",
-      "respuesta": "El peso, el rozamiento, la fuerza normal y la fuerza aplicada, entre otras. <mark>Son fuerzas que actúan constantemente, aunque no siempre las notemos</mark>. El rozamiento, por ejemplo, frena casi todos los movimientos cotidianos.",
+      "pregunta": "El peso, la fuerza normal y la aplicada actúan siempre, aunque no las notemos. Otra de esas fuerzas frena casi todo movimiento por contacto entre superficies. ¿Cómo se llama esta fuerza que frena el movimiento?",
+      "respuesta": "<mark>Rozamiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/fuerzas-cotidianas.jpg",
         "alt": "Persona empujando un carrito de la compra.",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se calcula la fuerza resultante sobre un cuerpo?",
-      "respuesta": "Se suman todas las fuerzas que actúan sobre él, teniendo en cuenta su dirección. <mark>Es como sumar varias flechas apuntando en direcciones distintas para obtener una final</mark>. Si la resultante es cero, el objeto no cambia su movimiento.",
+      "pregunta": "Sumar varias flechas en direcciones distintas da una flecha final. Se suman todas las fuerzas que actúan sobre un cuerpo, según su dirección. Si el resultado es cero, el objeto no cambia su movimiento. ¿Cómo se llama esta suma de fuerzas?",
+      "respuesta": "<mark>Fuerza resultante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/fuerza-resultante.jpg",
         "alt": "Persona empujando un carrito por la calle.",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre la ley de Gravitación Universal y el peso?",
-      "respuesta": "El peso es la fuerza con la que la Tierra atrae a un cuerpo hacia su centro. <mark>Es una aplicación directa de la ley de Gravitación Universal a nuestro propio planeta</mark>. Por eso una persona pesaría distinto en la Luna.",
+      "pregunta": "Es la ley de Gravitación Universal actuando en la Tierra. Por eso una persona pesaría distinto en la Luna. ¿Cómo se llama la fuerza con que la Tierra atrae un cuerpo?",
+      "respuesta": "<mark>Peso</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/gravitacion-peso.jpg",
         "alt": "Una manzana sobre la hierba, recordando la gravedad y a Newton.",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre masa y peso?",
-      "respuesta": "La masa es la cantidad de materia de un cuerpo, y no cambia según el lugar. <mark>El peso es la fuerza con la que la gravedad atrae esa masa, y sí puede cambiar</mark>. La masa de una persona es igual en la Tierra y en la Luna.",
+      "pregunta": "El peso es la fuerza de la gravedad sobre un cuerpo, y cambia según el lugar. Otra magnitud es la cantidad de materia de ese cuerpo, y no cambia nunca. Es igual en la Tierra y en la Luna. ¿Cómo se llama esta segunda magnitud?",
+      "respuesta": "<mark>Masa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/masa-peso.jpg",
         "alt": "Báscula de baño usada para pesarse.",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la presión?",
-      "respuesta": "Es la fuerza que se aplica sobre una superficie, dividida entre el área de esa superficie. <mark>Es como repartir la misma fuerza en más o menos espacio: cuanto menos espacio, más presión</mark>. Se mide en unidades como el pascal.",
+      "pregunta": "Es como repartir la misma fuerza en más o menos espacio: cuanto menos espacio, más presión. Se mide en unidades como el pascal. ¿Cómo se llama esta fuerza aplicada sobre una superficie, dividida entre su área?",
+      "respuesta": "<mark>Presión</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/presion.jpg",
         "alt": "Manómetro con una aguja que marca una medida.",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la presión hidrostática?",
-      "respuesta": "Es la presión que ejerce un líquido en reposo debido a su propio peso. <mark>Es como sentir más presión cuanto más te sumerges en una piscina profunda</mark>. Los submarinos deben resistir presiones muy altas a grandes profundidades.",
+      "pregunta": "Es como sentir más presión cuanto más te sumerges en una piscina profunda. Los submarinos deben resistir presiones muy altas a grandes profundidades. ¿Cómo se llama esta presión que ejerce un líquido en reposo por su propio peso?",
+      "respuesta": "<mark>Presión hidrostática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/presion-hidrostatica.jpg",
         "alt": "Embalse de agua retenido por una presa.",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la presión atmosférica?",
-      "respuesta": "Es la presión que ejerce el aire de la atmósfera sobre la superficie terrestre. <mark>Es como si todo el peso del aire de la atmósfera empujara constantemente hacia abajo</mark>. Disminuye a medida que se sube en altitud.",
+      "pregunta": "Es como si todo el peso del aire de la atmósfera empujara constantemente hacia abajo. Disminuye a medida que se sube en altitud. ¿Cómo se llama esta presión que ejerce el aire sobre la superficie terrestre?",
+      "respuesta": "<mark>Presión atmosférica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/presion-atmosferica.jpg",
         "alt": "Barómetro, instrumento que mide la presión del aire.",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué dice el principio de Arquímedes?",
-      "respuesta": "Dice que todo cuerpo sumergido en un fluido recibe un empuje hacia arriba. <mark>Ese empuje es igual al peso del fluido que ese cuerpo desplaza</mark>. Es la base de cómo funcionan los barcos y los submarinos.",
+      "pregunta": "Todo cuerpo sumergido en un fluido recibe un empuje hacia arriba. Ese empuje es igual al peso del fluido que ese cuerpo desplaza. Es la base de cómo funcionan los barcos y los submarinos. ¿Cómo se llama este principio?",
+      "respuesta": "<mark>Principio de Arquímedes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/arquimedes.jpg",
         "alt": "Barcas flotando sobre el agua en una rampa de lanzamiento.",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué dice el principio de Pascal?",
-      "respuesta": "Dice que la presión aplicada sobre un fluido en un espacio cerrado se transmite por igual en todas direcciones. <mark>Es como apretar un globo de agua: la presión se reparte por todo su interior</mark>. Se aplica en los frenos hidráulicos de un coche.",
+      "pregunta": "Es como apretar un globo de agua: la presión se reparte por todo su interior. La presión aplicada sobre un fluido en un espacio cerrado se transmite por igual en todas direcciones. Se aplica en los frenos hidráulicos de un coche. ¿Cómo se llama este principio?",
+      "respuesta": "<mark>Principio de Pascal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/pascal.jpg",
         "alt": "Prensa hidráulica, una máquina que aplica presión con líquidos.",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo influye la física en el comportamiento de la atmósfera?",
-      "respuesta": "Explica fenómenos como el viento, la presión y los cambios de temperatura del aire. <mark>Es como aplicar las mismas reglas de los fluidos, pero a una escala planetaria</mark>. Esas leyes ayudan a predecir el tiempo atmosférico.",
+      "pregunta": "Aplicar las reglas de los fluidos a escala planetaria explica el viento, la presión y la temperatura del aire. Estas leyes ayudan a predecir el tiempo. ¿Cómo se llama la ciencia que estudia la atmósfera para predecir el tiempo?",
+      "respuesta": "<mark>Meteorología</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/atmosfera.jpg",
         "alt": "Nubes vistas desde el cielo.",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué un objeto pesado puede flotar si tiene la forma adecuada?",
-      "respuesta": "Porque lo importante no es solo su peso, sino cuánto fluido desplaza. <mark>Un barco de acero flota porque desplaza mucha agua, a pesar de ser pesado</mark>. Si el empuje del agua supera al peso del objeto, este flota.",
+      "pregunta": "Un barco de acero flota porque desplaza mucha agua, a pesar de ser pesado. Lo importante no es solo el peso de un objeto, sino cuánto fluido desplaza. Si el empuje del agua supera al peso, el objeto flota. ¿Qué principio explica por qué puede flotar un objeto pesado?",
+      "respuesta": "<mark>Principio de Arquímedes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/barco-belem.jpg",
         "alt": "Un gran barco flotando en el agua, ejemplo del principio de Arquímedes",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es útil estudiar juntos el movimiento, las fuerzas y la presión?",
-      "respuesta": "Porque están profundamente relacionados: las fuerzas producen movimiento, y la presión es una forma de fuerza distribuida. <mark>Es como estudiar distintas piezas de un mismo mecanismo que funciona en conjunto</mark>. Explican desde un cohete hasta un submarino.",
+      "pregunta": "Las fuerzas producen movimiento, y la presión es fuerza repartida sobre una superficie. Son como piezas de un mismo mecanismo, muy relacionadas entre sí. Explican desde un cohete hasta un submarino. ¿Cómo se llama la ciencia que estudia todo esto junto?",
+      "respuesta": "<mark>Física</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_6/movimiento-fuerzas-presion.jpg",
         "alt": "Corredores cruzando la línea de meta en una carrera.",

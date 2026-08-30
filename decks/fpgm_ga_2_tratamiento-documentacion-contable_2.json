@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué son los libros-registro obligatorios en materia fiscal?",
-      "respuesta": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. <mark>Es como un cuaderno oficial que hay que llevar siempre al día, por obligación legal</mark>.",
+      "pregunta": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. Es como un cuaderno oficial que hay que llevar siempre al día, por obligación legal. ¿Cómo se llaman estos libros?",
+      "respuesta": "<mark>Libros-registro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/libro-registro.jpg",
         "alt": "Una página de un libro de registro contable antiguo",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué documentos sirven de soporte a una compra registrada en contabilidad?",
-      "respuesta": "La factura y el albarán, que justifican qué se compró y en qué condiciones. <mark>Es como guardar las pruebas de cada compra, por si hay que demostrarla más adelante</mark>.",
+      "pregunta": "La factura y el albarán justifican qué se compró y en qué condiciones. Es como guardar las pruebas de cada compra, por si hay que demostrarla más adelante. ¿Qué documentos sirven de soporte a una compra?",
+      "respuesta": "<mark>Factura y albarán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/facturas.jpg",
         "alt": "Un montón de facturas",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una nota de abono?",
-      "respuesta": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. <mark>Es como una 'contra-factura' que reduce lo que había que pagar</mark>. Se usa, por ejemplo, si se devuelve mercancía.",
+      "pregunta": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. Es como una 'contra-factura' que reduce lo que había que pagar. Se usa, por ejemplo, si se devuelve mercancía. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Nota de abono</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/formulario-nota.jpg",
         "alt": "Alguien rellenando un formulario",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre una nota de abono y una nota de crédito?",
-      "respuesta": "En la práctica ambos términos se usan casi como sinónimos para corregir una factura anterior. <mark>Ambos reducen una deuda ya registrada, en vez de generar una nueva</mark>. Siempre hacen referencia a la factura original.",
+      "pregunta": "En la práctica se usan casi como sinónimos para corregir una factura anterior. Ambos reducen una deuda ya registrada, en vez de generar una nueva. Siempre hacen referencia a la factura original. ¿Cómo se llaman estos documentos que reducen una deuda?",
+      "respuesta": "<mark>Nota de abono o de crédito</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/balanza-comparacion.jpg",
         "alt": "Una balanza de dos platillos comparando pesos",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué documentos sirven de soporte a una venta registrada en contabilidad?",
-      "respuesta": "La factura de venta y, en su caso, el albarán de entrega al cliente. <mark>Es la misma idea que en las compras, pero mirado desde el lado de quien vende</mark>.",
+      "pregunta": "La factura de venta y, en su caso, el albarán de entrega, justifican una venta. Es la misma idea que en las compras, pero mirado desde el lado de quien vende. ¿Qué documentos sirven de soporte a una venta?",
+      "respuesta": "<mark>Factura y albarán de venta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/recibos.jpg",
         "alt": "Varios recibos de compra",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué documentos de tesorería requieren tramitación contable?",
-      "respuesta": "Recibos, transferencias, cheques y pagarés, entre otros, deben quedar reflejados en las cuentas. <mark>Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero, sea cual sea el medio</mark>.",
+      "pregunta": "Recibos, transferencias, cheques y pagarés, entre otros, deben quedar reflejados en las cuentas. Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero, sea cual sea el medio. ¿Qué tipo de documentos deben tramitarse contablemente?",
+      "respuesta": "<mark>Documentos de tesorería</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/cuenta-bancaria.jpg",
         "alt": "Documentos relacionados con una cuenta bancaria",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué debe mantenerse la confidencialidad de la información financiera de una empresa?",
-      "respuesta": "Porque revela datos sensibles sobre su situación económica real. <mark>Es como no contar en voz alta cuánto dinero tiene alguien en el banco</mark>. Filtrarla podría perjudicar a la empresa frente a otras.",
+      "pregunta": "La información financiera de una empresa revela datos sensibles sobre su situación económica real. Es como no contar en voz alta cuánto dinero tiene alguien en el banco. Filtrarla podría perjudicarla frente a otras empresas. ¿Qué debe mantenerse sobre esta información?",
+      "respuesta": "<mark>Confidencialidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/sello-confidencial.jpg",
         "alt": "Un sello de \"información restringida\" sobre un documento",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Cuánto tiempo suele haber que conservar los documentos contables de una empresa?",
-      "respuesta": "Varios años, ya que Hacienda puede solicitarlos en una inspección posterior. <mark>Es como guardar tickets importantes por si algún día tienes que justificar un gasto</mark>.",
+      "pregunta": "Los documentos contables deben conservarse varios años, ya que Hacienda puede solicitarlos en una inspección posterior. Es como guardar tickets importantes por si algún día tienes que justificar un gasto. ¿Durante cuánto tiempo hay que guardarlos?",
+      "respuesta": "<mark>Varios años</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-cajon.jpg",
         "alt": "Un cajón de archivador abierto con documentos",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué procedimientos de archivo facilitan conservar bien la documentación contable?",
-      "respuesta": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad. <mark>Es como tener un archivador tan bien organizado que encuentras cualquier papel en segundos</mark>.",
+      "pregunta": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad, ayuda mucho. Es como tener un archivador tan bien organizado que encuentras cualquier papel en segundos. ¿Qué facilita conservar bien la documentación contable?",
+      "respuesta": "<mark>Buenos procedimientos de archivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-documentos.jpg",
         "alt": "Una persona archivando documentos en un archivador de oficina",

@@ -60,27 +60,34 @@ CONTENT RULES (mandatory):
 - Each card is an object {"pregunta": "...", "respuesta": "..."}
   (keep these exact JSON key names, even if your content is in
   English).
-- The question is clear, concrete, evaluable (never yes/no), with a
-  warm and curious tone — never exam-like.
-- The answer is NEVER a dictionary definition. Build it around ONE of:
-  an everyday ANALOGY, a concrete PRACTICAL EXAMPLE, or the real
-  PROBLEM the concept solves ("why it matters"). Wrap that key phrase
-  in <mark> and </mark>.
-- Easy Read: short sentences (max 12 words each), one idea per
-  sentence, everyday vocabulary, active voice. Simple HTML allowed
-  (<b>, <i>, <br>) — never markdown (no **, _, #, etc.).
+- CARD DESIGN PRINCIPLE: the priority is never "explain a lot" — it's
+  getting the learner to (a) understand one concrete idea, (b)
+  recognize it in another context, (c) recall it with little help.
+- FORMAT — clue first, concept as the answer: "pregunta" carries the
+  explanation, built around ONE of an everyday ANALOGY, a concrete
+  PRACTICAL EXAMPLE, or the real PROBLEM the concept solves ("why it
+  matters") — described WITHOUT naming the concept — closed by one
+  short, direct question asking the reader to name or identify it
+  ("What is it called...?", "Who...?", "Which number is it?").
+  "respuesta" is ONLY that concept/term/name/value, short (1-6 words),
+  wrapped in <mark> and </mark>. Never a full sentence, never a
+  restatement of the clue, never a dictionary definition.
+- Easy Read: "pregunta" has 2 to 4 clue sentences (max 12 words each),
+  one idea per sentence, everyday vocabulary, active voice, ending in
+  the short closing question. Simple HTML allowed (<b>, <i>, <br>,
+  <mark>) — never markdown (no **, _, #, etc.).
 - At most ONE new concept (a proper name, a technical term, an
-  abstract idea) per card. Always anchor that concept in a concrete
-  everyday image before naming it. If the topic has many names in a
-  row (movements, eras, people), use MORE, smaller cards — don't
-  compress several names into one card.
+  abstract idea) per card — that concept is exactly what "respuesta"
+  names. Always anchor it in a concrete everyday image before naming
+  it. If the topic has many names in a row (movements, eras, people),
+  use MORE, smaller cards — don't compress several names into one
+  card.
 - A "how do X and Y differ" card only after X and Y have each already
   had their own separate card.
 - Fun and warm tone, like explaining something interesting to a
   friend — never sarcasm, irony, or double meanings.
-- When it fits naturally, add ONE curious fact ("Did you know...?") —
-  never forced.
-- Each answer has 2 to 5 sentences.
+- When it fits naturally, weave ONE curious fact ("Did you know...?")
+  into the clue in "pregunta" — never forced, never in "respuesta".
 - Never use the words "disability", "patient", or clinical language —
   the content is about the topic, not about who's studying it.
 - Don't number the cards or repeat the topic name verbatim in every
@@ -114,7 +121,9 @@ Before using it, check by eye:
       unsure, or save it as-is into a `.json` file and open it)
 - [ ] Does it have exactly the number of cards you asked for? Chat AIs
       sometimes fall short or overshoot.
-- [ ] Does every answer have a `<mark>...</mark>`?
+- [ ] Does every answer have a `<mark>...</mark>` and stay short (1-6
+      words) — never a full sentence, never the clue restated?
+- [ ] Does the question avoid naming the concept it's asking about?
 - [ ] Any markdown (`**bold**`, `# heading`) that slipped in instead
       of HTML? Fix it or ask for a regeneration.
 - [ ] If you gave an outline, is every point covered?

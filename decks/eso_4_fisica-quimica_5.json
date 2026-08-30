@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es ajustar una ecuación química?",
-      "respuesta": "Es igualar el número de átomos de cada elemento en reactivos y productos. <mark>Es como comprobar que ninguna pieza se pierde ni aparece de la nada al montar algo</mark>. Ese ajuste respeta la ley de conservación de la masa.",
+      "pregunta": "Es como comprobar que ninguna pieza se pierde al montar algo. Iguala los átomos de cada elemento en reactivos y productos. Ese ajuste respeta la ley de conservación de la masa. ¿Cómo se llama este proceso?",
+      "respuesta": "<mark>Ajustar una ecuación química</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/matraz-liquido-negro.jpg",
         "alt": "Un matraz cónico con un líquido oscuro.",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los cálculos estequiométricos con rendimiento?",
-      "respuesta": "Calculan cuánto producto se obtiene realmente, comparado con lo que se esperaba en teoría. <mark>Es como comparar cuántas galletas planeabas hacer con cuántas obtuviste de verdad</mark>. El rendimiento suele ser menor al cien por cien.",
+      "pregunta": "Es como comparar cuántas galletas planeabas hacer con cuántas obtuviste de verdad. Calculan cuánto producto se obtiene realmente, comparado con lo esperado en teoría. El resultado suele ser menor al cien por cien. ¿Cómo se llama este tipo de cálculo?",
+      "respuesta": "<mark>Rendimiento de una reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/matraz-liquido-azul.jpg",
         "alt": "Un matraz cónico con un líquido azul.",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las reacciones químicas de especial interés en la industria?",
-      "respuesta": "Son reacciones muy usadas para fabricar productos importantes, como plásticos o medicamentos. <mark>Son como recetas industriales que se repiten millones de veces cada día</mark>. Su estudio combina química con ingeniería.",
+      "pregunta": "Son como recetas industriales que se repiten millones de veces cada día. Se usan mucho para fabricar productos importantes, como plásticos o medicamentos. Su estudio combina química con ingeniería. ¿Cómo se llama el sector que las usa a gran escala?",
+      "respuesta": "<mark>Industria química</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/fabrica-quimica.webp",
         "alt": "Una fábrica química con torres industriales.",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué tipos de reacciones químicas existen?",
-      "respuesta": "Existen reacciones de síntesis, descomposición, sustitución y combustión, entre otras. <mark>Cada tipo describe una forma distinta en la que se combinan o separan las sustancias</mark>. Clasificarlas ayuda a predecir qué ocurrirá al mezclar reactivos.",
+      "pregunta": "Existen reacciones de síntesis, descomposición, sustitución y combustión, entre otras. Cada una describe una forma distinta en la que se combinan o separan las sustancias. Clasificarlas ayuda a predecir qué ocurrirá al mezclar reactivos. ¿Cómo se llama esta forma de agruparlas según su comportamiento?",
+      "respuesta": "<mark>Tipos de reacciones químicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/tubos-ensayo.jpg",
         "alt": "Varios tubos de ensayo con distintas sustancias.",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una reacción de combustión?",
-      "respuesta": "Es una reacción en la que una sustancia reacciona con oxígeno liberando energía. <mark>Es como quemar madera: se libera calor y luz mientras se transforma la sustancia</mark>. Es la base de muchos motores y calefacciones.",
+      "pregunta": "Es como quemar madera: se libera calor y luz mientras se transforma la sustancia. Es la base de muchos motores y calefacciones. ¿Cómo se llama esta reacción, en la que una sustancia reacciona con oxígeno liberando energía?",
+      "respuesta": "<mark>Combustión</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/llamas-fuego.jpg",
         "alt": "Llamas de fuego, ejemplo de una reacción de combustión",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la velocidad de una reacción química?",
-      "respuesta": "Mide qué tan rápido se transforman los reactivos en productos. <mark>Es como medir cuánto tarda una receta en estar lista, de principio a fin</mark>. Puede ser muy rápida, como una explosión, o muy lenta, como la oxidación.",
+      "pregunta": "Es como medir cuánto tarda una receta en estar lista, de principio a fin. Puede ser muy rápida, como una explosión, o muy lenta, como la oxidación. Mide qué tan rápido se transforman los reactivos en productos. ¿Cómo se llama esta medida?",
+      "respuesta": "<mark>Velocidad de reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/cronometro.jpg",
         "alt": "Un cronómetro midiendo el tiempo.",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué factores influyen en la velocidad de una reacción química?",
-      "respuesta": "La temperatura, la concentración, la superficie de contacto y los catalizadores. <mark>Cada uno de esos factores puede acelerar o frenar cuánto tarda una reacción</mark>. Se controlan con cuidado en la industria química.",
+      "pregunta": "La temperatura, la concentración, la superficie de contacto y los catalizadores influyen en ella. Cada uno de esos factores puede acelerarla o frenarla. Se controlan con cuidado en la industria química. ¿Qué se controla ajustando estos factores?",
+      "respuesta": "<mark>Velocidad de reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/termometro.webp",
         "alt": "Un termómetro midiendo la temperatura.",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un catalizador?",
-      "respuesta": "Es una sustancia que acelera una reacción sin consumirse en el proceso. <mark>Es como un facilitador que ayuda a que algo pase más rápido, sin desgastarse</mark>. Se usan mucho en la industria para ahorrar tiempo y energía.",
+      "pregunta": "Es como un facilitador que ayuda a que algo pase más rápido, sin desgastarse. Se usan mucho en la industria para ahorrar tiempo y energía. ¿Cómo se llama esta sustancia que acelera una reacción sin consumirse?",
+      "respuesta": "<mark>Catalizador</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/motor-tubo-escape.jpg",
         "alt": "El sistema de escape de un motor de coche, donde actúa el catalizador.",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre las reacciones químicas y la energía?",
-      "respuesta": "Algunas reacciones liberan energía; otras, en cambio, la absorben del entorno. <mark>Es como un intercambio: unas reacciones 'sueltan calor' y otras lo 'piden prestado'</mark>. Se llaman exotérmicas y endotérmicas.",
+      "pregunta": "Es como un intercambio: unas reacciones 'sueltan calor' y otras lo 'piden prestado'. Algunas reacciones liberan energía; otras la absorben del entorno. ¿Cómo se llaman estos dos tipos de reacción, según cómo intercambian energía?",
+      "respuesta": "<mark>Exotérmicas y endotérmicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/fuego-llama.jpg",
         "alt": "Una llama de fuego, que libera energía.",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el mecanismo de una reacción química?",
-      "respuesta": "Es la secuencia de pasos por los que realmente ocurre una reacción. <mark>Es como el 'detrás de cámaras' de una reacción, más allá de lo que se ve a simple vista</mark>. Muchas reacciones ocurren en varias etapas intermedias.",
+      "pregunta": "Es como el 'detrás de cámaras' de una reacción, más allá de lo que se ve a simple vista. Muchas reacciones ocurren en varias etapas intermedias. ¿Cómo se llama esta secuencia de pasos por los que ocurre realmente una reacción?",
+      "respuesta": "<mark>Mecanismo de reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/engranajes.jpg",
         "alt": "Varios engranajes encajados, como un mecanismo.",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué aumentar la superficie de contacto acelera una reacción?",
-      "respuesta": "Porque hay más puntos donde los reactivos pueden encontrarse y reaccionar. <mark>Es como trocear un alimento para que se cocine más rápido, con más superficie expuesta</mark>. Por eso un polvo reacciona más rápido que un trozo sólido.",
+      "pregunta": "Trocear un alimento hace que se cocine más rápido, con más superficie expuesta. Hay más puntos donde los reactivos pueden encontrarse y reaccionar. Por eso un polvo reacciona más rápido que un trozo sólido. ¿Cómo se llama a esta variable, la cantidad de superficie expuesta de un reactivo?",
+      "respuesta": "<mark>Superficie de contacto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/gravilla-piedras.jpg",
         "alt": "Gravilla formada por muchas piedras pequeñas, con mucha superficie expuesta.",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante controlar la velocidad de las reacciones en la industria?",
-      "respuesta": "Porque una reacción demasiado lenta pierde tiempo, y una demasiado rápida puede ser peligrosa. <mark>Es como cocinar a fuego demasiado bajo o demasiado alto: ambos casos generan problemas</mark>. Mejora la eficiencia y la seguridad.",
+      "pregunta": "Cocinar a fuego demasiado bajo o demasiado alto genera problemas en ambos casos. Una reacción demasiado lenta pierde tiempo, y una demasiado rápida puede ser peligrosa. Controlarla mejora la eficiencia y la seguridad. ¿Qué es lo que hay que controlar con tanto cuidado en la industria?",
+      "respuesta": "<mark>Velocidad de reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_5/panel-control.jpg",
         "alt": "Un panel de control con muchos indicadores.",

@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es un compuesto químico?",
-      "respuesta": "Es una sustancia formada por la unión de dos o más elementos distintos. <mark>Es como una receta fija: siempre los mismos ingredientes, en las mismas proporciones</mark>. El agua o la sal común son compuestos químicos conocidos.",
+      "pregunta": "Es como una receta fija: siempre los mismos ingredientes, en las mismas proporciones. El agua o la sal común son ejemplos conocidos. ¿Cómo se llama esta sustancia formada por la unión de dos o más elementos?",
+      "respuesta": "<mark>Compuesto químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/compuesto-quimico.jpg",
         "alt": "Un modelo de bolas y varillas de una molécula",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué las propiedades de un compuesto son distintas a las de sus elementos?",
-      "respuesta": "Porque al combinarse, los átomos forman una estructura nueva, con comportamiento propio. <mark>Es como mezclar ingredientes para hacer un plato con un sabor totalmente distinto a cada uno por separado</mark>. El sodio y el cloro, peligrosos solos, forman sal de mesa juntos.",
+      "pregunta": "El sodio y el cloro son peligrosos por separado, pero juntos forman la sal de mesa. Es como mezclar ingredientes para hacer un plato con un sabor totalmente distinto a cada uno. Al combinarse, los átomos forman una estructura nueva. ¿Cómo se llama esta sustancia con propiedades distintas de sus elementos?",
+      "respuesta": "<mark>Compuesto químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/sal-cristales.jpg",
         "alt": "Cristales de sal de mesa, un compuesto químico",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué elementos y compuestos tienen especial interés industrial?",
-      "respuesta": "El hierro, el oxígeno, el amoníaco o el ácido sulfúrico, entre muchos otros. <mark>Son como ingredientes básicos que aparecen en casi cualquier proceso de fabricación</mark>. Se usan para construir, fabricar medicamentos o generar energía.",
+      "pregunta": "El hierro, el oxígeno, el amoníaco o el ácido sulfúrico son ingredientes básicos en la fabricación. Se usan para construir, fabricar medicamentos o generar energía. ¿Cómo se llama el sector que los usa a gran escala?",
+      "respuesta": "<mark>Industria química</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/interes-industrial.jpg",
         "alt": "Una fábrica de acero con humo saliendo de sus chimeneas",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el mol?",
-      "respuesta": "Es la unidad que se usa para contar una cantidad enorme de partículas, como átomos o moléculas. <mark>Es como una 'docena' gigantesca, pero con un número mucho más grande de elementos</mark>. Permite trabajar con cantidades manejables en el laboratorio.",
+      "pregunta": "Es como una 'docena' gigantesca, pero con un número mucho más grande de elementos. Permite contar átomos o moléculas con cantidades manejables en el laboratorio. ¿Cómo se llama esta unidad para contar partículas?",
+      "respuesta": "<mark>Mol</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/mol.jpg",
         "alt": "Miles de estrellas reflejadas en un lago de montaña",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirve la nomenclatura química?",
-      "respuesta": "Sirve para nombrar las sustancias químicas siguiendo unas reglas comunes. <mark>Es como un idioma compartido para que cualquier científico del mundo entienda de qué sustancia se habla</mark>. Evita confusiones entre compuestos con nombres parecidos.",
+      "pregunta": "Es como un idioma compartido para que cualquier científico del mundo entienda de qué sustancia se habla. Sirve para nombrar las sustancias químicas siguiendo unas reglas comunes. Evita confusiones entre compuestos con nombres parecidos. ¿Cómo se llama este conjunto de reglas para nombrar sustancias?",
+      "respuesta": "<mark>Nomenclatura química</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/nomenclatura.webp",
         "alt": "Una clase de ciencias con material de laboratorio",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una ecuación química?",
-      "respuesta": "Es la representación escrita de una reacción química, con reactivos y productos. <mark>Es como una fórmula que resume, con símbolos, lo que ocurre en una reacción</mark>. Los reactivos se escriben a la izquierda; los productos, a la derecha.",
+      "pregunta": "Es como una fórmula que resume, con símbolos, lo que ocurre en una reacción. Los reactivos se escriben a la izquierda; los productos, a la derecha. ¿Cómo se llama esta representación escrita de una reacción química?",
+      "respuesta": "<mark>Ecuación química</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/ecuacion-quimica.jpg",
         "alt": "Estudiantes observando una ecuación en la pizarra",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa ajustar una reacción química?",
-      "respuesta": "Significa igualar el número de átomos de cada elemento a ambos lados de la ecuación. <mark>Es como equilibrar una balanza para que ambos lados pesen exactamente lo mismo</mark>. Se hace añadiendo números delante de las fórmulas, no cambiándolas.",
+      "pregunta": "Es como equilibrar una balanza para que ambos lados pesen exactamente lo mismo. Significa igualar el número de átomos de cada elemento a ambos lados de la ecuación. Se hace añadiendo números delante de las fórmulas, no cambiándolas. ¿Cómo se llama este proceso?",
+      "respuesta": "<mark>Ajustar una reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/ajustar-reaccion.jpg",
         "alt": "Una balanza de dos platos equilibrada",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué dice la ley de conservación de la masa?",
-      "respuesta": "Dice que la masa total no cambia durante una reacción química. <mark>Es como decir que, si mezclas ingredientes, el peso final es igual a la suma de los pesos iniciales</mark>. La propuso el científico Lavoisier, hace más de doscientos años.",
+      "pregunta": "Si mezclas ingredientes, el peso final es igual a la suma de los pesos iniciales. La masa total no cambia durante una reacción química. La propuso el científico Lavoisier, hace más de doscientos años. ¿Cómo se llama esta ley?",
+      "respuesta": "<mark>Ley de conservación de la masa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/conservacion-masa.jpg",
         "alt": "Un retrato del científico Antoine Lavoisier y su esposa",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante la ley de Lavoisier para entender las reacciones químicas?",
-      "respuesta": "Porque asegura que en una reacción no se pierde ni se gana materia. <mark>Ayuda a comprobar si una ecuación química está bien ajustada de verdad</mark>. Si los átomos no cuadran, la ecuación tiene un error.",
+      "pregunta": "Si los átomos de una ecuación no cuadran, la ecuación tiene un error. Esta ley asegura que en una reacción no se pierde ni se gana materia. Ayuda a comprobar si una ecuación química está bien ajustada de verdad. ¿Cómo se llama esta ley?",
+      "respuesta": "<mark>Ley de conservación de la masa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/importancia-lavoisier.jpg",
         "alt": "Una balanza de precisión de laboratorio",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los cálculos estequiométricos sencillos?",
-      "respuesta": "Son cálculos que relacionan las cantidades de reactivos y productos en una reacción. <mark>Es como calcular cuántos ingredientes necesitas según cuántas raciones quieras preparar</mark>. Se basan en las proporciones de la ecuación ajustada.",
+      "pregunta": "Es como calcular cuántos ingredientes necesitas según cuántas raciones quieras preparar. Relacionan las cantidades de reactivos y productos en una reacción. Se basan en las proporciones de la ecuación ajustada. ¿Cómo se llaman estos cálculos?",
+      "respuesta": "<mark>Cálculos estequiométricos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/calculos-estequiometricos.jpg",
         "alt": "Ingredientes de cocina preparados y medidos",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo afecta la temperatura a la velocidad de una reacción química?",
-      "respuesta": "Aumentar la temperatura suele hacer que las reacciones ocurran más rápido. <mark>Es como agitar más fuerte una mezcla: las partículas chocan entre sí con más frecuencia</mark>. Por eso muchos alimentos se cocinan más rápido a mayor temperatura.",
+      "pregunta": "Agitar más fuerte una mezcla hace que las partículas choquen entre sí con más frecuencia. Por eso muchos alimentos se cocinan más rápido a mayor temperatura. Aumentar la temperatura suele acelerar este proceso. ¿Cómo se llama la rapidez con la que ocurre una reacción química?",
+      "respuesta": "<mark>Velocidad de reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/temperatura-velocidad.jpg",
         "alt": "Agua hirviendo y burbujeando en un géiser",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo afecta la concentración a la velocidad de una reacción química?",
-      "respuesta": "Cuanto más concentrados están los reactivos, más rápido suele ir la reacción. <mark>Es como tener más gente en una sala: aumentan las probabilidades de que se crucen entre sí</mark>. Las disoluciones muy diluidas suelen reaccionar más despacio.",
+      "pregunta": "Tener más gente en una sala aumenta las probabilidades de que se crucen entre sí. Cuanto más concentrados están los reactivos, más rápido suele ocurrir esto. Las disoluciones muy diluidas suelen ser más lentas. ¿Cómo se llama esta rapidez con la que transcurre una reacción?",
+      "respuesta": "<mark>Velocidad de reacción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/concentracion-velocidad.jpg",
         "alt": "Un grupo grande de personas reunidas en un taller",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la interpretación microscópica de una reacción química?",
-      "respuesta": "Es explicar una reacción observando lo que ocurre a nivel de átomos y moléculas. <mark>Es como mirar con una lupa imaginaria lo que pasa dentro de la mezcla</mark>. Ayuda a entender por qué ocurre una reacción, no solo qué ocurre.",
+      "pregunta": "Es como mirar con una lupa imaginaria lo que pasa dentro de una mezcla. Explica una reacción observando lo que ocurre a nivel de átomos y moléculas. Ayuda a entender por qué ocurre una reacción, no solo qué ocurre. ¿Cómo se llama este tipo de explicación?",
+      "respuesta": "<mark>Interpretación microscópica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/interpretacion-microscopica.jpg",
         "alt": "Un microscopio de laboratorio",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué son importantes las reacciones químicas en la vida cotidiana?",
-      "respuesta": "Porque están presentes en procesos tan comunes como cocinar, respirar o que se oxide un metal. <mark>Ocurren constantemente a nuestro alrededor, aunque no siempre las notemos</mark>. Su estudio va mucho más allá del laboratorio.",
+      "pregunta": "Cocinar, respirar o que se oxide un metal son procesos muy comunes que las contienen. Ocurren constantemente a nuestro alrededor, aunque no siempre las notemos. Su estudio va mucho más allá del laboratorio. ¿Cómo se llaman estos procesos, presentes en la vida cotidiana?",
+      "respuesta": "<mark>Reacciones químicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_3/reacciones-cotidianas.jpg",
         "alt": "Un candado oxidado por el óxido",

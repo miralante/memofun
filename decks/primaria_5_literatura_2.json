@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es un romance?",
-      "respuesta": "Es un poema español que cuenta una historia, no solo sentimientos. <mark>Se recitaba o cantaba de memoria, antes de quedar escrito</mark>. Sus versos riman cada dos líneas. Contaban batallas, amores o hazañas.",
+      "pregunta": "Es un poema español que cuenta una historia, no solo sentimientos. Se recitaba o cantaba de memoria, antes de quedar escrito. Sus versos riman cada dos líneas. ¿Cómo se llama este tipo de poema?",
+      "respuesta": "<mark>Romance</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/caballero-medieval.jpg",
         "alt": "Ilustración de un caballero medieval con armadura, montado a caballo y con una lanza",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué solían contar los romances tradicionales?",
-      "respuesta": "Contaban hazañas de héroes, batallas o historias de amor. <mark>Se cantaban en plazas para que la gente los recordara</mark>. Muchos venían de historias mucho más largas, resumidas. Por eso son fáciles de aprender de memoria.",
+      "pregunta": "Estos poemas contaban hazañas de héroes, batallas o historias de amor. Se cantaban en plazas para que la gente los recordara. Muchos venían de historias más largas, resumidas. ¿Cómo se llaman estos poemas?",
+      "respuesta": "<mark>Romances</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/torneo-caballeros.jpg",
         "alt": "Dos caballeros a caballo compiten con lanzas en un torneo, delante de una multitud que mira",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencia un romance de una leyenda?",
-      "respuesta": "El romance siempre está escrito en verso, con rima. <mark>La leyenda se cuenta en prosa, como una historia hablada</mark>. Ambos mezclan hechos reales con algo de invención. Pero uno se canta y el otro se narra.",
+      "pregunta": "El romance siempre está escrito en verso, con rima. Esta otra historia se cuenta en prosa, como algo hablado. Ambas mezclan hechos reales con algo de invención. ¿Cómo se llama esta otra clase de historia?",
+      "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/erase-una-vez-pluma.jpg",
         "alt": "Las palabras 'Érase una vez...' escritas de forma decorativa, junto a una pluma sobre papel en blanco",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una biografía?",
-      "respuesta": "Es el relato de la vida de una persona real. <mark>La escribe otra persona, investigando datos y hechos</mark>. Cuenta desde su nacimiento hasta momentos importantes de su vida. Ayuda a conocer a alguien en profundidad.",
+      "pregunta": "Es el relato de la vida de una persona real. Lo escribe otra persona, investigando datos y hechos. Cuenta desde su nacimiento hasta momentos importantes. ¿Cómo se llama este tipo de relato?",
+      "respuesta": "<mark>Biografía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/retrato-personaje-historico.jpg",
         "alt": "Retrato en blanco y negro de una persona real de la historia, sobre la que otros escribieron su vida",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una autobiografía?",
-      "respuesta": "Es el relato de una vida escrito por uno mismo. <mark>Cuenta su propia historia, con sus propios recuerdos</mark>. Es distinto porque nadie más investiga por él. Muestra cómo esa persona recuerda su propia vida.",
+      "pregunta": "Es el relato de una vida escrito por uno mismo. Cuenta su propia historia, con sus propios recuerdos. Nadie más investiga por él. ¿Cómo se llama este tipo de relato?",
+      "respuesta": "<mark>Autobiografía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/escribir-diario.jpg",
         "alt": "Una persona escribe con un bolígrafo en un cuaderno en blanco, al aire libre",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencian una biografía y una autobiografía?",
-      "respuesta": "La biografía la escribe otra persona sobre alguien. <mark>La autobiografía la escribe la propia persona sobre sí misma</mark>. Una investiga desde fuera; la otra recuerda desde dentro. Por eso pueden contar la misma vida de forma distinta.",
+      "pregunta": "Un relato de vida puede escribirlo otra persona, investigando desde fuera. Este otro lo escribe uno mismo, recordando desde dentro. Pueden contar la misma vida de forma distinta. ¿Cómo se llama este segundo tipo de relato?",
+      "respuesta": "<mark>Autobiografía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/diario-biografia.jpg",
         "alt": "Un bolígrafo y un diario, para escribir sobre la propia vida",

@@ -77,9 +77,12 @@ Cuando le pides una baraja, el agente:
 
 1. Escribe las `cantidad` tarjetas siguiendo las reglas de
    `CLAUDE.md` → "Generating deck content" — aprendizaje significativo
-   (analogía, ejemplo práctico o "por qué importa"), Lectura Fácil,
-   tono divertido y cercano, algún dato curioso cuando encaja, y
-   cobertura completa del índice si le diste uno. Si el tema tiene una
+   como tarjeta de pista primero (`pregunta` lleva una analogía, un
+   ejemplo práctico o el "por qué importa" y cierra con una pregunta
+   corta; `respuesta` es solo el concepto/término corto que se pide),
+   Lectura Fácil, tono divertido y cercano, algún dato curioso cuando
+   encaja, y cobertura completa del índice si le diste uno. Si el tema
+   tiene una
    mecánica o regla de base (un procedimiento, una notación, una
    fórmula — p. ej. cómo se combinan los números romanos antes de
    calcular con ellos), la baraja empieza con unas tarjetas de lección
@@ -178,6 +181,10 @@ pena echar un vistazo antes de considerarla publicada — es la misma
 idea que revisar cualquier contenido antes de un examen. Comprueba:
 
 - [ ] **Lectura fácil**: frases cortas, una idea por frase.
+- [ ] **Formato pista-primero**: `pregunta` es la pista (analogía,
+      ejemplo o "por qué importa"), sin nombrar el concepto;
+      `respuesta` es solo ese concepto/término, corto (1-6 palabras) —
+      nunca una frase, nunca una definición de diccionario reformulada.
 - [ ] **Densidad conceptual**: como mucho un concepto nuevo por
       tarjeta, anclado en algo concreto — no varios nombres o ideas
       abstractas seguidos sin ejemplo (temas como movimientos

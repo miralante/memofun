@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una leyenda?",
-      "respuesta": "Es una historia que mezcla hechos reales con fantasía. <mark>Suele explicar el origen de un lugar o una costumbre</mark>. Se transmite de generación en generación, hablada. Mucha gente cree que una parte es verdad.",
+      "pregunta": "Es una historia que mezcla hechos reales con fantasía. Suele explicar el origen de un lugar o una costumbre. Mucha gente cree que una parte es verdad. ¿Cómo se llama este tipo de historia?",
+      "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/leyenda-castillo.jpg",
         "alt": "Un castillo antiguo en lo alto de una colina, rodeado de árboles",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué las leyendas suelen estar ligadas a un lugar real?",
-      "respuesta": "Una leyenda casi siempre habla de un sitio concreto. <mark>Ese lugar existe de verdad, aunque la historia sea inventada</mark>. Por ejemplo, un castillo o una fuente del pueblo. Así la leyenda parece más creíble al contarla.",
+      "pregunta": "Una leyenda casi siempre habla de un sitio concreto, como un castillo o una fuente. Ese sitio existe de verdad, aunque la historia sea inventada. Así parece más creíble al contarla. ¿Qué tiene siempre una leyenda?",
+      "respuesta": "<mark>Un lugar real</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/fuente-pueblo.jpg",
         "alt": "Una fuente de piedra antigua junto a la pared de una iglesia, en la plaza de un pueblo",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencia una leyenda de un cuento?",
-      "respuesta": "El cuento es una invención sin pretender ser cierto. <mark>La leyenda, en cambio, se cuenta como si hubiera pasado de verdad</mark>. Por eso menciona lugares y personas reales. El cuento puede pasar 'en cualquier lugar'.",
+      "pregunta": "Un cuento es una invención que no pretende ser cierta. Esta otra historia, en cambio, se cuenta como si hubiera pasado de verdad. Por eso menciona lugares y personas reales. ¿Cómo se llama esta clase de historia?",
+      "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/cuento-libro-antiguo.jpg",
         "alt": "Portada antigua de un libro de cuentos, con una niña con capa roja mirando a un lobo en el bosque",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un mito?",
-      "respuesta": "Es una historia antigua con dioses o seres poderosos. <mark>Explica cosas del mundo que antes nadie sabía explicar</mark>. Por ejemplo, por qué existen el trueno y la noche. Cada cultura antigua tiene los suyos.",
+      "pregunta": "Es una historia antigua con dioses o seres poderosos. Explica cosas del mundo que antes nadie sabía explicar, como el trueno o la noche. Cada cultura antigua tiene los suyos. ¿Cómo se llama este tipo de historia?",
+      "respuesta": "<mark>Mito</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/mito-estatua-zeus.jpg",
         "alt": "Una estatua antigua de mármol de un dios griego, sentado, con barba y una tela sobre el hombro",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué servían los mitos en las culturas antiguas?",
-      "respuesta": "Servían para explicar lo que daba miedo o dudas. <mark>Antes de la ciencia, los mitos daban una respuesta</mark>. Por ejemplo, por qué llueve o por qué hay estrellas. Hoy los seguimos contando por su valor como historia.",
+      "pregunta": "Antes de la ciencia, esta clase de historias daban respuestas. Explicaban por qué llueve o por qué hay estrellas. Hoy las seguimos contando por su valor como historia. ¿Cómo se llaman estas historias antiguas?",
+      "respuesta": "<mark>Mitos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/estrellas-noche.jpg",
         "alt": "Un cielo nocturno lleno de estrellas",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencian un mito y una leyenda?",
-      "respuesta": "El mito suele tener dioses y explica el mundo. <mark>La leyenda habla de un lugar o una persona real</mark>. El mito es más antiguo y universal. La leyenda suele ser propia de un pueblo o región.",
+      "pregunta": "El mito suele tener dioses y explica el mundo entero. Esta otra historia habla de un lugar o una persona real. Suele ser propia de un solo pueblo o región. ¿Cómo se llama esta segunda historia?",
+      "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/templo-zeus-atenas.jpg",
         "alt": "Columnas de piedra de un templo griego antiguo, con la Acrópolis al fondo",

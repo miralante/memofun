@@ -62,39 +62,57 @@ and still binding.
    drilling calculations with them), open the deck with a small run of
    **lesson cards** that teach that mechanic directly and build on each
    other, before moving into the regular quiz-style cards from step 3.
-   Same `{pregunta, respuesta}` shape, no schema change — just placed
-   first and more directly didactic (state the rule, then show it
-   working) rather than quiz-style. Skip this step for topics that are
-   just a set of facts with no mechanic to front-load.
+   Same `{pregunta, respuesta}` shape and same clue-first direction as
+   step 3 below, no schema change — just placed first and more directly
+   didactic (state the rule, then show it working) rather than
+   quiz-style. Skip this step for topics that are just a set of facts
+   with no mechanic to front-load.
 3. Write `cantidad` cards in Spanish (or `idioma` if set), each
-   `{"pregunta": "...", "respuesta": "..."}`:
-   - Questions: clear, concrete, evaluable (no yes/no), warm and
-     curious in tone — never exam-like.
-   - Answers: never a dictionary definition. Built around ONE of: an
-     everyday ANALOGY, a concrete PRACTICAL EXAMPLE, or the real
-     PROBLEM the concept solves ("why it matters") — wrap that key
-     phrase in `<mark></mark>`.
+   `{"pregunta": "...", "respuesta": "..."}`. **Card design principle —
+   read this before writing a single card**: the priority is never "explain
+   a lot." It's getting the person to (a) understand one concrete idea,
+   (b) recognize it in another context, (c) recall it with little help.
+   Every rule below serves that goal — when a card is explaining too
+   much, cut it, don't compress it into denser prose.
+   - **Format: clue first, concept as the answer.** `pregunta` carries
+     the explanation — an everyday ANALOGY, a concrete PRACTICAL
+     EXAMPLE, or the real PROBLEM the concept solves ("why it
+     matters") — described without naming the concept itself, closed
+     by one short, direct question that asks the learner to name or
+     identify it ("¿Cómo se llama...?", "¿Quién...?", "¿Qué número
+     es?"). `respuesta` is ONLY the concept/term/name/value being asked
+     for — short (1-6 words), wrapped in `<mark></mark>`, never a full
+     sentence, never a restatement of the clue, never a dictionary
+     definition. This applies to every card, with no exceptions,
+     including the lesson cards from step 2: state the rule or fact as
+     the clue, let the specific term/value/result be the short recalled
+     answer.
    - Control conceptual density, not just sentence length — Easy Read
      for this audience (`doc/en/SPEC.md` §1.2: always someone with an
      intellectual disability) means short sentences AND few new ideas
      at once. At most one new named/abstract concept per card (a
-     movement, an author, a technical term). Anchor every abstract idea
-     in a concrete everyday image before naming it (e.g. explain
-     *desengaño* as "a soap bubble: it shines, then it's gone," not as
-     a bare label). A "how do X and Y differ" card is only allowed
-     after X and Y have each already had their own concrete card — and
-     even then, ground the comparison in the same concrete images
-     already used, not in new abstraction. Topics with many names in a
-     row (literary movements, historical periods) need *more*, smaller
-     cards and deliberate repetition, not compression.
+     movement, an author, a technical term) — that concept is exactly
+     what `respuesta` names; the clue in `pregunta` must not smuggle in
+     a second, unnamed concept. Anchor every abstract idea in a
+     concrete everyday image before naming it (e.g. describe
+     *desengaño* as "a soap bubble: it shines, then it's gone," and let
+     the answer be the word itself). A "how do X and Y differ" card is
+     only allowed after X and Y have each already had their own
+     concrete card — and even then, ground the comparison in the same
+     concrete images already used, not in new abstraction. Topics with
+     many names in a row (literary movements, historical periods) need
+     *more*, smaller cards and deliberate repetition, not compression.
    - Tone: fun and warm, like explaining something interesting to a
      friend — never sarcasm, irony, wordplay, or double meanings (they
      break literal comprehension and Easy Read).
-   - When it fits naturally, add ONE surprising/curious fact (a
-     "¿Sabías que...?") — never forced, never at the cost of clarity.
-   - 2-5 sentences per answer, ≤12 words each, one idea per sentence,
-     everyday vocabulary, active voice. Simple HTML only (`<b>`, `<i>`,
-     `<br>`) — never markdown.
+   - When it fits naturally, weave ONE surprising/curious fact (a
+     "¿Sabías que...?") into the clue in `pregunta` — never forced,
+     never at the cost of clarity, and never in `respuesta`.
+   - `pregunta`: 2-4 clue sentences ≤12 words each, one idea per
+     sentence, everyday vocabulary, active voice, ending in a short
+     closing question. `respuesta`: 1-6 words, no sentence structure
+     needed. Simple HTML only (`<mark>`, `<b>`, `<i>`, `<br>`) — never
+     markdown.
    - Adapt depth to `nivel` (principiante/intermedio/avanzado). Don't
      number cards or repeat the topic name verbatim in every question.
      Repeating a concept on purpose (see step 7 below) is fine; padding

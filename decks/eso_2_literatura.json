@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué estudia la métrica de un poema?",
-      "respuesta": "La métrica mide cuántas sílabas tiene cada verso. <mark>Ese conteo determina el compás con el que suena el poema</mark>. También se fija en cómo riman los versos entre sí. Es como la partitura escondida detrás de un poema.",
+      "pregunta": "Mide cuántas sílabas tiene cada verso de un poema. Ese conteo determina el compás con el que suena. También se fija en cómo riman los versos entre sí. ¿Cómo se llama este estudio del poema?",
+      "respuesta": "<mark>Métrica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/contar-dedos.jpg",
         "alt": "Contando con los dedos de la mano",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una estrofa?",
-      "respuesta": "Es un grupo de versos que forman un bloque. <mark>Se separan de otras estrofas por un espacio en blanco</mark>. Es parecido a un párrafo, pero en verso. Un poema puede tener una o varias estrofas.",
+      "pregunta": "Es un grupo de versos que forman un bloque. Se separa de otros bloques por un espacio en blanco. Es parecido a un párrafo, pero en verso. ¿Cómo se llama este bloque de versos?",
+      "respuesta": "<mark>Estrofa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/bloques-construccion.jpg",
         "alt": "Bloques de construcción apilados",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué dos versos con el mismo número de sílabas suenan parecido al leerlos?",
-      "respuesta": "Tener las mismas sílabas da un compás regular. <mark>El oído reconoce ese patrón que se repite</mark>. Por eso algunos poemas suenan como una canción. Cambiar el número de sílabas rompe ese compás.",
+      "pregunta": "Tener las mismas sílabas da un compás regular a los versos. El oído reconoce ese patrón que se repite. Por eso algunos poemas suenan casi como una canción. ¿Cómo se llama este compás de un poema?",
+      "respuesta": "<mark>Ritmo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/tambor-caja.jpg",
         "alt": "Un tambor, símbolo del ritmo",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una comparación como recurso literario?",
-      "respuesta": "Es unir dos cosas usando una palabra como 'como'. <mark>Así se describe algo relacionándolo con otra cosa conocida</mark>. Por ejemplo: 'sus ojos brillaban como estrellas'. Ayuda al lector a imaginar mejor lo que se describe.",
+      "pregunta": "Es unir dos cosas usando una palabra como 'como'. Por ejemplo: 'sus ojos brillaban como estrellas'. Ayuda al lector a imaginar mejor lo que se describe. ¿Cómo se llama este recurso literario?",
+      "respuesta": "<mark>Comparación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/cielo-estrellado.jpg",
         "alt": "Un cielo lleno de estrellas",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una metáfora?",
-      "respuesta": "Es nombrar una cosa como si fuera otra, sin usar 'como'. <mark>Se dice directamente que una cosa es la otra</mark>. Por ejemplo: 'sus ojos eran dos estrellas'. Es más directa e intensa que una comparación.",
+      "pregunta": "Es nombrar una cosa como si fuera otra, sin usar la palabra 'como'. Por ejemplo: 'sus ojos eran dos estrellas'. Es más directa e intensa que una comparación. ¿Cómo se llama este recurso literario?",
+      "respuesta": "<mark>Metáfora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/via-lactea.jpg",
         "alt": "La Vía Láctea llena de estrellas",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencian la metáfora y la comparación?",
-      "respuesta": "La comparación usa 'como' para relacionar dos cosas. <mark>La metáfora se salta esa palabra y las funde en una sola</mark>. 'Como estrellas' es comparación; 'eran estrellas' es metáfora. Ambas sirven para describir con más fuerza.",
+      "pregunta": "Una comparación usa la palabra 'como' para relacionar dos cosas: 'como estrellas'. Un segundo recurso se salta esa palabra y las funde en una sola: 'eran estrellas'. ¿Cómo se llama el segundo recurso, el que no usa 'como'?",
+      "respuesta": "<mark>Metáfora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/cielo-via-lactea.jpg",
         "alt": "El cielo nocturno con la Vía Láctea",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Quiénes eran los juglares del Mester de Juglaría?",
-      "respuesta": "Eran artistas que iban de pueblo en pueblo recitando. <mark>Contaban historias en voz alta para gente que no sabía leer</mark>. Actuaban en plazas, a cambio de comida o dinero. Por eso sus versos eran fáciles de recordar.",
+      "pregunta": "Eran artistas que iban de pueblo en pueblo recitando historias. Actuaban en plazas para gente que no sabía leer, a cambio de comida o dinero. Sus versos eran fáciles de recordar. ¿Cómo se llamaban estos artistas?",
+      "respuesta": "<mark>Juglares</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/juglares-mercado.jpg",
         "alt": "Juglares actuando en un mercado medieval",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué solían contar los juglares en sus versos?",
-      "respuesta": "Contaban hazañas de héroes y batallas famosas. <mark>Esas historias se llaman cantares de gesta</mark>. Un ejemplo muy conocido es el 'Cantar de Mio Cid'. Servían para entretener y también para admirar a un héroe.",
+      "pregunta": "Los juglares contaban hazañas de héroes y batallas famosas. Un ejemplo muy conocido es el 'Cantar de Mio Cid'. Servían para entretener y para admirar a un héroe. ¿Cómo se llaman estas historias de héroes?",
+      "respuesta": "<mark>Cantares de gesta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/laud-instrumento.jpg",
         "alt": "Un laúd, instrumento tocado por los juglares",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué fue el Mester de Clerecía?",
-      "respuesta": "Era la poesía que escribían los clérigos, gente culta. <mark>A diferencia de los juglares, ellos sabían leer y escribir</mark>. Cuidaban mucho la métrica de sus versos. Solían escribir sobre temas religiosos o morales.",
+      "pregunta": "Era la poesía que escribían los clérigos, gente culta que sabía leer y escribir. Cuidaban mucho la métrica de sus versos. Solían tratar temas religiosos o morales. ¿Cómo se llama esta poesía culta medieval?",
+      "respuesta": "<mark>Mester de Clerecía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/manuscrito-medieval.jpg",
         "alt": "Un manuscrito medieval con escritura antigua, como los del Mester de Clerecía",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencian el Mester de Juglaría y el Mester de Clerecía?",
-      "respuesta": "El de Juglaría lo recitaban artistas que no sabían escribir. <mark>El de Clerecía lo escribían monjes cultos, cuidando más la forma</mark>. El primero hablaba de héroes y batallas. El segundo trataba temas religiosos y morales.",
+      "pregunta": "Un tipo de poesía medieval lo recitaban artistas que no sabían escribir, hablando de héroes y batallas. El otro lo escribían monjes cultos, cuidando más la forma, con temas religiosos y morales. ¿Cómo se llama el tipo que recitaban los juglares?",
+      "respuesta": "<mark>Mester de Juglaría</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/escriba-anglosajon.jpg",
         "alt": "Un monje copista escribiendo un manuscrito",

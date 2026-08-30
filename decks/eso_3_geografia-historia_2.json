@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Cómo afecta la actividad económica al medio ambiente?",
-      "respuesta": "Producir bienes consume recursos naturales y genera residuos. <mark>Es como usar los ingredientes de la despensa sin pensar en si se acabarán</mark>. Cuanto más se produce, más presión sufre el planeta. Por eso economía y medio ambiente están siempre conectados.",
+      "pregunta": "Es como usar los ingredientes de la despensa sin pensar en si se acabarán. Producir bienes tiene este doble efecto sobre el planeta. Cuanto más se produce, más presión sufre el planeta. ¿Qué dos cosas provoca producir bienes sobre el medio ambiente?",
+      "respuesta": "<mark>Consumir recursos y generar residuos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/factory-chimney-smoke.jpg",
         "alt": "Una fábrica con chimeneas humeantes, símbolo de la producción industrial",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la huella humana sobre el medio natural?",
-      "respuesta": "Es la marca que dejan las personas sobre el paisaje y los ecosistemas. <mark>Es como pisar la arena de una playa: siempre queda un rastro</mark>. Incluye ciudades, carreteras, campos de cultivo y contaminación. Cuanta más población y consumo, mayor suele ser esa huella.",
+      "pregunta": "Es como pisar la arena de una playa: siempre queda un rastro. Es la marca que dejan las personas sobre el paisaje y los ecosistemas: ciudades, carreteras, campos y contaminación. Cuanta más población y consumo, mayor suele ser. ¿Cómo se llama esta marca?",
+      "respuesta": "<mark>Huella humana</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/expansion-urbana.jpg",
         "alt": "Vista aérea de una zona urbana extendiéndose sobre el terreno",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la sobreexplotación de los recursos naturales?",
-      "respuesta": "Es usar un recurso más rápido de lo que la naturaleza puede reponerlo. <mark>Es como sacar dinero de una cuenta sin dejar que vuelva a llenarse</mark>. Pescar demasiado o talar demasiados árboles son ejemplos claros. A la larga, ese recurso puede agotarse por completo.",
+      "pregunta": "Es como sacar dinero de una cuenta sin dejar que vuelva a llenarse. Es usar un recurso más rápido de lo que la naturaleza puede reponerlo, como pescar o talar demasiado. A la larga, ese recurso puede agotarse por completo. ¿Cómo se llama esta práctica?",
+      "respuesta": "<mark>Sobreexplotación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/barco-pesca.jpg",
         "alt": "Un barco de pesca junto al muelle, usado para faenar en el mar",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la deforestación?",
-      "respuesta": "Es la desaparición de bosques por la tala o la quema. <mark>Es como arrancar páginas de un libro que no se pueden volver a escribir igual</mark>. Deja sin hogar a muchas especies animales y vegetales. También reduce la capacidad del planeta para absorber gases contaminantes.",
+      "pregunta": "Es como arrancar páginas de un libro que no se pueden volver a escribir igual. Es la desaparición de bosques por la tala o la quema, dejando sin hogar a muchas especies. También reduce la capacidad del planeta para absorber gases contaminantes. ¿Cómo se llama este problema?",
+      "respuesta": "<mark>Deforestación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/deforestacion.jpg",
         "alt": "Un terreno con árboles talados, muestra de deforestación",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué la contaminación del agua y del suelo es un problema grave?",
-      "respuesta": "Porque afecta directamente a la salud de las personas y de los ecosistemas. <mark>Es como envenenar poco a poco la fuente de la que todos bebemos</mark>. Productos químicos, plásticos y residuos industriales son causas frecuentes. Limpiar un suelo o un río contaminado es lento y costoso.",
+      "pregunta": "Es como envenenar poco a poco la fuente de la que todos bebemos. La contaminación del agua y del suelo afecta directamente a la salud de las personas y de los ecosistemas. Limpiar un suelo o un río contaminado es lento y costoso. ¿Qué causas frecuentes provocan esta contaminación, junto con los residuos industriales?",
+      "respuesta": "<mark>Productos químicos y plásticos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/contaminacion-plasticos-rio.jpg",
         "alt": "Plástico y basura flotando en el agua de un río",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la contaminación atmosférica?",
-      "respuesta": "Es la presencia de gases y partículas dañinas en el aire que respiramos. <mark>Es como llenar de humo una habitación cerrada, poco a poco</mark>. La producen sobre todo el tráfico, las fábricas y los combustibles fósiles. Afecta a la salud y también acelera el cambio climático.",
+      "pregunta": "Es como llenar de humo una habitación cerrada, poco a poco. Es la presencia de gases y partículas dañinas en el aire que respiramos, producida sobre todo por el tráfico y las fábricas. Afecta a la salud y acelera el cambio climático. ¿Cómo se llama este problema?",
+      "respuesta": "<mark>Contaminación atmosférica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/smog-ciudad.jpg",
         "alt": "Una ciudad cubierta por una capa de smog, contaminación atmosférica",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los problemas de dependencia energética?",
-      "respuesta": "Ocurren cuando un país necesita comprar fuera casi toda la energía que consume. <mark>Es como depender siempre de un vecino para tener luz en casa</mark>. Esa dependencia puede ser un problema si sube el precio o falta ese recurso. Por eso muchos países buscan producir su propia energía renovable.",
+      "pregunta": "Es como depender siempre de un vecino para tener luz en casa. Ocurre cuando un país necesita comprar fuera casi toda la energía que consume. Por eso muchos países buscan producir su propia energía renovable. ¿Cómo se llama este problema?",
+      "respuesta": "<mark>Dependencia energética</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/petrolero-importacion-energia.jpg",
         "alt": "Un petrolero atracado en una terminal de combustible",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo pueden ayudar los avances tecnológicos a la sostenibilidad?",
-      "respuesta": "Permiten producir gastando menos recursos y contaminando menos. <mark>Es como fabricar lo mismo, pero usando menos materiales y menos energía</mark>. Paneles solares, coches eléctricos o reciclaje son ejemplos de esos avances. La tecnología, bien usada, puede ayudar a frenar el deterioro ambiental.",
+      "pregunta": "Es como fabricar lo mismo, pero usando menos materiales y menos energía. Los avances tecnológicos permiten producir gastando menos recursos y contaminando menos. La tecnología, bien usada, puede ayudar a frenar el deterioro ambiental. ¿Qué avances tecnológicos son ejemplo de esto, junto con el reciclaje?",
+      "respuesta": "<mark>Paneles solares y coches eléctricos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/paneles-solares.jpg",
         "alt": "Paneles solares captando energía renovable del sol",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre la globalización y los movimientos migratorios?",
-      "respuesta": "La globalización conecta economías, y eso también mueve a las personas. <mark>Es como si el mundo entero se hubiera convertido en un mismo mercado laboral</mark>. La gente emigra buscando mejores condiciones de vida o trabajo. Esos movimientos cambian la población de origen y de destino.",
+      "pregunta": "La globalización conecta economías, y eso también mueve a las personas. La gente emigra buscando mejores condiciones de vida o trabajo, cambiando la población de origen y de destino. ¿En qué se ha convertido el mundo entero, según esta idea?",
+      "respuesta": "<mark>Un mismo mercado laboral</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/barco-contenedores.jpg",
         "alt": "Un buque portacontenedores en un puerto, símbolo del comercio mundial",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué dilema existe entre crecimiento económico y sostenibilidad?",
-      "respuesta": "Crecer económicamente suele significar consumir más recursos y energía. <mark>Es como querer correr más rápido sin gastar más gasolina de la que tienes</mark>. Encontrar ese equilibrio es uno de los grandes retos actuales. Por eso se buscan modelos de crecimiento más sostenibles.",
+      "pregunta": "Es como querer correr más rápido sin gastar más gasolina de la que tienes. Crecer económicamente suele significar esto, y encontrar el equilibrio es uno de los grandes retos actuales. ¿Qué suele significar crecer económicamente?",
+      "respuesta": "<mark>Consumir más recursos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/atasco-trafico.jpg",
         "alt": "Muchos coches parados en un atasco de tráfico en una autopista",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el reto demográfico en España?",
-      "respuesta": "Es el problema de que muchas zonas rurales pierden población sin parar. <mark>Es un poco como un pueblo que se vacía mientras la ciudad se llena</mark>. Los jóvenes se trasladan a las ciudades buscando trabajo y estudios. Eso deja a muchos pueblos con cada vez menos gente y más envejecida.",
+      "pregunta": "Es un poco como un pueblo que se vacía mientras la ciudad se llena. Es el problema de que muchas zonas rurales pierden población sin parar, porque los jóvenes se trasladan a las ciudades buscando trabajo y estudios. ¿Cómo se llama este problema en España?",
+      "respuesta": "<mark>Reto demográfico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/casas-abandonadas-pueblo.jpg",
         "alt": "Casas de madera abandonadas en un pueblo de montaña",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué consecuencias tiene la despoblación rural para un territorio?",
-      "respuesta": "Cierran comercios, escuelas y servicios sanitarios por falta de gente. <mark>Es un círculo que se retroalimenta: menos gente, menos servicios, y aún menos gente</mark>. También se pierden costumbres y formas de vida propias de esos pueblos. Revertir esa tendencia es uno de los grandes retos en España.",
+      "pregunta": "Es un círculo que se retroalimenta: menos gente, menos servicios, y aún menos gente. También se pierden costumbres y formas de vida propias de los pueblos afectados. Revertir esa tendencia es uno de los grandes retos en España. ¿Qué suele cerrar en los pueblos por la despoblación?",
+      "respuesta": "<mark>Comercios, escuelas y servicios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/tienda-cerrada.jpg",
         "alt": "Un local comercial cerrado y vacío en una calle",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la ordenación del territorio?",
-      "respuesta": "Es planificar cómo se usa el suelo de una región de forma equilibrada. <mark>Es como organizar los muebles de una casa para que todo tenga su sitio</mark>. Decide dónde van ciudades, campos, industrias o zonas protegidas. Una buena ordenación ayuda a evitar problemas futuros.",
+      "pregunta": "Es como organizar los muebles de una casa para que todo tenga su sitio. Es planificar cómo se usa el suelo de una región de forma equilibrada, decidiendo dónde van ciudades, campos, industrias o zonas protegidas. ¿Cómo se llama esta planificación?",
+      "respuesta": "<mark>Ordenación del territorio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/mapa-uso-suelo.jpg",
         "alt": "Un mapa antiguo que muestra el uso del suelo de una zona",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los Objetivos de Desarrollo Sostenible en relación con el medio ambiente?",
-      "respuesta": "Son metas mundiales que incluyen cuidar el agua, el clima y los ecosistemas. <mark>Son como una lista de compromisos que casi todo el planeta ha firmado</mark>. Buscan un desarrollo que no destruya los recursos del futuro. Cada país debe aportar su parte para cumplirlos antes de 2030.",
+      "pregunta": "Son como una lista de compromisos que casi todo el planeta ha firmado. Son metas mundiales que incluyen cuidar el agua, el clima y los ecosistemas, buscando un desarrollo que no destruya los recursos del futuro. ¿Cómo se llaman estas metas mundiales?",
+      "respuesta": "<mark>Objetivos de Desarrollo Sostenible</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_2/sede-naciones-unidas.jpg",
         "alt": "La sede de la Oficina de las Naciones Unidas, con banderas de países",

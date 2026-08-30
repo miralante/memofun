@@ -9,11 +9,14 @@
 ## 1. Producto
 
 Memofun es una **app de estudio con tarjetas de memoria** (flashcards)
-centrada en **aprendizaje significativo**: cada tarjeta explica un
-concepto con una analogía cotidiana, un ejemplo práctico o el "por qué
-importa", nunca con una definición de diccionario. Está pensada para
-que una persona con discapacidad intelectual pueda repasar un tema de
-forma **autónoma**.
+centrada en **aprendizaje significativo**: cada tarjeta presenta como
+pista la analogía cotidiana, el ejemplo práctico o el "por qué
+importa" de un concepto, y pide recordar el concepto en sí — nunca una
+definición de diccionario recitada como respuesta. La prioridad nunca
+es "explicar mucho": es conseguir que la persona (a) entienda una idea
+concreta, (b) la reconozca en otro contexto, (c) la recuerde con poca
+ayuda. Está pensada para que una persona con discapacidad intelectual
+pueda repasar un tema de forma **autónoma**.
 
 ### 1.1 Qué es y qué no es
 
@@ -110,9 +113,9 @@ dirección — menos superficie de IA en el producto, no más:
    de construcción offline que sí llamaba a la API REST de Gemini
    (con una clave del desarrollador, nunca del usuario). Se eliminó
    también: el contenido se escribe ahora directamente por el agente
-   de IA que trabaja en este repositorio, sin ninguna llamada a una
-   API externa en ningún archivo del proyecto — ver "Generating deck
-   content" en `CLAUDE.md`.
+ de IA que trabaja en este repositorio, sin ninguna llamada a una
+ API externa en ningún archivo del proyecto — ver "Generating deck
+ content" en `CLAUDE.md`.
 
 ### 2.2 El repaso nunca castiga
 
@@ -128,11 +131,13 @@ No hay cronómetros visibles. El ritmo lo marca la persona usuaria.
 ### 2.4 Lectura Fácil siempre
 
 - Frases cortas, una idea por frase, vocabulario cotidiano.
-  - Métrica concreta: **2–5 frases por respuesta**, **≤ 12 palabras por
-    frase**. La cifra `<= 12` viene del estándar UNE 153101:2018 EX
-    para lectura fácil y se aplica a todas las tarjetas — ver
-    `CLAUDE.md` §"Generating deck content" para el detalle de cada
-    nivel (`principiante` / `intermedio` / `avanzado`).
+  - Métrica concreta: **2–4 frases de pista en `pregunta`**, **≤ 12
+    palabras por frase**, más una pregunta final corta. La cifra
+    `<= 12` viene del estándar UNE 153101:2018 EX para lectura fácil y
+    se aplica a todas las tarjetas — ver `CLAUDE.md` §"Generating deck
+    content" para el detalle de cada nivel (`principiante` /
+    `intermedio` / `avanzado`). `respuesta` es el propio concepto o
+    término, corto (1-6 palabras), no una frase.
 - Sin lenguaje clínico en la interfaz ni en las tarjetas ("paciente",
   "discapacidad", etc. — ver la regla correspondiente en "Generating
   deck content" de `CLAUDE.md`).
@@ -157,9 +162,10 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
   (§2.4): quien lee de forma literal necesita que lo escrito signifique
   exactamente lo que dice.
 - **Datos curiosos**: cuando encaja de forma natural con el tema, la
-  respuesta añade un "¿Sabías que...?" sorprendente o pintoresco, para
-  anclar mejor el aprendizaje significativo y hacerlo memorable. Nunca
-  se fuerza uno si el tema no da pie a ello, ni a costa de la claridad.
+  pista en `pregunta` teje un "¿Sabías que...?" sorprendente o
+  pintoresco, para anclar mejor el aprendizaje significativo y hacerlo
+  memorable. Nunca se fuerza uno si el tema no da pie a ello, nunca a
+  costa de la claridad, y nunca en `respuesta`.
 - Esto se aplica al escribir el contenido (regla obligatoria para el
   agente de IA, ver "Generating deck content" en `CLAUDE.md`) y a la
   revisión antes de publicar: una tarjeta con tono plano o de examen se
@@ -192,16 +198,12 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
 
 Funciona offline (PWA instalable), sin login, sin coste.
 
-### 2.9 Vanilla, sin dependencias
+### 2.9 Sencillez para la persona que estudia
 
-Todo el proyecto — sitio público y herramientas de `scripts/` — es
-**HTML, CSS y JavaScript vanilla**. Sin frameworks, sin build, sin
-paquetes de terceros (ni npm, ni pip en versiones anteriores). Las
-barajas usan un **formato JSON propio** (ver
-`tecnico.md` §3), no el `.apkg` de Anki — se descartó esa dependencia
-precisamente para no necesitar Python, ni una librería de lectura de
-SQLite/ZIP en el navegador. Menos piezas móviles, menos superficie de
-ataque, más fácil de mantener por cualquiera que sepa HTML/CSS/JS.
+La persona no necesita conocimientos técnicos, una cuenta, una clave ni
+instalar herramientas para estudiar. La aplicación debe resultar previsible,
+gratuita y fácil de retomar. La arquitectura que hace posible este alcance se
+define en [`tecnico.md`](tecnico.md), no en esta especificación de producto.
 
 ### 2.10 Eufemismo público: "usuario/a tipo"
 
@@ -319,7 +321,8 @@ Un cambio en Memofun es exitoso cuando:
 5. No añade recogida de datos personales.
 6. Mantiene la paridad ES/EN de la interfaz.
 7. El contenido de las tarjetas nuevas sigue el principio de aprendizaje
-   significativo (analogía / ejemplo / por qué importa) y Lectura Fácil.
+   significativo (pista con analogía / ejemplo / por qué importa,
+   concepto recordado como respuesta corta) y Lectura Fácil.
 
 ---
 

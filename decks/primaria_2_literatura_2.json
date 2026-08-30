@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es el título de un cuento?",
-      "respuesta": "Es el nombre que identifica a un cuento. <mark>Suele dar una pista de lo que vas a leer</mark>. Está siempre al principio, antes de la historia. Un buen título hace que te entren ganas de leer.",
+      "pregunta": "Es el nombre que identifica a un cuento. Suele dar una pista de lo que vas a leer. Está siempre al principio, antes de la historia. ¿Cómo se llama esto?",
+      "respuesta": "<mark>El título</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/titulo-portada-libro.jpg",
         "alt": "Portada de un libro antiguo con el título grande 'Children's Friend' y un dibujo de dos niños mirando un leopardo sobre una roca",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Quién es el narrador de un cuento?",
-      "respuesta": "Es la voz que cuenta la historia al lector. <mark>No es un personaje que aparece, sino quien lo explica todo</mark>. Dice qué pasa y dónde ocurre. Sin narrador, nadie contaría la historia.",
+      "pregunta": "Es la voz que cuenta la historia al lector. No es un personaje que aparece en ella. Dice qué pasa y dónde ocurre. ¿Cómo se llama esta voz?",
+      "respuesta": "<mark>El narrador</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/narrador-cuenta-historia.jpg",
         "alt": "Un hombre sentado lee un cuento en voz alta, mostrando los dibujos del libro a tres niños sentados en el suelo de una biblioteca",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el escenario de un cuento?",
-      "respuesta": "Es el lugar donde ocurre la historia. <mark>Puede ser un bosque, una ciudad o hasta el espacio</mark>. Saber el escenario ayuda a imaginar mejor la escena. Cambiarlo cambiaría toda la historia.",
+      "pregunta": "Es el lugar donde ocurre una historia. Puede ser un bosque, una ciudad o hasta el espacio. Cambiarlo cambiaría toda la historia. ¿Cómo se llama esto?",
+      "respuesta": "<mark>El escenario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/escenario-bosque.jpg",
         "alt": "Un camino de tierra que atraviesa un túnel formado por árboles muy antiguos con las ramas entrelazadas, como en un cuento",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los personajes secundarios de un cuento?",
-      "respuesta": "Son quienes ayudan o acompañan al protagonista. <mark>No viven la aventura principal, pero son importantes igualmente</mark>. Por ejemplo, un amigo que da un consejo. Sin ellos, el protagonista estaría casi siempre solo.",
+      "pregunta": "Son quienes ayudan o acompañan al protagonista. No viven la aventura principal, pero importan igual. Por ejemplo, un amigo que da un consejo. ¿Cómo se llaman estos personajes?",
+      "respuesta": "<mark>Personajes secundarios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/personajes-secundarios-amigas.jpg",
         "alt": "Dos niñas pequeñas sentadas juntas en el suelo, jugando y compartiendo algo, como buenas compañeras",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirven los dibujos en un cuento?",
-      "respuesta": "Los dibujos muestran cómo son los personajes y lugares. <mark>Ayudan a imaginar la historia incluso sin leer cada palabra</mark>. Por eso los cuentos para niños tienen tantas ilustraciones. Un buen dibujo puede contar tanto como una frase.",
+      "pregunta": "Esto muestra cómo son los personajes y lugares de un cuento. Ayuda a imaginar la historia sin leer cada palabra. Un buen ejemplo puede contar tanto como una frase. ¿Cómo se llama esto en un libro?",
+      "respuesta": "<mark>Las ilustraciones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/dibujos-ilustracion-cuento.jpg",
         "alt": "Página antigua de un libro infantil con un dibujo en color de animales vestidos de personas, junto al texto del cuento",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante saber cuándo ocurre un cuento?",
-      "respuesta": "Una historia puede pasar hoy, hace siglos o en el futuro. <mark>Saber cuándo ocurre ayuda a entender por qué pasan ciertas cosas</mark>. Por ejemplo, si no hay coches, será una época antigua. El tiempo de la historia cambia lo que es normal en ella.",
+      "pregunta": "Una historia puede pasar hoy, hace siglos o en el futuro. Si no hay coches, sabes que es una época antigua. Esto cambia lo que es normal dentro de la historia. ¿Cómo se llama el momento en que ocurre una historia?",
+      "respuesta": "<mark>El tiempo de la historia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/epoca-carruaje-antiguo.jpg",
         "alt": "Dibujo antiguo de un carruaje tirado por caballos, sin coches, propio de una época pasada",

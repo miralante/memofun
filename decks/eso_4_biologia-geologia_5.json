@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué diferencia hay entre relieve y paisaje?",
-      "respuesta": "El relieve son las formas físicas del terreno, como montañas o llanuras. <mark>El paisaje incluye además el clima, la vegetación y hasta la huella humana</mark>. El relieve es solo una parte de lo que forma un paisaje completo. Dos lugares con el mismo relieve pueden tener paisajes muy distintos.",
+      "pregunta": "Las formas físicas del terreno, como montañas o llanuras, son solo una parte. Esto además incluye el clima, la vegetación y la huella humana. Dos lugares con el mismo relieve pueden ser muy distintos así. ¿Cómo se llama este conjunto más amplio?",
+      "respuesta": "<mark>Paisaje</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/paisaje-valle-montana.jpg",
         "alt": "Valle entre montañas con vegetación",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué factores forman el relieve de un territorio?",
-      "respuesta": "El clima, el tipo de roca y los procesos geológicos internos y externos. <mark>Es como una escultura moldeada a la vez por fuerzas de dentro y de fuera</mark>. Esos factores actúan durante miles o millones de años. El relieve cambia tan lento que apenas lo notamos en una vida humana.",
+      "pregunta": "Es como una escultura moldeada por fuerzas de dentro y de fuera. El clima, la roca y los procesos geológicos actúan durante millones de años. Cambia tan lento que no lo notamos en una vida. ¿Qué forman estos factores juntos?",
+      "respuesta": "<mark>El relieve</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/hoodoos-erosion.jpg",
         "alt": "Columnas de roca esculpidas por la erosión (hoodoos)",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se estudia la dinámica de la geosfera?",
-      "respuesta": "Se estudia analizando terremotos, volcanes y la composición de las rocas. <mark>Es como investigar el interior de un motor escuchando y midiendo cómo funciona por fuera</mark>. Los científicos usan ondas sísmicas para deducir cómo es el interior de la Tierra sin poder verlo.",
+      "pregunta": "Es como investigar un motor escuchando y midiendo desde fuera. Los científicos usan estas ondas para deducir el interior de la Tierra. Se generan en terremotos y volcanes. ¿Cómo se llaman estas ondas?",
+      "respuesta": "<mark>Ondas sísmicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/sismografo.jpg",
         "alt": "Sismómetro que registra las vibraciones del terreno",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué discontinuidades existen entre las capas del interior de la Tierra?",
-      "respuesta": "Son los límites donde cambian bruscamente las propiedades entre una capa y otra. <mark>Es como el borde donde termina un material y empieza otro completamente distinto</mark>. Se detectan porque las ondas sísmicas cambian de velocidad al atravesarlas. Distinguen corteza, manto y núcleo.",
+      "pregunta": "Es como el borde donde termina un material y empieza otro distinto. Las ondas sísmicas cambian de velocidad al cruzarlo. Separan la corteza, el manto y el núcleo. ¿Cómo se llaman estos límites?",
+      "respuesta": "<mark>Discontinuidades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/capas-interior-tierra.svg",
         "alt": "Esquema en corte de las capas del interior de la Tierra",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la tectónica de placas?",
-      "respuesta": "Es la teoría que explica que la corteza terrestre está dividida en grandes placas que se mueven. <mark>Es como un rompecabezas gigante cuyas piezas se desplazan lentamente sobre el planeta</mark>. Ese movimiento explica terremotos, volcanes y la formación de montañas.",
+      "pregunta": "Es como un rompecabezas gigante cuyas piezas se mueven muy lentamente. La corteza terrestre está dividida en grandes placas. Ese movimiento explica terremotos y volcanes. ¿Cómo se llama esta teoría?",
+      "respuesta": "<mark>Tectónica de placas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/mapa-placas-tectonicas.jpg",
         "alt": "Mapa mundial con las principales placas tectónicas",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué tipos de bordes existen entre placas tectónicas?",
-      "respuesta": "Bordes donde las placas se separan, se acercan o se deslizan lateralmente. <mark>Es como dos coches que se alejan, chocan de frente o se rozan al pasar</mark>. Cada tipo de borde genera fenómenos geológicos distintos. Donde chocan placas suelen formarse grandes cordilleras.",
+      "pregunta": "Es como dos coches que se alejan, chocan de frente o se rozan al pasar. Las placas tectónicas se comportan igual entre ellas. Donde chocan, se forman grandes cordilleras. ¿Cómo se llaman estos puntos de contacto entre placas?",
+      "respuesta": "<mark>Bordes de placas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/dorsal-centro-atlantica.jpg",
         "alt": "Mapa de la dorsal centro-atlántica, un borde donde dos placas se separan",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué la actividad sísmica y volcánica no se reparte igual por todo el planeta?",
-      "respuesta": "Porque se concentra sobre todo en los bordes de las placas tectónicas. <mark>Es donde la energía interna de la Tierra encuentra más fácil salir a la superficie</mark>. Por eso ciertas zonas sufren muchos más terremotos que otras. El 'Cinturón de Fuego del Pacífico' es un ejemplo conocido.",
+      "pregunta": "Ahí la energía interna de la Tierra encuentra más fácil salir a la superficie. Terremotos y volcanes se concentran en los bordes de las placas. El Cinturón de Fuego del Pacífico es un ejemplo. ¿Dónde se concentra esta actividad?",
+      "respuesta": "<mark>Bordes de las placas tectónicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/cinturon-fuego-pacifico.png",
         "alt": "Mapa del Cinturón de Fuego del Pacífico con sus volcanes",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los riesgos geológicos?",
-      "respuesta": "Son fenómenos naturales, como terremotos o erupciones, que pueden causar daños graves. <mark>Es la posibilidad de que un fenómeno natural afecte a personas o construcciones</mark>. Su peligro depende de dónde y cómo vive la población cercana. Prevenirlos reduce mucho sus consecuencias.",
+      "pregunta": "Es la posibilidad de que un fenómeno natural dañe a personas o construcciones. Terremotos y erupciones son ejemplos. Su peligro depende de dónde vive la población cercana. ¿Cómo se llama esta posibilidad de daño?",
+      "respuesta": "<mark>Riesgo geológico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/terremoto-edificios-colapsados-nepal.jpg",
         "alt": "Edificios derrumbados tras un terremoto en Chautara, Nepal",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se puede prevenir el impacto de un riesgo geológico?",
-      "respuesta": "Con estudios previos del terreno, construcciones seguras y planes de emergencia. <mark>Es como preparar un plan de evacuación antes de que ocurra realmente un incendio</mark>. La vigilancia constante de volcanes y fallas ayuda a anticiparse. No se evita el fenómeno, pero sí su impacto.",
+      "pregunta": "Es como preparar un plan de evacuación antes de un incendio. Estudiar el terreno y vigilar volcanes ayuda a anticiparse. No se evita el fenómeno, pero sí su daño. ¿Qué se reduce con esta preparación?",
+      "respuesta": "<mark>El impacto del riesgo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/observatorio-volcanes-hawaii.jpg",
         "alt": "Observatorio de vigilancia volcánica en Hawái",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los cortes geológicos?",
-      "respuesta": "Son representaciones que muestran cómo están dispuestas las capas de rocas de un lugar. <mark>Es como cortar un pastel para ver cómo están colocadas sus distintas capas</mark>. Ayudan a interpretar la historia geológica de una zona y en qué orden se formaron las rocas.",
+      "pregunta": "Es como cortar un pastel para ver sus distintas capas. Muestran cómo están dispuestas las capas de roca de un lugar. Ayudan a interpretar la historia geológica de una zona. ¿Cómo se llaman estas representaciones?",
+      "respuesta": "<mark>Cortes geológicos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/capas-roca.jpg",
         "alt": "Capas de roca visibles en un desfiladero",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué principio ayuda a interpretar el orden de formación de las capas de roca?",
-      "respuesta": "El principio de superposición explica que las capas más antiguas quedan debajo de las más recientes. <mark>Es como apilar libros: el primero que se coloca queda siempre en la base</mark>. Es clave para leer la historia de la Tierra en las rocas sin necesidad de una máquina del tiempo.",
+      "pregunta": "Es como apilar libros: el primero que se coloca queda en la base. Las capas de roca más antiguas quedan debajo de las recientes. Ayuda a leer la historia de la Tierra sin máquina del tiempo. ¿Cómo se llama este principio?",
+      "respuesta": "<mark>Principio de superposición</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/monument-valley-estratos.jpg",
         "alt": "Formaciones rocosas de Monument Valley con capas horizontales bien visibles",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el tiempo geológico?",
-      "respuesta": "Es la escala de tiempo enorme que se usa para medir la historia de la Tierra. <mark>Es tan largo que la historia humana ocupa solo un instante dentro de él</mark>. Se divide en eras, periodos y épocas. Ayuda a situar en el tiempo eventos como la aparición de los dinosaurios.",
+      "pregunta": "Es tan largo que la historia humana ocupa solo un instante. Se divide en eras, periodos y épocas. Sitúa eventos como la aparición de los dinosaurios. ¿Cómo se llama esta escala de tiempo?",
+      "respuesta": "<mark>Tiempo geológico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/escala-tiempo-geologico.jpg",
         "alt": "Tabla con la escala de tiempo geológico, dividida en eras y periodos",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo ayudan los fósiles a situar eventos en el tiempo geológico?",
-      "respuesta": "Permiten identificar en qué época se formó una capa de roca concreta. <mark>Es como encontrar una foto con fecha dentro de un álbum sin ordenar</mark>. Los fósiles guía son especialmente útiles para esa datación. Ayudan a reconstruir grandes momentos de la historia de la vida.",
+      "pregunta": "Es como encontrar una foto con fecha en un álbum sin ordenar. Permiten identificar en qué época se formó una capa de roca. Los fósiles guía son especialmente útiles para esto. ¿Qué palabra nombra este proceso de poner fecha?",
+      "respuesta": "<mark>Datación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/trilobite-fosil-piedra.jpg",
         "alt": "Fósil de trilobites marcado en la piedra",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante estudiar la geología para prevenir catástrofes?",
-      "respuesta": "Porque entender cómo funciona la Tierra ayuda a anticipar sus riesgos. <mark>Es como conocer bien un río para saber cuándo puede desbordarse</mark>. Esa información permite construir de forma más segura y avisar a tiempo. La geología ayuda a proteger el futuro, no solo a explicar el pasado.",
+      "pregunta": "Es como conocer bien un río para saber cuándo puede desbordarse. Entender la Tierra ayuda a anticipar sus riesgos. Permite construir más seguro y avisar a tiempo. ¿Qué ciencia hace posible esta prevención?",
+      "respuesta": "<mark>Geología</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/geologo-limite-cretacico-paleogeno.jpg",
         "alt": "Geólogo estudiando el límite entre capas de roca de distintas épocas",

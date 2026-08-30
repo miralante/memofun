@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es un sustantivo?",
-      "respuesta": "Es la palabra que nombra personas, animales, objetos o ideas. <mark>Es como la etiqueta que le pones a cada cosa que nombras</mark>. 'Mesa', 'perro' o 'alegría' son ejemplos de sustantivos.",
+      "pregunta": "Es la palabra que nombra personas, animales, objetos o ideas. Es como la etiqueta que le pones a cada cosa que nombras. 'Mesa', 'perro' o 'alegría' son ejemplos. ¿Cómo se llama esta clase de palabra?",
+      "respuesta": "<mark>Sustantivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/sustantivo.jpg",
         "alt": "Un conjunto de etiquetas con nombres",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un verbo?",
-      "respuesta": "Es la palabra que expresa una acción, un estado o un proceso. <mark>Es la palabra que 'mueve' la frase, indicando qué pasa</mark>. 'Correr', 'ser' o 'pensar' son ejemplos de verbos.",
+      "pregunta": "Es la palabra que expresa una acción, un estado o un proceso. Es la palabra que 'mueve' la frase, indicando qué pasa. 'Correr', 'ser' o 'pensar' son ejemplos. ¿Cómo se llama esta clase de palabra?",
+      "respuesta": "<mark>Verbo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/verbo.jpg",
         "alt": "Corredores en plena acción durante una carrera",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un adjetivo?",
-      "respuesta": "Es la palabra que describe cómo es un sustantivo. <mark>Es como añadir color o detalle a algo que ya has nombrado</mark>. 'Grande', 'azul' o 'amable' son ejemplos de adjetivos.",
+      "pregunta": "Es la palabra que describe cómo es un sustantivo. Es como añadir color o detalle a algo que ya has nombrado. 'Grande', 'azul' o 'amable' son ejemplos. ¿Cómo se llama esta clase de palabra?",
+      "respuesta": "<mark>Adjetivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/adjetivo.jpg",
         "alt": "Una textura de pintura en aerosol llena de color",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el sujeto de una oración?",
-      "respuesta": "Es quien realiza la acción o de quien se habla en la frase. <mark>Es la persona o cosa protagonista de esa oración</mark>. Por ejemplo, en 'María escribe una carta', María es el sujeto.",
+      "pregunta": "Es quien realiza la acción o de quien se habla en la frase. Es la persona o cosa protagonista de esa oración. En 'María escribe una carta', María cumple este papel. ¿Cómo se llama esta parte de la oración?",
+      "respuesta": "<mark>Sujeto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/sujeto.jpg",
         "alt": "Una persona bailando, protagonista de la escena",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el predicado de una oración?",
-      "respuesta": "Es la parte de la frase que dice qué hace o cómo es el sujeto. <mark>Es todo lo que se cuenta sobre el sujeto</mark>. Sujeto y predicado juntos forman una oración completa.",
+      "pregunta": "Es la parte de la frase que dice qué hace o cómo es el sujeto. Es todo lo que se cuenta sobre el sujeto. Junto al sujeto, forma una oración completa. ¿Cómo se llama esta parte de la oración?",
+      "respuesta": "<mark>Predicado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/predicado.jpg",
         "alt": "Un plato de comida recién preparado",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las reglas básicas de acentuación?",
-      "respuesta": "Son las normas que indican cuándo una palabra lleva tilde. <mark>Es como una guía para saber dónde poner el acento al escribir</mark>. Depende de en qué sílaba recae la fuerza al pronunciarla.",
+      "pregunta": "Son las normas que indican cuándo una palabra lleva tilde. Es como una guía para saber dónde poner el acento al escribir. Dependen de en qué sílaba recae la fuerza al hablar. ¿Cómo se llaman estas normas?",
+      "respuesta": "<mark>Reglas de acentuación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/acentuacion.jpg",
         "alt": "Una máquina de escribir antigua con sus teclas",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante acentuar bien las palabras al escribir?",
-      "respuesta": "Porque una tilde mal puesta puede cambiar el significado de una palabra. <mark>No es lo mismo 'el' que 'él', aunque se parezcan mucho</mark>. Escribir con acentos correctos facilita que el texto se entienda bien.",
+      "pregunta": "No es lo mismo 'el' que 'él', aunque se parezcan mucho. Una tilde mal puesta puede confundir a quien lee. Escribir con acentos correctos ayuda a entender el texto. ¿Qué puede cambiar una tilde mal puesta?",
+      "respuesta": "<mark>El significado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/importancia-acentuar.jpg",
         "alt": "Las páginas de un diccionario de español al aire",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirven los signos de puntuación?",
-      "respuesta": "Ayudan a organizar un texto y a marcar pausas al leer. <mark>Es como poner semáforos en una frase, para saber cuándo parar</mark>. Sin ellos, un texto sería mucho más difícil de entender.",
+      "pregunta": "Ayudan a organizar un texto y a marcar pausas al leer. Es como poner semáforos en una frase, para saber cuándo parar. Sin ellos, un texto sería mucho más difícil de entender. ¿Cómo se llaman estas marcas del texto?",
+      "respuesta": "<mark>Signos de puntuación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/signos-puntuacion.jpg",
         "alt": "Un semáforo con sus luces de tráfico",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre una coma y un punto?",
-      "respuesta": "La coma marca una pausa corta dentro de una misma idea. <mark>El punto marca el final completo de una idea</mark>. Confundirlos puede cambiar el sentido de lo que se escribe.",
+      "pregunta": "Este signo marca el final completo de una idea. La coma, en cambio, solo marca una pausa corta. Confundirlos puede cambiar el sentido de lo que se escribe. ¿Qué signo cierra una idea completa?",
+      "respuesta": "<mark>El punto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/coma-punto.jpg",
         "alt": "Un signo que combina interrogación y exclamación",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es útil aprender palabras nuevas cada semana?",
-      "respuesta": "Porque amplía tu forma de expresarte y de entender lo que lees. <mark>Es como añadir herramientas nuevas a una caja de herramientas</mark>. Aprender vocabulario poco a poco es más fácil que hacerlo de golpe.",
+      "pregunta": "Amplía tu forma de expresarte y de entender lo que lees. Es como añadir herramientas nuevas a una caja de herramientas. Aprenderlo poco a poco es más fácil que de golpe. ¿Qué conviene aprender cada semana?",
+      "respuesta": "<mark>Vocabulario nuevo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/palabras-nuevas.jpg",
         "alt": "Tarjetas para aprender vocabulario nuevo",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué debe tener una nota o un mensaje claro?",
-      "respuesta": "La información esencial, dicha de forma breve y sin rodeos. <mark>Es como ir directo al grano, sin dar vueltas innecesarias</mark>. Un mensaje confuso puede generar errores o malentendidos.",
+      "pregunta": "Debe llevar la información esencial, dicha de forma breve y sin rodeos. Es como ir directo al grano, sin dar vueltas innecesarias. Un mensaje confuso puede generar errores o malentendidos. ¿Cómo debe ser una buena nota o mensaje?",
+      "respuesta": "<mark>Clara y breve</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/nota-clara.jpg",
         "alt": "Una nota con un mensaje breve y directo",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un formulario?",
-      "respuesta": "Es un documento con espacios para rellenar con información concreta. <mark>Es como una plantilla que solo necesita que completes los datos que pide</mark>. Se usa para trámites, solicitudes o inscripciones.",
+      "pregunta": "Es un documento con espacios para rellenar con información concreta. Es como una plantilla que solo necesita que completes los datos que pide. Se usa para trámites, solicitudes o inscripciones. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Formulario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/formulario-solicitud.jpg",
         "alt": "Un formulario de solicitud con espacios para rellenar",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué conviene revisar antes de entregar un formulario?",
-      "respuesta": "Que todos los datos estén completos, correctos y sean legibles. <mark>Es como repasar una lista antes de darla por terminada</mark>. Un dato mal escrito puede retrasar todo un trámite.",
+      "pregunta": "Antes de entregar un formulario, conviene comprobar que los datos estén completos, correctos y legibles. Es como repasar una lista antes de darla por terminada. Un dato mal escrito puede retrasar todo un trámite. ¿Qué conviene hacer antes de entregarlo?",
+      "respuesta": "<mark>Revisarlo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/revisar-formulario-12.jpg",
         "alt": "Alguien revisando y rellenando un formulario",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante usar bien la gramática al escribir en el trabajo?",
-      "respuesta": "Porque un texto bien escrito se entiende mejor y transmite más profesionalidad. <mark>Es como vestir bien para una ocasión importante, pero con las palabras</mark>. Errores de gramática dan mala imagen.",
+      "pregunta": "Un texto bien escrito se entiende mejor y transmite más profesionalidad. Es como vestir bien para una ocasión importante, pero con las palabras. Los errores dan mala imagen en el trabajo. ¿Qué conviene cuidar al escribir en el trabajo?",
+      "respuesta": "<mark>La gramática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/gramatica-trabajo-13.jpg",
         "alt": "Un profesional con traje trabajando con su ordenador",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre el vocabulario y la comunicación en el trabajo?",
-      "respuesta": "Cuanto más vocabulario tienes, con más precisión puedes explicarte. <mark>Es como tener más colores disponibles para pintar la misma idea</mark>. Un vocabulario amplio ayuda a evitar malentendidos.",
+      "pregunta": "Cuanto más tienes, con más precisión puedes explicarte. Es como tener más colores disponibles para pintar la misma idea. Ayuda a evitar malentendidos en el trabajo. ¿Qué ayuda a explicarte con más precisión?",
+      "respuesta": "<mark>Tener más vocabulario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana_2/vocabulario-trabajo-14.jpg",
         "alt": "Una caja de ceras de muchos colores",

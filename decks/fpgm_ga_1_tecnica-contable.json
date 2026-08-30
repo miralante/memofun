@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es el patrimonio empresarial?",
-      "respuesta": "Es el conjunto de bienes, derechos y obligaciones que tiene una empresa. <mark>Es como hacer un resumen de todo lo que tiene y todo lo que debe una empresa</mark>. Conocerlo es el punto de partida de toda la contabilidad.",
+      "pregunta": "Es el conjunto de bienes, derechos y obligaciones que tiene una empresa. Es como hacer un resumen de todo lo que tiene y todo lo que debe. Conocerlo es el punto de partida de toda la contabilidad. ¿Cómo se llama este conjunto?",
+      "respuesta": "<mark>Patrimonio empresarial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el activo de una empresa?",
-      "respuesta": "Es todo lo que la empresa posee: bienes y derechos de cobro. <mark>Es como la lista de todo lo que tienes, desde dinero hasta máquinas o mercancía</mark>. Representa los recursos con los que cuenta la empresa.",
+      "pregunta": "Es todo lo que la empresa posee: bienes y derechos de cobro. Es como la lista de todo lo que tienes, desde dinero hasta máquinas o mercancía. Representa los recursos con los que cuenta la empresa. ¿Cómo se llama esta lista?",
+      "respuesta": "<mark>Activo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/hucha-monedas.jpg",
         "alt": "Una hucha con monedas, representando lo que posee una empresa",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el pasivo de una empresa?",
-      "respuesta": "Es todo lo que la empresa debe a otras personas o entidades. <mark>Es como la lista de todo lo que tienes que devolver, tarde o temprano</mark>. Incluye préstamos, deudas con proveedores o impuestos pendientes.",
+      "pregunta": "Es todo lo que la empresa debe a otras personas o entidades. Es como la lista de todo lo que tienes que devolver, tarde o temprano. Incluye préstamos, deudas con proveedores o impuestos pendientes. ¿Cómo se llama esta lista?",
+      "respuesta": "<mark>Pasivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el neto patrimonial?",
-      "respuesta": "Es la diferencia entre lo que la empresa tiene y lo que debe. <mark>Es como calcular cuánto te queda realmente después de restar tus deudas a tus bienes</mark>. Representa el valor real que le queda a la empresa.",
+      "pregunta": "Es la diferencia entre lo que la empresa tiene y lo que debe. Es como calcular cuánto te queda realmente después de restar tus deudas a tus bienes. Representa el valor real que le queda a la empresa. ¿Cómo se llama esta diferencia?",
+      "respuesta": "<mark>Neto patrimonial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el Plan General de Contabilidad?",
-      "respuesta": "Es el conjunto de normas que regulan cómo debe llevarse la contabilidad en España. <mark>Es como un manual de instrucciones común, para que todas las empresas contabilicen de forma parecida</mark>. Su cumplimiento es obligatorio.",
+      "pregunta": "Es el conjunto de normas que regulan cómo debe llevarse la contabilidad en España. Es como un manual de instrucciones común, para que todas las empresas contabilicen de forma parecida. Su cumplimiento es obligatorio. ¿Cómo se llama este conjunto de normas?",
+      "respuesta": "<mark>Plan General de Contabilidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una cuenta contable?",
-      "respuesta": "Es un registro donde se anota la evolución de un elemento del patrimonio. <mark>Es como una ficha individual para cada tipo de bien, deuda o gasto de la empresa</mark>. Sumando todas las cuentas se obtiene una imagen completa.",
+      "pregunta": "Es un registro donde se anota la evolución de un elemento del patrimonio. Es como una ficha individual para cada tipo de bien, deuda o gasto de la empresa. Sumando todas estas fichas se obtiene una imagen completa. ¿Cómo se llama cada una de estas fichas?",
+      "respuesta": "<mark>Cuenta contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el método de la partida doble?",
-      "respuesta": "Es el sistema contable donde cada operación afecta al menos a dos cuentas distintas. <mark>Es como anotar cada movimiento de dinero desde dos puntos de vista distintos, a la vez</mark>. Ayuda a comprobar que la contabilidad esté cuadrada.",
+      "pregunta": "En este sistema contable, cada operación afecta al menos a dos cuentas distintas. Es como anotar cada movimiento de dinero desde dos puntos de vista a la vez. Ayuda a comprobar que la contabilidad esté cuadrada. ¿Cómo se llama este sistema?",
+      "respuesta": "<mark>Partida doble</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el libro diario?",
-      "respuesta": "Es el libro contable donde se anotan las operaciones de una empresa, día a día. <mark>Es como un diario personal, pero donde en vez de sentimientos se anotan movimientos de dinero</mark>. Es uno de los libros contables obligatorios.",
+      "pregunta": "En este libro se anotan las operaciones de una empresa, día a día. Es como un diario personal, pero donde en vez de sentimientos se anotan movimientos de dinero. Es uno de los libros contables obligatorios. ¿Qué libro es?",
+      "respuesta": "<mark>Libro diario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-contable.jpg",
         "alt": "Una página de un libro de cuentas antiguo",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el libro mayor?",
-      "respuesta": "Es el libro donde se agrupan los movimientos de cada cuenta contable por separado. <mark>Es como reorganizar el diario, pero clasificando cada movimiento según a qué cuenta pertenece</mark>. Permite ver cómo ha evolucionado cada cuenta.",
+      "pregunta": "En este libro se agrupan los movimientos de cada cuenta contable por separado. Es como reorganizar el diario, pero clasificando cada movimiento según a qué cuenta pertenece. Permite ver cómo ha evolucionado cada cuenta. ¿Qué libro es?",
+      "respuesta": "<mark>Libro mayor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el balance de comprobación?",
-      "respuesta": "Es un listado que resume el saldo de todas las cuentas en un momento dado. <mark>Es como hacer una foto rápida para comprobar que las cuentas están cuadradas</mark>. Ayuda a detectar errores antes de cerrar el ejercicio.",
+      "pregunta": "Es un listado que resume el saldo de todas las cuentas en un momento dado. Es como hacer una foto rápida para comprobar que las cuentas están cuadradas. Ayuda a detectar errores antes de cerrar el ejercicio. ¿Cómo se llama este listado?",
+      "respuesta": "<mark>Balance de comprobación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el ciclo contable?",
-      "respuesta": "Es el conjunto de pasos que sigue la contabilidad de una empresa durante un año. <mark>Es como un año completo de la vida contable de la empresa, de principio a fin</mark>. Empieza con el asiento de apertura y termina con el cierre.",
+      "pregunta": "Es el conjunto de pasos que sigue la contabilidad de una empresa durante un año. Es como un año completo de la vida contable de la empresa, de principio a fin. Empieza con el asiento de apertura y termina con el cierre. ¿Cómo se llama este conjunto de pasos?",
+      "respuesta": "<mark>Ciclo contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el asiento de apertura del ciclo contable?",
-      "respuesta": "Es el primer asiento del año, que recoge el patrimonio con el que empieza la empresa. <mark>Es como abrir un nuevo cuaderno de cuentas, copiando el saldo con el que se termina el anterior</mark>. Se basa en el balance final anterior.",
+      "pregunta": "Es el primer asiento del año, que recoge el patrimonio con el que empieza la empresa. Es como abrir un nuevo cuaderno de cuentas, copiando el saldo con el que terminó el anterior. Se basa en el balance final del año anterior. ¿Cómo se llama este primer asiento?",
+      "respuesta": "<mark>Asiento de apertura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué ocurre en el cierre del ciclo contable?",
-      "respuesta": "Se cierran todas las cuentas y se calcula el resultado del ejercicio. <mark>Es como hacer las cuentas finales de todo un año de actividad</mark>. A partir de ahí se elaboran las cuentas anuales del ejercicio.",
+      "pregunta": "En esta fase se cierran todas las cuentas y se calcula el resultado del ejercicio. Es como hacer las cuentas finales de todo un año de actividad. A partir de ahí se elaboran las cuentas anuales. ¿Cómo se llama esta fase final del ciclo contable?",
+      "respuesta": "<mark>Cierre contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las cuentas anuales de una empresa?",
-      "respuesta": "Son los documentos que resumen la situación económica de la empresa al final del año. <mark>Es como el informe final que resume cómo le ha ido a la empresa durante todo el año</mark>. Son obligatorias para la mayoría de empresas.",
+      "pregunta": "Son los documentos que resumen la situación económica de la empresa al final del año. Es como el informe final que resume cómo le ha ido a la empresa durante todo el año. Son obligatorios para la mayoría de empresas. ¿Cómo se llaman estos documentos?",
+      "respuesta": "<mark>Cuentas anuales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/informe-anual.jpg",
         "alt": "Un grafico financiero junto a montones de monedas apiladas",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante que la contabilidad esté siempre cuadrada?",
-      "respuesta": "Porque una contabilidad descuadrada indica que hay algún error en los registros. <mark>Es como si las cuentas de un juego no salieran: algo se ha anotado mal por el camino</mark>. Detectar esos errores a tiempo evita problemas legales.",
+      "pregunta": "Si las cuentas de una empresa no cuadran, es señal de que algo se ha anotado mal por el camino. Es como si las cuentas de un juego no salieran. Detectar esos errores a tiempo evita problemas legales. ¿Qué indica una contabilidad descuadrada?",
+      "respuesta": "<mark>Un error de registro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre un cargo y un abono en contabilidad?",
-      "respuesta": "El cargo se anota en la columna izquierda de una cuenta (debe); el abono, en la derecha (haber). <mark>Es como anotar entradas por un lado y salidas por otro, para no mezclarlas</mark>. Entender esa lógica es clave para aprender contabilidad.",
+      "pregunta": "En una cuenta contable, esta anotación va en la columna izquierda, llamada debe. Es lo contrario del abono, que va en la columna derecha. Entender esa lógica es clave para aprender contabilidad. ¿Cómo se llama la anotación de la izquierda?",
+      "respuesta": "<mark>Cargo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
@@ -196,8 +196,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué se dice que la contabilidad es el 'lenguaje de los negocios'?",
-      "respuesta": "Porque traduce toda la actividad de una empresa en cifras claras y comparables. <mark>Es como un idioma común que permite entender cómo le va a cualquier empresa</mark>. Gracias a ella, se puede comparar la situación de distintas empresas.",
+      "pregunta": "La contabilidad traduce toda la actividad de una empresa en cifras claras y comparables. Es como un idioma común que permite entender cómo le va a cualquier empresa. Gracias a ella se puede comparar la situación de distintas empresas. ¿Cómo se conoce popularmente a la contabilidad?",
+      "respuesta": "<mark>Lenguaje de los negocios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/reunion-negocios.jpg",
         "alt": "Personas reunidas discutiendo decisiones de negocio",
@@ -208,8 +208,8 @@
       }
     },
     {
-      "pregunta": "¿Qué utilidad tiene la contabilidad para la toma de decisiones de una empresa?",
-      "respuesta": "Permite conocer con datos reales si conviene invertir, ahorrar o pedir un préstamo. <mark>Es como consultar el estado de tu cuenta antes de decidir un gasto importante</mark>. Sin información contable fiable, las decisiones se tomarían casi a ciegas.",
+      "pregunta": "La contabilidad permite saber con datos reales si conviene invertir, ahorrar o pedir un préstamo. Es como consultar el estado de tu cuenta antes de decidir un gasto importante. Sin ella, las decisiones se tomarían casi a ciegas. ¿Qué te ayuda a tomar la contabilidad?",
+      "respuesta": "<mark>Decisiones informadas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/reunion-negocios.jpg",
         "alt": "Personas reunidas discutiendo decisiones de negocio",
@@ -220,8 +220,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un asiento contable?",
-      "respuesta": "Es el registro de una operación económica en el libro diario. <mark>Es como una entrada concreta que resume qué ha pasado y en qué cuentas se refleja</mark>. Cada asiento respeta siempre el método de la partida doble.",
+      "pregunta": "Es el registro de una operación económica en el libro diario. Es como una entrada concreta que resume qué ha pasado y en qué cuentas se refleja. Siempre respeta el método de la partida doble. ¿Cómo se llama este registro?",
+      "respuesta": "<mark>Asiento contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
@@ -232,8 +232,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué la técnica contable es una herramienta clave para un técnico en gestión administrativa?",
-      "respuesta": "Porque gran parte de las tareas administrativas de una empresa giran en torno a sus cuentas. <mark>Es como el hilo conductor que atraviesa casi todas las tareas de una oficina</mark>. Sin conocerla, sería difícil gestionar facturas, nóminas o impuestos.",
+      "pregunta": "Gran parte de las tareas administrativas de una oficina giran en torno a sus cuentas. Sin conocerla, sería difícil gestionar facturas, nóminas o impuestos. Es la base de casi cualquier trabajo de oficina. ¿Qué materia es clave para un técnico en gestión administrativa?",
+      "respuesta": "<mark>La técnica contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/calculadora-libro.jpg",
         "alt": "Calculadora y boligrafo sobre un libro de cuentas",

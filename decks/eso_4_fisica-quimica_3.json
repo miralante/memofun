@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es el enlace iónico?",
-      "respuesta": "Es la unión entre átomos que se forma al transferirse electrones de uno a otro. <mark>Es como si un átomo regalara un electrón y el otro lo aceptara agradecido</mark>. Se forma entre un metal y un no metal. La sal común es un ejemplo típico.",
+      "pregunta": "Es como si un átomo regalara un electrón y el otro lo aceptara. Se forma entre un metal y un no metal. La sal común es un ejemplo. ¿Cómo se llama esta unión entre átomos que transfieren electrones?",
+      "respuesta": "<mark>Enlace iónico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cristales-sal-roca.jpg",
         "alt": "Cristales de sal de roca, un ejemplo de compuesto iónico",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el enlace covalente?",
-      "respuesta": "Es la unión entre átomos que comparten electrones entre ellos. <mark>Es como si dos átomos se dieran la mano y compartieran algo entre los dos</mark>. Suele darse entre elementos no metálicos. El agua es un ejemplo de enlace covalente.",
+      "pregunta": "Es como si dos átomos se dieran la mano y compartieran algo entre los dos. Suele darse entre elementos no metálicos. El agua es un ejemplo. ¿Cómo se llama esta unión entre átomos que comparten electrones?",
+      "respuesta": "<mark>Enlace covalente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/molecula-acido-lactico.png",
         "alt": "Modelo de bolas y varillas de una molécula con enlaces covalentes",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el enlace metálico?",
-      "respuesta": "Es la unión característica entre átomos de un mismo metal. <mark>Es como una nube de electrones compartida libremente entre todos los átomos del metal</mark>. Esa nube explica por qué los metales conducen bien la electricidad.",
+      "pregunta": "Es como una nube de electrones compartida libremente entre todos los átomos del metal. Esa nube explica por qué los metales conducen bien la electricidad. ¿Cómo se llama esta unión característica entre átomos de un mismo metal?",
+      "respuesta": "<mark>Enlace metálico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cables-cobre-bobinas.jpg",
         "alt": "Bobinas de cable de cobre, un metal con enlace metálico",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué los compuestos iónicos suelen tener puntos de fusión altos?",
-      "respuesta": "Porque las cargas eléctricas opuestas se atraen con mucha fuerza entre sí. <mark>Es como una unión muy fuerte que cuesta romper solo con un poco de calor</mark>. Se necesita mucha energía para separar esos iones.",
+      "pregunta": "Las cargas eléctricas opuestas se atraen con mucha fuerza entre sí en estos compuestos. Se necesita mucha energía para separar sus iones. Por eso suelen tener puntos de fusión muy altos. ¿Qué tipo de enlace tienen estos compuestos?",
+      "respuesta": "<mark>Enlace iónico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/hierro-fundido-horno.jpg",
         "alt": "Hierro fundido a altísima temperatura en un horno",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el mol y para qué se usa?",
-      "respuesta": "Es la unidad que permite contar una cantidad enorme de partículas de una vez. <mark>Es como usar la palabra 'docena', pero para un número muchísimo más grande</mark>. Facilita trabajar con átomos y moléculas en cantidades manejables.",
+      "pregunta": "Es como usar la palabra 'docena', pero para un número muchísimo más grande. Facilita trabajar con átomos y moléculas en cantidades manejables. ¿Cómo se llama esta unidad que permite contar una cantidad enorme de partículas?",
+      "respuesta": "<mark>Mol</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/sala-balanzas-laboratorio.jpg",
         "alt": "Una sala de laboratorio con balanzas para pesar sustancias",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la constante de Avogadro?",
-      "respuesta": "Es el número de partículas que hay en un mol de cualquier sustancia. <mark>Es un número altísimo, siempre el mismo, sea cual sea la sustancia que midas</mark>. Permite relacionar el número de partículas con la masa de una sustancia.",
+      "pregunta": "Es un número altísimo, siempre el mismo, sea cual sea la sustancia que midas. Permite relacionar el número de partículas con la masa de una sustancia. Es el número de partículas que hay en un mol. ¿Cómo se llama este número?",
+      "respuesta": "<mark>Constante de Avogadro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/granos-arroz-poblacion.jpg",
         "alt": "Muchísimos granos de arroz representando una cantidad enorme",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre masa atómica y masa molar?",
-      "respuesta": "La masa atómica se refiere a un solo átomo; la masa molar, a un mol entero de esa sustancia. <mark>Es como comparar el peso de una moneda con el peso de un mol de esas mismas monedas</mark>. Ambas se relacionan mediante la constante de Avogadro.",
+      "pregunta": "La masa de un solo átomo tiene su propio nombre. La masa de un mol entero de esa sustancia tiene otro. Es como una moneda frente a un mol de monedas. ¿Cómo se llama esta segunda magnitud, la de un mol entero?",
+      "respuesta": "<mark>Masa molar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/balanza-electronica.jpg",
         "alt": "Una balanza electrónica para medir la masa de una sustancia",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la concentración molar de una disolución?",
-      "respuesta": "Indica cuántos moles de soluto hay disueltos en un litro de disolución. <mark>Es como medir cuánto azúcar hay disuelto exactamente en un litro de agua</mark>. Es fundamental para preparar disoluciones con precisión.",
+      "pregunta": "Es como medir cuánto azúcar hay disuelto exactamente en un litro de agua. Indica cuántos moles de soluto hay disueltos en un litro de disolución. Es fundamental para preparar disoluciones con precisión. ¿Cómo se llama esta medida?",
+      "respuesta": "<mark>Concentración molar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/vasos-precipitados-laboratorio.jpg",
         "alt": "Vasos de precipitados y probetas con disoluciones de colores",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la ley general de los gases?",
-      "respuesta": "Relaciona la presión, el volumen y la temperatura de un gas en una sola ecuación. <mark>Es como una fórmula que combina las distintas leyes de los gases en una sola herramienta</mark>. Se usa en química, meteorología e ingeniería.",
+      "pregunta": "Es como una fórmula que junta las distintas leyes de los gases en una sola. Une presión, volumen y temperatura en una sola ecuación. Sirve en química, meteorología e ingeniería. ¿Cómo se llama esta ecuación conjunta?",
+      "respuesta": "<mark>Ley general de los gases</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/matraces-laboratorio.jpg",
         "alt": "Matraces de laboratorio con líquidos de colores, ejemplo de disoluciones",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué papel juegan las disoluciones en la química y en la vida diaria?",
-      "respuesta": "Permiten mezclar sustancias de forma homogénea, facilitando muchas reacciones. <mark>Muchos procesos químicos, e incluso biológicos, ocurren dentro de una disolución</mark>. El suero fisiológico o el agua del mar son ejemplos comunes.",
+      "pregunta": "El suero fisiológico o el agua del mar son ejemplos comunes de esto. Permiten mezclar sustancias de forma homogénea, facilitando muchas reacciones. Muchos procesos químicos, e incluso biológicos, ocurren dentro de ellas. ¿Cómo se llama este tipo de mezcla homogénea?",
+      "respuesta": "<mark>Disolución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cafe-con-azucar.jpg",
         "alt": "Café con azúcar disolviéndose en el líquido",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la nomenclatura inorgánica según la IUPAC?",
-      "respuesta": "Es el sistema oficial de reglas para nombrar los compuestos químicos inorgánicos. <mark>Es como un diccionario internacional para que cualquier científico entienda el mismo nombre igual</mark>. Gracias a ella, un compuesto se llama igual en todo el mundo.",
+      "pregunta": "Es como un diccionario internacional para que cualquier científico entienda el mismo nombre igual. Gracias a ella, un compuesto se llama igual en todo el mundo. ¿Cómo se llama este sistema oficial de reglas para nombrar compuestos?",
+      "respuesta": "<mark>Nomenclatura IUPAC</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/etiqueta-corrosivo-toxico.jpg",
         "alt": "Una etiqueta de producto químico con su nombre y símbolos de peligro",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante seguir reglas comunes para nombrar los compuestos químicos?",
-      "respuesta": "Porque evita confusiones al hablar de sustancias con nombres parecidos. <mark>Es como tener un único mapa de carreteras, en vez de uno distinto por cada país</mark>. Facilita la comunicación científica entre personas de distintos idiomas.",
+      "pregunta": "Es como tener un único mapa de carreteras, en vez de uno distinto por cada país. Seguir estas reglas comunes evita confusiones al hablar de sustancias con nombres parecidos. Facilita la comunicación científica entre personas de distintos idiomas. ¿Cómo se llama este sistema de reglas?",
+      "respuesta": "<mark>Nomenclatura IUPAC</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/set-quimica-vintage.jpg",
         "alt": "Un set de química con muchos frascos etiquetados",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre el tipo de enlace y las propiedades de un compuesto?",
-      "respuesta": "El tipo de enlace determina si un compuesto conduce electricidad, se disuelve fácilmente o resiste el calor. <mark>Es como decir que la forma en que se unen las piezas determina cómo se comporta el conjunto</mark>. Es clave en el diseño de nuevos materiales.",
+      "pregunta": "Es como decir que la forma en que se unen las piezas determina cómo se comporta el conjunto. Este tipo de unión determina si un compuesto conduce electricidad, se disuelve o resiste el calor. Es clave en el diseño de nuevos materiales. ¿Cómo se llama, en general, esta unión entre átomos?",
+      "respuesta": "<mark>Enlace químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/rocas-minerales.jpg",
         "alt": "Rocas y minerales, ejemplos de distintos tipos de enlace y estructura",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué algunos compuestos se disuelven bien en agua y otros no?",
-      "respuesta": "Depende de si sus enlaces son compatibles con la forma en que el agua interactúa con otras sustancias. <mark>Es un poco como que 'lo parecido disuelve a lo parecido'</mark>. Las sustancias iónicas suelen disolverse bien; los aceites, apenas.",
+      "pregunta": "El aceite y el vinagre no se mezclan bien en una botella de aderezo. Las sustancias iónicas suelen disolverse bien en agua; los aceites, apenas. Depende de si sus enlaces son compatibles con el agua. ¿Cómo se llama esta capacidad de una sustancia para disolverse en otra?",
+      "respuesta": "<mark>Solubilidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/aceite-vinagre-aderezo.jpg",
         "alt": "Aceite y vinagre sin mezclarse en una botella de aderezo",

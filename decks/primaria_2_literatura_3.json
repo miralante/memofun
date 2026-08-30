@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Quién es el protagonista de un cuento?",
-      "respuesta": "Es el personaje principal, al que le pasan las cosas más importantes. <mark>La historia se cuenta siempre siguiéndole a él o ella</mark>. Por ejemplo, en Caperucita Roja, ella es la protagonista. Sin protagonista no habría a quién seguir.",
+      "pregunta": "Es el personaje principal de un cuento, al que le pasan las cosas más importantes. La historia se cuenta siempre siguiéndole. Caperucita Roja, por ejemplo, es este personaje en su cuento. ¿Cómo se llama este personaje?",
+      "respuesta": "<mark>El protagonista</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/protagonista-caperucita.jpg",
         "alt": "Una figura de Caperucita Roja, con capa roja y una cesta con una botella, el personaje principal del cuento",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Quién es el antagonista de un cuento?",
-      "respuesta": "Es el personaje que se opone al protagonista. <mark>Le pone problemas, como un obstáculo en su camino</mark>. Por ejemplo, el lobo es el antagonista de Caperucita. Sin antagonista, la historia no tendría ningún problema que resolver.",
+      "pregunta": "Es el personaje que se opone al protagonista. Le pone problemas, como un obstáculo en su camino. El lobo, por ejemplo, es este personaje en Caperucita. ¿Cómo se llama este personaje?",
+      "respuesta": "<mark>El antagonista</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/antagonista-lobo.jpg",
         "alt": "Un lobo gris tumbado entre la hierba, mirando fijamente a la cámara",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el conflicto de un cuento?",
-      "respuesta": "Es el problema que tiene que resolver el protagonista. <mark>Es el motor que hace avanzar toda la historia</mark>. Por ejemplo, encontrar el camino a casa perdido en el bosque. Sin conflicto, el cuento no tendría nada que contar.",
+      "pregunta": "Es el problema que tiene que resolver el protagonista. Es el motor que hace avanzar toda la historia. Por ejemplo, encontrar el camino a casa estando perdido. ¿Cómo se llama este problema central?",
+      "respuesta": "<mark>El conflicto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-niebla.jpg",
         "alt": "Un camino estrecho entre árboles altos, cubierto de niebla, como si alguien se pudiera perder allí",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el desenlace de un cuento?",
-      "respuesta": "Es la parte final, donde se resuelve el problema. <mark>Cierra la historia, como cerrar la puerta al salir</mark>. Puede terminar bien o mal para el protagonista. Pero siempre responde qué pasó al final.",
+      "pregunta": "Es la parte final de un cuento, donde se resuelve el problema. Cierra la historia, como cerrar la puerta al salir. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta parte final?",
+      "respuesta": "<mark>El desenlace</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/puerta-cerrada.jpg",
         "alt": "Una puerta verde cerrada, con unos escalones de piedra delante, como el final de un camino",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una colección de cuentos?",
-      "respuesta": "Es un libro con varios cuentos juntos, distintos entre sí. <mark>Es como una caja con caramelos de sabores diferentes</mark>. Puedes leer uno cada vez, sin seguir un orden. Cada cuento tiene su propia historia completa.",
+      "pregunta": "Es un libro con varios cuentos juntos, distintos entre sí. Es como una caja con caramelos de sabores diferentes. Puedes leer uno cada vez, sin seguir un orden. ¿Cómo se llama este tipo de libro?",
+      "respuesta": "<mark>Colección de cuentos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/caja-caramelos.jpg",
         "alt": "Una caja de bombones con muchos sabores distintos, cada uno en su propio hueco",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué hace que un cuento dé un poco de miedo?",
-      "respuesta": "Un misterio o un lugar oscuro que inquieta un poco. <mark>Es como cuando se apagan las luces y todo suena distinto</mark>. Aun así, suele terminar bien para el protagonista. Ese pequeño susto forma parte de la diversión de leer.",
+      "pregunta": "Esto hace que un cuento dé un poco de miedo. Es como cuando se apagan las luces y todo suena distinto. Aun así, el cuento suele terminar bien. ¿Qué es lo que da ese pequeño susto?",
+      "respuesta": "<mark>Un misterio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-noche.jpg",
         "alt": "Árboles oscuros de noche, con la luna asomando entre las nubes",

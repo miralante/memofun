@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una saga de libros?",
-      "respuesta": "Es una serie de libros que siguen la misma historia. <mark>Cada libro añade una nueva parte a la aventura</mark>. Los mismos personajes continúan de un libro a otro. Por eso conviene leerlos en orden.",
+      "pregunta": "Es una serie de libros que siguen la misma historia. Cada libro añade una nueva parte a la aventura. Los mismos personajes continúan de un libro a otro. ¿Cómo se llama esta serie de libros?",
+      "respuesta": "<mark>Saga</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/saga-libros.jpg",
         "alt": "Una torre alta de libros apilados, uno encima de otro, con un libro abierto en la cima",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una trilogía?",
-      "respuesta": "Es una saga formada exactamente por tres libros. <mark>Los tres cuentan una sola historia, dividida en tres partes</mark>. Suele tener principio, desarrollo y final repartidos entre ellos. No toda saga es una trilogía, pero toda trilogía es una saga.",
+      "pregunta": "Es una saga formada exactamente por tres libros. Los tres cuentan una sola historia, dividida en tres partes. No toda saga es así, pero esto siempre es una saga. ¿Cómo se llama esta saga de tres libros?",
+      "respuesta": "<mark>Trilogía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/trilogia-tres-libros.jpg",
         "alt": "Tres libros apilados, cada uno con su propio título visible en el lomo",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué hace el ilustrador de un libro, a diferencia del autor?",
-      "respuesta": "El autor escribe las palabras de la historia. <mark>El ilustrador dibuja las imágenes que la acompañan</mark>. A veces son la misma persona, y a veces no. Juntos forman el libro completo que lees.",
+      "pregunta": "El autor escribe las palabras de la historia. Esta otra persona dibuja las imágenes que la acompañan. A veces son la misma persona, y a veces no. ¿Cómo se llama quien hace los dibujos del libro?",
+      "respuesta": "<mark>El ilustrador</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/ilustrador-pinceles.jpg",
         "alt": "Pinceles de pintar y una espátula, llenos de pintura de colores, sobre una mesa manchada de pintura",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la sinopsis de un libro?",
-      "respuesta": "Es un resumen corto de qué trata el libro. <mark>Suele estar en la contraportada, para ayudarte a elegir</mark>. No cuenta el final, para no destripar la sorpresa. Leerla te ayuda a saber si te interesa el libro.",
+      "pregunta": "Es un resumen corto de qué trata un libro. Suele estar en la contraportada, para ayudarte a elegir. No cuenta el final, para no destripar la sorpresa. ¿Cómo se llama este resumen?",
+      "respuesta": "<mark>Sinopsis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/sinopsis-contraportada.jpg",
         "alt": "Contraportada de un libro antiguo, con un texto que resume la historia",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencian un cuento y una novela?",
-      "respuesta": "El cuento es corto y se lee de una sentada. <mark>La novela es larga y se divide en capítulos</mark>. La novela tiene tiempo para más personajes y tramas. El cuento va directo, sin tantos detalles.",
+      "pregunta": "Un cuento es corto y se lee de una sentada. Esta otra historia es larga y se divide en capítulos. Tiene tiempo para más personajes y tramas. ¿Cómo se llama esta historia larga?",
+      "respuesta": "<mark>Novela</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/novela-libro-grueso.jpg",
         "alt": "Un libro muy grueso, de pie, con un marcapáginas colgando entre sus páginas",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una editorial?",
-      "respuesta": "Es la empresa que revisa, imprime y publica los libros. <mark>Decide qué libros llegan a las librerías</mark>. Trabaja con el autor y el ilustrador antes de publicar. Sin editorial, un libro no llegaría a tus manos.",
+      "pregunta": "Es la empresa que revisa, imprime y publica los libros. Decide qué libros llegan a las librerías. Trabaja con el autor y el ilustrador antes de publicar. ¿Cómo se llama esta empresa?",
+      "respuesta": "<mark>Editorial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/editorial-imprenta.jpg",
         "alt": "Una máquina de imprenta imprimiendo una página con letras y un dibujo",

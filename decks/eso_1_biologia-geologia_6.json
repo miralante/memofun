@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una dieta equilibrada?",
-      "respuesta": "Es una alimentación que combina distintos tipos de alimentos en proporciones adecuadas. <mark>Es como un puzle donde cada pieza aporta algo distinto y necesario</mark>. Incluye frutas, verduras, proteínas y cereales, entre otros. Comer variado ayuda al cuerpo a funcionar mejor cada día.",
+      "pregunta": "Es una alimentación que combina distintos tipos de alimentos en proporciones adecuadas. Es como un puzle donde cada pieza aporta algo distinto y necesario. Incluye frutas, verduras, proteínas y cereales, entre otros. ¿Cómo se llama este tipo de alimentación?",
+      "respuesta": "<mark>Dieta equilibrada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/cena-saludable.jpg",
         "alt": "Un plato de comida variada y saludable",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los nutrientes?",
-      "respuesta": "Son las sustancias de los alimentos que el cuerpo necesita para funcionar. <mark>Son como el combustible y los materiales de construcción de tu propio cuerpo</mark>. Incluyen proteínas, grasas, hidratos de carbono, vitaminas y minerales. Cada uno cumple una función distinta en el organismo.",
+      "pregunta": "Son las sustancias de los alimentos que el cuerpo necesita para funcionar. Son como el combustible y los materiales de construcción de tu propio cuerpo. Incluyen proteínas, grasas, hidratos de carbono, vitaminas y minerales. ¿Cómo se llaman estas sustancias?",
+      "respuesta": "<mark>Nutrientes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/frutas-verduras.jpg",
         "alt": "Variedad de frutas y verduras diferentes",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un trastorno alimentario?",
-      "respuesta": "Es un problema de salud relacionado con la forma de comer o de verse a uno mismo. <mark>No es solo 'comer mal': afecta también a las emociones y a la autoestima</mark>. Puede estar influido por presiones sociales sobre la imagen corporal. Pedir ayuda a tiempo es fundamental para superarlo.",
+      "pregunta": "Es un problema de salud relacionado con la forma de comer o de verse a uno mismo. No es solo 'comer mal': afecta también a las emociones y a la autoestima. Pedir ayuda a tiempo es fundamental para superarlo. ¿Cómo se llama este problema de salud?",
+      "respuesta": "<mark>Trastorno alimentario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/apoyo-conversacion.jpg",
         "alt": "Dos personas hablando y apoyándose",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué influyen las redes sociales en cómo nos vemos a nosotros mismos?",
-      "respuesta": "Porque muestran muchas imágenes que no siempre reflejan la realidad. <mark>Es fácil compararse con fotos retocadas y sentir que uno no encaja</mark>. Esa comparación constante puede afectar a la autoestima. Mirarlas con sentido crítico ayuda a cuidar la salud mental.",
+      "pregunta": "Las redes sociales muestran muchas imágenes que no siempre reflejan la realidad. Es fácil compararse con fotos retocadas y sentir que uno no encaja. Mirarlas con sentido crítico ayuda a cuidar la salud mental. ¿Qué puede verse afectado por esas comparaciones constantes?",
+      "respuesta": "<mark>La autoestima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/movil-redes.jpg",
         "alt": "Una persona mirando el móvil y las redes sociales",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa la igualdad en las relaciones afectivas?",
-      "respuesta": "Significa que ambas personas tienen el mismo valor y los mismos derechos en la relación. <mark>Es como repartir siempre a partes iguales, sin que nadie mande más que el otro</mark>. Incluye respetar los sentimientos, los límites y las decisiones del otro. Una relación sana se construye sobre esa base.",
+      "pregunta": "Significa que ambas personas tienen el mismo valor y los mismos derechos en la relación. Es como repartir siempre a partes iguales, sin que nadie mande más que el otro. Incluye respetar los sentimientos, los límites y las decisiones del otro. ¿Cómo se llama esto en una relación?",
+      "respuesta": "<mark>Igualdad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/pareja-igualdad.jpg",
         "alt": "Una pareja pasando tiempo juntos por igual",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante hablar con naturalidad sobre afectividad y sexualidad?",
-      "respuesta": "Porque ayuda a entender mejor las propias emociones y a relacionarse con respeto. <mark>Es un tema tan normal como cualquier otro relacionado con la salud</mark>. Hablarlo con naturalidad evita mitos y desinformación. Contar con información fiable ayuda a decidir con más seguridad.",
+      "pregunta": "Ayuda a entender mejor las propias emociones y a relacionarse con respeto. Es un tema tan normal como cualquier otro relacionado con la salud. Hablarlo con naturalidad evita mitos y desinformación. ¿Qué tipo de información ayuda a decidir con más seguridad sobre esto?",
+      "respuesta": "<mark>Información fiable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/profesor-alumno.jpg",
         "alt": "Un profesor y un alumno hablando con confianza",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué efectos tiene el alcohol en el cuerpo?",
-      "respuesta": "Afecta al sistema nervioso, alterando reflejos, juicio y coordinación. <mark>Es como intentar conducir con la vista nublada, sin darte cuenta del todo</mark>. Su consumo prolongado puede dañar seriamente órganos como el hígado. Por eso está limitado, sobre todo entre menores de edad.",
+      "pregunta": "Afecta al sistema nervioso, alterando reflejos, juicio y coordinación. Es como intentar conducir con la vista nublada, sin darte cuenta del todo. Su consumo prolongado puede dañar seriamente órganos como el hígado. ¿Qué sustancia produce estos efectos en el cuerpo?",
+      "respuesta": "<mark>Alcohol</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/cerveza.jpg",
         "alt": "Una bebida alcohólica en un vaso",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué efectos tiene el tabaco en el cuerpo?",
-      "respuesta": "Daña los pulmones y el sistema circulatorio con el paso del tiempo. <mark>Es como llenar de humo, poco a poco, un espacio pensado para respirar limpio</mark>. Contiene sustancias que generan una fuerte dependencia. Dejar de fumar mejora la salud incluso años después de empezar.",
+      "pregunta": "Daña los pulmones y el sistema circulatorio con el paso del tiempo. Es como llenar de humo, poco a poco, un espacio pensado para respirar limpio. Contiene sustancias que generan una fuerte dependencia. ¿Qué sustancia produce estos efectos en el cuerpo?",
+      "respuesta": "<mark>Tabaco</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/humo-cigarrillo.jpg",
         "alt": "Humo de un cigarrillo en el aire",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué son peligrosas las drogas ilegales?",
-      "respuesta": "Porque alteran el funcionamiento del cerebro y del cuerpo de forma imprevisible. <mark>Es como jugar con las reglas de tu propio cuerpo sin saber cuáles son</mark>. Pueden generar una dependencia difícil de superar. Sus efectos varían mucho de una persona a otra, siendo siempre peligrosos.",
+      "pregunta": "Alteran el funcionamiento del cerebro y del cuerpo de forma imprevisible. Es como jugar con las reglas de tu propio cuerpo sin saber cuáles son. Sus efectos varían mucho de una persona a otra, siendo siempre peligrosos. ¿Qué generan estas sustancias, difícil de superar por uno mismo?",
+      "respuesta": "<mark>Dependencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/senal-peligro.jpg",
         "alt": "Rayas amarillas y negras de aviso de peligro",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre los hábitos saludables y el rendimiento académico?",
-      "respuesta": "Dormir bien, comer sano y hacer ejercicio ayudan a concentrarse mejor. <mark>Es como cuidar el motor de un coche para que rinda mejor en la carretera</mark>. Un cuerpo descansado y bien alimentado piensa con más claridad. Cuidar la salud también ayuda a estudiar mejor.",
+      "pregunta": "Dormir bien, comer sano y hacer ejercicio ayudan a concentrarse mejor. Es como cuidar el motor de un coche para que rinda mejor en la carretera. Un cuerpo descansado y bien alimentado piensa con más claridad. ¿Qué mejora gracias a estos hábitos saludables?",
+      "respuesta": "<mark>La concentración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/estudiante-estudiando.jpg",
         "alt": "Un estudiante estudiando concentrado",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué papel tiene el descanso en la salud física y mental?",
-      "respuesta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <mark>Es como recargar una batería que se ha ido gastando durante el día</mark>. Dormir mal afecta al humor, la memoria y la concentración. Un buen descanso es tan importante como comer bien.",
+      "pregunta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. Es como recargar una batería que se ha ido gastando durante el día. Dormir mal afecta al humor, la memoria y la concentración. ¿Qué actividad diaria cumple este papel tan importante?",
+      "respuesta": "<mark>Dormir bien</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/descanso-sueno.jpg",
         "alt": "Una persona descansando y durmiendo",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué cuidar la salud es también cuidar la salud mental y social?",
-      "respuesta": "Porque la salud no es solo física: también incluye cómo te sientes y te relacionas. <mark>Es como un taburete con tres patas: si falta una, todo se desequilibra</mark>. Sentirse bien con uno mismo y con los demás forma parte de estar sano. Hoy se entiende la salud de forma más completa.",
+      "pregunta": "La salud no es solo física: también incluye cómo te sientes y cómo te relacionas con los demás. Es como un taburete con tres patas: si falta una, todo se desequilibra. Sentirse bien con uno mismo forma parte de estar sano. ¿Qué dos tipos de salud se suman a la física, según esta idea?",
+      "respuesta": "<mark>Salud mental y social</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/taburete.jpg",
         "alt": "Un taburete de madera con tres patas",

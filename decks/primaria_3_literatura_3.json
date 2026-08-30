@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una fábula?",
-      "respuesta": "Es un cuento corto con animales que actúan como personas. <mark>Casi siempre termina con una enseñanza para la vida</mark>. Esa enseñanza se llama moraleja. Muchas fábulas hablan de la pereza o la generosidad.",
+      "pregunta": "Es un cuento corto con animales que actúan como personas. Casi siempre termina con una enseñanza para la vida. Muchas hablan de la pereza o la generosidad. ¿Cómo se llama este tipo de cuento?",
+      "respuesta": "<mark>Fábula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/fabula-zorro-cuervo.jpg",
         "alt": "Dibujo de un zorro mirando hacia arriba a un cuervo, posado en un árbol, con queso en el pico",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la moraleja de una fábula?",
-      "respuesta": "Es la enseñanza que deja la fábula al terminar. <mark>Es como un consejo escondido dentro de la historia</mark>. Por ejemplo: hay que prepararse antes de que llegue el frío. Sin moraleja, sería solo un cuento con animales.",
+      "pregunta": "Es la enseñanza que deja una fábula al terminar. Es como un consejo escondido dentro de la historia. Por ejemplo: hay que prepararse antes de que llegue el frío. ¿Cómo se llama esta enseñanza?",
+      "respuesta": "<mark>Moraleja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/moraleja-liebre-tortuga.jpg",
         "alt": "Grabado antiguo de una liebre y una tortuga en una carrera, con un zorro observando entre los árboles",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué le pasa a la cigarra por no prepararse para el invierno?",
-      "respuesta": "La cigarra canta todo el verano sin guardar comida. <mark>Cuando llega el invierno, no tiene nada que comer</mark>. La hormiga, en cambio, había trabajado guardando alimento. La fábula enseña que prepararse a tiempo importa.",
+      "pregunta": "La cigarra canta todo el verano sin guardar comida. La hormiga, en cambio, trabaja guardando alimento. Llega el invierno y la cigarra tiene un problema. ¿Qué le pasa a la cigarra en invierno?",
+      "respuesta": "<mark>No tiene nada que comer</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/cigarra-hormiga.jpg",
         "alt": "Ilustración antigua de un saltamontes tocando música junto a una hormiga pequeña, en un bosque",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un cuento fantástico?",
-      "respuesta": "Es un cuento con cosas que no existen en la vida real. <mark>Dragones, hadas o magia forman parte de su mundo</mark>. Por eso puede pasar lo que quiera el autor. Es distinto a un cuento sobre la vida diaria.",
+      "pregunta": "Es un cuento con cosas que no existen en la vida real. Dragones, hadas o magia forman parte de su mundo. Por eso puede pasar lo que quiera el autor. ¿Cómo se llama este tipo de cuento?",
+      "respuesta": "<mark>Cuento fantástico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/cuento-fantastico-dragon.jpg",
         "alt": "Dibujo de una cabeza de dragón negra con la boca abierta, dientes afilados y garras",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un elemento mágico en un cuento?",
-      "respuesta": "Es algo que rompe las normas del mundo real. <mark>Una alfombra que vuela o una poción que cambia a alguien</mark>. Ayuda a resolver problemas de forma sorprendente. Sin magia, la historia sería mucho más normal.",
+      "pregunta": "Es algo que rompe las normas del mundo real dentro de un cuento. Una alfombra que vuela o una poción que cambia a alguien. Ayuda a resolver problemas de forma sorprendente. ¿Cómo se llama esto?",
+      "respuesta": "<mark>Elemento mágico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/elemento-magico-lampara.webp",
         "alt": "Dibujo de una lámpara mágica con humo saliendo, como la del genio de los cuentos",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una aventura en un cuento?",
-      "respuesta": "Es un viaje o un reto fuera de lo normal. <mark>El protagonista sale de su rutina para vivir algo distinto</mark>. Por el camino, suele encontrar peligros y sorpresas. Al volver, ya no es el mismo de antes.",
+      "pregunta": "Es un viaje o un reto fuera de lo normal. El protagonista sale de su rutina para vivir algo distinto. Por el camino encuentra peligros y sorpresas. ¿Cómo se llama esto que vive?",
+      "respuesta": "<mark>Una aventura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/aventura-mapa-tesoro.webp",
         "alt": "Dibujo de un mapa del tesoro enrollado, con una brújula y un camino punteado hasta una X",

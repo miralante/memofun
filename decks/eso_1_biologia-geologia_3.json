@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué son los cinco reinos de los seres vivos?",
-      "respuesta": "Es la clasificación que agrupa a todos los seres vivos en cinco grandes grupos. <mark>Es como ordenar todos los seres vivos del planeta en cinco grandes cajones</mark>. Incluyen bacterias, protoctistas, hongos, plantas y animales. Ayuda a estudiar mejor la enorme diversidad de vida.",
+      "pregunta": "Es la clasificación que agrupa a todos los seres vivos en cinco grandes grupos. Es como ordenar todos los seres vivos del planeta en cinco grandes cajones. Incluyen bacterias, protoctistas, hongos, plantas y animales. ¿Cómo se llama esta clasificación?",
+      "respuesta": "<mark>Los cinco reinos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/corchos-clasificados.jpg",
         "alt": "Corchos organizados por color en grupos",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué caracteriza al reino de las bacterias?",
-      "respuesta": "Está formado por organismos unicelulares muy sencillos y sin núcleo. <mark>Son tan pequeñas que millones de ellas caben en la punta de un alfiler</mark>. Viven prácticamente en cualquier ambiente del planeta. Algunas son beneficiosas; otras pueden causar enfermedades.",
+      "pregunta": "Está formado por organismos unicelulares muy sencillos y sin núcleo. Son tan pequeñas que millones de ellas caben en la punta de un alfiler. Viven prácticamente en cualquier ambiente del planeta. ¿Qué reino de seres vivos es este?",
+      "respuesta": "<mark>Reino de las bacterias</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/bacterias-colonia.jpg",
         "alt": "Una colonia de bacterias vista de cerca",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué caracteriza al reino de los hongos?",
-      "respuesta": "Incluye setas, mohos y levaduras, que no fabrican su propio alimento. <mark>Se alimentan absorbiendo nutrientes de otros seres vivos o de materia en descomposición</mark>. No son ni animales ni plantas, aunque a veces se confunden. Ayudan a descomponer materia orgánica en la naturaleza.",
+      "pregunta": "Incluye setas, mohos y levaduras, que no fabrican su propio alimento. Se alimentan absorbiendo nutrientes de otros seres vivos o de materia en descomposición. No son ni animales ni plantas, aunque a veces se confunden. ¿Qué reino de seres vivos es este?",
+      "respuesta": "<mark>Reino de los hongos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/seta-hongo.jpg",
         "alt": "Una seta creciendo en el bosque",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la nutrición autótrofa?",
-      "respuesta": "Es la capacidad de fabricar el propio alimento a partir de sustancias simples. <mark>Es como cocinar tu propia comida usando solo luz, agua y aire</mark>. Las plantas la realizan mediante la fotosíntesis. Gracias a ella, no necesitan comer otros seres vivos.",
+      "pregunta": "Es la capacidad de fabricar el propio alimento a partir de sustancias simples. Es como cocinar tu propia comida usando solo luz, agua y aire. Las plantas la realizan mediante la fotosíntesis. ¿Cómo se llama este tipo de nutrición?",
+      "respuesta": "<mark>Nutrición autótrofa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/hojas-castano.jpg",
         "alt": "Hojas verdes iluminadas por la luz del sol",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la nutrición heterótrofa?",
-      "respuesta": "Es la necesidad de alimentarse de otros seres vivos para obtener energía. <mark>Es como tener que comprar la comida ya hecha, en vez de cultivarla tú mismo</mark>. Los animales y los hongos tienen este tipo de nutrición. No fabrican su propio alimento como las plantas.",
+      "pregunta": "Es la necesidad de alimentarse de otros seres vivos para obtener energía. Es como tener que comprar la comida ya hecha, en vez de cultivarla tú mismo. Los animales y los hongos tienen este tipo de nutrición. ¿Cómo se llama este tipo de nutrición?",
+      "respuesta": "<mark>Nutrición heterótrofa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/plato-comida.jpg",
         "alt": "Un plato de comida preparado",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué papel cumplen las plantas en los ecosistemas?",
-      "respuesta": "Producen oxígeno y alimento a partir de la luz solar. <mark>Son como la base de una pirámide que sostiene a casi toda la vida del ecosistema</mark>. Sin plantas, la mayoría de los animales no tendrían qué comer. Por eso se las considera productores en la cadena alimentaria.",
+      "pregunta": "Producen oxígeno y alimento a partir de la luz solar. Son como la base de una pirámide que sostiene a casi toda la vida del ecosistema. Sin ellas, la mayoría de los animales no tendrían qué comer. ¿Qué papel cumplen las plantas en la cadena alimentaria?",
+      "respuesta": "<mark>Productores</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/arbol-haya.jpg",
         "alt": "Un gran árbol haya, base de un ecosistema forestal",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia a los animales vertebrados de los invertebrados?",
-      "respuesta": "Los vertebrados tienen columna vertebral; los invertebrados, no. <mark>Es como tener o no tener un armazón interno que sostiene el cuerpo</mark>. Peces, aves y mamíferos son vertebrados. Insectos, medusas y gusanos son invertebrados.",
+      "pregunta": "Un grupo de animales tiene columna vertebral, un armazón interno que sostiene el cuerpo. El otro grupo no la tiene. Peces, aves y mamíferos pertenecen a uno; insectos, medusas y gusanos, al otro. ¿Cómo se llama cada grupo?",
+      "respuesta": "<mark>Vertebrados e invertebrados</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/arana-saltarina.jpg",
         "alt": "Una araña, ejemplo de animal invertebrado",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué grupos de animales vertebrados existen?",
-      "respuesta": "Peces, anfibios, reptiles, aves y mamíferos. <mark>Cada grupo tiene características propias, como respirar con branquias o con pulmones</mark>. Todos comparten tener columna vertebral. Esa clasificación ayuda a entender mejor sus diferencias.",
+      "pregunta": "Todos comparten tener columna vertebral, pero se dividen en varios grupos distintos. Cada grupo tiene características propias, como respirar con branquias o con pulmones. Esa clasificación ayuda a entender mejor sus diferencias. ¿Cuáles son estos cinco grupos de vertebrados?",
+      "respuesta": "<mark>Peces, anfibios, reptiles, aves y mamíferos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/pirana-pez.jpg",
         "alt": "Un pez con escamas de colores, un animal vertebrado",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué se dice que los animales son seres capaces de sentir?",
-      "respuesta": "Porque tienen sistema nervioso y pueden percibir su entorno. <mark>Un perro que se asusta con un ruido está sintiendo algo, igual que una persona</mark>. Esa capacidad varía mucho según el tipo de animal. Reconocerla ayuda a tratar a los animales con más respeto.",
+      "pregunta": "Los animales tienen sistema nervioso y pueden percibir lo que ocurre a su alrededor. Un perro que se asusta con un ruido está sintiendo algo, igual que una persona. Reconocer esa capacidad ayuda a tratar a los animales con más respeto. ¿Qué sistema del cuerpo les permite sentir así?",
+      "respuesta": "<mark>Sistema nervioso</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/perro-asustado.jpg",
         "alt": "Un perro asustado",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las especies endémicas?",
-      "respuesta": "Son especies que solo existen de forma natural en un lugar concreto del planeta. <mark>Es como un plato típico que solo se cocina en un único pueblo del mundo</mark>. Suelen ser especialmente vulnerables si su hábitat se destruye. Muchas islas tienen especies endémicas únicas.",
+      "pregunta": "Son especies que solo existen de forma natural en un lugar concreto del planeta. Es como un plato típico que solo se cocina en un único pueblo del mundo. Muchas islas tienen especies así, únicas en el mundo. ¿Cómo se llaman estas especies?",
+      "respuesta": "<mark>Especies endémicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/tortuga-galapagos.jpg",
         "alt": "Una tortuga gigante de Galápagos, especie endémica",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué hay especies en peligro de extinción?",
-      "respuesta": "Porque pierden su hábitat, sufren caza excesiva o contaminación. <mark>Es como quitarle a alguien su casa, su comida y su seguridad al mismo tiempo</mark>. Cuando una especie desaparece, no puede recuperarse nunca. Protegerlas a tiempo es la única forma de evitarlo.",
+      "pregunta": "Pierden su hábitat, sufren caza excesiva o contaminación. Es como quitarle a alguien su casa, su comida y su seguridad al mismo tiempo. Cuando esto ocurre del todo, la especie no puede recuperarse nunca. ¿Cómo se llama a una especie en esta situación tan grave?",
+      "respuesta": "<mark>En peligro de extinción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/gato-andino-peligro.jpg",
         "alt": "El gato andino, una especie salvaje en peligro de extinción",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante observar especies representativas del entorno cercano?",
-      "respuesta": "Porque ayuda a conocer y valorar la naturaleza que nos rodea cada día. <mark>Es más fácil cuidar algo que conoces de cerca que algo lejano y desconocido</mark>. Muchas veces hay especies interesantes muy cerca de casa. Esa observación complementa lo que se aprende en libros.",
+      "pregunta": "Es más fácil cuidar algo que conoces de cerca que algo lejano y desconocido. Muchas veces hay especies interesantes muy cerca de casa. Esa observación complementa lo que se aprende en los libros. ¿Qué actividad al aire libre ayuda a conocerlas mejor?",
+      "respuesta": "<mark>Observar la naturaleza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/senderismo-naturaleza.jpg",
         "alt": "Una persona haciendo senderismo observando la naturaleza",

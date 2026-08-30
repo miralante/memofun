@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es un poema?",
-      "respuesta": "Es un texto escrito en versos, no en frases seguidas. <mark>Cada línea es un verso, como un renglón especial</mark>. Muchas veces los versos riman entre ellos. Se lee distinto a un cuento, con más ritmo.",
+      "pregunta": "Es un texto escrito en versos, no en frases seguidas. Cada línea es un verso, como un renglón especial. Se lee distinto a un cuento, con más ritmo. ¿Cómo se llama este tipo de texto?",
+      "respuesta": "<mark>Poema</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/libro-poemas.jpg",
         "alt": "Un libro de poemas para niños, de pie, junto a un cartel con palabras como rima y limerick",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una canción infantil?",
-      "respuesta": "Es un poema pensado para cantarse, no solo leerse. <mark>La música ayuda a recordar las palabras más fácilmente</mark>. Muchas se cantan jugando o en corro. Se transmiten de generación en generación.",
+      "pregunta": "Es un poema pensado para cantarse, no solo leerse. La música ayuda a recordar las palabras más fácilmente. Muchas se cantan jugando o en corro. ¿Cómo se llama este tipo de poema?",
+      "respuesta": "<mark>Canción infantil</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/cancion-infantil-corro.jpg",
         "alt": "Foto antigua en blanco y negro de tres niños cogidos de la mano, jugando en corro sobre un puente de madera",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un refrán?",
-      "respuesta": "Es una frase corta que guarda un consejo. <mark>Se repite desde hace muchos años, como una idea heredada</mark>. Por ejemplo: 'más vale tarde que nunca'. Los abuelos suelen conocer muchos refranes.",
+      "pregunta": "Es una frase corta que guarda un consejo. Se repite desde hace muchos años, como una idea heredada. Por ejemplo: 'más vale tarde que nunca'. ¿Cómo se llama esta frase?",
+      "respuesta": "<mark>Refrán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/abuela-refran.jpg",
         "alt": "Una abuela sonriendo, con el pelo blanco y una bufanda de lana",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una adivinanza?",
-      "respuesta": "Es un juego de palabras con una pista escondida dentro. <mark>Hay que pensar bien para descubrir de qué habla</mark>. Por ejemplo: 'blanca por dentro, verde por fuera', una pera. Adivinarla es como resolver un pequeño misterio.",
+      "pregunta": "Es un juego de palabras con una pista escondida dentro. Hay que pensar bien para descubrir de qué habla. Por ejemplo: 'blanca por dentro, verde por fuera' es una pera. ¿Cómo se llama este juego de palabras?",
+      "respuesta": "<mark>Adivinanza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/pera-adivinanza.jpg",
         "alt": "Una pera entera junto a otra cortada por la mitad: verde y roja por fuera, blanca por dentro",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un cómic?",
-      "respuesta": "Es una historia contada con dibujos y texto juntos. <mark>Las imágenes muestran lo que las palabras no necesitan decir</mark>. Se lee mirando los dibujos en orden. Por eso se puede leer muy rápido.",
+      "pregunta": "Es una historia contada con dibujos y texto juntos. Las imágenes muestran lo que las palabras no necesitan decir. Se lee mirando los dibujos en orden. ¿Cómo se llama este tipo de historia?",
+      "respuesta": "<mark>Cómic</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/cestas-comics.jpg",
         "alt": "Cestas metálicas en una biblioteca llenas de cómics, con carteles que dicen 'comic books'",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Quién es el autor de un libro?",
-      "respuesta": "Es la persona que inventó y escribió la historia. <mark>Es como el arquitecto que diseña una casa antes de construirla</mark>. Su nombre aparece siempre en la portada. Cada autor tiene su propia forma de contar historias.",
+      "pregunta": "Esta persona inventa y escribe la historia de un libro. Es como el arquitecto que diseña una casa antes de construirla. Su nombre aparece siempre en la portada. ¿Cómo se llama esta persona?",
+      "respuesta": "<mark>El autor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/plano-casa-arquitecto.jpg",
         "alt": "Un plano técnico antiguo de la planta de una casa, dibujado por un arquitecto antes de construirla",

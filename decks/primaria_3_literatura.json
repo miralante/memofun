@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué debes fijarte al leer un cuento para entenderlo bien?",
-      "respuesta": "Fíjate en qué le pasa al protagonista y por qué. <mark>Buscar el porqué de las cosas es comprender de verdad</mark>. No es lo mismo leer que entender. Pregúntate qué sentirías tú en su lugar.",
+      "pregunta": "Fíjate en qué le pasa al protagonista de un cuento. Después pregúntate por qué le pasa eso. Pregúntate también qué sentirías tú en su lugar. ¿Qué estás buscando cuando haces esto?",
+      "respuesta": "<mark>El porqué</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/nino-pensando-leyendo.jpg",
         "alt": "Una niña sujeta un libro y se toca la frente, pensando mucho en lo que lee",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo distingues lo importante de los detalles pequeños en un cuento?",
-      "respuesta": "Lo importante cambia lo que le pasa al protagonista. <mark>Si lo quitas, la historia deja de tener sentido</mark>. Un detalle pequeño puedes olvidarlo sin perderte. Por ejemplo, el color de una puerta rara vez importa.",
+      "pregunta": "Esta parte de un cuento cambia lo que le pasa al protagonista. Si la quitas, la historia deja de tener sentido. El color de una puerta, en cambio, casi nunca importa. ¿Cómo se llama esta parte que sí importa?",
+      "respuesta": "<mark>Lo importante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/puerta-de-colores.jpg",
         "alt": "Una puerta de madera pintada de azul, con adornos rojos y amarillos",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un verso en un poema?",
-      "respuesta": "Un verso es cada línea de un poema. <mark>No termina donde termina la frase, sino donde decide el poeta</mark>. Varios versos juntos forman el poema completo. Por eso un poema se ve distinto a un cuento.",
+      "pregunta": "Es cada línea de un poema. No termina donde termina la frase, sino donde decide el poeta. Varios juntos forman el poema completo. ¿Cómo se llama cada línea de un poema?",
+      "respuesta": "<mark>Verso</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/libro-de-poemas-antiguo.jpg",
         "alt": "Un libro antiguo abierto, con versos cortos escritos en sus páginas",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la rima en la poesía?",
-      "respuesta": "La rima es cuando los finales de los versos suenan parecido. <mark>Ese sonido repetido une unos versos con otros</mark>. Por ejemplo: 'flor' rima con 'color'. Escuchar la rima hace el poema más musical.",
+      "pregunta": "Es cuando los finales de los versos suenan parecido. Por ejemplo: 'flor' y 'color'. Ese sonido repetido une unos versos con otros y hace el poema más musical. ¿Cómo se llama esto?",
+      "respuesta": "<mark>Rima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/flor-rosa.jpg",
         "alt": "Una flor rosa con gotas de agua sobre sus pétalos",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué los poemas son más fáciles de memorizar que un texto normal?",
-      "respuesta": "La rima ayuda a adivinar qué palabra viene después. <mark>El sonido repetido funciona como una pista para la memoria</mark>. Por eso muchas canciones también riman. Aprenderse un poema entero cuesta menos de lo que parece.",
+      "pregunta": "Esto ayuda a adivinar qué palabra viene después en un poema. Funciona como una pista para la memoria. Por eso muchas canciones también la usan. ¿Qué es lo que hace esto en un poema?",
+      "respuesta": "<mark>La rima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/coro-de-ninos-cantando.jpg",
         "alt": "Un grupo de niños canta junto, todos mirando hacia el mismo lado",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el ritmo de un poema?",
-      "respuesta": "El ritmo es el compás que marca cómo suena el poema. <mark>Se nota igual que el compás de una canción</mark>. Depende de dónde caen las sílabas fuertes. Por eso un poema casi se puede cantar.",
+      "pregunta": "Es el compás que marca cómo suena un poema. Se nota igual que el compás de una canción. Depende de dónde caen las sílabas fuertes. ¿Cómo se llama esto?",
+      "respuesta": "<mark>Ritmo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/tambor-baquetas.jpg",
         "alt": "Un tambor con dos baquetas de madera encima, listas para marcar un compás",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué el ritmo hace que un poema sea agradable de leer en voz alta?",
-      "respuesta": "Un buen ritmo hace que las palabras fluyan solas. <mark>Leer en voz alta se vuelve casi como cantar</mark>. Por eso los poemas suenan bien aunque no entiendas cada palabra. ¿Sabías que muchos poemas nacieron para cantarse, no para leerse?",
+      "pregunta": "Esto hace que las palabras de un poema fluyan solas. Leerlo en voz alta se vuelve casi como cantar. Muchos poemas nacieron para cantarse, no para leerse. ¿Qué es lo que logra este efecto?",
+      "respuesta": "<mark>El ritmo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/nina-leyendo-a-su-hermana.jpg",
         "alt": "Una niña mayor lee en voz alta un libro a su hermana pequeña, abrazadas",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se diferencian la rima y el ritmo de un poema?",
-      "respuesta": "La rima es el sonido repetido al final de los versos. <mark>El ritmo es el compás con el que suenan al leerlos</mark>. Un poema puede tener ritmo sin rimar. Pero juntos hacen que el poema suene todavía mejor.",
+      "pregunta": "La rima es el sonido repetido al final de los versos. Esto, en cambio, es el compás con el que suenan al leerlos. Un poema puede tener esto sin rimar. ¿Cómo se llama este segundo elemento?",
+      "respuesta": "<mark>El ritmo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura/leer-con-amor.jpg",
         "alt": "Una persona disfrutando de la lectura de un poema",

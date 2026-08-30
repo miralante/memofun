@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Quién escribe los cuentos que lees?",
-      "respuesta": "Los escribe una persona llamada autor o autora. <mark>Es quien inventa la historia, como un cocinero inventa una receta</mark>. Su nombre aparece en la portada del libro. Sin autor, el cuento no existiría.",
+      "pregunta": "Esta persona inventa la historia de un cuento, como un cocinero inventa una receta. Su nombre aparece en la portada del libro. Sin ella, el cuento no existiría. ¿Cómo se llama esta persona?",
+      "respuesta": "<mark>El autor o la autora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/pluma-escritor.jpg",
         "alt": "Dibujo de dos plumas de escribir clavadas en un tintero, en blanco y negro",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la portada de un libro?",
-      "respuesta": "Es la primera página que ves de un libro. <mark>Muestra el título y un dibujo, como el cartel de una tienda</mark>. Te da una pista de qué trata el libro. Por eso es lo primero que miramos.",
+      "pregunta": "Es la primera página que ves de un libro. Muestra el título y un dibujo, como el cartel de una tienda. Te da una pista de qué trata el libro. ¿Cómo se llama esta primera página?",
+      "respuesta": "<mark>La portada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/portada-libro.jpg",
         "alt": "Portada de un libro infantil, con un título grande y el dibujo de un ciervo joven",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una biblioteca?",
-      "respuesta": "Es un lugar con muchísimos libros para leer o llevar prestados. <mark>Es como una tienda de historias, pero gratis</mark>. Puedes devolver el libro cuando termines de leerlo. Así otras personas también pueden disfrutarlo.",
+      "pregunta": "Es un lugar con muchísimos libros para leer o llevar prestados. Es como una tienda de historias, pero gratis. Puedes devolver el libro cuando termines. ¿Cómo se llama este lugar?",
+      "respuesta": "<mark>Biblioteca</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/biblioteca-interior.jpg",
         "alt": "Sala de una biblioteca antigua con estanterías llenas de libros, mesas y sillas de madera",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una nana?",
-      "respuesta": "Es una canción suave para ayudar a dormir a un bebé. <mark>Su voz tranquila funciona casi como un abrazo</mark>. Suele tener palabras sencillas que se repiten. Por eso las nanas se cantan desde hace generaciones.",
+      "pregunta": "Es una canción suave para ayudar a dormir a un bebé. Su voz tranquila funciona casi como un abrazo. Tiene palabras sencillas que se repiten. ¿Cómo se llama este tipo de canción?",
+      "respuesta": "<mark>Nana</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/nana-cuna.jpg",
         "alt": "Una madre sostiene a su bebé en brazos junto a una cuna, en un dibujo antiguo",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirven los dibujos de un cuento?",
-      "respuesta": "Ayudan a imaginar mejor cómo son los personajes y lugares. <mark>Es como ver una foto de la historia mientras la lees</mark>. Algunos cuentos tienen dibujos en cada página. Así entiendes la historia aunque no leas cada palabra.",
+      "pregunta": "Esto ayuda a imaginar mejor cómo son los personajes y lugares de un cuento. Es como ver una foto de la historia mientras la lees. Así entiendes la historia aunque no leas cada palabra. ¿Cómo se llama esto en un libro?",
+      "respuesta": "<mark>Los dibujos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/dibujos-cuento.jpg",
         "alt": "Página de un libro antiguo con un dibujo de animales vestidos de personas y el texto de la historia debajo",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué debes hacer con un libro prestado de la biblioteca?",
-      "respuesta": "Debes cuidarlo y devolverlo cuando termines. <mark>Es como pedir prestado un juguete: hay que tratarlo bien</mark>. Así otro niño podrá leerlo después. Devolverlo a tiempo ayuda a que la biblioteca funcione para todos.",
+      "pregunta": "Pides un libro prestado en la biblioteca, como pedir prestado un juguete. Hay que tratarlo bien para que otro niño pueda leerlo después. Esto ayuda a que la biblioteca funcione para todos. ¿Qué debes hacer con el libro prestado?",
+      "respuesta": "<mark>Cuidarlo y devolverlo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/fecha-devolucion.jpg",
         "alt": "Página de un libro con muchas fechas selladas en tinta, marcando cuándo debía devolverse",

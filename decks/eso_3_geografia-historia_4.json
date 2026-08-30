@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué fue la Primera Revolución Industrial?",
-      "respuesta": "Fue el gran cambio que llevó la producción de los talleres a las fábricas. <mark>Es como pasar de coser a mano a coser con una máquina que no para</mark>. Empezó en Inglaterra a finales del siglo dieciocho. La máquina de vapor fue una de sus grandes protagonistas.",
+      "pregunta": "La producción pasó de los talleres a las fábricas, con máquinas que no paraban. <br>Es como pasar de coser a mano a coser con una máquina sin descanso. <br>Empezó en Inglaterra a finales del siglo dieciocho. <br>¿Cómo se llama este gran cambio?",
+      "respuesta": "<mark>Primera Revolución Industrial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/primera-revolucion.jpg",
         "alt": "Una locomotora de vapor antigua",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué empezó la Revolución Industrial en Inglaterra?",
-      "respuesta": "Tenía carbón, capital para invertir y colonias donde vender sus productos. <mark>Reunía todos los ingredientes necesarios antes que ningún otro país</mark>. También contaba con inventores dispuestos a probar nuevas máquinas. Esa combinación la convirtió en pionera de la industrialización.",
+      "pregunta": "Inglaterra tenía carbón, capital para invertir y colonias donde vender sus productos. <br>Reunía todos los ingredientes necesarios antes que ningún otro país. <br>También contaba con inventores dispuestos a probar nuevas máquinas. <br>¿Dónde empezó la Revolución Industrial?",
+      "respuesta": "<mark>Inglaterra</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/inglaterra-carbon.jpg",
         "alt": "Una pila de carbón en una mina histórica",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué cambió la máquina de vapor?",
-      "respuesta": "Permitió mover máquinas y trenes sin depender solo de la fuerza animal o humana. <mark>Es como sustituir cientos de brazos por un solo motor incansable</mark>. Se usó en fábricas, barcos y en los primeros ferrocarriles. Aceleró la producción y el transporte como nunca antes.",
+      "pregunta": "Una invención permitió mover máquinas y trenes sin depender solo de la fuerza animal o humana. <br>Es como sustituir cientos de brazos por un solo motor incansable. <br>Se usó en fábricas, barcos y en los primeros ferrocarriles. <br>¿Cómo se llama esta invención?",
+      "respuesta": "<mark>Máquina de vapor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/maquina-vapor.jpg",
         "alt": "Una máquina de vapor antigua, protagonista de la Revolución Industrial",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el capitalismo industrial?",
-      "respuesta": "Es un sistema económico donde unos pocos dueños poseen las fábricas y máquinas. <mark>Los trabajadores venden su tiempo y esfuerzo a cambio de un salario</mark>. Busca generar beneficios reinvirtiendo el dinero ganado. Se convirtió en el sistema económico dominante desde entonces.",
+      "pregunta": "Unos pocos dueños poseen las fábricas y máquinas, en cierto sistema económico. <br>Los trabajadores venden su tiempo y esfuerzo a cambio de un salario. <br>Busca generar beneficios reinvirtiendo el dinero ganado. <br>¿Cómo se llama este sistema económico?",
+      "respuesta": "<mark>Capitalismo industrial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/capitalismo-industrial.jpg",
         "alt": "El edificio de una antigua fábrica de ladrillo",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo cambiaron las ciudades con la industrialización del siglo XIX?",
-      "respuesta": "Crecieron muy rápido, atrayendo a gente que dejaba el campo. <mark>Es como si una ciudad se llenara de golpe, sin tiempo para prepararse</mark>. Surgieron barrios obreros, a menudo con malas condiciones de vida. Ese crecimiento desordenado trajo también problemas de salud e higiene.",
+      "pregunta": "Muchas ciudades atrajeron de golpe a gente que dejaba el campo. <br>Es como si una ciudad se llenara de repente, sin tiempo para prepararse. <br>Surgieron barrios obreros, a menudo con malas condiciones de vida. <br>¿Qué le pasó a las ciudades con la industrialización?",
+      "respuesta": "<mark>Crecieron muy rápido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/fabrica-batllo.jpg",
         "alt": "Una fábrica histórica de la época industrial, en Barcelona",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué era el movimiento obrero?",
-      "respuesta": "Era la organización de los trabajadores para defender sus derechos laborales. <mark>Es como unir muchas voces pequeñas para que se escuche una sola, más fuerte</mark>. Luchaba por mejores salarios, menos horas de trabajo y condiciones dignas. Nació como respuesta a las duras condiciones de las primeras fábricas.",
+      "pregunta": "Los trabajadores se organizaron para defender sus derechos laborales. <br>Es como unir muchas voces pequeñas para que se escuche una sola, más fuerte. <br>Luchaba por mejores salarios, menos horas y condiciones dignas. <br>¿Cómo se llama esta organización de los trabajadores?",
+      "respuesta": "<mark>Movimiento obrero</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/movimiento-obrero.jpg",
         "alt": "Trabajadores reunidos en un parque, organizados en su movimiento",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el socialismo como corriente obrera?",
-      "respuesta": "Defiende que los medios de producción deberían pertenecer a toda la sociedad. <mark>Es como decir que la fábrica debería ser de todos, no solo del dueño</mark>. Busca reducir la desigualdad entre ricos y trabajadores. Karl Marx fue uno de sus pensadores más influyentes.",
+      "pregunta": "Una corriente defiende que las fábricas deberían pertenecer a toda la sociedad, no solo al dueño. <br>Busca reducir la desigualdad entre ricos y trabajadores. <br>Karl Marx fue uno de sus pensadores más influyentes. <br>¿Cómo se llama esta corriente obrera?",
+      "respuesta": "<mark>Socialismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/socialismo.jpg",
         "alt": "Una estatua de Karl Marx",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el anarquismo como corriente obrera?",
-      "respuesta": "Defiende eliminar el Estado y organizar la sociedad sin jerarquías impuestas. <mark>Propone que la gente se organice libremente, sin nadie mandando desde arriba</mark>. Comparte con el socialismo la defensa de los trabajadores. Pero rechaza cualquier forma de gobierno centralizado.",
+      "pregunta": "Una corriente defiende eliminar el Estado y organizar la sociedad sin jerarquías impuestas. <br>Propone que la gente se organice libremente, sin nadie mandando desde arriba. <br>Comparte con el socialismo la defensa de los trabajadores, pero rechaza cualquier gobierno. <br>¿Cómo se llama esta corriente obrera?",
+      "respuesta": "<mark>Anarquismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/anarquismo.jpg",
         "alt": "Una bandera negra, símbolo del movimiento anarquista",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué fue el movimiento internacionalista obrero?",
-      "respuesta": "Fue el intento de unir a los trabajadores de distintos países en una misma lucha. <mark>Es como decir que los problemas laborales no entienden de fronteras</mark>. Se crearon organizaciones que conectaban sindicatos de varios países. Buscaban mejorar las condiciones laborales en todo el mundo a la vez.",
+      "pregunta": "Trabajadores de distintos países intentaron unirse en una misma lucha. <br>Es como decir que los problemas laborales no entienden de fronteras. <br>Se crearon organizaciones que conectaban sindicatos de varios países. <br>¿Cómo se llama este movimiento que unió a trabajadores de distintos países?",
+      "respuesta": "<mark>Movimiento internacionalista obrero</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/internacionalismo-obrero.jpg",
         "alt": "Trabajadores desfilando juntos con banderas y pancartas",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué fue la Segunda Revolución Industrial?",
-      "respuesta": "Fue una nueva oleada de avances tecnológicos, con la electricidad y el motor de combustión. <mark>Es como una segunda ronda de la misma carrera, con máquinas todavía más potentes</mark>. Ocurrió a finales del siglo diecinueve. Alemania y Estados Unidos se convirtieron en nuevas potencias industriales.",
+      "pregunta": "Una nueva oleada de avances tecnológicos llegó con la electricidad y el motor de combustión. <br>Es como una segunda ronda de la misma carrera, con máquinas todavía más potentes. <br>Alemania y Estados Unidos se convirtieron en nuevas potencias industriales. <br>¿Cómo se llama esta segunda oleada de avances?",
+      "respuesta": "<mark>Segunda Revolución Industrial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/segunda-revolucion.jpg",
         "alt": "Una central eléctrica histórica",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre la Primera y la Segunda Revolución Industrial?",
-      "respuesta": "La primera se basó en el carbón y la máquina de vapor. <mark>La segunda incorporó la electricidad, el petróleo y nuevas industrias químicas</mark>. La segunda también trajo la producción en cadena, mucho más rápida. Ambas transformaron profundamente la forma de trabajar y de vivir.",
+      "pregunta": "Una revolución se basó en el carbón y la máquina de vapor. <br>La siguiente incorporó la electricidad, el petróleo y nuevas industrias químicas. <br>También trajo la producción en cadena, mucho más rápida. <br>¿Qué trajo de nuevo la Segunda Revolución Industrial?",
+      "respuesta": "<mark>Electricidad y petróleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/diferencia-revoluciones.jpg",
         "alt": "El interior de una fábrica de montaje moderna",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el imperialismo del siglo XIX?",
-      "respuesta": "Es la expansión de las potencias europeas para dominar territorios de África y Asia. <mark>Es como repartirse un mapa entero sin preguntar a quienes ya vivían allí</mark>. Buscaban materias primas, nuevos mercados y prestigio internacional. Ese reparto dejó huellas profundas en esos continentes.",
+      "pregunta": "Las potencias europeas se expandieron para dominar territorios de África y Asia. <br>Es como repartirse un mapa entero sin preguntar a quienes ya vivían allí. <br>Buscaban materias primas, nuevos mercados y prestigio internacional. <br>¿Cómo se llama esta expansión del siglo XIX?",
+      "respuesta": "<mark>Imperialismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/imperialismo-siglo19.jpg",
         "alt": "Un mapa antiguo que muestra la extensión del Imperio británico",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué buscaban las potencias europeas al colonizar África y Asia?",
-      "respuesta": "Buscaban materias primas baratas y nuevos mercados donde vender sus productos. <mark>La industria necesitaba recursos que Europa ya no tenía suficientes</mark>. También buscaban prestigio: tener colonias se consideraba señal de poder. Esa carrera por colonias generó rivalidad entre países europeos.",
+      "pregunta": "La industria necesitaba recursos que Europa ya no tenía suficientes. <br>También buscaban prestigio: tener colonias se consideraba señal de poder. <br>Esa carrera por colonias generó rivalidad entre países europeos. <br>¿Qué buscaban las potencias europeas al colonizar África y Asia?",
+      "respuesta": "<mark>Materias primas y mercados</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/materias-primas.jpg",
         "alt": "Una tienda histórica con mercancías traídas de otros territorios",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué consecuencias tuvo el imperialismo para los pueblos colonizados?",
-      "respuesta": "Perdieron su independencia, sus recursos y muchas veces su propia cultura. <mark>Es como si alguien llegara a tu casa y decidiera las reglas por ti</mark>. Se impusieron fronteras nuevas, sin tener en cuenta los pueblos ya existentes. Muchas de esas consecuencias se siguen notando hoy en día.",
+      "pregunta": "Los pueblos colonizados perdieron su independencia, sus recursos y muchas veces su propia cultura. <br>Es como si alguien llegara a tu casa y decidiera las reglas por ti. <br>Se impusieron fronteras nuevas, sin tener en cuenta a los pueblos ya existentes. <br>¿Qué perdieron los pueblos colonizados con el imperialismo?",
+      "respuesta": "<mark>Su independencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/consecuencias-imperialismo.jpg",
         "alt": "Un mapa político antiguo de África",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo generó tensiones el imperialismo entre las potencias europeas?",
-      "respuesta": "Competían entre sí por controlar los mismos territorios y recursos. <mark>Es como varios equipos peleando por el mismo trofeo, cada vez más enfadados</mark>. Esa rivalidad fue aumentando la desconfianza entre países. Con el tiempo, esas tensiones ayudaron a provocar la Primera Guerra Mundial.",
+      "pregunta": "Las potencias europeas competían entre sí por controlar los mismos territorios y recursos. <br>Es como varios equipos peleando por el mismo trofeo, cada vez más enfadados. <br>Con el tiempo, esas tensiones ayudaron a provocar un gran conflicto. <br>¿A qué guerra ayudó a provocar esa rivalidad entre potencias?",
+      "respuesta": "<mark>La Primera Guerra Mundial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/tensiones-potencias.jpg",
         "alt": "Una pintura de un buque de guerra histórico",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre la Revolución Industrial y el imperialismo?",
-      "respuesta": "La industria necesitaba materias primas y mercados que no tenía en Europa. <mark>Es como una fábrica que necesita comprar fuera lo que no produce dentro</mark>. Por eso las potencias industriales buscaron colonias en otros continentes. Ambos procesos avanzaron juntos durante el siglo diecinueve.",
+      "pregunta": "La industria necesitaba materias primas y mercados que no tenía en Europa. <br>Es como una fábrica que necesita comprar fuera lo que no produce dentro. <br>Por eso las potencias industriales buscaron colonias en otros continentes. <br>¿Qué buscaba la industria europea en las colonias?",
+      "respuesta": "<mark>Materias primas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/revolucion-imperialismo.jpg",
         "alt": "Un barco de vapor histórico",

@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es la emergencia climática?",
-      "respuesta": "Es el aumento peligroso de la temperatura media del planeta. <mark>Es como si la Tierra tuviera fiebre y no dejara de subir</mark>. Lo provocan sobre todo los gases que soltamos al quemar combustibles. Sus efectos ya se notan en el clima de todo el mundo.",
+      "pregunta": "Es como si la Tierra tuviera fiebre y no dejara de subir. La temperatura media del planeta sube de forma peligrosa. Lo provocan sobre todo los gases que soltamos al quemar combustibles. ¿Cómo se llama este problema?",
+      "respuesta": "<mark>Emergencia climática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/glaciar-derritiendo.jpg",
         "alt": "Un glaciar derritiéndose por el calor",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo afectan las actividades humanas al clima?",
-      "respuesta": "Quemar carbón, petróleo o gas suelta gases que calientan la atmósfera. <mark>Es como cerrar las ventanas de un coche al sol: el calor se queda atrapado dentro</mark>. Cuantos más gases se acumulan, más sube la temperatura. Decisiones de hace décadas afectan al clima de hoy.",
+      "pregunta": "Quemar carbón, petróleo o gas suelta algo a la atmósfera. Es como cerrar las ventanas de un coche al sol. Ese algo atrapa el calor y no lo deja escapar. ¿Qué sueltan estas actividades a la atmósfera?",
+      "respuesta": "<mark>Gases que atrapan el calor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/central-humo.jpg",
         "alt": "Una central eléctrica soltando humo a la atmósfera",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un riesgo natural?",
-      "respuesta": "Es la posibilidad de que ocurra un fenómeno natural peligroso, como una inundación. <mark>No es el fenómeno en sí, sino la amenaza de que pase donde vive gente</mark>. Un terremoto en un desierto vacío no es un riesgo tan grave. El riesgo depende de dónde y cómo vivimos.",
+      "pregunta": "Es la posibilidad de que ocurra un fenómeno natural peligroso, como una inundación. No es el fenómeno en sí, sino la amenaza de que pase donde vive gente. Depende de dónde y cómo vivimos. ¿Cómo se llama esta posibilidad?",
+      "respuesta": "<mark>Riesgo natural</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/tormenta-nubes.jpg",
         "alt": "Nubes de tormenta en el cielo",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa que una población sea vulnerable ante una catástrofe?",
-      "respuesta": "Significa que tiene pocos recursos para protegerse o recuperarse después. <mark>Es como enfrentar una tormenta sin paraguas ni refugio cerca</mark>. La prevención y los planes de emergencia reducen esa vulnerabilidad. Estar preparado marca la diferencia entre un susto y una tragedia.",
+      "pregunta": "Es como enfrentar una tormenta sin paraguas ni refugio cerca. Significa tener pocos recursos para protegerse o recuperarse tras una catástrofe. La prevención y los planes de emergencia la reducen. ¿Cómo se llama esta situación?",
+      "respuesta": "<mark>Vulnerabilidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/refugio-emergencia.jpg",
         "alt": "Tiendas de campaña de refugio de emergencia",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el desarrollo sostenible?",
-      "respuesta": "Es cubrir las necesidades de hoy sin arruinar el futuro. <mark>Es como no gastar de golpe unos ahorros que también necesitarás mañana</mark>. Combina economía, sociedad y cuidado del medio ambiente. Reciclar o ahorrar energía son pequeñas acciones sostenibles.",
+      "pregunta": "Es como no gastar de golpe unos ahorros que también necesitarás mañana. Es cubrir las necesidades de hoy sin arruinar el futuro. Combina economía, sociedad y cuidado del medio ambiente. ¿Cómo se llama esta forma de vivir?",
+      "respuesta": "<mark>Desarrollo sostenible</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/hucha-ahorro.jpg",
         "alt": "Una hucha con monedas de ahorro",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué amenaza principal sufre la biodiversidad hoy?",
-      "respuesta": "La pérdida de hábitats naturales por la actividad humana. <mark>Es como derribar poco a poco todas las casas de un barrio entero</mark>. Talar bosques o contaminar ríos deja a muchas especies sin hogar. Por eso tantos animales están en peligro de extinción.",
+      "pregunta": "Es como derribar poco a poco todas las casas de un barrio entero. Talar bosques o contaminar ríos deja a muchas especies sin hogar. Por eso tantos animales están en peligro de extinción. ¿Qué amenaza principal sufre la biodiversidad?",
+      "respuesta": "<mark>Pérdida de hábitats</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/deforestacion.jpg",
         "alt": "Un bosque talado por la deforestación",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo alteraron los humanos los ecosistemas ya en el pasado?",
-      "respuesta": "En la Prehistoria, la agricultura cambió bosques por campos de cultivo. <mark>Cada campo sembrado sustituyó un trozo de naturaleza salvaje</mark>. Con el tiempo, esos cambios se hicieron cada vez más grandes. Hoy la huella humana se nota en casi todo el planeta.",
+      "pregunta": "En la Prehistoria, algo cambió bosques enteros por campos de cultivo. Cada campo sembrado sustituyó un trozo de naturaleza salvaje. Con el tiempo, esos cambios se hicieron cada vez más grandes. ¿Qué actividad humana empezó a transformar los ecosistemas?",
+      "respuesta": "<mark>La agricultura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/campo-cultivo.jpg",
         "alt": "Un campo de cultivo con plantones, un ecosistema transformado por la agricultura",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las tecnologías de la información?",
-      "respuesta": "Son las herramientas digitales para buscar, guardar y compartir datos. <mark>Es como tener una biblioteca gigante siempre en el bolsillo</mark>. Incluyen internet, aplicaciones y dispositivos como el móvil. Cambiaron por completo cómo aprendemos y nos comunicamos.",
+      "pregunta": "Es como tener una biblioteca gigante siempre en el bolsillo. Son herramientas digitales para buscar, guardar y compartir datos. Incluyen internet, aplicaciones y dispositivos como el móvil. ¿Cómo se llaman estas herramientas?",
+      "respuesta": "<mark>Tecnologías de la información</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/movil-smartphone.jpg",
         "alt": "Un teléfono móvil, una herramienta de las tecnologías de la información",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué hay que leer la información de internet con sentido crítico?",
-      "respuesta": "Porque no todo lo que aparece en la pantalla es cierto. <mark>Es como escuchar un rumor: conviene comprobarlo antes de creerlo</mark>. Comparar varias fuentes ayuda a distinguir lo fiable de lo falso. Esa costumbre se llama lectura crítica.",
+      "pregunta": "Es como escuchar un rumor: conviene comprobarlo antes de creerlo. No todo lo que aparece en la pantalla es cierto. Comparar varias fuentes ayuda a distinguir lo fiable de lo falso. ¿Cómo se llama esta costumbre?",
+      "respuesta": "<mark>Lectura crítica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/lupa-noticias.jpg",
         "alt": "Una lupa sobre un periódico, comprobando la información",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la sociedad del conocimiento?",
-      "respuesta": "Es una sociedad donde la información se comparte y crece muy rápido. <mark>Es como si millones de personas escribieran el mismo libro a la vez</mark>. Internet permite acceder a saberes que antes costaban mucho conseguir. Pero también exige aprender a filtrar tanta información.",
+      "pregunta": "Es como si millones de personas escribieran el mismo libro a la vez. Es una sociedad donde la información se comparte y crece muy rápido. Permite acceder a saberes que antes costaban mucho conseguir. ¿Cómo se llama esta sociedad?",
+      "respuesta": "<mark>Sociedad del conocimiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/biblioteca-libros.jpg",
         "alt": "Estanterías llenas de libros en una biblioteca",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué precauciones conviene tener en las redes sociales?",
-      "respuesta": "No compartir datos personales con desconocidos y revisar bien la privacidad. <mark>Es como no dar la dirección de tu casa a cualquiera en la calle</mark>. También conviene desconfiar de mensajes demasiado llamativos. Esas costumbres reducen los riesgos de internet.",
+      "pregunta": "Es como no dar la dirección de tu casa a cualquiera en la calle. También conviene desconfiar de mensajes demasiado llamativos. Esas costumbres reducen los riesgos de internet. ¿Qué es mejor no compartir con desconocidos en las redes?",
+      "respuesta": "<mark>Datos personales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/candado-seguridad.jpg",
         "alt": "Un candado que representa la seguridad y la privacidad",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué el cambio climático afecta a todo el planeta y no solo a un país?",
-      "respuesta": "La atmósfera no tiene fronteras entre países. <mark>Es como un aire compartido dentro de una misma habitación grande</mark>. Los gases que emite un lugar afectan al clima de todos. Por eso las soluciones necesitan acuerdos entre muchos países.",
+      "pregunta": "Es como un aire compartido dentro de una misma habitación grande. Los gases que emite un lugar afectan al clima de todos. Por eso las soluciones necesitan acuerdos entre muchos países. ¿Qué no tiene fronteras entre países?",
+      "respuesta": "<mark>La atmósfera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_2/tierra-espacio.jpg",
         "alt": "La Tierra vista desde el espacio",

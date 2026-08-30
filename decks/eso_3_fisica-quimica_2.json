@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué son las leyes de los gases?",
-      "respuesta": "Son reglas que explican cómo cambian la presión, el volumen y la temperatura de un gas. <mark>Es como saber qué pasa si aprietas, calientas o sueltas un globo lleno de aire</mark>. Ayudan a predecir el comportamiento de un gas en distintas condiciones.",
+      "pregunta": "Aprieta, calienta o suelta un globo, y podrás predecir qué le va a pasar. Sirven para predecir cómo se comporta un gas en cada situación. ¿Cómo se llaman estas reglas sobre el comportamiento de los gases?",
+      "respuesta": "<mark>Leyes de los gases</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/globo-helio.jpg",
         "alt": "Un globo hinchado con gas helio.",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación existe entre la presión y el volumen de un gas?",
-      "respuesta": "Si la temperatura no cambia, al aumentar la presión disminuye el volumen. <mark>Es como apretar un globo: cuanto más lo comprimes, más pequeño se vuelve</mark>. Esa relación se conoce como ley de Boyle.",
+      "pregunta": "Apretar un globo lo hace más pequeño: cuanto más lo comprimes, menos espacio ocupa. Si la temperatura no cambia, al aumentar la presión de un gas disminuye su volumen. ¿Cómo se llama esta relación entre presión y volumen?",
+      "respuesta": "<mark>Ley de Boyle</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/globo-inflado.jpg",
         "alt": "Un globo muy inflado, ejemplo de presión y volumen de un gas",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué explica el modelo cinético-molecular sobre los gases?",
-      "respuesta": "Explica que las partículas de un gas se mueven libremente y muy rápido. <mark>Es como una habitación llena de pelotas rebotando en todas direcciones sin parar</mark>. Están mucho más separadas que en un líquido o un sólido.",
+      "pregunta": "Una habitación llena de pelotas rebotando en todas direcciones sin parar es una buena imagen de esto. Las partículas de un gas se mueven libremente y muy rápido. Están mucho más separadas que en un líquido o un sólido. ¿Cómo se llama este modelo que lo explica?",
+      "respuesta": "<mark>Modelo cinético-molecular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/vapor-toalla.jpg",
         "alt": "Vapor de agua caliente saliendo de una toalla.",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un cambio de estado de la materia?",
-      "respuesta": "Es el paso de un estado de agregación a otro, como de sólido a líquido. <mark>Es como el hielo convirtiéndose en agua y luego en vapor, con la misma sustancia</mark>. Ocurre al cambiar la temperatura o la presión.",
+      "pregunta": "El hielo se convierte en agua y luego en vapor, sin dejar de ser la misma sustancia. Ocurre al cambiar la temperatura o la presión. ¿Cómo se llama este paso de un estado de agregación a otro?",
+      "respuesta": "<mark>Cambio de estado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/hielo-vaso.jpg",
         "alt": "Hielo sólido dentro de un vaso.",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un isótopo?",
-      "respuesta": "Es una variante de un mismo elemento con distinto número de neutrones. <mark>Es como hermanos con el mismo apellido, pero con un peso ligeramente distinto</mark>. Tienen el mismo número de protones, por lo que siguen siendo el mismo elemento.",
+      "pregunta": "Son como hermanos con el mismo apellido, pero con un peso ligeramente distinto. Tienen el mismo número de protones, por lo que siguen siendo el mismo elemento. Solo cambia su número de neutrones. ¿Cómo se llama esta variante de un mismo elemento?",
+      "respuesta": "<mark>Isótopo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/modelo-atomico-rutherford.png",
         "alt": "Un modelo del átomo con su núcleo y electrones.",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un ion?",
-      "respuesta": "Es un átomo o grupo de átomos que ha ganado o perdido electrones. <mark>Es como un átomo que se queda con carga eléctrica, positiva o negativa</mark>. Si pierde electrones, queda cargado positivamente; si gana, negativamente.",
+      "pregunta": "Un átomo puede quedarse con carga eléctrica, positiva o negativa. Si pierde electrones, queda cargado positivamente; si gana, negativamente. ¿Cómo se llama este átomo o grupo de átomos con carga?",
+      "respuesta": "<mark>Ion</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/molecula-amfetamina.png",
         "alt": "El modelo de bolas y varillas de una molécula.",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre la masa atómica y la masa molecular?",
-      "respuesta": "La masa atómica es la masa de un solo átomo de un elemento. <mark>La masa molecular es la suma de las masas atómicas de todos los átomos de una molécula</mark>. La del agua suma la del oxígeno y la de dos hidrógenos.",
+      "pregunta": "La masa de un solo átomo tiene su propio nombre. Otra magnitud suma las masas de todos los átomos de una molécula, como el oxígeno y los dos hidrógenos del agua. ¿Cómo se llama esta segunda magnitud?",
+      "respuesta": "<mark>Masa molecular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/enlace-quimico-oxigeno.jpg",
         "alt": "Un modelo molecular mostrando átomos unidos.",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo están organizados los elementos en la tabla periódica?",
-      "respuesta": "Se organizan según su número atómico y sus propiedades químicas. <mark>Es como ordenar libros por autor y también por tema al mismo tiempo</mark>. Los elementos de una misma columna suelen comportarse de forma parecida.",
+      "pregunta": "Ordenar libros por autor y también por tema a la vez es parecido a esto. Los elementos se organizan según su número atómico y sus propiedades químicas. Los de una misma columna se comportan de forma parecida. ¿Cómo se llama este cuadro donde se organizan?",
+      "respuesta": "<mark>Tabla periódica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/tabla-periodica-mural.jpg",
         "alt": "Un mural con la tabla periódica de los elementos",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los grupos y los periodos de la tabla periódica?",
-      "respuesta": "Los grupos son las columnas; los periodos, las filas de la tabla. <mark>Es como organizar una ciudad en calles y avenidas que se cruzan</mark>. Los elementos de un mismo grupo comparten propiedades químicas parecidas.",
+      "pregunta": "Una ciudad se organiza en calles y avenidas que se cruzan. La tabla periódica se organiza de un modo parecido: en columnas y en filas. Los elementos de una misma columna comparten propiedades parecidas. ¿Cómo se llaman estas columnas y filas?",
+      "respuesta": "<mark>Grupos y periodos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/tabla-periodica-cupcakes.jpg",
         "alt": "La tabla periódica de los elementos, con sus grupos y periodos.",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el enlace químico, de forma introductoria?",
-      "respuesta": "Es la unión entre átomos que forma una sustancia estable. <mark>Es como el pegamento invisible que mantiene unidas las piezas de una molécula</mark>. Los átomos se enlazan para conseguir una configuración más estable.",
+      "pregunta": "Es como el pegamento invisible que mantiene unidas las piezas de una molécula. Los átomos se enlazan para conseguir una configuración más estable. ¿Cómo se llama esta unión entre átomos?",
+      "respuesta": "<mark>Enlace químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/enlace-quimico-metileno.jpg",
         "alt": "Un modelo molecular mostrando el enlace entre átomos.",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante conocer las propiedades de los elementos de la tabla periódica?",
-      "respuesta": "Porque permite predecir cómo se comportarán al combinarse con otros. <mark>Es como conocer el carácter de alguien antes de ver cómo se lleva con otras personas</mark>. Ayuda a entender por qué unos elementos reaccionan más que otros.",
+      "pregunta": "Conocer el carácter de alguien ayuda a saber cómo se llevará con otras personas. Conocer estas características de un elemento permite predecir cómo se comportará al combinarse con otros. Ayuda a entender por qué unos elementos reaccionan más que otros. ¿Cómo se llaman estas características propias de cada elemento?",
+      "respuesta": "<mark>Propiedades periódicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/lingote-oro.jpg",
         "alt": "Un lingote de oro, un elemento con propiedades muy valoradas.",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre la temperatura y el estado de agregación de una sustancia?",
-      "respuesta": "Cambiar la temperatura puede hacer que una sustancia pase de un estado a otro. <mark>Es como el hielo que se derrite al ponerlo al sol, sin dejar de ser agua</mark>. Cada sustancia tiene puntos concretos de fusión y ebullición.",
+      "pregunta": "El hielo se derrite al ponerlo al sol, sin dejar de ser agua. Cambiar la temperatura puede hacer que una sustancia pase de un estado a otro. Cada sustancia tiene puntos concretos de fusión y ebullición. ¿Cómo se llama este paso de un estado a otro?",
+      "respuesta": "<mark>Cambio de estado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/hielo-te.jpg",
         "alt": "Hielo derritiéndose en un vaso de té.",

@@ -58,28 +58,37 @@ ninguno menos; si lo dejas vacío, elige tú los subtemas):
 
 REGLAS DE CONTENIDO (obligatorias):
 - Cada tarjeta es un objeto {"pregunta": "...", "respuesta": "..."}.
-- La pregunta es clara, concreta, evaluable (nunca de sí/no), con un
-  tono cálido y curioso — nunca de examen.
-- La respuesta NUNCA es una definición de diccionario. Se construye
-  alrededor de UNA de estas tres cosas: una ANALOGÍA cotidiana, un
-  EJEMPLO PRÁCTICO concreto, o el PROBLEMA real que resuelve ese
-  concepto ("por qué importa"). Envuelve esa frase clave entre
-  <mark> y </mark>.
-- Lectura Fácil: frases cortas (máximo 12 palabras cada una), una idea
-  por frase, vocabulario cotidiano, voz activa. HTML simple permitido
-  (<b>, <i>, <br>) — nunca markdown (nada de **, _, #, etc.).
+- PRINCIPIO DE DISEÑO DE TARJETAS: la prioridad nunca es "explicar
+  mucho" — es conseguir que la persona (a) entienda una idea concreta,
+  (b) la reconozca en otro contexto, (c) la recuerde con poca ayuda.
+- FORMATO — pista primero, concepto como respuesta: "pregunta" lleva
+  la explicación, construida alrededor de UNA de estas tres cosas: una
+  ANALOGÍA cotidiana, un EJEMPLO PRÁCTICO concreto, o el PROBLEMA real
+  que resuelve ese concepto ("por qué importa") — descrita SIN nombrar
+  el concepto — y cierra con una pregunta corta y directa que pide
+  nombrarlo o identificarlo ("¿Cómo se llama...?", "¿Quién...?", "¿Qué
+  número es?"). "respuesta" es SOLO ese concepto/término/nombre/valor,
+  corto (1-6 palabras), envuelto entre <mark> y </mark>. Nunca una
+  frase completa, nunca una reformulación de la pista, nunca una
+  definición de diccionario.
+- Lectura Fácil: "pregunta" tiene de 2 a 4 frases de pista (máximo 12
+  palabras cada una), una idea por frase, vocabulario cotidiano, voz
+  activa, terminando en la pregunta corta de cierre. HTML simple
+  permitido (<b>, <i>, <br>, <mark>) — nunca markdown (nada de **, _,
+  #, etc.).
 - Como mucho UN concepto nuevo (un nombre propio, un término técnico,
-  una idea abstracta) por tarjeta. Ancla siempre ese concepto en una
-  imagen cotidiana concreta antes de nombrarlo. Si el tema tiene
-  muchos nombres seguidos (movimientos, épocas, personajes), usa MÁS
+  una idea abstracta) por tarjeta — ese concepto es exactamente lo que
+  nombra "respuesta". Ancla siempre ese concepto en una imagen
+  cotidiana concreta antes de nombrarlo. Si el tema tiene muchos
+  nombres seguidos (movimientos, épocas, personajes), usa MÁS
   tarjetas, más pequeñas — no comprimas varios nombres en una tarjeta.
 - Una tarjeta de "en qué se diferencian X e Y" solo si X e Y ya han
   tenido antes su propia tarjeta por separado.
 - Tono divertido y cercano, como quien le cuenta algo interesante a
   un amigo — nunca sarcasmo, ironía, ni dobles sentidos.
-- Cuando encaje de forma natural, añade UN dato curioso ("¿Sabías
-  que...?") — nunca forzado.
-- Cada respuesta tiene entre 2 y 5 frases.
+- Cuando encaje de forma natural, teje UN dato curioso ("¿Sabías
+  que...?") dentro de la pista en "pregunta" — nunca forzado, nunca en
+  "respuesta".
 - Nunca uses las palabras "discapacidad", "paciente" ni lenguaje
   clínico — el contenido trata del tema, no de quién lo estudia.
 - No numeres las tarjetas ni repitas el nombre del tema en cada
@@ -113,7 +122,9 @@ Antes de usarlo, comprueba a ojo:
       tienes dudas, o guárdalo tal cual en un `.json` y ábrelo)
 - [ ] ¿Tiene exactamente el número de tarjetas pedido? Las IA de chat
       a veces se quedan cortas o se pasan.
-- [ ] ¿Cada respuesta tiene un `<mark>...</mark>`?
+- [ ] ¿Cada respuesta tiene un `<mark>...</mark>` y es corta (1-6
+      palabras) — nunca una frase completa, nunca la pista repetida?
+- [ ] ¿La pregunta evita nombrar el concepto por el que pregunta?
 - [ ] ¿Hay algo en markdown (`**negrita**`, `# título`) colado en vez
       de HTML? Corrígelo o pide que lo regenere.
 - [ ] Si diste un índice, ¿están todos los puntos cubiertos?

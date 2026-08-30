@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es una empresa individual?",
-      "respuesta": "Es una empresa donde una sola persona es la propietaria y responsable del negocio. <mark>Es como llevar un negocio a tu propio nombre, sin socios ni empresa aparte</mark>. Esa persona responde con su propio patrimonio de las deudas del negocio.",
+      "pregunta": "Es una empresa donde una sola persona es la propietaria y responsable del negocio. Es como llevar un negocio a tu propio nombre, sin socios ni empresa aparte. Esa persona responde con su propio patrimonio de las deudas. ¿Cómo se llama este tipo de empresa?",
+      "respuesta": "<mark>Empresa individual</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/empresa-individual.jpg",
         "alt": "Oficina pequeña de un negocio individual, con su escaparate.",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una sociedad mercantil?",
-      "respuesta": "Es una empresa formada por varias personas que se unen para desarrollar un negocio. <mark>Es como fundar algo entre varios socios, en vez de hacerlo solo una persona</mark>. Tiene una personalidad jurídica propia, distinta de la de sus socios.",
+      "pregunta": "Es una empresa formada por varias personas que se unen para desarrollar un negocio. Es como fundar algo entre varios socios, en vez de hacerlo solo una persona. Tiene una personalidad jurídica propia, distinta de la de sus socios. ¿Cómo se llama este tipo de empresa?",
+      "respuesta": "<mark>Sociedad mercantil</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/sociedad-mercantil.jpg",
         "alt": "Edificios de oficinas corporativas de una gran empresa.",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre una empresa individual y una sociedad mercantil?",
-      "respuesta": "En la empresa individual, el dueño responde con todo su patrimonio personal. <mark>En una sociedad, en cambio, suele responder solo con lo que ha aportado a la empresa</mark>. Elegir una forma u otra depende del tamaño y el riesgo del negocio.",
+      "pregunta": "En una, el dueño responde con todo su patrimonio personal. En la otra, en cambio, suele responder solo con lo que ha aportado a la empresa. Elegir una forma u otra depende del tamaño y el riesgo del negocio. ¿Qué tipo de empresa limita así la responsabilidad?",
+      "respuesta": "<mark>La sociedad mercantil</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/diferencia-empresa-sociedad.jpg",
         "alt": "Dos personas dándose la mano al cerrar un acuerdo.",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la Administración General del Estado?",
-      "respuesta": "Es el conjunto de organismos que gestionan los asuntos comunes a todo el país. <mark>Es como el nivel de gobierno más amplio, que afecta a todo el territorio nacional</mark>. Se ocupa de materias como defensa, relaciones exteriores o Seguridad Social.",
+      "pregunta": "Es el conjunto de organismos que gestionan los asuntos comunes a todo el país. Es como el nivel de gobierno más amplio, que afecta a todo el territorio nacional. Se ocupa de materias como defensa, relaciones exteriores o Seguridad Social. ¿Cómo se llama este conjunto de organismos?",
+      "respuesta": "<mark>Administración General del Estado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/administracion-general-estado.jpg",
         "alt": "Edificio de ministerios del Gobierno en Madrid.",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre la Administración autonómica y la local?",
-      "respuesta": "La Administración autonómica gestiona asuntos de una comunidad autónoma completa. <mark>La Administración local, en cambio, gestiona asuntos de un municipio o una provincia concreta</mark>. Cada una tiene competencias distintas, como sanidad o servicios municipales.",
+      "pregunta": "Una gestiona asuntos de una comunidad autónoma completa. La otra, en cambio, gestiona asuntos de un municipio o una provincia concreta. Cada una tiene competencias distintas, como sanidad o servicios municipales. ¿Cómo se llama la que gestiona un municipio?",
+      "respuesta": "<mark>Administración local</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/administracion-autonomica-local.jpg",
         "alt": "Edificio del Parlamento de una comunidad autónoma.",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un procedimiento administrativo?",
-      "respuesta": "Es el conjunto de pasos que sigue la Administración para tomar una decisión oficial. <mark>Es como una receta con pasos fijos que hay que seguir en orden para conseguir un trámite</mark>. Suele incluir una solicitud, una tramitación y una resolución final.",
+      "pregunta": "Es el conjunto de pasos que sigue la Administración para tomar una decisión oficial. Es como una receta con pasos fijos que hay que seguir en orden para conseguir un trámite. Suele incluir una solicitud, una tramitación y una resolución final. ¿Cómo se llama este conjunto de pasos?",
+      "respuesta": "<mark>Procedimiento administrativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/procedimiento-administrativo.jpg",
         "alt": "Montón de papeles y documentos administrativos sobre una mesa.",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los órganos de gobierno de una empresa?",
-      "respuesta": "Son las personas o grupos que toman las decisiones importantes dentro de una empresa. <mark>Es como el timón que marca el rumbo de todo el negocio</mark>. En una sociedad, suele existir una junta de socios y un órgano de administración.",
+      "pregunta": "Son las personas o grupos que toman las decisiones importantes dentro de una empresa. Es como el timón que marca el rumbo de todo el negocio. En una sociedad, suele existir una junta de socios y un órgano de administración. ¿Cómo se llaman estas personas o grupos?",
+      "respuesta": "<mark>Órganos de gobierno</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/organos-gobierno.jpg",
         "alt": "Grupo de personas reunidas en una sala de juntas.",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la responsabilidad social corporativa?",
-      "respuesta": "Es el compromiso de una empresa con la sociedad y el medio ambiente, más allá de ganar dinero. <mark>Es como cuidar el barrio en el que vives, no solo tu propia casa</mark>. Incluye reducir la contaminación o mejorar las condiciones de sus trabajadores.",
+      "pregunta": "Es el compromiso de una empresa con la sociedad y el medio ambiente, más allá de ganar dinero. Es como cuidar el barrio en el que vives, no solo tu propia casa. Incluye reducir la contaminación o mejorar las condiciones de sus trabajadores. ¿Cómo se llama este compromiso?",
+      "respuesta": "<mark>Responsabilidad social corporativa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/responsabilidad-social.jpg",
         "alt": "Voluntarios limpiando basura de un espacio natural.",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el IVA?",
-      "respuesta": "Es el Impuesto sobre el Valor Añadido, que se paga al comprar bienes y servicios. <mark>Es como un pequeño porcentaje que se añade al precio en casi cualquier compra</mark>. Las empresas lo cobran a sus clientes y lo ingresan después a Hacienda.",
+      "pregunta": "Se paga al comprar bienes y servicios. Es como un pequeño porcentaje que se añade al precio en casi cualquier compra. Las empresas lo cobran a sus clientes y lo ingresan después a Hacienda. ¿Cómo se llama este impuesto?",
+      "respuesta": "<mark>IVA</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/iva.jpg",
         "alt": "Formulario oficial de impuestos relleno con datos.",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué obligaciones fiscales tiene una empresa respecto al IVA?",
-      "respuesta": "Debe declarar periódicamente el IVA cobrado y el IVA pagado. <mark>Es como hacer cuentas regularmente de lo que has cobrado de más y lo que has pagado de más</mark>. La diferencia entre ambos se ingresa o se compensa con Hacienda.",
+      "pregunta": "Debe declarar periódicamente el IVA cobrado y el IVA pagado. Es como hacer cuentas regularmente de lo que has cobrado de más y lo que has pagado de más. La diferencia entre ambos se ingresa o se compensa con Hacienda. ¿Qué debe hacer una empresa con el IVA de forma periódica?",
+      "respuesta": "<mark>Declararlo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/obligaciones-iva.jpg",
         "alt": "Máquina impresora de tickets y recibos de compra.",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué otros impuestos, además del IVA, puede tener una empresa?",
-      "respuesta": "El Impuesto de Sociedades o el IRPF, según el tipo de empresa. <mark>Cada impuesto grava una parte distinta de la actividad económica de la empresa</mark>. Conocerlos bien evita sorpresas y sanciones fiscales.",
+      "pregunta": "El Impuesto de Sociedades o el IRPF son ejemplos, según el tipo de empresa. Cada impuesto grava una parte distinta de la actividad económica. Conocerlos bien evita sorpresas y sanciones fiscales. ¿Qué otros impuestos puede tener una empresa, además del IVA?",
+      "respuesta": "<mark>Impuesto de Sociedades o IRPF</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/otros-impuestos.jpg",
         "alt": "Antiguo edificio de la oficina de impuestos.",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el calendario fiscal de una empresa?",
-      "respuesta": "Es el calendario con las fechas en las que hay que presentar impuestos y declaraciones. <mark>Es como una agenda con plazos que no se pueden pasar por alto</mark>. Cumplirlo evita recargos y sanciones económicas.",
+      "pregunta": "Es el calendario con las fechas en las que hay que presentar impuestos y declaraciones. Es como una agenda con plazos que no se pueden pasar por alto. Cumplirlo evita recargos y sanciones económicas. ¿Cómo se llama este calendario?",
+      "respuesta": "<mark>Calendario fiscal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/calendario-planificacion.jpg",
         "alt": "Una agenda con fechas planificadas",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante conocer la estructura de la Administración pública para trabajar en gestión administrativa?",
-      "respuesta": "Porque muchos trámites de una empresa se hacen directamente con la Administración. <mark>Es como saber a qué puerta llamar según lo que necesites tramitar</mark>. Cada nivel administrativo gestiona trámites distintos.",
+      "pregunta": "Muchos trámites de una empresa se hacen directamente con la Administración. Es como saber a qué puerta llamar según lo que necesites tramitar. Cada nivel administrativo gestiona trámites distintos. ¿Qué conviene conocer bien para trabajar en gestión administrativa?",
+      "respuesta": "<mark>La estructura de la Administración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/estructura-administracion.jpg",
         "alt": "Edificio de ministerios del Gobierno en Madrid.",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué ventajas tiene constituir una sociedad limitada frente a ser autónomo?",
-      "respuesta": "Limita la responsabilidad económica al capital aportado a la empresa. <mark>Es como poner un límite claro a lo que puedes llegar a perder si algo sale mal</mark>. A cambio, implica más trámites y gestión administrativa.",
+      "pregunta": "Limita la responsabilidad económica al capital aportado a la empresa. Es como poner un límite claro a lo que puedes llegar a perder si algo sale mal. A cambio, implica más trámites y gestión administrativa. ¿Qué tipo de empresa tiene esta ventaja frente a ser autónomo?",
+      "respuesta": "<mark>La sociedad limitada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/ventajas-sociedad-limitada.jpg",
         "alt": "Contrato legal firmado con un bolígrafo sobre la mesa.",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación existe entre la empresa y la Administración pública en su día a día?",
-      "respuesta": "La empresa debe cumplir normas, pagar impuestos y a veces solicitar permisos. <mark>Es una relación constante, no algo que ocurre solo una vez al crear la empresa</mark>. La Administración, a su vez, regula y supervisa esa actividad.",
+      "pregunta": "La empresa debe cumplir normas, pagar impuestos y a veces solicitar permisos. Es una relación constante, no algo que ocurre solo una vez al crear la empresa. La Administración, a su vez, regula y supervisa esa actividad. ¿Cómo es la relación entre empresa y Administración?",
+      "respuesta": "<mark>Constante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/relacion-empresa-administracion.jpg",
         "alt": "Antiguo ayuntamiento donde las empresas hacen sus gestiones locales.",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué las empresas necesitan llevar un control estricto de sus obligaciones fiscales?",
-      "respuesta": "Porque no cumplir a tiempo puede generar sanciones económicas importantes. <mark>Es como pagar un recibo tarde: casi siempre sale más caro que pagarlo a tiempo</mark>. Un buen control fiscal ayuda a planificar mejor la economía de la empresa.",
+      "pregunta": "No cumplir a tiempo puede generar sanciones económicas importantes. Es como pagar un recibo tarde: casi siempre sale más caro que pagarlo a tiempo. Un buen control ayuda a planificar mejor la economía de la empresa. ¿Qué tipo de control conviene llevar de forma estricta?",
+      "respuesta": "<mark>Control fiscal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/control-fiscal.jpg",
         "alt": "Factura con la cantidad a pagar señalada.",
@@ -196,8 +196,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la personalidad jurídica de una empresa?",
-      "respuesta": "Es la capacidad legal de una empresa para actuar como si fuera una persona. <mark>Puede firmar contratos, tener deudas o ser propietaria de bienes, igual que una persona</mark>. Las sociedades mercantiles tienen personalidad jurídica propia.",
+      "pregunta": "Es la capacidad legal de una empresa para actuar como si fuera una persona. Puede firmar contratos, tener deudas o ser propietaria de bienes, igual que una persona. Las sociedades mercantiles tienen esta capacidad propia. ¿Cómo se llama esta capacidad?",
+      "respuesta": "<mark>Personalidad jurídica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/personalidad-juridica.jpg",
         "alt": "Edificio de oficinas vacío disponible para una empresa.",
@@ -208,8 +208,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué se dice que la empresa individual es la forma jurídica más sencilla de emprender?",
-      "respuesta": "Porque no requiere crear una sociedad aparte ni tantos trámites iniciales. <mark>Es como empezar a trabajar directamente, sin tener que fundar antes una organización nueva</mark>. Es habitual entre autónomos y pequeños negocios.",
+      "pregunta": "No requiere crear una sociedad aparte ni tantos trámites iniciales. Es como empezar a trabajar directamente, sin tener que fundar antes una organización nueva. Es habitual entre autónomos y pequeños negocios. ¿Qué forma de empresa es la más sencilla para emprender?",
+      "respuesta": "<mark>La empresa individual</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/forma-juridica-sencilla.jpg",
         "alt": "Pequeño local comercial en una calle principal.",

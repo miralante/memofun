@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué significa entender un texto informativo?",
-      "respuesta": "Significa captar los datos y hechos principales que transmite. <mark>Es como quedarte con la información clave de una noticia, sin perderte en detalles</mark>.",
+      "pregunta": "Significa captar los datos y hechos principales que transmite. Es como quedarte con la información clave de una noticia, sin perderte en detalles. ¿Qué tipo de texto se entiende así?",
+      "respuesta": "<mark>Un texto informativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/entender-informativo.jpg",
         "alt": "Un hombre leyendo las noticias del día",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una noticia sencilla?",
-      "respuesta": "Es un texto que informa sobre algo que ha ocurrido, de forma breve y clara. <mark>Responde a preguntas básicas: qué pasó, quién, cuándo y dónde</mark>. Suele empezar por la información más importante.",
+      "pregunta": "Es un texto que informa sobre algo que ha ocurrido, de forma breve y clara. Responde a preguntas básicas: qué pasó, quién, cuándo y dónde. Suele empezar por la información más importante. ¿Cómo se llama este texto?",
+      "respuesta": "<mark>Noticia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/leyendo-periodico.jpg",
         "alt": "Una persona leyendo el periódico",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre un hecho y una opinión?",
-      "respuesta": "Un hecho es algo que se puede comprobar; una opinión es un punto de vista personal. <mark>Es como la diferencia entre 'llueve' y 'el tiempo hoy es horrible'</mark>.",
+      "pregunta": "Algo que se puede comprobar es distinto de un punto de vista personal. Es como la diferencia entre 'llueve' y 'el tiempo hoy es horrible'. ¿Cómo se llama lo que se puede comprobar?",
+      "respuesta": "<mark>Un hecho</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/hecho-opinion.jpg",
         "alt": "Una balanza equilibrando dos platos",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante distinguir hechos de opiniones al leer una noticia?",
-      "respuesta": "Porque ayuda a formarse una idea propia, sin dejarse influir solo por lo que piensa otra persona. <mark>Es como separar los datos reales de lo que alguien cree sobre ellos</mark>.",
+      "pregunta": "Ayuda a formarse una idea propia, sin dejarse influir solo por lo que piensa otra persona. Es como separar los datos reales de lo que alguien cree sobre ellos. ¿Qué conviene distinguir al leer una noticia?",
+      "respuesta": "<mark>Hechos y opiniones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/importante-distinguir.jpg",
         "alt": "Alguien comprobando algo con atención",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una carta formal?",
-      "respuesta": "Es un documento escrito con una estructura fija, usado para comunicarse de manera oficial. <mark>Sigue siempre un orden: encabezado, saludo, cuerpo y despedida</mark>.",
+      "pregunta": "Es un documento escrito con una estructura fija, usado para comunicarse de manera oficial. Sigue siempre un orden: encabezado, saludo, cuerpo y despedida. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Carta formal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/carta-formal.jpg",
         "alt": "Un sello postal antiguo",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué debe tener un correo electrónico formal?",
-      "respuesta": "Un asunto claro, un saludo, un mensaje bien organizado y una despedida educada. <mark>Es como una carta, pero pensada para leerse rápido en una pantalla</mark>.",
+      "pregunta": "Lleva un asunto claro, un saludo, un mensaje bien organizado y una despedida educada. Es como una carta, pero pensada para leerse rápido en una pantalla. ¿Qué tipo de correo tiene todos estos elementos?",
+      "respuesta": "<mark>Un correo formal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/correo-formal.jpg",
         "alt": "Un hombre revisando su correo electrónico en un portátil",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una instancia o solicitud?",
-      "respuesta": "Es un documento oficial para pedir algo a una administración o a una empresa. <mark>Es como una petición formal, escrita según un formato concreto</mark>.",
+      "pregunta": "Es un documento oficial para pedir algo a una administración o a una empresa. Es como una petición formal, escrita según un formato concreto. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Instancia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/instancia-solicitud.jpg",
         "alt": "Una antigua oficina de correos y telégrafos",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué información debe incluir una instancia bien rellenada?",
-      "respuesta": "Los datos personales, el motivo de la solicitud y la fecha. <mark>Es como rellenar una ficha completa, sin dejar huecos importantes</mark>. Un dato que falte puede retrasar todo el trámite.",
+      "pregunta": "Debe llevar los datos personales, el motivo de la solicitud y la fecha. Es como rellenar una ficha completa, sin dejar huecos importantes. Un dato que falte puede retrasar todo el trámite. ¿Qué documento reúne toda esta información?",
+      "respuesta": "<mark>La instancia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/info-instancia.jpg",
         "alt": "Un documento oficial completado a mano",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un currículum vitae?",
-      "respuesta": "Es el documento que resume la formación y la experiencia de una persona. <mark>Es como una tarjeta de presentación profesional, pensada para convencer a quien lo lee</mark>.",
+      "pregunta": "Es el documento que resume la formación y la experiencia de una persona. Es como una tarjeta de presentación profesional, pensada para convencer a quien lo lee. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Currículum vitae</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/curriculum-vitae2.jpg",
         "alt": "Un currículum vitae impreso",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se puede redactar un currículum con más claridad?",
-      "respuesta": "Usando frases cortas, organizando la información por bloques y evitando lo innecesario. <mark>Es como ordenar la información para que se lea de un vistazo</mark>.",
+      "pregunta": "Se logra usando frases cortas, organizando la información por bloques y evitando lo innecesario. Es como ordenar la información para que se lea de un vistazo. ¿Qué conviene hacer al redactar un currículum?",
+      "respuesta": "<mark>Ordenar la información</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/redactar-claridad.jpg",
         "alt": "Un espacio de trabajo ordenado",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre leer bien noticias y escribir bien documentos formales?",
-      "respuesta": "Ambas requieren entender y transmitir información con precisión y claridad. <mark>Es como usar la misma herramienta de dos formas distintas: para recibir y para dar información</mark>.",
+      "pregunta": "Ambas requieren entender y transmitir información con precisión y claridad. Es como usar la misma herramienta de dos formas distintas: para recibir y para dar información. ¿Qué tienen en común leer bien noticias y escribir bien documentos?",
+      "respuesta": "<mark>La precisión y claridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/leer-escribir-relacion.jpg",
         "alt": "Documentos y contratos sobre una mesa",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué se dice que redactar bien un documento es una forma de comunicación profesional?",
-      "respuesta": "Porque un documento bien escrito transmite seriedad y facilita que se entienda a la primera. <mark>Es como vestir bien para una ocasión importante, pero con las palabras</mark>.",
+      "pregunta": "Un documento bien escrito transmite seriedad y facilita que se entienda a la primera. Es como vestir bien para una ocasión importante, pero con las palabras. ¿Qué transmite un documento bien redactado?",
+      "respuesta": "<mark>Seriedad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/comunicacion-profesional.jpg",
         "alt": "Ropa de vestir profesional para el trabajo",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué conviene revisar antes de entregar una instancia o un currículum?",
-      "respuesta": "Que los datos estén completos, correctos y bien escritos. <mark>Es como repasar una lista antes de darla por terminada</mark>. Un error puede dar mala impresión.",
+      "pregunta": "Hay que comprobar que los datos estén completos, correctos y bien escritos. Es como repasar una lista antes de darla por terminada. Un error puede dar mala impresión. ¿Qué conviene hacer antes de entregar una instancia o un currículum?",
+      "respuesta": "<mark>Revisarlo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/revisar-instancia.jpg",
         "alt": "Alguien revisando cuentas y documentos con atención",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante saber diferenciar tipos de documentos formales?",
-      "respuesta": "Porque cada uno se usa para un propósito distinto: informar, pedir o presentar tu perfil. <mark>Es como saber qué herramienta usar según la tarea que tienes delante</mark>.",
+      "pregunta": "Cada uno se usa para un propósito distinto: informar, pedir o presentar tu perfil. Es como saber qué herramienta usar según la tarea que tienes delante. ¿Qué conviene saber sobre los documentos formales?",
+      "respuesta": "<mark>Diferenciarlos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/tipos-documentos.jpg",
         "alt": "Una gran pared llena de documentos organizados",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es útil practicar la lectura de textos informativos en el día a día?",
-      "respuesta": "Porque ayuda a estar mejor informado y a tomar decisiones con más criterio. <mark>Es como entrenar un músculo: cuanto más se practica, mejor funciona</mark>.",
+      "pregunta": "Ayuda a estar mejor informado y a tomar decisiones con más criterio. Es como entrenar un músculo: cuanto más se practica, mejor funciona. ¿Qué conviene practicar en el día a día?",
+      "respuesta": "<mark>La lectura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/practicar-lectura.jpg",
         "alt": "Una persona entrenando el brazo con pesas",

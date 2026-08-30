@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué partes básicas tiene un ordenador?",
-      "respuesta": "La torre, el monitor, el teclado y el ratón son las partes más básicas. <mark>Es como el cuerpo del ordenador: cada parte cumple una función distinta</mark>. La torre guarda los componentes principales.",
+      "pregunta": "Son como el cuerpo del ordenador: cada parte cumple una función distinta. Una guarda los componentes principales y otra muestra la imagen. Otras dos sirven para escribir y para señalar. ¿Cuáles son estas cuatro partes básicas?",
+      "respuesta": "<mark>Torre, monitor, teclado y ratón</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/escritorio-ordenador.jpg",
         "alt": "Un ordenador de escritorio con monitor y teclado",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la torre de un ordenador?",
-      "respuesta": "Es la caja que contiene los componentes principales, como el procesador y la memoria. <mark>Es como el cerebro y el corazón del ordenador, guardados en una misma caja</mark>. Ahí se procesa toda la información.",
+      "pregunta": "Es la caja que contiene los componentes principales, como el procesador y la memoria. Es como el cerebro y el corazón del ordenador, guardados en una misma caja. Ahí se procesa toda la información. ¿Cómo se llama esta caja?",
+      "respuesta": "<mark>Torre</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/torre-ordenador.jpg",
         "alt": "La parte trasera de la torre de un ordenador de escritorio",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un periférico?",
-      "respuesta": "Es un dispositivo que se conecta al ordenador para ampliar sus funciones. <mark>Es como un accesorio que añade una función nueva al equipo principal</mark>. La impresora, el escáner o los altavoces son periféricos.",
+      "pregunta": "Es un dispositivo que se conecta al ordenador para ampliar sus funciones. Es como un accesorio que añade una función nueva al equipo principal. La impresora, el escáner o los altavoces son ejemplos. ¿Cómo se llama este tipo de dispositivo?",
+      "respuesta": "<mark>Periférico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/ordenador-perifericos.jpg",
         "alt": "Un ordenador junto a sus periféricos",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirve una impresora?",
-      "respuesta": "Sirve para pasar documentos digitales a papel. <mark>Es como convertir lo que ves en pantalla en algo que puedes tocar</mark>. Se usa mucho en oficinas para imprimir contratos, facturas o cartas.",
+      "pregunta": "Sirve para pasar documentos digitales a papel. Es como convertir lo que ves en pantalla en algo que puedes tocar. Se usa mucho en oficinas para imprimir contratos, facturas o cartas. ¿Cómo se llama este aparato?",
+      "respuesta": "<mark>Impresora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/impresora-laser.jpg",
         "alt": "Una impresora láser de oficina",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirve un escáner?",
-      "respuesta": "Sirve para convertir un documento en papel en un archivo digital. <mark>Es como hacer el proceso contrario a una impresora</mark>. Facilita mucho archivar y compartir documentos sin usar papel.",
+      "pregunta": "Sirve para convertir un documento en papel en un archivo digital. Es como hacer el proceso contrario a una impresora. Facilita mucho archivar y compartir documentos sin usar papel. ¿Cómo se llama este aparato?",
+      "respuesta": "<mark>Escáner</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/escaner-plano.jpg",
         "alt": "Un escáner plano de oficina",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre hardware y software?",
-      "respuesta": "El hardware son las partes físicas del ordenador, las que se pueden tocar. <mark>El software son los programas, la parte que no se puede tocar</mark>. Ambos son necesarios para que un ordenador funcione.",
+      "pregunta": "Una parte del ordenador se puede tocar, como la pantalla o el teclado. La otra parte son los programas, que no se pueden tocar. Ambas son necesarias para que el ordenador funcione. ¿Cómo se llama la parte física que sí se puede tocar?",
+      "respuesta": "<mark>Hardware</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/placa-base-circuitos.jpg",
         "alt": "La placa base de un ordenador, un ejemplo de hardware",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un sistema operativo?",
-      "respuesta": "Es el programa principal que permite usar y controlar un ordenador. <mark>Es como el director de una orquesta, coordinando todos los programas y el hardware</mark>. Windows es un ejemplo muy conocido.",
+      "pregunta": "Es el programa principal que permite usar y controlar un ordenador. Es como el director de una orquesta, coordinando programas y hardware. Windows es un ejemplo muy conocido. ¿Cómo se llama este programa?",
+      "respuesta": "<mark>Sistema operativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/escritorio-pantalla-so.jpg",
         "alt": "La pantalla de un ordenador mostrando el escritorio de su sistema operativo",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirve un sistema operativo en el día a día?",
-      "respuesta": "Permite abrir programas, guardar archivos y conectar dispositivos al ordenador. <mark>Es la base sobre la que funciona todo lo demás en el ordenador</mark>. Sin él, el ordenador no sabría cómo hacer nada.",
+      "pregunta": "Permite abrir programas, guardar archivos y conectar dispositivos al ordenador. Es la base sobre la que funciona todo lo demás. Sin él, el ordenador no sabría cómo hacer nada. ¿Qué programa cumple esta función?",
+      "respuesta": "<mark>El sistema operativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/mujer-portatil-movil.jpg",
         "alt": "Una persona usando el ordenador portátil en su día a día",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un archivo informático?",
-      "respuesta": "Es cualquier documento, imagen o programa guardado en el ordenador. <mark>Es como una hoja de papel guardada dentro de una carpeta digital</mark>. Cada archivo tiene un nombre y un tipo.",
+      "pregunta": "Es cualquier documento, imagen o programa guardado en el ordenador. Es como una hoja de papel guardada dentro de una carpeta digital. Cada uno tiene un nombre y un tipo. ¿Cómo se llama esto que se guarda?",
+      "respuesta": "<mark>Archivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/archivo-usb-almacenamiento.jpg",
         "alt": "Dispositivos USB usados para guardar archivos informáticos",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una carpeta informática?",
-      "respuesta": "Es un espacio donde se guardan y organizan archivos relacionados entre sí. <mark>Es como una carpeta física, pero dentro del ordenador</mark>. Sin carpetas, sería mucho más difícil encontrar cualquier archivo.",
+      "pregunta": "Es un espacio donde se guardan y organizan archivos relacionados entre sí. Es como una carpeta física, pero dentro del ordenador. Sin ella, sería mucho más difícil encontrar cualquier archivo. ¿Cómo se llama este espacio?",
+      "respuesta": "<mark>Carpeta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/carpetas-manila.jpg",
         "alt": "Carpetas de papel, como las carpetas de un ordenador",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante organizar bien archivos y carpetas?",
-      "respuesta": "Porque facilita encontrar cualquier documento rápidamente cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo mezclado en un mismo montón</mark>.",
+      "pregunta": "Organizarlos bien facilita encontrar cualquier documento rápidamente cuando se necesita. Es como tener cada cosa en su cajón, en vez de todo mezclado en un mismo montón. ¿Qué conviene hacer con archivos y carpetas?",
+      "respuesta": "<mark>Organizarlos bien</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/organizando-documentos.jpg",
         "alt": "Una persona organizando documentos",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una red local en una oficina?",
-      "respuesta": "Es la conexión que une varios ordenadores dentro de un mismo espacio de trabajo. <mark>Es como una calle privada que conecta solo las casas de un mismo barrio</mark>. Permite compartir archivos e impresoras.",
+      "pregunta": "Es la conexión que une varios ordenadores dentro de un mismo espacio de trabajo. Es como una calle privada que conecta solo las casas de un mismo barrio. Permite compartir archivos e impresoras. ¿Cómo se llama esta conexión?",
+      "respuesta": "<mark>Red local</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/red-cables-organizados.jpg",
         "alt": "Cables de red organizados, como una red local de oficina",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirve compartir una impresora en red?",
-      "respuesta": "Permite que varios ordenadores usen la misma impresora sin necesidad de tener una cada uno. <mark>Es como compartir un electrodoméstico entre varias personas de la misma casa</mark>.",
+      "pregunta": "Permite que varios ordenadores usen la misma impresora sin necesidad de tener una cada uno. Es como compartir un electrodoméstico entre varias personas de la misma casa. ¿Qué se comparte en una red de oficina?",
+      "respuesta": "<mark>Una impresora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/impresora-red-oficina.jpg",
         "alt": "Una impresora de oficina compartida en red",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué papel tiene el teclado en el uso diario de un ordenador?",
-      "respuesta": "Permite escribir texto y dar órdenes básicas al ordenador. <mark>Es la herramienta principal para introducir información escrita</mark>. Junto al ratón, es uno de los periféricos más usados.",
+      "pregunta": "Permite escribir texto y dar órdenes básicas al ordenador. Es la herramienta principal para introducir información escrita. Junto al ratón, es uno de los periféricos más usados. ¿Cómo se llama este periférico?",
+      "respuesta": "<mark>Teclado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/teclado-ordenador.jpg",
         "alt": "Un teclado de ordenador",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante distinguir hardware de software al pedir ayuda técnica?",
-      "respuesta": "Porque el problema puede estar en el equipo físico o en un programa. <mark>Es como saber si un coche falla por el motor o por el sistema de navegación</mark>.",
+      "pregunta": "El problema de un ordenador puede estar en el equipo físico o en un programa. Es como saber si un coche falla por el motor o por el sistema de navegación. ¿Qué conviene distinguir al pedir ayuda técnica?",
+      "respuesta": "<mark>Hardware y software</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/soporte-tecnico-frustracion.jpg",
         "alt": "Una persona pidiendo ayuda con un problema de su ordenador",

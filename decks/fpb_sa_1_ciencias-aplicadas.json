@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Cuáles son los tres estados de la materia?",
-      "respuesta": "Sólido, líquido y gaseoso son los tres estados más comunes. <mark>Es como el hielo, el agua y el vapor: la misma sustancia, en formas distintas</mark>. El calor o el frío pueden cambiar la materia de un estado a otro.",
+      "pregunta": "El hielo, el agua y el vapor son la misma sustancia en formas distintas. El calor o el frío pueden cambiar la materia de una forma a otra. ¿Cómo se llaman estas tres formas de la materia?",
+      "respuesta": "<mark>Sólido, líquido y gaseoso</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/vapor-agua.jpg",
         "alt": "Un caldero echando vapor de agua",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué propiedades tienen los materiales que usamos cada día?",
-      "respuesta": "Cada material tiene su propia dureza, peso y resistencia al calor o al agua. <mark>Es como elegir la herramienta correcta para cada tarea, según sus propiedades</mark>. Por eso el papel, el metal o el plástico se usan para cosas distintas.",
+      "pregunta": "Eliges la herramienta correcta para cada tarea según sus características. El papel, el metal o el plástico se usan para cosas distintas. Cada material tiene su propia dureza, peso y resistencia. ¿Cómo se llaman estas características de un material?",
+      "respuesta": "<mark>Propiedades del material</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/herramientas-materiales.jpg",
         "alt": "Herramientas antiguas hechas de distintos materiales",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la energía?",
-      "respuesta": "Es la capacidad de hacer que algo se mueva, se caliente o funcione. <mark>Es como el combustible invisible que hace que las cosas pasen</mark>. Puede venir del sol, del viento o de combustibles como el petróleo.",
+      "pregunta": "Es el combustible invisible que hace que las cosas se muevan o funcionen. Puede venir del sol, del viento o de combustibles como el petróleo. ¿Cómo se llama esta capacidad de hacer que algo pase?",
+      "respuesta": "<mark>Energía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/paneles-solares.jpg",
         "alt": "Paneles solares captando la energía del sol",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre las energías renovables y las no renovables?",
-      "respuesta": "Las renovables, como el sol o el viento, no se agotan nunca. <mark>Las no renovables, como el petróleo o el carbón, sí se acaban con el tiempo</mark>. Las renovables también contaminan mucho menos.",
+      "pregunta": "El sol o el viento no se agotan nunca. El petróleo o el carbón, en cambio, sí se acaban con el tiempo. Unas contaminan mucho menos que las otras. ¿Qué tipo de energía nunca se agota?",
+      "respuesta": "<mark>Energía renovable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/molino-viento.jpg",
         "alt": "Un molino de viento generando electricidad",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué hábitos forman una alimentación saludable?",
-      "respuesta": "Comer variado, con frutas, verduras y suficiente agua cada día. <mark>Es como darle a tu cuerpo distintos combustibles para que funcione bien</mark>. Evitar el exceso de azúcar y de comida procesada también ayuda.",
+      "pregunta": "Le das a tu cuerpo distintos combustibles para que funcione bien. Comer variado, con frutas, verduras y suficiente agua cada día, ayuda mucho. Evitar el exceso de azúcar y de comida procesada también cuenta. ¿Cómo se llama este conjunto de hábitos?",
+      "respuesta": "<mark>Alimentación saludable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/frutas-verduras.jpg",
         "alt": "Un bol lleno de frutas y verduras variadas",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante hacer ejercicio de forma regular?",
-      "respuesta": "Porque fortalece el cuerpo y ayuda a sentirse mejor también por dentro. <mark>Es como poner a punto una máquina para que funcione mejor cada día</mark>. Moverse cada día ya marca una diferencia importante.",
+      "pregunta": "Pones a punto una máquina para que funcione mejor cada día. El cuerpo funciona igual: moverse cada día ya marca una diferencia importante. Fortalece el cuerpo y ayuda a sentirse mejor por dentro. ¿Qué actividad conviene hacer de forma regular?",
+      "respuesta": "<mark>Ejercicio físico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/persona-corriendo.jpg",
         "alt": "Una persona haciendo ejercicio corriendo en un parque",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué sistemas básicos tiene el cuerpo humano?",
-      "respuesta": "El sistema digestivo, el respiratorio, el circulatorio y el nervioso, entre otros. <mark>Cada sistema hace un trabajo distinto, pero todos están conectados entre sí</mark>. Conocerlos ayuda a cuidar mejor la propia salud.",
+      "pregunta": "El sistema digestivo, el respiratorio, el circulatorio y el nervioso hacen trabajos distintos. Todos están conectados entre sí. Conocerlos ayuda a cuidar mejor la propia salud. ¿Cómo se llaman estas partes del cuerpo que trabajan juntas?",
+      "respuesta": "<mark>Sistemas del cuerpo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/organos-cuerpo-humano.jpg",
         "alt": "Un dibujo con los órganos internos del cuerpo humano",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la higiene personal?",
-      "respuesta": "Es el cuidado del propio cuerpo: lavarse, vestir limpio y cuidar la salud básica. <mark>Es como mantener limpia y ordenada tu propia casa</mark>. Ayuda a prevenir enfermedades y a sentirse mejor.",
+      "pregunta": "Mantienes limpia y ordenada tu propia casa para vivir mejor. Con el cuerpo se hace algo parecido: lavarse, vestir limpio y cuidar la salud básica. Ayuda a prevenir enfermedades y a sentirse mejor. ¿Cómo se llama este cuidado del propio cuerpo?",
+      "respuesta": "<mark>Higiene personal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/lavado-manos.jpg",
         "alt": "Una persona lavándose las manos con jabón",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante la higiene en el puesto de trabajo?",
-      "respuesta": "Porque un espacio limpio y ordenado es más seguro y agradable para trabajar. <mark>Es como mantener ordenada una mesa de trabajo para encontrar todo más rápido</mark>. También transmite una buena imagen a compañeros y clientes.",
+      "pregunta": "Mantienes ordenada una mesa de trabajo para encontrar todo más rápido. Un espacio limpio y ordenado es también más seguro y agradable para trabajar. Transmite una buena imagen a compañeros y clientes. ¿Qué conviene cuidar siempre en el puesto de trabajo?",
+      "respuesta": "<mark>La higiene</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/mesa-trabajo-ordenada.jpg",
         "alt": "Una mesa de trabajo ordenada y limpia",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el reciclaje?",
-      "respuesta": "Es separar los residuos según su tipo para poder reutilizarlos. <mark>Es como darle una segunda vida a algo, en vez de tirarlo directamente</mark>. Reciclar bien reduce la cantidad de basura que se genera.",
+      "pregunta": "Le das una segunda vida a algo, en vez de tirarlo directamente. Separar los residuos según su tipo permite reutilizarlos. Reduce la cantidad de basura que se genera. ¿Cómo se llama esta forma de tratar los residuos?",
+      "respuesta": "<mark>Reciclaje</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/contenedor-reciclaje.jpg",
         "alt": "Un contenedor de reciclaje para separar residuos",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué tipos de residuos se pueden separar en una oficina?",
-      "respuesta": "Papel y cartón, plástico y envases, y residuos generales, entre otros. <mark>Cada tipo va a un contenedor distinto, como cada cosa a su cajón</mark>. Separarlos bien facilita mucho su reciclaje posterior.",
+      "pregunta": "Cada cosa va a su cajón correspondiente en un escritorio ordenado. En una oficina pasa igual: cada tipo de residuo va a un contenedor distinto. Separarlos bien facilita mucho su reciclaje posterior. ¿Qué tipos de residuos se separan en una oficina?",
+      "respuesta": "<mark>Papel, plástico y generales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/contenedor-reciclaje-oficina.jpg",
         "alt": "Un contenedor de reciclaje de papel",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué el agua es un recurso que hay que cuidar?",
-      "respuesta": "Porque, aunque parezca abundante, el agua potable es limitada. <mark>Es como un recurso compartido que se agota si todos lo malgastan</mark>. Cerrar bien los grifos o no derrocharla ayuda a cuidarla.",
+      "pregunta": "Un recurso compartido se agota si todo el mundo lo malgasta. El agua potable parece abundante, pero es limitada. Cerrar bien los grifos o no derrocharla ayuda a cuidarla. ¿Qué recurso hay que cuidar siempre en casa y en el trabajo?",
+      "respuesta": "<mark>El agua</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/grifo-agua.jpg",
         "alt": "Un grifo de agua, símbolo de cuidar este recurso",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Qué riesgos son comunes en una oficina?",
-      "respuesta": "Malas posturas, cables sueltos, o exceso de peso al levantar cajas. <mark>Son riesgos menos evidentes que los de una obra, pero igual de reales</mark>. Prevenirlos incluye una buena organización del espacio de trabajo.",
+      "pregunta": "Son riesgos menos evidentes que los de una obra, pero igual de reales. Malas posturas, cables sueltos o exceso de peso al levantar cajas son ejemplos. Prevenirlos incluye una buena organización del espacio de trabajo. ¿Cómo se llaman estos peligros en una oficina?",
+      "respuesta": "<mark>Riesgos laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/cables-enredados.jpg",
         "alt": "Cables de ordenador enredados en un escritorio",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se puede prevenir una mala postura al trabajar sentado?",
-      "respuesta": "Ajustando la altura de la silla y de la pantalla, y haciendo pausas. <mark>Es como acomodar bien un asiento antes de un viaje largo</mark>. Mantener la espalda recta evita dolores a largo plazo.",
+      "pregunta": "Acomodas bien un asiento antes de un viaje largo. Ajustar la altura de la silla y de la pantalla, y hacer pausas, funciona igual. Mantener la espalda recta evita dolores a largo plazo. ¿Qué conviene cuidar al trabajar sentado?",
+      "respuesta": "<mark>La postura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/silla-oficina.jpg",
         "alt": "Una silla de oficina ergonómica",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los primeros auxilios básicos?",
-      "respuesta": "Son las primeras acciones que se hacen para ayudar a alguien antes de que llegue ayuda profesional. <mark>Es como dar los primeros pasos de una ayuda, sin sustituir a un médico</mark>. Conocerlos puede marcar la diferencia en una emergencia.",
+      "pregunta": "Das los primeros pasos de una ayuda, sin sustituir a un médico. Son las primeras acciones que se hacen para ayudar a alguien antes de que llegue ayuda profesional. Conocerlas puede marcar la diferencia en una emergencia. ¿Cómo se llaman estas primeras acciones?",
+      "respuesta": "<mark>Primeros auxilios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/botiquin-primeros-auxilios.jpg",
         "alt": "Un botiquín de primeros auxilios",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Qué se debe hacer ante un accidente leve en el trabajo?",
-      "respuesta": "Mantener la calma, valorar la situación y pedir ayuda si es necesario. <mark>Es como seguir un protocolo, paso a paso, sin actuar de forma precipitada</mark>. Avisar a la persona responsable de prevención también es importante.",
+      "pregunta": "Sigues un protocolo paso a paso, sin actuar de forma precipitada. Ante un accidente leve, hay que mantener la calma, valorar la situación y pedir ayuda si es necesario. Avisar a la persona responsable de prevención también es importante. ¿Qué debes seguir ante un accidente leve?",
+      "respuesta": "<mark>Un protocolo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/aviso-primeros-auxilios.jpg",
         "alt": "Un antiguo aviso informativo sobre primeros auxilios",
@@ -196,8 +196,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre la ciencia aplicada y la vida diaria en una oficina?",
-      "respuesta": "Ayuda a entender por qué se cuida la salud, el ambiente y la seguridad en el trabajo. <mark>Es como aplicar pequeños conocimientos científicos a decisiones muy cotidianas</mark>. Desde reciclar hasta sentarse bien, la ciencia está detrás.",
+      "pregunta": "Aplicas pequeños conocimientos científicos a decisiones muy cotidianas. Desde reciclar hasta sentarse bien, la ciencia está siempre detrás. Ayuda a entender por qué se cuida la salud, el ambiente y la seguridad en el trabajo. ¿Cómo se llama usar la ciencia en la vida diaria?",
+      "respuesta": "<mark>Ciencia aplicada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/escritorio-multimedia.jpg",
         "alt": "Un escritorio de oficina con ordenador y equipo multimedia",
@@ -208,8 +208,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué cuidar el medio ambiente también es responsabilidad de una oficina?",
-      "respuesta": "Porque cada empresa, por pequeña que sea, genera un impacto ambiental. <mark>Es como sumar pequeños gestos que, juntos, marcan una diferencia real</mark>. Reciclar, ahorrar energía o cuidar el agua son gestos que suman.",
+      "pregunta": "Sumas pequeños gestos que, juntos, marcan una diferencia real. Cada empresa, por pequeña que sea, genera un impacto ambiental. Reciclar, ahorrar energía o cuidar el agua son gestos que suman. ¿De qué es responsable también una oficina?",
+      "respuesta": "<mark>Del medio ambiente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/planta-escritorio.jpg",
         "alt": "Una mesa de oficina con una planta, un portátil y un reloj",

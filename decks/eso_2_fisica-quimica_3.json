@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es un átomo?",
-      "respuesta": "Es la partícula más pequeña que conserva las propiedades de un elemento químico. <mark>Es como el ladrillo más diminuto con el que se construye toda la materia</mark>. Durante mucho tiempo se pensó que era indivisible. Hoy sabemos que está formado por partículas más pequeñas.",
+      "pregunta": "Es la partícula más pequeña que aún conserva las propiedades de un elemento químico. Es como el ladrillo más diminuto con el que se construye toda la materia. Hoy sabemos que está formada por partículas aún más pequeñas. ¿Cómo se llama esta partícula?",
+      "respuesta": "<mark>Átomo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/atomo-modelo-bohr.gif",
         "alt": "Animación de un átomo con un núcleo central y electrones girando a su alrededor",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué proponía el modelo atómico de Thomson?",
-      "respuesta": "Proponía que el átomo era una esfera con carga positiva y electrones dentro. <mark>Se le suele comparar con un pudin con pasas, donde las pasas serían los electrones</mark>. Fue uno de los primeros modelos con partículas dentro del átomo. Después se demostró que no era del todo correcto.",
+      "pregunta": "Un primer modelo imaginaba el átomo como una esfera con carga positiva y electrones dentro. Se le suele comparar con un pudin con pasas, donde las pasas serían los electrones. Después se demostró que no era del todo correcto. ¿Cómo se llama este modelo atómico?",
+      "respuesta": "<mark>Modelo de Thomson</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-thomson-pudin.svg",
         "alt": "Esquema del modelo atómico de Thomson: una esfera con electrones repartidos dentro, como pasas en un pudin",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué proponía el modelo atómico de Rutherford?",
-      "respuesta": "Proponía que el átomo tiene un núcleo pequeño y denso, con los electrones girando alrededor. <mark>Es como un pequeño sistema solar, con un núcleo en el centro y electrones orbitando</mark>. Descubrió que la mayor parte del átomo es espacio prácticamente vacío.",
+      "pregunta": "Otro modelo propuso un núcleo pequeño y denso, con los electrones girando alrededor. Es como un pequeño sistema solar, con un núcleo en el centro. Descubrió que la mayor parte del átomo es espacio casi vacío. ¿Cómo se llama este modelo atómico?",
+      "respuesta": "<mark>Modelo de Rutherford</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-rutherford.jpg",
         "alt": "Esquema del modelo atómico de Rutherford, con un núcleo central y electrones orbitando como planetas",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la tabla periódica de los elementos?",
-      "respuesta": "Es un cuadro que organiza todos los elementos químicos conocidos. <mark>Es como un armario ordenado, donde cada elemento tiene su cajón según sus propiedades</mark>. Los agrupa según características parecidas. Ayuda a predecir cómo se comportará un elemento sin probarlo.",
+      "pregunta": "Todos los elementos químicos están organizados en un mismo cuadro. Es como un armario ordenado, donde cada elemento tiene su cajón. Los agrupa por características parecidas. ¿Cómo se llama este cuadro?",
+      "respuesta": "<mark>Tabla periódica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/tabla-periodica.jpg",
         "alt": "La tabla periódica de los elementos químicos",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el número atómico de un elemento?",
-      "respuesta": "Es el número de protones que tiene un átomo de ese elemento. <mark>Es como el número de identidad único de cada elemento químico</mark>. Determina de qué elemento se trata exactamente. Los elementos de la tabla periódica están ordenados según ese número.",
+      "pregunta": "Cada átomo de un elemento tiene un número fijo de protones. Es como el número de identidad único de cada elemento químico. Los elementos de la tabla periódica están ordenados según ese número. ¿Cómo se llama ese número?",
+      "respuesta": "<mark>Número atómico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/numero-atomico-identidad-elemento.png",
         "alt": "Diagrama que muestra cómo el número atómico identifica a cada elemento químico",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué diferencia hay entre una sustancia simple y una compuesta?",
-      "respuesta": "Una sustancia simple está formada por átomos de un solo elemento. <mark>Una sustancia compuesta combina átomos de dos o más elementos distintos</mark>. El oxígeno que respiramos es una sustancia simple. El agua, formada por hidrógeno y oxígeno, es compuesta.",
+      "pregunta": "El oxígeno que respiramos está formado por átomos de un solo elemento. El agua, en cambio, combina átomos de hidrógeno y oxígeno, dos elementos distintos. ¿Cómo se llama una sustancia con átomos de un único elemento?",
+      "respuesta": "<mark>Sustancia simple</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/sustancia-simple-elemento-puro.jpg",
         "alt": "Trozos de cromo puro, un ejemplo de sustancia simple formada por un solo elemento",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una molécula?",
-      "respuesta": "Es un grupo de átomos unidos que forman la unidad más pequeña de una sustancia. <mark>Es como un pequeño grupo de piezas de Lego unidas de una forma concreta</mark>. Pueden estar formadas por átomos iguales o distintos. El agua es una molécula de hidrógeno y oxígeno.",
+      "pregunta": "Un grupo de átomos unidos forma la unidad más pequeña de una sustancia. Es como un pequeño grupo de piezas de Lego unidas de una forma concreta. El agua está formada por hidrógeno y oxígeno unidos así. ¿Cómo se llama este grupo de átomos unidos?",
+      "respuesta": "<mark>Molécula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/molecula-agua-modelo.jpg",
         "alt": "Modelo de bolas y varillas de una molécula de agua, con un átomo de oxígeno unido a dos de hidrógeno",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un cambio físico de la materia?",
-      "respuesta": "Es un cambio que no altera la composición de la sustancia. <mark>Es como doblar una hoja de papel: sigue siendo el mismo papel, solo con otra forma</mark>. Cambiar de estado, como fundir hielo, es un cambio físico. La sustancia es la misma antes y después.",
+      "pregunta": "Doblar una hoja de papel no cambia su composición: sigue siendo el mismo papel. Fundir un bloque de hielo tampoco: la sustancia es la misma antes y después. ¿Cómo se llama este tipo de cambio?",
+      "respuesta": "<mark>Cambio físico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/cambio-fisico-hielo-fundiendo.jpg",
         "alt": "Bloques de hielo fundiéndose, un ejemplo de cambio físico",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un cambio químico de la materia?",
-      "respuesta": "Es un cambio que transforma una sustancia en otra distinta. <mark>Es como quemar papel: se convierte en cenizas y humo, algo totalmente distinto</mark>. Se forman nuevas sustancias con propiedades diferentes. Ese proceso también se llama reacción química.",
+      "pregunta": "Quemar papel lo convierte en cenizas y humo, una sustancia distinta a la original. Ese proceso también se llama reacción química. ¿Cómo se llama este tipo de cambio?",
+      "respuesta": "<mark>Cambio químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/cambio-quimico-papel-quemando.jpg",
         "alt": "Papel ardiendo, un ejemplo de cambio químico que forma cenizas y humo",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Cómo se puede saber si ha ocurrido un cambio químico?",
-      "respuesta": "Suele haber señales como cambio de color, de olor, o desprendimiento de gas. <mark>Es como notar que algo ha cambiado de verdad, no solo de aspecto</mark>. También puede aparecer un sólido nuevo o liberarse calor. Distinguen un cambio químico de uno físico.",
+      "pregunta": "A veces cambia el color o el olor de una sustancia, o se desprende gas. También puede aparecer un sólido nuevo o liberarse calor. Estas señales distinguen un tipo de cambio de un simple cambio de aspecto. ¿Qué tipo de cambio es?",
+      "respuesta": "<mark>Cambio químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/senales-reaccion-quimica.jpg",
         "alt": "Una reacción química en marcha, con burbujas de gas como señal del cambio",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una reacción química?",
-      "respuesta": "Es un proceso donde unas sustancias se transforman en otras distintas. <mark>Es como una receta donde los ingredientes originales desaparecen para formar algo nuevo</mark>. Las sustancias iniciales se llaman reactivos; las finales, productos. Ocurren constantemente a nuestro alrededor.",
+      "pregunta": "Unas sustancias se transforman en otras completamente distintas. Es como una receta donde los ingredientes originales desaparecen para formar algo nuevo. Las sustancias iniciales se llaman reactivos; las finales, productos. ¿Cómo se llama este proceso?",
+      "respuesta": "<mark>Reacción química</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/reaccion-quimica-tubos-ensayo.jpg",
         "alt": "Tubos de ensayo graduados con líquidos rojos y azules, usados para mezclar sustancias en una reacción",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué son importantes los modelos atómicos para entender la química?",
-      "respuesta": "Porque ayudan a explicar cómo se comportan y se combinan los elementos. <mark>Es como tener un mapa que explica por qué las piezas encajan de una forma y no de otra</mark>. Sin un modelo del átomo, sería difícil predecir las reacciones químicas.",
+      "pregunta": "Un mapa antiguo ayuda a entender por qué las cosas encajan de una forma y no de otra. De un modo parecido, algo ayuda a explicar cómo se comportan y se combinan los elementos. Sin ello sería difícil predecir las reacciones químicas. ¿Cómo se llama esta representación del átomo?",
+      "respuesta": "<mark>Modelo atómico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelos-atomicos-mapa-antiguo.jpg",
         "alt": "Un mapa antiguo, como ejemplo de una guía que ayuda a entender y predecir",

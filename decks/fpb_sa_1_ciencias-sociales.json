@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Cómo se organiza territorialmente España?",
-      "respuesta": "España se divide en comunidades autónomas, y estas en provincias. <mark>Es como un país hecho de piezas más pequeñas, cada una con su propio gobierno</mark>. Cada comunidad autónoma tiene su capital y sus propias competencias.",
+      "pregunta": "España no es un bloque único: se divide en piezas más pequeñas, cada una con su propio gobierno y capital. Esas piezas se agrupan después en provincias. ¿Cómo se llama cada una de esas piezas?",
+      "respuesta": "<mark>Comunidad autónoma</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/organizacion-territorial.jpg",
         "alt": "Ayuntamiento de una ciudad española con banderas ondeando.",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Dónde está Madrid dentro de España?",
-      "respuesta": "Madrid es una comunidad autónoma propia, situada en el centro de España. <mark>Es como el corazón geográfico del país, además de su capital</mark>. Su ciudad principal es también la capital de todo el país.",
+      "pregunta": "Es una comunidad autónoma situada en el centro de España, como el corazón geográfico del país. Su ciudad principal es además la capital de España entera. ¿Qué comunidad autónoma es?",
+      "respuesta": "<mark>Madrid</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/madrid-espana.jpg",
         "alt": "La Puerta del Sol, una de las plazas más conocidas de Madrid.",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la Unión Europea?",
-      "respuesta": "Es una unión de países europeos que colaboran en economía y política. <mark>Es como un gran equipo de países que comparten normas y beneficios comunes</mark>. España forma parte de ella desde 1986.",
+      "pregunta": "Es una unión de países europeos que colaboran en economía y política, como un gran equipo que comparte normas y beneficios. España forma parte de ella desde 1986. ¿Cómo se llama esta unión de países?",
+      "respuesta": "<mark>Unión Europea</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/union-europea.jpg",
         "alt": "Varias banderas de la Unión Europea ondeando juntas.",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué países son vecinos de España?",
-      "respuesta": "Portugal, Francia y Andorra son sus vecinos más cercanos por tierra. <mark>Es como tener vecinos de puerta, pero a escala de países</mark>. Esos países comparten frontera y también historia con España.",
+      "pregunta": "Son los países que comparten frontera por tierra con España, como vecinos de puerta pero a escala de países. También comparten mucha historia con España. ¿Qué tres países son estos vecinos?",
+      "respuesta": "<mark>Portugal, Francia y Andorra</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/paises-vecinos.png",
         "alt": "Mapa de la península ibérica, donde se ve España junto a sus países vecinos.",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una Constitución?",
-      "respuesta": "Es la ley más importante de un país, por encima de todas las demás. <mark>Es como el manual de instrucciones que dice cómo debe funcionar un país</mark>. Recoge los derechos, los deberes y cómo se organiza el poder.",
+      "pregunta": "Es la ley más importante de un país, por encima de todas las demás, como el manual de instrucciones que dice cómo debe funcionar. Recoge los derechos, los deberes y cómo se organiza el poder. ¿Cómo se llama esta ley principal?",
+      "respuesta": "<mark>Constitución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/constitucion-concepto.jpg",
         "alt": "Mazo de juez, símbolo de las leyes y la justicia.",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la Constitución Española de 1978?",
-      "respuesta": "Es la ley fundamental que rige España desde el final de la dictadura. <mark>Marca el inicio de la democracia moderna en España</mark>. Recoge derechos como la libertad de expresión o la igualdad.",
+      "pregunta": "Es la ley fundamental que rige España desde el final de la dictadura, marcando el inicio de la democracia moderna. Recoge derechos como la libertad de expresión o la igualdad. ¿En qué año se aprobó esta ley?",
+      "respuesta": "<mark>1978</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/constitucion-1978.jpg",
         "alt": "Balanza de la justicia frente a un edificio de tribunales.",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué derechos básicos recoge la Constitución Española?",
-      "respuesta": "El derecho a la educación, a la salud, al trabajo y a la libertad de expresión, entre otros. <mark>Son garantías que protegen a cualquier persona en España</mark>. También recoge deberes, como pagar impuestos o respetar las leyes.",
+      "pregunta": "La ley más importante de España garantiza a cualquier persona la educación, la salud, el trabajo y la libertad de expresión. También exige deberes, como pagar impuestos o respetar las leyes. ¿Cómo se llaman estas garantías?",
+      "respuesta": "<mark>Derechos básicos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/derechos-basicos.jpg",
         "alt": "Balanza de la justicia, símbolo de los derechos y la igualdad.",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Cuáles son los tres poderes del Estado?",
-      "respuesta": "El legislativo, que hace las leyes; el ejecutivo, que gobierna; y el judicial, que juzga. <mark>Es como repartir el poder en tres partes, para que ninguna tenga demasiado</mark>. Es la base de cualquier democracia moderna.",
+      "pregunta": "Un país reparte el poder en tres partes, para que ninguna tenga demasiado: una hace las leyes, otra gobierna y otra juzga. Es la base de cualquier democracia moderna. ¿Cómo se llaman estas tres partes del Estado?",
+      "respuesta": "<mark>Legislativo, ejecutivo y judicial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/tres-poderes.jpg",
         "alt": "Edificio del Congreso de los Diputados en Madrid.",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el voto en unas elecciones?",
-      "respuesta": "Es la forma en que los ciudadanos eligen a quienes van a gobernar. <mark>Es como decidir entre todos quién representará nuestras ideas</mark>. Cada voto cuenta igual, sin importar quién lo emita.",
+      "pregunta": "Es la forma en que los ciudadanos eligen a quienes van a gobernar. Cada voto cuenta igual, sin importar quién lo emita. ¿Cómo se llama esta acción de elegir a los representantes?",
+      "respuesta": "<mark>Votar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/elecciones-votar.jpg",
         "alt": "Personas votando en unas elecciones",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante votar en unas elecciones?",
-      "respuesta": "Porque es la forma más directa de influir en quién toma las decisiones importantes. <mark>Es como opinar sobre las reglas del lugar donde vives</mark>. No votar también es una decisión, pero deja que otros decidan por ti.",
+      "pregunta": "Es la forma más directa de influir en quién toma las decisiones importantes, como opinar sobre las reglas del lugar donde vives. No hacerlo también es una decisión, pero deja que otros decidan por ti. ¿Qué acción, en unas elecciones, permite participar así?",
+      "respuesta": "<mark>El voto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/votar-elecciones.jpg",
         "alt": "Urna electoral utilizada para depositar los votos.",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa la igualdad entre hombres y mujeres como derecho?",
-      "respuesta": "Significa que ambos deben tener las mismas oportunidades y el mismo trato legal. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, de trabajo y de trato social.",
+      "pregunta": "Significa que hombres y mujeres tengan las mismas oportunidades y el mismo trato legal, como partir desde la misma línea de salida. Incluye igual salario, igual trabajo y el mismo trato social. ¿Cómo se llama este derecho?",
+      "respuesta": "<mark>Igualdad de género</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/igualdad-hombres-mujeres.jpg",
         "alt": "Hombres y mujeres trabajando juntos como iguales.",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es un presupuesto familiar?",
-      "respuesta": "Es organizar cuánto dinero entra y cuánto se gasta en una casa. <mark>Es como hacer cuentas para que el dinero llegue a fin de mes</mark>. Incluye ingresos, como el sueldo, y gastos, como la comida o el alquiler.",
+      "pregunta": "Es organizar cuánto dinero entra y cuánto se gasta en una casa, como hacer cuentas para que el dinero llegue a fin de mes. Incluye ingresos, como el sueldo, y gastos, como la comida o el alquiler. ¿Cómo se llama esta forma de organizar el dinero de una casa?",
+      "respuesta": "<mark>Presupuesto familiar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/presupuesto-familiar.jpg",
         "alt": "Hucha para guardar el dinero ahorrado.",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es útil ahorrar dinero?",
-      "respuesta": "Porque permite hacer frente a gastos inesperados o a metas futuras. <mark>Es como guardar comida para cuando haga falta, pero con dinero</mark>. No hace falta ahorrar mucho: cualquier cantidad regular ayuda.",
+      "pregunta": "Guardar dinero poco a poco permite hacer frente a gastos inesperados o a metas futuras, como guardar comida para cuando haga falta. No hace falta guardar mucho: cualquier cantidad regular ayuda. ¿Cómo se llama este hábito?",
+      "respuesta": "<mark>Ahorrar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/ahorrar-dinero.jpg",
         "alt": "Hucha con monedas dentro, símbolo del ahorro.",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los derechos de las personas consumidoras?",
-      "respuesta": "Son garantías legales que protegen a quien compra un producto o contrata un servicio. <mark>Es como una red de seguridad que nadie puede quitarte al comprar algo</mark>. Incluyen el derecho a la información y a reclamar.",
+      "pregunta": "Son garantías legales que protegen a quien compra un producto o contrata un servicio, como una red de seguridad que nadie puede quitarte. Incluyen el derecho a la información y a reclamar. ¿Cómo se llaman estos derechos?",
+      "respuesta": "<mark>Derechos de las personas consumidoras</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/derechos-consumidoras.jpg",
         "alt": "Ticket de compra de un supermercado.",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Qué información debe tener una factura o un ticket de compra?",
-      "respuesta": "El precio, la fecha, el producto comprado y los impuestos aplicados. <mark>Es como un resumen fiel de lo que realmente ha pasado en esa compra</mark>. Sirve como prueba de la compra, por si hay que devolver algo.",
+      "pregunta": "Un buen comprobante de compra recoge el precio, la fecha, el producto y los impuestos aplicados, como un resumen fiel de lo que ha pasado. Sirve como prueba de la compra, por si hay que devolver algo. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Factura o ticket</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/caja-registradora.jpg",
         "alt": "Una caja registradora, donde se emiten los tickets de compra",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué conviene guardar los tickets de compra?",
-      "respuesta": "Porque son la prueba de la compra si hay que reclamar o devolver algo. <mark>Es como guardar un recibo por si necesitas demostrar que pagaste</mark>. Sin ese ticket, es mucho más difícil hacer una reclamación.",
+      "pregunta": "Guardar el comprobante de una compra es la prueba necesaria si hay que reclamar o devolver algo, como guardar un recibo para demostrar que pagaste. Sin él, es mucho más difícil hacer una reclamación. ¿Qué palabra nombra ese comprobante de compra?",
+      "respuesta": "<mark>Ticket</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/guardar-tickets.jpg",
         "alt": "Persona con sus tickets de compra tras ir al supermercado.",
@@ -196,8 +196,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre el presupuesto familiar y el consumo responsable?",
-      "respuesta": "Un buen presupuesto ayuda a decidir en qué merece la pena gastar. <mark>Es como planificar antes de ir a comprar, en vez de decidir sobre la marcha</mark>. Evita gastos innecesarios y facilita ahorrar para lo importante.",
+      "pregunta": "Planificar antes de ir a comprar, en vez de decidir sobre la marcha, evita gastos innecesarios y facilita ahorrar para lo importante. Un buen presupuesto ayuda a decidir en qué merece la pena gastar. ¿Cómo se llama esta forma de consumir con cabeza?",
+      "respuesta": "<mark>Consumo responsable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/consumo-responsable.jpg",
         "alt": "Carrito de la compra vacío en un supermercado.",
@@ -208,8 +208,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante conocer cómo funciona el Estado en la vida diaria?",
-      "respuesta": "Porque muchas decisiones que nos afectan se toman en esos tres poderes. <mark>Es como saber quién decide las reglas del juego en el que vivimos</mark>. Conocerlo ayuda a ejercer mejor los propios derechos como ciudadano.",
+      "pregunta": "Muchas decisiones que nos afectan se toman entre el poder que hace las leyes, el que gobierna y el que juzga. Conocerlo ayuda a ejercer mejor los propios derechos como ciudadano. ¿Cómo se llaman en conjunto estas tres partes del Estado?",
+      "respuesta": "<mark>Los tres poderes del Estado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_ciencias-sociales/conocer-estado.jpg",
         "alt": "Edificio oficial en la Puerta del Sol de Madrid.",

@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué es un sistema operativo?",
-      "respuesta": "Es el programa principal que permite usar y controlar un ordenador. <mark>Es como el director de una orquesta, coordinando todos los programas y el hardware</mark>. Sin él, ningún otro programa podría funcionar.",
+      "pregunta": "Es el programa principal que permite usar y controlar un ordenador. Es como el director de una orquesta, coordinando todos los programas y el hardware. Sin él, ningún otro programa podría funcionar. ¿Cómo se llama este programa?",
+      "respuesta": "<mark>Sistema operativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/ordenador-sistema-operativo.jpg",
         "alt": "La pantalla de un ordenador de escritorio",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es importante organizar bien archivos y carpetas en el ordenador?",
-      "respuesta": "Porque facilita encontrar cualquier documento rápidamente cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo mezclado en un mismo montón</mark>. Una buena organización ahorra tiempo y evita perder documentos.",
+      "pregunta": "Organizar bien archivos y carpetas facilita encontrar cualquier documento rápidamente. Es como tener cada cosa en su cajón, en vez de todo mezclado en un montón. Una buena organización ahorra tiempo y evita perder documentos. ¿Qué ayuda a encontrar los documentos rápido?",
+      "respuesta": "<mark>Una buena organización</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
         "alt": "Empleada guardando documentos en un archivador de oficina",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es dar formato a un texto en un procesador de textos?",
-      "respuesta": "Es cambiar cómo se ve el texto: su tipo de letra, tamaño, color o alineación. <mark>Es como vestir el mismo contenido de una forma más clara y profesional</mark>. Un buen formato ayuda a que el documento se lea mejor.",
+      "pregunta": "Es cambiar cómo se ve el texto: su tipo de letra, tamaño, color o alineación. Es como vestir el mismo contenido de una forma más clara y profesional. Un buen resultado ayuda a que el documento se lea mejor. ¿Cómo se llama esta acción?",
+      "respuesta": "<mark>Dar formato</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
         "alt": "Un ordenador de oficina listo para trabajar",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué tipo de documentos suele crear una empresa con el procesador de textos?",
-      "respuesta": "Cartas, informes, circulares y otros documentos administrativos. <mark>Es la herramienta básica para casi cualquier documento escrito de una oficina</mark>. Permite aplicar plantillas para que todos los documentos tengan un mismo estilo.",
+      "pregunta": "Con esta herramienta se crean cartas, informes, circulares y otros documentos administrativos. Es la herramienta básica para casi cualquier documento escrito de una oficina. Permite usar plantillas para que todos los documentos tengan un mismo estilo. ¿Cómo se llama esta herramienta?",
+      "respuesta": "<mark>Procesador de textos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
         "alt": "Un ordenador portatil abierto sobre una mesa",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una fórmula en una hoja de cálculo?",
-      "respuesta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano</mark>. Empieza siempre con el símbolo igual.",
+      "pregunta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano. Empieza siempre con el símbolo igual. ¿Cómo se llama esta operación?",
+      "respuesta": "<mark>Fórmula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
         "alt": "Un ordenador de oficina listo para trabajar",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una función básica en una hoja de cálculo?",
-      "respuesta": "Es una fórmula ya preparada para hacer cálculos comunes, como sumar o sacar la media. <mark>Es como una fórmula ya hecha, lista para usar sin tener que inventarla tú mismo</mark>. SUMA o PROMEDIO son ejemplos muy utilizados.",
+      "pregunta": "Es una fórmula ya preparada para hacer cálculos comunes, como sumar o sacar la media. Es como una fórmula ya hecha, lista para usar sin tener que inventarla tú mismo. SUMA o PROMEDIO son ejemplos muy utilizados. ¿Cómo se llama esta fórmula ya hecha?",
+      "respuesta": "<mark>Función básica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
         "alt": "Un ordenador portatil abierto sobre una mesa",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué es útil una hoja de cálculo en tareas administrativas?",
-      "respuesta": "Porque permite organizar datos numéricos y hacer cálculos de forma automática. <mark>Es como tener una calculadora gigante conectada a una tabla ordenada</mark>. Se usa para presupuestos, facturas o control de gastos.",
+      "pregunta": "Esta herramienta permite organizar datos numéricos y hacer cálculos de forma automática. Es como tener una calculadora gigante conectada a una tabla ordenada. Se usa para presupuestos, facturas o control de gastos. ¿Cómo se llama esta herramienta?",
+      "respuesta": "<mark>Hoja de cálculo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
         "alt": "Un ordenador de oficina listo para trabajar",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son las plantillas en un procesador de textos?",
-      "respuesta": "Son documentos ya diseñados, listos para rellenar con información concreta. <mark>Es como tener el molde ya hecho, solo falta poner el contenido dentro</mark>. Ahorran tiempo y aseguran que todos los documentos tengan el mismo estilo.",
+      "pregunta": "Son documentos ya diseñados, listos para rellenar con información concreta. Es como tener el molde ya hecho, solo falta poner el contenido dentro. Ahorran tiempo y aseguran que todos los documentos tengan el mismo estilo. ¿Cómo se llaman estos documentos?",
+      "respuesta": "<mark>Plantillas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
         "alt": "Un ordenador portatil abierto sobre una mesa",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Qué ventajas tiene guardar los documentos en carpetas bien organizadas?",
-      "respuesta": "Permite localizarlos rápido y evita duplicados o pérdidas de información. <mark>Es como un archivador físico, pero dentro del ordenador</mark>. También facilita que otras personas del equipo encuentren lo que necesitan.",
+      "pregunta": "Guardar los documentos así permite localizarlos rápido y evita duplicados o pérdidas. Es como un archivador físico, pero dentro del ordenador. También facilita que otras personas del equipo encuentren lo que necesitan. ¿Cómo deben estar las carpetas para lograr esto?",
+      "respuesta": "<mark>Bien organizadas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
         "alt": "Empleada guardando documentos en un archivador de oficina",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es una celda en una hoja de cálculo?",
-      "respuesta": "Es cada casilla individual dentro de la cuadrícula de la hoja. <mark>Es como cada casilla de un tablero, identificada por su fila y su columna</mark>. En cada celda se puede escribir texto, un número o una fórmula.",
+      "pregunta": "Es cada casilla individual dentro de la cuadrícula de la hoja de cálculo. Es como cada casilla de un tablero, identificada por su fila y su columna. En ella se puede escribir texto, un número o una fórmula. ¿Cómo se llama esta casilla?",
+      "respuesta": "<mark>Celda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
         "alt": "Un ordenador de oficina listo para trabajar",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué conviene revisar el formato de un documento antes de enviarlo?",
-      "respuesta": "Porque un documento mal formateado puede parecer poco profesional. <mark>Es como revisar tu ropa antes de una reunión importante</mark>. Errores de formato pueden incluso dificultar la lectura del contenido.",
+      "pregunta": "Un documento mal formateado puede parecer poco profesional. Es como revisar tu ropa antes de una reunión importante. Los errores de formato pueden incluso dificultar la lectura. ¿Qué conviene revisar antes de enviar un documento?",
+      "respuesta": "<mark>El formato</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
         "alt": "Un ordenador portatil abierto sobre una mesa",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Qué relación hay entre el sistema operativo y los programas de ofimática?",
-      "respuesta": "El sistema operativo permite que los programas de ofimática funcionen correctamente. <mark>Es como el terreno sobre el que se construyen todas las demás herramientas</mark>. Sin él, esos programas no podrían instalarse ni ejecutarse.",
+      "pregunta": "Este programa permite que los de ofimática funcionen correctamente. Es como el terreno sobre el que se construyen todas las demás herramientas. Sin él, esos programas no podrían instalarse ni ejecutarse. ¿Qué programa hace posible usar los de ofimática?",
+      "respuesta": "<mark>El sistema operativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
         "alt": "Un ordenador de oficina listo para trabajar",

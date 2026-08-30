@@ -85,8 +85,10 @@ script.
 When you ask for a deck, the agent:
 
 1. Writes the `cantidad` cards following the rules in `CLAUDE.md` →
-   "Generating deck content" — meaningful learning (an analogy, a
-   practical example, or "why it matters"), Easy Read, a warm and fun
+   "Generating deck content" — meaningful learning as a clue-first card
+   (`pregunta` carries an analogy, a practical example, or "why it
+   matters" and closes with a short question; `respuesta` is only the
+   short concept/term being asked for), Easy Read, a warm and fun
    tone, a curious fact where it fits, and full coverage of the
    outline if you gave it one. If the topic has an underlying
    mechanic or rule (a procedure, a notation, a formula — e.g. how
@@ -177,6 +179,10 @@ worth a look before considering the deck published — same idea as
 reviewing any content before a test. Check:
 
 - [ ] **Easy read**: short sentences, one idea per sentence.
+- [ ] **Clue-first format**: `pregunta` is the clue (analogy, example,
+      or "why it matters"), never naming the concept; `respuesta` is
+      only that concept/term, short (1-6 words) — never a sentence,
+      never a restated dictionary definition.
 - [ ] **Conceptual density**: at most one new concept per card,
       anchored in something concrete — not several names or
       abstractions in a row with no example (topics like literary

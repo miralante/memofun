@@ -4,8 +4,8 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "¿Qué fue la dictadura franquista en España?",
-      "respuesta": "Fue un periodo de gobierno sin libertades democráticas, tras la Guerra Civil. <mark>Durante casi cuarenta años, España vivió sin elecciones libres ni partidos políticos</mark>. Terminó con la muerte de Francisco Franco, en 1975.",
+      "pregunta": "Durante casi cuarenta años, España vivió sin elecciones libres ni partidos políticos, tras la Guerra Civil. Terminó con la muerte de Francisco Franco, en 1975. ¿Cómo se llama este periodo de gobierno?",
+      "respuesta": "<mark>Dictadura franquista</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/dictadura-franquista.png",
         "alt": "Bandera de España utilizada durante la época del franquismo.",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "pregunta": "¿Qué fue la Transición española?",
-      "respuesta": "Fue el proceso pacífico por el que España pasó de la dictadura a la democracia. <mark>Es como reconstruir un edificio sin destruir del todo lo anterior, buscando el consenso</mark>. Terminó con la Constitución de 1978.",
+      "pregunta": "Fue el proceso pacífico por el que España pasó de la dictadura a la democracia. Es como reconstruir un edificio sin destruir del todo lo anterior, buscando el consenso. Terminó con la Constitución de 1978. ¿Cómo se llama este proceso?",
+      "respuesta": "<mark>Transición española</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/transicion.jpg",
         "alt": "Edificio del Congreso de los Diputados en Madrid.",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "pregunta": "¿Qué cambió con la llegada de la democracia a España?",
-      "respuesta": "Se recuperaron libertades como votar, expresarse y reunirse libremente. <mark>Es como abrir de golpe muchas ventanas que llevaban décadas cerradas</mark>.",
+      "pregunta": "Se recuperaron libertades como votar, expresarse y reunirse libremente. Es como abrir de golpe muchas ventanas que llevaban décadas cerradas. ¿Qué llegó a España tras la dictadura?",
+      "respuesta": "<mark>La democracia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/cambio-democracia.jpg",
         "alt": "Urna electoral utilizada para depositar los votos.",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "pregunta": "¿Qué efectos tiene el cambio climático en la actualidad?",
-      "respuesta": "Provoca fenómenos extremos, como sequías, inundaciones y olas de calor. <mark>Es como si el clima se volviera más impredecible y más brusco cada vez</mark>.",
+      "pregunta": "Provoca fenómenos extremos, como sequías, inundaciones y olas de calor. Es como si el clima se volviera más impredecible y más brusco cada vez. ¿Qué está causando estos fenómenos?",
+      "respuesta": "<mark>El cambio climático</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/sequia-clima.jpg",
         "alt": "Tierra agrietada por la sequía",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué se mueve la gente entre países?",
-      "respuesta": "Buscan trabajo, seguridad o una vida mejor para ellos y sus familias. <mark>Es como cambiar de lugar buscando mejores condiciones para vivir</mark>. También pueden huir de guerras o desastres naturales.",
+      "pregunta": "Buscan trabajo, seguridad o una vida mejor para ellos y sus familias. Es como cambiar de lugar buscando mejores condiciones para vivir. También pueden huir de guerras o desastres naturales. ¿Cómo se llama este movimiento entre países?",
+      "respuesta": "<mark>Migración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/migracion.jpg",
         "alt": "Maletas preparadas para un viaje.",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la igualdad de oportunidades?",
-      "respuesta": "Significa que todas las personas puedan acceder a lo mismo, sin importar su origen o condición. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>.",
+      "pregunta": "Significa que todas las personas puedan acceder a lo mismo, sin importar su origen o condición. Es como asegurarse de que todos parten desde la misma línea de salida. ¿Cómo se llama esto?",
+      "respuesta": "<mark>Igualdad de oportunidades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/igualdad-oportunidades.jpg",
         "alt": "Grupo de personas diversas cogidas de la mano formando un círculo.",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es la discriminación?",
-      "respuesta": "Es tratar peor a alguien por su origen, género, religión o cualquier otra característica. <mark>Es como cerrarle una puerta a alguien solo por cómo es, no por lo que hace</mark>.",
+      "pregunta": "Es tratar peor a alguien por su origen, género, religión o cualquier otra característica. Es como cerrarle una puerta a alguien solo por cómo es, no por lo que hace. ¿Cómo se llama esto?",
+      "respuesta": "<mark>Discriminación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/discriminacion.jpg",
         "alt": "Varias manos de distintos colores unidas juntas.",
@@ -88,8 +88,8 @@
       }
     },
     {
-      "pregunta": "¿Qué son los derechos humanos?",
-      "respuesta": "Son derechos básicos que corresponden a toda persona, en cualquier lugar del mundo. <mark>No dependen de dónde naciste, sino solo de ser un ser humano</mark>.",
+      "pregunta": "Son derechos básicos que corresponden a toda persona, en cualquier lugar del mundo. No dependen de dónde naciste, sino solo de ser un ser humano. ¿Cómo se llaman estos derechos?",
+      "respuesta": "<mark>Derechos humanos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/derechos-humanos.jpg",
         "alt": "Edificio de la sede de las Naciones Unidas.",
@@ -100,8 +100,8 @@
       }
     },
     {
-      "pregunta": "¿Por qué importan los derechos humanos en la vida diaria?",
-      "respuesta": "Porque protegen a cualquier persona frente a un trato injusto o cruel. <mark>Es como una base mínima que nadie debería poder quitarte</mark>.",
+      "pregunta": "Protegen a cualquier persona frente a un trato injusto o cruel. Es como una base mínima que nadie debería poder quitarte. ¿Qué protege a las personas de esta forma?",
+      "respuesta": "<mark>Los derechos humanos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/derechos-humanos-diaria.jpg",
         "alt": "Dos manos dándose un apretón como símbolo de confianza.",
@@ -112,8 +112,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el mercado laboral?",
-      "respuesta": "Es el conjunto de puestos de trabajo disponibles y de personas que buscan empleo. <mark>Es como un gran punto de encuentro entre quien ofrece trabajo y quien lo busca</mark>.",
+      "pregunta": "Es el conjunto de puestos de trabajo disponibles y de personas que buscan empleo. Es como un gran punto de encuentro entre quien ofrece trabajo y quien lo busca. ¿Cómo se llama este conjunto?",
+      "respuesta": "<mark>Mercado laboral</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/mercado-laboral.jpg",
         "alt": "Feria de empleo donde varias personas buscan trabajo.",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "pregunta": "¿Qué significa que haya más oferta que demanda de empleo en un sector?",
-      "respuesta": "Significa que hay más puestos de trabajo disponibles que personas buscándolos. <mark>Es más fácil encontrar trabajo en un sector así, porque falta gente</mark>.",
+      "pregunta": "Significa que hay más puestos de trabajo disponibles que personas buscándolos. Es más fácil encontrar trabajo en un sector así, porque falta gente. ¿Qué pasa cuando hay más oferta que demanda de empleo?",
+      "respuesta": "<mark>Es más fácil encontrar trabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/oferta-demanda-empleo.jpg",
         "alt": "Persona vestida formalmente en una entrevista de trabajo.",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "pregunta": "¿Para qué sirven los impuestos?",
-      "respuesta": "Sirven para financiar servicios públicos, como la sanidad, la educación o las carreteras. <mark>Es como aportar cada uno una parte para pagar cosas que usamos todos</mark>.",
+      "pregunta": "Sirven para financiar servicios públicos, como la sanidad, la educación o las carreteras. Es como aportar cada uno una parte para pagar cosas que usamos todos. ¿Cómo se llaman estos pagos?",
+      "respuesta": "<mark>Impuestos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/impuestos-sirven.jpg",
         "alt": "Formulario oficial de impuestos relleno con datos.",
@@ -148,8 +148,8 @@
       }
     },
     {
-      "pregunta": "¿En qué se usan los impuestos que paga la población?",
-      "respuesta": "Se destinan a hospitales, colegios, pensiones y otros servicios públicos. <mark>Es como un fondo común del que todos nos beneficiamos de alguna forma</mark>.",
+      "pregunta": "Se destinan a hospitales, colegios, pensiones y otros servicios públicos. Es como un fondo común del que todos nos beneficiamos de alguna forma. ¿Qué financian los impuestos que paga la población?",
+      "respuesta": "<mark>Servicios públicos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/impuestos-usan.jpg",
         "alt": "Edificio de ministerios del Gobierno en Madrid.",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el emprendimiento?",
-      "respuesta": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. <mark>Es como ver un hueco en el mercado y decidir llenarlo tú mismo</mark>.",
+      "pregunta": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. Es como ver un hueco en el mercado y decidir llenarlo tú mismo. ¿Cómo se llama esta capacidad?",
+      "respuesta": "<mark>Emprendimiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/emprendimiento.jpg",
         "alt": "Personas trabajando juntas en la oficina de una empresa emergente.",
@@ -172,8 +172,8 @@
       }
     },
     {
-      "pregunta": "¿Qué se necesita para montar un negocio propio?",
-      "respuesta": "Una idea clara, un plan de trabajo y conocer los trámites legales necesarios. <mark>Es como construir algo desde cero, paso a paso, sin saltarse ninguno</mark>.",
+      "pregunta": "Hace falta una idea clara y un plan de trabajo, además de conocer los trámites legales necesarios. Es como construir algo desde cero, paso a paso, sin saltarse ninguno. ¿Qué es imprescindible para montar un negocio propio?",
+      "respuesta": "<mark>Una idea y un plan</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/montar-negocio.jpg",
         "alt": "Documento con la planificación escrita de un negocio.",
@@ -184,8 +184,8 @@
       }
     },
     {
-      "pregunta": "¿Qué es el consumo responsable?",
-      "respuesta": "Es comprar y usar productos pensando en su impacto social y ambiental. <mark>Es como elegir con cuidado lo que compras, no solo por precio, sino por sus consecuencias</mark>.",
+      "pregunta": "Es comprar y usar productos pensando en su impacto social y ambiental. Es como elegir con cuidado lo que compras, no solo por precio, sino por sus consecuencias. ¿Cómo se llama esto?",
+      "respuesta": "<mark>Consumo responsable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/consumo-responsable.jpg",
         "alt": "Carrito de la compra vacío en un supermercado.",
@@ -196,8 +196,8 @@
       }
     },
     {
-      "pregunta": "¿Qué efectos tiene el consumo responsable sobre el medio ambiente?",
-      "respuesta": "Reduce la cantidad de residuos generados y el gasto innecesario de recursos. <mark>Es como frenar poco a poco el ritmo al que se agota el planeta</mark>.",
+      "pregunta": "Reduce la cantidad de residuos generados y el gasto innecesario de recursos. Es como frenar poco a poco el ritmo al que se agota el planeta. ¿Qué tipo de consumo tiene este efecto positivo?",
+      "respuesta": "<mark>El consumo responsable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/efectos-medio-ambiente.jpg",
         "alt": "Contenedor de reciclaje para cuidar el medio ambiente.",
