@@ -4,67 +4,67 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es lo primero que hace un científico, mirando todo con mucha atención, como un detective que busca pistas antes de sacar conclusiones. Se fija en colores, tamaños y movimientos. ¿Cómo se llama este primer paso?",
+      "pregunta": "Es lo primero que hace un científico: mirar todo con mucha atención. <mark>Es como un detective que busca pistas</mark>. Se fija en colores, tamaños y movimientos. ¿Cómo se llama este primer paso?",
       "respuesta": "<mark>Observar</mark>"
     },
     {
-      "pregunta": "Es una idea que crees que puede ser cierta, como una apuesta pequeña antes de comprobarla. Por ejemplo: creo que la planta crecerá más con luz. ¿Cómo se llama esta idea?",
+      "pregunta": "Es una idea que crees que puede ser cierta. <mark>Es como una apuesta pequeña, antes de comprobarla</mark>. Por ejemplo: \"la planta crecerá más con luz\". ¿Cómo se llama esta idea?",
       "respuesta": "<mark>Hipótesis</mark>"
     },
     {
-      "pregunta": "Es una prueba controlada que compara qué pasa con y sin un cambio, para descubrir si una idea era correcta. Sin comprobarlo, una hipótesis solo es una suposición. ¿Cómo se llama esta prueba?",
+      "pregunta": "Es una prueba que compara qué pasa con y sin un cambio. <mark>Es como comparar dos plantas: una con agua y otra sin ella</mark>. Así sabes si tu idea era correcta. ¿Cómo se llama esta prueba?",
       "respuesta": "<mark>Experimento</mark>"
     },
     {
-      "pregunta": "Echa agua y aceite en un vaso: el aceite flota porque pesa menos. Los dos líquidos no se mezclan, quedan en capas. ¿Qué líquido flota encima del agua?",
+      "pregunta": "Echa agua y aceite en un vaso. El aceite flota porque pesa menos. <mark>Los dos líquidos no se mezclan, quedan en capas</mark>. ¿Qué líquido flota encima del agua?",
       "respuesta": "<mark>El aceite</mark>"
     },
     {
-      "pregunta": "La memoria olvida detalles con el tiempo. Anotar es como hacer una foto con palabras, para no perder nada. Así se pueden comparar resultados distintos fácilmente. ¿Por qué apuntamos lo que observamos en una tabla?",
+      "pregunta": "La memoria olvida detalles con el tiempo. <mark>Anotar es como hacer una foto con palabras</mark>. Así comparamos resultados distintos fácilmente. ¿Por qué apuntamos lo que observamos en una tabla?",
       "respuesta": "<mark>Para no olvidarlo</mark>"
     },
     {
-      "pregunta": "Se hacen columnas, una para la fecha y otra para lo que viste, y cada fila guarda un momento distinto. Mirar la tabla entera ayuda a ver el cambio poco a poco. ¿Qué guarda cada fila de una tabla de observaciones?",
+      "pregunta": "Se hacen columnas: una para la fecha, otra para lo que viste. <mark>Es como un álbum de fotos, una fecha por página</mark>. ¿Qué guarda cada fila de una tabla de observaciones?",
       "respuesta": "<mark>Un momento distinto</mark>"
     },
     {
-      "pregunta": "Una sola prueba puede tener un error por casualidad. Repetirlo es como comprobar dos veces que cerraste la puerta. Si el resultado se repite, confiamos más en él. ¿Por qué conviene repetir un experimento varias veces?",
+      "pregunta": "Una sola prueba puede tener un error por casualidad. <mark>Repetirla es como comprobar dos veces que cerraste la puerta</mark>. ¿Por qué conviene repetir un experimento varias veces?",
       "respuesta": "<mark>Para confiar en el resultado</mark>"
     },
     {
-      "pregunta": "Es un lugar donde viven juntos seres vivos y su entorno, como un barrio con vecinos y también calles, agua y aire. Un bosque, un río o un charco son de este tipo. ¿Cómo se llama a este lugar?",
+      "pregunta": "Es un lugar donde viven juntos seres vivos y su entorno. <mark>Es como un barrio con vecinos, calles y aire</mark>. Un bosque o un río son de este tipo. ¿Cómo se llama a este lugar?",
       "respuesta": "<mark>Ecosistema</mark>"
     },
     {
-      "pregunta": "Es la lista de quién se come a quién en un ecosistema, como una fila donde cada eslabón alimenta al siguiente. Empieza casi siempre en una planta. ¿Cómo se llama esta lista?",
+      "pregunta": "Es la lista de quién se come a quién en un ecosistema. <mark>Es como una fila donde cada eslabón depende del siguiente</mark>. Casi siempre empieza en una planta. ¿Cómo se llama esta lista?",
       "respuesta": "<mark>Cadena alimentaria</mark>"
     },
     {
-      "pregunta": "Son los seres vivos que fabrican su propio alimento, casi siempre plantas que usan la luz del sol. Son el primer eslabón, la base de toda la cadena. ¿Cómo se llaman estos seres vivos?",
+      "pregunta": "Son los seres vivos que fabrican su propio alimento, casi siempre plantas. <mark>Es como una fábrica que crea su comida con luz solar</mark>. Son la base de toda la cadena. ¿Cómo se llaman estos seres vivos?",
       "respuesta": "<mark>Productores</mark>"
     },
     {
-      "pregunta": "Son los seres vivos que comen a otros para alimentarse, algunos plantas y otros animales, los siguientes eslabones después de los productores. Un conejo o un zorro son buenos ejemplos. ¿Cómo se llaman estos seres vivos?",
+      "pregunta": "Son los seres vivos que comen a otros para alimentarse, plantas o animales. <mark>Un conejo o un zorro son buenos ejemplos</mark>. Van después de los productores en la cadena. ¿Cómo se llaman estos seres vivos?",
       "respuesta": "<mark>Consumidores</mark>"
     },
     {
-      "pregunta": "Son seres que transforman restos muertos en tierra fértil, como el equipo de limpieza que recicla todo al final. Hongos y algunas bacterias hacen este trabajo. ¿Cómo se llaman estos seres vivos?",
+      "pregunta": "Son seres que transforman restos muertos en tierra fértil. <mark>Son como el equipo de limpieza que recicla todo</mark>. Hongos y bacterias hacen este trabajo. ¿Cómo se llaman estos seres vivos?",
       "respuesta": "<mark>Descomponedores</mark>"
     },
     {
-      "pregunta": "La hierba alimenta al conejo, y el conejo alimenta al zorro; cada animal necesita al anterior para poder comer. Si falta hierba, el conejo pasa hambre. ¿Quién se come al conejo en esta cadena de bosque?",
+      "pregunta": "La hierba alimenta al conejo, y el conejo alimenta al zorro. <mark>Cada animal necesita comer al anterior para vivir</mark>. Si falta hierba, el conejo pasa hambre. ¿Quién se come al conejo en esta cadena de bosque?",
       "respuesta": "<mark>El zorro</mark>"
     },
     {
-      "pregunta": "Las algas alimentan a los peces pequeños, y estos alimentan a los peces grandes, la propia fila del mar de quién se come a quién. Una ballena puede comer miles de peces diminutos de un bocado. ¿Qué alimenta a los peces pequeños en esta cadena?",
+      "pregunta": "Las algas alimentan a los peces pequeños. Estos alimentan a los peces grandes. <mark>Una ballena puede comer miles de peces diminutos de un bocado</mark>. ¿Qué alimenta a los peces pequeños en esta cadena?",
       "respuesta": "<mark>Las algas</mark>"
     },
     {
-      "pregunta": "Todos los que dependían de él se quedan sin alimento, como quitar una pieza de una torre: todo lo de arriba se tambalea. Un solo cambio puede afectar a muchos seres vivos. ¿Qué pasa si desaparece un eslabón de la cadena?",
+      "pregunta": "Todos los que dependían de él se quedan sin alimento. <mark>Es como quitar una pieza de una torre: todo se tambalea</mark>. ¿Qué pasa si desaparece un eslabón de la cadena?",
       "respuesta": "<mark>Los demás se quedan sin comida</mark>"
     },
     {
-      "pregunta": "Cada uno cumple un papel distinto y necesario: las plantas dan alimento, los animales dispersan semillas, como un equipo donde cada jugador tiene una tarea. ¿Por qué dependen unos de otros los seres vivos de un ecosistema?",
+      "pregunta": "Las plantas dan alimento y los animales dispersan semillas. <mark>Es como un equipo donde todos tienen una tarea distinta</mark>. ¿Por qué dependen unos de otros los seres vivos de un ecosistema?",
       "respuesta": "<mark>Porque cada uno cumple un papel</mark>"
     }
   ]

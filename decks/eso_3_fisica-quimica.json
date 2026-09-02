@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "La superficie se calcula combinando el largo y el ancho de algo. El volumen también se calcula combinando otras magnitudes. ¿Cómo se llama este tipo de magnitud, calculada a partir de otras?",
+      "pregunta": "<mark>La superficie se calcula combinando el largo y el ancho de algo</mark>. El volumen también se calcula combinando otras magnitudes. ¿Cómo se llama este tipo de magnitud, calculada a partir de otras?",
       "respuesta": "<mark>Magnitud derivada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/velocimetro-coche.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es como una tasa de cambio que te permite pasar de una 'moneda' de medida a otra. Se basa en la equivalencia exacta entre dos unidades. Usarlo bien evita errores graves en los cálculos. ¿Cómo se llama esta herramienta para cambiar de unidad?",
+      "pregunta": "<mark>Es como una tasa de cambio que te permite pasar de una 'moneda' de medida a otra</mark>. Se basa en la equivalencia exacta entre dos unidades. Usarlo bien evita errores graves en los cálculos. ¿Cómo se llama esta herramienta para cambiar de unidad?",
       "respuesta": "<mark>Factor de conversión</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/cinta-metrica.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Un número muy largo se puede resumir en una expresión corta y clara. Se escribe como un número entre uno y diez, multiplicado por una potencia de diez. ¿Cómo se llama esta forma de escribir números muy grandes o muy pequeños?",
+      "pregunta": "Un número muy largo se puede resumir en una expresión corta y clara. Se escribe <mark>como un número entre uno y diez, multiplicado por una potencia de diez</mark>. ¿Cómo se llama esta forma de escribir números muy grandes o muy pequeños?",
       "respuesta": "<mark>Notación científica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/calculadora-cientifica.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es decir solo lo que sabes con certeza, sin inventar más precisión de la que tienes. Ayudan a expresar los resultados con el grado de precisión adecuado. ¿Cómo se llaman las cifras de un número que aportan información realmente fiable?",
+      "pregunta": "<mark>Es decir solo lo que sabes con certeza, sin inventar más precisión de la que tienes</mark>. Ayudan a expresar los resultados con el grado de precisión adecuado. ¿Cómo se llaman las cifras de un número que aportan información realmente fiable?",
       "respuesta": "<mark>Cifras significativas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/calculadora-cifras.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "No toda la información disponible está bien explicada o es fiable. Leer entre líneas antes de creer algo del todo ayuda a distinguir datos reales de exageraciones. ¿Cómo se llama esta capacidad de analizar la información antes de creerla?",
+      "pregunta": "No toda la información disponible está bien explicada o es fiable. <mark>Leer entre líneas antes de creer algo del todo</mark> ayuda a distinguir datos reales de exageraciones. ¿Cómo se llama esta capacidad de analizar la información antes de creerla?",
       "respuesta": "<mark>Pensamiento crítico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/informe-lectura.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Una tabla muestra datos exactos, con cada número en su sitio. Otra herramienta, en cambio, muestra tendencias de un vistazo. Es como ordenar información dispersa en un mueble con cajones bien etiquetados. ¿Cómo se llama esta segunda herramienta?",
+      "pregunta": "Una tabla muestra datos exactos, con cada número en su sitio. Otra herramienta, en cambio, muestra tendencias de un vistazo. <mark>Es como ordenar información dispersa en un mueble con cajones bien etiquetados</mark>. ¿Cómo se llama esta segunda herramienta?",
       "respuesta": "<mark>Gráfico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/grafico-barras.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es un documento que cuenta una investigación, con introducción, nudo y desenlace, pero sobre ciencia. Incluye objetivos, método, resultados y conclusiones. ¿Cómo se llama este tipo de documento?",
+      "pregunta": "Es un documento que cuenta una investigación, <mark>con introducción, nudo y desenlace, pero sobre ciencia</mark>. Incluye objetivos, método, resultados y conclusiones. ¿Cómo se llama este tipo de documento?",
       "respuesta": "<mark>Informe científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/cientificos-laboratorio.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Introducción, materiales y métodos, resultados y conclusiones son sus partes. Es como las distintas partes de una receta: ingredientes, pasos y resultado final. Seguir esa estructura ayuda a que el trabajo sea claro. ¿Cómo se llama este documento organizado en esas partes?",
+      "pregunta": "Introducción, materiales y métodos, resultados y conclusiones son sus partes. <mark>Es como las distintas partes de una receta: ingredientes, pasos y resultado final</mark>. Seguir esa estructura ayuda a que el trabajo sea claro. ¿Cómo se llama este documento organizado en esas partes?",
       "respuesta": "<mark>Informe científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/cuadernos-notas.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Quedarte con el resumen útil de un texto muy largo es un buen truco para estudiar. Significa identificar las ideas realmente importantes, dejando fuera lo secundario. ¿Cómo se llama esta habilidad de identificar lo importante en un texto?",
+      "pregunta": "<mark>Quedarte con el resumen útil de un texto muy largo es un buen truco para estudiar</mark>. Significa identificar las ideas realmente importantes, dejando fuera lo secundario. ¿Cómo se llama esta habilidad de identificar lo importante en un texto?",
       "respuesta": "<mark>Selección de información relevante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/revista-ciencia.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Un tipo de texto explica ciencia de forma accesible para el público general. Otro usa un lenguaje muy técnico, pensado solo para expertos. ¿Cómo se llama el primero, el que está pensado para todo el mundo?",
+      "pregunta": "Un tipo de texto <mark>explica ciencia de forma accesible para el público general</mark>. Otro usa un lenguaje muy técnico, pensado solo para expertos. ¿Cómo se llama el primero, el que está pensado para todo el mundo?",
       "respuesta": "<mark>Divulgación científica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/kiosco-prensa.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "No mides la distancia entre ciudades igual que el grosor de un cabello. Cada magnitud necesita una de estas, adecuada a su tamaño o naturaleza. El Sistema Internacional las hace compatibles entre sí. ¿Cómo se llama lo que necesita cada magnitud para poder medirse?",
+      "pregunta": "<mark>No mides la distancia entre ciudades igual que el grosor de un cabello</mark>. Cada magnitud necesita una de estas, adecuada a su tamaño o naturaleza. El Sistema Internacional las hace compatibles entre sí. ¿Cómo se llama lo que necesita cada magnitud para poder medirse?",
       "respuesta": "<mark>Unidad de medida</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/reglas-medir.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Dar una dirección equivocada, aunque casi correcta, puede hacer que te pierdas. Un dato científico mal expresado puede llevar a conclusiones erróneas. Usar bien unidades y cifras significativas evita esos errores. ¿Cómo se llama esta cualidad, tan importante al comunicar resultados?",
+      "pregunta": "<mark>Dar una dirección equivocada, aunque casi correcta, puede hacer que te pierdas</mark>. Un dato científico mal expresado puede llevar a conclusiones erróneas. Usar bien unidades y cifras significativas evita esos errores. ¿Cómo se llama esta cualidad, tan importante al comunicar resultados?",
       "respuesta": "<mark>Precisión</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica/precision-mecanismo.jpg",

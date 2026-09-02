@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es la clasificación que agrupa a todos los seres vivos en cinco grandes grupos. Es como ordenar todos los seres vivos del planeta en cinco grandes cajones. Incluyen bacterias, protoctistas, hongos, plantas y animales. ¿Cómo se llama esta clasificación?",
+      "pregunta": "Es la clasificación que agrupa a todos los seres vivos en cinco grandes grupos. <mark>Es como ordenarlos en cinco grandes cajones</mark>. ¿Cómo se llama esta clasificación?",
       "respuesta": "<mark>Los cinco reinos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/corchos-clasificados.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Está formado por organismos unicelulares muy sencillos y sin núcleo. Son tan pequeñas que millones de ellas caben en la punta de un alfiler. Viven prácticamente en cualquier ambiente del planeta. ¿Qué reino de seres vivos es este?",
+      "pregunta": "Está formado por organismos unicelulares muy sencillos y sin núcleo. <mark>Millones de ellas caben en la punta de un alfiler</mark>. ¿Qué reino de seres vivos es este?",
       "respuesta": "<mark>Reino de las bacterias</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/bacterias-colonia.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Incluye setas, mohos y levaduras, que no fabrican su propio alimento. Se alimentan absorbiendo nutrientes de otros seres vivos o de materia en descomposición. No son ni animales ni plantas, aunque a veces se confunden. ¿Qué reino de seres vivos es este?",
+      "pregunta": "Incluye <mark>setas, mohos y levaduras</mark>, que no fabrican su propio alimento. Absorben nutrientes de otros seres vivos o de materia en descomposición. ¿Qué reino de seres vivos es este?",
       "respuesta": "<mark>Reino de los hongos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/seta-hongo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es la capacidad de fabricar el propio alimento a partir de sustancias simples. Es como cocinar tu propia comida usando solo luz, agua y aire. Las plantas la realizan mediante la fotosíntesis. ¿Cómo se llama este tipo de nutrición?",
+      "pregunta": "Es la capacidad de fabricar el propio alimento a partir de sustancias simples. <mark>Es como cocinar tu comida con solo luz, agua y aire</mark>. ¿Cómo se llama este tipo de nutrición?",
       "respuesta": "<mark>Nutrición autótrofa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/hojas-castano.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es la necesidad de alimentarse de otros seres vivos para obtener energía. Es como tener que comprar la comida ya hecha, en vez de cultivarla tú mismo. Los animales y los hongos tienen este tipo de nutrición. ¿Cómo se llama este tipo de nutrición?",
+      "pregunta": "Es la necesidad de alimentarse de otros seres vivos para obtener energía. <mark>Es como comprar la comida hecha, en vez de cultivarla</mark>. ¿Cómo se llama este tipo de nutrición?",
       "respuesta": "<mark>Nutrición heterótrofa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/plato-comida.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Producen oxígeno y alimento a partir de la luz solar. Son como la base de una pirámide que sostiene a casi toda la vida del ecosistema. Sin ellas, la mayoría de los animales no tendrían qué comer. ¿Qué papel cumplen las plantas en la cadena alimentaria?",
+      "pregunta": "Las plantas producen oxígeno y alimento a partir de la luz solar. <mark>Son la base de una pirámide que sostiene la vida</mark> del ecosistema. ¿Qué papel cumplen en la cadena alimentaria?",
       "respuesta": "<mark>Productores</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/arbol-haya.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Un grupo de animales tiene columna vertebral, un armazón interno que sostiene el cuerpo. El otro grupo no la tiene. Peces, aves y mamíferos pertenecen a uno; insectos, medusas y gusanos, al otro. ¿Cómo se llama cada grupo?",
+      "pregunta": "Un grupo de animales tiene columna vertebral, un armazón que sostiene el cuerpo. El otro no la tiene, <mark>como los insectos o las medusas</mark>. ¿Cómo se llama cada grupo?",
       "respuesta": "<mark>Vertebrados e invertebrados</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/arana-saltarina.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Todos comparten tener columna vertebral, pero se dividen en varios grupos distintos. Cada grupo tiene características propias, como respirar con branquias o con pulmones. Esa clasificación ayuda a entender mejor sus diferencias. ¿Cuáles son estos cinco grupos de vertebrados?",
+      "pregunta": "Todos tienen columna vertebral, pero se dividen en varios grupos. <mark>Unos respiran con branquias, otros con pulmones</mark>. ¿Cuáles son estos cinco grupos de vertebrados?",
       "respuesta": "<mark>Peces, anfibios, reptiles, aves y mamíferos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/pirana-pez.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Los animales tienen sistema nervioso y pueden percibir lo que ocurre a su alrededor. Un perro que se asusta con un ruido está sintiendo algo, igual que una persona. Reconocer esa capacidad ayuda a tratar a los animales con más respeto. ¿Qué sistema del cuerpo les permite sentir así?",
+      "pregunta": "Los animales tienen sistema nervioso y perciben lo que ocurre a su alrededor. <mark>Un perro que se asusta con un ruido siente algo</mark>, igual que una persona. ¿Qué sistema del cuerpo les permite sentir así?",
       "respuesta": "<mark>Sistema nervioso</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/perro-asustado.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Son especies que solo existen de forma natural en un lugar concreto del planeta. Es como un plato típico que solo se cocina en un único pueblo del mundo. Muchas islas tienen especies así, únicas en el mundo. ¿Cómo se llaman estas especies?",
+      "pregunta": "Son especies que solo existen de forma natural en un lugar concreto. <mark>Es como un plato típico de un único pueblo</mark>. ¿Cómo se llaman estas especies?",
       "respuesta": "<mark>Especies endémicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/tortuga-galapagos.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Pierden su hábitat, sufren caza excesiva o contaminación. Es como quitarle a alguien su casa, su comida y su seguridad al mismo tiempo. Cuando esto ocurre del todo, la especie no puede recuperarse nunca. ¿Cómo se llama a una especie en esta situación tan grave?",
+      "pregunta": "Pierden su hábitat, sufren caza excesiva o contaminación. <mark>Es como quitarle a alguien su casa y su comida</mark> a la vez. ¿Cómo se llama a una especie en esta situación tan grave?",
       "respuesta": "<mark>En peligro de extinción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/gato-andino-peligro.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es más fácil cuidar algo que conoces de cerca que algo lejano y desconocido. Muchas veces hay especies interesantes muy cerca de casa. Esa observación complementa lo que se aprende en los libros. ¿Qué actividad al aire libre ayuda a conocerlas mejor?",
+      "pregunta": "Es más fácil cuidar algo que conoces de cerca que algo lejano. <mark>Muchas especies interesantes viven cerca de casa</mark>. ¿Qué actividad al aire libre ayuda a conocerlas mejor?",
       "respuesta": "<mark>Observar la naturaleza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_3/senderismo-naturaleza.jpg",

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un manual de instrucciones escrito con solo cuatro letras. Guarda toda la información genética de un ser vivo. Vive dentro del núcleo de las células. ¿Cómo se llama esta molécula?",
+      "pregunta": "<mark>Es un manual de instrucciones escrito con solo cuatro letras</mark>. Guarda toda la información genética de un ser vivo. Vive dentro del núcleo de las células. ¿Cómo se llama esta molécula?",
       "respuesta": "<mark>ADN</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/adn-modelo-museo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "El ADN es el manual guardado en el núcleo. Esta otra molécula es la copia que sale a trabajar. Ayuda a fabricar proteínas. ¿Cómo se llama esta molécula?",
+      "pregunta": "El ADN es el manual guardado en el núcleo. <mark>Esta otra molécula es la copia que sale a trabajar</mark>. Ayuda a fabricar proteínas. ¿Cómo se llama esta molécula?",
       "respuesta": "<mark>ARN</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/arn-mensajero-vacuna.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es como un párrafo dentro del manual completo del ADN. Contiene la información para una característica, como el color de ojos. Cada persona puede tener una versión distinta. ¿Cómo se llama este fragmento?",
+      "pregunta": "<mark>Es como un párrafo dentro del manual completo del ADN</mark>. Contiene la información para una característica, como el color de ojos. Cada persona puede tener una versión distinta. ¿Cómo se llama este fragmento?",
       "respuesta": "<mark>Gen</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/cromosoma-diagrama.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es un alfabeto especial que el cuerpo sabe leer. Traduce el ADN en instrucciones para fabricar proteínas. Es casi igual en todos los seres vivos. ¿Cómo se llama este sistema?",
+      "pregunta": "<mark>Es un alfabeto especial que el cuerpo sabe leer</mark>. Traduce el ADN en instrucciones para fabricar proteínas. Es casi igual en todos los seres vivos. ¿Cómo se llama este sistema?",
       "respuesta": "<mark>Código genético</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/alfabeto-letras-codigo.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es como una cadena de traducción: del manual original a una copia, y de ahí a la acción. Explica cómo el ADN llega a fabricar proteínas, pasando por el ARN. ¿Cómo se llama esta idea central de la biología?",
+      "pregunta": "<mark>Es como una cadena de traducción: del manual original a una copia, y de ahí a la acción</mark>. Explica cómo el ADN llega a fabricar proteínas, pasando por el ARN. ¿Cómo se llama esta idea central de la biología?",
       "respuesta": "<mark>Dogma central</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/fotocopiadora-copia.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es como una errata al copiar un texto muy largo. Es un cambio inesperado en el ADN. Puede ser inofensivo, dañino o incluso beneficioso. ¿Cómo se llama este cambio?",
+      "pregunta": "<mark>Es como una errata al copiar un texto muy largo</mark>. Es un cambio inesperado en el ADN. Puede ser inofensivo, dañino o incluso beneficioso. ¿Cómo se llama este cambio?",
       "respuesta": "<mark>Mutación genética</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/raton-modelo-mutacion.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Tener el gen del pelo rizado es una cosa. Tener el pelo rizado de verdad es otra. El ambiente también influye en lo que se ve. ¿Cómo se llama lo que realmente se manifiesta?",
+      "pregunta": "Tener el gen del pelo rizado es una cosa. Tener el pelo rizado de verdad es otra. <mark>El ambiente también influye en lo que se ve</mark>. ¿Cómo se llama lo que realmente se manifiesta?",
       "respuesta": "<mark>Fenotipo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/pelo-rizado.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Se descubrieron estudiando cómo se combinaban los colores de los guisantes. Explican cómo se heredan los rasgos de padres a hijos. Sentaron las bases de la genética moderna. ¿Cómo se llaman estas reglas?",
+      "pregunta": "<mark>Se descubrieron estudiando cómo se combinaban los colores de los guisantes</mark>. Explican cómo se heredan los rasgos de padres a hijos. Sentaron las bases de la genética moderna. ¿Cómo se llaman estas reglas?",
       "respuesta": "<mark>Leyes de Mendel</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/guisantes-vainas.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es como una voz que se escucha aunque hable una sola vez. Basta con heredar una sola copia del gen para que aparezca. Por eso es más frecuente en la descendencia. ¿Cómo se llama este tipo de carácter?",
+      "pregunta": "<mark>Es como una voz que se escucha aunque hable una sola vez</mark>. Basta con heredar una sola copia del gen para que aparezca. Por eso es más frecuente en la descendencia. ¿Cómo se llama este tipo de carácter?",
       "respuesta": "<mark>Carácter dominante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/guisantes-flor-morada.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es como una voz que solo se oye si se repite dos veces seguidas. Necesita dos copias iguales del gen para manifestarse. Puede quedar tapado durante generaciones. ¿Cómo se llama este tipo de carácter?",
+      "pregunta": "<mark>Es como una voz que solo se oye si se repite dos veces seguidas</mark>. Necesita dos copias iguales del gen para manifestarse. Puede quedar tapado durante generaciones. ¿Cómo se llama este tipo de carácter?",
       "respuesta": "<mark>Carácter recesivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/wallaby-albino.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es como si algunas instrucciones solo vinieran en un tipo concreto de paquete. Esos genes viajan en los cromosomas sexuales. Por eso el daltonismo aparece más en un sexo. ¿Cómo se llama este tipo de herencia?",
+      "pregunta": "<mark>Es como si algunas instrucciones solo vinieran en un tipo concreto de paquete</mark>. Esos genes viajan en los cromosomas sexuales. Por eso el daltonismo aparece más en un sexo. ¿Cómo se llama este tipo de herencia?",
       "respuesta": "<mark>Herencia ligada al sexo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/paquetes-correo.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es como dos voces que suenan igual de fuerte, sin que ninguna gane. Dos versiones de un gen se manifiestan a la vez. Ciertos grupos sanguíneos son un ejemplo. ¿Cómo se llama este fenómeno?",
+      "pregunta": "<mark>Es como dos voces que suenan igual de fuerte, sin que ninguna gane</mark>. Dos versiones de un gen se manifiestan a la vez. Ciertos grupos sanguíneos son un ejemplo. ¿Cómo se llama este fenómeno?",
       "respuesta": "<mark>Codominancia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/donacion-sangre-tipo.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es como mezclar dos barajas de cartas y repartir una selección nueva. Los hijos reciben una combinación de los genes de sus padres. Por eso los hermanos se parecen sin ser idénticos. ¿Cómo se llama este proceso de transmisión?",
+      "pregunta": "<mark>Es como mezclar dos barajas de cartas y repartir una selección nueva</mark>. Los hijos reciben una combinación de los genes de sus padres. Por eso los hermanos se parecen sin ser idénticos. ¿Cómo se llama este proceso de transmisión?",
       "respuesta": "<mark>Herencia genética</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/hermanos-parecido-familiar.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Es como calcular todas las combinaciones posibles al lanzar dos dados distintos. Así se predice la probabilidad de cada resultado en la descendencia. ¿Qué se combina de los padres para resolverlo?",
+      "pregunta": "<mark>Es como calcular todas las combinaciones posibles al lanzar dos dados distintos</mark>. Así se predice la probabilidad de cada resultado en la descendencia. ¿Qué se combina de los padres para resolverlo?",
       "respuesta": "<mark>Genotipos de los progenitores</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_3/dados-probabilidad.jpg",

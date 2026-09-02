@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Un sistema político dominó Europa antes de las revoluciones liberales. <br>Se basaba en reyes con poder absoluto y una sociedad dividida en estamentos. <br>La nobleza y el clero tenían privilegios que el resto no tenía. <br>¿Cómo se llama este sistema?",
+      "pregunta": "Un sistema político dominó Europa antes de las revoluciones liberales. <br><mark>Los reyes tenían poder absoluto y la sociedad estaba dividida en estamentos</mark>. <br>La nobleza y el clero tenían privilegios que el resto no tenía. <br>¿Cómo se llama este sistema?",
       "respuesta": "<mark>Antiguo Régimen</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/antiguo-regimen.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Nobleza, clero y el tercer estado formaban la sociedad, según el nacimiento. <br>El tercer estado pagaba casi todos los impuestos, aunque tenía menos derechos. <br>Esa desigualdad generó cada vez más descontento social. <br>¿En cuántos grupos se dividía la sociedad del Antiguo Régimen?",
+      "pregunta": "<mark>Nobleza, clero y el tercer estado</mark> formaban la sociedad, según el nacimiento. <br>El tercer estado pagaba casi todos los impuestos, aunque tenía menos derechos. <br>Esa desigualdad generó descontento social. <br>¿En cuántos grupos se dividía la sociedad del Antiguo Régimen?",
       "respuesta": "<mark>Tres</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/sociedad-antiguo-regimen.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Un movimiento difundió ideas como la igualdad, la libertad y la razón frente al poder absoluto. <br>Esas ideas fueron la chispa que encendió varias revoluciones posteriores. <br>Pensadores como Rousseau o Montesquieu cuestionaron el poder de los reyes. <br>¿Cómo se llama este movimiento de pensamiento?",
+      "pregunta": "Un movimiento difundió ideas como la igualdad, la libertad y la razón frente al poder absoluto. <br>Esas ideas fueron la chispa que encendió varias revoluciones posteriores. <br><mark>Pensadores como Rousseau o Montesquieu cuestionaron el poder de los reyes</mark>. <br>¿Cómo se llama este movimiento de pensamiento?",
       "respuesta": "<mark>Ilustración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/ilustracion-revoluciones.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Un sistema hacía que el rey compartiera el poder con un parlamento electo. <br>El rey ya no podía gobernar solo, sin el visto bueno de otros representantes. <br>Se consolidó en Inglaterra antes que en el resto de Europa. <br>¿Cómo se llama este sistema político?",
+      "pregunta": "Un sistema hacía que el rey compartiera el poder con un parlamento electo. <br><mark>El rey ya no podía gobernar solo, sin el visto bueno de otros representantes</mark>. <br>Se consolidó en Inglaterra antes que en el resto de Europa. <br>¿Cómo se llama este sistema político?",
       "respuesta": "<mark>Monarquía parlamentaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/monarquia-parlamentaria.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Las colonias británicas de América se rebelaron contra impuestos decididos sin su participación. <br>En 1776 declararon su independencia y nació Estados Unidos. <br>Su Constitución influyó en las revoluciones liberales posteriores. <br>¿Cómo se llama este proceso de independencia?",
+      "pregunta": "Las colonias británicas de América se rebelaron contra impuestos decididos sin su participación. <br><mark>En 1776 declararon su independencia y nació Estados Unidos</mark>. <br>Su Constitución influyó en las revoluciones liberales posteriores. <br>¿Cómo se llama este proceso de independencia?",
       "respuesta": "<mark>Revolución americana</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/revolucion-americana.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Un proceso acabó con la monarquía absoluta en Francia, en 1789. <br>El pueblo se levantó contra los privilegios de la nobleza y el clero. <br>Su lema fue libertad, igualdad y fraternidad. <br>¿Cómo se llama este proceso histórico?",
+      "pregunta": "Un proceso acabó con la monarquía absoluta en Francia, en 1789. <br>El pueblo se levantó contra los privilegios de la nobleza y el clero. <br><mark>Su lema fue libertad, igualdad y fraternidad</mark>. <br>¿Cómo se llama este proceso histórico?",
       "respuesta": "<mark>Revolución francesa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/revolucion-francesa.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Un rey de Francia perdió el poder y finalmente fue ejecutado en 1793. <br>Fue un símbolo enorme: hasta un rey podía perder la vida ante el pueblo. <br>Ese hecho asustó a otras monarquías de Europa. <br>¿Cómo se llamaba este rey de Francia?",
+      "pregunta": "Un rey de Francia perdió el poder y finalmente fue ejecutado en 1793. <br><mark>Fue un símbolo enorme: hasta un rey podía perder la vida ante el pueblo</mark>. <br>Ese hecho asustó a otras monarquías de Europa. <br>¿Cómo se llamaba este rey de Francia?",
       "respuesta": "<mark>Luis XVI</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/rey-francia.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Un imperio nació tras la Revolución francesa, creado por un general. <br>Extendió por buena parte de Europa ideas revolucionarias, aunque gobernaba como un emperador. <br>Sus ejércitos conquistaron gran parte del continente. <br>¿Cómo se llama este imperio creado por Napoleón Bonaparte?",
+      "pregunta": "Un imperio nació tras la Revolución francesa, creado por un general. <br>Extendió por buena parte de Europa ideas revolucionarias, aunque gobernaba como un emperador. <br><mark>Sus ejércitos conquistaron gran parte del continente</mark>. <br>¿Cómo se llama este imperio creado por Napoleón Bonaparte?",
       "respuesta": "<mark>Imperio napoleónico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/imperio-napoleonico.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Las monarquías europeas intentaron volver al sistema anterior a la revolución. <br>Es como intentar meter de nuevo en la caja algo que ya se había salido. <br>Los reyes recuperaron parte de su poder, pero las ideas liberales no desaparecieron del todo. <br>¿Cómo se llama este intento de vuelta al pasado?",
+      "pregunta": "Las monarquías europeas intentaron volver al sistema anterior a la revolución. <br><mark>Es como intentar meter de nuevo en la caja algo que ya se había salido</mark>. <br>Los reyes recuperaron parte de su poder, pero las ideas liberales no desaparecieron del todo. <br>¿Cómo se llama este intento de vuelta al pasado?",
       "respuesta": "<mark>Restauración del absolutismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/restauracion-absolutismo.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Nuevas revueltas liberales estallaron en distintos países europeos, en 1820, 1830 y 1848. <br>Cada una era como una réplica del terremoto que había sido la Revolución francesa. <br>Pedían constituciones, libertades y menos poder para los reyes absolutos. <br>¿Cómo se llaman estas revueltas repetidas?",
+      "pregunta": "Nuevas revueltas liberales estallaron en distintos países europeos, en 1820, 1830 y 1848. <br><mark>Cada una era como una réplica del terremoto que había sido la Revolución francesa</mark>. <br>Pedían constituciones, libertades y menos poder para los reyes absolutos. <br>¿Cómo se llaman estas revueltas repetidas?",
       "respuesta": "<mark>Oleadas revolucionarias</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/oleadas-revolucionarias.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Un pueblo con lengua y cultura propias merece formar su propio Estado, según cierta idea. <br>Es como decir \"compartimos historia, así que merecemos gobernarnos juntos\". <br>Impulsó movimientos de independencia y de unificación de países. <br>¿Cómo se llama esta idea del siglo XIX?",
+      "pregunta": "Un pueblo con lengua y cultura propias merece formar su propio Estado, según cierta idea. <br><mark>Es como decir \"compartimos historia, así que merecemos gobernarnos juntos\"</mark>. <br>Impulsó movimientos de independencia y de unificación de países. <br>¿Cómo se llama esta idea del siglo XIX?",
       "respuesta": "<mark>Nacionalismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/nacionalismo-xix.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Varios reinos y territorios de lengua alemana se unieron en un solo Estado. <br>Es como juntar piezas sueltas de un mismo puzle en una sola imagen. <br>Prusia lideró ese proceso, a menudo mediante guerras. <br>¿En qué año se proclamó el Imperio alemán unificado?",
+      "pregunta": "Varios reinos y territorios de lengua alemana se unieron en un solo Estado. <br><mark>Es como juntar piezas sueltas de un mismo puzle en una sola imagen</mark>. <br>Prusia lideró ese proceso, a menudo mediante guerras. <br>¿En qué año se proclamó el Imperio alemán unificado?",
       "respuesta": "<mark>1871</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/unificacion-alemania.png",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Distintos reinos y territorios italianos se unieron en un único país. <br>Antes de eso, Italia era más un conjunto de territorios que una sola nación. <br>El Reino de Piamonte-Cerdeña lideró gran parte de ese proceso. <br>¿Qué militar ayudó con sus campañas a esta unificación?",
+      "pregunta": "Distintos reinos y territorios italianos se unieron en un único país. <br><mark>Antes de eso, Italia era más un conjunto de territorios que una sola nación</mark>. <br>El Reino de Piamonte-Cerdeña lideró gran parte de ese proceso. <br>¿Qué militar ayudó con sus campañas a esta unificación?",
       "respuesta": "<mark>Garibaldi</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/garibaldi-estatua.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "En un sistema, el rey gobernaba casi sin límites y la sociedad estaba dividida en estamentos. <br>En otro sistema existen leyes, una Constitución y derechos para los ciudadanos. <br>Ese cambio fue resultado directo de las revoluciones liberales. <br>¿Qué limita el poder del rey en una monarquía liberal?",
+      "pregunta": "<mark>En un sistema, el rey gobernaba casi sin límites y la sociedad estaba dividida en estamentos</mark>. <br>En otro sistema existen leyes, una Constitución y derechos para los ciudadanos. <br>Ese cambio fue resultado directo de las revoluciones liberales. <br>¿Qué limita el poder del rey en una monarquía liberal?",
       "respuesta": "<mark>La Constitución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/diferencia-antiguo-liberal.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "El poder absoluto de un rey podía ser derrocado, y eso quedó demostrado. <br>Es como ver caer la primera ficha de un dominó y temer que caigan todas. <br>Por eso intentaron frenar esas ideas durante décadas. <br>¿Qué temían las monarquías europeas tras estas revoluciones?",
+      "pregunta": "El poder absoluto de un rey podía ser derrocado, y eso quedó demostrado. <br><mark>Es como ver caer la primera ficha de un dominó y temer que caigan todas</mark>. <br>Por eso intentaron frenar esas ideas durante décadas. <br>¿Qué temían las monarquías europeas tras estas revoluciones?",
       "respuesta": "<mark>Que el pueblo se rebelara</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/miedo-monarquias.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Ideas como la separación de poderes, las constituciones y los derechos ciudadanos nacieron de esas luchas. <br>Muchas normas que hoy parecen normales vienen de hace siglos. <br>La mayoría de democracias actuales beben de esas ideas. <br>¿Qué dejaron las revoluciones liberales a la política actual?",
+      "pregunta": "<mark>Ideas como la separación de poderes, las constituciones y los derechos ciudadanos nacieron de esas luchas</mark>. <br>Muchas normas que hoy parecen normales vienen de hace siglos. <br>La mayoría de democracias actuales beben de esas ideas. <br>¿Qué dejaron las revoluciones liberales a la política actual?",
       "respuesta": "<mark>Su legado democrático</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_3/legado-revoluciones.jpg",

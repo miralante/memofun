@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Estudia cómo la geografía influye en las relaciones de poder entre países. Es como analizar una partida de ajedrez usando el mapa del mundo como tablero. Territorio, recursos y fronteras condicionan las decisiones políticas. ¿Cómo se llama esta disciplina?",
+      "pregunta": "Estudia cómo la geografía influye en las relaciones de poder entre países. <mark>Es como analizar una partida de ajedrez usando el mapa del mundo como tablero</mark>. ¿Cómo se llama esta disciplina?",
       "respuesta": "<mark>Geopolítica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/geopolitica.png",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es un territorio con gobierno, leyes y población reconocidos internacionalmente. Es como una gran comunidad con reglas propias y fronteras definidas. Tiene soberanía para decidir sobre sus propios asuntos internos. ¿Cómo se llama esta forma de organización política?",
+      "pregunta": "Es un territorio con gobierno, leyes y población reconocidos internacionalmente. <mark>Es como una gran comunidad con reglas propias y fronteras definidas</mark>. ¿Cómo se llama esta forma de organización política?",
       "respuesta": "<mark>Estado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/estado.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "España se organiza en distintos niveles, del país entero al barrio. Es como una casa con distintos pisos de organización. Cada nivel autonómico tiene competencias propias, como educación o sanidad. ¿En qué tres niveles se divide el territorio español?",
+      "pregunta": "España se organiza en distintos niveles, del país entero al barrio. <mark>Es como una casa con distintos pisos de organización</mark>. Cada nivel tiene competencias propias, como educación o sanidad. ¿En qué tres niveles se divide el territorio español?",
       "respuesta": "<mark>Comunidades, provincias y municipios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/organizacion-territorial.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "En un tipo de mundo, una sola potencia domina claramente las relaciones internacionales. En otro tipo, el poder se reparte entre varias potencias distintas. Tras la Guerra Fría, el mundo vivió las dos situaciones, una detrás de otra. ¿Cómo se llama cada uno de estos dos tipos de mundo?",
+      "pregunta": "En un tipo de mundo, una sola potencia domina claramente las relaciones internacionales. En otro, el poder se reparte entre varias potencias. <mark>Tras la Guerra Fría, el mundo vivió las dos situaciones, una detrás de otra</mark>. ¿Cómo se llama cada uno de estos dos tipos de mundo?",
       "respuesta": "<mark>Unipolar y multipolar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/mundo-multipolar.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Son organismos donde varios países colaboran en temas comunes. Es como un punto de encuentro donde los países negocian en vez de pelear. La ONU o la OTAN son ejemplos conocidos. ¿Cómo se llaman estos organismos?",
+      "pregunta": "Son organismos donde varios países colaboran en temas comunes. <mark>Es como un punto de encuentro donde los países negocian en vez de pelear</mark>. La ONU o la OTAN son ejemplos conocidos. ¿Cómo se llaman estos organismos?",
       "respuesta": "<mark>Instituciones internacionales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/instituciones-internacionales.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es el envío de fuerzas internacionales para proteger a la población en zonas de conflicto. Actúan como un árbitro que intenta frenar la violencia entre bandos enfrentados. Suelen actuar bajo el mandato de organismos como la ONU. ¿Cómo se llama esta acción?",
+      "pregunta": "Es el envío de fuerzas internacionales para proteger a la población en zonas de conflicto. <mark>Actúan como un árbitro que intenta frenar la violencia entre bandos enfrentados</mark>. ¿Cómo se llama esta acción?",
       "respuesta": "<mark>Misión de paz</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/mision-paz.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "España participa en misiones internacionales y en organismos como la ONU o la OTAN. Es como aportar su granito de arena a un esfuerzo compartido por muchos países. También colabora en ayuda humanitaria y cooperación internacional. ¿Qué tipo de acciones internacionales realiza España en este ámbito?",
+      "pregunta": "España participa en organismos como la ONU o la OTAN. <mark>Es como aportar su granito de arena a un esfuerzo compartido por muchos países</mark>. También colabora en ayuda humanitaria. ¿Qué tipo de acciones realiza España en este ámbito?",
       "respuesta": "<mark>Misiones internacionales de paz</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/compromisos-espana.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Son herramientas digitales para analizar y representar datos sobre el territorio. Es como tener un mapa vivo que se actualiza con información en tiempo real. Se usan en gestión de catástrofes, urbanismo o seguridad. ¿Cómo se llaman estas herramientas?",
+      "pregunta": "Son herramientas digitales para analizar y representar datos sobre el territorio. <mark>Es como tener un mapa vivo que se actualiza solo, en tiempo real</mark>. Se usan en gestión de catástrofes, urbanismo o seguridad. ¿Cómo se llaman estas herramientas?",
       "respuesta": "<mark>Tecnologías de la información geográfica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/tecnologias-geograficas.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Empezó con acuerdos económicos entre países europeos tras la Segunda Guerra Mundial. Buscaban unir intereses para que otra guerra entre ellos fuera casi imposible. Uno de sus primeros pasos fue una comunidad económica compartida. ¿Qué organización terminó naciendo de esos acuerdos?",
+      "pregunta": "Empezó con acuerdos económicos entre países europeos tras la Segunda Guerra Mundial. <mark>Querían evitar que esos países volvieran a la guerra entre ellos</mark>. Uno de sus primeros pasos fue una comunidad económica compartida. ¿Qué organización terminó naciendo de esos acuerdos?",
       "respuesta": "<mark>La Unión Europea</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/union-europea.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es el proceso de compartir mercado y, en muchos países, también moneda. Es como si varios países decidieran usar la misma cartera para comprar y vender. Esta moneda común facilita el comercio y los viajes entre países miembros. ¿Cómo se llama esta moneda compartida por buena parte de la Unión Europea?",
+      "pregunta": "Es el proceso de compartir mercado y, en muchos países, también moneda. <mark>Es como si varios países decidieran usar la misma cartera para comprar y vender</mark>. Facilita el comercio y los viajes entre países miembros. ¿Cómo se llama esta moneda compartida por buena parte de la Unión Europea?",
       "respuesta": "<mark>El euro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/integracion-euro.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Son los organismos que gobiernan y legislan para toda la Unión Europea. Es como un gobierno compartido entre varios países, con reglas comunes. Incluyen el Parlamento Europeo, la Comisión y el Consejo. ¿Cómo se llaman estos organismos?",
+      "pregunta": "Son los organismos que gobiernan y legislan para toda la Unión Europea. <mark>Es como un gobierno compartido entre varios países, con reglas comunes</mark>. Incluyen el Parlamento Europeo, la Comisión y el Consejo. ¿Cómo se llaman estos organismos?",
       "respuesta": "<mark>Instituciones europeas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/parlamento-europeo.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Significa tener derechos añadidos por pertenecer a un país de la Unión Europea. Es como tener una segunda tarjeta de identidad, además de la de tu propio país. Permite viajar, estudiar y trabajar más fácilmente en otros países miembros. ¿Cómo se llama esta condición?",
+      "pregunta": "Significa tener derechos añadidos por pertenecer a un país de la Unión Europea. <mark>Es como tener una segunda tarjeta de identidad, además de la de tu propio país</mark>. Permite viajar, estudiar y trabajar más fácilmente en otros países miembros. ¿Cómo se llama esta condición?",
       "respuesta": "<mark>Ciudadanía europea</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/ciudadano-europeo.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "La Unión Europea debe decidir si sigue uniéndose más o si algunos países se distancian de ese proyecto común. Es como un grupo grande que debe decidir si camina más unido o más suelto. Economía y seguridad también generan debate constante. ¿Qué otro gran tema preocupa hoy a la Unión Europea?",
+      "pregunta": "La Unión Europea debe decidir si sigue uniéndose más o si algunos países se distancian de ese proyecto común. <mark>Es como un grupo grande que debe decidir si camina más unido o más suelto</mark>. Economía y seguridad también generan debate. ¿Qué otro gran tema preocupa hoy a la Unión Europea?",
       "respuesta": "<mark>La migración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/retos-ue.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Es la conexión cada vez mayor entre economías, culturas y personas de todo el mundo. Es como si las distancias entre países se hubieran acortado mucho más rápido que nunca. Facilita el comercio, la comunicación y los viajes. ¿Cómo se llama este fenómeno?",
+      "pregunta": "Es la conexión cada vez mayor entre economías, culturas y personas de todo el mundo. <mark>Es como si las distancias entre países se hubieran acortado mucho más rápido que nunca</mark>. ¿Cómo se llama este fenómeno?",
       "respuesta": "<mark>Globalización</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/globalizacion.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "A veces, unos países o culturas dependen mucho de otros más poderosos. Es como que una tienda pequeña dependa totalmente de un gran proveedor lejano. Eso puede afectar a la economía local o incluso a las costumbres propias. ¿Cómo se llama esta forma de dependencia dentro de la globalización?",
+      "pregunta": "A veces, unos países o culturas dependen mucho de otros más poderosos. <mark>Es como que una tienda pequeña dependa totalmente de un gran proveedor lejano</mark>. Eso puede afectar a la economía local o a las costumbres propias. ¿Cómo se llama esta forma de dependencia dentro de la globalización?",
       "respuesta": "<mark>Subordinación económica y cultural</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/subordinacion-cultural.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Desigualdad, migraciones, cambio climático y conflictos armados preocupan hoy a todo el mundo. Son problemas tan conectados entre sí como los países que forman el planeta. Ningún país puede resolverlos completamente en solitario. ¿Qué hace falta cada vez más para afrontar estos problemas?",
+      "pregunta": "Desigualdad, migraciones, cambio climático y conflictos armados preocupan hoy a todo el mundo. <mark>Ningún país puede resolverlos completamente en solitario</mark>. ¿Qué hace falta cada vez más para afrontar estos problemas?",
       "respuesta": "<mark>Cooperación internacional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/problemas-globalizacion.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "El terrorismo puede organizarse y comunicarse hoy usando redes internacionales y tecnología. Es como una amenaza que ya no respeta fronteras ni distancias. Eso hace más difícil combatirlo solo con medios de un único país. ¿Qué tipo de terrorismo es este, propio del mundo actual?",
+      "pregunta": "Puede organizarse y comunicarse hoy usando redes internacionales y tecnología. <mark>Es como una amenaza que ya no respeta fronteras ni distancias</mark>. Eso hace más difícil combatirlo solo con medios de un único país. ¿Qué tipo de terrorismo es este, propio del mundo actual?",
       "respuesta": "<mark>Terrorismo global</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/terrorismo-global.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "Una decisión económica o política en un país afecta rápidamente a otros. Es como una red de hilos invisibles que conecta a todo el planeta. Internet, el comercio y los viajes han acelerado esa conexión. ¿Cómo se describe este mundo tan conectado?",
+      "pregunta": "Una decisión económica o política en un país afecta rápidamente a otros. <mark>Es como una red de hilos invisibles que conecta a todo el planeta</mark>. Internet, el comercio y los viajes han acelerado esa conexión. ¿Cómo se describe este mundo tan conectado?",
       "respuesta": "<mark>Mundo interconectado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_geografia-historia_5/mundo-interconectado.png",

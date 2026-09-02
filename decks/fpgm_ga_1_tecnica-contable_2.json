@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es la situación en la que el activo de la empresa es suficiente para cubrir sus deudas. Es como tener siempre más de lo que debes, para poder responder sin apuros. Perder esta situación es una señal de alarma económica. ¿Cómo se llama esta situación?",
+      "pregunta": "Es la situación en la que el activo de la empresa cubre sus deudas. <mark>Es como tener siempre más de lo que debes, para responder sin apuros</mark>. Perder esta situación es una señal de alarma económica. ¿Cómo se llama esta situación?",
       "respuesta": "<mark>Equilibrio patrimonial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/balanza.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Son grandes grupos en los que se organiza el patrimonio, como el activo o el pasivo. Es como separar todo el patrimonio en cajones grandes, antes de mirar el detalle de cada cuenta. Facilita analizar la situación económica de un vistazo. ¿Cómo se llaman estos grandes grupos?",
+      "pregunta": "Son grandes grupos en los que se organiza el patrimonio, como el activo o el pasivo. <mark>Es como separar todo en cajones grandes, antes de mirar el detalle</mark>. Facilita analizar la situación económica de un vistazo. ¿Cómo se llaman estos grandes grupos?",
       "respuesta": "<mark>Masas patrimoniales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/balanza.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es una versión simplificada del Plan General de Contabilidad, pensada para empresas pequeñas. Es como el mismo manual de instrucciones, pero en una versión más sencilla para negocios pequeños. ¿Cómo se llama esta versión simplificada?",
+      "pregunta": "Es una versión simplificada del Plan General de Contabilidad, para empresas pequeñas. <mark>Es como el mismo manual, pero en una versión más sencilla</mark>. ¿Cómo se llama esta versión simplificada?",
       "respuesta": "<mark>Plan General de Contabilidad PYME</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/libro-cuentas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de principios básicos que orientan cómo debe elaborarse la contabilidad. Es como las reglas del juego que hay que respetar antes de empezar a jugar. Sirve de base para interpretar el resto de normas contables. ¿Cómo se llama este conjunto de principios?",
+      "pregunta": "Es el conjunto de principios básicos para elaborar la contabilidad. <mark>Es como las reglas del juego que hay que respetar antes de jugar</mark>. Sirve de base para interpretar el resto de normas contables. ¿Cómo se llama este conjunto de principios?",
       "respuesta": "<mark>Marco conceptual</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/libro-cuentas.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es el listado ordenado de todas las cuentas que puede usar una empresa en su contabilidad. Es como un índice numerado, donde cada tipo de cuenta tiene su propio código. Facilita que todas las empresas usen un lenguaje contable común. ¿Cómo se llama este listado?",
+      "pregunta": "Es el listado ordenado de todas las cuentas que puede usar una empresa. <mark>Es como un índice numerado, donde cada tipo tiene su propio código</mark>. Facilita que todas las empresas usen un lenguaje contable común. ¿Cómo se llama este listado?",
       "respuesta": "<mark>Cuadro de cuentas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/libro-cuentas.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "La compra de mercancía se anota como un gasto y la venta, como un ingreso, cada una en su cuenta. Es como separar en dos casillas distintas lo que entra y lo que sale del negocio. Ambas operaciones también reflejan el IVA. ¿Qué se anota como gasto y qué como ingreso?",
+      "pregunta": "Una se anota como gasto y la otra como ingreso, cada una en su cuenta. <mark>Es como separar en dos casillas lo que entra y lo que sale del negocio</mark>. Ambas operaciones también reflejan el IVA. ¿Qué se anota como gasto y qué como ingreso?",
       "respuesta": "<mark>Compra y venta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/mercaderias.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Son los bienes duraderos que usa la empresa para trabajar, como maquinaria o mobiliario. Es como las herramientas fijas de un taller, que no se compran para revender. Suele financiarse con préstamos o con recursos propios. ¿Cómo se llaman estos bienes?",
+      "pregunta": "Son los bienes duraderos que usa la empresa para trabajar, como maquinaria o mobiliario. <mark>Es como las herramientas fijas de un taller, que no se compran para revender</mark>. Suele financiarse con préstamos o recursos propios. ¿Cómo se llaman estos bienes?",
       "respuesta": "<mark>Inmovilizado material</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/taller-maquinaria.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Registrar los asientos con una aplicación informática reduce errores de cálculo y ahorra mucho tiempo. Es como usar una calculadora en vez de sumar columnas enteras con lápiz y papel. Además, guarda un historial ordenado de toda la contabilidad. ¿Con qué se registran los asientos para ganar tiempo y evitar errores?",
+      "pregunta": "Registrar los asientos así reduce errores de cálculo y ahorra mucho tiempo. <mark>Es como usar una calculadora en vez de sumar columnas a mano</mark>. Además, guarda un historial ordenado de toda la contabilidad. ¿Con qué se registran los asientos para ganar tiempo y evitar errores?",
       "respuesta": "<mark>Una aplicación informática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/oficina-ordenador.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es una plantilla ya preparada para registrar operaciones que se repiten a menudo. Es como tener un formulario ya rellenado a medias, listo para completar solo lo que cambia. Ahorra tiempo en tareas repetitivas. ¿Cómo se llama esta plantilla?",
+      "pregunta": "Es una plantilla ya preparada para registrar operaciones que se repiten a menudo. <mark>Es como tener un formulario ya rellenado a medias, listo para completar</mark>. Ahorra tiempo en tareas repetitivas. ¿Cómo se llama esta plantilla?",
       "respuesta": "<mark>Asiento predefinido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/oficina-ordenador.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Un fallo técnico podría hacer perder toda la información contable de la empresa. Por eso hay que guardar una fotocopia de tus cuentas, por si el original se estropea. Sin ella, recuperar esos datos puede ser imposible. ¿Qué hay que hacer para no perder la contabilidad informatizada?",
+      "pregunta": "Un fallo técnico podría hacer perder toda la información contable de la empresa. <mark>Por eso conviene guardar un duplicado de tus cuentas, por si el original se estropea</mark>. Sin él, recuperar esos datos puede ser imposible. ¿Qué hay que hacer para no perder la contabilidad informatizada?",
       "respuesta": "<mark>Una copia de seguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_2/copia-seguridad-disco.jpg",

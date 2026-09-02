@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Un tipo de enfermedad la provoca un agente externo, como un virus o una bacteria. El otro tipo surge del propio cuerpo, sin que nadie te la contagie. La gripe es de un tipo; la diabetes, por ejemplo, del otro. ¿Cómo se llama cada tipo de enfermedad?",
+      "pregunta": "Un tipo de enfermedad la provoca un agente externo, como un virus o una bacteria. El otro tipo surge del propio cuerpo, sin que nadie te la contagie. <mark>La gripe es de un tipo; la diabetes, por ejemplo, del otro</mark>. ¿Cómo se llama cada tipo de enfermedad?",
       "respuesta": "<mark>Infecciosa y no infecciosa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/fiebre-recuperacion-historica.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es un agente muy pequeño que necesita entrar en una célula para reproducirse. Es como un intruso que necesita ocupar una casa ajena para poder actuar. Causa enfermedades como la gripe o el resfriado común. ¿Cómo se llama este agente?",
+      "pregunta": "Es un agente muy pequeño que necesita entrar en una célula para reproducirse. <mark>Es como un intruso que necesita ocupar una casa ajena para poder actuar</mark>. Causa enfermedades como la gripe o el resfriado común. ¿Cómo se llama este agente?",
       "respuesta": "<mark>Virus</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/virus-respiratorio-microscopio.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es un organismo unicelular capaz de vivir y reproducirse por sí mismo. A diferencia del virus, no necesita 'invadir' una célula para sobrevivir. Muchas infecciones causadas por este organismo se tratan con antibióticos. ¿Cómo se llama este organismo?",
+      "pregunta": "Es un organismo unicelular capaz de vivir y reproducirse por sí mismo. A diferencia del virus, <mark>no necesita 'invadir' una célula para sobrevivir</mark>. Muchas infecciones causadas por este organismo se tratan con antibióticos. ¿Cómo se llama este organismo?",
       "respuesta": "<mark>Bacteria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/bacteria-ecoli.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Actúan como primera línea de defensa del cuerpo. Son como la puerta y las ventanas cerradas de una casa frente a intrusos. Impiden que muchos microorganismos entren en el cuerpo. ¿Cuáles son estas dos primeras barreras?",
+      "pregunta": "Actúan como primera línea de defensa del cuerpo. <mark>Son como la puerta y las ventanas cerradas de una casa frente a intrusos</mark>. Impiden que muchos microorganismos entren en el cuerpo. ¿Cuáles son estas dos primeras barreras?",
       "respuesta": "<mark>Piel y mucosas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/piel-textura-macro.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de defensas del cuerpo frente a agentes que pueden hacer daño. Es como un ejército interno preparado para detectar y combatir intrusos. Gracias a él, el cuerpo supera muchas infecciones sin ayuda externa. ¿Cómo se llama este conjunto de defensas?",
+      "pregunta": "Es el conjunto de defensas del cuerpo frente a agentes que pueden hacer daño. <mark>Es como un ejército interno preparado para detectar y combatir intrusos</mark>. Gracias a él, el cuerpo supera muchas infecciones sin ayuda externa. ¿Cómo se llama este conjunto de defensas?",
       "respuesta": "<mark>Sistema inmunitario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/respuesta-inmunitaria-diagrama.png",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Las células del sistema inmunitario detectan agentes extraños y los atacan o los neutralizan. Es como un equipo de seguridad que identifica y detiene a quien no debería estar ahí. Algunas 'recuerdan' infecciones pasadas para responder más rápido después. ¿Cómo se llama esta capacidad de recordar infecciones?",
+      "pregunta": "Las células del sistema inmunitario detectan agentes extraños y los atacan o los neutralizan. <mark>Es como un equipo de seguridad que identifica y detiene a quien no debería estar ahí</mark>. Algunas 'recuerdan' infecciones pasadas para responder más rápido después. ¿Cómo se llama esta capacidad de recordar infecciones?",
       "respuesta": "<mark>Memoria inmunitaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/celulas-madre-colonia.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es una sustancia que prepara al sistema inmunitario frente a una enfermedad concreta. Es como un simulacro de incendio, para que el cuerpo sepa reaccionar si ocurre de verdad. Enseña a reconocer un agente sin causar la enfermedad real. ¿Cómo se llama esta sustancia?",
+      "pregunta": "Es una sustancia que prepara al sistema inmunitario frente a una enfermedad concreta. <mark>Es como un simulacro de incendio, para que el cuerpo sepa reaccionar si ocurre de verdad</mark>. Enseña a reconocer un agente sin causar la enfermedad real. ¿Cómo se llama esta sustancia?",
       "respuesta": "<mark>Vacuna</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/vacuna-jeringa.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Si suficiente gente está vacunada, la enfermedad tiene menos posibilidades de propagarse. Es como cortar los caminos por los que podría extenderse un incendio. Protege también a quienes no pueden vacunarse por motivos de salud. ¿Cómo se llama esta protección de todo un grupo?",
+      "pregunta": "Si suficiente gente está vacunada, la enfermedad tiene menos posibilidades de propagarse. <mark>Es como cortar los caminos por los que podría extenderse un incendio</mark>. Protege también a quienes no pueden vacunarse por motivos de salud. ¿Cómo se llama esta protección de todo un grupo?",
       "respuesta": "<mark>Inmunidad de grupo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/vacunacion-covid-enfermera.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Mejores tratamientos, diagnósticos más precisos y nuevas vacunas. Es como si la medicina fuera actualizando constantemente sus herramientas. Esos avances han aumentado mucho la esperanza de vida. ¿Qué tipo de ciencias han logrado estos avances?",
+      "pregunta": "Mejores tratamientos, diagnósticos más precisos y nuevas vacunas. <mark>Es como si la medicina fuera actualizando constantemente sus herramientas</mark>. Esos avances han aumentado mucho la esperanza de vida. ¿Qué tipo de ciencias han logrado estos avances?",
       "respuesta": "<mark>Ciencias biomédicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/investigacion-medica-militar.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es sustituir un órgano dañado por otro sano de otra persona. Es como cambiar una pieza estropeada de una máquina por una que sí funciona. Salva o mejora enormemente la vida de muchas personas. ¿Cómo se llama esta operación?",
+      "pregunta": "Es sustituir un órgano dañado por otro sano de otra persona. <mark>Es como cambiar una pieza estropeada de una máquina por una que sí funciona</mark>. Salva o mejora enormemente la vida de muchas personas. ¿Cómo se llama esta operación?",
       "respuesta": "<mark>Trasplante de órganos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/cirugia-cardiaca-quirofano.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Permite salvar vidas de personas que necesitan un órgano sano. Es uno de los actos de generosidad más directos que existen entre personas. Muchas personas siguen esperando un órgano compatible. ¿Qué acto permite salvar hasta varias vidas a la vez?",
+      "pregunta": "Permite salvar vidas de personas que necesitan un órgano sano. <mark>Es uno de los actos de generosidad más directos que existen entre personas</mark>. Muchas personas siguen esperando un órgano compatible. ¿Qué acto permite salvar hasta varias vidas a la vez?",
       "respuesta": "<mark>Donar órganos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/tarjeta-donante-organos.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Significa que el cuerpo receptor no lo va a rechazar como algo extraño. Es un poco como encontrar la pieza exacta que encaja en un puzle concreto. Se comprueban factores como el grupo sanguíneo y otros marcadores. ¿Cómo se llama esta cualidad, necesaria para un trasplante?",
+      "pregunta": "Significa que el cuerpo receptor no lo va a rechazar como algo extraño. <mark>Es un poco como encontrar la pieza exacta que encaja en un puzle concreto</mark>. Se comprueban factores como el grupo sanguíneo y otros marcadores. ¿Cómo se llama esta cualidad, necesaria para un trasplante?",
       "respuesta": "<mark>Compatibilidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/puzle-amarillo-piezas.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "El sistema inmunitario lo identifica como algo extraño y lo ataca. Es como si el sistema de seguridad no reconociera a un nuevo inquilino y lo tratara como intruso. Por eso se necesitan medicamentos que frenen esa respuesta. ¿Cómo se llama esta reacción del cuerpo ante el órgano nuevo?",
+      "pregunta": "El sistema inmunitario lo identifica como algo extraño y lo ataca. <mark>Es como si el sistema de seguridad no reconociera a un nuevo inquilino y lo tratara como intruso</mark>. Por eso se necesitan medicamentos que frenen esa respuesta. ¿Cómo se llama esta reacción del cuerpo ante el órgano nuevo?",
       "respuesta": "<mark>Rechazo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/camino-recuperacion-hospital.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Las vacunas entrenan al sistema inmunitario sin necesidad de pasar la enfermedad real. Es como practicar un examen antes de hacerlo de verdad. Así, si el cuerpo se encuentra con el agente real, ya sabe cómo responder. ¿Qué sistema del cuerpo queda entrenado gracias a las vacunas?",
+      "pregunta": "Las vacunas entrenan al sistema inmunitario sin necesidad de pasar la enfermedad real. <mark>Es como practicar un examen antes de hacerlo de verdad</mark>. Así, si el cuerpo se encuentra con el agente real, ya sabe cómo responder. ¿Qué sistema del cuerpo queda entrenado gracias a las vacunas?",
       "respuesta": "<mark>Sistema inmunitario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_4/cientifica-vacuna-laboratorio.jpg",

@@ -27,6 +27,14 @@ into the public site, under any circumstance — see `doc/en/SPEC.md`
 `app.js`, `tools/study/`, `settings/`, or any script under `scripts/`,
 will be rejected.
 
+> **About the Miralante suite** — Memofun is one of **six apps** in
+> the [Miralante](https://apptonomia.uk) suite (Calculia, Memofun,
+> Okeymoney, Routime, Sinonimia, Teclatlon). The
+> [Apptonomia](https://github.com/miralante/apptonomia) repo hosts the
+> suite's **landing portal only** — it is not a runtime app. The full
+> table of the suite lives in this repo's
+> [`README.md` § "The Miralante suite — projects in the suite"](README.md#-the-miralante-suite--projects-in-the-suite).
+
 ## 🔀 GitHub workflow
 
 ```

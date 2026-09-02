@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Cada compra y cada venta se anota como un asiento, para dejar constancia escrita de cada movimiento económico. Se registran el importe, el IVA y las cuentas afectadas. ¿Dónde se anota cada compra y venta?",
+      "pregunta": "Cada compra y venta se anota como un asiento, dejando constancia escrita del movimiento. <mark>Es como un cuaderno que recoge cada movimiento, día a día</mark>. Se registran el importe, el IVA y las cuentas afectadas. ¿Dónde se anota cada compra y venta?",
       "respuesta": "<mark>En el libro diario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/diario-contable.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es el IVA que una empresa paga al comprar bienes o servicios. Es el IVA que 'sufre' la empresa cuando compra algo, como cualquier consumidor. Ese importe se puede descontar del IVA que la empresa cobra. ¿Cómo se llama este IVA?",
+      "pregunta": "Es el impuesto que una empresa paga al comprar bienes o servicios. <mark>Es como lo que paga cualquier comprador de a pie, sin poder evitarlo</mark>. Ese importe se puede descontar del que la empresa cobra. ¿Cómo se llama este IVA?",
       "respuesta": "<mark>IVA soportado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/compra-supermercado.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el IVA que una empresa cobra a sus clientes al vender un producto o servicio. Es el IVA que la empresa 'traslada' a quien le compra. Ese dinero no es un ingreso real, debe entregarse a Hacienda. ¿Cómo se llama este IVA?",
+      "pregunta": "Es el impuesto que una empresa cobra a sus clientes al vender un producto o servicio. <mark>Es como pasarle a quien te compra parte de lo que luego debes a Hacienda</mark>. Ese dinero no es un ingreso real. ¿Cómo se llama este IVA?",
       "respuesta": "<mark>IVA repercutido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/supermercado-venta.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el seguimiento y registro del dinero que los clientes deben pagar a la empresa. Es como llevar la cuenta de quién te debe dinero y cuándo debería pagarte. Incluye avisar de vencimientos y reclamar cobros pendientes. ¿Cómo se llama este seguimiento?",
+      "pregunta": "Es el seguimiento del dinero que los clientes deben pagar a la empresa. <mark>Es como llevar la cuenta de quién te debe dinero y cuándo debería pagarte</mark>. Incluye avisar de vencimientos y reclamar pagos pendientes. ¿Cómo se llama este seguimiento?",
       "respuesta": "<mark>Gestión de cobros</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/portapapeles-seguimiento.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es el seguimiento y registro del dinero que la empresa debe pagar a otros. Es la otra cara de la gestión de cobros, pero desde el lado de lo que se debe. Ayuda a evitar retrasos con proveedores. ¿Cómo se llama este seguimiento?",
+      "pregunta": "Es el seguimiento del dinero que la empresa debe pagar a otros. <mark>Es la otra cara de la moneda: ahora es la empresa quien debe</mark>. Ayuda a evitar retrasos con proveedores. ¿Cómo se llama este seguimiento?",
       "respuesta": "<mark>Gestión de pagos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/paquetes-correo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Una nómina se anota como un gasto de personal, junto con las retenciones y cotizaciones correspondientes. Es como reflejar en las cuentas de la empresa cuánto cuesta realmente cada trabajador. ¿Cómo se registra una nómina?",
+      "pregunta": "Una nómina se anota como un gasto de personal, con las retenciones y cotizaciones correspondientes. <mark>Es como reflejar en las cuentas cuánto cuesta realmente cada trabajador</mark>. ¿Cómo se registra una nómina?",
       "respuesta": "<mark>Como un gasto de personal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/contar-dinero-nomina.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es reflejar la pérdida de valor de un bien de la empresa a lo largo del tiempo. Es como anotar poco a poco el desgaste de una máquina, en vez de todo de golpe. Se aplica a maquinaria, ordenadores o vehículos. ¿Cómo se llama a esto?",
+      "pregunta": "Es reflejar la pérdida de valor de un bien de la empresa a lo largo del tiempo. <mark>Es como anotar poco a poco el desgaste de una máquina, en vez de todo de golpe</mark>. Se aplica a maquinaria, ordenadores o vehículos. ¿Cómo se llama a esto?",
       "respuesta": "<mark>Amortización contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/engranajes-desgaste.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Un bien duradero se usa durante varios años, no solo el año en que se compra. Por eso se reparte su coste entre todos los años en que se usa. Así los gastos reflejan mejor el uso real. ¿Por qué se amortizan los bienes en vez de anotar su coste de golpe?",
+      "pregunta": "Un bien duradero sirve durante mucho tiempo, no solo cuando se compra. <mark>Es como pagar una hipoteca a plazos, en vez de todo de una vez</mark>. Así los gastos reflejan mejor el uso real. ¿Por qué se amortizan los bienes en vez de anotar su coste de golpe?",
       "respuesta": "<mark>Porque se usan varios años</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/calendario-anos.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es el proceso final del año donde se cierran todas las cuentas y se calcula el resultado. Es como hacer el resumen final de todo un año de actividad económica. Se comprueba si hubo beneficios o pérdidas. ¿Cómo se llama este proceso final?",
+      "pregunta": "Es el proceso final del año donde se cierran todas las cuentas y se calcula el resultado. <mark>Es como hacer el resumen final de todo un año de actividad</mark>. Se comprueba si hubo beneficios o pérdidas. ¿Cómo se llama este proceso final?",
       "respuesta": "<mark>Cierre del ejercicio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/calendario-pared.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "El balance, la cuenta de pérdidas y ganancias, y la memoria, entre otros, forman este informe completo. Es como el informe completo que resume la salud económica de la empresa. Son obligatorios para la mayoría de las empresas. ¿Cómo se llama este conjunto de documentos?",
+      "pregunta": "El balance, la cuenta de pérdidas y ganancias, y la memoria forman este informe completo. <mark>Es como el informe completo que resume la salud económica de la empresa</mark>. Son obligatorios para la mayoría de las empresas. ¿Cómo se llama este conjunto de documentos?",
       "respuesta": "<mark>Cuentas anuales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/formulario-papeles.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es el documento que resume el activo, el pasivo y el neto de la empresa. Es como una fotografía de todo lo que tiene y debe la empresa en un momento concreto. ¿Cómo se llama este documento?",
+      "pregunta": "Es el documento que resume el activo, el pasivo y el neto de la empresa. <mark>Es como una fotografía de todo lo que tiene y debe la empresa en un momento concreto</mark>. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Balance</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/balance-cuentas.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es el documento que resume los ingresos y los gastos de la empresa durante un periodo. Es como restar todo lo que has gastado a todo lo que has ingresado, para ver el resultado. ¿Cómo se llama este documento?",
+      "pregunta": "Es el documento que resume los ingresos y los gastos de la empresa durante un periodo. <mark>Es como restar todo lo que has gastado a todo lo que has ingresado, para ver el resultado</mark>. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Cuenta de pérdidas y ganancias</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/numeros-finanzas.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es un programa informático que ayuda a llevar la contabilidad de una empresa. Es como automatizar buena parte del trabajo que antes se hacía a mano, en libros de papel. Reduce mucho los errores humanos. ¿Cómo se llama este tipo de programa?",
+      "pregunta": "Es un programa informático que ayuda a llevar la contabilidad de una empresa. <mark>Es como automatizar buena parte del trabajo que antes se hacía a mano, en libros de papel</mark>. Reduce mucho los errores humanos. ¿Cómo se llama este tipo de programa?",
       "respuesta": "<mark>Software de gestión contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/software-contable2.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Es un programa que ayuda a crear, gestionar y archivar facturas de forma digital. Es como tener una máquina que rellena y organiza las facturas automáticamente. Muchos calculan el IVA de forma automática. ¿Cómo se llama este tipo de programa?",
+      "pregunta": "Es un programa que ayuda a crear, gestionar y archivar documentos de venta de forma digital. <mark>Es como tener una máquina que rellena y organiza esos papeles automáticamente</mark>. Muchos calculan el IVA de forma automática. ¿Cómo se llama este tipo de programa?",
       "respuesta": "<mark>Software de facturación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/imprimiendo-facturas.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Que estos dos programas estén conectados evita tener que introducir la misma información dos veces. Es como conectar dos tuberías para que el agua fluya sin tener que trasvasarla a mano. Esa conexión reduce errores y ahorra tiempo. ¿Qué dos tipos de programas conviene tener conectados?",
+      "pregunta": "Que estos dos programas estén conectados evita introducir la misma información dos veces. <mark>Es como conectar dos tuberías para que el agua fluya sin trasvasarla a mano</mark>. Esa conexión reduce errores y ahorra tiempo. ¿Qué dos tipos de programas conviene tener conectados?",
       "respuesta": "<mark>Contabilidad y facturación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/tuberias-conectadas.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "La diferencia entre el IVA soportado y el repercutido determina cuánto hay que pagar o recuperar de Hacienda. Es como hacer balance entre lo que has pagado de más y lo que has cobrado de más en IVA. ¿Qué se calcula con esa diferencia?",
+      "pregunta": "La diferencia entre el IVA soportado y el repercutido determina cuánto hay que pagar o recuperar de Hacienda. <mark>Es como hacer balance entre lo que has pagado de más y lo que has cobrado de más</mark>. ¿Qué se calcula con esa diferencia?",
       "respuesta": "<mark>La declaración trimestral</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/formularios-calculadora.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "Llevar esto al día afecta directamente a la liquidez y a la reputación de la empresa. Es como mantener organizado tanto lo que te deben como lo que debes tú. Un descontrol causa problemas económicos. ¿Qué es importante llevar siempre al día?",
+      "pregunta": "Llevar esto al día afecta directamente a la liquidez y a la reputación de la empresa. <mark>Es como mantener organizado tanto lo que te deben como lo que debes tú</mark>. Un descontrol causa problemas económicos. ¿Qué es importante llevar siempre al día?",
       "respuesta": "<mark>Cobros y pagos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/pared-documentos.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "Las amortizaciones se consideran un gasto, así que reducen el beneficio contable del año. Es como restar poco a poco el desgaste de tus herramientas al calcular tu beneficio real. ¿Qué hacen las amortizaciones con el resultado del ejercicio?",
+      "pregunta": "Las amortizaciones se consideran un gasto, así que afectan al beneficio contable del año. <mark>Es como restar poco a poco el desgaste de tus herramientas al calcular tu beneficio real</mark>. ¿Qué hacen las amortizaciones con el resultado del ejercicio?",
       "respuesta": "<mark>Lo reducen</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/alicates-desgastados.jpg",
@@ -220,7 +220,7 @@
       }
     },
     {
-      "pregunta": "Este módulo aplica los mismos principios contables de 1º a documentos y casos más completos. Es como pasar de aprender la teoría a aplicarla en situaciones reales de una oficina. ¿Qué módulo de 1º continúa este tratamiento de documentación contable?",
+      "pregunta": "Este módulo aplica los mismos principios de 1º a documentos y casos más completos. <mark>Es como pasar de aprender la teoría a aplicarla en situaciones reales de una oficina</mark>. ¿Qué módulo de 1º continúa este tratamiento de documentación contable?",
       "respuesta": "<mark>Técnica Contable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/estudiantes-aprendiendo.jpg",
@@ -232,7 +232,7 @@
       }
     },
     {
-      "pregunta": "Un error contable puede tener consecuencias legales y económicas graves. Es como un pequeño fallo en una cuenta que, sin corregir, puede crecer con el tiempo. ¿Qué es tan importante al tratar la documentación contable?",
+      "pregunta": "Un error contable puede tener consecuencias legales y económicas graves. <mark>Es como un pequeño fallo en una cuenta que, sin corregir, puede crecer con el tiempo</mark>. ¿Qué es tan importante al tratar la documentación contable?",
       "respuesta": "<mark>La exactitud</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/lapiz-regla.jpg",

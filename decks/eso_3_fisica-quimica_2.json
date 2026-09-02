@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Aprieta, calienta o suelta un globo, y podrás predecir qué le va a pasar. Sirven para predecir cómo se comporta un gas en cada situación. ¿Cómo se llaman estas reglas sobre el comportamiento de los gases?",
+      "pregunta": "<mark>Aprieta, calienta o suelta un globo, y podrás predecir qué le va a pasar</mark>. Sirven para predecir cómo se comporta un gas en cada situación. ¿Cómo se llaman estas reglas sobre el comportamiento de los gases?",
       "respuesta": "<mark>Leyes de los gases</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/globo-helio.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Apretar un globo lo hace más pequeño: cuanto más lo comprimes, menos espacio ocupa. Si la temperatura no cambia, al aumentar la presión de un gas disminuye su volumen. ¿Cómo se llama esta relación entre presión y volumen?",
+      "pregunta": "<mark>Apretar un globo lo hace más pequeño: cuanto más lo comprimes, menos espacio ocupa</mark>. Si la temperatura no cambia, al aumentar la presión de un gas disminuye su volumen. ¿Cómo se llama esta relación entre presión y volumen?",
       "respuesta": "<mark>Ley de Boyle</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/globo-inflado.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Una habitación llena de pelotas rebotando en todas direcciones sin parar es una buena imagen de esto. Las partículas de un gas se mueven libremente y muy rápido. Están mucho más separadas que en un líquido o un sólido. ¿Cómo se llama este modelo que lo explica?",
+      "pregunta": "<mark>Una habitación llena de pelotas rebotando en todas direcciones sin parar</mark> es una buena imagen de esto. Las partículas de un gas se mueven libremente y muy rápido. Están mucho más separadas que en un líquido o un sólido. ¿Cómo se llama este modelo que lo explica?",
       "respuesta": "<mark>Modelo cinético-molecular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/vapor-toalla.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "El hielo se convierte en agua y luego en vapor, sin dejar de ser la misma sustancia. Ocurre al cambiar la temperatura o la presión. ¿Cómo se llama este paso de un estado de agregación a otro?",
+      "pregunta": "<mark>El hielo se convierte en agua y luego en vapor, sin dejar de ser la misma sustancia</mark>. Ocurre al cambiar la temperatura o la presión. ¿Cómo se llama este paso de un estado de agregación a otro?",
       "respuesta": "<mark>Cambio de estado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/hielo-vaso.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Son como hermanos con el mismo apellido, pero con un peso ligeramente distinto. Tienen el mismo número de protones, por lo que siguen siendo el mismo elemento. Solo cambia su número de neutrones. ¿Cómo se llama esta variante de un mismo elemento?",
+      "pregunta": "<mark>Son como hermanos con el mismo apellido, pero con un peso ligeramente distinto</mark>. Tienen el mismo número de protones, por lo que siguen siendo el mismo elemento. Solo cambia su número de neutrones. ¿Cómo se llama esta variante de un mismo elemento?",
       "respuesta": "<mark>Isótopo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/modelo-atomico-rutherford.png",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Un átomo puede quedarse con carga eléctrica, positiva o negativa. Si pierde electrones, queda cargado positivamente; si gana, negativamente. ¿Cómo se llama este átomo o grupo de átomos con carga?",
+      "pregunta": "Un átomo puede quedarse con carga eléctrica, positiva o negativa. <mark>Si pierde electrones, queda cargado positivamente; si gana, negativamente</mark>. ¿Cómo se llama este átomo o grupo de átomos con carga?",
       "respuesta": "<mark>Ion</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/molecula-amfetamina.png",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "La masa de un solo átomo tiene su propio nombre. Otra magnitud suma las masas de todos los átomos de una molécula, como el oxígeno y los dos hidrógenos del agua. ¿Cómo se llama esta segunda magnitud?",
+      "pregunta": "La masa de un solo átomo tiene su propio nombre. Otra magnitud suma las masas de todos los átomos de una molécula, <mark>como el oxígeno y los dos hidrógenos del agua</mark>. ¿Cómo se llama esta segunda magnitud?",
       "respuesta": "<mark>Masa molecular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/enlace-quimico-oxigeno.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Ordenar libros por autor y también por tema a la vez es parecido a esto. Los elementos se organizan según su número atómico y sus propiedades químicas. Los de una misma columna se comportan de forma parecida. ¿Cómo se llama este cuadro donde se organizan?",
+      "pregunta": "<mark>Ordenar libros por autor y también por tema a la vez</mark> es parecido a esto. Los elementos se organizan según su número atómico y sus propiedades químicas. Los de una misma columna se comportan de forma parecida. ¿Cómo se llama este cuadro donde se organizan?",
       "respuesta": "<mark>Tabla periódica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/tabla-periodica-mural.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Una ciudad se organiza en calles y avenidas que se cruzan. La tabla periódica se organiza de un modo parecido: en columnas y en filas. Los elementos de una misma columna comparten propiedades parecidas. ¿Cómo se llaman estas columnas y filas?",
+      "pregunta": "<mark>Una ciudad se organiza en calles y avenidas que se cruzan</mark>. La tabla periódica se organiza de un modo parecido: en columnas y en filas. Los elementos de una misma columna comparten propiedades parecidas. ¿Cómo se llaman estas columnas y filas?",
       "respuesta": "<mark>Grupos y periodos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/tabla-periodica-cupcakes.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es como el pegamento invisible que mantiene unidas las piezas de una molécula. Los átomos se enlazan para conseguir una configuración más estable. ¿Cómo se llama esta unión entre átomos?",
+      "pregunta": "<mark>Es como el pegamento invisible que mantiene unidas las piezas de una molécula</mark>. Los átomos se enlazan para conseguir una configuración más estable. ¿Cómo se llama esta unión entre átomos?",
       "respuesta": "<mark>Enlace químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/enlace-quimico-metileno.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Conocer el carácter de alguien ayuda a saber cómo se llevará con otras personas. Conocer estas características de un elemento permite predecir cómo se comportará al combinarse con otros. Ayuda a entender por qué unos elementos reaccionan más que otros. ¿Cómo se llaman estas características propias de cada elemento?",
+      "pregunta": "<mark>Conocer el carácter de alguien ayuda a saber cómo se llevará con otras personas</mark>. Conocer estas características de un elemento permite predecir cómo se comportará al combinarse con otros. Ayuda a entender por qué unos elementos reaccionan más que otros. ¿Cómo se llaman estas características propias de cada elemento?",
       "respuesta": "<mark>Propiedades periódicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/lingote-oro.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "El hielo se derrite al ponerlo al sol, sin dejar de ser agua. Cambiar la temperatura puede hacer que una sustancia pase de un estado a otro. Cada sustancia tiene puntos concretos de fusión y ebullición. ¿Cómo se llama este paso de un estado a otro?",
+      "pregunta": "<mark>El hielo se derrite al ponerlo al sol, sin dejar de ser agua</mark>. Cambiar la temperatura puede hacer que una sustancia pase de un estado a otro. Cada sustancia tiene puntos concretos de fusión y ebullición. ¿Cómo se llama este paso de un estado a otro?",
       "respuesta": "<mark>Cambio de estado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_2/hielo-te.jpg",

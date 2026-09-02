@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un poema español que cuenta una historia, no solo sentimientos. Se recitaba o cantaba de memoria, antes de quedar escrito. Sus versos riman cada dos líneas. ¿Cómo se llama este tipo de poema?",
+      "pregunta": "Es un poema español que cuenta una historia, no solo sentimientos. <mark>Se recitaba o cantaba de memoria, como una canción que pasaba de boca en boca</mark>. Sus versos riman cada dos líneas. ¿Cómo se llama este tipo de poema?",
       "respuesta": "<mark>Romance</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/caballero-medieval.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Estos poemas contaban hazañas de héroes, batallas o historias de amor. Se cantaban en plazas para que la gente los recordara. Muchos venían de historias más largas, resumidas. ¿Cómo se llaman estos poemas?",
+      "pregunta": "Contaban hazañas de héroes, batallas o historias de amor. <mark>Se cantaban en plazas, como noticias que todos debían recordar</mark>. Muchos venían de historias más largas, resumidas. ¿Cómo se llaman estos poemas?",
       "respuesta": "<mark>Romances</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/torneo-caballeros.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "El romance siempre está escrito en verso, con rima. Esta otra historia se cuenta en prosa, como algo hablado. Ambas mezclan hechos reales con algo de invención. ¿Cómo se llama esta otra clase de historia?",
+      "pregunta": "El romance siempre está escrito en verso, con rima. <mark>Esta otra historia se cuenta en prosa, como algo hablado</mark>. Ambas mezclan hechos reales con algo de invención. ¿Cómo se llama esta otra clase de historia?",
       "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/erase-una-vez-pluma.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el relato de la vida de una persona real. Lo escribe otra persona, investigando datos y hechos. Cuenta desde su nacimiento hasta momentos importantes. ¿Cómo se llama este tipo de relato?",
+      "pregunta": "Es el relato de la vida de una persona real, <mark>como un retrato hecho con palabras por otra persona</mark>. Investiga datos y hechos desde su nacimiento. ¿Cómo se llama este tipo de relato?",
       "respuesta": "<mark>Biografía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/retrato-personaje-historico.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es el relato de una vida escrito por uno mismo. Cuenta su propia historia, con sus propios recuerdos. Nadie más investiga por él. ¿Cómo se llama este tipo de relato?",
+      "pregunta": "Es el relato de una vida escrito por uno mismo, <mark>como un diario que cuenta toda una vida</mark>. Nadie más investiga por él. ¿Cómo se llama este tipo de relato?",
       "respuesta": "<mark>Autobiografía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/escribir-diario.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Un relato de vida puede escribirlo otra persona, investigando desde fuera. Este otro lo escribe uno mismo, recordando desde dentro. Pueden contar la misma vida de forma distinta. ¿Cómo se llama este segundo tipo de relato?",
+      "pregunta": "Un relato de vida puede escribirlo otra persona, investigando desde fuera. <mark>Este otro lo escribe uno mismo, recordando desde dentro</mark>. Pueden contar la misma vida de forma distinta. ¿Cómo se llama este segundo tipo de relato?",
       "respuesta": "<mark>Autobiografía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_2/diario-biografia.jpg",

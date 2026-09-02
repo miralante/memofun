@@ -1,7 +1,8 @@
 # Project roles
 
-Memofun has **three distinct roles**, same as the rest of the sibling
-family (Apptonomia, Calculia, Okeymoney, Sinonimia, Teclatlon):
+Memofun has **three distinct roles**, same as the rest of the
+apps of the Miralante suite (Apptonomia, Calculia, Okeymoney,
+Sinonimia, Teclatlon):
 
 | Role | Who | How they participate | Where they look first |
 |---|---|---|---|

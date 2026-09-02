@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el proceso de incorporar tecnología digital a las tareas y procesos habituales de una empresa. Es como cambiar poco a poco el papel y el teléfono fijo por herramientas digitales. Afecta a la comunicación, la gestión documental y la atención al cliente. ¿Cómo se llama este proceso?",
+      "pregunta": "Es el proceso de incorporar tecnología nueva a las tareas de una empresa. <mark>Es como cambiar el papel y el teléfono fijo por herramientas conectadas a internet</mark>. Afecta a la comunicación y la atención al cliente. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Transformación digital</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/rincon-ordenador.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Son aplicaciones que permiten a varias personas trabajar sobre el mismo documento a la vez, desde internet. Es como escribir todos a la vez en el mismo cuaderno, aunque estén en lugares distintos. ¿Cómo se llaman estas herramientas?",
+      "pregunta": "Son aplicaciones que dejan a varias personas trabajar en el mismo documento a la vez. <mark>Es como escribir todos en el mismo cuaderno, sin estar en el mismo lugar</mark>. ¿Cómo se llaman estas herramientas?",
       "respuesta": "<mark>Herramientas colaborativas en la nube</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/nube-colaborativa.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es trabajar desde un lugar distinto a la oficina, normalmente desde casa, usando tecnología. Es como llevar la oficina contigo, sin necesidad de desplazarte físicamente cada día. Requiere conexión a internet y herramientas digitales. ¿Cómo se llama esta forma de trabajar?",
+      "pregunta": "Es trabajar desde casa u otro lugar distinto a la oficina, usando tecnología. <mark>Es como llevar la oficina contigo, sin desplazarte cada día</mark>. Necesita internet y herramientas digitales. ¿Cómo se llama esta forma de trabajar?",
       "respuesta": "<mark>Teletrabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/teletrabajo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de datos e información que te representan en internet. Es como tu reputación, pero construida a partir de lo que haces y publicas online. Cuidarla es importante también para la vida profesional. ¿Cómo se llama este conjunto de datos?",
+      "pregunta": "Es el conjunto de datos que te representan en internet. <mark>Es como tu reputación, construida por lo que haces y publicas online</mark>. Cuidarla importa también en el trabajo. ¿Cómo se llama este conjunto de datos?",
       "respuesta": "<mark>Identidad digital</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/pantalla-login.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "En una oficina conviene usar contraseñas seguras, actualizar programas y desconfiar de correos sospechosos. Es como cerrar bien las puertas y ventanas de una oficina, pero en el mundo digital. Un solo descuido puede comprometer a toda la empresa. ¿Cómo se llama este conjunto de medidas?",
+      "pregunta": "En una oficina conviene usar contraseñas seguras y desconfiar de correos sospechosos. <mark>Es como cerrar bien las puertas y ventanas, pero en el mundo digital</mark>. Un descuido puede afectar a toda la empresa. ¿Cómo se llama este conjunto de medidas?",
       "respuesta": "<mark>Ciberseguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/candado-seguridad.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es la norma europea que protege los datos personales. Es como una ley que exige tratar la información privada de las personas con mucho cuidado. Su incumplimiento acarrea sanciones. ¿Cómo se llama esta norma?",
+      "pregunta": "Es la norma europea que protege los datos personales. <mark>Es como una ley que exige cuidar mucho la información privada</mark>. No cumplirla trae sanciones. ¿Cómo se llama esta norma?",
       "respuesta": "<mark>RGPD</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/maza-ley.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es la compra y venta de productos o servicios a través de internet. Es como una tienda abierta las veinticuatro horas, sin necesidad de un local físico. Requiere una buena gestión digital de pedidos, pagos y envíos. ¿Cómo se llama esta forma de comerciar?",
+      "pregunta": "Es la compra y venta de productos por internet. <mark>Es como una tienda abierta las veinticuatro horas, sin local físico</mark>. Necesita buena gestión de pedidos y envíos. ¿Cómo se llama esta forma de comerciar?",
       "respuesta": "<mark>Comercio electrónico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/comercio-electronico.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es un sistema que permite firmar documentos digitalmente, con la misma validez que una firma manuscrita. Es como firmar con bolígrafo, pero de forma segura dentro de un documento digital. Ahorra tiempo y papel. ¿Cómo se llama este sistema?",
+      "pregunta": "Permite validar documentos online, con la misma validez legal que hacerlo a mano. <mark>Es como poner un sello digital único e intransferible</mark>. Ahorra tiempo y papel en la oficina. ¿Cómo se llama este sistema?",
       "respuesta": "<mark>Firma electrónica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/certificado-firmado.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es la posibilidad de hacer trámites con la Administración pública a través de internet. Es como hacer una gestión en una ventanilla, pero sin moverte de casa o de la oficina. Incluye solicitar certificados o presentar impuestos. ¿Cómo se llama esta posibilidad?",
+      "pregunta": "Es hacer trámites con la Administración pública por internet. <mark>Es como ir a una ventanilla, pero sin moverte de casa</mark>. Sirve para pedir certificados o presentar impuestos. ¿Cómo se llama esta posibilidad?",
       "respuesta": "<mark>Administración electrónica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/torre-cybercity.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Esta tecnología puede automatizar tareas repetitivas, como clasificar documentos o responder consultas sencillas. Es como tener un ayudante que se encarga de tareas mecánicas, dejando tiempo para lo importante. No sustituye el criterio humano. ¿Qué tecnología es esta?",
+      "pregunta": "Esta tecnología automatiza tareas repetitivas, como clasificar documentos. <mark>Es como tener un ayudante que hace las tareas mecánicas</mark>. No sustituye el criterio humano. ¿Qué tecnología es esta?",
       "respuesta": "<mark>Inteligencia artificial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/robot-ia.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es la diferencia de acceso y manejo de la tecnología entre distintas personas o grupos. Es como una distancia invisible entre quien tiene herramientas digitales y quien no. Reducirla es importante para no dejar a nadie atrás. ¿Cómo se llama esta diferencia?",
+      "pregunta": "Es la diferencia de acceso a la tecnología entre personas o grupos. <mark>Es como una grieta invisible entre quien tiene herramientas y quien no</mark>. Cerrarla es importante para no dejar a nadie atrás. ¿Cómo se llama esta diferencia?",
       "respuesta": "<mark>Brecha digital</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/banda-ancha.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Las actualizaciones de los programas suelen corregir fallos de seguridad conocidos. Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar. Un programa desactualizado es más vulnerable a ataques. ¿Qué hay que hacer regularmente en un ordenador de oficina?",
+      "pregunta": "Las actualizaciones corrigen fallos de seguridad conocidos. <mark>Es como tapar un agujero en una valla antes de que alguien entre</mark>. Un programa desactualizado es más vulnerable. ¿Qué hay que hacer regularmente en un ordenador de oficina?",
       "respuesta": "<mark>Actualizar los programas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/actualizacion-software.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Con correos de remitentes desconocidos, no conviene abrir archivos ni enlaces. Es como no abrir la puerta a un desconocido que dice traer un paquete sospechoso. Muchos ataques empiezan con un correo aparentemente inofensivo. ¿Qué no debes abrir si el correo es sospechoso?",
+      "pregunta": "Con correos de remitentes desconocidos, no conviene abrir nada. <mark>Es como no abrir la puerta a un desconocido con un paquete sospechoso</mark>. Muchos ataques empiezan con un correo inofensivo en apariencia. ¿Qué no debes abrir si el correo es sospechoso?",
       "respuesta": "<mark>Archivos ni enlaces</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/phishing-correo.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Trabajar así permite acceder a los documentos desde cualquier lugar y que varias personas trabajen a la vez. Es como tener el mismo documento disponible en todas partes, en vez de guardado en un único cajón. ¿Dónde conviene guardar los documentos para lograr esto?",
+      "pregunta": "Así se puede acceder a los documentos desde cualquier lugar y a la vez. <mark>Es como tener el mismo documento disponible en todas partes, no en un cajón</mark>. ¿Dónde conviene guardar los documentos para lograr esto?",
       "respuesta": "<mark>En la nube</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/nube-colaborativa.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Automatizar las tareas repetitivas libera tiempo para trabajos que requieren más atención humana. Es como delegar las tareas más mecánicas para centrarte en las que realmente lo necesitan. ¿Qué gana una empresa al digitalizar sus tareas repetitivas?",
+      "pregunta": "Automatizar tareas repetitivas libera tiempo para lo que necesita más atención. <mark>Es como delegar lo mecánico para centrarte en lo importante</mark>. ¿Qué gana una empresa al digitalizar sus tareas repetitivas?",
       "respuesta": "<mark>Eficiencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/rincon-ordenador.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Cada vez más tareas de oficina dependen de herramientas digitales. Es como necesitar saber nadar en un entorno donde cada vez hay más agua. No tenerlas puede limitar mucho las oportunidades laborales. ¿Qué conviene tener en casi cualquier puesto administrativo?",
+      "pregunta": "Cada vez más tareas de oficina usan herramientas digitales. <mark>Es como necesitar saber nadar porque cada vez hay más agua</mark>. No tenerlas limita las oportunidades laborales. ¿Qué conviene tener en casi cualquier puesto administrativo?",
       "respuesta": "<mark>Competencias digitales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/clase-formacion.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "Al usar herramientas digitales en el trabajo, no se deben compartir datos personales o de la empresa sin autorización clara. Es como no dejar documentos importantes a la vista de cualquiera. Es responsabilidad de la empresa y de cada trabajador. ¿Qué no se debe compartir sin autorización?",
+      "pregunta": "Al usar herramientas digitales, no se deben compartir datos personales sin autorización. <mark>Es como no dejar documentos importantes a la vista de cualquiera</mark>. Es responsabilidad de la empresa y de cada trabajador. ¿Qué no se debe compartir sin autorización?",
       "respuesta": "<mark>Datos personales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/candado-seguridad.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "Las competencias digitales son necesarias en casi cualquier sector, no solo en administración. Es como una habilidad básica que se necesita sin importar a qué te dediques. Se enseña en distintos ciclos formativos. ¿Cómo se considera la digitalización en la nueva Formación Profesional?",
+      "pregunta": "Las competencias digitales hacen falta en casi cualquier sector, no solo en administración. <mark>Es como una habilidad básica, sin importar a qué te dediques</mark>. Se enseña en distintos ciclos formativos. ¿Cómo se considera la digitalización en la nueva Formación Profesional?",
       "respuesta": "<mark>Módulo transversal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos/clase-formacion.jpg",

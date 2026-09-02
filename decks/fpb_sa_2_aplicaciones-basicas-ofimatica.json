@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Sirve para escribir, editar y dar formato a documentos en el ordenador. Es como una máquina de escribir moderna, pero mucho más flexible. Permite corregir errores sin tener que empezar de nuevo. ¿Cómo se llama este programa?",
+      "pregunta": "Sirve para escribir, editar y dar formato a documentos en el ordenador. <mark>Es como una máquina de escribir moderna, pero mucho más flexible</mark>. Permite corregir errores sin empezar de nuevo. ¿Cómo se llama este programa?",
       "respuesta": "<mark>Procesador de textos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/procesador-textos.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es cambiar cómo se ve un texto: el tipo de letra, el tamaño o el color. Es como vestir el mismo contenido de una forma más clara y profesional. Un buen resultado ayuda a que el documento se lea mejor. ¿Cómo se llama hacer esto?",
+      "pregunta": "Es cambiar cómo se ve un texto: el tipo de letra, el tamaño o el color. <mark>Es como vestir el mismo contenido de manera más clara y profesional</mark>. Un buen resultado ayuda a que se lea mejor. ¿Cómo se llama hacer esto?",
       "respuesta": "<mark>Dar formato</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/formato-texto.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es hacer que las letras se vean más gruesas y oscuras. Es como subrayar con más fuerza una parte importante del texto. Se usa para destacar palabras o títulos importantes. ¿Cómo se llama este efecto?",
+      "pregunta": "Es hacer que las letras se vean más gruesas y oscuras. <mark>Es como subrayar con más fuerza una parte importante del texto</mark>. Se usa para destacar palabras o títulos. ¿Cómo se llama este efecto?",
       "respuesta": "<mark>Negrita</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/negrita.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Ayuda a diferenciar títulos, subtítulos y texto normal. Es como escribir un cartel más grande para lo que quieres que se vea primero. Facilita mucho la lectura de un documento largo. ¿Qué conviene cambiar para conseguir esto?",
+      "pregunta": "Ayuda a diferenciar títulos, subtítulos y texto normal. <mark>Es como escribir un cartel más grande para lo que quieres que se vea primero</mark>. Facilita mucho la lectura de un documento largo. ¿Qué conviene cambiar para conseguir esto?",
       "respuesta": "<mark>El tamaño de la letra</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/tamano-letra.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es cómo se coloca el texto respecto a los márgenes de la página. Puede estar a la izquierda, a la derecha, centrado o justificado. Una buena elección hace que el documento se vea más ordenado. ¿Cómo se llama esta característica del texto?",
+      "pregunta": "Es cómo se coloca el texto respecto a los márgenes de la página. <mark>Puede estar a la izquierda, a la derecha, centrado o justificado</mark>. Una buena elección hace que se vea más ordenado. ¿Cómo se llama esta característica del texto?",
       "respuesta": "<mark>Alineación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/alineacion.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Ayuda a organizar información en filas y columnas, de forma ordenada. Es como ordenar datos en cajones, en vez de dejarlos todos sueltos. Facilita comparar datos de un vistazo. ¿Qué conviene insertar en un documento para esto?",
+      "pregunta": "Ayuda a organizar información en filas y columnas, de forma ordenada. <mark>Es como ordenar datos en cajones, en vez de dejarlos todos sueltos</mark>. Facilita comparar datos de un vistazo. ¿Qué conviene insertar en un documento para esto?",
       "respuesta": "<mark>Una tabla</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/insertar-tabla.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Ayuda a ilustrar o explicar mejor algo que solo con texto sería más difícil. Es como acompañar una explicación con una foto que lo aclara todo. Se usa en informes, presentaciones o manuales. ¿Qué conviene insertar en un documento para esto?",
+      "pregunta": "Ayuda a ilustrar o explicar mejor algo que solo con texto sería más difícil. <mark>Es como acompañar una explicación con una foto que lo aclara todo</mark>. Se usa en informes, presentaciones o manuales. ¿Qué conviene insertar en un documento para esto?",
       "respuesta": "<mark>Una imagen</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/insertar-imagen.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Sirve para organizar datos numéricos y hacer cálculos de forma automática. Es como tener una calculadora gigante conectada a una tabla ordenada. Se usa para presupuestos o control de gastos. ¿Cómo se llama este programa?",
+      "pregunta": "Sirve para organizar datos numéricos y hacer cálculos de forma automática. <mark>Es como tener una máquina de sumar gigante conectada a una tabla ordenada</mark>. Se usa para presupuestos o control de gastos. ¿Cómo se llama este programa?",
       "respuesta": "<mark>Hoja de cálculo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/hoja-calculo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es cada casilla individual dentro de la cuadrícula de la hoja. Es como cada casilla de un tablero, identificada por su fila y su columna. ¿Cómo se llama esta casilla?",
+      "pregunta": "Es cada casilla individual dentro de la cuadrícula de la hoja. <mark>Es como cada casilla de un tablero, identificada por su fila y su columna</mark>. ¿Cómo se llama esta casilla?",
       "respuesta": "<mark>Celda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/celda.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es una línea horizontal de celdas, numerada de arriba abajo. Es como una estantería puesta de lado, con casillas una al lado de otra. Suele representar un registro distinto. ¿Cómo se llama esta línea?",
+      "pregunta": "Es una línea horizontal de celdas, numerada de arriba abajo. <mark>Es como una estantería puesta de lado, con casillas una al lado de otra</mark>. Suele representar un registro distinto. ¿Cómo se llama esta línea?",
       "respuesta": "<mark>Fila</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/fila.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es una línea vertical de celdas, identificada con una letra. Es como una estantería puesta de pie, con casillas una encima de otra. Suele representar un tipo de dato. ¿Cómo se llama esta línea?",
+      "pregunta": "Es una línea vertical de celdas, identificada con una letra. <mark>Es como una estantería puesta de pie, con casillas una encima de otra</mark>. Suele representar un tipo de dato. ¿Cómo se llama esta línea?",
       "respuesta": "<mark>Columna</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/columna.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano. ¿Cómo se llama esta operación?",
+      "pregunta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti, en vez de calcularla a mano</mark>. ¿Cómo se llama esta operación?",
       "respuesta": "<mark>Fórmula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/formula.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Se usa una operación que indica qué celdas hay que sumar. Es como pedirle a la hoja que sume varias cifras a la vez, sin hacerlo a mano. Si cambian los datos, el resultado se actualiza solo. ¿Cómo se llama esta operación?",
+      "pregunta": "Se usa una operación que indica qué celdas hay que sumar. <mark>Es como pedirle a la hoja que añada varias cifras a la vez, sin hacerlo a mano</mark>. Si cambian los datos, el resultado se actualiza solo. ¿Cómo se llama esta operación?",
       "respuesta": "<mark>Fórmula de suma</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/sumar.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Ayuda a saber rápidamente el resultado final de una lista de datos. Es como sacar la cuenta final de un ticket de compra. Se actualiza automáticamente si cambia algún dato. ¿Qué se calcula así?",
+      "pregunta": "Ayuda a saber rápidamente el resultado final de una lista de datos. <mark>Es como sacar la cuenta final de un ticket de compra</mark>. Se actualiza automáticamente si cambia algún dato. ¿Qué se calcula así?",
       "respuesta": "<mark>El total</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/calcular-totales.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Permite organizar datos numéricos y hacer cálculos de forma automática. Su capacidad de actualizarse sola ahorra mucho trabajo repetitivo en la oficina. ¿Qué programa es tan útil en tareas administrativas?",
+      "pregunta": "Permite organizar datos numéricos y hacer cálculos de forma automática. <mark>Su capacidad de actualizarse sola ahorra mucho trabajo repetitivo en la oficina</mark>. ¿Qué programa es tan útil en tareas administrativas?",
       "respuesta": "<mark>La hoja de cálculo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica/tareas-administrativas.jpg",

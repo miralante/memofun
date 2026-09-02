@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es la unidad más pequeña capaz de realizar las funciones de un ser vivo. Es como el ladrillo más pequeño con el que se construye cualquier ser vivo. Todos los seres vivos están formados por una o muchas de ellas. ¿Cómo se llama esta unidad?",
+      "pregunta": "Es la unidad más pequeña capaz de hacer las funciones de un ser vivo. <mark>Es como el ladrillo más pequeño</mark> de cualquier ser vivo. ¿Cómo se llama esta unidad?",
       "respuesta": "<mark>Célula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-levadura.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Un ser vivo nace, se nutre, se relaciona y se reproduce. Una piedra, en cambio, no come, no crece ni tiene descendencia. Esas capacidades son las que distinguen a los seres vivos. ¿Cómo se llaman estas capacidades básicas de todo ser vivo?",
+      "pregunta": "Un ser vivo nace, se nutre y se reproduce. <mark>Una piedra no hace nada de esto</mark>. ¿Cómo se llaman estas capacidades básicas de todo ser vivo?",
       "respuesta": "<mark>Funciones vitales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/roca-piedra.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es una célula sencilla, sin núcleo definido, como en las bacterias. Su material genético flota libre dentro de la célula, sin una habitación propia. Fueron las primeras formas de vida en la Tierra. ¿Cómo se llama este tipo de célula?",
+      "pregunta": "Es una célula sencilla, sin núcleo definido, <mark>como en las bacterias</mark>. Su material genético flota libre, sin una habitación propia. ¿Cómo se llama este tipo de célula?",
       "respuesta": "<mark>Célula procariota</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/bacteria-espirilo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es una célula más compleja, con el núcleo bien delimitado. Su material genético está guardado dentro de una especie de habitación propia, el núcleo. Las células de plantas, animales y hongos son de este tipo. ¿Cómo se llama este tipo de célula?",
+      "pregunta": "Es una célula más compleja, con el núcleo bien delimitado. <mark>Su material genético está guardado en una habitación propia</mark>. ¿Cómo se llama este tipo de célula?",
       "respuesta": "<mark>Célula eucariota</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-mejilla.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Una célula tiene un caparazón rígido de protección extra y fabrica su propio alimento con ayuda de la luz. La otra es más flexible y no puede fabricar su propio alimento. ¿Qué tipo de célula tiene cada una?",
+      "pregunta": "Una célula tiene un caparazón rígido y fabrica su alimento con la luz, <mark>como una planta</mark>. La otra es flexible y no fabrica alimento. ¿Qué tipo de célula tiene cada una?",
       "respuesta": "<mark>Vegetal y animal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/lithops-disecado.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es la parte de la célula que guarda el material genético. Es como la sala de control que dirige todo lo que hace la célula. Solo las células eucariotas tienen esta parte bien diferenciada. ¿Cómo se llama esta estructura?",
+      "pregunta": "Es la parte de la célula que guarda el material genético. <mark>Es como la sala de control de la célula</mark>. Solo las eucariotas la tienen bien diferenciada. ¿Cómo se llama esta estructura?",
       "respuesta": "<mark>Núcleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-hela.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Dentro de la célula ocurren todas las funciones necesarias para mantenerse con vida. Es como una pequeña fábrica que hace de todo: se alimenta, respira y se reproduce. Cada parte de la célula cumple una tarea concreta. ¿Qué tipo de unidad es la célula, por hacer todo esto?",
+      "pregunta": "Dentro de la célula ocurren todas las funciones para mantenerse con vida. <mark>Es como una pequeña fábrica que hace de todo</mark>. ¿Qué tipo de unidad es la célula, por hacer todo esto?",
       "respuesta": "<mark>Unidad funcional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/engranajes.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Las células son demasiado pequeñas para verlas a simple vista. Es como usar una lupa gigante para ver detalles invisibles al ojo humano. Gracias a este instrumento se descubrió la célula. ¿Qué instrumento se usa para observarlas?",
+      "pregunta": "Las células son demasiado pequeñas para verlas a simple vista. <mark>Es como usar una lupa gigante</mark> para ver lo invisible. ¿Qué instrumento se usa para observarlas?",
       "respuesta": "<mark>Microscopio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/microscopio-1930s.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Son seres vivos formados por una sola célula, que hace todas las funciones vitales. Es como una empresa diminuta donde una única persona hace absolutamente todo. Bacterias y algunos protozoos son ejemplos. ¿Cómo se llaman estos organismos?",
+      "pregunta": "Son seres vivos formados por una sola célula, que hace todas las funciones vitales. <mark>Es como una empresa diminuta con una única persona</mark> que hace de todo. ¿Cómo se llaman estos organismos?",
       "respuesta": "<mark>Organismos unicelulares</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/bacterias-microorganismos.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Son seres vivos formados por muchas células distintas, trabajando juntas. Es como una gran empresa donde cada trabajador tiene una tarea especializada. Los humanos, los animales y las plantas son de este tipo. ¿Cómo se llaman estos organismos?",
+      "pregunta": "Son seres vivos formados por muchas células distintas, trabajando juntas. <mark>Es como una gran empresa con un trabajador para cada tarea</mark>. ¿Cómo se llaman estos organismos?",
       "respuesta": "<mark>Organismos pluricelulares</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_2/familia-parque.jpg",

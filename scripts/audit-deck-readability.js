@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
- * Auditoría de barajas frente a los criterios "usuario/a tipo" de
+ * Auditoría de barajas frente a los criterios "persona tipo" de
  * doc/es/SPEC.md §2.4 y CLAUDE.md → "Generating deck content".
  *
  * NO modifica archivos. Solo produce un informe JSON + texto en

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es la idea principal de la que trata una historia. Es como el hilo invisible que conecta todo lo que pasa. Puede ser la amistad o el valor de intentarlo. ¿Cómo se llama esta idea principal?",
+      "pregunta": "Es la idea principal de la que trata una historia. <mark>Es como el hilo invisible que conecta todo lo que pasa</mark>. Puede ser la amistad o el valor de intentarlo. ¿Cómo se llama esta idea principal?",
       "respuesta": "<mark>El tema</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_3/hilo-invisible-tema.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es la forma particular de escribir de un autor, distinta a la de otros. Es como la letra de cada persona: reconocible aunque cambie el texto. Algunos usan frases largas; otros, muy cortas. ¿Cómo se llama este sello personal?",
+      "pregunta": "Es la forma particular de escribir de un autor, distinta a la de otros. <mark>Es como la letra de cada persona: reconocible aunque cambie el texto</mark>. Algunos usan frases largas; otros, muy cortas. ¿Cómo se llama este sello personal?",
       "respuesta": "<mark>El estilo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_3/estilo-autor-carta.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es cuando las últimas letras de dos versos suenan exactamente igual. Coinciden vocales y consonantes desde la última vocal acentuada. Por ejemplo: 'cielo' y 'anhelo'. ¿Cómo se llama este tipo de rima?",
+      "pregunta": "Es cuando las últimas letras de dos versos suenan exactamente igual. <mark>Por ejemplo: 'cielo' y 'anhelo'</mark>. ¿Cómo se llama este tipo de rima?",
       "respuesta": "<mark>Rima consonante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_3/rima-consonante-cielo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es cuando solo coinciden las vocales al final de los versos. Las consonantes pueden ser distintas, aunque suene parecido. Por ejemplo: 'casa' y 'nada'. ¿Cómo se llama este tipo de rima?",
+      "pregunta": "Es cuando solo coinciden las vocales al final de los versos. <mark>Por ejemplo: 'casa' y 'nada'</mark>. ¿Cómo se llama este tipo de rima?",
       "respuesta": "<mark>Rima asonante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_3/rima-asonante-casa.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "La rima consonante repite vocales y consonantes por igual. Esta otra rima solo repite las vocales, de forma más libre. Por eso suena más suave al oído. ¿Cómo se llama esta segunda rima?",
+      "pregunta": "La rima consonante repite vocales y consonantes por igual. <mark>Esta otra solo repite las vocales, de forma más libre</mark>. Por eso suena más suave al oído. ¿Cómo se llama esta segunda rima?",
       "respuesta": "<mark>Rima asonante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_3/poesia-lectura.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "En este cuento hay magia que nadie cuestiona dentro de la historia. Los personajes aceptan la magia como algo normal, sin sorprenderse. Por ejemplo, hablar con animales o volar en alfombra. ¿Cómo se llama este tipo de cuento?",
+      "pregunta": "En este cuento hay magia que nadie cuestiona. Los personajes la aceptan como algo normal. <mark>Por ejemplo, hablar con animales o volar en alfombra</mark>. ¿Cómo se llama este tipo de cuento?",
       "respuesta": "<mark>Cuento maravilloso</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_3/cuento-maravilloso-lampara.webp",

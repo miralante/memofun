@@ -144,6 +144,12 @@ No visible timers. The person sets the pace.
   a row (literary movements, historical periods) needs more, smaller
   cards, not compression — see "Generating deck content" in
   `CLAUDE.md`.
+- The study screen renders `respuesta` as a large title and `pregunta`
+  as a small caption below it, with the optional image to the left —
+  see "Generating deck content" in `CLAUDE.md`. `pregunta`'s own
+  analogy/example phrase is wrapped in `<mark></mark>` (same highlight
+  color as `respuesta`'s pill) so the clue itself carries a visual
+  color cue, not just plain text.
 
 ### 2.5 Fun tone and curious facts
 
@@ -199,7 +205,7 @@ to study. The product must be predictable, free and easy to resume. The
 architecture that enables this scope is defined in [`technical.md`](technical.md),
 not in this product specification.
 
-### 2.10 Public-facing wording: "usuario/a tipo" euphemism
+### 2.10 Public-facing wording: "persona tipo" euphemism
 
 When presenting Memofun to **the general public** (press, talks,
 public READMEs that anyone can read, the metaproject landing at
@@ -207,8 +213,8 @@ public READMEs that anyone can read, the metaproject landing at
 **"intellectual disability" / "discapacidad intelectual"** must not be
 used as a way to describe the audience of the app — even when the
 surrounding text would otherwise be public. The accepted euphemism for
-that audience in those surfaces is **"usuario/a tipo"** (plural
-"usuarios/as tipo"), used as a generic profile marker, not as a label
+that audience in those surfaces is **"persona tipo"** (plural
+"personas tipo"), used as a generic profile marker, not as a label
 for any real person.
 
 Where the euphemism applies and where it doesn't:
@@ -217,7 +223,7 @@ Where the euphemism applies and where it doesn't:
   without authentication: `README.md`, `README.es.md`, the portal at
   `apptonomia.uk`, public talks, social media copy, press notes,
   marketing material. In these surfaces, refer to the audience as
-  "el/la usuario/a tipo" or "usuarios/as tipo" of the app.
+  "la persona tipo" or "las personas tipo" of the app.
 - **Does NOT apply** to this repo's internal documentation
   (`CLAUDE.md`, `doc/en/SPEC.md`, `doc/es/SPEC.md`, `technical.md`,
   `roles.md`, `CONTRIBUTING.md`, `CONTRIBUTING.es.md`) — those files
@@ -230,7 +236,7 @@ Where the euphemism applies and where it doesn't:
   procedure related to disability): that is content, not labelling of
   an audience.
 - **Does NOT apply** to the UI of the app itself: §2.4 above
-  continues to forbid **any** mention, including "usuario/a tipo", in
+  continues to forbid **any** mention, including "persona tipo", in
   `index.html`, `app.js`, `tools/study/`, `settings/`,
   `strings.<locale>.js`, and any other user-facing surface. The
   euphemism is for the outside world, not for what the visitor reads
@@ -239,7 +245,7 @@ Where the euphemism applies and where it doesn't:
 Rationale: presenting the project's real objective in maintainer docs
 is useful and necessary; presenting it in marketing or landing
 surfaces is neither necessary nor respectful of the audience —
-"usuario/a tipo" lets public material describe what the app is for
+"persona tipo" lets public material describe what the app is for
 (who the typical profile is) without publicly naming a clinical group.
 
 ---

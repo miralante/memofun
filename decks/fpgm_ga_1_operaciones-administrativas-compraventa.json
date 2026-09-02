@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Este departamento consigue los productos o materiales que la empresa necesita. Es como el encargado de hacer la compra grande para que no falte nada. Negocia precios, plazos y condiciones con los proveedores. ¿Cómo se llama este departamento?",
+      "pregunta": "Consigue los productos o materiales que la empresa necesita. <mark>Es como quien se encarga de adquirir todo lo necesario</mark>. Negocia precios, plazos y condiciones con los proveedores. ¿Cómo se llama este departamento?",
       "respuesta": "<mark>Departamento de compras</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Este departamento vende los productos o servicios de la empresa a los clientes. Es como el escaparate y el vendedor de la empresa, todo en uno. Gestiona pedidos, atiende a clientes y busca nuevas ventas. ¿Cómo se llama este departamento?",
+      "pregunta": "Vende los productos o servicios de la empresa a los clientes. <mark>Es como el escaparate de la empresa, todo en uno</mark>. Gestiona pedidos, atiende a clientes y busca nuevos negocios. ¿Cómo se llama este departamento?",
       "respuesta": "<mark>Departamento de ventas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/equipo-ventas.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el acuerdo por el que una parte vende un bien y otra lo compra, a cambio de un precio. Es como cualquier compra normal, pero con normas legales más estrictas al ser entre empresas. Recoge qué se vende, a qué precio y en qué condiciones. ¿Cómo se llama este acuerdo?",
+      "pregunta": "Es el acuerdo por el que una parte vende un bien y otra lo compra. <mark>Es como una operación normal, pero con normas legales más estrictas</mark>. Recoge qué se vende, a qué precio y en qué condiciones. ¿Cómo se llama este acuerdo?",
       "respuesta": "<mark>Contrato de compraventa mercantil</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el documento con el que un cliente solicita productos a un proveedor. Es como hacer una lista de la compra, pero de forma oficial y por escrito. Incluye qué se pide, en qué cantidad y en qué plazo se necesita. ¿Qué documento es?",
+      "pregunta": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero oficial y por escrito</mark>. Incluye qué se pide, en qué cantidad y en qué plazo. ¿Qué documento es?",
       "respuesta": "<mark>Pedido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es el documento que acompaña a la mercancía cuando se entrega. Es como un recibo que certifica que la mercancía ha llegado tal y como se pidió. Después se usa para elaborar la factura. ¿Qué documento es?",
+      "pregunta": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía llegó bien</mark>. Después se usa para elaborar la factura. ¿Qué documento es?",
       "respuesta": "<mark>Albarán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es el documento oficial que certifica una venta y su importe. Es como el recibo definitivo de una compra, con validez legal y fiscal. Incluye el precio, los impuestos aplicados y los datos de comprador y vendedor. ¿Qué documento es?",
+      "pregunta": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor. ¿Qué documento es?",
       "respuesta": "<mark>Factura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "El pedido solicita la mercancía, el albarán certifica que ha llegado, y la factura certifica el cobro. Es como los tres pasos de una misma historia: pedir, recibir y pagar. ¿En qué orden se emiten estos tres documentos?",
+      "pregunta": "El pedido solicita la mercancía, el albarán certifica que ha llegado, y la factura certifica el cobro. <mark>Es como los tres pasos de una misma historia: solicitar, recibir y pagar</mark>. ¿En qué orden se emiten estos tres documentos?",
       "respuesta": "<mark>Pedido, albarán y factura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es un porcentaje que se añade al precio del producto o servicio vendido. Es como sumar un pequeño extra al precio final que paga el comprador. La empresa vendedora lo cobra y luego lo declara a Hacienda. ¿Cómo se llama este impuesto?",
+      "pregunta": "Es un porcentaje que se añade al precio del producto o servicio vendido. <mark>Es como sumar un pequeño extra al precio final que paga el comprador</mark>. La empresa vendedora lo cobra y luego lo declara a Hacienda. ¿Cómo se llama este impuesto?",
       "respuesta": "<mark>IVA</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Son impuestos sobre productos concretos, como el alcohol, el tabaco o los combustibles. Se llaman así porque no se pagan sobre lo que ganas, sino sobre lo que compras. Se suman al precio final de esos productos. ¿Cómo se llama este tipo de impuestos?",
+      "pregunta": "Son impuestos sobre productos concretos, como el alcohol, el tabaco o los combustibles. <mark>Se pagan no sobre lo que ganas, sino sobre lo que compras</mark>. Se suman al precio final de esos productos. ¿Cómo se llama este tipo de impuestos?",
       "respuesta": "<mark>Impuestos especiales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Son las formas en que un comprador entrega el dinero al vendedor. Pueden ser en efectivo, con tarjeta, transferencia o cheque, entre otras. Cada una tiene ventajas distintas según la rapidez o la seguridad que ofrece. ¿Cómo se llaman estas formas de entregar el dinero?",
+      "pregunta": "Son las formas en que un comprador entrega el dinero al vendedor. <mark>Pueden ser en efectivo, con tarjeta, transferencia o cheque</mark>. Cada una tiene ventajas distintas según la rapidez o la seguridad. ¿Cómo se llaman estas formas de entregar el dinero?",
       "respuesta": "<mark>Medios de pago</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Son las formas en que una empresa recibe el dinero de sus clientes. Es la otra cara de la moneda del medio de pago, vista desde quien vende. Incluyen la domiciliación bancaria, la transferencia o el pagaré. ¿Cómo se llaman estas formas de recibir el dinero?",
+      "pregunta": "Son las formas en que una empresa recibe el dinero de sus clientes. <mark>Es la otra cara del pago, vista desde quien vende</mark>. Incluyen la domiciliación bancaria, la transferencia o el pagaré. ¿Cómo se llaman estas formas de recibir el dinero?",
       "respuesta": "<mark>Medios de cobro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es el seguimiento de cuántos productos tiene una empresa disponibles en cada momento. Es como llevar la cuenta de lo que queda en la despensa antes de que se acabe. Ayuda a saber cuándo pedir más mercancía. ¿Cómo se llama este seguimiento?",
+      "pregunta": "Es el seguimiento de cuántos productos tiene una empresa disponibles. <mark>Es como llevar la cuenta de lo que queda en la despensa</mark>. Ayuda a saber cuándo pedir más mercancía. ¿Cómo se llama este seguimiento?",
       "respuesta": "<mark>Control de existencias</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es el listado detallado de todos los bienes y mercancías que tiene una empresa. Es como hacer un recuento completo de todo lo que hay en un almacén. Ayuda a detectar pérdidas, roturas o errores de gestión. ¿Qué documento es?",
+      "pregunta": "Es el listado detallado de todos los bienes y mercancías de una empresa. <mark>Es como hacer un recuento completo de todo lo que hay en un almacén</mark>. Ayuda a detectar pérdidas, roturas o errores. ¿Qué documento es?",
       "respuesta": "<mark>Inventario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Hay que comprobar que la mercancía coincide con lo pedido, en cantidad y en estado. Es como revisar la compra antes de guardarla, para detectar cualquier error a tiempo. Detectarlo pronto evita problemas y reclamaciones. ¿Qué debes hacer al recibir un pedido?",
+      "pregunta": "Hay que verificar que lo recibido coincide con lo pedido, en cantidad y estado. <mark>Es como comprobar la compra antes de guardarla, para detectar errores a tiempo</mark>. Detectarlo pronto evita problemas y reclamaciones. ¿Qué debes hacer al recibir un pedido?",
       "respuesta": "<mark>Revisar la mercancía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Debe llevar los datos del vendedor y del comprador, la descripción del producto, el precio y el IVA aplicado. Es como una ficha completa que deja constancia exacta de la operación. También lleva un número correlativo y la fecha. ¿Qué documento es?",
+      "pregunta": "Debe llevar los datos del vendedor y del comprador, el producto, el precio y el IVA. <mark>Es como una ficha completa que deja constancia exacta de la operación</mark>. También lleva un número correlativo y la fecha. ¿Qué documento es?",
       "respuesta": "<mark>Factura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Al comprar así, se paga en el mismo momento de la compra, sin esperar. Es lo contrario de pagar más adelante, en uno o varios plazos. ¿Cómo se llama esta forma de pagar?",
+      "pregunta": "Al comprar así, se paga en el mismo momento de la compra, sin esperar. <mark>Es lo opuesto a pagar más adelante, en uno o varios plazos</mark>. ¿Cómo se llama esta forma de pagar?",
       "respuesta": "<mark>Al contado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "No controlar bien las existencias puede dejar a una empresa sin stock justo cuando lo necesita. O, al contrario, acumular mercancía de más que se estropea. Ambas situaciones generan lo mismo. ¿Qué provocan estos errores de control?",
+      "pregunta": "No controlar bien las existencias puede dejar a una empresa sin stock justo cuando lo necesita. O, al contrario, acumular mercancía que se estropea. <mark>Ambas situaciones generan el mismo problema para la empresa</mark>. ¿Qué provocan estos errores de control?",
       "respuesta": "<mark>Pérdidas económicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "Este departamento busca conseguir el mejor precio y las mejores condiciones con los proveedores. Es como negociar el mejor trato posible antes de cerrar un acuerdo. También valora plazos de entrega y calidad. ¿Qué departamento negocia con los proveedores?",
+      "pregunta": "Busca conseguir el mejor precio y las mejores condiciones con los proveedores. <mark>Es como negociar el mejor trato posible antes de cerrar un acuerdo</mark>. También valora plazos de entrega y calidad. ¿Qué departamento negocia con los proveedores?",
       "respuesta": "<mark>Departamento de compras</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
@@ -220,7 +220,7 @@
       }
     },
     {
-      "pregunta": "Los documentos de una compraventa sirven en caso de reclamación o inspección. Es como guardar un ticket de compra por si necesitas devolver algo más adelante. También hacen falta para la contabilidad y los impuestos. ¿Qué son estos documentos para la empresa?",
+      "pregunta": "Los documentos de una compraventa sirven en caso de reclamación o inspección. <mark>Es como guardar un ticket por si necesitas devolver algo más adelante</mark>. También hacen falta para la contabilidad y los impuestos. ¿Qué son estos documentos para la empresa?",
       "respuesta": "<mark>Prueba legal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/archivador.jpg",
@@ -232,7 +232,7 @@
       }
     },
     {
-      "pregunta": "Cada compra y cada venta debe quedar anotada, con su documento correspondiente. Es como escribir cada movimiento en un cuaderno de cuentas, para no perder el control. Esos registros muestran la situación económica real. ¿Qué debe hacerse con cada compra y venta?",
+      "pregunta": "Cada compra y cada venta debe quedar anotada, con su documento correspondiente. <mark>Es como escribir cada movimiento en un cuaderno de cuentas</mark>. Esos registros muestran la situación económica real. ¿Qué debe hacerse con cada compra y venta?",
       "respuesta": "<mark>Registrarse contablemente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/calculadora-libro.jpg",

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Algo se mueve solo si lo comparas con algo que se queda quieto. Sin un punto fijo para comparar, no se puede decir si algo se mueve. Alguien sentado en un tren se mueve respecto al suelo. ¿Cómo se llama este cambio de posición?",
+      "pregunta": "Algo se mueve solo si lo comparas con algo que se queda quieto. Sin un punto fijo para comparar, no se puede decir si algo se mueve. <mark>Alguien sentado en un tren se mueve respecto al suelo.</mark> ¿Cómo se llama este cambio de posición?",
       "respuesta": "<mark>Movimiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/tren-en-movimiento.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Para saber si algo se mueve hace falta elegir desde dónde mirar. Puede ser un punto en el suelo, un edificio o cualquier lugar fijo. Sin él, hablar de movimiento no tendría sentido claro. ¿Cómo se llama este punto fijo elegido?",
+      "pregunta": "Para saber si algo se mueve hace falta elegir desde dónde mirar. <mark>Puede ser un punto en el suelo, un edificio o cualquier lugar fijo.</mark> Sin él, hablar de movimiento no tendría sentido claro. ¿Cómo se llama este punto fijo elegido?",
       "respuesta": "<mark>Sistema de referencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/faro-punto-referencia.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el camino que recorre un objeto mientras se mueve. Es como la línea que dejaría marcada si llevara pintura goteando. Puede ser recta, curva o de cualquier otra forma. ¿Cómo se llama este camino recorrido?",
+      "pregunta": "Es el camino que recorre un objeto mientras se mueve. <mark>Es como la línea que dejaría marcada si llevara pintura goteando.</mark> Puede ser recta, curva o de cualquier otra forma. ¿Cómo se llama este camino recorrido?",
       "respuesta": "<mark>Trayectoria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/estelas-luz-trafico.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es cuántos metros recorre un cuerpo en cada segundo que pasa. Se calcula dividiendo la distancia recorrida entre el tiempo empleado. Cuanto mayor es, más rápido se mueve un objeto. ¿Cómo se llama esta magnitud?",
+      "pregunta": "<mark>Es cuántos metros recorre un cuerpo en cada segundo que pasa.</mark> Se calcula dividiendo la distancia recorrida entre el tiempo empleado. Cuanto mayor es, más rápido se mueve un objeto. ¿Cómo se llama esta magnitud?",
       "respuesta": "<mark>Velocidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/velocimetro-coche.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Un coche que no frena ni acelera nunca se mueve en línea recta a velocidad constante. Su gráfica de espacio y tiempo es una línea recta. ¿Cómo se llama este tipo de movimiento?",
+      "pregunta": "<mark>Un coche que no frena ni acelera nunca se mueve en línea recta a velocidad constante.</mark> Su gráfica de espacio y tiempo es una línea recta. ¿Cómo se llama este tipo de movimiento?",
       "respuesta": "<mark>Movimiento rectilíneo uniforme</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/carretera-recta.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Un mapa dibuja, minuto a minuto, dónde está un objeto que se mueve. La inclinación de sus líneas indica la velocidad del movimiento. Cuanto más inclinada, más rápido se mueve el objeto. ¿Cómo se llama este tipo de gráfica?",
+      "pregunta": "<mark>Un mapa dibuja, minuto a minuto, dónde está un objeto que se mueve.</mark> La inclinación de sus líneas indica la velocidad del movimiento. Cuanto más inclinada, más rápido se mueve el objeto. ¿Cómo se llama este tipo de gráfica?",
       "respuesta": "<mark>Gráfica espacio-tiempo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/grafica-lineas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Un empujón o un tirón puede acelerar, frenar o deformar un objeto. Se mide en una unidad llamada newton. Está presente en casi cualquier acción cotidiana. ¿Cómo se llama esta acción?",
+      "pregunta": "<mark>Un empujón o un tirón puede acelerar, frenar o deformar un objeto.</mark> Se mide en una unidad llamada newton. Está presente en casi cualquier acción cotidiana. ¿Cómo se llama esta acción?",
       "respuesta": "<mark>Fuerza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/empujando-carrito-compra.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Golpear un balón puede cambiar su velocidad, su dirección, o incluso deformarlo. No siempre produce movimiento: a veces solo cambia la forma del objeto. ¿Cómo se llama esta acción capaz de producir esos cambios?",
+      "pregunta": "<mark>Golpear un balón puede cambiar su velocidad, su dirección, o incluso deformarlo.</mark> No siempre produce movimiento: a veces solo cambia la forma del objeto. ¿Cómo se llama esta acción capaz de producir esos cambios?",
       "respuesta": "<mark>Fuerza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/patada-balon-futbol.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Varios empujones que actúan a la vez sobre un mismo objeto se pueden sumar. El resultado se llama fuerza resultante. Esa fuerza final determina cómo se moverá el objeto. ¿Cómo se llama sumar varias fuerzas así?",
+      "pregunta": "<mark>Varios empujones que actúan a la vez sobre un mismo objeto se pueden sumar.</mark> El resultado se llama fuerza resultante. Esa fuerza final determina cómo se moverá el objeto. ¿Cómo se llama sumar varias fuerzas así?",
       "respuesta": "<mark>Composición de fuerzas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/tira-y-afloja-cuerda.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Apoyándote en un punto fijo, es más fácil levantar algo pesado. Se usa, por ejemplo, en las tijeras o en una carretilla. ¿Cómo se llama esta herramienta simple que amplifica la fuerza?",
+      "pregunta": "Apoyándote en un punto fijo, es más fácil levantar algo pesado. <mark>Se usa, por ejemplo, en las tijeras o en una carretilla.</mark> ¿Cómo se llama esta herramienta simple que amplifica la fuerza?",
       "respuesta": "<mark>Palanca</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/carretilla-jardin.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "La gravedad nos mantiene pegados al suelo y el rozamiento frena el movimiento. Otra fuerza invisible atrae ciertos metales, como el hierro. Actúa aunque no la veamos directamente. ¿Cómo se llama esta tercera fuerza?",
+      "pregunta": "La gravedad nos mantiene pegados al suelo y el rozamiento frena el movimiento. <mark>Otra fuerza invisible atrae ciertos metales, como el hierro.</mark> Actúa aunque no la veamos directamente. ¿Cómo se llama esta tercera fuerza?",
       "respuesta": "<mark>Magnetismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/magnetismo-iman.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Apretar una esponja cambia su forma mientras se aplica la fuerza. Algunos materiales vuelven a su forma original después; otros no. ¿Cómo se llama este cambio de forma producido por una fuerza?",
+      "pregunta": "<mark>Apretar una esponja cambia su forma mientras se aplica la fuerza.</mark> Algunos materiales vuelven a su forma original después; otros no. ¿Cómo se llama este cambio de forma producido por una fuerza?",
       "respuesta": "<mark>Deformación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_4/esponja-apretada.jpg",

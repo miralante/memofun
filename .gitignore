@@ -1,6 +1,9 @@
 # Local graphify build output (metrics, caches, generated reports)
 graphify-out/
 
+# Local audit workspace tooling (output of scripts/audit-deck-readability.js)
+audit-out/
+
 # Editor / IDE
 .dev/
 .vscode/

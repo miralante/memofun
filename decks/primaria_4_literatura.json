@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un texto que cuenta una historia con hechos. Tiene alguien a quien le pasan cosas, en un orden. Los cuentos y las novelas son de este tipo. ¿Cómo se llama este tipo de texto?",
+      "pregunta": "Es un texto que cuenta una historia con hechos. <mark>Es como contarle a alguien lo que pasó, en orden</mark>. Los cuentos y las novelas son de este tipo. ¿Cómo se llama este tipo de texto?",
       "respuesta": "<mark>Texto narrativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/texto-narrativo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Al leer una historia, sigue qué pasó antes, durante y después. Así entiendes por qué ocurre cada cosa. Si lo pierdes, la historia te confunde. ¿Qué es esto que debes seguir?",
+      "pregunta": "Al leer una historia, sigue qué pasó antes, durante y después. <mark>Es como seguir las páginas de un libro, una tras otra</mark>. Si te saltas partes, la historia te confunde. ¿Qué es esto que debes seguir?",
       "respuesta": "<mark>El orden</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/lectura-atenta.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Toda narración completa tiene tres partes en este orden. La primera presenta, la segunda complica y la tercera resuelve. Van siempre en ese orden, nunca al revés. ¿Cómo se llaman estas tres partes?",
+      "pregunta": "Toda narración completa tiene tres partes en este orden. <mark>Es como un viaje: sales, pasas por el camino y llegas</mark>. Van siempre en ese orden, nunca al revés. ¿Cómo se llaman estas tres partes?",
       "respuesta": "<mark>Principio, nudo y desenlace</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/caperucita-libro.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "En esta parte de la historia aparece un problema o un reto. Es donde todo se complica de verdad. Por ejemplo, el protagonista se pierde o pierde algo. ¿Cómo se llama esta parte?",
+      "pregunta": "En esta parte de la historia aparece un problema o un reto. <mark>Es como cuando se te enreda el cordón del zapato</mark>. Por ejemplo, el protagonista se pierde o pierde algo. ¿Cómo se llama esta parte?",
       "respuesta": "<mark>El nudo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/nudo-cuerda.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Esta parte resuelve el problema que planteaba el nudo. Cierra la historia y dice cómo acabó todo. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta última parte?",
+      "pregunta": "Esta parte resuelve el problema que planteaba el nudo. <mark>Es como el pitido final de un partido de fútbol</mark>. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta última parte?",
       "respuesta": "<mark>El desenlace</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/final-cinta.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Sin esta parte, una historia no tiene ningún problema que resolver. Una historia sin conflicto no engancha al lector. Por eso suele ser la parte más larga. ¿Cómo se llama esta parte tan importante?",
+      "pregunta": "Sin esta parte, una historia no tiene ningún problema que resolver. <mark>Es como el motor que hace avanzar toda la historia</mark>. Por eso suele ser la parte más larga. ¿Cómo se llama esta parte tan importante?",
       "respuesta": "<mark>El nudo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/aburrido-clase.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es lo que dicen los personajes en voz alta. En el teatro, casi todo se cuenta así. No hay un narrador que explique lo que pasa. ¿Cómo se llama esto que dicen los personajes?",
+      "pregunta": "Es lo que dicen los personajes en voz alta. <mark>Es como escuchar una conversación real entre amigos</mark>. En el teatro, casi todo se cuenta así. ¿Cómo se llama esto que dicen los personajes?",
       "respuesta": "<mark>El diálogo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/dialogo-teatro.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "En el guion de una obra de teatro, esto aparece antes de cada frase. Así el lector sabe quién dice cada línea. No hace falta escribir 'dijo', como en un cuento. ¿Qué es lo que aparece antes de cada frase?",
+      "pregunta": "En el guion de una obra de teatro, esto aparece antes de cada frase. <mark>Es como una etiqueta pegada justo antes de cada frase</mark>. No hace falta escribir 'dijo', como en un cuento. ¿Qué es lo que aparece antes de cada frase?",
       "respuesta": "<mark>El nombre del personaje</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/teatro-infantil.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Son quienes actúan y hablan en una historia de teatro. Cada uno tiene su propia forma de hablar y de sentir. Los actores les dan voz y movimiento en el escenario. ¿Cómo se llaman?",
+      "pregunta": "Son quienes actúan y hablan en una historia de teatro. <mark>Es como ponerse un disfraz y vivir otra vida por un rato</mark>. Los actores les dan voz y movimiento en el escenario. ¿Cómo se llaman?",
       "respuesta": "<mark>Personajes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/personajes-teatro.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Este personaje vive el problema central de la obra. La historia entera gira a su alrededor. Otros personajes le acompañan y le ayudan a resolverlo. ¿Cómo se llama este personaje principal?",
+      "pregunta": "Este personaje vive el problema central de la obra. <mark>Es como el rostro que aparece en cada foto de la película</mark>. Otros personajes le acompañan y le ayudan a resolverlo. ¿Cómo se llama este personaje principal?",
       "respuesta": "<mark>El personaje principal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura/protagonista-secundario.jpg",

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el conjunto de técnicas para reproducir documentos, como fotocopiar o encuadernar. Es como multiplicar un documento para que varias personas tengan su propia copia. Se usa mucho para repartir informes o contratos. ¿Cómo se llama este conjunto de técnicas?",
+      "pregunta": "Es el conjunto de técnicas para reproducir documentos, como fotocopiar o encuadernar. <mark>Es como multiplicar un documento para que varias personas tengan su propia copia</mark>. Se usa mucho para repartir informes o contratos. ¿Cómo se llama este conjunto de técnicas?",
       "respuesta": "<mark>Reprografía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Hay que comprobar que la copia salga completa, legible y en el orden correcto. Es como revisar una copia antes de dártela por buena. Una fotocopia mal hecha puede causar confusión más adelante. ¿Qué conviene hacer antes de dar por buena una fotocopia?",
+      "pregunta": "Hay que verificar que la copia salga completa, legible y en el orden correcto. <mark>Es como revisar una copia antes de dártela por buena</mark>. Una fotocopia mal hecha puede causar confusión. ¿Qué conviene hacer antes de dar por buena una fotocopia?",
       "respuesta": "<mark>Comprobarla</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora2.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Sirve para unir varias hojas de forma ordenada y resistente. Es como convertir hojas sueltas en un pequeño libro. Facilita mucho manejar documentos con muchas páginas. ¿Cómo se llama hacer esto?",
+      "pregunta": "Sirve para unir varias hojas de forma ordenada y resistente. <mark>Es como convertir hojas sueltas en un pequeño libro</mark>. Facilita mucho manejar documentos con muchas páginas. ¿Cómo se llama hacer esto?",
       "respuesta": "<mark>Encuadernar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/encuadernar-libros.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es guardar documentos de forma ordenada para poder encontrarlos después. Es como guardar cada cosa en su cajón, en vez de amontonarlo todo. Un buen archivo ahorra tiempo cuando hace falta consultar algo. ¿Cómo se llama hacer esto?",
+      "pregunta": "Es guardar documentos de forma ordenada para poder encontrarlos después. <mark>Es como guardar cada cosa en su cajón, en vez de amontonarlo todo</mark>. Ahorra tiempo cuando hace falta consultar algo. ¿Cómo se llama hacer esto?",
       "respuesta": "<mark>Archivar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/biblioteca-organizada-temas.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Sin un orden claro, sería casi imposible encontrar un documento concreto. Es como buscar un libro en una biblioteca sin ningún tipo de orden. ¿Cómo conviene archivar los documentos?",
+      "pregunta": "Sin un criterio claro, sería casi imposible encontrar un documento concreto. <mark>Es como buscar un libro en una biblioteca donde nada está en su sitio</mark>. ¿Cómo conviene archivar los documentos?",
       "respuesta": "<mark>De forma ordenada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/mesa-desordenada.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es ordenar los documentos según las letras de un nombre, de la A a la Z. Es como ordenar una agenda de contactos por el nombre de cada persona. ¿Cómo se llama este tipo de orden?",
+      "pregunta": "Es ordenar los documentos según las letras de un nombre, de la A a la Z. <mark>Es como ordenar una agenda de contactos por el nombre de cada persona</mark>. ¿Cómo se llama este tipo de orden?",
       "respuesta": "<mark>Clasificación alfabética</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fichas-colores-alfabetico.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es ordenar los documentos según un número asignado a cada uno. Es como ordenar entradas numeradas, cada una en su lugar correspondiente. Se usa mucho para facturas o expedientes. ¿Cómo se llama este tipo de orden?",
+      "pregunta": "Es ordenar los documentos según un número asignado a cada uno. <mark>Es como ordenar entradas de cine por el asiento asignado, cada una en su lugar</mark>. Se usa mucho para facturas o expedientes. ¿Cómo se llama este tipo de orden?",
       "respuesta": "<mark>Clasificación numérica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/catalogo-numerico-biblioteca.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es agrupar los documentos según el asunto del que tratan. Es como ordenar libros de una biblioteca por su materia. Es útil cuando se buscan documentos relacionados entre sí. ¿Cómo se llama este tipo de orden?",
+      "pregunta": "Es agrupar los documentos según el asunto del que tratan. <mark>Es como ordenar libros de una biblioteca por su materia</mark>. Es útil cuando se buscan documentos relacionados entre sí. ¿Cómo se llama este tipo de orden?",
       "respuesta": "<mark>Clasificación por temas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanterias-colores-temas.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "El archivo en papel ocupa espacio físico, como carpetas o armarios. El otro tipo se guarda en el ordenador, sin ocupar espacio físico. Muchas oficinas combinan los dos. ¿Cómo se llama este segundo tipo de archivo?",
+      "pregunta": "El archivo en papel ocupa espacio físico, como carpetas o armarios. <mark>El otro tipo se guarda en el ordenador, sin ocupar espacio físico</mark>. Muchas oficinas combinan los dos. ¿Cómo se llama este segundo tipo de archivo?",
       "respuesta": "<mark>Archivo digital</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/contabilidad-digital-papel.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Ocupa menos espacio y permite buscar documentos de forma mucho más rápida. Es como tener una biblioteca entera dentro de un solo ordenador. También facilita compartir documentos al instante. ¿Qué tipo de archivo tiene estas ventajas?",
+      "pregunta": "Ocupa menos espacio y permite buscar documentos de forma mucho más rápida. <mark>Es como tener una biblioteca entera dentro de un solo ordenador</mark>. También facilita compartir documentos al instante. ¿Qué tipo de archivo tiene estas ventajas?",
       "respuesta": "<mark>El archivo digital</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/nube-almacenamiento.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "No depende de que un dispositivo funcione o tenga electricidad. Es como tener algo que siempre puedes consultar, sin depender de una pantalla. Algunos documentos oficiales todavía exigen esta versión. ¿Qué tipo de archivo tiene estas ventajas?",
+      "pregunta": "No depende de que un dispositivo funcione o tenga electricidad. <mark>Es como tener algo que siempre puedes consultar, sin depender de una pantalla</mark>. Algunos documentos oficiales todavía exigen esta versión. ¿Qué tipo de archivo tiene estas ventajas?",
       "respuesta": "<mark>El archivo en papel</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/cuadernos-papel.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Conviene ponerle un nombre claro y descriptivo, que indique qué contiene. Es como poner una etiqueta clara a una caja, en vez de dejarla sin nombre. Un buen nombre ayuda a encontrarla rápido más adelante. ¿Cómo conviene nombrar una carpeta digital?",
+      "pregunta": "Conviene identificarla con algo descriptivo, que indique qué contiene. <mark>Es como poner una etiqueta legible a una caja, en vez de dejarla en blanco</mark>. Eso ayuda a encontrarla rápido más adelante. ¿Cómo conviene nombrar una carpeta digital?",
       "respuesta": "<mark>Con un nombre claro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/ordenador-portatil-oficina.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Se organizan creando una estructura clara, con carpetas principales y subcarpetas si hace falta. Es como organizar un armario con secciones y cajones dentro de cada sección. ¿Qué conviene crear para organizar bien las carpetas digitales?",
+      "pregunta": "Se organizan creando niveles bien definidos, con carpetas principales y subcarpetas si hace falta. <mark>Es como organizar un armario con secciones y cajones dentro de cada sección</mark>. ¿Qué conviene crear para organizar bien las carpetas digitales?",
       "respuesta": "<mark>Una estructura clara</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/zona-trabajo-ordenador.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Un criterio mezclado hace mucho más difícil encontrar después un documento. Es como cambiar de idioma a mitad de una conversación. ¿Qué conviene mantener siempre al archivar?",
+      "pregunta": "Un criterio mezclado hace mucho más difícil encontrar después un documento. <mark>Es como cambiar de idioma a mitad de una conversación</mark>. ¿Qué conviene mantener siempre al archivar?",
       "respuesta": "<mark>El mismo criterio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanteria-oficina-organizada.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Un buen archivo ahorra tiempo cada vez que hace falta buscar un documento. Es como tener todo a mano, en vez de tener que buscarlo cada vez. ¿Qué facilita archivar bien un documento?",
+      "pregunta": "Un buen archivo ahorra tiempo cada vez que hace falta buscar un documento. <mark>Es como tener todo a mano, en vez de tener que buscarlo cada vez</mark>. ¿Qué facilita archivar bien un documento?",
       "respuesta": "<mark>Trabajar de forma eficiente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/escritorio-ordenado.jpg",

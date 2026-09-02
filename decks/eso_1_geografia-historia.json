@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Uno es el giro de la Tierra sobre sí misma, un giro al día, que causa el día y la noche. El otro es la vuelta completa alrededor del Sol, en un año. ¿Cómo se llaman estos dos movimientos de la Tierra?",
+      "pregunta": "Un giro de la Tierra sobre sí misma, uno al día, <mark>causa el día y la noche</mark>. El otro es la vuelta completa alrededor del Sol, en un año. ¿Cómo se llaman estos dos movimientos de la Tierra?",
       "respuesta": "<mark>Rotación y traslación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/tierra-desde-espacio.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "La Tierra es como un melocotón: piel fina, pulpa gruesa y hueso en el centro. Vivimos en la capa más fina y externa. El centro es muchísimo más caliente. ¿Cómo se llaman las tres capas de la Tierra?",
+      "pregunta": "<mark>La Tierra es como un melocotón</mark>: piel fina, pulpa gruesa y hueso en el centro. Vivimos en la capa más fina y externa. ¿Cómo se llaman las tres capas de la Tierra?",
       "respuesta": "<mark>Corteza, manto y núcleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/estratos-roca-capas.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Son dos líneas imaginarias que localizan un lugar exacto: la latitud y la longitud. Funcionan como las calles y avenidas de un plano, cruzándose en un punto. ¿Cómo se llaman estas líneas juntas?",
+      "pregunta": "Son dos líneas imaginarias que localizan un lugar exacto. <mark>Funcionan como las calles y avenidas de un plano</mark>. ¿Cómo se llaman estas líneas juntas?",
       "respuesta": "<mark>Coordenadas geográficas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/globo-terraqueo-mundo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Indica cuánto se ha reducido el tamaño real para dibujar un mapa. Es como una maqueta: pequeña, pero con las proporciones reales. Sin ella no sabrías si dos ciudades están cerca o lejos de verdad. ¿Cómo se llama esto?",
+      "pregunta": "Indica cuánto se ha reducido el tamaño real para dibujar un mapa. <mark>Es como una maqueta: pequeña, pero con las proporciones reales</mark>. ¿Cómo se llama esto?",
       "respuesta": "<mark>Escala</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/mapa-antiguo-1696.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de formas que tiene la superficie de la Tierra: montañas, llanuras, valles y costas. Se forma por fuerzas internas, como los terremotos. También lo transforman el agua, el viento y el hielo. ¿Cómo se llama este conjunto de formas?",
+      "pregunta": "Es el conjunto de formas de la superficie de la Tierra, <mark>como montañas, llanuras y valles</mark>. El agua, el viento y el hielo lo transforman. ¿Cómo se llama este conjunto de formas?",
       "respuesta": "<mark>Relieve</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/pico-orizaba-amanecer.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "El agua y el viento actúan como un escultor lentísimo, tallando la roca. Un río puede tardar millones de años en abrir un cañón así. Por eso el relieve nunca deja de cambiar. ¿Cómo se llaman estos tres procesos que cambian el paisaje?",
+      "pregunta": "<mark>El agua y el viento actúan como un escultor lentísimo</mark>, tallando la roca. Un río puede tardar millones de años en abrir un cañón así. ¿Cómo se llaman estos tres procesos que cambian el paisaje?",
       "respuesta": "<mark>Erosión, transporte y sedimentación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/gran-canon-erosion.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es la capa de aire que envuelve la Tierra. Actúa como una manta que nos protege del frío del espacio. También filtra parte de la radiación peligrosa del Sol. ¿Cómo se llama esta capa de aire?",
+      "pregunta": "Es la capa de aire que envuelve la Tierra. <mark>Actúa como una manta que nos protege del frío del espacio</mark>. ¿Cómo se llama esta capa de aire?",
       "respuesta": "<mark>Atmósfera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/cielo-nubes-azul.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Una cosa es cómo está el cielo hoy, en un lugar concreto. La otra es la media de eso durante muchos años. Por ejemplo, puede nevar un día en un sitio de clima cálido, sin que cambie lo segundo. ¿Cómo se llama la media de muchos años?",
+      "pregunta": "Una cosa es cómo está el cielo hoy, en un lugar concreto. La otra es la media de eso durante muchos años. <mark>Puede nevar un día en un sitio de clima cálido</mark>, sin que eso cambie. ¿Cómo se llama la media de muchos años?",
       "respuesta": "<mark>El clima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/satelite-tormenta-nubes.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "El relieve, la cercanía al mar y la latitud cambian mucho de una zona a otra de España. El norte suele ser lluvioso y suave; el sur, más seco y caluroso. Un país puede ser como un mosaico de climas distintos. ¿Cómo se llama esta variedad de climas en un mismo país?",
+      "pregunta": "El relieve, el mar y la latitud cambian el clima de una zona a otra de España. <mark>Un país puede ser como un mosaico de climas distintos</mark>. ¿Cómo se llama esta variedad de climas en un mismo país?",
       "respuesta": "<mark>Diversidad bioclimática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/montanas-sur-espana.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es toda el agua del planeta: mares, ríos, lagos y hielos. Es como la red de venas de la Tierra, repartiendo agua por todas partes. La mayor parte está en los océanos. ¿Cómo se llama toda esta agua del planeta?",
+      "pregunta": "Es toda el agua del planeta: mares, ríos, lagos y hielos. <mark>Es como la red de venas de la Tierra</mark>, repartiendo agua por todas partes. ¿Cómo se llama toda esta agua del planeta?",
       "respuesta": "<mark>Hidrosfera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/playa-praia-grande.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es cómo se ve un lugar cuando lo forman sobre todo elementos naturales. El clima, el relieve y la vegetación se combinan como ingredientes de una receta. Un desierto y una selva son ejemplos muy distintos. ¿Cómo se llama esto?",
+      "pregunta": "Es cómo se ve un lugar cuando lo forman sobre todo elementos naturales. <mark>El clima, el relieve y la vegetación se combinan como ingredientes</mark> de una receta. ¿Cómo se llama esto?",
       "respuesta": "<mark>Paisaje natural</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/desierto-nubes.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es una gran región del planeta con un clima y una vegetación parecidos. Es como un barrio ecológico, con vecinos adaptados al mismo ambiente. La selva tropical y la tundra son dos ejemplos. ¿Cómo se llama esta gran región?",
+      "pregunta": "Es una gran región del planeta con un clima y una vegetación parecidos. <mark>Es como un barrio ecológico, con vecinos adaptados al mismo ambiente</mark>. ¿Cómo se llama esta gran región?",
       "respuesta": "<mark>Zona bioclimática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/picos-rocosos-niebla.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Tiene un clima lluvioso y suave, gracias a la cercanía del océano, que actúa como un termostato. Los paisajes son muy verdes todo el año. Irlanda o el norte de España son ejemplos. ¿Cómo se llama esta zona climática?",
+      "pregunta": "Tiene un clima lluvioso y suave, <mark>gracias al océano, que actúa como un termostato</mark>. Los paisajes son muy verdes todo el año. ¿Cómo se llama esta zona climática?",
       "respuesta": "<mark>Europa atlántica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/costa-atlantica-verde.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Tiene veranos secos y calurosos, e inviernos suaves y lluviosos. Es típico de los países bañados por el mar Mediterráneo. El olivo está adaptado a la falta de agua en verano. ¿Cómo se llama este clima?",
+      "pregunta": "Tiene veranos secos y calurosos, e inviernos suaves y lluviosos. <mark>El olivo está adaptado a la falta de agua en verano</mark>. ¿Cómo se llama este clima?",
       "respuesta": "<mark>Clima mediterráneo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/olivo-mediterraneo.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Es la variedad de seres vivos que existen en un lugar. Es como una gran orquesta: cuantos más instrumentos distintos, más rica es la música. Cada especie cumple un papel en su ecosistema. ¿Cómo se llama esta variedad de seres vivos?",
+      "pregunta": "Es la variedad de seres vivos que existen en un lugar. <mark>Es como una gran orquesta: más instrumentos, más rica la música</mark>. ¿Cómo se llama esta variedad de seres vivos?",
       "respuesta": "<mark>Biodiversidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/selva-tropical-biodiversidad.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Un paisaje o una especie, una vez destruidos, pueden no recuperarse nunca. Es como un libro único: si se quema, esa historia se pierde para siempre. Cuidarlo hoy asegura que siga existiendo mañana. ¿Qué espacios ayudan a conservarlo?",
+      "pregunta": "Un paisaje o una especie, una vez destruidos, pueden no recuperarse nunca. <mark>Es como un libro único: si se quema, se pierde para siempre</mark>. ¿Qué espacios ayudan a conservarlo?",
       "respuesta": "<mark>Parques naturales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia/ciervo-parque-nacional.jpg",

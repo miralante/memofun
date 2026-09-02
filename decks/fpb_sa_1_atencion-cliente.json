@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "En una oficina, un mensaje puede viajar por teléfono, en persona o por correo. Es como una carta: alguien la escribe y otra persona la lee. ¿Qué tres partes forman siempre la comunicación?",
+      "pregunta": "Un mensaje puede viajar por teléfono, en persona o por correo. <mark>Es como una carta: alguien la escribe y otra persona la lee</mark>. ¿Qué tres partes forman siempre la comunicación?",
       "respuesta": "<mark>Emisor, receptor y mensaje</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/comunicacion-clientes.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Armar un puzle sin una pieza deja la imagen incompleta. Responder sin entender bien crea errores y malentendidos. ¿Qué debes hacer antes de contestar a un cliente?",
+      "pregunta": "<mark>Armar un puzle sin una pieza deja la imagen incompleta</mark>. Responder sin entender bien crea errores. ¿Qué debes hacer antes de contestar a un cliente?",
       "respuesta": "<mark>Escuchar antes de responder</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/escucha-puzzle.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Una conversación, una carta o un correo usan palabras, habladas o escritas. Es el contenido de lo que dices, no cómo lo dices. Es la forma más directa y clara de comunicarte. ¿Cómo se llama este tipo de comunicación?",
+      "pregunta": "<mark>Una conversación, una carta o un correo usan palabras, habladas o escritas</mark>. Es el contenido, no cómo lo dices. ¿Cómo se llama este tipo de comunicación?",
       "respuesta": "<mark>Comunicación verbal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/hablar-comunicacion.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Una sonrisa puede decir 'bienvenido' sin decir ni una palabra. Los gestos, el tono de voz y la postura también comunican. A veces dicen más que las palabras. ¿Cómo se llama esta forma de comunicarse?",
+      "pregunta": "<mark>Una sonrisa puede decir 'bienvenido' sin decir ni una palabra</mark>. Los gestos, el tono y la postura también comunican. ¿Cómo se llama esta forma de comunicarse?",
       "respuesta": "<mark>Comunicación no verbal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/apreton-manos.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Servir la misma comida a personas con gustos distintos no sienta igual a todos. Cada cliente llega con una necesidad, un humor y una prisa diferentes. ¿Cómo se llama fijarse en esas diferencias para atender mejor?",
+      "pregunta": "<mark>Servir la misma comida a gustos distintos no sienta igual a todos</mark>. Cada cliente llega con una necesidad y una prisa diferentes. ¿Cómo se llama fijarse en esas diferencias para atender mejor?",
       "respuesta": "<mark>Atención personalizada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/diversidad-personas.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Abrir la puerta de tu casa a una visita marca el ambiente de todo lo que viene después. Saludar, sonreír y mostrar disposición a ayudar hacen lo mismo con un cliente. ¿Cómo se llama este primer contacto?",
+      "pregunta": "<mark>Abrir la puerta de tu casa a una visita marca el ambiente de todo lo que viene</mark>. Saludar y sonreír hacen lo mismo con un cliente. ¿Cómo se llama este primer contacto?",
       "respuesta": "<mark>Acogida</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/mostrador-atencion-cliente.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Leer con atención, en vez de pasar rápido las páginas, ayuda a entender mejor. Asentir, mirar a la persona y preguntar si hace falta funcionan igual. ¿Cómo se llama prestar toda tu atención sin distraerte?",
+      "pregunta": "<mark>Leer con atención, en vez de pasar rápido las páginas, ayuda a entender mejor</mark>. Asentir y mirar a la persona funcionan igual. ¿Cómo se llama prestar toda tu atención sin distraerte?",
       "respuesta": "<mark>Escucha activa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/operadora-escucha.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Seguir una receta paso a paso da buen resultado. Primero se entiende qué pide el cliente. Después se comprueba si es posible y se actúa rápido. ¿Qué pasos sigue resolver bien una petición?",
+      "pregunta": "<mark>Seguir una receta paso a paso da buen resultado</mark>. Primero se entiende qué pide el cliente. Después se comprueba y se actúa rápido. ¿Qué pasos sigue resolver bien una petición?",
       "respuesta": "<mark>Entender, comprobar y actuar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/pasos-receta.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "El final de una película deja mejor sabor de boca a todo lo anterior. Terminar bien una atención hace lo mismo. Se cuida tanto como el saludo inicial. ¿Cómo se llama este último momento con el cliente?",
+      "pregunta": "<mark>El final de una película deja mejor sabor de boca a todo lo anterior</mark>. Terminar bien una atención hace lo mismo. ¿Cómo se llama este último momento con el cliente?",
       "respuesta": "<mark>Despedida</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/despedida.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Confías más en alguien que te mira a los ojos que en quien evita tu mirada. Un gesto tranquilo y una mirada atenta transmiten seguridad. Si las palabras dicen una cosa y el gesto otra, el cliente suele creer al gesto. ¿Qué transmite la comunicación no verbal?",
+      "pregunta": "Confías más en quien te mira a los ojos que en quien evita tu mirada. Un gesto tranquilo transmite seguridad. <mark>Si las palabras dicen una cosa y el gesto otra, el cliente cree al gesto</mark>. ¿Qué transmite la comunicación no verbal?",
       "respuesta": "<mark>Confianza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/mujer-confianza.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Decir 'voy a comprobarlo' es mejor que dar un dato equivocado. El cliente valora más la honestidad que una respuesta rápida pero incorrecta. ¿Qué actitud debes tener si no sabes resolver algo?",
+      "pregunta": "<mark>Decir 'voy a comprobarlo' es mejor que dar un dato equivocado</mark>. El cliente valora eso más que una respuesta rápida pero incorrecta. ¿Qué actitud debes tener si no sabes resolver algo?",
       "respuesta": "<mark>Honestidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/apoyo-equipo.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "El primer bocado de un plato marca lo que esperas del resto. Una mala primera impresión es difícil de corregir después. ¿Qué momento condiciona cómo se sentirá el cliente durante toda la conversación?",
+      "pregunta": "<mark>El sabor inicial de un plato marca lo que esperas del resto</mark>. Una mala impresión es difícil de corregir después. ¿Qué momento condiciona cómo se sentirá el cliente durante la conversación?",
       "respuesta": "<mark>Primera impresión</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/apreton-manos.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Ver pasar un coche no es lo mismo que fijarte en quién lo conduce. Oír es solo percibir un sonido. Escuchar de verdad requiere atención activa, no solo estar cerca. ¿Qué palabra significa entender lo que dice el cliente, no solo oírlo?",
+      "pregunta": "<mark>Ver pasar un coche no es lo mismo que fijarte en quién lo conduce</mark>. Oír es solo percibir un sonido. Escuchar de verdad requiere atención activa. ¿Qué palabra significa entender lo que dice el cliente, no solo oírlo?",
       "respuesta": "<mark>Escuchar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/escucha-atenta-2.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "La misma frase suena distinta dicha con calma que dicha con brusquedad. Puede transmitir amabilidad, prisa o cercanía, aunque las palabras sean las mismas. Un tono cálido ayuda a que el cliente se sienta bien atendido. ¿Qué elemento de la voz influye tanto en la conversación?",
+      "pregunta": "<mark>La misma frase suena distinta dicha con calma que dicha con brusquedad</mark>. Puede transmitir amabilidad, prisa o cercanía. Un tono cálido ayuda a que el cliente se sienta bien atendido. ¿Qué elemento de la voz influye tanto en la conversación?",
       "respuesta": "<mark>Tono de voz</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/operadora-telefono.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Alguien que se acerca con cara de prisa ya transmite algo, antes de decir nada. La actitud y la postura de quien atiende comunican igual. Estar disponible, con buena cara, prepara el terreno. ¿Qué debes cuidar incluso antes de que hable el cliente?",
+      "pregunta": "<mark>Alguien que se acerca con cara de prisa ya transmite algo, antes de hablar</mark>. La postura de quien atiende comunica igual. Estar disponible prepara el terreno. ¿Qué debes cuidar incluso antes de que hable el cliente?",
       "respuesta": "<mark>Tu actitud</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente/prisa-pasos.jpg",

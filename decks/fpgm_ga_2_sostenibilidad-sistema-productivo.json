@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es crecer y progresar sin poner en riesgo los recursos que necesitarán las próximas generaciones. Es como usar los recursos de hoy sin dejar vacía la despensa de mañana. Combina desarrollo económico con cuidado social y ambiental. ¿Cómo se llama este tipo de desarrollo?",
+      "pregunta": "Es crecer sin poner en riesgo los recursos que necesitarán las próximas generaciones. <mark>Es como usar los recursos de hoy sin dejar vacía la despensa de mañana</mark>. Combina desarrollo económico con cuidado social y ambiental. ¿Cómo se llama este tipo de desarrollo?",
       "respuesta": "<mark>Desarrollo sostenible</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/desarrollo-sostenible.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Son metas mundiales que las empresas también pueden ayudar a cumplir con sus decisiones. Es como aplicar a la empresa una lista de buenos propósitos compartidos por todo el planeta. Incluyen reducir la desigualdad y cuidar el planeta. ¿Cómo se llaman estas metas mundiales?",
+      "pregunta": "Son metas mundiales que las empresas también pueden ayudar a cumplir con sus decisiones. <mark>Es como aplicar a la empresa una lista de buenos propósitos compartidos por todo el planeta</mark>. Incluyen reducir la desigualdad y cuidar el planeta. ¿Cómo se llaman estas metas mundiales?",
       "respuesta": "<mark>Objetivos de Desarrollo Sostenible</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ods-empresa.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es un modelo económico que busca reutilizar y reciclar en vez de desechar. Es como cerrar el círculo de un producto, dándole una segunda vida en vez de tirarlo. Se opone al modelo tradicional de 'usar y tirar'. ¿Cómo se llama este modelo?",
+      "pregunta": "Es un modelo económico que busca reutilizar y reciclar en vez de desechar. <mark>Es como darle a un producto una segunda vida, en vez de tirarlo</mark>. Se opone al modelo tradicional de 'usar y tirar'. ¿Cómo se llama este modelo?",
       "respuesta": "<mark>Economía circular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/economia-circular.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es la cantidad de gases de efecto invernadero que genera la actividad de una organización. Es como medir el rastro invisible que deja una empresa sobre el clima del planeta. Incluye desde la energía hasta los desplazamientos de sus trabajadores. ¿Cómo se llama este rastro?",
+      "pregunta": "Es la cantidad de gases de efecto invernadero que genera la actividad de una organización. <mark>Es como medir el rastro invisible que deja una empresa sobre el clima</mark>. Incluye desde la energía hasta los desplazamientos de sus trabajadores. ¿Cómo se llama este rastro?",
       "respuesta": "<mark>Huella de carbono</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/huella-carbono.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "En una oficina, separar el papel, el plástico y otros materiales ayuda a reciclarlos correctamente. Es como ordenar la basura de casa, pero aplicado a un entorno de trabajo. También ayuda reducir el uso de papel innecesario. ¿Cómo se llama esta separación de materiales?",
+      "pregunta": "En una oficina, separar el papel, el plástico y otros materiales ayuda a reciclarlos correctamente. <mark>Es como ordenar la basura de casa, pero aplicado a un entorno de trabajo</mark>. También ayuda a reducir el uso de papel innecesario. ¿Cómo se llama esta separación de materiales?",
       "respuesta": "<mark>Gestión de residuos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/reciclaje-papel.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Apagar luces y equipos que no se estén usando, o aprovechar la luz natural, ahorra energía. Es como no dejar el grifo abierto cuando no lo necesitas, pero con la energía. Ahorran dinero y reducen el impacto ambiental. ¿Qué mejoran estas medidas en el trabajo?",
+      "pregunta": "Apagar luces y equipos que no se usen, o aprovechar la luz natural, ahorra recursos. <mark>Es como no dejar el grifo abierto cuando no hace falta</mark>. Ahorra dinero y reduce el impacto ambiental. ¿Qué mejoran estas medidas en el trabajo?",
       "respuesta": "<mark>La eficiencia energética</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/eficiencia-energetica.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es comprar y usar productos pensando en su impacto social y ambiental. Es como elegir con cuidado lo que compras, no solo por precio, sino por sus consecuencias. Incluye evitar el derroche y valorar productos duraderos. ¿Cómo se llama esta forma de comprar?",
+      "pregunta": "Es comprar y usar productos pensando en su impacto social y ambiental. <mark>Es como elegir con cuidado lo que compras, no solo por precio</mark>. Incluye evitar el derroche y valorar productos duraderos. ¿Cómo se llama esta forma de comprar?",
       "respuesta": "<mark>Consumo responsable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/consumo-responsable.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es desplazarse al trabajo de formas que contaminan menos, como caminar, ir en bici o en transporte público. Es como elegir el camino que menos huella deja al llegar a la oficina. ¿Cómo se llama esta forma de desplazarse?",
+      "pregunta": "Es desplazarse al trabajo de formas que contaminan menos, como caminar, ir en bici o en transporte público. <mark>Es como elegir el camino que menos huella deja al llegar a la oficina</mark>. ¿Cómo se llama esta forma de desplazarse?",
       "respuesta": "<mark>Movilidad sostenible</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/movilidad-sostenible.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Cada vez más clientes valoran comprar a empresas responsables con el medio ambiente. Es como ganar puntos extra frente a otras empresas que no se preocupan por ello. También ahorra costes a largo plazo. ¿Qué puede ser la sostenibilidad para una empresa?",
+      "pregunta": "Cada vez más clientes valoran comprar a empresas responsables con el medio ambiente. <mark>Es como ganar puntos extra frente a otras empresas que no se preocupan por ello</mark>. También ahorra costes a largo plazo. ¿Qué puede ser la sostenibilidad para una empresa?",
       "respuesta": "<mark>Una ventaja competitiva</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ventaja-competitiva.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "La sostenibilidad se centra sobre todo en el cuidado ambiental. Este otro concepto, más amplio, incluye también el compromiso social de la empresa. Es como una pieza más dentro de un compromiso todavía mayor con la sociedad. ¿Cómo se llama este compromiso más amplio?",
+      "pregunta": "La sostenibilidad se centra sobre todo en el cuidado ambiental. Este otro concepto, más amplio, incluye también el trato justo a las personas. <mark>Es como una pieza más dentro de un compromiso todavía mayor</mark>. ¿Cómo se llama este compromiso más amplio?",
       "respuesta": "<mark>Responsabilidad social corporativa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/responsabilidad-social.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Fabricar papel consume recursos naturales como agua, energía y madera. Es como ahorrar árboles cada vez que evitas imprimir algo innecesario. Usar documentos digitales reduce ese consumo. ¿Qué conviene reducir en una oficina por esta razón?",
+      "pregunta": "Fabricar papel consume recursos naturales como agua, energía y madera. <mark>Es como ahorrar árboles cada vez que evitas imprimir algo innecesario</mark>. Usar documentos digitales reduce ese consumo. ¿Qué conviene reducir en una oficina por esta razón?",
       "respuesta": "<mark>El papel</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/reducir-papel.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Los hábitos diarios de los trabajadores, como reciclar o ahorrar energía, suman al esfuerzo de la empresa. Es como pequeñas gotas que, juntas, forman un cambio mucho más grande. Una empresa sostenible necesita la implicación de todo su equipo. ¿Quién es clave para lograr la sostenibilidad de una empresa?",
+      "pregunta": "Los hábitos diarios del equipo, como reciclar o ahorrar energía, suman al esfuerzo de la empresa. <mark>Es como pequeñas gotas que, juntas, forman un cambio mucho más grande</mark>. Una empresa sostenible necesita la implicación de todos. ¿Quién es clave para lograr la sostenibilidad de una empresa?",
       "respuesta": "<mark>Los trabajadores</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/papel-trabajadores.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Significa que se ha pensado el impacto ambiental de un producto desde que se fabrica hasta que se desecha. Es como cuidar todas las etapas de la vida de un producto, no solo su fabricación. Incluye producción, uso y reciclaje final. ¿Cómo se llama a esto?",
+      "pregunta": "Significa que se ha pensado el impacto ambiental de un producto, desde que se fabrica hasta que se desecha. <mark>Es como cuidar todas las etapas de un producto, no solo su fabricación</mark>. Incluye producción, uso y reciclaje final. ¿Cómo se llama a esto?",
       "respuesta": "<mark>Ciclo de vida sostenible</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ciclo-vida-producto.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Usar menos energía, agua o materiales suele reducir también los costes. Es como ahorrar dinero al mismo tiempo que ahorras recursos. Esa doble ventaja explica por qué cada vez más empresas la adoptan. ¿Con qué se relaciona la sostenibilidad de una empresa?",
+      "pregunta": "Usar menos energía, agua o materiales suele reducir también los costes. <mark>Es como cuidar el planeta y el bolsillo a la vez</mark>. Esa doble ventaja explica por qué cada vez más empresas la adoptan. ¿Con qué se relaciona la sostenibilidad de una empresa?",
       "respuesta": "<mark>Con el ahorro económico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/ahorro-economico.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Es una oficina que aplica hábitos y decisiones pensadas para reducir su impacto ambiental. Es como una oficina normal, pero con el medio ambiente como criterio constante de decisión. Puede incluir reciclaje o energías renovables. ¿Cómo se llama a este tipo de oficina?",
+      "pregunta": "Es un espacio de trabajo que aplica hábitos y decisiones pensadas para reducir su impacto ambiental. <mark>Es como un lugar de trabajo normal, pero con el medio ambiente como criterio constante</mark>. Puede incluir reciclaje o energías renovables. ¿Cómo se llama a este tipo de oficina?",
       "respuesta": "<mark>Oficina verde</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/oficina-verde.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Cualquier profesión actual necesita tener en cuenta su impacto ambiental. Es como una competencia básica más, útil sea cual sea el trabajo al que te dediques. Se enseña en distintos ciclos formativos. ¿Cómo se considera la sostenibilidad en la nueva Formación Profesional?",
+      "pregunta": "Cualquier profesión actual necesita tener en cuenta su impacto ambiental. <mark>Es como una competencia básica más, útil sea cual sea el trabajo al que te dediques</mark>. Se enseña en distintos ciclos formativos. ¿Cómo se considera la sostenibilidad en la nueva Formación Profesional?",
       "respuesta": "<mark>Un módulo transversal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo/modulo-fp.jpg",

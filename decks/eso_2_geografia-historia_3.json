@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es como si un gran país se hubiera dividido en muchos trozos pequeños. Distintos pueblos germánicos formaron sus propios territorios sobre las tierras romanas, cada uno con sus leyes y costumbres. Ese periodo marca el inicio de la Edad Media. ¿Qué formaron estos pueblos germánicos?",
+      "pregunta": "<mark>Es como si un gran país se hubiera dividido en muchos trozos</mark>. Pueblos germánicos formaron sus propios territorios sobre tierras romanas. Ese periodo marca el inicio de la Edad Media. ¿Qué formaron estos pueblos germánicos?",
       "respuesta": "<mark>Reinos germánicos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/caida-roma.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Intentó reunir de nuevo buena parte de lo que había sido el Imperio romano. Fue un gran imperio creado por un líder franco en Europa occidental, coronado emperador en el año 800. Impulsó la cultura y la educación en su época. ¿Cómo se llamaba este imperio?",
+      "pregunta": "Intentó reunir de nuevo el antiguo Imperio romano. Lo creó un líder franco, <mark>coronado emperador en el año 800</mark>. Impulsó la cultura y la educación de su época. ¿Cómo se llamaba este imperio?",
       "respuesta": "<mark>Imperio carolingio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/imperio-carolingio.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Sobrevivió mil años más que el Imperio romano de Occidente. Fue la continuación del Imperio romano de Oriente, con capital en Constantinopla. Mezcló tradición romana, griega y cristiana. ¿Cómo se llamaba este imperio?",
+      "pregunta": "Sobrevivió mil años más que el Imperio romano de Occidente. Fue la continuación del Imperio romano de Oriente, <mark>con capital en Constantinopla</mark>. Mezcló tradición romana, griega y cristiana. ¿Cómo se llamaba este imperio?",
       "respuesta": "<mark>Imperio bizantino</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/imperio-bizantino.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Sus imágenes religiosas de oro parecen brillar por sí solas. Destaca por sus mosaicos brillantes y sus iglesias con grandes cúpulas, como Santa Sofía. Buscaba acercar lo divino a los fieles. ¿Cómo se llama este arte?",
+      "pregunta": "Sus imágenes religiosas de oro parecen brillar por sí solas. Destaca por sus mosaicos e iglesias con grandes cúpulas, <mark>como Santa Sofía</mark>. Buscaba acercar lo divino a los fieles. ¿Cómo se llama este arte?",
       "respuesta": "<mark>Arte bizantino</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/santa-sofia-interior.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "El Islam se extendió muy rápido desde la península arábiga hacia tres continentes. Combinó conquista militar con la difusión de una nueva religión. Formó uno de los imperios más grandes de la historia. ¿A qué península de Europa llegó en poco más de un siglo?",
+      "pregunta": "<mark>Es como una ola que avanza deprisa y cambia todo a su paso</mark>. El Islam se extendió desde la península arábiga hacia tres continentes. Formó uno de los imperios más grandes de la historia. ¿A qué península de Europa llegó en poco más de un siglo?",
       "respuesta": "<mark>La Península Ibérica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/expansion-islam.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Muchos conocimientos griegos antiguos se conservaron gracias a sabios de esta cultura. Sus ciudades medievales eran centros de comercio y saber, con arte de decoración geométrica y caligrafía. ¿En qué campos desarrolló avances importantes la cultura islámica medieval?",
+      "pregunta": "Muchos conocimientos griegos antiguos se conservaron gracias a sabios de esta cultura. Sus ciudades eran centros de comercio y saber, <mark>con decoración geométrica y caligrafía</mark>. ¿En qué campos avanzó la cultura islámica medieval?",
       "respuesta": "<mark>Medicina, matemáticas y astronomía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/mezquita-cordoba.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es como un contrato: tierra y protección a cambio de fidelidad y servicio. Un señor cedía tierras a un vasallo a cambio de su ayuda. Fue el sistema típico de buena parte de la Europa medieval. ¿Cómo se llama este sistema?",
+      "pregunta": "<mark>Es como un contrato: tierra y protección a cambio de fidelidad</mark>. Un señor cedía tierras a un vasallo a cambio de ayuda. Fue el sistema típico de buena parte de la Europa medieval. ¿Cómo se llama este sistema?",
       "respuesta": "<mark>Feudalismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/feudalismo.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Uno era el noble que poseía tierras y protegía a su gente. El otro le juraba fidelidad y le ayudaba, sobre todo en la guerra, a cambio de tierras para vivir. Esa lealtad mutua sostenía todo el sistema feudal. ¿Cómo se llamaban estas dos figuras?",
+      "pregunta": "<mark>Es como un jefe y su ayudante de confianza, unidos por un pacto</mark>. Uno poseía tierras y protegía a su gente. El otro juraba fidelidad y ayudaba, sobre todo en la guerra. ¿Cómo se llamaban estas dos figuras?",
       "respuesta": "<mark>Señor feudal y vasallo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/senor-vasallo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Nacer noble, clérigo o campesino decidía casi toda tu vida futura. Dividía a las personas en grupos fijos, según su nacimiento: nobleza, clero y campesinado. Cambiar de grupo era muy difícil, casi imposible. ¿Cómo se llama esta forma de organizar la sociedad?",
+      "pregunta": "Nacer noble, clérigo o campesino decidía casi toda tu vida. Dividía a las personas en grupos fijos: <mark>nobleza, clero y campesinado</mark>. Cambiar de grupo era casi imposible. ¿Cómo se llama esta forma de organizar la sociedad?",
       "respuesta": "<mark>Sociedad estamental</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/sociedad-estamental.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Poseía tierras y cobraba impuestos, casi como un señor feudal más. Explicaba el mundo a través de la religión, algo muy importante entonces. Sus monasterios conservaron libros y conocimientos durante siglos. ¿Qué tipo de poder tenía la Iglesia medieval, además del religioso?",
+      "pregunta": "Poseía tierras y cobraba impuestos, <mark>casi como un señor feudal más</mark>. Explicaba el mundo a través de la religión. Sus monasterios conservaron libros y conocimientos durante siglos. ¿Qué tipo de poder tenía la Iglesia medieval, además del religioso?",
       "respuesta": "<mark>Poder político y económico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/iglesia-sociedad.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "A cambio, recibían protección frente a peligros y ataques. Eran la mayoría de la población, pero tenían pocos derechos. Su trabajo sostenía a toda la sociedad feudal. ¿Qué hacían los campesinos a cambio de esa protección?",
+      "pregunta": "<mark>Es como pagar alquiler trabajando la tierra en vez de con dinero</mark>. A cambio, los campesinos recibían protección frente a peligros. Eran la mayoría de la población, con pocos derechos. ¿Qué hacían los campesinos a cambio de esa protección?",
       "respuesta": "<mark>Trabajar la tierra del señor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/iglesia-romanica-zamora.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Sus iglesias tienen muros gruesos y ventanas pequeñas, como fortalezas. Es el primer gran estilo artístico de la Europa medieval cristiana. Se extendió por los caminos de peregrinación, como el Camino de Santiago. ¿Cómo se llama este estilo?",
+      "pregunta": "Sus iglesias tienen muros gruesos y ventanas pequeñas, <mark>como fortalezas</mark>. Es el primer gran estilo artístico de la Europa medieval cristiana. Se extendió por los caminos de peregrinación. ¿Cómo se llama este estilo?",
       "respuesta": "<mark>Arte románico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/arte-romanico.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es como construir con paredes gordas para que no se derrumbe nada. Sostenían techos de piedra muy pesados, porque aún no existían técnicas para edificios más ligeros. Esa solidez también transmitía seguridad a quien entraba a rezar. ¿Qué tenían las iglesias románicas que las hacía tan sólidas?",
+      "pregunta": "<mark>Es como construir con paredes gordas para que nada se derrumbe</mark>. Sostenían techos de piedra muy pesados. Esa solidez también daba seguridad a quien entraba a rezar. ¿Qué tenían las iglesias románicas que las hacía tan sólidas?",
       "respuesta": "<mark>Muros gruesos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/iglesias-solidas-12.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Los reinos germánicos eran más pequeños y con menos organización estatal. El Imperio bizantino, en cambio, conservaba algo mucho más organizado, y siguió siendo una potencia rica durante siglos. ¿Qué conservaba Bizancio que los reinos germánicos tardaron más en tener?",
+      "pregunta": "<mark>Es como comparar un taller pequeño con una gran empresa organizada</mark>. Los reinos germánicos eran pequeños y con poca organización estatal. Bizancio conservaba algo mucho más organizado y siguió siendo rico durante siglos. ¿Qué conservaba Bizancio que los reinos germánicos tardaron más en tener?",
       "respuesta": "<mark>Una administración organizada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/reino-bizancio-diferencia.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Fue como un puente que guardó la cultura griega y romana antigua hasta que Europa la redescubrió. Su arte influyó en Rusia y en gran parte de Europa del Este. Su tradición religiosa dio origen a una nueva rama del cristianismo. ¿Qué iglesia nació de la tradición bizantina?",
+      "pregunta": "<mark>Fue como un puente que guardó la cultura griega y romana antigua</mark>. Su arte influyó en Rusia y en gran parte de Europa del Este. Su tradición religiosa dio origen a una nueva rama del cristianismo. ¿Qué iglesia nació de la tradición bizantina?",
       "respuesta": "<mark>Iglesia ortodoxa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/legado-bizantino.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "La civilización islámica medieval transmitió avances en ciencia, medicina y matemáticas a través de España. También dejó edificios y técnicas artísticas todavía visibles hoy. ¿Qué tipo de palabras españolas vienen del árabe?",
+      "pregunta": "<mark>Es como encontrar huellas escondidas dentro de nuestro propio idioma</mark>. La civilización islámica medieval transmitió avances en ciencia, medicina y matemáticas. También dejó edificios y técnicas artísticas todavía visibles hoy. ¿Qué tipo de palabras españolas vienen del árabe?",
       "respuesta": "<mark>Palabras que empiezan por 'al-'</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_3/legado-islam.jpg",

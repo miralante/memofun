@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un proyecto donde el alumnado crea y gestiona una empresa ficticia, como si fuera real. Es como jugar a 'ser una empresa de verdad', aplicando lo aprendido en otros módulos. No hay dinero ni productos reales, pero sí procesos administrativos reales. ¿Cómo se llama este proyecto?",
+      "pregunta": "Es un proyecto donde el alumnado crea y gestiona un negocio ficticio, como si fuera real. <mark>Es como jugar a que eso es de verdad, aplicando lo aprendido en clase</mark>. No hay dinero real, pero sí procesos administrativos reales. ¿Cómo se llama este proyecto?",
       "respuesta": "<mark>Empresa simulada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/aula-clase.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Para poner en marcha una empresa simulada hay que decidir su nombre, su forma jurídica y quién hace cada tarea. Es como poner en marcha una empresa real desde cero, pero dentro del aula. Se reparten responsabilidades como en una empresa de verdad. ¿Cómo se llama este primer paso?",
+      "pregunta": "Para poner esto en marcha hay que decidir el nombre, la forma jurídica y quién hace cada tarea. <mark>Es como montar un negocio real desde cero, pero dentro del aula</mark>. Se reparten responsabilidades como en la vida real. ¿Cómo se llama este primer paso?",
       "respuesta": "<mark>Constitución de la empresa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Se decide qué producto o servicio va a 'vender' la empresa ficticia. Es como decidir a qué se va a dedicar un negocio antes de abrirlo. Esa elección condiciona el resto de decisiones del proyecto. ¿Qué se elige en este paso?",
+      "pregunta": "Se decide qué producto o servicio va a 'vender' la empresa ficticia. <mark>Es como decidir a qué se va a dedicar un negocio antes de abrirlo</mark>. Esa elección condiciona el resto del proyecto. ¿Qué se elige en este paso?",
       "respuesta": "<mark>La actividad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/pizarra-ideas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Una empresa simulada suele tener compras, ventas, administración y recursos humanos, entre otros. Es como repartir el trabajo de una empresa real entre distintos equipos. Cada uno se encarga de una parte concreta de la actividad. ¿Cómo se llama cada uno de estos equipos?",
+      "pregunta": "Una empresa simulada suele tener compras, ventas y recursos humanos, entre otros. <mark>Es como repartir el trabajo de una empresa real entre varios equipos</mark>. Cada uno se encarga de una parte concreta. ¿Cómo se llama cada uno de estos equipos?",
       "respuesta": "<mark>Departamentos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Consiste en crear y organizar los documentos que generaría una empresa real: facturas, pedidos o cartas. Es como aplicar todo lo aprendido de documentos comerciales, pero en un caso práctico completo. ¿Cómo se llama esta tarea?",
+      "pregunta": "Consiste en crear y organizar los papeles que generaría una empresa real: facturas, pedidos o cartas. <mark>Es como aplicar en un caso práctico completo todo lo aprendido en clase</mark>. ¿Cómo se llama esta tarea?",
       "respuesta": "<mark>Gestión documental</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/factura.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Al simular la relación con proveedores se practican pedidos, negociaciones y la recepción de mercancía, aunque sea ficticia. Es como ensayar cómo sería tratar con un proveedor real, sin el riesgo de un error real. ¿Con quién se simula esta relación?",
+      "pregunta": "Al simular esta relación se practican pedidos, negociaciones y la recepción de mercancía, aunque sea ficticia. <mark>Es como ensayar una relación comercial real, sin el riesgo de un error real</mark>. ¿Con quién se simula esta relación?",
       "respuesta": "<mark>Con los proveedores</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reparto-paquetes.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Al simular la relación con clientes se practica atender consultas, gestionar pedidos y resolver quejas. Es como ponerse en el lugar de quien atiende a un cliente de verdad. Esa experiencia resulta muy útil de cara a un futuro trabajo real. ¿Con quién se simula esta relación?",
+      "pregunta": "Al simular esta relación se practica atender consultas, gestionar pedidos y resolver quejas. <mark>Es como ponerse en el lugar de quien atiende al público de verdad</mark>. Resulta muy útil para un futuro trabajo real. ¿Con quién se simula esta relación?",
       "respuesta": "<mark>Con los clientes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/recepcion-atencion.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Presentar productos o servicios sirve para practicar cómo comunicar de forma atractiva lo que ofrece la empresa. Es como preparar un pequeño discurso de ventas, aunque el producto no sea real. Ayuda a desarrollar habilidades de comunicación. ¿Para qué sirve esta presentación?",
+      "pregunta": "Presentar productos o servicios sirve para comunicar de forma atractiva lo que ofrece la empresa. <mark>Es como preparar un pequeño discurso de ventas, aunque el producto no sea real</mark>. Ayuda a desarrollar habilidades de comunicación. ¿Para qué sirve esta presentación?",
       "respuesta": "<mark>Para practicar la comunicación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/pizarra-ideas.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "En este tipo de venta se completa todo el proceso: pedido, entrega y cobro, de forma ficticia. Es como recorrer el camino completo de una venta real, pero sin dinero de por medio. ¿Cómo se llama este tipo de venta?",
+      "pregunta": "En este tipo de venta se completa todo el proceso: pedido, entrega y cobro, de forma ficticia. <mark>Es como recorrer el camino completo de una compra real, pero sin dinero de por medio</mark>. ¿Cómo se llama este tipo de venta?",
       "respuesta": "<mark>Venta simulada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/caja-registradora.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Comprobar si se van cumpliendo los objetivos marcados al principio del proyecto es importante. Es como revisar de vez en cuando si un viaje va según lo planeado. Permite corregir errores antes de que sean un problema mayor. ¿Cómo se llama esta revisión continua?",
+      "pregunta": "Comprobar si se cumplen los objetivos marcados al principio es importante. <mark>Es como revisar de vez en cuando si un viaje va según lo planeado</mark>. Permite corregir errores a tiempo. ¿Cómo se llama esta revisión continua?",
       "respuesta": "<mark>Seguimiento del proyecto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Al final del proyecto se valora qué se ha aprendido y cómo ha funcionado todo el proceso. Es como hacer balance al final de un proyecto, para aprender de la experiencia. Ayuda a identificar qué se podría mejorar. ¿Cómo se llama esta fase final?",
+      "pregunta": "Al final se valora qué se ha aprendido y cómo ha funcionado todo el proceso. <mark>Es como hacer balance al final de un proyecto, para aprender de la experiencia</mark>. Ayuda a identificar qué mejorar. ¿Cómo se llama esta fase final?",
       "respuesta": "<mark>Evaluación y cierre</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "'Empresa en el aula' combina lo aprendido en comunicación, contabilidad, informática y compraventa. Es como el examen final que junta piezas sueltas de distintas asignaturas en un mismo proyecto. ¿Qué hace este proyecto con los demás módulos del ciclo?",
+      "pregunta": "'Empresa en el aula' combina lo aprendido en comunicación, contabilidad, informática y compraventa. <mark>Es como el examen final que junta piezas sueltas de varias asignaturas</mark>. ¿Qué hace este proyecto con los demás módulos del ciclo?",
       "respuesta": "<mark>Los integra</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "En estos proyectos se desarrolla especialmente el trabajo en equipo, la organización y la resolución de problemas reales. Son habilidades que no se aprenden solo leyendo, sino haciendo. Ayudan a preparar mejor para el mundo laboral. ¿Qué tipo de habilidades se desarrollan aquí?",
+      "pregunta": "En estos proyectos se desarrolla el trabajo en equipo, la organización y la resolución de problemas reales. <mark>No se aprenden solo leyendo, sino haciendo</mark>. Preparan mejor para el mundo laboral. ¿Qué tipo de habilidades se desarrollan aquí?",
       "respuesta": "<mark>Habilidades prácticas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "En una empresa simulada, se puede aprender de los errores sin las consecuencias económicas de una empresa real. Es como practicar en una pista de pruebas antes de conducir en la carretera de verdad. ¿Qué ventaja tiene equivocarse en una empresa simulada?",
+      "pregunta": "En una empresa simulada, se aprende de los errores sin las consecuencias económicas de una empresa real. <mark>Es como practicar en una pista de pruebas antes de conducir en la carretera de verdad</mark>. ¿Qué ventaja tiene equivocarse en una empresa simulada?",
       "respuesta": "<mark>Aprender sin riesgo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/aula-clase.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Las decisiones de un departamento afectan a los demás, así que coordinarse es fundamental. Es como un engranaje: si una pieza no encaja bien, afecta a todo el mecanismo. ¿Qué papel tiene la coordinación entre departamentos?",
+      "pregunta": "Las decisiones de un departamento afectan a los demás, así que coordinarse importa mucho. <mark>Es como un engranaje: si una pieza no encaja, afecta a todo el mecanismo</mark>. ¿Qué papel tiene la coordinación entre departamentos?",
       "respuesta": "<mark>Es fundamental</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/engranajes.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "En ella, distintos centros educativos conectan sus empresas simuladas entre sí. Es como comerciar de verdad con otras 'empresas' de otros institutos. Hace la experiencia más parecida a un entorno real. ¿Cómo se llama esta conexión entre centros?",
+      "pregunta": "En ella, distintos centros educativos conectan sus proyectos simulados entre sí. <mark>Es como comerciar de verdad con negocios ficticios de otros institutos</mark>. Hace la experiencia más parecida a la realidad. ¿Cómo se llama esta conexión entre centros?",
       "respuesta": "<mark>Red de empresas simuladas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/campus-red.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "A lo largo del proyecto se generan pedidos, albaranes, facturas, cartas comerciales y nóminas, entre otros. Es prácticamente todo el ciclo documental de una empresa, aplicado a un caso concreto. ¿Qué se genera a lo largo de todo el proyecto?",
+      "pregunta": "A lo largo del proyecto se generan pedidos, albaranes, facturas, cartas y nóminas ficticias. <mark>Es como el rastro de papel que deja cualquier negocio real</mark>. ¿Qué se genera a lo largo de todo el proyecto?",
       "respuesta": "<mark>Documentos administrativos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/cuadernos-documentos.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "'Empresa en el aula' simula muchas de las tareas que se realizarán después en una empresa real. Es como un ensayo general antes de la función de verdad. Ayuda a llegar con más seguridad a las prácticas en empresas. ¿Para qué prepara especialmente bien este proyecto?",
+      "pregunta": "'Empresa en el aula' simula muchas tareas que se harán después en un trabajo real. <mark>Es como un ensayo general antes de la función de verdad</mark>. Ayuda a llegar con más seguridad a las prácticas. ¿Para qué prepara especialmente bien este proyecto?",
       "respuesta": "<mark>Para las prácticas en empresas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/practicas-empresa.jpg",

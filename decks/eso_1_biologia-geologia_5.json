@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el conjunto formado por los seres vivos de un lugar y su entorno físico. Es como una gran comunidad donde todos, incluso el aire y el agua, están conectados. Cambiar una parte afecta casi siempre al resto. ¿Cómo se llama este conjunto?",
+      "pregunta": "Es el conjunto formado por los seres vivos de un lugar y su entorno físico. <mark>Es como una gran comunidad donde todo está conectado</mark>. ¿Cómo se llama este conjunto?",
       "respuesta": "<mark>Ecosistema</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/ecosistema-bosque.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Son todos los seres vivos que forman parte de un ecosistema. Incluyen plantas, animales, hongos y microorganismos, todos interactuando entre sí. Se relacionan comiendo, compitiendo o ayudándose mutuamente. ¿Cómo se llaman estos elementos con vida?",
+      "pregunta": "Son todos los seres vivos de un ecosistema, <mark>plantas, animales, hongos y microorganismos</mark>. Se relacionan comiendo, compitiendo o ayudándose. ¿Cómo se llaman estos elementos con vida?",
       "respuesta": "<mark>Componentes bióticos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/fauna-silvestre.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Son los elementos sin vida que forman parte de un entorno, como el agua, el aire o la luz. Son como el escenario donde los seres vivos representan su papel. Un cambio en ellos afecta a toda la vida del ecosistema. ¿Cómo se llaman estos elementos sin vida?",
+      "pregunta": "Son los elementos sin vida de un entorno, como el agua, el aire o la luz. <mark>Son como el escenario donde los seres vivos actúan</mark>. ¿Cómo se llaman estos elementos sin vida?",
       "respuesta": "<mark>Componentes abióticos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/paisaje-desertico.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Un tipo de ecosistema se desarrolla sobre tierra firme, como un bosque o un desierto. El otro se desarrolla dentro del agua, como un río o un océano. Cada uno tiene especies adaptadas a esas condiciones. ¿Cómo se llama cada tipo de ecosistema?",
+      "pregunta": "Un tipo de ecosistema se desarrolla sobre tierra firme, <mark>como un bosque o un desierto</mark>. El otro vive dentro del agua, como un río. ¿Cómo se llama cada tipo de ecosistema?",
       "respuesta": "<mark>Terrestre y acuático</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/rio-duero.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Proporciona el oxígeno necesario para respirar y regula la temperatura del planeta. Es como una manta protectora que envuelve la Tierra entera. También filtra parte de la radiación solar peligrosa. ¿Cómo se llama esta capa protectora?",
+      "pregunta": "Da el oxígeno para respirar y regula la temperatura del planeta. <mark>Es como una manta protectora que envuelve la Tierra</mark>. ¿Cómo se llama esta capa protectora?",
       "respuesta": "<mark>Atmósfera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/cielo-atmosfera.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es la presencia de gases y partículas dañinas en el aire. Es como llenar poco a poco de humo una habitación cerrada. La producen sobre todo los vehículos, las fábricas y las centrales energéticas. ¿Cómo se llama este problema?",
+      "pregunta": "Es la presencia de gases y partículas dañinas en el aire. <mark>Es como llenar de humo una habitación cerrada</mark>, poco a poco. ¿Cómo se llama este problema?",
       "respuesta": "<mark>Contaminación atmosférica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/contaminacion-humo.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Aporta el agua necesaria para todos los seres vivos del planeta. Es como el sistema de riego que mantiene con vida a todo un jardín enorme. Incluye océanos, ríos, lagos y aguas subterráneas. ¿Cómo se llama este conjunto de agua del planeta?",
+      "pregunta": "Aporta el agua necesaria para todos los seres vivos del planeta. <mark>Es como el sistema de riego de un jardín enorme</mark>. ¿Cómo se llama este conjunto de agua del planeta?",
       "respuesta": "<mark>Hidrosfera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/riego-agua.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es la presencia de sustancias dañinas en ríos, mares o aguas subterráneas. Es como ensuciar la fuente de la que beben todos los seres vivos de una zona. Puede venir de residuos industriales, agrícolas o urbanos. ¿Cómo se llama este problema?",
+      "pregunta": "Es la presencia de sustancias dañinas en ríos, mares o aguas subterráneas. <mark>Es como ensuciar la fuente de la que todos beben</mark>. ¿Cómo se llama este problema?",
       "respuesta": "<mark>Contaminación del agua</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/contaminacion-agua-residuos.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Se forma por la interacción entre las rocas, el clima y los seres vivos durante mucho tiempo. Es como una receta lenta que mezcla roca triturada, agua y restos de vida. Formar una capa fina de suelo fértil puede tardar siglos. ¿Cómo se llama este proceso de formación?",
+      "pregunta": "Se forma por la interacción entre rocas, clima y seres vivos, durante mucho tiempo. <mark>Es como una receta lenta con roca triturada, agua y restos de vida</mark>. ¿Cómo se llama este proceso de formación?",
       "respuesta": "<mark>Edafogénesis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/suelo-capas.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "En él crecen las plantas que alimentan a la mayoría de los seres vivos. Es como la despensa de la que depende casi toda la cadena alimentaria. Un ejemplar dañado tarda muchísimo tiempo en recuperarse. ¿Qué es tan importante cuidar como el agua o el aire?",
+      "pregunta": "En él crecen las plantas que alimentan a la mayoría de los seres vivos. <mark>Es como la despensa de toda la cadena alimentaria</mark>. ¿Qué es tan importante cuidar como el agua o el aire?",
       "respuesta": "<mark>El suelo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/campo-cultivo.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. Es como si la Tierra tuviera fiebre y esa fiebre no bajara. Está provocado en gran parte por la actividad humana. ¿Cómo se llama este fenómeno?",
+      "pregunta": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre que no baja</mark>. ¿Cómo se llama este fenómeno?",
       "respuesta": "<mark>Cambio climático</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/tierra-agrietada.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "El cambio climático provoca sequías, inundaciones y olas de calor. Es como si el clima se volviera más impredecible y más brusco cada vez. También afecta a la biodiversidad, empujando a especies a adaptarse o desaparecer. ¿Qué tipo de fenómenos causa el cambio climático?",
+      "pregunta": "El cambio climático provoca <mark>sequías, inundaciones y olas de calor</mark>. El clima se vuelve más impredecible y más brusco. ¿Qué tipo de fenómenos causa el cambio climático?",
       "respuesta": "<mark>Fenómenos extremos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/inundacion.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Muchos gases y residuos agravan problemas como el cambio climático. Es como añadir más leña a un fuego que ya estaba ardiendo. Reducir esas emisiones ayuda a frenar el deterioro del planeta. ¿Qué es clave limitar para cuidar el medio ambiente?",
+      "pregunta": "Muchos gases y residuos agravan problemas como el cambio climático. <mark>Es como añadir más leña a un fuego que ya ardía</mark>. ¿Qué es clave limitar para cuidar el medio ambiente?",
       "respuesta": "<mark>La contaminación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/trafico-atasco.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Son costumbres diarias que reducen el impacto ambiental de una persona. Es como elegir el camino que menos huella deja al caminar. Reciclar, ahorrar agua o usar transporte público son ejemplos. ¿Cómo se llaman estas costumbres?",
+      "pregunta": "Son costumbres diarias que reducen el impacto ambiental de una persona, <mark>como reciclar o ahorrar agua</mark>. ¿Cómo se llaman estas costumbres?",
       "respuesta": "<mark>Hábitos sostenibles</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/reciclaje.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Significa que la salud humana, animal y ambiental están conectadas entre sí. Es como entender que cuidar el bosque también es cuidar tu propia salud. Un ecosistema enfermo puede acabar afectando también a las personas. ¿Cómo se llama esta idea?",
+      "pregunta": "Significa que la salud humana, animal y ambiental están conectadas. <mark>Cuidar el bosque es también cuidar tu propia salud</mark>. ¿Cómo se llama esta idea?",
       "respuesta": "<mark>Una sola salud</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/veterinario-perro.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Una forma de generar electricidad limpia es aprovechando la luz del sol con paneles. Es uno de los pasos pequeños que, sumados, ayudan a frenar el deterioro del planeta. Reciclar y proteger espacios naturales son otros ejemplos. ¿Qué tipo de energía limpia es esta?",
+      "pregunta": "Una forma de generar electricidad limpia es <mark>aprovechar la luz del sol con paneles</mark>. Es uno de los pasos que ayudan a frenar el deterioro del planeta. ¿Qué tipo de energía limpia es esta?",
       "respuesta": "<mark>Energía solar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_5/panel-solar.jpg",

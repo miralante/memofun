@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Acoger, entender la necesidad, ofrecer una solución y despedirse bien son sus pasos. Es como seguir una receta paso a paso, sin saltarte ninguno. ¿Cómo se llaman estos pasos en conjunto?",
+      "pregunta": "Acoger, entender la necesidad, ofrecer una solución y despedirse bien. <mark>Es como seguir una receta, paso a paso</mark>. ¿Cómo se llaman estos pasos en conjunto?",
       "respuesta": "<mark>Fases de atención al cliente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/fases-atencion-cliente.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Cada persona busca algo distinto, aunque entre en la misma tienda. Es como servir la misma comida a personas con gustos diferentes: no a todos les sienta igual de bien. ¿Qué conviene identificar en cada cliente?",
+      "pregunta": "Cada persona busca algo distinto, aunque entre en la misma tienda. <mark>Es como servir la misma comida a gustos diferentes</mark>. ¿Qué conviene identificar en cada cliente?",
       "respuesta": "<mark>Su necesidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/identificar-necesidad.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Se identifica escuchando con atención y haciendo preguntas si hace falta. Es como investigar un poco antes de ofrecer una solución. ¿Qué conviene hacer para saber qué necesita un cliente?",
+      "pregunta": "Se descubre haciendo preguntas si hace falta. <mark>Es como investigar un poco antes de ofrecer una solución</mark>. ¿Qué conviene hacer para saber qué necesita un cliente?",
       "respuesta": "<mark>Escuchar con atención</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/como-identificar.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Son formas de ayudar al cliente a decidir, sin presionarle de más. Es como aconsejar a un amigo, no como intentar convencerle a toda costa. ¿Cómo se llaman estas formas de ayudar?",
+      "pregunta": "Ayudan al cliente a decidir, sin presionarlo de más. <mark>Es como aconsejar a un amigo, no convencerlo a toda costa</mark>. ¿Cómo se llaman estas formas de ayudar?",
       "respuesta": "<mark>Técnicas de venta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/tecnicas-venta.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Significa ofrecer información útil, sin insistir demasiado si el cliente duda. Es como acompañar a alguien mientras decide, sin empujarle hacia una opción. ¿Cómo se llama hacer esto?",
+      "pregunta": "Significa dar información útil, sin insistir si el cliente duda. <mark>Es como acompañar a alguien mientras decide, sin empujarlo</mark>. ¿Cómo se llama hacer esto?",
       "respuesta": "<mark>Aconsejar sin agobiar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/aconsejar-sin-agobiar.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Genera desconfianza y hace que la persona se sienta incómoda. Es como si alguien insistiera demasiado en convencerte de algo, y eso te hiciera dudar más. ¿Qué puede alejar a un cliente?",
+      "pregunta": "Genera desconfianza y hace que la persona se sienta incómoda. <mark>Es como si alguien insistiera demasiado en convencerte</mark>. ¿Qué puede alejar a un cliente?",
       "respuesta": "<mark>La presión excesiva</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/presion-excesiva.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es reunir y organizar los productos que un cliente ha solicitado, listos para su entrega. Es como hacer la maleta antes de un viaje, comprobando que no falte nada. ¿Cómo se llama hacer esto?",
+      "pregunta": "Es reunir y organizar lo que un cliente ha solicitado, listo para su entrega. <mark>Es como hacer la maleta antes de un viaje, sin que falte nada</mark>. ¿Cómo se llama hacer esto?",
       "respuesta": "<mark>Preparar un pedido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/preparar-pedido.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Un pedido desordenado puede llevar a olvidar productos o a confundirlos. Es como seguir una lista de la compra para no olvidarte de nada. ¿Qué importa al preparar un pedido?",
+      "pregunta": "Un pedido desordenado puede llevar a olvidar o confundir productos. <mark>Es como seguir una lista de la compra sin olvidarte de nada</mark>. ¿Qué importa al preparar un pedido?",
       "respuesta": "<mark>El orden</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/orden-pedido.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Productos frágiles, perecederos o de gran tamaño necesitan una manipulación distinta. No se maneja igual una caja de cristal que un saco de arroz. ¿Qué tipo de mercancía requiere cuidado especial?",
+      "pregunta": "Necesitan una manipulación distinta según su tipo. <mark>No se maneja igual una caja de cristal que un saco de arroz</mark>. ¿Qué tipo de mercancía requiere cuidado especial?",
       "respuesta": "<mark>Frágil o perecedera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/mercancia-cuidado.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Se manipulan con cuidado, usando protección adecuada y evitando golpes o caídas. Es como llevar algo delicado con las dos manos, prestando atención constante. ¿Cómo se deben manipular los productos frágiles?",
+      "pregunta": "Se manipulan usando protección adecuada, evitando golpes o caídas. <mark>Es como llevar algo delicado con las dos manos</mark>, con atención constante. ¿Cómo se deben manipular los productos frágiles?",
       "respuesta": "<mark>Con cuidado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/manipular-fragiles.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es guardar cada producto en las condiciones que necesita para no estropearse. Es como guardar la comida en la nevera o en la despensa, según lo que sea. ¿Cómo se llama hacer esto?",
+      "pregunta": "Es guardar cada producto en las condiciones que necesita. <mark>Es como guardar la comida en la nevera o en la despensa</mark>. ¿Cómo se llama hacer esto?",
       "respuesta": "<mark>Conservación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/conservacion-tipos.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Una mala conservación puede estropear la mercancía antes de venderla. Es como dejar comida fuera de la nevera y que se estropee antes de tiempo. ¿Qué conviene respetar siempre con cada producto?",
+      "pregunta": "Una mala conservación puede estropear la mercancía antes de venderla. <mark>Es como dejar comida fuera de la nevera y que se estropee</mark>. ¿Qué conviene respetar siempre con cada producto?",
       "respuesta": "<mark>Su conservación adecuada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/respetar-conservacion.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Una la hace una persona; la otra la realizan máquinas o sistemas informáticos. Es como elegir entre hacer algo a mano o con ayuda de una máquina. ¿Cómo se llaman estos dos tipos de preparación de pedidos?",
+      "pregunta": "Una la hace una persona; la otra la hacen máquinas o sistemas. <mark>Es como elegir entre hacer algo a mano o con una máquina</mark>. ¿Cómo se llaman estos dos tipos de preparación de pedidos?",
       "respuesta": "<mark>Manual y automática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/manual-vs-automatica.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Permite más atención al detalle en pedidos pequeños o especiales. Es como hacer algo a medida, cuidando cada paso de cerca. ¿Qué tipo de preparación tiene esta ventaja?",
+      "pregunta": "Permite más atención al detalle en pedidos pequeños o especiales. <mark>Es como hacer algo a medida, cuidando cada paso</mark>. ¿Qué tipo de preparación tiene esta ventaja?",
       "respuesta": "<mark>La preparación manual</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/ventajas-manual.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Permite preparar muchos pedidos en poco tiempo, con menos errores humanos. Es como tener una máquina que repite el mismo proceso una y otra vez sin cansarse. ¿Qué tipo de preparación tiene esta ventaja?",
+      "pregunta": "Permite preparar muchos pedidos rápido, con menos errores humanos. <mark>Es como una máquina que repite el proceso sin cansarse</mark>. ¿Qué tipo de preparación tiene esta ventaja?",
       "respuesta": "<mark>La preparación automática</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/ventajas-automatica.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Un error, como un producto equivocado, genera una mala experiencia para el cliente. Es como comprobar la maleta antes de cerrarla, para no olvidar nada. ¿Qué conviene hacer antes de enviar un pedido?",
+      "pregunta": "Un error, como un producto equivocado, genera mala experiencia. <mark>Es como comprobar la maleta antes de cerrarla</mark>, para no olvidar nada. ¿Qué conviene hacer antes de enviar un pedido?",
       "respuesta": "<mark>Revisarlo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos/revisar-pedido.jpg",

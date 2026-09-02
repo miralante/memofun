@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es una alimentación que combina distintos tipos de alimentos en proporciones adecuadas. Es como un puzle donde cada pieza aporta algo distinto y necesario. Incluye frutas, verduras, proteínas y cereales, entre otros. ¿Cómo se llama este tipo de alimentación?",
+      "pregunta": "Es una alimentación que combina distintos alimentos en proporciones adecuadas. <mark>Es como un puzle donde cada pieza aporta algo necesario</mark>. ¿Cómo se llama este tipo de alimentación?",
       "respuesta": "<mark>Dieta equilibrada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/cena-saludable.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Son las sustancias de los alimentos que el cuerpo necesita para funcionar. Son como el combustible y los materiales de construcción de tu propio cuerpo. Incluyen proteínas, grasas, hidratos de carbono, vitaminas y minerales. ¿Cómo se llaman estas sustancias?",
+      "pregunta": "Son las sustancias de los alimentos que el cuerpo necesita para funcionar. <mark>Son el combustible y los materiales de tu cuerpo</mark>. ¿Cómo se llaman estas sustancias?",
       "respuesta": "<mark>Nutrientes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/frutas-verduras.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es un problema de salud relacionado con la forma de comer o de verse a uno mismo. No es solo 'comer mal': afecta también a las emociones y a la autoestima. Pedir ayuda a tiempo es fundamental para superarlo. ¿Cómo se llama este problema de salud?",
+      "pregunta": "Es un problema de salud relacionado con la forma de comer o de verse a uno mismo. <mark>Afecta también a las emociones y a la autoestima</mark>, no solo al cuerpo. Pedir ayuda a tiempo es clave. ¿Cómo se llama este problema de salud?",
       "respuesta": "<mark>Trastorno alimentario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/apoyo-conversacion.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Las redes sociales muestran muchas imágenes que no siempre reflejan la realidad. Es fácil compararse con fotos retocadas y sentir que uno no encaja. Mirarlas con sentido crítico ayuda a cuidar la salud mental. ¿Qué puede verse afectado por esas comparaciones constantes?",
+      "pregunta": "Las redes sociales muestran imágenes que no siempre reflejan la realidad. <mark>Es fácil compararse con fotos retocadas</mark> y sentir que uno no encaja. ¿Qué puede verse afectado por esas comparaciones constantes?",
       "respuesta": "<mark>La autoestima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/movil-redes.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Significa que ambas personas tienen el mismo valor y los mismos derechos en la relación. Es como repartir siempre a partes iguales, sin que nadie mande más que el otro. Incluye respetar los sentimientos, los límites y las decisiones del otro. ¿Cómo se llama esto en una relación?",
+      "pregunta": "Significa que ambas personas tienen el mismo valor y los mismos derechos. <mark>Es como repartir siempre a partes iguales</mark>, sin que nadie mande más. ¿Cómo se llama esto en una relación?",
       "respuesta": "<mark>Igualdad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/pareja-igualdad.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Ayuda a entender mejor las propias emociones y a relacionarse con respeto. Es un tema tan normal como cualquier otro relacionado con la salud. Hablarlo con naturalidad evita mitos y desinformación. ¿Qué tipo de información ayuda a decidir con más seguridad sobre esto?",
+      "pregunta": "Ayuda a entender mejor las propias emociones y a relacionarse con respeto. Es un tema tan normal como cualquier otro de salud. <mark>Hablarlo con naturalidad evita mitos y desinformación</mark>. ¿Qué tipo de información ayuda a decidir con más seguridad sobre esto?",
       "respuesta": "<mark>Información fiable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/profesor-alumno.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Afecta al sistema nervioso, alterando reflejos, juicio y coordinación. Es como intentar conducir con la vista nublada, sin darte cuenta del todo. Su consumo prolongado puede dañar seriamente órganos como el hígado. ¿Qué sustancia produce estos efectos en el cuerpo?",
+      "pregunta": "Afecta al sistema nervioso: altera reflejos, juicio y coordinación. <mark>Es como conducir con la vista nublada</mark>, sin darte cuenta. ¿Qué sustancia produce estos efectos en el cuerpo?",
       "respuesta": "<mark>Alcohol</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/cerveza.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Daña los pulmones y el sistema circulatorio con el paso del tiempo. Es como llenar de humo, poco a poco, un espacio pensado para respirar limpio. Contiene sustancias que generan una fuerte dependencia. ¿Qué sustancia produce estos efectos en el cuerpo?",
+      "pregunta": "Daña los pulmones y el sistema circulatorio con el tiempo. <mark>Es como llenar de humo un espacio pensado para respirar limpio</mark>. ¿Qué sustancia produce estos efectos en el cuerpo?",
       "respuesta": "<mark>Tabaco</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/humo-cigarrillo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Alteran el funcionamiento del cerebro y del cuerpo de forma imprevisible. Es como jugar con las reglas de tu propio cuerpo sin saber cuáles son. Sus efectos varían mucho de una persona a otra, siendo siempre peligrosos. ¿Qué generan estas sustancias, difícil de superar por uno mismo?",
+      "pregunta": "Alteran el funcionamiento del cerebro y del cuerpo de forma imprevisible. <mark>Es como jugar con las reglas de tu cuerpo sin conocerlas</mark>. ¿Qué generan estas sustancias, difícil de superar por uno mismo?",
       "respuesta": "<mark>Dependencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/senal-peligro.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Dormir bien, comer sano y hacer ejercicio ayudan a concentrarse mejor. Es como cuidar el motor de un coche para que rinda mejor en la carretera. Un cuerpo descansado y bien alimentado piensa con más claridad. ¿Qué mejora gracias a estos hábitos saludables?",
+      "pregunta": "Dormir bien, comer sano y hacer ejercicio ayudan a concentrarse mejor. <mark>Es como cuidar el motor de un coche para que rinda</mark>. ¿Qué mejora gracias a estos hábitos saludables?",
       "respuesta": "<mark>La concentración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/estudiante-estudiando.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. Es como recargar una batería que se ha ido gastando durante el día. Dormir mal afecta al humor, la memoria y la concentración. ¿Qué actividad diaria cumple este papel tan importante?",
+      "pregunta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <mark>Es como recargar una batería que se ha ido gastando</mark>. ¿Qué actividad diaria cumple este papel tan importante?",
       "respuesta": "<mark>Dormir bien</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/descanso-sueno.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "La salud no es solo física: también incluye cómo te sientes y cómo te relacionas con los demás. Es como un taburete con tres patas: si falta una, todo se desequilibra. Sentirse bien con uno mismo forma parte de estar sano. ¿Qué dos tipos de salud se suman a la física, según esta idea?",
+      "pregunta": "La salud no es solo física: también es cómo te sientes y te relacionas. <mark>Es como un taburete de tres patas: si falta una, se desequilibra</mark>. ¿Qué dos tipos de salud se suman a la física, según esta idea?",
       "respuesta": "<mark>Salud mental y social</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia_6/taburete.jpg",

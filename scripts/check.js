@@ -9,7 +9,7 @@
    1. That every .js file at the repo root, in assets/js/, settings/,
       tools/study/ and scripts/ parses (equivalent to `node --check`).
    2. es/en key parity between strings.es.js and strings.en.js — root,
-      settings/, tools/study/.
+      config/, tools/study/.
    3. sw.js <-> disk parity: every FILES path exists.
    4. manifest.json icons exist on disk.
    5. Mandatory rule: zero mentions of disability, intellectual
@@ -93,7 +93,7 @@ function listJs(dir) {
   return out;
 }
 
-/* --- 1. node --check on the root app, assets/js/, settings/, tools/study/, scripts/ --- */
+/* --- 1. node --check on the root app, assets/js/, config/, tools/study/, scripts/ --- */
 var jsFiles = fs.readdirSync(ROOT, { withFileTypes: true })
   .filter(function (e) { return e.isFile() && e.name.endsWith('.js'); })
   .map(function (e) { return path.join(ROOT, e.name); })
@@ -173,7 +173,7 @@ function compareLocales(dir, label) {
 }
 
 compareLocales(ROOT, 'strings.<locale>.js');
-if (fs.existsSync(path.join(ROOT, 'settings'))) compareLocales(path.join(ROOT, 'settings'), 'settings/');
+if (fs.existsSync(path.join(ROOT, 'config'))) compareLocales(path.join(ROOT, 'config'), 'config/');
 if (fs.existsSync(path.join(ROOT, 'tools', 'study'))) compareLocales(path.join(ROOT, 'tools', 'study'), 'tools/study/');
 
 /* --- 3. sw.js <-> disk parity --- */
@@ -243,8 +243,8 @@ var USER_FACING_FILES = [
   path.join(ROOT, '404.html'),
   path.join(ROOT, 'legal', 'index.html')
 ]
-  .concat(listJs(path.join(ROOT, 'settings')))
-  .concat([path.join(ROOT, 'settings', 'index.html')])
+  .concat(listJs(path.join(ROOT, 'config')))
+  .concat([path.join(ROOT, 'config', 'index.html')])
   .concat(listJs(path.join(ROOT, 'tools', 'study')))
   .concat([path.join(ROOT, 'tools', 'study', 'index.html')])
   .filter(function (f) { return fs.existsSync(f); });
@@ -395,7 +395,7 @@ headersContent.split('\n').filter(function (line) {
 
   [
     path.join(ROOT, 'index.html'),
-    path.join(ROOT, 'settings', 'index.html'),
+    path.join(ROOT, 'config', 'index.html'),
     path.join(ROOT, 'tools', 'study', 'index.html')
   ].filter(function (f) { return fs.existsSync(f); }).forEach(checkDomain);
 })();

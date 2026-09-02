@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es una historia que mezcla hechos reales con fantasía. Suele explicar el origen de un lugar o una costumbre. Mucha gente cree que una parte es verdad. ¿Cómo se llama este tipo de historia?",
+      "pregunta": "Es una historia que mezcla hechos reales con fantasía, <mark>como un recuerdo con un poco de magia añadida</mark>. Suele explicar el origen de un lugar. Mucha gente cree que una parte es verdad. ¿Cómo se llama este tipo de historia?",
       "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/leyenda-castillo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Una leyenda casi siempre habla de un sitio concreto, como un castillo o una fuente. Ese sitio existe de verdad, aunque la historia sea inventada. Así parece más creíble al contarla. ¿Qué tiene siempre una leyenda?",
+      "pregunta": "Una leyenda casi siempre habla de un sitio concreto, <mark>como un castillo o una fuente</mark>. Ese sitio existe de verdad, aunque la historia sea inventada. ¿Qué tiene siempre una leyenda?",
       "respuesta": "<mark>Un lugar real</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/fuente-pueblo.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Un cuento es una invención que no pretende ser cierta. Esta otra historia, en cambio, se cuenta como si hubiera pasado de verdad. Por eso menciona lugares y personas reales. ¿Cómo se llama esta clase de historia?",
+      "pregunta": "Un cuento es una invención que no pretende ser cierta. <mark>Esta otra historia se cuenta como si hubiera pasado de verdad</mark>. Por eso menciona lugares y personas reales. ¿Cómo se llama esta clase de historia?",
       "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/cuento-libro-antiguo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es una historia antigua con dioses o seres poderosos. Explica cosas del mundo que antes nadie sabía explicar, como el trueno o la noche. Cada cultura antigua tiene los suyos. ¿Cómo se llama este tipo de historia?",
+      "pregunta": "Es una historia antigua con dioses o seres poderosos. <mark>Explica cosas que antes nadie sabía explicar, como el trueno o la noche</mark>. Cada cultura antigua tiene los suyos. ¿Cómo se llama este tipo de historia?",
       "respuesta": "<mark>Mito</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/mito-estatua-zeus.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Antes de la ciencia, esta clase de historias daban respuestas. Explicaban por qué llueve o por qué hay estrellas. Hoy las seguimos contando por su valor como historia. ¿Cómo se llaman estas historias antiguas?",
+      "pregunta": "Antes de la ciencia, esta clase de historias daban respuestas. <mark>Explicaban por qué llueve o por qué hay estrellas</mark>. Hoy las seguimos contando por su valor. ¿Cómo se llaman estas historias antiguas?",
       "respuesta": "<mark>Mitos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/estrellas-noche.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "El mito suele tener dioses y explica el mundo entero. Esta otra historia habla de un lugar o una persona real. Suele ser propia de un solo pueblo o región. ¿Cómo se llama esta segunda historia?",
+      "pregunta": "El mito suele tener dioses y explica el mundo entero. <mark>Esta otra historia habla de un lugar o una persona real</mark>. Suele ser propia de un solo pueblo. ¿Cómo se llama esta segunda historia?",
       "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura/templo-zeus-atenas.jpg",

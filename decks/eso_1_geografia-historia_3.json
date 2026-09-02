@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Fue un cambio lentísimo, de millones de años, no de un día para otro. Unos primates se convirtieron poco a poco en seres humanos. Incluyó caminar erguidos, usar herramientas y desarrollar el lenguaje. ¿Cómo se llama este largo proceso?",
+      "pregunta": "Fue un cambio lentísimo, de millones de años, no de un día para otro. <mark>Incluyó caminar erguidos, usar herramientas y hablar</mark>. ¿Cómo se llama este largo proceso?",
       "respuesta": "<mark>Hominización</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/homininos-evolucion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Vivían de la caza, la pesca y la recolección de frutos, sin cultivar nada. Eran nómadas: se movían buscando comida y refugio. Vivían en cuevas o en campamentos temporales. ¿Cómo se llama esta primera etapa de la Prehistoria?",
+      "pregunta": "Vivían de la caza, la pesca y la recolección, sin cultivar nada. <mark>Eran nómadas: vivían en cuevas o campamentos temporales</mark>. ¿Cómo se llama esta primera etapa de la Prehistoria?",
       "respuesta": "<mark>Paleolítico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/cueva-paleolitico.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Los humanos aprendieron a cultivar la tierra y criar animales. Por primera vez podían producir su propia comida, en vez de solo buscarla. Nacieron así los primeros poblados estables. ¿Cómo se llama esta nueva etapa de la Prehistoria?",
+      "pregunta": "Los humanos aprendieron a cultivar la tierra y criar animales. <mark>Por primera vez producían su propia comida</mark>, en vez de solo buscarla. ¿Cómo se llama esta nueva etapa de la Prehistoria?",
       "respuesta": "<mark>Neolítico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/cultivo-trigo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es como pasar de mudarte cada semana a tener una casa fija para siempre. Cambió por completo la forma de vivir de la humanidad: agricultura, ganadería, poblados y propiedad. Ese cambio marcó el resto de la historia humana. ¿Cómo se llama este gran cambio?",
+      "pregunta": "<mark>Es como pasar de mudarte cada semana a tener una casa fija</mark>. Cambió la forma de vivir de la humanidad: agricultura, poblados y propiedad. ¿Cómo se llama este gran cambio?",
       "respuesta": "<mark>Revolución neolítica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/poblado-neolitico.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Son pinturas que los humanos prehistóricos hacían en las paredes de las cuevas. Solían pintar los animales que cazaban, como bisontes o caballos. Algunas de esas pinturas tienen más de quince mil años. ¿Cómo se llama este arte?",
+      "pregunta": "Son pinturas que los humanos prehistóricos hacían en las paredes de las cuevas. <mark>Solían pintar animales que cazaban, como bisontes o caballos</mark>. ¿Cómo se llama este arte?",
       "respuesta": "<mark>Arte rupestre</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/pintura-rupestre.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Imagina mover una piedra del tamaño de un coche solo con cuerdas y madera. Son construcciones gigantes hechas con piedras enormes, sin apenas herramientas modernas. Stonehenge es una de las más famosas del mundo. ¿Cómo se llaman estas construcciones?",
+      "pregunta": "<mark>Imagina mover una piedra del tamaño de un coche con solo cuerdas y madera</mark>. Son construcciones gigantes de piedra, como Stonehenge. ¿Cómo se llaman estas construcciones?",
       "respuesta": "<mark>Monumentos megalíticos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/stonehenge.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "El río daba agua, alimento y transporte, como una autopista natural. Es una civilización que nació y creció junto a un gran río. Mesopotamia y Egipto son los ejemplos más conocidos. ¿Cómo se llama este tipo de civilización?",
+      "pregunta": "El río daba agua, alimento y transporte, <mark>como una autopista natural</mark>. Es una civilización que nació y creció junto a un gran río. ¿Cómo se llama este tipo de civilización?",
       "respuesta": "<mark>Civilización fluvial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/valle-rio-fertil.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Allí aparecieron las primeras ciudades y la primera escritura conocida. Fue como el primer capítulo de un libro que seguimos escribiendo hoy. Estaba situada entre los ríos Tigris y Éufrates. ¿Cómo se llama esta región, 'tierra entre ríos'?",
+      "pregunta": "Allí aparecieron las primeras ciudades y la primera escritura conocida. <mark>Fue como el primer capítulo de un libro que seguimos escribiendo</mark>. ¿Cómo se llama esta región, 'tierra entre ríos'?",
       "respuesta": "<mark>Mesopotamia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/zigurat.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Inventaron la escritura cuneiforme, una de las primeras del mundo. Construyeron las primeras ciudades de Mesopotamia con templos y murallas. Vivieron hace unos cinco mil años. ¿Cómo se llama este primer pueblo importante de Mesopotamia?",
+      "pregunta": "<mark>Inventaron la escritura cuneiforme</mark>, una de las primeras del mundo. Construyeron las primeras ciudades de Mesopotamia. ¿Cómo se llama este primer pueblo importante de Mesopotamia?",
       "respuesta": "<mark>Los sumerios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/escritura-cuneiforme.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Antes, muchas normas solo se transmitían de palabra. Los babilonios crearon uno de los primeros códigos de leyes escritos de la historia. Tener leyes escritas hacía más difícil que cambiaran según conviniera. ¿Cómo se llama este código de leyes?",
+      "pregunta": "Antes, muchas normas solo se transmitían de palabra. <mark>Los babilonios crearon uno de los primeros códigos de leyes escritos</mark>. ¿Cómo se llama este código de leyes?",
       "respuesta": "<mark>Código de Hammurabi</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/estela-hammurabi.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Era como un regalo que llegaba puntual cada año, sin fallar. Sus crecidas anuales dejaban tierra fértil para cultivar en pleno desierto. Sin él, Egipto habría sido solo arena. ¿Qué río hacía posible la vida en el Antiguo Egipto?",
+      "pregunta": "<mark>Era como un regalo que llegaba puntual cada año</mark>. Sus crecidas dejaban tierra fértil en pleno desierto. ¿Qué río hacía posible la vida en el Antiguo Egipto?",
       "respuesta": "<mark>El Nilo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/rio-nilo.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Se le consideraba casi un dios viviente, no solo un rey normal. Gobernaba, dirigía el ejército y era el jefe religioso. Su poder abarcaba toda la vida del país. ¿Cómo se llamaba este gobernante supremo del Antiguo Egipto?",
+      "pregunta": "<mark>Se le consideraba casi un dios viviente</mark>, no solo un rey normal. Gobernaba, dirigía el ejército y era el jefe religioso. ¿Cómo se llamaba este gobernante supremo del Antiguo Egipto?",
       "respuesta": "<mark>El faraón</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/mascara-faraon.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Eran tumbas gigantes construidas para los faraones. Guardaban su cuerpo y sus tesoros para la otra vida. Su construcción exigió miles de trabajadores y muchos años. ¿Cómo se llaman estas tumbas gigantes de Egipto?",
+      "pregunta": "Eran tumbas gigantes construidas para los faraones. <mark>Guardaban su cuerpo y sus tesoros para la otra vida</mark>. ¿Cómo se llaman estas tumbas gigantes de Egipto?",
       "respuesta": "<mark>Pirámides</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/piramides-egipto.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Era el sistema de escritura del Antiguo Egipto, hecho con dibujos. Cada dibujo podía representar un sonido, una idea o un objeto. Durante siglos, nadie supo cómo leerla, hasta que se descifró. ¿Cómo se llama este sistema de escritura?",
+      "pregunta": "Era el sistema de escritura del Antiguo Egipto, hecho con dibujos. <mark>Cada dibujo podía ser un sonido, una idea o un objeto</mark>. ¿Cómo se llama este sistema de escritura?",
       "respuesta": "<mark>Escritura jeroglífica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/relieves-templo.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Los egipcios creían que el cuerpo debía durar para la vida después de la muerte. Era un proceso para conservar el cuerpo de una persona tras morir. El proceso completo podía durar más de dos meses. ¿Cómo se llama este proceso?",
+      "pregunta": "Los egipcios creían que el cuerpo debía durar para la vida después de la muerte. <mark>Era un proceso para conservarlo que podía durar más de dos meses</mark>. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Momificación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/momias-egipto.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Ambas nacieron junto a grandes ríos que hacían fértil la tierra. Los dos ríos actuaron como motor de su civilización, aunque en lugares distintos. Las dos desarrollaron escritura, ciudades y gobiernos organizados. ¿Cómo se llama este tipo de civilización que Mesopotamia y Egipto comparten?",
+      "pregunta": "Ambas nacieron junto a grandes ríos que hacían fértil la tierra. <mark>El río actuó como motor de cada civilización</mark>. ¿Cómo se llama este tipo de civilización que Mesopotamia y Egipto comparten?",
       "respuesta": "<mark>Civilizaciones fluviales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_geografia-historia_3/mapa-rios-civilizaciones.jpg",

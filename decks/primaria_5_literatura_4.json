@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un relato corto con animales que actúan como personas. Casi siempre esconde una enseñanza al final, llamada moraleja. Autores como Esopo se hicieron famosos escribiéndolos. ¿Cómo se llama este tipo de relato?",
+      "pregunta": "Es un relato corto <mark>con animales que actúan como personas</mark>. Casi siempre esconde una enseñanza final. Autores como Esopo se hicieron famosos escribiéndolos. ¿Cómo se llama este tipo de relato?",
       "respuesta": "<mark>Fábula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_4/fabula-zorro-ciguena.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es la lección que deja una fábula al terminar. Funciona como un consejo disfrazado de cuento. Por ejemplo: no fiarse de los halagos exagerados. ¿Cómo se llama esta lección final?",
+      "pregunta": "Es la lección que deja una fábula al terminar. <mark>Funciona como un consejo disfrazado de cuento</mark>. Por ejemplo: no fiarse de los halagos exagerados. ¿Cómo se llama esta lección final?",
       "respuesta": "<mark>Moraleja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_4/moraleja-hercules-carretero.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "El cuervo tiene un queso en el pico, orgulloso. Un zorro lo halaga tanto que el cuervo abre el pico para cantar. Al abrirlo, deja caer el queso. ¿Quién atrapa el queso que cae?",
+      "pregunta": "El cuervo tiene un queso en el pico, orgulloso. Un zorro lo halaga tanto que abre el pico para cantar. <mark>Al abrirlo, deja caer el queso</mark>. ¿Quién lo atrapa?",
       "respuesta": "<mark>El zorro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_4/zorro-cuervo-queso.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es contar una historia hablando, sin leerla de un libro. Existía mucho antes de que se inventara la escritura. El narrador podía cambiar detalles cada vez que la contaba. ¿Cómo se llama esta forma de contar historias?",
+      "pregunta": "Es contar una historia hablando, <mark>sin leerla de un libro</mark>. Existía mucho antes de que se inventara la escritura. El narrador podía cambiar detalles cada vez. ¿Cómo se llama esta forma de contar historias?",
       "respuesta": "<mark>Narración oral</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_4/narracion-oral-pintura-rupestre.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es una persona que cuenta historias en voz alta para el público. Usa la voz y los gestos como si fuera un pequeño espectáculo. No necesita libro ni pantalla para contar la historia. ¿Cómo se llama esta persona?",
+      "pregunta": "Es una persona que cuenta historias en voz alta para el público. <mark>Usa la voz y los gestos como si fuera un pequeño espectáculo</mark>. No necesita libro ni pantalla. ¿Cómo se llama esta persona?",
       "respuesta": "<mark>Cuentacuentos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_4/cuentacuentos-biblioteca.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es una frase corta que guarda un consejo sobre la vida. Se ha repetido tantas veces que ya nadie recuerda quién lo dijo primero. Por ejemplo: 'no hay mal que por bien no venga'. ¿Cómo se llama esta frase?",
+      "pregunta": "Es una frase corta que guarda un consejo sobre la vida. <mark>Se ha repetido tanto que ya nadie recuerda quién la dijo primero</mark>. Por ejemplo: 'no hay mal que por bien no venga'. ¿Cómo se llama esta frase?",
       "respuesta": "<mark>Refrán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_5_literatura_4/refranes-cuadro-bruegel.jpg",

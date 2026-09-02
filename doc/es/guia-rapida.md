@@ -12,9 +12,9 @@ ordenadas de la más fácil a la más elaborada.
 > por botón) vive en la guía canónica transversal:
 > [`routime/doc/es/guia-rapida.md`](https://github.com/thenkdframe/routime/blob/main/doc/es/guia-rapida.md).
 > El **flujo de apertura, instalación PWA, cambio de idioma y
-> resolución de problemas son idénticos** en todos los proyectos
-> hermanos de Apptonomia. Este documento solo recoge lo específico
-> de Memofun.
+> resolución de problemas son idénticos** en todas las apps de la
+> suite Miralante. Este documento solo recoge lo específico de
+> Memofun.
 
 ---
 

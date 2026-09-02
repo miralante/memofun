@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Todo lo que puedes tocar o pesar ocupa un lugar en el espacio. El aire, el agua y las piedras son ejemplos de ello. Todo lo que existe físicamente está formado por esto. ¿Cómo se llama todo lo que ocupa espacio y tiene masa?",
+      "pregunta": "Todo lo que puedes tocar o pesar ocupa un lugar en el espacio. <mark>El aire, el agua y las piedras son ejemplos de ello.</mark> Todo lo que existe físicamente está formado por esto. ¿Cómo se llama todo lo que ocupa espacio y tiene masa?",
       "respuesta": "<mark>Materia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/estados-materia.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "La materia está formada por partículas diminutas que se mueven sin parar. Incluso algo quieto está lleno de partículas moviéndose. Se mueven más rápido cuando sube la temperatura. ¿Cómo se llama esta idea?",
+      "pregunta": "La materia está formada por partículas diminutas que se mueven sin parar. <mark>Incluso algo quieto está lleno de partículas moviéndose.</mark> Se mueven más rápido cuando sube la temperatura. ¿Cómo se llama esta idea?",
       "respuesta": "<mark>Teoría cinético-molecular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/geiser-agua-vapor.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "El hielo, el agua y el vapor son la misma sustancia en formas distintas. El calor o el frío cambian la materia de una forma a otra. En cada una, las partículas están más o menos unidas. ¿Cómo se llaman estas formas de la materia?",
+      "pregunta": "<mark>El hielo, el agua y el vapor son la misma sustancia en formas distintas.</mark> El calor o el frío cambian la materia de una forma a otra. En cada una, las partículas están más o menos unidas. ¿Cómo se llaman estas formas de la materia?",
       "respuesta": "<mark>Estados de agregación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/diagrama-estados-materia.png",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "En un estado, las partículas están muy unidas y casi no se mueven de su sitio. En otro estado, están más sueltas y se deslizan unas sobre otras. Por eso ese segundo estado se adapta a la forma del recipiente. ¿Qué estado es ese, donde las partículas se deslizan?",
+      "pregunta": "En un estado, las partículas están muy unidas y casi no se mueven de su sitio. En otro estado, <mark>están más sueltas y se deslizan unas sobre otras</mark>. Por eso ese segundo estado se adapta a la forma del recipiente. ¿Qué estado es ese, donde las partículas se deslizan?",
       "respuesta": "<mark>Líquido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/hielo-agua-vaso.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "El agua destilada o el oro puro tienen un único tipo de componente. Es como un ingrediente sin mezclar, sin nada añadido. Tienen propiedades fijas, como su punto de fusión. ¿Cómo se llama este tipo de materia?",
+      "pregunta": "El agua destilada o el oro puro tienen un único tipo de componente. <mark>Es como un ingrediente sin mezclar, sin nada añadido.</mark> Tienen propiedades fijas, como su punto de fusión. ¿Cómo se llama este tipo de materia?",
       "respuesta": "<mark>Sustancia pura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/oro-brazaletes.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "La arena y la sal juntas siguen siendo dos cosas distintas, solo revueltas. Puede ser homogénea, si no se distinguen sus partes, o heterogénea, si sí. Se puede volver a separar en sus componentes. ¿Cómo se llama esta unión de sustancias?",
+      "pregunta": "<mark>La arena y la sal juntas siguen siendo dos cosas distintas, solo revueltas.</mark> Puede ser homogénea, si no se distinguen sus partes, o heterogénea, si sí. Se puede volver a separar en sus componentes. ¿Cómo se llama esta unión de sustancias?",
       "respuesta": "<mark>Mezcla</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/frutos-secos-mezcla.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "El azúcar se disuelve en un vaso de agua y deja de verse por separado. La sustancia que se disuelve se llama soluto; el agua, disolvente. Muchas bebidas se preparan de esta forma. ¿Cómo se llama esta mezcla homogénea con agua?",
+      "pregunta": "<mark>El azúcar se disuelve en un vaso de agua y deja de verse por separado.</mark> La sustancia que se disuelve se llama soluto; el agua, disolvente. Muchas bebidas se preparan de esta forma. ¿Cómo se llama esta mezcla homogénea con agua?",
       "respuesta": "<mark>Disolución acuosa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/sulfato-sodio.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "El bronce combina cobre y estaño para lograr un metal más resistente que ninguno por separado. Suele mejorar las propiedades de los metales originales. ¿Cómo se llama esta mezcla de metales?",
+      "pregunta": "<mark>El bronce combina cobre y estaño para lograr un metal más resistente que ninguno por separado.</mark> Suele mejorar las propiedades de los metales originales. ¿Cómo se llama esta mezcla de metales?",
       "respuesta": "<mark>Aleación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/bronce-escultura.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "En la leche no ves las gotas de grasa, pero tampoco están completamente disueltas. Son partículas muy pequeñas dispersas sin disolverse del todo. Muchos alimentos y cosméticos son así. ¿Cómo se llama este tipo de mezcla?",
+      "pregunta": "<mark>En la leche no ves las gotas de grasa, pero tampoco están completamente disueltas.</mark> Son partículas muy pequeñas dispersas sin disolverse del todo. Muchos alimentos y cosméticos son así. ¿Cómo se llama este tipo de mezcla?",
       "respuesta": "<mark>Coloide</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/cafe-leche.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Al colar la pasta, el agua pasa, pero la pasta se queda. Un filtro deja pasar el líquido, pero retiene las partículas sólidas. Se usa mucho para purificar agua. ¿Cómo se llama este método de separación?",
+      "pregunta": "<mark>Al colar la pasta, el agua pasa, pero la pasta se queda.</mark> Un filtro deja pasar el líquido, pero retiene las partículas sólidas. Se usa mucho para purificar agua. ¿Cómo se llama este método de separación?",
       "respuesta": "<mark>Filtración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/colador-filtracion.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Al calentar una mezcla líquida, lo que hierve antes se evapora primero. Ese vapor se enfría y vuelve a estado líquido, ya separado. Se usa para obtener agua potable a partir de agua salada. ¿Cómo se llama este método de separación?",
+      "pregunta": "<mark>Al calentar una mezcla líquida, lo que hierve antes se evapora primero.</mark> Ese vapor se enfría y vuelve a estado líquido, ya separado. Se usa para obtener agua potable a partir de agua salada. ¿Cómo se llama este método de separación?",
       "respuesta": "<mark>Destilación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/destilacion-aparato.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Separar los ingredientes de una ensalada permite usarlos en otras recetas. Del mismo modo, se pueden separar los componentes de una mezcla para purificarlos o aprovecharlos. Se usa en la industria y en la limpieza del agua. ¿Cómo se llama este proceso en general?",
+      "pregunta": "<mark>Separar los ingredientes de una ensalada permite usarlos en otras recetas.</mark> Del mismo modo, se pueden separar los componentes de una mezcla para purificarlos o aprovecharlos. Se usa en la industria y en la limpieza del agua. ¿Cómo se llama este proceso en general?",
       "respuesta": "<mark>Separación de mezclas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica_2/reciclaje-separacion.jpg",

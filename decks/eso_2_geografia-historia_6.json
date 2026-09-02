@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Como un imperio enorme que se queda sin fuerzas. España perdió poder político y tuvo graves problemas económicos. Las guerras vaciaron las arcas del reino. ¿Qué dos tipos de problemas sufrió España en el siglo XVII?",
+      "pregunta": "<mark>Como un imperio enorme que se queda sin fuerzas</mark>. España perdió poder político y tuvo graves problemas económicos. Las guerras vaciaron las arcas del reino. ¿Qué dos tipos de problemas sufrió España en el siglo XVII?",
       "respuesta": "<mark>Crisis política y económica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/castillo-ruinas.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es como si una sola persona decidiera todas las reglas del juego. Es un gobierno donde el rey tiene todo el poder, sin apenas límites, controlando leyes, ejército e impuestos. Francia, con Luis XIV, es un ejemplo muy conocido. ¿Cómo se llama este tipo de gobierno?",
+      "pregunta": "<mark>Es como si una sola persona decidiera todas las reglas del juego</mark>. El rey tiene todo el poder, sin apenas límites: leyes, ejército e impuestos. Francia, con Luis XIV, es un ejemplo muy conocido. ¿Cómo se llama este tipo de gobierno?",
       "respuesta": "<mark>Monarquía absoluta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/jacobo-ii-rey.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "El rey ya no decide solo: debe compartir el poder con otras personas elegidas. Es un gobierno donde el poder del rey está limitado por un parlamento. Inglaterra desarrolló pronto este modelo, distinto al absolutismo. ¿Cómo se llama este tipo de gobierno?",
+      "pregunta": "<mark>Es como un rey que ya no puede decidir solo</mark>. Debe compartir el poder con un parlamento elegido. Inglaterra desarrolló pronto este modelo, distinto al absolutismo. ¿Cómo se llama este tipo de gobierno?",
       "respuesta": "<mark>Monarquía parlamentaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/parlamento-hungria.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Mezclaba motivos religiosos y también la lucha por el poder entre países. Fue un conflicto larguísimo y muy destructivo en el centro de Europa, que duró de 1618 a 1648. Tras ella, España perdió peso frente a otras potencias europeas. ¿Cómo se llama esta guerra?",
+      "pregunta": "Mezclaba motivos religiosos y la lucha por el poder entre países. Fue un conflicto larguísimo y destructivo en el centro de Europa, <mark>que duró de 1618 a 1648</mark>. Tras ella, España perdió peso frente a otras potencias europeas. ¿Cómo se llama esta guerra?",
       "respuesta": "<mark>Guerra de los Treinta Años</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/canon-fortaleza.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es como una empresa que va perdiendo fuerza con cada nuevo director. Los últimos reyes de la dinastía de los Austrias fueron cada vez más débiles, con problemas de salud y de gobierno. El último de ellos no dejó descendencia, y su muerte provocó una grave crisis por el trono. ¿Cómo se llamaba este último rey?",
+      "pregunta": "<mark>Es como una empresa que va perdiendo fuerza con cada nuevo director</mark>. Los últimos reyes de la dinastía de los Austrias fueron cada vez más débiles. El último no dejó descendencia, y su muerte provocó una grave crisis por el trono. ¿Cómo se llamaba este último rey?",
       "respuesta": "<mark>Carlos II</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/objetos-reales.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Frente a la calma del Renacimiento, este estilo busca sorprender y emocionar. Es un estilo artístico lleno de movimiento, contrastes, y usa mucho la luz y la sombra para crear dramatismo. Pintores como Velázquez destacaron en esta época. ¿Cómo se llama este estilo?",
+      "pregunta": "Frente a la calma del Renacimiento, este estilo busca sorprender y emocionar. Está lleno de movimiento y usa mucho la luz y la sombra. Pintores <mark>como Velázquez</mark> destacaron en esta época. ¿Cómo se llama este estilo?",
       "respuesta": "<mark>Arte Barroco</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/pintura-barroca.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "La ciencia empezó a mirar el cielo con telescopios, no solo con creencias. La revolución científica del siglo XVII trajo nuevas formas de observar y explicar el universo, con pruebas y experimentos. Esas ideas chocaron muchas veces con la Iglesia de la época. ¿Qué científico defendió que la Tierra gira alrededor del Sol?",
+      "pregunta": "<mark>La ciencia empezó a mirar el cielo con telescopios, no solo con creencias</mark>. La revolución científica del siglo XVII trajo nuevas formas de explicar el universo, con pruebas y experimentos. Esas ideas chocaron muchas veces con la Iglesia. ¿Qué científico defendió que la Tierra gira alrededor del Sol?",
       "respuesta": "<mark>Galileo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/telescopio-antiguo.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Antes, muchas respuestas se aceptaban solo porque lo decía una autoridad. Esta corriente defendía usar la razón y la lógica para buscar la verdad, pidiendo pruebas y demostraciones. Preparó el camino hacia la ciencia moderna. ¿Cómo se llama esta forma de pensar?",
+      "pregunta": "<mark>Antes, muchas respuestas se aceptaban solo porque lo decía una autoridad</mark>. Esta corriente defendía usar la razón y la lógica, pidiendo pruebas y demostraciones. Preparó el camino hacia la ciencia moderna. ¿Cómo se llama esta forma de pensar?",
       "respuesta": "<mark>Racionalismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/biblioteca-antigua.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "El lugar de nacimiento seguía marcando casi toda la vida de una persona en la Edad Moderna. La sociedad seguía dividida entre grupos privilegiados que pagaban pocos o ningún impuesto, y el resto del pueblo llano. Esa desigualdad generó tensiones que estallarían siglos después. ¿Qué dos grupos privilegiados pagaban pocos o ningún impuesto?",
+      "pregunta": "<mark>Es como nacer ya con una entrada gratis o con una factura por pagar</mark>. El lugar de nacimiento marcaba casi toda la vida de una persona. La sociedad seguía dividida entre privilegiados y el pueblo llano. ¿Qué dos grupos privilegiados pagaban pocos o ningún impuesto?",
       "respuesta": "<mark>Nobleza y clero</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/vestimenta-historica.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Fue expulsada en 1492 si no se convertía al cristianismo. Muchas familias tuvieron que abandonar de golpe la tierra donde habían vivido siempre, marchándose a otros países del Mediterráneo y Europa. ¿Qué lengua de la comunidad judía española sobrevivió fuera de España durante siglos?",
+      "pregunta": "<mark>Fue expulsada en 1492 si no se convertía al cristianismo</mark>. Muchas familias tuvieron que abandonar de golpe la tierra donde habían vivido siempre. Se marcharon a otros países del Mediterráneo y Europa. ¿Qué lengua de la comunidad judía española sobrevivió fuera de España durante siglos?",
       "respuesta": "<mark>El ladino</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/sinagoga.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es como una fama exagerada que se repite tanto que parece verdad. Fue una imagen muy negativa de España difundida por sus países rivales, que exageraba su crueldad en América y en Europa. Estudiarla con sentido crítico ayuda a separar la propaganda de los hechos. ¿Cómo se llama esta imagen negativa?",
+      "pregunta": "<mark>Es como una fama exagerada que se repite tanto que parece verdad</mark>. Fue una imagen muy negativa de España difundida por sus países rivales. Estudiarla con sentido crítico ayuda a separar la propaganda de los hechos. ¿Cómo se llama esta imagen negativa?",
       "respuesta": "<mark>Leyenda negra</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/manuscrito-iluminado.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Aun así, epidemias como la peste seguían siendo casi imposibles de frenar. Se aprendió más sobre el cuerpo humano y cómo tratar enfermedades. Esos avances sentaron las bases de la medicina posterior. ¿Qué instituciones empezaron a estudiar medicina de forma más ordenada?",
+      "pregunta": "Aun así, epidemias <mark>como la peste</mark> seguían siendo casi imposibles de frenar. Se aprendió más sobre el cuerpo humano y cómo tratar enfermedades. Esos avances sentaron las bases de la medicina posterior. ¿Qué instituciones empezaron a estudiar medicina de forma más ordenada?",
       "respuesta": "<mark>Hospitales y universidades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/boticario-frascos.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Son como la memoria escrita de toda una sociedad, guardada en estantes. Son colecciones de documentos y libros que guardan la memoria del pasado, permitiendo investigar cómo vivía la gente hace siglos. ¿Cómo se llama este tipo de patrimonio?",
+      "pregunta": "<mark>Son como la memoria escrita de toda una sociedad, guardada en estantes</mark>. Son colecciones de documentos y libros que guardan la memoria del pasado. Permiten investigar cómo vivía la gente hace siglos. ¿Cómo se llama este tipo de patrimonio?",
       "respuesta": "<mark>Patrimonio documental</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/estanterias-biblioteca.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Creer distinto podía convertirte en blanco de sospechas o de castigo. Las diferencias religiosas provocaron guerras y persecuciones en varios países de Europa, dejando heridas que tardaron generaciones en cerrarse. ¿Qué guerra religiosa es un ejemplo claro de esa violencia?",
+      "pregunta": "<mark>Creer distinto podía convertirte en blanco de sospechas o de castigo</mark>. Las diferencias religiosas provocaron guerras y persecuciones en varios países de Europa. Dejaron heridas que tardaron generaciones en cerrarse. ¿Qué guerra religiosa es un ejemplo claro de esa violencia?",
       "respuesta": "<mark>Guerra de los Treinta Años</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/iglesia-exterior.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Se crearon nuevas rutas que conectaban Europa, América, África y Asia. Llegaron productos, personas e ideas de continentes muy distintos. Ese intercambio cambió para siempre la economía mundial. ¿Cómo empezó a funcionar el comercio mundial tras el Descubrimiento de América?",
+      "pregunta": "<mark>Es como abrir caminos nuevos entre lugares que antes no se hablaban</mark>. Se crearon nuevas rutas que conectaban Europa, América, África y Asia. Llegaron productos, personas e ideas de continentes muy distintos. ¿Cómo empezó a funcionar el comercio mundial tras el Descubrimiento de América?",
       "respuesta": "<mark>Como una red conectada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/barco-velero-comercio.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Es como una casa que se cae a trozos, pero con las paredes llenas de grandes cuadros. Mientras España perdía poder político en el siglo XVII, su arte vivía un momento brillante. Pintores y escritores destacaron pese a la crisis económica del país. ¿Cómo se llama esta época de gran arte español?",
+      "pregunta": "<mark>Es como una casa que se cae a trozos, pero con las paredes llenas de grandes cuadros</mark>. España perdía poder político en el siglo XVII, pero su arte vivía un momento brillante. Pintores y escritores destacaron pese a la crisis económica. ¿Cómo se llama esta época de gran arte español?",
       "respuesta": "<mark>Siglo de Oro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_geografia-historia_6/palacio-barroco.jpg",

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Los científicos siguen unos pasos ordenados para investigar. Es como seguir una receta, para no perderse. Incluye observar, proponer hipótesis, experimentar y sacar conclusiones. ¿Cómo se llama esta forma de investigar?",
+      "pregunta": "Los científicos siguen unos pasos ordenados para investigar. <mark>Es como seguir una receta, para no perderse.</mark> Incluye observar, proponer hipótesis, experimentar y sacar conclusiones. ¿Cómo se llama esta forma de investigar?",
       "respuesta": "<mark>Método científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/metodo-cientifico-diagrama.svg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "En un laboratorio hay tubos de ensayo, vasos y mecheros, entre otros. Cada uno sirve para una tarea concreta, como medir o calentar. Usarlo bien evita errores y accidentes. ¿Cómo se llama a este conjunto de objetos?",
+      "pregunta": "En un laboratorio hay <mark>tubos de ensayo, vasos y mecheros</mark>, entre otros. Cada uno sirve para una tarea concreta, como medir o calentar. Usarlo bien evita errores y accidentes. ¿Cómo se llama a este conjunto de objetos?",
       "respuesta": "<mark>Material de laboratorio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/experimentos-laboratorio.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Muchos experimentos usan sustancias o instrumentos peligrosos. Usar gafas, guantes o bata protege frente a riesgos. Es como seguir las normas de tráfico para evitar accidentes. ¿Cómo se llaman estas reglas del laboratorio?",
+      "pregunta": "Muchos experimentos usan sustancias o instrumentos peligrosos. Usar gafas, guantes o bata protege frente a riesgos. <mark>Es como seguir las normas de tráfico para evitar accidentes.</mark> ¿Cómo se llaman estas reglas del laboratorio?",
       "respuesta": "<mark>Normas de seguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/gafas-proteccion-laboratorio.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Cada producto químico lleva símbolos con información en su envase. Avisan si algo es inflamable, tóxico o corrosivo. Es como leer las instrucciones antes de tomar un medicamento. ¿Cómo se llama esta información pegada al envase?",
+      "pregunta": "Cada producto químico lleva símbolos con información en su envase. Avisan si algo es inflamable, tóxico o corrosivo. <mark>Es como leer las instrucciones antes de tomar un medicamento.</mark> ¿Cómo se llama esta información pegada al envase?",
       "respuesta": "<mark>Etiquetado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/etiqueta-peligro-quimico.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Hay propiedades, como la longitud o la masa, que se pueden medir. Cada una lleva siempre un número y una unidad. ¿Cómo se llama este tipo de propiedad medible?",
+      "pregunta": "Hay propiedades, como <mark>la longitud o la masa</mark>, que se pueden medir. Cada una lleva siempre un número y una unidad. ¿Cómo se llama este tipo de propiedad medible?",
       "respuesta": "<mark>Magnitud física</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/cinta-metrica-medir.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Casi todo el mundo usa el mismo conjunto de unidades de medida. Incluye el metro, el kilogramo y el segundo, entre otras. Es como un idioma común para que los científicos se entiendan. ¿Cómo se llama este conjunto de unidades?",
+      "pregunta": "Casi todo el mundo usa el mismo conjunto de unidades de medida. Incluye el metro, el kilogramo y el segundo, entre otras. <mark>Es como un idioma común para que los científicos se entiendan.</mark> ¿Cómo se llama este conjunto de unidades?",
       "respuesta": "<mark>Sistema Internacional de Unidades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/sistema-internacional-unidades.svg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "A veces los datos vienen en unidades distintas a las que necesitamos. Es como convertir euros a otra moneda antes de comparar precios. Hacerlo mal puede arruinar todo un cálculo. ¿Cómo se llama pasar de una unidad a otra?",
+      "pregunta": "A veces los datos vienen en unidades distintas a las que necesitamos. <mark>Es como convertir euros a otra moneda antes de comparar precios.</mark> Hacerlo mal puede arruinar todo un cálculo. ¿Cómo se llama pasar de una unidad a otra?",
       "respuesta": "<mark>Cambio de unidades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/cambio-divisas-monedas.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Los datos de un experimento se pueden dibujar para verlos de un vistazo. Es como convertir una lista de números en un dibujo fácil de entender. Ayuda a descubrir patrones difíciles de ver en una tabla. ¿Cómo se llama este tipo de dibujo?",
+      "pregunta": "Los datos de un experimento se pueden dibujar para verlos de un vistazo. <mark>Es como convertir una lista de números en un dibujo fácil de entender.</mark> Ayuda a descubrir patrones difíciles de ver en una tabla. ¿Cómo se llama este tipo de dibujo?",
       "respuesta": "<mark>Gráfica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/grafica-lineas-datos.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es un pequeño trabajo que empieza con una pregunta. Es como un experimento en miniatura, con pasos y conclusiones. Sirve para practicar el método científico. ¿Cómo se llama este tipo de trabajo?",
+      "pregunta": "Es un pequeño trabajo que empieza con una pregunta. <mark>Es como un experimento en miniatura, con pasos y conclusiones.</mark> Sirve para practicar el método científico. ¿Cómo se llama este tipo de trabajo?",
       "respuesta": "<mark>Proyecto de investigación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/feria-ciencias-estudiantes.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Muchas sustancias usadas en experimentos pueden contaminar. Tirarlas sin cuidado sería como verter basura directamente a un río. Cada tipo necesita un tratamiento distinto y seguro. ¿Cómo se llama separarlos para tratarlos bien?",
+      "pregunta": "Muchas sustancias usadas en experimentos pueden contaminar. Tirarlas sin cuidado <mark>sería como verter basura directamente a un río</mark>. Cada tipo necesita un tratamiento distinto y seguro. ¿Cómo se llama separarlos para tratarlos bien?",
       "respuesta": "<mark>Reciclaje de residuos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/simbolo-reciclaje.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Muchos avances actuales se apoyan en descubrimientos de hace siglos. Es como reconocer a quien puso el primer ladrillo de un edificio que aún usamos. Uno de esos científicos del pasado estudió la gravedad y el movimiento. ¿Cómo se llama este científico?",
+      "pregunta": "Muchos avances actuales se apoyan en descubrimientos de hace siglos. <mark>Es como reconocer a quien puso el primer ladrillo de un edificio que aún usamos.</mark> Uno de esos científicos del pasado estudió la gravedad y el movimiento. ¿Cómo se llama este científico?",
       "respuesta": "<mark>Isaac Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/isaac-newton-retrato.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Una medida directa se obtiene usando un instrumento, como una regla. Otro tipo de medida se calcula a partir de otras medidas, sin medir directamente. Por ejemplo, la velocidad se calcula con la distancia y el tiempo. ¿Cómo se llama este segundo tipo de medida?",
+      "pregunta": "Una medida directa se obtiene usando un instrumento, como una regla. Otro tipo de medida se calcula a partir de otras medidas, sin medir directamente. Por ejemplo, <mark>la velocidad se calcula con la distancia y el tiempo</mark>. ¿Cómo se llama este segundo tipo de medida?",
       "respuesta": "<mark>Medida indirecta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_fisica-quimica/cronometro-medir-tiempo.jpg",

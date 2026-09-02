@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Ningún instrumento mide con una precisión absolutamente perfecta. Puede deberse al instrumento usado o a quien realiza la medida. Reconocerlo ayuda a interpretar los resultados con más honestidad. ¿Cómo se llama esta diferencia entre el valor medido y el real?",
+      "pregunta": "Ningún instrumento mide con precisión perfecta. <mark>Un termómetro puede marcar 36,4° cuando la temperatura real es 36,5°</mark>. ¿Cómo se llama esta diferencia entre el valor medido y el real?",
       "respuesta": "<mark>Error de una medida</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/balanza-precision.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es como preguntar a varias personas la hora, en vez de fiarte de un solo reloj. Cuantas más medidas se hacen, más se reduce el efecto de pequeños errores. ¿Cómo se llama el resultado más fiable que se calcula así?",
+      "pregunta": "<mark>Es como preguntar a varias personas la hora</mark>, en vez de fiarte de un solo reloj. Cuantas más medidas hay, menos pesan los errores pequeños. ¿Cómo se llama el resultado más fiable que se calcula así?",
       "respuesta": "<mark>Valor medio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/cronometro.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es como comprobar que una receta no mezcla litros con kilos sin sentido. Comprueban si las unidades de una fórmula son coherentes entre sí. Ayudan a detectar errores antes de hacer el cálculo completo. ¿Cómo se llaman estas ecuaciones de comprobación?",
+      "pregunta": "<mark>Es como comprobar que una receta no mezcle litros con kilos</mark>. Comprueban si las unidades de una fórmula son coherentes. Detectan errores antes de calcular. ¿Cómo se llaman estas ecuaciones de comprobación?",
       "respuesta": "<mark>Ecuaciones dimensionales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/pizarra-matematicas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es como intentar encontrar la melodía escondida dentro de muchas notas sueltas. Los datos se organizan, se representan gráficamente y se buscan patrones. Ese proceso comprueba si los resultados apoyan la hipótesis inicial. ¿Cómo se llama este proceso?",
+      "pregunta": "<mark>Es como encontrar la melodía escondida entre muchas notas sueltas</mark>. Los datos se organizan, se grafican y se buscan patrones. Así se comprueba si los resultados confirman la hipótesis. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Análisis de datos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/grafico-3d.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Sensores, programas informáticos y simuladores forman parte de ellas. Permiten medir con más precisión, procesar datos y compartir resultados rápidamente. Es como tener ayudantes digitales que aceleran cada paso de la investigación. ¿Cómo se llaman estos recursos?",
+      "pregunta": "Sensores, programas informáticos y simuladores forman parte de ellas. <mark>Son como ayudantes digitales que aceleran cada paso de la investigación</mark>. ¿Cómo se llaman estos recursos?",
       "respuesta": "<mark>Herramientas tecnológicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/laboratorio-tecnologia.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Una introducción clara, el método usado, los resultados y las conclusiones son sus partes. Es como contar una historia completa, sin dejar huecos que confundan al lector. Permite que otra persona repita el experimento sin dudas. ¿Cómo se llama este documento?",
+      "pregunta": "Una introducción, el método, los resultados y las conclusiones son sus partes. <mark>Es como contar una historia completa, sin huecos que confundan</mark>. Así otra persona puede repetir el experimento sin dudas. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Informe científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/informe-tecnico.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Un número, una gráfica y una tabla cuentan la misma historia de formas diferentes. Cada formato ayuda a entender la información de una forma distinta. Usar varios formatos hace la información más accesible. ¿Cómo se llama mostrar los datos de estas distintas formas?",
+      "pregunta": "<mark>Un número, una gráfica y una tabla cuentan la misma historia de formas distintas</mark>. Cada formato ayuda a entenderla mejor. ¿Cómo se llama mostrar los datos de estas distintas formas?",
       "respuesta": "<mark>Representación de datos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/infografia-datos.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es como contar exactamente lo que se ha descubierto, sin exagerar ni esconder nada. Significa comunicar resultados de manera clara, honesta y bien fundamentada. Incluye reconocer los límites y errores del propio trabajo. ¿Cómo se llama esta forma honesta de producir información científica?",
+      "pregunta": "<mark>Es como contar lo descubierto, sin exagerar ni esconder nada</mark>. Incluye reconocer los propios límites y errores. ¿Cómo se llama esta forma honesta de producir información científica?",
       "respuesta": "<mark>Rigor científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/escribiendo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es como separar el grano de la paja en un texto largo y complejo. Se identifican las ideas principales y se contrastan con otras fuentes fiables. Ayuda a evitar quedarse solo con titulares llamativos pero poco precisos. ¿Qué hay que buscar para contrastar bien la información?",
+      "pregunta": "<mark>Es como separar el grano de la paja en un texto</mark>. Se identifican las ideas principales y se contrastan con otras fuentes. Así se evitan titulares llamativos pero poco precisos. ¿Qué hay que buscar para contrastar bien la información?",
       "respuesta": "<mark>Fuentes fiables</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/lectura-sofa.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Entender un poco de ciencia ayuda a no dejarse llevar por bulos o exageraciones. Ayuda a tomar decisiones informadas sobre salud, tecnología o medio ambiente. Beneficia a toda la sociedad, no solo a los científicos. ¿Cómo se llama a este conocimiento científico compartido por la sociedad?",
+      "pregunta": "Entender un poco de ciencia <mark>ayuda a no dejarse llevar por bulos o exageraciones</mark>. También ayuda a decidir bien sobre salud, tecnología o medio ambiente. ¿Cómo se llama a este conocimiento científico compartido por la sociedad?",
       "respuesta": "<mark>Cultura científica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica/centro-visitantes.jpg",

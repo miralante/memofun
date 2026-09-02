@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Todos los seres vivos están formados por la misma pieza básica: la célula. Toda célula nace de otra célula anterior. Es una base fundamental de la biología moderna. ¿Cómo se llama esta idea?",
+      "pregunta": "Todos los seres vivos están formados por la misma pieza básica: la célula. <mark>Toda célula nace de otra célula anterior</mark>. Es una base fundamental de la biología moderna. ¿Cómo se llama esta idea?",
       "respuesta": "<mark>Teoría celular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-contenido.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Cada avance técnico permitía ver un poco más de lo invisible. Al principio solo se veían células vegetales sencillas. Gracias a este instrumento se pudo formular la teoría celular. ¿Qué instrumento fue clave para descubrirlo?",
+      "pregunta": "Cada avance técnico permitía ver un poco más de lo invisible. <mark>Al principio solo se veían células vegetales sencillas</mark>. Gracias a este instrumento se pudo formular la teoría celular. ¿Qué instrumento fue clave para descubrirlo?",
       "respuesta": "<mark>El microscopio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-antiguo.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el ciclo de vida completo de una célula. Empieza cuando nace y crece. Termina cuando se divide en dos. ¿Cómo se llama este proceso?",
+      "pregunta": "Es el ciclo de vida completo de una célula. Empieza cuando nace y crece. <mark>Termina cuando se divide en dos</mark>. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Ciclo celular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-metafase.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es como fotocopiar una célula. Se obtienen dos células exactamente iguales. Permite crecer y reparar tejidos dañados. ¿Cómo se llama este tipo de división?",
+      "pregunta": "<mark>Es como fotocopiar una célula</mark>. Se obtienen dos células exactamente iguales. Permite crecer y reparar tejidos dañados. ¿Cómo se llama este tipo de división?",
       "respuesta": "<mark>Mitosis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/lirio-mitosis.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es como cambiar piezas gastadas de una máquina por otras nuevas. Así el cuerpo repara una herida en la piel. También permite crecer. ¿Qué proceso usa el cuerpo para lograrlo?",
+      "pregunta": "<mark>Es como cambiar piezas gastadas de una máquina por otras nuevas</mark>. Así el cuerpo repara una herida en la piel. También permite crecer. ¿Qué proceso usa el cuerpo para lograrlo?",
       "respuesta": "<mark>Mitosis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/vendaje-medico.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es como repartir la mitad de una baraja de cartas. El material genético se reduce a la mitad. Se usa para crear óvulos y espermatozoides. ¿Cómo se llama este tipo de división?",
+      "pregunta": "<mark>Es como repartir la mitad de una baraja de cartas</mark>. El material genético se reduce a la mitad. Se usa para crear óvulos y espermatozoides. ¿Cómo se llama este tipo de división?",
       "respuesta": "<mark>Meiosis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/baraja-cartas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Sin ella, cada generación tendría el doble de genes que la anterior. Asegura el número correcto de cromosomas. También crea variedad genética entre hermanos. ¿Qué proceso hace esto posible?",
+      "pregunta": "<mark>Sin ella, cada generación tendría el doble de genes que la anterior</mark>. Asegura el número correcto de cromosomas. También crea variedad genética entre hermanos. ¿Qué proceso hace esto posible?",
       "respuesta": "<mark>Meiosis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/hermanos-familia.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "La mitosis crea dos células idénticas a la original. Este otro proceso crea cuatro células distintas entre sí. Reparte solo la mitad del material genético. ¿Cómo se llama este segundo proceso?",
+      "pregunta": "La mitosis crea dos células idénticas a la original. <mark>Este otro proceso crea cuatro células distintas entre sí</mark>. Reparte solo la mitad del material genético. ¿Cómo se llama este segundo proceso?",
       "respuesta": "<mark>Meiosis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-anafase.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es como la sala donde se guardan las instrucciones de la célula. Ahí vive el material genético. Sin ella, la célula no podría dividirse. ¿Cómo se llama esta estructura?",
+      "pregunta": "<mark>Es como la sala donde se guardan las instrucciones de la célula</mark>. Ahí vive el material genético. Sin ella, la célula no podría dividirse. ¿Cómo se llama esta estructura?",
       "respuesta": "<mark>Núcleo celular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-citocinesis.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es como hacer fotografías de distintos momentos de un proceso. Cada imagen muestra una etapa del reparto genético. Se usan muestras de células en división. ¿Qué instrumento permite verlas?",
+      "pregunta": "<mark>Es como hacer fotografías de distintos momentos de un proceso</mark>. Cada imagen muestra una etapa del reparto genético. Se usan muestras de células en división. ¿Qué instrumento permite verlas?",
       "respuesta": "<mark>Microscopio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio.jpg",

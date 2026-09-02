@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un cuento con magia, princesas y castillos. Casi siempre algo mágico ayuda al protagonista. Suele terminar con un final feliz. ¿Cómo se llama este tipo de cuento?",
+      "pregunta": "Es un cuento con magia, princesas y castillos, donde <mark>algo mágico ayuda al protagonista</mark>. Suele terminar con un final feliz. ¿Cómo se llama este tipo de cuento?",
       "respuesta": "<mark>Cuento de hadas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_3/cuento-hadas-castillo.png",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Blancanieves muerde una manzana envenenada por la bruja. Sus amigos la cuidan esperando que despierte. Al final, algo mágico rompe el hechizo. ¿Qué le pasa a Blancanieves al morder la manzana?",
+      "pregunta": "Blancanieves muerde <mark>una manzana envenenada por la bruja</mark>. Sus amigos la cuidan esperando que despierte. ¿Qué le pasa a Blancanieves al morder la manzana?",
       "respuesta": "<mark>Cae en un sueño profundo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_3/blancanieves-dormida.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "La magia del hada madrina de Cenicienta solo dura hasta una hora concreta. Después, el vestido y la carroza vuelven a ser lo de antes. Por eso ella corre y pierde un zapato de cristal. ¿A qué hora se acaba la magia?",
+      "pregunta": "La magia de Cenicienta dura hasta una hora concreta: después, <mark>el vestido y la carroza vuelven a ser lo de antes</mark>. Por eso ella corre y pierde un zapato de cristal. ¿A qué hora se acaba la magia?",
       "respuesta": "<mark>A medianoche</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_3/cenicienta-zapato-cristal.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el personaje principal de un cuento, al que le pasan las cosas más importantes. La historia gira siempre alrededor de él o ella. Cenicienta, por ejemplo, es este personaje en su cuento. ¿Cómo se llama este personaje?",
+      "pregunta": "Le pasan las cosas más importantes del cuento: <mark>la historia gira siempre alrededor de él o ella</mark>. Cenicienta es este personaje en su cuento. ¿Cómo se llama este personaje?",
       "respuesta": "<mark>El protagonista</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_3/cenicienta-protagonista.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "En el cuento de Cenicienta, alguien convierte una calabaza en carroza. Con una varita, transforma cosas sencillas en algo especial. Así Cenicienta puede ir al baile. ¿Quién hace esta magia?",
+      "pregunta": "En el cuento de Cenicienta, alguien <mark>convierte una calabaza en carroza</mark> con una varita. Así Cenicienta puede ir al baile. ¿Quién hace esta magia?",
       "respuesta": "<mark>El hada madrina</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_3/calabaza-carroza.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "En estos cuentos, un hada, una bruja o un hechizo cambian la historia. El protagonista suele superar un problema grande. Casi siempre terminan con un final feliz. ¿Cómo se llama este tipo de cuento?",
+      "pregunta": "En estos cuentos, un hada, una bruja o un hechizo cambian la historia. <mark>El protagonista suele superar un problema grande</mark>. ¿Cómo se llama este tipo de cuento?",
       "respuesta": "<mark>Cuento de hadas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_3/hada-madrina-varita.jpg",

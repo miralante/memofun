@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "La temperatura queda definida solo con un número y una unidad. La velocidad, en cambio, necesita además una dirección y un sentido. ¿Cómo se llama este segundo tipo de magnitud, la que necesita dirección?",
+      "pregunta": "<mark>La temperatura queda definida solo con un número y una unidad</mark>. La velocidad, en cambio, necesita además una dirección y un sentido. ¿Cómo se llama este segundo tipo de magnitud, la que necesita dirección?",
       "respuesta": "<mark>Magnitud vectorial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/veleta-direccion-viento.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es como sumar todos los pasos que has dado, aunque acabes cerca de donde empezaste. Es la distancia total que ha recorrido un objeto en su movimiento. No es lo mismo que la distancia entre el inicio y el final. ¿Cómo se llama esta distancia total recorrida?",
+      "pregunta": "<mark>Es como sumar todos los pasos que has dado, aunque acabes cerca de donde empezaste</mark>. Es la distancia total que ha recorrido un objeto en su movimiento. No es lo mismo que la distancia entre el inicio y el final. ¿Cómo se llama esta distancia total recorrida?",
       "respuesta": "<mark>Espacio recorrido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/meta-carrera-corredores.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "La velocidad media se calcula con el espacio total y el tiempo total del recorrido. El velocímetro de un coche, en cambio, muestra siempre otro tipo de velocidad, la de cada momento. ¿Cómo se llama esta segunda velocidad, la de un instante concreto?",
+      "pregunta": "La velocidad media se calcula con el espacio total y el tiempo total del recorrido. <mark>El velocímetro de un coche muestra siempre otro tipo de velocidad, la de cada momento</mark>. ¿Cómo se llama esta segunda velocidad, la de un instante concreto?",
       "respuesta": "<mark>Velocidad instantánea</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/velocimetro-panel-coche.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es como medir cuánto pisas el acelerador o el freno de un coche. Es la rapidez con la que cambia la velocidad de un cuerpo. Puede ser positiva, si el cuerpo acelera, o negativa, si frena. ¿Cómo se llama esta magnitud?",
+      "pregunta": "<mark>Es como medir cuánto pisas el acelerador o el freno de un coche</mark>. Es la rapidez con la que cambia la velocidad de un cuerpo. Puede ser positiva, si el cuerpo acelera, o negativa, si frena. ¿Cómo se llama esta magnitud?",
       "respuesta": "<mark>Aceleración</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/coche-carrera-aceleracion.png",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Cuanta más fuerza se aplica a un muelle, más se estira o se comprime, de forma proporcional. Se usa para fabricar básculas o dinamómetros. ¿Cómo se llama esta ley sobre la deformación de un muelle?",
+      "pregunta": "<mark>Cuanta más fuerza se aplica a un muelle, más se estira o se comprime</mark>. Se usa para fabricar básculas o dinamómetros. ¿Cómo se llama esta ley sobre la deformación de un muelle?",
       "respuesta": "<mark>Ley de Hooke</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/muelle-metalico-espiral.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es como combinar varios empujones para saber hacia dónde se moverá realmente un objeto. Se suman teniendo en cuenta su dirección y su sentido. Si van en direcciones opuestas, se restan entre sí. ¿Cómo se llama esta suma de varias fuerzas?",
+      "pregunta": "<mark>Es como combinar varios empujones para saber hacia dónde se moverá realmente un objeto</mark>. Se suman teniendo en cuenta su dirección y su sentido. Si van en direcciones opuestas, se restan entre sí. ¿Cómo se llama esta suma de varias fuerzas?",
       "respuesta": "<mark>Fuerza resultante</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/tira-y-afloja-fuerzas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Un balón seguiría rodando para siempre si no hubiera rozamiento. Un cuerpo sigue haciendo lo mismo si nada lo empuja. También se llama principio de inercia. ¿Cómo se llama esta primera ley?",
+      "pregunta": "<mark>Un balón seguiría rodando para siempre si no hubiera rozamiento</mark>. Un cuerpo sigue haciendo lo mismo si nada lo empuja. También se llama principio de inercia. ¿Cómo se llama esta primera ley?",
       "respuesta": "<mark>Primera ley de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/bolas-billar-mesa.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Cuanta más fuerza se aplica a un mismo objeto, más rápido cambia su velocidad. También depende de la masa del objeto. Relaciona la fuerza aplicada con la aceleración que produce. ¿Cómo se llama esta segunda ley?",
+      "pregunta": "<mark>Cuanta más fuerza se aplica a un mismo objeto, más rápido cambia su velocidad</mark>. También depende de la masa del objeto. Relaciona la fuerza aplicada con la aceleración que produce. ¿Cómo se llama esta segunda ley?",
       "respuesta": "<mark>Segunda ley de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/carritos-supermercado.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Empujar una pared hace que la pared también te empuje a ti con la misma fuerza. Toda fuerza provoca otra igual y de sentido contrario. Explica cómo funciona el despegue de un cohete. ¿Cómo se llama esta tercera ley?",
+      "pregunta": "<mark>Empujar una pared hace que la pared también te empuje a ti con la misma fuerza</mark>. Toda fuerza provoca otra igual y de sentido contrario. Explica cómo funciona el despegue de un cohete. ¿Cómo se llama esta tercera ley?",
       "respuesta": "<mark>Tercera ley de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/cohete-espacial.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es como un imán invisible que actúa entre cualquier par de objetos con masa. Explica por qué los planetas giran alrededor del Sol. La propuso Isaac Newton. ¿Cómo se llama esta ley, sobre la atracción entre cuerpos con masa?",
+      "pregunta": "<mark>Es como un imán invisible que actúa entre cualquier par de objetos con masa</mark>. Explica por qué los planetas giran alrededor del Sol. La propuso Isaac Newton. ¿Cómo se llama esta ley, sobre la atracción entre cuerpos con masa?",
       "respuesta": "<mark>Ley de la Gravitación Universal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/manzanas-cayendo-arbol.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es como conseguir el mismo resultado empujando con menos fuerza, gracias a un buen diseño. La palanca, la polea y el plano inclinado son ejemplos comunes. ¿Cómo se llaman estas herramientas que facilitan el trabajo?",
+      "pregunta": "<mark>Es como conseguir el mismo resultado empujando con menos fuerza</mark>. La palanca, la polea y el plano inclinado son ejemplos comunes. ¿Cómo se llaman estas herramientas que facilitan el trabajo?",
       "respuesta": "<mark>Máquinas simples</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/polea-fija.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es como la fuerza invisible que hace que un imán atraiga objetos de hierro. Se usa en motores, altavoces y muchos otros aparatos actuales. ¿Cómo se llama este tipo de fenómeno, de atracción o repulsión entre ciertos materiales?",
+      "pregunta": "<mark>Es como la fuerza invisible que hace que un imán atraiga objetos de hierro</mark>. Se usa en motores, altavoces y muchos otros aparatos actuales. ¿Cómo se llama este tipo de fenómeno, de atracción o repulsión entre ciertos materiales?",
       "respuesta": "<mark>Fenómeno magnético</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/iman-limaduras-hierro.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Una corriente eléctrica puede generar un campo magnético. Es como si electricidad y magnetismo fueran dos caras de la misma moneda. Se aprovecha en motores eléctricos y generadores. ¿Cómo se llama esta conexión entre electricidad y magnetismo?",
+      "pregunta": "Una corriente eléctrica puede generar un campo magnético. <mark>Es como si electricidad y magnetismo fueran dos caras de la misma moneda</mark>. Se aprovecha en motores eléctricos y generadores. ¿Cómo se llama esta conexión entre electricidad y magnetismo?",
       "respuesta": "<mark>Electromagnetismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/campo-magnetico-bobina.svg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Desde un coche hasta un satélite, muchas cosas se diseñan usando estas reglas. Explican con precisión el movimiento de la mayoría de los objetos cotidianos. Siguen siendo la base de la física que se estudia primero. ¿Cómo se llaman estas reglas, propuestas hace más de tres siglos?",
+      "pregunta": "<mark>Desde un coche hasta un satélite, muchas cosas se diseñan usando estas reglas</mark>. Explican con precisión el movimiento de la mayoría de los objetos cotidianos. Siguen siendo la base de la física que se estudia primero. ¿Cómo se llaman estas reglas, propuestas hace más de tres siglos?",
       "respuesta": "<mark>Leyes de Newton</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_4/estatua-isaac-newton.jpg",

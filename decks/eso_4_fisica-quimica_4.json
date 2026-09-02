@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "El carbono es el ladrillo estrella de casi toda la vida. Incluye desde plásticos hasta las moléculas del cuerpo. ¿Cómo se llama la rama de la química que estudia los compuestos con carbono?",
+      "pregunta": "El carbono es el ladrillo estrella de casi toda la vida. <mark>Incluye desde plásticos hasta las moléculas del cuerpo</mark>. ¿Cómo se llama la rama de la química que estudia los compuestos con carbono?",
       "respuesta": "<mark>Química orgánica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/quimica-verde.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es como una pieza de construcción que encaja de muchas formas. Se une a otros átomos de sí mismo formando cadenas largas y variadas. Por eso existen millones de compuestos con él. ¿Cómo se llama este elemento tan especial?",
+      "pregunta": "<mark>Es como una pieza de construcción que encaja de muchas formas</mark>. Se une a átomos de sí mismo formando cadenas largas. Por eso existen millones de compuestos con él. ¿Cómo se llama este elemento tan especial?",
       "respuesta": "<mark>Carbono</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/diamantes-carbono.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es como una etiqueta que indica qué tipo de reacciones tiene una molécula. Reconocerlo ayuda a predecir sus propiedades. ¿Cómo se llama esta parte de la molécula que define cómo reacciona?",
+      "pregunta": "<mark>Es como una etiqueta que indica qué tipo de reacciones tiene una molécula</mark>. Reconocerla ayuda a predecir sus propiedades. ¿Cómo se llama esta parte de la molécula que define cómo reacciona?",
       "respuesta": "<mark>Grupo funcional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/molecula-manzana.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Son las cadenas más sencillas de los hidrocarburos. El metano, del gas natural, es un ejemplo. Solo tienen enlaces simples entre carbono e hidrógeno. ¿Cómo se llaman estos compuestos?",
+      "pregunta": "Son las cadenas más sencillas de los hidrocarburos. <mark>El metano, del gas natural, es un ejemplo</mark>. Solo tienen enlaces simples entre carbono e hidrógeno. ¿Cómo se llaman estos compuestos?",
       "respuesta": "<mark>Alcanos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/gasolinera-precios.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Ese doble enlace los hace más reactivos que los alcanos. El etileno, un ejemplo, se usa mucho para fabricar plásticos. ¿Cómo se llaman los hidrocarburos con al menos un doble enlace entre carbonos?",
+      "pregunta": "Ese doble enlace los hace más reactivos que los alcanos. <mark>El etileno, un ejemplo, se usa para fabricar plásticos</mark>. ¿Cómo se llaman los hidrocarburos con al menos un doble enlace entre carbonos?",
       "respuesta": "<mark>Alquenos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/botellas-plastico.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Ese triple enlace los hace más reactivos que los alquenos. El acetileno, un ejemplo, se usa en soldadura. ¿Cómo se llaman los hidrocarburos con al menos un triple enlace entre carbonos?",
+      "pregunta": "Ese triple enlace los hace más reactivos que los alquenos. <mark>El acetileno, un ejemplo, se usa en soldadura</mark>. ¿Cómo se llaman los hidrocarburos con al menos un triple enlace entre carbonos?",
       "respuesta": "<mark>Alquinos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/soldadura-mascara.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es como contar sílabas para saber cómo se llama exactamente cada molécula. 'Met-' indica un carbono; 'et-', dos carbonos. Un prefijo indica cuántos carbonos tiene la cadena principal. ¿Cómo se llama este sistema para nombrar los hidrocarburos según su número de carbonos?",
+      "pregunta": "<mark>Es como contar sílabas para saber cómo se llama exactamente cada molécula</mark>. Met- indica un carbono; et-, dos carbonos. ¿Cómo se llama este sistema para nombrar los hidrocarburos según su número de carbonos?",
       "respuesta": "<mark>Nomenclatura de hidrocarburos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/surtidor-gasolina.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Los plásticos, combustibles y muchos medicamentos vienen de aquí. También se usan en textiles, cosmética y agricultura. Buena parte de los objetos que usamos vienen de esta rama de la química. ¿Cómo se llama esta rama que estudia los compuestos con carbono?",
+      "pregunta": "<mark>Los plásticos, combustibles y muchos medicamentos vienen de aquí</mark>. También se usan en textiles, cosmética y agricultura. ¿Cómo se llama esta rama que estudia los compuestos con carbono?",
       "respuesta": "<mark>Química orgánica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/refineria-petroleo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Las proteínas, los azúcares, las grasas y el ADN están construidos con moléculas de carbono. La vida está construida, en gran parte, con este tipo de moléculas. ¿Cómo se llaman estas moléculas propias de los seres vivos?",
+      "pregunta": "<mark>Las proteínas, los azúcares, las grasas y el ADN están hechos de carbono</mark>. La vida está construida, en gran parte, con este tipo de compuestos. ¿Cómo se llaman estas moléculas propias de los seres vivos?",
       "respuesta": "<mark>Biomoléculas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/adn-doble-helice.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Está en medicamentos, materiales, alimentos y combustibles. Casi cualquier objeto que usamos lleva algo de esta rama de la química. Sigue siendo una rama muy investigada. ¿Cómo se llama esta rama, tan presente en la vida cotidiana?",
+      "pregunta": "<mark>Está en medicamentos, materiales, alimentos y combustibles</mark>. Casi cualquier objeto que usamos lleva algo de esta rama de la química. ¿Cómo se llama esta rama, tan presente en la vida cotidiana?",
       "respuesta": "<mark>Química orgánica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_4/pastillas-medicamento.jpg",

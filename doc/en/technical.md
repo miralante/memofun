@@ -71,9 +71,14 @@ Memofun uses **its own format**, not Anki's `.apkg`: a plain JSON file.
 or "why it matters" — closed by a short question asking the learner to
 name or identify the concept; `respuesta` is ONLY that concept/term
 itself, short (1-6 words), wrapped in `<mark></mark>` (see the content
-rules in §8 and in `CLAUDE.md`). Simple HTML only (`<mark>`, `<b>`,
-`<i>`, `<br>`). `App.decks` normalizes any file with this shape; a file
-with no `tarjetas` array is rejected.
+rules in §8 and in `CLAUDE.md`). The study screen renders `respuesta`
+as a large title and `pregunta` as a small caption below it (image, if
+any, to the left — `tools/study/app.js`), so `pregunta`'s own
+analogy/example phrase is also wrapped in one `<mark></mark>` span
+(not the whole clue, not the closing question) to carry the same
+highlight color. Simple HTML only (`<mark>`, `<b>`, `<i>`, `<br>`).
+`App.decks` normalizes any file with this shape; a file with no
+`tarjetas` array is rejected.
 
 ### 3.1 Optional per-card image (`imagen`)
 
@@ -336,17 +341,17 @@ it only understands its shape.
    file (see §4).
 5. If the deck extends an existing series (`literatura` → `_2` →
    `_3`…), the agent reads `decks/concepts/<base-slug>.md` instead of
-   every sibling deck's full JSON to see what's already covered and
-   how, then updates that log with what the new deck added — see
-   `CLAUDE.md` → "Generating deck content" step 7. This log is never
-   read by the site itself; it's a workshop file for the agent, so
-   editing it never needs a `sw.js` `VERSION` bump.
+   every other deck of the suite's full JSON to see what's already
+   covered and how, then updates that log with what the new deck
+   added — see `CLAUDE.md` → "Generating deck content" step 7. This
+   log is never read by the site itself; it's a workshop file for the
+   agent, so editing it never needs a `sw.js` `VERSION` bump.
 6. The content gets reviewed (by whoever asked for it, or by the agent
    applying the checklist) before it's considered published.
 
 ## 9. `scripts/check.js` and `scripts/check-version-bump.js`
 
-Same pattern as the rest of the sibling family: dependency-free
+Same pattern as the rest of the apps of the suite: dependency-free
 structural checks meant to run before every change.
 
 - **`node scripts/check.js`**: JS syntax across the whole site, ES/EN

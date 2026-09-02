@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "El cuerpo se organiza en niveles, cada uno más complejo que el anterior. Es como piezas que se van juntando: ladrillo, pared, habitación y casa entera. Esa organización permite que el cuerpo funcione de forma coordinada. ¿Cuáles son estos cuatro niveles, del más simple al más complejo?",
+      "pregunta": "El cuerpo se organiza en niveles, cada uno más complejo que el anterior. <mark>Es como piezas que se van juntando: ladrillo, pared, habitación y casa entera</mark>. Esa organización permite que el cuerpo funcione de forma coordinada. ¿Cuáles son estos cuatro niveles, del más simple al más complejo?",
       "respuesta": "<mark>Célula, tejido, órgano y aparato</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/organos-cuerpo-humano.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es un grupo de células parecidas que trabajan juntas con la misma función. Es como un equipo de trabajadores especializados en la misma tarea. Varios de estos grupos distintos forman después un órgano completo. ¿Cómo se llama este grupo de células?",
+      "pregunta": "Es un grupo de células parecidas que trabajan juntas con la misma función. <mark>Es como un equipo de trabajadores especializados en la misma tarea</mark>. Varios de estos grupos distintos forman después un órgano completo. ¿Cómo se llama este grupo de células?",
       "respuesta": "<mark>Tejido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/tejido-histologia.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de procesos que transforman alimento en energía. Es como el motor de un coche, que convierte combustible en movimiento. En ella participan los aparatos digestivo, respiratorio, circulatorio y excretor. ¿Cómo se llama esta función?",
+      "pregunta": "Es el conjunto de procesos que transforman alimento en energía. <mark>Es como el motor de un coche, que convierte combustible en movimiento</mark>. En ella participan los aparatos digestivo, respiratorio, circulatorio y excretor. ¿Cómo se llama esta función?",
       "respuesta": "<mark>Función de nutrición</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras-sanas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Transforma los alimentos en sustancias que el cuerpo puede aprovechar. Es como una fábrica que descompone la comida en piezas pequeñas y útiles. Incluye la boca, el esófago, el estómago y el intestino, entre otros. ¿Cómo se llama este aparato?",
+      "pregunta": "Transforma los alimentos en sustancias que el cuerpo puede aprovechar. <mark>Es como una fábrica que descompone la comida en piezas pequeñas y útiles</mark>. Incluye la boca, el esófago, el estómago y el intestino, entre otros. ¿Cómo se llama este aparato?",
       "respuesta": "<mark>Aparato digestivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/aparato-digestivo.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es el proceso de descomponer los alimentos en partes muy pequeñas. Es como triturar y deshacer la comida hasta que el cuerpo pueda absorberla. Empieza en la boca, al masticar, y continúa en el estómago y el intestino. ¿Cómo se llama este proceso?",
+      "pregunta": "Es el proceso de descomponer los alimentos en partes muy pequeñas. <mark>Es como triturar y deshacer la comida hasta que el cuerpo pueda absorberla</mark>. Empieza en la boca, al masticar, y continúa en el estómago y el intestino. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Digestión</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/comida-plato.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Permite tomar oxígeno del aire y expulsar dióxido de carbono. Es como un intercambiador constante de aire limpio por aire usado. Incluye la nariz, la tráquea y los pulmones. ¿Cómo se llama este aparato?",
+      "pregunta": "Permite tomar oxígeno del aire y expulsar dióxido de carbono. <mark>Es como un intercambiador constante de aire limpio por aire usado</mark>. Incluye la nariz, la tráquea y los pulmones. ¿Cómo se llama este aparato?",
       "respuesta": "<mark>Aparato respiratorio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/pulmones-intercambio-gaseoso.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "El oxígeno del aire pasa a la sangre, y el dióxido de carbono sale de ella. Es un intercambio constante, como cambiar cromos entre dos personas. Así, la sangre lleva oxígeno a todo el cuerpo. ¿Cómo se llaman las estructuras diminutas donde ocurre este intercambio?",
+      "pregunta": "El oxígeno del aire pasa a la sangre, y el dióxido de carbono sale de ella. Es un intercambio constante, <mark>como cambiar cromos entre dos personas</mark>. Así, la sangre lleva oxígeno a todo el cuerpo. ¿Cómo se llaman las estructuras diminutas donde ocurre este intercambio?",
       "respuesta": "<mark>Alvéolos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/pulmon-diagrama.png",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Transporta la sangre, y con ella oxígeno y nutrientes, por todo el cuerpo. Es como una red de carreteras que reparte suministros a cada rincón del cuerpo. Incluye el corazón, las venas y las arterias. ¿Cómo se llama este aparato?",
+      "pregunta": "Transporta la sangre, y con ella oxígeno y nutrientes, por todo el cuerpo. <mark>Es como una red de carreteras que reparte suministros a cada rincón del cuerpo</mark>. Incluye el corazón, las venas y las arterias. ¿Cómo se llama este aparato?",
       "respuesta": "<mark>Aparato circulatorio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/modelo-corazon.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Bombea la sangre para que circule por todo el cuerpo sin parar. Es como una bomba que trabaja sin descanso, día y noche. Se contrae y se relaja miles de veces cada día. ¿Qué órgano cumple esta función?",
+      "pregunta": "Bombea la sangre para que circule por todo el cuerpo sin parar. <mark>Es como una bomba que trabaja sin descanso, día y noche</mark>. Se contrae y se relaja miles de veces cada día. ¿Qué órgano cumple esta función?",
       "respuesta": "<mark>Corazón</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/corazon-real.png",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Un tipo de vaso lleva sangre desde el corazón hacia el resto del cuerpo. El otro devuelve la sangre de vuelta hacia el corazón. Ambos forman parte de la misma red de transporte sanguíneo. ¿Cómo se llama cada uno de estos vasos?",
+      "pregunta": "Un tipo de vaso lleva sangre desde el corazón hacia el resto del cuerpo. El otro devuelve la sangre de vuelta hacia el corazón. <mark>Ambos forman parte de la misma red de transporte sanguíneo</mark>. ¿Cómo se llama cada uno de estos vasos?",
       "respuesta": "<mark>Arterias y venas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/vasos-sanguineos.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Elimina del cuerpo las sustancias de desecho que ya no sirven. Es como el sistema de limpieza que saca la basura de una casa. Los riñones filtran la sangre y producen la orina. ¿Cómo se llama este aparato?",
+      "pregunta": "Elimina del cuerpo las sustancias de desecho que ya no sirven. <mark>Es como el sistema de limpieza que saca la basura de una casa</mark>. Los riñones filtran la sangre y producen la orina. ¿Cómo se llama este aparato?",
       "respuesta": "<mark>Aparato excretor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/torax-abdomen.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Filtran la sangre y eliminan las sustancias que el cuerpo no necesita. Actúan como un filtro de agua, quedándose con lo bueno y expulsando lo malo. Su trabajo es constante, incluso mientras dormimos. ¿Qué órganos cumplen esta función?",
+      "pregunta": "Filtran la sangre y eliminan las sustancias que el cuerpo no necesita. <mark>Actúan como un filtro de agua, quedándose con lo bueno y expulsando lo malo</mark>. Su trabajo es constante, incluso mientras dormimos. ¿Qué órganos cumplen esta función?",
       "respuesta": "<mark>Riñones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/rinon-ilustracion.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Cada aparato depende del trabajo de los demás para funcionar bien. Es como un equipo donde cada jugador necesita que los otros hagan bien su parte. El digestivo aporta nutrientes; el respiratorio, oxígeno; el circulatorio los reparte; el excretor limpia. ¿Qué función conjunta cumplen todos estos aparatos?",
+      "pregunta": "Cada aparato depende del trabajo de los demás para funcionar bien. <mark>Es como un equipo donde cada jugador necesita que los otros hagan bien su parte</mark>. El digestivo aporta nutrientes; el respiratorio, oxígeno; el circulatorio los reparte; el excretor limpia. ¿Qué función conjunta cumplen todos estos aparatos?",
       "respuesta": "<mark>La nutrición</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/organos-digestivos.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Son las sustancias de los alimentos que el cuerpo usa para funcionar y crecer. Son como las piezas necesarias para reparar y mantener una máquina en marcha. Incluyen proteínas, grasas, azúcares, vitaminas y minerales. ¿Cómo se llaman estas sustancias?",
+      "pregunta": "Son las sustancias de los alimentos que el cuerpo usa para funcionar y crecer. <mark>Son como las piezas necesarias para reparar y mantener una máquina en marcha</mark>. Incluyen proteínas, grasas, azúcares, vitaminas y minerales. ¿Cómo se llaman estas sustancias?",
       "respuesta": "<mark>Nutrientes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Si uno de los aparatos falla, el resto del cuerpo se ve afectado, porque todos están conectados. Es como si un eslabón de una cadena se rompiera, afectando a toda la cadena. Un problema circulatorio, por ejemplo, puede afectar también a órganos lejanos. ¿Cómo se llama esta dependencia mutua entre los aparatos del cuerpo?",
+      "pregunta": "Si uno de los aparatos falla, el resto del cuerpo se ve afectado, porque todos están conectados. <mark>Es como si un eslabón de una cadena se rompiera, afectando a toda la cadena</mark>. Un problema circulatorio, por ejemplo, puede afectar también a órganos lejanos. ¿Cómo se llama esta dependencia mutua entre los aparatos del cuerpo?",
       "respuesta": "<mark>Interdependencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/diagrama-digestivo.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Los nutrientes pasan del intestino a la sangre, que los reparte por todo el organismo. Es como cargar un camión de reparto que lleva mercancía a cada rincón de la ciudad. Así cada célula recibe lo que necesita. ¿Qué aparato se encarga de este transporte?",
+      "pregunta": "Los nutrientes pasan del intestino a la sangre, que los reparte por todo el organismo. <mark>Es como cargar un camión de reparto que lleva mercancía a cada rincón de la ciudad</mark>. Así cada célula recibe lo que necesita. ¿Qué aparato se encarga de este transporte?",
       "respuesta": "<mark>Aparato circulatorio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_2/intestino-delgado.jpg",

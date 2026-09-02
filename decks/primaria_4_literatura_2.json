@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Aquí, quien cuenta la historia es un personaje de ella. Usa palabras como 'yo' y 'mi', porque la vive. Solo sabe lo que ese personaje sabe. ¿Cómo se llama este tipo de narrador?",
+      "pregunta": "Aquí, quien cuenta la historia es un personaje de ella. <mark>Es como contarle tu propio día a un amigo</mark>. Solo sabe lo que ese personaje sabe. ¿Cómo se llama este tipo de narrador?",
       "respuesta": "<mark>Narrador en primera persona</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura_2/narrador-primera-persona.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Aquí, quien cuenta la historia no es un personaje de ella. Usa palabras como 'él' o 'ella', como si mirara desde fuera. Puede saber cosas que los personajes no saben. ¿Cómo se llama este tipo de narrador?",
+      "pregunta": "Aquí, quien cuenta la historia no es un personaje de ella. <mark>Es como ver la escena desde una ventana, sin participar</mark>. Puede saber cosas que los personajes no saben. ¿Cómo se llama este tipo de narrador?",
       "respuesta": "<mark>Narrador en tercera persona</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura_2/maquina-escribir.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Un narrador puede vivir la historia por dentro y decir 'yo'. Este otro narrador la observa desde fuera, como un testigo. Dice 'él' o 'ella' en vez de 'yo'. ¿Cómo se llama este segundo tipo de narrador?",
+      "pregunta": "Un narrador puede vivir la historia por dentro y decir 'yo'. Este otro <mark>la observa desde fuera, como un testigo</mark>. Dice 'él' o 'ella' en vez de 'yo'. ¿Cómo se llama este segundo tipo de narrador?",
       "respuesta": "<mark>Narrador en tercera persona</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura_2/pluma-papel.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Son indicaciones de una obra de teatro que no se dicen en voz alta. Explican cómo se mueve o qué siente un personaje. Suelen ir escritas entre paréntesis o en cursiva. ¿Cómo se llaman estas indicaciones?",
+      "pregunta": "Son indicaciones de una obra de teatro que no se dicen en voz alta. <mark>Es como una nota secreta solo para los actores</mark>. Suelen ir escritas entre paréntesis o en cursiva. ¿Cómo se llaman estas indicaciones?",
       "respuesta": "<mark>Acotaciones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura_2/telon-teatro.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es la ropa que llevan los actores en escena. Ayuda al público a saber quién es cada personaje al instante. Un rey necesita una corona; un pirata, un parche. ¿Cómo se llama esta ropa de escena?",
+      "pregunta": "Es la ropa que llevan los actores en escena. <mark>Es como un disfraz que dice quién eres sin hablar</mark>. Un rey necesita una corona; un pirata, un parche. ¿Cómo se llama esta ropa de escena?",
       "respuesta": "<mark>El vestuario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura_2/vestuario-rey-corona.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "En el teatro ves y oyes la historia sin pantalla de por medio. Los actores están ahí mismo, delante de ti. Si algo sale mal, no se puede repetir. ¿Cómo se llama vivir una historia así?",
+      "pregunta": "En el teatro ves y oyes la historia sin pantalla de por medio. <mark>Es como estar en la misma habitación que la historia</mark>. Si algo sale mal, no se puede repetir. ¿Cómo se llama vivir una historia así?",
       "respuesta": "<mark>En directo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_4_literatura_2/teatro-actores-saludando.jpg",

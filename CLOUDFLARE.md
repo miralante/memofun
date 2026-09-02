@@ -1,9 +1,11 @@
 # Cloudflare Workers (static assets) — Memofun
 
-> **Part of a group of sibling projects.** Memofun is one of six static,
-> no-backend, accessibility-first sites that share the same author and
-> the same Cloudflare deploy story. **Apptonomia is the main project**
-> of the group; the canonical Cloudflare guide lives in
+> **Part of the Miralante suite.** Memofun is one of **six apps**
+> (Calculia, Memofun, Okeymoney, Routime, Sinonimia, Teclatlon) that
+> share the same author and the same accessibility-first /
+> no-backend / no-runtime-AI philosophy. **Apptonomia is the landing
+> portal of the suite, not a runtime app.** The canonical Cloudflare
+> guide for the group lives in
 > [Apptonomia's `CLOUDFLARE.md`](https://github.com/miralante/apptonomia/blob/master/CLOUDFLARE.md).
 > This document is the Memofun-specific runbook on top of it, modeled
 > on [Sinonimia's `CLOUDFLARE.md`](https://github.com/miralante/sinonimia/blob/main/CLOUDFLARE.md)
@@ -44,9 +46,9 @@ shows **"No active routes"** and every URL returns empty.
 
 This bit Memofun on its first Cloudflare setup: the Git connector was
 created, the build succeeded, but `memofun.<account-subdomain>.workers.dev`
-didn't resolve. The sibling projects (Sinonimia, Okeymoney, Calculia,
-Teclatlon) all have the URL because the toggle was left on in their
-wizard; here it was off.
+didn't resolve. The other apps of the suite (Sinonimia, Okeymoney,
+Calculia, Teclatlon) all have the URL because the toggle was left on
+in their wizard; here it was off.
 
 **Fix — one click in the dashboard:**
 
@@ -124,7 +126,7 @@ four jobs (none of them deploy):
 |---|---|---|
 | `check` | Runs `node scripts/check.js` (92 checks: structural, i18n parity, no-clinical-language, CSP quoting, deck manifest integrity, sw.js ↔ disk parity). | A user-facing file is broken, missing a translation, or violates a project rule. |
 | `cache-bump` | Runs `node scripts/check-version-bump.js`. Diffs `sw.js` against the parent commit and fails if a file in `FILES` changed without `VERSION` being bumped. | A returning visitor with the PWA installed will see the old version. |
-| `i18n-smoke` | Runs `node scripts/i18n-keys-smoke.js` (informational, `continue-on-error: true`). Lists every `data-i18n*` / `App.i18n.t()` key used in a page that isn't registered in any locale. | Doesn't fail by default — content gaps to fix in `strings.<locale>.js`, surfaced in the job log. Same pattern as the sibling apptonomia project's `scripts/i18n-keys-smoke.js`. |
+| `i18n-smoke` | Runs `node scripts/i18n-keys-smoke.js` (informational, `continue-on-error: true`). Lists every `data-i18n*` / `App.i18n.t()` key used in a page that isn't registered in any locale. | Doesn't fail by default — content gaps to fix in `strings.<locale>.js`, surfaced in the job log. Same pattern as the apptonomia app of the suite's `scripts/i18n-keys-smoke.js`. |
 | `secrets-scan` | Runs `node scripts/scan-secrets.js` (same script maintainers can run locally). Pattern-based grep for accidentally committed secrets (API keys, tokens, private keys). | A leak in the repo. |
 
 A separate workflow, [`.github/workflows/smoke-prod.yml`](.github/workflows/smoke-prod.yml),

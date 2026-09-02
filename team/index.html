@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es" data-locale="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="pageTitle">Memofun — Quiénes la hacen</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" data-i18n="pageDescription" content="Quién mantiene Memofun y cómo contribuir al proyecto.">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+  <script src="strings.es.js"></script>
+</head>
+<body>
+  <div class="container about">
+    <header class="cabecera-about">
+      <div class="idioma-selector" role="group" aria-label="Elegir idioma">
+        <button type="button" class="btn-idioma" data-locale-switch="es" aria-pressed="false">🇪🇸 Español</button>
+        <button type="button" class="btn-idioma" data-locale-switch="en" aria-pressed="false">🇬🇧 English</button>
+      </div>
+      <img src="assets/img/icono.svg" alt="" width="80" height="80" class="logo-about">
+      <h1>Memofun</h1>
+      <p class="lema" data-i18n="tagline">Memofun es una app de tarjetas de memoria para repaso autónomo. Software libre (MIT), mantenido por la comunidad Apptonomia. Aquí explicamos quién hay detrás y cómo ayudar.</p>
+    </header>
+    <main class="pila">
+      <section class="card">
+        <h2 data-i18n="techTeamTitle">Equipo técnico</h2>
+        <p data-i18n="techTeamText">Mantiene el código de la app, el motor de repaso, el reproductor de audio y la generación de barajas desde el contenido curado. Suele trabajar vía pull requests y revisión en GitHub.</p>
+      </section>
+      <section class="card">
+        <h2 data-i18n="clinicTeamTitle">Equipo clínico y educativo</h2>
+        <p data-i18n="clinicTeamText">Familia, docentes y terapeutas que preparan las barajas (desde un tema o desde <code>doc/curriculum/</code>), revisan el contenido antes de publicarlo y validan que cada tarjeta cumple su intención didáctica.</p>
+      </section>
+      <section class="card">
+        <h2 data-i18n="outreachTeamTitle">Equipo de divulgación y sostenibilidad</h2>
+        <p data-i18n="outreachTeamText">Comunicación, fundaciones y administraciones públicas que difunden Memofun, financian la creación de barajas en más áreas curriculares o coordinan forks para asignaturas concretas.</p>
+      </section>
+      <section class="card">
+        <h2 data-i18n="howHelpTitle">Cómo ayudar</h2>
+        <p data-i18n="howHelpText">Pull requests al motor o al formato de barajas, propuestas de nuevas barajas, traducción del contenido a más idiomas, o difusión entre profesionales, centros y familias. Cualquier baraja nueva pasa por revisión clínica antes de publicarse.</p>
+      </section>
+    </main>
+  </div>
+  <script>
+    (function () {
+      var supported = ['es', 'en'];
+      var stored = null;
+      try { stored = localStorage.getItem('locale'); } catch (e) { stored = null; }
+      var browser = (navigator.language || navigator.userLanguage || 'es').slice(0, 2);
+      var locale = supported.indexOf(stored) >= 0 ? stored
+                 : supported.indexOf(browser) >= 0 ? browser
+                 : 'es';
+      if (locale !== 'es') {
+        var s = document.createElement('script');
+        s.src = 'strings.' + locale + '.js';
+        s.onload = function () { applyLocale(locale); };
+        document.head.appendChild(s);
+      } else {
+        applyLocale(locale);
+      }
+      function applyLocale(loc) {
+        var strings = (window.__i18n_strings__ || {})[loc] || {};
+        document.documentElement.lang = loc;
+        document.documentElement.dataset.locale = loc;
+        var nodes = document.querySelectorAll('[data-i18n]');
+        for (var i = 0; i < nodes.length; i++) {
+          var k = nodes[i].getAttribute('data-i18n');
+          if (typeof strings[k] !== 'undefined') nodes[i].textContent = strings[k];
+        }
+        var titleEl = document.querySelector('title[data-i18n]');
+        if (titleEl && typeof strings.pageTitle !== 'undefined') document.title = strings.pageTitle;
+        var desc = document.querySelector('meta[name="description"][data-i18n]');
+        if (desc && typeof strings.pageDescription !== 'undefined') desc.setAttribute('content', strings.pageDescription);
+        var btns = document.querySelectorAll('[data-locale-switch]');
+        for (var j = 0; j < btns.length; j++) {
+          btns[j].addEventListener('click', (function (b) {
+            return function () {
+              try { localStorage.setItem('locale', b); } catch (e) {}
+              location.reload();
+            };
+          })(btns[j].dataset.localeSwitch));
+        }
+        for (var k2 = 0; k2 < btns.length; k2++) {
+          btns[k2].setAttribute('aria-pressed', btns[k2].dataset.localeSwitch === loc ? 'true' : 'false');
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

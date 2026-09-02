@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es una red mundial que conecta ordenadores de todo el planeta entre sí. Es como una red de carreteras invisible que conecta a todo el mundo. Permite buscar información, comunicarse y trabajar a distancia. ¿Cómo se llama esta red?",
+      "pregunta": "Es una red mundial que conecta ordenadores de todo el planeta entre sí. <mark>Es como una red de carreteras invisible que conecta a todo el mundo</mark>. Permite buscar información, comunicarse y trabajar a distancia. ¿Cómo se llama esta red?",
       "respuesta": "<mark>Internet</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/internet-red.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es el programa que se usa para acceder a páginas web. Es como la ventana desde la que miras todo lo que hay en internet. Chrome o Firefox son ejemplos conocidos. ¿Cómo se llama este programa?",
+      "pregunta": "Es el programa que se usa para acceder a páginas web. <mark>Es como la ventana desde la que miras todo lo que hay en internet</mark>. Chrome o Firefox son ejemplos conocidos. ¿Cómo se llama este programa?",
       "respuesta": "<mark>Navegador</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/ordenador-portatil-pantalla.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Permite escribir una dirección web, buscar información y guardar páginas favoritas. Es como un mando a distancia que te lleva a cualquier rincón de internet. También guarda un historial de páginas visitadas. ¿Qué programa hace todo esto?",
+      "pregunta": "Permite escribir una dirección web, buscar información y guardar páginas favoritas. <mark>Es como un mando a distancia que te lleva a cualquier rincón de internet</mark>. También guarda un historial de páginas visitadas. ¿Qué programa hace todo esto?",
       "respuesta": "<mark>El navegador</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/navegador-pantalla-completa.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es una copia de los datos importantes, guardada aparte por si algo falla. Es como tener una fotocopia guardada de un documento importante, por si el original se pierde. ¿Cómo se llama esta copia?",
+      "pregunta": "Guarda aparte los datos importantes, por si algo falla. <mark>Es como tener un duplicado guardado de un documento importante, por si el original se pierde</mark>. ¿Cómo se llama este resguardo de los datos?",
       "respuesta": "<mark>Copia de seguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/disco-duro-externo.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Un fallo del ordenador puede hacer perder toda la información guardada. Es como asegurar algo valioso por si ocurre un imprevisto. Sin esto, esos datos podrían perderse para siempre. ¿Qué conviene hacer con regularidad?",
+      "pregunta": "Un fallo del ordenador puede hacer perder toda la información guardada. <mark>Es como proteger algo valioso por si ocurre un imprevisto</mark>. Sin esto, esos datos podrían perderse para siempre. ¿Qué conviene hacer con regularidad?",
       "respuesta": "<mark>Copias de seguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/candado-seguridad.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Combina letras, números y símbolos, y no es fácil de adivinar. Es como poner una buena cerradura a una puerta, en vez de una fácil de forzar. Evitar datos personales la hace todavía mejor. ¿Qué tipo de contraseña es esta?",
+      "pregunta": "Combina letras, números y símbolos, y no es fácil de adivinar. <mark>Es como poner una buena cerradura a una puerta, en vez de una fácil de forzar</mark>. Evitar datos personales la hace todavía mejor. ¿Qué tipo de contraseña es esta?",
       "respuesta": "<mark>Una contraseña segura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/caja-fuerte-seguridad.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "No hay que compartirlas, conviene cambiarlas de vez en cuando y no usar la misma en todos lados. Es como no dejar la misma llave para todas las puertas de tu vida. ¿De qué son estas buenas prácticas?",
+      "pregunta": "No hay que compartirlas, conviene cambiarlas de vez en cuando y no usar la misma en todos lados. <mark>Es como no dejar la misma llave para todas las puertas de tu vida</mark>. ¿De qué son estas buenas prácticas?",
       "respuesta": "<mark>Las contraseñas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/persona-escribiendo-teclado.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es un programa dañino que se instala en un ordenador sin permiso. Es como una infección que afecta al funcionamiento normal del equipo. Puede robar información o dañar archivos. ¿Cómo se llama este programa?",
+      "pregunta": "Es un programa dañino que se instala en un ordenador sin permiso. <mark>Es como una infección que afecta al funcionamiento normal del equipo</mark>. Puede robar información o dañar archivos. ¿Cómo se llama este programa?",
       "respuesta": "<mark>Virus informático</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/error-pantalla-windows.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Un ordenador se protege usando un antivirus, evitando enlaces sospechosos y actualizando los programas. Es como vacunarse y evitar lugares de riesgo al mismo tiempo. No abrir archivos de desconocidos también ayuda. ¿De qué se protege un ordenador con estas medidas?",
+      "pregunta": "Un ordenador se protege usando un antivirus, evitando enlaces sospechosos y actualizando los programas. <mark>Es como vacunarse y evitar lugares de riesgo al mismo tiempo</mark>. No abrir archivos de desconocidos también ayuda. ¿De qué se protege un ordenador con estas medidas?",
       "respuesta": "<mark>De los virus</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/paraguas-proteccion-lluvia.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de normas que protegen la información privada de las personas. Es como respetar la intimidad de alguien, aplicado a sus datos personales. ¿Cómo se llama este conjunto de normas?",
+      "pregunta": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a su información personal</mark>. ¿Cómo se llama este conjunto de normas?",
       "respuesta": "<mark>Protección de datos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/papel-triturado-documentos.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Esos datos pertenecen a otras personas y deben tratarse con responsabilidad. Es como cuidar algo que no es tuyo, pero de lo que eres responsable. ¿Qué hay que tratar con cuidado en el ordenador del trabajo?",
+      "pregunta": "Esa información pertenece a otras personas y debe tratarse con responsabilidad. <mark>Es como cuidar algo que no es tuyo, pero de lo que eres responsable</mark>. ¿Qué hay que tratar con cuidado en el ordenador del trabajo?",
       "respuesta": "<mark>Los datos personales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/oficina-trabajo-ordenador.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Incluye limpiarlo, actualizar sus programas y revisar que todo funcione bien. Es como el mantenimiento regular de un coche, para que no se estropee. ¿Cómo se llama hacer todo esto con un equipo?",
+      "pregunta": "Incluye limpiarlo, actualizar sus programas y revisar que todo funcione bien. <mark>Es como el cuidado regular que se le da a un coche, para que no se estropee</mark>. ¿Cómo se llama hacer todo esto con un equipo?",
       "respuesta": "<mark>Mantenimiento básico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/limpieza-mantenimiento.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Las actualizaciones suelen corregir fallos de seguridad conocidos. Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar. ¿Qué conviene hacer regularmente con los programas?",
+      "pregunta": "Las actualizaciones suelen corregir fallos de seguridad conocidos. <mark>Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar</mark>. ¿Qué conviene hacer regularmente con los programas?",
       "respuesta": "<mark>Actualizarlos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/actualizacion-software-movil.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Un equipo bien mantenido y actualizado es mucho más difícil de atacar. Es como mantener bien cerrada una casa para que sea más difícil entrar en ella. ¿Qué hace más difícil un ataque informático?",
+      "pregunta": "Un equipo cuidado y actualizado es mucho más difícil de atacar. <mark>Es como tener siempre bien cerrada una casa, para que sea más difícil entrar</mark>. ¿Qué hace más difícil un ataque informático?",
       "respuesta": "<mark>Un buen mantenimiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/tecnico-reparando-ordenador.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Cada vez más tareas de trabajo dependen de herramientas digitales. Es como necesitar saber nadar en un entorno donde cada vez hay más agua. ¿Qué conviene aprender en cualquier puesto de oficina?",
+      "pregunta": "Cada vez más tareas de trabajo dependen de herramientas digitales. <mark>Es como necesitar saber nadar en un entorno donde cada vez hay más agua</mark>. ¿Qué conviene aprender en cualquier puesto de oficina?",
       "respuesta": "<mark>Seguridad informática básica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/aula-formacion-informatica.jpg",

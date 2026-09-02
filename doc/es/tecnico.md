@@ -36,8 +36,9 @@ memofun/
 └── doc/
     ├── es/ · en/         esta documentación
     └── curriculum/es/    biblioteca de índices curriculares Primaria→FP GM (ver README propio)
-                          curriculum/en/ es una carpeta hermana vacía, reservada
-                          para la misma biblioteca en otro idioma
+                          curriculum/en/ es una carpeta paralela vacía,
+                          reservada para la misma biblioteca en otro
+                          idioma
 ```
 
 ## 2. Módulos compartidos (`assets/js/`)
@@ -74,10 +75,15 @@ JSON plano.
 o el "por qué importa" — cerrada con una pregunta corta que pide
 nombrar o identificar el concepto; `respuesta` es SOLO ese
 concepto/término, corto (1-6 palabras), envuelto en `<mark></mark>`
-(ver las reglas de contenido en §8 y en `CLAUDE.md`). HTML simple
-únicamente (`<mark>`, `<b>`, `<i>`, `<br>`). `App.decks` normaliza
-cualquier archivo con esta forma; un archivo sin `tarjetas` (array) se
-rechaza.
+(ver las reglas de contenido en §8 y en `CLAUDE.md`). La pantalla de
+estudio muestra `respuesta` como título grande y `pregunta` como texto
+pequeño debajo (imagen, si la hay, a la izquierda —
+`tools/study/app.js`), así que la propia analogía/ejemplo de
+`pregunta` también va envuelta en un `<mark></mark>` (no toda la
+pista, no la pregunta final) para llevar el mismo color de resaltado.
+HTML simple únicamente (`<mark>`, `<b>`, `<i>`, `<br>`). `App.decks`
+normaliza cualquier archivo con esta forma; un archivo sin `tarjetas`
+(array) se rechaza.
 
 ### 3.1 Imagen opcional por tarjeta (`imagen`)
 
@@ -361,11 +367,12 @@ entiende su forma.
    `doc/curriculum/` (ver §4).
 5. Si la baraja amplía una serie existente (`literatura` → `_2` →
    `_3`…), el agente lee `decks/concepts/<base-slug>.md` en vez del
-   JSON completo de cada baraja hermana para ver qué está cubierto y
-   cómo, y actualiza ese registro con lo que añadió la baraja nueva —
-   ver `CLAUDE.md` → "Generating deck content" paso 7. Este registro
-   no lo lee nunca el sitio; es una herramienta de trabajo del agente,
-   así que editarlo nunca requiere subir el `VERSION` de `sw.js`.
+   JSON completo de cada otra baraja de la suite para ver qué está
+   cubierto y cómo, y actualiza ese registro con lo que añadió la
+   baraja nueva — ver `CLAUDE.md` → "Generating deck content" paso
+   7. Este registro no lo lee nunca el sitio; es una herramienta de
+   trabajo del agente, así que editarlo nunca requiere subir el
+   `VERSION` de `sw.js`.
 6. Se revisa el contenido (la propia persona que lo pidió, o el
    agente aplicando el checklist) antes de darlo por publicado.
 

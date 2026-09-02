@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Las formas físicas del terreno, como montañas o llanuras, son solo una parte. Esto además incluye el clima, la vegetación y la huella humana. Dos lugares con el mismo relieve pueden ser muy distintos así. ¿Cómo se llama este conjunto más amplio?",
+      "pregunta": "Las formas físicas del terreno, como montañas o llanuras, son solo una parte. <mark>Esto además incluye el clima, la vegetación y la huella humana</mark>. Dos lugares con el mismo relieve pueden ser muy distintos así. ¿Cómo se llama este conjunto más amplio?",
       "respuesta": "<mark>Paisaje</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/paisaje-valle-montana.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es como una escultura moldeada por fuerzas de dentro y de fuera. El clima, la roca y los procesos geológicos actúan durante millones de años. Cambia tan lento que no lo notamos en una vida. ¿Qué forman estos factores juntos?",
+      "pregunta": "<mark>Es como una escultura moldeada por fuerzas de dentro y de fuera</mark>. El clima, la roca y los procesos geológicos actúan durante millones de años. Cambia tan lento que no lo notamos en una vida. ¿Qué forman estos factores juntos?",
       "respuesta": "<mark>El relieve</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/hoodoos-erosion.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es como investigar un motor escuchando y midiendo desde fuera. Los científicos usan estas ondas para deducir el interior de la Tierra. Se generan en terremotos y volcanes. ¿Cómo se llaman estas ondas?",
+      "pregunta": "<mark>Es como investigar un motor escuchando y midiendo desde fuera</mark>. Los científicos usan estas ondas para deducir el interior de la Tierra. Se generan en terremotos y volcanes. ¿Cómo se llaman estas ondas?",
       "respuesta": "<mark>Ondas sísmicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/sismografo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es como el borde donde termina un material y empieza otro distinto. Las ondas sísmicas cambian de velocidad al cruzarlo. Separan la corteza, el manto y el núcleo. ¿Cómo se llaman estos límites?",
+      "pregunta": "<mark>Es como el borde donde termina un material y empieza otro distinto</mark>. Las ondas sísmicas cambian de velocidad al cruzarlo. Separan la corteza, el manto y el núcleo. ¿Cómo se llaman estos límites?",
       "respuesta": "<mark>Discontinuidades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/capas-interior-tierra.svg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es como un rompecabezas gigante cuyas piezas se mueven muy lentamente. La corteza terrestre está dividida en grandes placas. Ese movimiento explica terremotos y volcanes. ¿Cómo se llama esta teoría?",
+      "pregunta": "<mark>Es como un rompecabezas gigante cuyas piezas se mueven muy lentamente</mark>. La corteza terrestre está dividida en grandes placas. Ese movimiento explica terremotos y volcanes. ¿Cómo se llama esta teoría?",
       "respuesta": "<mark>Tectónica de placas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/mapa-placas-tectonicas.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es como dos coches que se alejan, chocan de frente o se rozan al pasar. Las placas tectónicas se comportan igual entre ellas. Donde chocan, se forman grandes cordilleras. ¿Cómo se llaman estos puntos de contacto entre placas?",
+      "pregunta": "<mark>Es como dos coches que se alejan, chocan de frente o se rozan al pasar</mark>. Las placas tectónicas se comportan igual entre ellas. Donde chocan, se forman grandes cordilleras. ¿Cómo se llaman estos puntos de contacto entre placas?",
       "respuesta": "<mark>Bordes de placas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/dorsal-centro-atlantica.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Ahí la energía interna de la Tierra encuentra más fácil salir a la superficie. Terremotos y volcanes se concentran en los bordes de las placas. El Cinturón de Fuego del Pacífico es un ejemplo. ¿Dónde se concentra esta actividad?",
+      "pregunta": "Ahí la energía interna de la Tierra encuentra más fácil salir a la superficie. Terremotos y volcanes se concentran en los bordes de las placas. <mark>El Cinturón de Fuego del Pacífico es un ejemplo</mark>. ¿Dónde se concentra esta actividad?",
       "respuesta": "<mark>Bordes de las placas tectónicas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/cinturon-fuego-pacifico.png",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es la posibilidad de que un fenómeno natural dañe a personas o construcciones. Terremotos y erupciones son ejemplos. Su peligro depende de dónde vive la población cercana. ¿Cómo se llama esta posibilidad de daño?",
+      "pregunta": "Es la posibilidad de que un fenómeno natural dañe a personas o construcciones. <mark>Terremotos y erupciones son ejemplos</mark>. Su peligro depende de dónde vive la población cercana. ¿Cómo se llama esta posibilidad de daño?",
       "respuesta": "<mark>Riesgo geológico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/terremoto-edificios-colapsados-nepal.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es como preparar un plan de evacuación antes de un incendio. Estudiar el terreno y vigilar volcanes ayuda a anticiparse. No se evita el fenómeno, pero sí su daño. ¿Qué se reduce con esta preparación?",
+      "pregunta": "<mark>Es como preparar un plan de evacuación antes de un incendio</mark>. Estudiar el terreno y vigilar volcanes ayuda a anticiparse. No se evita el fenómeno, pero sí su daño. ¿Qué se reduce con esta preparación?",
       "respuesta": "<mark>El impacto del riesgo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/observatorio-volcanes-hawaii.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es como cortar un pastel para ver sus distintas capas. Muestran cómo están dispuestas las capas de roca de un lugar. Ayudan a interpretar la historia geológica de una zona. ¿Cómo se llaman estas representaciones?",
+      "pregunta": "<mark>Es como rebanar un pastel para ver sus distintas capas</mark>. Muestran cómo están dispuestas las capas de roca de un lugar. Ayudan a interpretar la historia geológica de una zona. ¿Cómo se llaman estas representaciones?",
       "respuesta": "<mark>Cortes geológicos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/capas-roca.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es como apilar libros: el primero que se coloca queda en la base. Las capas de roca más antiguas quedan debajo de las recientes. Ayuda a leer la historia de la Tierra sin máquina del tiempo. ¿Cómo se llama este principio?",
+      "pregunta": "<mark>Es como apilar libros: el primero que se coloca queda en la base</mark>. Las capas de roca más antiguas quedan debajo de las recientes. Ayuda a leer la historia de la Tierra sin máquina del tiempo. ¿Cómo se llama este principio?",
       "respuesta": "<mark>Principio de superposición</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/monument-valley-estratos.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es tan largo que la historia humana ocupa solo un instante. Se divide en eras, periodos y épocas. Sitúa eventos como la aparición de los dinosaurios. ¿Cómo se llama esta escala de tiempo?",
+      "pregunta": "Es tan largo que la historia humana ocupa solo un instante. Se divide en eras, periodos y épocas. <mark>Sitúa eventos como la aparición de los dinosaurios</mark>. ¿Cómo se llama esta escala de tiempo?",
       "respuesta": "<mark>Tiempo geológico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/escala-tiempo-geologico.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es como encontrar una foto con fecha en un álbum sin ordenar. Permiten identificar en qué época se formó una capa de roca. Los fósiles guía son especialmente útiles para esto. ¿Qué palabra nombra este proceso de poner fecha?",
+      "pregunta": "<mark>Es como encontrar una foto con fecha en un álbum sin ordenar</mark>. Permiten identificar en qué época se formó una capa de roca. Los fósiles guía son especialmente útiles para esto. ¿Qué palabra nombra este proceso de poner fecha?",
       "respuesta": "<mark>Datación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/trilobite-fosil-piedra.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Es como conocer bien un río para saber cuándo puede desbordarse. Entender la Tierra ayuda a anticipar sus riesgos. Permite construir más seguro y avisar a tiempo. ¿Qué ciencia hace posible esta prevención?",
+      "pregunta": "<mark>Es como conocer bien un río para saber cuándo puede desbordarse</mark>. Entender la Tierra ayuda a anticipar sus riesgos. Permite construir más seguro y avisar a tiempo. ¿Qué ciencia hace posible esta prevención?",
       "respuesta": "<mark>Geología</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_biologia-geologia_5/geologo-limite-cretacico-paleogeno.jpg",

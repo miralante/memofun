@@ -4,59 +4,59 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es una serie de pasos ordenados para conseguir algo, como una receta de cocina. Cada paso lleva al siguiente, sin saltarse ninguno. ¿Cómo se llama esta serie de pasos?",
+      "pregunta": "Es una serie de pasos ordenados para conseguir algo, <mark>como una receta de cocina</mark>. Cada paso lleva al siguiente, sin saltarse ninguno. ¿Cómo se llama esta serie de pasos?",
       "respuesta": "<mark>Algoritmo</mark>"
     },
     {
-      "pregunta": "Lavarse los dientes tiene pasos concretos: coger el cepillo, poner pasta, cepillar y enjuagar, en ese orden. Si se cambia el orden, el resultado no es el mismo. ¿Cómo se llama una serie de pasos así?",
+      "pregunta": "Lavarse los dientes tiene pasos concretos, <mark>como coger el cepillo, poner pasta, cepillar y enjuagar en ese orden</mark>. Si se cambia el orden, el resultado no es el mismo. ¿Cómo se llama una serie de pasos así?",
       "respuesta": "<mark>Algoritmo</mark>"
     },
     {
-      "pregunta": "Es escribir instrucciones claras para que el ordenador las siga, como una lista de órdenes para un robot obediente. El ordenador hace exactamente lo que se le indica. ¿Cómo se llama esta tarea?",
+      "pregunta": "Es escribir instrucciones claras para que el ordenador las siga, <mark>como una lista de órdenes para un robot obediente</mark>. El ordenador hace exactamente lo que se le indica. ¿Cómo se llama esta tarea?",
       "respuesta": "<mark>Programar</mark>"
     },
     {
-      "pregunta": "Es una parte de un algoritmo que se repite varias veces seguidas, como saltar a la comba diez veces sin parar. Sirve para no repetir la misma instrucción por separado. ¿Cómo se llama esta parte que se repite?",
+      "pregunta": "Es una parte de un algoritmo que se repite varias veces seguidas, <mark>como saltar a la comba diez veces sin parar</mark>. Sirve para no repetir la misma instrucción por separado. ¿Cómo se llama esta parte que se repite?",
       "respuesta": "<mark>Bucle</mark>"
     },
     {
-      "pregunta": "Es una regla que dice: si pasa esto, entonces haz aquello, como decidir «si llueve, cojo el paraguas». El programa elige un camino distinto según lo que ocurra. ¿Cómo se llama esta regla?",
+      "pregunta": "Es una regla que dice: si pasa esto, entonces haz aquello, <mark>como decidir «si llueve, cojo el paraguas»</mark>. El programa elige un camino distinto según lo que ocurra. ¿Cómo se llama esta regla?",
       "respuesta": "<mark>Condición</mark>"
     },
     {
-      "pregunta": "Un orden distinto de pasos puede dar un resultado distinto o un error, como ponerse los calcetines después de los zapatos. Cada paso depende del anterior. ¿Qué hay que cuidar mucho al programar?",
+      "pregunta": "Un orden distinto de pasos puede dar un resultado distinto o un error, <mark>como ponerse los calcetines después de los zapatos</mark>. Cada paso depende del anterior. ¿Qué hay que cuidar mucho al programar?",
       "respuesta": "<mark>El orden de los pasos</mark>"
     },
     {
-      "pregunta": "Es un fallo que hace que el programa no funcione bien, como una receta con un ingrediente olvidado. Encontrar y corregir estos fallos es parte normal de programar. ¿Cómo se llama este fallo?",
+      "pregunta": "Es un fallo que hace que el programa no funcione bien, <mark>como una receta con un ingrediente olvidado</mark>. Encontrar y corregir estos fallos es parte normal de programar. ¿Cómo se llama este fallo?",
       "respuesta": "<mark>Error (bug)</mark>"
     },
     {
-      "pregunta": "Observar, preguntar, comprobar y concluir: así se resuelve un misterio real sobre el mundo. Es una herramienta útil para toda la vida. ¿Cómo se llama esta forma ordenada de buscar respuestas?",
+      "pregunta": "Observar, preguntar, comprobar y concluir: <mark>como resolver un misterio paso a paso</mark>. Es una herramienta útil para toda la vida. ¿Cómo se llama esta forma ordenada de buscar respuestas?",
       "respuesta": "<mark>Método científico</mark>"
     },
     {
-      "pregunta": "Cada especie cumple una función en su ecosistema, como un equipo de fútbol: si falta un jugador, el equipo cojea. Perder especies rompe ese equilibrio. ¿Qué hay que cuidar para mantener sano el planeta?",
+      "pregunta": "Cada especie cumple una función en su ecosistema, <mark>como un equipo de fútbol: si falta un jugador, el equipo cojea</mark>. Perder especies rompe ese equilibrio. ¿Qué hay que cuidar para mantener sano el planeta?",
       "respuesta": "<mark>Biodiversidad</mark>"
     },
     {
-      "pregunta": "El cuerpo necesita comer alimentos variados con distintos nutrientes, como construir con piezas distintas: energía, ladrillos y tornillos. También necesita agua. ¿Qué función del cuerpo ayuda a crecer fuerte y sano?",
+      "pregunta": "El cuerpo necesita comer alimentos variados con distintos nutrientes, <mark>como construir con piezas distintas: energía, ladrillos y tornillos</mark>. También necesita agua. ¿Qué función del cuerpo ayuda a crecer fuerte y sano?",
       "respuesta": "<mark>Nutrición</mark>"
     },
     {
-      "pregunta": "Es lo que hace que las cosas se muevan o cambien. Ahorrarla es como no dejar un grifo abierto sin necesidad. ¿Cómo se llama lo que hace que las cosas se muevan o cambien?",
+      "pregunta": "Es lo que hace que las cosas se muevan o cambien. Ahorrarla es <mark>como no dejar un grifo abierto sin necesidad</mark>. ¿Cómo se llama esto?",
       "respuesta": "<mark>Energía</mark>"
     },
     {
-      "pregunta": "Es todo lo que existe: galaxias, estrellas y planetas, tan grande que se mide en años luz. Nuestra galaxia, la Vía Láctea, es solo una entre miles de millones. ¿Cómo se llama todo esto junto?",
+      "pregunta": "Es todo lo que existe: galaxias, estrellas y planetas, <mark>tan grande que se mide en años luz</mark>. Nuestra galaxia, la Vía Láctea, es solo una entre miles de millones. ¿Cómo se llama todo esto junto?",
       "respuesta": "<mark>Universo</mark>"
     },
     {
-      "pregunta": "Es un cambio en el que unas sustancias se convierten en otras distintas, como transformar ingredientes en un plato nuevo. La oxidación y la combustión son ejemplos diarios. ¿Cómo se llama este cambio?",
+      "pregunta": "Es un cambio en el que unas sustancias se convierten en otras distintas, <mark>como transformar ingredientes en un plato nuevo</mark>. La oxidación y la combustión son ejemplos diarios. ¿Cómo se llama este cambio?",
       "respuesta": "<mark>Reacción química</mark>"
     },
     {
-      "pregunta": "Un alumno de 6º lleva ganas de preguntar y de comprobar las cosas, como una mochila llena de herramientas útiles. También lleva el hábito de cuidar el planeta y su cuerpo. ¿Qué actitud clave se lleva a la ESO?",
+      "pregunta": "Un alumno de 6º lleva ganas de preguntar y de comprobar las cosas, <mark>como una mochila llena de herramientas útiles</mark>. También lleva el hábito de cuidar el planeta y su cuerpo. ¿Qué actitud clave se lleva a la ESO?",
       "respuesta": "<mark>Curiosidad</mark>"
     }
   ]

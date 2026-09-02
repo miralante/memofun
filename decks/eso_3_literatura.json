@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Un movimiento cultural admiraba la belleza, el amor y la naturaleza. Buscaba la armonía, como en la antigua Grecia. Dejó atrás los temas tristes de la Edad Media. ¿Cómo se llama este movimiento?",
+      "pregunta": "Un movimiento cultural admiraba la belleza, el amor y la naturaleza, <mark>buscando la armonía como en la antigua Grecia</mark>. Dejó atrás los temas tristes de la Edad Media. ¿Cómo se llama este movimiento?",
       "respuesta": "<mark>El Renacimiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/renacimiento-admiraba.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Escribía poemas de amor y de naturaleza en el Renacimiento. Trajo desde Italia un ritmo nuevo para la poesía española. Cambió para siempre cómo sonaba un poema en español. ¿Quién fue este poeta?",
+      "pregunta": "Escribía poemas de amor y de naturaleza en el Renacimiento. <mark>Trajo desde Italia un ritmo nuevo para la poesía española</mark>. ¿Quién fue este poeta?",
       "respuesta": "<mark>Garcilaso de la Vega</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/garcilaso.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Cuenta la vida de un personaje pobre pero ingenioso. Sobrevive gracias a su astucia, sirviendo a distintos amos. Se narra en primera persona, como si fuera real. ¿Cómo se llama este tipo de novela?",
+      "pregunta": "Cuenta la vida de un personaje pobre pero ingenioso. Sobrevive gracias a su astucia, sirviendo a distintos amos. <mark>Se narra en primera persona, como si fuera real</mark>. ¿Cómo se llama este tipo de novela?",
       "respuesta": "<mark>Novela picaresca</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/novela-picaresca.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Cuenta la vida de un niño pobre y listo llamado Lázaro. Sirve a varios amos distintos para poder comer. Se considera la primera gran novela picaresca. ¿Cómo se llama esta obra?",
+      "pregunta": "Cuenta la vida de un niño pobre y listo llamado Lázaro. <mark>Sirve a varios amos distintos para poder comer</mark>. Se considera la primera gran novela picaresca. ¿Cómo se llama esta obra?",
       "respuesta": "<mark>El Lazarillo de Tormes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/lazarillo-cuenta.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Lázaro pasa hambre con cada amo al que sirve. Cada uno le enseña una lección distinta sobre el mundo. Se vuelve cada vez más astuto para sobrevivir. ¿Cómo avanza la novela, de qué en qué?",
+      "pregunta": "Lázaro pasa hambre con cada amo al que sirve. <mark>Cada uno le enseña una lección distinta sobre el mundo</mark>. Se vuelve cada vez más astuto para sobrevivir. ¿Cómo avanza la novela, de qué en qué?",
       "respuesta": "<mark>De amo en amo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/lazaro-amos.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Un movimiento artístico repite que la vida es corta y engañosa. Es como una pompa de jabón: brilla y enseguida desaparece. Mezcla lo hermoso con lo triste. ¿Cómo se llama esta idea que repite?",
+      "pregunta": "Un movimiento artístico repite que la vida es corta y engañosa. <mark>Es como una pompa de jabón: brilla y enseguida desaparece</mark>. Mezcla lo hermoso con lo triste. ¿Cómo se llama esta idea que repite?",
       "respuesta": "<mark>Desengaño</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/arte-barroco.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Fue un escritor español, autor de 'Don Quijote'. Vivió aventuras propias, como ser soldado y prisionero. Escribió su obra más famosa ya mayor. ¿Quién fue este escritor?",
+      "pregunta": "Fue un escritor español, autor de 'Don Quijote'. <mark>Vivió aventuras propias, como ser soldado y prisionero</mark>. Escribió su obra más famosa ya mayor. ¿Quién fue este escritor?",
       "respuesta": "<mark>Miguel de Cervantes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/cervantes-teatro-quijote.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Don Quijote ve gigantes donde solo hay unas construcciones reales. Los ataca con su lanza, convencido de que son gigantes. Termina derribado por sus aspas. ¿Qué son en realidad esos 'gigantes'?",
+      "pregunta": "Don Quijote ve gigantes donde solo hay unas construcciones reales. Los ataca con su lanza, convencido de que son gigantes. <mark>Termina derribado por sus aspas</mark>. ¿Qué son en realidad esos 'gigantes'?",
       "respuesta": "<mark>Molinos de viento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/molino-consuegra.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Ha leído demasiados libros sobre caballeros y aventuras. Se cree él mismo un caballero, viviendo esas historias. Por eso ve gigantes y princesas donde no los hay. ¿Qué libros ha leído demasiado Don Quijote?",
+      "pregunta": "Ha leído demasiados libros sobre caballeros y aventuras. Se cree él mismo un caballero, viviendo esas historias. <mark>Por eso ve gigantes y princesas donde no los hay</mark>. ¿Qué libros ha leído demasiado Don Quijote?",
       "respuesta": "<mark>Libros de caballerías</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/quijote-realidad.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Escribía versos ingeniosos, a veces muy burlones. Le encantaba sorprender al lector con una idea inesperada. Buscaba decir mucho con pocas palabras. ¿Quién fue este poeta del Barroco?",
+      "pregunta": "Escribía versos ingeniosos, a veces muy burlones. Le encantaba sorprender al lector con una idea inesperada. <mark>Buscaba decir mucho con pocas palabras</mark>. ¿Quién fue este poeta del Barroco?",
       "respuesta": "<mark>Quevedo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/quevedo-retrato.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Escribía con un lenguaje muy adornado, cuidando cada palabra como una joya. Sus poemas suenan bellísimos, aunque cuesta entenderlos a la primera. Buscaba la belleza en el sonido de las palabras. ¿Quién fue este poeta del Barroco?",
+      "pregunta": "Escribía con un lenguaje muy adornado, <mark>cuidando cada palabra como una joya</mark>. Sus poemas suenan bellísimos, aunque cuesta entenderlos a la primera. Buscaba la belleza en el sonido de las palabras. ¿Quién fue este poeta del Barroco?",
       "respuesta": "<mark>Góngora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/gongora-obras.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Dos poetas del Barroco escribían de forma muy distinta y se criticaban entre sí. Cada uno pensaba que su estilo era mejor. Se dedicaron versos burlones el uno al otro. ¿Cómo se llama esta relación entre Quevedo y Góngora?",
+      "pregunta": "Dos poetas del Barroco escribían de forma muy distinta y se criticaban entre sí. Cada uno pensaba que su estilo era mejor. <mark>Se dedicaron versos burlones el uno al otro</mark>. ¿Cómo se llama esta relación entre Quevedo y Góngora?",
       "respuesta": "<mark>Rivalidad literaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/quevedo-gongora.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Inventó una forma nueva de hacer teatro, mezclando risa y drama en la misma obra. Antes, ambas cosas iban siempre por separado. Escribió cientos de obras a lo largo de su vida. ¿Quién fue este autor de teatro?",
+      "pregunta": "Inventó una forma nueva de hacer teatro, <mark>mezclando risa y drama en la misma obra</mark>. Antes, ambas cosas iban siempre por separado. Escribió cientos de obras a lo largo de su vida. ¿Quién fue este autor de teatro?",
       "respuesta": "<mark>Lope de Vega</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/lope-de-vega-estatua.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Los personajes de Lope de Vega defendían esto por encima de casi todo. También mostraba conflictos entre ricos y pobres. El público se sentía identificado con esas historias. ¿Qué dos temas trataba sobre todo su teatro?",
+      "pregunta": "Los personajes de Lope de Vega defendían esto por encima de casi todo. También mostraba conflictos entre ricos y pobres. <mark>El público se sentía identificado con esas historias</mark>. ¿Qué dos temas trataba sobre todo su teatro?",
       "respuesta": "<mark>El honor y el amor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/teatro-lope-vega.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Un movimiento admiraba la armonía y la belleza sencilla, con esperanza. El otro mostraba que esa belleza no dura, con desengaño. Los dos compartían el amor por el arte, pero con miradas opuestas. ¿Cuál de los dos mira el mundo con desengaño?",
+      "pregunta": "Un movimiento admiraba la armonía y la belleza sencilla, con esperanza. El otro mostraba que esa belleza no dura, con desengaño. <mark>Los dos compartían el amor por el arte, pero con miradas opuestas</mark>. ¿Cuál de los dos mira el mundo con desengaño?",
       "respuesta": "<mark>El Barroco</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/barroco-renacimiento.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Sigue siendo una historia divertida y también triste, cientos de años después. Sus aventuras se leen hoy casi como entonces. Es un libro muy traducido, solo por detrás de otro. ¿Qué libro es el más traducido, por delante del Quijote?",
+      "pregunta": "Sigue siendo una historia divertida y también triste, cientos de años después. <mark>Sus aventuras se leen hoy casi como entonces</mark>. Es un libro muy traducido, solo por detrás de otro. ¿Qué libro es el más traducido, por delante del Quijote?",
       "respuesta": "<mark>La Biblia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura/seguimos-leyendo-quijote.jpg",

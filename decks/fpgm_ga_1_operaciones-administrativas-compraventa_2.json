@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es la diferencia entre el precio al que se compra un producto y el precio al que se vende. Es como la ganancia que queda después de restar lo que te costó a ti. Un buen margen permite cubrir gastos y obtener beneficio. ¿Cómo se llama esta diferencia?",
+      "pregunta": "Es la diferencia entre el precio de compra y el precio de venta. <mark>Es como la ganancia que queda tras restar lo que te costó</mark>. Permite cubrir gastos y obtener beneficio. ¿Cómo se llama esta diferencia?",
       "respuesta": "<mark>Margen comercial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/rebajas-cartel.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es una rebaja que se aplica sobre el precio original de un producto o servicio. Es como quitarle una parte al precio, normalmente para incentivar la compra. Puede depender de la cantidad comprada o de la forma de pago. ¿Cómo se llama esta rebaja?",
+      "pregunta": "Es una rebaja que se aplica sobre el precio original de algo. <mark>Es como quitarle una parte al precio, para incentivar la compra</mark>. Puede depender de la cantidad o de la forma de pago. ¿Cómo se llama esta rebaja?",
       "respuesta": "<mark>Descuento comercial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/etiqueta-descuento.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es una cantidad que se añade al precio original, al contrario que un descuento. Es como sumar un extra al precio, por ejemplo por pagar más tarde de lo acordado. Suele aplicarse en compras a plazos o entregas urgentes. ¿Cómo se llama esta cantidad añadida?",
+      "pregunta": "Es una cantidad que se añade al precio original, al contrario que un descuento. <mark>Es como sumar un extra, por ejemplo por pagar más tarde de lo acordado</mark>. Suele aplicarse en compras a plazos o entregas urgentes. ¿Cómo se llama esta cantidad añadida?",
       "respuesta": "<mark>Recargo comercial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/factura-venta.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Para saber el precio final de un producto hay que sumar el coste de compra, el transporte, los impuestos y el margen. Es como sumar todos los ingredientes de una receta antes de saber el coste final del plato. Olvidar un gasto puede hacer que se venda con pérdidas. ¿Qué se calcula sumando todos esos gastos?",
+      "pregunta": "Para calcularlo hay que sumar el coste de compra, el transporte, los impuestos y el margen. <mark>Es como sumar todos los ingredientes de una receta antes de conocer el coste del plato</mark>. Olvidar un gasto puede hacer que se venda con pérdidas. ¿Qué se calcula sumando todos esos gastos?",
       "respuesta": "<mark>El precio final</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/caja-supermercado.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Son los libros donde se anotan de forma ordenada las facturas emitidas y recibidas. Es como llevar un cuaderno oficial de cada factura, para que Hacienda pueda comprobarlo. Su llevanza correcta es obligatoria por ley. ¿Cómo se llaman estos libros?",
+      "pregunta": "Son los documentos donde se anotan de forma ordenada las facturas emitidas y recibidas. <mark>Es como llevar un cuaderno oficial de cada factura, para que Hacienda lo compruebe</mark>. Su llevanza correcta es obligatoria por ley. ¿Cómo se llaman estos libros?",
       "respuesta": "<mark>Libros registro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/facturas-recibos.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "El IVA se declara normalmente cada tres meses, aunque algunas empresas grandes lo hacen cada mes. Es como hacer cuentas periódicas con Hacienda, en vez de esperar a fin de año. Presentarlas fuera de plazo puede acarrear recargos. ¿Cada cuánto se suele declarar el IVA?",
+      "pregunta": "El IVA se declara normalmente cada tres meses, aunque grandes empresas lo hacen cada mes. <mark>Es como hacer cuentas periódicas con Hacienda, en vez de esperar a fin de año</mark>. Presentarlas fuera de plazo puede acarrear recargos. ¿Cada cuánto se suele declarar el IVA?",
       "respuesta": "<mark>Cada trimestre</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/calendario-mes.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es la cantidad más baja de un producto que conviene tener siempre disponible. Es como la señal de alarma que avisa de que hay que pedir más antes de quedarte sin nada. Bajar de ese nivel supone el riesgo de no poder atender pedidos. ¿Cómo se llama esta cantidad?",
+      "pregunta": "Es la cantidad más baja de un producto que conviene tener siempre disponible. <mark>Es como la alarma que avisa de que hay que pedir más antes de quedarte sin nada</mark>. Bajar de ese nivel supone el riesgo de no atender pedidos. ¿Cómo se llama esta cantidad?",
       "respuesta": "<mark>Stock mínimo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/estanteria-vacia.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es la cantidad de producto que permite atender la demanda sin acumular de más. Es como encontrar el punto justo entre no quedarte corto y no llenar el almacén sin necesidad. Tener demasiado también genera costes. ¿Cómo se llama esta cantidad ideal?",
+      "pregunta": "Es la cantidad de producto que permite atender la demanda sin acumular de más. <mark>Es como encontrar el punto justo entre quedarte corto y llenar el almacén sin necesidad</mark>. Tener demasiado también genera costes. ¿Cómo se llama esta cantidad ideal?",
       "respuesta": "<mark>Stock óptimo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/almacen-lleno.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Pagar una compra por internet ofrece rapidez, comodidad y no tener que desplazarse. Es como hacer la gestión desde el sofá, en vez de tener que ir en persona a pagar. Requiere, eso sí, cuidar bien la seguridad del pago. ¿Qué forma de pago ofrece estas ventajas?",
+      "pregunta": "Ofrece rapidez, comodidad y no tener que desplazarte. <mark>Es como hacer la gestión desde el sofá, en vez de ir en persona</mark>. Requiere, eso sí, cuidar bien la seguridad. ¿Qué forma de pago ofrece estas ventajas?",
       "respuesta": "<mark>El pago por internet</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/compra-online.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es la posibilidad de aplazar el pago de una compra, en vez de pagarla toda de golpe. Es como pedir un pequeño respiro para pagar, repartido en el tiempo. Suele implicar un interés adicional a cambio de esa facilidad. ¿Cómo se llama esta posibilidad?",
+      "pregunta": "Es la posibilidad de aplazar el pago de una compra, en vez de pagarla de golpe. <mark>Es como pedir un pequeño respiro para pagar, repartido en el tiempo</mark>. Suele implicar un interés adicional a cambio de esa facilidad. ¿Cómo se llama esta posibilidad?",
       "respuesta": "<mark>Financiación comercial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa_2/dinero-ahorro.jpg",

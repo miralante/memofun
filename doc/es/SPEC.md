@@ -150,6 +150,13 @@ No hay cronómetros visibles. El ritmo lo marca la persona usuaria.
   muchos nombres seguidos (movimientos literarios, épocas históricas)
   necesita más tarjetas, más pequeñas, no comprimir — ver "Generating
   deck content" en `CLAUDE.md`.
+- La pantalla de estudio muestra `respuesta` como título grande y
+  `pregunta` como texto pequeño debajo, con la imagen opcional a la
+  izquierda — ver "Generating deck content" en `CLAUDE.md`. La propia
+  analogía/ejemplo dentro de `pregunta` va envuelta en
+  `<mark></mark>` (el mismo color de resaltado que la píldora de
+  `respuesta`), para que la pista también lleve una pista de color, no
+  solo texto plano.
 
 ### 2.5 Tono divertido y datos curiosos
 
@@ -205,7 +212,7 @@ instalar herramientas para estudiar. La aplicación debe resultar previsible,
 gratuita y fácil de retomar. La arquitectura que hace posible este alcance se
 define en [`tecnico.md`](tecnico.md), no en esta especificación de producto.
 
-### 2.10 Eufemismo público: "usuario/a tipo"
+### 2.10 Eufemismo público: "persona tipo"
 
 Cuando se presenta Memofun de cara al **público general** (prensa,
 charlas, READMEs públicos que cualquiera pueda leer, el portal
@@ -213,7 +220,7 @@ charlas, READMEs públicos que cualquiera pueda leer, el portal
 "discapacidad intelectual" **no debe usarse** para describir la
 audiencia de la app, ni siquiera cuando el texto que lo rodea sería
 público. El eufemismo aceptado en esas superficies para referirse a la
-audiencia es **"usuario/a tipo"** (plural "usuarios/as tipo"),
+audiencia es **"persona tipo"** (plural "personas tipo"),
 entendido como marcador genérico de perfil, no como etiqueta para
 ninguna persona real.
 
@@ -223,8 +230,8 @@ Dónde se aplica y dónde no:
   proyecto pueda leer sin autenticarse: `README.es.md`, `README.md`,
   el portal en `apptonomia.uk`, charlas públicas, copy en redes, notas
   de prensa, material de marketing. En estas superficies se habla de
-  la audiencia como "el/la usuario/a tipo" o "los/las usuarios/as
-  tipo" de la app.
+  la audiencia como "la persona tipo" o "las personas tipo"
+  de la app.
 - **No se aplica** a la documentación interna de este repositorio
   (`CLAUDE.md`, `doc/es/SPEC.md`, `doc/en/SPEC.md`, `tecnico.md`,
   `roles.md`, `CONTRIBUTING.es.md`, `CONTRIBUTING.md`) — esos
@@ -237,7 +244,7 @@ Dónde se aplica y dónde no:
   trámite administrativo relacionado con discapacidad): eso es
   contenido, no etiquetado de la audiencia.
 - **No se aplica** a la UI de la propia app: la regla de §2.4 sigue
-  prohibiendo **cualquier** mención, incluida "usuario/a tipo", en
+  prohibiendo **cualquier** mención, incluida "persona tipo", en
   `index.html`, `app.js`, `tools/study/`, `settings/`,
   `strings.<locale>.js` y cualquier otra superficie visible. El
   eufemismo es para el exterior, no para lo que lee quien visita la
@@ -245,7 +252,7 @@ Dónde se aplica y dónde no:
 
 Razón: presentar el objetivo real del proyecto en documentación interna
 es útil y necesario; presentarlo en superficies de marketing o landing
-no es necesario ni respetuoso con la audiencia — "usuario/a tipo"
+no es necesario ni respetuoso con la audiencia — "persona tipo"
 permite describir en público para qué sirve la app (qué perfil tiene
 quien la usa) sin nombrar públicamente un grupo clínico.
 

@@ -91,8 +91,8 @@ Cuando le pides una baraja, el agente:
    amplía una serie existente (p. ej. añadir `literatura_3` junto a
    `literatura`/`literatura_2`), primero lee el registro corto de
    `decks/concepts/<base-slug>.md` — en vez del JSON completo de cada
-   baraja hermana — para ver qué está cubierto y cómo, así las
-   repeticiones siguen siendo con propósito sin releer la serie
+   otra baraja de la suite — para ver qué está cubierto y cómo, así
+   las repeticiones siguen siendo con propósito sin releer la serie
    entera cada vez. Después actualiza ese registro con lo que añadió
    la baraja nueva.
 3. Añade la entrada correspondiente a `decks/manifest.json` — si

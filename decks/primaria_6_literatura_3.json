@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un texto breve antes de que empiece la historia de un libro. Prepara al lector, como el aperitivo antes de la comida. No es parte de la historia, sino una introducción. ¿Cómo se llama este texto?",
+      "pregunta": "Es un texto breve antes de que empiece la historia de un libro. Prepara al lector, <mark>como el aperitivo antes de la comida</mark>. ¿Cómo se llama este texto?",
       "respuesta": "<mark>El prólogo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_3/prologo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es la lista de capítulos de un libro con el número de página. Funciona como un mapa para encontrar rápido lo que buscas. Suele estar al principio o al final del libro. ¿Cómo se llama esta lista?",
+      "pregunta": "Es la lista de capítulos de un libro con el número de página. Funciona <mark>como un mapa para encontrar rápido lo que buscas</mark>. ¿Cómo se llama esta lista?",
       "respuesta": "<mark>El índice</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_3/indice.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es un texto que opina sobre un libro ya leído. Es como recomendar una película a un amigo, pero por escrito. Explica qué gustó y qué no, sin contar el final. ¿Cómo se llama este texto?",
+      "pregunta": "Es un texto que opina sobre un libro ya leído, <mark>como recomendar una película a un amigo, pero por escrito</mark>. Explica qué gustó y qué no, sin contar el final. ¿Cómo se llama este texto?",
       "respuesta": "<mark>Reseña</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_3/resena-club-lectura.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Este narrador sabe todo sobre la historia. Conoce hasta los pensamientos secretos de cada personaje. Ve la historia desde fuera, como si volara sobre ella. ¿Cómo se llama este tipo de narrador?",
+      "pregunta": "Sabe todo sobre la historia y conoce hasta los pensamientos secretos de cada personaje. Ve la historia desde fuera, <mark>como si volara sobre ella</mark>. ¿Cómo se llama este tipo de narrador?",
       "respuesta": "<mark>Narrador omnisciente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_3/narrador-omnisciente.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es un escrito donde alguien cuenta su día a día. Se escribe en primera persona, como hablando con uno mismo. Guarda pensamientos y sentimientos privados. ¿Cómo se llama este tipo de escrito?",
+      "pregunta": "Es un escrito donde alguien cuenta su día a día, <mark>como hablando con uno mismo</mark>. Guarda pensamientos y sentimientos privados. ¿Cómo se llama este tipo de escrito?",
       "respuesta": "<mark>Diario personal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_3/diario-personal.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Este tipo de libro sigue leyéndose e importando muchos años después de escribirse. Su historia sigue emocionando aunque cambie la época. No basta con venderse mucho al principio. ¿Cómo se llama este tipo de libro?",
+      "pregunta": "Sigue leyéndose e importando muchos años después de escribirse. <mark>Su historia sigue emocionando aunque cambie la época</mark>. ¿Cómo se llama este tipo de libro?",
       "respuesta": "<mark>Un clásico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_3/libro-clasico.jpg",

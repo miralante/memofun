@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es una historia que se cuenta desde hace muchísimos años. Pasa de abuelos a nietos, como un tesoro compartido. Nadie sabe quién la inventó primero. ¿Cómo se llama esta clase de historia?",
+      "pregunta": "Es una historia contada desde hace muchísimos años. Pasa de abuelos a nietos, <mark>como un tesoro compartido</mark>. Nadie sabe quién la inventó primero. ¿Cómo se llama esta clase de historia?",
       "respuesta": "<mark>Cuento popular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura/cuento-popular.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Caperucita va a ver a su abuela con una cesta de comida. Un animal la engaña para llegar antes que ella. Es uno de los cuentos más contados del mundo. ¿Quién engaña a Caperucita?",
+      "pregunta": "Caperucita va a ver a su abuela <mark>con una cesta de comida</mark>. Un animal la engaña para llegar antes que ella. ¿Quién engaña a Caperucita?",
       "respuesta": "<mark>El lobo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura/caperucita-roja.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Cada cerdito hace su casa con un material distinto: paja, madera o ladrillo. Solo una casa resiste cuando el lobo sopla fuerte. El cuento enseña que hacerlo bien merece la pena. ¿De qué material es la casa que no se cae?",
+      "pregunta": "Cada cerdito hace su casa con un material distinto: paja, madera o ladrillo. Solo una resiste <mark>cuando el lobo sopla fuerte</mark>. ¿De qué material es la casa que no se cae?",
       "respuesta": "<mark>Ladrillo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura/tres-cerditos.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es cuando dos palabras terminan igual y suenan parecido, como pan y can. Hace las canciones más fáciles de recordar. Por eso aparece en tantas nanas. ¿Cómo se llama esto?",
+      "pregunta": "Es cuando dos palabras terminan igual y suenan parecido, <mark>como pan y can</mark>. Por eso aparece en tantas nanas. ¿Cómo se llama esto?",
       "respuesta": "<mark>Rima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura/rima.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Ayuda a recordar las palabras de una canción, porque suena repetido y pegadizo. Por eso cantamos las mismas nanas durante generaciones. También ayuda a hablar mejor. ¿Cómo se llama este truco de sonido?",
+      "pregunta": "Ayuda a recordar las palabras de una canción, porque suena repetido y pegadizo. Por eso <mark>cantamos las mismas nanas durante generaciones</mark>. ¿Cómo se llama este truco de sonido?",
       "respuesta": "<mark>Rima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura/canciones-infantiles.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es un juego de palabras con una pista escondida. Hay que pensar bien para descubrir la respuesta. Por ejemplo: tiene hojas y no es un árbol, es un libro. ¿Cómo se llama este juego de palabras?",
+      "pregunta": "Es un juego de palabras con una pista escondida. Por ejemplo: <mark>tiene hojas y no es un árbol, es un libro</mark>. ¿Cómo se llama este juego de palabras?",
       "respuesta": "<mark>Adivinanza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura/adivinanza.jpg",

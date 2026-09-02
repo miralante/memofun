@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es la forma ordenada en que los científicos investigan el mundo. Es como seguir una receta de pasos para no perderte al investigar. Incluye observar, preguntar, comprobar y sacar conclusiones. ¿Cómo se llama esta forma de investigar?",
+      "pregunta": "Es la forma ordenada en que los científicos investigan el mundo. <mark>Es como seguir una receta de pasos</mark> al investigar. Incluye observar, preguntar y comprobar. ¿Cómo se llama esta forma de investigar?",
       "respuesta": "<mark>Método científico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/laboratorio-quimica.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es una posible explicación que se propone antes de comprobarla. Es como una apuesta razonada, que hay que verificar con pruebas. Puede confirmarse o rechazarse tras la investigación. ¿Cómo se llama esta idea inicial?",
+      "pregunta": "Es una posible explicación que se propone antes de comprobarla. <mark>Es como una apuesta razonada</mark> que hay que verificar. Puede confirmarse o rechazarse. ¿Cómo se llama esta idea inicial?",
       "respuesta": "<mark>Hipótesis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/pregunta-hipotesis.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Permiten comprobar si una idea es cierta o no. Es como poner a prueba una receta antes de decir que funciona. Sin ellos, una idea seguiría siendo solo una suposición. ¿Cómo se llama esta prueba científica?",
+      "pregunta": "Permiten comprobar si una idea es cierta o no. <mark>Es como poner a prueba una receta</mark> antes de usarla. Sin ellos, una idea sigue siendo solo una suposición. ¿Cómo se llama esta prueba científica?",
       "respuesta": "<mark>Experimento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/mechero-experimento.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Ayudan a representar y entender procesos difíciles de observar directamente. Es como usar una maqueta para entender un edificio sin construirlo entero. Un modelo del sistema solar es un buen ejemplo. ¿Cómo se llaman estas representaciones simplificadas?",
+      "pregunta": "Ayudan a entender procesos difíciles de observar directamente. <mark>Es como usar una maqueta para entender un edificio</mark> sin construirlo. Un modelo del sistema solar es un ejemplo. ¿Cómo se llaman estas representaciones simplificadas?",
       "respuesta": "<mark>Modelos científicos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/globo-terraqueo-clase.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Ningún científico descubre todo solo, sino a partir de trabajos anteriores. Es como construir un edificio añadiendo un piso sobre los que ya existían. Compartir resultados ayuda a que otros investigadores avancen más rápido. ¿Qué tipo de trabajo hace crecer así a la ciencia?",
+      "pregunta": "Ningún científico descubre todo solo: usa trabajos anteriores. <mark>Es como añadir un piso sobre un edificio</mark> que ya existía. Compartir resultados ayuda a otros a avanzar. ¿Qué tipo de trabajo hace crecer así a la ciencia?",
       "respuesta": "<mark>Trabajo colectivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/laboratorio-equipo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Una sustancia tiene una composición química fija y propia. Otra, en cambio, es una mezcla de varias de esas sustancias juntas, como el granito. ¿Cómo se llama cada una de estas dos cosas?",
+      "pregunta": "Una sustancia tiene una composición química fija y propia. Otra es una mezcla de varias juntas, <mark>como el granito</mark>. ¿Cómo se llama cada una de estas dos cosas?",
       "respuesta": "<mark>Mineral y roca</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/gemas-brasil.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Se forman por la acumulación de restos de otras rocas o seres vivos. Es como capas de arena que, con el tiempo, se compactan hasta endurecerse. Suelen formarse en el fondo de mares, ríos o lagos. ¿Cómo se llama este tipo de roca?",
+      "pregunta": "Se forman por la acumulación de restos de otras rocas. <mark>Es como capas de arena que se compactan</mark> con el tiempo. Suelen formarse en el fondo de mares o lagos. ¿Cómo se llama este tipo de roca?",
       "respuesta": "<mark>Rocas sedimentarias</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/estratos-rocas-sedimentarias.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Se forman cuando el magma del interior de la Tierra se enfría y se solidifica. Es como cuando la cera derretida de una vela se enfría y vuelve a ser sólida. El granito y el basalto son ejemplos conocidos. ¿Cómo se llama este tipo de roca?",
+      "pregunta": "Se forman cuando el magma del interior de la Tierra se enfría. <mark>Es como la cera de una vela</mark> que se enfría y endurece. El granito y el basalto son ejemplos. ¿Cómo se llama este tipo de roca?",
       "respuesta": "<mark>Rocas ígneas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/basalto-lava.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Se forman cuando una roca cambia por calor y presión. Es como una masa de pan moldeada con calor y fuerza. El mármol viene de la caliza transformada así. ¿Cómo se llama este tipo de roca?",
+      "pregunta": "Se forman cuando una roca cambia por calor y presión. <mark>Es como una masa de pan moldeada</mark> con calor y fuerza. El mármol viene de la caliza así. ¿Cómo se llama este tipo de roca?",
       "respuesta": "<mark>Rocas metamórficas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/marmol-roca-metamorfica.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Se clasifican según sus propiedades, como el color, la dureza o el brillo. Es un poco como identificar a alguien por sus rasgos característicos. La dureza se mide comparando qué mineral raya a otro. ¿Qué usamos para reconocer un mineral sin analizarlo en un laboratorio?",
+      "pregunta": "Se clasifican por sus propiedades: color, dureza o brillo. <mark>Es como identificar a alguien por sus rasgos</mark>. La dureza se mide viendo qué mineral raya a otro. ¿Qué usamos para reconocer un mineral sin analizarlo en un laboratorio?",
       "respuesta": "<mark>Sus propiedades</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/coleccion-piedras.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es la parte sólida de la Tierra, desde la superficie hasta el centro. Es como las capas de una cebolla, una dentro de otra. Se divide en corteza, manto y núcleo. ¿Cómo se llama esta parte de la Tierra?",
+      "pregunta": "Es la parte sólida de la Tierra, desde la superficie hasta el centro. <mark>Es como las capas de una cebolla</mark>, una dentro de otra. Se divide en corteza, manto y núcleo. ¿Cómo se llama esta parte de la Tierra?",
       "respuesta": "<mark>Geosfera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/capas-cebolla.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es la capa más externa y delgada de la Tierra, donde vivimos. Es como la cáscara de una manzana, fina comparada con el resto. Está formada por rocas y es la parte que mejor conocemos. ¿Cómo se llama esta capa?",
+      "pregunta": "Es la capa más externa y delgada de la Tierra, donde vivimos. <mark>Es como la cáscara de una manzana</mark>, fina comparada con el resto. Está formada por rocas. ¿Cómo se llama esta capa?",
       "respuesta": "<mark>Corteza terrestre</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/placas-tectonicas.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es la capa más interna y caliente del planeta. Es como el corazón de la Tierra, escondido en el centro. Está compuesta sobre todo por hierro y níquel. ¿Cómo se llama esta capa?",
+      "pregunta": "Es la capa más interna y caliente del planeta. <mark>Es como el corazón de la Tierra</mark>, escondido en el centro. Está formada sobre todo por hierro y níquel. ¿Cómo se llama esta capa?",
       "respuesta": "<mark>Núcleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/erupcion-volcan.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Muchos objetos cotidianos, como el cemento o el vidrio, vienen de rocas y minerales. Reconocerlos ayuda a entender el paisaje y a valorar el patrimonio geológico de un lugar. Conecta la ciencia con la vida diaria. ¿Qué es útil aprender a reconocer en el entorno?",
+      "pregunta": "Muchos objetos cotidianos, <mark>como el cemento o el vidrio</mark>, vienen de rocas. Reconocerlos ayuda a entender el paisaje de un lugar. Conecta la ciencia con la vida diaria. ¿Qué es útil aprender a reconocer en el entorno?",
       "respuesta": "<mark>Rocas y minerales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_biologia-geologia/gemas-coleccion.jpg",

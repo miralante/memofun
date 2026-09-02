@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el texto original que escribe un autor, antes de publicarse. Es como el boceto de un dibujo, antes de pintarlo del todo. La editorial lo revisa antes de convertirlo en libro. ¿Cómo se llama este texto original?",
+      "pregunta": "Es el texto original que escribe un autor, antes de publicarse, <mark>como el boceto de un dibujo, antes de pintarlo del todo</mark>. La editorial lo revisa antes de convertirlo en libro. ¿Cómo se llama este texto original?",
       "respuesta": "<mark>Manuscrito</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_4/manuscrito.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es pasar un libro de un idioma a otro. Es como construir el mismo puente, pero con materiales distintos. Gracias a esto, leemos libros de todo el mundo. ¿Cómo se llama este proceso?",
+      "pregunta": "Es pasar un libro de un idioma a otro, <mark>como construir el mismo puente, pero con materiales distintos</mark>. Gracias a esto, leemos libros de todo el mundo. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Traducción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_4/traduccion.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es la lengua en la que un autor escribió su libro primero. Todas las demás versiones son traducciones de esa lengua. El idioma original del Quijote es el español. ¿Cómo se llama esta primera lengua de un libro?",
+      "pregunta": "Es la lengua en la que un autor escribió su libro primero. Todas las demás versiones son traducciones de esa lengua. <mark>El Quijote se escribió primero en español</mark>. ¿Cómo se llama esta primera lengua de un libro?",
       "respuesta": "<mark>Idioma original</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_4/idioma-original.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es un libro que se escucha en vez de leerse. Alguien lo lee en voz alta y queda grabado. Se puede escuchar mientras haces otra cosa. ¿Cómo se llama este tipo de libro?",
+      "pregunta": "Es un libro que se escucha en vez de leerse, <mark>como llevar una historia dentro de los oídos</mark>. Alguien lo lee en voz alta y queda grabado. ¿Cómo se llama este tipo de libro?",
       "respuesta": "<mark>Audiolibro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_4/audiolibro.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es un libro que se lee en una pantalla, no en papel. Cabe en un solo aparato, aunque sean cientos de libros. Se puede cambiar el tamaño de letra fácilmente. ¿Cómo se llama este tipo de libro?",
+      "pregunta": "Se lee en una pantalla, no en papel. <mark>Cabe en un solo aparato, aunque sean cientos</mark>. Se puede cambiar el tamaño de letra fácilmente. ¿Cómo se llama este tipo de libro?",
       "respuesta": "<mark>Libro digital</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_4/libro-digital.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es un grupo de personas que leen el mismo libro. Después se reúnen para hablar de lo que han leído. Cada persona comparte lo que más le gustó. ¿Cómo se llama este grupo?",
+      "pregunta": "Es un grupo de personas que comparten el mismo libro. Después se reúnen para hablar de él. <mark>Cada persona cuenta lo que más le gustó</mark>. ¿Cómo se llama este grupo?",
       "respuesta": "<mark>Club de lectura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_4/club-lectura.jpg",

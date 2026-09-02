@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "La producción pasó de los talleres a las fábricas, con máquinas que no paraban. <br>Es como pasar de coser a mano a coser con una máquina sin descanso. <br>Empezó en Inglaterra a finales del siglo dieciocho. <br>¿Cómo se llama este gran cambio?",
+      "pregunta": "La producción pasó de los talleres a las fábricas, con máquinas que no paraban. <br><mark>Es como pasar de coser a mano a coser con una máquina sin descanso</mark>. <br>Empezó en Inglaterra a finales del siglo dieciocho. <br>¿Cómo se llama este gran cambio?",
       "respuesta": "<mark>Primera Revolución Industrial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/primera-revolucion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Inglaterra tenía carbón, capital para invertir y colonias donde vender sus productos. <br>Reunía todos los ingredientes necesarios antes que ningún otro país. <br>También contaba con inventores dispuestos a probar nuevas máquinas. <br>¿Dónde empezó la Revolución Industrial?",
+      "pregunta": "<mark>Tenía carbón, capital para invertir y colonias donde vender sus productos</mark>. <br>Reunía todos los ingredientes necesarios antes que ningún otro país. <br>También contaba con inventores dispuestos a probar nuevas máquinas. <br>¿Dónde empezó la Revolución Industrial?",
       "respuesta": "<mark>Inglaterra</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/inglaterra-carbon.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Una invención permitió mover máquinas y trenes sin depender solo de la fuerza animal o humana. <br>Es como sustituir cientos de brazos por un solo motor incansable. <br>Se usó en fábricas, barcos y en los primeros ferrocarriles. <br>¿Cómo se llama esta invención?",
+      "pregunta": "Una invención permitió mover máquinas y trenes sin depender solo de la fuerza animal o humana. <br><mark>Es como sustituir cientos de brazos por un solo motor incansable</mark>. <br>Se usó en fábricas, barcos y en los primeros ferrocarriles. <br>¿Cómo se llama esta invención?",
       "respuesta": "<mark>Máquina de vapor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/maquina-vapor.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Unos pocos dueños poseen las fábricas y máquinas, en cierto sistema económico. <br>Los trabajadores venden su tiempo y esfuerzo a cambio de un salario. <br>Busca generar beneficios reinvirtiendo el dinero ganado. <br>¿Cómo se llama este sistema económico?",
+      "pregunta": "Unos pocos dueños poseen las fábricas y máquinas, en cierto sistema económico. <br><mark>Los trabajadores venden su tiempo y esfuerzo a cambio de un salario</mark>. <br>Busca generar beneficios reinvirtiendo el dinero ganado. <br>¿Cómo se llama este sistema económico?",
       "respuesta": "<mark>Capitalismo industrial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/capitalismo-industrial.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Muchas ciudades atrajeron de golpe a gente que dejaba el campo. <br>Es como si una ciudad se llenara de repente, sin tiempo para prepararse. <br>Surgieron barrios obreros, a menudo con malas condiciones de vida. <br>¿Qué le pasó a las ciudades con la industrialización?",
+      "pregunta": "Muchas ciudades atrajeron de golpe a gente que dejaba el campo. <br><mark>Es como si una ciudad se llenara de repente, sin tiempo para prepararse</mark>. <br>Surgieron barrios obreros, a menudo con malas condiciones de vida. <br>¿Qué le pasó a las ciudades con la industrialización?",
       "respuesta": "<mark>Crecieron muy rápido</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/fabrica-batllo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Los trabajadores se organizaron para defender sus derechos laborales. <br>Es como unir muchas voces pequeñas para que se escuche una sola, más fuerte. <br>Luchaba por mejores salarios, menos horas y condiciones dignas. <br>¿Cómo se llama esta organización de los trabajadores?",
+      "pregunta": "Los trabajadores se organizaron para defender sus derechos laborales. <br><mark>Es como unir muchas voces pequeñas para que se escuche una sola, más fuerte</mark>. <br>Luchaba por mejores salarios, menos horas y condiciones dignas. <br>¿Cómo se llama esta organización de los trabajadores?",
       "respuesta": "<mark>Movimiento obrero</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/movimiento-obrero.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Una corriente defiende que las fábricas deberían pertenecer a toda la sociedad, no solo al dueño. <br>Busca reducir la desigualdad entre ricos y trabajadores. <br>Karl Marx fue uno de sus pensadores más influyentes. <br>¿Cómo se llama esta corriente obrera?",
+      "pregunta": "Una corriente defiende que las fábricas deberían pertenecer a toda la sociedad, no solo al dueño. <br>Busca reducir la desigualdad entre ricos y trabajadores. <br><mark>Karl Marx fue uno de sus pensadores más influyentes</mark>. <br>¿Cómo se llama esta corriente obrera?",
       "respuesta": "<mark>Socialismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/socialismo.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Una corriente defiende eliminar el Estado y organizar la sociedad sin jerarquías impuestas. <br>Propone que la gente se organice libremente, sin nadie mandando desde arriba. <br>Comparte con el socialismo la defensa de los trabajadores, pero rechaza cualquier gobierno. <br>¿Cómo se llama esta corriente obrera?",
+      "pregunta": "Una corriente defiende eliminar el Estado y organizar la sociedad sin jerarquías impuestas. <br><mark>Propone que la gente se organice libremente, sin nadie mandando desde arriba</mark>. <br>Comparte con el socialismo la defensa de los trabajadores, pero rechaza cualquier gobierno. <br>¿Cómo se llama esta corriente obrera?",
       "respuesta": "<mark>Anarquismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/anarquismo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Trabajadores de distintos países intentaron unirse en una misma lucha. <br>Es como decir que los problemas laborales no entienden de fronteras. <br>Se crearon organizaciones que conectaban sindicatos de varios países. <br>¿Cómo se llama este movimiento que unió a trabajadores de distintos países?",
+      "pregunta": "Trabajadores de distintos países intentaron unirse en una misma lucha. <br><mark>Es como decir que los problemas laborales no entienden de fronteras</mark>. <br>Se crearon organizaciones que conectaban sindicatos de varios países. <br>¿Cómo se llama este movimiento que unió a trabajadores de distintos países?",
       "respuesta": "<mark>Movimiento internacionalista obrero</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/internacionalismo-obrero.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Una nueva oleada de avances tecnológicos llegó con la electricidad y el motor de combustión. <br>Es como una segunda ronda de la misma carrera, con máquinas todavía más potentes. <br>Alemania y Estados Unidos se convirtieron en nuevas potencias industriales. <br>¿Cómo se llama esta segunda oleada de avances?",
+      "pregunta": "Una nueva oleada de avances tecnológicos llegó con la electricidad y el motor de combustión. <br><mark>Es como otra ronda de la misma carrera, con máquinas todavía más potentes</mark>. <br>Alemania y Estados Unidos se convirtieron en nuevas potencias. <br>¿Cómo se llama esta segunda oleada de avances?",
       "respuesta": "<mark>Segunda Revolución Industrial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/segunda-revolucion.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Una revolución se basó en el carbón y la máquina de vapor. <br>La siguiente incorporó la electricidad, el petróleo y nuevas industrias químicas. <br>También trajo la producción en cadena, mucho más rápida. <br>¿Qué trajo de nuevo la Segunda Revolución Industrial?",
+      "pregunta": "Una revolución se basó en el carbón y la máquina de vapor. <br>La siguiente incorporó la electricidad, el petróleo y nuevas industrias químicas. <br><mark>También trajo la producción en cadena, mucho más rápida</mark>. <br>¿Qué trajo de nuevo la Segunda Revolución Industrial?",
       "respuesta": "<mark>Electricidad y petróleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/diferencia-revoluciones.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Las potencias europeas se expandieron para dominar territorios de África y Asia. <br>Es como repartirse un mapa entero sin preguntar a quienes ya vivían allí. <br>Buscaban materias primas, nuevos mercados y prestigio internacional. <br>¿Cómo se llama esta expansión del siglo XIX?",
+      "pregunta": "Las potencias europeas se expandieron para dominar territorios de África y Asia. <br><mark>Es como repartirse un mapa entero sin preguntar a quienes ya vivían allí</mark>. <br>Buscaban materias primas, nuevos mercados y prestigio internacional. <br>¿Cómo se llama esta expansión del siglo XIX?",
       "respuesta": "<mark>Imperialismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/imperialismo-siglo19.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "La industria necesitaba recursos que Europa ya no tenía suficientes. <br>También buscaban prestigio: tener colonias se consideraba señal de poder. <br>Esa carrera por colonias generó rivalidad entre países europeos. <br>¿Qué buscaban las potencias europeas al colonizar África y Asia?",
+      "pregunta": "La industria necesitaba recursos que Europa ya no tenía suficientes. <br><mark>También buscaban prestigio: tener colonias se consideraba señal de poder</mark>. <br>Esa carrera generó rivalidad entre países europeos. <br>¿Qué buscaban las potencias europeas al colonizar África y Asia?",
       "respuesta": "<mark>Materias primas y mercados</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/materias-primas.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Los pueblos colonizados perdieron su independencia, sus recursos y muchas veces su propia cultura. <br>Es como si alguien llegara a tu casa y decidiera las reglas por ti. <br>Se impusieron fronteras nuevas, sin tener en cuenta a los pueblos ya existentes. <br>¿Qué perdieron los pueblos colonizados con el imperialismo?",
+      "pregunta": "Los pueblos colonizados perdieron su independencia, sus recursos y muchas veces su propia cultura. <br><mark>Es como si alguien llegara a tu casa y decidiera las reglas por ti</mark>. <br>Se impusieron fronteras nuevas, sin tener en cuenta a los pueblos ya existentes. <br>¿Qué perdieron los pueblos colonizados con el imperialismo?",
       "respuesta": "<mark>Su independencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/consecuencias-imperialismo.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Las potencias europeas competían entre sí por controlar los mismos territorios y recursos. <br>Es como varios equipos peleando por el mismo trofeo, cada vez más enfadados. <br>Con el tiempo, esas tensiones ayudaron a provocar un gran conflicto. <br>¿A qué guerra ayudó a provocar esa rivalidad entre potencias?",
+      "pregunta": "Las potencias europeas competían entre sí por controlar los mismos territorios y recursos. <br><mark>Es como varios equipos peleando por el mismo trofeo, cada vez más enfadados</mark>. <br>Con el tiempo, esas tensiones ayudaron a provocar un gran conflicto. <br>¿A qué guerra ayudó a provocar esa rivalidad entre potencias?",
       "respuesta": "<mark>La Primera Guerra Mundial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/tensiones-potencias.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "La industria necesitaba materias primas y mercados que no tenía en Europa. <br>Es como una fábrica que necesita comprar fuera lo que no produce dentro. <br>Por eso las potencias industriales buscaron colonias en otros continentes. <br>¿Qué buscaba la industria europea en las colonias?",
+      "pregunta": "La industria necesitaba recursos que no tenía en Europa. <br><mark>Es como una fábrica que necesita comprar fuera lo que no produce dentro</mark>. <br>Por eso las potencias industriales buscaron colonias en otros continentes. <br>¿Qué buscaba la industria europea en las colonias?",
       "respuesta": "<mark>Materias primas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_4/revolucion-imperialismo.jpg",

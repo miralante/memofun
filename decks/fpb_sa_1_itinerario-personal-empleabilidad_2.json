@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Un acuerdo fija las reglas del juego entre ambas partes. Entre una empresa y un trabajador, ese acuerdo por escrito recoge el salario, el horario y la duración. ¿Cómo se llama este documento?",
+      "pregunta": "<mark>Un acuerdo fija las reglas del juego entre ambas partes</mark>. Entre una empresa y una persona trabajadora, ese acuerdo por escrito recoge el salario, el horario y la duración. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Contrato de trabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/firma-contrato.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Cada tipo se adapta a una necesidad distinta de la empresa o del trabajador. Existen contratos indefinidos, temporales o a tiempo parcial, entre otros. Conocerlos ayuda a entender bien lo que se está firmando. ¿Qué tipos de contrato existen?",
+      "pregunta": "<mark>Cada tipo se adapta a una necesidad distinta de la empresa o de la persona trabajadora</mark>. Conocerlos ayuda a entender bien lo que se está firmando. ¿Qué tipos de contrato existen?",
       "respuesta": "<mark>Indefinido, temporal y parcial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/contrato-firma-legal.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Una red de seguridad protege a cualquier persona trabajadora, esté donde esté. Nadie te la puede quitar. Incluye el descanso y un salario justo. ¿Cómo se llaman estas garantías mínimas?",
+      "pregunta": "<mark>Una red de seguridad protege a cualquier persona trabajadora, esté donde esté</mark>. Nadie te la puede quitar. Incluye el descanso y un salario justo. ¿Cómo se llaman estas garantías mínimas?",
       "respuesta": "<mark>Derechos laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/apreton-manos-trabajo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es la otra cara de los derechos: lo que se espera de ti a cambio. Cumplir el horario y respetar las normas son ejemplos. Toda persona trabajadora debe cumplirlos en su empleo. ¿Cómo se llaman estas obligaciones?",
+      "pregunta": "Es la otra cara de los derechos: lo que se espera de ti a cambio. <mark>Cumplir el horario y respetar las normas son ejemplos</mark>. Toda persona trabajadora debe cumplirlos. ¿Cómo se llaman estas obligaciones?",
       "respuesta": "<mark>Deberes laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/oficina-escritorio-trabajo.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Un resumen explica de dónde sale y a dónde va tu sueldo cada mes. Ese documento detalla el salario y los descuentos de un trabajador. ¿Cómo se llama este documento mensual?",
+      "pregunta": "<mark>Un resumen explica de dónde sale y a dónde va tu sueldo cada mes</mark>. Ese documento detalla el salario y los descuentos. ¿Cómo se llama este documento mensual?",
       "respuesta": "<mark>Nómina</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/billetes-euros.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Una ficha resume exactamente cuánto cobras y por qué. Incluye el nombre de la empresa y del trabajador, el salario y los descuentos aplicados. Revisarla ayuda a comprobar que todo está bien calculado. ¿Qué información básica trae una nómina?",
+      "pregunta": "<mark>Una ficha resume exactamente cuánto cobras y por qué</mark>. Incluye el nombre de la empresa y de la persona trabajadora. Revisarla ayuda a comprobar que todo está bien calculado. ¿Qué información básica trae una nómina?",
       "respuesta": "<mark>Salario y descuentos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/nomina-antigua-1960.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Estás inscrito en un sistema que te cubre ante enfermedad o pérdida de empleo. Da acceso a prestaciones como la sanidad pública, el paro o la jubilación futura. ¿Cómo se llama este sistema de protección?",
+      "pregunta": "Estás inscrito en un sistema que te cubre ante enfermedad o pérdida de empleo. <mark>Da acceso a la sanidad pública, el paro o la jubilación futura</mark>. ¿Cómo se llama este sistema de protección?",
       "respuesta": "<mark>Seguridad Social</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/tarjeta-seguro-salud.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Te anticipas a un peligro antes de que llegue a causar un daño real. Esto ayuda a evitar accidentes y problemas de salud en el trabajo. Es obligatoria en cualquier empresa. ¿Cómo se llama anticiparse así a los peligros del trabajo?",
+      "pregunta": "<mark>Te anticipas a un peligro antes de que llegue a causar un daño real</mark>. Esto ayuda a evitar accidentes y problemas de salud en el trabajo. Es obligatoria en cualquier empresa. ¿Cómo se llama anticiparse así a los peligros del trabajo?",
       "respuesta": "<mark>Prevención de riesgos laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/cartel-peligro-trabajo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Son riesgos menos evidentes que los de una obra, pero igual de reales. Malas posturas, fatiga visual por las pantallas o estrés por el volumen de trabajo son ejemplos. ¿Qué tipo de riesgos son estos, comunes en un puesto administrativo?",
+      "pregunta": "Son peligros menos evidentes que los de una obra, pero igual de reales. <mark>Malas posturas, fatiga visual por las pantallas o estrés por el trabajo son ejemplos</mark>. ¿Qué tipo de riesgos son estos, comunes en un puesto administrativo?",
       "respuesta": "<mark>Riesgos laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/dolor-espalda-oficina.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Repartes el peso de una mochila, en vez de cargarlo todo de golpe. Organizar bien las tareas y hacer pausas durante la jornada funciona igual. Hablar con el equipo si el trabajo se acumula también ayuda. ¿Qué ayuda a prevenir el estrés en el trabajo?",
+      "pregunta": "<mark>Repartes el peso de una mochila, en vez de cargarlo todo de golpe</mark>. Organizar bien las tareas y hacer pausas durante la jornada funciona igual. Hablar con el equipo si el trabajo se acumula también ayuda. ¿Qué ayuda a prevenir el estrés en el trabajo?",
       "respuesta": "<mark>Organizar y hacer pausas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/pausa-cafe-trabajo.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Decides hacia dónde caminar, en vez de dejarlo al azar. Elegir qué formación seguir o qué camino profesional tomar después funciona igual. Puede incluir seguir estudiando o buscar empleo directamente. ¿Cómo se llama elegir tu propio camino formativo?",
+      "pregunta": "<mark>Decides hacia dónde caminar, en vez de dejarlo al azar</mark>. Elegir qué formación seguir o qué camino profesional tomar después funciona igual. Puede incluir seguir estudiando o buscar empleo directamente. ¿Cómo se llama elegir tu propio camino formativo?",
       "respuesta": "<mark>Itinerario formativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/senales-cruce-caminos.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Lees bien un acuerdo antes de aceptarlo. Conocer tus derechos te permite saber si las condiciones ofrecidas son correctas y legales. Firmar sin entenderlas bien puede traer problemas después. ¿Qué debes hacer siempre antes de firmar un contrato?",
+      "pregunta": "<mark>Revisas cada cláusula antes de poner tu firma</mark>. Conocer tus derechos te permite saber si las condiciones son correctas y legales. Firmar sin entenderlas puede traer problemas después. ¿Qué debes hacer siempre antes de firmar un contrato?",
       "respuesta": "<mark>Leerlo bien</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/leyendo-documento-gafas.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Una parte del sueldo va directamente a un fondo compartido. En la nómina, parte del salario bruto se destina a las cotizaciones obligatorias. Por eso el salario neto es siempre menor que el bruto. ¿Cómo se llama esta parte que se descuenta?",
+      "pregunta": "<mark>Una parte del sueldo va directamente a un fondo compartido</mark>. En la nómina, esa parte del salario bruto es obligatoria. Por eso el salario neto es siempre menor que el bruto. ¿Cómo se llama esta parte que se descuenta?",
       "respuesta": "<mark>Cotizaciones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/documentos-carpeta-oficina.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Sigues entrenando después de aprender lo básico de un deporte. El mundo laboral cambia, y aprender cosas nuevas mejora las oportunidades. Formarse no termina al acabar los estudios obligatorios. ¿Cómo se llama seguir aprendiendo después de terminar los estudios?",
+      "pregunta": "<mark>Sigues entrenando después de aprender lo básico de un deporte</mark>. El mundo laboral cambia, y aprender cosas nuevas mejora las oportunidades. Formarse no termina al acabar los estudios obligatorios. ¿Cómo se llama seguir aprendiendo después de terminar los estudios?",
       "respuesta": "<mark>Formación continua</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/curso-online-formacion.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Tienes un mapa antes de emprender un viaje largo. Planificar ayuda a tomar decisiones con más seguridad sobre el futuro. Sin un plan, es más fácil dejarse llevar sin rumbo claro. ¿Qué conviene hacer con tu futuro profesional?",
+      "pregunta": "<mark>Tienes un mapa antes de emprender un viaje largo</mark>. Eso ayuda a tomar decisiones con más seguridad sobre el futuro. Sin un plan, es más fácil dejarse llevar sin rumbo claro. ¿Qué conviene hacer con tu futuro profesional?",
       "respuesta": "<mark>Planificarlo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad_2/sendero-bosque-camino.jpg",

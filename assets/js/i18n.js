@@ -62,6 +62,7 @@
         loading: 'Loading…',
         dataProtection: 'Data protection',
         settings: 'Settings',
+        config: 'Settings',
         home: 'Home',
         skipToContent: 'Skip to content'
       },
@@ -198,6 +199,12 @@
     }
     document.documentElement.lang = locale();
     apply(document);
+    /* Inject the shared footer into every <footer data-pie-app>
+       marker on the page. App.utils.inyectarPie is defined in
+       utils.js, which loads before i18n.js per the standard order. */
+    if (window.App && window.App.utils && typeof window.App.utils.inyectarPie === 'function') {
+      window.App.utils.inyectarPie();
+    }
   }
 
   if (document.readyState === 'loading') {

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el trámite obligatorio para que una empresa pueda contratar trabajadores legalmente. Es como registrarse oficialmente antes de poder incorporar a alguien a tu equipo. Sin ella, no se podría dar de alta a ningún empleado. ¿Cómo se llama este trámite?",
+      "pregunta": "Es el trámite obligatorio para que una empresa pueda contratar trabajadores legalmente. <mark>Es como registrarse oficialmente antes de incorporar a alguien a tu equipo</mark>. Sin ella, no se podría dar de alta a nadie. ¿Cómo se llama este trámite?",
       "respuesta": "<mark>Afiliación a la Seguridad Social</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/tarjeta-seguridad-social.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de cursos y formaciones que ofrece la empresa a sus trabajadores ya contratados. Es como seguir aprendiendo dentro del trabajo, no solo antes de empezarlo. Ayuda a adaptarse a nuevas herramientas o tareas. ¿Cómo se llama este conjunto de cursos?",
+      "pregunta": "Es el conjunto de cursos que ofrece la empresa a sus trabajadores ya contratados. <mark>Es como seguir aprendiendo dentro del trabajo, no solo antes de empezarlo</mark>. Ayuda a adaptarse a nuevas herramientas. ¿Cómo se llama este conjunto de cursos?",
       "respuesta": "<mark>Plan de formación continua</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/sesion-formacion.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el camino de posibles ascensos y cambios de puesto que puede seguir un trabajador. Es como un mapa interno que muestra hacia dónde podrías crecer sin cambiar de empresa. ¿Cómo se llama este camino?",
+      "pregunta": "Es el camino de posibles ascensos y cambios de puesto que puede seguir un trabajador. <mark>Es como un mapa interno que muestra hacia dónde podrías crecer sin cambiar de empresa</mark>. ¿Cómo se llama este camino?",
       "respuesta": "<mark>Plan de carrera</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/escaleras-ascenso.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es la ley básica que regula los derechos y deberes de cualquier trabajador en España. Es como el reglamento general que se aplica a todos los empleos, sea cual sea el sector. ¿Cómo se llama esta ley?",
+      "pregunta": "Es la ley básica que regula los derechos y deberes de cualquier trabajador en España. <mark>Es como el reglamento general que se aplica a todos los empleos, sea cual sea el sector</mark>. ¿Cómo se llama esta ley?",
       "respuesta": "<mark>Estatuto de los Trabajadores</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/mazo-libro-leyes.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es un acuerdo entre empresas y trabajadores de un sector que fija condiciones concretas de trabajo. Es como un reglamento más específico, pactado para un sector o una empresa en particular. Debe respetar siempre lo que marca la ley. ¿Cómo se llama este acuerdo?",
+      "pregunta": "Es un acuerdo entre empresas y trabajadores de un sector que fija condiciones de trabajo. <mark>Es como un reglamento más específico, pactado para un sector o una empresa</mark>. Debe respetar siempre la ley. ¿Cómo se llama este acuerdo?",
       "respuesta": "<mark>Convenio colectivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/firma-convenio.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es la cantidad sobre la que se calcula lo que hay que pagar a la Seguridad Social cada mes. Es como la cifra de partida sobre la que se aplica después un porcentaje. Depende principalmente del salario del trabajador. ¿Cómo se llama esta cantidad de partida?",
+      "pregunta": "Es la cantidad sobre la que se calcula lo que hay que pagar a la Seguridad Social cada mes. <mark>Es como la cifra de partida sobre la que se aplica después un porcentaje</mark>. Depende principalmente del salario. ¿Cómo se llama esta cantidad de partida?",
       "respuesta": "<mark>Base de cotización</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/nomina-antigua.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es cómo se organiza el salario: salario base, complementos y posibles pagas extra. Es como desglosar el sueldo en distintas partidas, en vez de dar solo una cifra total. ¿Cómo se llama esta forma de organizar el salario?",
+      "pregunta": "Es cómo se organiza el salario: base, complementos y posibles pagas extra. <mark>Es como desglosar el sueldo en distintas partidas, en vez de dar una cifra total</mark>. ¿Cómo se llama esta forma de organizar el salario?",
       "respuesta": "<mark>Estructura salarial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/billetes-euros.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es el registro de las horas de entrada y salida de cada trabajador. Es como fichar al llegar y al salir, para dejar constancia de las horas trabajadas. Es obligatorio para casi todas las empresas. ¿Cómo se llama este registro?",
+      "pregunta": "Es el registro de las horas de entrada y salida de cada trabajador. <mark>Es como fichar al llegar y al salir, para dejar constancia de las horas trabajadas</mark>. Es obligatorio para casi todas las empresas. ¿Cómo se llama este registro?",
       "respuesta": "<mark>Control de presencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/fichar-control-horario.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es la situación de baja médica mientras dura una enfermedad o lesión que impide trabajar. Es como una pausa reconocida por ley, mientras la persona se recupera. Durante ese tiempo suele recibirse una prestación económica. ¿Cómo se llama esta situación?",
+      "pregunta": "Es la situación de baja médica mientras dura una enfermedad o lesión que impide trabajar. <mark>Es como una pausa reconocida por ley, mientras la persona se recupera</mark>. Suele recibirse una prestación económica. ¿Cómo se llama esta situación?",
       "respuesta": "<mark>Incapacidad temporal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/muletas-lesion.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Son normas internas que aseguran que la gestión del personal se hace siempre de forma cuidada. Es como seguir un mismo protocolo para tratar a todos los trabajadores por igual. ¿Cómo se llaman estas normas internas de recursos humanos?",
+      "pregunta": "Son normas internas que aseguran que la gestión del personal se hace siempre de forma cuidada. <mark>Es como seguir un mismo protocolo para tratar a todos los trabajadores por igual</mark>. ¿Cómo se llaman estas normas internas de recursos humanos?",
       "respuesta": "<mark>Procedimientos de calidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh_2/pulgar-arriba-aprobacion.jpg",

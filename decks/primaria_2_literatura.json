@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Todo cuento tiene dos partes que nunca pueden faltar. Una empieza la historia y otra la cierra. Es como un viaje: hace falta salida y llegada. ¿Qué dos partes son estas?",
+      "pregunta": "Todo cuento tiene dos partes que nunca pueden faltar. Una empieza la historia y otra la cierra. <mark>Es como un viaje: hace falta salida y llegada</mark>. ¿Qué dos partes son estas?",
       "respuesta": "<mark>Principio y final</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura/camino-hacia-el-horizonte.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Al leer esta parte de un cuento, conoces quién es el protagonista. También descubres dónde ocurre la historia. Por ejemplo: 'Había una vez un niño en un pueblo'. ¿Cómo se llama esta parte?",
+      "pregunta": "Al leer esta parte de un cuento, conoces quién es el protagonista y dónde ocurre la historia. <mark>Por ejemplo: 'Había una vez un niño en un pueblo'</mark>. ¿Cómo se llama esta parte?",
       "respuesta": "<mark>El principio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura/libros-ilustrados.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Esta parte resuelve lo que le pasaba al protagonista. Cierra la historia y dice qué ocurrió. Puede ser feliz o triste. ¿Cómo se llama esta parte de un cuento?",
+      "pregunta": "Esta parte resuelve lo que le pasaba al protagonista y cierra la historia. <mark>Puede ser feliz o triste</mark>. ¿Cómo se llama esta parte de un cuento?",
       "respuesta": "<mark>El final</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura/mascaras-teatro.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "No basta con leer las palabras de un cuento. Hay que imaginar la historia y pensar en los personajes. Así el cuento cobra vida en tu cabeza. ¿Cómo se llama hacer esto bien?",
+      "pregunta": "No basta con leer las palabras de un cuento. Hay que imaginar la historia y pensar en los personajes. <mark>Así el cuento cobra vida en tu cabeza</mark>. ¿Cómo se llama hacer esto bien?",
       "respuesta": "<mark>Comprender</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura/ninos-leyendo.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Cuando entiendes bien un cuento, puedes explicarlo tú solo. No hace falta repetir las palabras exactas del libro. Se lo cuentas a otra persona y tiene sentido. ¿Qué es esto que puedes hacer?",
+      "pregunta": "<mark>Cuando entiendes bien un cuento, puedes explicarlo tú solo</mark>. No hace falta repetir las palabras exactas del libro. Se lo cuentas a otra persona y tiene sentido. ¿Qué es esto que puedes hacer?",
       "respuesta": "<mark>Contarlo con tus palabras</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura/ninos-compartiendo-cuento.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Esto convierte las palabras de un cuento en imágenes en tu mente. Así vives la historia como si la vieras. Cada persona lo hace de forma distinta. ¿Cómo se llama esto que haces al leer?",
+      "pregunta": "Esto convierte las palabras de un cuento en imágenes en tu mente. <mark>Así vives la historia como si la vieras</mark>. Cada persona lo hace de forma distinta. ¿Cómo se llama esto que haces al leer?",
       "respuesta": "<mark>Imaginar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura/libros-e-imaginacion.jpg",

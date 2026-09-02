@@ -143,7 +143,8 @@
 
   function paintQuestion() {
     var card = cards[index];
-    cardEl.innerHTML = imagenHtml(card) + '<div class="cara">' + card.pregunta + '</div>';
+    cardEl.innerHTML = imagenHtml(card) +
+      '<div class="tarjeta-contenido"><div class="cara">' + card.pregunta + '</div></div>';
     btnReveal.classList.remove('hidden');
     btnNext.classList.add('secondary');
     cardEl.classList.remove('revealed');
@@ -158,9 +159,11 @@
     var card = cards[index];
     cardEl.innerHTML =
       imagenHtml(card) +
-      '<div class="cara">' + card.pregunta + '</div>' +
+      '<div class="tarjeta-contenido">' +
+      '<div class="respuesta">' + card.respuesta + '</div>' +
       '<hr>' +
-      '<div class="respuesta">' + card.respuesta + '</div>';
+      '<div class="cara">' + card.pregunta + '</div>' +
+      '</div>';
     btnReveal.classList.add('hidden');
     btnNext.classList.remove('secondary');
     cardEl.classList.add('revealed');

@@ -4,15 +4,15 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Las flores salen y los árboles se llenan de hojas verdes. Es como un despertar después de un sueño largo. Muchos animales tienen a sus crías en esta época. ¿Cómo se llama esta estación?",
+      "pregunta": "Las flores salen y los árboles se llenan de hojas verdes, <mark>como un despertar después de un sueño largo</mark>. Muchos animales tienen a sus crías en esta época. ¿Cómo se llama esta estación?",
       "respuesta": "<mark>Primavera</mark>"
     },
     {
-      "pregunta": "Hace mucho calor y el sol brilla muchas horas al día. Es como el horno más fuerte del año. Los días son largos y las noches cortas. ¿Cómo se llama esta estación?",
+      "pregunta": "Hace mucho calor y el sol brilla muchas horas, <mark>como el horno más fuerte del año</mark>. Los días son largos y las noches cortas. ¿Cómo se llama esta estación?",
       "respuesta": "<mark>Verano</mark>"
     },
     {
-      "pregunta": "Hace mucho frío y los días son más cortos. Es como una manta blanca que cubre el año. Algunos árboles se quedan sin hojas y hasta puede nevar. ¿Cómo se llama esta estación?",
+      "pregunta": "Hace mucho frío y los días son más cortos, <mark>como una manta blanca que cubre el año</mark>. Algunos árboles se quedan sin hojas y hasta puede nevar. ¿Cómo se llama esta estación?",
       "respuesta": "<mark>Invierno</mark>"
     }
   ]

@@ -4,11 +4,11 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Aquí comemos juntos al mediodía, como una gran mesa familiar con toda la clase. Aprendemos a comer bien y a compartir. También es un buen momento para charlar. ¿Cómo se llama este lugar del colegio?",
+      "pregunta": "Aquí comemos juntos al mediodía, <mark>como una gran mesa familiar con toda la clase</mark>. Aprendemos a comer bien y a compartir. ¿Cómo se llama este lugar del colegio?",
       "respuesta": "<mark>Comedor</mark>"
     },
     {
-      "pregunta": "Aquí hay libros para leer y aprender, como una cueva llena de tesoros de papel. Podemos leer cuentos o buscar información. Cuidar los libros ayuda a que otros también los disfruten. ¿Cómo se llama este lugar del colegio?",
+      "pregunta": "Aquí hay libros para leer y aprender, <mark>como una cueva llena de tesoros de papel</mark>. Cuidarlos ayuda a que otros también los disfruten. ¿Cómo se llama este lugar del colegio?",
       "respuesta": "<mark>Biblioteca</mark>"
     }
   ]

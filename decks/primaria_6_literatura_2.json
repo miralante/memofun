@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es una serie de libros que siguen la misma historia. Cada libro añade una nueva parte a la aventura. Los mismos personajes continúan de un libro a otro. ¿Cómo se llama esta serie de libros?",
+      "pregunta": "Es una serie de libros que siguen la misma historia, <mark>como una gran historia que no cabe en un solo libro</mark>. Los mismos personajes continúan de un libro a otro. ¿Cómo se llama esta serie de libros?",
       "respuesta": "<mark>Saga</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/saga-libros.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es una saga formada exactamente por tres libros. Los tres cuentan una sola historia, dividida en tres partes. No toda saga es así, pero esto siempre es una saga. ¿Cómo se llama esta saga de tres libros?",
+      "pregunta": "Es una saga formada exactamente por tres libros, <mark>como un libro grueso partido en trozos iguales</mark>. Los tres cuentan una sola historia. ¿Cómo se llama esta saga de tres libros?",
       "respuesta": "<mark>Trilogía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/trilogia-tres-libros.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "El autor escribe las palabras de la historia. Esta otra persona dibuja las imágenes que la acompañan. A veces son la misma persona, y a veces no. ¿Cómo se llama quien hace los dibujos del libro?",
+      "pregunta": "El autor escribe las palabras de la historia. Otra persona, <mark>como un pintor que da vida a la historia con sus dibujos</mark>, hace las imágenes. ¿Cómo se llama quien hace los dibujos del libro?",
       "respuesta": "<mark>El ilustrador</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/ilustrador-pinceles.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es un resumen corto de qué trata un libro. Suele estar en la contraportada, para ayudarte a elegir. No cuenta el final, para no destripar la sorpresa. ¿Cómo se llama este resumen?",
+      "pregunta": "Es un resumen corto de qué trata un libro. <mark>Suele estar en la contraportada, para ayudarte a elegir</mark>. No cuenta el final, para no destripar la sorpresa. ¿Cómo se llama este resumen?",
       "respuesta": "<mark>Sinopsis</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/sinopsis-contraportada.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Un cuento es corto y se lee de una sentada. Esta otra historia es larga y se divide en capítulos. Tiene tiempo para más personajes y tramas. ¿Cómo se llama esta historia larga?",
+      "pregunta": "Un cuento es corto y se lee de una sentada. Esta otra historia es larga, <mark>como un viaje de muchas etapas</mark>, y se divide en capítulos. ¿Cómo se llama esta historia larga?",
       "respuesta": "<mark>Novela</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/novela-libro-grueso.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es la empresa que revisa, imprime y publica los libros. Decide qué libros llegan a las librerías. Trabaja con el autor y el ilustrador antes de publicar. ¿Cómo se llama esta empresa?",
+      "pregunta": "Es la empresa que revisa, imprime y publica los libros, <mark>como una fábrica que convierte un texto en libro</mark>. Decide qué libros llegan a las librerías. ¿Cómo se llama esta empresa?",
       "respuesta": "<mark>Editorial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_6_literatura_2/editorial-imprenta.jpg",

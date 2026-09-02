@@ -4,19 +4,19 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es una gran bola de piedra que gira despacio alrededor de la Tierra, como un espejo redondo que refleja la luz del Sol. Cambia de forma poco a poco. ¿Cómo se llama esto?",
+      "pregunta": "Es una gran bola de piedra que gira despacio alrededor de la Tierra, <mark>como un espejo redondo que refleja la luz del Sol</mark>. Cambia de forma poco a poco. ¿Cómo se llama esto?",
       "respuesta": "<mark>La Luna</mark>"
     },
     {
-      "pregunta": "Son bolas de gas muy calientes, como farolillos encendidos muy lejos en el cielo. Brillan con luz propia, no reflejada. ¿Cómo se llaman estas bolas de gas?",
+      "pregunta": "Son bolas de gas muy calientes, <mark>como farolillos encendidos muy lejos en el cielo</mark>. Brillan con luz propia, no reflejada. ¿Cómo se llaman estas bolas de gas?",
       "respuesta": "<mark>Estrellas</mark>"
     },
     {
-      "pregunta": "Hace mucho calor y hay más horas de sol. Los animales buscan sombra o agua fresca para refrescarse. Las plantas necesitan beber más agua. ¿En qué estación pasa esto?",
+      "pregunta": "Hace mucho calor y hay más horas de sol. <mark>Los animales buscan sombra o agua fresca</mark> para refrescarse. Las plantas necesitan beber más agua. ¿En qué estación pasa esto?",
       "respuesta": "<mark>En verano</mark>"
     },
     {
-      "pregunta": "En primavera las plantas florecen, y en verano todo crece bajo el calor. En otoño los árboles pierden las hojas poco a poco. ¿Qué hacen muchos animales en la estación más fría?",
+      "pregunta": "En primavera las plantas florecen, y en verano todo crece bajo el calor. <mark>En otoño los árboles pierden las hojas poco a poco</mark>. ¿Qué hacen muchos animales en la estación más fría?",
       "respuesta": "<mark>Dormir o abrigarse</mark>"
     }
   ]

@@ -4,63 +4,63 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es quien hace la acción en una frase, como el protagonista de una historia. En 'Ana corre', esa palabra es 'Ana'. ¿Cómo se llama esta parte de la oración?",
+      "pregunta": "Es quien hace la acción en una frase. <mark>Es como el protagonista de una historia</mark>. En 'Ana corre', esa palabra es 'Ana'. ¿Cómo se llama esta parte de la oración?",
       "respuesta": "<mark>Sujeto</mark>"
     },
     {
-      "pregunta": "Para encontrarlo, preguntas '¿quién?' antes del verbo. En 'El perro ladra', la respuesta es 'el perro'. ¿Qué parte de la oración buscas así?",
+      "pregunta": "<mark>Es como hacer una pregunta detective: '¿quién?', antes del verbo</mark>. En 'El perro ladra', la respuesta es 'el perro'. ¿Qué parte de la oración buscas así?",
       "respuesta": "<mark>El sujeto</mark>"
     },
     {
-      "pregunta": "En la oración 'Mi hermano pequeño juega', tres palabras juntas hacen de protagonista. Un sujeto puede ser una palabra o varias. ¿Cuál es el sujeto de esa oración?",
+      "pregunta": "En la oración 'Mi hermano pequeño juega', <mark>tres palabras juntas hacen de protagonista</mark>. Un sujeto puede ser una palabra o varias. ¿Cuál es el sujeto de esa oración?",
       "respuesta": "<mark>Mi hermano pequeño</mark>"
     },
     {
-      "pregunta": "A veces el sujeto no se escribe, pero se sobreentiende. En 'Comemos a las dos', el sujeto callado es 'nosotros'. ¿Cómo se llama un sujeto así?",
+      "pregunta": "A veces el sujeto no se escribe, pero se sobreentiende. <mark>Es como un invitado que no hace falta nombrar, porque ya se sabe quién es</mark>. En 'Comemos a las dos', el sujeto callado es 'nosotros'. ¿Cómo se llama un sujeto así?",
       "respuesta": "<mark>Sujeto elíptico</mark>"
     },
     {
-      "pregunta": "Una oración siempre tiene sujeto, aunque esté callado y no se escriba. El verbo cambia según quién sea ese sujeto: 'come' no es 'comen'. ¿Qué parte de la oración está siempre presente?",
+      "pregunta": "Una oración siempre tiene alguien que actúa, aunque esté callado. <mark>Es como una firma invisible: no se ve, pero siempre está</mark>. El verbo cambia según quién sea: 'come' no es 'comen'. ¿Qué parte de la oración está siempre presente?",
       "respuesta": "<mark>El sujeto</mark>"
     },
     {
-      "pregunta": "Es la parte de la oración que cuenta qué hace el protagonista, con el verbo dentro. En 'Ana corre', esa parte es 'corre'. ¿Cómo se llama esta parte de la oración?",
+      "pregunta": "Es la parte de la oración que cuenta qué hace el protagonista. <mark>Lleva el verbo dentro, como el motor de la frase</mark>. En 'Ana corre', esa parte es 'corre'. ¿Cómo se llama esta parte de la oración?",
       "respuesta": "<mark>Predicado</mark>"
     },
     {
-      "pregunta": "Cuenta la acción, el estado o lo que le pasa al sujeto. En 'El gato duerme en el sofá', explica dónde duerme. ¿Qué parte de la oración da esta información?",
+      "pregunta": "Cuenta la acción o lo que le pasa al sujeto. <mark>En 'El gato duerme en el sofá', explica dónde duerme</mark>. ¿Qué parte de la oración da esta información?",
       "respuesta": "<mark>El predicado</mark>"
     },
     {
-      "pregunta": "En la oración 'Como una manzana roja', todas esas palabras cuentan la acción. Llevan el verbo 'como' más lo que lo acompaña. ¿Cuál es el predicado de esa oración?",
+      "pregunta": "En la oración 'Como una manzana roja', <mark>todas esas palabras juntas cuentan la acción</mark>. Llevan el verbo más lo que lo acompaña. ¿Cuál es el predicado de esa oración?",
       "respuesta": "<mark>Como una manzana roja</mark>"
     },
     {
-      "pregunta": "Una parte de la oración es quien actúa; la otra cuenta qué hace. Juntas forman una oración completa, como dos mitades. ¿Cómo se llaman estas dos partes?",
+      "pregunta": "Una parte de la oración es quien actúa; la otra cuenta qué hace. <mark>Juntas forman una oración completa, como dos mitades</mark>. ¿Cómo se llaman estas dos partes?",
       "respuesta": "<mark>Sujeto y predicado</mark>"
     },
     {
-      "pregunta": "Para encontrarlo, buscas el verbo y todo lo que va con él. En 'Los niños juegan en el parque', esa parte es 'juegan en el parque'. ¿Qué parte de la oración buscas así?",
+      "pregunta": "Para encontrarlo, <mark>sigues el verbo y todo lo que le acompaña, como seguir un rastro</mark>. En 'Los niños juegan en el parque', esa parte es 'juegan en el parque'. ¿Qué parte de la oración buscas así?",
       "respuesta": "<mark>El predicado</mark>"
     },
     {
-      "pregunta": "Es como una foto tomada en el momento exacto: la acción pasa ahora mismo. 'Como pan' ocurre en este instante. ¿Cómo se llama este tiempo verbal?",
+      "pregunta": "<mark>Es como una foto tomada en el momento exacto</mark>: la acción pasa ahora mismo. 'Como pan' ocurre en este instante. ¿Cómo se llama este tiempo verbal?",
       "respuesta": "<mark>Presente</mark>"
     },
     {
-      "pregunta": "Es como mirar una foto vieja de algo que ya sucedió. 'Comí pan' ya había terminado cuando lo contamos. ¿Cómo se llama este tiempo verbal?",
+      "pregunta": "<mark>Es como mirar una foto vieja de algo que ya sucedió</mark>. 'Comí pan' ya había terminado cuando lo contamos. ¿Cómo se llama este tiempo verbal?",
       "respuesta": "<mark>Pasado</mark>"
     },
     {
-      "pregunta": "Es como planear algo que aún está por llegar. 'Comeré pan' todavía no ha pasado cuando lo decimos. ¿Cómo se llama este tiempo verbal?",
+      "pregunta": "<mark>Es como planear algo que todavía está por llegar</mark>. 'Comeré pan' aún no ha pasado cuando lo decimos. ¿Cómo se llama este tiempo verbal?",
       "respuesta": "<mark>Futuro</mark>"
     },
     {
-      "pregunta": "'Juego', 'jugué' y 'jugaré' vienen del mismo verbo, disfrazado para cada momento. Cada terminación indica un tiempo distinto. ¿Cómo se llama este cambio del verbo?",
+      "pregunta": "'Juego', 'jugué' y 'jugaré' vienen del mismo verbo. <mark>Está disfrazado para cada momento, como un actor que cambia de traje</mark>. ¿Cómo se llama este cambio del verbo?",
       "respuesta": "<mark>Conjugación</mark>"
     },
     {
-      "pregunta": "Ordenan cuándo pasa la acción de una historia, para que quien escucha no se confunda. Son como piezas que van en el orden correcto de un cuento. ¿Cómo se llaman estas herramientas del verbo?",
+      "pregunta": "Ordenan cuándo pasa la acción de una historia. <mark>Son como piezas en el orden correcto de un cuento</mark>. Así quien escucha no se confunde. ¿Cómo se llaman estas herramientas del verbo?",
       "respuesta": "<mark>Tiempos verbales</mark>"
     }
   ]

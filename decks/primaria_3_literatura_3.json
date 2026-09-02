@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un cuento corto con animales que actúan como personas. Casi siempre termina con una enseñanza para la vida. Muchas hablan de la pereza o la generosidad. ¿Cómo se llama este tipo de cuento?",
+      "pregunta": "Es un cuento corto <mark>con animales que actúan como personas</mark>. Casi siempre termina con una enseñanza para la vida. Muchas hablan de la pereza o la generosidad. ¿Cómo se llama este tipo de cuento?",
       "respuesta": "<mark>Fábula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/fabula-zorro-cuervo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es la enseñanza que deja una fábula al terminar. Es como un consejo escondido dentro de la historia. Por ejemplo: hay que prepararse antes de que llegue el frío. ¿Cómo se llama esta enseñanza?",
+      "pregunta": "Es la enseñanza que deja una fábula al terminar. <mark>Es como un consejo escondido dentro de la historia</mark>. Por ejemplo: hay que prepararse antes de que llegue el frío. ¿Cómo se llama esta enseñanza?",
       "respuesta": "<mark>Moraleja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/moraleja-liebre-tortuga.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "La cigarra canta todo el verano sin guardar comida. La hormiga, en cambio, trabaja guardando alimento. Llega el invierno y la cigarra tiene un problema. ¿Qué le pasa a la cigarra en invierno?",
+      "pregunta": "La cigarra canta todo el verano sin guardar comida. <mark>La hormiga, en cambio, trabaja guardando alimento</mark>. Llega el invierno y la cigarra tiene un problema. ¿Qué le pasa a la cigarra en invierno?",
       "respuesta": "<mark>No tiene nada que comer</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/cigarra-hormiga.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es un cuento con cosas que no existen en la vida real. Dragones, hadas o magia forman parte de su mundo. Por eso puede pasar lo que quiera el autor. ¿Cómo se llama este tipo de cuento?",
+      "pregunta": "Es un cuento con cosas que no existen en la vida real. <mark>Dragones, hadas o magia forman parte de su mundo</mark>. Por eso puede pasar lo que quiera el autor. ¿Cómo se llama este tipo de cuento?",
       "respuesta": "<mark>Cuento fantástico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/cuento-fantastico-dragon.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es algo que rompe las normas del mundo real dentro de un cuento. Una alfombra que vuela o una poción que cambia a alguien. Ayuda a resolver problemas de forma sorprendente. ¿Cómo se llama esto?",
+      "pregunta": "Es algo que rompe las normas del mundo real en un cuento. <mark>Una alfombra que vuela o una poción que cambia a alguien</mark>. Ayuda a resolver problemas de forma sorprendente. ¿Cómo se llama esto?",
       "respuesta": "<mark>Elemento mágico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/elemento-magico-lampara.webp",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es un viaje o un reto fuera de lo normal. El protagonista sale de su rutina para vivir algo distinto. Por el camino encuentra peligros y sorpresas. ¿Cómo se llama esto que vive?",
+      "pregunta": "Es un viaje o un reto fuera de lo normal. El protagonista sale de su rutina. <mark>Por el camino encuentra peligros y sorpresas</mark>. ¿Cómo se llama esto que vive?",
       "respuesta": "<mark>Una aventura</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_3/aventura-mapa-tesoro.webp",

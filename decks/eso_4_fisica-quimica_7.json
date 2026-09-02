@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Cuanto más rápido se mueve un objeto, más energía tiene. Un coche a toda velocidad tiene mucha más que uno parado. ¿Cómo se llama esta energía del movimiento?",
+      "pregunta": "Cuanto más rápido se mueve un objeto, más energía tiene. <mark>Un coche a toda velocidad tiene mucha más que uno parado</mark>. ¿Cómo se llama esta energía del movimiento?",
       "respuesta": "<mark>Energía cinética</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/montana-rusa.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es energía guardada, lista para liberarse en cualquier momento. Depende de la posición o el estado de un cuerpo. Un objeto en lo alto de una montaña la tiene. ¿Cómo se llama esta energía?",
+      "pregunta": "Es energía guardada, lista para liberarse en cualquier momento. Depende de la posición de un cuerpo. <mark>Un objeto en lo alto de una montaña la tiene</mark>. ¿Cómo se llama esta energía?",
       "respuesta": "<mark>Energía potencial</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/cascada-altura.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es sumar la energía del movimiento y la de la posición. Sin rozamiento, esa suma total se mantiene constante. ¿Cómo se llama esta energía total?",
+      "pregunta": "Es sumar la energía del movimiento y la de la posición. <mark>Sin rozamiento, esa suma se mantiene constante</mark>. ¿Cómo se llama esta energía total?",
       "respuesta": "<mark>Energía mecánica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-balanceo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es como pasar dinero de un bolsillo a otro sin cambiar el total. Un péndulo transforma siempre energía cinética en potencial y al revés. La energía total nunca cambia. ¿Cómo se llama esta propiedad?",
+      "pregunta": "<mark>Es como pasar dinero de un bolsillo a otro sin cambiar el total</mark>. Un péndulo transforma siempre energía cinética en potencial, y al revés. ¿Cómo se llama esta propiedad?",
       "respuesta": "<mark>Conservación de la energía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-foucault.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es medir cuánto esfuerzo útil se emplea al mover algo. Se produce al aplicar una fuerza con desplazamiento. Sin desplazamiento, no existe. ¿Cómo se llama esta magnitud en física?",
+      "pregunta": "Es medir cuánto esfuerzo útil se emplea al mover algo. <mark>Se produce al aplicar una fuerza con desplazamiento</mark>. Sin desplazamiento, no existe. ¿Cómo se llama esta magnitud en física?",
       "respuesta": "<mark>Trabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/levantar-pesas.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es como comparar quién hace la misma tarea en menos tiempo. Mide la rapidez con la que se transfiere energía. Se mide en vatios. ¿Cómo se llama esta magnitud?",
+      "pregunta": "<mark>Es como comparar quién hace la misma tarea en menos tiempo</mark>. Mide la rapidez con la que se transfiere energía. Se mide en vatios. ¿Cómo se llama esta magnitud?",
       "respuesta": "<mark>Potencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/bombilla-filamento.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "El calor transfiere energía por diferencia de temperatura. El trabajo la transfiere con una fuerza y movimiento. Esa relación es la base de muchos motores. ¿Qué tienen en común calor y trabajo?",
+      "pregunta": "El calor transfiere energía por diferencia de temperatura. El trabajo la transfiere con una fuerza y movimiento. <mark>Esa relación es la base de muchos motores</mark>. ¿Qué tienen en común calor y trabajo?",
       "respuesta": "<mark>Son formas de transferir energía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/locomotora-vapor.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Como una ola: el agua sube y baja, pero no viaja. Transmiten energía sin transportar materia. La luz y el sonido viajan así. ¿Cómo se llama esta forma de transportar energía?",
+      "pregunta": "<mark>Como una ola: el agua sube y baja, pero no viaja</mark>. Transmiten energía sin transportar materia. La luz y el sonido viajan así. ¿Cómo se llama esta forma de transportar energía?",
       "respuesta": "<mark>Ondas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/ola-mar.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es como aprovechar un recurso gratis cada día, sin agotarse ni ensuciar. Usa la luz del sol sin generar residuos. Es una de las renovables más usadas. ¿Qué tipo de energía es esta?",
+      "pregunta": "<mark>Es como aprovechar un recurso gratis cada día, sin agotarse ni ensuciar</mark>. Usa la luz del sol sin generar residuos. ¿Qué tipo de energía es esta?",
       "respuesta": "<mark>Energía solar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/paneles-solares.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es como llevar la cuenta de un gasto para no derrochar. Ayuda a usar mejor la energía y cuidar el ambiente. ¿Qué es útil calcular para lograrlo?",
+      "pregunta": "<mark>Es como llevar la cuenta de un gasto para no derrochar</mark>. Ayuda a usar mejor la energía y cuidar el ambiente. ¿Qué es útil calcular para lograrlo?",
       "respuesta": "<mark>El consumo de energía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_7/contador-electrico.jpg",

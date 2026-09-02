@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un plan personal sobre hacia dónde quieres dirigir tu carrera laboral. Es como trazar tu propio mapa profesional, en vez de dejarlo solo al azar. Incluye metas, formación necesaria y pasos concretos para lograrlas. ¿Cómo se llama este plan?",
+      "pregunta": "Es un plan personal sobre hacia dónde quieres dirigir tu carrera laboral. <mark>Es como trazar un mapa a seguir, en vez de dejarlo al azar</mark>. Incluye metas y pasos concretos para lograrlas. ¿Cómo se llama este plan?",
       "respuesta": "<mark>Proyecto profesional propio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-profesional.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es trabajar por cuenta propia, siendo tú mismo quien genera tu empleo. Es como ser tu propio jefe, en vez de trabajar para otra persona. Implica asumir más responsabilidad, pero también más libertad de decisión. ¿Cómo se llama esta forma de trabajar?",
+      "pregunta": "Es trabajar por cuenta propia, generando tú mismo tu actividad. <mark>Es como ser tu propio jefe, en vez de trabajar para otra persona</mark>. Implica más responsabilidad, pero también más libertad. ¿Cómo se llama esta forma de trabajar?",
       "respuesta": "<mark>Autoempleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/autoempleo.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. Es como ver un hueco en el mercado y decidir llenarlo tú mismo. Requiere iniciativa, planificación y asumir cierto riesgo. ¿Cómo se llama esta capacidad?",
+      "pregunta": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. <mark>Es como ver un hueco en el mercado y decidir llenarlo tú mismo</mark>. Requiere iniciativa y asumir cierto riesgo. ¿Cómo se llama esta capacidad?",
       "respuesta": "<mark>Emprendimiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/emprendimiento.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es un documento que resume cómo sería y cómo funcionaría un futuro negocio. Es como el boceto de un proyecto antes de construirlo de verdad. Incluye la idea de negocio, los costes previstos y los posibles clientes. ¿Cómo se llama este documento?",
+      "pregunta": "Es un documento que resume cómo sería y cómo funcionaría un futuro negocio. <mark>Es como el boceto de un proyecto antes de construirlo de verdad</mark>. Incluye la idea, los costes y los posibles clientes. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Plan de empresa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/plan-empresa.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Usar redes profesionales, contactar directamente con empresas o crear un perfil digital atractivo ayuda a encontrar empleo. Es como ampliar tu red de contactos, en vez de esperar solo a que salga una oferta. También conviene adaptar el currículum a cada oferta. ¿Cómo se llama a este conjunto de recursos para buscar empleo?",
+      "pregunta": "Usar redes profesionales, contactar con empresas o crear un perfil digital atractivo ayuda a encontrar empleo. <mark>Es como ampliar tu red de contactos, en vez de esperar a que salga una oferta</mark>. También conviene adaptar el currículum a cada oferta. ¿Cómo se llama a este conjunto de recursos para buscar empleo?",
       "respuesta": "<mark>Técnicas avanzadas de búsqueda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/tecnicas-buscar-empleo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Investigar la empresa, practicar respuestas y preparar preguntas propias ayuda mucho. Es como ensayar antes de una actuación importante, para sentirte más seguro. Llegar preparado transmite interés real por el puesto. ¿Qué conviene preparar bien antes de acudir?",
+      "pregunta": "Investigar la empresa, practicar respuestas y preparar preguntas propias ayuda mucho. <mark>Es como ensayar antes de una actuación importante, para sentirte más seguro</mark>. Llegar preparado transmite interés real. ¿Qué conviene preparar bien antes de acudir?",
       "respuesta": "<mark>La entrevista de trabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/entrevista-trabajo.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Ser capaz de ajustarse a nuevas tareas, herramientas o formas de trabajar es muy valorado. Es como aprender a moverse con soltura cuando cambian las reglas del juego. Las empresas valoran mucho esta capacidad. ¿Cómo se llama esta capacidad de ajustarse a los cambios?",
+      "pregunta": "Ser capaz de ajustarse a nuevas tareas, herramientas o formas de trabajar es muy valorado. <mark>Es como aprender a moverse con soltura cuando el terreno se mueve</mark>. Las empresas valoran mucho esta capacidad. ¿Cómo se llama esta capacidad de ajustarse a los cambios?",
       "respuesta": "<mark>Adaptarse al cambio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptarse-cambio.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es llegar a acuerdos satisfactorios para ambas partes en una situación laboral. Es como buscar un punto intermedio, en vez de que solo gane una de las partes. Puede aplicarse a un salario, un horario o un conflicto. ¿Cómo se llama este proceso?",
+      "pregunta": "Es llegar a acuerdos satisfactorios para ambas partes en una situación laboral. <mark>Es como buscar un punto intermedio, en vez de que solo gane una parte</mark>. Puede aplicarse a un salario, un horario o un conflicto. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Negociación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/negociacion.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Significa que todas las personas tienen las mismas oportunidades, sin importar su género. Es como asegurarse de que todos parten desde la misma línea de salida. Incluye igualdad de salario, de trato y de ascenso. ¿Cómo se llama este principio en el trabajo?",
+      "pregunta": "Significa que todas las personas tienen las mismas oportunidades, sin importar su género. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, trato y ascenso. ¿Cómo se llama este principio en el trabajo?",
       "respuesta": "<mark>Igualdad de género</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/igualdad-genero.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es actuar en el trabajo siguiendo principios de honestidad y responsabilidad. Es como aplicar tus valores personales también dentro de tu trabajo. Incluye respetar la confidencialidad y no aprovecharse de la confianza. ¿Cómo se llama esta forma de actuar?",
+      "pregunta": "Es actuar en el trabajo siguiendo principios de honestidad y responsabilidad. <mark>Es como aplicar tus valores personales también dentro del trabajo</mark>. Incluye respetar la confidencialidad y no aprovecharse de la confianza. ¿Cómo se llama esta forma de actuar?",
       "respuesta": "<mark>Ética profesional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-profesional.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Malas posturas, fatiga visual por las pantallas o estrés por el volumen de trabajo son frecuentes en oficina. Son riesgos menos evidentes que los de una obra, pero igual de reales. Prevenirlos incluye una buena postura y pausas regulares. ¿Cómo se llaman estos peligros para la salud en el trabajo?",
+      "pregunta": "Malas posturas, fatiga visual o estrés por el volumen de trabajo son frecuentes en oficina. <mark>Son menos visibles que los peligros de una obra, pero igual de reales</mark>. Prevenirlos incluye buena postura y pausas regulares. ¿Cómo se llaman estos peligros para la salud en el trabajo?",
       "respuesta": "<mark>Riesgos laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/riesgos-laborales.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Al terminar un ciclo formativo, ayuda a decidir si seguir formándose, buscar empleo o emprender. Es como tener un destino claro antes de emprender un nuevo viaje. Sin ello, es más fácil dejarse llevar sin rumbo. ¿Qué conviene tener claro al terminar el ciclo?",
+      "pregunta": "Al terminar el ciclo, ayuda a decidir si seguir formándose, buscar empleo o emprender un negocio. <mark>Es como tener un destino claro antes de iniciar un nuevo viaje</mark>. Sin ello, es más fácil dejarse llevar sin rumbo. ¿Qué conviene tener claro al terminar el ciclo?",
       "respuesta": "<mark>Un proyecto profesional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-claro-final-ciclo.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "El autoempleo ofrece más libertad y control, pero también más responsabilidad y menos estabilidad. Es como comparar dirigir tu propio barco con navegar en uno ya dirigido por otra persona. No hay una opción mejor: depende de cada persona. ¿Qué ofrece más libertad pero también más responsabilidad?",
+      "pregunta": "El autoempleo da más libertad y control, pero también más responsabilidad y menos estabilidad. <mark>Es como comparar dirigir tu propio barco con navegar en uno dirigido por otra persona</mark>. No hay una opción mejor: depende de cada persona. ¿Qué ofrece más libertad pero también más responsabilidad?",
       "respuesta": "<mark>El autoempleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/ventajas-autoempleo.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Un cálculo erróneo puede hacer que el negocio no sea viable desde el principio. Es como planear un viaje sin calcular bien el presupuesto disponible. Una buena previsión reduce el riesgo de fracaso. ¿Qué conviene calcular bien en un plan de empresa?",
+      "pregunta": "Un cálculo erróneo puede hacer que el negocio no sea viable desde el principio. <mark>Es como planear un viaje sin calcular bien el presupuesto</mark>. Una buena previsión reduce el riesgo de fracaso. ¿Qué conviene calcular bien en un plan de empresa?",
       "respuesta": "<mark>Los costes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/calcular-costes.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Muchas ofertas de trabajo se conocen antes por contactos que por anuncios públicos. Es como tener puertas ya entreabiertas, en vez de llamar siempre a una puerta cerrada. Cuidar esas relaciones tiene valor a largo plazo. ¿Qué ayuda a conocer ofertas antes de que se publiquen?",
+      "pregunta": "Muchas ofertas de trabajo se conocen antes por contactos que por anuncios públicos. <mark>Es como tener puertas ya entreabiertas, en vez de llamar siempre a una puerta cerrada</mark>. Cuidar esas relaciones tiene valor a largo plazo. ¿Qué ayuda a conocer ofertas antes de que se publiquen?",
       "respuesta": "<mark>Una red de contactos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/red-contactos.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Las herramientas y formas de trabajar cambian cada vez más rápido. Es como tener que aprender nuevas reglas de un juego que cambia constantemente. Quien tiene esta habilidad se mantiene empleado con más facilidad. ¿Cómo se llama esta habilidad tan valorada hoy?",
+      "pregunta": "Las herramientas y formas de trabajar cambian cada vez más rápido. <mark>Es como tener que aprender nuevas reglas de un juego que cambia sin parar</mark>. Quien tiene esta habilidad se mantiene empleado con más facilidad. ¿Cómo se llama esta habilidad tan valorada hoy?",
       "respuesta": "<mark>Adaptabilidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptabilidad.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "Actuar con ética genera confianza entre compañeros, jefes y clientes. Es como construir una reputación sólida, ladrillo a ladrillo, con cada decisión correcta. Perderla puede ser muy difícil de recuperar después. ¿Qué genera actuar con ética en el trabajo?",
+      "pregunta": "Actuar con ética genera confianza entre compañeros, jefes y clientes. <mark>Es como construir una reputación sólida, ladrillo a ladrillo</mark>. Perderla puede ser muy difícil de recuperar. ¿Qué genera actuar con ética en el trabajo?",
       "respuesta": "<mark>Confianza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-confianza.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "En 1º de un ciclo formativo se sientan las bases; en 2º, se prepara la salida al mundo laboral. Es como aprender primero a caminar y después a decidir hacia dónde caminar. En 2º pesa más este documento personal. ¿Qué pesa más en el segundo curso del ciclo?",
+      "pregunta": "En 1º se sientan las bases; en 2º, se prepara la salida al mundo laboral. <mark>Es como aprender primero a caminar y después a decidir hacia dónde caminar</mark>. En 2º pesa más este documento personal. ¿Qué pesa más en el segundo curso del ciclo?",
       "respuesta": "<mark>El proyecto profesional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/dos-cursos-ciclo.jpg",

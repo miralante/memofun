@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un poema medieval que narra las hazañas de un héroe. Se recitaba en voz alta, mucho antes de escribirse. El más famoso en español es el Cantar de Mio Cid. ¿Cómo se llama este tipo de poema?",
+      "pregunta": "Es un poema medieval que narra las hazañas de un héroe. Se recitaba en voz alta, mucho antes de escribirse. <mark>El más famoso en español es el Cantar de Mio Cid.</mark> ¿Cómo se llama este tipo de poema?",
       "respuesta": "<mark>Cantar de gesta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura_3/cid-estatua.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es un personaje valiente que protagoniza grandes hazañas. Sus acciones parecen casi imposibles para una persona normal. Lucha por el honor, su tierra o su familia. ¿Cómo se llama este tipo de personaje?",
+      "pregunta": "Es un personaje valiente que protagoniza grandes hazañas. <mark>Sus acciones parecen casi imposibles para una persona normal.</mark> Lucha por el honor, su tierra o su familia. ¿Cómo se llama este tipo de personaje?",
       "respuesta": "<mark>Héroe épico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura_3/armadura-medieval.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Era un artista que iba de pueblo en pueblo recitando historias en plazas. A cambio recibía comida, dinero o alojamiento. Gracias a él, muchas historias se conservaron sin estar escritas. ¿Cómo se llamaba este artista?",
+      "pregunta": "<mark>Era un artista que iba de pueblo en pueblo recitando historias en plazas.</mark> A cambio recibía comida, dinero o alojamiento. Gracias a él, muchas historias se conservaron sin estar escritas. ¿Cómo se llamaba este artista?",
       "respuesta": "<mark>Juglar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura_3/feria-medieval.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "En esta época, casi nadie sabía leer ni escribir. Por eso la literatura se contaba en voz alta, no en libros. Muchas obras solo se escribieron mucho después. ¿Qué época medieval fue esta?",
+      "pregunta": "En esta época, <mark>casi nadie sabía leer ni escribir</mark>. Por eso la literatura se contaba en voz alta, no en libros. Muchas obras solo se escribieron mucho después. ¿Qué época medieval fue esta?",
       "respuesta": "<mark>La Edad Media</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura_3/castillo-coca-segovia.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es un poema corto y sencillo, fácil de cantar, con cuatro versos que riman. Se transmitía cantando, sin necesidad de escribirla. Muchas canciones populares actuales nacieron de él. ¿Cómo se llama este poema?",
+      "pregunta": "Es un poema corto y sencillo, fácil de cantar, <mark>con cuatro versos que riman</mark>. Se transmitía cantando, sin necesidad de escribirla. Muchas canciones populares actuales nacieron de él. ¿Cómo se llama este poema?",
       "respuesta": "<mark>Copla popular</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura_3/guitarra-acustica.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Era una canción que la gente cantaba mientras trabajaba en el campo. Su ritmo ayudaba a coordinar el esfuerzo, como remar al compás. Hacía el trabajo duro más llevadero. ¿Cómo se llama este tipo de canción?",
+      "pregunta": "Era una canción que la gente cantaba mientras trabajaba en el campo. Su ritmo ayudaba a coordinar el esfuerzo, <mark>como remar al compás</mark>. Hacía el trabajo duro más llevadero. ¿Cómo se llama este tipo de canción?",
       "respuesta": "<mark>Canción de trabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura_3/trabajadores-campo.jpg",

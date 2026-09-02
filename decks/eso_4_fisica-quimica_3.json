@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es como si un átomo regalara un electrón y el otro lo aceptara. Se forma entre un metal y un no metal. La sal común es un ejemplo. ¿Cómo se llama esta unión entre átomos que transfieren electrones?",
+      "pregunta": "<mark>Es como si un átomo regalara un electrón y el otro lo aceptara</mark>. Se forma entre un metal y un no metal, como en la sal común. ¿Cómo se llama esta unión entre átomos que transfieren electrones?",
       "respuesta": "<mark>Enlace iónico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cristales-sal-roca.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es como si dos átomos se dieran la mano y compartieran algo entre los dos. Suele darse entre elementos no metálicos. El agua es un ejemplo. ¿Cómo se llama esta unión entre átomos que comparten electrones?",
+      "pregunta": "<mark>Es como si dos átomos se dieran la mano y compartieran algo</mark>. Suele darse entre elementos no metálicos, como en el agua. ¿Cómo se llama esta unión entre átomos que comparten electrones?",
       "respuesta": "<mark>Enlace covalente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/molecula-acido-lactico.png",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es como una nube de electrones compartida libremente entre todos los átomos del metal. Esa nube explica por qué los metales conducen bien la electricidad. ¿Cómo se llama esta unión característica entre átomos de un mismo metal?",
+      "pregunta": "<mark>Es como una nube de electrones que envuelve a todos los átomos</mark>. Por eso los metales conducen bien la electricidad. ¿Cómo se llama esta unión característica entre átomos de un mismo metal?",
       "respuesta": "<mark>Enlace metálico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cables-cobre-bobinas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Las cargas eléctricas opuestas se atraen con mucha fuerza entre sí en estos compuestos. Se necesita mucha energía para separar sus iones. Por eso suelen tener puntos de fusión muy altos. ¿Qué tipo de enlace tienen estos compuestos?",
+      "pregunta": "Las cargas opuestas se atraen con mucha fuerza en estos compuestos. Se necesita mucha energía para separarlas. <mark>Por eso suelen tener puntos de fusión muy altos</mark>. ¿Qué tipo de enlace tienen estos compuestos?",
       "respuesta": "<mark>Enlace iónico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/hierro-fundido-horno.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es como usar la palabra 'docena', pero para un número muchísimo más grande. Facilita trabajar con átomos y moléculas en cantidades manejables. ¿Cómo se llama esta unidad que permite contar una cantidad enorme de partículas?",
+      "pregunta": "<mark>Es como usar la palabra docena, pero para un número mucho más grande</mark>. Facilita contar átomos y moléculas en cantidades manejables. ¿Cómo se llama esta unidad que permite contar una cantidad enorme de partículas?",
       "respuesta": "<mark>Mol</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/sala-balanzas-laboratorio.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es un número altísimo, siempre el mismo, sea cual sea la sustancia que midas. Permite relacionar el número de partículas con la masa de una sustancia. Es el número de partículas que hay en un mol. ¿Cómo se llama este número?",
+      "pregunta": "Es un número altísimo, siempre el mismo sea cual sea la sustancia. <mark>Es el número de partículas que hay en un mol</mark>. ¿Cómo se llama este número?",
       "respuesta": "<mark>Constante de Avogadro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/granos-arroz-poblacion.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "La masa de un solo átomo tiene su propio nombre. La masa de un mol entero de esa sustancia tiene otro. Es como una moneda frente a un mol de monedas. ¿Cómo se llama esta segunda magnitud, la de un mol entero?",
+      "pregunta": "La masa de un átomo tiene su propio nombre. La masa de un mol entero de esa sustancia tiene otro. <mark>Es como una moneda frente a un mol de monedas</mark>. ¿Cómo se llama esta segunda magnitud, la de un mol entero?",
       "respuesta": "<mark>Masa molar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/balanza-electronica.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es como medir cuánto azúcar hay disuelto exactamente en un litro de agua. Indica cuántos moles de soluto hay disueltos en un litro de disolución. Es fundamental para preparar disoluciones con precisión. ¿Cómo se llama esta medida?",
+      "pregunta": "<mark>Es como medir cuánto azúcar hay disuelto en un litro de agua</mark>. Indica cuántos moles de soluto hay en un litro de disolución. ¿Cómo se llama esta medida?",
       "respuesta": "<mark>Concentración molar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/vasos-precipitados-laboratorio.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es como una fórmula que junta las distintas leyes de los gases en una sola. Une presión, volumen y temperatura en una sola ecuación. Sirve en química, meteorología e ingeniería. ¿Cómo se llama esta ecuación conjunta?",
+      "pregunta": "Junta las distintas reglas sobre el comportamiento de los gases en una sola. <mark>Une presión, volumen y temperatura en una sola ecuación</mark>. ¿Cómo se llama esta ecuación conjunta?",
       "respuesta": "<mark>Ley general de los gases</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/matraces-laboratorio.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "El suero fisiológico o el agua del mar son ejemplos comunes de esto. Permiten mezclar sustancias de forma homogénea, facilitando muchas reacciones. Muchos procesos químicos, e incluso biológicos, ocurren dentro de ellas. ¿Cómo se llama este tipo de mezcla homogénea?",
+      "pregunta": "<mark>El suero fisiológico o el agua del mar son ejemplos comunes</mark>. Mezclan sustancias de forma homogénea y facilitan muchas reacciones. ¿Cómo se llama este tipo de mezcla homogénea?",
       "respuesta": "<mark>Disolución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cafe-con-azucar.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es como un diccionario internacional para que cualquier científico entienda el mismo nombre igual. Gracias a ella, un compuesto se llama igual en todo el mundo. ¿Cómo se llama este sistema oficial de reglas para nombrar compuestos?",
+      "pregunta": "<mark>Es como un diccionario internacional para que todos entiendan el mismo nombre</mark>. Gracias a él, un compuesto se llama igual en todo el mundo. ¿Cómo se llama este sistema oficial de reglas para nombrar compuestos?",
       "respuesta": "<mark>Nomenclatura IUPAC</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/etiqueta-corrosivo-toxico.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es como tener un único mapa de carreteras, en vez de uno distinto por cada país. Seguir estas reglas comunes evita confusiones al hablar de sustancias con nombres parecidos. Facilita la comunicación científica entre personas de distintos idiomas. ¿Cómo se llama este sistema de reglas?",
+      "pregunta": "<mark>Es como tener un único mapa de carreteras, en vez de uno por cada país</mark>. Evita confusiones al hablar de sustancias con nombres parecidos. ¿Cómo se llama este sistema de reglas?",
       "respuesta": "<mark>Nomenclatura IUPAC</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/set-quimica-vintage.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es como decir que la forma en que se unen las piezas determina cómo se comporta el conjunto. Este tipo de unión determina si un compuesto conduce electricidad, se disuelve o resiste el calor. Es clave en el diseño de nuevos materiales. ¿Cómo se llama, en general, esta unión entre átomos?",
+      "pregunta": "<mark>Es como decir que la forma de unir las piezas determina cómo se comporta el conjunto</mark>. Determina si un compuesto conduce electricidad, se disuelve o resiste el calor. ¿Cómo se llama, en general, esta unión entre átomos?",
       "respuesta": "<mark>Enlace químico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/rocas-minerales.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "El aceite y el vinagre no se mezclan bien en una botella de aderezo. Las sustancias iónicas suelen disolverse bien en agua; los aceites, apenas. Depende de si sus enlaces son compatibles con el agua. ¿Cómo se llama esta capacidad de una sustancia para disolverse en otra?",
+      "pregunta": "<mark>El aceite y el vinagre no se mezclan bien en una botella de aderezo</mark>. Las sustancias iónicas se disuelven bien en agua; los aceites, apenas. ¿Cómo se llama esta capacidad de una sustancia para disolverse en otra?",
       "respuesta": "<mark>Solubilidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_4_fisica-quimica_3/aceite-vinagre-aderezo.jpg",

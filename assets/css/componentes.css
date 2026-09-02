@@ -567,6 +567,18 @@ header.app-header .tagline {
   100% { transform: scaleX(1) scale(1); }
 }
 
+/* Text stack: kept as one flex item (sibling to .tarjeta-imagen below)
+   so the image-beside-text row layout has exactly two columns — the
+   picture, and this whole stack — instead of every line of text
+   becoming its own row cell. */
+.tarjeta-contenido {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+  width: 100%;
+}
+
 .flashcard .cara {
   font-size: var(--text-large);
   font-weight: var(--weight-strong);
@@ -580,8 +592,21 @@ header.app-header .tagline {
   margin: var(--space-2) 0;
 }
 
+/* Reveal state flips the hierarchy: the answer (already a short
+   `<mark>`-wrapped term — see doc/en/technical.md §3) reads as a big
+   title, and the clue that led to it (`.cara`, same class used for the
+   full-size question before reveal) shrinks to a small caption below
+   it. Scoped under .revealed so the pre-reveal question keeps its own
+   full-size .cara style above. */
 .flashcard .respuesta {
-  font-size: var(--text-base);
+  font-size: var(--text-title);
+  font-weight: var(--weight-strong);
+  line-height: 1.15;
+}
+
+.flashcard.revealed .cara {
+  font-size: var(--text-small);
+  font-weight: var(--weight-regular);
   color: var(--color-text-soft);
 }
 
@@ -591,6 +616,12 @@ header.app-header .tagline {
   padding: 1px 6px;
   border-radius: 6px;
   font-weight: var(--weight-medium);
+}
+
+.flashcard .respuesta mark {
+  padding: 2px 12px;
+  border-radius: 10px;
+  font-weight: var(--weight-strong);
 }
 
 /* Visual-support thumbnail: sits to the LEFT of the card's text on

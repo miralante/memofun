@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un texto escrito en versos, no en frases seguidas. Cada línea es un verso, como un renglón especial. Se lee distinto a un cuento, con más ritmo. ¿Cómo se llama este tipo de texto?",
+      "pregunta": "Es un texto escrito en versos, no en frases seguidas. Cada línea es un verso, <mark>como un renglón especial</mark>. Se lee distinto a un cuento, con más ritmo. ¿Cómo se llama este tipo de texto?",
       "respuesta": "<mark>Poema</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/libro-poemas.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es un poema pensado para cantarse, no solo leerse. La música ayuda a recordar las palabras más fácilmente. Muchas se cantan jugando o en corro. ¿Cómo se llama este tipo de poema?",
+      "pregunta": "Es un poema pensado para cantarse, no solo leerse. <mark>La música ayuda a recordar las palabras más fácilmente</mark>. Muchas se cantan jugando o en corro. ¿Cómo se llama este tipo de poema?",
       "respuesta": "<mark>Canción infantil</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/cancion-infantil-corro.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es una frase corta que guarda un consejo. Se repite desde hace muchos años, como una idea heredada. Por ejemplo: 'más vale tarde que nunca'. ¿Cómo se llama esta frase?",
+      "pregunta": "Es una frase corta que guarda un consejo. Se repite desde hace muchos años, <mark>como una idea heredada</mark>. Por ejemplo: 'más vale tarde que nunca'. ¿Cómo se llama esta frase?",
       "respuesta": "<mark>Refrán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/abuela-refran.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es un juego de palabras con una pista escondida dentro. Hay que pensar bien para descubrir de qué habla. Por ejemplo: 'blanca por dentro, verde por fuera' es una pera. ¿Cómo se llama este juego de palabras?",
+      "pregunta": "Es un juego de palabras con una pista escondida dentro. Hay que pensar bien para descubrir de qué habla. <mark>Por ejemplo: 'blanca por dentro, verde por fuera' es una pera</mark>. ¿Cómo se llama este juego de palabras?",
       "respuesta": "<mark>Adivinanza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/pera-adivinanza.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es una historia contada con dibujos y texto juntos. Las imágenes muestran lo que las palabras no necesitan decir. Se lee mirando los dibujos en orden. ¿Cómo se llama este tipo de historia?",
+      "pregunta": "Es una historia contada con dibujos y texto juntos. <mark>Las imágenes muestran lo que las palabras no necesitan decir</mark>. Se lee mirando los dibujos en orden. ¿Cómo se llama este tipo de historia?",
       "respuesta": "<mark>Cómic</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/cestas-comics.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Esta persona inventa y escribe la historia de un libro. Es como el arquitecto que diseña una casa antes de construirla. Su nombre aparece siempre en la portada. ¿Cómo se llama esta persona?",
+      "pregunta": "Esta persona inventa y escribe la historia de un libro. <mark>Es como el arquitecto que diseña una casa antes de construirla</mark>. Su nombre aparece siempre en la portada. ¿Cómo se llama esta persona?",
       "respuesta": "<mark>El autor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_4/plano-casa-arquitecto.jpg",

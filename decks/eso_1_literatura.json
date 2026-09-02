@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Nadie sabe quién inventó un mito o una leyenda. Se transmitió de boca en boca, y cada uno la cambiaba. Por eso hay tantas versiones distintas de una misma historia. ¿Cómo se llama esta literatura sin autor conocido?",
+      "pregunta": "Nadie sabe quién inventó un mito o una leyenda. <mark>Se transmitió de boca en boca</mark>, y cada uno la cambiaba un poco. Por eso hay tantas versiones distintas. ¿Cómo se llama esta literatura sin autor conocido?",
       "respuesta": "<mark>Literatura anónima</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura/cuentacuentos-evento.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Muchas culturas antiguas se hicieron las mismas preguntas sobre el mundo, sin conocerse entre ellas. Un diluvio o el fuego aparecen en mitos de todo el mundo. Cada pueblo respondió con su propia historia. ¿Cómo se llama el estudio de estas historias y coincidencias?",
+      "pregunta": "Muchas culturas antiguas se hicieron las mismas preguntas sobre el mundo, sin conocerse. <mark>Un diluvio o el fuego aparecen en mitos de todo el mundo</mark>. Cada pueblo respondió con su propia historia. ¿Cómo se llama el estudio de estas historias?",
       "respuesta": "<mark>Mitología</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura/estatua-calipso-mitologia.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Explicaba el mundo antes de que existiera la ciencia. También enseñaba valores, como el respeto o el coraje. Se contaba en voz alta, uniendo a la comunidad alrededor del fuego. ¿Cómo se llama este tipo de historia antigua?",
+      "pregunta": "Explicaba el mundo antes de que existiera la ciencia. También enseñaba valores, como el respeto o el coraje. <mark>Se contaba en voz alta, junto al fuego</mark>. ¿Cómo se llama este tipo de historia antigua?",
       "respuesta": "<mark>Mito</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura/hoguera-noche-san-juan.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Cada narrador añadía detalles de su propio lugar. La misma historia se adaptaba al paisaje y costumbres locales. Por eso hay historias parecidas con nombres distintos, viajando de boca en boca. ¿Cómo se llama este tipo de historia ligada a un lugar?",
+      "pregunta": "Cada narrador añadía detalles de su propio lugar. La historia se adaptaba al paisaje y costumbres locales. <mark>Por eso hay historias parecidas con nombres distintos</mark>. ¿Cómo se llama este tipo de historia ligada a un lugar?",
       "respuesta": "<mark>Leyenda</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura/castillo-doiras-leyenda.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Una leyenda casi siempre menciona un lugar que existe de verdad. Eso la hace sonar más creíble que un mito. El mito, en cambio, ocurre en un tiempo remoto, sin lugar fijo. ¿Qué tiene la leyenda que el mito no tiene?",
+      "pregunta": "Una leyenda casi siempre menciona <mark>un lugar que existe de verdad</mark>. Eso la hace sonar más creíble que un mito. El mito ocurre en un tiempo remoto, sin lugar fijo. ¿Qué tiene la leyenda que el mito no tiene?",
       "respuesta": "<mark>Un lugar real</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura/torre-principe-leyenda.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Siguen fascinando aunque ya sepamos explicar el mundo con ciencia. Su valor está en la historia, no en si es verdad. Inspiran libros, películas y videojuegos actuales. ¿De qué forman parte los mitos y leyendas en cada pueblo?",
+      "pregunta": "Siguen fascinando aunque ya sepamos explicar el mundo con ciencia. Su valor está en la historia, no en si es verdad. <mark>Inspiran libros, películas y videojuegos actuales</mark>. ¿De qué forman parte los mitos y leyendas de un pueblo?",
       "respuesta": "<mark>La identidad cultural</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_1_literatura/libros-antiguos.jpg",

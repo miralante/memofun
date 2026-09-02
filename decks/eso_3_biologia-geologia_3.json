@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es la capacidad de percibir lo que ocurre alrededor y responder a ello. Es como el sistema de alarma y respuesta de todo el cuerpo. Permite reaccionar ante peligros, estímulos o cambios del entorno. ¿Cómo se llama esta función?",
+      "pregunta": "Es la capacidad de percibir lo que ocurre alrededor y responder a ello. <mark>Es como el sistema de alarma y respuesta de todo el cuerpo</mark>. Permite reaccionar ante peligros, estímulos o cambios del entorno. ¿Cómo se llama esta función?",
       "respuesta": "<mark>Función de relación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mapeo-sensorial.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es una estructura del cuerpo que detecta estímulos del entorno. Es como una antena que capta señales de luz, sonido o temperatura. Los ojos, los oídos y la piel contienen estas estructuras. ¿Cómo se llaman?",
+      "pregunta": "Es una estructura del cuerpo que detecta estímulos del entorno. <mark>Es como una antena que capta señales de luz, sonido o temperatura</mark>. Los ojos, los oídos y la piel contienen estas estructuras. ¿Cómo se llaman?",
       "respuesta": "<mark>Receptores sensoriales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/ojo-primer-plano.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Recibe información de los receptores y decide cómo responder. Es como el centro de mando que procesa órdenes y las envía al resto del cuerpo. Incluye el cerebro, la médula espinal y los nervios. ¿Cómo se llama este sistema?",
+      "pregunta": "Recibe información de los receptores y decide cómo responder. <mark>Es como el centro de mando que procesa órdenes y las envía al resto del cuerpo</mark>. Incluye el cerebro, la médula espinal y los nervios. ¿Cómo se llama este sistema?",
       "respuesta": "<mark>Sistema nervioso</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-ilustracion.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es la parte del cuerpo que ejecuta la respuesta decidida por el sistema nervioso. Es como el trabajador que cumple la orden que le llega desde arriba. Los músculos y las glándulas son ejemplos. ¿Cómo se llama esta parte del cuerpo?",
+      "pregunta": "Es la parte del cuerpo que ejecuta la respuesta decidida por el sistema nervioso. <mark>Es como el trabajador que cumple la orden que le llega desde arriba</mark>. Los músculos y las glándulas son ejemplos. ¿Cómo se llama esta parte del cuerpo?",
       "respuesta": "<mark>Órgano efector</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/corredor-musculos.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Un receptor detecta el estímulo, el sistema nervioso lo procesa y un efector responde. Es como recibir una llamada, decidir qué hacer y actuar en consecuencia. Así reaccionamos rápido ante situaciones inesperadas. ¿Cuáles son las tres partes de esta cadena de reacción?",
+      "pregunta": "Un receptor detecta el estímulo, el sistema nervioso lo procesa y un efector responde. <mark>Es como recibir una llamada, decidir qué hacer y actuar en consecuencia</mark>. Así reaccionamos rápido ante situaciones inesperadas. ¿Cuáles son las tres partes de esta cadena de reacción?",
       "respuesta": "<mark>Receptor, sistema nervioso y efector</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/reaccion-cadena.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "El cuerpo crece rápido y se desarrollan los caracteres sexuales. Es como una etapa de obras donde el cuerpo se transforma bastante rápido. Cada persona vive estos cambios a su propio ritmo, sin una norma exacta para todos. ¿Qué controla estos cambios del cuerpo?",
+      "pregunta": "El cuerpo crece rápido y se desarrollan los caracteres sexuales. <mark>Es como una etapa de obras donde el cuerpo se transforma bastante rápido</mark>. Cada persona vive estos cambios a su propio ritmo, sin una norma exacta para todos. ¿Qué controla estos cambios del cuerpo?",
       "respuesta": "<mark>Las hormonas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-metamorfosis.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Aumentan la búsqueda de identidad propia y los cambios de humor. Es habitual sentir emociones intensas mientras el cuerpo y la mente van cambiando. También crece la necesidad de independencia respecto a la familia. ¿En qué etapa de la vida son frecuentes estos cambios?",
+      "pregunta": "Aumentan la búsqueda de identidad propia y los cambios de humor. <mark>Es habitual sentir emociones intensas mientras el cuerpo y la mente van cambiando</mark>. También crece la necesidad de independencia respecto a la familia. ¿En qué etapa de la vida son frecuentes estos cambios?",
       "respuesta": "<mark>Adolescencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/adolescente-emociones.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Permite que el cuerpo humano pueda tener descendencia. Es distinto entre hombres y mujeres, y se desarrolla y madura durante la adolescencia. Su funcionamiento está regulado también por hormonas. ¿Cómo se llama este aparato?",
+      "pregunta": "Permite que el cuerpo humano pueda tener descendencia. <mark>Es distinto entre hombres y mujeres, y se desarrolla y madura durante la adolescencia</mark>. Su funcionamiento está regulado también por hormonas. ¿Cómo se llama este aparato?",
       "respuesta": "<mark>Aparato reproductor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-monarca-ciclo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Son mensajeras químicas que activan los cambios del cuerpo en la adolescencia. Son como órdenes silenciosas que viajan por la sangre y dan instrucciones al cuerpo. Provocan el crecimiento, el desarrollo sexual y cambios de humor. ¿Cómo se llaman estas mensajeras químicas?",
+      "pregunta": "Son mensajeras químicas que activan los cambios del cuerpo en la adolescencia. <mark>Son como órdenes silenciosas que viajan por la sangre y dan instrucciones al cuerpo</mark>. Provocan el crecimiento, el desarrollo sexual y cambios de humor. ¿Cómo se llaman estas mensajeras químicas?",
       "respuesta": "<mark>Hormonas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/molecula-hormona.png",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "El cuerpo y la mente cambian más rápido que en otras etapas de la vida. Es como tener que aprender a manejar un cuerpo distinto casi cada año. Hablarlo con confianza ayuda a vivir esa etapa con tranquilidad. ¿Qué es normal sentir durante estos cambios tan rápidos?",
+      "pregunta": "El cuerpo y la mente cambian más rápido que en otras etapas de la vida. <mark>Es como tener que aprender a manejar un cuerpo distinto casi cada año</mark>. Hablarlo con confianza ayuda a vivir esa etapa con tranquilidad. ¿Qué es normal sentir durante estos cambios tan rápidos?",
       "respuesta": "<mark>Dudas e inseguridad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/adolescentes-grupo.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Una función aporta energía, otra permite adaptarse, y otra permite continuar la especie. Son tres funciones vitales que sostienen la vida de una persona y de la especie. Ninguna funcionaría bien sin las otras dos. ¿Cuáles son estas tres funciones vitales?",
+      "pregunta": "Una función aporta energía, otra permite adaptarse, y otra permite continuar la especie. Son tres funciones vitales que sostienen la vida de una persona y de la especie. <mark>Ninguna funcionaría bien sin las otras dos</mark>. ¿Cuáles son estas tres funciones vitales?",
       "respuesta": "<mark>Nutrición, relación y reproducción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/celula-arte.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es el centro que procesa la información y toma la mayoría de decisiones del cuerpo. Es como el director de una orquesta, coordinando a todos los demás instrumentos. Controla desde movimientos voluntarios hasta pensamientos y emociones. ¿Qué órgano cumple este papel?",
+      "pregunta": "Es el centro que procesa la información y toma la mayoría de decisiones del cuerpo. <mark>Es como el director de una orquesta, coordinando a todos los demás instrumentos</mark>. Controla desde movimientos voluntarios hasta pensamientos y emociones. ¿Qué órgano cumple este papel?",
       "respuesta": "<mark>Cerebro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-modelo-cera.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es el cordón nervioso que conecta el cerebro con el resto del cuerpo. Es como el cable principal por el que viaja la información nerviosa. También controla algunos reflejos rápidos, sin pasar antes por el cerebro. ¿Cómo se llama este cordón?",
+      "pregunta": "Es el cordón nervioso que conecta el cerebro con el resto del cuerpo. <mark>Es como el cable principal por el que viaja la información nerviosa</mark>. También controla algunos reflejos rápidos, sin pasar antes por el cerebro. ¿Cómo se llama este cordón?",
       "respuesta": "<mark>Médula espinal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/sistema-nervioso-dibujo.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Es una respuesta automática y muy rápida ante un estímulo, sin pensarlo. Es como apartar la mano de algo caliente antes incluso de darte cuenta. Sirve para proteger al cuerpo de peligros inmediatos. ¿Cómo se llama esta respuesta automática?",
+      "pregunta": "Es una respuesta automática y muy rápida ante un estímulo, sin pensarlo. <mark>Es como apartar la mano de algo caliente antes incluso de darte cuenta</mark>. Sirve para proteger al cuerpo de peligros inmediatos. ¿Cómo se llama esta respuesta automática?",
       "respuesta": "<mark>Acto reflejo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_3/domino-efecto.jpg",

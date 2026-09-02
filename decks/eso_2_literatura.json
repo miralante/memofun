@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Mide cuántas sílabas tiene cada verso de un poema. Ese conteo determina el compás con el que suena. También se fija en cómo riman los versos entre sí. ¿Cómo se llama este estudio del poema?",
+      "pregunta": "Mide cuántas sílabas tiene cada verso de un poema. Ese conteo determina <mark>el compás con el que suena</mark>. También se fija en cómo riman los versos entre sí. ¿Cómo se llama este estudio del poema?",
       "respuesta": "<mark>Métrica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/contar-dedos.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es un grupo de versos que forman un bloque. Se separa de otros bloques por un espacio en blanco. Es parecido a un párrafo, pero en verso. ¿Cómo se llama este bloque de versos?",
+      "pregunta": "Es un grupo de versos que forman un bloque. Se separa de otros bloques por un espacio en blanco. <mark>Es parecido a un párrafo, pero en verso</mark>. ¿Cómo se llama este bloque de versos?",
       "respuesta": "<mark>Estrofa</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/bloques-construccion.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Tener las mismas sílabas da un compás regular a los versos. El oído reconoce ese patrón que se repite. Por eso algunos poemas suenan casi como una canción. ¿Cómo se llama este compás de un poema?",
+      "pregunta": "Tener las mismas sílabas da un compás regular a los versos. El oído reconoce ese patrón que se repite. Por eso algunos poemas suenan <mark>casi como una canción</mark>. ¿Cómo se llama este compás de un poema?",
       "respuesta": "<mark>Ritmo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/tambor-caja.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es unir dos cosas usando una palabra como 'como'. Por ejemplo: 'sus ojos brillaban como estrellas'. Ayuda al lector a imaginar mejor lo que se describe. ¿Cómo se llama este recurso literario?",
+      "pregunta": "Es unir dos cosas usando una palabra como 'como'. Por ejemplo: <mark>'sus ojos brillaban como estrellas'</mark>. Ayuda al lector a imaginar mejor lo que se describe. ¿Cómo se llama este recurso literario?",
       "respuesta": "<mark>Comparación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/cielo-estrellado.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es nombrar una cosa como si fuera otra, sin usar la palabra 'como'. Por ejemplo: 'sus ojos eran dos estrellas'. Es más directa e intensa que una comparación. ¿Cómo se llama este recurso literario?",
+      "pregunta": "Es nombrar una cosa como si fuera otra, sin usar la palabra 'como'. Por ejemplo: <mark>'sus ojos eran dos estrellas'</mark>. Es más directa e intensa que una comparación. ¿Cómo se llama este recurso literario?",
       "respuesta": "<mark>Metáfora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/via-lactea.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Una comparación usa la palabra 'como' para relacionar dos cosas: 'como estrellas'. Un segundo recurso se salta esa palabra y las funde en una sola: 'eran estrellas'. ¿Cómo se llama el segundo recurso, el que no usa 'como'?",
+      "pregunta": "Una comparación usa la palabra 'como' para relacionar dos cosas: 'como estrellas'. Un segundo recurso se salta esa palabra y las funde en una sola: <mark>'eran estrellas'</mark>. ¿Cómo se llama el segundo recurso, el que no usa 'como'?",
       "respuesta": "<mark>Metáfora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/cielo-via-lactea.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Eran artistas que iban de pueblo en pueblo recitando historias. Actuaban en plazas para gente que no sabía leer, a cambio de comida o dinero. Sus versos eran fáciles de recordar. ¿Cómo se llamaban estos artistas?",
+      "pregunta": "<mark>Eran artistas que iban de pueblo en pueblo recitando historias</mark>. Actuaban en plazas para gente que no sabía leer, a cambio de comida o dinero. Sus versos eran fáciles de recordar. ¿Cómo se llamaban estos artistas?",
       "respuesta": "<mark>Juglares</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/juglares-mercado.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Los juglares contaban hazañas de héroes y batallas famosas. Un ejemplo muy conocido es el 'Cantar de Mio Cid'. Servían para entretener y para admirar a un héroe. ¿Cómo se llaman estas historias de héroes?",
+      "pregunta": "Los juglares contaban hazañas de héroes y batallas famosas. Un ejemplo muy conocido es <mark>el 'Cantar de Mio Cid'</mark>. Servían para entretener y para admirar a un héroe. ¿Cómo se llaman estas historias de héroes?",
       "respuesta": "<mark>Cantares de gesta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/laud-instrumento.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Era la poesía que escribían los clérigos, gente culta que sabía leer y escribir. Cuidaban mucho la métrica de sus versos. Solían tratar temas religiosos o morales. ¿Cómo se llama esta poesía culta medieval?",
+      "pregunta": "Era la poesía que escribían los clérigos, <mark>gente culta que sabía leer y escribir</mark>. Cuidaban mucho la métrica de sus versos. Solían tratar temas religiosos o morales. ¿Cómo se llama esta poesía culta medieval?",
       "respuesta": "<mark>Mester de Clerecía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/manuscrito-medieval.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Un tipo de poesía medieval lo recitaban artistas que no sabían escribir, hablando de héroes y batallas. El otro lo escribían monjes cultos, cuidando más la forma, con temas religiosos y morales. ¿Cómo se llama el tipo que recitaban los juglares?",
+      "pregunta": "Un tipo de poesía medieval lo recitaban <mark>artistas que no sabían escribir</mark>, hablando de héroes y batallas. El otro lo escribían monjes cultos, cuidando más la forma, con temas religiosos y morales. ¿Cómo se llama el tipo que recitaban los juglares?",
       "respuesta": "<mark>Mester de Juglaría</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_2_literatura/escriba-anglosajon.jpg",

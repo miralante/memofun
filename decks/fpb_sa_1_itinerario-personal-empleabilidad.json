@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Sabes qué herramientas tienes antes de empezar un trabajo. Conocer en qué tareas puedes destacar más funciona igual. Reconocerlos también da más confianza al buscar empleo. ¿Cómo se llama lo que se te da bien?",
+      "pregunta": "<mark>Sabes qué herramientas tienes antes de empezar un trabajo</mark>. Conocer en qué tareas destacas más funciona igual. Reconocerlos da más confianza al buscar empleo. ¿Cómo se llama lo que se te da bien?",
       "respuesta": "<mark>Puntos fuertes</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/puntos-fuertes.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Un músculo que aún no has entrenado lo suficiente puede fortalecerse con el tiempo. Algo que todavía no dominas del todo, pero puedes aprender, funciona igual. Reconocerlo no es un fallo, es el primer paso para mejorar. ¿Cómo se llama esto que aún no dominas?",
+      "pregunta": "<mark>Un músculo que aún no has entrenado lo suficiente puede fortalecerse con el tiempo</mark>. Algo que todavía no dominas del todo, pero puedes aprender, funciona igual. Reconocerlo no es un fallo, es el primer paso para mejorar. ¿Cómo se llama esto que aún no dominas?",
       "respuesta": "<mark>Área de mejora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/area-mejora.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Sabes jugar en equipo, no solo hacer bien tu parte. Relacionarte bien con compañeros, jefes y clientes funciona igual. Incluye escuchar, comunicarte con claridad y resolver desacuerdos. ¿Cómo se llaman estas formas de relacionarte bien?",
+      "pregunta": "<mark>Sabes jugar en equipo, no solo hacer bien tu parte</mark>. Relacionarte bien con compañeros, jefes y clientes funciona igual. Incluye escuchar y resolver desacuerdos. ¿Cómo se llaman estas formas de relacionarte bien?",
       "respuesta": "<mark>Habilidades sociales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/habilidades-sociales.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Remas todos en la misma dirección, en vez de cada uno por su cuenta. Trabajar así permite repartir tareas y aprovechar lo que cada persona hace mejor. ¿Cómo se llama trabajar así, todos juntos?",
+      "pregunta": "<mark>Remas todos en la misma dirección, en vez de cada uno por su cuenta</mark>. Así se reparten tareas y se aprovecha lo que cada uno hace mejor. ¿Cómo se llama trabajar así, todos juntos?",
       "respuesta": "<mark>Trabajo en equipo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/trabajo-equipo.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Repartes bien las horas del día para que nada se quede sin hacer. Esto ayuda a cumplir tareas sin acumular estrés innecesario. Organizar prioridades evita trabajar bajo presión constante. ¿Cómo se llama esta habilidad?",
+      "pregunta": "<mark>Repartes bien las horas del día para que nada se quede sin hacer</mark>. Ayuda a cumplir tareas sin acumular estrés. Organizar prioridades evita trabajar bajo presión. ¿Cómo se llama esta habilidad?",
       "respuesta": "<mark>Gestión del tiempo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/gestion-tiempo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Aflojas poco a poco una cuerda demasiado tensa. Descansar lo suficiente, organizar tareas y pedir ayuda si hace falta funciona igual. Aprender a hacerlo mejora mucho el bienestar diario. ¿Cómo se llama aprender a controlar la tensión?",
+      "pregunta": "<mark>Aflojas poco a poco una cuerda demasiado tensa</mark>. Descansar, organizar tareas y pedir ayuda si hace falta funciona igual. Mejora mucho el bienestar diario. ¿Cómo se llama aprender a controlar la tensión?",
       "respuesta": "<mark>Gestión del estrés</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/gestion-estres.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Planificas una búsqueda, en vez de esperar a que el trabajo llegue solo. Este conjunto de acciones organizadas para encontrar trabajo funciona igual. ¿Cómo se llama buscar trabajo de forma organizada?",
+      "pregunta": "<mark>Planificas los pasos, en vez de esperar a que el trabajo llegue solo</mark>. Ese conjunto de acciones organizadas para encontrar trabajo funciona igual. ¿Cómo se llama buscar trabajo de forma organizada?",
       "respuesta": "<mark>Búsqueda activa de empleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/busqueda-activa.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es una tarjeta de presentación profesional, pensada para convencer a quien la lee. Resume tu formación y tu experiencia. ¿Cómo se llama este documento?",
+      "pregunta": "<mark>Es una tarjeta de presentación profesional, pensada para convencer a quien la lee</mark>. Resume tu formación y tu experiencia. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Currículum vitae</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/curriculum-vitae.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Un resumen ordenado de quién eres profesionalmente ayuda a que te conozcan rápido. Debe incluir tus datos personales, tu formación, tu experiencia y tus habilidades. Cuanto más claro, más fácil es que lo lean entero. ¿Qué debe incluir siempre un currículum?",
+      "pregunta": "<mark>Un resumen ordenado de quién eres profesionalmente ayuda a que te conozcan rápido</mark>. Cuanto más claro, más fácil es que lo lean entero. ¿Qué debe incluir siempre un currículum?",
       "respuesta": "<mark>Datos, formación y experiencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/info-curriculum.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Amplías tu red de búsqueda, en vez de mirar en un solo sitio. Los portales de empleo, las redes profesionales o preguntar directamente en empresas son ejemplos. ¿Dónde se pueden buscar ofertas de trabajo?",
+      "pregunta": "<mark>Miras en más de un sitio, en vez de limitarte a uno solo</mark>. Webs especializadas, contactos profesionales o preguntar en empresas son ejemplos. ¿Dónde se pueden buscar ofertas de trabajo?",
       "respuesta": "<mark>Portales y redes de empleo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/buscar-ofertas.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Llamas a una puerta antes de que el cartel de 'se busca' esté colgado. A veces hay ofertas que todavía no se han publicado en ningún sitio. ¿Qué conviene hacer, además de mirar anuncios?",
+      "pregunta": "<mark>Llamas a una puerta antes de que el cartel de 'se busca' esté colgado</mark>. A veces hay ofertas que todavía no se han publicado en ningún sitio. ¿Qué conviene hacer, además de mirar anuncios?",
       "respuesta": "<mark>Preguntar directamente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/preguntar-empresas.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Buscas el zapato de tu talla, en vez de probarte cualquiera. Conocer tus puntos fuertes ayuda a buscar puestos donde encajes mejor. Esa claridad también ayuda a explicarte mejor en una entrevista. ¿Qué te ayuda a encontrar el trabajo adecuado?",
+      "pregunta": "<mark>Buscas el zapato de tu talla, en vez de probarte cualquiera</mark>. Saber lo que se te da bien ayuda a buscar puestos donde encajes mejor. Esa claridad también ayuda en una entrevista. ¿Qué te ayuda a encontrar el trabajo adecuado?",
       "respuesta": "<mark>Conocerte a ti mismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/conocerte-trabajo.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Cualquier tarea necesita esfuerzo regular para dar resultado. Buscar empleo requiere organización, constancia y dedicar tiempo cada día. No basta con enviar un currículum y esperar. ¿Qué actitud hace falta para buscar empleo?",
+      "pregunta": "<mark>Cualquier tarea necesita esfuerzo regular para dar resultado</mark>. Buscar empleo requiere organización y dedicar tiempo cada día. No basta con enviar un currículum y esperar. ¿Qué actitud hace falta para buscar empleo?",
       "respuesta": "<mark>Constancia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/busqueda-es-trabajo.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Cuentas tu historia de forma que se entienda a la primera. Esto ayuda a explicar bien tu experiencia y lo que puedes aportar. Mejora mucho las entrevistas de trabajo. ¿Qué tipo de comunicación ayuda al buscar empleo?",
+      "pregunta": "<mark>Cuentas tu historia de forma que se entienda a la primera</mark>. Ayuda a explicar bien tu experiencia y lo que puedes aportar. Mejora mucho las entrevistas de trabajo. ¿Qué tipo de comunicación ayuda al buscar empleo?",
       "respuesta": "<mark>Comunicación clara</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/entrevista-trabajo.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Plantas una semilla y hace falta paciencia antes de ver resultados. El proceso de selección lleva tiempo y depende de muchos factores. Seguir buscando con constancia suele dar sus frutos. ¿Qué hace falta tener al buscar el primer empleo?",
+      "pregunta": "<mark>Plantas una semilla y tienes que esperar antes de ver resultados</mark>. El proceso de selección lleva tiempo y depende de muchos factores. Seguir buscando con constancia suele dar sus frutos. ¿Qué hace falta tener al buscar el primer empleo?",
       "respuesta": "<mark>Paciencia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/primer-empleo.jpg",

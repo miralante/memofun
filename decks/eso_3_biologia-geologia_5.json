@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Al nacer, cada persona tiene unas características biológicas concretas. <br>Otra cosa mucho más amplia incluye emociones, afectividad y forma de relacionarse. <br>No se reduce solo a lo físico. <br>¿Cómo se llama esta parte más amplia, que incluye emociones y afectividad?",
+      "pregunta": "Al nacer, cada persona tiene unas características biológicas concretas. <br>Otra cosa mucho más amplia <mark>incluye emociones, afectividad y forma de relacionarse</mark>. <br>No se reduce solo a lo físico. <br>¿Cómo se llama esta parte más amplia, que incluye emociones y afectividad?",
       "respuesta": "<mark>Sexualidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/simbolo-genero.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Todas las personas, sea cual sea su género, merecen el mismo respeto y los mismos derechos. <br>Es como repartir siempre a partes iguales, sin que nadie decida por encima del otro. <br>Es la base de cualquier relación sana. <br>¿Cómo se llama este principio de respeto igual entre todos?",
+      "pregunta": "Todas las personas, sea cual sea su género, merecen el mismo respeto y los mismos derechos. <br><mark>Es como repartir siempre a partes iguales, sin que nadie decida por encima del otro</mark>. <br>Es la base de cualquier relación sana. <br>¿Cómo se llama este principio de respeto igual entre todos?",
       "respuesta": "<mark>Igualdad de género</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/icono-igualdad-genero.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Expresar sentimientos, deseos y límites con claridad evita malentendidos. <br>Es como hablar el mismo idioma para entenderse de verdad. <br>Una relación sana se construye hablando con sinceridad y respeto. <br>¿Qué es imprescindible para que una relación sea sana?",
+      "pregunta": "Expresar sentimientos, deseos y límites con claridad evita malentendidos. <br><mark>Es como hablar el mismo idioma para entenderse de verdad</mark>. <br>Una relación sana se construye hablando con sinceridad y respeto. <br>¿Qué es imprescindible para que una relación sea sana?",
       "respuesta": "<mark>La comunicación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/amigas-hablando.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Un sí claro y libre de todas las partes hace falta siempre. <br>Sin ese sí, no existe un acuerdo real. <br>Se puede cambiar de opinión en cualquier momento, incluso después de haber dicho que sí. <br>¿Cómo se llama este acuerdo libre y consciente?",
+      "pregunta": "Un sí claro y libre de todas las partes hace falta siempre. <br>Sin ese sí, no existe un acuerdo real. <br><mark>Se puede cambiar de opinión en cualquier momento, incluso después de haber dicho que sí</mark>. <br>¿Cómo se llama este acuerdo libre y consciente?",
       "respuesta": "<mark>Consentimiento</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/apreton-manos.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Unos métodos ayudan a decidir si se quiere tener descendencia o no. <br>Permiten planificar de forma responsable las decisiones sobre la propia vida. <br>Elegir el más adecuado suele hacerse con ayuda sanitaria. <br>¿Cómo se llaman estos métodos?",
+      "pregunta": "Unos métodos ayudan a decidir si se quiere tener descendencia o no. <br><mark>Permiten planificar de forma responsable las decisiones sobre la propia vida</mark>. <br>Elegir el más adecuado suele hacerse con ayuda sanitaria. <br>¿Cómo se llaman estos métodos?",
       "respuesta": "<mark>Métodos anticonceptivos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/medicamentos-antiguos.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Algunas infecciones pueden contagiarse durante las relaciones sexuales. <br>Muchas no dan síntomas al principio, por eso hay que prevenirlas siempre. <br>Usar protección adecuada reduce mucho el riesgo de contagio. <br>¿Cómo se llaman estas infecciones?",
+      "pregunta": "Algunas infecciones pueden contagiarse durante las relaciones sexuales. <br><mark>Muchas no dan síntomas al principio, por eso hay que prevenirlas siempre</mark>. <br>Usar protección adecuada reduce mucho el riesgo de contagio. <br>¿Cómo se llaman estas infecciones?",
       "respuesta": "<mark>Infecciones de transmisión sexual</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/cartel-clinica-salud.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "La desinformación puede generar miedos o decisiones poco seguras. <br>Es mejor preguntar a alguien de confianza que fiarse de rumores sin comprobar. <br>Familia, profesorado o profesionales sanitarios pueden ayudar. <br>¿Qué tipo de información ayuda a decidir con seguridad?",
+      "pregunta": "La desinformación puede generar miedos o decisiones poco seguras. <br><mark>Es mejor preguntar a alguien de confianza que fiarse de rumores sin comprobar</mark>. <br>Familia, profesorado o profesionales sanitarios pueden ayudar. <br>¿Qué tipo de información ayuda a decidir con seguridad?",
       "respuesta": "<mark>Información fiable</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/personal-medico.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Moverse a diario fortalece el cuerpo y ayuda a sentirse mejor emocionalmente. <br>Es como poner a punto una máquina para que funcione mejor cada día. <br>No hace falta un deporte exigente para notar sus beneficios. <br>¿Qué hábito saludable fortalece el cuerpo y el ánimo?",
+      "pregunta": "Moverse a diario fortalece el cuerpo y ayuda a sentirse mejor emocionalmente. <br><mark>Es como poner a punto una máquina para que funcione mejor cada día</mark>. <br>No hace falta un deporte exigente para notar sus beneficios. <br>¿Qué hábito saludable fortalece el cuerpo y el ánimo?",
       "respuesta": "<mark>La actividad física</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/corredora-parque.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <br>Es como recargar una batería que se ha ido gastando durante el día. <br>Dormir mal afecta al ánimo, la memoria y la concentración. <br>¿Qué hábito recarga el cuerpo y la mente cada noche?",
+      "pregunta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <br><mark>Es como recargar una batería que se ha ido gastando durante el día</mark>. <br>Dormir mal afecta al ánimo, la memoria y la concentración. <br>¿Qué hábito recarga el cuerpo y la mente cada noche?",
       "respuesta": "<mark>Dormir suficiente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/dormir-descanso.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Un problema de salud se relaciona con la forma de comer y de verse a uno mismo. <br>No es solo cuestión de comida: afecta también a las emociones y a la autoestima. <br>Detectarlo a tiempo facilita la recuperación. <br>¿Cómo se llama este problema de salud?",
+      "pregunta": "Un problema de salud se relaciona con la forma de comer y de verse a uno mismo. <br>No es solo cuestión de comida: <mark>afecta también a las emociones y a la autoestima</mark>. <br>Detectarlo a tiempo facilita la recuperación. <br>¿Cómo se llama este problema de salud?",
       "respuesta": "<mark>Trastorno de la conducta alimentaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/plato-equilibrado.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Una necesidad fuerte y difícil de controlar hace repetir una conducta o consumir algo. <br>Es como quedar atrapado en un bucle que cuesta mucho romper por uno mismo. <br>Puede afectar a sustancias o a comportamientos, como el uso excesivo del móvil. <br>¿Cómo se llama esta necesidad difícil de controlar?",
+      "pregunta": "Una necesidad fuerte y difícil de controlar hace repetir una conducta o consumir algo. <br><mark>Es como quedar atrapado en un bucle que cuesta mucho romper por uno mismo</mark>. <br>Puede afectar a sustancias o a comportamientos, como el uso excesivo del móvil. <br>¿Cómo se llama esta necesidad difícil de controlar?",
       "respuesta": "<mark>Adicción</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/videojuego-mando.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Comer bien, dormir suficiente y moverse ayudan también a sentirse mejor por dentro. <br>El cuerpo y las emociones están más conectados de lo que parece a simple vista. <br>Cuidar el cuerpo influye directamente en el estado de ánimo. <br>¿Qué cuidan juntos los buenos hábitos saludables?",
+      "pregunta": "<mark>Comer bien, dormir suficiente y moverse ayudan también a sentirse mejor por dentro</mark>. <br>El cuerpo y las emociones están más conectados de lo que parece a simple vista. <br>Cuidar el cuerpo influye directamente en el estado de ánimo. <br>¿Qué cuidan juntos los buenos hábitos saludables?",
       "respuesta": "<mark>Cuerpo y mente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_biologia-geologia_5/bienestar-transformacion.jpg",

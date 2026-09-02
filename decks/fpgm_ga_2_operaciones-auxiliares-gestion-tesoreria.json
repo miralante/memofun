@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el dinero disponible que tiene una empresa para hacer frente a sus pagos. Es como el monedero de la empresa, siempre listo para gastos del día a día. Incluye el dinero en caja y en las cuentas bancarias. ¿Cómo se llama este dinero disponible?",
+      "pregunta": "Es el dinero disponible que tiene una empresa para hacer frente a sus pagos. <mark>Es como el monedero de la empresa, siempre listo para el día a día</mark>. Incluye el dinero en caja y en cuentas bancarias. ¿Cómo se llama este dinero disponible?",
       "respuesta": "<mark>Tesorería</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/dinero-efectivo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es comprobar que el dinero físico coincide con lo que deberían reflejar los registros. Es como contar el cambio de una hucha para ver si coincide con lo apuntado. Evita pérdidas y fraudes. ¿Cómo se llama esta comprobación?",
+      "pregunta": "Es comprobar que el dinero físico coincide con lo que deberían reflejar los registros. <mark>Es como contar el cambio de una hucha para ver si coincide con lo apuntado</mark>. Evita pérdidas y fraudes. ¿Cómo se llama esta comprobación?",
       "respuesta": "<mark>Control de caja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/caja-registradora.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el recuento físico del dinero en efectivo que hay en un momento dado. Es como vaciar la caja y contar cada billete y moneda uno por uno. Si no coincide con los registros, hay que investigar dónde está el error. ¿Cómo se llama este recuento?",
+      "pregunta": "Es el recuento físico del dinero en efectivo que hay en un momento dado. <mark>Es como vaciarlo todo y contar cada billete y moneda uno por uno</mark>. Si no coincide con los registros, hay que investigar el error. ¿Cómo se llama este recuento?",
       "respuesta": "<mark>Arqueo de caja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/arqueo-caja.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el documento donde se anotan todas las entradas y salidas de dinero en efectivo. Es como un diario, pero solo del dinero físico que entra y sale cada día. Es una herramienta básica para controlar la tesorería. ¿Cómo se llama este documento?",
+      "pregunta": "Es el documento donde se anotan todas las entradas y salidas de dinero en efectivo. <mark>Es como un diario, pero solo del dinero físico que entra y sale cada día</mark>. Es una herramienta básica para controlar la tesorería. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Libro de caja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libro-mayor.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es una cuenta que permite ingresar, retirar y gestionar dinero a través de un banco. Es como un monedero digital que guarda el dinero de la empresa de forma segura. Permite hacer pagos, cobros y transferencias. ¿Cómo se llama esta cuenta?",
+      "pregunta": "Es una cuenta que permite ingresar, retirar y gestionar dinero a través de un banco. <mark>Es como un monedero digital que guarda el dinero de forma segura</mark>. Permite hacer pagos, cobros y transferencias. ¿Cómo se llama esta cuenta?",
       "respuesta": "<mark>Cuenta corriente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/banca-online.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Es comparar los movimientos que la empresa tiene registrados con los del banco. Es como comprobar que tu cuaderno de cuentas coincide con el extracto bancario. Ayuda a detectar errores o movimientos pendientes. ¿Cómo se llama esta comparación?",
+      "pregunta": "Es comparar los movimientos que la empresa tiene registrados con los del banco. <mark>Es como comprobar que tu cuaderno de cuentas coincide con el resumen que te envían</mark>. Ayuda a detectar errores o movimientos pendientes. ¿Cómo se llama esta comparación?",
       "respuesta": "<mark>Conciliación bancaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/grafico-monedas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es un documento con el que una persona ordena al banco pagar una cantidad a otra. Es como una orden de pago en papel, respaldada por el dinero de una cuenta. Quien lo recibe puede cobrarlo o ingresarlo. ¿Qué documento es?",
+      "pregunta": "Es un documento con el que una persona ordena al banco pagar una cantidad a otra. <mark>Es como una orden de pago en papel, respaldada por el dinero de una cuenta</mark>. Quien lo recibe puede cobrarlo o ingresarlo. ¿Qué documento es?",
       "respuesta": "<mark>Cheque</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/escribir-cheque.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es un documento en el que alguien se compromete a pagar una cantidad en una fecha futura. Es como una promesa de pago por escrito, con una fecha concreta. Se usa mucho para aplazar pagos entre empresas. ¿Qué documento es?",
+      "pregunta": "Es un documento en el que alguien se compromete a abonar una cantidad en una fecha futura. <mark>Es como una promesa por escrito, con una fecha concreta</mark>. Se usa mucho para aplazar cobros entre empresas. ¿Qué documento es?",
       "respuesta": "<mark>Pagaré</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/apreton-manos-acuerdo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es un documento que ordena a alguien pagar una cantidad a otra persona, en una fecha fijada. Es como un pagaré, pero donde una tercera persona da la orden de pago. Puede transmitirse a otra persona antes de su vencimiento. ¿Qué documento es?",
+      "pregunta": "Es un documento que ordena a alguien pagar una cantidad a otra persona, en una fecha fijada. <mark>Es como un pagaré, pero donde una tercera persona da la orden de pago</mark>. Puede transmitirse a otra persona antes de su vencimiento. ¿Qué documento es?",
       "respuesta": "<mark>Letra de cambio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/certificado-antiguo.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Es el traspaso de dinero de una cuenta bancaria a otra. Es como mover dinero de un monedero a otro, sin tocarlo físicamente. Puede hacerse de forma inmediata o programada. ¿Cómo se llama este traspaso?",
+      "pregunta": "Es el traspaso de dinero de una cuenta bancaria a otra. <mark>Es como mover dinero de un monedero a otro, sin tocarlo físicamente</mark>. Puede hacerse de forma inmediata o programada. ¿Cómo se llama este traspaso?",
       "respuesta": "<mark>Transferencia bancaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/transferencia-dinero.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Es autorizar a una empresa a cobrar directamente de tu cuenta de forma periódica. Es como dejar una llave para que alguien de confianza cobre lo acordado cada mes. Se usa mucho para pagos recurrentes. ¿Cómo se llama esta autorización?",
+      "pregunta": "Es autorizar a una empresa a cobrar directamente de tu cuenta de forma periódica. <mark>Es como dejar una llave para que alguien de confianza cobre lo acordado cada mes</mark>. Se usa mucho para pagos recurrentes. ¿Cómo se llama esta autorización?",
       "respuesta": "<mark>Domiciliación bancaria</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/documento-firma.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Es adelantar el cobro de un documento de pago, como una letra, a cambio de una comisión. Es como cambiar en un banco un pago futuro por dinero disponible ahora mismo. El banco cobra un interés por adelantarlo. ¿Cómo se llama esta operación?",
+      "pregunta": "Es adelantar el cobro de un documento de pago, como una letra, a cambio de una comisión. <mark>Es como cambiar en un banco un pago futuro por dinero disponible ahora</mark>. El banco cobra un interés por adelantarlo. ¿Cómo se llama esta operación?",
       "respuesta": "<mark>Descuento comercial de efectos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/billetes-grandes.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Es un documento de cobro que no se ha pagado en la fecha acordada. Es como esperar un pago que, en la fecha prevista, no llega. Puede deberse a falta de fondos o a un error del cliente. ¿Cómo se llama este documento no pagado?",
+      "pregunta": "Es un documento de cobro que no se ha abonado en la fecha acordada. <mark>Es como esperar algo que, en la fecha prevista, no llega</mark>. Puede deberse a falta de fondos o a un error del cliente. ¿Cómo se llama este documento no pagado?",
       "respuesta": "<mark>Impagado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/sello-rechazado.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Ante un impagado, se reclama el pago, se negocia un nuevo plazo o, en último caso, se inician acciones legales. Es como intentar recuperar algo prestado que no te han devuelto a tiempo. Cuanto antes se actúe, más fácil es recuperarlo. ¿Qué se hace ante un impagado?",
+      "pregunta": "Ante un impagado, se reclama el pago, se negocia un nuevo plazo o se inician acciones legales. <mark>Es como intentar recuperar algo prestado que no te han devuelto a tiempo</mark>. Cuanto antes se actúe, más fácil es recuperarlo. ¿Qué se hace ante un impagado?",
       "respuesta": "<mark>Reclamar el pago</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/mujer-telefono-negocios.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Son programas que ayudan a controlar los cobros, pagos y saldos de una empresa. Es como tener una calculadora especializada que organiza todo el dinero que entra y sale. Facilitan la conciliación bancaria. ¿Cómo se llaman estos programas?",
+      "pregunta": "Son programas que ayudan a controlar los cobros, pagos y saldos de una empresa. <mark>Es como tener una calculadora especializada que organiza todo el dinero que entra y sale</mark>. Facilitan la conciliación bancaria. ¿Cómo se llaman estos programas?",
       "respuesta": "<mark>Aplicaciones de gestión de tesorería</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/software-contable.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Tener dinero disponible permite pagar a tiempo nóminas, proveedores e impuestos sin problemas. Es como tener siempre algo de dinero disponible, aunque tengas más ahorrado en otro lado. Una empresa rentable puede tener problemas sin esto. ¿Qué es importante mantener en una empresa?",
+      "pregunta": "Tener dinero disponible permite pagar a tiempo nóminas, proveedores e impuestos. <mark>Es como tener siempre algo de dinero a mano, aunque tengas más ahorrado en otro lado</mark>. Una empresa rentable puede tener problemas sin esto. ¿Qué es importante mantener en una empresa?",
       "respuesta": "<mark>Una buena liquidez</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/monedas-apiladas.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "Este documento de pago se cobra en el momento de presentarlo, sin esperar a una fecha futura. El pagaré y la letra de cambio, en cambio, fijan una fecha futura de pago. ¿Cómo se llama el documento que se paga al momento?",
+      "pregunta": "Este documento de pago se cobra al presentarlo, sin esperar una fecha futura. <mark>Es como cobrar al contado, en el momento, sin esperar ni un día</mark>. El pagaré y la letra de cambio sí fijan una fecha futura. ¿Cómo se llama el documento que se paga al momento?",
       "respuesta": "<mark>Cheque</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pila-documentos.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "Revisar los movimientos bancarios permite detectar errores, cobros duplicados o cargos no autorizados. Es como revisar el ticket de la compra para comprobar que no te han cobrado de más. Detectarlo a tiempo evita pérdidas difíciles de recuperar. ¿Qué conviene revisar con frecuencia?",
+      "pregunta": "Revisar esto permite detectar errores, cobros duplicados o cargos no autorizados. <mark>Es como revisar el ticket de la compra para comprobar que no te han cobrado de más</mark>. Detectarlo a tiempo evita pérdidas difíciles de recuperar. ¿Qué conviene revisar con frecuencia?",
       "respuesta": "<mark>Los movimientos bancarios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/telefono-clasico.jpg",
@@ -220,7 +220,7 @@
       }
     },
     {
-      "pregunta": "Todos los movimientos de tesorería deben quedar reflejados también en la contabilidad. Es como llevar dos registros que siempre deben coincidir entre sí. Esa coherencia permite conocer la situación económica real. ¿Con qué debe coincidir siempre la tesorería?",
+      "pregunta": "Todos los movimientos de tesorería deben quedar reflejados también en las cuentas de la empresa. <mark>Es como llevar dos registros que siempre deben coincidir entre sí</mark>. Esa coherencia permite conocer la situación económica real. ¿Con qué debe coincidir siempre la tesorería?",
       "respuesta": "<mark>Con la contabilidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libros-contables.jpg",
@@ -232,7 +232,7 @@
       }
     },
     {
-      "pregunta": "Sin dinero disponible, una empresa no puede funcionar día a día, aunque sea rentable en el papel. Es como tener comida en la despensa, pero sin poder respirar mientras tanto. Muchas empresas rentables cierran por falta de esto. ¿A qué se compara la tesorería de una empresa?",
+      "pregunta": "Sin dinero disponible, una empresa no puede funcionar día a día, aunque sea rentable en el papel. <mark>Es como tener comida en la despensa, pero sin poder respirar mientras tanto</mark>. Muchas empresas rentables cierran por falta de esto. ¿A qué se compara la tesorería de una empresa?",
       "respuesta": "<mark>Al oxígeno</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pulmones-anatomia.jpg",

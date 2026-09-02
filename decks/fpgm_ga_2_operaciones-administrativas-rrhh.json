@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Este departamento gestiona la selección, contratación y administración del personal de una empresa. Es como el departamento que cuida de las personas que hacen funcionar la empresa. También se encarga de nóminas, formación y bienestar. ¿Cómo se llama este departamento?",
+      "pregunta": "Este departamento gestiona la selección, contratación y administración del personal. <mark>Es como el equipo que cuida de las personas que hacen funcionar la empresa</mark>. También se encarga de nóminas y formación. ¿Cómo se llama este departamento?",
       "respuesta": "<mark>Recursos humanos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/funciones-rrhh.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de pasos para elegir a la persona más adecuada para un puesto. Es como un filtro que va reduciendo candidatos hasta encontrar el mejor encaje. Incluye revisar currículums, hacer pruebas y realizar entrevistas. ¿Cómo se llama este conjunto de pasos?",
+      "pregunta": "Es el conjunto de pasos para elegir a la persona más adecuada para un puesto. <mark>Es como un filtro que va reduciendo candidatos hasta encontrar el mejor encaje</mark>. Incluye revisar currículums y hacer entrevistas. ¿Cómo se llama este conjunto de pasos?",
       "respuesta": "<mark>Proceso de selección</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/proceso-seleccion.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es una conversación entre la empresa y un candidato para valorar si encaja en el puesto. Es como una charla decisiva, donde ambas partes se conocen mejor antes de decidir. Permite valorar aspectos que un currículum no muestra. ¿Cómo se llama esta conversación?",
+      "pregunta": "Es una conversación entre la empresa y un candidato para valorar si encaja en el puesto. <mark>Es como una charla decisiva, donde ambas partes se conocen mejor</mark>. Permite valorar aspectos que un currículum no muestra. ¿Cómo se llama esta conversación?",
       "respuesta": "<mark>Entrevista de trabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/entrevista-trabajo.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es el conjunto de documentos que recogen la historia laboral de una persona en la empresa. Es como una carpeta personal que guarda todo lo relevante sobre su trabajo allí. Incluye el contrato, las nóminas y cualquier incidencia. ¿Cómo se llama esta carpeta?",
+      "pregunta": "Es el conjunto de documentos que recogen la historia de una persona en la empresa. <mark>Es como una carpeta personal que guarda todo lo relevante sobre su paso por allí</mark>. Incluye el contrato, las nóminas y cualquier incidencia. ¿Cómo se llama esta carpeta?",
       "respuesta": "<mark>Expediente laboral</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/expediente-laboral.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Para calcularla se parte del salario bruto y se restan las retenciones e impuestos correspondientes. Es como calcular cuánto queda de un billete después de descontar varios gastos fijos. El resultado final es el salario neto. ¿Cómo se llama este documento de pago?",
+      "pregunta": "Para calcularla se parte del salario bruto y se restan las retenciones e impuestos. <mark>Es como calcular cuánto queda de un billete después de descontar varios gastos fijos</mark>. El resultado final es el salario neto. ¿Cómo se llama este documento de pago?",
       "respuesta": "<mark>Nómina</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/calculo-nomina.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Son las aportaciones económicas que hacen empresa y trabajador al sistema público. Es como aportar una parte del sueldo a un fondo común que protege a todos. Financian pensiones, sanidad y otras prestaciones sociales. ¿Cómo se llaman estas aportaciones?",
+      "pregunta": "Son las aportaciones económicas que hacen empresa y trabajador al sistema público. <mark>Es como aportar una parte del sueldo a un fondo común que protege a todos</mark>. Financian pensiones, sanidad y otras prestaciones. ¿Cómo se llaman estas aportaciones?",
       "respuesta": "<mark>Cotizaciones a la Seguridad Social</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/cotizaciones-ss.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es informar oficialmente a la Administración de que se ha firmado un nuevo contrato. Es como avisar de forma oficial de que alguien ha empezado a trabajar. Es obligatorio para que el contrato sea válido legalmente. ¿Cómo se llama este trámite?",
+      "pregunta": "Es informar oficialmente a la Administración de que se ha firmado un nuevo contrato. <mark>Es como avisar de forma oficial de que alguien ha empezado a trabajar</mark>. Es obligatorio para que sea válido legalmente. ¿Cómo se llama este trámite?",
       "respuesta": "<mark>Comunicación del contrato</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/comunicacion-contrato.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es organizar los documentos relacionados con la seguridad en el trabajo. Es como llevar un registro completo de todo lo que se hace para proteger a los trabajadores. Incluye formación y evaluaciones de riesgo. ¿Cómo se llama esta gestión documental?",
+      "pregunta": "Es organizar los documentos relacionados con la seguridad en el trabajo. <mark>Es como llevar un registro completo de todo lo que se hace para proteger a los trabajadores</mark>. Incluye formación y evaluaciones. ¿Cómo se llama esta gestión documental?",
       "respuesta": "<mark>Prevención de riesgos laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/prevencion-riesgos.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Es la ausencia justificada de un trabajador por enfermedad, accidente u otra causa reconocida. Es como un permiso especial para no ir a trabajar mientras dura una situación concreta. Puede recibir una prestación económica. ¿Cómo se llama esta ausencia?",
+      "pregunta": "Es la ausencia justificada de un trabajador por enfermedad, accidente u otra causa reconocida. <mark>Es como un permiso especial para no ir a trabajar durante un tiempo</mark>. Puede recibir una prestación económica. ¿Cómo se llama esta ausencia?",
       "respuesta": "<mark>Baja laboral</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/baja-laboral.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Las vacaciones son un descanso anual pagado. Estas otras ausencias, en cambio, son puntuales y autorizadas por motivos concretos, como una boda o una mudanza. Ambas están reguladas por ley. ¿Cómo se llaman estas ausencias puntuales?",
+      "pregunta": "Las vacaciones son un descanso anual pagado. <mark>Estas otras ausencias son puntuales, como para una boda o una mudanza</mark>. Ambas están reguladas por ley. ¿Cómo se llaman estas ausencias puntuales?",
       "respuesta": "<mark>Permisos laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/vacaciones-playa.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Contratar a la persona equivocada puede salir muy caro para la empresa. Es como elegir mal una pieza clave de un equipo, afectando a todo el resultado. Un buen proceso ahorra tiempo y dinero a largo plazo. ¿Qué proceso conviene hacer bien por esta razón?",
+      "pregunta": "Contratar a la persona equivocada puede salir muy caro para la empresa. <mark>Es como elegir mal una pieza clave de un equipo, afectando a todo el resultado</mark>. Un buen proceso ahorra tiempo y dinero. ¿Qué proceso conviene hacer bien por esta razón?",
       "respuesta": "<mark>La selección de personal</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/importancia-seleccion.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Ayuda a transmitir con claridad la experiencia, las habilidades y la motivación del candidato. Es como presentar tu mejor versión profesional en poco tiempo. También permite entender mejor qué espera la empresa. ¿Qué papel tiene esto en una entrevista de trabajo?",
+      "pregunta": "Ayuda a transmitir con claridad la experiencia, las habilidades y la motivación del candidato. <mark>Es como presentar tu mejor versión en poco tiempo</mark>. También ayuda a entender qué espera la empresa. ¿Qué papel tiene esto en una entrevista de trabajo?",
       "respuesta": "<mark>La comunicación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/comunicacion-entrevista.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Recoge cambios importantes, como ascensos, sanciones o modificaciones de contrato. Es como mantener al día una ficha que refleja fielmente la trayectoria de esa persona. Un expediente desactualizado causa errores. ¿Qué documento debe actualizarse constantemente?",
+      "pregunta": "Recoge cambios importantes, como ascensos, sanciones o cambios de contrato. <mark>Es como mantener al día una ficha que refleja fielmente la trayectoria de esa persona</mark>. Un documento desactualizado causa errores. ¿Qué documento debe actualizarse constantemente?",
       "respuesta": "<mark>El expediente laboral</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/actualizar-expediente.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "No comunicar bien un contrato de trabajo puede suponer sanciones económicas y problemas legales. Es como no registrar oficialmente algo que debería quedar constancia por ley. Protege tanto a la empresa como al trabajador. ¿Qué trámite hay que comunicar correctamente?",
+      "pregunta": "No comunicar bien un nuevo empleo puede suponer sanciones económicas y problemas legales. <mark>Es como no registrar oficialmente algo que por ley debería quedar constancia</mark>. Protege tanto a la empresa como al trabajador. ¿Qué trámite hay que comunicar correctamente?",
       "respuesta": "<mark>El contrato de trabajo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/consecuencias-contrato.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "Parte del salario bruto se destina directamente a las cotizaciones obligatorias a la Seguridad Social. Es como una parte del sueldo que va a un fondo compartido, antes de llegar al bolsillo. Por eso el neto es menor que el bruto. ¿Qué se resta del salario bruto para calcular la nómina?",
+      "pregunta": "Parte del salario bruto se destina directamente a aportaciones obligatorias a la Seguridad Social. <mark>Es como una parte del sueldo que va a un fondo compartido, antes de llegar al bolsillo</mark>. Por eso el neto es menor que el bruto. ¿Qué se resta del salario bruto para calcular la nómina?",
       "respuesta": "<mark>Las cotizaciones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/relacion-nomina-cotizaciones.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "pregunta": "Gestionar bien esto afecta tanto a los derechos del trabajador como a la organización del trabajo. Es como reorganizar un equipo cuando uno de sus miembros no puede jugar temporalmente. Una mala gestión genera conflictos legales. ¿Qué hay que gestionar bien en estos casos?",
+      "pregunta": "Gestionar bien esto afecta tanto a los derechos del trabajador como a la organización del trabajo. <mark>Es como reorganizar un equipo cuando uno de sus miembros no puede jugar temporalmente</mark>. Una mala gestión genera conflictos legales. ¿Qué hay que gestionar bien en estos casos?",
       "respuesta": "<mark>Las bajas laborales</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/gestionar-bajas.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "pregunta": "Las vacaciones están reguladas por ley como un descanso obligatorio y remunerado. Es como un derecho garantizado, no un favor que la empresa decide conceder o no. Su duración mínima está fijada legalmente. ¿Qué son las vacaciones, más que una simple costumbre?",
+      "pregunta": "Las vacaciones están reguladas por ley como un descanso obligatorio y remunerado. <mark>Es como algo garantizado, no un favor que la empresa decide conceder</mark>. Su duración mínima está fijada legalmente. ¿Qué son las vacaciones, más que una simple costumbre?",
       "respuesta": "<mark>Un derecho</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/vacaciones-derecho.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "pregunta": "Las personas son uno de los recursos más importantes de cualquier organización. Es como cuidar el motor que hace funcionar toda la maquinaria de la empresa. Un buen equipo humano mejora el rendimiento. ¿Qué departamento se considera clave por cuidar a las personas?",
+      "pregunta": "Las personas son uno de los recursos más importantes de cualquier organización. <mark>Es como cuidar el motor que hace funcionar toda la maquinaria de la empresa</mark>. Un buen equipo mejora el rendimiento. ¿Qué departamento se considera clave por cuidar a las personas?",
       "respuesta": "<mark>Recursos humanos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_operaciones-administrativas-rrhh/rrhh-estrategico.jpg",

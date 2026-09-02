@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. Es como un cuaderno oficial que hay que llevar siempre al día, por obligación legal. ¿Cómo se llaman estos libros?",
+      "pregunta": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. <mark>Es como un cuaderno oficial que hay que llevar siempre al día</mark>. ¿Cómo se llaman estos libros?",
       "respuesta": "<mark>Libros-registro</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/libro-registro.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "La factura y el albarán justifican qué se compró y en qué condiciones. Es como guardar las pruebas de cada compra, por si hay que demostrarla más adelante. ¿Qué documentos sirven de soporte a una compra?",
+      "pregunta": "La factura y el albarán justifican qué se compró y en qué condiciones. <mark>Es como guardar las pruebas de cada compra, por si hay que demostrarla</mark>. ¿Qué documentos sirven de soporte a una compra?",
       "respuesta": "<mark>Factura y albarán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/facturas.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. Es como una 'contra-factura' que reduce lo que había que pagar. Se usa, por ejemplo, si se devuelve mercancía. ¿Cómo se llama este documento?",
+      "pregunta": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. <mark>Es como una 'contra-factura' que reduce lo que había que pagar</mark>. Se usa, por ejemplo, si se devuelve mercancía. ¿Cómo se llama este documento?",
       "respuesta": "<mark>Nota de abono</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/formulario-nota.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "En la práctica se usan casi como sinónimos para corregir una factura anterior. Ambos reducen una deuda ya registrada, en vez de generar una nueva. Siempre hacen referencia a la factura original. ¿Cómo se llaman estos documentos que reducen una deuda?",
+      "pregunta": "En la práctica se usan casi como sinónimos para corregir una factura anterior. <mark>Es como dos nombres distintos para una misma solución</mark>. Ambos reducen una deuda ya registrada, sin generar una nueva. ¿Cómo se llaman estos documentos que reducen una deuda?",
       "respuesta": "<mark>Nota de abono o de crédito</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/balanza-comparacion.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "La factura de venta y, en su caso, el albarán de entrega, justifican una venta. Es la misma idea que en las compras, pero mirado desde el lado de quien vende. ¿Qué documentos sirven de soporte a una venta?",
+      "pregunta": "La factura y, en su caso, el albarán de entrega justifican una venta. <mark>Es la misma idea que en las compras, pero mirada desde el otro lado</mark>. ¿Qué documentos sirven de soporte a una venta?",
       "respuesta": "<mark>Factura y albarán de venta</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/recibos.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Recibos, transferencias, cheques y pagarés, entre otros, deben quedar reflejados en las cuentas. Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero, sea cual sea el medio. ¿Qué tipo de documentos deben tramitarse contablemente?",
+      "pregunta": "Recibos, transferencias, cheques y pagarés deben quedar reflejados en las cuentas. <mark>Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero</mark>. ¿Qué tipo de documentos deben tramitarse contablemente?",
       "respuesta": "<mark>Documentos de tesorería</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/cuenta-bancaria.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "La información financiera de una empresa revela datos sensibles sobre su situación económica real. Es como no contar en voz alta cuánto dinero tiene alguien en el banco. Filtrarla podría perjudicarla frente a otras empresas. ¿Qué debe mantenerse sobre esta información?",
+      "pregunta": "La información financiera de una empresa revela datos sensibles sobre su situación económica real. <mark>Es como no contar en voz alta cuánto dinero tiene alguien en el banco</mark>. Filtrarla podría perjudicarla frente a otras empresas. ¿Qué debe mantenerse sobre esta información?",
       "respuesta": "<mark>Confidencialidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/sello-confidencial.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Los documentos contables deben conservarse varios años, ya que Hacienda puede solicitarlos en una inspección posterior. Es como guardar tickets importantes por si algún día tienes que justificar un gasto. ¿Durante cuánto tiempo hay que guardarlos?",
+      "pregunta": "Los documentos contables deben conservarse durante un tiempo, ya que Hacienda puede solicitarlos en una inspección. <mark>Es como guardar tickets importantes por si algún día tienes que justificar un gasto</mark>. ¿Durante cuánto tiempo hay que guardarlos?",
       "respuesta": "<mark>Varios años</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-cajon.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad, ayuda mucho. Es como tener un archivador tan bien organizado que encuentras cualquier papel en segundos. ¿Qué facilita conservar bien la documentación contable?",
+      "pregunta": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad, ayuda mucho. <mark>Es como tener todo tan bien ordenado que encuentras cualquier papel en segundos</mark>. ¿Qué facilita conservar bien la documentación contable?",
       "respuesta": "<mark>Buenos procedimientos de archivo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-documentos.jpg",

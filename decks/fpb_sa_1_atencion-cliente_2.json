@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Tratas a un invitado en tu casa con cortesía, aunque llegue con prisa o mal humor. Con un cliente se hace lo mismo: hablarle sin prisa y sin juzgarle. Se mantiene aunque el cliente esté nervioso o enfadado. ¿Cómo se llama este trato hacia el cliente?",
+      "pregunta": "<mark>Tratas a un invitado en tu casa con cortesía, aunque llegue con prisa o mal humor</mark>. Con un cliente se hace igual. Se mantiene aunque el cliente esté nervioso. ¿Cómo se llama este trato hacia el cliente?",
       "respuesta": "<mark>Amabilidad y respeto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/trato-amable-recepcion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Un buen árbitro no cambia las reglas según quién juega. Un profesional mantiene el mismo trato pase lo que pase. Responder con la misma actitud negativa solo empeora la situación. ¿Cómo se llama mantener siempre el mismo buen trato?",
+      "pregunta": "<mark>Un buen árbitro no cambia las reglas según quién juega</mark>. Un trabajador mantiene el mismo trato pase lo que pase. Responder con la misma actitud negativa solo empeora la situación. ¿Cómo se llama mantener siempre el mismo buen trato?",
       "respuesta": "<mark>Profesionalidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/arbitro-imparcial.webp",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Recibir a alguien en la puerta de una oficina se parece a esto, pero solo con la voz. Contestar rápido, identificarte y hablar con tono claro y amable dejan buena imagen. ¿Cómo se llama atender bien el teléfono en el trabajo?",
+      "pregunta": "<mark>Recibir a alguien en la puerta de una oficina se parece a esto, pero solo con la voz</mark>. Contestar rápido, identificarte y hablar con tono claro dejan buena imagen. ¿Cómo se llama atender bien el teléfono en el trabajo?",
       "respuesta": "<mark>Atención telefónica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/atender-llamada.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Por teléfono no se pueden usar gestos ni miradas para ayudar a comunicar. Todo depende de la voz: el tono, la claridad y la paciencia. Una sonrisa, aunque no se vea, también se nota en la voz. ¿Qué es lo único que tienes para comunicar por teléfono?",
+      "pregunta": "Por teléfono no se pueden usar gestos ni miradas para ayudar a comunicar. Todo depende del tono, la claridad y la paciencia. <mark>Una sonrisa, aunque no se vea, también se nota al hablar</mark>. ¿Qué es lo único que tienes para comunicar por teléfono?",
       "respuesta": "<mark>La voz</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/operadora-auriculares.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Un cliente expresa disgusto cuando un producto o servicio no funcionó como esperaba. Es una señal de que algo salió mal. Escucharla con atención, sin ponerte a la defensiva, es el primer paso para resolverla. ¿Cómo se llama esta expresión de insatisfacción?",
+      "pregunta": "Un cliente expresa disgusto cuando un producto o servicio no funcionó como esperaba. <mark>Es una señal de que algo salió mal</mark>. Escucharla sin ponerte a la defensiva es el primer paso para resolverla. ¿Cómo se llama esta expresión de insatisfacción?",
       "respuesta": "<mark>Queja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/carta-queja.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Seguir un protocolo paso a paso evita dejar nada sin resolver. Primero se escucha con calma, después se anotan los datos. Informar de los siguientes pasos ayuda a que el cliente se sienta atendido. ¿Qué pasos sigue tramitar bien una queja?",
+      "pregunta": "<mark>Seguir un protocolo paso a paso evita dejar nada sin terminar</mark>. Primero se escucha con calma, después se anotan los datos. Informar de los siguientes pasos ayuda al cliente. ¿Qué pasos sigue tramitar bien una queja?",
       "respuesta": "<mark>Escuchar, anotar y resolver</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/tramitar-queja-notas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Una red de seguridad protege a quien compra un producto o contrata un servicio. Nadie puede quitarte esta protección. Incluye el derecho a la información, a la seguridad y a reclamar. ¿Cómo se llaman estas garantías legales?",
+      "pregunta": "<mark>Una red de seguridad protege a quien compra un producto o contrata un servicio</mark>. Nadie puede quitarte esa protección. Incluye el derecho a la información y a reclamar. ¿Cómo se llaman estas garantías legales?",
       "respuesta": "<mark>Derechos del consumidor</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/cartel-politica-devolucion.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Antes de usar algo, conviene leer bien las instrucciones. Antes de comprar, es la empresa quien debe explicar precio, características y condiciones. Ocultar datos importantes está prohibido por ley. ¿Qué derecho protege esto?",
+      "pregunta": "Antes de usar algo, conviene leer bien las instrucciones. <mark>Antes de comprar, es la empresa quien debe explicar precio, características y condiciones</mark>. Ocultar datos importantes está prohibido por ley. ¿Qué derecho protege esto?",
       "respuesta": "<mark>Derecho a la información</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/etiqueta-precio-producto.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Cuidar una amistad hace que dure más tiempo. Un cliente satisfecho suele volver y recomendar la empresa a otras personas. Un cliente insatisfecho, en cambio, puede irse y no volver nunca. ¿Qué debe cuidar siempre una empresa?",
+      "pregunta": "<mark>Cuidar una amistad hace que dure más tiempo</mark>. Un cliente contento suele volver y recomendar la empresa. Uno descontento puede irse y no volver nunca. ¿Qué debe cuidar siempre una empresa?",
       "respuesta": "<mark>La satisfacción del cliente</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/cliente-satisfecho-caja.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Una recomendación de boca en boca, o cada vez más en internet, viaja lejos. Cada cliente bien atendido puede hablar bien de la empresa. Una mala atención, en cambio, se comenta y se recuerda con facilidad. ¿Qué construye una buena atención al cliente?",
+      "pregunta": "<mark>Una recomendación de boca en boca, o cada vez más en internet, viaja lejos</mark>. Cada cliente bien atendido puede hablar bien de la empresa. Una mala atención se comenta y se recuerda con facilidad. ¿Qué construye una buena atención al cliente?",
       "respuesta": "<mark>Buena reputación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/satisfaccion-cliente.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Un testigo de combustible encendido avisa antes de que el coche se quede tirado. Una queja también avisa de un fallo que se puede corregir. No es solo un problema, también es información útil. ¿Qué puede aportar una queja bien gestionada?",
+      "pregunta": "<mark>Un testigo de combustible encendido avisa antes de que el coche se quede tirado</mark>. Una queja también avisa de un fallo que se puede corregir. No es solo un problema. ¿Qué puede aportar una queja bien gestionada?",
       "respuesta": "<mark>Información útil</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/aviso-combustible.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "No se añade más leña a un fuego que ya está ardiendo. Responder con el mismo tono alterado empeora las cosas, aunque cueste no hacerlo. Suele ser la mejor forma de calmar también al cliente. ¿Qué debes mantener ante un cliente enfadado?",
+      "pregunta": "<mark>No se añade más leña a un fuego que ya está ardiendo</mark>. Responder con el mismo tono alterado empeora las cosas, aunque cueste. Suele ser la mejor forma de calmar también al cliente. ¿Qué debes mantener ante un cliente enfadado?",
       "respuesta": "<mark>La calma</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/hoguera.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Escribir una lista ayuda a no olvidar nada importante. Anotar bien los datos permite dar seguimiento y no repetir la misma pregunta varias veces. También sirve como prueba de lo ocurrido, si hace falta. ¿Qué conviene hacer con los datos de una queja?",
+      "pregunta": "<mark>Escribir una lista ayuda a no olvidar nada importante</mark>. Permite dar seguimiento sin repetir la misma pregunta varias veces. También sirve como prueba de lo ocurrido, si hace falta. ¿Qué conviene hacer con los datos de una queja?",
       "respuesta": "<mark>Anotar los datos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/anotar-datos.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "Te ganas la confianza de alguien poco a poco, con cada buena experiencia. Lo mismo pasa cuando un cliente satisfecho vuelve a elegir la misma empresa. Cuesta menos que conseguir un cliente completamente nuevo. ¿Cómo se llama este proceso?",
+      "pregunta": "<mark>Te ganas la confianza de alguien poco a poco, con cada buena experiencia</mark>. Lo mismo pasa cuando un cliente satisfecho vuelve a elegir la misma empresa. Cuesta menos que conseguir un cliente nuevo. ¿Cómo se llama este proceso?",
       "respuesta": "<mark>Fidelización</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/tarjetas-fidelizacion.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "pregunta": "A veces alguien solo necesita que le entiendan, aunque no puedas resolverlo todo. Sentirse escuchado calma la situación, incluso si la respuesta final no es la esperada. Ignorarlo solo aumenta la frustración. ¿Qué necesita sentir siempre un cliente?",
+      "pregunta": "<mark>A veces alguien solo necesita que le entiendan, aunque no puedas resolverlo todo</mark>. Eso calma la situación, incluso si la respuesta final no es la esperada. Ignorarlo solo aumenta la frustración. ¿Qué necesita sentir siempre un cliente?",
       "respuesta": "<mark>Sentirse escuchado</mark>",
       "imagen": {
         "archivo": "assets/img/decks/fpb_sa_1_atencion-cliente_2/escucha-atenta.jpg",

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un poema con catorce versos, siempre organizados igual: dos estrofas de cuatro versos y dos de tres. Fue muy popular en el Renacimiento y el Barroco. ¿Cómo se llama este tipo de poema?",
+      "pregunta": "Es un poema con catorce versos, <mark>organizados en dos estrofas de cuatro versos y dos de tres</mark>. Fue muy popular en el Renacimiento y el Barroco. ¿Cómo se llama este tipo de poema?",
       "respuesta": "<mark>Soneto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura_2/pagina-libro-antiguo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es el escudero que acompaña a Don Quijote en sus aventuras. Es práctico y realista, todo lo contrario a su amo. Juntos forman una de las parejas más famosas de la literatura. ¿Quién es este escudero?",
+      "pregunta": "Es el escudero que acompaña a Don Quijote en sus aventuras. Es práctico y realista, todo lo contrario a su amo. <mark>Juntos forman una de las parejas más famosas de la literatura</mark>. ¿Quién es este escudero?",
       "respuesta": "<mark>Sancho Panza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura_2/sancho-panza-quijote.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Un personaje sueña con aventuras y caballeros, casi sin ver la realidad. El otro es sencillo, práctico, y piensa en comer y descansar. Uno mira con fantasía; el otro, con sentido común. ¿Cuál de los dos piensa con sentido común?",
+      "pregunta": "Un personaje sueña con aventuras y caballeros, casi sin ver la realidad. <mark>El otro es sencillo, práctico, y piensa en comer y descansar</mark>. Uno mira con fantasía; el otro, con sentido común. ¿Cuál de los dos piensa con sentido común?",
       "respuesta": "<mark>Sancho Panza</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura_2/quijote-sancho.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Fue un autor de teatro del Barroco español. Su obra más famosa es 'La vida es sueño'. Escribió sobre el destino, el poder y la libertad. ¿Quién fue este dramaturgo?",
+      "pregunta": "Fue un autor de teatro del Barroco español. <mark>Su obra más famosa es 'La vida es sueño'</mark>. Escribió sobre el destino, el poder y la libertad. ¿Quién fue este dramaturgo?",
       "respuesta": "<mark>Calderón de la Barca</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura_2/calderon-de-la-barca.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Una obra de teatro plantea que la vida puede ser tan irreal como un sueño. Nos pregunta si lo que vivimos de verdad importa igual. Invita a pensar sobre qué es real de verdad. ¿Cómo se llama esta obra?",
+      "pregunta": "Una obra de teatro plantea que quizá nada de lo vivido sea completamente real. <mark>Nos hace dudar de qué es verdad y qué es solo apariencia</mark>. ¿Cómo se llama esta obra?",
       "respuesta": "<mark>La vida es sueño</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura_2/nubes-sueno.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Era una poesía que hablaba del amor a Dios. Buscaba describir un sentimiento casi imposible de poner en palabras. Autores como Fray Luis de León o Santa Teresa la escribieron. ¿Cómo se llama este tipo de poesía?",
+      "pregunta": "Era una poesía que hablaba del amor a Dios. <mark>Buscaba describir un sentimiento casi imposible de poner en palabras</mark>. Autores como Fray Luis de León o Santa Teresa la escribieron. ¿Cómo se llama este tipo de poesía?",
       "respuesta": "<mark>Poesía mística</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura_2/claustro-monasterio.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Buscaba paz y tranquilidad, lejos del ruido del mundo. Soñaba con una vida sencilla, en el campo, en calma. Escribía sobre alejarse de la envidia y la prisa. ¿Qué buscaba sobre todo este poeta místico?",
+      "pregunta": "Buscaba paz y tranquilidad, lejos del ruido del mundo. <mark>Soñaba con una vida sencilla, en el campo, en calma</mark>. Escribía sobre alejarse de la envidia y la prisa. ¿Qué buscaba sobre todo este poeta místico?",
       "respuesta": "<mark>La paz interior</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_literatura_2/campo-ingles.jpg",

@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Esto une dos cosas parecidas usando la palabra 'como'. Por ejemplo, decir que unos ojos brillan como estrellas. Ayuda a imaginar mejor lo que describe. ¿Cómo se llama este recurso?",
+      "pregunta": "Esto une dos cosas parecidas usando la palabra 'como'. <mark>Por ejemplo, decir que unos ojos brillan como estrellas</mark>. Ayuda a imaginar mejor lo que describe. ¿Cómo se llama este recurso?",
       "respuesta": "<mark>Comparación</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_4/comparacion-estrellas.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es una palabra que imita un sonido real. Por ejemplo, 'guau' imita el ladrido de un perro. Leerla casi hace que oigas el sonido. ¿Cómo se llama este tipo de palabra?",
+      "pregunta": "Es una palabra que imita un sonido real. <mark>Por ejemplo, 'guau' imita el ladrido de un perro</mark>. Leerla casi hace que oigas el sonido. ¿Cómo se llama este tipo de palabra?",
       "respuesta": "<mark>Onomatopeya</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_4/perro-ladrando.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es una frase corta que guarda un consejo. Se repite desde hace generaciones, como una idea heredada. Por ejemplo: 'quien mucho abarca, poco aprieta'. ¿Cómo se llama esta frase?",
+      "pregunta": "Es una frase corta que guarda un consejo, repetida desde hace generaciones. <mark>Por ejemplo: 'quien mucho abarca, poco aprieta'</mark>. ¿Cómo se llama esta frase?",
       "respuesta": "<mark>Refrán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_4/abuelo-contando-historias.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es una frase difícil de decir rápido, sin equivocarte. Las palabras se parecen tanto que la lengua se lía. Por ejemplo: 'tres tristes tigres tragan trigo'. ¿Cómo se llama esta frase?",
+      "pregunta": "Es una frase difícil de decir rápido, sin equivocarte. Las palabras se parecen tanto que la lengua se lía. <mark>Por ejemplo: 'tres tristes tigres tragan trigo'</mark>. ¿Cómo se llama esta frase?",
       "respuesta": "<mark>Trabalenguas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_4/nina-lengua-fuera.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Esta canción se canta desde hace muchos años. Pasa de padres a hijos, como una receta de familia. Nadie recuerda quién la inventó primero. ¿Cómo se llama este tipo de canción?",
+      "pregunta": "Esta canción se canta desde hace muchos años. <mark>Pasa de padres a hijos, como una receta de familia</mark>. Nadie recuerda quién la inventó primero. ¿Cómo se llama este tipo de canción?",
       "respuesta": "<mark>Canción tradicional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_4/libro-canciones-tradicionales.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Este poema cuenta una historia, no solo sentimientos. Tiene personajes y algo que les va pasando, como un cuento. Pero está escrito en versos, con ritmo. ¿Cómo se llama este tipo de poema?",
+      "pregunta": "Este poema cuenta una historia, no solo sentimientos. <mark>Tiene personajes y algo que les va pasando, como un cuento</mark>. Está escrito en versos, con ritmo. ¿Cómo se llama este tipo de poema?",
       "respuesta": "<mark>Poema narrativo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_3_literatura_4/nina-leyendo-cuento.jpg",

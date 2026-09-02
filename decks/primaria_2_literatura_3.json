@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el personaje principal de un cuento, al que le pasan las cosas más importantes. La historia se cuenta siempre siguiéndole. Caperucita Roja, por ejemplo, es este personaje en su cuento. ¿Cómo se llama este personaje?",
+      "pregunta": "Es el personaje principal de un cuento, al que le pasan las cosas más importantes. La historia se cuenta siempre siguiéndole. <mark>Caperucita Roja, por ejemplo, es este personaje en su cuento</mark>. ¿Cómo se llama este personaje?",
       "respuesta": "<mark>El protagonista</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/protagonista-caperucita.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es el personaje que se opone al protagonista. Le pone problemas, como un obstáculo en su camino. El lobo, por ejemplo, es este personaje en Caperucita. ¿Cómo se llama este personaje?",
+      "pregunta": "Es el personaje que se opone al protagonista. Le pone problemas, <mark>como un obstáculo en su camino</mark>. El lobo, por ejemplo, es este personaje en Caperucita. ¿Cómo se llama este personaje?",
       "respuesta": "<mark>El antagonista</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/antagonista-lobo.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el problema que tiene que resolver el protagonista. Es el motor que hace avanzar toda la historia. Por ejemplo, encontrar el camino a casa estando perdido. ¿Cómo se llama este problema central?",
+      "pregunta": "Es el problema que tiene que resolver el protagonista. <mark>Es el motor que hace avanzar toda la historia</mark>. Por ejemplo, encontrar el camino a casa estando perdido. ¿Cómo se llama este problema central?",
       "respuesta": "<mark>El conflicto</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-niebla.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es la parte final de un cuento, donde se resuelve el problema. Cierra la historia, como cerrar la puerta al salir. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta parte final?",
+      "pregunta": "Es la parte final de un cuento, donde se resuelve el problema. Cierra la historia, <mark>como cerrar la puerta al salir</mark>. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta parte final?",
       "respuesta": "<mark>El desenlace</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/puerta-cerrada.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es un libro con varios cuentos juntos, distintos entre sí. Es como una caja con caramelos de sabores diferentes. Puedes leer uno cada vez, sin seguir un orden. ¿Cómo se llama este tipo de libro?",
+      "pregunta": "Es un libro con varios cuentos juntos, distintos entre sí. <mark>Es como una caja con caramelos de sabores diferentes</mark>. Puedes leer uno cada vez, sin seguir un orden. ¿Cómo se llama este tipo de libro?",
       "respuesta": "<mark>Colección de cuentos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/caja-caramelos.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Esto hace que un cuento dé un poco de miedo. Es como cuando se apagan las luces y todo suena distinto. Aun así, el cuento suele terminar bien. ¿Qué es lo que da ese pequeño susto?",
+      "pregunta": "Esto hace que un cuento dé un poco de miedo. <mark>Es como cuando se apagan las luces y todo suena distinto</mark>. Aun así, el cuento suele terminar bien. ¿Qué es lo que da ese pequeño susto?",
       "respuesta": "<mark>Un misterio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-noche.jpg",

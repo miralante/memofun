@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es un cuento corto con animales que hablan y actúan. Casi siempre enseña algo importante para la vida. Muchos tratan sobre la astucia o la paciencia. ¿Cómo se llama este tipo de cuento?",
+      "pregunta": "Es un cuento corto <mark>con animales que hablan y actúan</mark>. Casi siempre enseña algo importante para la vida. ¿Cómo se llama este tipo de cuento?",
       "respuesta": "<mark>Fábula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-uvas.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es la enseñanza que deja una fábula al terminar. Es como un consejo escondido dentro de la historia. Por ejemplo: no burlarse de los demás. ¿Cómo se llama esta enseñanza final?",
+      "pregunta": "Es la enseñanza que deja una fábula al terminar, <mark>como un consejo escondido dentro de la historia</mark>. Por ejemplo: no burlarse de los demás. ¿Cómo se llama esta enseñanza final?",
       "respuesta": "<mark>Moraleja</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/moraleja-hercules-carretero.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "En una carrera, la liebre corre muy rápido y se para a dormir. La tortuga es lenta pero no para nunca. La liebre pierde por exceso de confianza. ¿Quién gana la carrera?",
+      "pregunta": "En una carrera, la liebre corre muy rápido pero <mark>se para a dormir</mark>. La tortuga es lenta pero no para nunca. ¿Quién gana la carrera?",
       "respuesta": "<mark>La tortuga</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/liebre-tortuga.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es una frase difícil de decir rápido y sin errores. Las palabras se parecen mucho y la lengua se lía. Por ejemplo: 'tres tristes tigres'. ¿Cómo se llama este tipo de frase?",
+      "pregunta": "Es una frase difícil de decir rápido y sin errores, la lengua se lía. Por ejemplo: <mark>'tres tristes tigres'</mark>. ¿Cómo se llama este tipo de frase?",
       "respuesta": "<mark>Trabalenguas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/trabalenguas-tigre.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es una frase corta que se repite desde hace años. Guarda un consejo o una idea sobre la vida. Por ejemplo: 'más vale tarde que nunca'. ¿Cómo se llama este tipo de frase?",
+      "pregunta": "Es una frase corta que se repite desde hace años, con un consejo sobre la vida. Por ejemplo: <mark>'más vale tarde que nunca'</mark>. ¿Cómo se llama este tipo de frase?",
       "respuesta": "<mark>Refrán</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/libro-refranes.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Un cuento puede tratar sobre cualquier tema o personaje. Esta otra historia casi siempre usa animales para dejar una enseñanza. Casi siempre termina con una moraleja. ¿Cómo se llama esta segunda clase de historia?",
+      "pregunta": "Un cuento puede tratar sobre cualquier tema. Esta otra historia casi siempre <mark>usa animales para dejar una enseñanza</mark>, con una moraleja al final. ¿Cómo se llama esta segunda clase de historia?",
       "respuesta": "<mark>Fábula</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-cuervo.jpg",

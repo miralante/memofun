@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Esta persona inventa la historia de un cuento, como un cocinero inventa una receta. Su nombre aparece en la portada del libro. Sin ella, el cuento no existiría. ¿Cómo se llama esta persona?",
+      "pregunta": "Esta persona inventa la historia de un cuento, <mark>como un cocinero inventa una receta</mark>. Su nombre aparece en la portada del libro. ¿Cómo se llama esta persona?",
       "respuesta": "<mark>El autor o la autora</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/pluma-escritor.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es la primera página que ves de un libro. Muestra el título y un dibujo, como el cartel de una tienda. Te da una pista de qué trata el libro. ¿Cómo se llama esta primera página?",
+      "pregunta": "Es la primera página de un libro. Muestra el título y un dibujo, <mark>como el cartel de una tienda</mark>. Te da una pista de qué trata el libro. ¿Cómo se llama esta primera página?",
       "respuesta": "<mark>La portada</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/portada-libro.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es un lugar con muchísimos libros para leer o llevar prestados. Es como una tienda de historias, pero gratis. Puedes devolver el libro cuando termines. ¿Cómo se llama este lugar?",
+      "pregunta": "Es un lugar con muchísimos libros para leer o llevar prestados, <mark>como una tienda de historias, pero gratis</mark>. ¿Cómo se llama este lugar?",
       "respuesta": "<mark>Biblioteca</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/biblioteca-interior.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Es una canción suave para ayudar a dormir a un bebé. Su voz tranquila funciona casi como un abrazo. Tiene palabras sencillas que se repiten. ¿Cómo se llama este tipo de canción?",
+      "pregunta": "Es una canción suave para dormir a un bebé. Su voz tranquila funciona <mark>casi como un abrazo</mark>. ¿Cómo se llama este tipo de canción?",
       "respuesta": "<mark>Nana</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/nana-cuna.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Esto ayuda a imaginar mejor cómo son los personajes y lugares de un cuento. Es como ver una foto de la historia mientras la lees. Así entiendes la historia aunque no leas cada palabra. ¿Cómo se llama esto en un libro?",
+      "pregunta": "Ayuda a imaginar cómo son los personajes y lugares de un cuento. Es <mark>como ver una foto de la historia mientras la lees</mark>. ¿Cómo se llama esto en un libro?",
       "respuesta": "<mark>Los dibujos</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/dibujos-cuento.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Pides un libro prestado en la biblioteca, como pedir prestado un juguete. Hay que tratarlo bien para que otro niño pueda leerlo después. Esto ayuda a que la biblioteca funcione para todos. ¿Qué debes hacer con el libro prestado?",
+      "pregunta": "Pides un libro prestado en la biblioteca, <mark>como pedir prestado un juguete</mark>. Hay que tratarlo bien para que otro niño pueda leerlo después. ¿Qué debes hacer con el libro prestado?",
       "respuesta": "<mark>Cuidarlo y devolverlo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_1_literatura_4/fecha-devolucion.jpg",

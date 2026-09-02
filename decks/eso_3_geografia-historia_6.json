@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Un súbdito obedece al rey sin apenas derechos propios. <br>Otra figura, en cambio, tiene derechos reconocidos y puede participar en las decisiones. <br>Ese cambio fue uno de los grandes logros del siglo diecinueve. <br>¿Cómo se llama esta persona con derechos reconocidos?",
+      "pregunta": "Un súbdito obedece al rey sin apenas derechos propios. <br><mark>Otra figura tiene derechos reconocidos y puede participar en las decisiones</mark>. <br>Ese cambio fue uno de los grandes logros del siglo diecinueve. <br>¿Cómo se llama esta persona con derechos reconocidos?",
       "respuesta": "<mark>Ciudadano</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/subdito-ciudadano.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Una ley principal de un país está por encima de todas las demás. <br>Es como el manual de instrucciones que dice cómo debe funcionar un Estado. <br>En el siglo diecinueve, tener una era un símbolo de progreso. <br>¿Cómo se llama esta ley principal?",
+      "pregunta": "Una ley principal de un país está por encima de todas las demás. <br><mark>Es como el manual de instrucciones que dice cómo debe funcionar un Estado</mark>. <br>En el siglo diecinueve, tener una era un símbolo de progreso. <br>¿Cómo se llama esta ley principal?",
       "respuesta": "<mark>Constitución</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/constitucion.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Toda la sociedad acepta cumplir juntos unas normas. <br>Es como firmar un acuerdo entre todos para poder convivir mejor. <br>A cambio de obedecer las leyes, los ciudadanos reciben derechos y protección. <br>¿Cómo se llama esta idea de acuerdo entre toda la sociedad?",
+      "pregunta": "Toda la sociedad acepta cumplir juntos unas normas. <br><mark>Es como firmar un acuerdo entre todos para poder convivir mejor</mark>. <br>A cambio de obedecer las leyes, los ciudadanos reciben derechos y protección. <br>¿Cómo se llama esta idea de acuerdo entre toda la sociedad?",
       "respuesta": "<mark>Contrato social</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/contrato-social.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Una idea defiende la identidad propia de un pueblo o nación. <br>Otra idea busca unir a varios países en torno a un objetivo común. <br>Ambas conviven, a veces en tensión, en la política moderna. <br>¿Qué palabra describe la idea de unir varios países en torno a un objetivo común?",
+      "pregunta": "Una idea defiende la identidad propia de un pueblo o nación. <br>Otra idea busca unir a varios países en torno a un objetivo común, <mark>como ocurre en la Unión Europea</mark>. <br>Ambas conviven, a veces en tensión, en la política moderna. <br>¿Qué palabra describe la idea de unir varios países en torno a un objetivo común?",
       "respuesta": "<mark>Movimiento supranacional</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/nacionalismo.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Muchas personas dejaron el campo para trabajar en fábricas de la ciudad. <br>Es como trasladar el motor de la economía de la tierra a la máquina. <br>Ese cambio movió a mucha gente de un lugar a otro. <br>¿Cómo se llaman estos desplazamientos de gente dentro de un mismo país?",
+      "pregunta": "Muchas personas dejaron el campo para trabajar en fábricas de la ciudad. <br><mark>Es como trasladar el motor de la economía de la tierra a la máquina</mark>. <br>Ese cambio movió a mucha gente de un lugar a otro. <br>¿Cómo se llaman estos desplazamientos de gente dentro de un mismo país?",
       "respuesta": "<mark>Migraciones internas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/industrializacion-trabajo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Un sistema garantiza servicios básicos, como sanidad o educación, a toda la población. <br>Es como una red que sostiene a la gente cuando algo va mal. <br>Se fue construyendo, sobre todo, gracias a la lucha del movimiento obrero. <br>¿Cómo se llama este sistema?",
+      "pregunta": "Un sistema garantiza servicios básicos, como sanidad o educación, a toda la población. <br><mark>Es como una red que sostiene a la gente cuando algo va mal</mark>. <br>Se fue construyendo, sobre todo, gracias a la lucha del movimiento obrero. <br>¿Cómo se llama este sistema?",
       "respuesta": "<mark>Estado del bienestar</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/estado-bienestar.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Un sistema económico fue creciendo desde pequeñas fábricas hasta enormes industrias y bancos. <br>Es como una bola de nieve que, al rodar, se hace cada vez más grande. <br>Aumentó la riqueza, pero también la desigualdad social. <br>¿Qué sistema económico creció así hasta la Primera Guerra Mundial?",
+      "pregunta": "Un sistema económico fue creciendo desde pequeñas fábricas hasta enormes industrias y bancos. <br><mark>Es como una bola de nieve que, al rodar, se hace cada vez más grande</mark>. <br>Aumentó la riqueza, pero también la desigualdad social. <br>¿Qué sistema económico creció así hasta la Primera Guerra Mundial?",
       "respuesta": "<mark>Capitalismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/capitalismo.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Ocupar y gobernar directamente un territorio ajeno es una cosa. <br>Dominar países de forma más amplia para sacar provecho económico es otra. <br>Las potencias europeas usaron las dos para expandir su poder. <br>¿Cómo se llama ocupar y gobernar directamente un territorio ajeno?",
+      "pregunta": "Ocupar y gobernar directamente un territorio ajeno es una cosa. <br>Dominar países de forma más amplia para sacar provecho económico es otra. <br><mark>Las potencias europeas usaron las dos para expandir su poder</mark>. <br>¿Cómo se llama ocupar y gobernar directamente un territorio ajeno?",
       "respuesta": "<mark>Colonialismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/colonialismo-imperialismo.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Un bien también puede generar actividad económica, como el turismo. <br>Un monumento antiguo puede atraer visitantes hoy, igual que hace siglos. <br>Por eso conservarlo bien beneficia tanto a la cultura como a la economía. <br>¿Cómo se llama este bien heredado del pasado?",
+      "pregunta": "Un bien también puede generar actividad económica, como el turismo. <br><mark>Un monumento antiguo puede atraer visitantes hoy, igual que hace siglos</mark>. <br>Por eso conservarlo bien beneficia tanto a la cultura como a la economía. <br>¿Cómo se llama este bien heredado del pasado?",
       "respuesta": "<mark>Patrimonio</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/patrimonio-recurso.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Museos, rutas turísticas y programas de conservación difunden el patrimonio histórico hoy. <br>Es como cuidar un jardín antiguo para que otros también puedan disfrutarlo. <br>Sin gestión adecuada, ese patrimonio podría deteriorarse o perderse. <br>¿A través de qué se difunde y gestiona hoy el patrimonio histórico?",
+      "pregunta": "Hoy existen formas de compartir y cuidar el patrimonio histórico. <br><mark>Es como cuidar un jardín antiguo para que otros también puedan disfrutarlo</mark>. <br>Sin gestión adecuada, ese patrimonio podría deteriorarse o perderse. <br>¿A través de qué se difunde y gestiona hoy el patrimonio histórico?",
       "respuesta": "<mark>Museos y rutas turísticas</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/museo-arte.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "pregunta": "Muchos artistas seguían mirando a Grecia y Roma como modelo de belleza. <br>Otros, en cambio, rompieron con esa tradición para buscar algo nuevo. <br>Esa tensión marcó buena parte del arte del siglo diecinueve. <br>¿Qué dos movimientos artísticos nacieron de esa tensión?",
+      "pregunta": "<mark>Muchos artistas seguían mirando a Grecia y Roma como modelo de belleza</mark>. <br>Otros, en cambio, rompieron con esa tradición para buscar algo nuevo. <br>Esa tensión marcó buena parte del arte del siglo diecinueve. <br>¿Qué dos movimientos artísticos nacieron de esa tensión?",
       "respuesta": "<mark>Romanticismo y Realismo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/artes-clasicas-xix.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "pregunta": "Personas con ideas, culturas y creencias distintas conviven en una sociedad. <br>Es como un jardín con flores de muchos colores, no todas iguales. <br>Las sociedades más democráticas suelen defenderla como un valor importante. <br>¿Cómo se llama esta convivencia de ideas y culturas distintas?",
+      "pregunta": "Personas con ideas, culturas y creencias distintas conviven en una sociedad. <br><mark>Es como un jardín con flores de muchos colores, no todas iguales</mark>. <br>Las sociedades más democráticas suelen defenderla como un valor importante. <br>¿Cómo se llama esta convivencia de ideas y culturas distintas?",
       "respuesta": "<mark>Pluralidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/pluralidad.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "pregunta": "Una responsabilidad depende de las decisiones de cada persona. <br>Otra es lo que toda una sociedad decide cuidar junta, como el medio ambiente. <br>Ambas se complementan en la vida en comunidad. <br>¿Cómo se llama la responsabilidad que asume toda una sociedad junta?",
+      "pregunta": "Una responsabilidad depende de las decisiones de cada persona. <br><mark>Otra es lo que toda una sociedad decide cuidar junta, como el medio ambiente</mark>. <br>Ambas se complementan en la vida en comunidad. <br>¿Cómo se llama la responsabilidad que asume toda una sociedad junta?",
       "respuesta": "<mark>Responsabilidad colectiva</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/responsabilidad-colectiva.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "pregunta": "La industrialización empezó entonces a consumir recursos a gran escala. <br>Es como abrir un grifo que, siglo y medio después, seguimos sin cerrar del todo. <br>Muchos problemas ambientales actuales tienen raíces en esa época. <br>¿Qué empezó a consumir recursos a gran escala en el siglo XIX?",
+      "pregunta": "Un gran cambio económico empezó entonces a consumir recursos a gran escala. <br><mark>Es como abrir un grifo que, siglo y medio después, seguimos sin cerrar del todo</mark>. <br>Muchos problemas ambientales actuales tienen raíces en esa época. <br>¿Qué empezó a consumir recursos a gran escala en el siglo XIX?",
       "respuesta": "<mark>La industrialización</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_geografia-historia_6/medioambiente-economia.jpg",

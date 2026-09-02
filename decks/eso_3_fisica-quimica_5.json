@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es como no dejar el grifo abierto cuando no lo estás usando. Apagar luces innecesarias o aprovechar la luz natural son ejemplos sencillos. Significa consumir solo la energía necesaria, evitando el derroche. ¿Cómo se llama esta forma de consumir energía?",
+      "pregunta": "<mark>Es como no dejar el grifo abierto cuando no lo estás usando</mark>. Apagar luces innecesarias o aprovechar la luz natural son ejemplos sencillos. Significa consumir solo la energía necesaria, evitando el derroche. ¿Cómo se llama esta forma de consumir energía?",
       "respuesta": "<mark>Uso racional de la energía</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/bombilla-led.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Frotar un globo en el pelo y usarlo para atraer papelitos es un ejemplo clásico. Ocurre al ganar o perder electrones. ¿Cómo se llama cuando un objeto adquiere carga eléctrica así?",
+      "pregunta": "<mark>Frotar un globo en el pelo y usarlo para atraer papelitos</mark> es un ejemplo clásico. Ocurre al ganar o perder electrones. ¿Cómo se llama cuando un objeto adquiere carga eléctrica así?",
       "respuesta": "<mark>Electrización</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/rayo-ancho.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es como una etiqueta invisible, positiva o negativa, que llevan algunas partículas. Cargas iguales se repelen; distintas se atraen. ¿Cómo se llama esta propiedad que provoca atracción o repulsión?",
+      "pregunta": "<mark>Es como una etiqueta invisible, positiva o negativa, que llevan algunas partículas</mark>. Cargas iguales se repelen; distintas se atraen. ¿Cómo se llama esta propiedad que provoca atracción o repulsión?",
       "respuesta": "<mark>Carga eléctrica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/rayo-tormenta.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Ambas fuerzas actúan a distancia, sin necesidad de contacto directo. Una de ellas puede atraer o repeler; la otra, la gravitatoria, siempre atrae. Además, suele ser mucho más intensa que la gravitatoria. ¿Cómo se llama esta primera fuerza?",
+      "pregunta": "<mark>Ambas fuerzas actúan a distancia, sin necesidad de contacto directo</mark>. Una de ellas puede atraer o repeler; la otra, la gravitatoria, siempre atrae. Además, suele ser mucho más intensa que la gravitatoria. ¿Cómo se llama esta primera fuerza?",
       "respuesta": "<mark>Fuerza eléctrica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/iman-limaduras.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Es como el agua por una tubería, pero con electrones en vez de agua. Necesita un circuito cerrado para poder circular. ¿Cómo se llama este movimiento ordenado de cargas por un material?",
+      "pregunta": "<mark>Es como el agua por una tubería, pero con electrones en vez de agua</mark>. Necesita un circuito cerrado para poder circular. ¿Cómo se llama este movimiento ordenado de cargas por un material?",
       "respuesta": "<mark>Corriente eléctrica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/circuito.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Cuanto más empuje y menos obstáculo, más corriente circula. Relaciona la corriente, el voltaje y la resistencia de un circuito. Permite calcular cualquiera de los tres si conoces los otros dos. ¿Cómo se llama esta ley?",
+      "pregunta": "<mark>Cuanto más empuje y menos obstáculo, más corriente circula</mark>. Relaciona la corriente, el voltaje y la resistencia de un circuito. Permite calcular cualquiera de los tres si conoces los otros dos. ¿Cómo se llama esta ley?",
       "respuesta": "<mark>Ley de Ohm</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/placa-pcb.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "pregunta": "Es como una pista de carreras por la que la corriente da vueltas sin parar. Necesita una fuente de energía, cables y un elemento que la use. ¿Cómo se llama este camino cerrado por el que pasa la corriente?",
+      "pregunta": "<mark>Es como una pista de carreras por la que la corriente da vueltas sin parar</mark>. Necesita una fuente de energía, cables y un elemento que la use. ¿Cómo se llama este camino cerrado por el que pasa la corriente?",
       "respuesta": "<mark>Circuito eléctrico</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/cables-electricos.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "pregunta": "Es como un estrechamiento en una tubería que frena el agua que pasa. Sirve para controlar cuánta corriente circula por un circuito. ¿Cómo se llama este componente que dificulta el paso de la corriente?",
+      "pregunta": "<mark>Es como un estrechamiento en una tubería que frena el agua que pasa</mark>. Sirve para controlar cuánta corriente circula por un circuito. ¿Cómo se llama este componente que dificulta el paso de la corriente?",
       "respuesta": "<mark>Resistencia eléctrica</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/componentes-electronicos.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "pregunta": "Unas resistencias van una tras otra, en el mismo camino: es un montaje en serie. Otras van en caminos distintos y la corriente se reparte entre ellas. ¿Cómo se llama este segundo tipo de montaje?",
+      "pregunta": "<mark>Unas resistencias van una tras otra, en el mismo camino: es un montaje en serie</mark>. Otras van en caminos distintos y la corriente se reparte entre ellas. ¿Cómo se llama este segundo tipo de montaje?",
       "respuesta": "<mark>Resistencias en paralelo</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/laboratorio-electronica.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "pregunta": "Está en la iluminación, los electrodomésticos, los transportes y muchos otros aparatos. Está tan presente que muchas veces solo la notamos cuando falla. Su descubrimiento cambió por completo la forma de vivir de la humanidad. ¿Qué está presente en tantos aspectos de la vida diaria?",
+      "pregunta": "Está en la iluminación, los electrodomésticos, los transportes y muchos otros aparatos. <mark>Está tan presente que muchas veces solo la notamos cuando falla</mark>. Su descubrimiento cambió por completo la forma de vivir de la humanidad. ¿Qué está presente en tantos aspectos de la vida diaria?",
       "respuesta": "<mark>Electricidad</mark>",
       "imagen": {
         "archivo": "assets/img/decks/eso_3_fisica-quimica_5/horno-electrico.jpg",

@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v40';
+var VERSION = 'memofun-v43';
 
 var FILES = [
   './index.html',
@@ -24,10 +24,10 @@ var FILES = [
   './legal/styles.css',
   './legal/strings.es.js',
   './legal/strings.en.js',
-  './settings/index.html',
-  './settings/app.js',
-  './settings/strings.es.js',
-  './settings/strings.en.js',
+  './config/index.html',
+  './config/app.js',
+  './config/strings.es.js',
+  './config/strings.en.js',
   './tools/study/index.html',
   './tools/study/app.js',
   './tools/study/strings.es.js',

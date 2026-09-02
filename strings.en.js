@@ -34,6 +34,7 @@ if (window.App.i18n) {
       previous: 'Previous',
       skipToContent: 'Skip to content',
       settings: 'Settings',
+      config: 'Settings',
       dataProtection: 'Data protection'
     },
     study: {

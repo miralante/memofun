@@ -4,7 +4,7 @@
   "idioma": "es",
   "tarjetas": [
     {
-      "pregunta": "Es el nombre que identifica a un cuento. Suele dar una pista de lo que vas a leer. Está siempre al principio, antes de la historia. ¿Cómo se llama esto?",
+      "pregunta": "Es el nombre que identifica a un cuento. <mark>Suele dar una pista de lo que vas a leer</mark>. Está siempre al principio, antes de la historia. ¿Cómo se llama esto?",
       "respuesta": "<mark>El título</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/titulo-portada-libro.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "pregunta": "Es la voz que cuenta la historia al lector. No es un personaje que aparece en ella. Dice qué pasa y dónde ocurre. ¿Cómo se llama esta voz?",
+      "pregunta": "Es la voz que cuenta la historia al lector. <mark>No es un personaje que aparece en ella</mark>. Dice qué pasa y dónde ocurre. ¿Cómo se llama esta voz?",
       "respuesta": "<mark>El narrador</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/narrador-cuenta-historia.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "pregunta": "Es el lugar donde ocurre una historia. Puede ser un bosque, una ciudad o hasta el espacio. Cambiarlo cambiaría toda la historia. ¿Cómo se llama esto?",
+      "pregunta": "Es el lugar donde ocurre una historia. <mark>Puede ser un bosque, una ciudad o hasta el espacio</mark>. Cambiarlo cambiaría toda la historia. ¿Cómo se llama esto?",
       "respuesta": "<mark>El escenario</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/escenario-bosque.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "pregunta": "Son quienes ayudan o acompañan al protagonista. No viven la aventura principal, pero importan igual. Por ejemplo, un amigo que da un consejo. ¿Cómo se llaman estos personajes?",
+      "pregunta": "Son quienes ayudan o acompañan al protagonista. No viven la aventura principal, pero importan igual. <mark>Por ejemplo, un amigo que da un consejo</mark>. ¿Cómo se llaman estos personajes?",
       "respuesta": "<mark>Personajes secundarios</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/personajes-secundarios-amigas.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "pregunta": "Esto muestra cómo son los personajes y lugares de un cuento. Ayuda a imaginar la historia sin leer cada palabra. Un buen ejemplo puede contar tanto como una frase. ¿Cómo se llama esto en un libro?",
+      "pregunta": "Esto muestra cómo son los personajes y lugares de un cuento. <mark>Ayuda a imaginar la historia sin leer cada palabra</mark>. Un buen ejemplo puede contar tanto como una frase. ¿Cómo se llama esto en un libro?",
       "respuesta": "<mark>Las ilustraciones</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/dibujos-ilustracion-cuento.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "pregunta": "Una historia puede pasar hoy, hace siglos o en el futuro. Si no hay coches, sabes que es una época antigua. Esto cambia lo que es normal dentro de la historia. ¿Cómo se llama el momento en que ocurre una historia?",
+      "pregunta": "Una historia puede pasar hoy, hace siglos o en el futuro. <mark>Si no hay coches, sabes que es una época antigua</mark>. Esto cambia lo que es normal dentro de la historia. ¿Cómo se llama el momento en que ocurre una historia?",
       "respuesta": "<mark>El tiempo de la historia</mark>",
       "imagen": {
         "archivo": "assets/img/decks/primaria_2_literatura_2/epoca-carruaje-antiguo.jpg",
