@@ -259,6 +259,11 @@ header.app-header .tagline {
   }
 }
 
+@media (max-width: 640px) {
+  .container { padding-top: var(--space-2); }
+  .flashcard { margin-block: var(--space-2); padding: var(--space-3) var(--space-2); }
+}
+
 /* ---------- Course / subject navigation (home screen) ---------- */
 
 .section-heading {
