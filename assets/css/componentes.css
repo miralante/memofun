@@ -618,7 +618,7 @@ header.app-header .tagline {
 
 .flashcard .cara {
   font-size: var(--text-large);
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-regular);
   color: var(--color-text);
 }
 
@@ -626,7 +626,12 @@ header.app-header .tagline {
    boldClosingQuestion() in tools/study/app.js) reads heavier than the
    descriptive clue sentences around it, in both the question and the
    revealed-answer caption — a clearer "this is what to answer" cue
-   than having the whole clue at one uniform weight. */
+   than having the whole clue at one uniform weight. Base .cara must
+   stay at --weight-regular (400) for this to actually show: Atkinson
+   Hyperlegible only ships 400/700 font files (see base.css), so any
+   weight above ~500 already snaps to the same 700 face as --weight-
+   strong (800) — --weight-medium (600) looked identical to "bold"
+   here, which is what made the whole clue read as bold before. */
 .flashcard .cara b {
   font-weight: var(--weight-strong);
 }
