@@ -244,7 +244,8 @@
   }
 
   function backLinkHtml(href) {
-    return '<a class="btn secondary" href="' + href + '">' + App.i18n.t('core.back') + '</a>';
+    return '<a class="btn secondary icon" href="' + href + '" aria-label="' +
+      App.utils.escapeHtml(App.i18n.t('core.back')) + '">←</a>';
   }
 
   /** How many of these decks are already marked completed — a derived

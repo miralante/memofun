@@ -159,17 +159,19 @@
   }
 
   /* Bolds the clue's closing question (format rule: `pregunta` is always
-     2-4 clue sentences ending in one short question — CLAUDE.md §B.8
-     step 3) so it stands out from the descriptive sentences before it,
-     without editing the 300+ existing deck files. Looks for the last
-     sentence-ending punctuation before the trailing "?" and wraps
-     everything after it; falls back to bolding the whole string when
-     `pregunta` is a single sentence with no earlier ".", "!" or "?". */
+     2-4 clue sentences ending in one short "¿...?" question — CLAUDE.md
+     §B.8 step 3) so it stands out from the descriptive sentences before
+     it, without editing the 300+ existing deck files. Anchored on the
+     last "¿" rather than on sentence-ending punctuation: a card whose
+     clue is a single sentence with no "." before the question has
+     nothing else to split on, and a punctuation-based split ends up
+     bolding the entire string instead of just the question. Spanish
+     questions always open with "¿", so its last occurrence is exactly
+     where the closing question starts. */
   function boldClosingQuestion(html) {
-    var withSeparator = html.replace(/([.!?]\s*)([^.!?]*\?)\s*$/,
-      function (m, sep, question) { return sep + '<b>' + question + '</b>'; });
-    if (withSeparator !== html) return withSeparator;
-    return html.replace(/^([^.!?]*\?)\s*$/, '<b>$1</b>');
+    var idx = html.lastIndexOf('¿');
+    if (idx === -1) return html;
+    return html.slice(0, idx) + '<b>' + html.slice(idx) + '</b>';
   }
 
   function paintQuestion() {
