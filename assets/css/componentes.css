@@ -104,21 +104,27 @@ header.app-header .tagline {
 .language-selector {
   display: flex;
   justify-content: center;
-  gap: var(--space-1);
+  gap: var(--space-2);
 }
 
+/* Matches the landing page's .btn-idioma (site/styles.css) — same
+   bigger touch target, bold weight and non-pill radius, now that
+   site/styles.css's own Spanish-named custom properties (copied from
+   a sibling app without translating them) are pointing at real
+   tokens again instead of silently falling back to unstyled buttons. */
 .btn-lang {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 44px;
-  padding: 8px 14px;
-  border-radius: var(--radius-pill);
+  min-height: var(--button-min);
+  min-width: 64px;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius);
   background: var(--color-surface);
-  border: 2px solid var(--color-border);
+  border: 3px solid var(--color-border);
   color: var(--color-text);
-  font-size: var(--text-small);
-  font-weight: var(--weight-medium);
+  font-size: var(--text-base);
+  font-weight: 700;
   cursor: pointer;
 }
 
