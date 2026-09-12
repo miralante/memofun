@@ -610,8 +610,17 @@ header.app-header .tagline {
 
 .flashcard .cara {
   font-size: var(--text-large);
-  font-weight: var(--weight-strong);
+  font-weight: var(--weight-medium);
   color: var(--color-text);
+}
+
+/* The clue's closing question (wrapped in <b> by
+   boldClosingQuestion() in tools/study/app.js) reads heavier than the
+   descriptive clue sentences around it, in both the question and the
+   revealed-answer caption — a clearer "this is what to answer" cue
+   than having the whole clue at one uniform weight. */
+.flashcard .cara b {
+  font-weight: var(--weight-strong);
 }
 
 .flashcard hr {
@@ -637,6 +646,11 @@ header.app-header .tagline {
   font-size: var(--text-small);
   font-weight: var(--weight-regular);
   color: var(--color-text-soft);
+}
+
+.flashcard.revealed .cara b {
+  font-weight: var(--weight-strong);
+  color: var(--color-text);
 }
 
 .flashcard mark {
@@ -705,6 +719,14 @@ header.app-header .tagline {
   gap: var(--space-2);
   margin-top: var(--space-2);
   flex-wrap: wrap;
+}
+
+/* Each control gets its own compositing layer so a rapid hidden/icon
+   class toggle (reveal button showing/hiding, prev/next re-labelling)
+   can't leave a stale paint of the previous frame behind — a known iOS
+   Safari quirk with fast flex-content swaps. Cheap and inert elsewhere. */
+.flashcard-controls .btn {
+  transform: translateZ(0);
 }
 
 /* ---------- Feedback zone ---------- */

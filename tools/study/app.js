@@ -158,10 +158,24 @@
       '</figure>';
   }
 
+  /* Bolds the clue's closing question (format rule: `pregunta` is always
+     2-4 clue sentences ending in one short question — CLAUDE.md §B.8
+     step 3) so it stands out from the descriptive sentences before it,
+     without editing the 300+ existing deck files. Looks for the last
+     sentence-ending punctuation before the trailing "?" and wraps
+     everything after it; falls back to bolding the whole string when
+     `pregunta` is a single sentence with no earlier ".", "!" or "?". */
+  function boldClosingQuestion(html) {
+    var withSeparator = html.replace(/([.!?]\s*)([^.!?]*\?)\s*$/,
+      function (m, sep, question) { return sep + '<b>' + question + '</b>'; });
+    if (withSeparator !== html) return withSeparator;
+    return html.replace(/^([^.!?]*\?)\s*$/, '<b>$1</b>');
+  }
+
   function paintQuestion() {
     var card = cards[index];
     cardEl.innerHTML = imagenHtml(card) +
-      '<div class="tarjeta-contenido"><div class="cara">' + card.pregunta + '</div></div>';
+      '<div class="tarjeta-contenido"><div class="cara">' + boldClosingQuestion(card.pregunta) + '</div></div>';
     btnReveal.classList.remove('hidden');
     btnNext.classList.add('secondary');
     cardEl.classList.remove('revealed');
@@ -179,11 +193,16 @@
       '<div class="tarjeta-contenido">' +
       '<div class="respuesta">' + card.respuesta + '</div>' +
       '<hr>' +
-      '<div class="cara">' + card.pregunta + '</div>' +
+      '<div class="cara">' + boldClosingQuestion(card.pregunta) + '</div>' +
       '</div>';
     btnReveal.classList.add('hidden');
     btnNext.classList.remove('secondary');
     cardEl.classList.add('revealed');
+    /* Unlike moving to a different card, "prev" from a revealed answer
+       first goes back to this same card's question (see goPrev()) — so
+       it must stay enabled even on card 1, where paintQuestion() just
+       disabled it. */
+    btnPrev.disabled = false;
     updateProgress();
     /* Soft positive reinforcement on reveal — the only moment a card
        "responds". Tied to the existing sounds-on/off toggle (handled
@@ -230,6 +249,14 @@
 
   function goPrev() {
     if (flipping) return;
+    /* First press undoes the reveal (back to this card's own question)
+       instead of jumping straight to the previous card — otherwise
+       there's no way back to the question once the answer is showing,
+       and on card 1 there's no earlier card to go to at all. */
+    if (cardEl.classList.contains('revealed')) {
+      renderCard();
+      return;
+    }
     if (index === 0) return;
     index--;
     renderCard();
