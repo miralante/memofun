@@ -247,9 +247,18 @@ header.app-header .tagline {
   border: 2px solid var(--color-border);
 }
 
+/* Fixed 64x64 box (not just a min-*) so a single glyph can't be
+   pushed bigger by padding/line-height/content math, or by the
+   reading-text-size preference (config's "texto grande"/"extra
+   grande" scales --text-* everywhere on purpose — an arrow or an eye
+   emoji doesn't need to grow the way a sentence does, so it uses a
+   fixed px size instead of one of those tokens). */
 .btn.icon {
-  padding: var(--space-1);
-  font-size: var(--text-title);
+  width: var(--button-min);
+  height: var(--button-min);
+  padding: 0;
+  font-size: 28px;
+  line-height: 1;
 }
 
 /* Pressed/speaking state for the 🔊 listen button (Apptonomia's
