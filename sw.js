@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v59';
+var VERSION = 'memofun-v60';
 
 var FILES = [
   './index.html',

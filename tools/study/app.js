@@ -22,6 +22,7 @@
   var areaEl = document.getElementById('study-area');
   var endScreenEl = document.getElementById('end-screen');
   var progressEl = document.getElementById('progress');
+  var progressLabelEl = document.getElementById('progress-label');
   var progressFillEl = document.getElementById('progress-fill');
   var cardEl = document.getElementById('flashcard');
   var btnReveal = document.getElementById('btn-reveal');
@@ -101,6 +102,7 @@
 
   function updateProgress() {
     progressEl.textContent = progressText();
+    progressLabelEl.textContent = (index + 1) + '/' + cards.length;
     progressFillEl.style.width = Math.round(((index + 1) / cards.length) * 100) + '%';
   }
 

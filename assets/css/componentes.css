@@ -78,6 +78,23 @@ header.app-header .tagline {
   flex-wrap: wrap;
 }
 
+/* Study screen's deck title: sits between the back arrow and the stars
+   chip on one compact line (context without the multi-line heading that
+   used to push the flashcard below the fold on mobile). min-width: 0 is
+   what lets text-overflow: ellipsis actually clip inside a flex item. */
+.deck-title-compact {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--color-text-soft);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* ---------- Language selector (present in the header, like Apptonomia's
    idioma-selector — a language switch is a day-one decision the end
    user may need, not a "support" setting tucked away) ---------- */
@@ -489,14 +506,28 @@ header.app-header .tagline {
 /* ---------- Progress bar — informational only, never a countdown or a
    pressure device (SPEC.md §2.3: no timers). ---------- */
 
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.progress-label {
+  font-size: var(--text-small);
+  color: var(--color-text-soft);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 .progress-bar {
   position: relative;
   height: 28px;
+  flex: 1;
   background: var(--color-surface);
   border: 2px solid var(--color-border);
   border-radius: 14px;
   overflow: hidden;
-  margin-bottom: var(--space-2);
 }
 
 .progress-bar .progress-fill {

@@ -16,8 +16,8 @@
 <a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
 
 <div class="top-bar container">
-  <a class="btn secondary" id="btn-back" href="../../index.html" data-i18n="core.back">← Volver</a>
-  <h1 id="deck-title" class="sr-only"></h1>
+  <a class="btn secondary icon" id="btn-back" href="../../index.html" aria-label="Volver" data-i18n-aria="core.back">←</a>
+  <h1 id="deck-title" class="deck-title-compact"></h1>
   <span class="stars" id="stars-total">⭐ 0</span>
 </div>
 
@@ -25,16 +25,19 @@
   <div id="study-status" class="empty-state" data-i18n="study.loading">Cargando la baraja…</div>
 
   <div id="study-area" class="hidden">
-    <div class="progress-bar" role="progressbar" aria-label="Study progress">
-      <div class="progress-fill" id="progress-fill"></div>
+    <div class="progress-row">
+      <div class="progress-bar" role="progressbar" aria-label="Study progress">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <span class="progress-label" id="progress-label" aria-hidden="true"></span>
     </div>
-    <div id="progress" class="flashcard-progress" aria-live="polite"></div>
+    <div id="progress" class="sr-only" aria-live="polite"></div>
 
     <div id="flashcard" class="flashcard" aria-live="polite"></div>
 
     <div class="flashcard-controls">
       <button id="btn-prev" class="btn secondary icon" type="button" aria-label="Anterior" data-i18n-aria="core.previous">‹</button>
-      <button id="btn-reveal" class="btn" type="button" data-i18n="study.showAnswer">👀 Respuesta</button>
+      <button id="btn-reveal" class="btn icon" type="button" aria-label="Ver respuesta" data-i18n-aria="study.showAnswer">👀</button>
       <button id="btn-next" class="btn icon" type="button" aria-label="Siguiente" data-i18n-aria="core.next">›</button>
     </div>
   </div>
