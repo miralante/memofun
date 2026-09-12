@@ -325,6 +325,18 @@ header.app-header .tagline {
 
 .section-header .section-heading { margin: 0; }
 
+/* Back arrow sits inline to the left of the heading instead of on its
+   own line above it — saves a full row on the course/subject/deck
+   screens (reported live: the standalone back button "wastes a
+   screen's worth" of space stacked above the title). */
+.heading-with-back {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+.heading-with-back .section-heading { margin: 0; min-width: 0; }
+
 .quick-access { margin-bottom: var(--space-3); }
 
 .quick-access-label {

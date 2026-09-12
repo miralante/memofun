@@ -340,9 +340,9 @@
     var bySubject = groupBy(inCourse, function (d) { return d.asignatura || ''; });
     var pinned = App.storage.get('prefs').cursoFijado === curso;
 
-    var html = backLinkHtml(buildUrl());
-    html += '<div class="section-header">' +
-      '<h2 class="section-heading">' + App.utils.escapeHtml(curso) + '</h2>' +
+    var html = '<div class="section-header">' +
+      '<div class="heading-with-back">' + backLinkHtml(buildUrl()) +
+      '<h2 class="section-heading">' + App.utils.escapeHtml(curso) + '</h2></div>' +
       '<button type="button" class="btn secondary" id="btn-pin-course" aria-pressed="' + pinned + '">' +
       (pinned ? '⭐ ' + App.i18n.t('home.pinnedButton') : '☆ ' + App.i18n.t('home.pinButton')) +
       '</button></div>';
@@ -378,11 +378,11 @@
       renderSubjectLevel(decks, grid, progreso, curso);
       return;
     }
-    var html = backLinkHtml(buildUrl(curso));
-    html += '<h2 class="section-heading">' +
+    var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(curso)) +
+      '<h2 class="section-heading">' +
       App.utils.escapeHtml(asignatura) +
       ' <span class="section-heading-meta">' + App.utils.escapeHtml(curso) + '</span>' +
-      '</h2>';
+      '</h2></div>';
     html += '<div class="deck-grid" role="list">' +
       filtered.map(function (d, i) { return deckCardHtml(d, i, progreso); }).join('') +
       '</div>';
@@ -451,9 +451,9 @@
       renderEnCurriculumLevel(grid);
       return;
     }
-    var html = backLinkHtml(enBuildUrl());
-    html += '<div class="section-header">' +
-      '<h2 class="section-heading">' + App.utils.escapeHtml(curso) + '</h2>' +
+    var html = '<div class="section-header">' +
+      '<div class="heading-with-back">' + backLinkHtml(enBuildUrl()) +
+      '<h2 class="section-heading">' + App.utils.escapeHtml(curso) + '</h2></div>' +
       '</div>';
     html += '<p class="en-curriculum-help">' + App.i18n.t('home.enSubjectInviteHelp') + '</p>';
     html += '<div class="deck-grid" role="list">' + entry.subjects.map(function (asignatura, i) {
