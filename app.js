@@ -195,9 +195,18 @@
   }
 
   function studyUrl(deck) {
-    return 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
+    var url = 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
       '&id=' + encodeURIComponent(deck.id) +
       '&titulo=' + encodeURIComponent(deck.tema);
+    /* Carries the course/subject the deck was opened from so the study
+       screen's "Volver" can return to that same level instead of always
+       resetting to the top-level home (see buildUrl/renderSubjectLevel/
+       renderDeckLevel above — same query-param-driven levels). */
+    if (deck.curso) {
+      url += '&curso=' + encodeURIComponent(deck.curso);
+      if (deck.asignatura) url += '&asignatura=' + encodeURIComponent(deck.asignatura);
+    }
+    return url;
   }
 
   function deckCardHtml(deck, i, progreso) {

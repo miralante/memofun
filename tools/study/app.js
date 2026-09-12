@@ -12,6 +12,8 @@
   var deckFile = params.get('deck');
   var deckId = params.get('id') || deckFile || 'deck';
   var deckTitle = params.get('titulo') || 'Memofun';
+  var deckCurso = params.get('curso');
+  var deckAsignatura = params.get('asignatura');
 
   var cards = [];
   var index = 0;
@@ -27,9 +29,22 @@
   var btnNext = document.getElementById('btn-next');
   var btnStudyAgain = document.getElementById('btn-study-again');
   var starsEl = document.getElementById('stars-total');
+  var btnBack = document.getElementById('btn-back');
 
   document.getElementById('deck-title').textContent = deckTitle;
   document.title = deckTitle + ' | Memofun';
+
+  /* "Volver" returns to the course/subject screen this deck was opened
+     from (same query-param levels app.js's buildUrl/renderSubjectLevel/
+     renderDeckLevel use) instead of always resetting to the top-level
+     home — see studyUrl() in the root app.js for where these params
+     come from. Falls back to plain home for ad-hoc decks with no
+     curso/asignatura, or when the page was opened directly. */
+  if (deckCurso) {
+    var backUrl = '../../index.html?curso=' + encodeURIComponent(deckCurso);
+    if (deckAsignatura) backUrl += '&asignatura=' + encodeURIComponent(deckAsignatura);
+    btnBack.href = backUrl;
+  }
 
   function renderStars() {
     starsEl.innerHTML =
