@@ -227,6 +227,7 @@ header.app-header .tagline {
   font-family: inherit;
   font-size: var(--text-base);
   font-weight: var(--weight-medium);
+  line-height: 1.2;
   color: #FFFFFF;
   background: var(--accent);
   border: none;
@@ -247,8 +248,8 @@ header.app-header .tagline {
 }
 
 .btn.icon {
-  padding: var(--space-2);
-  font-size: var(--text-large);
+  padding: var(--space-1);
+  font-size: var(--text-title);
 }
 
 /* Pressed/speaking state for the 🔊 listen button (Apptonomia's
