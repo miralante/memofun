@@ -4,7 +4,7 @@
 
 This document is a **detailed didactic index** of Memofun. It
 expands on [`activities.md`](activities.md) and
-[`creating-activities-guide.md`](creating-activities-guide.md) by
+[`creating-elements-guide.md`](creating-elements-guide.md) by
 giving, for every deck and pedagogical concept shipped with the
 app:
 
@@ -25,7 +25,7 @@ syllabus needs to be balanced, this is the document to read first.
 
 > **Source of truth for product rules**: [`SPEC.md`](SPEC.md).
 > **Source of truth for pedagogy**:
-> [`creating-activities-guide.md`](creating-activities-guide.md).
+> [`creating-elements-guide.md`](creating-elements-guide.md).
 > This document does **not** redefine rules; it indexes the content
 > that those rules produce.
 
@@ -57,7 +57,7 @@ follows this **didactic shape**:
 | `pictogram` | Optional pictogram reference. | Optional aid; not required. |
 
 The card front is **always a clue** (see
-[`creating-activities-guide.md`](creating-activities-guide.md)
+[`creating-elements-guide.md`](creating-elements-guide.md)
 §2.2). This is the project's most distinctive didactic rule.
 
 ---
@@ -202,7 +202,7 @@ The front of a card is an **analogy, an example, or a
 learner already knows. The card asks the learner to **recall** the
 concept, not to **recite** it. This is the project's most
 distinctive rule (see
-[`creating-activities-guide.md`](creating-activities-guide.md) §2.2
+[`creating-elements-guide.md`](creating-elements-guide.md) §2.2
 and [`SPEC.md`](SPEC.md) §1).
 
 Examples:
@@ -234,7 +234,7 @@ the root [`CLAUDE.md`](CLAUDE.md) §"UNE 153101 reference").
 When a card has a hint, the hint is a **partial reveal of the
 back**, never a different question. This is the suite's
 "hint-before-answer" rule (see
-[`creating-activities-guide.md`](creating-activities-guide.md) §3
+[`creating-elements-guide.md`](creating-elements-guide.md) §3
 and the canonical Routime guide).
 
 ---
@@ -242,7 +242,7 @@ and the canonical Routime guide).
 ## 4. Deck authoring rules
 
 A "good" Memofun deck obeys these rules (full rationale in
-[`creating-activities-guide.md`](creating-activities-guide.md)
+[`creating-elements-guide.md`](creating-elements-guide.md)
 §2 and §3):
 
 | Rule | Why |
@@ -283,7 +283,7 @@ These rules apply to **every** deck and are **never** broken
 - Architecture: [`technical.md`](technical.md).
 - Activity catalogue (short): [`activities.md`](activities.md).
 - Pedagogical guide (long):
-  [`creating-activities-guide.md`](creating-activities-guide.md).
+  [`creating-elements-guide.md`](creating-elements-guide.md).
 - AI-assisted deck creation: entry point at
   [`ai-creating-decks-guide.md`](ai-creating-decks-guide.md).
 - Languages: [`I18N.md`](I18N.md).

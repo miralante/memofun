@@ -23,3 +23,8 @@
 - Higiene y seguridad protegen a la vez al trabajador y al cliente: fpb_sa_2_preparacion-pedidos-venta-productos_2.json
 - Buena atención y buena gestión de devoluciones comparten el mismo objetivo: fpb_sa_2_preparacion-pedidos-venta-productos_2.json (mantener el buen trato aunque algo no salga bien)
 - Este módulo aplica la atención al cliente de 1º a un contexto de venta: fpb_sa_2_preparacion-pedidos-venta-productos_2.json (misma base, situación más concreta)
+- El escaparate y la colocación de productos para atraer al cliente: fpb_sa_2_preparacion-pedidos-venta-productos_3.json (vitrina pensada para atraer la mirada)
+- El inventario (contar y controlar el stock disponible): fpb_sa_2_preparacion-pedidos-venta-productos_3.json (revisar la despensa antes de ir a comprar)
+- Qué hacer si un pedido llega incompleto o dañado: fpb_sa_2_preparacion-pedidos-venta-productos_3.json (devolver algo mal hecho para que lo corrijan; reclamar al proveedor)
+- Las formas de pago (efectivo, tarjeta, móvil): fpb_sa_2_preparacion-pedidos-venta-productos_3.json (varias llaves para la misma puerta)
+- El etiquetado y la fecha de caducidad de los productos: fpb_sa_2_preparacion-pedidos-venta-productos_3.json (la ficha técnica de cada producto)

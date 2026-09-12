@@ -6,6 +6,7 @@
   'use strict';
 
   App.i18n.register({
+    suiteBy: 'Una app de',
     "title": "Memofun",
     "saludo": "Hola. ¿Quieres practicar con tarjetas?",
     "listenGreeting": "Escuchar el saludo",

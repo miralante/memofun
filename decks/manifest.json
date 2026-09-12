@@ -2918,5 +2918,465 @@
     "cantidad": 2,
     "file": "primaria_1_ciencias-sociales_7.json",
     "icono": "🏛️"
+  },
+  {
+    "id": "fpb-sa-1-atencion-cliente-3",
+    "tema": "Cuidar la imagen y los datos del cliente",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Atención al Cliente",
+    "cantidad": 16,
+    "file": "fpb_sa_1_atencion-cliente_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-ciencias-aplicadas-2",
+    "tema": "Energía, clima, ecosistemas y seguridad en el trabajo",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Aplicadas",
+    "cantidad": 18,
+    "file": "fpb_sa_1_ciencias-aplicadas_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-ciencias-sociales-2",
+    "tema": "España, Europa y el mundo: geografía y derechos",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 18,
+    "file": "fpb_sa_1_ciencias-sociales_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-itinerario-personal-empleabilidad-3",
+    "tema": "Equipo, entrevista y derechos laborales",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Itinerario Personal para la Empleabilidad",
+    "cantidad": 15,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-lengua-castellana-3",
+    "tema": "Gramática, textos y comunicación formal",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 15,
+    "file": "fpb_sa_1_lengua-castellana_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-tecnicas-administrativas-basicas-3",
+    "tema": "Agenda, archivo, registro, sello e inventario",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Técnicas Administrativas Básicas",
+    "cantidad": 17,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-1-tratamiento-informatico-datos-3",
+    "tema": "Ofimática, nube y correo con seguridad",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Tratamiento Informático de Datos",
+    "cantidad": 15,
+    "file": "fpb_sa_1_tratamiento-informatico-datos_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpgm-ga-1-tratamiento-informatico-informacion-3",
+    "tema": "Mecanografía, multimedia, presentaciones y correo electrónico",
+    "nivel": "avanzado",
+    "curso": "1º de FP GM Gestión Administrativa",
+    "asignatura": "Tratamiento Informático de la Información",
+    "cantidad": 28,
+    "file": "fpgm_ga_1_tratamiento-informatico-informacion_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-1-empresa-administracion-3",
+    "tema": "Financiación, tributos y Administración electrónica",
+    "nivel": "avanzado",
+    "curso": "1º de FP GM Gestión Administrativa",
+    "asignatura": "Empresa y Administración",
+    "cantidad": 19,
+    "file": "fpgm_ga_1_empresa-administracion_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-1-itinerario-personal-empleabilidad-1-3",
+    "tema": "Entrevista de trabajo, selección de personal y derechos colectivos",
+    "nivel": "avanzado",
+    "curso": "1º de FP GM Gestión Administrativa",
+    "asignatura": "Itinerario Personal para la Empleabilidad I",
+    "cantidad": 16,
+    "file": "fpgm_ga_1_itinerario-personal-empleabilidad-1_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-1-operaciones-administrativas-compraventa-3",
+    "tema": "Existencias, IVA y medios de pago en la compraventa",
+    "nivel": "avanzado",
+    "curso": "1º de FP GM Gestión Administrativa",
+    "asignatura": "Operaciones Administrativas de Compraventa",
+    "cantidad": 19,
+    "file": "fpgm_ga_1_operaciones-administrativas-compraventa_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-1-comunicacion-empresarial-atencion-cliente-3",
+    "tema": "Clientela, marketing mix y archivo digital",
+    "nivel": "avanzado",
+    "curso": "1º de FP GM Gestión Administrativa",
+    "asignatura": "Comunicación Empresarial y Atención al Cliente",
+    "cantidad": 16,
+    "file": "fpgm_ga_1_comunicacion-empresarial-atencion-cliente_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "primaria-1-lengua-castellana-6",
+    "tema": "Canciones, retahílas y el poema",
+    "nivel": "principiante",
+    "curso": "1º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 2,
+    "file": "primaria_1_lengua-castellana_6.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-2-lengua-castellana-6",
+    "tema": "Fábulas y primer teatro",
+    "nivel": "principiante",
+    "curso": "2º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 2,
+    "file": "primaria_2_lengua-castellana_6.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-3-lengua-castellana-7",
+    "tema": "Elementos del cuento y la poesía en voz alta",
+    "nivel": "principiante",
+    "curso": "3º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 2,
+    "file": "primaria_3_lengua-castellana_7.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-4-lengua-castellana-7",
+    "tema": "Cómics y biografías",
+    "nivel": "principiante",
+    "curso": "4º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 2,
+    "file": "primaria_4_lengua-castellana_7.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "primaria-6-lengua-castellana-7",
+    "tema": "El microrrelato",
+    "nivel": "intermedio",
+    "curso": "6º de Primaria",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 1,
+    "file": "primaria_6_lengua-castellana_7.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "eso-3-biologia-geologia-6",
+    "tema": "El cuerpo humano y la Tierra: puntos pendientes",
+    "nivel": "intermedio",
+    "curso": "3º de ESO",
+    "asignatura": "Biología y Geología",
+    "cantidad": 8,
+    "file": "eso_3_biologia-geologia_6.json",
+    "icono": "🧬"
+  },
+  {
+    "id": "eso-3-fisica-quimica-6",
+    "tema": "Materia, átomos y energía: puntos pendientes",
+    "nivel": "intermedio",
+    "curso": "3º de ESO",
+    "asignatura": "Física y Química",
+    "cantidad": 8,
+    "file": "eso_3_fisica-quimica_6.json",
+    "icono": "⚛️"
+  },
+  {
+    "id": "eso-1-lengua-castellana-7",
+    "tema": "La comunicación, la literatura y la gramática (repaso de puntos pendientes)",
+    "nivel": "intermedio",
+    "curso": "1º de ESO",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 25,
+    "file": "eso_1_lengua-castellana_7.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "eso-3-geografia-historia-7",
+    "tema": "Población, ciudades y organización actual",
+    "nivel": "intermedio",
+    "curso": "3º de ESO",
+    "asignatura": "Geografía e Historia",
+    "cantidad": 12,
+    "file": "eso_3_geografia-historia_7.json",
+    "icono": "🌍"
+  },
+  {
+    "id": "eso-3-lengua-castellana-5",
+    "tema": "Publicidad, connotación y sintaxis avanzada",
+    "nivel": "intermedio",
+    "curso": "3º de ESO",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 8,
+    "file": "eso_3_lengua-castellana_5.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "eso-1-biologia-geologia-7",
+    "tema": "El Sistema Solar, la Luna y los biomas",
+    "nivel": "intermedio",
+    "curso": "1º de ESO",
+    "asignatura": "Biología y Geología",
+    "cantidad": 12,
+    "file": "eso_1_biologia-geologia_7.json",
+    "icono": "🧬"
+  },
+  {
+    "id": "eso-1-geografia-historia-7",
+    "tema": "Relieve, evolución humana y el Mediterráneo antiguo",
+    "nivel": "intermedio",
+    "curso": "1º de ESO",
+    "asignatura": "Geografía e Historia",
+    "cantidad": 19,
+    "file": "eso_1_geografia-historia_7.json",
+    "icono": "🌍"
+  },
+  {
+    "id": "eso-2-fisica-quimica-6",
+    "tema": "Enlaces, reacciones y electricidad",
+    "nivel": "intermedio",
+    "curso": "2º de ESO",
+    "asignatura": "Física y Química",
+    "cantidad": 15,
+    "file": "eso_2_fisica-quimica_6.json",
+    "icono": "⚛️"
+  },
+  {
+    "id": "eso-2-geografia-historia-7",
+    "tema": "Sociedad, organización territorial y colonias",
+    "nivel": "intermedio",
+    "curso": "2º de ESO",
+    "asignatura": "Geografía e Historia",
+    "cantidad": 10,
+    "file": "eso_2_geografia-historia_7.json",
+    "icono": "🌍"
+  },
+  {
+    "id": "eso-2-lengua-castellana-7",
+    "tema": "Variedades, funciones del lenguaje y gramática",
+    "nivel": "intermedio",
+    "curso": "2º de ESO",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 11,
+    "file": "eso_2_lengua-castellana_7.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "fpgm-ga-2-itinerario-personal-empleabilidad-2-3",
+    "tema": "Búsqueda digital, derechos laborales y proyecto emprendedor",
+    "nivel": "avanzado",
+    "curso": "2º de FP GM Gestión Administrativa",
+    "asignatura": "Itinerario Personal para la Empleabilidad II",
+    "cantidad": 8,
+    "file": "fpgm_ga_2_itinerario-personal-empleabilidad-2_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpb-sa-2-aplicaciones-basicas-ofimatica-3",
+    "tema": "Plantillas, corrección y seguridad informática",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Aplicaciones Básicas de Ofimática",
+    "cantidad": 7,
+    "file": "fpb_sa_2_aplicaciones-basicas-ofimatica_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-archivo-comunicacion-3",
+    "tema": "Conservación de documentos y comunicación interna",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Archivo y Comunicación",
+    "cantidad": 7,
+    "file": "fpb_sa_2_archivo-comunicacion_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpgm-ga-2-sostenibilidad-sistema-productivo-3",
+    "tema": "Normativa, agua, etiquetado y comunicación de la sostenibilidad",
+    "nivel": "avanzado",
+    "curso": "2º de FP GM Gestión Administrativa",
+    "asignatura": "Sostenibilidad Aplicada al Sistema Productivo",
+    "cantidad": 7,
+    "file": "fpgm_ga_2_sostenibilidad-sistema-productivo_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-2-tratamiento-documentacion-contable-3",
+    "tema": "PGC de PYMES, devoluciones, provisiones y firma electrónica",
+    "nivel": "avanzado",
+    "curso": "2º de FP GM Gestión Administrativa",
+    "asignatura": "Tratamiento de la Documentación Contable",
+    "cantidad": 7,
+    "file": "fpgm_ga_2_tratamiento-documentacion-contable_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-2-empresa-en-el-aula-3",
+    "tema": "El empresario, el plan de empresa y el cierre del proyecto",
+    "nivel": "avanzado",
+    "curso": "2º de FP GM Gestión Administrativa",
+    "asignatura": "Empresa en el Aula",
+    "cantidad": 8,
+    "file": "fpgm_ga_2_empresa-en-el-aula_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpb-sa-2-ciencias-aplicadas-2",
+    "tema": "Hábitos saludables, reciclaje y señalización",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Aplicadas",
+    "cantidad": 4,
+    "file": "fpb_sa_2_ciencias-aplicadas_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-ciencias-sociales-2",
+    "tema": "Constitución, Unión Europea e igualdad",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Ciencias Sociales",
+    "cantidad": 6,
+    "file": "fpb_sa_2_ciencias-sociales_2.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpb-sa-2-lengua-castellana-3",
+    "tema": "Comprensión de textos y comunicación oral",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 6,
+    "file": "fpb_sa_2_lengua-castellana_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "fpgm-ga-1-tecnica-contable-3",
+    "tema": "Inventario, principios contables y cierre del ejercicio",
+    "nivel": "avanzado",
+    "curso": "1º de FP GM Gestión Administrativa",
+    "asignatura": "Técnica Contable",
+    "cantidad": 17,
+    "file": "fpgm_ga_1_tecnica-contable_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-2-digitalizacion-sectores-productivos-3",
+    "tema": "Herramientas en la nube, wearables y ciberseguridad cotidiana",
+    "nivel": "avanzado",
+    "curso": "2º de FP GM Gestión Administrativa",
+    "asignatura": "Digitalización Aplicada a los Sectores Productivos",
+    "cantidad": 13,
+    "file": "fpgm_ga_2_digitalizacion-sectores-productivos_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-2-operaciones-administrativas-rrhh-3",
+    "tema": "Organización, contratación e igualdad en RRHH",
+    "nivel": "avanzado",
+    "curso": "2º de FP GM Gestión Administrativa",
+    "asignatura": "Operaciones Administrativas de Recursos Humanos",
+    "cantidad": 12,
+    "file": "fpgm_ga_2_operaciones-administrativas-rrhh_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpgm-ga-2-operaciones-auxiliares-gestion-tesoreria-3",
+    "tema": "Precios, cobros y extractos en tesorería",
+    "nivel": "avanzado",
+    "curso": "2º de FP GM Gestión Administrativa",
+    "asignatura": "Operaciones Auxiliares de Gestión de Tesorería",
+    "cantidad": 9,
+    "file": "fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3.json",
+    "icono": "💼"
+  },
+  {
+    "id": "fpb-sa-2-preparacion-pedidos-venta-productos-3",
+    "tema": "Escaparate, inventario, pedidos y etiquetado",
+    "nivel": "principiante",
+    "curso": "2º de FP Básica Servicios Administrativos",
+    "asignatura": "Preparación de Pedidos y Venta de Productos",
+    "cantidad": 5,
+    "file": "fpb_sa_2_preparacion-pedidos-venta-productos_3.json",
+    "icono": "📋"
+  },
+  {
+    "id": "eso-4-biologia-geologia-7",
+    "tema": "La genética aplicada y el medio ambiente",
+    "nivel": "avanzado",
+    "curso": "4º de ESO",
+    "asignatura": "Biología y Geología",
+    "cantidad": 9,
+    "file": "eso_4_biologia-geologia_7.json",
+    "icono": "🧬"
+  },
+  {
+    "id": "eso-4-fisica-quimica-8",
+    "tema": "Biomoléculas, ácido-base, las leyes de Newton y cambios de estado",
+    "nivel": "avanzado",
+    "curso": "4º de ESO",
+    "asignatura": "Física y Química",
+    "cantidad": 10,
+    "file": "eso_4_fisica-quimica_8.json",
+    "icono": "⚛️"
+  },
+  {
+    "id": "eso-4-geografia-historia-7",
+    "tema": "La Guerra Fría periférica y los conflictos actuales",
+    "nivel": "avanzado",
+    "curso": "4º de ESO",
+    "asignatura": "Geografía e Historia",
+    "cantidad": 3,
+    "file": "eso_4_geografia-historia_7.json",
+    "icono": "🌍"
+  },
+  {
+    "id": "eso-4-lengua-castellana-4",
+    "tema": "Gramática avanzada: pronombres y oraciones especiales",
+    "nivel": "avanzado",
+    "curso": "4º de ESO",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 5,
+    "file": "eso_4_lengua-castellana_4.json",
+    "icono": "✏️"
+  },
+  {
+    "id": "eso-4-literatura-5",
+    "tema": "Literatura",
+    "nivel": "avanzado",
+    "curso": "4º de ESO",
+    "asignatura": "Lengua Castellana",
+    "cantidad": 6,
+    "file": "eso_4_literatura_5.json",
+    "icono": "📖"
   }
 ]

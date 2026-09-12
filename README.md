@@ -1,4 +1,4 @@
-﻿# Memofun 🧠
+# Memofun 🧠
 
 > 🌐 **Other languages:** [Español](README.es.md)
 >
@@ -25,7 +25,8 @@ app. Decks use our own JSON format, not Anki's `.apkg`.
 - 🌐 **App**: [memofun.apptonomia.uk](https://memofun.apptonomia.uk/)
 - 📦 **Repository**: [github.com/miralante/memofun](https://github.com/miralante/memofun)
 - 💻 **Run locally**: open `index.html` directly in a browser, or serve
-  the folder with any static server (`npx serve .` /
+  the folder with any static server (
+npx serve .` /
   `python -m http.server 8080`).
 
 ---
@@ -52,7 +53,7 @@ runtime.
 - **No generative AI in the product**: there's no integration with
   any AI API in the site's code. Content is written by the AI
   coding agent directly in the repository — see
-  [`doc/en/SPEC.md`](doc/en/SPEC.md) §2.1.
+  [`doc/en/spec.md`](doc/en/spec.md) §2.1.
 - 🪶 **Zero runtime dependencies** — pure HTML/CSS/JS.
 - 🔒 **Privacy by default** — no accounts, no cookies, no telemetry:
   progress is saved only in `localStorage` on the user's device.
@@ -83,11 +84,11 @@ All project documentation lives in the `doc/` folder:
 
 | Topic | Document |
 |---|---|
-| Product, audience, accessibility rules | [`doc/en/SPEC.md`](doc/en/SPEC.md) · [`doc/es/SPEC.md`](doc/es/SPEC.md) |
+| Product, audience, accessibility rules | [`doc/en/spec.md`](doc/en/spec.md) · [`doc/es/spec.md`](doc/es/spec.md) |
 | Roles (trio / pair / sole across the suite) | [`doc/en/roles.md`](doc/en/roles.md) · [`doc/es/roles.md`](doc/es/roles.md) |
 | How to create and publish a deck | [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) · [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) |
 | Architecture and technical reference | [`doc/en/technical.md`](doc/en/technical.md) · [`doc/es/tecnico.md`](doc/es/tecnico.md) |
-| Internationalization (add a language) | [`doc/en/I18N.md`](doc/en/I18N.md) · [`doc/es/I18N.md`](doc/es/I18N.md) |
+| Internationalization (add a language) | [`doc/en/i18n.md`](doc/en/i18n.md) · [`doc/es/i18n.md`](doc/es/i18n.md) |
 | AI agent operational workflow | `CLAUDE.md` |
 
 ### 📄 Other repo documents
@@ -115,7 +116,7 @@ The agent writes the cards following the rules in "Generating deck
 content" in `CLAUDE.md`, creates the `.json` in `decks/`, and adds
 the entry to `decks/manifest.json`. **Review the content** before
 considering it published (easy read, no clinical language, a fun
-tone and a curious fact — see [`doc/en/SPEC.md`](doc/en/SPEC.md) §2.5).
+tone and a curious fact — see [`doc/en/spec.md`](doc/en/spec.md) §2.5).
 
 `config.md` (at the repo root) and [`doc/curriculum/`](doc/curriculum/)
 are the project's content ingestion point: a bare `topic` lets the
@@ -132,7 +133,8 @@ want the deck to follow it point by point — see the full guide at
 node scripts/check.js
 ```
 
-No `npm install` needed — the script only uses Node's standard library.
+No 
+pm install` needed — the script only uses Node's standard library.
 It checks JS syntax, ES/EN parity, `sw.js` / `manifest.json` /
 `decks/manifest.json` integrity, and enforces the zero-mentions rule
 in the UI (see `CLAUDE.md`). It is the only "test" step and runs on
@@ -189,7 +191,8 @@ Memofun ships **two** licences, one per asset kind:
 
 ## 🧹 Housekeeping
 
-There is no `node_modules` and no build artifacts in this repo. The
+There is no 
+ode_modules` and no build artifacts in this repo. The
 `decks/concepts/` directory holds a workshop log (one short file per
 deck topic, e.g. `literatura.md`) that helps the AI agent avoid
 duplicating concepts across deck extensions — see `CLAUDE.md`
@@ -204,11 +207,12 @@ Unregister`) and clear site data.
 
 ## 🙏 Credits
 
-Memofun's `no AI in the product` rule is inherited from Apptonomia's
+Memofun's 
+o AI in the product` rule is inherited from Apptonomia's
 `SPEC.md`. Deck content is written directly by the AI coding agent
 working on this repository (Claude Code or similar) — see
 `CLAUDE.md` §"Generating deck content" for the rules, and
-[`doc/en/SPEC.md`](doc/en/SPEC.md) §2.5 for the tone and easy-read
+[`doc/en/spec.md`](doc/en/spec.md) §2.5 for the tone and easy-read
 requirements.
 
 The `decks/curriculum/` library is built from the Spanish curricula
@@ -260,7 +264,8 @@ Concrete ways to help:
   correction matters.
 - **Translate UI strings** that drift between
   [`strings.en.js`](strings.en.js) and [`strings.es.js`](strings.es.js)
-  — `node scripts/check.js` already enforces parity, but human
+  — 
+ode scripts/check.js` already enforces parity, but human
   phrasing often needs a second pass.
 - **Open an issue** describing a gap (a missing Year, a missing
   GCSE subject, a missing vocational unit) — that helps someone else
@@ -269,7 +274,7 @@ Concrete ways to help:
 You don't need to know the whole project to help: every one of these
 is a self-contained contribution with a clear shape and a clear
 checklist. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the exact
-PR flow and [`doc/en/SPEC.md`](doc/en/SPEC.md) for the non-negotiable
+PR flow and [`doc/en/spec.md`](doc/en/spec.md) for the non-negotiable
 rules every contribution has to keep (no AI in the product, Easy
 Read, no clinical language, etc.).
 
@@ -299,6 +304,5 @@ The canonical Cloudflare / deploy guide for the group lives in
 This repo uses the **Workers + static assets** model — see
 [`CLOUDFLARE.md`](CLOUDFLARE.md) for the local runbook.
 
-## More about this project
 
-- [About this project](https://memofun.apptonomia.uk/about/)
+

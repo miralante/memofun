@@ -85,3 +85,22 @@
 - Patrimonio histórico: _6.json (analogía carta que el pasado nos envía); comparte analogía de "quemar la única copia" con patrimonio natural de base.json
 - Religión y poder en el mundo antiguo: _6.json (justificación del poder de reyes y faraones, ejemplo del faraón egipcio)
 - Mujeres destacadas en la Antigüedad clásica: _6.json (ejemplo Cleopatra)
+- Cordillera: _7.json (fila de gigantes de piedra, ejemplo Pirineos/Alpes)
+- Meseta: _7.json (mesa enorme de piedra, centro de España)
+- Costa: _7.json (playa suave o roca cortada a pico)
+- Continente: _7.json (piezas enormes de un rompecabezas planetario)
+- Océano: _7.json (mar gigante que separa países enteros)
+- Riesgo antrópico (provocado por personas): _7.json (vertido tóxico, distinto del riesgo natural ya cubierto en _2.json)
+- Homo habilis (primer tallador de piedra): _7.json (primer manitas de la familia humana); complementa "hominización" ya cubierta en _3.json
+- Homo sapiens (nuestra especie): _7.json (pinta animales en cuevas, "hall of bulls"); complementa "hominización" ya cubierta en _3.json
+- Edad del Cobre: _7.json (pasar de tallar madera a moldear metal caliente)
+- Edad del Bronce: _7.json (mezclar dos ingredientes para una receta mejor)
+- Edad del Hierro: _7.json (cambiar herramienta de plástico por una de acero)
+- Acadios (Sargón, primer gran imperio): _7.json (juntar varios pueblos en un único país)
+- Asirios (imperio con capital en Nínive): _7.json (vecino que impone respeto a base de fuerza)
+- Persas (imperio final de la región): _7.json (mapa que no para de crecer)
+- Alejandro Magno: _7.json (expandir un pequeño negocio hasta medio mundo)
+- Helenismo: _7.json (receta que mezcla ingredientes de varios países)
+- Teatro griego: _7.json (anfiteatro tallado en la ladera de una montaña, ejemplo Epidauro)
+- Escultura griega: _7.json (fotografiar un cuerpo perfecto, pero en mármol)
+- Guerras Púnicas (Roma vs Cartago, Aníbal): _7.json (dos comercios rivales peleando por el mismo barrio); distinta de la conquista romana de Hispania ya cubierta en _5.json

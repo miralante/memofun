@@ -1,0 +1,91 @@
+{
+  "tema": "PGC de PYMES, devoluciones, provisiones y firma electrónica - FP GM Gestión Administrativa (2º)",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Existe un libro de reglas contables pensado para negocios pequeños. <mark>Es como un manual más sencillo que el general</mark>. Fija cómo deben registrarse sus cuentas. ¿Cómo se llama este plan contable?",
+      "respuesta": "<mark>PGC de PYMES</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_3/pluma-papel.jpg",
+        "alt": "Una pluma escribiendo sobre un papel",
+        "titulo": "Pen to paper Project 365(2) Day 145",
+        "autor": "Keith Williamson",
+        "fuente": "https://www.flickr.com/photos/34673186@N03/4737933662",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Las empresas pequeñas pueden presentar una versión más corta de sus cuentas. <mark>Es como un resumen que ahorra tiempo y papeleo</mark>. La ley permite esta versión simplificada. ¿Cómo se llaman estas cuentas?",
+      "respuesta": "<mark>Cuentas anuales abreviadas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_3/formulario-fiscal.jpg",
+        "alt": "Un formulario de impuestos siendo rellenado",
+        "titulo": "IRS 1040 Tax Form Being Filled Out",
+        "autor": "kenteegardin",
+        "fuente": "https://www.flickr.com/photos/26373139@N08/5512347305",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "A veces una empresa recibe mercancía defectuosa y decide enviarla de vuelta. <mark>Es como devolver algo a la tienda porque no sirve</mark>. Esto también hay que anotarlo en las cuentas. ¿Cómo se llama esta operación?",
+      "respuesta": "<mark>Devolución de compras</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_3/cajas-devolucion.jpg",
+        "alt": "Varias cajas de cartón apiladas",
+        "titulo": "boxes",
+        "autor": "emmajanehw",
+        "fuente": "https://www.flickr.com/photos/17416832@N00/65585561",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un cliente puede devolver un producto que compró y no le convence. <mark>Es como arrepentirse de una compra y pedir que la anulen</mark>. La empresa debe reflejarlo también en sus registros. ¿Cómo se llama esta operación?",
+      "respuesta": "<mark>Devolución de ventas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_3/politica-devolucion.jpg",
+        "alt": "Un cartel de política de devoluciones en una tienda",
+        "titulo": "Return Policy - Retail",
+        "autor": "bellaellaboutique",
+        "fuente": "https://www.flickr.com/photos/137992547@N06/22503336303",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "A veces se espera un gasto futuro, aunque no haya llegado todavía. <mark>Es como apartar dinero por si acaso ocurre algo</mark>. Así la empresa no se lleva una sorpresa. ¿Cómo se llama este apunte contable?",
+      "respuesta": "<mark>Provisión contable</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_3/hucha-ahorro.jpg",
+        "alt": "Una hucha con monedas al lado",
+        "titulo": "Piggy Bank",
+        "autor": "free pictures of money",
+        "fuente": "https://www.flickr.com/photos/126278138@N03/17102034117",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un gasto o un ingreso a veces pertenece a otro año distinto. <mark>Es como repartir un gasto entre varios meses</mark>. Así cada año refleja solo lo que le corresponde. ¿Cómo se llama este ajuste?",
+      "respuesta": "<mark>Periodificación contable</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_3/calendario-meses.jpg",
+        "alt": "Un calendario mostrando varios meses seguidos",
+        "titulo": "Improved LEGO Calendar Months",
+        "autor": "Bill Ward's Brickpile",
+        "fuente": "https://www.flickr.com/photos/23501684@N00/16110095277",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Hoy muchos documentos contables se firman sin usar papel ni bolígrafo. <mark>Es como una huella digital que demuestra quién firmó</mark>. Tiene la misma validez legal que una firma a mano. ¿Cómo se llama esta firma?",
+      "respuesta": "<mark>Firma electrónica</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_3/firma-electronica.jpg",
+        "alt": "Una firma electrónica sobre una pantalla",
+        "titulo": "Great Electronic Signature",
+        "autor": "mikecogh",
+        "fuente": "https://www.flickr.com/photos/89165847@N00/9200571900",
+        "licencia": "CC BY-SA 2.0"
+      }
+    }
+  ]
+}

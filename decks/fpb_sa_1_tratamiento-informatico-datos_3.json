@@ -1,0 +1,187 @@
+{
+  "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "En una oficina hay tareas distintas cada día. <mark>Un programa para escribir cartas, otro para hacer cuentas</mark>. No son el sistema operativo, ayudan a trabajar. ¿Cómo se llama este tipo de programas de oficina?",
+      "respuesta": "<mark>Programas de ofimática</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/hoja-calculo.jpg",
+        "alt": "Una hoja de cálculo abierta en la pantalla de un ordenador",
+        "titulo": "Hoja de calculo",
+        "autor": "Leonfd1992",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=22247702",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "Enciendes el ordenador y aparece una pantalla principal. <mark>Es como una mesa de trabajo con dibujos pequeños encima</mark>. Cada dibujo abre un programa con un clic. ¿Cómo se llama esa pantalla principal con dibujos?",
+      "respuesta": "<mark>Escritorio</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/escritorio.jpg",
+        "alt": "La pantalla de un ordenador mostrando el escritorio con iconos",
+        "titulo": "Escritorio",
+        "autor": "eyanquenb",
+        "fuente": "https://www.flickr.com/photos/7751472@N06/2177142352",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Tienes fotos y no caben en tu ordenador. <mark>Las guardas en internet, como en un trastero remoto</mark>. Así las abres desde cualquier dispositivo, en cualquier lugar. ¿Cómo se llama guardar archivos en internet así?",
+      "respuesta": "<mark>La nube</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/nube-almacenamiento.jpg",
+        "alt": "Servidores usados para guardar archivos en la nube",
+        "titulo": "Servidores de almacenamiento en la nube",
+        "autor": "Eusebio de jesus",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=87518507",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Quieres mandar un documento a un compañero lejos. <mark>Es como una carta que viaja en segundos, sin sello</mark>. Puedes escribirla, recibir respuesta y adjuntar un archivo. ¿Cómo se llama este servicio para enviar mensajes?",
+      "respuesta": "<mark>Correo electrónico</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/correo-electronico.jpg",
+        "alt": "Comparación entre un mensaje SMS y un correo electrónico",
+        "titulo": "Diferencia entre SMS y correo electronico",
+        "autor": "nosepuedevlc",
+        "fuente": "https://www.flickr.com/photos/65588511@N06/6187035428",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Buscas algo en internet y salen mil resultados. <mark>No todo lo que aparece en la pantalla es verdad</mark>. Conviene mirar la fuente antes de confiar en ella. ¿Cómo se llama buscar información con cuidado así?",
+      "respuesta": "<mark>Búsqueda segura</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/lupa.jpg",
+        "alt": "Una lupa usada para mirar algo con más cuidado",
+        "titulo": "Lupa",
+        "autor": "vorjales",
+        "fuente": "https://www.flickr.com/photos/39315079@N00/20775093",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Publicas una foto y la ve mucha gente. <mark>Es como gritar algo en una plaza llena de gente</mark>. Antes de publicar, piensa bien qué quieres compartir. ¿Cómo se llama usar internet con respeto y cuidado?",
+      "respuesta": "<mark>Uso responsable de internet</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/redes-sociales-seguridad.jpg",
+        "alt": "Un cartel sobre seguridad en las redes sociales",
+        "titulo": "#SEGURIDAD en las Redes Sociales 2",
+        "autor": "ANSESGOB",
+        "fuente": "https://www.flickr.com/photos/50252662@N04/16689204799",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "En una cocina, el horno se puede tocar. <mark>La receta escrita en un papel, en cambio, no se toca</mark>. En un ordenador pasa algo parecido con sus partes. ¿Cómo se llama la parte física que sí puedes tocar?",
+      "respuesta": "<mark>Hardware</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/placa-base.jpg",
+        "alt": "Una placa base de ordenador, una pieza física que se puede tocar",
+        "titulo": "Placa base ordenador",
+        "autor": "Zugaitz",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=58693022",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "En un cruce muy transitado, alguien dirige el tráfico. <mark>Decide qué coche pasa primero y evita choques</mark>. En tu ordenador, un programa hace ese mismo trabajo. ¿Cómo se llama ese programa que organiza todo?",
+      "respuesta": "<mark>Sistema operativo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/guardia-trafico.jpg",
+        "alt": "Un guardia dirigiendo el tráfico en un cruce",
+        "titulo": "1649-Guardia civil de Trafico años 70",
+        "autor": "jl.cernadas",
+        "fuente": "https://www.flickr.com/photos/38035878@N07/5088521767",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Tu abuela tiene una receta secreta, solo ella la sabe. <mark>No la escribe en un papel pegado a la nevera</mark>. Igual pasa con la clave de tu ordenador. ¿Cómo debe ser esa clave para estar segura?",
+      "respuesta": "<mark>Contraseña segura</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/candado.jpg",
+        "alt": "Un candado cerrado, símbolo de algo protegido",
+        "titulo": "candado",
+        "autor": "alfonso benayas",
+        "fuente": "https://www.flickr.com/photos/36567298@N00/5191001048",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un coche lleva una rueda extra en el maletero. <mark>Si una rueda se pincha, usas la de repuesto</mark>. Tus archivos también pueden tener un repuesto guardado. ¿Cómo se llama tener ese archivo de repuesto?",
+      "respuesta": "<mark>Copia de seguridad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/rueda-repuesto.jpg",
+        "alt": "Una rueda de repuesto de coche",
+        "titulo": "Reflejo en la rueda de repuesto",
+        "autor": "juantiagues",
+        "fuente": "https://www.flickr.com/photos/14058263@N06/8035101440",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Dejas una ventana de casa abierta por error. <mark>Un desconocido puede colarse dentro sin que lo invites</mark>. En el ordenador, un programa dañino entra igual. ¿Cómo se llama ese programa que entra sin permiso?",
+      "respuesta": "<mark>Virus informático</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/ventana-abierta.jpg",
+        "alt": "Una ventana de casa abierta",
+        "titulo": "Letting the fresh air in. Or out.",
+        "autor": "www.ralfsteinberger.com",
+        "fuente": "https://www.flickr.com/photos/145472109@N04/31146607147",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un compañero te cuenta algo privado, en confianza. <mark>No lo cuentas a todo el mundo, sería un cotilleo</mark>. Los datos de clientes en el trabajo merecen ese cuidado. ¿Cómo se llama cuidar así los datos personales?",
+      "respuesta": "<mark>Protección de datos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/privacidad.jpg",
+        "alt": "Un candado sobre un teclado, símbolo de privacidad",
+        "titulo": "Privacidad",
+        "autor": "Jorge Franganillo",
+        "fuente": "https://www.flickr.com/photos/46191841@N00/3572421769",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Te lavas los dientes cada día, sin esperar a que duelan. <mark>Es una rutina pequeña que evita problemas grandes</mark>. El ordenador también necesita esa atención regular. ¿Cómo se llama cuidar así un equipo informático?",
+      "respuesta": "<mark>Mantenimiento básico</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/cepillo-dientes.jpg",
+        "alt": "Un cepillo de dientes, usado para una rutina de cuidado diario",
+        "titulo": "Cepillo de dientes",
+        "autor": "Daquella manera",
+        "fuente": "https://www.flickr.com/photos/62518311@N00/144893050",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Tu chubasquero tiene un agujero pequeño y entra agua. <mark>Lo parcheas antes de que llegue la próxima tormenta</mark>. Los programas del ordenador también reciben ese arreglo. ¿Cómo se llama ese arreglo que mejora un programa?",
+      "respuesta": "<mark>Actualización</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/actualizacion-software.jpg",
+        "alt": "La pantalla de un ordenador mostrando una actualización de software",
+        "titulo": "Actualizacion Linux Mint 1.8.3_1",
+        "autor": "linanime",
+        "fuente": "https://www.flickr.com/photos/137317351@N03/25029871178",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Le das una copia de tu llave a un vecino de confianza. <mark>Si pierdes la tuya, él tiene otra guardada</mark>. Con tus archivos importantes puedes hacer algo parecido. ¿Cómo se llama guardar así un archivo por si acaso?",
+      "respuesta": "<mark>Copia de seguridad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_3/llaves.jpg",
+        "alt": "Un juego de llaves, una de ellas de repuesto",
+        "titulo": "Keys / Llaves",
+        "autor": "ArchiM",
+        "fuente": "https://www.flickr.com/photos/50047709@N00/2382513267",
+        "licencia": "CC BY-SA 2.0"
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 Este documento es un **índice didáctico detallado** de Memofun.
 Amplía [`actividades.md`](actividades.md) y
-[`guia-crear-actividades.md`](guia-crear-actividades.md) dando,
+[`guia-crear-elementos.md`](guia-crear-elementos.md) dando,
 para cada baraja y concepto pedagógico que se distribuye con la
 app:
 
@@ -27,7 +27,7 @@ documento que hay que leer primero.
 
 > **Fuente de verdad para las reglas de producto**:
 > [`SPEC.md`](SPEC.md). **Fuente de verdad para la pedagogía**:
-> [`guia-crear-actividades.md`](guia-crear-actividades.md). Este
+> [`guia-crear-elementos.md`](guia-crear-elementos.md). Este
 > documento **no** redefine reglas; indexa el contenido que esas
 > reglas producen.
 
@@ -60,7 +60,7 @@ Cada tarjeta sigue esta **forma didáctica**:
 | `pictograma` | Referencia opcional a un pictograma. | Ayuda opcional; no obligatoria. |
 
 El anverso es **siempre una pista** (ver
-[`guia-crear-actividades.md`](guia-crear-actividades.md) §2.2).
+[`guia-crear-elementos.md`](guia-crear-elementos.md) §2.2).
 Esta es la regla didáctica más distintiva del proyecto.
 
 ---
@@ -206,7 +206,7 @@ El anverso de una tarjeta es una **analogía, un ejemplo o un
 ya conoce. La tarjeta pide a quien estudia que **recuerde** el
 concepto, no que lo **recite**. Esta es la regla más distintiva
 del proyecto (ver
-[`guia-crear-actividades.md`](guia-crear-actividades.md) §2.2 y
+[`guia-crear-elementos.md`](guia-crear-elementos.md) §2.2 y
 [`SPEC.md`](SPEC.md) §1).
 
 Ejemplos:
@@ -238,7 +238,7 @@ quien estudia (ver [`SPEC.md`](SPEC.md) §3 y la regla del suite en
 Cuando una tarjeta tiene pista, la pista es un **revelado
 parcial del reverso**, nunca una pregunta distinta. Esta es la
 regla "pista-antes-de-la-respuesta" del suite (ver
-[`guia-crear-actividades.md`](guia-crear-actividades.md) §3 y la
+[`guia-crear-elementos.md`](guia-crear-elementos.md) §3 y la
 guía canónica de Routime).
 
 ---
@@ -247,7 +247,7 @@ guía canónica de Routime).
 
 Una baraja "buena" de Memofun cumple estas reglas (justificación
 completa en
-[`guia-crear-actividades.md`](guia-crear-actividades.md) §2 y §3):
+[`guia-crear-elementos.md`](guia-crear-elementos.md) §2 y §3):
 
 | Regla | Por qué |
 |---|---|
@@ -287,7 +287,7 @@ Estas reglas se aplican a **toda** baraja y **nunca** se rompen
 - Arquitectura: [`tecnico.md`](tecnico.md).
 - Catálogo de barajas (resumen): [`actividades.md`](actividades.md).
 - Guía pedagógica (larga):
-  [`guia-crear-actividades.md`](guia-crear-actividades.md).
+  [`guia-crear-elementos.md`](guia-crear-elementos.md).
 - Creación de barajas con IA: punto de entrada en
   [`guia-ia-crear-barajas.md`](guia-ia-crear-barajas.md).
 - Idiomas: [`I18N.md`](I18N.md).

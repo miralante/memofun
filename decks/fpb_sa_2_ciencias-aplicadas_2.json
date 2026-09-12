@@ -1,0 +1,55 @@
+{
+  "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (2º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Comer variado, moverte cada día y dormir bien construyen algo. <mark>Es como las tres patas de una mesa: si falta una, cojea</mark>. ¿Cómo se llaman estas costumbres que cuidan tu cuerpo?",
+      "respuesta": "<mark>Hábitos saludables</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas_2/habitos-saludables-desayuno.jpg",
+        "alt": "Un desayuno saludable con cereales, fruta fresca y yogur",
+        "titulo": "American healthy breakfast",
+        "autor": "Ukiyoe",
+        "fuente": "https://commons.wikimedia.org/wiki/File:American_healthy_breakfast.JPG",
+        "licencia": "Dominio público"
+      }
+    },
+    {
+      "pregunta": "El tabaco, el alcohol o ciertas drogas generan una necesidad difícil de controlar. <mark>Es como una trampa que engancha poco a poco</mark>. Informarse y saber decir que no ayuda a evitarla. ¿Cómo se llaman estas sustancias?",
+      "respuesta": "<mark>Sustancias adictivas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas_2/sustancias-adictivas-tabaco.jpg",
+        "alt": "Un paquete de tabaco con su aviso sanitario y un cenicero",
+        "titulo": "Surgeon General's warning cigarettes",
+        "autor": "CDC/ Debora Cartagena",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Surgeon_General%27s_warning_cigarettes.jpg",
+        "licencia": "Dominio público"
+      }
+    },
+    {
+      "pregunta": "El envase va en el amarillo, el papel en el azul, el vidrio en el verde. <mark>Es como ordenar la ropa por cajones, cada cosa en el suyo</mark>. ¿Cómo se llaman estos recipientes de colores?",
+      "respuesta": "<mark>Contenedores de reciclaje</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas_2/contenedores-reciclaje.jpg",
+        "alt": "Contenedores de reciclaje de varios colores para separar la basura",
+        "titulo": "Colorful Recycling Containers for Trash",
+        "autor": "epSos .de",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Colorful_Recycling_Containers_for_Trash.jpg",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Carteles con formas y colores avisan de un peligro o de una salida. <mark>Es como un lenguaje sin palabras que todo el mundo entiende igual</mark>. ¿Cómo se llama este sistema de avisos?",
+      "respuesta": "<mark>Señalización de seguridad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas_2/senalizacion-seguridad.jpg",
+        "alt": "Varios carteles de aviso y peligro colocados en un poste",
+        "titulo": "Warning signs, west of Tyneham Cap",
+        "autor": "Jim Champion",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Warning_signs,_west_of_Tyneham_Cap_-_geograph.org.uk_-_695861.jpg",
+        "licencia": "CC BY-SA 2.0"
+      }
+    }
+  ]
+}

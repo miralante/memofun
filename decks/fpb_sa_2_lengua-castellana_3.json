@@ -1,0 +1,79 @@
+{
+  "tema": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "En un texto hay datos secundarios y una idea que lo resume todo. <mark>Es como el titular de una noticia, que cuenta lo esencial</mark>. ¿Cómo se llama esta idea central?",
+      "respuesta": "<mark>Idea principal</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_3/idea-principal-titular.jpg",
+        "alt": "Una persona sostiene un periódico con un gran titular en portada",
+        "titulo": "Land on the Moon 7 21 1969-repair",
+        "autor": "Jack Weir",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Land_on_the_Moon_7_21_1969-repair.jpg",
+        "licencia": "Dominio público"
+      }
+    },
+    {
+      "pregunta": "Uno cuenta datos sin opinar, el otro defiende un punto de vista. <mark>Es como un manual frente a una carta de opinión</mark>. ¿Qué dos tipos de texto son estos?",
+      "respuesta": "<mark>Expositivo y argumentativo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_3/expositivo-argumentativo-debate.jpg",
+        "alt": "Estudiantes debatiendo y defendiendo sus opiniones en una biblioteca",
+        "titulo": "Library Debate session",
+        "autor": "Joshua Olal Believer",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Library_Debate_session.jpg",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Empieza con un título y termina en una conclusión corta. <mark>Es como contar los hechos de un viaje, ordenados por partes</mark>. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Informe breve</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_3/informe-breve-checklist.jpg",
+        "alt": "Varias listas de comprobación sobre tablillas, preparadas para rellenar",
+        "titulo": "USMC-100914-M-0646Q-45",
+        "autor": "Cuerpo de Marines de los Estados Unidos",
+        "fuente": "https://commons.wikimedia.org/wiki/File:USMC-100914-M-0646Q-45.jpg",
+        "licencia": "Dominio público"
+      }
+    },
+    {
+      "pregunta": "Explica qué pasó, qué esperabas y qué pides como solución. <mark>Es como pedir por escrito que se arregle algo</mark>. ¿Cómo se llama este documento?",
+      "respuesta": "<mark>Reclamación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_3/reclamacion-carta.png",
+        "alt": "Icono de un sobre con una carta dentro",
+        "titulo": "Envelope-letter-icon",
+        "autor": "paomedia",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Envelope-letter-icon.png",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "pregunta": "'Contento' y 'alegre' significan casi lo mismo. <mark>Es como tener dos llaves distintas para la misma puerta</mark>. ¿Cómo se llaman estas palabras?",
+      "respuesta": "<mark>Sinónimos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_3/sinonimos-diccionario.jpg",
+        "alt": "Un diccionario de sinónimos abierto sobre una mesa",
+        "titulo": "Thesaurus",
+        "autor": "AndriuZ",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Thesaurus.jpg",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "No basta con oír: conviene preguntar si algo no queda claro. <mark>Es como pedir que repitan una indicación antes de seguir</mark>. ¿Qué conviene hacer además de escuchar?",
+      "respuesta": "<mark>Hacer preguntas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_3/hacer-preguntas-audiencia.jpg",
+        "alt": "Una persona del público levanta la mano para hacer una pregunta",
+        "titulo": "Questions From The Audience - Public Speaking",
+        "autor": "delegateconnectimages",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Questions_From_The_Audience_-_Public_Speaking.jpg",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

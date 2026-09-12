@@ -260,7 +260,7 @@ USER_FACING_FILES.forEach(function (file) {
       hit = content.indexOf(term.toLowerCase()) !== -1;
     }
     if (hit) {
-      failures.push(rel(file) + ': contains "' + term + '" — no page visible to the user may mention disability or clinical language (see doc/en/SPEC.md §2.4)');
+      failures.push(rel(file) + ': contains "' + term + '" — no page visible to the user may mention disability or clinical language (see doc/en/spec.md §2.4)');
     }
   });
 });

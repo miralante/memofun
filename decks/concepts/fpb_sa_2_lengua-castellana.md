@@ -21,3 +21,9 @@
 - Turnos de palabra y escuchar antes de responder: fpb_sa_2_lengua-castellana_2.json (jugar por turnos; puzle)
 - El vocabulario laboral ayuda a hablar con seguridad: fpb_sa_2_lengua-castellana_2.json (tener las palabras a mano)
 - Dominar la lengua castellana es clave en un puesto administrativo: fpb_sa_2_lengua-castellana_2.json (herramienta usada en casi cualquier tarea)
+- Idea principal de un texto: fpb_sa_2_lengua-castellana_3.json (el titular que resume lo esencial)
+- Texto expositivo frente a texto argumentativo: fpb_sa_2_lengua-castellana_3.json (manual que explica / carta que opina)
+- El informe breve (título, introducción, datos, conclusión): fpb_sa_2_lengua-castellana_3.json (contar un viaje por partes)
+- La reclamación por escrito (qué pasó, qué esperabas, qué pides): fpb_sa_2_lengua-castellana_3.json (pedir por escrito que se arregle algo)
+- Sinónimos (palabras que significan casi lo mismo): fpb_sa_2_lengua-castellana_3.json ("contento"/"alegre"; dos llaves para la misma puerta) — distinto de los homófonos ya cubiertos en la ronda 2
+- Hacer preguntas además de escuchar: fpb_sa_2_lengua-castellana_3.json (pedir que repitan una indicación antes de seguir)

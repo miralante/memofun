@@ -14,7 +14,7 @@ just open the app.
 | Add a new deck | Follow [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) (full step-by-step); summary: ask the AI agent to write the deck from a topic or a `config.md`, **review the content**, and add the entry to `decks/manifest.json` before opening a PR with the `.json` and the manifest. |
 | Fix or improve an existing deck | Edit the `.json` directly (it's plain text), or ask the agent to regenerate it and replace the file in `decks/`. |
 | Touch code (HTML/CSS/JS) | Follow the GitHub flow below. Read [`doc/en/technical.md`](doc/en/technical.md) first. The whole project is vanilla: no frameworks, no new dependencies. |
-| Translate the UI into a new language | Follow the [`doc/en/I18N.md`](doc/en/I18N.md) guide. |
+| Translate the UI into a new language | Follow the [`doc/en/i18n.md`](doc/en/i18n.md) guide. |
 | Report a card whose `imagen` doesn't actually match it | Open an issue naming the deck file, the card (question text), and what's wrong. Deck images are picked from the Openverse search result's title/source text at authoring time, on purpose without opening the file to look at it (`doc/en/technical.md` §3.1) — mismatches are expected to slip through occasionally and get caught by readers, not by re-verifying every image up front. |
 
 ## ⚠️ Before touching content generation
@@ -22,7 +22,7 @@ just open the app.
 Deck content is written directly by the AI agent in the repository
 (see "Generating deck content" in `CLAUDE.md`) — there is no script
 that calls an AI API, and there shouldn't be one. It is never wired
-into the public site, under any circumstance — see `doc/en/SPEC.md`
+into the public site, under any circumstance — see `doc/en/spec.md`
 §2.1. Any PR that adds a call to an AI service from `index.html`,
 `app.js`, `tools/study/`, `settings/`, or any script under `scripts/`,
 will be rejected.
@@ -82,5 +82,5 @@ node scripts/limpiar-graphify-cache.js # dry-run: shows what would be removed fr
 - [ ] No user-facing text mentions "disability" or clinical jargon.
 - [ ] New content has a warm, fun tone (never sarcasm or double
       meanings) and a curious fact where it fits — see
-      `doc/en/SPEC.md` §2.5.
+      `doc/en/spec.md` §2.5.
 - [ ] Buttons ≥ 64×64 px, high contrast, no new timers.

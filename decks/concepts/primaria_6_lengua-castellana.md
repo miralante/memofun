@@ -93,3 +93,4 @@
 - Contrastar una noticia en varias fuentes: primaria_6_lengua-castellana_6.json (analogía: preguntar a varios testigos)
 - El origen del español (del latín): primaria_6_lengua-castellana_6.json (analogía: río que nace en una fuente antigua)
 - Cómo cambió el latín hasta ser español: primaria_6_lengua-castellana_6.json (analogía: juego del teléfono, cada generación cambia algo)
+- Microrrelato (cuento completo en muy pocas líneas): primaria_6_lengua-castellana_7.json (analogía: un mensaje corto que cabe entero en una postal) — nota: mismo concepto que en la serie hermana primaria_6_literatura, cerrado aquí también por venir del currículo oficial ligado a este fichero

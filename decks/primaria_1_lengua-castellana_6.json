@@ -1,0 +1,31 @@
+{
+  "tema": "Canciones, retahílas y el poema - 1º de Primaria",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Es una frase que se repite jugando, <mark>como cuando eliges quién empieza un juego dando palmadas</mark>. No cuenta una historia, solo suena bonita al repetirla. ¿Cómo se llama esta canción para jugar?",
+      "respuesta": "<mark>Retahíla</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_lengua-castellana_6/retahila.jpg",
+        "alt": "Niños jugando juntos en el patio de un colegio",
+        "titulo": "Jeux d'enfants à l'école primaire",
+        "autor": "Domingo Daniella Rhode",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=76744452",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Uno cuenta algo que pasa, con personajes y un final, <mark>como una película contada con palabras</mark>. El otro juega con el sonido de las palabras y a veces rima. ¿Cómo se llama el que cuenta una historia?",
+      "respuesta": "<mark>Cuento</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_1_lengua-castellana_6/cuento-poema.jpg",
+        "alt": "Varios libros de cuentos infantiles ilustrados, uno al lado del otro",
+        "titulo": "Picture Books",
+        "autor": "Enokson",
+        "fuente": "https://www.flickr.com/photos/47823583@N03/4385119849",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

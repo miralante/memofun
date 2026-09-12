@@ -100,3 +100,6 @@
 - Declaración Universal de los Derechos Humanos (1948): _6.json (analogía lista mínima de lo que nadie debería poder quitarte)
 - Ciudadanía ética digital: _6.json (aplicar normas de respeto también en internet)
 - Patrimonio inmaterial (tradiciones, lenguas): _6.json (tan importante de proteger como un monumento)
+- Guerra de Corea: _7.json (bando comunista contra bando capitalista, 1950-1953, primer choque armado de la Guerra Fría); aislada como concepto propio, distinta de la mención conjunta con Vietnam y Cuba de _3.json
+- Coexistencia pacífica: _7.json (rivales que evitan chocar directamente, como darse la mano tras la muerte de Stalin)
+- Fundamentalismo islámico: _7.json (grupos políticos que imponen una lectura muy estricta de una religión); distinto del terrorismo global ya cubierto en _5.json

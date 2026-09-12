@@ -39,6 +39,15 @@ general one on the same block.
 
 ---
 
+## Responsive design contract
+
+Follow the Apptonomia suite standard: real mobile viewport, fluid container
+padding, no horizontal overflow, and flexible grids that collapse to one
+column when cards no longer have comfortable reading width. Controls must
+fit the viewport, preserve usable touch targets, and avoid fixed heights or
+large empty vertical zones. Check 320px, 375px, 768px and desktop before
+shipping a layout change.
+
 ## Block A — Workflow
 
 ### A.1 Canonical sources
@@ -320,6 +329,22 @@ replaces what used to be a system prompt sent to an external API,
 and that's the only thing that changed: the rules themselves are
 unchanged and still binding.
 
+**MANDATORY — English-language (`idioma: "en"`) decks: never bulk-generate.**
+The `doc/curriculum/en/**` library (Key Stages 1-4, BTEC, Entry Level
+Business) is deliberately left as an open **call for contributions**
+— see `strings.en.js` `enSubjectInvite`/`enSubjectInviteHelp`
+("No deck yet — be the first to contribute" / "Pick this subject and
+ask the AI coding agent for the matching deck, or write one by
+hand"). That invitation is answered **one subject at a time, when a
+human explicitly names that one subject** — never as a sweep across
+multiple subjects, and never inferred from a general "do the English
+curriculum" instruction, however it's phrased. If a request could be
+read either way, stop and ask which specific subject(s) before
+writing anything. Do not use background agents to generate several
+English decks in parallel on your own initiative. This restores and
+locks in the project's default: English decks are community-built,
+not AI-bulk-built.
+
 1. Read the content config: either a `doc/curriculum/**/*.md` file
    or a one-off `config.md`-shaped file (frontmatter: `tema`,
    `nivel`, `cantidad`, `salida`, optional `idioma`; body: optional
@@ -471,11 +496,13 @@ unchanged and still binding.
    deck extending it) covers — don't drift into
    adjacent-but-unlisted topics just because they "read well."
    Full reasoning: `doc/en/SPEC.md` §1.3.
-9. **Optional per-card image — always a thumbnail.** Only when
-   asked — don't add images on your own initiative for every new
-   deck. A card can carry one `imagen` field with a
-   photo/illustration as visual support (schema:
-   `doc/en/technical.md` §3.1). The shipped image is **always a
+9. **Per-card image — always a thumbnail, on every card by
+   default.** Every card in a deck should carry one `imagen` field
+   with a photo/illustration as visual support (schema:
+   `doc/en/technical.md` §3.1) — this is no longer an opt-in step
+   the user has to request; generate images for every card of every
+   new deck (and every new round of an existing deck) as part of
+   step 3, not as an afterthought. The shipped image is **always a
    thumbnail of the source**, not the full-resolution original —
    the card renders it at maybe 300-400 px wide on a phone so
    anything above that is bytes spent for no visible quality, and

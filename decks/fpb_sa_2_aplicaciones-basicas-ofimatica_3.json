@@ -1,0 +1,91 @@
+{
+  "tema": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Muchas cartas se parecen mucho entre sí. <mark>Es como un molde ya hecho, que solo hay que rellenar</mark>. Así se ahorra tiempo y no se empieza de cero. ¿Cómo se llama este documento base?",
+      "respuesta": "<mark>Plantilla</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_3/plantilla-carta.jpg",
+        "alt": "Personal escribiendo cartas en un escritorio de oficina",
+        "titulo": "Staff Writing Letters to Service Men and Women",
+        "autor": "MDGovpics",
+        "fuente": "https://www.flickr.com/photos/64018555@N03/6522729673",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Revisa el texto mientras escribes y avisa de errores. <mark>Es como un amigo que avisa si te equivocas</mark>. Suele subrayar en rojo la palabra dudosa. ¿Cómo se llama esta herramienta?",
+      "respuesta": "<mark>Corrector ortográfico</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_3/corrector-ortografico.jpg",
+        "alt": "La ventana de un programa de ofimática para elegir idioma y revisar la ortografía",
+        "titulo": "LibreOffice 3.4 Choosing languages, dictionaries, and options for checking spelling zh-CN",
+        "autor": "Guoyunhebrave",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=23241150",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "En una tabla con muchos datos, cuesta encontrar lo importante. <mark>Es como colocar libros en una estantería, por tamaño o color</mark>. También se puede mostrar solo lo que interesa. ¿Qué se hace con la tabla para conseguir esto?",
+      "respuesta": "<mark>Ordenar y filtrar</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_3/ordenar-filtrar-libros.jpg",
+        "alt": "Una estantería con libros colocados de forma ordenada",
+        "titulo": "book shelf",
+        "autor": "EvelynGiggles",
+        "fuente": "https://www.flickr.com/photos/23797059@N02/2719033602",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Al pasar de una diapositiva a otra, aparece un efecto. <mark>Es como el cambio de escena en una película</mark>. Usarlo en exceso puede distraer al público. ¿Cómo se llama este efecto?",
+      "respuesta": "<mark>Transición</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_3/transicion-diapositiva.jpg",
+        "alt": "Un telón rojo cerrado en un teatro, antes de que empiece la siguiente escena",
+        "titulo": "Closed red curtain at the Coolidge Corner Theatre - portrait",
+        "autor": "brokentrinkets",
+        "fuente": "https://www.flickr.com/photos/45795292@N00/3074887475",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un correo puede llevar un documento o una foto junto al mensaje. <mark>Es como meter un papel extra dentro del mismo sobre</mark>. Se descarga al abrir el correo. ¿Cómo se llama esta acción?",
+      "respuesta": "<mark>Adjuntar un archivo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_3/clip-adjuntar.jpg",
+        "alt": "Varios clips de colores para sujetar papeles",
+        "titulo": "paper-clips_colored_27071-480x360",
+        "autor": "Public Domain Photos",
+        "fuente": "https://www.flickr.com/photos/28958738@N06/4905243128",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Los archivos del ordenador se pueden perder o dañar. <mark>Es como tener una llave de repuesto en otro sitio</mark>. Sirve si el ordenador falla o algo se pierde. ¿Cómo se llama esta copia extra?",
+      "respuesta": "<mark>Copia de seguridad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_3/copia-seguridad-disco.jpg",
+        "alt": "Un disco duro externo usado para guardar copias de seguridad",
+        "titulo": "3TB backup goodness",
+        "autor": "blakespot",
+        "fuente": "https://www.flickr.com/photos/35448539@N00/6311707041",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una buena clave combina letras, números y símbolos. <mark>Es como una llave complicada que nadie puede copiar</mark>. Nunca conviene compartirla ni apuntarla a la vista. ¿Cómo se llama esta clave bien elegida?",
+      "respuesta": "<mark>Contraseña segura</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_3/contrasena-segura.jpg",
+        "alt": "Un concepto visual de seguridad y protección con contraseña",
+        "titulo": "Secure Password Concept Image",
+        "autor": "ninjaonelive",
+        "fuente": "https://www.flickr.com/photos/201415780@N07/53990780032",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

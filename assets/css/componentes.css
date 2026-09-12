@@ -878,3 +878,27 @@ footer.app-footer a { color: var(--color-text-soft); }
   header.app-header .logo { font-size: 36px; }
   .flashcard { min-height: 300px; }
 }
+
+/* Suite attribution shares the existing header space. */
+.suite-attribution {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: normal;
+  white-space: nowrap;
+  color: inherit;
+}
+.suite-attribution a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.suite-attribution a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+header.app-header { position: relative; }
+header.app-header > .suite-attribution { position: absolute; right: max(16px, calc((100% - 1100px) / 2)); bottom: 4px; }

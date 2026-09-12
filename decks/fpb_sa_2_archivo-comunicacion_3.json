@@ -1,0 +1,91 @@
+{
+  "tema": "Archivo y Comunicación - FP Básica Servicios Administrativos (2º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Los documentos importantes se guardan con cuidado y sin perderlos. <mark>Es como un tesoro guardado en una caja fuerte, siempre localizable</mark>. Así no se pierde información valiosa. ¿Cómo se llama este cuidado de los documentos?",
+      "respuesta": "<mark>Conservación y custodia</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_3/archivo-custodia.jpg",
+        "alt": "Un escritorio de oficina con documentos guardados de forma ordenada",
+        "titulo": "Office: Desk",
+        "autor": "BrentOzar",
+        "fuente": "https://www.flickr.com/photos/56756426@N00/4338439363",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "No todos los documentos se guardan el mismo tiempo. <mark>Es como la fecha de caducidad de un alimento</mark>. Unos se guardan años; otros, solo meses. ¿Cómo se llama este tiempo mínimo de guardado?",
+      "respuesta": "<mark>Plazo de conservación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_3/plazo-tiempo.jpg",
+        "alt": "Un reloj de arena marcando el paso del tiempo",
+        "titulo": "Tempus fugit Project 365(3) Day 294",
+        "autor": "Keith Williamson",
+        "fuente": "https://www.flickr.com/photos/34673186@N03/6452275823",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Los archivos del ordenador también se pueden perder. <mark>Es como fotocopiar un documento importante, por si acaso</mark>. Conviene guardar esa copia en otro lugar. ¿Cómo se llama esta copia extra?",
+      "respuesta": "<mark>Copia de seguridad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_3/copia-seguridad-digital.jpg",
+        "alt": "Un disco de almacenamiento externo conectado a un portátil",
+        "titulo": "Laptop external storage",
+        "autor": "IN 30 MINUTES Guides",
+        "fuente": "https://www.flickr.com/photos/17213139@N00/14138416141",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "A veces la persona buscada no está disponible. <mark>Es como dejar una nota clara pegada en la puerta</mark>. Luego hay que entregar el mensaje sin olvidos. ¿Cómo se llama anotar y pasar este mensaje?",
+      "respuesta": "<mark>Tomar un recado</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_3/recado-notas.jpg",
+        "alt": "Una persona tomando notas mientras habla por teléfono",
+        "titulo": "A SHORT ESSAY ON CELL PHONES",
+        "autor": "roberthuffstutter",
+        "fuente": "https://www.flickr.com/photos/29528454@N04/3900976024",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Sirven para avisar de algo a los compañeros. <mark>Es como una nota en la nevera, que todos ven</mark>. Suelen ser mensajes cortos y directos. ¿Cómo se llaman estos mensajes entre compañeros?",
+      "respuesta": "<mark>Avisos internos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_3/aviso-nota-adhesiva.jpg",
+        "alt": "Personas de una oficina organizando tareas con notas adhesivas",
+        "titulo": "Businesspeople planning tasks with sticky notes",
+        "autor": "Rawpixel Ltd",
+        "fuente": "https://www.flickr.com/photos/147875007@N03/30849317747",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El logotipo y los colores deben usarse siempre igual. <mark>Es como la camiseta de un equipo, reconocible por sus colores</mark>. Así la empresa se reconoce en cualquier documento. ¿Cómo se llama este uso del logotipo y los colores?",
+      "respuesta": "<mark>Identidad visual</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_3/logotipo-identidad.png",
+        "alt": "El logotipo de una marca con sus colores propios",
+        "titulo": "Logo 02-RD-Color-Square",
+        "autor": "RedDoorz",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=144249379",
+        "licencia": "CC BY 3.0"
+      }
+    },
+    {
+      "pregunta": "Al terminar la reunión, se guía a la visita hasta la salida. <mark>Es como acompañar a un invitado hasta la puerta de tu casa</mark>. Da una buena imagen final de la empresa. ¿Cómo se llama hacer esto con una visita?",
+      "respuesta": "<mark>Acompañar y despedir</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion_3/salida-despedida.jpg",
+        "alt": "Un cartel de salida señalando la puerta",
+        "titulo": "Exit",
+        "autor": "Go-tea 郭天",
+        "fuente": "https://www.flickr.com/photos/131814204@N04/23914552138",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

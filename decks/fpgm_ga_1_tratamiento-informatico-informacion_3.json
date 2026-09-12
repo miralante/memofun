@@ -1,0 +1,343 @@
+{
+  "tema": "Tratamiento Informático de la Información - FP GM Gestión Administrativa (1º)",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Antes de conducir, ajustas bien el asiento y las manos. <mark>En el teclado, cada dedo vive en su propio barrio</mark>. Escribir mal sentado cansa la espalda y las muñecas. ¿Cómo se llama sentarse y colocar bien las manos para escribir?",
+      "respuesta": "<mark>Postura correcta</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/postura-manos-teclado.jpg",
+        "alt": "Manos escribiendo sobre el teclado de un ordenador",
+        "titulo": "Free close hand typing keyboard",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/5921524/photo-image-background-public-domain-hand",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Un pianista toca sin mirar las teclas del piano. <mark>Al escribir en el ordenador, tus dedos hacen lo mismo</mark>. No hace falta mirar las teclas para escribir bien. ¿Cómo se llama escribir sin mirar el teclado?",
+      "respuesta": "<mark>Técnica al tacto</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/piano-fingers-tacto.jpg",
+        "alt": "Dedos de una persona tocando las teclas de un piano",
+        "titulo": "piano fingers",
+        "autor": "seriousbri",
+        "fuente": "https://www.flickr.com/photos/39535794@N05/4148739768",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Al aprender a caminar, todos tropezamos alguna vez. <mark>Al escribir rápido también se cuelan letras cambiadas o repetidas</mark>. Practicar despacio ayuda a corregir esos fallos. ¿Cómo se llaman esos fallos al escribir a máquina?",
+      "respuesta": "<mark>Errores mecanográficos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/maquina-escribir-errores.jpg",
+        "alt": "Una máquina de escribir antigua con sus teclas",
+        "titulo": "Old Typewriter",
+        "autor": "taylor.a",
+        "fuente": "https://www.flickr.com/photos/40944554@N04/4554678665",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En una carrera no basta con llegar el primero. <mark>Hay que llegar rápido, pero sin salirse del camino</mark>. Al escribir a máquina pasa igual con las teclas. ¿Qué dos cosas se miden al escribir a máquina?",
+      "respuesta": "<mark>Velocidad y precisión</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/carrera-meta-velocidad.jpg",
+        "alt": "Corredores cruzando la línea de meta en una carrera",
+        "titulo": "Project 365 #200: 190713 The Finishing Line",
+        "autor": "comedy_nose",
+        "fuente": "https://www.flickr.com/photos/23408922@N07/9320845849",
+        "licencia": "PDM 1.0"
+      }
+    },
+    {
+      "pregunta": "Alquilar una casa no es lo mismo que comprarla. <mark>Cada programa también se puede usar de formas distintas, según su permiso</mark>. Algunos permisos dejan copiar o modificar el programa. ¿Cómo se llama ese permiso de uso del programa?",
+      "respuesta": "<mark>Licencia de software</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/casa-en-venta-licencia.jpg",
+        "alt": "Un cartel de una casa en venta clavado en el jardín",
+        "titulo": "Home For Sale Sign",
+        "autor": "MarkMoz12",
+        "fuente": "https://www.flickr.com/photos/106574022@N04/11415768915",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un coche necesita revisiones para seguir funcionando bien. <mark>Los programas de oficina también necesitan revisiones de vez en cuando</mark>. Así corrigen fallos y funcionan mejor cada día. ¿Cómo se llama poner un programa al día?",
+      "respuesta": "<mark>Actualizar el software</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/mecanico-coche-actualizar.jpg",
+        "alt": "Un mecánico revisando el motor de un coche en el taller",
+        "titulo": "Car mechanic repairs engine in workshop",
+        "autor": "nenad53",
+        "fuente": "https://www.flickr.com/photos/202780880@N02/54590638971",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una receta de restaurante es secreta, nadie puede copiarla. <mark>Otra receta de cocina es abierta: cualquiera puede verla y cambiarla</mark>. Con los programas de ordenador pasa algo parecido. ¿Cómo se llama el programa que cualquiera puede modificar?",
+      "respuesta": "<mark>Software libre</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/receta-cocina-libre.jpg",
+        "alt": "Un libro de cocina antiguo abierto con recetas",
+        "titulo": "Vintage Cookbooks - Feasts For All Seasons - Roy Andries De Groot",
+        "autor": "GranniesKitchen",
+        "fuente": "https://www.flickr.com/photos/47600671@N04/4405834014",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Varias marcas de coche te llevan al mismo sitio. <mark>Cada una tiene un salpicadero distinto, aunque conduzcas igual</mark>. En las oficinas también se usan distintos sistemas base. ¿Qué tres sistemas son los más usados en oficinas?",
+      "respuesta": "<mark>Windows, macOS y Linux</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/salpicadero-coche-sistemas.jpg",
+        "alt": "El salpicadero de un coche visto desde el asiento del conductor",
+        "titulo": "Car Dashboard Interior",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/5967242/car-dashboard-interior",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Puedes pintar las paredes de cada habitación de un color. <mark>En una hoja de cálculo también pintas y decoras cada casilla</mark>. Así diferencias los datos importantes de un vistazo. ¿Cómo se llama decorar así las celdas de una hoja?",
+      "respuesta": "<mark>Formato de celda</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/pintura-pared-celda.jpg",
+        "alt": "Una pared recién pintada con un rodillo apoyado",
+        "titulo": "fresh paint",
+        "autor": "Michael Cory",
+        "fuente": "https://www.flickr.com/photos/80044857@N00/4491791249",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un termómetro sube y baja solo, según la temperatura. <mark>Una tabla puede resumir los datos y cambiar sola cuando cambian ellos</mark>. Con un gráfico pasa igual, se actualiza al momento. ¿Cómo se llaman esta tabla y este gráfico que se actualizan solos?",
+      "respuesta": "<mark>Tabla y gráfico dinámico</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/termometro-dinamico.jpg",
+        "alt": "Un termómetro de mercurio mostrando la temperatura",
+        "titulo": "Thermometer",
+        "autor": "ColleenSullivan93",
+        "fuente": "https://www.flickr.com/photos/59538771@N04/5447985183",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Cuando cambias de casa, llevas tus cosas en cajas. <mark>Los datos también pueden salir de un programa y entrar en otro</mark>. Así compartes información entre distintas aplicaciones de oficina. ¿Cómo se llama mover datos de un programa a otro?",
+      "respuesta": "<mark>Importar y exportar datos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/cajas-mudanza-importar.jpg",
+        "alt": "Cajas de cartón preparadas para una mudanza",
+        "titulo": "February 9, 2010 - Packing",
+        "autor": "nerdcoregirl",
+        "fuente": "https://www.flickr.com/photos/51352098@N00/4345167407",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Un guardia solo te deja pasar si cumples una condición. <mark>Una hoja de cálculo también decide según se cumpla una condición</mark>. También puede buscar un dato en una lista larga. ¿Cómo se llaman estas funciones que deciden y buscan datos?",
+      "respuesta": "<mark>Funciones lógicas y de búsqueda</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/control-policia-funciones.jpg",
+        "alt": "Un control policial vigilando el paso en una carretera",
+        "titulo": "Police Checkpoint",
+        "autor": "Chris Hunkeler",
+        "fuente": "https://www.flickr.com/photos/14913305@N00/31297169577",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Un cuaderno puede tener páginas que nadie puede tocar. <mark>Pones un candado imaginario para que no se borren datos por error</mark>. En una hoja de cálculo puedes hacer lo mismo. ¿Cómo se llama bloquear así una hoja de cálculo?",
+      "respuesta": "<mark>Protección de hojas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/candado-proteccion-hojas.jpg",
+        "alt": "Dos candados metálicos cerrados sobre un marco de puerta antiguo",
+        "titulo": "Couple of metallic padlocks on old door frame",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4268291295",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Recibes una carta de publicidad con tu nombre puesto. <mark>La empresa escribió una sola carta y la personalizó para cada persona</mark>. El ordenador rellena los datos de cada destinatario. ¿Cómo se llama crear muchas cartas personalizadas a la vez?",
+      "respuesta": "<mark>Combinación de correspondencia</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/sobre-carta-correspondencia.jpg",
+        "alt": "Un sobre de carta cerrado listo para enviar",
+        "titulo": "Envelope",
+        "autor": "bburky",
+        "fuente": "https://www.flickr.com/photos/29592539@N06/5899259056",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un libro tiene un índice con las páginas de cada capítulo. <mark>Ese índice se genera solo si marcas bien los títulos antes</mark>. Así encuentras rápido cualquier parte de un documento largo. ¿Cómo se llama este índice automático de un documento?",
+      "respuesta": "<mark>Tabla de contenido</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/libro-abierto-indice.jpg",
+        "alt": "Un libro abierto mostrando sus páginas",
+        "titulo": "Open Bible",
+        "autor": "Ryk Neethling",
+        "fuente": "https://www.flickr.com/photos/48946094@N04/5811115037",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un amigo atento te avisa si dices mal una palabra. <mark>El procesador de textos subraya en rojo lo que está mal escrito</mark>. También revisa si una frase suena rara o incorrecta. ¿Cómo se llama esta ayuda automática al escribir?",
+      "respuesta": "<mark>Revisión ortográfica y gramatical</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/diccionario-ortografia.jpg",
+        "alt": "Páginas amarillentas de un diccionario",
+        "titulo": "Yellowed pages from a dictionary",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4332381194",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En una oficina rellenas una ficha en una ventanilla. <mark>En la base de datos también hay una pantalla cómoda para eso</mark>. Es más fácil que escribir directo en la tabla grande. ¿Cómo se llama esta pantalla para meter datos uno a uno?",
+      "respuesta": "<mark>Formulario de base de datos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/formulario-impreso-datos.jpg",
+        "alt": "Una persona rellenando un formulario de impuestos a mano",
+        "titulo": "IRS 1040 Tax Form Being Filled Out",
+        "autor": "kenteegardin",
+        "fuente": "https://www.flickr.com/photos/26373139@N08/5512347305",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "En un panel de investigación, un hilo conecta dos fotos. <mark>Entre dos tablas también se puede tender un hilo que las conecte</mark>. Así el cliente queda unido a sus pedidos. ¿Cómo se llama este hilo que une dos tablas?",
+      "respuesta": "<mark>Relación entre tablas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/piezas-puzzle-relacion.jpg",
+        "alt": "Dos piezas de un puzzle encajando entre sí",
+        "titulo": "Puzzle pieces",
+        "autor": "andrewmalone",
+        "fuente": "https://www.flickr.com/photos/41894170049@N01/2177355189",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Antes de subir una foto, la recortas y la mejoras. <mark>Es como retocar un dibujo a lápiz, borrando lo que sobra</mark>. Así la foto queda más clara y ordenada. ¿Cómo se llama retocar así una imagen digital?",
+      "respuesta": "<mark>Tratamiento de imágenes</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/lapiz-goma-retoque.jpg",
+        "alt": "Un lápiz y una goma de borrar sobre un papel de dibujo",
+        "titulo": "pencil and eraser on paper",
+        "autor": "shawncampbell",
+        "fuente": "https://www.flickr.com/photos/59077136@N00/3005650135",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un álbum de recortes junta fotos en un orden bonito. <mark>Con un vídeo casero pasa igual, pero las fotos se mueven</mark>. Cortas trozos y los unes en el orden correcto. ¿Cómo se llama montar así un vídeo sencillo?",
+      "respuesta": "<mark>Edición de vídeo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/carrete-pelicula-video.jpg",
+        "alt": "Carretes de película de cine junto a un proyector",
+        "titulo": "Birmingham IMAX Tour - Film Reels for the Projector",
+        "autor": "William Hook",
+        "fuente": "https://www.flickr.com/photos/83542829@N00/4316098828",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Al hacer la maleta, doblas la ropa para que quepa más. <mark>Una foto también se puede guardar más pequeña sin perder casi nada</mark>. Así pesa menos y ocupa menos sitio en el ordenador. ¿Cómo se llama reducir así el peso de una imagen?",
+      "respuesta": "<mark>Compresión de imagen</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/maleta-comprimida-imagen.jpg",
+        "alt": "Una maleta bien organizada y llena de ropa doblada para un viaje",
+        "titulo": "A Neatly Packed Suitcase for a Holiday",
+        "autor": "Familydestinationsguide.com Images",
+        "fuente": "https://www.flickr.com/photos/195041916@N08/51903153976",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una tienda cuida mucho cómo coloca las cosas en el escaparate. <mark>Cada diapositiva es como un escaparate distinto de tu presentación</mark>. El orden y los colores ayudan a que se entienda mejor. ¿Cómo se llama organizar así cada diapositiva?",
+      "respuesta": "<mark>Diseño de diapositivas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/escaparate-tienda-diapositivas.jpg",
+        "alt": "El escaparate de una tienda de moda bien decorado",
+        "titulo": "Women's fashion: store window display",
+        "autor": "simpleinsomnia",
+        "fuente": "https://www.flickr.com/photos/95329455@N02/18192230305",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En el teatro, el telón se abre entre una escena y otra. <mark>Entre dos diapositivas también puede haber un efecto que las una</mark>. También los textos pueden moverse o aparecer poco a poco. ¿Cómo se llaman estos efectos entre diapositivas?",
+      "respuesta": "<mark>Animaciones y transiciones</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/telon-teatro-transiciones.jpg",
+        "alt": "El telón rojo de un escenario de teatro",
+        "titulo": "Theater curtain stage",
+        "autor": "(autor desconocido)",
+        "fuente": "https://www.rawpixel.com/image/3297996/free-photo-image-stage-theatre-auditorium",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "En medio de una charla, puedes poner una canción. <mark>En una presentación también puedes meter un vídeo o un sonido</mark>. Así la presentación se ve y se escucha, no solo se lee. ¿Cómo se llama añadir audio o vídeo a una diapositiva?",
+      "respuesta": "<mark>Objetos multimedia</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/auriculares-multimedia.jpg",
+        "alt": "Unos auriculares para escuchar música o sonido",
+        "titulo": "Headphones",
+        "autor": "coolmikeol",
+        "fuente": "https://www.flickr.com/photos/44094498@N03/4135551866",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En la oficina hay un buzón distinto del buzón de casa. <mark>Ese buzón de trabajo recibe y envía cartas todos los días</mark>. Hay que revisarlo y responder con orden cada día. ¿Cómo se llama este buzón digital del trabajo?",
+      "respuesta": "<mark>Correo electrónico corporativo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/buzon-correo-corporativo.jpg",
+        "alt": "La ranura de un buzón de correos donde se echan las cartas",
+        "titulo": "Mail Slot at Post Office",
+        "autor": "David Hilowitz",
+        "fuente": "https://www.flickr.com/photos/12176869@N00/17082910268",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una agenda de papel solo la tienes en un sitio. <mark>Una agenda digital se copia sola en varios aparatos</mark>. Así ves las mismas citas en el ordenador y el móvil. ¿Cómo se llama esta agenda que se actualiza en todos los aparatos?",
+      "respuesta": "<mark>Agenda electrónica sincronizada</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/agenda-papel-sincronizada.jpg",
+        "alt": "Una agenda de papel abierta junto a un bolígrafo y unas gafas",
+        "titulo": "Pen, Diary and Glasses",
+        "autor": "Generationbass.com",
+        "fuente": "https://www.flickr.com/photos/46959536@N04/4827013488",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un cartero ordenado mete cada carta en su cajón. <mark>Tu correo también puede repartirse solo en distintas carpetas</mark>. Así encuentras rápido los mensajes de cada tema. ¿Cómo se llama esta regla que ordena el correo solo?",
+      "respuesta": "<mark>Filtros de correo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/cartero-filtros-correo.jpg",
+        "alt": "Un cartero con su bicicleta repartiendo cartas",
+        "titulo": "The Postman and His Cycle",
+        "autor": "Silverbanks Pictures Ltd.",
+        "fuente": "https://www.flickr.com/photos/159714170@N02/30340283087",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En un grupo de chat, todos ven el mismo mensaje. <mark>En un calendario compartido, todos ven la misma cita</mark>. Así se organiza una reunión sin llamar a cada persona. ¿Cómo se llama invitar a varios a una reunión así?",
+      "respuesta": "<mark>Convocar una reunión</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_3/reunion-trabajo-convocar.jpg",
+        "alt": "Un grupo de personas reunidas alrededor de una mesa de conferencias",
+        "titulo": "C4ISR Senior Leaders Conference, February 2011",
+        "autor": "US Army Africa",
+        "fuente": "https://www.flickr.com/photos/36281822@N08/5416465436",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 window.App = window.App || {};
 if (window.App.i18n) {
   App.i18n.register({
+    suiteBy: 'An app by',
     home: {
       title: 'Memofun',
       tagline: 'Pick a deck and practice with flashcards.',

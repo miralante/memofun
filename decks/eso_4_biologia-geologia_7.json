@@ -1,0 +1,115 @@
+{
+  "tema": "La genética aplicada y el medio ambiente - 4º de ESO",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Los científicos pueden cortar y pegar trozos de ADN. <mark>Cambian genes a propósito, como reescribir instrucciones</mark>. Así curan enfermedades o mejoran cultivos. ¿Cómo se llama esta técnica?",
+      "respuesta": "<mark>Ingeniería genética</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/ingenieria-genetica.jpg",
+        "alt": "Un laboratorio antiguo de ingeniería genética con instrumental de investigación",
+        "titulo": "Stanley Cohen's Genetic Engineering Laboratory, 1973",
+        "autor": "Ryan Somma",
+        "fuente": "https://www.flickr.com/photos/14405058@N08/4023497858",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Usamos seres vivos para fabricar productos útiles. <mark>Bacterias diminutas transforman la leche en queso</mark>. También ayudan a fabricar medicinas como la insulina. ¿Cómo se llama usar seres vivos así?",
+      "respuesta": "<mark>Biotecnología</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/biotecnologia.jpg",
+        "alt": "Una persona elaborando queso a mano",
+        "titulo": "Cheese Making",
+        "autor": "peretzp",
+        "fuente": "https://www.flickr.com/photos/68877611@N00/6434930033",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Una sabana no es solo hierba y animales. <mark>Es una casa compartida por seres vivos y su entorno</mark>. Todo eso forma un conjunto que funciona junto. ¿Cómo se llama este conjunto?",
+      "respuesta": "<mark>Ecosistema</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/ecosistema.jpg",
+        "alt": "Una sabana africana con vegetación y animales en libertad",
+        "titulo": "The vast expanse of Maasai Mara",
+        "autor": "Wajahat Mahmood",
+        "fuente": "https://www.flickr.com/photos/26116471@N03/6331389964",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "La hierba alimenta al conejo. <mark>Y el conejo alimenta al zorro, como una fila de comidas</mark>. Cada eslabón depende del anterior para vivir. ¿Cómo se llama esta cadena de quién se come a quién?",
+      "respuesta": "<mark>Cadena trófica</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/cadena-trofica.jpg",
+        "alt": "Ilustración de una cadena alimentaria con varios animales",
+        "titulo": "Food Chain",
+        "autor": "fancycwabs",
+        "fuente": "https://www.flickr.com/photos/36818084@N00/329223280",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "El carbono pasa del aire a las plantas. <mark>Es un viaje circular que nunca termina</mark>. Así el carbono se recicla una y otra vez. ¿Cómo se llama este recorrido?",
+      "respuesta": "<mark>Ciclo del carbono</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/ciclo-carbono.jpg",
+        "alt": "Diagrama del ciclo global del carbono",
+        "titulo": "Global Carbon Cycle",
+        "autor": "Atmospheric Infrared Sounder",
+        "fuente": "https://www.flickr.com/photos/90896682@N06/8263952221",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Las plantas no pueden usar el nitrógeno del aire solas. <mark>Necesitan bacterias que lo traduzcan a un idioma que entienden</mark>. Así el nitrógeno llega a la tierra y a los seres vivos. ¿Cómo se llama este recorrido?",
+      "respuesta": "<mark>Ciclo del nitrógeno</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/ciclo-nitrogeno.png",
+        "alt": "Diagrama del ciclo del nitrógeno en la naturaleza",
+        "titulo": "The Nitrogen Cycle",
+        "autor": "Roseramona",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=100432453",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "El fósforo vive en las rocas y en el suelo. <mark>Pasa a las plantas, a los animales, y vuelve a la tierra</mark>. Es un préstamo que la naturaleza siempre devuelve. ¿Cómo se llama este ciclo?",
+      "respuesta": "<mark>Ciclo del fósforo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/ciclo-fosforo.jpg",
+        "alt": "Aplicación de fertilizante líquido en un campo de cultivo",
+        "titulo": "Liquid fertilizer application",
+        "autor": "eutrophication&hypoxia",
+        "fuente": "https://www.flickr.com/photos/48722974@N07/4478367887",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El humo, los plásticos y la basura ensucian el planeta. <mark>Es como manchar un mantel blanco muy difícil de limpiar</mark>. Afecta al aire, al agua y al suelo. ¿Cómo se llama este daño al medio ambiente?",
+      "respuesta": "<mark>Contaminación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/contaminacion.jpg",
+        "alt": "Agua contaminada con residuos",
+        "titulo": "Water pollution",
+        "autor": "Global Water Forum",
+        "fuente": "https://www.flickr.com/photos/82536057@N04/7581251632",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "La basura no desaparece sola. <mark>Hay que separarla y reciclarla, como ordenar cada cosa en su cajón</mark>. Así se aprovecha de nuevo o se trata bien. ¿Cómo se llama organizar así los residuos?",
+      "respuesta": "<mark>Gestión de residuos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_biologia-geologia_7/gestion-residuos.jpg",
+        "alt": "Un contenedor de reciclaje",
+        "titulo": "recycle bin",
+        "autor": "atramos",
+        "fuente": "https://www.flickr.com/photos/14818554@N05/6448517855",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

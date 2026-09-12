@@ -1,0 +1,163 @@
+{
+  "tema": "Herramientas en la nube, wearables y ciberseguridad cotidiana - FP GM Gestión Administrativa (2º)",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Google Workspace o Microsoft 365 guardan tus documentos en internet. <mark>Es como tener el cuaderno metido dentro de la nube</mark>. Se accede desde cualquier ordenador. ¿Cómo se llaman estas herramientas de oficina en internet?",
+      "respuesta": "<mark>Ofimática en la nube</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/ofimatica-nube.jpg",
+        "alt": "Varios dispositivos mostrando la aplicación de Google Drive",
+        "titulo": "LT - Google Drive - Devices",
+        "autor": "mattcornock",
+        "fuente": "https://www.flickr.com/photos/41672704@N06/8801654287",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un reloj inteligente recoge datos y los envía al móvil. <mark>Es como llevar un pequeño ordenador en la muñeca</mark>. Es un tipo de objeto conectado. ¿Cómo se llaman estos dispositivos que se llevan puestos?",
+      "respuesta": "<mark>Wearables</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/wearable.jpg",
+        "alt": "Un reloj inteligente sobre una superficie",
+        "titulo": "Huawei Smartwatch (Band 4)",
+        "autor": "TheArchivistMan",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Huawei_Smartwatch_(Band_4).jpg",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Con el móvil, ves información añadida sobre lo real. <mark>Es como ver flechas que explican cómo reparar algo</mark>. Es distinta de la realidad virtual. ¿Cómo se llama esta tecnología?",
+      "respuesta": "<mark>Realidad aumentada</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/realidad-aumentada.jpg",
+        "alt": "Unas gafas de realidad aumentada vistas de cerca",
+        "titulo": "Google augmented reality glasses",
+        "autor": "visualpun.ch",
+        "fuente": "https://www.flickr.com/photos/36947317@N02/7245674164",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Le hablas en voz alta y te responde al momento. <mark>Es como tener a alguien que te escucha y ayuda</mark>. Vive en el móvil o en un altavoz. ¿Cómo se llama este programa que responde por voz?",
+      "respuesta": "<mark>Asistente virtual</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/asistente-virtual.jpg",
+        "alt": "Un altavoz inteligente Amazon Echo Dot sobre una mesa",
+        "titulo": "Alexa Amazon Echo Dot 3rd Gen Smart Speaker - Sandstone Fabric",
+        "autor": "Smart Home Perfected",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Alexa_Amazon_Echo_Dot_3rd_Gen_Smart_Speaker_-_Sandstone_Fabric_(Creative_Commons)_(51049189591).jpg",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En una web, escribes tu duda en un chat. <mark>Es como hablar por mensajes, pero contesta un programa</mark>. Atiende a muchos clientes a la vez. ¿Cómo se llama este programa que conversa por chat?",
+      "respuesta": "<mark>Chatbot</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/chatbot.jpg",
+        "alt": "Ilustración de una conversación con un chatbot",
+        "titulo": "Chatbot",
+        "autor": "James grills",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Chatbot.jpg",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Llega un correo que parece del banco, pidiendo tu clave. <mark>Es como un desconocido disfrazado pidiendo las llaves</mark>. El objetivo es robar tus datos. ¿Cómo se llama este engaño por correo?",
+      "respuesta": "<mark>Phishing</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/phishing.png",
+        "alt": "Ejemplo de un correo falso de phishing simulando ser de un banco",
+        "titulo": "Example bank phishing email",
+        "autor": "Isochrone, amended by Belbury",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Example_bank_phishing_email.svg",
+        "licencia": "CC BY 4.0"
+      }
+    },
+    {
+      "pregunta": "Un programa espía se instala sin permiso en tu equipo. <mark>Es como un virus que enferma el ordenador por dentro</mark>. Suele entrar por archivos peligrosos. ¿Cómo se llama este programa dañino?",
+      "respuesta": "<mark>Malware</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/malware.png",
+        "alt": "Ilustración de un malware ocupando toda la pantalla de un monitor",
+        "titulo": "Malware hacks monitor",
+        "autor": "Clker-Free-Vector-Images",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Malware_hacks_monitor.svg",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Mezclar letras, números y símbolos dificulta que la adivinen. <mark>Es como poner una cerradura complicada, no un candado simple</mark>. Protege tus cuentas de intrusos. ¿Cómo se llama esta clave difícil de adivinar?",
+      "respuesta": "<mark>Contraseña segura</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/contrasena-segura.jpg",
+        "alt": "Un candado sobre un teclado representando la seguridad de las contraseñas",
+        "titulo": "Data security privacy lock password",
+        "autor": "Book Catalog",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Data_security_privacy_lock_password_(41237924492).jpg",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Además de la clave, llega un código al móvil. <mark>Es como necesitar dos llaves para abrir la misma puerta</mark>. Así nadie entra solo con tu contraseña. ¿Cómo se llama esta comprobación doble?",
+      "respuesta": "<mark>Verificación en dos pasos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/verificacion-dos-pasos.jpg",
+        "alt": "Varios dispositivos usados para la autenticación de doble verificación",
+        "titulo": "Authentication devices",
+        "autor": "Dicti0nary0",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Authentication_devices.jpg",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "Guardar una copia de tus archivos evita perderlos para siempre. <mark>Es como tener una fotocopia guardada del original</mark>. Permite recuperarlos si el ordenador falla. ¿Cómo se llama esta copia que permite recuperar datos?",
+      "respuesta": "<mark>Copia de seguridad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/copia-seguridad.jpg",
+        "alt": "Discos duros externos usados para hacer copias de seguridad",
+        "titulo": "MCLI Server \"Farm\"",
+        "autor": "cogdogblog",
+        "fuente": "https://commons.wikimedia.org/wiki/File:MCLI_Server_%22Farm%22_(4055376).jpg",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Una empresa cuida lo que publica en sus redes. <mark>Es como cuidar lo que dices en una fiesta con gente escuchando</mark>. Un empleado debe seguir esas mismas normas. ¿Cómo se llama este cuidado en las redes de la empresa?",
+      "respuesta": "<mark>Uso responsable de las redes sociales</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/redes-sociales.png",
+        "alt": "Iconos de varias redes sociales conocidas",
+        "titulo": "Social media collection 2020s",
+        "autor": "Ibrahim.ID",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Social_media_collection_2020s.png",
+        "licencia": "CC BY 4.0"
+      }
+    },
+    {
+      "pregunta": "Pagar con el móvil o el reloj, sin billetes ni tarjeta. <mark>Es como acercar el móvil y que el pago se haga solo</mark>. Cada vez se usan más en tiendas. ¿Cómo se llaman estas formas de pagar sin dinero físico?",
+      "respuesta": "<mark>Sistemas de pago digitales</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/pago-digital.jpg",
+        "alt": "Un terminal de pago recibiendo un pago sin contacto con el móvil",
+        "titulo": "Mobile payment 03",
+        "autor": "HLundgaard",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Mobile_payment_03.JPG",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "Archivar, facturar o atender clientes se hace ya con programas. <mark>Es como cambiar el archivador de papel por una carpeta digital</mark>. Cambia el día a día de la oficina. ¿Cómo se llama este cambio en las tareas administrativas?",
+      "respuesta": "<mark>Digitalización administrativa</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_3/oficina-digital.jpg",
+        "alt": "Una persona trabajando con un portátil en una oficina moderna",
+        "titulo": "Professional woman working on laptop at modern desk with coffee in bright office",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Professional_woman_working_on_laptop_at_modern_desk_with_coffee_in_bright_office.jpg",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

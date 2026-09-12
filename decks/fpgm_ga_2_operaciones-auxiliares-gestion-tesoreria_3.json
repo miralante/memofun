@@ -1,0 +1,115 @@
+{
+  "tema": "Precios, cobros y extractos en tesorería - FP GM Gestión Administrativa (2º)",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Al fijar un precio, puedes rebajar algo por dos motivos distintos. <mark>Es como pagar menos por adelantar el dinero o por comprar mucho</mark>. ¿Cómo se llaman estas dos rebajas del precio?",
+      "respuesta": "<mark>Descuentos comerciales y financieros</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/cartel-descuento.jpg",
+        "alt": "Un cartel anunciando una rebaja del 50% en una tienda.",
+        "titulo": "Shoeby tot 50% sale sign, Hoogezand (2019) 01",
+        "autor": "Donald Trung Quoc Don",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=80035694",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Al precio de un producto hay que sumarle un impuesto. <mark>Es como añadir una propina obligatoria que se lleva Hacienda</mark>. ¿Cómo se llama este precio final con impuesto incluido?",
+      "respuesta": "<mark>Precio de venta con IVA</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/ticket-compra.jpg",
+        "alt": "Un ticket de la compra semanal con el total a pagar.",
+        "titulo": "Weekly shopping receipt",
+        "autor": "Kai Hendry",
+        "fuente": "https://www.flickr.com/photos/16105436@N00/2623977987",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Antes de que llegue el mes, la empresa calcula cobros y pagos. <mark>Es como planear el gasto del mes antes de que empiece</mark>. Así evita sorpresas de última hora. ¿Cómo se llama este cálculo anticipado?",
+      "respuesta": "<mark>Previsión de tesorería</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/grafico-financiero.jpg",
+        "alt": "Un gráfico con conceptos financieros y contables.",
+        "titulo": "Financial statistics and accounting concept",
+        "autor": "paola.bazurto4",
+        "fuente": "https://www.flickr.com/photos/131543794@N04/16785701705",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Para pagar sin billetes, existen dos tarjetas bancarias muy distintas. <mark>Es como pagar con tu dinero o pedirlo prestado un tiempo</mark>. ¿Cómo se llaman estas dos tarjetas bancarias?",
+      "respuesta": "<mark>Tarjetas de crédito y débito</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/lector-tarjeta.jpg",
+        "alt": "Un lector de tarjetas de crédito y débito en una tienda.",
+        "titulo": "CVS Pharmacy Drugstore Credit Card Scanner Swiper Electronic Credit Card Debit Card Reader",
+        "autor": "JeepersMedia",
+        "fuente": "https://www.flickr.com/photos/39160147@N03/14128014654",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El dinero en efectivo puede sufrir robos al guardarlo o transportarlo. <mark>Es como un seguro especial para el dinero físico de la empresa</mark>. ¿Cómo se llama este seguro especial?",
+      "respuesta": "<mark>Seguros de caudales</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/furgon-prosegur.jpg",
+        "alt": "Un furgón blindado de transporte de dinero.",
+        "titulo": "Prosegur",
+        "autor": "markhillary",
+        "fuente": "https://www.flickr.com/photos/56087830@N00/5564870087",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El dueño de un pagaré puede pasárselo a otra persona. <mark>Es como pasarle a otra persona el derecho a cobrar ese papel</mark>. ¿Cómo se llama esta transmisión del derecho de cobro?",
+      "respuesta": "<mark>Endoso</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/pagare-antiguo.jpg",
+        "alt": "Un pagaré antiguo firmado a mano.",
+        "titulo": "Promissory Note to student May Newell, 1814",
+        "autor": "Phillips Academy, Andover",
+        "fuente": "https://www.flickr.com/photos/112053842@N04/31673712501",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Cuando una letra no se cobra, un notario puede certificarlo oficialmente. <mark>Es como pedir un papel oficial que demuestre que no te pagaron</mark>. ¿Cómo se llama este trámite notarial?",
+      "respuesta": "<mark>Protesto</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/sello-rechazado.jpg",
+        "alt": "Un sello con la palabra rechazado.",
+        "titulo": "Rejected stamp clipart illustration vector",
+        "autor": "rawpixel",
+        "fuente": "https://www.rawpixel.com/image/10165688/vector-logo-illustrations-public-domain",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "El banco envía un documento con los movimientos de tu cuenta. <mark>Es como el resumen mensual de todo lo que entró y salió</mark>. ¿Cómo se llama este documento bancario?",
+      "respuesta": "<mark>Extractos bancarios</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/extracto-bancario.jpg",
+        "alt": "Un extracto bancario antiguo con los movimientos de la cuenta.",
+        "titulo": "Old Bank Statement",
+        "autor": "lungstruck",
+        "fuente": "https://www.flickr.com/photos/52195472@N00/16771229247",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El banco cobra pequeñas cantidades por mantener la cuenta o hacer gestiones. <mark>Es como una tarifa que el banco descuenta por sus servicios</mark>. ¿Cómo se llaman estas cantidades que cobra el banco?",
+      "respuesta": "<mark>Comisiones y gastos bancarios</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_3/cartel-comisiones.jpg",
+        "alt": "Una pancarta de protesta contra las comisiones bancarias.",
+        "titulo": "'Don't charge bank fees on me'",
+        "autor": "Massachusetts Cop Block",
+        "fuente": "https://www.flickr.com/photos/67647659@N02/6212412114",
+        "licencia": "CC BY-SA 2.0"
+      }
+    }
+  ]
+}

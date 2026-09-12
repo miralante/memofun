@@ -2,6 +2,7 @@
 
 | Document | What it's for |
 |---|---|
+| 👤 [`README.md`](README.md) | **Start here** — easy-read intro for end users and families: what Memofun is, key features, how to start, what ships out of the box. |
 | [`SPEC.md`](SPEC.md) | What Memofun is, who it's for, and the non-negotiable rules (including "no generative AI in the product"). |
 | [`roles.md`](roles.md) | The project's three roles and where each one starts. |
 | [`technical.md`](technical.md) | Architecture, shared JS modules, deck file format, accessibility rules. |

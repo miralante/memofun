@@ -21,7 +21,7 @@ card presents a concept's everyday analogy, concrete example or
 "why it matters" as a clue (the **front**), then asks the learner to
 recall the concept itself (the **back**). The card format is defined
 in [`technical.md`](technical.md) §6 and the Socratic hint ladder in
-[`creating-activities-guide.md`](creating-activities-guide.md) §3.
+[`creating-elements-guide.md`](creating-elements-guide.md) §3.
 
 A deck does not need to ship **with** an activity: Memofun has a
 single render activity (`tools/study/`) that knows how to play any

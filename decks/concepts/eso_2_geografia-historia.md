@@ -91,3 +91,13 @@
 - Religión y violencia en la Edad Moderna: _6.json (ejemplo Guerra de los Treinta Años)
 - Comercio mundial tras el Descubrimiento de América: _6.json (analogía red conectada de continentes, retoma consecuencias de _5.json con foco económico global)
 - Siglo de Oro español (contraste crisis política/esplendor artístico): _6.json (analogía casa que se cae a trozos con paredes llenas de grandes cuadros)
+- Sociedad tradicional: _7.json (analogía granja que pasa de padres a hijos, cambios muy lentos)
+- Sociedad industrial: _7.json (analogía cambiar el arado por una cadena de montaje)
+- Sociedad posindustrial: _7.json (analogía cambiar la fábrica por un ordenador y una oficina)
+- Municipio: _7.json (analogía casa con su propio ayuntamiento, alcalde y concejales)
+- Provincia: _7.json (analogía varios barrios reunidos bajo una misma diputación)
+- Comunidad autónoma: _7.json (analogía piezas de un puzle formando una región con gobierno propio)
+- Virreinato: _7.json (analogía sucursal enorme dirigida por un representante del rey, el virrey)
+- Consejo de Indias: _7.json (analogía oficina central que revisaba y aprobaba cada decisión importante)
+- Plano irregular: _7.json (calles como un laberinto estrecho y sin orden, ejemplo Toledo); completa el plano urbano visto en base.json (cuadrícula/radial)
+- Paz de Westfalia: _7.json (analogía firmar un acuerdo que pone fin a un conflicto larguísimo, 1648); completa la Guerra de los Treinta Años ya vista en _6.json

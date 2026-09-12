@@ -1,0 +1,223 @@
+{
+  "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (1º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Dejas un cubito de hielo fuera del congelador. <mark>Poco a poco se convierte en agua líquida</mark>. El calor cambia su forma sin cambiar la sustancia. ¿Cómo se llama este cambio de sólido a líquido?",
+      "respuesta": "<mark>Fusión</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/hielo-derritiendose.jpg",
+        "alt": "Un cubito de hielo derritiéndose",
+        "titulo": "Hielo derritiendose",
+        "autor": "Prácticas Intraescolares",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=117876478",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Un charco de agua desaparece con el sol. <mark>El agua se convierte en vapor invisible</mark>. Sube al aire y ya no se ve. ¿Cómo se llama este paso de líquido a gas?",
+      "respuesta": "<mark>Evaporación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/vapor-de-agua.jpg",
+        "alt": "Vapor de agua subiendo al aire",
+        "titulo": "Vapor de agua",
+        "autor": "Salvadordepalleja",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=177644439",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Sacas un vaso frío de la nevera en verano. <mark>Se llena de gotitas de agua por fuera</mark>. El vapor del aire se vuelve líquido al enfriarse. ¿Cómo se llama este cambio de gas a líquido?",
+      "respuesta": "<mark>Condensación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/gotas-de-agua.jpg",
+        "alt": "Gotas de agua muy parecidas entre sí",
+        "titulo": "Como dos gotas de agua",
+        "autor": "RamónP",
+        "fuente": "https://www.flickr.com/photos/118276383@N05/14380903468",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Apagas la luz al salir de una sala vacía. <mark>Cada gesto pequeño evita gastar electricidad de más</mark>. Sumados, esos gestos reducen mucho la factura. ¿Cómo se llama cuidar la energía que usamos?",
+      "respuesta": "<mark>Ahorro de energía</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/interruptor-luz.jpg",
+        "alt": "Un interruptor de la luz en una pared",
+        "titulo": "Interruptor de la luz",
+        "autor": "Quirito96goku",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=97386465",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Un móvil se queda sin batería si nunca lo cargas. <mark>Tu cuerpo necesita dormir bien cada noche para recargarse</mark>. Sin descanso, cuesta más pensar y trabajar. ¿Qué parte de la salud cuida dormir lo suficiente?",
+      "respuesta": "<mark>El descanso y el sueño</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/cama-durmiendo.jpg",
+        "alt": "Una cama preparada para dormir",
+        "titulo": "Sleeping Bed",
+        "autor": "elizabeth lies",
+        "fuente": "https://stocksnap.io/photo/sleeping-bed-843D85B223",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Muchos coches y fábricas sueltan humo al cielo. <mark>El aire se vuelve sucio y difícil de respirar</mark>. Afecta a la salud de personas y animales. ¿Cómo se llama este problema del aire?",
+      "respuesta": "<mark>Contaminación del aire</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/smog-ciudad.jpg",
+        "alt": "Una ciudad cubierta por una capa de aire sucio",
+        "titulo": "Mexico City y su capa de nata",
+        "autor": "el ranchero",
+        "fuente": "https://www.flickr.com/photos/26759014@N00/99822452",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Un coche cerrado al sol se calienta mucho por dentro. <mark>Ciertos gases atrapan el calor del sol en el planeta</mark>. La Tierra funciona de forma parecida a ese coche. ¿Cómo se llama este efecto que calienta la Tierra?",
+      "respuesta": "<mark>Efecto invernadero</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/invernadero-cristal.jpg",
+        "alt": "Un invernadero de cristal que atrapa el calor dentro",
+        "titulo": "Old Greenhouse in La Concepción Botanical Garden",
+        "autor": "Daniel Capilla",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=123448848",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "El tiempo en el planeta cambia poco a poco cada año. <mark>Veranos más calurosos e inviernos más raros son señales de esto</mark>. Este cambio afecta a todo el planeta a largo plazo. ¿Cómo se llama este cambio duradero del clima?",
+      "respuesta": "<mark>Cambio climático</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/cambio-climatico.jpg",
+        "alt": "Imagen sobre el cambio climático",
+        "titulo": "cambio climatico",
+        "autor": "rupertomiller",
+        "fuente": "https://www.flickr.com/photos/14529759@N03/34160828764",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Un bosque tiene plantas, animales, agua y tierra juntos. <mark>Todos se necesitan entre sí para vivir bien</mark>. Si falta una pieza, todo el conjunto se resiente. ¿Cómo se llama este conjunto de seres vivos y su entorno?",
+      "respuesta": "<mark>Ecosistema</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/bosque-hayedo.jpg",
+        "alt": "Un hayedo, un bosque protegido con muchos árboles",
+        "titulo": "Hayedo de Montejo * 40 aniversario como espacio protegido",
+        "autor": "jacilluch",
+        "fuente": "https://www.flickr.com/photos/70626035@N00/15296879461",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Un semáforo en rojo te dice que pares sin hablar. <mark>Carteles con colores y dibujos avisan de peligros en el trabajo</mark>. Cada color y forma tiene un significado fijo. ¿Cómo se llaman estos avisos visuales de seguridad?",
+      "respuesta": "<mark>Señales de seguridad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/senal-peligro.jpg",
+        "alt": "Un cartel de señal de peligro",
+        "titulo": "señal peligro",
+        "autor": "jacilluch",
+        "fuente": "https://www.flickr.com/photos/70626035@N00/6355196037",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Suena una alarma fuerte y todo el mundo sale del edificio. <mark>Caminas rápido y en orden hacia la salida más cercana</mark>. Seguir la ruta marcada evita el caos. ¿Cómo se llama salir así de un edificio con calma?",
+      "respuesta": "<mark>Evacuación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/salida-emergencia.jpg",
+        "alt": "Un cartel de salida de emergencia",
+        "titulo": "Salida de Emergencia",
+        "autor": "Esparta",
+        "fuente": "https://www.flickr.com/photos/66208256@N00/877183747",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una piedra es dura, el agua moja, el aire es invisible. <mark>Cada uno se comporta de forma muy distinta</mark>. Aun así, los tres son formas de materia. ¿Cómo se llaman estas tres formas distintas de la materia?",
+      "respuesta": "<mark>Sólido, líquido y gaseoso</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/estados-materia.png",
+        "alt": "Esquema de los estados de la materia",
+        "titulo": "Estados de la materia 3ºEP",
+        "autor": "LucíaMartínez.1999",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=147079610",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Un río sigue fluyendo aunque saques agua de él cada día. <mark>El sol y el viento funcionan de forma parecida: nunca se acaban</mark>. Usamos su fuerza para producir electricidad limpia. ¿Cómo se llama la energía que nunca se agota?",
+      "respuesta": "<mark>Energía renovable</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/energia-renovable.jpg",
+        "alt": "Cartel sobre la energía renovable",
+        "titulo": "¡Energia renovable!",
+        "autor": "anpalacios",
+        "fuente": "https://www.flickr.com/photos/46612601@N04/5744482460",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Imagina un plato de comida lleno de colores variados. <mark>Verduras, frutas y proteínas en su justa medida</mark>. Ese equilibrio ayuda a tu cuerpo a funcionar bien. ¿Cómo se llama comer de forma variada y equilibrada?",
+      "respuesta": "<mark>Alimentación saludable</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/huerta-mesa.jpg",
+        "alt": "Verduras y frutas recién recogidas de la huerta",
+        "titulo": "De la huerta a la mesa",
+        "autor": "sheilalopez1",
+        "fuente": "https://www.flickr.com/photos/67850763@N06/6637556717",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Varios compañeros usan el mismo teléfono y teclado cada día. <mark>Limpiarlos con frecuencia evita que pasen gérmenes de mano en mano</mark>. Cuidar estos detalles evita contagios en la oficina. ¿Qué hábito conviene mantener también con los objetos compartidos?",
+      "respuesta": "<mark>La higiene</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/teclado-ordenador.jpg",
+        "alt": "Un teclado de ordenador compartido en una oficina",
+        "titulo": "Teclado ordenador",
+        "autor": "Pmazzoleni",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=112460598",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Un suelo recién fregado y sin cartel de aviso puede provocar caídas. <mark>Un enchufe con demasiados aparatos conectados puede causar un cortocircuito</mark>. Estos peligros están presentes aunque no se vean a simple vista. ¿Cómo se llaman estos peligros del entorno de trabajo?",
+      "respuesta": "<mark>Riesgos laborales</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/cables-enredados.jpg",
+        "alt": "Cables eléctricos enredados, un peligro oculto",
+        "titulo": "Cables enredados en pasaje",
+        "autor": "Marcela Cruz Quispe",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=116785701",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Una botella de plástico usada puede convertirse en una camiseta nueva. <mark>El material viejo se transforma en algo distinto y útil</mark>. Así se evita fabricar todo desde cero. ¿Cómo se llama transformar residuos en materiales nuevos?",
+      "respuesta": "<mark>Reciclaje</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/botella-pet.jpg",
+        "alt": "Una botella de plástico PET lista para reciclar",
+        "titulo": "PET-1",
+        "autor": "chuchurex",
+        "fuente": "https://www.flickr.com/photos/29836149@N00/2416274848",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Una cuenta bancaria se vacía si gastas más de lo que entra. <mark>El agua dulce del planeta funciona de forma parecida: es limitada</mark>. Cerrar el grifo mientras te enjabonas ayuda a no malgastarla. ¿Qué recurso natural hay que administrar con cuidado?",
+      "respuesta": "<mark>El agua</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas_2/grifo-agua.jpg",
+        "alt": "Un grifo de agua",
+        "titulo": "grifo",
+        "autor": "Luis LuCheng",
+        "fuente": "https://www.flickr.com/photos/99371907@N00/12466487124",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

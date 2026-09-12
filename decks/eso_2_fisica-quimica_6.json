@@ -1,0 +1,187 @@
+{
+  "tema": "Enlaces, reacciones y electricidad - 2º de ESO",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Un átomo regala un electrón y otro lo acepta. <mark>Es como una donación que deja a los dos átomos unidos, atraídos como imanes.</mark> Así se forma la sal común. ¿Cómo se llama este tipo de enlace?",
+      "respuesta": "<mark>Enlace iónico</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/enlace-ionico.jpg",
+        "alt": "Cristales de sal de roca, formados por enlaces iónicos.",
+        "titulo": "Rock salt crystals",
+        "autor": "włodi",
+        "fuente": "https://www.flickr.com/photos/19716902@N00/252462355",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Dos átomos no se quedan cada uno con lo suyo. <mark>Comparten electrones, como dos amigos compartiendo un bocadillo.</mark> Así se une el hidrógeno con el oxígeno para formar agua. ¿Cómo se llama este enlace?",
+      "respuesta": "<mark>Enlace covalente</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/enlace-covalente.jpg",
+        "alt": "Modelo de bolas y varillas de una molécula, mostrando sus enlaces.",
+        "titulo": "Molecule model",
+        "autor": "nayukim",
+        "fuente": "https://www.flickr.com/photos/41506934@N03/3827813653",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En los metales, los electrones no son de nadie en concreto. <mark>Se mueven libres entre todos los átomos, como una nube compartida.</mark> Por eso el metal conduce electricidad. ¿Cómo se llama este enlace?",
+      "respuesta": "<mark>Enlace metálico</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/enlace-metalico.jpg",
+        "alt": "Cable de cobre enrollado, un metal que conduce electricidad.",
+        "titulo": "copper wire",
+        "autor": "frankieleon",
+        "fuente": "https://www.flickr.com/photos/23307937@N04/16617978625",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Cada compuesto necesita un nombre según sus elementos. <mark>Es como poner nombre y apellido a cada sustancia.</mark> Así se nombra la sal común o el agua. ¿Cómo se llaman estas reglas para nombrar compuestos?",
+      "respuesta": "<mark>Nomenclatura química</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/nomenclatura-quimica.jpg",
+        "alt": "Frascos de laboratorio con distintas sustancias químicas.",
+        "titulo": "Chemistry laboratory, detail",
+        "autor": "JPC24M",
+        "fuente": "https://www.flickr.com/photos/59963594@N02/5744968358",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Cuando algo arde, desprende calor y luz. <mark>Es como quemar leña en una hoguera para calentarse.</mark> Necesita oxígeno para producirse. ¿Cómo se llama este tipo de reacción química?",
+      "respuesta": "<mark>Combustión</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/combustion.jpg",
+        "alt": "Fuego ardiendo, desprendiendo calor y luz.",
+        "titulo": "fire",
+        "autor": "matthewvenn",
+        "fuente": "https://www.flickr.com/photos/85712049@N00/366986755",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "El hierro se pone rojizo si está al aire húmedo. <mark>Es como una manzana cortada que se pone marrón poco a poco.</mark> Ocurre por contacto con el oxígeno. ¿Cómo se llama esta reacción?",
+      "respuesta": "<mark>Oxidación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/oxidacion.jpg",
+        "alt": "Metal oxidado, cubierto de óxido rojizo.",
+        "titulo": "Rusting",
+        "autor": "lamdogjunkie",
+        "fuente": "https://www.flickr.com/photos/14226960@N00/8717898768",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Mezclar vinagre con bicarbonato hace que ambos dejen de comportarse igual. <mark>Es como un ácido y una base calmándose el uno al otro.</mark> El resultado ya no es ácido ni básico. ¿Cómo se llama esta reacción?",
+      "respuesta": "<mark>Neutralización</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/neutralizacion.jpg",
+        "alt": "Un volcán casero hecho con bicarbonato y vinagre, burbujeando.",
+        "titulo": "129/365: Volcano",
+        "autor": "bradleypjohnson",
+        "fuente": "https://www.flickr.com/photos/52928371@N00/5702097019",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En una reacción química nada se pierde ni aparece de la nada. <mark>Es como repartir una tarta en trozos: el peso total no cambia.</mark> Lo que pesan los reactivos, pesan los productos. ¿Cómo se llama esta ley?",
+      "respuesta": "<mark>Ley de conservación de la masa</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/conservacion-masa.jpg",
+        "alt": "Una balanza de platillos en equilibrio.",
+        "titulo": "Balance",
+        "autor": "Rekyt",
+        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "En una manguera estrecha cuesta más que pase el agua. <mark>Un cable delgado también frena más el paso de la corriente eléctrica.</mark> Voltaje, corriente y resistencia están relacionados en un circuito. ¿Cómo se llama esta relación?",
+      "respuesta": "<mark>Ley de Ohm</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/ley-ohm.jpg",
+        "alt": "Un circuito eléctrico con cables y componentes conectados.",
+        "titulo": "Circuit",
+        "autor": "Yu. Samoilov",
+        "fuente": "https://www.flickr.com/photos/110751683@N02/14011462899",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una bombilla más potente gasta más energía cada segundo. <mark>Es como un grifo más abierto que llena un cubo más rápido.</mark> Se mide en vatios. ¿Cómo se llama esta magnitud?",
+      "respuesta": "<mark>Potencia eléctrica</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/potencia-electrica.jpg",
+        "alt": "Una bombilla eléctrica encendida.",
+        "titulo": "Electric light",
+        "autor": "Alan Cleaver",
+        "fuente": "https://www.flickr.com/photos/11121568@N06/2279694390",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Si aprietas un globo, ocupa menos espacio pero empuja más fuerte. <mark>Es como una pelota que se hincha más al sol.</mark> Presión, volumen y temperatura están relacionados en un gas. ¿Cómo se llaman estas relaciones?",
+      "respuesta": "<mark>Leyes de los gases</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/leyes-gases.jpg",
+        "alt": "Un globo aerostático inflándose con aire caliente.",
+        "titulo": "Cappadocia Balloon Inflating",
+        "autor": "blieusong",
+        "fuente": "https://www.flickr.com/photos/75729488@N03/7144838035",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Un zumo muy concentrado sabe más fuerte que uno aguado. <mark>Cuanto más soluto por la misma cantidad de agua, más concentrada está.</mark> Se puede medir en gramos por litro. ¿Cómo se llama esta magnitud?",
+      "respuesta": "<mark>Concentración</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/concentracion.jpg",
+        "alt": "Un vaso de zumo de naranja recién exprimido.",
+        "titulo": "fresh orange juice",
+        "autor": "Daniel Wehner",
+        "fuente": "https://www.flickr.com/photos/33878790@N07/8394247611",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El azúcar se disuelve en agua, pero solo hasta un límite. <mark>Llega un momento en que ya no se disuelve más.</mark> El resto se queda sin disolver en el fondo. ¿Cómo se llama esta capacidad máxima de disolverse?",
+      "respuesta": "<mark>Solubilidad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/solubilidad.jpg",
+        "alt": "Una taza de café con azúcar disolviéndose dentro.",
+        "titulo": "Coffee with Cream and Sugar",
+        "autor": "TheCulinaryGeek",
+        "fuente": "https://www.flickr.com/photos/72949902@N00/6703560771",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un coche pasa de parado a ir muy rápido en pocos segundos. <mark>Es como pisar el acelerador y notar la velocidad creciendo.</mark> Mide cuánto cambia la velocidad cada segundo. ¿Cómo se llama esta magnitud?",
+      "respuesta": "<mark>Aceleración</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/aceleracion.jpg",
+        "alt": "Un coche haciendo un burnout, acelerando con las ruedas girando.",
+        "titulo": "Burnout",
+        "autor": "Riebart",
+        "fuente": "https://www.flickr.com/photos/39911851@N05/5357683026",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una pelota rodando cuesta abajo va cada segundo más rápida. <mark>Es un movimiento en línea recta que gana velocidad de forma constante.</mark> Por eso es distinto del movimiento a velocidad fija. ¿Cómo se llama este movimiento?",
+      "respuesta": "<mark>Movimiento rectilíneo uniformemente acelerado</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_2_fisica-quimica_6/mrua.jpg",
+        "alt": "Una montaña rusa en su caída más pronunciada, ganando velocidad.",
+        "titulo": "The Mumbo Jumbo drop - the world's steepest roller coaster drop",
+        "autor": "Ben Sutherland",
+        "fuente": "https://www.flickr.com/photos/60179301@N00/3901439164",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

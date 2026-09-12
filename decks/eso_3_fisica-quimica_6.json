@@ -1,0 +1,103 @@
+{
+  "tema": "Materia, átomos y energía: puntos pendientes - 3º de ESO",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Al mezclar sal y agua, la sal desaparece a la vista pero sigue ahí. <mark>Es como si un componente se escondiera dentro del otro sin dejar grumos</mark>. No se puede distinguir una sustancia de la otra a simple vista. ¿Cómo se llama este tipo de mezcla homogénea?",
+      "respuesta": "<mark>Disolución</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/sal-en-agua.jpg",
+        "alt": "Sal disolviéndose en un vaso de agua.",
+        "titulo": "SaltInWaterSolutionLiquid",
+        "autor": "Chris 73",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=11084",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "Un café puede llevar poco o mucho azúcar disuelto en la misma taza. <mark>Es la cantidad de soluto que cabe en una cantidad fija de líquido</mark>. Cuanta más cantidad, más fuerte el sabor. ¿Cómo se llama esta medida de cuánto soluto hay disuelto?",
+      "respuesta": "<mark>Concentración</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/probetas-laboratorio.jpg",
+        "alt": "Probetas y un vaso de laboratorio con líquidos de colores.",
+        "titulo": "Graduated cylinders and beaker filled with chemical compounds",
+        "autor": "Horia Varlan",
+        "fuente": "https://www.flickr.com/photos/10361931@N06/4273968248",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Los primeros científicos imaginaron el átomo de forma muy simple. <mark>Lo veían como una bola maciza, pequeña e indivisible, como una canica</mark>. No había partes por dentro. ¿Cómo se llama este primer modelo atómico?",
+      "respuesta": "<mark>Modelo atómico de Dalton</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/tablas-dalton.jpg",
+        "alt": "Las tablas originales de símbolos atómicos de John Dalton.",
+        "titulo": "JOHN DALTON'S ATOMIC TABLES",
+        "autor": "summonedbyfells",
+        "fuente": "https://www.flickr.com/photos/8521690@N02/13193085554",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Más tarde se descubrió que el átomo tiene partes por dentro. <mark>Un centro denso con electrones girando alrededor, como planetas alrededor del Sol</mark>. Cada electrón gira en un nivel fijo. ¿Cómo se llama este modelo con núcleo y órbitas?",
+      "respuesta": "<mark>Modelo atómico de Bohr</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/atomo-bohr.png",
+        "alt": "Esquema del modelo atómico de Bohr con núcleo y órbitas de electrones.",
+        "titulo": "Bohr atom model English",
+        "autor": "Enoch Lau",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=180152",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "Cada elemento se combina siguiendo unas reglas fijas de proporción. <mark>Es como seguir una receta exacta para escribir el nombre correcto de un compuesto</mark>. Solo dos elementos distintos forman este tipo de compuesto. ¿Cómo se llama esta forma de nombrar compuestos con solo dos elementos?",
+      "respuesta": "<mark>Formulación de compuestos binarios</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/molecula-agua.jpg",
+        "alt": "Un modelo de bolas y varillas de una molécula de agua.",
+        "titulo": "Water Molecule ball-and-stick model",
+        "autor": "borkia",
+        "fuente": "https://sketchfab.com/3d-models/b3b508a8fde242ddb4d5baa8988ee090",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Algunas reacciones químicas sueltan sustancias dañinas para el planeta. <mark>El humo de las fábricas puede mezclarse con el aire y volver como lluvia ácida</mark>. También aumentan los gases que calientan la atmósfera. ¿Cómo se llaman estas reacciones que dañan el medioambiente?",
+      "respuesta": "<mark>Reacciones contaminantes</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/smog-beijing.jpg",
+        "alt": "Una ciudad cubierta por una espesa capa de smog.",
+        "titulo": "Beijing smog",
+        "autor": "kevin dooley",
+        "fuente": "https://www.flickr.com/photos/12836528@N00/386198516",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Al fundir hielo, la temperatura no sube aunque sigas dando calor. <mark>Toda esa energía se usa en cambiar de estado, no en calentar más</mark>. Solo cuando termina el cambio, la temperatura vuelve a subir. ¿Cómo se llama el calor que se usa solo para cambiar de estado?",
+      "respuesta": "<mark>Calor latente</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/cubitos-hielo.jpg",
+        "alt": "Varios cubitos de hielo empezando a fundirse.",
+        "titulo": "ice cubes",
+        "autor": "Muffet",
+        "fuente": "https://www.flickr.com/photos/53133240@N00/2591108804",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Para producir electricidad hacen falta instalaciones muy distintas entre sí. <mark>Unas usan el sol, el viento o el agua, fuentes que nunca se agotan</mark>. Otras queman carbón o petróleo, que sí se agotan. ¿Cómo se llaman estas instalaciones que producen electricidad?",
+      "respuesta": "<mark>Centrales eléctricas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_fisica-quimica_6/parque-eolico.jpg",
+        "alt": "Un parque de aerogeneradores produciendo energía eólica.",
+        "titulo": "Wind Energy, Southern California",
+        "autor": "moonjazz",
+        "fuente": "https://www.flickr.com/photos/8398907@N02/8628436785",
+        "licencia": "CC PDM 1.0"
+      }
+    }
+  ]
+}

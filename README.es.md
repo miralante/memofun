@@ -1,4 +1,4 @@
-﻿# Memofun 🧠
+# Memofun 🧠
 
 > 🌐 **Otros idiomas:** [English](README.md)
 >
@@ -28,7 +28,8 @@ Las barajas usan un formato JSON propio, no el `.apkg` de Anki.
 - 📦 **Repositorio**: [github.com/miralante/memofun](https://github.com/miralante/memofun)
 - 💻 **Ejecutar en local**: abre `index.html` directamente en un
   navegador, o sirve la carpeta con cualquier servidor estático
-  (`npx serve .` / `python -m http.server 8080`).
+  (
+npx serve .` / `python -m http.server 8080`).
 
 ---
 
@@ -57,7 +58,7 @@ cuentas, sin llamadas a APIs de IA en tiempo de ejecución.
 - **Sin IA generativa en el producto**: no hay ninguna integración
   con ninguna API de IA en el código del sitio. El contenido lo
   escribe el agente de IA de programación directamente en el
-  repositorio — ver [`doc/es/SPEC.md`](doc/es/SPEC.md) §2.1.
+  repositorio — ver [`doc/es/spec.md`](doc/es/spec.md) §2.1.
 - 🪶 **Cero dependencias en tiempo de ejecución** — HTML/CSS/JS
   puros.
 - 🔒 **Privacidad por defecto** — sin cuentas, sin cookies, sin
@@ -90,11 +91,11 @@ Toda la documentación del proyecto vive en la carpeta `doc/`:
 
 | Tema | Documento |
 |---|---|
-| Producto, audiencia, reglas de accesibilidad | [`doc/es/SPEC.md`](doc/es/SPEC.md) · [`doc/en/SPEC.md`](doc/en/SPEC.md) |
+| Producto, audiencia, reglas de accesibilidad | [`doc/es/spec.md`](doc/es/spec.md) · [`doc/en/spec.md`](doc/en/spec.md) |
 | Roles (trio / par / único en la suite) | [`doc/es/roles.md`](doc/es/roles.md) · [`doc/en/roles.md`](doc/en/roles.md) |
 | Cómo crear y publicar una baraja | [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) · [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) |
 | Arquitectura y referencia técnica | [`doc/es/tecnico.md`](doc/es/tecnico.md) · [`doc/en/technical.md`](doc/en/technical.md) |
-| Internacionalización (añadir un idioma) | [`doc/es/I18N.md`](doc/es/I18N.md) · [`doc/en/I18N.md`](doc/en/I18N.md) |
+| Internacionalización (añadir un idioma) | [`doc/es/i18n.md`](doc/es/i18n.md) · [`doc/en/i18n.md`](doc/en/i18n.md) |
 | Flujo operativo para agentes de IA | `CLAUDE.md` |
 
 ### 📄 Otros documentos del repo
@@ -122,7 +123,7 @@ El agente escribe las tarjetas siguiendo las reglas de "Generating
 deck content" en `CLAUDE.md`, crea el `.json` en `decks/` y añade la
 entrada a `decks/manifest.json`. **Revisa el contenido** antes de
 darlo por publicado (lectura fácil, sin lenguaje clínico, tono
-divertido y algún dato curioso — ver [`doc/es/SPEC.md`](doc/es/SPEC.md)
+divertido y algún dato curioso — ver [`doc/es/spec.md`](doc/es/spec.md)
 §2.5).
 
 `config.md` (en la raíz) y [`doc/curriculum/`](doc/curriculum/) son
@@ -140,7 +141,8 @@ lo siga punto por punto — ver la guía completa en
 node scripts/check.js
 ```
 
-No hace falta `npm install` — el script solo usa la librería estándar
+No hace falta 
+pm install` — el script solo usa la librería estándar
 de Node. Comprueba sintaxis JS, paridad ES/EN, integridad de
 `sw.js` / `manifest.json` / `decks/manifest.json`, y aplica la regla
 de cero menciones en la UI (ver `CLAUDE.md`). Es el único paso de
@@ -200,7 +202,8 @@ Memofun publica **dos** licencias, una por tipo de activo:
 
 ## 🧹 Mantenimiento
 
-Este repo no tiene `node_modules` ni artefactos de build. La carpeta
+Este repo no tiene 
+ode_modules` ni artefactos de build. La carpeta
 `decks/concepts/` guarda un registro de taller (un fichero corto por
 tema de baraja, p. ej. `literatura.md`) que ayuda al agente de IA a
 no duplicar conceptos entre extensiones de barajas — ver `CLAUDE.md`
@@ -216,11 +219,11 @@ Service workers → Unregister`) y borra los datos del sitio.
 ## 🙏 Créditos
 
 La regla "sin IA en el producto" de Memofun se hereda de
-[`SPEC.md`](../apptonomia/doc/es/SPEC.md) de Apptonomia. El contenido
+[`SPEC.md`](../apptonomia/doc/es/spec.md) de Apptonomia. El contenido
 de las barajas lo escribe directamente el agente de IA de
 programación que trabaja en este repositorio (Claude Code u otro) —
 ver `CLAUDE.md` §"Generating deck content" para las reglas, y
-[`doc/es/SPEC.md`](doc/es/SPEC.md) §2.5 para el tono y los
+[`doc/es/spec.md`](doc/es/spec.md) §2.5 para el tono y los
 requisitos de lectura fácil.
 
 La biblioteca `decks/curriculum/` se construye a partir del
@@ -274,7 +277,8 @@ Maneras concretas de ayudar:
   importa.
 - **Traduce cadenas de UI** que hayan derivado entre
   [`strings.en.js`](strings.en.js) y [`strings.es.js`](strings.es.js)
-  — `node scripts/check.js` ya impone paridad, pero la calidad de
+  — 
+ode scripts/check.js` ya impone paridad, pero la calidad de
   la traducción a menudo necesita una segunda pasada humana.
 - **Abre un issue** describiendo una laguna (un año que falta, una
   materia GCSE que falta, una unidad vocacional que falta) — eso
@@ -283,7 +287,7 @@ Maneras concretas de ayudar:
 No necesitas conocer todo el proyecto para ayudar: cada una de
 estas tareas es una contribución autocontenida con una forma clara
 y un checklist claro. Consulta [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md)
-para el flujo exacto de PR y [`doc/es/SPEC.md`](doc/es/SPEC.md)
+para el flujo exacto de PR y [`doc/es/spec.md`](doc/es/spec.md)
 para las reglas innegociables que toda contribución debe respetar
 (sin IA en el producto, lectura fácil, sin lenguaje clínico, etc.).
 
@@ -313,6 +317,5 @@ La guía canónica de Cloudflare / despliegue para el grupo vive en
 Este repo usa el modelo **Workers + static assets** — ver
 [`CLOUDFLARE.md`](CLOUDFLARE.md) para la guía local.
 
-## More about this project
 
-- [About this project](https://memofun.apptonomia.uk/about/)
+

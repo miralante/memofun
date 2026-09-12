@@ -71,3 +71,5 @@
 - Singular y plural: primaria_1_lengua-castellana_5.json (analogía: una foto con más personajes dentro)
 - Formar el plural añadiendo "-es": primaria_1_lengua-castellana_5.json (analogía: invitar a más amigos a una fiesta; "flor"/"flores")
 - Masculino y femenino (el/la): primaria_1_lengua-castellana_5.json (analogía: dos etiquetas de color distinto)
+- Retahíla (canción infantil para jugar, sin historia): primaria_1_lengua-castellana_6.json (analogía: elegir quién empieza un juego dando palmadas)
+- Diferencia cuento/poema (el cuento narra con personajes y final, el poema juega con el sonido y la rima): primaria_1_lengua-castellana_6.json (analogía: película contada con palabras vs. juego con el sonido de las palabras)

@@ -1,0 +1,103 @@
+{
+  "tema": "El cuerpo humano y la Tierra: puntos pendientes - 3º de ESO",
+  "nivel": "intermedio",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Todos los seres vivos comparten una misma unidad básica. <mark>Son como edificios construidos siempre con el mismo ladrillo</mark>. Ese ladrillo es la célula. ¿Cómo se llama esta idea central de la biología?",
+      "respuesta": "<mark>Teoría celular</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/celula-ilustracion.jpg",
+        "alt": "Ilustración de una célula con sus estructuras internas.",
+        "titulo": "Celula insana",
+        "autor": "Karisidoofpapa13",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=179251794",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "Algunas células son muy simples y no tienen núcleo definido. <mark>Es como una habitación sin paredes internas, todo mezclado</mark>. Las bacterias son un ejemplo claro. ¿Cómo se llama este tipo de célula sin núcleo?",
+      "respuesta": "<mark>Célula procariota</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/bacteria.jpg",
+        "alt": "Una bacteria vista al microscopio, un ejemplo de célula procariota.",
+        "titulo": "Bacteria",
+        "autor": "kaibara87",
+        "fuente": "https://www.flickr.com/photos/34745138@N00/2234750993",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Otras células sí tienen un núcleo bien diferenciado. <mark>Es como una casa con habitaciones separadas, cada una con su función</mark>. Las células humanas son de este tipo. ¿Cómo se llama esta célula con núcleo?",
+      "respuesta": "<mark>Célula eucariota</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/celula-animal.png",
+        "alt": "Esquema de una célula animal con su núcleo y otras estructuras.",
+        "titulo": "Animal Cell",
+        "autor": "Kelvinsong",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=22952603",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "pregunta": "La superficie de la Tierra está partida en piezas enormes. <mark>Esas piezas flotan y se mueven muy despacio, como un rompecabezas gigante</mark>. Tardan millones de años en desplazarse un poco. ¿Cómo se llama la teoría que explica este movimiento de los continentes?",
+      "respuesta": "<mark>Tectónica de placas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/mapa-placas.jpg",
+        "alt": "Un mapa mundial con las principales placas tectónicas.",
+        "titulo": "Map Of Major Tectonic Plates In The World",
+        "autor": "BlatantWorld.com",
+        "fuente": "https://www.flickr.com/photos/45150779@N04/5051807235",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "No se puede evitar que ocurra un terremoto o una erupción. <mark>Pero sí se puede vigilar el terreno, como quien escucha ruidos sospechosos antes de una tormenta</mark>. Así se avisa a tiempo y se salvan vidas. ¿Cómo se llama este trabajo de vigilar y avisar a tiempo?",
+      "respuesta": "<mark>Predicción y prevención</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/sismografo.jpg",
+        "alt": "Sismógrafos en un museo dedicado a la vigilancia volcánica.",
+        "titulo": "Seismographs, Thomas A. Jaggar Museum, Hawaiʻi Volcanoes National Park, Hawaii",
+        "autor": "Ken Lund",
+        "fuente": "https://www.flickr.com/photos/75683070@N00/4529366202",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Huesos y músculos trabajan juntos para que el cuerpo se mueva. <mark>Es como una grúa: una estructura rígida y unos motores que la mueven</mark>. Sin este equipo no podríamos caminar ni sujetar nada. ¿Cómo se llama el conjunto de huesos y músculos que permite el movimiento?",
+      "respuesta": "<mark>Aparato locomotor</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/musculos-grabado.jpg",
+        "alt": "Un grabado antiguo mostrando los músculos del cuerpo humano.",
+        "titulo": "Muscles from French anatomical engraving",
+        "autor": "liverpoolhls",
+        "fuente": "https://www.flickr.com/photos/107733654@N04/10818699523",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "El cuerpo capta el mundo exterior por varias vías distintas a la vez. <mark>Son como cinco ventanas distintas abiertas al mismo paisaje</mark>. Cada una envía su información al cerebro. ¿Cómo se llaman los órganos de la vista, el oído, el olfato, el gusto y el tacto?",
+      "respuesta": "<mark>Órganos de los sentidos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/cinco-sentidos.jpg",
+        "alt": "Un dibujo que representa los cinco sentidos del cuerpo humano.",
+        "titulo": "Five Senses",
+        "autor": "TheNickster",
+        "fuente": "https://www.flickr.com/photos/49503073847@N01/3667839998",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Además de los nervios, el cuerpo tiene otra red de mensajes. <mark>Son glándulas que envían órdenes químicas a través de la sangre, como cartas que viajan sin prisa</mark>. Regulan el crecimiento, el ánimo y muchas funciones internas. ¿Cómo se llama este conjunto de glándulas?",
+      "respuesta": "<mark>Sistema endocrino</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_3_biologia-geologia_6/tiroides.jpg",
+        "alt": "Ilustración de la glándula tiroides, parte del sistema endocrino.",
+        "titulo": "Thyroid Gland 8",
+        "autor": "GreenFlames09",
+        "fuente": "https://www.flickr.com/photos/46179909@N00/132594953",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

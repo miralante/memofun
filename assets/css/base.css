@@ -37,6 +37,7 @@ body {
   font-size: var(--text-base);
   line-height: var(--line-base);
   min-height: 100vh;
+  overflow-x: clip;
 }
 
 h1, h2, h3 { font-weight: var(--weight-strong); line-height: 1.25; margin: 0 0 var(--space-2); }
@@ -93,8 +94,10 @@ img { max-width: 100%; display: block; }
   width: 100%;
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 var(--space-2);
+  padding: 0 clamp(12px, 3vw, var(--space-2));
 }
+
+img, svg, canvas, input, select, textarea, button { max-width: 100%; }
 
 .hidden { display: none !important; }
 

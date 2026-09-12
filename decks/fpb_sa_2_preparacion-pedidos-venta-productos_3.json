@@ -1,0 +1,67 @@
+{
+  "tema": "Preparación de Pedidos y Venta de Productos - FP Básica Servicios Administrativos (2º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Los productos se colocan pensando en lo primero que ve quien pasa por la calle. <mark>Es como una vitrina pensada para atraer la mirada</mark>. ¿Cómo se llama este espacio de la tienda?",
+      "respuesta": "<mark>El escaparate</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_3/escaparate-tienda.jpg",
+        "alt": "El escaparate de una tienda con maniquíes y ropa expuesta",
+        "titulo": "Window display of prom dress shop",
+        "autor": "FuriousYogi",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Window_display_of_prom_dress_shop.jpg",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Contar cuánto queda de cada producto evita quedarte sin stock. <mark>Es como revisar la despensa antes de ir a comprar</mark>. ¿Cómo se llama este recuento?",
+      "respuesta": "<mark>Inventario</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_3/inventario-almacen.jpg",
+        "alt": "Estanterías de un almacén llenas de cajas bien ordenadas",
+        "titulo": "Warehouse interior showcasing organized shelving and packages",
+        "autor": "Shixart1985",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Warehouse_interior_showcasing_organized_shelving_and_packages.jpg",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Si falta algo o llega roto, se anota y se avisa a quien lo envió. <mark>Es como devolver algo mal hecho para que lo corrijan</mark>. ¿Qué se debe hacer si un pedido llega así?",
+      "respuesta": "<mark>Reclamar al proveedor</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_3/pedido-danado-caja.jpg",
+        "alt": "Una caja de cartón con la esquina aplastada y una etiqueta de frágil",
+        "titulo": "Damaged Cardboard Box Labelled Fragile",
+        "autor": "Meanwell Packaging",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Damaged_Cardboard_Box_Labelled_Fragile.jpg",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Puedes pagar con monedas y billetes, con tarjeta o desde el móvil. <mark>Es como elegir entre varias llaves para la misma puerta</mark>. ¿Cómo se llaman estas maneras de pagar?",
+      "respuesta": "<mark>Formas de pago</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_3/formas-de-pago-terminal.jpg",
+        "alt": "Un datáfono para pagar con tarjeta en una caja registradora",
+        "titulo": "Payment terminal at self-checkout",
+        "autor": "Anselm Schüler",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Payment_terminal_at_self-checkout.jpg",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "La etiqueta indica el precio, los ingredientes y hasta cuándo se puede usar. <mark>Es como la ficha técnica de cada producto</mark>. ¿Qué fecha conviene revisar siempre antes de vender?",
+      "respuesta": "<mark>Fecha de caducidad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_preparacion-pedidos-venta-productos_3/fecha-caducidad-etiqueta.jpg",
+        "alt": "Etiquetas de productos mostrando su fecha de caducidad",
+        "titulo": "Expiration dates of food products in Israel 16",
+        "autor": "Chenspec",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Expiration_dates_of_food_products_in_Israel_16.jpg",
+        "licencia": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}

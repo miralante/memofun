@@ -96,3 +96,6 @@
 - Opinión en un texto (qué es): primaria_4_lengua-castellana_6.json (analogía: sabor favorito de cada persona; ejemplo el río es precioso)
 - El español en el mundo (cuánta gente lo habla): primaria_4_lengua-castellana_6.json (dato curioso: una de las lenguas más habladas del planeta)
 - Por qué el español se habla en tantos países: primaria_4_lengua-castellana_6.json (analogía: semilla que cruzó el mar y creció en otro suelo)
+
+- Cómic (historia contada en dibujos con viñetas y bocadillos): primaria_4_lengua-castellana_7.json (analogía: fotogramas de una película pegados en una página) — nota: mismo concepto que en la serie hermana primaria_4_literatura, cerrado aquí también por venir del currículo oficial ligado a este fichero
+- Biografía (contar la vida real de una persona, de principio a fin): primaria_4_lengua-castellana_7.json (analogía: abrir un álbum de fotos y contar cada una en orden) — misma nota que arriba

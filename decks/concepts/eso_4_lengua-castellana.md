@@ -68,3 +68,11 @@
 - Lenguaje de redes sociales (rasgos): eso_4_lengua-castellana_3.json (abreviaturas, emojis, inmediatez)
 - Ventajas del lenguaje digital: eso_4_lengua-castellana_3.json (rapidez y cercanía)
 - Riesgos del lenguaje digital: eso_4_lengua-castellana_3.json (analogía: músculo sin entrenar; necesidad del registro formal)
+
+## Bloque 4 — Pronombres y oraciones especiales (eso_4_lengua-castellana_4.json)
+
+- Laísmo: eso_4_lengua-castellana_4.json ("la dije que sí" en vez de "le dije que sí")
+- Loísmo: eso_4_lengua-castellana_4.json ("lo dije que sí" en vez de "le dije que sí")
+- Leísmo: eso_4_lengua-castellana_4.json ("le vi ayer" en vez de "lo vi ayer", uso tan extendido que se admite)
+- Oraciones impersonales: eso_4_lengua-castellana_4.json ("llueve mucho hoy", verbo sin sujeto)
+- Oraciones pasivas reflejas: eso_4_lengua-castellana_4.json ("se venden pisos", el "se" oculta quién realiza la acción)

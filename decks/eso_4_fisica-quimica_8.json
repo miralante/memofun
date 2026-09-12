@@ -1,0 +1,127 @@
+{
+  "tema": "Biomoléculas, ácido-base, las leyes de Newton y cambios de estado - 4º de ESO",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "El huevo y la carne tienen piezas pequeñas unidas. <mark>Esas piezas construyen y reparan el cuerpo, como ladrillos</mark>. Forman músculos, piel y muchas defensas. ¿Cómo se llaman estas biomoléculas?",
+      "respuesta": "<mark>Proteínas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/proteinas.jpg",
+        "alt": "Un huevo crudo en un cuenco metálico",
+        "titulo": "raw egg in metal bowl",
+        "autor": "Steve A Johnson",
+        "fuente": "https://www.flickr.com/photos/14529257@N03/5070215378",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El aceite de oliva no se moja con agua. <mark>Guarda energía de reserva, como una despensa llena</mark>. También protege el cuerpo del frío. ¿Cómo se llaman estas biomoléculas?",
+      "respuesta": "<mark>Lípidos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/lipidos.jpg",
+        "alt": "Botellas de aceite de oliva",
+        "titulo": "Olive oil bottles",
+        "autor": "JohnSeb",
+        "fuente": "https://www.flickr.com/photos/69875617@N00/7083621931",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una cucharada de azúcar da energía rápida. <mark>Es como la gasolina que el cuerpo usa al instante</mark>. El pan y el arroz también los contienen. ¿Cómo se llaman estas biomoléculas?",
+      "respuesta": "<mark>Glúcidos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/glucidos.jpg",
+        "alt": "Una cuchara con azúcar sobre un plato blanco",
+        "titulo": "Sugar Spoon-White Plate",
+        "autor": "Fusokufuri",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=2550501",
+        "licencia": "CC BY 2.5"
+      }
+    },
+    {
+      "pregunta": "El vinagre y el bicarbonato burbujean al juntarse. <mark>Un ácido y una base se neutralizan entre sí</mark>. El resultado ya no es ni ácido ni base fuerte. ¿Cómo se llama este tipo de reacción?",
+      "respuesta": "<mark>Reacción ácido-base</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/acido-base.jpg",
+        "alt": "Vinagre y bicarbonato de sodio reaccionando",
+        "titulo": "vinegar and baking soda",
+        "autor": "jimmiehomeschoolmom",
+        "fuente": "https://www.flickr.com/photos/94168846@N00/3464814341",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un papel especial cambia de color en un líquido. <mark>Ese color indica si es ácido o básico</mark>. La escala va del cero al catorce. ¿Cómo se llama esta medida?",
+      "respuesta": "<mark>pH</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/ph.jpg",
+        "alt": "Tiras de papel indicador de pH de colores",
+        "titulo": "PH indicator paper",
+        "autor": "Michael Krahe",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=248638",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "El coche frena de golpe. <mark>Tu cuerpo sigue hacia delante hasta que el cinturón lo detiene</mark>. Todo cuerpo quiere seguir igual si nada lo cambia. ¿Cómo se llama esta primera ley de Newton?",
+      "respuesta": "<mark>Ley de inercia</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/primera-ley-newton.jpg",
+        "alt": "Primer plano de un cinturón de seguridad de coche",
+        "titulo": "Macro Mondays: Cloth/Textile - Seatbelt (Explored: 2017/03/27)",
+        "autor": "Max_G6",
+        "fuente": "https://www.flickr.com/photos/142702835@N06/33521033382",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Empujar un carro vacío es fácil. <mark>Empujar uno lleno de cajas pesa mucho más</mark>. Más fuerza mueve más masa, o la acelera más rápido. ¿Cómo se llama esta ley que une fuerza y masa?",
+      "respuesta": "<mark>Segunda ley de Newton</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/segunda-ley-newton.jpg",
+        "alt": "Un carrito de mano siendo empujado por la calle",
+        "titulo": "Push cart - Jarvis Street",
+        "autor": "Toronto History",
+        "fuente": "https://www.flickr.com/photos/48096488@N03/9267282595",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un cohete expulsa gases hacia abajo con fuerza. <mark>Esos gases empujan al cohete hacia arriba</mark>. Toda fuerza tiene otra igual y opuesta. ¿Cómo se llama esta tercera ley de Newton?",
+      "respuesta": "<mark>Ley de acción y reacción</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/tercera-ley-newton.jpg",
+        "alt": "Un cohete despegando desde una base de lanzamiento",
+        "titulo": "Sounding Rocket Launches Successfully from Alaska",
+        "autor": "NASA Goddard Photo and Video",
+        "fuente": "https://www.flickr.com/photos/24662369@N07/16389062375",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El hielo se derrite y se vuelve agua. <mark>El agua hierve y se vuelve vapor</mark>. La misma sustancia cambia de forma, no de tipo. ¿Cómo se llaman estos cambios?",
+      "respuesta": "<mark>Cambios de estado</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/cambios-estado.jpg",
+        "alt": "Cubitos de hielo derritiéndose",
+        "titulo": "ice cubes",
+        "autor": "Muffet",
+        "fuente": "https://www.flickr.com/photos/53133240@N00/2591108804",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un cazo de agua hirviendo no sube más de temperatura. <mark>Todo el calor se usa en convertir agua en vapor</mark>. Ese calor escondido cambia el estado, no el termómetro. ¿Cómo se llama este calor escondido?",
+      "respuesta": "<mark>Calor latente</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/eso_4_fisica-quimica_8/calor-latente.jpg",
+        "alt": "Un caldero humeante con agua hirviendo",
+        "titulo": "The Steaming Cauldron",
+        "autor": "LearningLark",
+        "fuente": "https://www.flickr.com/photos/44282411@N04/8168488766",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

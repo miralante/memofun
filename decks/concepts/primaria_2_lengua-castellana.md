@@ -30,3 +30,5 @@
 - Seguir instrucciones escritas sencillas (cómo, dónde se encuentran): primaria_2_lengua-castellana_5.json (analogía: mapa de un tesoro, paso a paso)
 - Escribir una lista de tareas y una agenda: primaria_2_lengua-castellana_5.json (analogías: mapa del día, memoria de papel)
 - Contar una experiencia personal en orden (ejemplo cumpleaños): primaria_2_lengua-castellana_5.json (analogía: colocar fotos de un álbum en orden; narrar una pequeña película)
+- Moraleja (mensaje final de una fábula): primaria_2_lengua-castellana_6.json (analogía: la tortuga que gana la carrera por no rendirse nunca; ejemplo la liebre y la tortuga)
+- Diálogo teatral (leer por turnos las palabras de cada personaje): primaria_2_lengua-castellana_6.json (analogía: dos amigos que se turnan para hablar sin pisarse)

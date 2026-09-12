@@ -1,0 +1,31 @@
+{
+  "tema": "Cómics y biografías - 4º de Primaria",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "La historia se cuenta en dibujos, uno tras otro, <mark>como fotogramas de una película pegados en una página</mark>. Dentro de un globo aparecen las palabras de cada personaje. ¿Cómo se llama esta forma de contar historias con dibujos?",
+      "respuesta": "<mark>Cómic</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_lengua-castellana_7/comic-vinetas-bocadillos.jpg",
+        "alt": "Una tira de cómic clásica con varias viñetas y bocadillos de texto",
+        "titulo": "1995 Comic Strip Classic Postcards",
+        "autor": "andertoons",
+        "fuente": "https://www.flickr.com/photos/75545090@N00/3729535522",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Cuenta la vida real de una persona, desde que nace hasta lo que consigue, <mark>como abrir un álbum de fotos y contar cada una en orden</mark>. No se inventa nada, todo pasó de verdad. ¿Cómo se llama este texto sobre la vida de alguien?",
+      "respuesta": "<mark>Biografía</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_4_lengua-castellana_7/biografia.jpg",
+        "alt": "Busto esculpido del rostro de una persona real de la Antigüedad",
+        "titulo": "Portrait bust of a man, 1st century b.c.",
+        "autor": "leoncillo sabino",
+        "fuente": "https://www.flickr.com/photos/28426323@N08/4426677321",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

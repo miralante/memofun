@@ -89,3 +89,14 @@
 - Dos puntos (uso): eso_3_lengua-castellana_4.json (anuncian lo que viene: lista o cita; ejemplo "necesito tres cosas: tiempo, calma y paciencia")
 - Comillas en un texto complejo: eso_3_lengua-castellana_4.json (cita textual, título de obra o uso irónico)
 - Coma que cambia el sentido de una frase: eso_3_lengua-castellana_4.json (ejemplo clásico "vamos a comer, niños" vs "vamos a comer niños")
+
+## Bloque 2 y 4 — Publicidad, connotación y sintaxis avanzada (eso_3_lengua-castellana_5.json)
+
+- Lenguaje publicitario (qué es): eso_3_lengua-castellana_5.json (frases cortas y pegadizas como ganchos para la memoria)
+- Eslogan: eso_3_lengua-castellana_5.json (analogía estribillo que no se va de la cabeza)
+- Denotación: eso_3_lengua-castellana_5.json (analogía ficha técnica de una palabra, solo los datos)
+- Connotación: eso_3_lengua-castellana_5.json (analogía perfume que deja una palabra además de su significado)
+- Sintagma nominal: eso_3_lengua-castellana_5.json (analogía grupo de amigos que va siempre junto; ejemplo "el perro grande")
+- Sintagma verbal: eso_3_lengua-castellana_5.json (analogía motor de la frase, con sus propias piezas; ejemplo "comió toda la tarta")
+- Voz pasiva: eso_3_lengua-castellana_5.json (ejemplo "el pastel fue comido por Ana" frente a "Ana comió el pastel")
+- Complemento agente: eso_3_lengua-castellana_5.json (analogía Ana "firmando" la acción detrás de la palabra "por")

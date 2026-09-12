@@ -87,6 +87,43 @@
 - Carné de biblioteca: eso_1_lengua-castellana_5.json (analogía: llave que abre la puerta a todos los libros)
 - Biblioteca de Alejandría: eso_1_lengua-castellana_5.json (dato curioso, analogía: gran tesoro de conocimiento)
 
+## Ronda 7 — Puntos del índice sin tarjeta dedicada (auditoría de cobertura)
+
+- Comunicación no verbal: eso_1_lengua-castellana_7.json (analogía: pulgar hacia arriba sin abrir la boca)
+- Texto instructivo (normas y recetas): eso_1_lengua-castellana_7.json (analogía: libro de recetas paso a paso)
+- Cómic: eso_1_lengua-castellana_7.json (analogía: historia dibujada en viñetas con nube de texto)
+- Entrevista periodística: eso_1_lengua-castellana_7.json (analogía: conversación con orden, uno pregunta y el otro contesta)
+- Carta y correo electrónico: eso_1_lengua-castellana_7.json (analogía: sobre que viaja hasta otra persona)
+- Lenguaje publicitario: eso_1_lengua-castellana_7.json (analogía: valla enorme que repite un nombre para convencer)
+- Metáfora: eso_1_lengua-castellana_7.json (ejemplo: "corazón de piedra"; analogía: llamar algo por el nombre de otra cosa parecida)
+- Comparación (símil): eso_1_lengua-castellana_7.json (ejemplo: "ojos como estrellas"; analogía: poner dos fotos juntas para ver el parecido)
+- Personificación: eso_1_lengua-castellana_7.json (ejemplo: "el sol sonreía"; analogía: dibujar una cara feliz a algo que no la tiene)
+- Prefijo: eso_1_lengua-castellana_7.json (ejemplo: "re-" en "rehacer"; analogía: reciclar una botella, volver a usarla)
+- Sufijo: eso_1_lengua-castellana_7.json (ejemplo: "-ito" en "perrito"; analogía: ver un cachorro en vez de un perro adulto)
+- Palabra compuesta: eso_1_lengua-castellana_7.json (ejemplo: "sacapuntas"; analogía: encajar dos piezas para construir una nueva)
+- Pronombre (concepto general): eso_1_lengua-castellana_7.json (ejemplo: "ella" por "Ana"; analogía: ver tu propio reflejo)
+- Pronombre personal: eso_1_lengua-castellana_7.json (ejemplo: "yo", "tú", "él"; analogía: repartir los papeles de una familia)
+- Adverbio: eso_1_lengua-castellana_7.json (ejemplo: "hoy", "aquí", "despacio"; analogía: manecillas de un reloj)
+- Preposición: eso_1_lengua-castellana_7.json (ejemplo: "sobre", "bajo", "entre"; analogía: taza sobre la mesa)
+- Conjunción: eso_1_lengua-castellana_7.json (ejemplo: "y", "pero", "o"; analogía: eslabones de una cadena)
+- Sujeto: eso_1_lengua-castellana_7.json (ejemplo: "María corre"; analogía: cruzar la línea de meta)
+- Predicado: eso_1_lengua-castellana_7.json (ejemplo: "María corre"; analogía: manos amasando pan)
+- Oración enunciativa: eso_1_lengua-castellana_7.json (ejemplo: "Hoy llueve en Madrid"; analogía: portada de periódico)
+- Oración interrogativa: eso_1_lengua-castellana_7.json (ejemplo: "¿Vienes a la fiesta?"; analogía: señal con signo de interrogación)
+- Oración exclamativa: eso_1_lengua-castellana_7.json (ejemplo: "¡Qué sorpresa tan bonita!"; analogía: estallido de fuegos artificiales)
+- Rima (concepto propio, distinto de la mención en el romance): eso_1_lengua-castellana_7.json (ejemplo: "amor"/"dolor"; analogía: dos notas musicales que suenan igual)
+- Acotaciones: eso_1_lengua-castellana_7.json (ejemplo: "(entra por la izquierda, llorando)"; analogía: notas que un director susurra tras el telón)
+- Tipos de obra teatral (comedia y tragedia): eso_1_lengua-castellana_7.json (analogía: dos máscaras opuestas, una que ríe y otra que llora)
+
+Nota: "Pronombre posesivo" y "Pronombre demostrativo" no se han tratado como
+tipos de pronombre distintos en esta ronda — el mismo lexema ya se enseñó
+como determinante posesivo/demostrativo en la ronda 6
+(eso_1_lengua-castellana_6.json). Distinguir "determinante" de "pronombre"
+para "mi"/"este" es una sutileza que excede el nivel de iniciación de 1º de
+ESO; si una ronda futura lo retoma, hacerlo con una sola tarjeta que aclare
+la diferencia de función (acompaña el sustantivo vs. lo sustituye), no como
+recursos nuevos independientes.
+
 ## Bloque 4 — La palabra, la gramática y la ortografía
 
 - Lexema: eso_1_lengua-castellana_6.json (ejemplo: "gat-" en "gatito"; analogía: el corazón de la palabra)

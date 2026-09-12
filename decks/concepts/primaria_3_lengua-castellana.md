@@ -79,3 +79,5 @@
 - Cómo hacer un buen resumen: primaria_3_lengua-castellana_6.json (analogía: mirar un dibujo completo antes de copiar lo importante)
 - Cuántas lenguas se hablan en el mundo: primaria_3_lengua-castellana_6.json (analogía: jardín inmenso con miles de flores)
 - Por qué hay tantas lenguas distintas: primaria_3_lengua-castellana_6.json (analogía: cada familia inventa sus propios apodos)
+- Elementos del cuento (personajes, lugar y tiempo, como datos propios distintos de la estructura principio/problema/final): primaria_3_lengua-castellana_7.json (analogía: los tres datos que preguntas antes de quedar con un amigo)
+- Recitar (leer poesía en voz alta, distinto del ritmo ya visto): primaria_3_lengua-castellana_7.json (analogía: cantar una canción sin música)

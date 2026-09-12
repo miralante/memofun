@@ -14,7 +14,7 @@ usuaria no necesita leer nada de esto, solo abrir la app.
 | Añadir una baraja nueva | Sigue [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) (paso a paso completo); resumen: pide al agente de IA que escriba la baraja a partir de un tema o de un `config.md`, **revisa el contenido** y añade la entrada en `decks/manifest.json` antes de abrir el PR con el `.json` y el manifest. |
 | Corregir o mejorar una baraja existente | Edita el `.json` directamente (es texto plano), o pide al agente que la regenere y sustituya el archivo en `decks/`. |
 | Tocar código (HTML/CSS/JS) | Sigue el flujo de GitHub de abajo. Lee primero [`doc/es/tecnico.md`](doc/es/tecnico.md). Todo el proyecto es vanilla: nada de frameworks ni dependencias nuevas. |
-| Traducir la interfaz a un idioma nuevo | Sigue la guía de [`doc/es/I18N.md`](doc/es/I18N.md). |
+| Traducir la interfaz a un idioma nuevo | Sigue la guía de [`doc/es/i18n.md`](doc/es/i18n.md). |
 | Reportar una tarjeta cuya `imagen` no encaja de verdad | Abre un issue indicando el archivo de la baraja, la tarjeta (texto de la pregunta) y qué está mal. Las imágenes de las barajas se eligen a partir del título/fuente del resultado de búsqueda en Openverse al escribir el contenido, a propósito sin abrir el archivo para mirarlo (`doc/es/tecnico.md` §3.1) — se espera que algún desajuste se cuele de vez en cuando y lo detecte quien lee la baraja, no que se reverifique cada imagen de antemano. |
 
 ## ⚠️ Antes de tocar la generación de contenido
@@ -23,7 +23,7 @@ El contenido de las barajas lo escribe el agente de IA directamente en
 el repositorio (ver "Generating deck content" en `CLAUDE.md`) — no hay
 ningún script que llame a una API de IA, y no debe haberlo. No se
 integra en el sitio público bajo ninguna circunstancia — ver
-`doc/es/SPEC.md` §2.1. Cualquier PR que añada una llamada a un
+`doc/es/spec.md` §2.1. Cualquier PR que añada una llamada a un
 servicio de IA desde `index.html`, `app.js`, `tools/study/`,
 `settings/`, o desde cualquier script en `scripts/`, será rechazado.
 
@@ -83,5 +83,5 @@ node scripts/limpiar-graphify-cache.js # dry-run: muestra qué se borraría de g
       clínica.
 - [ ] El contenido nuevo tiene tono cercano y con gracia (nunca sarcasmo
       ni dobles sentidos) y, cuando encaja, un dato curioso — ver
-      `doc/es/SPEC.md` §2.5.
+      `doc/es/spec.md` §2.5.
 - [ ] Botones ≥ 64×64 px, contraste alto, sin cronómetros nuevos.

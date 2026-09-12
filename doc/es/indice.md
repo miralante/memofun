@@ -2,6 +2,7 @@
 
 | Documento | Para qué sirve |
 |---|---|
+| 👤 [`README.md`](README.md) | **Empieza aquí** — introducción en lectura fácil para personas usuarias y familias: qué es Memofun, características, cómo empezar, qué viene incluido. |
 | [`SPEC.md`](SPEC.md) | Qué es Memofun, para quién, y las reglas innegociables (incluida la de "sin IA generativa en el producto"). |
 | [`roles.md`](roles.md) | Los tres roles del proyecto y por dónde empieza cada uno. |
 | [`tecnico.md`](tecnico.md) | Arquitectura, módulos JS compartidos, formato de baraja, reglas de accesibilidad. |

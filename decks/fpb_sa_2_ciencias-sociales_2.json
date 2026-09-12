@@ -1,0 +1,79 @@
+{
+  "tema": "Ciencias Sociales - FP Básica Servicios Administrativos (2º)",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Este texto de 1978 recoge los derechos y los deberes de toda la ciudadanía. <mark>Es como el manual de instrucciones del país</mark>, su norma más importante. ¿Cómo se llama este texto?",
+      "respuesta": "<mark>Constitución española</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales_2/constitucion-1978-congreso.jpg",
+        "alt": "El hemiciclo del Congreso de los Diputados, en Madrid",
+        "titulo": "Madrid - Hemiciclo del Congreso",
+        "autor": "Barcex",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Madrid_-_Hemiciclo_del_Congreso_-_141203_100858.jpg",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "pregunta": "España se divide en territorios con su propio gobierno y sus propias normas. <mark>Es como un edificio con pisos que deciden parte de su propia vida</mark>. ¿Cómo se llaman estos territorios?",
+      "respuesta": "<mark>Comunidades Autónomas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales_2/comunidades-autonomas-mapa.png",
+        "alt": "Mapa de España dividido en sus comunidades autónomas",
+        "titulo": "Comunidades Autónomas Españolas",
+        "autor": "giruivan",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Comunidades_Aut%C3%B3nomas_Espa%C3%B1olas.png",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "pregunta": "Varios países europeos comparten normas, moneda y fronteras abiertas. <mark>Es como un equipo formado por muchos países distintos</mark>. ¿Cómo se llama esta unión de países?",
+      "respuesta": "<mark>Unión Europea</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales_2/union-europea-bandera.svg",
+        "alt": "Bandera azul con un círculo de estrellas doradas, de la Unión Europea",
+        "titulo": "Flag of Europe",
+        "autor": "Varios autores de Wikimedia Commons (Verdy p y otros)",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+        "licencia": "Dominio público"
+      }
+    },
+    {
+      "pregunta": "Mismo puesto, mismo sueldo, sin importar si eres hombre o mujer. <mark>Es como repartir el mismo trozo de tarta a cada persona</mark>. ¿Cómo se llama este principio?",
+      "respuesta": "<mark>Igualdad de género</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales_2/igualdad-genero-trabajo.png",
+        "alt": "Icono que representa la igualdad entre hombres y mujeres",
+        "titulo": "Gender-Equality-Icon-2",
+        "autor": "Nadiredg",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Gender-Equality-Icon-2.png",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "pregunta": "Apuntar lo que ganas y lo que gastas cada mes ayuda a organizarte. <mark>Es como llevar un mapa de tu dinero para no perderte</mark>. ¿Cómo se llama esta herramienta?",
+      "respuesta": "<mark>Presupuesto personal</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales_2/presupuesto-personal-hucha.jpg",
+        "alt": "Una hucha con monedas dentro, símbolo del ahorro",
+        "titulo": "Piggy-bank-968302",
+        "autor": "stevepb",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Piggy-bank-968302.jpg",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "pregunta": "Protegen a quien compra frente a productos defectuosos o publicidad engañosa. <mark>Es como un escudo que te respalda al comprar</mark>. ¿Cómo se llaman estos derechos?",
+      "respuesta": "<mark>Derechos de las personas consumidoras</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales_2/derechos-consumidor-bolsas.jpg",
+        "alt": "Bolsas de la compra de una tienda, listas para llevar productos",
+        "titulo": "Blokker shopping bags, Groningen (2019)",
+        "autor": "Donald Trung Quoc Don",
+        "fuente": "https://commons.wikimedia.org/wiki/File:Blokker_shopping_bags,_Groningen_(2019).jpg",
+        "licencia": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}

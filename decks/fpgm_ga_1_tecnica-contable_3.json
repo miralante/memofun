@@ -1,0 +1,211 @@
+{
+  "tema": "Inventario, principios contables y cierre del ejercicio - FP GM Gestión Administrativa (1º)",
+  "nivel": "avanzado",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "La empresa lista uno a uno sus bienes y deudas. <mark>Es como anotar todo antes de una mudanza</mark>. Con este listado se elabora el balance después. ¿Cómo se llama este listado detallado?",
+      "respuesta": "<mark>Inventario</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/inventario-mudanza.jpg",
+        "alt": "Cajas de mudanza etiquetadas con una cinta de inventario",
+        "titulo": "Moving-box-inventory-tape",
+        "autor": "MoveON moving",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=69576547",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Este documento resume el patrimonio en una fecha. <mark>Es como una foto económica de la empresa</mark>. Se calcula a partir del inventario. ¿Cómo se llama este documento resumen?",
+      "respuesta": "<mark>Balance de situación</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/inventario-mudanza.jpg",
+        "alt": "Cajas de mudanza etiquetadas con una cinta de inventario",
+        "titulo": "Moving-box-inventory-tape",
+        "autor": "MoveON moving",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=69576547",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Las empresas pequeñas presentan una versión más corta. <mark>Es como rellenar el formulario corto, no el largo</mark>. Sigue mostrando el resultado del año. ¿Cómo se llama esta versión reducida?",
+      "respuesta": "<mark>Cuentas anuales abreviadas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/informe-anual.jpg",
+        "alt": "Portada de un informe financiero anual con tablas de cifras",
+        "titulo": "Texas Commission on Environmental Quality Annual Financial Report: 2016",
+        "autor": "Texas Commission on Environmental Quality",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=188441567",
+        "licencia": "CC BY 4.0"
+      }
+    },
+    {
+      "pregunta": "Comprar, vender o cobrar cambian el patrimonio de la empresa. <mark>Es como cada movimiento de tu monedero</mark>. Todos deben quedar anotados en la contabilidad. ¿Cómo se llaman estos hechos económicos?",
+      "respuesta": "<mark>Operaciones mercantiles</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/tienda-retro.jpg",
+        "alt": "Interior de una tienda antigua con mercancía y mostrador",
+        "titulo": "Old Fashioned Retail",
+        "autor": "QUOI Media",
+        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "La ley obliga a llevar ciertos libros de cuentas. <mark>Es como un cuaderno oficial, no un borrador</mark>. Lo exige el Código de Comercio. ¿Cómo se llaman estos libros exigidos por ley?",
+      "respuesta": "<mark>Libros contables obligatorios</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/biblioteca-juridica.jpg",
+        "alt": "Estantería de una biblioteca jurídica llena de libros de leyes",
+        "titulo": "Law library books",
+        "autor": "j3net",
+        "fuente": "https://www.flickr.com/photos/10799299@N00/6685183193",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Ante la duda, se cuentan antes los gastos posibles. <mark>Es como llevar paraguas aunque no esté claro</mark>. Solo se anotan los ingresos ya seguros. ¿Cómo se llama este principio contable?",
+      "respuesta": "<mark>Principio de prudencia</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/paraguas.jpg",
+        "alt": "Un paraguas rojo abierto bajo la lluvia",
+        "titulo": "Red Leaf Umbrella Rain",
+        "autor": "Robert Swier",
+        "fuente": "https://www.flickr.com/photos/84697131@N00/3155844396",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un gasto se anota cuando ocurre, no cuando se paga. <mark>Es como apuntar la cita el día que pasa</mark>. Así refleja mejor la realidad económica. ¿Cómo se llama este principio contable?",
+      "respuesta": "<mark>Principio de devengo</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/calendario.jpg",
+        "alt": "Un calendario de pared mostrando los días del mes",
+        "titulo": "Calendar",
+        "autor": "Tony in WA",
+        "fuente": "https://www.flickr.com/photos/32146215@N06/3215151141",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "La empresa usa siempre los mismos criterios contables. <mark>Es como medir siempre con la misma regla</mark>. Así se pueden comparar unos años con otros. ¿Cómo se llama este principio contable?",
+      "respuesta": "<mark>Principio de uniformidad</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/cinta-metrica.jpg",
+        "alt": "Una cinta métrica midiendo una distancia exacta",
+        "titulo": "3cm",
+        "autor": "wwarby",
+        "fuente": "https://www.flickr.com/photos/26782864@N00/35974643001",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "El plan contable organiza las cuentas en nueve bloques. <mark>Es como nueve estanterías, una para cada tema</mark>. Cada bloque agrupa cuentas parecidas. ¿Cómo se llaman estos bloques?",
+      "respuesta": "<mark>Grupos de cuentas</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/archivadores.jpg",
+        "alt": "Varios archivadores de oficina en fila",
+        "titulo": "file cabinets",
+        "autor": "waferboard",
+        "fuente": "https://www.flickr.com/photos/60944931@N00/4137041591",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Cada cuenta tiene un número general y concreto. <mark>Es como un código postal, cada cifra concreta más</mark>. Así es fácil ubicar cualquier cuenta. ¿Cómo se llama este sistema de numeración?",
+      "respuesta": "<mark>Codificación decimal</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/archivadores.jpg",
+        "alt": "Varios archivadores de oficina en fila",
+        "titulo": "file cabinets",
+        "autor": "waferboard",
+        "fuente": "https://www.flickr.com/photos/60944931@N00/4137041591",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una empresa paga alquileres o luz, y cobra comisiones. <mark>Son como los gastos extra de una casa</mark>. También se anotan en la contabilidad. ¿Cómo se llaman estos gastos e ingresos?",
+      "respuesta": "<mark>Otros gastos e ingresos</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/factura-suministro.jpg",
+        "alt": "Una factura de suministro con las cifras a pagar",
+        "titulo": "utility bill",
+        "autor": "Inha Leex Hale",
+        "fuente": "https://www.flickr.com/photos/46835425@N00/5310244761",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Una máquina pierde valor poco a poco cada año. <mark>Es como un coche, que vale menos cada año</mark>. Ese gasto se reparte a lo largo del tiempo. ¿Cómo se llama este reparto del gasto?",
+      "respuesta": "<mark>Amortización</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/coche-antiguo.jpg",
+        "alt": "Un coche antiguo estacionado, con signos de desgaste",
+        "titulo": "Old Car",
+        "autor": "Bogdan Suditu",
+        "fuente": "https://www.flickr.com/photos/8726888@N08/2377842887",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "La empresa prevé un gasto futuro, aunque no sepa cuándo. <mark>Es como guardar dinero por si un juicio sale mal</mark>. Se anota ya para no llevarse una sorpresa. ¿Cómo se llama esta reserva?",
+      "respuesta": "<mark>Provisión</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/mazo-juez.jpg",
+        "alt": "Un mazo de juez sobre la mesa de un tribunal",
+        "titulo": "Court Gavel - Judge's Gavel - Courtroom",
+        "autor": "weiss_paarz_photos",
+        "fuente": "https://www.flickr.com/photos/141290938@N03/26682691294",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "Un cliente que no paga hace que un bien valga menos. <mark>Es como un mueble dañado, que ya no vale lo mismo</mark>. Hay que reflejar esa bajada en las cuentas. ¿Cómo se llama esta bajada de valor?",
+      "respuesta": "<mark>Pérdida de valor</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/maquina-oxidada.jpg",
+        "alt": "Una máquina antigua oxidada abandonada en una granja",
+        "titulo": "Verrostete alte Maschine auf einem Bauernhof",
+        "autor": "Ivan Radic",
+        "fuente": "https://www.flickr.com/photos/26344495@N05/48903016872",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Al cerrar el año, se restan los gastos a los ingresos. <mark>Es como restar lo gastado a lo ingresado en un mes</mark>. El resultado puede ser beneficio o pérdida. ¿Cómo se llama este cálculo final?",
+      "respuesta": "<mark>Resultado del ejercicio</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/calculadora.jpg",
+        "alt": "Una calculadora sobre una mesa de oficina",
+        "titulo": "Calculator",
+        "autor": "Images_of_Money",
+        "fuente": "https://www.flickr.com/photos/59937401@N07/5856725357",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Un programa contable necesita revisiones de vez en cuando. <mark>Es como ordenar el archivador de la oficina a veces</mark>. Así funciona bien y evita fallos. ¿Cómo se llama esta tarea de cuidado?",
+      "respuesta": "<mark>Mantenimiento</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/tecnico-reparacion.jpg",
+        "alt": "Un técnico reparando un aparato electrónico",
+        "titulo": "THE REPAIRER- LE REPARATEUR...",
+        "autor": "Belgapixel's",
+        "fuente": "https://www.flickr.com/photos/23623021@N02/2703291441",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "pregunta": "El programa compara tus movimientos con los del banco. <mark>Es como comparar tu libreta con el extracto bancario</mark>. Así se detectan errores o cargos olvidados. ¿Cómo se llama esta comprobación?",
+      "respuesta": "<mark>Conciliación bancaria</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable_3/ventanilla-banco.jpg",
+        "alt": "Ventanillas de atención de una sucursal bancaria",
+        "titulo": "HK Central MTR Station concourse shop Hang Seng Bank teller counters",
+        "autor": "LauiADOAU 22523",
+        "fuente": "https://commons.wikimedia.org/w/index.php?curid=135201315",
+        "licencia": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}

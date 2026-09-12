@@ -1,4 +1,4 @@
-# technical.md — Architecture
+﻿# technical.md â€” Architecture
 
 Product scope, audience and product rules live in [`SPEC.md`](SPEC.md). This
 document is the canonical source for technical and implementation decisions.
@@ -10,47 +10,47 @@ framework, no third-party dependency, no backend, no integration with
 any AI API anywhere in the code), deployed as a Cloudflare Worker
 (static assets). The pieces that aren't part of the public site are
 the `scripts/` utilities (Node.js, offline, zero npm packages): they
-validate and shape content, but don't generate it — that's done by the
+validate and shape content, but don't generate it â€” that's done by the
 AI coding agent directly (see §8).
 
 ```
 memofun/
-├── index.html            deck grid (home, end-user screen)
-├── app.js  ·  strings.es.js  ·  strings.en.js
-├── manifest.json  ·  sw.js  ·  offline.html  ·  404.html
-├── assets/
-│   ├── css/  tokens.css · base.css · componentes.css
-│   ├── js/   utils.js · i18n.js · tts.js · storage.js · feedback.js · deck-loader.js
-│   ├── fonts/ Atkinson Hyperlegible + Nunito (.woff2)
-│   └── img/decks/<slug>/ optional per-card images (see §3.1), bundled not hotlinked
-├── tools/study/          review screen (flip-card)
-├── settings/             support area (text size, language, import, clear progress)
-├── decks/                manifest.json + published, reviewed *.json decks
-│   └── concepts/         per-series "what's already covered" logs (agent-only, see §8)
-├── legal/                data protection
-├── scripts/              config-parser.js · check.js · check-version-bump.js ·
-│                         buscar-imagen.js (Node, offline except the latter, see §3.1)
-├── config.md             example content config (see §8)
-└── doc/
-    ├── es/ · en/         this documentation
-    └── curriculum/
-        ├── es/           Comunidad de Madrid: Primaria → FP GM (own README)
-        └── en/           England: Key Stage 1 → Key Stage 4, with vocational
+â”œâ”€â”€ index.html            deck grid (home, end-user screen)
+â”œâ”€â”€ app.js  ·  strings.es.js  ·  strings.en.js
+â”œâ”€â”€ manifest.json  ·  sw.js  ·  offline.html  ·  404.html
+â”œâ”€â”€ assets/
+â”‚   â”œâ”€â”€ css/  tokens.css · base.css · componentes.css
+â”‚   â”œâ”€â”€ js/   utils.js · i18n.js · tts.js · storage.js · feedback.js · deck-loader.js
+â”‚   â”œâ”€â”€ fonts/ Atkinson Hyperlegible + Nunito (.woff2)
+â”‚   â””â”€â”€ img/decks/<slug>/ optional per-card images (see §3.1), bundled not hotlinked
+â”œâ”€â”€ tools/study/          review screen (flip-card)
+â”œâ”€â”€ settings/             support area (text size, language, import, clear progress)
+â”œâ”€â”€ decks/                manifest.json + published, reviewed *.json decks
+â”‚   â””â”€â”€ concepts/         per-series "what's already covered" logs (agent-only, see §8)
+â”œâ”€â”€ legal/                data protection
+â”œâ”€â”€ scripts/              config-parser.js · check.js · check-version-bump.js ·
+â”‚                         buscar-imagen.js (Node, offline except the latter, see §3.1)
+â”œâ”€â”€ config.md             example content config (see §8)
+â””â”€â”€ doc/
+    â”œâ”€â”€ es/ · en/         this documentation
+    â””â”€â”€ curriculum/
+        â”œâ”€â”€ es/           Comunidad de Madrid: Primaria â†’ FP GM (own README)
+        â””â”€â”€ en/           England: Key Stage 1 â†’ Key Stage 4, with vocational
                           (own README; partially populated, see call for help)
 ```
 
 ## 2. Shared modules (`assets/js/`)
 
 Single `window.App` namespace, loaded in this order on every page:
-`utils.js` → `i18n.js` → `tts.js` → `storage.js` → `feedback.js` →
-`deck-loader.js` → the page's `strings.<locale>.js` → the page's `app.js`.
+`utils.js` â†’ `i18n.js` â†’ `tts.js` â†’ `storage.js` â†’ `feedback.js` â†’
+`deck-loader.js` â†’ the page's `strings.<locale>.js` â†’ the page's `app.js`.
 
-- **`App.utils`**: `$`, `$$`, `reducedMotion()`, `uid()`, `escapeHtml()`, `downloadBlob()`, `registerServiceWorker(path)` — registers the SW and, only on an actual update (not the first-ever install), reloads the page once the new version takes control, instead of leaving the open tab silently stale until someone thinks to hard-refresh.
+- **`App.utils`**: `$`, `$$`, `reducedMotion()`, `uid()`, `escapeHtml()`, `downloadBlob()`, `registerServiceWorker(path)` â€” registers the SW and, only on an actual update (not the first-ever install), reloads the page once the new version takes control, instead of leaving the open tab silently stale until someone thinks to hard-refresh.
 - **`App.i18n`**: `t(key)`, `pick(key)` (random phrase from an array, for feedback), `register(dict, locale)`, `setLocale(locale)`, `apply(root)` (applies `data-i18n`/`data-i18n-aria`/`data-i18n-meta`).
-- **`App.tts`**: `speak(text, [onEnd])` — Web Speech API, on demand only.
+- **`App.tts`**: `speak(text, [onEnd])` â€” Web Speech API, on demand only.
 - **`App.storage`**: `get/set/remove/clearAll(key)` over `localStorage`, `memofun:` prefix; `completeDeck(id)` implements the progress contract (SPEC.md §2.6).
-- **`App.feedback`**: `success(zone)`, `encourage(zone)`, `celebrate(message, after)` — Web Audio, no sound files.
-- **`App.decks`**: `readFile(file)` / `readUrl(url)` → `Promise<{tema, nivel, idioma, tarjetas}>`. Reads the JSON directly with `fetch`/`File.text()` — no ZIP, no SQLite/WASM, no external library at all.
+- **`App.feedback`**: `success(zone)`, `encourage(zone)`, `celebrate(message, after)` â€” Web Audio, no sound files.
+- **`App.decks`**: `readFile(file)` / `readUrl(url)` â†’ `Promise<{tema, nivel, idioma, tarjetas}>`. Reads the JSON directly with `fetch`/`File.text()` â€” no ZIP, no SQLite/WASM, no external library at all.
 
 ## 3. Deck file format
 
@@ -67,13 +67,13 @@ Memofun uses **its own format**, not Anki's `.apkg`: a plain JSON file.
 }
 ```
 
-`pregunta` carries the clue — the everyday analogy, concrete example,
-or "why it matters" — closed by a short question asking the learner to
+`pregunta` carries the clue â€” the everyday analogy, concrete example,
+or "why it matters" â€” closed by a short question asking the learner to
 name or identify the concept; `respuesta` is ONLY that concept/term
 itself, short (1-6 words), wrapped in `<mark></mark>` (see the content
 rules in §8 and in `CLAUDE.md`). The study screen renders `respuesta`
 as a large title and `pregunta` as a small caption below it (image, if
-any, to the left — `tools/study/app.js`), so `pregunta`'s own
+any, to the left â€” `tools/study/app.js`), so `pregunta`'s own
 analogy/example phrase is also wrapped in one `<mark></mark>` span
 (not the whole clue, not the closing question) to carry the same
 highlight color. Simple HTML only (`<mark>`, `<b>`, `<i>`, `<br>`).
@@ -87,11 +87,11 @@ the explanation:
 
 ```json
 {
-  "pregunta": "Es una historia que se cuenta desde hace muchísimos años, de abuelos a nietos. ¿Cómo se llama esta clase de historia?",
+  "pregunta": "Es una historia que se cuenta desde hace muchÃ­simos aÃ±os, de abuelos a nietos. Â¿CÃ³mo se llama esta clase de historia?",
   "respuesta": "<mark>Cuento popular</mark>",
   "imagen": {
     "archivo": "assets/img/decks/primaria_1_literatura/cuento-popular.jpg",
-    "alt": "Portada de un libro de cuentos: una niña sentada, leyendo",
+    "alt": "Portada de un libro de cuentos: una niÃ±a sentada, leyendo",
     "titulo": "Fairy Tales",
     "autor": "Boston Public Library",
     "fuente": "https://www.flickr.com/photos/24029425@N06/10871801484",
@@ -101,20 +101,20 @@ the explanation:
 ```
 
 - `archivo`: site-root-relative path to the image file, bundled inside
-  the repo at `assets/img/decks/<deck-slug>/<file>.jpg` — **never** a
+  the repo at `assets/img/decks/<deck-slug>/<file>.jpg` â€” **never** a
   hotlink to an external host. Images are downloaded once at
   content-authoring time and shipped like any other static asset, so
   the site keeps making zero runtime calls to any external service
   (`SPEC.md` §2.1) and the image still works offline once cached (the
   generic `fetch` handler in `sw.js` caches it on first view, same as
-  a deck's own JSON — no `FILES` entry needed per image).
+  a deck's own JSON â€” no `FILES` entry needed per image).
 - `alt`: plain description of what the image actually shows, in the
-  deck's language — accessibility text, not a restatement of the card.
+  deck's language â€” accessibility text, not a restatement of the card.
 - `titulo` / `autor` / `fuente` / `licencia`: attribution for the
-  source work (Title/Author/Source/License — the CC "TASL" convention),
+  source work (Title/Author/Source/License â€” the CC "TASL" convention),
   shown as a small caption under the image. `licencia` must be a
   license that allows commercial reuse and modification with no extra
-  restriction — CC0, Public Domain, CC BY, or CC BY-SA. Never a
+  restriction â€” CC0, Public Domain, CC BY, or CC BY-SA. Never a
   `-NC` (non-commercial) or `-ND` (no derivatives) license: `scripts/check.js`
   rejects both.
 - All five fields are required when `imagen` is present; a card with
@@ -125,41 +125,41 @@ the explanation:
   Cloudflare Workers static assets with a hard total budget of ~25 MB
   for the entire site; a single full-res Openverse `image` (often
   1-10 MB) blows that budget on its own, and on top of that the image
-  is much larger than a card illustration needs — the card renders
+  is much larger than a card illustration needs â€” the card renders
   it at maybe 300-400 px wide on a phone, so anything above that is
   bytes spent for no visible quality. The shipped file in
   `assets/img/decks/<deck-slug>/<file>.<ext>` MUST therefore be a
-  thumbnail (≤1024 px on the long edge) and MUST stay under 200 KB
-  on disk after the download — `scripts/check.js` fails the build over
+  thumbnail (â‰¤1024 px on the long edge) and MUST stay under 200 KB
+  on disk after the download â€” `scripts/check.js` fails the build over
   200 KB, a hard gate (not a soft aesthetic preference): a size that
   large is itself proof the file isn't an actual thumbnail, and enough
   of them would blow the Cloudflare deploy budget on their own.
   Acquisition order is: (a) the Openverse `thumb` URL from
   `buscar-imagen.js`, which is already in this range (tens-of-KB
   JPEGs); (b) if that 400s, generate the thumbnail yourself instead
-  of falling back to the full-res `image` URL — the Openverse
+  of falling back to the full-res `image` URL â€” the Openverse
   candidate's `fuente` field almost always points to Wikimedia
   Commons, and Wikimedia serves an official thumbnail of any file
   via `https://commons.wikimedia.org/w/index.php?title=Special:FilePath/<name>&width=800`
   (or its API equivalent `?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800`
   on the `curid` page), which is the same picture at a controlled
-  size and the right tool for this exact case — same author, same
+  size and the right tool for this exact case â€” same author, same
   license, just smaller; (c) only if neither (a) nor (b) works,
-  abort and report the missing image — never fall back to the
+  abort and report the missing image â€” never fall back to the
   full-res `image` URL as a default. `scripts/check.js` enforces the
   budget so this rule can't silently slip.
 - Sourcing: `node scripts/buscar-imagen.js "<term>"` searches Openverse
   (openverse.org, no key needed) restricted to those same safe
-  licenses and lists candidates — title, source, and both a `thumb`
-  and a full-res `image` URL — for a human/agent to review and pick;
+  licenses and lists candidates â€” title, source, and both a `thumb`
+  and a full-res `image` URL â€” for a human/agent to review and pick;
   it does not download or pick automatically. The shipped image MUST
   come from the `thumb` URL: same picture, a fraction of the size,
   already in the 200 KB budget. If the Openverse thumbnail proxy 400s
   on a specific source host, generate the thumbnail from the source
-  instead of falling back to the full-res `image` URL — see the
+  instead of falling back to the full-res `image` URL â€” see the
   size-budget bullet above for the Wikimedia `Special:FilePath`
   fallback. Pick from the title/source text the script prints and
-  treat it as curated — never open a candidate file to view it,
+  treat it as curated â€” never open a candidate file to view it,
   including the final pick, that spends vision tokens for a check
   the text already gives. A mismatched image that slips through gets
   caught by a human reader later and reported per `CONTRIBUTING.md`.
@@ -171,38 +171,38 @@ Array of objects:
 
 ```json
 { "id": "docker", "tema": "Docker y Contenedores", "nivel": "intermedio",
-  "cantidad": 10, "file": "docker_memofun.json", "icono": "🐳" }
+  "cantidad": 10, "file": "docker_memofun.json", "icono": "ðŸ³" }
 ```
 
-`id` is used as the `localStorage` key (`progreso.completado[id]`) —
+`id` is used as the `localStorage` key (`progreso.completado[id]`) â€”
 it can just be the file's slug (readable, deterministic, no hashing
 needed). Whoever writes the deck (the AI agent) adds this entry by
 hand after reviewing the content.
 
-**Optional `curso` / `asignatura`** — free-text strings (same language
+**Optional `curso` / `asignatura`** â€” free-text strings (same language
 as the deck's own content, no ES/EN parity required, same rule as
 `tema`), e.g.:
 
 ```json
 { "id": "ks2-3-english", "tema": "English - Key Stage 2, Year 3",
   "nivel": "principiante", "curso": "Year 3 (KS2)", "asignatura": "English",
-  "cantidad": 12, "file": "ks2_3_english.json", "icono": "📚" }
+  "cantidad": 12, "file": "ks2_3_english.json", "icono": "ðŸ“š" }
 ```
 
 When present, the home screen (`app.js`) groups decks into a
-course-then-subject drill-down instead of a flat grid — see §4.1. When
+course-then-subject drill-down instead of a flat grid â€” see §4.1. When
 generating a deck from a `doc/curriculum/<idioma>/<etapa>/<curso>/<asignatura>.md`
 file, derive both from the path/frontmatter (e.g.
-`key-stage-2/3/english-literature.md` → `curso: "Year 3 (KS2)"`,
+`key-stage-2/3/english-literature.md` â†’ `curso: "Year 3 (KS2)"`,
 `asignatura: "English Literature"`); leave both unset for one-off
-"modo simple" decks with no course of their own — they fall back to
+"modo simple" decks with no course of their own â€” they fall back to
 a flat "other topics" section, exactly like before this field
 existed.
 
 ### 4.1 Home screen navigation (courses/subjects)
 
 Driven entirely by `?curso=&asignatura=` query params on `index.html`
-— no router, no framework, plain `<a href>` navigation so back/forward
+â€” no router, no framework, plain `<a href>` navigation so back/forward
 and bookmarking work for free:
 
 - No `curso` param: course cards (one per unique `curso` across
@@ -217,9 +217,9 @@ and bookmarking work for free:
   course level, linking straight into that course's subjects.
 
 This adds one level to the flow described in §5 rule 10 *only* for
-decks that opt into `curso`/`asignatura` — flat decks are unaffected.
+decks that opt into `curso`/`asignatura` â€” flat decks are unaffected.
 
-### 4.2 English locale (en) — invite-only curriculum
+### 4.2 English locale (en) â€” invite-only curriculum
 
 When `App.i18n.locale() === 'en'` the home screen **does not read
 `decks/manifest.json` at all**. Every shipped deck today is Spanish
@@ -229,18 +229,18 @@ would be a silent dead end. Instead, `app.js` renders a
 hardcoded English curriculum (`EN_CURRICULUM` in `app.js`) that
 mirrors `doc/curriculum/en/`:
 
-- **Top level** — one card per stage (`Key Stage 1` … `Key Stage 4`,
+- **Top level** â€” one card per stage (`Key Stage 1` â€¦ `Key Stage 4`,
   `Entry Level Business`, `BTEC Business L2`), each linking to its
   subjects via `?en=1&curso=<stage>`.
-- **Subject level** — one *invite card* per subject (`English
+- **Subject level** â€” one *invite card* per subject (`English
   Literature`, `Science`, `History`, `Geography`, etc.). The card is
-  not a deck link: it shows the subject, the message "No deck yet —
+  not a deck link: it shows the subject, the message "No deck yet â€”
   be the first to contribute", and a button that opens
   [`internal-creating-decks-guide.md`](./internal-creating-decks-guide.md)
   on GitHub so the visitor lands on the exact workflow that turns a
   temario into a deck.
 
-The data lives in `app.js` (not the manifest) on purpose — adding
+The data lives in `app.js` (not the manifest) on purpose â€” adding
 to `manifest.json` would force a real `decks/<slug>.json` to exist
 (`check.js` rule 8 fails otherwise), and these subjects have no
 decks yet. `EN_CURRICULUM` is a workshop artefact, not a tracked
@@ -261,13 +261,13 @@ matching `decks/manifest.json` entry with `curso`/`asignatura`
 matching the EN_CURRICULUM stage and subject, and the EN home will
 automatically surface it (the EN render still branches on locale;
 when a manifest entry exists for a given subject the EN path can
-opt to swap the invite card for the real deck link — see
+opt to swap the invite card for the real deck link â€” see
 `renderEnSubjectLevel` in `app.js`).
 
 ## 5. Accessibility rules
 
 1. Easy Read: short sentences, one idea per sentence.
-2. Buttons ≥ 64×64 px, gap ≥ 16 px (`--button-min` in `tokens.css`).
+2. Buttons â‰¥ 64Ã—64 px, gap â‰¥ 16 px (`--button-min` in `tokens.css`).
 3. High contrast, light theme by default (WCAG AA minimum).
 4. Audio only on demand (`App.tts.speak`), never automatic.
 5. No timers, no negative scoring.
@@ -278,13 +278,13 @@ opt to swap the invite card for the real deck link — see
    any button; Enter/Space also activates the import dropzone).
 9. ARIA on icon buttons (`data-i18n-aria`) and feedback zones
    (`aria-live`/`role="status"`).
-10. At most 3 screens in the main flow (home → deck → card); decks
-    grouped by `curso`/`asignatura` add one optional level (courses →
-    subjects → deck → card) — see §4.1.
+10. At most 3 screens in the main flow (home â†’ deck â†’ card); decks
+    grouped by `curso`/`asignatura` add one optional level (courses â†’
+    subjects â†’ deck â†’ card) â€” see §4.1.
 11. Progress only ever adds up: see `App.storage.completeDeck` contract.
 12. Focus always visible (`:focus-visible` in `base.css`, never removed).
 13. No generative AI, no third-party libraries, and no unsolicited
-    network calls in the public product — see `SPEC.md` §2.1.
+    network calls in the public product â€” see `SPEC.md` §2.1.
 
 ## 6. Internationalization
 
@@ -295,35 +295,64 @@ must keep parity. `App.i18n.register()` from each `strings.<locale>.js`.
 
 Cloudflare Workers (static assets). See [`CLOUDFLARE.md`](../../CLOUDFLARE.md).
 
+### 7.1 Service worker (`sw.js`)
+
+Memofun ships its own service worker at the project root (`sw.js`). The SW
+follows the **cache-first** strategy with a single flat `FILES` list (no
+per-tool `ARCHIVOS` — memofun is deck-driven, not multi-activity): the generic
+`fetch` handler serves from cache when the file is listed, and only goes to
+the network when it is not.
+
+**`VERSION` bump rule** (`sw.js` declares `var VERSION = "memofun-vN";`):
+bump `VERSION` on every commit that touches any file in `FILES` or adds a
+new file that should be cached. The SW `install` handler compares `VERSION`
+against the active cache name and only re-fetches + activates when they
+differ; a bump that doesn't land is silent and end users keep seeing the old
+files until the SW unregisters.
+
+**Decks are an exception.** Deck content (`decks/*.json` and
+`assets/img/decks/*`) is NOT listed in the SW `FILES` — it is always served
+from the network (standard HTTP cache). This is deliberate: decks can change
+without bumping `VERSION`, and the Cloudflare cache for those paths is already
+configured in `_headers`.
+
+**Local verification before pushing.** Run `node scripts/check-version-bump.js`
+after editing `sw.js` or any file listed in `FILES` — the same check that runs
+as the `cache-bump` job in CI. The rule is the same: bump on every commit that
+touches a file in `FILES` (or adds one).
+
+See [`CLOUDFLARE.md`](../../CLOUDFLARE.md) §"Cache contract" for the full
+deploy contract. This section of `tecnico.md` is the canonical reference for
+the memofun SW contract.
 ## 8. How a deck's content gets generated
 
 **No script calls any AI API.** Content is written directly by the AI
 coding agent (Claude Code or similar) working in this repository, as
-part of its support/build role — see the full ruleset in "Generating
+part of its support/build role â€” see the full ruleset in "Generating
 deck content" in `CLAUDE.md`. This replaced an earlier version that
 did call the Gemini REST API from `scripts/generate.js`: that was
 removed entirely, not just from the public site but from the whole
-codebase — zero API keys, zero network calls to AI services, anywhere
+codebase â€” zero API keys, zero network calls to AI services, anywhere
 in the project.
 
 The **content ingestion point** is still a Markdown file with
 frontmatter (`tema`, `nivel`, `cantidad`, `salida`, optional `idioma`)
-plus the document body — the same format as before, just read by the
+plus the document body â€” the same format as before, just read by the
 agent directly instead of by a script:
 
 - **`tema` alone**: the agent freely picks the subtopics most relevant
   to that topic at the given level.
-- **`tema` + a `# Índice`**: an `# Índice` (or `## Índice`, any heading
+- **`tema` + a `# Ãndice`**: an `# Ãndice` (or `## Ãndice`, any heading
   level) section in the Markdown body, with a bullet list
   (`- subtopic`). The agent spreads `cantidad` cards across every
-  listed point — none skipped, none invented. Useful when the support
+  listed point â€” none skipped, none invented. Useful when the support
   person already has a syllabus or outline and wants the deck to
   follow it closely. See the example in `config.md`, or the
   ready-made library in `doc/curriculum/`.
 
 `scripts/config-parser.js` keeps the **parsing** of this format
 (`parseMarkdown()`, `parseIndice()`, `slugify()`) as pure functions,
-no network, no keys — used by `scripts/check.js` to validate that
+no network, no keys â€” used by `scripts/check.js` to validate that
 every file under `doc/curriculum/` has correct frontmatter and, if it
 declares an outline, that it isn't empty. It doesn't generate content;
 it only understands its shape.
@@ -332,18 +361,18 @@ it only understands its shape.
 
 1. Ask the agent to generate a deck, pointing at a `doc/curriculum/`
    file or a new `config.md`.
-2. The agent writes the cards following `CLAUDE.md` → "Generating deck
+2. The agent writes the cards following `CLAUDE.md` â†’ "Generating deck
    content" (meaningful learning, Easy Read, fun tone, curious facts,
    outline coverage if there is one).
 3. The agent writes `decks/<salida>.json` directly (§3's format).
 4. The agent adds the matching entry to `decks/manifest.json`, with
    `curso`/`asignatura` if the deck came from a `doc/curriculum/`
    file (see §4).
-5. If the deck extends an existing series (`literatura` → `_2` →
-   `_3`…), the agent reads `decks/concepts/<base-slug>.md` instead of
+5. If the deck extends an existing series (`literatura` â†’ `_2` â†’
+   `_3`â€¦), the agent reads `decks/concepts/<base-slug>.md` instead of
    every other deck of the suite's full JSON to see what's already
    covered and how, then updates that log with what the new deck
-   added — see `CLAUDE.md` → "Generating deck content" step 7. This
+   added â€” see `CLAUDE.md` â†’ "Generating deck content" step 7. This
    log is never read by the site itself; it's a workshop file for the
    agent, so editing it never needs a `sw.js` `VERSION` bump.
 6. The content gets reviewed (by whoever asked for it, or by the agent
@@ -366,9 +395,9 @@ structural checks meant to run before every change.
   (`CLAUDE.md` rule). Skips the check if there's no git repository or
   no previous commit to diff against.
 
-## 10. Suite pattern — how every app of Miralante is built
+## 10. Suite pattern â€” how every app of Miralante is built
 
-> 🌐 **Other language:** [Spanish](../es/tecnico.md#8-patrón-de-la-suite-cómo-se-construye-cada-app-de-miralante)
+> ðŸŒ **Other language:** [Spanish](../es/tecnico.md#8-patrÃ³n-de-la-suite-cÃ³mo-se-construye-cada-app-de-miralante)
 
 This section is the **canonical, cross-project guide** for how
 every app of the [Miralante suite](https://apptonomia.uk) is
@@ -396,7 +425,7 @@ offline-first PWA** built from the same minimal skeleton:
 
 1. A small set of **standalone HTML pages** at the repo root
    (one activity) or under `tools/<slug>/` (multi-activity hubs).
-2. Every page is a **real, navigable URL** — there is **no SPA
+2. Every page is a **real, navigable URL** â€” there is **no SPA
    routing**, no in-page view switching, no `pushState`. Each
    page reloads on entry; navigation between pages is a normal
    `<a>` click.
@@ -477,12 +506,12 @@ the **template**; deviations are called out where they apply.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memofun — Sobre este proyecto</title>
+  <title>Memofun â€” Sobre este proyecto</title>
   <!-- Hidden route: not linked from the main menu and should not be
        indexed. Aimed at anyone who wants to know what Teclatlon is:
        families, professionals, journalists, funders, contributors. -->
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="…">
+  <meta name="description" content="â€¦">
   <meta name="theme-color" content="#FAF7F2">
   <link rel="stylesheet" href="../assets/css/tokens.css">
   <link rel="stylesheet" href="../assets/css/base.css">
@@ -494,31 +523,31 @@ the **template**; deviations are called out where they apply.
     <header class="cabecera-{legal|about}">
       <div class="idioma-selector" role="group" aria-label="Elegir idioma">
         <button type="button" class="btn-idioma" id="btnIdiomaEs"
-                data-locale="es" aria-pressed="false">🇪🇸 Español</button>
+                data-locale="es" aria-pressed="false">ðŸ‡ªðŸ‡¸ EspaÃ±ol</button>
         <button type="button" class="btn-idioma" id="btnIdiomaEn"
-                data-locale="en" aria-pressed="false">🇬🇧 English</button>
+                data-locale="en" aria-pressed="false">ðŸ‡¬ðŸ‡§ English</button>
       </div>
       <img src="../assets/img/icono.svg" alt="" width="80" height="80"
            class="logo-{legal|about}">
-      <h1>…</h1>
-      <p class="lema" data-i18n="tagline">…</p>
-      <p class="entradilla" data-i18n="lead">…</p>
-      <nav class="indice">…optional, only on long pages…</nav>
+      <h1>â€¦</h1>
+      <p class="lema" data-i18n="tagline">â€¦</p>
+      <p class="entradilla" data-i18n="lead">â€¦</p>
+      <nav class="indice">â€¦optional, only on long pagesâ€¦</nav>
     </header>
 
     <main class="pila">
-      <section class="card">…</section>
+      <section class="card">â€¦</section>
     </main>
 
     <footer class="pie-{legal|about}">
       <a class="btn btn-secundario" href="../"
-         data-i18n="footerActivities">Ir a la aplicación</a>
+         data-i18n="footerActivities">Ir a la aplicaciÃ³n</a>
       <a class="btn btn-secundario" href="../legal/"
-         data-i18n="footerDataProtection">Protección de datos</a>
+         data-i18n="footerDataProtection">ProtecciÃ³n de datos</a>
       <a class="btn btn-secundario" href="../about/"
          data-i18n="footerAbout">Sobre este proyecto</a>
       <a class="btn btn-secundario" href="../team/"
-         data-i18n="footerTeamGuide">Quiénes la hacen</a>
+         data-i18n="footerTeamGuide">QuiÃ©nes la hacen</a>
       <a class="btn btn-secundario" href="../config/"
          data-i18n="footerSettings">Ajustes</a>
     </footer>
@@ -563,7 +592,7 @@ the **template**; deviations are called out where they apply.
   fill `document.title` during `init()`. The hardcoded `<title>`
   is the fallback the browser tab would show before i18n.js
   executes (and the SW cache fallback).
-- The page's own class on the `<div class="container …">` wrapper
+- The page's own class on the `<div class="container â€¦">` wrapper
   is what the page-specific `styles.css` scopes its rules under
   (`legal-page`, `about-page`, `team-page`). No more `.sp-*`
   ancestor prefixes (those were a SPA-merge leftover, retired in
@@ -572,7 +601,7 @@ the **template**; deviations are called out where they apply.
   order) on `about/`, `team/` and `legal/`. `config/` gets a
   stripped footer that only returns to the SPA. The app root
   (`index.html`) does **not** render this footer (it has its own
-  footer with the reset button and the data-protection link —
+  footer with the reset button and the data-protection link â€”
   see §2 above).
 
 #### 10.1.3 The strings pair
@@ -584,21 +613,21 @@ pattern; `scripts/check.js` extracts the dictionary via
 key parity between locales.
 
 ```javascript
-/* legal/strings.es.js — page text (ES). */
+/* legal/strings.es.js â€” page text (ES). */
 (function () {
   'use strict';
   App.i18n.register({
-    pageTitle: 'Protección de datos',
-    pageDescription: 'Teclatlon: qué datos guarda, dónde y por qué. …',
-    routeNotice: 'Esta página no se enlaza desde la aplicación. …',
-    tagline: 'Sin registro. Sin cookies. Sin analítica.',
-    lead: 'Teclatlon no pide tus datos personales. …',
-    navResponsible: 'Quién trata tus datos',
-    navData: 'Qué guardamos',
-    /* …more keys… */
-    footerActivities: 'Ir a la aplicación',
+    pageTitle: 'ProtecciÃ³n de datos',
+    pageDescription: 'Teclatlon: quÃ© datos guarda, dÃ³nde y por quÃ©. â€¦',
+    routeNotice: 'Esta pÃ¡gina no se enlaza desde la aplicaciÃ³n. â€¦',
+    tagline: 'Sin registro. Sin cookies. Sin analÃ­tica.',
+    lead: 'Teclatlon no pide tus datos personales. â€¦',
+    navResponsible: 'QuiÃ©n trata tus datos',
+    navData: 'QuÃ© guardamos',
+    /* â€¦more keysâ€¦ */
+    footerActivities: 'Ir a la aplicaciÃ³n',
     footerAbout: 'Sobre este proyecto',
-    footerTeamGuide: 'Quiénes la hacen',
+    footerTeamGuide: 'QuiÃ©nes la hacen',
     footerSettings: 'Ajustes'
   }, 'es');
 })();
@@ -620,16 +649,16 @@ is what the CSS scopes under:
 
 ```css
 .legal-page { max-width: 880px; }
-.legal-page .cabecera-legal { … }
-.legal-page .indice a { … }
-.legal-page section { … }
+.legal-page .cabecera-legal { â€¦ }
+.legal-page .indice a { â€¦ }
+.legal-page section { â€¦ }
 ```
 
 Do **not** introduce per-page classnames that collide with the
 shared components (`base.css` already defines `.cabecera`,
-`.lema`, `.indice`, `.btn`, `.card`, `.pila`, …). When the
+`.lema`, `.indice`, `.btn`, `.card`, `.pila`, â€¦). When the
 standalone page needs a different look, scope the rule under
-the page class — never under a generic `.cabecera` or `.indice`.
+the page class â€” never under a generic `.cabecera` or `.indice`.
 
 ### 10.2 The shared core
 
@@ -647,8 +676,8 @@ in §2.1 above are the canonical rationale).
 | `storage.js` | `App.storage.{get, set, remove}` | only pages that read or write `localStorage` (`index.html`, `config/`) |
 | `feedback.js` | `App.feedback.{success, encourage, celebrate}` | only the activity's `app.js` |
 
-The load order is `utils.js → i18n.js → tts.js → storage.js →
-feedback.js → strings.<locale>.js → data.js → app.js`. `i18n.js`
+The load order is `utils.js â†’ i18n.js â†’ tts.js â†’ storage.js â†’
+feedback.js â†’ strings.<locale>.js â†’ data.js â†’ app.js`. `i18n.js`
 must load **before** `tts.js` and `feedback.js`, which read the
 active language.
 
@@ -681,11 +710,11 @@ var FILES = [
   './legal/styles.css',
   './legal/strings.es.js',
   './legal/strings.en.js',
-  /* …about/, team/, config/ likewise… */
+  /* â€¦about/, team/, config/ likewiseâ€¦ */
   './assets/css/tokens.css',
   './assets/css/base.css',
   './assets/css/components.css',
-  './assets/fonts/…woff2',
+  './assets/fonts/â€¦woff2',
   './assets/js/utils.js',
   './assets/js/i18n.js',
   './assets/js/tts.js',
@@ -697,12 +726,12 @@ var FILES = [
 
 Two rules govern changes to `FILES`:
 
-1. **New file → add it to `FILES`.** The `install` handler
+1. **New file â†’ add it to `FILES`.** The `install` handler
    puts each file individually (never `cache.addAll`, which
    aborts on the first failure and bricks the cache for
    everyone).
-2. **Any change to a cached file → bump `VERSION`**
-   (`'teclatlon-vN'` → `'teclatlon-vN+1'`). Without the bump,
+2. **Any change to a cached file â†’ bump `VERSION`**
+   (`'teclatlon-vN'` â†’ `'teclatlon-vN+1'`). Without the bump,
    an offline user is stuck on the old version forever,
    because the `activate` handler only purges caches with a
    different name.
@@ -727,7 +756,7 @@ incomplete until **every** file in this list is updated:
 2. `assets/js/i18n.js#BCP47` mapping (for `speechSynthesis`
    voice selection).
 3. The pre-paint detector in `index.html` (the inline
-   `<script>` that picks the locale before first paint — see
+   `<script>` that picks the locale before first paint â€” see
    §2.5 above).
 4. `strings.<locale>.js` and every per-folder
    `strings.<locale>.js` pair (`legal/`, `about/`, `team/`,
@@ -802,7 +831,7 @@ Then open the affected pages in a browser at
 smoke:
 
 - `index.html` boots into the name screen or the menu depending
-  on saved state; `localStorage` roundtrip works; the "🗑️
+  on saved state; `localStorage` roundtrip works; the "ðŸ—‘ï¸
   Borrar mi progreso" button resets both the data and the UI.
 - `/legal/` loads with the localized h1, tagline and footer;
   the language switcher toggles `lang`, `document.title` and
@@ -821,8 +850,8 @@ pattern and must be revised before landing.
 ### 10.7 Cross-repo differences (what this section does **not** cover)
 
 Every app is a single-activity variant of the pattern above.
-The per-app differences — what is shared with the suite, what
-is trimmed, and what is intentionally different — are
+The per-app differences â€” what is shared with the suite, what
+is trimmed, and what is intentionally different â€” are
 documented in each repo's `technical.md` § "Other apps of the
 suite: real differences" (the project-specific delta). Use
 that section to decide whether a deviation in one repo is
@@ -834,13 +863,13 @@ in one repo, mirror it across the others in the same PR.
 
 ### 10.8 See also
 
-- §2 above — Teclatlon-specific recipes and contracts that
+- §2 above â€” Teclatlon-specific recipes and contracts that
   build on this pattern.
-- [`I18N.md`](I18N.md) — how to add a new language while keeping
+- [`I18N.md`](I18N.md) â€” how to add a new language while keeping
   the i18n invariants intact.
-- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) — deploy and SW/header
+- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) â€” deploy and SW/header
   contracts at the Cloudflare Workers level.
-- [`SPEC.md`](SPEC.md) §"Mandatory rule" — the accessibility and
+- [`SPEC.md`](SPEC.md) §"Mandatory rule" â€” the accessibility and
   no-clinical-mention invariants every page must respect.
 
 ---

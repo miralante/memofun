@@ -1,0 +1,31 @@
+{
+  "tema": "Fábulas y primer teatro - 2º de Primaria",
+  "nivel": "principiante",
+  "idioma": "es",
+  "tarjetas": [
+    {
+      "pregunta": "Los animales hablan y actúan como personas, <mark>como la tortuga que gana la carrera por no rendirse nunca</mark>. Al final siempre queda una enseñanza para la vida. ¿Cómo se llama ese mensaje final del cuento?",
+      "respuesta": "<mark>Moraleja</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_lengua-castellana_6/fabula-moraleja.jpg",
+        "alt": "Ilustración clásica de la fábula de la liebre y la tortuga",
+        "titulo": "The Hare and the Tortoise, circa 1918 - Raphael Tuck and Sons (Francisco Sancha, artist)",
+        "autor": "Shook Photos",
+        "fuente": "https://www.flickr.com/photos/24724221@N07/4231525827",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "pregunta": "Cada niño dice las palabras de su personaje, <mark>como cuando dos amigos se turnan para hablar sin pisarse</mark>. Nadie cuenta la historia: la representan hablando. ¿Cómo se llama leer así, por turnos, las palabras de cada uno?",
+      "respuesta": "<mark>Diálogo teatral</mark>",
+      "imagen": {
+        "archivo": "assets/img/decks/primaria_2_lengua-castellana_6/teatro-dialogo.jpg",
+        "alt": "Personas representando una obra de teatro con títeres",
+        "titulo": "Bobbindoctrin Puppet Theater",
+        "autor": "eschipul",
+        "fuente": "https://www.flickr.com/photos/16638697@N00/5047874345",
+        "licencia": "CC BY-SA 2.0"
+      }
+    }
+  ]
+}

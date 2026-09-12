@@ -23,7 +23,7 @@ Cada tarjeta presenta la analogía cotidiana, el ejemplo concreto o el
 pide a quien estudia que recuerde el concepto en sí (el **reverso**).
 El formato de tarjeta se define en [`tecnico.md`](tecnico.md) §6 y
 la escalera de pistas del método socrático, en
-[`guia-crear-actividades.md`](guia-crear-actividades.md) §3.
+[`guia-crear-elementos.md`](guia-crear-elementos.md) §3.
 
 Una baraja **no** necesita llegar acompañada de una actividad:
 Memofun tiene una sola actividad de renderizado (`tools/study/`)
