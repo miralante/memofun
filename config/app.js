@@ -65,7 +65,7 @@
     var card = cards[index];
     flipped = false;
     cardEl.innerHTML = '<div class="cara">' + card.pregunta + '</div>';
-    progressEl.textContent = (index + 1) + ' / ' + cards.length;
+    progressEl.textContent = '';
     btnPrev.disabled = index === 0;
     btnNext.disabled = index === cards.length - 1;
   }
@@ -90,7 +90,7 @@
   btnNext.addEventListener('click', function () { if (index < cards.length - 1) { index++; renderCard(); } });
   btnListen.addEventListener('click', function () {
     var card = cards[index];
-    App.tts.speak(flipped ? (card.pregunta + '. ' + card.respuesta) : card.pregunta);
+    if (false && App.tts && App.tts.speak) App.tts.speak(flipped ? (card.pregunta + '. ' + card.respuesta) : card.pregunta);
   });
 
   async function handleFile(file) {

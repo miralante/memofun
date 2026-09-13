@@ -54,6 +54,13 @@
     tone(392, 0.2, 'sine');
   }
 
+  /** Celebratory arpeggio for earning a star */
+  function soundStar() {
+    tone(523.25, 0.12);
+    setTimeout(function () { tone(659.25, 0.12); }, 100);
+    setTimeout(function () { tone(783.99, 0.25); }, 200);
+  }
+
   function success(zone) {
     var msg = random('feedback.success');
     if (zone) {
@@ -105,6 +112,7 @@
   window.App.feedback = {
     success: success,
     encourage: encourage,
-    celebrate: celebrate
+    celebrate: celebrate,
+    star: soundStar
   };
 })();

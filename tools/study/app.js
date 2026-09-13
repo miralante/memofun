@@ -102,7 +102,7 @@
 
   function updateProgress() {
     progressEl.textContent = progressText();
-    progressLabelEl.textContent = (index + 1) + '/' + cards.length;
+    progressLabelEl.textContent = '';
     progressFillEl.style.width = Math.round(((index + 1) / cards.length) * 100) + '%';
   }
 
@@ -221,6 +221,7 @@
 
   function showEndScreen() {
     App.storage.completeDeck(deckId);
+    if (App.feedback && App.feedback.star) App.feedback.star();
     renderStars();
     showStarToast();
     areaEl.classList.add('hidden');
