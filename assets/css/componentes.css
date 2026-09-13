@@ -1053,3 +1053,4 @@ header.suite-header .tagline { margin: 0; max-width: none; font-size: 18px; line
 .suite-header .stars .stars-icon { font-size: 22px; }
 .suite-header .stars .stars-count { font-size: 18px; line-height: 1.25; }
 .suite-header + main #deck-grid > .section-heading:first-child { margin-top: 8px; }
+.progress-text { display: none; }
