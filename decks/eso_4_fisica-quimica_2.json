@@ -1,173 +1,173 @@
 {
-  "tema": "Los modelos atómicos y la estructura electrónica - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Los modelos atómicos y la estructura electrónica - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como peldaños de una escalera: el electrón solo está en ciertos niveles</mark>, no entre medias. Explicó por qué los átomos emiten luz de colores concretos. ¿Cómo se llama este modelo atómico?",
-      "respuesta": "<mark>Modelo de Bohr</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/bohr-modelo-atomico.png",
+      "question": "<mark>Es como peldaños de una escalera: el electrón solo está en ciertos niveles</mark>, no entre medias. Explicó por qué los átomos emiten luz de colores concretos. ¿Cómo se llama este modelo atómico?",
+      "answer": "<mark>Modelo de Bohr</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/bohr-modelo-atomico.png",
+        "title": "Bohr atom model English",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=180152",
         "alt": "Diagrama del modelo atómico de Bohr, con electrones en órbitas",
-        "titulo": "Bohr atom model English",
         "autor": "Enoch Lau",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=180152",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Son las piezas con las que se construye cualquier átomo del universo. <mark>Son protones, neutrones y electrones</mark>. ¿Cómo se llaman estas partículas más básicas del átomo?",
-      "respuesta": "<mark>Partículas elementales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/particulas-atomo.jpg",
+      "question": "Son las piezas con las que se construye cualquier átomo del universo. <mark>Son protones, neutrones y electrones</mark>. ¿Cómo se llaman estas partículas más básicas del átomo?",
+      "answer": "<mark>Partículas elementales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/particulas-atomo.jpg",
+        "title": "Atom",
+        "source": "https://www.flickr.com/photos/12836528@N00/11360039856",
         "alt": "Representación artística de un átomo con su núcleo y electrones",
-        "titulo": "Atom",
         "autor": "kevin dooley",
-        "fuente": "https://www.flickr.com/photos/12836528@N00/11360039856",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Uno tiene carga positiva y otro, carga negativa</mark>. El tercero no tiene ninguna carga, aunque pesa casi igual que el primero. ¿Cómo se llama esta tercera partícula, sin carga eléctrica?",
-      "respuesta": "<mark>Neutrón</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/modelo-rutherford.jpg",
+      "question": "<mark>Uno tiene carga positiva y otro, carga negativa</mark>. El tercero no tiene ninguna carga, aunque pesa casi igual que el primero. ¿Cómo se llama esta tercera partícula, sin carga eléctrica?",
+      "answer": "<mark>Neutrón</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/modelo-rutherford.jpg",
+        "title": "Rutherford atomic planetary model",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=21332267",
         "alt": "Diagrama del modelo atómico planetario de Rutherford",
-        "titulo": "Rutherford atomic planetary model",
         "autor": "Bensteele1995",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=21332267",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "<mark>Es como afinar un mapa, añadiendo más detalles al dibujo original</mark>. Añadió órbitas elípticas, no solo circulares, a las de Bohr. ¿Cómo se llama esta mejora del modelo de Bohr?",
-      "respuesta": "<mark>Modelo de Bohr-Sommerfeld</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/fisica-clase-instituto.jpg",
+      "question": "<mark>Es como afinar un mapa, añadiendo más detalles al dibujo original</mark>. Añadió órbitas elípticas, no solo circulares, a las de Bohr. ¿Cómo se llama esta mejora del modelo de Bohr?",
+      "answer": "<mark>Modelo de Bohr-Sommerfeld</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/fisica-clase-instituto.jpg",
+        "title": "Salisbury State High School, Physics - Brisbane",
+        "source": "https://www.flickr.com/photos/60455048@N02/40344733782",
         "alt": "Alumnos en una clase de física en un instituto",
-        "titulo": "Salisbury State High School, Physics - Brisbane",
         "autor": "Queensland State Archives",
-        "fuente": "https://www.flickr.com/photos/60455048@N02/40344733782",
         "licencia": "Dominio público (PDM 1.0)"
       }
     },
     {
-      "pregunta": "No se puede saber con exactitud dónde está un electrón en cada momento. <mark>Es más bien una nube difusa de probabilidad, no un camino fijo</mark>. ¿Cómo se llaman estas zonas de probabilidad?",
-      "respuesta": "<mark>Orbitales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/estudiantes-fisica-clase.jpg",
+      "question": "No se puede saber con exactitud dónde está un electrón en cada momento. <mark>Es más bien una nube difusa de probabilidad, no un camino fijo</mark>. ¿Cómo se llaman estas zonas de probabilidad?",
+      "answer": "<mark>Orbitales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/estudiantes-fisica-clase.jpg",
+        "title": "COD Physics Students Enthusiastically Gear Up for End of Year",
+        "source": "https://www.flickr.com/photos/41431665@N07/16694899903",
         "alt": "Estudiantes trabajando juntos en una clase de física",
-        "titulo": "COD Physics Students Enthusiastically Gear Up for End of Year",
         "autor": "COD Newsroom",
-        "fuente": "https://www.flickr.com/photos/41431665@N07/16694899903",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como saber en qué piso vive cada partícula, dentro de un edificio con niveles</mark>. Esa distribución determina cómo reacciona un átomo con otros. ¿Cómo se llama la forma en que se distribuyen los electrones alrededor del núcleo?",
-      "respuesta": "<mark>Estructura electrónica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/modelo-atomico-cuasicristal.jpg",
+      "question": "<mark>Es como saber en qué piso vive cada partícula, dentro de un edificio con niveles</mark>. Esa distribución determina cómo reacciona un átomo con otros. ¿Cómo se llama la forma en que se distribuyen los electrones alrededor del núcleo?",
+      "answer": "<mark>Estructura electrónica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/modelo-atomico-cuasicristal.jpg",
+        "title": "Atomic model of Ag-Al quasicrystal",
+        "source": "https://www.flickr.com/photos/41639353@N08/6214624380",
         "alt": "Modelo físico de la estructura atómica de un cuasicristal",
-        "titulo": "Atomic model of Ag-Al quasicrystal",
         "autor": "CORE-Materials",
-        "fuente": "https://www.flickr.com/photos/41639353@N08/6214624380",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como anotar en qué piso y qué habitación vive cada partícula, de forma ordenada</mark>. Se organiza en niveles y subniveles de energía. ¿Cómo se llama esta forma escrita de mostrar cómo se reparten los electrones?",
-      "respuesta": "<mark>Configuración electrónica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/aula-quimica-rotonda.jpg",
+      "question": "<mark>Es como anotar en qué piso y qué habitación vive cada partícula, de forma ordenada</mark>. Se organiza en niveles y subniveles de energía. ¿Cómo se llama esta forma escrita de mostrar cómo se reparten los electrones?",
+      "answer": "<mark>Configuración electrónica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/aula-quimica-rotonda.jpg",
+        "title": "Rotunda, Chemistry classroom",
+        "source": "https://www.flickr.com/photos/11654405@N00/14370412981",
         "alt": "Un aula de química con pupitres y material de estudio",
-        "titulo": "Rotunda, Chemistry classroom",
         "autor": "Tim Jarrett",
-        "fuente": "https://www.flickr.com/photos/11654405@N00/14370412981",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como agrupar personas según a qué piso de un edificio pertenecen</mark>. Los elementos se ordenan según sus electrones, y los de una misma columna comparten propiedades. ¿Cómo se llama este cuadro donde se ordenan?",
-      "respuesta": "<mark>Tabla periódica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/tabla-periodica-mendeleyev.jpg",
+      "question": "<mark>Es como agrupar personas según a qué piso de un edificio pertenecen</mark>. Los elementos se ordenan según sus electrones, y los de una misma columna comparten propiedades. ¿Cómo se llama este cuadro donde se ordenan?",
+      "answer": "<mark>Tabla periódica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/tabla-periodica-mendeleyev.jpg",
+        "title": "Mendeleev's 1869 Periodic Table",
+        "source": "https://www.flickr.com/photos/96739039@N00/2453921330",
         "alt": "La tabla periódica de los elementos de Mendeléyev",
-        "titulo": "Mendeleev's 1869 Periodic Table",
         "autor": "shehal",
-        "fuente": "https://www.flickr.com/photos/96739039@N00/2453921330",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Son como la mano que un átomo extiende para relacionarse con otros átomos</mark>. Son los electrones de la capa más externa, responsables de los enlaces químicos. ¿Cómo se llaman estos electrones?",
-      "respuesta": "<mark>Electrones de valencia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/orbitales-metano.jpg",
+      "question": "<mark>Son como la mano que un átomo extiende para relacionarse con otros átomos</mark>. Son los electrones de la capa más externa, responsables de los enlaces químicos. ¿Cómo se llaman estos electrones?",
+      "answer": "<mark>Electrones de valencia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/orbitales-metano.jpg",
+        "title": "Methane Molecular orbitals",
+        "source": "https://www.flickr.com/photos/69057297@N04/48037046301",
         "alt": "Representación de los orbitales moleculares del metano",
-        "titulo": "Methane Molecular orbitals",
         "autor": "ChiralJon",
-        "fuente": "https://www.flickr.com/photos/69057297@N04/48037046301",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como sentirse ya completo, sin necesitar nada más de fuera</mark>. Tienen su capa externa llena, sin necesidad de combinarse. Se usan en bombillas o en atmósferas protectoras. ¿Cómo se llama este grupo de elementos, tan poco reactivos?",
-      "respuesta": "<mark>Gases nobles</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/letrero-neon.jpg",
+      "question": "<mark>Es como sentirse ya completo, sin necesitar nada más de fuera</mark>. Tienen su capa externa llena, sin necesidad de combinarse. Se usan en bombillas o en atmósferas protectoras. ¿Cómo se llama este grupo de elementos, tan poco reactivos?",
+      "answer": "<mark>Gases nobles</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/letrero-neon.jpg",
+        "title": "Tío Pepe is Back",
+        "source": "https://www.flickr.com/photos/48600106280@N01/13897447127",
         "alt": "Un letrero de neón iluminado, un uso de los gases nobles",
-        "titulo": "Tío Pepe is Back",
         "autor": "Alvy",
-        "fuente": "https://www.flickr.com/photos/48600106280@N01/13897447127",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como ir afinando un dibujo, corrigiendo cada vez que se aprende algo nuevo</mark>. Ha pasado de una esfera maciza a algo mucho más complejo. Esa evolución muestra cómo avanza la ciencia. ¿Cómo se llama esta representación del átomo, que ha cambiado con el tiempo?",
-      "respuesta": "<mark>Modelo atómico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/atomium-bruselas.jpg",
+      "question": "<mark>Es como ir afinando un dibujo, corrigiendo cada vez que se aprende algo nuevo</mark>. Ha pasado de una esfera maciza a algo mucho más complejo. Esa evolución muestra cómo avanza la ciencia. ¿Cómo se llama esta representación del átomo, que ha cambiado con el tiempo?",
+      "answer": "<mark>Modelo atómico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/atomium-bruselas.jpg",
+        "title": "The Atomium, Heysel, Belgium",
+        "source": "https://www.flickr.com/photos/27406286@N05/4042147060",
         "alt": "El Atomium de Bruselas, una escultura con forma de átomo de hierro",
-        "titulo": "The Atomium, Heysel, Belgium",
         "autor": "Mike Cattell",
-        "fuente": "https://www.flickr.com/photos/27406286@N05/4042147060",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como entender el carácter de alguien antes de saber cómo se relacionará con otros</mark>. Explica por qué unos elementos reaccionan fácilmente y otros casi no. Determina qué enlaces puede formar un átomo. ¿Cómo se llama esto, tan importante para entender la química?",
-      "respuesta": "<mark>Estructura electrónica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/clase-ciencias.jpg",
+      "question": "<mark>Es como entender el carácter de alguien antes de saber cómo se relacionará con otros</mark>. Explica por qué unos elementos reaccionan fácilmente y otros casi no. Determina qué enlaces puede formar un átomo. ¿Cómo se llama esto, tan importante para entender la química?",
+      "answer": "<mark>Estructura electrónica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/clase-ciencias.jpg",
+        "title": "Science Class",
+        "source": "https://www.flickr.com/photos/52727389@N00/6767422267",
         "alt": "Alumnado trabajando en una clase de ciencias",
-        "titulo": "Science Class",
         "autor": "Lokesh_Dhakar",
-        "fuente": "https://www.flickr.com/photos/52727389@N00/6767422267",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como los distintos pisos de un edificio</mark>, cada uno a una altura distinta. Los electrones pueden situarse a esas distintas distancias del núcleo. Saltar de un piso a otro absorbe o libera luz. ¿Cómo se llaman estos pisos energéticos?",
-      "respuesta": "<mark>Niveles de energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/profesor-fisica.jpg",
+      "question": "<mark>Es como los distintos pisos de un edificio</mark>, cada uno a una altura distinta. Los electrones pueden situarse a esas distintas distancias del núcleo. Saltar de un piso a otro absorbe o libera luz. ¿Cómo se llaman estos pisos energéticos?",
+      "answer": "<mark>Niveles de energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/profesor-fisica.jpg",
+        "title": "Physics Teacher",
+        "source": "https://www.flickr.com/photos/194356589@N04/51664070913",
         "alt": "Un profesor explicando física con ecuaciones en la pizarra",
-        "titulo": "Physics Teacher",
         "autor": "Preply.com Images",
-        "fuente": "https://www.flickr.com/photos/194356589@N04/51664070913",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como notar que un mapa antiguo ya no encaja con lo que se descubre al explorar más</mark>. Ciertos experimentos mostraban cosas que el modelo de Bohr no explicaba. Una nueva teoría dio una explicación más precisa. ¿Cómo se llama este nuevo modelo del átomo?",
-      "respuesta": "<mark>Modelo cuántico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_2/particula-onda-luz.jpg",
+      "question": "<mark>Es como notar que un mapa antiguo ya no encaja con lo que se descubre al explorar más</mark>. Ciertos experimentos mostraban cosas que el modelo de Bohr no explicaba. Una nueva teoría dio una explicación más precisa. ¿Cómo se llama este nuevo modelo del átomo?",
+      "answer": "<mark>Modelo cuántico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_2/particula-onda-luz.jpg",
+        "title": "particle or wave?",
+        "source": "https://www.flickr.com/photos/52473526@N00/2288988459",
         "alt": "Luz descompuesta en colores, como un espectro atómico",
-        "titulo": "particle or wave?",
         "autor": "hlkljgk",
-        "fuente": "https://www.flickr.com/photos/52473526@N00/2288988459",
         "licencia": "CC BY-SA 2.0"
       }
     }

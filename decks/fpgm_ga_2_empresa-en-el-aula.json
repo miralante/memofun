@@ -1,221 +1,221 @@
 {
-  "tema": "Empresa en el Aula - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Empresa en el Aula - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un proyecto donde el alumnado crea y gestiona un negocio ficticio, como si fuera real. <mark>Es como jugar a que eso es de verdad, aplicando lo aprendido en clase</mark>. No hay dinero real, pero sí procesos administrativos reales. ¿Cómo se llama este proyecto?",
-      "respuesta": "<mark>Empresa simulada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/aula-clase.jpg",
+      "question": "Es un proyecto donde el alumnado crea y gestiona un negocio ficticio, como si fuera real. <mark>Es como jugar a que eso es de verdad, aplicando lo aprendido en clase</mark>. No hay dinero real, pero sí procesos administrativos reales. ¿Cómo se llama este proyecto?",
+      "answer": "<mark>Empresa simulada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/aula-clase.jpg",
+        "title": "Teacher and students in classroom, circa 1990s",
+        "source": "https://www.flickr.com/photos/24256351@N04/4112145057",
         "alt": "Un grupo de estudiantes trabajando en el aula",
-        "titulo": "Teacher and students in classroom, circa 1990s",
         "autor": "Seattle Municipal Archives",
-        "fuente": "https://www.flickr.com/photos/24256351@N04/4112145057",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Para poner esto en marcha hay que decidir el nombre, la forma jurídica y quién hace cada tarea. <mark>Es como montar un negocio real desde cero, pero dentro del aula</mark>. Se reparten responsabilidades como en la vida real. ¿Cómo se llama este primer paso?",
-      "respuesta": "<mark>Constitución de la empresa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
+      "question": "Para poner esto en marcha hay que decidir el nombre, la forma jurídica y quién hace cada tarea. <mark>Es como montar un negocio real desde cero, pero dentro del aula</mark>. Se reparten responsabilidades como en la vida real. ¿Cómo se llama este primer paso?",
+      "answer": "<mark>Constitución de la empresa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
+        "title": "Coworkers in a business meeting",
+        "source": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "alt": "Companeros reunidos hablando de una decision de negocio",
-        "titulo": "Coworkers in a business meeting",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se decide qué producto o servicio va a 'vender' la empresa ficticia. <mark>Es como decidir a qué se va a dedicar un negocio antes de abrirlo</mark>. Esa elección condiciona el resto del proyecto. ¿Qué se elige en este paso?",
-      "respuesta": "<mark>La actividad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/pizarra-ideas.jpg",
+      "question": "Se decide qué producto o servicio va a 'vender' la empresa ficticia. <mark>Es como decidir a qué se va a dedicar un negocio antes de abrirlo</mark>. Esa elección condiciona el resto del proyecto. ¿Qué se elige en este paso?",
+      "answer": "<mark>La actividad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/pizarra-ideas.jpg",
+        "title": "Idea whiteboard",
+        "source": "https://www.flickr.com/photos/35456333@N00/2705246471",
         "alt": "Una pizarra llena de ideas apuntadas",
-        "titulo": "Idea whiteboard",
         "autor": "midnightcomm",
-        "fuente": "https://www.flickr.com/photos/35456333@N00/2705246471",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Una empresa simulada suele tener compras, ventas y recursos humanos, entre otros. <mark>Es como repartir el trabajo de una empresa real entre varios equipos</mark>. Cada uno se encarga de una parte concreta. ¿Cómo se llama cada uno de estos equipos?",
-      "respuesta": "<mark>Departamentos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
+      "question": "Una empresa simulada suele tener compras, ventas y recursos humanos, entre otros. <mark>Es como repartir el trabajo de una empresa real entre varios equipos</mark>. Cada uno se encarga de una parte concreta. ¿Cómo se llama cada uno de estos equipos?",
+      "answer": "<mark>Departamentos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
+        "title": "Diverse people working at an office",
+        "source": "https://www.flickr.com/photos/147875007@N03/45064629294",
         "alt": "Un grupo diverso de personas trabajando juntas en una oficina",
-        "titulo": "Diverse people working at an office",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/45064629294",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Consiste en crear y organizar los papeles que generaría una empresa real: facturas, pedidos o cartas. <mark>Es como aplicar en un caso práctico completo todo lo aprendido en clase</mark>. ¿Cómo se llama esta tarea?",
-      "respuesta": "<mark>Gestión documental</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/factura.jpg",
+      "question": "Consiste en crear y organizar los papeles que generaría una empresa real: facturas, pedidos o cartas. <mark>Es como aplicar en un caso práctico completo todo lo aprendido en clase</mark>. ¿Cómo se llama esta tarea?",
+      "answer": "<mark>Gestión documental</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/factura.jpg",
+        "title": "Please pay this amount",
+        "source": "https://www.flickr.com/photos/40838054@N00/8689212",
         "alt": "Una factura de papel con el importe a pagar",
-        "titulo": "Please pay this amount",
         "autor": "miguelb",
-        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al simular esta relación se practican pedidos, negociaciones y la recepción de mercancía, aunque sea ficticia. <mark>Es como ensayar una relación comercial real, sin el riesgo de un error real</mark>. ¿Con quién se simula esta relación?",
-      "respuesta": "<mark>Con los proveedores</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reparto-paquetes.jpg",
+      "question": "Al simular esta relación se practican pedidos, negociaciones y la recepción de mercancía, aunque sea ficticia. <mark>Es como ensayar una relación comercial real, sin el riesgo de un error real</mark>. ¿Con quién se simula esta relación?",
+      "answer": "<mark>Con los proveedores</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reparto-paquetes.jpg",
+        "title": "20161005-FNS-LSC-0114",
+        "source": "https://www.flickr.com/photos/41284017@N08/29959656563",
         "alt": "Reparto de paquetes y cajas desde un camion",
-        "titulo": "20161005-FNS-LSC-0114",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/29959656563",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Al simular esta relación se practica atender consultas, gestionar pedidos y resolver quejas. <mark>Es como ponerse en el lugar de quien atiende al público de verdad</mark>. Resulta muy útil para un futuro trabajo real. ¿Con quién se simula esta relación?",
-      "respuesta": "<mark>Con los clientes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/recepcion-atencion.jpg",
+      "question": "Al simular esta relación se practica atender consultas, gestionar pedidos y resolver quejas. <mark>Es como ponerse en el lugar de quien atiende al público de verdad</mark>. Resulta muy útil para un futuro trabajo real. ¿Con quién se simula esta relación?",
+      "answer": "<mark>Con los clientes</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/recepcion-atencion.jpg",
+        "title": "North Ormesby Community Hub - reception desk",
+        "source": "https://www.flickr.com/photos/135302410@N02/27974727953",
         "alt": "Un mostrador de recepcion donde se atiende a los clientes",
-        "titulo": "North Ormesby Community Hub - reception desk",
         "autor": "librariesteam",
-        "fuente": "https://www.flickr.com/photos/135302410@N02/27974727953",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Presentar productos o servicios sirve para comunicar de forma atractiva lo que ofrece la empresa. <mark>Es como preparar un pequeño discurso de ventas, aunque el producto no sea real</mark>. Ayuda a desarrollar habilidades de comunicación. ¿Para qué sirve esta presentación?",
-      "respuesta": "<mark>Para practicar la comunicación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/pizarra-ideas.jpg",
+      "question": "Presentar productos o servicios sirve para comunicar de forma atractiva lo que ofrece la empresa. <mark>Es como preparar un pequeño discurso de ventas, aunque el producto no sea real</mark>. Ayuda a desarrollar habilidades de comunicación. ¿Para qué sirve esta presentación?",
+      "answer": "<mark>Para practicar la comunicación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/pizarra-ideas.jpg",
+        "title": "Idea whiteboard",
+        "source": "https://www.flickr.com/photos/35456333@N00/2705246471",
         "alt": "Una pizarra llena de ideas apuntadas",
-        "titulo": "Idea whiteboard",
         "autor": "midnightcomm",
-        "fuente": "https://www.flickr.com/photos/35456333@N00/2705246471",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En este tipo de venta se completa todo el proceso: pedido, entrega y cobro, de forma ficticia. <mark>Es como recorrer el camino completo de una compra real, pero sin dinero de por medio</mark>. ¿Cómo se llama este tipo de venta?",
-      "respuesta": "<mark>Venta simulada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/caja-registradora.jpg",
+      "question": "En este tipo de venta se completa todo el proceso: pedido, entrega y cobro, de forma ficticia. <mark>Es como recorrer el camino completo de una compra real, pero sin dinero de por medio</mark>. ¿Cómo se llama este tipo de venta?",
+      "answer": "<mark>Venta simulada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/caja-registradora.jpg",
+        "title": "Old Fashioned Retail",
+        "source": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "alt": "Caja registradora antigua en una tienda",
-        "titulo": "Old Fashioned Retail",
         "autor": "QUOI Media",
-        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Comprobar si se cumplen los objetivos marcados al principio es importante. <mark>Es como revisar de vez en cuando si un viaje va según lo planeado</mark>. Permite corregir errores a tiempo. ¿Cómo se llama esta revisión continua?",
-      "respuesta": "<mark>Seguimiento del proyecto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
+      "question": "Comprobar si se cumplen los objetivos marcados al principio es importante. <mark>Es como revisar de vez en cuando si un viaje va según lo planeado</mark>. Permite corregir errores a tiempo. ¿Cómo se llama esta revisión continua?",
+      "answer": "<mark>Seguimiento del proyecto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
+        "title": "Coworkers in a business meeting",
+        "source": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "alt": "Companeros reunidos hablando de una decision de negocio",
-        "titulo": "Coworkers in a business meeting",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al final se valora qué se ha aprendido y cómo ha funcionado todo el proceso. <mark>Es como hacer balance al final de un proyecto, para aprender de la experiencia</mark>. Ayuda a identificar qué mejorar. ¿Cómo se llama esta fase final?",
-      "respuesta": "<mark>Evaluación y cierre</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
+      "question": "Al final se valora qué se ha aprendido y cómo ha funcionado todo el proceso. <mark>Es como hacer balance al final de un proyecto, para aprender de la experiencia</mark>. Ayuda a identificar qué mejorar. ¿Cómo se llama esta fase final?",
+      "answer": "<mark>Evaluación y cierre</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/reunion-socios.jpg",
+        "title": "Coworkers in a business meeting",
+        "source": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "alt": "Companeros reunidos hablando de una decision de negocio",
-        "titulo": "Coworkers in a business meeting",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "'Empresa en el aula' combina lo aprendido en comunicación, contabilidad, informática y compraventa. <mark>Es como el examen final que junta piezas sueltas de varias asignaturas</mark>. ¿Qué hace este proyecto con los demás módulos del ciclo?",
-      "respuesta": "<mark>Los integra</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
+      "question": "'Empresa en el aula' combina lo aprendido en comunicación, contabilidad, informática y compraventa. <mark>Es como el examen final que junta piezas sueltas de varias asignaturas</mark>. ¿Qué hace este proyecto con los demás módulos del ciclo?",
+      "answer": "<mark>Los integra</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
+        "title": "Diverse people working at an office",
+        "source": "https://www.flickr.com/photos/147875007@N03/45064629294",
         "alt": "Un grupo diverso de personas trabajando juntas en una oficina",
-        "titulo": "Diverse people working at an office",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/45064629294",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En estos proyectos se desarrolla el trabajo en equipo, la organización y la resolución de problemas reales. <mark>No se aprenden solo leyendo, sino haciendo</mark>. Preparan mejor para el mundo laboral. ¿Qué tipo de habilidades se desarrollan aquí?",
-      "respuesta": "<mark>Habilidades prácticas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
+      "question": "En estos proyectos se desarrolla el trabajo en equipo, la organización y la resolución de problemas reales. <mark>No se aprenden solo leyendo, sino haciendo</mark>. Preparan mejor para el mundo laboral. ¿Qué tipo de habilidades se desarrollan aquí?",
+      "answer": "<mark>Habilidades prácticas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/equipo-oficina.jpg",
+        "title": "Diverse people working at an office",
+        "source": "https://www.flickr.com/photos/147875007@N03/45064629294",
         "alt": "Un grupo diverso de personas trabajando juntas en una oficina",
-        "titulo": "Diverse people working at an office",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/45064629294",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En una empresa simulada, se aprende de los errores sin las consecuencias económicas de una empresa real. <mark>Es como practicar en una pista de pruebas antes de conducir en la carretera de verdad</mark>. ¿Qué ventaja tiene equivocarse en una empresa simulada?",
-      "respuesta": "<mark>Aprender sin riesgo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/aula-clase.jpg",
+      "question": "En una empresa simulada, se aprende de los errores sin las consecuencias económicas de una empresa real. <mark>Es como practicar en una pista de pruebas antes de conducir en la carretera de verdad</mark>. ¿Qué ventaja tiene equivocarse en una empresa simulada?",
+      "answer": "<mark>Aprender sin riesgo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/aula-clase.jpg",
+        "title": "Teacher and students in classroom, circa 1990s",
+        "source": "https://www.flickr.com/photos/24256351@N04/4112145057",
         "alt": "Un grupo de estudiantes trabajando en el aula",
-        "titulo": "Teacher and students in classroom, circa 1990s",
         "autor": "Seattle Municipal Archives",
-        "fuente": "https://www.flickr.com/photos/24256351@N04/4112145057",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Las decisiones de un departamento afectan a los demás, así que coordinarse importa mucho. <mark>Es como un engranaje: si una pieza no encaja, afecta a todo el mecanismo</mark>. ¿Qué papel tiene la coordinación entre departamentos?",
-      "respuesta": "<mark>Es fundamental</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/engranajes.jpg",
+      "question": "Las decisiones de un departamento afectan a los demás, así que coordinarse importa mucho. <mark>Es como un engranaje: si una pieza no encaja, afecta a todo el mecanismo</mark>. ¿Qué papel tiene la coordinación entre departamentos?",
+      "answer": "<mark>Es fundamental</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/engranajes.jpg",
+        "title": "Gears",
+        "source": "https://www.flickr.com/photos/93001633@N00/4882162452",
         "alt": "Varios engranajes metalicos encajados entre si",
-        "titulo": "Gears",
         "autor": "BinaryApe",
-        "fuente": "https://www.flickr.com/photos/93001633@N00/4882162452",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En ella, distintos centros educativos conectan sus proyectos simulados entre sí. <mark>Es como comerciar de verdad con negocios ficticios de otros institutos</mark>. Hace la experiencia más parecida a la realidad. ¿Cómo se llama esta conexión entre centros?",
-      "respuesta": "<mark>Red de empresas simuladas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/campus-red.jpg",
+      "question": "En ella, distintos centros educativos conectan sus proyectos simulados entre sí. <mark>Es como comerciar de verdad con negocios ficticios de otros institutos</mark>. Hace la experiencia más parecida a la realidad. ¿Cómo se llama esta conexión entre centros?",
+      "answer": "<mark>Red de empresas simuladas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/campus-red.jpg",
+        "title": "Campus accommodations",
+        "source": "https://www.flickr.com/photos/36972190@N06/9679444332",
         "alt": "Estudiantes reunidos en un campus, en red con otros centros",
-        "titulo": "Campus accommodations",
         "autor": "Les Roches",
-        "fuente": "https://www.flickr.com/photos/36972190@N06/9679444332",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "A lo largo del proyecto se generan pedidos, albaranes, facturas, cartas y nóminas ficticias. <mark>Es como el rastro de papel que deja cualquier negocio real</mark>. ¿Qué se genera a lo largo de todo el proyecto?",
-      "respuesta": "<mark>Documentos administrativos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/cuadernos-documentos.jpg",
+      "question": "A lo largo del proyecto se generan pedidos, albaranes, facturas, cartas y nóminas ficticias. <mark>Es como el rastro de papel que deja cualquier negocio real</mark>. ¿Qué se genera a lo largo de todo el proyecto?",
+      "answer": "<mark>Documentos administrativos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/cuadernos-documentos.jpg",
+        "title": "notebooks",
+        "source": "https://www.flickr.com/photos/53133240@N00/4539970",
         "alt": "Una pila de cuadernos y documentos de oficina",
-        "titulo": "notebooks",
         "autor": "Muffet",
-        "fuente": "https://www.flickr.com/photos/53133240@N00/4539970",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "'Empresa en el aula' simula muchas tareas que se harán después en un trabajo real. <mark>Es como un ensayo general antes de la función de verdad</mark>. Ayuda a llegar con más seguridad a las prácticas. ¿Para qué prepara especialmente bien este proyecto?",
-      "respuesta": "<mark>Para las prácticas en empresas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/practicas-empresa.jpg",
+      "question": "'Empresa en el aula' simula muchas tareas que se harán después en un trabajo real. <mark>Es como un ensayo general antes de la función de verdad</mark>. Ayuda a llegar con más seguridad a las prácticas. ¿Para qué prepara especialmente bien este proyecto?",
+      "answer": "<mark>Para las prácticas en empresas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula/practicas-empresa.jpg",
+        "title": "2014 NASA Goddard Video, Animation and Journalism Fellowships",
+        "source": "https://www.flickr.com/photos/24662369@N07/11327353875",
         "alt": "Estudiantes realizando practicas y formacion profesional",
-        "titulo": "2014 NASA Goddard Video, Animation and Journalism Fellowships",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/11327353875",
         "licencia": "CC BY 2.0"
       }
     }

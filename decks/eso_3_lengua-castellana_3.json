@@ -1,71 +1,71 @@
 {
-  "tema": "La oración compuesta: coordinación, yuxtaposición y subordinación - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La oración compuesta: coordinación, yuxtaposición y subordinación - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>\"Llueve y hace frío\" tiene dos verbos conjugados</mark>, no solo uno. <br>Una frase con un solo verbo es una oración simple. <br>Cada verbo suele formar su propia oración dentro de la frase completa. <br>¿Cómo se llama una frase con dos o más verbos así?",
-      "respuesta": "<mark>Oración compuesta</mark>"
+      "question": "<mark>\"Llueve y hace frío\" tiene dos verbos conjugados</mark>, no solo uno. <br>Una frase con un solo verbo es una oración simple. <br>Cada verbo suele formar su propia oración dentro de la frase completa. <br>¿Cómo se llama una frase con dos o más verbos así?",
+      "answer": "<mark>Oración compuesta</mark>"
     },
     {
-      "pregunta": "Unir oraciones evita repetir palabras y hace el texto más fluido. <br><mark>Es como coser dos piezas de tela en vez de dejarlas sueltas</mark>. <br>El texto suena más natural que con frases muy cortas. <br>¿Qué evita unir varias oraciones relacionadas en una sola frase?",
-      "respuesta": "<mark>Repetir palabras</mark>"
+      "question": "Unir oraciones evita repetir palabras y hace el texto más fluido. <br><mark>Es como coser dos piezas de tela en vez de dejarlas sueltas</mark>. <br>El texto suena más natural que con frases muy cortas. <br>¿Qué evita unir varias oraciones relacionadas en una sola frase?",
+      "answer": "<mark>Repetir palabras</mark>"
     },
     {
-      "pregunta": "Dos oraciones que valen lo mismo se unen con una conjunción, como \"y\" o \"pero\". <br><mark>Es como dos amigos caminando al mismo paso, ninguno manda</mark>. <br>Cada oración podría existir sola perfectamente. <br>¿Cómo se llama esta forma de unir oraciones?",
-      "respuesta": "<mark>Coordinación</mark>"
+      "question": "Dos oraciones que valen lo mismo se unen con una conjunción, como \"y\" o \"pero\". <br><mark>Es como dos amigos caminando al mismo paso, ninguno manda</mark>. <br>Cada oración podría existir sola perfectamente. <br>¿Cómo se llama esta forma de unir oraciones?",
+      "answer": "<mark>Coordinación</mark>"
     },
     {
-      "pregunta": "\"Estudio y trabajo los fines de semana\" suma dos ideas con \"y\". <br><mark>Es como sumar dos ingredientes en la misma receta</mark>. <br>Las dos acciones ocurren juntas, sin contradecirse. <br>¿Cómo se llama esta coordinada que suma ideas?",
-      "respuesta": "<mark>Coordinada copulativa</mark>"
+      "question": "\"Estudio y trabajo los fines de semana\" suma dos ideas con \"y\". <br><mark>Es como sumar dos ingredientes en la misma receta</mark>. <br>Las dos acciones ocurren juntas, sin contradecirse. <br>¿Cómo se llama esta coordinada que suma ideas?",
+      "answer": "<mark>Coordinada copulativa</mark>"
     },
     {
-      "pregunta": "\"Vienes conmigo o te quedas en casa\" presenta una opción entre dos posibilidades. <br><mark>Es como un menú donde solo puedes elegir un plato</mark>. <br>Las dos oraciones no pueden cumplirse a la vez. <br>¿Cómo se llama esta coordinada que presenta una opción?",
-      "respuesta": "<mark>Coordinada disyuntiva</mark>"
+      "question": "\"Vienes conmigo o te quedas en casa\" presenta una opción entre dos posibilidades. <br><mark>Es como un menú donde solo puedes elegir un plato</mark>. <br>Las dos oraciones no pueden cumplirse a la vez. <br>¿Cómo se llama esta coordinada que presenta una opción?",
+      "answer": "<mark>Coordinada disyuntiva</mark>"
     },
     {
-      "pregunta": "\"Quería salir, pero llovía mucho\" contrasta dos ideas con \"pero\". <br><mark>Es como un giro inesperado a mitad de una historia</mark>. <br>La segunda idea corrige o matiza a la primera. <br>¿Cómo se llama esta coordinada que contrasta ideas?",
-      "respuesta": "<mark>Coordinada adversativa</mark>"
+      "question": "\"Quería salir, pero llovía mucho\" contrasta dos ideas con \"pero\". <br><mark>Es como un giro inesperado a mitad de una historia</mark>. <br>La segunda idea corrige o matiza a la primera. <br>¿Cómo se llama esta coordinada que contrasta ideas?",
+      "answer": "<mark>Coordinada adversativa</mark>"
     },
     {
-      "pregunta": "Ninguna oración manda sobre la otra en este tipo de unión; <mark>son compañeras de equipo</mark>. <br>Solo cambia la conjunción que las une: \"y\", \"o\", \"pero\". <br>Esa palabra pequeña decide cómo se relacionan las dos ideas. <br>¿Qué tienen en común todas las oraciones coordinadas?",
-      "respuesta": "<mark>La misma importancia</mark>"
+      "question": "Ninguna oración manda sobre la otra en este tipo de unión; <mark>son compañeras de equipo</mark>. <br>Solo cambia la conjunción que las une: \"y\", \"o\", \"pero\". <br>Esa palabra pequeña decide cómo se relacionan las dos ideas. <br>¿Qué tienen en común todas las oraciones coordinadas?",
+      "answer": "<mark>La misma importancia</mark>"
     },
     {
-      "pregunta": "\"Llegó tarde; nadie se enfadó\" une dos oraciones sin ninguna conjunción, solo con puntuación. <br>Se separan con coma, punto y coma o dos puntos. <br><mark>Es como dos frases colocadas juntas, sin palabra que las conecte</mark>. <br>¿Cómo se llama esta forma de unir oraciones?",
-      "respuesta": "<mark>Yuxtaposición</mark>"
+      "question": "\"Llegó tarde; nadie se enfadó\" une dos oraciones sin ninguna conjunción, solo con puntuación. <br>Se separan con coma, punto y coma o dos puntos. <br><mark>Es como dos frases colocadas juntas, sin palabra que las conecte</mark>. <br>¿Cómo se llama esta forma de unir oraciones?",
+      "answer": "<mark>Yuxtaposición</mark>"
     },
     {
-      "pregunta": "<mark>\"Hacía frío, la calle estaba vacía\" usa un signo que hace el trabajo de \"y\" o \"pero\"</mark>. <br>El lector entiende la relación aunque no haya conjunción. <br>¿Qué dos signos de puntuación son los más habituales en la yuxtaposición?",
-      "respuesta": "<mark>La coma y el punto y coma</mark>"
+      "question": "<mark>\"Hacía frío, la calle estaba vacía\" usa un signo que hace el trabajo de \"y\" o \"pero\"</mark>. <br>El lector entiende la relación aunque no haya conjunción. <br>¿Qué dos signos de puntuación son los más habituales en la yuxtaposición?",
+      "answer": "<mark>La coma y el punto y coma</mark>"
     },
     {
-      "pregunta": "<mark>\"Llovía y hacía frío\" es coordinada; \"llovía, hacía frío\" es yuxtapuesta</mark>. <br>Ambas unen oraciones igual de importantes, sin que una dependa de otra. <br>El significado que transmiten suele ser muy parecido. <br>¿Qué diferencia a estas dos formas de unir oraciones?",
-      "respuesta": "<mark>La herramienta que usan</mark>"
+      "question": "<mark>\"Llovía y hacía frío\" es coordinada; \"llovía, hacía frío\" es yuxtapuesta</mark>. <br>Ambas unen oraciones igual de importantes, sin que una dependa de otra. <br>El significado que transmiten suele ser muy parecido. <br>¿Qué diferencia a estas dos formas de unir oraciones?",
+      "answer": "<mark>La herramienta que usan</mark>"
     },
     {
-      "pregunta": "\"Sé que llegarás tarde\" necesita la oración principal \"sé\" para tener sentido. <br><mark>Es como una rueda pequeña que no gira sin el motor principal</mark>. <br>Sola, \"que llegarás tarde\" no se sostiene por sí misma. <br>¿Cómo se llama esta oración que depende de otra?",
-      "respuesta": "<mark>Oración subordinada</mark>"
+      "question": "\"Sé que llegarás tarde\" necesita la oración principal \"sé\" para tener sentido. <br><mark>Es como una rueda pequeña que no gira sin el motor principal</mark>. <br>Sola, \"que llegarás tarde\" no se sostiene por sí misma. <br>¿Cómo se llama esta oración que depende de otra?",
+      "answer": "<mark>Oración subordinada</mark>"
     },
     {
-      "pregunta": "En una forma de unión, las dos oraciones tienen la misma importancia. <br>En otra, <mark>una manda y la otra depende, como un jefe y su ayudante</mark>. <br>Esta última suele empezar con palabras como \"que\" o \"porque\". <br>¿Cómo se llama esta forma de unión donde una oración depende de otra?",
-      "respuesta": "<mark>Subordinación</mark>"
+      "question": "En una forma de unión, las dos oraciones tienen la misma importancia. <br>En otra, <mark>una manda y la otra depende, como un jefe y su ayudante</mark>. <br>Esta última suele empezar con palabras como \"que\" o \"porque\". <br>¿Cómo se llama esta forma de unión donde una oración depende de otra?",
+      "answer": "<mark>Subordinación</mark>"
     },
     {
-      "pregunta": "\"Quiero que vengas\" equivale a \"quiero tu venida\", y responde a \"¿qué quiero?\". <br><mark>Ocupa el lugar de una cosa, como una pieza de recambio</mark>, dentro de la frase. <br>¿Cómo se llama esta oración que funciona como un sustantivo?",
-      "respuesta": "<mark>Subordinada sustantiva</mark>"
+      "question": "\"Quiero que vengas\" equivale a \"quiero tu venida\", y responde a \"¿qué quiero?\". <br><mark>Ocupa el lugar de una cosa, como una pieza de recambio</mark>, dentro de la frase. <br>¿Cómo se llama esta oración que funciona como un sustantivo?",
+      "answer": "<mark>Subordinada sustantiva</mark>"
     },
     {
-      "pregunta": "\"No salgo porque llueve\" explica la causa o el motivo de la oración principal. <br><mark>Responde a la pregunta \"¿por qué?\", como una explicación pedida</mark>. <br>La palabra \"porque\" señala esa relación. <br>¿Cómo se llama esta oración que explica una causa?",
-      "respuesta": "<mark>Subordinada causal</mark>"
+      "question": "\"No salgo porque llueve\" explica la causa o el motivo de la oración principal. <br><mark>Responde a la pregunta \"¿por qué?\", como una explicación pedida</mark>. <br>La palabra \"porque\" señala esa relación. <br>¿Cómo se llama esta oración que explica una causa?",
+      "answer": "<mark>Subordinada causal</mark>"
     },
     {
-      "pregunta": "\"Si estudias, aprobarás\" expresa una condición necesaria para que algo ocurra. <br><mark>Es como una regla del tipo \"si pasa esto, entonces pasa aquello\"</mark>. <br>La palabra \"si\" suele marcar esa condición. <br>¿Cómo se llama esta oración que expresa una condición?",
-      "respuesta": "<mark>Subordinada condicional</mark>"
+      "question": "\"Si estudias, aprobarás\" expresa una condición necesaria para que algo ocurra. <br><mark>Es como una regla del tipo \"si pasa esto, entonces pasa aquello\"</mark>. <br>La palabra \"si\" suele marcar esa condición. <br>¿Cómo se llama esta oración que expresa una condición?",
+      "answer": "<mark>Subordinada condicional</mark>"
     },
     {
-      "pregunta": "Detectar la oración principal ayuda a entender la idea central de un texto. <br><mark>Es como encontrar el hilo que sujeta las cuentas de un collar</mark>. <br>Sin identificarlas, las frases largas pueden parecer un lío. <br>¿Qué añaden las subordinadas a la idea principal?",
-      "respuesta": "<mark>Detalles, causas o condiciones</mark>"
+      "question": "Detectar la oración principal ayuda a entender la idea central de un texto. <br><mark>Es como encontrar el hilo que sujeta las cuentas de un collar</mark>. <br>Sin identificarlas, las frases largas pueden parecer un lío. <br>¿Qué añaden las subordinadas a la idea principal?",
+      "answer": "<mark>Detalles, causas o condiciones</mark>"
     }
   ]
 }

@@ -107,7 +107,7 @@ header.app-header .tagline {
   gap: var(--space-2);
 }
 
-/* Matches the landing page's .btn-idioma (site/styles.css) — same
+/* Matches the landing page's .btn-lang (site/styles.css) — same
    bigger touch target, bold weight and non-pill radius, now that
    site/styles.css's own Spanish-named custom properties (copied from
    a sibling app without translating them) are pointing at real
@@ -550,13 +550,15 @@ header.app-header .tagline {
   flex-shrink: 0;
 }
 
+/* Ludia's compact progress track. */
 .progress-bar {
   position: relative;
-  height: 28px;
+  height: 6px;
   flex: 1;
-  background: var(--color-surface);
-  border: 2px solid var(--color-border);
-  border-radius: 14px;
+  min-width: 0;
+  background: #ddd9eb;
+  border: 0;
+  border-radius: 4px;
   overflow: hidden;
 }
 
@@ -564,22 +566,9 @@ header.app-header .tagline {
   position: relative;
   height: 100%;
   width: 0%;
-  background: var(--accent);
-  border-radius: 14px;
+  background: #7462bb;
+  border-radius: 4px;
   transition: width var(--motion-normal) var(--ease);
-}
-
-/* A marker riding the leading edge of the fill — the fill's width
-   already encodes real progress through a real sequence of cards, this
-   just gives that number a game-like face. */
-.progress-bar .progress-fill::after {
-  content: '★';
-  position: absolute;
-  right: 4px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 14px;
-  color: #FFFFFF;
 }
 
 .progress-bar .progress-text {
@@ -626,11 +615,11 @@ header.app-header .tagline {
   100% { transform: scaleX(1) scale(1); }
 }
 
-/* Text stack: kept as one flex item (sibling to .tarjeta-imagen below)
+/* Text stack: kept as one flex item (sibling to .card-image below)
    so the image-beside-text row layout has exactly two columns — the
    picture, and this whole stack — instead of every line of text
    becoming its own row cell. */
-.tarjeta-contenido {
+.card-content {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
@@ -638,7 +627,7 @@ header.app-header .tagline {
   width: 100%;
 }
 
-.flashcard .cara {
+.flashcard .face {
   font-size: var(--text-large);
   font-weight: var(--weight-regular);
   color: var(--color-text);
@@ -648,13 +637,13 @@ header.app-header .tagline {
    boldClosingQuestion() in tools/study/app.js) reads heavier than the
    descriptive clue sentences around it, in both the question and the
    revealed-answer caption — a clearer "this is what to answer" cue
-   than having the whole clue at one uniform weight. Base .cara must
+   than having the whole clue at one uniform weight. Base .face must
    stay at --weight-regular (400) for this to actually show: Atkinson
    Hyperlegible only ships 400/700 font files (see base.css), so any
    weight above ~500 already snaps to the same 700 face as --weight-
    strong (800) — --weight-medium (600) looked identical to "bold"
    here, which is what made the whole clue read as bold before. */
-.flashcard .cara b {
+.flashcard .face b {
   font-weight: var(--weight-strong);
 }
 
@@ -667,23 +656,23 @@ header.app-header .tagline {
 
 /* Reveal state flips the hierarchy: the answer (already a short
    `<mark>`-wrapped term — see doc/en/technical.md §3) reads as a big
-   title, and the clue that led to it (`.cara`, same class used for the
+   title, and the clue that led to it (`.face`, same class used for the
    full-size question before reveal) shrinks to a small caption below
    it. Scoped under .revealed so the pre-reveal question keeps its own
-   full-size .cara style above. */
-.flashcard .respuesta {
+   full-size .face style above. */
+.flashcard .answer {
   font-size: var(--text-title);
   font-weight: var(--weight-strong);
   line-height: 1.15;
 }
 
-.flashcard.revealed .cara {
+.flashcard.revealed .face {
   font-size: var(--text-small);
   font-weight: var(--weight-regular);
   color: var(--color-text-soft);
 }
 
-.flashcard.revealed .cara b {
+.flashcard.revealed .face b {
   font-weight: var(--weight-strong);
   color: var(--color-text);
 }
@@ -696,7 +685,7 @@ header.app-header .tagline {
   font-weight: var(--weight-medium);
 }
 
-.flashcard .respuesta mark {
+.flashcard .answer mark {
   padding: 2px 12px;
   border-radius: 10px;
   font-weight: var(--weight-strong);
@@ -706,22 +695,22 @@ header.app-header .tagline {
    wider viewports (read-only picture alongside the question/answer)
    and stacks above the text on narrow phones so the reading width
    stays comfortable. The flashcard switches to a row layout via
-   :has(.tarjeta-imagen) — when a card has no image the column layout
+   :has(.card-image) — when a card has no image the column layout
    is unchanged. */
-.flashcard:has(> .tarjeta-imagen) {
+.flashcard:has(> .card-image) {
   flex-direction: row;
   align-items: center;
   gap: var(--space-3);
 }
 
-.tarjeta-imagen {
+.card-image {
   margin: 0;
   flex: 0 0 auto;
   align-self: center;
   max-width: 100%;
 }
 
-.tarjeta-imagen img {
+.card-image img {
   display: block;
   margin: 0;
   width: auto;
@@ -736,11 +725,11 @@ header.app-header .tagline {
    centered illustration on top of the text, not a side column that
    would steal reading width. */
 @media (max-width: 720px) {
-  .flashcard:has(> .tarjeta-imagen) {
+  .flashcard:has(> .card-image) {
     flex-direction: column;
     align-items: stretch;
   }
-  .tarjeta-imagen img {
+  .card-image img {
     margin: 0 auto;
     max-width: 180px;
     max-height: 96px;
@@ -1053,8 +1042,4 @@ header.suite-header .tagline { margin: 0; max-width: none; font-size: 18px; line
 .suite-header .stars .stars-icon { font-size: 22px; }
 .suite-header .stars .stars-count { font-size: 18px; line-height: 1.25; }
 .suite-header + main #deck-grid > .section-heading:first-child { margin-top: 8px; }
-.progress-text { display: none; }
-.progress-bar { height: 76px !important; border: 4px solid var(--color-borde, #d8d6cf) !important; border-radius: 40px !important; }
-.progress-fill { background: var(--color-acierto, #159b8c) !important; border-radius: 40px !important; }
-.progress-text { display: none !important; }
 

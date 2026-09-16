@@ -1,23 +1,23 @@
 {
-  "tema": "Literatura 3º de Primaria: cuentos tradicionales de otros lugares y las partes de un cuento",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura 3º de Primaria: cuentos tradicionales de otros lugares y las partes de un cuento",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Personas de todo el mundo han contado historias parecidas sin conocerse. <mark>Es como si dos cocineros lejanos inventaran el mismo plato, sin copiarse</mark>. Muchos lugares tienen un cuento de un animal pequeño y listo. ¿Cómo se llama este tipo de historia contada durante generaciones?",
-      "respuesta": "<mark>Cuento tradicional</mark>"
+      "question": "Personas de todo el mundo han contado historias parecidas sin conocerse. <mark>Es como si dos cocineros lejanos inventaran el mismo plato, sin copiarse</mark>. Muchos lugares tienen un cuento de un animal pequeño y listo. ¿Cómo se llama este tipo de historia contada durante generaciones?",
+      "answer": "<mark>Cuento tradicional</mark>"
     },
     {
-      "pregunta": "Descubre que otras culturas piensan y sueñan de forma parecida. <mark>Es como abrir una ventana a una casa distinta, con la misma calidez</mark>. Los personajes cambian de nombre, pero las lecciones se parecen. ¿Qué descubres sobre otros países al conocer sus cuentos?",
-      "respuesta": "<mark>Cultura</mark>"
+      "question": "Descubre que otras culturas piensan y sueñan de forma parecida. <mark>Es como abrir una ventana a una casa distinta, con la misma calidez</mark>. Los personajes cambian de nombre, pero las lecciones se parecen. ¿Qué descubres sobre otros países al conocer sus cuentos?",
+      "answer": "<mark>Cultura</mark>"
     },
     {
-      "pregunta": "Son las personas, animales o seres que viven la historia. <mark>Son como los actores de una obra de teatro</mark>. Puede haber uno más importante, y otros que le ayudan. ¿Cómo se llaman estos seres de un cuento?",
-      "respuesta": "<mark>Personajes</mark>"
+      "question": "Son las personas, animales o seres que viven la historia. <mark>Son como los actores de una obra de teatro</mark>. Puede haber uno más importante, y otros que le ayudan. ¿Cómo se llaman estos seres de un cuento?",
+      "answer": "<mark>Personajes</mark>"
     },
     {
-      "pregunta": "Uno es dónde pasa la historia, y el otro es cuándo pasa. <mark>Son como el escenario y el reloj de una obra de teatro</mark>. Un cuento puede pasar en un bosque, hace mucho tiempo. ¿Qué dos cosas son el escenario y el reloj de un cuento?",
-      "respuesta": "<mark>Lugar y tiempo</mark>"
+      "question": "Uno es dónde pasa la historia, y el otro es cuándo pasa. <mark>Son como el escenario y el reloj de una obra de teatro</mark>. Un cuento puede pasar en un bosque, hace mucho tiempo. ¿Qué dos cosas son el escenario y el reloj de un cuento?",
+      "answer": "<mark>Lugar y tiempo</mark>"
     }
   ]
 }

@@ -1,89 +1,89 @@
 {
-  "tema": "Literatura - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un poema con catorce versos, <mark>organizados en dos estrofas de cuatro versos y dos de tres</mark>. Fue muy popular en el Renacimiento y el Barroco. ¿Cómo se llama este tipo de poema?",
-      "respuesta": "<mark>Soneto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_2/pagina-libro-antiguo.jpg",
+      "question": "Es un poema con catorce versos, <mark>organizados en dos estrofas de cuatro versos y dos de tres</mark>. Fue muy popular en el Renacimiento y el Barroco. ¿Cómo se llama este tipo de poema?",
+      "answer": "<mark>Soneto</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_2/pagina-libro-antiguo.jpg",
+        "title": "Ownership inscriptions of Odoardo Gualando, Francesco Venturi, Nicolaus Bargiacchus, and Sir Sydney Carlyle Cockerell",
+        "source": "https://www.flickr.com/photos/58558794@N07/8242157260",
         "alt": "La página de un libro antiguo con anotaciones",
-        "titulo": "Ownership inscriptions of Odoardo Gualando, Francesco Venturi, Nicolaus Bargiacchus, and Sir Sydney Carlyle Cockerell",
         "autor": "Provenance Online Project",
-        "fuente": "https://www.flickr.com/photos/58558794@N07/8242157260",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el escudero que acompaña a Don Quijote en sus aventuras. Es práctico y realista, todo lo contrario a su amo. <mark>Juntos forman una de las parejas más famosas de la literatura</mark>. ¿Quién es este escudero?",
-      "respuesta": "<mark>Sancho Panza</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_2/sancho-panza-quijote.jpg",
+      "question": "Es el escudero que acompaña a Don Quijote en sus aventuras. Es práctico y realista, todo lo contrario a su amo. <mark>Juntos forman una de las parejas más famosas de la literatura</mark>. ¿Quién es este escudero?",
+      "answer": "<mark>Sancho Panza</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_2/sancho-panza-quijote.jpg",
+        "title": "Don Quijote y Sancho Panza, estatuas, Tandil",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=85253092",
         "alt": "Estatuas de Don Quijote y Sancho Panza juntos",
-        "titulo": "Don Quijote y Sancho Panza, estatuas, Tandil",
         "autor": "Roberto Fiadone",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=85253092",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Un personaje sueña con aventuras y caballeros, casi sin ver la realidad. <mark>El otro es sencillo, práctico, y piensa en comer y descansar</mark>. Uno mira con fantasía; el otro, con sentido común. ¿Cuál de los dos piensa con sentido común?",
-      "respuesta": "<mark>Sancho Panza</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_2/quijote-sancho.jpg",
+      "question": "Un personaje sueña con aventuras y caballeros, casi sin ver la realidad. <mark>El otro es sencillo, práctico, y piensa en comer y descansar</mark>. Uno mira con fantasía; el otro, con sentido común. ¿Cuál de los dos piensa con sentido común?",
+      "answer": "<mark>Sancho Panza</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_2/quijote-sancho.jpg",
+        "title": "Don Quixote & Sancho Panza Sculpture 1",
+        "source": "https://www.flickr.com/photos/22325431@N05/3120740513",
         "alt": "Una escultura de Don Quijote y Sancho Panza",
-        "titulo": "Don Quixote & Sancho Panza Sculpture 1",
         "autor": "historic.brussels",
-        "fuente": "https://www.flickr.com/photos/22325431@N05/3120740513",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Fue un autor de teatro del Barroco español. <mark>Su obra más famosa es 'La vida es sueño'</mark>. Escribió sobre el destino, el poder y la libertad. ¿Quién fue este dramaturgo?",
-      "respuesta": "<mark>Calderón de la Barca</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_2/calderon-de-la-barca.jpg",
+      "question": "Fue un autor de teatro del Barroco español. <mark>Su obra más famosa es 'La vida es sueño'</mark>. Escribió sobre el destino, el poder y la libertad. ¿Quién fue este dramaturgo?",
+      "answer": "<mark>Calderón de la Barca</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_2/calderon-de-la-barca.jpg",
+        "title": "Calderón de la Barca",
+        "source": "https://www.flickr.com/photos/62518311@N00/87568793",
         "alt": "Estatua de Calderón de la Barca",
-        "titulo": "Calderón de la Barca",
         "autor": "Daquella manera",
-        "fuente": "https://www.flickr.com/photos/62518311@N00/87568793",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Una obra de teatro plantea que quizá nada de lo vivido sea completamente real. <mark>Nos hace dudar de qué es verdad y qué es solo apariencia</mark>. ¿Cómo se llama esta obra?",
-      "respuesta": "<mark>La vida es sueño</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_2/nubes-sueno.jpg",
+      "question": "Una obra de teatro plantea que quizá nada de lo vivido sea completamente real. <mark>Nos hace dudar de qué es verdad y qué es solo apariencia</mark>. ¿Cómo se llama esta obra?",
+      "answer": "<mark>La vida es sueño</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_2/nubes-sueno.jpg",
+        "title": "Clouds over Etten-Leur #2",
+        "source": "https://www.flickr.com/photos/32135758@N02/5734925850",
         "alt": "Nubes suaves en el cielo, como en un sueño",
-        "titulo": "Clouds over Etten-Leur #2",
         "autor": "jinterwas",
-        "fuente": "https://www.flickr.com/photos/32135758@N02/5734925850",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Era una poesía que hablaba del amor a Dios. <mark>Buscaba describir un sentimiento casi imposible de poner en palabras</mark>. Autores como Fray Luis de León o Santa Teresa la escribieron. ¿Cómo se llama este tipo de poesía?",
-      "respuesta": "<mark>Poesía mística</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_2/claustro-monasterio.jpg",
+      "question": "Era una poesía que hablaba del amor a Dios. <mark>Buscaba describir un sentimiento casi imposible de poner en palabras</mark>. Autores como Fray Luis de León o Santa Teresa la escribieron. ¿Cómo se llama este tipo de poesía?",
+      "answer": "<mark>Poesía mística</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_2/claustro-monasterio.jpg",
+        "title": "Cloister",
+        "source": "https://www.flickr.com/photos/15636379@N00/7780924174",
         "alt": "El claustro tranquilo de un monasterio",
-        "titulo": "Cloister",
         "autor": "Brian Smithson (Old Geordie)",
-        "fuente": "https://www.flickr.com/photos/15636379@N00/7780924174",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Buscaba paz y tranquilidad, lejos del ruido del mundo. <mark>Soñaba con una vida sencilla, en el campo, en calma</mark>. Escribía sobre alejarse de la envidia y la prisa. ¿Qué buscaba sobre todo este poeta místico?",
-      "respuesta": "<mark>La paz interior</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_2/campo-ingles.jpg",
+      "question": "Buscaba paz y tranquilidad, lejos del ruido del mundo. <mark>Soñaba con una vida sencilla, en el campo, en calma</mark>. Escribía sobre alejarse de la envidia y la prisa. ¿Qué buscaba sobre todo este poeta místico?",
+      "answer": "<mark>La paz interior</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_2/campo-ingles.jpg",
+        "title": "English countryside - Shrewton, United Kingdom - Landscape photography",
+        "source": "https://www.flickr.com/photos/87690240@N03/29085750495",
         "alt": "Un campo tranquilo, lejos del ruido de la ciudad",
-        "titulo": "English countryside - Shrewton, United Kingdom - Landscape photography",
         "autor": "Giuseppe Milo (www.pixael.com)",
-        "fuente": "https://www.flickr.com/photos/87690240@N03/29085750495",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,197 +1,197 @@
 {
-  "tema": "La actividad económica y los sectores productivos - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La actividad económica y los sectores productivos - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como el motor que mueve todo lo que compramos y usamos cada día</mark>. Es el conjunto de trabajos que producen bienes y servicios para vivir, desde cultivar alimentos hasta vender un billete de tren. Sin ella no existirían los productos que consumimos. ¿Cómo se llama este conjunto de trabajos?",
-      "respuesta": "<mark>Actividad económica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/actividad-economica.jpg",
+      "question": "<mark>Es como el motor que mueve todo lo que compramos y usamos cada día</mark>. Es el conjunto de trabajos que producen bienes y servicios para vivir, desde cultivar alimentos hasta vender un billete de tren. Sin ella no existirían los productos que consumimos. ¿Cómo se llama este conjunto de trabajos?",
+      "answer": "<mark>Actividad económica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/actividad-economica.jpg",
+        "title": "Farmers' Market",
+        "source": "https://www.flickr.com/photos/93178668@N00/511046019",
         "alt": "Puesto de mercado con productos a la venta",
-        "titulo": "Farmers' Market",
         "autor": "NatalieMaynor",
-        "fuente": "https://www.flickr.com/photos/93178668@N00/511046019",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una receta: hacen falta ingredientes, manos y herramientas para cocinar</mark>. Son los elementos necesarios para producir bienes: tierra, trabajo y capital. La tierra aporta recursos naturales; el trabajo, el esfuerzo humano; el capital, las máquinas y el dinero. ¿Cómo se llaman estos elementos?",
-      "respuesta": "<mark>Factores de producción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/factores-produccion.jpg",
+      "question": "<mark>Es como una receta: hacen falta ingredientes, manos y herramientas para cocinar</mark>. Son los elementos necesarios para producir bienes: tierra, trabajo y capital. La tierra aporta recursos naturales; el trabajo, el esfuerzo humano; el capital, las máquinas y el dinero. ¿Cómo se llaman estos elementos?",
+      "answer": "<mark>Factores de producción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/factores-produccion.jpg",
+        "title": "John Deere",
+        "source": "https://www.flickr.com/photos/28914673@N02/4955106230",
         "alt": "Tractor agrícola trabajando en un campo",
-        "titulo": "John Deere",
         "autor": "Ted Van Pelt",
-        "fuente": "https://www.flickr.com/photos/28914673@N02/4955106230",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como dejar que compradores y vendedores negocien libremente el precio justo</mark>. Es una idea que defiende que el mercado se regule casi solo, con poca intervención del Estado. Adam Smith fue uno de sus grandes defensores. ¿Cómo se llama esta idea económica?",
-      "respuesta": "<mark>Liberalismo económico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/liberalismo-economico.jpg",
+      "question": "<mark>Es como dejar que compradores y vendedores negocien libremente el precio justo</mark>. Es una idea que defiende que el mercado se regule casi solo, con poca intervención del Estado. Adam Smith fue uno de sus grandes defensores. ¿Cómo se llama esta idea económica?",
+      "answer": "<mark>Liberalismo económico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/liberalismo-economico.jpg",
+        "title": "Graph With Stacks Of Coins",
+        "source": "https://www.flickr.com/photos/26373139@N08/6093690339",
         "alt": "Gráfico económico junto a pilas de monedas",
-        "titulo": "Graph With Stacks Of Coins",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/6093690339",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como decir que, si el mercado se cae, alguien debe sujetarlo</mark>. Un economista defendió que el Estado debía intervenir en momentos de crisis, invirtiendo dinero público para crear empleo. Sus ideas se aplicaron mucho tras las grandes crisis del siglo veinte. ¿Cómo se llamaba este economista?",
-      "respuesta": "<mark>Keynes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/keynes.jpg",
+      "question": "<mark>Es como decir que, si el mercado se cae, alguien debe sujetarlo</mark>. Un economista defendió que el Estado debía intervenir en momentos de crisis, invirtiendo dinero público para crear empleo. Sus ideas se aplicaron mucho tras las grandes crisis del siglo veinte. ¿Cómo se llamaba este economista?",
+      "answer": "<mark>Keynes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/keynes.jpg",
+        "title": "Workmen laying the cornerstone, construction of the McKim Building",
+        "source": "https://www.flickr.com/photos/24029425@N06/2387493721",
         "alt": "Obreros colocando la primera piedra de una construcción",
-        "titulo": "Workmen laying the cornerstone, construction of the McKim Building",
         "autor": "Boston Public Library",
-        "fuente": "https://www.flickr.com/photos/24029425@N06/2387493721",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como si el planeta entero funcionara ya como un único mercado</mark>. Es la conexión cada vez mayor entre las economías de todo el mundo, que permite comprar productos fabricados a miles de kilómetros. También hace que una crisis en un país afecte a otros muy lejanos. ¿Cómo se llama este fenómeno?",
-      "respuesta": "<mark>Globalización económica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/globalizacion.jpg",
+      "question": "<mark>Es como si el planeta entero funcionara ya como un único mercado</mark>. Es la conexión cada vez mayor entre las economías de todo el mundo, que permite comprar productos fabricados a miles de kilómetros. También hace que una crisis en un país afecte a otros muy lejanos. ¿Cómo se llama este fenómeno?",
+      "answer": "<mark>Globalización económica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/globalizacion.jpg",
+        "title": "Multicolored containers",
+        "source": "https://www.flickr.com/photos/93755244@N00/3144199355",
         "alt": "Contenedores de colores apilados en un puerto",
-        "titulo": "Multicolored containers",
         "autor": "Håkan Dahlström",
-        "fuente": "https://www.flickr.com/photos/93755244@N00/3144199355",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Agrupa las actividades que obtienen recursos directamente de la naturaleza: <mark>agricultura, ganadería, pesca y minería</mark>. Es la base sobre la que se construyen los demás sectores. Sin él, no habría materias primas que transformar después. ¿Cómo se llama este sector?",
-      "respuesta": "<mark>Sector primario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/siega-campo.jpg",
+      "question": "Agrupa las actividades que obtienen recursos directamente de la naturaleza: <mark>agricultura, ganadería, pesca y minería</mark>. Es la base sobre la que se construyen los demás sectores. Sin él, no habría materias primas que transformar después. ¿Cómo se llama este sector?",
+      "answer": "<mark>Sector primario</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/siega-campo.jpg",
+        "title": "Siega urbana",
+        "source": "https://www.flickr.com/photos/7442558@N04/2495786564",
         "alt": "Trabajo de siega en el campo, una actividad del sector primario",
-        "titulo": "Siega urbana",
         "autor": "Jose Felix Garcia",
-        "fuente": "https://www.flickr.com/photos/7442558@N04/2495786564",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Convierte, por ejemplo, madera en muebles o hierro en coches</mark>. Agrupa las actividades que transforman materias primas en productos elaborados, como la industria y la construcción. Su desarrollo cambió por completo la economía moderna. ¿Cómo se llama este sector?",
-      "respuesta": "<mark>Sector secundario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/chimeneas-industriales.jpg",
+      "question": "<mark>Convierte, por ejemplo, madera en muebles o hierro en coches</mark>. Agrupa las actividades que transforman materias primas en productos elaborados, como la industria y la construcción. Su desarrollo cambió por completo la economía moderna. ¿Cómo se llama este sector?",
+      "answer": "<mark>Sector secundario</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/chimeneas-industriales.jpg",
+        "title": "Chimeneas industriales",
+        "source": "https://www.flickr.com/photos/13796443@N05/6035273572",
         "alt": "Chimeneas industriales, una imagen del sector secundario",
-        "titulo": "Chimeneas industriales",
         "autor": "osolev",
-        "fuente": "https://www.flickr.com/photos/13796443@N05/6035273572",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Incluye desde un profesor hasta un médico o una tienda</mark>. Agrupa las actividades que ofrecen servicios, no productos físicos, como el comercio, el turismo y el transporte. Es el sector que más ha crecido en los países desarrollados. ¿Cómo se llama este sector?",
-      "respuesta": "<mark>Sector terciario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/calle-comercio-toledo.jpg",
+      "question": "<mark>Incluye desde un profesor hasta un médico o una tienda</mark>. Agrupa las actividades que ofrecen servicios, no productos físicos, como el comercio, el turismo y el transporte. Es el sector que más ha crecido en los países desarrollados. ¿Cómo se llama este sector?",
+      "answer": "<mark>Sector terciario</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/calle-comercio-toledo.jpg",
+        "title": "Calle Comercio, Toledo",
+        "source": "https://www.flickr.com/photos/124137421@N04/26181573560",
         "alt": "La Calle Comercio de Toledo, con tiendas del sector terciario",
-        "titulo": "Calle Comercio, Toledo",
         "autor": "Edgardo W. Olivera",
-        "fuente": "https://www.flickr.com/photos/124137421@N04/26181573560",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como usar un pozo que siempre vuelve a llenarse, en vez de uno que se seca</mark>. Son fuentes de energía que no se agotan, como el sol o el viento, y no emiten tantos gases contaminantes. Cada vez se usan más para frenar el cambio climático. ¿Cómo se llaman estas fuentes de energía?",
-      "respuesta": "<mark>Energías renovables</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/energias-renovables.jpg",
+      "question": "<mark>Es como usar un pozo que siempre vuelve a llenarse, en vez de uno que se seca</mark>. Son fuentes de energía que no se agotan, como el sol o el viento, y no emiten tantos gases contaminantes. Cada vez se usan más para frenar el cambio climático. ¿Cómo se llaman estas fuentes de energía?",
+      "answer": "<mark>Energías renovables</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/energias-renovables.jpg",
+        "title": "Wind Energy, Southern California",
+        "source": "https://www.flickr.com/photos/8398907@N02/8628436785",
         "alt": "Turbinas eólicas generando energía",
-        "titulo": "Wind Energy, Southern California",
         "autor": "moonjazz",
-        "fuente": "https://www.flickr.com/photos/8398907@N02/8628436785",
         "licencia": "Public Domain Mark 1.0"
       }
     },
     {
-      "pregunta": "<mark>Es como los grandes talleres del planeta, trabajando sin parar</mark>. Son las zonas donde se concentra buena parte de la producción industrial mundial, con buenas comunicaciones y mucha mano de obra disponible. ¿Qué tres países son ejemplos actuales de estos polos industriales?",
-      "respuesta": "<mark>China, Estados Unidos y Alemania</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/polos-desarrollo-industrial.jpg",
+      "question": "<mark>Es como los grandes talleres del planeta, trabajando sin parar</mark>. Son las zonas donde se concentra buena parte de la producción industrial mundial, con buenas comunicaciones y mucha mano de obra disponible. ¿Qué tres países son ejemplos actuales de estos polos industriales?",
+      "answer": "<mark>China, Estados Unidos y Alemania</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/polos-desarrollo-industrial.jpg",
+        "title": "Cement Factory",
+        "source": "https://www.flickr.com/photos/49694447@N00/5393183944",
         "alt": "Fábrica de cemento con grandes instalaciones industriales",
-        "titulo": "Cement Factory",
         "autor": "Kumaravel",
-        "fuente": "https://www.flickr.com/photos/49694447@N00/5393183944",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Suelen estar en el centro de las ciudades o cerca de zonas turísticas. Son los lugares donde se concentran actividades de servicios, <mark>como bancos, hospitales y tiendas</mark>. Reflejan una economía centrada en servicios. ¿Cómo se llaman estos lugares?",
-      "respuesta": "<mark>Espacios terciarios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/playa-turismo.jpg",
+      "question": "Suelen estar en el centro de las ciudades o cerca de zonas turísticas. Son los lugares donde se concentran actividades de servicios, <mark>como bancos, hospitales y tiendas</mark>. Reflejan una economía centrada en servicios. ¿Cómo se llaman estos lugares?",
+      "answer": "<mark>Espacios terciarios</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/playa-turismo.jpg",
+        "title": "Playa Roja, Río de Janeiro, Brasil",
+        "source": "https://www.flickr.com/photos/124137421@N04/27051011261",
         "alt": "Una playa turística, ejemplo de la actividad económica del turismo",
-        "titulo": "Playa Roja, Río de Janeiro, Brasil",
         "autor": "Edgardo W. Olivera",
-        "fuente": "https://www.flickr.com/photos/124137421@N04/27051011261",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Genera empleo en hoteles, restaurantes y transporte, entre otros</mark>. Es el desplazamiento de personas a otros lugares por ocio o descanso, y es una parte muy importante de la economía española. Depende mucho de que el lugar visitado esté bien cuidado. ¿Cómo se llama esta actividad económica?",
-      "respuesta": "<mark>Turismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/turismo.jpg",
+      "question": "<mark>Genera empleo en hoteles, restaurantes y transporte, entre otros</mark>. Es el desplazamiento de personas a otros lugares por ocio o descanso, y es una parte muy importante de la economía española. Depende mucho de que el lugar visitado esté bien cuidado. ¿Cómo se llama esta actividad económica?",
+      "answer": "<mark>Turismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/turismo.jpg",
+        "title": "Varadero Beach",
+        "source": "https://www.flickr.com/photos/34920308@N07/6902536774",
         "alt": "Playa turística con gente disfrutando del mar",
-        "titulo": "Varadero Beach",
         "autor": "Artur Staszewski",
-        "fuente": "https://www.flickr.com/photos/34920308@N07/6902536774",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Unas zonas siguen viviendo del campo; otras, de la industria o los servicios</mark>. No todos los territorios se han desarrollado económicamente igual, y eso afecta a los salarios y al empleo disponible. ¿Qué tres cosas explican estas desigualdades entre territorios?",
-      "respuesta": "<mark>Recursos, historia y decisiones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/desigualdades-regionales.jpg",
+      "question": "<mark>Unas zonas siguen viviendo del campo; otras, de la industria o los servicios</mark>. No todos los territorios se han desarrollado económicamente igual, y eso afecta a los salarios y al empleo disponible. ¿Qué tres cosas explican estas desigualdades entre territorios?",
+      "answer": "<mark>Recursos, historia y decisiones</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/desigualdades-regionales.jpg",
+        "title": "Country road",
+        "source": "https://www.flickr.com/photos/99424477@N04/15214051925",
         "alt": "Camino rural entre campos de cultivo",
-        "titulo": "Country road",
         "autor": "prague.czech.photo",
-        "fuente": "https://www.flickr.com/photos/99424477@N04/15214051925",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "España pasó de depender mucho del campo a depender sobre todo de otra cosa, <mark>un cambio parecido al de la mayoría de países ricos actuales</mark>. La industria creció mucho a mediados del siglo veinte. ¿De qué depende sobre todo hoy la economía española?",
-      "respuesta": "<mark>El turismo y los servicios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/sectores-economicos-espana.jpg",
+      "question": "España pasó de depender mucho del campo a depender sobre todo de otra cosa, <mark>un cambio parecido al de la mayoría de países ricos actuales</mark>. La industria creció mucho a mediados del siglo veinte. ¿De qué depende sobre todo hoy la economía española?",
+      "answer": "<mark>El turismo y los servicios</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/sectores-economicos-espana.jpg",
+        "title": "Madrid: Cuatro Torres Business Area",
+        "source": "https://www.flickr.com/photos/91124353@N05/15994560431",
         "alt": "Rascacielos modernos del área de negocios de Madrid",
-        "titulo": "Madrid: Cuatro Torres Business Area",
         "autor": "sky_hlv",
-        "fuente": "https://www.flickr.com/photos/91124353@N05/15994560431",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Madrid <mark>funciona como un gran centro de servicios</mark> para toda España, con banca, comercio y administración. La industria y la agricultura tienen un peso mucho menor. ¿Qué sector predomina claramente en la Comunidad de Madrid?",
-      "respuesta": "<mark>Sector terciario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/sectores-madrid.jpg",
+      "question": "Madrid <mark>funciona como un gran centro de servicios</mark> para toda España, con banca, comercio y administración. La industria y la agricultura tienen un peso mucho menor. ¿Qué sector predomina claramente en la Comunidad de Madrid?",
+      "answer": "<mark>Sector terciario</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/sectores-madrid.jpg",
+        "title": "Madrid skyline",
+        "source": "https://www.flickr.com/photos/22717926@N00/13294425205",
         "alt": "Vista del perfil urbano de la ciudad de Madrid",
-        "titulo": "Madrid skyline",
         "autor": "Barcex",
-        "fuente": "https://www.flickr.com/photos/22717926@N00/13294425205",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es leer el paisaje como si fuera un mapa de decisiones económicas pasadas</mark>. Interpretarlo significa entender por qué una zona se dedica a un tipo de actividad y no a otra. Esa lectura ayuda a comprender cómo se organiza un territorio. ¿Qué tres factores influyen en esa elección?",
-      "respuesta": "<mark>Relieve, clima e historia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia/paisaje-geografia-economica.jpg",
+      "question": "<mark>Es leer el paisaje como si fuera un mapa de decisiones económicas pasadas</mark>. Interpretarlo significa entender por qué una zona se dedica a un tipo de actividad y no a otra. Esa lectura ayuda a comprender cómo se organiza un territorio. ¿Qué tres factores influyen en esa elección?",
+      "answer": "<mark>Relieve, clima e historia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia/paisaje-geografia-economica.jpg",
+        "title": "Aerial view of Minnesota farmland (1 of 2)",
+        "source": "https://www.flickr.com/photos/26406919@N00/6803624106",
         "alt": "Vista aérea de campos de cultivo formando un mosaico",
-        "titulo": "Aerial view of Minnesota farmland (1 of 2)",
         "autor": "Unhindered by Talent",
-        "fuente": "https://www.flickr.com/photos/26406919@N00/6803624106",
         "licencia": "CC BY-SA 2.0"
       }
     }

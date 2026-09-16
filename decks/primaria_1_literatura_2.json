@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 1º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 1º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un cuento corto <mark>con animales que hablan y actúan</mark>. Casi siempre enseña algo importante para la vida. ¿Cómo se llama este tipo de cuento?",
-      "respuesta": "<mark>Fábula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-uvas.jpg",
+      "question": "Es un cuento corto <mark>con animales que hablan y actúan</mark>. Casi siempre enseña algo importante para la vida. ¿Cómo se llama este tipo de cuento?",
+      "answer": "<mark>Fábula</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-uvas.jpg",
+        "title": "The Fox and the Grapes, Illustration for Aesop's Fables",
+        "source": "https://collection.cooperhewitt.org/view/objects/asitem/id/24107",
         "alt": "Un zorro mirando hacia arriba un racimo de uvas colgando de una planta",
-        "titulo": "The Fox and the Grapes, Illustration for Aesop's Fables",
         "autor": "Victor Wilbour",
-        "fuente": "https://collection.cooperhewitt.org/view/objects/asitem/id/24107",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es la enseñanza que deja una fábula al terminar, <mark>como un consejo escondido dentro de la historia</mark>. Por ejemplo: no burlarse de los demás. ¿Cómo se llama esta enseñanza final?",
-      "respuesta": "<mark>Moraleja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_2/moraleja-hercules-carretero.jpg",
+      "question": "Es la enseñanza que deja una fábula al terminar, <mark>como un consejo escondido dentro de la historia</mark>. Por ejemplo: no burlarse de los demás. ¿Cómo se llama esta enseñanza final?",
+      "answer": "<mark>Moraleja</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_2/moraleja-hercules-carretero.jpg",
+        "title": "Hercules & Waggoner2",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=26830563",
         "alt": "Un hombre fuerte, con los brazos cruzados, mira a un carretero arrodillado junto a un carro atascado en el barro",
-        "titulo": "Hercules & Waggoner2",
         "autor": "Walter Crane",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=26830563",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "En una carrera, la liebre corre muy rápido pero <mark>se para a dormir</mark>. La tortuga es lenta pero no para nunca. ¿Quién gana la carrera?",
-      "respuesta": "<mark>La tortuga</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_2/liebre-tortuga.jpg",
+      "question": "En una carrera, la liebre corre muy rápido pero <mark>se para a dormir</mark>. La tortuga es lenta pero no para nunca. ¿Quién gana la carrera?",
+      "answer": "<mark>La tortuga</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_2/liebre-tortuga.jpg",
+        "title": "Tortoise and hare rackham",
+        "source": "https://commons.wikimedia.org/wiki/File:Tortoise_and_hare_rackham.jpg",
         "alt": "Una liebre y una tortuga se miran de cerca, rodeadas de otros animales vestidos como personas, antes de una carrera",
-        "titulo": "Tortoise and hare rackham",
         "autor": "Arthur Rackham",
-        "fuente": "https://commons.wikimedia.org/wiki/File:Tortoise_and_hare_rackham.jpg",
         "licencia": "Dominio público"
       }
     },
     {
-      "pregunta": "Es una frase difícil de decir rápido y sin errores, la lengua se lía. Por ejemplo: <mark>'tres tristes tigres'</mark>. ¿Cómo se llama este tipo de frase?",
-      "respuesta": "<mark>Trabalenguas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_2/trabalenguas-tigre.jpg",
+      "question": "Es una frase difícil de decir rápido y sin errores, la lengua se lía. Por ejemplo: <mark>'tres tristes tigres'</mark>. ¿Cómo se llama este tipo de frase?",
+      "answer": "<mark>Trabalenguas</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_2/trabalenguas-tigre.jpg",
+        "title": "Tiger cartoon face",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=67081042",
         "alt": "La cara de un tigre dibujada en blanco y negro, como el tigre del trabalenguas 'tres tristes tigres'",
-        "titulo": "Tiger cartoon face",
         "autor": "Jinoytommanjaly",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=67081042",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Es una frase corta que se repite desde hace años, con un consejo sobre la vida. Por ejemplo: <mark>'más vale tarde que nunca'</mark>. ¿Cómo se llama este tipo de frase?",
-      "respuesta": "<mark>Refrán</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_2/libro-refranes.jpg",
+      "question": "Es una frase corta que se repite desde hace años, con un consejo sobre la vida. Por ejemplo: <mark>'más vale tarde que nunca'</mark>. ¿Cómo se llama este tipo de frase?",
+      "answer": "<mark>Refrán</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_2/libro-refranes.jpg",
+        "title": "open book pages",
+        "source": "https://www.flickr.com/photos/11598937@N08/4927865092",
         "alt": "Un libro abierto con páginas de refranes y dichos populares",
-        "titulo": "open book pages",
         "autor": "Jo Naylor",
-        "fuente": "https://www.flickr.com/photos/11598937@N08/4927865092",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un cuento puede tratar sobre cualquier tema. Esta otra historia casi siempre <mark>usa animales para dejar una enseñanza</mark>, con una moraleja al final. ¿Cómo se llama esta segunda clase de historia?",
-      "respuesta": "<mark>Fábula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-cuervo.jpg",
+      "question": "Un cuento puede tratar sobre cualquier tema. Esta otra historia casi siempre <mark>usa animales para dejar una enseñanza</mark>, con una moraleja al final. ¿Cómo se llama esta segunda clase de historia?",
+      "answer": "<mark>Fábula</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_2/fabula-zorro-cuervo.jpg",
+        "title": "The Fox and the Crow, Illustration for Aesop's Fables",
+        "source": "https://collection.cooperhewitt.org/view/objects/asitem/id/24110",
         "alt": "Un zorro mirando hacia arriba a un cuervo que sostiene un queso en el pico, encima de un árbol",
-        "titulo": "The Fox and the Crow, Illustration for Aesop's Fables",
         "autor": "Victor Wilbour",
-        "fuente": "https://collection.cooperhewitt.org/view/objects/asitem/id/24110",
         "licencia": "CC0 1.0"
       }
     }

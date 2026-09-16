@@ -1,173 +1,173 @@
 {
-  "tema": "El enlace químico, el mol y las disoluciones - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El enlace químico, el mol y las disoluciones - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como si un átomo regalara un electrón y el otro lo aceptara</mark>. Se forma entre un metal y un no metal, como en la sal común. ¿Cómo se llama esta unión entre átomos que transfieren electrones?",
-      "respuesta": "<mark>Enlace iónico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cristales-sal-roca.jpg",
+      "question": "<mark>Es como si un átomo regalara un electrón y el otro lo aceptara</mark>. Se forma entre un metal y un no metal, como en la sal común. ¿Cómo se llama esta unión entre átomos que transfieren electrones?",
+      "answer": "<mark>Enlace iónico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/cristales-sal-roca.jpg",
+        "title": "Rock salt crystals",
+        "source": "https://www.flickr.com/photos/19716902@N00/252462355",
         "alt": "Cristales de sal de roca, un ejemplo de compuesto iónico",
-        "titulo": "Rock salt crystals",
         "autor": "włodi",
-        "fuente": "https://www.flickr.com/photos/19716902@N00/252462355",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como si dos átomos se dieran la mano y compartieran algo</mark>. Suele darse entre elementos no metálicos, como en el agua. ¿Cómo se llama esta unión entre átomos que comparten electrones?",
-      "respuesta": "<mark>Enlace covalente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/molecula-acido-lactico.png",
+      "question": "<mark>Es como si dos átomos se dieran la mano y compartieran algo</mark>. Suele darse entre elementos no metálicos, como en el agua. ¿Cómo se llama esta unión entre átomos que comparten electrones?",
+      "answer": "<mark>Enlace covalente</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/molecula-acido-lactico.png",
+        "title": "L-Lactic acid molecule ball",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=37680430",
         "alt": "Modelo de bolas y varillas de una molécula con enlaces covalentes",
-        "titulo": "L-Lactic acid molecule ball",
         "autor": "Jynto",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=37680430",
         "licencia": "Dominio público (CC0 1.0)"
       }
     },
     {
-      "pregunta": "<mark>Es como una nube de electrones que envuelve a todos los átomos</mark>. Por eso los metales conducen bien la electricidad. ¿Cómo se llama esta unión característica entre átomos de un mismo metal?",
-      "respuesta": "<mark>Enlace metálico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cables-cobre-bobinas.jpg",
+      "question": "<mark>Es como una nube de electrones que envuelve a todos los átomos</mark>. Por eso los metales conducen bien la electricidad. ¿Cómo se llama esta unión característica entre átomos de un mismo metal?",
+      "answer": "<mark>Enlace metálico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/cables-cobre-bobinas.jpg",
+        "title": "cable seller",
+        "source": "https://www.flickr.com/photos/88654826@N00/25620533495",
         "alt": "Bobinas de cable de cobre, un metal con enlace metálico",
-        "titulo": "cable seller",
         "autor": "Martin Lopatka",
-        "fuente": "https://www.flickr.com/photos/88654826@N00/25620533495",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Las cargas opuestas se atraen con mucha fuerza en estos compuestos. Se necesita mucha energía para separarlas. <mark>Por eso suelen tener puntos de fusión muy altos</mark>. ¿Qué tipo de enlace tienen estos compuestos?",
-      "respuesta": "<mark>Enlace iónico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/hierro-fundido-horno.jpg",
+      "question": "Las cargas opuestas se atraen con mucha fuerza en estos compuestos. Se necesita mucha energía para separarlas. <mark>Por eso suelen tener puntos de fusión muy altos</mark>. ¿Qué tipo de enlace tienen estos compuestos?",
+      "answer": "<mark>Enlace iónico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/hierro-fundido-horno.jpg",
+        "title": "Molten iron from the blast furnace",
+        "source": "https://www.flickr.com/photos/67955891@N04/13713011394",
         "alt": "Hierro fundido a altísima temperatura en un horno",
-        "titulo": "Molten iron from the blast furnace",
         "autor": "UCL Engineering",
-        "fuente": "https://www.flickr.com/photos/67955891@N04/13713011394",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como usar la palabra docena, pero para un número mucho más grande</mark>. Facilita contar átomos y moléculas en cantidades manejables. ¿Cómo se llama esta unidad que permite contar una cantidad enorme de partículas?",
-      "respuesta": "<mark>Mol</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/sala-balanzas-laboratorio.jpg",
+      "question": "<mark>Es como usar la palabra docena, pero para un número mucho más grande</mark>. Facilita contar átomos y moléculas en cantidades manejables. ¿Cómo se llama esta unidad que permite contar una cantidad enorme de partículas?",
+      "answer": "<mark>Mol</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/sala-balanzas-laboratorio.jpg",
+        "title": "Balance and Analysis Room",
+        "source": "https://www.flickr.com/photos/42838315@N02/3964359533",
         "alt": "Una sala de laboratorio con balanzas para pesar sustancias",
-        "titulo": "Balance and Analysis Room",
         "autor": "JohnRH4",
-        "fuente": "https://www.flickr.com/photos/42838315@N02/3964359533",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un número altísimo, siempre el mismo sea cual sea la sustancia. <mark>Es el número de partículas que hay en un mol</mark>. ¿Cómo se llama este número?",
-      "respuesta": "<mark>Constante de Avogadro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/granos-arroz-poblacion.jpg",
+      "question": "Es un número altísimo, siempre el mismo sea cual sea la sustancia. <mark>Es el número de partículas que hay en un mol</mark>. ¿Cómo se llama este número?",
+      "answer": "<mark>Constante de Avogadro</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/granos-arroz-poblacion.jpg",
+        "title": "Of All the People in All the World",
+        "source": "https://www.flickr.com/photos/95342621@N00/2830975900",
         "alt": "Muchísimos granos de arroz representando una cantidad enorme",
-        "titulo": "Of All the People in All the World",
         "autor": "podnosh",
-        "fuente": "https://www.flickr.com/photos/95342621@N00/2830975900",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La masa de un átomo tiene su propio nombre. La masa de un mol entero de esa sustancia tiene otro. <mark>Es como una moneda frente a un mol de monedas</mark>. ¿Cómo se llama esta segunda magnitud, la de un mol entero?",
-      "respuesta": "<mark>Masa molar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/balanza-electronica.jpg",
+      "question": "La masa de un átomo tiene su propio nombre. La masa de un mol entero de esa sustancia tiene otro. <mark>Es como una moneda frente a un mol de monedas</mark>. ¿Cómo se llama esta segunda magnitud, la de un mol entero?",
+      "answer": "<mark>Masa molar</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/balanza-electronica.jpg",
+        "title": "Waga elektroniczna",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=954863",
         "alt": "Una balanza electrónica para medir la masa de una sustancia",
-        "titulo": "Waga elektroniczna",
         "autor": "Stan Zurek",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=954863",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "<mark>Es como medir cuánto azúcar hay disuelto en un litro de agua</mark>. Indica cuántos moles de soluto hay en un litro de disolución. ¿Cómo se llama esta medida?",
-      "respuesta": "<mark>Concentración molar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/vasos-precipitados-laboratorio.jpg",
+      "question": "<mark>Es como medir cuánto azúcar hay disuelto en un litro de agua</mark>. Indica cuántos moles de soluto hay en un litro de disolución. ¿Cómo se llama esta medida?",
+      "answer": "<mark>Concentración molar</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/vasos-precipitados-laboratorio.jpg",
+        "title": "Graduated cylinders and beaker filled with chemical compounds",
+        "source": "https://www.flickr.com/photos/10361931@N06/4273968248",
         "alt": "Vasos de precipitados y probetas con disoluciones de colores",
-        "titulo": "Graduated cylinders and beaker filled with chemical compounds",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4273968248",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Junta las distintas reglas sobre el comportamiento de los gases en una sola. <mark>Une presión, volumen y temperatura en una sola ecuación</mark>. ¿Cómo se llama esta ecuación conjunta?",
-      "respuesta": "<mark>Ley general de los gases</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/matraces-laboratorio.jpg",
+      "question": "Junta las distintas reglas sobre el comportamiento de los gases en una sola. <mark>Une presión, volumen y temperatura en una sola ecuación</mark>. ¿Cómo se llama esta ecuación conjunta?",
+      "answer": "<mark>Ley general de los gases</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/matraces-laboratorio.jpg",
+        "title": "Matraces Rosas",
+        "source": "https://www.flickr.com/photos/141022427@N08/26928919511",
         "alt": "Matraces de laboratorio con líquidos de colores, ejemplo de disoluciones",
-        "titulo": "Matraces Rosas",
         "autor": "vivianaparranoriega",
-        "fuente": "https://www.flickr.com/photos/141022427@N08/26928919511",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>El suero fisiológico o el agua del mar son ejemplos comunes</mark>. Mezclan sustancias de forma homogénea y facilitan muchas reacciones. ¿Cómo se llama este tipo de mezcla homogénea?",
-      "respuesta": "<mark>Disolución</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/cafe-con-azucar.jpg",
+      "question": "<mark>El suero fisiológico o el agua del mar son ejemplos comunes</mark>. Mezclan sustancias de forma homogénea y facilitan muchas reacciones. ¿Cómo se llama este tipo de mezcla homogénea?",
+      "answer": "<mark>Disolución</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/cafe-con-azucar.jpg",
+        "title": "Coffee with Cream and Sugar",
+        "source": "https://www.flickr.com/photos/72949902@N00/6703560771",
         "alt": "Café con azúcar disolviéndose en el líquido",
-        "titulo": "Coffee with Cream and Sugar",
         "autor": "TheCulinaryGeek",
-        "fuente": "https://www.flickr.com/photos/72949902@N00/6703560771",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un diccionario internacional para que todos entiendan el mismo nombre</mark>. Gracias a él, un compuesto se llama igual en todo el mundo. ¿Cómo se llama este sistema oficial de reglas para nombrar compuestos?",
-      "respuesta": "<mark>Nomenclatura IUPAC</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/etiqueta-corrosivo-toxico.jpg",
+      "question": "<mark>Es como un diccionario internacional para que todos entiendan el mismo nombre</mark>. Gracias a él, un compuesto se llama igual en todo el mundo. ¿Cómo se llama este sistema oficial de reglas para nombrar compuestos?",
+      "answer": "<mark>Nomenclatura IUPAC</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/etiqueta-corrosivo-toxico.jpg",
+        "title": "corrosive toxic",
+        "source": "https://www.flickr.com/photos/55408947@N00/3354358214",
         "alt": "Una etiqueta de producto químico con su nombre y símbolos de peligro",
-        "titulo": "corrosive toxic",
         "autor": "healthserviceglasses",
-        "fuente": "https://www.flickr.com/photos/55408947@N00/3354358214",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como tener un único mapa de carreteras, en vez de uno por cada país</mark>. Evita confusiones al hablar de sustancias con nombres parecidos. ¿Cómo se llama este sistema de reglas?",
-      "respuesta": "<mark>Nomenclatura IUPAC</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/set-quimica-vintage.jpg",
+      "question": "<mark>Es como tener un único mapa de carreteras, en vez de uno por cada país</mark>. Evita confusiones al hablar de sustancias con nombres parecidos. ¿Cómo se llama este sistema de reglas?",
+      "answer": "<mark>Nomenclatura IUPAC</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/set-quimica-vintage.jpg",
+        "title": "Vintage Chemistry Sets 9",
+        "source": "https://www.flickr.com/photos/17425845@N00/9431868721",
         "alt": "Un set de química con muchos frascos etiquetados",
-        "titulo": "Vintage Chemistry Sets 9",
         "autor": "oskay",
-        "fuente": "https://www.flickr.com/photos/17425845@N00/9431868721",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como decir que la forma de unir las piezas determina cómo se comporta el conjunto</mark>. Determina si un compuesto conduce electricidad, se disuelve o resiste el calor. ¿Cómo se llama, en general, esta unión entre átomos?",
-      "respuesta": "<mark>Enlace químico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/rocas-minerales.jpg",
+      "question": "<mark>Es como decir que la forma de unir las piezas determina cómo se comporta el conjunto</mark>. Determina si un compuesto conduce electricidad, se disuelve o resiste el calor. ¿Cómo se llama, en general, esta unión entre átomos?",
+      "answer": "<mark>Enlace químico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/rocas-minerales.jpg",
+        "title": "Day 21 - Rocks and Minerals",
+        "source": "https://www.flickr.com/photos/86012097@N08/8009824521",
         "alt": "Rocas y minerales, ejemplos de distintos tipos de enlace y estructura",
-        "titulo": "Day 21 - Rocks and Minerals",
         "autor": "akhenatenator",
-        "fuente": "https://www.flickr.com/photos/86012097@N08/8009824521",
         "licencia": "Dominio público (CC0 1.0)"
       }
     },
     {
-      "pregunta": "<mark>El aceite y el vinagre no se mezclan bien en una botella de aderezo</mark>. Las sustancias iónicas se disuelven bien en agua; los aceites, apenas. ¿Cómo se llama esta capacidad de una sustancia para disolverse en otra?",
-      "respuesta": "<mark>Solubilidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_3/aceite-vinagre-aderezo.jpg",
+      "question": "<mark>El aceite y el vinagre no se mezclan bien en una botella de aderezo</mark>. Las sustancias iónicas se disuelven bien en agua; los aceites, apenas. ¿Cómo se llama esta capacidad de una sustancia para disolverse en otra?",
+      "answer": "<mark>Solubilidad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_3/aceite-vinagre-aderezo.jpg",
+        "title": "What dresses my salads",
+        "source": "https://www.flickr.com/photos/97844767@N00/34581074",
         "alt": "Aceite y vinagre sin mezclarse en una botella de aderezo",
-        "titulo": "What dresses my salads",
         "autor": "WordRidden",
-        "fuente": "https://www.flickr.com/photos/97844767@N00/34581074",
         "licencia": "CC BY 2.0"
       }
     }

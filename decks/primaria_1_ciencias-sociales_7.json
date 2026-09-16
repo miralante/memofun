@@ -1,15 +1,15 @@
 {
-  "tema": "Para qué sirve cada espacio del colegio - 1º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Para qué sirve cada espacio del colegio - 1º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Aquí comemos juntos al mediodía, <mark>como una gran mesa familiar con toda la clase</mark>. Aprendemos a comer bien y a compartir. ¿Cómo se llama este lugar del colegio?",
-      "respuesta": "<mark>Comedor</mark>"
+      "question": "Aquí comemos juntos al mediodía, <mark>como una gran mesa familiar con toda la clase</mark>. Aprendemos a comer bien y a compartir. ¿Cómo se llama este lugar del colegio?",
+      "answer": "<mark>Comedor</mark>"
     },
     {
-      "pregunta": "Aquí hay libros para leer y aprender, <mark>como una cueva llena de tesoros de papel</mark>. Cuidarlos ayuda a que otros también los disfruten. ¿Cómo se llama este lugar del colegio?",
-      "respuesta": "<mark>Biblioteca</mark>"
+      "question": "Aquí hay libros para leer y aprender, <mark>como una cueva llena de tesoros de papel</mark>. Cuidarlos ayuda a que otros también los disfruten. ¿Cómo se llama este lugar del colegio?",
+      "answer": "<mark>Biblioteca</mark>"
     }
   ]
 }

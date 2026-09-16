@@ -1,221 +1,221 @@
 {
-  "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (1º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Ciencias Aplicadas - FP Básica Servicios Administrativos (1º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>El hielo, el agua y el vapor son la misma sustancia en formas distintas</mark>. El calor o el frío cambian la materia de una forma a otra. ¿Cómo se llaman estas tres formas de la materia?",
-      "respuesta": "<mark>Sólido, líquido y gaseoso</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/vapor-agua.jpg",
+      "question": "<mark>El hielo, el agua y el vapor son la misma sustancia en formas distintas</mark>. El calor o el frío cambian la materia de una forma a otra. ¿Cómo se llaman estas tres formas de la materia?",
+      "answer": "<mark>Sólido, líquido y gaseoso</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/vapor-agua.jpg",
+        "title": "The Steaming Cauldron",
+        "source": "https://www.flickr.com/photos/44282411@N04/8168538368",
         "alt": "Un caldero echando vapor de agua",
-        "titulo": "The Steaming Cauldron",
         "autor": "LearningLark",
-        "fuente": "https://www.flickr.com/photos/44282411@N04/8168538368",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Eliges la herramienta correcta según sus características. <mark>El papel, el metal o el plástico se usan para cosas distintas</mark>. Cada uno tiene su propia dureza, peso y resistencia. ¿Cómo se llaman estas características de un material?",
-      "respuesta": "<mark>Propiedades del material</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/herramientas-materiales.jpg",
+      "question": "Eliges la herramienta correcta según sus características. <mark>El papel, el metal o el plástico se usan para cosas distintas</mark>. Cada uno tiene su propia dureza, peso y resistencia. ¿Cómo se llaman estas características de un material?",
+      "answer": "<mark>Propiedades del material</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/herramientas-materiales.jpg",
+        "title": "old tools",
+        "source": "https://www.flickr.com/photos/84906483@N08/8747337118",
         "alt": "Herramientas antiguas hechas de distintos materiales",
-        "titulo": "old tools",
         "autor": "spinster cardigan",
-        "fuente": "https://www.flickr.com/photos/84906483@N08/8747337118",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el combustible invisible que hace que las cosas se muevan o funcionen. <mark>Puede venir del sol, del viento o del petróleo</mark>. ¿Cómo se llama esta capacidad de hacer que algo pase?",
-      "respuesta": "<mark>Energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/paneles-solares.jpg",
+      "question": "Es el combustible invisible que hace que las cosas se muevan o funcionen. <mark>Puede venir del sol, del viento o del petróleo</mark>. ¿Cómo se llama esta capacidad de hacer que algo pase?",
+      "answer": "<mark>Energía</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/paneles-solares.jpg",
+        "title": "solar panels",
+        "source": "https://www.flickr.com/photos/52645928@N00/3414028795",
         "alt": "Paneles solares captando la energía del sol",
-        "titulo": "solar panels",
         "autor": "spanginator",
-        "fuente": "https://www.flickr.com/photos/52645928@N00/3414028795",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>El sol o el viento no se agotan nunca</mark>. El petróleo o el carbón sí se acaban con el tiempo. Unas contaminan mucho menos que las otras. ¿Qué tipo de energía nunca se agota?",
-      "respuesta": "<mark>Energía renovable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/molino-viento.jpg",
+      "question": "<mark>El sol o el viento no se agotan nunca</mark>. El petróleo o el carbón sí se acaban con el tiempo. Unas contaminan mucho menos que las otras. ¿Qué tipo de energía nunca se agota?",
+      "answer": "<mark>Energía renovable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/molino-viento.jpg",
+        "title": "Windmill Electricity Generator",
+        "source": "https://www.flickr.com/photos/64097751@N00/3289290886",
         "alt": "Un molino de viento generando electricidad",
-        "titulo": "Windmill Electricity Generator",
         "autor": "Dominic's pics",
-        "fuente": "https://www.flickr.com/photos/64097751@N00/3289290886",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Le das a tu cuerpo distintos combustibles para que funcione bien. <mark>Comer variado, con frutas, verduras y agua cada día, ayuda mucho</mark>. Evitar el azúcar y la comida procesada también cuenta. ¿Cómo se llama este conjunto de hábitos?",
-      "respuesta": "<mark>Alimentación saludable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/frutas-verduras.jpg",
+      "question": "Le das a tu cuerpo distintos combustibles para que funcione bien. <mark>Comer variado, con frutas, verduras y agua cada día, ayuda mucho</mark>. Evitar el azúcar y la comida procesada también cuenta. ¿Cómo se llama este conjunto de hábitos?",
+      "answer": "<mark>Alimentación saludable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/frutas-verduras.jpg",
+        "title": "Eat healthy fruits and veggies bowl",
+        "source": "https://www.flickr.com/photos/53553325@N06/8543057650",
         "alt": "Un bol lleno de frutas y verduras variadas",
-        "titulo": "Eat healthy fruits and veggies bowl",
         "autor": "Trace Nietert",
-        "fuente": "https://www.flickr.com/photos/53553325@N06/8543057650",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Pones a punto una máquina para que funcione mejor cada día</mark>. El cuerpo funciona igual: moverse cada día marca una diferencia. Fortalece el cuerpo y ayuda a sentirse mejor. ¿Qué actividad conviene hacer de forma regular?",
-      "respuesta": "<mark>Ejercicio físico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/persona-corriendo.jpg",
+      "question": "<mark>Pones a punto una máquina para que funcione mejor cada día</mark>. El cuerpo funciona igual: moverse cada día marca una diferencia. Fortalece el cuerpo y ayuda a sentirse mejor. ¿Qué actividad conviene hacer de forma regular?",
+      "answer": "<mark>Ejercicio físico</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/persona-corriendo.jpg",
+        "title": "Free person jogging park image",
+        "source": "https://www.rawpixel.com/image/5915019/image-public-domain-trees-nature",
         "alt": "Una persona haciendo ejercicio corriendo en un parque",
-        "titulo": "Free person jogging park image",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/5915019/image-public-domain-trees-nature",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>El estómago, los pulmones, el corazón y los nervios hacen trabajos distintos</mark>. Todos están conectados entre sí. Conocerlos ayuda a cuidar mejor tu salud. ¿Cómo se llaman estas partes del cuerpo que trabajan juntas?",
-      "respuesta": "<mark>Sistemas del cuerpo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/organos-cuerpo-humano.jpg",
+      "question": "<mark>El estómago, los pulmones, el corazón y los nervios hacen trabajos distintos</mark>. Todos están conectados entre sí. Conocerlos ayuda a cuidar mejor tu salud. ¿Cómo se llaman estas partes del cuerpo que trabajan juntas?",
+      "answer": "<mark>Sistemas del cuerpo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/organos-cuerpo-humano.jpg",
+        "title": "Internal Organs of the Human Body from The Household Physician, 1905",
+        "source": "https://www.flickr.com/photos/88645472@N00/6404030777",
         "alt": "Un dibujo con los órganos internos del cuerpo humano",
-        "titulo": "Internal Organs of the Human Body from The Household Physician, 1905",
         "autor": "crackdog",
-        "fuente": "https://www.flickr.com/photos/88645472@N00/6404030777",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Mantienes limpia y ordenada tu propia casa para vivir mejor</mark>. Con el cuerpo se hace algo parecido: lavarse y vestir limpio. Ayuda a prevenir enfermedades. ¿Cómo se llama este cuidado del propio cuerpo?",
-      "respuesta": "<mark>Higiene personal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/lavado-manos.jpg",
+      "question": "<mark>Mantienes limpia y ordenada tu propia casa para vivir mejor</mark>. Con el cuerpo se hace algo parecido: lavarse y vestir limpio. Ayuda a prevenir enfermedades. ¿Cómo se llama este cuidado del propio cuerpo?",
+      "answer": "<mark>Higiene personal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/lavado-manos.jpg",
+        "title": "Woman washing hands soap. Photo",
+        "source": "https://www.rawpixel.com/image/8708834/photo-image-public-domain-covid19-woman",
         "alt": "Una persona lavándose las manos con jabón",
-        "titulo": "Woman washing hands soap. Photo",
         "autor": "U.S. Agency for International Development",
-        "fuente": "https://www.rawpixel.com/image/8708834/photo-image-public-domain-covid19-woman",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Mantienes ordenada una mesa de trabajo para encontrar todo más rápido</mark>. Un espacio limpio es también más seguro y agradable. Transmite buena imagen a compañeros y clientes. ¿Qué conviene cuidar siempre en el puesto de trabajo?",
-      "respuesta": "<mark>La higiene</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/mesa-trabajo-ordenada.jpg",
+      "question": "<mark>Mantienes ordenada una mesa de trabajo para encontrar todo más rápido</mark>. Un espacio limpio es también más seguro y agradable. Transmite buena imagen a compañeros y clientes. ¿Qué conviene cuidar siempre en el puesto de trabajo?",
+      "answer": "<mark>La higiene</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/mesa-trabajo-ordenada.jpg",
+        "title": "My Workplace",
+        "source": "https://www.flickr.com/photos/59023810@N00/351627560",
         "alt": "Una mesa de trabajo ordenada y limpia",
-        "titulo": "My Workplace",
         "autor": "letmehearyousaydeskomdeskom",
-        "fuente": "https://www.flickr.com/photos/59023810@N00/351627560",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Le das una segunda vida a algo, en vez de tirarlo directamente</mark>. Separar los residuos por tipo permite reutilizarlos. Reduce la basura que se genera. ¿Cómo se llama esta forma de tratar los residuos?",
-      "respuesta": "<mark>Reciclaje</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/contenedor-reciclaje.jpg",
+      "question": "<mark>Le das una segunda vida a algo, en vez de tirarlo directamente</mark>. Separar los residuos por tipo permite reutilizarlos. Reduce la basura que se genera. ¿Cómo se llama esta forma de tratar los residuos?",
+      "answer": "<mark>Reciclaje</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/contenedor-reciclaje.jpg",
+        "title": "Contenedor reciclaje Gailu",
+        "source": "https://www.flickr.com/photos/11737625@N00/15251443658",
         "alt": "Un contenedor de reciclaje para separar residuos",
-        "titulo": "Contenedor reciclaje Gailu",
         "autor": "jamoral",
-        "fuente": "https://www.flickr.com/photos/11737625@N00/15251443658",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cada cosa va a su cajón correspondiente en un escritorio ordenado</mark>. En una oficina pasa igual: cada residuo va a un contenedor distinto. Separarlos bien facilita el reciclaje. ¿Qué tipos de residuos se separan en una oficina?",
-      "respuesta": "<mark>Papel, plástico y generales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/contenedor-reciclaje-oficina.jpg",
+      "question": "<mark>Cada cosa va a su cajón correspondiente en un escritorio ordenado</mark>. En una oficina pasa igual: cada residuo va a un contenedor distinto. Separarlos bien facilita el reciclaje. ¿Qué tipos de residuos se separan en una oficina?",
+      "answer": "<mark>Papel, plástico y generales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/contenedor-reciclaje-oficina.jpg",
+        "title": "my recycle bin",
+        "source": "https://www.flickr.com/photos/99559796@N00/4258132179",
         "alt": "Un contenedor de reciclaje de papel",
-        "titulo": "my recycle bin",
         "autor": "akakumo",
-        "fuente": "https://www.flickr.com/photos/99559796@N00/4258132179",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un recurso compartido se agota si todo el mundo lo malgasta</mark>. Parece abundante, pero es limitada. Cerrar bien los grifos ayuda a cuidarla. ¿Qué recurso hay que cuidar siempre en casa y en el trabajo?",
-      "respuesta": "<mark>El agua</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/grifo-agua.jpg",
+      "question": "<mark>Un recurso compartido se agota si todo el mundo lo malgasta</mark>. Parece abundante, pero es limitada. Cerrar bien los grifos ayuda a cuidarla. ¿Qué recurso hay que cuidar siempre en casa y en el trabajo?",
+      "answer": "<mark>El agua</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/grifo-agua.jpg",
+        "title": "Water tap illustration",
+        "source": "https://www.rawpixel.com/image/6754862/image-public-domain-blue-illustrations",
         "alt": "Un grifo de agua, símbolo de cuidar este recurso",
-        "titulo": "Water tap illustration",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/6754862/image-public-domain-blue-illustrations",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Son peligros menos evidentes que los de una obra, pero igual de reales. <mark>Malas posturas, cables sueltos o exceso de peso al levantar cajas son ejemplos</mark>. Prevenirlos incluye organizar bien el espacio. ¿Cómo se llaman estos peligros en una oficina?",
-      "respuesta": "<mark>Riesgos laborales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/cables-enredados.jpg",
+      "question": "Son peligros menos evidentes que los de una obra, pero igual de reales. <mark>Malas posturas, cables sueltos o exceso de peso al levantar cajas son ejemplos</mark>. Prevenirlos incluye organizar bien el espacio. ¿Cómo se llaman estos peligros en una oficina?",
+      "answer": "<mark>Riesgos laborales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/cables-enredados.jpg",
+        "title": "Computer Mess",
+        "source": "https://www.flickr.com/photos/68975104@N00/55025940",
         "alt": "Cables de ordenador enredados en un escritorio",
-        "titulo": "Computer Mess",
         "autor": "phil_g",
-        "fuente": "https://www.flickr.com/photos/68975104@N00/55025940",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Acomodas bien un asiento antes de un viaje largo</mark>. Ajustar la silla y la pantalla, y hacer pausas, funciona igual. Mantener la espalda recta evita dolores. ¿Qué conviene cuidar al trabajar sentado?",
-      "respuesta": "<mark>La postura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/silla-oficina.jpg",
+      "question": "<mark>Acomodas bien un asiento antes de un viaje largo</mark>. Ajustar la silla y la pantalla, y hacer pausas, funciona igual. Mantener la espalda recta evita dolores. ¿Qué conviene cuidar al trabajar sentado?",
+      "answer": "<mark>La postura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/silla-oficina.jpg",
+        "title": "my new office chair at work",
+        "source": "https://www.flickr.com/photos/81981117@N00/6269216038",
         "alt": "Una silla de oficina ergonómica",
-        "titulo": "my new office chair at work",
         "autor": "SafeTinspector",
-        "fuente": "https://www.flickr.com/photos/81981117@N00/6269216038",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Das un apoyo inicial a alguien, sin sustituir a un médico</mark>. Son las acciones que ayudan antes de que llegue ayuda profesional. Conocerlas puede marcar la diferencia en una emergencia. ¿Cómo se llaman estas acciones de urgencia?",
-      "respuesta": "<mark>Primeros auxilios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/botiquin-primeros-auxilios.jpg",
+      "question": "<mark>Das un apoyo inicial a alguien, sin sustituir a un médico</mark>. Son las acciones que ayudan antes de que llegue ayuda profesional. Conocerlas puede marcar la diferencia en una emergencia. ¿Cómo se llaman estas acciones de urgencia?",
+      "answer": "<mark>Primeros auxilios</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/botiquin-primeros-auxilios.jpg",
+        "title": "Botiquín primeros auxilios",
+        "source": "https://www.flickr.com/photos/47510517@N06/5074776677",
         "alt": "Un botiquín de primeros auxilios",
-        "titulo": "Botiquín primeros auxilios",
         "autor": "IMA Neuquen",
-        "fuente": "https://www.flickr.com/photos/47510517@N06/5074776677",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Sigues unos pasos fijos, sin actuar de forma precipitada. <mark>Ante un accidente leve, mantén la calma, valora la situación y pide ayuda si hace falta</mark>. Avisar a la persona responsable de prevención también importa. ¿Qué debes seguir ante un accidente leve?",
-      "respuesta": "<mark>Un protocolo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/aviso-primeros-auxilios.jpg",
+      "question": "Sigues unos pasos fijos, sin actuar de forma precipitada. <mark>Ante un accidente leve, mantén la calma, valora la situación y pide ayuda si hace falta</mark>. Avisar a la persona responsable de prevención también importa. ¿Qué debes seguir ante un accidente leve?",
+      "answer": "<mark>Un protocolo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/aviso-primeros-auxilios.jpg",
+        "title": "First aid notice, England, 1901-1950",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=36210736",
         "alt": "Un antiguo aviso informativo sobre primeros auxilios",
-        "titulo": "First aid notice, England, 1901-1950",
         "autor": "(autor desconocido)",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=36210736",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Usas pequeños conocimientos para decisiones cotidianas. <mark>Desde reciclar hasta sentarse bien, hay una razón detrás de cada gesto</mark>. Ayuda a cuidar la salud, el ambiente y la seguridad en el trabajo. ¿Cómo se llama usar la ciencia en la vida diaria?",
-      "respuesta": "<mark>Ciencia aplicada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/escritorio-multimedia.jpg",
+      "question": "Usas pequeños conocimientos para decisiones cotidianas. <mark>Desde reciclar hasta sentarse bien, hay una razón detrás de cada gesto</mark>. Ayuda a cuidar la salud, el ambiente y la seguridad en el trabajo. ¿Cómo se llama usar la ciencia en la vida diaria?",
+      "answer": "<mark>Ciencia aplicada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/escritorio-multimedia.jpg",
+        "title": "multimedia desk",
+        "source": "https://www.flickr.com/photos/48889108472@N01/147348118",
         "alt": "Un escritorio de oficina con ordenador y equipo multimedia",
-        "titulo": "multimedia desk",
         "autor": "grantlairdjr",
-        "fuente": "https://www.flickr.com/photos/48889108472@N01/147348118",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sumas pequeños gestos que, juntos, marcan una diferencia real. Cada empresa, por pequeña que sea, genera un impacto en su entorno. <mark>Reciclar, ahorrar energía o cuidar el agua son gestos que suman</mark>. ¿De qué es responsable también una oficina?",
-      "respuesta": "<mark>Del medio ambiente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/planta-escritorio.jpg",
+      "question": "Sumas pequeños gestos que, juntos, marcan una diferencia real. Cada empresa, por pequeña que sea, genera un impacto en su entorno. <mark>Reciclar, ahorrar energía o cuidar el agua son gestos que suman</mark>. ¿De qué es responsable también una oficina?",
+      "answer": "<mark>Del medio ambiente</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_ciencias-aplicadas/planta-escritorio.jpg",
+        "title": "office table top with laptop, potted plant, wheeled clock and magazines",
+        "source": "https://www.flickr.com/photos/127365614@N08/16182138494",
         "alt": "Una mesa de oficina con una planta, un portátil y un reloj",
-        "titulo": "office table top with laptop, potted plant, wheeled clock and magazines",
         "autor": "ProFlowers.com",
-        "fuente": "https://www.flickr.com/photos/127365614@N08/16182138494",
         "licencia": "CC BY 2.0"
       }
     }

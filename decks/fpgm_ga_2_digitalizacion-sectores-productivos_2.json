@@ -1,125 +1,125 @@
 {
-  "tema": "Tecnologías habilitadoras: IoT, Big Data y más - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Tecnologías habilitadoras: IoT, Big Data y más - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "La economía lineal fabrica, usa y tira. Este otro modelo reutiliza y reduce residuos. <mark>Es como cambiar una línea recta que acaba en la basura por un bucle que vuelve a empezar</mark>. ¿Cómo se llama este modelo?",
-      "respuesta": "<mark>Economía circular</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/reciclaje-circular.png",
+      "question": "La economía lineal fabrica, usa y tira. Este otro modelo reutiliza y reduce residuos. <mark>Es como cambiar una línea recta que acaba en la basura por un bucle que vuelve a empezar</mark>. ¿Cómo se llama este modelo?",
+      "answer": "<mark>Economía circular</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/reciclaje-circular.png",
+        "title": "Road to Zero Waste Logo",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=156267072",
         "alt": "Simbolo de reciclaje que representa la economia circular",
-        "titulo": "Road to Zero Waste Logo",
         "autor": "LC.zemog",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=156267072",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es la etapa actual en la que la tecnología digital transforma las empresas. <mark>Es como un nuevo gran salto, después de la máquina de vapor o la electricidad</mark>. Incluye internet y la inteligencia artificial. ¿Cómo se llama esta etapa?",
-      "respuesta": "<mark>Cuarta revolución industrial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+      "question": "Es la etapa actual en la que la tecnología digital transforma las empresas. <mark>Es como un nuevo gran salto, después de la máquina de vapor o la electricidad</mark>. Incluye internet y la inteligencia artificial. ¿Cómo se llama esta etapa?",
+      "answer": "<mark>Cuarta revolución industrial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+        "title": "Tesla Motors Assembly Line",
+        "source": "https://www.flickr.com/photos/44124348109@N01/6858583426",
         "alt": "Linea de montaje automatizada en una fabrica moderna",
-        "titulo": "Tesla Motors Assembly Line",
         "autor": "jurvetson",
-        "fuente": "https://www.flickr.com/photos/44124348109@N01/6858583426",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En una empresa, el entorno IT gestiona la información, como los ordenadores y los datos. Este otro campo controla las máquinas e instalaciones físicas. <mark>Es como el sistema nervioso que mueve el cuerpo, no el que piensa</mark>. ¿Cómo se llama el entorno que controla los procesos físicos?",
-      "respuesta": "<mark>Entorno OT</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+      "question": "En una empresa, el entorno IT gestiona la información, como los ordenadores y los datos. Este otro campo controla las máquinas e instalaciones físicas. <mark>Es como el sistema nervioso que mueve el cuerpo, no el que piensa</mark>. ¿Cómo se llama el entorno que controla los procesos físicos?",
+      "answer": "<mark>Entorno OT</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+        "title": "Tesla Motors Assembly Line",
+        "source": "https://www.flickr.com/photos/44124348109@N01/6858583426",
         "alt": "Linea de montaje automatizada en una fabrica moderna",
-        "titulo": "Tesla Motors Assembly Line",
         "autor": "jurvetson",
-        "fuente": "https://www.flickr.com/photos/44124348109@N01/6858583426",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la conexión de objetos cotidianos a la red, para enviar y recibir datos. <mark>Es como si una impresora o un termostato pudieran 'hablar' entre sí a distancia</mark>. Permite controlarlos desde lejos. ¿Cómo se llama esta tecnología?",
-      "respuesta": "<mark>Internet de las cosas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/dispositivo-conectado.jpg",
+      "question": "Es la conexión de objetos cotidianos a la red, para enviar y recibir datos. <mark>Es como si una impresora o un termostato pudieran 'hablar' entre sí a distancia</mark>. Permite controlarlos desde lejos. ¿Cómo se llama esta tecnología?",
+      "answer": "<mark>Internet de las cosas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/dispositivo-conectado.jpg",
+        "title": "Withings",
+        "source": "https://www.flickr.com/photos/75654647@N05/15174524016",
         "alt": "Un dispositivo inteligente conectado a internet",
-        "titulo": "Withings",
         "autor": "code of the new",
-        "fuente": "https://www.flickr.com/photos/75654647@N05/15174524016",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la gestión de cantidades enormes de datos para tomar mejores decisiones. <mark>Es como escuchar miles de conversaciones a la vez para descubrir un patrón oculto</mark>. ¿Cómo se llama este análisis de grandes datos?",
-      "respuesta": "<mark>Big Data</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/grafico-datos.jpg",
+      "question": "Es la gestión de cantidades enormes de datos para tomar mejores decisiones. <mark>Es como escuchar miles de conversaciones a la vez para descubrir un patrón oculto</mark>. ¿Cómo se llama este análisis de grandes datos?",
+      "answer": "<mark>Big Data</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/grafico-datos.jpg",
+        "title": "WordPress Graphical Post Count Visualization",
+        "source": "https://www.flickr.com/photos/37996599088@N01/4356884087",
         "alt": "Un grafico con grandes cantidades de datos representados visualmente",
-        "titulo": "WordPress Graphical Post Count Visualization",
         "autor": "Joe Crawford (artlung)",
-        "fuente": "https://www.flickr.com/photos/37996599088@N01/4356884087",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son robots que trabajan junto a personas, sin sustituirlas del todo. <mark>Es como tener un compañero mecánico que ayuda en tareas repetitivas o pesadas</mark>. Se usan cada vez más fuera de las fábricas. ¿Cómo se llama este tipo de robots?",
-      "respuesta": "<mark>Robótica colaborativa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/brazo-robotico.jpg",
+      "question": "Son robots que trabajan junto a personas, sin sustituirlas del todo. <mark>Es como tener un compañero mecánico que ayuda en tareas repetitivas o pesadas</mark>. Se usan cada vez más fuera de las fábricas. ¿Cómo se llama este tipo de robots?",
+      "answer": "<mark>Robótica colaborativa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/brazo-robotico.jpg",
+        "title": "Robotic arm machine in the lab",
+        "source": "https://www.rawpixel.com/image/4042554/photo-image-technology-table-wall",
         "alt": "Un brazo robótico en un laboratorio",
-        "titulo": "Robotic arm machine in the lab",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/4042554/photo-image-technology-table-wall",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es un sistema que guarda información difícil de falsificar o borrar. <mark>Es como un cuaderno compartido donde nadie puede cambiar lo ya escrito a escondidas</mark>. ¿Cómo se llama este sistema?",
-      "respuesta": "<mark>Blockchain</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/cadena-eslabones.jpg",
+      "question": "Es un sistema que guarda información difícil de falsificar o borrar. <mark>Es como un cuaderno compartido donde nadie puede cambiar lo ya escrito a escondidas</mark>. ¿Cómo se llama este sistema?",
+      "answer": "<mark>Blockchain</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/cadena-eslabones.jpg",
+        "title": "Close-up of large rusty chain links",
+        "source": "https://www.flickr.com/photos/10361931@N06/4439643419",
         "alt": "Primer plano de eslabones de una cadena metalica",
-        "titulo": "Close-up of large rusty chain links",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4439643419",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esta técnica construye piezas capa a capa. <mark>Es como una impresora 3D, que va sumando capas hasta formar el objeto</mark>. Es distinta de la realidad virtual, que simula entornos digitales. ¿Cómo se llama la técnica que crea piezas capa a capa?",
-      "respuesta": "<mark>Fabricación aditiva</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/impresora-3d.jpg",
+      "question": "Esta técnica construye piezas capa a capa. <mark>Es como una impresora 3D, que va sumando capas hasta formar el objeto</mark>. Es distinta de la realidad virtual, que simula entornos digitales. ¿Cómo se llama la técnica que crea piezas capa a capa?",
+      "answer": "<mark>Fabricación aditiva</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/impresora-3d.jpg",
+        "title": "Universal stand-alone filament spool holder (Fully 3D-printable)",
+        "source": "https://www.flickr.com/photos/33907867@N02/15573261729",
         "alt": "Una pieza fabricada con una impresora 3D",
-        "titulo": "Universal stand-alone filament spool holder (Fully 3D-printable)",
         "autor": "Creative Tools",
-        "fuente": "https://www.flickr.com/photos/33907867@N02/15573261729",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento que organiza, paso a paso, cómo incorporar tecnología a la empresa. <mark>Es como una hoja de ruta para no improvisar</mark>. Marca prioridades, plazos y recursos. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Plan de transformación digital</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/gafas-realidad-virtual.jpg",
+      "question": "Es un documento que organiza, paso a paso, cómo incorporar tecnología a la empresa. <mark>Es como una hoja de ruta para no improvisar</mark>. Marca prioridades, plazos y recursos. ¿Cómo se llama este documento?",
+      "answer": "<mark>Plan de transformación digital</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/gafas-realidad-virtual.jpg",
+        "title": "Virtual Reality Headset",
+        "source": "https://www.flickr.com/photos/14405058@N08/3732730806",
         "alt": "Unas gafas de realidad virtual",
-        "titulo": "Virtual Reality Headset",
         "autor": "Ryan Somma",
-        "fuente": "https://www.flickr.com/photos/14405058@N08/3732730806",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Cada vez más empresas usan estas tecnologías en su día a día. <mark>Es como saber lo básico de un idioma que se habla cada vez más a tu alrededor</mark>. Entenderlas facilita el cambio a nuevas formas de trabajar. ¿Por qué conviene conocerlas aunque no trabajes directamente con ellas?",
-      "respuesta": "<mark>Para adaptarse al trabajo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+      "question": "Cada vez más empresas usan estas tecnologías en su día a día. <mark>Es como saber lo básico de un idioma que se habla cada vez más a tu alrededor</mark>. Entenderlas facilita el cambio a nuevas formas de trabajar. ¿Por qué conviene conocerlas aunque no trabajes directamente con ellas?",
+      "answer": "<mark>Para adaptarse al trabajo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_digitalizacion-sectores-productivos_2/fabrica-automatizada.jpg",
+        "title": "Tesla Motors Assembly Line",
+        "source": "https://www.flickr.com/photos/44124348109@N01/6858583426",
         "alt": "Linea de montaje automatizada en una fabrica moderna",
-        "titulo": "Tesla Motors Assembly Line",
         "autor": "jurvetson",
-        "fuente": "https://www.flickr.com/photos/44124348109@N01/6858583426",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,197 +1,197 @@
 {
-  "tema": "El cuerpo humano: la nutrición - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El cuerpo humano: la nutrición - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "El cuerpo se organiza en niveles, cada uno más complejo que el anterior. <mark>Es como piezas que se van juntando: ladrillo, pared, habitación y casa entera</mark>. Esa organización permite que el cuerpo funcione de forma coordinada. ¿Cuáles son estos cuatro niveles, del más simple al más complejo?",
-      "respuesta": "<mark>Célula, tejido, órgano y aparato</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/organos-cuerpo-humano.jpg",
+      "question": "El cuerpo se organiza en niveles, cada uno más complejo que el anterior. <mark>Es como piezas que se van juntando: ladrillo, pared, habitación y casa entera</mark>. Esa organización permite que el cuerpo funcione de forma coordinada. ¿Cuáles son estos cuatro niveles, del más simple al más complejo?",
+      "answer": "<mark>Célula, tejido, órgano y aparato</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/organos-cuerpo-humano.jpg",
+        "title": "Internal Organs of the Human Body from The Household Physician, 1905",
+        "source": "https://www.flickr.com/photos/88645472@N00/6404030777",
         "alt": "Ilustración antigua de los órganos internos del cuerpo humano",
-        "titulo": "Internal Organs of the Human Body from The Household Physician, 1905",
         "autor": "crackdog",
-        "fuente": "https://www.flickr.com/photos/88645472@N00/6404030777",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un grupo de células parecidas que trabajan juntas con la misma función. <mark>Es como un equipo de trabajadores especializados en la misma tarea</mark>. Varios de estos grupos distintos forman después un órgano completo. ¿Cómo se llama este grupo de células?",
-      "respuesta": "<mark>Tejido</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/tejido-histologia.jpg",
+      "question": "Es un grupo de células parecidas que trabajan juntas con la misma función. <mark>Es como un equipo de trabajadores especializados en la misma tarea</mark>. Varios de estos grupos distintos forman después un órgano completo. ¿Cómo se llama este grupo de células?",
+      "answer": "<mark>Tejido</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/tejido-histologia.jpg",
+        "title": "003-Histology: science meets art",
+        "source": "https://www.flickr.com/photos/125989912@N08/18705201343",
         "alt": "Imagen microscópica de un tejido del cuerpo, con sus células",
-        "titulo": "003-Histology: science meets art",
         "autor": "nimrlondon",
-        "fuente": "https://www.flickr.com/photos/125989912@N08/18705201343",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de procesos que transforman alimento en energía. <mark>Es como el motor de un coche, que convierte combustible en movimiento</mark>. En ella participan los aparatos digestivo, respiratorio, circulatorio y excretor. ¿Cómo se llama esta función?",
-      "respuesta": "<mark>Función de nutrición</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras-sanas.jpg",
+      "question": "Es el conjunto de procesos que transforman alimento en energía. <mark>Es como el motor de un coche, que convierte combustible en movimiento</mark>. En ella participan los aparatos digestivo, respiratorio, circulatorio y excretor. ¿Cómo se llama esta función?",
+      "answer": "<mark>Función de nutrición</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras-sanas.jpg",
+        "title": "Eat healthy fruits and veggies bowl",
+        "source": "https://www.flickr.com/photos/53553325@N06/8543057650",
         "alt": "Un bol de frutas y verduras frescas y sanas",
-        "titulo": "Eat healthy fruits and veggies bowl",
         "autor": "Trace Nietert",
-        "fuente": "https://www.flickr.com/photos/53553325@N06/8543057650",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Transforma los alimentos en sustancias que el cuerpo puede aprovechar. <mark>Es como una fábrica que descompone la comida en piezas pequeñas y útiles</mark>. Incluye la boca, el esófago, el estómago y el intestino, entre otros. ¿Cómo se llama este aparato?",
-      "respuesta": "<mark>Aparato digestivo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/aparato-digestivo.jpg",
+      "question": "Transforma los alimentos en sustancias que el cuerpo puede aprovechar. <mark>Es como una fábrica que descompone la comida en piezas pequeñas y útiles</mark>. Incluye la boca, el esófago, el estómago y el intestino, entre otros. ¿Cómo se llama este aparato?",
+      "answer": "<mark>Aparato digestivo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/aparato-digestivo.jpg",
+        "title": "Large Scale Digestive System Diagram. Framed Wall Hanging. Hand Embroidery.",
+        "source": "https://www.flickr.com/photos/45257015@N03/8480135160",
         "alt": "Diagrama del aparato digestivo humano",
-        "titulo": "Large Scale Digestive System Diagram. Framed Wall Hanging. Hand Embroidery.",
         "autor": "Hey Paul Studios",
-        "fuente": "https://www.flickr.com/photos/45257015@N03/8480135160",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el proceso de descomponer los alimentos en partes muy pequeñas. <mark>Es como triturar y deshacer la comida hasta que el cuerpo pueda absorberla</mark>. Empieza en la boca, al masticar, y continúa en el estómago y el intestino. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Digestión</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/comida-plato.jpg",
+      "question": "Es el proceso de descomponer los alimentos en partes muy pequeñas. <mark>Es como triturar y deshacer la comida hasta que el cuerpo pueda absorberla</mark>. Empieza en la boca, al masticar, y continúa en el estómago y el intestino. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Digestión</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/comida-plato.jpg",
+        "title": "Delicious food - hot chicken with rice",
+        "source": "https://www.flickr.com/photos/42931449@N07/5260510345",
         "alt": "Un plato de comida apetitosa, lista para comer",
-        "titulo": "Delicious food - hot chicken with rice",
         "autor": "photosteve101",
-        "fuente": "https://www.flickr.com/photos/42931449@N07/5260510345",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Permite tomar oxígeno del aire y expulsar dióxido de carbono. <mark>Es como un intercambiador constante de aire limpio por aire usado</mark>. Incluye la nariz, la tráquea y los pulmones. ¿Cómo se llama este aparato?",
-      "respuesta": "<mark>Aparato respiratorio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/pulmones-intercambio-gaseoso.jpg",
+      "question": "Permite tomar oxígeno del aire y expulsar dióxido de carbono. <mark>Es como un intercambiador constante de aire limpio por aire usado</mark>. Incluye la nariz, la tráquea y los pulmones. ¿Cómo se llama este aparato?",
+      "answer": "<mark>Aparato respiratorio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/pulmones-intercambio-gaseoso.jpg",
+        "title": "Diagram of Gas Exchange in Mammalian Lungs",
+        "source": "https://www.flickr.com/photos/80454089@N00/29625696014",
         "alt": "Diagrama del intercambio de gases en los pulmones",
-        "titulo": "Diagram of Gas Exchange in Mammalian Lungs",
         "autor": "Chic Bee",
-        "fuente": "https://www.flickr.com/photos/80454089@N00/29625696014",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El oxígeno del aire pasa a la sangre, y el dióxido de carbono sale de ella. Es un intercambio constante, <mark>como cambiar cromos entre dos personas</mark>. Así, la sangre lleva oxígeno a todo el cuerpo. ¿Cómo se llaman las estructuras diminutas donde ocurre este intercambio?",
-      "respuesta": "<mark>Alvéolos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/pulmon-diagrama.png",
+      "question": "El oxígeno del aire pasa a la sangre, y el dióxido de carbono sale de ella. Es un intercambio constante, <mark>como cambiar cromos entre dos personas</mark>. Así, la sangre lleva oxígeno a todo el cuerpo. ¿Cómo se llaman las estructuras diminutas donde ocurre este intercambio?",
+      "answer": "<mark>Alvéolos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/pulmon-diagrama.png",
+        "title": "Iron lung action diagrams",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=89061094",
         "alt": "Diagrama que muestra cómo se mueven los pulmones al respirar",
-        "titulo": "Iron lung action diagrams",
         "autor": "Penlite",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=89061094",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Transporta la sangre, y con ella oxígeno y nutrientes, por todo el cuerpo. <mark>Es como una red de carreteras que reparte suministros a cada rincón del cuerpo</mark>. Incluye el corazón, las venas y las arterias. ¿Cómo se llama este aparato?",
-      "respuesta": "<mark>Aparato circulatorio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/modelo-corazon.jpg",
+      "question": "Transporta la sangre, y con ella oxígeno y nutrientes, por todo el cuerpo. <mark>Es como una red de carreteras que reparte suministros a cada rincón del cuerpo</mark>. Incluye el corazón, las venas y las arterias. ¿Cómo se llama este aparato?",
+      "answer": "<mark>Aparato circulatorio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/modelo-corazon.jpg",
+        "title": "Model - Human Heart, W. Ramsay Surgical Co, 1962",
+        "source": "https://collections.museumsvictoria.com.au/items/404033",
         "alt": "Un modelo del corazón humano usado para estudiar el aparato circulatorio",
-        "titulo": "Model - Human Heart, W. Ramsay Surgical Co, 1962",
         "autor": "Photographer: Rodney Start",
-        "fuente": "https://collections.museumsvictoria.com.au/items/404033",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Bombea la sangre para que circule por todo el cuerpo sin parar. <mark>Es como una bomba que trabaja sin descanso, día y noche</mark>. Se contrae y se relaja miles de veces cada día. ¿Qué órgano cumple esta función?",
-      "respuesta": "<mark>Corazón</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/corazon-real.png",
+      "question": "Bombea la sangre para que circule por todo el cuerpo sin parar. <mark>Es como una bomba que trabaja sin descanso, día y noche</mark>. Se contrae y se relaja miles de veces cada día. ¿Qué órgano cumple esta función?",
+      "answer": "<mark>Corazón</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/corazon-real.png",
+        "title": "Cuore vero",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=196673427",
         "alt": "Un corazón real, el órgano que bombea la sangre por el cuerpo",
-        "titulo": "Cuore vero",
         "autor": "Cuore58",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196673427",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Un tipo de vaso lleva sangre desde el corazón hacia el resto del cuerpo. El otro devuelve la sangre de vuelta hacia el corazón. <mark>Ambos forman parte de la misma red de transporte sanguíneo</mark>. ¿Cómo se llama cada uno de estos vasos?",
-      "respuesta": "<mark>Arterias y venas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/vasos-sanguineos.jpg",
+      "question": "Un tipo de vaso lleva sangre desde el corazón hacia el resto del cuerpo. El otro devuelve la sangre de vuelta hacia el corazón. <mark>Ambos forman parte de la misma red de transporte sanguíneo</mark>. ¿Cómo se llama cada uno de estos vasos?",
+      "answer": "<mark>Arterias y venas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/vasos-sanguineos.jpg",
+        "title": "blood-1813410",
+        "source": "https://www.flickr.com/photos/28826830@N00/24557588028",
         "alt": "Un primer plano de vasos sanguíneos por donde circula la sangre",
-        "titulo": "blood-1813410",
         "autor": "exit78",
-        "fuente": "https://www.flickr.com/photos/28826830@N00/24557588028",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Elimina del cuerpo las sustancias de desecho que ya no sirven. <mark>Es como el sistema de limpieza que saca la basura de una casa</mark>. Los riñones filtran la sangre y producen la orina. ¿Cómo se llama este aparato?",
-      "respuesta": "<mark>Aparato excretor</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/torax-abdomen.jpg",
+      "question": "Elimina del cuerpo las sustancias de desecho que ya no sirven. <mark>Es como el sistema de limpieza que saca la basura de una casa</mark>. Los riñones filtran la sangre y producen la orina. ¿Cómo se llama este aparato?",
+      "answer": "<mark>Aparato excretor</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/torax-abdomen.jpg",
+        "title": "Dissection of the thorax and abdomen",
+        "source": "https://www.flickr.com/photos/34861056@N05/12288505633",
         "alt": "Ilustración antigua de la disección del tórax y el abdomen",
-        "titulo": "Dissection of the thorax and abdomen",
         "autor": "Thomas Fisher Rare Book Library, UofT",
-        "fuente": "https://www.flickr.com/photos/34861056@N05/12288505633",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Filtran la sangre y eliminan las sustancias que el cuerpo no necesita. <mark>Actúan como un filtro de agua, quedándose con lo bueno y expulsando lo malo</mark>. Su trabajo es constante, incluso mientras dormimos. ¿Qué órganos cumplen esta función?",
-      "respuesta": "<mark>Riñones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/rinon-ilustracion.jpg",
+      "question": "Filtran la sangre y eliminan las sustancias que el cuerpo no necesita. <mark>Actúan como un filtro de agua, quedándose con lo bueno y expulsando lo malo</mark>. Su trabajo es constante, incluso mientras dormimos. ¿Qué órganos cumplen esta función?",
+      "answer": "<mark>Riñones</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/rinon-ilustracion.jpg",
+        "title": "Kidney Art",
+        "source": "https://www.flickr.com/photos/45257015@N03/6122228099",
         "alt": "Ilustración artística de un riñón humano",
-        "titulo": "Kidney Art",
         "autor": "Hey Paul Studios",
-        "fuente": "https://www.flickr.com/photos/45257015@N03/6122228099",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cada aparato depende del trabajo de los demás para funcionar bien. <mark>Es como un equipo donde cada jugador necesita que los otros hagan bien su parte</mark>. El digestivo aporta nutrientes; el respiratorio, oxígeno; el circulatorio los reparte; el excretor limpia. ¿Qué función conjunta cumplen todos estos aparatos?",
-      "respuesta": "<mark>La nutrición</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/organos-digestivos.jpg",
+      "question": "Cada aparato depende del trabajo de los demás para funcionar bien. <mark>Es como un equipo donde cada jugador necesita que los otros hagan bien su parte</mark>. El digestivo aporta nutrientes; el respiratorio, oxígeno; el circulatorio los reparte; el excretor limpia. ¿Qué función conjunta cumplen todos estos aparatos?",
+      "answer": "<mark>La nutrición</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/organos-digestivos.jpg",
+        "title": "Organs of the gastrointestinal system",
+        "source": "https://www.flickr.com/photos/34861056@N05/12288770624",
         "alt": "Los órganos del sistema digestivo conectados entre sí",
-        "titulo": "Organs of the gastrointestinal system",
         "autor": "Thomas Fisher Rare Book Library, UofT",
-        "fuente": "https://www.flickr.com/photos/34861056@N05/12288770624",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son las sustancias de los alimentos que el cuerpo usa para funcionar y crecer. <mark>Son como las piezas necesarias para reparar y mantener una máquina en marcha</mark>. Incluyen proteínas, grasas, azúcares, vitaminas y minerales. ¿Cómo se llaman estas sustancias?",
-      "respuesta": "<mark>Nutrientes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras.jpg",
+      "question": "Son las sustancias de los alimentos que el cuerpo usa para funcionar y crecer. <mark>Son como las piezas necesarias para reparar y mantener una máquina en marcha</mark>. Incluyen proteínas, grasas, azúcares, vitaminas y minerales. ¿Cómo se llaman estas sustancias?",
+      "answer": "<mark>Nutrientes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/frutas-verduras.jpg",
+        "title": "Frutas e Vegetais",
+        "source": "https://www.flickr.com/photos/97513256@N06/9041948559",
         "alt": "Frutas y verduras variadas, ricas en nutrientes",
-        "titulo": "Frutas e Vegetais",
         "autor": "Aproximando Ciência e Pessoas",
-        "fuente": "https://www.flickr.com/photos/97513256@N06/9041948559",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Si uno de los aparatos falla, el resto del cuerpo se ve afectado, porque todos están conectados. <mark>Es como si un eslabón de una cadena se rompiera, afectando a toda la cadena</mark>. Un problema circulatorio, por ejemplo, puede afectar también a órganos lejanos. ¿Cómo se llama esta dependencia mutua entre los aparatos del cuerpo?",
-      "respuesta": "<mark>Interdependencia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/diagrama-digestivo.jpg",
+      "question": "Si uno de los aparatos falla, el resto del cuerpo se ve afectado, porque todos están conectados. <mark>Es como si un eslabón de una cadena se rompiera, afectando a toda la cadena</mark>. Un problema circulatorio, por ejemplo, puede afectar también a órganos lejanos. ¿Cómo se llama esta dependencia mutua entre los aparatos del cuerpo?",
+      "answer": "<mark>Interdependencia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/diagrama-digestivo.jpg",
+        "title": "Diagram of the digestive system",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=35870292",
         "alt": "Diagrama completo del sistema digestivo y sus órganos",
-        "titulo": "Diagram of the digestive system",
         "autor": "(autor desconocido)",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35870292",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Los nutrientes pasan del intestino a la sangre, que los reparte por todo el organismo. <mark>Es como cargar un camión de reparto que lleva mercancía a cada rincón de la ciudad</mark>. Así cada célula recibe lo que necesita. ¿Qué aparato se encarga de este transporte?",
-      "respuesta": "<mark>Aparato circulatorio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_2/intestino-delgado.jpg",
+      "question": "Los nutrientes pasan del intestino a la sangre, que los reparte por todo el organismo. <mark>Es como cargar un camión de reparto que lleva mercancía a cada rincón de la ciudad</mark>. Así cada célula recibe lo que necesita. ¿Qué aparato se encarga de este transporte?",
+      "answer": "<mark>Aparato circulatorio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_2/intestino-delgado.jpg",
+        "title": "Normal Small Intestine Mucosa",
+        "source": "https://www.flickr.com/photos/78147607@N00/5916217283",
         "alt": "Vista microscópica del intestino delgado, por donde pasan los nutrientes",
-        "titulo": "Normal Small Intestine Mucosa",
         "autor": "euthman",
-        "fuente": "https://www.flickr.com/photos/78147607@N00/5916217283",
         "licencia": "CC BY 2.0"
       }
     }

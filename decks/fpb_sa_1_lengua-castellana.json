@@ -1,185 +1,185 @@
 {
-  "tema": "Lengua Castellana - FP Básica Servicios Administrativos (1º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Lengua Castellana - FP Básica Servicios Administrativos (1º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Una carta: alguien la escribe, alguien la lee, y las palabras viajan de uno a otro</mark>. Eso mismo ocurre siempre que alguien se comunica. ¿Qué tres elementos forman siempre la comunicación?",
-      "respuesta": "<mark>Emisor, receptor y mensaje</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/elementos-comunicacion.jpg",
+      "question": "<mark>Una carta: alguien la escribe, alguien la lee, y las palabras viajan de uno a otro</mark>. Eso mismo ocurre siempre que alguien se comunica. ¿Qué tres elementos forman siempre la comunicación?",
+      "answer": "<mark>Emisor, receptor y mensaje</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/elementos-comunicacion.jpg",
+        "title": "Love Note 2",
+        "source": "https://www.flickr.com/photos/56532794@N02/5352646071",
         "alt": "Una nota escrita a mano",
-        "titulo": "Love Note 2",
         "autor": "lifelikeapps",
-        "fuente": "https://www.flickr.com/photos/56532794@N02/5352646071",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Una desaparece en el momento en que se dice; la otra queda fija y se puede releer</mark>. Por eso los documentos importantes suelen hacerse así. ¿Qué tipo de comunicación queda fija por escrito?",
-      "respuesta": "<mark>Comunicación escrita</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/oral-escrita.jpg",
+      "question": "<mark>Una desaparece en el momento en que se dice; la otra queda fija y se puede releer</mark>. Por eso los documentos importantes suelen hacerse así. ¿Qué tipo de comunicación queda fija por escrito?",
+      "answer": "<mark>Comunicación escrita</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/oral-escrita.jpg",
+        "title": "Talking girls",
+        "source": "https://www.flickr.com/photos/99424477@N04/15635583573",
         "alt": "Dos personas conversando",
-        "titulo": "Talking girls",
         "autor": "prague.czech.photo",
-        "fuente": "https://www.flickr.com/photos/99424477@N04/15635583573",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Te quedas con el resumen útil de un texto más largo</mark>, sin quedarte solo con los detalles. Ayuda a leer más rápido y a estudiar mejor. ¿Cómo se llama lo más importante de un texto?",
-      "respuesta": "<mark>Idea principal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/esencial-texto.jpg",
+      "question": "<mark>Te quedas con el resumen útil de un texto más largo</mark>, sin quedarte solo con los detalles. Ayuda a leer más rápido y a estudiar mejor. ¿Cómo se llama lo más importante de un texto?",
+      "answer": "<mark>Idea principal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/esencial-texto.jpg",
+        "title": "From my copy of Tirole's IO book. Highlighter marks last twenty years.",
+        "source": "https://www.flickr.com/photos/61676142@N00/15525424171",
         "alt": "Un libro con partes del texto marcadas con rotulador",
-        "titulo": "From my copy of Tirole's IO book. Highlighter marks last twenty years.",
         "autor": "Jose C Silva",
-        "fuente": "https://www.flickr.com/photos/61676142@N00/15525424171",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cuentas una anécdota, pero por escrito, con personajes y una historia</mark>. Tiene un principio, un desarrollo y un final. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto narrativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/texto-narrativo.jpg",
+      "question": "<mark>Cuentas una anécdota, pero por escrito, con personajes y una historia</mark>. Tiene un principio, un desarrollo y un final. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto narrativo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/texto-narrativo.jpg",
+        "title": "Picture Books",
+        "source": "https://www.flickr.com/photos/47823583@N03/4385119849",
         "alt": "Libros ilustrados que cuentan historias",
-        "titulo": "Picture Books",
         "autor": "Enokson",
-        "fuente": "https://www.flickr.com/photos/47823583@N03/4385119849",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Pintas con palabras en vez de con pincel</mark>. Explicas cómo es algo o alguien: colores, formas y tamaños, sin contar una historia. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto descriptivo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/texto-descriptivo.jpg",
+      "question": "<mark>Pintas con palabras en vez de con pincel</mark>. Explicas cómo es algo o alguien: colores, formas y tamaños, sin contar una historia. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto descriptivo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/texto-descriptivo.jpg",
+        "title": "Art Supplies",
+        "source": "https://www.flickr.com/photos/63234672@N04/9308106346",
         "alt": "Material de pintura para describir con colores",
-        "titulo": "Art Supplies",
         "autor": "Mustang Joe",
-        "fuente": "https://www.flickr.com/photos/63234672@N04/9308106346",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una receta: primero esto, después esto otro</mark>. Explica cómo hacer algo, paso a paso y con orden. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto instructivo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/receta-libro-cocina.jpg",
+      "question": "<mark>Es como una receta: primero esto, después esto otro</mark>. Explica cómo hacer algo, paso a paso y con orden. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto instructivo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/receta-libro-cocina.jpg",
+        "title": "Vintage Cookbooks - Feasts For All Seasons - Roy Andries De Groot",
+        "source": "https://www.flickr.com/photos/47600671@N04/4405834014",
         "alt": "Un libro de recetas de cocina",
-        "titulo": "Vintage Cookbooks - Feasts For All Seasons - Roy Andries De Groot",
         "autor": "GranniesKitchen",
-        "fuente": "https://www.flickr.com/photos/47600671@N04/4405834014",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Uno avanza en el tiempo; el otro se detiene a observar</mark>. Uno cuenta qué pasa; el otro explica cómo es algo. Muchos textos combinan ambos tipos a la vez. ¿Qué tipo de texto cuenta qué pasa?",
-      "respuesta": "<mark>Texto narrativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/narrativo-descriptivo.jpg",
+      "question": "<mark>Uno avanza en el tiempo; el otro se detiene a observar</mark>. Uno cuenta qué pasa; el otro explica cómo es algo. Muchos textos combinan ambos tipos a la vez. ¿Qué tipo de texto cuenta qué pasa?",
+      "answer": "<mark>Texto narrativo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/narrativo-descriptivo.jpg",
+        "title": "Evening Read",
+        "source": "https://www.flickr.com/photos/9350569@N08/5536312603",
         "alt": "Una persona leyendo un libro por la tarde",
-        "titulo": "Evening Read",
         "autor": "ShardsOfBlue",
-        "fuente": "https://www.flickr.com/photos/9350569@N08/5536312603",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Montas un mueble sin seguir la secuencia del manual y el resultado sale mal</mark>. Cada parte suele depender de la anterior. ¿Qué hay que respetar siempre en un texto instructivo?",
-      "respuesta": "<mark>El orden de los pasos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/orden-instructivo.jpg",
+      "question": "<mark>Montas un mueble sin seguir la secuencia del manual y el resultado sale mal</mark>. Cada parte suele depender de la anterior. ¿Qué hay que respetar siempre en un texto instructivo?",
+      "answer": "<mark>El orden de los pasos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/orden-instructivo.jpg",
+        "title": "Week 18 - Weight - Building IKEA Furniture",
+        "source": "https://www.flickr.com/photos/51942038@N04/49111787333",
         "alt": "Alguien montando un mueble siguiendo las instrucciones",
-        "titulo": "Week 18 - Weight - Building IKEA Furniture",
         "autor": "Wilson Hui",
-        "fuente": "https://www.flickr.com/photos/51942038@N04/49111787333",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Hay diferencia entre mirar un texto y entenderlo de verdad</mark>. Eso ayuda a poder explicar después lo leído. ¿Cómo se llama esta forma de leer?",
-      "respuesta": "<mark>Lectura comprensiva</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/lectura-comprensiva.jpg",
+      "question": "<mark>Hay diferencia entre mirar un texto y entenderlo de verdad</mark>. Eso ayuda a poder explicar después lo leído. ¿Cómo se llama esta forma de leer?",
+      "answer": "<mark>Lectura comprensiva</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/lectura-comprensiva.jpg",
+        "title": "A man stands by a large window in an abandoned building, deeply focused on reading a book",
+        "source": "https://www.flickr.com/photos/202780880@N02/54570093034",
         "alt": "Un hombre concentrado leyendo un libro",
-        "titulo": "A man stands by a large window in an abandoned building, deeply focused on reading a book",
         "autor": "nenad53",
-        "fuente": "https://www.flickr.com/photos/202780880@N02/54570093034",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Repites con tus palabras lo que acabas de leer, para asegurarte de haberlo entendido</mark>. Si no puedes hacerlo, quizá haga falta volver a leer el texto. ¿Qué conviene hacer después de leer un texto?",
-      "respuesta": "<mark>Resumirlo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/resumir-texto.jpg",
+      "question": "<mark>Repites con tus palabras lo que acabas de leer, para asegurarte de haberlo entendido</mark>. Si no puedes hacerlo, quizá haga falta volver a leer el texto. ¿Qué conviene hacer después de leer un texto?",
+      "answer": "<mark>Resumirlo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/resumir-texto.jpg",
+        "title": "Herman Melville to Alexander W. Bradford [Page 3]",
+        "source": "https://www.flickr.com/photos/24029425@N06/4404529160",
         "alt": "Una carta escrita a mano con notas",
-        "titulo": "Herman Melville to Alexander W. Bradford [Page 3]",
         "autor": "Boston Public Library",
-        "fuente": "https://www.flickr.com/photos/24029425@N06/4404529160",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Usas diferentes herramientas según lo que necesites hacer</mark>. Los tres transmiten información, pero de formas y con objetivos distintos. Conocerlos ayuda a leer y a escribir mejor. ¿Cómo se llaman estas distintas formas de escribir?",
-      "respuesta": "<mark>Tipos de texto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/tres-tipos-texto.jpg",
+      "question": "<mark>Usas diferentes herramientas según lo que necesites hacer</mark>. Los tres transmiten información, pero de formas y con objetivos distintos. Conocerlos ayuda a leer y a escribir mejor. ¿Cómo se llaman estas distintas formas de escribir?",
+      "answer": "<mark>Tipos de texto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/tres-tipos-texto.jpg",
+        "title": "The Workbench",
+        "source": "https://www.flickr.com/photos/73228447@N02/15225483531",
         "alt": "Un banco de trabajo con distintas herramientas",
-        "titulo": "The Workbench",
         "autor": "Phil Gradwell",
-        "fuente": "https://www.flickr.com/photos/73228447@N02/15225483531",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>No lees igual una receta que un cuento</mark>. Cada uno se lee de una forma distinta y busca algo diferente. Reconocerlo ayuda a saber qué información buscar. ¿Qué conviene identificar antes de leer un texto?",
-      "respuesta": "<mark>El tipo de texto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/identificar-tipo-texto.webp",
+      "question": "<mark>No lees igual una receta que un cuento</mark>. Cada uno se lee de una forma distinta y busca algo diferente. Reconocerlo ayuda a saber qué información buscar. ¿Qué conviene identificar antes de leer un texto?",
+      "answer": "<mark>El tipo de texto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/identificar-tipo-texto.webp",
+        "title": "Two stacks of books next to each other",
+        "source": "https://www.flickr.com/photos/10361931@N06/4324253901",
         "alt": "Dos pilas de libros diferentes una junto a la otra",
-        "titulo": "Two stacks of books next to each other",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4324253901",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es la persona que 'arranca' el proceso de comunicación</mark>. Decide qué escribir y cómo transmitirlo con claridad. Si no se explica bien, puede haber malentendidos. ¿Cómo se llama quien envía el mensaje?",
-      "respuesta": "<mark>Emisor</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/emisor.jpg",
+      "question": "<mark>Es la persona que 'arranca' el proceso de comunicación</mark>. Decide qué escribir y cómo transmitirlo con claridad. Si no se explica bien, puede haber malentendidos. ¿Cómo se llama quien envía el mensaje?",
+      "answer": "<mark>Emisor</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/emisor.jpg",
+        "title": "Pen to Paper",
+        "source": "https://www.flickr.com/photos/33917831@N00/1574578248",
         "alt": "Una mano escribiendo con un bolígrafo sobre papel",
-        "titulo": "Pen to Paper",
         "autor": "Orin Zebest",
-        "fuente": "https://www.flickr.com/photos/33917831@N00/1574578248",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es la otra mitad necesaria para que la comunicación se complete</mark>. Recibe e interpreta el mensaje enviado. Si no entiende bien, el mensaje no cumple su función. ¿Cómo se llama quien recibe el mensaje?",
-      "respuesta": "<mark>Receptor</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/receptor.jpg",
+      "question": "<mark>Es la otra mitad necesaria para que la comunicación se complete</mark>. Recibe e interpreta el mensaje enviado. Si no entiende bien, el mensaje no cumple su función. ¿Cómo se llama quien recibe el mensaje?",
+      "answer": "<mark>Receptor</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/receptor.jpg",
+        "title": "A Brown University Lovecraft CD Acknowledgment Letter Received 08-Nov-2013",
+        "source": "https://www.flickr.com/photos/41340252@N08/10805392594",
         "alt": "Una persona leyendo una carta que ha recibido",
-        "titulo": "A Brown University Lovecraft CD Acknowledgment Letter Received 08-Nov-2013",
         "autor": "CthulhuWho1 (Will Hart)",
-        "fuente": "https://www.flickr.com/photos/41340252@N08/10805392594",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es una herramienta que se usa en casi cualquier puesto de trabajo</mark>. Casi cualquier tarea implica entender documentos o redactar con claridad. Un error de comprensión puede causar problemas serios. ¿Qué habilidad ayuda en casi cualquier trabajo?",
-      "respuesta": "<mark>Leer y escribir bien</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_lengua-castellana/leer-escribir-trabajo.jpg",
+      "question": "<mark>Es una herramienta que se usa en casi cualquier puesto de trabajo</mark>. Casi cualquier tarea implica entender documentos o redactar con claridad. Un error de comprensión puede causar problemas serios. ¿Qué habilidad ayuda en casi cualquier trabajo?",
+      "answer": "<mark>Leer y escribir bien</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/leer-escribir-trabajo.jpg",
+        "title": "paperwork mixup",
+        "source": "https://www.flickr.com/photos/29233640@N07/9590785264",
         "alt": "Papeles y documentos de oficina",
-        "titulo": "paperwork mixup",
         "autor": "Robert Couse-Baker",
-        "fuente": "https://www.flickr.com/photos/29233640@N07/9590785264",
         "licencia": "CC BY 2.0"
       }
     }

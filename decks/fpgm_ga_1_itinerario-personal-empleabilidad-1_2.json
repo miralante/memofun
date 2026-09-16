@@ -1,125 +1,125 @@
 {
-  "tema": "Asertividad, portales de empleo y prevención en la oficina - FP GM Gestión Administrativa (1º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Asertividad, portales de empleo y prevención en la oficina - FP GM Gestión Administrativa (1º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es expresar lo que piensas o necesitas con claridad, sin faltar al respeto. <mark>Es como encontrar el punto medio entre callarte y imponerte a la fuerza</mark>. Ayuda a comunicarse mejor en el trabajo. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Asertividad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/conversacion-confianza.jpg",
+      "question": "Es expresar lo que piensas o necesitas con claridad, sin faltar al respeto. <mark>Es como encontrar el punto medio entre callarte y imponerte a la fuerza</mark>. Ayuda a comunicarse mejor en el trabajo. ¿Cómo se llama esto?",
+      "answer": "<mark>Asertividad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/conversacion-confianza.jpg",
+        "title": "U.S. Secretary of State Hillary Rodham Clinton speaks with a mother at the Reach Out Mbuya Clinic",
+        "source": "https://www.flickr.com/photos/54621517@N08/7723416400",
         "alt": "Una persona conversando con seguridad y respeto.",
-        "titulo": "U.S. Secretary of State Hillary Rodham Clinton speaks with a mother at the Reach Out Mbuya Clinic",
         "autor": "U.S. Mission Uganda",
-        "fuente": "https://www.flickr.com/photos/54621517@N08/7723416400",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Qué empresas contratan estos perfiles y qué tareas piden se analiza aquí. <mark>Es como estudiar el terreno antes de decidir por dónde caminar</mark>. Ayuda a orientar mejor la formación y la búsqueda de empleo. ¿Qué se estudia con este análisis?",
-      "respuesta": "<mark>El sector administrativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/escritorio-oficina-antiguo.jpg",
+      "question": "Qué empresas contratan estos perfiles y qué tareas piden se analiza aquí. <mark>Es como estudiar el terreno antes de decidir por dónde caminar</mark>. Ayuda a orientar mejor la formación y la búsqueda de empleo. ¿Qué se estudia con este análisis?",
+      "answer": "<mark>El sector administrativo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/escritorio-oficina-antiguo.jpg",
+        "title": "Black Country Living Museum - The Workers Institute - desk",
+        "source": "https://www.flickr.com/photos/39415781@N06/6061839213",
         "alt": "Un escritorio de oficina, ejemplo del sector administrativo.",
-        "titulo": "Black Country Living Museum - The Workers Institute - desk",
         "autor": "ell brown",
-        "fuente": "https://www.flickr.com/photos/39415781@N06/6061839213",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son los cambios en qué empleos se demandan y cómo se trabaja. <mark>Es como fijarse hacia dónde sopla el viento del empleo</mark>. La digitalización es uno de los más fuertes ahora. ¿Cómo se llaman estos cambios?",
-      "respuesta": "<mark>Tendencias del mercado laboral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/grafico-empleo.jpg",
+      "question": "Son los cambios en qué empleos se demandan y cómo se trabaja. <mark>Es como fijarse hacia dónde sopla el viento del empleo</mark>. La digitalización es uno de los más fuertes ahora. ¿Cómo se llaman estos cambios?",
+      "answer": "<mark>Tendencias del mercado laboral</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/grafico-empleo.jpg",
+        "title": "What 4.4 Million Jobs Lost Over 14 Months Looks Like",
+        "source": "https://www.flickr.com/photos/11461909@N06/3333412448",
         "alt": "Un gráfico mostrando la evolución del empleo.",
-        "titulo": "What 4.4 Million Jobs Lost Over 14 Months Looks Like",
         "autor": "Speaker Nancy Pelosi",
-        "fuente": "https://www.flickr.com/photos/11461909@N06/3333412448",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son páginas de internet donde empresas publican ofertas y personas se inscriben. <mark>Es como un escaparate gigante, todo reunido en un mismo lugar</mark>. Conviene mantener el perfil actualizado en varias a la vez. ¿Cómo se llaman estas páginas?",
-      "respuesta": "<mark>Portales de empleo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/emprendedora-portatil.jpg",
+      "question": "Son páginas de internet donde empresas publican ofertas y personas se inscriben. <mark>Es como un escaparate gigante, todo reunido en un mismo lugar</mark>. Conviene mantener el perfil actualizado en varias a la vez. ¿Cómo se llaman estas páginas?",
+      "answer": "<mark>Portales de empleo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/emprendedora-portatil.jpg",
+        "title": "Young female entrepreneur working on her laptop while holding it on her lap",
+        "source": "https://www.flickr.com/photos/26344495@N05/49505320077",
         "alt": "Una persona buscando empleo desde su ordenador portátil.",
-        "titulo": "Young female entrepreneur working on her laptop while holding it on her lap",
         "autor": "Ivan Radic",
-        "fuente": "https://www.flickr.com/photos/26344495@N05/49505320077",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una forma de organizar empresas donde las personas socias deciden juntas. <mark>Es como llevar un negocio entre varios, decidiendo entre todos</mark>. Las cooperativas son un ejemplo habitual. ¿Cómo se llama esta forma de organizar empresas?",
-      "respuesta": "<mark>Economía social</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/cooperativa-trabajadores.jpg",
+      "question": "Es una forma de organizar empresas donde las personas socias deciden juntas. <mark>Es como llevar un negocio entre varios, decidiendo entre todos</mark>. Las cooperativas son un ejemplo habitual. ¿Cómo se llama esta forma de organizar empresas?",
+      "answer": "<mark>Economía social</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/cooperativa-trabajadores.jpg",
+        "title": "20161230-RD-LSC-0279",
+        "source": "https://www.flickr.com/photos/41284017@N08/31961084194",
         "alt": "Un grupo de trabajadores de una cooperativa.",
-        "titulo": "20161230-RD-LSC-0279",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/31961084194",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Es poner en marcha un proyecto entre varias personas con una misma idea. <mark>Es como sumar fuerzas para algo más difícil de lograr solo</mark>. Reparte tanto el trabajo como el riesgo entre todos. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Emprendimiento colectivo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/equipo-startup.jpg",
+      "question": "Es poner en marcha un proyecto entre varias personas con una misma idea. <mark>Es como sumar fuerzas para algo más difícil de lograr solo</mark>. Reparte tanto el trabajo como el riesgo entre todos. ¿Cómo se llama esto?",
+      "answer": "<mark>Emprendimiento colectivo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/equipo-startup.jpg",
+        "title": "(sin título)",
+        "source": "https://www.flickr.com/photos/120262924@N05/13134012164",
         "alt": "Un equipo de personas colaborando en un proyecto emprendedor.",
-        "titulo": "(sin título)",
         "autor": "startupphotos",
-        "fuente": "https://www.flickr.com/photos/120262924@N05/13134012164",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Malas posturas, cansancio visual y estrés por acumulación de tareas son algunos. <mark>Parecen pequeños, pero se notan si se repiten día tras día</mark>. Por eso hay que prevenirlos, aunque no sea trabajo físico duro. ¿Qué tiene un puesto administrativo, aunque parezcan pequeños?",
-      "respuesta": "<mark>Riesgos específicos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/puesto-trabajo-ergonomico.jpg",
+      "question": "Malas posturas, cansancio visual y estrés por acumulación de tareas son algunos. <mark>Parecen pequeños, pero se notan si se repiten día tras día</mark>. Por eso hay que prevenirlos, aunque no sea trabajo físico duro. ¿Qué tiene un puesto administrativo, aunque parezcan pequeños?",
+      "answer": "<mark>Riesgos específicos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/puesto-trabajo-ergonomico.jpg",
+        "title": "01 My decluttered, ergonomic, and healthy Workstation",
+        "source": "https://www.flickr.com/photos/55391269@N08/6009475649",
         "alt": "Un puesto de trabajo de oficina bien organizado",
-        "titulo": "01 My decluttered, ergonomic, and healthy Workstation",
         "autor": "Joy Mystic",
-        "fuente": "https://www.flickr.com/photos/55391269@N08/6009475649",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son elementos y hábitos que reducen esos riesgos, como una silla ergonómica o pausas visuales. <mark>Es como adaptar el entorno para que trabajar no pase factura al cuerpo</mark>. También incluyen una buena iluminación. ¿Cómo se llaman estos elementos y hábitos?",
-      "respuesta": "<mark>Equipos de protección</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/extintor-seguridad.jpg",
+      "question": "Son elementos y hábitos que reducen esos riesgos, como una silla ergonómica o pausas visuales. <mark>Es como adaptar el entorno para que trabajar no pase factura al cuerpo</mark>. También incluyen una buena iluminación. ¿Cómo se llaman estos elementos y hábitos?",
+      "answer": "<mark>Equipos de protección</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/extintor-seguridad.jpg",
+        "title": "Coast Guard Station Fire Island conducts Safety Boardings",
+        "source": "https://www.flickr.com/photos/23412076@N06/8862036256",
         "alt": "Un equipo de protección para emergencias.",
-        "titulo": "Coast Guard Station Fire Island conducts Safety Boardings",
         "autor": "Coast Guard News",
-        "fuente": "https://www.flickr.com/photos/23412076@N06/8862036256",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son los protocolos que indican cómo actuar ante un incendio u otra situación urgente. <mark>Es como conocer de antemano el plan de salida, para no improvisar</mark>. Conocerlas puede marcar la diferencia en un caso real. ¿Cómo se llaman estos protocolos?",
-      "respuesta": "<mark>Medidas de emergencia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/salida-emergencia.jpg",
+      "question": "Son los protocolos que indican cómo actuar ante un incendio u otra situación urgente. <mark>Es como conocer de antemano el plan de salida, para no improvisar</mark>. Conocerlas puede marcar la diferencia en un caso real. ¿Cómo se llaman estos protocolos?",
+      "answer": "<mark>Medidas de emergencia</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/salida-emergencia.jpg",
+        "title": "Emergency exit sign",
+        "source": "https://www.flickr.com/photos/57519914@N00/748257187",
         "alt": "Un cartel de salida de emergencia.",
-        "titulo": "Emergency exit sign",
         "autor": "jepoirrier",
-        "fuente": "https://www.flickr.com/photos/57519914@N00/748257187",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Implica valorar si seguir estudiando, buscar empleo o especializarse. <mark>Es como elegir el siguiente paso de un camino, sin una única ruta correcta</mark>. Esa decisión puede revisarse más adelante. ¿Qué se está decidiendo aquí?",
-      "respuesta": "<mark>El itinerario profesional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/cruce-caminos.jpg",
+      "question": "Implica valorar si seguir estudiando, buscar empleo o especializarse. <mark>Es como elegir el siguiente paso de un camino, sin una única ruta correcta</mark>. Esa decisión puede revisarse más adelante. ¿Qué se está decidiendo aquí?",
+      "answer": "<mark>El itinerario profesional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2/cruce-caminos.jpg",
+        "title": "Crossroads: Retirement or College Fund",
+        "source": "https://www.flickr.com/photos/86530412@N02/8226454024",
         "alt": "Un cruce de caminos, como decidir un itinerario profesional.",
-        "titulo": "Crossroads: Retirement or College Fund",
         "autor": "ccPixs.com",
-        "fuente": "https://www.flickr.com/photos/86530412@N02/8226454024",
         "licencia": "CC BY 2.0"
       }
     }

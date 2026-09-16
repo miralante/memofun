@@ -1,55 +1,55 @@
 {
-  "tema": "Comprensión lectora y escritura de narraciones - 4º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Comprensión lectora y escritura de narraciones - 4º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Cuenta una historia, con hechos que ocurren. <mark>Es como una película contada con palabras</mark>. Tiene personajes que hacen cosas a lo largo del tiempo. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto narrativo</mark>"
+      "question": "Cuenta una historia, con hechos que ocurren. <mark>Es como una película contada con palabras</mark>. Tiene personajes que hacen cosas a lo largo del tiempo. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto narrativo</mark>"
     },
     {
-      "pregunta": "Preguntarte esto ayuda a entender bien una historia. <mark>Es como hacer de detective mientras lees</mark>. Responder esas preguntas ayuda a seguir el hilo de la historia. ¿Qué cuatro preguntas ayudan a entender bien una historia?",
-      "respuesta": "<mark>Quién, qué, dónde y por qué</mark>"
+      "question": "Preguntarte esto ayuda a entender bien una historia. <mark>Es como hacer de detective mientras lees</mark>. Responder esas preguntas ayuda a seguir el hilo de la historia. ¿Qué cuatro preguntas ayudan a entender bien una historia?",
+      "answer": "<mark>Quién, qué, dónde y por qué</mark>"
     },
     {
-      "pregunta": "Son quienes hacen que ocurran los hechos de un relato. <mark>Es como conocer a los actores antes de entender la película</mark>. Saber qué quiere cada uno ayuda a entender sus acciones. ¿Cómo se llama a quienes hacen ocurrir los hechos de una historia?",
-      "respuesta": "<mark>Personajes</mark>"
+      "question": "Son quienes hacen que ocurran los hechos de un relato. <mark>Es como conocer a los actores antes de entender la película</mark>. Saber qué quiere cada uno ayuda a entender sus acciones. ¿Cómo se llama a quienes hacen ocurrir los hechos de una historia?",
+      "answer": "<mark>Personajes</mark>"
     },
     {
-      "pregunta": "Puedes comprobarlo contando la historia con tus propias palabras. <mark>Es como explicarle la película a alguien que no la ha visto</mark>. Si explicas el principio, el problema y el final, la entendiste. ¿Cómo se llama contar una historia con tus propias palabras?",
-      "respuesta": "<mark>Resumen</mark>"
+      "question": "Puedes comprobarlo contando la historia con tus propias palabras. <mark>Es como explicarle la película a alguien que no la ha visto</mark>. Si explicas el principio, el problema y el final, la entendiste. ¿Cómo se llama contar una historia con tus propias palabras?",
+      "answer": "<mark>Resumen</mark>"
     },
     {
-      "pregunta": "Explica información real sobre un tema, sin inventar una historia. <mark>Es como una ficha que te cuenta datos</mark>. Los libros de ciencias suelen tener este tipo de texto. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto expositivo</mark>"
+      "question": "Explica información real sobre un tema, sin inventar una historia. <mark>Es como una ficha que te cuenta datos</mark>. Los libros de ciencias suelen tener este tipo de texto. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto expositivo</mark>"
     },
     {
-      "pregunta": "Uno explica datos reales; el otro cuenta una historia con personajes. <mark>Es como comparar un manual con un cuento</mark>. Uno informa, el otro entretiene contando hechos que pasan. ¿Cómo se llama el tipo de texto que cuenta una historia con personajes?",
-      "respuesta": "<mark>Texto narrativo</mark>"
+      "question": "Uno explica datos reales; el otro cuenta una historia con personajes. <mark>Es como comparar un manual con un cuento</mark>. Uno informa, el otro entretiene contando hechos que pasan. ¿Cómo se llama el tipo de texto que cuenta una historia con personajes?",
+      "answer": "<mark>Texto narrativo</mark>"
     },
     {
-      "pregunta": "Ayuda fijarte en los títulos, las palabras destacadas y las imágenes de un texto. <mark>Es como usar señales de tráfico para no perderte</mark>. Leer despacio también ayuda a entender datos nuevos. ¿Qué elementos ayudan a entender mejor un texto expositivo?",
-      "respuesta": "<mark>Títulos e imágenes</mark>"
+      "question": "Ayuda fijarte en los títulos, las palabras destacadas y las imágenes de un texto. <mark>Es como usar señales de tráfico para no perderte</mark>. Leer despacio también ayuda a entender datos nuevos. ¿Qué elementos ayudan a entender mejor un texto expositivo?",
+      "answer": "<mark>Títulos e imágenes</mark>"
     },
     {
-      "pregunta": "Ayuda a recordar lo esencial sin releer todo. <mark>Es como marcar con un rotulador lo que no quieres olvidar</mark>. Las ideas así resumen el contenido del texto. ¿Cómo se llama marcar así las ideas más importantes de un texto?",
-      "respuesta": "<mark>Subrayar</mark>"
+      "question": "Ayuda a recordar lo esencial sin releer todo. <mark>Es como marcar con un rotulador lo que no quieres olvidar</mark>. Las ideas así resumen el contenido del texto. ¿Cómo se llama marcar así las ideas más importantes de un texto?",
+      "answer": "<mark>Subrayar</mark>"
     },
     {
-      "pregunta": "Una narración tiene tres partes. <mark>Es como un viaje: salida, camino y llegada</mark>. La primera presenta a los personajes y el lugar. ¿Qué tres partes tiene una narración?",
-      "respuesta": "<mark>Principio, nudo y desenlace</mark>"
+      "question": "Una narración tiene tres partes. <mark>Es como un viaje: salida, camino y llegada</mark>. La primera presenta a los personajes y el lugar. ¿Qué tres partes tiene una narración?",
+      "answer": "<mark>Principio, nudo y desenlace</mark>"
     },
     {
-      "pregunta": "En esta parte se presentan los personajes, el lugar y el momento de la historia. <mark>Es como abrir el telón antes de que empiece la función</mark>. Ayuda al lector a situarse desde el primer momento. ¿Cómo se llama esta primera parte de la narración?",
-      "respuesta": "<mark>Principio</mark>"
+      "question": "En esta parte se presentan los personajes, el lugar y el momento de la historia. <mark>Es como abrir el telón antes de que empiece la función</mark>. Ayuda al lector a situarse desde el primer momento. ¿Cómo se llama esta primera parte de la narración?",
+      "answer": "<mark>Principio</mark>"
     },
     {
-      "pregunta": "Es la parte donde aparece un problema o un reto. <mark>Es como quedar enredado en un ovillo de lana</mark>. Es la parte más emocionante de toda la historia. ¿Cómo se llama esta parte de la narración?",
-      "respuesta": "<mark>Nudo</mark>"
+      "question": "Es la parte donde aparece un problema o un reto. <mark>Es como quedar enredado en un ovillo de lana</mark>. Es la parte más emocionante de toda la historia. ¿Cómo se llama esta parte de la narración?",
+      "answer": "<mark>Nudo</mark>"
     },
     {
-      "pregunta": "Es la parte final, donde se resuelve el problema del nudo. <mark>Es como soltar por fin ese ovillo enredado</mark>. Puede terminar bien, mal, o de forma sorprendente. ¿Cómo se llama esta última parte de la narración?",
-      "respuesta": "<mark>Desenlace</mark>"
+      "question": "Es la parte final, donde se resuelve el problema del nudo. <mark>Es como soltar por fin ese ovillo enredado</mark>. Puede terminar bien, mal, o de forma sorprendente. ¿Cómo se llama esta última parte de la narración?",
+      "answer": "<mark>Desenlace</mark>"
     }
   ]
 }

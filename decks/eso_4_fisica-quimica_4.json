@@ -1,125 +1,125 @@
 {
-  "tema": "Introducción a la química orgánica - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Introducción a la química orgánica - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "El carbono es el ladrillo estrella de casi toda la vida. <mark>Incluye desde plásticos hasta las moléculas del cuerpo</mark>. ¿Cómo se llama la rama de la química que estudia los compuestos con carbono?",
-      "respuesta": "<mark>Química orgánica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/quimica-verde.jpg",
+      "question": "El carbono es el ladrillo estrella de casi toda la vida. <mark>Incluye desde plásticos hasta las moléculas del cuerpo</mark>. ¿Cómo se llama la rama de la química que estudia los compuestos con carbono?",
+      "answer": "<mark>Química orgánica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/quimica-verde.jpg",
+        "title": "Chemistry of green",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=93062929",
         "alt": "Un montaje relacionado con la química orgánica.",
-        "titulo": "Chemistry of green",
         "autor": "Robert Couse-Baker",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=93062929",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una pieza de construcción que encaja de muchas formas</mark>. Se une a átomos de sí mismo formando cadenas largas. Por eso existen millones de compuestos con él. ¿Cómo se llama este elemento tan especial?",
-      "respuesta": "<mark>Carbono</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/diamantes-carbono.jpg",
+      "question": "<mark>Es como una pieza de construcción que encaja de muchas formas</mark>. Se une a átomos de sí mismo formando cadenas largas. Por eso existen millones de compuestos con él. ¿Cómo se llama este elemento tan especial?",
+      "answer": "<mark>Carbono</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/diamantes-carbono.jpg",
+        "title": "Faceted diamonds 4",
+        "source": "https://www.flickr.com/photos/47445767@N05/18023674602",
         "alt": "Diamantes, una forma pura del carbono.",
-        "titulo": "Faceted diamonds 4",
         "autor": "James St. John",
-        "fuente": "https://www.flickr.com/photos/47445767@N05/18023674602",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una etiqueta que indica qué tipo de reacciones tiene una molécula</mark>. Reconocerla ayuda a predecir sus propiedades. ¿Cómo se llama esta parte de la molécula que define cómo reacciona?",
-      "respuesta": "<mark>Grupo funcional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/molecula-manzana.jpg",
+      "question": "<mark>Es como una etiqueta que indica qué tipo de reacciones tiene una molécula</mark>. Reconocerla ayuda a predecir sus propiedades. ¿Cómo se llama esta parte de la molécula que define cómo reacciona?",
+      "answer": "<mark>Grupo funcional</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/molecula-manzana.jpg",
+        "title": "Apple’s Impossible Molecule",
+        "source": "https://www.flickr.com/photos/87569910@N00/3968739422",
         "alt": "Un modelo de una molécula compleja.",
-        "titulo": "Apple’s Impossible Molecule",
         "autor": "schoschie",
-        "fuente": "https://www.flickr.com/photos/87569910@N00/3968739422",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son las cadenas más sencillas de los hidrocarburos. <mark>El metano, del gas natural, es un ejemplo</mark>. Solo tienen enlaces simples entre carbono e hidrógeno. ¿Cómo se llaman estos compuestos?",
-      "respuesta": "<mark>Alcanos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/gasolinera-precios.jpg",
+      "question": "Son las cadenas más sencillas de los hidrocarburos. <mark>El metano, del gas natural, es un ejemplo</mark>. Solo tienen enlaces simples entre carbono e hidrógeno. ¿Cómo se llaman estos compuestos?",
+      "answer": "<mark>Alcanos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/gasolinera-precios.jpg",
+        "title": "Super Premium - Cottonwood, AZ",
+        "source": "https://www.flickr.com/photos/30201239@N00/5089186348",
         "alt": "Los precios de distintos tipos de gasolina en una estación.",
-        "titulo": "Super Premium - Cottonwood, AZ",
         "autor": "joiseyshowaa",
-        "fuente": "https://www.flickr.com/photos/30201239@N00/5089186348",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ese doble enlace los hace más reactivos que los alcanos. <mark>El etileno, un ejemplo, se usa para fabricar plásticos</mark>. ¿Cómo se llaman los hidrocarburos con al menos un doble enlace entre carbonos?",
-      "respuesta": "<mark>Alquenos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/botellas-plastico.jpg",
+      "question": "Ese doble enlace los hace más reactivos que los alcanos. <mark>El etileno, un ejemplo, se usa para fabricar plásticos</mark>. ¿Cómo se llaman los hidrocarburos con al menos un doble enlace entre carbonos?",
+      "answer": "<mark>Alquenos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/botellas-plastico.jpg",
+        "title": "plastic bottles recycled, repurposed, upcycled",
+        "source": "https://www.flickr.com/photos/99012508@N06/9357572424",
         "alt": "Botellas de plástico, fabricadas a partir de alquenos.",
-        "titulo": "plastic bottles recycled, repurposed, upcycled",
         "autor": "Reciclado Creativo - The Reuse Factory",
-        "fuente": "https://www.flickr.com/photos/99012508@N06/9357572424",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ese triple enlace los hace más reactivos que los alquenos. <mark>El acetileno, un ejemplo, se usa en soldadura</mark>. ¿Cómo se llaman los hidrocarburos con al menos un triple enlace entre carbonos?",
-      "respuesta": "<mark>Alquinos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/soldadura-mascara.jpg",
+      "question": "Ese triple enlace los hace más reactivos que los alquenos. <mark>El acetileno, un ejemplo, se usa en soldadura</mark>. ¿Cómo se llaman los hidrocarburos con al menos un triple enlace entre carbonos?",
+      "answer": "<mark>Alquinos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/soldadura-mascara.jpg",
+        "title": "El hombre de la máscara de soldadura",
+        "source": "https://www.flickr.com/photos/87161179@N00/2862905855",
         "alt": "Una persona soldando con máscara protectora, usando acetileno",
-        "titulo": "El hombre de la máscara de soldadura",
         "autor": "orgazmika",
-        "fuente": "https://www.flickr.com/photos/87161179@N00/2862905855",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como contar sílabas para saber cómo se llama exactamente cada molécula</mark>. Met- indica un carbono; et-, dos carbonos. ¿Cómo se llama este sistema para nombrar los hidrocarburos según su número de carbonos?",
-      "respuesta": "<mark>Nomenclatura de hidrocarburos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/surtidor-gasolina.jpg",
+      "question": "<mark>Es como contar sílabas para saber cómo se llama exactamente cada molécula</mark>. Met- indica un carbono; et-, dos carbonos. ¿Cómo se llama este sistema para nombrar los hidrocarburos según su número de carbonos?",
+      "answer": "<mark>Nomenclatura de hidrocarburos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/surtidor-gasolina.jpg",
+        "title": "Phillips 66 Gas Pump Fuel Station",
+        "source": "https://www.flickr.com/photos/87296837@N00/54558514905",
         "alt": "Un surtidor de gasolina en una estación de servicio.",
-        "titulo": "Phillips 66 Gas Pump Fuel Station",
         "autor": "Tony Webster",
-        "fuente": "https://www.flickr.com/photos/87296837@N00/54558514905",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Los plásticos, combustibles y muchos medicamentos vienen de aquí</mark>. También se usan en textiles, cosmética y agricultura. ¿Cómo se llama esta rama que estudia los compuestos con carbono?",
-      "respuesta": "<mark>Química orgánica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/refineria-petroleo.jpg",
+      "question": "<mark>Los plásticos, combustibles y muchos medicamentos vienen de aquí</mark>. También se usan en textiles, cosmética y agricultura. ¿Cómo se llama esta rama que estudia los compuestos con carbono?",
+      "answer": "<mark>Química orgánica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/refineria-petroleo.jpg",
+        "title": "Valero refinery, Port Arthur TX",
+        "source": "https://www.flickr.com/photos/21550937@N03/3628838002",
         "alt": "Una refinería de petróleo, donde se obtienen compuestos orgánicos industriales.",
-        "titulo": "Valero refinery, Port Arthur TX",
         "autor": "roy.luck",
-        "fuente": "https://www.flickr.com/photos/21550937@N03/3628838002",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Las proteínas, los azúcares, las grasas y el ADN están hechos de carbono</mark>. La vida está construida, en gran parte, con este tipo de compuestos. ¿Cómo se llaman estas moléculas propias de los seres vivos?",
-      "respuesta": "<mark>Biomoléculas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/adn-doble-helice.jpg",
+      "question": "<mark>Las proteínas, los azúcares, las grasas y el ADN están hechos de carbono</mark>. La vida está construida, en gran parte, con este tipo de compuestos. ¿Cómo se llaman estas moléculas propias de los seres vivos?",
+      "answer": "<mark>Biomoléculas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/adn-doble-helice.jpg",
+        "title": "Replica DNA double helix model Berlin 02",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=178341783",
         "alt": "Un modelo de la doble hélice del ADN.",
-        "titulo": "Replica DNA double helix model Berlin 02",
         "autor": "Flocci Nivis",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=178341783",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "<mark>Está en medicamentos, materiales, alimentos y combustibles</mark>. Casi cualquier objeto que usamos lleva algo de esta rama de la química. ¿Cómo se llama esta rama, tan presente en la vida cotidiana?",
-      "respuesta": "<mark>Química orgánica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_4/pastillas-medicamento.jpg",
+      "question": "<mark>Está en medicamentos, materiales, alimentos y combustibles</mark>. Casi cualquier objeto que usamos lleva algo de esta rama de la química. ¿Cómo se llama esta rama, tan presente en la vida cotidiana?",
+      "answer": "<mark>Química orgánica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_4/pastillas-medicamento.jpg",
+        "title": "Magic Pills",
+        "source": "https://www.flickr.com/photos/53011234@N00/9194590737",
         "alt": "Pastillas de un medicamento, un compuesto orgánico de uso cotidiano.",
-        "titulo": "Magic Pills",
         "autor": "Jonathan Silverberg",
-        "fuente": "https://www.flickr.com/photos/53011234@N00/9194590737",
         "licencia": "CC BY 2.0"
       }
     }

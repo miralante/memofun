@@ -1,197 +1,197 @@
 {
-  "tema": "La Prehistoria y las primeras civilizaciones - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La Prehistoria y las primeras civilizaciones - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Fue un cambio lentísimo, de millones de años, no de un día para otro. <mark>Incluyó caminar erguidos, usar herramientas y hablar</mark>. ¿Cómo se llama este largo proceso?",
-      "respuesta": "<mark>Hominización</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/homininos-evolucion.jpg",
+      "question": "Fue un cambio lentísimo, de millones de años, no de un día para otro. <mark>Incluyó caminar erguidos, usar herramientas y hablar</mark>. ¿Cómo se llama este largo proceso?",
+      "answer": "<mark>Hominización</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/homininos-evolucion.jpg",
+        "title": "Australopithecus afarensis adult male - head model - Smithsonian Museum of Natural History - 2012-05-17",
+        "source": "https://www.flickr.com/photos/23165290@N00/7283201084",
         "alt": "Reconstrucción de un antepasado humano prehistórico",
-        "titulo": "Australopithecus afarensis adult male - head model - Smithsonian Museum of Natural History - 2012-05-17",
         "autor": "Tim Evanson",
-        "fuente": "https://www.flickr.com/photos/23165290@N00/7283201084",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Vivían de la caza, la pesca y la recolección, sin cultivar nada. <mark>Eran nómadas: vivían en cuevas o campamentos temporales</mark>. ¿Cómo se llama esta primera etapa de la Prehistoria?",
-      "respuesta": "<mark>Paleolítico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/cueva-paleolitico.jpg",
+      "question": "Vivían de la caza, la pesca y la recolección, sin cultivar nada. <mark>Eran nómadas: vivían en cuevas o campamentos temporales</mark>. ¿Cómo se llama esta primera etapa de la Prehistoria?",
+      "answer": "<mark>Paleolítico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/cueva-paleolitico.jpg",
+        "title": "Prehistoric - Cave Dwelling",
+        "source": "https://www.flickr.com/photos/136041510@N05/22508538571",
         "alt": "Una cueva prehistórica donde vivían los humanos del Paleolítico",
-        "titulo": "Prehistoric - Cave Dwelling",
         "autor": "History Maps",
-        "fuente": "https://www.flickr.com/photos/136041510@N05/22508538571",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los humanos aprendieron a cultivar la tierra y criar animales. <mark>Por primera vez producían su propia comida</mark>, en vez de solo buscarla. ¿Cómo se llama esta nueva etapa de la Prehistoria?",
-      "respuesta": "<mark>Neolítico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/cultivo-trigo.jpg",
+      "question": "Los humanos aprendieron a cultivar la tierra y criar animales. <mark>Por primera vez producían su propia comida</mark>, en vez de solo buscarla. ¿Cómo se llama esta nueva etapa de la Prehistoria?",
+      "answer": "<mark>Neolítico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/cultivo-trigo.jpg",
+        "title": "Wheat field harvested the old-fashioned way",
+        "source": "http://www.geograph.org.uk/photo/3106479",
         "alt": "Un campo de trigo cultivado, como en el Neolítico",
-        "titulo": "Wheat field harvested the old-fashioned way",
         "autor": "Simon Mortimer",
-        "fuente": "http://www.geograph.org.uk/photo/3106479",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como pasar de mudarte cada semana a tener una casa fija</mark>. Cambió la forma de vivir de la humanidad: agricultura, poblados y propiedad. ¿Cómo se llama este gran cambio?",
-      "respuesta": "<mark>Revolución neolítica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/poblado-neolitico.jpg",
+      "question": "<mark>Es como pasar de mudarte cada semana a tener una casa fija</mark>. Cambió la forma de vivir de la humanidad: agricultura, poblados y propiedad. ¿Cómo se llama este gran cambio?",
+      "answer": "<mark>Revolución neolítica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/poblado-neolitico.jpg",
+        "title": "SKARA BRAE - AN EARLY SEASIDE RESORT?",
+        "source": "https://www.flickr.com/photos/8521690@N02/9275754630",
         "alt": "Restos de un poblado neolítico de piedra",
-        "titulo": "SKARA BRAE - AN EARLY SEASIDE RESORT?",
         "autor": "summonedbyfells",
-        "fuente": "https://www.flickr.com/photos/8521690@N02/9275754630",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son pinturas que los humanos prehistóricos hacían en las paredes de las cuevas. <mark>Solían pintar animales que cazaban, como bisontes o caballos</mark>. ¿Cómo se llama este arte?",
-      "respuesta": "<mark>Arte rupestre</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/pintura-rupestre.jpg",
+      "question": "Son pinturas que los humanos prehistóricos hacían en las paredes de las cuevas. <mark>Solían pintar animales que cazaban, como bisontes o caballos</mark>. ¿Cómo se llama este arte?",
+      "answer": "<mark>Arte rupestre</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/pintura-rupestre.jpg",
+        "title": "Pinturas Rupestres de Valonsadero. Soria",
+        "source": "https://www.flickr.com/photos/23012400@N03/14059359422",
         "alt": "Pinturas rupestres antiguas en la pared de una cueva",
-        "titulo": "Pinturas Rupestres de Valonsadero. Soria",
         "autor": "Miguel. (respenda)",
-        "fuente": "https://www.flickr.com/photos/23012400@N03/14059359422",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Imagina mover una piedra del tamaño de un coche con solo cuerdas y madera</mark>. Son construcciones gigantes de piedra, como Stonehenge. ¿Cómo se llaman estas construcciones?",
-      "respuesta": "<mark>Monumentos megalíticos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/stonehenge.jpg",
+      "question": "<mark>Imagina mover una piedra del tamaño de un coche con solo cuerdas y madera</mark>. Son construcciones gigantes de piedra, como Stonehenge. ¿Cómo se llaman estas construcciones?",
+      "answer": "<mark>Monumentos megalíticos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/stonehenge.jpg",
+        "title": "Stonehenge",
+        "source": "https://www.flickr.com/photos/25466188@N04/14232704001",
         "alt": "Stonehenge, un monumento megalítico hecho con piedras enormes",
-        "titulo": "Stonehenge",
         "autor": "rafa_castillo",
-        "fuente": "https://www.flickr.com/photos/25466188@N04/14232704001",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El río daba agua, alimento y transporte, <mark>como una autopista natural</mark>. Es una civilización que nació y creció junto a un gran río. ¿Cómo se llama este tipo de civilización?",
-      "respuesta": "<mark>Civilización fluvial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/valle-rio-fertil.jpg",
+      "question": "El río daba agua, alimento y transporte, <mark>como una autopista natural</mark>. Es una civilización que nació y creció junto a un gran río. ¿Cómo se llama este tipo de civilización?",
+      "answer": "<mark>Civilización fluvial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/valle-rio-fertil.jpg",
+        "title": "Peru - Sacred Valley & Incan Ruins 317 - fertile river valley",
+        "source": "https://www.flickr.com/photos/56796376@N00/11057578384",
         "alt": "Un valle fértil junto a un gran río",
-        "titulo": "Peru - Sacred Valley & Incan Ruins 317 - fertile river valley",
         "autor": "mckaysavage",
-        "fuente": "https://www.flickr.com/photos/56796376@N00/11057578384",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Allí aparecieron las primeras ciudades y la primera escritura conocida. <mark>Fue como el primer capítulo de un libro que seguimos escribiendo</mark>. ¿Cómo se llama esta región, 'tierra entre ríos'?",
-      "respuesta": "<mark>Mesopotamia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/zigurat.jpg",
+      "question": "Allí aparecieron las primeras ciudades y la primera escritura conocida. <mark>Fue como el primer capítulo de un libro que seguimos escribiendo</mark>. ¿Cómo se llama esta región, 'tierra entre ríos'?",
+      "answer": "<mark>Mesopotamia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/zigurat.jpg",
+        "title": "Ziggurat",
+        "source": "https://www.flickr.com/photos/25182210@N07/2923936525",
         "alt": "Un zigurat, un templo escalonado de Mesopotamia",
-        "titulo": "Ziggurat",
         "autor": "dynamosquito",
-        "fuente": "https://www.flickr.com/photos/25182210@N07/2923936525",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Inventaron la escritura cuneiforme</mark>, una de las primeras del mundo. Construyeron las primeras ciudades de Mesopotamia. ¿Cómo se llama este primer pueblo importante de Mesopotamia?",
-      "respuesta": "<mark>Los sumerios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/escritura-cuneiforme.jpg",
+      "question": "<mark>Inventaron la escritura cuneiforme</mark>, una de las primeras del mundo. Construyeron las primeras ciudades de Mesopotamia. ¿Cómo se llama este primer pueblo importante de Mesopotamia?",
+      "answer": "<mark>Los sumerios</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/escritura-cuneiforme.jpg",
+        "title": "escritura cuneiforme",
+        "source": "https://www.flickr.com/photos/32179778@N00/32156102474",
         "alt": "Escritura cuneiforme, inventada por los sumerios",
-        "titulo": "escritura cuneiforme",
         "autor": "M. Martin Vicente",
-        "fuente": "https://www.flickr.com/photos/32179778@N00/32156102474",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Antes, muchas normas solo se transmitían de palabra. <mark>Los babilonios crearon uno de los primeros códigos de leyes escritos</mark>. ¿Cómo se llama este código de leyes?",
-      "respuesta": "<mark>Código de Hammurabi</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/estela-hammurabi.jpg",
+      "question": "Antes, muchas normas solo se transmitían de palabra. <mark>Los babilonios crearon uno de los primeros códigos de leyes escritos</mark>. ¿Cómo se llama este código de leyes?",
+      "answer": "<mark>Código de Hammurabi</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/estela-hammurabi.jpg",
+        "title": "Stele of Hammurabi",
+        "source": "https://www.flickr.com/photos/94215313@N00/5917418670",
         "alt": "La estela con el Código de Hammurabi",
-        "titulo": "Stele of Hammurabi",
         "autor": "allistair",
-        "fuente": "https://www.flickr.com/photos/94215313@N00/5917418670",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Era como un regalo que llegaba puntual cada año</mark>. Sus crecidas dejaban tierra fértil en pleno desierto. ¿Qué río hacía posible la vida en el Antiguo Egipto?",
-      "respuesta": "<mark>El Nilo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/rio-nilo.jpg",
+      "question": "<mark>Era como un regalo que llegaba puntual cada año</mark>. Sus crecidas dejaban tierra fértil en pleno desierto. ¿Qué río hacía posible la vida en el Antiguo Egipto?",
+      "answer": "<mark>El Nilo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/rio-nilo.jpg",
+        "title": "El Nilo",
+        "source": "https://www.flickr.com/photos/25521073@N03/2403033589",
         "alt": "El río Nilo, que hacía fértil la tierra de Egipto",
-        "titulo": "El Nilo",
         "autor": "Lumley_",
-        "fuente": "https://www.flickr.com/photos/25521073@N03/2403033589",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Se le consideraba casi un dios viviente</mark>, no solo un rey normal. Gobernaba, dirigía el ejército y era el jefe religioso. ¿Cómo se llamaba este gobernante supremo del Antiguo Egipto?",
-      "respuesta": "<mark>El faraón</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/mascara-faraon.jpg",
+      "question": "<mark>Se le consideraba casi un dios viviente</mark>, no solo un rey normal. Gobernaba, dirigía el ejército y era el jefe religioso. ¿Cómo se llamaba este gobernante supremo del Antiguo Egipto?",
+      "answer": "<mark>El faraón</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/mascara-faraon.jpg",
+        "title": "King Tut Burial Mask",
+        "source": "https://www.flickr.com/photos/80854685@N08/23785641449",
         "alt": "Una máscara funeraria dorada de un faraón",
-        "titulo": "King Tut Burial Mask",
         "autor": "Mark Fischer",
-        "fuente": "https://www.flickr.com/photos/80854685@N08/23785641449",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Eran tumbas gigantes construidas para los faraones. <mark>Guardaban su cuerpo y sus tesoros para la otra vida</mark>. ¿Cómo se llaman estas tumbas gigantes de Egipto?",
-      "respuesta": "<mark>Pirámides</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/piramides-egipto.jpg",
+      "question": "Eran tumbas gigantes construidas para los faraones. <mark>Guardaban su cuerpo y sus tesoros para la otra vida</mark>. ¿Cómo se llaman estas tumbas gigantes de Egipto?",
+      "answer": "<mark>Pirámides</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/piramides-egipto.jpg",
+        "title": "Pyramid panorama",
+        "source": "https://www.flickr.com/photos/31216636@N00/3021262683",
         "alt": "Las pirámides de Egipto, tumbas gigantes de los faraones",
-        "titulo": "Pyramid panorama",
         "autor": "Daveness_98",
-        "fuente": "https://www.flickr.com/photos/31216636@N00/3021262683",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Era el sistema de escritura del Antiguo Egipto, hecho con dibujos. <mark>Cada dibujo podía ser un sonido, una idea o un objeto</mark>. ¿Cómo se llama este sistema de escritura?",
-      "respuesta": "<mark>Escritura jeroglífica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/relieves-templo.jpg",
+      "question": "Era el sistema de escritura del Antiguo Egipto, hecho con dibujos. <mark>Cada dibujo podía ser un sonido, una idea o un objeto</mark>. ¿Cómo se llama este sistema de escritura?",
+      "answer": "<mark>Escritura jeroglífica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/relieves-templo.jpg",
+        "title": "Temple Reliefs at Kom Ombo (IV)",
+        "source": "https://www.flickr.com/photos/34561917@N04/5885593217",
         "alt": "Relieves con escritura jeroglífica en un templo egipcio",
-        "titulo": "Temple Reliefs at Kom Ombo (IV)",
         "autor": "isawnyu",
-        "fuente": "https://www.flickr.com/photos/34561917@N04/5885593217",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los egipcios creían que el cuerpo debía durar para la vida después de la muerte. <mark>Era un proceso para conservarlo que podía durar más de dos meses</mark>. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Momificación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/momias-egipto.jpg",
+      "question": "Los egipcios creían que el cuerpo debía durar para la vida después de la muerte. <mark>Era un proceso para conservarlo que podía durar más de dos meses</mark>. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Momificación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/momias-egipto.jpg",
+        "title": "Momias de Egipto",
+        "source": "https://www.flickr.com/photos/30993853@N06/5704670119",
         "alt": "Momias del Antiguo Egipto en un museo",
-        "titulo": "Momias de Egipto",
         "autor": "LALO VAZQUEZ",
-        "fuente": "https://www.flickr.com/photos/30993853@N06/5704670119",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ambas nacieron junto a grandes ríos que hacían fértil la tierra. <mark>El río actuó como motor de cada civilización</mark>. ¿Cómo se llama este tipo de civilización que Mesopotamia y Egipto comparten?",
-      "respuesta": "<mark>Civilizaciones fluviales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_3/mapa-rios-civilizaciones.jpg",
+      "question": "Ambas nacieron junto a grandes ríos que hacían fértil la tierra. <mark>El río actuó como motor de cada civilización</mark>. ¿Cómo se llama este tipo de civilización que Mesopotamia y Egipto comparten?",
+      "answer": "<mark>Civilizaciones fluviales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_3/mapa-rios-civilizaciones.jpg",
+        "title": "Quizlet River Civilizations Map",
+        "source": "https://www.flickr.com/photos/43708110@N00/9700659533",
         "alt": "Mapa de las civilizaciones fluviales junto a sus ríos",
-        "titulo": "Quizlet River Civilizations Map",
         "autor": "bjanu",
-        "fuente": "https://www.flickr.com/photos/43708110@N00/9700659533",
         "licencia": "CC BY 2.0"
       }
     }

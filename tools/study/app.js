@@ -151,14 +151,16 @@
      `archivo` is resolved relative to the site root, same as a deck's
      own JSON. */
   function imagenHtml(card) {
-    if (!card.imagen) return '';
-    var img = card.imagen;
-    return '<figure class="tarjeta-imagen">' +
-      '<img src="../../' + img.archivo + '" alt="' + App.utils.escapeHtml(img.alt) + '" loading="lazy">' +
+    if (!card.image) return '';
+    var img = card.image;
+    var src = img.file || img.archivo || '';
+    var alt = img.alt || '';
+    return '<figure class="card-image">' +
+      '<img src="../../' + src + '" alt="' + App.utils.escapeHtml(alt) + '" loading="lazy">' +
       '</figure>';
   }
 
-  /* Bolds the clue's closing question (format rule: `pregunta` is always
+  /* Bolds the clue's closing question (format rule: `question` is always
      2-4 clue sentences ending in one short "¿...?" question — CLAUDE.md
      §B.8 step 3) so it stands out from the descriptive sentences before
      it, without editing the 300+ existing deck files. Anchored on the
@@ -177,7 +179,7 @@
   function paintQuestion() {
     var card = cards[index];
     cardEl.innerHTML = imagenHtml(card) +
-      '<div class="tarjeta-contenido"><div class="cara">' + boldClosingQuestion(card.pregunta) + '</div></div>';
+      '<div class="card-content"><div class="face">' + boldClosingQuestion(card.question) + '</div></div>';
     btnReveal.classList.remove('hidden');
     btnNext.classList.add('secondary');
     cardEl.classList.remove('revealed');
@@ -192,10 +194,10 @@
     var card = cards[index];
     cardEl.innerHTML =
       imagenHtml(card) +
-      '<div class="tarjeta-contenido">' +
-      '<div class="respuesta">' + card.respuesta + '</div>' +
+      '<div class="card-content">' +
+      '<div class="answer">' + card.answer + '</div>' +
       '<hr>' +
-      '<div class="cara">' + boldClosingQuestion(card.pregunta) + '</div>' +
+      '<div class="face">' + boldClosingQuestion(card.question) + '</div>' +
       '</div>';
     btnReveal.classList.add('hidden');
     btnNext.classList.remove('secondary');
@@ -314,7 +316,7 @@
     }
     try {
       var deck = await App.decks.readUrl('../../decks/' + deckFile);
-      cards = deck.tarjetas;
+      cards = deck.cards;
       if (!cards.length) throw new Error('deckVacio');
       statusEl.classList.add('hidden');
       areaEl.classList.remove('hidden');

@@ -1,245 +1,245 @@
 {
-  "tema": "Operaciones Auxiliares de Gestión de Tesorería - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Operaciones Auxiliares de Gestión de Tesorería - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el dinero disponible que tiene una empresa para hacer frente a sus pagos. <mark>Es como el monedero de la empresa, siempre listo para el día a día</mark>. Incluye el dinero en caja y en cuentas bancarias. ¿Cómo se llama este dinero disponible?",
-      "respuesta": "<mark>Tesorería</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/dinero-efectivo.jpg",
+      "question": "Es el dinero disponible que tiene una empresa para hacer frente a sus pagos. <mark>Es como el monedero de la empresa, siempre listo para el día a día</mark>. Incluye el dinero en caja y en cuentas bancarias. ¿Cómo se llama este dinero disponible?",
+      "answer": "<mark>Tesorería</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/dinero-efectivo.jpg",
+        "title": "Cash money.",
+        "source": "https://www.flickr.com/photos",
         "alt": "Billetes y dinero en efectivo",
-        "titulo": "Cash money.",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.flickr.com/photos",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es comprobar que el dinero físico coincide con lo que deberían reflejar los registros. <mark>Es como contar el cambio de una hucha para ver si coincide con lo apuntado</mark>. Evita pérdidas y fraudes. ¿Cómo se llama esta comprobación?",
-      "respuesta": "<mark>Control de caja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/caja-registradora.jpg",
+      "question": "Es comprobar que el dinero físico coincide con lo que deberían reflejar los registros. <mark>Es como contar el cambio de una hucha para ver si coincide con lo apuntado</mark>. Evita pérdidas y fraudes. ¿Cómo se llama esta comprobación?",
+      "answer": "<mark>Control de caja</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/caja-registradora.jpg",
+        "title": "Old Cash Register",
+        "source": "https://www.flickr.com/photos",
         "alt": "Una caja registradora antigua",
-        "titulo": "Old Cash Register",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.flickr.com/photos",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el recuento físico del dinero en efectivo que hay en un momento dado. <mark>Es como vaciarlo todo y contar cada billete y moneda uno por uno</mark>. Si no coincide con los registros, hay que investigar el error. ¿Cómo se llama este recuento?",
-      "respuesta": "<mark>Arqueo de caja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/arqueo-caja.jpg",
+      "question": "Es el recuento físico del dinero en efectivo que hay en un momento dado. <mark>Es como vaciarlo todo y contar cada billete y moneda uno por uno</mark>. Si no coincide con los registros, hay que investigar el error. ¿Cómo se llama este recuento?",
+      "answer": "<mark>Arqueo de caja</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/arqueo-caja.jpg",
+        "title": "Money Counting",
+        "source": "https://www.flickr.com/photos/68877611@N00/3914501583",
         "alt": "Alguien contando dinero en efectivo",
-        "titulo": "Money Counting",
         "autor": "peretzp",
-        "fuente": "https://www.flickr.com/photos/68877611@N00/3914501583",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el documento donde se anotan todas las entradas y salidas de dinero en efectivo. <mark>Es como un diario, pero solo del dinero físico que entra y sale cada día</mark>. Es una herramienta básica para controlar la tesorería. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Libro de caja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libro-mayor.jpg",
+      "question": "Es el documento donde se anotan todas las entradas y salidas de dinero en efectivo. <mark>Es como un diario, pero solo del dinero físico que entra y sale cada día</mark>. Es una herramienta básica para controlar la tesorería. ¿Cómo se llama este documento?",
+      "answer": "<mark>Libro de caja</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libro-mayor.jpg",
+        "title": "Creditor's Ledger, Holmes McDougall",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271445364",
         "alt": "Un libro contable con anotaciones",
-        "titulo": "Creditor's Ledger, Holmes McDougall",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271445364",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una cuenta que permite ingresar, retirar y gestionar dinero a través de un banco. <mark>Es como un monedero digital que guarda el dinero de forma segura</mark>. Permite hacer pagos, cobros y transferencias. ¿Cómo se llama esta cuenta?",
-      "respuesta": "<mark>Cuenta corriente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/banca-online.jpg",
+      "question": "Es una cuenta que permite ingresar, retirar y gestionar dinero a través de un banco. <mark>Es como un monedero digital que guarda el dinero de forma segura</mark>. Permite hacer pagos, cobros y transferencias. ¿Cómo se llama esta cuenta?",
+      "answer": "<mark>Cuenta corriente</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/banca-online.jpg",
+        "title": "Scotiabank Online Banking Laptop",
+        "source": "https://www.flickr.com/photos/194322287@N05/51658218600",
         "alt": "Banca online en un ordenador portátil",
-        "titulo": "Scotiabank Online Banking Laptop",
         "autor": "PiggyBank Canada",
-        "fuente": "https://www.flickr.com/photos/194322287@N05/51658218600",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es comparar los movimientos que la empresa tiene registrados con los del banco. <mark>Es como comprobar que tu cuaderno de cuentas coincide con el resumen que te envían</mark>. Ayuda a detectar errores o movimientos pendientes. ¿Cómo se llama esta comparación?",
-      "respuesta": "<mark>Conciliación bancaria</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/grafico-monedas.jpg",
+      "question": "Es comparar los movimientos que la empresa tiene registrados con los del banco. <mark>Es como comprobar que tu cuaderno de cuentas coincide con el resumen que te envían</mark>. Ayuda a detectar errores o movimientos pendientes. ¿Cómo se llama esta comparación?",
+      "answer": "<mark>Conciliación bancaria</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/grafico-monedas.jpg",
+        "title": "Graph With Stacks Of Coins",
+        "source": "https://www.flickr.com/photos/26373139@N08/6093690339",
         "alt": "Un gráfico junto a pilas de monedas",
-        "titulo": "Graph With Stacks Of Coins",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/6093690339",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un documento con el que una persona ordena al banco pagar una cantidad a otra. <mark>Es como una orden de pago en papel, respaldada por el dinero de una cuenta</mark>. Quien lo recibe puede cobrarlo o ingresarlo. ¿Qué documento es?",
-      "respuesta": "<mark>Cheque</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/escribir-cheque.jpg",
+      "question": "Es un documento con el que una persona ordena al banco pagar una cantidad a otra. <mark>Es como una orden de pago en papel, respaldada por el dinero de una cuenta</mark>. Quien lo recibe puede cobrarlo o ingresarlo. ¿Qué documento es?",
+      "answer": "<mark>Cheque</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/escribir-cheque.jpg",
+        "title": "Check Writing",
+        "source": "https://www.flickr.com/photos/15923063@N00/2204277278",
         "alt": "Alguien escribiendo un cheque",
-        "titulo": "Check Writing",
         "autor": "CarbonNYC [in SF!]",
-        "fuente": "https://www.flickr.com/photos/15923063@N00/2204277278",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento en el que alguien se compromete a abonar una cantidad en una fecha futura. <mark>Es como una promesa por escrito, con una fecha concreta</mark>. Se usa mucho para aplazar cobros entre empresas. ¿Qué documento es?",
-      "respuesta": "<mark>Pagaré</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/apreton-manos-acuerdo.jpg",
+      "question": "Es un documento en el que alguien se compromete a abonar una cantidad en una fecha futura. <mark>Es como una promesa por escrito, con una fecha concreta</mark>. Se usa mucho para aplazar cobros entre empresas. ¿Qué documento es?",
+      "answer": "<mark>Pagaré</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/apreton-manos-acuerdo.jpg",
+        "title": "Business people shaking hands in agreement",
+        "source": "https://www.flickr.com/photos/147875007@N03/43972154720",
         "alt": "Dos personas dándose la mano en un acuerdo",
-        "titulo": "Business people shaking hands in agreement",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/43972154720",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento que ordena a alguien pagar una cantidad a otra persona, en una fecha fijada. <mark>Es como un pagaré, pero donde una tercera persona da la orden de pago</mark>. Puede transmitirse a otra persona antes de su vencimiento. ¿Qué documento es?",
-      "respuesta": "<mark>Letra de cambio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/certificado-antiguo.jpg",
+      "question": "Es un documento que ordena a alguien pagar una cantidad a otra persona, en una fecha fijada. <mark>Es como un pagaré, pero donde una tercera persona da la orden de pago</mark>. Puede transmitirse a otra persona antes de su vencimiento. ¿Qué documento es?",
+      "answer": "<mark>Letra de cambio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/certificado-antiguo.jpg",
+        "title": "Long Dock Company, stock certificate 1860s",
+        "source": "https://www.flickr.com/photos/88645472@N00/4409347325",
         "alt": "Un certificado financiero antiguo",
-        "titulo": "Long Dock Company, stock certificate 1860s",
         "autor": "crackdog",
-        "fuente": "https://www.flickr.com/photos/88645472@N00/4409347325",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Es el traspaso de dinero de una cuenta bancaria a otra. <mark>Es como mover dinero de un monedero a otro, sin tocarlo físicamente</mark>. Puede hacerse de forma inmediata o programada. ¿Cómo se llama este traspaso?",
-      "respuesta": "<mark>Transferencia bancaria</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/transferencia-dinero.jpg",
+      "question": "Es el traspaso de dinero de una cuenta bancaria a otra. <mark>Es como mover dinero de un monedero a otro, sin tocarlo físicamente</mark>. Puede hacerse de forma inmediata o programada. ¿Cómo se llama este traspaso?",
+      "answer": "<mark>Transferencia bancaria</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/transferencia-dinero.jpg",
+        "title": "It's a deal - here's the money",
+        "source": "https://www.flickr.com/photos/63114905@N06/18151984640",
         "alt": "Alguien entregando dinero a otra persona",
-        "titulo": "It's a deal - here's the money",
         "autor": "sandklef",
-        "fuente": "https://www.flickr.com/photos/63114905@N06/18151984640",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es autorizar a una empresa a cobrar directamente de tu cuenta de forma periódica. <mark>Es como dejar una llave para que alguien de confianza cobre lo acordado cada mes</mark>. Se usa mucho para pagos recurrentes. ¿Cómo se llama esta autorización?",
-      "respuesta": "<mark>Domiciliación bancaria</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/documento-firma.jpg",
+      "question": "Es autorizar a una empresa a cobrar directamente de tu cuenta de forma periódica. <mark>Es como dejar una llave para que alguien de confianza cobre lo acordado cada mes</mark>. Se usa mucho para pagos recurrentes. ¿Cómo se llama esta autorización?",
+      "answer": "<mark>Domiciliación bancaria</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/documento-firma.jpg",
+        "title": "Assignment to the Governors of the University of Toronto",
+        "source": "https://www.flickr.com/photos/34861056@N05/12308738613",
         "alt": "Un documento oficial siendo firmado",
-        "titulo": "Assignment to the Governors of the University of Toronto",
         "autor": "Thomas Fisher Rare Book Library, UofT",
-        "fuente": "https://www.flickr.com/photos/34861056@N05/12308738613",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es adelantar el cobro de un documento de pago, como una letra, a cambio de una comisión. <mark>Es como cambiar en un banco un pago futuro por dinero disponible ahora</mark>. El banco cobra un interés por adelantarlo. ¿Cómo se llama esta operación?",
-      "respuesta": "<mark>Descuento comercial de efectos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/billetes-grandes.jpg",
+      "question": "Es adelantar el cobro de un documento de pago, como una letra, a cambio de una comisión. <mark>Es como cambiar en un banco un pago futuro por dinero disponible ahora</mark>. El banco cobra un interés por adelantarlo. ¿Cómo se llama esta operación?",
+      "answer": "<mark>Descuento comercial de efectos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/billetes-grandes.jpg",
+        "title": "$100 Billion Dollars...",
+        "source": "https://www.flickr.com/photos/78042080@N00/3238458006",
         "alt": "Un billete grande de dinero",
-        "titulo": "$100 Billion Dollars...",
         "autor": "Erik Charlton",
-        "fuente": "https://www.flickr.com/photos/78042080@N00/3238458006",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento de cobro que no se ha abonado en la fecha acordada. <mark>Es como esperar algo que, en la fecha prevista, no llega</mark>. Puede deberse a falta de fondos o a un error del cliente. ¿Cómo se llama este documento no pagado?",
-      "respuesta": "<mark>Impagado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/sello-rechazado.jpg",
+      "question": "Es un documento de cobro que no se ha abonado en la fecha acordada. <mark>Es como esperar algo que, en la fecha prevista, no llega</mark>. Puede deberse a falta de fondos o a un error del cliente. ¿Cómo se llama este documento no pagado?",
+      "answer": "<mark>Impagado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/sello-rechazado.jpg",
+        "title": "Rejected stamp clipart illustration vector",
+        "source": "https://www.rawpixel.com/image/10165688/vector-logo-illustrations-public-domain",
         "alt": "Un sello de \"rechazado\" sobre un documento",
-        "titulo": "Rejected stamp clipart illustration vector",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/10165688/vector-logo-illustrations-public-domain",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Ante un impagado, se reclama el pago, se negocia un nuevo plazo o se inician acciones legales. <mark>Es como intentar recuperar algo prestado que no te han devuelto a tiempo</mark>. Cuanto antes se actúe, más fácil es recuperarlo. ¿Qué se hace ante un impagado?",
-      "respuesta": "<mark>Reclamar el pago</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/mujer-telefono-negocios.jpg",
+      "question": "Ante un impagado, se reclama el pago, se negocia un nuevo plazo o se inician acciones legales. <mark>Es como intentar recuperar algo prestado que no te han devuelto a tiempo</mark>. Cuanto antes se actúe, más fácil es recuperarlo. ¿Qué se hace ante un impagado?",
+      "answer": "<mark>Reclamar el pago</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/mujer-telefono-negocios.jpg",
+        "title": "A woman dressed in a pinstripe suit smiles while talking on a classic telephone",
+        "source": "https://www.flickr.com/photos/202846129@N03/54592859324",
         "alt": "Una mujer de negocios hablando por teléfono",
-        "titulo": "A woman dressed in a pinstripe suit smiles while talking on a classic telephone",
         "autor": "nenadstojkovicart",
-        "fuente": "https://www.flickr.com/photos/202846129@N03/54592859324",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son programas que ayudan a controlar los cobros, pagos y saldos de una empresa. <mark>Es como tener una calculadora especializada que organiza todo el dinero que entra y sale</mark>. Facilitan la conciliación bancaria. ¿Cómo se llaman estos programas?",
-      "respuesta": "<mark>Aplicaciones de gestión de tesorería</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/software-contable.jpg",
+      "question": "Son programas que ayudan a controlar los cobros, pagos y saldos de una empresa. <mark>Es como tener una calculadora especializada que organiza todo el dinero que entra y sale</mark>. Facilitan la conciliación bancaria. ¿Cómo se llaman estos programas?",
+      "answer": "<mark>Aplicaciones de gestión de tesorería</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/software-contable.jpg",
+        "title": "Accounting Finance",
+        "source": "https://stocksnap.io/photo/accounting-finance-JONMP7TPGK",
         "alt": "Alguien usando un programa de contabilidad",
-        "titulo": "Accounting Finance",
         "autor": "Wilfred Iven",
-        "fuente": "https://stocksnap.io/photo/accounting-finance-JONMP7TPGK",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Tener dinero disponible permite pagar a tiempo nóminas, proveedores e impuestos. <mark>Es como tener siempre algo de dinero a mano, aunque tengas más ahorrado en otro lado</mark>. Una empresa rentable puede tener problemas sin esto. ¿Qué es importante mantener en una empresa?",
-      "respuesta": "<mark>Una buena liquidez</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/monedas-apiladas.jpg",
+      "question": "Tener dinero disponible permite pagar a tiempo nóminas, proveedores e impuestos. <mark>Es como tener siempre algo de dinero a mano, aunque tengas más ahorrado en otro lado</mark>. Una empresa rentable puede tener problemas sin esto. ¿Qué es importante mantener en una empresa?",
+      "answer": "<mark>Una buena liquidez</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/monedas-apiladas.jpg",
+        "title": "Stacks of Coins",
+        "source": "https://www.flickr.com/photos/64441474@N06/8540279911",
         "alt": "Monedas apiladas",
-        "titulo": "Stacks of Coins",
         "autor": "Au Kirk",
-        "fuente": "https://www.flickr.com/photos/64441474@N06/8540279911",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Este documento de pago se cobra al presentarlo, sin esperar una fecha futura. <mark>Es como cobrar al contado, en el momento, sin esperar ni un día</mark>. El pagaré y la letra de cambio sí fijan una fecha futura. ¿Cómo se llama el documento que se paga al momento?",
-      "respuesta": "<mark>Cheque</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pila-documentos.jpg",
+      "question": "Este documento de pago se cobra al presentarlo, sin esperar una fecha futura. <mark>Es como cobrar al contado, en el momento, sin esperar ni un día</mark>. El pagaré y la letra de cambio sí fijan una fecha futura. ¿Cómo se llama el documento que se paga al momento?",
+      "answer": "<mark>Cheque</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pila-documentos.jpg",
+        "title": "Bibliography",
+        "source": "https://www.flickr.com/photos/24183489@N00/320300354",
         "alt": "Una pila de distintos documentos",
-        "titulo": "Bibliography",
         "autor": "gadl",
-        "fuente": "https://www.flickr.com/photos/24183489@N00/320300354",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Revisar esto permite detectar errores, cobros duplicados o cargos no autorizados. <mark>Es como revisar el ticket de la compra para comprobar que no te han cobrado de más</mark>. Detectarlo a tiempo evita pérdidas difíciles de recuperar. ¿Qué conviene revisar con frecuencia?",
-      "respuesta": "<mark>Los movimientos bancarios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/telefono-clasico.jpg",
+      "question": "Revisar esto permite detectar errores, cobros duplicados o cargos no autorizados. <mark>Es como revisar el ticket de la compra para comprobar que no te han cobrado de más</mark>. Detectarlo a tiempo evita pérdidas difíciles de recuperar. ¿Qué conviene revisar con frecuencia?",
+      "answer": "<mark>Los movimientos bancarios</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/telefono-clasico.jpg",
+        "title": "Mobile Phone",
+        "source": "https://www.flickr.com/photos/47285123@N03/4334590250",
         "alt": "Un teléfono móvil",
-        "titulo": "Mobile Phone",
         "autor": "Dominik Syka",
-        "fuente": "https://www.flickr.com/photos/47285123@N03/4334590250",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Todos los movimientos de tesorería deben quedar reflejados también en las cuentas de la empresa. <mark>Es como llevar dos registros que siempre deben coincidir entre sí</mark>. Esa coherencia permite conocer la situación económica real. ¿Con qué debe coincidir siempre la tesorería?",
-      "respuesta": "<mark>Con la contabilidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libros-contables.jpg",
+      "question": "Todos los movimientos de tesorería deben quedar reflejados también en las cuentas de la empresa. <mark>Es como llevar dos registros que siempre deben coincidir entre sí</mark>. Esa coherencia permite conocer la situación económica real. ¿Con qué debe coincidir siempre la tesorería?",
+      "answer": "<mark>Con la contabilidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/libros-contables.jpg",
+        "title": "Books (74/365)",
+        "source": "https://www.flickr.com/photos/8047705@N02/5530819321",
         "alt": "Una pila de libros contables",
-        "titulo": "Books (74/365)",
         "autor": "LifeSupercharger",
-        "fuente": "https://www.flickr.com/photos/8047705@N02/5530819321",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sin dinero disponible, una empresa no puede funcionar día a día, aunque sea rentable en el papel. <mark>Es como tener comida en la despensa, pero sin poder respirar mientras tanto</mark>. Muchas empresas rentables cierran por falta de esto. ¿A qué se compara la tesorería de una empresa?",
-      "respuesta": "<mark>Al oxígeno</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pulmones-anatomia.jpg",
+      "question": "Sin dinero disponible, una empresa no puede funcionar día a día, aunque sea rentable en el papel. <mark>Es como tener comida en la despensa, pero sin poder respirar mientras tanto</mark>. Muchas empresas rentables cierran por falta de esto. ¿A qué se compara la tesorería de una empresa?",
+      "answer": "<mark>Al oxígeno</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria/pulmones-anatomia.jpg",
+        "title": "Large Scale Lungs, Framed Anatomy Embroidery",
+        "source": "https://www.flickr.com/photos/45257015@N03/7511986150",
         "alt": "Una ilustración de pulmones, como el oxígeno de la empresa",
-        "titulo": "Large Scale Lungs, Framed Anatomy Embroidery",
         "autor": "Hey Paul Studios",
-        "fuente": "https://www.flickr.com/photos/45257015@N03/7511986150",
         "licencia": "CC BY 2.0"
       }
     }

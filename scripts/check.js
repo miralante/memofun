@@ -428,35 +428,40 @@ checks += 1;
     }
     try {
       var deck = JSON.parse(fs.readFileSync(deckPath, 'utf8'));
-      if (!Array.isArray(deck.tarjetas) || !deck.tarjetas.length) {
-        failures.push('decks/' + entry.file + ': "tarjetas" must be a non-empty array');
+      /* Support both old (Spanish) and new (English) schema keys */
+      var cards = deck.cards || deck.tarjetas;
+      if (!Array.isArray(cards) || !cards.length) {
+        failures.push('decks/' + entry.file + ': "cards" must be a non-empty array');
       } else {
-        deck.tarjetas.forEach(function (card, ci) {
-          ['pregunta', 'respuesta'].forEach(function (field) {
-            var v = card[field];
-            if (typeof v !== 'string' || !v.trim()) {
-              failures.push('decks/' + entry.file + ': tarjetas[' + ci + '].' + field +
-                ' must be a non-empty string, got ' + (typeof v) +
-                ' — non-string card fields render literally (e.g. "[object Object]") since' +
-                ' tools/study/app.js inserts them into innerHTML unescaped to allow simple HTML');
-            }
-          });
-          if (card.imagen !== undefined) {
-            var imgLabel = 'decks/' + entry.file + ': tarjetas[' + ci + '].imagen';
-            var img = card.imagen;
+        cards.forEach(function (card, ci) {
+          /* question/pregunta → question */
+          var pregunta = card.question || card.pregunta || '';
+          var respuesta = card.answer || card.respuesta || '';
+          if (typeof pregunta !== 'string' || !pregunta.trim()) {
+            failures.push('decks/' + entry.file + ': cards[' + ci + '].question' +
+              ' must be a non-empty string, got ' + (typeof pregunta));
+          }
+          if (typeof respuesta !== 'string' || !respuesta.trim()) {
+            failures.push('decks/' + entry.file + ': cards[' + ci + '].answer' +
+              ' must be a non-empty string, got ' + (typeof respuesta));
+          }
+          var img = card.image || card.imagen;
+          if (img !== undefined) {
+            var imgLabel = 'decks/' + entry.file + ': cards[' + ci + '].image';
             if (typeof img !== 'object' || img === null) {
               failures.push(imgLabel + ' must be an object');
             } else {
-              ['archivo', 'alt', 'titulo', 'autor', 'fuente', 'licencia'].forEach(function (field) {
+              ['file', 'alt', 'title', 'autor', 'source', 'licencia'].forEach(function (field) {
                 var v = img[field];
                 if (typeof v !== 'string' || !v.trim()) {
                   failures.push(imgLabel + '.' + field + ' must be a non-empty string, got ' + (typeof v));
                 }
               });
-              if (typeof img.archivo === 'string' && img.archivo.trim()) {
-                var imgPath = path.join(ROOT, img.archivo);
+              var imgSrc = img.file || img.archivo;
+              if (typeof imgSrc === 'string' && imgSrc.trim()) {
+                var imgPath = path.join(ROOT, imgSrc);
                 if (!fs.existsSync(imgPath)) {
-                  failures.push(imgLabel + '.archivo "' + img.archivo + '" does not exist on disk');
+                  failures.push(imgLabel + '.file "' + imgSrc + '" does not exist on disk');
                 } else {
                   var imgBytes = fs.statSync(imgPath).size;
                   // Hard 200 KB cap — every shipped image MUST be an actual
@@ -468,7 +473,7 @@ checks += 1;
                   // the warning never turned the build red. 200 KB is now
                   // the hard cap so that gap can't reopen silently.
                   if (imgBytes > 200 * 1024) {
-                    failures.push(imgLabel + '.archivo "' + img.archivo + '" is ' +
+                    failures.push(imgLabel + '.file "' + imgSrc + '" is ' +
                       Math.round(imgBytes / 1024) + ' KB — over the 200 KB hard cap (technical.md §3.1). ' +
                       'Re-encode it (e.g. `cjpeg -quality 75 -outfile foo.jpg foo.jpg` or ' +
                       'resize to ≤1024 px on the long edge) and re-save before committing.');

@@ -1,245 +1,245 @@
 {
-  "tema": "Operaciones Administrativas de Compraventa - FP GM Gestión Administrativa (1º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Operaciones Administrativas de Compraventa - FP GM Gestión Administrativa (1º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Consigue los productos o materiales que la empresa necesita. <mark>Es como quien se encarga de adquirir todo lo necesario</mark>. Negocia precios, plazos y condiciones con los proveedores. ¿Cómo se llama este departamento?",
-      "respuesta": "<mark>Departamento de compras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
+      "question": "Consigue los productos o materiales que la empresa necesita. <mark>Es como quien se encarga de adquirir todo lo necesario</mark>. Negocia precios, plazos y condiciones con los proveedores. ¿Cómo se llama este departamento?",
+      "answer": "<mark>Departamento de compras</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
+        "title": "20110826-FS-LSC-0104",
+        "source": "https://www.flickr.com/photos/41284017@N08/6097689731",
         "alt": "Cajas apiladas preparadas para enviar en un almacén",
-        "titulo": "20110826-FS-LSC-0104",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/6097689731",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Vende los productos o servicios de la empresa a los clientes. <mark>Es como el escaparate de la empresa, todo en uno</mark>. Gestiona pedidos, atiende a clientes y busca nuevos negocios. ¿Cómo se llama este departamento?",
-      "respuesta": "<mark>Departamento de ventas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/equipo-ventas.jpg",
+      "question": "Vende los productos o servicios de la empresa a los clientes. <mark>Es como el escaparate de la empresa, todo en uno</mark>. Gestiona pedidos, atiende a clientes y busca nuevos negocios. ¿Cómo se llama este departamento?",
+      "answer": "<mark>Departamento de ventas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/equipo-ventas.jpg",
+        "title": "Infosys information technology sales team, Bellevue office, Washington, USA",
+        "source": "https://www.flickr.com/photos/71401718@N00/7072298139",
         "alt": "Equipo de ventas trabajando junto en una oficina",
-        "titulo": "Infosys information technology sales team, Bellevue office, Washington, USA",
         "autor": "Wonderlane",
-        "fuente": "https://www.flickr.com/photos/71401718@N00/7072298139",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el acuerdo por el que una parte vende un bien y otra lo compra. <mark>Es como una operación normal, pero con normas legales más estrictas</mark>. Recoge qué se vende, a qué precio y en qué condiciones. ¿Cómo se llama este acuerdo?",
-      "respuesta": "<mark>Contrato de compraventa mercantil</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
+      "question": "Es el acuerdo por el que una parte vende un bien y otra lo compra. <mark>Es como una operación normal, pero con normas legales más estrictas</mark>. Recoge qué se vende, a qué precio y en qué condiciones. ¿Cómo se llama este acuerdo?",
+      "answer": "<mark>Contrato de compraventa mercantil</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
+        "title": "Two Person Shaking Each Others Hands",
+        "source": "https://www.flickr.com/photos/159630537@N08/28861151058",
         "alt": "Dos personas dandose la mano al cerrar un acuerdo",
-        "titulo": "Two Person Shaking Each Others Hands",
         "autor": "Homedust",
-        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero oficial y por escrito</mark>. Incluye qué se pide, en qué cantidad y en qué plazo. ¿Qué documento es?",
-      "respuesta": "<mark>Pedido</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
+      "question": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero oficial y por escrito</mark>. Incluye qué se pide, en qué cantidad y en qué plazo. ¿Qué documento es?",
+      "answer": "<mark>Pedido</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-cajas.jpg",
+        "title": "20110826-FS-LSC-0104",
+        "source": "https://www.flickr.com/photos/41284017@N08/6097689731",
         "alt": "Cajas apiladas preparadas para enviar en un almacén",
-        "titulo": "20110826-FS-LSC-0104",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/6097689731",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía llegó bien</mark>. Después se usa para elaborar la factura. ¿Qué documento es?",
-      "respuesta": "<mark>Albarán</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
+      "question": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía llegó bien</mark>. Después se usa para elaborar la factura. ¿Qué documento es?",
+      "answer": "<mark>Albarán</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
+        "title": "20161005-FNS-LSC-0114",
+        "source": "https://www.flickr.com/photos/41284017@N08/29959656563",
         "alt": "Reparto de paquetes y cajas desde un camion",
-        "titulo": "20161005-FNS-LSC-0114",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/29959656563",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor. ¿Qué documento es?",
-      "respuesta": "<mark>Factura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+      "question": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor. ¿Qué documento es?",
+      "answer": "<mark>Factura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+        "title": "Please pay this amount",
+        "source": "https://www.flickr.com/photos/40838054@N00/8689212",
         "alt": "Una factura con el importe a pagar",
-        "titulo": "Please pay this amount",
         "autor": "miguelb",
-        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El pedido solicita la mercancía, el albarán certifica que ha llegado, y la factura certifica el cobro. <mark>Es como los tres pasos de una misma historia: solicitar, recibir y pagar</mark>. ¿En qué orden se emiten estos tres documentos?",
-      "respuesta": "<mark>Pedido, albarán y factura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+      "question": "El pedido solicita la mercancía, el albarán certifica que ha llegado, y la factura certifica el cobro. <mark>Es como los tres pasos de una misma historia: solicitar, recibir y pagar</mark>. ¿En qué orden se emiten estos tres documentos?",
+      "answer": "<mark>Pedido, albarán y factura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+        "title": "Please pay this amount",
+        "source": "https://www.flickr.com/photos/40838054@N00/8689212",
         "alt": "Una factura de papel con el importe a pagar",
-        "titulo": "Please pay this amount",
         "autor": "miguelb",
-        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un porcentaje que se añade al precio del producto o servicio vendido. <mark>Es como sumar un pequeño extra al precio final que paga el comprador</mark>. La empresa vendedora lo cobra y luego lo declara a Hacienda. ¿Cómo se llama este impuesto?",
-      "respuesta": "<mark>IVA</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+      "question": "Es un porcentaje que se añade al precio del producto o servicio vendido. <mark>Es como sumar un pequeño extra al precio final que paga el comprador</mark>. La empresa vendedora lo cobra y luego lo declara a Hacienda. ¿Cómo se llama este impuesto?",
+      "answer": "<mark>IVA</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+        "title": "Old Fashioned Retail",
+        "source": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "alt": "Caja registradora antigua en una tienda",
-        "titulo": "Old Fashioned Retail",
         "autor": "QUOI Media",
-        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son impuestos sobre productos concretos, como el alcohol, el tabaco o los combustibles. <mark>Se pagan no sobre lo que ganas, sino sobre lo que compras</mark>. Se suman al precio final de esos productos. ¿Cómo se llama este tipo de impuestos?",
-      "respuesta": "<mark>Impuestos especiales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+      "question": "Son impuestos sobre productos concretos, como el alcohol, el tabaco o los combustibles. <mark>Se pagan no sobre lo que ganas, sino sobre lo que compras</mark>. Se suman al precio final de esos productos. ¿Cómo se llama este tipo de impuestos?",
+      "answer": "<mark>Impuestos especiales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+        "title": "Old Fashioned Retail",
+        "source": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "alt": "Caja registradora antigua en una tienda",
-        "titulo": "Old Fashioned Retail",
         "autor": "QUOI Media",
-        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son las formas en que un comprador entrega el dinero al vendedor. <mark>Pueden ser en efectivo, con tarjeta, transferencia o cheque</mark>. Cada una tiene ventajas distintas según la rapidez o la seguridad. ¿Cómo se llaman estas formas de entregar el dinero?",
-      "respuesta": "<mark>Medios de pago</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
+      "question": "Son las formas en que un comprador entrega el dinero al vendedor. <mark>Pueden ser en efectivo, con tarjeta, transferencia o cheque</mark>. Cada una tiene ventajas distintas según la rapidez o la seguridad. ¿Cómo se llaman estas formas de entregar el dinero?",
+      "answer": "<mark>Medios de pago</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
+        "title": "Credit card payment, shopping",
+        "source": "https://www.rawpixel.com/image/8809237/credit-card-payment-shopping",
         "alt": "Pagando una compra con tarjeta de credito",
-        "titulo": "Credit card payment, shopping",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/8809237/credit-card-payment-shopping",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Son las formas en que una empresa recibe el dinero de sus clientes. <mark>Es la otra cara del pago, vista desde quien vende</mark>. Incluyen la domiciliación bancaria, la transferencia o el pagaré. ¿Cómo se llaman estas formas de recibir el dinero?",
-      "respuesta": "<mark>Medios de cobro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+      "question": "Son las formas en que una empresa recibe el dinero de sus clientes. <mark>Es la otra cara del pago, vista desde quien vende</mark>. Incluyen la domiciliación bancaria, la transferencia o el pagaré. ¿Cómo se llaman estas formas de recibir el dinero?",
+      "answer": "<mark>Medios de cobro</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/caja-registradora.jpg",
+        "title": "Old Fashioned Retail",
+        "source": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "alt": "Caja registradora antigua en una tienda",
-        "titulo": "Old Fashioned Retail",
         "autor": "QUOI Media",
-        "fuente": "https://www.flickr.com/photos/49698777@N02/5238465807",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el seguimiento de cuántos productos tiene una empresa disponibles. <mark>Es como llevar la cuenta de lo que queda en la despensa</mark>. Ayuda a saber cuándo pedir más mercancía. ¿Cómo se llama este seguimiento?",
-      "respuesta": "<mark>Control de existencias</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+      "question": "Es el seguimiento de cuántos productos tiene una empresa disponibles. <mark>Es como llevar la cuenta de lo que queda en la despensa</mark>. Ayuda a saber cuándo pedir más mercancía. ¿Cómo se llama este seguimiento?",
+      "answer": "<mark>Control de existencias</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+        "title": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=196431232",
         "alt": "Estanterias de un almacen llenas de palets apilados",
-        "titulo": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
         "autor": "Shixart1985",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196431232",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el listado detallado de todos los bienes y mercancías de una empresa. <mark>Es como hacer un recuento completo de todo lo que hay en un almacén</mark>. Ayuda a detectar pérdidas, roturas o errores. ¿Qué documento es?",
-      "respuesta": "<mark>Inventario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+      "question": "Es el listado detallado de todos los bienes y mercancías de una empresa. <mark>Es como hacer un recuento completo de todo lo que hay en un almacén</mark>. Ayuda a detectar pérdidas, roturas o errores. ¿Qué documento es?",
+      "answer": "<mark>Inventario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+        "title": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=196431232",
         "alt": "Estanterias de un almacen llenas de palets apilados",
-        "titulo": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
         "autor": "Shixart1985",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196431232",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hay que verificar que lo recibido coincide con lo pedido, en cantidad y estado. <mark>Es como comprobar la compra antes de guardarla, para detectar errores a tiempo</mark>. Detectarlo pronto evita problemas y reclamaciones. ¿Qué debes hacer al recibir un pedido?",
-      "respuesta": "<mark>Revisar la mercancía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
+      "question": "Hay que verificar que lo recibido coincide con lo pedido, en cantidad y estado. <mark>Es como comprobar la compra antes de guardarla, para detectar errores a tiempo</mark>. Detectarlo pronto evita problemas y reclamaciones. ¿Qué debes hacer al recibir un pedido?",
+      "answer": "<mark>Revisar la mercancía</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/reparto-paquetes.jpg",
+        "title": "20161005-FNS-LSC-0114",
+        "source": "https://www.flickr.com/photos/41284017@N08/29959656563",
         "alt": "Reparto de paquetes y cajas desde un camion",
-        "titulo": "20161005-FNS-LSC-0114",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/29959656563",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Debe llevar los datos del vendedor y del comprador, el producto, el precio y el IVA. <mark>Es como una ficha completa que deja constancia exacta de la operación</mark>. También lleva un número correlativo y la fecha. ¿Qué documento es?",
-      "respuesta": "<mark>Factura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+      "question": "Debe llevar los datos del vendedor y del comprador, el producto, el precio y el IVA. <mark>Es como una ficha completa que deja constancia exacta de la operación</mark>. También lleva un número correlativo y la fecha. ¿Qué documento es?",
+      "answer": "<mark>Factura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/factura.jpg",
+        "title": "Please pay this amount",
+        "source": "https://www.flickr.com/photos/40838054@N00/8689212",
         "alt": "Una factura de papel con el importe a pagar",
-        "titulo": "Please pay this amount",
         "autor": "miguelb",
-        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al comprar así, se paga en el mismo momento de la compra, sin esperar. <mark>Es lo opuesto a pagar más adelante, en uno o varios plazos</mark>. ¿Cómo se llama esta forma de pagar?",
-      "respuesta": "<mark>Al contado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
+      "question": "Al comprar así, se paga en el mismo momento de la compra, sin esperar. <mark>Es lo opuesto a pagar más adelante, en uno o varios plazos</mark>. ¿Cómo se llama esta forma de pagar?",
+      "answer": "<mark>Al contado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/tarjeta-credito.jpg",
+        "title": "Credit card payment, shopping",
+        "source": "https://www.rawpixel.com/image/8809237/credit-card-payment-shopping",
         "alt": "Pagando una compra con tarjeta de credito",
-        "titulo": "Credit card payment, shopping",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/8809237/credit-card-payment-shopping",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "No controlar bien las existencias puede dejar a una empresa sin stock justo cuando lo necesita. O, al contrario, acumular mercancía que se estropea. <mark>Ambas situaciones generan el mismo problema para la empresa</mark>. ¿Qué provocan estos errores de control?",
-      "respuesta": "<mark>Pérdidas económicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+      "question": "No controlar bien las existencias puede dejar a una empresa sin stock justo cuando lo necesita. O, al contrario, acumular mercancía que se estropea. <mark>Ambas situaciones generan el mismo problema para la empresa</mark>. ¿Qué provocan estos errores de control?",
+      "answer": "<mark>Pérdidas económicas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/almacen-palets.jpg",
+        "title": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=196431232",
         "alt": "Estanterias de un almacen llenas de palets apilados",
-        "titulo": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
         "autor": "Shixart1985",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=196431232",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Busca conseguir el mejor precio y las mejores condiciones con los proveedores. <mark>Es como negociar el mejor trato posible antes de cerrar un acuerdo</mark>. También valora plazos de entrega y calidad. ¿Qué departamento negocia con los proveedores?",
-      "respuesta": "<mark>Departamento de compras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
+      "question": "Busca conseguir el mejor precio y las mejores condiciones con los proveedores. <mark>Es como negociar el mejor trato posible antes de cerrar un acuerdo</mark>. También valora plazos de entrega y calidad. ¿Qué departamento negocia con los proveedores?",
+      "answer": "<mark>Departamento de compras</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/apreton-manos.jpg",
+        "title": "Two Person Shaking Each Others Hands",
+        "source": "https://www.flickr.com/photos/159630537@N08/28861151058",
         "alt": "Dos personas dandose la mano al cerrar un acuerdo",
-        "titulo": "Two Person Shaking Each Others Hands",
         "autor": "Homedust",
-        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los documentos de una compraventa sirven en caso de reclamación o inspección. <mark>Es como guardar un ticket por si necesitas devolver algo más adelante</mark>. También hacen falta para la contabilidad y los impuestos. ¿Qué son estos documentos para la empresa?",
-      "respuesta": "<mark>Prueba legal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/archivador.jpg",
+      "question": "Los documentos de una compraventa sirven en caso de reclamación o inspección. <mark>Es como guardar un ticket por si necesitas devolver algo más adelante</mark>. También hacen falta para la contabilidad y los impuestos. ¿Qué son estos documentos para la empresa?",
+      "answer": "<mark>Prueba legal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/archivador.jpg",
+        "title": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "source": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "alt": "Empleada guardando documentos en un archivador de oficina",
-        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
         "autor": "Kheel Center, Cornell University Library",
-        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cada compra y cada venta debe quedar anotada, con su documento correspondiente. <mark>Es como escribir cada movimiento en un cuaderno de cuentas</mark>. Esos registros muestran la situación económica real. ¿Qué debe hacerse con cada compra y venta?",
-      "respuesta": "<mark>Registrarse contablemente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/calculadora-libro.jpg",
+      "question": "Cada compra y cada venta debe quedar anotada, con su documento correspondiente. <mark>Es como escribir cada movimiento en un cuaderno de cuentas</mark>. Esos registros muestran la situación económica real. ¿Qué debe hacerse con cada compra y venta?",
+      "answer": "<mark>Registrarse contablemente</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_operaciones-administrativas-compraventa/calculadora-libro.jpg",
+        "title": "Calculator and Pen with Ledger",
+        "source": "https://www.flickr.com/photos/126131780@N08/14877276186",
         "alt": "Calculadora y boligrafo sobre un libro de cuentas",
-        "titulo": "Calculator and Pen with Ledger",
         "autor": "seniorplanning",
-        "fuente": "https://www.flickr.com/photos/126131780@N08/14877276186",
         "licencia": "CC BY 2.0"
       }
     }

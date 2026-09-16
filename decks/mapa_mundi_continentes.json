@@ -1,71 +1,71 @@
 {
-  "tema": "Continentes y Océanos del Mundo",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Continentes y Océanos del Mundo",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una masa de tierra enorme, rodeada de mar. <mark>Es como una isla gigante donde caben muchos países</mark>. La Tierra tiene seis de estas masas de tierra. ¿Cómo se llama cada una?",
-      "respuesta": "<mark>Continente</mark>"
+      "question": "Es una masa de tierra enorme, rodeada de mar. <mark>Es como una isla gigante donde caben muchos países</mark>. La Tierra tiene seis de estas masas de tierra. ¿Cómo se llama cada una?",
+      "answer": "<mark>Continente</mark>"
     },
     {
-      "pregunta": "Es una masa de agua salada gigante, <mark>como una manta azul que cubre casi todo el planeta</mark>. Hay cinco en el mundo. ¿Cómo se llama esta gran masa de agua?",
-      "respuesta": "<mark>Océano</mark>"
+      "question": "Es una masa de agua salada gigante, <mark>como una manta azul que cubre casi todo el planeta</mark>. Hay cinco en el mundo. ¿Cómo se llama esta gran masa de agua?",
+      "answer": "<mark>Océano</mark>"
     },
     {
-      "pregunta": "Es el continente más largo: <mark>se extiende casi de polo a polo</mark>. Incluye países como Canadá, México, Brasil y Argentina. ¿Qué continente es?",
-      "respuesta": "<mark>América</mark>"
+      "question": "Es el continente más largo: <mark>se extiende casi de polo a polo</mark>. Incluye países como Canadá, México, Brasil y Argentina. ¿Qué continente es?",
+      "answer": "<mark>América</mark>"
     },
     {
-      "pregunta": "Es uno de los continentes más pequeños. <mark>Tiene muchos países muy juntos, como un mosaico</mark>. Incluye España, Francia e Italia. ¿Qué continente es?",
-      "respuesta": "<mark>Europa</mark>"
+      "question": "Es uno de los continentes más pequeños. <mark>Tiene muchos países muy juntos, como un mosaico</mark>. Incluye España, Francia e Italia. ¿Qué continente es?",
+      "answer": "<mark>Europa</mark>"
     },
     {
-      "pregunta": "Es el segundo continente más grande del mundo. <mark>Tiene el desierto más grande del planeta, el Sahara</mark>. Incluye Egipto, Nigeria y Sudáfrica. ¿Qué continente es?",
-      "respuesta": "<mark>África</mark>"
+      "question": "Es el segundo continente más grande del mundo. <mark>Tiene el desierto más grande del planeta, el Sahara</mark>. Incluye Egipto, Nigeria y Sudáfrica. ¿Qué continente es?",
+      "answer": "<mark>África</mark>"
     },
     {
-      "pregunta": "Es el continente más grande y más poblado del mundo. <mark>Vive allí más gente que en todos los demás juntos</mark>. Tiene la montaña más alta del planeta, el Everest. ¿Qué continente es?",
-      "respuesta": "<mark>Asia</mark>"
+      "question": "Es el continente más grande y más poblado del mundo. <mark>Vive allí más gente que en todos los demás juntos</mark>. Tiene la montaña más alta del planeta, el Everest. ¿Qué continente es?",
+      "answer": "<mark>Asia</mark>"
     },
     {
-      "pregunta": "Es el continente más pequeño del mundo, formado por Australia y miles de islas del Pacífico. <mark>Muchos de sus animales no existen en ningún otro lugar</mark>. ¿Qué continente es?",
-      "respuesta": "<mark>Oceanía</mark>"
+      "question": "Es el continente más pequeño del mundo, formado por Australia y miles de islas del Pacífico. <mark>Muchos de sus animales no existen en ningún otro lugar</mark>. ¿Qué continente es?",
+      "answer": "<mark>Oceanía</mark>"
     },
     {
-      "pregunta": "Es el continente más frío y helado del planeta, cubierto casi por completo de hielo. <mark>Casi nadie vive allí: solo lo visitan científicos para investigar</mark>. ¿Qué continente es?",
-      "respuesta": "<mark>Antártida</mark>"
+      "question": "Es el continente más frío y helado del planeta, cubierto casi por completo de hielo. <mark>Casi nadie vive allí: solo lo visitan científicos para investigar</mark>. ¿Qué continente es?",
+      "answer": "<mark>Antártida</mark>"
     },
     {
-      "pregunta": "Es el océano más grande y más profundo del mundo, <mark>tan enorme que podría cubrir toda la tierra firme junta</mark>. Separa América de Asia y Oceanía. ¿Qué océano es?",
-      "respuesta": "<mark>Pacífico</mark>"
+      "question": "Es el océano más grande y más profundo del mundo, <mark>tan enorme que podría cubrir toda la tierra firme junta</mark>. Separa América de Asia y Oceanía. ¿Qué océano es?",
+      "answer": "<mark>Pacífico</mark>"
     },
     {
-      "pregunta": "Es el segundo océano más grande del mundo. <mark>Separa América de Europa y África, como un gran pasillo de agua</mark>. Por él viajaron los primeros barcos que cruzaron entre continentes. ¿Qué océano es?",
-      "respuesta": "<mark>Atlántico</mark>"
+      "question": "Es el segundo océano más grande del mundo. <mark>Separa América de Europa y África, como un gran pasillo de agua</mark>. Por él viajaron los primeros barcos que cruzaron entre continentes. ¿Qué océano es?",
+      "answer": "<mark>Atlántico</mark>"
     },
     {
-      "pregunta": "Está entre África, Asia y Oceanía. Es el tercer océano más grande del mundo. <mark>Muchas rutas comerciales antiguas pasaban por él</mark>. ¿Qué océano es?",
-      "respuesta": "<mark>Índico</mark>"
+      "question": "Está entre África, Asia y Oceanía. Es el tercer océano más grande del mundo. <mark>Muchas rutas comerciales antiguas pasaban por él</mark>. ¿Qué océano es?",
+      "answer": "<mark>Índico</mark>"
     },
     {
-      "pregunta": "Es el océano más pequeño y más frío del mundo, con gran parte de su superficie cubierta de hielo. <mark>Rodea el Polo Norte y allí viven osos polares</mark>. ¿Qué océano es?",
-      "respuesta": "<mark>Ártico</mark>"
+      "question": "Es el océano más pequeño y más frío del mundo, con gran parte de su superficie cubierta de hielo. <mark>Rodea el Polo Norte y allí viven osos polares</mark>. ¿Qué océano es?",
+      "answer": "<mark>Ártico</mark>"
     },
     {
-      "pregunta": "Rodea por completo el continente Antártida. Es el océano más joven, reconocido oficialmente solo desde el año 2000. <mark>Sus aguas frías son hogar de pingüinos y ballenas</mark>. ¿Qué océano es?",
-      "respuesta": "<mark>Antártico</mark>"
+      "question": "Rodea por completo el continente Antártida. Es el océano más joven, reconocido oficialmente solo desde el año 2000. <mark>Sus aguas frías son hogar de pingüinos y ballenas</mark>. ¿Qué océano es?",
+      "answer": "<mark>Antártico</mark>"
     },
     {
-      "pregunta": "Es una línea imaginaria que rodea la Tierra por el centro. <mark>Divide el planeta en dos mitades iguales, como cortar una naranja</mark>. Cerca de ella el clima es muy cálido. ¿Cómo se llama esta línea?",
-      "respuesta": "<mark>Ecuador</mark>"
+      "question": "Es una línea imaginaria que rodea la Tierra por el centro. <mark>Divide el planeta en dos mitades iguales, como cortar una naranja</mark>. Cerca de ella el clima es muy cálido. ¿Cómo se llama esta línea?",
+      "answer": "<mark>Ecuador</mark>"
     },
     {
-      "pregunta": "Son las dos mitades en que el ecuador divide la Tierra, <mark>como partir una pelota por la mitad</mark>. España está en la de arriba. Cuando allí es verano, en la de abajo es invierno. ¿Cómo se llaman estas dos mitades?",
-      "respuesta": "<mark>Hemisferios</mark>"
+      "question": "Son las dos mitades en que el ecuador divide la Tierra, <mark>como partir una pelota por la mitad</mark>. España está en la de arriba. Cuando allí es verano, en la de abajo es invierno. ¿Cómo se llaman estas dos mitades?",
+      "answer": "<mark>Hemisferios</mark>"
     },
     {
-      "pregunta": "Son los dos puntos más al norte y más al sur del planeta, <mark>como los extremos de un eje invisible</mark>. El Polo Norte está sobre el mar helado. El Polo Sur está en la Antártida. ¿Cómo se llaman estos dos puntos?",
-      "respuesta": "<mark>Polos</mark>"
+      "question": "Son los dos puntos más al norte y más al sur del planeta, <mark>como los extremos de un eje invisible</mark>. El Polo Norte está sobre el mar helado. El Polo Sur está en la Antártida. ¿Cómo se llaman estos dos puntos?",
+      "answer": "<mark>Polos</mark>"
     }
   ]
 }

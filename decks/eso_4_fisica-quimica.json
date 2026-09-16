@@ -1,125 +1,125 @@
 {
-  "tema": "El método científico avanzado - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El método científico avanzado - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Ningún instrumento mide con precisión perfecta. <mark>Un termómetro puede marcar 36,4° cuando la temperatura real es 36,5°</mark>. ¿Cómo se llama esta diferencia entre el valor medido y el real?",
-      "respuesta": "<mark>Error de una medida</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/balanza-precision.jpg",
+      "question": "Ningún instrumento mide con precisión perfecta. <mark>Un termómetro puede marcar 36,4° cuando la temperatura real es 36,5°</mark>. ¿Cómo se llama esta diferencia entre el valor medido y el real?",
+      "answer": "<mark>Error de una medida</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/balanza-precision.jpg",
+        "title": "Electronic Weighing Scale",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=179983410",
         "alt": "Una balanza electrónica de precisión",
-        "titulo": "Electronic Weighing Scale",
         "autor": "Aliva Sahoo",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=179983410",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>Es como preguntar a varias personas la hora</mark>, en vez de fiarte de un solo reloj. Cuantas más medidas hay, menos pesan los errores pequeños. ¿Cómo se llama el resultado más fiable que se calcula así?",
-      "respuesta": "<mark>Valor medio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/cronometro.jpg",
+      "question": "<mark>Es como preguntar a varias personas la hora</mark>, en vez de fiarte de un solo reloj. Cuantas más medidas hay, menos pesan los errores pequeños. ¿Cómo se llama el resultado más fiable que se calcula así?",
+      "answer": "<mark>Valor medio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/cronometro.jpg",
+        "title": "Stopwatch",
+        "source": "https://www.flickr.com/photos/75264768@N00/3271558744",
         "alt": "Un cronómetro para medir con precisión",
-        "titulo": "Stopwatch",
         "autor": "smaedli",
-        "fuente": "https://www.flickr.com/photos/75264768@N00/3271558744",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como comprobar que una receta no mezcle litros con kilos</mark>. Comprueban si las unidades de una fórmula son coherentes. Detectan errores antes de calcular. ¿Cómo se llaman estas ecuaciones de comprobación?",
-      "respuesta": "<mark>Ecuaciones dimensionales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/pizarra-matematicas.jpg",
+      "question": "<mark>Es como comprobar que una receta no mezcle litros con kilos</mark>. Comprueban si las unidades de una fórmula son coherentes. Detectan errores antes de calcular. ¿Cómo se llaman estas ecuaciones de comprobación?",
+      "answer": "<mark>Ecuaciones dimensionales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/pizarra-matematicas.jpg",
+        "title": "Torsten, math teacher",
+        "source": "https://www.flickr.com/photos/44093058@N06/13927054414",
         "alt": "Una pizarra con ecuaciones matemáticas",
-        "titulo": "Torsten, math teacher",
         "autor": "blondinrikard",
-        "fuente": "https://www.flickr.com/photos/44093058@N06/13927054414",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como encontrar la melodía escondida entre muchas notas sueltas</mark>. Los datos se organizan, se grafican y se buscan patrones. Así se comprueba si los resultados confirman la hipótesis. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Análisis de datos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/grafico-3d.jpg",
+      "question": "<mark>Es como encontrar la melodía escondida entre muchas notas sueltas</mark>. Los datos se organizan, se grafican y se buscan patrones. Así se comprueba si los resultados confirman la hipótesis. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Análisis de datos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/grafico-3d.jpg",
+        "title": "3D Bar Graph Meeting",
+        "source": "https://www.flickr.com/photos/22177648@N06/2136954043",
         "alt": "Un gráfico de barras en 3D con datos",
-        "titulo": "3D Bar Graph Meeting",
         "autor": "lumaxart",
-        "fuente": "https://www.flickr.com/photos/22177648@N06/2136954043",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Sensores, programas informáticos y simuladores forman parte de ellas. <mark>Son como ayudantes digitales que aceleran cada paso de la investigación</mark>. ¿Cómo se llaman estos recursos?",
-      "respuesta": "<mark>Herramientas tecnológicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/laboratorio-tecnologia.jpg",
+      "question": "Sensores, programas informáticos y simuladores forman parte de ellas. <mark>Son como ayudantes digitales que aceleran cada paso de la investigación</mark>. ¿Cómo se llaman estos recursos?",
+      "answer": "<mark>Herramientas tecnológicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/laboratorio-tecnologia.jpg",
+        "title": "Blockchain Advanced Protection Lab",
+        "source": "https://www.flickr.com/photos/37940997@N05/54466792278",
         "alt": "Un laboratorio moderno con tecnología avanzada",
-        "titulo": "Blockchain Advanced Protection Lab",
         "autor": "oakridgelabnews",
-        "fuente": "https://www.flickr.com/photos/37940997@N05/54466792278",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Una introducción, el método, los resultados y las conclusiones son sus partes. <mark>Es como contar una historia completa, sin huecos que confundan</mark>. Así otra persona puede repetir el experimento sin dudas. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Informe científico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/informe-tecnico.jpg",
+      "question": "Una introducción, el método, los resultados y las conclusiones son sus partes. <mark>Es como contar una historia completa, sin huecos que confundan</mark>. Así otra persona puede repetir el experimento sin dudas. ¿Cómo se llama este documento?",
+      "answer": "<mark>Informe científico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/informe-tecnico.jpg",
+        "title": "How the Eagle Landed — the Grumman Construction Log",
+        "source": "https://www.flickr.com/photos/44124348109@N01/7610058658",
         "alt": "Un informe técnico escrito",
-        "titulo": "How the Eagle Landed — the Grumman Construction Log",
         "autor": "jurvetson",
-        "fuente": "https://www.flickr.com/photos/44124348109@N01/7610058658",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un número, una gráfica y una tabla cuentan la misma historia de formas distintas</mark>. Cada formato ayuda a entenderla mejor. ¿Cómo se llama mostrar los datos de estas distintas formas?",
-      "respuesta": "<mark>Representación de datos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/infografia-datos.jpg",
+      "question": "<mark>Un número, una gráfica y una tabla cuentan la misma historia de formas distintas</mark>. Cada formato ayuda a entenderla mejor. ¿Cómo se llama mostrar los datos de estas distintas formas?",
+      "answer": "<mark>Representación de datos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/infografia-datos.jpg",
+        "title": "Cities need stories",
+        "source": "https://www.flickr.com/photos/44052773@N00/4922597285",
         "alt": "Una infografía con datos representados visualmente",
-        "titulo": "Cities need stories",
         "autor": "Paolo Tonon",
-        "fuente": "https://www.flickr.com/photos/44052773@N00/4922597285",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como contar lo descubierto, sin exagerar ni esconder nada</mark>. Incluye reconocer los propios límites y errores. ¿Cómo se llama esta forma honesta de producir información científica?",
-      "respuesta": "<mark>Rigor científico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/escribiendo.jpg",
+      "question": "<mark>Es como contar lo descubierto, sin exagerar ni esconder nada</mark>. Incluye reconocer los propios límites y errores. ¿Cómo se llama esta forma honesta de producir información científica?",
+      "answer": "<mark>Rigor científico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/escribiendo.jpg",
+        "title": "Writing",
+        "source": "https://www.flickr.com/photos/53326337@N00/6391831325",
         "alt": "Alguien escribiendo con atención",
-        "titulo": "Writing",
         "autor": "quinn.anya",
-        "fuente": "https://www.flickr.com/photos/53326337@N00/6391831325",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como separar el grano de la paja en un texto</mark>. Se identifican las ideas principales y se contrastan con otras fuentes. Así se evitan titulares llamativos pero poco precisos. ¿Qué hay que buscar para contrastar bien la información?",
-      "respuesta": "<mark>Fuentes fiables</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/lectura-sofa.jpg",
+      "question": "<mark>Es como separar el grano de la paja en un texto</mark>. Se identifican las ideas principales y se contrastan con otras fuentes. Así se evitan titulares llamativos pero poco precisos. ¿Qué hay que buscar para contrastar bien la información?",
+      "answer": "<mark>Fuentes fiables</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/lectura-sofa.jpg",
+        "title": "Individual reading a book on a comfortable sofa in a modern living room",
+        "source": "https://www.flickr.com/photos/202780880@N02/54560053792",
         "alt": "Una persona leyendo tranquilamente en el sofá",
-        "titulo": "Individual reading a book on a comfortable sofa in a modern living room",
         "autor": "nenad53",
-        "fuente": "https://www.flickr.com/photos/202780880@N02/54560053792",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Entender un poco de ciencia <mark>ayuda a no dejarse llevar por bulos o exageraciones</mark>. También ayuda a decidir bien sobre salud, tecnología o medio ambiente. ¿Cómo se llama a este conocimiento científico compartido por la sociedad?",
-      "respuesta": "<mark>Cultura científica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica/centro-visitantes.jpg",
+      "question": "Entender un poco de ciencia <mark>ayuda a no dejarse llevar por bulos o exageraciones</mark>. También ayuda a decidir bien sobre salud, tecnología o medio ambiente. ¿Cómo se llama a este conocimiento científico compartido por la sociedad?",
+      "answer": "<mark>Cultura científica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica/centro-visitantes.jpg",
+        "title": "Grand Canyon National Park Visitor Center 4016",
+        "source": "https://www.flickr.com/photos/50693818@N08/6971295030",
         "alt": "Un centro de visitantes con paneles educativos",
-        "titulo": "Grand Canyon National Park Visitor Center 4016",
         "autor": "Grand Canyon NPS",
-        "fuente": "https://www.flickr.com/photos/50693818@N08/6971295030",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,173 +1,173 @@
 {
-  "tema": "La geología: relieve, tectónica de placas y riesgos geológicos - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La geología: relieve, tectónica de placas y riesgos geológicos - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Las formas físicas del terreno, como montañas o llanuras, son solo una parte. <mark>Esto además incluye el clima, la vegetación y la huella humana</mark>. Dos lugares con el mismo relieve pueden ser muy distintos así. ¿Cómo se llama este conjunto más amplio?",
-      "respuesta": "<mark>Paisaje</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/paisaje-valle-montana.jpg",
+      "question": "Las formas físicas del terreno, como montañas o llanuras, son solo una parte. <mark>Esto además incluye el clima, la vegetación y la huella humana</mark>. Dos lugares con el mismo relieve pueden ser muy distintos así. ¿Cómo se llama este conjunto más amplio?",
+      "answer": "<mark>Paisaje</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/paisaje-valle-montana.jpg",
+        "title": "Mountain Valley Landscape",
+        "source": "https://www.rawpixel.com/image/5966608/mountain-valley-landscape",
         "alt": "Valle entre montañas con vegetación",
-        "titulo": "Mountain Valley Landscape",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/5966608/mountain-valley-landscape",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una escultura moldeada por fuerzas de dentro y de fuera</mark>. El clima, la roca y los procesos geológicos actúan durante millones de años. Cambia tan lento que no lo notamos en una vida. ¿Qué forman estos factores juntos?",
-      "respuesta": "<mark>El relieve</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/hoodoos-erosion.jpg",
+      "question": "<mark>Es como una escultura moldeada por fuerzas de dentro y de fuera</mark>. El clima, la roca y los procesos geológicos actúan durante millones de años. Cambia tan lento que no lo notamos en una vida. ¿Qué forman estos factores juntos?",
+      "answer": "<mark>El relieve</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/hoodoos-erosion.jpg",
+        "title": "hoo-doos... you-doo?",
+        "source": "https://www.flickr.com/photos/42549779@N06/9140777008",
         "alt": "Columnas de roca esculpidas por la erosión (hoodoos)",
-        "titulo": "hoo-doos... you-doo?",
         "autor": "scott1346",
-        "fuente": "https://www.flickr.com/photos/42549779@N06/9140777008",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como investigar un motor escuchando y midiendo desde fuera</mark>. Los científicos usan estas ondas para deducir el interior de la Tierra. Se generan en terremotos y volcanes. ¿Cómo se llaman estas ondas?",
-      "respuesta": "<mark>Ondas sísmicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/sismografo.jpg",
+      "question": "<mark>Es como investigar un motor escuchando y midiendo desde fuera</mark>. Los científicos usan estas ondas para deducir el interior de la Tierra. Se generan en terremotos y volcanes. ¿Cómo se llaman estas ondas?",
+      "answer": "<mark>Ondas sísmicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/sismografo.jpg",
+        "title": "Seismometer, Thomas A. Jaggar Museum, Hawaiʻi Volcanoes National Park, Hawaii",
+        "source": "https://www.flickr.com/photos/75683070@N00/4529370926",
         "alt": "Sismómetro que registra las vibraciones del terreno",
-        "titulo": "Seismometer, Thomas A. Jaggar Museum, Hawaiʻi Volcanoes National Park, Hawaii",
         "autor": "Ken Lund",
-        "fuente": "https://www.flickr.com/photos/75683070@N00/4529370926",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como el borde donde termina un material y empieza otro distinto</mark>. Las ondas sísmicas cambian de velocidad al cruzarlo. Separan la corteza, el manto y el núcleo. ¿Cómo se llaman estos límites?",
-      "respuesta": "<mark>Discontinuidades</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/capas-interior-tierra.svg",
+      "question": "<mark>Es como el borde donde termina un material y empieza otro distinto</mark>. Las ondas sísmicas cambian de velocidad al cruzarlo. Separan la corteza, el manto y el núcleo. ¿Cómo se llaman estos límites?",
+      "answer": "<mark>Discontinuidades</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/capas-interior-tierra.svg",
+        "title": "Earth cutaway schematic numbered (green)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=75599018",
         "alt": "Esquema en corte de las capas del interior de la Tierra",
-        "titulo": "Earth cutaway schematic numbered (green)",
         "autor": "USGS - Anasofiapaixao - Bibar",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=75599018",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un rompecabezas gigante cuyas piezas se mueven muy lentamente</mark>. La corteza terrestre está dividida en grandes placas. Ese movimiento explica terremotos y volcanes. ¿Cómo se llama esta teoría?",
-      "respuesta": "<mark>Tectónica de placas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/mapa-placas-tectonicas.jpg",
+      "question": "<mark>Es como un rompecabezas gigante cuyas piezas se mueven muy lentamente</mark>. La corteza terrestre está dividida en grandes placas. Ese movimiento explica terremotos y volcanes. ¿Cómo se llama esta teoría?",
+      "answer": "<mark>Tectónica de placas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/mapa-placas-tectonicas.jpg",
+        "title": "Map Of Major Tectonic Plates In The World",
+        "source": "https://www.flickr.com/photos/45150779@N04/5051807235",
         "alt": "Mapa mundial con las principales placas tectónicas",
-        "titulo": "Map Of Major Tectonic Plates In The World",
         "autor": "BlatantWorld.com",
-        "fuente": "https://www.flickr.com/photos/45150779@N04/5051807235",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como dos coches que se alejan, chocan de frente o se rozan al pasar</mark>. Las placas tectónicas se comportan igual entre ellas. Donde chocan, se forman grandes cordilleras. ¿Cómo se llaman estos puntos de contacto entre placas?",
-      "respuesta": "<mark>Bordes de placas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/dorsal-centro-atlantica.jpg",
+      "question": "<mark>Es como dos coches que se alejan, chocan de frente o se rozan al pasar</mark>. Las placas tectónicas se comportan igual entre ellas. Donde chocan, se forman grandes cordilleras. ¿Cómo se llaman estos puntos de contacto entre placas?",
+      "answer": "<mark>Bordes de placas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/dorsal-centro-atlantica.jpg",
+        "title": "Mid-atlantic ridge",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=765550",
         "alt": "Mapa de la dorsal centro-atlántica, un borde donde dos placas se separan",
-        "titulo": "Mid-atlantic ridge",
         "autor": "(autor desconocido)",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=765550",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Ahí la energía interna de la Tierra encuentra más fácil salir a la superficie. Terremotos y volcanes se concentran en los bordes de las placas. <mark>El Cinturón de Fuego del Pacífico es un ejemplo</mark>. ¿Dónde se concentra esta actividad?",
-      "respuesta": "<mark>Bordes de las placas tectónicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/cinturon-fuego-pacifico.png",
+      "question": "Ahí la energía interna de la Tierra encuentra más fácil salir a la superficie. Terremotos y volcanes se concentran en los bordes de las placas. <mark>El Cinturón de Fuego del Pacífico es un ejemplo</mark>. ¿Dónde se concentra esta actividad?",
+      "answer": "<mark>Bordes de las placas tectónicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/cinturon-fuego-pacifico.png",
+        "title": "Pacific Ring of Fire volcanoes",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=7001872",
         "alt": "Mapa del Cinturón de Fuego del Pacífico con sus volcanes",
-        "titulo": "Pacific Ring of Fire volcanoes",
         "autor": "BlueCaper",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=7001872",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Es la posibilidad de que un fenómeno natural dañe a personas o construcciones. <mark>Terremotos y erupciones son ejemplos</mark>. Su peligro depende de dónde vive la población cercana. ¿Cómo se llama esta posibilidad de daño?",
-      "respuesta": "<mark>Riesgo geológico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/terremoto-edificios-colapsados-nepal.jpg",
+      "question": "Es la posibilidad de que un fenómeno natural dañe a personas o construcciones. <mark>Terremotos y erupciones son ejemplos</mark>. Su peligro depende de dónde vive la población cercana. ¿Cómo se llama esta posibilidad de daño?",
+      "answer": "<mark>Riesgo geológico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/terremoto-edificios-colapsados-nepal.jpg",
+        "title": "Collapsed buildings in earthquake-hit Chautara, Nepal",
+        "source": "https://www.flickr.com/photos/14214150@N02/16693413433",
         "alt": "Edificios derrumbados tras un terremoto en Chautara, Nepal",
-        "titulo": "Collapsed buildings in earthquake-hit Chautara, Nepal",
         "autor": "DFID - UK Department for International Development",
-        "fuente": "https://www.flickr.com/photos/14214150@N02/16693413433",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como preparar un plan de evacuación antes de un incendio</mark>. Estudiar el terreno y vigilar volcanes ayuda a anticiparse. No se evita el fenómeno, pero sí su daño. ¿Qué se reduce con esta preparación?",
-      "respuesta": "<mark>El impacto del riesgo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/observatorio-volcanes-hawaii.jpg",
+      "question": "<mark>Es como preparar un plan de evacuación antes de un incendio</mark>. Estudiar el terreno y vigilar volcanes ayuda a anticiparse. No se evita el fenómeno, pero sí su daño. ¿Qué se reduce con esta preparación?",
+      "answer": "<mark>El impacto del riesgo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/observatorio-volcanes-hawaii.jpg",
+        "title": "Hawaiian Volcano Observatory, Hawaiʻi Volcanoes National Park, Hawaii",
+        "source": "https://www.flickr.com/photos/75683070@N00/4528702285",
         "alt": "Observatorio de vigilancia volcánica en Hawái",
-        "titulo": "Hawaiian Volcano Observatory, Hawaiʻi Volcanoes National Park, Hawaii",
         "autor": "Ken Lund",
-        "fuente": "https://www.flickr.com/photos/75683070@N00/4528702285",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como rebanar un pastel para ver sus distintas capas</mark>. Muestran cómo están dispuestas las capas de roca de un lugar. Ayudan a interpretar la historia geológica de una zona. ¿Cómo se llaman estas representaciones?",
-      "respuesta": "<mark>Cortes geológicos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/capas-roca.jpg",
+      "question": "<mark>Es como rebanar un pastel para ver sus distintas capas</mark>. Muestran cómo están dispuestas las capas de roca de un lugar. Ayudan a interpretar la historia geológica de una zona. ¿Cómo se llaman estas representaciones?",
+      "answer": "<mark>Cortes geológicos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/capas-roca.jpg",
+        "title": "Grand Canyon National Park: The Abyss Overlook 0284",
+        "source": "https://www.flickr.com/photos/50693818@N08/6050775941",
         "alt": "Capas de roca visibles en un desfiladero",
-        "titulo": "Grand Canyon National Park: The Abyss Overlook 0284",
         "autor": "Grand Canyon NPS",
-        "fuente": "https://www.flickr.com/photos/50693818@N08/6050775941",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como apilar libros: el primero que se coloca queda en la base</mark>. Las capas de roca más antiguas quedan debajo de las recientes. Ayuda a leer la historia de la Tierra sin máquina del tiempo. ¿Cómo se llama este principio?",
-      "respuesta": "<mark>Principio de superposición</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/monument-valley-estratos.jpg",
+      "question": "<mark>Es como apilar libros: el primero que se coloca queda en la base</mark>. Las capas de roca más antiguas quedan debajo de las recientes. Ayuda a leer la historia de la Tierra sin máquina del tiempo. ¿Cómo se llama este principio?",
+      "answer": "<mark>Principio de superposición</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/monument-valley-estratos.jpg",
+        "title": "Monument Valley, late afternoon",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=3548081",
         "alt": "Formaciones rocosas de Monument Valley con capas horizontales bien visibles",
-        "titulo": "Monument Valley, late afternoon",
         "autor": "Wolfgang Staudt from Saarbruecken, Germany",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=3548081",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es tan largo que la historia humana ocupa solo un instante. Se divide en eras, periodos y épocas. <mark>Sitúa eventos como la aparición de los dinosaurios</mark>. ¿Cómo se llama esta escala de tiempo?",
-      "respuesta": "<mark>Tiempo geológico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/escala-tiempo-geologico.jpg",
+      "question": "Es tan largo que la historia humana ocupa solo un instante. Se divide en eras, periodos y épocas. <mark>Sitúa eventos como la aparición de los dinosaurios</mark>. ¿Cómo se llama esta escala de tiempo?",
+      "answer": "<mark>Tiempo geológico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/escala-tiempo-geologico.jpg",
+        "title": "GEOLOGICAL TIME SCALE MAL",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=37042469",
         "alt": "Tabla con la escala de tiempo geológico, dividida en eras y periodos",
-        "titulo": "GEOLOGICAL TIME SCALE MAL",
         "autor": "Chandrapaadam",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=37042469",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Es como encontrar una foto con fecha en un álbum sin ordenar</mark>. Permiten identificar en qué época se formó una capa de roca. Los fósiles guía son especialmente útiles para esto. ¿Qué palabra nombra este proceso de poner fecha?",
-      "respuesta": "<mark>Datación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/trilobite-fosil-piedra.jpg",
+      "question": "<mark>Es como encontrar una foto con fecha en un álbum sin ordenar</mark>. Permiten identificar en qué época se formó una capa de roca. Los fósiles guía son especialmente útiles para esto. ¿Qué palabra nombra este proceso de poner fecha?",
+      "answer": "<mark>Datación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/trilobite-fosil-piedra.jpg",
+        "title": "Trilobite fossil imprint in stone",
+        "source": "https://www.flickr.com/photos/26344495@N05/50398760166",
         "alt": "Fósil de trilobites marcado en la piedra",
-        "titulo": "Trilobite fossil imprint in stone",
         "autor": "Ivan Radic",
-        "fuente": "https://www.flickr.com/photos/26344495@N05/50398760166",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como conocer bien un río para saber cuándo puede desbordarse</mark>. Entender la Tierra ayuda a anticipar sus riesgos. Permite construir más seguro y avisar a tiempo. ¿Qué ciencia hace posible esta prevención?",
-      "respuesta": "<mark>Geología</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_5/geologo-limite-cretacico-paleogeno.jpg",
+      "question": "<mark>Es como conocer bien un río para saber cuándo puede desbordarse</mark>. Entender la Tierra ayuda a anticipar sus riesgos. Permite construir más seguro y avisar a tiempo. ¿Qué ciencia hace posible esta prevención?",
+      "answer": "<mark>Geología</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_5/geologo-limite-cretacico-paleogeno.jpg",
+        "title": "Geologist Walter Alvarez at Cretaceous–Paleogene boundary in Gubio, Italy",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=174096500",
         "alt": "Geólogo estudiando el límite entre capas de roca de distintas épocas",
-        "titulo": "Geologist Walter Alvarez at Cretaceous–Paleogene boundary in Gubio, Italy",
         "autor": "Orangeboxes2",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=174096500",
         "licencia": "CC0 1.0"
       }
     }

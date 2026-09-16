@@ -1,19 +1,19 @@
 {
-  "tema": "Qué cambia en cada estación del año - 1º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Qué cambia en cada estación del año - 1º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Las flores salen y los árboles se llenan de hojas verdes, <mark>como un despertar después de un sueño largo</mark>. Muchos animales tienen a sus crías en esta época. ¿Cómo se llama esta estación?",
-      "respuesta": "<mark>Primavera</mark>"
+      "question": "Las flores salen y los árboles se llenan de hojas verdes, <mark>como un despertar después de un sueño largo</mark>. Muchos animales tienen a sus crías en esta época. ¿Cómo se llama esta estación?",
+      "answer": "<mark>Primavera</mark>"
     },
     {
-      "pregunta": "Hace mucho calor y el sol brilla muchas horas, <mark>como el horno más fuerte del año</mark>. Los días son largos y las noches cortas. ¿Cómo se llama esta estación?",
-      "respuesta": "<mark>Verano</mark>"
+      "question": "Hace mucho calor y el sol brilla muchas horas, <mark>como el horno más fuerte del año</mark>. Los días son largos y las noches cortas. ¿Cómo se llama esta estación?",
+      "answer": "<mark>Verano</mark>"
     },
     {
-      "pregunta": "Hace mucho frío y los días son más cortos, <mark>como una manta blanca que cubre el año</mark>. Algunos árboles se quedan sin hojas y hasta puede nevar. ¿Cómo se llama esta estación?",
-      "respuesta": "<mark>Invierno</mark>"
+      "question": "Hace mucho frío y los días son más cortos, <mark>como una manta blanca que cubre el año</mark>. Algunos árboles se quedan sin hojas y hasta puede nevar. ¿Cómo se llama esta estación?",
+      "answer": "<mark>Invierno</mark>"
     }
   ]
 }

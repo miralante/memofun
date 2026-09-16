@@ -1,113 +1,113 @@
 {
-  "tema": "Criterios ESG, cambio climático y plan de sostenibilidad - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Criterios ESG, cambio climático y plan de sostenibilidad - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Son acuerdos entre países que fijan objetivos comunes, como reducir emisiones contaminantes. <mark>Es como ponerse de acuerdo entre todo el mundo sobre unas normas mínimas</mark>. Sirven de guía para las políticas de cada país. ¿Cómo se llaman estos acuerdos internacionales?",
-      "respuesta": "<mark>Marcos internacionales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/tierra-espacio.jpg",
+      "question": "Son acuerdos entre países que fijan objetivos comunes, como reducir emisiones contaminantes. <mark>Es como ponerse de acuerdo entre todo el mundo sobre unas normas mínimas</mark>. Sirven de guía para las políticas de cada país. ¿Cómo se llaman estos acuerdos internacionales?",
+      "answer": "<mark>Marcos internacionales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/tierra-espacio.jpg",
+        "title": "NASA Blue Marble",
+        "source": "https://www.flickr.com/photos/35278629@N08/4442496969",
         "alt": "La Tierra vista desde el espacio",
-        "titulo": "NASA Blue Marble",
         "autor": "NASA Goddard Space Flight Center",
-        "fuente": "https://www.flickr.com/photos/35278629@N08/4442496969",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son criterios ambientales, sociales y de buen gobierno que valoran el comportamiento responsable de una empresa. <mark>Es como una nota que la evalúa más allá de sus beneficios económicos</mark>. Cada vez más inversores los tienen en cuenta. ¿Cómo se llaman estos criterios?",
-      "respuesta": "<mark>Criterios ESG</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/portapapeles-evaluacion.jpg",
+      "question": "Son criterios ambientales, sociales y de buen gobierno que valoran el comportamiento responsable de una empresa. <mark>Es como una nota que la evalúa más allá de sus beneficios económicos</mark>. Cada vez más inversores los tienen en cuenta. ¿Cómo se llaman estos criterios?",
+      "answer": "<mark>Criterios ESG</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/portapapeles-evaluacion.jpg",
+        "title": "Clipboard Hand",
+        "source": "https://stocksnap.io/photo/clipboard-hand-TRKNLIGFAJ",
         "alt": "Alguien sosteniendo un portapapeles con una evaluación",
-        "titulo": "Clipboard Hand",
         "autor": "Kristin Hardwick",
-        "fuente": "https://stocksnap.io/photo/clipboard-hand-TRKNLIGFAJ",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Puede alterar costes, materias primas o incluso la forma de trabajar de muchos sectores. <mark>Es como un factor externo que obliga a las empresas a adaptarse, quieran o no</mark>. ¿Qué afecta así a los sectores productivos?",
-      "respuesta": "<mark>El cambio climático</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/fabrica-quimica.jpg",
+      "question": "Puede alterar costes, materias primas o incluso la forma de trabajar de muchos sectores. <mark>Es como un factor externo que obliga a las empresas a adaptarse, quieran o no</mark>. ¿Qué afecta así a los sectores productivos?",
+      "answer": "<mark>El cambio climático</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/fabrica-quimica.jpg",
+        "title": "Fábrica química Solvay",
+        "source": "https://www.flickr.com/photos/46191841@N00/3128460257",
         "alt": "Una fábrica industrial",
-        "titulo": "Fábrica química Solvay",
         "autor": "Jorge Franganillo",
-        "fuente": "https://www.flickr.com/photos/46191841@N00/3128460257",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se hace separando los residuos, reduciendo lo que se genera y eligiendo un tratamiento adecuado para cada tipo. <mark>Es como no tratar toda la basura por igual, sino según lo que realmente es</mark>. ¿Cómo se llama esta forma de tratar los residuos de una empresa?",
-      "respuesta": "<mark>Gestión responsable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/reciclaje-contenedores.jpg",
+      "question": "Se hace separando los residuos, reduciendo lo que se genera y eligiendo un tratamiento adecuado para cada tipo. <mark>Es como no tratar toda la basura por igual, sino según lo que realmente es</mark>. ¿Cómo se llama esta forma de tratar los residuos de una empresa?",
+      "answer": "<mark>Gestión responsable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/reciclaje-contenedores.jpg",
+        "title": "Recycling",
+        "source": "https://www.flickr.com/photos/78428166@N00/8358917859",
         "alt": "Contenedores de reciclaje",
-        "titulo": "Recycling",
         "autor": "Tobyotter",
-        "fuente": "https://www.flickr.com/photos/78428166@N00/8358917859",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son productos diseñados para reducir su impacto ambiental y social. <mark>Es como elegir fabricar pensando también en las consecuencias, no solo en el beneficio</mark>. ¿Cómo se llaman estos productos y servicios?",
-      "respuesta": "<mark>Responsables</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/embalaje-sostenible.jpg",
+      "question": "Son productos diseñados para reducir su impacto ambiental y social. <mark>Es como elegir fabricar pensando también en las consecuencias, no solo en el beneficio</mark>. ¿Cómo se llaman estos productos y servicios?",
+      "answer": "<mark>Responsables</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/embalaje-sostenible.jpg",
+        "title": "Sustainable Packaging Material is Always Valuable",
+        "source": "http://www.flickr.com/photos/183991216@N05/48667330781",
         "alt": "Un embalaje sostenible hecho de materiales responsables",
-        "titulo": "Sustainable Packaging Material is Always Valuable",
         "autor": "hilariopackard",
-        "fuente": "http://www.flickr.com/photos/183991216@N05/48667330781",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Reducir el consumo de papel, energía o agua, y elegir proveedores más responsables, ayuda a minimizarlo. <mark>Es como recortar poco a poco la huella que deja la actividad de la empresa</mark>. ¿Qué se reduce con estas actividades?",
-      "respuesta": "<mark>El impacto ambiental</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/energia-solar.jpg",
+      "question": "Reducir el consumo de papel, energía o agua, y elegir proveedores más responsables, ayuda a minimizarlo. <mark>Es como recortar poco a poco la huella que deja la actividad de la empresa</mark>. ¿Qué se reduce con estas actividades?",
+      "answer": "<mark>El impacto ambiental</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/energia-solar.jpg",
+        "title": "Solar Cell",
+        "source": "https://www.flickr.com/photos/28077296@N02/6037863041",
         "alt": "Un panel solar, ejemplo de energía renovable",
-        "titulo": "Solar Cell",
         "autor": "ThomasKohler",
-        "fuente": "https://www.flickr.com/photos/28077296@N02/6037863041",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento que recoge los objetivos y las acciones concretas para ser más sostenible. <mark>Es como una hoja de ruta con metas claras, en vez de buenas intenciones sueltas</mark>. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Plan de sostenibilidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/examen-formulario.jpg",
+      "question": "Es un documento que recoge los objetivos y las acciones concretas para ser más sostenible. <mark>Es como una hoja de ruta con metas claras, en vez de buenas intenciones sueltas</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Plan de sostenibilidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/examen-formulario.jpg",
+        "title": "Examiner filling in driver's license road test form",
+        "source": "https://www.flickr.com/photos/203928447@N02/54999169448",
         "alt": "Alguien rellenando un formulario con un plan",
-        "titulo": "Examiner filling in driver's license road test form",
         "autor": "f0976531950157",
-        "fuente": "https://www.flickr.com/photos/203928447@N02/54999169448",
         "licencia": "Public Domain"
       }
     },
     {
-      "pregunta": "Son las personas o entidades afectadas por la actividad de una empresa: trabajadores, clientes, proveedores o vecinos. <mark>Es como todo el círculo de personas a las que le importa lo que hace esa empresa</mark>. ¿Cómo se llaman estos grupos?",
-      "respuesta": "<mark>Grupos de interés</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/reunion-discusion.jpg",
+      "question": "Son las personas o entidades afectadas por la actividad de una empresa: trabajadores, clientes, proveedores o vecinos. <mark>Es como todo el círculo de personas a las que le importa lo que hace esa empresa</mark>. ¿Cómo se llaman estos grupos?",
+      "answer": "<mark>Grupos de interés</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/reunion-discusion.jpg",
+        "title": "Headshift business card discussion",
+        "source": "https://www.flickr.com/photos/75062596@N00/2744040362",
         "alt": "Un grupo de personas reunidas discutiendo",
-        "titulo": "Headshift business card discussion",
         "autor": "Lars Plougmann",
-        "fuente": "https://www.flickr.com/photos/75062596@N00/2744040362",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Los grupos de interés aportan perspectivas distintas sobre el impacto real de las decisiones de una empresa. <mark>Es como pedir opinión a quienes viven de cerca las consecuencias</mark>. ¿A quién conviene escuchar para ser más sostenible?",
-      "respuesta": "<mark>A los grupos de interés</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/grupo-focal.jpg",
+      "question": "Los grupos de interés aportan perspectivas distintas sobre el impacto real de las decisiones de una empresa. <mark>Es como pedir opinión a quienes viven de cerca las consecuencias</mark>. ¿A quién conviene escuchar para ser más sostenible?",
+      "answer": "<mark>A los grupos de interés</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_sostenibilidad-sistema-productivo_2/grupo-focal.jpg",
+        "title": "Finance Committee: Finance Wales inquiry - focus group",
+        "source": "https://www.flickr.com/photos/39069511@N03/12084140733",
         "alt": "Un grupo focal escuchando distintas opiniones",
-        "titulo": "Finance Committee: Finance Wales inquiry - focus group",
         "autor": "National Assembly For Wales / Cynulliad Cymru",
-        "fuente": "https://www.flickr.com/photos/39069511@N03/12084140733",
         "licencia": "CC BY 2.0"
       }
     }

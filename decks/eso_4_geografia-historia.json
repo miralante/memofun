@@ -1,173 +1,173 @@
 {
-  "tema": "La Primera Guerra Mundial y la Revolución Rusa - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La Primera Guerra Mundial y la Revolución Rusa - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Antes de 1914, Europa estaba llena de rivalidades entre potencias y alianzas militares. <mark>Era como un polvorín, listo para estallar con solo una chispa</mark>. ¿Qué asesinato fue esa chispa que provocó la Primera Guerra Mundial?",
-      "respuesta": "<mark>El asesinato del archiduque Francisco Fernando</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/mapa-europa-antiguo.jpg",
+      "question": "Antes de 1914, Europa estaba llena de rivalidades entre potencias y alianzas militares. <mark>Era como un polvorín, listo para estallar con solo una chispa</mark>. ¿Qué asesinato fue esa chispa que provocó la Primera Guerra Mundial?",
+      "answer": "<mark>El asesinato del archiduque Francisco Fernando</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/mapa-europa-antiguo.jpg",
+        "title": "Bacon's standard map of Europe by George Washington Bacon",
+        "source": "https://www.flickr.com/photos/153584064@N07/50623714417",
         "alt": "Un mapa antiguo de Europa, con sus fronteras de la época",
-        "titulo": "Bacon's standard map of Europe by George Washington Bacon",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/50623714417",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Durante la Primera Guerra Mundial, <mark>los soldados cavaban largas zanjas para protegerse y pasaban meses sin apenas moverse</mark>. Se usaban armas nuevas, como gases tóxicos y ametralladoras. ¿Cómo se llama ese tipo de combate?",
-      "respuesta": "<mark>La guerra de trincheras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/monumento-soldado-desconocido.jpg",
+      "question": "Durante la Primera Guerra Mundial, <mark>los soldados cavaban largas zanjas para protegerse y pasaban meses sin apenas moverse</mark>. Se usaban armas nuevas, como gases tóxicos y ametralladoras. ¿Cómo se llama ese tipo de combate?",
+      "answer": "<mark>La guerra de trincheras</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/monumento-soldado-desconocido.jpg",
+        "title": "Monumento al Soldado Desconocido, primera guerra mundial",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=47622538",
         "alt": "Monumento al Soldado Desconocido de la Primera Guerra Mundial",
-        "titulo": "Monumento al Soldado Desconocido, primera guerra mundial",
         "autor": "Roberto Fiadone",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=47622538",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "La Primera Guerra Mundial mató a millones de personas. <mark>Varios grandes imperios cayeron para siempre</mark>. ¿Qué tuvo que rehacerse por completo tras la guerra?",
-      "respuesta": "<mark>El mapa de fronteras de Europa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/mapa-mundo-antiguo.jpg",
+      "question": "La Primera Guerra Mundial mató a millones de personas. <mark>Varios grandes imperios cayeron para siempre</mark>. ¿Qué tuvo que rehacerse por completo tras la guerra?",
+      "answer": "<mark>El mapa de fronteras de Europa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/mapa-mundo-antiguo.jpg",
+        "title": "Noua totius terrarum orbis geographica ac hydrographica tabula",
+        "source": "https://www.flickr.com/photos/24528911@N05/2709981247",
         "alt": "Un mapa antiguo del mundo con sus fronteras",
-        "titulo": "Noua totius terrarum orbis geographica ac hydrographica tabula",
         "autor": "Norman B. Leventhal Map Center at the BPL",
-        "fuente": "https://www.flickr.com/photos/24528911@N05/2709981247",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Tras ganar la Primera Guerra Mundial, los vencedores impusieron duras condiciones a Alemania. <mark>Le exigieron pagar mucho dinero y ceder territorios</mark>. Muchos alemanes lo sintieron como un castigo injusto. ¿Cómo se llama el tratado que impuso esas condiciones a Alemania?",
-      "respuesta": "<mark>El Tratado de Versalles</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/carta-magna.jpg",
+      "question": "Tras ganar la Primera Guerra Mundial, los vencedores impusieron duras condiciones a Alemania. <mark>Le exigieron pagar mucho dinero y ceder territorios</mark>. Muchos alemanes lo sintieron como un castigo injusto. ¿Cómo se llama el tratado que impuso esas condiciones a Alemania?",
+      "answer": "<mark>El Tratado de Versalles</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/carta-magna.jpg",
+        "title": "HISTORIC MAGNA CARTA",
+        "source": "https://www.flickr.com/photos/8521690@N02/9921836924",
         "alt": "Un documento histórico antiguo, como un tratado",
-        "titulo": "HISTORIC MAGNA CARTA",
         "autor": "summonedbyfells",
-        "fuente": "https://www.flickr.com/photos/8521690@N02/9921836924",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En 1917, el pueblo estaba cansado de la guerra y la pobreza, y se levantó contra el poder absoluto del zar. <mark>Un grupo liderado por Lenin, los bolcheviques, tomó el poder</mark>. ¿Cómo se llama este proceso histórico?",
-      "respuesta": "<mark>La Revolución rusa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/marx-lenin-estatua.jpg",
+      "question": "En 1917, el pueblo estaba cansado de la guerra y la pobreza, y se levantó contra el poder absoluto del zar. <mark>Un grupo liderado por Lenin, los bolcheviques, tomó el poder</mark>. ¿Cómo se llama este proceso histórico?",
+      "answer": "<mark>La Revolución rusa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/marx-lenin-estatua.jpg",
+        "title": "Marx eta Lenin estatua",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=69240131",
         "alt": "Estatua de Marx y Lenin, líderes de la Revolución rusa",
-        "titulo": "Marx eta Lenin estatua",
         "autor": "Mikel ROA",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=69240131",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>Un modelo económico proponía que el Estado controlara fábricas y empresas</mark>. Buscaba acabar con la propiedad privada de los grandes negocios. Con esa idea nació la URSS. ¿Cómo se llama ese modelo económico y político?",
-      "respuesta": "<mark>El comunismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/estatua-lenin.jpg",
+      "question": "<mark>Un modelo económico proponía que el Estado controlara fábricas y empresas</mark>. Buscaba acabar con la propiedad privada de los grandes negocios. Con esa idea nació la URSS. ¿Cómo se llama ese modelo económico y político?",
+      "answer": "<mark>El comunismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/estatua-lenin.jpg",
+        "title": "My favorite Lenin",
+        "source": "https://www.flickr.com/photos/26781577@N07/11396249514",
         "alt": "Una estatua de Lenin, líder de la Revolución rusa",
-        "titulo": "My favorite Lenin",
         "autor": "Clay Gilliland",
-        "fuente": "https://www.flickr.com/photos/26781577@N07/11396249514",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Lenin lideró la Revolución rusa y los primeros años de la URSS. Cuando murió, otro líder se hizo con el poder absoluto. <mark>Gobernó de forma muy dura, con represión y control total</mark>. ¿Quién sucedió a Lenin al frente de la URSS?",
-      "respuesta": "<mark>Stalin</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/kremlin-moscu.jpg",
+      "question": "Lenin lideró la Revolución rusa y los primeros años de la URSS. Cuando murió, otro líder se hizo con el poder absoluto. <mark>Gobernó de forma muy dura, con represión y control total</mark>. ¿Quién sucedió a Lenin al frente de la URSS?",
+      "answer": "<mark>Stalin</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/kremlin-moscu.jpg",
+        "title": "Kremlin, Red Square, Moscow",
+        "source": "https://www.flickr.com/photos/8282860@N02/4137045520",
         "alt": "El Kremlin y la Plaza Roja en Moscú",
-        "titulo": "Kremlin, Red Square, Moscow",
         "autor": "carefulweb",
-        "fuente": "https://www.flickr.com/photos/8282860@N02/4137045520",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Usó armas fabricadas en serie por la industria y afectó a la vida civil como nunca antes. <mark>Participaron colonias y países de varios continentes a la vez</mark>. ¿Cómo se llama este tipo de guerra que moviliza a toda la sociedad?",
-      "respuesta": "<mark>Guerra total</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/trabajadoras-fabrica-historica.jpg",
+      "question": "Usó armas fabricadas en serie por la industria y afectó a la vida civil como nunca antes. <mark>Participaron colonias y países de varios continentes a la vez</mark>. ¿Cómo se llama este tipo de guerra que moviliza a toda la sociedad?",
+      "answer": "<mark>Guerra total</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/trabajadoras-fabrica-historica.jpg",
+        "title": "Historical Asbestos Image: Female Asbestos Baggers",
+        "source": "https://www.flickr.com/photos/34010575@N03/27584842094",
         "alt": "Trabajadoras en una fábrica a principios del siglo veinte",
-        "titulo": "Historical Asbestos Image: Female Asbestos Baggers",
         "autor": "Asbestorama",
-        "fuente": "https://www.flickr.com/photos/34010575@N03/27584842094",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "El pueblo, cansado, perdió la paciencia con su gobierno. <mark>Esa situación desesperada hizo crecer el apoyo a ideas revolucionarias</mark>. ¿Qué combinación fue decisiva para que estallara la Revolución rusa?",
-      "respuesta": "<mark>Guerra y hambre</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/reparto-pan-antiguo.jpg",
+      "question": "El pueblo, cansado, perdió la paciencia con su gobierno. <mark>Esa situación desesperada hizo crecer el apoyo a ideas revolucionarias</mark>. ¿Qué combinación fue decisiva para que estallara la Revolución rusa?",
+      "answer": "<mark>Guerra y hambre</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/reparto-pan-antiguo.jpg",
+        "title": "Bradford's Bread Truck, Irvine Ranch, circa 1920s",
+        "source": "https://www.flickr.com/photos/30346812@N07/14850234539",
         "alt": "Un camión de reparto de pan de los años 1920",
-        "titulo": "Bradford's Bread Truck, Irvine Ranch, circa 1920s",
         "autor": "Orange County Archives",
-        "fuente": "https://www.flickr.com/photos/30346812@N07/14850234539",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Tras la Primera Guerra Mundial, varios imperios desaparecieron para siempre. <mark>Cayeron el austrohúngaro, el otomano, el alemán y el ruso</mark>. ¿Qué surgió en su lugar, con fronteras muy distintas?",
-      "respuesta": "<mark>Nuevos países</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/mapa-mundo-1911.jpg",
+      "question": "Tras la Primera Guerra Mundial, varios imperios desaparecieron para siempre. <mark>Cayeron el austrohúngaro, el otomano, el alemán y el ruso</mark>. ¿Qué surgió en su lugar, con fronteras muy distintas?",
+      "answer": "<mark>Nuevos países</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/mapa-mundo-1911.jpg",
+        "title": "1911 World Map",
+        "source": "https://www.flickr.com/photos/14277117@N03/2866054138",
         "alt": "Un mapa del mundo de 1911, antes de que cambiaran las fronteras",
-        "titulo": "1911 World Map",
         "autor": "perpetualplum",
-        "fuente": "https://www.flickr.com/photos/14277117@N03/2866054138",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Los hombres se fueron al frente de batalla, y alguien tenía que mantener las fábricas y los campos</mark>. Muchas mujeres ocuparon esos puestos de trabajo por primera vez. ¿Qué impulsó después esa experiencia de las mujeres?",
-      "respuesta": "<mark>Los derechos de las mujeres</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/mujer-trabajadora-guerra.jpg",
+      "question": "<mark>Los hombres se fueron al frente de batalla, y alguien tenía que mantener las fábricas y los campos</mark>. Muchas mujeres ocuparon esos puestos de trabajo por primera vez. ¿Qué impulsó después esa experiencia de las mujeres?",
+      "answer": "<mark>Los derechos de las mujeres</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/mujer-trabajadora-guerra.jpg",
+        "title": "Hampton History Museum Women in World War II Rosie the Riveter",
+        "source": "https://www.flickr.com/photos/126288307@N05/32461282250",
         "alt": "Un cartel y objetos de un museo sobre las mujeres que trabajaron en fábricas durante la guerra",
-        "titulo": "Hampton History Museum Women in World War II Rosie the Riveter",
         "autor": "watts_photos",
-        "fuente": "https://www.flickr.com/photos/126288307@N05/32461282250",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Dejó países arruinados, fronteras muy discutidas y un fuerte resentimiento en la población. <mark>Fue como cerrar una herida sin curarla del todo bien</mark>. ¿Qué acabó alimentando ese resentimiento sin resolver?",
-      "respuesta": "<mark>Ideas extremistas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/reloj-torre-europeo.jpg",
+      "question": "Dejó países arruinados, fronteras muy discutidas y un fuerte resentimiento en la población. <mark>Fue como cerrar una herida sin curarla del todo bien</mark>. ¿Qué acabó alimentando ese resentimiento sin resolver?",
+      "answer": "<mark>Ideas extremistas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/reloj-torre-europeo.jpg",
+        "title": "Town Clock Bayswater London",
+        "source": "https://www.flickr.com/photos/60291025@N05/10841433164",
         "alt": "Un reloj de torre en una calle europea antigua",
-        "titulo": "Town Clock Bayswater London",
         "autor": "pavlinajane",
-        "fuente": "https://www.flickr.com/photos/60291025@N05/10841433164",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Antes, el zar gobernaba Rusia con un poder casi absoluto y el pueblo apenas tenía derechos. <mark>Un nuevo modelo prometió repartir la riqueza entre todos los trabajadores</mark>. ¿Cómo se llama ese nuevo modelo político y económico?",
-      "respuesta": "<mark>El comunismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/plaza-san-isaac-petersburgo.jpg",
+      "question": "Antes, el zar gobernaba Rusia con un poder casi absoluto y el pueblo apenas tenía derechos. <mark>Un nuevo modelo prometió repartir la riqueza entre todos los trabajadores</mark>. ¿Cómo se llama ese nuevo modelo político y económico?",
+      "answer": "<mark>El comunismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/plaza-san-isaac-petersburgo.jpg",
+        "title": "DSC00826, St. Isaac's Square, St. Petersburg, Russia",
+        "source": "https://www.flickr.com/photos/21203533@N00/256988870",
         "alt": "Una plaza histórica de San Petersburgo, Rusia",
-        "titulo": "DSC00826, St. Isaac's Square, St. Petersburg, Russia",
         "autor": "jimg944",
-        "fuente": "https://www.flickr.com/photos/21203533@N00/256988870",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cambió fronteras, gobiernos y la forma de entender los conflictos. <mark>De ella nacieron la Revolución rusa y muchas tensiones sin resolver</mark>. ¿Qué otra gran guerra ayudaron a provocar esas tensiones?",
-      "respuesta": "<mark>La Segunda Guerra Mundial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia/globo-terraqueo-antiguo.jpg",
+      "question": "Cambió fronteras, gobiernos y la forma de entender los conflictos. <mark>De ella nacieron la Revolución rusa y muchas tensiones sin resolver</mark>. ¿Qué otra gran guerra ayudaron a provocar esas tensiones?",
+      "answer": "<mark>La Segunda Guerra Mundial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia/globo-terraqueo-antiguo.jpg",
+        "title": "Vintage globe stand illustration",
+        "source": "https://www.flickr.com/photos/153584064@N07/39820333443",
         "alt": "Un globo terráqueo antiguo sobre su soporte",
-        "titulo": "Vintage globe stand illustration",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/39820333443",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 4º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 4º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Hay tres grandes formas de contar algo por escrito. <mark>Es como tres caminos distintos para llegar a la misma historia</mark>. Cada una cuenta las cosas de forma distinta. ¿Cómo se llaman estas tres formas?",
-      "respuesta": "<mark>Narrativa, poesía y teatro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_3/mascaras-teatro.jpg",
+      "question": "Hay tres grandes formas de contar algo por escrito. <mark>Es como tres caminos distintos para llegar a la misma historia</mark>. Cada una cuenta las cosas de forma distinta. ¿Cómo se llaman estas tres formas?",
+      "answer": "<mark>Narrativa, poesía y teatro</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_3/mascaras-teatro.jpg",
+        "title": "Tragedy and Comedy",
+        "source": "https://www.flickr.com/photos/93416311@N00/8094737104",
         "alt": "Dos máscaras doradas, una triste y una sonriente, colgadas en la fachada de un teatro",
-        "titulo": "Tragedy and Comedy",
         "autor": "Tim Green aka atoach",
-        "fuente": "https://www.flickr.com/photos/93416311@N00/8094737104",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la forma normal de escribir, en frases seguidas. <mark>Es como hablar, pero puesto por escrito</mark>. Los cuentos y las novelas están escritos así. ¿Cómo se llama esta forma de escribir?",
-      "respuesta": "<mark>Prosa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_3/libro-abierto-prosa.jpg",
+      "question": "Es la forma normal de escribir, en frases seguidas. <mark>Es como hablar, pero puesto por escrito</mark>. Los cuentos y las novelas están escritos así. ¿Cómo se llama esta forma de escribir?",
+      "answer": "<mark>Prosa</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_3/libro-abierto-prosa.jpg",
+        "title": "Open book",
+        "source": "https://www.flickr.com/photos/9186550@N08/2936937247",
         "alt": "Un libro abierto sobre una mesa, con las páginas llenas de texto de un lado a otro",
-        "titulo": "Open book",
         "autor": "Honou",
-        "fuente": "https://www.flickr.com/photos/9186550@N08/2936937247",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El verso ocupa una línea corta, decidida por el poeta, y suele tener ritmo o rima. Esta otra forma <mark>llena toda la línea, como una carta normal</mark>. Se lee más parecido a cómo hablamos. ¿Cómo se llama esta segunda forma?",
-      "respuesta": "<mark>Prosa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_3/libro-poesia-versos.jpg",
+      "question": "El verso ocupa una línea corta, decidida por el poeta, y suele tener ritmo o rima. Esta otra forma <mark>llena toda la línea, como una carta normal</mark>. Se lee más parecido a cómo hablamos. ¿Cómo se llama esta segunda forma?",
+      "answer": "<mark>Prosa</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_3/libro-poesia-versos.jpg",
+        "title": "Book 10",
+        "source": "https://www.flickr.com/photos/37753256@N08/5813347420",
         "alt": "Un libro antiguo abierto, con un poema escrito en líneas cortas, mucho más cortas que un párrafo",
-        "titulo": "Book 10",
         "autor": "~Brenda-Starr~",
-        "fuente": "https://www.flickr.com/photos/37753256@N08/5813347420",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un texto que explica cómo es algo o alguien. <mark>Es como pintar con palabras en vez de con pincel</mark>. No cuenta qué pasa, sino cómo es. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto descriptivo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_3/pintura-acuarela-peces.jpg",
+      "question": "Es un texto que explica cómo es algo o alguien. <mark>Es como pintar con palabras en vez de con pincel</mark>. No cuenta qué pasa, sino cómo es. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto descriptivo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_3/pintura-acuarela-peces.jpg",
+        "title": "b r u n o b r u n a n",
+        "source": "https://www.flickr.com/photos/13956722@N06/12320888674",
         "alt": "Un cuaderno con un dibujo de peces pintado con acuarelas, con pinceles y pinturas de colores al lado",
-        "titulo": "b r u n o b r u n a n",
         "autor": "Instagram: Brunobrunan",
-        "fuente": "https://www.flickr.com/photos/13956722@N06/12320888674",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al describir un personaje, cuentas su aspecto físico: el pelo, la ropa. <mark>Es como conocer su corazón, no solo su cara</mark>. Así el lector lo imagina mejor. ¿Qué es esto que también conviene describir, además del físico?",
-      "respuesta": "<mark>Su forma de ser</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_3/nino-disfraz-pirata.jpg",
+      "question": "Al describir un personaje, cuentas su aspecto físico: el pelo, la ropa. <mark>Es como conocer su corazón, no solo su cara</mark>. Así el lector lo imagina mejor. ¿Qué es esto que también conviene describir, además del físico?",
+      "answer": "<mark>Su forma de ser</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_3/nino-disfraz-pirata.jpg",
+        "title": "Who dressed YOU?",
+        "source": "https://www.flickr.com/photos/38869431@N00/1778188040",
         "alt": "Un niño disfrazado de pirata, con camiseta de rayas y una espada de juguete, con cara seria y decidida",
-        "titulo": "Who dressed YOU?",
         "autor": "juhansonin",
-        "fuente": "https://www.flickr.com/photos/38869431@N00/1778188040",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es lo que se coloca en el escenario de teatro para representar un lugar. <mark>Es como el fondo de una foto, que cuenta dónde estás</mark>. Ayuda al público a imaginar dónde ocurre la escena. ¿Cómo se llama esto?",
-      "respuesta": "<mark>El decorado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_3/decorado-escenario-teatro.jpg",
+      "question": "Es lo que se coloca en el escenario de teatro para representar un lugar. <mark>Es como el fondo de una foto, que cuenta dónde estás</mark>. Ayuda al público a imaginar dónde ocurre la escena. ¿Cómo se llama esto?",
+      "answer": "<mark>El decorado</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_3/decorado-escenario-teatro.jpg",
+        "title": "Set for the play 'Thirst' at the Williamston Theatre, Williamston, MI",
+        "source": "https://www.flickr.com/photos/59398780@N00/54035874420",
         "alt": "Un escenario de teatro decorado como un salón, con sofá, sillón y una imagen de fondo pintada",
-        "titulo": "Set for the play 'Thirst' at the Williamston Theatre, Williamston, MI",
         "autor": "Joetography LLC",
-        "fuente": "https://www.flickr.com/photos/59398780@N00/54035874420",
         "licencia": "CC BY-SA 2.0"
       }
     }

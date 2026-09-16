@@ -1,173 +1,173 @@
 {
-  "tema": "Sociedad y economía en el mundo antiguo - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Sociedad y economía en el mundo antiguo - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Cada forma repartía el poder de manera distinta, desde uno solo hasta todo el pueblo. <mark>Grecia probó una; Roma, otras dos, en distintas épocas</mark>. ¿Qué formas de gobierno existieron en el mundo antiguo?",
-      "respuesta": "<mark>Democracias, repúblicas, imperios y reinos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/acropolis-atenas.jpg",
+      "question": "Cada forma repartía el poder de manera distinta, desde uno solo hasta todo el pueblo. <mark>Grecia probó una; Roma, otras dos, en distintas épocas</mark>. ¿Qué formas de gobierno existieron en el mundo antiguo?",
+      "answer": "<mark>Democracias, repúblicas, imperios y reinos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/acropolis-atenas.jpg",
+        "title": "Acropolis, Athens",
+        "source": "https://www.flickr.com/photos/79983635@N00/32880684",
         "alt": "La Acrópolis de Atenas, centro de la antigua Grecia",
-        "titulo": "Acropolis, Athens",
         "autor": "Alun Salt",
-        "fuente": "https://www.flickr.com/photos/79983635@N00/32880684",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Los griegos luchaban muy juntos, con soldados llamados hoplitas. <mark>Roma organizó ejércitos más flexibles, en grupos pequeños</mark>. ¿Cómo se llamaban estos ejércitos romanos?",
-      "respuesta": "<mark>Legiones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/hoplita-casco.jpg",
+      "question": "Los griegos luchaban muy juntos, con soldados llamados hoplitas. <mark>Roma organizó ejércitos más flexibles, en grupos pequeños</mark>. ¿Cómo se llamaban estos ejércitos romanos?",
+      "answer": "<mark>Legiones</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/hoplita-casco.jpg",
+        "title": "Cabeza de un joven hoplita (British Museum)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=69556898",
         "alt": "Cabeza esculpida de un joven hoplita griego, con casco",
-        "titulo": "Cabeza de un joven hoplita (British Museum)",
         "autor": "José Luis Filpo Cabana",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=69556898",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>Es como círculos que se van agrandando, del hogar hasta la ciudad</mark>. El lugar de nacimiento marcaba casi siempre los derechos de cada persona. ¿En qué grupos solía dividirse la sociedad antigua?",
-      "respuesta": "<mark>Familia, clan, tribu y ciudadanos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/ninos-ara-pacis.jpg",
+      "question": "<mark>Es como círculos que se van agrandando, del hogar hasta la ciudad</mark>. El lugar de nacimiento marcaba casi siempre los derechos de cada persona. ¿En qué grupos solía dividirse la sociedad antigua?",
+      "answer": "<mark>Familia, clan, tribu y ciudadanos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/ninos-ara-pacis.jpg",
+        "title": "Children on the Ara Pacis (II)",
+        "source": "https://www.flickr.com/photos/34561917@N04/7556343002",
         "alt": "Relieve romano con una escena de familia",
-        "titulo": "Children on the Ara Pacis (II)",
         "autor": "isawnyu",
-        "fuente": "https://www.flickr.com/photos/34561917@N04/7556343002",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En la mayoría de civilizaciones antiguas, la mujer tenía muchos menos derechos que el hombre. <mark>No solía poder votar, ni gobernar, ni decidir sobre su vida</mark>. Aun así, algunas alcanzaron papeles destacados. ¿Qué papeles podían alcanzar algunas mujeres, como reinas o sacerdotisas?",
-      "respuesta": "<mark>Reinas y sacerdotisas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/reina-egipcia.jpg",
+      "question": "En la mayoría de civilizaciones antiguas, la mujer tenía muchos menos derechos que el hombre. <mark>No solía poder votar, ni gobernar, ni decidir sobre su vida</mark>. Aun así, algunas alcanzaron papeles destacados. ¿Qué papeles podían alcanzar algunas mujeres, como reinas o sacerdotisas?",
+      "answer": "<mark>Reinas y sacerdotisas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/reina-egipcia.jpg",
+        "title": "King Menkaure (Mycerinus) and his Queen, Kha-merer-nebty II",
+        "source": "https://www.flickr.com/photos/69184488@N06/11986595424",
         "alt": "Estatua de un rey y una reina del Antiguo Egipto",
-        "titulo": "King Menkaure (Mycerinus) and his Queen, Kha-merer-nebty II",
         "autor": "MCAD Library",
-        "fuente": "https://www.flickr.com/photos/69184488@N06/11986595424",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El tiempo libre era mucho menor que el que tenemos hoy. <mark>Comer, vestir o divertirse dependía de si eras rico o pobre</mark>. ¿En torno a qué tres cosas giraba la vida cotidiana antigua?",
-      "respuesta": "<mark>Trabajo, familia y religión</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/jarrones-antiguos.jpg",
+      "question": "El tiempo libre era mucho menor que el que tenemos hoy. <mark>Comer, vestir o divertirse dependía de si eras rico o pobre</mark>. ¿En torno a qué tres cosas giraba la vida cotidiana antigua?",
+      "answer": "<mark>Trabajo, familia y religión</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/jarrones-antiguos.jpg",
+        "title": "una de jarrones",
+        "source": "https://www.flickr.com/photos/8845870@N07/1382572541",
         "alt": "Jarrones y vasijas de la vida cotidiana antigua",
-        "titulo": "una de jarrones",
         "autor": "bachmont",
-        "fuente": "https://www.flickr.com/photos/8845870@N07/1382572541",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Funcionaban como las autopistas de mercancías de la época</mark>. Por ellas viajaban especias, telas, metales y también ideas. ¿Cómo se llama una de las rutas comerciales más famosas de la historia?",
-      "respuesta": "<mark>La Ruta de la Seda</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/ruta-seda.jpg",
+      "question": "<mark>Funcionaban como las autopistas de mercancías de la época</mark>. Por ellas viajaban especias, telas, metales y también ideas. ¿Cómo se llama una de las rutas comerciales más famosas de la historia?",
+      "answer": "<mark>La Ruta de la Seda</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/ruta-seda.jpg",
+        "title": "Silk Road 1992",
+        "source": "https://www.flickr.com/photos/21649179@N00/4525142212",
         "alt": "La Ruta de la Seda, una antigua ruta comercial",
-        "titulo": "Silk Road 1992",
         "autor": "fdecomite",
-        "fuente": "https://www.flickr.com/photos/21649179@N00/4525142212",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La ciudad concentraba el comercio, el gobierno y los templos. <mark>El campo, en cambio, se dedicaba sobre todo a cultivar y criar animales</mark>. ¿Dónde vivía la mayoría de la población en la Antigüedad?",
-      "respuesta": "<mark>En el campo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/campo-cultivo-ladera.jpg",
+      "question": "La ciudad concentraba el comercio, el gobierno y los templos. <mark>El campo, en cambio, se dedicaba sobre todo a cultivar y criar animales</mark>. ¿Dónde vivía la mayoría de la población en la Antigüedad?",
+      "answer": "<mark>En el campo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/campo-cultivo-ladera.jpg",
+        "title": "Peru - Cusco Sacred Valley & Incan Ruins 146 - hillside wheat field",
+        "source": "https://www.flickr.com/photos/56796376@N00/7143355689",
         "alt": "Un campo de cultivo en ladera, la vida rural antigua",
-        "titulo": "Peru - Cusco Sacred Valley & Incan Ruins 146 - hillside wheat field",
         "autor": "mckaysavage",
-        "fuente": "https://www.flickr.com/photos/56796376@N00/7143355689",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una carta que el pasado nos envía directamente hasta hoy</mark>. Son los restos, edificios y objetos que una cultura antigua nos dejó. ¿Cómo se llama este legado del pasado?",
-      "respuesta": "<mark>Patrimonio histórico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/yacimiento-delos.jpg",
+      "question": "<mark>Es como una carta que el pasado nos envía directamente hasta hoy</mark>. Son los restos, edificios y objetos que una cultura antigua nos dejó. ¿Cómo se llama este legado del pasado?",
+      "answer": "<mark>Patrimonio histórico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/yacimiento-delos.jpg",
+        "title": "Delos",
+        "source": "https://www.flickr.com/photos/33037982@N04/5773911794",
         "alt": "Ruinas del yacimiento arqueológico de Delos",
-        "titulo": "Delos",
         "autor": "wallygrom",
-        "fuente": "https://www.flickr.com/photos/33037982@N04/5773911794",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como quemar la única copia de una carta escrita hace miles de años</mark>. Una vez destruido el patrimonio histórico, no se puede recuperar igual. ¿Qué lugares lo protegen, junto con los yacimientos arqueológicos?",
-      "respuesta": "<mark>Museos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/excavacion-arqueologica.jpg",
+      "question": "<mark>Es como quemar la única copia de una carta escrita hace miles de años</mark>. Una vez destruido el patrimonio histórico, no se puede recuperar igual. ¿Qué lugares lo protegen, junto con los yacimientos arqueológicos?",
+      "answer": "<mark>Museos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/excavacion-arqueologica.jpg",
+        "title": "Archaeological excavations at a prehistoric American Indian site in the John Day Fossil Beds National Monument, north-central Oregon (USA)",
+        "source": "https://www.flickr.com/photos/72105154@N00/2354942831",
         "alt": "Una excavación arqueológica conservando el patrimonio",
-        "titulo": "Archaeological excavations at a prehistoric American Indian site in the John Day Fossil Beds National Monument, north-central Oregon (USA)",
         "autor": "gbaku",
-        "fuente": "https://www.flickr.com/photos/72105154@N00/2354942831",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "La religión explicaba el mundo y ayudaba a organizar la vida en comunidad. <mark>También servía para justificar el poder de reyes y faraones</mark>. ¿Quiénes tenían tanta influencia gracias a la religión?",
-      "respuesta": "<mark>Templos y sacerdotes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/templo-zeus.jpg",
+      "question": "La religión explicaba el mundo y ayudaba a organizar la vida en comunidad. <mark>También servía para justificar el poder de reyes y faraones</mark>. ¿Quiénes tenían tanta influencia gracias a la religión?",
+      "answer": "<mark>Templos y sacerdotes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/templo-zeus.jpg",
+        "title": "The Temple of Olympian Zeus",
+        "source": "https://www.flickr.com/photos/7679455@N03/5694484278",
         "alt": "El Templo de Zeus Olímpico, un templo de la religión griega",
-        "titulo": "The Temple of Olympian Zeus",
         "autor": "kevinpoh",
-        "fuente": "https://www.flickr.com/photos/7679455@N03/5694484278",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Muchos gobernantes decían gobernar por voluntad de los dioses. <mark>Es como decir que nadie puede discutir una orden que viene de arriba</mark>. ¿Qué gobernante antiguo es un ejemplo claro de esta idea?",
-      "respuesta": "<mark>El faraón egipcio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/relieve-hathor.jpg",
+      "question": "Muchos gobernantes decían gobernar por voluntad de los dioses. <mark>Es como decir que nadie puede discutir una orden que viene de arriba</mark>. ¿Qué gobernante antiguo es un ejemplo claro de esta idea?",
+      "answer": "<mark>El faraón egipcio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/relieve-hathor.jpg",
+        "title": "Hathor Temple Reliefs at Dendera (IX)",
+        "source": "https://www.flickr.com/photos/34561917@N04/8389746115",
         "alt": "Relieves de un templo egipcio dedicado a un dios",
-        "titulo": "Hathor Temple Reliefs at Dendera (IX)",
         "autor": "isawnyu",
-        "fuente": "https://www.flickr.com/photos/34561917@N04/8389746115",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son las ideas y formas que Grecia y Roma dejaron en la cultura actual. <mark>La democracia, el teatro o el derecho vienen en parte de allí</mark>. ¿Cómo se llama este legado de Grecia y Roma en Europa?",
-      "respuesta": "<mark>Raíces clásicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/columnas-templo.jpg",
+      "question": "Son las ideas y formas que Grecia y Roma dejaron en la cultura actual. <mark>La democracia, el teatro o el derecho vienen en parte de allí</mark>. ¿Cómo se llama este legado de Grecia y Roma en Europa?",
+      "answer": "<mark>Raíces clásicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/columnas-templo.jpg",
+        "title": "temple of castor+pollux, agrigento, sicily, april 2009",
+        "source": "https://www.flickr.com/photos/94852245@N00/4166342359",
         "alt": "Columnas de un templo clásico griego",
-        "titulo": "temple of castor+pollux, agrigento, sicily, april 2009",
         "autor": "seier+seier",
-        "fuente": "https://www.flickr.com/photos/94852245@N00/4166342359",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Muchas ideas actuales, como la libertad o la democracia, nacieron en la Antigüedad clásica. <mark>Es como seguir usando los cimientos de una casa construida hace siglos</mark>. ¿De qué sigue siendo parte importante hoy la cultura clásica?",
-      "respuesta": "<mark>La educación actual</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/teatro-epidauro.jpg",
+      "question": "Muchas ideas actuales, como la libertad o la democracia, nacieron en la Antigüedad clásica. <mark>Es como seguir usando los cimientos de una casa construida hace siglos</mark>. ¿De qué sigue siendo parte importante hoy la cultura clásica?",
+      "answer": "<mark>La educación actual</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/teatro-epidauro.jpg",
+        "title": "Epidauros (XI)",
+        "source": "https://www.flickr.com/photos/34561917@N04/5532667235",
         "alt": "Un antiguo teatro griego al aire libre",
-        "titulo": "Epidauros (XI)",
         "autor": "isawnyu",
-        "fuente": "https://www.flickr.com/photos/34561917@N04/5532667235",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hubo filósofas, gobernantes y científicas, aunque menos conocidas que los hombres. <mark>Sus historias suelen quedar más escondidas, aunque existieron igual</mark>. ¿Qué reina de Egipto es un ejemplo muy conocido?",
-      "respuesta": "<mark>Cleopatra</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_6/relieve-hathor-2.jpg",
+      "question": "Hubo filósofas, gobernantes y científicas, aunque menos conocidas que los hombres. <mark>Sus historias suelen quedar más escondidas, aunque existieron igual</mark>. ¿Qué reina de Egipto es un ejemplo muy conocido?",
+      "answer": "<mark>Cleopatra</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_6/relieve-hathor-2.jpg",
+        "title": "Hathor Temple Reliefs at Dendera (XIV)",
+        "source": "https://www.flickr.com/photos/34561917@N04/8389743037",
         "alt": "Relieve egipcio con la figura de una diosa",
-        "titulo": "Hathor Temple Reliefs at Dendera (XIV)",
         "autor": "isawnyu",
-        "fuente": "https://www.flickr.com/photos/34561917@N04/8389743037",
         "licencia": "CC BY 2.0"
       }
     }

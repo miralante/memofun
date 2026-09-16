@@ -1,173 +1,173 @@
 {
-  "tema": "El cuerpo humano: relación, sistema nervioso y reproducción - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El cuerpo humano: relación, sistema nervioso y reproducción - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es la capacidad de percibir lo que ocurre alrededor y responder a ello. <mark>Es como el sistema de alarma y respuesta de todo el cuerpo</mark>. Permite reaccionar ante peligros, estímulos o cambios del entorno. ¿Cómo se llama esta función?",
-      "respuesta": "<mark>Función de relación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mapeo-sensorial.jpg",
+      "question": "Es la capacidad de percibir lo que ocurre alrededor y responder a ello. <mark>Es como el sistema de alarma y respuesta de todo el cuerpo</mark>. Permite reaccionar ante peligros, estímulos o cambios del entorno. ¿Cómo se llama esta función?",
+      "answer": "<mark>Función de relación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/mapeo-sensorial.jpg",
+        "title": "Sensory Mapping",
+        "source": "https://www.flickr.com/photos/31192024@N05/5161722984",
         "alt": "Un mapa de las zonas sensoriales del cuerpo humano",
-        "titulo": "Sensory Mapping",
         "autor": "colindunn",
-        "fuente": "https://www.flickr.com/photos/31192024@N05/5161722984",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una estructura del cuerpo que detecta estímulos del entorno. <mark>Es como una antena que capta señales de luz, sonido o temperatura</mark>. Los ojos, los oídos y la piel contienen estas estructuras. ¿Cómo se llaman?",
-      "respuesta": "<mark>Receptores sensoriales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/ojo-primer-plano.jpg",
+      "question": "Es una estructura del cuerpo que detecta estímulos del entorno. <mark>Es como una antena que capta señales de luz, sonido o temperatura</mark>. Los ojos, los oídos y la piel contienen estas estructuras. ¿Cómo se llaman?",
+      "answer": "<mark>Receptores sensoriales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/ojo-primer-plano.jpg",
+        "title": "August 27, 2016",
+        "source": "https://www.flickr.com/photos/10787737@N02/29808987284",
         "alt": "Primer plano de un ojo humano, un receptor sensorial",
-        "titulo": "August 27, 2016",
         "autor": "osseous",
-        "fuente": "https://www.flickr.com/photos/10787737@N02/29808987284",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Recibe información de los receptores y decide cómo responder. <mark>Es como el centro de mando que procesa órdenes y las envía al resto del cuerpo</mark>. Incluye el cerebro, la médula espinal y los nervios. ¿Cómo se llama este sistema?",
-      "respuesta": "<mark>Sistema nervioso</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-ilustracion.jpg",
+      "question": "Recibe información de los receptores y decide cómo responder. <mark>Es como el centro de mando que procesa órdenes y las envía al resto del cuerpo</mark>. Incluye el cerebro, la médula espinal y los nervios. ¿Cómo se llama este sistema?",
+      "answer": "<mark>Sistema nervioso</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-ilustracion.jpg",
+        "title": "pg 226 Our Brain",
+        "source": "https://www.flickr.com/photos/14277117@N03/3995210073",
         "alt": "Ilustración del cerebro humano, centro del sistema nervioso",
-        "titulo": "pg 226 Our Brain",
         "autor": "perpetualplum",
-        "fuente": "https://www.flickr.com/photos/14277117@N03/3995210073",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la parte del cuerpo que ejecuta la respuesta decidida por el sistema nervioso. <mark>Es como el trabajador que cumple la orden que le llega desde arriba</mark>. Los músculos y las glándulas son ejemplos. ¿Cómo se llama esta parte del cuerpo?",
-      "respuesta": "<mark>Órgano efector</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/corredor-musculos.jpg",
+      "question": "Es la parte del cuerpo que ejecuta la respuesta decidida por el sistema nervioso. <mark>Es como el trabajador que cumple la orden que le llega desde arriba</mark>. Los músculos y las glándulas son ejemplos. ¿Cómo se llama esta parte del cuerpo?",
+      "answer": "<mark>Órgano efector</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/corredor-musculos.jpg",
+        "title": "Usain Bolt at Brunel University",
+        "source": "https://www.flickr.com/photos/31586239@N02/3794966980",
         "alt": "Un atleta corriendo, con los músculos de las piernas en acción",
-        "titulo": "Usain Bolt at Brunel University",
         "autor": "Brunel University London",
-        "fuente": "https://www.flickr.com/photos/31586239@N02/3794966980",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un receptor detecta el estímulo, el sistema nervioso lo procesa y un efector responde. <mark>Es como recibir una llamada, decidir qué hacer y actuar en consecuencia</mark>. Así reaccionamos rápido ante situaciones inesperadas. ¿Cuáles son las tres partes de esta cadena de reacción?",
-      "respuesta": "<mark>Receptor, sistema nervioso y efector</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/reaccion-cadena.jpg",
+      "question": "Un receptor detecta el estímulo, el sistema nervioso lo procesa y un efector responde. <mark>Es como recibir una llamada, decidir qué hacer y actuar en consecuencia</mark>. Así reaccionamos rápido ante situaciones inesperadas. ¿Cuáles son las tres partes de esta cadena de reacción?",
+      "answer": "<mark>Receptor, sistema nervioso y efector</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/reaccion-cadena.jpg",
+        "title": "chain reaction (cc)",
+        "source": "https://www.flickr.com/photos/45409431@N00/14032923230",
         "alt": "Fichas de dominó cayendo una tras otra, como una reacción en cadena",
-        "titulo": "chain reaction (cc)",
         "autor": "marfis75",
-        "fuente": "https://www.flickr.com/photos/45409431@N00/14032923230",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El cuerpo crece rápido y se desarrollan los caracteres sexuales. <mark>Es como una etapa de obras donde el cuerpo se transforma bastante rápido</mark>. Cada persona vive estos cambios a su propio ritmo, sin una norma exacta para todos. ¿Qué controla estos cambios del cuerpo?",
-      "respuesta": "<mark>Las hormonas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-metamorfosis.jpg",
+      "question": "El cuerpo crece rápido y se desarrollan los caracteres sexuales. <mark>Es como una etapa de obras donde el cuerpo se transforma bastante rápido</mark>. Cada persona vive estos cambios a su propio ritmo, sin una norma exacta para todos. ¿Qué controla estos cambios del cuerpo?",
+      "answer": "<mark>Las hormonas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-metamorfosis.jpg",
+        "title": "Harlequin Butterfly Life Cycle / Mariposa arlequín",
+        "source": "https://www.flickr.com/photos/41464593@N02/5840511508",
         "alt": "El ciclo de vida de una mariposa, con sus cambios de forma",
-        "titulo": "Harlequin Butterfly Life Cycle / Mariposa arlequín",
         "autor": "USFWS/Southeast",
-        "fuente": "https://www.flickr.com/photos/41464593@N02/5840511508",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Aumentan la búsqueda de identidad propia y los cambios de humor. <mark>Es habitual sentir emociones intensas mientras el cuerpo y la mente van cambiando</mark>. También crece la necesidad de independencia respecto a la familia. ¿En qué etapa de la vida son frecuentes estos cambios?",
-      "respuesta": "<mark>Adolescencia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/adolescente-emociones.jpg",
+      "question": "Aumentan la búsqueda de identidad propia y los cambios de humor. <mark>Es habitual sentir emociones intensas mientras el cuerpo y la mente van cambiando</mark>. También crece la necesidad de independencia respecto a la familia. ¿En qué etapa de la vida son frecuentes estos cambios?",
+      "answer": "<mark>Adolescencia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/adolescente-emociones.jpg",
+        "title": "Working with Moody Children",
+        "source": "https://www.flickr.com/photos/47850033@N08/45964471974",
         "alt": "Una persona joven con cambios de humor",
-        "titulo": "Working with Moody Children",
         "autor": "Nithi clicks",
-        "fuente": "https://www.flickr.com/photos/47850033@N08/45964471974",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Permite que el cuerpo humano pueda tener descendencia. <mark>Es distinto entre hombres y mujeres, y se desarrolla y madura durante la adolescencia</mark>. Su funcionamiento está regulado también por hormonas. ¿Cómo se llama este aparato?",
-      "respuesta": "<mark>Aparato reproductor</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-monarca-ciclo.jpg",
+      "question": "Permite que el cuerpo humano pueda tener descendencia. <mark>Es distinto entre hombres y mujeres, y se desarrolla y madura durante la adolescencia</mark>. Su funcionamiento está regulado también por hormonas. ¿Cómo se llama este aparato?",
+      "answer": "<mark>Aparato reproductor</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/mariposa-monarca-ciclo.jpg",
+        "title": "Monarch butterfly life cycle",
+        "source": "https://www.flickr.com/photos/99341324@N00/3180508066",
         "alt": "El ciclo de vida de una mariposa monarca, un ejemplo de reproducción y crecimiento en la naturaleza",
-        "titulo": "Monarch butterfly life cycle",
         "autor": "hspauldi",
-        "fuente": "https://www.flickr.com/photos/99341324@N00/3180508066",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son mensajeras químicas que activan los cambios del cuerpo en la adolescencia. <mark>Son como órdenes silenciosas que viajan por la sangre y dan instrucciones al cuerpo</mark>. Provocan el crecimiento, el desarrollo sexual y cambios de humor. ¿Cómo se llaman estas mensajeras químicas?",
-      "respuesta": "<mark>Hormonas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/molecula-hormona.png",
+      "question": "Son mensajeras químicas que activan los cambios del cuerpo en la adolescencia. <mark>Son como órdenes silenciosas que viajan por la sangre y dan instrucciones al cuerpo</mark>. Provocan el crecimiento, el desarrollo sexual y cambios de humor. ¿Cómo se llaman estas mensajeras químicas?",
+      "answer": "<mark>Hormonas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/molecula-hormona.png",
+        "title": "Melatonin molecule ball",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=37803618",
         "alt": "El modelo de una molécula de hormona",
-        "titulo": "Melatonin molecule ball",
         "autor": "Jynto",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=37803618",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "El cuerpo y la mente cambian más rápido que en otras etapas de la vida. <mark>Es como tener que aprender a manejar un cuerpo distinto casi cada año</mark>. Hablarlo con confianza ayuda a vivir esa etapa con tranquilidad. ¿Qué es normal sentir durante estos cambios tan rápidos?",
-      "respuesta": "<mark>Dudas e inseguridad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/adolescentes-grupo.jpg",
+      "question": "El cuerpo y la mente cambian más rápido que en otras etapas de la vida. <mark>Es como tener que aprender a manejar un cuerpo distinto casi cada año</mark>. Hablarlo con confianza ayuda a vivir esa etapa con tranquilidad. ¿Qué es normal sentir durante estos cambios tan rápidos?",
+      "answer": "<mark>Dudas e inseguridad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/adolescentes-grupo.jpg",
+        "title": "Grill Party",
+        "source": "https://www.flickr.com/photos/94660722@N02/9068591263",
         "alt": "Un grupo de adolescentes pasando tiempo juntos",
-        "titulo": "Grill Party",
         "autor": "Harold R Cologne",
-        "fuente": "https://www.flickr.com/photos/94660722@N02/9068591263",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una función aporta energía, otra permite adaptarse, y otra permite continuar la especie. Son tres funciones vitales que sostienen la vida de una persona y de la especie. <mark>Ninguna funcionaría bien sin las otras dos</mark>. ¿Cuáles son estas tres funciones vitales?",
-      "respuesta": "<mark>Nutrición, relación y reproducción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/celula-arte.jpg",
+      "question": "Una función aporta energía, otra permite adaptarse, y otra permite continuar la especie. Son tres funciones vitales que sostienen la vida de una persona y de la especie. <mark>Ninguna funcionaría bien sin las otras dos</mark>. ¿Cuáles son estas tres funciones vitales?",
+      "answer": "<mark>Nutrición, relación y reproducción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/celula-arte.jpg",
+        "title": "The artistry of the cell spanning 50 years",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=105132566",
         "alt": "Una representación artística de una célula del cuerpo",
-        "titulo": "The artistry of the cell spanning 50 years",
         "autor": "Steve Jurvetson from Los Altos, USA",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=105132566",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el centro que procesa la información y toma la mayoría de decisiones del cuerpo. <mark>Es como el director de una orquesta, coordinando a todos los demás instrumentos</mark>. Controla desde movimientos voluntarios hasta pensamientos y emociones. ¿Qué órgano cumple este papel?",
-      "respuesta": "<mark>Cerebro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-modelo-cera.jpg",
+      "question": "Es el centro que procesa la información y toma la mayoría de decisiones del cuerpo. <mark>Es como el director de una orquesta, coordinando a todos los demás instrumentos</mark>. Controla desde movimientos voluntarios hasta pensamientos y emociones. ¿Qué órgano cumple este papel?",
+      "answer": "<mark>Cerebro</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/cerebro-modelo-cera.jpg",
+        "title": "Modelo en cera de cerebro humano (casa Tramond, siglo XIX)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=59459633",
         "alt": "Un modelo antiguo de cera de un cerebro humano",
-        "titulo": "Modelo en cera de cerebro humano (casa Tramond, siglo XIX)",
         "autor": "Littleara",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=59459633",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Es el cordón nervioso que conecta el cerebro con el resto del cuerpo. <mark>Es como el cable principal por el que viaja la información nerviosa</mark>. También controla algunos reflejos rápidos, sin pasar antes por el cerebro. ¿Cómo se llama este cordón?",
-      "respuesta": "<mark>Médula espinal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/sistema-nervioso-dibujo.jpg",
+      "question": "Es el cordón nervioso que conecta el cerebro con el resto del cuerpo. <mark>Es como el cable principal por el que viaja la información nerviosa</mark>. También controla algunos reflejos rápidos, sin pasar antes por el cerebro. ¿Cómo se llama este cordón?",
+      "answer": "<mark>Médula espinal</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/sistema-nervioso-dibujo.jpg",
+        "title": "Central nervous system drawing circa 1900",
+        "source": "https://www.flickr.com/photos/49879584@N00/5551033595",
         "alt": "Dibujo antiguo del sistema nervioso central, con la médula espinal",
-        "titulo": "Central nervous system drawing circa 1900",
         "autor": "Double--M",
-        "fuente": "https://www.flickr.com/photos/49879584@N00/5551033595",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una respuesta automática y muy rápida ante un estímulo, sin pensarlo. <mark>Es como apartar la mano de algo caliente antes incluso de darte cuenta</mark>. Sirve para proteger al cuerpo de peligros inmediatos. ¿Cómo se llama esta respuesta automática?",
-      "respuesta": "<mark>Acto reflejo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_3/domino-efecto.jpg",
+      "question": "Es una respuesta automática y muy rápida ante un estímulo, sin pensarlo. <mark>Es como apartar la mano de algo caliente antes incluso de darte cuenta</mark>. Sirve para proteger al cuerpo de peligros inmediatos. ¿Cómo se llama esta respuesta automática?",
+      "answer": "<mark>Acto reflejo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_3/domino-efecto.jpg",
+        "title": "domino effect (cc)",
+        "source": "https://www.flickr.com/photos/45409431@N00/12741087104",
         "alt": "Fichas de dominó cayendo, como ejemplo de un acto reflejo automático",
-        "titulo": "domino effect (cc)",
         "autor": "marfis75",
-        "fuente": "https://www.flickr.com/photos/45409431@N00/12741087104",
         "licencia": "CC BY-SA 2.0"
       }
     }

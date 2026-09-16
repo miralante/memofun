@@ -1,149 +1,149 @@
 {
-  "tema": "Alimentación, afectividad y hábitos saludables - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Alimentación, afectividad y hábitos saludables - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una alimentación que combina distintos alimentos en proporciones adecuadas. <mark>Es como un puzle donde cada pieza aporta algo necesario</mark>. ¿Cómo se llama este tipo de alimentación?",
-      "respuesta": "<mark>Dieta equilibrada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/cena-saludable.jpg",
+      "question": "Es una alimentación que combina distintos alimentos en proporciones adecuadas. <mark>Es como un puzle donde cada pieza aporta algo necesario</mark>. ¿Cómo se llama este tipo de alimentación?",
+      "answer": "<mark>Dieta equilibrada</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/cena-saludable.jpg",
+        "title": "Cenando muy saludable",
+        "source": "https://www.flickr.com/photos/31479545@N00/3005191420",
         "alt": "Un plato de comida variada y saludable",
-        "titulo": "Cenando muy saludable",
         "autor": "Javier Aroche",
-        "fuente": "https://www.flickr.com/photos/31479545@N00/3005191420",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son las sustancias de los alimentos que el cuerpo necesita para funcionar. <mark>Son el combustible y los materiales de tu cuerpo</mark>. ¿Cómo se llaman estas sustancias?",
-      "respuesta": "<mark>Nutrientes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/frutas-verduras.jpg",
+      "question": "Son las sustancias de los alimentos que el cuerpo necesita para funcionar. <mark>Son el combustible y los materiales de tu cuerpo</mark>. ¿Cómo se llaman estas sustancias?",
+      "answer": "<mark>Nutrientes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/frutas-verduras.jpg",
+        "title": "UDel Fruit &Vegetable Variety Trial Field Tour",
+        "source": "https://www.flickr.com/photos/125352975@N03/14996257411",
         "alt": "Variedad de frutas y verduras diferentes",
-        "titulo": "UDel Fruit &Vegetable Variety Trial Field Tour",
         "autor": "Delaware Cooperative Extension",
-        "fuente": "https://www.flickr.com/photos/125352975@N03/14996257411",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un problema de salud relacionado con la forma de comer o de verse a uno mismo. <mark>Afecta también a las emociones y a la autoestima</mark>, no solo al cuerpo. Pedir ayuda a tiempo es clave. ¿Cómo se llama este problema de salud?",
-      "respuesta": "<mark>Trastorno alimentario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/apoyo-conversacion.jpg",
+      "question": "Es un problema de salud relacionado con la forma de comer o de verse a uno mismo. <mark>Afecta también a las emociones y a la autoestima</mark>, no solo al cuerpo. Pedir ayuda a tiempo es clave. ¿Cómo se llama este problema de salud?",
+      "answer": "<mark>Trastorno alimentario</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/apoyo-conversacion.jpg",
+        "title": "Counseling",
+        "source": "https://www.flickr.com/photos/11121568@N06/4102645583",
         "alt": "Dos personas hablando y apoyándose",
-        "titulo": "Counseling",
         "autor": "Alan Cleaver",
-        "fuente": "https://www.flickr.com/photos/11121568@N06/4102645583",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Las redes sociales muestran imágenes que no siempre reflejan la realidad. <mark>Es fácil compararse con fotos retocadas</mark> y sentir que uno no encaja. ¿Qué puede verse afectado por esas comparaciones constantes?",
-      "respuesta": "<mark>La autoestima</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/movil-redes.jpg",
+      "question": "Las redes sociales muestran imágenes que no siempre reflejan la realidad. <mark>Es fácil compararse con fotos retocadas</mark> y sentir que uno no encaja. ¿Qué puede verse afectado por esas comparaciones constantes?",
+      "answer": "<mark>La autoestima</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/movil-redes.jpg",
+        "title": "Woman with smartphone, Moscow",
+        "source": "https://www.flickr.com/photos/157635012@N07/40851099253",
         "alt": "Una persona mirando el móvil y las redes sociales",
-        "titulo": "Woman with smartphone, Moscow",
         "autor": "Artem Beliaikin",
-        "fuente": "https://www.flickr.com/photos/157635012@N07/40851099253",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Significa que ambas personas tienen el mismo valor y los mismos derechos. <mark>Es como repartir siempre a partes iguales</mark>, sin que nadie mande más. ¿Cómo se llama esto en una relación?",
-      "respuesta": "<mark>Igualdad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/pareja-igualdad.jpg",
+      "question": "Significa que ambas personas tienen el mismo valor y los mismos derechos. <mark>Es como repartir siempre a partes iguales</mark>, sin que nadie mande más. ¿Cómo se llama esto en una relación?",
+      "answer": "<mark>Igualdad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/pareja-igualdad.jpg",
+        "title": "A lovely couple with two dogs",
+        "source": "https://www.flickr.com/photos/135396164@N05/34386345973",
         "alt": "Una pareja pasando tiempo juntos por igual",
-        "titulo": "A lovely couple with two dogs",
         "autor": "freestocks.org",
-        "fuente": "https://www.flickr.com/photos/135396164@N05/34386345973",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Ayuda a entender mejor las propias emociones y a relacionarse con respeto. Es un tema tan normal como cualquier otro de salud. <mark>Hablarlo con naturalidad evita mitos y desinformación</mark>. ¿Qué tipo de información ayuda a decidir con más seguridad sobre esto?",
-      "respuesta": "<mark>Información fiable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/profesor-alumno.jpg",
+      "question": "Ayuda a entender mejor las propias emociones y a relacionarse con respeto. Es un tema tan normal como cualquier otro de salud. <mark>Hablarlo con naturalidad evita mitos y desinformación</mark>. ¿Qué tipo de información ayuda a decidir con más seguridad sobre esto?",
+      "answer": "<mark>Información fiable</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/profesor-alumno.jpg",
+        "title": "Who, me? Yes you! Teacher & student conversation.",
+        "source": "https://www.flickr.com/photos/76060406@N07/36645541041",
         "alt": "Un profesor y un alumno hablando con confianza",
-        "titulo": "Who, me? Yes you! Teacher & student conversation.",
         "autor": "LauraGilchristEdu",
-        "fuente": "https://www.flickr.com/photos/76060406@N07/36645541041",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Afecta al sistema nervioso: altera reflejos, juicio y coordinación. <mark>Es como conducir con la vista nublada</mark>, sin darte cuenta. ¿Qué sustancia produce estos efectos en el cuerpo?",
-      "respuesta": "<mark>Alcohol</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/cerveza.jpg",
+      "question": "Afecta al sistema nervioso: altera reflejos, juicio y coordinación. <mark>Es como conducir con la vista nublada</mark>, sin darte cuenta. ¿Qué sustancia produce estos efectos en el cuerpo?",
+      "answer": "<mark>Alcohol</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/cerveza.jpg",
+        "title": "Skol Beer",
+        "source": "https://www.flickr.com/photos/38488245@N00/5587945263",
         "alt": "Una bebida alcohólica en un vaso",
-        "titulo": "Skol Beer",
         "autor": "o_sam_o",
-        "fuente": "https://www.flickr.com/photos/38488245@N00/5587945263",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Daña los pulmones y el sistema circulatorio con el tiempo. <mark>Es como llenar de humo un espacio pensado para respirar limpio</mark>. ¿Qué sustancia produce estos efectos en el cuerpo?",
-      "respuesta": "<mark>Tabaco</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/humo-cigarrillo.jpg",
+      "question": "Daña los pulmones y el sistema circulatorio con el tiempo. <mark>Es como llenar de humo un espacio pensado para respirar limpio</mark>. ¿Qué sustancia produce estos efectos en el cuerpo?",
+      "answer": "<mark>Tabaco</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/humo-cigarrillo.jpg",
+        "title": "Cigarette smoke",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=3220163",
         "alt": "Humo de un cigarrillo en el aire",
-        "titulo": "Cigarette smoke",
         "autor": "Challiyil Eswaramangalath Vipin from Chalakudy, India",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=3220163",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Alteran el funcionamiento del cerebro y del cuerpo de forma imprevisible. <mark>Es como jugar con las reglas de tu cuerpo sin conocerlas</mark>. ¿Qué generan estas sustancias, difícil de superar por uno mismo?",
-      "respuesta": "<mark>Dependencia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/senal-peligro.jpg",
+      "question": "Alteran el funcionamiento del cerebro y del cuerpo de forma imprevisible. <mark>Es como jugar con las reglas de tu cuerpo sin conocerlas</mark>. ¿Qué generan estas sustancias, difícil de superar por uno mismo?",
+      "answer": "<mark>Dependencia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/senal-peligro.jpg",
+        "title": "Warning Stripes",
+        "source": "https://www.flickr.com/photos/93421824@N06/8899854976",
         "alt": "Rayas amarillas y negras de aviso de peligro",
-        "titulo": "Warning Stripes",
         "autor": "Filter Forge",
-        "fuente": "https://www.flickr.com/photos/93421824@N06/8899854976",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Dormir bien, comer sano y hacer ejercicio ayudan a concentrarse mejor. <mark>Es como cuidar el motor de un coche para que rinda</mark>. ¿Qué mejora gracias a estos hábitos saludables?",
-      "respuesta": "<mark>La concentración</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/estudiante-estudiando.jpg",
+      "question": "Dormir bien, comer sano y hacer ejercicio ayudan a concentrarse mejor. <mark>Es como cuidar el motor de un coche para que rinda</mark>. ¿Qué mejora gracias a estos hábitos saludables?",
+      "answer": "<mark>La concentración</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/estudiante-estudiando.jpg",
+        "title": "Students Study",
+        "source": "https://www.flickr.com/photos/8176740@N05/6935403031",
         "alt": "Un estudiante estudiando concentrado",
-        "titulo": "Students Study",
         "autor": "garryknight",
-        "fuente": "https://www.flickr.com/photos/8176740@N05/6935403031",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <mark>Es como recargar una batería que se ha ido gastando</mark>. ¿Qué actividad diaria cumple este papel tan importante?",
-      "respuesta": "<mark>Dormir bien</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/descanso-sueno.jpg",
+      "question": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <mark>Es como recargar una batería que se ha ido gastando</mark>. ¿Qué actividad diaria cumple este papel tan importante?",
+      "answer": "<mark>Dormir bien</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/descanso-sueno.jpg",
+        "title": "sleep.",
+        "source": "https://www.flickr.com/photos/80355002@N00/23669945",
         "alt": "Una persona descansando y durmiendo",
-        "titulo": "sleep.",
         "autor": ".through my eyes.",
-        "fuente": "https://www.flickr.com/photos/80355002@N00/23669945",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La salud no es solo física: también es cómo te sientes y te relacionas. <mark>Es como un taburete de tres patas: si falta una, se desequilibra</mark>. ¿Qué dos tipos de salud se suman a la física, según esta idea?",
-      "respuesta": "<mark>Salud mental y social</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_6/taburete.jpg",
+      "question": "La salud no es solo física: también es cómo te sientes y te relacionas. <mark>Es como un taburete de tres patas: si falta una, se desequilibra</mark>. ¿Qué dos tipos de salud se suman a la física, según esta idea?",
+      "answer": "<mark>Salud mental y social</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_6/taburete.jpg",
+        "title": "Stool",
+        "source": "https://www.brooklynmuseum.org/opencollection/objects/2904",
         "alt": "Un taburete de madera con tres patas",
-        "titulo": "Stool",
         "autor": "Bongo",
-        "fuente": "https://www.brooklynmuseum.org/opencollection/objects/2904",
         "licencia": "CC BY 3.0"
       }
     }

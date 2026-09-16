@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 5º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 5º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es la idea principal de la que trata una historia. <mark>Es como el hilo invisible que conecta todo lo que pasa</mark>. Puede ser la amistad o el valor de intentarlo. ¿Cómo se llama esta idea principal?",
-      "respuesta": "<mark>El tema</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_3/hilo-invisible-tema.jpg",
+      "question": "Es la idea principal de la que trata una historia. <mark>Es como el hilo invisible que conecta todo lo que pasa</mark>. Puede ser la amistad o el valor de intentarlo. ¿Cómo se llama esta idea principal?",
+      "answer": "<mark>El tema</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_3/hilo-invisible-tema.jpg",
+        "title": "spider web with dew drops",
+        "source": "https://www.flickr.com/photos/21703936@N08/6181554829",
         "alt": "Una telaraña con gotas de rocío, con muchos hilos finos que conectan cada punto entre sí",
-        "titulo": "spider web with dew drops",
         "autor": "minicooper93402",
-        "fuente": "https://www.flickr.com/photos/21703936@N08/6181554829",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la forma particular de escribir de un autor, distinta a la de otros. <mark>Es como la letra de cada persona: reconocible aunque cambie el texto</mark>. Algunos usan frases largas; otros, muy cortas. ¿Cómo se llama este sello personal?",
-      "respuesta": "<mark>El estilo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_3/estilo-autor-carta.jpg",
+      "question": "Es la forma particular de escribir de un autor, distinta a la de otros. <mark>Es como la letra de cada persona: reconocible aunque cambie el texto</mark>. Algunos usan frases largas; otros, muy cortas. ¿Cómo se llama este sello personal?",
+      "answer": "<mark>El estilo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_3/estilo-autor-carta.jpg",
+        "title": "old letter",
+        "source": "https://www.flickr.com/photos/66992990@N00/8380136935",
         "alt": "Una carta antigua escrita a mano, con letra cursiva muy personal",
-        "titulo": "old letter",
         "autor": "Joanna Bourne",
-        "fuente": "https://www.flickr.com/photos/66992990@N00/8380136935",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es cuando las últimas letras de dos versos suenan exactamente igual. <mark>Por ejemplo: 'cielo' y 'anhelo'</mark>. ¿Cómo se llama este tipo de rima?",
-      "respuesta": "<mark>Rima consonante</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_3/rima-consonante-cielo.jpg",
+      "question": "Es cuando las últimas letras de dos versos suenan exactamente igual. <mark>Por ejemplo: 'cielo' y 'anhelo'</mark>. ¿Cómo se llama este tipo de rima?",
+      "answer": "<mark>Rima consonante</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_3/rima-consonante-cielo.jpg",
+        "title": "Blue sky, white clouds",
+        "source": "https://www.flickr.com/photos/88575173@N00/2743129961",
         "alt": "Un cielo azul con nubes blancas, como la palabra 'cielo' del ejemplo",
-        "titulo": "Blue sky, white clouds",
         "autor": "o b s k u r a",
-        "fuente": "https://www.flickr.com/photos/88575173@N00/2743129961",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es cuando solo coinciden las vocales al final de los versos. <mark>Por ejemplo: 'casa' y 'nada'</mark>. ¿Cómo se llama este tipo de rima?",
-      "respuesta": "<mark>Rima asonante</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_3/rima-asonante-casa.jpg",
+      "question": "Es cuando solo coinciden las vocales al final de los versos. <mark>Por ejemplo: 'casa' y 'nada'</mark>. ¿Cómo se llama este tipo de rima?",
+      "answer": "<mark>Rima asonante</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_3/rima-asonante-casa.jpg",
+        "title": "Mary Arden's House / Farm - Wilmcote - Palmer's Farmhouse - Dovecote",
+        "source": "https://www.flickr.com/photos/39415781@N06/8442434122",
         "alt": "Una casa antigua de piedra con tejado rojo, como la palabra 'casa' del ejemplo",
-        "titulo": "Mary Arden's House / Farm - Wilmcote - Palmer's Farmhouse - Dovecote",
         "autor": "ell brown",
-        "fuente": "https://www.flickr.com/photos/39415781@N06/8442434122",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La rima consonante repite vocales y consonantes por igual. <mark>Esta otra solo repite las vocales, de forma más libre</mark>. Por eso suena más suave al oído. ¿Cómo se llama esta segunda rima?",
-      "respuesta": "<mark>Rima asonante</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_3/poesia-lectura.jpg",
+      "question": "La rima consonante repite vocales y consonantes por igual. <mark>Esta otra solo repite las vocales, de forma más libre</mark>. Por eso suena más suave al oído. ¿Cómo se llama esta segunda rima?",
+      "answer": "<mark>Rima asonante</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_3/poesia-lectura.jpg",
+        "title": "poetry reading",
+        "source": "https://www.flickr.com/photos/23094783@N03/3454075839",
         "alt": "Alguien leyendo poesía en voz alta",
-        "titulo": "poetry reading",
         "autor": "eflon",
-        "fuente": "https://www.flickr.com/photos/23094783@N03/3454075839",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En este cuento hay magia que nadie cuestiona. Los personajes la aceptan como algo normal. <mark>Por ejemplo, hablar con animales o volar en alfombra</mark>. ¿Cómo se llama este tipo de cuento?",
-      "respuesta": "<mark>Cuento maravilloso</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_3/cuento-maravilloso-lampara.webp",
+      "question": "En este cuento hay magia que nadie cuestiona. Los personajes la aceptan como algo normal. <mark>Por ejemplo, hablar con animales o volar en alfombra</mark>. ¿Cómo se llama este tipo de cuento?",
+      "answer": "<mark>Cuento maravilloso</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_3/cuento-maravilloso-lampara.webp",
+        "title": "Magic lamp clipart, vintage illustration",
+        "source": "https://www.rawpixel.com/image/6817501/vector-vintage-public-domain-black",
         "alt": "Dibujo de una lámpara mágica antigua con humo saliendo, como en los cuentos con magia",
-        "titulo": "Magic lamp clipart, vintage illustration",
         "autor": "Desconocido (rawpixel, dominio público)",
-        "fuente": "https://www.rawpixel.com/image/6817501/vector-vintage-public-domain-black",
         "licencia": "CC0 1.0"
       }
     }

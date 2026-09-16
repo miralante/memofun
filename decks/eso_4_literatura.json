@@ -1,233 +1,233 @@
 {
-  "tema": "Literatura - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Un movimiento <mark>ponía el sentimiento por encima de la razón</mark>. Defendía la libertad de cada persona frente a normas rígidas. ¿Cómo se llama este movimiento?",
-      "respuesta": "<mark>El Romanticismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/romanticismo.jpg",
+      "question": "Un movimiento <mark>ponía el sentimiento por encima de la razón</mark>. Defendía la libertad de cada persona frente a normas rígidas. ¿Cómo se llama este movimiento?",
+      "answer": "<mark>El Romanticismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/romanticismo.jpg",
+        "title": "Writing.",
+        "source": "https://www.flickr.com/photos/21484712@N00/2826079915",
         "alt": "Persona escribiendo con emoción, dejando fluir sus sentimientos.",
-        "titulo": "Writing.",
         "autor": "Caitlinator",
-        "fuente": "https://www.flickr.com/photos/21484712@N00/2826079915",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Escribía sobre el amor imposible y la tristeza, con poemas breves</mark>. También le fascinaba lo misterioso. Sigue siendo uno de los poetas españoles más leídos. ¿Quién fue este poeta romántico?",
-      "respuesta": "<mark>Bécquer</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/becquer-retrato.jpg",
+      "question": "<mark>Escribía sobre el amor imposible y la tristeza, con poemas breves</mark>. También le fascinaba lo misterioso. Sigue siendo uno de los poetas españoles más leídos. ¿Quién fue este poeta romántico?",
+      "answer": "<mark>Bécquer</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/becquer-retrato.jpg",
+        "title": "Gustavo Adolfo Bécquer",
+        "source": "https://www.flickr.com/photos/33928733@N00/4534178037",
         "alt": "Retrato de Gustavo Adolfo Bécquer",
-        "titulo": "Gustavo Adolfo Bécquer",
         "autor": "martinvarsavsky",
-        "fuente": "https://www.flickr.com/photos/33928733@N00/4534178037",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un movimiento literario quería mostrar la sociedad tal como era, sin adornarla. <mark>Los autores observaban la calle como quien investiga</mark>. Preferían los hechos a los sentimientos exagerados. ¿Cómo se llama este movimiento?",
-      "respuesta": "<mark>El Realismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/realismo.jpg",
+      "question": "Un movimiento literario quería mostrar la sociedad tal como era, sin adornarla. <mark>Los autores observaban la calle como quien investiga</mark>. Preferían los hechos a los sentimientos exagerados. ¿Cómo se llama este movimiento?",
+      "answer": "<mark>El Realismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/realismo.jpg",
+        "title": "Fresh Bread",
+        "source": "https://www.flickr.com/photos/93936679@N05/14713298879",
         "alt": "Pan recién hecho, una escena sencilla y cotidiana.",
-        "titulo": "Fresh Bread",
         "autor": "Nutrition, Food Safety & Health",
-        "fuente": "https://www.flickr.com/photos/93936679@N05/14713298879",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Retrataba la sociedad de Madrid de su época, con personas de todas las clases sociales</mark>. Mezclaba historia real con personajes inventados. ¿Quién fue este autor realista?",
-      "respuesta": "<mark>Benito Pérez Galdós</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/galdos-retrato.jpg",
+      "question": "<mark>Retrataba la sociedad de Madrid de su época, con personas de todas las clases sociales</mark>. Mezclaba historia real con personajes inventados. ¿Quién fue este autor realista?",
+      "answer": "<mark>Benito Pérez Galdós</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/galdos-retrato.jpg",
+        "title": "Benito Pérez Galdós (Kaulak)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=183641209",
         "alt": "Retrato de Benito Pérez Galdós",
-        "titulo": "Benito Pérez Galdós (Kaulak)",
         "autor": "Kaulak",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=183641209",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "España perdió sus últimas colonias en 1898, un golpe duro para su orgullo. <mark>Un grupo de escritores empezó a preguntarse qué le pasaba a España</mark>. ¿Cómo se llamó a ese grupo de escritores?",
-      "respuesta": "<mark>Generación del 98</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/desastre-1898.jpg",
+      "question": "España perdió sus últimas colonias en 1898, un golpe duro para su orgullo. <mark>Un grupo de escritores empezó a preguntarse qué le pasaba a España</mark>. ¿Cómo se llamó a ese grupo de escritores?",
+      "answer": "<mark>Generación del 98</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/desastre-1898.jpg",
+        "title": "Diorama of the interior of an old sailing ship",
+        "source": "https://www.flickr.com/photos/91994044@N00/38115176005",
         "alt": "Interior de un barco de vela antiguo, como los que cruzaban el océano.",
-        "titulo": "Diorama of the interior of an old sailing ship",
         "autor": "quinet",
-        "fuente": "https://www.flickr.com/photos/91994044@N00/38115176005",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los escritores de la Generación del 98 describían estos campos y pueblos. <mark>Ese paisaje representaba el estado de ánimo de España</mark>. Autores como Machado lo hicieron muy famoso. ¿Qué región retrataban?",
-      "respuesta": "<mark>Castilla</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/campos-de-castilla.jpg",
+      "question": "Los escritores de la Generación del 98 describían estos campos y pueblos. <mark>Ese paisaje representaba el estado de ánimo de España</mark>. Autores como Machado lo hicieron muy famoso. ¿Qué región retrataban?",
+      "answer": "<mark>Castilla</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/campos-de-castilla.jpg",
+        "title": "Campos de Castilla (Salamanca)",
+        "source": "https://www.flickr.com/photos/38035878@N07/14113495434",
         "alt": "Un campo de Castilla, el paisaje que retrató la Generación del 98",
-        "titulo": "Campos de Castilla (Salamanca)",
         "autor": "jl.cernadas",
-        "fuente": "https://www.flickr.com/photos/38035878@N07/14113495434",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La Generación del 98 sentía preocupación por España, pero también mucho cariño. <mark>Criticaban a España porque querían verla mejor</mark>. No era un rechazo, sino una forma de quererla. ¿Qué sentimiento combinaban con la crítica?",
-      "respuesta": "<mark>Cariño</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/generacion-98.jpg",
+      "question": "La Generación del 98 sentía preocupación por España, pero también mucho cariño. <mark>Criticaban a España porque querían verla mejor</mark>. No era un rechazo, sino una forma de quererla. ¿Qué sentimiento combinaban con la crítica?",
+      "answer": "<mark>Cariño</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/generacion-98.jpg",
+        "title": "006469 - Campo de Criptana",
+        "source": "https://www.flickr.com/photos/12066793@N05/7617816408",
         "alt": "Molinos de viento en el paisaje de Castilla, símbolo de España.",
-        "titulo": "006469 - Campo de Criptana",
         "autor": "M.Peinado",
-        "fuente": "https://www.flickr.com/photos/12066793@N05/7617816408",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un movimiento soñaba con palacios, princesas y cisnes</mark>. Prefería mundos lejanos y exóticos a la vida cotidiana. Buscaba la belleza por encima de todo. ¿Cómo se llama este movimiento?",
-      "respuesta": "<mark>El Modernismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/modernismo-imagenes.jpg",
+      "question": "<mark>Un movimiento soñaba con palacios, princesas y cisnes</mark>. Prefería mundos lejanos y exóticos a la vida cotidiana. Buscaba la belleza por encima de todo. ¿Cómo se llama este movimiento?",
+      "answer": "<mark>El Modernismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/modernismo-imagenes.jpg",
+        "title": "Lake Ontario Swan (Curved Neck)",
+        "source": "https://www.flickr.com/photos/22714323@N06/3216348493",
         "alt": "Un cisne blanco de cuello curvado nadando en un lago.",
-        "titulo": "Lake Ontario Swan (Curved Neck)",
         "autor": "Tony Fischer Photography",
-        "fuente": "https://www.flickr.com/photos/22714323@N06/3216348493",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Fue el poeta que impulsó el Modernismo en español. <mark>Sus versos suenan casi como música</mark>. Influyó en poetas de toda España y América. ¿Quién fue este poeta?",
-      "respuesta": "<mark>Rubén Darío</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/ruben-dario.jpg",
+      "question": "Fue el poeta que impulsó el Modernismo en español. <mark>Sus versos suenan casi como música</mark>. Influyó en poetas de toda España y América. ¿Quién fue este poeta?",
+      "answer": "<mark>Rubén Darío</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/ruben-dario.jpg",
+        "title": "Monument to Ruben Dario at Paseo de Garay, Murcia. Spain",
+        "source": "https://www.flickr.com/photos/82538566@N00/49539554076",
         "alt": "Monumento dedicado al poeta Rubén Darío.",
-        "titulo": "Monument to Ruben Dario at Paseo de Garay, Murcia. Spain",
         "autor": "jimbowen0306",
-        "fuente": "https://www.flickr.com/photos/82538566@N00/49539554076",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un tipo de poema sueña con palacios lejanos, evadiéndose de la realidad</mark>. El otro mira de frente los campos de Castilla. Nacieron en la misma época, pero miraron en direcciones distintas. ¿Cuál de los dos mira los campos de Castilla?",
-      "respuesta": "<mark>La Generación del 98</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/diferencia-modernismo-98.jpg",
+      "question": "<mark>Un tipo de poema sueña con palacios lejanos, evadiéndose de la realidad</mark>. El otro mira de frente los campos de Castilla. Nacieron en la misma época, pero miraron en direcciones distintas. ¿Cuál de los dos mira los campos de Castilla?",
+      "answer": "<mark>La Generación del 98</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/diferencia-modernismo-98.jpg",
+        "title": "Books",
+        "source": "https://www.flickr.com/photos/161174688@N08/39694088401",
         "alt": "Varios libros apilados, cada uno con su propio estilo.",
-        "titulo": "Books",
         "autor": "Czar Hey",
-        "fuente": "https://www.flickr.com/photos/161174688@N08/39694088401",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una guerra había dejado el país destrozado. <mark>Además, la censura limitaba lo que se podía escribir</mark>. Muchos escritores vivían con pocos recursos. ¿Qué guerra marcó ese periodo?",
-      "respuesta": "<mark>La Guerra Civil</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/contexto-posguerra.jpg",
+      "question": "Una guerra había dejado el país destrozado. <mark>Además, la censura limitaba lo que se podía escribir</mark>. Muchos escritores vivían con pocos recursos. ¿Qué guerra marcó ese periodo?",
+      "answer": "<mark>La Guerra Civil</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/contexto-posguerra.jpg",
+        "title": "Polish_Food_-_Polish_Bread-Loafs",
+        "source": "https://www.flickr.com/photos/45112459@N03/4146985782",
         "alt": "Barras de pan, alimento básico en tiempos difíciles.",
-        "titulo": "Polish_Food_-_Polish_Bread-Loafs",
         "autor": "PolishFoodInfo.com",
-        "fuente": "https://www.flickr.com/photos/45112459@N03/4146985782",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es contar la vida más dura, sin suavizarla. <mark>Es como una fotografía sin retocar, con toda su crudeza</mark>. Muestra violencia y miseria tal cual eran. ¿Cómo se llama este estilo literario?",
-      "respuesta": "<mark>Tremendismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/tremendismo.jpg",
+      "question": "Es contar la vida más dura, sin suavizarla. <mark>Es como una fotografía sin retocar, con toda su crudeza</mark>. Muestra violencia y miseria tal cual eran. ¿Cómo se llama este estilo literario?",
+      "answer": "<mark>Tremendismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/tremendismo.jpg",
+        "title": "Underwood 11 Typewriter",
+        "source": "https://www.flickr.com/photos/26354629@N02/2783532178",
         "alt": "Máquina de escribir antigua, herramienta de los escritores de la época.",
-        "titulo": "Underwood 11 Typewriter",
         "autor": "alexkerhead",
-        "fuente": "https://www.flickr.com/photos/26354629@N02/2783532178",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En la posguerra se contaba la pobreza y la vida cotidiana difícil. <mark>Muchos personajes luchaban solo por sobrevivir el día a día</mark>. No había grandes héroes. ¿Qué tipo de gente protagonizaba estas historias?",
-      "respuesta": "<mark>Gente corriente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/temas-posguerra.jpg",
+      "question": "En la posguerra se contaba la pobreza y la vida cotidiana difícil. <mark>Muchos personajes luchaban solo por sobrevivir el día a día</mark>. No había grandes héroes. ¿Qué tipo de gente protagonizaba estas historias?",
+      "answer": "<mark>Gente corriente</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/temas-posguerra.jpg",
+        "title": "Typewriter",
+        "source": "https://www.flickr.com/photos/60247182@N02/5590287946",
         "alt": "Máquina de escribir antigua sobre una mesa.",
-        "titulo": "Typewriter",
         "autor": "Taylor Liberato",
-        "fuente": "https://www.flickr.com/photos/60247182@N02/5590287946",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En una librería de hoy, <mark>hay novela policíaca, fantasía, historias familiares y poesía</mark>. Cada autor sigue su propio camino, sin una única moda. ¿Cómo se llama a este conjunto tan variado?",
-      "respuesta": "<mark>Literatura española actual</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/libreria-espanola.jpg",
+      "question": "En una librería de hoy, <mark>hay novela policíaca, fantasía, historias familiares y poesía</mark>. Cada autor sigue su propio camino, sin una única moda. ¿Cómo se llama a este conjunto tan variado?",
+      "answer": "<mark>Literatura española actual</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/libreria-espanola.jpg",
+        "title": "You know it's a good bookstore when...",
+        "source": "https://www.flickr.com/photos/11080385@N05/3272821791",
         "alt": "Estantería llena de libros en una librería.",
-        "titulo": "You know it's a good bookstore when...",
         "autor": "Ben+Sam",
-        "fuente": "https://www.flickr.com/photos/11080385@N05/3272821791",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Hace falta tiempo para ver qué obras literarias perduran</mark>. Los movimientos se reconocen mirando hacia atrás. Incluso con este autor hicieron falta años para saberlo. ¿Qué autor es un ejemplo de eso?",
-      "respuesta": "<mark>Cervantes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/libros-pasaran-historia.jpg",
+      "question": "<mark>Hace falta tiempo para ver qué obras literarias perduran</mark>. Los movimientos se reconocen mirando hacia atrás. Incluso con este autor hicieron falta años para saberlo. ¿Qué autor es un ejemplo de eso?",
+      "answer": "<mark>Cervantes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/libros-pasaran-historia.jpg",
+        "title": "UF Library Shelves Book Place Books Here Sign",
+        "source": "https://www.flickr.com/photos/53313745@N00/4731909038",
         "alt": "Estanterías de una biblioteca llenas de libros.",
-        "titulo": "UF Library Shelves Book Place Books Here Sign",
         "autor": "cdsessums",
-        "fuente": "https://www.flickr.com/photos/53313745@N00/4731909038",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es explicar qué dice, y cómo lo dice, no solo resumirlo</mark>. Analiza tanto el tema como la forma. Se hace paso a paso, con un orden claro. ¿Cómo se llama esta herramienta de análisis?",
-      "respuesta": "<mark>Comentario de texto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/comentario-texto.jpg",
+      "question": "<mark>Es explicar qué dice, y cómo lo dice, no solo resumirlo</mark>. Analiza tanto el tema como la forma. Se hace paso a paso, con un orden claro. ¿Cómo se llama esta herramienta de análisis?",
+      "answer": "<mark>Comentario de texto</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/comentario-texto.jpg",
+        "title": "Notebook collection",
+        "source": "https://www.flickr.com/photos/21093323@N02/2445114424",
         "alt": "Colección de cuadernos para escribir y tomar notas.",
-        "titulo": "Notebook collection",
         "autor": "Dvortygirl",
-        "fuente": "https://www.flickr.com/photos/21093323@N02/2445114424",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "En un comentario de texto, primero se identifica esto. Después se mira cómo está organizado, en qué partes. <mark>Da una visión general, base para analizar detalles</mark>. ¿Qué se analiza primero?",
-      "respuesta": "<mark>El tema principal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/analiza-primero.jpg",
+      "question": "En un comentario de texto, primero se identifica esto. Después se mira cómo está organizado, en qué partes. <mark>Da una visión general, base para analizar detalles</mark>. ¿Qué se analiza primero?",
+      "answer": "<mark>El tema principal</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/analiza-primero.jpg",
+        "title": "shelves",
+        "source": "https://www.flickr.com/photos/35034346243@N01/66053431",
         "alt": "Estantería con libros ordenados, lista para consultar.",
-        "titulo": "shelves",
         "autor": "stu_spivack",
-        "fuente": "https://www.flickr.com/photos/35034346243@N01/66053431",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Después del tema, en un comentario de texto se mira esto. <mark>Se buscan recursos literarios, como metáforas o comparaciones</mark>. También el tipo de lenguaje que usa el autor. ¿Qué se analiza en este segundo paso?",
-      "respuesta": "<mark>La forma</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/analiza-despues-tema.jpg",
+      "question": "Después del tema, en un comentario de texto se mira esto. <mark>Se buscan recursos literarios, como metáforas o comparaciones</mark>. También el tipo de lenguaje que usa el autor. ¿Qué se analiza en este segundo paso?",
+      "answer": "<mark>La forma</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/analiza-despues-tema.jpg",
+        "title": "Poet Plaque",
+        "source": "https://www.flickr.com/photos/43052097@N02/4284178038",
         "alt": "Placa conmemorativa con un texto grabado sobre un poeta.",
-        "titulo": "Poet Plaque",
         "autor": "darktimespress",
-        "fuente": "https://www.flickr.com/photos/43052097@N02/4284178038",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una tarea solo cuenta qué pasa en un relato. <mark>La otra explica además por qué el autor lo escribió así, y qué efecto buscan sus palabras</mark>. Va más allá del contenido, hasta la forma. ¿Cuál de las dos tareas va más allá, hasta la forma?",
-      "respuesta": "<mark>Comentar el texto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura/comentar-no-resumir.jpg",
+      "question": "Una tarea solo cuenta qué pasa en un relato. <mark>La otra explica además por qué el autor lo escribió así, y qué efecto buscan sus palabras</mark>. Va más allá del contenido, hasta la forma. ¿Cuál de las dos tareas va más allá, hasta la forma?",
+      "answer": "<mark>Comentar el texto</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura/comentar-no-resumir.jpg",
+        "title": "Jubilee scroll / Sgrôl y Jiwbilî",
+        "source": "https://www.flickr.com/photos/39069511@N03/7294582196",
         "alt": "Un rollo de pergamino con un texto extenso escrito.",
-        "titulo": "Jubilee scroll / Sgrôl y Jiwbilî",
         "autor": "National Assembly For Wales / Cynulliad Cymru",
-        "fuente": "https://www.flickr.com/photos/39069511@N03/7294582196",
         "licencia": "CC BY 2.0"
       }
     }

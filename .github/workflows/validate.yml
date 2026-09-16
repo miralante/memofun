@@ -30,7 +30,7 @@
 #
 # Production smoke testing against the live URL lives in
 # .github/workflows/smoke-prod.yml (scheduled every 6h + on-demand).
-name: CI
+name: Validate
 
 on:
   push:

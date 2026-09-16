@@ -1,173 +1,173 @@
 {
-  "tema": "Política, economía y patrimonio en el siglo XIX - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Política, economía y patrimonio en el siglo XIX - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Un súbdito obedece al rey sin apenas derechos propios. <br><mark>Otra figura tiene derechos reconocidos y puede participar en las decisiones</mark>. <br>Ese cambio fue uno de los grandes logros del siglo diecinueve. <br>¿Cómo se llama esta persona con derechos reconocidos?",
-      "respuesta": "<mark>Ciudadano</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/subdito-ciudadano.jpg",
+      "question": "Un súbdito obedece al rey sin apenas derechos propios. <br><mark>Otra figura tiene derechos reconocidos y puede participar en las decisiones</mark>. <br>Ese cambio fue uno de los grandes logros del siglo diecinueve. <br>¿Cómo se llama esta persona con derechos reconocidos?",
+      "answer": "<mark>Ciudadano</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/subdito-ciudadano.jpg",
+        "title": "Rally against corporate personhood and for election reform",
+        "source": "https://www.flickr.com/photos/44550450@N04/5375823107",
         "alt": "Grupo de personas reunidas en una manifestación pacífica",
-        "titulo": "Rally against corporate personhood and for election reform",
         "autor": "Fibonacci Blue",
-        "fuente": "https://www.flickr.com/photos/44550450@N04/5375823107",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Una ley principal de un país está por encima de todas las demás. <br><mark>Es como el manual de instrucciones que dice cómo debe funcionar un Estado</mark>. <br>En el siglo diecinueve, tener una era un símbolo de progreso. <br>¿Cómo se llama esta ley principal?",
-      "respuesta": "<mark>Constitución</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/constitucion.jpg",
+      "question": "Una ley principal de un país está por encima de todas las demás. <br><mark>Es como el manual de instrucciones que dice cómo debe funcionar un Estado</mark>. <br>En el siglo diecinueve, tener una era un símbolo de progreso. <br>¿Cómo se llama esta ley principal?",
+      "answer": "<mark>Constitución</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/constitucion.jpg",
+        "title": "Courtroom Gavel - Judge - Court Hearing",
+        "source": "https://www.flickr.com/photos/141290938@N03/27256508896",
         "alt": "Mazo de un juez sobre una mesa de tribunal",
-        "titulo": "Courtroom Gavel - Judge - Court Hearing",
         "autor": "weiss_paarz_photos",
-        "fuente": "https://www.flickr.com/photos/141290938@N03/27256508896",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Toda la sociedad acepta cumplir juntos unas normas. <br><mark>Es como firmar un acuerdo entre todos para poder convivir mejor</mark>. <br>A cambio de obedecer las leyes, los ciudadanos reciben derechos y protección. <br>¿Cómo se llama esta idea de acuerdo entre toda la sociedad?",
-      "respuesta": "<mark>Contrato social</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/contrato-social.jpg",
+      "question": "Toda la sociedad acepta cumplir juntos unas normas. <br><mark>Es como firmar un acuerdo entre todos para poder convivir mejor</mark>. <br>A cambio de obedecer las leyes, los ciudadanos reciben derechos y protección. <br>¿Cómo se llama esta idea de acuerdo entre toda la sociedad?",
+      "answer": "<mark>Contrato social</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/contrato-social.jpg",
+        "title": "Handshake",
+        "source": "https://www.flickr.com/photos/25945304@N00/3575000735",
         "alt": "Dos personas dándose la mano en señal de acuerdo",
-        "titulo": "Handshake",
         "autor": "Aidan Jones",
-        "fuente": "https://www.flickr.com/photos/25945304@N00/3575000735",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una idea defiende la identidad propia de un pueblo o nación. <br>Otra idea busca unir a varios países en torno a un objetivo común, <mark>como ocurre en la Unión Europea</mark>. <br>Ambas conviven, a veces en tensión, en la política moderna. <br>¿Qué palabra describe la idea de unir varios países en torno a un objetivo común?",
-      "respuesta": "<mark>Movimiento supranacional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/nacionalismo.jpg",
+      "question": "Una idea defiende la identidad propia de un pueblo o nación. <br>Otra idea busca unir a varios países en torno a un objetivo común, <mark>como ocurre en la Unión Europea</mark>. <br>Ambas conviven, a veces en tensión, en la política moderna. <br>¿Qué palabra describe la idea de unir varios países en torno a un objetivo común?",
+      "answer": "<mark>Movimiento supranacional</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/nacionalismo.jpg",
+        "title": "National Flags by an unknown artist, showing emblems and flags of different countries",
+        "source": "https://www.flickr.com/photos/153584064@N07/43118279665",
         "alt": "Ilustración con banderas de distintos países",
-        "titulo": "National Flags by an unknown artist, showing emblems and flags of different countries",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/43118279665",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Muchas personas dejaron el campo para trabajar en fábricas de la ciudad. <br><mark>Es como trasladar el motor de la economía de la tierra a la máquina</mark>. <br>Ese cambio movió a mucha gente de un lugar a otro. <br>¿Cómo se llaman estos desplazamientos de gente dentro de un mismo país?",
-      "respuesta": "<mark>Migraciones internas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/industrializacion-trabajo.jpg",
+      "question": "Muchas personas dejaron el campo para trabajar en fábricas de la ciudad. <br><mark>Es como trasladar el motor de la economía de la tierra a la máquina</mark>. <br>Ese cambio movió a mucha gente de un lugar a otro. <br>¿Cómo se llaman estos desplazamientos de gente dentro de un mismo país?",
+      "answer": "<mark>Migraciones internas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/industrializacion-trabajo.jpg",
+        "title": "Colonial Williamsburg Va. Virginia Weaving, Spinning Dyeing",
+        "source": "https://www.flickr.com/photos/126288307@N05/18154641504",
         "alt": "Persona trabajando con telares antiguos de tejido",
-        "titulo": "Colonial Williamsburg Va. Virginia Weaving, Spinning Dyeing",
         "autor": "watts_photos",
-        "fuente": "https://www.flickr.com/photos/126288307@N05/18154641504",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un sistema garantiza servicios básicos, como sanidad o educación, a toda la población. <br><mark>Es como una red que sostiene a la gente cuando algo va mal</mark>. <br>Se fue construyendo, sobre todo, gracias a la lucha del movimiento obrero. <br>¿Cómo se llama este sistema?",
-      "respuesta": "<mark>Estado del bienestar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/estado-bienestar.jpg",
+      "question": "Un sistema garantiza servicios básicos, como sanidad o educación, a toda la población. <br><mark>Es como una red que sostiene a la gente cuando algo va mal</mark>. <br>Se fue construyendo, sobre todo, gracias a la lucha del movimiento obrero. <br>¿Cómo se llama este sistema?",
+      "answer": "<mark>Estado del bienestar</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/estado-bienestar.jpg",
+        "title": "Nurse holding patients hand",
+        "source": "https://www.flickr.com/photos/87287833@N08/8143846488",
         "alt": "Una enfermera sujeta la mano de un paciente",
-        "titulo": "Nurse holding patients hand",
         "autor": "gintheemt",
-        "fuente": "https://www.flickr.com/photos/87287833@N08/8143846488",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Un sistema económico fue creciendo desde pequeñas fábricas hasta enormes industrias y bancos. <br><mark>Es como una bola de nieve que, al rodar, se hace cada vez más grande</mark>. <br>Aumentó la riqueza, pero también la desigualdad social. <br>¿Qué sistema económico creció así hasta la Primera Guerra Mundial?",
-      "respuesta": "<mark>Capitalismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/capitalismo.jpg",
+      "question": "Un sistema económico fue creciendo desde pequeñas fábricas hasta enormes industrias y bancos. <br><mark>Es como una bola de nieve que, al rodar, se hace cada vez más grande</mark>. <br>Aumentó la riqueza, pero también la desigualdad social. <br>¿Qué sistema económico creció así hasta la Primera Guerra Mundial?",
+      "answer": "<mark>Capitalismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/capitalismo.jpg",
+        "title": "New York Stock Exchange",
+        "source": "https://www.flickr.com/photos/10414027@N02/6175878927",
         "alt": "Edificio de la Bolsa de Nueva York",
-        "titulo": "New York Stock Exchange",
         "autor": "aherrero",
-        "fuente": "https://www.flickr.com/photos/10414027@N02/6175878927",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ocupar y gobernar directamente un territorio ajeno es una cosa. <br>Dominar países de forma más amplia para sacar provecho económico es otra. <br><mark>Las potencias europeas usaron las dos para expandir su poder</mark>. <br>¿Cómo se llama ocupar y gobernar directamente un territorio ajeno?",
-      "respuesta": "<mark>Colonialismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/colonialismo-imperialismo.jpg",
+      "question": "Ocupar y gobernar directamente un territorio ajeno es una cosa. <br>Dominar países de forma más amplia para sacar provecho económico es otra. <br><mark>Las potencias europeas usaron las dos para expandir su poder</mark>. <br>¿Cómo se llama ocupar y gobernar directamente un territorio ajeno?",
+      "answer": "<mark>Colonialismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/colonialismo-imperialismo.jpg",
+        "title": "How the World is Apportioned (1920)",
+        "source": "https://www.flickr.com/photos/24431382@N03/6151396956",
         "alt": "Mapa antiguo mostrando el reparto del mundo entre países",
-        "titulo": "How the World is Apportioned (1920)",
         "autor": "Eric Fischer",
-        "fuente": "https://www.flickr.com/photos/24431382@N03/6151396956",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un bien también puede generar actividad económica, como el turismo. <br><mark>Un monumento antiguo puede atraer visitantes hoy, igual que hace siglos</mark>. <br>Por eso conservarlo bien beneficia tanto a la cultura como a la economía. <br>¿Cómo se llama este bien heredado del pasado?",
-      "respuesta": "<mark>Patrimonio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/patrimonio-recurso.jpg",
+      "question": "Un bien también puede generar actividad económica, como el turismo. <br><mark>Un monumento antiguo puede atraer visitantes hoy, igual que hace siglos</mark>. <br>Por eso conservarlo bien beneficia tanto a la cultura como a la economía. <br>¿Cómo se llama este bien heredado del pasado?",
+      "answer": "<mark>Patrimonio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/patrimonio-recurso.jpg",
+        "title": "Alcázar of Toledo",
+        "source": "https://www.flickr.com/photos/7679455@N03/14082316864",
         "alt": "El Alcázar de Toledo, un monumento histórico español",
-        "titulo": "Alcázar of Toledo",
         "autor": "kevinpoh",
-        "fuente": "https://www.flickr.com/photos/7679455@N03/14082316864",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hoy existen formas de compartir y cuidar el patrimonio histórico. <br><mark>Es como cuidar un jardín antiguo para que otros también puedan disfrutarlo</mark>. <br>Sin gestión adecuada, ese patrimonio podría deteriorarse o perderse. <br>¿A través de qué se difunde y gestiona hoy el patrimonio histórico?",
-      "respuesta": "<mark>Museos y rutas turísticas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/museo-arte.jpg",
+      "question": "Hoy existen formas de compartir y cuidar el patrimonio histórico. <br><mark>Es como cuidar un jardín antiguo para que otros también puedan disfrutarlo</mark>. <br>Sin gestión adecuada, ese patrimonio podría deteriorarse o perderse. <br>¿A través de qué se difunde y gestiona hoy el patrimonio histórico?",
+      "answer": "<mark>Museos y rutas turísticas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/museo-arte.jpg",
+        "title": "Museo de Arte Tigre",
+        "source": "https://www.flickr.com/photos/81149303@N04/8979961146",
         "alt": "Un museo, un lugar donde se gestiona y difunde el patrimonio histórico",
-        "titulo": "Museo de Arte Tigre",
         "autor": "Tigre Municipio",
-        "fuente": "https://www.flickr.com/photos/81149303@N04/8979961146",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Muchos artistas seguían mirando a Grecia y Roma como modelo de belleza</mark>. <br>Otros, en cambio, rompieron con esa tradición para buscar algo nuevo. <br>Esa tensión marcó buena parte del arte del siglo diecinueve. <br>¿Qué dos movimientos artísticos nacieron de esa tensión?",
-      "respuesta": "<mark>Romanticismo y Realismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/artes-clasicas-xix.jpg",
+      "question": "<mark>Muchos artistas seguían mirando a Grecia y Roma como modelo de belleza</mark>. <br>Otros, en cambio, rompieron con esa tradición para buscar algo nuevo. <br>Esa tensión marcó buena parte del arte del siglo diecinueve. <br>¿Qué dos movimientos artísticos nacieron de esa tensión?",
+      "answer": "<mark>Romanticismo y Realismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/artes-clasicas-xix.jpg",
+        "title": "Henri Matisse - Vase of Sunflowers [c.1898-99]",
+        "source": "https://www.flickr.com/photos/45482849@N03/4807647551",
         "alt": "Cuadro pintado con flores en un jarrón, estilo moderno",
-        "titulo": "Henri Matisse - Vase of Sunflowers [c.1898-99]",
         "autor": "Gandalf's Gallery",
-        "fuente": "https://www.flickr.com/photos/45482849@N03/4807647551",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Personas con ideas, culturas y creencias distintas conviven en una sociedad. <br><mark>Es como un jardín con flores de muchos colores, no todas iguales</mark>. <br>Las sociedades más democráticas suelen defenderla como un valor importante. <br>¿Cómo se llama esta convivencia de ideas y culturas distintas?",
-      "respuesta": "<mark>Pluralidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/pluralidad.jpg",
+      "question": "Personas con ideas, culturas y creencias distintas conviven en una sociedad. <br><mark>Es como un jardín con flores de muchos colores, no todas iguales</mark>. <br>Las sociedades más democráticas suelen defenderla como un valor importante. <br>¿Cómo se llama esta convivencia de ideas y culturas distintas?",
+      "answer": "<mark>Pluralidad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/pluralidad.jpg",
+        "title": "Unity in Diversity",
+        "source": "https://www.flickr.com/photos/61728987@N00/22800371",
         "alt": "Grupo variado de personas representando la diversidad",
-        "titulo": "Unity in Diversity",
         "autor": "Untitled blue",
-        "fuente": "https://www.flickr.com/photos/61728987@N00/22800371",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Una responsabilidad depende de las decisiones de cada persona. <br><mark>Otra es lo que toda una sociedad decide cuidar junta, como el medio ambiente</mark>. <br>Ambas se complementan en la vida en comunidad. <br>¿Cómo se llama la responsabilidad que asume toda una sociedad junta?",
-      "respuesta": "<mark>Responsabilidad colectiva</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/responsabilidad-colectiva.jpg",
+      "question": "Una responsabilidad depende de las decisiones de cada persona. <br><mark>Otra es lo que toda una sociedad decide cuidar junta, como el medio ambiente</mark>. <br>Ambas se complementan en la vida en comunidad. <br>¿Cómo se llama la responsabilidad que asume toda una sociedad junta?",
+      "answer": "<mark>Responsabilidad colectiva</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/responsabilidad-colectiva.jpg",
+        "title": "20111031-FNS-LSC-0143",
+        "source": "https://www.flickr.com/photos/41284017@N08/6758757633",
         "alt": "Grupo de personas colaborando juntas en una tarea",
-        "titulo": "20111031-FNS-LSC-0143",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/6758757633",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un gran cambio económico empezó entonces a consumir recursos a gran escala. <br><mark>Es como abrir un grifo que, siglo y medio después, seguimos sin cerrar del todo</mark>. <br>Muchos problemas ambientales actuales tienen raíces en esa época. <br>¿Qué empezó a consumir recursos a gran escala en el siglo XIX?",
-      "respuesta": "<mark>La industrialización</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_6/medioambiente-economia.jpg",
+      "question": "Un gran cambio económico empezó entonces a consumir recursos a gran escala. <br><mark>Es como abrir un grifo que, siglo y medio después, seguimos sin cerrar del todo</mark>. <br>Muchos problemas ambientales actuales tienen raíces en esa época. <br>¿Qué empezó a consumir recursos a gran escala en el siglo XIX?",
+      "answer": "<mark>La industrialización</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_6/medioambiente-economia.jpg",
+        "title": "Fábrica química Solvay",
+        "source": "https://www.flickr.com/photos/46191841@N00/3128460257",
         "alt": "Fábrica química con chimeneas",
-        "titulo": "Fábrica química Solvay",
         "autor": "Jorge Franganillo",
-        "fuente": "https://www.flickr.com/photos/46191841@N00/3128460257",
         "licencia": "CC BY 2.0"
       }
     }

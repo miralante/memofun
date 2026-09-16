@@ -1,173 +1,173 @@
 {
-  "tema": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Aplicaciones Básicas de Ofimática - FP Básica Servicios Administrativos (2º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Ayuda a ver de un vistazo cómo se comparan unos datos con otros. <mark>Es como convertir una lista de números en un dibujo fácil de entender</mark>. Muestra tendencias difíciles de ver en una tabla. ¿Qué conviene crear en una hoja de cálculo para esto?",
-      "respuesta": "<mark>Un gráfico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/excel-hoja-calculo-icono.jpg",
+      "question": "Ayuda a ver de un vistazo cómo se comparan unos datos con otros. <mark>Es como convertir una lista de números en un dibujo fácil de entender</mark>. Muestra tendencias difíciles de ver en una tabla. ¿Qué conviene crear en una hoja de cálculo para esto?",
+      "answer": "<mark>Un gráfico</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/excel-hoja-calculo-icono.jpg",
+        "title": "MS Excel 2010 ~ What-If Analysis Icon",
+        "source": "https://www.flickr.com/photos/51607907@N03/6052604954",
         "alt": "La pantalla de un programa de hoja de cálculo con datos",
-        "titulo": "MS Excel 2010 ~ What-If Analysis Icon",
         "autor": "barbourians",
-        "fuente": "https://www.flickr.com/photos/51607907@N03/6052604954",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es muy habitual para comparar cantidades distintas. <mark>Es como ver de un vistazo cuál destaca más entre varios elementos de distinta altura</mark>. Ayuda a comparar datos rápidamente. ¿Cómo se llama este tipo de gráfico?",
-      "respuesta": "<mark>Gráfico de barras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/grafico-comparacion-matriz.jpg",
+      "question": "Es muy habitual para comparar cantidades distintas. <mark>Es como ver de un vistazo cuál destaca más entre varios elementos de distinta altura</mark>. Ayuda a comparar datos rápidamente. ¿Cómo se llama este tipo de gráfico?",
+      "answer": "<mark>Gráfico de barras</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/grafico-comparacion-matriz.jpg",
+        "title": "Visualization Matrix",
+        "source": "https://www.flickr.com/photos/28541331@N00/5674438518",
         "alt": "Un gráfico de barras comparando distintas cantidades",
-        "titulo": "Visualization Matrix",
         "autor": "Lauren Manning",
-        "fuente": "https://www.flickr.com/photos/28541331@N00/5674438518",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sirve para crear diapositivas que ayudan a explicar algo de forma visual. <mark>Es como un apoyo visual que acompaña lo que estás explicando en voz alta</mark>. Se usa mucho en reuniones de trabajo. ¿Cómo se llama este programa?",
-      "respuesta": "<mark>Programa de presentaciones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/presentacion-diapositivas.jpg",
+      "question": "Sirve para crear diapositivas que ayudan a explicar algo de forma visual. <mark>Es como un apoyo visual que acompaña lo que estás explicando en voz alta</mark>. Se usa mucho en reuniones de trabajo. ¿Cómo se llama este programa?",
+      "answer": "<mark>Programa de presentaciones</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/presentacion-diapositivas.jpg",
+        "title": "Presenting slideshows with iPad",
+        "source": "https://www.flickr.com/photos/30349080@N05/6674265005",
         "alt": "Una persona mostrando diapositivas de una presentación",
-        "titulo": "Presenting slideshows with iPad",
         "autor": "Detlef La Grand",
-        "fuente": "https://www.flickr.com/photos/30349080@N05/6674265005",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es cada una de las páginas que forman una presentación. <mark>Es como una página de un álbum que se muestra una a una</mark>. Varias juntas forman la presentación completa. ¿Cómo se llama cada una de estas páginas?",
-      "respuesta": "<mark>Diapositiva</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/presentacion-pantalla-smartphone.jpg",
+      "question": "Es cada una de las páginas que forman una presentación. <mark>Es como una página de un álbum que se muestra una a una</mark>. Varias juntas forman la presentación completa. ¿Cómo se llama cada una de estas páginas?",
+      "answer": "<mark>Diapositiva</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/presentacion-pantalla-smartphone.jpg",
+        "title": "Sessió Smartphone - Forotec 2011",
+        "source": "https://www.flickr.com/photos/50558306@N06/6504564603",
         "alt": "Una diapositiva proyectada en una pantalla durante una charla",
-        "titulo": "Sessió Smartphone - Forotec 2011",
         "autor": "Fundació Bit",
-        "fuente": "https://www.flickr.com/photos/50558306@N06/6504564603",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Llenar una diapositiva de texto hace que el público deje de escuchar y solo lea. <mark>Es como intentar leer un cartel con letra diminuta y lleno de palabras</mark>. Menos texto, bien elegido, comunica más. ¿Qué conviene evitar en una diapositiva?",
-      "respuesta": "<mark>Demasiado texto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/cartel-texto-denso.jpg",
+      "question": "Llenar una diapositiva de texto hace que el público deje de escuchar y solo lea. <mark>Es como intentar leer un cartel con letra diminuta y lleno de palabras</mark>. Menos texto, bien elegido, comunica más. ¿Qué conviene evitar en una diapositiva?",
+      "answer": "<mark>Demasiado texto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/cartel-texto-denso.jpg",
+        "title": "Fellow citizens of Massachusetts!",
+        "source": "https://www.flickr.com/photos/24029425@N06/7645376398",
         "alt": "Un cartel antiguo lleno de texto denso, difícil de leer de un vistazo",
-        "titulo": "Fellow citizens of Massachusetts!",
         "autor": "Boston Public Library",
-        "fuente": "https://www.flickr.com/photos/24029425@N06/7645376398",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Usa frases cortas, imágenes útiles y un diseño ordenado. <mark>Es como un cartel bien diseñado, fácil de leer de un vistazo</mark>. Cada diapositiva transmite una sola idea. ¿Qué cualidad tiene una buena presentación?",
-      "respuesta": "<mark>Ser clara</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/presentacion-publica-charla.jpg",
+      "question": "Usa frases cortas, imágenes útiles y un diseño ordenado. <mark>Es como un cartel bien diseñado, fácil de leer de un vistazo</mark>. Cada diapositiva transmite una sola idea. ¿Qué cualidad tiene una buena presentación?",
+      "answer": "<mark>Ser clara</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/presentacion-publica-charla.jpg",
+        "title": "presentation at air and space",
+        "source": "https://www.flickr.com/photos/73645804@N00/8007713529",
         "alt": "Una persona dando una charla clara ante el público",
-        "titulo": "presentation at air and space",
         "autor": "woodleywonderworks",
-        "fuente": "https://www.flickr.com/photos/73645804@N00/8007713529",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Lleva un asunto claro, un saludo, un mensaje bien organizado y una despedida formal. <mark>Es como una carta, pero pensada para leerse rápido en una pantalla</mark>. ¿Qué tipo de correo tiene todos estos elementos?",
-      "respuesta": "<mark>Un correo profesional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/bandeja-entrada-desbordada.jpg",
+      "question": "Lleva un asunto claro, un saludo, un mensaje bien organizado y una despedida formal. <mark>Es como una carta, pero pensada para leerse rápido en una pantalla</mark>. ¿Qué tipo de correo tiene todos estos elementos?",
+      "answer": "<mark>Un correo profesional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/bandeja-entrada-desbordada.jpg",
+        "title": "The case of the overflowing gmail inbox.",
+        "source": "https://www.flickr.com/photos/8561899@N04/2602415335",
         "alt": "La bandeja de entrada de un correo electrónico llena de mensajes",
-        "titulo": "The case of the overflowing gmail inbox.",
         "autor": "Banjo Brown",
-        "fuente": "https://www.flickr.com/photos/8561899@N04/2602415335",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un error de ortografía o un dato equivocado puede dar mala imagen. <mark>Es como repasar tu ropa antes de una reunión importante</mark>. Una vez enviado, ya no se puede corregir tan fácilmente. ¿Qué conviene hacer antes de enviar un correo?",
-      "respuesta": "<mark>Revisarlo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/revisando-correo-portatil.jpg",
+      "question": "Un error de ortografía o un dato equivocado puede dar mala imagen. <mark>Es como repasar tu ropa antes de una reunión importante</mark>. Una vez enviado, ya no se puede corregir tan fácilmente. ¿Qué conviene hacer antes de enviar un correo?",
+      "answer": "<mark>Revisarlo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/revisando-correo-portatil.jpg",
+        "title": "Man checking his email on a laptop",
+        "source": "https://www.flickr.com/photos/147875007@N03/45739294712",
         "alt": "Un hombre revisando su correo electrónico en un portátil",
-        "titulo": "Man checking his email on a laptop",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/45739294712",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la línea que resume de qué trata el mensaje, antes de abrirlo. <mark>Es como el título de una carta, que anticipa lo que vas a leer</mark>. Un texto confuso puede hacer que se ignore el mensaje. ¿Cómo se llama esta línea?",
-      "respuesta": "<mark>Asunto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/bandeja-entrada-movil.jpg",
+      "question": "Es la línea que resume de qué trata el mensaje, antes de abrirlo. <mark>Es como el título de una carta, que anticipa lo que vas a leer</mark>. Un texto confuso puede hacer que se ignore el mensaje. ¿Cómo se llama esta línea?",
+      "answer": "<mark>Asunto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/bandeja-entrada-movil.jpg",
+        "title": "Yahoo! Mail Mobile Beta: Inbox Scroll",
+        "source": "https://www.flickr.com/photos/36521980095@N01/182648260",
         "alt": "La bandeja de entrada de correo en la pantalla de un móvil",
-        "titulo": "Yahoo! Mail Mobile Beta: Inbox Scroll",
         "autor": "danxoneil",
-        "fuente": "https://www.flickr.com/photos/36521980095@N01/182648260",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ayudan a organizar los mensajes recibidos según su tema o importancia. <mark>Es como ordenar cartas en distintos cajones, según de qué tratan</mark>. Facilita encontrar un correo concreto más adelante. ¿Qué ayuda a organizar así el correo?",
-      "respuesta": "<mark>Las carpetas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/carpetas-archivos.jpg",
+      "question": "Ayudan a organizar los mensajes recibidos según su tema o importancia. <mark>Es como ordenar cartas en distintos cajones, según de qué tratan</mark>. Facilita encontrar un correo concreto más adelante. ¿Qué ayuda a organizar así el correo?",
+      "answer": "<mark>Las carpetas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/carpetas-archivos.jpg",
+        "title": "files",
+        "source": "https://www.flickr.com/photos/23797059@N02/3803364366",
         "alt": "Carpetas de archivos organizadas",
-        "titulo": "files",
         "autor": "EvelynGiggles",
-        "fuente": "https://www.flickr.com/photos/23797059@N02/3803364366",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son reglas automáticas que ordenan los correos según ciertas condiciones. <mark>Es como un cartero automático que ya sabe en qué buzón dejar cada carta</mark>. Ahorran mucho tiempo de organización. ¿Cómo se llaman estas reglas?",
-      "respuesta": "<mark>Filtros</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/filtro-cafe-goteo.jpg",
+      "question": "Son reglas automáticas que ordenan los correos según ciertas condiciones. <mark>Es como un cartero automático que ya sabe en qué buzón dejar cada carta</mark>. Ahorran mucho tiempo de organización. ¿Cómo se llaman estas reglas?",
+      "answer": "<mark>Filtros</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/filtro-cafe-goteo.jpg",
+        "title": "Chemex - IMG_1279",
+        "source": "https://www.flickr.com/photos/15216811@N06/14968888908",
         "alt": "Un filtro de café dejando pasar solo el líquido, como un filtro de correo",
-        "titulo": "Chemex - IMG_1279",
         "autor": "Nicola since 1972",
-        "fuente": "https://www.flickr.com/photos/15216811@N06/14968888908",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Facilita encontrar información importante cuando se necesita. <mark>Es como tener un archivador ordenado, en vez de papeles amontonados</mark>. Cuando está desordenado, se pierde mucho tiempo. ¿Qué conviene mantener así en el trabajo?",
-      "respuesta": "<mark>El correo electrónico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/oficina-limpia-ordenada.jpg",
+      "question": "Facilita encontrar información importante cuando se necesita. <mark>Es como tener un archivador ordenado, en vez de papeles amontonados</mark>. Cuando está desordenado, se pierde mucho tiempo. ¿Qué conviene mantener así en el trabajo?",
+      "answer": "<mark>El correo electrónico</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/oficina-limpia-ordenada.jpg",
+        "title": "My Office (Clean)",
+        "source": "https://www.flickr.com/photos/41894183508@N01/6268007740",
         "alt": "Una oficina limpia y ordenada",
-        "titulo": "My Office (Clean)",
         "autor": "mrbill",
-        "fuente": "https://www.flickr.com/photos/41894183508@N01/6268007740",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>El procesador de textos, la hoja de cálculo y las presentaciones son ejemplos de esto</mark>. Cada una sirve para una tarea distinta, aunque se complementan entre sí. Cubren casi todas las necesidades de un puesto administrativo. ¿Cómo se llaman estas herramientas en conjunto?",
-      "respuesta": "<mark>Herramientas ofimáticas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/papeleo-escritorio-oficina.jpg",
+      "question": "<mark>El procesador de textos, la hoja de cálculo y las presentaciones son ejemplos de esto</mark>. Cada una sirve para una tarea distinta, aunque se complementan entre sí. Cubren casi todas las necesidades de un puesto administrativo. ¿Cómo se llaman estas herramientas en conjunto?",
+      "answer": "<mark>Herramientas ofimáticas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/papeleo-escritorio-oficina.jpg",
+        "title": "paperwork mixup",
+        "source": "https://www.flickr.com/photos/29233640@N07/9590785264",
         "alt": "Papeleo y documentos variados sobre un escritorio de oficina",
-        "titulo": "paperwork mixup",
         "autor": "Robert Couse-Baker",
-        "fuente": "https://www.flickr.com/photos/29233640@N07/9590785264",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se usan a diario en casi cualquier trabajo de oficina. <mark>Es como saber usar bien las herramientas esenciales de cualquier oficio</mark>. Dominarlas ahorra tiempo y evita errores. ¿Qué conviene dominar bien en un puesto de oficina?",
-      "respuesta": "<mark>La ofimática básica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/trabajo-remoto-productivo.jpg",
+      "question": "Se usan a diario en casi cualquier trabajo de oficina. <mark>Es como saber usar bien las herramientas esenciales de cualquier oficio</mark>. Dominarlas ahorra tiempo y evita errores. ¿Qué conviene dominar bien en un puesto de oficina?",
+      "answer": "<mark>La ofimática básica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_aplicaciones-basicas-ofimatica_2/trabajo-remoto-productivo.jpg",
+        "title": "Productive and Relaxed Remote Work",
+        "source": "https://www.flickr.com/photos/198537127@N06/52974371855",
         "alt": "Una persona trabajando de forma productiva con varias aplicaciones",
-        "titulo": "Productive and Relaxed Remote Work",
         "autor": "userpilot1",
-        "fuente": "https://www.flickr.com/photos/198537127@N06/52974371855",
         "licencia": "CC BY 2.0"
       }
     }

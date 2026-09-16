@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 6º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 6º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una serie de libros que siguen la misma historia, <mark>como una gran historia que no cabe en un solo libro</mark>. Los mismos personajes continúan de un libro a otro. ¿Cómo se llama esta serie de libros?",
-      "respuesta": "<mark>Saga</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_2/saga-libros.jpg",
+      "question": "Es una serie de libros que siguen la misma historia, <mark>como una gran historia que no cabe en un solo libro</mark>. Los mismos personajes continúan de un libro a otro. ¿Cómo se llama esta serie de libros?",
+      "answer": "<mark>Saga</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_2/saga-libros.jpg",
+        "title": "Stack of Books",
+        "source": "https://www.flickr.com/photos/12508217@N08/8395557674",
         "alt": "Una torre alta de libros apilados, uno encima de otro, con un libro abierto en la cima",
-        "titulo": "Stack of Books",
         "autor": "Sam Howzit",
-        "fuente": "https://www.flickr.com/photos/12508217@N08/8395557674",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una saga formada exactamente por tres libros, <mark>como un libro grueso partido en trozos iguales</mark>. Los tres cuentan una sola historia. ¿Cómo se llama esta saga de tres libros?",
-      "respuesta": "<mark>Trilogía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_2/trilogia-tres-libros.jpg",
+      "question": "Es una saga formada exactamente por tres libros, <mark>como un libro grueso partido en trozos iguales</mark>. Los tres cuentan una sola historia. ¿Cómo se llama esta saga de tres libros?",
+      "answer": "<mark>Trilogía</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_2/trilogia-tres-libros.jpg",
+        "title": "Three books",
+        "source": "https://www.flickr.com/photos/95142644@N00/3929037760",
         "alt": "Tres libros apilados, cada uno con su propio título visible en el lomo",
-        "titulo": "Three books",
         "autor": "Ruth and Dave",
-        "fuente": "https://www.flickr.com/photos/95142644@N00/3929037760",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El autor escribe las palabras de la historia. Otra persona, <mark>como un pintor que da vida a la historia con sus dibujos</mark>, hace las imágenes. ¿Cómo se llama quien hace los dibujos del libro?",
-      "respuesta": "<mark>El ilustrador</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_2/ilustrador-pinceles.jpg",
+      "question": "El autor escribe las palabras de la historia. Otra persona, <mark>como un pintor que da vida a la historia con sus dibujos</mark>, hace las imágenes. ¿Cómo se llama quien hace los dibujos del libro?",
+      "answer": "<mark>El ilustrador</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_2/ilustrador-pinceles.jpg",
+        "title": "Art supplies",
+        "source": "https://www.flickr.com/photos/64401168@N00/7624350518",
         "alt": "Pinceles de pintar y una espátula, llenos de pintura de colores, sobre una mesa manchada de pintura",
-        "titulo": "Art supplies",
         "autor": "Average Jane",
-        "fuente": "https://www.flickr.com/photos/64401168@N00/7624350518",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un resumen corto de qué trata un libro. <mark>Suele estar en la contraportada, para ayudarte a elegir</mark>. No cuenta el final, para no destripar la sorpresa. ¿Cómo se llama este resumen?",
-      "respuesta": "<mark>Sinopsis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_2/sinopsis-contraportada.jpg",
+      "question": "Es un resumen corto de qué trata un libro. <mark>Suele estar en la contraportada, para ayudarte a elegir</mark>. No cuenta el final, para no destripar la sorpresa. ¿Cómo se llama este resumen?",
+      "answer": "<mark>Sinopsis</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_2/sinopsis-contraportada.jpg",
+        "title": "Fritz Leiber 1964 The Wanderer Rear",
+        "source": "https://www.flickr.com/photos/41340252@N08/5050043702",
         "alt": "Contraportada de un libro antiguo, con un texto que resume la historia",
-        "titulo": "Fritz Leiber 1964 The Wanderer Rear",
         "autor": "CthulhuWho1 (Will Hart)",
-        "fuente": "https://www.flickr.com/photos/41340252@N08/5050043702",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un cuento es corto y se lee de una sentada. Esta otra historia es larga, <mark>como un viaje de muchas etapas</mark>, y se divide en capítulos. ¿Cómo se llama esta historia larga?",
-      "respuesta": "<mark>Novela</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_2/novela-libro-grueso.jpg",
+      "question": "Un cuento es corto y se lee de una sentada. Esta otra historia es larga, <mark>como un viaje de muchas etapas</mark>, y se divide en capítulos. ¿Cómo se llama esta historia larga?",
+      "answer": "<mark>Novela</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_2/novela-libro-grueso.jpg",
+        "title": "One Big Thick Book",
+        "source": "https://www.flickr.com/photos/155403590@N07/51942507753",
         "alt": "Un libro muy grueso, de pie, con un marcapáginas colgando entre sus páginas",
-        "titulo": "One Big Thick Book",
         "autor": "dejankrsmanovic",
-        "fuente": "https://www.flickr.com/photos/155403590@N07/51942507753",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la empresa que revisa, imprime y publica los libros, <mark>como una fábrica que convierte un texto en libro</mark>. Decide qué libros llegan a las librerías. ¿Cómo se llama esta empresa?",
-      "respuesta": "<mark>Editorial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_2/editorial-imprenta.jpg",
+      "question": "Es la empresa que revisa, imprime y publica los libros, <mark>como una fábrica que convierte un texto en libro</mark>. Decide qué libros llegan a las librerías. ¿Cómo se llama esta empresa?",
+      "answer": "<mark>Editorial</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_2/editorial-imprenta.jpg",
+        "title": "Printing Press",
+        "source": "https://www.flickr.com/photos/12148520@N00/360505392",
         "alt": "Una máquina de imprenta imprimiendo una página con letras y un dibujo",
-        "titulo": "Printing Press",
         "autor": "Gastev",
-        "fuente": "https://www.flickr.com/photos/12148520@N00/360505392",
         "licencia": "CC BY 2.0"
       }
     }

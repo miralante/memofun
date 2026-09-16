@@ -1,87 +1,87 @@
 {
-  "tema": "La palabra, la gramática y la ortografía - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La palabra, la gramática y la ortografía - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "En \"gatito\", una parte de la palabra lleva el significado principal. <br><mark>Es como el corazón de la palabra, la parte que no cambia.</mark> <br>Todas las palabras de una misma familia la comparten. <br>¿Cómo se llama esta parte de la palabra?",
-      "respuesta": "<mark>Lexema</mark>"
+      "question": "En \"gatito\", una parte de la palabra lleva el significado principal. <br><mark>Es como el corazón de la palabra, la parte que no cambia.</mark> <br>Todas las palabras de una misma familia la comparten. <br>¿Cómo se llama esta parte de la palabra?",
+      "answer": "<mark>Lexema</mark>"
     },
     {
-      "pregunta": "En \"gatito\", una parte añade información extra, como el tamaño. <br><mark>Es como un accesorio que se añade a una palabra para cambiar su sentido.</mark> <br>Puede marcar género, número o tamaño. <br>¿Cómo se llama esta parte de la palabra?",
-      "respuesta": "<mark>Morfema</mark>"
+      "question": "En \"gatito\", una parte añade información extra, como el tamaño. <br><mark>Es como un accesorio que se añade a una palabra para cambiar su sentido.</mark> <br>Puede marcar género, número o tamaño. <br>¿Cómo se llama esta parte de la palabra?",
+      "answer": "<mark>Morfema</mark>"
     },
     {
-      "pregunta": "\"Perro\", \"mesa\" y \"río\" nombran a cualquier cosa de su mismo tipo. <br><mark>Es como una etiqueta general, no un nombre propio.</mark> <br>No se escribe con mayúscula, salvo al inicio de una frase. <br>¿Cómo se llama este tipo de sustantivo?",
-      "respuesta": "<mark>Sustantivo común</mark>"
+      "question": "\"Perro\", \"mesa\" y \"río\" nombran a cualquier cosa de su mismo tipo. <br><mark>Es como una etiqueta general, no un nombre propio.</mark> <br>No se escribe con mayúscula, salvo al inicio de una frase. <br>¿Cómo se llama este tipo de sustantivo?",
+      "answer": "<mark>Sustantivo común</mark>"
     },
     {
-      "pregunta": "\"Madrid\", \"Ana\" y \"Everest\" señalan algo único, sin compartirlo con otros. <br><mark>Es como el nombre de pila de una persona.</mark> <br>Siempre se escribe con mayúscula inicial. <br>¿Cómo se llama este tipo de sustantivo?",
-      "respuesta": "<mark>Sustantivo propio</mark>"
+      "question": "\"Madrid\", \"Ana\" y \"Everest\" señalan algo único, sin compartirlo con otros. <br><mark>Es como el nombre de pila de una persona.</mark> <br>Siempre se escribe con mayúscula inicial. <br>¿Cómo se llama este tipo de sustantivo?",
+      "answer": "<mark>Sustantivo propio</mark>"
     },
     {
-      "pregunta": "\"Árbol\", \"oveja\" y \"libro\" nombran a un solo ser cada uno. <br><mark>Es como llamar a cada oveja de un rebaño por separado.</mark> <br>Aunque haya varios, cada palabra nombra una sola unidad. <br>¿Cómo se llama este tipo de sustantivo?",
-      "respuesta": "<mark>Sustantivo individual</mark>"
+      "question": "\"Árbol\", \"oveja\" y \"libro\" nombran a un solo ser cada uno. <br><mark>Es como llamar a cada oveja de un rebaño por separado.</mark> <br>Aunque haya varios, cada palabra nombra una sola unidad. <br>¿Cómo se llama este tipo de sustantivo?",
+      "answer": "<mark>Sustantivo individual</mark>"
     },
     {
-      "pregunta": "\"Bosque\", \"rebaño\" y \"equipo\" ya nombran a un grupo entero, en singular. <br><mark>Es como decir \"rebaño\" en vez de contar oveja por oveja.</mark> <br>Con una sola palabra se nombra a muchos seres juntos. <br>¿Cómo se llama este tipo de sustantivo?",
-      "respuesta": "<mark>Sustantivo colectivo</mark>"
+      "question": "\"Bosque\", \"rebaño\" y \"equipo\" ya nombran a un grupo entero, en singular. <br><mark>Es como decir \"rebaño\" en vez de contar oveja por oveja.</mark> <br>Con una sola palabra se nombra a muchos seres juntos. <br>¿Cómo se llama este tipo de sustantivo?",
+      "answer": "<mark>Sustantivo colectivo</mark>"
     },
     {
-      "pregunta": "En \"casa grande\", una palabra dice cómo es la casa, no qué es. <br><mark>Es como el condimento de una frase, que añade sabor.</mark> <br>Describe al sustantivo que acompaña. <br>¿Cómo se llama esta palabra?",
-      "respuesta": "<mark>Adjetivo calificativo</mark>"
+      "question": "En \"casa grande\", una palabra dice cómo es la casa, no qué es. <br><mark>Es como el condimento de una frase, que añade sabor.</mark> <br>Describe al sustantivo que acompaña. <br>¿Cómo se llama esta palabra?",
+      "answer": "<mark>Adjetivo calificativo</mark>"
     },
     {
-      "pregunta": "Se dice \"niñas altas\", nunca \"niñas alto\". <br><mark>Es como dos piezas de un puzle que encajan exactamente.</mark> <br>El sustantivo y el adjetivo coinciden en género y número. <br>¿Cómo se llama esta coincidencia entre ambos?",
-      "respuesta": "<mark>Concordancia</mark>"
+      "question": "Se dice \"niñas altas\", nunca \"niñas alto\". <br><mark>Es como dos piezas de un puzle que encajan exactamente.</mark> <br>El sustantivo y el adjetivo coinciden en género y número. <br>¿Cómo se llama esta coincidencia entre ambos?",
+      "answer": "<mark>Concordancia</mark>"
     },
     {
-      "pregunta": "\"El\", \"la\", \"los\", \"las\", \"un\" y \"una\" van siempre delante del sustantivo. <br><mark>Son como un cartel pequeño que anuncia su género y número.</mark> <br>Acompañan al sustantivo que sigue. <br>¿Cómo se llama este tipo de palabra?",
-      "respuesta": "<mark>Artículo</mark>"
+      "question": "\"El\", \"la\", \"los\", \"las\", \"un\" y \"una\" van siempre delante del sustantivo. <br><mark>Son como un cartel pequeño que anuncia su género y número.</mark> <br>Acompañan al sustantivo que sigue. <br>¿Cómo se llama este tipo de palabra?",
+      "answer": "<mark>Artículo</mark>"
     },
     {
-      "pregunta": "\"Este\" indica cercanía y \"aquel\" indica lejanía. <br><mark>Es como señalar con el dedo si algo está cerca o lejos.</mark> <br>\"Ese\" se usa para una distancia intermedia. <br>¿Cómo se llama este tipo de palabra?",
-      "respuesta": "<mark>Demostrativo</mark>"
+      "question": "\"Este\" indica cercanía y \"aquel\" indica lejanía. <br><mark>Es como señalar con el dedo si algo está cerca o lejos.</mark> <br>\"Ese\" se usa para una distancia intermedia. <br>¿Cómo se llama este tipo de palabra?",
+      "answer": "<mark>Demostrativo</mark>"
     },
     {
-      "pregunta": "\"Mi\", \"tu\" y \"su\" acompañan al sustantivo para mostrar de quién es. <br><mark>Es como una etiqueta con un nombre, que dice de quién es cada cosa.</mark> <br>Van siempre junto al sustantivo. <br>¿Cómo se llama este tipo de palabra?",
-      "respuesta": "<mark>Posesivo</mark>"
+      "question": "\"Mi\", \"tu\" y \"su\" acompañan al sustantivo para mostrar de quién es. <br><mark>Es como una etiqueta con un nombre, que dice de quién es cada cosa.</mark> <br>Van siempre junto al sustantivo. <br>¿Cómo se llama este tipo de palabra?",
+      "answer": "<mark>Posesivo</mark>"
     },
     {
-      "pregunta": "\"Yo canto\" es primera persona del singular. <br>\"Ellos cantan\" es tercera persona del plural. <br><mark>Es como firmar una acción con el nombre de quien la hace.</mark> <br>¿Qué dos cosas indican quién hace la acción y si son varios?",
-      "respuesta": "<mark>Persona y número</mark>"
+      "question": "\"Yo canto\" es primera persona del singular. <br>\"Ellos cantan\" es tercera persona del plural. <br><mark>Es como firmar una acción con el nombre de quien la hace.</mark> <br>¿Qué dos cosas indican quién hace la acción y si son varios?",
+      "answer": "<mark>Persona y número</mark>"
     },
     {
-      "pregunta": "\"Cantaba\" es pasado, \"canto\" es presente y \"cantaré\" es futuro. <br><mark>Es como un reloj que marca si la acción ya pasó, pasa o va a pasar.</mark> <br>Cada uno sitúa la acción en un momento distinto. <br>¿Cómo se llama esto que marca cuándo ocurre la acción?",
-      "respuesta": "<mark>Tiempo verbal</mark>"
+      "question": "\"Cantaba\" es pasado, \"canto\" es presente y \"cantaré\" es futuro. <br><mark>Es como un reloj que marca si la acción ya pasó, pasa o va a pasar.</mark> <br>Cada uno sitúa la acción en un momento distinto. <br>¿Cómo se llama esto que marca cuándo ocurre la acción?",
+      "answer": "<mark>Tiempo verbal</mark>"
     },
     {
-      "pregunta": "El modo indicativo cuenta hechos reales, como \"camino\". <br>El modo imperativo da órdenes, como \"camina\". <br><mark>Es como el tono de voz de la frase: seguro, dudoso o como una orden.</mark> <br>¿Cómo se llama esto que indica la actitud de quien habla?",
-      "respuesta": "<mark>Modo verbal</mark>"
+      "question": "El modo indicativo cuenta hechos reales, como \"camino\". <br>El modo imperativo da órdenes, como \"camina\". <br><mark>Es como el tono de voz de la frase: seguro, dudoso o como una orden.</mark> <br>¿Cómo se llama esto que indica la actitud de quien habla?",
+      "answer": "<mark>Modo verbal</mark>"
     },
     {
-      "pregunta": "La palabra \"ca-sa\" tiene dos golpes de voz al pronunciarse. <br><mark>Es como cada salto que das al pasar por piedras en un río.</mark> <br>Contarlos ayuda a saber cómo se acentúa una palabra. <br>¿Cómo se llama cada uno de estos golpes de voz?",
-      "respuesta": "<mark>Sílaba</mark>"
+      "question": "La palabra \"ca-sa\" tiene dos golpes de voz al pronunciarse. <br><mark>Es como cada salto que das al pasar por piedras en un río.</mark> <br>Contarlos ayuda a saber cómo se acentúa una palabra. <br>¿Cómo se llama cada uno de estos golpes de voz?",
+      "answer": "<mark>Sílaba</mark>"
     },
     {
-      "pregunta": "En \"aire\", dos vocales se unen en la misma sílaba, sin separarse. <br><mark>Es como dos amigos que caminan tan juntos que parecen uno solo.</mark> <br>En \"ba-úl\", en cambio, esas vocales se separan en sílabas distintas. <br>¿Cómo se llama la unión de dos vocales en una misma sílaba?",
-      "respuesta": "<mark>Diptongo</mark>"
+      "question": "En \"aire\", dos vocales se unen en la misma sílaba, sin separarse. <br><mark>Es como dos amigos que caminan tan juntos que parecen uno solo.</mark> <br>En \"ba-úl\", en cambio, esas vocales se separan en sílabas distintas. <br>¿Cómo se llama la unión de dos vocales en una misma sílaba?",
+      "answer": "<mark>Diptongo</mark>"
     },
     {
-      "pregunta": "\"Camión\" y \"reloj\" suenan con más fuerza en su última sílaba. <br><mark>Es como poner el foco de luz al final de la palabra.</mark> <br>Se acentúan cuando terminan en vocal, \"n\" o \"s\". <br>¿Cómo se llama este tipo de palabra?",
-      "respuesta": "<mark>Palabra aguda</mark>"
+      "question": "\"Camión\" y \"reloj\" suenan con más fuerza en su última sílaba. <br><mark>Es como poner el foco de luz al final de la palabra.</mark> <br>Se acentúan cuando terminan en vocal, \"n\" o \"s\". <br>¿Cómo se llama este tipo de palabra?",
+      "answer": "<mark>Palabra aguda</mark>"
     },
     {
-      "pregunta": "\"Mesa\" carga la fuerza en la penúltima sílaba, <mark>como un foco en el centro</mark>. <br>\"Teléfono\" la carga tres sílabas antes del final. <br>Cada tipo suena fuerte en un lugar distinto. <br>¿Cómo se llaman estos dos tipos de palabras?",
-      "respuesta": "<mark>Llanas y esdrújulas</mark>"
+      "question": "\"Mesa\" carga la fuerza en la penúltima sílaba, <mark>como un foco en el centro</mark>. <br>\"Teléfono\" la carga tres sílabas antes del final. <br>Cada tipo suena fuerte en un lugar distinto. <br>¿Cómo se llaman estos dos tipos de palabras?",
+      "answer": "<mark>Llanas y esdrújulas</mark>"
     },
     {
-      "pregunta": "<mark>Un amigo experto responde cuando dudas del significado de una palabra.</mark> <br>También indica su ortografía correcta y su categoría gramatical. <br>Consultarlo ayuda a escribir y a hablar mejor. <br>¿Cómo se llama este libro de consulta?",
-      "respuesta": "<mark>Diccionario</mark>"
+      "question": "<mark>Un amigo experto responde cuando dudas del significado de una palabra.</mark> <br>También indica su ortografía correcta y su categoría gramatical. <br>Consultarlo ayuda a escribir y a hablar mejor. <br>¿Cómo se llama este libro de consulta?",
+      "answer": "<mark>Diccionario</mark>"
     },
     {
-      "pregunta": "Las palabras del diccionario se ordenan de la A a la Z. <br><mark>Es como ordenar nombres en una lista, letra por letra.</mark> <br>Si la primera letra coincide, se mira la segunda. <br>¿Cómo se llama este orden?",
-      "respuesta": "<mark>Orden alfabético</mark>"
+      "question": "Las palabras del diccionario se ordenan de la A a la Z. <br><mark>Es como ordenar nombres en una lista, letra por letra.</mark> <br>Si la primera letra coincide, se mira la segunda. <br>¿Cómo se llama este orden?",
+      "answer": "<mark>Orden alfabético</mark>"
     }
   ]
 }

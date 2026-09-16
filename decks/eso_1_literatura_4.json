@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un relato breve, <mark>casi siempre con animales que actúan como personas</mark>. Termina con una enseñanza llamada moraleja. Autores como Esopo la convirtieron en un género propio. ¿Cómo se llama este relato?",
-      "respuesta": "<mark>Fábula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_4/fabula-liebre-tortuga.jpg",
+      "question": "Es un relato breve, <mark>casi siempre con animales que actúan como personas</mark>. Termina con una enseñanza llamada moraleja. Autores como Esopo la convirtieron en un género propio. ¿Cómo se llama este relato?",
+      "answer": "<mark>Fábula</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_4/fabula-liebre-tortuga.jpg",
+        "title": "14. THE HARE AND THE TORTOISE",
+        "source": "https://www.flickr.com/photos/38299630@N05/3679422761",
         "alt": "Ilustración clásica de la fábula de la liebre y la tortuga",
-        "titulo": "14. THE HARE AND THE TORTOISE",
         "autor": "laurakgibbs",
-        "fuente": "https://www.flickr.com/photos/38299630@N05/3679422761",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la enseñanza o el consejo que deja un relato al terminar. Resume en una frase la idea que quería transmitir la historia. Por ejemplo, <mark>no fiarse de las apariencias</mark>. ¿Cómo se llama esta enseñanza final?",
-      "respuesta": "<mark>Moraleja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_4/fabula-saltamontes.jpg",
+      "question": "Es la enseñanza o el consejo que deja un relato al terminar. Resume en una frase la idea que quería transmitir la historia. Por ejemplo, <mark>no fiarse de las apariencias</mark>. ¿Cómo se llama esta enseñanza final?",
+      "answer": "<mark>Moraleja</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_4/fabula-saltamontes.jpg",
+        "title": "18. THE GRASSHOPPER AND THE OWL",
+        "source": "https://www.flickr.com/photos/38299630@N05/3680236434",
         "alt": "Ilustración clásica de una fábula con animales",
-        "titulo": "18. THE GRASSHOPPER AND THE OWL",
         "autor": "laurakgibbs",
-        "fuente": "https://www.flickr.com/photos/38299630@N05/3680236434",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un relato breve que enseña una idea a través de un ejemplo cotidiano. <mark>Usa personas normales, no animales, a diferencia de la fábula.</mark> Se usa mucho en textos religiosos y morales. ¿Cómo se llama este tipo de relato?",
-      "respuesta": "<mark>Parábola</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_4/pastor-rebano.jpg",
+      "question": "Es un relato breve que enseña una idea a través de un ejemplo cotidiano. <mark>Usa personas normales, no animales, a diferencia de la fábula.</mark> Se usa mucho en textos religiosos y morales. ¿Cómo se llama este tipo de relato?",
+      "answer": "<mark>Parábola</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_4/pastor-rebano.jpg",
+        "title": "Shepherd and flock - rural",
+        "source": "https://www.flickr.com/photos/83151451@N08/15074716255",
         "alt": "Un pastor con su rebaño de ovejas",
-        "titulo": "Shepherd and flock - rural",
         "autor": "Brad Higham",
-        "fuente": "https://www.flickr.com/photos/83151451@N08/15074716255",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una colección de cuentos de origen árabe y persa. <mark>Incluye historias tan conocidas como Aladino o Simbad.</mark> Se fue formando durante siglos, con autores anónimos. ¿Cómo se llama esta obra?",
-      "respuesta": "<mark>Las mil y una noches</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_4/lampara-aladino.jpg",
+      "question": "Es una colección de cuentos de origen árabe y persa. <mark>Incluye historias tan conocidas como Aladino o Simbad.</mark> Se fue formando durante siglos, con autores anónimos. ¿Cómo se llama esta obra?",
+      "answer": "<mark>Las mil y una noches</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_4/lampara-aladino.jpg",
+        "title": "La lámpara de Aladino en Somerset House",
+        "source": "https://www.flickr.com/photos/48741202@N00/23835297284",
         "alt": "Una lámpara mágica como la de Aladino, de Las mil y una noches",
-        "titulo": "La lámpara de Aladino en Somerset House",
         "autor": "a_marga",
-        "fuente": "https://www.flickr.com/photos/48741202@N00/23835297284",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Cuenta un cuento cada noche a un rey. <mark>Deja la historia sin terminar para que el rey no la mate al amanecer.</mark> Así consigue salvar su vida noche tras noche. ¿Quién es esta narradora?",
-      "respuesta": "<mark>Sherezade</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_4/sherezade-teatro.jpg",
+      "question": "Cuenta un cuento cada noche a un rey. <mark>Deja la historia sin terminar para que el rey no la mate al amanecer.</mark> Así consigue salvar su vida noche tras noche. ¿Quién es esta narradora?",
+      "answer": "<mark>Sherezade</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_4/sherezade-teatro.jpg",
+        "title": "Martxoak 6 marzo. Sherezade y las capas de la cebolla. Vaivén producciones",
+        "source": "https://www.flickr.com/photos/43860468@N02/25798663527",
         "alt": "Representación teatral de Sherezade, la narradora de Las mil y una noches",
-        "titulo": "Martxoak 6 marzo. Sherezade y las capas de la cebolla. Vaivén producciones",
         "autor": "DONOSTIA KULTURA",
-        "fuente": "https://www.flickr.com/photos/43860468@N02/25798663527",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es una historia que contiene otras historias dentro de ella. <mark>Es como una caja que guarda cajas más pequeñas dentro.</mark> 'Las mil y una noches' es un ejemplo clásico. ¿Cómo se llama este tipo de relato?",
-      "respuesta": "<mark>Relato enmarcado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_4/matrioska-muneca-rusa.jpg",
+      "question": "Es una historia que contiene otras historias dentro de ella. <mark>Es como una caja que guarda cajas más pequeñas dentro.</mark> 'Las mil y una noches' es un ejemplo clásico. ¿Cómo se llama este tipo de relato?",
+      "answer": "<mark>Relato enmarcado</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_4/matrioska-muneca-rusa.jpg",
+        "title": "La matrioska o muñeca rusa",
+        "source": "https://www.flickr.com/photos/32179778@N00/7996922008",
         "alt": "Muñecas rusas matrioska, unas dentro de otras, como un relato enmarcado",
-        "titulo": "La matrioska o muñeca rusa",
         "autor": "M. Martin Vicente",
-        "fuente": "https://www.flickr.com/photos/32179778@N00/7996922008",
         "licencia": "CC BY-SA 2.0"
       }
     }

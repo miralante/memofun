@@ -1,67 +1,67 @@
 {
-  "tema": "Ciudades Importantes del Mundo",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Ciudades Importantes del Mundo",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Puede destacar por su economía, su cultura o su gente, sin ser la sede del gobierno. <mark>Es como un jugador estrella que no es el capitán del equipo</mark>. Esta baraja recorre varias ciudades así. ¿Cómo se llama una ciudad importante que no es capital de su país?",
-      "respuesta": "<mark>Ciudad importante</mark>"
+      "question": "Puede destacar por su economía, su cultura o su gente, sin ser la sede del gobierno. <mark>Es como un jugador estrella que no es el capitán del equipo</mark>. Esta baraja recorre varias ciudades así. ¿Cómo se llama una ciudad importante que no es capital de su país?",
+      "answer": "<mark>Ciudad importante</mark>"
     },
     {
-      "pregunta": "Es una de las ciudades más visitadas de España, aunque no es la capital. <mark>Sus edificios de Gaudí, como la Sagrada Familia, parecen sacados de un cuento</mark>. Tiene playa, montaña y puerto. ¿Qué ciudad es?",
-      "respuesta": "<mark>Barcelona</mark>"
+      "question": "Es una de las ciudades más visitadas de España, aunque no es la capital. <mark>Sus edificios de Gaudí, como la Sagrada Familia, parecen sacados de un cuento</mark>. Tiene playa, montaña y puerto. ¿Qué ciudad es?",
+      "answer": "<mark>Barcelona</mark>"
     },
     {
-      "pregunta": "Es la ciudad más grande de Turquía, aunque no es la capital. <mark>Está repartida entre dos continentes, Europa y Asia, unidos por puentes sobre el mar</mark>. Fue capital de tres imperios. ¿Qué ciudad es?",
-      "respuesta": "<mark>Estambul</mark>"
+      "question": "Es la ciudad más grande de Turquía, aunque no es la capital. <mark>Está repartida entre dos continentes, Europa y Asia, unidos por puentes sobre el mar</mark>. Fue capital de tres imperios. ¿Qué ciudad es?",
+      "answer": "<mark>Estambul</mark>"
     },
     {
-      "pregunta": "Es el centro económico de Italia, aunque no es la capital. <mark>Es tan importante para la moda como una gran cocina para un restaurante famoso</mark>. Tiene una ópera muy famosa. ¿Qué ciudad es?",
-      "respuesta": "<mark>Milán</mark>"
+      "question": "Es el centro económico de Italia, aunque no es la capital. <mark>Es tan importante para la moda como una gran cocina para un restaurante famoso</mark>. Tiene una ópera muy famosa. ¿Qué ciudad es?",
+      "answer": "<mark>Milán</mark>"
     },
     {
-      "pregunta": "Es la ciudad más conocida de Estados Unidos, aunque no es la capital. <mark>Se la llama la ciudad que nunca duerme, porque siempre hay algo abierto</mark>. Allí está la Estatua de la Libertad. ¿Qué ciudad es?",
-      "respuesta": "<mark>Nueva York</mark>"
+      "question": "Es la ciudad más conocida de Estados Unidos, aunque no es la capital. <mark>Se la llama la ciudad que nunca duerme, porque siempre hay algo abierto</mark>. Allí está la Estatua de la Libertad. ¿Qué ciudad es?",
+      "answer": "<mark>Nueva York</mark>"
     },
     {
-      "pregunta": "Es muy famosa, aunque no es la capital de su país. <mark>Su estatua del Cristo Redentor abre los brazos, como dando la bienvenida a todo el mundo</mark>. Celebra uno de los mayores carnavales del planeta. ¿Qué ciudad es?",
-      "respuesta": "<mark>Río de Janeiro</mark>"
+      "question": "Es muy famosa, aunque no es la capital de su país. <mark>Su estatua del Cristo Redentor abre los brazos, como dando la bienvenida a todo el mundo</mark>. Celebra uno de los mayores carnavales del planeta. ¿Qué ciudad es?",
+      "answer": "<mark>Río de Janeiro</mark>"
     },
     {
-      "pregunta": "Es la ciudad más poblada de Canadá, aunque no es la capital. <mark>Es una mezcla de culturas, como un mercado con puestos de muchos países distintos</mark>. Tiene una torre muy alta, la CN Tower. ¿Qué ciudad es?",
-      "respuesta": "<mark>Toronto</mark>"
+      "question": "Es la ciudad más poblada de Canadá, aunque no es la capital. <mark>Es una mezcla de culturas, como un mercado con puestos de muchos países distintos</mark>. Tiene una torre muy alta, la CN Tower. ¿Qué ciudad es?",
+      "answer": "<mark>Toronto</mark>"
     },
     {
-      "pregunta": "Es la ciudad más grande de Brasil, aunque no es la capital. <mark>Es tan grande y activa que se la compara con una colmena siempre en movimiento</mark>. Es el mayor centro financiero de Sudamérica. ¿Qué ciudad es?",
-      "respuesta": "<mark>São Paulo</mark>"
+      "question": "Es la ciudad más grande de Brasil, aunque no es la capital. <mark>Es tan grande y activa que se la compara con una colmena siempre en movimiento</mark>. Es el mayor centro financiero de Sudamérica. ¿Qué ciudad es?",
+      "answer": "<mark>São Paulo</mark>"
     },
     {
-      "pregunta": "Es el centro económico de India, aunque no es la capital. <mark>Allí nace la mayoría de las películas indias, en una industria que llaman Bollywood</mark>. Tiene uno de los puertos más activos de Asia. ¿Qué ciudad es?",
-      "respuesta": "<mark>Bombay</mark>"
+      "question": "Es el centro económico de India, aunque no es la capital. <mark>Allí nace la mayoría de las películas indias, en una industria que llaman Bollywood</mark>. Tiene uno de los puertos más activos de Asia. ¿Qué ciudad es?",
+      "answer": "<mark>Bombay</mark>"
     },
     {
-      "pregunta": "Es la ciudad más poblada de China, aunque no es la capital. <mark>Sus rascacielos iluminados de noche parecen sacados de una película futurista</mark>. Tiene uno de los puertos con más movimiento del mundo. ¿Qué ciudad es?",
-      "respuesta": "<mark>Shanghái</mark>"
+      "question": "Es la ciudad más poblada de China, aunque no es la capital. <mark>Sus rascacielos iluminados de noche parecen sacados de una película futurista</mark>. Tiene uno de los puertos con más movimiento del mundo. ¿Qué ciudad es?",
+      "answer": "<mark>Shanghái</mark>"
     },
     {
-      "pregunta": "Es la ciudad más importante de los Emiratos Árabes Unidos, aunque no es su capital. <mark>Hace unas décadas era un pueblo de pescadores, y hoy tiene el edificio más alto del mundo</mark>. ¿Qué ciudad es?",
-      "respuesta": "<mark>Dubái</mark>"
+      "question": "Es la ciudad más importante de los Emiratos Árabes Unidos, aunque no es su capital. <mark>Hace unas décadas era un pueblo de pescadores, y hoy tiene el edificio más alto del mundo</mark>. ¿Qué ciudad es?",
+      "answer": "<mark>Dubái</mark>"
     },
     {
-      "pregunta": "Fue la capital de Japón durante casi mil años, antes que Tokio. <mark>Guarda templos y jardines antiguos, como una caja fuerte llena de historia</mark>. Sigue siendo el corazón cultural del país. ¿Qué ciudad es?",
-      "respuesta": "<mark>Kioto</mark>"
+      "question": "Fue la capital de Japón durante casi mil años, antes que Tokio. <mark>Guarda templos y jardines antiguos, como una caja fuerte llena de historia</mark>. Sigue siendo el corazón cultural del país. ¿Qué ciudad es?",
+      "answer": "<mark>Kioto</mark>"
     },
     {
-      "pregunta": "Es la ciudad más grande de Marruecos, aunque no es la capital. Su nombre significa casa blanca, <mark>por el color de sus edificios junto al mar</mark>. Es el principal puerto del país. ¿Qué ciudad es?",
-      "respuesta": "<mark>Casablanca</mark>"
+      "question": "Es la ciudad más grande de Marruecos, aunque no es la capital. Su nombre significa casa blanca, <mark>por el color de sus edificios junto al mar</mark>. Es el principal puerto del país. ¿Qué ciudad es?",
+      "answer": "<mark>Casablanca</mark>"
     },
     {
-      "pregunta": "Fue fundada por Alejandro Magno hace más de 2.000 años. Tuvo una biblioteca gigantesca, <mark>como si guardara todo el conocimiento del mundo en un solo edificio</mark>. Hoy es el puerto más importante de Egipto. ¿Qué ciudad es?",
-      "respuesta": "<mark>Alejandría</mark>"
+      "question": "Fue fundada por Alejandro Magno hace más de 2.000 años. Tuvo una biblioteca gigantesca, <mark>como si guardara todo el conocimiento del mundo en un solo edificio</mark>. Hoy es el puerto más importante de Egipto. ¿Qué ciudad es?",
+      "answer": "<mark>Alejandría</mark>"
     },
     {
-      "pregunta": "Es la ciudad más conocida de Australia, aunque no es la capital. <mark>Su Casa de la Ópera tiene forma de velas de barco infladas por el viento</mark>. Tiene una de las bahías más bonitas del mundo. ¿Qué ciudad es?",
-      "respuesta": "<mark>Sídney</mark>"
+      "question": "Es la ciudad más conocida de Australia, aunque no es la capital. <mark>Su Casa de la Ópera tiene forma de velas de barco infladas por el viento</mark>. Tiene una de las bahías más bonitas del mundo. ¿Qué ciudad es?",
+      "answer": "<mark>Sídney</mark>"
     }
   ]
 }

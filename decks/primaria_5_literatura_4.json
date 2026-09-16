@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 5º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 5º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un relato corto <mark>con animales que actúan como personas</mark>. Casi siempre esconde una enseñanza final. Autores como Esopo se hicieron famosos escribiéndolos. ¿Cómo se llama este tipo de relato?",
-      "respuesta": "<mark>Fábula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_4/fabula-zorro-ciguena.jpg",
+      "question": "Es un relato corto <mark>con animales que actúan como personas</mark>. Casi siempre esconde una enseñanza final. Autores como Esopo se hicieron famosos escribiéndolos. ¿Cómo se llama este tipo de relato?",
+      "answer": "<mark>Fábula</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_4/fabula-zorro-ciguena.jpg",
+        "title": "Kerr & Co's Aesop's fables. The fox & the stork, see other side, extra six cord spool cotton. [front]",
+        "source": "https://www.flickr.com/photos/24029425@N06/9564231288",
         "alt": "Dibujo antiguo de un zorro vestido con chaqueta, como si fuera una persona, junto a una cigüeña",
-        "titulo": "Kerr & Co's Aesop's fables. The fox & the stork, see other side, extra six cord spool cotton. [front]",
         "autor": "Boston Public Library",
-        "fuente": "https://www.flickr.com/photos/24029425@N06/9564231288",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la lección que deja una fábula al terminar. <mark>Funciona como un consejo disfrazado de cuento</mark>. Por ejemplo: no fiarse de los halagos exagerados. ¿Cómo se llama esta lección final?",
-      "respuesta": "<mark>Moraleja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_4/moraleja-hercules-carretero.jpg",
+      "question": "Es la lección que deja una fábula al terminar. <mark>Funciona como un consejo disfrazado de cuento</mark>. Por ejemplo: no fiarse de los halagos exagerados. ¿Cómo se llama esta lección final?",
+      "answer": "<mark>Moraleja</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_4/moraleja-hercules-carretero.jpg",
+        "title": "Hercules & Waggoner2",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=26830563",
         "alt": "Dibujo antiguo de un hombre arrodillado pidiendo ayuda a una estatua, con una frase de moraleja escrita debajo del cuento",
-        "titulo": "Hercules & Waggoner2",
         "autor": "Walter Crane",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=26830563",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El cuervo tiene un queso en el pico, orgulloso. Un zorro lo halaga tanto que abre el pico para cantar. <mark>Al abrirlo, deja caer el queso</mark>. ¿Quién lo atrapa?",
-      "respuesta": "<mark>El zorro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_4/zorro-cuervo-queso.jpg",
+      "question": "El cuervo tiene un queso en el pico, orgulloso. Un zorro lo halaga tanto que abre el pico para cantar. <mark>Al abrirlo, deja caer el queso</mark>. ¿Quién lo atrapa?",
+      "answer": "<mark>El zorro</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_4/zorro-cuervo-queso.jpg",
+        "title": "The Fox and the Crow, Illustration for Aesop's Fables",
+        "source": "https://collection.cooperhewitt.org/view/objects/asitem/id/24110",
         "alt": "Dibujo de un zorro mirando hacia arriba a un cuervo posado en un árbol con algo en el pico",
-        "titulo": "The Fox and the Crow, Illustration for Aesop's Fables",
         "autor": "Victor Wilbour",
-        "fuente": "https://collection.cooperhewitt.org/view/objects/asitem/id/24110",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es contar una historia hablando, <mark>sin leerla de un libro</mark>. Existía mucho antes de que se inventara la escritura. El narrador podía cambiar detalles cada vez. ¿Cómo se llama esta forma de contar historias?",
-      "respuesta": "<mark>Narración oral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_4/narracion-oral-pintura-rupestre.jpg",
+      "question": "Es contar una historia hablando, <mark>sin leerla de un libro</mark>. Existía mucho antes de que se inventara la escritura. El narrador podía cambiar detalles cada vez. ¿Cómo se llama esta forma de contar historias?",
+      "answer": "<mark>Narración oral</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_4/narracion-oral-pintura-rupestre.jpg",
+        "title": "Rock art",
+        "source": "https://www.flickr.com/photos/104870492@N04/19475864255",
         "alt": "Pinturas rupestres en una cueva, con personas y elefantes dibujados en color rojo sobre la roca",
-        "titulo": "Rock art",
         "autor": "nightjartravel.com",
-        "fuente": "https://www.flickr.com/photos/104870492@N04/19475864255",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una persona que cuenta historias en voz alta para el público. <mark>Usa la voz y los gestos como si fuera un pequeño espectáculo</mark>. No necesita libro ni pantalla. ¿Cómo se llama esta persona?",
-      "respuesta": "<mark>Cuentacuentos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_4/cuentacuentos-biblioteca.jpg",
+      "question": "Es una persona que cuenta historias en voz alta para el público. <mark>Usa la voz y los gestos como si fuera un pequeño espectáculo</mark>. No necesita libro ni pantalla. ¿Cómo se llama esta persona?",
+      "answer": "<mark>Cuentacuentos</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_4/cuentacuentos-biblioteca.jpg",
+        "title": "Children's Librarian at storytime for the Library Open Day",
+        "source": "https://www.flickr.com/photos/44782503@N08/7283058014",
         "alt": "Una bibliotecaria de pie contando un cuento a un grupo de niños sentados en el suelo",
-        "titulo": "Children's Librarian at storytime for the Library Open Day",
         "autor": "Campbelltown City Council",
-        "fuente": "https://www.flickr.com/photos/44782503@N08/7283058014",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una frase corta que guarda un consejo sobre la vida. <mark>Se ha repetido tanto que ya nadie recuerda quién la dijo primero</mark>. Por ejemplo: 'no hay mal que por bien no venga'. ¿Cómo se llama esta frase?",
-      "respuesta": "<mark>Refrán</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_4/refranes-cuadro-bruegel.jpg",
+      "question": "Es una frase corta que guarda un consejo sobre la vida. <mark>Se ha repetido tanto que ya nadie recuerda quién la dijo primero</mark>. Por ejemplo: 'no hay mal que por bien no venga'. ¿Cómo se llama esta frase?",
+      "answer": "<mark>Refrán</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_4/refranes-cuadro-bruegel.jpg",
+        "title": "Netherlandish Proverbs (The Blue Cloak)",
+        "source": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
         "alt": "Cuadro antiguo de un pueblo lleno de gente, donde cada escena representa un dicho popular distinto",
-        "titulo": "Netherlandish Proverbs (The Blue Cloak)",
         "autor": "Pieter Brueghel the Elder",
-        "fuente": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
         "licencia": "Dominio público (PDM 1.0)"
       }
     }

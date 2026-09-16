@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Un tipo de literatura <mark>se transmite hablada, de persona a persona, cambiando un poco cada vez</mark>. El otro tipo queda fijo, igual en cada lectura. Por eso hay tantas versiones de un mismo cuento popular. ¿Cómo se llama el tipo que cambia al contarse?",
-      "respuesta": "<mark>Literatura oral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_2/manuscrito-antiguo.jpg",
+      "question": "Un tipo de literatura <mark>se transmite hablada, de persona a persona, cambiando un poco cada vez</mark>. El otro tipo queda fijo, igual en cada lectura. Por eso hay tantas versiones de un mismo cuento popular. ¿Cómo se llama el tipo que cambia al contarse?",
+      "answer": "<mark>Literatura oral</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_2/manuscrito-antiguo.jpg",
+        "title": "Escritura y lenguaje de España, en prosa y verso",
+        "source": "https://www.flickr.com/photos/154183737@N06/38123547545",
         "alt": "Página de un manuscrito antiguo con letra manuscrita",
-        "titulo": "Escritura y lenguaje de España, en prosa y verso",
         "autor": "Fondo Antiguo de la Biblioteca de Humanidades, Uni",
-        "fuente": "https://www.flickr.com/photos/154183737@N06/38123547545",
         "licencia": "Dominio público (PDM 1.0)"
       }
     },
     {
-      "pregunta": "Fue un autor griego <mark>famoso por sus fábulas con animales</mark>. Sus fábulas siguen leyéndose miles de años después. Muchas fábulas que conocemos hoy vienen de él. ¿Quién fue este autor?",
-      "respuesta": "<mark>Esopo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_2/esopo-fabula-asno.jpg",
+      "question": "Fue un autor griego <mark>famoso por sus fábulas con animales</mark>. Sus fábulas siguen leyéndose miles de años después. Muchas fábulas que conocemos hoy vienen de él. ¿Quién fue este autor?",
+      "answer": "<mark>Esopo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_2/esopo-fabula-asno.jpg",
+        "title": "Sitges - capiteles 02 - El asno cargado de reliquias",
+        "source": "https://www.flickr.com/photos/57956171@N00/3950062789",
         "alt": "Talla en piedra de un asno cargado, escena de una fábula clásica",
-        "titulo": "Sitges - capiteles 02 - El asno cargado de reliquias",
         "autor": "ferran pestaña",
-        "fuente": "https://www.flickr.com/photos/57956171@N00/3950062789",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de todos los romances tradicionales españoles. Se fue recopilando tras siglos de transmitirse cantados. <mark>Es como un gran álbum de la memoria popular.</mark> ¿Cómo se llama este conjunto?",
-      "respuesta": "<mark>El Romancero</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_2/guitarra-flamenca.jpg",
+      "question": "Es el conjunto de todos los romances tradicionales españoles. Se fue recopilando tras siglos de transmitirse cantados. <mark>Es como un gran álbum de la memoria popular.</mark> ¿Cómo se llama este conjunto?",
+      "answer": "<mark>El Romancero</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_2/guitarra-flamenca.jpg",
+        "title": "Guitarra Flamenca",
+        "source": "https://www.flickr.com/photos/56793598@N00/17058118125",
         "alt": "Una guitarra flamenca española",
-        "titulo": "Guitarra Flamenca",
         "autor": "Niklas Montelius",
-        "fuente": "https://www.flickr.com/photos/56793598@N00/17058118125",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son frases cortas que guardan un consejo o una idea. Se repiten desde hace generaciones, sin saber quién los inventó. Por ejemplo: '<mark>a quien madruga, Dios le ayuda</mark>'. ¿Cómo se llaman estas frases?",
-      "respuesta": "<mark>Refranes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_2/libro-antiguo.jpg",
+      "question": "Son frases cortas que guardan un consejo o una idea. Se repiten desde hace generaciones, sin saber quién los inventó. Por ejemplo: '<mark>a quien madruga, Dios le ayuda</mark>'. ¿Cómo se llaman estas frases?",
+      "answer": "<mark>Refranes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_2/libro-antiguo.jpg",
+        "title": "book open stack 2",
+        "source": "https://www.flickr.com/photos/11598937@N08/4927243431",
         "alt": "Un libro antiguo abierto",
-        "titulo": "book open stack 2",
         "autor": "Jo Naylor",
-        "fuente": "https://www.flickr.com/photos/11598937@N08/4927243431",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un tipo de cuento no tiene autor conocido: se transmitió hablado y fue cambiando con el tiempo. <mark>El otro lo escribió una persona concreta y no cambia de una edición a otra.</mark> ¿Cómo se llama el tipo que sí tiene un autor concreto?",
-      "respuesta": "<mark>Cuento de autor</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_2/quijote-cueva-montesinos.jpg",
+      "question": "Un tipo de cuento no tiene autor conocido: se transmitió hablado y fue cambiando con el tiempo. <mark>El otro lo escribió una persona concreta y no cambia de una edición a otra.</mark> ¿Cómo se llama el tipo que sí tiene un autor concreto?",
+      "answer": "<mark>Cuento de autor</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_2/quijote-cueva-montesinos.jpg",
+        "title": "¿fue verdad o fué sueño lo que yo cuento que me pasó en la cueva de Montesinos?",
+        "source": "https://www.flickr.com/photos/37667416@N04/6759754661",
         "alt": "Ilustración antigua de un episodio del Quijote, un cuento de autor conocido",
-        "titulo": "¿fue verdad o fué sueño lo que yo cuento que me pasó en la cueva de Montesinos?",
         "autor": "Biblioteca Rector Machado y Nuñez",
-        "fuente": "https://www.flickr.com/photos/37667416@N04/6759754661",
         "licencia": "Dominio público (PDM 1.0)"
       }
     },
     {
-      "pregunta": "El sonido repetido ayuda a que un refrán se recuerde mejor. <mark>Un refrán que suena bien se queda antes en la memoria.</mark> Sonar bien ayudó a que sobrevivieran sin estar escritos. ¿Qué usan muchos refranes para sonar bien?",
-      "respuesta": "<mark>La rima</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_2/notas-musicales.jpg",
+      "question": "El sonido repetido ayuda a que un refrán se recuerde mejor. <mark>Un refrán que suena bien se queda antes en la memoria.</mark> Sonar bien ayudó a que sobrevivieran sin estar escritos. ¿Qué usan muchos refranes para sonar bien?",
+      "answer": "<mark>La rima</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_2/notas-musicales.jpg",
+        "title": "Music Notes",
+        "source": "https://stocksnap.io/photo/music-notes-5ORW0DPIR5",
         "alt": "Notas musicales, como el sonido y el ritmo de un refrán",
-        "titulo": "Music Notes",
         "autor": "Radek Grzybowski",
-        "fuente": "https://stocksnap.io/photo/music-notes-5ORW0DPIR5",
         "licencia": "CC0 1.0"
       }
     }

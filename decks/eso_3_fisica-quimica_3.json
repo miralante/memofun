@@ -1,173 +1,173 @@
 {
-  "tema": "La tabla periódica, el enlace, el mol y las reacciones químicas - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La tabla periódica, el enlace, el mol y las reacciones químicas - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como una receta fija: siempre los mismos ingredientes, en las mismas proporciones</mark>. El agua o la sal común son ejemplos conocidos. ¿Cómo se llama esta sustancia formada por la unión de dos o más elementos?",
-      "respuesta": "<mark>Compuesto químico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/compuesto-quimico.jpg",
+      "question": "<mark>Es como una receta fija: siempre los mismos ingredientes, en las mismas proporciones</mark>. El agua o la sal común son ejemplos conocidos. ¿Cómo se llama esta sustancia formada por la unión de dos o más elementos?",
+      "answer": "<mark>Compuesto químico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/compuesto-quimico.jpg",
+        "title": "Apple's Impossible Molecule",
+        "source": "https://www.flickr.com/photos/87569910@N00/3968739422",
         "alt": "Un modelo de bolas y varillas de una molécula",
-        "titulo": "Apple's Impossible Molecule",
         "autor": "schoschie",
-        "fuente": "https://www.flickr.com/photos/87569910@N00/3968739422",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El sodio y el cloro son peligrosos por separado, pero juntos forman la sal de mesa. <mark>Es como mezclar ingredientes para hacer un plato con un sabor totalmente distinto a cada uno</mark>. Al combinarse, los átomos forman una estructura nueva. ¿Cómo se llama esta sustancia con propiedades distintas de sus elementos?",
-      "respuesta": "<mark>Compuesto químico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/sal-cristales.jpg",
+      "question": "El sodio y el cloro son peligrosos por separado, pero juntos forman la sal de mesa. <mark>Es como mezclar ingredientes para hacer un plato con un sabor totalmente distinto a cada uno</mark>. Al combinarse, los átomos forman una estructura nueva. ¿Cómo se llama esta sustancia con propiedades distintas de sus elementos?",
+      "answer": "<mark>Compuesto químico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/sal-cristales.jpg",
+        "title": "Cristal de sal de mesa rodeado de cristales de bicarbonato de sodio",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=142658942",
         "alt": "Cristales de sal de mesa, un compuesto químico",
-        "titulo": "Cristal de sal de mesa rodeado de cristales de bicarbonato de sodio",
         "autor": "Brandon Antonio Segura Torres & Priscilla Vieto Bonilla",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=142658942",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>El hierro, el oxígeno, el amoníaco o el ácido sulfúrico son ingredientes básicos en la fabricación</mark>. Se usan para construir, fabricar medicamentos o generar energía. ¿Cómo se llama el sector que los usa a gran escala?",
-      "respuesta": "<mark>Industria química</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/interes-industrial.jpg",
+      "question": "<mark>El hierro, el oxígeno, el amoníaco o el ácido sulfúrico son ingredientes básicos en la fabricación</mark>. Se usan para construir, fabricar medicamentos o generar energía. ¿Cómo se llama el sector que los usa a gran escala?",
+      "answer": "<mark>Industria química</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/interes-industrial.jpg",
+        "title": "Teesside: Corus Steel",
+        "source": "https://www.flickr.com/photos/69639562@N00/388947010",
         "alt": "Una fábrica de acero con humo saliendo de sus chimeneas",
-        "titulo": "Teesside: Corus Steel",
         "autor": "David Barrie",
-        "fuente": "https://www.flickr.com/photos/69639562@N00/388947010",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una 'docena' gigantesca, pero con un número mucho más grande de elementos</mark>. Permite contar átomos o moléculas con cantidades manejables en el laboratorio. ¿Cómo se llama esta unidad para contar partículas?",
-      "respuesta": "<mark>Mol</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/mol.jpg",
+      "question": "<mark>Es como una 'docena' gigantesca, pero con un número mucho más grande de elementos</mark>. Permite contar átomos o moléculas con cantidades manejables en el laboratorio. ¿Cómo se llama esta unidad para contar partículas?",
+      "answer": "<mark>Mol</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/mol.jpg",
+        "title": "Stars Reflecting Mountain Lake",
+        "source": "https://www.flickr.com/photos/10922353@N03/4807392948",
         "alt": "Miles de estrellas reflejadas en un lago de montaña",
-        "titulo": "Stars Reflecting Mountain Lake",
         "autor": "ForestWander.com",
-        "fuente": "https://www.flickr.com/photos/10922353@N03/4807392948",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un idioma compartido para que cualquier científico del mundo entienda de qué sustancia se habla</mark>. Sirve para nombrar las sustancias químicas siguiendo unas reglas comunes. Evita confusiones entre compuestos con nombres parecidos. ¿Cómo se llama este conjunto de reglas para nombrar sustancias?",
-      "respuesta": "<mark>Nomenclatura química</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/nomenclatura.webp",
+      "question": "<mark>Es como un idioma compartido para que cualquier científico del mundo entienda de qué sustancia se habla</mark>. Sirve para nombrar las sustancias químicas siguiendo unas reglas comunes. Evita confusiones entre compuestos con nombres parecidos. ¿Cómo se llama este conjunto de reglas para nombrar sustancias?",
+      "answer": "<mark>Nomenclatura química</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/nomenclatura.webp",
+        "title": "Science Class",
+        "source": "https://www.flickr.com/photos/52727389@N00/6767422267",
         "alt": "Una clase de ciencias con material de laboratorio",
-        "titulo": "Science Class",
         "autor": "Lokesh_Dhakar",
-        "fuente": "https://www.flickr.com/photos/52727389@N00/6767422267",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una fórmula que resume, con símbolos, lo que ocurre en una reacción</mark>. Los reactivos se escriben a la izquierda; los productos, a la derecha. ¿Cómo se llama esta representación escrita de una reacción química?",
-      "respuesta": "<mark>Ecuación química</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/ecuacion-quimica.jpg",
+      "question": "<mark>Es como una fórmula que resume, con símbolos, lo que ocurre en una reacción</mark>. Los reactivos se escriben a la izquierda; los productos, a la derecha. ¿Cómo se llama esta representación escrita de una reacción química?",
+      "answer": "<mark>Ecuación química</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/ecuacion-quimica.jpg",
+        "title": "Students study an equation on a chalk board",
+        "source": "https://www.flickr.com/photos/95329455@N02/11125348744",
         "alt": "Estudiantes observando una ecuación en la pizarra",
-        "titulo": "Students study an equation on a chalk board",
         "autor": "simpleinsomnia",
-        "fuente": "https://www.flickr.com/photos/95329455@N02/11125348744",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como equilibrar una balanza para que ambos lados pesen exactamente lo mismo</mark>. Significa igualar el número de átomos de cada elemento a ambos lados de la ecuación. Se hace añadiendo números delante de las fórmulas, no cambiándolas. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Ajustar una reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/ajustar-reaccion.jpg",
+      "question": "<mark>Es como equilibrar una balanza para que ambos lados pesen exactamente lo mismo</mark>. Significa igualar el número de átomos de cada elemento a ambos lados de la ecuación. Se hace añadiendo números delante de las fórmulas, no cambiándolas. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Ajustar una reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/ajustar-reaccion.jpg",
+        "title": "Dvouramenná váha; Two-pan balance weight",
+        "source": "https://www.flickr.com/photos/112931986@N07/11645154764",
         "alt": "Una balanza de dos platos equilibrada",
-        "titulo": "Dvouramenná váha; Two-pan balance weight",
         "autor": "Da4Sal",
-        "fuente": "https://www.flickr.com/photos/112931986@N07/11645154764",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Si mezclas ingredientes, el peso final es igual a la suma de los pesos iniciales</mark>. La masa total no cambia durante una reacción química. La propuso el científico Lavoisier, hace más de doscientos años. ¿Cómo se llama esta ley?",
-      "respuesta": "<mark>Ley de conservación de la masa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/conservacion-masa.jpg",
+      "question": "<mark>Si mezclas ingredientes, el peso final es igual a la suma de los pesos iniciales</mark>. La masa total no cambia durante una reacción química. La propuso el científico Lavoisier, hace más de doscientos años. ¿Cómo se llama esta ley?",
+      "answer": "<mark>Ley de conservación de la masa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/conservacion-masa.jpg",
+        "title": "Antoine Laurent Lavoisier (1743-1794) and Marie Anne Lavoisier",
+        "source": "https://www.metmuseum.org/art/collection/search/436106",
         "alt": "Un retrato del científico Antoine Lavoisier y su esposa",
-        "titulo": "Antoine Laurent Lavoisier (1743-1794) and Marie Anne Lavoisier",
         "autor": "Jacques Louis David",
-        "fuente": "https://www.metmuseum.org/art/collection/search/436106",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Si los átomos de una ecuación no cuadran, la ecuación tiene un error</mark>. Esta ley asegura que en una reacción no se pierde ni se gana materia. Ayuda a comprobar si una ecuación química está bien ajustada de verdad. ¿Cómo se llama esta ley?",
-      "respuesta": "<mark>Ley de conservación de la masa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/importancia-lavoisier.jpg",
+      "question": "<mark>Si los átomos de una ecuación no cuadran, la ecuación tiene un error</mark>. Esta ley asegura que en una reacción no se pierde ni se gana materia. Ayuda a comprobar si una ecuación química está bien ajustada de verdad. ¿Cómo se llama esta ley?",
+      "answer": "<mark>Ley de conservación de la masa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/importancia-lavoisier.jpg",
+        "title": "Sartorius Selecta Original",
+        "source": "https://www.flickr.com/photos/27485522@N04/2978177931",
         "alt": "Una balanza de precisión de laboratorio",
-        "titulo": "Sartorius Selecta Original",
         "autor": "uitdragerij",
-        "fuente": "https://www.flickr.com/photos/27485522@N04/2978177931",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como calcular cuántos ingredientes necesitas según cuántas raciones quieras preparar</mark>. Relacionan las cantidades de reactivos y productos en una reacción. Se basan en las proporciones de la ecuación ajustada. ¿Cómo se llaman estos cálculos?",
-      "respuesta": "<mark>Cálculos estequiométricos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/calculos-estequiometricos.jpg",
+      "question": "<mark>Es como calcular cuántos ingredientes necesitas según cuántas raciones quieras preparar</mark>. Relacionan las cantidades de reactivos y productos en una reacción. Se basan en las proporciones de la ecuación ajustada. ¿Cómo se llaman estos cálculos?",
+      "answer": "<mark>Cálculos estequiométricos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/calculos-estequiometricos.jpg",
+        "title": "Step 1: Ingredients",
+        "source": "https://www.flickr.com/photos/66182839@N00/4296150021",
         "alt": "Ingredientes de cocina preparados y medidos",
-        "titulo": "Step 1: Ingredients",
         "autor": "toholio",
-        "fuente": "https://www.flickr.com/photos/66182839@N00/4296150021",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Agitar más fuerte una mezcla hace que las partículas choquen entre sí con más frecuencia</mark>. Por eso muchos alimentos se cocinan más rápido a mayor temperatura. Aumentar la temperatura suele acelerar este proceso. ¿Cómo se llama la rapidez con la que ocurre una reacción química?",
-      "respuesta": "<mark>Velocidad de reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/temperatura-velocidad.jpg",
+      "question": "<mark>Agitar más fuerte una mezcla hace que las partículas choquen entre sí con más frecuencia</mark>. Por eso muchos alimentos se cocinan más rápido a mayor temperatura. Aumentar la temperatura suele acelerar este proceso. ¿Cómo se llama la rapidez con la que ocurre una reacción química?",
+      "answer": "<mark>Velocidad de reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/temperatura-velocidad.jpg",
+        "title": "The Great Geyser",
+        "source": "https://www.flickr.com/photos/8058853@N06/3718241364",
         "alt": "Agua hirviendo y burbujeando en un géiser",
-        "titulo": "The Great Geyser",
         "autor": "Helgi Halldórsson/Freddi",
-        "fuente": "https://www.flickr.com/photos/8058853@N06/3718241364",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Tener más gente en una sala aumenta las probabilidades de que se crucen entre sí</mark>. Cuanto más concentrados están los reactivos, más rápido suele ocurrir esto. Las disoluciones muy diluidas suelen ser más lentas. ¿Cómo se llama esta rapidez con la que transcurre una reacción?",
-      "respuesta": "<mark>Velocidad de reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/concentracion-velocidad.jpg",
+      "question": "<mark>Tener más gente en una sala aumenta las probabilidades de que se crucen entre sí</mark>. Cuanto más concentrados están los reactivos, más rápido suele ocurrir esto. Las disoluciones muy diluidas suelen ser más lentas. ¿Cómo se llama esta rapidez con la que transcurre una reacción?",
+      "answer": "<mark>Velocidad de reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/concentracion-velocidad.jpg",
+        "title": "Millennials Jam Workshop: Youth and ICTs beyond 2015",
+        "source": "https://www.flickr.com/photos/42121221@N07/9025689028",
         "alt": "Un grupo grande de personas reunidas en un taller",
-        "titulo": "Millennials Jam Workshop: Youth and ICTs beyond 2015",
         "autor": "ITU Pictures",
-        "fuente": "https://www.flickr.com/photos/42121221@N07/9025689028",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como mirar con una lupa imaginaria lo que pasa dentro de una mezcla</mark>. Explica una reacción observando lo que ocurre a nivel de átomos y moléculas. Ayuda a entender por qué ocurre una reacción, no solo qué ocurre. ¿Cómo se llama este tipo de explicación?",
-      "respuesta": "<mark>Interpretación microscópica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/interpretacion-microscopica.jpg",
+      "question": "<mark>Es como mirar con una lupa imaginaria lo que pasa dentro de una mezcla</mark>. Explica una reacción observando lo que ocurre a nivel de átomos y moléculas. Ayuda a entender por qué ocurre una reacción, no solo qué ocurre. ¿Cómo se llama este tipo de explicación?",
+      "answer": "<mark>Interpretación microscópica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/interpretacion-microscopica.jpg",
+        "title": "Microscope",
+        "source": "https://www.flickr.com/photos/35034360491@N01/4029430691",
         "alt": "Un microscopio de laboratorio",
-        "titulo": "Microscope",
         "autor": "tuchodi",
-        "fuente": "https://www.flickr.com/photos/35034360491@N01/4029430691",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cocinar, respirar o que se oxide un metal son procesos muy comunes que las contienen</mark>. Ocurren constantemente a nuestro alrededor, aunque no siempre las notemos. Su estudio va mucho más allá del laboratorio. ¿Cómo se llaman estos procesos, presentes en la vida cotidiana?",
-      "respuesta": "<mark>Reacciones químicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_3/reacciones-cotidianas.jpg",
+      "question": "<mark>Cocinar, respirar o que se oxide un metal son procesos muy comunes que las contienen</mark>. Ocurren constantemente a nuestro alrededor, aunque no siempre las notemos. Su estudio va mucho más allá del laboratorio. ¿Cómo se llaman estos procesos, presentes en la vida cotidiana?",
+      "answer": "<mark>Reacciones químicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_3/reacciones-cotidianas.jpg",
+        "title": "[2005] Rusty Padlock & Fence",
+        "source": "https://www.flickr.com/photos/31018257@N00/5829881796",
         "alt": "Un candado oxidado por el óxido",
-        "titulo": "[2005] Rusty Padlock & Fence",
         "autor": "Diego3336",
-        "fuente": "https://www.flickr.com/photos/31018257@N00/5829881796",
         "licencia": "CC BY 2.0"
       }
     }

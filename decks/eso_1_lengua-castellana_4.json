@@ -1,71 +1,71 @@
 {
-  "tema": "Los géneros literarios, los mitos y las leyendas - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Los géneros literarios, los mitos y las leyendas - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Los textos se clasifican por tipo, igual que la ropa. <br><mark>Es como ordenar camisetas, pantalones y chaquetas por separado</mark>. <br>Los principales grupos son narrativa, poesía y teatro. <br>¿Cómo se llama esta forma de clasificar textos?",
-      "respuesta": "<mark>Género literario</mark>"
+      "question": "Los textos se clasifican por tipo, igual que la ropa. <br><mark>Es como ordenar camisetas, pantalones y chaquetas por separado</mark>. <br>Los principales grupos son narrativa, poesía y teatro. <br>¿Cómo se llama esta forma de clasificar textos?",
+      "answer": "<mark>Género literario</mark>"
     },
     {
-      "pregunta": "Este género cuenta historias, con personajes y hechos. <br><mark>Es como escuchar a alguien contar lo que le pasó, pero por escrito</mark>. <br>Los cuentos y las novelas pertenecen a él. <br>¿Cómo se llama este género literario?",
-      "respuesta": "<mark>Narrativa</mark>"
+      "question": "Este género cuenta historias, con personajes y hechos. <br><mark>Es como escuchar a alguien contar lo que le pasó, pero por escrito</mark>. <br>Los cuentos y las novelas pertenecen a él. <br>¿Cómo se llama este género literario?",
+      "answer": "<mark>Narrativa</mark>"
     },
     {
-      "pregunta": "Este género expresa sentimientos con un lenguaje especial y ritmo. <br><mark>Es como una canción sin música, hecha solo de palabras</mark>. <br>Usa versos, rimas y comparaciones bonitas. <br>¿Cómo se llama este género literario?",
-      "respuesta": "<mark>Poesía</mark>"
+      "question": "Este género expresa sentimientos con un lenguaje especial y ritmo. <br><mark>Es como una canción sin música, hecha solo de palabras</mark>. <br>Usa versos, rimas y comparaciones bonitas. <br>¿Cómo se llama este género literario?",
+      "answer": "<mark>Poesía</mark>"
     },
     {
-      "pregunta": "Este género se escribe para representarse en un escenario. <br><mark>Es como un guion de película pensado para actuarse</mark>. <br>Los personajes hablan entre sí con diálogos. <br>¿Cómo se llama este género literario?",
-      "respuesta": "<mark>Teatro</mark>"
+      "question": "Este género se escribe para representarse en un escenario. <br><mark>Es como un guion de película pensado para actuarse</mark>. <br>Los personajes hablan entre sí con diálogos. <br>¿Cómo se llama este género literario?",
+      "answer": "<mark>Teatro</mark>"
     },
     {
-      "pregunta": "Una historia antigua explica el origen del mundo o de la vida. <br><mark>Es como un cuento muy antiguo que respondía preguntas sin ciencia</mark>. <br>Sus protagonistas suelen ser dioses o seres muy poderosos. <br>¿Cómo se llama este tipo de historia?",
-      "respuesta": "<mark>Mito</mark>"
+      "question": "Una historia antigua explica el origen del mundo o de la vida. <br><mark>Es como un cuento muy antiguo que respondía preguntas sin ciencia</mark>. <br>Sus protagonistas suelen ser dioses o seres muy poderosos. <br>¿Cómo se llama este tipo de historia?",
+      "answer": "<mark>Mito</mark>"
     },
     {
-      "pregunta": "Cada uno controla una parte del mundo, como el mar o el fuego. <br><mark>Es como si cada uno fuera el jefe de una fuerza de la naturaleza</mark>. <br>Zeus, por ejemplo, controlaba el cielo y el rayo. <br>¿Cómo se llaman estos seres poderosos de los mitos?",
-      "respuesta": "<mark>Dioses</mark>"
+      "question": "Cada uno controla una parte del mundo, como el mar o el fuego. <br><mark>Es como si cada uno fuera el jefe de una fuerza de la naturaleza</mark>. <br>Zeus, por ejemplo, controlaba el cielo y el rayo. <br>¿Cómo se llaman estos seres poderosos de los mitos?",
+      "answer": "<mark>Dioses</mark>"
     },
     {
-      "pregunta": "Un personaje muy valiente es a veces mitad humano y mitad dios. <br><mark>Es como un superhéroe de la Antigüedad</mark>. <br>Se enfrenta a pruebas imposibles para la gente normal. <br>¿Cómo se llama este personaje?",
-      "respuesta": "<mark>Héroe</mark>"
+      "question": "Un personaje muy valiente es a veces mitad humano y mitad dios. <br><mark>Es como un superhéroe de la Antigüedad</mark>. <br>Se enfrenta a pruebas imposibles para la gente normal. <br>¿Cómo se llama este personaje?",
+      "answer": "<mark>Héroe</mark>"
     },
     {
-      "pregunta": "Una historia explica cómo empezó todo lo que existe. <br><mark>Es como el primer capítulo de la historia del universo, contado sin ciencia</mark>. <br>Muchas culturas imaginan un comienzo distinto para el mundo. <br>¿Cómo se llama este tipo de mito?",
-      "respuesta": "<mark>Mito de la creación</mark>"
+      "question": "Una historia explica cómo empezó todo lo que existe. <br><mark>Es como el primer capítulo de la historia del universo, contado sin ciencia</mark>. <br>Muchas culturas imaginan un comienzo distinto para el mundo. <br>¿Cómo se llama este tipo de mito?",
+      "answer": "<mark>Mito de la creación</mark>"
     },
     {
-      "pregunta": "Los mitos explicaban cosas que la gente no entendía todavía. <br><mark>Eran como una ciencia antigua, contada con historias en vez de fórmulas</mark>. <br>Explicaban por qué llueve o por qué sale el sol. <br>¿Para qué servían los mitos en la Antigüedad?",
-      "respuesta": "<mark>Para explicar el mundo</mark>"
+      "question": "Los mitos explicaban cosas que la gente no entendía todavía. <br><mark>Eran como una ciencia antigua, contada con historias en vez de fórmulas</mark>. <br>Explicaban por qué llueve o por qué sale el sol. <br>¿Para qué servían los mitos en la Antigüedad?",
+      "answer": "<mark>Para explicar el mundo</mark>"
     },
     {
-      "pregunta": "Marte, Venus y Júpiter llevan nombres de seres poderosos. <br><mark>Es como si el cielo llevara escritos los nombres de viejas historias</mark>. <br>Los astrónomos antiguos los eligieron por su importancia en los mitos. <br>¿De qué vienen los nombres de estos planetas?",
-      "respuesta": "<mark>Dioses romanos</mark>"
+      "question": "Marte, Venus y Júpiter llevan nombres de seres poderosos. <br><mark>Es como si el cielo llevara escritos los nombres de viejas historias</mark>. <br>Los astrónomos antiguos los eligieron por su importancia en los mitos. <br>¿De qué vienen los nombres de estos planetas?",
+      "answer": "<mark>Dioses romanos</mark>"
     },
     {
-      "pregunta": "Una historia mezcla hechos reales con partes inventadas. <br><mark>Es como una noticia antigua a la que, con el tiempo, se le añadió magia</mark>. <br>Suele explicar el origen de un lugar o una costumbre. <br>¿Cómo se llama este tipo de historia?",
-      "respuesta": "<mark>Leyenda</mark>"
+      "question": "Una historia mezcla hechos reales con partes inventadas. <br><mark>Es como una noticia antigua a la que, con el tiempo, se le añadió magia</mark>. <br>Suele explicar el origen de un lugar o una costumbre. <br>¿Cómo se llama este tipo de historia?",
+      "answer": "<mark>Leyenda</mark>"
     },
     {
-      "pregunta": "Una historia habla de dioses y del origen del mundo entero. <br><mark>Otra habla de personas o lugares más cercanos y concretos</mark>. <br>Ambas mezclan realidad e imaginación, pero a distinta escala. <br>¿Cuál de las dos habla de personas o lugares cercanos?",
-      "respuesta": "<mark>La leyenda</mark>"
+      "question": "Una historia habla de dioses y del origen del mundo entero. <br><mark>Otra habla de personas o lugares más cercanos y concretos</mark>. <br>Ambas mezclan realidad e imaginación, pero a distinta escala. <br>¿Cuál de las dos habla de personas o lugares cercanos?",
+      "answer": "<mark>La leyenda</mark>"
     },
     {
-      "pregunta": "Un hecho real, al contarse muchas veces, se va exagerando. <br><mark>Es como un rumor que crece cada vez que alguien lo repite</mark>. <br>Con el tiempo, lo imaginado se mezcla con lo verdadero. <br>¿Qué es difícil saber, al final, en una leyenda?",
-      "respuesta": "<mark>Qué parte es real</mark>"
+      "question": "Un hecho real, al contarse muchas veces, se va exagerando. <br><mark>Es como un rumor que crece cada vez que alguien lo repite</mark>. <br>Con el tiempo, lo imaginado se mezcla con lo verdadero. <br>¿Qué es difícil saber, al final, en una leyenda?",
+      "answer": "<mark>Qué parte es real</mark>"
     },
     {
-      "pregunta": "Una leyenda explica el origen de una antigua escultura ibérica. <br><mark>Es como inventar una historia para un objeto misterioso hallado en la tierra</mark>. <br>La escultura real existe y se puede ver en un museo. <br>¿Cómo se llama esta escultura famosa?",
-      "respuesta": "<mark>La Dama de Elche</mark>"
+      "question": "Una leyenda explica el origen de una antigua escultura ibérica. <br><mark>Es como inventar una historia para un objeto misterioso hallado en la tierra</mark>. <br>La escultura real existe y se puede ver en un museo. <br>¿Cómo se llama esta escultura famosa?",
+      "answer": "<mark>La Dama de Elche</mark>"
     },
     {
-      "pregunta": "Antes de existir la escritura, las leyendas se contaban de viva voz. <br><mark>Eran como un regalo que pasaba de mano en mano, sin envoltorio</mark>. <br>Cada persona que la contaba podía cambiar algún detalle. <br>¿Cómo se llama contar historias hablando, de padres a hijos?",
-      "respuesta": "<mark>Transmisión oral</mark>"
+      "question": "Antes de existir la escritura, las leyendas se contaban de viva voz. <br><mark>Eran como un regalo que pasaba de mano en mano, sin envoltorio</mark>. <br>Cada persona que la contaba podía cambiar algún detalle. <br>¿Cómo se llama contar historias hablando, de padres a hijos?",
+      "answer": "<mark>Transmisión oral</mark>"
     },
     {
-      "pregunta": "Las leyendas explican de forma bonita el origen de lugares y costumbres. <br><mark>Son como raíces que conectan a un pueblo con su propia historia</mark>. <br>Escuchar una ayuda a conocer mejor un territorio. <br>¿Con qué conectan las leyendas a un pueblo?",
-      "respuesta": "<mark>Con su historia</mark>"
+      "question": "Las leyendas explican de forma bonita el origen de lugares y costumbres. <br><mark>Son como raíces que conectan a un pueblo con su propia historia</mark>. <br>Escuchar una ayuda a conocer mejor un territorio. <br>¿Con qué conectan las leyendas a un pueblo?",
+      "answer": "<mark>Con su historia</mark>"
     }
   ]
 }

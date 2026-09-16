@@ -1,209 +1,209 @@
 {
-  "tema": "Ciencias Sociales - FP Básica Servicios Administrativos (2º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Ciencias Sociales - FP Básica Servicios Administrativos (2º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Duró casi cuarenta años, tras la Guerra Civil. <mark>España vivió sin elecciones libres ni partidos políticos</mark>. Terminó con la muerte de Francisco Franco, en 1975. ¿Cómo se llama este periodo de gobierno?",
-      "respuesta": "<mark>Dictadura franquista</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/dictadura-franquista.png",
+      "question": "Duró casi cuarenta años, tras la Guerra Civil. <mark>España vivió sin elecciones libres ni partidos políticos</mark>. Terminó con la muerte de Francisco Franco, en 1975. ¿Cómo se llama este periodo de gobierno?",
+      "answer": "<mark>Dictadura franquista</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/dictadura-franquista.png",
+        "title": "Flag of Spain (1945–1977)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=3416012",
         "alt": "Bandera de España utilizada durante la época del franquismo.",
-        "titulo": "Flag of Spain (1945–1977)",
         "autor": "SanchoPanzaXXI",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=3416012",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "España pasó de la dictadura a la democracia sin violencia. <mark>Es como reconstruir un edificio sin destruir todo lo anterior</mark>. Terminó con la Constitución de 1978. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Transición española</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/transicion.jpg",
+      "question": "España pasó de la dictadura a la democracia sin violencia. <mark>Es como reconstruir un edificio sin destruir todo lo anterior</mark>. Terminó con la Constitución de 1978. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Transición española</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/transicion.jpg",
+        "title": "Ampliación Congreso de los Diputados Madrid",
+        "source": "https://www.flickr.com/photos/72723202@N00/1508400155",
         "alt": "Edificio del Congreso de los Diputados en Madrid.",
-        "titulo": "Ampliación Congreso de los Diputados Madrid",
         "autor": "losmininos",
-        "fuente": "https://www.flickr.com/photos/72723202@N00/1508400155",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Se recuperaron libertades: votar, expresarse y reunirse. <mark>Es como abrir de golpe ventanas cerradas durante décadas</mark>. ¿Qué llegó a España tras la dictadura?",
-      "respuesta": "<mark>La democracia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/cambio-democracia.jpg",
+      "question": "Se recuperaron libertades: votar, expresarse y reunirse. <mark>Es como abrir de golpe ventanas cerradas durante décadas</mark>. ¿Qué llegó a España tras la dictadura?",
+      "answer": "<mark>La democracia</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/cambio-democracia.jpg",
+        "title": "Ballot box scanner - London mayor and assembly election 2008",
+        "source": "https://www.flickr.com/photos/25834786@N03/2461779607",
         "alt": "Urna electoral utilizada para depositar los votos.",
-        "titulo": "Ballot box scanner - London mayor and assembly election 2008",
         "autor": "secretlondon123",
-        "fuente": "https://www.flickr.com/photos/25834786@N03/2461779607",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Provoca sequías, inundaciones y olas de calor. <mark>Es como si el tiempo se volviera más impredecible</mark>. ¿Qué está causando estos fenómenos?",
-      "respuesta": "<mark>El cambio climático</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/sequia-clima.jpg",
+      "question": "Provoca sequías, inundaciones y olas de calor. <mark>Es como si el tiempo se volviera más impredecible</mark>. ¿Qué está causando estos fenómenos?",
+      "answer": "<mark>El cambio climático</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/sequia-clima.jpg",
+        "title": "Hotter Droughts",
+        "source": "https://www.flickr.com/photos/27784370@N05/25350313304",
         "alt": "Tierra agrietada por la sequía",
-        "titulo": "Hotter Droughts",
         "autor": "U.S. Geological Survey",
-        "fuente": "https://www.flickr.com/photos/27784370@N05/25350313304",
         "licencia": "Public Domain"
       }
     },
     {
-      "pregunta": "Buscan trabajo, seguridad o una vida mejor. <mark>Es como cambiar de lugar buscando mejores condiciones</mark>. También pueden huir de guerras o desastres. ¿Cómo se llama este movimiento entre países?",
-      "respuesta": "<mark>Migración</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/migracion.jpg",
+      "question": "Buscan trabajo, seguridad o una vida mejor. <mark>Es como cambiar de lugar buscando mejores condiciones</mark>. También pueden huir de guerras o desastres. ¿Cómo se llama este movimiento entre países?",
+      "answer": "<mark>Migración</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/migracion.jpg",
+        "title": "Packing Suitcases",
+        "source": "https://www.flickr.com/photos/121483302@N02/15010904259",
         "alt": "Maletas preparadas para un viaje.",
-        "titulo": "Packing Suitcases",
         "autor": "theglobalpanorama",
-        "fuente": "https://www.flickr.com/photos/121483302@N02/15010904259",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Significa que todos accedan a lo mismo, sin importar su origen. <mark>Es como asegurarse de que todos parten de la misma línea de salida</mark>. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Igualdad de oportunidades</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/igualdad-oportunidades.jpg",
+      "question": "Significa que todos accedan a lo mismo, sin importar su origen. <mark>Es como asegurarse de que todos parten de la misma línea de salida</mark>. ¿Cómo se llama esto?",
+      "answer": "<mark>Igualdad de oportunidades</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/igualdad-oportunidades.jpg",
+        "title": "Multiethnic Diverse People in a Circle Holding Hands",
+        "source": "https://www.flickr.com/photos/17088227@N00/30118072626",
         "alt": "Grupo de personas diversas cogidas de la mano formando un círculo.",
-        "titulo": "Multiethnic Diverse People in a Circle Holding Hands",
         "autor": "Helge V. Keitel",
-        "fuente": "https://www.flickr.com/photos/17088227@N00/30118072626",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es tratar peor a alguien por su origen, género o religión. <mark>Es como cerrarle una puerta a alguien solo por cómo es</mark>. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Discriminación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/discriminacion.jpg",
+      "question": "Es tratar peor a alguien por su origen, género o religión. <mark>Es como cerrarle una puerta a alguien solo por cómo es</mark>. ¿Cómo se llama esto?",
+      "answer": "<mark>Discriminación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/discriminacion.jpg",
+        "title": "3D Full Spectrum Unity Holding Hands Concept",
+        "source": "https://www.flickr.com/photos/22177648@N06/2137735924",
         "alt": "Varias manos de distintos colores unidas juntas.",
-        "titulo": "3D Full Spectrum Unity Holding Hands Concept",
         "autor": "lumaxart",
-        "fuente": "https://www.flickr.com/photos/22177648@N06/2137735924",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Corresponden a toda persona, en cualquier lugar del mundo. <mark>No dependen de dónde naciste</mark>, solo de existir. ¿Cómo se llaman estos derechos?",
-      "respuesta": "<mark>Derechos humanos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/derechos-humanos.jpg",
+      "question": "Corresponden a toda persona, en cualquier lugar del mundo. <mark>No dependen de dónde naciste</mark>, solo de existir. ¿Cómo se llaman estos derechos?",
+      "answer": "<mark>Derechos humanos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/derechos-humanos.jpg",
+        "title": "United Nations building",
+        "source": "https://www.flickr.com/photos/27865228@N06/9861197014",
         "alt": "Edificio de la sede de las Naciones Unidas.",
-        "titulo": "United Nations building",
         "autor": "david_shankbone",
-        "fuente": "https://www.flickr.com/photos/27865228@N06/9861197014",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Protegen a cualquier persona frente a un trato injusto. <mark>Es como una base mínima que nadie puede quitarte</mark>. ¿Qué protege a las personas de esta forma?",
-      "respuesta": "<mark>Los derechos humanos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/derechos-humanos-diaria.jpg",
+      "question": "Protegen a cualquier persona frente a un trato injusto. <mark>Es como una base mínima que nadie puede quitarte</mark>. ¿Qué protege a las personas de esta forma?",
+      "answer": "<mark>Los derechos humanos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/derechos-humanos-diaria.jpg",
+        "title": "Handshake",
+        "source": "https://www.flickr.com/photos/21372046@N00/2282881973",
         "alt": "Dos manos dándose un apretón como símbolo de confianza.",
-        "titulo": "Handshake",
         "autor": "AndyRobertsPhotos",
-        "fuente": "https://www.flickr.com/photos/21372046@N00/2282881973",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son los puestos de trabajo disponibles y las personas que los buscan. <mark>Es como un punto de encuentro para el empleo</mark>. ¿Cómo se llama este conjunto?",
-      "respuesta": "<mark>Mercado laboral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/mercado-laboral.jpg",
+      "question": "Son los puestos de trabajo disponibles y las personas que los buscan. <mark>Es como un punto de encuentro para el empleo</mark>. ¿Cómo se llama este conjunto?",
+      "answer": "<mark>Mercado laboral</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/mercado-laboral.jpg",
+        "title": "Career Fair at College of DuPage 2014 11",
+        "source": "https://www.flickr.com/photos/41431665@N07/12439028663",
         "alt": "Feria de empleo donde varias personas buscan trabajo.",
-        "titulo": "Career Fair at College of DuPage 2014 11",
         "autor": "COD Newsroom",
-        "fuente": "https://www.flickr.com/photos/41431665@N07/12439028663",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Significa que hay más empleos disponibles que personas buscándolos. <mark>Falta gente para cubrir esos puestos</mark>. ¿Qué pasa cuando hay más oferta que demanda de empleo?",
-      "respuesta": "<mark>Es más fácil encontrar trabajo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/oferta-demanda-empleo.jpg",
+      "question": "Significa que hay más empleos disponibles que personas buscándolos. <mark>Falta gente para cubrir esos puestos</mark>. ¿Qué pasa cuando hay más oferta que demanda de empleo?",
+      "answer": "<mark>Es más fácil encontrar trabajo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/oferta-demanda-empleo.jpg",
+        "title": "Job Interview #2",
+        "source": "https://www.flickr.com/photos/41216460@N00/224646677",
         "alt": "Persona vestida formalmente en una entrevista de trabajo.",
-        "titulo": "Job Interview #2",
         "autor": "rileyroxx",
-        "fuente": "https://www.flickr.com/photos/41216460@N00/224646677",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sirven para financiar la sanidad, la educación o las carreteras. <mark>Es como aportar cada uno su parte para lo que usamos todos</mark>. ¿Cómo se llaman estos pagos?",
-      "respuesta": "<mark>Impuestos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/impuestos-sirven.jpg",
+      "question": "Sirven para financiar la sanidad, la educación o las carreteras. <mark>Es como aportar cada uno su parte para lo que usamos todos</mark>. ¿Cómo se llaman estos pagos?",
+      "answer": "<mark>Impuestos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/impuestos-sirven.jpg",
+        "title": "Form 1040 (US taxes) recovery period",
+        "source": "https://www.flickr.com/photos/99725460@N00/8525863293",
         "alt": "Formulario oficial de impuestos relleno con datos.",
-        "titulo": "Form 1040 (US taxes) recovery period",
         "autor": "AlisonChaiken",
-        "fuente": "https://www.flickr.com/photos/99725460@N00/8525863293",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Van a hospitales, colegios, pensiones y otras ayudas. <mark>Es como un fondo común del que todos nos beneficiamos</mark>. ¿Qué financian los impuestos que paga la población?",
-      "respuesta": "<mark>Servicios públicos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/impuestos-usan.jpg",
+      "question": "Van a hospitales, colegios, pensiones y otras ayudas. <mark>Es como un fondo común del que todos nos beneficiamos</mark>. ¿Qué financian los impuestos que paga la población?",
+      "answer": "<mark>Servicios públicos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/impuestos-usan.jpg",
+        "title": "Madrid - 'New Ministries'",
+        "source": "https://www.flickr.com/photos/24736216@N07/2687096232",
         "alt": "Edificio de ministerios del Gobierno en Madrid.",
-        "titulo": "Madrid - 'New Ministries'",
         "autor": "roger4336",
-        "fuente": "https://www.flickr.com/photos/24736216@N07/2687096232",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es identificar una oportunidad y ponerla en marcha como negocio. <mark>Es como ver un hueco en el mercado y decidir llenarlo</mark>. ¿Cómo se llama esta capacidad?",
-      "respuesta": "<mark>Emprendimiento</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/emprendimiento.jpg",
+      "question": "Es identificar una oportunidad y ponerla en marcha como negocio. <mark>Es como ver un hueco en el mercado y decidir llenarlo</mark>. ¿Cómo se llama esta capacidad?",
+      "answer": "<mark>Emprendimiento</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/emprendimiento.jpg",
+        "title": "Women In Tech - 99",
+        "source": "https://www.flickr.com/photos/136629440@N06/21909333504",
         "alt": "Personas trabajando juntas en la oficina de una empresa emergente.",
-        "titulo": "Women In Tech - 99",
         "autor": "wocintechchat.com",
-        "fuente": "https://www.flickr.com/photos/136629440@N06/21909333504",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hace falta saber qué trámites legales se necesitan. <mark>Es como construir algo desde cero, paso a paso</mark>. ¿Qué es imprescindible para montar un negocio propio?",
-      "respuesta": "<mark>Una idea y un plan</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/montar-negocio.jpg",
+      "question": "Hace falta saber qué trámites legales se necesitan. <mark>Es como construir algo desde cero, paso a paso</mark>. ¿Qué es imprescindible para montar un negocio propio?",
+      "answer": "<mark>Una idea y un plan</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/montar-negocio.jpg",
+        "title": "Business Planning with Plan-Too",
+        "source": "https://www.flickr.com/photos/55260169@N07/5126107002",
         "alt": "Documento con la planificación escrita de un negocio.",
-        "titulo": "Business Planning with Plan-Too",
         "autor": "plantoo47",
-        "fuente": "https://www.flickr.com/photos/55260169@N07/5126107002",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es comprar y usar productos pensando en su impacto social y ambiental. <mark>Es como elegir con cuidado, no solo por precio</mark>. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Consumo responsable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/consumo-responsable.jpg",
+      "question": "Es comprar y usar productos pensando en su impacto social y ambiental. <mark>Es como elegir con cuidado, no solo por precio</mark>. ¿Cómo se llama esto?",
+      "answer": "<mark>Consumo responsable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/consumo-responsable.jpg",
+        "title": "Shopping Cart Supermarket",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=115816705",
         "alt": "Carrito de la compra vacío en un supermercado.",
-        "titulo": "Shopping Cart Supermarket",
         "autor": "safaritravelplus",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=115816705",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Reduce los residuos y el gasto innecesario de recursos. <mark>Es como frenar poco a poco el desgaste del planeta</mark>. ¿Qué tipo de consumo tiene este efecto positivo?",
-      "respuesta": "<mark>El consumo responsable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-sociales/efectos-medio-ambiente.jpg",
+      "question": "Reduce los residuos y el gasto innecesario de recursos. <mark>Es como frenar poco a poco el desgaste del planeta</mark>. ¿Qué tipo de consumo tiene este efecto positivo?",
+      "answer": "<mark>El consumo responsable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-sociales/efectos-medio-ambiente.jpg",
+        "title": "Recycle here",
+        "source": "https://www.flickr.com/photos/56087830@N00/3424288852",
         "alt": "Contenedor de reciclaje para cuidar el medio ambiente.",
-        "titulo": "Recycle here",
         "autor": "markhillary",
-        "fuente": "https://www.flickr.com/photos/56087830@N00/3424288852",
         "licencia": "CC BY 2.0"
       }
     }

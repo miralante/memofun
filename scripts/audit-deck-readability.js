@@ -97,8 +97,8 @@ function wordCount(s) {
 
 function auditCard(card, idx, deckFile) {
   var flags = [];
-  var pregunta = (card.pregunta || '').trim();
-  var respuesta = (card.respuesta || '').trim();
+  var pregunta = (card.question || card.pregunta || '').trim();
+  var respuesta = (card.answer || card.respuesta || '').trim();
 
   // R7
   if (!pregunta || !respuesta) {
@@ -176,8 +176,9 @@ function auditDeck(deckFile) {
   try { deck = JSON.parse(raw); }
   catch (e) { return [{ file: deckFile, idx: -1, pregunta: '<parse error>', flags: [{ rule: 'X', msg: e.message }] }]; }
 
-  if (!Array.isArray(deck.tarjetas)) return [];
-  return deck.tarjetas.map(function (card, i) {
+  var cards = deck.cards || deck.tarjetas;
+  if (!Array.isArray(cards)) return [];
+  return cards.map(function (card, i) {
     return auditCard(card, i, deckFile);
   });
 }

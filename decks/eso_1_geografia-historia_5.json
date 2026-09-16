@@ -1,197 +1,197 @@
 {
-  "tema": "La Antigua Roma y la Hispania romana - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La Antigua Roma y la Hispania romana - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Empezó siendo un pueblo modesto junto al río Tíber, no el gran imperio que llegó a ser. <mark>Según la leyenda, dos hermanos fundaron esa pequeña ciudad</mark>. ¿Cómo se llamaban estos hermanos fundadores, según la leyenda?",
-      "respuesta": "<mark>Rómulo y Remo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/foro-romano.jpg",
+      "question": "Empezó siendo un pueblo modesto junto al río Tíber, no el gran imperio que llegó a ser. <mark>Según la leyenda, dos hermanos fundaron esa pequeña ciudad</mark>. ¿Cómo se llamaban estos hermanos fundadores, según la leyenda?",
+      "answer": "<mark>Rómulo y Remo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/foro-romano.jpg",
+        "title": "Roman Forum",
+        "source": "https://www.flickr.com/photos/91545223@N00/5409380582",
         "alt": "El Foro Romano, el corazón de la antigua Roma",
-        "titulo": "Roman Forum",
         "autor": "Benson Kua",
-        "fuente": "https://www.flickr.com/photos/91545223@N00/5409380582",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como tres capítulos distintos de la misma historia</mark>: reyes, senadores y luego emperadores. Cada etapa cambió cómo se tomaban las decisiones en Roma. ¿Cuáles fueron estas tres etapas políticas de Roma?",
-      "respuesta": "<mark>Monarquía, república e imperio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/foro-romano-2.jpg",
+      "question": "<mark>Es como tres capítulos distintos de la misma historia</mark>: reyes, senadores y luego emperadores. Cada etapa cambió cómo se tomaban las decisiones en Roma. ¿Cuáles fueron estas tres etapas políticas de Roma?",
+      "answer": "<mark>Monarquía, república e imperio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/foro-romano-2.jpg",
+        "title": "Foro Romano / Forum Romanum / Roman Forum",
+        "source": "https://www.flickr.com/photos/22746515@N02/8043630550",
         "alt": "Ruinas del Foro Romano en Roma",
-        "titulo": "Foro Romano / Forum Romanum / Roman Forum",
         "autor": "Bert Kaufmann",
-        "fuente": "https://www.flickr.com/photos/22746515@N02/8043630550",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Funcionaba casi como un consejo de sabios con mucho poder</mark>. Era una asamblea de ciudadanos importantes que decidía leyes, guerras e impuestos. ¿Cómo se llamaba esta asamblea que gobernaba Roma?",
-      "respuesta": "<mark>Senado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/curia-senado.jpg",
+      "question": "<mark>Funcionaba casi como un consejo de sabios con mucho poder</mark>. Era una asamblea de ciudadanos importantes que decidía leyes, guerras e impuestos. ¿Cómo se llamaba esta asamblea que gobernaba Roma?",
+      "answer": "<mark>Senado</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/curia-senado.jpg",
+        "title": "The Curia - Roman Senate ruins",
+        "source": "https://www.flickr.com/photos/85071122@N05/9485579457",
         "alt": "La Curia, ruinas del edificio del Senado romano",
-        "titulo": "The Curia - Roman Senate ruins",
         "autor": "fullon2012",
-        "fuente": "https://www.flickr.com/photos/85071122@N05/9485579457",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como pasar de decidir entre varios a que decida solo uno</mark>. El poder pasó a manos de un único gobernante, el emperador. ¿Cómo se llamó el primer emperador romano?",
-      "respuesta": "<mark>Augusto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/busto-emperador.jpg",
+      "question": "<mark>Es como pasar de decidir entre varios a que decida solo uno</mark>. El poder pasó a manos de un único gobernante, el emperador. ¿Cómo se llamó el primer emperador romano?",
+      "answer": "<mark>Augusto</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/busto-emperador.jpg",
+        "title": "Marble bust of the Roman Emperor Caligula made in Asia Minor about 40 CE (2)",
+        "source": "https://www.flickr.com/photos/44124324682@N01/450081115",
         "alt": "Un busto de mármol de un emperador romano",
-        "titulo": "Marble bust of the Roman Emperor Caligula made in Asia Minor about 40 CE (2)",
         "autor": "mharrsch",
-        "fuente": "https://www.flickr.com/photos/44124324682@N01/450081115",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como cuando una moda se extiende y todos visten parecido</mark>. Los territorios conquistados adoptaban el idioma, las leyes y las costumbres romanas. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Romanización</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/calzada-romana.jpg",
+      "question": "<mark>Es como cuando una moda se extiende y todos visten parecido</mark>. Los territorios conquistados adoptaban el idioma, las leyes y las costumbres romanas. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Romanización</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/calzada-romana.jpg",
+        "title": "Ancient Paved Road at Bosra, Syria.",
+        "source": "https://www.flickr.com/photos/34561917@N04/5467960007",
         "alt": "Una calzada de piedra construida por los romanos",
-        "titulo": "Ancient Paved Road at Bosra, Syria.",
         "autor": "isawnyu",
-        "fuente": "https://www.flickr.com/photos/34561917@N04/5467960007",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Algunas construcciones siguen en pie más de dos mil años después</mark>. Los romanos dominaban muy bien la construcción con piedra y cemento. ¿Cómo se llama el gran anfiteatro romano que aún se conserva en Roma?",
-      "respuesta": "<mark>El Coliseo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/coliseo-roma.jpg",
+      "question": "<mark>Algunas construcciones siguen en pie más de dos mil años después</mark>. Los romanos dominaban muy bien la construcción con piedra y cemento. ¿Cómo se llama el gran anfiteatro romano que aún se conserva en Roma?",
+      "answer": "<mark>El Coliseo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/coliseo-roma.jpg",
+        "title": "El Coliseo, Roma",
+        "source": "https://www.flickr.com/photos/147153897@N06/46463860564",
         "alt": "El Coliseo de Roma, un anfiteatro romano que se conserva hoy",
-        "titulo": "El Coliseo, Roma",
         "autor": "Angel Talansky",
-        "fuente": "https://www.flickr.com/photos/147153897@N06/46463860564",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Al principio fue perseguida, pero acabó siendo la religión oficial del imperio</mark>. Creía en un único dios y en las enseñanzas de Jesús de Nazaret. ¿Cómo se llama esta religión?",
-      "respuesta": "<mark>Cristianismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/basilica-cristiana.jpg",
+      "question": "<mark>Al principio fue perseguida, pero acabó siendo la religión oficial del imperio</mark>. Creía en un único dios y en las enseñanzas de Jesús de Nazaret. ¿Cómo se llama esta religión?",
+      "answer": "<mark>Cristianismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/basilica-cristiana.jpg",
+        "title": "Basilica of San Vitale, Ravenna",
+        "source": "https://www.flickr.com/photos/61533954@N00/6867498250",
         "alt": "Una basílica cristiana antigua con mosaicos",
-        "titulo": "Basilica of San Vitale, Ravenna",
         "autor": "Dimitry B",
-        "fuente": "https://www.flickr.com/photos/61533954@N00/6867498250",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Convivió, no siempre en paz, con el poder romano en Judea</mark>. Era la religión del pueblo judío, basada en un solo dios y su ley. ¿Cómo se llama esta religión del pueblo judío?",
-      "respuesta": "<mark>Judaísmo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/jerusalen-antigua.jpg",
+      "question": "<mark>Convivió, no siempre en paz, con el poder romano en Judea</mark>. Era la religión del pueblo judío, basada en un solo dios y su ley. ¿Cómo se llama esta religión del pueblo judío?",
+      "answer": "<mark>Judaísmo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/jerusalen-antigua.jpg",
+        "title": "Old city of Jerusalem - Israël",
+        "source": "https://www.flickr.com/photos/17616316@N00/4674193049",
         "alt": "La ciudad vieja de Jerusalén, con sus antiguos muros de piedra",
-        "titulo": "Old city of Jerusalem - Israël",
         "autor": "Emmanuel Dyan",
-        "fuente": "https://www.flickr.com/photos/17616316@N00/4674193049",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cada pueblo tenía su propia lengua y costumbres, sin un país único. <mark>Fenicios y griegos también fundaron colonias comerciales en la costa</mark>. ¿Qué pueblos vivían en la península antes de los romanos?",
-      "respuesta": "<mark>Iberos, celtas y tartesios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/dama-elche.jpg",
+      "question": "Cada pueblo tenía su propia lengua y costumbres, sin un país único. <mark>Fenicios y griegos también fundaron colonias comerciales en la costa</mark>. ¿Qué pueblos vivían en la península antes de los romanos?",
+      "answer": "<mark>Iberos, celtas y tartesios</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/dama-elche.jpg",
+        "title": "Dama de Elche (M.A.N. Madrid) 01",
+        "source": "https://www.flickr.com/photos/44949176@N00/348212134",
         "alt": "La Dama de Elche, una escultura ibera",
-        "titulo": "Dama de Elche (M.A.N. Madrid) 01",
         "autor": "Zaqarbal",
-        "fuente": "https://www.flickr.com/photos/44949176@N00/348212134",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Fue un proceso largo, de casi doscientos años, con muchas resistencias</mark>. No fue una conquista rápida, sino una guerra larga y desgastante. ¿Qué pueblo luchó con más fuerza contra esa conquista?",
-      "respuesta": "<mark>Los celtíberos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/soldados-romanos.jpg",
+      "question": "<mark>Fue un proceso largo, de casi doscientos años, con muchas resistencias</mark>. No fue una conquista rápida, sino una guerra larga y desgastante. ¿Qué pueblo luchó con más fuerza contra esa conquista?",
+      "answer": "<mark>Los celtíberos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/soldados-romanos.jpg",
+        "title": "Roman Soldiers",
+        "source": "https://www.flickr.com/photos/89165847@N00/5916194928",
         "alt": "Soldados romanos con su armadura y equipo",
-        "titulo": "Roman Soldiers",
         "autor": "mikecogh",
-        "fuente": "https://www.flickr.com/photos/89165847@N00/5916194928",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como el primer gran nombre común que tuvo toda la península</mark>. De él viene, siglos después, el nombre 'España'. ¿Cómo llamaron los romanos a la Península Ibérica?",
-      "respuesta": "<mark>Hispania</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/acueducto-segovia.jpg",
+      "question": "<mark>Es como el primer gran nombre común que tuvo toda la península</mark>. De él viene, siglos después, el nombre 'España'. ¿Cómo llamaron los romanos a la Península Ibérica?",
+      "answer": "<mark>Hispania</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/acueducto-segovia.jpg",
+        "title": "Acueducto Romano (Segovia, España)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=16748746",
         "alt": "El acueducto romano de Segovia, en Hispania",
-        "titulo": "Acueducto Romano (Segovia, España)",
         "autor": "Felver Alfonzo",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=16748746",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "La romanización dejó <mark>ciudades como Mérida o Tarragona</mark>, calzadas, acueductos y puentes que aún existen. También dejó una lengua que hoy sigue viva. ¿Qué lengua romana dio origen al español actual?",
-      "respuesta": "<mark>El latín</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/teatro-romano-merida.jpg",
+      "question": "La romanización dejó <mark>ciudades como Mérida o Tarragona</mark>, calzadas, acueductos y puentes que aún existen. También dejó una lengua que hoy sigue viva. ¿Qué lengua romana dio origen al español actual?",
+      "answer": "<mark>El latín</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/teatro-romano-merida.jpg",
+        "title": "Teatro Romano Mérida",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=28037314",
         "alt": "El teatro romano de Mérida, una ciudad de la Hispania romana",
-        "titulo": "Teatro Romano Mérida",
         "autor": "HERNAJM",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=28037314",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Llegaron cuando el Imperio romano ya se estaba desmoronando. <mark>Formaron un reino propio, con capital en Toledo</mark>. ¿Cómo se llamaba este pueblo germánico?",
-      "respuesta": "<mark>Los visigodos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/corona-recesvinto.jpg",
+      "question": "Llegaron cuando el Imperio romano ya se estaba desmoronando. <mark>Formaron un reino propio, con capital en Toledo</mark>. ¿Cómo se llamaba este pueblo germánico?",
+      "answer": "<mark>Los visigodos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/corona-recesvinto.jpg",
+        "title": "Corona de Recesvinto - Corona votiva",
+        "source": "https://www.flickr.com/photos/70626035@N00/15009972181",
         "alt": "La corona de Recesvinto, una joya visigoda",
-        "titulo": "Corona de Recesvinto - Corona votiva",
         "autor": "jacilluch",
-        "fuente": "https://www.flickr.com/photos/70626035@N00/15009972181",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Fue como un edificio enorme que se fue agrietando poco a poco</mark>. El Imperio romano se debilitó por crisis internas y ataques de pueblos germánicos. ¿En qué año cayó el Imperio romano de Occidente?",
-      "respuesta": "<mark>476</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/anfiteatro-romano.jpg",
+      "question": "<mark>Fue como un edificio enorme que se fue agrietando poco a poco</mark>. El Imperio romano se debilitó por crisis internas y ataques de pueblos germánicos. ¿En qué año cayó el Imperio romano de Occidente?",
+      "answer": "<mark>476</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/anfiteatro-romano.jpg",
+        "title": "Overview of the massive Roman era amphitheatre",
+        "source": "https://www.flickr.com/photos/77742560@N06/16128886519",
         "alt": "Un gran anfiteatro romano en ruinas",
-        "titulo": "Overview of the massive Roman era amphitheatre",
         "autor": "shankar s.",
-        "fuente": "https://www.flickr.com/photos/77742560@N06/16128886519",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los romanos copiaron y perfeccionaron muchas ideas artísticas griegas. <mark>Incluye esculturas, mosaicos y edificios monumentales</mark>, con mucho realismo. ¿Cómo se llama este arte, muy influido por Grecia?",
-      "respuesta": "<mark>Arte romano</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/mosaico-romano.jpg",
+      "question": "Los romanos copiaron y perfeccionaron muchas ideas artísticas griegas. <mark>Incluye esculturas, mosaicos y edificios monumentales</mark>, con mucho realismo. ¿Cómo se llama este arte, muy influido por Grecia?",
+      "answer": "<mark>Arte romano</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/mosaico-romano.jpg",
+        "title": "Mosaico romano de la Catedral de Santa María la Vieja, Cartagena",
+        "source": "https://www.flickr.com/photos/24326886@N03/6045731778",
         "alt": "Un mosaico romano con figuras y formas geométricas",
-        "titulo": "Mosaico romano de la Catedral de Santa María la Vieja, Cartagena",
         "autor": "amaianos",
-        "fuente": "https://www.flickr.com/photos/24326886@N03/6045731778",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como si un solo país hubiera unido Europa, África y Oriente Próximo</mark>. Roma conectó con las mismas leyes, idioma y caminos territorios muy lejanos. ¿Qué construyó Roma para conectar todos esos territorios?",
-      "respuesta": "<mark>Una red de caminos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_5/via-appia.jpg",
+      "question": "<mark>Es como si un solo país hubiera unido Europa, África y Oriente Próximo</mark>. Roma conectó con las mismas leyes, idioma y caminos territorios muy lejanos. ¿Qué construyó Roma para conectar todos esos territorios?",
+      "answer": "<mark>Una red de caminos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_5/via-appia.jpg",
+        "title": "Via Appia ruins",
+        "source": "https://www.flickr.com/photos/70591690@N00/688344822",
         "alt": "La Vía Apia, una calzada romana que conectaba territorios",
-        "titulo": "Via Appia ruins",
         "autor": "ZeroOne",
-        "fuente": "https://www.flickr.com/photos/70591690@N00/688344822",
         "licencia": "CC BY-SA 2.0"
       }
     }

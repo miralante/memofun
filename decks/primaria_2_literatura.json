@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 2º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 2º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Todo cuento tiene dos partes que nunca pueden faltar. Una empieza la historia y otra la cierra. <mark>Es como un viaje: hace falta salida y llegada</mark>. ¿Qué dos partes son estas?",
-      "respuesta": "<mark>Principio y final</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura/camino-hacia-el-horizonte.jpg",
+      "question": "Todo cuento tiene dos partes que nunca pueden faltar. Una empieza la historia y otra la cierra. <mark>Es como un viaje: hace falta salida y llegada</mark>. ¿Qué dos partes son estas?",
+      "answer": "<mark>Principio y final</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura/camino-hacia-el-horizonte.jpg",
+        "title": "path",
+        "source": "https://www.flickr.com/photos/47231550@N07/4685330421",
         "alt": "Un camino de tierra entre dos campos verdes que se pierde en el horizonte, bajo un cielo azul con nubes",
-        "titulo": "path",
         "autor": "Eddi 07- Free Stock",
-        "fuente": "https://www.flickr.com/photos/47231550@N07/4685330421",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al leer esta parte de un cuento, conoces quién es el protagonista y dónde ocurre la historia. <mark>Por ejemplo: 'Había una vez un niño en un pueblo'</mark>. ¿Cómo se llama esta parte?",
-      "respuesta": "<mark>El principio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura/libros-ilustrados.jpg",
+      "question": "Al leer esta parte de un cuento, conoces quién es el protagonista y dónde ocurre la historia. <mark>Por ejemplo: 'Había una vez un niño en un pueblo'</mark>. ¿Cómo se llama esta parte?",
+      "answer": "<mark>El principio</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura/libros-ilustrados.jpg",
+        "title": "Picture Books",
+        "source": "https://www.flickr.com/photos/47823583@N03/4385119849",
         "alt": "Libros ilustrados infantiles",
-        "titulo": "Picture Books",
         "autor": "Enokson",
-        "fuente": "https://www.flickr.com/photos/47823583@N03/4385119849",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esta parte resuelve lo que le pasaba al protagonista y cierra la historia. <mark>Puede ser feliz o triste</mark>. ¿Cómo se llama esta parte de un cuento?",
-      "respuesta": "<mark>El final</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura/mascaras-teatro.jpg",
+      "question": "Esta parte resuelve lo que le pasaba al protagonista y cierra la historia. <mark>Puede ser feliz o triste</mark>. ¿Cómo se llama esta parte de un cuento?",
+      "answer": "<mark>El final</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura/mascaras-teatro.jpg",
+        "title": "Tragedy and Comedy",
+        "source": "https://www.flickr.com/photos/93416311@N00/8094737104",
         "alt": "Dos máscaras doradas de teatro: una con cara triste y otra con cara alegre",
-        "titulo": "Tragedy and Comedy",
         "autor": "Tim Green aka atoach",
-        "fuente": "https://www.flickr.com/photos/93416311@N00/8094737104",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "No basta con leer las palabras de un cuento. Hay que imaginar la historia y pensar en los personajes. <mark>Así el cuento cobra vida en tu cabeza</mark>. ¿Cómo se llama hacer esto bien?",
-      "respuesta": "<mark>Comprender</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura/ninos-leyendo.jpg",
+      "question": "No basta con leer las palabras de un cuento. Hay que imaginar la historia y pensar en los personajes. <mark>Así el cuento cobra vida en tu cabeza</mark>. ¿Cómo se llama hacer esto bien?",
+      "answer": "<mark>Comprender</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura/ninos-leyendo.jpg",
+        "title": "Children reading c.1960 'Celebrating World Book Day'",
+        "source": "https://www.flickr.com/photos/35759981@N08/15963758684",
         "alt": "Niños leyendo con atención",
-        "titulo": "Children reading c.1960 'Celebrating World Book Day'",
         "autor": "Archives New Zealand",
-        "fuente": "https://www.flickr.com/photos/35759981@N08/15963758684",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cuando entiendes bien un cuento, puedes explicarlo tú solo</mark>. No hace falta repetir las palabras exactas del libro. Se lo cuentas a otra persona y tiene sentido. ¿Qué es esto que puedes hacer?",
-      "respuesta": "<mark>Contarlo con tus palabras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura/ninos-compartiendo-cuento.jpg",
+      "question": "<mark>Cuando entiendes bien un cuento, puedes explicarlo tú solo</mark>. No hace falta repetir las palabras exactas del libro. Se lo cuentas a otra persona y tiene sentido. ¿Qué es esto que puedes hacer?",
+      "answer": "<mark>Contarlo con tus palabras</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura/ninos-compartiendo-cuento.jpg",
+        "title": "Vision :'A Book in Every Child's Hand'",
+        "source": "https://www.flickr.com/photos/35026043@N03/3291759617",
         "alt": "Cuatro niños sentados en la entrada de una casa, cada uno leyendo su propio libro",
-        "titulo": "Vision :'A Book in Every Child's Hand'",
         "autor": "Pratham Books",
-        "fuente": "https://www.flickr.com/photos/35026043@N03/3291759617",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esto convierte las palabras de un cuento en imágenes en tu mente. <mark>Así vives la historia como si la vieras</mark>. Cada persona lo hace de forma distinta. ¿Cómo se llama esto que haces al leer?",
-      "respuesta": "<mark>Imaginar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura/libros-e-imaginacion.jpg",
+      "question": "Esto convierte las palabras de un cuento en imágenes en tu mente. <mark>Así vives la historia como si la vieras</mark>. Cada persona lo hace de forma distinta. ¿Cómo se llama esto que haces al leer?",
+      "answer": "<mark>Imaginar</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura/libros-e-imaginacion.jpg",
+        "title": "A Child's Imagination Has No Boundaries",
+        "source": "https://www.flickr.com/photos/97651299@N00/27330045556",
         "alt": "Varios libros infantiles de colores puestos en círculo alrededor de un globo terráqueo",
-        "titulo": "A Child's Imagination Has No Boundaries",
         "autor": "Carol (vanhookc)",
-        "fuente": "https://www.flickr.com/photos/97651299@N00/27330045556",
         "licencia": "CC BY-SA 2.0"
       }
     }

@@ -1,59 +1,59 @@
 {
-  "tema": "Ciencias Sociales 3º de Primaria: los sectores económicos, primario, secundario y terciario",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Ciencias Sociales 3º de Primaria: los sectores económicos, primario, secundario y terciario",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un grupo de trabajos parecidos entre sí, <mark>como juntar oficios en distintos equipos</mark>. Hay tres grandes grupos: primario, secundario y terciario. ¿Cómo se llama cada uno de esos grupos?",
-      "respuesta": "<mark>Sector económico</mark>"
+      "question": "Es un grupo de trabajos parecidos entre sí, <mark>como juntar oficios en distintos equipos</mark>. Hay tres grandes grupos: primario, secundario y terciario. ¿Cómo se llama cada uno de esos grupos?",
+      "answer": "<mark>Sector económico</mark>"
     },
     {
-      "pregunta": "Este grupo de trabajos obtiene recursos de la naturaleza, <mark>como recoger directamente lo que da la tierra o el mar</mark>. Incluye la agricultura, la ganadería y la pesca. ¿Cómo se llama este grupo de trabajos?",
-      "respuesta": "<mark>Sector primario</mark>"
+      "question": "Este grupo de trabajos obtiene recursos de la naturaleza, <mark>como recoger directamente lo que da la tierra o el mar</mark>. Incluye la agricultura, la ganadería y la pesca. ¿Cómo se llama este grupo de trabajos?",
+      "answer": "<mark>Sector primario</mark>"
     },
     {
-      "pregunta": "Es cultivar la tierra para obtener alimentos, <mark>como cuidar un huerto gigante para mucha gente</mark>. Se cultivan frutas, verduras o cereales. ¿Cómo se llama este trabajo?",
-      "respuesta": "<mark>Agricultura</mark>"
+      "question": "Es cultivar la tierra para obtener alimentos, <mark>como cuidar un huerto gigante para mucha gente</mark>. Se cultivan frutas, verduras o cereales. ¿Cómo se llama este trabajo?",
+      "answer": "<mark>Agricultura</mark>"
     },
     {
-      "pregunta": "Es criar animales para obtener alimentos o materiales, <mark>como cuidar una gran familia de animales cada día</mark>. Por ejemplo, vacas para leche o gallinas para huevos. ¿Cómo se llama este trabajo?",
-      "respuesta": "<mark>Ganadería</mark>"
+      "question": "Es criar animales para obtener alimentos o materiales, <mark>como cuidar una gran familia de animales cada día</mark>. Por ejemplo, vacas para leche o gallinas para huevos. ¿Cómo se llama este trabajo?",
+      "answer": "<mark>Ganadería</mark>"
     },
     {
-      "pregunta": "Es capturar peces y otros animales del mar o los ríos, <mark>como recoger comida escondida bajo el agua</mark>. Los pescadores salen en barcos para conseguirla. ¿Cómo se llama este trabajo?",
-      "respuesta": "<mark>Pesca</mark>"
+      "question": "Es capturar peces y otros animales del mar o los ríos, <mark>como recoger comida escondida bajo el agua</mark>. Los pescadores salen en barcos para conseguirla. ¿Cómo se llama este trabajo?",
+      "answer": "<mark>Pesca</mark>"
     },
     {
-      "pregunta": "Este grupo de trabajos transforma materias primas en productos, <mark>como una fábrica que convierte ingredientes en un plato terminado</mark>. Por ejemplo, convierte madera en muebles. ¿Cómo se llama este grupo de trabajos?",
-      "respuesta": "<mark>Sector secundario</mark>"
+      "question": "Este grupo de trabajos transforma materias primas en productos, <mark>como una fábrica que convierte ingredientes en un plato terminado</mark>. Por ejemplo, convierte madera en muebles. ¿Cómo se llama este grupo de trabajos?",
+      "answer": "<mark>Sector secundario</mark>"
     },
     {
-      "pregunta": "Una fábrica de coches junta muchas piezas distintas, <mark>como montar un puzle gigante, pieza a pieza</mark>. Cada trabajador se encarga de una parte. ¿A qué sector pertenece este tipo de trabajo?",
-      "respuesta": "<mark>Sector secundario</mark>"
+      "question": "Una fábrica de coches junta muchas piezas distintas, <mark>como montar un puzle gigante, pieza a pieza</mark>. Cada trabajador se encarga de una parte. ¿A qué sector pertenece este tipo de trabajo?",
+      "answer": "<mark>Sector secundario</mark>"
     },
     {
-      "pregunta": "Uno obtiene recursos directos de la naturaleza, como el algodón. El otro los transforma en productos nuevos, como camisetas. <mark>Es como pasar de la materia prima al objeto terminado</mark>. ¿Cuál de los dos transforma los recursos?",
-      "respuesta": "<mark>Sector secundario</mark>"
+      "question": "Uno obtiene recursos directos de la naturaleza, como el algodón. El otro los transforma en productos nuevos, como camisetas. <mark>Es como pasar de la materia prima al objeto terminado</mark>. ¿Cuál de los dos transforma los recursos?",
+      "answer": "<mark>Sector secundario</mark>"
     },
     {
-      "pregunta": "Este grupo de trabajos ofrece servicios a las personas, <mark>como ayudar a otros con una tarea, en vez de fabricar algo</mark>. Por ejemplo, enseñar, curar o vender. ¿Cómo se llama este grupo de trabajos?",
-      "respuesta": "<mark>Sector terciario</mark>"
+      "question": "Este grupo de trabajos ofrece servicios a las personas, <mark>como ayudar a otros con una tarea, en vez de fabricar algo</mark>. Por ejemplo, enseñar, curar o vender. ¿Cómo se llama este grupo de trabajos?",
+      "answer": "<mark>Sector terciario</mark>"
     },
     {
-      "pregunta": "Profesores, médicos, vendedores y conductores de autobús hacen este trabajo, <mark>como ayudantes que hacen la vida diaria más fácil</mark>. Todos ofrecen un servicio, no un producto fabricado. ¿A qué sector pertenecen estos trabajos?",
-      "respuesta": "<mark>Sector terciario</mark>"
+      "question": "Profesores, médicos, vendedores y conductores de autobús hacen este trabajo, <mark>como ayudantes que hacen la vida diaria más fácil</mark>. Todos ofrecen un servicio, no un producto fabricado. ¿A qué sector pertenecen estos trabajos?",
+      "answer": "<mark>Sector terciario</mark>"
     },
     {
-      "pregunta": "Cada vez necesitamos más servicios distintos en la vida diaria, <mark>como necesitar más ayudantes para tareas diferentes</mark>. Comprar, viajar o aprender requieren personas que ayuden. ¿Qué sector crece por esta razón?",
-      "respuesta": "<mark>Sector terciario</mark>"
+      "question": "Cada vez necesitamos más servicios distintos en la vida diaria, <mark>como necesitar más ayudantes para tareas diferentes</mark>. Comprar, viajar o aprender requieren personas que ayuden. ¿Qué sector crece por esta razón?",
+      "answer": "<mark>Sector terciario</mark>"
     },
     {
-      "pregunta": "El sector primario cultivó el trigo. El sector secundario lo transformó en harina y pan. Por último, alguien lo vendió en la panadería, <mark>como el último paso de una carrera de relevos</mark>. ¿Qué sector vendió el pan al final?",
-      "respuesta": "<mark>Sector terciario</mark>"
+      "question": "El sector primario cultivó el trigo. El sector secundario lo transformó en harina y pan. Por último, alguien lo vendió en la panadería, <mark>como el último paso de una carrera de relevos</mark>. ¿Qué sector vendió el pan al final?",
+      "answer": "<mark>Sector terciario</mark>"
     },
     {
-      "pregunta": "Conocerlos te ayuda a entender de dónde vienen las cosas, <mark>como descubrir el camino escondido detrás de cada producto</mark>. Cada uno aporta un paso distinto en la cadena. ¿Cómo se llaman estos tres grupos de trabajos?",
-      "respuesta": "<mark>Sectores económicos</mark>"
+      "question": "Conocerlos te ayuda a entender de dónde vienen las cosas, <mark>como descubrir el camino escondido detrás de cada producto</mark>. Cada uno aporta un paso distinto en la cadena. ¿Cómo se llaman estos tres grupos de trabajos?",
+      "answer": "<mark>Sectores económicos</mark>"
     }
   ]
 }

@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 3º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 3º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Esto une dos cosas parecidas usando la palabra 'como'. <mark>Por ejemplo, decir que unos ojos brillan como estrellas</mark>. Ayuda a imaginar mejor lo que describe. ¿Cómo se llama este recurso?",
-      "respuesta": "<mark>Comparación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_4/comparacion-estrellas.jpg",
+      "question": "Esto une dos cosas parecidas usando la palabra 'como'. <mark>Por ejemplo, decir que unos ojos brillan como estrellas</mark>. Ayuda a imaginar mejor lo que describe. ¿Cómo se llama este recurso?",
+      "answer": "<mark>Comparación</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_4/comparacion-estrellas.jpg",
+        "title": "Starry night sky",
+        "source": "https://www.flickr.com/photos/36853543@N00/15617651723",
         "alt": "Un cielo nocturno lleno de estrellas brillantes, con árboles y una nube al fondo",
-        "titulo": "Starry night sky",
         "autor": "blackfog",
-        "fuente": "https://www.flickr.com/photos/36853543@N00/15617651723",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una palabra que imita un sonido real. <mark>Por ejemplo, 'guau' imita el ladrido de un perro</mark>. Leerla casi hace que oigas el sonido. ¿Cómo se llama este tipo de palabra?",
-      "respuesta": "<mark>Onomatopeya</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_4/perro-ladrando.jpg",
+      "question": "Es una palabra que imita un sonido real. <mark>Por ejemplo, 'guau' imita el ladrido de un perro</mark>. Leerla casi hace que oigas el sonido. ¿Cómo se llama este tipo de palabra?",
+      "answer": "<mark>Onomatopeya</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_4/perro-ladrando.jpg",
+        "title": "chihuahua barking at cows",
+        "source": "https://www.flickr.com/photos/202495821@N06/54471227952",
         "alt": "Un perro pequeño con la boca abierta, ladrando, junto a una valla en el campo",
-        "titulo": "chihuahua barking at cows",
         "autor": "njd2006",
-        "fuente": "https://www.flickr.com/photos/202495821@N06/54471227952",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una frase corta que guarda un consejo, repetida desde hace generaciones. <mark>Por ejemplo: 'quien mucho abarca, poco aprieta'</mark>. ¿Cómo se llama esta frase?",
-      "respuesta": "<mark>Refrán</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_4/abuelo-contando-historias.jpg",
+      "question": "Es una frase corta que guarda un consejo, repetida desde hace generaciones. <mark>Por ejemplo: 'quien mucho abarca, poco aprieta'</mark>. ¿Cómo se llama esta frase?",
+      "answer": "<mark>Refrán</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_4/abuelo-contando-historias.jpg",
+        "title": "Family listens to grandfather telling stories",
+        "source": "https://www.flickr.com/photos/95329455@N02/23401237352",
         "alt": "Una familia sentada en la hierba escucha a un abuelo mayor que les cuenta algo, en una foto antigua",
-        "titulo": "Family listens to grandfather telling stories",
         "autor": "simpleinsomnia",
-        "fuente": "https://www.flickr.com/photos/95329455@N02/23401237352",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una frase difícil de decir rápido, sin equivocarte. Las palabras se parecen tanto que la lengua se lía. <mark>Por ejemplo: 'tres tristes tigres tragan trigo'</mark>. ¿Cómo se llama esta frase?",
-      "respuesta": "<mark>Trabalenguas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_4/nina-lengua-fuera.jpg",
+      "question": "Es una frase difícil de decir rápido, sin equivocarte. Las palabras se parecen tanto que la lengua se lía. <mark>Por ejemplo: 'tres tristes tigres tragan trigo'</mark>. ¿Cómo se llama esta frase?",
+      "answer": "<mark>Trabalenguas</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_4/nina-lengua-fuera.jpg",
+        "title": "Ava sticks her tongue out",
+        "source": "https://www.flickr.com/photos/61625634@N00/2441617399",
         "alt": "Una niña pequeña sonríe y saca la lengua",
-        "titulo": "Ava sticks her tongue out",
         "autor": "visualthinker",
-        "fuente": "https://www.flickr.com/photos/61625634@N00/2441617399",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Esta canción se canta desde hace muchos años. <mark>Pasa de padres a hijos, como una receta de familia</mark>. Nadie recuerda quién la inventó primero. ¿Cómo se llama este tipo de canción?",
-      "respuesta": "<mark>Canción tradicional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_4/libro-canciones-tradicionales.jpg",
+      "question": "Esta canción se canta desde hace muchos años. <mark>Pasa de padres a hijos, como una receta de familia</mark>. Nadie recuerda quién la inventó primero. ¿Cómo se llama este tipo de canción?",
+      "answer": "<mark>Canción tradicional</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_4/libro-canciones-tradicionales.jpg",
+        "title": "Nursery Rhyme Book",
+        "source": "https://www.flickr.com/photos/32662631@N00/2988037090",
         "alt": "Portada antigua de un libro de canciones infantiles, con animales dibujados tocando instrumentos musicales",
-        "titulo": "Nursery Rhyme Book",
         "autor": "HerryLawford",
-        "fuente": "https://www.flickr.com/photos/32662631@N00/2988037090",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Este poema cuenta una historia, no solo sentimientos. <mark>Tiene personajes y algo que les va pasando, como un cuento</mark>. Está escrito en versos, con ritmo. ¿Cómo se llama este tipo de poema?",
-      "respuesta": "<mark>Poema narrativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_4/nina-leyendo-cuento.jpg",
+      "question": "Este poema cuenta una historia, no solo sentimientos. <mark>Tiene personajes y algo que les va pasando, como un cuento</mark>. Está escrito en versos, con ritmo. ¿Cómo se llama este tipo de poema?",
+      "answer": "<mark>Poema narrativo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_4/nina-leyendo-cuento.jpg",
+        "title": "Mufeida reading a story",
+        "source": "https://www.flickr.com/photos/35026043@N03/3378184309",
         "alt": "Una niña lee un cuento en voz alta a un grupo de niños que la escuchan sentados",
-        "titulo": "Mufeida reading a story",
         "autor": "Pratham Books",
-        "fuente": "https://www.flickr.com/photos/35026043@N03/3378184309",
         "licencia": "CC BY 2.0"
       }
     }

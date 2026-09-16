@@ -1,79 +1,79 @@
 {
-  "tema": "Capitales del Mundo (2)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Capitales del Mundo (2)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Está construida sobre catorce islas. <mark>Sus puentes la conectan como un rompecabezas de piedra y agua</mark>. Allí se entregan cada año los Premios Nobel. ¿Cuál es la capital de Suecia?",
-      "respuesta": "<mark>Estocolmo</mark>"
+      "question": "Está construida sobre catorce islas. <mark>Sus puentes la conectan como un rompecabezas de piedra y agua</mark>. Allí se entregan cada año los Premios Nobel. ¿Cuál es la capital de Suecia?",
+      "answer": "<mark>Estocolmo</mark>"
     },
     {
-      "pregunta": "<mark>Está tan cerca de la naturaleza que se puede esquiar a pocos minutos del centro</mark>. Allí se entrega el Premio Nobel de la Paz. ¿Cuál es la capital de Noruega?",
-      "respuesta": "<mark>Oslo</mark>"
+      "question": "<mark>Está tan cerca de la naturaleza que se puede esquiar a pocos minutos del centro</mark>. Allí se entrega el Premio Nobel de la Paz. ¿Cuál es la capital de Noruega?",
+      "answer": "<mark>Oslo</mark>"
     },
     {
-      "pregunta": "<mark>Tiene más bicicletas que habitantes, como si cada persona tuviera dos ruedas propias</mark>. Allí está la estatua de la Sirenita. ¿Cuál es la capital de Dinamarca?",
-      "respuesta": "<mark>Copenhague</mark>"
+      "question": "<mark>Tiene más bicicletas que habitantes, como si cada persona tuviera dos ruedas propias</mark>. Allí está la estatua de la Sirenita. ¿Cuál es la capital de Dinamarca?",
+      "answer": "<mark>Copenhague</mark>"
     },
     {
-      "pregunta": "Está junto al mar Báltico. <mark>En invierno, el sol apenas asoma unas horas al día</mark>. Es conocida por su buen sistema educativo. ¿Cuál es la capital de Finlandia?",
-      "respuesta": "<mark>Helsinki</mark>"
+      "question": "Está junto al mar Báltico. <mark>En invierno, el sol apenas asoma unas horas al día</mark>. Es conocida por su buen sistema educativo. ¿Cuál es la capital de Finlandia?",
+      "answer": "<mark>Helsinki</mark>"
     },
     {
-      "pregunta": "Fue reconstruida casi entera tras la Segunda Guerra Mundial. <mark>Su casco antiguo se levantó piedra a piedra, como un rompecabezas gigante</mark>. Hoy parece medieval, aunque es mucho más reciente. ¿Cuál es la capital de Polonia?",
-      "respuesta": "<mark>Varsovia</mark>"
+      "question": "Fue reconstruida casi entera tras la Segunda Guerra Mundial. <mark>Su casco antiguo se levantó piedra a piedra, como un rompecabezas gigante</mark>. Hoy parece medieval, aunque es mucho más reciente. ¿Cuál es la capital de Polonia?",
+      "answer": "<mark>Varsovia</mark>"
     },
     {
-      "pregunta": "Está en pleno desierto. <mark>Ha crecido tan rápido como si pasara de pueblo a metrópoli en un día</mark>. Tiene algunos de los rascacielos más altos de Oriente Medio. ¿Cuál es la capital de Arabia Saudí?",
-      "respuesta": "<mark>Riad</mark>"
+      "question": "Está en pleno desierto. <mark>Ha crecido tan rápido como si pasara de pueblo a metrópoli en un día</mark>. Tiene algunos de los rascacielos más altos de Oriente Medio. ¿Cuál es la capital de Arabia Saudí?",
+      "answer": "<mark>Riad</mark>"
     },
     {
-      "pregunta": "No es la ciudad más famosa del país; esa es otra con playas y rascacielos conocidos. <mark>Es el emirato más grande y con más petróleo</mark>, y allí gobiernan los siete emiratos. ¿Cuál es la capital de los Emiratos Árabes Unidos?",
-      "respuesta": "<mark>Abu Dabi</mark>"
+      "question": "No es la ciudad más famosa del país; esa es otra con playas y rascacielos conocidos. <mark>Es el emirato más grande y con más petróleo</mark>, y allí gobiernan los siete emiratos. ¿Cuál es la capital de los Emiratos Árabes Unidos?",
+      "answer": "<mark>Abu Dabi</mark>"
     },
     {
-      "pregunta": "No es la ciudad más conocida del país; esa es Estambul. <mark>Aquí gobierna el país, como un director de orquesta que no es la estrella del cartel</mark>. Se eligió capital en 1923. ¿Cuál es la capital de Turquía?",
-      "respuesta": "<mark>Ankara</mark>"
+      "question": "No es la ciudad más conocida del país; esa es Estambul. <mark>Aquí gobierna el país, como un director de orquesta que no es la estrella del cartel</mark>. Se eligió capital en 1923. ¿Cuál es la capital de Turquía?",
+      "answer": "<mark>Ankara</mark>"
     },
     {
-      "pregunta": "Está atravesada por canales y por un gran río. <mark>Sus templos dorados brillan al sol como pequeños tesoros repartidos por la ciudad</mark>. Es una de las ciudades más visitadas del mundo. ¿Cuál es la capital de Tailandia?",
-      "respuesta": "<mark>Bangkok</mark>"
+      "question": "Está atravesada por canales y por un gran río. <mark>Sus templos dorados brillan al sol como pequeños tesoros repartidos por la ciudad</mark>. Es una de las ciudades más visitadas del mundo. ¿Cuál es la capital de Tailandia?",
+      "answer": "<mark>Bangkok</mark>"
     },
     {
-      "pregunta": "No es la ciudad más grande y conocida del país: aquí está el gobierno. <mark>Tiene más de mil años de historia y calles muy estrechas en su casco antiguo</mark>. ¿Cuál es la capital de Vietnam?",
-      "respuesta": "<mark>Hanói</mark>"
+      "question": "No es la ciudad más grande y conocida del país: aquí está el gobierno. <mark>Tiene más de mil años de historia y calles muy estrechas en su casco antiguo</mark>. ¿Cuál es la capital de Vietnam?",
+      "answer": "<mark>Hanói</mark>"
     },
     {
-      "pregunta": "Está en una gran isla. <mark>Es una de las ciudades que más rápido se hunden, como si el suelo cediera bajo su propio peso</mark>. Por eso el país construye una nueva capital. ¿Cuál es la capital de Indonesia?",
-      "respuesta": "<mark>Yakarta</mark>"
+      "question": "Está en una gran isla. <mark>Es una de las ciudades que más rápido se hunden, como si el suelo cediera bajo su propio peso</mark>. Por eso el país construye una nueva capital. ¿Cuál es la capital de Indonesia?",
+      "answer": "<mark>Yakarta</mark>"
     },
     {
-      "pregunta": "Está atravesada por un gran río. <mark>De noche se ilumina entera, como un tablero electrónico gigante</mark>. Tiene palacios antiguos junto a rascacielos. ¿Cuál es la capital de Corea del Sur?",
-      "respuesta": "<mark>Seúl</mark>"
+      "question": "Está atravesada por un gran río. <mark>De noche se ilumina entera, como un tablero electrónico gigante</mark>. Tiene palacios antiguos junto a rascacielos. ¿Cuál es la capital de Corea del Sur?",
+      "answer": "<mark>Seúl</mark>"
     },
     {
-      "pregunta": "No es la ciudad más grande y conocida del país. <mark>Aquí vive el rey, en una ciudad tranquila junto al océano Atlántico</mark>. ¿Cuál es la capital de Marruecos?",
-      "respuesta": "<mark>Rabat</mark>"
+      "question": "No es la ciudad más grande y conocida del país. <mark>Aquí vive el rey, en una ciudad tranquila junto al océano Atlántico</mark>. ¿Cuál es la capital de Marruecos?",
+      "answer": "<mark>Rabat</mark>"
     },
     {
-      "pregunta": "No es la ciudad más grande y conocida del país; esa es Lagos. <mark>Se construyó en el centro del territorio, como Brasilia en Brasil</mark>. Se convirtió en capital en 1991. ¿Cuál es la capital de Nigeria?",
-      "respuesta": "<mark>Abuya</mark>"
+      "question": "No es la ciudad más grande y conocida del país; esa es Lagos. <mark>Se construyó en el centro del territorio, como Brasilia en Brasil</mark>. Se convirtió en capital en 1991. ¿Cuál es la capital de Nigeria?",
+      "answer": "<mark>Abuya</mark>"
     },
     {
-      "pregunta": "Está a más de 1.600 metros de altitud. <mark>Tiene un parque con leones y jirafas junto a sus rascacielos, como si la sabana fuera su vecina</mark>. Muchos safaris empiezan allí. ¿Cuál es la capital de Kenia?",
-      "respuesta": "<mark>Nairobi</mark>"
+      "question": "Está a más de 1.600 metros de altitud. <mark>Tiene un parque con leones y jirafas junto a sus rascacielos, como si la sabana fuera su vecina</mark>. Muchos safaris empiezan allí. ¿Cuál es la capital de Kenia?",
+      "answer": "<mark>Nairobi</mark>"
     },
     {
-      "pregunta": "Está junto al océano Pacífico. <mark>Casi nunca llueve allí, aunque el cielo siempre promete lluvia y nunca la cumple</mark>. Fue clave durante la época colonial. ¿Cuál es la capital de Perú?",
-      "respuesta": "<mark>Lima</mark>"
+      "question": "Está junto al océano Pacífico. <mark>Casi nunca llueve allí, aunque el cielo siempre promete lluvia y nunca la cumple</mark>. Fue clave durante la época colonial. ¿Cuál es la capital de Perú?",
+      "answer": "<mark>Lima</mark>"
     },
     {
-      "pregunta": "Está rodeada por la cordillera de los Andes. <mark>Desde sus calles se ven montañas nevadas, como un telón de fondo que nunca cambia</mark>. Vive allí más de un tercio de la población del país. ¿Cuál es la capital de Chile?",
-      "respuesta": "<mark>Santiago</mark>"
+      "question": "Está rodeada por la cordillera de los Andes. <mark>Desde sus calles se ven montañas nevadas, como un telón de fondo que nunca cambia</mark>. Vive allí más de un tercio de la población del país. ¿Cuál es la capital de Chile?",
+      "answer": "<mark>Santiago</mark>"
     },
     {
-      "pregunta": "No es la ciudad más grande y conocida del país, como pasa con Canberra en Australia. <mark>Es una de las capitales más ventosas del mundo</mark>, en el extremo sur de una isla. ¿Cuál es la capital de Nueva Zelanda?",
-      "respuesta": "<mark>Wellington</mark>"
+      "question": "No es la ciudad más grande y conocida del país, como pasa con Canberra en Australia. <mark>Es una de las capitales más ventosas del mundo</mark>, en el extremo sur de una isla. ¿Cuál es la capital de Nueva Zelanda?",
+      "answer": "<mark>Wellington</mark>"
     }
   ]
 }

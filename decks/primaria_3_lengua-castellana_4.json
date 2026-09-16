@@ -1,59 +1,59 @@
 {
-  "tema": "Lengua Castellana 3º de Primaria: escribir descripciones, cartas y contar experiencias en orden",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Lengua Castellana 3º de Primaria: escribir descripciones, cartas y contar experiencias en orden",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es contar con palabras cómo es algo o alguien. Es <mark>como pintar un cuadro, pero usando palabras en vez de colores</mark>. Puedes describir una persona, un animal o un lugar. ¿Cómo se llama escribir así?",
-      "respuesta": "<mark>Descripción</mark>"
+      "question": "Es contar con palabras cómo es algo o alguien. Es <mark>como pintar un cuadro, pero usando palabras en vez de colores</mark>. Puedes describir una persona, un animal o un lugar. ¿Cómo se llama escribir así?",
+      "answer": "<mark>Descripción</mark>"
     },
     {
-      "pregunta": "Puedes contar cómo es su cara, su pelo o su ropa. Es <mark>como hacer un dibujo con palabras en vez de con lápiz</mark>. También puedes contar cómo es su carácter. ¿Cómo se llama describir así a una persona?",
-      "respuesta": "<mark>Retrato</mark>"
+      "question": "Puedes contar cómo es su cara, su pelo o su ropa. Es <mark>como hacer un dibujo con palabras en vez de con lápiz</mark>. También puedes contar cómo es su carácter. ¿Cómo se llama describir así a una persona?",
+      "answer": "<mark>Retrato</mark>"
     },
     {
-      "pregunta": "Puedes contar cómo es el paisaje, los colores o los sonidos, <mark>como grabar un vídeo con palabras de ese sitio</mark>. Por ejemplo, \"el parque tiene árboles altos y pájaros cantando\". ¿Cómo se llama describir así un lugar?",
-      "respuesta": "<mark>Descripción de un lugar</mark>"
+      "question": "Puedes contar cómo es el paisaje, los colores o los sonidos, <mark>como grabar un vídeo con palabras de ese sitio</mark>. Por ejemplo, \"el parque tiene árboles altos y pájaros cantando\". ¿Cómo se llama describir así un lugar?",
+      "answer": "<mark>Descripción de un lugar</mark>"
     },
     {
-      "pregunta": "Añaden detalles que hacen la imagen más clara para quien lee. Es <mark>como añadir color a un dibujo que antes era solo líneas</mark>. \"Un perro grande y peludo\" dice más que solo \"un perro\". ¿Qué palabras hacen la descripción más viva?",
-      "respuesta": "<mark>Adjetivos</mark>"
+      "question": "Añaden detalles que hacen la imagen más clara para quien lee. Es <mark>como añadir color a un dibujo que antes era solo líneas</mark>. \"Un perro grande y peludo\" dice más que solo \"un perro\". ¿Qué palabras hacen la descripción más viva?",
+      "answer": "<mark>Adjetivos</mark>"
     },
     {
-      "pregunta": "Es un texto escrito para comunicarte con alguien que no está presente. Es <mark>como una conversación que viaja en papel hasta otra persona</mark>. Puede ser para un familiar o un amigo. ¿Cómo se llama este texto?",
-      "respuesta": "<mark>Carta</mark>"
+      "question": "Es un texto escrito para comunicarte con alguien que no está presente. Es <mark>como una conversación que viaja en papel hasta otra persona</mark>. Puede ser para un familiar o un amigo. ¿Cómo se llama este texto?",
+      "answer": "<mark>Carta</mark>"
     },
     {
-      "pregunta": "Una carta sencilla empieza con esto, dirigido a la persona. Es <mark>como decir \"hola\" antes de empezar a contar algo</mark>. Por ejemplo, \"Querida abuela\" o \"Hola, Pablo\". ¿Cómo se llama esta primera parte de la carta?",
-      "respuesta": "<mark>Saludo</mark>"
+      "question": "Una carta sencilla empieza con esto, dirigido a la persona. Es <mark>como decir \"hola\" antes de empezar a contar algo</mark>. Por ejemplo, \"Querida abuela\" o \"Hola, Pablo\". ¿Cómo se llama esta primera parte de la carta?",
+      "answer": "<mark>Saludo</mark>"
     },
     {
-      "pregunta": "Ahí se cuenta lo que quieres contarle a esa persona. Es <mark>como el corazón de la conversación en papel</mark>. Puedes contar novedades, hacer preguntas o dar las gracias. ¿Cómo se llama esta parte más larga de la carta?",
-      "respuesta": "<mark>Cuerpo de la carta</mark>"
+      "question": "Ahí se cuenta lo que quieres contarle a esa persona. Es <mark>como el corazón de la conversación en papel</mark>. Puedes contar novedades, hacer preguntas o dar las gracias. ¿Cómo se llama esta parte más larga de la carta?",
+      "answer": "<mark>Cuerpo de la carta</mark>"
     },
     {
-      "pregunta": "Una carta sencilla termina con esto, junto a tu nombre. Es <mark>como decir \"adiós\" antes de colgar una llamada</mark>. Por ejemplo, \"Un abrazo, Marta\". ¿Cómo se llama esta última parte de la carta?",
-      "respuesta": "<mark>Despedida</mark>"
+      "question": "Una carta sencilla termina con esto, junto a tu nombre. Es <mark>como decir \"adiós\" antes de colgar una llamada</mark>. Por ejemplo, \"Un abrazo, Marta\". ¿Cómo se llama esta última parte de la carta?",
+      "answer": "<mark>Despedida</mark>"
     },
     {
-      "pregunta": "Invitas a un amigo a tu cumpleaños con una carta, <mark>como una entrada que no puede faltar en la fiesta</mark>. Hay datos que no puedes olvidar para que no se pierda. ¿Qué tres datos no puedes olvidar en esa invitación?",
-      "respuesta": "<mark>Día, hora y lugar</mark>"
+      "question": "Invitas a un amigo a tu cumpleaños con una carta, <mark>como una entrada que no puede faltar en la fiesta</mark>. Hay datos que no puedes olvidar para que no se pierda. ¿Qué tres datos no puedes olvidar en esa invitación?",
+      "answer": "<mark>Día, hora y lugar</mark>"
     },
     {
-      "pregunta": "Significa contar lo que te pasó siguiendo el orden real, <mark>como poner las fotos de un día en la fila correcta</mark>. Primero lo que pasó, después lo siguiente. ¿Cómo se llama contar así, siguiendo el orden real?",
-      "respuesta": "<mark>Orden cronológico</mark>"
+      "question": "Significa contar lo que te pasó siguiendo el orden real, <mark>como poner las fotos de un día en la fila correcta</mark>. Primero lo que pasó, después lo siguiente. ¿Cómo se llama contar así, siguiendo el orden real?",
+      "answer": "<mark>Orden cronológico</mark>"
     },
     {
-      "pregunta": "Palabras como \"primero\", \"después\" y \"al final\" marcan el camino. Son <mark>como flechas que guían el camino de la historia</mark>. Ayudan a que quien escucha no se pierda. ¿Cómo se llama este tipo de palabras que ordenan la historia?",
-      "respuesta": "<mark>Conectores de orden</mark>"
+      "question": "Palabras como \"primero\", \"después\" y \"al final\" marcan el camino. Son <mark>como flechas que guían el camino de la historia</mark>. Ayudan a que quien escucha no se pierda. ¿Cómo se llama este tipo de palabras que ordenan la historia?",
+      "answer": "<mark>Conectores de orden</mark>"
     },
     {
-      "pregunta": "Para contar tu último cumpleaños, podrías empezar contando cómo te despertaste. Es <mark>como abrir el telón de una obra antes de que empiece</mark>. Podrías terminar contando el momento de apagar las velas. ¿Qué dos partes de la historia darías forma así?",
-      "respuesta": "<mark>Principio y final</mark>"
+      "question": "Para contar tu último cumpleaños, podrías empezar contando cómo te despertaste. Es <mark>como abrir el telón de una obra antes de que empiece</mark>. Podrías terminar contando el momento de apagar las velas. ¿Qué dos partes de la historia darías forma así?",
+      "answer": "<mark>Principio y final</mark>"
     },
     {
-      "pregunta": "Así quien escucha entiende mejor toda la historia. Es <mark>como armar un puzle empezando por las piezas de las esquinas</mark>. Si cuentas todo desordenado, es más difícil seguir el hilo. ¿Cómo se llama contar los hechos en el orden en que pasaron?",
-      "respuesta": "<mark>Orden cronológico</mark>"
+      "question": "Así quien escucha entiende mejor toda la historia. Es <mark>como armar un puzle empezando por las piezas de las esquinas</mark>. Si cuentas todo desordenado, es más difícil seguir el hilo. ¿Cómo se llama contar los hechos en el orden en que pasaron?",
+      "answer": "<mark>Orden cronológico</mark>"
     }
   ]
 }

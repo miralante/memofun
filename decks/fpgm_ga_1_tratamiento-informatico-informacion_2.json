@@ -1,125 +1,125 @@
 {
-  "tema": "Bases de datos, internet y seguridad informática - FP GM Gestión Administrativa (1º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Bases de datos, internet y seguridad informática - FP GM Gestión Administrativa (1º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un conjunto organizado de información guardada en un ordenador. <mark>Es como un archivador digital, mucho más rápido de consultar</mark>. Permite guardar, buscar y actualizar grandes cantidades de información. ¿Cómo se llama este conjunto?",
-      "respuesta": "<mark>Base de datos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+      "question": "Es un conjunto organizado de información guardada en un ordenador. <mark>Es como un archivador digital, mucho más rápido de consultar</mark>. Permite guardar, buscar y actualizar grandes cantidades de información. ¿Cómo se llama este conjunto?",
+      "answer": "<mark>Base de datos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+        "title": "Datacenter Work",
+        "source": "https://www.flickr.com/photos/29479498@N05/4381851322",
         "alt": "Servidores informaticos donde se almacenan datos",
-        "titulo": "Datacenter Work",
         "autor": "Leonardo Rizzi",
-        "fuente": "https://www.flickr.com/photos/29479498@N05/4381851322",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Aquí se organizan los datos en filas y columnas, según un tema. <mark>Es como una hoja de cálculo, pero para guardar información relacionada</mark>. Cada fila es un registro; cada columna, un dato. ¿Cómo se llama esta parte de la base de datos?",
-      "respuesta": "<mark>Tabla</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+      "question": "Aquí se organizan los datos en filas y columnas, según un tema. <mark>Es como una hoja de cálculo, pero para guardar información relacionada</mark>. Cada fila es un registro; cada columna, un dato. ¿Cómo se llama esta parte de la base de datos?",
+      "answer": "<mark>Tabla</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+        "title": "Datacenter Work",
+        "source": "https://www.flickr.com/photos/29479498@N05/4381851322",
         "alt": "Servidores informaticos donde se almacenan datos",
-        "titulo": "Datacenter Work",
         "autor": "Leonardo Rizzi",
-        "fuente": "https://www.flickr.com/photos/29479498@N05/4381851322",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es una pregunta que se hace a la base de datos para obtener información. <mark>Es como preguntarle a un archivador gigante 'enséñame solo esto'</mark>. Permite filtrar, ordenar o combinar datos. ¿Cómo se llama esta pregunta?",
-      "respuesta": "<mark>Consulta</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/buscar-lupa.jpg",
+      "question": "Es una pregunta que se hace a la base de datos para obtener información. <mark>Es como preguntarle a un archivador gigante 'enséñame solo esto'</mark>. Permite filtrar, ordenar o combinar datos. ¿Cómo se llama esta pregunta?",
+      "answer": "<mark>Consulta</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/buscar-lupa.jpg",
+        "title": "Search.",
+        "source": "https://www.flickr.com/photos/31437555@N00/5133538450",
         "alt": "Una lupa sobre un texto, representando una busqueda",
-        "titulo": "Search.",
         "autor": "Jeffrey Beall",
-        "fuente": "https://www.flickr.com/photos/31437555@N00/5133538450",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un documento que presenta de forma clara y ordenada los datos de una consulta. <mark>Es como convertir datos sueltos en algo fácil de leer y presentar</mark>. Se usa mucho para mostrar resultados, como listados de ventas. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Informe</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/informe-papel.jpg",
+      "question": "Es un documento que presenta de forma clara y ordenada los datos de una consulta. <mark>Es como convertir datos sueltos en algo fácil de leer y presentar</mark>. Se usa mucho para mostrar resultados, como listados de ventas. ¿Cómo se llama este documento?",
+      "answer": "<mark>Informe</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/informe-papel.jpg",
+        "title": "1980 Report Card",
+        "source": "https://www.flickr.com/photos/83346641@N00/5119801008",
         "alt": "Un informe impreso en papel",
-        "titulo": "1980 Report Card",
         "autor": "JD Hancock",
-        "fuente": "https://www.flickr.com/photos/83346641@N00/5119801008",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Antes de creer un dato en internet, conviene comprobar quién te lo está dando. <mark>Es bueno contrastarlo con otras páginas si es posible</mark>. No toda la información en internet es correcta o está actualizada. ¿Qué hay que comprobar sobre la información encontrada?",
-      "respuesta": "<mark>Que la fuente sea fiable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/buscar-lupa.jpg",
+      "question": "Antes de creer un dato en internet, conviene comprobar quién te lo está dando. <mark>Es bueno contrastarlo con otras páginas si es posible</mark>. No toda la información en internet es correcta o está actualizada. ¿Qué hay que comprobar sobre la información encontrada?",
+      "answer": "<mark>Que la fuente sea fiable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/buscar-lupa.jpg",
+        "title": "Search.",
+        "source": "https://www.flickr.com/photos/31437555@N00/5133538450",
         "alt": "Una lupa sobre un texto, representando una busqueda",
-        "titulo": "Search.",
         "autor": "Jeffrey Beall",
-        "fuente": "https://www.flickr.com/photos/31437555@N00/5133538450",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de medidas para proteger los datos y los equipos frente a amenazas. <mark>Es como cerrar con llave los datos importantes de una oficina</mark>, en el mundo digital. Incluye contraseñas seguras y antivirus. ¿Cómo se llama este conjunto de medidas?",
-      "respuesta": "<mark>Seguridad informática</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/candado-seguridad.jpg",
+      "question": "Es el conjunto de medidas para proteger los datos y los equipos frente a amenazas. <mark>Es como cerrar con llave los datos importantes de una oficina</mark>, en el mundo digital. Incluye contraseñas seguras y antivirus. ¿Cómo se llama este conjunto de medidas?",
+      "answer": "<mark>Seguridad informática</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/candado-seguridad.jpg",
+        "title": "Security",
+        "source": "https://www.flickr.com/photos/15923063@N00/2294144289",
         "alt": "Un candado que representa la seguridad y la proteccion",
-        "titulo": "Security",
         "autor": "CarbonNYC [in SF!]",
-        "fuente": "https://www.flickr.com/photos/15923063@N00/2294144289",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un duplicado de los datos importantes, guardado aparte por si algo falla. <mark>Es como guardar un duplicado impreso de un documento, por si el original se pierde</mark>. Permite recuperar la información si el equipo falla. ¿Cómo se llama esta copia?",
-      "respuesta": "<mark>Copia de seguridad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/disco-duro.jpg",
+      "question": "Es un duplicado de los datos importantes, guardado aparte por si algo falla. <mark>Es como guardar un duplicado impreso de un documento, por si el original se pierde</mark>. Permite recuperar la información si el equipo falla. ¿Cómo se llama esta copia?",
+      "answer": "<mark>Copia de seguridad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/disco-duro.jpg",
+        "title": "Hard Drive",
+        "source": "https://www.flickr.com/photos/26782864@N00/11644168395",
         "alt": "Un disco duro donde se guardan copias de seguridad",
-        "titulo": "Hard Drive",
         "autor": "wwarby",
-        "fuente": "https://www.flickr.com/photos/26782864@N00/11644168395",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a su información personal</mark>. Las empresas deben guardarla con cuidado y no usarla sin permiso. ¿Cómo se llama este conjunto de normas?",
-      "respuesta": "<mark>Protección de datos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/candado-seguridad.jpg",
+      "question": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a su información personal</mark>. Las empresas deben guardarla con cuidado y no usarla sin permiso. ¿Cómo se llama este conjunto de normas?",
+      "answer": "<mark>Protección de datos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/candado-seguridad.jpg",
+        "title": "Security",
+        "source": "https://www.flickr.com/photos/15923063@N00/2294144289",
         "alt": "Un candado que representa la seguridad y la proteccion",
-        "titulo": "Security",
         "autor": "CarbonNYC [in SF!]",
-        "fuente": "https://www.flickr.com/photos/15923063@N00/2294144289",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Estas protegen la información de accesos no autorizados en el trabajo. <mark>Es como poner una buena cerradura a una puerta con información valiosa</mark>. Una débil es fácil de adivinar o descubrir. ¿Cómo deben ser las contraseñas en el trabajo?",
-      "respuesta": "<mark>Seguras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/contrasena-segura.jpg",
+      "question": "Estas protegen la información de accesos no autorizados en el trabajo. <mark>Es como poner una buena cerradura a una puerta con información valiosa</mark>. Una débil es fácil de adivinar o descubrir. ¿Cómo deben ser las contraseñas en el trabajo?",
+      "answer": "<mark>Seguras</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/contrasena-segura.jpg",
+        "title": "IT Security Schlüssel Key vor Crypto-Hintergrund - Silber Passwort",
+        "source": "https://www.flickr.com/photos/140988606@N08/41042793204",
         "alt": "Una llave sobre un fondo digital, como símbolo de una contraseña segura",
-        "titulo": "IT Security Schlüssel Key vor Crypto-Hintergrund - Silber Passwort",
         "autor": "Christoph Scholz",
-        "fuente": "https://www.flickr.com/photos/140988606@N08/41042793204",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Estas herramientas permiten guardar y consultar rápido información de clientes, empleados o productos. <mark>Es como tener toda la memoria de la empresa organizada y accesible</mark>. Son claves en cualquier oficina moderna. ¿Qué herramienta organiza toda esa información?",
-      "respuesta": "<mark>Las bases de datos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+      "question": "Estas herramientas permiten guardar y consultar rápido información de clientes, empleados o productos. <mark>Es como tener toda la memoria de la empresa organizada y accesible</mark>. Son claves en cualquier oficina moderna. ¿Qué herramienta organiza toda esa información?",
+      "answer": "<mark>Las bases de datos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion_2/centro-datos.jpg",
+        "title": "Datacenter Work",
+        "source": "https://www.flickr.com/photos/29479498@N05/4381851322",
         "alt": "Servidores informaticos donde se almacenan datos",
-        "titulo": "Datacenter Work",
         "autor": "Leonardo Rizzi",
-        "fuente": "https://www.flickr.com/photos/29479498@N05/4381851322",
         "licencia": "CC BY-SA 2.0"
       }
     }

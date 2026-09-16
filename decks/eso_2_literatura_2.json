@@ -1,89 +1,89 @@
 {
-  "tema": "Literatura - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es exagerar mucho algo para darle más fuerza. Por ejemplo, decir <mark>'te lo he dicho un millón de veces'</mark>. Nadie se lo cree literalmente, pero se entiende la idea. ¿Cómo se llama este recurso literario?",
-      "respuesta": "<mark>Hipérbole</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_2/vaca-gigante.jpg",
+      "question": "Es exagerar mucho algo para darle más fuerza. Por ejemplo, decir <mark>'te lo he dicho un millón de veces'</mark>. Nadie se lo cree literalmente, pero se entiende la idea. ¿Cómo se llama este recurso literario?",
+      "answer": "<mark>Hipérbole</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_2/vaca-gigante.jpg",
+        "title": "Salem Sue",
+        "source": "https://www.flickr.com/photos/98528214@N00/3693876263",
         "alt": "Una estatua enorme de una vaca, un ejemplo de exageración",
-        "titulo": "Salem Sue",
         "autor": "Furryscaly",
-        "fuente": "https://www.flickr.com/photos/98528214@N00/3693876263",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es dar cualidades humanas a algo que no es persona. Por ejemplo, decir que <mark>'el viento susurraba'</mark> entre los árboles. Ayuda a imaginar la naturaleza como si sintiera. ¿Cómo se llama este recurso literario?",
-      "respuesta": "<mark>Personificación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_2/hojas-viento.jpg",
+      "question": "Es dar cualidades humanas a algo que no es persona. Por ejemplo, decir que <mark>'el viento susurraba'</mark> entre los árboles. Ayuda a imaginar la naturaleza como si sintiera. ¿Cómo se llama este recurso literario?",
+      "answer": "<mark>Personificación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_2/hojas-viento.jpg",
+        "title": "The joy of Autumn",
+        "source": "https://www.flickr.com/photos/37072378@N08/8155707138",
         "alt": "Hojas moviéndose con el viento",
-        "titulo": "The joy of Autumn",
         "autor": "Orchids love rainwater",
-        "fuente": "https://www.flickr.com/photos/37072378@N08/8155707138",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cuenta las hazañas de un caballero desterrado de su tierra</mark>. Lucha para recuperar su honor y el cariño del rey. Es el cantar de gesta más importante en español. ¿Cómo se llama esta obra?",
-      "respuesta": "<mark>Cantar de Mio Cid</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_2/cid-estatua-burgos-1.jpg",
+      "question": "<mark>Cuenta las hazañas de un caballero desterrado de su tierra</mark>. Lucha para recuperar su honor y el cariño del rey. Es el cantar de gesta más importante en español. ¿Cómo se llama esta obra?",
+      "answer": "<mark>Cantar de Mio Cid</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_2/cid-estatua-burgos-1.jpg",
+        "title": "Burgos, estatua del Cid 3",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=89994212",
         "alt": "Estatua del Cid Campeador en Burgos, el héroe del Cantar de Mio Cid",
-        "titulo": "Burgos, estatua del Cid 3",
         "autor": "LBM1948",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=89994212",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Fue un caballero castellano que existió de verdad. <mark>Sus hazañas reales se mezclaron con historias inventadas</mark>. Su historia inspiró el cantar de gesta más famoso en español. ¿Quién fue este caballero?",
-      "respuesta": "<mark>El Cid Campeador</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_2/cid-estatua-burgos-2.jpg",
+      "question": "Fue un caballero castellano que existió de verdad. <mark>Sus hazañas reales se mezclaron con historias inventadas</mark>. Su historia inspiró el cantar de gesta más famoso en español. ¿Quién fue este caballero?",
+      "answer": "<mark>El Cid Campeador</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_2/cid-estatua-burgos-2.jpg",
+        "title": "Estatua Cid Campeador Burgos",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=132073103",
         "alt": "Estatua del Cid Campeador a caballo, en Burgos",
-        "titulo": "Estatua Cid Campeador Burgos",
         "autor": "Albxx",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=132073103",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Es un verso que no sigue una medida ni rima fijas. <mark>El poeta elige libremente cuántas sílabas y dónde cortar</mark>. Es una forma más moderna de escribir poesía. ¿Cómo se llama este tipo de verso?",
-      "respuesta": "<mark>Verso libre</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_2/pajaro-libre.jpg",
+      "question": "Es un verso que no sigue una medida ni rima fijas. <mark>El poeta elige libremente cuántas sílabas y dónde cortar</mark>. Es una forma más moderna de escribir poesía. ¿Cómo se llama este tipo de verso?",
+      "answer": "<mark>Verso libre</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_2/pajaro-libre.jpg",
+        "title": "Free as a Bird",
+        "source": "https://www.flickr.com/photos/25704219@N04/5281838905",
         "alt": "Un pájaro volando libremente",
-        "titulo": "Free as a Bird",
         "autor": "Vincent_AF",
-        "fuente": "https://www.flickr.com/photos/25704219@N04/5281838905",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es repetir la misma palabra al principio de varios versos. Por ejemplo: <mark>'Recuerdo... recuerdo... recuerdo aquel día'</mark>. Se usa para insistir en algo importante del poema. ¿Cómo se llama este recurso literario?",
-      "respuesta": "<mark>Anáfora</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_2/fichas-fila.jpg",
+      "question": "Es repetir la misma palabra al principio de varios versos. Por ejemplo: <mark>'Recuerdo... recuerdo... recuerdo aquel día'</mark>. Se usa para insistir en algo importante del poema. ¿Cómo se llama este recurso literario?",
+      "answer": "<mark>Anáfora</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_2/fichas-fila.jpg",
+        "title": "In a Row - Domino Drop - TROML - 1677",
+        "source": "https://www.flickr.com/photos/58827557@N06/30056990706",
         "alt": "Fichas colocadas en fila, como una repetición",
-        "titulo": "In a Row - Domino Drop - TROML - 1677",
         "autor": "Clint__Budd",
-        "fuente": "https://www.flickr.com/photos/58827557@N06/30056990706",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un recurso exagera el tamaño o la cantidad de algo. Otro da vida y sentimientos a algo que no es persona. <mark>Uno agranda la realidad; el otro la hace parecer humana</mark>. ¿Cuál de los dos da vida a algo que no es persona?",
-      "respuesta": "<mark>La personificación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_2/balanza.jpg",
+      "question": "Un recurso exagera el tamaño o la cantidad de algo. Otro da vida y sentimientos a algo que no es persona. <mark>Uno agranda la realidad; el otro la hace parecer humana</mark>. ¿Cuál de los dos da vida a algo que no es persona?",
+      "answer": "<mark>La personificación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_2/balanza.jpg",
+        "title": "'Balanza'.",
+        "source": "https://www.flickr.com/photos/37667416@N04/4030996641",
         "alt": "Una balanza comparando dos lados",
-        "titulo": "'Balanza'.",
         "autor": "Biblioteca Rector Machado y Nuñez",
-        "fuente": "https://www.flickr.com/photos/37667416@N04/4030996641",
         "licencia": "Public Domain"
       }
     }

@@ -1,125 +1,125 @@
 {
-  "tema": "La célula: ciclo celular, mitosis y meiosis - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La célula: ciclo celular, mitosis y meiosis - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Todos los seres vivos están formados por la misma pieza básica: la célula. <mark>Toda célula nace de otra célula anterior</mark>. Es una base fundamental de la biología moderna. ¿Cómo se llama esta idea?",
-      "respuesta": "<mark>Teoría celular</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-contenido.jpg",
+      "question": "Todos los seres vivos están formados por la misma pieza básica: la célula. <mark>Toda célula nace de otra célula anterior</mark>. Es una base fundamental de la biología moderna. ¿Cómo se llama esta idea?",
+      "answer": "<mark>Teoría celular</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-contenido.jpg",
+        "title": "Microscope Contained",
+        "source": "https://www.flickr.com/photos/41308227@N00/1953556697",
         "alt": "Un microscopio de laboratorio",
-        "titulo": "Microscope Contained",
         "autor": "gothick_matt",
-        "fuente": "https://www.flickr.com/photos/41308227@N00/1953556697",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cada avance técnico permitía ver un poco más de lo invisible. <mark>Al principio solo se veían células vegetales sencillas</mark>. Gracias a este instrumento se pudo formular la teoría celular. ¿Qué instrumento fue clave para descubrirlo?",
-      "respuesta": "<mark>El microscopio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-antiguo.jpg",
+      "question": "Cada avance técnico permitía ver un poco más de lo invisible. <mark>Al principio solo se veían células vegetales sencillas</mark>. Gracias a este instrumento se pudo formular la teoría celular. ¿Qué instrumento fue clave para descubrirlo?",
+      "answer": "<mark>El microscopio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/microscopio-antiguo.jpg",
+        "title": "1750 circa, brass compound microscope, Francis Watkins, England",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=37588864",
         "alt": "Un microscopio antiguo de latón",
-        "titulo": "1750 circa, brass compound microscope, Francis Watkins, England",
         "autor": "Daderot",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=37588864",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es el ciclo de vida completo de una célula. Empieza cuando nace y crece. <mark>Termina cuando se divide en dos</mark>. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Ciclo celular</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-metafase.jpg",
+      "question": "Es el ciclo de vida completo de una célula. Empieza cuando nace y crece. <mark>Termina cuando se divide en dos</mark>. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Ciclo celular</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-metafase.jpg",
+        "title": "2 - meta",
+        "source": "https://www.flickr.com/photos/57754818@N03/13012994595",
         "alt": "Una célula en la fase de metafase de la mitosis, vista al microscopio",
-        "titulo": "2 - meta",
         "autor": "matsjoyce",
-        "fuente": "https://www.flickr.com/photos/57754818@N03/13012994595",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como fotocopiar una célula</mark>. Se obtienen dos células exactamente iguales. Permite crecer y reparar tejidos dañados. ¿Cómo se llama este tipo de división?",
-      "respuesta": "<mark>Mitosis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/lirio-mitosis.jpg",
+      "question": "<mark>Es como fotocopiar una célula</mark>. Se obtienen dos células exactamente iguales. Permite crecer y reparar tejidos dañados. ¿Cómo se llama este tipo de división?",
+      "answer": "<mark>Mitosis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/lirio-mitosis.jpg",
+        "title": "lily mitosis",
+        "source": "https://www.flickr.com/photos/36128932@N03/3339221708",
         "alt": "Una célula de lirio en división, vista al microscopio",
-        "titulo": "lily mitosis",
         "autor": "kat m research",
-        "fuente": "https://www.flickr.com/photos/36128932@N03/3339221708",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como cambiar piezas gastadas de una máquina por otras nuevas</mark>. Así el cuerpo repara una herida en la piel. También permite crecer. ¿Qué proceso usa el cuerpo para lograrlo?",
-      "respuesta": "<mark>Mitosis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/vendaje-medico.jpg",
+      "question": "<mark>Es como cambiar piezas gastadas de una máquina por otras nuevas</mark>. Así el cuerpo repara una herida en la piel. También permite crecer. ¿Qué proceso usa el cuerpo para lograrlo?",
+      "answer": "<mark>Mitosis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/vendaje-medico.jpg",
+        "title": "MEDFLAG 2010, Medical Skills Exchange, Kinshasa, Democratic Republic of Congo, September 2010",
+        "source": "https://www.flickr.com/photos/36281822@N08/4985984627",
         "alt": "Alguien practicando cómo vendar una herida",
-        "titulo": "MEDFLAG 2010, Medical Skills Exchange, Kinshasa, Democratic Republic of Congo, September 2010",
         "autor": "US Army Africa",
-        "fuente": "https://www.flickr.com/photos/36281822@N08/4985984627",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como repartir la mitad de una baraja de cartas</mark>. El material genético se reduce a la mitad. Se usa para crear óvulos y espermatozoides. ¿Cómo se llama este tipo de división?",
-      "respuesta": "<mark>Meiosis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/baraja-cartas.jpg",
+      "question": "<mark>Es como repartir la mitad de una baraja de cartas</mark>. El material genético se reduce a la mitad. Se usa para crear óvulos y espermatozoides. ¿Cómo se llama este tipo de división?",
+      "answer": "<mark>Meiosis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/baraja-cartas.jpg",
+        "title": "Shuffling the deck",
+        "source": "https://www.flickr.com/photos/11121568@N06/4297057643",
         "alt": "Una baraja de cartas siendo repartida",
-        "titulo": "Shuffling the deck",
         "autor": "Alan Cleaver",
-        "fuente": "https://www.flickr.com/photos/11121568@N06/4297057643",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Sin ella, cada generación tendría el doble de genes que la anterior</mark>. Asegura el número correcto de cromosomas. También crea variedad genética entre hermanos. ¿Qué proceso hace esto posible?",
-      "respuesta": "<mark>Meiosis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/hermanos-familia.jpg",
+      "question": "<mark>Sin ella, cada generación tendría el doble de genes que la anterior</mark>. Asegura el número correcto de cromosomas. También crea variedad genética entre hermanos. ¿Qué proceso hace esto posible?",
+      "answer": "<mark>Meiosis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/hermanos-familia.jpg",
+        "title": "siblings",
+        "source": "https://www.flickr.com/photos/22519875@N08/5826652864",
         "alt": "Hermanos que se parecen pero son distintos entre sí",
-        "titulo": "siblings",
         "autor": "Dreaming in the deep south",
-        "fuente": "https://www.flickr.com/photos/22519875@N08/5826652864",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La mitosis crea dos células idénticas a la original. <mark>Este otro proceso crea cuatro células distintas entre sí</mark>. Reparte solo la mitad del material genético. ¿Cómo se llama este segundo proceso?",
-      "respuesta": "<mark>Meiosis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-anafase.jpg",
+      "question": "La mitosis crea dos células idénticas a la original. <mark>Este otro proceso crea cuatro células distintas entre sí</mark>. Reparte solo la mitad del material genético. ¿Cómo se llama este segundo proceso?",
+      "answer": "<mark>Meiosis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-anafase.jpg",
+        "title": "3 - meta and ana",
+        "source": "https://www.flickr.com/photos/57754818@N03/13012996185",
         "alt": "Una célula en división vista al microscopio",
-        "titulo": "3 - meta and ana",
         "autor": "matsjoyce",
-        "fuente": "https://www.flickr.com/photos/57754818@N03/13012996185",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como la sala donde se guardan las instrucciones de la célula</mark>. Ahí vive el material genético. Sin ella, la célula no podría dividirse. ¿Cómo se llama esta estructura?",
-      "respuesta": "<mark>Núcleo celular</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-citocinesis.jpg",
+      "question": "<mark>Es como la sala donde se guardan las instrucciones de la célula</mark>. Ahí vive el material genético. Sin ella, la célula no podría dividirse. ¿Cómo se llama esta estructura?",
+      "answer": "<mark>Núcleo celular</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/mitosis-citocinesis.jpg",
+        "title": "5 - cyto",
+        "source": "https://www.flickr.com/photos/57754818@N03/13013155193",
         "alt": "Una célula vista al microscopio en división",
-        "titulo": "5 - cyto",
         "autor": "matsjoyce",
-        "fuente": "https://www.flickr.com/photos/57754818@N03/13013155193",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como hacer fotografías de distintos momentos de un proceso</mark>. Cada imagen muestra una etapa del reparto genético. Se usan muestras de células en división. ¿Qué instrumento permite verlas?",
-      "respuesta": "<mark>Microscopio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_2/microscopio.jpg",
+      "question": "<mark>Es como hacer fotografías de distintos momentos de un proceso</mark>. Cada imagen muestra una etapa del reparto genético. Se usan muestras de células en división. ¿Qué instrumento permite verlas?",
+      "answer": "<mark>Microscopio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_2/microscopio.jpg",
+        "title": "Doctor with microscope, 1999",
+        "source": "https://www.flickr.com/photos/24256351@N04/4075303641",
         "alt": "Alguien observando una muestra con un microscopio",
-        "titulo": "Doctor with microscope, 1999",
         "autor": "Seattle Municipal Archives",
-        "fuente": "https://www.flickr.com/photos/24256351@N04/4075303641",
         "licencia": "CC BY 2.0"
       }
     }

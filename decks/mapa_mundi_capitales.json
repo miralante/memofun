@@ -1,83 +1,83 @@
 {
-  "tema": "Capitales del Mundo",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Capitales del Mundo",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es la ciudad donde vive el gobierno de un país. <mark>Es como la casa central de una empresa</mark>. No siempre es la más grande ni la más famosa del país. ¿Cómo se llama esa ciudad especial?",
-      "respuesta": "<mark>Capital</mark>"
+      "question": "Es la ciudad donde vive el gobierno de un país. <mark>Es como la casa central de una empresa</mark>. No siempre es la más grande ni la más famosa del país. ¿Cómo se llama esa ciudad especial?",
+      "answer": "<mark>Capital</mark>"
     },
     {
-      "pregunta": "Está en el centro del país. <mark>Gobiernan desde allí como desde el corazón de una estrella, con caminos en todas direcciones</mark>. Es la ciudad más poblada de España y tiene el Museo del Prado. ¿Cuál es la capital de España?",
-      "respuesta": "<mark>Madrid</mark>"
+      "question": "Está en el centro del país. <mark>Gobiernan desde allí como desde el corazón de una estrella, con caminos en todas direcciones</mark>. Es la ciudad más poblada de España y tiene el Museo del Prado. ¿Cuál es la capital de España?",
+      "answer": "<mark>Madrid</mark>"
     },
     {
-      "pregunta": "Está a orillas del río Sena. <mark>La Torre Eiffel es su símbolo, tan reconocible como una firma</mark>. Es la ciudad más visitada de Francia. ¿Cuál es la capital de Francia?",
-      "respuesta": "<mark>París</mark>"
+      "question": "Está a orillas del río Sena. <mark>La Torre Eiffel es su símbolo, tan reconocible como una firma</mark>. Es la ciudad más visitada de Francia. ¿Cuál es la capital de Francia?",
+      "answer": "<mark>París</mark>"
     },
     {
-      "pregunta": "Tiene miles de años de historia. <mark>Caminar por sus calles es como hojear un libro de historia al aire libre</mark>. Allí está el Coliseo y vive el Papa, dentro del Vaticano. ¿Cuál es la capital de Italia?",
-      "respuesta": "<mark>Roma</mark>"
+      "question": "Tiene miles de años de historia. <mark>Caminar por sus calles es como hojear un libro de historia al aire libre</mark>. Allí está el Coliseo y vive el Papa, dentro del Vaticano. ¿Cuál es la capital de Italia?",
+      "answer": "<mark>Roma</mark>"
     },
     {
-      "pregunta": "Está en el este del país. <mark>Un muro dividió la ciudad en dos durante casi 30 años, como una línea invisible que separaba familias</mark>, hasta caer en 1989. Hoy es una ciudad unida y muy moderna. ¿Cuál es la capital de Alemania?",
-      "respuesta": "<mark>Berlín</mark>"
+      "question": "Está en el este del país. <mark>Un muro dividió la ciudad en dos durante casi 30 años, como una línea invisible que separaba familias</mark>, hasta caer en 1989. Hoy es una ciudad unida y muy moderna. ¿Cuál es la capital de Alemania?",
+      "answer": "<mark>Berlín</mark>"
     },
     {
-      "pregunta": "Está a orillas del río Támesis. <mark>El Big Ben marca las horas como un reloj gigante que toda la ciudad escucha</mark>. Allí vive la familia real. ¿Cuál es la capital del Reino Unido?",
-      "respuesta": "<mark>Londres</mark>"
+      "question": "Está a orillas del río Támesis. <mark>El Big Ben marca las horas como un reloj gigante que toda la ciudad escucha</mark>. Allí vive la familia real. ¿Cuál es la capital del Reino Unido?",
+      "answer": "<mark>Londres</mark>"
     },
     {
-      "pregunta": "Está junto al océano Atlántico. <mark>Sus calles suben y bajan como olas de piedra, por eso tiene tranvías amarillos tan famosos</mark>. Es una de las capitales más antiguas de Europa. ¿Cuál es la capital de Portugal?",
-      "respuesta": "<mark>Lisboa</mark>"
+      "question": "Está junto al océano Atlántico. <mark>Sus calles suben y bajan como olas de piedra, por eso tiene tranvías amarillos tan famosos</mark>. Es una de las capitales más antiguas de Europa. ¿Cuál es la capital de Portugal?",
+      "answer": "<mark>Lisboa</mark>"
     },
     {
-      "pregunta": "Es la ciudad más poblada de Europa. <mark>Su Plaza Roja, con cúpulas de colores, es como un cuadro pintado en piedra</mark>. Allí está el Kremlin, sede del gobierno. ¿Cuál es la capital de Rusia?",
-      "respuesta": "<mark>Moscú</mark>"
+      "question": "Es la ciudad más poblada de Europa. <mark>Su Plaza Roja, con cúpulas de colores, es como un cuadro pintado en piedra</mark>. Allí está el Kremlin, sede del gobierno. ¿Cuál es la capital de Rusia?",
+      "answer": "<mark>Moscú</mark>"
     },
     {
-      "pregunta": "No es Nueva York, aunque mucha gente se sorprende. <mark>Es como descubrir que el capitán de un equipo no es la estrella más famosa</mark>. Allí vive el presidente, en la Casa Blanca. ¿Cuál es la capital de Estados Unidos?",
-      "respuesta": "<mark>Washington D.C.</mark>"
+      "question": "No es Nueva York, aunque mucha gente se sorprende. <mark>Es como descubrir que el capitán de un equipo no es la estrella más famosa</mark>. Allí vive el presidente, en la Casa Blanca. ¿Cuál es la capital de Estados Unidos?",
+      "answer": "<mark>Washington D.C.</mark>"
     },
     {
-      "pregunta": "No es Toronto, la ciudad más conocida. <mark>Se eligió a propósito por estar entre dos regiones que hablan idiomas distintos, como un punto medio justo</mark>. Allí se reúne el Parlamento. ¿Cuál es la capital de Canadá?",
-      "respuesta": "<mark>Ottawa</mark>"
+      "question": "No es Toronto, la ciudad más conocida. <mark>Se eligió a propósito por estar entre dos regiones que hablan idiomas distintos, como un punto medio justo</mark>. Allí se reúne el Parlamento. ¿Cuál es la capital de Canadá?",
+      "answer": "<mark>Ottawa</mark>"
     },
     {
-      "pregunta": "Es una de las urbes más grandes del mundo, construida sobre un antiguo lago. <mark>Con el tiempo, lo que flotaba sobre el agua se volvió tierra firme</mark>. Fue antes la capital azteca, llamada Tenochtitlan. ¿Cuál es la capital de México?",
-      "respuesta": "<mark>Ciudad de México</mark>"
+      "question": "Es una de las urbes más grandes del mundo, construida sobre un antiguo lago. <mark>Con el tiempo, lo que flotaba sobre el agua se volvió tierra firme</mark>. Fue antes la capital azteca, llamada Tenochtitlan. ¿Cuál es la capital de México?",
+      "answer": "<mark>Ciudad de México</mark>"
     },
     {
-      "pregunta": "No es Río de Janeiro. <mark>Se construyó desde cero en pocos años, como armar una ciudad entera con las piezas de un solo plano</mark>. Su forma desde el aire recuerda a un avión. ¿Cuál es la capital de Brasil?",
-      "respuesta": "<mark>Brasilia</mark>"
+      "question": "No es Río de Janeiro. <mark>Se construyó desde cero en pocos años, como armar una ciudad entera con las piezas de un solo plano</mark>. Su forma desde el aire recuerda a un avión. ¿Cuál es la capital de Brasil?",
+      "answer": "<mark>Brasilia</mark>"
     },
     {
-      "pregunta": "Está junto al Río de la Plata. <mark>Su barrio de La Boca es tan colorido como una caja de lápices de colores</mark>. Es cuna del tango. ¿Cuál es la capital de Argentina?",
-      "respuesta": "<mark>Buenos Aires</mark>"
+      "question": "Está junto al Río de la Plata. <mark>Su barrio de La Boca es tan colorido como una caja de lápices de colores</mark>. Es cuna del tango. ¿Cuál es la capital de Argentina?",
+      "answer": "<mark>Buenos Aires</mark>"
     },
     {
-      "pregunta": "Es una de las ciudades más pobladas del planeta. <mark>De noche, sus luces de neón la convierten en un mapa de estrellas hecho por personas</mark>. Combina templos antiguos con rascacielos modernos. ¿Cuál es la capital de Japón?",
-      "respuesta": "<mark>Tokio</mark>"
+      "question": "Es una de las ciudades más pobladas del planeta. <mark>De noche, sus luces de neón la convierten en un mapa de estrellas hecho por personas</mark>. Combina templos antiguos con rascacielos modernos. ¿Cuál es la capital de Japón?",
+      "answer": "<mark>Tokio</mark>"
     },
     {
-      "pregunta": "Tiene más de 3.000 años de historia. <mark>Su Ciudad Prohibida fue el palacio de los emperadores, cerrada como un secreto guardado durante siglos</mark>. Cerca está también la Gran Muralla. ¿Cuál es la capital de China?",
-      "respuesta": "<mark>Pekín</mark>"
+      "question": "Tiene más de 3.000 años de historia. <mark>Su Ciudad Prohibida fue el palacio de los emperadores, cerrada como un secreto guardado durante siglos</mark>. Cerca está también la Gran Muralla. ¿Cuál es la capital de China?",
+      "answer": "<mark>Pekín</mark>"
     },
     {
-      "pregunta": "Está junto a la vieja ciudad de Delhi. <mark>Son como dos hermanas, una moderna y otra antigua, viviendo pared con pared</mark>. Allí está la Puerta de India, un gran monumento. ¿Cuál es la capital de India?",
-      "respuesta": "<mark>Nueva Delhi</mark>"
+      "question": "Está junto a la vieja ciudad de Delhi. <mark>Son como dos hermanas, una moderna y otra antigua, viviendo pared con pared</mark>. Allí está la Puerta de India, un gran monumento. ¿Cuál es la capital de India?",
+      "answer": "<mark>Nueva Delhi</mark>"
     },
     {
-      "pregunta": "Está cerca del río Nilo. <mark>A las afueras están las pirámides de Guiza, como gigantes de piedra vigilando la ciudad desde hace miles de años</mark>. Es la ciudad más grande de África. ¿Cuál es la capital de Egipto?",
-      "respuesta": "<mark>El Cairo</mark>"
+      "question": "Está cerca del río Nilo. <mark>A las afueras están las pirámides de Guiza, como gigantes de piedra vigilando la ciudad desde hace miles de años</mark>. Es la ciudad más grande de África. ¿Cuál es la capital de Egipto?",
+      "answer": "<mark>El Cairo</mark>"
     },
     {
-      "pregunta": "<mark>Es como repartir el trabajo de un jefe entre varias oficinas distintas: una gobierna, una hace las leyes y otra juzga</mark>. Ningún otro país reparte así sus capitales. ¿Cuántas capitales tiene Sudáfrica?",
-      "respuesta": "<mark>Tres</mark>"
+      "question": "<mark>Es como repartir el trabajo de un jefe entre varias oficinas distintas: una gobierna, una hace las leyes y otra juzga</mark>. Ningún otro país reparte así sus capitales. ¿Cuántas capitales tiene Sudáfrica?",
+      "answer": "<mark>Tres</mark>"
     },
     {
-      "pregunta": "No es Sídney. <mark>Se eligió un punto medio entre dos ciudades rivales, como un árbitro que no favorece a ningún equipo</mark>. Está entre Sídney y Melbourne. ¿Cuál es la capital de Australia?",
-      "respuesta": "<mark>Canberra</mark>"
+      "question": "No es Sídney. <mark>Se eligió un punto medio entre dos ciudades rivales, como un árbitro que no favorece a ningún equipo</mark>. Está entre Sídney y Melbourne. ¿Cuál es la capital de Australia?",
+      "answer": "<mark>Canberra</mark>"
     }
   ]
 }

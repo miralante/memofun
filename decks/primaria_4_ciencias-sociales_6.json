@@ -1,55 +1,55 @@
 {
-  "tema": "Paisaje, ciudad y pueblo, transportes, la Unión Europea y patrimonio - 4º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Paisaje, ciudad y pueblo, transportes, la Unión Europea y patrimonio - 4º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es la franja de tierra donde el mar toca el país. <mark>Es como el borde de una manta, justo donde empieza el agua</mark>. España la tiene en el Mediterráneo, el Atlántico y el Cantábrico. ¿Cómo se llama esta franja donde el mar toca la tierra?",
-      "respuesta": "<mark>Costas</mark>"
+      "question": "Es la franja de tierra donde el mar toca el país. <mark>Es como el borde de una manta, justo donde empieza el agua</mark>. España la tiene en el Mediterráneo, el Atlántico y el Cantábrico. ¿Cómo se llama esta franja donde el mar toca la tierra?",
+      "answer": "<mark>Costas</mark>"
     },
     {
-      "pregunta": "Son zonas altas y con pendiente, agrupadas en cordilleras. <mark>Son como arrugas gigantes en la piel de la Tierra</mark>. Los Pirineos y Sierra Nevada son ejemplos conocidos. ¿Cómo se llaman estas zonas altas de España?",
-      "respuesta": "<mark>Montañas</mark>"
+      "question": "Son zonas altas y con pendiente, agrupadas en cordilleras. <mark>Son como arrugas gigantes en la piel de la Tierra</mark>. Los Pirineos y Sierra Nevada son ejemplos conocidos. ¿Cómo se llaman estas zonas altas de España?",
+      "answer": "<mark>Montañas</mark>"
     },
     {
-      "pregunta": "Hay mucha gente, edificios altos y mucho movimiento. <mark>Es como una colmena, siempre llena de actividad</mark>. Hay más tiendas, transportes y servicios cerca de casa. ¿Cómo se llama este tipo de lugar para vivir?",
-      "respuesta": "<mark>Ciudad</mark>"
+      "question": "Hay mucha gente, edificios altos y mucho movimiento. <mark>Es como una colmena, siempre llena de actividad</mark>. Hay más tiendas, transportes y servicios cerca de casa. ¿Cómo se llama este tipo de lugar para vivir?",
+      "answer": "<mark>Ciudad</mark>"
     },
     {
-      "pregunta": "Hay menos gente y las casas tienen más espacio alrededor. <mark>Es como una calle tranquila donde casi todos se conocen</mark>. La naturaleza y el silencio están más cerca de casa. ¿Cómo se llama este tipo de lugar para vivir?",
-      "respuesta": "<mark>Pueblo</mark>"
+      "question": "Hay menos gente y las casas tienen más espacio alrededor. <mark>Es como una calle tranquila donde casi todos se conocen</mark>. La naturaleza y el silencio están más cerca de casa. ¿Cómo se llama este tipo de lugar para vivir?",
+      "answer": "<mark>Pueblo</mark>"
     },
     {
-      "pregunta": "En España se usan medios distintos según la distancia: coche, autobús, avión o barco. <mark>Es como tener herramientas distintas según cuán lejos vayas</mark>. Uno de ellos conecta ciudades muy rápido, a alta velocidad. ¿Qué medio de transporte conecta ciudades españolas a alta velocidad?",
-      "respuesta": "<mark>Tren</mark>"
+      "question": "En España se usan medios distintos según la distancia: coche, autobús, avión o barco. <mark>Es como tener herramientas distintas según cuán lejos vayas</mark>. Uno de ellos conecta ciudades muy rápido, a alta velocidad. ¿Qué medio de transporte conecta ciudades españolas a alta velocidad?",
+      "answer": "<mark>Tren</mark>"
     },
     {
-      "pregunta": "El teléfono, el correo e internet nos ayudan a hablar con otras personas. <mark>Son como hilos invisibles que conectan a personas muy lejanas</mark>. Antes, una carta podía tardar muchos días en llegar. ¿Cómo se llama a todo esto que usamos para comunicarnos?",
-      "respuesta": "<mark>Medios de comunicación</mark>"
+      "question": "El teléfono, el correo e internet nos ayudan a hablar con otras personas. <mark>Son como hilos invisibles que conectan a personas muy lejanas</mark>. Antes, una carta podía tardar muchos días en llegar. ¿Cómo se llama a todo esto que usamos para comunicarnos?",
+      "answer": "<mark>Medios de comunicación</mark>"
     },
     {
-      "pregunta": "Es un grupo de países europeos que trabajan juntos. <mark>Es como un club de países vecinos que se ayudan entre sí</mark>. España forma parte de este grupo desde hace décadas. ¿Cómo se llama este grupo de países europeos?",
-      "respuesta": "<mark>Unión Europea</mark>"
+      "question": "Es un grupo de países europeos que trabajan juntos. <mark>Es como un club de países vecinos que se ayudan entre sí</mark>. España forma parte de este grupo desde hace décadas. ¿Cómo se llama este grupo de países europeos?",
+      "answer": "<mark>Unión Europea</mark>"
     },
     {
-      "pregunta": "Formar parte de este grupo permite viajar entre países sin trámites complicados. <mark>Es como cruzar de una habitación a otra dentro de la misma casa</mark>. Muchos países comparten también la misma moneda. ¿Cómo se llama la moneda que comparten muchos países de la Unión Europea?",
-      "respuesta": "<mark>Euro</mark>"
+      "question": "Formar parte de este grupo permite viajar entre países sin trámites complicados. <mark>Es como cruzar de una habitación a otra dentro de la misma casa</mark>. Muchos países comparten también la misma moneda. ¿Cómo se llama la moneda que comparten muchos países de la Unión Europea?",
+      "answer": "<mark>Euro</mark>"
     },
     {
-      "pregunta": "Fue la época en la que las personas empezaron a usar metales. <mark>Es como subir de nivel: de herramientas de piedra a herramientas más fuertes</mark>. Con el metal, las herramientas duraban más y cortaban mejor. ¿Cómo se llama esta época?",
-      "respuesta": "<mark>Edad de los Metales</mark>"
+      "question": "Fue la época en la que las personas empezaron a usar metales. <mark>Es como subir de nivel: de herramientas de piedra a herramientas más fuertes</mark>. Con el metal, las herramientas duraban más y cortaban mejor. ¿Cómo se llama esta época?",
+      "answer": "<mark>Edad de los Metales</mark>"
     },
     {
-      "pregunta": "La Edad de los Metales trajo hachas, cuchillos y armas hechas con dos materiales nuevos. <mark>Eran como versiones mejoradas de las viejas herramientas de piedra</mark>. Con ellas se trabajaba la tierra y se cazaba mejor. ¿Con qué dos materiales se hacían estas nuevas herramientas?",
-      "respuesta": "<mark>Bronce y hierro</mark>"
+      "question": "La Edad de los Metales trajo hachas, cuchillos y armas hechas con dos materiales nuevos. <mark>Eran como versiones mejoradas de las viejas herramientas de piedra</mark>. Con ellas se trabajaba la tierra y se cazaba mejor. ¿Con qué dos materiales se hacían estas nuevas herramientas?",
+      "answer": "<mark>Bronce y hierro</mark>"
     },
     {
-      "pregunta": "Es un lugar donde se han encontrado restos del pasado, bajo tierra. <mark>Es como la escena de un misterio muy antiguo por resolver</mark>. Allí los arqueólogos excavan con mucho cuidado. ¿Cómo se llama este lugar con restos del pasado?",
-      "respuesta": "<mark>Yacimiento arqueológico</mark>"
+      "question": "Es un lugar donde se han encontrado restos del pasado, bajo tierra. <mark>Es como la escena de un misterio muy antiguo por resolver</mark>. Allí los arqueólogos excavan con mucho cuidado. ¿Cómo se llama este lugar con restos del pasado?",
+      "answer": "<mark>Yacimiento arqueológico</mark>"
     },
     {
-      "pregunta": "Uno de los más famosos del mundo está en Burgos. <mark>Es como un archivo enterrado con miles de años de historia humana</mark>. Allí se han encontrado algunos de los restos humanos más antiguos de Europa. ¿Cómo se llama este yacimiento de Burgos?",
-      "respuesta": "<mark>Atapuerca</mark>"
+      "question": "Uno de los más famosos del mundo está en Burgos. <mark>Es como un archivo enterrado con miles de años de historia humana</mark>. Allí se han encontrado algunos de los restos humanos más antiguos de Europa. ¿Cómo se llama este yacimiento de Burgos?",
+      "answer": "<mark>Atapuerca</mark>"
     }
   ]
 }

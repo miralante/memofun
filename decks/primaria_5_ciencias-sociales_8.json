@@ -1,23 +1,23 @@
 {
-  "tema": "Las vertientes hidrográficas de España - 5º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Las vertientes hidrográficas de España - 5º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el grupo de ríos que van al mismo mar. <mark>Es como un tejado: el agua cae hacia un lado u otro</mark>. España tiene tres grupos principales. ¿Cómo se llama a este grupo de ríos?",
-      "respuesta": "<mark>Vertiente hidrográfica</mark>"
+      "question": "Es el grupo de ríos que van al mismo mar. <mark>Es como un tejado: el agua cae hacia un lado u otro</mark>. España tiene tres grupos principales. ¿Cómo se llama a este grupo de ríos?",
+      "answer": "<mark>Vertiente hidrográfica</mark>"
     },
     {
-      "pregunta": "Sus ríos van hacia el oeste, al océano Atlántico. <mark>Son largos y tranquilos, como caminos que cruzan España</mark>. El Duero, el Guadiana y el Guadalquivir son de este tipo. ¿Cómo se llama esta vertiente?",
-      "respuesta": "<mark>Vertiente atlántica</mark>"
+      "question": "Sus ríos van hacia el oeste, al océano Atlántico. <mark>Son largos y tranquilos, como caminos que cruzan España</mark>. El Duero, el Guadiana y el Guadalquivir son de este tipo. ¿Cómo se llama esta vertiente?",
+      "answer": "<mark>Vertiente atlántica</mark>"
     },
     {
-      "pregunta": "Lleva sus aguas al mar Mediterráneo y es el río más caudaloso de España. <mark>Es como una autopista de agua</mark>. Nace en Cantabria y cruza Aragón y Cataluña. ¿Cómo se llama este río?",
-      "respuesta": "<mark>El Ebro</mark>"
+      "question": "Lleva sus aguas al mar Mediterráneo y es el río más caudaloso de España. <mark>Es como una autopista de agua</mark>. Nace en Cantabria y cruza Aragón y Cataluña. ¿Cómo se llama este río?",
+      "answer": "<mark>El Ebro</mark>"
     },
     {
-      "pregunta": "Son la cantábrica, la atlántica y la mediterránea. <mark>Es como si España tuviera varias puertas para vaciar sus ríos</mark>. Cada una lleva sus aguas hacia un lado distinto. ¿Cuántas vertientes de ríos tiene España?",
-      "respuesta": "<mark>Tres</mark>"
+      "question": "Son la cantábrica, la atlántica y la mediterránea. <mark>Es como si España tuviera varias puertas para vaciar sus ríos</mark>. Cada una lleva sus aguas hacia un lado distinto. ¿Cuántas vertientes de ríos tiene España?",
+      "answer": "<mark>Tres</mark>"
     }
   ]
 }

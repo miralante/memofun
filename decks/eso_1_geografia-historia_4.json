@@ -1,161 +1,161 @@
 {
-  "tema": "La Antigua Grecia - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La Antigua Grecia - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como vivir en islas dentro de un archipiélago</mark>, cada una a su aire. Por eso Grecia no formó un solo país, sino ciudades independientes. ¿Qué tiene el relieve de Grecia que separa tanto a su población?",
-      "respuesta": "<mark>Montañas y islas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/isla-naxos-grecia.jpg",
+      "question": "<mark>Es como vivir en islas dentro de un archipiélago</mark>, cada una a su aire. Por eso Grecia no formó un solo país, sino ciudades independientes. ¿Qué tiene el relieve de Grecia que separa tanto a su población?",
+      "answer": "<mark>Montañas y islas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/isla-naxos-grecia.jpg",
+        "title": "Isla de Naxos, Grecia",
+        "source": "https://www.flickr.com/photos/124137421@N04/26624891822",
         "alt": "La isla de Naxos, en Grecia, con montañas y mar",
-        "titulo": "Isla de Naxos, Grecia",
         "autor": "Edgardo W. Olivera",
-        "fuente": "https://www.flickr.com/photos/124137421@N04/26624891822",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Funcionaba casi como un pequeño país, con su propio ejército y leyes</mark>. Era una ciudad griega independiente. Atenas y Esparta son las más conocidas. ¿Cómo se llamaba este tipo de ciudad griega independiente?",
-      "respuesta": "<mark>Polis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/acropolis-atenas.jpg",
+      "question": "<mark>Funcionaba casi como un pequeño país, con su propio ejército y leyes</mark>. Era una ciudad griega independiente. Atenas y Esparta son las más conocidas. ¿Cómo se llamaba este tipo de ciudad griega independiente?",
+      "answer": "<mark>Polis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/acropolis-atenas.jpg",
+        "title": "Acropolis, Athens",
+        "source": "https://www.flickr.com/photos/79983635@N00/32880684",
         "alt": "La Acrópolis de Atenas",
-        "titulo": "Acropolis, Athens",
         "autor": "Alun Salt",
-        "fuente": "https://www.flickr.com/photos/79983635@N00/32880684",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>El poder no lo tiene una sola persona, sino todos juntos</mark>. Los ciudadanos deciden mediante su voto. ¿Cómo se llama esta forma de gobierno, nacida en Atenas?",
-      "respuesta": "<mark>Democracia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/agora-atenas.jpg",
+      "question": "<mark>El poder no lo tiene una sola persona, sino todos juntos</mark>. Los ciudadanos deciden mediante su voto. ¿Cómo se llama esta forma de gobierno, nacida en Atenas?",
+      "answer": "<mark>Democracia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/agora-atenas.jpg",
+        "title": "Stoa of Attalos, Ancient Agora, Athens, Greece",
+        "source": "https://www.flickr.com/photos/64379474@N00/3966275331",
         "alt": "El ágora antigua de Atenas",
-        "titulo": "Stoa of Attalos, Ancient Agora, Athens, Greece",
         "autor": "Tilemahos Efthimiadis",
-        "fuente": "https://www.flickr.com/photos/64379474@N00/3966275331",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Mujeres, esclavos y extranjeros quedaban fuera del voto</mark> en la Atenas del siglo V a.C. Era una democracia limitada, muy distinta a la actual. ¿Quién sí podía votar entonces?",
-      "respuesta": "<mark>Hombres libres atenienses</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/estamnos-atico.jpg",
+      "question": "<mark>Mujeres, esclavos y extranjeros quedaban fuera del voto</mark> en la Atenas del siglo V a.C. Era una democracia limitada, muy distinta a la actual. ¿Quién sí podía votar entonces?",
+      "answer": "<mark>Hombres libres atenienses</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/estamnos-atico.jpg",
+        "title": "Attic red - figured stamnos",
+        "source": "https://www.flickr.com/photos/64379474@N00/3471205643",
         "alt": "Una vasija griega antigua con figuras pintadas",
-        "titulo": "Attic red - figured stamnos",
         "autor": "Tilemahos Efthimiadis",
-        "fuente": "https://www.flickr.com/photos/64379474@N00/3471205643",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como el corazón sagrado de la ciudad, mirando desde arriba</mark>. Era la parte más alta de Atenas, con templos importantes. ¿Cómo se llama esta parte alta de la ciudad?",
-      "respuesta": "<mark>Acrópolis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/partenon-acropolis.jpg",
+      "question": "<mark>Es como el corazón sagrado de la ciudad, mirando desde arriba</mark>. Era la parte más alta de Atenas, con templos importantes. ¿Cómo se llama esta parte alta de la ciudad?",
+      "answer": "<mark>Acrópolis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/partenon-acropolis.jpg",
+        "title": "Parthenon II",
+        "source": "https://www.flickr.com/photos/38851323@N05/4089733084",
         "alt": "El Partenón, un templo en lo alto de la Acrópolis de Atenas",
-        "titulo": "Parthenon II",
         "autor": "Zé.Valdi",
-        "fuente": "https://www.flickr.com/photos/38851323@N05/4089733084",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Solo una parte pequeña de la población tenía derechos plenos. <mark>Unos podían votar y poseer tierras; otros no tenían ningún derecho</mark>. ¿En qué tres grupos se dividía la sociedad griega?",
-      "respuesta": "<mark>Ciudadanos, extranjeros y esclavos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/ceramica-griega.jpg",
+      "question": "Solo una parte pequeña de la población tenía derechos plenos. <mark>Unos podían votar y poseer tierras; otros no tenían ningún derecho</mark>. ¿En qué tres grupos se dividía la sociedad griega?",
+      "answer": "<mark>Ciudadanos, extranjeros y esclavos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/ceramica-griega.jpg",
+        "title": "Greek Red Figure Pottery, The British Museum, Bloomsbury, London",
+        "source": "https://www.flickr.com/photos/22768390@N00/167742226",
         "alt": "Cerámica griega de figuras rojas",
-        "titulo": "Greek Red Figure Pottery, The British Museum, Bloomsbury, London",
         "autor": "nikoretro",
-        "fuente": "https://www.flickr.com/photos/22768390@N00/167742226",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>El mar era como su gran carretera, conectando ciudades lejanas</mark>. Grecia tiene poca tierra fértil, así que comerciaba para conseguir lo que faltaba. ¿A qué actividad se dedicaba sobre todo la economía griega?",
-      "respuesta": "<mark>Comercio marítimo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/barco-mediterraneo.jpg",
+      "question": "<mark>El mar era como su gran carretera, conectando ciudades lejanas</mark>. Grecia tiene poca tierra fértil, así que comerciaba para conseguir lo que faltaba. ¿A qué actividad se dedicaba sobre todo la economía griega?",
+      "answer": "<mark>Comercio marítimo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/barco-mediterraneo.jpg",
+        "title": "A Calm at a Mediterranean Port - The Sailing Ship (detail)",
+        "source": "https://www.flickr.com/photos/46042146@N00/2711066783",
         "alt": "Un barco navegando por el Mediterráneo",
-        "titulo": "A Calm at a Mediterranean Port - The Sailing Ship (detail)",
         "autor": "Randy Son Of Robert",
-        "fuente": "https://www.flickr.com/photos/46042146@N00/2711066783",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Durante ellos, incluso se paraban las guerras entre ciudades griegas</mark>. Eran competiciones deportivas en honor al dios Zeus, cada cuatro años. ¿Cómo se llamaban estas competiciones?",
-      "respuesta": "<mark>Juegos Olímpicos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/muchacha-corriendo-estatua.jpg",
+      "question": "<mark>Durante ellos, incluso se paraban las guerras entre ciudades griegas</mark>. Eran competiciones deportivas en honor al dios Zeus, cada cuatro años. ¿Cómo se llamaban estas competiciones?",
+      "answer": "<mark>Juegos Olímpicos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/muchacha-corriendo-estatua.jpg",
+        "title": "Muchacha corriendo",
+        "source": "https://www.flickr.com/photos/45238035@N02/6868368094",
         "alt": "Una estatua griega antigua de una joven corriendo",
-        "titulo": "Muchacha corriendo",
         "autor": "Becante",
-        "fuente": "https://www.flickr.com/photos/45238035@N02/6868368094",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los templos griegos se construían para honrar a los dioses. <mark>Sus columnas de piedra siguen inspirando edificios miles de años después</mark>. ¿Cómo se llama el ejemplo más famoso de estos templos?",
-      "respuesta": "<mark>El Partenón</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/friso-partenon.jpg",
+      "question": "Los templos griegos se construían para honrar a los dioses. <mark>Sus columnas de piedra siguen inspirando edificios miles de años después</mark>. ¿Cómo se llama el ejemplo más famoso de estos templos?",
+      "answer": "<mark>El Partenón</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/friso-partenon.jpg",
+        "title": "Friso del Partenón",
+        "source": "https://www.flickr.com/photos/62128026@N00/257391878",
         "alt": "El friso del Partenón, con figuras talladas en piedra",
-        "titulo": "Friso del Partenón",
         "autor": "ManuelSagra",
-        "fuente": "https://www.flickr.com/photos/62128026@N00/257391878",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Explicaban el mundo antes de que existiera la ciencia. <mark>Zeus, Atenea o Hércules son personajes muy conocidos</mark> de estas historias. ¿Cómo se llama este conjunto de historias?",
-      "respuesta": "<mark>Mitología griega</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/zeus-cabeza.jpg",
+      "question": "Explicaban el mundo antes de que existiera la ciencia. <mark>Zeus, Atenea o Hércules son personajes muy conocidos</mark> de estas historias. ¿Cómo se llama este conjunto de historias?",
+      "answer": "<mark>Mitología griega</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/zeus-cabeza.jpg",
+        "title": "Colossal head of a statue of Zeus. Marble. Second half of the 2nd c. BC",
+        "source": "https://www.flickr.com/photos/64379474@N00/3470806199",
         "alt": "La cabeza de una estatua de Zeus",
-        "titulo": "Colossal head of a statue of Zeus. Marble. Second half of the 2nd c. BC",
         "autor": "Tilemahos Efthimiadis",
-        "fuente": "https://www.flickr.com/photos/64379474@N00/3470806199",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Atenas valoraba la democracia, el arte y el pensamiento. Otra polis, en cambio, centraba casi todo en formar guerreros: <mark>sus niños empezaban entrenamiento militar muy pequeños</mark>. ¿Cómo se llamaba esta otra polis guerrera?",
-      "respuesta": "<mark>Esparta</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/casco-corintio.jpg",
+      "question": "Atenas valoraba la democracia, el arte y el pensamiento. Otra polis, en cambio, centraba casi todo en formar guerreros: <mark>sus niños empezaban entrenamiento militar muy pequeños</mark>. ¿Cómo se llamaba esta otra polis guerrera?",
+      "answer": "<mark>Esparta</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/casco-corintio.jpg",
+        "title": "Corinthian Helmet",
+        "source": "https://www.flickr.com/photos/69716881@N02/26787860537",
         "alt": "Un casco griego antiguo de bronce",
-        "titulo": "Corinthian Helmet",
         "autor": "Egisto Sani",
-        "fuente": "https://www.flickr.com/photos/69716881@N02/26787860537",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>No aceptaban una respuesta sin antes pensarla y cuestionarla</mark>. Se hacían preguntas sobre el mundo, la vida y la verdad. ¿Cómo se llama esta forma de pensar y cuestionarlo todo?",
-      "respuesta": "<mark>Filosofía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/conocete-a-ti-mismo.jpg",
+      "question": "<mark>No aceptaban una respuesta sin antes pensarla y cuestionarla</mark>. Se hacían preguntas sobre el mundo, la vida y la verdad. ¿Cómo se llama esta forma de pensar y cuestionarlo todo?",
+      "answer": "<mark>Filosofía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/conocete-a-ti-mismo.jpg",
+        "title": "Conocete a tí mismo",
+        "source": "https://www.flickr.com/photos/47122137@N00/174385761",
         "alt": "'Conócete a ti mismo', la máxima filosófica grabada en el templo de Delfos",
-        "titulo": "Conocete a tí mismo",
         "autor": "=mc2",
-        "fuente": "https://www.flickr.com/photos/47122137@N00/174385761",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Dejó ideas como <mark>la democracia, el teatro y la filosofía</mark>. Muchas palabras y edificios actuales todavía se inspiran en Grecia. ¿De qué se dice que Grecia es una de las raíces?",
-      "respuesta": "<mark>La cultura occidental</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_geografia-historia_4/acropolis-legado.jpg",
+      "question": "Dejó ideas como <mark>la democracia, el teatro y la filosofía</mark>. Muchas palabras y edificios actuales todavía se inspiran en Grecia. ¿De qué se dice que Grecia es una de las raíces?",
+      "answer": "<mark>La cultura occidental</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_geografia-historia_4/acropolis-legado.jpg",
+        "title": "Acropolis of Athens",
+        "source": "https://www.flickr.com/photos/47309201@N02/9262063690",
         "alt": "La Acrópolis de Atenas, legado de la Antigua Grecia",
-        "titulo": "Acropolis of Athens",
         "autor": "Ronny Siegel",
-        "fuente": "https://www.flickr.com/photos/47309201@N02/9262063690",
         "licencia": "CC BY 2.0"
       }
     }

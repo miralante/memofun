@@ -1,71 +1,71 @@
 {
-  "tema": "Comunicación: leer y escribir - 2º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Comunicación: leer y escribir - 2º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es entender qué pasa y por qué pasa. No basta con leer las palabras: <mark>hay que imaginar la historia</mark>. Así el cuento cobra vida en tu cabeza. ¿Cómo se llama hacer esto bien?",
-      "respuesta": "<mark>Comprender el cuento</mark>"
+      "question": "Es entender qué pasa y por qué pasa. No basta con leer las palabras: <mark>hay que imaginar la historia</mark>. Así el cuento cobra vida en tu cabeza. ¿Cómo se llama hacer esto bien?",
+      "answer": "<mark>Comprender el cuento</mark>"
     },
     {
-      "pregunta": "Una buena señal es poder contarlo con tus palabras. Si puedes explicar qué pasó, lo has entendido de verdad. <mark>También ayuda decir cómo se sentían los personajes</mark>. ¿Qué puedes hacer para comprobarlo?",
-      "respuesta": "<mark>Contarlo con tus palabras</mark>"
+      "question": "Una buena señal es poder contarlo con tus palabras. Si puedes explicar qué pasó, lo has entendido de verdad. <mark>También ayuda decir cómo se sentían los personajes</mark>. ¿Qué puedes hacer para comprobarlo?",
+      "answer": "<mark>Contarlo con tus palabras</mark>"
     },
     {
-      "pregunta": "Puedes contárselo a alguien con tus propias palabras, <mark>como resumir una película que acabas de ver</mark>. Di quién era el protagonista y qué le pasó. ¿Qué puedes hacer después de leer un cuento?",
-      "respuesta": "<mark>Contarlo a alguien</mark>"
+      "question": "Puedes contárselo a alguien con tus propias palabras, <mark>como resumir una película que acabas de ver</mark>. Di quién era el protagonista y qué le pasó. ¿Qué puedes hacer después de leer un cuento?",
+      "answer": "<mark>Contarlo a alguien</mark>"
     },
     {
-      "pregunta": "Convierte las palabras en imágenes dentro de tu mente. <mark>Así vives la historia como si la vieras</mark>. Cada persona lo hace de forma distinta con el mismo cuento. ¿Qué haces con la mente mientras lees?",
-      "respuesta": "<mark>Imaginar</mark>"
+      "question": "Convierte las palabras en imágenes dentro de tu mente. <mark>Así vives la historia como si la vieras</mark>. Cada persona lo hace de forma distinta con el mismo cuento. ¿Qué haces con la mente mientras lees?",
+      "answer": "<mark>Imaginar</mark>"
     },
     {
-      "pregunta": "Es un texto que explica datos reales sobre algo, no una historia inventada. <mark>Habla, por ejemplo, de animales o de países</mark>. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto informativo</mark>"
+      "question": "Es un texto que explica datos reales sobre algo, no una historia inventada. <mark>Habla, por ejemplo, de animales o de países</mark>. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto informativo</mark>"
     },
     {
-      "pregunta": "Uno inventa una historia con personajes y busca emocionarte o divertirte. El otro cuenta datos reales, <mark>como una enciclopedia pequeña</mark>, y busca enseñarte algo cierto. ¿Cuál de los dos cuenta datos reales?",
-      "respuesta": "<mark>El texto informativo</mark>"
+      "question": "Uno inventa una historia con personajes y busca emocionarte o divertirte. El otro cuenta datos reales, <mark>como una enciclopedia pequeña</mark>, y busca enseñarte algo cierto. ¿Cuál de los dos cuenta datos reales?",
+      "answer": "<mark>El texto informativo</mark>"
     },
     {
-      "pregunta": "Puede decir qué come, dónde vive y cómo es, <mark>como una ficha de identidad del animal</mark>. A veces incluye una foto o un dibujo. ¿Qué tipo de texto tiene esta información?",
-      "respuesta": "<mark>Texto informativo</mark>"
+      "question": "Puede decir qué come, dónde vive y cómo es, <mark>como una ficha de identidad del animal</mark>. A veces incluye una foto o un dibujo. ¿Qué tipo de texto tiene esta información?",
+      "answer": "<mark>Texto informativo</mark>"
     },
     {
-      "pregunta": "Fíjate en los datos importantes, como los números o los nombres: <mark>es como buscar pistas clave dentro del texto</mark>. Puedes leerlo despacio y parar si algo no se entiende. ¿En qué te fijas para leerlo bien?",
-      "respuesta": "<mark>En los datos importantes</mark>"
+      "question": "Fíjate en los datos importantes, como los números o los nombres: <mark>es como buscar pistas clave dentro del texto</mark>. Puedes leerlo despacio y parar si algo no se entiende. ¿En qué te fijas para leerlo bien?",
+      "answer": "<mark>En los datos importantes</mark>"
     },
     {
-      "pregunta": "Necesita un principio claro y un final que lo cierre, <mark>como un viaje: hace falta salida y llegada</mark>. En medio pasan cosas interesantes al protagonista. ¿Qué dos partes no pueden faltar?",
-      "respuesta": "<mark>Principio y final</mark>"
+      "question": "Necesita un principio claro y un final que lo cierre, <mark>como un viaje: hace falta salida y llegada</mark>. En medio pasan cosas interesantes al protagonista. ¿Qué dos partes no pueden faltar?",
+      "answer": "<mark>Principio y final</mark>"
     },
     {
-      "pregunta": "Eliges un protagonista y un lugar donde vive, <mark>como elegir a los actores antes de empezar la función</mark>. Por ejemplo: 'Había una vez una niña en un bosque'. ¿Qué eliges primero para empezar un cuento?",
-      "respuesta": "<mark>Protagonista y lugar</mark>"
+      "question": "Eliges un protagonista y un lugar donde vive, <mark>como elegir a los actores antes de empezar la función</mark>. Por ejemplo: 'Había una vez una niña en un bosque'. ¿Qué eliges primero para empezar un cuento?",
+      "answer": "<mark>Protagonista y lugar</mark>"
     },
     {
-      "pregunta": "Cuentas cómo se resuelve el problema del protagonista, <mark>como cerrar una puerta después de un viaje</mark>. Puede ser un final feliz o triste. ¿Qué debe quedar claro al terminar un cuento?",
-      "respuesta": "<mark>Cómo acaba todo</mark>"
+      "question": "Cuentas cómo se resuelve el problema del protagonista, <mark>como cerrar una puerta después de un viaje</mark>. Puede ser un final feliz o triste. ¿Qué debe quedar claro al terminar un cuento?",
+      "answer": "<mark>Cómo acaba todo</mark>"
     },
     {
-      "pregunta": "Imaginas un animal con un problema que resolver, <mark>por ejemplo un ratón que busca queso y se pierde en la ciudad</mark>. Luego piensas cómo lo soluciona. ¿Qué necesita el animal protagonista para empezar la historia?",
-      "respuesta": "<mark>Un problema que resolver</mark>"
+      "question": "Imaginas un animal con un problema que resolver, <mark>por ejemplo un ratón que busca queso y se pierde en la ciudad</mark>. Luego piensas cómo lo soluciona. ¿Qué necesita el animal protagonista para empezar la historia?",
+      "answer": "<mark>Un problema que resolver</mark>"
     },
     {
-      "pregunta": "Es un mensaje corto escrito para avisar de algo, <mark>como un mensaje de móvil, pero en papel</mark>. Dice algo importante en pocas palabras. ¿Cómo se llama este mensaje?",
-      "respuesta": "<mark>Nota</mark>"
+      "question": "Es un mensaje corto escrito para avisar de algo, <mark>como un mensaje de móvil, pero en papel</mark>. Dice algo importante en pocas palabras. ¿Cómo se llama este mensaje?",
+      "answer": "<mark>Nota</mark>"
     },
     {
-      "pregunta": "Se escribe con pocas palabras y la información justa, <mark>por ejemplo: 'Estoy en casa de la abuela, vuelvo a las seis'</mark>. Se deja en un lugar visible, como la nevera. ¿Cómo se llama este mensaje corto?",
-      "respuesta": "<mark>Nota</mark>"
+      "question": "Se escribe con pocas palabras y la información justa, <mark>por ejemplo: 'Estoy en casa de la abuela, vuelvo a las seis'</mark>. Se deja en un lugar visible, como la nevera. ¿Cómo se llama este mensaje corto?",
+      "answer": "<mark>Nota</mark>"
     },
     {
-      "pregunta": "Es un mensaje para pedir a alguien que venga a un plan, <mark>como abrir la puerta de tu fiesta a otra persona</mark>. Suele decir qué se celebra, cuándo y dónde. ¿Cómo se llama este mensaje?",
-      "respuesta": "<mark>Invitación</mark>"
+      "question": "Es un mensaje para pedir a alguien que venga a un plan, <mark>como abrir la puerta de tu fiesta a otra persona</mark>. Suele decir qué se celebra, cuándo y dónde. ¿Cómo se llama este mensaje?",
+      "answer": "<mark>Invitación</mark>"
     },
     {
-      "pregunta": "Dices quién cumple años, el día y el lugar, por ejemplo: 'Te invito a mi cumpleaños el sábado, en mi casa'. <mark>Cuanta más claridad, mejor entiende el plan la otra persona</mark>. ¿Cómo se llama este mensaje?",
-      "respuesta": "<mark>Invitación</mark>"
+      "question": "Dices quién cumple años, el día y el lugar, por ejemplo: 'Te invito a mi cumpleaños el sábado, en mi casa'. <mark>Cuanta más claridad, mejor entiende el plan la otra persona</mark>. ¿Cómo se llama este mensaje?",
+      "answer": "<mark>Invitación</mark>"
     }
   ]
 }

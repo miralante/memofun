@@ -1,125 +1,125 @@
 {
-  "tema": "El universo, el sistema solar y el origen de la vida - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El universo, el sistema solar y el origen de la vida - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como una explosión inicial que todavía sigue expandiéndose hoy</mark>. Partió de un punto muy denso y caliente. Ocurrió hace unos trece mil ochocientos millones de años. ¿Cómo se llama este origen del universo?",
-      "respuesta": "<mark>Big Bang</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/estrellas-nebulosa.jpg",
+      "question": "<mark>Es como una explosión inicial que todavía sigue expandiéndose hoy</mark>. Partió de un punto muy denso y caliente. Ocurrió hace unos trece mil ochocientos millones de años. ¿Cómo se llama este origen del universo?",
+      "answer": "<mark>Big Bang</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/estrellas-nebulosa.jpg",
+        "title": "Starburst Cluster Shows Celestial Fireworks",
+        "source": "https://www.flickr.com/photos/24662369@N07/4774472286",
         "alt": "Un cúmulo de estrellas en el espacio profundo",
-        "titulo": "Starburst Cluster Shows Celestial Fireworks",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/4774472286",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una gran familia unida por la gravedad de una estrella</mark>. Incluye ocho planetas, lunas, asteroides y cometas. La Tierra es el tercer planeta desde el Sol. ¿Cómo se llama este conjunto?",
-      "respuesta": "<mark>Sistema solar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/sistema-solar.jpg",
+      "question": "<mark>Es como una gran familia unida por la gravedad de una estrella</mark>. Incluye ocho planetas, lunas, asteroides y cometas. La Tierra es el tercer planeta desde el Sol. ¿Cómo se llama este conjunto?",
+      "answer": "<mark>Sistema solar</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/sistema-solar.jpg",
+        "title": "Solar System Diagram, updated",
+        "source": "https://www.flickr.com/photos/42837737@N05/26328778460",
         "alt": "Un diagrama del sistema solar con sus planetas",
-        "titulo": "Solar System Diagram, updated",
         "autor": "splinx1",
-        "fuente": "https://www.flickr.com/photos/42837737@N05/26328778460",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como el motor central que mantiene a los planetas girando</mark>. Aporta luz, calor y gravedad a todo el sistema. Su energía es la base de casi toda la vida. ¿Qué es esta estrella?",
-      "respuesta": "<mark>El Sol</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/sol-eclipse.jpg",
+      "question": "<mark>Es como el motor central que mantiene a los planetas girando</mark>. Aporta luz, calor y gravedad a todo el sistema. Su energía es la base de casi toda la vida. ¿Qué es esta estrella?",
+      "answer": "<mark>El Sol</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/sol-eclipse.jpg",
+        "title": "Partial Solar Eclipse - Edmonton, Canada",
+        "source": "https://www.flickr.com/photos/48503330@N08/36582348231",
         "alt": "El Sol, la estrella que aporta luz y calor al sistema solar",
-        "titulo": "Partial Solar Eclipse - Edmonton, Canada",
         "autor": "Kurayba",
-        "fuente": "https://www.flickr.com/photos/48503330@N08/36582348231",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como estar en el punto justo, ni muy cerca ni muy lejos del fuego</mark>. Ahí puede haber agua líquida y una atmósfera protectora. Esa combinación permitió que apareciera la vida. ¿Cómo se llama esta zona alrededor de una estrella?",
-      "respuesta": "<mark>Zona habitable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/tierra-canica-azul.jpg",
+      "question": "<mark>Es como estar en el punto justo, ni muy cerca ni muy lejos del fuego</mark>. Ahí puede haber agua líquida y una atmósfera protectora. Esa combinación permitió que apareciera la vida. ¿Cómo se llama esta zona alrededor de una estrella?",
+      "answer": "<mark>Zona habitable</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/tierra-canica-azul.jpg",
+        "title": "Blue Marble - 2005 (animation still)",
+        "source": "https://www.flickr.com/photos/24662369@N07/8245591938",
         "alt": "La Tierra vista desde el espacio",
-        "titulo": "Blue Marble - 2005 (animation still)",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/8245591938",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Unas dicen que la vida surgió de reacciones químicas en el propio planeta. <mark>Otras dicen que sus componentes llegaron desde el espacio</mark>. Ninguna está confirmada al cien por cien todavía. ¿Qué gran pregunta sigue investigando la ciencia?",
-      "respuesta": "<mark>El origen de la vida</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/oceano-volcanico.jpg",
+      "question": "Unas dicen que la vida surgió de reacciones químicas en el propio planeta. <mark>Otras dicen que sus componentes llegaron desde el espacio</mark>. Ninguna está confirmada al cien por cien todavía. ¿Qué gran pregunta sigue investigando la ciencia?",
+      "answer": "<mark>El origen de la vida</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/oceano-volcanico.jpg",
+        "title": "Smoking Ocean",
+        "source": "https://www.flickr.com/photos/24046097@N00/4189021519",
         "alt": "Actividad volcánica bajo el océano",
-        "titulo": "Smoking Ocean",
         "autor": "romainguy",
-        "fuente": "https://www.flickr.com/photos/24046097@N00/4189021519",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Busca pistas de vida en otros planetas y lunas</mark>. Combina biología, química, geología y astronomía. Estudia si existe vida fuera de la Tierra. ¿Cómo se llama esta ciencia?",
-      "respuesta": "<mark>Astrobiología</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/curiosity-marte.jpg",
+      "question": "<mark>Busca pistas de vida en otros planetas y lunas</mark>. Combina biología, química, geología y astronomía. Estudia si existe vida fuera de la Tierra. ¿Cómo se llama esta ciencia?",
+      "answer": "<mark>Astrobiología</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/curiosity-marte.jpg",
+        "title": "Curiosity at Work on Mars",
+        "source": "https://www.flickr.com/photos/24662369@N07/6385411977",
         "alt": "El róver Curiosity explorando la superficie de Marte",
-        "titulo": "Curiosity at Work on Mars",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/6385411977",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un equilibrio delicado que un cambio brusco podría romper</mark>. Sus condiciones para la vida podrían alterarse con facilidad. Cuidar el ambiente es cuidar ese equilibrio. ¿Qué palabra describe así a la Tierra?",
-      "respuesta": "<mark>Planeta frágil</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/tierra-marmol-azul.jpg",
+      "question": "<mark>Es como un equilibrio delicado que un cambio brusco podría romper</mark>. Sus condiciones para la vida podrían alterarse con facilidad. Cuidar el ambiente es cuidar ese equilibrio. ¿Qué palabra describe así a la Tierra?",
+      "answer": "<mark>Planeta frágil</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/tierra-marmol-azul.jpg",
+        "title": "What is your favorite...Old, New, Aqua, Blue, White or Black Marble?",
+        "source": "https://www.flickr.com/photos/24662369@N07/8250779068",
         "alt": "La Tierra vista desde el espacio, frágil y pequeña",
-        "titulo": "What is your favorite...Old, New, Aqua, Blue, White or Black Marble?",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/8250779068",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como valorar más tu propia casa tras visitar otras muy distintas</mark>. Estudiar otros planetas ayuda a entender mejor la Tierra. Comparar atmósferas y climas aporta información valiosa. ¿Qué actividad hace posible esta comparación?",
-      "respuesta": "<mark>Exploración espacial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/cohete-despegue.jpg",
+      "question": "<mark>Es como valorar más tu propia casa tras visitar otras muy distintas</mark>. Estudiar otros planetas ayuda a entender mejor la Tierra. Comparar atmósferas y climas aporta información valiosa. ¿Qué actividad hace posible esta comparación?",
+      "answer": "<mark>Exploración espacial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/cohete-despegue.jpg",
+        "title": "DSCOVR Liftoff",
+        "source": "https://www.flickr.com/photos/24662369@N07/16495356966",
         "alt": "El despegue de un cohete espacial",
-        "titulo": "DSCOVR Liftoff",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/16495356966",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como cuidar un jardín único que no se puede sustituir si se estropea</mark>. Contaminación y cambio climático amenazan ese equilibrio. Las mismas condiciones que permitieron la vida pueden perderse. ¿Qué protege el cuidado ambiental?",
-      "respuesta": "<mark>La vida en la Tierra</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/tierra-cuidado.jpg",
+      "question": "<mark>Es como cuidar un jardín único que no se puede sustituir si se estropea</mark>. Contaminación y cambio climático amenazan ese equilibrio. Las mismas condiciones que permitieron la vida pueden perderse. ¿Qué protege el cuidado ambiental?",
+      "answer": "<mark>La vida en la Tierra</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/tierra-cuidado.jpg",
+        "title": "#terra #earth",
+        "source": "https://www.flickr.com/photos/24286213@N06/48124326826",
         "alt": "La Tierra, un planeta que hay que cuidar",
-        "titulo": "#terra #earth",
         "autor": "Luciano Emanuel",
-        "fuente": "https://www.flickr.com/photos/24286213@N06/48124326826",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Son preguntas tan grandes que tardarán generaciones enteras en responderse</mark>. Cómo empezó la vida y si existe en otro lugar del universo. Astronomía y biología avanzan juntas para resolverlas. ¿Qué buscan responder estas dos ciencias unidas?",
-      "respuesta": "<mark>El origen de la vida</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_6/galaxia-espiral.jpg",
+      "question": "<mark>Son preguntas tan grandes que tardarán generaciones enteras en responderse</mark>. Cómo empezó la vida y si existe en otro lugar del universo. Astronomía y biología avanzan juntas para resolverlas. ¿Qué buscan responder estas dos ciencias unidas?",
+      "answer": "<mark>El origen de la vida</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_6/galaxia-espiral.jpg",
+        "title": "Hubble peeks at a spiral galaxy",
+        "source": "https://www.flickr.com/photos/24662369@N07/18961260104",
         "alt": "Una galaxia espiral fotografiada por el telescopio Hubble",
-        "titulo": "Hubble peeks at a spiral galaxy",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/18961260104",
         "licencia": "CC BY 2.0"
       }
     }

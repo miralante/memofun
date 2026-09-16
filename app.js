@@ -197,7 +197,7 @@
   function studyUrl(deck) {
     var url = 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
       '&id=' + encodeURIComponent(deck.id) +
-      '&titulo=' + encodeURIComponent(deck.tema);
+      '&titulo=' + encodeURIComponent(deck.topic);
     /* Carries the course/subject the deck was opened from so the study
        screen's "Volver" can return to that same level instead of always
        resetting to the top-level home (see buildUrl/renderSubjectLevel/
@@ -209,13 +209,13 @@
     return url;
   }
 
-  function deckCardHtml(deck, i, progreso) {
-    var done = progreso.completado && progreso.completado[deck.id];
+  function deckCardHtml(deck, i, progress) {
+    var done = progress.completed && progress.completed[deck.id];
     return (
       '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + studyUrl(deck) + '">' +
       '<span class="deck-icon" aria-hidden="true">' + (deck.icono || iconFor(i)) + '</span>' +
-      '<h3>' + App.utils.escapeHtml(deck.tema) + '</h3>' +
-      '<span class="deck-meta">' + (deck.cantidad || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
+      '<h3>' + App.utils.escapeHtml(deck.topic) + '</h3>' +
+      '<span class="deck-meta">' + (deck.amount || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
       (done ? '<span class="deck-stamp" aria-hidden="true"></span>' : '') +
       '</a>'
     );
@@ -249,10 +249,10 @@
   }
 
   /** How many of these decks are already marked completed — a derived
-      read of the same progreso.completado map used for the per-deck ⭐
+      read of the same progress.completed map used for the per-deck ⭐
       badge, never a new tracked field (SPEC.md §2.6). */
-  function completedCount(decks, progreso) {
-    var done = (progreso && progreso.completado) || {};
+  function completedCount(decks, progress) {
+    var done = (progress && progress.completed) || {};
     return decks.filter(function (d) { return done[d.id]; }).length;
   }
 
@@ -269,7 +269,7 @@
     return { map: map, order: order };
   }
 
-  function renderCourseLevel(decks, grid, progreso) {
+  function renderCourseLevel(decks, grid, progress) {
     var withCourse = decks.filter(function (d) { return d.curso; });
     var withoutCourse = decks.filter(function (d) { return !d.curso; });
     var byCourse = groupBy(withCourse, function (d) { return d.curso; });
@@ -277,7 +277,7 @@
     if (!byCourse.order.length) {
       grid.innerHTML = localeInviteHtml() + (withoutCourse.length
         ? '<div class="deck-grid" role="list">' +
-          withoutCourse.map(function (d, i) { return deckCardHtml(d, i, progreso); }).join('') +
+          withoutCourse.map(function (d, i) { return deckCardHtml(d, i, progress); }).join('') +
           '</div>'
         : emptyStateHtml());
       return;
@@ -301,7 +301,7 @@
     html += '<div class="deck-grid" role="list">' + byCourse.order.map(function (curso, i) {
       var courseDecks = byCourse.map[curso];
       var subjectCount = groupBy(courseDecks, function (d) { return d.asignatura || ''; }).order.length;
-      var done = completedCount(courseDecks, progreso);
+      var done = completedCount(courseDecks, progress);
       var meta = subjectCount + ' ' + App.i18n.t('home.subjects');
       if (done > 0) {
         meta += ' · ' + App.i18n.t('home.completedOf')
@@ -317,7 +317,7 @@
     if (withoutCourse.length) {
       html += '<h2 class="section-heading">' + App.i18n.t('home.otherTopics') + '</h2>';
       html += '<div class="deck-grid" role="list">' +
-        withoutCourse.map(function (d, i) { return deckCardHtml(d, i, progreso); }).join('') +
+        withoutCourse.map(function (d, i) { return deckCardHtml(d, i, progress); }).join('') +
         '</div>';
     }
 
@@ -330,11 +330,11 @@
     App.storage.set('prefs', prefs);
   }
 
-  function renderSubjectLevel(decks, grid, progreso, curso) {
+  function renderSubjectLevel(decks, grid, progress, curso) {
     var inCourse = decks.filter(function (d) { return d.curso === curso; });
     if (!inCourse.length) {
       history.replaceState(null, '', buildUrl());
-      renderCourseLevel(decks, grid, progreso);
+      renderCourseLevel(decks, grid, progress);
       return;
     }
     var bySubject = groupBy(inCourse, function (d) { return d.asignatura || ''; });
@@ -352,7 +352,7 @@
       var single = subjectDecks.length === 1;
       var href = single ? studyUrl(subjectDecks[0]) : buildUrl(curso, asignatura);
       var meta = single
-        ? (subjectDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards')
+        ? (subjectDecks[0].amount || '') + ' ' + App.i18n.t('home.cards')
         : subjectDecks.length + ' ' + App.i18n.t('home.decks');
       return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
         '<span class="deck-icon" aria-hidden="true">' + (single ? (subjectDecks[0].icono || subjectIcon(asignatura)) : subjectIcon(asignatura)) + '</span>' +
@@ -365,17 +365,17 @@
 
     document.getElementById('btn-pin-course').addEventListener('click', function () {
       togglePinnedCourse(curso);
-      renderSubjectLevel(decks, grid, progreso, curso);
+      renderSubjectLevel(decks, grid, progress, curso);
     });
   }
 
-  function renderDeckLevel(decks, grid, progreso, curso, asignatura) {
+  function renderDeckLevel(decks, grid, progress, curso, asignatura) {
     var filtered = decks.filter(function (d) {
       return d.curso === curso && (d.asignatura || '') === asignatura;
     });
     if (!filtered.length) {
       history.replaceState(null, '', buildUrl(curso));
-      renderSubjectLevel(decks, grid, progreso, curso);
+      renderSubjectLevel(decks, grid, progress, curso);
       return;
     }
     var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(curso)) +
@@ -384,7 +384,7 @@
       ' <span class="section-heading-meta">' + App.utils.escapeHtml(curso) + '</span>' +
       '</h2></div>';
     html += '<div class="deck-grid" role="list">' +
-      filtered.map(function (d, i) { return deckCardHtml(d, i, progreso); }).join('') +
+      filtered.map(function (d, i) { return deckCardHtml(d, i, progress); }).join('') +
       '</div>';
     grid.innerHTML = html;
   }
@@ -476,7 +476,7 @@
 
   async function loadDecks() {
     var grid = document.getElementById('deck-grid');
-    var progreso = App.storage.get('progreso');
+    var progress = App.storage.get('progress');
 
     /* English locale: bypass the manifest entirely (every deck is
        Spanish content) and render the EN curriculum with invite-only
@@ -500,9 +500,9 @@
       var curso = params.get('curso');
       var asignatura = params.get('asignatura');
 
-      if (curso && asignatura) renderDeckLevel(decks, grid, progreso, curso, asignatura);
-      else if (curso) renderSubjectLevel(decks, grid, progreso, curso);
-      else renderCourseLevel(decks, grid, progreso);
+      if (curso && asignatura) renderDeckLevel(decks, grid, progress, curso, asignatura);
+      else if (curso) renderSubjectLevel(decks, grid, progress, curso);
+      else renderCourseLevel(decks, grid, progress);
     } catch (err) {
       grid.innerHTML = '<div class="empty-state">' + App.i18n.t('home.emptyBody') + '</div>';
     }

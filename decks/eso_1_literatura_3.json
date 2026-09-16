@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un poema medieval que narra las hazañas de un héroe. Se recitaba en voz alta, mucho antes de escribirse. <mark>El más famoso en español es el Cantar de Mio Cid.</mark> ¿Cómo se llama este tipo de poema?",
-      "respuesta": "<mark>Cantar de gesta</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_3/cid-estatua.jpg",
+      "question": "Es un poema medieval que narra las hazañas de un héroe. Se recitaba en voz alta, mucho antes de escribirse. <mark>El más famoso en español es el Cantar de Mio Cid.</mark> ¿Cómo se llama este tipo de poema?",
+      "answer": "<mark>Cantar de gesta</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_3/cid-estatua.jpg",
+        "title": "El Cid-estatua-(Parque de Balboa)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=8094431",
         "alt": "Estatua de El Cid Campeador, un héroe de cantar de gesta",
-        "titulo": "El Cid-estatua-(Parque de Balboa)",
         "autor": "Basilio",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=8094431",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Es un personaje valiente que protagoniza grandes hazañas. <mark>Sus acciones parecen casi imposibles para una persona normal.</mark> Lucha por el honor, su tierra o su familia. ¿Cómo se llama este tipo de personaje?",
-      "respuesta": "<mark>Héroe épico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_3/armadura-medieval.jpg",
+      "question": "Es un personaje valiente que protagoniza grandes hazañas. <mark>Sus acciones parecen casi imposibles para una persona normal.</mark> Lucha por el honor, su tierra o su familia. ¿Cómo se llama este tipo de personaje?",
+      "answer": "<mark>Héroe épico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_3/armadura-medieval.jpg",
+        "title": "Armadura medieval",
+        "source": "https://www.flickr.com/photos/30993853@N06/5693275785",
         "alt": "Una armadura medieval completa, como la de un héroe épico",
-        "titulo": "Armadura medieval",
         "autor": "LALO VAZQUEZ",
-        "fuente": "https://www.flickr.com/photos/30993853@N06/5693275785",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Era un artista que iba de pueblo en pueblo recitando historias en plazas.</mark> A cambio recibía comida, dinero o alojamiento. Gracias a él, muchas historias se conservaron sin estar escritas. ¿Cómo se llamaba este artista?",
-      "respuesta": "<mark>Juglar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_3/feria-medieval.jpg",
+      "question": "<mark>Era un artista que iba de pueblo en pueblo recitando historias en plazas.</mark> A cambio recibía comida, dinero o alojamiento. Gracias a él, muchas historias se conservaron sin estar escritas. ¿Cómo se llamaba este artista?",
+      "answer": "<mark>Juglar</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_3/feria-medieval.jpg",
+        "title": "Feira medieval chamada das marabillas na cidadevella da Coruña",
+        "source": "https://www.flickr.com/photos/38035878@N07/6904718843",
         "alt": "Una feria medieval con artistas callejeros, como los juglares de antes",
-        "titulo": "Feira medieval chamada das marabillas na cidadevella da Coruña",
         "autor": "jl.cernadas",
-        "fuente": "https://www.flickr.com/photos/38035878@N07/6904718843",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En esta época, <mark>casi nadie sabía leer ni escribir</mark>. Por eso la literatura se contaba en voz alta, no en libros. Muchas obras solo se escribieron mucho después. ¿Qué época medieval fue esta?",
-      "respuesta": "<mark>La Edad Media</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_3/castillo-coca-segovia.jpg",
+      "question": "En esta época, <mark>casi nadie sabía leer ni escribir</mark>. Por eso la literatura se contaba en voz alta, no en libros. Muchas obras solo se escribieron mucho después. ¿Qué época medieval fue esta?",
+      "answer": "<mark>La Edad Media</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_3/castillo-coca-segovia.jpg",
+        "title": "Castillo de Coca (Segovia)",
+        "source": "https://www.flickr.com/photos/38035878@N07/14388762206",
         "alt": "El Castillo de Coca, en Segovia, un castillo de la Edad Media",
-        "titulo": "Castillo de Coca (Segovia)",
         "autor": "jl.cernadas",
-        "fuente": "https://www.flickr.com/photos/38035878@N07/14388762206",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un poema corto y sencillo, fácil de cantar, <mark>con cuatro versos que riman</mark>. Se transmitía cantando, sin necesidad de escribirla. Muchas canciones populares actuales nacieron de él. ¿Cómo se llama este poema?",
-      "respuesta": "<mark>Copla popular</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_3/guitarra-acustica.jpg",
+      "question": "Es un poema corto y sencillo, fácil de cantar, <mark>con cuatro versos que riman</mark>. Se transmitía cantando, sin necesidad de escribirla. Muchas canciones populares actuales nacieron de él. ¿Cómo se llama este poema?",
+      "answer": "<mark>Copla popular</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_3/guitarra-acustica.jpg",
+        "title": "Acoustic guitar closeup",
+        "source": "https://www.flickr.com/photos/46563758@N04/49505309502",
         "alt": "Una guitarra acústica, instrumento habitual en las coplas populares",
-        "titulo": "Acoustic guitar closeup",
         "autor": "Henry Söderlund",
-        "fuente": "https://www.flickr.com/photos/46563758@N04/49505309502",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Era una canción que la gente cantaba mientras trabajaba en el campo. Su ritmo ayudaba a coordinar el esfuerzo, <mark>como remar al compás</mark>. Hacía el trabajo duro más llevadero. ¿Cómo se llama este tipo de canción?",
-      "respuesta": "<mark>Canción de trabajo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_literatura_3/trabajadores-campo.jpg",
+      "question": "Era una canción que la gente cantaba mientras trabajaba en el campo. Su ritmo ayudaba a coordinar el esfuerzo, <mark>como remar al compás</mark>. Hacía el trabajo duro más llevadero. ¿Cómo se llama este tipo de canción?",
+      "answer": "<mark>Canción de trabajo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_literatura_3/trabajadores-campo.jpg",
+        "title": "20130920-OC-LSC-1326",
+        "source": "https://www.flickr.com/photos/41284017@N08/10460713646",
         "alt": "Trabajadores en el campo, como los que cantaban canciones de trabajo",
-        "titulo": "20130920-OC-LSC-1326",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/10460713646",
         "licencia": "Public Domain"
       }
     }

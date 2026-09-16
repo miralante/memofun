@@ -1,15 +1,15 @@
 {
-  "tema": "Cuentos y leyendas de mi región - 2º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Cuentos y leyendas de mi región - 2º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una historia inventada que se cuenta para entretener, <mark>como una película contada solo con palabras</mark>. Puede tener animales que hablan o magia. ¿Cómo se llama esta historia?",
-      "respuesta": "<mark>Cuento tradicional</mark>"
+      "question": "Es una historia inventada que se cuenta para entretener, <mark>como una película contada solo con palabras</mark>. Puede tener animales que hablan o magia. ¿Cómo se llama esta historia?",
+      "answer": "<mark>Cuento tradicional</mark>"
     },
     {
-      "pregunta": "Uno es una historia inventada para entretener o enseñar. El otro mezcla algo real con algo mágico. <mark>Este último explica por qué un lugar tiene su nombre</mark>. ¿Cuál de los dos es?",
-      "respuesta": "<mark>La leyenda</mark>"
+      "question": "Uno es una historia inventada para entretener o enseñar. El otro mezcla algo real con algo mágico. <mark>Este último explica por qué un lugar tiene su nombre</mark>. ¿Cuál de los dos es?",
+      "answer": "<mark>La leyenda</mark>"
     }
   ]
 }

@@ -1,125 +1,125 @@
 {
-  "tema": "La energía - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La energía - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Cuanto más rápido se mueve un objeto, más energía tiene. <mark>Un coche a toda velocidad tiene mucha más que uno parado</mark>. ¿Cómo se llama esta energía del movimiento?",
-      "respuesta": "<mark>Energía cinética</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/montana-rusa.jpg",
+      "question": "Cuanto más rápido se mueve un objeto, más energía tiene. <mark>Un coche a toda velocidad tiene mucha más que uno parado</mark>. ¿Cómo se llama esta energía del movimiento?",
+      "answer": "<mark>Energía cinética</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/montana-rusa.jpg",
+        "title": "Edge Coaster- adrenaline rush!",
+        "source": "https://www.flickr.com/photos/77742560@N06/9245851109",
         "alt": "Una montaña rusa en movimiento",
-        "titulo": "Edge Coaster- adrenaline rush!",
         "autor": "shankar s.",
-        "fuente": "https://www.flickr.com/photos/77742560@N06/9245851109",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es energía guardada, lista para liberarse en cualquier momento. Depende de la posición de un cuerpo. <mark>Un objeto en lo alto de una montaña la tiene</mark>. ¿Cómo se llama esta energía?",
-      "respuesta": "<mark>Energía potencial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/cascada-altura.jpg",
+      "question": "Es energía guardada, lista para liberarse en cualquier momento. Depende de la posición de un cuerpo. <mark>Un objeto en lo alto de una montaña la tiene</mark>. ¿Cómo se llama esta energía?",
+      "answer": "<mark>Energía potencial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/cascada-altura.jpg",
+        "title": "Bowen Falls Milford Sound NZ.",
+        "source": "https://www.flickr.com/photos/88123769@N02/10657996025",
         "alt": "Una cascada cayendo desde gran altura",
-        "titulo": "Bowen Falls Milford Sound NZ.",
         "autor": "Bernard Spragg",
-        "fuente": "https://www.flickr.com/photos/88123769@N02/10657996025",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es sumar la energía del movimiento y la de la posición. <mark>Sin rozamiento, esa suma se mantiene constante</mark>. ¿Cómo se llama esta energía total?",
-      "respuesta": "<mark>Energía mecánica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-balanceo.jpg",
+      "question": "Es sumar la energía del movimiento y la de la posición. <mark>Sin rozamiento, esa suma se mantiene constante</mark>. ¿Cómo se llama esta energía total?",
+      "answer": "<mark>Energía mecánica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-balanceo.jpg",
+        "title": "Pendulum Swing | [Day 6/365]",
+        "source": "https://www.flickr.com/photos/11301657@N02/2922736015",
         "alt": "Un péndulo balanceándose",
-        "titulo": "Pendulum Swing | [Day 6/365]",
         "autor": "rocknroll_guitar",
-        "fuente": "https://www.flickr.com/photos/11301657@N02/2922736015",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como pasar dinero de un bolsillo a otro sin cambiar el total</mark>. Un péndulo transforma siempre energía cinética en potencial, y al revés. ¿Cómo se llama esta propiedad?",
-      "respuesta": "<mark>Conservación de la energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-foucault.jpg",
+      "question": "<mark>Es como pasar dinero de un bolsillo a otro sin cambiar el total</mark>. Un péndulo transforma siempre energía cinética en potencial, y al revés. ¿Cómo se llama esta propiedad?",
+      "answer": "<mark>Conservación de la energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/pendulo-foucault.jpg",
+        "title": "the pendulum swings, proving that the Earth is moving",
+        "source": "https://www.flickr.com/photos/47983324@N00/306748015",
         "alt": "Un péndulo de Foucault en movimiento continuo",
-        "titulo": "the pendulum swings, proving that the Earth is moving",
         "autor": "maveric2003",
-        "fuente": "https://www.flickr.com/photos/47983324@N00/306748015",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es medir cuánto esfuerzo útil se emplea al mover algo. <mark>Se produce al aplicar una fuerza con desplazamiento</mark>. Sin desplazamiento, no existe. ¿Cómo se llama esta magnitud en física?",
-      "respuesta": "<mark>Trabajo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/levantar-pesas.jpg",
+      "question": "Es medir cuánto esfuerzo útil se emplea al mover algo. <mark>Se produce al aplicar una fuerza con desplazamiento</mark>. Sin desplazamiento, no existe. ¿Cómo se llama esta magnitud en física?",
+      "answer": "<mark>Trabajo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/levantar-pesas.jpg",
+        "title": "person lifting weights in a gym",
+        "source": "https://www.flickr.com/photos/150276478@N03/34517559272",
         "alt": "Una persona levantando pesas en el gimnasio",
-        "titulo": "person lifting weights in a gym",
         "autor": "franchiseopportunitiesphotos",
-        "fuente": "https://www.flickr.com/photos/150276478@N03/34517559272",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como comparar quién hace la misma tarea en menos tiempo</mark>. Mide la rapidez con la que se transfiere energía. Se mide en vatios. ¿Cómo se llama esta magnitud?",
-      "respuesta": "<mark>Potencia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/bombilla-filamento.jpg",
+      "question": "<mark>Es como comparar quién hace la misma tarea en menos tiempo</mark>. Mide la rapidez con la que se transfiere energía. Se mide en vatios. ¿Cómo se llama esta magnitud?",
+      "answer": "<mark>Potencia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/bombilla-filamento.jpg",
+        "title": "Filament, clear lightbulbs #1",
+        "source": "https://www.flickr.com/photos/45795292@N00/4270982027",
         "alt": "El filamento encendido de una bombilla",
-        "titulo": "Filament, clear lightbulbs #1",
         "autor": "brokentrinkets",
-        "fuente": "https://www.flickr.com/photos/45795292@N00/4270982027",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El calor transfiere energía por diferencia de temperatura. El trabajo la transfiere con una fuerza y movimiento. <mark>Esa relación es la base de muchos motores</mark>. ¿Qué tienen en común calor y trabajo?",
-      "respuesta": "<mark>Son formas de transferir energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/locomotora-vapor.jpg",
+      "question": "El calor transfiere energía por diferencia de temperatura. El trabajo la transfiere con una fuerza y movimiento. <mark>Esa relación es la base de muchos motores</mark>. ¿Qué tienen en común calor y trabajo?",
+      "answer": "<mark>Son formas de transferir energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/locomotora-vapor.jpg",
+        "title": "Steam Locomotive",
+        "source": "https://www.flickr.com/photos/126569804@N05/15180148432",
         "alt": "Una locomotora de vapor",
-        "titulo": "Steam Locomotive",
         "autor": "Gehmacher_Photography",
-        "fuente": "https://www.flickr.com/photos/126569804@N05/15180148432",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Como una ola: el agua sube y baja, pero no viaja</mark>. Transmiten energía sin transportar materia. La luz y el sonido viajan así. ¿Cómo se llama esta forma de transportar energía?",
-      "respuesta": "<mark>Ondas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/ola-mar.jpg",
+      "question": "<mark>Como una ola: el agua sube y baja, pero no viaja</mark>. Transmiten energía sin transportar materia. La luz y el sonido viajan así. ¿Cómo se llama esta forma de transportar energía?",
+      "answer": "<mark>Ondas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/ola-mar.jpg",
+        "title": "Rompiendo las olas",
+        "source": "https://www.flickr.com/photos/69363241@N07/23947951749",
         "alt": "Una ola del mar rompiendo, un ejemplo de energía transportada por ondas",
-        "titulo": "Rompiendo las olas",
         "autor": "candi...",
-        "fuente": "https://www.flickr.com/photos/69363241@N07/23947951749",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como aprovechar un recurso gratis cada día, sin agotarse ni ensuciar</mark>. Usa la luz del sol sin generar residuos. ¿Qué tipo de energía es esta?",
-      "respuesta": "<mark>Energía solar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/paneles-solares.jpg",
+      "question": "<mark>Es como aprovechar un recurso gratis cada día, sin agotarse ni ensuciar</mark>. Usa la luz del sol sin generar residuos. ¿Qué tipo de energía es esta?",
+      "answer": "<mark>Energía solar</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/paneles-solares.jpg",
+        "title": "Paneles solares Fotovoltaicos",
+        "source": "https://www.flickr.com/photos/46950055@N02/14686895864",
         "alt": "Paneles solares fotovoltaicos, una fuente de energía limpia",
-        "titulo": "Paneles solares Fotovoltaicos",
         "autor": "simbiosc",
-        "fuente": "https://www.flickr.com/photos/46950055@N02/14686895864",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como llevar la cuenta de un gasto para no derrochar</mark>. Ayuda a usar mejor la energía y cuidar el ambiente. ¿Qué es útil calcular para lograrlo?",
-      "respuesta": "<mark>El consumo de energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_7/contador-electrico.jpg",
+      "question": "<mark>Es como llevar la cuenta de un gasto para no derrochar</mark>. Ayuda a usar mejor la energía y cuidar el ambiente. ¿Qué es útil calcular para lograrlo?",
+      "answer": "<mark>El consumo de energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_7/contador-electrico.jpg",
+        "title": "Meter reading shows numbers indicating power usage through the round opening of an electric meter",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=188894151",
         "alt": "Un contador eléctrico mostrando el consumo de energía",
-        "titulo": "Meter reading shows numbers indicating power usage through the round opening of an electric meter",
         "autor": "Shixart1985",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=188894151",
         "licencia": "CC BY 2.0"
       }
     }

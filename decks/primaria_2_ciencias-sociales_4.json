@@ -1,63 +1,63 @@
 {
-  "tema": "Fiestas, tradiciones y patrimonio de mi entorno - 2º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Fiestas, tradiciones y patrimonio de mi entorno - 2º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una celebración que reúne a todo un pueblo o barrio. <mark>Es como una gran reunión familiar, pero con todos los vecinos</mark>. Se repite cada año, en fechas parecidas. ¿Cómo se llama esta celebración?",
-      "respuesta": "<mark>Fiesta popular</mark>"
+      "question": "Es una celebración que reúne a todo un pueblo o barrio. <mark>Es como una gran reunión familiar, pero con todos los vecinos</mark>. Se repite cada año, en fechas parecidas. ¿Cómo se llama esta celebración?",
+      "answer": "<mark>Fiesta popular</mark>"
     },
     {
-      "pregunta": "Es la fiesta principal de un pueblo, en honor a su patrón o patrona. <mark>Es como el cumpleaños oficial de toda la localidad</mark>. Suele tener desfiles, verbenas y fuegos artificiales. ¿Cómo se llama esta fiesta?",
-      "respuesta": "<mark>Fiesta patronal</mark>"
+      "question": "Es la fiesta principal de un pueblo, en honor a su patrón o patrona. <mark>Es como el cumpleaños oficial de toda la localidad</mark>. Suele tener desfiles, verbenas y fuegos artificiales. ¿Cómo se llama esta fiesta?",
+      "answer": "<mark>Fiesta patronal</mark>"
     },
     {
-      "pregunta": "Los vecinos se juntan y lo pasan bien juntos. <mark>Es como pausar el día a día para disfrutar</mark>. También recuerdan la historia del pueblo. ¿Para qué sirven las fiestas de un pueblo?",
-      "respuesta": "<mark>Para unir a los vecinos</mark>"
+      "question": "Los vecinos se juntan y lo pasan bien juntos. <mark>Es como pausar el día a día para disfrutar</mark>. También recuerdan la historia del pueblo. ¿Para qué sirven las fiestas de un pueblo?",
+      "answer": "<mark>Para unir a los vecinos</mark>"
     },
     {
-      "pregunta": "Es una costumbre que se repite desde hace mucho tiempo. <mark>Es como una receta de familia que pasa de abuelos a nietos</mark>. Puede ser una comida, un baile o una forma de celebrar. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Tradición</mark>"
+      "question": "Es una costumbre que se repite desde hace mucho tiempo. <mark>Es como una receta de familia que pasa de abuelos a nietos</mark>. Puede ser una comida, un baile o una forma de celebrar. ¿Cómo se llama esto?",
+      "answer": "<mark>Tradición</mark>"
     },
     {
-      "pregunta": "Es una comida que se prepara desde hace generaciones en un lugar. <mark>Es como una firma de esa tierra, hecha con sus ingredientes</mark>. Se cocina en fiestas o reuniones familiares. ¿Cómo se llama esta comida?",
-      "respuesta": "<mark>Plato típico</mark>"
+      "question": "Es una comida que se prepara desde hace generaciones en un lugar. <mark>Es como una firma de esa tierra, hecha con sus ingredientes</mark>. Se cocina en fiestas o reuniones familiares. ¿Cómo se llama esta comida?",
+      "answer": "<mark>Plato típico</mark>"
     },
     {
-      "pregunta": "Es una forma de bailar o cantar propia de una región. <mark>Es como un idioma sin palabras que cuenta cómo vive esa gente</mark>. Se aprende viendo a otros bailarlo o cantarlo. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Baile o música tradicional</mark>"
+      "question": "Es una forma de bailar o cantar propia de una región. <mark>Es como un idioma sin palabras que cuenta cómo vive esa gente</mark>. Se aprende viendo a otros bailarlo o cantarlo. ¿Cómo se llama esto?",
+      "answer": "<mark>Baile o música tradicional</mark>"
     },
     {
-      "pregunta": "Es una construcción importante que se conserva desde hace tiempo. <mark>Es como una fotografía enorme del pasado, hecha de piedra</mark>. Puede ser una iglesia, un castillo o una fuente antigua. ¿Cómo se llama esta construcción?",
-      "respuesta": "<mark>Monumento</mark>"
+      "question": "Es una construcción importante que se conserva desde hace tiempo. <mark>Es como una fotografía enorme del pasado, hecha de piedra</mark>. Puede ser una iglesia, un castillo o una fuente antigua. ¿Cómo se llama esta construcción?",
+      "answer": "<mark>Monumento</mark>"
     },
     {
-      "pregunta": "Una iglesia o un castillo antiguo guardan mucha información. <mark>Es como abrir un libro de historia hecho de piedra</mark>. Muestran cómo construían sin máquinas modernas. ¿Qué te enseñan estas construcciones antiguas?",
-      "respuesta": "<mark>Cómo era la vida antes</mark>"
+      "question": "Una iglesia o un castillo antiguo guardan mucha información. <mark>Es como abrir un libro de historia hecho de piedra</mark>. Muestran cómo construían sin máquinas modernas. ¿Qué te enseñan estas construcciones antiguas?",
+      "answer": "<mark>Cómo era la vida antes</mark>"
     },
     {
-      "pregunta": "Si un monumento antiguo se destruye, no se puede recuperar igual. <mark>Es como un recuerdo único que no se puede volver a fotografiar</mark>. Cuidarlos deja que otras personas los visiten después. ¿Por qué se cuidan los monumentos antiguos?",
-      "respuesta": "<mark>Para que no se pierdan</mark>"
+      "question": "Si un monumento antiguo se destruye, no se puede recuperar igual. <mark>Es como un recuerdo único que no se puede volver a fotografiar</mark>. Cuidarlos deja que otras personas los visiten después. ¿Por qué se cuidan los monumentos antiguos?",
+      "answer": "<mark>Para que no se pierdan</mark>"
     },
     {
-      "pregunta": "Es algo que se usaba hace muchos años, distinto a lo actual. <mark>Es como una cápsula del tiempo que llegó hasta hoy</mark>. Puede estar en un museo o en casa de los abuelos. ¿Cómo se llama este tipo de objeto?",
-      "respuesta": "<mark>Objeto de otra época</mark>"
+      "question": "Es algo que se usaba hace muchos años, distinto a lo actual. <mark>Es como una cápsula del tiempo que llegó hasta hoy</mark>. Puede estar en un museo o en casa de los abuelos. ¿Cómo se llama este tipo de objeto?",
+      "answer": "<mark>Objeto de otra época</mark>"
     },
     {
-      "pregunta": "Servía para escribir sin ordenador, pulsando teclas de metal. <mark>Era como un ordenador antiguo, pero sin pantalla</mark>. Cada tecla marcaba una letra sobre el papel. ¿Qué máquina antigua era esta?",
-      "respuesta": "<mark>Máquina de escribir</mark>"
+      "question": "Servía para escribir sin ordenador, pulsando teclas de metal. <mark>Era como un ordenador antiguo, pero sin pantalla</mark>. Cada tecla marcaba una letra sobre el papel. ¿Qué máquina antigua era esta?",
+      "answer": "<mark>Máquina de escribir</mark>"
     },
     {
-      "pregunta": "Nos muestran cómo vestía y vivía la gente hace años. <mark>Son como ventanas abiertas al pasado de una familia</mark>. No tenían colores porque las cámaras eran distintas. ¿Qué tipo de fotos son estas?",
-      "respuesta": "<mark>Fotos en blanco y negro</mark>"
+      "question": "Nos muestran cómo vestía y vivía la gente hace años. <mark>Son como ventanas abiertas al pasado de una familia</mark>. No tenían colores porque las cámaras eran distintas. ¿Qué tipo de fotos son estas?",
+      "answer": "<mark>Fotos en blanco y negro</mark>"
     },
     {
-      "pregunta": "Muchos eran de madera, tela o metal, sin pilas ni pantallas. <mark>Eran como inventos sencillos hechos para durar toda la vida</mark>. Se jugaba mucho al aire libre, con otros niños. ¿De quién eran estos juguetes antiguos?",
-      "respuesta": "<mark>De los abuelos</mark>"
+      "question": "Muchos eran de madera, tela o metal, sin pilas ni pantallas. <mark>Eran como inventos sencillos hechos para durar toda la vida</mark>. Se jugaba mucho al aire libre, con otros niños. ¿De quién eran estos juguetes antiguos?",
+      "answer": "<mark>De los abuelos</mark>"
     },
     {
-      "pregunta": "Conocer el pasado te ayuda a entender de dónde vienes. <mark>Es como mirar las raíces de un árbol para entender sus ramas</mark>. Ves qué ha cambiado y qué sigue igual. ¿Por qué es interesante conocer el pasado de tu entorno?",
-      "respuesta": "<mark>Para valorar tu historia</mark>"
+      "question": "Conocer el pasado te ayuda a entender de dónde vienes. <mark>Es como mirar las raíces de un árbol para entender sus ramas</mark>. Ves qué ha cambiado y qué sigue igual. ¿Por qué es interesante conocer el pasado de tu entorno?",
+      "answer": "<mark>Para valorar tu historia</mark>"
     }
   ]
 }

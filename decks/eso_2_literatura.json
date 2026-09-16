@@ -1,125 +1,125 @@
 {
-  "tema": "Literatura - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Mide cuántas sílabas tiene cada verso de un poema. Ese conteo determina <mark>el compás con el que suena</mark>. También se fija en cómo riman los versos entre sí. ¿Cómo se llama este estudio del poema?",
-      "respuesta": "<mark>Métrica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/contar-dedos.jpg",
+      "question": "Mide cuántas sílabas tiene cada verso de un poema. Ese conteo determina <mark>el compás con el que suena</mark>. También se fija en cómo riman los versos entre sí. ¿Cómo se llama este estudio del poema?",
+      "answer": "<mark>Métrica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/contar-dedos.jpg",
+        "title": "7x7 = 49",
+        "source": "https://www.flickr.com/photos/17569908@N00/3535261",
         "alt": "Contando con los dedos de la mano",
-        "titulo": "7x7 = 49",
         "autor": "HyperBob",
-        "fuente": "https://www.flickr.com/photos/17569908@N00/3535261",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un grupo de versos que forman un bloque. Se separa de otros bloques por un espacio en blanco. <mark>Es parecido a un párrafo, pero en verso</mark>. ¿Cómo se llama este bloque de versos?",
-      "respuesta": "<mark>Estrofa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/bloques-construccion.jpg",
+      "question": "Es un grupo de versos que forman un bloque. Se separa de otros bloques por un espacio en blanco. <mark>Es parecido a un párrafo, pero en verso</mark>. ¿Cómo se llama este bloque de versos?",
+      "answer": "<mark>Estrofa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/bloques-construccion.jpg",
+        "title": "Building Blocks",
+        "source": "https://www.flickr.com/photos/49741083@N00/49012397",
         "alt": "Bloques de construcción apilados",
-        "titulo": "Building Blocks",
         "autor": "Holger Zscheyge",
-        "fuente": "https://www.flickr.com/photos/49741083@N00/49012397",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Tener las mismas sílabas da un compás regular a los versos. El oído reconoce ese patrón que se repite. Por eso algunos poemas suenan <mark>casi como una canción</mark>. ¿Cómo se llama este compás de un poema?",
-      "respuesta": "<mark>Ritmo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/tambor-caja.jpg",
+      "question": "Tener las mismas sílabas da un compás regular a los versos. El oído reconoce ese patrón que se repite. Por eso algunos poemas suenan <mark>casi como una canción</mark>. ¿Cómo se llama este compás de un poema?",
+      "answer": "<mark>Ritmo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/tambor-caja.jpg",
+        "title": "snare drum",
+        "source": "https://www.flickr.com/photos/27429206@N02/4124370796",
         "alt": "Un tambor, símbolo del ritmo",
-        "titulo": "snare drum",
         "autor": "Vladimir Morozov",
-        "fuente": "https://www.flickr.com/photos/27429206@N02/4124370796",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es unir dos cosas usando una palabra como 'como'. Por ejemplo: <mark>'sus ojos brillaban como estrellas'</mark>. Ayuda al lector a imaginar mejor lo que se describe. ¿Cómo se llama este recurso literario?",
-      "respuesta": "<mark>Comparación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/cielo-estrellado.jpg",
+      "question": "Es unir dos cosas usando una palabra como 'como'. Por ejemplo: <mark>'sus ojos brillaban como estrellas'</mark>. Ayuda al lector a imaginar mejor lo que se describe. ¿Cómo se llama este recurso literario?",
+      "answer": "<mark>Comparación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/cielo-estrellado.jpg",
+        "title": "Starry sky",
+        "source": "https://www.flickr.com/photos/40422902@N00/23334535734",
         "alt": "Un cielo lleno de estrellas",
-        "titulo": "Starry sky",
         "autor": "skyseeker",
-        "fuente": "https://www.flickr.com/photos/40422902@N00/23334535734",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es nombrar una cosa como si fuera otra, sin usar la palabra 'como'. Por ejemplo: <mark>'sus ojos eran dos estrellas'</mark>. Es más directa e intensa que una comparación. ¿Cómo se llama este recurso literario?",
-      "respuesta": "<mark>Metáfora</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/via-lactea.jpg",
+      "question": "Es nombrar una cosa como si fuera otra, sin usar la palabra 'como'. Por ejemplo: <mark>'sus ojos eran dos estrellas'</mark>. Es más directa e intensa que una comparación. ¿Cómo se llama este recurso literario?",
+      "answer": "<mark>Metáfora</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/via-lactea.jpg",
+        "title": "Paul Meets the Milky Way",
+        "source": "https://www.flickr.com/photos/46213661@N00/4112827179",
         "alt": "La Vía Láctea llena de estrellas",
-        "titulo": "Paul Meets the Milky Way",
         "autor": "boltron-",
-        "fuente": "https://www.flickr.com/photos/46213661@N00/4112827179",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una comparación usa la palabra 'como' para relacionar dos cosas: 'como estrellas'. Un segundo recurso se salta esa palabra y las funde en una sola: <mark>'eran estrellas'</mark>. ¿Cómo se llama el segundo recurso, el que no usa 'como'?",
-      "respuesta": "<mark>Metáfora</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/cielo-via-lactea.jpg",
+      "question": "Una comparación usa la palabra 'como' para relacionar dos cosas: 'como estrellas'. Un segundo recurso se salta esa palabra y las funde en una sola: <mark>'eran estrellas'</mark>. ¿Cómo se llama el segundo recurso, el que no usa 'como'?",
+      "answer": "<mark>Metáfora</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/cielo-via-lactea.jpg",
+        "title": "SKY and MILKWAY",
+        "source": "https://www.flickr.com/photos/55293400@N07/5917950698",
         "alt": "El cielo nocturno con la Vía Láctea",
-        "titulo": "SKY and MILKWAY",
         "autor": "Ömer Ünlü",
-        "fuente": "https://www.flickr.com/photos/55293400@N07/5917950698",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Eran artistas que iban de pueblo en pueblo recitando historias</mark>. Actuaban en plazas para gente que no sabía leer, a cambio de comida o dinero. Sus versos eran fáciles de recordar. ¿Cómo se llamaban estos artistas?",
-      "respuesta": "<mark>Juglares</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/juglares-mercado.jpg",
+      "question": "<mark>Eran artistas que iban de pueblo en pueblo recitando historias</mark>. Actuaban en plazas para gente que no sabía leer, a cambio de comida o dinero. Sus versos eran fáciles de recordar. ¿Cómo se llamaban estos artistas?",
+      "answer": "<mark>Juglares</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/juglares-mercado.jpg",
+        "title": "Mercado Cervantino, juglares (Alcalá de Henares)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=36529360",
         "alt": "Juglares actuando en un mercado medieval",
-        "titulo": "Mercado Cervantino, juglares (Alcalá de Henares)",
         "autor": "Raimundo Pastor",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=36529360",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Los juglares contaban hazañas de héroes y batallas famosas. Un ejemplo muy conocido es <mark>el 'Cantar de Mio Cid'</mark>. Servían para entretener y para admirar a un héroe. ¿Cómo se llaman estas historias de héroes?",
-      "respuesta": "<mark>Cantares de gesta</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/laud-instrumento.jpg",
+      "question": "Los juglares contaban hazañas de héroes y batallas famosas. Un ejemplo muy conocido es <mark>el 'Cantar de Mio Cid'</mark>. Servían para entretener y para admirar a un héroe. ¿Cómo se llaman estas historias de héroes?",
+      "answer": "<mark>Cantares de gesta</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/laud-instrumento.jpg",
+        "title": "Lute Instrument",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=31410436",
         "alt": "Un laúd, instrumento tocado por los juglares",
-        "titulo": "Lute Instrument",
         "autor": "Albane.B",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=31410436",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Era la poesía que escribían los clérigos, <mark>gente culta que sabía leer y escribir</mark>. Cuidaban mucho la métrica de sus versos. Solían tratar temas religiosos o morales. ¿Cómo se llama esta poesía culta medieval?",
-      "respuesta": "<mark>Mester de Clerecía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/manuscrito-medieval.jpg",
+      "question": "Era la poesía que escribían los clérigos, <mark>gente culta que sabía leer y escribir</mark>. Cuidaban mucho la métrica de sus versos. Solían tratar temas religiosos o morales. ¿Cómo se llama esta poesía culta medieval?",
+      "answer": "<mark>Mester de Clerecía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/manuscrito-medieval.jpg",
+        "title": "falsos apuntes medievales",
+        "source": "https://www.flickr.com/photos/32179778@N00/10868422783",
         "alt": "Un manuscrito medieval con escritura antigua, como los del Mester de Clerecía",
-        "titulo": "falsos apuntes medievales",
         "autor": "M. Martin Vicente",
-        "fuente": "https://www.flickr.com/photos/32179778@N00/10868422783",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un tipo de poesía medieval lo recitaban <mark>artistas que no sabían escribir</mark>, hablando de héroes y batallas. El otro lo escribían monjes cultos, cuidando más la forma, con temas religiosos y morales. ¿Cómo se llama el tipo que recitaban los juglares?",
-      "respuesta": "<mark>Mester de Juglaría</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura/escriba-anglosajon.jpg",
+      "question": "Un tipo de poesía medieval lo recitaban <mark>artistas que no sabían escribir</mark>, hablando de héroes y batallas. El otro lo escribían monjes cultos, cuidando más la forma, con temas religiosos y morales. ¿Cómo se llama el tipo que recitaban los juglares?",
+      "answer": "<mark>Mester de Juglaría</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura/escriba-anglosajon.jpg",
+        "title": "Anglo-Saxon scribe",
+        "source": "https://www.flickr.com/photos/52067454@N00/29516343996",
         "alt": "Un monje copista escribiendo un manuscrito",
-        "titulo": "Anglo-Saxon scribe",
         "autor": "Futurilla",
-        "fuente": "https://www.flickr.com/photos/52067454@N00/29516343996",
         "licencia": "CC BY 2.0"
       }
     }

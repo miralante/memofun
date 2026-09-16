@@ -1,197 +1,197 @@
 {
-  "tema": "Los Reyes Católicos, América y el Renacimiento - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Los Reyes Católicos, América y el Renacimiento - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Su matrimonio en 1469 unió los dos grandes reinos cristianos</mark>. Con ellos, España empezó a formarse como un reino único. Conquistaron Granada, el último territorio de Al-Ándalus, en 1492. ¿Cómo se llamaban estos dos reyes?",
-      "respuesta": "<mark>Isabel y Fernando</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/reyes-catolicos.jpg",
+      "question": "<mark>Su matrimonio en 1469 unió los dos grandes reinos cristianos</mark>. Con ellos, España empezó a formarse como un reino único. Conquistaron Granada, el último territorio de Al-Ándalus, en 1492. ¿Cómo se llamaban estos dos reyes?",
+      "answer": "<mark>Isabel y Fernando</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/reyes-catolicos.jpg",
+        "title": "Reyes Católicos Granada",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=25689100",
         "alt": "Estatua de los Reyes Católicos, Isabel y Fernando",
-        "titulo": "Reyes Católicos Granada",
         "autor": "Pedro M. Martínez",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=25689100",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "<mark>Conquistaron Granada, Colón llegó a América y se publicó la primera gramática del castellano</mark>. También se expulsó a la población judía que no se convirtiera. ¿En qué año ocurrieron todos estos hechos?",
-      "respuesta": "<mark>1492</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/nina-replica-colon.jpg",
+      "question": "<mark>Conquistaron Granada, Colón llegó a América y se publicó la primera gramática del castellano</mark>. También se expulsó a la población judía que no se convirtiera. ¿En qué año ocurrieron todos estos hechos?",
+      "answer": "<mark>1492</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/nina-replica-colon.jpg",
+        "title": "Niña replica - Morro Bay CA",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=5143909",
         "alt": "Réplica de la carabela La Niña, uno de los barcos de Colón",
-        "titulo": "Niña replica - Morro Bay CA",
         "autor": "Mike Baird from Morro Bay, USA",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=5143909",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como tomar un atajo que en realidad lleva a otro sitio</mark>. Colón creía que el mundo era más pequeño de lo que es. Navegando por el Atlántico, llegó sin saberlo a un continente desconocido para Europa. ¿A qué continente intentaba llegar Colón?",
-      "respuesta": "<mark>Asia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/barco-vela-oceano.jpg",
+      "question": "<mark>Es como tomar un atajo que en realidad lleva a otro sitio</mark>. Colón creía que el mundo era más pequeño de lo que es. Navegando por el Atlántico, llegó sin saberlo a un continente desconocido para Europa. ¿A qué continente intentaba llegar Colón?",
+      "answer": "<mark>Asia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/barco-vela-oceano.jpg",
+        "title": "Sailing ship 'Ocean Princess'",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=127212093",
         "alt": "Un barco de vela navegando en el mar",
-        "titulo": "Sailing ship 'Ocean Princess'",
         "autor": "D.Bellwood",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=127212093",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "<mark>Es como llegar a una casa ya habitada y quedarse a gobernarla</mark>. Los pueblos indígenas que ya vivían allí sufrieron una conquista muy violenta. También llegaron enfermedades que diezmaron a la población indígena. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Colonización de América</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/iglesia-colonial-america.jpg",
+      "question": "<mark>Es como llegar a una casa ya habitada y quedarse a gobernarla</mark>. Los pueblos indígenas que ya vivían allí sufrieron una conquista muy violenta. También llegaron enfermedades que diezmaron a la población indígena. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Colonización de América</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/iglesia-colonial-america.jpg",
+        "title": "San José de Gracia Church, Las Trampas, New Mexico",
+        "source": "https://www.flickr.com/photos/80651083@N00/4561546188",
         "alt": "Iglesia de estilo colonial español en América",
-        "titulo": "San José de Gracia Church, Las Trampas, New Mexico",
         "autor": "Thad Roan - Bridgepix",
-        "fuente": "https://www.flickr.com/photos/80651083@N00/4561546188",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Antes el centro era casi siempre Dios; ahora también importaba el ser humano</mark>. Se volvió a estudiar los textos clásicos de Grecia y Roma. Fue la base cultural del Renacimiento. ¿Cómo se llama esta forma de pensar?",
-      "respuesta": "<mark>Humanismo renacentista</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/pintura-renacentista.jpg",
+      "question": "<mark>Antes el centro era casi siempre Dios; ahora también importaba el ser humano</mark>. Se volvió a estudiar los textos clásicos de Grecia y Roma. Fue la base cultural del Renacimiento. ¿Cómo se llama esta forma de pensar?",
+      "answer": "<mark>Humanismo renacentista</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/pintura-renacentista.jpg",
+        "title": "Looking at Renaissance painting at the Met",
+        "source": "https://www.flickr.com/photos/42586873@N00/7603226934",
         "alt": "Personas observando un cuadro renacentista en un museo",
-        "titulo": "Looking at Renaissance painting at the Met",
         "autor": "mandiberg",
-        "fuente": "https://www.flickr.com/photos/42586873@N00/7603226934",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Busca proporciones perfectas, casi como una fotografía pintada a mano</mark>. Recupera la belleza del arte griego y romano. Nació en Italia y se extendió después por toda Europa. ¿Qué dos artistas muy destacados de esa época se pueden nombrar?",
-      "respuesta": "<mark>Leonardo da Vinci y Miguel Ángel</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/pintura-renacentista.jpg",
+      "question": "<mark>Busca proporciones perfectas, casi como una fotografía pintada a mano</mark>. Recupera la belleza del arte griego y romano. Nació en Italia y se extendió después por toda Europa. ¿Qué dos artistas muy destacados de esa época se pueden nombrar?",
+      "answer": "<mark>Leonardo da Vinci y Miguel Ángel</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/pintura-renacentista.jpg",
+        "title": "Tríptico - Coronación de la Virgen",
+        "source": "https://www.flickr.com/photos/70626035@N00/16439671766",
         "alt": "Un tríptico pintado en el estilo del Renacimiento",
-        "titulo": "Tríptico - Coronación de la Virgen",
         "autor": "jacilluch",
-        "fuente": "https://www.flickr.com/photos/70626035@N00/16439671766",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como desempolvar libros antiguos y leerlos con nuevos ojos</mark>. Se redescubrió el arte y el saber de Grecia y Roma. Antes, siglos de religión medieval habían dominado la cultura. ¿Cómo se llama esta época, cuyo nombre significa 'volver a nacer'?",
-      "respuesta": "<mark>Renacimiento</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/escultura-clasica.jpg",
+      "question": "<mark>Es como desempolvar libros antiguos y leerlos con nuevos ojos</mark>. Se redescubrió el arte y el saber de Grecia y Roma. Antes, siglos de religión medieval habían dominado la cultura. ¿Cómo se llama esta época, cuyo nombre significa 'volver a nacer'?",
+      "answer": "<mark>Renacimiento</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/escultura-clasica.jpg",
+        "title": "the dying gaul",
+        "source": "https://www.flickr.com/photos/69275268@N00/5383446201",
         "alt": "Una escultura clásica de estilo grecorromano",
-        "titulo": "the dying gaul",
         "autor": "Xuan Che",
-        "fuente": "https://www.flickr.com/photos/69275268@N00/5383446201",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Fue un movimiento religioso que criticó a la Iglesia católica. Protestó, entre otras cosas, contra <mark>la venta de perdones a cambio de dinero</mark>. Dividió a Europa entre católicos y protestantes. ¿Quién encendió esa chispa, en el siglo dieciséis?",
-      "respuesta": "<mark>Martín Lutero</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/martin-lutero-estatua.jpg",
+      "question": "Fue un movimiento religioso que criticó a la Iglesia católica. Protestó, entre otras cosas, contra <mark>la venta de perdones a cambio de dinero</mark>. Dividió a Europa entre católicos y protestantes. ¿Quién encendió esa chispa, en el siglo dieciséis?",
+      "answer": "<mark>Martín Lutero</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/martin-lutero-estatua.jpg",
+        "title": "Martin Luther statue - Dresden, Saxony, Germany",
+        "source": "https://www.flickr.com/photos/10978503@N00/16520687622",
         "alt": "Estatua de Martín Lutero, líder de la Reforma protestante",
-        "titulo": "Martin Luther statue - Dresden, Saxony, Germany",
         "autor": "Glen Bowman",
-        "fuente": "https://www.flickr.com/photos/10978503@N00/16520687622",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como poner orden en casa después de una crítica dura</mark>. Fue la respuesta de la Iglesia católica frente a la Reforma protestante. También impulsó un arte religioso más emocional e intenso. ¿Cómo se llamó el concilio que se reunió para fijar nuevas normas?",
-      "respuesta": "<mark>Concilio de Trento</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/catedral-interior.jpg",
+      "question": "<mark>Es como poner orden en casa después de una crítica dura</mark>. Fue la respuesta de la Iglesia católica frente a la Reforma protestante. También impulsó un arte religioso más emocional e intenso. ¿Cómo se llamó el concilio que se reunió para fijar nuevas normas?",
+      "answer": "<mark>Concilio de Trento</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/catedral-interior.jpg",
+        "title": "Winchester Cathedral, Interior, Hampshire",
+        "source": "https://www.flickr.com/photos/76253421@N04/14287903110",
         "alt": "Interior de una gran catedral católica",
-        "titulo": "Winchester Cathedral, Interior, Hampshire",
         "autor": "JackPeasePhotography",
-        "fuente": "https://www.flickr.com/photos/76253421@N04/14287903110",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Se decía que en sus dominios 'no se ponía el sol'</mark>. Gobernó un imperio enorme, con territorios en varios continentes. Heredó Castilla, Aragón y territorios centroeuropeos. ¿Cómo se llamaba este emperador?",
-      "respuesta": "<mark>Carlos V</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/carlos-v-retrato.jpg",
+      "question": "<mark>Se decía que en sus dominios 'no se ponía el sol'</mark>. Gobernó un imperio enorme, con territorios en varios continentes. Heredó Castilla, Aragón y territorios centroeuropeos. ¿Cómo se llamaba este emperador?",
+      "answer": "<mark>Carlos V</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/carlos-v-retrato.jpg",
+        "title": "Charles V, Holy Roman Emperor, son of Juana of Castile, nephew of Catherine of Aragon",
+        "source": "https://www.flickr.com/photos/60861613@N00/3390295835",
         "alt": "Retrato del emperador Carlos V",
-        "titulo": "Charles V, Holy Roman Emperor, son of Juana of Castile, nephew of Catherine of Aragon",
         "autor": "lisby1",
-        "fuente": "https://www.flickr.com/photos/60861613@N00/3390295835",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "<mark>Gobernó desde Madrid, convertida entonces en capital del reino</mark>. Fue hijo de Carlos V y rey de un imperio español enorme. También enfrentó guerras costosas que debilitaron las finanzas del reino. ¿Cómo se llamaba este rey?",
-      "respuesta": "<mark>Felipe II</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/monasterio-escorial.jpg",
+      "question": "<mark>Gobernó desde Madrid, convertida entonces en capital del reino</mark>. Fue hijo de Carlos V y rey de un imperio español enorme. También enfrentó guerras costosas que debilitaron las finanzas del reino. ¿Cómo se llamaba este rey?",
+      "answer": "<mark>Felipe II</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/monasterio-escorial.jpg",
+        "title": "El Escorial Monastery, Spain",
+        "source": "https://www.flickr.com/photos/56804333@N06/5292508249",
         "alt": "El monasterio de El Escorial, mandado construir por Felipe II",
-        "titulo": "El Escorial Monastery, Spain",
         "autor": "roloverjavi",
-        "fuente": "https://www.flickr.com/photos/56804333@N06/5292508249",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Mientras anochecía en un territorio, en otro seguía siendo de día</mark>. Sus territorios estaban repartidos por América, Europa, África y Asia. Fue uno de los imperios más extensos de la historia. ¿En cuántos continentes tenía territorios este imperio?",
-      "respuesta": "<mark>Cuatro continentes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/mapa-mundo-antiguo.jpg",
+      "question": "<mark>Mientras anochecía en un territorio, en otro seguía siendo de día</mark>. Sus territorios estaban repartidos por América, Europa, África y Asia. Fue uno de los imperios más extensos de la historia. ¿En cuántos continentes tenía territorios este imperio?",
+      "answer": "<mark>Cuatro continentes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/mapa-mundo-antiguo.jpg",
+        "title": "Old world map and compass",
+        "source": "https://www.flickr.com/photos/151415985@N06/36599569683",
         "alt": "Un mapa antiguo del mundo con una brújula",
-        "titulo": "Old world map and compass",
         "autor": "Wallboat",
-        "fuente": "https://www.flickr.com/photos/151415985@N06/36599569683",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Sin ellas, cruzar un océano entero habría sido casi imposible. <mark>Mejores brújulas y mapas más precisos</mark> hicieron posible cruzar el Atlántico. Esos avances abrieron rutas que antes nadie se atrevía a cruzar. ¿Cómo se llamaba este barco clave en esos viajes?",
-      "respuesta": "<mark>La carabela</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/carabela.jpg",
+      "question": "Sin ellas, cruzar un océano entero habría sido casi imposible. <mark>Mejores brújulas y mapas más precisos</mark> hicieron posible cruzar el Atlántico. Esos avances abrieron rutas que antes nadie se atrevía a cruzar. ¿Cómo se llamaba este barco clave en esos viajes?",
+      "answer": "<mark>La carabela</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/carabela.jpg",
+        "title": "Carabela del siglo XV",
+        "source": "https://www.flickr.com/photos/37667416@N04/4384618082",
         "alt": "Una carabela del siglo XV, el barco usado en los viajes de exploración",
-        "titulo": "Carabela del siglo XV",
         "autor": "Biblioteca Rector Machado y Nuñez",
-        "fuente": "https://www.flickr.com/photos/37667416@N04/4384618082",
         "licencia": "Dominio público (PDM 1.0)"
       }
     },
     {
-      "pregunta": "Productos <mark>como la patata o el tomate</mark> cambiaron para siempre la comida europea. También llegó mucha plata y oro americanos a España. Eso cambió la economía de toda Europa durante siglos. ¿Qué dos tipos de cosas llegaron a Europa tras el Descubrimiento de América?",
-      "respuesta": "<mark>Nuevos alimentos y metales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/monedas-oro.jpg",
+      "question": "Productos <mark>como la patata o el tomate</mark> cambiaron para siempre la comida europea. También llegó mucha plata y oro americanos a España. Eso cambió la economía de toda Europa durante siglos. ¿Qué dos tipos de cosas llegaron a Europa tras el Descubrimiento de América?",
+      "answer": "<mark>Nuevos alimentos y metales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/monedas-oro.jpg",
+        "title": "The Lure Of Gold",
+        "source": "https://www.flickr.com/photos/28548387@N00/411453602",
         "alt": "Monedas de oro, símbolo de la riqueza traída a Europa",
-        "titulo": "The Lure Of Gold",
         "autor": "bogenfreund",
-        "fuente": "https://www.flickr.com/photos/28548387@N00/411453602",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Sufrieron la pérdida de sus tierras, su cultura y muchísimas vidas. <mark>Las enfermedades europeas, desconocidas allí, mataron a gran parte de la población</mark>. Sus grandes imperios fueron destruidos por la conquista. ¿Qué dos imperios americanos fueron destruidos?",
-      "respuesta": "<mark>El azteca y el inca</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/ceramica-indigena.jpg",
+      "question": "Sufrieron la pérdida de sus tierras, su cultura y muchísimas vidas. <mark>Las enfermedades europeas, desconocidas allí, mataron a gran parte de la población</mark>. Sus grandes imperios fueron destruidos por la conquista. ¿Qué dos imperios americanos fueron destruidos?",
+      "answer": "<mark>El azteca y el inca</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/ceramica-indigena.jpg",
+        "title": "National Taiwan Museum: Taiwan Indigenous Pottery & Artifacts",
+        "source": "http://www.flickr.com/photos/101561334@N08/48106696647",
         "alt": "Objetos de cerámica indígena expuestos en un museo",
-        "titulo": "National Taiwan Museum: Taiwan Indigenous Pottery & Artifacts",
         "autor": "Gary Lee Todd, Ph.D.",
-        "fuente": "http://www.flickr.com/photos/101561334@N08/48106696647",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "<mark>Es como abrir puertas que antes nadie se atrevía a abrir</mark>. Fue una época de curiosidad, aplicada al arte, a la ciencia y a los mapas. Se cuestionaban ideas antiguas y se buscaban respuestas nuevas. ¿Cómo se llama la nueva etapa histórica que se considera que empieza en esta época?",
-      "respuesta": "<mark>Edad Moderna</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_5/mapa-navegacion.jpg",
+      "question": "<mark>Es como abrir puertas que antes nadie se atrevía a abrir</mark>. Fue una época de curiosidad, aplicada al arte, a la ciencia y a los mapas. Se cuestionaban ideas antiguas y se buscaban respuestas nuevas. ¿Cómo se llama la nueva etapa histórica que se considera que empieza en esta época?",
+      "answer": "<mark>Edad Moderna</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_5/mapa-navegacion.jpg",
+        "title": "A plat of all the world",
+        "source": "https://www.flickr.com/photos/24528911@N05/2709980753",
         "alt": "Un mapa antiguo del mundo usado para la navegación",
-        "titulo": "A plat of all the world",
         "autor": "Norman B. Leventhal Map Center at the BPL",
-        "fuente": "https://www.flickr.com/photos/24528911@N05/2709980753",
         "licencia": "CC BY 2.0"
       }
     }

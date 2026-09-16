@@ -1,197 +1,197 @@
 {
-  "tema": "Ecosistemas, atmósfera, hidrosfera y cambio climático - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Ecosistemas, atmósfera, hidrosfera y cambio climático - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el conjunto formado por los seres vivos de un lugar y su entorno físico. <mark>Es como una gran comunidad donde todo está conectado</mark>. ¿Cómo se llama este conjunto?",
-      "respuesta": "<mark>Ecosistema</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/ecosistema-bosque.jpg",
+      "question": "Es el conjunto formado por los seres vivos de un lugar y su entorno físico. <mark>Es como una gran comunidad donde todo está conectado</mark>. ¿Cómo se llama este conjunto?",
+      "answer": "<mark>Ecosistema</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/ecosistema-bosque.jpg",
+        "title": "Laurentian Maple Forest ecosystem @ Biodôme @ Hochelaga-Maisonneuve @ Montreal (29800320084)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=145506668",
         "alt": "Un bosque con árboles, un ejemplo de ecosistema",
-        "titulo": "Laurentian Maple Forest ecosystem @ Biodôme @ Hochelaga-Maisonneuve @ Montreal (29800320084)",
         "autor": "Guilhem Vellut from Annecy, France",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=145506668",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son todos los seres vivos de un ecosistema, <mark>plantas, animales, hongos y microorganismos</mark>. Se relacionan comiendo, compitiendo o ayudándose. ¿Cómo se llaman estos elementos con vida?",
-      "respuesta": "<mark>Componentes bióticos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/fauna-silvestre.jpg",
+      "question": "Son todos los seres vivos de un ecosistema, <mark>plantas, animales, hongos y microorganismos</mark>. Se relacionan comiendo, compitiendo o ayudándose. ¿Cómo se llaman estos elementos con vida?",
+      "answer": "<mark>Componentes bióticos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/fauna-silvestre.jpg",
+        "title": "My Public Lands Roadtrip: Wildlife in Wyoming",
+        "source": "https://www.flickr.com/photos/91981596@N06/19289859004",
         "alt": "Animales salvajes en su hábitat natural",
-        "titulo": "My Public Lands Roadtrip: Wildlife in Wyoming",
         "autor": "mypubliclands",
-        "fuente": "https://www.flickr.com/photos/91981596@N06/19289859004",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son los elementos sin vida de un entorno, como el agua, el aire o la luz. <mark>Son como el escenario donde los seres vivos actúan</mark>. ¿Cómo se llaman estos elementos sin vida?",
-      "respuesta": "<mark>Componentes abióticos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/paisaje-desertico.jpg",
+      "question": "Son los elementos sin vida de un entorno, como el agua, el aire o la luz. <mark>Son como el escenario donde los seres vivos actúan</mark>. ¿Cómo se llaman estos elementos sin vida?",
+      "answer": "<mark>Componentes abióticos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/paisaje-desertico.jpg",
+        "title": "The White Desert",
+        "source": "https://www.flickr.com/photos/20606462@N00/134085985",
         "alt": "Paisaje de rocas y desierto, sin seres vivos visibles",
-        "titulo": "The White Desert",
         "autor": "Neil and Kathy Carey",
-        "fuente": "https://www.flickr.com/photos/20606462@N00/134085985",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Un tipo de ecosistema se desarrolla sobre tierra firme, <mark>como un bosque o un desierto</mark>. El otro vive dentro del agua, como un río. ¿Cómo se llama cada tipo de ecosistema?",
-      "respuesta": "<mark>Terrestre y acuático</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/rio-duero.jpg",
+      "question": "Un tipo de ecosistema se desarrolla sobre tierra firme, <mark>como un bosque o un desierto</mark>. El otro vive dentro del agua, como un río. ¿Cómo se llama cada tipo de ecosistema?",
+      "answer": "<mark>Terrestre y acuático</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/rio-duero.jpg",
+        "title": "Rio Duero. Soria",
+        "source": "https://www.flickr.com/photos/23012400@N03/8114232804",
         "alt": "El río Duero, un ecosistema acuático",
-        "titulo": "Rio Duero. Soria",
         "autor": "Miguel. (respenda)",
-        "fuente": "https://www.flickr.com/photos/23012400@N03/8114232804",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Da el oxígeno para respirar y regula la temperatura del planeta. <mark>Es como una manta protectora que envuelve la Tierra</mark>. ¿Cómo se llama esta capa protectora?",
-      "respuesta": "<mark>Atmósfera</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/cielo-atmosfera.jpg",
+      "question": "Da el oxígeno para respirar y regula la temperatura del planeta. <mark>Es como una manta protectora que envuelve la Tierra</mark>. ¿Cómo se llama esta capa protectora?",
+      "answer": "<mark>Atmósfera</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/cielo-atmosfera.jpg",
+        "title": "Sky Series - Coral Gables",
+        "source": "https://www.flickr.com/photos/7221539@N06/28546820763",
         "alt": "El cielo con nubes, la atmósfera que envuelve la Tierra",
-        "titulo": "Sky Series - Coral Gables",
         "autor": "jikatu",
-        "fuente": "https://www.flickr.com/photos/7221539@N06/28546820763",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es la presencia de gases y partículas dañinas en el aire. <mark>Es como llenar de humo una habitación cerrada</mark>, poco a poco. ¿Cómo se llama este problema?",
-      "respuesta": "<mark>Contaminación atmosférica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/contaminacion-humo.jpg",
+      "question": "Es la presencia de gases y partículas dañinas en el aire. <mark>Es como llenar de humo una habitación cerrada</mark>, poco a poco. ¿Cómo se llama este problema?",
+      "answer": "<mark>Contaminación atmosférica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/contaminacion-humo.jpg",
+        "title": "Contaminación",
+        "source": "https://www.flickr.com/photos/9902638@N06/3311464453",
         "alt": "Humo de una fábrica contaminando el aire",
-        "titulo": "Contaminación",
         "autor": "Gabriel Villena",
-        "fuente": "https://www.flickr.com/photos/9902638@N06/3311464453",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Aporta el agua necesaria para todos los seres vivos del planeta. <mark>Es como el sistema de riego de un jardín enorme</mark>. ¿Cómo se llama este conjunto de agua del planeta?",
-      "respuesta": "<mark>Hidrosfera</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/riego-agua.jpg",
+      "question": "Aporta el agua necesaria para todos los seres vivos del planeta. <mark>Es como el sistema de riego de un jardín enorme</mark>. ¿Cómo se llama este conjunto de agua del planeta?",
+      "answer": "<mark>Hidrosfera</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/riego-agua.jpg",
+        "title": "Irrigation water use: Center-pivot irrigation",
+        "source": "https://www.flickr.com/photos/27784370@N05/17858228815",
         "alt": "Sistema de riego regando un campo con agua",
-        "titulo": "Irrigation water use: Center-pivot irrigation",
         "autor": "U.S. Geological Survey",
-        "fuente": "https://www.flickr.com/photos/27784370@N05/17858228815",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Es la presencia de sustancias dañinas en ríos, mares o aguas subterráneas. <mark>Es como ensuciar la fuente de la que todos beben</mark>. ¿Cómo se llama este problema?",
-      "respuesta": "<mark>Contaminación del agua</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/contaminacion-agua-residuos.jpg",
+      "question": "Es la presencia de sustancias dañinas en ríos, mares o aguas subterráneas. <mark>Es como ensuciar la fuente de la que todos beben</mark>. ¿Cómo se llama este problema?",
+      "answer": "<mark>Contaminación del agua</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/contaminacion-agua-residuos.jpg",
+        "title": "Colapsa planta de tratamiento de desechos sólidos en bosque municipal",
+        "source": "https://www.flickr.com/photos/12800076@N03/22965153606",
         "alt": "Residuos sólidos contaminando un espacio natural",
-        "titulo": "Colapsa planta de tratamiento de desechos sólidos en bosque municipal",
         "autor": "[- Benja -]",
-        "fuente": "https://www.flickr.com/photos/12800076@N03/22965153606",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Se forma por la interacción entre rocas, clima y seres vivos, durante mucho tiempo. <mark>Es como una receta lenta con roca triturada, agua y restos de vida</mark>. ¿Cómo se llama este proceso de formación?",
-      "respuesta": "<mark>Edafogénesis</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/suelo-capas.jpg",
+      "question": "Se forma por la interacción entre rocas, clima y seres vivos, durante mucho tiempo. <mark>Es como una receta lenta con roca triturada, agua y restos de vida</mark>. ¿Cómo se llama este proceso de formación?",
+      "answer": "<mark>Edafogénesis</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/suelo-capas.jpg",
+        "title": "Layered Soil",
+        "source": "https://www.flickr.com/photos/65064602@N00/121820494",
         "alt": "Corte de tierra mostrando las capas del suelo",
-        "titulo": "Layered Soil",
         "autor": "RobDurdle.com",
-        "fuente": "https://www.flickr.com/photos/65064602@N00/121820494",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "En él crecen las plantas que alimentan a la mayoría de los seres vivos. <mark>Es como la despensa de toda la cadena alimentaria</mark>. ¿Qué es tan importante cuidar como el agua o el aire?",
-      "respuesta": "<mark>El suelo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/campo-cultivo.jpg",
+      "question": "En él crecen las plantas que alimentan a la mayoría de los seres vivos. <mark>Es como la despensa de toda la cadena alimentaria</mark>. ¿Qué es tan importante cuidar como el agua o el aire?",
+      "answer": "<mark>El suelo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/campo-cultivo.jpg",
+        "title": "Fields of Beautiful Mexico.",
+        "source": "https://www.flickr.com/photos/71401718@N00/3407380723",
         "alt": "Campo de cultivo con plantas creciendo en el suelo",
-        "titulo": "Fields of Beautiful Mexico.",
         "autor": "Wonderlane",
-        "fuente": "https://www.flickr.com/photos/71401718@N00/3407380723",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre que no baja</mark>. ¿Cómo se llama este fenómeno?",
-      "respuesta": "<mark>Cambio climático</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/tierra-agrietada.jpg",
+      "question": "Es la alteración duradera del clima del planeta, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre que no baja</mark>. ¿Cómo se llama este fenómeno?",
+      "answer": "<mark>Cambio climático</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/tierra-agrietada.jpg",
+        "title": "Cracked earth",
+        "source": "https://www.flickr.com/photos/38476503@N08/4459581071",
         "alt": "Tierra seca y agrietada por falta de agua",
-        "titulo": "Cracked earth",
         "autor": "CIAT International Center for Tropical Agriculture",
-        "fuente": "https://www.flickr.com/photos/38476503@N08/4459581071",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El cambio climático provoca <mark>sequías, inundaciones y olas de calor</mark>. El clima se vuelve más impredecible y más brusco. ¿Qué tipo de fenómenos causa el cambio climático?",
-      "respuesta": "<mark>Fenómenos extremos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/inundacion.jpg",
+      "question": "El cambio climático provoca <mark>sequías, inundaciones y olas de calor</mark>. El clima se vuelve más impredecible y más brusco. ¿Qué tipo de fenómenos causa el cambio climático?",
+      "answer": "<mark>Fenómenos extremos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/inundacion.jpg",
+        "title": "[IDAHO-L-0003] Teton Dam Flood - Newdale",
+        "source": "https://www.flickr.com/photos/23487245@N08/5811730567",
         "alt": "Una inundación cubriendo una zona con agua",
-        "titulo": "[IDAHO-L-0003] Teton Dam Flood - Newdale",
         "autor": "waterarchives",
-        "fuente": "https://www.flickr.com/photos/23487245@N08/5811730567",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Muchos gases y residuos agravan problemas como el cambio climático. <mark>Es como añadir más leña a un fuego que ya ardía</mark>. ¿Qué es clave limitar para cuidar el medio ambiente?",
-      "respuesta": "<mark>La contaminación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/trafico-atasco.jpg",
+      "question": "Muchos gases y residuos agravan problemas como el cambio climático. <mark>Es como añadir más leña a un fuego que ya ardía</mark>. ¿Qué es clave limitar para cuidar el medio ambiente?",
+      "answer": "<mark>La contaminación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/trafico-atasco.jpg",
+        "title": "World Class Traffic Jam 2",
+        "source": "https://www.flickr.com/photos/30201239@N00/7454479488",
         "alt": "Un atasco de coches, una fuente de contaminación",
-        "titulo": "World Class Traffic Jam 2",
         "autor": "joiseyshowaa",
-        "fuente": "https://www.flickr.com/photos/30201239@N00/7454479488",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son costumbres diarias que reducen el impacto ambiental de una persona, <mark>como reciclar o ahorrar agua</mark>. ¿Cómo se llaman estas costumbres?",
-      "respuesta": "<mark>Hábitos sostenibles</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/reciclaje.jpg",
+      "question": "Son costumbres diarias que reducen el impacto ambiental de una persona, <mark>como reciclar o ahorrar agua</mark>. ¿Cómo se llaman estas costumbres?",
+      "answer": "<mark>Hábitos sostenibles</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/reciclaje.jpg",
+        "title": "Recíclalo",
+        "source": "https://www.flickr.com/photos/30410625@N02/5803846524",
         "alt": "Contenedores de reciclaje, un hábito sostenible",
-        "titulo": "Recíclalo",
         "autor": "Jonathan Rubio",
-        "fuente": "https://www.flickr.com/photos/30410625@N02/5803846524",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Significa que la salud humana, animal y ambiental están conectadas. <mark>Cuidar el bosque es también cuidar tu propia salud</mark>. ¿Cómo se llama esta idea?",
-      "respuesta": "<mark>Una sola salud</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/veterinario-perro.jpg",
+      "question": "Significa que la salud humana, animal y ambiental están conectadas. <mark>Cuidar el bosque es también cuidar tu propia salud</mark>. ¿Cómo se llama esta idea?",
+      "answer": "<mark>Una sola salud</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/veterinario-perro.jpg",
+        "title": "Vet checkup - Dog at the Vet",
+        "source": "https://www.flickr.com/photos/127990662@N08/15357682328",
         "alt": "Un perro siendo revisado por un veterinario",
-        "titulo": "Vet checkup - Dog at the Vet",
         "autor": "md_apartment_photos",
-        "fuente": "https://www.flickr.com/photos/127990662@N08/15357682328",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una forma de generar electricidad limpia es <mark>aprovechar la luz del sol con paneles</mark>. Es uno de los pasos que ayudan a frenar el deterioro del planeta. ¿Qué tipo de energía limpia es esta?",
-      "respuesta": "<mark>Energía solar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_5/panel-solar.jpg",
+      "question": "Una forma de generar electricidad limpia es <mark>aprovechar la luz del sol con paneles</mark>. Es uno de los pasos que ayudan a frenar el deterioro del planeta. ¿Qué tipo de energía limpia es esta?",
+      "answer": "<mark>Energía solar</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_5/panel-solar.jpg",
+        "title": "Solar Cell",
+        "source": "https://www.flickr.com/photos/28077296@N02/6037863041",
         "alt": "Un panel solar generando energía limpia",
-        "titulo": "Solar Cell",
         "autor": "ThomasKohler",
-        "fuente": "https://www.flickr.com/photos/28077296@N02/6037863041",
         "licencia": "CC BY 2.0"
       }
     }

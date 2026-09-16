@@ -1,185 +1,185 @@
 {
-  "tema": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Significa captar los datos y hechos principales. <mark>Es como quedarte con lo clave de una noticia</mark>, sin perderte en detalles. ¿Qué tipo de texto se entiende así?",
-      "respuesta": "<mark>Un texto informativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/entender-informativo.jpg",
+      "question": "Significa captar los datos y hechos principales. <mark>Es como quedarte con lo clave de una noticia</mark>, sin perderte en detalles. ¿Qué tipo de texto se entiende así?",
+      "answer": "<mark>Un texto informativo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/entender-informativo.jpg",
+        "title": "Businessman reading the daily news",
+        "source": "https://www.flickr.com/photos/147875007@N03/30849322677",
         "alt": "Un hombre leyendo las noticias del día",
-        "titulo": "Businessman reading the daily news",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/30849322677",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Informa sobre algo que ha ocurrido, de forma breve y clara. <mark>Responde qué pasó, quién, cuándo y dónde</mark>. ¿Cómo se llama este texto?",
-      "respuesta": "<mark>Noticia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/leyendo-periodico.jpg",
+      "question": "Informa sobre algo que ha ocurrido, de forma breve y clara. <mark>Responde qué pasó, quién, cuándo y dónde</mark>. ¿Cómo se llama este texto?",
+      "answer": "<mark>Noticia</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/leyendo-periodico.jpg",
+        "title": "Leyendo el periódico",
+        "source": "https://www.flickr.com/photos/38158467@N00/95776309",
         "alt": "Una persona leyendo el periódico",
-        "titulo": "Leyendo el periódico",
         "autor": "Chaquetadepollo",
-        "fuente": "https://www.flickr.com/photos/38158467@N00/95776309",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es distinto de una opinión personal. <mark>Es como la diferencia entre 'llueve' y 'el tiempo es horrible'</mark>. ¿Cómo se llama lo que se puede comprobar?",
-      "respuesta": "<mark>Un hecho</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/hecho-opinion.jpg",
+      "question": "Es distinto de una opinión personal. <mark>Es como la diferencia entre 'llueve' y 'el tiempo es horrible'</mark>. ¿Cómo se llama lo que se puede comprobar?",
+      "answer": "<mark>Un hecho</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/hecho-opinion.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza equilibrando dos platos",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ayuda a formarte tu propia idea, sin dejarte influir por otros. <mark>Es como separar lo real de lo que alguien cree</mark>. ¿Qué conviene distinguir al leer una noticia?",
-      "respuesta": "<mark>Hechos y opiniones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/importante-distinguir.jpg",
+      "question": "Ayuda a formarte tu propia idea, sin dejarte influir por otros. <mark>Es como separar lo real de lo que alguien cree</mark>. ¿Qué conviene distinguir al leer una noticia?",
+      "answer": "<mark>Hechos y opiniones</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/importante-distinguir.jpg",
+        "title": "check exactly",
+        "source": "https://www.flickr.com/photos/53662163@N06/11269910685",
         "alt": "Alguien comprobando algo con atención",
-        "titulo": "check exactly",
         "autor": "Georgie Pauwels",
-        "fuente": "https://www.flickr.com/photos/53662163@N06/11269910685",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento con estructura fija, para comunicarse de forma oficial. <mark>Sigue un orden fijo: saludo, cuerpo y despedida</mark>. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Carta formal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/carta-formal.jpg",
+      "question": "Es un documento con estructura fija, para comunicarse de forma oficial. <mark>Sigue un orden fijo: saludo, cuerpo y despedida</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Carta formal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/carta-formal.jpg",
+        "title": "United States stamp: Labor Day",
+        "source": "https://www.flickr.com/photos/8790226@N06/4963757731",
         "alt": "Un sello postal antiguo",
-        "titulo": "United States stamp: Labor Day",
         "autor": "karen horton",
-        "fuente": "https://www.flickr.com/photos/8790226@N06/4963757731",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Lleva asunto, saludo, un mensaje organizado y una despedida educada. <mark>Es como una carta, pero para leerse rápido en pantalla</mark>. ¿Qué tipo de correo tiene todos estos elementos?",
-      "respuesta": "<mark>Un correo formal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/correo-formal.jpg",
+      "question": "Lleva asunto, saludo, un mensaje organizado y una despedida educada. <mark>Es como una carta, pero para leerse rápido en pantalla</mark>. ¿Qué tipo de correo tiene todos estos elementos?",
+      "answer": "<mark>Un correo formal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/correo-formal.jpg",
+        "title": "Man checking his email on a laptop",
+        "source": "https://www.flickr.com/photos/147875007@N03/45739294712",
         "alt": "Un hombre revisando su correo electrónico en un portátil",
-        "titulo": "Man checking his email on a laptop",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/45739294712",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento oficial para pedir algo a una administración. <mark>Es como una petición escrita con un formato concreto</mark>. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Instancia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/instancia-solicitud.jpg",
+      "question": "Es un documento oficial para pedir algo a una administración. <mark>Es como una petición escrita con un formato concreto</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Instancia</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/instancia-solicitud.jpg",
+        "title": "Post and Telegraph Offices, Bundaberg, c 1890",
+        "source": "https://www.flickr.com/photos/60455048@N02/8278633905",
         "alt": "Una antigua oficina de correos y telégrafos",
-        "titulo": "Post and Telegraph Offices, Bundaberg, c 1890",
         "autor": "Queensland State Archives",
-        "fuente": "https://www.flickr.com/photos/60455048@N02/8278633905",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Debe llevar los datos personales, el motivo y la fecha. <mark>Es como rellenar una ficha completa, sin dejar huecos</mark>. Un dato que falte puede retrasar el trámite. ¿Qué documento reúne toda esta información?",
-      "respuesta": "<mark>La instancia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/info-instancia.jpg",
+      "question": "Debe llevar los datos personales, el motivo y la fecha. <mark>Es como rellenar una ficha completa, sin dejar huecos</mark>. Un dato que falte puede retrasar el trámite. ¿Qué documento reúne toda esta información?",
+      "answer": "<mark>La instancia</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/info-instancia.jpg",
+        "title": "Assignment to the Governors of the University of Toronto",
+        "source": "https://www.flickr.com/photos/34861056@N05/12308738613",
         "alt": "Un documento oficial completado a mano",
-        "titulo": "Assignment to the Governors of the University of Toronto",
         "autor": "Thomas Fisher Rare Book Library, UofT",
-        "fuente": "https://www.flickr.com/photos/34861056@N05/12308738613",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Resume la formación y la experiencia de una persona. <mark>Es como una tarjeta de presentación pensada para convencer</mark>. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Currículum vitae</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/curriculum-vitae2.jpg",
+      "question": "Resume la formación y la experiencia de una persona. <mark>Es como una tarjeta de presentación pensada para convencer</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Currículum vitae</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/curriculum-vitae2.jpg",
+        "title": "Resume 2011",
+        "source": "https://www.flickr.com/photos/46624185@N07/5744350510",
         "alt": "Un currículum vitae impreso",
-        "titulo": "Resume 2011",
         "autor": "ConorLuddy",
-        "fuente": "https://www.flickr.com/photos/46624185@N07/5744350510",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se logra usando frases cortas y evitando lo innecesario. <mark>Es como poner cada bloque en su lugar dentro del texto</mark>. ¿Qué conviene hacer al redactar un currículum?",
-      "respuesta": "<mark>Ordenar la información</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/redactar-claridad.jpg",
+      "question": "Se logra usando frases cortas y evitando lo innecesario. <mark>Es como poner cada bloque en su lugar dentro del texto</mark>. ¿Qué conviene hacer al redactar un currículum?",
+      "answer": "<mark>Ordenar la información</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/redactar-claridad.jpg",
+        "title": "Day 41: Workspace (Before?)",
+        "source": "https://www.flickr.com/photos/20763982@N00/3271258789",
         "alt": "Un espacio de trabajo ordenado",
-        "titulo": "Day 41: Workspace (Before?)",
         "autor": "lorda",
-        "fuente": "https://www.flickr.com/photos/20763982@N00/3271258789",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ambas requieren entender y transmitir bien la información. <mark>Es como usar la misma herramienta para recibir y para dar información</mark>. ¿Qué tienen en común leer bien noticias y escribir bien documentos?",
-      "respuesta": "<mark>La precisión y claridad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/leer-escribir-relacion.jpg",
+      "question": "Ambas requieren entender y transmitir bien la información. <mark>Es como usar la misma herramienta para recibir y para dar información</mark>. ¿Qué tienen en común leer bien noticias y escribir bien documentos?",
+      "answer": "<mark>La precisión y claridad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/leer-escribir-relacion.jpg",
+        "title": "Contracts",
+        "source": "https://www.flickr.com/photos/14652415@N07/4052848608",
         "alt": "Documentos y contratos sobre una mesa",
-        "titulo": "Contracts",
         "autor": "NobMouse",
-        "fuente": "https://www.flickr.com/photos/14652415@N07/4052848608",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un documento bien escrito se entiende a la primera. <mark>Es como vestir bien para una ocasión importante</mark>, pero con palabras. ¿Qué transmite un documento bien redactado?",
-      "respuesta": "<mark>Seriedad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/comunicacion-profesional.jpg",
+      "question": "Un documento bien escrito se entiende a la primera. <mark>Es como vestir bien para una ocasión importante</mark>, pero con palabras. ¿Qué transmite un documento bien redactado?",
+      "answer": "<mark>Seriedad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/comunicacion-profesional.jpg",
+        "title": "Business Professional Attire",
+        "source": "https://www.flickr.com/photos/144157814@N05/29687522203",
         "alt": "Ropa de vestir profesional para el trabajo",
-        "titulo": "Business Professional Attire",
         "autor": "successattire",
-        "fuente": "https://www.flickr.com/photos/144157814@N05/29687522203",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hay que comprobar que los datos estén completos y bien escritos. <mark>Es como repasar una lista antes de darla por terminada</mark>. Un error puede dar mala impresión. ¿Qué conviene hacer antes de entregar una instancia o un currículum?",
-      "respuesta": "<mark>Revisarlo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/revisar-instancia.jpg",
+      "question": "Hay que comprobar que los datos estén completos y bien escritos. <mark>Es como repasar una lista antes de darla por terminada</mark>. Un error puede dar mala impresión. ¿Qué conviene hacer antes de entregar una instancia o un currículum?",
+      "answer": "<mark>Revisarlo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/revisar-instancia.jpg",
+        "title": "Balancing The Account",
+        "source": "https://www.flickr.com/photos/26373139@N08/5912231439",
         "alt": "Alguien revisando cuentas y documentos con atención",
-        "titulo": "Balancing The Account",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/5912231439",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Cada uno sirve para algo distinto: informar, pedir o presentar tu perfil. <mark>Es como saber qué herramienta usar según la tarea</mark>. ¿Qué conviene saber sobre los documentos formales?",
-      "respuesta": "<mark>Diferenciarlos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/tipos-documentos.jpg",
+      "question": "Cada uno sirve para algo distinto: informar, pedir o presentar tu perfil. <mark>Es como saber qué herramienta usar según la tarea</mark>. ¿Qué conviene saber sobre los documentos formales?",
+      "answer": "<mark>Diferenciarlos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/tipos-documentos.jpg",
+        "title": "Massive Wall of Organized Documents",
+        "source": "https://www.flickr.com/photos/55476234@N00/2112069242",
         "alt": "Una gran pared llena de documentos organizados",
-        "titulo": "Massive Wall of Organized Documents",
         "autor": "Zeusandhera",
-        "fuente": "https://www.flickr.com/photos/55476234@N00/2112069242",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ayuda a estar mejor informado y a decidir con más criterio. <mark>Es como entrenar un músculo: cuanto más practicas, mejor funciona</mark>. ¿Qué conviene practicar en el día a día?",
-      "respuesta": "<mark>La lectura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana/practicar-lectura.jpg",
+      "question": "Ayuda a estar mejor informado y a decidir con más criterio. <mark>Es como entrenar un músculo: cuanto más practicas, mejor funciona</mark>. ¿Qué conviene practicar en el día a día?",
+      "answer": "<mark>La lectura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana/practicar-lectura.jpg",
+        "title": "Fitness Model Arm Curls",
+        "source": "https://www.flickr.com/photos/121183998@N08/13335780903",
         "alt": "Una persona entrenando el brazo con pesas",
-        "titulo": "Fitness Model Arm Curls",
         "autor": "personaltrainertoronto",
-        "fuente": "https://www.flickr.com/photos/121183998@N08/13335780903",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 1º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 1º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Esta persona inventa la historia de un cuento, <mark>como un cocinero inventa una receta</mark>. Su nombre aparece en la portada del libro. ¿Cómo se llama esta persona?",
-      "respuesta": "<mark>El autor o la autora</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_4/pluma-escritor.jpg",
+      "question": "Esta persona inventa la historia de un cuento, <mark>como un cocinero inventa una receta</mark>. Su nombre aparece en la portada del libro. ¿Cómo se llama esta persona?",
+      "answer": "<mark>El autor o la autora</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_4/pluma-escritor.jpg",
+        "title": "Vintage quill pen illustration",
+        "source": "https://www.flickr.com/photos/153584064@N07/46733126582",
         "alt": "Dibujo de dos plumas de escribir clavadas en un tintero, en blanco y negro",
-        "titulo": "Vintage quill pen illustration",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/46733126582",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la primera página de un libro. Muestra el título y un dibujo, <mark>como el cartel de una tienda</mark>. Te da una pista de qué trata el libro. ¿Cómo se llama esta primera página?",
-      "respuesta": "<mark>La portada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_4/portada-libro.jpg",
+      "question": "Es la primera página de un libro. Muestra el título y un dibujo, <mark>como el cartel de una tienda</mark>. Te da una pista de qué trata el libro. ¿Cómo se llama esta primera página?",
+      "answer": "<mark>La portada</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_4/portada-libro.jpg",
+        "title": "Russian children's book cover",
+        "source": "https://www.flickr.com/photos/29278394@N00/2587663664",
         "alt": "Portada de un libro infantil, con un título grande y el dibujo de un ciervo joven",
-        "titulo": "Russian children's book cover",
         "autor": "normanack",
-        "fuente": "https://www.flickr.com/photos/29278394@N00/2587663664",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un lugar con muchísimos libros para leer o llevar prestados, <mark>como una tienda de historias, pero gratis</mark>. ¿Cómo se llama este lugar?",
-      "respuesta": "<mark>Biblioteca</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_4/biblioteca-interior.jpg",
+      "question": "Es un lugar con muchísimos libros para leer o llevar prestados, <mark>como una tienda de historias, pero gratis</mark>. ¿Cómo se llama este lugar?",
+      "answer": "<mark>Biblioteca</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_4/biblioteca-interior.jpg",
+        "title": "Derry Public Library - Interior (f)",
+        "source": "https://www.flickr.com/photos/10409977@N06/3761451719",
         "alt": "Sala de una biblioteca antigua con estanterías llenas de libros, mesas y sillas de madera",
-        "titulo": "Derry Public Library - Interior (f)",
         "autor": "derrypubliclibrary",
-        "fuente": "https://www.flickr.com/photos/10409977@N06/3761451719",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una canción suave para dormir a un bebé. Su voz tranquila funciona <mark>casi como un abrazo</mark>. ¿Cómo se llama este tipo de canción?",
-      "respuesta": "<mark>Nana</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_4/nana-cuna.jpg",
+      "question": "Es una canción suave para dormir a un bebé. Su voz tranquila funciona <mark>casi como un abrazo</mark>. ¿Cómo se llama este tipo de canción?",
+      "answer": "<mark>Nana</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_4/nana-cuna.jpg",
+        "title": "The Cradle (William-Adolphe Bouguereau)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=148799636",
         "alt": "Una madre sostiene a su bebé en brazos junto a una cuna, en un dibujo antiguo",
-        "titulo": "The Cradle (William-Adolphe Bouguereau)",
         "autor": "Rijksmuseum",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=148799636",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Ayuda a imaginar cómo son los personajes y lugares de un cuento. Es <mark>como ver una foto de la historia mientras la lees</mark>. ¿Cómo se llama esto en un libro?",
-      "respuesta": "<mark>Los dibujos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_4/dibujos-cuento.jpg",
+      "question": "Ayuda a imaginar cómo son los personajes y lugares de un cuento. Es <mark>como ver una foto de la historia mientras la lees</mark>. ¿Cómo se llama esto en un libro?",
+      "answer": "<mark>Los dibujos</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_4/dibujos-cuento.jpg",
+        "title": "H. G. Hine Illustration from a book called Comical Creatures; A Picture Book for the Nursery",
+        "source": "https://www.flickr.com/photos/88645472@N00/4736229615",
         "alt": "Página de un libro antiguo con un dibujo de animales vestidos de personas y el texto de la historia debajo",
-        "titulo": "H. G. Hine Illustration from a book called Comical Creatures; A Picture Book for the Nursery",
         "autor": "crackdog",
-        "fuente": "https://www.flickr.com/photos/88645472@N00/4736229615",
         "licencia": "Dominio público (PDM 1.0)"
       }
     },
     {
-      "pregunta": "Pides un libro prestado en la biblioteca, <mark>como pedir prestado un juguete</mark>. Hay que tratarlo bien para que otro niño pueda leerlo después. ¿Qué debes hacer con el libro prestado?",
-      "respuesta": "<mark>Cuidarlo y devolverlo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_1_literatura_4/fecha-devolucion.jpg",
+      "question": "Pides un libro prestado en la biblioteca, <mark>como pedir prestado un juguete</mark>. Hay que tratarlo bien para que otro niño pueda leerlo después. ¿Qué debes hacer con el libro prestado?",
+      "answer": "<mark>Cuidarlo y devolverlo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_1_literatura_4/fecha-devolucion.jpg",
+        "title": "Date Due",
+        "source": "https://www.flickr.com/photos/17557997@N02/6033655868",
         "alt": "Página de un libro con muchas fechas selladas en tinta, marcando cuándo debía devolverse",
-        "titulo": "Date Due",
         "autor": "Calsidyrose",
-        "fuente": "https://www.flickr.com/photos/17557997@N02/6033655868",
         "licencia": "CC BY 2.0"
       }
     }

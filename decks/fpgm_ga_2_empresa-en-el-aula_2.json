@@ -1,113 +1,113 @@
 {
-  "tema": "Constitución, viabilidad y ciclo económico de la empresa simulada - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Constitución, viabilidad y ciclo económico de la empresa simulada - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Normalmente se elige una sociedad, para practicar sus trámites como si fuera real. <mark>Es como elegir el 'traje legal' que llevará la empresa durante el proyecto</mark>. Esa elección condiciona los documentos que vendrán después. ¿Qué se elige al constituir la empresa simulada?",
-      "respuesta": "<mark>La forma jurídica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/firma-contrato-forma.jpg",
+      "question": "Normalmente se elige una sociedad, para practicar sus trámites como si fuera real. <mark>Es como elegir el 'traje legal' que llevará la empresa durante el proyecto</mark>. Esa elección condiciona los documentos que vendrán después. ¿Qué se elige al constituir la empresa simulada?",
+      "answer": "<mark>La forma jurídica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/firma-contrato-forma.jpg",
+        "title": "Legal Contract & Signature - Cool Tones",
+        "source": "https://www.flickr.com/photos/143601516@N03/27571322193",
         "alt": "Una persona firmando un documento legal",
-        "titulo": "Legal Contract & Signature - Cool Tones",
         "autor": "Visual Content",
-        "fuente": "https://www.flickr.com/photos/143601516@N03/27571322193",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al constituir la empresa se simula pedir el alta en Hacienda, elegir un nombre y definir el domicilio. <mark>Es como recorrer, en modo práctica, todos los papeleos de una empresa real antes de abrir</mark>. ¿Qué tipo de trámites son estos?",
-      "respuesta": "<mark>Trámites administrativos y fiscales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/firma-contrato.jpg",
+      "question": "Al constituir la empresa se simula pedir el alta en Hacienda, elegir un nombre y definir el domicilio. <mark>Es como recorrer, en modo práctica, todos los papeleos de una empresa real antes de abrir</mark>. ¿Qué tipo de trámites son estos?",
+      "answer": "<mark>Trámites administrativos y fiscales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/firma-contrato.jpg",
+        "title": "Legal Contract & Signature - Warm Tones",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=55666535",
         "alt": "Alguien firmando un documento legal",
-        "titulo": "Legal Contract & Signature - Warm Tones",
         "autor": "Blogtrepreneur",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=55666535",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Dentro de la empresa del aula se elaboran pedidos, albaranes y facturas ficticias entre 'empresas' del centro. <mark>Es como aplicar en un caso práctico todo lo aprendido en clase</mark>. ¿Qué se simula con estos documentos?",
-      "respuesta": "<mark>La compraventa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/aula-ordenadores.jpg",
+      "question": "Dentro de la empresa del aula se elaboran pedidos, albaranes y facturas ficticias entre 'empresas' del centro. <mark>Es como aplicar en un caso práctico todo lo aprendido en clase</mark>. ¿Qué se simula con estos documentos?",
+      "answer": "<mark>La compraventa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/aula-ordenadores.jpg",
+        "title": "Kagugu classroom",
+        "source": "https://www.flickr.com/photos/27861585@N02/2946317303",
         "alt": "Estudiantes trabajando en un aula con ordenadores",
-        "titulo": "Kagugu classroom",
         "autor": "One Laptop per Child",
-        "fuente": "https://www.flickr.com/photos/27861585@N02/2946317303",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En una empresa del aula se registran cobros y pagos ficticios, como si hubiera dinero real entrando y saliendo. <mark>Es como jugar con dinero de mentira, pero llevando las cuentas en serio</mark>. ¿Qué se simula al registrar estos cobros y pagos?",
-      "respuesta": "<mark>La tesorería</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/monopoly-dinero.jpg",
+      "question": "En una empresa del aula se registran cobros y pagos ficticios, como si hubiera dinero real entrando y saliendo. <mark>Es como jugar con dinero de mentira, pero llevando las cuentas en serio</mark>. ¿Qué se simula al registrar estos cobros y pagos?",
+      "answer": "<mark>La tesorería</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/monopoly-dinero.jpg",
+        "title": "Monopoly",
+        "source": "https://www.flickr.com/photos/10229695@N08/3189330350",
         "alt": "Dinero de juego, como el usado en una empresa simulada",
-        "titulo": "Monopoly",
         "autor": "Secret Pilgrim",
-        "fuente": "https://www.flickr.com/photos/10229695@N08/3189330350",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Al analizar esto se comprueba si los ingresos previstos cubrirían los gastos, aunque todo sea ficticio. <mark>Es como comprobar, sobre el papel, si un negocio real tendría números para funcionar</mark>. ¿Qué se analiza en este paso?",
-      "respuesta": "<mark>La viabilidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/cuentas-mano.jpg",
+      "question": "Al analizar esto se comprueba si los ingresos previstos cubrirían los gastos, aunque todo sea ficticio. <mark>Es como comprobar, sobre el papel, si un negocio real tendría números para funcionar</mark>. ¿Qué se analiza en este paso?",
+      "answer": "<mark>La viabilidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/cuentas-mano.jpg",
+        "title": "Balancing The Account By Hand",
+        "source": "https://www.flickr.com/photos/26373139@N08/5913014568",
         "alt": "Alguien haciendo cuentas a mano",
-        "titulo": "Balancing The Account By Hand",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/5913014568",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Consiste en recorrer todas las fases: constituir, comprar, vender, cobrar y cerrar el ejercicio. <mark>Es como vivir un año entero de vida empresarial, comprimido en un curso escolar</mark>. ¿Cómo se llama recorrer todas estas fases?",
-      "respuesta": "<mark>Ciclo económico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/ciclo-reloj.jpg",
+      "question": "Consiste en recorrer todas las fases: constituir, comprar, vender, cobrar y cerrar el ejercicio. <mark>Es como vivir un año entero de vida empresarial, comprimido en un curso escolar</mark>. ¿Cómo se llama recorrer todas estas fases?",
+      "answer": "<mark>Ciclo económico</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/ciclo-reloj.jpg",
+        "title": "Experimental Seven-Cycle Menashi Dial",
+        "source": "https://www.flickr.com/photos/34621580@N00/4353401102",
         "alt": "Un dial con un ciclo de fases",
-        "titulo": "Experimental Seven-Cycle Menashi Dial",
         "autor": "Mr Thinktank",
-        "fuente": "https://www.flickr.com/photos/34621580@N00/4353401102",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Aquí se decide a qué precio vender, a quién y con qué condiciones, entre varias opciones. <mark>Es como ensayar el negocio real, pero sin el riesgo de perder dinero</mark>. ¿Qué tipo de decisiones son estas?",
-      "respuesta": "<mark>Decisiones comerciales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/bifurcacion-camino.jpg",
+      "question": "Aquí se decide a qué precio vender, a quién y con qué condiciones, entre varias opciones. <mark>Es como ensayar el negocio real, pero sin el riesgo de perder dinero</mark>. ¿Qué tipo de decisiones son estas?",
+      "answer": "<mark>Decisiones comerciales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/bifurcacion-camino.jpg",
+        "title": "Fork_in_path_in_park",
+        "source": "https://www.flickr.com/photos/14674348@N04/1504087870",
         "alt": "Un camino que se bifurca en dos direcciones",
-        "titulo": "Fork_in_path_in_park",
         "autor": "DennisM2",
-        "fuente": "https://www.flickr.com/photos/14674348@N04/1504087870",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Aquí se decide cómo repartir el dinero disponible entre gastos, inversiones e imprevistos. <mark>Es como aprender a priorizar en qué gastar cuando el dinero no es infinito</mark>. ¿Qué tipo de decisiones son estas?",
-      "respuesta": "<mark>Decisiones financieras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/numeros-finanzas.jpg",
+      "question": "Aquí se decide cómo repartir el dinero disponible entre gastos, inversiones e imprevistos. <mark>Es como aprender a priorizar en qué gastar cuando el dinero no es infinito</mark>. ¿Qué tipo de decisiones son estas?",
+      "answer": "<mark>Decisiones financieras</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/numeros-finanzas.jpg",
+        "title": "Numbers And Finance",
+        "source": "https://www.flickr.com/photos/26373139@N08/5537894072",
         "alt": "Números y gráficos financieros",
-        "titulo": "Numbers And Finance",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/5537894072",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Cualquier empresa real necesita existir legalmente antes de poder vender o comprar. <mark>Es como no poder abrir una tienda sin tener antes los papeles en regla</mark>. ¿Qué debe hacerse antes de empezar a operar?",
-      "respuesta": "<mark>Constituir la empresa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/oficina-trabajo.jpg",
+      "question": "Cualquier empresa real necesita existir legalmente antes de poder vender o comprar. <mark>Es como no poder abrir una tienda sin tener antes los papeles en regla</mark>. ¿Qué debe hacerse antes de empezar a operar?",
+      "answer": "<mark>Constituir la empresa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_empresa-en-el-aula_2/oficina-trabajo.jpg",
+        "title": "Office Work",
+        "source": "https://stocksnap.io/photo/office-work-UP9J4EZYNJ",
         "alt": "Un espacio de oficina de trabajo",
-        "titulo": "Office Work",
         "autor": "Châu Thông Phan",
-        "fuente": "https://stocksnap.io/photo/office-work-UP9J4EZYNJ",
         "licencia": "CC0 1.0"
       }
     }

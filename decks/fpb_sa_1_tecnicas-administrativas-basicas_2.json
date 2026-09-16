@@ -1,209 +1,209 @@
 {
-  "tema": "Técnicas Administrativas Básicas - FP Básica Servicios Administrativos (1º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Técnicas Administrativas Básicas - FP Básica Servicios Administrativos (1º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un documento que indica el precio estimado de un producto o servicio antes de comprarlo. <mark>Es como pedir precio antes de decidir si compras algo</mark>. No es un compromiso de compra, solo una estimación. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Presupuesto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/presupuesto-compra.jpg",
+      "question": "Es un documento que indica el precio estimado de un producto o servicio antes de comprarlo. <mark>Es como pedir precio antes de decidir si compras algo</mark>. No es un compromiso de compra, solo una estimación. ¿Cómo se llama este documento?",
+      "answer": "<mark>Presupuesto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/presupuesto-compra.jpg",
+        "title": "Calculator",
+        "source": "https://www.flickr.com/photos/59937401@N07/5856725357",
         "alt": "Calculadora usada para hacer cuentas.",
-        "titulo": "Calculator",
         "autor": "Images_of_Money",
-        "fuente": "https://www.flickr.com/photos/59937401@N07/5856725357",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Pedir varios permite comparar precios y condiciones entre distintos proveedores. <mark>Es como comparar precios en distintas tiendas antes de elegir dónde comprar</mark>. Ayuda a tomar una decisión más informada. ¿Qué conviene pedir antes de comprar?",
-      "respuesta": "<mark>Varios presupuestos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/varios-presupuestos.jpg",
+      "question": "Pedir varios permite comparar precios y condiciones entre distintos proveedores. <mark>Es como comparar precios en distintas tiendas antes de elegir dónde comprar</mark>. Ayuda a tomar una decisión más informada. ¿Qué conviene pedir antes de comprar?",
+      "answer": "<mark>Varios presupuestos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/varios-presupuestos.jpg",
+        "title": "Business Planning with Plan-Too",
+        "source": "https://www.flickr.com/photos/55260169@N07/5126107002",
         "alt": "Documento con la planificación y comparación de un gasto.",
-        "titulo": "Business Planning with Plan-Too",
         "autor": "plantoo47",
-        "fuente": "https://www.flickr.com/photos/55260169@N07/5126107002",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son los cobros y pagos en efectivo que se hacen a lo largo del día. <mark>Es como el monedero de la empresa, siempre en movimiento</mark>. Cada entrada y salida debe quedar bien registrada. ¿Cómo se llaman estas operaciones?",
-      "respuesta": "<mark>Operaciones de caja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/operaciones-caja.jpg",
+      "question": "Son los cobros y pagos en efectivo que se hacen a lo largo del día. <mark>Es como el monedero de la empresa, siempre en movimiento</mark>. Cada entrada y salida debe quedar bien registrada. ¿Cómo se llaman estas operaciones?",
+      "answer": "<mark>Operaciones de caja</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/operaciones-caja.jpg",
+        "title": "Cash register",
+        "source": "https://www.flickr.com/photos/56087830@N00/9547057312",
         "alt": "Caja registradora utilizada para cobrar en una tienda.",
-        "titulo": "Cash register",
         "autor": "markhillary",
-        "fuente": "https://www.flickr.com/photos/56087830@N00/9547057312",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es recibir dinero de un cliente a cambio de un producto o servicio. <mark>Es como recibir el pago justo por lo que se entrega</mark>. Debe registrarse siempre, aunque sea una cantidad pequeña. ¿Cómo se llama esta operación?",
-      "respuesta": "<mark>Cobro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/cobro-caja.jpg",
+      "question": "Es recibir dinero de un cliente a cambio de un producto o servicio. <mark>Es como recibir el pago justo por lo que se entrega</mark>. Debe registrarse siempre, aunque sea una cantidad pequeña. ¿Cómo se llama esta operación?",
+      "answer": "<mark>Cobro</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/cobro-caja.jpg",
+        "title": "Old Cash Register",
+        "source": "https://www.flickr.com/photos/76713068@N00/2434236126",
         "alt": "Caja registradora antigua utilizada para cobrar.",
-        "titulo": "Old Cash Register",
         "autor": "Jo Jakeman",
-        "fuente": "https://www.flickr.com/photos/76713068@N00/2434236126",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es entregar dinero en efectivo para cubrir un gasto pequeño de la empresa. <mark>Es como sacar dinero del monedero para un gasto puntual</mark>. También debe quedar registrado, igual que los cobros. ¿Cómo se llama esta operación?",
-      "respuesta": "<mark>Pago</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/pago-caja.jpg",
+      "question": "Es entregar dinero en efectivo para cubrir un gasto pequeño de la empresa. <mark>Es como sacar dinero del monedero para un gasto puntual</mark>. También debe quedar registrado, igual que los cobros. ¿Cómo se llama esta operación?",
+      "answer": "<mark>Pago</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/pago-caja.jpg",
+        "title": "$900 Cash",
+        "source": "https://www.flickr.com/photos/44098626@N00/2497904239",
         "alt": "Billetes de dinero en efectivo para pagar.",
-        "titulo": "$900 Cash",
         "autor": "alexik",
-        "fuente": "https://www.flickr.com/photos/44098626@N00/2497904239",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un documento que confirma que se ha realizado un pago. <mark>Es como una prueba en papel de que el pago se hizo de verdad</mark>. Sirve como justificante ante cualquier duda futura. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Recibo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/recibo.jpg",
+      "question": "Es un documento que confirma que se ha realizado un pago. <mark>Es como una prueba en papel de que el pago se hizo de verdad</mark>. Sirve como justificante ante cualquier duda futura. ¿Cómo se llama este documento?",
+      "answer": "<mark>Recibo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/recibo.jpg",
+        "title": "Board of Works receipt",
+        "source": "https://www.flickr.com/photos/76283671@N00/157827178",
         "alt": "Recibo de pago con los datos de una compra.",
-        "titulo": "Board of Works receipt",
         "autor": "Laineys Repertoire",
-        "fuente": "https://www.flickr.com/photos/76283671@N00/157827178",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son la prueba de que una operación se realizó correctamente. <mark>Es como conservar un ticket de compra por si necesitas demostrar que pagaste</mark>. ¿Qué conviene hacer con los justificantes de pago?",
-      "respuesta": "<mark>Guardarlos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/guardar-justificantes.jpg",
+      "question": "Son la prueba de que una operación se realizó correctamente. <mark>Es como conservar un ticket de compra por si necesitas demostrar que pagaste</mark>. ¿Qué conviene hacer con los justificantes de pago?",
+      "answer": "<mark>Guardarlos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/guardar-justificantes.jpg",
+        "title": "MFLABEL 10 Rolls Thermal Receipt Paper Rolls 3-1/8 x 230ft",
+        "source": "https://www.flickr.com/photos/185514373@N06/49059520758",
         "alt": "Rollos de papel para imprimir tickets y recibos.",
-        "titulo": "MFLABEL 10 Rolls Thermal Receipt Paper Rolls 3-1/8 x 230ft",
         "autor": "shop8447",
-        "fuente": "https://www.flickr.com/photos/185514373@N06/49059520758",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo</mark>. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Nómina</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/nomina.jpg",
+      "question": "Es el documento que detalla el salario y los descuentos de un trabajador cada mes. <mark>Es como un resumen que explica de dónde sale y a dónde va tu sueldo</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Nómina</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/nomina.jpg",
+        "title": "Form 1040 (US taxes) recovery period",
+        "source": "https://www.flickr.com/photos/99725460@N00/8525863293",
         "alt": "Formulario oficial de impuestos relleno con datos.",
-        "titulo": "Form 1040 (US taxes) recovery period",
         "autor": "AlisonChaiken",
-        "fuente": "https://www.flickr.com/photos/99725460@N00/8525863293",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Siempre incluye el nombre de la empresa y de la persona trabajadora, el salario y los descuentos aplicados. <mark>Es como una ficha que resume exactamente cuánto se cobra y por qué</mark>. ¿Qué documento reúne esta información?",
-      "respuesta": "<mark>La nómina</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/informacion-nomina.jpg",
+      "question": "Siempre incluye el nombre de la empresa y de la persona trabajadora, el salario y los descuentos aplicados. <mark>Es como una ficha que resume exactamente cuánto se cobra y por qué</mark>. ¿Qué documento reúne esta información?",
+      "answer": "<mark>La nómina</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/informacion-nomina.jpg",
+        "title": "Southern Washtenaw Mill. Account book? for sale on eBay: sample page 1.",
+        "source": "https://www.flickr.com/photos/70251312@N00/15259843681",
         "alt": "Página de un libro de cuentas con datos anotados.",
-        "titulo": "Southern Washtenaw Mill. Account book? for sale on eBay: sample page 1.",
         "autor": "In Memoriam: Wystan",
-        "fuente": "https://www.flickr.com/photos/70251312@N00/15259843681",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son documentos con un formato fijo, usados para hacer trámites ante la Administración. <mark>Es como una plantilla ya lista que solo hay que rellenar con tus datos</mark>. ¿Cómo se llaman estos documentos?",
-      "respuesta": "<mark>Impresos oficiales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/impresos-formularios.jpg",
+      "question": "Son documentos con un formato fijo, usados para hacer trámites ante la Administración. <mark>Es como una plantilla ya lista que solo hay que rellenar con tus datos</mark>. ¿Cómo se llaman estos documentos?",
+      "answer": "<mark>Impresos oficiales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/impresos-formularios.jpg",
+        "title": "Invoices",
+        "source": "https://www.flickr.com/photos/84387590@N00/2693815369",
         "alt": "Montón de facturas y formularios oficiales.",
-        "titulo": "Invoices",
         "autor": "cybrgrl",
-        "fuente": "https://www.flickr.com/photos/84387590@N00/2693815369",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un dato mal escrito puede retrasar o invalidar todo el trámite. <mark>Es como cometer un error en un formulario y tener que empezar de nuevo</mark>. ¿Qué conviene hacer al rellenar un impreso oficial?",
-      "respuesta": "<mark>Rellenarlo bien</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/material-oficina.jpg",
+      "question": "Un dato mal escrito puede retrasar o invalidar todo el trámite. <mark>Es como cometer un error en un formulario y tener que empezar de nuevo</mark>. ¿Qué conviene hacer al rellenar un impreso oficial?",
+      "answer": "<mark>Rellenarlo bien</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/material-oficina.jpg",
+        "title": "Material de oficina",
+        "source": "https://www.flickr.com/photos/91485322@N00/524904963",
         "alt": "Material de oficina, como folios y bolígrafos",
-        "titulo": "Material de oficina",
         "autor": "srgpicker",
-        "fuente": "https://www.flickr.com/photos/91485322@N00/524904963",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el seguimiento de cuánto material queda disponible, como folios o bolígrafos. <mark>Es como llevar la cuenta de lo que queda en la despensa antes de que se acabe</mark>. ¿Cómo se llama este seguimiento?",
-      "respuesta": "<mark>Control de existencias</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/control-existencias.jpg",
+      "question": "Es el seguimiento de cuánto material queda disponible, como folios o bolígrafos. <mark>Es como llevar la cuenta de lo que queda en la despensa antes de que se acabe</mark>. ¿Cómo se llama este seguimiento?",
+      "answer": "<mark>Control de existencias</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/control-existencias.jpg",
+        "title": "Stick-Pens_Colored_30866-480x360",
+        "source": "https://www.flickr.com/photos/28958738@N06/4904342193",
         "alt": "Bolígrafos de colores, material típico de una oficina.",
-        "titulo": "Stick-Pens_Colored_30866-480x360",
         "autor": "Public Domain Photos",
-        "fuente": "https://www.flickr.com/photos/28958738@N06/4904342193",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Quedarse sin suministros puede frenar el trabajo diario de toda la oficina. <mark>Es como quedarte sin ingredientes clave a mitad de una receta</mark>. ¿Qué conviene controlar bien en una oficina?",
-      "respuesta": "<mark>Las existencias de material</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/controlar-existencias.jpg",
+      "question": "Quedarse sin suministros puede frenar el trabajo diario de toda la oficina. <mark>Es como quedarte sin ingredientes clave a mitad de una receta</mark>. ¿Qué conviene controlar bien en una oficina?",
+      "answer": "<mark>Las existencias de material</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/controlar-existencias.jpg",
+        "title": "Tools for Sketching",
+        "source": "https://www.flickr.com/photos/35237094214@N01/3749477476",
         "alt": "Bolígrafos y lápices ordenados como material de oficina.",
-        "titulo": "Tools for Sketching",
         "autor": "plindberg",
-        "fuente": "https://www.flickr.com/photos/35237094214@N01/3749477476",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cuando el material empieza a escasear, se avisa al proveedor con la cantidad necesaria. <mark>Es como reponer la despensa antes de que se quede vacía del todo</mark>. ¿Qué se genera cuando falta material?",
-      "respuesta": "<mark>Un nuevo pedido</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/material-escasea.jpg",
+      "question": "Cuando el material empieza a escasear, se avisa al proveedor con la cantidad necesaria. <mark>Es como reponer la despensa antes de que se quede vacía del todo</mark>. ¿Qué se genera cuando falta material?",
+      "answer": "<mark>Un nuevo pedido</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/material-escasea.jpg",
+        "title": "Wall of Shelves",
+        "source": "https://www.flickr.com/photos/25186605@N04/2818734013",
         "alt": "Estanterías con espacio libre, con pocos materiales guardados.",
-        "titulo": "Wall of Shelves",
         "autor": "Jeremy Levine Design",
-        "fuente": "https://www.flickr.com/photos/25186605@N04/2818734013",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Antes de pedir más material, conviene comparar precios con este documento. <mark>Es como comparar precios antes de reponer algo que se ha acabado en casa</mark>. ¿Qué documento conviene pedir antes?",
-      "respuesta": "<mark>Un presupuesto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/presupuesto-existencias.jpg",
+      "question": "Antes de pedir más material, conviene comparar precios con este documento. <mark>Es como comparar precios antes de reponer algo que se ha acabado en casa</mark>. ¿Qué documento conviene pedir antes?",
+      "answer": "<mark>Un presupuesto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/presupuesto-existencias.jpg",
+        "title": "University of Michigan Library Card Catalog",
+        "source": "https://www.flickr.com/photos/28376044@N00/4349880311",
         "alt": "Fichero con tarjetas organizadas para controlar existencias.",
-        "titulo": "University of Michigan Library Card Catalog",
         "autor": "dfulmer",
-        "fuente": "https://www.flickr.com/photos/28376044@N00/4349880311",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Llevarlo permite comprobar en cualquier momento si la caja está cuadrada. <mark>Es como comprobar que las cuentas de un juego salen bien al final</mark>. ¿Qué conviene llevar de los cobros y pagos en caja?",
-      "respuesta": "<mark>Un registro claro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/registro-cobros-pagos.jpg",
+      "question": "Llevarlo permite comprobar en cualquier momento si la caja está cuadrada. <mark>Es como comprobar que las cuentas de un juego salen bien al final</mark>. ¿Qué conviene llevar de los cobros y pagos en caja?",
+      "answer": "<mark>Un registro claro</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/registro-cobros-pagos.jpg",
+        "title": "February 5, 2010 - Paperwork",
+        "source": "https://www.flickr.com/photos/51352098@N00/4335907588",
         "alt": "Montón de papeles con anotaciones de cobros y pagos.",
-        "titulo": "February 5, 2010 - Paperwork",
         "autor": "nerdcoregirl",
-        "fuente": "https://www.flickr.com/photos/51352098@N00/4335907588",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Organizan tareas tan cotidianas como archivar, cobrar o pedir material. <mark>Son como los cimientos de un edificio: no se ven, pero sostienen todo lo demás</mark>. ¿Qué son estas tareas para cualquier oficina?",
-      "respuesta": "<mark>La base</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/base-oficina.jpg",
+      "question": "Organizan tareas tan cotidianas como archivar, cobrar o pedir material. <mark>Son como los cimientos de un edificio: no se ven, pero sostienen todo lo demás</mark>. ¿Qué son estas tareas para cualquier oficina?",
+      "answer": "<mark>La base</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas_2/base-oficina.jpg",
+        "title": "Desktop View",
+        "source": "https://www.flickr.com/photos/21170187@N04/4775276486",
         "alt": "Escritorio de oficina con ordenador, bien organizado.",
-        "titulo": "Desktop View",
         "autor": "djsmiley2k",
-        "fuente": "https://www.flickr.com/photos/21170187@N04/4775276486",
         "licencia": "CC BY-SA 2.0"
       }
     }

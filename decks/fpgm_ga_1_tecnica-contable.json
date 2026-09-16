@@ -1,245 +1,245 @@
 {
-  "tema": "Técnica Contable - FP GM Gestión Administrativa (1º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Técnica Contable - FP GM Gestión Administrativa (1º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el conjunto de bienes, derechos y obligaciones de una empresa. <mark>Es como resumir todo lo que tiene y todo lo que debe</mark>. Conocerlo es el punto de partida de toda la contabilidad. ¿Cómo se llama este conjunto?",
-      "respuesta": "<mark>Patrimonio empresarial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+      "question": "Es el conjunto de bienes, derechos y obligaciones de una empresa. <mark>Es como resumir todo lo que tiene y todo lo que debe</mark>. Conocerlo es el punto de partida de toda la contabilidad. ¿Cómo se llama este conjunto?",
+      "answer": "<mark>Patrimonio empresarial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es todo lo que la empresa posee: bienes y derechos de cobro. <mark>Es como la lista de todo lo que tienes, desde dinero hasta máquinas</mark>. Representa los recursos con los que cuenta la empresa. ¿Cómo se llama esta lista?",
-      "respuesta": "<mark>Activo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/hucha-monedas.jpg",
+      "question": "Es todo lo que la empresa posee: bienes y derechos de cobro. <mark>Es como la lista de todo lo que tienes, desde dinero hasta máquinas</mark>. Representa los recursos con los que cuenta la empresa. ¿Cómo se llama esta lista?",
+      "answer": "<mark>Activo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/hucha-monedas.jpg",
+        "title": "Piggy Bank",
+        "source": "https://www.flickr.com/photos/59937401@N07/5930033784",
         "alt": "Una hucha con monedas, representando lo que posee una empresa",
-        "titulo": "Piggy Bank",
         "autor": "Images_of_Money",
-        "fuente": "https://www.flickr.com/photos/59937401@N07/5930033784",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es todo lo que la empresa debe a otras personas o entidades. <mark>Es como la lista de todo lo que tienes que devolver, tarde o temprano</mark>. Incluye préstamos, deudas con proveedores o impuestos pendientes. ¿Cómo se llama esta lista?",
-      "respuesta": "<mark>Pasivo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+      "question": "Es todo lo que la empresa debe a otras personas o entidades. <mark>Es como la lista de todo lo que tienes que devolver, tarde o temprano</mark>. Incluye préstamos, deudas con proveedores o impuestos pendientes. ¿Cómo se llama esta lista?",
+      "answer": "<mark>Pasivo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la diferencia entre lo que la empresa tiene y lo que debe. <mark>Es como calcular cuánto te queda tras restar tus deudas a tus bienes</mark>. Representa el valor real que le queda a la empresa. ¿Cómo se llama esta diferencia?",
-      "respuesta": "<mark>Neto patrimonial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+      "question": "Es la diferencia entre lo que la empresa tiene y lo que debe. <mark>Es como calcular cuánto te queda tras restar tus deudas a tus bienes</mark>. Representa el valor real que le queda a la empresa. ¿Cómo se llama esta diferencia?",
+      "answer": "<mark>Neto patrimonial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Regula cómo debe llevarse la contabilidad en España. <mark>Es como un manual de instrucciones común para todas las empresas</mark>. Su cumplimiento es obligatorio. ¿Cómo se llama este conjunto de normas?",
-      "respuesta": "<mark>Plan General de Contabilidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+      "question": "Regula cómo debe llevarse la contabilidad en España. <mark>Es como un manual de instrucciones común para todas las empresas</mark>. Su cumplimiento es obligatorio. ¿Cómo se llama este conjunto de normas?",
+      "answer": "<mark>Plan General de Contabilidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+        "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
-        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un registro donde se anota la evolución de un elemento del patrimonio. <mark>Es como una ficha individual para cada bien, deuda o gasto</mark>. Sumando todas estas fichas se obtiene una imagen completa. ¿Cómo se llama cada una de estas fichas?",
-      "respuesta": "<mark>Cuenta contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+      "question": "Es un registro donde se anota la evolución de un elemento del patrimonio. <mark>Es como una ficha individual para cada bien, deuda o gasto</mark>. Sumando todas estas fichas se obtiene una imagen completa. ¿Cómo se llama cada una de estas fichas?",
+      "answer": "<mark>Cuenta contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+        "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
-        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cada operación afecta al menos a dos registros distintos en este sistema. <mark>Es como anotar cada movimiento de dinero desde dos puntos de vista</mark>. Ayuda a comprobar que la contabilidad esté cuadrada. ¿Cómo se llama este sistema?",
-      "respuesta": "<mark>Partida doble</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+      "question": "Cada operación afecta al menos a dos registros distintos en este sistema. <mark>Es como anotar cada movimiento de dinero desde dos puntos de vista</mark>. Ayuda a comprobar que la contabilidad esté cuadrada. ¿Cómo se llama este sistema?",
+      "answer": "<mark>Partida doble</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En este registro se anotan las operaciones de una empresa, día a día. <mark>Es como un cuaderno personal, pero de movimientos de dinero</mark>. Es uno de los libros contables obligatorios. ¿Qué libro es?",
-      "respuesta": "<mark>Libro diario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-contable.jpg",
+      "question": "En este registro se anotan las operaciones de una empresa, día a día. <mark>Es como un cuaderno personal, pero de movimientos de dinero</mark>. Es uno de los libros contables obligatorios. ¿Qué libro es?",
+      "answer": "<mark>Libro diario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-contable.jpg",
+        "title": "Southern Washtenaw Mill. Account book? for sale on eBay: sample page 1.",
+        "source": "https://www.flickr.com/photos/70251312@N00/15259843681",
         "alt": "Una página de un libro de cuentas antiguo",
-        "titulo": "Southern Washtenaw Mill. Account book? for sale on eBay: sample page 1.",
         "autor": "In Memoriam: Wystan",
-        "fuente": "https://www.flickr.com/photos/70251312@N00/15259843681",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "En este registro se agrupan los movimientos de cada cuenta por separado. <mark>Es como reorganizar las anotaciones según a qué cuenta pertenecen</mark>. Permite ver cómo ha evolucionado cada cuenta. ¿Qué libro es?",
-      "respuesta": "<mark>Libro mayor</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+      "question": "En este registro se agrupan los movimientos de cada cuenta por separado. <mark>Es como reorganizar las anotaciones según a qué cuenta pertenecen</mark>. Permite ver cómo ha evolucionado cada cuenta. ¿Qué libro es?",
+      "answer": "<mark>Libro mayor</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+        "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
-        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un listado que resume el saldo de todas las cuentas en un momento dado. <mark>Es como hacer una foto rápida para ver si todo cuadra</mark>. Ayuda a detectar errores antes de cerrar el ejercicio. ¿Cómo se llama este listado?",
-      "respuesta": "<mark>Balance de comprobación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+      "question": "Es un listado que resume el saldo de todas las cuentas en un momento dado. <mark>Es como hacer una foto rápida para ver si todo cuadra</mark>. Ayuda a detectar errores antes de cerrar el ejercicio. ¿Cómo se llama este listado?",
+      "answer": "<mark>Balance de comprobación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de pasos que sigue la contabilidad de una empresa durante un año. <mark>Es como un año completo, de principio a fin</mark>. Empieza con el asiento de apertura y termina con el cierre. ¿Cómo se llama este conjunto de pasos?",
-      "respuesta": "<mark>Ciclo contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+      "question": "Es el conjunto de pasos que sigue la contabilidad de una empresa durante un año. <mark>Es como un año completo, de principio a fin</mark>. Empieza con el asiento de apertura y termina con el cierre. ¿Cómo se llama este conjunto de pasos?",
+      "answer": "<mark>Ciclo contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+        "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
-        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el primer registro del año, que recoge el patrimonio con el que empieza la empresa. <mark>Es como abrir un nuevo cuaderno, copiando el saldo con el que terminó el anterior</mark>. Se basa en el balance final del año anterior. ¿Cómo se llama este primer asiento?",
-      "respuesta": "<mark>Asiento de apertura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+      "question": "Es el primer registro del año, que recoge el patrimonio con el que empieza la empresa. <mark>Es como abrir un nuevo cuaderno, copiando el saldo con el que terminó el anterior</mark>. Se basa en el balance final del año anterior. ¿Cómo se llama este primer asiento?",
+      "answer": "<mark>Asiento de apertura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+        "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
-        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En esta fase se cierran todas las cuentas y se calcula el resultado del ejercicio. <mark>Es como hacer las cuentas finales de todo un año de actividad</mark>. A partir de ahí se elaboran las cuentas anuales. ¿Cómo se llama esta fase final del ciclo contable?",
-      "respuesta": "<mark>Cierre contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+      "question": "En esta fase se cierran todas las cuentas y se calcula el resultado del ejercicio. <mark>Es como hacer las cuentas finales de todo un año de actividad</mark>. A partir de ahí se elaboran las cuentas anuales. ¿Cómo se llama esta fase final del ciclo contable?",
+      "answer": "<mark>Cierre contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+        "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
-        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son los documentos que resumen la situación económica de la empresa al final del año. <mark>Es como el informe final que resume cómo le ha ido a la empresa</mark>. Son obligatorios para la mayoría de empresas. ¿Cómo se llaman estos documentos?",
-      "respuesta": "<mark>Cuentas anuales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/informe-anual.jpg",
+      "question": "Son los documentos que resumen la situación económica de la empresa al final del año. <mark>Es como el informe final que resume cómo le ha ido a la empresa</mark>. Son obligatorios para la mayoría de empresas. ¿Cómo se llaman estos documentos?",
+      "answer": "<mark>Cuentas anuales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/informe-anual.jpg",
+        "title": "Graph With Stacks Of Coins",
+        "source": "https://www.flickr.com/photos/26373139@N08/6093690339",
         "alt": "Un grafico financiero junto a montones de monedas apiladas",
-        "titulo": "Graph With Stacks Of Coins",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/6093690339",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Si las cuentas de una empresa no cuadran, algo se ha anotado mal por el camino. <mark>Es como si las cuentas de un juego no salieran</mark>. Detectarlo a tiempo evita problemas legales. ¿Qué indica una contabilidad descuadrada?",
-      "respuesta": "<mark>Un error de registro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+      "question": "Si las cuentas de una empresa no cuadran, algo se ha anotado mal por el camino. <mark>Es como si las cuentas de un juego no salieran</mark>. Detectarlo a tiempo evita problemas legales. ¿Qué indica una contabilidad descuadrada?",
+      "answer": "<mark>Un error de registro</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En una cuenta contable, esta anotación va en la columna izquierda, llamada debe. <mark>Es lo contrario del abono, que va en la columna derecha</mark>. Entender esa lógica es clave para aprender contabilidad. ¿Cómo se llama la anotación de la izquierda?",
-      "respuesta": "<mark>Cargo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+      "question": "En una cuenta contable, esta anotación va en la columna izquierda, llamada debe. <mark>Es lo contrario del abono, que va en la columna derecha</mark>. Entender esa lógica es clave para aprender contabilidad. ¿Cómo se llama la anotación de la izquierda?",
+      "answer": "<mark>Cargo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/balanza.jpg",
+        "title": "Balance",
+        "source": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "alt": "Una balanza en equilibrio con los dos platillos igualados",
-        "titulo": "Balance",
         "autor": "Rekyt",
-        "fuente": "https://www.flickr.com/photos/12684887@N08/9034196410",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La contabilidad traduce toda la actividad de una empresa en cifras claras y comparables. <mark>Es como un idioma común que permite entender cómo le va a cualquier empresa</mark>. Gracias a ella se puede comparar la situación de distintas empresas. ¿Cómo se conoce popularmente a la contabilidad?",
-      "respuesta": "<mark>Lenguaje de los negocios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/reunion-negocios.jpg",
+      "question": "La contabilidad traduce toda la actividad de una empresa en cifras claras y comparables. <mark>Es como un idioma común que permite entender cómo le va a cualquier empresa</mark>. Gracias a ella se puede comparar la situación de distintas empresas. ¿Cómo se conoce popularmente a la contabilidad?",
+      "answer": "<mark>Lenguaje de los negocios</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/reunion-negocios.jpg",
+        "title": "Headshift business card discussion",
+        "source": "https://www.flickr.com/photos/75062596@N00/2744040362",
         "alt": "Personas reunidas discutiendo decisiones de negocio",
-        "titulo": "Headshift business card discussion",
         "autor": "Lars Plougmann",
-        "fuente": "https://www.flickr.com/photos/75062596@N00/2744040362",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "La contabilidad permite saber con datos reales si conviene invertir, ahorrar o pedir un préstamo. <mark>Es como consultar el estado de tu cuenta antes de un gasto importante</mark>. Sin ella, se decidiría casi a ciegas. ¿Qué te ayuda a tomar la contabilidad?",
-      "respuesta": "<mark>Decisiones informadas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/reunion-negocios.jpg",
+      "question": "La contabilidad permite saber con datos reales si conviene invertir, ahorrar o pedir un préstamo. <mark>Es como consultar el estado de tu cuenta antes de un gasto importante</mark>. Sin ella, se decidiría casi a ciegas. ¿Qué te ayuda a tomar la contabilidad?",
+      "answer": "<mark>Decisiones informadas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/reunion-negocios.jpg",
+        "title": "Headshift business card discussion",
+        "source": "https://www.flickr.com/photos/75062596@N00/2744040362",
         "alt": "Personas reunidas discutiendo decisiones de negocio",
-        "titulo": "Headshift business card discussion",
         "autor": "Lars Plougmann",
-        "fuente": "https://www.flickr.com/photos/75062596@N00/2744040362",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el registro de una operación económica en el libro diario. <mark>Es como una entrada que resume qué ha pasado y en qué cuentas se refleja</mark>. Siempre respeta el método de la partida doble. ¿Cómo se llama este registro?",
-      "respuesta": "<mark>Asiento contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+      "question": "Es el registro de una operación económica en el libro diario. <mark>Es como una entrada que resume qué ha pasado y en qué cuentas se refleja</mark>. Siempre respeta el método de la partida doble. ¿Cómo se llama este registro?",
+      "answer": "<mark>Asiento contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/libro-cuentas.jpg",
+        "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
+        "source": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "alt": "Un libro antiguo de cuentas con anotaciones escritas a mano",
-        "titulo": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4271999866",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Gran parte de las tareas administrativas de una oficina giran en torno a sus cuentas. <mark>Sin conocerla, sería difícil gestionar facturas, nóminas o impuestos</mark>. Es la base de casi cualquier trabajo de oficina. ¿Qué materia es clave para un técnico en gestión administrativa?",
-      "respuesta": "<mark>La técnica contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tecnica-contable/calculadora-libro.jpg",
+      "question": "Gran parte de las tareas administrativas de una oficina giran en torno a sus cuentas. <mark>Sin conocerla, sería difícil gestionar facturas, nóminas o impuestos</mark>. Es la base de casi cualquier trabajo de oficina. ¿Qué materia es clave para un técnico en gestión administrativa?",
+      "answer": "<mark>La técnica contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tecnica-contable/calculadora-libro.jpg",
+        "title": "Calculator and Pen with Ledger",
+        "source": "https://www.flickr.com/photos/126131780@N08/14877276186",
         "alt": "Calculadora y boligrafo sobre un libro de cuentas",
-        "titulo": "Calculator and Pen with Ledger",
         "autor": "seniorplanning",
-        "fuente": "https://www.flickr.com/photos/126131780@N08/14877276186",
         "licencia": "CC BY 2.0"
       }
     }

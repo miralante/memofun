@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 6º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 6º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un texto breve antes de que empiece la historia de un libro. Prepara al lector, <mark>como el aperitivo antes de la comida</mark>. ¿Cómo se llama este texto?",
-      "respuesta": "<mark>El prólogo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_3/prologo.jpg",
+      "question": "Es un texto breve antes de que empiece la historia de un libro. Prepara al lector, <mark>como el aperitivo antes de la comida</mark>. ¿Cómo se llama este texto?",
+      "answer": "<mark>El prólogo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_3/prologo.jpg",
+        "title": "Little Women or Meg, Jo, Beth and Amy. Part Second. [Title page and frontispiece]",
+        "source": "https://www.flickr.com/photos/24029425@N06/4403763633",
         "alt": "Un libro antiguo abierto por sus primeras páginas, con un dibujo y el título del libro, antes de que empiece la historia",
-        "titulo": "Little Women or Meg, Jo, Beth and Amy. Part Second. [Title page and frontispiece]",
         "autor": "Boston Public Library",
-        "fuente": "https://www.flickr.com/photos/24029425@N06/4403763633",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la lista de capítulos de un libro con el número de página. Funciona <mark>como un mapa para encontrar rápido lo que buscas</mark>. ¿Cómo se llama esta lista?",
-      "respuesta": "<mark>El índice</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_3/indice.jpg",
+      "question": "Es la lista de capítulos de un libro con el número de página. Funciona <mark>como un mapa para encontrar rápido lo que buscas</mark>. ¿Cómo se llama esta lista?",
+      "answer": "<mark>El índice</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_3/indice.jpg",
+        "title": "'Apple II Reference Manual': Table of Contents",
+        "source": "https://www.flickr.com/photos/86651085@N00/2321766358",
         "alt": "Página de un libro con la lista de capítulos y el número de página de cada uno",
-        "titulo": "'Apple II Reference Manual': Table of Contents",
         "autor": "juandesant",
-        "fuente": "https://www.flickr.com/photos/86651085@N00/2321766358",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un texto que opina sobre un libro ya leído, <mark>como recomendar una película a un amigo, pero por escrito</mark>. Explica qué gustó y qué no, sin contar el final. ¿Cómo se llama este texto?",
-      "respuesta": "<mark>Reseña</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_3/resena-club-lectura.jpg",
+      "question": "Es un texto que opina sobre un libro ya leído, <mark>como recomendar una película a un amigo, pero por escrito</mark>. Explica qué gustó y qué no, sin contar el final. ¿Cómo se llama este texto?",
+      "answer": "<mark>Reseña</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_3/resena-club-lectura.jpg",
+        "title": "Art Notes Book Club: Thoughts on Balzac's 'The Unknown Masterpiece' II",
+        "source": "https://www.flickr.com/photos/52072922@N00/199811528",
         "alt": "Notas de un club de lectura comentando un libro",
-        "titulo": "Art Notes Book Club: Thoughts on Balzac's 'The Unknown Masterpiece' II",
         "autor": "Art Comments",
-        "fuente": "https://www.flickr.com/photos/52072922@N00/199811528",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sabe todo sobre la historia y conoce hasta los pensamientos secretos de cada personaje. Ve la historia desde fuera, <mark>como si volara sobre ella</mark>. ¿Cómo se llama este tipo de narrador?",
-      "respuesta": "<mark>Narrador omnisciente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_3/narrador-omnisciente.jpg",
+      "question": "Sabe todo sobre la historia y conoce hasta los pensamientos secretos de cada personaje. Ve la historia desde fuera, <mark>como si volara sobre ella</mark>. ¿Cómo se llama este tipo de narrador?",
+      "answer": "<mark>Narrador omnisciente</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_3/narrador-omnisciente.jpg",
+        "title": "Looking down",
+        "source": "https://www.flickr.com/photos/28921973@N00/19140434681",
         "alt": "Vista desde la ventanilla de un avión volando por encima de las nubes",
-        "titulo": "Looking down",
         "autor": "ldifranza",
-        "fuente": "https://www.flickr.com/photos/28921973@N00/19140434681",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un escrito donde alguien cuenta su día a día, <mark>como hablando con uno mismo</mark>. Guarda pensamientos y sentimientos privados. ¿Cómo se llama este tipo de escrito?",
-      "respuesta": "<mark>Diario personal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_3/diario-personal.jpg",
+      "question": "Es un escrito donde alguien cuenta su día a día, <mark>como hablando con uno mismo</mark>. Guarda pensamientos y sentimientos privados. ¿Cómo se llama este tipo de escrito?",
+      "answer": "<mark>Diario personal</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_3/diario-personal.jpg",
+        "title": "Dear Diary",
+        "source": "https://www.flickr.com/photos/10485077@N06/5429315570",
         "alt": "Una niña sentada escribiendo con un bolígrafo en un cuaderno",
-        "titulo": "Dear Diary",
         "autor": "edenpictures",
-        "fuente": "https://www.flickr.com/photos/10485077@N06/5429315570",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sigue leyéndose e importando muchos años después de escribirse. <mark>Su historia sigue emocionando aunque cambie la época</mark>. ¿Cómo se llama este tipo de libro?",
-      "respuesta": "<mark>Un clásico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_3/libro-clasico.jpg",
+      "question": "Sigue leyéndose e importando muchos años después de escribirse. <mark>Su historia sigue emocionando aunque cambie la época</mark>. ¿Cómo se llama este tipo de libro?",
+      "answer": "<mark>Un clásico</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_3/libro-clasico.jpg",
+        "title": "Book 8",
+        "source": "https://www.flickr.com/photos/37753256@N08/5076790282",
         "alt": "Un libro antiguo y muy usado, abierto por dentro, con las páginas gastadas por el tiempo",
-        "titulo": "Book 8",
         "autor": "~Brenda-Starr~",
-        "fuente": "https://www.flickr.com/photos/37753256@N08/5076790282",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,71 +1,71 @@
 {
-  "tema": "Capitales del Mundo (3)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Capitales del Mundo (3)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Está junto al mar Caribe. <mark>Sus calles guardan coches antiguos de los años cincuenta, como un museo que circula sobre ruedas</mark>. Su casco antiguo es uno de los mejor conservados de América. ¿Cuál es la capital de Cuba?",
-      "respuesta": "<mark>La Habana</mark>"
+      "question": "Está junto al mar Caribe. <mark>Sus calles guardan coches antiguos de los años cincuenta, como un museo que circula sobre ruedas</mark>. Su casco antiguo es uno de los mejor conservados de América. ¿Cuál es la capital de Cuba?",
+      "answer": "<mark>La Habana</mark>"
     },
     {
-      "pregunta": "Está en un valle rodeado de volcanes, <mark>como el corazón de un puente entre dos océanos</mark>. Cerca hay volcanes activos que se pueden visitar. ¿Cuál es la capital de Costa Rica?",
-      "respuesta": "<mark>San José</mark>"
+      "question": "Está en un valle rodeado de volcanes, <mark>como el corazón de un puente entre dos océanos</mark>. Cerca hay volcanes activos que se pueden visitar. ¿Cuál es la capital de Costa Rica?",
+      "answer": "<mark>San José</mark>"
     },
     {
-      "pregunta": "Está junto al famoso canal del país. <mark>Desde su costa se ven rascacielos modernos y barcos cruzando el canal, como dos siglos en una misma vista</mark>. ¿Cuál es la capital de Panamá?",
-      "respuesta": "<mark>Ciudad de Panamá</mark>"
+      "question": "Está junto al famoso canal del país. <mark>Desde su costa se ven rascacielos modernos y barcos cruzando el canal, como dos siglos en una misma vista</mark>. ¿Cuál es la capital de Panamá?",
+      "answer": "<mark>Ciudad de Panamá</mark>"
     },
     {
-      "pregunta": "Fue fundada en 1496, la ciudad europea más antigua de América aún habitada. <mark>Es como la primera página de un libro que empezó hace más de 500 años</mark>. Allí está la primera catedral de América. ¿Cuál es la capital de República Dominicana?",
-      "respuesta": "<mark>Santo Domingo</mark>"
+      "question": "Fue fundada en 1496, la ciudad europea más antigua de América aún habitada. <mark>Es como la primera página de un libro que empezó hace más de 500 años</mark>. Allí está la primera catedral de América. ¿Cuál es la capital de República Dominicana?",
+      "answer": "<mark>Santo Domingo</mark>"
     },
     {
-      "pregunta": "Está a más de 2.600 metros de altitud. <mark>Muchos visitantes notan que respirar cuesta más, como subir varios pisos sin ascensor</mark>. Está rodeada de montañas. ¿Cuál es la capital de Colombia?",
-      "respuesta": "<mark>Bogotá</mark>"
+      "question": "Está a más de 2.600 metros de altitud. <mark>Muchos visitantes notan que respirar cuesta más, como subir varios pisos sin ascensor</mark>. Está rodeada de montañas. ¿Cuál es la capital de Colombia?",
+      "answer": "<mark>Bogotá</mark>"
     },
     {
-      "pregunta": "Está muy cerca de la línea del ecuador, rodeada de volcanes. <mark>Fue la primera ciudad declarada Patrimonio de la Humanidad por la UNESCO</mark>. ¿Cuál es la capital de Ecuador?",
-      "respuesta": "<mark>Quito</mark>"
+      "question": "Está muy cerca de la línea del ecuador, rodeada de volcanes. <mark>Fue la primera ciudad declarada Patrimonio de la Humanidad por la UNESCO</mark>. ¿Cuál es la capital de Ecuador?",
+      "answer": "<mark>Quito</mark>"
     },
     {
-      "pregunta": "Está junto al Río de la Plata. <mark>Vive allí casi la mitad del país, como si media familia viviera en la misma habitación</mark>. Tiene una larga rambla junto al agua. ¿Cuál es la capital de Uruguay?",
-      "respuesta": "<mark>Montevideo</mark>"
+      "question": "Está junto al Río de la Plata. <mark>Vive allí casi la mitad del país, como si media familia viviera en la misma habitación</mark>. Tiene una larga rambla junto al agua. ¿Cuál es la capital de Uruguay?",
+      "answer": "<mark>Montevideo</mark>"
     },
     {
-      "pregunta": "Está atravesada por más de cien canales. <mark>Algunos la llaman la Venecia del norte</mark>, aunque el gobierno trabaja en realidad desde otra ciudad. ¿Cuál es la capital de los Países Bajos?",
-      "respuesta": "<mark>Ámsterdam</mark>"
+      "question": "Está atravesada por más de cien canales. <mark>Algunos la llaman la Venecia del norte</mark>, aunque el gobierno trabaja en realidad desde otra ciudad. ¿Cuál es la capital de los Países Bajos?",
+      "answer": "<mark>Ámsterdam</mark>"
     },
     {
-      "pregunta": "No es la ciudad más grande y conocida del país; esa es Zúrich. <mark>Su nombre significa oso, y por eso tiene un foso con osos</mark>. ¿Cuál es la capital de Suiza?",
-      "respuesta": "<mark>Berna</mark>"
+      "question": "No es la ciudad más grande y conocida del país; esa es Zúrich. <mark>Su nombre significa oso, y por eso tiene un foso con osos</mark>. ¿Cuál es la capital de Suiza?",
+      "answer": "<mark>Berna</mark>"
     },
     {
-      "pregunta": "Está junto al río Liffey. <mark>Es cuna de muchos escritores famosos, como si las palabras fueran uno de sus productos típicos</mark>. Tiene una intensa vida musical. ¿Cuál es la capital de Irlanda?",
-      "respuesta": "<mark>Dublín</mark>"
+      "question": "Está junto al río Liffey. <mark>Es cuna de muchos escritores famosos, como si las palabras fueran uno de sus productos típicos</mark>. Tiene una intensa vida musical. ¿Cuál es la capital de Irlanda?",
+      "answer": "<mark>Dublín</mark>"
     },
     {
-      "pregunta": "Está en el centro de Europa. <mark>Allí trabajan varias instituciones de la Unión Europea, como una oficina central para todo un continente</mark>. Es famosa por su chocolate. ¿Cuál es la capital de Bélgica?",
-      "respuesta": "<mark>Bruselas</mark>"
+      "question": "Está en el centro de Europa. <mark>Allí trabajan varias instituciones de la Unión Europea, como una oficina central para todo un continente</mark>. Es famosa por su chocolate. ¿Cuál es la capital de Bélgica?",
+      "answer": "<mark>Bruselas</mark>"
     },
     {
-      "pregunta": "Está en un valle rodeado de montañas. <mark>Es la última parada habitual antes de intentar escalar el Everest</mark>. Tiene templos antiguos hinduistas y budistas. ¿Cuál es la capital de Nepal?",
-      "respuesta": "<mark>Katmandú</mark>"
+      "question": "Está en un valle rodeado de montañas. <mark>Es la última parada habitual antes de intentar escalar el Everest</mark>. Tiene templos antiguos hinduistas y budistas. ¿Cuál es la capital de Nepal?",
+      "answer": "<mark>Katmandú</mark>"
     },
     {
-      "pregunta": "<mark>Es una de las ciudades más llenas de gente del mundo, como una caja llena hasta arriba</mark>. Su bahía fue durante siglos un puerto clave entre Asia y América. ¿Cuál es la capital de Filipinas?",
-      "respuesta": "<mark>Manila</mark>"
+      "question": "<mark>Es una de las ciudades más llenas de gente del mundo, como una caja llena hasta arriba</mark>. Su bahía fue durante siglos un puerto clave entre Asia y América. ¿Cuál es la capital de Filipinas?",
+      "answer": "<mark>Manila</mark>"
     },
     {
-      "pregunta": "No es la ciudad más grande y conocida del país; esa es Karachi. <mark>Esta se construyó especialmente para ser la capital, como Brasilia o Canberra</mark>. Es una ciudad moderna junto a unas montañas. ¿Cuál es la capital de Pakistán?",
-      "respuesta": "<mark>Islamabad</mark>"
+      "question": "No es la ciudad más grande y conocida del país; esa es Karachi. <mark>Esta se construyó especialmente para ser la capital, como Brasilia o Canberra</mark>. Es una ciudad moderna junto a unas montañas. ¿Cuál es la capital de Pakistán?",
+      "answer": "<mark>Islamabad</mark>"
     },
     {
-      "pregunta": "Está junto al mar Mediterráneo. <mark>Su casco antiguo sube por la colina como un laberinto de calles blancas</mark>. Es el mayor puerto del país. ¿Cuál es la capital de Argelia?",
-      "respuesta": "<mark>Argel</mark>"
+      "question": "Está junto al mar Mediterráneo. <mark>Su casco antiguo sube por la colina como un laberinto de calles blancas</mark>. Es el mayor puerto del país. ¿Cuál es la capital de Argelia?",
+      "answer": "<mark>Argel</mark>"
     },
     {
-      "pregunta": "Es una de las ciudades más altas del mundo. <mark>Allí tiene su sede la Unión Africana, como una mesa donde se reúnen representantes de todo un continente</mark>. Su nombre significa nueva flor. ¿Cuál es la capital de Etiopía?",
-      "respuesta": "<mark>Adís Abeba</mark>"
+      "question": "Es una de las ciudades más altas del mundo. <mark>Allí tiene su sede la Unión Africana, como una mesa donde se reúnen representantes de todo un continente</mark>. Su nombre significa nueva flor. ¿Cuál es la capital de Etiopía?",
+      "answer": "<mark>Adís Abeba</mark>"
     }
   ]
 }

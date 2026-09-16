@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un estilo poético que cuida muchísimo el lenguaje y el adorno. Góngora es su representante, con versos difíciles pero bellísimos. <mark>Busca la belleza en el propio sonido de las palabras</mark>. ¿Cómo se llama este estilo?",
-      "respuesta": "<mark>Culteranismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_3/galeria-barroca.jpg",
+      "question": "Es un estilo poético que cuida muchísimo el lenguaje y el adorno. Góngora es su representante, con versos difíciles pero bellísimos. <mark>Busca la belleza en el propio sonido de las palabras</mark>. ¿Cómo se llama este estilo?",
+      "answer": "<mark>Culteranismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_3/galeria-barroca.jpg",
+        "title": "Gallery in Vatican Museums",
+        "source": "https://www.flickr.com/photos/61533954@N00/2437832335",
         "alt": "Una galería con decoración muy recargada, propia del estilo barroco",
-        "titulo": "Gallery in Vatican Museums",
         "autor": "Dimitry B",
-        "fuente": "https://www.flickr.com/photos/61533954@N00/2437832335",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un estilo que <mark>busca decir mucho con pocas palabras</mark>. Quevedo es su representante, jugando con ideas ingeniosas. Busca sorprender al lector con una idea inesperada. ¿Cómo se llama este estilo?",
-      "respuesta": "<mark>Conceptismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_3/lupa.jpg",
+      "question": "Es un estilo que <mark>busca decir mucho con pocas palabras</mark>. Quevedo es su representante, jugando con ideas ingeniosas. Busca sorprender al lector con una idea inesperada. ¿Cómo se llama este estilo?",
+      "answer": "<mark>Conceptismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_3/lupa.jpg",
+        "title": "Lupe",
+        "source": "https://www.flickr.com/photos/47069022@N00/157515251",
         "alt": "Una lupa, como la lectura atenta que exige el conceptismo",
-        "titulo": "Lupe",
         "autor": "Alpha six",
-        "fuente": "https://www.flickr.com/photos/47069022@N00/157515251",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Era el patio de un edificio donde se representaba teatro. <mark>El público veía la obra de pie o desde balcones, como en un patio de vecinos</mark>. Ahí se estrenaban las obras de Lope de Vega. ¿Cómo se llamaba este espacio de teatro?",
-      "respuesta": "<mark>Corral de comedias</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_3/corral-comedias-almagro.jpg",
+      "question": "Era el patio de un edificio donde se representaba teatro. <mark>El público veía la obra de pie o desde balcones, como en un patio de vecinos</mark>. Ahí se estrenaban las obras de Lope de Vega. ¿Cómo se llamaba este espacio de teatro?",
+      "answer": "<mark>Corral de comedias</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_3/corral-comedias-almagro.jpg",
+        "title": "Corral de Comedias, Almagro",
+        "source": "https://www.flickr.com/photos/59780753@N07/54474962501",
         "alt": "El Corral de Comedias de Almagro, un teatro del Siglo de Oro",
-        "titulo": "Corral de Comedias, Almagro",
         "autor": "Festival de Almagro",
-        "fuente": "https://www.flickr.com/photos/59780753@N07/54474962501",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Los clásicos exigían que una obra de teatro durara un solo día y lugar. <mark>Lope mezclaba varios días, lugares y hasta risas con tragedias, para entretener al público</mark>. ¿Cómo se llamó esta nueva forma de hacer teatro?",
-      "respuesta": "<mark>Comedia nueva</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_3/teatro-antiguo.jpg",
+      "question": "Los clásicos exigían que una obra de teatro durara un solo día y lugar. <mark>Lope mezclaba varios días, lugares y hasta risas con tragedias, para entretener al público</mark>. ¿Cómo se llamó esta nueva forma de hacer teatro?",
+      "answer": "<mark>Comedia nueva</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_3/teatro-antiguo.jpg",
+        "title": "Jefferson Theatre, Beaumont, Texas 0502091409",
+        "source": "https://www.flickr.com/photos/32345848@N07/3497479126",
         "alt": "Un teatro antiguo",
-        "titulo": "Jefferson Theatre, Beaumont, Texas 0502091409",
         "autor": "Patrick Feller",
-        "fuente": "https://www.flickr.com/photos/32345848@N07/3497479126",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Fue un dramaturgo del Siglo de Oro español. <mark>Creó al personaje de Don Juan, el seductor más famoso de la literatura</mark>. Su obra influyó en escritores de toda Europa. ¿Quién fue este dramaturgo?",
-      "respuesta": "<mark>Tirso de Molina</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_3/estanteria-libros.jpg",
+      "question": "Fue un dramaturgo del Siglo de Oro español. <mark>Creó al personaje de Don Juan, el seductor más famoso de la literatura</mark>. Su obra influyó en escritores de toda Europa. ¿Quién fue este dramaturgo?",
+      "answer": "<mark>Tirso de Molina</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_3/estanteria-libros.jpg",
+        "title": "Old bookshelves",
+        "source": "https://www.flickr.com/photos/89056504@N00/4499656362",
         "alt": "Una estantería con libros antiguos",
-        "titulo": "Old bookshelves",
         "autor": "tristanf",
-        "fuente": "https://www.flickr.com/photos/89056504@N00/4499656362",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un texto que se burla de algo para criticarlo. <mark>Usa el humor como arma, en vez de decirlo directamente</mark>. Quevedo la usaba mucho en su poesía. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Sátira</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_literatura_3/caricatura.jpg",
+      "question": "Es un texto que se burla de algo para criticarlo. <mark>Usa el humor como arma, en vez de decirlo directamente</mark>. Quevedo la usaba mucho en su poesía. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Sátira</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_literatura_3/caricatura.jpg",
+        "title": "Al Hirschfeld",
+        "source": "https://www.flickr.com/photos/65193799@N00/3259723489",
         "alt": "Un retrato hecho con caricatura, propio de la sátira",
-        "titulo": "Al Hirschfeld",
         "autor": "dbking",
-        "fuente": "https://www.flickr.com/photos/65193799@N00/3259723489",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,149 +1,149 @@
 {
-  "tema": "Las reacciones químicas - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Las reacciones químicas - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como comprobar que ninguna pieza se pierde al montar algo</mark>. Iguala los átomos de cada elemento en reactivos y productos. Respeta la ley de conservación de la masa. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Ajustar una ecuación química</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/matraz-liquido-negro.jpg",
+      "question": "<mark>Es como comprobar que ninguna pieza se pierde al montar algo</mark>. Iguala los átomos de cada elemento en reactivos y productos. Respeta la ley de conservación de la masa. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Ajustar una ecuación química</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/matraz-liquido-negro.jpg",
+        "title": "Conical flask with black liquid",
+        "source": "https://wellcomecollection.org/works/b2atfebu",
         "alt": "Un matraz cónico con un líquido oscuro.",
-        "titulo": "Conical flask with black liquid",
         "autor": "(autor desconocido)",
-        "fuente": "https://wellcomecollection.org/works/b2atfebu",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "<mark>Es como comparar cuántas galletas planeabas hacer con cuántas obtuviste de verdad</mark>. Compara el producto real con el esperado en teoría. El resultado suele ser menor al cien por cien. ¿Cómo se llama este tipo de cálculo?",
-      "respuesta": "<mark>Rendimiento de una reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/matraz-liquido-azul.jpg",
+      "question": "<mark>Es como comparar cuántas galletas planeabas hacer con cuántas obtuviste de verdad</mark>. Compara el producto real con el esperado en teoría. El resultado suele ser menor al cien por cien. ¿Cómo se llama este tipo de cálculo?",
+      "answer": "<mark>Rendimiento de una reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/matraz-liquido-azul.jpg",
+        "title": "Conical flask with blue liquid",
+        "source": "https://wellcomecollection.org/works/fx8dsmqc",
         "alt": "Un matraz cónico con un líquido azul.",
-        "titulo": "Conical flask with blue liquid",
         "autor": "(autor desconocido)",
-        "fuente": "https://wellcomecollection.org/works/fx8dsmqc",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "<mark>Son como recetas que se repiten millones de veces cada día</mark>. Se usan para fabricar productos importantes, como plásticos o medicamentos. ¿Cómo se llama el sector que las usa a gran escala?",
-      "respuesta": "<mark>Industria química</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/fabrica-quimica.webp",
+      "question": "<mark>Son como recetas que se repiten millones de veces cada día</mark>. Se usan para fabricar productos importantes, como plásticos o medicamentos. ¿Cómo se llama el sector que las usa a gran escala?",
+      "answer": "<mark>Industria química</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/fabrica-quimica.webp",
+        "title": "Fábrica química Solvay",
+        "source": "https://www.flickr.com/photos/46191841@N00/3128460257",
         "alt": "Una fábrica química con torres industriales.",
-        "titulo": "Fábrica química Solvay",
         "autor": "Jorge Franganillo",
-        "fuente": "https://www.flickr.com/photos/46191841@N00/3128460257",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Hay procesos de síntesis, descomposición, sustitución y combustión</mark>, entre otros. Cada uno combina o separa las sustancias de forma distinta. ¿Cómo se llama esta forma de agruparlos según su comportamiento?",
-      "respuesta": "<mark>Tipos de reacciones químicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/tubos-ensayo.jpg",
+      "question": "<mark>Hay procesos de síntesis, descomposición, sustitución y combustión</mark>, entre otros. Cada uno combina o separa las sustancias de forma distinta. ¿Cómo se llama esta forma de agruparlos según su comportamiento?",
+      "answer": "<mark>Tipos de reacciones químicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/tubos-ensayo.jpg",
+        "title": "Test Tubes",
+        "source": "https://www.flickr.com/photos/87007001@N04/15126712086",
         "alt": "Varios tubos de ensayo con distintas sustancias.",
-        "titulo": "Test Tubes",
         "autor": "O.S. Fisher",
-        "fuente": "https://www.flickr.com/photos/87007001@N04/15126712086",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como quemar madera: se libera calor y luz mientras se transforma la sustancia</mark>. Es la base de muchos motores y calefacciones. ¿Cómo se llama esta reacción, en la que una sustancia reacciona con oxígeno liberando energía?",
-      "respuesta": "<mark>Combustión</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/llamas-fuego.jpg",
+      "question": "<mark>Es como quemar madera: se libera calor y luz mientras se transforma la sustancia</mark>. Es la base de muchos motores y calefacciones. ¿Cómo se llama esta reacción, en la que una sustancia reacciona con oxígeno liberando energía?",
+      "answer": "<mark>Combustión</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/llamas-fuego.jpg",
+        "title": "Llamas intensas llenas de recuerdos",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=177306510",
         "alt": "Llamas de fuego, ejemplo de una reacción de combustión",
-        "titulo": "Llamas intensas llenas de recuerdos",
         "autor": "Alduu2324",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=177306510",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>Es como medir cuánto tarda una receta en estar lista, de principio a fin</mark>. Puede ser muy rápida, como una explosión, o muy lenta, como la oxidación. ¿Cómo se llama esta medida?",
-      "respuesta": "<mark>Velocidad de reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/cronometro.jpg",
+      "question": "<mark>Es como medir cuánto tarda una receta en estar lista, de principio a fin</mark>. Puede ser muy rápida, como una explosión, o muy lenta, como la oxidación. ¿Cómo se llama esta medida?",
+      "answer": "<mark>Velocidad de reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/cronometro.jpg",
+        "title": "Stopwatch",
+        "source": "https://www.flickr.com/photos/75264768@N00/3271558744",
         "alt": "Un cronómetro midiendo el tiempo.",
-        "titulo": "Stopwatch",
         "autor": "smaedli",
-        "fuente": "https://www.flickr.com/photos/75264768@N00/3271558744",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>La temperatura, la concentración, la superficie de contacto y los catalizadores influyen en ella</mark>. Cada factor puede acelerarla o frenarla. ¿Qué se controla ajustando estos factores?",
-      "respuesta": "<mark>Velocidad de reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/termometro.webp",
+      "question": "<mark>La temperatura, la concentración, la superficie de contacto y los catalizadores influyen en ella</mark>. Cada factor puede acelerarla o frenarla. ¿Qué se controla ajustando estos factores?",
+      "answer": "<mark>Velocidad de reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/termometro.webp",
+        "title": "Thermometer",
+        "source": "https://www.flickr.com/photos/14317811@N08/1451373852",
         "alt": "Un termómetro midiendo la temperatura.",
-        "titulo": "Thermometer",
         "autor": "jetsandzeppelins",
-        "fuente": "https://www.flickr.com/photos/14317811@N08/1451373852",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un facilitador que ayuda a que algo pase más rápido, sin desgastarse</mark>. Se usa mucho en la industria para ahorrar tiempo y energía. ¿Cómo se llama esta sustancia que acelera una reacción sin consumirse?",
-      "respuesta": "<mark>Catalizador</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/motor-tubo-escape.jpg",
+      "question": "<mark>Es como un facilitador que ayuda a que algo pase más rápido, sin desgastarse</mark>. Se usa mucho en la industria para ahorrar tiempo y energía. ¿Cómo se llama esta sustancia que acelera una reacción sin consumirse?",
+      "answer": "<mark>Catalizador</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/motor-tubo-escape.jpg",
+        "title": "935 1.4l Baby engine left: exhaust turbine, waste gate and exhaust",
+        "source": "https://www.flickr.com/photos/9998127@N06/7901764688",
         "alt": "El sistema de escape de un motor de coche, donde actúa el catalizador.",
-        "titulo": "935 1.4l Baby engine left: exhaust turbine, waste gate and exhaust",
         "autor": "wbaiv",
-        "fuente": "https://www.flickr.com/photos/9998127@N06/7901764688",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un intercambio: unas sueltan calor y otras lo piden prestado</mark>. Algunas reacciones liberan energía; otras la absorben del entorno. ¿Cómo se llaman estos dos tipos de reacción, según cómo intercambian energía?",
-      "respuesta": "<mark>Exotérmicas y endotérmicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/fuego-llama.jpg",
+      "question": "<mark>Es como un intercambio: unas sueltan calor y otras lo piden prestado</mark>. Algunas reacciones liberan energía; otras la absorben del entorno. ¿Cómo se llaman estos dos tipos de reacción, según cómo intercambian energía?",
+      "answer": "<mark>Exotérmicas y endotérmicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/fuego-llama.jpg",
+        "title": "Fire Dancer",
+        "source": "https://www.flickr.com/photos/79721788@N00/5915537603",
         "alt": "Una llama de fuego, que libera energía.",
-        "titulo": "Fire Dancer",
         "autor": "D-Stanley",
-        "fuente": "https://www.flickr.com/photos/79721788@N00/5915537603",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como el detrás de cámaras, más allá de lo que se ve a simple vista</mark>. Ocurre en varias etapas intermedias. ¿Cómo se llama esta secuencia de pasos por los que ocurre realmente una reacción?",
-      "respuesta": "<mark>Mecanismo de reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/engranajes.jpg",
+      "question": "<mark>Es como el detrás de cámaras, más allá de lo que se ve a simple vista</mark>. Ocurre en varias etapas intermedias. ¿Cómo se llama esta secuencia de pasos por los que ocurre realmente una reacción?",
+      "answer": "<mark>Mecanismo de reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/engranajes.jpg",
+        "title": "Gears",
+        "source": "https://www.flickr.com/photos/93001633@N00/4882162452",
         "alt": "Varios engranajes encajados, como un mecanismo.",
-        "titulo": "Gears",
         "autor": "BinaryApe",
-        "fuente": "https://www.flickr.com/photos/93001633@N00/4882162452",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Trocear un alimento hace que se cocine más rápido, con más área expuesta. <mark>Por eso un polvo reacciona más rápido que un trozo sólido</mark>. ¿Cómo se llama a esta variable, la cantidad de superficie expuesta de un reactivo?",
-      "respuesta": "<mark>Superficie de contacto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/gravilla-piedras.jpg",
+      "question": "Trocear un alimento hace que se cocine más rápido, con más área expuesta. <mark>Por eso un polvo reacciona más rápido que un trozo sólido</mark>. ¿Cómo se llama a esta variable, la cantidad de superficie expuesta de un reactivo?",
+      "answer": "<mark>Superficie de contacto</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/gravilla-piedras.jpg",
+        "title": "Gravel texture from a park pathway",
+        "source": "https://www.flickr.com/photos/10361931@N06/4889821381",
         "alt": "Gravilla formada por muchas piedras pequeñas, con mucha superficie expuesta.",
-        "titulo": "Gravel texture from a park pathway",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4889821381",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cocinar a fuego demasiado bajo o demasiado alto genera problemas en ambos casos</mark>. Ir muy lento pierde tiempo; ir muy rápido puede ser peligroso. ¿Qué es lo que hay que controlar con tanto cuidado en la industria?",
-      "respuesta": "<mark>Velocidad de reacción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_5/panel-control.jpg",
+      "question": "<mark>Cocinar a fuego demasiado bajo o demasiado alto genera problemas en ambos casos</mark>. Ir muy lento pierde tiempo; ir muy rápido puede ser peligroso. ¿Qué es lo que hay que controlar con tanto cuidado en la industria?",
+      "answer": "<mark>Velocidad de reacción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_5/panel-control.jpg",
+        "title": "Air Defense Computer",
+        "source": "https://www.flickr.com/photos/24539921@N08/2444940338",
         "alt": "Un panel de control con muchos indicadores.",
-        "titulo": "Air Defense Computer",
         "autor": "Pargon",
-        "fuente": "https://www.flickr.com/photos/24539921@N08/2444940338",
         "licencia": "CC BY 2.0"
       }
     }

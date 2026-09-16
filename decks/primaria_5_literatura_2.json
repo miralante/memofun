@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 5º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 5º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un poema español que cuenta una historia, no solo sentimientos. <mark>Se recitaba o cantaba de memoria, como una canción que pasaba de boca en boca</mark>. Sus versos riman cada dos líneas. ¿Cómo se llama este tipo de poema?",
-      "respuesta": "<mark>Romance</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_2/caballero-medieval.jpg",
+      "question": "Es un poema español que cuenta una historia, no solo sentimientos. <mark>Se recitaba o cantaba de memoria, como una canción que pasaba de boca en boca</mark>. Sus versos riman cada dos líneas. ¿Cómo se llama este tipo de poema?",
+      "answer": "<mark>Romance</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_2/caballero-medieval.jpg",
+        "title": "Chevalier Francais, XIVe Siecle",
+        "source": "https://www.flickr.com/photos/153584064@N07/42663973864",
         "alt": "Ilustración de un caballero medieval con armadura, montado a caballo y con una lanza",
-        "titulo": "Chevalier Francais, XIVe Siecle",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/42663973864",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Contaban hazañas de héroes, batallas o historias de amor. <mark>Se cantaban en plazas, como noticias que todos debían recordar</mark>. Muchos venían de historias más largas, resumidas. ¿Cómo se llaman estos poemas?",
-      "respuesta": "<mark>Romances</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_2/torneo-caballeros.jpg",
+      "question": "Contaban hazañas de héroes, batallas o historias de amor. <mark>Se cantaban en plazas, como noticias que todos debían recordar</mark>. Muchos venían de historias más largas, resumidas. ¿Cómo se llaman estos poemas?",
+      "answer": "<mark>Romances</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_2/torneo-caballeros.jpg",
+        "title": "Knights tournament in Spandauer Zitadelle",
+        "source": "https://www.flickr.com/photos/22974618@N00/33253695044",
         "alt": "Dos caballeros a caballo compiten con lanzas en un torneo, delante de una multitud que mira",
-        "titulo": "Knights tournament in Spandauer Zitadelle",
         "autor": "Sergey Galyonkin",
-        "fuente": "https://www.flickr.com/photos/22974618@N00/33253695044",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El romance siempre está escrito en verso, con rima. <mark>Esta otra historia se cuenta en prosa, como algo hablado</mark>. Ambas mezclan hechos reales con algo de invención. ¿Cómo se llama esta otra clase de historia?",
-      "respuesta": "<mark>Leyenda</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_2/erase-una-vez-pluma.jpg",
+      "question": "El romance siempre está escrito en verso, con rima. <mark>Esta otra historia se cuenta en prosa, como algo hablado</mark>. Ambas mezclan hechos reales con algo de invención. ¿Cómo se llama esta otra clase de historia?",
+      "answer": "<mark>Leyenda</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_2/erase-una-vez-pluma.jpg",
+        "title": "Once upon a time ...",
+        "source": "https://www.flickr.com/photos/71926021@N06/6819858446",
         "alt": "Las palabras 'Érase una vez...' escritas de forma decorativa, junto a una pluma sobre papel en blanco",
-        "titulo": "Once upon a time ...",
         "autor": "UNE Photos",
-        "fuente": "https://www.flickr.com/photos/71926021@N06/6819858446",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el relato de la vida de una persona real, <mark>como un retrato hecho con palabras por otra persona</mark>. Investiga datos y hechos desde su nacimiento. ¿Cómo se llama este tipo de relato?",
-      "respuesta": "<mark>Biografía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_2/retrato-personaje-historico.jpg",
+      "question": "Es el relato de la vida de una persona real, <mark>como un retrato hecho con palabras por otra persona</mark>. Investiga datos y hechos desde su nacimiento. ¿Cómo se llama este tipo de relato?",
+      "answer": "<mark>Biografía</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_2/retrato-personaje-historico.jpg",
+        "title": "Ben Franklin",
+        "source": "https://www.flickr.com/photos/14277117@N03/4408336967",
         "alt": "Retrato en blanco y negro de una persona real de la historia, sobre la que otros escribieron su vida",
-        "titulo": "Ben Franklin",
         "autor": "perpetualplum",
-        "fuente": "https://www.flickr.com/photos/14277117@N03/4408336967",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el relato de una vida escrito por uno mismo, <mark>como un diario que cuenta toda una vida</mark>. Nadie más investiga por él. ¿Cómo se llama este tipo de relato?",
-      "respuesta": "<mark>Autobiografía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_2/escribir-diario.jpg",
+      "question": "Es el relato de una vida escrito por uno mismo, <mark>como un diario que cuenta toda una vida</mark>. Nadie más investiga por él. ¿Cómo se llama este tipo de relato?",
+      "answer": "<mark>Autobiografía</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_2/escribir-diario.jpg",
+        "title": "Write In Journal",
+        "source": "https://www.flickr.com/photos/8404611@N06/7946581522",
         "alt": "Una persona escribe con un bolígrafo en un cuaderno en blanco, al aire libre",
-        "titulo": "Write In Journal",
         "autor": "Walt Stoneburner",
-        "fuente": "https://www.flickr.com/photos/8404611@N06/7946581522",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un relato de vida puede escribirlo otra persona, investigando desde fuera. <mark>Este otro lo escribe uno mismo, recordando desde dentro</mark>. Pueden contar la misma vida de forma distinta. ¿Cómo se llama este segundo tipo de relato?",
-      "respuesta": "<mark>Autobiografía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_5_literatura_2/diario-biografia.jpg",
+      "question": "Un relato de vida puede escribirlo otra persona, investigando desde fuera. <mark>Este otro lo escribe uno mismo, recordando desde dentro</mark>. Pueden contar la misma vida de forma distinta. ¿Cómo se llama este segundo tipo de relato?",
+      "answer": "<mark>Autobiografía</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_5_literatura_2/diario-biografia.jpg",
+        "title": "Pen, Diary and Glasses",
+        "source": "https://www.flickr.com/photos/46959536@N04/4827013488",
         "alt": "Un bolígrafo y un diario, para escribir sobre la propia vida",
-        "titulo": "Pen, Diary and Glasses",
         "autor": "Generationbass.com",
-        "fuente": "https://www.flickr.com/photos/46959536@N04/4827013488",
         "licencia": "CC BY 2.0"
       }
     }

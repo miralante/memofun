@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 3º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 3º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un cuento corto <mark>con animales que actúan como personas</mark>. Casi siempre termina con una enseñanza para la vida. Muchas hablan de la pereza o la generosidad. ¿Cómo se llama este tipo de cuento?",
-      "respuesta": "<mark>Fábula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_3/fabula-zorro-cuervo.jpg",
+      "question": "Es un cuento corto <mark>con animales que actúan como personas</mark>. Casi siempre termina con una enseñanza para la vida. Muchas hablan de la pereza o la generosidad. ¿Cómo se llama este tipo de cuento?",
+      "answer": "<mark>Fábula</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_3/fabula-zorro-cuervo.jpg",
+        "title": "The Fox and the Crow, Illustration for Aesop's Fables",
+        "source": "https://collection.cooperhewitt.org/view/objects/asitem/id/24110",
         "alt": "Dibujo de un zorro mirando hacia arriba a un cuervo, posado en un árbol, con queso en el pico",
-        "titulo": "The Fox and the Crow, Illustration for Aesop's Fables",
         "autor": "Victor Wilbour",
-        "fuente": "https://collection.cooperhewitt.org/view/objects/asitem/id/24110",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es la enseñanza que deja una fábula al terminar. <mark>Es como un consejo escondido dentro de la historia</mark>. Por ejemplo: hay que prepararse antes de que llegue el frío. ¿Cómo se llama esta enseñanza?",
-      "respuesta": "<mark>Moraleja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_3/moraleja-liebre-tortuga.jpg",
+      "question": "Es la enseñanza que deja una fábula al terminar. <mark>Es como un consejo escondido dentro de la historia</mark>. Por ejemplo: hay que prepararse antes de que llegue el frío. ¿Cómo se llama esta enseñanza?",
+      "answer": "<mark>Moraleja</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_3/moraleja-liebre-tortuga.jpg",
+        "title": "Della lepre, e la testuggine",
+        "source": "https://www.flickr.com/photos/58558794@N07/7652965654",
         "alt": "Grabado antiguo de una liebre y una tortuga en una carrera, con un zorro observando entre los árboles",
-        "titulo": "Della lepre, e la testuggine",
         "autor": "Provenance Online Project",
-        "fuente": "https://www.flickr.com/photos/58558794@N07/7652965654",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La cigarra canta todo el verano sin guardar comida. <mark>La hormiga, en cambio, trabaja guardando alimento</mark>. Llega el invierno y la cigarra tiene un problema. ¿Qué le pasa a la cigarra en invierno?",
-      "respuesta": "<mark>No tiene nada que comer</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_3/cigarra-hormiga.jpg",
+      "question": "La cigarra canta todo el verano sin guardar comida. <mark>La hormiga, en cambio, trabaja guardando alimento</mark>. Llega el invierno y la cigarra tiene un problema. ¿Qué le pasa a la cigarra en invierno?",
+      "answer": "<mark>No tiene nada que comer</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_3/cigarra-hormiga.jpg",
+        "title": "The Ant and the Grasshopper - Richard Heighway",
+        "source": "https://www.flickr.com/photos/92282757@N00/6776504474",
         "alt": "Ilustración antigua de un saltamontes tocando música junto a una hormiga pequeña, en un bosque",
-        "titulo": "The Ant and the Grasshopper - Richard Heighway",
         "autor": "dierken",
-        "fuente": "https://www.flickr.com/photos/92282757@N00/6776504474",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un cuento con cosas que no existen en la vida real. <mark>Dragones, hadas o magia forman parte de su mundo</mark>. Por eso puede pasar lo que quiera el autor. ¿Cómo se llama este tipo de cuento?",
-      "respuesta": "<mark>Cuento fantástico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_3/cuento-fantastico-dragon.jpg",
+      "question": "Es un cuento con cosas que no existen en la vida real. <mark>Dragones, hadas o magia forman parte de su mundo</mark>. Por eso puede pasar lo que quiera el autor. ¿Cómo se llama este tipo de cuento?",
+      "answer": "<mark>Cuento fantástico</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_3/cuento-fantastico-dragon.jpg",
+        "title": "The Dragon of Wantley, his tale: by Owen Wister",
+        "source": "https://www.flickr.com/photos/24029425@N06/10559908903",
         "alt": "Dibujo de una cabeza de dragón negra con la boca abierta, dientes afilados y garras",
-        "titulo": "The Dragon of Wantley, his tale: by Owen Wister",
         "autor": "Boston Public Library",
-        "fuente": "https://www.flickr.com/photos/24029425@N06/10559908903",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es algo que rompe las normas del mundo real en un cuento. <mark>Una alfombra que vuela o una poción que cambia a alguien</mark>. Ayuda a resolver problemas de forma sorprendente. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Elemento mágico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_3/elemento-magico-lampara.webp",
+      "question": "Es algo que rompe las normas del mundo real en un cuento. <mark>Una alfombra que vuela o una poción que cambia a alguien</mark>. Ayuda a resolver problemas de forma sorprendente. ¿Cómo se llama esto?",
+      "answer": "<mark>Elemento mágico</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_3/elemento-magico-lampara.webp",
+        "title": "Magic lamp, black & white",
+        "source": "https://www.rawpixel.com/image/6817430/image-vintage-public-domain-black",
         "alt": "Dibujo de una lámpara mágica con humo saliendo, como la del genio de los cuentos",
-        "titulo": "Magic lamp, black & white",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/6817430/image-vintage-public-domain-black",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es un viaje o un reto fuera de lo normal. El protagonista sale de su rutina. <mark>Por el camino encuentra peligros y sorpresas</mark>. ¿Cómo se llama esto que vive?",
-      "respuesta": "<mark>Una aventura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura_3/aventura-mapa-tesoro.webp",
+      "question": "Es un viaje o un reto fuera de lo normal. El protagonista sale de su rutina. <mark>Por el camino encuentra peligros y sorpresas</mark>. ¿Cómo se llama esto que vive?",
+      "answer": "<mark>Una aventura</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura_3/aventura-mapa-tesoro.webp",
+        "title": "Treasure map clipart illustration",
+        "source": "https://www.rawpixel.com/image/6290260/image-vintage-public-domain-illustrations",
         "alt": "Dibujo de un mapa del tesoro enrollado, con una brújula y un camino punteado hasta una X",
-        "titulo": "Treasure map clipart illustration",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/6290260/image-vintage-public-domain-illustrations",
         "licencia": "CC0 1.0"
       }
     }

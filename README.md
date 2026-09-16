@@ -9,7 +9,8 @@
 [![Static site](https://img.shields.io/badge/build-none-informational.svg)](#-features)
 [![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8.svg)](manifest.json)
 [![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-project-documentation-bilingual)
-[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/ci.yml)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/validate.yml)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 A flashcard study app built around **meaningful learning**: every card
 explains a concept through an everyday analogy, a concrete example, or
@@ -25,8 +26,7 @@ app. Decks use our own JSON format, not Anki's `.apkg`.
 - 🌐 **App**: [memofun.apptonomia.uk](https://memofun.apptonomia.uk/)
 - 📦 **Repository**: [github.com/miralante/memofun](https://github.com/miralante/memofun)
 - 💻 **Run locally**: open `index.html` directly in a browser, or serve
-  the folder with any static server (
-npx serve .` /
+  the folder with any static server (`npx serve .` /
   `python -m http.server 8080`).
 
 ---
@@ -96,6 +96,7 @@ All project documentation lives in the `doc/` folder:
 | Document | Audience |
 |---|---|
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Anyone who wants to contribute (family, therapists, devs) |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Contributor covenant (Contributor Covenant 2.1) |
 | `CLAUDE.md` | AI agents: operational workflow, coordination and approvals |
 | [`CLOUDFLARE.md`](CLOUDFLARE.md) | Canonical Cloudflare Workers deploy guide for the suite (Memofun + Apptonomia + Calculia, Okeymoney, Sinonimia, Teclatlon) |
 | Project history | Lives in `git log`; no external roadmap is maintained |
@@ -138,7 +139,7 @@ pm install` needed — the script only uses Node's standard library.
 It checks JS syntax, ES/EN parity, `sw.js` / `manifest.json` /
 `decks/manifest.json` integrity, and enforces the zero-mentions rule
 in the UI (see `CLAUDE.md`). It is the only "test" step and runs on
-every push and PR via [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
+every push and PR via [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 
 If you touched any file cached by `sw.js`, also bump `VERSION` in
 `sw.js` and run:
@@ -189,6 +190,15 @@ Memofun ships **two** licences, one per asset kind:
 
 ---
 
+## Contributing
+
+Issues and pull requests are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md)
+for the workflow (and [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) for the
+Spanish version). All participants are expected to follow
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
+
+---
+
 ## 🧹 Housekeeping
 
 There is no 
@@ -221,65 +231,7 @@ and the vocational Entry Level / BTEC Level 2 routes.
 
 ---
 
-## 🇬🇧 How to help — building the English version
-
-The interface, the docs, and the rules are all bilingual (Spanish
-default, English mirror). **Deck content and the curriculum library
-behind it, however, are language-specific**: the `decks/` folder and
-[`doc/curriculum/`](doc/curriculum/) are populated for Spanish
-(Comunidad de Madrid) but the English curriculum is **partially built
-and needs hands**. There are **no English deck JSON files yet** —
-this section is the open invitation to write them. If you can help
-with any of the below, an issue or a PR is very welcome — see
-[`CONTRIBUTING.md`](CONTRIBUTING.md) for the flow, and the
-[English curriculum README](doc/curriculum/en/README.md) for the
-exact gaps.
-
-Concrete ways to help:
-
-- **Pick an English curriculum and ask for its deck.** The simplest
-  entry point: open any file under
-  [`doc/curriculum/en/`](doc/curriculum/en/) (e.g.
-  `key-stage-2/3/english-literature.md`) and ask the AI coding agent
-  "generate the deck for this curriculum". The agent reads the file,
-  writes `decks/<slug>.json`, and adds the entry to
-  `decks/manifest.json`. You review it against the checklist in the
-  [English internal guide](doc/en/internal-creating-decks-guide.md)
-  §4 before publishing.
-- **Author or review a curriculum index file** under
-  [`doc/curriculum/en/`](doc/curriculum/en/) — Key Stage 1–4 (Years
-  1–11) and the Entry Level / BTEC Level 2 vocational routes.
-  Format and frontmatter are described in §2 of the same guide —
-  same shape as the Spanish files in
-  [`doc/curriculum/es/`](doc/curriculum/es/).
-- **Note**: English decks in this folder are **English Literature
-  only** — stories, poems, plays, authors, and movements. Phonics,
-  spelling and grammar decks are intentionally out of scope here
-  (the audience meets English as a second language, so literature
-  travels better than orthography does). This matches the Spanish
-  library's `literatura` strand.
-- **Review an existing English curriculum file** against the current
-  English National Curriculum (DfE) or your exam board's current
-  GCSE specification (AQA, OCR, Edexcel) — even a small factual
-  correction matters.
-- **Translate UI strings** that drift between
-  [`strings.en.js`](strings.en.js) and [`strings.es.js`](strings.es.js)
-  — 
-ode scripts/check.js` already enforces parity, but human
-  phrasing often needs a second pass.
-- **Open an issue** describing a gap (a missing Year, a missing
-  GCSE subject, a missing vocational unit) — that helps someone else
-  pick it up.
-
-You don't need to know the whole project to help: every one of these
-is a self-contained contribution with a clear shape and a clear
-checklist. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the exact
-PR flow and [`doc/en/spec.md`](doc/en/spec.md) for the non-negotiable
-rules every contribution has to keep (no AI in the product, Easy
-Read, no clinical language, etc.).
-
 ---
-
 ## 🌐 The Miralante suite — projects in the suite
 
 Memofun is one of **six apps** in the **Miralante** suite, sharing

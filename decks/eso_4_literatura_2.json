@@ -1,101 +1,101 @@
 {
-  "tema": "Literatura - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Fue un grupo de poetas españoles muy amigos entre sí. <mark>Se reunieron para homenajear a un poeta del Barroco, Góngora</mark>. ¿Cómo se llamó este grupo?",
-      "respuesta": "<mark>Generación del 27</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/residencia-estudiantes.jpg",
+      "question": "Fue un grupo de poetas españoles muy amigos entre sí. <mark>Se reunieron para homenajear a un poeta del Barroco, Góngora</mark>. ¿Cómo se llamó este grupo?",
+      "answer": "<mark>Generación del 27</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/residencia-estudiantes.jpg",
+        "title": "Residencia de Estudiantes—Fachada",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=3621886",
         "alt": "La fachada de la Residencia de Estudiantes de Madrid",
-        "titulo": "Residencia de Estudiantes—Fachada",
         "autor": "Ketamino",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=3621886",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Fue poeta y dramaturgo, el más conocido de la Generación del 27. <mark>Escribía sobre el amor, la muerte y la libertad</mark>. Murió asesinado al principio de la Guerra Civil. ¿Quién fue este autor?",
-      "respuesta": "<mark>Federico García Lorca</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/lorca-falla-foto.jpg",
+      "question": "Fue poeta y dramaturgo, el más conocido de la Generación del 27. <mark>Escribía sobre el amor, la muerte y la libertad</mark>. Murió asesinado al principio de la Guerra Civil. ¿Quién fue este autor?",
+      "answer": "<mark>Federico García Lorca</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/lorca-falla-foto.jpg",
+        "title": "Foto de Antonio de Luna con Manuel de Falla y Federico García Lorca",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=79432630",
         "alt": "Fotografía de Federico García Lorca junto a Manuel de Falla",
-        "titulo": "Foto de Antonio de Luna con Manuel de Falla y Federico García Lorca",
         "autor": "Antonio de Luna",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=79432630",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Lorca escribió una obra de teatro que <mark>cuenta la vida de mujeres encerradas por una madre autoritaria</mark>. También escribió poesía, como el Romancero gitano. ¿Cómo se llama esta obra de teatro?",
-      "respuesta": "<mark>La casa de Bernarda Alba</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/flamenco-guitarra.jpg",
+      "question": "Lorca escribió una obra de teatro que <mark>cuenta la vida de mujeres encerradas por una madre autoritaria</mark>. También escribió poesía, como el Romancero gitano. ¿Cómo se llama esta obra de teatro?",
+      "answer": "<mark>La casa de Bernarda Alba</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/flamenco-guitarra.jpg",
+        "title": "Pure Flamenco - El Palacio Andaluz - Seville - the museum - guitar",
+        "source": "https://www.flickr.com/photos/39415781@N06/14485020740",
         "alt": "Una guitarra flamenca andaluza",
-        "titulo": "Pure Flamenco - El Palacio Andaluz - Seville - the museum - guitar",
         "autor": "ell brown",
-        "fuente": "https://www.flickr.com/photos/39415781@N06/14485020740",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Fueron movimientos que rompieron con las formas tradicionales de escribir. <mark>Buscaban sorprender, jugando con el lenguaje de formas nunca vistas</mark>. Influyeron en la Generación del 27. ¿Cómo se llaman estos movimientos?",
-      "respuesta": "<mark>Vanguardias</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/arte-vanguardia.jpg",
+      "question": "Fueron movimientos que rompieron con las formas tradicionales de escribir. <mark>Buscaban sorprender, jugando con el lenguaje de formas nunca vistas</mark>. Influyeron en la Generación del 27. ¿Cómo se llaman estos movimientos?",
+      "answer": "<mark>Vanguardias</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/arte-vanguardia.jpg",
+        "title": "Franz Marc's The Foxes (1913) famous painting",
+        "source": "https://www.flickr.com/photos/153584064@N07/51927140051",
         "alt": "Una pintura moderna de principios del siglo veinte",
-        "titulo": "Franz Marc's The Foxes (1913) famous painting",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/51927140051",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Tras la Guerra Civil, muchos escritores <mark>tuvieron que abandonar España para siempre</mark>. Siguieron escribiendo desde otros países, con nostalgia. ¿Cómo se llama esta salida forzosa del país?",
-      "respuesta": "<mark>El exilio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/maleta-exilio.jpg",
+      "question": "Tras la Guerra Civil, muchos escritores <mark>tuvieron que abandonar España para siempre</mark>. Siguieron escribiendo desde otros países, con nostalgia. ¿Cómo se llama esta salida forzosa del país?",
+      "answer": "<mark>El exilio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/maleta-exilio.jpg",
+        "title": "Old Suitcase",
+        "source": "https://www.flickr.com/photos/38434991@N08/14873758161",
         "alt": "Una maleta antigua de viaje",
-        "titulo": "Old Suitcase",
         "autor": "Homini:)",
-        "fuente": "https://www.flickr.com/photos/38434991@N08/14873758161",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Contaba la vida difícil de la gente corriente: obreros, campesinos o vecinos de barrio</mark>. Denunciaba, sin decirlo abiertamente, las injusticias de esa época. ¿Cómo se llama este tipo de novela?",
-      "respuesta": "<mark>Novela social</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/calle-1952.jpg",
+      "question": "<mark>Contaba la vida difícil de la gente corriente: obreros, campesinos o vecinos de barrio</mark>. Denunciaba, sin decirlo abiertamente, las injusticias de esa época. ¿Cómo se llama este tipo de novela?",
+      "answer": "<mark>Novela social</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/calle-1952.jpg",
+        "title": "Market Street, 1952",
+        "source": "https://www.flickr.com/photos/24256351@N04/14559755005",
         "alt": "Una calle en blanco y negro de los años cincuenta",
-        "titulo": "Market Street, 1952",
         "autor": "Seattle Municipal Archives",
-        "fuente": "https://www.flickr.com/photos/24256351@N04/14559755005",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un texto donde el autor expone y defiende sus ideas. <mark>No cuenta una historia, sino que reflexiona sobre un tema</mark>. Invita al lector a pensar, más que a imaginar. ¿Cómo se llama este género literario?",
-      "respuesta": "<mark>Ensayo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/fichero-notas.jpg",
+      "question": "Es un texto donde el autor expone y defiende sus ideas. <mark>No cuenta una historia, sino que reflexiona sobre un tema</mark>. Invita al lector a pensar, más que a imaginar. ¿Cómo se llama este género literario?",
+      "answer": "<mark>Ensayo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/fichero-notas.jpg",
+        "title": "Index Card System",
+        "source": "https://www.flickr.com/photos/9544998@N04/3331704619",
         "alt": "Un sistema de fichas con notas escritas",
-        "titulo": "Index Card System",
         "autor": "koalazymonkey",
-        "fuente": "https://www.flickr.com/photos/9544998@N04/3331704619",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Con la llegada de la democracia, desapareció esto que limitaba lo que se podía escribir. <mark>Los autores pudieron tratar temas antes prohibidos, con libertad</mark>. Surgieron voces y estilos mucho más variados. ¿Qué desapareció con la democracia?",
-      "respuesta": "<mark>La censura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_2/urna-electoral.jpg",
+      "question": "Con la llegada de la democracia, desapareció esto que limitaba lo que se podía escribir. <mark>Los autores pudieron tratar temas antes prohibidos, con libertad</mark>. Surgieron voces y estilos mucho más variados. ¿Qué desapareció con la democracia?",
+      "answer": "<mark>La censura</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_2/urna-electoral.jpg",
+        "title": "Urna electoral de D.C.",
+        "source": "https://www.flickr.com/photos/62518311@N00/1469730565",
         "alt": "Una urna electoral",
-        "titulo": "Urna electoral de D.C.",
         "autor": "Daquella manera",
-        "fuente": "https://www.flickr.com/photos/62518311@N00/1469730565",
         "licencia": "CC BY 2.0"
       }
     }

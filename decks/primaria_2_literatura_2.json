@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 2º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 2º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el nombre que identifica a un cuento. <mark>Suele dar una pista de lo que vas a leer</mark>. Está siempre al principio, antes de la historia. ¿Cómo se llama esto?",
-      "respuesta": "<mark>El título</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_2/titulo-portada-libro.jpg",
+      "question": "Es el nombre que identifica a un cuento. <mark>Suele dar una pista de lo que vas a leer</mark>. Está siempre al principio, antes de la historia. ¿Cómo se llama esto?",
+      "answer": "<mark>El título</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_2/titulo-portada-libro.jpg",
+        "title": "Children's Friend",
+        "source": "https://www.flickr.com/photos/58598613@N00/2284299696",
         "alt": "Portada de un libro antiguo con el título grande 'Children's Friend' y un dibujo de dos niños mirando un leopardo sobre una roca",
-        "titulo": "Children's Friend",
         "autor": "snigl3t",
-        "fuente": "https://www.flickr.com/photos/58598613@N00/2284299696",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la voz que cuenta la historia al lector. <mark>No es un personaje que aparece en ella</mark>. Dice qué pasa y dónde ocurre. ¿Cómo se llama esta voz?",
-      "respuesta": "<mark>El narrador</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_2/narrador-cuenta-historia.jpg",
+      "question": "Es la voz que cuenta la historia al lector. <mark>No es un personaje que aparece en ella</mark>. Dice qué pasa y dónde ocurre. ¿Cómo se llama esta voz?",
+      "answer": "<mark>El narrador</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_2/narrador-cuenta-historia.jpg",
+        "title": "Mr. Steve Reads",
+        "source": "https://www.flickr.com/photos/14802104@N07/3316690132",
         "alt": "Un hombre sentado lee un cuento en voz alta, mostrando los dibujos del libro a tres niños sentados en el suelo de una biblioteca",
-        "titulo": "Mr. Steve Reads",
         "autor": "Manchester Library",
-        "fuente": "https://www.flickr.com/photos/14802104@N07/3316690132",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el lugar donde ocurre una historia. <mark>Puede ser un bosque, una ciudad o hasta el espacio</mark>. Cambiarlo cambiaría toda la historia. ¿Cómo se llama esto?",
-      "respuesta": "<mark>El escenario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_2/escenario-bosque.jpg",
+      "question": "Es el lugar donde ocurre una historia. <mark>Puede ser un bosque, una ciudad o hasta el espacio</mark>. Cambiarlo cambiaría toda la historia. ¿Cómo se llama esto?",
+      "answer": "<mark>El escenario</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_2/escenario-bosque.jpg",
+        "title": "The Dark Hedges, N. Ireland",
+        "source": "https://www.flickr.com/photos/148714304@N03/36928565572",
         "alt": "Un camino de tierra que atraviesa un túnel formado por árboles muy antiguos con las ramas entrelazadas, como en un cuento",
-        "titulo": "The Dark Hedges, N. Ireland",
         "autor": "ky0nch3ng",
-        "fuente": "https://www.flickr.com/photos/148714304@N03/36928565572",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Son quienes ayudan o acompañan al protagonista. No viven la aventura principal, pero importan igual. <mark>Por ejemplo, un amigo que da un consejo</mark>. ¿Cómo se llaman estos personajes?",
-      "respuesta": "<mark>Personajes secundarios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_2/personajes-secundarios-amigas.jpg",
+      "question": "Son quienes ayudan o acompañan al protagonista. No viven la aventura principal, pero importan igual. <mark>Por ejemplo, un amigo que da un consejo</mark>. ¿Cómo se llaman estos personajes?",
+      "answer": "<mark>Personajes secundarios</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_2/personajes-secundarios-amigas.jpg",
+        "title": "Two Peas in a Pod",
+        "source": "https://www.flickr.com/photos/11946169@N00/17022954517",
         "alt": "Dos niñas pequeñas sentadas juntas en el suelo, jugando y compartiendo algo, como buenas compañeras",
-        "titulo": "Two Peas in a Pod",
         "autor": "donnierayjones",
-        "fuente": "https://www.flickr.com/photos/11946169@N00/17022954517",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esto muestra cómo son los personajes y lugares de un cuento. <mark>Ayuda a imaginar la historia sin leer cada palabra</mark>. Un buen ejemplo puede contar tanto como una frase. ¿Cómo se llama esto en un libro?",
-      "respuesta": "<mark>Las ilustraciones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_2/dibujos-ilustracion-cuento.jpg",
+      "question": "Esto muestra cómo son los personajes y lugares de un cuento. <mark>Ayuda a imaginar la historia sin leer cada palabra</mark>. Un buen ejemplo puede contar tanto como una frase. ¿Cómo se llama esto en un libro?",
+      "answer": "<mark>Las ilustraciones</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_2/dibujos-ilustracion-cuento.jpg",
+        "title": "Comical Creatures; A Picture Book for the Nursery",
+        "source": "https://www.flickr.com/photos/88645472@N00/4736229615",
         "alt": "Página antigua de un libro infantil con un dibujo en color de animales vestidos de personas, junto al texto del cuento",
-        "titulo": "Comical Creatures; A Picture Book for the Nursery",
         "autor": "crackdog (H. G. Hine)",
-        "fuente": "https://www.flickr.com/photos/88645472@N00/4736229615",
         "licencia": "Dominio público (PDM 1.0)"
       }
     },
     {
-      "pregunta": "Una historia puede pasar hoy, hace siglos o en el futuro. <mark>Si no hay coches, sabes que es una época antigua</mark>. Esto cambia lo que es normal dentro de la historia. ¿Cómo se llama el momento en que ocurre una historia?",
-      "respuesta": "<mark>El tiempo de la historia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_2/epoca-carruaje-antiguo.jpg",
+      "question": "Una historia puede pasar hoy, hace siglos o en el futuro. <mark>Si no hay coches, sabes que es una época antigua</mark>. Esto cambia lo que es normal dentro de la historia. ¿Cómo se llama el momento en que ocurre una historia?",
+      "answer": "<mark>El tiempo de la historia</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_2/epoca-carruaje-antiguo.jpg",
+        "title": "Nursemaids' Promenade; Frieze of Carriages (1895) by Pierre Bonnard",
+        "source": "https://www.flickr.com/photos/153584064@N07/52228734656",
         "alt": "Dibujo antiguo de un carruaje tirado por caballos, sin coches, propio de una época pasada",
-        "titulo": "Nursemaids' Promenade; Frieze of Carriages (1895) by Pierre Bonnard",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/52228734656",
         "licencia": "CC BY 2.0"
       }
     }

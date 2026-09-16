@@ -1,149 +1,149 @@
 {
-  "tema": "Los primeros átomos y la tabla periódica - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Los primeros átomos y la tabla periódica - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es la partícula más pequeña que aún conserva las propiedades de un elemento químico. <mark>Es como el ladrillo más diminuto con el que se construye toda la materia.</mark> Hoy sabemos que está formada por partículas aún más pequeñas. ¿Cómo se llama esta partícula?",
-      "respuesta": "<mark>Átomo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/atomo-modelo-bohr.gif",
+      "question": "Es la partícula más pequeña que aún conserva las propiedades de un elemento químico. <mark>Es como el ladrillo más diminuto con el que se construye toda la materia.</mark> Hoy sabemos que está formada por partículas aún más pequeñas. ¿Cómo se llama esta partícula?",
+      "answer": "<mark>Átomo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/atomo-modelo-bohr.gif",
+        "title": "Bohr atom animation 2",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=32188518",
         "alt": "Animación de un átomo con un núcleo central y electrones girando a su alrededor",
-        "titulo": "Bohr atom animation 2",
         "autor": "Kurzon",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=32188518",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Un primer modelo imaginaba el átomo como una esfera con carga positiva y electrones dentro. <mark>Se le suele comparar con un pudin con pasas, donde las pasas serían los electrones.</mark> Después se demostró que no era del todo correcto. ¿Cómo se llama este modelo atómico?",
-      "respuesta": "<mark>Modelo de Thomson</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-thomson-pudin.svg",
+      "question": "Un primer modelo imaginaba el átomo como una esfera con carga positiva y electrones dentro. <mark>Se le suele comparar con un pudin con pasas, donde las pasas serían los electrones.</mark> Después se demostró que no era del todo correcto. ¿Cómo se llama este modelo atómico?",
+      "answer": "<mark>Modelo de Thomson</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-thomson-pudin.svg",
+        "title": "Plum pudding model",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=35252269",
         "alt": "Esquema del modelo atómico de Thomson: una esfera con electrones repartidos dentro, como pasas en un pudin",
-        "titulo": "Plum pudding model",
         "autor": "Kurzon",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35252269",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Otro modelo propuso un núcleo pequeño y denso, con los electrones girando alrededor. <mark>Es como un pequeño sistema solar, con un núcleo en el centro.</mark> Descubrió que la mayor parte del átomo es espacio casi vacío. ¿Cómo se llama este modelo atómico?",
-      "respuesta": "<mark>Modelo de Rutherford</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-rutherford.jpg",
+      "question": "Otro modelo propuso un núcleo pequeño y denso, con los electrones girando alrededor. <mark>Es como un pequeño sistema solar, con un núcleo en el centro.</mark> Descubrió que la mayor parte del átomo es espacio casi vacío. ¿Cómo se llama este modelo atómico?",
+      "answer": "<mark>Modelo de Rutherford</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/modelo-atomico-rutherford.jpg",
+        "title": "Rutherford atomic planetary model",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=21332267",
         "alt": "Esquema del modelo atómico de Rutherford, con un núcleo central y electrones orbitando como planetas",
-        "titulo": "Rutherford atomic planetary model",
         "autor": "Bensteele1995",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=21332267",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Todos los elementos químicos están organizados en un mismo cuadro. <mark>Es como un armario ordenado, donde cada elemento tiene su cajón.</mark> Los agrupa por características parecidas. ¿Cómo se llama este cuadro?",
-      "respuesta": "<mark>Tabla periódica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/tabla-periodica.jpg",
+      "question": "Todos los elementos químicos están organizados en un mismo cuadro. <mark>Es como un armario ordenado, donde cada elemento tiene su cajón.</mark> Los agrupa por características parecidas. ¿Cómo se llama este cuadro?",
+      "answer": "<mark>Tabla periódica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/tabla-periodica.jpg",
+        "title": "Tabla periodica escolar",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=76621629",
         "alt": "La tabla periódica de los elementos químicos",
-        "titulo": "Tabla periodica escolar",
         "autor": "Pientrepiuno",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=76621629",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Cada átomo de un elemento tiene un número fijo de protones. <mark>Es como el número de identidad único de cada elemento químico.</mark> Los elementos de la tabla periódica están ordenados según ese número. ¿Cómo se llama ese número?",
-      "respuesta": "<mark>Número atómico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/numero-atomico-identidad-elemento.png",
+      "question": "Cada átomo de un elemento tiene un número fijo de protones. <mark>Es como el número de identidad único de cada elemento químico.</mark> Los elementos de la tabla periódica están ordenados según ese número. ¿Cómo se llama ese número?",
+      "answer": "<mark>Número atómico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/numero-atomico-identidad-elemento.png",
+        "title": "Element identity",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=40700677",
         "alt": "Diagrama que muestra cómo el número atómico identifica a cada elemento químico",
-        "titulo": "Element identity",
         "autor": "Zygimantus",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=40700677",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>El oxígeno que respiramos está formado por átomos de un solo elemento.</mark> El agua, en cambio, combina átomos de hidrógeno y oxígeno, dos elementos distintos. ¿Cómo se llama una sustancia con átomos de un único elemento?",
-      "respuesta": "<mark>Sustancia simple</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/sustancia-simple-elemento-puro.jpg",
+      "question": "<mark>El oxígeno que respiramos está formado por átomos de un solo elemento.</mark> El agua, en cambio, combina átomos de hidrógeno y oxígeno, dos elementos distintos. ¿Cómo se llama una sustancia con átomos de un único elemento?",
+      "answer": "<mark>Sustancia simple</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/sustancia-simple-elemento-puro.jpg",
+        "title": "Chromium chuncks",
+        "source": "https://www.flickr.com/photos/145379854@N05/50427918671",
         "alt": "Trozos de cromo puro, un ejemplo de sustancia simple formada por un solo elemento",
-        "titulo": "Chromium chuncks",
         "autor": "johnchryslar",
-        "fuente": "https://www.flickr.com/photos/145379854@N05/50427918671",
         "licencia": "CC CC0 1.0"
       }
     },
     {
-      "pregunta": "Un grupo de átomos unidos forma la unidad más pequeña de una sustancia. <mark>Es como un pequeño grupo de piezas de Lego unidas de una forma concreta.</mark> El agua está formada por hidrógeno y oxígeno unidos así. ¿Cómo se llama este grupo de átomos unidos?",
-      "respuesta": "<mark>Molécula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/molecula-agua-modelo.jpg",
+      "question": "Un grupo de átomos unidos forma la unidad más pequeña de una sustancia. <mark>Es como un pequeño grupo de piezas de Lego unidas de una forma concreta.</mark> El agua está formada por hidrógeno y oxígeno unidos así. ¿Cómo se llama este grupo de átomos unidos?",
+      "answer": "<mark>Molécula</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/molecula-agua-modelo.jpg",
+        "title": "Water Molecule ball-and-stick model",
+        "source": "https://sketchfab.com/3d-models/b3b508a8fde242ddb4d5baa8988ee090",
         "alt": "Modelo de bolas y varillas de una molécula de agua, con un átomo de oxígeno unido a dos de hidrógeno",
-        "titulo": "Water Molecule ball-and-stick model",
         "autor": "borkia",
-        "fuente": "https://sketchfab.com/3d-models/b3b508a8fde242ddb4d5baa8988ee090",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>Doblar una hoja de papel no cambia su composición: sigue siendo el mismo papel.</mark> Fundir un bloque de hielo tampoco: la sustancia es la misma antes y después. ¿Cómo se llama este tipo de cambio?",
-      "respuesta": "<mark>Cambio físico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/cambio-fisico-hielo-fundiendo.jpg",
+      "question": "<mark>Doblar una hoja de papel no cambia su composición: sigue siendo el mismo papel.</mark> Fundir un bloque de hielo tampoco: la sustancia es la misma antes y después. ¿Cómo se llama este tipo de cambio?",
+      "answer": "<mark>Cambio físico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/cambio-fisico-hielo-fundiendo.jpg",
+        "title": "Art comes in pieces: 2 blocks of ice melting on the street, string, wet concrete, rough and smooth, lines, orange, red, gray, white, Mazatlan, Mexico",
+        "source": "https://www.flickr.com/photos/71401718@N00/12899250963",
         "alt": "Bloques de hielo fundiéndose, un ejemplo de cambio físico",
-        "titulo": "Art comes in pieces: 2 blocks of ice melting on the street, string, wet concrete, rough and smooth, lines, orange, red, gray, white, Mazatlan, Mexico",
         "autor": "Wonderlane",
-        "fuente": "https://www.flickr.com/photos/71401718@N00/12899250963",
         "licencia": "CC CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Quemar papel lo convierte en cenizas y humo, una sustancia distinta a la original.</mark> Ese proceso también se llama reacción química. ¿Cómo se llama este tipo de cambio?",
-      "respuesta": "<mark>Cambio químico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/cambio-quimico-papel-quemando.jpg",
+      "question": "<mark>Quemar papel lo convierte en cenizas y humo, una sustancia distinta a la original.</mark> Ese proceso también se llama reacción química. ¿Cómo se llama este tipo de cambio?",
+      "answer": "<mark>Cambio químico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/cambio-quimico-papel-quemando.jpg",
+        "title": "Burning paper",
+        "source": "https://www.flickr.com/photos/82439748@N00/95655409",
         "alt": "Papel ardiendo, un ejemplo de cambio químico que forma cenizas y humo",
-        "titulo": "Burning paper",
         "autor": "blmurch",
-        "fuente": "https://www.flickr.com/photos/82439748@N00/95655409",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>A veces cambia el color o el olor de una sustancia, o se desprende gas.</mark> También puede aparecer un sólido nuevo o liberarse calor. Estas señales distinguen un tipo de cambio de un simple cambio de aspecto. ¿Qué tipo de cambio es?",
-      "respuesta": "<mark>Cambio químico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/senales-reaccion-quimica.jpg",
+      "question": "<mark>A veces cambia el color o el olor de una sustancia, o se desprende gas.</mark> También puede aparecer un sólido nuevo o liberarse calor. Estas señales distinguen un tipo de cambio de un simple cambio de aspecto. ¿Qué tipo de cambio es?",
+      "answer": "<mark>Cambio químico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/senales-reaccion-quimica.jpg",
+        "title": "Chemical Reaction",
+        "source": "https://www.flickr.com/photos/8489692@N03/5703151566",
         "alt": "Una reacción química en marcha, con burbujas de gas como señal del cambio",
-        "titulo": "Chemical Reaction",
         "autor": "katerha",
-        "fuente": "https://www.flickr.com/photos/8489692@N03/5703151566",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Unas sustancias se transforman en otras completamente distintas. <mark>Es como una receta donde los ingredientes originales desaparecen para formar algo nuevo.</mark> Las sustancias iniciales se llaman reactivos; las finales, productos. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Reacción química</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/reaccion-quimica-tubos-ensayo.jpg",
+      "question": "Unas sustancias se transforman en otras completamente distintas. <mark>Es como una receta donde los ingredientes originales desaparecen para formar algo nuevo.</mark> Las sustancias iniciales se llaman reactivos; las finales, productos. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Reacción química</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/reaccion-quimica-tubos-ensayo.jpg",
+        "title": "Red and blue liquids inside graduated test tubes",
+        "source": "https://www.flickr.com/photos/10361931@N06/4273224901",
         "alt": "Tubos de ensayo graduados con líquidos rojos y azules, usados para mezclar sustancias en una reacción",
-        "titulo": "Red and blue liquids inside graduated test tubes",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4273224901",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un mapa antiguo ayuda a entender por qué las cosas encajan de una forma y no de otra.</mark> De un modo parecido, algo ayuda a explicar cómo se comportan y se combinan los elementos. Sin ello sería difícil predecir las reacciones químicas. ¿Cómo se llama esta representación del átomo?",
-      "respuesta": "<mark>Modelo atómico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_3/modelos-atomicos-mapa-antiguo.jpg",
+      "question": "<mark>Un mapa antiguo ayuda a entender por qué las cosas encajan de una forma y no de otra.</mark> De un modo parecido, algo ayuda a explicar cómo se comportan y se combinan los elementos. Sin ello sería difícil predecir las reacciones químicas. ¿Cómo se llama esta representación del átomo?",
+      "answer": "<mark>Modelo atómico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_3/modelos-atomicos-mapa-antiguo.jpg",
+        "title": "Antique map of Leipzig",
+        "source": "https://www.flickr.com/photos/91994044@N00/8429631502",
         "alt": "Un mapa antiguo, como ejemplo de una guía que ayuda a entender y predecir",
-        "titulo": "Antique map of Leipzig",
         "autor": "quinet",
-        "fuente": "https://www.flickr.com/photos/91994044@N00/8429631502",
         "licencia": "CC BY 2.0"
       }
     }

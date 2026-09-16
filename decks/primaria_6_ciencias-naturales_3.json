@@ -1,63 +1,63 @@
 {
-  "tema": "La materia y la energía: reacciones químicas y circuitos eléctricos - 6º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La materia y la energía: reacciones químicas y circuitos eléctricos - 6º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un cambio en el que una sustancia se transforma en otra distinta, <mark>como mezclar ingredientes y obtener un plato nuevo</mark>. Antes y después hay sustancias diferentes. ¿Cómo se llama este cambio?",
-      "respuesta": "<mark>Reacción química</mark>"
+      "question": "Es un cambio en el que una sustancia se transforma en otra distinta, <mark>como mezclar ingredientes y obtener un plato nuevo</mark>. Antes y después hay sustancias diferentes. ¿Cómo se llama este cambio?",
+      "answer": "<mark>Reacción química</mark>"
     },
     {
-      "pregunta": "Ocurre cuando un metal toca el aire y la humedad, <mark>como una manzana que se pone marrón al cortarla</mark>. El hierro se cubre de una capa rojiza. ¿Cómo se llama esta reacción?",
-      "respuesta": "<mark>Oxidación</mark>"
+      "question": "Ocurre cuando un metal toca el aire y la humedad, <mark>como una manzana que se pone marrón al cortarla</mark>. El hierro se cubre de una capa rojiza. ¿Cómo se llama esta reacción?",
+      "answer": "<mark>Oxidación</mark>"
     },
     {
-      "pregunta": "Ocurre al quemar algo, <mark>como encender una cerilla que se convierte en ceniza y humo</mark>. Necesita oxígeno del aire y suelta calor y luz. ¿Cómo se llama esta reacción?",
-      "respuesta": "<mark>Combustión</mark>"
+      "question": "Ocurre al quemar algo, <mark>como encender una cerilla que se convierte en ceniza y humo</mark>. Necesita oxígeno del aire y suelta calor y luz. ¿Cómo se llama esta reacción?",
+      "answer": "<mark>Combustión</mark>"
     },
     {
-      "pregunta": "Aparecen señales claras de cambio, <mark>como humo, burbujas o un color nuevo</mark>. También puede notarse un cambio de temperatura. ¿Qué ha ocurrido cuando aparecen estas pistas?",
-      "respuesta": "<mark>Reacción química</mark>"
+      "question": "Aparecen señales claras de cambio, <mark>como humo, burbujas o un color nuevo</mark>. También puede notarse un cambio de temperatura. ¿Qué ha ocurrido cuando aparecen estas pistas?",
+      "answer": "<mark>Reacción química</mark>"
     },
     {
-      "pregunta": "Viaja por los cables hasta los aparatos, <mark>como el agua que corre por tuberías hasta el grifo</mark>. Hace que se enciendan luces y funcionen máquinas. ¿Cómo se llama esta energía?",
-      "respuesta": "<mark>Energía eléctrica</mark>"
+      "question": "Viaja por los cables hasta los aparatos, <mark>como el agua que corre por tuberías hasta el grifo</mark>. Hace que se enciendan luces y funcionen máquinas. ¿Cómo se llama esta energía?",
+      "answer": "<mark>Energía eléctrica</mark>"
     },
     {
-      "pregunta": "Es un camino cerrado por el que circula la corriente, <mark>como una pista de carreras circular sin salidas</mark>. Si el camino se corta, la corriente deja de pasar. ¿Cómo se llama este camino?",
-      "respuesta": "<mark>Circuito eléctrico</mark>"
+      "question": "Es un camino cerrado por el que circula la corriente, <mark>como una pista de carreras circular sin salidas</mark>. Si el camino se corta, la corriente deja de pasar. ¿Cómo se llama este camino?",
+      "answer": "<mark>Circuito eléctrico</mark>"
     },
     {
-      "pregunta": "Un circuito necesita una pila, cables y un tercer elemento que usa la energía, <mark>como una bombilla</mark>. La pila la da y los cables la transportan. ¿Cómo se llama ese tercer elemento?",
-      "respuesta": "<mark>Receptor</mark>"
+      "question": "Un circuito necesita una pila, cables y un tercer elemento que usa la energía, <mark>como una bombilla</mark>. La pila la da y los cables la transportan. ¿Cómo se llama ese tercer elemento?",
+      "answer": "<mark>Receptor</mark>"
     },
     {
-      "pregunta": "Tiene un único camino para la corriente, <mark>como una fila antigua de luces de Navidad</mark>. Si una bombilla se funde, las demás se apagan. ¿Cómo se llama este tipo de circuito?",
-      "respuesta": "<mark>Circuito en serie</mark>"
+      "question": "Tiene un único camino para la corriente, <mark>como una fila antigua de luces de Navidad</mark>. Si una bombilla se funde, las demás se apagan. ¿Cómo se llama este tipo de circuito?",
+      "answer": "<mark>Circuito en serie</mark>"
     },
     {
-      "pregunta": "Tiene varios caminos distintos para la corriente, <mark>como las luces de un edificio con un interruptor por piso</mark>. Si una bombilla se funde, las demás siguen encendidas. ¿Cómo se llama este tipo de circuito?",
-      "respuesta": "<mark>Circuito en paralelo</mark>"
+      "question": "Tiene varios caminos distintos para la corriente, <mark>como las luces de un edificio con un interruptor por piso</mark>. Si una bombilla se funde, las demás siguen encendidas. ¿Cómo se llama este tipo de circuito?",
+      "answer": "<mark>Circuito en paralelo</mark>"
     },
     {
-      "pregunta": "En un tipo de circuito, un fallo apaga todo. En el otro, cada aparato tiene su propio camino, <mark>como habitaciones con su propio interruptor</mark>. ¿Cuál usan las casas para que una bombilla fundida no deje todo a oscuras?",
-      "respuesta": "<mark>Circuito en paralelo</mark>"
+      "question": "En un tipo de circuito, un fallo apaga todo. En el otro, cada aparato tiene su propio camino, <mark>como habitaciones con su propio interruptor</mark>. ¿Cuál usan las casas para que una bombilla fundida no deje todo a oscuras?",
+      "answer": "<mark>Circuito en paralelo</mark>"
     },
     {
-      "pregunta": "Muchas fuentes de energía son limitadas y contaminan. Gastarla sin cuidado es <mark>como dejar un grifo abierto sin usarlo</mark>. ¿Qué hábito cuida los recursos del planeta?",
-      "respuesta": "<mark>Ahorro de energía</mark>"
+      "question": "Muchas fuentes de energía son limitadas y contaminan. Gastarla sin cuidado es <mark>como dejar un grifo abierto sin usarlo</mark>. ¿Qué hábito cuida los recursos del planeta?",
+      "answer": "<mark>Ahorro de energía</mark>"
     },
     {
-      "pregunta": "Un gesto pequeño ayuda al planeta, <mark>como cerrar una puerta para no perder calor</mark>. Desenchufar cargadores vacíos también cuenta. ¿Qué conviene hacer con las luces y aparatos sin usar?",
-      "respuesta": "<mark>Apagarlos</mark>"
+      "question": "Un gesto pequeño ayuda al planeta, <mark>como cerrar una puerta para no perder calor</mark>. Desenchufar cargadores vacíos también cuenta. ¿Qué conviene hacer con las luces y aparatos sin usar?",
+      "answer": "<mark>Apagarlos</mark>"
     },
     {
-      "pregunta": "Indica cuánta energía gasta un electrodoméstico, <mark>como un semáforo: verde gasta poco, rojo gasta mucho</mark>. Ayuda a elegir aparatos que ahorran energía. ¿Cómo se llama esta etiqueta?",
-      "respuesta": "<mark>Etiqueta energética</mark>"
+      "question": "Indica cuánta energía gasta un electrodoméstico, <mark>como un semáforo: verde gasta poco, rojo gasta mucho</mark>. Ayuda a elegir aparatos que ahorran energía. ¿Cómo se llama esta etiqueta?",
+      "answer": "<mark>Etiqueta energética</mark>"
     },
     {
-      "pregunta": "El sol y el viento dan energía que nunca se agota, <mark>como un grifo que nunca se cierra</mark>. Ahorrarla ayuda a que llegue a más gente. ¿Cómo se llaman estas fuentes que no se agotan?",
-      "respuesta": "<mark>Energías renovables</mark>"
+      "question": "El sol y el viento dan energía que nunca se agota, <mark>como un grifo que nunca se cierra</mark>. Ahorrarla ayuda a que llegue a más gente. ¿Cómo se llaman estas fuentes que no se agotan?",
+      "answer": "<mark>Energías renovables</mark>"
     }
   ]
 }

@@ -64,7 +64,7 @@
   function renderCard() {
     var card = cards[index];
     flipped = false;
-    cardEl.innerHTML = '<div class="cara">' + card.pregunta + '</div>';
+    cardEl.innerHTML = '<div class="face">' + card.question + '</div>';
     progressEl.textContent = '';
     btnPrev.disabled = index === 0;
     btnNext.disabled = index === cards.length - 1;
@@ -74,7 +74,7 @@
     var card = cards[index];
     flipped = !flipped;
     if (flipped) {
-      cardEl.innerHTML = '<div class="cara">' + card.pregunta + '</div><hr><div class="respuesta">' + card.respuesta + '</div>';
+      cardEl.innerHTML = '<div class="face">' + card.question + '</div><hr><div class="answer">' + card.answer + '</div>';
     } else {
       renderCard();
     }
@@ -90,7 +90,7 @@
   btnNext.addEventListener('click', function () { if (index < cards.length - 1) { index++; renderCard(); } });
   btnListen.addEventListener('click', function () {
     var card = cards[index];
-    if (false && App.tts && App.tts.speak) App.tts.speak(flipped ? (card.pregunta + '. ' + card.respuesta) : card.pregunta);
+    if (false && App.tts && App.tts.speak) App.tts.speak(flipped ? (card.question + '. ' + card.answer) : card.question);
   });
 
   async function handleFile(file) {
@@ -98,7 +98,7 @@
     importStatus.classList.add('hidden');
     try {
       var deck = await App.decks.readFile(file);
-      cards = deck.tarjetas;
+      cards = deck.cards;
       if (!cards.length) throw new Error('deckVacio');
       index = 0;
       importViewer.classList.remove('hidden');
@@ -139,7 +139,7 @@
       resetStatus.classList.add('encourage');
       return;
     }
-    App.storage.remove('progreso');
+    App.storage.remove('progress');
     resetStatus.textContent = App.i18n.t('settings.resetDone');
     resetStatus.classList.remove('encourage');
     resetStatus.classList.add('success');

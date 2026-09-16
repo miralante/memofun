@@ -1,63 +1,63 @@
 {
-  "tema": "El español en el mundo y la diversidad lingüística - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El español en el mundo y la diversidad lingüística - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "El español se habla en muchísimos países del mundo. <mark>Es como una red que conecta continentes distintos</mark>. Lo hablan más de 500 millones de personas. ¿Cómo se llama a una lengua hablada en tantos países?",
-      "respuesta": "<mark>Una lengua global</mark>"
+      "question": "El español se habla en muchísimos países del mundo. <mark>Es como una red que conecta continentes distintos</mark>. Lo hablan más de 500 millones de personas. ¿Cómo se llama a una lengua hablada en tantos países?",
+      "answer": "<mark>Una lengua global</mark>"
     },
     {
-      "pregunta": "Casi toda Hispanoamérica y España tienen el español como lengua oficial. <mark>Hay incluso un país africano donde el español es oficial</mark>. ¿Cómo se llama ese país africano?",
-      "respuesta": "<mark>Guinea Ecuatorial</mark>"
+      "question": "Casi toda Hispanoamérica y España tienen el español como lengua oficial. <mark>Hay incluso un país africano donde el español es oficial</mark>. ¿Cómo se llama ese país africano?",
+      "answer": "<mark>Guinea Ecuatorial</mark>"
     },
     {
-      "pregunta": "El español suena distinto en México, Argentina o España. <mark>Es como la misma canción tocada con instrumentos diferentes</mark>. Un argentino dice vos donde un español dice tú. ¿Cómo se llama esa forma distinta de usar los pronombres en Argentina?",
-      "respuesta": "<mark>Voseo</mark>"
+      "question": "El español suena distinto en México, Argentina o España. <mark>Es como la misma canción tocada con instrumentos diferentes</mark>. Un argentino dice vos donde un español dice tú. ¿Cómo se llama esa forma distinta de usar los pronombres en Argentina?",
+      "answer": "<mark>Voseo</mark>"
     },
     {
-      "pregunta": "El español de Canarias no suena como el de Chile. <mark>Es como distintos sabores del mismo helado</mark>. Ninguna forma de hablar es mejor que otra, solo distinta. ¿Cómo se llama esta forma distinta de hablar la misma lengua?",
-      "respuesta": "<mark>Variedad dialectal</mark>"
+      "question": "El español de Canarias no suena como el de Chile. <mark>Es como distintos sabores del mismo helado</mark>. Ninguna forma de hablar es mejor que otra, solo distinta. ¿Cómo se llama esta forma distinta de hablar la misma lengua?",
+      "answer": "<mark>Variedad dialectal</mark>"
     },
     {
-      "pregunta": "Un equipo de expertos revisa y actualiza las normas del español, y decide qué palabras nuevas entran en el diccionario. <mark>Por ejemplo, la palabra selfi ya forma parte de él</mark>. ¿Cómo se llama esta institución?",
-      "respuesta": "<mark>La Real Academia Española</mark>"
+      "question": "Un equipo de expertos revisa y actualiza las normas del español, y decide qué palabras nuevas entran en el diccionario. <mark>Por ejemplo, la palabra selfi ya forma parte de él</mark>. ¿Cómo se llama esta institución?",
+      "answer": "<mark>La Real Academia Española</mark>"
     },
     {
-      "pregunta": "Palabras como chocolate y tomate no siempre fueron españolas. El español las incorporó al llegar a América, <mark>como una maleta que se llena de recuerdos de viaje</mark>. También la palabra canoa viene de una lengua indígena del Caribe. ¿De qué lengua indígena viene la palabra chocolate?",
-      "respuesta": "<mark>Del náhuatl</mark>"
+      "question": "Palabras como chocolate y tomate no siempre fueron españolas. El español las incorporó al llegar a América, <mark>como una maleta que se llena de recuerdos de viaje</mark>. También la palabra canoa viene de una lengua indígena del Caribe. ¿De qué lengua indígena viene la palabra chocolate?",
+      "answer": "<mark>Del náhuatl</mark>"
     },
     {
-      "pregunta": "Hablar una lengua compartida facilita el trabajo, los viajes y el contacto entre culturas. <mark>Es como una llave que abre muchas puertas distintas</mark>. Millones de personas en el mundo estudian español como segundo idioma. ¿Qué ventaja tiene compartir un idioma con tanta gente?",
-      "respuesta": "<mark>Entenderse mejor con más gente</mark>"
+      "question": "Hablar una lengua compartida facilita el trabajo, los viajes y el contacto entre culturas. <mark>Es como una llave que abre muchas puertas distintas</mark>. Millones de personas en el mundo estudian español como segundo idioma. ¿Qué ventaja tiene compartir un idioma con tanta gente?",
+      "answer": "<mark>Entenderse mejor con más gente</mark>"
     },
     {
-      "pregunta": "Algunas personas creen que un acento suena menos culto que otro. <mark>Es como juzgar un libro solo por su portada</mark>. ¿Cómo se llama esta idea equivocada sobre cómo habla la gente?",
-      "respuesta": "<mark>Prejuicio lingüístico</mark>"
+      "question": "Algunas personas creen que un acento suena menos culto que otro. <mark>Es como juzgar un libro solo por su portada</mark>. ¿Cómo se llama esta idea equivocada sobre cómo habla la gente?",
+      "answer": "<mark>Prejuicio lingüístico</mark>"
     },
     {
-      "pregunta": "Un acento andaluz no es un error, es propio de su zona. Lo mismo pasa con el acento mexicano o el chileno. <mark>Son como dos caminos distintos que llevan al mismo lugar</mark>. ¿Qué siguen todos los acentos del español, sin excepción?",
-      "respuesta": "<mark>Las reglas de la lengua</mark>"
+      "question": "Un acento andaluz no es un error, es propio de su zona. Lo mismo pasa con el acento mexicano o el chileno. <mark>Son como dos caminos distintos que llevan al mismo lugar</mark>. ¿Qué siguen todos los acentos del español, sin excepción?",
+      "answer": "<mark>Las reglas de la lengua</mark>"
     },
     {
-      "pregunta": "<mark>En Canarias y en gran parte de América, la s y la z suenan igual</mark>. No es ningún fallo, es solo una forma distinta de sonar. De hecho, la mayoría de hispanohablantes del mundo habla así. ¿Cómo se llama este rasgo del español?",
-      "respuesta": "<mark>El seseo</mark>"
+      "question": "<mark>En Canarias y en gran parte de América, la s y la z suenan igual</mark>. No es ningún fallo, es solo una forma distinta de sonar. De hecho, la mayoría de hispanohablantes del mundo habla así. ¿Cómo se llama este rasgo del español?",
+      "answer": "<mark>El seseo</mark>"
     },
     {
-      "pregunta": "Cada acento es una forma igual de válida de pronunciar el español. <mark>Juzgar a alguien por su acento es como juzgarlo por su ropa</mark>. Lo importante es que el mensaje se entienda bien. ¿Dónde está la verdadera riqueza del español?",
-      "respuesta": "<mark>En su variedad de sonidos</mark>"
+      "question": "Cada acento es una forma igual de válida de pronunciar el español. <mark>Juzgar a alguien por su acento es como juzgarlo por su ropa</mark>. Lo importante es que el mensaje se entienda bien. ¿Dónde está la verdadera riqueza del español?",
+      "answer": "<mark>En su variedad de sonidos</mark>"
     },
     {
-      "pregunta": "Hablar mal rompe las reglas del idioma sin ningún motivo. <mark>Hablar distinto, en cambio, sigue las reglas propias de otra zona</mark>. ¿Cómo se llama esta forma distinta de hablar, que sigue sus propias reglas?",
-      "respuesta": "<mark>Variedad dialectal</mark>"
+      "question": "Hablar mal rompe las reglas del idioma sin ningún motivo. <mark>Hablar distinto, en cambio, sigue las reglas propias de otra zona</mark>. ¿Cómo se llama esta forma distinta de hablar, que sigue sus propias reglas?",
+      "answer": "<mark>Variedad dialectal</mark>"
     },
     {
-      "pregunta": "<mark>No te vistes igual para dormir que para ir a una boda</mark>. Elegimos las palabras según la situación, igual que la ropa. Con amigos hablamos relajado, con frases cortas. ¿Cómo se llama la forma de hablar con más cuidado, por ejemplo en un examen?",
-      "respuesta": "<mark>Registro formal</mark>"
+      "question": "<mark>No te vistes igual para dormir que para ir a una boda</mark>. Elegimos las palabras según la situación, igual que la ropa. Con amigos hablamos relajado, con frases cortas. ¿Cómo se llama la forma de hablar con más cuidado, por ejemplo en un examen?",
+      "answer": "<mark>Registro formal</mark>"
     },
     {
-      "pregunta": "Cada forma de hablar cuenta algo de dónde viene alguien. <mark>Burlarse de un acento hace sentir mal sin ningún motivo</mark>. La forma de hablar es parte de la identidad de cada uno. ¿Qué respetamos en realidad cuando respetamos la diversidad lingüística?",
-      "respuesta": "<mark>A las personas</mark>"
+      "question": "Cada forma de hablar cuenta algo de dónde viene alguien. <mark>Burlarse de un acento hace sentir mal sin ningún motivo</mark>. La forma de hablar es parte de la identidad de cada uno. ¿Qué respetamos en realidad cuando respetamos la diversidad lingüística?",
+      "answer": "<mark>A las personas</mark>"
     }
   ]
 }

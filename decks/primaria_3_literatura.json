@@ -1,101 +1,101 @@
 {
-  "tema": "Literatura - 3º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 3º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Fíjate en qué le pasa al protagonista de un cuento, <mark>como un detective que busca pistas</mark>. Pregúntate también qué sentirías tú en su lugar. ¿Qué estás buscando cuando haces esto?",
-      "respuesta": "<mark>El porqué</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/nino-pensando-leyendo.jpg",
+      "question": "Fíjate en qué le pasa al protagonista de un cuento, <mark>como un detective que busca pistas</mark>. Pregúntate también qué sentirías tú en su lugar. ¿Qué estás buscando cuando haces esto?",
+      "answer": "<mark>El porqué</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/nino-pensando-leyendo.jpg",
+        "title": "And Time Moves On....",
+        "source": "https://www.flickr.com/photos/20581458@N00/5827220004",
         "alt": "Una niña sujeta un libro y se toca la frente, pensando mucho en lo que lee",
-        "titulo": "And Time Moves On....",
         "autor": "GollyGforce - Living My Worst Nightmare",
-        "fuente": "https://www.flickr.com/photos/20581458@N00/5827220004",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esta parte de un cuento cambia lo que le pasa al protagonista. Si la quitas, la historia deja de tener sentido. <mark>El color de una puerta, en cambio, casi nunca cambia nada</mark>. ¿Cómo se llama esta parte que sí importa?",
-      "respuesta": "<mark>Lo importante</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/puerta-de-colores.jpg",
+      "question": "Esta parte de un cuento cambia lo que le pasa al protagonista. Si la quitas, la historia deja de tener sentido. <mark>El color de una puerta, en cambio, casi nunca cambia nada</mark>. ¿Cómo se llama esta parte que sí importa?",
+      "answer": "<mark>Lo importante</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/puerta-de-colores.jpg",
+        "title": "Colorful wooden door with screened window",
+        "source": "https://www.flickr.com/photos/86537625@N00/4103471191",
         "alt": "Una puerta de madera pintada de azul, con adornos rojos y amarillos",
-        "titulo": "Colorful wooden door with screened window",
         "autor": "Aaron Gustafson",
-        "fuente": "https://www.flickr.com/photos/86537625@N00/4103471191",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es cada línea de un poema, <mark>como un renglón que el poeta corta donde quiere</mark>. Varios juntos forman el poema completo. ¿Cómo se llama cada línea de un poema?",
-      "respuesta": "<mark>Verso</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/libro-de-poemas-antiguo.jpg",
+      "question": "Es cada línea de un poema, <mark>como un renglón que el poeta corta donde quiere</mark>. Varios juntos forman el poema completo. ¿Cómo se llama cada línea de un poema?",
+      "answer": "<mark>Verso</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/libro-de-poemas-antiguo.jpg",
+        "title": "Book 10",
+        "source": "https://www.flickr.com/photos/37753256@N08/5813347420",
         "alt": "Un libro antiguo abierto, con versos cortos escritos en sus páginas",
-        "titulo": "Book 10",
         "autor": "~Brenda-Starr~",
-        "fuente": "https://www.flickr.com/photos/37753256@N08/5813347420",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es cuando los finales de los versos suenan parecido, <mark>como en \"flor\" y \"color\"</mark>. Ese sonido repetido hace el poema más musical. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Rima</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/flor-rosa.jpg",
+      "question": "Es cuando los finales de los versos suenan parecido, <mark>como en \"flor\" y \"color\"</mark>. Ese sonido repetido hace el poema más musical. ¿Cómo se llama esto?",
+      "answer": "<mark>Rima</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/flor-rosa.jpg",
+        "title": "Flower",
+        "source": "https://www.flickr.com/photos/65765645@N00/9373266123",
         "alt": "Una flor rosa con gotas de agua sobre sus pétalos",
-        "titulo": "Flower",
         "autor": "CoreBurn",
-        "fuente": "https://www.flickr.com/photos/65765645@N00/9373266123",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esto ayuda a adivinar qué palabra viene después en un poema, <mark>como una pista para la memoria</mark>. Por eso muchas canciones también la usan. ¿Qué es lo que hace esto en un poema?",
-      "respuesta": "<mark>La rima</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/coro-de-ninos-cantando.jpg",
+      "question": "Esto ayuda a adivinar qué palabra viene después en un poema, <mark>como una pista para la memoria</mark>. Por eso muchas canciones también la usan. ¿Qué es lo que hace esto en un poema?",
+      "answer": "<mark>La rima</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/coro-de-ninos-cantando.jpg",
+        "title": "ELC Church Children's choir_1677",
+        "source": "https://www.flickr.com/photos/62126383@N00/507873162",
         "alt": "Un grupo de niños canta junto, todos mirando hacia el mismo lado",
-        "titulo": "ELC Church Children's choir_1677",
         "autor": "hoyasmeg",
-        "fuente": "https://www.flickr.com/photos/62126383@N00/507873162",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el compás que marca cómo suena un poema, <mark>igual que el compás de una canción</mark>. Depende de dónde caen las sílabas fuertes. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Ritmo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/tambor-baquetas.jpg",
+      "question": "Es el compás que marca cómo suena un poema, <mark>igual que el compás de una canción</mark>. Depende de dónde caen las sílabas fuertes. ¿Cómo se llama esto?",
+      "answer": "<mark>Ritmo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/tambor-baquetas.jpg",
+        "title": "snare drum",
+        "source": "https://www.flickr.com/photos/27429206@N02/4124370796",
         "alt": "Un tambor con dos baquetas de madera encima, listas para marcar un compás",
-        "titulo": "snare drum",
         "autor": "Vladimir Morozov",
-        "fuente": "https://www.flickr.com/photos/27429206@N02/4124370796",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esto hace que las palabras de un poema fluyan solas. Leerlo en voz alta se vuelve <mark>casi como cantar</mark>. Muchos poemas nacieron para cantarse, no para leerse. ¿Qué es lo que logra este efecto?",
-      "respuesta": "<mark>El ritmo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/nina-leyendo-a-su-hermana.jpg",
+      "question": "Esto hace que las palabras de un poema fluyan solas. Leerlo en voz alta se vuelve <mark>casi como cantar</mark>. Muchos poemas nacieron para cantarse, no para leerse. ¿Qué es lo que logra este efecto?",
+      "answer": "<mark>El ritmo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/nina-leyendo-a-su-hermana.jpg",
+        "title": "Norah is reading bedtime stories to her little sister!",
+        "source": "https://www.flickr.com/photos/13880897@N06/8012654626",
         "alt": "Una niña mayor lee en voz alta un libro a su hermana pequeña, abrazadas",
-        "titulo": "Norah is reading bedtime stories to her little sister!",
         "autor": "dougbutchy",
-        "fuente": "https://www.flickr.com/photos/13880897@N06/8012654626",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La rima es el sonido repetido al final de los versos. Esto, en cambio, es <mark>como llevar el compás de una canción al leerlos</mark>. Un poema puede tener esto sin rimar. ¿Cómo se llama este segundo elemento?",
-      "respuesta": "<mark>El ritmo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_3_literatura/leer-con-amor.jpg",
+      "question": "La rima es el sonido repetido al final de los versos. Esto, en cambio, es <mark>como llevar el compás de una canción al leerlos</mark>. Un poema puede tener esto sin rimar. ¿Cómo se llama este segundo elemento?",
+      "answer": "<mark>El ritmo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_3_literatura/leer-con-amor.jpg",
+        "title": "love read",
+        "source": "https://www.flickr.com/photos/20635160@N05/2072134438",
         "alt": "Una persona disfrutando de la lectura de un poema",
-        "titulo": "love read",
         "autor": "luis de bethencourt",
-        "fuente": "https://www.flickr.com/photos/20635160@N05/2072134438",
         "licencia": "CC BY 2.0"
       }
     }

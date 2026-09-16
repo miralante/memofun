@@ -1,75 +1,75 @@
 {
-  "tema": "La ciencia y los animales - 1º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La ciencia y los animales - 1º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es lo primero que hace un científico. <mark>Se fija en colores, tamaños y movimientos, como un detective</mark>. ¿Cómo se llama este primer paso?",
-      "respuesta": "<mark>Observar</mark>"
+      "question": "Es lo primero que hace un científico. <mark>Se fija en colores, tamaños y movimientos, como un detective</mark>. ¿Cómo se llama este primer paso?",
+      "answer": "<mark>Observar</mark>"
     },
     {
-      "pregunta": "Es lo que hace un científico después de observar. <mark>Por ejemplo, quieres saber por qué una planta crece hacia la luz</mark>. Ese paso abre la puerta a las respuestas. ¿Cómo se llama este segundo paso?",
-      "respuesta": "<mark>Preguntar</mark>"
+      "question": "Es lo que hace un científico después de observar. <mark>Por ejemplo, quieres saber por qué una planta crece hacia la luz</mark>. Ese paso abre la puerta a las respuestas. ¿Cómo se llama este segundo paso?",
+      "answer": "<mark>Preguntar</mark>"
     },
     {
-      "pregunta": "Es una prueba sencilla para responder una pregunta científica, <mark>como un juego con reglas</mark>. Por ejemplo, poner una planta cerca y lejos de la ventana. ¿Cómo se llama esta prueba?",
-      "respuesta": "<mark>Experimento</mark>"
+      "question": "Es una prueba sencilla para responder una pregunta científica, <mark>como un juego con reglas</mark>. Por ejemplo, poner una planta cerca y lejos de la ventana. ¿Cómo se llama esta prueba?",
+      "answer": "<mark>Experimento</mark>"
     },
     {
-      "pregunta": "Es lo que se hace cuando termina un experimento. <mark>Mirar el resultado y contarlo es como abrir un regalo</mark>. Si la planta de la ventana creció más, ya tienes una respuesta. ¿Cómo se llama este último paso?",
-      "respuesta": "<mark>Comprobar</mark>"
+      "question": "Es lo que se hace cuando termina un experimento. <mark>Mirar el resultado y contarlo es como abrir un regalo</mark>. Si la planta de la ventana creció más, ya tienes una respuesta. ¿Cómo se llama este último paso?",
+      "answer": "<mark>Comprobar</mark>"
     },
     {
-      "pregunta": "Primero se observa, luego se pregunta, después se prueba y por último se comprueba, <mark>como seguir una receta</mark>. Cada paso ayuda al siguiente. ¿Cómo se llaman estos cuatro pasos juntos?",
-      "respuesta": "<mark>Método científico</mark>"
+      "question": "Primero se observa, luego se pregunta, después se prueba y por último se comprueba, <mark>como seguir una receta</mark>. Cada paso ayuda al siguiente. ¿Cómo se llaman estos cuatro pasos juntos?",
+      "answer": "<mark>Método científico</mark>"
     },
     {
-      "pregunta": "Nace, crece, se alimenta y muere: <mark>algo que una piedra nunca hace</mark>. Un perro y una flor son de este tipo; una silla y una nube no. ¿Cómo se llama algo que hace todo esto?",
-      "respuesta": "<mark>Ser vivo</mark>"
+      "question": "Nace, crece, se alimenta y muere: <mark>algo que una piedra nunca hace</mark>. Un perro y una flor son de este tipo; una silla y una nube no. ¿Cómo se llama algo que hace todo esto?",
+      "answer": "<mark>Ser vivo</mark>"
     },
     {
-      "pregunta": "Crece poco a poco cada año y necesita agua y luz, <mark>como tú necesitas comida</mark>. Una montaña, en cambio, no crece ni se alimenta. ¿Cuál de los dos es un ser vivo, el árbol o la montaña?",
-      "respuesta": "<mark>El árbol</mark>"
+      "question": "Crece poco a poco cada año y necesita agua y luz, <mark>como tú necesitas comida</mark>. Una montaña, en cambio, no crece ni se alimenta. ¿Cuál de los dos es un ser vivo, el árbol o la montaña?",
+      "answer": "<mark>El árbol</mark>"
     },
     {
-      "pregunta": "Todos los seres vivos necesitan comer o fabricar su alimento, y también respirar. <mark>Es como poner gasolina para que un coche funcione</mark>. También necesitan agua y un lugar donde vivir. ¿Cómo se llama todo esto que necesitan para vivir?",
-      "respuesta": "<mark>Necesidades vitales</mark>"
+      "question": "Todos los seres vivos necesitan comer o fabricar su alimento, y también respirar. <mark>Es como poner gasolina para que un coche funcione</mark>. También necesitan agua y un lugar donde vivir. ¿Cómo se llama todo esto que necesitan para vivir?",
+      "answer": "<mark>Necesidades vitales</mark>"
     },
     {
-      "pregunta": "<mark>Un robot de juguete no come ni crece: solo se mueve con esto</mark>. Los seres vivos, en cambio, se mueven solos, sin necesitarlo. ¿Qué necesita un juguete para moverse?",
-      "respuesta": "<mark>Pilas</mark>"
+      "question": "<mark>Un robot de juguete no come ni crece: solo se mueve con esto</mark>. Los seres vivos, en cambio, se mueven solos, sin necesitarlo. ¿Qué necesita un juguete para moverse?",
+      "answer": "<mark>Pilas</mark>"
     },
     {
-      "pregunta": "Vuelan gracias a sus alas, <mark>que funcionan como los remos de una barca pero en el aire</mark>. Las baten para subir y planean para descansar. ¿Cómo se mueven los pájaros?",
-      "respuesta": "<mark>Volando</mark>"
+      "question": "Vuelan gracias a sus alas, <mark>que funcionan como los remos de una barca pero en el aire</mark>. Las baten para subir y planean para descansar. ¿Cómo se mueven los pájaros?",
+      "answer": "<mark>Volando</mark>"
     },
     {
-      "pregunta": "Nadan moviendo su cuerpo y su cola, <mark>que actúa como el motor de una barca pequeña</mark>. Las aletas les ayudan a girar en el agua. ¿Cómo se mueven los peces?",
-      "respuesta": "<mark>Nadando</mark>"
+      "question": "Nadan moviendo su cuerpo y su cola, <mark>que actúa como el motor de una barca pequeña</mark>. Las aletas les ayudan a girar en el agua. ¿Cómo se mueven los peces?",
+      "answer": "<mark>Nadando</mark>"
     },
     {
-      "pregunta": "Se mueven pegadas al suelo, sin tener ni una sola pata. <mark>Su cuerpo se ondula como una cuerda que se agita</mark>. Usan sus músculos para empujar hacia delante. ¿Cómo se llama esta forma de moverse?",
-      "respuesta": "<mark>Reptar</mark>"
+      "question": "Se mueven pegadas al suelo, sin tener ni una sola pata. <mark>Su cuerpo se ondula como una cuerda que se agita</mark>. Usan sus músculos para empujar hacia delante. ¿Cómo se llama esta forma de moverse?",
+      "answer": "<mark>Reptar</mark>"
     },
     {
-      "pregunta": "Un canguro salta, mientras que <mark>un caracol repta despacio y un caballo galopa</mark>. La forma del cuerpo de cada animal decide cómo se mueve. ¿Cómo se mueve un canguro?",
-      "respuesta": "<mark>Saltando</mark>"
+      "question": "Un canguro salta, mientras que <mark>un caracol repta despacio y un caballo galopa</mark>. La forma del cuerpo de cada animal decide cómo se mueve. ¿Cómo se mueve un canguro?",
+      "answer": "<mark>Saltando</mark>"
     },
     {
-      "pregunta": "Come solo plantas, hierba, hojas o frutas, nunca carne. <mark>La vaca y el conejo son buenos ejemplos</mark>. Pasan mucho tiempo masticando plantas. ¿Cómo se llama este tipo de animal?",
-      "respuesta": "<mark>Herbívoro</mark>"
+      "question": "Come solo plantas, hierba, hojas o frutas, nunca carne. <mark>La vaca y el conejo son buenos ejemplos</mark>. Pasan mucho tiempo masticando plantas. ¿Cómo se llama este tipo de animal?",
+      "answer": "<mark>Herbívoro</mark>"
     },
     {
-      "pregunta": "Come sobre todo carne de otros animales, <mark>como el león que caza para comer</mark>. Tiene dientes afilados para cortar la carne. ¿Cómo se llama este tipo de animal?",
-      "respuesta": "<mark>Carnívoro</mark>"
+      "question": "Come sobre todo carne de otros animales, <mark>como el león que caza para comer</mark>. Tiene dientes afilados para cortar la carne. ¿Cómo se llama este tipo de animal?",
+      "answer": "<mark>Carnívoro</mark>"
     },
     {
-      "pregunta": "<mark>El oso y el cerdo comen tanto plantas como carne, un poco de todo</mark>. Las personas también comemos de todo, así que también lo somos. ¿Cómo se llama este tipo de animal?",
-      "respuesta": "<mark>Omnívoro</mark>"
+      "question": "<mark>El oso y el cerdo comen tanto plantas como carne, un poco de todo</mark>. Las personas también comemos de todo, así que también lo somos. ¿Cómo se llama este tipo de animal?",
+      "answer": "<mark>Omnívoro</mark>"
     },
     {
-      "pregunta": "Cada animal está preparado para un tipo de comida, con una parte del cuerpo hecha para eso. <mark>Un león la tiene afilada para cortar carne; una vaca la tiene plana para masticar hierba</mark>. ¿Qué parte del cuerpo cambia según lo que come cada animal?",
-      "respuesta": "<mark>Los dientes</mark>"
+      "question": "Cada animal está preparado para un tipo de comida, con una parte del cuerpo hecha para eso. <mark>Un león la tiene afilada para cortar carne; una vaca la tiene plana para masticar hierba</mark>. ¿Qué parte del cuerpo cambia según lo que come cada animal?",
+      "answer": "<mark>Los dientes</mark>"
     }
   ]
 }

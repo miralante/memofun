@@ -1,149 +1,149 @@
 {
-  "tema": "El reino animal y el reino de las plantas - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El reino animal y el reino de las plantas - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es la clasificación que agrupa a todos los seres vivos en cinco grandes grupos. <mark>Es como ordenarlos en cinco grandes cajones</mark>. ¿Cómo se llama esta clasificación?",
-      "respuesta": "<mark>Los cinco reinos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/corchos-clasificados.jpg",
+      "question": "Es la clasificación que agrupa a todos los seres vivos en cinco grandes grupos. <mark>Es como ordenarlos en cinco grandes cajones</mark>. ¿Cómo se llama esta clasificación?",
+      "answer": "<mark>Los cinco reinos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/corchos-clasificados.jpg",
+        "title": "corks organized by color",
+        "source": "https://www.flickr.com/photos/24497803@N05/6004942336",
         "alt": "Corchos organizados por color en grupos",
-        "titulo": "corks organized by color",
         "autor": "ryanovineyards",
-        "fuente": "https://www.flickr.com/photos/24497803@N05/6004942336",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Está formado por organismos unicelulares muy sencillos y sin núcleo. <mark>Millones de ellas caben en la punta de un alfiler</mark>. ¿Qué reino de seres vivos es este?",
-      "respuesta": "<mark>Reino de las bacterias</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/bacterias-colonia.jpg",
+      "question": "Está formado por organismos unicelulares muy sencillos y sin núcleo. <mark>Millones de ellas caben en la punta de un alfiler</mark>. ¿Qué reino de seres vivos es este?",
+      "answer": "<mark>Reino de las bacterias</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/bacterias-colonia.jpg",
+        "title": "Antibiotic Producing Actinomycetes",
+        "source": "https://www.flickr.com/photos/48784416@N06/6268871099",
         "alt": "Una colonia de bacterias vista de cerca",
-        "titulo": "Antibiotic Producing Actinomycetes",
         "autor": "adonofrio (Biology101.org)",
-        "fuente": "https://www.flickr.com/photos/48784416@N06/6268871099",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Incluye <mark>setas, mohos y levaduras</mark>, que no fabrican su propio alimento. Absorben nutrientes de otros seres vivos o de materia en descomposición. ¿Qué reino de seres vivos es este?",
-      "respuesta": "<mark>Reino de los hongos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/seta-hongo.jpg",
+      "question": "Incluye <mark>setas, mohos y levaduras</mark>, que no fabrican su propio alimento. Absorben nutrientes de otros seres vivos o de materia en descomposición. ¿Qué reino de seres vivos es este?",
+      "answer": "<mark>Reino de los hongos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/seta-hongo.jpg",
+        "title": "Seta",
+        "source": "https://www.flickr.com/photos/70626035@N00/15707839786",
         "alt": "Una seta creciendo en el bosque",
-        "titulo": "Seta",
         "autor": "jacilluch",
-        "fuente": "https://www.flickr.com/photos/70626035@N00/15707839786",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es la capacidad de fabricar el propio alimento a partir de sustancias simples. <mark>Es como cocinar tu comida con solo luz, agua y aire</mark>. ¿Cómo se llama este tipo de nutrición?",
-      "respuesta": "<mark>Nutrición autótrofa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/hojas-castano.jpg",
+      "question": "Es la capacidad de fabricar el propio alimento a partir de sustancias simples. <mark>Es como cocinar tu comida con solo luz, agua y aire</mark>. ¿Cómo se llama este tipo de nutrición?",
+      "answer": "<mark>Nutrición autótrofa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/hojas-castano.jpg",
+        "title": "CHESTNUT LEAVES",
+        "source": "https://www.flickr.com/photos/60417477@N00/6438934295",
         "alt": "Hojas verdes iluminadas por la luz del sol",
-        "titulo": "CHESTNUT LEAVES",
         "autor": "whologwhy",
-        "fuente": "https://www.flickr.com/photos/60417477@N00/6438934295",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la necesidad de alimentarse de otros seres vivos para obtener energía. <mark>Es como comprar la comida hecha, en vez de cultivarla</mark>. ¿Cómo se llama este tipo de nutrición?",
-      "respuesta": "<mark>Nutrición heterótrofa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/plato-comida.jpg",
+      "question": "Es la necesidad de alimentarse de otros seres vivos para obtener energía. <mark>Es como comprar la comida hecha, en vez de cultivarla</mark>. ¿Cómo se llama este tipo de nutrición?",
+      "answer": "<mark>Nutrición heterótrofa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/plato-comida.jpg",
+        "title": "Sweet & Sour Fish Fillet for Dinner!",
+        "source": "https://www.flickr.com/photos/26978304@N08/16533087881",
         "alt": "Un plato de comida preparado",
-        "titulo": "Sweet & Sour Fish Fillet for Dinner!",
         "autor": "thienzieyung",
-        "fuente": "https://www.flickr.com/photos/26978304@N08/16533087881",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Las plantas producen oxígeno y alimento a partir de la luz solar. <mark>Son la base de una pirámide que sostiene la vida</mark> del ecosistema. ¿Qué papel cumplen en la cadena alimentaria?",
-      "respuesta": "<mark>Productores</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/arbol-haya.jpg",
+      "question": "Las plantas producen oxígeno y alimento a partir de la luz solar. <mark>Son la base de una pirámide que sostiene la vida</mark> del ecosistema. ¿Qué papel cumplen en la cadena alimentaria?",
+      "answer": "<mark>Productores</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/arbol-haya.jpg",
+        "title": "Haya padre, Faig pare",
+        "source": "https://www.flickr.com/photos/29059230@N00/5687669201",
         "alt": "Un gran árbol haya, base de un ecosistema forestal",
-        "titulo": "Haya padre, Faig pare",
         "autor": "Vvillamon",
-        "fuente": "https://www.flickr.com/photos/29059230@N00/5687669201",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Un grupo de animales tiene columna vertebral, un armazón que sostiene el cuerpo. El otro no la tiene, <mark>como los insectos o las medusas</mark>. ¿Cómo se llama cada grupo?",
-      "respuesta": "<mark>Vertebrados e invertebrados</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/arana-saltarina.jpg",
+      "question": "Un grupo de animales tiene columna vertebral, un armazón que sostiene el cuerpo. El otro no la tiene, <mark>como los insectos o las medusas</mark>. ¿Cómo se llama cada grupo?",
+      "answer": "<mark>Vertebrados e invertebrados</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/arana-saltarina.jpg",
+        "title": "Jumping Spider",
+        "source": "https://www.flickr.com/photos/25027666@N02/8097001481",
         "alt": "Una araña, ejemplo de animal invertebrado",
-        "titulo": "Jumping Spider",
         "autor": "James Niland",
-        "fuente": "https://www.flickr.com/photos/25027666@N02/8097001481",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Todos tienen columna vertebral, pero se dividen en varios grupos. <mark>Unos respiran con branquias, otros con pulmones</mark>. ¿Cuáles son estos cinco grupos de vertebrados?",
-      "respuesta": "<mark>Peces, anfibios, reptiles, aves y mamíferos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/pirana-pez.jpg",
+      "question": "Todos tienen columna vertebral, pero se dividen en varios grupos. <mark>Unos respiran con branquias, otros con pulmones</mark>. ¿Cuáles son estos cinco grupos de vertebrados?",
+      "answer": "<mark>Peces, anfibios, reptiles, aves y mamíferos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/pirana-pez.jpg",
+        "title": "Palometa - Una piraña pintada de purpurina",
+        "source": "https://www.flickr.com/photos/70626035@N00/23376776309",
         "alt": "Un pez con escamas de colores, un animal vertebrado",
-        "titulo": "Palometa - Una piraña pintada de purpurina",
         "autor": "jacilluch",
-        "fuente": "https://www.flickr.com/photos/70626035@N00/23376776309",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Los animales tienen sistema nervioso y perciben lo que ocurre a su alrededor. <mark>Un perro que se asusta con un ruido siente algo</mark>, igual que una persona. ¿Qué sistema del cuerpo les permite sentir así?",
-      "respuesta": "<mark>Sistema nervioso</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/perro-asustado.jpg",
+      "question": "Los animales tienen sistema nervioso y perciben lo que ocurre a su alrededor. <mark>Un perro que se asusta con un ruido siente algo</mark>, igual que una persona. ¿Qué sistema del cuerpo les permite sentir así?",
+      "answer": "<mark>Sistema nervioso</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/perro-asustado.jpg",
+        "title": "This scared dog refused to come in from out of the rain",
+        "source": "https://www.flickr.com/photos/49679737@N00/4128241314",
         "alt": "Un perro asustado",
-        "titulo": "This scared dog refused to come in from out of the rain",
         "autor": "AmazonCARES",
-        "fuente": "https://www.flickr.com/photos/49679737@N00/4128241314",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son especies que solo existen de forma natural en un lugar concreto. <mark>Es como un plato típico de un único pueblo</mark>. ¿Cómo se llaman estas especies?",
-      "respuesta": "<mark>Especies endémicas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/tortuga-galapagos.jpg",
+      "question": "Son especies que solo existen de forma natural en un lugar concreto. <mark>Es como un plato típico de un único pueblo</mark>. ¿Cómo se llaman estas especies?",
+      "answer": "<mark>Especies endémicas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/tortuga-galapagos.jpg",
+        "title": "Giant Galapagos tortoise",
+        "source": "https://www.flickr.com/photos/36302954@N00/81285985",
         "alt": "Una tortuga gigante de Galápagos, especie endémica",
-        "titulo": "Giant Galapagos tortoise",
         "autor": "SaraYeomans",
-        "fuente": "https://www.flickr.com/photos/36302954@N00/81285985",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Pierden su hábitat, sufren caza excesiva o contaminación. <mark>Es como quitarle a alguien su casa y su comida</mark> a la vez. ¿Cómo se llama a una especie en esta situación tan grave?",
-      "respuesta": "<mark>En peligro de extinción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/gato-andino-peligro.jpg",
+      "question": "Pierden su hábitat, sufren caza excesiva o contaminación. <mark>Es como quitarle a alguien su casa y su comida</mark> a la vez. ¿Cómo se llama a una especie en esta situación tan grave?",
+      "answer": "<mark>En peligro de extinción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/gato-andino-peligro.jpg",
+        "title": "Gato andino en el Peru",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=132780963",
         "alt": "El gato andino, una especie salvaje en peligro de extinción",
-        "titulo": "Gato andino en el Peru",
         "autor": "Crispower",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=132780963",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Es más fácil cuidar algo que conoces de cerca que algo lejano. <mark>Muchas especies interesantes viven cerca de casa</mark>. ¿Qué actividad al aire libre ayuda a conocerlas mejor?",
-      "respuesta": "<mark>Observar la naturaleza</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_3/senderismo-naturaleza.jpg",
+      "question": "Es más fácil cuidar algo que conoces de cerca que algo lejano. <mark>Muchas especies interesantes viven cerca de casa</mark>. ¿Qué actividad al aire libre ayuda a conocerlas mejor?",
+      "answer": "<mark>Observar la naturaleza</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_3/senderismo-naturaleza.jpg",
+        "title": "Hiking California Beaches, Half Moon Bay",
+        "source": "https://www.flickr.com/photos/8398907@N02/16185947752",
         "alt": "Una persona haciendo senderismo observando la naturaleza",
-        "titulo": "Hiking California Beaches, Half Moon Bay",
         "autor": "moonjazz",
-        "fuente": "https://www.flickr.com/photos/8398907@N02/16185947752",
         "licencia": "CC PDM 1.0"
       }
     }

@@ -1,173 +1,173 @@
 {
-  "tema": "Medio ambiente, sostenibilidad y población - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Medio ambiente, sostenibilidad y población - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como usar los ingredientes de la despensa sin pensar en si se acabarán</mark>. Producir bienes tiene este doble efecto sobre el planeta. Cuanto más se produce, más presión sufre el planeta. ¿Qué dos cosas provoca producir bienes sobre el medio ambiente?",
-      "respuesta": "<mark>Consumir recursos y generar residuos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/factory-chimney-smoke.jpg",
+      "question": "<mark>Es como usar los ingredientes de la despensa sin pensar en si se acabarán</mark>. Producir bienes tiene este doble efecto sobre el planeta. Cuanto más se produce, más presión sufre el planeta. ¿Qué dos cosas provoca producir bienes sobre el medio ambiente?",
+      "answer": "<mark>Consumir recursos y generar residuos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/factory-chimney-smoke.jpg",
+        "title": "Factory",
+        "source": "https://www.flickr.com/photos/36516818@N00/8524158330",
         "alt": "Una fábrica con chimeneas humeantes, símbolo de la producción industrial",
-        "titulo": "Factory",
         "autor": "mrhayata",
-        "fuente": "https://www.flickr.com/photos/36516818@N00/8524158330",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como pisar la arena de una playa: siempre queda un rastro</mark>. Es la marca que dejan las personas sobre el paisaje y los ecosistemas: ciudades, carreteras, campos y contaminación. Cuanta más población y consumo, mayor suele ser. ¿Cómo se llama esta marca?",
-      "respuesta": "<mark>Huella humana</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/expansion-urbana.jpg",
+      "question": "<mark>Es como pisar la arena de una playa: siempre queda un rastro</mark>. Es la marca que dejan las personas sobre el paisaje y los ecosistemas: ciudades, carreteras, campos y contaminación. Cuanta más población y consumo, mayor suele ser. ¿Cómo se llama esta marca?",
+      "answer": "<mark>Huella humana</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/expansion-urbana.jpg",
+        "title": "Urban Sprawl",
+        "source": "https://www.flickr.com/photos/14853452@N00/405288958",
         "alt": "Vista aérea de una zona urbana extendiéndose sobre el terreno",
-        "titulo": "Urban Sprawl",
         "autor": "MyBiggestFan",
-        "fuente": "https://www.flickr.com/photos/14853452@N00/405288958",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como sacar dinero de una cuenta sin dejar que vuelva a llenarse</mark>. Es usar un recurso más rápido de lo que la naturaleza puede reponerlo, como pescar o talar demasiado. A la larga, ese recurso puede agotarse por completo. ¿Cómo se llama esta práctica?",
-      "respuesta": "<mark>Sobreexplotación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/barco-pesca.jpg",
+      "question": "<mark>Es como sacar dinero de una cuenta sin dejar que vuelva a llenarse</mark>. Es usar un recurso más rápido de lo que la naturaleza puede reponerlo, como pescar o talar demasiado. A la larga, ese recurso puede agotarse por completo. ¿Cómo se llama esta práctica?",
+      "answer": "<mark>Sobreexplotación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/barco-pesca.jpg",
+        "title": "Fishing boat - Edisen Fishery at Isle Royale National Park, Michigan",
+        "source": "https://www.flickr.com/photos/59398780@N00/6126102704",
         "alt": "Un barco de pesca junto al muelle, usado para faenar en el mar",
-        "titulo": "Fishing boat - Edisen Fishery at Isle Royale National Park, Michigan",
         "autor": "Corvair Owner",
-        "fuente": "https://www.flickr.com/photos/59398780@N00/6126102704",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como arrancar páginas de un libro que no se pueden volver a escribir igual</mark>. Es la desaparición de bosques por la tala o la quema, dejando sin hogar a muchas especies. También reduce la capacidad del planeta para absorber gases contaminantes. ¿Cómo se llama este problema?",
-      "respuesta": "<mark>Deforestación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/deforestacion.jpg",
+      "question": "<mark>Es como arrancar páginas de un libro que no se pueden volver a escribir igual</mark>. Es la desaparición de bosques por la tala o la quema, dejando sin hogar a muchas especies. También reduce la capacidad del planeta para absorber gases contaminantes. ¿Cómo se llama este problema?",
+      "answer": "<mark>Deforestación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/deforestacion.jpg",
+        "title": "Deforestation",
+        "source": "https://www.flickr.com/photos/89165847@N00/6282365021",
         "alt": "Un terreno con árboles talados, muestra de deforestación",
-        "titulo": "Deforestation",
         "autor": "mikecogh",
-        "fuente": "https://www.flickr.com/photos/89165847@N00/6282365021",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como envenenar poco a poco la fuente de la que todos bebemos</mark>. La contaminación del agua y del suelo afecta directamente a la salud de las personas y de los ecosistemas. Limpiar un suelo o un río contaminado es lento y costoso. ¿Qué causas frecuentes provocan esta contaminación, junto con los residuos industriales?",
-      "respuesta": "<mark>Productos químicos y plásticos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/contaminacion-plasticos-rio.jpg",
+      "question": "<mark>Es como envenenar poco a poco la fuente de la que todos bebemos</mark>. La contaminación del agua y del suelo afecta directamente a la salud de las personas y de los ecosistemas. Limpiar un suelo o un río contaminado es lento y costoso. ¿Qué causas frecuentes provocan esta contaminación, junto con los residuos industriales?",
+      "answer": "<mark>Productos químicos y plásticos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/contaminacion-plasticos-rio.jpg",
+        "title": "Plastic-Trash-Floating_River_Water-Pollution__IMG_8879",
+        "source": "https://www.flickr.com/photos/28958738@N06/8417961643",
         "alt": "Plástico y basura flotando en el agua de un río",
-        "titulo": "Plastic-Trash-Floating_River_Water-Pollution__IMG_8879",
         "autor": "Public Domain Photos",
-        "fuente": "https://www.flickr.com/photos/28958738@N06/8417961643",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como llenar de humo una habitación cerrada, poco a poco</mark>. Es la presencia de gases y partículas dañinas en el aire que respiramos, producida sobre todo por el tráfico y las fábricas. Afecta a la salud y acelera el cambio climático. ¿Cómo se llama este problema?",
-      "respuesta": "<mark>Contaminación atmosférica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/smog-ciudad.jpg",
+      "question": "<mark>Es como llenar de humo una habitación cerrada, poco a poco</mark>. Es la presencia de gases y partículas dañinas en el aire que respiramos, producida sobre todo por el tráfico y las fábricas. Afecta a la salud y acelera el cambio climático. ¿Cómo se llama este problema?",
+      "answer": "<mark>Contaminación atmosférica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/smog-ciudad.jpg",
+        "title": "Mexico City y su capa de nata",
+        "source": "https://www.flickr.com/photos/26759014@N00/99822452",
         "alt": "Una ciudad cubierta por una capa de smog, contaminación atmosférica",
-        "titulo": "Mexico City y su capa de nata",
         "autor": "el ranchero",
-        "fuente": "https://www.flickr.com/photos/26759014@N00/99822452",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como depender siempre de un vecino para tener luz en casa</mark>. Ocurre cuando un país necesita comprar fuera casi toda la energía que consume. Por eso muchos países buscan producir su propia energía renovable. ¿Cómo se llama este problema?",
-      "respuesta": "<mark>Dependencia energética</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/petrolero-importacion-energia.jpg",
+      "question": "<mark>Es como depender siempre de un vecino para tener luz en casa</mark>. Ocurre cuando un país necesita comprar fuera casi toda la energía que consume. Por eso muchos países buscan producir su propia energía renovable. ¿Cómo se llama este problema?",
+      "answer": "<mark>Dependencia energética</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/petrolero-importacion-energia.jpg",
+        "title": "Singaporan tanker 'Eagle Sapporo' docked at Houston Fuel Oil Terminal",
+        "source": "https://www.flickr.com/photos/21550937@N03/4978250852",
         "alt": "Un petrolero atracado en una terminal de combustible",
-        "titulo": "Singaporan tanker 'Eagle Sapporo' docked at Houston Fuel Oil Terminal",
         "autor": "roy.luck",
-        "fuente": "https://www.flickr.com/photos/21550937@N03/4978250852",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como fabricar lo mismo, pero usando menos materiales y menos energía</mark>. Los avances tecnológicos permiten producir gastando menos recursos y contaminando menos. La tecnología, bien usada, puede ayudar a frenar el deterioro ambiental. ¿Qué avances tecnológicos son ejemplo de esto, junto con el reciclaje?",
-      "respuesta": "<mark>Paneles solares y coches eléctricos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/paneles-solares.jpg",
+      "question": "<mark>Es como fabricar lo mismo, pero usando menos materiales y menos energía</mark>. Los avances tecnológicos permiten producir gastando menos recursos y contaminando menos. La tecnología, bien usada, puede ayudar a frenar el deterioro ambiental. ¿Qué avances tecnológicos son ejemplo de esto, junto con el reciclaje?",
+      "answer": "<mark>Paneles solares y coches eléctricos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/paneles-solares.jpg",
+        "title": "Free solar panel renewable energy",
+        "source": "https://www.rawpixel.com/image/5904785/photo-image-public-domain-free-solar-panel",
         "alt": "Paneles solares captando energía renovable del sol",
-        "titulo": "Free solar panel renewable energy",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.rawpixel.com/image/5904785/photo-image-public-domain-free-solar-panel",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "La globalización conecta economías, y eso también mueve a las personas. <mark>La gente emigra buscando mejores condiciones de vida o trabajo</mark>, cambiando la población de origen y de destino. ¿En qué se ha convertido el mundo entero, según esta idea?",
-      "respuesta": "<mark>Un mismo mercado laboral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/barco-contenedores.jpg",
+      "question": "La globalización conecta economías, y eso también mueve a las personas. <mark>La gente emigra buscando mejores condiciones de vida o trabajo</mark>, cambiando la población de origen y de destino. ¿En qué se ha convertido el mundo entero, según esta idea?",
+      "answer": "<mark>Un mismo mercado laboral</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/barco-contenedores.jpg",
+        "title": "Container ship at Thamesport",
+        "source": "https://www.flickr.com/photos/8706370@N02/6614272657",
         "alt": "Un buque portacontenedores en un puerto, símbolo del comercio mundial",
-        "titulo": "Container ship at Thamesport",
         "autor": "suvodeb",
-        "fuente": "https://www.flickr.com/photos/8706370@N02/6614272657",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como querer correr más rápido sin gastar más gasolina de la que tienes</mark>. Crecer económicamente suele significar esto, y encontrar el equilibrio es uno de los grandes retos actuales. ¿Qué suele significar crecer económicamente?",
-      "respuesta": "<mark>Consumir más recursos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/atasco-trafico.jpg",
+      "question": "<mark>Es como querer correr más rápido sin gastar más gasolina de la que tienes</mark>. Crecer económicamente suele significar esto, y encontrar el equilibrio es uno de los grandes retos actuales. ¿Qué suele significar crecer económicamente?",
+      "answer": "<mark>Consumir más recursos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/atasco-trafico.jpg",
+        "title": "Traffic congestion",
+        "source": "https://www.flickr.com/photos/28364885@N02/30359879204",
         "alt": "Muchos coches parados en un atasco de tráfico en una autopista",
-        "titulo": "Traffic congestion",
         "autor": "OregonDOT",
-        "fuente": "https://www.flickr.com/photos/28364885@N02/30359879204",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es un poco como un pueblo que se vacía mientras la ciudad se llena</mark>. Es el problema de que muchas zonas rurales pierden población sin parar, porque los jóvenes se trasladan a las ciudades buscando trabajo y estudios. ¿Cómo se llama este problema en España?",
-      "respuesta": "<mark>Reto demográfico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/casas-abandonadas-pueblo.jpg",
+      "question": "<mark>Es un poco como un pueblo que se vacía mientras la ciudad se llena</mark>. Es el problema de que muchas zonas rurales pierden población sin parar, porque los jóvenes se trasladan a las ciudades buscando trabajo y estudios. ¿Cómo se llama este problema en España?",
+      "answer": "<mark>Reto demográfico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/casas-abandonadas-pueblo.jpg",
+        "title": "Abandoned-Wooden-Old-Houses-at-Mountain__IMG_5398-580x386",
+        "source": "https://www.flickr.com/photos/28958738@N06/8455898016",
         "alt": "Casas de madera abandonadas en un pueblo de montaña",
-        "titulo": "Abandoned-Wooden-Old-Houses-at-Mountain__IMG_5398-580x386",
         "autor": "Public Domain Photos",
-        "fuente": "https://www.flickr.com/photos/28958738@N06/8455898016",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un círculo que se retroalimenta: menos gente, menos servicios, y aún menos gente. <mark>También se pierden costumbres y formas de vida propias de los pueblos afectados</mark>. Revertir esa tendencia es uno de los grandes retos en España. ¿Qué suele cerrar en los pueblos por la despoblación?",
-      "respuesta": "<mark>Comercios, escuelas y servicios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/tienda-cerrada.jpg",
+      "question": "Es un círculo que se retroalimenta: menos gente, menos servicios, y aún menos gente. <mark>También se pierden costumbres y formas de vida propias de los pueblos afectados</mark>. Revertir esa tendencia es uno de los grandes retos en España. ¿Qué suele cerrar en los pueblos por la despoblación?",
+      "answer": "<mark>Comercios, escuelas y servicios</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/tienda-cerrada.jpg",
+        "title": "Vacant Storefront (Old Saybrook, Connecticut)",
+        "source": "https://www.flickr.com/photos/148374920@N02/43820916702",
         "alt": "Un local comercial cerrado y vacío en una calle",
-        "titulo": "Vacant Storefront (Old Saybrook, Connecticut)",
         "autor": "jjbers",
-        "fuente": "https://www.flickr.com/photos/148374920@N02/43820916702",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como organizar los muebles de una casa para que todo tenga su sitio</mark>. Es planificar cómo se usa el suelo de una región de forma equilibrada, decidiendo dónde van ciudades, campos, industrias o zonas protegidas. ¿Cómo se llama esta planificación?",
-      "respuesta": "<mark>Ordenación del territorio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/mapa-uso-suelo.jpg",
+      "question": "<mark>Es como organizar los muebles de una casa para que todo tenga su sitio</mark>. Es planificar cómo se usa el suelo de una región de forma equilibrada, decidiendo dónde van ciudades, campos, industrias o zonas protegidas. ¿Cómo se llama esta planificación?",
+      "answer": "<mark>Ordenación del territorio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/mapa-uso-suelo.jpg",
+        "title": "Bissett Existing Land Use (1968)",
+        "source": "https://www.flickr.com/photos/11496488@N07/2850131925",
         "alt": "Un mapa antiguo que muestra el uso del suelo de una zona",
-        "titulo": "Bissett Existing Land Use (1968)",
         "autor": "Manitoba Historical Maps",
-        "fuente": "https://www.flickr.com/photos/11496488@N07/2850131925",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Son como una lista de compromisos que casi todo el planeta ha firmado</mark>. Son metas mundiales que incluyen cuidar el agua, el clima y los ecosistemas, buscando un desarrollo que no destruya los recursos del futuro. ¿Cómo se llaman estas metas mundiales?",
-      "respuesta": "<mark>Objetivos de Desarrollo Sostenible</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_2/sede-naciones-unidas.jpg",
+      "question": "<mark>Son como una lista de compromisos que casi todo el planeta ha firmado</mark>. Son metas mundiales que incluyen cuidar el agua, el clima y los ecosistemas, buscando un desarrollo que no destruya los recursos del futuro. ¿Cómo se llaman estas metas mundiales?",
+      "answer": "<mark>Objetivos de Desarrollo Sostenible</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_2/sede-naciones-unidas.jpg",
+        "title": "Switzerland-02521 - United Nations Office",
+        "source": "https://www.flickr.com/photos/22490717@N02/22728446164",
         "alt": "La sede de la Oficina de las Naciones Unidas, con banderas de países",
-        "titulo": "Switzerland-02521 - United Nations Office",
         "autor": "archer10 (Dennis)",
-        "fuente": "https://www.flickr.com/photos/22490717@N02/22728446164",
         "licencia": "CC BY-SA 2.0"
       }
     }

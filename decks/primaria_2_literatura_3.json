@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 2º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 2º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el personaje principal de un cuento, al que le pasan las cosas más importantes. La historia se cuenta siempre siguiéndole. <mark>Caperucita Roja, por ejemplo, es este personaje en su cuento</mark>. ¿Cómo se llama este personaje?",
-      "respuesta": "<mark>El protagonista</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_3/protagonista-caperucita.jpg",
+      "question": "Es el personaje principal de un cuento, al que le pasan las cosas más importantes. La historia se cuenta siempre siguiéndole. <mark>Caperucita Roja, por ejemplo, es este personaje en su cuento</mark>. ¿Cómo se llama este personaje?",
+      "answer": "<mark>El protagonista</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_3/protagonista-caperucita.jpg",
+        "title": "Little Red Riding Hood",
+        "source": "https://www.flickr.com/photos/27318442@N05/2909799113",
         "alt": "Una figura de Caperucita Roja, con capa roja y una cesta con una botella, el personaje principal del cuento",
-        "titulo": "Little Red Riding Hood",
         "autor": "lllllT",
-        "fuente": "https://www.flickr.com/photos/27318442@N05/2909799113",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el personaje que se opone al protagonista. Le pone problemas, <mark>como un obstáculo en su camino</mark>. El lobo, por ejemplo, es este personaje en Caperucita. ¿Cómo se llama este personaje?",
-      "respuesta": "<mark>El antagonista</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_3/antagonista-lobo.jpg",
+      "question": "Es el personaje que se opone al protagonista. Le pone problemas, <mark>como un obstáculo en su camino</mark>. El lobo, por ejemplo, es este personaje en Caperucita. ¿Cómo se llama este personaje?",
+      "answer": "<mark>El antagonista</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_3/antagonista-lobo.jpg",
+        "title": "Gray wolf",
+        "source": "https://www.flickr.com/photos/50838842@N06/8952676448",
         "alt": "Un lobo gris tumbado entre la hierba, mirando fijamente a la cámara",
-        "titulo": "Gray wolf",
         "autor": "USFWS Headquarters",
-        "fuente": "https://www.flickr.com/photos/50838842@N06/8952676448",
         "licencia": "Dominio público (PDM 1.0)"
       }
     },
     {
-      "pregunta": "Es el problema que tiene que resolver el protagonista. <mark>Es el motor que hace avanzar toda la historia</mark>. Por ejemplo, encontrar el camino a casa estando perdido. ¿Cómo se llama este problema central?",
-      "respuesta": "<mark>El conflicto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-niebla.jpg",
+      "question": "Es el problema que tiene que resolver el protagonista. <mark>Es el motor que hace avanzar toda la historia</mark>. Por ejemplo, encontrar el camino a casa estando perdido. ¿Cómo se llama este problema central?",
+      "answer": "<mark>El conflicto</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_3/bosque-niebla.jpg",
+        "title": "Trail in Forest Covered in Fog",
+        "source": "https://www.flickr.com/photos/132795455@N08/18656926332",
         "alt": "Un camino estrecho entre árboles altos, cubierto de niebla, como si alguien se pudiera perder allí",
-        "titulo": "Trail in Forest Covered in Fog",
         "autor": "Image Catalog",
-        "fuente": "https://www.flickr.com/photos/132795455@N08/18656926332",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es la parte final de un cuento, donde se resuelve el problema. Cierra la historia, <mark>como cerrar la puerta al salir</mark>. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta parte final?",
-      "respuesta": "<mark>El desenlace</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_3/puerta-cerrada.jpg",
+      "question": "Es la parte final de un cuento, donde se resuelve el problema. Cierra la historia, <mark>como cerrar la puerta al salir</mark>. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta parte final?",
+      "answer": "<mark>El desenlace</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_3/puerta-cerrada.jpg",
+        "title": "Quiberon Lighthouse Door",
+        "source": "https://www.flickr.com/photos/82955120@N05/12276846605",
         "alt": "Una puerta verde cerrada, con unos escalones de piedra delante, como el final de un camino",
-        "titulo": "Quiberon Lighthouse Door",
         "autor": "Bold Frontiers",
-        "fuente": "https://www.flickr.com/photos/82955120@N05/12276846605",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un libro con varios cuentos juntos, distintos entre sí. <mark>Es como una caja con caramelos de sabores diferentes</mark>. Puedes leer uno cada vez, sin seguir un orden. ¿Cómo se llama este tipo de libro?",
-      "respuesta": "<mark>Colección de cuentos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_3/caja-caramelos.jpg",
+      "question": "Es un libro con varios cuentos juntos, distintos entre sí. <mark>Es como una caja con caramelos de sabores diferentes</mark>. Puedes leer uno cada vez, sin seguir un orden. ¿Cómo se llama este tipo de libro?",
+      "answer": "<mark>Colección de cuentos</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_3/caja-caramelos.jpg",
+        "title": "One missing, oops.",
+        "source": "https://www.flickr.com/photos/22746936@N02/2265030196",
         "alt": "Una caja de bombones con muchos sabores distintos, cada uno en su propio hueco",
-        "titulo": "One missing, oops.",
         "autor": "CoCreatr",
-        "fuente": "https://www.flickr.com/photos/22746936@N02/2265030196",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Esto hace que un cuento dé un poco de miedo. <mark>Es como cuando se apagan las luces y todo suena distinto</mark>. Aun así, el cuento suele terminar bien. ¿Qué es lo que da ese pequeño susto?",
-      "respuesta": "<mark>Un misterio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_2_literatura_3/bosque-noche.jpg",
+      "question": "Esto hace que un cuento dé un poco de miedo. <mark>Es como cuando se apagan las luces y todo suena distinto</mark>. Aun así, el cuento suele terminar bien. ¿Qué es lo que da ese pequeño susto?",
+      "answer": "<mark>Un misterio</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_2_literatura_3/bosque-noche.jpg",
+        "title": "Night in the Wilderness",
+        "source": "https://www.flickr.com/photos/50169152@N06/11407402165",
         "alt": "Árboles oscuros de noche, con la luna asomando entre las nubes",
-        "titulo": "Night in the Wilderness",
         "autor": "BLM Oregon & Washington",
-        "fuente": "https://www.flickr.com/photos/50169152@N06/11407402165",
         "licencia": "CC BY 2.0"
       }
     }

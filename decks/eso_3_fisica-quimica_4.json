@@ -1,173 +1,173 @@
 {
-  "tema": "El movimiento: cinemática y las fuerzas - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El movimiento: cinemática y las fuerzas - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>La temperatura queda definida solo con un número y una unidad</mark>. La velocidad, en cambio, necesita además una dirección y un sentido. ¿Cómo se llama este segundo tipo de magnitud, la que necesita dirección?",
-      "respuesta": "<mark>Magnitud vectorial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/veleta-direccion-viento.jpg",
+      "question": "<mark>La temperatura queda definida solo con un número y una unidad</mark>. La velocidad, en cambio, necesita además una dirección y un sentido. ¿Cómo se llama este segundo tipo de magnitud, la que necesita dirección?",
+      "answer": "<mark>Magnitud vectorial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/veleta-direccion-viento.jpg",
+        "title": "Heron Weather Vane",
+        "source": "https://www.flickr.com/photos/12357841@N02/12101548836",
         "alt": "Una veleta señalando la dirección del viento",
-        "titulo": "Heron Weather Vane",
         "autor": "Me in ME",
-        "fuente": "https://www.flickr.com/photos/12357841@N02/12101548836",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como sumar todos los pasos que has dado, aunque acabes cerca de donde empezaste</mark>. Es la distancia total que ha recorrido un objeto en su movimiento. No es lo mismo que la distancia entre el inicio y el final. ¿Cómo se llama esta distancia total recorrida?",
-      "respuesta": "<mark>Espacio recorrido</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/meta-carrera-corredores.jpg",
+      "question": "<mark>Es como sumar todos los pasos que has dado, aunque acabes cerca de donde empezaste</mark>. Es la distancia total que ha recorrido un objeto en su movimiento. No es lo mismo que la distancia entre el inicio y el final. ¿Cómo se llama esta distancia total recorrida?",
+      "answer": "<mark>Espacio recorrido</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/meta-carrera-corredores.jpg",
+        "title": "Finish: Tullamore Harriers AC Half Marathon 2014",
+        "source": "https://www.flickr.com/photos/25874444@N00/15061084966",
         "alt": "Corredores llegando a la meta tras recorrer una distancia",
-        "titulo": "Finish: Tullamore Harriers AC Half Marathon 2014",
         "autor": "Peter Mooney",
-        "fuente": "https://www.flickr.com/photos/25874444@N00/15061084966",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La velocidad media se calcula con el espacio total y el tiempo total del recorrido. <mark>El velocímetro de un coche muestra siempre otro tipo de velocidad, la de cada momento</mark>. ¿Cómo se llama esta segunda velocidad, la de un instante concreto?",
-      "respuesta": "<mark>Velocidad instantánea</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/velocimetro-panel-coche.jpg",
+      "question": "La velocidad media se calcula con el espacio total y el tiempo total del recorrido. <mark>El velocímetro de un coche muestra siempre otro tipo de velocidad, la de cada momento</mark>. ¿Cómo se llama esta segunda velocidad, la de un instante concreto?",
+      "answer": "<mark>Velocidad instantánea</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/velocimetro-panel-coche.jpg",
+        "title": "Dashboard-Car_Tachometer-Speedometer-Fuel-level",
+        "source": "https://www.flickr.com/photos/28958738@N06/7002030055",
         "alt": "El velocímetro de un coche marcando la velocidad",
-        "titulo": "Dashboard-Car_Tachometer-Speedometer-Fuel-level",
         "autor": "Public Domain Photos",
-        "fuente": "https://www.flickr.com/photos/28958738@N06/7002030055",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como medir cuánto pisas el acelerador o el freno de un coche</mark>. Es la rapidez con la que cambia la velocidad de un cuerpo. Puede ser positiva, si el cuerpo acelera, o negativa, si frena. ¿Cómo se llama esta magnitud?",
-      "respuesta": "<mark>Aceleración</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/coche-carrera-aceleracion.png",
+      "question": "<mark>Es como medir cuánto pisas el acelerador o el freno de un coche</mark>. Es la rapidez con la que cambia la velocidad de un cuerpo. Puede ser positiva, si el cuerpo acelera, o negativa, si frena. ¿Cómo se llama esta magnitud?",
+      "answer": "<mark>Aceleración</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/coche-carrera-aceleracion.png",
+        "title": "22-MECH-AD-RACE-CAR-ACCELERATION",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=117882061",
         "alt": "Un coche de carreras acelerando en pista",
-        "titulo": "22-MECH-AD-RACE-CAR-ACCELERATION",
         "autor": "Brina Schenk with UBC and Douglas College",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=117882061",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "<mark>Cuanta más fuerza se aplica a un muelle, más se estira o se comprime</mark>. Se usa para fabricar básculas o dinamómetros. ¿Cómo se llama esta ley sobre la deformación de un muelle?",
-      "respuesta": "<mark>Ley de Hooke</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/muelle-metalico-espiral.jpg",
+      "question": "<mark>Cuanta más fuerza se aplica a un muelle, más se estira o se comprime</mark>. Se usa para fabricar básculas o dinamómetros. ¿Cómo se llama esta ley sobre la deformación de un muelle?",
+      "answer": "<mark>Ley de Hooke</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/muelle-metalico-espiral.jpg",
+        "title": "metal spring coiled copper wires",
+        "source": "https://www.rawpixel.com/image/7455278/metal-spring-coiled-copper-wires-ends-coils-are-cone-shaped",
         "alt": "Un muelle metálico en espiral",
-        "titulo": "metal spring coiled copper wires",
         "autor": "rawpixel",
-        "fuente": "https://www.rawpixel.com/image/7455278/metal-spring-coiled-copper-wires-ends-coils-are-cone-shaped",
         "licencia": "Dominio público (CC0 1.0)"
       }
     },
     {
-      "pregunta": "<mark>Es como combinar varios empujones para saber hacia dónde se moverá realmente un objeto</mark>. Se suman teniendo en cuenta su dirección y su sentido. Si van en direcciones opuestas, se restan entre sí. ¿Cómo se llama esta suma de varias fuerzas?",
-      "respuesta": "<mark>Fuerza resultante</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/tira-y-afloja-fuerzas.jpg",
+      "question": "<mark>Es como combinar varios empujones para saber hacia dónde se moverá realmente un objeto</mark>. Se suman teniendo en cuenta su dirección y su sentido. Si van en direcciones opuestas, se restan entre sí. ¿Cómo se llama esta suma de varias fuerzas?",
+      "answer": "<mark>Fuerza resultante</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/tira-y-afloja-fuerzas.jpg",
+        "title": "Deployed Marauders go for gold in Maintenance Olympics",
+        "source": "https://www.flickr.com/photos/28650594@N03/5710626117",
         "alt": "Un tira y afloja, la suma de varias fuerzas en direcciones opuestas",
-        "titulo": "Deployed Marauders go for gold in Maintenance Olympics",
         "autor": "DVIDSHUB",
-        "fuente": "https://www.flickr.com/photos/28650594@N03/5710626117",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un balón seguiría rodando para siempre si no hubiera rozamiento</mark>. Un cuerpo sigue haciendo lo mismo si nada lo empuja. También se llama principio de inercia. ¿Cómo se llama esta primera ley?",
-      "respuesta": "<mark>Primera ley de Newton</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/bolas-billar-mesa.jpg",
+      "question": "<mark>Un balón seguiría rodando para siempre si no hubiera rozamiento</mark>. Un cuerpo sigue haciendo lo mismo si nada lo empuja. También se llama principio de inercia. ¿Cómo se llama esta primera ley?",
+      "answer": "<mark>Primera ley de Newton</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/bolas-billar-mesa.jpg",
+        "title": "Billiard Balls Pool Table",
+        "source": "https://www.rawpixel.com/image/5915206/billiard-balls-pool-table",
         "alt": "Bolas de billar quietas sobre la mesa hasta que algo las golpea",
-        "titulo": "Billiard Balls Pool Table",
         "autor": "rawpixel",
-        "fuente": "https://www.rawpixel.com/image/5915206/billiard-balls-pool-table",
         "licencia": "Dominio público (CC0 1.0)"
       }
     },
     {
-      "pregunta": "<mark>Cuanta más fuerza se aplica a un mismo objeto, más rápido cambia su velocidad</mark>. También depende de la masa del objeto. Relaciona la fuerza aplicada con la aceleración que produce. ¿Cómo se llama esta segunda ley?",
-      "respuesta": "<mark>Segunda ley de Newton</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/carritos-supermercado.jpg",
+      "question": "<mark>Cuanta más fuerza se aplica a un mismo objeto, más rápido cambia su velocidad</mark>. También depende de la masa del objeto. Relaciona la fuerza aplicada con la aceleración que produce. ¿Cómo se llama esta segunda ley?",
+      "answer": "<mark>Segunda ley de Newton</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/carritos-supermercado.jpg",
+        "title": "Shopping carts, supermarket",
+        "source": "https://www.rawpixel.com/image/8809304/photo-image-public-domain-shopping-supermarket",
         "alt": "Carritos de la compra, algo que empujamos con una fuerza",
-        "titulo": "Shopping carts, supermarket",
         "autor": "rawpixel",
-        "fuente": "https://www.rawpixel.com/image/8809304/photo-image-public-domain-shopping-supermarket",
         "licencia": "Dominio público (CC0 1.0)"
       }
     },
     {
-      "pregunta": "<mark>Empujar una pared hace que la pared también te empuje a ti con la misma fuerza</mark>. Toda fuerza provoca otra igual y de sentido contrario. Explica cómo funciona el despegue de un cohete. ¿Cómo se llama esta tercera ley?",
-      "respuesta": "<mark>Tercera ley de Newton</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/cohete-espacial.jpg",
+      "question": "<mark>Empujar una pared hace que la pared también te empuje a ti con la misma fuerza</mark>. Toda fuerza provoca otra igual y de sentido contrario. Explica cómo funciona el despegue de un cohete. ¿Cómo se llama esta tercera ley?",
+      "answer": "<mark>Tercera ley de Newton</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/cohete-espacial.jpg",
+        "title": "Cohete Espacial",
+        "source": "https://www.flickr.com/photos/11402767@N00/6863387923",
         "alt": "Un cohete espacial, ejemplo de la tercera ley de Newton",
-        "titulo": "Cohete Espacial",
         "autor": "sukiweb",
-        "fuente": "https://www.flickr.com/photos/11402767@N00/6863387923",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un imán invisible que actúa entre cualquier par de objetos con masa</mark>. Explica por qué los planetas giran alrededor del Sol. La propuso Isaac Newton. ¿Cómo se llama esta ley, sobre la atracción entre cuerpos con masa?",
-      "respuesta": "<mark>Ley de la Gravitación Universal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/manzanas-cayendo-arbol.jpg",
+      "question": "<mark>Es como un imán invisible que actúa entre cualquier par de objetos con masa</mark>. Explica por qué los planetas giran alrededor del Sol. La propuso Isaac Newton. ¿Cómo se llama esta ley, sobre la atracción entre cuerpos con masa?",
+      "answer": "<mark>Ley de la Gravitación Universal</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/manzanas-cayendo-arbol.jpg",
+        "title": "Apple Fall Trees",
+        "source": "https://www.flickr.com/photos/29358018@N08/8265784904",
         "alt": "Manzanas cayendo de un árbol por la gravedad",
-        "titulo": "Apple Fall Trees",
         "autor": "GoddessOfRocks",
-        "fuente": "https://www.flickr.com/photos/29358018@N08/8265784904",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como conseguir el mismo resultado empujando con menos fuerza</mark>. La palanca, la polea y el plano inclinado son ejemplos comunes. ¿Cómo se llaman estas herramientas que facilitan el trabajo?",
-      "respuesta": "<mark>Máquinas simples</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/polea-fija.jpg",
+      "question": "<mark>Es como conseguir el mismo resultado empujando con menos fuerza</mark>. La palanca, la polea y el plano inclinado son ejemplos comunes. ¿Cómo se llaman estas herramientas que facilitan el trabajo?",
+      "answer": "<mark>Máquinas simples</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/polea-fija.jpg",
+        "title": "Polea fija de cable",
+        "source": "https://www.flickr.com/photos/36268771@N06/3447234727",
         "alt": "Una polea fija de cable, una máquina simple",
-        "titulo": "Polea fija de cable",
         "autor": "universidaddemendoza",
-        "fuente": "https://www.flickr.com/photos/36268771@N06/3447234727",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como la fuerza invisible que hace que un imán atraiga objetos de hierro</mark>. Se usa en motores, altavoces y muchos otros aparatos actuales. ¿Cómo se llama este tipo de fenómeno, de atracción o repulsión entre ciertos materiales?",
-      "respuesta": "<mark>Fenómeno magnético</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/iman-limaduras-hierro.jpg",
+      "question": "<mark>Es como la fuerza invisible que hace que un imán atraiga objetos de hierro</mark>. Se usa en motores, altavoces y muchos otros aparatos actuales. ¿Cómo se llama este tipo de fenómeno, de atracción o repulsión entre ciertos materiales?",
+      "answer": "<mark>Fenómeno magnético</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/iman-limaduras-hierro.jpg",
+        "title": "Bar-magnet-iron-filings max",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=189691448",
         "alt": "Limaduras de hierro mostrando el campo magnético de un imán",
-        "titulo": "Bar-magnet-iron-filings max",
         "autor": "MikeRun, Vera Wurmsdobler",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=189691448",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Una corriente eléctrica puede generar un campo magnético. <mark>Es como si electricidad y magnetismo fueran dos caras de la misma moneda</mark>. Se aprovecha en motores eléctricos y generadores. ¿Cómo se llama esta conexión entre electricidad y magnetismo?",
-      "respuesta": "<mark>Electromagnetismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/campo-magnetico-bobina.svg",
+      "question": "Una corriente eléctrica puede generar un campo magnético. <mark>Es como si electricidad y magnetismo fueran dos caras de la misma moneda</mark>. Se aprovecha en motores eléctricos y generadores. ¿Cómo se llama esta conexión entre electricidad y magnetismo?",
+      "answer": "<mark>Electromagnetismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/campo-magnetico-bobina.svg",
+        "title": "Magnetic field of wire loop",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=31578724",
         "alt": "El campo magnético creado por una bobina de cable eléctrico",
-        "titulo": "Magnetic field of wire loop",
         "autor": "Chetvorno",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=31578724",
         "licencia": "Dominio público (CC0 1.0)"
       }
     },
     {
-      "pregunta": "<mark>Desde un coche hasta un satélite, muchas cosas se diseñan usando estas reglas</mark>. Explican con precisión el movimiento de la mayoría de los objetos cotidianos. Siguen siendo la base de la física que se estudia primero. ¿Cómo se llaman estas reglas, propuestas hace más de tres siglos?",
-      "respuesta": "<mark>Leyes de Newton</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_fisica-quimica_4/estatua-isaac-newton.jpg",
+      "question": "<mark>Desde un coche hasta un satélite, muchas cosas se diseñan usando estas reglas</mark>. Explican con precisión el movimiento de la mayoría de los objetos cotidianos. Siguen siendo la base de la física que se estudia primero. ¿Cómo se llaman estas reglas, propuestas hace más de tres siglos?",
+      "answer": "<mark>Leyes de Newton</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_fisica-quimica_4/estatua-isaac-newton.jpg",
+        "title": "London, Bristish Library - Isaac Newton statue",
+        "source": "https://www.flickr.com/photos/26445715@N00/8613290276",
         "alt": "Una estatua de Isaac Newton",
-        "titulo": "London, Bristish Library - Isaac Newton statue",
         "autor": "muffinn",
-        "fuente": "https://www.flickr.com/photos/26445715@N00/8613290276",
         "licencia": "CC BY 2.0"
       }
     }

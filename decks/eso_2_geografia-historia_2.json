@@ -1,137 +1,137 @@
 {
-  "tema": "Retos globales y desarrollo sostenible - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Retos globales y desarrollo sostenible - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como pelear por el trozo más grande de una tarta limitada</mark>. El petróleo, el agua o los minerales no se reparten igual entre países. Controlar uno de ellos da mucho poder económico. ¿Qué tipo de recursos provoca esta competencia?",
-      "respuesta": "<mark>Recursos naturales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/pozos-petroleo.jpg",
+      "question": "<mark>Es como pelear por el trozo más grande de una tarta limitada</mark>. El petróleo, el agua o los minerales no se reparten igual entre países. Controlar uno de ellos da mucho poder económico. ¿Qué tipo de recursos provoca esta competencia?",
+      "answer": "<mark>Recursos naturales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/pozos-petroleo.jpg",
+        "title": "Oil well pump jacks",
+        "source": "https://www.flickr.com/photos/99247795@N00/3153652073",
         "alt": "Pozos de petróleo, un recurso natural muy disputado.",
-        "titulo": "Oil well pump jacks",
         "autor": "Richard Masoner / Cyclelicious",
-        "fuente": "https://www.flickr.com/photos/99247795@N00/3153652073",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como quitar aduanas entre países amigos</mark>, para comprar y vender sin trabas. Son acuerdos entre países vecinos para comerciar más fácil. La Unión Europea es un ejemplo. ¿Cómo se llaman estos acuerdos?",
-      "respuesta": "<mark>Mercados regionales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/banderas-ue-espana.jpg",
+      "question": "<mark>Es como quitar aduanas entre países amigos</mark>, para comprar y vender sin trabas. Son acuerdos entre países vecinos para comerciar más fácil. La Unión Europea es un ejemplo. ¿Cómo se llaman estos acuerdos?",
+      "answer": "<mark>Mercados regionales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/banderas-ue-espana.jpg",
+        "title": "Banderas de España y la Unión Europea",
+        "source": "https://www.flickr.com/photos/96937621@N00/4487668812",
         "alt": "Banderas de España y de la Unión Europea, un mercado regional",
-        "titulo": "Banderas de España y la Unión Europea",
         "autor": "Contando Estrelas",
-        "fuente": "https://www.flickr.com/photos/96937621@N00/4487668812",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como repartir una tarta en trozos muy distintos</mark>. Algunas zonas concentran gran parte de la riqueza mundial. Otras luchan contra la pobreza. ¿Qué tres cosas explican esa desigualdad entre países?",
-      "respuesta": "<mark>Recursos, industrias y oportunidades</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/favela-panorama.jpg",
+      "question": "<mark>Es como repartir una tarta en trozos muy distintos</mark>. Algunas zonas concentran gran parte de la riqueza mundial. Otras luchan contra la pobreza. ¿Qué tres cosas explican esa desigualdad entre países?",
+      "answer": "<mark>Recursos, industrias y oportunidades</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/favela-panorama.jpg",
+        "title": "Rocinha",
+        "source": "https://www.flickr.com/photos/24265317@N00/2362660336",
         "alt": "Un barrio con viviendas humildes, reflejo de la desigualdad.",
-        "titulo": "Rocinha",
         "autor": "AHLN",
-        "fuente": "https://www.flickr.com/photos/24265317@N00/2362660336",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como decir que ningún ser humano vale menos que otro</mark>. Toda persona merece respeto, sin importar quién sea. Es la base de los derechos humanos universales. ¿Cómo se llama este principio?",
-      "respuesta": "<mark>Dignidad humana</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/personas-diversas-circulo.jpg",
+      "question": "<mark>Es como decir que ningún ser humano vale menos que otro</mark>. Toda persona merece respeto, sin importar quién sea. Es la base de los derechos humanos universales. ¿Cómo se llama este principio?",
+      "answer": "<mark>Dignidad humana</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/personas-diversas-circulo.jpg",
+        "title": "Multiethnic Diverse People in a Circle Holding Hands",
+        "source": "https://www.flickr.com/photos/17088227@N00/30118072626",
         "alt": "Un grupo diverso de personas dándose la mano en círculo.",
-        "titulo": "Multiethnic Diverse People in a Circle Holding Hands",
         "autor": "Helge V. Keitel",
-        "fuente": "https://www.flickr.com/photos/17088227@N00/30118072626",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "No dependen de dónde naciste, solo de ser un ser humano. Corresponden a toda persona, en cualquier país. Incluyen <mark>el derecho a la vida, la libertad y la educación</mark>. ¿Cómo se llaman estos derechos?",
-      "respuesta": "<mark>Derechos humanos universales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/declaracion-derechos-humanos.jpg",
+      "question": "No dependen de dónde naciste, solo de ser un ser humano. Corresponden a toda persona, en cualquier país. Incluyen <mark>el derecho a la vida, la libertad y la educación</mark>. ¿Cómo se llaman estos derechos?",
+      "answer": "<mark>Derechos humanos universales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/declaracion-derechos-humanos.jpg",
+        "title": "Universal Declaration of Human Rights (1948)",
+        "source": "https://www.flickr.com/photos/75714412@N00/31456212961",
         "alt": "El documento de la Declaración Universal de los Derechos Humanos.",
-        "titulo": "Universal Declaration of Human Rights (1948)",
         "autor": "Thomas Cizauskas",
-        "fuente": "https://www.flickr.com/photos/75714412@N00/31456212961",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "<mark>Es como cerrarle la puerta a alguien solo por cómo es</mark>. Es tratar peor a alguien por su origen, género o religión. Va en contra de la igualdad y la dignidad humana. ¿Cómo se llama esta situación?",
-      "respuesta": "<mark>Discriminación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/pancarta-derechos-civiles.jpg",
+      "question": "<mark>Es como cerrarle la puerta a alguien solo por cómo es</mark>. Es tratar peor a alguien por su origen, género o religión. Va en contra de la igualdad y la dignidad humana. ¿Cómo se llama esta situación?",
+      "answer": "<mark>Discriminación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/pancarta-derechos-civiles.jpg",
+        "title": "Charles Zimmerman speaks at a civil rights rally, signs include Labor Opposes Discrimination",
+        "source": "https://www.flickr.com/photos/38445726@N04/5279334489",
         "alt": "Una manifestación con carteles contra la discriminación.",
-        "titulo": "Charles Zimmerman speaks at a civil rights rally, signs include Labor Opposes Discrimination",
         "autor": "Kheel Center, Cornell University Library",
-        "fuente": "https://www.flickr.com/photos/38445726@N04/5279334489",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Reconoce que los niños necesitan cuidados y protección especiales. Es un acuerdo internacional que protege los derechos de los menores. Incluye <mark>el derecho a la educación, la salud y a no sufrir violencia</mark>. ¿Cómo se llama este acuerdo internacional?",
-      "respuesta": "<mark>Convención sobre los Derechos del Niño</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/ninos-jugando-columpios.jpg",
+      "question": "Reconoce que los niños necesitan cuidados y protección especiales. Es un acuerdo internacional que protege los derechos de los menores. Incluye <mark>el derecho a la educación, la salud y a no sufrir violencia</mark>. ¿Cómo se llama este acuerdo internacional?",
+      "answer": "<mark>Convención sobre los Derechos del Niño</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/ninos-jugando-columpios.jpg",
+        "title": "Children playing on a swings at Delta Cooperative",
+        "source": "https://www.flickr.com/photos/38445726@N04/5279320133",
         "alt": "Niños jugando en columpios.",
-        "titulo": "Children playing on a swings at Delta Cooperative",
         "autor": "Kheel Center, Cornell University Library",
-        "fuente": "https://www.flickr.com/photos/38445726@N04/5279320133",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una lista de deberes para toda la humanidad</mark>. Son diecisiete metas mundiales para mejorar el planeta antes de 2030. Incluyen acabar con la pobreza y el hambre. ¿Cómo se llaman estas metas?",
-      "respuesta": "<mark>Objetivos de Desarrollo Sostenible</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/objetivos-desarrollo-sostenible.jpg",
+      "question": "<mark>Es como una lista de deberes para toda la humanidad</mark>. Son diecisiete metas mundiales para mejorar el planeta antes de 2030. Incluyen acabar con la pobreza y el hambre. ¿Cómo se llaman estas metas?",
+      "answer": "<mark>Objetivos de Desarrollo Sostenible</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/objetivos-desarrollo-sostenible.jpg",
+        "title": "Sustainable Development Goals (20 July 2016)",
+        "source": "https://www.flickr.com/photos/53390373@N06/28453406865",
         "alt": "El logotipo de los Objetivos de Desarrollo Sostenible.",
-        "titulo": "Sustainable Development Goals (20 July 2016)",
         "autor": "UNCTAD",
-        "fuente": "https://www.flickr.com/photos/53390373@N06/28453406865",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como reconstruir una casa mientras sigue el incendio</mark>. Sin ella es difícil construir escuelas, hospitales o economías estables. Los conflictos armados destruyen recursos y detienen el progreso. ¿Qué es la base para lograr los Objetivos de Desarrollo Sostenible?",
-      "respuesta": "<mark>La paz</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/consejo-seguridad-onu.jpg",
+      "question": "<mark>Es como reconstruir una casa mientras sigue el incendio</mark>. Sin ella es difícil construir escuelas, hospitales o economías estables. Los conflictos armados destruyen recursos y detienen el progreso. ¿Qué es la base para lograr los Objetivos de Desarrollo Sostenible?",
+      "answer": "<mark>La paz</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/consejo-seguridad-onu.jpg",
+        "title": "United Nations Security Council Resolution 1244",
+        "source": "https://www.flickr.com/photos/142872259@N05/47376758621",
         "alt": "Una reunion del Consejo de Seguridad de las Naciones Unidas.",
-        "titulo": "United Nations Security Council Resolution 1244",
         "autor": "BalkanPhotos",
-        "fuente": "https://www.flickr.com/photos/142872259@N05/47376758621",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Actúan como el armazón que sostiene la convivencia pacífica</mark>. Los Estados las crean para proteger a la población. También colaboran con otros países para mantener la paz. ¿Qué crean los Estados, junto con la policía, para proteger a la población?",
-      "respuesta": "<mark>Leyes y servicios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/parlamento-edificio.jpg",
+      "question": "<mark>Actúan como el armazón que sostiene la convivencia pacífica</mark>. Los Estados las crean para proteger a la población. También colaboran con otros países para mantener la paz. ¿Qué crean los Estados, junto con la policía, para proteger a la población?",
+      "answer": "<mark>Leyes y servicios</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/parlamento-edificio.jpg",
+        "title": "Storm brewing over the Parliament",
+        "source": "https://www.flickr.com/photos/137133598@N06/42317245170",
         "alt": "El edificio de un parlamento, sede de las instituciones de un Estado.",
-        "titulo": "Storm brewing over the Parliament",
         "autor": "cs_one",
-        "fuente": "https://www.flickr.com/photos/137133598@N06/42317245170",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Detrás de una guerra hay a menudo una razón económica escondida</mark>. Muchos conflictos históricos esconden una disputa por recursos o territorio. Entender esa relación ayuda a comprender conflictos actuales. ¿Qué recurso ha provocado tensiones, junto con el agua y las tierras fértiles?",
-      "respuesta": "<mark>El petróleo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_geografia-historia_2/plataforma-petroleo-gas.jpg",
+      "question": "<mark>Detrás de una guerra hay a menudo una razón económica escondida</mark>. Muchos conflictos históricos esconden una disputa por recursos o territorio. Entender esa relación ayuda a comprender conflictos actuales. ¿Qué recurso ha provocado tensiones, junto con el agua y las tierras fértiles?",
+      "answer": "<mark>El petróleo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_geografia-historia_2/plataforma-petroleo-gas.jpg",
+        "title": "Oil and Gas",
+        "source": "https://www.flickr.com/photos/91981596@N06/33317868280",
         "alt": "Una instalación de extracción de petróleo y gas.",
-        "titulo": "Oil and Gas",
         "autor": "mypubliclands",
-        "fuente": "https://www.flickr.com/photos/91981596@N06/33317868280",
         "licencia": "CC BY 2.0"
       }
     }

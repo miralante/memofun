@@ -1,101 +1,101 @@
 {
-  "tema": "Flujos de caja, custodia de valores y confidencialidad - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Flujos de caja, custodia de valores y confidencialidad - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Un descuento más grande reduce el dinero que entra realmente en caja por cada venta. <mark>Es como recibir menos de lo esperado por cada operación, aunque la venta se haya cerrado</mark>. Por eso hay que calcularlos con cuidado. ¿Qué reduce el dinero que entra en caja en cada venta?",
-      "respuesta": "<mark>Los descuentos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/etiqueta-descuento.jpg",
+      "question": "Un descuento más grande reduce el dinero que entra realmente en caja por cada venta. <mark>Es como recibir menos de lo esperado por cada operación, aunque la venta se haya cerrado</mark>. Por eso hay que calcularlos con cuidado. ¿Qué reduce el dinero que entra en caja en cada venta?",
+      "answer": "<mark>Los descuentos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/etiqueta-descuento.jpg",
+        "title": "New Price Red Tag",
+        "source": "https://www.flickr.com/photos/106574022@N04/10797544665",
         "alt": "Una etiqueta de precio con descuento",
-        "titulo": "New Price Red Tag",
         "autor": "MarkMoz12",
-        "fuente": "https://www.flickr.com/photos/106574022@N04/10797544665",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el movimiento de entradas y salidas de dinero en efectivo a lo largo del tiempo. <mark>Es como ver el ritmo de respiración del dinero de una empresa</mark>. Ayuda a anticipar si habrá dinero suficiente cada mes. ¿Cómo se llama este movimiento?",
-      "respuesta": "<mark>Flujos de caja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/flujo-caja.jpg",
+      "question": "Es el movimiento de entradas y salidas de dinero en efectivo a lo largo del tiempo. <mark>Es como ver el ritmo de respiración del dinero de una empresa</mark>. Ayuda a anticipar si habrá dinero suficiente cada mes. ¿Cómo se llama este movimiento?",
+      "answer": "<mark>Flujos de caja</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/flujo-caja.jpg",
+        "title": "Positive Cash Flow",
+        "source": "https://www.flickr.com/photos/167652986@N06/48574083241",
         "alt": "Un gráfico de flujo de caja positivo",
-        "titulo": "Positive Cash Flow",
         "autor": "SME Loans",
-        "fuente": "https://www.flickr.com/photos/167652986@N06/48574083241",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son espacios blindados donde se guarda dinero o documentos valiosos con protección extra. <mark>Es como un compartimento acorazado dentro de la oficina, para lo más delicado</mark>. ¿Cómo se llaman estos espacios blindados?",
-      "respuesta": "<mark>Cajas de seguridad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/puerta-caja-fuerte.jpg",
+      "question": "Son espacios blindados donde se guarda dinero o documentos valiosos con protección extra. <mark>Es como un compartimento acorazado dentro de la oficina, para lo más delicado</mark>. ¿Cómo se llaman estos espacios blindados?",
+      "answer": "<mark>Cajas de seguridad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/puerta-caja-fuerte.jpg",
+        "title": "Bank vault door",
+        "source": "https://www.flickr.com/photos/88887525@N00/2411391062",
         "alt": "La puerta de una caja fuerte bancaria",
-        "titulo": "Bank vault door",
         "autor": "walla2chick",
-        "fuente": "https://www.flickr.com/photos/88887525@N00/2411391062",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es guardar de forma segura documentos o bienes económicos importantes. <mark>Es como responsabilizarte de cuidar algo ajeno, con especial atención</mark>. Suele hacerse en cajas de seguridad o en el banco. ¿Cómo se llama esta tarea?",
-      "respuesta": "<mark>Custodia de valores</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/boveda-banco.jpg",
+      "question": "Es guardar de forma segura documentos o bienes económicos importantes. <mark>Es como responsabilizarte de cuidar algo ajeno, con especial atención</mark>. Suele hacerse en cajas de seguridad o en el banco. ¿Cómo se llama esta tarea?",
+      "answer": "<mark>Custodia de valores</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/boveda-banco.jpg",
+        "title": "DSC01398 - Inside Bank of Canada Vault",
+        "source": "https://www.flickr.com/photos/22490717@N02/44662916642",
         "alt": "El interior de una bóveda bancaria",
-        "titulo": "DSC01398 - Inside Bank of Canada Vault",
         "autor": "archer10 (Dennis)",
-        "fuente": "https://www.flickr.com/photos/22490717@N02/44662916642",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Las operaciones de tesorería implican información sensible, como saldos o movimientos de dinero. <mark>Es como no comentar en voz alta cuánto dinero tiene guardado alguien</mark>. Filtrar esa información podría generar fraudes. ¿Qué es tan importante cuidar en estas operaciones?",
-      "respuesta": "<mark>La confidencialidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/proteccion-datos.jpg",
+      "question": "Las operaciones de tesorería implican información sensible, como saldos o movimientos de dinero. <mark>Es como no comentar en voz alta cuánto dinero tiene guardado alguien</mark>. Filtrar esa información podría generar fraudes. ¿Qué es tan importante cuidar en estas operaciones?",
+      "answer": "<mark>La confidencialidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/proteccion-datos.jpg",
+        "title": "Password protection, online security concept",
+        "source": "https://www.flickr.com/photos/155753322@N06/43712541271",
         "alt": "Un candado, símbolo de la protección de datos",
-        "titulo": "Password protection, online security concept",
         "autor": "www.readyelements.com",
-        "fuente": "https://www.flickr.com/photos/155753322@N06/43712541271",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Cada vez se usan más los pagos desde el móvil, los monederos digitales o los pagos sin contacto. <mark>Es como comprar sin necesidad de sacar cartera ni monedas</mark>. Su uso ha crecido mucho en los últimos años. ¿Cómo se llaman estos medios de pago?",
-      "respuesta": "<mark>Nuevos medios de pago</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/pago-movil.jpg",
+      "question": "Cada vez se usan más los pagos desde el móvil, los monederos digitales o los pagos sin contacto. <mark>Es como comprar sin necesidad de sacar cartera ni monedas</mark>. Su uso ha crecido mucho en los últimos años. ¿Cómo se llaman estos medios de pago?",
+      "answer": "<mark>Nuevos medios de pago</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/pago-movil.jpg",
+        "title": "Wendy's Pay with Your Smartphone sign",
+        "source": "https://www.flickr.com/photos/39160147@N03/14355825950",
         "alt": "Un cartel que indica que se puede pagar con el móvil",
-        "titulo": "Wendy's Pay with Your Smartphone sign",
         "autor": "JeepersMedia",
-        "fuente": "https://www.flickr.com/photos/39160147@N03/14355825950",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Prever bien los cobros y pagos ayuda a detectar antes un posible problema de liquidez. <mark>Es como anticiparte a un bache en la carretera, en vez de encontrártelo de golpe</mark>. ¿Qué ayuda a evitar problemas de liquidez con antelación?",
-      "respuesta": "<mark>Gestionar bien los flujos de caja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/bache-carretera.jpg",
+      "question": "Prever bien los cobros y pagos ayuda a detectar antes un posible problema de liquidez. <mark>Es como anticiparte a un bache en la carretera, en vez de encontrártelo de golpe</mark>. ¿Qué ayuda a evitar problemas de liquidez con antelación?",
+      "answer": "<mark>Gestionar bien los flujos de caja</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/bache-carretera.jpg",
+        "title": "Pot-Hole-Warning-P1550559",
+        "source": "https://www.flickr.com/photos/47739225@N08/32481371467",
         "alt": "Una señal de aviso de bache en la carretera",
-        "titulo": "Pot-Hole-Warning-P1550559",
         "autor": "citytransportinfo",
-        "fuente": "https://www.flickr.com/photos/47739225@N08/32481371467",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Un descuido en el dinero físico o en la información sobre ese dinero puede causar pérdidas importantes. <mark>Es como cuidar a la vez el dinero físico y la información sobre ese dinero</mark>. Ambos aspectos van siempre de la mano. ¿Qué dos cosas hay que proteger a la vez en tesorería?",
-      "respuesta": "<mark>El efectivo y los datos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/efectivo-digital.jpg",
+      "question": "Un descuido en el dinero físico o en la información sobre ese dinero puede causar pérdidas importantes. <mark>Es como cuidar a la vez el dinero físico y la información sobre ese dinero</mark>. Ambos aspectos van siempre de la mano. ¿Qué dos cosas hay que proteger a la vez en tesorería?",
+      "answer": "<mark>El efectivo y los datos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_operaciones-auxiliares-gestion-tesoreria_2/efectivo-digital.jpg",
+        "title": "From Cash To Digital",
+        "source": "https://www.flickr.com/photos/45412570@N03/4880265002",
         "alt": "Dinero en efectivo junto a su equivalente digital",
-        "titulo": "From Cash To Digital",
         "autor": "FamZoo",
-        "fuente": "https://www.flickr.com/photos/45412570@N03/4880265002",
         "licencia": "CC BY-SA 2.0"
       }
     }

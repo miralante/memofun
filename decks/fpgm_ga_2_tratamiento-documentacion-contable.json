@@ -1,245 +1,245 @@
 {
-  "tema": "Tratamiento de la Documentación Contable - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Tratamiento de la Documentación Contable - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Cada compra y venta se anota como un asiento, dejando constancia escrita del movimiento. <mark>Es como un cuaderno que recoge cada movimiento, día a día</mark>. Se registran el importe, el IVA y las cuentas afectadas. ¿Dónde se anota cada compra y venta?",
-      "respuesta": "<mark>En el libro diario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/diario-contable.jpg",
+      "question": "Cada compra y venta se anota como un asiento, dejando constancia escrita del movimiento. <mark>Es como un cuaderno que recoge cada movimiento, día a día</mark>. Se registran el importe, el IVA y las cuentas afectadas. ¿Dónde se anota cada compra y venta?",
+      "answer": "<mark>En el libro diario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/diario-contable.jpg",
+        "title": "Journal - Kodak Archive, Series 5, 'Accounting Journals', Head Office Journal, Sep 1938 - Aug 1940",
+        "source": "https://collections.museumsvictoria.com.au/items/2028579",
         "alt": "Un libro diario contable antiguo",
-        "titulo": "Journal - Kodak Archive, Series 5, 'Accounting Journals', Head Office Journal, Sep 1938 - Aug 1940",
         "autor": "(autor desconocido)",
-        "fuente": "https://collections.museumsvictoria.com.au/items/2028579",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Es el impuesto que una empresa paga al comprar bienes o servicios. <mark>Es como lo que paga cualquier comprador de a pie, sin poder evitarlo</mark>. Ese importe se puede descontar del que la empresa cobra. ¿Cómo se llama este IVA?",
-      "respuesta": "<mark>IVA soportado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/compra-supermercado.jpg",
+      "question": "Es el impuesto que una empresa paga al comprar bienes o servicios. <mark>Es como lo que paga cualquier comprador de a pie, sin poder evitarlo</mark>. Ese importe se puede descontar del que la empresa cobra. ¿Cómo se llama este IVA?",
+      "answer": "<mark>IVA soportado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/compra-supermercado.jpg",
+        "title": "grocery shopping",
+        "source": "https://www.flickr.com/photos/61414741@N00/76740331",
         "alt": "Una persona haciendo la compra en un supermercado",
-        "titulo": "grocery shopping",
         "autor": "amishsteve",
-        "fuente": "https://www.flickr.com/photos/61414741@N00/76740331",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el impuesto que una empresa cobra a sus clientes al vender un producto o servicio. <mark>Es como pasarle a quien te compra parte de lo que luego debes a Hacienda</mark>. Ese dinero no es un ingreso real. ¿Cómo se llama este IVA?",
-      "respuesta": "<mark>IVA repercutido</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/supermercado-venta.jpg",
+      "question": "Es el impuesto que una empresa cobra a sus clientes al vender un producto o servicio. <mark>Es como pasarle a quien te compra parte de lo que luego debes a Hacienda</mark>. Ese dinero no es un ingreso real. ¿Cómo se llama este IVA?",
+      "answer": "<mark>IVA repercutido</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/supermercado-venta.jpg",
+        "title": "Somerfield Supermarket, E5 November 2009",
+        "source": "https://www.flickr.com/photos/28179929@N08/4131293399",
         "alt": "El interior de un supermercado con productos a la venta",
-        "titulo": "Somerfield Supermarket, E5 November 2009",
         "autor": "sludgegulper",
-        "fuente": "https://www.flickr.com/photos/28179929@N08/4131293399",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el seguimiento del dinero que los clientes deben pagar a la empresa. <mark>Es como llevar la cuenta de quién te debe dinero y cuándo debería pagarte</mark>. Incluye avisar de vencimientos y reclamar pagos pendientes. ¿Cómo se llama este seguimiento?",
-      "respuesta": "<mark>Gestión de cobros</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/portapapeles-seguimiento.jpg",
+      "question": "Es el seguimiento del dinero que los clientes deben pagar a la empresa. <mark>Es como llevar la cuenta de quién te debe dinero y cuándo debería pagarte</mark>. Incluye avisar de vencimientos y reclamar pagos pendientes. ¿Cómo se llama este seguimiento?",
+      "answer": "<mark>Gestión de cobros</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/portapapeles-seguimiento.jpg",
+        "title": "Clipboard Hand",
+        "source": "https://stocksnap.io/photo/clipboard-hand-TRKNLIGFAJ",
         "alt": "Alguien sosteniendo un portapapeles con anotaciones",
-        "titulo": "Clipboard Hand",
         "autor": "Kristin Hardwick",
-        "fuente": "https://stocksnap.io/photo/clipboard-hand-TRKNLIGFAJ",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es el seguimiento del dinero que la empresa debe pagar a otros. <mark>Es la otra cara de la moneda: ahora es la empresa quien debe</mark>. Ayuda a evitar retrasos con proveedores. ¿Cómo se llama este seguimiento?",
-      "respuesta": "<mark>Gestión de pagos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/paquetes-correo.jpg",
+      "question": "Es el seguimiento del dinero que la empresa debe pagar a otros. <mark>Es la otra cara de la moneda: ahora es la empresa quien debe</mark>. Ayuda a evitar retrasos con proveedores. ¿Cómo se llama este seguimiento?",
+      "answer": "<mark>Gestión de pagos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/paquetes-correo.jpg",
+        "title": "New packaging display at the United States Postal Service",
+        "source": "https://www.flickr.com/photos/51526368@N03/5116363810",
         "alt": "Paquetes y sobres de correo apilados",
-        "titulo": "New packaging display at the United States Postal Service",
         "autor": "Aranami",
-        "fuente": "https://www.flickr.com/photos/51526368@N03/5116363810",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Una nómina se anota como un gasto de personal, con las retenciones y cotizaciones correspondientes. <mark>Es como reflejar en las cuentas cuánto cuesta realmente cada trabajador</mark>. ¿Cómo se registra una nómina?",
-      "respuesta": "<mark>Como un gasto de personal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/contar-dinero-nomina.jpg",
+      "question": "Una nómina se anota como un gasto de personal, con las retenciones y cotizaciones correspondientes. <mark>Es como reflejar en las cuentas cuánto cuesta realmente cada trabajador</mark>. ¿Cómo se registra una nómina?",
+      "answer": "<mark>Como un gasto de personal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/contar-dinero-nomina.jpg",
+        "title": "Money Counting",
+        "source": "https://www.flickr.com/photos/68877611@N00/3914501583",
         "alt": "Alguien contando billetes de dinero",
-        "titulo": "Money Counting",
         "autor": "peretzp",
-        "fuente": "https://www.flickr.com/photos/68877611@N00/3914501583",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es reflejar la pérdida de valor de un bien de la empresa a lo largo del tiempo. <mark>Es como anotar poco a poco el desgaste de una máquina, en vez de todo de golpe</mark>. Se aplica a maquinaria, ordenadores o vehículos. ¿Cómo se llama a esto?",
-      "respuesta": "<mark>Amortización contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/engranajes-desgaste.jpg",
+      "question": "Es reflejar la pérdida de valor de un bien de la empresa a lo largo del tiempo. <mark>Es como anotar poco a poco el desgaste de una máquina, en vez de todo de golpe</mark>. Se aplica a maquinaria, ordenadores o vehículos. ¿Cómo se llama a esto?",
+      "answer": "<mark>Amortización contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/engranajes-desgaste.jpg",
+        "title": "Gears",
+        "source": "https://www.flickr.com/photos/61132483@N00/2975281",
         "alt": "Engranajes de una máquina, como el desgaste de un bien",
-        "titulo": "Gears",
         "autor": "Elsie esq.",
-        "fuente": "https://www.flickr.com/photos/61132483@N00/2975281",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un bien duradero sirve durante mucho tiempo, no solo cuando se compra. <mark>Es como pagar una hipoteca a plazos, en vez de todo de una vez</mark>. Así los gastos reflejan mejor el uso real. ¿Por qué se amortizan los bienes en vez de anotar su coste de golpe?",
-      "respuesta": "<mark>Porque se usan varios años</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/calendario-anos.jpg",
+      "question": "Un bien duradero sirve durante mucho tiempo, no solo cuando se compra. <mark>Es como pagar una hipoteca a plazos, en vez de todo de una vez</mark>. Así los gastos reflejan mejor el uso real. ¿Por qué se amortizan los bienes en vez de anotar su coste de golpe?",
+      "answer": "<mark>Porque se usan varios años</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/calendario-anos.jpg",
+        "title": "Calendar",
+        "source": "https://www.flickr.com/photos/28481088@N00/315671189",
         "alt": "Un calendario representando el paso del tiempo",
-        "titulo": "Calendar",
         "autor": "tanakawho",
-        "fuente": "https://www.flickr.com/photos/28481088@N00/315671189",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el proceso final del año donde se cierran todas las cuentas y se calcula el resultado. <mark>Es como hacer el resumen final de todo un año de actividad</mark>. Se comprueba si hubo beneficios o pérdidas. ¿Cómo se llama este proceso final?",
-      "respuesta": "<mark>Cierre del ejercicio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/calendario-pared.jpg",
+      "question": "Es el proceso final del año donde se cierran todas las cuentas y se calcula el resultado. <mark>Es como hacer el resumen final de todo un año de actividad</mark>. Se comprueba si hubo beneficios o pérdidas. ¿Cómo se llama este proceso final?",
+      "answer": "<mark>Cierre del ejercicio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/calendario-pared.jpg",
+        "title": "Wall Calendar - August",
+        "source": "https://www.flickr.com/photos",
         "alt": "Un calendario de pared",
-        "titulo": "Wall Calendar - August",
         "autor": "(autor desconocido)",
-        "fuente": "https://www.flickr.com/photos",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El balance, la cuenta de pérdidas y ganancias, y la memoria forman este informe completo. <mark>Es como el informe completo que resume la salud económica de la empresa</mark>. Son obligatorios para la mayoría de las empresas. ¿Cómo se llama este conjunto de documentos?",
-      "respuesta": "<mark>Cuentas anuales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/formulario-papeles.jpg",
+      "question": "El balance, la cuenta de pérdidas y ganancias, y la memoria forman este informe completo. <mark>Es como el informe completo que resume la salud económica de la empresa</mark>. Son obligatorios para la mayoría de las empresas. ¿Cómo se llama este conjunto de documentos?",
+      "answer": "<mark>Cuentas anuales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/formulario-papeles.jpg",
+        "title": "Application - pen2",
+        "source": "https://www.flickr.com/photos/124247024@N07/14110060693",
         "alt": "Un formulario con un bolígrafo, como los documentos anuales",
-        "titulo": "Application - pen2",
         "autor": "flazingo_photos",
-        "fuente": "https://www.flickr.com/photos/124247024@N07/14110060693",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el documento que resume el activo, el pasivo y el neto de la empresa. <mark>Es como una fotografía de todo lo que tiene y debe la empresa en un momento concreto</mark>. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Balance</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/balance-cuentas.jpg",
+      "question": "Es el documento que resume el activo, el pasivo y el neto de la empresa. <mark>Es como una fotografía de todo lo que tiene y debe la empresa en un momento concreto</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Balance</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/balance-cuentas.jpg",
+        "title": "Financial statistics and accounting concept",
+        "source": "https://www.flickr.com/photos/131543794@N04/16785701705",
         "alt": "Gráficos y datos financieros de una empresa",
-        "titulo": "Financial statistics and accounting concept",
         "autor": "paola.bazurto4",
-        "fuente": "https://www.flickr.com/photos/131543794@N04/16785701705",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el documento que resume los ingresos y los gastos de la empresa durante un periodo. <mark>Es como restar todo lo que has gastado a todo lo que has ingresado, para ver el resultado</mark>. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Cuenta de pérdidas y ganancias</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/numeros-finanzas.jpg",
+      "question": "Es el documento que resume los ingresos y los gastos de la empresa durante un periodo. <mark>Es como restar todo lo que has gastado a todo lo que has ingresado, para ver el resultado</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Cuenta de pérdidas y ganancias</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/numeros-finanzas.jpg",
+        "title": "Numbers And Finance",
+        "source": "https://www.flickr.com/photos/26373139@N08/5537894072",
         "alt": "Números y gráficos financieros",
-        "titulo": "Numbers And Finance",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/5537894072",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un programa informático que ayuda a llevar la contabilidad de una empresa. <mark>Es como automatizar buena parte del trabajo que antes se hacía a mano, en libros de papel</mark>. Reduce mucho los errores humanos. ¿Cómo se llama este tipo de programa?",
-      "respuesta": "<mark>Software de gestión contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/software-contable2.jpg",
+      "question": "Es un programa informático que ayuda a llevar la contabilidad de una empresa. <mark>Es como automatizar buena parte del trabajo que antes se hacía a mano, en libros de papel</mark>. Reduce mucho los errores humanos. ¿Cómo se llama este tipo de programa?",
+      "answer": "<mark>Software de gestión contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/software-contable2.jpg",
+        "title": "Accounting Finance",
+        "source": "https://stocksnap.io/photo/accounting-finance-JONMP7TPGK",
         "alt": "Alguien usando un programa de contabilidad en el ordenador",
-        "titulo": "Accounting Finance",
         "autor": "Wilfred Iven",
-        "fuente": "https://stocksnap.io/photo/accounting-finance-JONMP7TPGK",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es un programa que ayuda a crear, gestionar y archivar documentos de venta de forma digital. <mark>Es como tener una máquina que rellena y organiza esos papeles automáticamente</mark>. Muchos calculan el IVA de forma automática. ¿Cómo se llama este tipo de programa?",
-      "respuesta": "<mark>Software de facturación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/imprimiendo-facturas.jpg",
+      "question": "Es un programa que ayuda a crear, gestionar y archivar documentos de venta de forma digital. <mark>Es como tener una máquina que rellena y organiza esos papeles automáticamente</mark>. Muchos calculan el IVA de forma automática. ¿Cómo se llama este tipo de programa?",
+      "answer": "<mark>Software de facturación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/imprimiendo-facturas.jpg",
+        "title": "Printing my articles",
+        "source": "https://www.flickr.com/photos/77476789@N00/2192939015",
         "alt": "Alguien imprimiendo documentos",
-        "titulo": "Printing my articles",
         "autor": "the Italian voice",
-        "fuente": "https://www.flickr.com/photos/77476789@N00/2192939015",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Que estos dos programas estén conectados evita introducir la misma información dos veces. <mark>Es como conectar dos tuberías para que el agua fluya sin trasvasarla a mano</mark>. Esa conexión reduce errores y ahorra tiempo. ¿Qué dos tipos de programas conviene tener conectados?",
-      "respuesta": "<mark>Contabilidad y facturación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/tuberias-conectadas.jpg",
+      "question": "Que estos dos programas estén conectados evita introducir la misma información dos veces. <mark>Es como conectar dos tuberías para que el agua fluya sin trasvasarla a mano</mark>. Esa conexión reduce errores y ahorra tiempo. ¿Qué dos tipos de programas conviene tener conectados?",
+      "answer": "<mark>Contabilidad y facturación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/tuberias-conectadas.jpg",
+        "title": "Safety-Set_Manometer-Air-vent-Dual-Safety-Valve__41664",
+        "source": "https://www.flickr.com/photos/28958738@N06/6990705505",
         "alt": "Tuberías conectadas entre sí",
-        "titulo": "Safety-Set_Manometer-Air-vent-Dual-Safety-Valve__41664",
         "autor": "Public Domain Photos",
-        "fuente": "https://www.flickr.com/photos/28958738@N06/6990705505",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La diferencia entre el IVA soportado y el repercutido determina cuánto hay que pagar o recuperar de Hacienda. <mark>Es como hacer balance entre lo que has pagado de más y lo que has cobrado de más</mark>. ¿Qué se calcula con esa diferencia?",
-      "respuesta": "<mark>La declaración trimestral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/formularios-calculadora.jpg",
+      "question": "La diferencia entre el IVA soportado y el repercutido determina cuánto hay que pagar o recuperar de Hacienda. <mark>Es como hacer balance entre lo que has pagado de más y lo que has cobrado de más</mark>. ¿Qué se calcula con esa diferencia?",
+      "answer": "<mark>La declaración trimestral</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/formularios-calculadora.jpg",
+        "title": "Tax Forms and Calculator",
+        "source": "https://www.flickr.com/photos/68751915@N05",
         "alt": "Formularios de impuestos junto a una calculadora",
-        "titulo": "Tax Forms and Calculator",
         "autor": "401(K) 2013",
-        "fuente": "https://www.flickr.com/photos/68751915@N05",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Llevar esto al día afecta directamente a la liquidez y a la reputación de la empresa. <mark>Es como mantener organizado tanto lo que te deben como lo que debes tú</mark>. Un descontrol causa problemas económicos. ¿Qué es importante llevar siempre al día?",
-      "respuesta": "<mark>Cobros y pagos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/pared-documentos.jpg",
+      "question": "Llevar esto al día afecta directamente a la liquidez y a la reputación de la empresa. <mark>Es como mantener organizado tanto lo que te deben como lo que debes tú</mark>. Un descontrol causa problemas económicos. ¿Qué es importante llevar siempre al día?",
+      "answer": "<mark>Cobros y pagos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/pared-documentos.jpg",
+        "title": "Massive Wall of Organized Documents",
+        "source": "https://www.flickr.com/photos/55476234@N00/2112069242",
         "alt": "Una pared llena de documentos organizados",
-        "titulo": "Massive Wall of Organized Documents",
         "autor": "Zeusandhera",
-        "fuente": "https://www.flickr.com/photos/55476234@N00/2112069242",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Las amortizaciones se consideran un gasto, así que afectan al beneficio contable del año. <mark>Es como restar poco a poco el desgaste de tus herramientas al calcular tu beneficio real</mark>. ¿Qué hacen las amortizaciones con el resultado del ejercicio?",
-      "respuesta": "<mark>Lo reducen</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/alicates-desgastados.jpg",
+      "question": "Las amortizaciones se consideran un gasto, así que afectan al beneficio contable del año. <mark>Es como restar poco a poco el desgaste de tus herramientas al calcular tu beneficio real</mark>. ¿Qué hacen las amortizaciones con el resultado del ejercicio?",
+      "answer": "<mark>Lo reducen</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/alicates-desgastados.jpg",
+        "title": "Rusty pliers resting on a weathered wooden surface in a workshop setting",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=186624330",
         "alt": "Unas herramientas desgastadas por el uso",
-        "titulo": "Rusty pliers resting on a weathered wooden surface in a workshop setting",
         "autor": "Shixart1985",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=186624330",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Este módulo aplica los mismos principios de 1º a documentos y casos más completos. <mark>Es como pasar de aprender la teoría a aplicarla en situaciones reales de una oficina</mark>. ¿Qué módulo de 1º continúa este tratamiento de documentación contable?",
-      "respuesta": "<mark>Técnica Contable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/estudiantes-aprendiendo.jpg",
+      "question": "Este módulo aplica los mismos principios de 1º a documentos y casos más completos. <mark>Es como pasar de aprender la teoría a aplicarla en situaciones reales de una oficina</mark>. ¿Qué módulo de 1º continúa este tratamiento de documentación contable?",
+      "answer": "<mark>Técnica Contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/estudiantes-aprendiendo.jpg",
+        "title": "Students Learning",
+        "source": "https://www.flickr.com/photos/41087714@N00/253197253",
         "alt": "Estudiantes aprendiendo en una clase",
-        "titulo": "Students Learning",
         "autor": "Rex Pe",
-        "fuente": "https://www.flickr.com/photos/41087714@N00/253197253",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un error contable puede tener consecuencias legales y económicas graves. <mark>Es como un pequeño fallo en una cuenta que, sin corregir, puede crecer con el tiempo</mark>. ¿Qué es tan importante al tratar la documentación contable?",
-      "respuesta": "<mark>La exactitud</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/lapiz-regla.jpg",
+      "question": "Un error contable puede tener consecuencias legales y económicas graves. <mark>Es como un pequeño fallo en una cuenta que, sin corregir, puede crecer con el tiempo</mark>. ¿Qué es tan importante al tratar la documentación contable?",
+      "answer": "<mark>La exactitud</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable/lapiz-regla.jpg",
+        "title": "Pencil and ruler",
+        "source": "https://www.flickr.com/photos/74624435@N00/177749386",
         "alt": "Un lápiz y una regla, herramientas de precisión",
-        "titulo": "Pencil and ruler",
         "autor": "mdxdt",
-        "fuente": "https://www.flickr.com/photos/74624435@N00/177749386",
         "licencia": "CC BY 2.0"
       }
     }

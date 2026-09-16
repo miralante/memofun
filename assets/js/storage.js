@@ -3,9 +3,9 @@
    Exposes window.App.storage.get(key) / .set(key, data) / .remove(key) /
    .clearAll(). Internal prefix: 'memofun:'. No personal data, no accounts.
 
-   Progress contract (SPEC.md §2.6, same as Apptonomia): only 'progreso'
-   is written by the study flow, and it only ever holds `estrellas`
-   (integer, only added to) and `completado` (which decks have been
+   Progress contract (SPEC.md §2.6, same as Apptonomia): only 'progress'
+   is written by the study flow, and it only ever holds `stars`
+   (integer, only added to) and `completed` (which decks have been
    studied through at least once). Never stored: failures, time taken,
    attempt counts, or anything that identifies the person.
    ========================================================================== */
@@ -29,7 +29,15 @@
   function get(key) {
     try {
       var raw = localStorage.getItem(PREFIX + key);
-      return raw ? JSON.parse(raw) : {};
+      var data = raw ? JSON.parse(raw) : {};
+      /* Migrate 'estrellas' → 'stars' (Apr 2025 rename). Read both keys so
+         existing users keep their progress; prefer 'stars' if both are present. */
+      if ('estrellas' in data && !('stars' in data)) {
+        data.stars = data.estrellas;
+        delete data.estrellas;
+        try { localStorage.setItem(PREFIX + key, JSON.stringify(data)); } catch (e2) { /* tolerated */ }
+      }
+      return data;
     } catch (e) {
       return {};
     }
@@ -70,20 +78,21 @@
   /** Marks a deck as completed at least once and adds one star. Stars only
       ever go up (SPEC.md §2.2: never subtracted as punishment). */
   function completeDeck(deckId) {
-    var progreso = get('progreso');
-    progreso.estrellas = (progreso.estrellas || 0) + 1;
-    progreso.completado = progreso.completado || {};
-    progreso.completado[deckId] = true;
-    set('progreso', progreso);
-    return progreso;
+    var progress = get('progress');
+    progress.stars = (progress.stars || 0) + 1;
+    progress.completed = progress.completed || {};
+    progress.completed[deckId] = true;
+    set('progress', progress);
+    return progress;
   }
 
   /** Total stars earned across every deck, shown in the header on every
-      page (same pattern as Apptonomia's estrellasTotales()). Memofun
-      keeps a single 'progreso' record rather than one per deck, so this
+      page (same pattern as Apptonomia's totalStars()). Memofun
+      keeps a single 'progress' record rather than one per deck, so this
       is a direct read rather than a sum across keys. */
   function totalStars() {
-    return get('progreso').estrellas || 0;
+    var progress = get('progress');
+    return progress.stars || progress.estrellas || 0;
   }
 
   window.App.storage = {

@@ -1,71 +1,71 @@
 {
-  "tema": "Textos de comunicación: prensa, currículum y debate académico - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Textos de comunicación: prensa, currículum y debate académico - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Un texto cuenta un hecho real y reciente, de forma breve y clara. Responde a qué, quién, cuándo y dónde. <mark>Es como un resumen rápido de algo que acaba de pasar</mark>. ¿Cómo se llama este tipo de texto periodístico?",
-      "respuesta": "<mark>La noticia</mark>"
+      "question": "Un texto cuenta un hecho real y reciente, de forma breve y clara. Responde a qué, quién, cuándo y dónde. <mark>Es como un resumen rápido de algo que acaba de pasar</mark>. ¿Cómo se llama este tipo de texto periodístico?",
+      "answer": "<mark>La noticia</mark>"
     },
     {
-      "pregunta": "En una noticia, lo más importante va siempre al principio. <mark>Es como servir primero el plato principal, y el postre después</mark>. Así, quien solo lee el titular ya sabe lo esencial. ¿Cómo se llama esta forma de organizar una noticia?",
-      "respuesta": "<mark>Pirámide invertida</mark>"
+      "question": "En una noticia, lo más importante va siempre al principio. <mark>Es como servir primero el plato principal, y el postre después</mark>. Así, quien solo lee el titular ya sabe lo esencial. ¿Cómo se llama esta forma de organizar una noticia?",
+      "answer": "<mark>Pirámide invertida</mark>"
     },
     {
-      "pregunta": "Un texto cuenta un hecho real, pero con el estilo propio de quien escribe. <mark>Es como una noticia contada por alguien que también opina un poco</mark>. Mezcla datos con impresiones personales, por ejemplo de un partido de fútbol. ¿Cómo se llama este tipo de texto periodístico?",
-      "respuesta": "<mark>La crónica</mark>"
+      "question": "Un texto cuenta un hecho real, pero con el estilo propio de quien escribe. <mark>Es como una noticia contada por alguien que también opina un poco</mark>. Mezcla datos con impresiones personales, por ejemplo de un partido de fútbol. ¿Cómo se llama este tipo de texto periodístico?",
+      "answer": "<mark>La crónica</mark>"
     },
     {
-      "pregunta": "Una noticia cuenta algo rápido y muy reciente. Otro tipo de texto investiga un tema a fondo, con tiempo y mucho detalle. <mark>Es la diferencia entre una foto y un documental</mark>. ¿Cómo se llama este texto que investiga a fondo, con entrevistas y datos?",
-      "respuesta": "<mark>El reportaje</mark>"
+      "question": "Una noticia cuenta algo rápido y muy reciente. Otro tipo de texto investiga un tema a fondo, con tiempo y mucho detalle. <mark>Es la diferencia entre una foto y un documental</mark>. ¿Cómo se llama este texto que investiga a fondo, con entrevistas y datos?",
+      "answer": "<mark>El reportaje</mark>"
     },
     {
-      "pregunta": "Un texto no solo cuenta hechos, también los valora, como la voz razonada de una persona experta. <mark>Usa argumentos para intentar convencer a quien lo lee</mark>. ¿Cómo se llama este tipo de texto periodístico?",
-      "respuesta": "<mark>Artículo de opinión</mark>"
+      "question": "Un texto no solo cuenta hechos, también los valora, como la voz razonada de una persona experta. <mark>Usa argumentos para intentar convencer a quien lo lee</mark>. ¿Cómo se llama este tipo de texto periodístico?",
+      "answer": "<mark>Artículo de opinión</mark>"
     },
     {
-      "pregunta": "Un artículo de opinión aparece siempre, cada cierto tiempo, firmado por la misma persona. <mark>Es como una voz fija que siempre aparece en el mismo lugar</mark>. Tiene un tono más personal y cercano. ¿Cómo se llama este tipo de artículo de opinión periódico?",
-      "respuesta": "<mark>La columna</mark>"
+      "question": "Un artículo de opinión aparece siempre, cada cierto tiempo, firmado por la misma persona. <mark>Es como una voz fija que siempre aparece en el mismo lugar</mark>. Tiene un tono más personal y cercano. ¿Cómo se llama este tipo de artículo de opinión periódico?",
+      "answer": "<mark>La columna</mark>"
     },
     {
-      "pregunta": "Un artículo de opinión puede aparecer una sola vez, sobre un tema puntual. Otro texto aparece siempre, firmado por la misma persona. <mark>Es la diferencia entre una carta suelta y una serie de cartas</mark>. ¿Cómo se llama este segundo texto, que se repite siempre?",
-      "respuesta": "<mark>La columna</mark>"
+      "question": "Un artículo de opinión puede aparecer una sola vez, sobre un tema puntual. Otro texto aparece siempre, firmado por la misma persona. <mark>Es la diferencia entre una carta suelta y una serie de cartas</mark>. ¿Cómo se llama este segundo texto, que se repite siempre?",
+      "answer": "<mark>La columna</mark>"
     },
     {
-      "pregunta": "Un documento resume tu formación y tu experiencia laboral. <mark>Es como una tarjeta de presentación con tu recorrido profesional</mark>. Incluye tus estudios, idiomas y trabajos anteriores. ¿Cómo se llama este documento que sirve para buscar empleo?",
-      "respuesta": "<mark>Currículum vitae</mark>"
+      "question": "Un documento resume tu formación y tu experiencia laboral. <mark>Es como una tarjeta de presentación con tu recorrido profesional</mark>. Incluye tus estudios, idiomas y trabajos anteriores. ¿Cómo se llama este documento que sirve para buscar empleo?",
+      "answer": "<mark>Currículum vitae</mark>"
     },
     {
-      "pregunta": "Un texto acompaña al currículum y explica por qué quieres un trabajo. <mark>Es como una breve charla escrita antes de la entrevista</mark>. Cuenta tu motivación con tus propias palabras. ¿Cómo se llama este texto que acompaña al currículum?",
-      "respuesta": "<mark>Carta de presentación</mark>"
+      "question": "Un texto acompaña al currículum y explica por qué quieres un trabajo. <mark>Es como una breve charla escrita antes de la entrevista</mark>. Cuenta tu motivación con tus propias palabras. ¿Cómo se llama este texto que acompaña al currículum?",
+      "answer": "<mark>Carta de presentación</mark>"
     },
     {
-      "pregunta": "El currículum aporta los datos: estudios, idiomas y experiencia. La carta de presentación aporta el motivo, con tus propias palabras. <mark>Es como enviar una ficha técnica junto a una carta personal</mark>. ¿Qué dan juntos estos dos documentos sobre la persona candidata?",
-      "respuesta": "<mark>Una imagen completa</mark>"
+      "question": "El currículum aporta los datos: estudios, idiomas y experiencia. La carta de presentación aporta el motivo, con tus propias palabras. <mark>Es como enviar una ficha técnica junto a una carta personal</mark>. ¿Qué dan juntos estos dos documentos sobre la persona candidata?",
+      "answer": "<mark>Una imagen completa</mark>"
     },
     {
-      "pregunta": "Un ejercicio explica con detalle qué dice un escrito y cómo lo dice. <mark>Es como abrir un reloj para ver sus piezas por dentro</mark>. Se fija en el tema, la forma y el estilo. ¿Cómo se llama este ejercicio sobre un texto literario?",
-      "respuesta": "<mark>Comentario de texto</mark>"
+      "question": "Un ejercicio explica con detalle qué dice un escrito y cómo lo dice. <mark>Es como abrir un reloj para ver sus piezas por dentro</mark>. Se fija en el tema, la forma y el estilo. ¿Cómo se llama este ejercicio sobre un texto literario?",
+      "answer": "<mark>Comentario de texto</mark>"
     },
     {
-      "pregunta": "Antes de comentar un texto, primero se localiza: su autor, su época y su obra. Después se busca el tema principal y cómo está organizado. <mark>Es como seguir un mapa antes de explorar un lugar nuevo</mark>. ¿Qué se hace al final de un comentario de texto?",
-      "respuesta": "<mark>Valorar el estilo y concluir</mark>"
+      "question": "Antes de comentar un texto, primero se localiza: su autor, su época y su obra. Después se busca el tema principal y cómo está organizado. <mark>Es como seguir un mapa antes de explorar un lugar nuevo</mark>. ¿Qué se hace al final de un comentario de texto?",
+      "answer": "<mark>Valorar el estilo y concluir</mark>"
     },
     {
-      "pregunta": "La forma de un texto incluye sus palabras, su ritmo y sus figuras. <mark>Es como fijarse en cómo está pintado un cuadro, no solo en qué muestra</mark>. Un mismo tema suena distinto según cómo se cuente. ¿Qué transmite también la forma de un texto, además del tema?",
-      "respuesta": "<mark>Emociones</mark>"
+      "question": "La forma de un texto incluye sus palabras, su ritmo y sus figuras. <mark>Es como fijarse en cómo está pintado un cuadro, no solo en qué muestra</mark>. Un mismo tema suena distinto según cómo se cuente. ¿Qué transmite también la forma de un texto, además del tema?",
+      "answer": "<mark>Emociones</mark>"
     },
     {
-      "pregunta": "Una conversación ordenada defiende ideas distintas sobre un tema. <mark>Es como un partido de tenis, pero con argumentos en vez de pelotas</mark>. Cada persona expone su postura con razones. ¿Cómo se llama esta conversación ordenada?",
-      "respuesta": "<mark>Debate académico</mark>"
+      "question": "Una conversación ordenada defiende ideas distintas sobre un tema. <mark>Es como un partido de tenis, pero con argumentos en vez de pelotas</mark>. Cada persona expone su postura con razones. ¿Cómo se llama esta conversación ordenada?",
+      "answer": "<mark>Debate académico</mark>"
     },
     {
-      "pregunta": "En un debate, cada postura necesita razones que la sostengan. <mark>Es como un ladrillo que sostiene una pared de opiniones</mark>. Una buena razón se explica, no solo se afirma. ¿Cómo se llama esta razón que apoya una idea?",
-      "respuesta": "<mark>Un argumento</mark>"
+      "question": "En un debate, cada postura necesita razones que la sostengan. <mark>Es como un ladrillo que sostiene una pared de opiniones</mark>. Una buena razón se explica, no solo se afirma. ¿Cómo se llama esta razón que apoya una idea?",
+      "answer": "<mark>Un argumento</mark>"
     },
     {
-      "pregunta": "Si todos hablan a la vez en un debate, nadie entiende bien las ideas. <mark>Es como una orquesta: si todos tocan a la vez, no hay música</mark>. Esperar para hablar permite escuchar bien cada argumento. ¿Qué es importante respetar durante un debate?",
-      "respuesta": "<mark>Los turnos de palabra</mark>"
+      "question": "Si todos hablan a la vez en un debate, nadie entiende bien las ideas. <mark>Es como una orquesta: si todos tocan a la vez, no hay música</mark>. Esperar para hablar permite escuchar bien cada argumento. ¿Qué es importante respetar durante un debate?",
+      "answer": "<mark>Los turnos de palabra</mark>"
     }
   ]
 }

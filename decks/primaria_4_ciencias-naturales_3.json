@@ -1,71 +1,71 @@
 {
-  "tema": "La luz, el sonido y la electricidad - 4º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La luz, el sonido y la electricidad - 4º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Sale del Sol, de una bombilla o de una vela. <mark>Viaja tan rápido que llega del Sol a la Tierra en minutos</mark>. ¿Cómo se llama esta forma de energía?",
-      "respuesta": "<mark>Luz</mark>"
+      "question": "Sale del Sol, de una bombilla o de una vela. <mark>Viaja tan rápido que llega del Sol a la Tierra en minutos</mark>. ¿Cómo se llama esta forma de energía?",
+      "answer": "<mark>Luz</mark>"
     },
     {
-      "pregunta": "Viaja siempre en línea recta, sin curvarse nunca. <mark>Es como una flecha que no cambia de camino</mark>. ¿Cómo viaja siempre la luz?",
-      "respuesta": "<mark>En línea recta</mark>"
+      "question": "Viaja siempre en línea recta, sin curvarse nunca. <mark>Es como una flecha que no cambia de camino</mark>. ¿Cómo viaja siempre la luz?",
+      "answer": "<mark>En línea recta</mark>"
     },
     {
-      "pregunta": "Aparece cuando algo bloquea el paso de la luz. <mark>Es como una silueta oscura que copia tu forma en el suelo</mark>. Cuanto más cerca está la luz, más grande sale. ¿Cómo se llama esta zona oscura?",
-      "respuesta": "<mark>Sombra</mark>"
+      "question": "Aparece cuando algo bloquea el paso de la luz. <mark>Es como una silueta oscura que copia tu forma en el suelo</mark>. Cuanto más cerca está la luz, más grande sale. ¿Cómo se llama esta zona oscura?",
+      "answer": "<mark>Sombra</mark>"
     },
     {
-      "pregunta": "Unos materiales dejan pasar la luz, como el cristal. Otros no la dejan pasar, como la madera. <mark>Es como una puerta abierta frente a una cerrada</mark>. ¿Cómo se llaman los que sí dejan pasar la luz?",
-      "respuesta": "<mark>Transparentes</mark>"
+      "question": "Unos materiales dejan pasar la luz, como el cristal. Otros no la dejan pasar, como la madera. <mark>Es como una puerta abierta frente a una cerrada</mark>. ¿Cómo se llaman los que sí dejan pasar la luz?",
+      "answer": "<mark>Transparentes</mark>"
     },
     {
-      "pregunta": "La luz rebota al chocar contra un espejo. <mark>Es como una pelota que rebota al golpear una pared</mark>. Así puedes verte en un espejo. ¿Cómo se llama este rebote de la luz?",
-      "respuesta": "<mark>Reflexión</mark>"
+      "question": "La luz rebota al chocar contra un espejo. <mark>Es como una pelota que rebota al golpear una pared</mark>. Así puedes verte en un espejo. ¿Cómo se llama este rebote de la luz?",
+      "answer": "<mark>Reflexión</mark>"
     },
     {
-      "pregunta": "Es una forma de energía que llega hasta tu oído. Se produce con vibraciones muy rápidas. <mark>Es como una ola invisible que se mueve por el aire</mark>. ¿Cómo se llama esta forma de energía?",
-      "respuesta": "<mark>Sonido</mark>"
+      "question": "Es una forma de energía que llega hasta tu oído. Se produce con vibraciones muy rápidas. <mark>Es como una ola invisible que se mueve por el aire</mark>. ¿Cómo se llama esta forma de energía?",
+      "answer": "<mark>Sonido</mark>"
     },
     {
-      "pregunta": "Una cuerda de guitarra tiembla muy deprisa al tocarla. <mark>Es como agitar una goma elástica</mark>. Ese temblor produce el sonido. ¿Cómo se llama este temblor rápido?",
-      "respuesta": "<mark>Vibración</mark>"
+      "question": "Una cuerda de guitarra tiembla muy deprisa al tocarla. <mark>Es como agitar una goma elástica</mark>. Ese temblor produce el sonido. ¿Cómo se llama este temblor rápido?",
+      "answer": "<mark>Vibración</mark>"
     },
     {
-      "pregunta": "El sonido viaja por el aire en forma de ondas. <mark>Son como los círculos que se forman al tirar una piedra al agua</mark>. Esas llegan hasta tu oído y lo hacen vibrar. ¿Cómo se llaman estas ondas que llevan el sonido?",
-      "respuesta": "<mark>Ondas sonoras</mark>"
+      "question": "El sonido viaja por el aire en forma de ondas. <mark>Son como los círculos que se forman al tirar una piedra al agua</mark>. Esas llegan hasta tu oído y lo hacen vibrar. ¿Cómo se llaman estas ondas que llevan el sonido?",
+      "answer": "<mark>Ondas sonoras</mark>"
     },
     {
-      "pregunta": "Es el sonido que rebota en una superficie y vuelve a oírse. <mark>Es como una pelota que choca en una pared y regresa</mark>. Ocurre en lugares grandes y vacíos, como una cueva. ¿Cómo se llama este sonido que rebota?",
-      "respuesta": "<mark>Eco</mark>"
+      "question": "Es el sonido que rebota en una superficie y vuelve a oírse. <mark>Es como una pelota que choca en una pared y regresa</mark>. Ocurre en lugares grandes y vacíos, como una cueva. ¿Cómo se llama este sonido que rebota?",
+      "answer": "<mark>Eco</mark>"
     },
     {
-      "pregunta": "El sonido necesita aire u otro material para moverse. <mark>Es como intentar nadar sin agua: nada te empuja</mark>. Por eso los astronautas usan la radio, no gritan. ¿Por dónde no puede viajar el sonido, porque no hay aire?",
-      "respuesta": "<mark>El espacio</mark>"
+      "question": "El sonido necesita aire u otro material para moverse. <mark>Es como intentar nadar sin agua: nada te empuja</mark>. Por eso los astronautas usan la radio, no gritan. ¿Por dónde no puede viajar el sonido, porque no hay aire?",
+      "answer": "<mark>El espacio</mark>"
     },
     {
-      "pregunta": "Es un camino cerrado por donde viaja la electricidad. <mark>Es como una pista de carreras sin cortes ni atajos</mark>. Necesita una pila, cables y algo que use esa energía. ¿Cómo se llama este camino para la electricidad?",
-      "respuesta": "<mark>Circuito eléctrico</mark>"
+      "question": "Es un camino cerrado por donde viaja la electricidad. <mark>Es como una pista de carreras sin cortes ni atajos</mark>. Necesita una pila, cables y algo que use esa energía. ¿Cómo se llama este camino para la electricidad?",
+      "answer": "<mark>Circuito eléctrico</mark>"
     },
     {
-      "pregunta": "Una pila da la energía y un cable la transporta. <mark>Es como una tubería que lleva agua hasta el grifo</mark>. La bombilla se enciende cuando le llega esa energía. ¿Qué tres partes forman un circuito sencillo?",
-      "respuesta": "<mark>Pila, cable y bombilla</mark>"
+      "question": "Una pila da la energía y un cable la transporta. <mark>Es como una tubería que lleva agua hasta el grifo</mark>. La bombilla se enciende cuando le llega esa energía. ¿Qué tres partes forman un circuito sencillo?",
+      "answer": "<mark>Pila, cable y bombilla</mark>"
     },
     {
-      "pregunta": "En un tipo de circuito, la electricidad circula sin cortes. En el otro hay un hueco que la detiene. <mark>Es como un puente roto: el paso queda cortado</mark>. ¿Cómo se llama el circuito donde la electricidad sí circula?",
-      "respuesta": "<mark>Circuito cerrado</mark>"
+      "question": "En un tipo de circuito, la electricidad circula sin cortes. En el otro hay un hueco que la detiene. <mark>Es como un puente roto: el paso queda cortado</mark>. ¿Cómo se llama el circuito donde la electricidad sí circula?",
+      "answer": "<mark>Circuito cerrado</mark>"
     },
     {
-      "pregunta": "Sirve para abrir o cerrar el circuito cuando quieras. <mark>Es como una llave que abre y cierra el paso del agua</mark>. Al apretarlo, decides si la electricidad circula. ¿Cómo se llama este objeto?",
-      "respuesta": "<mark>Interruptor</mark>"
+      "question": "Sirve para abrir o cerrar el circuito cuando quieras. <mark>Es como una llave que abre y cierra el paso del agua</mark>. Al apretarlo, decides si la electricidad circula. ¿Cómo se llama este objeto?",
+      "answer": "<mark>Interruptor</mark>"
     },
     {
-      "pregunta": "Dejan pasar bien la electricidad, como el metal. <mark>Son como una autopista rápida para la corriente eléctrica</mark>. Por eso los cables tienen un núcleo de metal. ¿Cómo se llaman estos materiales?",
-      "respuesta": "<mark>Conductores</mark>"
+      "question": "Dejan pasar bien la electricidad, como el metal. <mark>Son como una autopista rápida para la corriente eléctrica</mark>. Por eso los cables tienen un núcleo de metal. ¿Cómo se llaman estos materiales?",
+      "answer": "<mark>Conductores</mark>"
     },
     {
-      "pregunta": "No dejan pasar la electricidad, como el plástico. Por eso cubren los cables por fuera. <mark>Son como un chaleco protector que evita que la electricidad escape</mark>. ¿Cómo se llaman estos materiales que protegen de la electricidad?",
-      "respuesta": "<mark>Aislantes</mark>"
+      "question": "No dejan pasar la electricidad, como el plástico. Por eso cubren los cables por fuera. <mark>Son como un chaleco protector que evita que la electricidad escape</mark>. ¿Cómo se llaman estos materiales que protegen de la electricidad?",
+      "answer": "<mark>Aislantes</mark>"
     }
   ]
 }

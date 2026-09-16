@@ -1,125 +1,125 @@
 {
-  "tema": "Literatura - 4º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 4º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un texto que cuenta una historia con hechos. <mark>Es como contarle a alguien lo que pasó, en orden</mark>. Los cuentos y las novelas son de este tipo. ¿Cómo se llama este tipo de texto?",
-      "respuesta": "<mark>Texto narrativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/texto-narrativo.jpg",
+      "question": "Es un texto que cuenta una historia con hechos. <mark>Es como contarle a alguien lo que pasó, en orden</mark>. Los cuentos y las novelas son de este tipo. ¿Cómo se llama este tipo de texto?",
+      "answer": "<mark>Texto narrativo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/texto-narrativo.jpg",
+        "title": "Picture Books",
+        "source": "https://www.flickr.com/photos/47823583@N03/4385119849",
         "alt": "Varias cestas de una biblioteca llenas de libros de cuentos para niños",
-        "titulo": "Picture Books",
         "autor": "Enokson",
-        "fuente": "https://www.flickr.com/photos/47823583@N03/4385119849",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al leer una historia, sigue qué pasó antes, durante y después. <mark>Es como seguir las páginas de un libro, una tras otra</mark>. Si te saltas partes, la historia te confunde. ¿Qué es esto que debes seguir?",
-      "respuesta": "<mark>El orden</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/lectura-atenta.jpg",
+      "question": "Al leer una historia, sigue qué pasó antes, durante y después. <mark>Es como seguir las páginas de un libro, una tras otra</mark>. Si te saltas partes, la historia te confunde. ¿Qué es esto que debes seguir?",
+      "answer": "<mark>El orden</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/lectura-atenta.jpg",
+        "title": "Caught Reading",
+        "source": "https://www.flickr.com/photos/24742305@N00/6475701897",
         "alt": "Un niño leyendo con atención",
-        "titulo": "Caught Reading",
         "autor": "John-Morgan",
-        "fuente": "https://www.flickr.com/photos/24742305@N00/6475701897",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Toda narración completa tiene tres partes en este orden. <mark>Es como un viaje: sales, pasas por el camino y llegas</mark>. Van siempre en ese orden, nunca al revés. ¿Cómo se llaman estas tres partes?",
-      "respuesta": "<mark>Principio, nudo y desenlace</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/caperucita-libro.jpg",
+      "question": "Toda narración completa tiene tres partes en este orden. <mark>Es como un viaje: sales, pasas por el camino y llegas</mark>. Van siempre en ese orden, nunca al revés. ¿Cómo se llaman estas tres partes?",
+      "answer": "<mark>Principio, nudo y desenlace</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/caperucita-libro.jpg",
+        "title": "Little Red Riding-Hood picture book (1865)",
+        "source": "https://www.flickr.com/photos/43021516@N06/23184167653",
         "alt": "Un libro ilustrado de un cuento clásico",
-        "titulo": "Little Red Riding-Hood picture book (1865)",
         "autor": "Toronto Public Library Special Collections",
-        "fuente": "https://www.flickr.com/photos/43021516@N06/23184167653",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "En esta parte de la historia aparece un problema o un reto. <mark>Es como cuando se te enreda el cordón del zapato</mark>. Por ejemplo, el protagonista se pierde o pierde algo. ¿Cómo se llama esta parte?",
-      "respuesta": "<mark>El nudo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/nudo-cuerda.jpg",
+      "question": "En esta parte de la historia aparece un problema o un reto. <mark>Es como cuando se te enreda el cordón del zapato</mark>. Por ejemplo, el protagonista se pierde o pierde algo. ¿Cómo se llama esta parte?",
+      "answer": "<mark>El nudo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/nudo-cuerda.jpg",
+        "title": "(K)not going anywhere",
+        "source": "https://www.flickr.com/photos/90692748@N04/43639526790",
         "alt": "Una cuerda con un nudo",
-        "titulo": "(K)not going anywhere",
         "autor": "docoverachiever",
-        "fuente": "https://www.flickr.com/photos/90692748@N04/43639526790",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esta parte resuelve el problema que planteaba el nudo. <mark>Es como el pitido final de un partido de fútbol</mark>. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta última parte?",
-      "respuesta": "<mark>El desenlace</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/final-cinta.jpg",
+      "question": "Esta parte resuelve el problema que planteaba el nudo. <mark>Es como el pitido final de un partido de fútbol</mark>. Puede terminar bien o mal para el protagonista. ¿Cómo se llama esta última parte?",
+      "answer": "<mark>El desenlace</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/final-cinta.jpg",
+        "title": "Running event organizer hands out finish line ribbon to participants at a race in a busy town square",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=193163417",
         "alt": "La cinta de meta al final de una carrera",
-        "titulo": "Running event organizer hands out finish line ribbon to participants at a race in a busy town square",
         "autor": "Shixart1985",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=193163417",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sin esta parte, una historia no tiene ningún problema que resolver. <mark>Es como el motor que hace avanzar toda la historia</mark>. Por eso suele ser la parte más larga. ¿Cómo se llama esta parte tan importante?",
-      "respuesta": "<mark>El nudo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/aburrido-clase.jpg",
+      "question": "Sin esta parte, una historia no tiene ningún problema que resolver. <mark>Es como el motor que hace avanzar toda la historia</mark>. Por eso suele ser la parte más larga. ¿Cómo se llama esta parte tan importante?",
+      "answer": "<mark>El nudo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/aburrido-clase.jpg",
+        "title": "Another boring school day...",
+        "source": "https://www.flickr.com/photos/61176293@N05/8031547273",
         "alt": "Alguien aburrido bostezando",
-        "titulo": "Another boring school day...",
         "autor": "Seth Capitulo",
-        "fuente": "https://www.flickr.com/photos/61176293@N05/8031547273",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es lo que dicen los personajes en voz alta. <mark>Es como escuchar una conversación real entre amigos</mark>. En el teatro, casi todo se cuenta así. ¿Cómo se llama esto que dicen los personajes?",
-      "respuesta": "<mark>El diálogo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/dialogo-teatro.jpg",
+      "question": "Es lo que dicen los personajes en voz alta. <mark>Es como escuchar una conversación real entre amigos</mark>. En el teatro, casi todo se cuenta así. ¿Cómo se llama esto que dicen los personajes?",
+      "answer": "<mark>El diálogo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/dialogo-teatro.jpg",
+        "title": "Tragedy and Comedy",
+        "source": "https://www.flickr.com/photos/93416311@N00/8094737104",
         "alt": "Dos máscaras doradas de teatro, una triste y una sonriente, colgadas en una fachada",
-        "titulo": "Tragedy and Comedy",
         "autor": "Tim Green aka atoach",
-        "fuente": "https://www.flickr.com/photos/93416311@N00/8094737104",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En el guion de una obra de teatro, esto aparece antes de cada frase. <mark>Es como una etiqueta pegada justo antes de cada frase</mark>. No hace falta escribir 'dijo', como en un cuento. ¿Qué es lo que aparece antes de cada frase?",
-      "respuesta": "<mark>El nombre del personaje</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/teatro-infantil.jpg",
+      "question": "En el guion de una obra de teatro, esto aparece antes de cada frase. <mark>Es como una etiqueta pegada justo antes de cada frase</mark>. No hace falta escribir 'dijo', como en un cuento. ¿Qué es lo que aparece antes de cada frase?",
+      "answer": "<mark>El nombre del personaje</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/teatro-infantil.jpg",
+        "title": "BAPD Summer Play 3",
+        "source": "https://www.flickr.com/photos/9030710@N03/1627963424",
         "alt": "Niños representando una obra de teatro",
-        "titulo": "BAPD Summer Play 3",
         "autor": "obi1323",
-        "fuente": "https://www.flickr.com/photos/9030710@N03/1627963424",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son quienes actúan y hablan en una historia de teatro. <mark>Es como ponerse un disfraz y vivir otra vida por un rato</mark>. Los actores les dan voz y movimiento en el escenario. ¿Cómo se llaman?",
-      "respuesta": "<mark>Personajes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/personajes-teatro.jpg",
+      "question": "Son quienes actúan y hablan en una historia de teatro. <mark>Es como ponerse un disfraz y vivir otra vida por un rato</mark>. Los actores les dan voz y movimiento en el escenario. ¿Cómo se llaman?",
+      "answer": "<mark>Personajes</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/personajes-teatro.jpg",
+        "title": "Children kabuki theater in Nagahama (lady Shizuka, 10 y.o.)",
+        "source": "https://www.flickr.com/photos/63312719@N08/8679074379",
         "alt": "Una actriz con un traje y un tocado muy elaborados, actuando sobre un escenario",
-        "titulo": "Children kabuki theater in Nagahama (lady Shizuka, 10 y.o.)",
         "autor": "lensonjapan",
-        "fuente": "https://www.flickr.com/photos/63312719@N08/8679074379",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Este personaje vive el problema central de la obra. <mark>Es como el rostro que aparece en cada foto de la película</mark>. Otros personajes le acompañan y le ayudan a resolverlo. ¿Cómo se llama este personaje principal?",
-      "respuesta": "<mark>El personaje principal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura/protagonista-secundario.jpg",
+      "question": "Este personaje vive el problema central de la obra. <mark>Es como el rostro que aparece en cada foto de la película</mark>. Otros personajes le acompañan y le ayudan a resolverlo. ¿Cómo se llama este personaje principal?",
+      "answer": "<mark>El personaje principal</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura/protagonista-secundario.jpg",
+        "title": "Storybook Character Parade – U.S. Army Garrison Humphreys – 31 October 2012",
+        "source": "https://www.flickr.com/photos/31687107@N07/8163345120",
         "alt": "Un niño disfrazado de bombero sonríe en primer plano, con otros niños disfrazados detrás",
-        "titulo": "Storybook Character Parade – U.S. Army Garrison Humphreys – 31 October 2012",
         "autor": "USAG-Humphreys",
-        "fuente": "https://www.flickr.com/photos/31687107@N07/8163345120",
         "licencia": "CC BY 2.0"
       }
     }

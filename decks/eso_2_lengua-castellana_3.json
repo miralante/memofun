@@ -1,67 +1,67 @@
 {
-  "tema": "El correo electrónico y la exposición oral - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El correo electrónico y la exposición oral - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Un mensaje escrito se envía por internet con un tono educado. <br><mark>Es como una carta antigua que llega en segundos</mark>. <br>Se usa para hablar con profesores, empresas o desconocidos. <br>¿Cómo se llama este tipo de mensaje?",
-      "respuesta": "<mark>Correo electrónico formal</mark>"
+      "question": "Un mensaje escrito se envía por internet con un tono educado. <br><mark>Es como una carta antigua que llega en segundos</mark>. <br>Se usa para hablar con profesores, empresas o desconocidos. <br>¿Cómo se llama este tipo de mensaje?",
+      "answer": "<mark>Correo electrónico formal</mark>"
     },
     {
-      "pregunta": "Asunto, saludo, cuerpo del mensaje y despedida son partes fijas. <br><mark>Es como una casa con habitaciones fijas</mark>. <br>El asunto resume de qué trata el correo. <br>¿Cuántas partes tiene un correo electrónico formal?",
-      "respuesta": "<mark>Cuatro</mark>"
+      "question": "Asunto, saludo, cuerpo del mensaje y despedida son partes fijas. <br><mark>Es como una casa con habitaciones fijas</mark>. <br>El asunto resume de qué trata el correo. <br>¿Cuántas partes tiene un correo electrónico formal?",
+      "answer": "<mark>Cuatro</mark>"
     },
     {
-      "pregunta": "Uno cuida más el lenguaje y evita abreviaturas. <br><mark>Es como ponerse ropa de fiesta en vez de estar por casa</mark>. <br>Un mensaje a un amigo puede ser más relajado y con emoticonos. <br>¿Cuál de los dos busca sonar respetuoso y claro?",
-      "respuesta": "<mark>El correo formal</mark>"
+      "question": "Uno cuida más el lenguaje y evita abreviaturas. <br><mark>Es como ponerse ropa de fiesta en vez de estar por casa</mark>. <br>Un mensaje a un amigo puede ser más relajado y con emoticonos. <br>¿Cuál de los dos busca sonar respetuoso y claro?",
+      "answer": "<mark>El correo formal</mark>"
     },
     {
-      "pregunta": "Un saludo como \"Estimado/a\" marca un tono correcto desde el principio. <br><mark>Es como llamar a la puerta antes de entrar</mark>. <br>La despedida cierra el mensaje con la misma cortesía. <br>¿Qué muestran el saludo y la despedida en un correo formal?",
-      "respuesta": "<mark>Respeto</mark>"
+      "question": "Un saludo como \"Estimado/a\" marca un tono correcto desde el principio. <br><mark>Es como llamar a la puerta antes de entrar</mark>. <br>La despedida cierra el mensaje con la misma cortesía. <br>¿Qué muestran el saludo y la despedida en un correo formal?",
+      "answer": "<mark>Respeto</mark>"
     },
     {
-      "pregunta": "<mark>Es la versión escrita de hablar con alguien que no conocemos</mark>. <br>Sirve para pedir información o resolver una duda importante. <br>Usar el tono correcto ayuda a que te tomen en serio. <br>¿A quién suele escribirse un correo electrónico formal?",
-      "respuesta": "<mark>A un profesor o empresa</mark>"
+      "question": "<mark>Es la versión escrita de hablar con alguien que no conocemos</mark>. <br>Sirve para pedir información o resolver una duda importante. <br>Usar el tono correcto ayuda a que te tomen en serio. <br>¿A quién suele escribirse un correo electrónico formal?",
+      "answer": "<mark>A un profesor o empresa</mark>"
     },
     {
-      "pregunta": "Un esquema reúne las ideas que se van a explicar en voz alta. <br><mark>Es como el mapa de un viaje</mark>. <br>Ayuda a no olvidar nada importante. <br>¿Cómo se llama este esquema para una exposición oral?",
-      "respuesta": "<mark>Guion</mark>"
+      "question": "Un esquema reúne las ideas que se van a explicar en voz alta. <br><mark>Es como el mapa de un viaje</mark>. <br>Ayuda a no olvidar nada importante. <br>¿Cómo se llama este esquema para una exposición oral?",
+      "answer": "<mark>Guion</mark>"
     },
     {
-      "pregunta": "Hablar sin preparación hace fácil perder el hilo. <br><mark>Es como intentar cocinar sin haber leído antes la receta</mark>. <br>Preparar antes ayuda a no olvidar los puntos importantes. <br>¿Qué da preparar un guion antes de hablar en público?",
-      "respuesta": "<mark>Seguridad</mark>"
+      "question": "Hablar sin preparación hace fácil perder el hilo. <br><mark>Es como intentar cocinar sin haber leído antes la receta</mark>. <br>Preparar antes ayuda a no olvidar los puntos importantes. <br>¿Qué da preparar un guion antes de hablar en público?",
+      "answer": "<mark>Seguridad</mark>"
     },
     {
-      "pregunta": "Inicio, desarrollo y cierre forman la estructura, igual que un texto expositivo. <br><mark>Es como contar una historia, con principio, cuerpo y final</mark>. <br>El cierre resume las ideas clave. <br>¿Cuántas partes tiene esta estructura?",
-      "respuesta": "<mark>Tres</mark>"
+      "question": "Inicio, desarrollo y cierre forman la estructura, igual que un texto expositivo. <br><mark>Es como contar una historia, con principio, cuerpo y final</mark>. <br>El cierre resume las ideas clave. <br>¿Cuántas partes tiene esta estructura?",
+      "answer": "<mark>Tres</mark>"
     },
     {
-      "pregunta": "Se eligen las ideas más importantes, no todos los detalles. <br><mark>Es como hacer la maleta para un viaje corto</mark>. <br>Demasiada información satura al público que escucha. <br>¿Qué tipo de ideas conviene elegir para exponer?",
-      "respuesta": "<mark>Las más importantes</mark>"
+      "question": "Se eligen las ideas más importantes, no todos los detalles. <br><mark>Es como hacer la maleta para un viaje corto</mark>. <br>Demasiada información satura al público que escucha. <br>¿Qué tipo de ideas conviene elegir para exponer?",
+      "answer": "<mark>Las más importantes</mark>"
     },
     {
-      "pregunta": "Recuerdan el orden de las ideas sin tener que leerlo todo. <br><mark>Son como una barandilla que evita perder el equilibrio</mark>. <br>No se deben leer palabra por palabra. <br>¿Cómo se llaman estas ayudas para hablar sin leerlo todo?",
-      "respuesta": "<mark>Tarjetas de apoyo</mark>"
+      "question": "Recuerdan el orden de las ideas sin tener que leerlo todo. <br><mark>Son como una barandilla que evita perder el equilibrio</mark>. <br>No se deben leer palabra por palabra. <br>¿Cómo se llaman estas ayudas para hablar sin leerlo todo?",
+      "answer": "<mark>Tarjetas de apoyo</mark>"
     },
     {
-      "pregunta": "Hablar despacio y con voz clara ayuda a que todos entiendan. <br><mark>Es como hablar por un megáfono: hay que vocalizar bien</mark>. <br>Hacer pausas cortas también ayuda a entender mejor. <br>¿Cómo conviene hablar durante una exposición oral?",
-      "respuesta": "<mark>Despacio y claro</mark>"
+      "question": "Hablar despacio y con voz clara ayuda a que todos entiendan. <br><mark>Es como hablar por un megáfono: hay que vocalizar bien</mark>. <br>Hacer pausas cortas también ayuda a entender mejor. <br>¿Cómo conviene hablar durante una exposición oral?",
+      "answer": "<mark>Despacio y claro</mark>"
     },
     {
-      "pregunta": "Mirar a la sala crea una conexión y muestra seguridad. <br><mark>Es como hablar con un amigo cara a cara</mark>. <br>Mirar solo el papel hace perder esa conexión. <br>¿Qué crea mirar al público al exponer?",
-      "respuesta": "<mark>Conexión</mark>"
+      "question": "Mirar a la sala crea una conexión y muestra seguridad. <br><mark>Es como hablar con un amigo cara a cara</mark>. <br>Mirar solo el papel hace perder esa conexión. <br>¿Qué crea mirar al público al exponer?",
+      "answer": "<mark>Conexión</mark>"
     },
     {
-      "pregunta": "Respirar despacio ayuda, y sentir nervios antes de hablar es normal. <br><mark>Es como antes de subir a una montaña rusa</mark>. <br>Con la práctica, hablar en público resulta cada vez más fácil. <br>¿Qué reduce mucho los nervios al hablar en público?",
-      "respuesta": "<mark>Practicar antes</mark>"
+      "question": "Respirar despacio ayuda, y sentir nervios antes de hablar es normal. <br><mark>Es como antes de subir a una montaña rusa</mark>. <br>Con la práctica, hablar en público resulta cada vez más fácil. <br>¿Qué reduce mucho los nervios al hablar en público?",
+      "answer": "<mark>Practicar antes</mark>"
     },
     {
-      "pregunta": "Una imagen o un cartel <mark>es como un resumen visual de lo que se explica</mark>. <br>Ayudan a que el público entienda y recuerde mejor las ideas. <br>No deben tener demasiado texto ni distraer. <br>¿Cómo se llaman estos elementos de ayuda en una exposición?",
-      "respuesta": "<mark>Apoyos visuales</mark>"
+      "question": "Una imagen o un cartel <mark>es como un resumen visual de lo que se explica</mark>. <br>Ayudan a que el público entienda y recuerde mejor las ideas. <br>No deben tener demasiado texto ni distraer. <br>¿Cómo se llaman estos elementos de ayuda en una exposición?",
+      "answer": "<mark>Apoyos visuales</mark>"
     },
     {
-      "pregunta": "Ensayar en casa da soltura y seguridad al exponer. <br><mark>Es como ensayar una obra de teatro antes del estreno</mark>. <br>Ensayar en voz alta ayuda a detectar partes confusas. <br>¿Qué conviene hacer antes de exponer ante el grupo?",
-      "respuesta": "<mark>Practicar</mark>"
+      "question": "Ensayar en casa da soltura y seguridad al exponer. <br><mark>Es como ensayar una obra de teatro antes del estreno</mark>. <br>Ensayar en voz alta ayuda a detectar partes confusas. <br>¿Qué conviene hacer antes de exponer ante el grupo?",
+      "answer": "<mark>Practicar</mark>"
     }
   ]
 }

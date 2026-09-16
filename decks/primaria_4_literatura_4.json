@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 4º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 4º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el instante en que el problema de la historia está a punto de resolverse. <mark>Es como el punto más alto de una montaña rusa</mark>. Ahí el lector está más nervioso por saber qué pasará. ¿Cómo se llama este momento de la historia?",
-      "respuesta": "<mark>Clímax</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_4/momento-tension.jpg",
+      "question": "Es el instante en que el problema de la historia está a punto de resolverse. <mark>Es como el punto más alto de una montaña rusa</mark>. Ahí el lector está más nervioso por saber qué pasará. ¿Cómo se llama este momento de la historia?",
+      "answer": "<mark>Clímax</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_4/momento-tension.jpg",
+        "title": "Roller Coaster",
+        "source": "https://www.flickr.com/photos/27506472@N04/6908159578",
         "alt": "Vías de una montaña rusa con rizos y una subida muy alta, vistas contra un cielo con nubes",
-        "titulo": "Roller Coaster",
         "autor": "Nick Page Photos",
-        "fuente": "https://www.flickr.com/photos/27506472@N04/6908159578",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un personaje piensa o actúa distinto al final que al principio. <mark>Es como aprender una lección que te transforma un poco</mark>. Por ejemplo, un personaje miedoso que se vuelve valiente. ¿Cómo se llama un personaje que cambia así?",
-      "respuesta": "<mark>Personaje dinámico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_4/cambio-personaje.jpg",
+      "question": "Un personaje piensa o actúa distinto al final que al principio. <mark>Es como aprender una lección que te transforma un poco</mark>. Por ejemplo, un personaje miedoso que se vuelve valiente. ¿Cómo se llama un personaje que cambia así?",
+      "answer": "<mark>Personaje dinámico</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_4/cambio-personaje.jpg",
+        "title": "Chrysalis to Butterfly (#4 of 5)",
+        "source": "https://www.flickr.com/photos/22357152@N02/6879979252",
         "alt": "Una mariposa saliendo de su capullo vacío, con las alas todavía desplegándose",
-        "titulo": "Chrysalis to Butterfly (#4 of 5)",
         "autor": "SidPix",
-        "fuente": "https://www.flickr.com/photos/22357152@N02/6879979252",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un cuento con algo extraño que hay que descubrir. <mark>El lector va juntando pistas, como un detective</mark>. La respuesta suele guardarse hasta el final. ¿Cómo se llama este tipo de cuento?",
-      "respuesta": "<mark>Cuento de misterio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_4/cuento-misterio.jpg",
+      "question": "Es un cuento con algo extraño que hay que descubrir. <mark>El lector va juntando pistas, como un detective</mark>. La respuesta suele guardarse hasta el final. ¿Cómo se llama este tipo de cuento?",
+      "answer": "<mark>Cuento de misterio</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_4/cuento-misterio.jpg",
+        "title": "Looking For Clues (188 / 365)",
+        "source": "https://www.flickr.com/photos/66335021@N00/3709203268",
         "alt": "Una persona mira de cerca un papel a través de una lupa grande, buscando una pista",
-        "titulo": "Looking For Clues (188 / 365)",
         "autor": "somegeekintn",
-        "fuente": "https://www.flickr.com/photos/66335021@N00/3709203268",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un cuento lleno de viajes, peligros y sorpresas. <mark>Es como salir de casa sin saber qué te vas a encontrar</mark>. Al final, el protagonista vuelve distinto de como empezó. ¿Cómo se llama este tipo de cuento?",
-      "respuesta": "<mark>Cuento de aventuras</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_4/cuento-aventuras.jpg",
+      "question": "Es un cuento lleno de viajes, peligros y sorpresas. <mark>Es como salir de casa sin saber qué te vas a encontrar</mark>. Al final, el protagonista vuelve distinto de como empezó. ¿Cómo se llama este tipo de cuento?",
+      "answer": "<mark>Cuento de aventuras</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_4/cuento-aventuras.jpg",
+        "title": "Angels Landing Hiker",
+        "source": "https://www.flickr.com/photos/54168808@N03/5015792234",
         "alt": "Una persona con mochila camina por un sendero de roca, agarrada a una cadena, sobre un cañón",
-        "titulo": "Angels Landing Hiker",
         "autor": "ZionNPS",
-        "fuente": "https://www.flickr.com/photos/54168808@N03/5015792234",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los actores practican antes de la función real. <mark>Es como entrenar un partido antes de jugarlo de verdad</mark>. Repiten sus frases y sus movimientos varias veces. ¿Cómo se llama esta práctica antes de la función?",
-      "respuesta": "<mark>Ensayo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_4/ensayo-teatro.jpg",
+      "question": "Los actores practican antes de la función real. <mark>Es como entrenar un partido antes de jugarlo de verdad</mark>. Repiten sus frases y sus movimientos varias veces. ¿Cómo se llama esta práctica antes de la función?",
+      "answer": "<mark>Ensayo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_4/ensayo-teatro.jpg",
+        "title": "Poly Prep - Les Miserables - Dress Rehearsal",
+        "source": "https://www.flickr.com/photos/45776673@N04/18755722978",
         "alt": "Actores vestidos con trajes de época, practicando una escena juntos sobre un escenario",
-        "titulo": "Poly Prep - Les Miserables - Dress Rehearsal",
         "autor": "Steven Pisano",
-        "fuente": "https://www.flickr.com/photos/45776673@N04/18755722978",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es quien mira y disfruta una función de teatro en directo. <mark>Es como los invitados de una fiesta, que la hacen especial</mark>. Su reacción, como reír o aplaudir, forma parte de la experiencia. ¿Quién es?",
-      "respuesta": "<mark>El público</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_4_literatura_4/publico-teatro.jpg",
+      "question": "Es quien mira y disfruta una función de teatro en directo. <mark>Es como los invitados de una fiesta, que la hacen especial</mark>. Su reacción, como reír o aplaudir, forma parte de la experiencia. ¿Quién es?",
+      "answer": "<mark>El público</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_4_literatura_4/publico-teatro.jpg",
+        "title": "Watching",
+        "source": "https://www.flickr.com/photos/10208917@N00/3178306385",
         "alt": "Un grupo de niños y adultos sentados juntos al aire libre, mirando algo con atención y sonriendo",
-        "titulo": "Watching",
         "autor": "still searching...",
-        "fuente": "https://www.flickr.com/photos/10208917@N00/3178306385",
         "licencia": "CC BY-SA 2.0"
       }
     }

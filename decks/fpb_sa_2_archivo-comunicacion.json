@@ -1,185 +1,185 @@
 {
-  "tema": "Archivo y Comunicación - FP Básica Servicios Administrativos (2º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Archivo y Comunicación - FP Básica Servicios Administrativos (2º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el conjunto de técnicas para reproducir documentos, como fotocopiar o encuadernar. <mark>Es como multiplicar un documento para que varias personas tengan su propia copia</mark>. Se usa mucho para repartir informes o contratos. ¿Cómo se llama este conjunto de técnicas?",
-      "respuesta": "<mark>Reprografía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora.jpg",
+      "question": "Es el conjunto de técnicas para reproducir documentos, como fotocopiar o encuadernar. <mark>Es como multiplicar un documento para que varias personas tengan su propia copia</mark>. Se usa mucho para repartir informes o contratos. ¿Cómo se llama este conjunto de técnicas?",
+      "answer": "<mark>Reprografía</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora.jpg",
+        "title": "Fotocopiadora",
+        "source": "https://www.flickr.com/photos/30631725@N03/6980298651",
         "alt": "Una fotocopiadora de oficina",
-        "titulo": "Fotocopiadora",
         "autor": "fcomsalamanca",
-        "fuente": "https://www.flickr.com/photos/30631725@N03/6980298651",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hay que verificar que la copia salga completa, legible y en el orden correcto. <mark>Es como revisar una copia antes de dártela por buena</mark>. Una fotocopia mal hecha puede causar confusión. ¿Qué conviene hacer antes de dar por buena una fotocopia?",
-      "respuesta": "<mark>Comprobarla</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora2.jpg",
+      "question": "Hay que verificar que la copia salga completa, legible y en el orden correcto. <mark>Es como revisar una copia antes de dártela por buena</mark>. Una fotocopia mal hecha puede causar confusión. ¿Qué conviene hacer antes de dar por buena una fotocopia?",
+      "answer": "<mark>Comprobarla</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fotocopiadora2.jpg",
+        "title": "Photocopier",
+        "source": "https://www.flickr.com/photos/11121568@N06/4446487390",
         "alt": "Una fotocopiadora de oficina",
-        "titulo": "Photocopier",
         "autor": "Alan Cleaver",
-        "fuente": "https://www.flickr.com/photos/11121568@N06/4446487390",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sirve para unir varias hojas de forma ordenada y resistente. <mark>Es como convertir hojas sueltas en un pequeño libro</mark>. Facilita mucho manejar documentos con muchas páginas. ¿Cómo se llama hacer esto?",
-      "respuesta": "<mark>Encuadernar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/encuadernar-libros.jpg",
+      "question": "Sirve para unir varias hojas de forma ordenada y resistente. <mark>Es como convertir hojas sueltas en un pequeño libro</mark>. Facilita mucho manejar documentos con muchas páginas. ¿Cómo se llama hacer esto?",
+      "answer": "<mark>Encuadernar</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/encuadernar-libros.jpg",
+        "title": "Ledgers made at Cowans, Edinburgh",
+        "source": "https://www.flickr.com/photos/30239838@N04/4203790938",
         "alt": "Libros encuadernados de forma artesanal",
-        "titulo": "Ledgers made at Cowans, Edinburgh",
         "autor": "edinburghcityofprint",
-        "fuente": "https://www.flickr.com/photos/30239838@N04/4203790938",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es guardar documentos de forma ordenada para poder encontrarlos después. <mark>Es como guardar cada cosa en su cajón, en vez de amontonarlo todo</mark>. Ahorra tiempo cuando hace falta consultar algo. ¿Cómo se llama hacer esto?",
-      "respuesta": "<mark>Archivar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/biblioteca-organizada-temas.jpg",
+      "question": "Es guardar documentos de forma ordenada para poder encontrarlos después. <mark>Es como guardar cada cosa en su cajón, en vez de amontonarlo todo</mark>. Ahorra tiempo cuando hace falta consultar algo. ¿Cómo se llama hacer esto?",
+      "answer": "<mark>Archivar</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/biblioteca-organizada-temas.jpg",
+        "title": "Design library, reorganized by topic",
+        "source": "https://www.flickr.com/photos/38869431@N00/4734830821",
         "alt": "Una biblioteca reorganizada y ordenada por temas",
-        "titulo": "Design library, reorganized by topic",
         "autor": "juhansonin",
-        "fuente": "https://www.flickr.com/photos/38869431@N00/4734830821",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Sin un criterio claro, sería casi imposible encontrar un documento concreto. <mark>Es como buscar un libro en una biblioteca donde nada está en su sitio</mark>. ¿Cómo conviene archivar los documentos?",
-      "respuesta": "<mark>De forma ordenada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/mesa-desordenada.jpg",
+      "question": "Sin un criterio claro, sería casi imposible encontrar un documento concreto. <mark>Es como buscar un libro en una biblioteca donde nada está en su sitio</mark>. ¿Cómo conviene archivar los documentos?",
+      "answer": "<mark>De forma ordenada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/mesa-desordenada.jpg",
+        "title": "desk messk",
+        "source": "https://www.flickr.com/photos/62479404@N00/212233944",
         "alt": "Una mesa de trabajo desordenada, llena de papeles",
-        "titulo": "desk messk",
         "autor": "becstarr",
-        "fuente": "https://www.flickr.com/photos/62479404@N00/212233944",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es ordenar los documentos según las letras de un nombre, de la A a la Z. <mark>Es como ordenar una agenda de contactos por el nombre de cada persona</mark>. ¿Cómo se llama este tipo de orden?",
-      "respuesta": "<mark>Clasificación alfabética</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fichas-colores-alfabetico.jpg",
+      "question": "Es ordenar los documentos según las letras de un nombre, de la A a la Z. <mark>Es como ordenar una agenda de contactos por el nombre de cada persona</mark>. ¿Cómo se llama este tipo de orden?",
+      "answer": "<mark>Clasificación alfabética</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/fichas-colores-alfabetico.jpg",
+        "title": "color index cards 2.5 x 3",
+        "source": "https://www.flickr.com/photos/49136729@N00/172895040",
         "alt": "Fichas de colores ordenadas",
-        "titulo": "color index cards 2.5 x 3",
         "autor": "lexly87 aka Duc N. Ly",
-        "fuente": "https://www.flickr.com/photos/49136729@N00/172895040",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es ordenar los documentos según un número asignado a cada uno. <mark>Es como ordenar entradas de cine por el asiento asignado, cada una en su lugar</mark>. Se usa mucho para facturas o expedientes. ¿Cómo se llama este tipo de orden?",
-      "respuesta": "<mark>Clasificación numérica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/catalogo-numerico-biblioteca.jpg",
+      "question": "Es ordenar los documentos según un número asignado a cada uno. <mark>Es como ordenar entradas de cine por el asiento asignado, cada una en su lugar</mark>. Se usa mucho para facturas o expedientes. ¿Cómo se llama este tipo de orden?",
+      "answer": "<mark>Clasificación numérica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/catalogo-numerico-biblioteca.jpg",
+        "title": "University of Michigan Library Card Catalog",
+        "source": "https://www.flickr.com/photos/28376044@N00/4350629792",
         "alt": "Un catálogo de fichas numeradas en una biblioteca",
-        "titulo": "University of Michigan Library Card Catalog",
         "autor": "dfulmer",
-        "fuente": "https://www.flickr.com/photos/28376044@N00/4350629792",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es agrupar los documentos según el asunto del que tratan. <mark>Es como ordenar libros de una biblioteca por su materia</mark>. Es útil cuando se buscan documentos relacionados entre sí. ¿Cómo se llama este tipo de orden?",
-      "respuesta": "<mark>Clasificación por temas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanterias-colores-temas.jpg",
+      "question": "Es agrupar los documentos según el asunto del que tratan. <mark>Es como ordenar libros de una biblioteca por su materia</mark>. Es útil cuando se buscan documentos relacionados entre sí. ¿Cómo se llama este tipo de orden?",
+      "answer": "<mark>Clasificación por temas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanterias-colores-temas.jpg",
+        "title": "Color-coded shelves...",
+        "source": "https://www.flickr.com/photos/38869431@N00/4735469550",
         "alt": "Estanterías organizadas por colores según el tema",
-        "titulo": "Color-coded shelves...",
         "autor": "juhansonin",
-        "fuente": "https://www.flickr.com/photos/38869431@N00/4735469550",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El archivo en papel ocupa espacio físico, como carpetas o armarios. <mark>El otro tipo se guarda en el ordenador, sin ocupar espacio físico</mark>. Muchas oficinas combinan los dos. ¿Cómo se llama este segundo tipo de archivo?",
-      "respuesta": "<mark>Archivo digital</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/contabilidad-digital-papel.jpg",
+      "question": "El archivo en papel ocupa espacio físico, como carpetas o armarios. <mark>El otro tipo se guarda en el ordenador, sin ocupar espacio físico</mark>. Muchas oficinas combinan los dos. ¿Cómo se llama este segundo tipo de archivo?",
+      "answer": "<mark>Archivo digital</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/contabilidad-digital-papel.jpg",
+        "title": "Financial statistics and accounting concept",
+        "source": "https://www.flickr.com/photos/131543794@N04/16785701705",
         "alt": "Documentos de contabilidad junto a un ordenador",
-        "titulo": "Financial statistics and accounting concept",
         "autor": "paola.bazurto4",
-        "fuente": "https://www.flickr.com/photos/131543794@N04/16785701705",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ocupa menos espacio y permite buscar documentos de forma mucho más rápida. <mark>Es como tener una biblioteca entera dentro de un solo ordenador</mark>. También facilita compartir documentos al instante. ¿Qué tipo de archivo tiene estas ventajas?",
-      "respuesta": "<mark>El archivo digital</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/nube-almacenamiento.jpg",
+      "question": "Ocupa menos espacio y permite buscar documentos de forma mucho más rápida. <mark>Es como tener una biblioteca entera dentro de un solo ordenador</mark>. También facilita compartir documentos al instante. ¿Qué tipo de archivo tiene estas ventajas?",
+      "answer": "<mark>El archivo digital</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/nube-almacenamiento.jpg",
+        "title": "Dropbox",
+        "source": "https://www.flickr.com/photos/38305415@N00/4580058581",
         "alt": "El icono de un servicio de almacenamiento en la nube",
-        "titulo": "Dropbox",
         "autor": "Johan Larsson",
-        "fuente": "https://www.flickr.com/photos/38305415@N00/4580058581",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "No depende de que un dispositivo funcione o tenga electricidad. <mark>Es como tener algo que siempre puedes consultar, sin depender de una pantalla</mark>. Algunos documentos oficiales todavía exigen esta versión. ¿Qué tipo de archivo tiene estas ventajas?",
-      "respuesta": "<mark>El archivo en papel</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/cuadernos-papel.jpg",
+      "question": "No depende de que un dispositivo funcione o tenga electricidad. <mark>Es como tener algo que siempre puedes consultar, sin depender de una pantalla</mark>. Algunos documentos oficiales todavía exigen esta versión. ¿Qué tipo de archivo tiene estas ventajas?",
+      "answer": "<mark>El archivo en papel</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/cuadernos-papel.jpg",
+        "title": "notebooks",
+        "source": "https://www.flickr.com/photos/53133240@N00/4539970",
         "alt": "Varios cuadernos de papel apilados",
-        "titulo": "notebooks",
         "autor": "Muffet",
-        "fuente": "https://www.flickr.com/photos/53133240@N00/4539970",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Conviene identificarla con algo descriptivo, que indique qué contiene. <mark>Es como poner una etiqueta legible a una caja, en vez de dejarla en blanco</mark>. Eso ayuda a encontrarla rápido más adelante. ¿Cómo conviene nombrar una carpeta digital?",
-      "respuesta": "<mark>Con un nombre claro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/ordenador-portatil-oficina.jpg",
+      "question": "Conviene identificarla con algo descriptivo, que indique qué contiene. <mark>Es como poner una etiqueta legible a una caja, en vez de dejarla en blanco</mark>. Eso ayuda a encontrarla rápido más adelante. ¿Cómo conviene nombrar una carpeta digital?",
+      "answer": "<mark>Con un nombre claro</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/ordenador-portatil-oficina.jpg",
+        "title": "Weekend office",
+        "source": "https://www.flickr.com/photos/31855341@N00/5822086065",
         "alt": "Un ordenador portátil abierto en una mesa de oficina",
-        "titulo": "Weekend office",
         "autor": "dtweney",
-        "fuente": "https://www.flickr.com/photos/31855341@N00/5822086065",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se organizan creando niveles bien definidos, con carpetas principales y subcarpetas si hace falta. <mark>Es como organizar un armario con secciones y cajones dentro de cada sección</mark>. ¿Qué conviene crear para organizar bien las carpetas digitales?",
-      "respuesta": "<mark>Una estructura clara</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/zona-trabajo-ordenador.jpg",
+      "question": "Se organizan creando niveles bien definidos, con carpetas principales y subcarpetas si hace falta. <mark>Es como organizar un armario con secciones y cajones dentro de cada sección</mark>. ¿Qué conviene crear para organizar bien las carpetas digitales?",
+      "answer": "<mark>Una estructura clara</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/zona-trabajo-ordenador.jpg",
+        "title": "Work Area",
+        "source": "https://www.flickr.com/photos/27887748@N00/5352127832",
         "alt": "Una zona de trabajo con un ordenador",
-        "titulo": "Work Area",
         "autor": "Harlequeen",
-        "fuente": "https://www.flickr.com/photos/27887748@N00/5352127832",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un criterio mezclado hace mucho más difícil encontrar después un documento. <mark>Es como cambiar de idioma a mitad de una conversación</mark>. ¿Qué conviene mantener siempre al archivar?",
-      "respuesta": "<mark>El mismo criterio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanteria-oficina-organizada.jpg",
+      "question": "Un criterio mezclado hace mucho más difícil encontrar después un documento. <mark>Es como cambiar de idioma a mitad de una conversación</mark>. ¿Qué conviene mantener siempre al archivar?",
+      "answer": "<mark>El mismo criterio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/estanteria-oficina-organizada.jpg",
+        "title": "Office bookcase's, part 2",
+        "source": "https://www.flickr.com/photos/31802054@N07/3340514665",
         "alt": "Una estantería de oficina bien organizada",
-        "titulo": "Office bookcase's, part 2",
         "autor": "mrJiggy",
-        "fuente": "https://www.flickr.com/photos/31802054@N07/3340514665",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Un buen archivo ahorra tiempo cada vez que hace falta buscar un documento. <mark>Es como tener todo a mano, en vez de tener que buscarlo cada vez</mark>. ¿Qué facilita archivar bien un documento?",
-      "respuesta": "<mark>Trabajar de forma eficiente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_archivo-comunicacion/escritorio-ordenado.jpg",
+      "question": "Un buen archivo ahorra tiempo cada vez que hace falta buscar un documento. <mark>Es como tener todo a mano, en vez de tener que buscarlo cada vez</mark>. ¿Qué facilita archivar bien un documento?",
+      "answer": "<mark>Trabajar de forma eficiente</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_archivo-comunicacion/escritorio-ordenado.jpg",
+        "title": "Rochelle's Work Desk 1",
+        "source": "https://www.flickr.com/photos/34756977@N00/15851499",
         "alt": "Un escritorio de trabajo bien organizado",
-        "titulo": "Rochelle's Work Desk 1",
         "autor": "Rochelle Hartman",
-        "fuente": "https://www.flickr.com/photos/34756977@N00/15851499",
         "licencia": "CC BY 2.0"
       }
     }

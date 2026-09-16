@@ -75,7 +75,7 @@
     * scripts/_verify-pie-migration.js for which paths are
     * covered by this injector.
     * --------------------------------------------------------------- */
-  function inyectarPie() {
+  function injectFooter() {
     if (!window.App || !window.App.i18n) return;
     var pies = document.querySelectorAll('footer[data-pie-app]');
     for (var i = 0; i < pies.length; i++) {
@@ -105,6 +105,6 @@
     escapeHtml: escapeHtml,
     downloadBlob: downloadBlob,
     registerServiceWorker: registerServiceWorker,
-    inyectarPie: inyectarPie
+    injectFooter: injectFooter
   };
 })();

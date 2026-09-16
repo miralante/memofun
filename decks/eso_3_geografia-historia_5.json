@@ -1,221 +1,221 @@
 {
-  "tema": "España en el siglo XVIII y XIX - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "España en el siglo XVIII y XIX - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "En 1700 murió sin descendencia el último rey de los Austrias. <br><mark>Es como heredar una empresa sin que quede claro quién debía dirigirla</mark>. <br>Felipe de Borbón, nieto del rey de Francia, fue elegido como nuevo rey. <br>¿Qué dinastía llegó al trono de España en 1700?",
-      "respuesta": "<mark>Borbones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/dinastia-borbones.jpg",
+      "question": "En 1700 murió sin descendencia el último rey de los Austrias. <br><mark>Es como heredar una empresa sin que quede claro quién debía dirigirla</mark>. <br>Felipe de Borbón, nieto del rey de Francia, fue elegido como nuevo rey. <br>¿Qué dinastía llegó al trono de España en 1700?",
+      "answer": "<mark>Borbones</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/dinastia-borbones.jpg",
+        "title": "King Ferdinard of Aragon, Father of Catherine of Aragon",
+        "source": "https://www.flickr.com/photos/60861613@N00/3335943661",
         "alt": "Retrato pintado de un rey europeo antiguo",
-        "titulo": "King Ferdinard of Aragon, Father of Catherine of Aragon",
         "autor": "lisby1",
-        "fuente": "https://www.flickr.com/photos/60861613@N00/3335943661",
         "licencia": "Public Domain Mark 1.0"
       }
     },
     {
-      "pregunta": "Varias potencias europeas apoyaban a distintos candidatos al trono de España, tras 1700. <br><mark>Temían que España se hiciera demasiado fuerte</mark>. <br>Duró más de una década y terminó con Felipe V como rey. <br>¿Cómo se llama este conflicto por el trono español?",
-      "respuesta": "<mark>Guerra de Sucesión española</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/guerra-sucesion.jpg",
+      "question": "Varias potencias europeas apoyaban a distintos candidatos al trono de España, tras 1700. <br><mark>Temían que España se hiciera demasiado fuerte</mark>. <br>Duró más de una década y terminó con Felipe V como rey. <br>¿Cómo se llama este conflicto por el trono español?",
+      "answer": "<mark>Guerra de Sucesión española</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/guerra-sucesion.jpg",
+        "title": "Cosmographia.",
+        "source": "https://www.flickr.com/photos/24528911@N05/2709976847",
         "alt": "Mapa antiguo de Europa, tipo atlas histórico",
-        "titulo": "Cosmographia.",
         "autor": "Norman B. Leventhal Map Center at the BPL",
-        "fuente": "https://www.flickr.com/photos/24528911@N05/2709976847",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "España tuvo que ceder territorios a cambio de que aceptaran a su nuevo rey, en 1713. <br><mark>Perdió posesiones como Gibraltar, que sigue siendo motivo de debate hoy</mark>. <br>Marcó el inicio de la dinastía borbónica en España. <br>¿Cómo se llama este acuerdo que puso fin a la Guerra de Sucesión?",
-      "respuesta": "<mark>Tratado de Utrecht</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/tratado-utrecht.jpg",
+      "question": "España tuvo que ceder territorios a cambio de que aceptaran a su nuevo rey, en 1713. <br><mark>Perdió posesiones como Gibraltar, que sigue siendo motivo de debate hoy</mark>. <br>Marcó el inicio de la dinastía borbónica en España. <br>¿Cómo se llama este acuerdo que puso fin a la Guerra de Sucesión?",
+      "answer": "<mark>Tratado de Utrecht</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/tratado-utrecht.jpg",
+        "title": "IB75 B6388U 771d",
+        "source": "https://www.flickr.com/photos/58558794@N07/6619860225",
         "alt": "Documento antiguo escrito a mano, con letra manuscrita",
-        "titulo": "IB75 B6388U 771d",
         "autor": "Provenance Online Project",
-        "fuente": "https://www.flickr.com/photos/58558794@N07/6619860225",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Felipe V, Fernando VI, Carlos III y Carlos IV intentaron modernizar la administración y la economía. <br><mark>Carlos III destacó especialmente por sus reformas ilustradas</mark>. <br>Carlos IV, en cambio, gobernó en un periodo de crisis creciente. <br>¿A qué dinastía pertenecían estos cuatro reyes del siglo dieciocho?",
-      "respuesta": "<mark>Borbones</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/reinados-borbones.jpg",
+      "question": "Felipe V, Fernando VI, Carlos III y Carlos IV intentaron modernizar la administración y la economía. <br><mark>Carlos III destacó especialmente por sus reformas ilustradas</mark>. <br>Carlos IV, en cambio, gobernó en un periodo de crisis creciente. <br>¿A qué dinastía pertenecían estos cuatro reyes del siglo dieciocho?",
+      "answer": "<mark>Borbones</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/reinados-borbones.jpg",
+        "title": "File:Madrid. Royal Palace. Spain (4083783003).jpg",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=39287754",
         "alt": "Palacio Real de Madrid visto desde fuera",
-        "titulo": "File:Madrid. Royal Palace. Spain (4083783003).jpg",
         "autor": "Tomás Fano",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=39287754",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ideas de razón, ciencia y reforma llegaron a España, más tarde que a Francia o Inglaterra. <br><mark>Impulsó academias, hospitales y mejoras en la educación</mark>. <br>Carlos III fue uno de los reyes que más la apoyó. <br>¿Cómo se llama este movimiento?",
-      "respuesta": "<mark>Ilustración</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/ilustracion.jpg",
+      "question": "Ideas de razón, ciencia y reforma llegaron a España, más tarde que a Francia o Inglaterra. <br><mark>Impulsó academias, hospitales y mejoras en la educación</mark>. <br>Carlos III fue uno de los reyes que más la apoyó. <br>¿Cómo se llama este movimiento?",
+      "answer": "<mark>Ilustración</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/ilustracion.jpg",
+        "title": "1800s Library",
+        "source": "https://www.flickr.com/photos/98640399@N08/10030588973",
         "alt": "Sala de una biblioteca antigua llena de libros",
-        "titulo": "1800s Library",
         "autor": "Barta IV",
-        "fuente": "https://www.flickr.com/photos/98640399@N08/10030588973",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "España seguía gobernando un enorme imperio colonial en América, en el siglo XVIII. <br><mark>Ese imperio aportaba plata, productos y también muchos gastos militares</mark>. <br>Se organizó la administración colonial en grandes divisiones territoriales. <br>¿Cómo se llamaban estas divisiones de la administración colonial?",
-      "respuesta": "<mark>Virreinatos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/espana-america-xviii.jpg",
+      "question": "España seguía gobernando un enorme imperio colonial en América, en el siglo XVIII. <br><mark>Ese imperio aportaba plata, productos y también muchos gastos militares</mark>. <br>Se organizó la administración colonial en grandes divisiones territoriales. <br>¿Cómo se llamaban estas divisiones de la administración colonial?",
+      "answer": "<mark>Virreinatos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/espana-america-xviii.jpg",
+        "title": "Cutty Sark-Historic Clipper Ship",
+        "source": "https://www.flickr.com/photos/26208889@N05/5011503365",
         "alt": "Velero histórico navegando, tipo barco colonial",
-        "titulo": "Cutty Sark-Historic Clipper Ship",
         "autor": "tonynetone",
-        "fuente": "https://www.flickr.com/photos/26208889@N05/5011503365",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La religión católica, numerosas ciudades y una lengua compartida quedaron en América. <br>Ese legado sigue vivo hoy en la cultura de gran parte del continente. <br><mark>También dejó una mezcla profunda entre culturas indígenas y europeas</mark>. <br>¿Qué legado dejó España en América?",
-      "respuesta": "<mark>El idioma español</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/legado-america.jpg",
+      "question": "La religión católica, numerosas ciudades y una lengua compartida quedaron en América. <br>Ese legado sigue vivo hoy en la cultura de gran parte del continente. <br><mark>También dejó una mezcla profunda entre culturas indígenas y europeas</mark>. <br>¿Qué legado dejó España en América?",
+      "answer": "<mark>El idioma español</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/legado-america.jpg",
+        "title": "Plaza de la Independencia, Quito, Ecuador",
+        "source": "https://www.flickr.com/photos/31867959@N04/6011813005",
         "alt": "Plaza colonial en una ciudad de América Latina",
-        "titulo": "Plaza de la Independencia, Quito, Ecuador",
         "autor": "Dallas Krentzel",
-        "fuente": "https://www.flickr.com/photos/31867959@N04/6011813005",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El pueblo español se levantó contra las tropas de Napoleón, entre 1808 y 1814. <br><mark>Combinó batallas regulares con la resistencia de guerrillas populares</mark>. <br>Terminó con la expulsión de las tropas francesas del país. <br>¿Cómo se llama este conflicto?",
-      "respuesta": "<mark>Guerra de la Independencia española</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/guerra-independencia.jpg",
+      "question": "El pueblo español se levantó contra las tropas de Napoleón, entre 1808 y 1814. <br><mark>Combinó batallas regulares con la resistencia de guerrillas populares</mark>. <br>Terminó con la expulsión de las tropas francesas del país. <br>¿Cómo se llama este conflicto?",
+      "answer": "<mark>Guerra de la Independencia española</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/guerra-independencia.jpg",
+        "title": "'O Cannuni' - Mazzarino",
+        "source": "https://www.flickr.com/photos/79286287@N00/275261673",
         "alt": "Cañón antiguo de bronce, típico de la guerra napoleónica",
-        "titulo": "'O Cannuni' - Mazzarino",
         "autor": "Giuseppe Bognanni",
-        "fuente": "https://www.flickr.com/photos/79286287@N00/275261673",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La primera Constitución liberal de España se aprobó en 1812, en plena guerra contra Francia. <br>Reconocía la soberanía nacional y limitaba el poder absoluto del rey. <br><mark>Se la conoce popularmente como \"La Pepa\"</mark>. <br>¿Cómo se llama esta primera Constitución liberal?",
-      "respuesta": "<mark>Constitución de Cádiz</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/constitucion-cadiz.jpg",
+      "question": "La primera Constitución liberal de España se aprobó en 1812, en plena guerra contra Francia. <br>Reconocía la soberanía nacional y limitaba el poder absoluto del rey. <br><mark>Se la conoce popularmente como \"La Pepa\"</mark>. <br>¿Cómo se llama esta primera Constitución liberal?",
+      "answer": "<mark>Constitución de Cádiz</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/constitucion-cadiz.jpg",
+        "title": "Constitucion de Cadiz",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=24454137",
         "alt": "Un ejemplar de la Constitución de Cádiz de 1812",
-        "titulo": "Constitucion de Cadiz",
         "autor": "Daniel Henao",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=24454137",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Un rey volvió al trono tras la guerra e intentó restaurar el absolutismo. <br><mark>Anuló la Constitución de Cádiz apenas pudo recuperar el poder</mark>. <br>Su reinado estuvo marcado por tensiones entre liberales y absolutistas. <br>¿Cómo se llamaba este rey?",
-      "respuesta": "<mark>Fernando VII</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/fernando-vii.jpg",
+      "question": "Un rey volvió al trono tras la guerra e intentó restaurar el absolutismo. <br><mark>Anuló la Constitución de Cádiz apenas pudo recuperar el poder</mark>. <br>Su reinado estuvo marcado por tensiones entre liberales y absolutistas. <br>¿Cómo se llamaba este rey?",
+      "answer": "<mark>Fernando VII</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/fernando-vii.jpg",
+        "title": "portrait of King George V",
+        "source": "https://www.flickr.com/photos/39415781@N06/6061861167",
         "alt": "Retrato pintado de un rey con traje real",
-        "titulo": "portrait of King George V",
         "autor": "ell brown",
-        "fuente": "https://www.flickr.com/photos/39415781@N06/6061861167",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La mayoría de las colonias americanas de España lograron su independencia. <br>Aprovecharon la debilidad española tras la guerra contra Francia. <br><mark>Surgieron así países como México, Argentina o Colombia</mark>. <br>¿Qué perdió España, en su mayor parte, durante el reinado de Fernando VII?",
-      "respuesta": "<mark>Su imperio americano</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/colonias-americanas.jpg",
+      "question": "La mayoría de las colonias americanas de España lograron su independencia. <br>Aprovecharon la debilidad española tras la guerra contra Francia. <br><mark>Surgieron así países como México, Argentina o Colombia</mark>. <br>¿Qué perdió España, en su mayor parte, durante el reinado de Fernando VII?",
+      "answer": "<mark>Su imperio americano</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/colonias-americanas.jpg",
+        "title": "Simon Bolivar 'The Liberator'",
+        "source": "https://www.flickr.com/photos/65193799@N00/469120791",
         "alt": "Estatua de Simón Bolívar, líder de la independencia americana",
-        "titulo": "Simon Bolivar 'The Liberator'",
         "autor": "dbking",
-        "fuente": "https://www.flickr.com/photos/65193799@N00/469120791",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un reinado largo estuvo marcado por luchas entre liberales moderados y progresistas. <br>España vivió entonces continuos cambios de gobierno y varias revueltas. <br><mark>Terminó siendo derrocada en una revolución en 1868</mark>. <br>¿Cómo se llamaba esta reina?",
-      "respuesta": "<mark>Isabel II</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/isabel-ii.jpg",
+      "question": "Un reinado largo estuvo marcado por luchas entre liberales moderados y progresistas. <br>España vivió entonces continuos cambios de gobierno y varias revueltas. <br><mark>Terminó siendo derrocada en una revolución en 1868</mark>. <br>¿Cómo se llamaba esta reina?",
+      "answer": "<mark>Isabel II</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/isabel-ii.jpg",
+        "title": "royal crown jewels",
+        "source": "https://www.flickr.com/photos/16962092@N03/36840935411",
         "alt": "Corona real con joyas",
-        "titulo": "royal crown jewels",
         "autor": "bwstock",
-        "fuente": "https://www.flickr.com/photos/16962092@N03/36840935411",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Un periodo de seis años, tras la caída de Isabel II, probó distintos experimentos políticos. <br><mark>España probó incluso, por primera vez, una forma de gobierno republicana</mark>. <br>Terminó con la vuelta de la monarquía borbónica. <br>¿Cómo se llama este periodo de seis años?",
-      "respuesta": "<mark>Sexenio Revolucionario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/sexenio-revolucionario.jpg",
+      "question": "Un periodo de seis años, tras la caída de Isabel II, probó distintos experimentos políticos. <br><mark>España probó incluso, por primera vez, una forma de gobierno republicana</mark>. <br>Terminó con la vuelta de la monarquía borbónica. <br>¿Cómo se llama este periodo de seis años?",
+      "answer": "<mark>Sexenio Revolucionario</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/sexenio-revolucionario.jpg",
+        "title": "Open ballot boxes before the voting started",
+        "source": "https://www.flickr.com/photos/13667942@N05/2170867663",
         "alt": "Urnas electorales abiertas antes de una votación",
-        "titulo": "Open ballot boxes before the voting started",
         "autor": "Antony Njenga",
-        "fuente": "https://www.flickr.com/photos/13667942@N05/2170867663",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Tras el Sexenio, volvió la monarquía borbónica de forma más estable. <br><mark>Dos partidos se turnaban en el poder, casi como si se repartieran los turnos de antemano</mark>. <br>Trajo décadas de mayor estabilidad, pero dejó fuera del sistema a buena parte de la población. <br>¿Cómo se llama este periodo?",
-      "respuesta": "<mark>Restauración</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/restauracion.jpg",
+      "question": "Tras el Sexenio, volvió la monarquía borbónica de forma más estable. <br><mark>Dos partidos se turnaban en el poder, casi como si se repartieran los turnos de antemano</mark>. <br>Trajo décadas de mayor estabilidad, pero dejó fuera del sistema a buena parte de la población. <br>¿Cómo se llama este periodo?",
+      "answer": "<mark>Restauración</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/restauracion.jpg",
+        "title": "Prado Museum..Museo del Prado",
+        "source": "https://www.flickr.com/photos/99622129@N00/9072774549",
         "alt": "Edificio histórico del Museo del Prado en Madrid",
-        "titulo": "Prado Museum..Museo del Prado",
         "autor": "BOMBMAN",
-        "fuente": "https://www.flickr.com/photos/99622129@N00/9072774549",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La industria creció mucho en algunas regiones del siglo XIX español. <br>El campo, en cambio, siguió siendo pobre en gran parte del país. <br><mark>Aumentó la población en las ciudades industriales</mark>. <br>¿Dónde creció sobre todo la industria en el siglo XIX español?",
-      "respuesta": "<mark>Cataluña y el País Vasco</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/transformaciones-xix.jpg",
+      "question": "La industria creció mucho en algunas regiones del siglo XIX español. <br>El campo, en cambio, siguió siendo pobre en gran parte del país. <br><mark>Aumentó la población en las ciudades industriales</mark>. <br>¿Dónde creció sobre todo la industria en el siglo XIX español?",
+      "answer": "<mark>Cataluña y el País Vasco</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/transformaciones-xix.jpg",
+        "title": "4-4-0 LSWR X2 Class No 577",
+        "source": "https://www.flickr.com/photos/37804979@N00/5673950070",
         "alt": "Locomotora de vapor antigua, típica del siglo XIX",
-        "titulo": "4-4-0 LSWR X2 Class No 577",
         "autor": "ahisgett",
-        "fuente": "https://www.flickr.com/photos/37804979@N00/5673950070",
         "licencia": "Public Domain Mark 1.0"
       }
     },
     {
-      "pregunta": "Autores y artistas reflejaban tanto los cambios políticos como los del paisaje social. <br>Un movimiento influyó mucho en la literatura y el arte de la época. <br><mark>Esa cultura preparó el terreno para la Generación del 98</mark>. <br>¿Cómo se llama este movimiento artístico y literario?",
-      "respuesta": "<mark>Romanticismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/cultura-xix.jpg",
+      "question": "Autores y artistas reflejaban tanto los cambios políticos como los del paisaje social. <br>Un movimiento influyó mucho en la literatura y el arte de la época. <br><mark>Esa cultura preparó el terreno para la Generación del 98</mark>. <br>¿Cómo se llama este movimiento artístico y literario?",
+      "answer": "<mark>Romanticismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/cultura-xix.jpg",
+        "title": "'Finnish Art Society 1846-1896', 50th Anniversary Jubilee Exhibition",
+        "source": "https://www.flickr.com/photos/127104863@N05/24182897034",
         "alt": "Sala de una exposición de arte con cuadros colgados",
-        "titulo": "'Finnish Art Society 1846-1896', 50th Anniversary Jubilee Exhibition",
         "autor": "Finnish National Gallery",
-        "fuente": "https://www.flickr.com/photos/127104863@N05/24182897034",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "La guerra contra Francia coincidió con el primer gran experimento liberal español. <br>Mientras el país luchaba fuera, dentro se debatía cómo debía gobernarse. <br><mark>Los diputados de Cádiz aprovecharon ese momento para limitar el poder absoluto</mark>. <br>¿Qué ocurría dentro del país mientras se luchaba fuera contra Francia?",
-      "respuesta": "<mark>Se debatía la Constitución</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/guerra-independencia-cadiz.jpg",
+      "question": "La guerra contra Francia coincidió con el primer gran experimento liberal español. <br>Mientras el país luchaba fuera, dentro se debatía cómo debía gobernarse. <br><mark>Los diputados de Cádiz aprovecharon ese momento para limitar el poder absoluto</mark>. <br>¿Qué ocurría dentro del país mientras se luchaba fuera contra Francia?",
+      "answer": "<mark>Se debatía la Constitución</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/guerra-independencia-cadiz.jpg",
+        "title": "Beautifully written in 1793...",
+        "source": "https://www.flickr.com/photos/8536261@N07/6133797257",
         "alt": "Documento antiguo escrito a mano en el siglo XVIII",
-        "titulo": "Beautifully written in 1793...",
         "autor": "storebukkebruse",
-        "fuente": "https://www.flickr.com/photos/8536261@N07/6133797257",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hubo guerras, cambios de Constitución y varios tipos de gobierno distintos durante el siglo XIX. <br><mark>Es como cambiar de reglas de juego una y otra vez, sin ponerse de acuerdo</mark>. <br>Liberales y absolutistas se enfrentaron durante décadas. <br>¿Cómo se describe la política española del siglo XIX?",
-      "respuesta": "<mark>Inestable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_5/inestabilidad-politica.jpg",
+      "question": "Hubo guerras, cambios de Constitución y varios tipos de gobierno distintos durante el siglo XIX. <br><mark>Es como cambiar de reglas de juego una y otra vez, sin ponerse de acuerdo</mark>. <br>Liberales y absolutistas se enfrentaron durante décadas. <br>¿Cómo se describe la política española del siglo XIX?",
+      "answer": "<mark>Inestable</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_5/inestabilidad-politica.jpg",
+        "title": "'Dazzled by the brights' - Sunday Sun newspaper.",
+        "source": "https://www.flickr.com/photos/60295285@N00/8511358356",
         "alt": "Página de un periódico antiguo",
-        "titulo": "'Dazzled by the brights' - Sunday Sun newspaper.",
         "autor": "Claire Briston.",
-        "fuente": "https://www.flickr.com/photos/60295285@N00/8511358356",
         "licencia": "CC BY 2.0"
       }
     }

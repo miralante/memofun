@@ -1,31 +1,31 @@
 {
-  "tema": "El teatro, la poesía y el microrrelato - 6º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El teatro, la poesía y el microrrelato - 6º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es <mark>como un viaje: salida, momento más difícil del camino y llegada</mark>. En la primera parte se presentan los personajes; en la última se resuelve todo. ¿Qué tres partes tiene una novela?",
-      "respuesta": "<mark>Planteamiento, nudo, desenlace</mark>"
+      "question": "Es <mark>como un viaje: salida, momento más difícil del camino y llegada</mark>. En la primera parte se presentan los personajes; en la última se resuelve todo. ¿Qué tres partes tiene una novela?",
+      "answer": "<mark>Planteamiento, nudo, desenlace</mark>"
     },
     {
-      "pregunta": "Es <mark>como una receta que cobra vida al cocinarla</mark>: el texto no está completo hasta que sube a un escenario. Los actores dan voz a las palabras. ¿Para qué nace el teatro?",
-      "respuesta": "<mark>Para ser visto</mark>"
+      "question": "Es <mark>como una receta que cobra vida al cocinarla</mark>: el texto no está completo hasta que sube a un escenario. Los actores dan voz a las palabras. ¿Para qué nace el teatro?",
+      "answer": "<mark>Para ser visto</mark>"
     },
     {
-      "pregunta": "Su risa y sus aplausos son <mark>como un eco que responde, aunque no hable</mark>. Cada función es distinta según cómo reacciona. ¿Quién hace única cada función de teatro?",
-      "respuesta": "<mark>El público</mark>"
+      "question": "Su risa y sus aplausos son <mark>como un eco que responde, aunque no hable</mark>. Cada función es distinta según cómo reacciona. ¿Quién hace única cada función de teatro?",
+      "answer": "<mark>El público</mark>"
     },
     {
-      "pregunta": "Es <mark>como decorar una casa: no cambia lo que es, la hace más bonita</mark>. Una metáfora puede mostrar un sentimiento mejor que una explicación normal. ¿Para qué usan los poetas estos recursos?",
-      "respuesta": "<mark>Para embellecer el poema</mark>"
+      "question": "Es <mark>como decorar una casa: no cambia lo que es, la hace más bonita</mark>. Una metáfora puede mostrar un sentimiento mejor que una explicación normal. ¿Para qué usan los poetas estos recursos?",
+      "answer": "<mark>Para embellecer el poema</mark>"
     },
     {
-      "pregunta": "Es <mark>como una fotografía: capta un instante entero en muy pocas palabras</mark>. Cada palabra tiene que aportar algo importante. ¿Cómo se llama este cuento tan corto?",
-      "respuesta": "<mark>Microrrelato</mark>"
+      "question": "Es <mark>como una fotografía: capta un instante entero en muy pocas palabras</mark>. Cada palabra tiene que aportar algo importante. ¿Cómo se llama este cuento tan corto?",
+      "answer": "<mark>Microrrelato</mark>"
     },
     {
-      "pregunta": "Es <mark>como un cuento al que le quitaran lo no esencial</mark>: mucho más corto, a veces de una sola frase. ¿Cómo se llama este cuento tan breve?",
-      "respuesta": "<mark>Microrrelato</mark>"
+      "question": "Es <mark>como un cuento al que le quitaran lo no esencial</mark>: mucho más corto, a veces de una sola frase. ¿Cómo se llama este cuento tan breve?",
+      "answer": "<mark>Microrrelato</mark>"
     }
   ]
 }

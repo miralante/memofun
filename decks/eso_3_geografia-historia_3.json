@@ -1,197 +1,197 @@
 {
-  "tema": "La crisis del Antiguo Régimen y las revoluciones liberales - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La crisis del Antiguo Régimen y las revoluciones liberales - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Un sistema político dominó Europa antes de las revoluciones liberales. <br><mark>Los reyes tenían poder absoluto y la sociedad estaba dividida en estamentos</mark>. <br>La nobleza y el clero tenían privilegios que el resto no tenía. <br>¿Cómo se llama este sistema?",
-      "respuesta": "<mark>Antiguo Régimen</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/antiguo-regimen.jpg",
+      "question": "Un sistema político dominó Europa antes de las revoluciones liberales. <br><mark>Los reyes tenían poder absoluto y la sociedad estaba dividida en estamentos</mark>. <br>La nobleza y el clero tenían privilegios que el resto no tenía. <br>¿Cómo se llama este sistema?",
+      "answer": "<mark>Antiguo Régimen</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/antiguo-regimen.jpg",
+        "title": "France-000422 - Palace of Versailles",
+        "source": "https://www.flickr.com/photos/22490717@N02/14642637019",
         "alt": "El Palacio de Versalles, símbolo del poder de los reyes absolutos.",
-        "titulo": "France-000422 - Palace of Versailles",
         "autor": "archer10 (Dennis)",
-        "fuente": "https://www.flickr.com/photos/22490717@N02/14642637019",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Nobleza, clero y el tercer estado</mark> formaban la sociedad, según el nacimiento. <br>El tercer estado pagaba casi todos los impuestos, aunque tenía menos derechos. <br>Esa desigualdad generó descontento social. <br>¿En cuántos grupos se dividía la sociedad del Antiguo Régimen?",
-      "respuesta": "<mark>Tres</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/sociedad-antiguo-regimen.jpg",
+      "question": "<mark>Nobleza, clero y el tercer estado</mark> formaban la sociedad, según el nacimiento. <br>El tercer estado pagaba casi todos los impuestos, aunque tenía menos derechos. <br>Esa desigualdad generó descontento social. <br>¿En cuántos grupos se dividía la sociedad del Antiguo Régimen?",
+      "answer": "<mark>Tres</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/sociedad-antiguo-regimen.jpg",
+        "title": "The Palace of Versailles - 020",
+        "source": "https://www.flickr.com/photos/58326585@N00/4601575406",
         "alt": "El Palacio de Versalles, donde vivía la nobleza francesa.",
-        "titulo": "The Palace of Versailles - 020",
         "autor": "rieh",
-        "fuente": "https://www.flickr.com/photos/58326585@N00/4601575406",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un movimiento difundió ideas como la igualdad, la libertad y la razón frente al poder absoluto. <br>Esas ideas fueron la chispa que encendió varias revoluciones posteriores. <br><mark>Pensadores como Rousseau o Montesquieu cuestionaron el poder de los reyes</mark>. <br>¿Cómo se llama este movimiento de pensamiento?",
-      "respuesta": "<mark>Ilustración</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/ilustracion-revoluciones.jpg",
+      "question": "Un movimiento difundió ideas como la igualdad, la libertad y la razón frente al poder absoluto. <br>Esas ideas fueron la chispa que encendió varias revoluciones posteriores. <br><mark>Pensadores como Rousseau o Montesquieu cuestionaron el poder de los reyes</mark>. <br>¿Cómo se llama este movimiento de pensamiento?",
+      "answer": "<mark>Ilustración</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/ilustracion-revoluciones.jpg",
+        "title": "Reading List",
+        "source": "https://www.flickr.com/photos/25187937@N05/5414960417",
         "alt": "Lista de libros para leer, símbolo del pensamiento ilustrado.",
-        "titulo": "Reading List",
         "autor": "KJGarbutt",
-        "fuente": "https://www.flickr.com/photos/25187937@N05/5414960417",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un sistema hacía que el rey compartiera el poder con un parlamento electo. <br><mark>El rey ya no podía gobernar solo, sin el visto bueno de otros representantes</mark>. <br>Se consolidó en Inglaterra antes que en el resto de Europa. <br>¿Cómo se llama este sistema político?",
-      "respuesta": "<mark>Monarquía parlamentaria</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/monarquia-parlamentaria.jpg",
+      "question": "Un sistema hacía que el rey compartiera el poder con un parlamento electo. <br><mark>El rey ya no podía gobernar solo, sin el visto bueno de otros representantes</mark>. <br>Se consolidó en Inglaterra antes que en el resto de Europa. <br>¿Cómo se llama este sistema político?",
+      "answer": "<mark>Monarquía parlamentaria</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/monarquia-parlamentaria.jpg",
+        "title": "Westminster Parliament, London",
+        "source": "https://www.flickr.com/photos/157321328@N03/37610735835",
         "alt": "El Parlamento de Westminster, en Londres.",
-        "titulo": "Westminster Parliament, London",
         "autor": "robuild",
-        "fuente": "https://www.flickr.com/photos/157321328@N03/37610735835",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Las colonias británicas de América se rebelaron contra impuestos decididos sin su participación. <br><mark>En 1776 declararon su independencia y nació Estados Unidos</mark>. <br>Su Constitución influyó en las revoluciones liberales posteriores. <br>¿Cómo se llama este proceso de independencia?",
-      "respuesta": "<mark>Revolución americana</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/revolucion-americana.jpg",
+      "question": "Las colonias británicas de América se rebelaron contra impuestos decididos sin su participación. <br><mark>En 1776 declararon su independencia y nació Estados Unidos</mark>. <br>Su Constitución influyó en las revoluciones liberales posteriores. <br>¿Cómo se llama este proceso de independencia?",
+      "answer": "<mark>Revolución americana</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/revolucion-americana.jpg",
+        "title": "Independence Hall - Philadelphia Pennsylvania - UNESCO - United States",
+        "source": "https://www.flickr.com/photos/7156765@N05/51680879247",
         "alt": "El edificio de Independence Hall, en Filadelfia.",
-        "titulo": "Independence Hall - Philadelphia Pennsylvania - UNESCO - United States",
         "autor": "Onasill - Bill Badzo",
-        "fuente": "https://www.flickr.com/photos/7156765@N05/51680879247",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Un proceso acabó con la monarquía absoluta en Francia, en 1789. <br>El pueblo se levantó contra los privilegios de la nobleza y el clero. <br><mark>Su lema fue libertad, igualdad y fraternidad</mark>. <br>¿Cómo se llama este proceso histórico?",
-      "respuesta": "<mark>Revolución francesa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/revolucion-francesa.jpg",
+      "question": "Un proceso acabó con la monarquía absoluta en Francia, en 1789. <br>El pueblo se levantó contra los privilegios de la nobleza y el clero. <br><mark>Su lema fue libertad, igualdad y fraternidad</mark>. <br>¿Cómo se llama este proceso histórico?",
+      "answer": "<mark>Revolución francesa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/revolucion-francesa.jpg",
+        "title": "French flag",
+        "source": "https://www.flickr.com/photos/18378655@N00/613382026",
         "alt": "La bandera tricolor de Francia.",
-        "titulo": "French flag",
         "autor": "James Cridland",
-        "fuente": "https://www.flickr.com/photos/18378655@N00/613382026",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un rey de Francia perdió el poder y finalmente fue ejecutado en 1793. <br><mark>Fue un símbolo enorme: hasta un rey podía perder la vida ante el pueblo</mark>. <br>Ese hecho asustó a otras monarquías de Europa. <br>¿Cómo se llamaba este rey de Francia?",
-      "respuesta": "<mark>Luis XVI</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/rey-francia.jpg",
+      "question": "Un rey de Francia perdió el poder y finalmente fue ejecutado en 1793. <br><mark>Fue un símbolo enorme: hasta un rey podía perder la vida ante el pueblo</mark>. <br>Ese hecho asustó a otras monarquías de Europa. <br>¿Cómo se llamaba este rey de Francia?",
+      "answer": "<mark>Luis XVI</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/rey-francia.jpg",
+        "title": "royal crown jewels",
+        "source": "https://www.flickr.com/photos/16962092@N03/36840935411",
         "alt": "Una corona real, símbolo del poder de los reyes.",
-        "titulo": "royal crown jewels",
         "autor": "bwstock",
-        "fuente": "https://www.flickr.com/photos/16962092@N03/36840935411",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Un imperio nació tras la Revolución francesa, creado por un general. <br>Extendió por buena parte de Europa ideas revolucionarias, aunque gobernaba como un emperador. <br><mark>Sus ejércitos conquistaron gran parte del continente</mark>. <br>¿Cómo se llama este imperio creado por Napoleón Bonaparte?",
-      "respuesta": "<mark>Imperio napoleónico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/imperio-napoleonico.jpg",
+      "question": "Un imperio nació tras la Revolución francesa, creado por un general. <br>Extendió por buena parte de Europa ideas revolucionarias, aunque gobernaba como un emperador. <br><mark>Sus ejércitos conquistaron gran parte del continente</mark>. <br>¿Cómo se llama este imperio creado por Napoleón Bonaparte?",
+      "answer": "<mark>Imperio napoleónico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/imperio-napoleonico.jpg",
+        "title": "Arc de Triomphe Paris. Shenzhen China.",
+        "source": "https://www.flickr.com/photos/88123769@N02/12534620103",
         "alt": "El Arco de Triunfo de París, construido en tiempos de Napoleón.",
-        "titulo": "Arc de Triomphe Paris. Shenzhen China.",
         "autor": "Bernard Spragg",
-        "fuente": "https://www.flickr.com/photos/88123769@N02/12534620103",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Las monarquías europeas intentaron volver al sistema anterior a la revolución. <br><mark>Es como intentar meter de nuevo en la caja algo que ya se había salido</mark>. <br>Los reyes recuperaron parte de su poder, pero las ideas liberales no desaparecieron del todo. <br>¿Cómo se llama este intento de vuelta al pasado?",
-      "respuesta": "<mark>Restauración del absolutismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/restauracion-absolutismo.jpg",
+      "question": "Las monarquías europeas intentaron volver al sistema anterior a la revolución. <br><mark>Es como intentar meter de nuevo en la caja algo que ya se había salido</mark>. <br>Los reyes recuperaron parte de su poder, pero las ideas liberales no desaparecieron del todo. <br>¿Cómo se llama este intento de vuelta al pasado?",
+      "answer": "<mark>Restauración del absolutismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/restauracion-absolutismo.jpg",
+        "title": "Bastille Day",
+        "source": "https://www.flickr.com/photos/78147607@N00/2667056465",
         "alt": "La bandera francesa ondeando en un desfile.",
-        "titulo": "Bastille Day",
         "autor": "euthman",
-        "fuente": "https://www.flickr.com/photos/78147607@N00/2667056465",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Nuevas revueltas liberales estallaron en distintos países europeos, en 1820, 1830 y 1848. <br><mark>Cada una era como una réplica del terremoto que había sido la Revolución francesa</mark>. <br>Pedían constituciones, libertades y menos poder para los reyes absolutos. <br>¿Cómo se llaman estas revueltas repetidas?",
-      "respuesta": "<mark>Oleadas revolucionarias</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/oleadas-revolucionarias.jpg",
+      "question": "Nuevas revueltas liberales estallaron en distintos países europeos, en 1820, 1830 y 1848. <br><mark>Cada una era como una réplica del terremoto que había sido la Revolución francesa</mark>. <br>Pedían constituciones, libertades y menos poder para los reyes absolutos. <br>¿Cómo se llaman estas revueltas repetidas?",
+      "answer": "<mark>Oleadas revolucionarias</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/oleadas-revolucionarias.jpg",
+        "title": "Red pen stuck between the pages of a book",
+        "source": "https://www.flickr.com/photos/10361931@N06/4289811229",
         "alt": "Un bolígrafo rojo colocado entre las páginas de un libro.",
-        "titulo": "Red pen stuck between the pages of a book",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4289811229",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un pueblo con lengua y cultura propias merece formar su propio Estado, según cierta idea. <br><mark>Es como decir \"compartimos historia, así que merecemos gobernarnos juntos\"</mark>. <br>Impulsó movimientos de independencia y de unificación de países. <br>¿Cómo se llama esta idea del siglo XIX?",
-      "respuesta": "<mark>Nacionalismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/nacionalismo-xix.jpg",
+      "question": "Un pueblo con lengua y cultura propias merece formar su propio Estado, según cierta idea. <br><mark>Es como decir \"compartimos historia, así que merecemos gobernarnos juntos\"</mark>. <br>Impulsó movimientos de independencia y de unificación de países. <br>¿Cómo se llama esta idea del siglo XIX?",
+      "answer": "<mark>Nacionalismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/nacionalismo-xix.jpg",
+        "title": "Westminster Parliament, London",
+        "source": "https://www.flickr.com/photos/157321328@N03/24625351408",
         "alt": "El Parlamento de Westminster, símbolo de una nación.",
-        "titulo": "Westminster Parliament, London",
         "autor": "robuild",
-        "fuente": "https://www.flickr.com/photos/157321328@N03/24625351408",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Varios reinos y territorios de lengua alemana se unieron en un solo Estado. <br><mark>Es como juntar piezas sueltas de un mismo puzle en una sola imagen</mark>. <br>Prusia lideró ese proceso, a menudo mediante guerras. <br>¿En qué año se proclamó el Imperio alemán unificado?",
-      "respuesta": "<mark>1871</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/unificacion-alemania.png",
+      "question": "Varios reinos y territorios de lengua alemana se unieron en un solo Estado. <br><mark>Es como juntar piezas sueltas de un mismo puzle en una sola imagen</mark>. <br>Prusia lideró ese proceso, a menudo mediante guerras. <br>¿En qué año se proclamó el Imperio alemán unificado?",
+      "answer": "<mark>1871</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/unificacion-alemania.png",
+        "title": "German Unification flag of 1832",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=70183480",
         "alt": "Bandera histórica usada durante el proceso de unificación de Alemania.",
-        "titulo": "German Unification flag of 1832",
         "autor": "Prozach1921",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=70183480",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Distintos reinos y territorios italianos se unieron en un único país. <br><mark>Antes de eso, Italia era más un conjunto de territorios que una sola nación</mark>. <br>El Reino de Piamonte-Cerdeña lideró gran parte de ese proceso. <br>¿Qué militar ayudó con sus campañas a esta unificación?",
-      "respuesta": "<mark>Garibaldi</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/garibaldi-estatua.jpg",
+      "question": "Distintos reinos y territorios italianos se unieron en un único país. <br><mark>Antes de eso, Italia era más un conjunto de territorios que una sola nación</mark>. <br>El Reino de Piamonte-Cerdeña lideró gran parte de ese proceso. <br>¿Qué militar ayudó con sus campañas a esta unificación?",
+      "answer": "<mark>Garibaldi</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/garibaldi-estatua.jpg",
+        "title": "Jose Garibaldi, estatua en la plaza Manuel H. y Obes",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=28364582",
         "alt": "Estatua de Giuseppe Garibaldi, líder de la unificación de Italia",
-        "titulo": "Jose Garibaldi, estatua en la plaza Manuel H. y Obes",
         "autor": "Jose castillo urquiza",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=28364582",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "<mark>En un sistema, el rey gobernaba casi sin límites y la sociedad estaba dividida en estamentos</mark>. <br>En otro sistema existen leyes, una Constitución y derechos para los ciudadanos. <br>Ese cambio fue resultado directo de las revoluciones liberales. <br>¿Qué limita el poder del rey en una monarquía liberal?",
-      "respuesta": "<mark>La Constitución</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/diferencia-antiguo-liberal.jpg",
+      "question": "<mark>En un sistema, el rey gobernaba casi sin límites y la sociedad estaba dividida en estamentos</mark>. <br>En otro sistema existen leyes, una Constitución y derechos para los ciudadanos. <br>Ese cambio fue resultado directo de las revoluciones liberales. <br>¿Qué limita el poder del rey en una monarquía liberal?",
+      "answer": "<mark>La Constitución</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/diferencia-antiguo-liberal.jpg",
+        "title": "French flag",
+        "source": "https://www.flickr.com/photos/18378655@N00/613382026",
         "alt": "La bandera tricolor de Francia, símbolo de la monarquía liberal.",
-        "titulo": "French flag",
         "autor": "James Cridland",
-        "fuente": "https://www.flickr.com/photos/18378655@N00/613382026",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El poder absoluto de un rey podía ser derrocado, y eso quedó demostrado. <br><mark>Es como ver caer la primera ficha de un dominó y temer que caigan todas</mark>. <br>Por eso intentaron frenar esas ideas durante décadas. <br>¿Qué temían las monarquías europeas tras estas revoluciones?",
-      "respuesta": "<mark>Que el pueblo se rebelara</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/miedo-monarquias.jpg",
+      "question": "El poder absoluto de un rey podía ser derrocado, y eso quedó demostrado. <br><mark>Es como ver caer la primera ficha de un dominó y temer que caigan todas</mark>. <br>Por eso intentaron frenar esas ideas durante décadas. <br>¿Qué temían las monarquías europeas tras estas revoluciones?",
+      "answer": "<mark>Que el pueblo se rebelara</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/miedo-monarquias.jpg",
+        "title": "royal crown jewels",
+        "source": "https://www.flickr.com/photos/16962092@N03/36840935411",
         "alt": "Una corona real, símbolo del poder de las monarquías.",
-        "titulo": "royal crown jewels",
         "autor": "bwstock",
-        "fuente": "https://www.flickr.com/photos/16962092@N03/36840935411",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Ideas como la separación de poderes, las constituciones y los derechos ciudadanos nacieron de esas luchas</mark>. <br>Muchas normas que hoy parecen normales vienen de hace siglos. <br>La mayoría de democracias actuales beben de esas ideas. <br>¿Qué dejaron las revoluciones liberales a la política actual?",
-      "respuesta": "<mark>Su legado democrático</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_geografia-historia_3/legado-revoluciones.jpg",
+      "question": "<mark>Ideas como la separación de poderes, las constituciones y los derechos ciudadanos nacieron de esas luchas</mark>. <br>Muchas normas que hoy parecen normales vienen de hace siglos. <br>La mayoría de democracias actuales beben de esas ideas. <br>¿Qué dejaron las revoluciones liberales a la política actual?",
+      "answer": "<mark>Su legado democrático</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_geografia-historia_3/legado-revoluciones.jpg",
+        "title": "Ballot box scanner - London mayor and assembly election 2008",
+        "source": "https://www.flickr.com/photos/25834786@N03/2461779607",
         "alt": "Urna electoral utilizada para depositar los votos.",
-        "titulo": "Ballot box scanner - London mayor and assembly election 2008",
         "autor": "secretlondon123",
-        "fuente": "https://www.flickr.com/photos/25834786@N03/2461779607",
         "licencia": "CC BY-SA 2.0"
       }
     }

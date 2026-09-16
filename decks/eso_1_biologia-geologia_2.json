@@ -1,125 +1,125 @@
 {
-  "tema": "La célula: unidad de los seres vivos - 1º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La célula: unidad de los seres vivos - 1º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es la unidad más pequeña capaz de hacer las funciones de un ser vivo. <mark>Es como el ladrillo más pequeño</mark> de cualquier ser vivo. ¿Cómo se llama esta unidad?",
-      "respuesta": "<mark>Célula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-levadura.jpg",
+      "question": "Es la unidad más pequeña capaz de hacer las funciones de un ser vivo. <mark>Es como el ladrillo más pequeño</mark> de cualquier ser vivo. ¿Cómo se llama esta unidad?",
+      "answer": "<mark>Célula</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/celulas-levadura.jpg",
+        "title": "Yeast Cells Under the Microscope",
+        "source": "https://www.flickr.com/photos/96712513@N07/12947630984",
         "alt": "Células de levadura vistas al microscopio",
-        "titulo": "Yeast Cells Under the Microscope",
         "autor": "BlueShift 12",
-        "fuente": "https://www.flickr.com/photos/96712513@N07/12947630984",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un ser vivo nace, se nutre y se reproduce. <mark>Una piedra no hace nada de esto</mark>. ¿Cómo se llaman estas capacidades básicas de todo ser vivo?",
-      "respuesta": "<mark>Funciones vitales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/roca-piedra.jpg",
+      "question": "Un ser vivo nace, se nutre y se reproduce. <mark>Una piedra no hace nada de esto</mark>. ¿Cómo se llaman estas capacidades básicas de todo ser vivo?",
+      "answer": "<mark>Funciones vitales</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/roca-piedra.jpg",
+        "title": "Molalla River Recreation Area",
+        "source": "https://www.flickr.com/photos/50169152@N06/11327186416",
         "alt": "Una roca, ejemplo de materia inerte",
-        "titulo": "Molalla River Recreation Area",
         "autor": "BLM Oregon & Washington",
-        "fuente": "https://www.flickr.com/photos/50169152@N06/11327186416",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una célula sencilla, sin núcleo definido, <mark>como en las bacterias</mark>. Su material genético flota libre, sin una habitación propia. ¿Cómo se llama este tipo de célula?",
-      "respuesta": "<mark>Célula procariota</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/bacteria-espirilo.jpg",
+      "question": "Es una célula sencilla, sin núcleo definido, <mark>como en las bacterias</mark>. Su material genético flota libre, sin una habitación propia. ¿Cómo se llama este tipo de célula?",
+      "answer": "<mark>Célula procariota</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/bacteria-espirilo.jpg",
+        "title": "Spirillum Bacteria",
+        "source": "https://www.flickr.com/photos/48784416@N06/6269249676",
         "alt": "Bacterias vistas al microscopio",
-        "titulo": "Spirillum Bacteria",
         "autor": "adonofrio (Biology101.org)",
-        "fuente": "https://www.flickr.com/photos/48784416@N06/6269249676",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una célula más compleja, con el núcleo bien delimitado. <mark>Su material genético está guardado en una habitación propia</mark>. ¿Cómo se llama este tipo de célula?",
-      "respuesta": "<mark>Célula eucariota</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-mejilla.jpg",
+      "question": "Es una célula más compleja, con el núcleo bien delimitado. <mark>Su material genético está guardado en una habitación propia</mark>. ¿Cómo se llama este tipo de célula?",
+      "answer": "<mark>Célula eucariota</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/celulas-mejilla.jpg",
+        "title": "Human cheek cells",
+        "source": "https://www.flickr.com/photos/63450246@N03/6936088946",
         "alt": "Células humanas de la mejilla vistas al microscopio",
-        "titulo": "Human cheek cells",
         "autor": "CodonAUG",
-        "fuente": "https://www.flickr.com/photos/63450246@N03/6936088946",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una célula tiene un caparazón rígido y fabrica su alimento con la luz, <mark>como una planta</mark>. La otra es flexible y no fabrica alimento. ¿Qué tipo de célula tiene cada una?",
-      "respuesta": "<mark>Vegetal y animal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/lithops-disecado.jpg",
+      "question": "Una célula tiene un caparazón rígido y fabrica su alimento con la luz, <mark>como una planta</mark>. La otra es flexible y no fabrica alimento. ¿Qué tipo de célula tiene cada una?",
+      "answer": "<mark>Vegetal y animal</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/lithops-disecado.jpg",
+        "title": "Dissected Lithops 0127",
+        "source": "https://www.flickr.com/photos/63794141@N00/3137858909",
         "alt": "Una planta disecada mostrando su estructura interna",
-        "titulo": "Dissected Lithops 0127",
         "autor": "yellowcloud",
-        "fuente": "https://www.flickr.com/photos/63794141@N00/3137858909",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la parte de la célula que guarda el material genético. <mark>Es como la sala de control de la célula</mark>. Solo las eucariotas la tienen bien diferenciada. ¿Cómo se llama esta estructura?",
-      "respuesta": "<mark>Núcleo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/celulas-hela.jpg",
+      "question": "Es la parte de la célula que guarda el material genético. <mark>Es como la sala de control de la célula</mark>. Solo las eucariotas la tienen bien diferenciada. ¿Cómo se llama esta estructura?",
+      "answer": "<mark>Núcleo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/celulas-hela.jpg",
+        "title": "HeLa cells",
+        "source": "https://wellcomecollection.org/works/mzz2rjvp",
         "alt": "Células vistas al microscopio, con el núcleo teñido",
-        "titulo": "HeLa cells",
         "autor": "(autor desconocido)",
-        "fuente": "https://wellcomecollection.org/works/mzz2rjvp",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Dentro de la célula ocurren todas las funciones para mantenerse con vida. <mark>Es como una pequeña fábrica que hace de todo</mark>. ¿Qué tipo de unidad es la célula, por hacer todo esto?",
-      "respuesta": "<mark>Unidad funcional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/engranajes.jpg",
+      "question": "Dentro de la célula ocurren todas las funciones para mantenerse con vida. <mark>Es como una pequeña fábrica que hace de todo</mark>. ¿Qué tipo de unidad es la célula, por hacer todo esto?",
+      "answer": "<mark>Unidad funcional</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/engranajes.jpg",
+        "title": "Gears.",
+        "source": "https://www.flickr.com/photos/86838704@N00/3462859629",
         "alt": "Engranajes trabajando juntos como una pequeña fábrica",
-        "titulo": "Gears.",
         "autor": "ianmunroe",
-        "fuente": "https://www.flickr.com/photos/86838704@N00/3462859629",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Las células son demasiado pequeñas para verlas a simple vista. <mark>Es como usar una lupa gigante</mark> para ver lo invisible. ¿Qué instrumento se usa para observarlas?",
-      "respuesta": "<mark>Microscopio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/microscopio-1930s.jpg",
+      "question": "Las células son demasiado pequeñas para verlas a simple vista. <mark>Es como usar una lupa gigante</mark> para ver lo invisible. ¿Qué instrumento se usa para observarlas?",
+      "answer": "<mark>Microscopio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/microscopio-1930s.jpg",
+        "title": "Jaime Rivadeneira Microscopio - 1930s",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=82073252",
         "alt": "Un microscopio antiguo, usado para observar células",
-        "titulo": "Jaime Rivadeneira Microscopio - 1930s",
         "autor": "Monicoro",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=82073252",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Son seres vivos formados por una sola célula, que hace todas las funciones vitales. <mark>Es como una empresa diminuta con una única persona</mark> que hace de todo. ¿Cómo se llaman estos organismos?",
-      "respuesta": "<mark>Organismos unicelulares</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/bacterias-microorganismos.jpg",
+      "question": "Son seres vivos formados por una sola célula, que hace todas las funciones vitales. <mark>Es como una empresa diminuta con una única persona</mark> que hace de todo. ¿Cómo se llaman estos organismos?",
+      "answer": "<mark>Organismos unicelulares</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/bacterias-microorganismos.jpg",
+        "title": "Billones de bacterias y otros microorganismos",
+        "source": "https://www.flickr.com/photos/94200309@N02/18266815062",
         "alt": "Ilustración de bacterias y otros microorganismos unicelulares",
-        "titulo": "Billones de bacterias y otros microorganismos",
         "autor": "German Tenorio",
-        "fuente": "https://www.flickr.com/photos/94200309@N02/18266815062",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son seres vivos formados por muchas células distintas, trabajando juntas. <mark>Es como una gran empresa con un trabajador para cada tarea</mark>. ¿Cómo se llaman estos organismos?",
-      "respuesta": "<mark>Organismos pluricelulares</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_1_biologia-geologia_2/familia-parque.jpg",
+      "question": "Son seres vivos formados por muchas células distintas, trabajando juntas. <mark>Es como una gran empresa con un trabajador para cada tarea</mark>. ¿Cómo se llaman estos organismos?",
+      "answer": "<mark>Organismos pluricelulares</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_1_biologia-geologia_2/familia-parque.jpg",
+        "title": "Family Fun in Themepark Lochmuehle (Usingen, Germany)",
+        "source": "https://www.flickr.com/photos/51876732@N00/1528277113",
         "alt": "Una familia junta, ejemplo de organismo pluricelular",
-        "titulo": "Family Fun in Themepark Lochmuehle (Usingen, Germany)",
         "autor": "reiner.kraft",
-        "fuente": "https://www.flickr.com/photos/51876732@N00/1528277113",
         "licencia": "CC BY 2.0"
       }
     }

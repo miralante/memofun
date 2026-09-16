@@ -1,59 +1,59 @@
 {
-  "tema": "La higiene, los alimentos y el día y la noche - 1º de Primaria",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La higiene, los alimentos y el día y la noche - 1º de Primaria",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Las manos tocan muchas cosas sucias sin que lo notemos. <mark>Lavarlas es como borrar algo invisible que no vemos</mark>. Si comemos con las manos sucias, esos gérmenes entran en el cuerpo. ¿Por qué hay que lavarse las manos antes de comer?",
-      "respuesta": "<mark>Para quitar los gérmenes</mark>"
+      "question": "Las manos tocan muchas cosas sucias sin que lo notemos. <mark>Lavarlas es como borrar algo invisible que no vemos</mark>. Si comemos con las manos sucias, esos gérmenes entran en el cuerpo. ¿Por qué hay que lavarse las manos antes de comer?",
+      "answer": "<mark>Para quitar los gérmenes</mark>"
     },
     {
-      "pregunta": "Después de comer quedan restos de comida en los dientes. <mark>Cepillarlos es como limpiar la casa antes de que se ensucie del todo</mark>. Si no se limpian, pueden salir caries. ¿Por qué hay que lavarse los dientes cada día?",
-      "respuesta": "<mark>Para evitar caries</mark>"
+      "question": "Después de comer quedan restos de comida en los dientes. <mark>Cepillarlos es como limpiar la casa antes de que se ensucie del todo</mark>. Si no se limpian, pueden salir caries. ¿Por qué hay que lavarse los dientes cada día?",
+      "answer": "<mark>Para evitar caries</mark>"
     },
     {
-      "pregunta": "El cuerpo suda y se ensucia durante el día. <mark>Ducharse es como darle un respiro después de un día ajetreado</mark>. Así evitamos malos olores y algunas enfermedades. ¿Por qué es importante bañarse o ducharse?",
-      "respuesta": "<mark>Para limpiar la piel</mark>"
+      "question": "El cuerpo suda y se ensucia durante el día. <mark>Ducharse es como darle un respiro después de un día ajetreado</mark>. Así evitamos malos olores y algunas enfermedades. ¿Por qué es importante bañarse o ducharse?",
+      "answer": "<mark>Para limpiar la piel</mark>"
     },
     {
-      "pregunta": "<mark>Cortarse las uñas, peinarse y usar ropa limpia cuidan mucho de nuestro cuerpo</mark>. También hay que taparse la boca al toser. ¿Cómo se llama a todos estos hábitos juntos?",
-      "respuesta": "<mark>Higiene</mark>"
+      "question": "<mark>Cortarse las uñas, peinarse y usar ropa limpia cuidan mucho de nuestro cuerpo</mark>. También hay que taparse la boca al toser. ¿Cómo se llama a todos estos hábitos juntos?",
+      "answer": "<mark>Higiene</mark>"
     },
     {
-      "pregunta": "Las frutas, las verduras, el pan y el agua <mark>son como el combustible bueno que necesita nuestro cuerpo</mark>. Comer variado nos da energía para jugar y aprender. ¿Cómo se llama este tipo de comida?",
-      "respuesta": "<mark>Alimentos sanos</mark>"
+      "question": "Las frutas, las verduras, el pan y el agua <mark>son como el combustible bueno que necesita nuestro cuerpo</mark>. Comer variado nos da energía para jugar y aprender. ¿Cómo se llama este tipo de comida?",
+      "answer": "<mark>Alimentos sanos</mark>"
     },
     {
-      "pregunta": "Tienen vitaminas que nos ayudan a crecer fuertes, <mark>como pequeñas defensas que cuidan nuestro cuerpo por dentro</mark>. Una manzana o una zanahoria son meriendas muy sanas. ¿Por qué es bueno comer frutas y verduras?",
-      "respuesta": "<mark>Por las vitaminas</mark>"
+      "question": "Tienen vitaminas que nos ayudan a crecer fuertes, <mark>como pequeñas defensas que cuidan nuestro cuerpo por dentro</mark>. Una manzana o una zanahoria son meriendas muy sanas. ¿Por qué es bueno comer frutas y verduras?",
+      "answer": "<mark>Por las vitaminas</mark>"
     },
     {
-      "pregunta": "Comer solo dulces <mark>es como llenar el depósito de un coche con el combustible equivocado</mark>. Nuestro cuerpo puede sentirse cansado o ganar peso de más. ¿Qué pasa si comemos demasiados dulces cada día?",
-      "respuesta": "<mark>No es sano</mark>"
+      "question": "Comer solo dulces <mark>es como llenar el depósito de un coche con el combustible equivocado</mark>. Nuestro cuerpo puede sentirse cansado o ganar peso de más. ¿Qué pasa si comemos demasiados dulces cada día?",
+      "answer": "<mark>No es sano</mark>"
     },
     {
-      "pregunta": "Nuestro cuerpo necesita esto para funcionar bien, <mark>como el aceite que hace que un motor no se atasque</mark>. Nos ayuda a no cansarnos tanto. ¿Qué es tan importante beber durante el día?",
-      "respuesta": "<mark>Agua</mark>"
+      "question": "Nuestro cuerpo necesita esto para funcionar bien, <mark>como el aceite que hace que un motor no se atasque</mark>. Nos ayuda a no cansarnos tanto. ¿Qué es tan importante beber durante el día?",
+      "answer": "<mark>Agua</mark>"
     },
     {
-      "pregunta": "La Tierra gira sobre sí misma sin parar, <mark>como una peonza que da vueltas todo el tiempo</mark>. Cuando nuestra parte mira al sol, es de día. ¿Por qué hay día y noche?",
-      "respuesta": "<mark>Porque la Tierra gira</mark>"
+      "question": "La Tierra gira sobre sí misma sin parar, <mark>como una peonza que da vueltas todo el tiempo</mark>. Cuando nuestra parte mira al sol, es de día. ¿Por qué hay día y noche?",
+      "answer": "<mark>Porque la Tierra gira</mark>"
     },
     {
-      "pregunta": "Nos da luz y calor durante el día, <mark>como una gran lámpara que ilumina el mundo</mark>. Gracias a su luz podemos ver todo con claridad. ¿Qué vemos en el cielo durante el día?",
-      "respuesta": "<mark>El sol</mark>"
+      "question": "Nos da luz y calor durante el día, <mark>como una gran lámpara que ilumina el mundo</mark>. Gracias a su luz podemos ver todo con claridad. ¿Qué vemos en el cielo durante el día?",
+      "answer": "<mark>El sol</mark>"
     },
     {
-      "pregunta": "La luna <mark>es como un farol suave que alumbra la noche</mark>, y las estrellas brillan aunque están muchísimo más lejos. De día no se ven porque el sol es mucho más fuerte. ¿Qué vemos en el cielo durante la noche?",
-      "respuesta": "<mark>La luna y las estrellas</mark>"
+      "question": "La luna <mark>es como un farol suave que alumbra la noche</mark>, y las estrellas brillan aunque están muchísimo más lejos. De día no se ven porque el sol es mucho más fuerte. ¿Qué vemos en el cielo durante la noche?",
+      "answer": "<mark>La luna y las estrellas</mark>"
     },
     {
-      "pregunta": "De día solemos jugar, estudiar y salir a la calle. La noche es el momento de descansar, <mark>como recargar pilas</mark>. Nos da energía para el día siguiente. ¿Qué es tan importante hacer por la noche?",
-      "respuesta": "<mark>Dormir</mark>"
+      "question": "De día solemos jugar, estudiar y salir a la calle. La noche es el momento de descansar, <mark>como recargar pilas</mark>. Nos da energía para el día siguiente. ¿Qué es tan importante hacer por la noche?",
+      "answer": "<mark>Dormir</mark>"
     },
     {
-      "pregunta": "Aparecen cuando algo bloquea la luz del sol, <mark>como el reflejo oscuro que deja nuestro cuerpo en el suelo</mark>. Al mediodía son cortas, y por la tarde se alargan. ¿Cómo se llaman estas formas oscuras?",
-      "respuesta": "<mark>Sombras</mark>"
+      "question": "Aparecen cuando algo bloquea la luz del sol, <mark>como el reflejo oscuro que deja nuestro cuerpo en el suelo</mark>. Al mediodía son cortas, y por la tarde se alargan. ¿Cómo se llaman estas formas oscuras?",
+      "answer": "<mark>Sombras</mark>"
     }
   ]
 }

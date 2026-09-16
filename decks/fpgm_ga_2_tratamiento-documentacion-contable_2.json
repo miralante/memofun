@@ -1,113 +1,113 @@
 {
-  "tema": "Libros registro, notas de abono y archivo de documentos contables - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Libros registro, notas de abono y archivo de documentos contables - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. <mark>Es como un cuaderno oficial que hay que llevar siempre al día</mark>. ¿Cómo se llaman estos libros?",
-      "respuesta": "<mark>Libros-registro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/libro-registro.jpg",
+      "question": "Son libros donde se anotan de forma ordenada las facturas emitidas y recibidas, exigidos por Hacienda. <mark>Es como un cuaderno oficial que hay que llevar siempre al día</mark>. ¿Cómo se llaman estos libros?",
+      "answer": "<mark>Libros-registro</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/libro-registro.jpg",
+        "title": "Ledger page from Franklin's GPO account book",
+        "source": "https://postalmuseum.si.edu/object/npm_1982.0786.1",
         "alt": "Una página de un libro de registro contable antiguo",
-        "titulo": "Ledger page from Franklin's GPO account book",
         "autor": "(autor desconocido)",
-        "fuente": "https://postalmuseum.si.edu/object/npm_1982.0786.1",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "La factura y el albarán justifican qué se compró y en qué condiciones. <mark>Es como guardar las pruebas de cada compra, por si hay que demostrarla</mark>. ¿Qué documentos sirven de soporte a una compra?",
-      "respuesta": "<mark>Factura y albarán</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/facturas.jpg",
+      "question": "La factura y el albarán justifican qué se compró y en qué condiciones. <mark>Es como guardar las pruebas de cada compra, por si hay que demostrarla</mark>. ¿Qué documentos sirven de soporte a una compra?",
+      "answer": "<mark>Factura y albarán</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/facturas.jpg",
+        "title": "Invoices",
+        "source": "https://www.flickr.com/photos/84387590@N00/2693815369",
         "alt": "Un montón de facturas",
-        "titulo": "Invoices",
         "autor": "cybrgrl",
-        "fuente": "https://www.flickr.com/photos/84387590@N00/2693815369",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. <mark>Es como una 'contra-factura' que reduce lo que había que pagar</mark>. Se usa, por ejemplo, si se devuelve mercancía. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Nota de abono</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/formulario-nota.jpg",
+      "question": "Es un documento que corrige o anula parte de una factura ya emitida, a favor del comprador. <mark>Es como una 'contra-factura' que reduce lo que había que pagar</mark>. Se usa, por ejemplo, si se devuelve mercancía. ¿Cómo se llama este documento?",
+      "answer": "<mark>Nota de abono</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/formulario-nota.jpg",
+        "title": "IRS 1040 Tax Form Being Filled Out",
+        "source": "https://www.flickr.com/photos/26373139@N08/5512347305",
         "alt": "Alguien rellenando un formulario",
-        "titulo": "IRS 1040 Tax Form Being Filled Out",
         "autor": "kenteegardin",
-        "fuente": "https://www.flickr.com/photos/26373139@N08/5512347305",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "En la práctica se usan casi como sinónimos para corregir una factura anterior. <mark>Es como dos nombres distintos para una misma solución</mark>. Ambos reducen una deuda ya registrada, sin generar una nueva. ¿Cómo se llaman estos documentos que reducen una deuda?",
-      "respuesta": "<mark>Nota de abono o de crédito</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/balanza-comparacion.jpg",
+      "question": "En la práctica se usan casi como sinónimos para corregir una factura anterior. <mark>Es como dos nombres distintos para una misma solución</mark>. Ambos reducen una deuda ya registrada, sin generar una nueva. ¿Cómo se llaman estos documentos que reducen una deuda?",
+      "answer": "<mark>Nota de abono o de crédito</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/balanza-comparacion.jpg",
+        "title": "Dvouramenná váha; Two-pan balance weight",
+        "source": "https://www.flickr.com/photos/112931986@N07/11645154764",
         "alt": "Una balanza de dos platillos comparando pesos",
-        "titulo": "Dvouramenná váha; Two-pan balance weight",
         "autor": "Da4Sal",
-        "fuente": "https://www.flickr.com/photos/112931986@N07/11645154764",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La factura y, en su caso, el albarán de entrega justifican una venta. <mark>Es la misma idea que en las compras, pero mirada desde el otro lado</mark>. ¿Qué documentos sirven de soporte a una venta?",
-      "respuesta": "<mark>Factura y albarán de venta</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/recibos.jpg",
+      "question": "La factura y, en su caso, el albarán de entrega justifican una venta. <mark>Es la misma idea que en las compras, pero mirada desde el otro lado</mark>. ¿Qué documentos sirven de soporte a una venta?",
+      "answer": "<mark>Factura y albarán de venta</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/recibos.jpg",
+        "title": "Receipts",
+        "source": "https://www.flickr.com/photos/10710442@N08/4034636375",
         "alt": "Varios recibos de compra",
-        "titulo": "Receipts",
         "autor": "Steve Snodgrass",
-        "fuente": "https://www.flickr.com/photos/10710442@N08/4034636375",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Recibos, transferencias, cheques y pagarés deben quedar reflejados en las cuentas. <mark>Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero</mark>. ¿Qué tipo de documentos deben tramitarse contablemente?",
-      "respuesta": "<mark>Documentos de tesorería</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/cuenta-bancaria.jpg",
+      "question": "Recibos, transferencias, cheques y pagarés deben quedar reflejados en las cuentas. <mark>Es como anotar en el cuaderno de cuentas cada vez que entra o sale dinero</mark>. ¿Qué tipo de documentos deben tramitarse contablemente?",
+      "answer": "<mark>Documentos de tesorería</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/cuenta-bancaria.jpg",
+        "title": "bank-account-stock-images",
+        "source": "https://www.flickr.com/photos/144152028@N08/27840035405",
         "alt": "Documentos relacionados con una cuenta bancaria",
-        "titulo": "bank-account-stock-images",
         "autor": "aronbaker2",
-        "fuente": "https://www.flickr.com/photos/144152028@N08/27840035405",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La información financiera de una empresa revela datos sensibles sobre su situación económica real. <mark>Es como no contar en voz alta cuánto dinero tiene alguien en el banco</mark>. Filtrarla podría perjudicarla frente a otras empresas. ¿Qué debe mantenerse sobre esta información?",
-      "respuesta": "<mark>Confidencialidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/sello-confidencial.jpg",
+      "question": "La información financiera de una empresa revela datos sensibles sobre su situación económica real. <mark>Es como no contar en voz alta cuánto dinero tiene alguien en el banco</mark>. Filtrarla podría perjudicarla frente a otras empresas. ¿Qué debe mantenerse sobre esta información?",
+      "answer": "<mark>Confidencialidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/sello-confidencial.jpg",
+        "title": "'Restricted Data' stamp",
+        "source": "https://www.flickr.com/photos/69537337@N02/6322624283",
         "alt": "Un sello de \"información restringida\" sobre un documento",
-        "titulo": "'Restricted Data' stamp",
         "autor": "RestrictedData",
-        "fuente": "https://www.flickr.com/photos/69537337@N02/6322624283",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los documentos contables deben conservarse durante un tiempo, ya que Hacienda puede solicitarlos en una inspección. <mark>Es como guardar tickets importantes por si algún día tienes que justificar un gasto</mark>. ¿Durante cuánto tiempo hay que guardarlos?",
-      "respuesta": "<mark>Varios años</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-cajon.jpg",
+      "question": "Los documentos contables deben conservarse durante un tiempo, ya que Hacienda puede solicitarlos en una inspección. <mark>Es como guardar tickets importantes por si algún día tienes que justificar un gasto</mark>. ¿Durante cuánto tiempo hay que guardarlos?",
+      "answer": "<mark>Varios años</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-cajon.jpg",
+        "title": "Filing Cabinet Open drawer",
+        "source": "https://www.flickr.com/photos/24283435@N08/3233794067",
         "alt": "Un cajón de archivador abierto con documentos",
-        "titulo": "Filing Cabinet Open drawer",
         "autor": "Vegansoldier",
-        "fuente": "https://www.flickr.com/photos/24283435@N08/3233794067",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad, ayuda mucho. <mark>Es como tener todo tan bien ordenado que encuentras cualquier papel en segundos</mark>. ¿Qué facilita conservar bien la documentación contable?",
-      "respuesta": "<mark>Buenos procedimientos de archivo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-documentos.jpg",
+      "question": "Clasificar los documentos por fecha o tipo, y guardar copias digitales de seguridad, ayuda mucho. <mark>Es como tener todo tan bien ordenado que encuentras cualquier papel en segundos</mark>. ¿Qué facilita conservar bien la documentación contable?",
+      "answer": "<mark>Buenos procedimientos de archivo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_tratamiento-documentacion-contable_2/archivador-documentos.jpg",
+        "title": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "source": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "alt": "Una persona archivando documentos en un archivador de oficina",
-        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
         "autor": "Kheel Center, Cornell University Library",
-        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "licencia": "CC BY 2.0"
       }
     }

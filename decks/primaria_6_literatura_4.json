@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 6º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 6º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el texto original que escribe un autor, antes de publicarse, <mark>como el boceto de un dibujo, antes de pintarlo del todo</mark>. La editorial lo revisa antes de convertirlo en libro. ¿Cómo se llama este texto original?",
-      "respuesta": "<mark>Manuscrito</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_4/manuscrito.jpg",
+      "question": "Es el texto original que escribe un autor, antes de publicarse, <mark>como el boceto de un dibujo, antes de pintarlo del todo</mark>. La editorial lo revisa antes de convertirlo en libro. ¿Cómo se llama este texto original?",
+      "answer": "<mark>Manuscrito</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_4/manuscrito.jpg",
+        "title": "Beautifully written in 1793...",
+        "source": "https://www.flickr.com/photos/8536261@N07/6133797257",
         "alt": "Una hoja antigua escrita a mano, con letra cursiva y fecha de 1793",
-        "titulo": "Beautifully written in 1793...",
         "autor": "storebukkebruse",
-        "fuente": "https://www.flickr.com/photos/8536261@N07/6133797257",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es pasar un libro de un idioma a otro, <mark>como construir el mismo puente, pero con materiales distintos</mark>. Gracias a esto, leemos libros de todo el mundo. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Traducción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_4/traduccion.jpg",
+      "question": "Es pasar un libro de un idioma a otro, <mark>como construir el mismo puente, pero con materiales distintos</mark>. Gracias a esto, leemos libros de todo el mundo. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Traducción</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_4/traduccion.jpg",
+        "title": "Title leaf of an incunable Spanish translation of a selection of the works of Seneca the Younger",
+        "source": "https://www.flickr.com/photos/58558794@N07/9626368403",
         "alt": "Página antigua de un libro con el título \"Cinco libros de Séneca\", una de las primeras traducciones al español",
-        "titulo": "Title leaf of an incunable Spanish translation of a selection of the works of Seneca the Younger",
         "autor": "Provenance Online Project",
-        "fuente": "https://www.flickr.com/photos/58558794@N07/9626368403",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la lengua en la que un autor escribió su libro primero. Todas las demás versiones son traducciones de esa lengua. <mark>El Quijote se escribió primero en español</mark>. ¿Cómo se llama esta primera lengua de un libro?",
-      "respuesta": "<mark>Idioma original</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_4/idioma-original.jpg",
+      "question": "Es la lengua en la que un autor escribió su libro primero. Todas las demás versiones son traducciones de esa lengua. <mark>El Quijote se escribió primero en español</mark>. ¿Cómo se llama esta primera lengua de un libro?",
+      "answer": "<mark>Idioma original</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_4/idioma-original.jpg",
+        "title": "Miguel de Cervantes, The Adventures of Don Quixote, Man of Mancha",
+        "source": "https://www.flickr.com/photos/14145351@N00/8480588276",
         "alt": "Portada de un libro de Don Quijote, con dibujos de Don Quijote a caballo y Sancho Panza en un burro",
-        "titulo": "Miguel de Cervantes, The Adventures of Don Quixote, Man of Mancha",
         "autor": "Damian Cugley",
-        "fuente": "https://www.flickr.com/photos/14145351@N00/8480588276",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un libro que se escucha en vez de leerse, <mark>como llevar una historia dentro de los oídos</mark>. Alguien lo lee en voz alta y queda grabado. ¿Cómo se llama este tipo de libro?",
-      "respuesta": "<mark>Audiolibro</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_4/audiolibro.jpg",
+      "question": "Es un libro que se escucha en vez de leerse, <mark>como llevar una historia dentro de los oídos</mark>. Alguien lo lee en voz alta y queda grabado. ¿Cómo se llama este tipo de libro?",
+      "answer": "<mark>Audiolibro</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_4/audiolibro.jpg",
+        "title": "AudioBooks",
+        "source": "https://www.flickr.com/photos/11399912@N00/2690952074",
         "alt": "Un reproductor de música con la pantalla mostrando \"Audio Books\", con auriculares conectados, junto a dos portadas de libros",
-        "titulo": "AudioBooks",
         "autor": "basykes",
-        "fuente": "https://www.flickr.com/photos/11399912@N00/2690952074",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se lee en una pantalla, no en papel. <mark>Cabe en un solo aparato, aunque sean cientos</mark>. Se puede cambiar el tamaño de letra fácilmente. ¿Cómo se llama este tipo de libro?",
-      "respuesta": "<mark>Libro digital</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_4/libro-digital.jpg",
+      "question": "Se lee en una pantalla, no en papel. <mark>Cabe en un solo aparato, aunque sean cientos</mark>. Se puede cambiar el tamaño de letra fácilmente. ¿Cómo se llama este tipo de libro?",
+      "answer": "<mark>Libro digital</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_4/libro-digital.jpg",
+        "title": "Evolution of Readers",
+        "source": "https://www.flickr.com/photos/36813960@N00/4505413539",
         "alt": "Varios lectores digitales en fila, del más pequeño al más grande, el último mostrando la página de un cuento",
-        "titulo": "Evolution of Readers",
         "autor": "jblyberg",
-        "fuente": "https://www.flickr.com/photos/36813960@N00/4505413539",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un grupo de personas que comparten el mismo libro. Después se reúnen para hablar de él. <mark>Cada persona cuenta lo que más le gustó</mark>. ¿Cómo se llama este grupo?",
-      "respuesta": "<mark>Club de lectura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura_4/club-lectura.jpg",
+      "question": "Es un grupo de personas que comparten el mismo libro. Después se reúnen para hablar de él. <mark>Cada persona cuenta lo que más le gustó</mark>. ¿Cómo se llama este grupo?",
+      "answer": "<mark>Club de lectura</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura_4/club-lectura.jpg",
+        "title": "Book club - Banská Bystrica",
+        "source": "https://www.flickr.com/photos/24321184@N03/15456585877",
         "alt": "Un grupo de personas sentadas alrededor de una mesa al aire libre, leyendo y comentando libros y revistas",
-        "titulo": "Book club - Banská Bystrica",
         "autor": "EUROPEAN MOBILITY WEEK",
-        "fuente": "https://www.flickr.com/photos/24321184@N03/15456585877",
         "licencia": "CC BY 2.0"
       }
     }

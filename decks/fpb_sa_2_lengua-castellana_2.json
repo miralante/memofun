@@ -1,173 +1,173 @@
 {
-  "tema": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Lengua Castellana - FP Básica Servicios Administrativos (2º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Son los más habituales para hablar de algo que ya pasó. 'He trabajado' o 'trabajé' son ejemplos. <mark>Es como elegir la forma correcta de contar algo pasado</mark>. ¿Cómo se llaman estos tiempos verbales?",
-      "respuesta": "<mark>Pretérito perfecto e indefinido</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/tejido-tiempo-pasado.jpg",
+      "question": "Son los más habituales para hablar de algo que ya pasó. 'He trabajado' o 'trabajé' son ejemplos. <mark>Es como elegir la forma correcta de contar algo pasado</mark>. ¿Cómo se llaman estos tiempos verbales?",
+      "answer": "<mark>Pretérito perfecto e indefinido</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/tejido-tiempo-pasado.jpg",
+        "title": "The fabric of time",
+        "source": "https://www.flickr.com/photos/41668395@N04/3992645143",
         "alt": "Una imagen que representa el paso del tiempo hacia el pasado",
-        "titulo": "The fabric of time",
         "autor": "Tijs Zwinkels",
-        "fuente": "https://www.flickr.com/photos/41668395@N04/3992645143",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "'Trabajaré' o 'escribiré' son ejemplos de este tiempo verbal. <mark>Es como anunciar algo que aún no ha pasado</mark>. ¿Cómo se llama este tiempo verbal?",
-      "respuesta": "<mark>Futuro simple</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/bola-cristal-futuro.jpg",
+      "question": "'Trabajaré' o 'escribiré' son ejemplos de este tiempo verbal. <mark>Es como anunciar algo que aún no ha pasado</mark>. ¿Cómo se llama este tiempo verbal?",
+      "answer": "<mark>Futuro simple</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/bola-cristal-futuro.jpg",
+        "title": "Fortune-Telling.",
+        "source": "https://www.flickr.com/photos/41890366@N03/4984779476",
         "alt": "Una bola de cristal, símbolo de mirar hacia el futuro",
-        "titulo": "Fortune-Telling.",
         "autor": "Esther Spektor",
-        "fuente": "https://www.flickr.com/photos/41890366@N03/4984779476",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Unen ideas dentro de una frase o entre frases distintas. <mark>Es como el pegamento que mantiene unido un texto</mark>. 'Porque' o 'aunque' son ejemplos. ¿Cómo se llaman estas palabras?",
-      "respuesta": "<mark>Conectores</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/piezas-puzzle-conectando.jpg",
+      "question": "Unen ideas dentro de una frase o entre frases distintas. <mark>Es como el pegamento que mantiene unido un texto</mark>. 'Porque' o 'aunque' son ejemplos. ¿Cómo se llaman estas palabras?",
+      "answer": "<mark>Conectores</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/piezas-puzzle-conectando.jpg",
+        "title": "Scattered puzzle pieces next to solved fragment",
+        "source": "https://www.flickr.com/photos/10361931@N06/4273913228",
         "alt": "Piezas de un puzle encajando entre sí, como conectan las ideas de un texto",
-        "titulo": "Scattered puzzle pieces next to solved fragment",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4273913228",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Sirve para explicar la causa de algo que acabas de decir</mark>. Es como responder a la pregunta '¿por qué?' en la misma frase. 'Llegué tarde porque perdí el autobús' es un ejemplo. ¿Qué conector cumple esta función?",
-      "respuesta": "<mark>Porque</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/efecto-domino.jpg",
+      "question": "<mark>Sirve para explicar la causa de algo que acabas de decir</mark>. Es como responder a la pregunta '¿por qué?' en la misma frase. 'Llegué tarde porque perdí el autobús' es un ejemplo. ¿Qué conector cumple esta función?",
+      "answer": "<mark>Porque</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/efecto-domino.jpg",
+        "title": "Domino effect",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=2508978",
         "alt": "Fichas de dominó cayendo una tras otra, como causa y efecto",
-        "titulo": "Domino effect",
         "autor": "Louise",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=2508978",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Introduce una idea que contrasta con lo dicho antes. <mark>Es como decir 'sí, pero' en la misma frase</mark>. 'Llovía, aunque decidimos salir igual' es un ejemplo. ¿Qué conector cumple esta función?",
-      "respuesta": "<mark>Aunque</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/cuerda-tira-y-afloja.jpg",
+      "question": "Introduce una idea que contrasta con lo dicho antes. <mark>Es como decir 'sí, pero' en la misma frase</mark>. 'Llovía, aunque decidimos salir igual' es un ejemplo. ¿Qué conector cumple esta función?",
+      "answer": "<mark>Aunque</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/cuerda-tira-y-afloja.jpg",
+        "title": "The other half of the World Record Tug of War rope.",
+        "source": "https://www.flickr.com/photos/21442511@N08/30718513538",
         "alt": "Una cuerda de un tira y afloja, dos fuerzas opuestas",
-        "titulo": "The other half of the World Record Tug of War rope.",
         "autor": "jdnx",
-        "fuente": "https://www.flickr.com/photos/21442511@N08/30718513538",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Suenan igual o parecido, pero se escriben distinto. <mark>'Hay', 'ahí' y 'ay' suenan parecido, pero significan cosas distintas</mark>. ¿Cómo se llaman estas palabras?",
-      "respuesta": "<mark>Palabras que se confunden</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/diccionario-paginas-espanol.jpg",
+      "question": "Suenan igual o parecido, pero se escriben distinto. <mark>'Hay', 'ahí' y 'ay' suenan parecido, pero significan cosas distintas</mark>. ¿Cómo se llaman estas palabras?",
+      "answer": "<mark>Palabras que se confunden</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/diccionario-paginas-espanol.jpg",
+        "title": "Spanish dictionary pages up into the air",
+        "source": "https://www.flickr.com/photos/10361931@N06/4268897748",
         "alt": "Un diccionario de español abierto en sus páginas",
-        "titulo": "Spanish dictionary pages up into the air",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4268897748",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un error de este tipo puede cambiar el sentido de una frase. <mark>Escribir 'vaso' en vez de 'baso' cambia el significado</mark>. ¿Qué conviene evitar con palabras que suenan parecido?",
-      "respuesta": "<mark>Confundirlas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/editando-documento-boligrafo.jpg",
+      "question": "Un error de este tipo puede cambiar el sentido de una frase. <mark>Escribir 'vaso' en vez de 'baso' cambia el significado</mark>. ¿Qué conviene evitar con palabras que suenan parecido?",
+      "answer": "<mark>Confundirlas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/editando-documento-boligrafo.jpg",
+        "title": "2008-01-26 (Editing a paper) - 31",
+        "source": "https://www.flickr.com/photos/68457656@N00/2349632625",
         "alt": "Alguien revisando y corrigiendo un texto con un bolígrafo",
-        "titulo": "2008-01-26 (Editing a paper) - 31",
         "autor": "Nic's events",
-        "fuente": "https://www.flickr.com/photos/68457656@N00/2349632625",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son las palabras propias de un entorno de trabajo. <mark>Es como aprender el idioma de un lugar nuevo</mark>. Incluye 'factura', 'nómina' o 'expediente'. ¿Cómo se llama este vocabulario?",
-      "respuesta": "<mark>Vocabulario laboral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/escritorio-oficina-teclado.jpg",
+      "question": "Son las palabras propias de un entorno de trabajo. <mark>Es como aprender el idioma de un lugar nuevo</mark>. Incluye 'factura', 'nómina' o 'expediente'. ¿Cómo se llama este vocabulario?",
+      "answer": "<mark>Vocabulario laboral</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/escritorio-oficina-teclado.jpg",
+        "title": "Office Desk Keyboard",
+        "source": "https://www.rawpixel.com/image/8811998/office-desk-keyboard",
         "alt": "Un escritorio de oficina con teclado, el entorno del vocabulario laboral",
-        "titulo": "Office Desk Keyboard",
         "autor": "rawpixel",
-        "fuente": "https://www.rawpixel.com/image/8811998/office-desk-keyboard",
         "licencia": "Dominio público (CC0 1.0)"
       }
     },
     {
-      "pregunta": "Facilita entender instrucciones y documentos desde el principio. <mark>Es como llegar ya preparado, sin aprenderlo todo sobre la marcha</mark>. ¿Qué conviene ampliar antes de empezar a trabajar?",
-      "respuesta": "<mark>El vocabulario laboral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/herramientas-escritura.jpg",
+      "question": "Facilita entender instrucciones y documentos desde el principio. <mark>Es como llegar ya preparado, sin aprenderlo todo sobre la marcha</mark>. ¿Qué conviene ampliar antes de empezar a trabajar?",
+      "answer": "<mark>El vocabulario laboral</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/herramientas-escritura.jpg",
+        "title": "Writing Tools",
+        "source": "https://www.flickr.com/photos/59668110@N04/5600161625",
         "alt": "Bolígrafos y herramientas de escritura para apuntar vocabulario nuevo",
-        "titulo": "Writing Tools",
         "autor": "peteoshea",
-        "fuente": "https://www.flickr.com/photos/59668110@N04/5600161625",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Conviene ordenar bien las ideas principales y repasarlas antes. <mark>Es como ensayar antes de una actuación, para sentirte más seguro</mark>. ¿Qué conviene hacer al preparar una presentación breve?",
-      "respuesta": "<mark>Organizarla y practicarla</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/presentacion-publica-charla.jpg",
+      "question": "Conviene ordenar bien las ideas principales y repasarlas antes. <mark>Es como ensayar antes de una actuación, para sentirte más seguro</mark>. ¿Qué conviene hacer al preparar una presentación breve?",
+      "answer": "<mark>Organizarla y practicarla</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/presentacion-publica-charla.jpg",
+        "title": "presentation at air and space",
+        "source": "https://www.flickr.com/photos/73645804@N00/8007713529",
         "alt": "Una persona dando una presentación breve ante otras personas",
-        "titulo": "presentation at air and space",
         "autor": "woodleywonderworks",
-        "fuente": "https://www.flickr.com/photos/73645804@N00/8007713529",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Significa esperar a que la otra persona termine antes de hablar tú. <mark>Es como jugar sin adelantarte a los demás</mark>. ¿Cómo se llama hacer esto en una conversación?",
-      "respuesta": "<mark>Respetar los turnos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/conversacion.jpg",
+      "question": "Significa esperar a que la otra persona termine antes de hablar tú. <mark>Es como jugar sin adelantarte a los demás</mark>. ¿Cómo se llama hacer esto en una conversación?",
+      "answer": "<mark>Respetar los turnos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/conversacion.jpg",
+        "title": "Deep conversation",
+        "source": "https://www.flickr.com/photos/38869431@N00/4703017753",
         "alt": "Dos personas conversando",
-        "titulo": "Deep conversation",
         "autor": "juhansonin",
-        "fuente": "https://www.flickr.com/photos/38869431@N00/4703017753",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ayuda a entender bien lo que la otra persona dice. <mark>Es como armar un puzle: si saltas una pieza, falta algo</mark>. ¿Qué conviene hacer antes de responder en una conversación?",
-      "respuesta": "<mark>Escuchar</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/escuchar-conversacion.jpg",
+      "question": "Ayuda a entender bien lo que la otra persona dice. <mark>Es como armar un puzle: si saltas una pieza, falta algo</mark>. ¿Qué conviene hacer antes de responder en una conversación?",
+      "answer": "<mark>Escuchar</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/escuchar-conversacion.jpg",
+        "title": "Listen!",
+        "source": "https://www.flickr.com/photos/66126733@N04/7070159495",
         "alt": "Una persona escuchando con atención en una conversación",
-        "titulo": "Listen!",
         "autor": "Rising Damp",
-        "fuente": "https://www.flickr.com/photos/66126733@N04/7070159495",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Conocer las palabras adecuadas ayuda a expresarte con más seguridad. <mark>Es como tener las palabras correctas a mano cuando las necesitas</mark>. ¿Qué ayuda a hablar con más seguridad en el trabajo?",
-      "respuesta": "<mark>El vocabulario laboral</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/companeros-trabajo-reunion.jpg",
+      "question": "Conocer las palabras adecuadas ayuda a expresarte con más seguridad. <mark>Es como tener las palabras correctas a mano cuando las necesitas</mark>. ¿Qué ayuda a hablar con más seguridad en el trabajo?",
+      "answer": "<mark>El vocabulario laboral</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/companeros-trabajo-reunion.jpg",
+        "title": "Coworkers in a business meeting",
+        "source": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "alt": "Compañeros de trabajo hablando en una reunión",
-        "titulo": "Coworkers in a business meeting",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/43972155510",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Casi todas las tareas administrativas implican leer, escribir o hablar con claridad. <mark>Es una herramienta que sirve en casi cualquier tarea de oficina</mark>. ¿Qué conviene dominar bien en un puesto administrativo?",
-      "respuesta": "<mark>La lengua castellana</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_lengua-castellana_2/libros-en-espanol.jpg",
+      "question": "Casi todas las tareas administrativas implican leer, escribir o hablar con claridad. <mark>Es una herramienta que sirve en casi cualquier tarea de oficina</mark>. ¿Qué conviene dominar bien en un puesto administrativo?",
+      "answer": "<mark>La lengua castellana</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_lengua-castellana_2/libros-en-espanol.jpg",
+        "title": "Libros en Español",
+        "source": "https://www.flickr.com/photos/47823583@N03/5149267228",
         "alt": "Libros escritos en lengua castellana",
-        "titulo": "Libros en Español",
         "autor": "Enokson",
-        "fuente": "https://www.flickr.com/photos/47823583@N03/5149267228",
         "licencia": "CC BY 2.0"
       }
     }

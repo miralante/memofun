@@ -1,149 +1,149 @@
 {
-  "tema": "Ofimática: procesador de textos y hoja de cálculo - FP GM Gestión Administrativa (1º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Ofimática: procesador de textos y hoja de cálculo - FP GM Gestión Administrativa (1º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es el programa principal que permite usar y controlar un ordenador. <mark>Es como el director de una orquesta, coordinando todo</mark>. Sin él, ningún otro programa podría funcionar. ¿Cómo se llama este programa?",
-      "respuesta": "<mark>Sistema operativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/ordenador-sistema-operativo.jpg",
+      "question": "Es el programa principal que permite usar y controlar un ordenador. <mark>Es como el director de una orquesta, coordinando todo</mark>. Sin él, ningún otro programa podría funcionar. ¿Cómo se llama este programa?",
+      "answer": "<mark>Sistema operativo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/ordenador-sistema-operativo.jpg",
+        "title": "Desktop 8/2012",
+        "source": "https://www.flickr.com/photos/7958754@N03/7833087424",
         "alt": "La pantalla de un ordenador de escritorio",
-        "titulo": "Desktop 8/2012",
         "autor": "Jiri Brozovsky",
-        "fuente": "https://www.flickr.com/photos/7958754@N03/7833087424",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ordenar bien archivos y carpetas facilita encontrar cualquier documento rápido. <mark>Es como tener cada cosa en su cajón, no todo mezclado</mark>. Ahorra tiempo y evita perder documentos. ¿Qué ayuda a encontrar los documentos rápido?",
-      "respuesta": "<mark>Una buena organización</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
+      "question": "Ordenar bien archivos y carpetas facilita encontrar cualquier documento rápido. <mark>Es como tener cada cosa en su cajón, no todo mezclado</mark>. Ahorra tiempo y evita perder documentos. ¿Qué ayuda a encontrar los documentos rápido?",
+      "answer": "<mark>Una buena organización</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
+        "title": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "source": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "alt": "Empleada guardando documentos en un archivador de oficina",
-        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
         "autor": "Kheel Center, Cornell University Library",
-        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es cambiar cómo se ve el texto: tipo de letra, tamaño, color o alineación. <mark>Es como vestir el mismo contenido de un modo más claro</mark>. Un buen resultado ayuda a que el documento se lea mejor. ¿Cómo se llama esta acción?",
-      "respuesta": "<mark>Dar formato</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+      "question": "Es cambiar cómo se ve el texto: tipo de letra, tamaño, color o alineación. <mark>Es como vestir el mismo contenido de un modo más claro</mark>. Un buen resultado ayuda a que el documento se lea mejor. ¿Cómo se llama esta acción?",
+      "answer": "<mark>Dar formato</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "title": "New Office",
+        "source": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "alt": "Un ordenador de oficina listo para trabajar",
-        "titulo": "New Office",
         "autor": "phil_g",
-        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Con esta herramienta se crean cartas, informes, circulares y otros documentos. <mark>Es la base para casi cualquier documento escrito de oficina</mark>. Permite usar plantillas para un mismo estilo. ¿Cómo se llama esta herramienta?",
-      "respuesta": "<mark>Procesador de textos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+      "question": "Con esta herramienta se crean cartas, informes, circulares y otros documentos. <mark>Es la base para casi cualquier documento escrito de oficina</mark>. Permite usar plantillas para un mismo estilo. ¿Cómo se llama esta herramienta?",
+      "answer": "<mark>Procesador de textos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "title": "My new Macbook pro",
+        "source": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "alt": "Un ordenador portatil abierto sobre una mesa",
-        "titulo": "My new Macbook pro",
         "autor": "MattHurst",
-        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti</mark>. Empieza siempre con el símbolo igual. ¿Cómo se llama esta operación?",
-      "respuesta": "<mark>Fórmula</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+      "question": "Es una operación que calcula automáticamente un resultado a partir de otros datos. <mark>Es como pedirle a la hoja que haga la cuenta por ti</mark>. Empieza siempre con el símbolo igual. ¿Cómo se llama esta operación?",
+      "answer": "<mark>Fórmula</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "title": "New Office",
+        "source": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "alt": "Un ordenador de oficina listo para trabajar",
-        "titulo": "New Office",
         "autor": "phil_g",
-        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ya está preparada para hacer cálculos comunes, como sumar o sacar la media. <mark>Es como algo ya hecho, listo para usar sin inventarlo tú mismo</mark>. SUMA o PROMEDIO son ejemplos muy utilizados. ¿Cómo se llama esta fórmula ya hecha?",
-      "respuesta": "<mark>Función básica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+      "question": "Ya está preparada para hacer cálculos comunes, como sumar o sacar la media. <mark>Es como algo ya hecho, listo para usar sin inventarlo tú mismo</mark>. SUMA o PROMEDIO son ejemplos muy utilizados. ¿Cómo se llama esta fórmula ya hecha?",
+      "answer": "<mark>Función básica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "title": "My new Macbook pro",
+        "source": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "alt": "Un ordenador portatil abierto sobre una mesa",
-        "titulo": "My new Macbook pro",
         "autor": "MattHurst",
-        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Esta herramienta permite organizar datos numéricos y calcular de forma automática. <mark>Es como tener una máquina de cuentas conectada a una tabla ordenada</mark>. Se usa para presupuestos, facturas o control de gastos. ¿Cómo se llama esta herramienta?",
-      "respuesta": "<mark>Hoja de cálculo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+      "question": "Esta herramienta permite organizar datos numéricos y calcular de forma automática. <mark>Es como tener una máquina de cuentas conectada a una tabla ordenada</mark>. Se usa para presupuestos, facturas o control de gastos. ¿Cómo se llama esta herramienta?",
+      "answer": "<mark>Hoja de cálculo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "title": "New Office",
+        "source": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "alt": "Un ordenador de oficina listo para trabajar",
-        "titulo": "New Office",
         "autor": "phil_g",
-        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son documentos ya diseñados, listos para rellenar con información concreta. <mark>Es como tener el molde ya hecho, solo falta poner el contenido</mark>. Ahorran tiempo y aseguran un mismo estilo. ¿Cómo se llaman estos documentos?",
-      "respuesta": "<mark>Plantillas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+      "question": "Son documentos ya diseñados, listos para rellenar con información concreta. <mark>Es como tener el molde ya hecho, solo falta poner el contenido</mark>. Ahorran tiempo y aseguran un mismo estilo. ¿Cómo se llaman estos documentos?",
+      "answer": "<mark>Plantillas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "title": "My new Macbook pro",
+        "source": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "alt": "Un ordenador portatil abierto sobre una mesa",
-        "titulo": "My new Macbook pro",
         "autor": "MattHurst",
-        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Guardar los documentos así permite localizarlos rápido y evita duplicados. <mark>Es como un archivador físico, pero dentro del ordenador</mark>. También facilita que el equipo encuentre lo que necesita. ¿Cómo deben estar las carpetas para lograr esto?",
-      "respuesta": "<mark>Bien organizadas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
+      "question": "Guardar los documentos así permite localizarlos rápido y evita duplicados. <mark>Es como un archivador físico, pero dentro del ordenador</mark>. También facilita que el equipo encuentre lo que necesita. ¿Cómo deben estar las carpetas para lograr esto?",
+      "answer": "<mark>Bien organizadas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/archivador.jpg",
+        "title": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
+        "source": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "alt": "Empleada guardando documentos en un archivador de oficina",
-        "titulo": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
         "autor": "Kheel Center, Cornell University Library",
-        "fuente": "https://www.flickr.com/photos/38445726@N04/5279251361",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es cada casilla individual dentro de la cuadrícula de la hoja de cálculo. <mark>Es como cada casilla de un tablero, identificada por fila y columna</mark>. En ella se puede escribir texto, un número o una fórmula. ¿Cómo se llama esta casilla?",
-      "respuesta": "<mark>Celda</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+      "question": "Es cada casilla individual dentro de la cuadrícula de la hoja de cálculo. <mark>Es como cada casilla de un tablero, identificada por fila y columna</mark>. En ella se puede escribir texto, un número o una fórmula. ¿Cómo se llama esta casilla?",
+      "answer": "<mark>Celda</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "title": "New Office",
+        "source": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "alt": "Un ordenador de oficina listo para trabajar",
-        "titulo": "New Office",
         "autor": "phil_g",
-        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Un documento mal presentado puede parecer poco profesional. <mark>Es como revisar tu ropa antes de una reunión importante</mark>. Los errores pueden incluso dificultar la lectura. ¿Qué conviene revisar antes de enviar un documento?",
-      "respuesta": "<mark>El formato</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+      "question": "Un documento mal presentado puede parecer poco profesional. <mark>Es como revisar tu ropa antes de una reunión importante</mark>. Los errores pueden incluso dificultar la lectura. ¿Qué conviene revisar antes de enviar un documento?",
+      "answer": "<mark>El formato</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/portatil-macbook.jpg",
+        "title": "My new Macbook pro",
+        "source": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "alt": "Un ordenador portatil abierto sobre una mesa",
-        "titulo": "My new Macbook pro",
         "autor": "MattHurst",
-        "fuente": "https://www.flickr.com/photos/22937701@N00/5979562255",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Este programa permite que los de ofimática funcionen correctamente. <mark>Es como el terreno sobre el que se construyen las demás herramientas</mark>. Sin él, esos programas no podrían instalarse ni ejecutarse. ¿Qué programa hace posible usar los de ofimática?",
-      "respuesta": "<mark>El sistema operativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+      "question": "Este programa permite que los de ofimática funcionen correctamente. <mark>Es como el terreno sobre el que se construyen las demás herramientas</mark>. Sin él, esos programas no podrían instalarse ni ejecutarse. ¿Qué programa hace posible usar los de ofimática?",
+      "answer": "<mark>El sistema operativo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_tratamiento-informatico-informacion/oficina-ordenador.jpg",
+        "title": "New Office",
+        "source": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "alt": "Un ordenador de oficina listo para trabajar",
-        "titulo": "New Office",
         "autor": "phil_g",
-        "fuente": "https://www.flickr.com/photos/68975104@N00/1936840027",
         "licencia": "CC BY-SA 2.0"
       }
     }

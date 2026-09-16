@@ -1,221 +1,221 @@
 {
-  "tema": "Empresa y Administración - FP GM Gestión Administrativa (1º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Empresa y Administración - FP GM Gestión Administrativa (1º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una empresa donde una sola persona es la propietaria y responsable. <mark>Es como llevar un negocio a tu propio nombre, sin socios</mark>. Esa persona responde con su propio patrimonio de las deudas. ¿Cómo se llama este tipo de empresa?",
-      "respuesta": "<mark>Empresa individual</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/empresa-individual.jpg",
+      "question": "Es una empresa donde una sola persona es la propietaria y responsable. <mark>Es como llevar un negocio a tu propio nombre, sin socios</mark>. Esa persona responde con su propio patrimonio de las deudas. ¿Cómo se llama este tipo de empresa?",
+      "answer": "<mark>Empresa individual</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/empresa-individual.jpg",
+        "title": "Real estate office",
+        "source": "https://www.flickr.com/photos/36217981@N02/13178623414",
         "alt": "Oficina pequeña de un negocio individual, con su escaparate.",
-        "titulo": "Real estate office",
         "autor": "transitpeople",
-        "fuente": "https://www.flickr.com/photos/36217981@N02/13178623414",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se forma con varias personas que se unen para desarrollar un negocio. <mark>Es como fundar algo entre varios socios, no una sola persona</mark>. Tiene una personalidad jurídica propia, distinta de sus socios. ¿Cómo se llama este tipo de empresa?",
-      "respuesta": "<mark>Sociedad mercantil</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/sociedad-mercantil.jpg",
+      "question": "Se forma con varias personas que se unen para desarrollar un negocio. <mark>Es como fundar algo entre varios socios, no una sola persona</mark>. Tiene una personalidad jurídica propia, distinta de sus socios. ¿Cómo se llama este tipo de empresa?",
+      "answer": "<mark>Sociedad mercantil</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/sociedad-mercantil.jpg",
+        "title": "Nintendo of America corporate office buildings",
+        "source": "https://www.flickr.com/photos/44124370018@N01/14918985250",
         "alt": "Edificios de oficinas corporativas de una gran empresa.",
-        "titulo": "Nintendo of America corporate office buildings",
         "autor": "daveynin",
-        "fuente": "https://www.flickr.com/photos/44124370018@N01/14918985250",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En una, el dueño responde con todo su patrimonio personal. En la otra, suele responder solo con lo que ha aportado. <mark>Elegir una forma u otra depende del tamaño y el riesgo del negocio</mark>. ¿Qué tipo de empresa limita así la responsabilidad?",
-      "respuesta": "<mark>La sociedad mercantil</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/diferencia-empresa-sociedad.jpg",
+      "question": "En una, el dueño responde con todo su patrimonio personal. En la otra, suele responder solo con lo que ha aportado. <mark>Elegir una forma u otra depende del tamaño y el riesgo del negocio</mark>. ¿Qué tipo de empresa limita así la responsabilidad?",
+      "answer": "<mark>La sociedad mercantil</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/diferencia-empresa-sociedad.jpg",
+        "title": "Two Person Shaking Each Others Hands",
+        "source": "https://www.flickr.com/photos/159630537@N08/28861151058",
         "alt": "Dos personas dándose la mano al cerrar un acuerdo.",
-        "titulo": "Two Person Shaking Each Others Hands",
         "autor": "Homedust",
-        "fuente": "https://www.flickr.com/photos/159630537@N08/28861151058",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Gestiona los asuntos comunes a todo el país. <mark>Es el nivel de gobierno más amplio, que afecta a todo el territorio</mark>. Se ocupa de defensa, relaciones exteriores o Seguridad Social. ¿Cómo se llama este conjunto de organismos?",
-      "respuesta": "<mark>Administración General del Estado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/administracion-general-estado.jpg",
+      "question": "Gestiona los asuntos comunes a todo el país. <mark>Es el nivel de gobierno más amplio, que afecta a todo el territorio</mark>. Se ocupa de defensa, relaciones exteriores o Seguridad Social. ¿Cómo se llama este conjunto de organismos?",
+      "answer": "<mark>Administración General del Estado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/administracion-general-estado.jpg",
+        "title": "Madrid - 'New Ministries'",
+        "source": "https://www.flickr.com/photos/24736216@N07/2687096232",
         "alt": "Edificio de ministerios del Gobierno en Madrid.",
-        "titulo": "Madrid - 'New Ministries'",
         "autor": "roger4336",
-        "fuente": "https://www.flickr.com/photos/24736216@N07/2687096232",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una gestiona asuntos de una comunidad autónoma completa. La otra gestiona un municipio o una provincia concreta. <mark>Cada una tiene competencias distintas, como sanidad o urbanismo</mark>. ¿Cómo se llama la que gestiona un municipio?",
-      "respuesta": "<mark>Administración local</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/administracion-autonomica-local.jpg",
+      "question": "Una gestiona asuntos de una comunidad autónoma completa. La otra gestiona un municipio o una provincia concreta. <mark>Cada una tiene competencias distintas, como sanidad o urbanismo</mark>. ¿Cómo se llama la que gestiona un municipio?",
+      "answer": "<mark>Administración local</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/administracion-autonomica-local.jpg",
+        "title": "Parlament de Catalunya",
+        "source": "https://www.flickr.com/photos/38891071@N00/2713266967",
         "alt": "Edificio del Parlamento de una comunidad autónoma.",
-        "titulo": "Parlament de Catalunya",
         "autor": "FaceMePLS",
-        "fuente": "https://www.flickr.com/photos/38891071@N00/2713266967",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de pasos que sigue la Administración para decidir. <mark>Es como una receta con pasos fijos que hay que seguir en orden</mark>. Suele incluir solicitud, tramitación y resolución final. ¿Cómo se llama este conjunto de pasos?",
-      "respuesta": "<mark>Procedimiento administrativo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/procedimiento-administrativo.jpg",
+      "question": "Es el conjunto de pasos que sigue la Administración para decidir. <mark>Es como una receta con pasos fijos que hay que seguir en orden</mark>. Suele incluir solicitud, tramitación y resolución final. ¿Cómo se llama este conjunto de pasos?",
+      "answer": "<mark>Procedimiento administrativo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/procedimiento-administrativo.jpg",
+        "title": "February 5, 2010 - Paperwork",
+        "source": "https://www.flickr.com/photos/51352098@N00/4335907588",
         "alt": "Montón de papeles y documentos administrativos sobre una mesa.",
-        "titulo": "February 5, 2010 - Paperwork",
         "autor": "nerdcoregirl",
-        "fuente": "https://www.flickr.com/photos/51352098@N00/4335907588",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son las personas o grupos que toman las decisiones importantes en una empresa. <mark>Es como el timón que marca el rumbo de todo el negocio</mark>. En una sociedad, suele haber una junta de socios. ¿Cómo se llaman estas personas o grupos?",
-      "respuesta": "<mark>Órganos de gobierno</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/organos-gobierno.jpg",
+      "question": "Son las personas o grupos que toman las decisiones importantes en una empresa. <mark>Es como el timón que marca el rumbo de todo el negocio</mark>. En una sociedad, suele haber una junta de socios. ¿Cómo se llaman estas personas o grupos?",
+      "answer": "<mark>Órganos de gobierno</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/organos-gobierno.jpg",
+        "title": "Board Meeting",
+        "source": "https://www.flickr.com/photos/77316550@N00/2980362505",
         "alt": "Grupo de personas reunidas en una sala de juntas.",
-        "titulo": "Board Meeting",
         "autor": "nosha",
-        "fuente": "https://www.flickr.com/photos/77316550@N00/2980362505",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es el compromiso de una empresa con la sociedad y el medio ambiente, más allá de ganar dinero. <mark>Es como cuidar el barrio en el que vives, no solo tu casa</mark>. Incluye reducir la contaminación o mejorar las condiciones de sus trabajadores. ¿Cómo se llama este compromiso?",
-      "respuesta": "<mark>Responsabilidad social corporativa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/responsabilidad-social.jpg",
+      "question": "Es el compromiso de una empresa con la sociedad y el medio ambiente, más allá de ganar dinero. <mark>Es como cuidar el barrio en el que vives, no solo tu casa</mark>. Incluye reducir la contaminación o mejorar las condiciones de sus trabajadores. ¿Cómo se llama este compromiso?",
+      "answer": "<mark>Responsabilidad social corporativa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/responsabilidad-social.jpg",
+        "title": "Trash and debris in Bread and Cheese Creek before our spring cleanup on 4/5/14",
+        "source": "https://www.flickr.com/photos/39935127@N05/12033677773",
         "alt": "Voluntarios limpiando basura de un espacio natural.",
-        "titulo": "Trash and debris in Bread and Cheese Creek before our spring cleanup on 4/5/14",
         "autor": "Clean Bread and Cheese Creek",
-        "fuente": "https://www.flickr.com/photos/39935127@N05/12033677773",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se paga al comprar bienes y servicios. <mark>Es como un pequeño porcentaje que se añade al precio</mark>. Las empresas lo cobran y lo ingresan después en Hacienda. ¿Cómo se llama este impuesto?",
-      "respuesta": "<mark>IVA</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/iva.jpg",
+      "question": "Se paga al comprar bienes y servicios. <mark>Es como un pequeño porcentaje que se añade al precio</mark>. Las empresas lo cobran y lo ingresan después en Hacienda. ¿Cómo se llama este impuesto?",
+      "answer": "<mark>IVA</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/iva.jpg",
+        "title": "Form 1040 (US taxes) recovery period",
+        "source": "https://www.flickr.com/photos/99725460@N00/8525863293",
         "alt": "Formulario oficial de impuestos relleno con datos.",
-        "titulo": "Form 1040 (US taxes) recovery period",
         "autor": "AlisonChaiken",
-        "fuente": "https://www.flickr.com/photos/99725460@N00/8525863293",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Debe informar periódicamente el IVA cobrado y el IVA pagado. <mark>Es como hacer cuentas de lo cobrado de más y lo pagado de más</mark>. La diferencia se ingresa o se compensa con Hacienda. ¿Qué debe hacer una empresa con el IVA de forma periódica?",
-      "respuesta": "<mark>Declararlo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/obligaciones-iva.jpg",
+      "question": "Debe informar periódicamente el IVA cobrado y el IVA pagado. <mark>Es como hacer cuentas de lo cobrado de más y lo pagado de más</mark>. La diferencia se ingresa o se compensa con Hacienda. ¿Qué debe hacer una empresa con el IVA de forma periódica?",
+      "answer": "<mark>Declararlo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/obligaciones-iva.jpg",
+        "title": "ASCII Art Tweets on a Till-roll Receipt Printer",
+        "source": "https://www.flickr.com/photos/45581782@N00/5846086530",
         "alt": "Máquina impresora de tickets y recibos de compra.",
-        "titulo": "ASCII Art Tweets on a Till-roll Receipt Printer",
         "autor": "psd",
-        "fuente": "https://www.flickr.com/photos/45581782@N00/5846086530",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Existen otros impuestos, según el tipo de empresa que sea. <mark>Cada uno grava una parte distinta de la actividad económica</mark>. Conocerlos bien evita sorpresas y sanciones fiscales. ¿Qué otros impuestos puede tener una empresa, además del IVA?",
-      "respuesta": "<mark>Impuesto de Sociedades o IRPF</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/otros-impuestos.jpg",
+      "question": "Existen otros impuestos, según el tipo de empresa que sea. <mark>Cada uno grava una parte distinta de la actividad económica</mark>. Conocerlos bien evita sorpresas y sanciones fiscales. ¿Qué otros impuestos puede tener una empresa, además del IVA?",
+      "answer": "<mark>Impuesto de Sociedades o IRPF</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/otros-impuestos.jpg",
+        "title": "Sketch of the Former Tax Office Building (Ruiz Padrón, 2018)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=148205203",
         "alt": "Antiguo edificio de la oficina de impuestos.",
-        "titulo": "Sketch of the Former Tax Office Building (Ruiz Padrón, 2018)",
         "autor": "Daniel Capilla",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=148205203",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de fechas para presentar impuestos y declaraciones. <mark>Es como una agenda con plazos que no se pueden pasar por alto</mark>. Cumplirlo evita recargos y sanciones económicas. ¿Cómo se llama este calendario?",
-      "respuesta": "<mark>Calendario fiscal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/calendario-planificacion.jpg",
+      "question": "Es el conjunto de fechas para presentar impuestos y declaraciones. <mark>Es como una agenda con plazos que no se pueden pasar por alto</mark>. Cumplirlo evita recargos y sanciones económicas. ¿Cómo se llama este calendario?",
+      "answer": "<mark>Calendario fiscal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/calendario-planificacion.jpg",
+        "title": "2013-08-26 Planner",
+        "source": "https://www.flickr.com/photos/56041749@N02/9609388286",
         "alt": "Una agenda con fechas planificadas",
-        "titulo": "2013-08-26 Planner",
         "autor": "mrsdkrebs",
-        "fuente": "https://www.flickr.com/photos/56041749@N02/9609388286",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Muchos trámites de una empresa se hacen directamente con la Administración. <mark>Es como saber a qué puerta llamar según lo que necesites tramitar</mark>. Cada nivel gestiona trámites distintos. ¿Qué conviene conocer bien para trabajar en gestión administrativa?",
-      "respuesta": "<mark>La estructura de la Administración</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/estructura-administracion.jpg",
+      "question": "Muchos trámites de una empresa se hacen directamente con la Administración. <mark>Es como saber a qué puerta llamar según lo que necesites tramitar</mark>. Cada nivel gestiona trámites distintos. ¿Qué conviene conocer bien para trabajar en gestión administrativa?",
+      "answer": "<mark>La estructura de la Administración</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/estructura-administracion.jpg",
+        "title": "Madrid - 'New Ministries' (2687096232)",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=35002896",
         "alt": "Edificio de ministerios del Gobierno en Madrid.",
-        "titulo": "Madrid - 'New Ministries' (2687096232)",
         "autor": "Roger Wollstadt",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35002896",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Reduce la responsabilidad económica al capital aportado a la empresa. <mark>Es como poner un tope claro a lo que puedes llegar a perder</mark>. A cambio, implica más trámites y gestión. ¿Qué tipo de empresa tiene esta ventaja frente a ser autónomo?",
-      "respuesta": "<mark>La sociedad limitada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/ventajas-sociedad-limitada.jpg",
+      "question": "Reduce la responsabilidad económica al capital aportado a la empresa. <mark>Es como poner un tope claro a lo que puedes llegar a perder</mark>. A cambio, implica más trámites y gestión. ¿Qué tipo de empresa tiene esta ventaja frente a ser autónomo?",
+      "answer": "<mark>La sociedad limitada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/ventajas-sociedad-limitada.jpg",
+        "title": "Legal Contract & Signature - Cool Tones",
+        "source": "https://www.flickr.com/photos/143601516@N03/27571322193",
         "alt": "Contrato legal firmado con un bolígrafo sobre la mesa.",
-        "titulo": "Legal Contract & Signature - Cool Tones",
         "autor": "Visual Content",
-        "fuente": "https://www.flickr.com/photos/143601516@N03/27571322193",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La empresa debe cumplir normas, pagar impuestos y a veces pedir permisos. <mark>Es algo continuo, no solo un trámite al crear la empresa</mark>. La Administración regula y supervisa esa actividad. ¿Cómo es la relación entre empresa y Administración?",
-      "respuesta": "<mark>Constante</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/relacion-empresa-administracion.jpg",
+      "question": "La empresa debe cumplir normas, pagar impuestos y a veces pedir permisos. <mark>Es algo continuo, no solo un trámite al crear la empresa</mark>. La Administración regula y supervisa esa actividad. ¿Cómo es la relación entre empresa y Administración?",
+      "answer": "<mark>Constante</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/relacion-empresa-administracion.jpg",
+        "title": "old Town Hall",
+        "source": "https://www.flickr.com/photos/128905059@N02/16073430625",
         "alt": "Antiguo ayuntamiento donde las empresas hacen sus gestiones locales.",
-        "titulo": "old Town Hall",
         "autor": "waldemarjan",
-        "fuente": "https://www.flickr.com/photos/128905059@N02/16073430625",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "No cumplir a tiempo puede generar sanciones económicas importantes. <mark>Es como pagar un recibo tarde: casi siempre sale más caro</mark>. Ayuda a planificar mejor la economía de la empresa. ¿Qué tipo de control conviene llevar de forma estricta?",
-      "respuesta": "<mark>Control fiscal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/control-fiscal.jpg",
+      "question": "No cumplir a tiempo puede generar sanciones económicas importantes. <mark>Es como pagar un recibo tarde: casi siempre sale más caro</mark>. Ayuda a planificar mejor la economía de la empresa. ¿Qué tipo de control conviene llevar de forma estricta?",
+      "answer": "<mark>Control fiscal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/control-fiscal.jpg",
+        "title": "Please pay this amount",
+        "source": "https://www.flickr.com/photos/40838054@N00/8689212",
         "alt": "Factura con la cantidad a pagar señalada.",
-        "titulo": "Please pay this amount",
         "autor": "miguelb",
-        "fuente": "https://www.flickr.com/photos/40838054@N00/8689212",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la capacidad legal de una empresa para actuar como si fuera una persona. <mark>Puede firmar contratos, tener deudas o ser propietaria de bienes</mark>. Las sociedades mercantiles tienen esta capacidad propia. ¿Cómo se llama esta capacidad?",
-      "respuesta": "<mark>Personalidad jurídica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/personalidad-juridica.jpg",
+      "question": "Es la capacidad legal de una empresa para actuar como si fuera una persona. <mark>Puede firmar contratos, tener deudas o ser propietaria de bienes</mark>. Las sociedades mercantiles tienen esta capacidad propia. ¿Cómo se llama esta capacidad?",
+      "answer": "<mark>Personalidad jurídica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/personalidad-juridica.jpg",
+        "title": "Empty Corporate Office Building for Lease at 4th and St. James, San Jose, California",
+        "source": "https://www.flickr.com/photos/160344139@N02/44637216434",
         "alt": "Edificio de oficinas vacío disponible para una empresa.",
-        "titulo": "Empty Corporate Office Building for Lease at 4th and St. James, San Jose, California",
         "autor": "willbuckner",
-        "fuente": "https://www.flickr.com/photos/160344139@N02/44637216434",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "No requiere crear una sociedad aparte ni tantos trámites iniciales. <mark>Es como empezar a trabajar directamente, sin fundar antes una organización</mark>. Es habitual entre autónomos y pequeños negocios. ¿Qué forma de empresa es la más sencilla para emprender?",
-      "respuesta": "<mark>La empresa individual</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_1_empresa-administracion/forma-juridica-sencilla.jpg",
+      "question": "No requiere crear una sociedad aparte ni tantos trámites iniciales. <mark>Es como empezar a trabajar directamente, sin fundar antes una organización</mark>. Es habitual entre autónomos y pequeños negocios. ¿Qué forma de empresa es la más sencilla para emprender?",
+      "answer": "<mark>La empresa individual</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_1_empresa-administracion/forma-juridica-sencilla.jpg",
+        "title": "Main Street #11 -- A Concerto in Bflat for Abandoned Commercial Real Estate",
+        "source": "https://www.flickr.com/photos/12836528@N00/3151263839",
         "alt": "Pequeño local comercial en una calle principal.",
-        "titulo": "Main Street #11 -- A Concerto in Bflat for Abandoned Commercial Real Estate",
         "autor": "kevin dooley",
-        "fuente": "https://www.flickr.com/photos/12836528@N00/3151263839",
         "licencia": "CC BY 2.0"
       }
     }

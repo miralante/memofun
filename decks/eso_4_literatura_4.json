@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Escribía dramas que hacían pensar al público, a veces con personajes con alguna limitación. <mark>Su teatro esquivaba la censura hablando de forma simbólica</mark>. ¿Quién fue este dramaturgo?",
-      "respuesta": "<mark>Buero Vallejo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_4/teatro-vacio.jpg",
+      "question": "Escribía dramas que hacían pensar al público, a veces con personajes con alguna limitación. <mark>Su teatro esquivaba la censura hablando de forma simbólica</mark>. ¿Quién fue este dramaturgo?",
+      "answer": "<mark>Buero Vallejo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_4/teatro-vacio.jpg",
+        "title": "Richard in an empty theater",
+        "source": "https://www.flickr.com/photos/41749772@N06/3857732258",
         "alt": "Un teatro vacío",
-        "titulo": "Richard in an empty theater",
         "autor": "Wikimania2009",
-        "fuente": "https://www.flickr.com/photos/41749772@N06/3857732258",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una poesía angustiada de posguerra. <mark>Habla de un mundo roto, sin un lugar cómodo donde estar</mark>. Dámaso Alonso es uno de sus autores. ¿Cómo se llama este tipo de poesía?",
-      "respuesta": "<mark>Poesía desarraigada</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_4/cielo-tormenta.jpg",
+      "question": "Es una poesía angustiada de posguerra. <mark>Habla de un mundo roto, sin un lugar cómodo donde estar</mark>. Dámaso Alonso es uno de sus autores. ¿Cómo se llama este tipo de poesía?",
+      "answer": "<mark>Poesía desarraigada</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_4/cielo-tormenta.jpg",
+        "title": "Rain Storm Colorado Springs Colorado",
+        "source": "https://www.flickr.com/photos/92024986@N00/2781330996",
         "alt": "Un cielo cubierto de nubes de tormenta",
-        "titulo": "Rain Storm Colorado Springs Colorado",
         "autor": "Brokentaco",
-        "fuente": "https://www.flickr.com/photos/92024986@N00/2781330996",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cuenta la vida violenta y desesperada de un campesino pobre</mark>, sin suavizar nada. Dio nombre al tremendismo español. Su autor, Cela, ganó el Premio Nobel. ¿Cómo se llama esta novela?",
-      "respuesta": "<mark>La familia de Pascual Duarte</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_4/campos-españa.jpg",
+      "question": "<mark>Cuenta la vida violenta y desesperada de un campesino pobre</mark>, sin suavizar nada. Dio nombre al tremendismo español. Su autor, Cela, ganó el Premio Nobel. ¿Cómo se llama esta novela?",
+      "answer": "<mark>La familia de Pascual Duarte</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_4/campos-españa.jpg",
+        "title": "Camps de Balaguer",
+        "source": "https://www.flickr.com/photos/46191841@N00/3851970012",
         "alt": "Campos rurales españoles",
-        "titulo": "Camps de Balaguer",
         "autor": "Jorge Franganillo",
-        "fuente": "https://www.flickr.com/photos/46191841@N00/3851970012",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Varias novelas latinoamericanas triunfaron en todo el mundo en los años 60 y 70. <mark>Autores de distintos países se dieron a conocer casi a la vez</mark>. ¿Cómo se llama este momento literario?",
-      "respuesta": "<mark>El Boom latinoamericano</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_4/calles-guatemala.jpg",
+      "question": "Varias novelas latinoamericanas triunfaron en todo el mundo en los años 60 y 70. <mark>Autores de distintos países se dieron a conocer casi a la vez</mark>. ¿Cómo se llama este momento literario?",
+      "answer": "<mark>El Boom latinoamericano</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_4/calles-guatemala.jpg",
+        "title": "Antigua Guatemala Streets",
+        "source": "https://www.flickr.com/photos/190249280@N06/50350037801",
         "alt": "Calles coloridas de una ciudad colonial latinoamericana",
-        "titulo": "Antigua Guatemala Streets",
         "autor": "JoseGt1",
-        "fuente": "https://www.flickr.com/photos/190249280@N06/50350037801",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un estilo que mezcla la vida cotidiana con sucesos mágicos, sin sorprenderse por ellos. <mark>Los personajes lo viven como algo tan normal como el desayuno</mark>. Es típico de la literatura del Boom. ¿Cómo se llama este estilo?",
-      "respuesta": "<mark>Realismo mágico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_4/mariposa-amarilla.jpg",
+      "question": "Es un estilo que mezcla la vida cotidiana con sucesos mágicos, sin sorprenderse por ellos. <mark>Los personajes lo viven como algo tan normal como el desayuno</mark>. Es típico de la literatura del Boom. ¿Cómo se llama este estilo?",
+      "answer": "<mark>Realismo mágico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_4/mariposa-amarilla.jpg",
+        "title": "Dandelion Butterfly",
+        "source": "https://www.flickr.com/photos/132033298@N04/17243540220",
         "alt": "Una mariposa amarilla",
-        "titulo": "Dandelion Butterfly",
         "autor": "Charles Patrick Ewing",
-        "fuente": "https://www.flickr.com/photos/132033298@N04/17243540220",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Fue un escritor colombiano, <mark>autor de 'Cien años de soledad'</mark>. Es el mayor representante del realismo mágico en español. Ganó el Premio Nobel. ¿Quién fue este escritor?",
-      "respuesta": "<mark>Gabriel García Márquez</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_literatura_4/garcia-marquez.jpg",
+      "question": "Fue un escritor colombiano, <mark>autor de 'Cien años de soledad'</mark>. Es el mayor representante del realismo mágico en español. Ganó el Premio Nobel. ¿Quién fue este escritor?",
+      "answer": "<mark>Gabriel García Márquez</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_literatura_4/garcia-marquez.jpg",
+        "title": "Gabriel García Márquez, 1984",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=4340982",
         "alt": "Retrato de Gabriel García Márquez",
-        "titulo": "Gabriel García Márquez, 1984",
         "autor": "F3rn4nd0",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=4340982",
         "licencia": "CC BY-SA 3.0"
       }
     }

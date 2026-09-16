@@ -1,185 +1,185 @@
 {
-  "tema": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Tratamiento Informático de Datos - FP Básica Servicios Administrativos (1º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una red mundial que conecta ordenadores de todo el planeta entre sí. <mark>Es como una red de carreteras invisible que conecta a todo el mundo</mark>. Permite buscar información, comunicarse y trabajar a distancia. ¿Cómo se llama esta red?",
-      "respuesta": "<mark>Internet</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/internet-red.jpg",
+      "question": "Es una red mundial que conecta ordenadores de todo el planeta entre sí. <mark>Es como una red de carreteras invisible que conecta a todo el mundo</mark>. Permite buscar información, comunicarse y trabajar a distancia. ¿Cómo se llama esta red?",
+      "answer": "<mark>Internet</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/internet-red.jpg",
+        "title": "Mujer del barrio La Vuelta del Paraguayo trabajando en la red de internet comunitaria",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=129189068",
         "alt": "Una mujer trabajando en una red de internet comunitaria",
-        "titulo": "Mujer del barrio La Vuelta del Paraguayo trabajando en la red de internet comunitaria",
         "autor": "Berna Gaitán Otarán",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=129189068",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Es el programa que se usa para acceder a páginas web. <mark>Es como la ventana desde la que miras todo lo que hay en internet</mark>. Chrome o Firefox son ejemplos conocidos. ¿Cómo se llama este programa?",
-      "respuesta": "<mark>Navegador</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/ordenador-portatil-pantalla.jpg",
+      "question": "Es el programa que se usa para acceder a páginas web. <mark>Es como la ventana desde la que miras todo lo que hay en internet</mark>. Chrome o Firefox son ejemplos conocidos. ¿Cómo se llama este programa?",
+      "answer": "<mark>Navegador</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/ordenador-portatil-pantalla.jpg",
+        "title": "Laptop",
+        "source": "https://www.flickr.com/photos/40875537@N04/5659910644",
         "alt": "Un ordenador portátil con la pantalla encendida",
-        "titulo": "Laptop",
         "autor": "AaronPatterson",
-        "fuente": "https://www.flickr.com/photos/40875537@N04/5659910644",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Permite escribir una dirección web, buscar información y guardar páginas favoritas. <mark>Es como un mando a distancia que te lleva a cualquier rincón de internet</mark>. También guarda un historial de páginas visitadas. ¿Qué programa hace todo esto?",
-      "respuesta": "<mark>El navegador</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/navegador-pantalla-completa.jpg",
+      "question": "Permite escribir una dirección web, buscar información y guardar páginas favoritas. <mark>Es como un mando a distancia que te lleva a cualquier rincón de internet</mark>. También guarda un historial de páginas visitadas. ¿Qué programa hace todo esto?",
+      "answer": "<mark>El navegador</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/navegador-pantalla-completa.jpg",
+        "title": "Full Screen Browser Concept - Shelf",
+        "source": "https://www.flickr.com/photos/38305415@N00/3243667565",
         "alt": "Un navegador de internet mostrando una página web",
-        "titulo": "Full Screen Browser Concept - Shelf",
         "autor": "Johan Larsson",
-        "fuente": "https://www.flickr.com/photos/38305415@N00/3243667565",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Guarda aparte los datos importantes, por si algo falla. <mark>Es como tener un duplicado guardado de un documento importante, por si el original se pierde</mark>. ¿Cómo se llama este resguardo de los datos?",
-      "respuesta": "<mark>Copia de seguridad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/disco-duro-externo.jpg",
+      "question": "Guarda aparte los datos importantes, por si algo falla. <mark>Es como tener un duplicado guardado de un documento importante, por si el original se pierde</mark>. ¿Cómo se llama este resguardo de los datos?",
+      "answer": "<mark>Copia de seguridad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/disco-duro-externo.jpg",
+        "title": "WD MyBook 320GB Pro",
+        "source": "https://www.flickr.com/photos/36006949@N00/2123263116",
         "alt": "Un disco duro externo usado para hacer copias de seguridad",
-        "titulo": "WD MyBook 320GB Pro",
         "autor": "DeclanTM",
-        "fuente": "https://www.flickr.com/photos/36006949@N00/2123263116",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un fallo del ordenador puede hacer perder toda la información guardada. <mark>Es como proteger algo valioso por si ocurre un imprevisto</mark>. Sin esto, esos datos podrían perderse para siempre. ¿Qué conviene hacer con regularidad?",
-      "respuesta": "<mark>Copias de seguridad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/candado-seguridad.jpg",
+      "question": "Un fallo del ordenador puede hacer perder toda la información guardada. <mark>Es como proteger algo valioso por si ocurre un imprevisto</mark>. Sin esto, esos datos podrían perderse para siempre. ¿Qué conviene hacer con regularidad?",
+      "answer": "<mark>Copias de seguridad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/candado-seguridad.jpg",
+        "title": "Padlock In Hervás",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=73672963",
         "alt": "Un candado cerrado, como una contraseña segura",
-        "titulo": "Padlock In Hervás",
         "autor": "Adrian Aguayo",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=73672963",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Combina letras, números y símbolos, y no es fácil de adivinar. <mark>Es como poner una buena cerradura a una puerta, en vez de una fácil de forzar</mark>. Evitar datos personales la hace todavía mejor. ¿Qué tipo de contraseña es esta?",
-      "respuesta": "<mark>Una contraseña segura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/caja-fuerte-seguridad.jpg",
+      "question": "Combina letras, números y símbolos, y no es fácil de adivinar. <mark>Es como poner una buena cerradura a una puerta, en vez de una fácil de forzar</mark>. Evitar datos personales la hace todavía mejor. ¿Qué tipo de contraseña es esta?",
+      "answer": "<mark>Una contraseña segura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/caja-fuerte-seguridad.jpg",
+        "title": "Safe",
+        "source": "https://www.flickr.com/photos/15131913@N00/288491653",
         "alt": "Una caja fuerte, como una contraseña segura que protege algo valioso",
-        "titulo": "Safe",
         "autor": "rpongsaj",
-        "fuente": "https://www.flickr.com/photos/15131913@N00/288491653",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "No hay que compartirlas, conviene cambiarlas de vez en cuando y no usar la misma en todos lados. <mark>Es como no dejar la misma llave para todas las puertas de tu vida</mark>. ¿De qué son estas buenas prácticas?",
-      "respuesta": "<mark>Las contraseñas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/persona-escribiendo-teclado.jpg",
+      "question": "No hay que compartirlas, conviene cambiarlas de vez en cuando y no usar la misma en todos lados. <mark>Es como no dejar la misma llave para todas las puertas de tu vida</mark>. ¿De qué son estas buenas prácticas?",
+      "answer": "<mark>Las contraseñas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/persona-escribiendo-teclado.jpg",
+        "title": "boss",
+        "source": "https://www.flickr.com/photos/11677434@N04/6974761035",
         "alt": "Una persona escribiendo en el teclado de un ordenador",
-        "titulo": "boss",
         "autor": "gagilas",
-        "fuente": "https://www.flickr.com/photos/11677434@N04/6974761035",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es un programa dañino que se instala en un ordenador sin permiso. <mark>Es como una infección que afecta al funcionamiento normal del equipo</mark>. Puede robar información o dañar archivos. ¿Cómo se llama este programa?",
-      "respuesta": "<mark>Virus informático</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/error-pantalla-windows.jpg",
+      "question": "Es un programa dañino que se instala en un ordenador sin permiso. <mark>Es como una infección que afecta al funcionamiento normal del equipo</mark>. Puede robar información o dañar archivos. ¿Cómo se llama este programa?",
+      "answer": "<mark>Virus informático</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/error-pantalla-windows.jpg",
+        "title": "A common Windows bug",
+        "source": "https://www.flickr.com/photos/13442652@N02/2398859799",
         "alt": "Un mensaje de error en la pantalla de un ordenador",
-        "titulo": "A common Windows bug",
         "autor": "TimOve",
-        "fuente": "https://www.flickr.com/photos/13442652@N02/2398859799",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un ordenador se protege usando un antivirus, evitando enlaces sospechosos y actualizando los programas. <mark>Es como vacunarse y evitar lugares de riesgo al mismo tiempo</mark>. No abrir archivos de desconocidos también ayuda. ¿De qué se protege un ordenador con estas medidas?",
-      "respuesta": "<mark>De los virus</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/paraguas-proteccion-lluvia.jpg",
+      "question": "Un ordenador se protege usando un antivirus, evitando enlaces sospechosos y actualizando los programas. <mark>Es como vacunarse y evitar lugares de riesgo al mismo tiempo</mark>. No abrir archivos de desconocidos también ayuda. ¿De qué se protege un ordenador con estas medidas?",
+      "answer": "<mark>De los virus</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/paraguas-proteccion-lluvia.jpg",
+        "title": "Umbrellas",
+        "source": "https://www.flickr.com/photos/54128723@N05/6104001622",
         "alt": "Paraguas abiertos, como una protección frente a un peligro",
-        "titulo": "Umbrellas",
         "autor": "borosjuli",
-        "fuente": "https://www.flickr.com/photos/54128723@N05/6104001622",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a su información personal</mark>. ¿Cómo se llama este conjunto de normas?",
-      "respuesta": "<mark>Protección de datos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/papel-triturado-documentos.jpg",
+      "question": "Es el conjunto de normas que protegen la información privada de las personas. <mark>Es como respetar la intimidad de alguien, aplicado a su información personal</mark>. ¿Cómo se llama este conjunto de normas?",
+      "answer": "<mark>Protección de datos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/papel-triturado-documentos.jpg",
+        "title": "Culled paper",
+        "source": "https://www.flickr.com/photos/21093323@N02/8643961221",
         "alt": "Papeles y documentos desechados, como datos personales que hay que proteger",
-        "titulo": "Culled paper",
         "autor": "Dvortygirl",
-        "fuente": "https://www.flickr.com/photos/21093323@N02/8643961221",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Esa información pertenece a otras personas y debe tratarse con responsabilidad. <mark>Es como cuidar algo que no es tuyo, pero de lo que eres responsable</mark>. ¿Qué hay que tratar con cuidado en el ordenador del trabajo?",
-      "respuesta": "<mark>Los datos personales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/oficina-trabajo-ordenador.jpg",
+      "question": "Esa información pertenece a otras personas y debe tratarse con responsabilidad. <mark>Es como cuidar algo que no es tuyo, pero de lo que eres responsable</mark>. ¿Qué hay que tratar con cuidado en el ordenador del trabajo?",
+      "answer": "<mark>Los datos personales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/oficina-trabajo-ordenador.jpg",
+        "title": "Office Hours",
+        "source": "https://www.flickr.com/photos/13542896@N00/2608975252",
         "alt": "Una persona trabajando con el ordenador en una oficina",
-        "titulo": "Office Hours",
         "autor": "Tanel Teemusk",
-        "fuente": "https://www.flickr.com/photos/13542896@N00/2608975252",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Incluye limpiarlo, actualizar sus programas y revisar que todo funcione bien. <mark>Es como el cuidado regular que se le da a un coche, para que no se estropee</mark>. ¿Cómo se llama hacer todo esto con un equipo?",
-      "respuesta": "<mark>Mantenimiento básico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/limpieza-mantenimiento.jpg",
+      "question": "Incluye limpiarlo, actualizar sus programas y revisar que todo funcione bien. <mark>Es como el cuidado regular que se le da a un coche, para que no se estropee</mark>. ¿Cómo se llama hacer todo esto con un equipo?",
+      "answer": "<mark>Mantenimiento básico</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/limpieza-mantenimiento.jpg",
+        "title": "Cleaning up",
+        "source": "https://www.flickr.com/photos/46810671@N04/7468312034",
         "alt": "Tareas de limpieza y mantenimiento de un equipo",
-        "titulo": "Cleaning up",
         "autor": "FtCarsonPAO",
-        "fuente": "https://www.flickr.com/photos/46810671@N04/7468312034",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Las actualizaciones suelen corregir fallos de seguridad conocidos. <mark>Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar</mark>. ¿Qué conviene hacer regularmente con los programas?",
-      "respuesta": "<mark>Actualizarlos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/actualizacion-software-movil.jpg",
+      "question": "Las actualizaciones suelen corregir fallos de seguridad conocidos. <mark>Es como reparar un agujero en una valla antes de que alguien lo aproveche para entrar</mark>. ¿Qué conviene hacer regularmente con los programas?",
+      "answer": "<mark>Actualizarlos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/actualizacion-software-movil.jpg",
+        "title": "Apple iPhone 6 iOS Update",
+        "source": "https://www.flickr.com/photos/93755244@N00/16195046500",
         "alt": "La pantalla de un dispositivo mostrando una actualización de software",
-        "titulo": "Apple iPhone 6 iOS Update",
         "autor": "Håkan Dahlström",
-        "fuente": "https://www.flickr.com/photos/93755244@N00/16195046500",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un equipo cuidado y actualizado es mucho más difícil de atacar. <mark>Es como tener siempre bien cerrada una casa, para que sea más difícil entrar</mark>. ¿Qué hace más difícil un ataque informático?",
-      "respuesta": "<mark>Un buen mantenimiento</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/tecnico-reparando-ordenador.jpg",
+      "question": "Un equipo cuidado y actualizado es mucho más difícil de atacar. <mark>Es como tener siempre bien cerrada una casa, para que sea más difícil entrar</mark>. ¿Qué hace más difícil un ataque informático?",
+      "answer": "<mark>Un buen mantenimiento</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/tecnico-reparando-ordenador.jpg",
+        "title": "THE REPAIRER- LE REPARATEUR",
+        "source": "https://www.flickr.com/photos/23623021@N02/2703291441",
         "alt": "Un técnico reparando un ordenador",
-        "titulo": "THE REPAIRER- LE REPARATEUR",
         "autor": "Belgapixel's",
-        "fuente": "https://www.flickr.com/photos/23623021@N02/2703291441",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Cada vez más tareas de trabajo dependen de herramientas digitales. <mark>Es como necesitar saber nadar en un entorno donde cada vez hay más agua</mark>. ¿Qué conviene aprender en cualquier puesto de oficina?",
-      "respuesta": "<mark>Seguridad informática básica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/aula-formacion-informatica.jpg",
+      "question": "Cada vez más tareas de trabajo dependen de herramientas digitales. <mark>Es como necesitar saber nadar en un entorno donde cada vez hay más agua</mark>. ¿Qué conviene aprender en cualquier puesto de oficina?",
+      "answer": "<mark>Seguridad informática básica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos_2/aula-formacion-informatica.jpg",
+        "title": "The Classroom 01",
+        "source": "https://www.flickr.com/photos/35152505@N00/472757102",
         "alt": "Un aula de formación con ordenadores para aprender informática",
-        "titulo": "The Classroom 01",
         "autor": "Missoula Public Library",
-        "fuente": "https://www.flickr.com/photos/35152505@N00/472757102",
         "licencia": "CC BY 2.0"
       }
     }

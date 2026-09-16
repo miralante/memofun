@@ -1,221 +1,221 @@
 {
-  "tema": "Itinerario Personal para la Empleabilidad II - FP GM Gestión Administrativa (2º)",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Itinerario Personal para la Empleabilidad II - FP GM Gestión Administrativa (2º)",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es un plan personal sobre hacia dónde quieres dirigir tu carrera laboral. <mark>Es como trazar un mapa a seguir, en vez de dejarlo al azar</mark>. Incluye metas y pasos concretos para lograrlas. ¿Cómo se llama este plan?",
-      "respuesta": "<mark>Proyecto profesional propio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-profesional.jpg",
+      "question": "Es un plan personal sobre hacia dónde quieres dirigir tu carrera laboral. <mark>Es como trazar un mapa a seguir, en vez de dejarlo al azar</mark>. Incluye metas y pasos concretos para lograrlas. ¿Cómo se llama este plan?",
+      "answer": "<mark>Proyecto profesional propio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-profesional.jpg",
+        "title": "To do list",
+        "source": "https://www.flickr.com/photos/135396164@N05/28123133694",
         "alt": "Lista de tareas escrita a mano en un cuaderno.",
-        "titulo": "To do list",
         "autor": "freestocks.org",
-        "fuente": "https://www.flickr.com/photos/135396164@N05/28123133694",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Es trabajar por cuenta propia, generando tú mismo tu actividad. <mark>Es como ser tu propio jefe, en vez de trabajar para otra persona</mark>. Implica más responsabilidad, pero también más libertad. ¿Cómo se llama esta forma de trabajar?",
-      "respuesta": "<mark>Autoempleo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/autoempleo.jpg",
+      "question": "Es trabajar por cuenta propia, generando tú mismo tu actividad. <mark>Es como ser tu propio jefe, en vez de trabajar para otra persona</mark>. Implica más responsabilidad, pero también más libertad. ¿Cómo se llama esta forma de trabajar?",
+      "answer": "<mark>Autoempleo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/autoempleo.jpg",
+        "title": "From here I run my freelance empire",
+        "source": "https://www.flickr.com/photos/22028494@N03/3641988827",
         "alt": "Espacio de trabajo desde donde una persona dirige su propio negocio.",
-        "titulo": "From here I run my freelance empire",
         "autor": "TheSeafarer",
-        "fuente": "https://www.flickr.com/photos/22028494@N03/3641988827",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. <mark>Es como ver un hueco en el mercado y decidir llenarlo tú mismo</mark>. Requiere iniciativa y asumir cierto riesgo. ¿Cómo se llama esta capacidad?",
-      "respuesta": "<mark>Emprendimiento</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/emprendimiento.jpg",
+      "question": "Es la capacidad de identificar una oportunidad y ponerla en marcha como negocio propio. <mark>Es como ver un hueco en el mercado y decidir llenarlo tú mismo</mark>. Requiere iniciativa y asumir cierto riesgo. ¿Cómo se llama esta capacidad?",
+      "answer": "<mark>Emprendimiento</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/emprendimiento.jpg",
+        "title": "Women In Tech - 99",
+        "source": "https://www.flickr.com/photos/136629440@N06/21909333504",
         "alt": "Personas trabajando juntas en la oficina de una empresa emergente.",
-        "titulo": "Women In Tech - 99",
         "autor": "wocintechchat.com",
-        "fuente": "https://www.flickr.com/photos/136629440@N06/21909333504",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un documento que resume cómo sería y cómo funcionaría un futuro negocio. <mark>Es como el boceto de un proyecto antes de construirlo de verdad</mark>. Incluye la idea, los costes y los posibles clientes. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Plan de empresa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/plan-empresa.jpg",
+      "question": "Es un documento que resume cómo sería y cómo funcionaría un futuro negocio. <mark>Es como el boceto de un proyecto antes de construirlo de verdad</mark>. Incluye la idea, los costes y los posibles clientes. ¿Cómo se llama este documento?",
+      "answer": "<mark>Plan de empresa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/plan-empresa.jpg",
+        "title": "Business Planning with Plan-Too",
+        "source": "https://www.flickr.com/photos/55260169@N07/5126107002",
         "alt": "Documento con la planificación escrita de un negocio.",
-        "titulo": "Business Planning with Plan-Too",
         "autor": "plantoo47",
-        "fuente": "https://www.flickr.com/photos/55260169@N07/5126107002",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Usar redes profesionales, contactar con empresas o crear un perfil digital atractivo ayuda a encontrar empleo. <mark>Es como ampliar tu red de contactos, en vez de esperar a que salga una oferta</mark>. También conviene adaptar el currículum a cada oferta. ¿Cómo se llama a este conjunto de recursos para buscar empleo?",
-      "respuesta": "<mark>Técnicas avanzadas de búsqueda</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/tecnicas-buscar-empleo.jpg",
+      "question": "Usar redes profesionales, contactar con empresas o crear un perfil digital atractivo ayuda a encontrar empleo. <mark>Es como ampliar tu red de contactos, en vez de esperar a que salga una oferta</mark>. También conviene adaptar el currículum a cada oferta. ¿Cómo se llama a este conjunto de recursos para buscar empleo?",
+      "answer": "<mark>Técnicas avanzadas de búsqueda</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/tecnicas-buscar-empleo.jpg",
+        "title": "Job Interview #2",
+        "source": "https://www.flickr.com/photos/41216460@N00/224646677",
         "alt": "Persona vestida formalmente en una entrevista de trabajo.",
-        "titulo": "Job Interview #2",
         "autor": "rileyroxx",
-        "fuente": "https://www.flickr.com/photos/41216460@N00/224646677",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Investigar la empresa, practicar respuestas y preparar preguntas propias ayuda mucho. <mark>Es como ensayar antes de una actuación importante, para sentirte más seguro</mark>. Llegar preparado transmite interés real. ¿Qué conviene preparar bien antes de acudir?",
-      "respuesta": "<mark>La entrevista de trabajo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/entrevista-trabajo.jpg",
+      "question": "Investigar la empresa, practicar respuestas y preparar preguntas propias ayuda mucho. <mark>Es como ensayar antes de una actuación importante, para sentirte más seguro</mark>. Llegar preparado transmite interés real. ¿Qué conviene preparar bien antes de acudir?",
+      "answer": "<mark>La entrevista de trabajo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/entrevista-trabajo.jpg",
+        "title": "Interview",
+        "source": "https://www.flickr.com/photos/163837264@N07/29072860487",
         "alt": "Una entrevista de trabajo",
-        "titulo": "Interview",
         "autor": "Semtrio",
-        "fuente": "https://www.flickr.com/photos/163837264@N07/29072860487",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Ser capaz de ajustarse a nuevas tareas, herramientas o formas de trabajar es muy valorado. <mark>Es como aprender a moverse con soltura cuando el terreno se mueve</mark>. Las empresas valoran mucho esta capacidad. ¿Cómo se llama esta capacidad de ajustarse a los cambios?",
-      "respuesta": "<mark>Adaptarse al cambio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptarse-cambio.jpg",
+      "question": "Ser capaz de ajustarse a nuevas tareas, herramientas o formas de trabajar es muy valorado. <mark>Es como aprender a moverse con soltura cuando el terreno se mueve</mark>. Las empresas valoran mucho esta capacidad. ¿Cómo se llama esta capacidad de ajustarse a los cambios?",
+      "answer": "<mark>Adaptarse al cambio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptarse-cambio.jpg",
+        "title": "Scattered puzzle pieces next to solved fragment",
+        "source": "https://www.flickr.com/photos/10361931@N06/4273913228",
         "alt": "Piezas de un puzle esparcidas junto a una parte ya resuelta.",
-        "titulo": "Scattered puzzle pieces next to solved fragment",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/4273913228",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es llegar a acuerdos satisfactorios para ambas partes en una situación laboral. <mark>Es como buscar un punto intermedio, en vez de que solo gane una parte</mark>. Puede aplicarse a un salario, un horario o un conflicto. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Negociación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/negociacion.jpg",
+      "question": "Es llegar a acuerdos satisfactorios para ambas partes en una situación laboral. <mark>Es como buscar un punto intermedio, en vez de que solo gane una parte</mark>. Puede aplicarse a un salario, un horario o un conflicto. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Negociación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/negociacion.jpg",
+        "title": "Negotiation",
+        "source": "https://www.flickr.com/photos/131814204@N04/51820085295",
         "alt": "Dos personas negociando cara a cara.",
-        "titulo": "Negotiation",
         "autor": "Go-tea 郭天",
-        "fuente": "https://www.flickr.com/photos/131814204@N04/51820085295",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Significa que todas las personas tienen las mismas oportunidades, sin importar su género. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, trato y ascenso. ¿Cómo se llama este principio en el trabajo?",
-      "respuesta": "<mark>Igualdad de género</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/igualdad-genero.jpg",
+      "question": "Significa que todas las personas tienen las mismas oportunidades, sin importar su género. <mark>Es como asegurarse de que todos parten desde la misma línea de salida</mark>. Incluye igualdad de salario, trato y ascenso. ¿Cómo se llama este principio en el trabajo?",
+      "answer": "<mark>Igualdad de género</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/igualdad-genero.jpg",
+        "title": "Gender Equality in the Workplace (01117946)",
+        "source": "https://www.flickr.com/photos/35068899@N03/48750119943",
         "alt": "Hombres y mujeres trabajando juntos como iguales en el trabajo.",
-        "titulo": "Gender Equality in the Workplace (01117946)",
         "autor": "IAEA Imagebank",
-        "fuente": "https://www.flickr.com/photos/35068899@N03/48750119943",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es actuar en el trabajo siguiendo principios de honestidad y responsabilidad. <mark>Es como aplicar tus valores personales también dentro del trabajo</mark>. Incluye respetar la confidencialidad y no aprovecharse de la confianza. ¿Cómo se llama esta forma de actuar?",
-      "respuesta": "<mark>Ética profesional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-profesional.jpg",
+      "question": "Es actuar en el trabajo siguiendo principios de honestidad y responsabilidad. <mark>Es como aplicar tus valores personales también dentro del trabajo</mark>. Incluye respetar la confidencialidad y no aprovecharse de la confianza. ¿Cómo se llama esta forma de actuar?",
+      "answer": "<mark>Ética profesional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-profesional.jpg",
+        "title": "Handshake",
+        "source": "https://www.flickr.com/photos/21372046@N00/2282881973",
         "alt": "Dos manos dándose un apretón como símbolo de confianza.",
-        "titulo": "Handshake",
         "autor": "AndyRobertsPhotos",
-        "fuente": "https://www.flickr.com/photos/21372046@N00/2282881973",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Malas posturas, fatiga visual o estrés por el volumen de trabajo son frecuentes en oficina. <mark>Son menos visibles que los peligros de una obra, pero igual de reales</mark>. Prevenirlos incluye buena postura y pausas regulares. ¿Cómo se llaman estos peligros para la salud en el trabajo?",
-      "respuesta": "<mark>Riesgos laborales</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/riesgos-laborales.jpg",
+      "question": "Malas posturas, fatiga visual o estrés por el volumen de trabajo son frecuentes en oficina. <mark>Son menos visibles que los peligros de una obra, pero igual de reales</mark>. Prevenirlos incluye buena postura y pausas regulares. ¿Cómo se llaman estos peligros para la salud en el trabajo?",
+      "answer": "<mark>Riesgos laborales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/riesgos-laborales.jpg",
+        "title": "My Desk @ SimpleGeo SF",
+        "source": "https://www.flickr.com/photos/68503235@N00/5081408605",
         "alt": "Escritorio de oficina con ordenador, típico de un puesto administrativo.",
-        "titulo": "My Desk @ SimpleGeo SF",
         "autor": "Jon Rohan",
-        "fuente": "https://www.flickr.com/photos/68503235@N00/5081408605",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Al terminar el ciclo, ayuda a decidir si seguir formándose, buscar empleo o emprender un negocio. <mark>Es como tener un destino claro antes de iniciar un nuevo viaje</mark>. Sin ello, es más fácil dejarse llevar sin rumbo. ¿Qué conviene tener claro al terminar el ciclo?",
-      "respuesta": "<mark>Un proyecto profesional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-claro-final-ciclo.jpg",
+      "question": "Al terminar el ciclo, ayuda a decidir si seguir formándose, buscar empleo o emprender un negocio. <mark>Es como tener un destino claro antes de iniciar un nuevo viaje</mark>. Sin ello, es más fácil dejarse llevar sin rumbo. ¿Qué conviene tener claro al terminar el ciclo?",
+      "answer": "<mark>Un proyecto profesional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/proyecto-claro-final-ciclo.jpg",
+        "title": "College of DuPage 2014 Commencement Ceremony 60",
+        "source": "https://www.flickr.com/photos/41431665@N07/14222463315",
         "alt": "Estudiantes celebrando su ceremonia de graduación.",
-        "titulo": "College of DuPage 2014 Commencement Ceremony 60",
         "autor": "COD Newsroom",
-        "fuente": "https://www.flickr.com/photos/41431665@N07/14222463315",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El autoempleo da más libertad y control, pero también más responsabilidad y menos estabilidad. <mark>Es como comparar dirigir tu propio barco con navegar en uno dirigido por otra persona</mark>. No hay una opción mejor: depende de cada persona. ¿Qué ofrece más libertad pero también más responsabilidad?",
-      "respuesta": "<mark>El autoempleo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/ventajas-autoempleo.jpg",
+      "question": "El autoempleo da más libertad y control, pero también más responsabilidad y menos estabilidad. <mark>Es como comparar dirigir tu propio barco con navegar en uno dirigido por otra persona</mark>. No hay una opción mejor: depende de cada persona. ¿Qué ofrece más libertad pero también más responsabilidad?",
+      "answer": "<mark>El autoempleo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/ventajas-autoempleo.jpg",
+        "title": "Aerial view of a man typing on a retro typewriter",
+        "source": "https://www.flickr.com/photos/147875007@N03/45789238041",
         "alt": "Persona trabajando de forma independiente con su propio equipo.",
-        "titulo": "Aerial view of a man typing on a retro typewriter",
         "autor": "Rawpixel Ltd",
-        "fuente": "https://www.flickr.com/photos/147875007@N03/45789238041",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un cálculo erróneo puede hacer que el negocio no sea viable desde el principio. <mark>Es como planear un viaje sin calcular bien el presupuesto</mark>. Una buena previsión reduce el riesgo de fracaso. ¿Qué conviene calcular bien en un plan de empresa?",
-      "respuesta": "<mark>Los costes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/calcular-costes.jpg",
+      "question": "Un cálculo erróneo puede hacer que el negocio no sea viable desde el principio. <mark>Es como planear un viaje sin calcular bien el presupuesto</mark>. Una buena previsión reduce el riesgo de fracaso. ¿Qué conviene calcular bien en un plan de empresa?",
+      "answer": "<mark>Los costes</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/calcular-costes.jpg",
+        "title": "Calculator",
+        "source": "https://www.flickr.com/photos/59937401@N07/5856725357",
         "alt": "Calculadora usada para hacer cuentas y calcular costes.",
-        "titulo": "Calculator",
         "autor": "Images_of_Money",
-        "fuente": "https://www.flickr.com/photos/59937401@N07/5856725357",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Muchas ofertas de trabajo se conocen antes por contactos que por anuncios públicos. <mark>Es como tener puertas ya entreabiertas, en vez de llamar siempre a una puerta cerrada</mark>. Cuidar esas relaciones tiene valor a largo plazo. ¿Qué ayuda a conocer ofertas antes de que se publiquen?",
-      "respuesta": "<mark>Una red de contactos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/red-contactos.jpg",
+      "question": "Muchas ofertas de trabajo se conocen antes por contactos que por anuncios públicos. <mark>Es como tener puertas ya entreabiertas, en vez de llamar siempre a una puerta cerrada</mark>. Cuidar esas relaciones tiene valor a largo plazo. ¿Qué ayuda a conocer ofertas antes de que se publiquen?",
+      "answer": "<mark>Una red de contactos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/red-contactos.jpg",
+        "title": "Salesforce.com CEO Marc Benioff exchanges business cards",
+        "source": "https://www.flickr.com/photos/35034363287@N01/5396278484",
         "alt": "Dos personas intercambiando tarjetas de visita.",
-        "titulo": "Salesforce.com CEO Marc Benioff exchanges business cards",
         "autor": "Robert Scoble",
-        "fuente": "https://www.flickr.com/photos/35034363287@N01/5396278484",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Las herramientas y formas de trabajar cambian cada vez más rápido. <mark>Es como tener que aprender nuevas reglas de un juego que cambia sin parar</mark>. Quien tiene esta habilidad se mantiene empleado con más facilidad. ¿Cómo se llama esta habilidad tan valorada hoy?",
-      "respuesta": "<mark>Adaptabilidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptabilidad.jpg",
+      "question": "Las herramientas y formas de trabajar cambian cada vez más rápido. <mark>Es como tener que aprender nuevas reglas de un juego que cambia sin parar</mark>. Quien tiene esta habilidad se mantiene empleado con más facilidad. ¿Cómo se llama esta habilidad tan valorada hoy?",
+      "answer": "<mark>Adaptabilidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/adaptabilidad.jpg",
+        "title": "sky puzzle",
+        "source": "https://www.flickr.com/photos/35468148654@N01/501445202",
         "alt": "Piezas de un puzle encajando entre sí.",
-        "titulo": "sky puzzle",
         "autor": "jared",
-        "fuente": "https://www.flickr.com/photos/35468148654@N01/501445202",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Actuar con ética genera confianza entre compañeros, jefes y clientes. <mark>Es como construir una reputación sólida, ladrillo a ladrillo</mark>. Perderla puede ser muy difícil de recuperar. ¿Qué genera actuar con ética en el trabajo?",
-      "respuesta": "<mark>Confianza</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-confianza.jpg",
+      "question": "Actuar con ética genera confianza entre compañeros, jefes y clientes. <mark>Es como construir una reputación sólida, ladrillo a ladrillo</mark>. Perderla puede ser muy difícil de recuperar. ¿Qué genera actuar con ética en el trabajo?",
+      "answer": "<mark>Confianza</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/etica-confianza.jpg",
+        "title": "Handshake man - women",
+        "source": "https://www.flickr.com/photos/124247024@N07/14090438714",
         "alt": "Un hombre y una mujer dándose la mano como señal de confianza mutua.",
-        "titulo": "Handshake man - women",
         "autor": "flazingo_photos",
-        "fuente": "https://www.flickr.com/photos/124247024@N07/14090438714",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "En 1º se sientan las bases; en 2º, se prepara la salida al mundo laboral. <mark>Es como aprender primero a caminar y después a decidir hacia dónde caminar</mark>. En 2º pesa más este documento personal. ¿Qué pesa más en el segundo curso del ciclo?",
-      "respuesta": "<mark>El proyecto profesional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/dos-cursos-ciclo.jpg",
+      "question": "En 1º se sientan las bases; en 2º, se prepara la salida al mundo laboral. <mark>Es como aprender primero a caminar y después a decidir hacia dónde caminar</mark>. En 2º pesa más este documento personal. ¿Qué pesa más en el segundo curso del ciclo?",
+      "answer": "<mark>El proyecto profesional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpgm_ga_2_itinerario-personal-empleabilidad-2/dos-cursos-ciclo.jpg",
+        "title": "Graduates",
+        "source": "https://www.flickr.com/photos/82538355@N00/2469859496",
         "alt": "Grupo de graduados celebrando el final de sus estudios.",
-        "titulo": "Graduates",
         "autor": "spakattacks",
-        "fuente": "https://www.flickr.com/photos/82538355@N00/2469859496",
         "licencia": "CC BY 2.0"
       }
     }

@@ -1,125 +1,125 @@
 {
-  "tema": "La evolución de las especies y de los seres humanos - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La evolución de las especies y de los seres humanos - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como un río que cambia de forma muy lentamente</mark>. Las especies cambian a lo largo de muchas generaciones. Con el tiempo pueden surgir especies nuevas. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Evolución de las especies</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/trex-fosil.jpg",
+      "question": "<mark>Es como un río que cambia de forma muy lentamente</mark>. Las especies cambian a lo largo de muchas generaciones. Con el tiempo pueden surgir especies nuevas. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Evolución de las especies</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/trex-fosil.jpg",
+        "title": "Day 26 - Tyrannosaurus Rex",
+        "source": "https://www.flickr.com/photos/86012097@N08/8026022305",
         "alt": "El esqueleto fosilizado de un Tyrannosaurus Rex",
-        "titulo": "Day 26 - Tyrannosaurus Rex",
         "autor": "akhenatenator",
-        "fuente": "https://www.flickr.com/photos/86012097@N08/8026022305",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Un largo viaje por el mundo le ayudó a formular una idea</mark>. Propuso la teoría de la evolución por selección natural. La publicó en 'El origen de las especies'. ¿Quién fue este científico?",
-      "respuesta": "<mark>Charles Darwin</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/darwin-estatua.jpg",
+      "question": "<mark>Un largo viaje por el mundo le ayudó a formular una idea</mark>. Propuso la teoría de la evolución por selección natural. La publicó en 'El origen de las especies'. ¿Quién fue este científico?",
+      "answer": "<mark>Charles Darwin</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/darwin-estatua.jpg",
+        "title": "Granada-Parque de las Ciencias-Estatua de Charles Darwin",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=35998841",
         "alt": "Estatua de Charles Darwin en el Parque de las Ciencias de Granada",
-        "titulo": "Granada-Parque de las Ciencias-Estatua de Charles Darwin",
         "autor": "Javi Guerra Hernando",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35998841",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "<mark>Es como una carrera donde gana quien está mejor preparado para el terreno</mark>. Sobreviven y se reproducen más los individuos mejor adaptados. Sus características ventajosas se transmiten más. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Selección natural</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/darwin-retrato.jpg",
+      "question": "<mark>Es como una carrera donde gana quien está mejor preparado para el terreno</mark>. Sobreviven y se reproducen más los individuos mejor adaptados. Sus características ventajosas se transmiten más. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Selección natural</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/darwin-retrato.jpg",
+        "title": "Charles Darwin, portrait",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=35980235",
         "alt": "Retrato de Charles Darwin",
-        "titulo": "Charles Darwin, portrait",
         "autor": "(autor desconocido)",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=35980235",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "<mark>Es como actualizar una idea antigua con herramientas que antes no existían</mark>. Combina las ideas de Darwin con la genética moderna. Explica cómo las mutaciones generan variedad. ¿Cómo se llama esta teoría actual?",
-      "respuesta": "<mark>Neodarwinismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/adn-helice.jpg",
+      "question": "<mark>Es como actualizar una idea antigua con herramientas que antes no existían</mark>. Combina las ideas de Darwin con la genética moderna. Explica cómo las mutaciones generan variedad. ¿Cómo se llama esta teoría actual?",
+      "answer": "<mark>Neodarwinismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/adn-helice.jpg",
+        "title": "20251019 Replica DNA double helix model Berlin 02",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=178341783",
         "alt": "Un modelo de la doble hélice de ADN",
-        "titulo": "20251019 Replica DNA double helix model Berlin 02",
         "autor": "Flocci Nivis",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=178341783",
         "licencia": "CC BY 4.0"
       }
     },
     {
-      "pregunta": "Que las especies cambian con el tiempo es un hecho comprobado. Esto explica cómo y por qué ocurre ese cambio exactamente. <mark>La selección natural es solo uno de ellos</mark>. ¿Cómo se llaman estas explicaciones del cambio?",
-      "respuesta": "<mark>Mecanismos de evolución</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/mecanismo-reloj.jpg",
+      "question": "Que las especies cambian con el tiempo es un hecho comprobado. Esto explica cómo y por qué ocurre ese cambio exactamente. <mark>La selección natural es solo uno de ellos</mark>. ¿Cómo se llaman estas explicaciones del cambio?",
+      "answer": "<mark>Mecanismos de evolución</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/mecanismo-reloj.jpg",
+        "title": "Railroad Watch Mechanism",
+        "source": "https://www.flickr.com/photos/24364103@N04/2436917872",
         "alt": "El mecanismo interno de un reloj",
-        "titulo": "Railroad Watch Mechanism",
         "autor": "mpclemens",
-        "fuente": "https://www.flickr.com/photos/24364103@N04/2436917872",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como reconocer una moneda antigua y saber al instante su época</mark>. Ayudan a datar con precisión las rocas donde aparecen. Vivieron poco tiempo, pero en muchos lugares. ¿Cómo se llaman estos fósiles?",
-      "respuesta": "<mark>Fósiles guía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/fosil-trilobite.jpg",
+      "question": "<mark>Es como reconocer una moneda antigua y saber al instante su época</mark>. Ayudan a datar con precisión las rocas donde aparecen. Vivieron poco tiempo, pero en muchos lugares. ¿Cómo se llaman estos fósiles?",
+      "answer": "<mark>Fósiles guía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/fosil-trilobite.jpg",
+        "title": "Colpocoryphe grandis - Fósil",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=2948099",
         "alt": "Un fósil de trilobites, usado para datar rocas antiguas",
-        "titulo": "Colpocoryphe grandis - Fósil",
         "autor": "porshunta",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=2948099",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Es un camino de millones de años con muchas especies intermedias. <mark>Incluyó caminar erguido y un cerebro más grande</mark>. Ocurrió sobre todo en África. ¿Cómo se llama este proceso evolutivo?",
-      "respuesta": "<mark>Hominización</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/craneo-humano.jpg",
+      "question": "Es un camino de millones de años con muchas especies intermedias. <mark>Incluyó caminar erguido y un cerebro más grande</mark>. Ocurrió sobre todo en África. ¿Cómo se llama este proceso evolutivo?",
+      "answer": "<mark>Hominización</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/craneo-humano.jpg",
+        "title": "Nine human skulls - Jericho",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=19633459",
         "alt": "Cráneos humanos antiguos",
-        "titulo": "Nine human skulls - Jericho",
         "autor": "Hanay",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=19633459",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "<mark>Es como reunir muchas pruebas distintas que apuntan a la misma conclusión</mark>. Fósiles, genes y anatomía comparada la respaldan. Cuantas más pruebas coinciden, más sólida es la teoría. ¿Qué teoría apoyan todas estas pruebas?",
-      "respuesta": "<mark>Evolución de las especies</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/mandibula-tiburon-fosil.jpg",
+      "question": "<mark>Es como reunir muchas pruebas distintas que apuntan a la misma conclusión</mark>. Fósiles, genes y anatomía comparada la respaldan. Cuantas más pruebas coinciden, más sólida es la teoría. ¿Qué teoría apoyan todas estas pruebas?",
+      "answer": "<mark>Evolución de las especies</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/mandibula-tiburon-fosil.jpg",
+        "title": "Carcharodon megalodon fossil shark jaw (reconstruction) (late Cenozoic) 3",
+        "source": "https://www.flickr.com/photos/47445767@N05/15333023711",
         "alt": "La reconstrucción de una mandíbula de tiburón fósil",
-        "titulo": "Carcharodon megalodon fossil shark jaw (reconstruction) (late Cenozoic) 3",
         "autor": "James St. John",
-        "fuente": "https://www.flickr.com/photos/47445767@N05/15333023711",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como descubrir que dos personas muy distintas tuvieron el mismo tatarabuelo</mark>. Estudios genéticos y fósiles muestran un origen común. No descendemos de los monos actuales. ¿Qué compartimos con otros primates?",
-      "respuesta": "<mark>Un antepasado común</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/mono-primate.jpg",
+      "question": "<mark>Es como descubrir que dos personas muy distintas tuvieron el mismo tatarabuelo</mark>. Estudios genéticos y fósiles muestran un origen común. No descendemos de los monos actuales. ¿Qué compartimos con otros primates?",
+      "answer": "<mark>Un antepasado común</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/mono-primate.jpg",
+        "title": "mother ape close up",
+        "source": "https://www.flickr.com/photos/16167252@N00/146396163",
         "alt": "El rostro de un primate en primer plano",
-        "titulo": "mother ape close up",
         "autor": "andrechinn",
-        "fuente": "https://www.flickr.com/photos/16167252@N00/146396163",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como un árbol con muchísimas ramas, cada una una adaptación distinta</mark>. Cada especie actual es fruto de millones de años de cambios. Por eso hoy existen tantas especies distintas. ¿Qué palabra nombra esa gran variedad de especies?",
-      "respuesta": "<mark>Biodiversidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_biologia-geologia_4/elefantes-safari.jpg",
+      "question": "<mark>Es como un árbol con muchísimas ramas, cada una una adaptación distinta</mark>. Cada especie actual es fruto de millones de años de cambios. Por eso hoy existen tantas especies distintas. ¿Qué palabra nombra esa gran variedad de especies?",
+      "answer": "<mark>Biodiversidad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_biologia-geologia_4/elefantes-safari.jpg",
+        "title": "Elephants - Serengeti National Park safari - Tanzania, Africa",
+        "source": "https://www.flickr.com/photos/25897810@N00/5699832418",
         "alt": "Elefantes en su hábitat natural en África",
-        "titulo": "Elephants - Serengeti National Park safari - Tanzania, Africa",
         "autor": "David Berkowitz",
-        "fuente": "https://www.flickr.com/photos/25897810@N00/5699832418",
         "licencia": "CC BY 2.0"
       }
     }

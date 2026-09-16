@@ -1,197 +1,197 @@
 {
-  "tema": "Ciencias Aplicadas - FP Básica Servicios Administrativos (2º)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Ciencias Aplicadas - FP Básica Servicios Administrativos (2º)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es tan importante como la salud física. <mark>Es como cuidar la mente igual que el cuerpo</mark>. Incluye gestionar el estrés y las emociones. ¿Cómo se llama este bienestar?",
-      "respuesta": "<mark>Salud mental</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/mindfulness-calma.jpg",
+      "question": "Es tan importante como la salud física. <mark>Es como cuidar la mente igual que el cuerpo</mark>. Incluye gestionar el estrés y las emociones. ¿Cómo se llama este bienestar?",
+      "answer": "<mark>Salud mental</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/mindfulness-calma.jpg",
+        "title": "Mindfulness",
+        "source": "https://www.flickr.com/photos/21124414@N00/125887847",
         "alt": "Una persona practicando la calma y la atención plena",
-        "titulo": "Mindfulness",
         "autor": "ezola",
-        "fuente": "https://www.flickr.com/photos/21124414@N00/125887847",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Afecta cómo te sientes, trabajas y te relacionas con otros. <mark>Es como el motor invisible detrás de todo lo que haces</mark>. Hablar de tus sentimientos ayuda a cuidarlo. ¿Qué conviene cuidar siempre?",
-      "respuesta": "<mark>El bienestar emocional</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/atardecer-tranquilo.jpg",
+      "question": "Afecta cómo te sientes, trabajas y te relacionas con otros. <mark>Es como el motor invisible detrás de todo lo que haces</mark>. Hablar de tus sentimientos ayuda a cuidarlo. ¿Qué conviene cuidar siempre?",
+      "answer": "<mark>El bienestar emocional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/atardecer-tranquilo.jpg",
+        "title": "Peaceful Sunset - Maldives - Travel photography",
+        "source": "https://www.flickr.com/photos/87690240@N03/29409117887",
         "alt": "Un atardecer tranquilo junto al mar",
-        "titulo": "Peaceful Sunset - Maldives - Travel photography",
         "autor": "Giuseppe Milo (www.pixael.com)",
-        "fuente": "https://www.flickr.com/photos/87690240@N03/29409117887",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Significa dedicarles un tiempo razonable, sin que ocupen tu día. <mark>Es como comer de todo, sin abusar de un alimento</mark>. Incluye descansar la vista de vez en cuando. ¿Cómo se llama hacer esto con las pantallas?",
-      "respuesta": "<mark>Uso responsable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ninas-pantalla-tablet.jpg",
+      "question": "Significa dedicarles un tiempo razonable, sin que ocupen tu día. <mark>Es como comer de todo, sin abusar de un alimento</mark>. Incluye descansar la vista de vez en cuando. ¿Cómo se llama hacer esto con las pantallas?",
+      "answer": "<mark>Uso responsable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ninas-pantalla-tablet.jpg",
+        "title": "DSC_4022: two girls sitting on the floor looking at a tablet",
+        "source": "https://www.flickr.com/photos/194424926@N05/53993584848",
         "alt": "Dos niñas sentadas en el suelo mirando una tableta",
-        "titulo": "DSC_4022: two girls sitting on the floor looking at a tablet",
         "autor": "PattayaPatrol",
-        "fuente": "https://www.flickr.com/photos/194424926@N05/53993584848",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "No hay que compartir datos personales con desconocidos. <mark>Es como no dar la dirección de tu casa a cualquiera</mark>. Conviene contrastar la información antes de creerla. ¿Qué conviene tener en las redes sociales?",
-      "respuesta": "<mark>Precaución</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/apps-movil.jpg",
+      "question": "No hay que compartir datos personales con desconocidos. <mark>Es como no dar la dirección de tu casa a cualquiera</mark>. Conviene contrastar la información antes de creerla. ¿Qué conviene tener en las redes sociales?",
+      "answer": "<mark>Precaución</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/apps-movil.jpg",
+        "title": "Smartphone apps",
+        "source": "https://www.flickr.com/photos/161176275@N05/40399643554",
         "alt": "Aplicaciones de redes sociales en la pantalla de un móvil",
-        "titulo": "Smartphone apps",
         "autor": "Image Genie",
-        "fuente": "https://www.flickr.com/photos/161176275@N05/40399643554",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Son las acciones para ayudar a alguien antes de que llegue un médico. <mark>Es como dar unos pasos iniciales de ayuda</mark>, sin sustituirlo. ¿Cómo se llaman estas acciones?",
-      "respuesta": "<mark>Primeros auxilios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/botiquin-primeros-auxilios.jpg",
+      "question": "Son las acciones para ayudar a alguien antes de que llegue un médico. <mark>Es como dar unos pasos iniciales de ayuda</mark>, sin sustituirlo. ¿Cómo se llaman estas acciones?",
+      "answer": "<mark>Primeros auxilios</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/botiquin-primeros-auxilios.jpg",
+        "title": "First aid kit",
+        "source": "https://www.flickr.com/photos/76705972@N00/5575095686",
         "alt": "Un botiquín de primeros auxilios",
-        "titulo": "First aid kit",
         "autor": "u07ch",
-        "fuente": "https://www.flickr.com/photos/76705972@N00/5575095686",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hay que valorar la situación y pedir ayuda si hace falta. <mark>Es como seguir un protocolo, paso a paso</mark>, sin precipitarse. ¿Qué se debe hacer ante un pequeño accidente en el trabajo?",
-      "respuesta": "<mark>Mantener la calma</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/aprendiendo-primeros-auxilios.jpg",
+      "question": "Hay que valorar la situación y pedir ayuda si hace falta. <mark>Es como seguir un protocolo, paso a paso</mark>, sin precipitarse. ¿Qué se debe hacer ante un pequeño accidente en el trabajo?",
+      "answer": "<mark>Mantener la calma</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/aprendiendo-primeros-auxilios.jpg",
+        "title": "Learning First Aid",
+        "source": "https://www.flickr.com/photos/51986662@N05/4976590939",
         "alt": "Una persona aprendiendo a aplicar primeros auxilios",
-        "titulo": "Learning First Aid",
         "autor": "USFWS Mountain Prairie",
-        "fuente": "https://www.flickr.com/photos/51986662@N05/4976590939",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Puede venir del sol, del viento o de fuentes no renovables. <mark>Es el combustible invisible que hace funcionar los aparatos</mark> de la oficina. ¿Qué usan los aparatos de una oficina para funcionar?",
-      "respuesta": "<mark>Electricidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/energia-eolica.jpg",
+      "question": "Puede venir del sol, del viento o de fuentes no renovables. <mark>Es el combustible invisible que hace funcionar los aparatos</mark> de la oficina. ¿Qué usan los aparatos de una oficina para funcionar?",
+      "answer": "<mark>Electricidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/energia-eolica.jpg",
+        "title": "Wind Energy, Southern California",
+        "source": "https://www.flickr.com/photos/8398907@N02/8628436785",
         "alt": "Turbinas eólicas generando energía renovable",
-        "titulo": "Wind Energy, Southern California",
         "autor": "moonjazz",
-        "fuente": "https://www.flickr.com/photos/8398907@N02/8628436785",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "Es usar solo la energía necesaria, sin derrochar. <mark>Es como no dejar el grifo abierto sin usarlo</mark>, pero con la luz. ¿Cómo se llama hacer esto en una oficina?",
-      "respuesta": "<mark>Eficiencia energética</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/bombilla-luz.jpg",
+      "question": "Es usar solo la energía necesaria, sin derrochar. <mark>Es como no dejar el grifo abierto sin usarlo</mark>, pero con la luz. ¿Cómo se llama hacer esto en una oficina?",
+      "answer": "<mark>Eficiencia energética</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/bombilla-luz.jpg",
+        "title": "Light Bulb",
+        "source": "https://www.flickr.com/photos/156969186@N07/37784631166",
         "alt": "Una bombilla de luz encendida",
-        "titulo": "Light Bulb",
         "autor": "le_hollandais_volant",
-        "fuente": "https://www.flickr.com/photos/156969186@N07/37784631166",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es el impacto que una persona o empresa tiene sobre el medio ambiente. <mark>Es como el rastro invisible que deja cada actividad</mark> en el planeta. ¿Cómo se llama esta medida?",
-      "respuesta": "<mark>Huella ecológica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/cambio-climatico-financiacion.jpg",
+      "question": "Es el impacto que una persona o empresa tiene sobre el medio ambiente. <mark>Es como el rastro invisible que deja cada actividad</mark> en el planeta. ¿Cómo se llama esta medida?",
+      "answer": "<mark>Huella ecológica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/cambio-climatico-financiacion.jpg",
+        "title": "Financing Climate Change",
+        "source": "https://www.flickr.com/photos/18844496@N00/3085307050",
         "alt": "Una representación del impacto del cambio climático",
-        "titulo": "Financing Climate Change",
         "autor": "Visible Hand",
-        "fuente": "https://www.flickr.com/photos/18844496@N00/3085307050",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Se reduce reciclando, ahorrando energía y usando menos papel. <mark>Son pequeños gestos que, sumados, cuidan un espacio compartido</mark>. ¿Qué se reduce con estos gestos en una oficina?",
-      "respuesta": "<mark>La huella ecológica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/papel-reciclaje.jpg",
+      "question": "Se reduce reciclando, ahorrando energía y usando menos papel. <mark>Son pequeños gestos que, sumados, cuidan un espacio compartido</mark>. ¿Qué se reduce con estos gestos en una oficina?",
+      "answer": "<mark>La huella ecológica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/papel-reciclaje.jpg",
+        "title": "File:Paper To Paper Bin.jpg",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=15972125",
         "alt": "Papel siendo depositado en un contenedor de reciclaje",
-        "titulo": "File:Paper To Paper Bin.jpg",
         "autor": "My Alchemist",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=15972125",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "Es una alteración duradera del clima, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre sin bajar</mark>. ¿Cómo se llama esta alteración?",
-      "respuesta": "<mark>Cambio climático</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/glaciares-nivel-mar.jpg",
+      "question": "Es una alteración duradera del clima, sobre todo por el aumento de temperatura. <mark>Es como si la Tierra tuviera fiebre sin bajar</mark>. ¿Cómo se llama esta alteración?",
+      "answer": "<mark>Cambio climático</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/glaciares-nivel-mar.jpg",
+        "title": "Glaciers and Sea Level Rise",
+        "source": "https://www.flickr.com/photos/24662369@N07/8742463970",
         "alt": "Glaciares afectados por el cambio climático",
-        "titulo": "Glaciers and Sea Level Rise",
         "autor": "NASA Goddard Photo and Video",
-        "fuente": "https://www.flickr.com/photos/24662369@N07/8742463970",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Producir energía con petróleo libera gases que calientan el planeta. <mark>Es como acumular calor en una habitación cerrada</mark>. ¿Qué provoca este calentamiento del planeta?",
-      "respuesta": "<mark>El consumo de energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/central-energia.jpg",
+      "question": "Producir energía con petróleo libera gases que calientan el planeta. <mark>Es como acumular calor en una habitación cerrada</mark>. ¿Qué provoca este calentamiento del planeta?",
+      "answer": "<mark>El consumo de energía</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/central-energia.jpg",
+        "title": "Scottish and Southern Slough Power Station - geograph.org.uk - 1002054",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=13705641",
         "alt": "Una central de generación de energía",
-        "titulo": "Scottish and Southern Slough Power Station - geograph.org.uk - 1002054",
         "autor": "Chris Allen",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=13705641",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ayudan a prevenir riesgos, aunque son menos visibles que en otros trabajos. <mark>Incluyen sillas ergonómicas y pantallas que cuidan la vista</mark>. ¿Cómo se llaman estos elementos?",
-      "respuesta": "<mark>Equipos de protección</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/escritorio-trabajo.jpg",
+      "question": "Ayudan a prevenir riesgos, aunque son menos visibles que en otros trabajos. <mark>Incluyen sillas ergonómicas y pantallas que cuidan la vista</mark>. ¿Cómo se llaman estos elementos?",
+      "answer": "<mark>Equipos de protección</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/escritorio-trabajo.jpg",
+        "title": "My Desk @ SimpleGeo SF",
+        "source": "https://www.flickr.com/photos/68503235@N00/5081408605",
         "alt": "Un escritorio de oficina con equipo de trabajo",
-        "titulo": "My Desk @ SimpleGeo SF",
         "autor": "Jon Rohan",
-        "fuente": "https://www.flickr.com/photos/68503235@N00/5081408605",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Hay que mantener la calma y dirigirte al punto de encuentro. <mark>Es como usar una ruta ya preparada</mark>, en vez de improvisar. ¿Qué debes hacer ante una emergencia en el trabajo?",
-      "respuesta": "<mark>Seguir el plan de evacuación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/simulacro-incendio.jpg",
+      "question": "Hay que mantener la calma y dirigirte al punto de encuentro. <mark>Es como usar una ruta ya preparada</mark>, en vez de improvisar. ¿Qué debes hacer ante una emergencia en el trabajo?",
+      "answer": "<mark>Seguir el plan de evacuación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/simulacro-incendio.jpg",
+        "title": "Fire Drill",
+        "source": "https://www.flickr.com/photos/26314424@N08/5488510332",
         "alt": "Un simulacro de emergencia en un edificio",
-        "titulo": "Fire Drill",
         "autor": "B4bees",
-        "fuente": "https://www.flickr.com/photos/26314424@N08/5488510332",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "En una emergencia real no hay tiempo para pensar desde cero. <mark>Es como ensayar antes una ruta de salida</mark>, para no dudar si hace falta usarla. ¿Qué conviene conocer bien de un edificio?",
-      "respuesta": "<mark>El plan de evacuación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/salida-emergencia.jpg",
+      "question": "En una emergencia real no hay tiempo para pensar desde cero. <mark>Es como ensayar antes una ruta de salida</mark>, para no dudar si hace falta usarla. ¿Qué conviene conocer bien de un edificio?",
+      "answer": "<mark>El plan de evacuación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/salida-emergencia.jpg",
+        "title": "Salida de Emergencia",
+        "source": "https://www.flickr.com/photos/66208256@N00/877183747",
         "alt": "Un cartel de salida de emergencia",
-        "titulo": "Salida de Emergencia",
         "autor": "Esparta",
-        "fuente": "https://www.flickr.com/photos/66208256@N00/877183747",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Automatiza tareas repetitivas y facilita la comunicación y el archivo digital. <mark>Es como tener herramientas que ahorran mucho tiempo</mark>. ¿Qué ha cambiado tanto el trabajo administrativo?",
-      "respuesta": "<mark>La tecnología</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ordenador-tecnologia.jpg",
+      "question": "Automatiza tareas repetitivas y facilita la comunicación y el archivo digital. <mark>Es como tener herramientas que ahorran mucho tiempo</mark>. ¿Qué ha cambiado tanto el trabajo administrativo?",
+      "answer": "<mark>La tecnología</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_2_ciencias-aplicadas/ordenador-tecnologia.jpg",
+        "title": "Computer",
+        "source": "https://www.flickr.com/photos/38389073@N04/5730561541",
         "alt": "Un ordenador de oficina moderno",
-        "titulo": "Computer",
         "autor": "Jamiesrabbits",
-        "fuente": "https://www.flickr.com/photos/38389073@N04/5730561541",
         "licencia": "CC BY 2.0"
       }
     }

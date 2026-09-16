@@ -1,149 +1,149 @@
 {
-  "tema": "Sexualidad, afectividad y hábitos saludables - 3º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Sexualidad, afectividad y hábitos saludables - 3º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Al nacer, cada persona tiene unas características biológicas concretas. <br>Otra cosa mucho más amplia <mark>incluye emociones, afectividad y forma de relacionarse</mark>. <br>No se reduce solo a lo físico. <br>¿Cómo se llama esta parte más amplia, que incluye emociones y afectividad?",
-      "respuesta": "<mark>Sexualidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/simbolo-genero.jpg",
+      "question": "Al nacer, cada persona tiene unas características biológicas concretas. <br>Otra cosa mucho más amplia <mark>incluye emociones, afectividad y forma de relacionarse</mark>. <br>No se reduce solo a lo físico. <br>¿Cómo se llama esta parte más amplia, que incluye emociones y afectividad?",
+      "answer": "<mark>Sexualidad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/simbolo-genero.jpg",
+        "title": "Universal gender symbol 2",
+        "source": "https://www.flickr.com/photos/60158717@N00/2444171650",
         "alt": "Los símbolos universales de género.",
-        "titulo": "Universal gender symbol 2",
         "autor": "lazzarello",
-        "fuente": "https://www.flickr.com/photos/60158717@N00/2444171650",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Todas las personas, sea cual sea su género, merecen el mismo respeto y los mismos derechos. <br><mark>Es como repartir siempre a partes iguales, sin que nadie decida por encima del otro</mark>. <br>Es la base de cualquier relación sana. <br>¿Cómo se llama este principio de respeto igual entre todos?",
-      "respuesta": "<mark>Igualdad de género</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/icono-igualdad-genero.jpg",
+      "question": "Todas las personas, sea cual sea su género, merecen el mismo respeto y los mismos derechos. <br><mark>Es como repartir siempre a partes iguales, sin que nadie decida por encima del otro</mark>. <br>Es la base de cualquier relación sana. <br>¿Cómo se llama este principio de respeto igual entre todos?",
+      "answer": "<mark>Igualdad de género</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/icono-igualdad-genero.jpg",
+        "title": "gender symbols",
+        "source": "https://www.flickr.com/photos/65486489@N00/519903056",
         "alt": "Símbolos de género representando la igualdad.",
-        "titulo": "gender symbols",
         "autor": "Mike-wise",
-        "fuente": "https://www.flickr.com/photos/65486489@N00/519903056",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Expresar sentimientos, deseos y límites con claridad evita malentendidos. <br><mark>Es como hablar el mismo idioma para entenderse de verdad</mark>. <br>Una relación sana se construye hablando con sinceridad y respeto. <br>¿Qué es imprescindible para que una relación sea sana?",
-      "respuesta": "<mark>La comunicación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/amigas-hablando.jpg",
+      "question": "Expresar sentimientos, deseos y límites con claridad evita malentendidos. <br><mark>Es como hablar el mismo idioma para entenderse de verdad</mark>. <br>Una relación sana se construye hablando con sinceridad y respeto. <br>¿Qué es imprescindible para que una relación sea sana?",
+      "answer": "<mark>La comunicación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/amigas-hablando.jpg",
+        "title": "Friends Talking",
+        "source": "https://www.flickr.com/photos/89165847@N00/10086181464",
         "alt": "Dos personas conversando de forma cercana.",
-        "titulo": "Friends Talking",
         "autor": "mikecogh",
-        "fuente": "https://www.flickr.com/photos/89165847@N00/10086181464",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Un sí claro y libre de todas las partes hace falta siempre. <br>Sin ese sí, no existe un acuerdo real. <br><mark>Se puede cambiar de opinión en cualquier momento, incluso después de haber dicho que sí</mark>. <br>¿Cómo se llama este acuerdo libre y consciente?",
-      "respuesta": "<mark>Consentimiento</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/apreton-manos.jpg",
+      "question": "Un sí claro y libre de todas las partes hace falta siempre. <br>Sin ese sí, no existe un acuerdo real. <br><mark>Se puede cambiar de opinión en cualquier momento, incluso después de haber dicho que sí</mark>. <br>¿Cómo se llama este acuerdo libre y consciente?",
+      "answer": "<mark>Consentimiento</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/apreton-manos.jpg",
+        "title": "Handshake",
+        "source": "https://www.flickr.com/photos/25945304@N00/3575000735",
         "alt": "Un apretón de manos, como señal de acuerdo mutuo.",
-        "titulo": "Handshake",
         "autor": "Aidan Jones",
-        "fuente": "https://www.flickr.com/photos/25945304@N00/3575000735",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Unos métodos ayudan a decidir si se quiere tener descendencia o no. <br><mark>Permiten planificar de forma responsable las decisiones sobre la propia vida</mark>. <br>Elegir el más adecuado suele hacerse con ayuda sanitaria. <br>¿Cómo se llaman estos métodos?",
-      "respuesta": "<mark>Métodos anticonceptivos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/medicamentos-antiguos.jpg",
+      "question": "Unos métodos ayudan a decidir si se quiere tener descendencia o no. <br><mark>Permiten planificar de forma responsable las decisiones sobre la propia vida</mark>. <br>Elegir el más adecuado suele hacerse con ayuda sanitaria. <br>¿Cómo se llaman estos métodos?",
+      "answer": "<mark>Métodos anticonceptivos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/medicamentos-antiguos.jpg",
+        "title": "Old-fashioned medications",
+        "source": "https://www.flickr.com/photos/95142644@N00/11595085864",
         "alt": "Cajas y envases de medicamentos.",
-        "titulo": "Old-fashioned medications",
         "autor": "Ruth and Dave",
-        "fuente": "https://www.flickr.com/photos/95142644@N00/11595085864",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Algunas infecciones pueden contagiarse durante las relaciones sexuales. <br><mark>Muchas no dan síntomas al principio, por eso hay que prevenirlas siempre</mark>. <br>Usar protección adecuada reduce mucho el riesgo de contagio. <br>¿Cómo se llaman estas infecciones?",
-      "respuesta": "<mark>Infecciones de transmisión sexual</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/cartel-clinica-salud.jpg",
+      "question": "Algunas infecciones pueden contagiarse durante las relaciones sexuales. <br><mark>Muchas no dan síntomas al principio, por eso hay que prevenirlas siempre</mark>. <br>Usar protección adecuada reduce mucho el riesgo de contagio. <br>¿Cómo se llaman estas infecciones?",
+      "answer": "<mark>Infecciones de transmisión sexual</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/cartel-clinica-salud.jpg",
+        "title": "Paiute Health Clinic Sign",
+        "source": "https://www.flickr.com/photos/56555485@N05/5514953189",
         "alt": "El cartel de una clínica de salud.",
-        "titulo": "Paiute Health Clinic Sign",
         "autor": "meowrer",
-        "fuente": "https://www.flickr.com/photos/56555485@N05/5514953189",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La desinformación puede generar miedos o decisiones poco seguras. <br><mark>Es mejor preguntar a alguien de confianza que fiarse de rumores sin comprobar</mark>. <br>Familia, profesorado o profesionales sanitarios pueden ayudar. <br>¿Qué tipo de información ayuda a decidir con seguridad?",
-      "respuesta": "<mark>Información fiable</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/personal-medico.jpg",
+      "question": "La desinformación puede generar miedos o decisiones poco seguras. <br><mark>Es mejor preguntar a alguien de confianza que fiarse de rumores sin comprobar</mark>. <br>Familia, profesorado o profesionales sanitarios pueden ayudar. <br>¿Qué tipo de información ayuda a decidir con seguridad?",
+      "answer": "<mark>Información fiable</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/personal-medico.jpg",
+        "title": "Medics from across the NHS practise in full Personal Protective Equipment (PPE)",
+        "source": "https://www.flickr.com/photos/14214150@N02/15649499108",
         "alt": "Personal médico dando información fiable a pacientes.",
-        "titulo": "Medics from across the NHS practise in full Personal Protective Equipment (PPE)",
         "autor": "DFID - UK Department for International Development",
-        "fuente": "https://www.flickr.com/photos/14214150@N02/15649499108",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Moverse a diario fortalece el cuerpo y ayuda a sentirse mejor emocionalmente. <br><mark>Es como poner a punto una máquina para que funcione mejor cada día</mark>. <br>No hace falta un deporte exigente para notar sus beneficios. <br>¿Qué hábito saludable fortalece el cuerpo y el ánimo?",
-      "respuesta": "<mark>La actividad física</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/corredora-parque.jpg",
+      "question": "Moverse a diario fortalece el cuerpo y ayuda a sentirse mejor emocionalmente. <br><mark>Es como poner a punto una máquina para que funcione mejor cada día</mark>. <br>No hace falta un deporte exigente para notar sus beneficios. <br>¿Qué hábito saludable fortalece el cuerpo y el ánimo?",
+      "answer": "<mark>La actividad física</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/corredora-parque.jpg",
+        "title": "Jogger in Kapiolani Park",
+        "source": "https://www.flickr.com/photos/14913305@N00/7285055264",
         "alt": "Una persona corriendo en un parque, haciendo ejercicio.",
-        "titulo": "Jogger in Kapiolani Park",
         "autor": "Chris Hunkeler",
-        "fuente": "https://www.flickr.com/photos/14913305@N00/7285055264",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <br><mark>Es como recargar una batería que se ha ido gastando durante el día</mark>. <br>Dormir mal afecta al ánimo, la memoria y la concentración. <br>¿Qué hábito recarga el cuerpo y la mente cada noche?",
-      "respuesta": "<mark>Dormir suficiente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/dormir-descanso.jpg",
+      "question": "El sueño ayuda al cuerpo y a la mente a recuperarse cada día. <br><mark>Es como recargar una batería que se ha ido gastando durante el día</mark>. <br>Dormir mal afecta al ánimo, la memoria y la concentración. <br>¿Qué hábito recarga el cuerpo y la mente cada noche?",
+      "answer": "<mark>Dormir suficiente</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/dormir-descanso.jpg",
+        "title": "sleep.",
+        "source": "https://www.flickr.com/photos/80355002@N00/23669945",
         "alt": "Una persona durmiendo",
-        "titulo": "sleep.",
         "autor": ".through my eyes.",
-        "fuente": "https://www.flickr.com/photos/80355002@N00/23669945",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un problema de salud se relaciona con la forma de comer y de verse a uno mismo. <br>No es solo cuestión de comida: <mark>afecta también a las emociones y a la autoestima</mark>. <br>Detectarlo a tiempo facilita la recuperación. <br>¿Cómo se llama este problema de salud?",
-      "respuesta": "<mark>Trastorno de la conducta alimentaria</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/plato-equilibrado.jpg",
+      "question": "Un problema de salud se relaciona con la forma de comer y de verse a uno mismo. <br>No es solo cuestión de comida: <mark>afecta también a las emociones y a la autoestima</mark>. <br>Detectarlo a tiempo facilita la recuperación. <br>¿Cómo se llama este problema de salud?",
+      "answer": "<mark>Trastorno de la conducta alimentaria</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/plato-equilibrado.jpg",
+        "title": "20111025-FNS-RBN-2046",
+        "source": "https://www.flickr.com/photos/41284017@N08/6283058918",
         "alt": "Un plato de comida equilibrada y saludable.",
-        "titulo": "20111025-FNS-RBN-2046",
         "autor": "USDAgov",
-        "fuente": "https://www.flickr.com/photos/41284017@N08/6283058918",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Una necesidad fuerte y difícil de controlar hace repetir una conducta o consumir algo. <br><mark>Es como quedar atrapado en un bucle que cuesta mucho romper por uno mismo</mark>. <br>Puede afectar a sustancias o a comportamientos, como el uso excesivo del móvil. <br>¿Cómo se llama esta necesidad difícil de controlar?",
-      "respuesta": "<mark>Adicción</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/videojuego-mando.jpg",
+      "question": "Una necesidad fuerte y difícil de controlar hace repetir una conducta o consumir algo. <br><mark>Es como quedar atrapado en un bucle que cuesta mucho romper por uno mismo</mark>. <br>Puede afectar a sustancias o a comportamientos, como el uso excesivo del móvil. <br>¿Cómo se llama esta necesidad difícil de controlar?",
+      "answer": "<mark>Adicción</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/videojuego-mando.jpg",
+        "title": "Savage Wii Boxing Match",
+        "source": "https://www.flickr.com/photos/52226279@N00/2290223478",
         "alt": "Una persona jugando con un mando de videoconsola.",
-        "titulo": "Savage Wii Boxing Match",
         "autor": "Sherif Salama",
-        "fuente": "https://www.flickr.com/photos/52226279@N00/2290223478",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Comer bien, dormir suficiente y moverse ayudan también a sentirse mejor por dentro</mark>. <br>El cuerpo y las emociones están más conectados de lo que parece a simple vista. <br>Cuidar el cuerpo influye directamente en el estado de ánimo. <br>¿Qué cuidan juntos los buenos hábitos saludables?",
-      "respuesta": "<mark>Cuerpo y mente</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_3_biologia-geologia_5/bienestar-transformacion.jpg",
+      "question": "<mark>Comer bien, dormir suficiente y moverse ayudan también a sentirse mejor por dentro</mark>. <br>El cuerpo y las emociones están más conectados de lo que parece a simple vista. <br>Cuidar el cuerpo influye directamente en el estado de ánimo. <br>¿Qué cuidan juntos los buenos hábitos saludables?",
+      "answer": "<mark>Cuerpo y mente</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_3_biologia-geologia_5/bienestar-transformacion.jpg",
+        "title": "Personal Transformation",
+        "source": "https://www.flickr.com/photos/59255972@N00/3019883317",
         "alt": "Una persona en un momento de bienestar y calma personal.",
-        "titulo": "Personal Transformation",
         "autor": "GroggyFroggy",
-        "fuente": "https://www.flickr.com/photos/59255972@N00/3019883317",
         "licencia": "CC BY-SA 2.0"
       }
     }

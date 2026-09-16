@@ -9,7 +9,8 @@
 [![Sitio estático](https://img.shields.io/badge/build-ninguno-informational.svg)](#-caracter%C3%ADsticas)
 [![PWA](https://img.shields.io/badge/PWA-instalable-5A0FC8.svg)](manifest.json)
 [![i18n](https://img.shields.io/badge/i18n-es%20%7C%20en-yellow.svg)](#-documentaci%C3%B3n-del-proyecto-biling%C3%BCe)
-[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/ci.yml)
+[![CI](https://img.shields.io/badge/CI-node%20scripts%2Fcheck.js-blue.svg)](.github/workflows/validate.yml)
+[![Pacto del colaborador](https://img.shields.io/badge/Pacto%20del%20colaborador-2.1-4baaaa.svg)](CODE_OF_CONDUCT.es.md)
 
 Una app de tarjetas de memoria (flashcards) para practicar con
 **aprendizaje significativo**: cada tarjeta explica un concepto con
@@ -103,6 +104,7 @@ Toda la documentación del proyecto vive en la carpeta `doc/`:
 | Documento | Para quién |
 |---|---|
 | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) | Familias, terapeutas y desarrolladores que quieran contribuir |
+| [`CODE_OF_CONDUCT.es.md`](CODE_OF_CONDUCT.es.md) | Pacto del colaborador (Contributor Covenant 2.1) |
 | `CLAUDE.md` | Agentes IA: reglas obligatorias y estado del proyecto |
 | [`CLOUDFLARE.md`](CLOUDFLARE.md) | Guía canónica de despliegue en Cloudflare Workers para la suite (Memofun + Apptonomia + Calculia, Okeymoney, Sinonimia, Teclatlon) |
 | Historial del proyecto | En `git log`; no se mantiene una hoja de ruta externa |
@@ -147,7 +149,7 @@ de Node. Comprueba sintaxis JS, paridad ES/EN, integridad de
 `sw.js` / `manifest.json` / `decks/manifest.json`, y aplica la regla
 de cero menciones en la UI (ver `CLAUDE.md`). Es el único paso de
 "test" y corre en cada push y PR vía
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml).
+[`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 
 Si tocas cualquier archivo cacheado por `sw.js`, sube el `VERSION`
 en `sw.js` y ejecuta también:
@@ -200,6 +202,15 @@ Memofun publica **dos** licencias, una por tipo de activo:
 
 ---
 
+## 🤝 Contribuir
+
+Issues y pull requests son bienvenidos. Ver [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md)
+para el flujo de trabajo (y [`CONTRIBUTING.md`](CONTRIBUTING.md) para la versión en inglés).
+Todas las personas participantes deben seguir
+[`CODE_OF_CONDUCT.es.md`](CODE_OF_CONDUCT.es.md).
+
+---
+
 ## 🧹 Mantenimiento
 
 Este repo no tiene 
@@ -229,67 +240,6 @@ requisitos de lectura fácil.
 La biblioteca `decks/curriculum/` se construye a partir del
 currículo español de la Comunidad de Madrid y del English National
 Curriculum (DfE) y las rutas vocacionales Entry Level / BTEC Level 2.
-
----
-
-## 🇬🇧 Cómo ayudar — construyendo la versión en inglés
-
-La interfaz, los documentos y las reglas son bilingües (español por
-defecto, espejo en inglés). **El contenido de las barajas y la
-biblioteca curricular detrás, sin embargo, son específicos por
-idioma**: la carpeta `decks/` y [`doc/curriculum/`](doc/curriculum/)
-están poblados para español (Comunidad de Madrid) pero el currículo
-en inglés está **parcialmente construido y necesita manos**. Aún
-**no hay ficheros JSON de barajas en inglés** — esta sección es la
-invitación abierta a escribirlos. Si puedes ayudar con cualquiera de
-las siguientes tareas, un issue o un PR son bienvenidos — consulta
-[`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) para el flujo, y el
-[README del currículo en inglés](doc/curriculum/en/README.md) para
-las lagunas exactas.
-
-Maneras concretas de ayudar:
-
-- **Elige un temario en inglés y pide su baraja.** El punto de
-  entrada más simple: abre cualquier fichero bajo
-  [`doc/curriculum/en/`](doc/curriculum/en/) (p. ej.
-  `key-stage-2/3/english-literature.md`) y pide al agente de IA de
-  programación "genera la baraja para este temario". El agente lee
-  el fichero, escribe `decks/<slug>.json` y añade la entrada a
-  `decks/manifest.json`. Tú lo revisas contra el checklist de la
-  [guía interna en inglés](doc/en/internal-creating-decks-guide.md)
-  §4 antes de publicarlo.
-- **Autoría o revisión de un fichero índice de currículo** bajo
-  [`doc/curriculum/en/`](doc/curriculum/en/) — Key Stage 1–4 (Years
-  1–11) y las rutas vocacionales Entry Level / BTEC Level 2.
-  Formato y frontmatter están descritos en §2 de la misma guía —
-  misma forma que los ficheros en español de
-  [`doc/curriculum/es/`](doc/curriculum/es/).
-- **Nota**: las barajas en inglés de esta carpeta son **solo
-  literatura inglesa** — cuentos, poemas, obras, autores y
-  movimientos. Fonética, ortografía y gramática quedan fuera de
-  alcance a propósito (nuestra audiencia se encuentra con el inglés
-  como segunda lengua, y la literatura viaja mejor que la
-  ortografía). Encaja con el hilo `literatura` de la biblioteca en
-  español.
-- **Revisa un fichero de currículo en inglés** contra el English
-  National Curriculum (DfE) vigente o la especificación GCSE de tu
-  board (AQA, OCR, Edexcel) — incluso una pequeña corrección factual
-  importa.
-- **Traduce cadenas de UI** que hayan derivado entre
-  [`strings.en.js`](strings.en.js) y [`strings.es.js`](strings.es.js)
-  — 
-ode scripts/check.js` ya impone paridad, pero la calidad de
-  la traducción a menudo necesita una segunda pasada humana.
-- **Abre un issue** describiendo una laguna (un año que falta, una
-  materia GCSE que falta, una unidad vocacional que falta) — eso
-  ayuda a otra persona a recogerlo.
-
-No necesitas conocer todo el proyecto para ayudar: cada una de
-estas tareas es una contribución autocontenida con una forma clara
-y un checklist claro. Consulta [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md)
-para el flujo exacto de PR y [`doc/es/spec.md`](doc/es/spec.md)
-para las reglas innegociables que toda contribución debe respetar
-(sin IA en el producto, lectura fácil, sin lenguaje clínico, etc.).
 
 ---
 

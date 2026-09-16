@@ -1,67 +1,67 @@
 {
-  "tema": "Iniciación científica y los seres vivos - 5º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Iniciación científica y los seres vivos - 5º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una idea que crees que va a pasar. <mark>Es como una apuesta educada antes de comprobarlo</mark>. Todavía no sabes si es cierta. ¿Cómo se llama esta idea?",
-      "respuesta": "<mark>Hipótesis</mark>"
+      "question": "Es una idea que crees que va a pasar. <mark>Es como una apuesta educada antes de comprobarlo</mark>. Todavía no sabes si es cierta. ¿Cómo se llama esta idea?",
+      "answer": "<mark>Hipótesis</mark>"
     },
     {
-      "pregunta": "Primero piensas una pregunta y una hipótesis. <mark>Es como seguir una receta para resolver un misterio</mark>. Anotas lo que observas y sacas una conclusión. ¿Cómo se llama a seguir estos pasos?",
-      "respuesta": "<mark>Método científico</mark>"
+      "question": "Primero piensas una pregunta y una hipótesis. <mark>Es como seguir una receta para resolver un misterio</mark>. Anotas lo que observas y sacas una conclusión. ¿Cómo se llama a seguir estos pasos?",
+      "answer": "<mark>Método científico</mark>"
     },
     {
-      "pregunta": "Si cambias varias cosas a la vez, no sabes cuál causó el resultado. <mark>Es como probar una receta cambiando solo un ingrediente</mark>. Todo lo demás se mantiene igual. ¿Cómo se llama lo único que cambias?",
-      "respuesta": "<mark>Variable</mark>"
+      "question": "Si cambias varias cosas a la vez, no sabes cuál causó el resultado. <mark>Es como probar una receta cambiando solo un ingrediente</mark>. Todo lo demás se mantiene igual. ¿Cómo se llama lo único que cambias?",
+      "answer": "<mark>Variable</mark>"
     },
     {
-      "pregunta": "Es la respuesta final, después de mirar los resultados. <mark>Es como cerrar un libro después de leerlo entero</mark>. Aunque falle, también sirve para aprender algo nuevo. ¿Cómo se llama este paso final?",
-      "respuesta": "<mark>Conclusión</mark>"
+      "question": "Es la respuesta final, después de mirar los resultados. <mark>Es como cerrar un libro después de leerlo entero</mark>. Aunque falle, también sirve para aprender algo nuevo. ¿Cómo se llama este paso final?",
+      "answer": "<mark>Conclusión</mark>"
     },
     {
-      "pregunta": "Es tomar del entorno lo necesario para vivir y crecer. <mark>Es como cargar el cuerpo de combustible para funcionar</mark>. Las plantas la toman del sol y la tierra; los animales, comiendo. ¿Cómo se llama esta función vital?",
-      "respuesta": "<mark>Nutrición</mark>"
+      "question": "Es tomar del entorno lo necesario para vivir y crecer. <mark>Es como cargar el cuerpo de combustible para funcionar</mark>. Las plantas la toman del sol y la tierra; los animales, comiendo. ¿Cómo se llama esta función vital?",
+      "answer": "<mark>Nutrición</mark>"
     },
     {
-      "pregunta": "Es cómo un ser vivo capta lo que pasa alrededor y reacciona. <mark>Es como apartar la mano de algo caliente, sin pensarlo</mark>. Los sentidos avisan y el cuerpo responde. ¿Cómo se llama esta función vital?",
-      "respuesta": "<mark>Función de relación</mark>"
+      "question": "Es cómo un ser vivo capta lo que pasa alrededor y reacciona. <mark>Es como apartar la mano de algo caliente, sin pensarlo</mark>. Los sentidos avisan y el cuerpo responde. ¿Cómo se llama esta función vital?",
+      "answer": "<mark>Función de relación</mark>"
     },
     {
-      "pregunta": "Es crear nuevos seres vivos parecidos a sus padres. <mark>Es como pasar el testigo a la siguiente generación</mark>. Sin esta función, una especie desaparecería. ¿Cómo se llama esta función vital?",
-      "respuesta": "<mark>Reproducción</mark>"
+      "question": "Es crear nuevos seres vivos parecidos a sus padres. <mark>Es como pasar el testigo a la siguiente generación</mark>. Sin esta función, una especie desaparecería. ¿Cómo se llama esta función vital?",
+      "answer": "<mark>Reproducción</mark>"
     },
     {
-      "pregunta": "El polen viaja de una flor a otra, llevado por el viento o los insectos. <mark>Una abeja actúa como cartero, sin darse cuenta</mark>. Ese polen permite formar una semilla. ¿Cómo se llama este viaje del polen?",
-      "respuesta": "<mark>Polinización</mark>"
+      "question": "El polen viaja de una flor a otra, llevado por el viento o los insectos. <mark>Una abeja actúa como cartero, sin darse cuenta</mark>. Ese polen permite formar una semilla. ¿Cómo se llama este viaje del polen?",
+      "answer": "<mark>Polinización</mark>"
     },
     {
-      "pregunta": "Nace después de la flor y protege la semilla dentro. <mark>Es como un estuche blando que guarda un tesoro</mark>. Muchos animales lo comen y esparcen la semilla lejos. ¿Cómo se llama esta parte de la planta?",
-      "respuesta": "<mark>Fruto</mark>"
+      "question": "Nace después de la flor y protege la semilla dentro. <mark>Es como un estuche blando que guarda un tesoro</mark>. Muchos animales lo comen y esparcen la semilla lejos. ¿Cómo se llama esta parte de la planta?",
+      "answer": "<mark>Fruto</mark>"
     },
     {
-      "pregunta": "Necesita agua, una temperatura adecuada y a veces luz. <mark>Es como despertar de un sueño largo</mark>. Primero sale una raíz y luego un tallo. ¿Cómo se llama este proceso?",
-      "respuesta": "<mark>Germinación</mark>"
+      "question": "Necesita agua, una temperatura adecuada y a veces luz. <mark>Es como despertar de un sueño largo</mark>. Primero sale una raíz y luego un tallo. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Germinación</mark>"
     },
     {
-      "pregunta": "Los helechos y los musgos no tienen flores ni semillas. <mark>Se reproducen con algo tan diminuto como una mota de polvo</mark>. El viento lo lleva a otro lugar para crecer allí. ¿Cómo se llama esta semilla diminuta?",
-      "respuesta": "<mark>Espora</mark>"
+      "question": "Los helechos y los musgos no tienen flores ni semillas. <mark>Se reproducen con algo tan diminuto como una mota de polvo</mark>. El viento lo lleva a otro lugar para crecer allí. ¿Cómo se llama esta semilla diminuta?",
+      "answer": "<mark>Espora</mark>"
     },
     {
-      "pregunta": "Nace de un huevo, fuera del cuerpo de la madre. <mark>Es como una casa de cáscara que guarda al bebé mientras crece</mark>. Aves, peces y reptiles suelen nacer así. ¿Cómo se llama este tipo de animal?",
-      "respuesta": "<mark>Ovíparo</mark>"
+      "question": "Nace de un huevo, fuera del cuerpo de la madre. <mark>Es como una casa de cáscara que guarda al bebé mientras crece</mark>. Aves, peces y reptiles suelen nacer así. ¿Cómo se llama este tipo de animal?",
+      "answer": "<mark>Ovíparo</mark>"
     },
     {
-      "pregunta": "Se desarrolla dentro del cuerpo de la madre y nace ya formado, <mark>como pasa con los perros o las personas</mark>. No necesita un huevo con cáscara. ¿Cómo se llama este tipo de animal?",
-      "respuesta": "<mark>Vivíparo</mark>"
+      "question": "Se desarrolla dentro del cuerpo de la madre y nace ya formado, <mark>como pasa con los perros o las personas</mark>. No necesita un huevo con cáscara. ¿Cómo se llama este tipo de animal?",
+      "answer": "<mark>Vivíparo</mark>"
     },
     {
-      "pregunta": "Empieza siendo una oruga y termina siendo una mariposa con alas. <mark>Es como si un juguete se deshiciera y volviera a montarse distinto</mark>. Dentro de la crisálida, el cuerpo se transforma casi por completo. ¿Cómo se llama este gran cambio de forma?",
-      "respuesta": "<mark>Metamorfosis</mark>"
+      "question": "Empieza siendo una oruga y termina siendo una mariposa con alas. <mark>Es como si un juguete se deshiciera y volviera a montarse distinto</mark>. Dentro de la crisálida, el cuerpo se transforma casi por completo. ¿Cómo se llama este gran cambio de forma?",
+      "answer": "<mark>Metamorfosis</mark>"
     },
     {
-      "pregunta": "Uno nace de un huevo puesto fuera del cuerpo. <mark>El otro lleva a su cría dentro, como en una mochila escondida</mark>, hasta que nace ya desarrollada. Una gallina pone huevos; una vaca no. ¿Cuál de los dos es la vaca?",
-      "respuesta": "<mark>Vivíparo</mark>"
+      "question": "Uno nace de un huevo puesto fuera del cuerpo. <mark>El otro lleva a su cría dentro, como en una mochila escondida</mark>, hasta que nace ya desarrollada. Una gallina pone huevos; una vaca no. ¿Cuál de los dos es la vaca?",
+      "answer": "<mark>Vivíparo</mark>"
     }
   ]
 }

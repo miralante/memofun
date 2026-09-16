@@ -1,221 +1,221 @@
 {
-  "tema": "Sociedad, igualdad y derechos en el mundo contemporáneo - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Sociedad, igualdad y derechos en el mundo contemporáneo - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Generar, compartir y usar información es hoy una actividad central. <mark>Es como si el conocimiento circulara tan rápido como el agua por una tubería</mark>. Internet y los móviles han acelerado muchísimo ese flujo. ¿Cómo se llama este tipo de sociedad?",
-      "respuesta": "<mark>Sociedad de la información</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/fibra-optica.jpg",
+      "question": "Generar, compartir y usar información es hoy una actividad central. <mark>Es como si el conocimiento circulara tan rápido como el agua por una tubería</mark>. Internet y los móviles han acelerado muchísimo ese flujo. ¿Cómo se llama este tipo de sociedad?",
+      "answer": "<mark>Sociedad de la información</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/fibra-optica.jpg",
+        "title": "Fiber Optic cable upgrade",
+        "source": "https://www.flickr.com/photos/31442459@N00/3280259568",
         "alt": "Un técnico revisando un cable de fibra óptica",
-        "titulo": "Fiber Optic cable upgrade",
         "autor": "Wesley Fryer",
-        "fuente": "https://www.flickr.com/photos/31442459@N00/3280259568",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es la difusión de datos falsos o engañosos, a veces de forma intencionada. <mark>Es como un rumor que se multiplica antes de que nadie pueda comprobarlo</mark>. Las redes sociales facilitan que se propague muy rápido. ¿Cómo se llama esto?",
-      "respuesta": "<mark>Desinformación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/titular-noticia.jpg",
+      "question": "Es la difusión de datos falsos o engañosos, a veces de forma intencionada. <mark>Es como un rumor que se multiplica antes de que nadie pueda comprobarlo</mark>. Las redes sociales facilitan que se propague muy rápido. ¿Cómo se llama esto?",
+      "answer": "<mark>Desinformación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/titular-noticia.jpg",
+        "title": "Headline News",
+        "source": "https://www.flickr.com/photos/84617037@N00/46997527",
         "alt": "Un titular de periódico en primer plano",
-        "titulo": "Headline News",
         "autor": "Clearly Ambiguous",
-        "fuente": "https://www.flickr.com/photos/84617037@N00/46997527",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la enorme cantidad de datos que se genera y analiza hoy en día. <mark>Es como intentar leer una biblioteca entera cada segundo, con ayuda de máquinas</mark>. ¿Cómo se llama este fenómeno?",
-      "respuesta": "<mark>Big Data</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/sala-servidores.jpg",
+      "question": "Es la enorme cantidad de datos que se genera y analiza hoy en día. <mark>Es como intentar leer una biblioteca entera cada segundo, con ayuda de máquinas</mark>. ¿Cómo se llama este fenómeno?",
+      "answer": "<mark>Big Data</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/sala-servidores.jpg",
+        "title": "Awaiting servers",
+        "source": "https://www.flickr.com/photos/45778851@N00/3025911233",
         "alt": "Una sala llena de servidores informáticos",
-        "titulo": "Awaiting servers",
         "autor": "bugeaters",
-        "fuente": "https://www.flickr.com/photos/45778851@N00/3025911233",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La actividad humana afecta hoy al planeta a una escala nunca vista antes. <mark>Es como si una sola especie hubiera aprendido a modificar todo el paisaje del planeta</mark>. Eso genera tanto oportunidades como graves riesgos. ¿De qué se habla tanto hoy, por este motivo?",
-      "respuesta": "<mark>Sostenibilidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/deforestacion.jpg",
+      "question": "La actividad humana afecta hoy al planeta a una escala nunca vista antes. <mark>Es como si una sola especie hubiera aprendido a modificar todo el paisaje del planeta</mark>. Eso genera tanto oportunidades como graves riesgos. ¿De qué se habla tanto hoy, por este motivo?",
+      "answer": "<mark>Sostenibilidad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/deforestacion.jpg",
+        "title": "Acres of deforestation",
+        "source": "https://www.flickr.com/photos/60179301@N00/70561962",
         "alt": "Una zona de bosque talada, vista desde arriba",
-        "titulo": "Acres of deforestation",
         "autor": "Ben Sutherland",
-        "fuente": "https://www.flickr.com/photos/60179301@N00/70561962",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Anticiparse a un riesgo permite proteger vidas y reducir daños. <mark>Es como llevar paraguas antes de que empiece a llover, no después</mark>. Sistemas de alerta y planes de emergencia salvan muchas vidas cada año. ¿Qué palabra describe el acto de anticiparse a un riesgo así?",
-      "respuesta": "<mark>Prevención</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/senal-inundacion.jpg",
+      "question": "Anticiparse a un riesgo permite proteger vidas y reducir daños. <mark>Es como llevar paraguas antes de que empiece a llover, no después</mark>. Sistemas de alerta y planes de emergencia salvan muchas vidas cada año. ¿Qué palabra describe el acto de anticiparse a un riesgo así?",
+      "answer": "<mark>Prevención</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/senal-inundacion.jpg",
+        "title": "Flood Warning Sign",
+        "source": "https://www.flickr.com/photos/89165847@N00/52758207826",
         "alt": "Una señal de aviso de inundación",
-        "titulo": "Flood Warning Sign",
         "autor": "mikecogh",
-        "fuente": "https://www.flickr.com/photos/89165847@N00/52758207826",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es planificar el uso del suelo pensando también en el futuro del planeta. <mark>Es como organizar una casa grande cuidando que quede espacio para quien venga después</mark>. Incluye proteger zonas naturales y evitar un crecimiento urbano descontrolado. ¿Cómo se llama esta forma de planificar el territorio?",
-      "respuesta": "<mark>Ordenación sostenible del territorio</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/paneles-solares.jpg",
+      "question": "Es planificar el uso del suelo pensando también en el futuro del planeta. <mark>Es como organizar una casa grande cuidando que quede espacio para quien venga después</mark>. Incluye proteger zonas naturales y evitar un crecimiento urbano descontrolado. ¿Cómo se llama esta forma de planificar el territorio?",
+      "answer": "<mark>Ordenación sostenible del territorio</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/paneles-solares.jpg",
+        "title": "Solar Panels on Rooftops",
+        "source": "https://www.flickr.com/photos/48889057888@N01/2278697458",
         "alt": "Paneles solares instalados en varios tejados",
-        "titulo": "Solar Panels on Rooftops",
         "autor": "Kevin Krejci",
-        "fuente": "https://www.flickr.com/photos/48889057888@N01/2278697458",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Tratan de forma desigual a las personas según su género. <mark>Es como aplicar reglas distintas a personas que deberían tener las mismas oportunidades</mark>. Pueden aparecer en el lenguaje, el trabajo o la vida cotidiana. ¿Cómo se llaman estas actitudes?",
-      "respuesta": "<mark>Actitudes sexistas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/dia-mujer.jpg",
+      "question": "Tratan de forma desigual a las personas según su género. <mark>Es como aplicar reglas distintas a personas que deberían tener las mismas oportunidades</mark>. Pueden aparecer en el lenguaje, el trabajo o la vida cotidiana. ¿Cómo se llaman estas actitudes?",
+      "answer": "<mark>Actitudes sexistas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/dia-mujer.jpg",
+        "title": "国際女性デー記念イベント / International Women's Day",
+        "source": "https://www.flickr.com/photos/21000978@N08/39809371835",
         "alt": "Un evento conmemorativo del Día Internacional de la Mujer",
-        "titulo": "国際女性デー記念イベント / International Women's Day",
         "autor": "Instituto Cervantes de Tokio",
-        "fuente": "https://www.flickr.com/photos/21000978@N08/39809371835",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es una minoría con siglos de presencia y cultura propia en España, que ha sufrido discriminación histórica. <mark>Su música, su lengua y sus tradiciones han influido en la cultura española</mark>. ¿A qué pueblo nos referimos?",
-      "respuesta": "<mark>Pueblo gitano</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/flamenco.jpg",
+      "question": "Es una minoría con siglos de presencia y cultura propia en España, que ha sufrido discriminación histórica. <mark>Su música, su lengua y sus tradiciones han influido en la cultura española</mark>. ¿A qué pueblo nos referimos?",
+      "answer": "<mark>Pueblo gitano</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/flamenco.jpg",
+        "title": "Flamenco Performance Opens Second Half of COD's Hispanic Heritage Month Celebration 2017 31",
+        "source": "https://www.flickr.com/photos/41431665@N07/36686950953",
         "alt": "Una actuación de flamenco con guitarra",
-        "titulo": "Flamenco Performance Opens Second Half of COD's Hispanic Heritage Month Celebration 2017 31",
         "autor": "COD Newsroom",
-        "fuente": "https://www.flickr.com/photos/41431665@N07/36686950953",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Cada medio de comunicación puede mostrar una parte distinta de la misma realidad. <mark>Es como mirar un mismo paisaje desde varias ventanas distintas</mark>. Comparar varias fuentes ayuda a formarse una opinión más completa. ¿Qué palabra describe leer prensa de muchos tipos distintos?",
-      "respuesta": "<mark>Prensa plural</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/quiosco-prensa.jpg",
+      "question": "Cada medio de comunicación puede mostrar una parte distinta de la misma realidad. <mark>Es como mirar un mismo paisaje desde varias ventanas distintas</mark>. Comparar varias fuentes ayuda a formarse una opinión más completa. ¿Qué palabra describe leer prensa de muchos tipos distintos?",
+      "answer": "<mark>Prensa plural</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/quiosco-prensa.jpg",
+        "title": "Newspaper Stand",
+        "source": "https://www.flickr.com/photos/92483809@N08/11527644295",
         "alt": "Un quiosco de prensa con varios periódicos",
-        "titulo": "Newspaper Stand",
         "autor": "Yukiko Matsuoka",
-        "fuente": "https://www.flickr.com/photos/92483809@N08/11527644295",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Son documentos, objetos o testimonios que ayudan a reconstruir el pasado. <mark>Son como pistas que un investigador reúne para resolver un misterio</mark>. Pueden ser cartas, fotografías, leyes o entrevistas a testigos. ¿Cómo se llaman estos elementos?",
-      "respuesta": "<mark>Fuentes históricas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/documentos-antiguos.jpg",
+      "question": "Son documentos, objetos o testimonios que ayudan a reconstruir el pasado. <mark>Son como pistas que un investigador reúne para resolver un misterio</mark>. Pueden ser cartas, fotografías, leyes o entrevistas a testigos. ¿Cómo se llaman estos elementos?",
+      "answer": "<mark>Fuentes históricas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/documentos-antiguos.jpg",
+        "title": "Preserving, sharing rare Medieval texts with IBM Big Data solution",
+        "source": "https://www.flickr.com/photos/97810305@N08/9371407038",
         "alt": "Documentos y textos antiguos conservados en un archivo",
-        "titulo": "Preserving, sharing rare Medieval texts with IBM Big Data solution",
         "autor": "j_cadmus",
-        "fuente": "https://www.flickr.com/photos/97810305@N08/9371407038",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Significa entender el presente teniendo en cuenta lo que ocurrió antes. <mark>Es como leer solo el último capítulo de un libro sin conocer lo anterior</mark>. Ayuda a no repetir errores del pasado. ¿Cómo se llama esta forma de entender el presente?",
-      "respuesta": "<mark>Conciencia histórica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/album-fotos-antiguas.jpg",
+      "question": "Significa entender el presente teniendo en cuenta lo que ocurrió antes. <mark>Es como leer solo el último capítulo de un libro sin conocer lo anterior</mark>. Ayuda a no repetir errores del pasado. ¿Cómo se llama esta forma de entender el presente?",
+      "answer": "<mark>Conciencia histórica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/album-fotos-antiguas.jpg",
+        "title": "Wallace Sharpe. WW1 Photograph Album",
+        "source": "https://www.flickr.com/photos/25022128@N03/13987255810",
         "alt": "Un álbum de fotografías antiguas",
-        "titulo": "Wallace Sharpe. WW1 Photograph Album",
         "autor": "Kiama.Library",
-        "fuente": "https://www.flickr.com/photos/25022128@N03/13987255810",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Consiguieron avances como el derecho al voto y a la igualdad legal para las mujeres</mark>. Fue una lucha larga para conseguir derechos que hoy muchas personas dan por hechos. ¿Cómo se llaman estos movimientos del siglo veinte?",
-      "respuesta": "<mark>Movimientos feministas y sufragistas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/mujeres-igualdad.jpg",
+      "question": "<mark>Consiguieron avances como el derecho al voto y a la igualdad legal para las mujeres</mark>. Fue una lucha larga para conseguir derechos que hoy muchas personas dan por hechos. ¿Cómo se llaman estos movimientos del siglo veinte?",
+      "answer": "<mark>Movimientos feministas y sufragistas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/mujeres-igualdad.jpg",
+        "title": "Congresswoman Pelosi celebrates Women's Equality Day",
+        "source": "https://www.flickr.com/photos/11461909@N06/20412250593",
         "alt": "Una mujer política celebrando el Día de la Igualdad de la Mujer",
-        "titulo": "Congresswoman Pelosi celebrates Women's Equality Day",
         "autor": "Speaker Nancy Pelosi",
-        "fuente": "https://www.flickr.com/photos/11461909@N06/20412250593",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El arte del siglo veinte reflejó los grandes cambios, guerras y transformaciones de su época. <mark>Funciona casi como un espejo que devuelve la imagen de su tiempo</mark>. Uno de esos movimientos fue el pop art. ¿Cuál fue otro de esos movimientos artísticos que rompió con lo anterior?",
-      "respuesta": "<mark>Cubismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/pintura-abstracta.jpg",
+      "question": "El arte del siglo veinte reflejó los grandes cambios, guerras y transformaciones de su época. <mark>Funciona casi como un espejo que devuelve la imagen de su tiempo</mark>. Uno de esos movimientos fue el pop art. ¿Cuál fue otro de esos movimientos artísticos que rompió con lo anterior?",
+      "answer": "<mark>Cubismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/pintura-abstracta.jpg",
+        "title": "Composition with Blue, Red, Yellow, and Black (1922) painting by Piet Mondrian",
+        "source": "https://www.flickr.com/photos/153584064@N07/51911810432",
         "alt": "Una pintura abstracta con formas y colores geométricos",
-        "titulo": "Composition with Blue, Red, Yellow, and Black (1922) painting by Piet Mondrian",
         "autor": "Free Public Domain Illustrations by rawpixel",
-        "fuente": "https://www.flickr.com/photos/153584064@N07/51911810432",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La ciencia y la tecnología actuales implican decidir qué avances son beneficiosos y cuáles pueden causar daño. <mark>Es como tener una herramienta muy potente que hay que aprender a usar con responsabilidad</mark>. La inteligencia artificial o la edición genética plantean dilemas nuevos. ¿Qué dimensión tienen hoy la ciencia y la tecnología, además de la técnica?",
-      "respuesta": "<mark>Dimensión ética</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/cohete-lanzamiento.jpg",
+      "question": "La ciencia y la tecnología actuales implican decidir qué avances son beneficiosos y cuáles pueden causar daño. <mark>Es como tener una herramienta muy potente que hay que aprender a usar con responsabilidad</mark>. La inteligencia artificial o la edición genética plantean dilemas nuevos. ¿Qué dimensión tienen hoy la ciencia y la tecnología, además de la técnica?",
+      "answer": "<mark>Dimensión ética</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/cohete-lanzamiento.jpg",
+        "title": "Liftoff of Delta IV Rocket with Orion capsule",
+        "source": "https://www.flickr.com/photos/123426995@N05/15972547915",
         "alt": "El despegue de un cohete espacial, símbolo de la exploración espacial",
-        "titulo": "Liftoff of Delta IV Rocket with Orion capsule",
         "autor": "AviatorVic",
-        "fuente": "https://www.flickr.com/photos/123426995@N05/15972547915",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Representa el intento de ampliar el conocimiento humano más allá de nuestro planeta. <mark>Es como seguir descubriendo, esta vez mirando hacia arriba en vez de hacia otro continente</mark>. Combina avances tecnológicos con la curiosidad humana de siempre. ¿Cómo se llama esta actividad?",
-      "respuesta": "<mark>Exploración espacial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/astronauta-espacio.jpg",
+      "question": "Representa el intento de ampliar el conocimiento humano más allá de nuestro planeta. <mark>Es como seguir descubriendo, esta vez mirando hacia arriba en vez de hacia otro continente</mark>. Combina avances tecnológicos con la curiosidad humana de siempre. ¿Cómo se llama esta actividad?",
+      "answer": "<mark>Exploración espacial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/astronauta-espacio.jpg",
+        "title": "Astronaut Spacewalk Space Edited 2020",
+        "source": "https://www.flickr.com/photos/188454520@N02/49931432423",
         "alt": "Un astronauta realizando un paseo espacial",
-        "titulo": "Astronaut Spacewalk Space Edited 2020",
         "autor": "chimpwithcan",
-        "fuente": "https://www.flickr.com/photos/188454520@N02/49931432423",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Recoge los derechos básicos que corresponden a toda persona, sin excepción. <mark>Es como una lista mínima de lo que nadie debería poder quitarte nunca</mark>. Se aprobó en 1948, tras el horror de la Segunda Guerra Mundial. ¿Cómo se llama este documento?",
-      "respuesta": "<mark>Declaración Universal de los Derechos Humanos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/firma-documento.jpg",
+      "question": "Recoge los derechos básicos que corresponden a toda persona, sin excepción. <mark>Es como una lista mínima de lo que nadie debería poder quitarte nunca</mark>. Se aprobó en 1948, tras el horror de la Segunda Guerra Mundial. ¿Cómo se llama este documento?",
+      "answer": "<mark>Declaración Universal de los Derechos Humanos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/firma-documento.jpg",
+        "title": "Legal Contract & Signature - Cool Tones",
+        "source": "https://www.flickr.com/photos/143601516@N03/27571322193",
         "alt": "Una persona firmando un documento oficial",
-        "titulo": "Legal Contract & Signature - Cool Tones",
         "autor": "Visual Content",
-        "fuente": "https://www.flickr.com/photos/143601516@N03/27571322193",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Significa comportarse con responsabilidad también en el mundo digital. <mark>Es como aplicar las mismas normas de respeto que en la vida real, pero en internet</mark>. Incluye no difundir bulos ni participar en el acoso en redes. ¿Cómo se llama esta forma de comportarse?",
-      "respuesta": "<mark>Ciudadanía ética digital</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/portatil-internet.jpg",
+      "question": "Significa comportarse con responsabilidad también en el mundo digital. <mark>Es como aplicar las mismas normas de respeto que en la vida real, pero en internet</mark>. Incluye no difundir bulos ni participar en el acoso en redes. ¿Cómo se llama esta forma de comportarse?",
+      "answer": "<mark>Ciudadanía ética digital</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/portatil-internet.jpg",
+        "title": "N800: Micro Laptop for Airplane",
+        "source": "https://www.flickr.com/photos/22764998@N08/2967497897",
         "alt": "Un ordenador portátil abierto y listo para usar",
-        "titulo": "N800: Micro Laptop for Airplane",
         "autor": "Qole Tech",
-        "fuente": "https://www.flickr.com/photos/22764998@N08/2967497897",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es aquello que se transmite sin ser un objeto físico, como tradiciones o lenguas. Se guarda en la memoria y en las costumbres, no en un museo. <mark>Fiestas populares, danzas o recetas tradicionales forman parte de él</mark>. ¿Cómo se llama este tipo de patrimonio?",
-      "respuesta": "<mark>Patrimonio inmaterial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_6/danza-folclorica.jpg",
+      "question": "Es aquello que se transmite sin ser un objeto físico, como tradiciones o lenguas. Se guarda en la memoria y en las costumbres, no en un museo. <mark>Fiestas populares, danzas o recetas tradicionales forman parte de él</mark>. ¿Cómo se llama este tipo de patrimonio?",
+      "answer": "<mark>Patrimonio inmaterial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_6/danza-folclorica.jpg",
+        "title": "Folk Dancing - Portuguese Festival",
+        "source": "https://www.flickr.com/photos/10559879@N00/543996463",
         "alt": "Un grupo bailando una danza tradicional en una fiesta popular",
-        "titulo": "Folk Dancing - Portuguese Festival",
         "autor": "avlxyz",
-        "fuente": "https://www.flickr.com/photos/10559879@N00/543996463",
         "licencia": "CC BY-SA 2.0"
       }
     }

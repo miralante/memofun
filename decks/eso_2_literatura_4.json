@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una idea que parece contradictoria, pero tiene sentido si se piensa bien. Por ejemplo: <mark>'vivo sin vivir en mí'</mark>, de un poema místico. Sorprende al lector y le hace reflexionar. ¿Cómo se llama este recurso literario?",
-      "respuesta": "<mark>Paradoja</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_4/pluma-antigua.jpg",
+      "question": "Es una idea que parece contradictoria, pero tiene sentido si se piensa bien. Por ejemplo: <mark>'vivo sin vivir en mí'</mark>, de un poema místico. Sorprende al lector y le hace reflexionar. ¿Cómo se llama este recurso literario?",
+      "answer": "<mark>Paradoja</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_4/pluma-antigua.jpg",
+        "title": "Quill",
+        "source": "https://www.flickr.com/photos/19862723@N00/213926774",
         "alt": "Una pluma de escritura antigua",
-        "titulo": "Quill",
         "autor": "sure2talk",
-        "fuente": "https://www.flickr.com/photos/19862723@N00/213926774",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es unir dos palabras de significado opuesto en una sola expresión. Por ejemplo: <mark>'un silencio ensordecedor'</mark>. Se usa para expresar algo intenso o difícil de explicar de otra forma. ¿Cómo se llama este recurso literario?",
-      "respuesta": "<mark>Oxímoron</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_4/tintero.jpg",
+      "question": "Es unir dos palabras de significado opuesto en una sola expresión. Por ejemplo: <mark>'un silencio ensordecedor'</mark>. Se usa para expresar algo intenso o difícil de explicar de otra forma. ¿Cómo se llama este recurso literario?",
+      "answer": "<mark>Oxímoron</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_4/tintero.jpg",
+        "title": "Ink well",
+        "source": "https://www.flickr.com/photos/66301564@N00/3450908871",
         "alt": "Un tintero antiguo",
-        "titulo": "Ink well",
         "autor": "~Pawsitive~Candie_N",
-        "fuente": "https://www.flickr.com/photos/66301564@N00/3450908871",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es la poesía que expresa sentimientos, no que cuenta una historia. <mark>Habla de amor, tristeza o alegría desde dentro de quien escribe</mark>. Lo importante es lo que se siente, no lo que ocurre. ¿Cómo se llama este tipo de poesía?",
-      "respuesta": "<mark>Poesía lírica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_4/corazon-manos.jpg",
+      "question": "Es la poesía que expresa sentimientos, no que cuenta una historia. <mark>Habla de amor, tristeza o alegría desde dentro de quien escribe</mark>. Lo importante es lo que se siente, no lo que ocurre. ¿Cómo se llama este tipo de poesía?",
+      "answer": "<mark>Poesía lírica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_4/corazon-manos.jpg",
+        "title": "heart is in my hands",
+        "source": "https://www.flickr.com/photos/56728994@N00/478989869",
         "alt": "Un corazón sostenido entre las manos, símbolo de la poesía lírica",
-        "titulo": "heart is in my hands",
         "autor": "shimelle",
-        "fuente": "https://www.flickr.com/photos/56728994@N00/478989869",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Fue el largo periodo en que los reinos cristianos recuperaron territorio en la península. Duró varios siglos, <mark>con guerras y también convivencia</mark>. Marcó buena parte de la literatura medieval española. ¿Cómo se llama este periodo?",
-      "respuesta": "<mark>La Reconquista</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_4/castillo-medieval.jpg",
+      "question": "Fue el largo periodo en que los reinos cristianos recuperaron territorio en la península. Duró varios siglos, <mark>con guerras y también convivencia</mark>. Marcó buena parte de la literatura medieval española. ¿Cómo se llama este periodo?",
+      "answer": "<mark>La Reconquista</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_4/castillo-medieval.jpg",
+        "title": "3832-Castillo de Coca (Segovia)",
+        "source": "https://www.flickr.com/photos/38035878@N07/14388762206",
         "alt": "Un castillo medieval español",
-        "titulo": "3832-Castillo de Coca (Segovia)",
         "autor": "jl.cernadas",
-        "fuente": "https://www.flickr.com/photos/38035878@N07/14388762206",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Cristianos, musulmanes y judíos</mark> vivieron durante siglos en la misma península. Compartieron ciudades, ideas y también, a veces, literatura. Alfonso X aprovechó ese encuentro para impulsar la traducción de saberes. ¿Cuántas culturas convivían en la España medieval?",
-      "respuesta": "<mark>Tres culturas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_4/alhambra.jpg",
+      "question": "<mark>Cristianos, musulmanes y judíos</mark> vivieron durante siglos en la misma península. Compartieron ciudades, ideas y también, a veces, literatura. Alfonso X aprovechó ese encuentro para impulsar la traducción de saberes. ¿Cuántas culturas convivían en la España medieval?",
+      "answer": "<mark>Tres culturas</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_4/alhambra.jpg",
+        "title": "Alhambra",
+        "source": "https://www.flickr.com/photos/12357841@N02/51868211295",
         "alt": "La Alhambra de Granada",
-        "titulo": "Alhambra",
         "autor": "Me in ME",
-        "fuente": "https://www.flickr.com/photos/12357841@N02/51868211295",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es un tipo de prosa escrita para enseñar algo al lector. Suele usar cuentos breves como excusa para dejar una lección. <mark>'El Conde Lucanor'</mark> es un ejemplo claro. ¿Cómo se llama este tipo de prosa?",
-      "respuesta": "<mark>Prosa didáctica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_literatura_4/manuscrito-medieval.jpg",
+      "question": "Es un tipo de prosa escrita para enseñar algo al lector. Suele usar cuentos breves como excusa para dejar una lección. <mark>'El Conde Lucanor'</mark> es un ejemplo claro. ¿Cómo se llama este tipo de prosa?",
+      "answer": "<mark>Prosa didáctica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_literatura_4/manuscrito-medieval.jpg",
+        "title": "Glossed Gospels, Original binding, Walters Manuscript W.15, Upper board outside",
+        "source": "https://www.flickr.com/photos/39699193@N03/8806308029",
         "alt": "La encuadernación de un libro medieval",
-        "titulo": "Glossed Gospels, Original binding, Walters Manuscript W.15, Upper board outside",
         "autor": "Walters Art Museum Illuminated Manuscripts",
-        "fuente": "https://www.flickr.com/photos/39699193@N03/8806308029",
         "licencia": "CC0 1.0"
       }
     }

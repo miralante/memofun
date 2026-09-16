@@ -1,197 +1,197 @@
 {
-  "tema": "Los totalitarismos y la Segunda Guerra Mundial - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Los totalitarismos y la Segunda Guerra Mundial - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "En 1929, la bolsa de Nueva York se hundió de repente. <mark>Miles de personas perdieron sus ahorros casi de la noche a la mañana</mark>. ¿Cómo se llama este hundimiento repentino de la bolsa?",
-      "respuesta": "<mark>El crack del 29</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/crack-29.jpg",
+      "question": "En 1929, la bolsa de Nueva York se hundió de repente. <mark>Miles de personas perdieron sus ahorros casi de la noche a la mañana</mark>. ¿Cómo se llama este hundimiento repentino de la bolsa?",
+      "answer": "<mark>El crack del 29</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/crack-29.jpg",
+        "title": "NY Stock Exchange Bernard Gotfryd",
+        "source": "https://www.rawpixel.com/image/6308271/stock-exchange",
         "alt": "La bolsa de Nueva York, escenario del crack económico.",
-        "titulo": "NY Stock Exchange Bernard Gotfryd",
         "autor": "libraryofcongress",
-        "fuente": "https://www.rawpixel.com/image/6308271/stock-exchange",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "Tras el crack del 29, llegó una crisis económica mundial muy larga. <mark>Fue como un invierno económico que duró toda una década</mark>. ¿Cómo se llama esta gran crisis económica?",
-      "respuesta": "<mark>La Gran Depresión</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/gran-depresion.jpg",
+      "question": "Tras el crack del 29, llegó una crisis económica mundial muy larga. <mark>Fue como un invierno económico que duró toda una década</mark>. ¿Cómo se llama esta gran crisis económica?",
+      "answer": "<mark>La Gran Depresión</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/gran-depresion.jpg",
+        "title": "Depression Era Bread Line at FDR Memorial (pingnews)",
+        "source": "https://www.flickr.com/photos/39735679@N00/502453511",
         "alt": "Fila de personas esperando para recibir comida en tiempos difíciles.",
-        "titulo": "Depression Era Bread Line at FDR Memorial (pingnews)",
         "autor": "pingnews.com",
-        "fuente": "https://www.flickr.com/photos/39735679@N00/502453511",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Para salir de la Gran Depresión, algunos gobiernos invirtieron mucho dinero público. <mark>Fue como inyectar combustible a un motor parado, para crear empleo</mark>. ¿Cómo se llama ese plan económico de Estados Unidos?",
-      "respuesta": "<mark>El New Deal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/solucionar-crisis.jpg",
+      "question": "Para salir de la Gran Depresión, algunos gobiernos invirtieron mucho dinero público. <mark>Fue como inyectar combustible a un motor parado, para crear empleo</mark>. ¿Cómo se llama ese plan económico de Estados Unidos?",
+      "answer": "<mark>El New Deal</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/solucionar-crisis.jpg",
+        "title": "Hoover Dam at Night",
+        "source": "https://www.flickr.com/photos/75683070@N00/3437289262",
         "alt": "La presa Hoover, una gran obra pública construida para dar empleo.",
-        "titulo": "Hoover Dam at Night",
         "autor": "Ken Lund",
-        "fuente": "https://www.flickr.com/photos/75683070@N00/3437289262",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "El desempleo y la pobreza generaron mucha rabia contra los gobiernos democráticos. <mark>La gente desesperada buscaba líderes que prometieran soluciones rápidas y firmes</mark>. ¿Qué tipo de regímenes crecieron gracias a esa desesperación?",
-      "respuesta": "<mark>Los totalitarismos</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/crisis-totalitarismos.jpg",
+      "question": "El desempleo y la pobreza generaron mucha rabia contra los gobiernos democráticos. <mark>La gente desesperada buscaba líderes que prometieran soluciones rápidas y firmes</mark>. ¿Qué tipo de regímenes crecieron gracias a esa desesperación?",
+      "answer": "<mark>Los totalitarismos</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/crisis-totalitarismos.jpg",
+        "title": "Commodity exchange New York Bernard",
+        "source": "https://www.rawpixel.com/image/6299049/commodity-exchange-new-york",
         "alt": "La lonja de comercio de Nueva York, símbolo de la economía.",
-        "titulo": "Commodity exchange New York Bernard",
         "autor": "libraryofcongress",
-        "fuente": "https://www.rawpixel.com/image/6299049/commodity-exchange-new-york",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "En Italia, un líder llamado Mussolini impuso un Estado muy fuerte. <mark>Solo permitía un único líder, sin ninguna oposición política</mark>. ¿Cómo se llama el régimen que impuso Mussolini?",
-      "respuesta": "<mark>El fascismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/fascismo-italiano.jpg",
+      "question": "En Italia, un líder llamado Mussolini impuso un Estado muy fuerte. <mark>Solo permitía un único líder, sin ninguna oposición política</mark>. ¿Cómo se llama el régimen que impuso Mussolini?",
+      "answer": "<mark>El fascismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/fascismo-italiano.jpg",
+        "title": "Italian Flag",
+        "source": "https://www.flickr.com/photos/44124462494@N01/482815089",
         "alt": "La bandera de Italia.",
-        "titulo": "Italian Flag",
         "autor": "davekellam",
-        "fuente": "https://www.flickr.com/photos/44124462494@N01/482815089",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Desde 1933, Adolf Hitler lideró un régimen en Alemania. <mark>Combinaba un nacionalismo extremo con un odio brutal hacia los judíos</mark>. ¿Cómo se llama el régimen que lideró Hitler?",
-      "respuesta": "<mark>El nazismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/nazi-party-rally-nuremberg.jpg",
+      "question": "Desde 1933, Adolf Hitler lideró un régimen en Alemania. <mark>Combinaba un nacionalismo extremo con un odio brutal hacia los judíos</mark>. ¿Cómo se llama el régimen que lideró Hitler?",
+      "answer": "<mark>El nazismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/nazi-party-rally-nuremberg.jpg",
+        "title": "Nazi Party Rally Nuremberg (NARA)",
+        "source": "https://www.flickr.com/photos/39735679@N00/442011864",
         "alt": "Fotografía histórica de un mitin del partido nazi en Núremberg.",
-        "titulo": "Nazi Party Rally Nuremberg (NARA)",
         "autor": "pingnews.com",
-        "fuente": "https://www.flickr.com/photos/39735679@N00/442011864",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "pregunta": "<mark>El fascismo, el nazismo y el estalinismo concentraban todo el poder en un único líder</mark>. No permitían prensa libre, oposición política ni elecciones reales. ¿Qué rasgo común compartían todos esos regímenes?",
-      "respuesta": "<mark>Ser totalitarios</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/totalitarismos-comun.jpg",
+      "question": "<mark>El fascismo, el nazismo y el estalinismo concentraban todo el poder en un único líder</mark>. No permitían prensa libre, oposición política ni elecciones reales. ¿Qué rasgo común compartían todos esos regímenes?",
+      "answer": "<mark>Ser totalitarios</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/totalitarismos-comun.jpg",
+        "title": "Old microphone 1",
+        "source": "https://www.flickr.com/photos/27418987@N03/3829866972",
         "alt": "Un micrófono antiguo, usado para dar discursos y mensajes.",
-        "titulo": "Old microphone 1",
         "autor": "Sheep purple",
-        "fuente": "https://www.flickr.com/photos/27418987@N03/3829866972",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El resentimiento de la Primera Guerra Mundial nunca se curó del todo. <mark>Los totalitarismos habían crecido con fuerza en Europa</mark>. En 1939, Alemania invadió un país vecino y empezó la guerra. ¿Qué país invadió Alemania para iniciar la Segunda Guerra Mundial?",
-      "respuesta": "<mark>Polonia</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/causas-sgm.png",
+      "question": "El resentimiento de la Primera Guerra Mundial nunca se curó del todo. <mark>Los totalitarismos habían crecido con fuerza en Europa</mark>. En 1939, Alemania invadió un país vecino y empezó la guerra. ¿Qué país invadió Alemania para iniciar la Segunda Guerra Mundial?",
+      "answer": "<mark>Polonia</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/causas-sgm.png",
+        "title": "World map political ISO",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=5688632",
         "alt": "Mapa político del mundo con los países delimitados por fronteras.",
-        "titulo": "World map political ISO",
         "autor": "Egs",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=5688632",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "pregunta": "La Segunda Guerra Mundial se libró casi a la vez en distintas partes del mundo. <mark>Participaron millones de soldados y personas civiles</mark>. ¿Cuáles fueron sus tres escenarios principales?",
-      "respuesta": "<mark>Europa, África y el Pacífico</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/escenarios-sgm.jpg",
+      "question": "La Segunda Guerra Mundial se libró casi a la vez en distintas partes del mundo. <mark>Participaron millones de soldados y personas civiles</mark>. ¿Cuáles fueron sus tres escenarios principales?",
+      "answer": "<mark>Europa, África y el Pacífico</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/escenarios-sgm.jpg",
+        "title": "World Map, Political, 2012, Cahill-Keyes Projection",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=32793394",
         "alt": "Mapa político del mundo mostrando distintos países y territorios.",
-        "titulo": "World Map, Political, 2012, Cahill-Keyes Projection",
         "autor": "Duncan Webb",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=32793394",
         "licencia": "CC BY 1.0"
       }
     },
     {
-      "pregunta": "Durante la Segunda Guerra Mundial, hubo un intento organizado de exterminar a millones de personas. <mark>Se llevó a cabo en campos de concentración y exterminio</mark>. Fueron asesinadas por ser judías o pertenecer a otras minorías. ¿Cómo se llama este crimen sistemático?",
-      "respuesta": "<mark>El Holocausto</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/holocaust-memorial-berlin.jpg",
+      "question": "Durante la Segunda Guerra Mundial, hubo un intento organizado de exterminar a millones de personas. <mark>Se llevó a cabo en campos de concentración y exterminio</mark>. Fueron asesinadas por ser judías o pertenecer a otras minorías. ¿Cómo se llama este crimen sistemático?",
+      "answer": "<mark>El Holocausto</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/holocaust-memorial-berlin.jpg",
+        "title": "Holocaust memorial Berlin",
+        "source": "https://www.flickr.com/photos/21202408@N07/2284331257",
         "alt": "El Memorial del Holocausto en Berlín, en recuerdo de las víctimas.",
-        "titulo": "Holocaust memorial Berlin",
         "autor": "d.i.",
-        "fuente": "https://www.flickr.com/photos/21202408@N07/2284331257",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La Segunda Guerra Mundial mató a decenas de millones de personas. <mark>Europa quedó devastada, como si tuviera que reconstruirse desde los cimientos</mark>. Cambiaron fronteras y surgieron dos grandes potencias mundiales. ¿En qué quedó dividido el mundo durante las décadas siguientes?",
-      "respuesta": "<mark>Dos bloques enfrentados</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/consecuencias-sgm.jpg",
+      "question": "La Segunda Guerra Mundial mató a decenas de millones de personas. <mark>Europa quedó devastada, como si tuviera que reconstruirse desde los cimientos</mark>. Cambiaron fronteras y surgieron dos grandes potencias mundiales. ¿En qué quedó dividido el mundo durante las décadas siguientes?",
+      "answer": "<mark>Dos bloques enfrentados</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/consecuencias-sgm.jpg",
+        "title": "United Nations building",
+        "source": "https://www.flickr.com/photos/27865228@N06/9861197014",
         "alt": "Edificio de la sede de las Naciones Unidas.",
-        "titulo": "United Nations building",
         "autor": "david_shankbone",
-        "fuente": "https://www.flickr.com/photos/27865228@N06/9861197014",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Tras el final de la Segunda Guerra Mundial, en 1945, nació una gran organización internacional. <mark>Su idea era evitar que se repitiera una tragedia como esa guerra</mark>. Hoy reúne a la mayoría de países del mundo. ¿Cómo se llama esa organización que busca mantener la paz?",
-      "respuesta": "<mark>La ONU</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/onu-sede.jpg",
+      "question": "Tras el final de la Segunda Guerra Mundial, en 1945, nació una gran organización internacional. <mark>Su idea era evitar que se repitiera una tragedia como esa guerra</mark>. Hoy reúne a la mayoría de países del mundo. ¿Cómo se llama esa organización que busca mantener la paz?",
+      "answer": "<mark>La ONU</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/onu-sede.jpg",
+        "title": "The United Nations Headquarters",
+        "source": "https://www.flickr.com/photos/16801915@N06/8190419507",
         "alt": "La sede de las Naciones Unidas",
-        "titulo": "The United Nations Headquarters",
         "autor": "Reading Tom",
-        "fuente": "https://www.flickr.com/photos/16801915@N06/8190419507",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El arte de principios del siglo XX reflejaba la angustia de una época de guerras y crisis. <mark>Era como si los propios cuadros gritaran la inquietud de su tiempo</mark>. Surgió un movimiento que rompía con el arte tradicional y mostraba lo irracional. ¿Cómo se llama ese movimiento artístico?",
-      "respuesta": "<mark>El surrealismo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/arte-siglo-xx.jpg",
+      "question": "El arte de principios del siglo XX reflejaba la angustia de una época de guerras y crisis. <mark>Era como si los propios cuadros gritaran la inquietud de su tiempo</mark>. Surgió un movimiento que rompía con el arte tradicional y mostraba lo irracional. ¿Cómo se llama ese movimiento artístico?",
+      "answer": "<mark>El surrealismo</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/arte-siglo-xx.jpg",
+        "title": "Yoshitomo Nara x YNG Installation @ Art Basel Switzerland",
+        "source": "https://www.flickr.com/photos/32628328@N00/3623111190",
         "alt": "Exposición de arte con obras expuestas en una galería.",
-        "titulo": "Yoshitomo Nara x YNG Installation @ Art Basel Switzerland",
         "autor": "paalia",
-        "fuente": "https://www.flickr.com/photos/32628328@N00/3623111190",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Los regímenes totalitarios controlaban lo que la población veía, leía y escuchaba, repitiendo siempre la misma versión de la historia. <mark>Usaban carteles, radio y cine para reforzar esa idea</mark>. ¿Qué arma usaban para mantener el control sobre la sociedad?",
-      "respuesta": "<mark>La propaganda</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/propaganda-arma.jpg",
+      "question": "Los regímenes totalitarios controlaban lo que la población veía, leía y escuchaba, repitiendo siempre la misma versión de la historia. <mark>Usaban carteles, radio y cine para reforzar esa idea</mark>. ¿Qué arma usaban para mantener el control sobre la sociedad?",
+      "answer": "<mark>La propaganda</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/propaganda-arma.jpg",
+        "title": "Vintage Transmission",
+        "source": "https://www.flickr.com/photos/28369035@N05/31446712524",
         "alt": "Una radio antigua, usada para transmitir mensajes a mucha gente.",
-        "titulo": "Vintage Transmission",
         "autor": "DarrenCowley",
-        "fuente": "https://www.flickr.com/photos/28369035@N05/31446712524",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "En una democracia, el pueblo puede votar y cambiar de gobierno. En cambio, <mark>un único líder decidía todo, sin ninguna oposición real</mark>, y las libertades individuales casi desaparecían. ¿Cómo se llama este segundo tipo de régimen político?",
-      "respuesta": "<mark>Régimen totalitario</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/democracia-totalitarismo.jpg",
+      "question": "En una democracia, el pueblo puede votar y cambiar de gobierno. En cambio, <mark>un único líder decidía todo, sin ninguna oposición real</mark>, y las libertades individuales casi desaparecían. ¿Cómo se llama este segundo tipo de régimen político?",
+      "answer": "<mark>Régimen totalitario</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/democracia-totalitarismo.jpg",
+        "title": "Ballot box scanner - London mayor and assembly election 2008",
+        "source": "https://www.flickr.com/photos/25834786@N03/2461779607",
         "alt": "Urna electoral utilizada para depositar los votos.",
-        "titulo": "Ballot box scanner - London mayor and assembly election 2008",
         "autor": "secretlondon123",
-        "fuente": "https://www.flickr.com/photos/25834786@N03/2461779607",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Ningún otro conflicto había afectado a tantos países y personas a la vez, ni causado tantas víctimas. <mark>Sumó además crímenes sistemáticos contra millones de personas civiles</mark>. ¿Qué guerra se considera el conflicto más grave de toda la historia?",
-      "respuesta": "<mark>La Segunda Guerra Mundial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_geografia-historia_2/sgm-mas-grave.jpg",
+      "question": "Ningún otro conflicto había afectado a tantos países y personas a la vez, ni causado tantas víctimas. <mark>Sumó además crímenes sistemáticos contra millones de personas civiles</mark>. ¿Qué guerra se considera el conflicto más grave de toda la historia?",
+      "answer": "<mark>La Segunda Guerra Mundial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_geografia-historia_2/sgm-mas-grave.jpg",
+        "title": "The Peace Dove Sculpture, Hermitage Wharf Riverside Memorial Garden, Wapping - London.",
+        "source": "https://www.flickr.com/photos/54238124@N00/7562261512",
         "alt": "Escultura de una paloma de la paz, símbolo de reconciliación.",
-        "titulo": "The Peace Dove Sculpture, Hermitage Wharf Riverside Memorial Garden, Wapping - London.",
         "autor": "Jim Linwood",
-        "fuente": "https://www.flickr.com/photos/54238124@N00/7562261512",
         "licencia": "CC BY 2.0"
       }
     }

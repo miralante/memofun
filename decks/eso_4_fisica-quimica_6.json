@@ -1,197 +1,197 @@
 {
-  "tema": "El movimiento y las fuerzas - 4º de ESO",
-  "nivel": "avanzado",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "El movimiento y las fuerzas - 4º de ESO",
+  "level": "avanzado",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Un coche va siempre igual, sin frenar ni acelerar</mark>. Su gráfica espacio-tiempo es una línea recta. ¿Cómo se llama este movimiento en línea recta a velocidad constante?",
-      "respuesta": "<mark>Movimiento rectilíneo uniforme</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/mru.jpg",
+      "question": "<mark>Un coche va siempre igual, sin frenar ni acelerar</mark>. Su gráfica espacio-tiempo es una línea recta. ¿Cómo se llama este movimiento en línea recta a velocidad constante?",
+      "answer": "<mark>Movimiento rectilíneo uniforme</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/mru.jpg",
+        "title": "Various vehicles travelling down straight highway",
+        "source": "https://www.flickr.com/photos/10361931@N06/5282664284",
         "alt": "Varios vehículos circulando en línea recta por una autopista.",
-        "titulo": "Various vehicles travelling down straight highway",
         "autor": "Horia Varlan",
-        "fuente": "https://www.flickr.com/photos/10361931@N06/5282664284",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un coche que cada segundo va más rápido tiene este tipo de movimiento. <mark>La caída de un objeto es un ejemplo cotidiano</mark>. ¿Cómo se llama este movimiento en línea recta con velocidad creciente?",
-      "respuesta": "<mark>Movimiento rectilíneo uniformemente acelerado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/mrua.jpg",
+      "question": "Un coche que cada segundo va más rápido tiene este tipo de movimiento. <mark>La caída de un objeto es un ejemplo cotidiano</mark>. ¿Cómo se llama este movimiento en línea recta con velocidad creciente?",
+      "answer": "<mark>Movimiento rectilíneo uniformemente acelerado</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/mrua.jpg",
+        "title": "Screamin Roller Coaster",
+        "source": "https://www.flickr.com/photos/34128007@N04/5616409464",
         "alt": "Montaña rusa acelerando por sus vías.",
-        "titulo": "Screamin Roller Coaster",
         "autor": "Prayitno",
-        "fuente": "https://www.flickr.com/photos/34128007@N04/5616409464",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Las agujas de un reloj siempre giran igual, sin cambiar de rapidez</mark>. La velocidad no cambia de valor, pero sí de dirección. ¿Cómo se llama este movimiento circular a velocidad constante?",
-      "respuesta": "<mark>Movimiento circular uniforme</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/mcu.jpg",
+      "question": "<mark>Las agujas de un reloj siempre giran igual, sin cambiar de rapidez</mark>. La velocidad no cambia de valor, pero sí de dirección. ¿Cómo se llama este movimiento circular a velocidad constante?",
+      "answer": "<mark>Movimiento circular uniforme</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/mcu.jpg",
+        "title": "Ferris Wheel Spin",
+        "source": "https://www.flickr.com/photos/75866236@N04/8685786925",
         "alt": "Noria girando en un parque de atracciones.",
-        "titulo": "Ferris Wheel Spin",
         "autor": "jlstiles24",
-        "fuente": "https://www.flickr.com/photos/75866236@N04/8685786925",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Una flecha indica cuánta fuerza hay y hacia dónde apunta. <mark>Dos fuerzas iguales en dirección distinta producen efectos distintos</mark>. ¿Qué tipo de magnitud es la fuerza, por necesitar dirección?",
-      "respuesta": "<mark>Magnitud vectorial</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/fuerza-vectorial.jpg",
+      "question": "Una flecha indica cuánta fuerza hay y hacia dónde apunta. <mark>Dos fuerzas iguales en dirección distinta producen efectos distintos</mark>. ¿Qué tipo de magnitud es la fuerza, por necesitar dirección?",
+      "answer": "<mark>Magnitud vectorial</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/fuerza-vectorial.jpg",
+        "title": "Winter Weather Vane",
+        "source": "https://www.flickr.com/photos/89165847@N00/14549931225",
         "alt": "Veleta que señala la dirección del viento.",
-        "titulo": "Winter Weather Vane",
         "autor": "mikecogh",
-        "fuente": "https://www.flickr.com/photos/89165847@N00/14549931225",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>El peso, la fuerza normal y la aplicada actúan siempre, aunque no las notemos</mark>. Otra fuerza frena casi todo movimiento por contacto entre superficies. ¿Cómo se llama esta fuerza que frena el movimiento?",
-      "respuesta": "<mark>Rozamiento</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/fuerzas-cotidianas.jpg",
+      "question": "<mark>El peso, la fuerza normal y la aplicada actúan siempre, aunque no las notemos</mark>. Otra fuerza frena casi todo movimiento por contacto entre superficies. ¿Cómo se llama esta fuerza que frena el movimiento?",
+      "answer": "<mark>Rozamiento</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/fuerzas-cotidianas.jpg",
+        "title": "Working at the H.E.B.",
+        "source": "https://www.flickr.com/photos/78272611@N00/2232855205",
         "alt": "Persona empujando un carrito de la compra.",
-        "titulo": "Working at the H.E.B.",
         "autor": "qnr",
-        "fuente": "https://www.flickr.com/photos/78272611@N00/2232855205",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Sumar varias flechas en direcciones distintas da una flecha final</mark>. Se suman todas las fuerzas que actúan sobre un cuerpo. Si el resultado es cero, el objeto no cambia su movimiento. ¿Cómo se llama esta suma de fuerzas?",
-      "respuesta": "<mark>Fuerza resultante</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/fuerza-resultante.jpg",
+      "question": "<mark>Sumar varias flechas en direcciones distintas da una flecha final</mark>. Se suman todas las fuerzas que actúan sobre un cuerpo. Si el resultado es cero, el objeto no cambia su movimiento. ¿Cómo se llama esta suma de fuerzas?",
+      "answer": "<mark>Fuerza resultante</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/fuerza-resultante.jpg",
+        "title": "West Georgia & Granville Street",
+        "source": "https://www.flickr.com/photos/37804160@N00/494460559",
         "alt": "Persona empujando un carrito por la calle.",
-        "titulo": "West Georgia & Granville Street",
         "autor": "SqueakyMarmot",
-        "fuente": "https://www.flickr.com/photos/37804160@N00/494460559",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es la ley de Gravitación Universal actuando en la Tierra</mark>. Por eso una persona pesaría distinto en la Luna. ¿Cómo se llama la fuerza con que la Tierra atrae un cuerpo?",
-      "respuesta": "<mark>Peso</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/gravitacion-peso.jpg",
+      "question": "<mark>Es la ley de Gravitación Universal actuando en la Tierra</mark>. Por eso una persona pesaría distinto en la Luna. ¿Cómo se llama la fuerza con que la Tierra atrae un cuerpo?",
+      "answer": "<mark>Peso</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/gravitacion-peso.jpg",
+        "title": "Newton left long time ago",
+        "source": "https://www.flickr.com/photos/66795748@N00/1573332373",
         "alt": "Una manzana sobre la hierba, recordando la gravedad y a Newton.",
-        "titulo": "Newton left long time ago",
         "autor": "r-z",
-        "fuente": "https://www.flickr.com/photos/66795748@N00/1573332373",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "El peso es la fuerza de la gravedad sobre un cuerpo, y cambia según el lugar. Otra magnitud es la cantidad de materia de ese cuerpo. <mark>Es igual en la Tierra y en la Luna</mark>. ¿Cómo se llama esta segunda magnitud?",
-      "respuesta": "<mark>Masa</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/masa-peso.jpg",
+      "question": "El peso es la fuerza de la gravedad sobre un cuerpo, y cambia según el lugar. Otra magnitud es la cantidad de materia de ese cuerpo. <mark>Es igual en la Tierra y en la Luna</mark>. ¿Cómo se llama esta segunda magnitud?",
+      "answer": "<mark>Masa</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/masa-peso.jpg",
+        "title": "Bathroom Scale",
+        "source": "https://www.flickr.com/photos/8729683@N02/4517197776",
         "alt": "Báscula de baño usada para pesarse.",
-        "titulo": "Bathroom Scale",
         "autor": "-Paul H-",
-        "fuente": "https://www.flickr.com/photos/8729683@N02/4517197776",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como repartir la misma fuerza en más o menos espacio</mark>. Cuanto menos espacio, más presión. Se mide en unidades como el pascal. ¿Cómo se llama esta fuerza aplicada sobre una superficie, dividida entre su área?",
-      "respuesta": "<mark>Presión</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/presion.jpg",
+      "question": "<mark>Es como repartir la misma fuerza en más o menos espacio</mark>. Cuanto menos espacio, más presión. Se mide en unidades como el pascal. ¿Cómo se llama esta fuerza aplicada sobre una superficie, dividida entre su área?",
+      "answer": "<mark>Presión</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/presion.jpg",
+        "title": "Gauge",
+        "source": "https://www.flickr.com/photos/10775233@N00/2288182",
         "alt": "Manómetro con una aguja que marca una medida.",
-        "titulo": "Gauge",
         "autor": "Hey Paul",
-        "fuente": "https://www.flickr.com/photos/10775233@N00/2288182",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como notar más peso en los oídos cuanto más te sumerges en una piscina profunda</mark>. Los submarinos deben resistir presiones muy altas a grandes profundidades. ¿Cómo se llama esta presión que ejerce un líquido en reposo por su propio peso?",
-      "respuesta": "<mark>Presión hidrostática</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/presion-hidrostatica.jpg",
+      "question": "<mark>Es como notar más peso en los oídos cuanto más te sumerges en una piscina profunda</mark>. Los submarinos deben resistir presiones muy altas a grandes profundidades. ¿Cómo se llama esta presión que ejerce un líquido en reposo por su propio peso?",
+      "answer": "<mark>Presión hidrostática</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/presion-hidrostatica.jpg",
+        "title": "KADANA DAM WATER RESERVOIR AT KADANA PANCHMAHALS",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=57946976",
         "alt": "Embalse de agua retenido por una presa.",
-        "titulo": "KADANA DAM WATER RESERVOIR AT KADANA PANCHMAHALS",
         "autor": "Dilipkumar Machhar",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=57946976",
         "licencia": "CC BY 3.0"
       }
     },
     {
-      "pregunta": "<mark>Es como si todo el peso del aire empujara constantemente hacia abajo</mark>. Disminuye a medida que se sube en altitud. ¿Cómo se llama esta presión que ejerce el aire sobre la superficie terrestre?",
-      "respuesta": "<mark>Presión atmosférica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/presion-atmosferica.jpg",
+      "question": "<mark>Es como si todo el peso del aire empujara constantemente hacia abajo</mark>. Disminuye a medida que se sube en altitud. ¿Cómo se llama esta presión que ejerce el aire sobre la superficie terrestre?",
+      "answer": "<mark>Presión atmosférica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/presion-atmosferica.jpg",
+        "title": "Barometer weather Instrument",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=139270974",
         "alt": "Barómetro, instrumento que mide la presión del aire.",
-        "titulo": "Barometer weather Instrument",
         "autor": "Lawrence756",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=139270974",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "pregunta": "Todo cuerpo sumergido en un fluido recibe un empuje hacia arriba, igual al peso del fluido que desplaza. <mark>Es la base de cómo funcionan los barcos y los submarinos</mark>. ¿Cómo se llama este principio?",
-      "respuesta": "<mark>Principio de Arquímedes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/arquimedes.jpg",
+      "question": "Todo cuerpo sumergido en un fluido recibe un empuje hacia arriba, igual al peso del fluido que desplaza. <mark>Es la base de cómo funcionan los barcos y los submarinos</mark>. ¿Cómo se llama este principio?",
+      "answer": "<mark>Principio de Arquímedes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/arquimedes.jpg",
+        "title": "Grand Canyon National Park: Lees Ferry Launch Ramp 2062",
+        "source": "https://www.flickr.com/photos/50693818@N08/6176485963",
         "alt": "Barcas flotando sobre el agua en una rampa de lanzamiento.",
-        "titulo": "Grand Canyon National Park: Lees Ferry Launch Ramp 2062",
         "autor": "Grand Canyon NPS",
-        "fuente": "https://www.flickr.com/photos/50693818@N08/6176485963",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Es como apretar un globo de agua: la presión se reparte por todo su interior</mark>. Se aplica en los frenos hidráulicos de un coche. ¿Cómo se llama este principio?",
-      "respuesta": "<mark>Principio de Pascal</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/pascal.jpg",
+      "question": "<mark>Es como apretar un globo de agua: la presión se reparte por todo su interior</mark>. Se aplica en los frenos hidráulicos de un coche. ¿Cómo se llama este principio?",
+      "answer": "<mark>Principio de Pascal</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/pascal.jpg",
+        "title": "Battery hydraulic presses machine removing",
+        "source": "https://www.rawpixel.com/image/12148101/image-person-art-vintage",
         "alt": "Prensa hidráulica, una máquina que aplica presión con líquidos.",
-        "titulo": "Battery hydraulic presses machine removing",
         "autor": "libraryofcongress",
-        "fuente": "https://www.rawpixel.com/image/12148101/image-person-art-vintage",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "<mark>Aplicar las reglas de los fluidos a escala planetaria explica el viento, la presión y la temperatura del aire</mark>. Estas leyes ayudan a predecir el tiempo. ¿Cómo se llama la ciencia que estudia la atmósfera para predecir el tiempo?",
-      "respuesta": "<mark>Meteorología</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/atmosfera.jpg",
+      "question": "<mark>Aplicar las reglas de los fluidos a escala planetaria explica el viento, la presión y la temperatura del aire</mark>. Estas leyes ayudan a predecir el tiempo. ¿Cómo se llama la ciencia que estudia la atmósfera para predecir el tiempo?",
+      "answer": "<mark>Meteorología</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/atmosfera.jpg",
+        "title": "Clouds from above the sky",
+        "source": "https://www.flickr.com/photos/39404234@N00/81045752",
         "alt": "Nubes vistas desde el cielo.",
-        "titulo": "Clouds from above the sky",
         "autor": "Axel Rouvin",
-        "fuente": "https://www.flickr.com/photos/39404234@N00/81045752",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un barco de acero flota porque desplaza mucha agua, a pesar de ser pesado</mark>. Si el empuje del agua supera al peso, el objeto flota. ¿Qué principio explica por qué puede flotar un objeto pesado?",
-      "respuesta": "<mark>Principio de Arquímedes</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/barco-belem.jpg",
+      "question": "<mark>Un barco de acero flota porque desplaza mucha agua, a pesar de ser pesado</mark>. Si el empuje del agua supera al peso, el objeto flota. ¿Qué principio explica por qué puede flotar un objeto pesado?",
+      "answer": "<mark>Principio de Arquímedes</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/barco-belem.jpg",
+        "title": "O Belem na Coruña",
+        "source": "https://www.flickr.com/photos/38035878@N07/14648887810",
         "alt": "Un gran barco flotando en el agua, ejemplo del principio de Arquímedes",
-        "titulo": "O Belem na Coruña",
         "autor": "jl.cernadas",
-        "fuente": "https://www.flickr.com/photos/38035878@N07/14648887810",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Las fuerzas producen movimiento, y la presión es fuerza repartida sobre una superficie. <mark>Son como piezas de un mismo mecanismo, muy relacionadas entre sí</mark>. Explican desde un cohete hasta un submarino. ¿Cómo se llama la ciencia que estudia todo esto junto?",
-      "respuesta": "<mark>Física</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_4_fisica-quimica_6/movimiento-fuerzas-presion.jpg",
+      "question": "Las fuerzas producen movimiento, y la presión es fuerza repartida sobre una superficie. <mark>Son como piezas de un mismo mecanismo, muy relacionadas entre sí</mark>. Explican desde un cohete hasta un submarino. ¿Cómo se llama la ciencia que estudia todo esto junto?",
+      "answer": "<mark>Física</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_4_fisica-quimica_6/movimiento-fuerzas-presion.jpg",
+        "title": "Project 365 #200: 190713 The Finishing Line",
+        "source": "https://www.flickr.com/photos/23408922@N07/9320845849",
         "alt": "Corredores cruzando la línea de meta en una carrera.",
-        "titulo": "Project 365 #200: 190713 The Finishing Line",
         "autor": "comedy_nose",
-        "fuente": "https://www.flickr.com/photos/23408922@N07/9320845849",
         "licencia": "CC PDM 1.0"
       }
     }

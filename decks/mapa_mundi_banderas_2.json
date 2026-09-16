@@ -1,79 +1,79 @@
 {
-  "tema": "Banderas del Mundo (2)",
-  "nivel": "principiante",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Banderas del Mundo (2)",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es azul con una cruz amarilla desplazada hacia un lado. Esa cruz, la <i>cruz nórdica</i>, <mark>aparece en las banderas de países vecinos, como una familia con el mismo apellido</mark>. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Suecia</mark>"
+      "question": "Es azul con una cruz amarilla desplazada hacia un lado. Esa cruz, la <i>cruz nórdica</i>, <mark>aparece en las banderas de países vecinos, como una familia con el mismo apellido</mark>. ¿De qué país es esta bandera?",
+      "answer": "<mark>Suecia</mark>"
     },
     {
-      "pregunta": "Es roja con una cruz azul bordeada de blanco. <mark>Tiene la misma cruz nórdica que Suecia o Dinamarca, como primos que comparten un símbolo</mark>. Ondea en un país con muchos fiordos. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Noruega</mark>"
+      "question": "Es roja con una cruz azul bordeada de blanco. <mark>Tiene la misma cruz nórdica que Suecia o Dinamarca, como primos que comparten un símbolo</mark>. Ondea en un país con muchos fiordos. ¿De qué país es esta bandera?",
+      "answer": "<mark>Noruega</mark>"
     },
     {
-      "pregunta": "Es roja con una cruz blanca desplazada hacia un lado. <mark>Es una de las banderas más antiguas del mundo todavía en uso, como una reliquia familiar</mark>. Según la leyenda, cayó del cielo durante una batalla. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Dinamarca</mark>"
+      "question": "Es roja con una cruz blanca desplazada hacia un lado. <mark>Es una de las banderas más antiguas del mundo todavía en uso, como una reliquia familiar</mark>. Según la leyenda, cayó del cielo durante una batalla. ¿De qué país es esta bandera?",
+      "answer": "<mark>Dinamarca</mark>"
     },
     {
-      "pregunta": "Es blanca con una cruz azul desplazada hacia un lado. El blanco es la nieve; el azul, los miles de lagos. <mark>Tiene más de 180.000 lagos, como un paisaje resumido en dos colores</mark>. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Finlandia</mark>"
+      "question": "Es blanca con una cruz azul desplazada hacia un lado. El blanco es la nieve; el azul, los miles de lagos. <mark>Tiene más de 180.000 lagos, como un paisaje resumido en dos colores</mark>. ¿De qué país es esta bandera?",
+      "answer": "<mark>Finlandia</mark>"
     },
     {
-      "pregunta": "Tiene dos franjas horizontales: blanca arriba y roja abajo. <mark>Es tan sencilla que parece partida justo por la mitad, como una tableta de chocolate</mark>. El blanco es la paz; el rojo, la sangre derramada en su historia. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Polonia</mark>"
+      "question": "Tiene dos franjas horizontales: blanca arriba y roja abajo. <mark>Es tan sencilla que parece partida justo por la mitad, como una tableta de chocolate</mark>. El blanco es la paz; el rojo, la sangre derramada en su historia. ¿De qué país es esta bandera?",
+      "answer": "<mark>Polonia</mark>"
     },
     {
-      "pregunta": "Es verde con una frase religiosa escrita en árabe y una espada debajo. <mark>Por respeto a ese texto sagrado, nunca se pone a media asta ni del revés</mark>. El verde es muy importante en el islam. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Arabia Saudí</mark>"
+      "question": "Es verde con una frase religiosa escrita en árabe y una espada debajo. <mark>Por respeto a ese texto sagrado, nunca se pone a media asta ni del revés</mark>. El verde es muy importante en el islam. ¿De qué país es esta bandera?",
+      "answer": "<mark>Arabia Saudí</mark>"
     },
     {
-      "pregunta": "Tiene tres franjas horizontales, verde, blanca y negra, con una franja roja vertical. <mark>Cada color representa a uno de los siete territorios que forman el país</mark>. Se formó como país en 1971. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Emiratos Árabes Unidos</mark>"
+      "question": "Tiene tres franjas horizontales, verde, blanca y negra, con una franja roja vertical. <mark>Cada color representa a uno de los siete territorios que forman el país</mark>. Se formó como país en 1971. ¿De qué país es esta bandera?",
+      "answer": "<mark>Emiratos Árabes Unidos</mark>"
     },
     {
-      "pregunta": "Es roja con una media luna blanca y una estrella. <mark>Ese símbolo se usa en varios países de mayoría musulmana, como una firma compartida</mark>. Es un país que une Europa y Asia. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Turquía</mark>"
+      "question": "Es roja con una media luna blanca y una estrella. <mark>Ese símbolo se usa en varios países de mayoría musulmana, como una firma compartida</mark>. Es un país que une Europa y Asia. ¿De qué país es esta bandera?",
+      "answer": "<mark>Turquía</mark>"
     },
     {
-      "pregunta": "Tiene cinco franjas horizontales: roja, blanca, azul, blanca y roja. <mark>La franja azul del centro, más ancha, representa a la monarquía, como el corazón de un sándwich</mark>. El rojo es la nación; el blanco, la religión budista. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Tailandia</mark>"
+      "question": "Tiene cinco franjas horizontales: roja, blanca, azul, blanca y roja. <mark>La franja azul del centro, más ancha, representa a la monarquía, como el corazón de un sándwich</mark>. El rojo es la nación; el blanco, la religión budista. ¿De qué país es esta bandera?",
+      "answer": "<mark>Tailandia</mark>"
     },
     {
-      "pregunta": "Es roja con una gran estrella amarilla de cinco puntas. <mark>Cada punta representa a un grupo: obreros, campesinos, soldados, jóvenes e intelectuales</mark>. El rojo recuerda la lucha por la independencia. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Vietnam</mark>"
+      "question": "Es roja con una gran estrella amarilla de cinco puntas. <mark>Cada punta representa a un grupo: obreros, campesinos, soldados, jóvenes e intelectuales</mark>. El rojo recuerda la lucha por la independencia. ¿De qué país es esta bandera?",
+      "answer": "<mark>Vietnam</mark>"
     },
     {
-      "pregunta": "Tiene dos franjas horizontales: roja arriba y blanca abajo. <mark>Es casi idéntica a la bandera de Mónaco, aunque son países muy distintos y alejados</mark>. Este país está formado por más de 17.000 islas. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Indonesia</mark>"
+      "question": "Tiene dos franjas horizontales: roja arriba y blanca abajo. <mark>Es casi idéntica a la bandera de Mónaco, aunque son países muy distintos y alejados</mark>. Este país está formado por más de 17.000 islas. ¿De qué país es esta bandera?",
+      "answer": "<mark>Indonesia</mark>"
     },
     {
-      "pregunta": "Es blanca con un círculo rojo y azul en el centro, rodeado de líneas negras. <mark>Ese círculo, el <i>taegeuk</i>, representa el equilibrio entre fuerzas opuestas, como el día y la noche</mark>. Las líneas representan el cielo, la tierra, el agua y el fuego. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Corea del Sur</mark>"
+      "question": "Es blanca con un círculo rojo y azul en el centro, rodeado de líneas negras. <mark>Ese círculo, el <i>taegeuk</i>, representa el equilibrio entre fuerzas opuestas, como el día y la noche</mark>. Las líneas representan el cielo, la tierra, el agua y el fuego. ¿De qué país es esta bandera?",
+      "answer": "<mark>Corea del Sur</mark>"
     },
     {
-      "pregunta": "Es roja con una estrella verde de cinco puntas en el centro. <mark>Esa estrella se llama Sello de Salomón y simboliza la sabiduría</mark>. Está en el norte de África, frente a España. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Marruecos</mark>"
+      "question": "Es roja con una estrella verde de cinco puntas en el centro. <mark>Esa estrella se llama Sello de Salomón y simboliza la sabiduría</mark>. Está en el norte de África, frente a España. ¿De qué país es esta bandera?",
+      "answer": "<mark>Marruecos</mark>"
     },
     {
-      "pregunta": "Tiene tres franjas verticales: verde, blanca y verde. El verde son los bosques y campos; el blanco, la paz. <mark>Es el país más poblado de África</mark>. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Nigeria</mark>"
+      "question": "Tiene tres franjas verticales: verde, blanca y verde. El verde son los bosques y campos; el blanco, la paz. <mark>Es el país más poblado de África</mark>. ¿De qué país es esta bandera?",
+      "answer": "<mark>Nigeria</mark>"
     },
     {
-      "pregunta": "Tiene franjas negras, rojas, verdes y blancas, con un escudo tradicional con dos lanzas. <mark>Ese escudo simboliza la defensa de la libertad, como el emblema de un guerrero</mark>. Este país es famoso por sus grandes safaris. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Kenia</mark>"
+      "question": "Tiene franjas negras, rojas, verdes y blancas, con un escudo tradicional con dos lanzas. <mark>Ese escudo simboliza la defensa de la libertad, como el emblema de un guerrero</mark>. Este país es famoso por sus grandes safaris. ¿De qué país es esta bandera?",
+      "answer": "<mark>Kenia</mark>"
     },
     {
-      "pregunta": "Tiene tres franjas verticales: roja, blanca y roja. <mark>Según la leyenda, sus colores se inspiraron en unos flamencos rojos y blancos</mark>. La versión oficial lleva además un escudo en el centro. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Perú</mark>"
+      "question": "Tiene tres franjas verticales: roja, blanca y roja. <mark>Según la leyenda, sus colores se inspiraron en unos flamencos rojos y blancos</mark>. La versión oficial lleva además un escudo en el centro. ¿De qué país es esta bandera?",
+      "answer": "<mark>Perú</mark>"
     },
     {
-      "pregunta": "Tiene una franja blanca, una roja y un cuadro azul con una estrella blanca. <mark>Se la conoce como la Estrella Solitaria, como una única luz guiando en la noche</mark>. Se parece a la bandera de Texas, aunque nacieron por separado. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Chile</mark>"
+      "question": "Tiene una franja blanca, una roja y un cuadro azul con una estrella blanca. <mark>Se la conoce como la Estrella Solitaria, como una única luz guiando en la noche</mark>. Se parece a la bandera de Texas, aunque nacieron por separado. ¿De qué país es esta bandera?",
+      "answer": "<mark>Chile</mark>"
     },
     {
-      "pregunta": "Es azul con la bandera del Reino Unido en una esquina y cuatro estrellas rojas. <mark>Esas estrellas forman la Cruz del Sur, la misma constelación de la bandera de Australia</mark>. Por eso a veces se confunden ambas banderas. ¿De qué país es esta bandera?",
-      "respuesta": "<mark>Nueva Zelanda</mark>"
+      "question": "Es azul con la bandera del Reino Unido en una esquina y cuatro estrellas rojas. <mark>Esas estrellas forman la Cruz del Sur, la misma constelación de la bandera de Australia</mark>. Por eso a veces se confunden ambas banderas. ¿De qué país es esta bandera?",
+      "answer": "<mark>Nueva Zelanda</mark>"
     }
   ]
 }

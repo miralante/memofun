@@ -1,77 +1,77 @@
 {
-  "tema": "Literatura - 6º de Primaria",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "Literatura - 6º de Primaria",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "Es una historia larga, escrita en capítulos, <mark>como un viaje largo con muchas paradas</mark>. Da tiempo a conocer a fondo a los personajes. ¿Cómo se llama este tipo de historia?",
-      "respuesta": "<mark>Novela</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura/novela.jpg",
+      "question": "Es una historia larga, escrita en capítulos, <mark>como un viaje largo con muchas paradas</mark>. Da tiempo a conocer a fondo a los personajes. ¿Cómo se llama este tipo de historia?",
+      "answer": "<mark>Novela</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura/novela.jpg",
+        "title": "Stack of Books",
+        "source": "https://www.flickr.com/photos/12508217@N08/8395557674",
         "alt": "Una torre alta de libros antiguos de tapa dura, apilados uno encima de otro",
-        "titulo": "Stack of Books",
         "autor": "Sam Howzit",
-        "fuente": "https://www.flickr.com/photos/12508217@N08/8395557674",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es cada parte en la que se divide una novela, <mark>como cortar un pastel grande en porciones</mark>. Así el lector puede parar y seguir después. ¿Cómo se llama cada una de estas partes?",
-      "respuesta": "<mark>Capítulo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura/capitulo.jpg",
+      "question": "Es cada parte en la que se divide una novela, <mark>como cortar un pastel grande en porciones</mark>. Así el lector puede parar y seguir después. ¿Cómo se llama cada una de estas partes?",
+      "answer": "<mark>Capítulo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura/capitulo.jpg",
+        "title": "open book pages",
+        "source": "https://www.flickr.com/photos/11598937@N08/4927865092",
         "alt": "Un libro abierto por dentro, mostrando varias páginas con texto escrito",
-        "titulo": "open book pages",
         "autor": "Jo Naylor",
-        "fuente": "https://www.flickr.com/photos/11598937@N08/4927865092",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Una novela tiene espacio para contar más de una historia a la vez, <mark>como hilos de colores que se entrelazan</mark>. Eso da profundidad a los personajes. ¿Qué tiene una novela que un cuento corto no tiene espacio para tener?",
-      "respuesta": "<mark>Varias tramas</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura/pila-libros.jpg",
+      "question": "Una novela tiene espacio para contar más de una historia a la vez, <mark>como hilos de colores que se entrelazan</mark>. Eso da profundidad a los personajes. ¿Qué tiene una novela que un cuento corto no tiene espacio para tener?",
+      "answer": "<mark>Varias tramas</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura/pila-libros.jpg",
+        "title": "Books",
+        "source": "https://www.flickr.com/photos/36768983@N06/4474421855",
         "alt": "Una pila de libros, como las tramas de una novela",
-        "titulo": "Books",
         "autor": "shutterhacks",
-        "fuente": "https://www.flickr.com/photos/36768983@N06/4474421855",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Es una historia contada con dibujos y texto juntos, <mark>como una película hecha de dibujos fijos</mark>. Las imágenes muestran lo que las palabras no necesitan explicar. ¿Cómo se llama este tipo de historia?",
-      "respuesta": "<mark>Cómic</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura/comic.jpg",
+      "question": "Es una historia contada con dibujos y texto juntos, <mark>como una película hecha de dibujos fijos</mark>. Las imágenes muestran lo que las palabras no necesitan explicar. ¿Cómo se llama este tipo de historia?",
+      "answer": "<mark>Cómic</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura/comic.jpg",
+        "title": "Comic book superheros",
+        "source": "https://www.flickr.com/photos/8058853@N06/7153401117",
         "alt": "Portada de un cómic con varios superhéroes dibujados, volando y luchando juntos",
-        "titulo": "Comic book superheros",
         "autor": "Helgi Halldórsson/Freddi",
-        "fuente": "https://www.flickr.com/photos/8058853@N06/7153401117",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Es cada recuadro con un dibujo, dentro de un cómic. Congela un momento de la historia, <mark>parecido a un fotograma de película</mark>. ¿Cómo se llama cada uno de estos recuadros?",
-      "respuesta": "<mark>Viñeta</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura/vineta.jpg",
+      "question": "Es cada recuadro con un dibujo, dentro de un cómic. Congela un momento de la historia, <mark>parecido a un fotograma de película</mark>. ¿Cómo se llama cada uno de estos recuadros?",
+      "answer": "<mark>Viñeta</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura/vineta.jpg",
+        "title": "PA Comic Strip Panel [photoshops]",
+        "source": "https://www.flickr.com/photos/49622526@N00/2812588045",
         "alt": "Boceto de una tira cómica con tres viñetas seguidas, cada una con personajes dibujados",
-        "titulo": "PA Comic Strip Panel [photoshops]",
         "autor": "Clint Tseng",
-        "fuente": "https://www.flickr.com/photos/49622526@N00/2812588045",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "Esto muestra lo que dice o piensa un personaje de cómic. Su forma cambia según si se habla, se grita o se piensa: <mark>una nube significa que es un pensamiento</mark>. ¿Cómo se llama esto en un cómic?",
-      "respuesta": "<mark>El bocadillo</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/primaria_6_literatura/bocadillo.jpg",
+      "question": "Esto muestra lo que dice o piensa un personaje de cómic. Su forma cambia según si se habla, se grita o se piensa: <mark>una nube significa que es un pensamiento</mark>. ¿Cómo se llama esto en un cómic?",
+      "answer": "<mark>El bocadillo</mark>",
+      "image": {
+        "file": "assets/img/decks/primaria_6_literatura/bocadillo.jpg",
+        "title": "'What did you make today?' 'Mistakes'",
+        "source": "https://www.flickr.com/photos/11317612@N03/15083417861",
         "alt": "Dos bocadillos de cómic con texto dentro, sobre un fondo amarillo",
-        "titulo": "'What did you make today?' 'Mistakes'",
         "autor": "tophrrrr",
-        "fuente": "https://www.flickr.com/photos/11317612@N03/15083417861",
         "licencia": "CC BY-SA 2.0"
       }
     }

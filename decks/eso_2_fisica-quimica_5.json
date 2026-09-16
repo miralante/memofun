@@ -1,149 +1,149 @@
 {
-  "tema": "La energía y el calor - 2º de ESO",
-  "nivel": "intermedio",
-  "idioma": "es",
-  "tarjetas": [
+  "topic": "La energía y el calor - 2º de ESO",
+  "level": "intermedio",
+  "locale": "es",
+  "cards": [
     {
-      "pregunta": "<mark>Es como el 'combustible' invisible que hace que las cosas pasen.</mark> Puede transformarse de un tipo a otro, pero nunca se crea de la nada. Sin ella, nada podría moverse ni funcionar. ¿Cómo se llama esta capacidad de producir cambios?",
-      "respuesta": "<mark>Energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/bombilla-luz.jpg",
+      "question": "<mark>Es como el 'combustible' invisible que hace que las cosas pasen.</mark> Puede transformarse de un tipo a otro, pero nunca se crea de la nada. Sin ella, nada podría moverse ni funcionar. ¿Cómo se llama esta capacidad de producir cambios?",
+      "answer": "<mark>Energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/bombilla-luz.jpg",
+        "title": "Glowing light bulb with rays of light",
+        "source": "https://www.flickr.com/photos/58883622@N02/9758986651",
         "alt": "Una bombilla encendida emitiendo luz y energía.",
-        "titulo": "Glowing light bulb with rays of light",
         "autor": "Markus Grossalber",
-        "fuente": "https://www.flickr.com/photos/58883622@N02/9758986651",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "La energía puede aparecer como cinética, potencial, térmica, eléctrica o química, entre otras. <mark>Es como distintos disfraces que puede llevar la misma energía según la situación.</mark> Todas ellas pueden transformarse unas en otras. ¿Cómo se llaman estas distintas formas de la energía?",
-      "respuesta": "<mark>Tipos de energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/presa-hidroelectrica.jpg",
+      "question": "La energía puede aparecer como cinética, potencial, térmica, eléctrica o química, entre otras. <mark>Es como distintos disfraces que puede llevar la misma energía según la situación.</mark> Todas ellas pueden transformarse unas en otras. ¿Cómo se llaman estas distintas formas de la energía?",
+      "answer": "<mark>Tipos de energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/presa-hidroelectrica.jpg",
+        "title": "dam",
+        "source": "https://www.flickr.com/photos/48851531@N00/54426859",
         "alt": "Una presa que genera energía a partir del agua.",
-        "titulo": "dam",
         "autor": "ogwen",
-        "fuente": "https://www.flickr.com/photos/48851531@N00/54426859",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Pasar dinero de un bolsillo a otro no cambia la cantidad total.</mark> Del mismo modo, la energía eléctrica se transforma en luz y calor dentro de una bombilla, sin que nada desaparezca. ¿Cómo se llama esta idea, de que la energía no se crea ni se destruye?",
-      "respuesta": "<mark>Principio de conservación de la energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/pendulo-oscilando.jpg",
+      "question": "<mark>Pasar dinero de un bolsillo a otro no cambia la cantidad total.</mark> Del mismo modo, la energía eléctrica se transforma en luz y calor dentro de una bombilla, sin que nada desaparezca. ¿Cómo se llama esta idea, de que la energía no se crea ni se destruye?",
+      "answer": "<mark>Principio de conservación de la energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/pendulo-oscilando.jpg",
+        "title": "Pendulum Swinging",
+        "source": "https://www.flickr.com/photos/17157315@N00/3004210553",
         "alt": "Un pendulo en pleno movimiento, oscilando de un lado a otro.",
-        "titulo": "Pendulum Swinging",
         "autor": "thekirbster",
-        "fuente": "https://www.flickr.com/photos/17157315@N00/3004210553",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Está relacionada con lo rápido que se mueven las partículas de un cuerpo. <mark>Se mide con un termómetro, en grados.</mark> Cuanto más rápido se mueven, mayor es su valor. ¿Cómo se llama esta medida de lo caliente o frío que está algo?",
-      "respuesta": "<mark>Temperatura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/termometro-gijon.jpg",
+      "question": "Está relacionada con lo rápido que se mueven las partículas de un cuerpo. <mark>Se mide con un termómetro, en grados.</mark> Cuanto más rápido se mueven, mayor es su valor. ¿Cómo se llama esta medida de lo caliente o frío que está algo?",
+      "answer": "<mark>Temperatura</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/termometro-gijon.jpg",
+        "title": "Termometro gigante en la playa de Gijon",
+        "source": "https://www.flickr.com/photos/33083165@N02/3524350227",
         "alt": "Un termómetro gigante, para medir la temperatura",
-        "titulo": "Termometro gigante en la playa de Gijon",
         "autor": "ReservasdeCoches.com",
-        "fuente": "https://www.flickr.com/photos/33083165@N02/3524350227",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Medir la misma distancia en metros o en pies cambia el número, no la realidad.</mark> Algo parecido ocurre con la escala Celsius, la Fahrenheit y la Kelvin. Cada una tiene un punto de referencia distinto para el cero. ¿Cómo se llaman estos sistemas para medir la temperatura?",
-      "respuesta": "<mark>Escalas de temperatura</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/termometro-escala.jpg",
+      "question": "<mark>Medir la misma distancia en metros o en pies cambia el número, no la realidad.</mark> Algo parecido ocurre con la escala Celsius, la Fahrenheit y la Kelvin. Cada una tiene un punto de referencia distinto para el cero. ¿Cómo se llaman estos sistemas para medir la temperatura?",
+      "answer": "<mark>Escalas de temperatura</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/termometro-escala.jpg",
+        "title": "-12 = 10",
+        "source": "https://www.flickr.com/photos/47757737@N00/6830699975",
         "alt": "Un termómetro mostrando una escala de temperatura.",
-        "titulo": "-12 = 10",
         "autor": "OliBac",
-        "fuente": "https://www.flickr.com/photos/47757737@N00/6830699975",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>El agua fluye siempre de un vaso más lleno a uno más vacío.</mark> Del mismo modo, algo pasa siempre del cuerpo más caliente al más frío. ¿Cómo se llama esta energía que se transfiere entre dos cuerpos a distinta temperatura?",
-      "respuesta": "<mark>Calor</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/manos-calentando.jpg",
+      "question": "<mark>El agua fluye siempre de un vaso más lleno a uno más vacío.</mark> Del mismo modo, algo pasa siempre del cuerpo más caliente al más frío. ¿Cómo se llama esta energía que se transfiere entre dos cuerpos a distinta temperatura?",
+      "answer": "<mark>Calor</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/manos-calentando.jpg",
+        "title": "Warming",
+        "source": "https://www.flickr.com/photos/41594113@N03/5549124166",
         "alt": "Unas manos calentándose cerca de una fuente de calor.",
-        "titulo": "Warming",
         "autor": "Roaring Jellyfish",
-        "fuente": "https://www.flickr.com/photos/41594113@N03/5549124166",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "<mark>Confundir 'lo lleno que está un vaso' con 'cuánta agua se ha vertido' es fácil, pero son cosas distintas.</mark> Un objeto pequeño puede tener alta temperatura, pero poca de esto. ¿Cómo se llama la energía que se transfiere, distinta de la temperatura?",
-      "respuesta": "<mark>Energía calorífica</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/dia-caluroso-verano.jpg",
+      "question": "<mark>Confundir 'lo lleno que está un vaso' con 'cuánta agua se ha vertido' es fácil, pero son cosas distintas.</mark> Un objeto pequeño puede tener alta temperatura, pero poca de esto. ¿Cómo se llama la energía que se transfiere, distinta de la temperatura?",
+      "answer": "<mark>Energía calorífica</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/dia-caluroso-verano.jpg",
+        "title": "Heart of a hot summer day",
+        "source": "https://www.flickr.com/photos/85654079@N08/27099185184",
         "alt": "Un día de mucho calor en verano.",
-        "titulo": "Heart of a hot summer day",
         "autor": "limberlostt",
-        "fuente": "https://www.flickr.com/photos/85654079@N08/27099185184",
         "licencia": "CC0 1.0"
       }
     },
     {
-      "pregunta": "El calor puede hacer que el hielo se derrita o que los metales se dilaten. <mark>Es como si las sustancias cambiaran de forma o de estado por dentro.</mark> ¿Cómo se llama el paso de un estado a otro, como de sólido a líquido, causado por el calor?",
-      "respuesta": "<mark>Cambio de estado</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/productos-forjados.jpg",
+      "question": "El calor puede hacer que el hielo se derrita o que los metales se dilaten. <mark>Es como si las sustancias cambiaran de forma o de estado por dentro.</mark> ¿Cómo se llama el paso de un estado a otro, como de sólido a líquido, causado por el calor?",
+      "answer": "<mark>Cambio de estado</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/productos-forjados.jpg",
+        "title": "Forged Products",
+        "source": "https://www.flickr.com/photos/157635012@N07/32906187487",
         "alt": "Piezas de metal forjadas con calor.",
-        "titulo": "Forged Products",
         "autor": "Artem Beliaikin",
-        "fuente": "https://www.flickr.com/photos/157635012@N07/32906187487",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "pregunta": "Un material calentado necesita más espacio, porque sus partículas se mueven más rápido. <mark>Se tiene en cuenta al construir puentes o vías de tren, para no dañarlos.</mark> ¿Cómo se llama este aumento de tamaño al calentarse?",
-      "respuesta": "<mark>Dilatación</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/forja-hacha.jpg",
+      "question": "Un material calentado necesita más espacio, porque sus partículas se mueven más rápido. <mark>Se tiene en cuenta al construir puentes o vías de tren, para no dañarlos.</mark> ¿Cómo se llama este aumento de tamaño al calentarse?",
+      "answer": "<mark>Dilatación</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/forja-hacha.jpg",
+        "title": "Axe Forging",
+        "source": "https://www.flickr.com/photos/185077236@N04/52285173692",
         "alt": "Un metal al rojo vivo cambiando de forma al calentarse.",
-        "titulo": "Axe Forging",
         "autor": "alusch",
-        "fuente": "https://www.flickr.com/photos/185077236@N04/52285173692",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "La materia contiene cargas que pueden moverse y generar energía. <mark>Un rayo durante una tormenta muestra ese movimiento de forma espectacular.</mark> Esa energía también se puede obtener del viento o del sol. ¿Cómo se llama esta forma de energía ligada a las cargas eléctricas?",
-      "respuesta": "<mark>Electricidad</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/rayo-tormenta.jpg",
+      "question": "La materia contiene cargas que pueden moverse y generar energía. <mark>Un rayo durante una tormenta muestra ese movimiento de forma espectacular.</mark> Esa energía también se puede obtener del viento o del sol. ¿Cómo se llama esta forma de energía ligada a las cargas eléctricas?",
+      "answer": "<mark>Electricidad</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/rayo-tormenta.jpg",
+        "title": "Wide Lightning",
+        "source": "https://www.flickr.com/photos/48503330@N08/5911053551",
         "alt": "Un rayo eléctrico durante una tormenta.",
-        "titulo": "Wide Lightning",
         "autor": "Kurayba",
-        "fuente": "https://www.flickr.com/photos/48503330@N08/5911053551",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Un río eléctrico que fluye siempre hacia el mismo lado es una buena forma de imaginarla.</mark> Las pilas y las baterías la generan. ¿Cómo se llama este flujo de carga que se mueve siempre en la misma dirección?",
-      "respuesta": "<mark>Corriente eléctrica continua</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/energia-eolica.jpg",
+      "question": "<mark>Un río eléctrico que fluye siempre hacia el mismo lado es una buena forma de imaginarla.</mark> Las pilas y las baterías la generan. ¿Cómo se llama este flujo de carga que se mueve siempre en la misma dirección?",
+      "answer": "<mark>Corriente eléctrica continua</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/energia-eolica.jpg",
+        "title": "Energía eólica / wind energy",
+        "source": "https://www.flickr.com/photos/131069746@N03/16442040832",
         "alt": "Molinos de viento generando energía eólica",
-        "titulo": "Energía eólica / wind energy",
         "autor": "www.energiasrenovablesinfo.com",
-        "fuente": "https://www.flickr.com/photos/131069746@N03/16442040832",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "pregunta": "<mark>Encender una luz o simplemente caminar consume esto.</mark> Cualquier movimiento o cambio la necesita. Reconocer su presencia ayuda a entender mejor el mundo. ¿Qué está presente en casi todo lo que ocurre?",
-      "respuesta": "<mark>Energía</mark>",
-      "imagen": {
-        "archivo": "assets/img/decks/eso_2_fisica-quimica_5/pilas-baterias.jpg",
+      "question": "<mark>Encender una luz o simplemente caminar consume esto.</mark> Cualquier movimiento o cambio la necesita. Reconocer su presencia ayuda a entender mejor el mundo. ¿Qué está presente en casi todo lo que ocurre?",
+      "answer": "<mark>Energía</mark>",
+      "image": {
+        "file": "assets/img/decks/eso_2_fisica-quimica_5/pilas-baterias.jpg",
+        "title": "Reciclar Pilas Baterías",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=72659529",
         "alt": "Pilas y baterías, que generan corriente eléctrica continua",
-        "titulo": "Reciclar Pilas Baterías",
         "autor": "Julio Cesar Velasquez M",
-        "fuente": "https://commons.wikimedia.org/w/index.php?curid=72659529",
         "licencia": "CC BY 3.0"
       }
     }
