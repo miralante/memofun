@@ -1,0 +1,12 @@
+{
+  "name": "memofun-ui-tests",
+  "private": true,
+  "scripts": {
+    "test:ui": "node scripts/ui-smoke.js",
+    "test:sw": "node scripts/smoke-sw.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "playwright": "^1.63.0"
+  }
+}
