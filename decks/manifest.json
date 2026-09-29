@@ -1045,7 +1045,7 @@
     "nivel": "principiante",
     "curso": "1º de FP Básica Servicios Administrativos",
     "asignatura": "Itinerario Personal para la Empleabilidad",
-    "cantidad": 20,
+    "cantidad": 21,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales.json",
     "icono": "🧪"
   },
@@ -1058,6 +1058,16 @@
     "cantidad": 16,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
     "icono": "📦"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t1-seguridad-salud-5",
+    "tema": "Tema 1 · Emergencia, primeros auxilios y derechos",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Itinerario Personal para la Empleabilidad",
+    "cantidad": 18,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/prevencion-emergencia-y-derechos.json",
+    "icono": "🚨"
   },
   {
     "id": "fpb-sa-1-lengua-castellana",

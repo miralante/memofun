@@ -197,7 +197,7 @@
   function studyUrl(deck) {
     var url = 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
       '&id=' + encodeURIComponent(deck.id) +
-      '&titulo=' + encodeURIComponent(deck.topic);
+      '&titulo=' + encodeURIComponent(deck.tema);
     /* Carries the course/subject the deck was opened from so the study
        screen's "Volver" can return to that same level instead of always
        resetting to the top-level home (see buildUrl/renderSubjectLevel/
@@ -214,8 +214,8 @@
     return (
       '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + studyUrl(deck) + '">' +
       '<span class="deck-icon" aria-hidden="true">' + (deck.icono || iconFor(i)) + '</span>' +
-      '<h3>' + App.utils.escapeHtml(deck.topic) + '</h3>' +
-      '<span class="deck-meta">' + (deck.amount || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
+      '<h3>' + App.utils.escapeHtml(deck.tema) + '</h3>' +
+      '<span class="deck-meta">' + (deck.cantidad || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
       (done ? '<span class="deck-stamp" aria-hidden="true"></span>' : '') +
       '</a>'
     );
@@ -352,7 +352,7 @@
       var single = subjectDecks.length === 1;
       var href = single ? studyUrl(subjectDecks[0]) : buildUrl(curso, asignatura);
       var meta = single
-        ? (subjectDecks[0].amount || '') + ' ' + App.i18n.t('home.cards')
+        ? (subjectDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards')
         : subjectDecks.length + ' ' + App.i18n.t('home.decks');
       return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
         '<span class="deck-icon" aria-hidden="true">' + (single ? (subjectDecks[0].icono || subjectIcon(asignatura)) : subjectIcon(asignatura)) + '</span>' +

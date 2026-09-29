@@ -420,6 +420,16 @@ checks += 1;
     ['id', 'tema', 'nivel', 'cantidad', 'file'].forEach(function (field) {
       if (entry[field] === undefined) failures.push(label + ': missing "' + field + '"');
     });
+    /* `tema` and `cantidad` are what the home screen actually renders
+       (app.js reads deck.tema / deck.cantidad). A present-but-empty value
+       renders a blank <h3> and a bare "tarjetas" with no number, which is
+       invisible to every other check — see the drift guard in §10. */
+    if (entry.tema !== undefined && !String(entry.tema).trim()) {
+      failures.push(label + ': "tema" is empty — the home screen would show a blank title');
+    }
+    if (entry.cantidad !== undefined && !Number.isFinite(Number(entry.cantidad))) {
+      failures.push(label + ': "cantidad" is not a number — the home screen would show no card count');
+    }
     if (!entry.file) return;
     var deckPath = path.join(ROOT, 'decks', entry.file);
     if (!fs.existsSync(deckPath)) {
@@ -529,6 +539,64 @@ checks += 1;
     }
     if (/^#{1,6}[ \t]*(?:[íÍ]ndice|indice)/im.test(raw) && !cfg.indice.length) {
       failures.push(rel(file) + ': has a "# Índice" heading but no bullet points were parsed from it');
+    }
+  });
+})();
+
+/* --- 10. manifest <-> app.js key drift guard --- */
+(function checkManifestUiKeyDrift() {
+  /* The home screen is the only consumer of decks/manifest.json, and it reads
+     the entries by field name (`deck.tema`, `deck.cantidad`, …). Nothing else
+     ties those names to the data, so a refactor that renames one side — e.g.
+     commit 2fb2cf1 switching app.js to `deck.topic`/`deck.amount` — leaves the
+     manifest valid, passes every other check, and ships a home screen where
+     all 339 decks render a blank title. This check parses the field reads out
+     of app.js and asserts each one actually exists on the manifest entries. */
+  checks += 1;
+  var appPath = path.join(ROOT, 'app.js');
+  if (!fs.existsSync(appPath)) return;
+
+  var src;
+  try {
+    src = fs.readFileSync(appPath, 'utf8');
+  } catch (e) {
+    failures.push('app.js: could not be read — ' + e.message);
+    return;
+  }
+
+  /* `deck.<field>` and `subjectDecks[0].<field>` — both are manifest entries. */
+  var reads = new Set();
+  var re = /\b(?:deck|subjectDecks\[0\])\.([A-Za-z_][A-Za-z0-9_]*)/g;
+  var m;
+  while ((m = re.exec(src)) !== null) reads.add(m[1]);
+
+  /* Members reached through a deck-ish identifier that are NOT manifest
+     fields. Keep this list explicit so adding one is a deliberate act. */
+  var NOT_MANIFEST_FIELDS = new Set([
+    'cards',            // the study screen's normalised deck, not a manifest entry
+    'querySelector', 'style', 'classList', 'textContent', 'length',
+  ]);
+
+  var manifestPath = path.join(ROOT, 'decks', 'manifest.json');
+  if (!fs.existsSync(manifestPath)) return;
+  var entries;
+  try {
+    entries = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  } catch (e) {
+    return; // already reported by §8
+  }
+  if (!Array.isArray(entries) || !entries.length) return;
+
+  var sample = entries[0];
+  /* Iterate the Set itself. Object.keys() on a Set returns [] (a Set keeps its
+     values internally, not as own enumerable properties), which would make
+     this whole guard a silent no-op that always passes. */
+  reads.forEach(function (field) {
+    if (NOT_MANIFEST_FIELDS.has(field)) return;
+    if (!(field in sample)) {
+      failures.push('app.js reads `deck.' + field + '` but decks/manifest.json entries have no such ' +
+        'key (entry keys: ' + Object.keys(sample).join(', ') + '). The home screen would render blank — ' +
+        'rename the read or migrate the manifest, but keep both in sync.');
     }
   });
 })();
