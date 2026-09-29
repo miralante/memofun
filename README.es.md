@@ -68,12 +68,82 @@ cuentas, sin llamadas a APIs de IA en tiempo de ejecución.
 
 ---
 
-## 👥 Roles del proyecto
+##  Acerca de
+
+Memofun es una **app de tarjetas de memoria construida alrededor
+del aprendizaje significativo**: cada tarjeta abre con una analogía
+cotidiana, un ejemplo concreto o el "por qué importa" — nunca
+con una definición de diccionario. La persona usuaria repasa una
+baraja en su propio dispositivo, elige una tarjeta, la gira con
+un toque y escucha la respuesta bajo demanda; terminar una baraja
+suma una ⭐, guardada solo en el dispositivo.
+
+Memofun se publica como web estática sin dependencias y como PWA
+instalable. Es una de las **siete apps** de la suite
+**Miralante** — la lista completa está en
+[🌐 La suite Miralante](#-la-suite-miralante--proyectos-del-grupo)
+más abajo. La especificación real del producto vive en
+[`doc/es/spec.md`](doc/es/spec.md); este README rehúye
+reformular decisiones de producto para que la descripción
+pública y la especificación no se separen.
+
+Memofun no incluye **ninguna** integración con APIs de IA: ni en
+el cliente ni en tiempo de build. El contenido de cada baraja lo
+escribe directamente el agente de IA de programación que trabaja
+en este repositorio (ver `CLAUDE.md`), no se obtiene en vivo —
+es innegociable, ver [`doc/es/spec.md`](doc/es/spec.md) §2.1.
+
+---
+
+## 🎯 Objetivos
+
+Memofun se construye para:
+
+- 🃏 **Abrir cada tarjeta con una analogía o un ejemplo
+  concreto**, no con el término que se define — la persona
+  usuaria se encuentra primero el concepto en una imagen
+  familiar.
+- 🪶 **Mantenerse sin dependencias y sin build** — HTML, CSS y
+  JavaScript vanilla; nada de `.apkg` de Anki, ni frameworks, ni
+  bundlers.
+- 🌐 **Mantener la paridad bilingüe** — español por defecto y
+  fuente de verdad; inglés con paridad en cada cadena y cada
+  baraja.
+- 🔒 **Guardar el progreso solo en el dispositivo** — cada ⭐
+  vive en `localStorage` bajo el prefijo `memofun:`; nada se
+  sube nunca.
+- 📦 **Funcionar sin conexión como PWA** — instalar en la
+  pantalla de inicio, repasar barajas en una tablet sin señal.
+- 🚫 **No enviar ninguna llamada a una API de IA** — ver
+  [`doc/es/spec.md`](doc/es/spec.md) §2.1 para la justificación
+  completa y lo que se descartó.
+
+Cada objetivo referencia una sección de
+[`doc/es/spec.md`](doc/es/spec.md); si un objetivo no está allí,
+añádelo a la especificación o sácalo de la lista.
+
+---
+
+## 👥 Audiencia y roles
+
+Memofun está pensada para una **persona tipo** — quien quiera
+repasar un tema en tarjetas cortas y autónomas, en su propio
+dispositivo, sin cuenta ni presión. La especificación real del
+producto vive en [`doc/es/spec.md`](doc/es/spec.md); este README
+evita a propósito cualquier etiqueta clínica para que la
+descripción pública se mantenga genérica.
+
+El proyecto reconoce tres roles alrededor de la app, cada uno
+con su propio punto de entrada:
+
+
+El proyecto reconoce tres roles alrededor de la app, cada uno
+con su propio punto de entrada:
 
 | Rol | Quién es | Cómo participa | Dónde mira primero |
 |---|---|---|---|
 | 👤 **Persona usuaria** (persona tipo) | Repasa barajas que ya están preparadas | Abre `index.html` y usa `tools/study/`; no toca `settings/` ni pide barajas al agente | La aplicación (`index.html`) |
-| ❤️ **Apoyo** (familia, docente) | Pide al agente que escriba una baraja, la revisa y la publica | Abre un issue o habla con el agente; revisa el resultado contra el checklist antes de publicar | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
+| ❤ **Apoyo** (familia, docente) | Pide al agente que escriba una baraja, la revisa y la publica | Abre un issue o habla con el agente; revisa el resultado contra el checklist antes de publicar | [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
 | 💻 **Construcción** (desarrollador/a) | Programa la aplicación | Mantiene el código, revisa PRs, despliega | [`tecnico.md`](doc/es/tecnico.md) |
 
 Ver [`doc/es/roles.md`](doc/es/roles.md) para la descripción completa
@@ -81,7 +151,7 @@ de los roles y los patrones trio/par/único en el conjunto de la suite.
 
 ---
 
-## 📚 Documentación del proyecto (bilingüe)
+## �📚 Documentación del proyecto (bilingüe)
 
 Toda la documentación del proyecto vive en la carpeta `doc/`:
 
@@ -186,7 +256,8 @@ tiempo de ejecución). El modelo de amenaza es esencialmente "qué
 podría hacer una página maliciosa offline contra el mismo origen",
 algo que el navegador ya aísla. Ver [`SECURITY.es.md`](SECURITY.es.md)
 (o [`SECURITY.md`](SECURITY.md)) para reportar una sospecha de forma
-privada.
+privada (canal preferido:
+[`hello@apptonomia.uk`](mailto:hello@apptonomia.uk)).
 
 ---
 
@@ -245,7 +316,7 @@ Curriculum (DfE) y las rutas vocacionales Entry Level / BTEC Level 2.
 
 ## 🌐 La suite Miralante — proyectos del grupo
 
-Memofun es una de las **seis apps** de la suite **Miralante**, que
+Memofun es una de las **siete apps** de la suite **Miralante**, que
 comparten autor, la misma filosofía de accesibilidad sin backend y la
 misma historia de despliegue en Cloudflare. Apptonomia, además de ser
 una app en sí misma, actúa como **portal de la suite** que la presenta
@@ -256,6 +327,7 @@ este es el producto original del que nació el grupo.
 |---|---|---|
 | **Apptonomia** *(portal — landing only, no es app)* | Landing que presenta la suite Miralante (no es una app en tiempo de ejecución) | [github.com/miralante/apptonomia](https://github.com/miralante/apptonomia) |
 | [Calculia](https://calculia.apptonomia.uk/) | Cálculo y razonamiento lógico | [github.com/miralante/calculia](https://github.com/miralante/calculia) |
+| [Ludia](https://ludia.apptonomia.uk/) | Juegos adaptados con reglas, ejercicios y partidas | [github.com/miralante/ludia](https://github.com/miralante/ludia) |
 | [Memofun](https://memofun.apptonomia.uk/) | Tarjetas de memoria con aprendizaje significativo | [github.com/miralante/memofun](https://github.com/miralante/memofun) |
 | [Okeymoney](https://okeymoney.apptonomia.uk/) | Finanzas personales y autonomía cotidiana | [github.com/miralante/okeymoney](https://github.com/miralante/okeymoney) |
 | [Routime](https://routime.apptonomia.uk/) | Actividades para rutinas y vida cotidiana | [github.com/miralante/routime](https://github.com/miralante/routime) |

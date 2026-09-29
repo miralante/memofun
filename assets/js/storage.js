@@ -29,7 +29,9 @@
   function get(key) {
     try {
       var raw = localStorage.getItem(PREFIX + key);
-      var data = raw ? JSON.parse(raw) : {};
+      // Support both null (key absent) and the literal string 'null' that
+      // results from buggy older code writing JSON.stringify(null).
+      var data = (raw && raw !== 'null') ? JSON.parse(raw) : {};
       /* Migrate 'estrellas' → 'stars' (Apr 2025 rename). Read both keys so
          existing users keep their progress; prefer 'stars' if both are present. */
       if ('estrellas' in data && !('stars' in data)) {

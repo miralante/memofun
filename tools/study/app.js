@@ -16,7 +16,16 @@
   var deckAsignatura = params.get('asignatura');
 
   var cards = [];
+  var baseCards = []; // original deck order before ordering/shuffle
   var index = 0;
+
+  // Card order: 'normal' | 'aleatorio' | 'inverso'
+  // Read from URL param first, fall back to stored preference.
+  var ordenParam = params.get('orden');
+  var storedPrefs = null;
+  try { storedPrefs = JSON.parse(App.storage.get('studyPrefs') || '{}'); } catch (e) {}
+  if (storedPrefs === null) storedPrefs = {};
+  var currentOrden = ordenParam || storedPrefs.orden || 'normal';
 
   var statusEl = document.getElementById('study-status');
   var areaEl = document.getElementById('study-area');
@@ -116,6 +125,11 @@
      prefers-reduced-motion sets the transition to a near-zero duration,
      where transitionend can be unreliable in some browsers. */
   var flipping = false;
+  var isUnrevealing = false; /* true while goPrev() is un-revealing so paintAnswer() knows not to hide btn-reveal */
+  window.__studyFlipping = function() { return flipping; };
+  window._studyIndex = function() { return index; };
+  window._studyCardsLen = function() { return cards.length; };
+  window._goNextCalls = 0;
 
   function onceSquashed(cb) {
     var done = false;
@@ -199,7 +213,11 @@
       '<hr>' +
       '<div class="face">' + boldClosingQuestion(card.question) + '</div>' +
       '</div>';
-    btnReveal.classList.add('hidden');
+    /* Only hide btn-reveal when arriving at the answer normally (a real
+       reveal). When goPrev() triggers paintAnswer() during an un-reveal,
+       isUnrevealing is true and the button must stay visible. */
+    if (!isUnrevealing) btnReveal.classList.add('hidden');
+    isUnrevealing = false;
     btnNext.classList.remove('secondary');
     cardEl.classList.add('revealed');
     /* Unlike moving to a different card, "prev" from a revealed answer
@@ -243,22 +261,37 @@
   }
 
   function goNext() {
-    if (flipping) return;
+    window._goNextCalls = (window._goNextCalls || 0) + 1;
+    var callNum = window._goNextCalls;
+    cardEl.classList.remove('revealed');
+    /* Last card: show end screen immediately — no animation.
+       Must be checked before renderCard() so it fires even when
+       the squash animation from revealing the last card is still running. */
+    console.log('GN' + callNum + ': idx=' + index + '/len=' + cards.length + ' flip=' + flipping);
     if (index === cards.length - 1) {
+      console.log('GN' + callNum + ': showEndScreen');
       showEndScreen();
       return;
     }
+    /* Block mid-flip navigation so the reveal callback doesn't race
+       with a new renderCard() — same protection goPrev() has. */
+    if (flipping) { console.log('GN' + callNum + ': blocked by flipping'); return; }
     index++;
     renderCard();
   }
 
   function goPrev() {
-    if (flipping) return;
     /* First press undoes the reveal (back to this card's own question)
        instead of jumping straight to the previous card — otherwise
        there's no way back to the question once the answer is showing,
-       and on card 1 there's no earlier card to go to at all. */
+       and on card 1 there's no earlier card to go to at all.
+       The flipping guard is intentionally omitted here: goPrev() must
+       be able to interrupt a mid-flip navigation (e.g. user clicks prev
+       while the reveal animation is still running) so that the reveal
+       state is properly reset and btn-reveal is shown again. */
     if (cardEl.classList.contains('revealed')) {
+      isUnrevealing = true;
+      btnReveal.classList.remove('hidden');
       renderCard();
       return;
     }
@@ -296,11 +329,70 @@
   btnNext.addEventListener('click', goNext);
   btnPrev.addEventListener('click', goPrev);
   btnStudyAgain.addEventListener('click', function () {
+    // Re-apply current order (for aleatorio this re-shuffles).
+    // Always return to the study area first.
     index = 0;
     endScreenEl.classList.add('hidden');
     areaEl.classList.remove('hidden');
-    renderCard();
-    btnReveal.focus();
+    applyOrden(currentOrden);
+  });
+
+  /* Apply the selected card order (normal / aleatorio / inverso) to baseCards,
+     update the URL so the order is shareable, and persist the preference. */
+  function applyOrden(orden) {
+    currentOrden = orden;
+    cards = baseCards.slice(); // always work on a fresh copy
+
+    if (orden === 'aleatorio') {
+      // Fisher-Yates shuffle
+      for (var i = cards.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = cards[i];
+        cards[i] = cards[j];
+        cards[j] = tmp;
+      }
+    } else if (orden === 'inverso') {
+      cards.reverse();
+    }
+    // 'normal' → cards in baseCards order (no change)
+
+    // Update URL so the order is reflected in the address bar
+    var url = new URL(location.href);
+    url.searchParams.set('orden', orden);
+    history.replaceState(null, '', url.toString());
+
+    // Persist preference
+    var prefs = {};
+    try { prefs = JSON.parse(App.storage.get('studyPrefs') || '{}'); } catch (e) {}
+    if (prefs === null) prefs = {};
+    prefs.orden = orden;
+    App.storage.set('studyPrefs', prefs);
+
+    // Highlight the active button and reset to first card
+    document.querySelectorAll('.order-btn').forEach(function (btn) {
+      var active = btn.dataset.orden === orden;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+
+    index = 0;
+    if (areaEl && !areaEl.classList.contains('hidden')) {
+      endScreenEl.classList.add('hidden');
+      areaEl.classList.remove('hidden');
+      renderCard();
+      btnReveal.focus();
+    }
+  }
+
+  /* Wire up the three order buttons. */
+  document.getElementById('btn-order-normal').addEventListener('click', function () {
+    applyOrden('normal');
+  });
+  document.getElementById('btn-order-aleatorio').addEventListener('click', function () {
+    applyOrden('aleatorio');
+  });
+  document.getElementById('btn-order-inverso').addEventListener('click', function () {
+    applyOrden('inverso');
   });
 
   async function init() {
@@ -316,12 +408,13 @@
     }
     try {
       var deck = await App.decks.readUrl('../../decks/' + deckFile);
-      cards = deck.cards;
+      baseCards = deck.cards;
+      cards = baseCards.slice();
       if (!cards.length) throw new Error('deckVacio');
       statusEl.classList.add('hidden');
       areaEl.classList.remove('hidden');
-      renderCard();
-      btnReveal.focus();
+      // Apply the saved or URL-based order (this also highlights the right button)
+      applyOrden(currentOrden);
     } catch (err) {
       statusEl.textContent = App.i18n.t('study.error');
     }

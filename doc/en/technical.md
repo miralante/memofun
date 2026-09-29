@@ -122,9 +122,9 @@ the explanation:
   not per deck).
 - **Images are always thumbnails. The shipped file MUST be a thumbnail
   of the source, not the full-resolution original.** The repo ships as
-  Cloudflare Workers static assets with a hard total budget of ~25 MB
-  for the entire site; a single full-res Openverse `image` (often
-  1-10 MB) blows that budget on its own, and on top of that the image
+  Cloudflare Workers static assets with a hard limit of 25 MiB per published file
+  not a total-site quota. A single full-res Openverse `image` (often
+  1-10 MB) wastes that per-file budget, and on top of that the image
   is much larger than a card illustration needs â€” the card renders
   it at maybe 300-400 px wide on a phone, so anything above that is
   bytes spent for no visible quality. The shipped file in
@@ -148,6 +148,13 @@ the explanation:
   abort and report the missing image â€” never fall back to the
   full-res `image` URL as a default. `scripts/check.js` enforces the
   budget so this rule can't silently slip.
+
+**Deck files are Memofun's data shards.** The application fetches the
+selected `decks/<slug>.json` independently, so the existing one-file-per-deck
+layout is already the correct shard boundary. If a deck approaches 20 MiB,
+split its cards into another deck JSON with a new `decks/manifest.json` entry
+using the existing numbered filename convention, before reaching 25 MiB. Do
+not concatenate all decks into one data bundle.
 - Sourcing: `node scripts/buscar-imagen.js "<term>"` searches Openverse
   (openverse.org, no key needed) restricted to those same safe
   licenses and lists candidates â€” title, source, and both a `thumb`

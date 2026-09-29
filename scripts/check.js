@@ -28,8 +28,8 @@
       exists on disk, the license isn't NC/ND, and the on-disk image
       size is within budget (technical.md §3.1 — fail over 200 KB so a
       full-res or otherwise non-thumbnail image can't sit in the repo
-      unnoticed, and can't single-handedly blow Cloudflare's ~25 MB
-      total deploy budget).
+      unnoticed, and can't exceed Cloudflare's 25 MiB per-file deploy
+      limit on its own).
    9. doc/curriculum/ (recursively): every .md file parses as a valid
       content config (frontmatter with `tema`, via scripts/config-parser.js)
       and, if it has a `# Índice` section, that section is not empty.
@@ -534,6 +534,39 @@ checks += 1;
 })();
 
 /* --- Result --- */
+(function checkPublishedFileSizes() {
+  /* Cloudflare's asset limit is per published file, not a total-site quota.
+     Memofun already uses one JSON file per deck as its natural shard
+     boundary. Keep the gate here so a future deck or image cannot silently
+     grow past the host limit; split a deck into another manifest entry before
+     that happens. */
+  var WARN_BYTES = 20 * 1024 * 1024;
+  var FAIL_BYTES = 25 * 1024 * 1024;
+  var EXCLUDED_DIRS = new Set(['.git', '.claude', 'graphify-out', 'audit-out', 'node_modules']);
+
+  function walk(dir) {
+    var files = [];
+    fs.readdirSync(dir, { withFileTypes: true }).forEach(function (entry) {
+      if (entry.isDirectory() && EXCLUDED_DIRS.has(entry.name)) return;
+      var full = path.join(dir, entry.name);
+      if (entry.isDirectory()) files = files.concat(walk(full));
+      else if (entry.isFile()) files.push(full);
+    });
+    return files;
+  }
+
+  walk(ROOT).forEach(function (file) {
+    var bytes = fs.statSync(file).size;
+    if (bytes > FAIL_BYTES) {
+      failures.push(rel(file) + ': ' + (bytes / (1024 * 1024)).toFixed(2) +
+        ' MiB — exceeds Cloudflare\'s 25 MiB per-file limit; split the data into additional manifest entries');
+    } else if (bytes > WARN_BYTES) {
+      warnings.push(rel(file) + ': ' + (bytes / (1024 * 1024)).toFixed(2) +
+        ' MiB — approaching Cloudflare\'s 25 MiB per-file limit; split before the next growth batch');
+    }
+  });
+})();
+
 if (warnings.length) {
   console.log('WARNINGS (' + warnings.length + ') — non-blocking, see technical.md §3.1:');
   warnings.forEach(function (w) { console.log('  - ' + w); });

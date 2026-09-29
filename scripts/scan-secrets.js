@@ -48,7 +48,7 @@ const PATTERN_RE = new RegExp(PATTERNS.join('|'), 'i');
 // form when the agent is on POSIX) and `\` (Windows). New entries
 // should be added here if you intentionally keep a pattern-bearing
 // string in a script or workflow.
-const PRUNED_DIRS = ['.git', 'node_modules', 'graphify-out', 'decks/concepts'];
+const PRUNED_DIRS = ['.git', 'node_modules', '.claude', 'graphify-out', 'decks/concepts'];
 const EXEMPT_FILES = [
   '.github/workflows/ci.yml',         // defines PATTERNS as a bash string
   'scripts/scan-secrets.js',          // defines PATTERNS as a Node array

@@ -585,6 +585,21 @@ test('19 — switching locale to English changes the UI text', async ({ browser 
   expect(title.trim().length).toBeGreaterThan(0);
 });
 
+test('19b — unsupported browser language falls back to English', async ({ browser }) => {
+  const context = await browser.newContext({ locale: 'fr-FR' });
+  const page = await context.newPage();
+  try {
+    await page.addInitScript(() => localStorage.clear());
+    await page.goto(BASE);
+    await expect(page.locator('#locale-picker')).toBeVisible();
+    await expect(page.locator('.locale-picker-current')).toHaveText('EN');
+    expect(await page.locator('html').getAttribute('lang')).toBe('en');
+    expect(await page.evaluate(() => window.App.i18n.locale())).toBe('en');
+  } finally {
+    await context.close();
+  }
+});
+
 // ===========================================================================
 // BACK NAVIGATION
 // ===========================================================================

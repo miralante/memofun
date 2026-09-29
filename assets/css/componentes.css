@@ -753,6 +753,39 @@ header.app-header .tagline {
   transform: translateZ(0);
 }
 
+/* ---------- Order selector ---------- */
+.order-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-1);
+  margin-top: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.order-btn {
+  font-size: var(--text-sm);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius);
+  border: 1.5px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: background 150ms, color 150ms, border-color 150ms;
+  font-family: inherit;
+}
+
+.order-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.order-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
 /* ---------- Feedback zone ---------- */
 
 .feedback-zone {

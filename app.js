@@ -509,12 +509,10 @@
   }
 
   function paintLanguageSelector() {
-    var active = App.i18n.locale();
-    document.getElementById('lang-es').setAttribute('aria-pressed', String(active === 'es'));
-    document.getElementById('lang-en').setAttribute('aria-pressed', String(active === 'en'));
+    var el;
+    el = document.getElementById('lang-es'); if (el) el.setAttribute('aria-pressed', String(App.i18n.locale() === 'es'));
+    el = document.getElementById('lang-en'); if (el) el.setAttribute('aria-pressed', String(App.i18n.locale() === 'en'));
   }
-  document.getElementById('lang-es').addEventListener('click', function () { App.i18n.setLocale('es'); });
-  document.getElementById('lang-en').addEventListener('click', function () { App.i18n.setLocale('en'); });
   paintLanguageSelector();
 
   document.getElementById('stars-total').innerHTML =

@@ -134,7 +134,10 @@ belongs to the in-flight work before adding new changes.
    that might look like an API key, a token, or a private key — same
    check as the `secrets-scan` job in CI, runnable locally before
    pushing to catch the issue without burning a CI run.
-5. Report only verifications you actually ran.
+5. Before pushing, run `npm run test:ui`, `node scripts/smoke-sw.js`,
+   and `node scripts/check-version-bump.js`; do not push if any required
+   check fails.
+6. Report only verifications you actually ran.
 
 ### A.3 External and destructive operations
 
@@ -190,6 +193,16 @@ The cost of bumping is one integer; the cost of not bumping is
 Bump liberally rather than conservatively. Full contract:
 [`CLOUDFLARE.md`](CLOUDFLARE.md) § "Cache contract". This rule is
 also the source of §A.2.3 step 2.
+
+### B.1.1 File-shard contract (suite-wide)
+
+Cloudflare's limit is per published file. Memofun's independently fetched
+`decks/<slug>.json` files are therefore its data shards. Keep that boundary:
+if one deck approaches 20 MiB, split its cards into another deck and add a
+new entry to `decks/manifest.json` before reaching 25 MiB. Never concatenate
+all decks into one bundle. The same rule applies to any large static data set
+in the other Apptonomia applications; their validators must warn near 20 MiB
+and fail over 25 MiB.
 
 ### B.2 Language policy
 

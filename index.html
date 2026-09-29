@@ -160,6 +160,8 @@
 <link rel="stylesheet" href="assets/css/tokens.css">
 <link rel="stylesheet" href="assets/css/base.css">
 <link rel="stylesheet" href="assets/css/componentes.css">
+<link rel="stylesheet" href="assets/css/locale-picker.css?v=memofun-v1">
+<link rel="manifest" href="./manifest.json">
 </head>
 <body>
 
@@ -176,10 +178,7 @@
       <p class="suite-attribution"><span data-i18n="suiteBy">Una app de</span> <a href="https://apptonomia.uk/">Apptonomia</a>.</p>
     </div>
   </div>
-  <div class="suite-controls"><div class="language-selector" role="group" aria-label="Elegir idioma">
-      <button type="button" class="btn-lang" id="lang-es" data-locale="es" aria-pressed="false" aria-label="Español"><span class="locale-full" aria-hidden="true">🇪🇸 Español</span><span class="locale-short" aria-hidden="true">ES</span></button>
-      <button type="button" class="btn-lang" id="lang-en" data-locale="en" aria-pressed="false" aria-label="English"><span class="locale-full" aria-hidden="true">🇬🇧 English</span><span class="locale-short" aria-hidden="true">EN</span></button>
-    </div></div>
+  <div class="suite-controls"><div id="locale-picker"></div></div>
   <div class="suite-details"><p class="tagline" data-i18n="home.tagline">Elige una baraja y practica con tarjetas.</p><span class="stars" id="stars-total">⭐ 0</span></div>
 </header>
 
@@ -196,6 +195,19 @@
   </div>
 </footer>
 
+<script>/* Locale-picker config (must run BEFORE assets/js/locale-picker.js).
+   Memofun stores its strings next to index.html (not under js/), so
+   we point the picker at the right relative path. storageKey matches
+   the one assets/js/i18n.js writes to localStorage so the user's
+   choice is shared between the picker and the app's own i18n core. */
+window.LocalePickerConfig = {
+  storageKey: 'memofun:locale',
+  path: null,
+  requiredLocales: ['es', 'en'],
+  defaultLocale: 'en',
+  settingsHref: 'config/'
+};
+</script>
 <script src="assets/js/utils.js"></script>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/tts.js"></script>
@@ -205,6 +217,24 @@
 <script src="strings.es.js"></script>
 <script src="strings.en.js"></script>
 <script src="app.js"></script>
+<script src="assets/js/locale-picker.js?v=memofun-v1" defer></script>
+<!-- Service-worker registration. Lazy + try/catch so older browsers
+     (or private mode where navigator.serviceWorker is unavailable)
+     silently no-op rather than throwing. Same-origin './sw.js' keeps
+     the CSP `script-src 'self'` and `worker-src 'self'` directives
+     happy. The install handler in sw.js is what pre-caches the app
+     shell listed in FILES. See CLAUDE.md §B.1 for the cache
+     contract and the bump-on-every-cached-file-change rule. -->
+<script>
+(function () {
+  if (!('serviceWorker' in navigator)) return;
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('./sw.js').catch(function (err) {
+      console.warn('[memofun] service worker registration failed:', err);
+    });
+  });
+})();
+</script>
 
 </body>
 </html>

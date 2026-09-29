@@ -131,9 +131,9 @@ visual a la explicaciÃ³n:
 - **Las imÃ¡genes son siempre miniaturas. El archivo publicado TIENE que
   ser una miniatura de la fuente, no la imagen a resoluciÃ³n completa.**
   El repo se publica como static assets de Cloudflare Workers con un
-  presupuesto total de ~25 MB para todo el sitio; una sola imagen a
-  resoluciÃ³n completa de Openverse (suele ocupar 1-10 MB) revienta
-  ese presupuesto ella sola, y encima es mucho mÃ¡s grande de lo que
+  lÃ­mite duro de 25 MiB por fichero publicado, no por el sitio completo.
+  Una sola imagen a resoluciÃ³n completa de Openverse (suele ocupar 1-10 MB)
+  desperdicia ese presupuesto por fichero, y encima es mucho mÃ¡s grande de lo que
   necesita una tarjeta â€” la tarjeta la renderiza a unos 300-400 px
   de ancho en el mÃ³vil, asÃ­ que cualquier cosa por encima de eso son
   bytes gastados sin ganancia visible. El archivo publicado en
@@ -143,7 +143,14 @@ visual a la explicaciÃ³n:
   `scripts/check.js` falla en seco por encima de 200 KB, un lÃ­mite
   duro (no una preferencia estÃ©tica blanda): un archivo tan grande ya
   es en sÃ­ mismo la prueba de que no es una miniatura de verdad, y
-  varios asÃ­ juntos revientan el presupuesto del deploy de Cloudflare.
+  varios asÃ­ juntos aumentan el tamaÃ±o del despliegue.
+
+**Los ficheros de baraja son los shards de datos de Memofun.** La aplicaciÃ³n
+carga por separado `decks/<slug>.json`, por lo que el diseÃ±o actual de un
+fichero por baraja ya es la divisiÃ³n correcta. Si una baraja se acerca a
+20 MiB, divide sus tarjetas en otra baraja JSON y aÃ±ade una entrada nueva a
+`decks/manifest.json` antes de llegar a 25 MiB. No unas todas las barajas en
+un Ãºnico paquete de datos.
   Orden de adquisiciÃ³n: (a) la URL
   `thumb` de Openverse desde `buscar-imagen.js`, que ya entra en ese
   rango (JPEGs de decenas de KB); (b) si esa URL falla con un 400,

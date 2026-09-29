@@ -6,7 +6,7 @@
 
    Active language: localStorage 'memofun:locale' if supported; otherwise
    detected from navigator.language ('es' prefix -> 'es', anything else ->
-   'en', falls back to 'es', the source of truth for UI copy.
+   'en', the source of truth for UI copy.
 
    Each strings.<locale>.js calls App.i18n.register({key: 'text', ...}, 'es'|'en').
    The UI shell (buttons, navigation, feedback) always has ES/EN parity.
@@ -20,7 +20,7 @@
 
   var LOCALE_KEY = 'memofun:locale';
   var SUPPORTED = ['es', 'en'];
-  var DEFAULT_LOCALE = 'es';
+  var DEFAULT_LOCALE = 'en';
   var BCP47 = { es: 'es-ES', en: 'en-US' };
 
   var DICT = {

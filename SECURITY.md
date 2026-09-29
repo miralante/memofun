@@ -1,42 +1,65 @@
 # Security policy
 
-> 🌐 **Other languages:** [Español](SECURITY.es.md)
+Memofun is a fully client-side static site: no server of its own,
+no backend, no database, no telemetry, no third-party runtime calls, no
+accounts. The attack surface is essentially the browser sandbox on the
+same origin (the HTTP security headers in `_headers` are
+written to keep it that way — CSP locked to `'self'`, no inline scripts,
+no `connect-src` to third parties).
 
-Memofun is a fully client-side, dependency-free web app: no server of
-its own, no backend, no database, no telemetry, no third-party library
-at all (not even from a CDN), and no integration with any external
-API — not even an AI one — anywhere in the code. The attack surface is
-the browser's same-origin surface. The `scripts/` utilities (Node.js,
-zero npm packages) run locally, outside the site, make no network
-calls, and expose no service.
+Memofun's static site ships **no third-party library at all** (not even from a CDN), and the codebase contains **no integration with any external API** — not even an AI one. The `scripts/` utilities (Node.js, zero npm packages) run locally, outside the site, make no network calls, and expose no service.
 
 ## Supported versions
 
-Only the main branch receives security patches. We don't maintain old
-versions.
+Only the `main` branch receives security patches. We do not
+maintain old versions.
+
+The cache-bump rule (see `CLAUDE.md` §B.1) is what makes "supported"
+meaningful: a `VERSION` bump in `sw.js` is the only mechanism that
+forces installed PWAs to pick up the new code. We support the
+**latest deployed `VERSION` only**; older versions are not patched.
 
 ## Reporting a vulnerability
 
-Open a private advisory via the repository's GitHub Security
-Advisories, or open an issue clearly labeled **security** with a
-`[SEC]` prefix in the title if you can't use Security Advisories.
-**Do not post working exploits** in a public issue — wait for a
-maintainer to coordinate.
+Open a private advisory via
+[GitHub Security Advisories](https://github.com/miralante/memofun/security/advisories/new).
 
 Please include:
 
-- A brief description and reproduction steps.
+- A short description and reproduction steps.
 - Observed or expected impact.
 - The affected commit SHA or tag.
+
+If you cannot use Security Advisories, open an issue clearly labelled
+as **security** and prepend `[SEC]` to the title. **Do not upload
+runnable proof-of-concept code** to a public issue — wait for a
+maintainer to coordinate.
+
+If neither channel is appropriate, email `hello@apptonomia.uk` instead.
 
 ## What to expect
 
 - Acknowledgement within 5 business days.
-- Initial assessment (reproduction, severity, plan) within 15 business
-  days.
+- First assessment (reproduction, severity, plan) within 15 business days.
 - If confirmed, a patch or mitigation as soon as feasible.
 
 ## Coordinated disclosure
 
-We prefer to coordinate disclosure if the fix requires visible changes
-to the UI or the PWA shell.
+We prefer to coordinate disclosure if the fix requires user-visible
+changes to the UI or the PWA shell.
+
+## Out of scope
+
+- Vulnerabilities in the user's browser (we ship plain HTML/CSS/JS;
+  report to the browser vendor).
+- Vulnerabilities in Cloudflare's Workers runtime (report to
+  Cloudflare).
+- Self-XSS (a user pasting malicious code into their own browser
+  console).
+
+## See also
+
+- [`CLOUDFLARE.md`](CLOUDFLARE.md) — the deploy runbook.
+- [`_headers`](_headers) — the HTTP security headers in effect.
+- `CLAUDE.md` §B — the suite-wide policies (no telemetry, WCAG
+  AAA, public-facing wording).

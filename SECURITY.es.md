@@ -1,34 +1,43 @@
 # Política de seguridad
 
-> 🌐 **Otros idiomas:** [English](SECURITY.md)
+Memofun es un sitio estático completamente del lado del cliente:
+no tiene servidor propio, ni backend, ni base de datos, ni telemetría,
+ni llamadas de runtime a terceros, ni cuentas. La superficie de ataque
+es esencialmente la del navegador sobre el mismo origen (las cabeceras
+de seguridad HTTP en `_headers` están escritas para que
+siga siendo así — CSP bloqueada a `'self'`, sin scripts inline, sin
+`connect-src` a terceros).
 
-Memofun es una aplicación web completamente del lado del cliente y sin
-dependencias: no tiene servidor propio, ni backend, ni base de datos,
-ni telemetría, ni ninguna librería de terceros (ni siquiera por CDN), y
-el código no contiene ninguna integración con ninguna API externa —
-tampoco de IA. La superficie de ataque es la del navegador sobre el
-mismo origen. Las utilidades de `scripts/` (Node.js, sin paquetes npm)
-corren en local, fuera del sitio, no hacen ninguna llamada de red, y
-no exponen ningún servicio.
+El sitio estático de Memofun **no incluye ninguna librería de terceros** (tampoco por CDN), y el código **no contiene ninguna integración con ninguna API externa** — tampoco de IA. Las utilidades de `scripts/` (Node.js, sin paquetes npm) corren en local, fuera del sitio, no hacen ninguna llamada de red y no exponen ningún servicio.
 
 ## Versiones soportadas
 
-Solo la rama principal recibe parches de seguridad. No mantenemos
-versiones antiguas.
+Solo la rama `main` recibe parches de seguridad. No
+mantenemos versiones antiguas.
+
+La regla del bump de caché (ver `CLAUDE.md` §B.1) es lo que hace que
+"soportada" signifique algo: un bump de `VERSION` en `sw.js` es el
+único mecanismo que fuerza a las PWAs instaladas a recoger el nuevo
+código. Damos soporte **solo a la última `VERSION` desplegada**; las
+versiones anteriores no se parchean.
 
 ## Cómo reportar una vulnerabilidad
 
-Abre un aviso privado a través de GitHub Security Advisories del
-repositorio, o abre un issue etiquetado claramente como **security**
-con el prefijo `[SEC]` en el título si no puedes usar Security
-Advisories. **No subas pruebas de concepto explotables** a un issue
-público: espera a que una persona mantenedora coordine.
+Abre un aviso privado a través de
+[GitHub Security Advisories](https://github.com/miralante/memofun/security/advisories/new).
 
-Incluye:
+Por favor, incluye:
 
 - Descripción breve y pasos para reproducir.
 - Impacto observado o esperado.
 - SHA de commit o etiqueta afectada.
+
+Si no puedes usar Security Advisories, abre un issue etiquetándolo
+claramente como **security** y añade el prefijo `[SEC]` al título.
+**No subas pruebas de concepto explotables** a un issue público:
+espera a que un maintainer coordine.
+
+Si ninguno de los canales es adecuado, escribe a `hello@apptonomia.uk`.
 
 ## Qué esperar
 
@@ -41,3 +50,20 @@ Incluye:
 
 Preferimos coordinar la divulgación si la corrección requiere cambios
 visibles en la UI o en el shell de la PWA.
+
+## Fuera de alcance
+
+- Vulnerabilidades en el navegador de la persona usuaria (enviamos
+  HTML/CSS/JS plano; reportar al vendor del navegador).
+- Vulnerabilidades en el runtime de Workers de Cloudflare (reportar
+  a Cloudflare).
+- Auto-XSS (una persona pegando código malicioso en su propia
+  consola del navegador).
+
+## Ver también
+
+- [`CLOUDFLARE.md`](CLOUDFLARE.md) — el runbook de despliegue.
+- [`_headers`](_headers) — las cabeceras HTTP de seguridad en
+  vigor.
+- `CLAUDE.md` §B — las políticas transversales de la suite (sin
+  telemetría, WCAG AAA, lenguaje público).

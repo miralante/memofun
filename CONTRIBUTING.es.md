@@ -1,87 +1,166 @@
 # Contribuir a Memofun
 
 > 🌐 **Otros idiomas:** [English](CONTRIBUTING.md)
+>
+> **Parte de la suite [Miralante](https://apptonomia.uk)** —
+> Memofun es uno de los siete proyectos hermanos (Apptonomia,
+> Calculia, Memofun, Okeymoney, Routime, Sinonimia, Teclatlon) que
+> comparten el mismo flujo de trabajo, las mismas reglas de
+> accesibilidad y el mismo código de conducta. Este repo publica
+> **Memofun** en sí.
 
-Memofun tiene tres roles (ver [`doc/es/roles.md`](doc/es/roles.md)):
-persona usuaria, apoyo (familia/docente) y construcción
-(desarrollador/a). Esta guía es para los dos últimos — la persona
-usuaria no necesita leer nada de esto, solo abrir la app.
+Gracias por tu interés en contribuir. Esta guía cubre el flujo de
+trabajo en GitHub que seguimos en toda la suite, los roles del
+proyecto y el pequeño conjunto de recetas que mantienen a cada
+hermano coherente.
 
-## 👥 Formas de contribuir
-
-| Quiero… | Cómo |
-|---|---|
-| Añadir una baraja nueva | Sigue [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) (paso a paso completo); resumen: pide al agente de IA que escriba la baraja a partir de un tema o de un `config.md`, **revisa el contenido** y añade la entrada en `decks/manifest.json` antes de abrir el PR con el `.json` y el manifest. |
-| Corregir o mejorar una baraja existente | Edita el `.json` directamente (es texto plano), o pide al agente que la regenere y sustituya el archivo en `decks/`. |
-| Tocar código (HTML/CSS/JS) | Sigue el flujo de GitHub de abajo. Lee primero [`doc/es/tecnico.md`](doc/es/tecnico.md). Todo el proyecto es vanilla: nada de frameworks ni dependencias nuevas. |
-| Traducir la interfaz a un idioma nuevo | Sigue la guía de [`doc/es/i18n.md`](doc/es/i18n.md). |
-| Reportar una tarjeta cuya `imagen` no encaja de verdad | Abre un issue indicando el archivo de la baraja, la tarjeta (texto de la pregunta) y qué está mal. Las imágenes de las barajas se eligen a partir del título/fuente del resultado de búsqueda en Openverse al escribir el contenido, a propósito sin abrir el archivo para mirarlo (`doc/es/tecnico.md` §3.1) — se espera que algún desajuste se cuele de vez en cuando y lo detecte quien lee la baraja, no que se reverifique cada imagen de antemano. |
-
-## ⚠️ Antes de tocar la generación de contenido
-
-El contenido de las barajas lo escribe el agente de IA directamente en
-el repositorio (ver "Generating deck content" en `CLAUDE.md`) — no hay
-ningún script que llame a una API de IA, y no debe haberlo. No se
-integra en el sitio público bajo ninguna circunstancia — ver
-`doc/es/spec.md` §2.1. Cualquier PR que añada una llamada a un
-servicio de IA desde `index.html`, `app.js`, `tools/study/`,
-`settings/`, o desde cualquier script en `scripts/`, será rechazado.
-
-> **Sobre la suite Miralante** — Memofun es una de las **seis apps**
-> de la [suite Miralante](https://apptonomia.uk) (Calculia, Memofun,
-> Okeymoney, Routime, Sinonimia, Teclatlon). El repo
-> [Apptonomia](https://github.com/miralante/apptonomia) aloja
-> **únicamente el portal de la suite** — no es una app en tiempo de
-> ejecución. La tabla completa de la suite vive en la sección
-> ["La suite Miralante — proyectos del grupo" del `README.es.md`](README.es.md#-la-suite-miralante--proyectos-del-grupo).
+---
 
 ## 🔀 Flujo de trabajo en GitHub
 
-```
+```text
 1. 🔍 Buscar o crear un issue (en español o inglés)
 2. 💬 Comentar y consensuar el alcance
 3. 🌿 Crear una rama (fork si no tienes acceso de push)
-4. ✏️  Hacer los cambios siguiendo doc/es/tecnico.md
-5. ✅ Ejecutar los scripts de validación (ver abajo)
-6. 📤 Abrir un Pull Request referenciando el issue
-7. 👀 Esperar revisión (al menos 1 persona mantenedora)
-8. ✅ Merge cuando hay aprobación
+4. ✏️  Hacer los cambios siguiendo las recetas de abajo
+5. 📤 Abrir un Pull Request (PR) referenciando el issue
+6. 👀 Esperar revisión (al menos 1 de un maintainer)
+7. ✅ Merge cuando hay aprobación
 ```
 
-## ✅ Validar los cambios
+**Etiquetas de issues** (las usamos para clasificar):
 
-Tres scripts se ejecutan automáticamente en CI en cada push y PR (ver
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml) +
-[`.github/workflows/smoke-prod.yml`](.github/workflows/smoke-prod.yml)),
-pero ejecútalos antes en local para detectar problemas antes:
+| Etiqueta | Significado |
+|---|---|
+| `UX` | Mejora de usabilidad o experiencia |
+| `contenido` | Textos, traducciones, copy de accesibilidad |
+| `bug` | Error reproducible en el comportamiento |
+| `tech` | Implementación técnica, refactor |
+| `docs` | Cambios en la documentación |
+| `good first issue` | Apto para una primera contribución |
 
-```
-node scripts/check.js                  # 92 comprobaciones: estructural, paridad i18n, sin lenguaje clínico, comillado CSP, integridad de barajas, sw.js ↔ disco
-node scripts/check-version-bump.js     # falla si cambiaste un archivo de sw.js FILES sin subir VERSION
-node scripts/i18n-keys-smoke.js        # informativo: lista data-i18n* / App.i18n.t() usados pero no registrados en ningún idioma
-node scripts/i18n-keys-smoke.js --strict   # igual, pero sale con código 1 si faltan claves (úsalo en CI o al añadir un idioma)
-node scripts/scan-secrets.js           # grep best-effort para claves API, tokens y claves privadas colados sin querer (mismo script que el job secrets-scan del CI)
-node scripts/smoke-prod.js             # post-despliegue: pega contra la URL en vivo y comprueba cabeceras + paridad i18n + decks/manifest.json (necesita PROD_URL)
-node scripts/limpiar-graphify-cache.js # dry-run: muestra qué se borraría de graphify-out/ (un artefacto regenerable del agente)
-```
+### Convenciones de ramas
 
-## ✅ Checklist antes de abrir un PR
+- `feat/<slug>` — nuevas funcionalidades
+- `fix/<slug>` — corrección de bugs
+- `docs/<slug>` — cambios solo en documentación
+- `content/<slug>` — cambios solo de contenido (barajas, tarjetas)
+- `i18n/<código>` — traducción a un idioma (ej. `i18n/ca`, `i18n/gl`)
 
-- [ ] `node scripts/check.js` pasa sin errores.
-- [ ] Si tocaste un archivo cacheado por `sw.js`, subiste el `VERSION`
-      (`node scripts/check-version-bump.js` lo detecta automáticamente).
-- [ ] `node scripts/i18n-keys-smoke.js --strict` no reporta claves
-      faltantes en los idiomas que tocaste.
-- [ ] `node scripts/scan-secrets.js` dice "no secrets found" (ejecútalo
-      en local antes de pushear si tu cambio toca algo que pueda
-      parecer un token).
-- [ ] Si añadiste un texto de interfaz, está en `strings.es.js` **y**
-      `strings.en.js`.
-- [ ] Si añadiste o cambiaste una baraja, revisaste el contenido y
-      actualizaste `decks/manifest.json`.
-- [ ] Ningún texto de cara al usuario menciona "discapacidad" ni jerga
-      clínica.
-- [ ] El contenido nuevo tiene tono cercano y con gracia (nunca sarcasmo
-      ni dobles sentidos) y, cuando encaja, un dato curioso — ver
-      `doc/es/spec.md` §2.5.
-- [ ] Botones ≥ 64×64 px, contraste alto, sin cronómetros nuevos.
+### Commits
+
+- Mensaje en **inglés** (convención del repo), resumen en imperativo.
+- Una cosa por commit — commits grandes se pueden pedir trocear.
+- Si cierran un issue, incluir `Closes #123` al final.
+
+---
+
+## 👥 Roles del proyecto
+
+| # | Rol | Lee primero |
+|---|---|---|
+| 1 | 👤 **Persona usuaria** | La app — nunca este fichero. |
+| 2 | 🤝 **Apoyo** (familia / docente) | El `doc/es/roles.md`. |
+| 3 | 💻 **Persona constructora** (contenido o código) | Este fichero, más el `doc/es/SPEC.md`, el `doc/es/tecnico.md` y el `CLAUDE.md`. |
+
+> Las decisiones puramente técnicas viven en el rol de persona
+> constructora, **no porque se ignore a la persona usuaria, sino
+> porque ese es el dominio de cada rol.** Las decisiones de
+> producto, contenido, idioma y diseño de UI **se prueban y validan
+> con la persona usuaria siempre que es posible**, y su feedback es
+> la fuente principal de mejora.
+
+---
+
+## 📝 Qué puedes aportar
+
+| Quiero… | Cómo |
+|---|---|
+| Añadir una nueva baraja | Sigue [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md). |
+| Corregir o mejorar una baraja existente | Edita el `.json` directamente, o pide al agente que la regenere. |
+| Tocar código (HTML/CSS/JS) | Sigue el flujo de GitHub de arriba. Lee primero [`doc/es/tecnico.md`](doc/es/tecnico.md). |
+| Traducir la UI a un nuevo idioma | Sigue la guía en [`doc/es/I18N.md`](doc/es/I18N.md). |
+| Reportar una tarjeta cuya `imagen` no encaja | Abre un issue nombrando la baraja, la tarjeta y el problema. |
+
+---
+
+## 🌐 Recetas
+
+### Corrección de copy
+
+1. Edita el `strings.<locale>.js` fuente de verdad (`es` por defecto).
+2. Refleja el cambio en todos los demás ficheros de strings
+   (`en` como mínimo).
+3. Ejecuta `node scripts/check.js` para verificar la paridad de claves.
+4. Abre un PR con una descripción de una línea.
+
+### Nuevo idioma
+
+Consulta el `doc/es/I18N.md` para el paso a paso completo. Añadir un
+idioma **no requiere cambios** en el bootstrap ni en el código de la
+app.
+
+### Mejora de accesibilidad
+
+Lee primero el `doc/es/SPEC.md` §3 — las restricciones innegociables
+viven ahí (botones ≥ 64×64 px, contraste WCAG AA con AAA como
+objetivo de diseño, copy en lectura fácil, feedback sin presión).
+Cualquier cosa que las rompa será rechazada.
+
+### Añadir o endurecer una cabecera de seguridad
+
+Las cabeceras viven en `_headers`. La CSP es deliberadamente
+estricta (`script-src 'self'`, sin scripts inline; JSON-LD es dato y
+no necesita `unsafe-inline`). Endurecerla es bienvenido; relajarla
+casi nunca lo es — abre un issue antes.
+
+---
+
+## ✅ Checklist antes de abrir PR
+
+- [ ] `node scripts/check.js` pasa en local.
+- [ ] Si tocaste `sw.js`, `node scripts/check-version-bump.js` pasa y
+      bumpeaste `VERSION` por cualquier cambio en un fichero cacheado.
+- [ ] Si añadiste cadenas de UI, todos los locales soportados están en
+      sincronía.
+- [ ] Probaste el cambio en un navegador real de escritorio (y en
+      móvil si la app es PWA).
+- [ ] No añadiste ninguna dependencia de runtime nueva — solo HTML /
+      CSS / JS vanilla.
+- [ ] No aflojaste la CSP en `_headers` sin abrir un issue.
+
+---
+
+## 🚫 Lo que este repositorio NO acepta
+
+- **Relajar la CSP** (`script-src 'self'` se queda estricto).
+- **Nuevas dependencias de runtime** — solo HTML / CSS / JS vanilla.
+- **Añadir analítica / telemetría / llamadas a terceros.**
+- **Datos personales** de cualquier tipo.
+- **Llamadas a un servicio de IA desde `index.html`, `app.js`,
+  `tools/study/`, `settings/` o cualquier script bajo `scripts/`** —
+  el contenido de las barajas lo escribe directamente el agente en
+  este repo, nunca se recupera en tiempo de ejecución. Ver
+  `doc/es/SPEC.md` §2.1.
+- **Una SPA, un router o un paso de build.**
+
+---
+
+## 📞 Comunicación
+
+- **Issues** → canal principal para propuestas, bugs, preguntas.
+- **Revisiones de Pull Request** → para revisar cambios concretos.
+
+---
+
+## 📜 Código de conducta
+
+Este proyecto sigue [`CODE_OF_CONDUCT.es.md`](CODE_OF_CONDUCT.es.md).
+Participar implica aceptarlo.
+
+---
+
+## 🙏 Gracias
+
+Gracias por dedicar tiempo a una herramienta que ayuda a las personas
+a aprender a su propio ritmo.

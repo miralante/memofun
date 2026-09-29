@@ -4,17 +4,16 @@
 
 ## Our pledge
 
-As members, contributors, and leaders of this project, we pledge to
+As members, contributors, and maintainers of this project, we pledge to
 make participation in our community a harassment-free experience for
-everyone, regardless of age, body size, visible or invisible
-disability, ethnicity, sex characteristics, gender identity and
-expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+everyone, regardless of age, body size, visible or invisible disability,
+ethnicity, sex characteristics, gender identity and expression, level of
+experience, education, socio-economic status, nationality, personal
+appearance, race, religion, or sexual identity and orientation.
 
-Since Memofun exists so that our typical user profile can study
-autonomously and without barriers, we expect that same spirit of
-clarity, patience, and respect in how contributors treat one another.
+Since the Miralante suite exists to help people learn at their own
+pace, with dignity and without pressure, we expect that same spirit of
+patience, clarity, and respect in how we treat each other.
 
 ## Our standards
 
@@ -32,37 +31,37 @@ Examples of unacceptable behavior:
 
 - The use of sexualized language or imagery, and sexual attention or
   advances of any kind.
-- Trolling, insulting or derogatory comments, and personal or
-  political attacks.
+- Trolling, insulting or derogatory comments, and personal or political
+  attacks.
 - Public or private harassment.
-- Publishing others' private information without their explicit
-  permission.
-- Other conduct which could reasonably be considered inappropriate in
-  a professional setting.
+- Publishing others' private information, such as a physical or email
+  address, without their explicit permission.
+- Other conduct which could reasonably be considered inappropriate in a
+  professional setting.
 
 ## Enforcement responsibilities
 
 Project maintainers are responsible for clarifying and enforcing our
 standards of acceptable behavior and will take appropriate and fair
-corrective action in response to any behavior they deem inappropriate,
-threatening, offensive, or harmful.
+corrective action in response to any behavior that they deem
+inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
 This Code of Conduct applies within all project spaces (issues, pull
-requests, discussions) and also applies when an individual is
-officially representing the project in public spaces.
+requests, discussions), and also applies when an individual is officially
+representing the project in public spaces.
 
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior
-may be reported to the project maintainers via a private issue or by
-contacting the repository maintainer directly. All complaints will be
+may be reported to the project maintainers at the contact address
+listed in the repository's `SECURITY.md` file. All complaints will be
 reviewed and investigated promptly and fairly.
 
 ## Attribution
 
 This Code of Conduct is adapted from the
-[Contributor Covenant](https://www.contributor-covenant.org), version
-2.1, available at
-https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.
+[Contributor Covenant](https://www.contributor-covenant.org), version 2.1,
+available at
+[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).

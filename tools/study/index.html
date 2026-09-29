@@ -35,6 +35,13 @@
 
     <div id="flashcard" class="flashcard" aria-live="polite"></div>
 
+    <!-- Order selector: Normal / Aleatorio / Inverso -->
+    <div class="order-row" id="order-row" role="group" aria-label="Orden de las tarjetas">
+      <button class="order-btn active" id="btn-order-normal" data-orden="normal" aria-pressed="true" type="button">Normal</button>
+      <button class="order-btn" id="btn-order-aleatorio" data-orden="aleatorio" aria-pressed="false" type="button">Aleatorio</button>
+      <button class="order-btn" id="btn-order-inverso" data-orden="inverso" aria-pressed="false" type="button">Inverso</button>
+    </div>
+
     <div class="flashcard-controls">
       <button id="btn-prev" class="btn secondary icon" type="button" aria-label="Anterior" data-i18n-aria="core.previous">‹</button>
       <button id="btn-reveal" class="btn icon" type="button" aria-label="Ver respuesta" data-i18n-aria="study.showAnswer">👀</button>

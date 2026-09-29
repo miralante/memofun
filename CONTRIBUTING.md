@@ -1,86 +1,159 @@
 # Contributing to Memofun
 
 > 🌐 **Other languages:** [Español](CONTRIBUTING.es.md)
+>
+> **Part of the [Miralante](https://apptonomia.uk) suite** —
+> Memofun is one of seven sibling projects (Apptonomia, Calculia,
+> Memofun, Okeymoney, Routime, Sinonimia, Teclatlon) that share the
+> same workflow, the same accessibility rules and the same code of
+> conduct. This repo ships **Memofun** itself.
 
-Memofun has three roles (see [`doc/en/roles.md`](doc/en/roles.md)):
-end user, support (family/teacher), and build (developer). This guide
-is for the latter two — the end user doesn't need to read any of this,
-just open the app.
+Thanks for your interest in contributing. This guide covers the GitHub
+workflow we follow across the suite, the project roles, and the small
+set of recipes that keep every sibling consistent.
 
-## 👥 Ways to contribute
-
-| I want to… | How |
-|---|---|
-| Add a new deck | Follow [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) (full step-by-step); summary: ask the AI agent to write the deck from a topic or a `config.md`, **review the content**, and add the entry to `decks/manifest.json` before opening a PR with the `.json` and the manifest. |
-| Fix or improve an existing deck | Edit the `.json` directly (it's plain text), or ask the agent to regenerate it and replace the file in `decks/`. |
-| Touch code (HTML/CSS/JS) | Follow the GitHub flow below. Read [`doc/en/technical.md`](doc/en/technical.md) first. The whole project is vanilla: no frameworks, no new dependencies. |
-| Translate the UI into a new language | Follow the [`doc/en/i18n.md`](doc/en/i18n.md) guide. |
-| Report a card whose `imagen` doesn't actually match it | Open an issue naming the deck file, the card (question text), and what's wrong. Deck images are picked from the Openverse search result's title/source text at authoring time, on purpose without opening the file to look at it (`doc/en/technical.md` §3.1) — mismatches are expected to slip through occasionally and get caught by readers, not by re-verifying every image up front. |
-
-## ⚠️ Before touching content generation
-
-Deck content is written directly by the AI agent in the repository
-(see "Generating deck content" in `CLAUDE.md`) — there is no script
-that calls an AI API, and there shouldn't be one. It is never wired
-into the public site, under any circumstance — see `doc/en/spec.md`
-§2.1. Any PR that adds a call to an AI service from `index.html`,
-`app.js`, `tools/study/`, `settings/`, or any script under `scripts/`,
-will be rejected.
-
-> **About the Miralante suite** — Memofun is one of **six apps** in
-> the [Miralante](https://apptonomia.uk) suite (Calculia, Memofun,
-> Okeymoney, Routime, Sinonimia, Teclatlon). The
-> [Apptonomia](https://github.com/miralante/apptonomia) repo hosts the
-> suite's **landing portal only** — it is not a runtime app. The full
-> table of the suite lives in this repo's
-> [`README.md` § "The Miralante suite — projects in the suite"](README.md#-the-miralante-suite--projects-in-the-suite).
+---
 
 ## 🔀 GitHub workflow
 
-```
-1. 🔍 Find or open an issue (in Spanish or English)
+```text
+1. 🔍 Search or create an issue (in Spanish or English)
 2. 💬 Comment and agree on scope
 3. 🌿 Create a branch (fork if you don't have push access)
-4. ✏️  Make the changes following doc/en/technical.md
-5. ✅ Run the validating scripts (see below)
-6. 📤 Open a Pull Request referencing the issue
-7. 👀 Wait for review (at least 1 maintainer)
-8. ✅ Merge once approved
+4. ✏️  Make changes following the recipes below
+5. 📤 Open a Pull Request (PR) referencing the issue
+6. 👀 Wait for review (at least 1 from a maintainer)
+7. ✅ Merge when approved
 ```
 
-## ✅ Validating changes
+**Issue labels** (used to classify incoming work):
 
-Three scripts run automatically in CI on every push and PR (see
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml) +
-[`.github/workflows/smoke-prod.yml`](.github/workflows/smoke-prod.yml)),
-but run them locally first to catch issues faster:
+| Label | Meaning |
+|---|---|
+| `UX` | Usability or experience improvement |
+| `content` | Texts, translations, accessibility copy |
+| `bug` | Reproducible error in behaviour |
+| `tech` | Technical implementation, refactor |
+| `docs` | Documentation changes |
+| `good first issue` | Suitable for a first contribution |
 
-```
-node scripts/check.js                  # 92 checks: structural, i18n parity, no-clinical-language, CSP quoting, deck manifest, sw.js ↔ disk
-node scripts/check-version-bump.js     # fails if you changed a sw.js FILES entry without bumping VERSION
-node scripts/i18n-keys-smoke.js        # informational: lists any data-i18n* / App.i18n.t() keys used but not registered in any locale
-node scripts/i18n-keys-smoke.js --strict   # same, but exits 1 on missing keys (use this in CI or when adding a new locale)
-node scripts/scan-secrets.js           # best-effort grep for accidentally committed API keys, tokens, private keys (same script as the CI secrets-scan job)
-node scripts/smoke-prod.js             # post-deploy: hits the live URL and checks headers + i18n parity + decks/manifest.json (needs PROD_URL)
-node scripts/limpiar-graphify-cache.js # dry-run: shows what would be removed from graphify-out/ (a regenerable agent artefact)
-```
+### Branch conventions
+
+- `feat/<slug>` — new features
+- `fix/<slug>` — bug fixes
+- `docs/<slug>` — documentation-only changes
+- `content/<slug>` — content-only changes (decks, cards)
+- `i18n/<code>` — translation to a language (e.g. `i18n/ca`, `i18n/gl`)
+
+### Commits
+
+- Message in **English** (repo convention), summary in imperative.
+- One thing per commit — large commits can be asked to be split.
+- If you close an issue, include `Closes #123` at the end.
+
+---
+
+## 👥 Project roles
+
+| # | Role | Reads what first |
+|---|---|---|
+| 1 | 👤 **End user** | The app — never this file. |
+| 2 | 🤝 **Support** (family / teacher) | `doc/en/roles.md`. |
+| 3 | 💻 **Contributor** (content or code) | This file, plus `doc/en/SPEC.md`, `doc/en/technical.md`, and `CLAUDE.md`. |
+
+> Technical decisions live with the contributor role, **not because the
+> end user is ignored, but because that is each role's domain.**
+> Product, content, language and UI design decisions **are tested and
+> validated with end users whenever possible**, and their feedback is
+> the primary source for improvement.
+
+---
+
+## 📝 What you can contribute
+
+| I want to… | How |
+|---|---|
+| Add a new deck | Follow [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md). |
+| Fix or improve an existing deck | Edit the `.json` directly, or ask the agent to regenerate it. |
+| Touch code (HTML/CSS/JS) | Follow the GitHub flow above. Read [`doc/en/technical.md`](doc/en/technical.md) first. |
+| Translate the UI into a new language | Follow the [`doc/en/i18n.md`](doc/en/i18n.md) guide. |
+| Report a card whose `imagen` doesn't match | Open an issue naming the deck, the card, and the problem. |
+
+---
+
+## 🌐 Recipes
+
+### Copy fix
+
+1. Edit the source-of-truth `strings.es.js` (`es` by default).
+2. Mirror the change in every other locale file (`en` minimum).
+3. Run `node scripts/check.js` to verify key parity.
+4. Open a PR with a one-line description.
+
+### New language
+
+See `doc/en/i18n.md` for the full step-by-step. Adding a language
+requires **no changes** to the bootstrap or app code.
+
+### Accessibility fix
+
+Read `doc/en/SPEC.md` §3 first — non-negotiable product constraints
+live there (buttons ≥ 64×64 px, WCAG AA contrast with AAA as the
+design target, easy-read copy, no-pressure feedback). Anything that
+breaks them will be rejected.
+
+### Adding or tightening a security header
+
+Headers live in `_headers`. The CSP is intentionally tight
+(`script-src 'self'`, no inline scripts; JSON-LD is data and does not
+require `unsafe-inline`). Tightening is welcome; loosening almost
+never is — open an issue first.
+
+---
 
 ## ✅ Checklist before opening a PR
 
-- [ ] `node scripts/check.js` passes with no errors.
-- [ ] If you touched a file cached by `sw.js`, you bumped `VERSION`
-      (`node scripts/check-version-bump.js` catches this automatically).
-- [ ] `node scripts/i18n-keys-smoke.js --strict` reports no missing
-      keys for the locales you touched.
-- [ ] `node scripts/scan-secrets.js` reports "no secrets found" (run
-      this locally before pushing if your change touched anything that
-      might look like a token).
-- [ ] If you added UI text, it's in `strings.es.js` **and**
-      `strings.en.js`.
-- [ ] If you added or changed a deck, you reviewed the content and
-      updated `decks/manifest.json`.
-- [ ] No user-facing text mentions "disability" or clinical jargon.
-- [ ] New content has a warm, fun tone (never sarcasm or double
-      meanings) and a curious fact where it fits — see
-      `doc/en/spec.md` §2.5.
-- [ ] Buttons ≥ 64×64 px, high contrast, no new timers.
+- [ ] `node scripts/check.js` passes locally.
+- [ ] `node scripts/check-version-bump.js` passes if `sw.js` was
+      touched, and `VERSION` was bumped for any cached file change.
+- [ ] If you added UI strings, every supported locale is in sync.
+- [ ] You tested in a real desktop browser (and on mobile if the app
+      is a PWA).
+- [ ] You did not add any new runtime dependency — vanilla HTML / CSS /
+      JS only.
+- [ ] You did not loosen the CSP in `_headers` without an issue.
+
+---
+
+## 🚫 What this repo does NOT accept
+
+- **Loosening the CSP** (`script-src 'self'` stays strict).
+- **New runtime dependencies** — vanilla HTML / CSS / JS only.
+- **Analytics / telemetry / third-party calls of any kind.**
+- **Personal data** of any kind.
+- **Calls to an AI service from `index.html`, `app.js`,
+  `tools/study/`, `settings/`, or any script under `scripts/`** —
+  deck content is written directly by the agent in this repo, never
+  fetched at runtime. See `doc/en/SPEC.md` §2.1.
+- **A SPA, a router, or a build step.**
+
+---
+
+## 📞 Communication
+
+- **Issues** → main channel for proposals, bugs, questions.
+- **Pull Request reviews** → for review of specific changes.
+
+---
+
+## 📜 Code of conduct
+
+This project follows [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
+Participating means accepting it.
+
+---
+
+## 🙏 Thanks
+
+Thanks for devoting time to a tool that helps people learn at their
+own pace.
