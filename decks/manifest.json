@@ -1020,24 +1020,44 @@
     "icono": "📋"
   },
   {
-    "id": "fpb-sa-1-itinerario-personal-empleabilidad",
-    "tema": "Habilidades sociales y trabajo en equipo",
+    "id": "fpb-sa-1-ipe-t1-seguridad-salud",
+    "tema": "Tema 1 · Seguridad y salud en el trabajo",
     "nivel": "principiante",
     "curso": "1º de FP Básica Servicios Administrativos",
     "asignatura": "Itinerario Personal para la Empleabilidad",
-    "cantidad": 15,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad.json",
-    "icono": "📋"
+    "cantidad": 18,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json",
+    "icono": "🛡️"
   },
   {
-    "id": "fpb-sa-1-itinerario-personal-empleabilidad-2",
-    "tema": "Derechos y deberes básicos de quien trabaja",
+    "id": "fpb-sa-1-ipe-t1-seguridad-salud-2",
+    "tema": "Tema 1 · Riesgos de seguridad",
     "nivel": "principiante",
     "curso": "1º de FP Básica Servicios Administrativos",
     "asignatura": "Itinerario Personal para la Empleabilidad",
-    "cantidad": 15,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad_2.json",
-    "icono": "📋"
+    "cantidad": 16,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad.json",
+    "icono": "⚡"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t1-seguridad-salud-3",
+    "tema": "Tema 1 · Agentes físicos, químicos y biológicos",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Itinerario Personal para la Empleabilidad",
+    "cantidad": 20,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales.json",
+    "icono": "🧪"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t1-seguridad-salud-4",
+    "tema": "Tema 1 · Riesgos ergonómicos y carga de trabajo",
+    "nivel": "principiante",
+    "curso": "1º de FP Básica Servicios Administrativos",
+    "asignatura": "Itinerario Personal para la Empleabilidad",
+    "cantidad": 16,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
+    "icono": "📦"
   },
   {
     "id": "fpb-sa-1-lengua-castellana",
@@ -2947,16 +2967,6 @@
     "asignatura": "Ciencias Sociales",
     "cantidad": 18,
     "file": "fpb_sa_1_ciencias-sociales_2.json",
-    "icono": "📋"
-  },
-  {
-    "id": "fpb-sa-1-itinerario-personal-empleabilidad-3",
-    "tema": "Equipo, entrevista y derechos laborales",
-    "nivel": "principiante",
-    "curso": "1º de FP Básica Servicios Administrativos",
-    "asignatura": "Itinerario Personal para la Empleabilidad",
-    "cantidad": 15,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad_3.json",
     "icono": "📋"
   },
   {

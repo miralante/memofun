@@ -3,37 +3,97 @@
 > Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
 > No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
 
-- Autoconocimiento: puntos fuertes y áreas de mejora: fpb_sa_1_itinerario-personal-empleabilidad.json (herramientas disponibles / músculo sin entrenar)
-- Habilidades sociales y trabajo en equipo: fpb_sa_1_itinerario-personal-empleabilidad.json (jugar en equipo; remar en la misma dirección)
-- Gestión del tiempo y del estrés: fpb_sa_1_itinerario-personal-empleabilidad.json (repartir horas del día; aflojar una cuerda tensa)
-- Búsqueda activa de empleo (definición y canales): fpb_sa_1_itinerario-personal-empleabilidad.json (planificar la búsqueda; ampliar la red; preguntar directo en empresas)
-- Currículum vitae (qué es y qué incluye): fpb_sa_1_itinerario-personal-empleabilidad.json (tarjeta de presentación profesional)
-- El autoconocimiento ayuda a encontrar el trabajo adecuado: fpb_sa_1_itinerario-personal-empleabilidad.json (buscar el zapato de tu talla)
-- Buscar empleo requiere constancia diaria: fpb_sa_1_itinerario-personal-empleabilidad.json (esfuerzo regular, como cualquier tarea)
-- Comunicación clara ayuda en la búsqueda de empleo: fpb_sa_1_itinerario-personal-empleabilidad.json (contar tu historia con claridad)
-- Es normal tardar en encontrar el primer empleo: fpb_sa_1_itinerario-personal-empleabilidad.json (plantar una semilla, hace falta paciencia)
-- Contrato de trabajo (qué es y tipos): fpb_sa_1_itinerario-personal-empleabilidad_2.json (reglas del juego; indefinido/temporal/parcial)
-- Derechos y deberes básicos de quien trabaja: fpb_sa_1_itinerario-personal-empleabilidad_2.json (red de seguridad / la otra cara de los derechos)
-- Nómina (qué es y qué información incluye): fpb_sa_1_itinerario-personal-empleabilidad_2.json (resumen de dónde sale y a dónde va el sueldo)
-- Seguridad Social: afiliación y prestaciones: fpb_sa_1_itinerario-personal-empleabilidad_2.json (sistema que cubre sanidad, paro, jubilación)
-- Prevención de riesgos laborales (incl. riesgos de oficina): fpb_sa_1_itinerario-personal-empleabilidad_2.json (anticiparse al peligro; malas posturas, fatiga visual, estrés)
-- Prevención del estrés en un puesto administrativo: fpb_sa_1_itinerario-personal-empleabilidad_2.json (repartir el peso de una mochila)
-- Elegir el propio itinerario formativo/profesional: fpb_sa_1_itinerario-personal-empleabilidad_2.json (decidir el camino; mapa antes de un viaje)
-- Conocer los derechos antes de firmar un contrato: fpb_sa_1_itinerario-personal-empleabilidad_2.json (leer bien el acuerdo)
-- Relación entre nómina y Seguridad Social (cotizaciones): fpb_sa_1_itinerario-personal-empleabilidad_2.json (parte del sueldo va a un fondo compartido)
-- Importancia de seguir formándose tras el ciclo: fpb_sa_1_itinerario-personal-empleabilidad_2.json (seguir entrenando tras lo básico)
-- Roles y responsabilidades dentro de un equipo: fpb_sa_1_itinerario-personal-empleabilidad_3.json (posiciones distintas en un equipo de fútbol)
-- Resolución de conflictos en el trabajo: fpb_sa_1_itinerario-personal-empleabilidad_3.json (dos compañeros que no se ponen de acuerdo, hablar y buscar punto medio)
-- Carta de presentación: fpb_sa_1_itinerario-personal-empleabilidad_3.json (nota que acompaña un regalo especial)
-- Entrevista de trabajo (cómo prepararla): fpb_sa_1_itinerario-personal-empleabilidad_3.json (repasar y practicar como para un examen)
-- Dónde buscar ofertas de trabajo (canales): fpb_sa_1_itinerario-personal-empleabilidad_3.json (pescar en varios sitios a la vez; portales, oficinas, contactos)
-- Jornada laboral y derecho al descanso: fpb_sa_1_itinerario-personal-empleabilidad_3.json (cargar batería del móvil para seguir funcionando)
-- Igualdad de oportunidades en el trabajo: fpb_sa_1_itinerario-personal-empleabilidad_3.json (carrera justa donde todos salen desde la misma línea)
-- Equipos de protección individual (EPI): fpb_sa_1_itinerario-personal-empleabilidad_3.json (casco de bici que protege la cabeza)
-- Opciones tras la FP Básica (grado medio o trabajo): fpb_sa_1_itinerario-personal-empleabilidad_3.json (cruce de caminos en un sendero)
-- Autoconocimiento (repetición, nuevo ángulo): fpb_sa_1_itinerario-personal-empleabilidad_3.json (espejo que muestra cómo eres realmente — evitar reusar: herramientas/músculo sin entrenar, zapato de tu talla)
-- Trabajo en equipo (repetición, nuevo ángulo): fpb_sa_1_itinerario-personal-empleabilidad_3.json (orquesta, instrumentos distintos tocando juntos — evitar reusar: jugar en equipo, remar en la misma dirección)
-- Currículum vitae (repetición, nuevo ángulo): fpb_sa_1_itinerario-personal-empleabilidad_3.json (foto que resume tu vida profesional — evitar reusar: tarjeta de presentación profesional)
-- Contrato de trabajo (repetición, nuevo ángulo): fpb_sa_1_itinerario-personal-empleabilidad_3.json (billete de tren con destino, fecha y condiciones — evitar reusar: reglas del juego, leer bien el acuerdo)
-- Prevención de riesgos laborales (repetición, nuevo ángulo): fpb_sa_1_itinerario-personal-empleabilidad_3.json (cinturón de seguridad antes de arrancar el coche — evitar reusar: anticiparse al peligro, malas posturas/fatiga visual/estrés)
-- Nómina (repetición, nuevo ángulo): fpb_sa_1_itinerario-personal-empleabilidad_3.json (ticket de compra que detalla qué pagaste — evitar reusar: resumen de dónde sale/va el sueldo, ficha con salario y descuentos)
+## Tema 1 — Seguridad y salud en el trabajo
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json` (§1-§3) — 18 tarjetas
+- `tema-1-seguridad-y-salud/riesgos-condiciones-seguridad.json` (§3.1) — 16 tarjetas
+- `tema-1-seguridad-y-salud/riesgos-ambientales.json` (§3.2) — 20 tarjetas
+- `tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json` (§3.3) — 16 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `.dev/IPP/` (Tema 1 = "Seguridad y salud
+en el trabajo"; Tema 2 = "Técnicas de prevención y protección" y queda fuera de esta serie).
+
+### Conceptos y dónde se han gastado ya
+
+#### Salud y trabajo (§1-§3) — solo en `salud-y-riesgo-laboral.json`
+
+- Prevención de riesgos laborales: trabajar no es solo hacer tareas, es hacerlas sin dañar la salud
+- Trabajo y salud: relación directa entre el trabajo y el estado de salud
+- Bienestar físico / mental / social: las tres partes de la salud (OMS), una tarjeta cada una
+- No estar enfermo: la idea de que la salud es solo eso es incompleta
+- Físico, mental y social: si falla una de las tres, la salud no está completa
+- El lugar de trabajo / Las herramientas / La forma de trabajar: los tres factores que afectan a la salud
+- Ruido: mucho ruido → perder audición
+- Postura al levantar: levantar mal algo pesado → duele la espalda
+- Productos tóxicos: pueden enfermar
+- Riesgo laboral: definición (posibilidad de un daño causado por o relacionado con el trabajo)
+- Condiciones de trabajo: definición (característica del trabajo que puede generar un riesgo)
+- Cuatro categorías: seguridad / ambientales / ergonómicos / psicosociales
+- Factores psicosociales: la cuarta familia, cómo se siente y se relaciona la persona
+- Conocer los riesgos: cierre del bloque
+
+#### §3.1 Condiciones de seguridad — nociones nuevas solo en `riesgos-condiciones-seguridad.json`
+
+- Condiciones de seguridad: las condiciones materiales del lugar de trabajo
+- Lugares de trabajo: áreas del centro donde se permanece
+- Máquinas y herramientas: máquina, aparato, instrumento o instalación
+- Riesgo eléctrico: cable en mal estado → calambre (el ejemplo más concreto del apartado)
+- Riesgo de incendio: fuegos no controlados
+
+#### §3.2 Condiciones ambientales — solo en `riesgos-ambientales.json`
+
+- Agentes físicos: formas de energía nocivas (ruido, iluminación, radiaciones, vibraciones, temperatura)
+- Ruido / Iluminación / Radiaciones / Vibraciones / Temperatura: una tarjeta por agente
+- Agentes químicos: sustancias con propiedades fisicoquímicas, químicas o toxicológicas
+- Físicoquímicas / Químicas / Toxicológicas: una tarjeta por familia de propiedades
+- Gas a presión / Explosivo / Comburente / Inflamable / Corrosivo / Peligro para la salud /
+  Toxicidad / Peligro grave: los ocho pictogramas, una tarjeta cada uno
+  - Ojo: el pictograma de "peligro grave" es la silueta con la estrella en el pecho; el de
+    "toxicidad" es la calavera. No intercambiarlos.
+  - "Comburente" es lo que hace que arda mejor, no el fuego en sí: la pista lo dice así a propósito.
+- Agentes biológicos: virus, gérmenes, bacterias
+- Exposición: el contacto con ese agente mientras trabajas es lo que hace el daño
+
+#### §3.3 Riesgos ergonómicos — solo en `carga-de-trabajo-y-ergonomia.json`
+
+- Riesgos ergonómicos: los aspectos físicos y mentales de la jornada
+- Carga de trabajo: introduce las dos caras sin nombrar ninguna (física / mental)
+- Carga física / Manipulación manual / Esfuerzo físico / Movimientos repetitivos
+- Carga mental / Cabeza y escritorio: el esfuerzo mental en la oficina
+  - "Movimientos repetitivos" está illustrado con una cadena de montaje porque es lo que
+    resalta el diagrama del módulo.
+
+### Repeticiones deliberadas (mismo concepto, ángulo distinto)
+
+Estas respuestas salen en más de una baraja a propósito: la repetición consolida, pero
+el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente distinto:
+
+- Ruido → 4 barajas: en `salud-y-riesgo-laboral` (ejemplo de trabajo), en
+  `riesgos-condiciones-seguridad` (la fuente del sonido), en `riesgos-ambientales` (forma de
+  energía) y en `carga-de-trabajo-y-ergonomia` (los cascos / tapones)
+- Postura al levantar → 3 barajas: en `salud-y-riesgo-laboral` (duele la espalda), en
+  `riesgos-condiciones-seguridad` (agacharse con las rodillas) y en
+  `carga-de-trabajo-y-ergonomia` (la regla: espalda recta, rodillas flexionadas)
+- Bienestar mental → 3 barajas: definición (`salud-y-riesgo-laboral`), la cabeza como lugar
+  en el que descansar (`riesgos-condiciones-seguridad`) y la pausa que la despeja
+  (`carga-de-trabajo-y-ergonomia`)
+- Conocer los riesgos → 2 barajas: conclusión del bloque (`salud-y-riesgo-laboral`) y el cartel
+  que avisa antes de empezar (`carga-de-trabajo-y-ergonomia`)
+- Prevención de riesgos laborales / Riesgo laboral / Condiciones de trabajo / Productos
+  tóxicos / Bienestar físico / Bienestar social / Físico, mental y social / Las herramientas
+  → 2 barajas cada una: primera vez en `salud-y-riesgo-laboral`, segunda en
+  `riesgos-condiciones-seguridad` con el ángulo ya indicado arriba
+- Iluminación / Temperatura / Agentes químicos / Agentes biológicos → 2 barajas cada una:
+  como agentes (`riesgos-ambientales`) y como protección en el puesto
+  (`carga-de-trabajo-y-ergonomia`)
+
+### Notas para quien amplíe la serie
+
+- Los pictogramas no tienen fotos libres utilizables en Openverse: cada tarjeta usa un objeto
+  real que transmite la misma idea (botella de gas, dinamita, bombonas de oxígeno, llama de
+  vela, metal corroído, calavera...). Si se repite un pictograma, usar otro objeto, no la misma foto.
+- Tema 2 es "Técnicas de prevención y protección" y está en las mismas fotos del módulo
+  (a partir de `WhatsApp Image 2026-09-22 at 22.29.41.jpeg`). Las dos fotos de
+  `22.23.35` son de mate, no del módulo: no sirven como fuente del temario.

@@ -187,9 +187,25 @@ function main() {
   ensureDir(OUT_DIR);
   var jsonOnly = process.argv.indexOf('--json') !== -1;
 
-  var files = fs.readdirSync(DECKS_DIR)
-    .filter(function (f) { return /\.json$/i.test(f); })
-    .sort();
+  /* Recurse into subfolders: a subject can group its temas in its own
+     directory under decks/ (e.g.
+     decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-…/deck.json,
+     referenced from manifest.json with a relative path), and a flat
+     readdirSync would silently skip every deck inside one. `concepts/` is
+     skipped — it holds the agent's "what's already covered" log, not decks. */
+  function collectDecks(dir, prefix, out) {
+    fs.readdirSync(dir, { withFileTypes: true }).forEach(function (entry) {
+      if (entry.isDirectory()) {
+        if (entry.name === 'concepts') return;
+        collectDecks(path.join(dir, entry.name), prefix + entry.name + '/', out);
+      } else if (/\.json$/i.test(entry.name) && entry.name !== 'manifest.json') {
+        out.push(prefix + entry.name);
+      }
+    });
+    return out;
+  }
+
+  var files = collectDecks(DECKS_DIR, '', []).sort();
 
   var all = [];
   files.forEach(function (f) {
