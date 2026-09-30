@@ -1,4 +1,4 @@
-﻿# technical.md â€” Architecture
+# technical.md â€” Architecture
 
 Product scope, audience and product rules live in [`SPEC.md`](SPEC.md). This
 document is the canonical source for technical and implementation decisions.
@@ -206,8 +206,8 @@ file, derive both from the path/frontmatter (e.g.
 a flat "other topics" section, exactly like before this field
 existed.
 
-**Optional `temaGrupo`** — a third level, for subjects whose syllabus is
-several *temas* with several *sections* inside each (e.g. the 1st-year
+**Optional `topicGroup`** — a third level, for subjects whose syllabus is
+several *topics* with several *sections* inside each (e.g. the 1st-year
 FP Basic itinerary module, where "Tema 1 · Seguridad y salud en el
 trabajo" is five sections). Free-text string with the same language
 rules as `curso`/`asignatura`:
@@ -216,21 +216,21 @@ rules as `curso`/`asignatura`:
 { "id": "fpb-sa-1-ipe-t1-seguridad-salud-4", "tema": "Riesgos ergonómicos y carga de trabajo",
   "nivel": "principiante", "curso": "1º de FP Básica Servicios Administrativos",
   "asignatura": "Itinerario Personal para la Empleabilidad",
-  "temaGrupo": "Tema 1 · Seguridad y salud en el trabajo",
+  "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
   "cantidad": 16, "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
   "icono": "📦" }
 ```
 
 When it is set, `tema` is **only the section's own name**, with no
-"Tema N · " prefix in front: the tema is its own level, not a prefix
+"Tema N · " prefix in front: the topic is its own level, not a prefix
 stamped on every title (a prefix just shows the same words twice, on
-two levels). `check.js` §8 fails on that prefix, and on a `temaGrupo`
+two levels). `check.js` §8 fails on that prefix, and on a `topicGroup`
 reused under two subjects. The file path follows the same convention:
 `decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
 
-### 4.1 Home screen navigation (courses/subjects/temas)
+### 4.1 Home screen navigation (courses/subjects/topics)
 
-Driven entirely by `?curso=&asignatura=&temaGrupo=` query params on
+Driven entirely by `?curso=&asignatura=&topicGroup=` query params on
 `index.html` — no router, no framework, plain `<a href>` navigation so
 back/forward and bookmarking work for free:
 
@@ -241,18 +241,18 @@ back/forward and bookmarking work for free:
 - `curso` set: subject cards for that course, plus a "pin as my
   course" toggle (`localStorage` `memofun:prefs.cursoFijado`). A
   subject with exactly one deck links straight to it; more than one
-  shows a small deck grid first — or one card per `temaGrupo` when
-  the subject's decks are split into temas.
+  shows a small deck grid first — or one card per `topicGroup` when
+  the subject's decks are split into topics.
 - `curso` + `asignatura`: what is inside that subject. One card per
-  tema when `temaGrupo` is used, otherwise the deck grid.
-- `temaGrupo` too: the sections of that tema, each with its own name.
-  The study screen repeats the tema name under the section title
-  (`temaGrupo` travels in the URL) and its back button returns here.
+  tema when `topicGroup` is used, otherwise the deck grid.
+- `topicGroup` too: the sections of that tema, each with its own name.
+  The study screen repeats the topic name under the section title
+  (`topicGroup` travels in the URL) and its back button returns here.
 - Pinned course: a "quick access" card appears at the top of the
   course level, linking straight into that course's subjects.
 
 This adds levels to the flow described in §5 rule 10 *only* for
-decks that opt into `curso`/`asignatura` (and `temaGrupo`) — flat
+decks that opt into `curso`/`asignatura` (and `topicGroup`) — flat
 decks are unaffected.
 
 ### 4.2 English locale (en) â€” invite-only curriculum

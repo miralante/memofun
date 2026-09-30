@@ -481,13 +481,13 @@ not AI-bulk-built.
    so the home screen groups it under that course instead of
    listing it as a one-off topic. Leave both unset for ad-hoc
    "modo simple" decks.
-   If the subject itself is split into *temas* and each tema into
-   *sections* (e.g. the itinerary module), set `temaGrupo` to the
+   If the subject itself is split into *topics* and each topic into
+   *sections* (e.g. the itinerary module), set `topicGroup` to the
    tema's name and keep `tema` as the section's own name —
-   **never** "Tema 1 · <sección>" in `tema`: the tema is its own
+   **never** "Tema 1 · <sección>" in `tema`: the topic is its own
    navigation level, and prefixing every section title just
    repeats the same words on two levels. `scripts/check.js` §8
-   fails on that prefix and on a `temaGrupo` reused under two
+   fails on that prefix and on a `topicGroup` reused under two
    subjects. Deck path and manifest `file` follow the same
    convention: `decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
 6. Tell the user what you generated and where, and that you've

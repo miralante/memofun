@@ -29,9 +29,9 @@
       size is within budget (technical.md §3.1 — fail over 200 KB so a
       full-res or otherwise non-thumbnail image can't sit in the repo
       unnoticed, and can't exceed Cloudflare's 25 MiB per-file deploy
-      limit on its own). An optional `temaGrupo` must be a non-empty
+      limit on its own). An optional `topicGroup` must be a non-empty
      string owned by a single subject, and its deck's `tema` must not
-     still repeat the "Tema N" prefix (technical.md §4 — the tema level
+     still repeat the "Tema N" prefix (technical.md §4 — the topic level
      exists so sections aren't flattened into one grid).
    9. doc/curriculum/ (recursively): every .md file parses as a valid
       content config (frontmatter with `tema`, via scripts/config-parser.js)
@@ -418,10 +418,10 @@ checks += 1;
     failures.push('decks/manifest.json: must be a JSON array');
     return;
   }
-  /* temaGrupo -> "curso / asignatura" that owns it, so the same tema
-     name reused under two subjects is caught (one tema belongs to one
-     subject; the tema level filters on all three at once). */
-  var temaOwners = {};
+  /* topicGroup -> "curso / asignatura" that owns it, so the same tema
+     name reused under two subjects is caught (one topic belongs to one
+     subject; the topic level filters on all three at once). */
+  var topicOwners = {};
   entries.forEach(function (entry, i) {
     var label = 'decks/manifest.json[' + i + ']';
     ['id', 'tema', 'nivel', 'cantidad', 'file'].forEach(function (field) {
@@ -437,27 +437,27 @@ checks += 1;
     if (entry.cantidad !== undefined && !Number.isFinite(Number(entry.cantidad))) {
       failures.push(label + ': "cantidad" is not a number — the home screen would show no card count');
     }
-    /* `temaGrupo` is optional (only subjects split into temas use it),
+    /* `topicGroup` is optional (only subjects split into topics use it),
        but when present it has to be usable: a non-empty string owned by
        a single subject, and a `tema` that no longer repeats the "Tema N"
-       prefix — that flattened title is exactly what the tema level
-       (app.js renderTemaLevel) replaced, so leaving it in place means
+       prefix — that flattened title is exactly what the topic level
+       (app.js renderSectionLevel) replaced, so leaving it in place means
        the same words are shown twice, on two levels. */
-    if (entry.temaGrupo !== undefined) {
-      if (typeof entry.temaGrupo !== 'string' || !entry.temaGrupo.trim()) {
-        failures.push(label + ': "temaGrupo" must be a non-empty string when present');
+    if (entry.topicGroup !== undefined) {
+      if (typeof entry.topicGroup !== 'string' || !entry.topicGroup.trim()) {
+        failures.push(label + ': "topicGroup" must be a non-empty string when present');
       } else {
         var owner = (entry.curso || '') + ' / ' + (entry.asignatura || '');
-        if (temaOwners[entry.temaGrupo] === undefined) {
-          temaOwners[entry.temaGrupo] = owner;
-        } else if (temaOwners[entry.temaGrupo] !== owner) {
-          failures.push(label + ': "temaGrupo" "' + entry.temaGrupo +
-            '" is also used under "' + temaOwners[entry.temaGrupo] +
-            '" — a tema belongs to a single subject, and the tema level matches on all three');
+        if (topicOwners[entry.topicGroup] === undefined) {
+          topicOwners[entry.topicGroup] = owner;
+        } else if (topicOwners[entry.topicGroup] !== owner) {
+          failures.push(label + ': "topicGroup" "' + entry.topicGroup +
+            '" is also used under "' + topicOwners[entry.topicGroup] +
+            '" — a tema belongs to a single subject, and the topic level matches on all three');
         }
         if (/^\s*tema\s*\d+\s*[·•:–—-]/i.test(String(entry.tema))) {
           failures.push(label + ': "tema" still repeats the "Tema N" prefix while the deck declares ' +
-            '"temaGrupo" — keep only the section name in "tema"; the tema is its own level');
+            '"topicGroup" — keep only the section name in "tema"; the topic is its own level');
         }
       }
     }
@@ -619,8 +619,8 @@ checks += 1;
   if (!Array.isArray(entries) || !entries.length) return;
 
   /* Every key any entry declares, not just entries[0]: several fields are
-     optional by design (curso/asignatura only on grouped decks, temaGrupo
-     only on the subjects split into temas), so a single sample entry is
+     optional by design (curso/asignatura only on grouped decks, topicGroup
+     only on the subjects split into topics), so a single sample entry is
      not representative — checking it would fail the moment a new
      optional field is introduced, and the fix would be to weaken the
      manifest instead. A renamed field still shows up here: no entry

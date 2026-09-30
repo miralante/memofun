@@ -18,7 +18,7 @@
   var deckTitle = params.get('titulo') || 'Memofun';
   var deckCurso = params.get('curso');
   var deckAsignatura = params.get('asignatura');
-  var deckTemaGrupo = params.get('temaGrupo');
+  var deckTopicGroup = params.get('topicGroup');
 
   var cards = [];
   var index = 0;
@@ -41,20 +41,20 @@
   document.title = deckTitle + ' | Memofun';
 
   /* Which tema the section belongs to, when the deck was opened from a
-     tema level (app.js renderTemaLevel). Shown as a quiet line under
+     tema level (app.js renderSectionLevel). Shown as a quiet line under
      the title: the deck title is the section name on its own, so
-     without this the header loses the "Tema 1 · …" context that used
+     without this the header loses the "Topic 1 · …" context that used
      to be flattened into every section's title. */
-  if (deckTemaGrupo) {
+  if (deckTopicGroup) {
     var contextEl = document.getElementById('deck-context');
-    contextEl.textContent = deckTemaGrupo;
+    contextEl.textContent = deckTopicGroup;
     contextEl.classList.remove('hidden');
   }
 
-  /* "Volver" returns to the screen this deck was opened from — the tema
-     level when the deck carries `temaGrupo`, the subject level
+  /* "Volver" returns to the screen this deck was opened from — the topic
+     level when the deck carries `topicGroup`, the subject level
      otherwise (same query-param levels app.js's buildUrl /
-     renderSubjectLevel / renderTemaLevel use) instead of always
+     renderSubjectLevel / renderSectionLevel use) instead of always
      resetting to the top-level home — see studyUrl() in the root
      app.js for where these params come from. Falls back to plain home
      for ad-hoc decks with no curso/asignatura, or when the page was
@@ -62,7 +62,7 @@
   if (deckCurso) {
     var backUrl = '../../index.html?curso=' + encodeURIComponent(deckCurso);
     if (deckAsignatura) backUrl += '&asignatura=' + encodeURIComponent(deckAsignatura);
-    if (deckTemaGrupo) backUrl += '&temaGrupo=' + encodeURIComponent(deckTemaGrupo);
+    if (deckTopicGroup) backUrl += '&topicGroup=' + encodeURIComponent(deckTopicGroup);
     btnBack.href = backUrl;
   }
 
