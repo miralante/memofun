@@ -1,5 +1,19 @@
 # CLAUDE.md — AI agent workflow
 
+## Shared Playwright installation
+
+Playwright and its browsers are installed globally for the machine by
+`dev/setups/pc-playwright-first-setup.ps1` or
+`pc-playwright-next-setup.ps1`. Run the project's existing browser-test
+command (for example, `npm run test:ui`) or invoke the global CLI with
+`playwright test`.
+
+Do not add `playwright` or `@playwright/test` to project dependencies, install
+Playwright with `npm`/`npx`, or run `npx playwright install`. The setup scripts
+manage the shared browser cache under `{drive}\apps\playwright_browsers`.
+Always attempt the relevant browser test; if the global CLI or browsers are
+unavailable, report that blocker and continue with the other checks.
+
 ## About this project
 
 Memofun is a **flashcard study app built around meaningful learning**: every card gives the learner a real-life clue (an everyday analogy, a concrete example, or "why it matters") and asks them to recall the concept itself — never a dictionary definition recited back as the answer. It is meant for autonomous review between sessions or classes, with decks prepared by a support person (family, teacher). It is one of the seven siblings of the Apptonomia suite.
@@ -467,6 +481,15 @@ not AI-bulk-built.
    so the home screen groups it under that course instead of
    listing it as a one-off topic. Leave both unset for ad-hoc
    "modo simple" decks.
+   If the subject itself is split into *temas* and each tema into
+   *sections* (e.g. the itinerary module), set `temaGrupo` to the
+   tema's name and keep `tema` as the section's own name —
+   **never** "Tema 1 · <sección>" in `tema`: the tema is its own
+   navigation level, and prefixing every section title just
+   repeats the same words on two levels. `scripts/check.js` §8
+   fails on that prefix and on a `temaGrupo` reused under two
+   subjects. Deck path and manifest `file` follow the same
+   convention: `decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
 6. Tell the user what you generated and where, and that you've
    applied the review checklist yourself
    (`doc/es/guia-interna-crear-barajas.md` §4) — but if the topic

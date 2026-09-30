@@ -5,11 +5,14 @@
    Decks that carry an optional `curso`/`asignatura` pair (see
    doc/en/technical.md §4) are browsed in two levels — courses, then
    subjects within a course — driven by ?curso=&asignatura= query
-   params so back/forward and bookmarking work with no router. Decks
-   without curso/asignatura (one-off "modo simple" decks) stay a flat
-   grid, exactly like before. A pinned course (localStorage prefs.cursoFijado,
-   set from the subject screen) surfaces as a quick-access shortcut on
-   the course screen. */
+   params so back/forward and bookmarking work with no router. A subject
+   whose decks carry an optional `temaGrupo` (see §4) gets a third
+   level: the subject lists its temas, and a tema lists the sections that
+   make it up, so a section title is just the section's name instead of
+   "Tema 1 · <section>". Decks without curso/asignatura (one-off "modo
+   simple" decks) stay a flat grid, exactly like before. A pinned course
+   (localStorage prefs.cursoFijado, set from the subject screen)
+   surfaces as a quick-access shortcut on the course screen. */
 (function () {
   'use strict';
 
@@ -114,6 +117,14 @@
     }
   ];
 
+  /* Icons for the tema level (inside a subject) — the grouping card that
+     opens the sections of one tema. Same convention as the two maps
+     above: a meaning per known tema, 📂 as the neutral fallback for a
+     folder-of-sections that isn't listed yet. */
+  var TEMA_ICONS = {
+    'Tema 1 · Seguridad y salud en el trabajo': '🛡️'
+  };
+
   /* Per-subject icons for the subject grid (inside a course). Each
      subject gets a single, recognisable mark; if a subject isn't listed
      here it falls back to a generic book. Same reasoning as COURSE_ICONS:
@@ -179,6 +190,10 @@
     return SUBJECT_ICONS[asignatura] || '📘';
   }
 
+  function temaIcon(temaGrupo) {
+    return TEMA_ICONS[temaGrupo] || '📂';
+  }
+
   var BADGE_CLASSES = ['', 'badge-b', 'badge-c', 'badge-d'];
 
   function badgeClassFor(index) {
@@ -186,10 +201,11 @@
     return cls ? ' ' + cls : '';
   }
 
-  function buildUrl(curso, asignatura) {
+  function buildUrl(curso, asignatura, temaGrupo) {
     var qs = new URLSearchParams();
     if (curso) qs.set('curso', curso);
     if (asignatura) qs.set('asignatura', asignatura);
+    if (temaGrupo) qs.set('temaGrupo', temaGrupo);
     var s = qs.toString();
     return 'index.html' + (s ? '?' + s : '');
   }
@@ -198,13 +214,15 @@
     var url = 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
       '&id=' + encodeURIComponent(deck.id) +
       '&titulo=' + encodeURIComponent(deck.tema);
-    /* Carries the course/subject the deck was opened from so the study
-       screen's "Volver" can return to that same level instead of always
-       resetting to the top-level home (see buildUrl/renderSubjectLevel/
-       renderDeckLevel above — same query-param-driven levels). */
+    /* Carries the course/subject/tema the deck was opened from so the
+       study screen's "Volver" can return to that same level instead of
+       always resetting to the top-level home (see buildUrl /
+       renderSubjectLevel / renderTemaLevel above — same
+       query-param-driven levels). */
     if (deck.curso) {
       url += '&curso=' + encodeURIComponent(deck.curso);
       if (deck.asignatura) url += '&asignatura=' + encodeURIComponent(deck.asignatura);
+      if (deck.temaGrupo) url += '&temaGrupo=' + encodeURIComponent(deck.temaGrupo);
     }
     return url;
   }
@@ -254,6 +272,36 @@
   function completedCount(decks, progress) {
     var done = (progress && progress.completed) || {};
     return decks.filter(function (d) { return done[d.id]; }).length;
+  }
+
+  /** "5 secciones · 89 tarjetas" for a group of decks, or just
+      "18 tarjetas" when the group is one single deck — saying "1
+      sección" would be noise. Totals come from `cantidad`, the same
+      number each deck card shows, so the two levels can't disagree. */
+  function groupMeta(groupDecks) {
+    if (groupDecks.length === 1) {
+      return (groupDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards');
+    }
+    var totalCards = groupDecks.reduce(function (sum, d) {
+      return sum + (Number(d.cantidad) || 0);
+    }, 0);
+    return groupDecks.length + ' ' + App.i18n.t('home.sections') +
+      ' · ' + totalCards + ' ' + App.i18n.t('home.cards');
+  }
+
+  /** A "Tema N · …" group card: opens the tema level, where its sections
+      are listed on their own. Falls back to the deck itself when a tema
+      only ever has one section — the same shortcut
+      renderSubjectLevel applies to a subject with a single deck, so a
+      one-deck group never costs an extra click. */
+  function temaCardHtml(temaGrupo, i, groupDecks) {
+    var single = groupDecks.length === 1;
+    var href = single ? studyUrl(groupDecks[0]) : buildUrl(groupDecks[0].curso, groupDecks[0].asignatura, temaGrupo);
+    return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
+      '<span class="deck-icon" aria-hidden="true">' + (single ? (groupDecks[0].icono || temaIcon(temaGrupo)) : temaIcon(temaGrupo)) + '</span>' +
+      '<h3>' + App.utils.escapeHtml(temaGrupo) + '</h3>' +
+      '<span class="deck-meta">' + groupMeta(groupDecks) + '</span>' +
+      '</a>';
   }
 
   /** Groups decks by a key, preserving first-seen order (manifest order). */
@@ -349,13 +397,36 @@
 
     html += '<div class="deck-grid" role="list">' + bySubject.order.map(function (asignatura, i) {
       var subjectDecks = bySubject.map[asignatura];
-      var single = subjectDecks.length === 1;
-      var href = single ? studyUrl(subjectDecks[0]) : buildUrl(curso, asignatura);
-      var meta = single
-        ? (subjectDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards')
-        : subjectDecks.length + ' ' + App.i18n.t('home.decks');
+      /* A subject can hold two shapes, in this order of precedence:
+         - decks grouped into temas (`temaGrupo`) → one card per tema, so
+           the sections inside a tema are never flattened into this
+           level with a repeated "Tema N · " prefix on every title;
+         - otherwise a single deck → link straight to it; several decks
+           → a flat grid, exactly as before this level existed. */
+      var byTema = groupBy(subjectDecks, function (d) { return d.temaGrupo || ''; });
+      var temas = byTema.order.filter(function (t) { return !!t; });
+      var href, meta, icon;
+      if (temas.length) {
+        var soloDeck = temas.length === 1 && byTema.map[temas[0]].length === 1;
+        href = soloDeck ? studyUrl(byTema.map[temas[0]][0]) : buildUrl(curso, asignatura);
+        icon = soloDeck ? (byTema.map[temas[0]][0].icono || temaIcon(temas[0])) : temaIcon(temas[0]);
+        /* Counts the sections inside the temas, not the temas
+           themselves: a subject with one tema would otherwise read
+           "1 temas", and what the person cares about here is how much
+           there is to study. */
+        var grouped = [];
+        temas.forEach(function (t) { grouped = grouped.concat(byTema.map[t]); });
+        meta = groupMeta(grouped);
+      } else {
+        var single = subjectDecks.length === 1;
+        href = single ? studyUrl(subjectDecks[0]) : buildUrl(curso, asignatura);
+        icon = single ? (subjectDecks[0].icono || subjectIcon(asignatura)) : subjectIcon(asignatura);
+        meta = single
+          ? (subjectDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards')
+          : subjectDecks.length + ' ' + App.i18n.t('home.decks');
+      }
       return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
-        '<span class="deck-icon" aria-hidden="true">' + (single ? (subjectDecks[0].icono || subjectIcon(asignatura)) : subjectIcon(asignatura)) + '</span>' +
+        '<span class="deck-icon" aria-hidden="true">' + icon + '</span>' +
         '<h3>' + App.utils.escapeHtml(asignatura) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
         '</a>';
@@ -369,19 +440,71 @@
     });
   }
 
-  function renderDeckLevel(decks, grid, progress, curso, asignatura) {
-    var filtered = decks.filter(function (d) {
+  /** Asignatura level (`?curso=&asignatura=`): what's inside one subject.
+      Two shapes, decided by whether the subject uses `temaGrupo`:
+      - with temas → one card per tema (the level the subject card
+        links to when the subject is split into sections);
+      - without temas → the flat deck grid, unchanged from before.
+      A subject that mixes both keeps its ungrouped decks in a second
+      grid under a heading, so nothing is ever hidden. */
+  function renderAsignaturaLevel(decks, grid, progress, curso, asignatura) {
+    var inSubject = decks.filter(function (d) {
       return d.curso === curso && (d.asignatura || '') === asignatura;
     });
-    if (!filtered.length) {
+    if (!inSubject.length) {
       history.replaceState(null, '', buildUrl(curso));
       renderSubjectLevel(decks, grid, progress, curso);
       return;
     }
+    var byTema = groupBy(inSubject, function (d) { return d.temaGrupo || ''; });
+    var temas = byTema.order.filter(function (t) { return !!t; });
+    var ungrouped = byTema.map[''] || [];
+
     var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(curso)) +
       '<h2 class="section-heading">' +
       App.utils.escapeHtml(asignatura) +
       ' <span class="section-heading-meta">' + App.utils.escapeHtml(curso) + '</span>' +
+      '</h2></div>';
+
+    if (temas.length) {
+      html += '<div class="deck-grid" role="list">' + temas.map(function (t, i) {
+        return temaCardHtml(t, i, byTema.map[t]);
+      }).join('') + '</div>';
+      if (ungrouped.length) {
+        html += '<h2 class="section-heading">' + App.i18n.t('home.otherSections') + '</h2>';
+        html += '<div class="deck-grid" role="list">' +
+          ungrouped.map(function (d, i) { return deckCardHtml(d, i + temas.length, progress); }).join('') +
+          '</div>';
+      }
+    } else {
+      html += '<div class="deck-grid" role="list">' +
+        inSubject.map(function (d, i) { return deckCardHtml(d, i, progress); }).join('') +
+        '</div>';
+    }
+    grid.innerHTML = html;
+  }
+
+  /** Tema level: the sections that make up one tema, listed with their
+      own names. This is the level that replaces flattening "Tema 1 · …"
+      into every section's title at the subject level. */
+  function renderTemaLevel(decks, grid, progress, curso, asignatura, temaGrupo) {
+    var filtered = decks.filter(function (d) {
+      return d.curso === curso &&
+        (d.asignatura || '') === asignatura &&
+        (d.temaGrupo || '') === temaGrupo;
+    });
+    if (!filtered.length) {
+      /* A hand-edited or stale ?temaGrupo= must not dead-end: drop back
+         to the asignatura level (one step up, not two — the course's
+         subject list would be a level the URL never asked for). */
+      history.replaceState(null, '', buildUrl(curso, asignatura));
+      renderAsignaturaLevel(decks, grid, progress, curso, asignatura);
+      return;
+    }
+    var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(curso, asignatura)) +
+      '<h2 class="section-heading">' +
+      App.utils.escapeHtml(temaGrupo) +
+      ' <span class="section-heading-meta">' + App.utils.escapeHtml(asignatura) + '</span>' +
       '</h2></div>';
     html += '<div class="deck-grid" role="list">' +
       filtered.map(function (d, i) { return deckCardHtml(d, i, progress); }).join('') +
@@ -499,8 +622,10 @@
       var params = new URLSearchParams(location.search);
       var curso = params.get('curso');
       var asignatura = params.get('asignatura');
+      var temaGrupo = params.get('temaGrupo');
 
-      if (curso && asignatura) renderDeckLevel(decks, grid, progress, curso, asignatura);
+      if (curso && asignatura && temaGrupo) renderTemaLevel(decks, grid, progress, curso, asignatura, temaGrupo);
+      else if (curso && asignatura) renderAsignaturaLevel(decks, grid, progress, curso, asignatura);
       else if (curso) renderSubjectLevel(decks, grid, progress, curso);
       else renderCourseLevel(decks, grid, progress);
     } catch (err) {

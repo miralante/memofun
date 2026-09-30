@@ -118,6 +118,9 @@ AI surface in the product, not more:
 - There is no "right/wrong" grading card by card — review is free,
   untimed, unlimited passes.
 - Finishing a full pass through a deck adds 1 ⭐, never removes one.
+- Cards always come in **the deck's own order**: the JSON order *is*
+  the learning sequence. There is no random or reverse button, because
+  memorising works with the sequence, not against it.
 
 ### 2.3 No time pressure
 

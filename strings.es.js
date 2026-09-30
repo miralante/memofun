@@ -13,6 +13,8 @@ if (window.App.i18n) {
       chooseCourse: 'Elige tu curso',
       subjects: 'asignaturas',
       decks: 'barajas',
+      sections: 'secciones',
+      otherSections: 'Otras secciones',
       otherTopics: 'Otros temas',
       quickAccess: 'Acceso rápido',
       continue: 'Continuar →',

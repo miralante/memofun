@@ -15,10 +15,7 @@ if (window.App.i18n) {
       finishPhrases: ['¡Has repasado toda la baraja!', '¡Listo! Sigue cuando quieras.', '¡Bien hecho! Otra vez cuando te apetezca.'],
       milestoneHalf: '¡Vas por la mitad!',
       milestoneThreeQuarters: '¡Ya casi está!',
-      starEarned: '+{n} ⭐',
-      orderNormal: 'Normal',
-      orderAleatorio: 'Aleatorio',
-      orderInverso: 'Inverso'
+      starEarned: '+{n} ⭐'
     }
   }, 'es');
 }

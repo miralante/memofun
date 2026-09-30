@@ -1,10 +1,14 @@
 /* Memofun — study screen: pass through one deck's cards, revealing the
    answer with a button (swipe or the prev/next buttons move between
-   cards). No timers, no right/wrong grading — finishing a full pass
-   earns one star (SPEC.md §2.2/§2.6: praise-only, progress only ever
-   adds up). Ends on a persistent screen (not an auto-redirect): the
-   person decides when to leave, matching Apptonomia's activity
-   contract and SPEC.md §2.8. */
+   cards). Cards always go in the deck's own order (sequential): the
+   JSON order IS the teaching sequence, and memorising works from that
+   sequence, not from a shuffle — so there is no order picker (the old
+   Normal/Aleatorio/Inverso row was removed on purpose, see
+   doc/es/spec.md §2.2). No timers, no right/wrong grading — finishing a
+   full pass earns one star (SPEC.md §2.2/§2.6: praise-only, progress
+   only ever adds up). Ends on a persistent screen (not an
+   auto-redirect): the person decides when to leave, matching
+   Apptonomia's activity contract and SPEC.md §2.8. */
 (function () {
   'use strict';
 
@@ -14,18 +18,10 @@
   var deckTitle = params.get('titulo') || 'Memofun';
   var deckCurso = params.get('curso');
   var deckAsignatura = params.get('asignatura');
+  var deckTemaGrupo = params.get('temaGrupo');
 
   var cards = [];
-  var baseCards = []; // original deck order before ordering/shuffle
   var index = 0;
-
-  // Card order: 'normal' | 'aleatorio' | 'inverso'
-  // Read from URL param first, fall back to stored preference.
-  var ordenParam = params.get('orden');
-  var storedPrefs = null;
-  try { storedPrefs = JSON.parse(App.storage.get('studyPrefs') || '{}'); } catch (e) {}
-  if (storedPrefs === null) storedPrefs = {};
-  var currentOrden = ordenParam || storedPrefs.orden || 'normal';
 
   var statusEl = document.getElementById('study-status');
   var areaEl = document.getElementById('study-area');
@@ -44,15 +40,29 @@
   document.getElementById('deck-title').textContent = deckTitle;
   document.title = deckTitle + ' | Memofun';
 
-  /* "Volver" returns to the course/subject screen this deck was opened
-     from (same query-param levels app.js's buildUrl/renderSubjectLevel/
-     renderDeckLevel use) instead of always resetting to the top-level
-     home — see studyUrl() in the root app.js for where these params
-     come from. Falls back to plain home for ad-hoc decks with no
-     curso/asignatura, or when the page was opened directly. */
+  /* Which tema the section belongs to, when the deck was opened from a
+     tema level (app.js renderTemaLevel). Shown as a quiet line under
+     the title: the deck title is the section name on its own, so
+     without this the header loses the "Tema 1 · …" context that used
+     to be flattened into every section's title. */
+  if (deckTemaGrupo) {
+    var contextEl = document.getElementById('deck-context');
+    contextEl.textContent = deckTemaGrupo;
+    contextEl.classList.remove('hidden');
+  }
+
+  /* "Volver" returns to the screen this deck was opened from — the tema
+     level when the deck carries `temaGrupo`, the subject level
+     otherwise (same query-param levels app.js's buildUrl /
+     renderSubjectLevel / renderTemaLevel use) instead of always
+     resetting to the top-level home — see studyUrl() in the root
+     app.js for where these params come from. Falls back to plain home
+     for ad-hoc decks with no curso/asignatura, or when the page was
+     opened directly. */
   if (deckCurso) {
     var backUrl = '../../index.html?curso=' + encodeURIComponent(deckCurso);
     if (deckAsignatura) backUrl += '&asignatura=' + encodeURIComponent(deckAsignatura);
+    if (deckTemaGrupo) backUrl += '&temaGrupo=' + encodeURIComponent(deckTemaGrupo);
     btnBack.href = backUrl;
   }
 
@@ -328,72 +338,19 @@
   btnReveal.addEventListener('click', revealAnswer);
   btnNext.addEventListener('click', goNext);
   btnPrev.addEventListener('click', goPrev);
-  btnStudyAgain.addEventListener('click', function () {
-    // Re-apply current order (for aleatorio this re-shuffles).
-    // Always return to the study area first.
+  btnStudyAgain.addEventListener('click', startSession);
+
+  /* Start (or restart) a pass through the deck from its first card, in
+     the deck's own order. Shared by "Repasar otra vez" and by init()
+     after the deck loads, so both paths reset the end screen, the card
+     counter and the focus the same way. */
+  function startSession() {
     index = 0;
     endScreenEl.classList.add('hidden');
     areaEl.classList.remove('hidden');
-    applyOrden(currentOrden);
-  });
-
-  /* Apply the selected card order (normal / aleatorio / inverso) to baseCards,
-     update the URL so the order is shareable, and persist the preference. */
-  function applyOrden(orden) {
-    currentOrden = orden;
-    cards = baseCards.slice(); // always work on a fresh copy
-
-    if (orden === 'aleatorio') {
-      // Fisher-Yates shuffle
-      for (var i = cards.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var tmp = cards[i];
-        cards[i] = cards[j];
-        cards[j] = tmp;
-      }
-    } else if (orden === 'inverso') {
-      cards.reverse();
-    }
-    // 'normal' → cards in baseCards order (no change)
-
-    // Update URL so the order is reflected in the address bar
-    var url = new URL(location.href);
-    url.searchParams.set('orden', orden);
-    history.replaceState(null, '', url.toString());
-
-    // Persist preference
-    var prefs = {};
-    try { prefs = JSON.parse(App.storage.get('studyPrefs') || '{}'); } catch (e) {}
-    if (prefs === null) prefs = {};
-    prefs.orden = orden;
-    App.storage.set('studyPrefs', prefs);
-
-    // Highlight the active button and reset to first card
-    document.querySelectorAll('.order-btn').forEach(function (btn) {
-      var active = btn.dataset.orden === orden;
-      btn.classList.toggle('active', active);
-      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
-    });
-
-    index = 0;
-    if (areaEl && !areaEl.classList.contains('hidden')) {
-      endScreenEl.classList.add('hidden');
-      areaEl.classList.remove('hidden');
-      renderCard();
-      btnReveal.focus();
-    }
+    renderCard();
+    btnReveal.focus();
   }
-
-  /* Wire up the three order buttons. */
-  document.getElementById('btn-order-normal').addEventListener('click', function () {
-    applyOrden('normal');
-  });
-  document.getElementById('btn-order-aleatorio').addEventListener('click', function () {
-    applyOrden('aleatorio');
-  });
-  document.getElementById('btn-order-inverso').addEventListener('click', function () {
-    applyOrden('inverso');
-  });
 
   async function init() {
     renderStars();
@@ -408,13 +365,10 @@
     }
     try {
       var deck = await App.decks.readUrl('../../decks/' + deckFile);
-      baseCards = deck.cards;
-      cards = baseCards.slice();
-      if (!cards.length) throw new Error('deckVacio');
+      cards = deck.cards;
+      if (!cards || !cards.length) throw new Error('deckVacio');
       statusEl.classList.add('hidden');
-      areaEl.classList.remove('hidden');
-      // Apply the saved or URL-based order (this also highlights the right button)
-      applyOrden(currentOrden);
+      startSession();
     } catch (err) {
       statusEl.textContent = App.i18n.t('study.error');
     }

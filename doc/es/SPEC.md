@@ -123,6 +123,10 @@ dirección — menos superficie de IA en el producto, no más:
 - No hay corrección "bien/mal" tarjeta a tarjeta — el repaso es libre,
   sin cronómetro, sin límite de vueltas.
 - Terminar una pasada completa de una baraja suma 1 ⭐, nunca se resta.
+- Las tarjetas salen **siempre en el orden de la baraja**: el orden del
+  JSON *es* la secuencia de aprendizaje. No hay botón de orden
+  aleatorio ni inverso, porque memorizar funciona con la secuencia,
+  no contra ella.
 
 ### 2.3 Sin presión temporal
 

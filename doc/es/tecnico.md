@@ -220,28 +220,59 @@ definir en barajas sueltas de "modo simple" sin curso propio â€” caen en
 una secciÃ³n plana de "otros temas", igual que antes de que existiera
 este campo.
 
-### 4.1 NavegaciÃ³n de la pantalla de inicio (cursos/asignaturas)
+**`temaGrupo` (opcional)** — un tercer nivel, para las asignaturas cuyo
+temario son varios *temas* y cada tema varias *secciones* (por ejemplo
+el módulo "Itinerario Personal para la Empleabilidad" de 1º de FPB,
+donde el "Tema 1 · Seguridad y salud en el trabajo" son cinco
+secciones). Cadena de texto libre con las mismas reglas de idioma que
+`curso`/`asignatura`:
 
-Todo se controla con los parÃ¡metros `?curso=&asignatura=` en
-`index.html` â€” sin router ni framework, solo enlaces `<a href>`
-normales, asÃ­ que atrÃ¡s/adelante y los marcadores funcionan gratis:
+```json
+{ "id": "fpb-sa-1-ipe-t1-seguridad-salud-4", "tema": "Riesgos ergonómicos y carga de trabajo",
+  "nivel": "principiante", "curso": "1º de FP Básica Servicios Administrativos",
+  "asignatura": "Itinerario Personal para la Empleabilidad",
+  "temaGrupo": "Tema 1 · Seguridad y salud en el trabajo",
+  "cantidad": 16, "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
+  "icono": "📦" }
+```
 
-- Sin parÃ¡metro `curso`: tarjetas de curso (una por cada `curso` Ãºnico
-  entre las barajas), mÃ¡s una rejilla plana de "otros temas" para las
+En ese caso `tema` es **solo el nombre de la sección**, sin repetir el
+"Tema N · " delante: el tema es su propio nivel, no un prefijo pegado
+a cada título (si no, las mismas palabras aparecen dos veces y en dos
+niveles). La regla 8 de `check.js` falla si un `tema` que declara
+`temaGrupo` conserva ese prefijo, y también si un mismo `temaGrupo`
+aparece bajo dos asignaturas distintas. La ruta del fichero sigue la
+misma convención: `decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
+
+### 4.1 Navegación de la pantalla de inicio (cursos/asignaturas/temas)
+
+Todo se controla con los parámetros `?curso=&asignatura=&temaGrupo=` en
+`index.html` — sin router ni framework, solo enlaces `<a href>`
+normales, así que atrás/adelante y los marcadores funcionan gratis:
+
+- Sin parámetro `curso`: tarjetas de curso (una por cada `curso` único
+  entre las barajas), más una rejilla plana de "otros temas" para las
   barajas sin `curso`. Si ninguna baraja tiene `curso`, esto se reduce
-  exactamente a la rejilla plana original (no aparece ningÃºn nivel de
+  exactamente a la rejilla plana original (no aparece ningún nivel de
   curso).
-- Con `curso`: tarjetas de asignatura de ese curso, mÃ¡s un botÃ³n para
+- Con `curso`: tarjetas de asignatura de ese curso, más un botón para
   "fijar como mi curso" (`localStorage` `memofun:prefs.cursoFijado`).
   Una asignatura con una sola baraja enlaza directamente a ella; con
-  mÃ¡s de una, primero muestra una rejilla pequeÃ±a de barajas.
-- Curso fijado: aparece una tarjeta de "acceso rÃ¡pido" al principio
+  más de una, primero muestra una rejilla pequeña de barajas — o, si
+  sus barajas declaran `temaGrupo`, una tarjeta por tema.
+- Con `curso` y `asignatura`: qué hay dentro de la asignatura. Con
+  `temaGrupo`, una tarjeta por tema; sin él, la rejilla de barajas.
+- Con `temaGrupo` también: las secciones del tema, cada una con su
+  propio nombre. La pantalla de estudio repite el nombre del tema bajo
+  el título de la sección (`temaGrupo` viaja en la URL) y su botón
+  "volver" regresa a este nivel.
+- Curso fijado: aparece una tarjeta de "acceso rápido" al principio
   del nivel de cursos, que enlaza directamente a las asignaturas de
   ese curso.
 
-Esto aÃ±ade un nivel al flujo descrito en la regla 10 de §5 **solo**
-para las barajas que usan `curso`/`asignatura` â€” las barajas planas no
-se ven afectadas.
+Esto añade niveles al flujo descrito en la regla 10 de §5 **solo**
+para las barajas que usan `curso`/`asignatura` (y `temaGrupo`) — las
+barajas planas no se ven afectadas.
 
 ### 4.2 VersiÃ³n en inglÃ©s (en) â€” temario con invitaciÃ³n a participar
 

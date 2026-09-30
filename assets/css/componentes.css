@@ -97,6 +97,19 @@ header.app-header .tagline {
   text-overflow: ellipsis;
 }
 
+/* Quiet line under the study title naming the tema the section belongs
+   to (app.js studyUrl passes `temaGrupo`). It is context, not a second
+   heading: regular weight and the faintest text tone available, and it
+   never truncates because it wraps — a long tema name must stay
+   readable. Hidden entirely for decks with no tema. */
+.deck-context {
+  margin: calc(var(--space-2) * -1 + var(--space-1)) 0 var(--space-2);
+  font-size: var(--text-small);
+  font-weight: var(--weight-regular);
+  color: var(--color-text-tenue);
+  text-align: center;
+}
+
 /* ---------- Language selector (present in the header, like Apptonomia's
    idioma-selector — a language switch is a day-one decision the end
    user may need, not a "support" setting tucked away) ---------- */
@@ -556,7 +569,7 @@ header.app-header .tagline {
   height: 6px;
   flex: 1;
   min-width: 0;
-  background: #ddd9eb;
+  background: var(--color-border);
   border: 0;
   border-radius: 4px;
   overflow: hidden;
@@ -566,7 +579,8 @@ header.app-header .tagline {
   position: relative;
   height: 100%;
   width: 0%;
-  background: #7462bb;
+  background: var(--accent);
+  background-image: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.18) 0 3px, transparent 3px 6px);
   border-radius: 4px;
   transition: width var(--motion-normal) var(--ease);
 }
@@ -751,39 +765,6 @@ header.app-header .tagline {
    Safari quirk with fast flex-content swaps. Cheap and inert elsewhere. */
 .flashcard-controls .btn {
   transform: translateZ(0);
-}
-
-/* ---------- Order selector ---------- */
-.order-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--space-1);
-  margin-top: var(--space-2);
-  flex-wrap: wrap;
-}
-
-.order-btn {
-  font-size: var(--text-sm);
-  padding: var(--space-1) var(--space-2);
-  border-radius: var(--radius);
-  border: 1.5px solid var(--color-border);
-  background: transparent;
-  color: var(--color-text-muted);
-  cursor: pointer;
-  transition: background 150ms, color 150ms, border-color 150ms;
-  font-family: inherit;
-}
-
-.order-btn:hover {
-  border-color: var(--color-primary);
-  color: var(--color-primary);
-}
-
-.order-btn.active {
-  background: var(--color-primary);
-  border-color: var(--color-primary);
-  color: #fff;
 }
 
 /* ---------- Feedback zone ---------- */
