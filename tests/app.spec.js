@@ -243,6 +243,12 @@ test('8 — reveal button shows the answer', async ({ browser }) => {
     console.log('Deck responses captured:', JSON.stringify(deckResponses));
     console.log('Console errors:', JSON.stringify(consoleLogs));
     await expect(page.locator('#study-area')).toBeVisible({ timeout: 10000 });
+    /* The card renders with class "flip-out" while its initial flip runs, and
+       the app's animation guard correctly refuses to reveal mid-flip. Clicking
+       before the flip settles made this test fail intermittently depending on
+       machine speed — the same race the other card tests already guard against
+       with waitForFlipDone. */
+    await waitForFlipDone(page);
     await page.locator('#btn-reveal').click();
     await expect(page.locator('#flashcard.revealed')).toBeVisible({ timeout: 5000 });
   } finally {
@@ -617,19 +623,19 @@ test('20 — back button returns to subject list from deck list', async ({ brows
   await expect(page.locator('#deck-grid .deck-card', { hasText: 'Biología y Geología' }).first()).toBeVisible();
 });
 
-test('21 — study tool back button respects curso param', async ({ browser }) => {
+test('21 — study tool back button respects course param', async ({ browser }) => {
   const page = await openWithStorage(browser, () => {}, 0);
-  // Open study tool with curso param so "Volver" returns to the course screen
+  // Open study tool with course param so "Volver" returns to the course screen
   await page.goto(
     BASE + 'tools/study/index.html' +
     '?deck=' + ESO1_BIO_DECK_FILE +
     '&id=' + ESO1_BIO_DECK_ID +
     '&titulo=Biologia' +
-    '&curso=' + encodeURIComponent('1º de ESO') +
-    '&asignatura=' + encodeURIComponent('Biología y Geología')
+    '&course=' + encodeURIComponent('1º de ESO') +
+    '&subject=' + encodeURIComponent('Biología y Geología')
   );
   await expect(page.locator('#study-area')).toBeVisible({ timeout: 10000 });
   const backHref = await page.locator('#btn-back').getAttribute('href');
   // btn-back should point back to the course page, not just index.html
-  expect(backHref).toContain('curso=');
+  expect(backHref).toContain('course=');
 });

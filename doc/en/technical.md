@@ -50,7 +50,7 @@ Single `window.App` namespace, loaded in this order on every page:
 - **`App.tts`**: `speak(text, [onEnd])` â€” Web Speech API, on demand only.
 - **`App.storage`**: `get/set/remove/clearAll(key)` over `localStorage`, `memofun:` prefix; `completeDeck(id)` implements the progress contract (SPEC.md §2.6).
 - **`App.feedback`**: `success(zone)`, `encourage(zone)`, `celebrate(message, after)` â€” Web Audio, no sound files.
-- **`App.decks`**: `readFile(file)` / `readUrl(url)` â†’ `Promise<{tema, nivel, idioma, tarjetas}>`. Reads the JSON directly with `fetch`/`File.text()` â€” no ZIP, no SQLite/WASM, no external library at all.
+- **`App.decks`**: `readFile(file)` / `readUrl(url)` â†’ `Promise<{topic, level, idioma, tarjetas}>`. Reads the JSON directly with `fetch`/`File.text()` â€” no ZIP, no SQLite/WASM, no external library at all.
 
 ## 3. Deck file format
 
@@ -58,8 +58,8 @@ Memofun uses **its own format**, not Anki's `.apkg`: a plain JSON file.
 
 ```json
 {
-  "tema": "Docker y Contenedores",
-  "nivel": "intermedio",
+  "topic": "Docker y Contenedores",
+  "level": "intermedio",
   "idioma": "es",
   "tarjetas": [
     { "pregunta": "...", "respuesta": "..." }
@@ -177,8 +177,8 @@ not concatenate all decks into one data bundle.
 Array of objects:
 
 ```json
-{ "id": "docker", "tema": "Docker y Contenedores", "nivel": "intermedio",
-  "cantidad": 10, "file": "docker_memofun.json", "icono": "ðŸ³" }
+{ "id": "docker", "topic": "Docker y Contenedores", "level": "intermedio",
+  "amount": 10, "file": "docker_memofun.json", "icon": "ðŸ³" }
 ```
 
 `id` is used as the `localStorage` key (`progreso.completado[id]`) â€”
@@ -186,22 +186,22 @@ it can just be the file's slug (readable, deterministic, no hashing
 needed). Whoever writes the deck (the AI agent) adds this entry by
 hand after reviewing the content.
 
-**Optional `curso` / `asignatura`** â€” free-text strings (same language
+**Optional `course` / `subject`** â€” free-text strings (same language
 as the deck's own content, no ES/EN parity required, same rule as
-`tema`), e.g.:
+`topic`), e.g.:
 
 ```json
-{ "id": "ks2-3-english", "tema": "English - Key Stage 2, Year 3",
-  "nivel": "principiante", "curso": "Year 3 (KS2)", "asignatura": "English",
-  "cantidad": 12, "file": "ks2_3_english.json", "icono": "ðŸ“š" }
+{ "id": "ks2-3-english", "topic": "English - Key Stage 2, Year 3",
+  "level": "principiante", "course": "Year 3 (KS2)", "subject": "English",
+  "amount": 12, "file": "ks2_3_english.json", "icon": "ðŸ“š" }
 ```
 
 When present, the home screen (`app.js`) groups decks into a
 course-then-subject drill-down instead of a flat grid â€” see §4.1. When
-generating a deck from a `doc/curriculum/<idioma>/<etapa>/<curso>/<asignatura>.md`
+generating a deck from a `doc/curriculum/<idioma>/<etapa>/<course>/<subject>.md`
 file, derive both from the path/frontmatter (e.g.
-`key-stage-2/3/english-literature.md` â†’ `curso: "Year 3 (KS2)"`,
-`asignatura: "English Literature"`); leave both unset for one-off
+`key-stage-2/3/english-literature.md` â†’ `course: "Year 3 (KS2)"`,
+`subject: "English Literature"`); leave both unset for one-off
 "modo simple" decks with no course of their own â€” they fall back to
 a flat "other topics" section, exactly like before this field
 existed.
@@ -210,49 +210,49 @@ existed.
 several *topics* with several *sections* inside each (e.g. the 1st-year
 FP Basic itinerary module, where "Tema 1 · Seguridad y salud en el
 trabajo" is five sections). Free-text string with the same language
-rules as `curso`/`asignatura`:
+rules as `course`/`subject`:
 
 ```json
-{ "id": "fpb-sa-1-ipe-t1-seguridad-salud-4", "tema": "Riesgos ergonómicos y carga de trabajo",
-  "nivel": "principiante", "curso": "1º de FP Básica Servicios Administrativos",
-  "asignatura": "Itinerario Personal para la Empleabilidad",
+{ "id": "fpb-sa-1-ipe-t1-seguridad-salud-4", "topic": "Riesgos ergonómicos y carga de trabajo",
+  "level": "principiante", "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
   "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-  "cantidad": 16, "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
-  "icono": "📦" }
+  "amount": 16, "file": "fpb_sa_1_itinerario-personal-empleabilidad/topic-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
+  "icon": "📦" }
 ```
 
-When it is set, `tema` is **only the section's own name**, with no
+When it is set, `topic` is **only the section's own name**, with no
 "Tema N · " prefix in front: the topic is its own level, not a prefix
 stamped on every title (a prefix just shows the same words twice, on
 two levels). `check.js` §8 fails on that prefix, and on a `topicGroup`
 reused under two subjects. The file path follows the same convention:
-`decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
+`decks/<slug>/topic-<n>-<topic>/<seccion>.json`.
 
 ### 4.1 Home screen navigation (courses/subjects/topics)
 
-Driven entirely by `?curso=&asignatura=&topicGroup=` query params on
+Driven entirely by `?course=&subject=&topicGroup=` query params on
 `index.html` — no router, no framework, plain `<a href>` navigation so
 back/forward and bookmarking work for free:
 
-- No `curso` param: course cards (one per unique `curso` across
+- No `course` param: course cards (one per unique `course` across
   decks), plus a flat "other topics" grid for decks without a
-  `curso`. If every deck lacks `curso`, this degrades to exactly the
+  `course`. If every deck lacks `course`, this degrades to exactly the
   original flat grid (no course level shown at all).
-- `curso` set: subject cards for that course, plus a "pin as my
+- `course` set: subject cards for that course, plus a "pin as my
   course" toggle (`localStorage` `memofun:prefs.cursoFijado`). A
   subject with exactly one deck links straight to it; more than one
   shows a small deck grid first — or one card per `topicGroup` when
   the subject's decks are split into topics.
-- `curso` + `asignatura`: what is inside that subject. One card per
-  tema when `topicGroup` is used, otherwise the deck grid.
-- `topicGroup` too: the sections of that tema, each with its own name.
+- `course` + `subject`: what is inside that subject. One card per
+  topic when `topicGroup` is used, otherwise the deck grid.
+- `topicGroup` too: the sections of that topic, each with its own name.
   The study screen repeats the topic name under the section title
   (`topicGroup` travels in the URL) and its back button returns here.
 - Pinned course: a "quick access" card appears at the top of the
   course level, linking straight into that course's subjects.
 
 This adds levels to the flow described in §5 rule 10 *only* for
-decks that opt into `curso`/`asignatura` (and `topicGroup`) — flat
+decks that opt into `course`/`subject` (and `topicGroup`) — flat
 decks are unaffected.
 
 ### 4.2 English locale (en) â€” invite-only curriculum
@@ -267,7 +267,7 @@ mirrors `doc/curriculum/en/`:
 
 - **Top level** â€” one card per stage (`Key Stage 1` â€¦ `Key Stage 4`,
   `Entry Level Business`, `BTEC Business L2`), each linking to its
-  subjects via `?en=1&curso=<stage>`.
+  subjects via `?en=1&course=<stage>`.
 - **Subject level** â€” one *invite card* per subject (`English
   Literature`, `Science`, `History`, `Geography`, etc.). The card is
   not a deck link: it shows the subject, the message "No deck yet â€”
@@ -293,7 +293,7 @@ flow with no other state to reset.
 When the first real English deck ships, the rule for promoting a
 subject from "invite card" to "deck card" is the same as for any
 Spanish deck (`§4`): add the `decks/<slug>.json` file, add a
-matching `decks/manifest.json` entry with `curso`/`asignatura`
+matching `decks/manifest.json` entry with `course`/`subject`
 matching the EN_CURRICULUM stage and subject, and the EN home will
 automatically surface it (the EN render still branches on locale;
 when a manifest entry exists for a given subject the EN path can
@@ -315,7 +315,7 @@ opt to swap the invite card for the real deck link â€” see
 9. ARIA on icon buttons (`data-i18n-aria`) and feedback zones
    (`aria-live`/`role="status"`).
 10. At most 3 screens in the main flow (home â†’ deck â†’ card); decks
-    grouped by `curso`/`asignatura` add one optional level (courses â†’
+    grouped by `course`/`subject` add one optional level (courses â†’
     subjects â†’ deck â†’ card) â€” see §4.1.
 11. Progress only ever adds up: see `App.storage.completeDeck` contract.
 12. Focus always visible (`:focus-visible` in `base.css`, never removed).
@@ -372,15 +372,15 @@ codebase â€” zero API keys, zero network calls to AI services, anywhere
 in the project.
 
 The **content ingestion point** is still a Markdown file with
-frontmatter (`tema`, `nivel`, `cantidad`, `salida`, optional `idioma`)
+frontmatter (`topic`, `level`, `amount`, `salida`, optional `idioma`)
 plus the document body â€” the same format as before, just read by the
 agent directly instead of by a script:
 
-- **`tema` alone**: the agent freely picks the subtopics most relevant
+- **`topic` alone**: the agent freely picks the subtopics most relevant
   to that topic at the given level.
-- **`tema` + a `# Ãndice`**: an `# Ãndice` (or `## Ãndice`, any heading
+- **`topic` + a `# Ãndice`**: an `# Ãndice` (or `## Ãndice`, any heading
   level) section in the Markdown body, with a bullet list
-  (`- subtopic`). The agent spreads `cantidad` cards across every
+  (`- subtopic`). The agent spreads `amount` cards across every
   listed point â€” none skipped, none invented. Useful when the support
   person already has a syllabus or outline and wants the deck to
   follow it closely. See the example in `config.md`, or the
@@ -402,7 +402,7 @@ it only understands its shape.
    outline coverage if there is one).
 3. The agent writes `decks/<salida>.json` directly (§3's format).
 4. The agent adds the matching entry to `decks/manifest.json`, with
-   `curso`/`asignatura` if the deck came from a `doc/curriculum/`
+   `course`/`subject` if the deck came from a `doc/curriculum/`
    file (see §4).
 5. If the deck extends an existing series (`literatura` â†’ `_2` â†’
    `_3`â€¦), the agent reads `decks/concepts/<base-slug>.md` instead of
@@ -563,7 +563,7 @@ the **template**; deviations are called out where they apply.
         <button type="button" class="btn-idioma" id="btnIdiomaEn"
                 data-locale="en" aria-pressed="false">ðŸ‡¬ðŸ‡§ English</button>
       </div>
-      <img src="../assets/img/icono.svg" alt="" width="80" height="80"
+      <img src="../assets/img/icon.svg" alt="" width="80" height="80"
            class="logo-{legal|about}">
       <h1>â€¦</h1>
       <p class="lema" data-i18n="tagline">â€¦</p>
@@ -756,7 +756,7 @@ var FILES = [
   './assets/js/tts.js',
   './assets/js/storage.js',
   './assets/js/feedback.js',
-  './assets/img/icono.svg'
+  './assets/img/icon.svg'
 ];
 ```
 

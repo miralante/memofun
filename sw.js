@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v86';
+var VERSION = 'memofun-v87';
 
 var FILES = [
   './index.html',
@@ -38,6 +38,11 @@ var FILES = [
   './assets/css/componentes.css',
   './assets/css/locale-picker.css',
   './assets/js/locale-picker.js',
+  './assets/js/locale-picker-config.js',
+  './assets/js/lang-buttons.js',
+  './assets/js/site-greeting.js',
+  './assets/js/team-i18n.js',
+  './assets/js/sw-register.js',
   './assets/fonts/atkinson-hyperlegible-400.woff2',
   './assets/fonts/atkinson-hyperlegible-700.woff2',
   './assets/fonts/nunito-variable.woff2',

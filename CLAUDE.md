@@ -373,8 +373,8 @@ locks in the project's default: English decks are community-built,
 not AI-bulk-built.
 
 1. Read the content config: either a `doc/curriculum/**/*.md` file
-   or a one-off `config.md`-shaped file (frontmatter: `tema`,
-   `nivel`, `cantidad`, `salida`, optional `idioma`; body: optional
+   or a one-off `config.md`-shaped file (frontmatter: `topic`,
+   `level`, `amount`, `salida`, optional `idioma`; body: optional
    `# Índice` bullet list — see `doc/es/tecnico.md` §3 and §8 for
    the exact shape, `scripts/config-parser.js` for the parsing
    rules if you need them read programmatically).
@@ -390,7 +390,7 @@ not AI-bulk-built.
    then show it working) rather than quiz-style. Skip this step for
    topics that are just a set of facts with no mechanic to
    front-load.
-3. Write `cantidad` cards in Spanish (or `idioma` if set), each
+3. Write `amount` cards in Spanish (or `idioma` if set), each
    `{"pregunta": "...", "respuesta": "..."}`. **Card design
    principle — read this before writing a single card**: the
    priority is never "explain a lot." It's getting the person to (a)
@@ -454,7 +454,7 @@ not AI-bulk-built.
      idea always beats the longer one that explains more.
      `respuesta`: 1-6 words, no sentence structure needed. Simple
      HTML only (`<mark>`, `<b>`, `<i>`, `<br>`) — never markdown.
-   - Adapt depth to `nivel` (principiante/intermedio/avanzado).
+   - Adapt depth to `level` (principiante/intermedio/avanzado).
      Don't number cards or repeat the topic name verbatim in every
      question. Repeating a concept on purpose (see step 7 below) is
      fine; padding with a card that adds zero new nuance, example,
@@ -466,30 +466,30 @@ not AI-bulk-built.
      Without one, pick the subtopics yourself.
    - Full reasoning: `doc/en/SPEC.md` §2.5.
 4. Write the deck directly: `decks/<salida>` (or
-   `decks/<slug>.json` derived from `tema` if `salida` wasn't
+   `decks/<slug>.json` derived from `topic` if `salida` wasn't
    given — see `scripts/config-parser.js`'s `slugify()`), matching
-   the schema in `doc/en/technical.md` §3: `{tema, nivel, idioma,
+   the schema in `doc/en/technical.md` §3: `{topic, level, idioma,
    tarjetas}`.
-5. Add the entry to `decks/manifest.json` yourself: `{id, tema,
-   nivel, cantidad, file, icono}` — `id` can just be the slug
+5. Add the entry to `decks/manifest.json` yourself: `{id, topic,
+   level, amount, file, icon}` — `id` can just be the slug
    (readable, deterministic, no hashing needed). If the source was
-   a `doc/curriculum/<idioma>/<etapa>/<curso>/<asignatura>.md`
-   file, also set `curso` and `asignatura` (derived from the
+   a `doc/curriculum/<idioma>/<etapa>/<course>/<subject>.md`
+   file, also set `course` and `subject` (derived from the
    path, e.g. `primaria/3/lengua-castellana.md` →
-   `curso: "3º de Primaria"`,
-   `asignatura: "Lengua Castellana"` — `doc/en/technical.md` §4)
+   `course: "3º de Primaria"`,
+   `subject: "Lengua Castellana"` — `doc/en/technical.md` §4)
    so the home screen groups it under that course instead of
    listing it as a one-off topic. Leave both unset for ad-hoc
    "modo simple" decks.
    If the subject itself is split into *topics* and each topic into
    *sections* (e.g. the itinerary module), set `topicGroup` to the
-   tema's name and keep `tema` as the section's own name —
-   **never** "Tema 1 · <sección>" in `tema`: the topic is its own
+   topic's name and keep `topic` as the section's own name —
+   **never** "Tema 1 · <sección>" in `topic`: the topic is its own
    navigation level, and prefixing every section title just
    repeats the same words on two levels. `scripts/check.js` §8
    fails on that prefix and on a `topicGroup` reused under two
    subjects. Deck path and manifest `file` follow the same
-   convention: `decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
+   convention: `decks/<slug>/topic-<n>-<topic>/<seccion>.json`.
 6. Tell the user what you generated and where, and that you've
    applied the review checklist yourself
    (`doc/es/guia-interna-crear-barajas.md` §4) — but if the topic

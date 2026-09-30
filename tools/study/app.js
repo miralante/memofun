@@ -16,8 +16,8 @@
   var deckFile = params.get('deck');
   var deckId = params.get('id') || deckFile || 'deck';
   var deckTitle = params.get('titulo') || 'Memofun';
-  var deckCurso = params.get('curso');
-  var deckAsignatura = params.get('asignatura');
+  var deckCourse = params.get('course');
+  var deckSubject = params.get('subject');
   var deckTopicGroup = params.get('topicGroup');
 
   var cards = [];
@@ -40,8 +40,8 @@
   document.getElementById('deck-title').textContent = deckTitle;
   document.title = deckTitle + ' | Memofun';
 
-  /* Which tema the section belongs to, when the deck was opened from a
-     tema level (app.js renderSectionLevel). Shown as a quiet line under
+  /* Which topic the section belongs to, when the deck was opened from a
+     topic level (app.js renderSectionLevel). Shown as a quiet line under
      the title: the deck title is the section name on its own, so
      without this the header loses the "Topic 1 · …" context that used
      to be flattened into every section's title. */
@@ -57,11 +57,11 @@
      renderSubjectLevel / renderSectionLevel use) instead of always
      resetting to the top-level home — see studyUrl() in the root
      app.js for where these params come from. Falls back to plain home
-     for ad-hoc decks with no curso/asignatura, or when the page was
+     for ad-hoc decks with no course/subject, or when the page was
      opened directly. */
-  if (deckCurso) {
-    var backUrl = '../../index.html?curso=' + encodeURIComponent(deckCurso);
-    if (deckAsignatura) backUrl += '&asignatura=' + encodeURIComponent(deckAsignatura);
+  if (deckCourse) {
+    var backUrl = '../../index.html?course=' + encodeURIComponent(deckCourse);
+    if (deckSubject) backUrl += '&subject=' + encodeURIComponent(deckSubject);
     if (deckTopicGroup) backUrl += '&topicGroup=' + encodeURIComponent(deckTopicGroup);
     btnBack.href = backUrl;
   }
@@ -256,7 +256,7 @@
     showStarToast();
     areaEl.classList.add('hidden');
     document.getElementById('transfer-phrase').textContent =
-      App.i18n.t('study.transferPhrase').replace('{tema}', deckTitle);
+      App.i18n.t('study.transferPhrase').replace('{topic}', deckTitle);
     endScreenEl.classList.remove('hidden');
     /* Vary the headline message across sessions via App.i18n.pick so
        finishing a deck never feels scripted (still no right/wrong, no

@@ -276,32 +276,11 @@
   <script src="../assets/js/storage.js"></script>
   <script src="/site/strings.es.js"></script>
   <script src="/site/strings.en.js"></script>
-  <script>
-    (function () {
-      'use strict';
-
-      function pintarSelectorIdioma() {
-        var activo = App.i18n.locale();
-        document.getElementById('btnLangEs').setAttribute('aria-pressed', String(activo === 'es'));
-        document.getElementById('btnLangEn').setAttribute('aria-pressed', String(activo === 'en'));
-      }
-
-      document.getElementById('btnSaludo').addEventListener('click', function () {
-        App.tts.speak(App.i18n.t('saludo'));
-      });
-
-      document.getElementById('btnLangEs').addEventListener('click', function () {
-        App.i18n.setLocale('es');
-      });
-      document.getElementById('btnLangEn').addEventListener('click', function () {
-        App.i18n.setLocale('en');
-      });
-      pintarSelectorIdioma();
-
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('../sw.js').catch(function () {});
-      }
-    })();
-  </script>
+  <!-- Greeting button, language switch and service-worker registration live
+       in external files: the CSP (`script-src 'self'`) blocks inline
+       scripts, so the inline copy of this block never ran in production. -->
+  <script src="../assets/js/site-greeting.js" defer></script>
+  <script src="../assets/js/lang-buttons.js" defer></script>
+  <script src="../assets/js/sw-register.js" defer></script>
 </body>
 </html>

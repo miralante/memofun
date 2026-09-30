@@ -195,19 +195,7 @@
   </div>
 </footer>
 
-<script>/* Locale-picker config (must run BEFORE assets/js/locale-picker.js).
-   Memofun stores its strings next to index.html (not under js/), so
-   we point the picker at the right relative path. storageKey matches
-   the one assets/js/i18n.js writes to localStorage so the user's
-   choice is shared between the picker and the app's own i18n core. */
-window.LocalePickerConfig = {
-  storageKey: 'memofun:locale',
-  path: null,
-  requiredLocales: ['es', 'en'],
-  defaultLocale: 'en',
-  settingsHref: 'config/'
-};
-</script>
+<script src="assets/js/locale-picker-config.js" defer></script>
 <script src="assets/js/utils.js"></script>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/tts.js"></script>
@@ -218,23 +206,12 @@ window.LocalePickerConfig = {
 <script src="strings.en.js"></script>
 <script src="app.js"></script>
 <script src="assets/js/locale-picker.js?v=memofun-v2" defer></script>
-<!-- Service-worker registration. Lazy + try/catch so older browsers
-     (or private mode where navigator.serviceWorker is unavailable)
-     silently no-op rather than throwing. Same-origin './sw.js' keeps
-     the CSP `script-src 'self'` and `worker-src 'self'` directives
-     happy. The install handler in sw.js is what pre-caches the app
-     shell listed in FILES. See CLAUDE.md §B.1 for the cache
-     contract and the bump-on-every-cached-file-change rule. -->
-<script>
-(function () {
-  if (!('serviceWorker' in navigator)) return;
-  window.addEventListener('load', function () {
-    navigator.serviceWorker.register('./sw.js').catch(function (err) {
-      console.warn('[memofun] service worker registration failed:', err);
-    });
-  });
-})();
-</script>
+<!-- Service-worker registration. Externalised into assets/js/sw-register.js
+     because the CSP (`script-src 'self'`) blocks inline scripts, so the old
+     inline snippet never ran. The install handler in sw.js is what pre-caches
+     the app shell listed in FILES. See CLAUDE.md §B.1 for the cache contract
+     and the bump-on-every-cached-file-change rule. -->
+<script src="assets/js/sw-register.js" defer></script>
 
 </body>
 </html>

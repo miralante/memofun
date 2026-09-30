@@ -62,8 +62,8 @@ JSON plano.
 
 ```json
 {
-  "tema": "Docker y Contenedores",
-  "nivel": "intermedio",
+  "topic": "Docker y Contenedores",
+  "level": "intermedio",
   "idioma": "es",
   "tarjetas": [
     { "pregunta": "...", "respuesta": "..." }
@@ -191,8 +191,8 @@ un Ãºnico paquete de datos.
 Array de objetos:
 
 ```json
-{ "id": "docker", "tema": "Docker y Contenedores", "nivel": "intermedio",
-  "cantidad": 10, "file": "docker_memofun.json", "icono": "ðŸ³" }
+{ "id": "docker", "topic": "Docker y Contenedores", "level": "intermedio",
+  "amount": 10, "file": "docker_memofun.json", "icon": "ðŸ³" }
 ```
 
 `id` se usa como clave en `localStorage` (`progreso.completado[id]`) â€”
@@ -200,14 +200,14 @@ puede ser simplemente el slug del archivo (legible, determinista, sin
 necesidad de generar un hash). Quien escribe la baraja (el agente de
 IA) aÃ±ade esta entrada a mano tras revisar el contenido.
 
-**`curso` / `asignatura` (opcionales)** â€” cadenas de texto libre (en
+**`course` / `subject` (opcionales)** â€” cadenas de texto libre (en
 el mismo idioma que el contenido de la baraja, sin exigencia de
-paridad ES/EN, igual que `tema`), por ejemplo:
+paridad ES/EN, igual que `topic`), por ejemplo:
 
 ```json
-{ "id": "primaria-3-matematicas", "tema": "MatemÃ¡ticas - 3Âº de Primaria",
-  "nivel": "principiante", "curso": "3Âº de Primaria", "asignatura": "MatemÃ¡ticas",
-  "cantidad": 12, "file": "primaria_3_matematicas.json", "icono": "ðŸ”¢" }
+{ "id": "primaria-3-matematicas", "topic": "MatemÃ¡ticas - 3Âº de Primaria",
+  "level": "principiante", "course": "3Âº de Primaria", "subject": "MatemÃ¡ticas",
+  "amount": 12, "file": "primaria_3_matematicas.json", "icon": "ðŸ”¢" }
 ```
 
 Si estÃ¡n presentes, la pantalla de inicio (`app.js`) agrupa las
@@ -225,21 +225,21 @@ temario son varios *topics* y cada tema varias *secciones* (por ejemplo
 el módulo "Itinerario Personal para la Empleabilidad" de 1º de FPB,
 donde el "Tema 1 · Seguridad y salud en el trabajo" son cinco
 secciones). Cadena de texto libre con las mismas reglas de idioma que
-`curso`/`asignatura`:
+`course`/`subject`:
 
 ```json
-{ "id": "fpb-sa-1-ipe-t1-seguridad-salud-4", "tema": "Riesgos ergonómicos y carga de trabajo",
-  "nivel": "principiante", "curso": "1º de FP Básica Servicios Administrativos",
-  "asignatura": "Itinerario Personal para la Empleabilidad",
+{ "id": "fpb-sa-1-ipe-t1-seguridad-salud-4", "topic": "Riesgos ergonómicos y carga de trabajo",
+  "level": "principiante", "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
   "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-  "cantidad": 16, "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
-  "icono": "📦" }
+  "amount": 16, "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
+  "icon": "📦" }
 ```
 
-En ese caso `tema` es **solo el nombre de la sección**, sin repetir el
+En ese caso `topic` es **solo el nombre de la sección**, sin repetir el
 "Tema N · " delante: el tema es su propio nivel, no un prefijo pegado
 a cada título (si no, las mismas palabras aparecen dos veces y en dos
-niveles). La regla 8 de `check.js` falla si un `tema` que declara
+niveles). La regla 8 de `check.js` falla si un `topic` que declara
 `topicGroup` conserva ese prefijo, y también si un mismo `topicGroup`
 aparece bajo dos asignaturas distintas. La ruta del fichero sigue la
 misma convención: `decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
@@ -250,17 +250,17 @@ Todo se controla con los parámetros `?curso=&asignatura=&topicGroup=` en
 `index.html` — sin router ni framework, solo enlaces `<a href>`
 normales, así que atrás/adelante y los marcadores funcionan gratis:
 
-- Sin parámetro `curso`: tarjetas de curso (una por cada `curso` único
+- Sin parámetro `course`: tarjetas de curso (una por cada `course` único
   entre las barajas), más una rejilla plana de "otros topics" para las
-  barajas sin `curso`. Si ninguna baraja tiene `curso`, esto se reduce
+  barajas sin `course`. Si ninguna baraja tiene `course`, esto se reduce
   exactamente a la rejilla plana original (no aparece ningún nivel de
   curso).
-- Con `curso`: tarjetas de asignatura de ese curso, más un botón para
+- Con `course`: tarjetas de asignatura de ese curso, más un botón para
   "fijar como mi curso" (`localStorage` `memofun:prefs.cursoFijado`).
   Una asignatura con una sola baraja enlaza directamente a ella; con
   más de una, primero muestra una rejilla pequeña de barajas — o, si
   sus barajas declaran `topicGroup`, una tarjeta por tema.
-- Con `curso` y `asignatura`: qué hay dentro de la asignatura. Con
+- Con `course` y `subject`: qué hay dentro de la asignatura. Con
   `topicGroup`, una tarjeta por tema; sin él, la rejilla de barajas.
 - Con `topicGroup` también: las secciones del tema, cada una con su
   propio nombre. La pantalla de estudio repite el nombre del tema bajo
@@ -271,7 +271,7 @@ normales, así que atrás/adelante y los marcadores funcionan gratis:
   ese curso.
 
 Esto añade niveles al flujo descrito en la regla 10 de §5 **solo**
-para las barajas que usan `curso`/`asignatura` (y `topicGroup`) — las
+para las barajas que usan `course`/`subject` (y `topicGroup`) — las
 barajas planas no se ven afectadas.
 
 ### 4.2 VersiÃ³n en inglÃ©s (en) â€” temario con invitaciÃ³n a participar
@@ -316,7 +316,7 @@ Cuando se publique la primera baraja real en inglÃ©s, la regla para
 promocionar una asignatura de "tarjeta de invitaciÃ³n" a "tarjeta
 de baraja" es la misma que para cualquier baraja en espaÃ±ol
 (`§4`): aÃ±adir el fichero `decks/<slug>.json`, aÃ±adir la entrada
-correspondiente en `decks/manifest.json` con `curso`/`asignatura`
+correspondiente en `decks/manifest.json` con `course`/`subject`
 coincidiendo con la etapa y la asignatura de `EN_CURRICULUM`, y la
 pantalla EN la mostrarÃ¡ automÃ¡ticamente (el render EN sigue
 bifurcando por locale; cuando exista una entrada de manifest para
@@ -340,7 +340,7 @@ invitaciÃ³n por el enlace a la baraja real â€” ver
 9. ARIA en botones de icono (`data-i18n-aria`) y zonas de feedback
    (`aria-live`/`role="status"`).
 10. MÃ¡ximo 3 pantallas en el flujo principal (inicio â†’ baraja â†’
-    tarjeta); las barajas agrupadas por `curso`/`asignatura` aÃ±aden un
+    tarjeta); las barajas agrupadas por `course`/`subject` aÃ±aden un
     nivel opcional (cursos â†’ asignaturas â†’ baraja â†’ tarjeta) â€” ver §4.1.
 11. Progreso solo positivo: ver contrato de `App.storage.completeDeck`.
 12. Foco visible siempre (`:focus-visible` en `base.css`, nunca se quita).
@@ -400,15 +400,15 @@ API keys, cero llamadas de red a servicios de IA, en ningÃºn archivo
 del proyecto.
 
 El **punto de ingesta de contenidos** sigue siendo un archivo Markdown
-con frontmatter (`tema`, `nivel`, `cantidad`, `salida`, `idioma`
+con frontmatter (`topic`, `level`, `amount`, `salida`, `idioma`
 opcional) + el cuerpo del documento â€” el mismo formato de antes, solo
 que ahora lo lee el agente directamente en vez de un script:
 
-- **Solo `tema`**: el agente elige libremente los subtemas mÃ¡s
+- **Solo `topic`**: el agente elige libremente los subtemas mÃ¡s
   relevantes para cubrir ese tema al nivel indicado.
-- **`tema` + `# Ãndice`**: una secciÃ³n `# Ãndice` (o `## Ãndice`, con
+- **`topic` + `# Ãndice`**: una secciÃ³n `# Ãndice` (o `## Ãndice`, con
   cualquier nivel de encabezado) en el cuerpo del Markdown, con una
-  lista de viÃ±etas (`- subtema`). El agente reparte `cantidad` tarjetas
+  lista de viÃ±etas (`- subtema`). El agente reparte `amount` tarjetas
   entre todos los puntos, sin dejar ninguno sin tarjeta ni inventar
   otros. Ãštil cuando la persona de apoyo ya tiene un temario o guion
   claro y quiere que la baraja lo siga fielmente. Ver el ejemplo en
@@ -431,7 +431,7 @@ entiende su forma.
    Ã­ndice si lo hay).
 3. El agente escribe `decks/<salida>.json` directamente (formato de §3).
 4. El agente aÃ±ade la entrada correspondiente a `decks/manifest.json`,
-   con `curso`/`asignatura` si la baraja viene de un archivo de
+   con `course`/`subject` si la baraja viene de un archivo de
    `doc/curriculum/` (ver §4).
 5. Si la baraja amplÃ­a una serie existente (`literatura` â†’ `_2` â†’
    `_3`â€¦), el agente lee `decks/concepts/<base-slug>.md` en vez del

@@ -90,21 +90,10 @@
   <script src="../assets/js/i18n.js"></script>
   <script src="strings.es.js"></script>
   <script src="strings.en.js"></script>
-  <script>
-    (function () {
-      'use strict';
-      function paintLanguageSelector() {
-        var active = App.i18n.locale();
-        document.getElementById('btnLangEs').setAttribute('aria-pressed', String(active === 'es'));
-        document.getElementById('btnLangEn').setAttribute('aria-pressed', String(active === 'en'));
-      }
-      document.getElementById('btnLangEs').addEventListener('click', function () { App.i18n.setLocale('es'); });
-      document.getElementById('btnLangEn').addEventListener('click', function () { App.i18n.setLocale('en'); });
-      paintLanguageSelector();
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('../sw.js').catch(function () {});
-      }
-    })();
-  </script>
+  <!-- Language switch and service-worker registration live in external
+       files: the CSP (`script-src 'self'`) blocks inline scripts, so the
+       inline copy of this block never ran in production. -->
+  <script src="../assets/js/lang-buttons.js" defer></script>
+  <script src="../assets/js/sw-register.js" defer></script>
 </body>
 </html>

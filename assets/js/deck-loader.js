@@ -23,8 +23,8 @@
     });
     if (!Array.isArray(cards)) throw new Error('deckInvalido');
     return {
-      topic:  deck.topic  || deck.tema  || '',
-      level:  deck.level  || deck.nivel || '',
+      topic:  deck.topic  || deck.topic  || '',
+      level:  deck.level  || deck.level || '',
       locale: deck.locale || deck.idioma || 'es',
       cards: cards
     };

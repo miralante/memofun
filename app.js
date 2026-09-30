@@ -2,14 +2,14 @@
    No file upload, no settings here — this is the person-using-the-app
    flow, kept to a single decision: "which deck do I want to study?"
 
-   Decks that carry an optional `curso`/`asignatura` pair (see
+   Decks that carry an optional `course`/`subject` pair (see
    doc/en/technical.md §4) are browsed in two levels — courses, then
-   subjects within a course — driven by ?curso=&asignatura= query
+   subjects within a course — driven by ?course=&subject= query
    params so back/forward and bookmarking work with no router. A subject
    whose decks carry an optional `topicGroup` (see §4) gets a third
-   level: the subject lists its topics, and a tema lists the sections that
+   level: the subject lists its topics, and a topic lists the sections that
    make it up, so a section title is just the section's name instead of
-   "Tema 1 · <section>". Decks without curso/asignatura (one-off "modo
+   "Tema 1 · <section>". Decks without course/subject (one-off "modo
    simple" decks) stay a flat grid, exactly like before. A pinned course
    (localStorage prefs.cursoFijado, set from the subject screen)
    surfaces as a quick-access shortcut on the course screen. */
@@ -61,7 +61,7 @@
      stays in sync with it as a workshop artefact (CLAUDE.md §1.3). */
   var EN_CURRICULUM = [
     {
-      curso: 'Key Stage 1',
+      course: 'Key Stage 1',
       subjects: [
         'English Literature',
         'Science',
@@ -70,7 +70,7 @@
       ]
     },
     {
-      curso: 'Key Stage 2',
+      course: 'Key Stage 2',
       subjects: [
         'English Literature',
         'Science',
@@ -79,7 +79,7 @@
       ]
     },
     {
-      curso: 'Key Stage 3',
+      course: 'Key Stage 3',
       subjects: [
         'English Literature',
         'Science',
@@ -88,7 +88,7 @@
       ]
     },
     {
-      curso: 'Key Stage 4',
+      course: 'Key Stage 4',
       subjects: [
         'English Literature',
         'Combined Science',
@@ -100,14 +100,14 @@
       ]
     },
     {
-      curso: 'Entry Level Business',
+      course: 'Entry Level Business',
       subjects: [
         'Business Basics',
         'Customer Service'
       ]
     },
     {
-      curso: 'BTEC Business L2',
+      course: 'BTEC Business L2',
       subjects: [
         'Business Administration',
         'Business Communication',
@@ -186,12 +186,12 @@
     'Business Operations': '🛠️'
   };
 
-  function courseIcon(curso) {
-    return COURSE_ICONS[curso] || '🎓';
+  function courseIcon(course) {
+    return COURSE_ICONS[course] || '🎓';
   }
 
-  function subjectIcon(asignatura) {
-    return SUBJECT_ICONS[asignatura] || '📘';
+  function subjectIcon(subject) {
+    return SUBJECT_ICONS[subject] || '📘';
   }
 
   function topicIcon(topicGroup) {
@@ -205,10 +205,10 @@
     return cls ? ' ' + cls : '';
   }
 
-  function buildUrl(curso, asignatura, topicGroup) {
+  function buildUrl(course, subject, topicGroup) {
     var qs = new URLSearchParams();
-    if (curso) qs.set('curso', curso);
-    if (asignatura) qs.set('asignatura', asignatura);
+    if (course) qs.set('course', course);
+    if (subject) qs.set('subject', subject);
     if (topicGroup) qs.set('topicGroup', topicGroup);
     var s = qs.toString();
     return 'index.html' + (s ? '?' + s : '');
@@ -217,15 +217,15 @@
   function studyUrl(deck) {
     var url = 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
       '&id=' + encodeURIComponent(deck.id) +
-      '&titulo=' + encodeURIComponent(deck.tema);
-    /* Carries the course/subject/tema the deck was opened from so the
+      '&titulo=' + encodeURIComponent(deck.topic);
+    /* Carries the course/subject/topic the deck was opened from so the
        study screen's "Volver" can return to that same level instead of
        always resetting to the top-level home (see buildUrl /
        renderSubjectLevel / renderSectionLevel above — same
        query-param-driven levels). */
-    if (deck.curso) {
-      url += '&curso=' + encodeURIComponent(deck.curso);
-      if (deck.asignatura) url += '&asignatura=' + encodeURIComponent(deck.asignatura);
+    if (deck.course) {
+      url += '&course=' + encodeURIComponent(deck.course);
+      if (deck.subject) url += '&subject=' + encodeURIComponent(deck.subject);
       if (deck.topicGroup) url += '&topicGroup=' + encodeURIComponent(deck.topicGroup);
     }
     return url;
@@ -235,9 +235,9 @@
     var done = progress.completed && progress.completed[deck.id];
     return (
       '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + studyUrl(deck) + '">' +
-      '<span class="deck-icon" aria-hidden="true">' + (deck.icono || iconFor(i)) + '</span>' +
-      '<h3>' + App.utils.escapeHtml(deck.tema) + '</h3>' +
-      '<span class="deck-meta">' + (deck.cantidad || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
+      '<span class="deck-icon" aria-hidden="true">' + (deck.icon || iconFor(i)) + '</span>' +
+      '<h3>' + App.utils.escapeHtml(deck.topic) + '</h3>' +
+      '<span class="deck-meta">' + (deck.amount || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
       (done ? '<span class="deck-stamp" aria-hidden="true"></span>' : '') +
       '</a>'
     );
@@ -280,29 +280,29 @@
 
   /** "5 secciones · 89 tarjetas" for a group of decks, or just
       "18 tarjetas" when the group is one single deck — saying "1
-      sección" would be noise. Totals come from `cantidad`, the same
+      sección" would be noise. Totals come from `amount`, the same
       number each deck card shows, so the two levels can't disagree. */
   function groupMeta(groupDecks) {
     if (groupDecks.length === 1) {
-      return (groupDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards');
+      return (groupDecks[0].amount || '') + ' ' + App.i18n.t('home.cards');
     }
     var totalCards = groupDecks.reduce(function (sum, d) {
-      return sum + (Number(d.cantidad) || 0);
+      return sum + (Number(d.amount) || 0);
     }, 0);
     return groupDecks.length + ' ' + App.i18n.t('home.sections') +
       ' · ' + totalCards + ' ' + App.i18n.t('home.cards');
   }
 
   /** A "Tema N · …" group card: opens the topic level, where its sections
-      are listed on their own. Falls back to the deck itself when a tema
+      are listed on their own. Falls back to the deck itself when a topic
       only ever has one section — the same shortcut
       renderSubjectLevel applies to a subject with a single deck, so a
       one-deck group never costs an extra click. */
   function topicCardHtml(topicGroup, i, groupDecks) {
     var single = groupDecks.length === 1;
-    var href = single ? studyUrl(groupDecks[0]) : buildUrl(groupDecks[0].curso, groupDecks[0].asignatura, topicGroup);
+    var href = single ? studyUrl(groupDecks[0]) : buildUrl(groupDecks[0].course, groupDecks[0].subject, topicGroup);
     return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
-      '<span class="deck-icon" aria-hidden="true">' + (single ? (groupDecks[0].icono || topicIcon(topicGroup)) : topicIcon(topicGroup)) + '</span>' +
+      '<span class="deck-icon" aria-hidden="true">' + (single ? (groupDecks[0].icon || topicIcon(topicGroup)) : topicIcon(topicGroup)) + '</span>' +
       '<h3>' + App.utils.escapeHtml(topicGroup) + '</h3>' +
       '<span class="deck-meta">' + groupMeta(groupDecks) + '</span>' +
       '</a>';
@@ -322,9 +322,9 @@
   }
 
   function renderCourseLevel(decks, grid, progress) {
-    var withCourse = decks.filter(function (d) { return d.curso; });
-    var withoutCourse = decks.filter(function (d) { return !d.curso; });
-    var byCourse = groupBy(withCourse, function (d) { return d.curso; });
+    var withCourse = decks.filter(function (d) { return d.course; });
+    var withoutCourse = decks.filter(function (d) { return !d.course; });
+    var byCourse = groupBy(withCourse, function (d) { return d.course; });
 
     if (!byCourse.order.length) {
       grid.innerHTML = localeInviteHtml() + (withoutCourse.length
@@ -350,18 +350,18 @@
     }
 
     html += '<h2 class="section-heading">' + App.i18n.t('home.chooseCourse') + '</h2>';
-    html += '<div class="deck-grid" role="list">' + byCourse.order.map(function (curso, i) {
-      var courseDecks = byCourse.map[curso];
-      var subjectCount = groupBy(courseDecks, function (d) { return d.asignatura || ''; }).order.length;
+    html += '<div class="deck-grid" role="list">' + byCourse.order.map(function (course, i) {
+      var courseDecks = byCourse.map[course];
+      var subjectCount = groupBy(courseDecks, function (d) { return d.subject || ''; }).order.length;
       var done = completedCount(courseDecks, progress);
       var meta = subjectCount + ' ' + App.i18n.t('home.subjects');
       if (done > 0) {
         meta += ' · ' + App.i18n.t('home.completedOf')
           .replace('{done}', done).replace('{total}', courseDecks.length);
       }
-      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + buildUrl(curso) + '">' +
-        '<span class="deck-icon" aria-hidden="true">' + courseIcon(curso) + '</span>' +
-        '<h3>' + App.utils.escapeHtml(curso) + '</h3>' +
+      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + buildUrl(course) + '">' +
+        '<span class="deck-icon" aria-hidden="true">' + courseIcon(course) + '</span>' +
+        '<h3>' + App.utils.escapeHtml(course) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
         '</a>';
     }).join('') + '</div>';
@@ -376,34 +376,34 @@
     grid.innerHTML = html;
   }
 
-  function togglePinnedCourse(curso) {
+  function togglePinnedCourse(course) {
     var prefs = App.storage.get('prefs');
-    prefs.cursoFijado = (prefs.cursoFijado === curso) ? null : curso;
+    prefs.cursoFijado = (prefs.cursoFijado === course) ? null : course;
     App.storage.set('prefs', prefs);
   }
 
-  function renderSubjectLevel(decks, grid, progress, curso) {
-    var inCourse = decks.filter(function (d) { return d.curso === curso; });
+  function renderSubjectLevel(decks, grid, progress, course) {
+    var inCourse = decks.filter(function (d) { return d.course === course; });
     if (!inCourse.length) {
       history.replaceState(null, '', buildUrl());
       renderCourseLevel(decks, grid, progress);
       return;
     }
-    var bySubject = groupBy(inCourse, function (d) { return d.asignatura || ''; });
-    var pinned = App.storage.get('prefs').cursoFijado === curso;
+    var bySubject = groupBy(inCourse, function (d) { return d.subject || ''; });
+    var pinned = App.storage.get('prefs').cursoFijado === course;
 
     var html = '<div class="section-header">' +
       '<div class="heading-with-back">' + backLinkHtml(buildUrl()) +
-      '<h2 class="section-heading">' + App.utils.escapeHtml(curso) + '</h2></div>' +
+      '<h2 class="section-heading">' + App.utils.escapeHtml(course) + '</h2></div>' +
       '<button type="button" class="btn secondary" id="btn-pin-course" aria-pressed="' + pinned + '">' +
       (pinned ? '⭐ ' + App.i18n.t('home.pinnedButton') : '☆ ' + App.i18n.t('home.pinButton')) +
       '</button></div>';
 
-    html += '<div class="deck-grid" role="list">' + bySubject.order.map(function (asignatura, i) {
-      var subjectDecks = bySubject.map[asignatura];
+    html += '<div class="deck-grid" role="list">' + bySubject.order.map(function (subject, i) {
+      var subjectDecks = bySubject.map[subject];
       /* A subject can hold two shapes, in this order of precedence:
-         - decks grouped into topics (`topicGroup`) → one card per tema, so
-           the sections inside a tema are never flattened into this
+         - decks grouped into topics (`topicGroup`) → one card per topic, so
+           the sections inside a topic are never flattened into this
            level with a repeated "Tema N · " prefix on every title;
          - otherwise a single deck → link straight to it; several decks
            → a flat grid, exactly as before this level existed. */
@@ -412,8 +412,8 @@
       var href, meta, icon;
       if (topics.length) {
         var soloDeck = topics.length === 1 && byTopic.map[topics[0]].length === 1;
-        href = soloDeck ? studyUrl(byTopic.map[topics[0]][0]) : buildUrl(curso, asignatura);
-        icon = soloDeck ? (byTopic.map[topics[0]][0].icono || topicIcon(topics[0])) : topicIcon(topics[0]);
+        href = soloDeck ? studyUrl(byTopic.map[topics[0]][0]) : buildUrl(course, subject);
+        icon = soloDeck ? (byTopic.map[topics[0]][0].icon || topicIcon(topics[0])) : topicIcon(topics[0]);
         /* Counts the sections inside the topics, not the topics
            themselves: a subject with one topic would otherwise read
            "1 topics", and what the person cares about here is how much
@@ -423,15 +423,15 @@
         meta = groupMeta(grouped);
       } else {
         var single = subjectDecks.length === 1;
-        href = single ? studyUrl(subjectDecks[0]) : buildUrl(curso, asignatura);
-        icon = single ? (subjectDecks[0].icono || subjectIcon(asignatura)) : subjectIcon(asignatura);
+        href = single ? studyUrl(subjectDecks[0]) : buildUrl(course, subject);
+        icon = single ? (subjectDecks[0].icon || subjectIcon(subject)) : subjectIcon(subject);
         meta = single
-          ? (subjectDecks[0].cantidad || '') + ' ' + App.i18n.t('home.cards')
+          ? (subjectDecks[0].amount || '') + ' ' + App.i18n.t('home.cards')
           : subjectDecks.length + ' ' + App.i18n.t('home.decks');
       }
       return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
         '<span class="deck-icon" aria-hidden="true">' + icon + '</span>' +
-        '<h3>' + App.utils.escapeHtml(asignatura) + '</h3>' +
+        '<h3>' + App.utils.escapeHtml(subject) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
         '</a>';
     }).join('') + '</div>';
@@ -439,35 +439,35 @@
     grid.innerHTML = html;
 
     document.getElementById('btn-pin-course').addEventListener('click', function () {
-      togglePinnedCourse(curso);
-      renderSubjectLevel(decks, grid, progress, curso);
+      togglePinnedCourse(course);
+      renderSubjectLevel(decks, grid, progress, course);
     });
   }
 
-  /** Asignatura level (`?curso=&asignatura=`): what's inside one subject.
+  /** Asignatura level (`?course=&subject=`): what's inside one subject.
       Two shapes, decided by whether the subject uses `topicGroup`:
-      - with topics → one card per tema (the level the subject card
+      - with topics → one card per topic (the level the subject card
         links to when the subject is split into sections);
       - without topics → the flat deck grid, unchanged from before.
       A subject that mixes both keeps its ungrouped decks in a second
       grid under a heading, so nothing is ever hidden. */
-  function renderTopicLevel(decks, grid, progress, curso, asignatura) {
+  function renderTopicLevel(decks, grid, progress, course, subject) {
     var inSubject = decks.filter(function (d) {
-      return d.curso === curso && (d.asignatura || '') === asignatura;
+      return d.course === course && (d.subject || '') === subject;
     });
     if (!inSubject.length) {
-      history.replaceState(null, '', buildUrl(curso));
-      renderSubjectLevel(decks, grid, progress, curso);
+      history.replaceState(null, '', buildUrl(course));
+      renderSubjectLevel(decks, grid, progress, course);
       return;
     }
     var byTopic = groupBy(inSubject, function (d) { return d.topicGroup || ''; });
     var topics = byTopic.order.filter(function (t) { return !!t; });
     var ungrouped = byTopic.map[''] || [];
 
-    var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(curso)) +
+    var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(course)) +
       '<h2 class="section-heading">' +
-      App.utils.escapeHtml(asignatura) +
-      ' <span class="section-heading-meta">' + App.utils.escapeHtml(curso) + '</span>' +
+      App.utils.escapeHtml(subject) +
+      ' <span class="section-heading-meta">' + App.utils.escapeHtml(course) + '</span>' +
       '</h2></div>';
 
     if (topics.length) {
@@ -491,24 +491,24 @@
   /** Topic level: the sections that make up one topic, listed with their
       own names. This is the level that replaces flattening "Tema 1 · …"
       into every section's title at the subject level. */
-  function renderSectionLevel(decks, grid, progress, curso, asignatura, topicGroup) {
+  function renderSectionLevel(decks, grid, progress, course, subject, topicGroup) {
     var filtered = decks.filter(function (d) {
-      return d.curso === curso &&
-        (d.asignatura || '') === asignatura &&
+      return d.course === course &&
+        (d.subject || '') === subject &&
         (d.topicGroup || '') === topicGroup;
     });
     if (!filtered.length) {
       /* A hand-edited or stale ?topicGroup= must not dead-end: drop back
-         to the asignatura level (one step up, not two — the course's
+         to the subject level (one step up, not two — the course's
          subject list would be a level the URL never asked for). */
-      history.replaceState(null, '', buildUrl(curso, asignatura));
-      renderTopicLevel(decks, grid, progress, curso, asignatura);
+      history.replaceState(null, '', buildUrl(course, subject));
+      renderTopicLevel(decks, grid, progress, course, subject);
       return;
     }
-    var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(curso, asignatura)) +
+    var html = '<div class="heading-with-back">' + backLinkHtml(buildUrl(course, subject)) +
       '<h2 class="section-heading">' +
       App.utils.escapeHtml(topicGroup) +
-      ' <span class="section-heading-meta">' + App.utils.escapeHtml(asignatura) + '</span>' +
+      ' <span class="section-heading-meta">' + App.utils.escapeHtml(subject) + '</span>' +
       '</h2></div>';
     html += '<div class="deck-grid" role="list">' +
       filtered.map(function (d, i) { return deckCardHtml(d, i, progress); }).join('') +
@@ -518,9 +518,9 @@
 
   /* ----- English curriculum (en locale, invite-only, no real decks) ----- */
 
-  function enCourseByName(curso) {
+  function enCourseByName(course) {
     for (var i = 0; i < EN_CURRICULUM.length; i++) {
-      if (EN_CURRICULUM[i].curso === curso) return EN_CURRICULUM[i];
+      if (EN_CURRICULUM[i].course === course) return EN_CURRICULUM[i];
     }
     return null;
   }
@@ -529,11 +529,11 @@
       key (`en=1`) so the Spanish flow can't accidentally land here
       and the EN flow can't accidentally trigger Spanish rendering if
       someone hand-edits the URL. */
-  function enBuildUrl(curso, asignatura) {
+  function enBuildUrl(course, subject) {
     var qs = new URLSearchParams();
     qs.set('en', '1');
-    if (curso) qs.set('curso', curso);
-    if (asignatura) qs.set('asignatura', asignatura);
+    if (course) qs.set('course', course);
+    if (subject) qs.set('subject', subject);
     return 'index.html?' + qs.toString();
   }
 
@@ -542,11 +542,11 @@
       guide. It still uses the .deck-card shell so the grid layout and
       a11y pattern match the rest of the page — only the href is
       replaced by a CTA inside the card body. */
-  function enSubjectCardHtml(asignatura, i) {
+  function enSubjectCardHtml(subject, i) {
     return (
       '<div class="deck-card deck-card-invite' + badgeClassFor(i) + '" role="listitem">' +
-      '<span class="deck-icon" aria-hidden="true">' + subjectIcon(asignatura) + '</span>' +
-      '<h3>' + App.utils.escapeHtml(asignatura) + '</h3>' +
+      '<span class="deck-icon" aria-hidden="true">' + subjectIcon(subject) + '</span>' +
+      '<h3>' + App.utils.escapeHtml(subject) + '</h3>' +
       '<span class="deck-meta">' + App.i18n.t('home.enSubjectInvite') + '</span>' +
       '<span class="deck-invite-cta">' +
       '<a class="btn secondary" href="https://github.com/miralante/memofun/blob/main/doc/en/internal-creating-decks-guide.md" target="_blank" rel="noopener">' +
@@ -562,17 +562,17 @@
     html += '<div class="deck-grid" role="list">' + EN_CURRICULUM.map(function (entry, i) {
       var subjectCount = entry.subjects.length;
       var meta = subjectCount + ' ' + App.i18n.t('home.subjects');
-      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + enBuildUrl(entry.curso) + '">' +
-        '<span class="deck-icon" aria-hidden="true">' + courseIcon(entry.curso) + '</span>' +
-        '<h3>' + App.utils.escapeHtml(entry.curso) + '</h3>' +
+      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + enBuildUrl(entry.course) + '">' +
+        '<span class="deck-icon" aria-hidden="true">' + courseIcon(entry.course) + '</span>' +
+        '<h3>' + App.utils.escapeHtml(entry.course) + '</h3>' +
         '<span class="deck-meta">' + meta + '</span>' +
         '</a>';
     }).join('') + '</div>';
     grid.innerHTML = html;
   }
 
-  function renderEnSubjectLevel(grid, curso) {
-    var entry = enCourseByName(curso);
+  function renderEnSubjectLevel(grid, course) {
+    var entry = enCourseByName(course);
     if (!entry) {
       history.replaceState(null, '', enBuildUrl());
       renderEnCurriculumLevel(grid);
@@ -580,11 +580,11 @@
     }
     var html = '<div class="section-header">' +
       '<div class="heading-with-back">' + backLinkHtml(enBuildUrl()) +
-      '<h2 class="section-heading">' + App.utils.escapeHtml(curso) + '</h2></div>' +
+      '<h2 class="section-heading">' + App.utils.escapeHtml(course) + '</h2></div>' +
       '</div>';
     html += '<p class="en-curriculum-help">' + App.i18n.t('home.enSubjectInviteHelp') + '</p>';
-    html += '<div class="deck-grid" role="list">' + entry.subjects.map(function (asignatura, i) {
-      return enSubjectCardHtml(asignatura, i);
+    html += '<div class="deck-grid" role="list">' + entry.subjects.map(function (subject, i) {
+      return enSubjectCardHtml(subject, i);
     }).join('') + '</div>';
     grid.innerHTML = html;
   }
@@ -595,9 +595,9 @@
       "back" button all work the same way. */
   function renderEnHome(grid) {
     var params = new URLSearchParams(location.search);
-    var curso = params.get('curso');
-    var asignatura = params.get('asignatura');
-    if (curso) renderEnSubjectLevel(grid, curso);
+    var course = params.get('course');
+    var subject = params.get('subject');
+    if (course) renderEnSubjectLevel(grid, course);
     else renderEnCurriculumLevel(grid);
   }
 
@@ -624,13 +624,13 @@
       }
 
       var params = new URLSearchParams(location.search);
-      var curso = params.get('curso');
-      var asignatura = params.get('asignatura');
+      var course = params.get('course');
+      var subject = params.get('subject');
       var topicGroup = params.get('topicGroup');
 
-      if (curso && asignatura && topicGroup) renderSectionLevel(decks, grid, progress, curso, asignatura, topicGroup);
-      else if (curso && asignatura) renderTopicLevel(decks, grid, progress, curso, asignatura);
-      else if (curso) renderSubjectLevel(decks, grid, progress, curso);
+      if (course && subject && topicGroup) renderSectionLevel(decks, grid, progress, course, subject, topicGroup);
+      else if (course && subject) renderTopicLevel(decks, grid, progress, course, subject);
+      else if (course) renderSubjectLevel(decks, grid, progress, course);
       else renderCourseLevel(decks, grid, progress);
     } catch (err) {
       grid.innerHTML = '<div class="empty-state">' + App.i18n.t('home.emptyBody') + '</div>';

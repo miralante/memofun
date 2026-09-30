@@ -30,11 +30,11 @@
       full-res or otherwise non-thumbnail image can't sit in the repo
       unnoticed, and can't exceed Cloudflare's 25 MiB per-file deploy
       limit on its own). An optional `topicGroup` must be a non-empty
-     string owned by a single subject, and its deck's `tema` must not
+     string owned by a single subject, and its deck's `topic` must not
      still repeat the "Tema N" prefix (technical.md §4 — the topic level
      exists so sections aren't flattened into one grid).
    9. doc/curriculum/ (recursively): every .md file parses as a valid
-      content config (frontmatter with `tema`, via scripts/config-parser.js)
+      content config (frontmatter with `topic`, via scripts/config-parser.js)
       and, if it has a `# Índice` section, that section is not empty.
   10. _redirects stays within Cloudflare's per-file limits
       (https://developers.cloudflare.com/pages/configuration/redirects/):
@@ -418,28 +418,28 @@ checks += 1;
     failures.push('decks/manifest.json: must be a JSON array');
     return;
   }
-  /* topicGroup -> "curso / asignatura" that owns it, so the same tema
+  /* topicGroup -> "course / subject" that owns it, so the same topic
      name reused under two subjects is caught (one topic belongs to one
      subject; the topic level filters on all three at once). */
   var topicOwners = {};
   entries.forEach(function (entry, i) {
     var label = 'decks/manifest.json[' + i + ']';
-    ['id', 'tema', 'nivel', 'cantidad', 'file'].forEach(function (field) {
+    ['id', 'topic', 'level', 'amount', 'file'].forEach(function (field) {
       if (entry[field] === undefined) failures.push(label + ': missing "' + field + '"');
     });
-    /* `tema` and `cantidad` are what the home screen actually renders
-       (app.js reads deck.tema / deck.cantidad). A present-but-empty value
+    /* `topic` and `amount` are what the home screen actually renders
+       (app.js reads deck.topic / deck.amount). A present-but-empty value
        renders a blank <h3> and a bare "tarjetas" with no number, which is
        invisible to every other check — see the drift guard in §10. */
-    if (entry.tema !== undefined && !String(entry.tema).trim()) {
-      failures.push(label + ': "tema" is empty — the home screen would show a blank title');
+    if (entry.topic !== undefined && !String(entry.topic).trim()) {
+      failures.push(label + ': "topic" is empty — the home screen would show a blank title');
     }
-    if (entry.cantidad !== undefined && !Number.isFinite(Number(entry.cantidad))) {
-      failures.push(label + ': "cantidad" is not a number — the home screen would show no card count');
+    if (entry.amount !== undefined && !Number.isFinite(Number(entry.amount))) {
+      failures.push(label + ': "amount" is not a number — the home screen would show no card count');
     }
     /* `topicGroup` is optional (only subjects split into topics use it),
        but when present it has to be usable: a non-empty string owned by
-       a single subject, and a `tema` that no longer repeats the "Tema N"
+       a single subject, and a `topic` that no longer repeats the "Tema N"
        prefix — that flattened title is exactly what the topic level
        (app.js renderSectionLevel) replaced, so leaving it in place means
        the same words are shown twice, on two levels. */
@@ -447,17 +447,17 @@ checks += 1;
       if (typeof entry.topicGroup !== 'string' || !entry.topicGroup.trim()) {
         failures.push(label + ': "topicGroup" must be a non-empty string when present');
       } else {
-        var owner = (entry.curso || '') + ' / ' + (entry.asignatura || '');
+        var owner = (entry.course || '') + ' / ' + (entry.subject || '');
         if (topicOwners[entry.topicGroup] === undefined) {
           topicOwners[entry.topicGroup] = owner;
         } else if (topicOwners[entry.topicGroup] !== owner) {
           failures.push(label + ': "topicGroup" "' + entry.topicGroup +
             '" is also used under "' + topicOwners[entry.topicGroup] +
-            '" — a tema belongs to a single subject, and the topic level matches on all three');
+            '" — a topic belongs to a single subject, and the topic level matches on all three');
         }
-        if (/^\s*tema\s*\d+\s*[·•:–—-]/i.test(String(entry.tema))) {
-          failures.push(label + ': "tema" still repeats the "Tema N" prefix while the deck declares ' +
-            '"topicGroup" — keep only the section name in "tema"; the topic is its own level');
+        if (/^\s*topic\s*\d+\s*[·•:–—-]/i.test(String(entry.topic))) {
+          failures.push(label + ': "topic" still repeats the "Tema N" prefix while the deck declares ' +
+            '"topicGroup" — keep only the section name in "topic"; the topic is its own level');
         }
       }
     }
@@ -577,7 +577,7 @@ checks += 1;
 /* --- 10. manifest <-> app.js key drift guard --- */
 (function checkManifestUiKeyDrift() {
   /* The home screen is the only consumer of decks/manifest.json, and it reads
-     the entries by field name (`deck.tema`, `deck.cantidad`, …). Nothing else
+     the entries by field name (`deck.topic`, `deck.amount`, …). Nothing else
      ties those names to the data, so a refactor that renames one side — e.g.
      commit 2fb2cf1 switching app.js to `deck.topic`/`deck.amount` — leaves the
      manifest valid, passes every other check, and ships a home screen where
@@ -619,7 +619,7 @@ checks += 1;
   if (!Array.isArray(entries) || !entries.length) return;
 
   /* Every key any entry declares, not just entries[0]: several fields are
-     optional by design (curso/asignatura only on grouped decks, topicGroup
+     optional by design (course/subject only on grouped decks, topicGroup
      only on the subjects split into topics), so a single sample entry is
      not representative — checking it would fail the moment a new
      optional field is introduced, and the fix would be to weaken the

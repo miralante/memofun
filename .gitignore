@@ -29,3 +29,7 @@ node_modules/
 # Local overrides / secrets (none expected, but defensive)
 .env
 .env.local
+
+# Playwright run output (failure screenshots, traces, .last-run.json)
+test-results/
+playwright-report/
