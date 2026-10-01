@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v87';
+var VERSION = 'memofun-v89';
 
 var FILES = [
   './index.html',
@@ -59,7 +59,16 @@ var FILES = [
   './site/index.html',
   './site/styles.css',
   './site/strings.es.js',
-  './site/strings.en.js'
+  './site/strings.en.js',
+
+  /* IPP course — FPB Servicios Administrativos 1º (new decks) */
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-sociales.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-decisiones-itinerario-personal.json'
 ];
 
 self.addEventListener('install', function (event) {

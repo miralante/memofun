@@ -1,0 +1,259 @@
+{
+  "topic": "Tema 1 – Riesgos ambientales – Itinerario Personal para la Empleabilidad (FPB 1º)",
+  "level": "básico",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Ruido, iluminación, radiaciones, vibraciones, temperatura: todas son formas de energía. <mark>Es como la energía del sol, del viento o del agua, pero que en exceso causan daño</mark>. ¿Cómo se llaman estas cinco formas de energía en el trabajo?",
+      "answer": "<mark>Agentes físicos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/agentes-fisicos.jpg",
+        "title": "Physical agents in workplace",
+        "source": "https://www.flickr.com/photos/29233621@N00/499575780",
+        "alt": "Entorno de trabajo con exposición a agentes físicos",
+        "autor": "Sean McGrath",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "El ruido excesivo en una fábrica o en una obra acaba dañando el oído. <mark>Es como escuchar música con el volumen al máximo: a la larga, el oído paga el precio</mark>. ¿Cuál es el agente físico más conocido por dañar la audición?",
+      "answer": "<mark>El ruido</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/ruido.jpg",
+        "title": "Industrial machinery noise",
+        "source": "https://www.flickr.com/photos/15714614@N00/499575728",
+        "alt": "Máquinas industriales que generan alto nivel de ruido",
+        "autor": "Thomas R. Threlfall",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Ni demasiada ni demasiado poca: la luz adecuada permite trabajar sin forzar la vista. <mark>Es como la receta de un buen café: en su punto</mark>. ¿Qué agente físico afecta a la vista en el trabajo?",
+      "answer": "<mark>La iluminación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/iluminacion.jpg",
+        "title": "Office lighting workspace",
+        "source": "https://www.flickr.com/photos/146065071@N08/49878620048",
+        "alt": "Oficina con iluminación adecuada para trabajar",
+        "autor": "Tumisu",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Rayos solares, rayos X, radón en el subsuelo: todos emiten energía que puede dañar las células. <mark>Es como recibir demasiado sol en la piel: las quemaduras son solo el principio</mark>. ¿Qué agente físico puede causar daño celular?",
+      "answer": "<mark>Las radiaciones</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/radiaciones.jpg",
+        "title": "Radiation warning sign",
+        "source": "https://www.flickr.com/photos/189232873@N06/50204470381",
+        "alt": "Cartel de aviso de riesgo por radiaciones",
+        "autor": "Michele Trotter",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "El tremor de una máquina, de un martillo neumático o de un vehículo pesado. <mark>Es como temblar de frío pero de forma continuada y localizada</mark>. ¿Qué agente físico produce este efecto?",
+      "answer": "<mark>Las vibraciones</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/vibraciones.jpg",
+        "title": "Industrial vibrating machinery",
+        "source": "https://www.flickr.com/photos/44177494@N04/50860485021",
+        "alt": "Máquina industrial que produce vibraciones",
+        "autor": "Reuse Warehouse",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "El calor de un horno, el frío de una cámara frigorífica, el cambio brusco de uno a otro. <mark>Es como pasar del aire acondicionado a la calle en verano: el cuerpo lo nota</mark>. ¿Qué agente físico puede causar agotamiento o hipotermia?",
+      "answer": "<mark>La temperatura</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/temperatura.jpg",
+        "title": "Temperature control in workplace",
+        "source": "https://www.flickr.com/photos/146065071@N08/50204470551",
+        "alt": "Control de temperatura en un entorno de trabajo",
+        "autor": "Tumisu",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Sustancias con propiedades que pueden dañar la salud si se inhalan, ingieren o tocan. <mark>Es un grupo amplio que incluye ácidos, disolventes, polvos y humos</mark>. ¿Cómo se llama este grupo de sustancias peligrosas?",
+      "answer": "<mark>Agentes químicos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/agentes-quimicos.jpg",
+        "title": "Chemical substances in laboratory",
+        "source": "https://www.flickr.com/photos/189232873@N06/50204470601",
+        "alt": "Sustancias químicas en un laboratorio",
+        "autor": "Michele Trotter",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Que reacciona con otras sustancias, que cambia de estado, que quema o explota. <mark>Son propiedades de los agentes químicos related con su composición física</mark>. ¿Qué familia de propiedades de los agentes químicos se describe así?",
+      "answer": "<mark>Propiedades fisicoquímicas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/fisicoquimicas.jpg",
+        "title": "Chemical reaction process",
+        "source": "https://www.flickr.com/photos/189232873@N06/50204470641",
+        "alt": "Reacción química entre sustancias",
+        "autor": "Michele Trotter",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Que altera la composición de lo que toca, quemándolo o degradándolo. <mark>Es como ver un metal oxidado o una superficie comida por ácido</mark>. ¿Qué tipo de propiedad de los agentes químicos se manifiesta así?",
+      "answer": "<mark>Propiedades químicas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/quimicas.jpg",
+        "title": "Corroded metal surface",
+        "source": "https://www.flickr.com/photos/15714614@N00/50860485061",
+        "alt": "Superficie de metal corroído por reacción química",
+        "autor": "Thomas R. Threlfall",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Que puede provocar la muerte o daños graves al organismo incluso en pequeñas cantidades. <mark>Es la propiedad más peligrosa de un agente químico: la calavera en la etiqueta lo advierte</mark>. ¿Qué tipo de propiedad tienen las sustancias más mortales?",
+      "answer": "<mark>Propiedades toxicológicas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/toxicologicas.jpg",
+        "title": "Toxic chemical hazard symbol",
+        "source": "https://www.flickr.com/photos/189232873@N06/50204470701",
+        "alt": "Símbolo de peligro tóxico en un producto químico",
+        "autor": "Michele Trotter",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Es el pictograma negro sobre fondo amarillo con un pez muerto y un árbol seco. <mark>Es el primer pictograma de peligro que aparece en las etiquetas de productos químicos</mark>. ¿Qué pictograma avisa del peligro para el medio ambiente?",
+      "answer": "<mark>Peligroso para el medio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/peligroso-para-el-medio.jpg",
+        "title": "Environmental hazard symbol",
+        "source": "https://pixabay.com/es/photos/advertencia-contaminacion-agua-pescado-358 imos/",
+        "alt": "Símbolo de peligro para el medio ambiente con pez muerto",
+        "autor": "PIRO4D",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma de una bombona con una llama. <mark>Indica que el contenido está bajo presión y puede explotar si se calienta</mark>. ¿Qué tipo de recipiente representa este pictograma?",
+      "answer": "<mark>Gas a presión</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/gas-a-presion.jpg",
+        "title": "Gas cylinder with flame symbol",
+        "source": "https://pixabay.com/es/photos/garrafa-gas-bombona-llama-4169527/",
+        "alt": "Bombona de gas con el símbolo de llama de fuego",
+        "autor": "PublicDomainPictures",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma con una bomba con la mecha estallando. <mark>Avisa de que el contenido puede explotar por golpe, calor o chispa</mark>. ¿Qué tipo de riesgo indica este pictograma?",
+      "answer": "<mark>Explosivo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/explosivo.jpg",
+        "title": "Explosive hazard symbol",
+        "source": "https://pixabay.com/es/photos/explosivo-bomba-pirotecnia-dinamita-7319667/",
+        "alt": "Símbolo de peligro explosivo con bomba estallando",
+        "autor": "PIRO4D",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma con una llama sobre un círculo. <mark>Indica una sustancia que hace que otras cosas ardan mejor, aunque ella misma no sea fuego</mark>. ¿Qué significa este pictograma?",
+      "answer": "<mark>Comburente</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/comburente.jpg",
+        "title": "Oxygen tank comburent symbol",
+        "source": "https://pixabay.com/es/photos/bombona-oxigeno-soldadura-antorcha-2198 063/",
+        "alt": "Bombona de oxígeno, sustancia comburente, con llama",
+        "autor": "Free-Photos",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma con una llama. <mark>Indica que el producto puede arder si se acerca a una fuente de ignición</mark>. ¿Qué tipo de riesgo avisa este pictograma?",
+      "answer": "<mark>Inflamable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/inflamable.jpg",
+        "title": "Flammable liquid warning",
+        "source": "https://pixabay.com/es/photos/liquido-inflamable-bidon-combustible-6815 088/",
+        "alt": "Bidón de líquido inflamable con símbolo de llama",
+        "autor": "Pezi67",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma con un frasco del que sale un líquido sobre una mano y una superficie. <mark>Avisa de que el producto corroe metales y quema la piel</mark>. ¿Qué tipo de peligro indica este pictograma?",
+      "answer": "<mark>Corrosivo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/corrosivo.jpg",
+        "title": "Corrosive chemical bottle",
+        "source": "https://pixabay.com/es/photos/acido-quimico-corrosion-metal-232 imos/",
+        "alt": "Frasco de producto corrosivo",
+        "autor": "PublicDomainPictures",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma con una cruz sobre un pecho. <mark>Avisa de que el producto puede causar alergias, asma o daño respiratorio</mark>. ¿Qué tipo de riesgo anuncia este pictograma?",
+      "answer": "<mark>Peligro para la salud</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/peligro-para-la-salud.jpg",
+        "title": "Health hazard warning symbol",
+        "source": "https://pixabay.com/es/photos/advertencia-salud-siniestro-salud-359 0709/",
+        "alt": "Símbolo de peligro para la salud",
+        "autor": "PIRO4D",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma con la calavera y las tibias cruzadas. <mark>El más grave de todos: su ingestión puede ser mortal incluso en cantidad muy pequeña</mark>. ¿Qué significa este pictograma?",
+      "answer": "<mark>Toxicidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/toxicidad.jpg",
+        "title": "Skull and crossbones toxic symbol",
+        "source": "https://pixabay.com/es/photos/calavera-huesos-cruzados-advertencia-202 imos/",
+        "alt": "Símbolo de toxicidad con calavera y huesos cruzados",
+        "autor": "OpenClipart",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Es el pictograma con una estrella de cinco puntas y una silueta en el pecho. <mark>Avisa de sustancias que pueden causar efectos irreversibles muy graves</mark>. ¿Qué tipo de peligro indica este pictograma?",
+      "answer": "<mark>Peligro grave</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/peligro-grave.jpg",
+        "title": "Severe hazard warning symbol",
+        "source": "https://pixabay.com/es/photos/advertencia-peligro-grado-alerta-358 0716/",
+        "alt": "Símbolo de peligro grave con señal de exclamación",
+        "autor": "PIRO4D",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Virus, bacterias, hongos, protozoos: microorganismos que pueden entrar al cuerpo. <mark>Es como invisibles invasores que entran sin que los veas</mark>. ¿Cómo se llama este grupo de agentes biológicos?",
+      "answer": "<mark>Agentes biológicos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/agentes-biologicos.jpg",
+        "title": "Microscope view of bacteria",
+        "source": "https://www.flickr.com/photos/30041265@N04/50860485101",
+        "alt": "Vista al microscopio de bacterias",
+        "autor": "StockSnap",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "El daño no lo hace el agente en sí, sino el tiempo que pasas en contacto con él. <mark>Es como tomar el sol unos minutos: placentero; ocho horas: quemaduras</mark>. ¿Qué es lo que convierte un agente en peligroso?",
+      "answer": "<mark>La exposición</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/exposicion.jpg",
+        "title": "Worker with protective mask exposure",
+        "source": "https://www.flickr.com/photos/29233621@N00/499575790",
+        "alt": "Trabajador con máscara de protección ante la exposición a agentes",
+        "autor": "Sean McGrath",
+        "licencia": "CC BY 2.0"
+      }
+    }
+  ]
+}

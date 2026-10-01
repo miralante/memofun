@@ -1075,6 +1075,83 @@
     "icon": "🚨"
   },
   {
+    "id": "fpb-sa-1-ipe-t2-tecnicas-prevencion-proteccion",
+    "topic": "Técnicas de prevención y protección",
+    "level": "básico",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
+    "amount": 18,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion.json",
+    "icon": "🛡️"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t3-primeros-auxilios",
+    "topic": "Técnicas básicas de primeros auxilios",
+    "level": "básico",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "amount": 19,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios.json",
+    "icon": "🚑"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t4-autoconocimiento",
+    "topic": "Autoconocimiento y habilidades personales",
+    "level": "básico",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "amount": 15,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales.json",
+    "icon": "🔍"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t5-habilidades-sociales",
+    "topic": "Habilidades sociales",
+    "level": "básico",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 5 · Habilidades sociales",
+    "amount": 17,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-sociales.json",
+    "icon": "🤝"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t6-itinerarios",
+    "topic": "Itinerarios académicos y profesionales",
+    "level": "básico",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "amount": 18,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales.json",
+    "icon": "🎓"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-busqueda-empleo",
+    "topic": "La búsqueda de empleo",
+    "level": "básico",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 18,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo.json",
+    "icon": "📋"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t8-toma-decisiones",
+    "topic": "Toma de decisiones e itinerario personal",
+    "level": "básico",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "amount": 18,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-decisiones-itinerario-personal.json",
+    "icon": "⚖️"
+  },
+  {
     "id": "fpb-sa-1-lengua-castellana",
     "topic": "Comunicación oral vs. escrita",
     "level": "principiante",
