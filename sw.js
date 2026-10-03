@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v89';
+var VERSION = 'memofun-v90';
 
 var FILES = [
   './index.html',
@@ -20,6 +20,11 @@ var FILES = [
   './about/styles.css',
   './about/strings.es.js',
   './about/strings.en.js',
+  './about-app/index.html',
+  './about-app/app.js',
+  './about-app/styles.css',
+  './about-app/strings.es.js',
+  './about-app/strings.en.js',
   './legal/index.html',
   './legal/styles.css',
   './legal/strings.es.js',
@@ -53,6 +58,7 @@ var FILES = [
   './assets/js/storage.js',
   './assets/js/feedback.js',
   './assets/js/deck-loader.js',
+  './assets/js/achievements.js',
 
   /* Public landing site/. Added when /site/ was created; bump VERSION
      so installed PWAs refetch the shell and pick the new files. */

@@ -37,6 +37,7 @@ if (window.App.i18n) {
       previous: 'Previous',
       skipToContent: 'Skip to content',
       settings: 'Settings',
+      aboutApp: 'About the app',
       config: 'Settings',
       dataProtection: 'Data protection'
     },

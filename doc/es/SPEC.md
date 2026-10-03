@@ -190,6 +190,13 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
   terminado de repasar al menos una vez). Nunca se guardan fallos,
   tiempo empleado, número de intentos ni nada que identifique a la
   persona. El progreso no sale del dispositivo.
+- **Logros** (`about-app/`, enlazado desde el pie de la portada antes
+  de Configuración): `localStorage` `achievements` solo guarda la
+  fecha en que se consiguió cada logro por primera vez. Todos los
+  logros salen del progreso anterior (estrellas, barajas completadas,
+  tamaño de las barajas en el manifiesto), solo se suman, se borran
+  junto con el progreso y nunca dependen de rachas, velocidad ni
+  comparaciones (§2.2, §2.3, §3.7).
 
 ### 2.7 Accesibilidad universal
 

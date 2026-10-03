@@ -251,6 +251,11 @@
 
   function showEndScreen() {
     App.storage.completeDeck(deckId);
+    /* Unlock achievements (shown on about-app/). Silent here: the end
+       screen keeps its single celebration; the badges wait on that page. */
+    if (App.achievements) {
+      App.achievements.syncWithManifest('../../decks/manifest.json', { finishedCards: cards.length });
+    }
     if (App.feedback && App.feedback.star) App.feedback.star();
     renderStars();
     showStarToast();

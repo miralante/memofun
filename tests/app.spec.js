@@ -524,6 +524,28 @@ test('16 — star count persists after page reload', async ({ browser }) => {
   expect(starsTextAfter).toMatch(/3/);
 });
 
+test('16b — footer links "Sobre la app" before Configuración and shows achievements', async ({ browser }) => {
+  // Progress saved before achievements existed: 2 stars, 1 deck → the
+  // about-app page must grant firstStar and reviewAgain retroactively.
+  const page = await openWithStorage(browser, () => {
+    localStorage.setItem('memofun:progress', JSON.stringify({
+      stars: 2,
+      completed: { 'eso-1-biologia-geologia': true }
+    }));
+  }, 0);
+  const footerLinks = page.locator('footer.app-footer a');
+  await expect(footerLinks.nth(0)).toHaveAttribute('href', 'about-app/');
+  await expect(footerLinks.nth(0)).toHaveText('Sobre la app');
+  await expect(footerLinks.nth(1)).toHaveAttribute('href', 'config/');
+
+  await footerLinks.nth(0).click();
+  await expect(page).toHaveURL(/about-app\/$/);
+  await expect(page.locator('h1')).toContainText('Sobre la app');
+  await expect(page.locator('#achievementsGrid .achievement-badge')).toHaveCount(6);
+  await expect(page.locator('#achievementsGrid .achievement-badge.unlocked')).toHaveCount(2);
+  await expect(page.locator('#achievementsCount')).toHaveText('Tienes 2 de 6 logros.');
+});
+
 // ===========================================================================
 // COURSE PINNING
 // ===========================================================================

@@ -140,6 +140,7 @@
       return;
     }
     App.storage.remove('progress');
+    App.storage.remove('achievements');
     resetStatus.textContent = App.i18n.t('settings.resetDone');
     resetStatus.classList.remove('encourage');
     resetStatus.classList.add('success');

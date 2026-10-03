@@ -21,7 +21,7 @@ if (window.App.i18n) {
       dropHint: 'Tap or drag a deck .json file',
       importError: 'That file could not be opened.',
       resetTitle: 'Clear saved progress',
-      resetHint: 'Clears the stars and the decks marked as completed on this device.',
+      resetHint: 'Clears the stars, the achievements and the decks marked as completed on this device.',
       resetButton: '🗑️ Clear progress',
       resetConfirm: 'Are you sure? All progress saved here will be cleared.',
       resetConfirmYes: 'Yes, clear it',

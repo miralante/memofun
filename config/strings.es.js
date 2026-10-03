@@ -21,7 +21,7 @@ if (window.App.i18n) {
       dropHint: 'Toca o arrastra un archivo .json de baraja',
       importError: 'No se pudo abrir ese archivo.',
       resetTitle: 'Borrar progreso guardado',
-      resetHint: 'Borra las estrellas y las barajas marcadas como completadas en este dispositivo.',
+      resetHint: 'Borra las estrellas, los logros y las barajas marcadas como completadas en este dispositivo.',
       resetButton: '🗑️ Borrar progreso',
       resetConfirm: '¿Seguro? Se borrará todo el progreso guardado aquí.',
       resetConfirmYes: 'Sí, borrar',
