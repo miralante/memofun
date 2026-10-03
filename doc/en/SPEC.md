@@ -182,6 +182,12 @@ like a manual:
   reviewed at least once). Failures, time taken, attempt counts, or
   anything identifying are never saved. Progress never leaves the
   device.
+- **Achievements** (`about-app/`, linked from the home footer before
+  Settings): `localStorage` `achievements` only holds the date each
+  achievement was first earned. Every achievement is derived from the
+  progress above (stars, completed decks, deck sizes in the manifest),
+  only ever added, cleared together with progress, and never based on
+  streaks, speed or comparison (§2.2, §2.3, §3.7).
 
 ### 2.7 Universal accessibility
 

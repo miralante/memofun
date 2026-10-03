@@ -103,6 +103,7 @@ var jsFiles = fs.readdirSync(ROOT, { withFileTypes: true })
   .concat(listJs(path.join(ROOT, 'assets', 'js')))
   .concat(listJs(path.join(ROOT, 'settings')))
   .concat(listJs(path.join(ROOT, 'tools', 'study')))
+  .concat(listJs(path.join(ROOT, 'about-app')))
   .concat(listJs(path.join(ROOT, 'scripts')));
 
 jsFiles.forEach(function (file) {
@@ -178,6 +179,7 @@ function compareLocales(dir, label) {
 compareLocales(ROOT, 'strings.<locale>.js');
 if (fs.existsSync(path.join(ROOT, 'config'))) compareLocales(path.join(ROOT, 'config'), 'config/');
 if (fs.existsSync(path.join(ROOT, 'tools', 'study'))) compareLocales(path.join(ROOT, 'tools', 'study'), 'tools/study/');
+if (fs.existsSync(path.join(ROOT, 'about-app'))) compareLocales(path.join(ROOT, 'about-app'), 'about-app/');
 
 /* --- 3. sw.js <-> disk parity --- */
 checks += 1;
@@ -250,6 +252,8 @@ var USER_FACING_FILES = [
   .concat([path.join(ROOT, 'config', 'index.html')])
   .concat(listJs(path.join(ROOT, 'tools', 'study')))
   .concat([path.join(ROOT, 'tools', 'study', 'index.html')])
+  .concat(listJs(path.join(ROOT, 'about-app')))
+  .concat([path.join(ROOT, 'about-app', 'index.html'), path.join(ROOT, 'assets', 'js', 'achievements.js')])
   .filter(function (f) { return fs.existsSync(f); });
 
 USER_FACING_FILES.forEach(function (file) {
@@ -399,7 +403,8 @@ headersContent.split('\n').filter(function (line) {
   [
     path.join(ROOT, 'index.html'),
     path.join(ROOT, 'config', 'index.html'),
-    path.join(ROOT, 'tools', 'study', 'index.html')
+    path.join(ROOT, 'tools', 'study', 'index.html'),
+    path.join(ROOT, 'about-app', 'index.html')
   ].filter(function (f) { return fs.existsSync(f); }).forEach(checkDomain);
 })();
 

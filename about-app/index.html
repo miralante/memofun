@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" data-i18n-title="pageTitle">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre la app | Memofun</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="icon" href="../assets/img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/componentes.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
+
+<div class="container about-app">
+  <header class="cabecera-about-app">
+    <div class="idioma-selector" role="group" data-i18n-aria="languageAria" aria-label="Elegir idioma">
+      <button type="button" class="btn-lang" id="btnLangEs" data-locale="es" aria-pressed="false">🇪🇸 Español</button>
+      <button type="button" class="btn-lang" id="btnLangEn" data-locale="en" aria-pressed="false">🇬🇧 English</button>
+    </div>
+    <img src="../assets/img/icono.svg" alt="" width="64" height="64" class="logo-about-app">
+    <h1 data-i18n="title">ℹ️ Sobre la app</h1>
+    <p class="entradilla" data-i18n="intro">Memofun te ayuda a repasar con tarjetas. Aquí ves tus logros.</p>
+  </header>
+
+  <main id="contenido">
+    <section id="logros" class="panel" aria-labelledby="achievementsTitle">
+      <h2 id="achievementsTitle" data-i18n="achievementsTitle">⭐ Logros</h2>
+      <p class="tagline" data-i18n="achievementsHint">Los logros llegan solos cuando terminas barajas.</p>
+      <p class="achievements-count" id="achievementsCount" aria-live="polite"></p>
+      <ul class="achievements-grid" id="achievementsGrid"></ul>
+    </section>
+
+    <p class="pie-nota" data-i18n="savedLocally">Tus logros se guardan solo en este dispositivo.</p>
+  </main>
+</div>
+
+<footer class="app-footer">
+  <div class="container btn-row">
+    <a class="btn secondary" href="../index.html" data-i18n="footerDecks">Ir a las barajas</a>
+    <a class="btn secondary" href="../config/" data-i18n="core.config">Configuración</a>
+    <a class="btn secondary" href="../legal/" data-i18n="core.dataProtection">Protección de datos</a>
+  </div>
+</footer>
+
+<script src="../assets/js/utils.js"></script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/storage.js"></script>
+<script src="../assets/js/achievements.js"></script>
+<script src="strings.es.js"></script>
+<script src="strings.en.js"></script>
+<script src="app.js"></script>
+<!-- Language switch and service-worker registration live in external
+     files: the CSP (`script-src 'self'`) blocks inline scripts. -->
+<script src="../assets/js/lang-buttons.js" defer></script>
+<script src="../assets/js/sw-register.js" defer></script>
+
+</body>
+</html>

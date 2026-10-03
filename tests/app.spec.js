@@ -60,6 +60,17 @@ async function waitForFlipDone(page) {
   } catch { /* safety net: ignore timeout */ }
 }
 
+/** Wait until the study screen's opening flip has finished. startSession()
+    shows #study-area and immediately plays the first card's flip; the app's
+    flipping guard (tools/study/app.js flip()) ignores a reveal pressed during
+    that flip, so clicking #btn-reveal right after #study-area turns visible
+    was dropped on most runs. window.__studyFlipping is the app's own signal. */
+async function waitForStudyReady(page) {
+  await expect(page.locator('#study-area')).toBeVisible({ timeout: 10000 });
+  await page.waitForFunction(() => typeof window.__studyFlipping === 'function' && !window.__studyFlipping(),
+    null, { timeout: 5000, polling: 50 });
+}
+
 // waitForFlipDone but with a fixed 500ms wait — for use when we need to
 // guarantee the page has settled before the next action (e.g. before advanceCard).
 async function waitForFlipDone500(page) {
@@ -264,7 +275,7 @@ test('8 — reveal button shows the answer', async ({ browser }) => {
 test('9 — next button advances to the next card', async ({ browser }) => {
   const page = await openWithStorage(browser, () => {}, 0);
   await page.goto(BASE + 'tools/study/index.html?deck=' + ESO1_BIO_DECK_FILE + '&id=' + ESO1_BIO_DECK_ID + '&titulo=Biologia');
-  await expect(page.locator('#study-area')).toBeVisible({ timeout: 10000 });
+  await waitForStudyReady(page);
   // Reveal card 0
   await page.locator('#btn-reveal').click();
   await expect(page.locator('#flashcard.revealed')).toBeVisible({ timeout: 5000 });
@@ -284,7 +295,7 @@ test('9 — next button advances to the next card', async ({ browser }) => {
 test('10 — prev button returns to the previous card (after reveal)', async ({ browser }) => {
   const page = await openWithStorage(browser, () => {}, 0);
   await page.goto(BASE + 'tools/study/index.html?deck=' + ESO1_BIO_DECK_FILE + '&id=' + ESO1_BIO_DECK_ID + '&titulo=Biologia');
-  await expect(page.locator('#study-area')).toBeVisible({ timeout: 10000 });
+  await waitForStudyReady(page);
   // Reveal card 0 (locator.click for proper actionability checks)
   await page.locator('#btn-reveal').click();
   await expect(page.locator('#flashcard.revealed')).toBeVisible({ timeout: 5000 });
@@ -325,7 +336,7 @@ test('10 — prev button returns to the previous card (after reveal)', async ({ 
 test('11 — arrow keys navigate cards (keyboard accessibility)', async ({ browser }) => {
   const page = await openWithStorage(browser, () => {}, 0);
   await page.goto(BASE + 'tools/study/index.html?deck=' + ESO1_BIO_DECK_FILE + '&id=' + ESO1_BIO_DECK_ID + '&titulo=Biologia');
-  await expect(page.locator('#study-area')).toBeVisible({ timeout: 10000 });
+  await waitForStudyReady(page);
   // Reveal card 0 via button click (study tool uses ArrowRight for navigation, not reveal)
   await page.locator('#btn-reveal').click();
   await expect(page.locator('#flashcard.revealed')).toBeVisible({ timeout: 5000 });
@@ -522,6 +533,28 @@ test('16 — star count persists after page reload', async ({ browser }) => {
   await page.reload();
   const starsTextAfter = await page.locator('#stars-total').textContent();
   expect(starsTextAfter).toMatch(/3/);
+});
+
+test('16b — footer links "Sobre la app" before Configuración and shows achievements', async ({ browser }) => {
+  // Progress saved before achievements existed: 2 stars, 1 deck → the
+  // about-app page must grant firstStar and reviewAgain retroactively.
+  const page = await openWithStorage(browser, () => {
+    localStorage.setItem('memofun:progress', JSON.stringify({
+      stars: 2,
+      completed: { 'eso-1-biologia-geologia': true }
+    }));
+  }, 0);
+  const footerLinks = page.locator('footer.app-footer a');
+  await expect(footerLinks.nth(0)).toHaveAttribute('href', 'about-app/');
+  await expect(footerLinks.nth(0)).toHaveText('Sobre la app');
+  await expect(footerLinks.nth(1)).toHaveAttribute('href', 'config/');
+
+  await footerLinks.nth(0).click();
+  await expect(page).toHaveURL(/about-app\/$/);
+  await expect(page.locator('h1')).toContainText('Sobre la app');
+  await expect(page.locator('#achievementsGrid .achievement-badge')).toHaveCount(6);
+  await expect(page.locator('#achievementsGrid .achievement-badge.unlocked')).toHaveCount(2);
+  await expect(page.locator('#achievementsCount')).toHaveText('Tienes 2 de 6 logros.');
 });
 
 // ===========================================================================
