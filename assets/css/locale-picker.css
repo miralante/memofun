@@ -24,9 +24,12 @@
   line-height: 1;
 }
 
-/* Cuando el locale picker vive en el drawer, la copia de la cabecera
-   queda vacía y no debe ocupar espacio. */
-#locale-picker[data-empty="true"] { display: none; }
+/* #locale-picker es el ancla del desplegable de idioma. El ⚙️ lo
+   inserta locale-picker.js como hermano justo detrás, de modo que los
+   dos controles comparten fila y el engranaje queda arriba a la derecha
+   cuando esa fila está alineada al final (que es lo que hace
+   .suite-controls en las apps de la suite). */
+#locale-picker + .locale-settings-trigger { margin-left: 2px; }
 
 /* Botón trigger */
 .locale-picker-btn {
@@ -102,6 +105,20 @@
   visibility: visible;
   transform: translateY(0);
   transition: opacity 0.12s ease, transform 0.12s ease, visibility 0s;
+}
+
+/* Cuando la app coloca #locale-picker dentro de SU propio cajón de
+   ajustes (Teclatlon, con `settings: false`) la fila del desplegable
+   ocupa todo el ancho, y el panel alineado a la derecha se saldría de la
+   fila: la mitad queda bajo el fondo del cajón, visible pero sin recibir
+   el clic. Anclarlo a la izquierda lo mantiene dentro.
+
+   Este bloque lo tenía solo la copia de Teclatlon. Al unificar las ocho
+   copias del componente hubo que traerlo: sin él, el menú de idioma deja
+   de funcionar dentro del cajón nativo de Teclatlon. */
+.settings-drawer #locale-picker .locale-picker-panel {
+  right: auto;
+  left: 0;
 }
 
 /* Opciones */
@@ -212,7 +229,6 @@
 .locale-settings-options button[aria-pressed="true"] { border-color: var(--lp-accent, var(--accent, #1B6CA8)); background: var(--accent-soft, #E3EEF6); }
 .locale-settings-check { display: flex; align-items: center; justify-content: space-between; min-height: 44px; }
 .locale-settings-check input { width: 24px; height: 24px; accent-color: var(--lp-accent, var(--accent, #1B6CA8)); }
-.locale-settings-more { color: inherit; font-weight: 700; text-underline-offset: 3px; }
 .locale-settings-help { margin: 0; color: var(--color-text-soft, var(--muted, #4A4A68)); font-size: 0.9em; }
 
 html[data-a11y-text="small"] { --text-scale: 0.9; --escala-texto: 0.9; }

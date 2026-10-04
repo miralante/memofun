@@ -33,7 +33,21 @@
    Multi-idioma nativo: cada opción muestra el nombre del idioma en
    SU PROPIO idioma ("Español" para es, "English" para en, etc.) —
    no se traduce a la locale activa, porque entonces perdería
-   identidad visual al cambiar. */
+   identidad visual al cambiar.
+
+   Cabecera: DOS controles y ninguno dentro del otro.
+     · el desplegable de idioma, siempre visible en #locale-picker;
+     · el ⚙️, su hermano inmediato a la derecha, que abre el cajón de
+       accesibilidad (tema, tamaño de letra, alto contraste y, si la app
+       tiene sonido, sus interruptores).
+   El idioma NO vive dentro del cajón: llegar al idioma cuesta un clic,
+   no dos. Es el modelo de Teclatlon, donde la app trae su propio cajón
+   y este componente se limita al desplegable (`settings: false`).
+
+   El cajón NO lleva enlace "Más ajustes": cada proyecto tiene su propia
+   ruta de ajustes en su navegación, y un segundo acceso al mismo sitio
+   dentro de otro control era una configuración repetida. Por eso
+   `settingsHref` ya no existe. */
 (function () {
   'use strict';
 
@@ -53,11 +67,15 @@
   var ENABLE_SETTINGS = cfg.settings !== false;
   var SETTINGS_KEY = cfg.settingsStorageKey || (STORAGE_KEY + ':accessibility');
   var SOUND_SETTINGS_KEY = cfg.soundStorageKey || 'miralante:sounds';
-  var SETTINGS_HREF = cfg.settingsHref || '';
   var SOUND_SETTINGS_ENABLED = cfg.soundSettings !== false;
   var settingsState = null;
   var soundState = null;
   var baseRootFontSize = null;
+  /* Apps whose body copy is sized in px through --text-base (Apptonomia's
+     landing) do not resize when only the root font-size moves, so they
+     opt in and this component scales that token as well. */
+  var TEXT_BASE_TOKEN = cfg.textBaseToken === true;
+  var baseTextBaseSize = null;
   var textSizeIsExplicit = false;
   var _discoveredLocales = null;  /* populado por discoverLocales */
   var _activeLocale = null;        /* populado por discoverLocales */
@@ -111,12 +129,12 @@
   /* ============================================================
      Render del dropdown.
      ============================================================ */
-  /* Render del dropdown. Si se pasa drawerLocaleContainer (elemento
-     dentro del cajón de ajustes), el locale picker se renderiza ahí
-     en lugar de en #locale-picker de la cabecera. */
-  function buildUI(locales, activeLocale, drawerLocaleContainer) {
+  /* Render del dropdown de idioma. Siempre en la cabecera, dentro de
+     #locale-picker: el idioma es un control de primer nivel, no un
+     subapartado del cajón de ajustes. */
+  function buildUI(locales, activeLocale) {
     locales = filterSupportedLocales(locales);
-    var root = drawerLocaleContainer || document.getElementById('locale-picker');
+    var root = document.getElementById('locale-picker');
     if (!root || !locales.length) return;
 
     var active = locales.indexOf(activeLocale) !== -1 ? activeLocale
@@ -156,13 +174,6 @@
     root.appendChild(btn);
     root.appendChild(panel);
 
-    /* Marcar #locale-picker de la cabecera como vacío para que no
-       ocupe espacio visual cuando el picker vive en el drawer. */
-    if (drawerLocaleContainer) {
-      var headerContainer = document.getElementById('locale-picker');
-      if (headerContainer) headerContainer.setAttribute('data-empty', 'true');
-    }
-
     /* Eventos */
     btn.addEventListener('click', function () { toggle(panel, btn); });
     panel.addEventListener('click', function (e) {
@@ -182,24 +193,28 @@
 
   /* ============================================================
      Shared accessibility settings.
-     The gear lives next to the language picker on every suite app.
-     Teclatlon opts out because its richer drawer is already part of
-     that app's main screen. Other apps get the same small, focused
-     panel: text size, high contrast, and a link to their full settings
-     route when one exists.
+     The gear sits next to the language picker on the top right of
+     the header, on every suite app. Its drawer holds ONLY the
+     controls it is the only entry point for: theme, text size, high
+     contrast and — where the app has sounds — their switches.
+     The language is not repeated in here, and there is no "more
+     settings" link: each project already exposes its own settings
+     route from its own navigation, so a second way in was a
+     duplicated control. Teclatlon opts out of the gear entirely
+     because its richer drawer is already part of its main screen.
      ============================================================ */
   var SETTINGS_COPY = {
     es: {
       title: 'Ajustes', close: 'Cerrar ajustes', textSize: 'Tamaño de letra',
       small: 'Pequeño', normal: 'Normal', large: 'Grande',
       theme: 'Tema', themeAuto: 'Auto', themeLight: 'Claro', themeDark: 'Oscuro',
-      contrast: 'Alto contraste', successSound: 'Sonido de acierto', errorSound: 'Sonido de error', more: 'Más ajustes', help: 'Se guarda en este dispositivo.'
+      contrast: 'Alto contraste', successSound: 'Sonido de acierto', errorSound: 'Sonido de error', help: 'Se guarda en este dispositivo.'
     },
     en: {
       title: 'Settings', close: 'Close settings', textSize: 'Text size',
       small: 'Small', normal: 'Normal', large: 'Large',
       theme: 'Theme', themeAuto: 'Auto', themeLight: 'Light', themeDark: 'Dark',
-      contrast: 'High contrast', successSound: 'Correct answer sound', errorSound: 'Error sound', more: 'More settings', help: 'Saved on this device.'
+      contrast: 'High contrast', successSound: 'Correct answer sound', errorSound: 'Error sound', help: 'Saved on this device.'
     }
   };
 
@@ -272,8 +287,21 @@
       : (baseRootFontSize * (settingsState.textSize === 'large' ? 1.15 : 0.9)) + 'px';
     if (textSizeIsExplicit) {
       var scale = settingsState.textSize === 'large' ? 1.15 : (settingsState.textSize === 'small' ? 0.9 : 1);
+      if (TEXT_BASE_TOKEN) {
+        if (baseTextBaseSize === null) {
+          baseTextBaseSize = parseFloat(window.getComputedStyle(html).getPropertyValue('--text-base')) || 18;
+        }
+        html.style.setProperty('--text-base', (baseTextBaseSize * scale) + 'px');
+      }
       html.style.setProperty('--text-scale', scale);
       html.style.setProperty('--escala-texto', scale);
+    } else if (TEXT_BASE_TOKEN) {
+      /* Sin elección explícita los tokens vuelven a la hoja: si se
+         quedaron fijados en <html> el "Normal" ya no significaría lo
+         mismo que el tamaño de la hoja de estilos. */
+      html.style.removeProperty('--text-base');
+      html.style.removeProperty('--text-scale');
+      html.style.removeProperty('--escala-texto');
     }
     html.classList.toggle('high-contrast', settingsState.contrast && cfg.legacyContrastClass === true);
     applyTheme();
@@ -303,8 +331,6 @@
       });
     }
     drawer.querySelector('[data-settings-help]').textContent = copy.help;
-    var more = drawer.querySelector('[data-settings-more]');
-    if (more) more.textContent = copy.more;
     drawer.querySelectorAll('[data-settings-size]').forEach(function (button) {
       button.setAttribute('aria-pressed', String(button.getAttribute('data-settings-size') === settingsState.textSize));
     });
@@ -327,10 +353,6 @@
     trigger.focus();
   }
 
-  /* Contenedor del locale picker dentro del drawer (creado por buildSettings).
-     Se usa para que buildUI渲染locale picker dentro del drawer. */
-  var _drawerLocaleContainer = null;
-
   function buildSettings() {
     settingsState = loadSettings();
     soundState = loadSoundSettings();
@@ -347,8 +369,10 @@
     trigger.textContent = '⚙️';
     var headerLocalePicker = document.getElementById('locale-picker');
     if (headerLocalePicker && headerLocalePicker.parentNode) {
-      /* buildUI() hides the header picker after moving locale controls into
-         the drawer. Keep the settings trigger as its visible sibling. */
+      /* Inmediatamente después del desplegable de idioma y dentro de su
+         misma fila (que es el extremo derecho de la cabecera), el ⚙️ cae
+         arriba a la derecha. No se toca #locale-picker: su panel se
+         ancla a ese contenedor y un hijo más lo desplazaría. */
       headerLocalePicker.parentNode.insertBefore(trigger, headerLocalePicker.nextSibling);
     }
 
@@ -363,18 +387,12 @@
     drawer.setAttribute('aria-labelledby', 'accessibility-settings-title');
     drawer.hidden = true;
 
-    /* Contenedor para el selector de idioma dentro del drawer */
-    _drawerLocaleContainer = document.createElement('div');
-    _drawerLocaleContainer.className = 'locale-picker-drawer';
-
     drawer.innerHTML =
       '<div class="locale-settings-drawer-header">' +
         '<h2 id="accessibility-settings-title" data-settings-title></h2>' +
         '<button type="button" class="locale-settings-close" data-settings-close>✕</button>' +
       '</div>' +
       '<div class="locale-settings-drawer-body">' +
-        /* Selector de idioma: primer elemento del drawer */
-        '<div class="locale-settings-row locale-settings-locale"></div>' +
         '<div class="locale-settings-row"><span data-settings-theme-label></span>' +
           '<div class="locale-settings-options" role="group">' +
             '<button type="button" data-settings-theme="auto" data-settings-theme-auto></button>' +
@@ -395,19 +413,12 @@
           '<input type="checkbox" data-settings-success></label>' +
         '<label class="locale-settings-row locale-settings-check"><span data-settings-error-label></span>' +
           '<input type="checkbox" data-settings-error></label>' +
-        (SETTINGS_HREF ? '<a class="locale-settings-more" data-settings-more href="' + SETTINGS_HREF + '"></a>' : '') +
         '<p class="locale-settings-help" data-settings-help></p>' +
       '</div>';
-
-    /* Insertar el locale picker dentro del contenedor dedicado en el drawer */
-    drawer.querySelector('.locale-settings-locale').appendChild(_drawerLocaleContainer);
 
     document.body.appendChild(backdrop);
     document.body.appendChild(drawer);
     renderSettings(drawer);
-
-    /* Renderizar el locale picker DENTRO del drawer (reemplaza el de la cabecera) */
-    buildUI(_discoveredLocales, _activeLocale, _drawerLocaleContainer);
 
     function open() {
       renderSettings(drawer);
@@ -555,16 +566,13 @@
       _discoveredLocales = locales;
       _activeLocale = current;
 
-      if (ENABLE_SETTINGS) {
-        /* Crear el drawer de ajustes (que incluye el selector de idioma) */
-        buildSettings();
-      }
+      /* El ⚙️ se inserta antes que nada porque es hermano del
+         #locale-picker, no hijo: el orden de los dos controles en la
+         cabecera no depende de cuál se construya primero. */
+      if (ENABLE_SETTINGS) buildSettings();
 
-      /* Para proyectos sin drawer, o si el drawer no se pudo crear,
-         renderizar el locale picker en la cabecera #locale-picker. */
-      if (!ENABLE_SETTINGS || !_drawerLocaleContainer) {
-        buildUI(locales, current);
-      }
+      /* El idioma va siempre a la cabecera, tenga la app o no el ⚙️. */
+      buildUI(locales, current);
     });
   }
 

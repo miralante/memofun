@@ -379,26 +379,76 @@ async function exerciseAppearanceSettings(browser, baseUrl) {
     await page.locator('.locale-settings-trigger').waitFor({ state: 'visible', timeout: NAV_TIMEOUT });
     assert.strictEqual(await page.locator('html').getAttribute('data-theme'), 'contrast',
       'El alto contraste debe continuar activo después de recargar');
-    await page.locator('.locale-settings-trigger').click();
-    const languagePicker = page.locator('#accessibility-settings .locale-picker-btn');
+    /* El idioma es un control de primer nivel en la cabecera, no un
+       subapartado del cajón: se cambia sin abrir los ajustes. La recarga
+       anterior deja el cajón cerrado, y su fondo a pantalla completa
+       interceptaría el clic en la cabecera si no lo estuviera. */
+    await page.locator('#accessibility-settings').waitFor({ state: 'hidden', timeout: NAV_TIMEOUT });
+
+    const languagePicker = page.locator('#locale-picker .locale-picker-btn');
     await languagePicker.click();
-    const english = page.locator('#accessibility-settings .locale-picker-panel li[data-locale="en"]');
+    const english = page.locator('#locale-picker .locale-picker-panel li[data-locale="en"]');
     await english.waitFor({ state: 'visible', timeout: NAV_TIMEOUT });
     await english.click();
     await page.waitForFunction(() => document.documentElement.lang.slice(0, 2) === 'en',
       null, { timeout: NAV_TIMEOUT });
     assert.strictEqual((await page.locator('html').getAttribute('lang') || '').slice(0, 2), 'en',
-      'El idioma del cajón debe cambiar el idioma activo de la app');
+      'El desplegable de la cabecera debe cambiar el idioma activo de la app');
     assert.strictEqual((await languagePicker.locator('.locale-picker-current').textContent()).trim(), 'EN');
-    const more = page.locator('#accessibility-settings [data-settings-more]');
-    if (await more.count()) {
-      assert.ok(await more.getAttribute('href'), 'El enlace a ajustes propios debe tener destino');
-    }
+
+    /* El engranaje queda arriba a la derecha: hermano inmediato del
+       desplegable, en la misma fila alineada al final. */
+    const gearRow = await page.evaluate(() => {
+      const picker = document.getElementById('locale-picker');
+      const gear = document.querySelector('.locale-settings-trigger');
+      return {
+        sameRow: !!gear && gear.parentNode === picker.parentNode,
+        gearAfterPicker: !!gear && picker.nextElementSibling === gear,
+        alignsEnd: getComputedStyle(picker.parentNode).justifyContent === 'flex-end',
+      };
+    });
+    assert.ok(gearRow.sameRow, 'El engranaje debe compartir fila con el desplegable de idioma');
+    assert.ok(gearRow.gearAfterPicker, 'El engranaje debe ir justo detrás del desplegable, a la derecha');
+    assert.ok(gearRow.alignsEnd, 'La fila de controles debe alinearse al final para quedar arriba a la derecha');
+
+    /* El cajón no repite el idioma ni enlaza a la página de ajustes
+       propia del proyecto: eso era una configuración repetida. */
+    assert.strictEqual(await page.locator('#accessibility-settings .locale-picker-btn').count(), 0,
+      'El selector de idioma no debe vivir dentro del cajón de ajustes');
+    assert.strictEqual(await page.locator('#accessibility-settings [data-settings-more]').count(), 0,
+      'El cajón no debe enlazar a la página de ajustes propia del proyecto');
   } finally {
     await page.close().catch(() => {});
     await context.close().catch(() => {});
   }
-} 
+}
+
+async function exerciseConfigLanguage(browser, baseUrl) {
+  const context = await browser.newContext({
+    serviceWorkers: 'block', locale: 'es-ES', viewport: { width: 1280, height: 900 },
+  });
+  const page = await context.newPage();
+  try {
+    await page.goto(baseUrl + '/config/', { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT });
+    assert.strictEqual(await page.locator('html').getAttribute('lang'), 'es');
+    assert.strictEqual(await page.locator('#lang-es').getAttribute('aria-pressed'), 'true');
+    assert.strictEqual(await page.locator('#lang-en').getAttribute('aria-pressed'), 'false');
+
+    await page.locator('#lang-en').click();
+    await page.waitForFunction(() => document.documentElement.lang === 'en', null, { timeout: NAV_TIMEOUT });
+    assert.strictEqual(await page.title(), 'Settings | Memofun');
+    assert.strictEqual(await page.locator('#lang-en').getAttribute('aria-pressed'), 'true');
+    assert.strictEqual(await page.locator('#lang-es').getAttribute('aria-pressed'), 'false');
+    assert.strictEqual(await page.evaluate(() => localStorage.getItem('memofun:locale')), 'en');
+
+    await page.reload({ waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT });
+    assert.strictEqual(await page.locator('#lang-en').getAttribute('aria-pressed'), 'true');
+    assert.strictEqual(await page.locator('html').getAttribute('lang'), 'en');
+  } finally {
+    await page.close().catch(() => {});
+    await context.close().catch(() => {});
+  }
+}
 
 async function exerciseNativeSettings(browser, baseUrl) {
   const context = await browser.newContext({
@@ -944,6 +994,10 @@ async function main() {
     process.stdout.write('\n[' + APP + '] font-size settings OK');
     await exerciseAppearanceSettings(browser, baseUrl);
     process.stdout.write('\n[' + APP + '] theme/contrast/language settings OK');
+    if (APP === 'memofun') {
+      await exerciseConfigLanguage(browser, baseUrl);
+      process.stdout.write('\n[memofun] configuration language selection and persistence OK');
+    }
     await exerciseNativeSettings(browser, baseUrl);
     process.stdout.write('\n[' + APP + '] native settings OK');
     if (process.env.UI_SMOKE_SETTINGS_ONLY !== '1') {

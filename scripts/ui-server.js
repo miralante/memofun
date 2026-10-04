@@ -44,22 +44,25 @@ const server = http.createServer((req, res) => {
     return;
   }
   if (requestPath === '/') requestPath = '/index.html';
-  const file = path.resolve(ROOT, '.' + requestPath);
+  let file = path.resolve(ROOT, '.' + requestPath);
   if (file !== ROOT && !file.startsWith(ROOT + path.sep)) {
     res.writeHead(403);
     res.end('forbidden');
     return;
   }
-  fs.readFile(file, (error, data) => {
-    if (error) {
-      res.writeHead(error.code === 'ENOENT' ? 404 : 500);
-      res.end('not found');
-      return;
-    }
-    const headers = { 'Content-Type': MIME[path.extname(file)] || 'application/octet-stream' };
-    if (CSP) headers['Content-Security-Policy'] = CSP;
-    res.writeHead(200, headers);
-    res.end(data);
+  fs.stat(file, (statError, stats) => {
+    if (!statError && stats.isDirectory()) file = path.join(file, 'index.html');
+    fs.readFile(file, (error, data) => {
+      if (error) {
+        res.writeHead(error.code === 'ENOENT' ? 404 : 500);
+        res.end('not found');
+        return;
+      }
+      const headers = { 'Content-Type': MIME[path.extname(file)] || 'application/octet-stream' };
+      if (CSP) headers['Content-Security-Policy'] = CSP;
+      res.writeHead(200, headers);
+      res.end(data);
+    });
   });
 });
 
