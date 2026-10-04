@@ -1,6 +1,6 @@
 'use strict';
 
-const { test, expect } = require('@playwright/test');
+const { test, expect } = require('playwright/test');
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -10,7 +10,7 @@ const { test, expect } = require('@playwright/test');
 const ESO1_BIO_DECK_FILE = 'eso_1_biologia-geologia.json';
 const ESO1_BIO_DECK_ID = 'eso-1-biologia-geologia'; // id in manifest.json
 
-const BASE = 'http://127.0.0.1:4173/';
+const BASE = `http://127.0.0.1:${process.env.PORT || 4173}/`;
 
 // ---------------------------------------------------------------------------
 // Module-level browser reference — set in beforeEach before each test
@@ -589,6 +589,28 @@ test('19 — switching locale to English changes the UI text', async ({ browser 
   // The page title should be in English (Memofun or similar)
   const title = await page.title();
   expect(title.trim().length).toBeGreaterThan(0);
+});
+
+test('19a — the settings language picker switches to English and persists', async ({ browser }) => {
+  const context = await browser.newContext({ locale: 'es-ES' });
+  _lastCtx = context;
+  const page = await context.newPage();
+  try {
+    await page.goto(BASE, { waitUntil: 'domcontentloaded' });
+    await expect(page.locator('html')).toHaveAttribute('lang', 'es');
+    const spanishTagline = (await page.locator('.tagline').textContent()).trim();
+
+    await page.locator('.locale-settings-trigger').click();
+    const drawer = page.locator('#accessibility-settings');
+    await drawer.locator('.locale-picker-btn').click();
+    await drawer.locator('.locale-picker-panel li[data-locale="en"]').click();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+    await expect(page.locator('.locale-picker-current')).toHaveText('EN');
+    expect(await page.evaluate(() => localStorage.getItem('memofun:locale'))).toBe('en');
+    expect((await page.locator('.tagline').textContent()).trim()).not.toBe(spanishTagline);
+  } finally {
+    await context.close();
+  }
 });
 
 test('19b — unsupported browser language falls back to English', async ({ browser }) => {

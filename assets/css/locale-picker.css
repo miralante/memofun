@@ -24,6 +24,10 @@
   line-height: 1;
 }
 
+/* Cuando el locale picker vive en el drawer, la copia de la cabecera
+   queda vacía y no debe ocupar espacio. */
+#locale-picker[data-empty="true"] { display: none; }
+
 /* Botón trigger */
 .locale-picker-btn {
   display: inline-flex;

@@ -2,7 +2,9 @@
     "name":  "memofun-ui-tests",
     "private":  true,
     "scripts":  {
+    "test:contrast": "powershell -ExecutionPolicy Bypass -File ..\\contrast\\check-contrast.ps1",
                     "test:ui":  "node scripts/ui-smoke.js",
+                    "test:playwright":  "playwright test tests/app.spec.js",
                     "test:sw":  "node scripts/smoke-sw.js"
                 },
     "devDependencies":  {

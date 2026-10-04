@@ -54,10 +54,13 @@
   var SETTINGS_KEY = cfg.settingsStorageKey || (STORAGE_KEY + ':accessibility');
   var SOUND_SETTINGS_KEY = cfg.soundStorageKey || 'miralante:sounds';
   var SETTINGS_HREF = cfg.settingsHref || '';
+  var SOUND_SETTINGS_ENABLED = cfg.soundSettings !== false;
   var settingsState = null;
   var soundState = null;
   var baseRootFontSize = null;
   var textSizeIsExplicit = false;
+  var _discoveredLocales = null;  /* populado por discoverLocales */
+  var _activeLocale = null;        /* populado por discoverLocales */
 
   /* Mapa de etiquetas nativas (cómo se llama cada idioma en sí
      mismo). Si la app pasa su propio `localeLabels`, se usa ese;
@@ -108,9 +111,12 @@
   /* ============================================================
      Render del dropdown.
      ============================================================ */
-  function buildUI(locales, activeLocale) {
+  /* Render del dropdown. Si se pasa drawerLocaleContainer (elemento
+     dentro del cajón de ajustes), el locale picker se renderiza ahí
+     en lugar de en #locale-picker de la cabecera. */
+  function buildUI(locales, activeLocale, drawerLocaleContainer) {
     locales = filterSupportedLocales(locales);
-    var root = document.getElementById('locale-picker');
+    var root = drawerLocaleContainer || document.getElementById('locale-picker');
     if (!root || !locales.length) return;
 
     var active = locales.indexOf(activeLocale) !== -1 ? activeLocale
@@ -150,7 +156,12 @@
     root.appendChild(btn);
     root.appendChild(panel);
 
-    if (ENABLE_SETTINGS) buildSettings(root, active);
+    /* Marcar #locale-picker de la cabecera como vacío para que no
+       ocupe espacio visual cuando el picker vive en el drawer. */
+    if (drawerLocaleContainer) {
+      var headerContainer = document.getElementById('locale-picker');
+      if (headerContainer) headerContainer.setAttribute('data-empty', 'true');
+    }
 
     /* Eventos */
     btn.addEventListener('click', function () { toggle(panel, btn); });
@@ -181,14 +192,22 @@
     es: {
       title: 'Ajustes', close: 'Cerrar ajustes', textSize: 'Tamaño de letra',
       small: 'Pequeño', normal: 'Normal', large: 'Grande',
+      theme: 'Tema', themeAuto: 'Auto', themeLight: 'Claro', themeDark: 'Oscuro',
       contrast: 'Alto contraste', successSound: 'Sonido de acierto', errorSound: 'Sonido de error', more: 'Más ajustes', help: 'Se guarda en este dispositivo.'
     },
     en: {
       title: 'Settings', close: 'Close settings', textSize: 'Text size',
       small: 'Small', normal: 'Normal', large: 'Large',
+      theme: 'Theme', themeAuto: 'Auto', themeLight: 'Light', themeDark: 'Dark',
       contrast: 'High contrast', successSound: 'Correct answer sound', errorSound: 'Error sound', more: 'More settings', help: 'Saved on this device.'
     }
   };
+
+  /* Temas que la suite soporta. "auto" no fija atributo: deja que el
+     navegador aplique prefers-color-scheme. Los otros tres se aplican
+     con data-theme, que es lo que las paletas oscuras de cada tokens.css
+     escuchan. */
+  var THEMES = ['auto', 'light', 'dark'];
 
   function settingsLocale() {
     var loc = '';
@@ -207,6 +226,7 @@
     return {
       textSize: ['small', 'normal', 'large'].indexOf(saved.textSize) !== -1 ? saved.textSize : 'normal',
       textSizeSet: textSizeIsExplicit,
+      theme: THEMES.indexOf(saved.theme) !== -1 ? saved.theme : 'auto',
       contrast: saved.contrast === true
     };
   }
@@ -223,7 +243,23 @@
   }
 
   function saveSoundSettings() {
+    if (!SOUND_SETTINGS_ENABLED) return;
     try { localStorage.setItem(SOUND_SETTINGS_KEY, JSON.stringify(soundState)); } catch (e) {}
+  }
+
+  /* El conmutador de alto contraste y el de tema son la misma palanca
+     para quien tiene baja visión: el contraste es el extremo de la
+     misma serie. Cuando el contraste está activo manda sobre el tema,
+     y por eso se aplica y se revierte data-theme en ambos sentidos. */
+  function applyTheme() {
+    var html = document.documentElement;
+    if (settingsState.contrast) {
+      html.setAttribute('data-theme', 'contrast');
+    } else if (settingsState.theme === 'auto') {
+      html.removeAttribute('data-theme');
+    } else {
+      html.setAttribute('data-theme', settingsState.theme);
+    }
   }
 
   function applySettings() {
@@ -240,6 +276,7 @@
       html.style.setProperty('--escala-texto', scale);
     }
     html.classList.toggle('high-contrast', settingsState.contrast && cfg.legacyContrastClass === true);
+    applyTheme();
   }
 
   function renderSettings(drawer) {
@@ -247,22 +284,39 @@
     drawer.querySelector('[data-settings-title]').textContent = copy.title;
     drawer.querySelector('[data-settings-close]').setAttribute('aria-label', copy.close);
     drawer.querySelector('[data-settings-size-label]').textContent = copy.textSize;
+    drawer.querySelector('[data-settings-theme-label]').textContent = copy.theme;
+    drawer.querySelector('[data-settings-theme-auto]').textContent = copy.themeAuto;
+    drawer.querySelector('[data-settings-theme-light]').textContent = copy.themeLight;
+    drawer.querySelector('[data-settings-theme-dark]').textContent = copy.themeDark;
     drawer.querySelector('[data-settings-size-small]').textContent = copy.small;
     drawer.querySelector('[data-settings-size-normal]').textContent = copy.normal;
     drawer.querySelector('[data-settings-size-large]').textContent = copy.large;
     drawer.querySelector('[data-settings-contrast-label]').textContent = copy.contrast;
-    drawer.querySelector('[data-settings-success-label]').textContent = copy.successSound;
-    drawer.querySelector('[data-settings-error-label]').textContent = copy.errorSound;
+    if (SOUND_SETTINGS_ENABLED) {
+      drawer.querySelector('[data-settings-success-label]').textContent = copy.successSound;
+      drawer.querySelector('[data-settings-error-label]').textContent = copy.errorSound;
+    } else {
+      var soundRows = drawer.querySelectorAll('[data-settings-success], [data-settings-error]');
+      Array.prototype.forEach.call(soundRows, function (input) {
+        var row = input.closest('label');
+        if (row) row.remove();
+      });
+    }
     drawer.querySelector('[data-settings-help]').textContent = copy.help;
     var more = drawer.querySelector('[data-settings-more]');
     if (more) more.textContent = copy.more;
     drawer.querySelectorAll('[data-settings-size]').forEach(function (button) {
       button.setAttribute('aria-pressed', String(button.getAttribute('data-settings-size') === settingsState.textSize));
     });
+    drawer.querySelectorAll('[data-settings-theme]').forEach(function (button) {
+      button.setAttribute('aria-pressed', String(button.getAttribute('data-settings-theme') === settingsState.theme));
+    });
     var contrast = drawer.querySelector('[data-settings-contrast]');
     contrast.checked = settingsState.contrast;
-    drawer.querySelector('[data-settings-success]').checked = soundState.success;
-    drawer.querySelector('[data-settings-error]').checked = soundState.error;
+    if (SOUND_SETTINGS_ENABLED) {
+      drawer.querySelector('[data-settings-success]').checked = soundState.success;
+      drawer.querySelector('[data-settings-error]').checked = soundState.error;
+    }
   }
 
   function closeSettings(trigger, backdrop, drawer) {
@@ -273,11 +327,16 @@
     trigger.focus();
   }
 
-  function buildSettings(root) {
+  /* Contenedor del locale picker dentro del drawer (creado por buildSettings).
+     Se usa para que buildUI渲染locale picker dentro del drawer. */
+  var _drawerLocaleContainer = null;
+
+  function buildSettings() {
     settingsState = loadSettings();
     soundState = loadSoundSettings();
     saveSoundSettings();
     applySettings();
+
     var trigger = document.createElement('button');
     trigger.type = 'button';
     trigger.className = 'locale-settings-trigger';
@@ -286,7 +345,12 @@
     trigger.setAttribute('aria-controls', 'accessibility-settings');
     trigger.setAttribute('aria-label', settingsLocale() === 'en' ? 'Settings' : 'Ajustes');
     trigger.textContent = '⚙️';
-    root.appendChild(trigger);
+    var headerLocalePicker = document.getElementById('locale-picker');
+    if (headerLocalePicker && headerLocalePicker.parentNode) {
+      /* buildUI() hides the header picker after moving locale controls into
+         the drawer. Keep the settings trigger as its visible sibling. */
+      headerLocalePicker.parentNode.insertBefore(trigger, headerLocalePicker.nextSibling);
+    }
 
     var backdrop = document.createElement('div');
     backdrop.className = 'locale-settings-backdrop';
@@ -298,12 +362,26 @@
     drawer.setAttribute('aria-modal', 'true');
     drawer.setAttribute('aria-labelledby', 'accessibility-settings-title');
     drawer.hidden = true;
+
+    /* Contenedor para el selector de idioma dentro del drawer */
+    _drawerLocaleContainer = document.createElement('div');
+    _drawerLocaleContainer.className = 'locale-picker-drawer';
+
     drawer.innerHTML =
       '<div class="locale-settings-drawer-header">' +
         '<h2 id="accessibility-settings-title" data-settings-title></h2>' +
         '<button type="button" class="locale-settings-close" data-settings-close>✕</button>' +
       '</div>' +
       '<div class="locale-settings-drawer-body">' +
+        /* Selector de idioma: primer elemento del drawer */
+        '<div class="locale-settings-row locale-settings-locale"></div>' +
+        '<div class="locale-settings-row"><span data-settings-theme-label></span>' +
+          '<div class="locale-settings-options" role="group">' +
+            '<button type="button" data-settings-theme="auto" data-settings-theme-auto></button>' +
+            '<button type="button" data-settings-theme="light" data-settings-theme-light></button>' +
+            '<button type="button" data-settings-theme="dark" data-settings-theme-dark></button>' +
+          '</div>' +
+        '</div>' +
         '<div class="locale-settings-row"><span data-settings-size-label></span>' +
           '<div class="locale-settings-options" role="group">' +
             '<button type="button" data-settings-size="small" data-settings-size-small></button>' +
@@ -320,9 +398,16 @@
         (SETTINGS_HREF ? '<a class="locale-settings-more" data-settings-more href="' + SETTINGS_HREF + '"></a>' : '') +
         '<p class="locale-settings-help" data-settings-help></p>' +
       '</div>';
+
+    /* Insertar el locale picker dentro del contenedor dedicado en el drawer */
+    drawer.querySelector('.locale-settings-locale').appendChild(_drawerLocaleContainer);
+
     document.body.appendChild(backdrop);
     document.body.appendChild(drawer);
     renderSettings(drawer);
+
+    /* Renderizar el locale picker DENTRO del drawer (reemplaza el de la cabecera) */
+    buildUI(_discoveredLocales, _activeLocale, _drawerLocaleContainer);
 
     function open() {
       renderSettings(drawer);
@@ -348,18 +433,32 @@
         saveSettings(); applySettings(); renderSettings(drawer);
       });
     });
+    drawer.querySelectorAll('[data-settings-theme]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var chosen = button.getAttribute('data-settings-theme');
+        if (THEMES.indexOf(chosen) === -1) return;
+        settingsState.theme = chosen;
+        /* Elegir un tema concreto apaga el alto contraste: si no, el
+           contraste se comería la elección y los botones aparecerían
+           pulsados sin efecto visible. */
+        if (chosen !== 'auto') settingsState.contrast = false;
+        saveSettings(); applySettings(); renderSettings(drawer);
+      });
+    });
     drawer.querySelector('[data-settings-contrast]').addEventListener('change', function (event) {
       settingsState.contrast = event.target.checked;
       saveSettings(); applySettings(); renderSettings(drawer);
     });
-    drawer.querySelector('[data-settings-success]').addEventListener('change', function (event) {
-      soundState.success = event.target.checked;
-      saveSoundSettings(); renderSettings(drawer);
-    });
-    drawer.querySelector('[data-settings-error]').addEventListener('change', function (event) {
-      soundState.error = event.target.checked;
-      saveSoundSettings(); renderSettings(drawer);
-    });
+    if (SOUND_SETTINGS_ENABLED) {
+      drawer.querySelector('[data-settings-success]').addEventListener('change', function (event) {
+        soundState.success = event.target.checked;
+        saveSoundSettings(); renderSettings(drawer);
+      });
+      drawer.querySelector('[data-settings-error]').addEventListener('change', function (event) {
+        soundState.error = event.target.checked;
+        saveSoundSettings(); renderSettings(drawer);
+      });
+    }
     document.addEventListener('keydown', function (event) {
       if (event.key === 'Escape' && !drawer.hidden) closeSettings(trigger, backdrop, drawer);
     });
@@ -453,7 +552,19 @@
            funcione también en previews locales. */
         locales = filterSupportedLocales(cfg.requiredLocales || SUPPORTED_LOCALES);
       }
-      buildUI(locales, current);
+      _discoveredLocales = locales;
+      _activeLocale = current;
+
+      if (ENABLE_SETTINGS) {
+        /* Crear el drawer de ajustes (que incluye el selector de idioma) */
+        buildSettings();
+      }
+
+      /* Para proyectos sin drawer, o si el drawer no se pudo crear,
+         renderizar el locale picker en la cabecera #locale-picker. */
+      if (!ENABLE_SETTINGS || !_drawerLocaleContainer) {
+        buildUI(locales, current);
+      }
     });
   }
 

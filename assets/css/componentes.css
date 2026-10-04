@@ -202,7 +202,7 @@ header.app-header .tagline {
   font-family: var(--font-display);
   font-weight: 800;
   font-size: var(--text-base);
-  color: #FFFFFF;
+  color: var(--color-on-success);
   background: var(--color-success);
   border-radius: var(--radius-pill);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -241,7 +241,7 @@ header.app-header .tagline {
   font-size: var(--text-base);
   font-weight: var(--weight-medium);
   line-height: 1.2;
-  color: #FFFFFF;
+  color: var(--color-on-accent, #FFFFFF);
   background: var(--accent);
   border: none;
   border-radius: var(--radius);

@@ -19,5 +19,7 @@ window.LocalePickerConfig = {
   path: null,
   requiredLocales: ['es', 'en'],
   defaultLocale: 'en',
-  settingsHref: 'config/'
+  settingsHref: 'config/',
+  /* The /config/ route already owns the success-sound switch. */
+  soundSettings: false
 };

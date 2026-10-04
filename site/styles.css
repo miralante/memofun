@@ -58,7 +58,7 @@
 .ancla-modulo:hover,
 .ancla-modulo:focus-visible {
   background: var(--acento);
-  color: #FFFFFF;
+  color: var(--color-on-accent, #fff)FFF;
 }
 
 .cabecera {
@@ -108,7 +108,7 @@
   font-weight: 800;
   text-decoration: none;
   text-align: center;
-  color: #FFFFFF;
+  color: var(--color-on-accent, #FFFFFF);
   background: var(--acento);
   border: 3px solid var(--acento);
   border-radius: var(--radius);

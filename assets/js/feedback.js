@@ -20,6 +20,7 @@
   var audioCtx = null;
 
   function sharedSoundEnabled(kind) {
+    if (window.LocalePickerConfig && window.LocalePickerConfig.soundSettings === false) return null;
     try {
       var saved = JSON.parse(localStorage.getItem('miralante:sounds') || 'null');
       if (saved && typeof saved[kind] === 'boolean') return saved[kind];

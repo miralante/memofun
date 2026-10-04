@@ -101,4 +101,122 @@
      --container-max, since long lines hurt Easy Read line length. */
   --container-max: 720px;
   --container-max-wide: 1080px;
+
+  /* ---------- Text on solid accents (primary buttons) ----------
+     In dark/contrast the accents get lighter, so the text on top has to
+     turn dark or the button is unreadable. */
+  --color-on-accent: #FFFFFF;
+  --color-on-error: #FFFFFF;
+  --color-on-success: #FFFFFF;
+}
+
+/* -------- Dark theme --------
+   data-theme="dark", or on its own via prefers-color-scheme when no
+   theme was forced (the "auto" option). */
+[data-theme="dark"] {
+  --color-bg: #14161E;
+  --color-surface: #1E2230;
+  --color-surface-2: #262B3C;
+  --color-border: #39405A;
+
+  --color-text: #F2F0EA;
+  --color-text-soft: #B3B0C8;
+  --color-text-tenue: #9693AC;
+
+  --accent: #6FD0C4;
+  --accent-soft: #16352F;
+  --accent-2: #E0B85C;
+  --accent-2-soft: #3A2C1E;
+
+  --color-success: #7BD389;
+  --color-success-soft: #1E3D24;
+  --color-encourage: #F2B07A;
+  --color-encourage-soft: #3A2C1E;
+  --color-star: #E0B85C;
+
+  --sticker-c: #F09BC0;
+  --sticker-c-soft: #3A2430;
+  --sticker-d: #C3A0F0;
+  --sticker-d-soft: #2C2340;
+
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --color-focus: #6FD0C4;
+
+  --color-on-accent: #14161E;
+  --color-on-error: #14161E;
+  --color-on-success: #14161E;
+}
+
+/* -------- High contrast -------- */
+[data-theme="contrast"] {
+  --color-bg: #000000;
+  --color-surface: #000000;
+  --color-surface-2: #000000;
+  --color-border: #FFFFFF;
+
+  --color-text: #FFFFFF;
+  --color-text-soft: #FFFFFF;
+  --color-text-tenue: #FFFFFF;
+
+  --accent: #00FFFF;
+  --accent-soft: #000000;
+  --accent-2: #FFFF00;
+  --accent-2-soft: #000000;
+
+  --color-success: #00FF66;
+  --color-success-soft: #000000;
+  --color-encourage: #FF8800;
+  --color-encourage-soft: #000000;
+  --color-star: #FFFF00;
+
+  --sticker-c: #FF99CC;
+  --sticker-c-soft: #000000;
+  --sticker-d: #FF66FF;
+  --sticker-d-soft: #000000;
+
+  --shadow: none;
+  --shadow-lg: none;
+  --color-focus: #FFFF00;
+
+  --color-on-accent: #000000;
+  --color-on-error: #000000;
+  --color-on-success: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --color-bg: #14161E;
+    --color-surface: #1E2230;
+    --color-surface-2: #262B3C;
+    --color-border: #39405A;
+
+    --color-text: #F2F0EA;
+    --color-text-soft: #B3B0C8;
+    --color-text-tenue: #9693AC;
+
+    --accent: #6FD0C4;
+    --accent-soft: #16352F;
+    --accent-2: #E0B85C;
+    --accent-2-soft: #3A2C1E;
+
+    --color-success: #7BD389;
+    --color-success-soft: #1E3D24;
+    --color-encourage: #F2B07A;
+    --color-encourage-soft: #3A2C1E;
+    --color-star: #E0B85C;
+
+    --sticker-c: #F09BC0;
+    --sticker-c-soft: #3A2430;
+    --sticker-d: #C3A0F0;
+    --sticker-d-soft: #2C2340;
+
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+    --color-focus: #6FD0C4;
+
+    --color-on-accent: #14161E;
+  --color-on-error: #14161E;
+    --color-on-success: #14161E;
+  }
 }

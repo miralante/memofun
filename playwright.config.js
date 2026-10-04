@@ -1,6 +1,9 @@
 'use strict';
 
-const { defineConfig } = require('@playwright/test');
+const { defineConfig } = require('playwright/test');
+
+const PORT = Number(process.env.PORT || 4173);
+const BASE_URL = `http://127.0.0.1:${PORT}/`;
 
 module.exports = defineConfig({
   testDir: './tests',
@@ -10,7 +13,7 @@ module.exports = defineConfig({
   fullyParallel: false,
   reporter: 'line',
   use: {
-    baseURL: 'http://127.0.0.1:4173/',
+    baseURL: BASE_URL,
     locale: 'es-ES',
     serviceWorkers: 'block',
     viewport: { width: 1280, height: 900 },
@@ -22,8 +25,8 @@ module.exports = defineConfig({
   },
   webServer: {
     command: 'node scripts/ui-server.js',
-    url: 'http://127.0.0.1:4173/',
-    reuseExistingServer: true,
+    url: BASE_URL,
+    reuseExistingServer: false,
     timeout: 10000,
   },
 });
