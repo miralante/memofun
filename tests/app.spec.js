@@ -613,6 +613,27 @@ test('19a — the settings language picker switches to English and persists', as
   }
 });
 
+test('19c — the configuration language buttons show and keep the selected language', async ({ browser }) => {
+  const context = await browser.newContext({ locale: 'es-ES' });
+  _lastCtx = context;
+  const page = await context.newPage();
+  try {
+    await page.goto(`${BASE}config/`, { waitUntil: 'domcontentloaded' });
+    await expect(page.locator('#lang-es')).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.locator('#lang-en')).toHaveAttribute('aria-pressed', 'false');
+
+    await page.locator('#lang-en').click();
+    await expect(page).toHaveTitle('Settings | Memofun');
+    await expect(page.locator('#lang-en')).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.locator('#lang-es')).toHaveAttribute('aria-pressed', 'false');
+
+    await page.reload();
+    await expect(page.locator('#lang-en')).toHaveAttribute('aria-pressed', 'true');
+  } finally {
+    await context.close();
+  }
+});
+
 test('19b — unsupported browser language falls back to English', async ({ browser }) => {
   const context = await browser.newContext({ locale: 'fr-FR' });
   const page = await context.newPage();

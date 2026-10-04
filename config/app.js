@@ -53,6 +53,13 @@
   });
 
   /* ---------- Language ---------- */
+  function paintLanguageSelector() {
+    var locale = App.i18n.locale();
+    langEs.setAttribute('aria-pressed', String(locale === 'es'));
+    langEn.setAttribute('aria-pressed', String(locale === 'en'));
+  }
+
+  paintLanguageSelector();
   langEs.addEventListener('click', function () { App.i18n.setLocale('es'); });
   langEn.addEventListener('click', function () { App.i18n.setLocale('en'); });
 
