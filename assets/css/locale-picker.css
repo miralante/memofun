@@ -31,6 +31,36 @@
    .suite-controls en las apps de la suite). */
 #locale-picker + .locale-settings-trigger { margin-left: 2px; }
 
+/* Fila de controles base.
+   En las pantallas principales la fila vive dentro de `.suite-header` y
+   cada proyecto ya trae su propia regla
+   (`.suite-header .suite-controls { justify-content: flex-end }`), que
+   gana por especificidad y manda sobre ésta.
+
+   Las subpáginas (about, legal, team, config) NO usan `.suite-header`:
+   su cabecera es un bloque sin regla de alineación, así que sin esto el
+   engranaje caía pegado a la izquierda, arriba pero no a la derecha. */
+.suite-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 6px;
+  margin: 0;
+}
+
+/* La barra de la presentación de Apptonomia (project/) ya es una fila de
+   controles compacta y sus botones son más pequeños que los de la
+   cabecera; sin esto el desplegable y el engranaje se veían desproporcionados
+   al lado de "Imprimir / PDF". */
+.deck-toolbar .suite-controls { gap: 4px; }
+.deck-toolbar .suite-controls button {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 4px 8px;
+  font-size: 13px;
+}
+
 /* Botón trigger */
 .locale-picker-btn {
   display: inline-flex;

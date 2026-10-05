@@ -118,14 +118,7 @@ header.app-header .tagline {
   display: flex;
   justify-content: center;
   gap: var(--space-2);
-}
-
-/* Matches the landing page's .btn-lang (site/styles.css) — same
-   bigger touch target, bold weight and non-pill radius, now that
-   site/styles.css's own Spanish-named custom properties (copied from
-   a sibling app without translating them) are pointing at real
-   tokens again instead of silently falling back to unstyled buttons. */
-.btn-lang {
+}bold weight and non-pill radius{
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -139,12 +132,6 @@ header.app-header .tagline {
   font-size: var(--text-base);
   font-weight: 700;
   cursor: pointer;
-}
-
-.btn-lang[aria-pressed="true"] {
-  border-color: var(--accent);
-  background: var(--accent-soft);
-  color: var(--accent);
 }
 
 /* ---------- Stars ---------- */
@@ -516,6 +503,57 @@ header.app-header .tagline {
 .deck-card .deck-invite-cta .btn {
   display: inline-block;
   font-size: var(--text-small);
+}
+
+/* Locked course card (a course that isn't launched yet). Same shell as a
+   live card so the grid rhythm doesn't change — these come and go as
+   courses are launched, and a hole in the grid would read as "something
+   is broken". What changes is that it can't be clicked and says so:
+     • default cursor, no hover lift, no accent border;
+     • a "Próximamente" badge, so the card never looks like a link that
+       failed to load.
+
+   Mirrors .suite-card--soon in the Apptonomia portal, which locks its
+   not-yet-shipped siblings this way, with one deliberate difference: the
+   recede is done on the icon, not with opacity on the whole card. Card
+   opacity 0.72 (what the portal uses) puts the 17px deck-meta line at
+   roughly 3.7:1 on white — under the 4.5:1 that small text needs. The
+   icon is aria-hidden decoration, so dimming it costs nothing; the title
+   and the meta keep their own full contrast (8.5:1 and 13.5:1 on
+   --color-text-soft and --color-text over their backgrounds). */
+.deck-card.deck-card--soon {
+  cursor: default;
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text-soft);
+}
+
+.deck-card.deck-card--soon:hover {
+  border-color: var(--color-border);
+  box-shadow: none;
+  transform: none;
+}
+
+.deck-card.deck-card--soon .deck-icon {
+  opacity: 0.6;
+  filter: saturate(0.5);
+}
+
+.deck-card.deck-card--soon h3 {
+  color: var(--color-text-soft);
+}
+
+.deck-soon-badge {
+  margin-top: var(--space-1);
+  align-self: center;
+  font-size: var(--text-small);
+  font-weight: var(--weight-strong);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  background: var(--accent-soft);
+  padding: var(--space-1) var(--space-2);
+  border-radius: 999px;
 }
 
 /* Helper line above the subject grid on the EN curriculum — explains

@@ -17,6 +17,7 @@ if (window.App.i18n) {
       otherSections: 'Otras secciones',
       otherTopics: 'Otros temas',
       quickAccess: 'Acceso rápido',
+      comingSoon: 'Próximamente',
       continue: 'Continuar →',
       pinButton: 'Fijar como mi curso',
       pinnedButton: 'Curso fijado',

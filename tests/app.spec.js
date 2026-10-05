@@ -12,6 +12,14 @@ const ESO1_BIO_DECK_ID = 'eso-1-biologia-geologia'; // id in manifest.json
 
 const BASE = `http://127.0.0.1:${process.env.PORT || 4173}/`;
 
+/* The /dev/ mirror: same app.js, but data-access="full" opens every
+   course, including the ones the public home shows locked. The navigation
+   tests below reach 1º de ESO through it — not because the mechanics
+   differ, but because on the public home that course's card is a locked
+   div with no href, so there is nothing to click. Going through /dev/
+   also exercises the base-relative URL building that page needs. */
+const DEV_BASE = BASE + 'dev/';
+
 // ---------------------------------------------------------------------------
 // Module-level browser reference — set in beforeEach before each test
 // ---------------------------------------------------------------------------
@@ -34,8 +42,10 @@ async function openFreshApp(browser) {
 
 /** Open home with localStorage pre-seeded (before any page JS runs).
     @param {number} [slowMo] — override slowMo for this context only (ms).
-    Passing 0 disables slowMo for this run; omitting uses global default. */
-async function openWithStorage(browser, storageSeed, slowMo) {
+    Passing 0 disables slowMo for this run; omitting uses global default.
+    @param {string} [at] — page to open; pass DEV_BASE to seed and open the
+    /dev/ mirror instead of the public home. */
+async function openWithStorage(browser, storageSeed, slowMo, at) {
   const launchOpts = slowMo !== undefined ? { slowMo } : {};
   const ctx = await browser.newContext(launchOpts);
   _lastCtx = ctx;
@@ -45,7 +55,17 @@ async function openWithStorage(browser, storageSeed, slowMo) {
   if (storageSeed) {
     await newPage.addInitScript(`(${storageSeed})()`);
   }
-  await newPage.goto(BASE);
+  await newPage.goto(at || BASE);
+  return newPage;
+}
+
+/** Same as openFreshApp, but on the /dev/ mirror (see DEV_BASE). */
+async function openDevMirror(browser) {
+  const ctx = await browser.newContext();
+  _lastCtx = ctx;
+  const newPage = await ctx.newPage();
+  await newPage.goto(DEV_BASE);
+  await newPage.waitForLoadState('domcontentloaded');
   return newPage;
 }
 
@@ -148,7 +168,7 @@ test('1 — home loads with deck grid and stars counter', async ({ browser }) =>
 });
 
 test('2 — deck cards are links pointing to the study tool', async ({ browser }) => {
-  const page = await openFreshApp(browser);
+  const page = await openDevMirror(browser);
   // Navigate: home → 1º de ESO → Biología y Geología → first deck
   await page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first().click();
   await page.waitForLoadState('domcontentloaded');
@@ -171,7 +191,7 @@ test('3 — locale picker is present in the header', async ({ browser }) => {
 // ===========================================================================
 
 test('4 — clicking a course shows the subject list', async ({ browser }) => {
-  const page = await openFreshApp(browser);
+  const page = await openDevMirror(browser);
   // The manifest renders courses; click "1º de ESO" course
   const esoLink = page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first();
   await esoLink.click();
@@ -183,7 +203,7 @@ test('4 — clicking a course shows the subject list', async ({ browser }) => {
 });
 
 test('5 — clicking a subject shows the deck list', async ({ browser }) => {
-  const page = await openFreshApp(browser);
+  const page = await openDevMirror(browser);
   // Navigate to 1º de ESO course
   const esoLink = page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first();
   await esoLink.click();
@@ -197,7 +217,7 @@ test('5 — clicking a subject shows the deck list', async ({ browser }) => {
 });
 
 test('6 — clicking a deck card opens the study tool', async ({ browser }) => {
-  const page = await openFreshApp(browser);
+  const page = await openDevMirror(browser);
   // Navigate: home → 1º de ESO → Biología y Geología → first deck
   await page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first().click();
   await page.waitForLoadState('domcontentloaded');
@@ -490,13 +510,14 @@ test('14 — "study again" restarts the same deck', async ({ browser }) => {
 });
 
 test('15 — completed deck shows stamp on home screen', async ({ browser }) => {
-  // Start with progress: deck already completed
+  // Start with progress: deck already completed.
+  // Opened on /dev/ because 1º de ESO is locked on the public home (see DEV_BASE).
   const page = await openWithStorage(browser, () => {
     localStorage.setItem('memofun:progress', JSON.stringify({
       stars: 1,
       completed: { 'eso-1-biologia-geologia': true }
     }));
-  });
+  }, undefined, DEV_BASE);
 
   // Navigate to the deck through the hierarchy
   await page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first().click();
@@ -529,9 +550,12 @@ test('16 — star count persists after page reload', async ({ browser }) => {
 // ===========================================================================
 
 test('17 — pinning a course shows it in quick-access on home', async ({ browser }) => {
+  // Runs on the public home, pinning a launched course (Mapa Mundi): that
+  // is the flow a user has. A locked course can't be pinned from the grid
+  // and doesn't earn a shortcut either — test 24 covers that half.
   const page = await openFreshApp(browser);
-  // Navigate to 1º de ESO
-  await page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first().click();
+  // Navigate to Mapa Mundi
+  await page.locator('#deck-grid .deck-card', { hasText: 'Mapa Mundi' }).first().click();
   await page.waitForLoadState('domcontentloaded');
   // Pin the course
   await page.locator('#btn-pin-course').click();
@@ -542,13 +566,14 @@ test('17 — pinning a course shows it in quick-access on home', async ({ browse
   await page.waitForLoadState('domcontentloaded');
   // Quick-access section should appear
   await expect(page.locator('.quick-access')).toBeVisible();
-  await expect(page.locator('.quick-access', { hasText: '1º de ESO' })).toBeVisible();
+  await expect(page.locator('.quick-access', { hasText: 'Mapa Mundi' })).toBeVisible();
 });
 
 test('18 — unpinning removes quick-access', async ({ page }) => {
   // Set the initial pinned state directly via page.evaluate (not addInitScript),
   // so the value persists across navigations instead of being re-injected on each goto.
-  await page.goto(BASE);
+  // Runs on /dev/ (see DEV_BASE): 1º de ESO is a locked card on the public home.
+  await page.goto(DEV_BASE);
   await page.evaluate(() =>
     localStorage.setItem('memofun:prefs', JSON.stringify({ cursoFijado: '1º de ESO' }))
   );
@@ -561,8 +586,8 @@ test('18 — unpinning removes quick-access', async ({ page }) => {
   // Navigate directly to home (not via back link, which goes to course level)
   // After unpin, prefs.cursoFijado is null so home will NOT render .quick-access.
   // Add a cache-bust query param so the SW fetch bypasses the stale cached index.html
-  // (the cache was pre-filled with the initialcursoFijado='1º de ESO' state).
-  await page.goto(BASE + '?t=' + Date.now());
+  // (the cache was pre-filled with the initial cursoFijado='1º de ESO' state).
+  await page.goto(DEV_BASE + '?t=' + Date.now());
   await page.waitForLoadState('domcontentloaded');
   await page.waitForTimeout(500);
   // .quick-access must not be in the DOM
@@ -654,7 +679,7 @@ test('19b — unsupported browser language falls back to English', async ({ brow
 // ===========================================================================
 
 test('20 — back button returns to subject list from deck list', async ({ browser }) => {
-  const page = await openFreshApp(browser);
+  const page = await openDevMirror(browser);
   await page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first().click();
   await page.waitForLoadState('domcontentloaded');
   await page.locator('#deck-grid .deck-card', { hasText: 'Biología y Geología' }).first().click();
@@ -681,4 +706,103 @@ test('21 — study tool back button respects course param', async ({ browser }) 
   const backHref = await page.locator('#btn-back').getAttribute('href');
   // btn-back should point back to the course page, not just index.html
   expect(backHref).toContain('course=');
+});
+
+// ===========================================================================
+// COURSE LOCKING — public home vs the /dev/ mirror
+//
+// The public home keeps every course on the grid but only launches two of
+// them; the rest are divs with a "Próximamente" badge and no href. /dev/
+// (data-access="full") opens all of them. See OPEN_COURSES in app.js.
+// ===========================================================================
+
+/** Course names behind the anchor cards on the current page, decoded.
+    Reading the href through URLSearchParams instead of matching the raw
+    query string avoids asserting on URLSearchParams' '+'-for-space
+    encoding, which is not something this suite should care about. */
+async function linkedCourseNames(page) {
+  return page.locator('#deck-grid a.deck-card').evaluateAll(nodes =>
+    nodes
+      .map(n => new URL(n.href).searchParams.get('course'))
+      .filter(Boolean)
+  );
+}
+
+test('22 — public home links only the launched courses, locks the rest', async ({ browser }) => {
+  // Locale pinned to es so the badge text is deterministic, not whatever
+  // the default locale happens to be.
+  const page = await openWithStorage(browser, () => {
+    localStorage.setItem('memofun:locale', JSON.stringify('es'));
+  });
+  await page.waitForSelector('#deck-grid .deck-card');
+
+  // Exactly these two are reachable. This fails on purpose if a course is
+  // added to OPEN_COURSES: going public is a decision worth seeing in the
+  // diff, not something that should slip in with a new course.
+  const names = await linkedCourseNames(page);
+  expect(names.sort()).toEqual([
+    '1º de FP Básica Servicios Administrativos',
+    'Mapa Mundi'
+  ]);
+
+  // The locked ones are a div with a badge — the lock is the absence of a
+  // destination, not a click handler someone has to keep in sync.
+  const locked = await page.locator('#deck-grid .deck-card--soon').evaluateAll(nodes =>
+    nodes.map(n => ({
+      tag: n.tagName,
+      href: n.getAttribute('href'),
+      role: n.getAttribute('role'),
+      badge: ((n.querySelector('.deck-soon-badge') || {}).textContent || '').trim()
+    }))
+  );
+  expect(locked.length).toBeGreaterThan(0);
+  for (const card of locked) {
+    expect(card.tag).toBe('DIV');
+    expect(card.href).toBeNull();
+    // The grid is a role="list", so a locked card stays a listitem.
+    expect(card.role).toBe('listitem');
+    expect(card.badge).toBe('Próximamente');
+  }
+});
+
+test('23 — /dev/ mirror links every course in the manifest', async ({ browser }) => {
+  const page = await openDevMirror(browser);
+  await page.waitForSelector('#deck-grid .deck-card');
+
+  // Nothing is locked here — not even the courses the public home hides.
+  await expect(page.locator('#deck-grid .deck-card--soon')).toHaveCount(0);
+
+  const names = await linkedCourseNames(page);
+  const inManifest = await page.evaluate(async () => {
+    const res = await fetch('../decks/manifest.json');
+    const decks = await res.json();
+    return [...new Set(decks.map(d => d.course).filter(Boolean))];
+  });
+  expect(names.sort()).toEqual(inManifest.sort());
+
+  // And a course that is locked in public really does open from here:
+  // this is the click the public home refuses to offer.
+  await page.locator('#deck-grid .deck-card', { hasText: '1º de ESO' }).first().click();
+  await page.waitForLoadState('domcontentloaded');
+  await expect(page.locator('#deck-grid .deck-card', { hasText: 'Biología y Geología' }).first()).toBeVisible();
+});
+
+test('24 — a locked course pinned before launch gets no quick-access link', async ({ browser }) => {
+  const page = await openFreshApp(browser);
+  // Someone pinned this course while it was still open, then the lock
+  // shipped. The shortcut must not become a back door into it.
+  await page.evaluate(() =>
+    localStorage.setItem('memofun:prefs', JSON.stringify({ cursoFijado: '1º de ESO' }))
+  );
+  await page.goto(BASE + '?t=' + Date.now());
+  await page.waitForSelector('#deck-grid .deck-card');
+  await expect(page.locator('.quick-access')).toHaveCount(0);
+});
+
+test('25 — a launched course opens its subjects from the public home', async ({ browser }) => {
+  const page = await openFreshApp(browser);
+  await page.locator('#deck-grid .deck-card', { hasText: 'Mapa Mundi' }).first().click();
+  await page.waitForLoadState('domcontentloaded');
+  await expect(page.locator('#deck-grid .deck-card', { hasText: 'Capitales del Mundo' }).first()).toBeVisible();
+  await expect(page.locator('#deck-grid .deck-card--soon')).toHaveCount(0);
 });

@@ -33,7 +33,25 @@ const server = http.createServer(function (req, res) {
   const fp = path.normalize(path.join(ROOT, p));
   if (!fp.startsWith(ROOT)) { res.writeHead(403); res.end('Forbidden'); return; }
   fs.stat(fp, function (err, st) {
-    if (err || !st.isFile()) {
+    if (err) {
+      res.writeHead(404, { 'Content-Type': 'text/html;charset=utf-8' });
+      fs.createReadStream(path.join(ROOT, '404.html')).pipe(res);
+      return;
+    }
+    // Directory -> its index.html, the way Cloudflare Pages (and every
+    // other static host) serves it. Without this, /dev/ 404s locally
+    // while it works in production, so the /dev/ mirror is only reachable
+    // at the explicit /dev/index.html.
+    if (st.isDirectory()) {
+      const idx = path.join(fp, 'index.html');
+      if (!fs.existsSync(idx)) {
+        res.writeHead(404, { 'Content-Type': 'text/html;charset=utf-8' });
+        fs.createReadStream(path.join(ROOT, '404.html')).pipe(res);
+        return;
+      }
+      p = '/' + path.relative(ROOT, idx).split(path.sep).join('/');
+      fp = idx;
+    } else if (!st.isFile()) {
       res.writeHead(404, { 'Content-Type': 'text/html;charset=utf-8' });
       fs.createReadStream(path.join(ROOT, '404.html')).pipe(res);
       return;

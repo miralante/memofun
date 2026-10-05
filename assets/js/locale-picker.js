@@ -349,8 +349,17 @@
     backdrop.classList.remove('is-open');
     drawer.classList.remove('is-open');
     trigger.setAttribute('aria-expanded', 'false');
-    window.setTimeout(function () { backdrop.hidden = true; drawer.hidden = true; }, 160);
-    trigger.focus();
+    /* El foco vuelve SOLO cuando el cajon ya esta oculto. El elemento que lo
+       tenia (el boton de cerrar) vive dentro del cajon, y ocultar un subarbol
+       que contiene el elemento con el foco lo manda a <body>: hacerlo aqui,
+       160 ms antes de que el cajon desapareciera, pasaba cualquier comprobacion
+       que solo mirase aria-expanded y dejaba sin foco a quien navega con
+       teclado. */
+    window.setTimeout(function () {
+      backdrop.hidden = true;
+      drawer.hidden = true;
+      trigger.focus();
+    }, 160);
   }
 
   function buildSettings() {

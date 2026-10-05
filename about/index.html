@@ -15,13 +15,13 @@
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/componentes.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/locale-picker.css?v=memofun-v4aa">
 </head>
 <body>
   <div class="container about">
     <header class="cabecera-about">
-      <div class="idioma-selector" role="group" aria-label="Elegir idioma">
-        <button type="button" class="btn-lang" id="btnLangEs" data-locale="es" aria-pressed="false">🇪🇸 Español</button>
-        <button type="button" class="btn-lang" id="btnLangEn" data-locale="en" aria-pressed="false">🇬🇧 English</button>
+      <div class="suite-controls">
+        <div id="locale-picker"></div>
       </div>
       <p class="aviso-ruta" data-i18n="routeNotice">Esta página no se enlaza desde la aplicación. Solo se llega
         escribiendo la dirección.</p>
@@ -289,7 +289,11 @@
   <!-- Language switch and service-worker registration live in external
        files: the CSP (`script-src 'self'`) blocks inline scripts, so the
        inline copies of these two never ran in production. -->
-  <script src="../assets/js/lang-buttons.js" defer></script>
   <script src="../assets/js/sw-register.js" defer></script>
+<!-- Controles compartidos con la pantalla principal: el desplegable de idioma
+     y el ⚙️ de la cabecera, con su cajón de accesibilidad. Mismo ?v= que la
+     portada, para que las dos páginas compartan la copia en caché. -->
+<script src="../assets/js/locale-picker-config.js?v=1"></script>
+<script src="../assets/js/locale-picker.js?v=memofun-v4aa" defer></script>
 </body>
 </html>

@@ -193,6 +193,7 @@
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/componentes.css">
   <link rel="stylesheet" href="/site/styles.css">
+  <link rel="stylesheet" href="../assets/css/locale-picker.css?v=memofun-v4aa">
 </head>
 <body>
   <div class="container">
@@ -204,10 +205,9 @@
           <p class="suite-attribution"><span data-i18n="suiteBy">Una app de</span> <a href="https://apptonomia.uk/">Apptonomia</a>.</p>
         </div>
       </div>
-      <div class="suite-controls"><div class="idioma-selector" role="group" aria-label="Elegir idioma">
-        <button type="button" class="btn-lang" id="btnLangEs" data-locale="es" aria-pressed="false" aria-label="Español"><span class="locale-full" aria-hidden="true">🇪🇸 Español</span><span class="locale-short" aria-hidden="true">ES</span></button>
-        <button type="button" class="btn-lang" id="btnLangEn" data-locale="en" aria-pressed="false" aria-label="English"><span class="locale-full" aria-hidden="true">🇬🇧 English</span><span class="locale-short" aria-hidden="true">EN</span></button>
-      </div></div>
+      <div class="suite-controls"><div class="suite-controls">
+  <div id="locale-picker"></div>
+</div></div>
       <div class="suite-details">
         <div class="fila centered-fila">
         <p class="saludo" id="saludo" data-i18n="saludo">Hola. ¿Quieres practicar con tarjetas?</p>
@@ -280,7 +280,11 @@
        in external files: the CSP (`script-src 'self'`) blocks inline
        scripts, so the inline copy of this block never ran in production. -->
   <script src="../assets/js/site-greeting.js" defer></script>
-  <script src="../assets/js/lang-buttons.js" defer></script>
   <script src="../assets/js/sw-register.js" defer></script>
+<!-- Controles compartidos con la pantalla principal: el desplegable de idioma
+     y el ⚙️ de la cabecera, con su cajón de accesibilidad. Mismo ?v= que la
+     portada, para que las dos páginas compartan la copia en caché. -->
+<script src="../assets/js/locale-picker-config.js?v=1"></script>
+<script src="../assets/js/locale-picker.js?v=memofun-v4aa" defer></script>
 </body>
 </html>

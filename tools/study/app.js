@@ -135,6 +135,7 @@
      prefers-reduced-motion sets the transition to a near-zero duration,
      where transitionend can be unreliable in some browsers. */
   var flipping = false;
+  var pendingPaint = null; /* ultima pintura pedida durante un volteo; se encola al terminar */
   var isUnrevealing = false; /* true while goPrev() is un-revealing so paintAnswer() knows not to hide btn-reveal */
   window.__studyFlipping = function() { return flipping; };
   window._studyIndex = function() { return index; };
@@ -156,13 +157,33 @@
   }
 
   function flip(paint) {
-    if (flipping) return;
+    if (flipping) {
+      /* Antes esto devolvia en silencio y el toque se perdia: al cargar
+         la tarjeta ya hay un volteo en curso (renderCard -> flip), asi que
+         pulsar "revelar respuesta" durante esos ~400 ms no pintaba nada.
+         El boton seguia visible y pulsable, de modo que parecia roto.
+         Ahora la ultima pintura pedida queda en cola y se encola al
+         terminar el volteo actual.
+
+         La navegacion (goNext/goPrev) conserva su guarda a proposito: alla
+         son pulsaciones repetidas y reencolarlas saltaria tarjetas. */
+      pendingPaint = paint;
+      return;
+    }
     flipping = true;
+    pendingPaint = null;
     cardEl.classList.add('flip-out');
     onceSquashed(function () {
       paint();
       cardEl.classList.remove('flip-out');
-      onceSquashed(function () { flipping = false; });
+      onceSquashed(function () {
+        flipping = false;
+        if (pendingPaint) {
+          var queued = pendingPaint;
+          pendingPaint = null;
+          flip(queued);
+        }
+      });
     });
   }
 

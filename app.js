@@ -12,9 +12,51 @@
    "Tema 1 · <section>". Decks without course/subject (one-off "modo
    simple" decks) stay a flat grid, exactly like before. A pinned course
    (localStorage prefs.cursoFijado, set from the subject screen)
-   surfaces as a quick-access shortcut on the course screen. */
+   surfaces as a quick-access shortcut on the course screen.
+
+   Courses that aren't launched yet keep their card on the home but locked
+   (no href, "Próximamente") — see OPEN_COURSES below. The /dev/ mirror
+   sets data-access="full" and opens every one of them. */
 (function () {
   'use strict';
+
+  /* ----- What the page is allowed to show, and where it lives -----
+     Two facts come from the HTML, not from JS, so the same app.js can
+     serve the public home and the /dev/ mirror without a second build:
+
+     BASE — every internal URL this file builds (the manifest fetch, the
+     course/subject/topic links, the study-tool link) is prefixed with it.
+     Empty on index.html, so the public URLs stay byte-identical to what
+     they were; '../' on dev/index.html, which lives one level down.
+     Without it the /dev/ page would fetch /dev/decks/manifest.json (404)
+     and link every deck to /dev/tools/study/.
+
+     FULL_ACCESS — the /dev/ mirror sets data-access="full" and opens
+     every course. See OPEN_COURSES below for the public rule. */
+  var BASE = document.body.dataset.appBase || '';
+  var FULL_ACCESS = document.body.dataset.access === 'full';
+
+  /* Courses open to the public. Every other course still shows its card
+     on the home, but locked: a <div role="listitem"> with a "Próximamente"
+     badge instead of an anchor, exactly the pattern the Apptonomia portal
+     uses for its not-yet-shipped siblings (css .suite-card--soon) — the
+     card keeps its place in the grid but advertises no destination, so a
+     course that isn't ready can't be entered from the home by mistake.
+
+     Only the card is locked, not the route: this follows Apptonomia, where
+     the card is not a link but the path behind ?course= still resolves.
+     The lock is about what the home offers, not an access control.
+
+     To launch another course, add its name here. Names are the manifest's
+     `course` values (exact strings, accents included). */
+  var OPEN_COURSES = [
+    '1º de FP Básica Servicios Administrativos',
+    'Mapa Mundi'
+  ];
+
+  function isCourseOpen(course) {
+    return FULL_ACCESS || OPEN_COURSES.indexOf(course) !== -1;
+  }
 
   var ICONS = ['🧠', '📚', '🔧', '🌍', '💡', '🧩', '🔬', '🎨'];
 
@@ -211,11 +253,11 @@
     if (subject) qs.set('subject', subject);
     if (topicGroup) qs.set('topicGroup', topicGroup);
     var s = qs.toString();
-    return 'index.html' + (s ? '?' + s : '');
+    return BASE + 'index.html' + (s ? '?' + s : '');
   }
 
   function studyUrl(deck) {
-    var url = 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
+    var url = BASE + 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
       '&id=' + encodeURIComponent(deck.id) +
       '&titulo=' + encodeURIComponent(deck.topic);
     /* Carries the course/subject/topic the deck was opened from so the
@@ -308,6 +350,33 @@
       '</a>';
   }
 
+  /** One course on the home grid.
+
+      Open course → the usual anchor. A course that isn't launched yet →
+      a plain div carrying the same icon, name and meta, with a
+      "Próximamente" badge and no href at all, so the grid keeps its
+      rhythm and the card cannot be entered by clicking it.
+
+      Both keep role="listitem" on purpose: the grid is a role="list", and
+      a list whose items stop being listitems is no longer a list. The
+      invite card (deck-card--invite, English locale) is the same shape for
+      the same reason. */
+  function courseCardHtml(course, i, meta) {
+    var body =
+      '<span class="deck-icon" aria-hidden="true">' + courseIcon(course) + '</span>' +
+      '<h3>' + App.utils.escapeHtml(course) + '</h3>' +
+      '<span class="deck-meta">' + meta + '</span>';
+    if (!isCourseOpen(course)) {
+      return '<div class="deck-card deck-card--soon' + badgeClassFor(i) + '" role="listitem">' +
+        body +
+        '<span class="deck-soon-badge">' + App.i18n.t('home.comingSoon') + '</span>' +
+        '</div>';
+    }
+    return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + buildUrl(course) + '">' +
+      body +
+      '</a>';
+  }
+
   /** Groups decks by a key, preserving first-seen order (manifest order). */
   function groupBy(decks, keyFn) {
     var map = {};
@@ -338,7 +407,11 @@
     var html = localeInviteHtml();
     var prefs = App.storage.get('prefs');
     var pinned = prefs.cursoFijado;
-    if (pinned && byCourse.map[pinned]) {
+    /* The pinned shortcut obeys the same rule as the grid below. Someone
+       who pinned this course before it was locked would otherwise keep a
+       working link to it on the home, which is exactly what the lock is
+       there to prevent. */
+    if (pinned && byCourse.map[pinned] && isCourseOpen(pinned)) {
       html += '<section class="quick-access">' +
         '<p class="quick-access-label">⭐ ' + App.i18n.t('home.quickAccess') + '</p>' +
         '<div class="deck-grid" role="list">' +
@@ -359,11 +432,7 @@
         meta += ' · ' + App.i18n.t('home.completedOf')
           .replace('{done}', done).replace('{total}', courseDecks.length);
       }
-      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + buildUrl(course) + '">' +
-        '<span class="deck-icon" aria-hidden="true">' + courseIcon(course) + '</span>' +
-        '<h3>' + App.utils.escapeHtml(course) + '</h3>' +
-        '<span class="deck-meta">' + meta + '</span>' +
-        '</a>';
+      return courseCardHtml(course, i, meta);
     }).join('') + '</div>';
 
     if (withoutCourse.length) {
@@ -534,7 +603,7 @@
     qs.set('en', '1');
     if (course) qs.set('course', course);
     if (subject) qs.set('subject', subject);
-    return 'index.html?' + qs.toString();
+    return BASE + 'index.html?' + qs.toString();
   }
 
   /** A non-clickable card used for EN subjects: shows the subject, the
@@ -615,7 +684,7 @@
     }
 
     try {
-      var res = await fetch('decks/manifest.json', { cache: 'no-store' });
+      var res = await fetch(BASE + 'decks/manifest.json', { cache: 'no-store' });
       var decks = res.ok ? await res.json() : [];
 
       if (!decks.length) {
@@ -650,5 +719,10 @@
 
   loadDecks();
 
-  App.utils.registerServiceWorker('sw.js');
+  /* BASE-aware so the /dev/ mirror registers the same sw.js as the public
+     home instead of asking for a /dev/sw.js that doesn't exist. Empty on
+     index.html, so the public URL is unchanged. (sw-register.js resolves
+     the same file from its own location; both registrations are
+     idempotent.) */
+  App.utils.registerServiceWorker(BASE + 'sw.js');
 })();

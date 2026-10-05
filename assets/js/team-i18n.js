@@ -7,8 +7,11 @@
    regardless of the stored language and its language buttons did nothing. */
 (function () {
   var supported = ['es', 'en'];
+  /* Clave propia de la app, no la 'locale' suelta que compartian
+     las paginas team entre si. Es la que declara locale-picker-config.js. */
+  var STORE_KEY = 'memofun:locale';
   var stored = null;
-  try { stored = localStorage.getItem('locale'); } catch (e) { stored = null; }
+  try { stored = localStorage.getItem(STORE_KEY); } catch (e) { stored = null; }
   var browser = (navigator.language || navigator.userLanguage || 'en').slice(0, 2);
   var locale = supported.indexOf(stored) >= 0 ? stored
              : supported.indexOf(browser) >= 0 ? browser
@@ -40,7 +43,7 @@
     for (var j = 0; j < btns.length; j++) {
       btns[j].addEventListener('click', (function (b) {
         return function () {
-          try { localStorage.setItem('locale', b); } catch (e) {}
+          try { localStorage.setItem(STORE_KEY, b); } catch (e) {}
           location.reload();
         };
       })(btns[j].dataset.localeSwitch));
@@ -49,4 +52,18 @@
       btns[k2].setAttribute('aria-pressed', btns[k2].dataset.localeSwitch === loc ? 'true' : 'false');
     }
   }
+
+  /* Contrato que el desplegable compartido ya espera en toda la suite:
+     llama App.i18n.set(locale) para cambiar el idioma. Esta pagina sigue
+     recargando para que strings.<locale>.js llegue a inyectarse, que es
+     como lo tenia antes. */
+  window.App = window.App || {};
+  window.App.i18n = window.App.i18n || {};
+  window.App.i18n.locale = function () { return locale; };
+  window.App.i18n.set = function (loc) {
+    if (loc === locale) return;
+    try { localStorage.setItem('memofun:locale', loc); } catch (e) {}
+    location.reload();
+  };
+  window.App.i18n.setLocale = window.App.i18n.set;
 })();

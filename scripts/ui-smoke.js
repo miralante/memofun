@@ -147,7 +147,18 @@ async function waitForApp(page) {
   assert.ok((await main.innerText().catch(() => '')).trim(), 'El contenedor principal está vacío');
 }
 
-function languageLocator(page, language) {
+/* El desplegable compartido es un panel que se abre y se cierra, asi que
+   el helper tiene que abrirlo y devolver la opcion ya resuelta: un locator
+   perezoso mas un guard de isVisible se habria saltado el ejercicio
+   entero en silencio. Los cinco dialectos de dos botones se quedan como
+   respaldo para una pagina que aun los lleve. */
+async function languageLocator(page, language) {
+  const btn = page.locator('#locale-picker .locale-picker-btn');
+  if (await btn.count()) {
+    const panel = page.locator('#locale-picker .locale-picker-panel');
+    if (!await panel.isVisible().catch(() => false)) await btn.click();
+    return panel.locator('li[data-locale="' + language + '"]');
+  }
   return page.locator([
     'button[data-locale="' + language + '"]:visible',
     'button[data-lang="' + language + '"]:visible',
@@ -161,13 +172,14 @@ async function languageIsActive(page, button, language) {
   const lang = (await page.locator('html').getAttribute('lang')) || '';
   if (lang.toLowerCase().startsWith(language)) return true;
   if (await button.getAttribute('aria-pressed') === 'true') return true;
+  /* El desplegable marca la opcion activa con aria-selected, no aria-pressed. */
+  if (await button.getAttribute('aria-selected') === 'true') return true;
   return /\b(active|activo|selected|seleccionado)\b/.test(
     (await button.getAttribute('class')) || '');
 }
 
 async function exerciseLanguages(page) {
-  const en = languageLocator(page, 'en');
-  const es = languageLocator(page, 'es');
+  const en = await languageLocator(page, 'en');
   if (!await en.count() || !await en.isVisible().catch(() => false)) return;
   const before = await page.locator('main, #app, #contenido, #main, .container, body').first()
     .innerText().catch(() => '');
@@ -176,13 +188,18 @@ async function exerciseLanguages(page) {
   await page.waitForTimeout(SETTLE_MS);
   const after = await page.locator('main, #app, #contenido, #main, .container, body').first()
     .innerText().catch(() => '');
-  assert.ok(await languageIsActive(page, en, 'en') || before !== after,
+  /* Se vuelve a pedir la opcion: el panel se cierra al elegir, asi que la
+     de antes ya no es visible. */
+  const enAgain = await languageLocator(page, 'en');
+  assert.ok(await languageIsActive(page, enAgain, 'en') || before !== after,
     'El selector no activa English');
+  const es = await languageLocator(page, 'es');
   if (await es.count() && await es.isVisible().catch(() => false)) {
     await es.click();
     await page.waitForLoadState('domcontentloaded', { timeout: 3000 }).catch(() => {});
     await page.waitForTimeout(SETTLE_MS);
-    assert.ok(await languageIsActive(page, es, 'es'), 'El selector no vuelve a Español');
+    const esAgain = await languageLocator(page, 'es');
+    assert.ok(await languageIsActive(page, esAgain, 'es'), 'El selector no vuelve a Español');
   }
 }
 
@@ -898,6 +915,7 @@ async function exerciseControls(page) {
         control.tag === 'SUMMARY' ? 'summary:visible' : 'a[href^="#"]:visible';
       const locator = page.locator(selector).nth(control.index);
       if (!await locator.isVisible().catch(() => false)) continue;
+      await settleDrawerTransition(page);
       try {
         if (control.tag === 'A') await locator.evaluate(node => node.click());
         else await locator.click({ timeout: 2000, force: true });
@@ -912,6 +930,30 @@ async function exerciseControls(page) {
     }
   }
   return actions;
+}
+
+/* El cajon de ajustes compartido entra deslizando 160 ms. En cuanto se
+   pulsa el engranaje sus botones ya son :visible para el navegador
+   (visibility cambia con la clase) pero el transform todavia no los ha
+   metido dentro del viewport, de modo que el clic siguiente revienta con
+   'Element is outside of the viewport'. Aqui se espera a que el cajon
+   termine de entrar. Sin esto el recorrido de controles falla en las
+   paginas donde el engranaje cae entre los primeros botones. */
+async function settleDrawerTransition(page) {
+  await page.evaluate(() => new Promise((done) => {
+    const drawer = document.querySelector('.locale-settings-drawer.is-open');
+    if (!drawer) return done();
+    const inside = () => {
+      const r = drawer.getBoundingClientRect();
+      return r.left >= 0 && r.right <= window.innerWidth + 1;
+    };
+    if (inside()) return done();
+    const onEnd = () => {
+      if (inside()) { drawer.removeEventListener('transitionend', onEnd); done(); }
+    };
+    drawer.addEventListener('transitionend', onEnd);
+    setTimeout(() => { drawer.removeEventListener('transitionend', onEnd); done(); }, 600);
+  }));
 }
 
 async function validateLinks(page, baseUrl) {

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- ============================================================================
+     Memofun — /dev/ : espejo de la portada con acceso completo.
+
+     Qué cambia respecto a index.html:
+       • data-access="full" → todos los cursos se pueden abrir, incluidos
+         los que la portada pública muestra bloqueados con "Próximamente".
+       • data-app-base="../" → los enlaces que construye app.js (el
+         manifest, los cursos, el visor de tarjetas) se resuelven desde la
+         raíz del sitio y no desde /dev/.
+       • noindex,nofollow → ni buscador ni preview lo indexan.
+
+     El <head> es a mano y NO lleva los marcadores build:head:start/end a
+     propósito: scripts/build-head.js solo regenera site/index.html o
+     index.html, así que un bloque generado aquí quedaría congelado (y con
+     robots:index, que es justo lo contrario de lo que quiere una página
+     de desarrollo).
+
+     El cajón de idioma reutiliza assets/js/locale-picker-config.js tal
+     cual: su `path: null` desactiva el descubrimiento por HEAD, así que
+     no busca strings en /dev/ y las etiquetas le salen de requiredLocales.
+
+     Los enlaces a config/ y legal/ son relativos a la raíz: en producción
+     /dev/ cuelga del mismo dominio, y apuntar a rutas relativas del sitio
+     equivocaría al sitio equivocado. Los /dev/ de los hermanos van por
+     dominio completo, para que esta página no quede en un callejón sin
+     salida al revisar los cursos bloqueados.
+
+     Ojo con "Volver": los enlaces que construye app.js llevan BASE (raíz
+     del sitio), no /dev/. Al entrar en un curso y pulsar "Volver" se vuelve
+     a la portada pública, no a esta página. Es intencionado — el espejo no
+     se propaga por los query params, y así el visor de tarjetas y su
+     enlace "Volver" no necesitan ningún caso especial. Lo único que cambia
+     al volver es la pantalla: allí el curso que estabas viendo aparece
+     bloqueado en la rejilla, aunque la lista de asignaturas siga abierta.
+     ============================================================================ -->
+<html lang="es" data-i18n-title="home.seoTitle">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memofun — /dev (acceso completo)</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#FAF7F2">
+<meta name="color-scheme" content="light">
+
+<link rel="stylesheet" href="../assets/css/tokens.css?v=memofun-v2c">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/componentes.css">
+<link rel="stylesheet" href="../assets/css/locale-picker.css?v=memofun-v2caa">
+<link rel="manifest" href="../manifest.json">
+</head>
+<body data-app-base="../" data-access="full">
+
+<a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
+
+<header class="app-header suite-header container container-wide">
+  <div class="suite-brand app-hero">
+    <div class="hero-mark" aria-hidden="true">
+      <img class="hero-mark-front" src="../assets/img/icono.svg" alt="" width="44" height="44">
+      <span class="hero-mark-back">⭐</span>
+    </div>
+    <div class="suite-brand-copy">
+      <h1 class="logo">Memofun</h1>
+      <p class="suite-attribution"><span data-i18n="suiteBy">Una app de</span> <a href="https://apptonomia.uk/">Apptonomia</a>.</p>
+    </div>
+  </div>
+  <div class="suite-controls"><div id="locale-picker"></div></div>
+  <div class="suite-details"><p class="tagline" data-i18n="home.tagline">Elige una baraja y practica con tarjetas.</p><span class="stars" id="stars-total">⭐ 0</span></div>
+</header>
+
+<main id="contenido" class="container container-wide">
+  <div id="deck-grid" aria-live="polite"></div>
+</main>
+
+<footer class="app-footer">
+  <div class="container">
+    <p>
+      <a href="../config/" data-i18n="core.config">Configuración</a>
+      · <a href="../legal/" data-i18n="core.dataProtection">Protección de datos</a>
+      · <a href="https://apptonomia.uk/dev/">Apptonomia /dev</a>
+      · <a href="https://calculia.apptonomia.uk/dev/">Calculia /dev</a>
+    </p>
+  </div>
+</footer>
+
+<script src="../assets/js/locale-picker-config.js?v=2aa" defer></script>
+<script src="../assets/js/utils.js"></script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/tts.js"></script>
+<script src="../assets/js/storage.js"></script>
+<script src="../assets/js/feedback.js?v=2"></script>
+<script src="../assets/js/deck-loader.js"></script>
+<script src="../strings.es.js"></script>
+<script src="../strings.en.js"></script>
+<script src="../app.js"></script>
+<script src="../assets/js/locale-picker.js?v=memofun-v4aa" defer></script>
+<script src="../assets/js/sw-register.js" defer></script>
+
+</body>
+</html>
