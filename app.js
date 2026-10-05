@@ -166,9 +166,22 @@
      The keys are DATA — the `topicGroup` values from decks/manifest.json —
      not identifiers, so they stay in the language the manifest uses. Keep
      them in sync: a key that stops matching just silently falls back to
-     📂 instead of showing the real icon. */
+     📂 instead of showing the real icon.
+
+     All eight topics of the IPE subject, not just the first: with only
+     Tema 1 mapped, the other seven section cards in "Itinerario Personal
+     para la Empleabilidad" all rendered the same 📂 folder, which is
+     exactly the repeat the map exists to avoid. The icons are the ones
+     the manifest already gives those decks. */
   var TOPIC_ICONS = {
-    'Tema 1 · Seguridad y salud en el trabajo': '🛡️'
+    'Tema 1 · Seguridad y salud en el trabajo': '🛡️',
+    'Tema 2 · Técnicas de prevención y protección': '🦺',
+    'Tema 3 · Técnicas básicas de primeros auxilios': '🚑',
+    'Tema 4 · Autoconocimiento y habilidades personales': '🔍',
+    'Tema 5 · Habilidades sociales': '🤝',
+    'Tema 6 · Itinerarios académicos y profesionales': '🎓',
+    'Tema 7 · La búsqueda de empleo': '📋',
+    'Tema 8 · Toma de decisiones e itinerario personal': '⚖️'
   };
 
   /* Per-subject icons for the subject grid (inside a course). Each

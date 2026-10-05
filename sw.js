@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v92';
+var VERSION = 'memofun-v95';
 
 var FILES = [
   './index.html',
@@ -67,7 +67,24 @@ var FILES = [
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-sociales.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo.json',
-  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-decisiones-itinerario-personal.json'
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-decisiones-itinerario-personal.json',
+
+  /* The rest of the IPE subject. Tema 1 ships five section files inside
+     its own folder and the two FP GM courses ship three decks each; none
+     of the ten were listed here, so they were the only decks of this
+     subject that needed an online visit to work offline while temas 2-8
+     did not. Same subject, same offline behaviour. */
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/prevencion-emergencia-y-derechos.json',
+  './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1.json',
+  './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json',
+  './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_3.json',
+  './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2.json',
+  './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json',
+  './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2_3.json'
 ];
 
 self.addEventListener('install', function (event) {
