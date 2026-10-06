@@ -15,6 +15,11 @@
    `storageKey` matches the key assets/js/i18n.js writes, so the picker's
    choice and the app's own i18n core stay in sync. */
 window.LocalePickerConfig = {
+  /* El selector de idioma va DENTRO del cajón del ⚙️, como primera
+     fila, y el ⚙️ se queda solo en la cabecera. Antes vivía al lado
+     del ⚙️ en la fila de controles y eran dos sitios donde cambiar
+     preferencias. Coste: un clic más para llegar al idioma. */
+  languageInDrawer: true,
   storageKey: 'memofun:locale',
   path: null,
   requiredLocales: ['es', 'en'],

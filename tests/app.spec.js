@@ -625,12 +625,15 @@ test('19a — the header language dropdown switches to English and persists', as
     await expect(page.locator('html')).toHaveAttribute('lang', 'es');
     const spanishTagline = (await page.locator('.tagline').textContent()).trim();
 
-    // The language is a first-level control in the header: the settings
-    // drawer is never opened to reach it.
-    await page.locator('#locale-picker .locale-picker-btn').click();
-    await page.locator('#locale-picker .locale-picker-panel li[data-locale="en"]').click();
+    // The language lives in the ⚙️ drawer as its first row, so the gear
+    // has to open it: it is not a first-level control in the header.
+    await page.locator('.locale-settings-trigger').click();
+    const drawer = page.locator('#accessibility-settings');
+    await expect(drawer).toBeVisible();
+    await drawer.locator('.locale-picker-btn').click();
+    await drawer.locator('.locale-picker-panel li[data-locale="en"]').click();
     await expect(page.locator('html')).toHaveAttribute('lang', 'en');
-    await expect(page.locator('#locale-picker .locale-picker-current')).toHaveText('EN');
+    await expect(drawer.locator('.locale-picker-current')).toHaveText('EN');
     expect(await page.evaluate(() => localStorage.getItem('memofun:locale'))).toBe('en');
     expect((await page.locator('.tagline').textContent()).trim()).not.toBe(spanishTagline);
   } finally {
