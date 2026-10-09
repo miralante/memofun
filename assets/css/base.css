@@ -4,21 +4,21 @@
 
 @font-face {
   font-family: 'Atkinson Hyperlegible';
-  src: url('../fonts/atkinson-hyperlegible-400.woff2') format('woff2');
+  src: url('../fonts/atkinson-hyperlegible-400.woff2?v=memofun-vd64ba838') format('woff2');
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Atkinson Hyperlegible';
-  src: url('../fonts/atkinson-hyperlegible-700.woff2') format('woff2');
+  src: url('../fonts/atkinson-hyperlegible-700.woff2?v=memofun-v140e2bd2') format('woff2');
   font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('../fonts/nunito-variable.woff2') format('woff2-variations');
+  src: url('../fonts/nunito-variable.woff2?v=memofun-vba344451') format('woff2-variations');
   font-weight: 400 900;
   font-display: swap;
 }

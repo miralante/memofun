@@ -111,8 +111,10 @@
 }
 
 /* -------- Dark theme --------
-   data-theme="dark", or on its own via prefers-color-scheme when no
-   theme was forced (the "auto" option). */
+   data-theme="dark", which is what the gear switch sets. The default is
+   "light": the "auto" option is gone. It used to leave the attribute off and
+   let prefers-color-scheme decide, so a dark-OS machine saw a dark site
+   that nobody had asked for. */
 [data-theme="dark"] {
   --color-bg: #14161E;
   --color-surface: #1E2230;
@@ -184,39 +186,3 @@
   --color-on-success: #000000;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) {
-    --color-bg: #14161E;
-    --color-surface: #1E2230;
-    --color-surface-2: #262B3C;
-    --color-border: #39405A;
-
-    --color-text: #F2F0EA;
-    --color-text-soft: #B3B0C8;
-    --color-text-tenue: #9693AC;
-
-    --accent: #6FD0C4;
-    --accent-soft: #16352F;
-    --accent-2: #E0B85C;
-    --accent-2-soft: #3A2C1E;
-
-    --color-success: #7BD389;
-    --color-success-soft: #1E3D24;
-    --color-encourage: #F2B07A;
-    --color-encourage-soft: #3A2C1E;
-    --color-star: #E0B85C;
-
-    --sticker-c: #F09BC0;
-    --sticker-c-soft: #3A2430;
-    --sticker-d: #C3A0F0;
-    --sticker-d-soft: #2C2340;
-
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
-    --color-focus: #6FD0C4;
-
-    --color-on-accent: #14161E;
-  --color-on-error: #14161E;
-    --color-on-success: #14161E;
-  }
-}

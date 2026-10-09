@@ -1,0 +1,24 @@
+# Keep development files and repository metadata out of the public Worker.
+# See wrangler.toml for why this replaced the `rm -rf .git` build hook.
+.git/
+.dev/
+.claude/
+.github/
+.agents/
+.codex/
+.vscode/
+.wrangler/
+node_modules/
+graphify-out*/
+test-results/
+scripts/
+doc/
+
+# Screenshots kept at the repo root for the docs. This is deliberately NOT a
+# blanket "*.png": assets/img/decks/**/*.png are the deck illustrations the
+# app loads at runtime, and the global rule left 36 of them answering 404 in
+# production while the .json decks referenced them. The other screenshots live
+# under .dev/ and test-results/, already excluded above.
+shot-*.png
+
+*.md

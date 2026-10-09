@@ -1,0 +1,43 @@
+{
+  "topic": "Excel avanzado e instrumentos de pago",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "La pantalla de Excel tiene: barra de herramientas de acceso rápido, barra de título, barra de menús, banda de opciones, banda de fórmulas, barra de etiquetas de hojas, barras de desplazamiento y barra de estado. <mark>Es como el salpicadero de un coche: cada instrumento tiene su función y su sitio</mark>. ¿Cómo se llama la barra superior que muestra el nombre del archivo y la aplicación?",
+      "answer": "<mark>Barra de título</mark>"
+    },
+    {
+      "question": "En la pantalla inicial de Excel hay una barra con las opciones habituales (guardar, deshacer) a la izquierda de la barra de título. <mark>Es como los botones de acceso rápido de un mando a distancia</mark>. ¿Cómo se llama?",
+      "answer": "<mark>Barra de herramientas de acceso rápido</mark>"
+    },
+    {
+      "question": "La barra de estado de Excel muestra información del documento: si está guardado, el zoom actual, la vista de página. <mark>Es como la barra inferior del navegador que dice 'Listo' o 'Cargando'</mark>. ¿Para qué sirve la barra de estado?",
+      "answer": "<mark>Para mostrar información contextual del documento (zoom, vista, estado del archivo)</mark>"
+    },
+    {
+      "question": "En Excel se puede cambiar el zoom de la hoja del 10% al 400%, y hay tres vistas: Normal, Diseño de página y Saltos de página. <mark>Es como acercarse o alejarse con unos prismáticos y elegir si ves el mapa completo o por hojas</mark>. ¿Qué permite hacer el zoom en Excel?",
+      "answer": "<mark>Acercar o alejar la vista de la hoja de cálculo</mark>"
+    },
+    {
+      "question": "El IBAN (Identificador Bancario de Cuenta) es un código que identifica tu cuenta bancaria a nivel internacional: país (ES para España), dos dígitos de control y el número de cuenta. <mark>Es como la dirección de tu cuenta bancaria en el sistema financiero mundial</mark>. ¿Qué es el IBAN?",
+      "answer": "<mark>El código que identifica internacionalmente una cuenta bancaria</mark>"
+    },
+    {
+      "question": "El Código Cuenta Cliente (CCC) tiene 20 dígitos: 4 de la entidad bancaria, 4 de la oficina, 2 de control y 10 del número de cuenta. <mark>Es como la matrícula del coche: identifica al banco (marca), la oficina (modelo) y la cuenta (número de bastidor)</mark>. ¿Qué datos contiene el CCC?",
+      "answer": "<mark>Entidad, oficina, dígito de control y número de cuenta</mark>"
+    },
+    {
+      "question": "Además del cheque y la transferencia, existe un documento por el que una persona se compromete a pagar una cantidad en una fecha futura: <mark>Es como un cheque postfechado: te digo 'te pago esto tal día'</mark>. ¿Cómo se llama este instrumento de pago?",
+      "answer": "<mark>Pagaré</mark>"
+    },
+    {
+      "question": "Documento de crédito por el que el librador ordena al librado (banco) que pague una cantidad a un beneficiario en una fecha determinada. <mark>Es como una cadena de tres: el que debe, el banco y el que cobra</mark>. ¿Cómo se llama este documento?",
+      "answer": "<mark>Letra de cambio</mark>"
+    },
+    {
+      "question": "Para calcular el IBAN español se añade ES + 2 dígitos de control + 20 dígitos de CCC. <mark>Es como el prefijo de país en un número de teléfono internacional pero para cuentas bancarias</mark>. ¿Cómo se forma el IBAN a partir del CCC?",
+      "answer": "<mark>ES + 2 dígitos de control + CCC (20 dígitos)</mark>"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "topic": "Medios de pago, Excel y material de oficina",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Las grapas, los clips, el papel, los post-it y la tinta de impresora: se gastan, se acaban y hay que reponerlos. <mark>Es como la comida del frigorífico: se consume y vuelve a comprar</mark>. ¿Cómo se llama este tipo de material de oficina?",
+      "answer": "<mark>Material fungible</mark>"
+    },
+    {
+      "question": "Una grapadora, una taladradora, una calculadora o unas tijeras: no se gastan con el uso y duran mucho tiempo. <mark>Es como una sartén: la compras una vez y la usas años</mark>. ¿Cómo se llama este tipo de material de oficina?",
+      "answer": "<mark>Material no fungible</mark>"
+    },
+    {
+      "question": "Máquinas duraderas como ordenadores, impresoras, escáneres, teléfonos y fotocopiadoras que se usan repetidamente. <mark>Es como los electrodomésticos de una cocina: los compras y funcionan durante años</mark>. ¿Cómo se llama este conjunto de máquinas de la oficina?",
+      "answer": "<mark>Equipos de oficina</mark>"
+    },
+    {
+      "question": "Un aparato que permite imprimir, escanear, fotocopiar y enviar correos sin cambiar de máquina. <mark>Es como un Swiss Army Knife: una herramienta con muchas funciones en una sola</mark>. ¿Cómo se llama este equipo?",
+      "answer": "<mark>Aparato multifunción</mark>"
+    },
+    {
+      "question": "El pago que se realiza en el momento exacto en que se recibe la mercancía o el servicio, sin esperar. <mark>Es como pagar la compra en el supermercado antes de salir por la puerta</mark>. ¿Cómo se llama este tipo de pago?",
+      "answer": "<mark>Pago al contado</mark>"
+    },
+    {
+      "question": "Un documento firmado por el cliente donde ordena a su banco que pague una cantidad a otra persona. <mark>Es como una orden escrita y firmada que dice 'páguese a esta persona'</mark>. ¿Cómo se llama este medio de pago?",
+      "answer": "<mark>Cheque</mark>"
+    },
+    {
+      "question": "El cheque lleva el nombre del banco, el IBAN, el nombre del beneficiario, el importe en número y letra, el lugar y fecha de emisión y la firma. <mark>Es como un formulario oficial con casillas que hay que rellenar para que el documento sea válido</mark>. ¿Cómo se llaman las distintas partes de un cheque?",
+      "answer": "<mark>Partes del cheque</mark>"
+    },
+    {
+      "question": "Mover dinero desde una cuenta bancaria a otra cuenta, ordenándolo el cliente a su banco. <mark>Es como dar una orden de transferencia de una habitación a otra dentro del mismo hotel</mark>. ¿Cómo se llama esta operación bancaria?",
+      "answer": "<mark>Transferencia bancaria</mark>"
+    },
+    {
+      "question": "Una tarjeta emitida por un banco que solo permite gastar el dinero que ya tienes en la cuenta asociada: al usarla el importe se resta inmediatamente. <mark>Es como pagar con dinero efectivo pero sin llevar Bills en la cartera</mark>. ¿Cómo se llama esta tarjeta?",
+      "answer": "<mark>Tarjeta de débito</mark>"
+    },
+    {
+      "question": "En una compra por internet el cliente puede pagar con tarjeta de crédito, transferencia, contra reembolso o una pasarela de pago segura. <mark>Es como las distintas formas de pagar en una tienda online</mark>. ¿Cómo se llama el conjunto de estas formas de pago?",
+      "answer": "<mark>Formas de pago en comercio electrónico (e-commerce)</mark>"
+    },
+    {
+      "question": "En la pantalla de Excel, la barra donde se escribe la fórmula y que muestra el contenido de la celda seleccionada. <mark>Es como la barra de direcciones de un navegador: te dice dónde estás y qué hay escrito</mark>. ¿Cómo se llama esta barra de Excel?",
+      "answer": "<mark>Banda de fórmulas (o barra de fórmulas)</mark>"
+    },
+    {
+      "question": "En Excel, una selección vertical de celdas que se nombra con letras (A, B, C...). <mark>Es como una columna de un edificio: va de arriba a abajo y tiene su propia letra identificativa</mark>. ¿Cómo se llama en Excel?",
+      "answer": "<mark>Columna</mark>"
+    },
+    {
+      "question": "En Excel, una selección horizontal de celdas que se numera desde 1 hasta 1.048.576. <mark>Es como una fila de butacas en un cine: va de izquierda a derecha y tiene su número de asiento</mark>. ¿Cómo se llama en Excel?",
+      "answer": "<mark>Fila</mark>"
+    },
+    {
+      "question": "En una celda de Excel se pueden escribir textos, números o fórmulas. <mark>Es como una celda de una hoja de papel quadriculado donde puedes escribir lo que quieras</mark>. ¿Qué tipos de datos se pueden introducir en una celda de Excel?",
+      "answer": "<mark>Textos, números o fórmulas</mark>"
+    },
+    {
+      "question": "Para sumar en Excel se escribe =A1+A2; para restar, =A1-A2; para multiplicar, =A1*A2; y para dividir, =A1/A2. <mark>Es como una calculadora pero donde tú decides qué celdas se calculan</mark>. ¿Cómo se llaman estas operaciones en Excel?",
+      "answer": "<mark>Fórmulas básicas (suma, resta, multiplicación y división)</mark>"
+    },
+    {
+      "question": "El IVA = subtotal × 21%; TOTAL = subtotal + IVA. <mark>Es como en una factura de restaurante: el precio sin IVA es el pedido y el IVA es el servicio; ambos suman la cuenta final</mark>. ¿Cómo se calcula el TOTAL en una factura con IVA?",
+      "answer": "<mark>Subtotal + IVA (21%) = TOTAL</mark>"
+    }
+  ]
+}

@@ -128,3 +128,11 @@ Nociones nuevas, todas en `prevencion-emergencia-y-derechos.json`:
 - Openverse da 424 al pedir miniaturas de algunos ficheros de Wikimedia. El camino que sí
   funciona: `_c` (800px) en Flickr en vez del `_b`, y para Commons la API con **`pageids=`
   (no `curid=`)**: `commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800&pageids=<id>`.
+
+## Tema 7 — Búsqueda de empleo (cobertura扩充ida)
+
+- Carta de presentación (documento breve que acompaña al CV): fpb_sa_1_tecnicas-administrativas-basicas_13.json (sinopsis de película: breve, atractiva, convincente)
+- Estructura de la carta de presentación (puesto, fuente de información, interés en la empresa, cualidades): fpb_sa_1_tecnicas-administrativas-basicas_13.json (anuncio: qué se ofrece, por qué es buena opción, por qué tú)
+- Preparación antes de la entrevista (investigar empresa, ensayar respuestas, preparar preguntas, imagen): fpb_sa_1_tecnicas-administrativas-basicas_13.json (repasar el examen antes de entrar)
+- Qué valora el entrevistador (habilidades técnicas, trabajo en equipo, motivación, honestidad): fpb_sa_1_tecnicas-administrativas-basicas_13.json (examen práctico del carné: no solo teoría sino cómo conduces)
+- Errores en la entrevista (hablar rápido, no preguntar, criticar anteriores empleadores, mentir): fpb_sa_1_tecnicas-administrativas-basicas_13.json (novatadas en un trabajo nuevo)

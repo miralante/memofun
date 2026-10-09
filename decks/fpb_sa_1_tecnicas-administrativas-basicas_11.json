@@ -1,0 +1,27 @@
+{
+  "topic": "Inventario y control de existencias de material",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "El control de existencias es llevar la cuenta continua de cuánto material entra y sale del almacén cada día. <mark>Es como el libro de cuentas del supermercado: cada vez que alguien compra algo se anota para saber cuánto queda</mark>. ¿Cómo se llama este control continuo del almacén?",
+      "answer": "<mark>Control continuo de existencias</mark>"
+    },
+    {
+      "question": "Una vez al año la tienda cierra un día, se conta todo lo que hay en los estantes y en el almacén y se anota para el inventario anual. <mark>Es como el censo de población: no se hace cada día sino una vez al año de forma completa</mark>. ¿Cómo se llama este recuento periódico y completo?",
+      "answer": "<mark>Inventario</mark>"
+    },
+    {
+      "question": "El inventario registra TODOS los bienes de la empresa en un momento dado: material, maquinaria, mobiliario. <mark>Es como el inventario de una biblioteca: todos los libros contados con su título, autor y estado</mark>. ¿Qué tipo de bienes registra el inventario general de la empresa?",
+      "answer": "<mark>Todos los bienes (material, maquinaria, mobiliario)</mark>"
+    },
+    {
+      "question": "Antes de que se acabe el material de oficina (grapas, papel), el administrativo hace un pedido para reponerlo. <mark>Es como revisar la nevera antes de ir a comprar: cuando queda poco leite ya se apunta a la lista</mark>. ¿Cómo se llama este procedimiento de reaprovisionamiento?",
+      "answer": "<mark>Generar un pedido cuando escasea el material</mark>"
+    },
+    {
+      "question": "Los objetivos del aprovisionamiento de material de oficina son: saber cuánto se necesita, pedirlo a tiempo, almacenarlo bien y controlarlo para que no se desperdicie. <mark>Es como la gestión de la despensa de casa: saber qué falta, comprar lo justo, guardarlo en su sitio y no dejar que se estropee</mark>. ¿Cuáles son los cuatro objetivos del aprovisionamiento?",
+      "answer": "<mark>Saber necesidades, pedir a tiempo, almacenar correctamente, controlar sin desperdicio</mark>"
+    }
+  ]
+}

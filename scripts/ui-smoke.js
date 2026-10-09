@@ -405,10 +405,6 @@ async function exerciseAppearanceSettings(browser, baseUrl) {
       'El tema oscuro debe aplicarse al documento');
     const dark = await bodyColors();
     assert.notDeepEqual(dark.palette, light.palette, 'El tema debe cambiar la paleta visible de la app');
-    await drawer.locator('[data-settings-theme="auto"]').click();
-    assert.strictEqual(await page.locator('html').getAttribute('data-theme'), null,
-      'El modo automático debe dejar actuar el tema del sistema');
-
     await drawer.locator('[data-settings-contrast]').check();
     assert.strictEqual(await page.locator('html').getAttribute('data-theme'), 'contrast',
       'Alto contraste debe activar la paleta de contraste');
@@ -420,7 +416,7 @@ async function exerciseAppearanceSettings(browser, baseUrl) {
       return cfg.settingsStorageKey || ((cfg.storageKey || 'apptonomia:locale') + ':accessibility');
     });
     const saved = await page.evaluate(key => JSON.parse(localStorage.getItem(key)), settingsKey);
-    assert.strictEqual(saved.theme, 'auto');
+    assert.strictEqual(saved.theme, 'dark');
     assert.strictEqual(saved.contrast, true);
 
     await page.reload({ waitUntil: 'domcontentloaded' });

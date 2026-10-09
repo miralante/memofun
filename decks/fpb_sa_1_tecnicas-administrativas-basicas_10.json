@@ -1,0 +1,47 @@
+{
+  "topic": "Correos y paquetería",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Correos es una empresa pública española que ofrece servicios de envío de cartas, paquetes y notificaciones. <mark>Es como el servicio de mensajería del Estado: tiene obligación de llegar a todos los rincones del país</mark>. ¿Qué tipo de empresa es Correos?",
+      "answer": "<mark>Empresa pública</mark>"
+    },
+    {
+      "question": "Correos tiene tres líneas: básica (carta ordinaria), urgente (más rápida) y económica (precio bajo, plazos más largos). <mark>Es como tres modalidades de autobús: el normal, el exprés y el descuento</mark>. ¿Cómo se llaman estas tres líneas de Correos?",
+      "answer": "<mark>Línea básica, línea urgente y línea económica</mark>"
+    },
+    {
+      "question": "Un envío certificado cuesta más que uno normal pero garantiza que el destinatario ha firmado al recibirlo; si se pierde, el remitente recibe una indemnización. <mark>Es como enviar un documento importante con acuse de recibo: si no llega, te devuelven el dinero</mark>. ¿Cómo se llama este servicio de Correos?",
+      "answer": "<mark>Certificado</mark>"
+    },
+    {
+      "question": "En una venta por catálogo, el cliente paga al repartidor cuando le entregan el paquete en casa. <mark>Es como pagar al repartidor de pizza cuando te trae la comida a la puerta</mark>. ¿Cómo se llama este servicio de pago en el momento de la entrega?",
+      "answer": "<mark>Reembolso</mark>"
+    },
+    {
+      "question": "Un servicio que garantiza que el destinatario ha recibido el envío con su firma, fecha y hora; esa nota de recepción se devuelve al remitente. <mark>Es como el recibo de correo que te pide firmado al recoger un paquete</mark>. ¿Cómo se llama?",
+      "answer": "<mark>Aviso de recibo</mark>"
+    },
+    {
+      "question": "Carta, tarjeta postal y envíos publicitarios que se envían de forma electrónica a través de la plataforma de Correos. <mark>Es como enviar un email pero con el sello y la infraestructura de Correos</mark>. ¿Cómo se llama este servicio?",
+      "answer": "<mark>Correo digital</mark>"
+    },
+    {
+      "question": "Para enviar un paquete hay que envolverlo con material resistente al peso, con buen material de protección y adaptado en forma y tamaño al contenido. <mark>Es como embalar una mudanza: que la caixa no se rompa</mark>. ¿Cómo se llama este proceso?",
+      "answer": "<mark>Embalaje</mark>"
+    },
+    {
+      "question": "Los sobres deben ser rectangulares, de color blanco o claro (nunca azul), con la dirección escrita de forma legible. <mark>Es como las normas de presentación de un examen: margen limpio, letra clara, sin manchas</mark>. ¿Cómo se llama adaptar los envíos a normas de tamaño y forma para que pasen por las máquinas de Correos?",
+      "answer": "<mark>Normalización</mark>"
+    },
+    {
+      "question": "Al escribir la dirección de un envío: primera línea la provincia, segunda el código postal y localidad, tercera la calle con número y piso, cuarta el nombre del destinatario. <mark>Es como escribir una dirección de email: primero el servidor, luego el usuario</mark>. ¿En qué orden se escriben las líneas de la dirección postal?",
+      "answer": "<mark>Provincia → C.P. + Localidad → Tipo de vía + Calle + Número + Piso → Nombre del destinatario</mark>"
+    },
+    {
+      "question": "Empresas privadas como MRW, SEUR, UPS o DHL que ofrecen envío urgente, entrega en mano, recoger en oficina o a domicilio, 24 horas. <mark>Es como taxis de paquetes: más caros que Correos pero más rápidos y personalizados</mark>. ¿Cómo se llaman estas empresas frente a Correos?",
+      "answer": "<mark>Empresas de mensajería externa</mark>"
+    }
+  ]
+}
