@@ -181,9 +181,20 @@ test('2 — deck cards are links pointing to the study tool', async ({ browser }
   expect(href).toMatch(/tools\/study\/index\.html\?deck=/);
 });
 
-test('3 — locale picker is present in the header', async ({ browser }) => {
+test('3 — locale picker lives inside the settings drawer', async ({ browser }) => {
   const page = await openFreshApp(browser);
-  await expect(page.locator('#locale-picker')).toBeVisible();
+  // locale-picker-config.js fija languageInDrawer: true, así que el selector
+  // no se pinta en la cabecera: se abre desde el ⚙️ y vive dentro del cajón.
+  // El botón existe en el DOM desde el principio, pero oculto y movido al
+  // cajón, así que lo que se comprueba es DÓNDE está, no si existe.
+  await expect(page.locator('.locale-settings-trigger')).toBeVisible();
+  const drawer = page.locator('#accessibility-settings');
+  await expect(drawer).toBeHidden();
+  await page.locator('.locale-settings-trigger').click();
+  await expect(drawer).toBeVisible();
+  await expect(drawer.locator('.locale-picker-btn')).toBeVisible();
+  // y no debe quedar ninguno colgando de la cabecera
+  await expect(page.locator('header .locale-picker-btn')).toHaveCount(0);
 });
 
 // ===========================================================================
@@ -668,8 +679,10 @@ test('19b — unsupported browser language falls back to English', async ({ brow
   try {
     await page.addInitScript(() => localStorage.clear());
     await page.goto(BASE);
-    await expect(page.locator('#locale-picker')).toBeVisible();
-    await expect(page.locator('.locale-picker-current')).toHaveText('EN');
+    // El selector ya no está en la cabecera: se abre desde el ⚙️ (ver test 3).
+    await page.locator('.locale-settings-trigger').click();
+    await expect(page.locator('#accessibility-settings .locale-picker-btn')).toBeVisible();
+    await expect(page.locator('#accessibility-settings .locale-picker-current')).toHaveText('EN');
     expect(await page.locator('html').getAttribute('lang')).toBe('en');
     expect(await page.evaluate(() => window.App.i18n.locale())).toBe('en');
   } finally {
