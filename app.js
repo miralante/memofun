@@ -54,8 +54,36 @@
     'Mapa Mundi'
   ];
 
+  /* Subjects that are open within a course. The structure mirrors OPEN_COURSES:
+     course → [open subjects]. Any subject not listed (or a course not in this
+     map) is fully open. FP Básica tiene siete asignaturas; las dos que están
+     listas (Empleabilidad y Técnicas Administrativas) son las únicas con
+     contenido real. Las demás tienen barajas en el manifest pero no se han
+     publicado — el dev page (/dev/index.html) es la referencia completa.
+
+     Adding a subject here makes it clickable from the public index.
+     Removing it makes it show a "Próximamente" badge. */
+  var OPEN_SUBJECTS = {
+    '1º de FP Básica Servicios Administrativos': [
+      'Itinerario Personal para la Empleabilidad',
+      'Técnicas Administrativas Básicas',
+      'Ciencias Aplicadas',
+      'Ciencias Sociales',
+      'Lengua Castellana',
+      'Atención al Cliente',
+      'Tratamiento Informático de Datos'
+    ]
+  };
+
   function isCourseOpen(course) {
     return FULL_ACCESS || OPEN_COURSES.indexOf(course) !== -1;
+  }
+
+  function isSubjectOpen(course, subject) {
+    if (FULL_ACCESS) return true;
+    var open = OPEN_SUBJECTS[course];
+    if (!open) return true; // course not in map → all subjects open
+    return open.indexOf(subject) !== -1;
   }
 
   var ICONS = ['🧠', '📚', '🔧', '🌍', '💡', '🧩', '🔬', '🎨'];
@@ -511,10 +539,18 @@
           ? (subjectDecks[0].amount || '') + ' ' + App.i18n.t('home.cards')
           : subjectDecks.length + ' ' + App.i18n.t('home.decks');
       }
-      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
+      var body =
         '<span class="deck-icon" aria-hidden="true">' + icon + '</span>' +
         '<h3>' + App.utils.escapeHtml(subject) + '</h3>' +
-        '<span class="deck-meta">' + meta + '</span>' +
+        '<span class="deck-meta">' + meta + '</span>';
+      if (!isSubjectOpen(course, subject)) {
+        return '<div class="deck-card deck-card--soon' + badgeClassFor(i) + '" role="listitem">' +
+          body +
+          '<span class="deck-soon-badge">' + App.i18n.t('home.comingSoon') + '</span>' +
+          '</div>';
+      }
+      return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
+        body +
         '</a>';
     }).join('') + '</div>';
 

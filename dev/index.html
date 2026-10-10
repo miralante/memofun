@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <!-- ============================================================================
-     Memofun — /dev/ : espejo de la portada con acceso completo.
+     Memofun — /dev/ : catálogo de desarrollo para FP Básica.
 
-     Qué cambia respecto a index.html:
-       • data-access="full" → todos los cursos se pueden abrir, incluidos
-         los que la portada pública muestra bloqueados con "Próximamente".
-       • data-app-base="../" → los enlaces que construye app.js (el
-         manifest, los cursos, el visor de tarjetas) se resuelven desde la
-         raíz del sitio y no desde /dev/.
-       • noindex,nofollow → ni buscador ni preview lo indexan.
+     Página hardcodeada (sin app.js) con enlaces directos a los temas de
+     las dos asignaturas abiertas de 1º de FP Básica Servicios Administrativos.
 
-     El <head> es a mano y NO lleva los marcadores build:head:start/end a
-     propósito: scripts/build-head.js solo regenera site/index.html o
-     index.html, así que un bloque generado aquí quedaría congelado (y con
-     robots:index, que es justo lo contrario de lo que quiere una página
-     de desarrollo).
+     Cada enlace lleva ?course= &subject= &topicGroup= y abre el tema
+     directamente en el visor de tarjetas de la raíz. Así se llega directo
+     a la baraja sin pasar por la vista de asignatura → tema.
 
-     El cajón de idioma reutiliza assets/js/locale-picker-config.js?v=2ab tal
-     cual: su `path: null` desactiva el descubrimiento por HEAD, así que
-     no busca strings en /dev/ y las etiquetas le salen de requiredLocales.
+     No usa data-access="full" ni OPEN_SUBJECTS: la decisión de qué
+     asignaturas son visibles vive enteramente aquí, como en Routime y
+     Calculia con sus herramientas.
 
-     Los enlaces a config/ y legal/ son relativos a la raíz: en producción
-     /dev/ cuelga del mismo dominio, y apuntar a rutas relativas del sitio
-     equivocaría al sitio equivocado. Los /dev/ de los hermanos van por
-     dominio completo, para que esta página no quede en un callejón sin
-     salida al revisar los cursos bloqueados.
+     Solamente las dos asignaturas listas:
+       • Itinerario Personal para la Empleabilidad  (8 temas)
+       • Técnicas Administrativas Básicas            (7 temas)
 
-     Ojo con "Volver": los enlaces que construye app.js llevan BASE (raíz
-     del sitio), no /dev/. Al entrar en un curso y pulsar "Volver" se vuelve
-     a la portada pública, no a esta página. Es intencionado — el espejo no
-     se propaga por los query params, y así el visor de tarjetas y su
-     enlace "Volver" no necesitan ningún caso especial. Lo único que cambia
-     al volver es la pantalla: allí el curso que estabas viendo aparece
-     bloqueado en la rejilla, aunque la lista de asignaturas siga abierta.
+     El campo `topicGroup` de cada baraja en el manifest es la clave;
+     las topicGroups de Técnicas Administrativas son:
+       Tema 1 · La empresa          (6 barajas)
+       Tema 3 · Comunicación         (2 barajas)
+       Tema 4 · Correos y mensajería (1 baraja)
+       Tema 5 · Material de oficina  (1 baraja)
+       Tema 6 · Operaciones de cobro y pago (2 barajas)
+       Tema 7 · Búsqueda de empleo  (1 baraja)
+     Las dos barajas sin topicGroup (Departamento de compras y
+     Recibo y justificantes de pago) no tienen tema propio y
+     aparecen como barajas sueltas dentro de Técnicas Administrativas.
+
+     Los totales de tarjetas son sumas de los `amount` de cada baraja
+     según el manifest — copia literal para que el dev page sea
+     coherent con el manifest y no haya que mantener dos cuentas.
      ============================================================================ -->
-<html lang="es" data-i18n-title="home.seoTitle">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Memofun — /dev (acceso completo)</title>
+<title>Memofun — /dev (FP Básica)</title>
 <meta name="robots" content="noindex,nofollow">
 <meta name="theme-color" content="#FAF7F2">
 <meta name="color-scheme" content="light">
@@ -49,9 +48,9 @@
 <link rel="stylesheet" href="../assets/css/locale-picker.css?v=memofun-v2caa">
 <link rel="manifest" href="../manifest.json">
 </head>
-<body data-app-base="../" data-access="full">
+<body>
 
-<a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
+<a class="skip-link" href="#contenido">Ir al contenido</a>
 
 <header class="app-header suite-header container container-wide">
   <div class="suite-brand app-hero">
@@ -61,22 +60,214 @@
     </div>
     <div class="suite-brand-copy">
       <h1 class="logo">Memofun</h1>
-      <p class="suite-attribution"><span data-i18n="suiteBy">Una app de</span> <a href="https://apptonomia.uk/">Apptonomia</a>.</p>
+      <p class="suite-attribution">Una app de <a href="https://apptonomia.uk/">Apptonomia</a>.</p>
     </div>
   </div>
   <div class="suite-controls"><div id="locale-picker"></div></div>
-  <div class="suite-details"><p class="tagline" data-i18n="home.tagline">Elige una baraja y practica con tarjetas.</p><span class="stars" id="stars-total">⭐ 0</span></div>
+  <div class="suite-details"><p class="tagline">Elige una baraja y practica con tarjetas.</p><span class="stars">⭐ 0</span></div>
 </header>
 
 <main id="contenido" class="container container-wide">
-  <div id="deck-grid" aria-live="polite"></div>
+
+  <!-- ================================================================
+       ITINERARIO PERSONAL PARA LA EMPLEABILIDAD
+       8 temas · datos del manifest (amount × barajas)
+       ================================================================ -->
+  <div class="section-header">
+    <h2 class="section-heading">Itinerario Personal para la Empleabilidad</h2>
+    <span class="section-heading-meta">1º de FP Básica Servicios Administrativos</span>
+  </div>
+  <div class="deck-grid" role="list">
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+1+%C2%B7+Seguridad+y+salud+en+el+trabajo">
+      <span class="deck-icon" aria-hidden="true">🛡️</span>
+      <h3>Tema 1 · Seguridad y salud en el trabajo</h3>
+      <span class="deck-meta">5 barajas · 89 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+2+%C2%B7+T%C3%A9cnicas+de+prevenci%C3%B3n+y+protecci%C3%B3n">
+      <span class="deck-icon" aria-hidden="true">🦺</span>
+      <h3>Tema 2 · Técnicas de prevención y protección</h3>
+      <span class="deck-meta">1 baraja · 18 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+3+%C2%B7+T%C3%A9cnicas+b%C3%A1sicas+de+primeros+auxilios">
+      <span class="deck-icon" aria-hidden="true">🚑</span>
+      <h3>Tema 3 · Técnicas básicas de primeros auxilios</h3>
+      <span class="deck-meta">1 baraja · 19 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+4+%C2%B7+Autoconocimiento+y+habilidades+personales">
+      <span class="deck-icon" aria-hidden="true">🔍</span>
+      <h3>Tema 4 · Autoconocimiento y habilidades personales</h3>
+      <span class="deck-meta">1 baraja · 15 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+5+%C2%B7+Habilidades+sociales">
+      <span class="deck-icon" aria-hidden="true">🤝</span>
+      <h3>Tema 5 · Habilidades sociales</h3>
+      <span class="deck-meta">1 baraja · 17 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+6+%C2%B7+Itinerarios+acad%C3%A9micos+y+profesionales">
+      <span class="deck-icon" aria-hidden="true">🎓</span>
+      <h3>Tema 6 · Itinerarios académicos y profesionales</h3>
+      <span class="deck-meta">1 baraja · 18 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+7+%C2%B7+La+b%C3%BAsqueda+de+empleo">
+      <span class="deck-icon" aria-hidden="true">📋</span>
+      <h3>Tema 7 · La búsqueda de empleo</h3>
+      <span class="deck-meta">1 baraja · 18 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Itinerario+Personal+para+la+Empleabilidad&topicGroup=Tema+8+%C2%B7+Toma+de+decisiones+e+itinerario+personal">
+      <span class="deck-icon" aria-hidden="true">⚖️</span>
+      <h3>Tema 8 · Toma de decisiones e itinerario personal</h3>
+      <span class="deck-meta">1 baraja · 18 tarjetas</span>
+    </a>
+
+  </div>
+
+  <!-- ================================================================
+       TÉCNICAS ADMINISTRATIVAS BÁSICAS
+       7 temas + 2 barajas sueltas (sin topicGroup).
+       topicGroups del manifest:
+         Tema 1 · La empresa                  (6 barajas → 49 tarjetas)
+         Tema 3 · Comunicación                 (2 barajas → 32 tarjetas)
+         Tema 4 · Correos y mensajería         (1 baraja  → 10 tarjetas)
+         Tema 5 · Material de oficina          (1 baraja  →  5 tarjetas)
+         Tema 6 · Operaciones de cobro y pago   (2 barajas → 25 tarjetas)
+         Tema 7 · Búsqueda de empleo          (1 baraja  →  6 tarjetas)
+       Sueltas (sin topicGroup):
+         Departamento de compras               (1 baraja  → 17 tarjetas)
+         Recibo y justificantes de pago        (1 baraja  → 17 tarjetas)
+       Total: 15 barajas · 161 tarjetas.
+       ================================================================ -->
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">Técnicas Administrativas Básicas</h2>
+    <span class="section-heading-meta">1º de FP Básica Servicios Administrativos</span>
+  </div>
+  <div class="deck-grid" role="list">
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=T%C3%A9cnicas+Administrativas+B%C3%A1sicas&topicGroup=Tema+1+%C2%B7+La+empresa">
+      <span class="deck-icon" aria-hidden="true">🏢</span>
+      <h3>Tema 1 · La empresa</h3>
+      <span class="deck-meta">6 barajas · 49 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=T%C3%A9cnicas+Administrativas+B%C3%A1sicas&topicGroup=Tema+3+%C2%B7+Comunicaci%C3%B3n">
+      <span class="deck-icon" aria-hidden="true">📨</span>
+      <h3>Tema 3 · Comunicación</h3>
+      <span class="deck-meta">2 barajas · 32 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=T%C3%A9cnicas+Administrativas+B%C3%A1sicas&topicGroup=Tema+4+%C2%B7+Correos+y+mensajer%C3%ADa">
+      <span class="deck-icon" aria-hidden="true">📦</span>
+      <h3>Tema 4 · Correos y mensajería</h3>
+      <span class="deck-meta">1 baraja · 10 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=T%C3%A9cnicas+Administrativas+B%C3%A1sicas&topicGroup=Tema+5+%C2%B7+Material+de+oficina">
+      <span class="deck-icon" aria-hidden="true">📎</span>
+      <h3>Tema 5 · Material de oficina</h3>
+      <span class="deck-meta">1 baraja · 5 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=T%C3%A9cnicas+Administrativas+B%C3%A1sicas&topicGroup=Tema+6+%C2%B7+Operaciones+de+cobro+y+pago">
+      <span class="deck-icon" aria-hidden="true">💰</span>
+      <h3>Tema 6 · Operaciones de cobro y pago</h3>
+      <span class="deck-meta">2 barajas · 25 tarjetas</span>
+    </a>
+
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=T%C3%A9cnicas+Administrativas+B%C3%A1sicas&topicGroup=Tema+7+%C2%B7+B%C3%BAsqueda+de+empleo">
+      <span class="deck-icon" aria-hidden="true">🧭</span>
+      <h3>Tema 7 · Búsqueda de empleo</h3>
+      <span class="deck-meta">1 baraja · 6 tarjetas</span>
+    </a>
+
+    <!-- Las dos barajas sin topicGroup se ven como tarjetas sueltas
+         dentro de la asignatura; el enlace es a la página de la
+         asignatura sin topicGroup para que aparezcan bajo
+         "Otras secciones". -->
+    <a class="deck-card" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=T%C3%A9cnicas+Administrativas+B%C3%A1sicas">
+      <span class="deck-icon" aria-hidden="true">🗂️</span>
+      <h3>Departamento de compras · Recibos y justificantes</h3>
+      <span class="deck-meta">2 barajas sueltas · 34 tarjetas</span>
+    </a>
+
+  </div>
+
+  <!-- ================================================================
+       OTRAS ASIGNATURAS DE FP BÁSICA — visibles como "Próximamente"
+       El href apunta a la página de la asignatura (sin topicGroup)
+       para que cuando se abra, el manifest cargue sus barajas aunque
+       aún estén marcadas como "Próximamente" en la grid de la portada.
+       ================================================================ -->
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">Próximamente</h2>
+    <span class="section-heading-meta">1º de FP Básica Servicios Administrativos</span>
+  </div>
+  <div class="deck-grid" role="list">
+
+    <a class="deck-card deck-card--soon" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Ciencias+Aplicadas">
+      <span class="deck-icon" aria-hidden="true">🔬</span>
+      <h3>Ciencias Aplicadas</h3>
+      <span class="deck-meta">En desarrollo</span>
+    </a>
+
+    <a class="deck-card deck-card--soon" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Ciencias+Sociales">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Ciencias Sociales</h3>
+      <span class="deck-meta">En desarrollo</span>
+    </a>
+
+    <a class="deck-card deck-card--soon" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Lengua+Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">En desarrollo</span>
+    </a>
+
+    <a class="deck-card deck-card--soon" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Atenci%C3%B3n+al+Cliente">
+      <span class="deck-icon" aria-hidden="true">🤝</span>
+      <h3>Atención al Cliente</h3>
+      <span class="deck-meta">En desarrollo</span>
+    </a>
+
+    <a class="deck-card deck-card--soon" role="listitem"
+       href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Tratamiento+Inform%C3%A1tico+de+Datos">
+      <span class="deck-icon" aria-hidden="true">💻</span>
+      <h3>Tratamiento Informático de Datos</h3>
+      <span class="deck-meta">En desarrollo</span>
+    </a>
+
+  </div>
 </main>
 
 <footer class="app-footer">
   <div class="container">
     <p>
-      <a href="../config/" data-i18n="core.config">Configuración</a>
-      · <a href="../legal/" data-i18n="core.dataProtection">Protección de datos</a>
+      <a href="../config/">Configuración</a>
+      · <a href="../legal/">Protección de datos</a>
       · <a href="https://apptonomia.uk/dev/">Apptonomia /dev</a>
       · <a href="https://calculia.apptonomia.uk/dev/">Calculia /dev</a>
     </p>
@@ -86,15 +277,10 @@
 <script src="../assets/js/locale-picker-config.js?v=2ab" defer></script>
 <script src="../assets/js/utils.js"></script>
 <script src="../assets/js/i18n.js"></script>
-<script src="../assets/js/tts.js"></script>
 <script src="../assets/js/storage.js"></script>
-<script src="../assets/js/feedback.js?v=2"></script>
-<script src="../assets/js/deck-loader.js"></script>
 <script src="../strings.es.js"></script>
 <script src="../strings.en.js"></script>
-<script src="../app.js"></script>
 <script src="../assets/js/locale-picker.js?v=memofun-v4aaa" defer></script>
-<script src="../assets/js/sw-register.js" defer></script>
 
 </body>
 </html>
