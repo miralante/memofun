@@ -1,0 +1,55 @@
+{
+  "topic": "Construcción del itinerario personal",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Una pieza clave del itinerario es la <mark>formación</mark>: por ejemplo, <mark>FP Básica → Grado Medio → Grado Superior → Universidad</mark>. ¿Cómo se llama?",
+      "answer": "<mark>Formación académica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/fp-grados.jpg",
+        "title": "Centro de Formación Profesional Virgen de Cortes (calle Uruguay)",
+        "source": "https://commons.wikimedia.org/wiki/File:Centro_de_Formaci%C3%B3n_Profesional_Virgen_de_Cortes_en_calle_Uruguay_10.jpg",
+        "alt": "Fachada del Centro de Formación Profesional Virgen de Cortes",
+        "autor": "19Tarrestnom65",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Otra pieza del itinerario son las <mark>experiencias laborales</mark>: prácticas, trabajos temporales, voluntariado. ¿Cómo se llaman?",
+      "answer": "<mark>Experiencias laborales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/experiencia.jpg",
+        "title": "Programa de prácticas — distribución de certificados",
+        "source": "https://commons.wikimedia.org/wiki/File:Internship_Programme_01.jpg",
+        "alt": "Ceremonia de entrega de certificados de un programa de prácticas",
+        "autor": "Sridhar G",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Otra pieza es la <mark>formación complementaria</mark>: <mark>idiomas</mark>, informática, habilidades sociales, todo lo que sigues aprendiendo. ¿Cómo se llama?",
+      "answer": "<mark>Formación complementaria</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/formacion-continua.jpg",
+        "title": "Lenguas argentinas — Idioma abipón (Samuel Lafone Quevedo, 1896)",
+        "source": "https://commons.wikimedia.org/wiki/File:Lenguas_argentinas_-_Idioma_abip%C3%B3n_(1896).djvu",
+        "alt": "Portada de un libro del siglo XIX sobre aprendizaje de lenguas",
+        "autor": "Samuel Lafone Quevedo",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "El itinerario también admite <mark>cambios de rumbo</mark>: si algo no te gusta, puedes cambiar de camino. ¿Cómo se llaman?",
+      "answer": "<mark>Cambios de rumbo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/cambios.jpg",
+        "title": "Libro Blanco del Adyacentismo",
+        "source": "https://commons.wikimedia.org/wiki/File:LIBRO_BLANCO_del_Adyacentismo.djvu",
+        "alt": "Texto que expone la idea de cambiar de rumbo y tomar nuevas decisiones",
+        "autor": "Alguien que conoce el Amor",
+        "licencia": "CC BY 4.0"
+      }
+    }
+  ]
+}

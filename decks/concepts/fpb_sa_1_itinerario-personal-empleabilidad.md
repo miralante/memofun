@@ -5,7 +5,7 @@
 
 ## Alcance
 
-Esta asignatura cubre los **Temas 1-7** del temario oficial.
+Esta asignatura cubre los **Temas 1-8** del temario oficial.
 - Tema 1: `D:/img_memofun/ipp/tema1/`, 11 páginas → 4 barajas, 71 tarjetas
 - Tema 2: `D:/img_memofun/ipp/tema2/`, 12 páginas → 3 barajas, 40 tarjetas
 - Tema 3: `D:/img_memofun/ipp/tema3/`, 10 páginas → 4 barajas, 37 tarjetas
@@ -13,8 +13,7 @@ Esta asignatura cubre los **Temas 1-7** del temario oficial.
 - Tema 5: `D:/img_memofun/ipp/tema5/`, 10 páginas → 6 barajas, 36 tarjetas
 - Tema 6: `D:/img_memofun/ipp/tema6/`, 8 páginas → 4 barajas, 23 tarjetas
 - Tema 7: `D:/img_memofun/ipp/tema7/`, 9 páginas → 7 barajas, 34 tarjetas
-
-El tema 8 queda fuera hasta que se amplíe el alcance.
+- Tema 8: `D:/img_memofun/ipp/tema8/`, 7 páginas → 7 barajas, 28 tarjetas
 
 ### Cobertura del material fuente para Tema 1
 
@@ -208,6 +207,62 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
 - Vestir de forma adecuada: cuidado de imagen.
 - Preguntas comunes de entrevista: "¿Por qué quieres trabajar aquí?", "¿Cómo trabajas en equipo?".
 - Actitud positiva: hablar con claridad y respeto, mostrar interés.
+
+## Tema 8 — Toma de decisiones e itinerario personal
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones.json` (§1) — 1 tarjeta
+- `tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal.json` (§2) — 2 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/importancia-buenas-decisiones.json` (§3) — 4 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/etapas-toma-decisiones.json` (§4) — 7 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen.json` (§5) — 5 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario.json` (§6) — 4 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/tecnicas-mejores-decisiones.json` (§7) — 5 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema8/`
+(7 imágenes, organizadas como `pag73`–`pag79`).
+
+> **Nota:** El MD previo (`tema-08-…md`) lista la fuente como
+> `D:/img_memofun/ipp/tem8/` (typo sin la "a"), pero la carpeta real
+> del material fuente es `D:/img_memofun/ipp/tema8/`, y es la que
+> han usado las barajas.
+
+### Conceptos y dónde se han gastado ya
+
+#### §1 — solo en `que-es-tomar-decisiones.json`
+
+- Tomar decisiones: elegir entre varias opciones posibles; se aprende y mejora con la práctica.
+
+#### §2 — solo en `que-es-itinerario-personal.json`
+
+- Itinerario personal: camino académico y profesional de cada persona (decisiones + experiencias + metas + cambios).
+- Metas personales y profesionales: lo que cada persona quiere ir logrando con el tiempo.
+
+#### §3 — solo en `importancia-buenas-decisiones.json`
+
+- Bienestar personal, oportunidades de trabajo, desarrollo como persona, satisfacción con la vida: las cuatro consecuencias más importantes.
+
+#### §4 — solo en `etapas-toma-decisiones.json`
+
+- 7 etapas del proceso de toma de decisiones: identificar, autoconocimiento, buscar información, evaluar opciones, decidir, actuar, revisar y ajustar.
+- La 7ª etapa cierra el ciclo: una buena decisión se revisa y se ajusta.
+
+#### §5 — solo en `factores-que-influyen.json`
+
+- Intereses, habilidades, valores, familia y entorno, información: cinco factores clave que el temario oficial desarrolla (la 6ª, "emociones", queda como mención general sin baraja propia).
+
+#### §6 — solo en `construccion-itinerario.json`
+
+- Formación académica: la cadena FP Básica → Grado Medio → Grado Superior → Universidad.
+- Experiencias laborales: prácticas, trabajos temporales, voluntariado.
+- Formación complementaria: idiomas, informática, habilidades sociales.
+- Cambios de rumbo: si algo no te gusta, se puede cambiar.
+
+#### §7 — solo en `tecnicas-mejores-decisiones.json`
+
+- Visualizar el futuro, hablar con personas de confianza, lista de pros y contras, flexibilidad, pedir ayuda: cinco técnicas para tomar mejores decisiones.
+- Una técnica puede ser buena en una decisión y no en otra.
 
 ## Tema 6 — Itinerarios académicos y profesionales
 

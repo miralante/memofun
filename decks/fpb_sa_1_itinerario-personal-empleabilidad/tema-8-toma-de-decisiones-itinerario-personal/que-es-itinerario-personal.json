@@ -1,0 +1,31 @@
+{
+  "topic": "Qué es un itinerario personal",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Es el <mark>camino que cada persona sigue en su vida</mark>, especialmente en lo <mark>académico y profesional</mark>. Incluye las decisiones sobre tus estudios, las experiencias laborales, las metas personales y los cambios que haces en el camino. ¿Cómo se llama?",
+      "answer": "<mark>Itinerario personal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal/definicion.jpg",
+        "title": "Panoramas de la vida (Tom II) — Juana Manuela Gorriti",
+        "source": "https://commons.wikimedia.org/wiki/File:JM_Gorriti_Panoramas_de_la_vida_2.djvu",
+        "alt": "Portada de un libro del siglo XIX sobre recortes de la vida americana",
+        "autor": "Juana Manuela Gorriti",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Un buen itinerario incluye <mark>metas personales y profesionales</mark>: lo que cada persona quiere ir logrando con el tiempo. ¿Cómo se llaman esas metas?",
+      "answer": "<mark>Metas personales y profesionales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal/metas-personales.jpg",
+        "title": "Textos especializados (Universidad Nacional de La Plata)",
+        "source": "https://commons.wikimedia.org/wiki/File:Textos_especializados._Comprensi%C3%B3n_y_traducci%C3%B3n_por_profesionales_del_%C3%A1rea_cient%C3%ADfico-t%C3%A9cnica_y_por_traductores.djvu",
+        "alt": "Portada de una monografía académica sobre traducción especializada",
+        "autor": "Alicia Alliaud, Beatriz Cagnolati, Ana María Gentile, María Inés Urrutia",
+        "licencia": "CC BY-SA 2.5 ar"
+      }
+    }
+  ]
+}
