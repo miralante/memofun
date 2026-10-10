@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v99';
+var VERSION = 'memofun-v100';
 
 var FILES = [
   './',
@@ -84,7 +84,16 @@ var FILES = [
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_3.json',
   './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2.json',
   './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json',
-  './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2_3.json'
+  './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2_3.json',
+
+  /* Técnicas Administrativas — FPB SA 1 — reorganized into topic folders */
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/',
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/',
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/',
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/',
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/',
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/',
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-7-busqueda-empleo/'
 ];
 
 /* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form
