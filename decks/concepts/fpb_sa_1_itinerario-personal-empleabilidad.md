@@ -3,6 +3,33 @@
 > Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
 > No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
 
+## Alcance
+
+Esta asignatura cubre **solo el Tema 1** del temario oficial
+(`D:/img_memofun/ipp/tema1/`, 11 páginas). El usuario pidió rehacer
+"de momento" solo el tema 1; los temas 2 a 8 quedan fuera hasta que se
+amplíe el alcance.
+
+### Cobertura del material fuente para Tema 1
+
+El temario oficial enumera 8 subsecciones. El material capturado solo
+desarrolla las **tres primeras** (con subapartados 3.1, 3.2, 3.3). Las
+subsecciones 4 (Daños derivados), 5 (Cómo prevenir), 6 (Emergencia),
+7 (Derechos y deberes) y 8 (Gestión de la prevención) están listadas
+en el mapa conceptual de la página 6 pero **no se desarrollan** en
+las páginas siguientes. Por lo tanto las barajas solo cubren lo que
+está en la fuente.
+
+| Subsección oficial | Cubierta por la fuente | Baraja |
+|---|---|---|
+| 1. ¿Qué es la seguridad y salud? | ✅ (pag7) | `salud-y-riesgo-laboral.json` |
+| 2. El trabajo y la salud | ✅ (pag7) | `salud-y-riesgo-laboral.json` |
+| 3. Condiciones de trabajo (intro) | ✅ (pag7) | `salud-y-riesgo-laboral.json` |
+| 3.1 Condiciones de seguridad | ✅ (pag8) | `riesgos-condiciones-seguridad.json` |
+| 3.2 Condiciones medioambientales | ✅ (pag9-pag10) | `riesgos-ambientales.json` |
+| 3.3 Carga de trabajo (física y mental) | ✅ (pag11) | `carga-de-trabajo-y-ergonomia.json` |
+| 4-8 | ❌ no en la fuente | — |
+
 ## Tema 1 — Seguridad y salud en el trabajo
 
 Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
@@ -11,15 +38,13 @@ Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
 - `tema-1-seguridad-y-salud/riesgos-condiciones-seguridad.json` (§3.1) — 16 tarjetas
 - `tema-1-seguridad-y-salud/riesgos-ambientales.json` (§3.2) — 21 tarjetas
 - `tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json` (§3.3) — 16 tarjetas
-- `tema-1-seguridad-y-salud/prevencion-emergencia-y-derechos.json` (mapa conceptual) — 18 tarjetas
 
-Tema aprobado a partir de las fotos del módulo en `.dev/IPP/` (Tema 1 = "Seguridad y salud
-en el trabajo"; Tema 2 = "Técnicas de prevención y protección" y queda fuera de esta serie).
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema1/`
+(11 imágenes, organizadas como `pag5`–`pag13` y `ejercicios cuaderno 1/2`).
 
-Cobertura: las cuatro primeras barajas siguen las secciones numeradas (1, 2, 3, 3.1, 3.2,
-3.3). La quinta cubre las cuatro ramas del "Mapa conceptual" del propio Tema 1 que las
-anteriores no tocaban: qué hacer en caso de emergencia, primeros auxilios, gestión de la
-prevención y derechos y deberes. Con las cinco, las ocho ramas del mapa quedan cubiertas.
+Cobertura: las cuatro barajas siguen las secciones numeradas de la fuente
+(1, 2, 3, 3.1, 3.2, 3.3). Las secciones 4 a 8 del temario oficial quedan
+sin baraja hasta que se amplíe el material fuente.
 
 ### Conceptos y dónde se han gastado ya
 
@@ -77,15 +102,13 @@ prevención y derechos y deberes. Con las cinco, las ocho ramas del mapa quedan 
 Estas respuestas salen en más de una baraja a propósito: la repetición consolida, pero
 el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente distinto:
 
-- Ruido → 4 barajas: en `salud-y-riesgo-laboral` (ejemplo de trabajo), en
-  `riesgos-condiciones-seguridad` (la fuente del sonido), en `riesgos-ambientales` (forma de
-  energía) y en `carga-de-trabajo-y-ergonomia` (los cascos / tapones)
-- Postura al levantar → 3 barajas: en `salud-y-riesgo-laboral` (duele la espalda), en
-  `riesgos-condiciones-seguridad` (agacharse con las rodillas) y en
-  `carga-de-trabajo-y-ergonomia` (la regla: espalda recta, rodillas flexionadas)
-- Bienestar mental → 3 barajas: definición (`salud-y-riesgo-laboral`), la cabeza como lugar
-  en el que descansar (`riesgos-condiciones-seguridad`) y la pausa que la despeja
-  (`carga-de-trabajo-y-ergonomia`)
+- Ruido → 3 barajas: en `salud-y-riesgo-laboral` (ejemplo de trabajo), en
+  `riesgos-condiciones-seguridad` (la fuente del sonido) y en `riesgos-ambientales`
+  (forma de energía)
+- Postura al levantar → 2 barajas: en `salud-y-riesgo-laboral` (duele la espalda) y
+  en `riesgos-condiciones-seguridad` (agacharse con las rodillas)
+- Bienestar mental → 2 barajas: definición (`salud-y-riesgo-laboral`) y la cabeza como lugar
+  en el que descansar (`riesgos-condiciones-seguridad`)
 - Conocer los riesgos → 2 barajas: conclusión del bloque (`salud-y-riesgo-laboral`) y el cartel
   que avisa antes de empezar (`carga-de-trabajo-y-ergonomia`)
 - Prevención de riesgos laborales / Riesgo laboral / Condiciones de trabajo / Productos
@@ -96,43 +119,30 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
   como agentes (`riesgos-ambientales`) y como protección en el puesto
   (`carga-de-trabajo-y-ergonomia`)
 
-### Las ramas del mapa conceptual que solo cubre la quinta baraja
+### Lo que se eliminó
 
-Nociones nuevas, todas en `prevencion-emergencia-y-derechos.json`:
-
-- Qué hacer en caso de emergencia: Emergencia / Alarma / Plan de emergencia / Ruta de evacuación
-- Primeros auxilios: Primeros auxilios / No mover / Llamar al 112 / Botiquín
-  - El 112 es el único número concreto permitido en toda la serie.
-  - "No mover" y "Primeros auxilios" se enseñan como tarjeta propia, nunca como comparación,
-    porque una tarjeta de "¿en qué se diferencian?" solo se permite cuando cada una ya tiene
-    su propia tarjeta concreta.
-- Gestión de la prevención: Gestión de la prevención / Actividades preventivas /
-  Evaluación de riesgos / Investigar un accidente
-  - "Investigar un accidente" se explica sin buscar culpables: se busca la causa.
-- Derechos y deberes: Derechos del trabajador / Deberes del trabajador /
-  Delegado de prevención / Formación en prevención
-  - Derechos y deberes se Dane por separado (una tarjeta cada uno) antes de cualquier
-    comparación entre ambos.
+- ~~`tema-1-seguridad-y-salud/prevencion-emergencia-y-derechos.json`~~ — la quinta
+  baraja (mapa conceptual, 18 tarjetas) cubría las secciones 6-8 del temario oficial
+  (emergencia, primeros auxilios, derechos, gestión de la prevención) usando
+  contenido de los Temas 2 y 3 del módulo. No es fiel al material fuente del Tema 1,
+  así que se elimina.
+- ~~`tema-2-…` … `tema-8-…`~~ — los temas 2-8 quedan fuera del alcance actual. Sus
+  barajas existentes se han borrado; cuando se reactive el alcance se rehará desde
+  cero usando `D:/img_memofun/ipp/tema2`–`tem8/`.
 
 ### Notas para quien amplíe la serie
 
 - Los pictogramas no tienen fotos libres utilizables en Openverse: cada tarjeta usa un objeto
   real que transmite la misma idea (botella de gas, dinamita, bombonas de oxígeno, llama de
   vela, metal corroído, calavera...). Si se repite un pictograma, usar otro objeto, no la misma foto.
-- La quinta baraja se escribió desde conceptos generales de prevención, no desde texto del
-  módulo: el Tema 1 solo los nombra en su mapa conceptual y los desarrolla el Tema 2. Si
-  aparece el temario del Tema 2, es la fuente que debe mandar sobre estas tarjetas.
-- Tema 2 es "Técnicas de prevención y protección" y está en las mismas fotos del módulo
-  (a partir de `WhatsApp Image 2026-09-22 at 22.29.41.jpeg`). Las dos fotos de
-  `22.23.35` son de mate, no del módulo: no sirven como fuente del temario.
 - Openverse da 424 al pedir miniaturas de algunos ficheros de Wikimedia. El camino que sí
   funciona: `_c` (800px) en Flickr en vez del `_b`, y para Commons la API con **`pageids=`
   (no `curid=`)**: `commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800&pageids=<id>`.
-
-## Tema 7 — Búsqueda de empleo (cobertura扩充ida)
-
-- Carta de presentación (documento breve que acompaña al CV): fpb_sa_1_tecnicas-administrativas-basicas_13.json (sinopsis de película: breve, atractiva, convincente)
-- Estructura de la carta de presentación (puesto, fuente de información, interés en la empresa, cualidades): fpb_sa_1_tecnicas-administrativas-basicas_13.json (anuncio: qué se ofrece, por qué es buena opción, por qué tú)
-- Preparación antes de la entrevista (investigar empresa, ensayar respuestas, preparar preguntas, imagen): fpb_sa_1_tecnicas-administrativas-basicas_13.json (repasar el examen antes de entrar)
-- Qué valora el entrevistador (habilidades técnicas, trabajo en equipo, motivación, honestidad): fpb_sa_1_tecnicas-administrativas-basicas_13.json (examen práctico del carné: no solo teoría sino cómo conduces)
-- Errores en la entrevista (hablar rápido, no preguntar, criticar anteriores empleadores, mentir): fpb_sa_1_tecnicas-administrativas-basicas_13.json (novatadas en un trabajo nuevo)
+- Si se reactivan los temas 2-8, rehacer cada baraja desde su `tema<N>/` correspondiente
+  con `describe_images`. **No** reutilizar el contenido de las barajas eliminadas
+  (mezclaban temas).
+- **Tema 6** es el caso especial: el directorio `D:/img_memofun/ipp/tema6/` contiene
+  las **mismas imágenes** que `tema5/` (10/10 byte-identical). El temario oficial
+  describe Tema 6 como "Itinerarios académicos y profesionales" con 4 subsecciones, pero
+  el material capturado no cubre esas subsecciones. Hasta que se disponga de imágenes
+  propias para Tema 6, queda fuera de la baraja.
