@@ -5,12 +5,13 @@
 
 ## Alcance
 
-Esta asignatura cubre los **Temas 1, 2 y 3** del temario oficial.
+Esta asignatura cubre los **Temas 1, 2, 3 y 4** del temario oficial.
 - Tema 1: `D:/img_memofun/ipp/tema1/`, 11 páginas → 4 barajas, 71 tarjetas
 - Tema 2: `D:/img_memofun/ipp/tema2/`, 12 páginas → 3 barajas, 40 tarjetas
 - Tema 3: `D:/img_memofun/ipp/tema3/`, 10 páginas → 4 barajas, 37 tarjetas
+- Tema 4: `D:/img_memofun/ipp/tema4/`, 8 páginas → 4 barajas, 44 tarjetas
 
-Los temas 4 a 8 quedan fuera hasta que se amplíe el alcance.
+Los temas 5 a 8 quedan fuera hasta que se amplíe el alcance.
 
 ### Cobertura del material fuente para Tema 1
 
@@ -128,9 +129,60 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
   (emergencia, primeros auxilios, derechos, gestión de la prevención) usando
   contenido de los Temas 2 y 3 del módulo. No es fiel al material fuente del Tema 1,
   así que se elimina.
-- ~~`tema-4-…` … `tema-8-…`~~ — los temas 4-8 quedan fuera del alcance actual. Sus
+- ~~`tema-5-…` … `tema-8-…`~~ — los temas 5-8 quedan fuera del alcance actual. Sus
   barajas existentes se han borrado; cuando se reactive el alcance se rehará desde
-  cero usando `D:/img_memofun/ipp/tema4`–`tem8/`.
+  cero usando `D:/img_memofun/ipp/tema5`–`tem8/`.
+
+## Tema 4 — Autoconocimiento y habilidades personales
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-4-autoconocimiento-habilidades-personales/que-es-el-autoconocimiento.json` (§1) — 5 tarjetas
+- `tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi.json` (§2) — 16 tarjetas
+- `tema-4-autoconocimiento-habilidades-personales/habilidades-personales.json` (§3) — 10 tarjetas
+- `tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia.json` (§4) — 13 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema4/`
+(8 imágenes, organizadas como `pag37`–`pag44`).
+
+Cobertura: las cuatro barajas siguen las subsecciones del temario oficial
+(1, 2, 3, 4) sin solaparse. La primera cubre la definición de autoconocimiento;
+la segunda, las cosas que debo conocer de mí mismo; la tercera, los tipos de
+habilidades; la cuarta, el análisis DAFO y los consejos.
+
+### Conceptos y dónde se han gastado ya
+
+#### §1 — solo en `que-es-el-autoconocimiento.json`
+
+- Autoconocimiento: la capacidad de entender cómo eres tú mismo.
+- Reflexión: pensar en cómo te sientes y por qué.
+- Gustos y preferencias: lo que te gusta y lo que no.
+- Lo que se te da bien.
+- Áreas de mejora.
+
+#### §2 — solo en `que-debo-conocer-de-mi.json`
+
+- Cualidades personales: características positivas (responsable, puntual, amable).
+- 3 ejemplos de cualidades: responsabilidad, puntualidad, amabilidad.
+- Áreas de mejora: lo que puedes desarrollar.
+- 3 ejemplos de áreas: nervios, organización, concentración.
+- Intereses: lo que te motiva o divierte (naturaleza, informática).
+- Valores: principios que guían tu comportamiento.
+- 4 valores del módulo: respeto, honestidad, esfuerzo, solidaridad.
+
+#### §3 — solo en `habilidades-personales.json`
+
+- Habilidades personales: capacidades para desenvolverte.
+- Habilidades técnicas o duras: las que se aprenden (usar herramientas, cocinar, manejar ordenador, escribir).
+- Habilidades blandas o sociales: las de relación (escuchar, trabajo en equipo, resolver conflictos).
+
+#### §4 — solo en `analisis-personal-importancia.json`
+
+- Importancia del autoconocimiento: la base de todo.
+- 4 beneficios: elegir puesto, mejorar rendimiento, sentirse seguro, mejor comunicación.
+- Matriz DAFO: herramienta con 4 cuadrantes.
+- 4 elementos DAFO: Fortalezas, Oportunidades, Debilidades, Amenazas.
+- 4 consejos para mejorar: escucharte, pedir opinión, reflexionar, probar cosas nuevas.
 
 ## Tema 3 — Técnicas básicas de primeros auxilios
 

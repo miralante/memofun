@@ -3582,5 +3582,49 @@
     "amount": 9,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json",
     "icon": "🚑"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t4-autoconocimiento",
+    "topic": "Qué es el autoconocimiento",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-es-el-autoconocimiento.json",
+    "icon": "🔍"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t4-conocer-de-mi",
+    "topic": "Qué cosas debo conocer sobre mí",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "amount": 16,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi.json",
+    "icon": "🔍"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t4-habilidades",
+    "topic": "Habilidades personales",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "amount": 10,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/habilidades-personales.json",
+    "icon": "🔍"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t4-analisis",
+    "topic": "Análisis personal: ¿por qué es importante conocerse?",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "amount": 13,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia.json",
+    "icon": "🔍"
   }
 ]

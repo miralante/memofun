@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v103';
+var VERSION = 'memofun-v104';
 
 var FILES = [
   './',
@@ -61,7 +61,7 @@ var FILES = [
   './site/strings.en.js',
 
   /* IPP course — FPB Servicios Administrativos 1º.
-     Alcance: Temas 1, 2 y 3 del temario oficial. Los temas 4-8 y la 5ª
+     Alcance: Temas 1, 2, 3 y 4 del temario oficial. Los temas 5-8 y la 5ª
      baraja de Tema 1 (mapa conceptual que mezclaba contenido de los
      temas 2 y 3) se eliminaron por no ser fieles al material fuente. */
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json',
@@ -75,6 +75,10 @@ var FILES = [
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/que-hacer-en-emergencias.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-es-el-autoconocimiento.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/habilidades-personales.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_3.json',
