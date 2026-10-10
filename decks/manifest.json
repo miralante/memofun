@@ -1179,7 +1179,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 17,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 1 · La empresa"
   },
   {
     "id": "fpb-sa-1-ta-t2-recibos",
@@ -1189,7 +1190,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 17,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/recibos-justificantes-pago.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 2 · Áreas funcionales"
   },
   {
     "id": "fpb-sa-1-tratamiento-informatico-datos",
@@ -3079,7 +3081,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 17,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 3 · Comunicación"
   },
   {
     "id": "fpb-sa-1-ta-t1-estructura",
@@ -3089,7 +3092,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 12,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 1 · La empresa"
   },
   {
     "id": "fpb-sa-1-ta-t3-comunicacion",
@@ -3099,7 +3103,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 15,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 3 · Comunicación"
   },
   {
     "id": "fpb-sa-1-ta-t6-medios-pago",
@@ -3109,7 +3114,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 16,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
   },
   {
     "id": "fpb-sa-1-ta-t1-tipos",
@@ -3119,7 +3125,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 8,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 1 · La empresa"
   },
   {
     "id": "fpb-sa-1-ta-t1-funciones",
@@ -3129,7 +3136,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 1 · La empresa"
   },
   {
     "id": "fpb-sa-1-ta-t1-com-ext",
@@ -3139,7 +3147,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 1 · La empresa"
   },
   {
     "id": "fpb-sa-1-ta-t4-correos",
@@ -3149,7 +3158,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 10,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 4 · Correos y mensajería"
   },
   {
     "id": "fpb-sa-1-ta-t5-inventario",
@@ -3159,7 +3169,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 5,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/inventario-control-existencias.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 5 · Material de oficina"
   },
   {
     "id": "fpb-sa-1-ta-t6-excel",
@@ -3169,7 +3180,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 9,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
   },
   {
     "id": "fpb-sa-1-ta-t7-entrevista",
@@ -3179,7 +3191,8 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-7-busqueda-empleo/carta-presentacion-entrevista.json",
-    "icon": "📋"
+    "icon": "📋",
+    "topicGroup": "Tema 7 · Búsqueda de empleo"
   },
   {
     "id": "fpb-sa-1-tratamiento-informatico-datos-3",
