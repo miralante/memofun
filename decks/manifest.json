@@ -3538,5 +3538,49 @@
     "amount": 15,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-de-proteccion.json",
     "icon": "🦺"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t3-concepto",
+    "topic": "Concepto de primeros auxilios",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "amount": 8,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json",
+    "icon": "🚑"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t3-pas",
+    "topic": "Lo más importante: PAS",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "amount": 8,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas.json",
+    "icon": "🚑"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t3-emergencias",
+    "topic": "Qué hacer en diferentes emergencias",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "amount": 12,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/que-hacer-en-emergencias.json",
+    "icon": "🚑"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t3-botiquin",
+    "topic": "El botiquín básico",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "amount": 9,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json",
+    "icon": "🚑"
   }
 ]

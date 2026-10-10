@@ -1,0 +1,115 @@
+{
+  "topic": "El botiquín básico",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Es el <mark>armario o maletín</mark> que debe haber en todo lugar de trabajo con material para curar pequeñas heridas. ¿Cómo se llama?",
+      "answer": "<mark>Botiquín</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/botiquin.jpg",
+        "title": "First Aid Kit",
+        "source": "https://commons.wikimedia.org/wiki/File:First_Aid_Kit.png",
+        "alt": "Botiquín de primeros auxilios con la cruz blanca y material médico",
+        "autor": "graphicrecording.cool · Wikimedia Deutschland",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Son <mark>telas limpias y estériles</mark> que se ponen sobre una herida para taparla y limpiarla. ¿Cómo se llaman?",
+      "answer": "<mark>Gasas estériles</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/gasas.jpg",
+        "title": "Compresas",
+        "source": "https://commons.wikimedia.org/wiki/File:Compresas_para_fijar_apositos_(IA_compresasp0000unse).pdf",
+        "alt": "Paquete de compresas para apósitos, similar a gasas estériles",
+        "autor": "Wellcome Collection",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Es una <mark>tira de tela</mark> que se enrolla alrededor de una gasa para sujetarla firme. ¿Cómo se llama?",
+      "answer": "<mark>Venda</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/vendas.jpg",
+        "title": "Vendas de cuerpo",
+        "source": "https://commons.wikimedia.org/wiki/File:Vendas_de_cuerpo_blanco_sin_pretina_y_de_lista_dorada_a_lados_(IA_vendasdecuerpo00unse).pdf",
+        "alt": "Catálogo histórico de vendas de cuerpo",
+        "autor": "Wellcome Collection",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Es el instrumento con el que se <mark>corta la gasa o la venda</mark> a la medida que se necesita. ¿Cómo se llama?",
+      "answer": "<mark>Tijeras</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/tijeras.jpg",
+        "title": "Tijeras, un instrumento cortante",
+        "source": "https://commons.wikimedia.org/wiki/File:Tijeras,_un_instrumento_cortante_(IA_tijerasuninstrum00unse).pdf",
+        "alt": "Tijeras históricas de instrumental médico",
+        "autor": "Wellcome Collection",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Sirven para <mark>protegerte las manos</mark> cuando curas una herida o tocas sangre. ¿Cómo se llaman?",
+      "answer": "<mark>Guantes desechables</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/guantes.jpg",
+        "title": "Disposable Nitrile Gloves",
+        "source": "https://commons.wikimedia.org/wiki/File:Disposable_Nitrile_Gloves.jpg",
+        "alt": "Guantes desechables de nitrilo azules",
+        "autor": "BlogB",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Es <mark>agua con sal</mark> que se usa para limpiar heridas o los ojos si les entra algo. ¿Cómo se llama?",
+      "answer": "<mark>Suero fisiológico</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/suero.jpg",
+        "title": "Suero fisiológico",
+        "source": "https://commons.wikimedia.org/wiki/File:Suero_Fisiol%C3%B3gico_Al_3.svg",
+        "alt": "Etiqueta de frasco de suero fisiológico",
+        "autor": "Imoarvatares",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Sirve para <mark>medir la temperatura</mark> de la persona y saber si tiene fiebre. ¿Cómo se llama?",
+      "answer": "<mark>Termómetro</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/termometro.jpg",
+        "title": "Clinical thermometer",
+        "source": "https://commons.wikimedia.org/wiki/File:Clinical_thermometer.jpg",
+        "alt": "Termómetro clínico digital",
+        "autor": "Olek Remesz",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Son <mark>tiras adhesivas pequeñas</mark> que se pegan sobre cortecitos o rozaduras para taparlos. ¿Cómo se llaman?",
+      "answer": "<mark>Tiritas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/tiritas.jpg",
+        "title": "Sparadrap 4",
+        "source": "https://commons.wikimedia.org/wiki/File:Sparadrap_4.jpg",
+        "alt": "Caja de tiritas con apósitos adhesivos",
+        "autor": "Photograph by Rama",
+        "licencia": "CeCILL"
+      }
+    },
+    {
+      "question": "Es un <mark>líquido que se echa sobre la herida</mark> para que no se infecte. ¿Cómo se llama?",
+      "answer": "<mark>Antiséptico</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/antiseptico.jpg",
+        "title": "Manual de medios de contraste",
+        "source": "https://commons.wikimedia.org/wiki/File:Manual_de_medios_de_contraste.pdf",
+        "alt": "Documento histórico de antisépticos y medios de contraste médicos",
+        "autor": "Edisambul",
+        "licencia": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}

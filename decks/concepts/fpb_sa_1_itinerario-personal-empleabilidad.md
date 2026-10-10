@@ -5,11 +5,12 @@
 
 ## Alcance
 
-Esta asignatura cubre los **Temas 1 y 2** del temario oficial.
+Esta asignatura cubre los **Temas 1, 2 y 3** del temario oficial.
 - Tema 1: `D:/img_memofun/ipp/tema1/`, 11 páginas → 4 barajas, 71 tarjetas
 - Tema 2: `D:/img_memofun/ipp/tema2/`, 12 páginas → 3 barajas, 40 tarjetas
+- Tema 3: `D:/img_memofun/ipp/tema3/`, 10 páginas → 4 barajas, 37 tarjetas
 
-Los temas 3 a 8 quedan fuera hasta que se amplíe el alcance.
+Los temas 4 a 8 quedan fuera hasta que se amplíe el alcance.
 
 ### Cobertura del material fuente para Tema 1
 
@@ -127,9 +128,76 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
   (emergencia, primeros auxilios, derechos, gestión de la prevención) usando
   contenido de los Temas 2 y 3 del módulo. No es fiel al material fuente del Tema 1,
   así que se elimina.
-- ~~`tema-3-…` … `tema-8-…`~~ — los temas 3-8 quedan fuera del alcance actual. Sus
+- ~~`tema-4-…` … `tema-8-…`~~ — los temas 4-8 quedan fuera del alcance actual. Sus
   barajas existentes se han borrado; cuando se reactive el alcance se rehará desde
-  cero usando `D:/img_memofun/ipp/tema3`–`tem8/`.
+  cero usando `D:/img_memofun/ipp/tema4`–`tem8/`.
+
+## Tema 3 — Técnicas básicas de primeros auxilios
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json` (§1) — 8 tarjetas
+- `tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas.json` (§2) — 8 tarjetas
+- `tema-3-tecnicas-basicas-primeros-auxilios/que-hacer-en-emergencias.json` (§3) — 12 tarjetas
+- `tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json` (§4) — 9 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema3/`
+(10 imágenes, organizadas como `pag27`–`pag36`).
+
+Cobertura: las cuatro barajas siguen las subsecciones del temario oficial
+(1, 2, 3, 4) sin solaparse. La primera cubre el concepto general; la
+segunda, la regla PAS; la tercera, los protocolos por tipo de
+emergencia; la cuarta, el contenido del botiquín.
+
+### Conceptos y dónde se han gastado ya
+
+#### §1 — solo en `concepto-de-primeros-auxilios.json`
+
+- Primeros auxilios: definición, los cuidados antes de la ayuda médica.
+- Ambulancia: el vehículo que lleva al herido al hospital.
+- Valoración primaria: comprobar conciencia, respiración y pulso.
+- Posición lateral de seguridad: postura para quien está inconsciente pero respira.
+- 112: número único y gratuito de emergencias en España.
+- Maniobra de Heimlich: para desobstruir la vía aérea por atragantamiento.
+- Mantener la calma: actitud imprescindible.
+- Herida: rotura de la piel que se debe limpiar y tapar.
+
+#### §2 — solo en `lo-mas-importante-pas.json`
+
+- P — Proteger: que tú y el accidentado estéis fuera de peligro.
+- A — Avisar: llamar a los servicios sanitarios.
+- S — Socorrer: actuar reconociendo primero los signos vitales.
+- Signos vitales: conciencia, respiración y pulso, en ese orden.
+- Masaje cardíaco (RCP): compresiones si no respira.
+- Orden PAS: Proteger → Avisar → Socorrer.
+- Servicios sanitarios: médicos, enfermeros, ambulancias.
+
+#### §3 — solo en `que-hacer-en-emergencias.json`
+
+- Desmayo: pérdida temporal de conciencia.
+- Posición lateral de seguridad (PLS): postura de costado para quien no responde pero respira.
+- Hemorragia: salida de sangre, se presiona con tela limpia.
+- Gasa: tela limpia para tapar heridas.
+- Atragantamiento: cuerpo extraño en la vía aérea.
+- Heimlich: abrazo por detrás con puño sobre el ombligo, hacia dentro y arriba.
+- Quemadura: lesión por calor, se enfría con agua fría 10 min.
+- Fractura: hueso roto, no se mueve, se inmoviliza.
+- Inmovilización: tabla o cartón junto al hueso.
+- Convulsión: sacudidas del cuerpo, no sujetar.
+- Quitar objetos peligrosos: apartar lo que pueda golpear a quien convulsiona.
+- No sujetar: lo que NO se hace en una convulsión.
+
+#### §4 — solo en `el-botiquin-basico.json`
+
+- Botiquín: el armario o maletín con material médico.
+- Gasas estériles: telas limpias para tapar heridas.
+- Venda: tira para sujetar la gasa.
+- Tijeras: para cortar gasa o venda a medida.
+- Guantes desechables: para protegerte las manos.
+- Suero fisiológico: agua con sal para limpiar heridas.
+- Termómetro: para medir la temperatura.
+- Tiritas: apósitos adhesivos pequeños.
+- Antiséptico: líquido para evitar infecciones.
 
 ## Tema 2 — Técnicas de prevención y protección
 
