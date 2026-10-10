@@ -1,0 +1,55 @@
+{
+  "topic": "Escucha activa",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Es una habilidad social por la que la persona que escucha <mark>presta atención a todos los detalles</mark> y hace el esfuerzo de entender el mensaje. ¿Cómo se llama?",
+      "answer": "<mark>Escucha activa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/escucha-activa/definicion.jpg",
+        "title": "Active listening",
+        "source": "https://commons.wikimedia.org/wiki/File:Active_listening.png",
+        "alt": "Diagrama de escucha activa con los pasos para escuchar bien",
+        "autor": "U3213549",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Una recomendación para practicar la escucha activa: <mark>no realices otra actividad</mark> mientras te están hablando. ¿Cómo se llama?",
+      "answer": "<mark>Prestar atención</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/escucha-activa/atencion.jpg",
+        "title": "The Man Without a Gun - painting by Lawrence Beall Smith",
+        "source": "https://commons.wikimedia.org/wiki/File:%22The_Man_Without_a_Gun%22_-_painting_by_Lawrence_Beall_Smith.jpg",
+        "alt": "Pintura histórica de un hombre atento, analogía con prestar atención",
+        "autor": "Lawrence Beall Smith",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Otra recomendación: <mark>espera a que la otra persona acabe de hablar</mark>, evita adelantarte y adivinar lo que te quiere decir. ¿Cómo se llama?",
+      "answer": "<mark>Esperar turno</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/escucha-activa/esperar.jpg",
+        "title": "El turno de los partidos - juguete cómico-lírico en un acto y en prosa",
+        "source": "https://commons.wikimedia.org/wiki/File:El_turno_de_los_partidos_-_juguete_c%C3%B3mico-l%C3%ADrico_en_un_acto_y_en_prosa_(IA_elturnodelospart28520rubi).pdf",
+        "alt": "Portada de un juguete cómico-lírico sobre el turno, analogía con esperar turno",
+        "autor": "Rubio, Ángel",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "La tercera recomendación: <mark>concéntrate en lo que te están diciendo</mark>, no pienses en lo que vas a hablar tú después. ¿Cómo se llama?",
+      "answer": "<mark>Concentrarse en el mensaje</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/escucha-activa/concentrarse.jpg",
+        "title": "Julio Verne - Miguel Strogoff",
+        "source": "https://commons.wikimedia.org/wiki/File:(JV)_Julio_Verne_(1875)_Miguel_Strogoff_(IA_Julio_Verne_-_Miguel_Strogoff).pdf",
+        "alt": "Portada de una novela de Julio Verne, analogía con concentrarse en el mensaje",
+        "autor": "Julio Verne",
+        "licencia": "Public domain"
+      }
+    }
+  ]
+}

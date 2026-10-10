@@ -3626,5 +3626,71 @@
     "amount": 13,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia.json",
     "icon": "🔍"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t5-importancia",
+    "topic": "Importancia de las competencias personales y sociales en la empleabilidad",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 5 · Habilidades personales",
+    "amount": 3,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/importancia-competencias-personales.json",
+    "icon": "🤝"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t5-mejorar",
+    "topic": "Cómo mejorar mis habilidades personales",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 5 · Habilidades personales",
+    "amount": 4,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/como-mejorar-habilidades.json",
+    "icon": "🤝"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t5-gestion",
+    "topic": "Gestión emocional y asertividad",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 5 · Habilidades personales",
+    "amount": 13,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/gestion-emocional-y-asertividad.json",
+    "icon": "🤝"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t5-comunicacion",
+    "topic": "Comunicación",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 5 · Habilidades personales",
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/comunicacion.json",
+    "icon": "🤝"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t5-escucha",
+    "topic": "Escucha activa",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 5 · Habilidades personales",
+    "amount": 4,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/escucha-activa.json",
+    "icon": "🤝"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t5-entrevista",
+    "topic": "Cómo hablar de tus habilidades en una entrevista",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 5 · Habilidades personales",
+    "amount": 7,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/habilidades-en-entrevista.json",
+    "icon": "🤝"
   }
 ]

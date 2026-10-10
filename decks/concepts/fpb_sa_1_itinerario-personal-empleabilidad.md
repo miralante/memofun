@@ -5,13 +5,14 @@
 
 ## Alcance
 
-Esta asignatura cubre los **Temas 1, 2, 3 y 4** del temario oficial.
+Esta asignatura cubre los **Temas 1, 2, 3, 4 y 5** del temario oficial.
 - Tema 1: `D:/img_memofun/ipp/tema1/`, 11 páginas → 4 barajas, 71 tarjetas
 - Tema 2: `D:/img_memofun/ipp/tema2/`, 12 páginas → 3 barajas, 40 tarjetas
 - Tema 3: `D:/img_memofun/ipp/tema3/`, 10 páginas → 4 barajas, 37 tarjetas
 - Tema 4: `D:/img_memofun/ipp/tema4/`, 8 páginas → 4 barajas, 44 tarjetas
+- Tema 5: `D:/img_memofun/ipp/tema5/`, 10 páginas → 6 barajas, 36 tarjetas
 
-Los temas 5 a 8 quedan fuera hasta que se amplíe el alcance.
+Los temas 6 a 8 quedan fuera hasta que se amplíe el alcance.
 
 ### Cobertura del material fuente para Tema 1
 
@@ -129,9 +130,69 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
   (emergencia, primeros auxilios, derechos, gestión de la prevención) usando
   contenido de los Temas 2 y 3 del módulo. No es fiel al material fuente del Tema 1,
   así que se elimina.
-- ~~`tema-5-…` … `tema-8-…`~~ — los temas 5-8 quedan fuera del alcance actual. Sus
+- ~~`tema-6-…` … `tema-8-…`~~ — los temas 6-8 quedan fuera del alcance actual. Sus
   barajas existentes se han borrado; cuando se reactive el alcance se rehará desde
-  cero usando `D:/img_memofun/ipp/tema5`–`tem8/`.
+  cero usando `D:/img_memofun/ipp/tema6`–`tem8/`.
+
+## Tema 5 — Habilidades personales
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-5-habilidades-personales/importancia-competencias-personales.json` (§1) — 3 tarjetas
+- `tema-5-habilidades-personales/como-mejorar-habilidades.json` (§2) — 4 tarjetas
+- `tema-5-habilidades-personales/gestion-emocional-y-asertividad.json` (§3) — 13 tarjetas
+- `tema-5-habilidades-personales/comunicacion.json` (§4) — 5 tarjetas
+- `tema-5-habilidades-personales/escucha-activa.json` (§5) — 4 tarjetas
+- `tema-5-habilidades-personales/habilidades-en-entrevista.json` (§6) — 7 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema5/`
+(10 imágenes, organizadas como `pag45`–`pag54`).
+
+> **Nota de numeración:** el módulo del colegio areteia numeró internamente las
+> subsecciones de forma irregular (1, 2, 4, 5, 6, 7) en lugar del 1, 2, 3, 4, 5, 6
+> del índice oficial. Las barajas siguen la numeración canónica del índice.
+
+### Conceptos y dónde se han gastado ya
+
+#### §1 — solo en `importancia-competencias-personales.json`
+
+- Competencias personales y sociales: las habilidades blandas que permiten trabajo en equipo, comunicación y convivencia.
+- Habilidades blandas: conocimientos no técnicos que las empresas valoran.
+
+#### §2 — solo en `como-mejorar-habilidades.json`
+
+- Mejora de habilidades: práctica, esfuerzo, formación continua.
+- 3 claves: práctica diaria, esfuerzo y constancia, formación continua.
+
+#### §3 — solo en `gestion-emocional-y-asertividad.json`
+
+- Gestión emocional: reconocer, entender y regular emociones.
+- Inteligencia emocional: sinónimo del anterior.
+- 3 pasos de la gestión emocional: reconocer, regular, expresar.
+- 5 componentes de la inteligencia emocional: motivación, habilidades sociales, autoconciencia, autorregulación, empatía.
+- Asertividad: habilidad para expresar lo que piensas, sientes o necesitas.
+- 3 estilos de conducta: pasiva (Ratón), agresiva (León), asertiva (Persona).
+- Decir no respetuosamente: la esencia de la asertividad.
+
+#### §4 — solo en `comunicacion.json`
+
+- Comunicación: transmisión e intercambio de mensajes entre emisor y receptor.
+- Emisor y receptor: los dos extremos del proceso.
+- Mensaje: lo que envía el emisor.
+- Convivencia: vivir juntos gracias a la comunicación.
+- Comunicación eficaz: lo importante es lo que finalmente entiende el receptor.
+
+#### §5 — solo en `escucha-activa.json`
+
+- Escucha activa: prestar atención a todos los detalles.
+- 3 consejos: no hacer otra cosa, esperar turno, concentrarse en el mensaje.
+
+#### §6 — solo en `habilidades-en-entrevista.json`
+
+- Entrevista de trabajo: proceso necesario para acceder a un puesto.
+- 3 habilidades: piensa en 3 que te representen.
+- Técnica STAR: Situación, Tarea, Acción, Resultado.
+- 3 frases tipo: organizada, adaptarse a cambios, trabajo en equipo.
 
 ## Tema 4 — Autoconocimiento y habilidades personales
 
