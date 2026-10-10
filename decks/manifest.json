@@ -3692,5 +3692,49 @@
     "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/habilidades-en-entrevista.json",
     "icon": "🤝"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t6-itinerario",
+    "topic": "Qué es un itinerario académico y profesional",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "amount": 4,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/que-es-itinerario-academico.json",
+    "icon": "🎓"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t6-opciones",
+    "topic": "Opciones académicas tras finalizar un grado básico",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "amount": 6,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas.json",
+    "icon": "🎓"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t6-entorno",
+    "topic": "Qué es el entorno sociolaboral",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "amount": 7,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/entorno-sociolaboral.json",
+    "icon": "🎓"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t6-herramientas",
+    "topic": "Herramientas para decidir un itinerario",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "amount": 6,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision.json",
+    "icon": "🎓"
   }
 ]

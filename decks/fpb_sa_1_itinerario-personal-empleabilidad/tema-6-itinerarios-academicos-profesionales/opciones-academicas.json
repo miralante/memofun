@@ -1,0 +1,79 @@
+{
+  "topic": "Opciones académicas tras finalizar un grado básico",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Son todas las <mark>alternativas</mark> que tienes para seguir formándote o incorporarte al mundo laboral tras un grado básico. ¿Cómo se llaman?",
+      "answer": "<mark>Opciones académicas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/opciones.jpg",
+        "title": "Opciones académicas",
+        "source": "https://commons.wikimedia.org/wiki/File:Opciones_acad%C3%A9micas.pdf",
+        "alt": "Documento sobre opciones académicas tras la ESO",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Es una opción tras el grado básico: continuar con un <mark>ciclo formativo de grado medio</mark> para obtener una titulación profesional. ¿Cómo se llama?",
+      "answer": "<mark>Ciclo formativo de grado medio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/grado-medio.jpg",
+        "title": "Grado medio",
+        "source": "https://commons.wikimedia.org/wiki/File:Grado_medio.pdf",
+        "alt": "Documento sobre la formación de grado medio",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Otra opción: continuar con un <mark>ciclo formativo de grado superior</mark> tras el grado medio. ¿Cómo se llama?",
+      "answer": "<mark>Ciclo formativo de grado superior</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/grado-superior.jpg",
+        "title": "Grado superior",
+        "source": "https://commons.wikimedia.org/wiki/File:Grado_superior.pdf",
+        "alt": "Documento sobre la formación de grado superior",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Otra opción: cursar el <mark>Bachillerato</mark> para luego acceder a la universidad. ¿Cómo se llama?",
+      "answer": "<mark>Bachillerato</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/bachillerato.jpg",
+        "title": "Bachillerato",
+        "source": "https://commons.wikimedia.org/wiki/File:Bachillerato.pdf",
+        "alt": "Documento sobre los estudios de Bachillerato",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Otra opción: entrar en la <mark>universidad</mark> para cursar un grado universitario. ¿Cómo se llama?",
+      "answer": "<mark>Universidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/universidad.jpg",
+        "title": "Universidad",
+        "source": "https://commons.wikimedia.org/wiki/File:Universidad.pdf",
+        "alt": "Documento sobre los estudios universitarios",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Otra opción: obtener un <mark>certificado de profesionalidad</mark>, formación más corta y específica que acredita una cualificación. ¿Cómo se llama?",
+      "answer": "<mark>Certificado de profesionalidad</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/fp.jpg",
+        "title": "Formación profesional",
+        "source": "https://commons.wikimedia.org/wiki/File:Formaci%C3%B3n_profesional.pdf",
+        "alt": "Documento sobre la formación profesional y certificados de profesionalidad",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    }
+  ]
+}

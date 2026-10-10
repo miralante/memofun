@@ -5,14 +5,15 @@
 
 ## Alcance
 
-Esta asignatura cubre los **Temas 1, 2, 3, 4 y 5** del temario oficial.
+Esta asignatura cubre los **Temas 1, 2, 3, 4, 5 y 6** del temario oficial.
 - Tema 1: `D:/img_memofun/ipp/tema1/`, 11 páginas → 4 barajas, 71 tarjetas
 - Tema 2: `D:/img_memofun/ipp/tema2/`, 12 páginas → 3 barajas, 40 tarjetas
 - Tema 3: `D:/img_memofun/ipp/tema3/`, 10 páginas → 4 barajas, 37 tarjetas
 - Tema 4: `D:/img_memofun/ipp/tema4/`, 8 páginas → 4 barajas, 44 tarjetas
 - Tema 5: `D:/img_memofun/ipp/tema5/`, 10 páginas → 6 barajas, 36 tarjetas
+- Tema 6: `D:/img_memofun/ipp/tema6/`, 8 páginas → 4 barajas, 23 tarjetas
 
-Los temas 6 a 8 quedan fuera hasta que se amplíe el alcance.
+Los temas 7 y 8 quedan fuera hasta que se amplíe el alcance.
 
 ### Cobertura del material fuente para Tema 1
 
@@ -130,9 +131,59 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
   (emergencia, primeros auxilios, derechos, gestión de la prevención) usando
   contenido de los Temas 2 y 3 del módulo. No es fiel al material fuente del Tema 1,
   así que se elimina.
-- ~~`tema-6-…` … `tema-8-…`~~ — los temas 6-8 quedan fuera del alcance actual. Sus
+- ~~`tema-7-…` … `tema-8-…`~~ — los temas 7-8 quedan fuera del alcance actual. Sus
   barajas existentes se han borrado; cuando se reactive el alcance se rehará desde
-  cero usando `D:/img_memofun/ipp/tema6`–`tem8/`.
+  cero usando `D:/img_memofun/ipp/tema7`–`tem8/`.
+
+## Tema 6 — Itinerarios académicos y profesionales
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-6-itinerarios-academicos-profesionales/que-es-itinerario-academico.json` (§1) — 4 tarjetas
+- `tema-6-itinerarios-academicos-profesionales/opciones-academicas.json` (§2) — 6 tarjetas
+- `tema-6-itinerarios-academicos-profesionales/entorno-sociolaboral.json` (§3) — 7 tarjetas
+- `tema-6-itinerarios-academicos-profesionales/herramientas-decision.json` (§4) — 6 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema6/`
+(8 imágenes, organizadas como `pag55`–`pag62`).
+
+> **Nota:** El directorio `tema6/` se creía antes que contenía imágenes
+> duplicadas de `tema5/`, pero en realidad tiene 8 imágenes únicas
+> (`pag55`–`pag62`) que cubren las 4 subsecciones del temario oficial.
+
+### Conceptos y dónde se han gastado ya
+
+#### §1 — solo en `que-es-itinerario-academico.json`
+
+- Itinerario académico y profesional: la ruta que cada persona elige para su formación y su vida laboral.
+- Itinerario de vida: la ruta personal de formación y trabajo que se va recorriendo con el tiempo.
+- Proyecto de futuro: se construye poco a poco con decisiones y esfuerzo.
+- Decisión propia: base de un buen itinerario.
+
+#### §2 — solo en `opciones-academicas.json`
+
+- Opciones académicas: alternativas para seguir formándote o trabajar.
+- 5 opciones tras grado básico: grado medio, grado superior, Bachillerato, Universidad, certificado de profesionalidad.
+- Certificado de profesionalidad: formación más corta y específica que acredita una cualificación.
+
+#### §3 — solo en `entorno-sociolaboral.json`
+
+- Entorno sociolaboral: condiciones del mercado, empresas, sectores y puestos.
+- Empresas del sector: negocios y organizaciones de un sector económico.
+- Oferta de empleo: puestos de trabajo disponibles en un momento.
+- Demanda profesional: profesiones con más salidas.
+- Sectores emergentes: áreas económicas con más oportunidades.
+- Cualificaciones profesionales: capacidades profesionales reconocidas oficialmente.
+- Competencias clave: habilidades transversales pedidas en cualquier puesto.
+
+#### §4 — solo en `herramientas-decision.json`
+
+- Herramientas para decidir el itinerario: recursos del sistema educativo.
+- Orientación académica y profesional: servicio público gratuito.
+- Pruebas de acceso: exámenes oficiales para ciclos formativos, Bachillerato o Universidad.
+- Itinerario personalizado: hecho a medida, no copiado.
+- Información académica: la que ofrecen los centros y los portales oficiales.
+- Decisión informada: pensar bien las cosas antes de elegir.
 
 ## Tema 5 — Habilidades personales
 

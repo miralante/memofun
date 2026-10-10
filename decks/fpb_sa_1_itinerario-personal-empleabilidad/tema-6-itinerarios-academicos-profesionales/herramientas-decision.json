@@ -1,0 +1,79 @@
+{
+  "topic": "Herramientas para decidir un itinerario",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Para ayudarnos a tomar una buena decisión existen <mark>varias herramientas y recursos</mark> que el propio sistema educativo pone a nuestra disposición. ¿Cómo se llaman?",
+      "answer": "<mark>Herramientas para decidir el itinerario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/orientacion.jpg",
+        "title": "Orientación vocacional",
+        "source": "https://commons.wikimedia.org/wiki/File:Orientaci%C3%B3n_vocacional.pdf",
+        "alt": "Documento institucional sobre orientación vocacional",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Es un <mark>servicio público gratuito</mark> que ayuda a los estudiantes a conocer sus opciones, intereses y capacidades. ¿Cómo se llama?",
+      "answer": "<mark>Orientación académica y profesional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/asesoramiento.jpg",
+        "title": "Asesoramiento académico",
+        "source": "https://commons.wikimedia.org/wiki/File:Asesoramiento_acad%C3%A9mico.pdf",
+        "alt": "Documento institucional sobre asesoramiento académico",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Son <mark>exámenes oficiales</mark> que permiten acceder a ciclos formativos, Bachillerato o Universidad para mayores de 25 años. ¿Cómo se llaman?",
+      "answer": "<mark>Pruebas de acceso</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/pruebas.jpg",
+        "title": "Pruebas de acceso",
+        "source": "https://commons.wikimedia.org/wiki/File:Pruebas_de_acceso.pdf",
+        "alt": "Documento institucional sobre pruebas de acceso",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Una buena herramienta es construir un <mark>itinerario personalizado</mark>, hecho a tu medida, no copiado. ¿Cómo se llama?",
+      "answer": "<mark>Itinerario personalizado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/personalizado.jpg",
+        "title": "Itinerario personalizado",
+        "source": "https://commons.wikimedia.org/wiki/File:Itinerario_personalizado.pdf",
+        "alt": "Documento institucional sobre itinerarios personalizados",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Otra herramienta útil es la <mark>información académica</mark> que ofrecen los centros y los portales oficiales. ¿Cómo se llama?",
+      "answer": "<mark>Información académica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/info-academica.jpg",
+        "title": "Información académica",
+        "source": "https://commons.wikimedia.org/wiki/File:Informaci%C3%B3n_acad%C3%A9mica.pdf",
+        "alt": "Documento institucional sobre información académica",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Toda decisión se basa en una <mark>decisión informada</mark>: pensar bien las cosas antes de elegir. ¿Cómo se llama?",
+      "answer": "<mark>Decisión informada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/decision-informada.jpg",
+        "title": "Decisión informada",
+        "source": "https://commons.wikimedia.org/wiki/File:Decisi%C3%B3n_informada.pdf",
+        "alt": "Documento institucional sobre decisión informada",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0"
+      }
+    }
+  ]
+}
