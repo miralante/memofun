@@ -3736,5 +3736,82 @@
     "amount": 6,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision.json",
     "icon": "🎓"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-que-significa-buscar-empleo",
+    "topic": "Qué significa buscar empleo",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 3,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-significa-buscar-empleo.json",
+    "icon": "💼"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-que-necesito-antes-de-empezar",
+    "topic": "Qué necesito antes de empezar a buscar empleo",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 4,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar.json",
+    "icon": "💼"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-donde-buscar-empleo",
+    "topic": "Dónde se puede buscar empleo",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 7,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/donde-buscar-empleo.json",
+    "icon": "💼"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-tipos-de-empleo",
+    "topic": "Tipos de empleo que puedes buscar",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo.json",
+    "icon": "💼"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-curriculum-vitae",
+    "topic": "Qué es un currículum vitae",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae.json",
+    "icon": "💼"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-carta-de-presentacion",
+    "topic": "Qué es una carta de presentación",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 4,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion.json",
+    "icon": "💼"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-prepararse-para-entrevista",
+    "topic": "Cómo prepararse para una entrevista de trabajo",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 6,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json",
+    "icon": "💼"
   }
 ]

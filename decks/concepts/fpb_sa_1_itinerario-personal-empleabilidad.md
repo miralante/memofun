@@ -5,15 +5,16 @@
 
 ## Alcance
 
-Esta asignatura cubre los **Temas 1, 2, 3, 4, 5 y 6** del temario oficial.
+Esta asignatura cubre los **Temas 1-7** del temario oficial.
 - Tema 1: `D:/img_memofun/ipp/tema1/`, 11 páginas → 4 barajas, 71 tarjetas
 - Tema 2: `D:/img_memofun/ipp/tema2/`, 12 páginas → 3 barajas, 40 tarjetas
 - Tema 3: `D:/img_memofun/ipp/tema3/`, 10 páginas → 4 barajas, 37 tarjetas
 - Tema 4: `D:/img_memofun/ipp/tema4/`, 8 páginas → 4 barajas, 44 tarjetas
 - Tema 5: `D:/img_memofun/ipp/tema5/`, 10 páginas → 6 barajas, 36 tarjetas
 - Tema 6: `D:/img_memofun/ipp/tema6/`, 8 páginas → 4 barajas, 23 tarjetas
+- Tema 7: `D:/img_memofun/ipp/tema7/`, 9 páginas → 7 barajas, 34 tarjetas
 
-Los temas 7 y 8 quedan fuera hasta que se amplíe el alcance.
+El tema 8 queda fuera hasta que se amplíe el alcance.
 
 ### Cobertura del material fuente para Tema 1
 
@@ -131,9 +132,82 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
   (emergencia, primeros auxilios, derechos, gestión de la prevención) usando
   contenido de los Temas 2 y 3 del módulo. No es fiel al material fuente del Tema 1,
   así que se elimina.
-- ~~`tema-7-…` … `tema-8-…`~~ — los temas 7-8 quedan fuera del alcance actual. Sus
-  barajas existentes se han borrado; cuando se reactive el alcance se rehará desde
-  cero usando `D:/img_memofun/ipp/tema7`–`tem8/`.
+
+## Tema 7 — La búsqueda de empleo
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-7-la-busqueda-de-empleo/que-significa-buscar-empleo.json` (§1) — 3 tarjetas
+- `tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar.json` (§2) — 4 tarjetas
+- `tema-7-la-busqueda-de-empleo/donde-buscar-empleo.json` (§3) — 7 tarjetas
+- `tema-7-la-busqueda-de-empleo/tipos-de-empleo.json` (§4) — 5 tarjetas
+- `tema-7-la-busqueda-de-empleo/curriculum-vitae.json` (§5) — 5 tarjetas
+- `tema-7-la-busqueda-de-empleo/carta-de-presentacion.json` (§6) — 4 tarjetas
+- `tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json` (§7) — 6 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
+(9 imágenes, organizadas como `pag63`–`pag71`).
+
+> **Nota de numeración:** el **mapa conceptual** del módulo (pag64) lista
+> solo 6 nodos y omite la subsección §4 ("Tipos de empleo que puedes
+> buscar"), pero la **tabla de tipos** sí está desarrollada en la pag66.
+> El **índice oficial** (7 subsecciones, 1-7) es el canónico y las 7
+> barajas siguen esa numeración.
+
+### Conceptos y dónde se han gastado ya
+
+#### §1 — solo en `que-significa-buscar-empleo.json`
+
+- Buscar empleo: proceso de encontrar un trabajo adaptado a tus intereses, habilidades y necesidades.
+- Cartel de "Busco empleo": expresión visual de estar buscando trabajo.
+- Constancia y organización: además de enviar CV, hay que ser constante y organizado.
+
+#### §2 — solo en `que-necesito-antes-de-empezar.json`
+
+- Actitud positiva y activa: requisito anímico antes de empezar.
+- Información sobre dónde buscar ofertas: requisito informativo.
+- Idea clara del tipo de trabajo que buscas: requisito de foco.
+- Currículum vitae (CV): requisito documental principal.
+- Carta de presentación: documento de apoyo que se pide a veces.
+
+#### §3 — solo en `donde-buscar-empleo.json`
+
+- Portales de empleo en internet: Infojobs, Indeed, LinkedIn, SEPE y webs de empresas.
+- Oficinas de empleo: permiten inscribirse como demandante y ofrecen cursos.
+- Redes de contacto: boca en boca entre familiares, amigos y conocidos.
+- Entrega directa: ir a empresas con el CV a preguntar si hay vacantes.
+
+#### §4 — solo en `tipos-de-empleo.json`
+
+- Primer empleo: no requiere experiencia previa.
+- Empleo temporal: por tiempo limitado.
+- Prácticas o becas: para aprender trabajando.
+- Empleo parcial: menos horas al día o a la semana.
+- Empleo a jornada completa: unas 8 horas diarias.
+
+#### §5 — solo en `curriculum-vitae.json`
+
+- Currículum vitae (CV): descripción concisa y organizada de la trayectoria.
+- Datos personales: nombre, teléfono y correo.
+- Formación: estudios realizados.
+- Experiencia laboral: trabajos previos (si los hay).
+- Habilidades e idiomas: capacidades que dominas.
+
+#### §6 — solo en `carta-de-presentacion.json`
+
+- Carta de presentación: texto breve que acompaña al CV.
+- Presentarte: primer propósito de la carta.
+- Por qué te interesa el puesto: segundo propósito.
+- Destacar tus puntos fuertes: tercer propósito; la carta debe ser personalizada.
+
+#### §7 — solo en `prepararse-para-entrevista.json`
+
+- Entrevista de trabajo: conversación formal con la empresa para conocerte.
+- Investigar sobre la empresa: tarea clave antes de la entrevista.
+- Ser puntual: clave práctica durante la entrevista.
+- Vestir de forma adecuada: cuidado de imagen.
+- Preguntas comunes de entrevista: "¿Por qué quieres trabajar aquí?", "¿Cómo trabajas en equipo?".
+- Actitud positiva: hablar con claridad y respeto, mostrar interés.
 
 ## Tema 6 — Itinerarios académicos y profesionales
 

@@ -1,0 +1,67 @@
+{
+  "topic": "Qué es un currículum vitae",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Es un documento que <mark>presenta de forma concisa y organizada tu trayectoria profesional</mark>: formación, experiencia y otros datos. Se usa principalmente cuando se busca empleo. ¿Cómo se llama?",
+      "answer": "<mark>Currículum vitae (CV)</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/definicion.jpg",
+        "title": "Diario Oficial de la Unión Europea, serie C, núm. 357A (2013)",
+        "source": "https://commons.wikimedia.org/wiki/File:OJ_C_357A_of_2013_-_ES_Spanish.pdf",
+        "alt": "Documento oficial publicado en el Diario Oficial de la UE",
+        "autor": "Publications Office of the European Union",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Una de las secciones del currículum vitae son los <mark>datos personales</mark>: <mark>nombre, teléfono y correo</mark>. ¿Cómo se llama esa sección?",
+      "answer": "<mark>Datos personales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/datos-personales.jpg",
+        "title": "Día Internacional de Protección de Datos Personales (CDMX)",
+        "source": "https://commons.wikimedia.org/wiki/File:D%C3%ADa_Internacional_de_Protecci%C3%B3n_de_Datos_Personales_CDMX_-i---i-_(32543306565).jpg",
+        "alt": "Cartel del Día Internacional de Protección de Datos Personales en Ciudad de México",
+        "autor": "Gobierno CDMX",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Otra sección del currículum vitae es la <mark>formación</mark>: los <mark>estudios realizados</mark>. ¿Cómo se llama esa sección?",
+      "answer": "<mark>Formación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/formacion.jpg",
+        "title": "Formación San Miguel 1985",
+        "source": "https://commons.wikimedia.org/wiki/File:Formaci%C3%B3n_San_Miguel_1985.jpg",
+        "alt": "Fotografía de archivo de una formación militar o policial de 1985",
+        "autor": "Rlalk3",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Otra sección del currículum vitae es la <mark>experiencia laboral</mark>: los <mark>trabajos previos</mark> que hayas tenido. ¿Cómo se llama esa sección?",
+      "answer": "<mark>Experiencia laboral</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/experiencia.jpg",
+        "title": "Titulación por Experiencia Laboral",
+        "source": "https://commons.wikimedia.org/wiki/File:Titulaci%C3%B3n_por_Experiencia_Laboral.jpg",
+        "alt": "Cartel de un programa de titulación por experiencia laboral",
+        "autor": "COHACER S.C.",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Otra sección del currículum vitae son las <mark>habilidades e idiomas</mark> que dominas. ¿Cómo se llama esa sección?",
+      "answer": "<mark>Habilidades e idiomas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/habilidades.jpg",
+        "title": "Logo oficial del blog intercultural Dacadu (EUT+)",
+        "source": "https://commons.wikimedia.org/wiki/File:Official_logo_of_Dacadu_intercultural_blog_EUT%2B.png",
+        "alt": "Logotipo de un proyecto intercultural y multilingüe (referencia visual a idiomas y habilidades)",
+        "autor": "Dacadu Intercultural Blog",
+        "licencia": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}

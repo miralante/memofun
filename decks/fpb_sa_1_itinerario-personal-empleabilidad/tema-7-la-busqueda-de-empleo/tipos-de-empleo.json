@@ -1,0 +1,67 @@
+{
+  "topic": "Tipos de empleo que puedes buscar",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "El <mark>primer empleo</mark> es aquel <mark>que no requiere experiencia previa</mark>. ¿Cómo se llama este tipo de empleo?",
+      "answer": "<mark>Primer empleo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/primer-empleo.jpg",
+        "title": "Joe 20060402",
+        "source": "https://commons.wikimedia.org/wiki/File:Joe_20060402_0079_0001.png",
+        "alt": "Personaje simulado (con imagen corporativa)",
+        "autor": "(autor desconocido)",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "El <mark>empleo temporal</mark> es aquel <mark>que dura por un tiempo limitado</mark>. ¿Cómo se llama este tipo de empleo?",
+      "answer": "<mark>Empleo temporal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/temporal.jpg",
+        "title": "Presentación del programa Empleo temporal",
+        "source": "https://commons.wikimedia.org/wiki/File:Presentacion_del_programa_Empleo_temporal_-_afg3023.jpg",
+        "alt": "Cartel de presentación de un programa oficial de empleo temporal",
+        "autor": "Artigas Pessio",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Las <mark>prácticas o becas</mark> son un tipo de empleo pensado <mark>para aprender trabajando</mark>. ¿Cómo se llama este tipo de empleo?",
+      "answer": "<mark>Prácticas o becas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/practicas.jpg",
+        "title": "Political sides explained",
+        "source": "https://commons.wikimedia.org/wiki/File:Political_sides_explained.jpg",
+        "alt": "Diagrama esquemático sobre los lados del espectro político",
+        "autor": "Pedrorochaaq",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "El <mark>empleo parcial</mark> es aquel en el que se trabajan <mark>menos horas al día o a la semana</mark>. ¿Cómo se llama este tipo de empleo?",
+      "answer": "<mark>Empleo parcial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/parcial.jpg",
+        "title": "Tasa de empleo a tiempo parcial en países OCDE",
+        "source": "https://commons.wikimedia.org/wiki/File:Part-time_employment_rate_in_OECD.svg",
+        "alt": "Gráfico con datos estadísticos sobre empleo parcial por países OCDE",
+        "autor": "Yuasan (datos de OECD Employment Outlook 2021)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "El <mark>empleo a jornada completa</mark> es aquel en el que se trabaja <mark>unas 8 horas diarias</mark>. ¿Cómo se llama este tipo de empleo?",
+      "answer": "<mark>Empleo a jornada completa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/jornada.jpg",
+        "title": "Escuela Bolivariana Jornada Completa Cañifistola",
+        "source": "https://commons.wikimedia.org/wiki/File:ESCUELA_BOLIVARIANA_JORNADA_COMPLETA_CA%C3%91IFISTOLA.jpg",
+        "alt": "Edificio escolar venezolano con jornada completa",
+        "autor": "Máquina del CNE (voto automatizado) — Venezuela",
+        "licencia": "Public domain"
+      }
+    }
+  ]
+}

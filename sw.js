@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v106';
+var VERSION = 'memofun-v107';
 
 var FILES = [
   './',
@@ -61,9 +61,10 @@ var FILES = [
   './site/strings.en.js',
 
   /* IPP course — FPB Servicios Administrativos 1º.
-     Alcance: Temas 1, 2, 3, 4, 5 y 6 del temario oficial. Los temas 7-8 y la 5ª
-     baraja de Tema 1 (mapa conceptual que mezclaba contenido de los
-     temas 2 y 3) se eliminaron por no ser fieles al material fuente. */
+     Alcance: Temas 1-7 del temario oficial. La 5ª baraja de Tema 1
+     (mapa conceptual que mezclaba contenido de los temas 2 y 3) y
+     el Tema 8 quedan fuera por no ser fieles al material fuente
+     capturado en D:/img_memofun/ipp/. */
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales.json',
@@ -89,6 +90,13 @@ var FILES = [
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/entorno-sociolaboral.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-significa-buscar-empleo.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/donde-buscar-empleo.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_3.json',

@@ -1,106 +1,181 @@
 # Tema 7 — La búsqueda de empleo
 
-**Fuente:** `D:/img_memofun/ipp/tema7/` (9 imágenes)
-**Generado:** 2026-10-08
-**Carpeta baraja:** `fpgm_ga_1_itinerario-personal-empleabilidad-1`
+**Fuente:** `D:/img_memofun/ipp/tema7/` — 9 páginas (`pag63`–`pag71`)
+**Generado:** 2026-10-10 (a partir de extracción `describe_images`)
 
 ---
 
-## Imagen 1 — Portada Tema 7
+## Cobertura respecto al temario oficial
 
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.14 (1).jpeg` (pág. 64)
+El **índice oficial** del temario enumera 7 subsecciones (1-7). El material
+fuente capturado en `D:/img_memofun/ipp/tema7/` las desarrolla todas.
 
-- **Asignatura:** ITINERARIO PERSONAL PARA LA EMPLEABILIDAD (1º CFGB)
-- **Colegio:** areteia
-- **Objetivos:** Estrategias paso a paso, Consejos útiles, Recursos digitales
-- **Mapa conceptual:**
-  1. ¿Qué significa buscar empleo?
-  2. ¿Qué necesito antes de empezar?
-  3. ¿Dónde se puede buscar empleo?
-  4. ¿Cómo hacer un buen currículum?
-  5. ¿Qué es una carta de presentación?
-  6. ¿Cómo prepararse para una entrevista?
+> **Nota:** El mapa conceptual del módulo (pag64) solo lista 6 subsecciones
+> (omite "Tipos de empleo que puedes buscar"). La numeración 1-7 del índice
+> oficial es la canónica, y el contenido de §4 sí está en la fuente
+> (pag66, tabla con 5 tipos de empleo).
+
+| Subsección oficial | Cubierta por la fuente | Baraja |
+|---|---|---|
+| 1. ¿Qué significa buscar empleo? | ✅ (pag65) | `que-significa-buscar-empleo.json` |
+| 2. ¿Qué necesito antes de empezar? | ✅ (pag65) | `que-necesito-antes-de-empezar.json` |
+| 3. ¿Dónde se puede buscar empleo? | ✅ (pag65-pag66) | `donde-buscar-empleo.json` |
+| 4. Tipos de empleo que puedes buscar | ✅ (pag66) | `tipos-de-empleo.json` |
+| 5. ¿Qué es un currículum vitae? | ✅ (pag66) | `curriculum-vitae.json` |
+| 6. ¿Qué es una carta de presentación? | ✅ (pag67) | `carta-de-presentacion.json` |
+| 7. ¿Cómo prepararse para una entrevista? | ✅ (pag67) | `prepararse-para-entrevista.json` |
 
 ---
 
-## Imagen 2 — ¿Qué significa buscar empleo?
+## Página 63 — Portada del tema
 
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.14 (2).jpeg` (pág. 65)
+**Fuente:** `pag63.jpeg`
+
+- **Tema 7:** La búsqueda de empleo
+
+---
+
+## Página 64 — Objetivos y mapa conceptual
+
+**Fuente:** `pag64.jpeg`
+
+### Objetivos
+- Estrategias paso a paso.
+- Consejos útiles.
+- Recursos digitales.
+
+### Mapa conceptual — La búsqueda de empleo (nodos)
+- ¿Qué significa buscar empleo? *(en la ilustración, una chica con un cartel "BUSCO EMPLEO")*
+- ¿Qué necesito antes de empezar?
+- ¿Dónde se puede buscar empleo? *(en la ilustración, una pantalla con "ANUNCIOS")*
+- ¿Cómo hacer un buen currículum? *(en la ilustración, un documento con "CV")*
+- ¿Qué es una carta de presentación?
+- ¿Cómo prepararse para una entrevista?
+
+---
+
+## Página 65 — §1 + §2 + §3 (inicio: portales y oficinas)
+
+**Fuente:** `pag65.jpeg`
 
 ### 1. ¿Qué significa buscar empleo?
-Buscar empleo es el proceso de encontrar un trabajo que se adapte a tus intereses, habilidades y necesidades. No es solo enviar currículums, sino también:
+
+Buscar empleo es el **proceso de encontrar un trabajo que se adapte a tus
+intereses, habilidades y necesidades**. No es solo enviar currículums,
+sino también:
 - Conocerte a ti mismo.
 - Saber qué quieres hacer.
 - Prepararte bien.
 - Ser constante y organizado.
 
-**"Buscar trabajo es un trabajo en sí mismo."**
+> *Buscar trabajo es un trabajo en sí mismo.*
 
 ### 2. ¿Qué necesito antes de empezar?
+
 Antes de buscar empleo, debes tener:
-- Un currículum vitae (CV).
-- Una carta de presentación (si la piden).
-- Una idea clara del tipo de trabajo que buscas.
-- Información sobre dónde buscar ofertas.
-- Una actitud positiva y activa.
+- Una **actitud positiva y activa**.
+- **Información** sobre dónde buscar ofertas.
+- Una **idea clara** del tipo de trabajo que buscas.
+- Una **carta de presentación** (si la piden).
+- Un **currículum vitae** (CV).
 
 ### 3. ¿Dónde se puede buscar empleo?
 
-**3.1. Portales de empleo en internet:** InfoJobs, Indeed, LinkedIn, SEPE, Webs propias de las empresas.
+#### 3.1. Portales de empleo en internet
+- Infojobs
+- Indeed
+- LinkedIn
+- SEPE
+- Webs propias de las empresas
 
-**3.2. Oficinas de empleo:** Puedes inscribirte como demandante de empleo. Te informan sobre cursos, ofertas y ayudas.
+#### 3.2. Oficinas de empleo
+- Puedes **inscribirte como demandante de empleo**.
+- Te **informan sobre cursos** y ofertas de tu zona.
 
 ---
 
-## Imagen 3 — Tipos de empleo y currículum
+## Página 66 — §3 (continuación) + §4 + §5
 
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.14 (3).jpeg` (pág. 66)
+**Fuente:** `pag66.jpeg`
 
-### 3.3. Redes de contacto
-Familiares, amigos, profesores, conocidos. Muchas ofertas no se publican, se comparten de boca en boca.
+#### 3.3. Redes de contacto
+- Familiares, amigos, profesores, conocidos.
+- Muchas ofertas no se publican, **se comparten de boca en boca**.
 
-### 3.4. Entrega directa
-Ir a empresas con tu CV. Preguntar si tienen vacantes.
+#### 3.4. Entrega directa
+- Ir a empresas con tu CV.
+- Preguntar si tienen vacantes.
 
 ### 4. Tipos de empleo que puedes buscar
 
+A la hora de buscar trabajo debemos saber que existen diferentes opciones:
+
 | Tipo de empleo | Características |
-| :--- | :--- |
-| Primer empleo | No requiere experiencia previa |
-| Empleo temporal | Por un tiempo limitado |
-| Prácticas o becas | Para aprender trabajando |
-| Empleo parcial | Menos horas al día o a la semana |
-| Empleo a jornada completa | Trabajo de 8 horas diarias |
+|---|---|
+| **Primer empleo** | No requiere experiencia previa |
+| **Empleo temporal** | Por un tiempo limitado |
+| **Prácticas o becas** | Para aprender trabajando |
+| **Empleo parcial** | Menos horas al día o a la semana |
+| **Empleo a jornada completa** | Trabajo de 8 horas diarias |
 
-### 5. ¿Qué es un Currículum vitae?
-Es un documento conciso de máximo una página que resume de forma organizada tus datos, tus estudios, tus habilidades y tu experiencia.
+### 5. ¿Qué es un currículum vitae?
 
-**Qué debe incluir:**
-- Datos personales: nombre, teléfono, correo electrónico.
-- Formación académica: estudios realizados.
-- Experiencia laboral: si la tienes.
-- Habilidades: lo que sabes hacer bien.
-- Idiomas y conocimientos informáticos.
-- Foto (opcional, pero recomendable).
+Antes de buscar tu primer empleo, debemos redactar un **currículum vitae**.
+El currículum abarca **información elemental respecto a la educación
+adquirida** y, en caso de que no sea un principiante, también la
+**experiencia laboral** de más relevancia.
 
-**Consejo:** Debe ser claro, breve (1 página) y sin faltas de ortografía.
+Se utiliza principalmente cuando se busca empleo para presentar una
+**descripción concisa y organizada de la trayectoria profesional**
+de un candidato.
 
----
-
-## Imagen 4 — Portada Tema 7 (bis)
-
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.14.jpeg` (pág. 63)
-
-- **Tema 7:** La búsqueda de empleo
-- **Colegio:** areteia
-
-*(Esta es la portada del tema, repite la imagen 1.)*
+#### ¿Qué debe incluir?
+- **Datos personales:** nombre, teléfono, correo.
+- **Formación:** estudios realizados.
+- **Experiencia laboral:** trabajos previos (si los hay).
+- **Habilidades e idiomas.**
+- **Otros datos de interés.**
 
 ---
 
-## Imagen 5 — Consejos y recursos
+## Página 67 — §6 + §7
 
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.15 (1).jpeg` (pág. 68)
+**Fuente:** `pag67.jpeg`
+
+### 6. ¿Qué es una carta de presentación?
+
+Es un **texto breve que acompaña al CV** y sirve para:
+- **Presentarte.**
+- **Explicar por qué te interesa el puesto.**
+- Ha de **destacar tus puntos fuertes**.
+
+> Debe ser **personalizada** para cada oferta de trabajo.
+
+### 7. ¿Cómo prepararse para una entrevista?
+
+#### Antes de la entrevista
+- Investiga sobre la empresa.
+- Repasa tu CV.
+- Prepara respuestas a preguntas comunes.
+- Piensa en tus puntos fuertes.
+
+#### Durante la entrevista
+- Sé puntual.
+- Viste de forma adecuada.
+- Habla con claridad y respeto.
+- Muestra interés y actitud positiva.
+
+#### Preguntas comunes
+- ¿Por qué quieres trabajar aquí?
+- ¿Qué sabes hacer bien?
+- ¿Cómo trabajas en equipo?
+- ¿Qué esperas del trabajo?
+
+---
+
+## Página 68 — Consejos y recursos
+
+**Fuente:** `pag68.jpeg`
 
 ### Consejos para buscar empleo
 - **Sé constante:** busca cada día.
@@ -116,95 +191,21 @@ Es un documento conciso de máximo una página que resume de forma organizada tu
 - **Empléate:** portal público de empleo.
 
 ### Frases clave para recordar
-- "Buscar trabajo es el primer paso hacia mi futuro."
-- "Cada intento me acerca a una oportunidad."
-- "Tengo habilidades que valen."
-- "Con esfuerzo y actitud, puedo conseguirlo."
+- *"Buscar trabajo es el primer paso hacia mi futuro."*
+- *"Cada intento me acerca a una oportunidad."*
+- *"Tengo habilidades que valen."*
+- *"Con esfuerzo y actitud, puedo conseguirlo."*
 
 ---
 
-## Imagen 6 — Actividades (CV y entrevista simulada)
+## Páginas 69-71 — Ejercicios
 
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.15 (2).jpeg` (pág. 69)
+**Fuente:** `pag69.jpeg`, `pag70.jpeg`, `pag71.jpeg`
 
-### Ejercicio 1. "Mi CV básico"
-Completa una plantilla con tus datos, formación, habilidades y experiencias.
-
-### Ejercicio 2. "Simulación de entrevista"
-En parejas, uno hace de entrevistador y otro de candidato. Luego cambian los roles.
-
-### Ejercicio 3. "Explorando ofertas"
-Busca 3 ofertas de empleo reales que te interesen. Anota:
-- Nombre del puesto.
-- Requisitos.
-- Cómo se solicita.
-
----
-
-## Imagen 7 — Ejercicios sobre el CV
-
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.15 (3).jpeg` (pág. 70)
-
-### Ejercicio 4. Elementos del CV
-Marca con SÍ las cosas que DEBEN aparecer en tu CV y con NO las que es mejor no poner:
-1. Mi número de teléfono y mi correo electrónico: SÍ
-2. Los estudios que he realizado (formación académica): SÍ
-3. La lista de mis videojuegos favoritos: NO
-4. Mis habilidades (lo que sé hacer bien): SÍ
-5. Lo que cené ayer por la noche: NO
-
-### Ejercicio 5. Tipos de empleo
-Une cada tipo de empleo con su característica:
-- **A. Primer empleo** → No requiere experiencia previa.
-- **B. Empleo temporal** → Por un tiempo limitado (fecha de fin).
-- **C. Empleo parcial** → Menos horas al día o a la semana.
-- **D. Trabajo de 8 horas diarias** → Jornada completa.
-
-### Ejercicio 6. CV o carta de presentación
-1. "Es un texto breve y personalizado que sirve para presentarte a una oferta concreta y explicar por qué te interesa el puesto." → Carta de Presentación
-2. "Es un documento conciso de máximo una página que resume de forma organizada tus datos, tus estudios, tus habilidades y tu experiencia." → Currículum (CV)
-
----
-
-## Imagen 8 — Verdadero o falso sobre búsqueda de empleo
-
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.15 (4).jpeg` (pág. 71)
-
-### Ejercicio 7. Verdadero o falso
-1. "Buscar trabajo es un trabajo en sí mismo, por eso hay que buscar cada día y ser constantes." → V
-2. "Si una empresa no te llama a la primera, debes desanimarte y dejar de buscar." → F
-3. "Es una gran idea llevar un registro ordenado de las ofertas a las que te presentas." → V
-4. "Mientras buscas trabajo, no vale la pena seguir formándose ni aprender nada nuevo." → F
-
----
-
-## Imagen 9 — Carta de presentación y entrevista
-
-**Fuente:** `WhatsApp Image 2026-10-07 at 20.09.15.jpeg` (pág. 67)
-
-### 6. ¿Qué es una carta de presentación?
-Es un texto breve que acompaña al CV y sirve para:
-- Presentarte.
-- Explicar por qué te interesa el puesto.
-- Destacar tus puntos fuertes.
-- Debe ser personalizada para cada oferta de trabajo.
-
-### 7. ¿Cómo prepararse para una entrevista?
-
-**Antes de la entrevista:**
-- Investiga sobre la empresa.
-- Repasa tu CV.
-- Prepara respuestas a preguntas comunes.
-- Piensa en tus puntos fuertes.
-
-**Durante la entrevista:**
-- Sé puntual.
-- Viste de forma adecuada.
-- Habla con claridad y respeto.
-- Muestra interés y actitud positiva.
-
-**Preguntas comunes:**
-- ¿Por qué quieres trabajar aquí?
-- ¿Qué sabes hacer bien?
-- ¿Cómo trabajas en equipo?
-- ¿Qué esperas del trabajo?
+- **Ejercicio 1** — "Mi CV…" (pag69)
+- **Ejercicio 2** — (pag69)
+- **Ejercicio 3** — (pag69)
+- **Ejercicio 4** — "Un buen currículum debe ser breve y organizado. Marca con un SÍ las cosas…" (pag70)
+- **Ejercicio 5** — (pag70)
+- **Ejercicio 6** — (pag70)
+- **Ejercicio 7** — "Escribe V (Verdadero) o F (Falso) para cada consejo sobre buscar trabajo" (pag71)
