@@ -3505,5 +3505,38 @@
     "amount": 6,
     "file": "eso_4_literatura_5.json",
     "icon": "📖"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-definicion",
+    "topic": "Técnicas de prevención y protección: definición",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
+    "amount": 9,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json",
+    "icon": "🦺"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-prevencion",
+    "topic": "Técnicas de prevención",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
+    "amount": 16,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-de-prevencion.json",
+    "icon": "🦺"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-proteccion",
+    "topic": "Técnicas de protección",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
+    "amount": 15,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-de-proteccion.json",
+    "icon": "🦺"
   }
 ]

@@ -5,10 +5,11 @@
 
 ## Alcance
 
-Esta asignatura cubre **solo el Tema 1** del temario oficial
-(`D:/img_memofun/ipp/tema1/`, 11 páginas). El usuario pidió rehacer
-"de momento" solo el tema 1; los temas 2 a 8 quedan fuera hasta que se
-amplíe el alcance.
+Esta asignatura cubre los **Temas 1 y 2** del temario oficial.
+- Tema 1: `D:/img_memofun/ipp/tema1/`, 11 páginas → 4 barajas, 71 tarjetas
+- Tema 2: `D:/img_memofun/ipp/tema2/`, 12 páginas → 3 barajas, 40 tarjetas
+
+Los temas 3 a 8 quedan fuera hasta que se amplíe el alcance.
 
 ### Cobertura del material fuente para Tema 1
 
@@ -126,9 +127,82 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
   (emergencia, primeros auxilios, derechos, gestión de la prevención) usando
   contenido de los Temas 2 y 3 del módulo. No es fiel al material fuente del Tema 1,
   así que se elimina.
-- ~~`tema-2-…` … `tema-8-…`~~ — los temas 2-8 quedan fuera del alcance actual. Sus
+- ~~`tema-3-…` … `tema-8-…`~~ — los temas 3-8 quedan fuera del alcance actual. Sus
   barajas existentes se han borrado; cuando se reactive el alcance se rehará desde
-  cero usando `D:/img_memofun/ipp/tema2`–`tem8/`.
+  cero usando `D:/img_memofun/ipp/tema3`–`tem8/`.
+
+## Tema 2 — Técnicas de prevención y protección
+
+Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+
+- `tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json` (§1) — 9 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/tecnicas-de-prevencion.json` (§2) — 16 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/tecnicas-de-proteccion.json` (§3) — 15 tarjetas
+
+Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema2/`
+(12 imágenes, organizadas como `pag15`–`pag26`).
+
+Cobertura: las tres barajas siguen las subsecciones del temario oficial
+(1, 2, 3) sin solaparse. La primera cubre el marco general y los
+responsables; la segunda, las técnicas de prevención y los 8 principios;
+la tercera, las técnicas de protección (colectiva + EPI).
+
+### Conceptos y dónde se han gastado ya
+
+#### §1 — solo en `prevencion-y-proteccion-definicion.json`
+
+- Integrar la prevención: la empresa la incorpora desde el proceso productivo y la organización.
+- Identificar los riesgos: reconocer qué puede salir mal antes de empezar.
+- Evaluar los riesgos: saber qué tan graves son los peligros identificados.
+- Adoptar medidas de control: decidir qué hacer tras evaluar.
+- Técnicas de prevención: actuar antes de que ocurra el problema.
+- Técnicas de protección: reducir el daño de los riesgos no eliminados.
+- Diferencia prevención/protección: la primera sobre el receptor, la segunda sobre el riesgo o el medio.
+- Colectiva e individual: modalidades de la protección.
+- El empresario: garante último de la seguridad en la empresa.
+
+#### §2 — solo en `tecnicas-de-prevencion.json`
+
+- Prevención de riesgos: definición, actuar antes.
+- 4 técnicas básicas: organización del trabajo, formación e información, señalización, mantenimiento de equipos.
+- 8 principios básicos de la prevención (Ley de Protección de Riesgos Laborales):
+  1. Evitar los riesgos
+  2. Evaluar los riesgos
+  3. Combatir los riesgos desde el origen
+  4. Adaptar el trabajo a la persona
+  5. Tener en cuenta la evolución técnica
+  6. Planificar la prevención
+  7. Proteger colectivamente antes que individualmente
+  8. Dar instrucciones claras a los trabajadores
+- Buenas prácticas para prevenir riesgos: zona limpia, usar EPI, seguir instrucciones, informar.
+- Delegado de prevención: representante de los trabajadores.
+- Servicio de prevención: equipo técnico que asesora.
+
+#### §3 — solo en `tecnicas-de-proteccion.json`
+
+- Técnicas de protección: definición (reducir el daño de los riesgos no eliminados).
+- Protección colectiva: barandillas, redes de seguridad, ventilación, extintor, salida de emergencia.
+- EPI: Equipo de Protección Individual.
+- 7 EPI del módulo: casco, gafas de seguridad, guantes, mascarilla o filtro,
+  botas de seguridad, ropa reflectante, tapones y cascos.
+  - Ojo: el módulo dice textualmente "salvavidas" para el chaleco cuando la
+    imagen muestra uno reflectante — es una errata del propio módulo. La
+    baraja dice "ropa reflectante", que es lo que la imagen muestra.
+- Diferencia colectiva vs individual: protege a todos a la vez vs solo a una persona.
+
+### Notas para quien amplíe la serie
+
+- Las imágenes de las barajas de Tema 2 se han descargado desde Wikimedia
+  Commons (CC BY / CC BY-SA / CC0 / Public Domain). El título en el JSON
+  es el nombre del archivo original de Wikimedia, que a veces no encaja
+  bien con la búsqueda en español (p. ej. "El sistema de trabajo en la
+  oficina local de extensión agrícola" para el slug `organizacion-trabajo`).
+  Si en una revisión posterior el archivo no encaja con la tarjeta, lo
+  correcto es re-buscar y reemplazar solo el `file` + `title` + `alt`,
+  manteniendo la misma `question` / `answer` / `<mark>`.
+- Openverse API devolvía HTTP 424 (Failed Dependency) en la fecha de
+  creación (2026-10-10), por lo que se usaron directamente las
+  miniaturas de Wikimedia vía `Special:FilePath`.
 
 ### Notas para quien amplíe la serie
 
