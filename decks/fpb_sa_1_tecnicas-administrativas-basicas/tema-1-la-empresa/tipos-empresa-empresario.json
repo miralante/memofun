@@ -5,35 +5,99 @@
   "cards": [
     {
       "question": "Una empresa se puede clasificar según el número de trabajadores: gran empresa (más de 250), mediana (50-249), pequeña (10-49) y microempresa (menos de 10). <mark>Es como clasificar los planetas del sistema solar: grandes como Júpiter, medianos como la Tierra, pequeños como Marte y muy pequeños como Plutón</mark>. ¿Cómo se llama esta primera clasificación?",
-      "answer": "<mark>Clasificación por tamaño</mark>"
+      "answer": "<mark>Clasificación por tamaño</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/clasificacion-tamano.jpg",
+        "title": "Planetas del sistema solar",
+        "source": "https://commons.wikimedia.org/wiki/File:Planetas_del_sistema_solar.pdf",
+        "alt": "(imagen)",
+        "autor": "Wilbergm",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Una empresa que cultiva trigo, otra que fabrica sillas y otra que da clases particulares: agricultura/ganadería, industria/manufactura, servicios. <mark>Es como los tres pisos de un edificio: abajo la tierra (campo), en medio la fábrica, arriba las oficinas</mark>. ¿Cómo se llaman estos tres sectores de actividad?",
-      "answer": "<mark>Sector primario, secundario y terciario</mark>"
+      "answer": "<mark>Sector primario, secundario y terciario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sector-primario-secundario-terciario.jpg",
+        "title": "Bidibidi partners sector meeting",
+        "source": "https://commons.wikimedia.org/wiki/File:Sector_meeting.jpg",
+        "alt": "(imagen)",
+        "autor": "Asikironalio",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Una tienda de barrio que solo vende en su pueblo frente a una empresa que vende en Francia y Alemania. <mark>Es como la diferencia entre una calle de tu barrio y una autopista que cruza fronteras</mark>. ¿Cómo se clasifican las empresas según dónde operan?",
-      "answer": "<mark>Locales, nacionales e internacionales</mark>"
+      "answer": "<mark>Locales, nacionales e internacionales</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/locales-nacionales-internacionales.jpg",
+        "title": "Mensaje Presidencial del 21 de Mayo de 2005 (Chile)",
+        "source": "https://commons.wikimedia.org/wiki/File:Mensaje_Presidencial_del_21_de_Mayo_de_2005.PDF",
+        "alt": "(imagen)",
+        "autor": "Biblioteca del Congreso Nacional de Chile",
+        "licencia": "CC BY 3.0 cl"
+      }
     },
     {
       "question": "El propietario de una empresa es el Estado (hospitales públicos, carreteras) frente a una empresa cuyo dueño es una persona particular (panadería, tienda de ropa). <mark>Es como la diferencia entre un parque público y el jardín de tu casa</mark>. ¿Cómo se llama esta clasificación?",
-      "answer": "<mark>Empresas públicas y privadas</mark>"
+      "answer": "<mark>Empresas públicas y privadas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/public-vs-private.jpg",
+        "title": "Parque do Flamengo - projetar a cidade, desenhando patrimônio",
+        "source": "https://commons.wikimedia.org/wiki/File:Parque_do_Flamengo_-_projetar_a_cidade,_desenhando_patrim%C3%B4nio,_Anais_do_Museu_Paulista.pdf",
+        "alt": "(imagen)",
+        "autor": "Márcia Regina Romeiro Chuva",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "question": "Juan abre una panadería solo con su dinero, asume todos los riesgos y es él quien manda. frente a Ana y Pedro que abren un restaurante juntos, compartiendo inversión y beneficios. <mark>Es como la diferencia entre ir solo a un examen o ir en grupo: en el primero decides tú solo; en el segundo os dividís el trabajo</mark>. ¿Cómo se llaman estos dos tipos de empresario?",
-      "answer": "<mark>Empresario individual y empresario social (o sociedad)</mark>"
+      "answer": "<mark>Empresario individual y empresario social (o sociedad)</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/individual-vs-social.jpg",
+        "title": "Artículo publicado: Capital de trabajo y economía",
+        "source": "https://commons.wikimedia.org/wiki/File:Articulo_publicado_Capital_de_trabajo_y_economia.pdf",
+        "alt": "(imagen)",
+        "autor": "DOCTOR DOMINGO",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "La persona física que crea una actividad económica para producir bienes o servicios, aportando su capital y dirigiendo el negocio. <mark>Es como el autónomo que abre su propio taller: pone el dinero, trabaja y asume las consecuencias</mark>. ¿Cómo se llama este tipo de empresario?",
-      "answer": "<mark>Empresario individual</mark>"
+      "answer": "<mark>Empresario individual</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresario-individual.jpg",
+        "title": "Taller de habilidades para el aprendizaje",
+        "source": "https://commons.wikimedia.org/wiki/File:Taller_de_habilidades_para_el_aprendizaje.pdf",
+        "alt": "(imagen)",
+        "autor": "University of Guadalajara",
+        "licencia": "CC0"
+      }
     },
     {
       "question": "Dos o más personas se unen para poner en común su trabajo y su dinero con el fin de obtener un beneficio compartido. <mark>Es como los jugadores de un equipo de fútbol: cada uno aporta algo (drible, tiro, defensa) pero el gol es de todos</mark>. ¿Cómo se llama este tipo de empresario?",
-      "answer": "<mark>Empresario social (o sociedad)</mark>"
+      "answer": "<mark>Empresario social (o sociedad)</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresario-social.jpg",
+        "title": "Taxonomías web de clubes de fútbol argentinos",
+        "source": "https://commons.wikimedia.org/wiki/File:Taxonom%C3%ADas_web_de_clubes_de_f%C3%BAtbol_argentinos_(Cionline_1108).pdf",
+        "alt": "(imagen)",
+        "autor": "María Laura Caminotti",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "El empresario es la persona que dirige, controla y supervisa todas las actividades de la empresa. <mark>Es como el capitán de un barco: pone el rumbo, supervisa que todo funcione y toma las decisiones importantes</mark>. ¿Cuáles son las tres funciones principales del empresario?",
-      "answer": "<mark>Dirigir, controlar y supervisar</mark>"
+      "answer": "<mark>Dirigir, controlar y supervisar</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/funciones-empresario.jpg",
+        "title": "Julio Verne — Una ciudad flotante (1871)",
+        "source": "https://commons.wikimedia.org/wiki/File:(JV)_Julio_Verne_(1871)_Una_ciudad_flotante_(IA_Julio_Verne_-_Una_ciudad_flotante).pdf",
+        "alt": "(imagen)",
+        "autor": "Julio Verne",
+        "licencia": "Public domain"
+      }
     }
   ]
 }

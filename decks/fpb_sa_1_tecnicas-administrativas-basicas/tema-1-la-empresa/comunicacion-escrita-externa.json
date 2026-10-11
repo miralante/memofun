@@ -5,27 +5,75 @@
   "cards": [
     {
       "question": "Cuando la empresa envía una carta a un proveedor pidiendo precio de mercancías, o recibe una factura de un cliente, la comunicación sale de la empresa hacia fuera o viene de fuera hacia dentro. <mark>Es como el correo que entra y sale de tu casa: no todo queda dentro</mark>. ¿Cómo se llama este tipo de comunicación escrita?",
-      "answer": "<mark>Comunicación escrita externa</mark>"
+      "answer": "<mark>Comunicación escrita externa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa/comunicacion-externa.jpg",
+        "title": "Entrada por salida — juguete en un acto y en prosa",
+        "source": "https://commons.wikimedia.org/wiki/File:Entrada_por_salida_-_juguete_en_un_acto_y_en_prosa_(IA_entradaporsalida3851nava).pdf",
+        "alt": "(imagen)",
+        "autor": "Navarro, Calixto, 1847-1900",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Un documento formal que sirve para comunicarse con clientes, proveedores o instituciones ajenas a la empresa. <mark>Es como una carta personal pero con formato de empresa: tiene datos oficiales y un lenguaje profesional</mark>. ¿Cómo se llama este documento comercial?",
-      "answer": "<mark>Carta comercial</mark>"
+      "answer": "<mark>Carta comercial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa/carta-comercial.jpg",
+        "title": "La parroquia (novela)",
+        "source": "https://commons.wikimedia.org/wiki/File:La_parroquia_-_(novela)_(IA_laparroquianovel00sola).pdf",
+        "alt": "(imagen)",
+        "autor": "Sola, Juan d'",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "La carta comercial lleva: nombre de la empresa con logotipo, dirección y datos de contacto en la parte superior. <mark>Es como la cabecera de un documento oficial que dice quién lo envía</mark>. ¿Cómo se llama esta parte de la carta comercial?",
-      "answer": "<mark>Membrete</mark>"
+      "answer": "<mark>Membrete</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa/membrete.jpg",
+        "title": "Más detallesPUBLICACIÓN[S.l. : s.n., 1601?]DESCR. FÍSICA12 h. ; FolNOTA AL TIT.Tít. tomado de la cabecera del textoFirma el texto: \"Lic. D. Ioseph de Ledesma\"NOTA A PUBLIC.Probablemente imp. en el S.XVIIDESCR. FÍSICASign.: A-F2OTRO AUTORLumiares, Anelo de Guzmán , Conde deLedesma, José deSIGNATURAA 111/113(25)Catálogo Fama Subjects: Fondo Antiguo; Libros del Siglo XVII; Tomos de varios; Porcones. Alegaciones Jurídicas. Pleitos",
+        "source": "https://commons.wikimedia.org/wiki/File:Respuesta_por_el_se%C3%B1or_Principe_de_Astillano,_al_segundo_papel_del_Conde_de_Lumiares_su_hermano_en_el_pleyto_sobre_la_castellania_de_Castilnovo)_(IA_A11111325).pdf",
+        "alt": "(imagen)",
+        "autor": "Stillano , Príncipe de Lumiares, Anelo de Guzmán , Conde de Ledesma, José de",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "En la carta comercial, después del membrete va: la ciudad donde se escribe y la fecha. <mark>Es como cuando escribes una carta y pones 'Madrid, 15 de octubre de 2026'</mark>. ¿Para qué sirve la fecha en una carta comercial?",
-      "answer": "<mark>Para indicar cuándo se emitió la comunicación</mark>"
+      "answer": "<mark>Para indicar cuándo se emitió la comunicación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa/fecha-carta-comercial.jpg",
+        "title": "Las correcciones periódicas del antiguo calendario mexicano",
+        "source": "https://commons.wikimedia.org/wiki/File:Las_correciones_peri%C3%B3dicas_del_antiguo_calendario_mexicano_(IA_lascorrecionespe00nutt).pdf",
+        "alt": "(imagen)",
+        "autor": "Zelia Nuttall",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "La carta comercial lleva: a quién va dirigida (nombre, cargo, empresa), qué se le quiere decir (cuerpo), un saludo formal al final y la firma con el cargo. <mark>Es como el cuerpo de un email: el asunto, el mensaje y la despedida con nombre</mark>. ¿Cuáles son las partes principales del cuerpo de una carta comercial?",
-      "answer": "<mark>Destinatario, cuerpo del mensaje, saludo y despedida, firma y cargo</mark>"
+      "answer": "<mark>Destinatario, cuerpo del mensaje, saludo y despedida, firma y cargo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa/partes-carta-comercial.jpg",
+        "title": "Anales de la Sociedad Científica Argentina",
+        "source": "https://commons.wikimedia.org/wiki/File:Anales_de_la_Sociedad_Cient%C3%ADfica_Argentina_(IA_analesdelasocied2392soci).pdf",
+        "alt": "(imagen)",
+        "autor": "Congreso Científico Internacional Americano (Buenos Aires)",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "A diferencia de la comunicación interna que queda entre departamentos, la carta comercial es un documento que sale de la empresa y puede tener valor legal o fiscal. <mark>Es como la diferencia entre hablar con un compañero de oficina y hablar con un cliente de fuera: en el segundo caso hay más cuidado con lo que se dice</mark>. ¿Qué diferencia a la comunicación externa de la interna en cuanto a responsabilidad?",
-      "answer": "<mark>La comunicación externa puede tener valor legal o fiscal</mark>"
+      "answer": "<mark>La comunicación externa puede tener valor legal o fiscal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa/valor-legal-externa.jpg",
+        "title": "All content posted in the Blogtrepreneur Flickr Photostream is available for use under the Creative Commons Attribution License. Please provide attribution via a link to howtostartablogonline.net/legal You get convenient access to this free original image in exchange for a simple attribution. An additional version of this image is available in cool tones. https://www.flickr.com/photos/143601516@N03/albums These images have also been described as: papers to sign, papers on a desk, stack of lawyer papers, legal forms, lawyer job, pen on paper, legally binding documents, agreements, legal contracts, papers scattered on a desk, repetitive, signature, blurry, unclear, pile of documents, dull paperwork, official documents, documents and writing instrument, pen and paper, office , tan sepia tone, paper work, agreeing to pay, laying flat, preparing for legal stuff signing, writing, parsing important information, lawyer signing paperwork, challenging, sue, signing a contract, progressing official, the contract must get inked, the pen is resting on the paper, stuff that bores me, slow and boring, reading, demanding, preparing a contract, filling in forms, suing, reading between the lines, getting legal help, black pen on paperwork, getting ready to sign, advancement, legalize, signing a legal document, legal papers, eye-crossing work, boring",
+        "source": "https://commons.wikimedia.org/wiki/File:Legal_Contract_%26_Signature_-_Warm_Tones.jpg",
+        "alt": "(imagen)",
+        "autor": "Blogtrepreneur",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

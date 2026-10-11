@@ -5,23 +5,63 @@
   "cards": [
     {
       "question": "La empresa crea puestos de trabajo y genera riqueza para la sociedad. <mark>Es como un árbol que da frutos (empleo y dinero) para la comunidad</mark>. ¿Cómo se llama esta función de la empresa?",
-      "answer": "<mark>Crear empleo y riqueza</mark>"
+      "answer": "<mark>Crear empleo y riqueza</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/crear-empleo.jpg",
+        "title": "Los frutos ácidos",
+        "source": "https://commons.wikimedia.org/wiki/File:Los_frutos_%C3%A1cidos_-_bdcyl21694.pdf",
+        "alt": "(imagen)",
+        "autor": "Alfonso Hernández Catá",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Toda empresa asume riesgos: puede perder dinero, un producto puede no venderse, una máquina puede romperse. <mark>Es como cruzar la calle: siempre hay riesgo de accidente pero hay que hacerlo para llegar al otro lado</mark>. ¿Cómo se llama esta función empresarial?",
-      "answer": "<mark>Asumir riesgos técnicos y económicos</mark>"
+      "answer": "<mark>Asumir riesgos técnicos y económicos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/asumir-riesgos.jpg",
+        "title": "Risk Assessment",
+        "source": "https://commons.wikimedia.org/wiki/File:Risk_Assessment_-Slides-En.pptx.pdf",
+        "alt": "(imagen)",
+        "autor": "Nhatem3",
+        "licencia": "CC0"
+      }
     },
     {
       "question": "La empresa coordina máquinas, personas y dinero para producir un bien o servicio que luego vender. <mark>Es como organizar una obra: el arquitecto dibuja, los albañiles construyen, el jefe de obra coordina que todo llegue a tiempo</mark>. ¿Cómo se llama esta función?",
-      "answer": "<mark>Organizar y dirigir el proceso de producción</mark>"
+      "answer": "<mark>Organizar y dirigir el proceso de producción</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/organizar-dirigir-produccion.jpg",
+        "title": "Anales de la Construcción y de la Industria (1876)",
+        "source": "https://commons.wikimedia.org/wiki/File:Anales_de_la_Construcci%C3%B3n_y_de_la_Industria,_n%C2%BA1,_1876.pdf",
+        "alt": "(imagen)",
+        "autor": "Eduardo Echegaray, Enrique Repullés, Enrique Fernández Villaverde, Pedro Pérez de la Sala, Daniel de Córtazar, Agustín Ortiz de Villajos, J. Méndez",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "La estructura formal es la que diseña la dirección de la empresa sobre el papel: organigramas, puestos, jerarquía. <mark>Es como el plano de una casa hecho por un arquitecto</mark>. ¿Cómo se llama esta parte planificada de la organización?",
-      "answer": "<mark>Estructura formal</mark>"
+      "answer": "<mark>Estructura formal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/estructura-formal.jpg",
+        "title": "Libro Arquitecto Ernesto Puppo",
+        "source": "https://commons.wikimedia.org/wiki/File:Libro_%22Arquitecto_Ernesto_Puppo%22.pdf",
+        "alt": "(imagen)",
+        "autor": "Ernesto Puppo",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "En la oficina, María y Carlos trabajan siempre juntos aunque no sea oficial; se sentan juntos, se ayudan y se comunican directamente. Esto no está en ningún organigrama pero pasa cada día. <mark>Es como los pasillos y atajos de un edificio que la gente usa aunque no estén en el plano</mark>. ¿Cómo se llama esta red de relaciones reales no planificadas?",
-      "answer": "<mark>Estructura informal</mark>"
+      "answer": "<mark>Estructura informal</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/estructura-informal.jpg",
+        "title": "La Ginesa — Carlos María Ocantos",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Ginesa_-_Carlos_Maria_Ocantos.pdf",
+        "alt": "(imagen)",
+        "autor": "Carlos María Ocantos",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Una empresa real siempre tiene las relaciones oficiales (organigrama) Y las relaciones que nacen espontáneamente entre compañeros. <mark>Es como un iceberg: la parte visible es la estructura formal, pero debajo del agua está la informal que también importa</mark>. ¿Cuál es la fórmula de la organización real?",
