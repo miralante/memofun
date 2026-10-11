@@ -5,23 +5,24 @@
 
 ## Migración a Wikimedia Commons (octubre 2026)
 
-El **Tema 1** se migró del modelo antiguo (imágenes en la raíz del curso, autor
-Flickr/CC-BY) al modelo nuevo (carpeta `assets/img/decks/.../tema-1-la-empresa/<baraja>/<slug>.jpg`,
+Las barajas se migraron del modelo antiguo (imágenes en raíz del curso, autor
+Flickr/CC-BY) al modelo nuevo (carpeta
+`assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-N-slug/<baraja>/<slug>.jpg`,
 atribución completa de Wikimedia Commons).
 
 Concretamente:
-- 17/17 baraja `departamentos` migradas a Wikimedia (incluye dos reusadas:
-  `departamentos-empresa` → `departamentos`, y `organigrama-correspondencia` →
-  reuso de `organigrama-def`)
-- 11/12 baraja `estructura-organizativa-tareas` (falla `organizacion-funcional` —
-  se quedó como texto solo)
-- 8/8 baraja `tipos-empresa-empresario`
-- 5/6 baraja `funciones-empresa-estructura` (falla `formula-organizacion-real` —
-  se quedó como texto solo)
-- 6/6 baraja `comunicacion-escrita-externa`
+- **Tema 1** (5 barajas, 49 cards, 47/49 con imagen CC):
+  - `departamentos` 17/17
+  - `estructura-organizativa-tareas` 11/12 (falla `organizacion-funcional` — text-only)
+  - `tipos-empresa-empresario` 8/8
+  - `funciones-empresa-estructura` 5/6 (falla `formula-organizacion-real` — text-only)
+  - `comunicacion-escrita-externa` 6/6
+- **Tema 2** (1 baraja, 17 cards): `recibos-justificantes-pago` 17/17
 
-Total: **47/49 cards** con imagen de Wikimedia CC-BY/-SA o Public Domain; 2 text-only.
-Pendiente migrar Temas 2-7 con el mismo patrón cuando se rehagan sus barajas.
+Total migrado: **64/66 cards** con imagen de Wikimedia CC-BY/-SA o Public Domain;
+2 text-only (las del Tema 1 listadas arriba).
+
+Pendiente migrar Temas 3-7 con el mismo patrón cuando se rehagan sus barajas.
 
 - Departamentos de una empresa (compras, RRHH...): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos.json (repartir tareas de una casa)
 - Departamento de compras: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos.json (encargado de la compra grande)
