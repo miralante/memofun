@@ -1,39 +1,31 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!-- ============================================================================
      Memofun — /dev/ : catálogo de desarrollo.
 
-     Página hardcodeada (sin app.js) con todos los cursos, asignaturas y
-     temarios expandidos en un solo nivel. Estructura:
+     Página hardcodeada (sin app.js) con todos los cursos y asignaturas
+     activados. Estructura:
 
-       H2 curso → H3 asignatura → card por tema (o baraja directa si
-       no tiene temario)
+       H2 curso → card por asignatura (con H3 dentro)
 
-     Cada card lleva ?course= &subject= [&topicGroup=] y abre la baraja
-     directamente en el visor de tarjetas de la raíz. Así se llega sin
-     pasar por la vista de asignatura → tema.
+     Cada asignatura abre la portada pública en ../index.html con
+     ?course=X&subject=Y, donde app.js renderiza el nivel de asignatura
+     (renderTopicLevel) y muestra los grupos de temas. La baraja suelta
+     que una asignatura pueda tener sin topicGroup aparece también a
+     ese nivel, igual que en la portada.
 
      No usa data-access="full" ni OPEN_SUBJECTS: la decisión de qué
      asignaturas son visibles vive enteramente aquí, como en Routime y
      Calculia con sus herramientas.
 
      En la portada pública (app.js → OPEN_SUBJECTS) algunas asignaturas
-     aparecen como "Próximamente"; aquí todas están activas.
+     aparecen como "Próximamente"; aquí todas están activas. La forma
+     de las cards (deck-card) y los iconos (deck-icon) coinciden con
+     los de la portada para que el lector de ojos vea la misma jerarquía
+     que al pinchar un curso en https://memofun.apptonomia.uk/.
 
-     El campo `topicGroup` de cada baraja en el manifest es la clave;
-     las topicGroups de Técnicas Administrativas son:
-       Tema 1 · La empresa          (6 barajas)
-       Tema 3 · Comunicación         (2 barajas)
-       Tema 4 · Correos y mensajería (1 baraja)
-       Tema 5 · Material de oficina  (1 baraja)
-       Tema 6 · Operaciones de cobro y pago (2 barajas)
-       Tema 7 · Búsqueda de empleo  (1 baraja)
-     Las dos barajas sin topicGroup (Departamento de compras y
-     Recibo y justificantes de pago) no tienen tema propio y
-     aparecen como barajas sueltas dentro de Técnicas Administrativas.
-
-     Los totales de tarjetas son sumas de los `amount` de cada baraja
-     según el manifest — copia literal para que el dev page sea
-     coherent con el manifest y no haya que mantener dos cuentas.
+     Los totales de tarjetas son sumas del `amount` de cada baraja
+     según el manifest — copia literal para que el dev page sea coherente
+     con el manifest y no haya que mantener dos cuentas.
      ============================================================================ -->
 <html lang="es">
 <head>
@@ -70,2250 +62,402 @@
 </header>
 
 <main id="contenido" class="container container-wide">
-  <!-- ================================================================
-       1º de ESO
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">1º de ESO</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🧬</span>
-    Biología y Geología
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El método científico y las rocas de la Tierra</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>La célula: unidad de los seres vivos</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El reino animal y el reino de las plantas</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>Clasificar y proteger la biodiversidad</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>Ecosistemas, atmósfera, hidrosfera y cambio climático</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>Alimentación, afectividad y hábitos saludables</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El Sistema Solar, la Luna y los biomas</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Geografía e Historia
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Geografía física: la Tierra, el relieve y el clima</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Retos ambientales y sociedad digital</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Prehistoria y las primeras civilizaciones</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Antigua Grecia</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Antigua Roma y la Hispania romana</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Sociedad y economía en el mundo antiguo</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Relieve, evolución humana y el Mediterráneo antiguo</h4>
-      <span class="deck-meta">19 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Literatura popular es anónima</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Literatura oral vs escrita</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Cantar de gesta</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Moraleja</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Las lenguas de España y el origen del castellano</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>La comunicación y los textos narrativos y descriptivos</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El diálogo, las técnicas de estudio y la exposición oral</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Los géneros literarios, los mitos y las leyendas</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Los cuentos maravillosos, los romances y la biblioteca</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>La palabra, la gramática y la ortografía</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>La comunicación, la literatura y la gramática (repaso de puntos pendientes)</h4>
-      <span class="deck-meta">25 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       1º de FP Básica Servicios Administrativos
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">1º de FP Básica Servicios Administrativos</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🤝</span>
-    Atención al Cliente
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Atenci%C3%B3n%20al%20Cliente">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Comunicación verbal vs. no verbal</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Atenci%C3%B3n%20al%20Cliente">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Trato amable y profesional pase lo que pase</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Atenci%C3%B3n%20al%20Cliente">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Cuidar la imagen y los datos del cliente</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🔬</span>
-    Ciencias Aplicadas
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Aplicadas">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Ciencias Aplicadas</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Aplicadas">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Energía, clima, ecosistemas y seguridad en el trabajo</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Ciencias Sociales</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>España, Europa y el mundo: geografía y derechos</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🧭</span>
-    Itinerario Personal para la Empleabilidad
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%201%20%C2%B7%20Seguridad%20y%20salud%20en%20el%20trabajo">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 1 · Seguridad y salud en el trabajo</h4>
-      <span class="deck-meta">4 barajas · 71 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%202%20%C2%B7%20T%C3%A9cnicas%20de%20prevenci%C3%B3n%20y%20protecci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 2 · Técnicas de prevención y protección</h4>
-      <span class="deck-meta">3 barajas · 40 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%203%20%C2%B7%20T%C3%A9cnicas%20b%C3%A1sicas%20de%20primeros%20auxilios">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 3 · Técnicas básicas de primeros auxilios</h4>
-      <span class="deck-meta">4 barajas · 37 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%204%20%C2%B7%20Autoconocimiento%20y%20habilidades%20personales">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 4 · Autoconocimiento y habilidades personales</h4>
-      <span class="deck-meta">4 barajas · 44 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%205%20%C2%B7%20Habilidades%20personales">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 5 · Habilidades personales</h4>
-      <span class="deck-meta">6 barajas · 36 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%206%20%C2%B7%20Itinerarios%20acad%C3%A9micos%20y%20profesionales">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 6 · Itinerarios académicos y profesionales</h4>
-      <span class="deck-meta">4 barajas · 23 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%207%20%C2%B7%20La%20b%C3%BAsqueda%20de%20empleo">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 7 · La búsqueda de empleo</h4>
-      <span class="deck-meta">7 barajas · 34 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad&topicGroup=Tema%208%20%C2%B7%20Toma%20de%20decisiones%20e%20itinerario%20personal">
-      <span class="deck-icon" aria-hidden="true">🧭</span>
-      <h4>Tema 8 · Toma de decisiones e itinerario personal</h4>
-      <span class="deck-meta">7 barajas · 28 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Comunicación oral vs. escrita</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Sujeto y predicado de una oración</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Gramática, textos y comunicación formal</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🏢</span>
-    Técnicas Administrativas Básicas
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas&topicGroup=Tema%201%20%C2%B7%20La%20empresa">
-      <span class="deck-icon" aria-hidden="true">🏢</span>
-      <h4>Tema 1 · La empresa</h4>
-      <span class="deck-meta">5 barajas · 49 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas&topicGroup=Tema%202%20%C2%B7%20%C3%81reas%20funcionales">
-      <span class="deck-icon" aria-hidden="true">🏢</span>
-      <h4>Tema 2 · Áreas funcionales</h4>
-      <span class="deck-meta">1 baraja · 17 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas&topicGroup=Tema%203%20%C2%B7%20Comunicaci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">🏢</span>
-      <h4>Tema 3 · Comunicación</h4>
-      <span class="deck-meta">2 barajas · 32 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas&topicGroup=Tema%204%20%C2%B7%20Correos%20y%20mensajer%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🏢</span>
-      <h4>Tema 4 · Correos y mensajería</h4>
-      <span class="deck-meta">1 baraja · 10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas&topicGroup=Tema%205%20%C2%B7%20Material%20de%20oficina">
-      <span class="deck-icon" aria-hidden="true">🏢</span>
-      <h4>Tema 5 · Material de oficina</h4>
-      <span class="deck-meta">1 baraja · 5 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas&topicGroup=Tema%206%20%C2%B7%20Operaciones%20de%20cobro%20y%20pago">
-      <span class="deck-icon" aria-hidden="true">🏢</span>
-      <h4>Tema 6 · Operaciones de cobro y pago</h4>
-      <span class="deck-meta">2 barajas · 25 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas&topicGroup=Tema%207%20%C2%B7%20B%C3%BAsqueda%20de%20empleo">
-      <span class="deck-icon" aria-hidden="true">🏢</span>
-      <h4>Tema 7 · Búsqueda de empleo</h4>
-      <span class="deck-meta">1 baraja · 6 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">💻</span>
-    Tratamiento Informático de Datos
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Tratamiento%20Inform%C3%A1tico%20de%20Datos">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Hardware vs. software</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Tratamiento%20Inform%C3%A1tico%20de%20Datos">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Contraseñas seguras y buenas prácticas</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Tratamiento%20Inform%C3%A1tico%20de%20Datos">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Ofimática, nube y correo con seguridad</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       1º de FP GM Gestión Administrativa
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">1º de FP GM Gestión Administrativa</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📞</span>
-    Comunicación Empresarial y Atención al Cliente
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Comunicaci%C3%B3n%20Empresarial%20y%20Atenci%C3%B3n%20al%20Cliente">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Comunicación Empresarial y Atención al Cliente</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Comunicaci%C3%B3n%20Empresarial%20y%20Atenci%C3%B3n%20al%20Cliente">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Marketing, calidad y protección de datos en la atención al cliente</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Comunicaci%C3%B3n%20Empresarial%20y%20Atenci%C3%B3n%20al%20Cliente">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Clientela, marketing mix y archivo digital</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🏢</span>
-    Empresa y Administración
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20y%20Administraci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Empresa y Administración</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20y%20Administraci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Fiscalidad, autónomos y procedimiento administrativo</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20y%20Administraci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Financiación, tributos y Administración electrónica</h4>
-      <span class="deck-meta">19 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🧭</span>
-    Itinerario Personal para la Empleabilidad I
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20I">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Itinerario Personal para la Empleabilidad I</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20I">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Asertividad, portales de empleo y prevención en la oficina</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20I">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Entrevista de trabajo, selección de personal y derechos colectivos</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🛒</span>
-    Operaciones Administrativas de Compraventa
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Compraventa">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Operaciones Administrativas de Compraventa</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Compraventa">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Precios, descuentos y financiación en la compraventa</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Compraventa">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Existencias, IVA y medios de pago en la compraventa</h4>
-      <span class="deck-meta">19 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📊</span>
-    Técnica Contable
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=T%C3%A9cnica%20Contable">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Técnica Contable</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=T%C3%A9cnica%20Contable">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Masas patrimoniales y contabilidad con aplicaciones informáticas</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=T%C3%A9cnica%20Contable">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Inventario, principios contables y cierre del ejercicio</h4>
-      <span class="deck-meta">17 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">💻</span>
-    Tratamiento Informático de la Información
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20Inform%C3%A1tico%20de%20la%20Informaci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Ofimática: procesador de textos y hoja de cálculo</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20Inform%C3%A1tico%20de%20la%20Informaci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Bases de datos, internet y seguridad informática</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20Inform%C3%A1tico%20de%20la%20Informaci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Mecanografía, multimedia, presentaciones y correo electrónico</h4>
-      <span class="deck-meta">28 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       1º de Primaria
-       ================================================================ -->
   <div class="section-header" style="margin-top: var(--space-6);">
     <h2 class="section-heading">1º de Primaria</h2>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌿</span>
-    Ciencias Naturales
-  </h3>
   <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La ciencia y los animales</h4>
-      <span class="deck-meta">17 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Las plantas y el cuidado de los animales</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El cuerpo humano y los sentidos</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La higiene, los alimentos y el día y la noche</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El tiempo atmosférico, los hábitats y los hábitos sanos</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El sol como tiempo atmosférico</h4>
-      <span class="deck-meta">1 tarjeta</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Mi familia, mi casa y mi colegio</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Las profesiones y las normas de convivencia</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Mi barrio, el transporte y los días de la semana</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Los meses, el paso del tiempo y las fiestas</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>El reciclaje, el mapa y las estaciones del año</h4>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
       <span class="deck-meta">11 tarjetas</span>
     </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
+      <span class="deck-icon" aria-hidden="true">🌿</span>
+      <h3>Ciencias Naturales</h3>
+      <span class="deck-meta">6 tarjetas</span>
+    </a>
     <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Qué cambia en cada estación del año</h4>
-      <span class="deck-meta">3 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Para qué sirve cada espacio del colegio</h4>
-      <span class="deck-meta">2 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Caperucita Roja</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Fábula</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Blancanieves</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Autor/autora</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El abecedario y las primeras sílabas</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Sílabas complejas y la lectura de palabras y frases</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Escribir y contar: mi nombre, mis frases y mis cuentos</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Rimas, el abecedario y las reglas de escritura</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>La comunicación oral y las primeras nociones de gramática</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Retahílas y la diferencia entre cuento y poema</h4>
-      <span class="deck-meta">4 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Canciones, retahílas y el poema</h4>
-      <span class="deck-meta">2 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       2º de ESO
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">2º de ESO</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">⚗️</span>
-    Física y Química
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>El método científico y el laboratorio</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>La materia: propiedades, estados y mezclas</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>Los primeros átomos y la tabla periódica</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>El movimiento y las fuerzas</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>La energía y el calor</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>Enlaces, reacciones y electricidad</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Geografía e Historia
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
       <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Geografía humana: población y ciudades</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Retos globales y desarrollo sostenible</h4>
-      <span class="deck-meta">11 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Alta Edad Media: Bizancio, el Islam y el feudalismo</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Al-Ándalus y los reinos cristianos medievales</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Los Reyes Católicos, América y el Renacimiento</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La crisis del siglo XVII y el Barroco</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Sociedad, organización territorial y colonias</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Estrofa</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Hipérbole</h4>
-      <span class="deck-meta">7 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Aliteración</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Paradoja</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El castellano medieval y los préstamos lingüísticos</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Los tipos de texto: expositivo, instructivo y argumentativo</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El correo electrónico y la exposición oral</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>La Edad Media, el Cantar de Mio Cid y el Mester de Clerecía</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El Arcipreste de Hita, Don Juan Manuel y los recursos literarios</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El sintagma, la oración y la ortografía: tilde y puntuación</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Variedades, funciones del lenguaje y gramática</h4>
-      <span class="deck-meta">11 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       2º de FP Básica Servicios Administrativos
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">2º de FP Básica Servicios Administrativos</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">💻</span>
-    Aplicaciones Básicas de Ofimática
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Aplicaciones%20B%C3%A1sicas%20de%20Ofim%C3%A1tica">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Negrita para destacar texto</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Aplicaciones%20B%C3%A1sicas%20de%20Ofim%C3%A1tica">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Crear un gráfico a partir de datos</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Aplicaciones%20B%C3%A1sicas%20de%20Ofim%C3%A1tica">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Plantillas, corrección y seguridad informática</h4>
+      <h3>Ciencias Sociales</h3>
       <span class="deck-meta">7 tarjetas</span>
     </a>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📁</span>
-    Archivo y Comunicación
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Archivo%20y%20Comunicaci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Comprobar la fotocopia antes de darla por buena</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Archivo%20y%20Comunicaci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Normas al recibir una llamada de trabajo</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Archivo%20y%20Comunicaci%C3%B3n">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Conservación de documentos y comunicación interna</h4>
-      <span class="deck-meta">7 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🔬</span>
-    Ciencias Aplicadas
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Aplicadas">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Ciencias Aplicadas</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Aplicadas">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Hábitos saludables, reciclaje y señalización</h4>
-      <span class="deck-meta">4 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Ciencias Sociales</h4>
-      <span class="deck-meta">17 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Constitución, Unión Europea e igualdad</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Diferencia entre hecho y opinión</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Tiempos verbales de pasado y futuro</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Comprensión de textos y comunicación oral</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🛒</span>
-    Preparación de Pedidos y Venta de Productos
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Preparaci%C3%B3n%20de%20Pedidos%20y%20Venta%20de%20Productos">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Fases de la atención al cliente en tienda/almacén</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Preparaci%C3%B3n%20de%20Pedidos%20y%20Venta%20de%20Productos">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Documento necesario para tramitar una devolución</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Preparaci%C3%B3n%20de%20Pedidos%20y%20Venta%20de%20Productos">
-      <span class="deck-icon" aria-hidden="true">📋</span>
-      <h4>Escaparate, inventario, pedidos y etiquetado</h4>
-      <span class="deck-meta">5 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       2º de FP GM Gestión Administrativa
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">2º de FP GM Gestión Administrativa</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">💻</span>
-    Digitalización Aplicada a los Sectores Productivos
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Digitalizaci%C3%B3n%20Aplicada%20a%20los%20Sectores%20Productivos">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Digitalización Aplicada a los Sectores Productivos</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Digitalizaci%C3%B3n%20Aplicada%20a%20los%20Sectores%20Productivos">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Tecnologías habilitadoras: IoT, Big Data y más</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Digitalizaci%C3%B3n%20Aplicada%20a%20los%20Sectores%20Productivos">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Herramientas en la nube, wearables y ciberseguridad cotidiana</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🏫</span>
-    Empresa en el Aula
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20en%20el%20Aula">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Empresa en el Aula</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20en%20el%20Aula">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Constitución, viabilidad y ciclo económico de la empresa simulada</h4>
-      <span class="deck-meta">9 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20en%20el%20Aula">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>El empresario, el plan de empresa y el cierre del proyecto</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🧭</span>
-    Itinerario Personal para la Empleabilidad II
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20II">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Itinerario Personal para la Empleabilidad II</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20II">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Selección, financiación y trámites de autónomo</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20II">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Búsqueda digital, derechos laborales y proyecto emprendedor</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">👥</span>
-    Operaciones Administrativas de Recursos Humanos
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Recursos%20Humanos">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Operaciones Administrativas de Recursos Humanos</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Recursos%20Humanos">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Convenios, formación continua y cotización a la Seguridad Social</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Recursos%20Humanos">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Organización, contratación e igualdad en RRHH</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">💰</span>
-    Operaciones Auxiliares de Gestión de Tesorería
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Auxiliares%20de%20Gesti%C3%B3n%20de%20Tesorer%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Operaciones Auxiliares de Gestión de Tesorería</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Auxiliares%20de%20Gesti%C3%B3n%20de%20Tesorer%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Flujos de caja, custodia de valores y confidencialidad</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Auxiliares%20de%20Gesti%C3%B3n%20de%20Tesorer%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Precios, cobros y extractos en tesorería</h4>
-      <span class="deck-meta">9 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌱</span>
-    Sostenibilidad Aplicada al Sistema Productivo
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Sostenibilidad%20Aplicada%20al%20Sistema%20Productivo">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Sostenibilidad Aplicada al Sistema Productivo</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Sostenibilidad%20Aplicada%20al%20Sistema%20Productivo">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Criterios ESG, cambio climático y plan de sostenibilidad</h4>
-      <span class="deck-meta">9 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Sostenibilidad%20Aplicada%20al%20Sistema%20Productivo">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Normativa, agua, etiquetado y comunicación de la sostenibilidad</h4>
-      <span class="deck-meta">7 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📊</span>
-    Tratamiento de la Documentación Contable
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20de%20la%20Documentaci%C3%B3n%20Contable">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Tratamiento de la Documentación Contable</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20de%20la%20Documentaci%C3%B3n%20Contable">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>Libros registro, notas de abono y archivo de documentos contables</h4>
-      <span class="deck-meta">9 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20de%20la%20Documentaci%C3%B3n%20Contable">
-      <span class="deck-icon" aria-hidden="true">💼</span>
-      <h4>PGC de PYMES, devoluciones, provisiones y firma electrónica</h4>
-      <span class="deck-meta">7 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       2º de Primaria
-       ================================================================ -->
   <div class="section-header" style="margin-top: var(--space-6);">
     <h2 class="section-heading">2º de Primaria</h2>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌿</span>
-    Ciencias Naturales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Los seres vivos: clasificar y conocer a los animales</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Los seres vivos: de la semilla al fruto</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El ser humano y la salud</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La materia, la energía y la Tierra</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Observar, sentir y descubrir la naturaleza</h4>
-      <span class="deck-meta">20 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El cielo nocturno y el verano en la naturaleza</h4>
-      <span class="deck-meta">4 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Mi localidad: calles, plazas y mapas</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Medios de transporte, el tiempo y las estaciones</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Oficios, servicios públicos y comercio en mi barrio</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Fiestas, tradiciones y patrimonio de mi entorno</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Cuidar mi localidad: convivencia, recursos y leyendas</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Cuentos y leyendas de mi región</h4>
-      <span class="deck-meta">2 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
   <div class="deck-grid" role="list">
     <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
       <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Principio y final de un cuento</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Título de un cuento</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Protagonista</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Poema</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Reflexión sobre la lengua: primeras reglas</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Comunicación: leer y escribir</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Comunicación: hablar y escuchar</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Educación literaria: biblioteca, cuentos y poemas</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Palabras, instrucciones y contar experiencias</h4>
+      <h3>Lengua Castellana</h3>
       <span class="deck-meta">11 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Fábulas y teatro sencillo</h4>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
+      <span class="deck-icon" aria-hidden="true">🌿</span>
+      <h3>Ciencias Naturales</h3>
       <span class="deck-meta">6 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Fábulas y primer teatro</h4>
-      <span class="deck-meta">2 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       3º de ESO
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">3º de ESO</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🧬</span>
-    Biología y Geología
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El método científico y la energía de la Tierra</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El cuerpo humano: la nutrición</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El cuerpo humano: relación, sistema nervioso y reproducción</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>Enfermedades, sistema inmunitario y vacunas</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>Sexualidad, afectividad y hábitos saludables</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El cuerpo humano y la Tierra: puntos pendientes</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">⚗️</span>
-    Física y Química
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>El método científico: magnitudes, unidades y notación científica</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>La materia: gases, átomos e iones</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>La tabla periódica, el enlace, el mol y las reacciones químicas</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>El movimiento: cinemática y las fuerzas</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>La energía y la electricidad</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>Materia, átomos y energía: puntos pendientes</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Geografía e Historia
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
       <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La actividad económica y los sectores productivos</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Medio ambiente, sostenibilidad y población</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La crisis del Antiguo Régimen y las revoluciones liberales</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Revolución Industrial y el imperialismo</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>España en el siglo XVIII y XIX</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Política, economía y patrimonio en el siglo XIX</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Población, ciudades y organización actual</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Garcilaso de la Vega</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Soneto</h4>
-      <span class="deck-meta">7 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Culteranismo</h4>
+      <h3>Ciencias Sociales</h3>
       <span class="deck-meta">6 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Ilustración</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Las lenguas de España y los registros de la lengua</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El texto argumentativo, el debate y los medios de comunicación</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>La oración compuesta: coordinación, yuxtaposición y subordinación</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Clases de palabras, acentuación y puntuación avanzada</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Publicidad, connotación y sintaxis avanzada</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
   </div>
-
-  <!-- ================================================================
-       3º de Primaria
-       ================================================================ -->
   <div class="section-header" style="margin-top: var(--space-6);">
     <h2 class="section-heading">3º de Primaria</h2>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌿</span>
-    Ciencias Naturales
-  </h3>
   <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>el método científico y los animales</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>la fotosíntesis y las partes de la planta</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>el reciclaje y cuidar el planeta</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>el aparato digestivo, el aparato respiratorio y los alimentos</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>materiales, fuerzas, el suelo y los objetos cotidianos</h4>
+    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
       <span class="deck-meta">12 tarjetas</span>
     </a>
     <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>invertebrados, el cuerpo, los estados de la materia y el tiempo atmosférico</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>el paisaje de mi entorno, el relieve, los ríos y las costas</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>el municipio y sus instituciones</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>los sectores económicos, primario, secundario y terciario</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>los medios de comunicación y consumir con cabeza</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>el patrimonio cultural, el tiempo, el pasado y las tradiciones</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>puntos cardinales, mapas, servicios públicos, convivencia y el calendario</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Distinguir lo importante de los detalles</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Estrofa</h4>
+      <span class="deck-icon" aria-hidden="true">🌿</span>
+      <h3>Ciencias Naturales</h3>
       <span class="deck-meta">6 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Fábula</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Onomatopeya</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>el sustantivo, el adjetivo y el verbo</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>la sílaba tónica, la tilde y el diccionario</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>comprensión lectora de cuentos, textos informativos y escuchar exposiciones</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>escribir descripciones, cartas y contar experiencias en orden</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>la rima, cuentos tradicionales, fábulas y las lenguas de España</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>el artículo, singular y plural, la puntuación, la noticia y el resumen</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Cuentos tradicionales parecidos en países distintos, por qué existen</h4>
-      <span class="deck-meta">4 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Elementos del cuento y la poesía en voz alta</h4>
-      <span class="deck-meta">2 tarjetas</span>
-    </a>
-  </div>
-
-  <!-- ================================================================
-       4º de ESO
-       ================================================================ -->
-  <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">4º de ESO</h2>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🧬</span>
-    Biología y Geología
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El método científico avanzado</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>La célula: ciclo celular, mitosis y meiosis</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>Genética: ADN, genes y las leyes de Mendel</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>La evolución de las especies y de los seres humanos</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>La geología: relieve, tectónica de placas y riesgos geológicos</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>El universo, el sistema solar y el origen de la vida</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
-      <span class="deck-icon" aria-hidden="true">🧬</span>
-      <h4>La genética aplicada y el medio ambiente</h4>
-      <span class="deck-meta">9 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">⚗️</span>
-    Física y Química
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>El método científico avanzado</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>Los modelos atómicos y la estructura electrónica</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>El enlace químico, el mol y las disoluciones</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>Introducción a la química orgánica</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>Las reacciones químicas</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>El movimiento y las fuerzas</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>La energía</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
-      <span class="deck-icon" aria-hidden="true">⚛️</span>
-      <h4>Biomoléculas, ácido-base, las leyes de Newton y cambios de estado</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Geografía e Historia
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
+    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
       <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Primera Guerra Mundial y la Revolución Rusa</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Los totalitarismos y la Segunda Guerra Mundial</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Guerra Fría y la descolonización</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>España en el siglo XX: de Alfonso XIII a la democracia</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Unión Europea y la geopolítica del mundo actual</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Sociedad, igualdad y derechos en el mundo contemporáneo</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>La Guerra Fría periférica y los conflictos actuales</h4>
-      <span class="deck-meta">3 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Bécquer</h4>
-      <span class="deck-meta">19 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Generación del 27</h4>
-      <span class="deck-meta">8 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Larra</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Buero Vallejo</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El español en el mundo y la diversidad lingüística</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Textos de comunicación: prensa, currículum y debate académico</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Gramática avanzada: subordinadas, conectores y lenguaje digital</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Gramática avanzada: pronombres y oraciones especiales</h4>
-      <span class="deck-meta">5 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Literatura</h4>
+      <h3>Ciencias Sociales</h3>
       <span class="deck-meta">6 tarjetas</span>
     </a>
   </div>
-
-  <!-- ================================================================
-       4º de Primaria
-       ================================================================ -->
   <div class="section-header" style="margin-top: var(--space-6);">
     <h2 class="section-heading">4º de Primaria</h2>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌿</span>
-    Ciencias Naturales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Cómo investigar en ciencias y los seres vivos</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El ser humano y la salud</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La luz, el sonido y la electricidad</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Rocas, suelo y máquinas simples</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Biodiversidad, aparato excretor, energía y sistema solar</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Mi Comunidad Autónoma: geografía, símbolos y clima</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>España: comunidades, provincias, organización, relieve y ríos</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Comercio de proximidad, consumo responsable y derechos de la infancia</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>La Prehistoria y los primeros pueblos de la Península</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Roma, los visigodos y el patrimonio arqueológico</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Paisaje, ciudad y pueblo, transportes, la Unión Europea y patrimonio</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
   <div class="deck-grid" role="list">
     <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
       <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Leer siguiendo el orden</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Narrador en primera persona</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Prosa</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Cambio del personaje a lo largo de la historia</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Los determinantes, los pronombres, los adverbios y la acentuación</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Sinónimos, antónimos, familias de palabras y puntuación</h4>
+      <h3>Lengua Castellana</h3>
       <span class="deck-meta">12 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Comprensión lectora y escritura de narraciones</h4>
-      <span class="deck-meta">12 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
+      <span class="deck-icon" aria-hidden="true">🌿</span>
+      <h3>Ciencias Naturales</h3>
+      <span class="deck-meta">5 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Comunicación oral y el teatro</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Poesía, leyendas y las lenguas de España</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Sujeto y predicado, tiempos verbales, escritura y hechos y opiniones</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Cómics y biografías</h4>
-      <span class="deck-meta">4 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Cómics y biografías</h4>
-      <span class="deck-meta">2 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Ciencias Sociales</h3>
+      <span class="deck-meta">6 tarjetas</span>
     </a>
   </div>
-
-  <!-- ================================================================
-       5º de Primaria
-       ================================================================ -->
   <div class="section-header" style="margin-top: var(--space-6);">
     <h2 class="section-heading">5º de Primaria</h2>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌿</span>
-    Ciencias Naturales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Iniciación científica y los seres vivos</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Ecosistemas y el cuerpo humano: sistema nervioso y sentidos</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El aparato locomotor y los cambios de la materia</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La energía: tipos y fuentes</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La Tierra, el espacio y la información científica fiable</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Grupos de seres vivos, aparatos del cuerpo, máquinas simples e internet seguro</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Geografía física de España: relieve, clima, ríos y costas</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>La población y la vida rural y urbana en España</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>La Constitución, las instituciones y la Corona en España</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>España en la Unión Europea y los derechos de la ciudadanía</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>La Edad Media en España: reinos cristianos y Al-Ándalus</h4>
-      <span class="deck-meta">11 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>El patrimonio de la Edad Media: castillos, arte y el Camino de Santiago</h4>
-      <span class="deck-meta">11 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>La economía, las comunidades autónomas, los reinos de Taifas y el arte gótico</h4>
-      <span class="deck-meta">11 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Las vertientes hidrográficas de España</h4>
-      <span class="deck-meta">4 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>El clima subtropical de las Islas Canarias</h4>
-      <span class="deck-meta">3 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
   <div class="deck-grid" role="list">
     <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
       <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Leyenda ligada a un lugar real</h4>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">11 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
+      <span class="deck-icon" aria-hidden="true">🌿</span>
+      <h3>Ciencias Naturales</h3>
       <span class="deck-meta">6 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Temas de los romances tradicionales</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Tema de un cuento/poema</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Fábula</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>La oración: el sujeto, el predicado y los tiempos verbales</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Cómo se forman las palabras: prefijos, sufijos y palabras compuestas</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Comunicación: leer, escribir y pensar con ojo crítico</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Educación literaria: leyenda, mito, metáfora y novela infantil</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Las lenguas de España y sus palabras</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Determinantes, pronombres, sinónimos, la carta y el diálogo</h4>
-      <span class="deck-meta">13 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Comparación, metáfora y la novela infantil</h4>
-      <span class="deck-meta">6 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=5%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Ciencias Sociales</h3>
+      <span class="deck-meta">9 tarjetas</span>
     </a>
   </div>
-
-  <!-- ================================================================
-       6º de Primaria
-       ================================================================ -->
   <div class="section-header" style="margin-top: var(--space-6);">
     <h2 class="section-heading">6º de Primaria</h2>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌿</span>
-    Ciencias Naturales
-  </h3>
   <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El método científico y los seres vivos</h4>
-      <span class="deck-meta">16 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">12 tarjetas</span>
     </a>
     <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>El ser humano y la salud: nutrición, aparato excretor y pubertad</h4>
-      <span class="deck-meta">14 tarjetas</span>
+      <span class="deck-icon" aria-hidden="true">🌿</span>
+      <h3>Ciencias Naturales</h3>
+      <span class="deck-meta">6 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La materia y la energía: reacciones químicas y circuitos eléctricos</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>La Tierra y el espacio: el universo, constelaciones y eclipses</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Tecnología y repaso general antes de la ESO</h4>
-      <span class="deck-meta">14 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Naturales">
-      <span class="deck-icon" aria-hidden="true">🌱</span>
-      <h4>Hongos y bacterias, electricidad, satélites y el ordenador</h4>
-      <span class="deck-meta">10 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Ciencias Sociales</h3>
+      <span class="deck-meta">6 tarjetas</span>
     </a>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌍</span>
-    Ciencias Sociales
-  </h3>
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">1º de ESO</h2>
+  </div>
   <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>El relieve y los países de Europa</h4>
-      <span class="deck-meta">16 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">11 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Las grandes ciudades y la Unión Europea</h4>
-      <span class="deck-meta">15 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Geografía e Historia</h3>
+      <span class="deck-meta">7 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>El mundo actual: globalización, retos y comunicación responsable</h4>
-      <span class="deck-meta">15 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
+      <span class="deck-icon" aria-hidden="true">🧬</span>
+      <h3>Biología y Geología</h3>
+      <span class="deck-meta">7 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Los Reyes Católicos, América y el imperio español</h4>
-      <span class="deck-meta">15 tarjetas</span>
+  </div>
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">2º de ESO</h2>
+  </div>
+  <div class="deck-grid" role="list">
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">11 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>La Revolución Industrial, el siglo XX y el patrimonio cultural</h4>
-      <span class="deck-meta">15 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Geografía e Historia</h3>
+      <span class="deck-meta">7 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Ciencias%20Sociales">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Continentes y océanos, la Ilustración y la Guerra Civil y Transición</h4>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
+      <span class="deck-icon" aria-hidden="true">⚗️</span>
+      <h3>Física y Química</h3>
+      <span class="deck-meta">6 tarjetas</span>
+    </a>
+  </div>
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">3º de ESO</h2>
+  </div>
+  <div class="deck-grid" role="list">
+    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">9 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Geografía e Historia</h3>
+      <span class="deck-meta">7 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
+      <span class="deck-icon" aria-hidden="true">🧬</span>
+      <h3>Biología y Geología</h3>
+      <span class="deck-meta">6 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=3%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
+      <span class="deck-icon" aria-hidden="true">⚗️</span>
+      <h3>Física y Química</h3>
+      <span class="deck-meta">6 tarjetas</span>
+    </a>
+  </div>
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">4º de ESO</h2>
+  </div>
+  <div class="deck-grid" role="list">
+    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">9 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Geograf%C3%ADa%20e%20Historia">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Geografía e Historia</h3>
+      <span class="deck-meta">7 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=Biolog%C3%ADa%20y%20Geolog%C3%ADa">
+      <span class="deck-icon" aria-hidden="true">🧬</span>
+      <h3>Biología y Geología</h3>
+      <span class="deck-meta">7 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=4%C2%BA%20de%20ESO&subject=F%C3%ADsica%20y%20Qu%C3%ADmica">
+      <span class="deck-icon" aria-hidden="true">⚗️</span>
+      <h3>Física y Química</h3>
       <span class="deck-meta">8 tarjetas</span>
     </a>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">📖</span>
-    Lengua Castellana
-  </h3>
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">1º de FP Básica Servicios Administrativos</h2>
+  </div>
   <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Atenci%C3%B3n%20al%20Cliente">
+      <span class="deck-icon" aria-hidden="true">🤝</span>
+      <h3>Atención al Cliente</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Aplicadas">
+      <span class="deck-icon" aria-hidden="true">🔬</span>
+      <h3>Ciencias Aplicadas</h3>
+      <span class="deck-meta">2 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Sociales">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Ciencias Sociales</h3>
+      <span class="deck-meta">2 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Itinerario%20Personal%20para%20la%20Empleabilidad">
+      <span class="deck-icon" aria-hidden="true">🧭</span>
+      <h3>Itinerario Personal para la Empleabilidad</h3>
+      <span class="deck-meta">39 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
       <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Capítulo</h4>
-      <span class="deck-meta">6 tarjetas</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">3 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Saga de libros</h4>
-      <span class="deck-meta">6 tarjetas</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=T%C3%A9cnicas%20Administrativas%20B%C3%A1sicas">
+      <span class="deck-icon" aria-hidden="true">🏢</span>
+      <h3>Técnicas Administrativas Básicas</h3>
+      <span class="deck-meta">13 tarjetas</span>
     </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Prólogo</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>Manuscrito</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Reflexión sobre la lengua: oraciones, complementos y ortografía</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Comunicación: hechos, argumentos, debate e informes</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Comunicación: exposiciones, publicidad, resumen y la novela</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Educación literaria: cómic, teatro y poesía</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Las lenguas de España, el español en el mundo y repaso general</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>Conectores textuales, el diccionario, la entrevista y el origen del español</h4>
-      <span class="deck-meta">10 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">📖</span>
-      <h4>El teatro, la poesía y el microrrelato</h4>
-      <span class="deck-meta">6 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=6%C2%BA%20de%20Primaria&subject=Lengua%20Castellana">
-      <span class="deck-icon" aria-hidden="true">✏️</span>
-      <h4>El microrrelato</h4>
-      <span class="deck-meta">1 tarjeta</span>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Tratamiento%20Inform%C3%A1tico%20de%20Datos">
+      <span class="deck-icon" aria-hidden="true">💻</span>
+      <h3>Tratamiento Informático de Datos</h3>
+      <span class="deck-meta">3 tarjetas</span>
     </a>
   </div>
-
-  <!-- ================================================================
-       Mapa Mundi
-       ================================================================ -->
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">2º de FP Básica Servicios Administrativos</h2>
+  </div>
+  <div class="deck-grid" role="list">
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Aplicaciones%20B%C3%A1sicas%20de%20Ofim%C3%A1tica">
+      <span class="deck-icon" aria-hidden="true">💻</span>
+      <h3>Aplicaciones Básicas de Ofimática</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Archivo%20y%20Comunicaci%C3%B3n">
+      <span class="deck-icon" aria-hidden="true">📁</span>
+      <h3>Archivo y Comunicación</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Aplicadas">
+      <span class="deck-icon" aria-hidden="true">🔬</span>
+      <h3>Ciencias Aplicadas</h3>
+      <span class="deck-meta">2 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Ciencias%20Sociales">
+      <span class="deck-icon" aria-hidden="true">🌍</span>
+      <h3>Ciencias Sociales</h3>
+      <span class="deck-meta">2 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Lengua%20Castellana">
+      <span class="deck-icon" aria-hidden="true">📖</span>
+      <h3>Lengua Castellana</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20B%C3%A1sica%20Servicios%20Administrativos&subject=Preparaci%C3%B3n%20de%20Pedidos%20y%20Venta%20de%20Productos">
+      <span class="deck-icon" aria-hidden="true">🛒</span>
+      <h3>Preparación de Pedidos y Venta de Productos</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+  </div>
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">1º de FP GM Gestión Administrativa</h2>
+  </div>
+  <div class="deck-grid" role="list">
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Comunicaci%C3%B3n%20Empresarial%20y%20Atenci%C3%B3n%20al%20Cliente">
+      <span class="deck-icon" aria-hidden="true">📞</span>
+      <h3>Comunicación Empresarial y Atención al Cliente</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20y%20Administraci%C3%B3n">
+      <span class="deck-icon" aria-hidden="true">🏢</span>
+      <h3>Empresa y Administración</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Compraventa">
+      <span class="deck-icon" aria-hidden="true">🛒</span>
+      <h3>Operaciones Administrativas de Compraventa</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=T%C3%A9cnica%20Contable">
+      <span class="deck-icon" aria-hidden="true">📊</span>
+      <h3>Técnica Contable</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20Inform%C3%A1tico%20de%20la%20Informaci%C3%B3n">
+      <span class="deck-icon" aria-hidden="true">💻</span>
+      <h3>Tratamiento Informático de la Información</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=1%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20I">
+      <span class="deck-icon" aria-hidden="true">🧭</span>
+      <h3>Itinerario Personal para la Empleabilidad I</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+  </div>
+  <div class="section-header" style="margin-top: var(--space-6);">
+    <h2 class="section-heading">2º de FP GM Gestión Administrativa</h2>
+  </div>
+  <div class="deck-grid" role="list">
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Empresa%20en%20el%20Aula">
+      <span class="deck-icon" aria-hidden="true">🏫</span>
+      <h3>Empresa en el Aula</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Auxiliares%20de%20Gesti%C3%B3n%20de%20Tesorer%C3%ADa">
+      <span class="deck-icon" aria-hidden="true">💰</span>
+      <h3>Operaciones Auxiliares de Gestión de Tesorería</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Operaciones%20Administrativas%20de%20Recursos%20Humanos">
+      <span class="deck-icon" aria-hidden="true">👥</span>
+      <h3>Operaciones Administrativas de Recursos Humanos</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Tratamiento%20de%20la%20Documentaci%C3%B3n%20Contable">
+      <span class="deck-icon" aria-hidden="true">📊</span>
+      <h3>Tratamiento de la Documentación Contable</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Itinerario%20Personal%20para%20la%20Empleabilidad%20II">
+      <span class="deck-icon" aria-hidden="true">🧭</span>
+      <h3>Itinerario Personal para la Empleabilidad II</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Digitalizaci%C3%B3n%20Aplicada%20a%20los%20Sectores%20Productivos">
+      <span class="deck-icon" aria-hidden="true">💻</span>
+      <h3>Digitalización Aplicada a los Sectores Productivos</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=2%C2%BA%20de%20FP%20GM%20Gesti%C3%B3n%20Administrativa&subject=Sostenibilidad%20Aplicada%20al%20Sistema%20Productivo">
+      <span class="deck-icon" aria-hidden="true">🌱</span>
+      <h3>Sostenibilidad Aplicada al Sistema Productivo</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+  </div>
   <div class="section-header" style="margin-top: var(--space-6);">
     <h2 class="section-heading">Mapa Mundi</h2>
   </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🏳️</span>
-    Banderas del Mundo
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Banderas%20del%20Mundo">
-      <span class="deck-icon" aria-hidden="true">🚩</span>
-      <h4>Banderas del Mundo</h4>
-      <span class="deck-meta">19 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Banderas%20del%20Mundo">
-      <span class="deck-icon" aria-hidden="true">🚩</span>
-      <h4>Banderas del Mundo (2)</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Banderas%20del%20Mundo">
-      <span class="deck-icon" aria-hidden="true">🚩</span>
-      <h4>Banderas del Mundo (3)</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🏛️</span>
-    Capitales del Mundo
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Capitales%20del%20Mundo">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Capitales del Mundo</h4>
-      <span class="deck-meta">19 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Capitales%20del%20Mundo">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Capitales del Mundo (2)</h4>
-      <span class="deck-meta">18 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Capitales%20del%20Mundo">
-      <span class="deck-icon" aria-hidden="true">🏛️</span>
-      <h4>Capitales del Mundo (3)</h4>
-      <span class="deck-meta">16 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🌆</span>
-    Ciudades Importantes
-  </h3>
-  <div class="deck-grid" role="list">
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Ciudades%20Importantes">
-      <span class="deck-icon" aria-hidden="true">🏙️</span>
-      <h4>Ciudades Importantes del Mundo</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Ciudades%20Importantes">
-      <span class="deck-icon" aria-hidden="true">🏙️</span>
-      <h4>Ciudades Importantes del Mundo (2)</h4>
-      <span class="deck-meta">15 tarjetas</span>
-    </a>
-    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Ciudades%20Importantes">
-      <span class="deck-icon" aria-hidden="true">🏙️</span>
-      <h4>Ciudades Importantes del Mundo (3)</h4>
-      <span class="deck-meta">12 tarjetas</span>
-    </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🗺️</span>
-    Continentes y Océanos
-  </h3>
   <div class="deck-grid" role="list">
     <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Continentes%20y%20Oc%C3%A9anos">
-      <span class="deck-icon" aria-hidden="true">🌍</span>
-      <h4>Continentes y Océanos del Mundo</h4>
-      <span class="deck-meta">16 tarjetas</span>
+      <span class="deck-icon" aria-hidden="true">🗺️</span>
+      <h3>Continentes y Océanos</h3>
+      <span class="deck-meta">1 tarjeta</span>
     </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🏔️</span>
-    Geografía Física
-  </h3>
-  <div class="deck-grid" role="list">
+    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Banderas%20del%20Mundo">
+      <span class="deck-icon" aria-hidden="true">🏳️</span>
+      <h3>Banderas del Mundo</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Capitales%20del%20Mundo">
+      <span class="deck-icon" aria-hidden="true">🏛️</span>
+      <h3>Capitales del Mundo</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
+    <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Ciudades%20Importantes">
+      <span class="deck-icon" aria-hidden="true">🌆</span>
+      <h3>Ciudades Importantes</h3>
+      <span class="deck-meta">3 tarjetas</span>
+    </a>
     <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=Geograf%C3%ADa%20F%C3%ADsica">
       <span class="deck-icon" aria-hidden="true">🏔️</span>
-      <h4>Geografía Física del Mundo</h4>
-      <span class="deck-meta">18 tarjetas</span>
+      <h3>Geografía Física</h3>
+      <span class="deck-meta">1 tarjeta</span>
     </a>
-  </div>
-  <h3 class="subject-heading" style="margin-top: var(--space-4);">
-    <span class="deck-icon" aria-hidden="true">🏆</span>
-    Récords y Curiosidades
-  </h3>
-  <div class="deck-grid" role="list">
     <a class="deck-card" role="listitem" href="../index.html?course=Mapa%20Mundi&subject=R%C3%A9cords%20y%20Curiosidades">
       <span class="deck-icon" aria-hidden="true">🏆</span>
-      <h4>Récords y Curiosidades del Mundo</h4>
-      <span class="deck-meta">14 tarjetas</span>
+      <h3>Récords y Curiosidades</h3>
+      <span class="deck-meta">1 tarjeta</span>
     </a>
   </div>
-
-  </main>
-
-<footer class="app-footer">
-  <div class="container">
-    <p>
-      <a href="../config/">Configuración</a>
-      · <a href="../legal/">Protección de datos</a>
-      · <a href="https://apptonomia.uk/dev/">Apptonomia /dev</a>
-      · <a href="https://calculia.apptonomia.uk/dev/">Calculia /dev</a>
-    </p>
-  </div>
-</footer>
-
-<script src="../assets/js/locale-picker-config.js?v=2ab" defer></script>
-<script src="../assets/js/utils.js"></script>
-<script src="../assets/js/i18n.js"></script>
-<script src="../assets/js/storage.js"></script>
-<script src="../strings.es.js"></script>
-<script src="../strings.en.js"></script>
-<script src="../assets/js/locale-picker.js?v=memofun-v4aaa" defer></script>
+</main>
 
 </body>
 </html>
