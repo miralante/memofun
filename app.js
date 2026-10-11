@@ -66,12 +66,7 @@
   var OPEN_SUBJECTS = {
     '1º de FP Básica Servicios Administrativos': [
       'Itinerario Personal para la Empleabilidad',
-      'Técnicas Administrativas Básicas',
-      'Ciencias Aplicadas',
-      'Ciencias Sociales',
-      'Lengua Castellana',
-      'Atención al Cliente',
-      'Tratamiento Informático de Datos'
+      'Técnicas Administrativas Básicas'
     ]
   };
 

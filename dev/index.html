@@ -1,21 +1,30 @@
 ﻿<!DOCTYPE html>
 <!-- ============================================================================
-     Memofun — /dev/ : catálogo de desarrollo para FP Básica.
+     Memofun — /dev/ : catálogo de desarrollo.
 
      Página hardcodeada (sin app.js) con enlaces directos a los temas de
-     las dos asignaturas abiertas de 1º de FP Básica Servicios Administrativos.
+     1º de FP Básica Servicios Administrativos y al resto de cursos.
 
-     Cada enlace lleva ?course= &subject= &topicGroup= y abre el tema
-     directamente en el visor de tarjetas de la raíz. Así se llega directo
-     a la baraja sin pasar por la vista de asignatura → tema.
+     Cada enlace lleva ?course= &subject= (&topicGroup= si el subject se
+     desglosa por temas) y abre la baraja directamente en el visor de
+     tarjetas de la raíz. Así se llega directo sin pasar por la vista
+     de asignatura → tema.
 
      No usa data-access="full" ni OPEN_SUBJECTS: la decisión de qué
      asignaturas son visibles vive enteramente aquí, como en Routime y
      Calculia con sus herramientas.
 
-     Solamente las dos asignaturas listas:
+     1º de FP Básica Servicios Administrativos (todas activas en /dev/):
        • Itinerario Personal para la Empleabilidad  (8 temas)
        • Técnicas Administrativas Básicas            (7 temas)
+       • Ciencias Aplicadas                         (2 barajas)
+       • Ciencias Sociales                          (2 barajas)
+       • Lengua Castellana                          (3 barajas)
+       • Atención al Cliente                        (3 barajas)
+       • Tratamiento Informático de Datos           (3 barajas)
+
+     En la portada pública (app.js → OPEN_SUBJECTS) las cinco últimas
+     se muestran como "Próximamente"; aquí ya están todas activas.
 
      El campo `topicGroup` de cada baraja en el manifest es la clave;
      las topicGroups de Técnicas Administrativas son:
@@ -209,50 +218,51 @@
   </div>
 
   <!-- ================================================================
-       OTRAS ASIGNATURAS DE FP BÁSICA — visibles como "Próximamente"
-       El href apunta a la página de la asignatura (sin topicGroup)
-       para que cuando se abra, el manifest cargue sus barajas aunque
-       aún estén marcadas como "Próximamente" en la grid de la portada.
+       OTRAS ASIGNATURAS DE FP BÁSICA — todas activas en /dev/ (la portada
+       las muestra como "Próximamente" vía OPEN_SUBJECTS en app.js, pero
+       aquí son enlaces directos sin la clase deck-card--soon).
+       El href apunta a la página de la asignatura (sin topicGroup) para
+       que el manifest cargue sus barajas reales.
        ================================================================ -->
   <div class="section-header" style="margin-top: var(--space-6);">
-    <h2 class="section-heading">Próximamente</h2>
+    <h2 class="section-heading">Otras asignaturas de FP Básica</h2>
     <span class="section-heading-meta">1º de FP Básica Servicios Administrativos</span>
   </div>
   <div class="deck-grid" role="list">
 
-    <a class="deck-card deck-card--soon" role="listitem"
+    <a class="deck-card" role="listitem"
        href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Ciencias+Aplicadas">
       <span class="deck-icon" aria-hidden="true">🔬</span>
       <h3>Ciencias Aplicadas</h3>
-      <span class="deck-meta">En desarrollo</span>
+      <span class="deck-meta">2 barajas · 16 tarjetas</span>
     </a>
 
-    <a class="deck-card deck-card--soon" role="listitem"
+    <a class="deck-card" role="listitem"
        href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Ciencias+Sociales">
       <span class="deck-icon" aria-hidden="true">🌍</span>
       <h3>Ciencias Sociales</h3>
-      <span class="deck-meta">En desarrollo</span>
+      <span class="deck-meta">2 barajas · 16 tarjetas</span>
     </a>
 
-    <a class="deck-card deck-card--soon" role="listitem"
+    <a class="deck-card" role="listitem"
        href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Lengua+Castellana">
       <span class="deck-icon" aria-hidden="true">📖</span>
       <h3>Lengua Castellana</h3>
-      <span class="deck-meta">En desarrollo</span>
+      <span class="deck-meta">3 barajas · 22 tarjetas</span>
     </a>
 
-    <a class="deck-card deck-card--soon" role="listitem"
+    <a class="deck-card" role="listitem"
        href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Atenci%C3%B3n+al+Cliente">
       <span class="deck-icon" aria-hidden="true">🤝</span>
       <h3>Atención al Cliente</h3>
-      <span class="deck-meta">En desarrollo</span>
+      <span class="deck-meta">3 barajas · 17 tarjetas</span>
     </a>
 
-    <a class="deck-card deck-card--soon" role="listitem"
+    <a class="deck-card" role="listitem"
        href="../index.html?course=1%C2%BA+de+FP+B%C3%A1sica+Servicios+Administrativos&subject=Tratamiento+Inform%C3%A1tico+de+Datos">
       <span class="deck-icon" aria-hidden="true">💻</span>
       <h3>Tratamiento Informático de Datos</h3>
-      <span class="deck-meta">En desarrollo</span>
+      <span class="deck-meta">3 barajas · 18 tarjetas</span>
     </a>
 
   </div>
