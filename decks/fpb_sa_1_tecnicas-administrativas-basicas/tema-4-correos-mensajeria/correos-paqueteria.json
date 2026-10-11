@@ -5,43 +5,123 @@
   "cards": [
     {
       "question": "Correos es una empresa pública española que ofrece servicios de envío de cartas, paquetes y notificaciones. <mark>Es como el servicio de mensajería del Estado: tiene obligación de llegar a todos los rincones del país</mark>. ¿Qué tipo de empresa es Correos?",
-      "answer": "<mark>Empresa pública</mark>"
+      "answer": "<mark>Empresa pública</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/correos-empresa.jpg",
+        "title": "No. 10, in vol. 126 with binder's title: Teatro Español : serie A Subjects:",
+        "source": "https://commons.wikimedia.org/wiki/File:Correos_-_revista_cr%C3%ADtico-c%C3%B3mico-l%C3%ADrico-postal_en_un_acto_y_tres_cuadros_(IA_correosrevistacr12610este).pdf",
+        "alt": "(imagen)",
+        "autor": "Estellés, Ramón Cortés, Rufino",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Correos tiene tres líneas: básica (carta ordinaria), urgente (más rápida) y económica (precio bajo, plazos más largos). <mark>Es como tres modalidades de autobús: el normal, el exprés y el descuento</mark>. ¿Cómo se llaman estas tres líneas de Correos?",
-      "answer": "<mark>Línea básica, línea urgente y línea económica</mark>"
+      "answer": "<mark>Línea básica, línea urgente y línea económica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/lineas-correos.jpg",
+        "title": "105 p. : 1 retr.; 19 cm",
+        "source": "https://commons.wikimedia.org/wiki/File:Constituci%C3%B3n_de_la_Rep%C3%BAblica_Espa%C3%B1ola_-_bdh0000048244.pdf",
+        "alt": "(imagen)",
+        "autor": "España",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Un envío certificado cuesta más que uno normal pero garantiza que el destinatario ha firmado al recibirlo; si se pierde, el remitente recibe una indemnización. <mark>Es como enviar un documento importante con acuse de recibo: si no llega, te devuelven el dinero</mark>. ¿Cómo se llama este servicio de Correos?",
-      "answer": "<mark>Certificado</mark>"
+      "answer": "<mark>Certificado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/certificado.jpg",
+        "title": "Gobierno de Zapopan",
+        "source": "https://commons.wikimedia.org/wiki/File:Reglamento-de-Firma-El%C3%A9ctronica-Avanzada.pdf",
+        "alt": "(imagen)",
+        "autor": "Gobierno de Zapopan",
+        "licencia": "CC0"
+      }
     },
     {
       "question": "En una venta por catálogo, el cliente paga al repartidor cuando le entregan el paquete en casa. <mark>Es como pagar al repartidor de pizza cuando te trae la comida a la puerta</mark>. ¿Cómo se llama este servicio de pago en el momento de la entrega?",
-      "answer": "<mark>Reembolso</mark>"
+      "answer": "<mark>Reembolso</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/reembolso.jpg",
+        "title": "Bette Davis - The Bride Came C.O.D., 1941 promo",
+        "source": "https://commons.wikimedia.org/wiki/File:Bette_Davis_-_The_Bride_Came_C.O.D.,_1941_promo.jpg",
+        "alt": "(imagen)",
+        "autor": "Warner Bros.",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Un servicio que garantiza que el destinatario ha recibido el envío con su firma, fecha y hora; esa nota de recepción se devuelve al remitente. <mark>Es como el recibo de correo que te pide firmado al recoger un paquete</mark>. ¿Cómo se llama?",
-      "answer": "<mark>Aviso de recibo</mark>"
+      "answer": "<mark>Aviso de recibo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/aviso-recibo.jpg",
+        "title": "Official Journal of the European Union - C 335 of 2 September 2022 - Spanish edition",
+        "source": "https://commons.wikimedia.org/wiki/File:OJ_C_335A_of_2022_-_ES_Spanish.pdf",
+        "alt": "(imagen)",
+        "autor": "Publications Office of the European Union",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Carta, tarjeta postal y envíos publicitarios que se envían de forma electrónica a través de la plataforma de Correos. <mark>Es como enviar un email pero con el sello y la infraestructura de Correos</mark>. ¿Cómo se llama este servicio?",
-      "answer": "<mark>Correo digital</mark>"
+      "answer": "<mark>Correo digital</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/correo-digital.jpg",
+        "title": "El correo electrónico, en todos sus ámbitos con todas sus características globales. Trabajo Propio Autor:",
+        "source": "https://commons.wikimedia.org/wiki/File:Qu%C3%A9_es_una_cuenta_de_correo_electr%C3%B3nico.pdf",
+        "alt": "(imagen)",
+        "autor": "No machine-readable author provided. Anti 2090 assumed (based on copyright claims).",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Para enviar un paquete hay que envolverlo con material resistente al peso, con buen material de protección y adaptado en forma y tamaño al contenido. <mark>Es como embalar una mudanza: que la caixa no se rompa</mark>. ¿Cómo se llama este proceso?",
-      "answer": "<mark>Embalaje</mark>"
+      "answer": "<mark>Embalaje</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/embalaje.jpg",
+        "title": "Original packaging, cardboard box for the Mettoy Minor toy typewriter",
+        "source": "https://commons.wikimedia.org/wiki/File:Original_packaging,_cardboard_box_for_the_Mettoy_Minor_toy_typewriter_another_end_view.jpg",
+        "alt": "(imagen)",
+        "autor": "Jamillah Knowles",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Los sobres deben ser rectangulares, de color blanco o claro (nunca azul), con la dirección escrita de forma legible. <mark>Es como las normas de presentación de un examen: margen limpio, letra clara, sin manchas</mark>. ¿Cómo se llama adaptar los envíos a normas de tamaño y forma para que pasen por las máquinas de Correos?",
-      "answer": "<mark>Normalización</mark>"
+      "answer": "<mark>Normalización</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/normalizacion.jpg",
+        "title": "Official Journal of the European Union - L 334 of 15 December 2017 - Spanish edition",
+        "source": "https://commons.wikimedia.org/wiki/File:OJ_L_334_of_2017_-_ES_Spanish.pdf",
+        "alt": "(imagen)",
+        "autor": "Publications Office of the European Union",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Al escribir la dirección de un envío: primera línea la provincia, segunda el código postal y localidad, tercera la calle con número y piso, cuarta el nombre del destinatario. <mark>Es como escribir una dirección de email: primero el servidor, luego el usuario</mark>. ¿En qué orden se escriben las líneas de la dirección postal?",
-      "answer": "<mark>Provincia → C.P. + Localidad → Tipo de vía + Calle + Número + Piso → Nombre del destinatario</mark>"
+      "answer": "<mark>Provincia → C.P. + Localidad → Tipo de vía + Calle + Número + Piso → Nombre del destinatario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/direccion-postal.jpg",
+        "title": "Diccionario jeográfico postal de la República de Chile xv, 265 p.",
+        "source": "https://commons.wikimedia.org/wiki/File:Diccionario_jeogr%C3%A1fico_postal_de_la_Rep%C3%BAblica_de_Chile.pdf",
+        "alt": "(imagen)",
+        "autor": "Fermín A. Fuentes L.",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Empresas privadas como MRW, SEUR, UPS o DHL que ofrecen envío urgente, entrega en mano, recoger en oficina o a domicilio, 24 horas. <mark>Es como taxis de paquetes: más caros que Correos pero más rápidos y personalizados</mark>. ¿Cómo se llaman estas empresas frente a Correos?",
-      "answer": "<mark>Empresas de mensajería externa</mark>"
+      "answer": "<mark>Empresas de mensajería externa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria/mensajeria-externa.jpg",
+        "title": "Official Journal of the European Union - L_202302388 of 10 October 2023 - Spanish edition",
+        "source": "https://commons.wikimedia.org/wiki/File:OJ_L_202302388_of_2023_-_ES_Spanish.pdf",
+        "alt": "(imagen)",
+        "autor": "Publications Office of the European Union",
+        "licencia": "Public domain"
+      }
     }
   ]
 }
