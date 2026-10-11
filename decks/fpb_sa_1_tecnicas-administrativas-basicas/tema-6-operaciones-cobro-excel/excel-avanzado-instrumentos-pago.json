@@ -5,39 +5,111 @@
   "cards": [
     {
       "question": "La pantalla de Excel tiene: barra de herramientas de acceso rápido, barra de título, barra de menús, banda de opciones, banda de fórmulas, barra de etiquetas de hojas, barras de desplazamiento y barra de estado. <mark>Es como el salpicadero de un coche: cada instrumento tiene su función y su sitio</mark>. ¿Cómo se llama la barra superior que muestra el nombre del archivo y la aplicación?",
-      "answer": "<mark>Barra de título</mark>"
+      "answer": "<mark>Barra de título</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/barra-titulo.jpg",
+        "title": "A product evaluation of the APL2-based spreadsheet editor, UEDIT2, is conducted. The program was developed at the Naval Postgraduate School by Professor Lewis, Peter A.W.. A comparison of the program is made against Microsoft Excel (Version 5.0). The areas of comparison are hardware requirements, file operations, file editing, and statistics. Strengths and limitations of each program are discussed with the intent of improving UEDIT2. The main advantage of this program are its ease of use for beginning students, its ability to manipulate categorical data and perform preliminary data analysis, and its APL2 substructure. In addition, UEDIT2 provides an excellent way to prepare data for importing into prevalent statistical packages such as AGSS, SPSS, and S-PLUS. UEDIT2 is used to conduct a data analysis on a Defense Health Resources Study Center survey comparing usage patterns of military health care beneficiaries in the Monterey region over two different time periods. Emphasis is placed on how UEDIT2 is used as an editor to perform preliminary data analysis and import data into AGSS for graphical representation. Results of the analysis indicate a reduction in military treatment facility use, but not a comparable increased reliance on TriCare sponsored health care. Little change in using private payments or private facilities has occurred between the two samples. Subjects:",
+        "source": "https://commons.wikimedia.org/wiki/File:A_comparative_product_evaluation_of_UEDIT2_versus_Excel_with_application_to_the_DHRSC_survey_of_health_care_preferences_in_the_Monterey_catchment_(IA_acomparativeprod1094531517).pdf",
+        "alt": "(imagen)",
+        "autor": "Barnet, John H.",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "En la pantalla inicial de Excel hay una barra con las opciones habituales (guardar, deshacer) a la izquierda de la barra de título. <mark>Es como los botones de acceso rápido de un mando a distancia</mark>. ¿Cómo se llama?",
-      "answer": "<mark>Barra de herramientas de acceso rápido</mark>"
+      "answer": "<mark>Barra de herramientas de acceso rápido</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/barra-acceso-rapido.jpg",
+        "title": "GenCade version 1 quick-start guide: How to start a successful GenCade project",
+        "source": "https://commons.wikimedia.org/wiki/File:GenCade_version_1_quick-start_guide-_How_to_start_a_successful_GenCade_project_-_USACE-p266001coll1-3658.pdf",
+        "alt": "(imagen)",
+        "autor": "United States. Army. Corps of Engineers; Engineer Research and Development Center (U.S.); Coastal and Hydraulics Laboratory (U.S.); Coastal Inlets Research Program (U.S.)",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "La barra de estado de Excel muestra información del documento: si está guardado, el zoom actual, la vista de página. <mark>Es como la barra inferior del navegador que dice 'Listo' o 'Cargando'</mark>. ¿Para qué sirve la barra de estado?",
-      "answer": "<mark>Para mostrar información contextual del documento (zoom, vista, estado del archivo)</mark>"
+      "answer": "<mark>Para mostrar información contextual del documento (zoom, vista, estado del archivo)</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/barra-estado.jpg",
+        "title": "Subjects:",
+        "source": "https://commons.wikimedia.org/wiki/File:Lord_Wantage,_V.C.,_K.C.B._-_a_memoir_(IA_lordwantagevckcb00wantiala).pdf",
+        "alt": "(imagen)",
+        "autor": "Wantage, Harriet Sarah Loyd-Lindsay, Baroness, 1837-1920",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "En Excel se puede cambiar el zoom de la hoja del 10% al 400%, y hay tres vistas: Normal, Diseño de página y Saltos de página. <mark>Es como acercarse o alejarse con unos prismáticos y elegir si ves el mapa completo o por hojas</mark>. ¿Qué permite hacer el zoom en Excel?",
-      "answer": "<mark>Acercar o alejar la vista de la hoja de cálculo</mark>"
+      "answer": "<mark>Acercar o alejar la vista de la hoja de cálculo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/zoom-excel.jpg",
+        "title": "Perturbated Basilica Julia set zoom, Level Curves Method",
+        "source": "https://commons.wikimedia.org/wiki/File:Perturbated_Basilica_Julia_set_zoom_LCM.png",
+        "alt": "(imagen)",
+        "autor": "Adam majewski",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "El IBAN (Identificador Bancario de Cuenta) es un código que identifica tu cuenta bancaria a nivel internacional: país (ES para España), dos dígitos de control y el número de cuenta. <mark>Es como la dirección de tu cuenta bancaria en el sistema financiero mundial</mark>. ¿Qué es el IBAN?",
-      "answer": "<mark>El código que identifica internacionalmente una cuenta bancaria</mark>"
+      "answer": "<mark>El código que identifica internacionalmente una cuenta bancaria</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/iban.jpg",
+        "title": "male voice pronunciation for \"International Bank Account Number\" .",
+        "source": "https://commons.wikimedia.org/wiki/File:Nl-International_Bank_Account_Number.ogg",
+        "alt": "(imagen)",
+        "autor": "Marcel coenders",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "El Código Cuenta Cliente (CCC) tiene 20 dígitos: 4 de la entidad bancaria, 4 de la oficina, 2 de control y 10 del número de cuenta. <mark>Es como la matrícula del coche: identifica al banco (marca), la oficina (modelo) y la cuenta (número de bastidor)</mark>. ¿Qué datos contiene el CCC?",
-      "answer": "<mark>Entidad, oficina, dígito de control y número de cuenta</mark>"
+      "answer": "<mark>Entidad, oficina, dígito de control y número de cuenta</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/ccc.jpg",
+        "title": "male voice pronunciation for \"International Bank Account Number\" .",
+        "source": "https://commons.wikimedia.org/wiki/File:Nl-International_Bank_Account_Number.ogg",
+        "alt": "(imagen)",
+        "autor": "Marcel coenders",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Además del cheque y la transferencia, existe un documento por el que una persona se compromete a pagar una cantidad en una fecha futura: <mark>Es como un cheque postfechado: te digo 'te pago esto tal día'</mark>. ¿Cómo se llama este instrumento de pago?",
-      "answer": "<mark>Pagaré</mark>"
+      "answer": "<mark>Pagaré</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/pagare.jpg",
+        "title": "Vols. 11, 12, 23, 26, 27, 29-31 never published; no more published after v. 32 Includes bibliographical reference and index I. General introduction. The Argentine republic and Uruguay.--II. Colombia.--III. Venezuela and Ecuador.--IV. Brazil.--V. Peru and Bolivia.--VI. Chile and Paraguay.--VII-VIII. United States of America.--IX. Mexico, Guatemala, Cuba.--X. San Salvador, Dominican Republic and Nicaragua.--XIII-XIV. Great Britain and Ireland.--XV. British dominions and protectorates in Europe and Africa.--XVI. British dominions and protectorates in Asia.--XVII. British dominions and protectorates in America.--XVIII. British dominions and protectorates in Australasia.--XIX. Sweden and Norway.--XX. Denmark and Scandinavia.--XXI. France and Monaco.--XXII. Belgium and Luxemburg.--XXIV-XXV. German empire.--XXVII. Hungary and Croatia-Slavonia.--XXXII. Spain Subjects: Commercial law",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Commercial_laws_of_the_world,_comprising_the_mercantile,_bills_of_exchange,_bankruptcy_and_maritime_laws_of_civilised_nations_(IA_commerciallawsof06scru).pdf",
+        "alt": "(imagen)",
+        "autor": "Scrutton, Thomas Edward, Sir, 1856-1934 Bowstead, William, d. 1935",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Documento de crédito por el que el librador ordena al librado (banco) que pague una cantidad a un beneficiario en una fecha determinada. <mark>Es como una cadena de tres: el que debe, el banco y el que cobra</mark>. ¿Cómo se llama este documento?",
-      "answer": "<mark>Letra de cambio</mark>"
+      "answer": "<mark>Letra de cambio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/letra-cambio.jpg",
+        "title": "Lletra de Canvi venciment 4 novembre 1958",
+        "source": "https://commons.wikimedia.org/wiki/File:Letra_de_Cambio_vencimiento_4_nov_1958_recto.jpg",
+        "alt": "(imagen)",
+        "autor": "Fábrica Nacional de Moneda y Timbre",
+        "licencia": "Public domain"
+      }
     },
     {
       "question": "Para calcular el IBAN español se añade ES + 2 dígitos de control + 20 dígitos de CCC. <mark>Es como el prefijo de país en un número de teléfono internacional pero para cuentas bancarias</mark>. ¿Cómo se forma el IBAN a partir del CCC?",
-      "answer": "<mark>ES + 2 dígitos de control + CCC (20 dígitos)</mark>"
+      "answer": "<mark>ES + 2 dígitos de control + CCC (20 dígitos)</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/iban-formacion.jpg",
+        "title": "Royal College of Physicians of Edinburgh Subjects:",
+        "source": "https://commons.wikimedia.org/wiki/File:Extractos_de_las_juntas_generales_celebradas_por_la_Real_Sociedad_..._por_Setiembre_de_1773-84_(IA_b21731032).pdf",
+        "alt": "(imagen)",
+        "autor": "Royal College of Physicians of Edinburgh",
+        "licencia": "Public domain"
+      }
     }
   ]
 }
