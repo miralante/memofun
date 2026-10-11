@@ -6,7 +6,7 @@
    caching below), so a deck a student already opened keeps working
    offline; a brand-new deck needs one online visit first.
    ============================================================ */
-var VERSION = 'memofun-v108';
+var VERSION = 'memofun-v109';
 
 var FILES = [
   './',
@@ -117,8 +117,7 @@ var FILES = [
   './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/',
   './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/',
   './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/',
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/',
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-7-busqueda-empleo/'
+  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/'
 ];
 
 /* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form

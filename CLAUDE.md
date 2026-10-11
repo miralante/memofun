@@ -591,6 +591,8 @@ not AI-bulk-built.
    service-worker rule above; they're cached on first view like
    any deck JSON).
 
+10. **Fuente de verdad FPB-SA1 (itinerario de empleabilidad y técnicas administrativas): sin curriculum oficial.** Para estas dos asignaturas — y solo estas — el temario oficial NO existe como `doc/curriculum/**/*.md` ni como documentación paralela: los temarios y los decks se elaboran a partir del contenido fotografiado en `D:/img_memofun/{itinerario-personal-empleabilidad|tecnicas_administrativas}/<tema>/` (páginas del libro de texto enviadas como fotos por WhatsApp y similares). Antes de crear, ampliar, o incluso transformar imágenes de una baraja de estas asignaturas, **verifica que existe `D:/img_memofun/<asignatura>/temaN/`** con su `MD` correspondiente en `doc/revision-<asignatura>/tema-NN.md`. Si esa carpeta no existe, el tema NO pertenece al temario real aunque haya una baraja huérfana o un entry en `decks/manifest.json` de un commit previo — en ese caso pregunta al usuario antes de tocar nada, no asumas que "el manifest lo autoriza". El agente no inventa temas para estas asignaturas: la cobertura viene dictada por lo que está fotografiado, no por el manifest.
+
 ### B.9 Vanilla only — no dependencies, no Anki format
 
 The whole project is plain HTML/CSS/JS (and plain Node.js for the
