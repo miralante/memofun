@@ -18,11 +18,13 @@ Concretamente:
   - `funciones-empresa-estructura` 5/6 (falla `formula-organizacion-real` — text-only)
   - `comunicacion-escrita-externa` 6/6
 - **Tema 2** (1 baraja, 17 cards): `recibos-justificantes-pago` 17/17
+- **Tema 3** (2 barajas, 32 cards): migración parcial
+  - `agenda-archivo-sello-inventario` 17/17 con imagen (8 Wikimedia en subdir nuevo + 9 Flickr legacy en `_3/`)
+  - `comunicacion-interna-documentos` 11/15 Wikimedia + 4 text-only (memorando, circular-interna, acta, correo-vs-mensajeria)
 
-Total migrado: **64/66 cards** con imagen de Wikimedia CC-BY/-SA o Public Domain;
-2 text-only (las del Tema 1 listadas arriba).
-
-Pendiente migrar Temas 3-7 con el mismo patrón cuando se rehagan sus barajas.
+Total migrado: **75/98 cards** con imagen de Wikimedia CC-BY/-SA o Public Domain;
+13 con Flickr legacy (9 agenda t3) o text-only (4 com t3). Pendiente cleanup
+cuando se rehagan las barajas afectadas.
 
 - Departamentos de una empresa (compras, RRHH...): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos.json (repartir tareas de una casa)
 - Departamento de compras: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos.json (encargado de la compra grande)
