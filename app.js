@@ -302,7 +302,20 @@
     return BASE + 'index.html' + (s ? '?' + s : '');
   }
 
-  function studyUrl(deck) {
+  /* Translate an app.js URL (relative to BASE) into the form the study
+     tool at /tools/study/ should use as its `back` href. Both the home
+     page and the /dev/ mirror share the same target — root's
+     index.html — so the result is always "../../…" regardless of where
+     app.js was loaded: stripping the BASE prefix gives the root-relative
+     path, then the two dots bring us back up from /tools/study/. */
+  function studyBackFrom(appRelativeUrl) {
+    var baseRe = new RegExp('^' + BASE.replace(/[.]/g, '\\.'));
+    var fromRoot = appRelativeUrl.replace(baseRe, '');
+    return '../../' + fromRoot;
+  }
+
+  function studyUrl(deck, opts) {
+    opts = opts || {};
     var url = BASE + 'tools/study/index.html?deck=' + encodeURIComponent(deck.file) +
       '&id=' + encodeURIComponent(deck.id) +
       '&titulo=' + encodeURIComponent(deck.topic);
@@ -316,6 +329,15 @@
       if (deck.subject) url += '&subject=' + encodeURIComponent(deck.subject);
       if (deck.topicGroup) url += '&topicGroup=' + encodeURIComponent(deck.topicGroup);
     }
+    /* Optional explicit back target for shortcut entries (single-deck
+       topic, single-topic subject, single-deck flat subject): the
+       caller skipped the intermediate listing, so the study tool's
+       usual "infer from query params" logic would route "Volver" to a
+       page the user never visited. The explicit `back` is what
+       shortcut entries pass. Other callers omit it; the study tool
+       falls back to the inferred href. `opts.back` is already relative
+       to /tools/study/ (see studyBackFrom). */
+    if (opts.back) url += '&back=' + encodeURIComponent(opts.back);
     return url;
   }
 
@@ -379,7 +401,14 @@
       level the moment anyone wanted exact truth. */
   function topicCardHtml(topicGroup, i, groupDecks) {
     var single = groupDecks.length === 1;
-    var href = single ? studyUrl(groupDecks[0]) : buildUrl(groupDecks[0].course, groupDecks[0].subject, topicGroup);
+    /* For a topic with just one deck, clicking takes the user straight
+       into the study tool — the topic-level listing never appears.
+       The "Volver" inside the study tool must therefore land on the
+       SUBJECT page (the level the user was on a step ago), not on the
+       never-visited topic listing. */
+    var href = single
+      ? studyUrl(groupDecks[0], { back: studyBackFrom(buildUrl(groupDecks[0].course, groupDecks[0].subject)) })
+      : buildUrl(groupDecks[0].course, groupDecks[0].subject, topicGroup);
     return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
       '<span class="deck-icon" aria-hidden="true">' + (single ? (groupDecks[0].icon || topicIcon(topicGroup)) : topicIcon(topicGroup)) + '</span>' +
       '<h3>' + App.utils.escapeHtml(topicGroup) + '</h3>' +
@@ -517,7 +546,12 @@
       var href, meta, icon, body;
       if (topics.length) {
         var soloDeck = topics.length === 1 && byTopic.map[topics[0]].length === 1;
-        href = soloDeck ? studyUrl(byTopic.map[topics[0]][0]) : buildUrl(course, subject);
+        /* Subject-level shortcut (one topic with one deck): "Volver"
+           inside the study tool must land on the COURSE page, the level
+           the user was on before drilling into this card. */
+        href = soloDeck
+          ? studyUrl(byTopic.map[topics[0]][0], { back: studyBackFrom(buildUrl(course)) })
+          : buildUrl(course, subject);
         icon = soloDeck ? (byTopic.map[topics[0]][0].icon || topicIcon(topics[0])) : topicIcon(topics[0]);
         /* Per the deck-grid policy (home.topics), one number is enough:
            how many topics the subject holds. Section and card counts
@@ -527,7 +561,11 @@
         meta = topics.length + ' ' + App.i18n.t('home.topics');
       } else {
         var single = subjectDecks.length === 1;
-        href = single ? studyUrl(subjectDecks[0]) : buildUrl(course, subject);
+        /* Flat-deck subject, single-deck shortcut: "Volver" back to the
+           COURSE page, skipping the never-visited subject listing. */
+        href = single
+          ? studyUrl(subjectDecks[0], { back: studyBackFrom(buildUrl(course)) })
+          : buildUrl(course, subject);
         icon = single ? (subjectDecks[0].icon || subjectIcon(subject)) : subjectIcon(subject);
         /* Flat-deck subject — no topics by definition, so the
            section/card count is the only honest answer; we drop it

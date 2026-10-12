@@ -19,6 +19,13 @@
   var deckCourse = params.get('course');
   var deckSubject = params.get('subject');
   var deckTopicGroup = params.get('topicGroup');
+  /* An explicit back-target that wins over the inferred one below. The
+     home grid passes this for shortcut entries (single-deck topic /
+     single-topic subject / single-deck flat subject) where the user
+     skipped an intermediate listing page that we never visited, and
+     the inferred back would land on. Already a study-tool-relative
+     URL like "../../index.html?…". */
+  var explicitBack = params.get('back');
 
   var cards = [];
   var index = 0;
@@ -59,12 +66,21 @@
      app.js for where these params come from. Falls back to plain home
      for ad-hoc decks with no course/subject, or when the page was
      opened directly. */
-  if (deckCourse) {
-    var backUrl = '../../index.html?course=' + encodeURIComponent(deckCourse);
+
+  /* Shortcut entries (single-deck topic / single-topic subject /
+     single-deck flat subject) set an explicit `back` query param so
+     the user lands on the level they were on a step ago instead of
+     the topic listing they skipped; the inferred fallback below would
+     otherwise dump them on a deck list they never saw. */
+  var backUrl;
+  if (explicitBack) {
+    backUrl = explicitBack;
+  } else if (deckCourse) {
+    backUrl = '../../index.html?course=' + encodeURIComponent(deckCourse);
     if (deckSubject) backUrl += '&subject=' + encodeURIComponent(deckSubject);
     if (deckTopicGroup) backUrl += '&topicGroup=' + encodeURIComponent(deckTopicGroup);
-    btnBack.href = backUrl;
   }
+  if (backUrl) btnBack.href = backUrl;
 
   function renderStars() {
     starsEl.innerHTML =
