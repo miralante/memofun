@@ -201,10 +201,20 @@
     'Tema 2 · Técnicas de prevención y protección': '🦺',
     'Tema 3 · Técnicas básicas de primeros auxilios': '🚑',
     'Tema 4 · Autoconocimiento y habilidades personales': '🔍',
-    'Tema 5 · Habilidades sociales': '🤝',
+    'Tema 5 · Habilidades personales': '🤝',
     'Tema 6 · Itinerarios académicos y profesionales': '🎓',
     'Tema 7 · La búsqueda de empleo': '📋',
-    'Tema 8 · Toma de decisiones e itinerario personal': '⚖️'
+    'Tema 8 · Toma de decisiones e itinerario personal': '⚖️',
+    /* Técnicas Administrativas Básicas — six topics, all of them were
+       falling back to 📂 because the original map only covered IPE.
+       The two "Tema 5" entries differ in topic (IPE = social skills, TA
+       = material de oficina) so the key stays scoped to topicGroup. */
+    'Tema 1 · La empresa': '🏢',
+    'Tema 2 · Áreas funcionales': '🏛️',
+    'Tema 3 · Comunicación': '🗣️',
+    'Tema 4 · Correos y mensajería': '✉️',
+    'Tema 5 · Material de oficina': '📎',
+    'Tema 6 · Operaciones de cobro y pago': '💳'
   };
 
   /* Per-subject icons for the subject grid (inside a course). Each
