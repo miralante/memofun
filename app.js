@@ -366,33 +366,23 @@
     return decks.filter(function (d) { return done[d.id]; }).length;
   }
 
-  /** "5 secciones · 89 tarjetas" for a group of decks, or just
-      "18 tarjetas" when the group is one single deck — saying "1
-      sección" would be noise. Totals come from `amount`, the same
-      number each deck card shows, so the two levels can't disagree. */
-  function groupMeta(groupDecks) {
-    if (groupDecks.length === 1) {
-      return (groupDecks[0].amount || '') + ' ' + App.i18n.t('home.cards');
-    }
-    var totalCards = groupDecks.reduce(function (sum, d) {
-      return sum + (Number(d.amount) || 0);
-    }, 0);
-    return groupDecks.length + ' ' + App.i18n.t('home.sections') +
-      ' · ' + totalCards + ' ' + App.i18n.t('home.cards');
-  }
-
   /** A "Tema N · …" group card: opens the topic level, where its sections
       are listed on their own. Falls back to the deck itself when a topic
       only ever has one section — the same shortcut
       renderSubjectLevel applies to a subject with a single deck, so a
-      one-deck group never costs an extra click. */
+      one-deck group never costs an extra click.
+
+      No meta line on purpose: the count of topics inside the parent
+      subject is already on the subject card above. Re-stating how many
+      sections/cards a topic holds here was the noisy sibling of that
+      number — same metric, different angle, contradicted at the deck
+      level the moment anyone wanted exact truth. */
   function topicCardHtml(topicGroup, i, groupDecks) {
     var single = groupDecks.length === 1;
     var href = single ? studyUrl(groupDecks[0]) : buildUrl(groupDecks[0].course, groupDecks[0].subject, topicGroup);
     return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
       '<span class="deck-icon" aria-hidden="true">' + (single ? (groupDecks[0].icon || topicIcon(topicGroup)) : topicIcon(topicGroup)) + '</span>' +
       '<h3>' + App.utils.escapeHtml(topicGroup) + '</h3>' +
-      '<span class="deck-meta">' + groupMeta(groupDecks) + '</span>' +
       '</a>';
   }
 
@@ -524,30 +514,31 @@
            → a flat grid, exactly as before this level existed. */
       var byTopic = groupBy(subjectDecks, function (d) { return d.topicGroup || ''; });
       var topics = byTopic.order.filter(function (t) { return !!t; });
-      var href, meta, icon;
+      var href, meta, icon, body;
       if (topics.length) {
         var soloDeck = topics.length === 1 && byTopic.map[topics[0]].length === 1;
         href = soloDeck ? studyUrl(byTopic.map[topics[0]][0]) : buildUrl(course, subject);
         icon = soloDeck ? (byTopic.map[topics[0]][0].icon || topicIcon(topics[0])) : topicIcon(topics[0]);
-        /* Counts the sections inside the topics, not the topics
-           themselves: a subject with one topic would otherwise read
-           "1 topics", and what the person cares about here is how much
-           there is to study. */
-        var grouped = [];
-        topics.forEach(function (t) { grouped = grouped.concat(byTopic.map[t]); });
-        meta = groupMeta(grouped);
+        /* Per the deck-grid policy (home.topics), one number is enough:
+           how many topics the subject holds. Section and card counts
+           used to live here too, but they don't change the answer to
+           "how much is there to study" anyway — and the topic page
+           already answers that for anyone who drills in. */
+        meta = topics.length + ' ' + App.i18n.t('home.topics');
       } else {
         var single = subjectDecks.length === 1;
         href = single ? studyUrl(subjectDecks[0]) : buildUrl(course, subject);
         icon = single ? (subjectDecks[0].icon || subjectIcon(subject)) : subjectIcon(subject);
-        meta = single
-          ? (subjectDecks[0].amount || '') + ' ' + App.i18n.t('home.cards')
-          : subjectDecks.length + ' ' + App.i18n.t('home.decks');
+        /* Flat-deck subject — no topics by definition, so the
+           section/card count is the only honest answer; we drop it
+           and let the deck-grid itself (and the per-deck amount on the
+           next page) carry that info. */
+        meta = '';
       }
-      var body =
+      body =
         '<span class="deck-icon" aria-hidden="true">' + icon + '</span>' +
         '<h3>' + App.utils.escapeHtml(subject) + '</h3>' +
-        '<span class="deck-meta">' + meta + '</span>';
+        (meta ? '<span class="deck-meta">' + meta + '</span>' : '');
       if (!isSubjectOpen(course, subject)) {
         return '<div class="deck-card deck-card--soon' + badgeClassFor(i) + '" role="listitem">' +
           body +

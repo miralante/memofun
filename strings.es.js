@@ -12,6 +12,7 @@ if (window.App.i18n) {
       openDeck: 'Estudiar',
       chooseCourse: 'Elige tu curso',
       subjects: 'asignaturas',
+      topics: 'temas',
       decks: 'barajas',
       sections: 'secciones',
       otherSections: 'Otras secciones',
