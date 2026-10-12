@@ -1085,7 +1085,7 @@
   },
   {
     "id": "fpb-sa-1-ta-t1-departamentos",
-    "topic": "Departamento de compras",
+    "topic": "Repaso general: empresa, organigrama y operativa administrativa",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
@@ -1096,7 +1096,7 @@
   },
   {
     "id": "fpb-sa-1-ta-t2-recibos",
-    "topic": "Recibo y justificantes de pago",
+    "topic": "Operaciones de caja, recibos y documentos de pago",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
@@ -2987,7 +2987,7 @@
   },
   {
     "id": "fpb-sa-1-ta-t3-agenda",
-    "topic": "Agenda, archivo, registro, sello e inventario",
+    "topic": "Agenda, archivo, registro, sello y operativa de oficina",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
@@ -3020,11 +3020,11 @@
   },
   {
     "id": "fpb-sa-1-ta-t6-medios-pago",
-    "topic": "Medios de pago, Excel y material de oficina",
+    "topic": "Medios de pago y operaciones de caja",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 16,
+    "amount": 12,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material.json",
     "icon": "📋",
     "topicGroup": "Tema 6 · Operaciones de cobro y pago"
@@ -3053,7 +3053,7 @@
   },
   {
     "id": "fpb-sa-1-ta-t1-com-ext",
-    "topic": "Comunicación escrita externa y carta comercial",
+    "topic": "Carta comercial y comunicación escrita externa",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
@@ -3081,6 +3081,17 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 5,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/inventario-control-existencias.json",
+    "icon": "📋",
+    "topicGroup": "Tema 5 · Material de oficina"
+  },
+  {
+    "id": "fpb-sa-1-ta-t5-material-oficina",
+    "topic": "Material y equipos de oficina",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 4,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina.json",
     "icon": "📋",
     "topicGroup": "Tema 5 · Material de oficina"
   },

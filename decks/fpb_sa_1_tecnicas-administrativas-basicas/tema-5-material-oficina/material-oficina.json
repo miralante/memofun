@@ -1,0 +1,55 @@
+{
+  "topic": "Material y equipos de oficina",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Las grapas, los clips, el papel, los post-it y la tinta de impresora: se gastan, se acaban y hay que reponerlos. <mark>Es como la comida del frigorífico: se consume y vuelve a comprar</mark>. ¿Cómo se llama este tipo de material de oficina?",
+      "answer": "<mark>Material fungible</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/material-fungible.jpg",
+        "title": "95, [1] p. 21 cm Subjects: Railroads -- Management; Railroads -- Equipment and supplies",
+        "source": "https://commons.wikimedia.org/wiki/File:Railroad_supplies,_pay-rolls_and_employes._(IA_railroadsupplies00nort).pdf",
+        "alt": "(imagen)",
+        "autor": "[Norton, Benjamin] [from old catalog]",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Una grapadora, una taladradora, una calculadora o unas tijeras: no se gastan con el uso y duran mucho tiempo. <mark>Es como una sartén: la compras una vez y la usas años</mark>. ¿Cómo se llama este tipo de material de oficina?",
+      "answer": "<mark>Material no fungible</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/material-no-fungible.jpg",
+        "title": "TECHNOLOGIES TRANSFORMING TRANSPORTATION: IS THE GOVERNMENT KEEPING UP? (US Senate hearing)",
+        "source": "https://commons.wikimedia.org/wiki/File:TECHNOLOGIES_TRANSFORMING_TRANSPORTATION-_IS_THE_GOVERNMENT_KEEPING_UP%3F_(IA_gov.gpo.fdsys.CHRG-114shrg99958).pdf",
+        "alt": "(imagen)",
+        "autor": "Committee on Commerce, Science, and Transportation",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Máquinas duraderas como ordenadores, impresoras, escáneres, teléfonos y fotocopiadoras que se usan repetidamente. <mark>Es como los electrodomésticos de una cocina: los compras y funcionan durante años</mark>. ¿Cómo se llama este conjunto de máquinas de la oficina?",
+      "answer": "<mark>Equipos de oficina</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/equipos-oficina.jpg",
+        "title": "Equipment arrangement using interactive computer graphics on personal computers",
+        "source": "https://commons.wikimedia.org/wiki/File:Equipment_arrangement_using_interactive_computer_graphics_on_personal_computers._(IA_equipmentarrange00meye).pdf",
+        "alt": "(imagen)",
+        "autor": "Meyers, Michael J.",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Un aparato que permite imprimir, escanear, fotocopiar y enviar correos sin cambiar de máquina. <mark>Es como un Swiss Army Knife: una herramienta con muchas funciones en una sola</mark>. ¿Cómo se llama este equipo?",
+      "answer": "<mark>Aparato multifunción</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/aparato-multifuncion.jpg",
+        "title": "Pamphlet titled \"Hopewell Culture\" distributed by US Park Service c. 2000",
+        "source": "https://commons.wikimedia.org/wiki/File:Hopewell_Culture_1_of_4,_upper_front.pdf",
+        "alt": "(imagen)",
+        "autor": "US. Department of Interior",
+        "licencia": "Public domain"
+      }
+    }
+  ]
+}

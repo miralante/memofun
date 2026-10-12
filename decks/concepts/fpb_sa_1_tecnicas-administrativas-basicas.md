@@ -22,8 +22,8 @@ Concretamente:
   - `agenda-archivo-sello-inventario` 17/17 con imagen (8 Wikimedia en subdir nuevo + 9 Flickr legacy en `_3/`)
   - `comunicacion-interna-documentos` 11/15 Wikimedia + 4 text-only (memorando, circular-interna, acta, correo-vs-mensajeria)
 - **Tema 4** (1 baraja, 10 cards): `correos-paqueteria` 10/10 con imagen Wikimedia
-- **Tema 5** (1 baraja, 5 cards): `inventario-control-existencias` 5/5 con imagen Wikimedia
-- **Tema 6** (2 barajas, 25 cards): `medios-pago-excel-material` 16/16 + `excel-avanzado-instrumentos-pago` 9/9, todas con imagen Wikimedia
+- **Tema 5** (2 barajas, 9 cards): `inventario-control-existencias` 5/5 + `material-oficina` 4/4 con imagen Wikimedia (esta última reubicada desde t6 tras auditoría de fidelidad al MD)
+- **Tema 6** (2 barajas, 21 cards): `medios-pago-excel-material` 12/12 (medios de pago tras extraer las 4 cards de material fungible/no fungible/equipos/multifunción) + `excel-avanzado-instrumentos-pago` 9/9, todas con imagen Wikimedia
 
 Total migrado: **123/138 cards** con imagen de Wikimedia CC-BY/-SA o Public Domain;
 13 con Flickr legacy (9 agenda t3) o text-only (4 com t3). Pendiente cleanup
