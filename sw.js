@@ -1,12 +1,15 @@
 /* ============================================================
    Memofun — Service Worker
-   Cache-first strategy for the app shell (works offline).
-   When adding new files: add them to FILES and bump VERSION.
-   Decks in decks/*.json are cached on first visit too (via fetch
-   caching below), so a deck a student already opened keeps working
-   offline; a brand-new deck needs one online visit first.
+   Network-first strategy with a cache fallback (works offline).
+   The server copy wins whenever the device is online, so a deploy
+   reaches installed PWAs without anyone bumping VERSION by hand. The
+   cache only answers when the network is unreachable.
+   When adding new files: add them to FILES and bump VERSION (the
+   precache still needs the list for offline use).
+   Decks in decks/*.json are cached on every successful fetch, so a
+   deck a student already opened keeps working offline.
    ============================================================ */
-var VERSION = 'memofun-v113';
+var VERSION = 'memofun-v114';
 
 var FILES = [
   './',
@@ -177,18 +180,21 @@ self.addEventListener('activate', function (event) {
 
 self.addEventListener('fetch', function (event) {
   if (event.request.method !== 'GET') return;
+  /* Network-first, cache fallback. Cache-first pinned installed clients to
+     the first copy of every file, so deploys stayed invisible until the
+     site data was cleared. Every successful response refreshes the cache,
+     so the offline copy is always the last one the server gave us. */
   event.respondWith(
-    caches.match(event.request).then(function (cached) {
-      /* A hit can come from a precache written by an older worker. */
-      if (cached) return deRedirect(cached);
-      return fetch(event.request).then(function (r) {
-        if (r.status === 200) {
-          caches.open(VERSION).then(function (cache) {
-            cache.put(event.request, deRedirect(r.clone()));
-          });
-        }
-        return deRedirect(r);
-      }).catch(function () {
+    fetch(event.request).then(function (r) {
+      if (r.status === 200) {
+        caches.open(VERSION).then(function (cache) {
+          cache.put(event.request, deRedirect(r.clone()));
+        });
+      }
+      return deRedirect(r);
+    }).catch(function () {
+      return caches.match(event.request).then(function (cached) {
+        if (cached) return deRedirect(cached);
         return caches.match('./offline.html').then(function (offline) {
           /* This one IS a navigation response, so a poisoned entry here is
              exactly the reported failure. Sanitise it. */

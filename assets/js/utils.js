@@ -54,14 +54,21 @@
   function registerServiceWorker(path) {
     if (!('serviceWorker' in navigator)) return;
     var hadController = !!navigator.serviceWorker.controller;
-    navigator.serviceWorker.register(path).catch(function () {});
-    if (!hadController) return;
     var reloaded = false;
     navigator.serviceWorker.addEventListener('controllerchange', function () {
-      if (reloaded) return;
+      if (!hadController || reloaded) return;
       reloaded = true;
       location.reload();
     });
+    /* updateViaCache: 'none' keeps the update check off the HTTP cache. */
+    navigator.serviceWorker.register(path, { updateViaCache: 'none' })
+      .then(function (registration) {
+        /* Check for a new sw.js whenever the tab becomes visible again. */
+        document.addEventListener('visibilitychange', function () {
+          if (document.visibilityState === 'visible') registration.update().catch(function () {});
+        });
+      })
+      .catch(function () {});
   }
 
   /* ---------------------------------------------------------------

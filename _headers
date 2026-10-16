@@ -35,9 +35,11 @@
   Cache-Control: no-cache, must-revalidate
 /assets/fonts/*
   Cache-Control: public, max-age=31536000, immutable
+# css/js/decks change without a URL change (no ?v= token), so they must be
+# revalidated on every use: the browser asks, gets a 304 when nothing moved.
 /assets/css/*
-  Cache-Control: public, max-age=300
+  Cache-Control: no-cache, must-revalidate
 /assets/js/*
-  Cache-Control: public, max-age=300
+  Cache-Control: no-cache, must-revalidate
 /decks/*
-  Cache-Control: public, max-age=86400
+  Cache-Control: no-cache, must-revalidate
