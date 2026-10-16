@@ -334,10 +334,13 @@ Cloudflare Workers (static assets). See [`CLOUDFLARE.md`](../../CLOUDFLARE.md).
 ### 7.1 Service worker (`sw.js`)
 
 Memofun ships its own service worker at the project root (`sw.js`). The SW
-follows the **cache-first** strategy with a single flat `FILES` list (no
-per-tool `ARCHIVOS` — memofun is deck-driven, not multi-activity): the generic
-`fetch` handler serves from cache when the file is listed, and only goes to
-the network when it is not.
+follows the **network-first with cache fallback** strategy with a single flat
+`FILES` list (no per-tool `ARCHIVOS` — memofun is deck-driven, not
+multi-activity): the generic `fetch` handler always asks the network first and
+serves from cache only when the network does not answer. Every successful
+response refreshes the cache. Decks (`decks/*.json`) are not listed in `FILES`
+but are cached on every successful fetch, so an opened deck works offline and a
+changed deck arrives as soon as the device is online, without a `VERSION` bump.
 
 **`VERSION` bump rule** (`sw.js` declares `var VERSION = "memofun-vN";`):
 bump `VERSION` on every commit that touches any file in `FILES` or adds a

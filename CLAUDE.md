@@ -177,18 +177,17 @@ stable.
 ### B.1 Service worker cache
 
 This project ships a service worker. **Behavior**: `sw.js` is
-**cache-first** — every file in `FILES` (per-tool `ARCHIVOS` in
-Calculia) is served from the cache; the network is only consulted
-when the request is not in the cache.
+**network-first with a cache fallback** — every request goes to the
+network first, so the server copy wins while the device is online. The
+cache (every file in `FILES`, per-tool `ARCHIVOS` in Calculia, plus every
+response fetched so far) answers only when the network is unreachable.
 
-**The cache is silent and persistent**. The developer sees a
-change on a hard refresh, but users with the PWA installed keep
-seeing the old version until either the SW itself is refreshed or
-the cache is purged. The only reliable way to refresh the
-deployed app after a new deploy is to bump `VERSION` in `sw.js`,
-because the SW's `install` handler compares its `VERSION` against
-the active cache name and only re-fetches + activates when they
-differ.
+**The offline copy is precached per `VERSION`**. The `install` handler
+re-precaches only when `VERSION` changes, so a cached file changed without
+a bump stays stale offline and the installed worker does not re-install.
+Bump `VERSION` in `sw.js` after a deploy that changes the shell, because the
+SW's `install` handler compares its `VERSION` against the active cache name
+and only re-fetches + activates when they differ.
 
 **Rule — bump `VERSION` on every commit that touches any cached
 file** (i.e. anything in `FILES` / `ARCHIVOS`, or a new file that

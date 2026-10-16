@@ -360,24 +360,22 @@ Cloudflare Workers (static assets). Ver [`CLOUDFLARE.md`](../../CLOUDFLARE.md).
 ### 7.1 Service worker (`sw.js`)
 
 Memofun envía un service worker propio en la raíz del proyecto (`sw.js`).
-El SW sigue la estrategia **cache-first** con un único `FILES` flat (no
-per-tool `ARCHIVOS` — memofun es deck-driven, no multi-actividad): el `fetch`
-genérico sirve desde la caché cuando el archivo está listado, y solo va a
-la red cuando no lo está.
+El SW sigue la estrategia **network-first con caché de respaldo** con un único
+`FILES` flat (no per-tool `ARCHIVOS` — memofun es deck-driven, no
+multi-actividad): el `fetch` genérico pide siempre a la red y solo sirve desde
+la caché cuando la red no responde. Cada respuesta correcta refresca la caché.
 
 **Regla de bump de `VERSION`** (`sw.js` declara `var VERSION =
 "memofun-vN";`): bumpear `VERSION` en cada commit que toque cualquier archivo
-de `FILES` o que añada un archivo nuevo que deba quedar en caché. El handler
-`install` del SW compara `VERSION` con el nombre de la caché activa y solo
-re-fetch + activa cuando difieren; un bump que no aterriza es silencioso y
-las personas usuarias finales siguen viendo los archivos antiguos hasta que
-el SW se desinstala.
+de `FILES` o que añada un archivo nuevo que deba quedar en caché. El `install`
+del SW solo vuelve a precachear cuando `VERSION` cambia, así que sin bump la
+copia offline de un archivo cambiado queda desfasada.
 
-**Excepción de barajas.** El contenido de las barajas (`decks/*.json` y
-`assets/img/decks/*`) NO está listado en `FILES` del SW: se sirve siempre
-desde la red (cache de HTTP estándar del navegador). Esto es deliberado —
-las barajas pueden cambiar sin tocar `VERSION`, y el cache de Cloudflare para
-esos paths ya está configurado en `_headers`.
+**Barajas.** El contenido de las barajas (`decks/*.json` y
+`assets/img/decks/*`) no está listado en `FILES`, pero cada respuesta de red
+correcta se guarda en caché: una baraja ya abierta funciona offline, y una
+baraja cambiada llega en cuanto hay conexión, sin tocar `VERSION`. Los
+`_headers` las sirven `no-cache` para que el navegador también revalide.
 
 **Verificación local antes de pushear.** Correr `node scripts/check-version-bump.js`
 después de editar `sw.js` o cualquier archivo listado en `FILES` — el mismo
