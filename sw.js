@@ -9,7 +9,7 @@
    Decks in decks/*.json are cached on every successful fetch, so a
    deck a student already opened keeps working offline.
    ============================================================ */
-var VERSION = 'memofun-v114';
+var VERSION = 'memofun-v115';
 
 var FILES = [
   './',
@@ -114,13 +114,8 @@ var FILES = [
   './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2_2.json',
   './decks/fpgm_ga_2_itinerario-personal-empleabilidad-2_3.json',
 
-  /* Técnicas Administrativas — FPB SA 1 — reorganized into topic folders */
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/',
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/',
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/',
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/',
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/',
-  './decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/'
+  /* Técnicas Administrativas decks are fetched on demand and cached on first
+     view. Their topic folders have no index.html, so they are not listed here. */
 ];
 
 /* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form
@@ -144,14 +139,17 @@ function deRedirect(res) {
 }
 
 /* addAll() stores the followed response as-is, so precache entry by entry and
-   sanitise. Still all-or-nothing: a missing file rejects, as addAll did. */
+   sanitise. Not all-or-nothing: if one listed file is missing on the server,
+   install must still succeed. A failed install leaves every client on its
+   old worker, so no deploy would ever reach them. A file that cannot be
+   fetched here is simply fetched on demand later. */
 function precache(cache, files) {
   return Promise.all(files.map(function (file) {
     /* cache: 'reload' avoids stale copies from the browser HTTP cache */
     return fetch(new Request(file, { cache: 'reload' })).then(function (res) {
-      if (!res || !res.ok) throw new Error('precache failed: ' + file);
+      if (!res || !res.ok) return;
       return cache.put(file, deRedirect(res));
-    });
+    }).catch(function () {});
   }));
 }
 
