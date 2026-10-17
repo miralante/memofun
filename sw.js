@@ -9,7 +9,7 @@
    Decks in decks/*.json are cached on every successful fetch, so a
    deck a student already opened keeps working offline.
    ============================================================ */
-var VERSION = 'memofun-v120';
+var VERSION = 'memofun-v121';
 
 var FILES = [
   './',
@@ -35,6 +35,11 @@ var FILES = [
   './tools/study/app.js',
   './tools/study/strings.es.js',
   './tools/study/strings.en.js',
+  './tools/autoevaluacion/',
+  './tools/autoevaluacion/app.js',
+  './tools/autoevaluacion/styles.css',
+  './tools/autoevaluacion/strings.es.js',
+  './tools/autoevaluacion/strings.en.js',
   './decks/manifest.json',
   './assets/css/tokens.css',
   './assets/css/base.css',

@@ -28,6 +28,8 @@ if (window.App.i18n) {
       enInviteTitle: '¿Nos ayudas con la versión en inglés?',
       enInviteBody: 'Todas las barajas están en español por ahora. Si quieres ayudar a crear barajas en inglés, únete al proyecto.',
       enInviteCta: 'Unirme al proyecto en GitHub',
+      selfTest: 'Autoevaluación',
+      selfTestHelp: 'Comprueba lo que has aprendido en este tema.',
       enCurriculumHeading: 'Temario en inglés (buscamos barajas)',
       enSubjectInvite: 'Aún no hay baraja — sé el primero en aportar',
       enSubjectInviteHelp: 'Elige esta asignatura y pide al agente de IA la baraja, o escríbela a mano siguiendo la guía.',

@@ -341,6 +341,10 @@ Rules:
 - **8 to 12 questions** per topic, mixing at least two types.
 - Every question has exactly one correct answer; no "it depends".
 - Easy-read text (`spec.md` §2.4); plain text, no `<mark>` or HTML.
+- The screen that shows it is `tools/autoevaluacion/` (it reads the JSON
+  from the topic's folder). It appears as one more card after the topic's
+  decks on the topic screen (`app.js`, `selfTestCardHtml`). It stores no
+  results: "Check" only shows what to review.
 - `scripts/check.js` §13 validates the shape and that every topic with
   decks has its file.
 

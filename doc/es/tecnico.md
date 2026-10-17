@@ -367,6 +367,10 @@ Reglas:
   "depende".
 - Texto en Lectura Fácil (`spec.md` §2.4); sin `<mark>` ni HTML, es
   texto plano.
+- La pantalla que lo muestra es `tools/autoevaluacion/` (lee el JSON de
+  la carpeta del tema). Aparece como una tarjeta más al final de las
+  barajas del tema en la pantalla de temas (`app.js`, `selfTestCardHtml`).
+  No guarda resultados: comprobar es solo para ver qué repasar.
 - `scripts/check.js` §13 valida la forma y que cada tema con barajas
   tenga su fichero.
 

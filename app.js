@@ -663,10 +663,28 @@
       App.utils.escapeHtml(topicGroup) +
       ' <span class="section-heading-meta">' + App.utils.escapeHtml(subject) + '</span>' +
       '</h2></div>';
-    html += '<div class="deck-grid" role="list">' +
-      filtered.map(function (d, i) { return deckCardHtml(d, i, progress); }).join('') +
-      '</div>';
+    var cards = filtered.map(function (d, i) { return deckCardHtml(d, i, progress); });
+    if (filtered[0].file && filtered[0].file.indexOf('/') !== -1) {
+      cards.push(selfTestCardHtml(filtered[0], filtered.length));
+    }
+    html += '<div class="deck-grid" role="list">' + cards.join('') + '</div>';
     grid.innerHTML = html;
+  }
+
+  /** The self-assessment that closes a topic (spec.md §1.4): one card after
+      the topic's decks, pointing at the test screen for the topic's folder
+      (decks/<folder>/autoevaluacion.json, technical.md §4.3). */
+  function selfTestCardHtml(deck, i) {
+    var folder = deck.file.slice(0, deck.file.lastIndexOf('/'));
+    var back = studyBackFrom(buildUrl(deck.course, deck.subject, deck.topicGroup));
+    var href = BASE + 'tools/autoevaluacion/index.html?deck=' + encodeURIComponent(folder) +
+      '&topicGroup=' + encodeURIComponent(deck.topicGroup) +
+      '&back=' + encodeURIComponent(back);
+    return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
+      '<span class="deck-icon" aria-hidden="true">📝</span>' +
+      '<h3>' + App.utils.escapeHtml(App.i18n.t('home.selfTest')) + '</h3>' +
+      '<span class="deck-meta">' + App.utils.escapeHtml(App.i18n.t('home.selfTestHelp')) + '</span>' +
+      '</a>';
   }
 
   /* ----- English curriculum (en locale, invite-only, no real decks) ----- */

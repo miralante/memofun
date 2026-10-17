@@ -1,0 +1,126 @@
+/* Memofun — self-assessment screen. Layout only; colours and type come from
+   assets/css/tokens.css and base.css. Phone first: 320px, no horizontal scroll. */
+
+.test-wrap {
+  padding-bottom: 3rem;
+}
+
+.test-intro {
+  margin: 0 0 1.25rem;
+}
+
+.test-q {
+  border: 1px solid currentColor;
+  border-radius: 0.75rem;
+  margin: 0 0 1rem;
+  padding: 0.9rem 1rem 0.6rem;
+  min-width: 0;
+}
+
+.test-q legend {
+  font-weight: 700;
+  padding: 0 0.25rem;
+  max-width: 100%;
+}
+
+.test-num {
+  margin-right: 0.25rem;
+}
+
+.test-options,
+.test-row,
+.test-radios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+}
+
+.test-options {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.test-option,
+.test-radios label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.test-option {
+  border: 1px solid currentColor;
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.75rem;
+}
+
+.test-row {
+  margin: 0.5rem 0;
+  justify-content: space-between;
+}
+
+.test-row-text {
+  flex: 1 1 14rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.test-gap-line {
+  margin: 0.5rem 0;
+  line-height: 2.2;
+}
+
+.test-gap {
+  min-height: 44px;
+  min-width: 8rem;
+  max-width: 100%;
+  margin: 0 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font: inherit;
+}
+
+.test-select {
+  min-height: 44px;
+  min-width: 4.5rem;
+  font: inherit;
+}
+
+.test-bank {
+  font-style: italic;
+  margin: 0 0 0.5rem;
+}
+
+.test-pairs-list {
+  margin: 0.25rem 0 0.75rem 1.25rem;
+  padding: 0;
+}
+
+.test-sub {
+  border: 0;
+  border-top: 1px dashed currentColor;
+  margin: 0.5rem 0 0;
+  padding: 0.5rem 0 0;
+  min-width: 0;
+}
+
+.test-sub legend {
+  font-weight: 400;
+  padding: 0;
+}
+
+.test-feedback {
+  margin: 0.5rem 0 0;
+  font-weight: 700;
+}
+
+.test-feedback:empty {
+  display: none;
+}
+
+.test-result {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}

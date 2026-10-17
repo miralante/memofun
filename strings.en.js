@@ -28,6 +28,8 @@ if (window.App.i18n) {
       enInviteTitle: 'Help us build the English version',
       enInviteBody: "All decks are in Spanish for now. If you'd like to help create decks in English, join the project.",
       enInviteCta: 'Join the project on GitHub',
+      selfTest: 'Self-assessment',
+      selfTestHelp: 'Check what you have learned in this topic.',
       enCurriculumHeading: 'English curriculum (call for decks)',
       enSubjectInvite: 'No deck yet — be the first to contribute',
       enSubjectInviteHelp: 'Pick this subject and ask the AI coding agent for the matching deck, or write one by hand following the guide.',

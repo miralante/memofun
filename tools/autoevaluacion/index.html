@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memofun</title>
+<meta name="theme-color" content="#FAF7F2">
+<link rel="manifest" href="../../manifest.json">
+<link rel="icon" href="../../assets/img/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/base.css">
+<link rel="stylesheet" href="../../assets/css/componentes.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
+
+<div class="top-bar container">
+  <a class="btn secondary icon" id="btn-back" href="../../" aria-label="Volver" data-i18n-aria="core.back">←</a>
+</div>
+<h1 id="test-title" class="deck-title-compact container"></h1>
+
+<main id="contenido" class="container test-wrap">
+  <p id="test-status" class="empty-state" data-i18n="test.loading">Cargando la autoevaluación…</p>
+
+  <form id="test-form" class="hidden" novalidate>
+    <p id="test-intro" class="test-intro"></p>
+    <div id="test-questions"></div>
+    <div class="btn-row">
+      <button id="btn-check" class="btn" type="button" data-i18n="test.check">✅ Comprobar</button>
+      <button id="btn-retry" class="btn secondary hidden" type="button" data-i18n="test.retry">🔁 Repetir</button>
+    </div>
+    <p id="test-result" class="test-result" aria-live="polite"></p>
+  </form>
+</main>
+
+<script src="../../assets/js/utils.js"></script>
+<script src="../../assets/js/i18n.js"></script>
+<script src="strings.es.js"></script>
+<script src="strings.en.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
