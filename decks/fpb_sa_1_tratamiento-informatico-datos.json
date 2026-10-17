@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Es la caja que contiene los componentes principales, como el procesador y la memoria. <mark>Es como el cerebro y el corazón del ordenador, guardados en una misma caja</mark>. Ahí se procesa toda la información. ¿Cómo se llama esta caja?",
+      "question": "Es la caja que tiene las piezas principales del ordenador. <mark>Es como su cerebro y su corazón, juntos en una caja</mark>. Ahí se trabaja con toda la información. ¿Cómo se llama esta caja?",
       "answer": "<mark>Torre</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/torre-ordenador.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Sirve para pasar documentos digitales a papel. <mark>Es como convertir lo que ves en pantalla en algo que puedes tocar</mark>. Se usa mucho en oficinas para imprimir contratos, facturas o cartas. ¿Cómo se llama este aparato?",
+      "question": "Sirve para pasar documentos digitales a papel. <mark>Es como pasar a papel lo que ves en pantalla</mark>. Se usa mucho en oficinas para imprimir contratos, facturas o cartas. ¿Cómo se llama este aparato?",
       "answer": "<mark>Impresora</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/impresora-laser.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "<mark>Una parte del ordenador se puede tocar, como la pantalla o el teclado</mark>. La otra parte son los programas, que no se pueden tocar. Ambas son necesarias para que el ordenador funcione. ¿Cómo se llama la parte física que sí se puede tocar?",
+      "question": "<mark>Una parte del ordenador se toca, como la pantalla o el teclado</mark>. La otra parte son los programas, que no se pueden tocar. Ambas son necesarias para que el ordenador funcione. ¿Cómo se llama la parte física que sí se puede tocar?",
       "answer": "<mark>Hardware</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/placa-base-circuitos.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "Hacerlo bien facilita encontrar cualquier documento rápidamente cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo mezclado en un mismo montón</mark>. ¿Qué conviene hacer con archivos y carpetas?",
+      "question": "Hacerlo bien facilita encontrar cualquier documento rápidamente cuando se necesita. <mark>Es como tener cada cosa en su cajón, no todo mezclado</mark>. ¿Qué conviene hacer con archivos y carpetas?",
       "answer": "<mark>Organizarlos bien</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/organizando-documentos.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Es la conexión que une varios ordenadores dentro de un mismo espacio de trabajo. <mark>Es como una calle privada que conecta solo las casas de un mismo barrio</mark>. Permite compartir archivos e impresoras. ¿Cómo se llama esta conexión?",
+      "question": "Es la conexión que une varios ordenadores de una oficina. <mark>Es como una calle privada que une las casas de un barrio</mark>. Permite compartir archivos e impresoras. ¿Cómo se llama esta conexión?",
       "answer": "<mark>Red local</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/red-cables-organizados.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "Permite que varios ordenadores usen el mismo aparato sin necesidad de tener uno cada uno. <mark>Es como compartir un electrodoméstico entre varias personas de la misma casa</mark>. ¿Qué se comparte en una red de oficina?",
+      "question": "Varios ordenadores usan el mismo aparato. Así no hace falta tener uno por ordenador. <mark>Es como compartir una cafetera entre varias personas de la misma casa</mark>. ¿Qué se comparte en una red de oficina?",
       "answer": "<mark>Una impresora</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/impresora-red-oficina.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "question": "El problema de un ordenador puede estar en el equipo físico o en un programa. <mark>Es como saber si un coche falla por el motor o por el sistema de navegación</mark>. ¿Qué conviene distinguir al pedir ayuda técnica?",
+      "question": "Un fallo puede estar en el equipo físico o en un programa. <mark>Como un coche: puede fallar el motor o la radio</mark>. ¿Qué conviene distinguir al pedir ayuda técnica?",
       "answer": "<mark>Hardware y software</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tratamiento-informatico-datos/soporte-tecnico-frustracion.jpg",

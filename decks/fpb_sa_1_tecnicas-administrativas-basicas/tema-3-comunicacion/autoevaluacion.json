@@ -1,0 +1,120 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 3 · Comunicación",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es la comunicación interna?",
+      "opciones": {
+        "a": "Actividades para crear y mantener buenas relaciones entre los miembros de la organización.",
+        "b": "Hablar con los clientes por teléfono.",
+        "c": "Enviar cartas a otras empresas."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "La comunicación vertical descendente va...",
+      "opciones": {
+        "a": "De los directivos a los empleados.",
+        "b": "De los empleados a los directivos.",
+        "c": "Entre compañeros del mismo nivel."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "La comunicación horizontal se da entre trabajadores de categorías parecidas.", "respuesta": "V" },
+        { "texto": "Una carta comercial es una comunicación interna.", "respuesta": "F" },
+        { "texto": "La comunicación informal sigue siempre la estructura de la empresa.", "respuesta": "F" },
+        { "texto": "El memorando es una nota interior breve con instrucciones internas.", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta.",
+      "huecos": [
+        { "texto": "La comunicación formal circula por la estructura ___ de la empresa.", "respuesta": "organizativa" },
+        { "texto": "El documento que resume los acuerdos tomados en una reunión es el ___.", "respuesta": "acta" },
+        { "texto": "El documento que recoge la información que necesita el empleado se llama manual del ___.", "respuesta": "empleado" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada documento con su explicación. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Memorando",
+        "B": "Circular interna",
+        "C": "Acta",
+        "D": "Informe"
+      },
+      "derecha": {
+        "1": "Resume los acuerdos tomados en una reunión.",
+        "2": "Nota breve con instrucciones internas entre departamentos.",
+        "3": "Da a conocer una misma información a varios departamentos.",
+        "4": "Detalla de forma ordenada datos, hechos y conclusiones."
+      },
+      "respuesta": { "A": "2", "B": "3", "C": "1", "D": "4" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada herramienta de comunicación interna con lo que es.",
+      "izquierda": {
+        "A": "Intranet",
+        "B": "Tablón de anuncios",
+        "C": "Newsletter"
+      },
+      "derecha": {
+        "1": "Revista interna.",
+        "2": "Red interna para acceder a la información.",
+        "3": "Lugar con escritos y carteles para leer."
+      },
+      "respuesta": { "A": "2", "B": "3", "C": "1" }
+    },
+    {
+      "id": "p7",
+      "tipo": "clasificar",
+      "enunciado": "¿Qué tipo de comunicación es? Marca con una X.",
+      "categorias": ["Vertical ascendente", "Vertical descendente", "Horizontal"],
+      "elementos": [
+        { "texto": "Un trabajador avisa a su jefe de que se va a ausentar 2 horas.", "respuesta": "Vertical ascendente" },
+        { "texto": "El jefe de Ventas pide una relación de artículos al jefe de Almacén.", "respuesta": "Horizontal" },
+        { "texto": "El jefe de Contabilidad pide a su secretario un informe.", "respuesta": "Vertical descendente" },
+        { "texto": "La dirección envía instrucciones a los empleados.", "respuesta": "Vertical descendente" }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "clasificar",
+      "enunciado": "¿Es comunicación formal o informal? Marca con una X.",
+      "categorias": ["Formal", "Informal"],
+      "elementos": [
+        { "texto": "José llama al jefe de Recursos Humanos para pedir más personal.", "respuesta": "Formal" },
+        { "texto": "Luis comenta con Carmen, mientras toman café, la subida de ventas.", "respuesta": "Informal" },
+        { "texto": "Julia charla con María sobre la paga en el ascensor.", "respuesta": "Informal" }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es un aviso en una empresa?",
+      "opciones": {
+        "a": "Una comunicación breve para informar a muchas personas.",
+        "b": "Una carta de despedida.",
+        "c": "Un contrato de trabajo."
+      },
+      "respuesta": "a"
+    }
+  ]
+}

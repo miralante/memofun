@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "La pantalla de Excel tiene: barra de herramientas de acceso rápido, barra de título, barra de menús, banda de opciones, banda de fórmulas, barra de etiquetas de hojas, barras de desplazamiento y barra de estado. <mark>Es como el salpicadero de un coche: cada instrumento tiene su función y su sitio</mark>. ¿Cómo se llama la barra superior que muestra el nombre del archivo y la aplicación?",
+      "question": "La pantalla de Excel tiene muchas barras. Una muestra el nombre del archivo y la aplicación. <mark>Es como el salpicadero de un coche: cada cosa tiene su sitio</mark>. ¿Cómo se llama esa barra?",
       "answer": "<mark>Barra de título</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/barra-titulo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "En la pantalla inicial de Excel hay una barra con las opciones habituales (guardar, deshacer) a la izquierda de la barra de título. <mark>Es como los botones de acceso rápido de un mando a distancia</mark>. ¿Cómo se llama?",
+      "question": "A la izquierda de la barra de título hay botones. Sirven para guardar o deshacer, por ejemplo. <mark>Es como los botones de acceso rápido de un mando a distancia</mark>. ¿Cómo se llama esa barra de botones?",
       "answer": "<mark>Barra de herramientas de acceso rápido</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/barra-acceso-rapido.jpg",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "question": "La barra de estado de Excel muestra información del documento: si está guardado, el zoom actual, la vista de página. <mark>Es como la barra inferior del navegador que dice 'Listo' o 'Cargando'</mark>. ¿Para qué sirve la barra de estado?",
-      "answer": "<mark>Para mostrar información contextual del documento (zoom, vista, estado del archivo)</mark>",
+      "question": "La barra de estado muestra datos del documento. Por ejemplo, si está guardado, el zoom y la vista. <mark>Es como la barra inferior del navegador que dice 'Listo' o 'Cargando'</mark>. ¿Para qué sirve la barra de estado?",
+      "answer": "<mark>Mostrar datos del documento</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/barra-estado.jpg",
         "title": "Subjects:",
@@ -40,8 +40,8 @@
       }
     },
     {
-      "question": "En Excel se puede cambiar el zoom de la hoja del 10% al 400%, y hay tres vistas: Normal, Diseño de página y Saltos de página. <mark>Es como acercarse o alejarse con unos prismáticos y elegir si ves el mapa completo o por hojas</mark>. ¿Qué permite hacer el zoom en Excel?",
-      "answer": "<mark>Acercar o alejar la vista de la hoja de cálculo</mark>",
+      "question": "Excel cambia el zoom de 10% a 400%. Tiene tres vistas: normal, diseño de página y saltos de página. <mark>Es como usar unos prismáticos: te acercas o te alejas</mark>. ¿Qué permite hacer el zoom en Excel?",
+      "answer": "<mark>Acercar o alejar la vista</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/zoom-excel.jpg",
         "title": "Perturbated Basilica Julia set zoom, Level Curves Method",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "question": "El IBAN (Identificador Bancario de Cuenta) es un código que identifica tu cuenta bancaria a nivel internacional: país (ES para España), dos dígitos de control y el número de cuenta. <mark>Es como la dirección de tu cuenta bancaria en el sistema financiero mundial</mark>. ¿Qué es el IBAN?",
-      "answer": "<mark>El código que identifica internacionalmente una cuenta bancaria</mark>",
+      "question": "El IBAN es un código de tu cuenta bancaria. Sirve en todo el mundo y empieza por el país. <mark>Es como la dirección de tu cuenta en el mundo</mark>. ¿Qué es el IBAN?",
+      "answer": "<mark>Un código que identifica una cuenta</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/iban.jpg",
         "title": "Prosecution Exhibits: 2501 THRU 2598",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "question": "El Código Cuenta Cliente (CCC) tiene 20 dígitos: 4 de la entidad bancaria, 4 de la oficina, 2 de control y 10 del número de cuenta. <mark>Es como la matrícula del coche: identifica al banco (marca), la oficina (modelo) y la cuenta (número de bastidor)</mark>. ¿Qué datos contiene el CCC?",
-      "answer": "<mark>Entidad, oficina, dígito de control y número de cuenta</mark>",
+      "question": "El CCC tiene 20 números: 2 de control y 10 de cuenta. Son 4 del banco y 4 de la oficina. <mark>Es como la matrícula del coche: dice de qué banco es</mark>. ¿Qué datos contiene el CCC?",
+      "answer": "<mark>Banco, oficina, control y cuenta</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/ccc.jpg",
         "title": "Rev. of the 1870 ed., which was a translation of part of: Les poissons, les reptiles et les oiseaux. 1868 Includes bibliographical references and index Subjects: Reptiles; Birds",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Además del cheque y la transferencia, existe un documento por el que una persona se compromete a pagar una cantidad en una fecha futura: <mark>Es como un cheque postfechado: te digo 'te pago esto tal día'</mark>. ¿Cómo se llama este instrumento de pago?",
+      "question": "Hay un papel donde alguien promete pagar en una fecha futura. <mark>Es como decir: te pago esto tal día</mark>. ¿Cómo se llama este instrumento de pago?",
       "answer": "<mark>Pagaré</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/pagare.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Documento de crédito por el que el librador ordena al librado (banco) que pague una cantidad a un beneficiario en una fecha determinada. <mark>Es como una cadena de tres: el que debe, el banco y el que cobra</mark>. ¿Cómo se llama este documento?",
+      "question": "<mark>Es como una cadena: quien debe, el banco y quien cobra</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Letra de cambio</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/letra-cambio.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Para calcular el IBAN español se añade ES + 2 dígitos de control + 20 dígitos de CCC. <mark>Es como el prefijo de país en un número de teléfono internacional pero para cuentas bancarias</mark>. ¿Cómo se forma el IBAN a partir del CCC?",
+      "question": "Para el IBAN español, se pone ES, 2 dígitos y el CCC. <mark>Es como el prefijo de país de un teléfono</mark>. ¿Cómo se forma el IBAN a partir del CCC?",
       "answer": "<mark>ES + 2 dígitos de control + CCC (20 dígitos)</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago/iban-formacion.jpg",

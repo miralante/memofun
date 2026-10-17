@@ -70,6 +70,28 @@ shored up by two deliberate mechanisms in how decks are designed:
 See "Generating deck content" in `CLAUDE.md` for how this applies when
 writing or extending a deck.
 
+### 1.4 Self-assessment at the end of each topic
+
+Every topic of a subject that is split into topics (the `topicGroup` in
+`decks/manifest.json`) ends with a **self-assessment test**. It lets the
+learner check, without pressure and without a grade, whether they have
+kept the essentials of the topic before moving on.
+
+- **Required**: no topic with decks is complete without its
+  self-assessment. `scripts/check.js` fails if it is missing.
+- **From the same syllabus**: questions come only from that topic's
+  content (the photographed source or its `doc/revision-*/`), never
+  from neighbouring topics (§1.3).
+- **Easy read**: the same rules as §2.4 — short sentences, one idea per
+  sentence, everyday vocabulary.
+- **No penalty**: the result never blocks a topic or erases progress
+  (§2.2).
+- **Varied formats**: single choice, true/false, fill in the gap,
+  matching pairs and classifying into categories, instead of a
+  multiple-choice-only test.
+
+The file format (`autoevaluacion.json`) is in `technical.md` §4.3.
+
 ---
 
 ## 2. Non-negotiable constraints

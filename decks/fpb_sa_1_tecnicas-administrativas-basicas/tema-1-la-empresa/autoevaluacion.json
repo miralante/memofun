@@ -1,0 +1,129 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 1 · La empresa",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es una empresa?",
+      "opciones": {
+        "a": "Elementos materiales y humanos que, bien organizados, producen bienes o servicios para obtener beneficios.",
+        "b": "Un grupo de amigos que trabajan juntos.",
+        "c": "Solo un edificio."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "Una empresa del sector terciario...",
+      "opciones": {
+        "a": "Transforma materias primas en otros productos.",
+        "b": "Ofrece servicios.",
+        "c": "Cultiva la tierra."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "El empresario dirige, controla y supervisa todas las actividades de la empresa.", "respuesta": "V" },
+        { "texto": "En una empresa pública, el propietario del capital es un particular.", "respuesta": "F" },
+        { "texto": "La estructura informal son las relaciones que surgen de forma espontánea entre las personas.", "respuesta": "V" },
+        { "texto": "La organización real es solo la organización formal.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta.",
+      "huecos": [
+        { "texto": "Según su tamaño, las empresas pueden ser grandes, medianas, pequeñas o ___.", "respuesta": "microempresas" },
+        { "texto": "Una empresa cuyo propietario es el Estado es una empresa ___.", "respuesta": "pública" },
+        { "texto": "Una de las funciones de la empresa es crear empleo y ___.", "respuesta": "riqueza" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada sector con su descripción. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Sector primario",
+        "B": "Sector secundario",
+        "C": "Sector terciario"
+      },
+      "derecha": {
+        "1": "Ofrecen servicios.",
+        "2": "Agricultura, ganadería, pesca, extracción y bosques.",
+        "3": "Transforman materias primas en otros productos."
+      },
+      "respuesta": { "A": "2", "B": "3", "C": "1" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada tipo de organización con su descripción.",
+      "izquierda": {
+        "A": "Jerárquica",
+        "B": "Funcional",
+        "C": "Por divisiones"
+      },
+      "derecha": {
+        "1": "Se organiza por autoridad y responsabilidad. Típica de las pymes.",
+        "2": "Se organiza por funciones y departamentos.",
+        "3": "Cada departamento actúa casi como una empresa. Típica de grandes empresas."
+      },
+      "respuesta": { "A": "1", "B": "2", "C": "3" }
+    },
+    {
+      "id": "p7",
+      "tipo": "clasificar",
+      "enunciado": "¿Es una relación de estructura formal o informal? Marca con una X.",
+      "categorias": ["Formal", "Informal"],
+      "elementos": [
+        { "texto": "Preguntar a un compañero sobre un contrato de trabajo.", "respuesta": "Formal" },
+        { "texto": "Ir a un concierto con un compañero al salir del trabajo.", "respuesta": "Informal" },
+        { "texto": "Presentar un informe sobre un producto nuevo.", "respuesta": "Formal" },
+        { "texto": "Formar un grupo para salir a correr después del trabajo.", "respuesta": "Informal" }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es la planificación en la empresa?",
+      "opciones": {
+        "a": "Fijar los objetivos, las estrategias y los planes para alcanzarlos.",
+        "b": "Comprobar al final si todo salió bien.",
+        "c": "Dar órdenes al personal."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué función consiste en comprobar si los resultados son iguales a los programados?",
+      "opciones": {
+        "a": "Control.",
+        "b": "Dirección.",
+        "c": "Coordinación."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué función guía, orienta e imparte instrucciones al personal?",
+      "opciones": {
+        "a": "Organización.",
+        "b": "Dirección.",
+        "c": "Planificación."
+      },
+      "respuesta": "b"
+    }
+  ]
+}

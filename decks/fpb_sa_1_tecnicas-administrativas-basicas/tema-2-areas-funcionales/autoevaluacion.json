@@ -1,0 +1,122 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 2 · Áreas funcionales",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es un área funcional?",
+      "opciones": {
+        "a": "Un conjunto de actividades, funciones y responsabilidades de la empresa.",
+        "b": "Una oficina con sillas.",
+        "c": "Un tipo de contrato."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué área transforma las materias primas en productos terminados?",
+      "opciones": {
+        "a": "Comercial.",
+        "b": "Producción.",
+        "c": "Finanzas."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p3",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta.",
+      "huecos": [
+        { "texto": "El área que vende y distribuye bienes y servicios es el área ___.", "respuesta": "comercial" },
+        { "texto": "Los ___ son divisiones o sucursales que se encargan de una actividad concreta.", "respuesta": "departamentos" },
+        { "texto": "La representación gráfica de la estructura de una empresa se llama ___.", "respuesta": "organigrama" }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "Entrevistar a un candidato es una actividad de Recursos Humanos.", "respuesta": "V" },
+        { "texto": "Obtener un préstamo bancario es una actividad del área de Producción.", "respuesta": "F" },
+        { "texto": "Atender al cliente es una actividad comercial.", "respuesta": "V" },
+        { "texto": "Establecer los beneficios o pérdidas al final del ejercicio es una actividad financiera.", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada actividad con su área funcional. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Obtener un préstamo bancario",
+        "B": "Diseñar un anuncio publicitario",
+        "C": "Controlar el almacén",
+        "D": "Elaborar los artículos de la empresa"
+      },
+      "derecha": {
+        "1": "Producción",
+        "2": "Comercial",
+        "3": "Finanzas",
+        "4": "Almacén"
+      },
+      "respuesta": { "A": "3", "B": "2", "C": "4", "D": "1" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada actividad con el departamento que la hace.",
+      "izquierda": {
+        "A": "Formación de personal",
+        "B": "Pagos",
+        "C": "Pedidos",
+        "D": "Archivo"
+      },
+      "derecha": {
+        "1": "Compras",
+        "2": "Financiero",
+        "3": "Recursos Humanos",
+        "4": "Administración"
+      },
+      "respuesta": { "A": "3", "B": "2", "C": "1", "D": "4" }
+    },
+    {
+      "id": "p7",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es un organigrama?",
+      "opciones": {
+        "a": "Una foto de la empresa.",
+        "b": "La representación gráfica de la estructura organizativa de la empresa.",
+        "c": "Un documento para hacer compras."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p8",
+      "tipo": "clasificar",
+      "enunciado": "¿A qué área funcional pertenece cada actividad? Marca con una X.",
+      "categorias": ["Producción", "Comercial", "Finanzas", "Recursos Humanos"],
+      "elementos": [
+        { "texto": "Entrevistar a un candidato.", "respuesta": "Recursos Humanos" },
+        { "texto": "Atender al cliente.", "respuesta": "Comercial" },
+        { "texto": "Elaborar los artículos.", "respuesta": "Producción" },
+        { "texto": "Obtener un préstamo bancario.", "respuesta": "Finanzas" }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "En un organigrama, ¿quién tiene más autoridad?",
+      "opciones": {
+        "a": "El Departamento de Compras.",
+        "b": "La Dirección general.",
+        "c": "El Departamento de Almacén."
+      },
+      "respuesta": "b"
+    }
+  ]
+}

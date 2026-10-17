@@ -324,6 +324,52 @@ una asignatura el camino EN puede optar por cambiar la tarjeta de
 invitación por el enlace a la baraja real — ver
 `renderEnSubjectLevel` en `app.js`).
 
+### 4.3 Autoevaluación de cada tema (`autoevaluacion.json`)
+
+Cada tema con `topicGroup` tiene, en la misma carpeta que sus barajas,
+un fichero `autoevaluacion.json` que cierra el tema (ver `spec.md` §1.4).
+No está en `manifest.json`: no es una baraja, es un test.
+
+```json
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    { "id": "p1", "tipo": "seleccion", "enunciado": "¿Qué es la prevención de riesgos laborales?",
+      "opciones": { "a": "Trabajar más rápido.", "b": "Evitar accidentes y enfermedades.", "c": "Cobrar más por trabajos peligrosos." },
+      "respuesta": "b" }
+  ]
+}
+```
+
+`topicGroup`, `course` y `subject` llevan exactamente los mismos valores
+que las barajas del tema en `manifest.json` (el prefijo "Tema N · " sí
+va aquí, como en el manifest).
+
+Tipos de pregunta (`tipo`):
+
+| `tipo` | Campos | Respuesta |
+|---|---|---|
+| `seleccion` | `opciones` `{letra: texto}` | `respuesta`: la letra correcta |
+| `vf` | `afirmaciones` `[{texto, respuesta}]` | `respuesta` de cada una: `"V"` o `"F"` |
+| `completar` | `huecos` `[{texto, respuesta}]` (el hueco va como `___`), `banco` opcional | `respuesta`: la palabra exacta |
+| `unir` | `izquierda` `{letra: texto}`, `derecha` `{número: texto}` | `respuesta`: `{letra: número}` |
+| `clasificar` | `categorias` `[texto]`, `elementos` `[{texto, respuesta}]` | `respuesta`: una de `categorias` |
+
+Reglas:
+
+- `id` único dentro del fichero.
+- Entre **8 y 12 preguntas** por tema, combinando al menos dos tipos.
+- Cada pregunta tiene una única respuesta correcta; nada de
+  "depende".
+- Texto en Lectura Fácil (`spec.md` §2.4); sin `<mark>` ni HTML, es
+  texto plano.
+- `scripts/check.js` §13 valida la forma y que cada tema con barajas
+  tenga su fichero.
+
 ## 5. Reglas de accesibilidad
 
 1. Lectura Fácil: frases cortas, una idea por frase.

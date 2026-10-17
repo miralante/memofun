@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Son las distintas partes en las que se organiza el trabajo de una empresa. <mark>Es como repartir las tareas de una casa entre distintas personas, cada una con su función</mark>. Compras, ventas y recursos humanos son ejemplos. ¿Cómo se llaman estas partes de una empresa?",
+      "question": "Son las partes en que se organiza una empresa. <mark>Es como repartir las tareas de una casa entre varias personas</mark>. Compras, ventas y recursos humanos son ejemplos. ¿Cómo se llaman estas partes de una empresa?",
       "answer": "<mark>Departamentos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/departamentos.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Este departamento se encarga de conseguir los materiales que la empresa necesita. <mark>Es como quien se encarga de adquirir todo lo necesario para que no falte nada en casa</mark>. Negocia precios y plazos con los proveedores. ¿Qué departamento hace esto?",
+      "question": "Este departamento se encarga de conseguir los materiales que la empresa necesita. <mark>Es como ir a comprar lo que falta en casa</mark>. Negocia precios y fechas con los proveedores. ¿Qué departamento hace esto?",
       "answer": "<mark>El departamento de compras</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/departamento-compras.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Es un dibujo que muestra cómo se organizan los puestos dentro de una empresa. <mark>Es como un árbol genealógico, pero de los cargos de una empresa</mark>. Muestra quién depende de quién. ¿Cómo se llama este dibujo?",
+      "question": "Es un dibujo que muestra los puestos de una empresa. <mark>Es como un árbol genealógico, pero de los cargos de una empresa</mark>. Muestra quién depende de quién. ¿Cómo se llama este dibujo?",
       "answer": "<mark>Organigrama</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/organigrama-def.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Consultarlo ayuda a saber a quién dirigirse según el tema que necesites resolver. <mark>Es como un mapa que te indica a qué puerta llamar</mark>. Evita perder tiempo preguntando a la persona equivocada. ¿Qué documento conviene consultar?",
+      "question": "Este documento ayuda a saber a quién preguntar. <mark>Es como un mapa que te indica a qué puerta llamar</mark>. Evita perder tiempo preguntando a la persona equivocada. ¿Qué documento conviene consultar?",
       "answer": "<mark>El organigrama</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/consultar-organigrama.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Hay que recibir, registrar, clasificar y entregar cada documento a quien corresponda. <mark>Es como repartir las cartas de un edificio, buzón por buzón</mark>. Un buen registro evita que se pierda o se retrase algún documento. ¿Qué se está tramitando con estos pasos?",
+      "question": "Hay que recibir, anotar y entregar cada documento. <mark>Es como repartir las cartas de un edificio, buzón por buzón</mark>. Un buen registro evita que se pierda o se retrase algún documento. ¿Cómo se llaman estas cartas y documentos que llegan y salen?",
       "answer": "<mark>La correspondencia</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/tramitar-correspondencia.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Antes de aceptar un paquete, hay que ver que el destinatario y los datos coincidan y que nada esté dañado. <mark>Es como revisar un pedido antes de darlo por bueno</mark>. ¿Qué acción es imprescindible antes de aceptar un envío?",
+      "question": "Antes de aceptar un paquete, mira que los datos sean correctos. <mark>Es como revisar un pedido antes de darlo por bueno</mark>. ¿Qué acción es necesaria antes de aceptar un envío?",
       "answer": "<mark>Comprobarlo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/comprobar-paquete.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Es el sistema tradicional de enviar cartas y paquetes por medio de un servicio postal. <mark>Sigue siendo útil para documentos oficiales que necesitan quedar registrados</mark>. Muchos trámites oficiales todavía lo requieren. ¿Cómo se llama este sistema?",
+      "question": "Es el envío de cartas por el servicio postal de siempre. <mark>Sigue siendo útil para documentos oficiales que necesitan quedar registrados</mark>. Muchos trámites oficiales todavía lo requieren. ¿Cómo se llama este sistema?",
       "answer": "<mark>Correo postal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/buzon-correo.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Es el documento oficial que certifica una venta y su importe. <mark>Es como el recibo definitivo de una compra, con validez legal y fiscal</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor. ¿Cómo se llama este documento?",
+      "question": "Es el documento oficial que certifica una venta y su importe. <mark>Es como un recibo oficial de una compra</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor. ¿Cómo se llama este documento?",
       "answer": "<mark>Factura</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/factura-def.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "Siempre debe llevar los datos del vendedor y del comprador, el producto, el precio y el IVA aplicado. <mark>Es como una ficha completa que deja constancia exacta de toda la operación</mark>. ¿Qué documento reúne toda esta información?",
+      "question": "Lleva los datos de quien vende y de quien compra. Lleva también el precio y el IVA. <mark>Es como una ficha completa de toda la compra</mark>. ¿Qué documento reúne toda esta información?",
       "answer": "<mark>La factura</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/factura-info.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que certifica que la mercancía ha llegado tal y como se pidió</mark>. Después se usa para elaborar la factura. ¿Cómo se llama este documento?",
+      "question": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que dice que todo llegó bien</mark>. Después se usa para elaborar la factura. ¿Cómo se llama este documento?",
       "answer": "<mark>Albarán</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/albaran.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "Es el documento con el que un cliente solicita productos a un proveedor. <mark>Es como hacer una lista de la compra, pero de forma oficial y por escrito</mark>. ¿Cómo se llama este documento?",
+      "question": "Es el documento que pide un cliente a un proveedor. <mark>Es como una lista de la compra, pero por escrito y oficial</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Pedido</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/pedido.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "question": "El pedido solicita la mercancía y la factura certifica el cobro. Entre los dos hay un documento que certifica que la mercancía ha llegado. <mark>Es como el paso intermedio de pedir, recibir y pagar</mark>. ¿Cómo se llama ese documento intermedio?",
+      "question": "El pedido pide la mercancía y la factura certifica el cobro. Entre los dos hay otro: confirma que la mercancía llegó. <mark>Es como el paso intermedio de pedir, recibir y pagar</mark>. ¿Cómo se llama ese documento intermedio?",
       "answer": "<mark>El albarán</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/diferencia-pedido-albaran-factura.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "question": "Hacer esto bien permite encontrar cualquier documento rápido cuando se necesita. <mark>Es como tener cada cosa en su cajón, en vez de todo amontonado sin orden</mark>. ¿Qué conviene hacer con la correspondencia recibida?",
+      "question": "Guardar bien los papeles permite encontrarlos rápido. <mark>Es como tener cada cosa en su cajón</mark>. ¿Qué conviene hacer con las cartas que llegan?",
       "answer": "<mark>Archivarla bien</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/archivar-correspondencia.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "question": "Conocer esto ayuda a saber a quién debe entregarse cada documento recibido. <mark>Es como saber en qué buzón dejar cada carta según su destinatario</mark>. ¿Qué documento ayuda a repartir bien la correspondencia?",
+      "question": "Este documento ayuda a saber a quién entregar cada carta. <mark>Es como saber en qué buzón dejar cada carta según su destinatario</mark>. ¿Qué documento ayuda a repartir bien las cartas?",
       "answer": "<mark>El organigrama</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/organigrama-def.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "question": "Un pequeño error, como un documento mal archivado, puede causar retrasos importantes. <mark>Es como un engranaje: si una pieza falla, afecta a todo el mecanismo</mark>. ¿Qué es clave en las tareas administrativas?",
+      "question": "Un pequeño error, como un documento mal archivado, puede causar retrasos importantes. <mark>Es como una rueda: si una pieza falla, todo se para</mark>. ¿Qué es clave en las tareas administrativas?",
       "answer": "<mark>La organización</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos/importancia-organizacion.jpg",

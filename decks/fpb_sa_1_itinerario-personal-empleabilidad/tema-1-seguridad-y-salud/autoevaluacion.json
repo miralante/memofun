@@ -1,0 +1,165 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es la prevención de riesgos laborales?",
+      "opciones": {
+        "a": "Trabajar más rápido para terminar antes.",
+        "b": "Evitar accidentes y enfermedades causadas por el trabajo.",
+        "c": "Cobrar más dinero por hacer trabajos peligrosos."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "Según la OMS, la salud es...",
+      "opciones": {
+        "a": "No estar enfermo.",
+        "b": "Tener el cuerpo fuerte.",
+        "c": "El bienestar físico, mental y social."
+      },
+      "respuesta": "c"
+    },
+    {
+      "id": "p3",
+      "tipo": "seleccion",
+      "enunciado": "Las condiciones de trabajo se clasifican en 4 grupos. ¿Cuál de estos NO es uno de ellos?",
+      "opciones": {
+        "a": "Condiciones de seguridad.",
+        "b": "Condiciones económicas.",
+        "c": "Condiciones medioambientales.",
+        "d": "Factores psicosociales."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p4",
+      "tipo": "seleccion",
+      "enunciado": "Los agentes físicos son...",
+      "opciones": {
+        "a": "Formas de energía, como el ruido o el calor, que pueden dañar la salud.",
+        "b": "Virus y bacterias.",
+        "c": "Productos de limpieza y pinturas."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p5",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "La salud es solamente no estar enfermo.", "respuesta": "F" },
+        { "texto": "Si me da un calambre al tocar un cable en mal estado, es un riesgo eléctrico.", "respuesta": "V" },
+        { "texto": "La carga de trabajo mental es el esfuerzo que hacemos con los músculos.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p6",
+      "tipo": "completar",
+      "enunciado": "Completa con la palabra correcta: FÍSICO, MENTAL o SOCIAL.",
+      "banco": ["FÍSICO", "MENTAL", "SOCIAL"],
+      "huecos": [
+        { "texto": "Si no me duele nada y mi cuerpo está sano, tengo bienestar ___.", "respuesta": "FÍSICO" },
+        { "texto": "Si estoy tranquilo y sin nervios, tengo bienestar ___.", "respuesta": "MENTAL" },
+        { "texto": "Si me llevo bien con mis compañeros, tengo bienestar ___.", "respuesta": "SOCIAL" }
+      ]
+    },
+    {
+      "id": "p7",
+      "tipo": "unir",
+      "enunciado": "Une cada causa con su efecto. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Hay mucho ruido en el taller.",
+        "B": "Levantamos mal algo pesado.",
+        "C": "Trabajamos con productos tóxicos."
+      },
+      "derecha": {
+        "1": "Nos duele la espalda.",
+        "2": "Podemos perder audición.",
+        "3": "Podemos enfermar."
+      },
+      "respuesta": { "A": "2", "B": "1", "C": "3" }
+    },
+    {
+      "id": "p8",
+      "tipo": "unir",
+      "enunciado": "Une cada riesgo de seguridad con su explicación.",
+      "izquierda": {
+        "A": "Lugares de trabajo",
+        "B": "Máquinas y herramientas",
+        "C": "Riesgo eléctrico",
+        "D": "Riesgo de incendio"
+      },
+      "derecha": {
+        "1": "Fuegos que no se controlan y pueden hacer daño a las personas.",
+        "2": "Tocar un cable en mal estado y que te dé un calambre.",
+        "3": "Zonas del centro donde estás para hacer tu trabajo.",
+        "4": "Cualquier máquina, aparato o instrumento que usas en el trabajo."
+      },
+      "respuesta": { "A": "3", "B": "4", "C": "2", "D": "1" }
+    },
+    {
+      "id": "p9",
+      "tipo": "unir",
+      "enunciado": "Une cada pictograma de peligro químico con su significado. Mira la página 10 del manual.",
+      "izquierda": {
+        "A": "Una llama",
+        "B": "Una calavera",
+        "C": "Unas gotas que caen sobre una mano",
+        "D": "Una bombona de gas"
+      },
+      "derecha": {
+        "1": "Toxicidad (veneno)",
+        "2": "Corrosivo (quema la piel y los materiales)",
+        "3": "Inflamable (arde con facilidad)",
+        "4": "Gas a presión"
+      },
+      "respuesta": { "A": "3", "B": "1", "C": "2", "D": "4" }
+    },
+    {
+      "id": "p10",
+      "tipo": "clasificar",
+      "enunciado": "¿Qué tipo de agente es? Marca con una X.",
+      "categorias": ["Físico", "Químico", "Biológico"],
+      "elementos": [
+        { "texto": "El ruido fuerte de una máquina.", "respuesta": "Físico" },
+        { "texto": "Un virus que se contagia con un pañuelo.", "respuesta": "Biológico" },
+        { "texto": "Una pintura tóxica.", "respuesta": "Químico" },
+        { "texto": "El calor extremo en verano.", "respuesta": "Físico" },
+        { "texto": "Un producto de limpieza corrosivo.", "respuesta": "Químico" },
+        { "texto": "Las bacterias de la basura.", "respuesta": "Biológico" }
+      ]
+    },
+    {
+      "id": "p11",
+      "tipo": "clasificar",
+      "enunciado": "¿Es carga física (cuerpo) o carga mental (cabeza)? Marca con una X.",
+      "categorias": ["Carga física", "Carga mental"],
+      "elementos": [
+        { "texto": "Levantar y mover cajas pesadas.", "respuesta": "Carga física" },
+        { "texto": "Estar muy concentrado para no equivocarme.", "respuesta": "Carga mental" },
+        { "texto": "Trabajar con la espalda doblada mucho tiempo.", "respuesta": "Carga física" },
+        { "texto": "Hacer el mismo movimiento con la mano todo el día.", "respuesta": "Carga física" },
+        { "texto": "Atender el teléfono, el ordenador y los papeles a la vez.", "respuesta": "Carga mental" }
+      ]
+    },
+    {
+      "id": "p12",
+      "tipo": "clasificar",
+      "enunciado": "Lee el caso y contesta. Marta trabaja en una oficina. Su silla está rota y le duele la espalda. La impresora hace mucho ruido todo el día. Debajo de su mesa hay un cable pelado. ¿Qué tipo de riesgo es cada cosa?",
+      "categorias": ["Carga física", "Agente físico", "Riesgo eléctrico"],
+      "elementos": [
+        { "texto": "La silla rota y el dolor de espalda.", "respuesta": "Carga física" },
+        { "texto": "El ruido de la impresora.", "respuesta": "Agente físico" },
+        { "texto": "El cable pelado.", "respuesta": "Riesgo eléctrico" }
+      ]
+    }
+  ]
+}

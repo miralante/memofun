@@ -1,0 +1,120 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 5 · Habilidades personales",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Por qué valoran las empresas las habilidades personales y sociales?",
+      "opciones": {
+        "a": "Porque ayudan a que la empresa funcione mejor.",
+        "b": "Porque no hace falta saber nada técnico.",
+        "c": "Porque así no hay que formarse nunca."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "Las habilidades personales...",
+      "opciones": {
+        "a": "Se aprenden y mejoran con práctica y esfuerzo.",
+        "b": "Solo las tienen las personas que nacen con ellas.",
+        "c": "No cambian nunca."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "La gestión emocional es reconocer, entender y regular nuestras emociones.", "respuesta": "V" },
+        { "texto": "La asertividad consiste en gritar para que te hagan caso.", "respuesta": "F" },
+        { "texto": "Una persona asertiva habla con tranquilidad y respeta a los demás.", "respuesta": "V" },
+        { "texto": "Escuchar activamente es hablar mucho y adelantarse a lo que dice el otro.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta.",
+      "huecos": [
+        { "texto": "La gestión emocional también se llama ___.", "respuesta": "inteligencia emocional" },
+        { "texto": "La persona que grita, manda y no escucha tiene una conducta ___.", "respuesta": "agresiva" },
+        { "texto": "Para responder preguntas de entrevista por competencias, puedes usar el método ___.", "respuesta": "STAR" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada letra del método STAR con su significado. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Situación",
+        "B": "Tarea",
+        "C": "Acción",
+        "D": "Resultado"
+      },
+      "derecha": {
+        "1": "Qué hiciste tú.",
+        "2": "Qué pasó al final.",
+        "3": "Qué tenías que hacer.",
+        "4": "Qué pasó, cuándo y dónde."
+      },
+      "respuesta": { "A": "4", "B": "3", "C": "1", "D": "2" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada tipo de conducta con su descripción.",
+      "izquierda": {
+        "A": "Pasiva (El Ratón)",
+        "B": "Agresiva (El León)",
+        "C": "Asertiva (La Persona)"
+      },
+      "derecha": {
+        "1": "Grita, manda y no escucha a los demás.",
+        "2": "Defiende sus derechos y respeta los de los demás.",
+        "3": "Dice que sí a todo por miedo, aunque no quiera."
+      },
+      "respuesta": { "A": "3", "B": "1", "C": "2" }
+    },
+    {
+      "id": "p7",
+      "tipo": "clasificar",
+      "enunciado": "¿Es una frase asertiva? Marca con una X.",
+      "categorias": ["Frase asertiva", "No es asertiva"],
+      "elementos": [
+        { "texto": "Prefiero que me avises con tiempo si hay cambios en el horario.", "respuesta": "Frase asertiva" },
+        { "texto": "Me siento molesto por lo que pasó.", "respuesta": "Frase asertiva" },
+        { "texto": "¡Cállate, que no sabes nada!", "respuesta": "No es asertiva" },
+        { "texto": "Vale, lo que tú digas, siempre.", "respuesta": "No es asertiva" }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál es una buena práctica de escucha activa?",
+      "opciones": {
+        "a": "Hacer otra cosa mientras te hablan.",
+        "b": "Esperar a que la otra persona acabe de hablar.",
+        "c": "Pensar en lo que vas a decir tú mientras escuchas."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "Según el tema, ¿cuándo es eficaz la comunicación?",
+      "opciones": {
+        "a": "Cuando se habla muy alto.",
+        "b": "Cuando el receptor entiende exactamente lo que quieres decir.",
+        "c": "Cuando se envían muchos mensajes."
+      },
+      "respuesta": "b"
+    }
+  ]
+}

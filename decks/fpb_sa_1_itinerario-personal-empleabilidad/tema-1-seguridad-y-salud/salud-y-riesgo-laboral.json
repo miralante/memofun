@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "<mark>Ocho horas sentado y al llegar a casa la espalda duele</mark>. El cuerpo responde a lo que haces cada día. ¿Cómo se llama el nexo entre tu trabajo y tu salud?",
+      "question": "<mark>Ocho horas sentado y al llegar a casa la espalda duele</mark>. El cuerpo responde a lo que haces cada día. ¿Cómo se llama la relación entre tu trabajo y tu salud?",
       "answer": "<mark>Trabajo y salud</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/trabajo-y-salud.jpg",
@@ -64,18 +64,6 @@
       }
     },
     {
-      "question": "<mark>Ir en bici el sábado sin que te duela nada</mark>. Mucha gente cree que con esto ya está todo. Pero también cuenta divertirse y estar bien con la gente. ¿Cómo se llama esa idea de que la salud es solo esto?",
-      "answer": "<mark>No estar enfermo</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/no-estar-enfermo.jpg",
-        "title": "hiking mountains over Seoul",
-        "source": "https://www.flickr.com/photos/34907359@N08/7999647781",
-        "alt": "Una persona caminando y disfrutando de una montaña con vistas a la ciudad.",
-        "autor": "cloud.shepherd",
-        "licencia": "CC BY 2.0"
-      }
-    },
-    {
       "question": "<mark>Sentirte con energía, con la cabeza clara y con buena gente</mark>. Eso son tres cosas a la vez. Si una falla, la salud no está completa. ¿Cuáles son esas tres partes?",
       "answer": "<mark>Físico, mental y social</mark>",
       "image": {
@@ -100,7 +88,7 @@
       }
     },
     {
-      "question": "<mark>Un martillo viejo que resbala y una lijadora que vibra</mark>. Los objetos que usas cada día influyen en tu cuerpo. ¿Cómo se les llama a esos objetos?",
+      "question": "<mark>Un martillo viejo que resbala y una lijadora que vibra</mark>. Los objetos que usas cada día afectan a tu cuerpo. ¿Cómo se les llama a esos objetos?",
       "answer": "<mark>Las herramientas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/herramientas.jpg",
@@ -160,18 +148,6 @@
       }
     },
     {
-      "question": "<mark>Un cable pelado que te da un calambre al tocarlo</mark>. También un fuego que nadie controla. La empresa debe evitar que ocurran. ¿Cómo se llama así el daño que puede causar el trabajo?",
-      "answer": "<mark>Riesgo laboral</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/riesgo-laboral.jpg",
-        "title": "Old electrical cable wires and boxes on a white ceramic wall in a car workshop. Make-shift electrical wiring",
-        "source": "https://www.flickr.com/photos/26344495@N05/49187620173",
-        "alt": "Cables eléctricos viejos y montados a provisionalidades en la pared de un taller.",
-        "autor": "Ivan Radic",
-        "licencia": "CC BY 2.0"
-      }
-    },
-    {
       "question": "<mark>La pantalla alta, la luz de frente y el ruido cercano</mark>. Cada detalle del puesto pesa cuando hay un peligro. ¿Cómo se llama el conjunto de esos detalles?",
       "answer": "<mark>Condiciones de trabajo</mark>",
       "image": {
@@ -184,8 +160,8 @@
       }
     },
     {
-      "question": "<mark>Ordenar los peligros en grupos, como se ordena una estantería</mark>. Cada grupo reúne las condiciones parecidas entre sí. ¿En cuántas familias se agrupan esas condiciones?",
-      "answer": "<mark>Cuatro categorías</mark>",
+      "question": "<mark>Ordenar los peligros en grupos, como se ordena una estantería</mark>. Cada grupo reúne condiciones parecidas entre sí. ¿Cuáles son esos cuatro grupos?",
+      "answer": "<mark>Seguridad, medioambiente, ergonomía y psicosociales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/cuatro-categorias.jpg",
         "title": "Safety Signs",
@@ -196,20 +172,8 @@
       }
     },
     {
-      "question": "<mark>Un jefe que cambia el plan cada hora y un compañero callado</mark>. Eso pesa en la cabeza aunque no haya máquinas. ¿Qué son esas condiciones que afectan a tus sentimientos?",
-      "answer": "<mark>Factores psicosociales</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/factores-psicosociales.jpg",
-        "title": "stressed out co-worker",
-        "source": "https://www.flickr.com/photos/35735307@N00/5283054107",
-        "alt": "Un compañero de trabajo con cara de agotamiento y la cabeza apoyada en la mano.",
-        "autor": "ozmafan",
-        "licencia": "CC BY 2.0"
-      }
-    },
-    {
-      "question": "<mark>Antes de tocar una máquina, mirar dónde están los botones</mark>. Con todo lo que acabas de ver, ya puedes cuidarte. ¿Qué necesitas saber para protegerte en el trabajo?",
-      "answer": "<mark>Conocer los riesgos</mark>",
+      "question": "<mark>Antes de tocar una máquina, mirar dónde están los botones</mark>. Conocer el peligro es el primer paso. También hay que protegerse. ¿Qué dos cosas ayudan a cuidarte en el trabajo?",
+      "answer": "<mark>Conocer los riesgos y protegerse</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/conocer-los-riesgos.jpg",
         "title": "Construction Worker, Amsterdam",

@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "<mark>España se divide en piezas más pequeñas, cada una con su propio gobierno y capital</mark>. Esas piezas se agrupan después en provincias. ¿Cómo se llama cada una de esas piezas?",
+      "question": "<mark>España tiene piezas más pequeñas, cada una con su propio gobierno</mark>. Después, esas piezas se agrupan en provincias. ¿Cómo se llama cada una de esas piezas?",
       "answer": "<mark>Comunidad autónoma</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/organizacion-territorial.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Es una comunidad autónoma <mark>situada en el centro de España, como el corazón geográfico del país</mark>. Su ciudad principal es también la capital de España. ¿Qué comunidad autónoma es?",
+      "question": "Es una comunidad autónoma. <mark>Está en el centro de España, como el corazón del país</mark>. Su ciudad principal es la capital de España. ¿Qué comunidad es?",
       "answer": "<mark>Madrid</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/madrid-espana.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Son países europeos que colaboran en economía y política, <mark>como un gran equipo que comparte normas y beneficios</mark>. España forma parte desde 1986. ¿Cómo se llama esta unión de países?",
+      "question": "Son países europeos que trabajan juntos. <mark>Son como un gran equipo que comparte normas y ayudas</mark>. España forma parte desde 1986. ¿Cómo se llama esta unión de países?",
       "answer": "<mark>Unión Europea</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/union-europea.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Comparten frontera por tierra con España, <mark>como vecinos de puerta pero a escala de países</mark>. También comparten mucha historia con España. ¿Qué tres países son estos vecinos?",
+      "question": "<mark>Son como vecinos de puerta, pero entre países</mark>. Tocan a España por tierra. También comparten mucha historia con España. ¿Qué tres países son estos vecinos?",
       "answer": "<mark>Portugal, Francia y Andorra</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/paises-vecinos.png",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Es la ley más importante de un país, por encima de las demás, <mark>como el manual de instrucciones que dice cómo debe funcionar</mark>. Recoge derechos, deberes y cómo se organiza el poder. ¿Cómo se llama esta ley principal?",
+      "question": "Es la ley más importante de un país. <mark>Funciona como el manual que dice cómo debe funcionar el país</mark>. Recoge derechos, deberes y cómo se reparte el poder. ¿Cómo se llama esta ley principal?",
       "answer": "<mark>Constitución</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/constitucion-concepto.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Es la ley que rige España desde el final de la dictadura, marcando el inicio de la democracia moderna. <mark>Recoge derechos como la libertad de expresión o la igualdad</mark>. ¿En qué año se aprobó esta ley?",
+      "question": "Es la ley de España desde que terminó la dictadura. Marca el inicio de la democracia. <mark>Recoge derechos como la libertad de expresión o la igualdad</mark>. ¿En qué año se aprobó esta ley?",
       "answer": "<mark>1978</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/constitucion-1978.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "La ley más importante de España <mark>garantiza a cualquier persona la educación, la salud, el trabajo y la libertad de expresión</mark>. También exige deberes, como pagar impuestos. ¿Cómo se llaman estas garantías?",
+      "question": "La ley más importante de España es la base de todo. <mark>Da a cualquier persona educación, salud, trabajo y libertad de expresión</mark>. También pide deberes, como pagar impuestos. ¿Cómo se llaman estos derechos que tienen todas las personas?",
       "answer": "<mark>Derechos básicos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/derechos-basicos.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Un país reparte el poder en tres partes, para que ninguna tenga demasiado: <mark>una hace las leyes, otra gobierna y otra juzga</mark>. Es la base de cualquier democracia moderna. ¿Cómo se llaman estas tres partes del Estado?",
+      "question": "Un país reparte el poder en tres partes. Así ninguna tiene demasiado. <mark>Una hace las leyes, otra gobierna y otra juzga</mark>. ¿Cómo se llaman estas tres partes del Estado?",
       "answer": "<mark>Legislativo, ejecutivo y judicial</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/tres-poderes.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "<mark>Es la forma en que los ciudadanos eligen a quienes van a gobernar</mark>. Cada voto cuenta igual, sin importar quién lo emita. ¿Cómo se llama esta acción de elegir a los representantes?",
+      "question": "<mark>Es la forma en que la gente elige a quienes gobiernan</mark>. Cada voto vale igual, sin importar quién lo da. ¿Cómo se llama esta acción de elegir a quienes te representan?",
       "answer": "<mark>Votar</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/elecciones-votar.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Es la forma más directa de influir en las decisiones importantes, <mark>como opinar sobre las reglas del lugar donde vives</mark>. No hacerlo también es una decisión, pero deja que otros decidan por ti. ¿Qué acción, en unas elecciones, permite participar así?",
+      "question": "Es la forma más directa de influir en lo importante. <mark>Es como opinar sobre las reglas del lugar donde vives</mark>. No votar también es decidir, pero deja que otros decidan por ti. ¿Qué acción, en unas elecciones, permite participar así?",
       "answer": "<mark>El voto</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/votar-elecciones.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "Significa que hombres y mujeres tengan las mismas oportunidades y el mismo trato legal, <mark>como partir desde la misma línea de salida</mark>. Incluye igual salario e igual trabajo. ¿Cómo se llama este derecho?",
+      "question": "Hombres y mujeres deben tener las mismas oportunidades y el mismo trato. <mark>Es como partir desde la misma línea de salida</mark>. Incluye igual salario e igual trabajo. ¿Cómo se llama este derecho?",
       "answer": "<mark>Igualdad de género</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/igualdad-hombres-mujeres.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Es organizar cuánto dinero entra y cuánto se gasta en una casa, <mark>como hacer cuentas para que el dinero llegue a fin de mes</mark>. Incluye ingresos, como el sueldo, y gastos, como la comida o el alquiler. ¿Cómo se llama esta forma de organizar el dinero de una casa?",
+      "question": "Es organizar cuánto dinero entra y cuánto sale en casa. <mark>Es como hacer cuentas para llegar a fin de mes</mark>. Incluye el sueldo, la comida y el alquiler. ¿Cómo se llama esta forma de organizar el dinero de una casa?",
       "answer": "<mark>Presupuesto familiar</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/presupuesto-familiar.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "Guardar dinero poco a poco permite hacer frente a gastos inesperados o a metas futuras, <mark>como guardar comida para cuando haga falta</mark>. No hace falta guardar mucho: cualquier cantidad regular ayuda. ¿Cómo se llama este hábito?",
+      "question": "Guardar dinero poco a poco sirve para gastos inesperados. <mark>Es como guardar comida para cuando haga falta</mark>. No hace falta mucho: cualquier cantidad regular ayuda. ¿Cómo se llama este hábito?",
       "answer": "<mark>Ahorrar</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/ahorrar-dinero.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "question": "Son garantías legales que protegen a quien compra un producto o contrata un servicio, <mark>como una red de seguridad que nadie puede quitarte</mark>. Incluyen el derecho a la información y a reclamar. ¿Cómo se llaman estos derechos?",
+      "question": "Protegen a quien compra algo o contrata un servicio. <mark>Son como una red de seguridad que nadie puede quitarte</mark>. Incluyen el derecho a la información y a reclamar. ¿Cómo se llaman estos derechos?",
       "answer": "<mark>Derechos de las personas consumidoras</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/derechos-consumidoras.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "question": "Un buen comprobante de compra recoge el precio, la fecha, el producto y los impuestos, <mark>como un resumen fiel de lo que ha pasado</mark>. Sirve como prueba de la compra, por si hay que devolver algo. ¿Cómo se llama este documento?",
+      "question": "Este papel muestra el precio, la fecha, el producto y los impuestos. <mark>Es como un resumen de lo que has comprado</mark>. Sirve como prueba, por si hay que devolver algo. ¿Cómo se llama este documento?",
       "answer": "<mark>Factura o ticket</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/caja-registradora.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "question": "Guardar el comprobante de una compra es la prueba necesaria si hay que reclamar algo, <mark>como guardar un recibo para demostrar que pagaste</mark>. Sin él, es más difícil reclamar. ¿Qué palabra nombra ese comprobante de compra?",
+      "question": "Guarda el papel de tus compras. Sin él, reclamar cuesta más. <mark>Es como guardar un recibo para demostrar que pagaste</mark>. ¿Qué palabra nombra ese papel de compra?",
       "answer": "<mark>Ticket</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/guardar-tickets.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "question": "<mark>Planificar antes de comprar, en vez de decidir sobre la marcha, evita gastos innecesarios</mark>. Un buen presupuesto ayuda a decidir en qué merece la pena gastar. ¿Cómo se llama esta forma de consumir con cabeza?",
+      "question": "<mark>Pensar antes de comprar evita gastar de más</mark>. Un buen plan de gastos ayuda a decidir qué comprar. ¿Cómo se llama esta forma de consumir con cabeza?",
       "answer": "<mark>Consumo responsable</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/consumo-responsable.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "question": "Muchas decisiones que nos afectan se reparten entre <mark>quien hace las leyes, quien gobierna y quien juzga</mark>. Conocerlo ayuda a ejercer mejor tus derechos como ciudadano. ¿Cómo se llaman en conjunto estas tres partes del Estado?",
+      "question": "Muchas decisiones del país se reparten entre tres grupos. <mark>Quien hace las leyes, quien gobierna y quien juzga</mark>. Conocerlos ayuda a defender tus derechos. ¿Cómo se llaman en conjunto estas tres partes del Estado?",
       "answer": "<mark>Los tres poderes del Estado</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_ciencias-sociales/conocer-estado.jpg",

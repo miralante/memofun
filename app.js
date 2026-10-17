@@ -223,6 +223,7 @@
      fewer generic 📘 repeats, easier to scan, still emoji. */
   var SUBJECT_ICONS = {
     'Lengua Castellana': '✍️',
+    'Lengua Castellana y Sociedad': '✍️',
     'Lengua y Literatura': '📖',
     'Literatura': '📖',
     'Biología y Geología': '🌿',

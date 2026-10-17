@@ -231,6 +231,11 @@ reales con tarjetas, y que ningún archivo de `doc/curriculum/` está
 mal formado. No revisa la calidad del contenido — eso sigue siendo
 cosa de una persona (o del agente aplicando el checklist del punto 4).
 
+Si la baraja es el primer tema de un `topicGroup` nuevo, o el último de
+uno ya existente, el tema necesita además su `autoevaluacion.json` en la
+misma carpeta (8-12 preguntas). Formato en `tecnico.md` §4.3, diseño en
+`spec.md` §1.4; `check.js` falla si falta.
+
 ## 6. Publicar la baraja
 
 Si el agente ya añadió la entrada a `decks/manifest.json`, no queda

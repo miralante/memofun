@@ -1,0 +1,123 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 5 · Material de oficina",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es el material fungible?",
+      "opciones": {
+        "a": "El que se gasta o se consume con el uso.",
+        "b": "El que dura muchos años.",
+        "c": "Un mueble de oficina."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es un equipo de oficina?",
+      "opciones": {
+        "a": "Una máquina o herramienta duradera que facilita el trabajo administrativo.",
+        "b": "Un bolígrafo.",
+        "c": "Un clip."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "Las grapas son material fungible.", "respuesta": "V" },
+        { "texto": "Una grapadora es material fungible.", "respuesta": "F" },
+        { "texto": "Las sillas ergonómicas están pensadas para evitar problemas de salud.", "respuesta": "V" },
+        { "texto": "El aparato multifunción puede imprimir, escanear y fotocopiar.", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta.",
+      "huecos": [
+        { "texto": "Un escáner convierte un documento en un archivo ___ por el ordenador.", "respuesta": "tratable" },
+        { "texto": "Los documentos que la empresa debe conservar se guardan en los ___.", "respuesta": "armarios" },
+        { "texto": "La tinta de la impresora es un material ___.", "respuesta": "fungible" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada equipo con su función. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Ordenador",
+        "B": "Impresora",
+        "C": "Fotocopiadora",
+        "D": "Escáner"
+      },
+      "derecha": {
+        "1": "Reproduce documentos en papel a partir de otro documento físico.",
+        "2": "Digitaliza documentos.",
+        "3": "Reproduce textos e imágenes en formato físico.",
+        "4": "Elabora documentos, gráficos y gestiona bases de datos."
+      },
+      "respuesta": { "A": "4", "B": "3", "C": "1", "D": "2" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada mueble con su uso.",
+      "izquierda": {
+        "A": "Mesa",
+        "B": "Armario",
+        "C": "Tablón de anuncios"
+      },
+      "derecha": {
+        "1": "Guarda documentos que hay que conservar.",
+        "2": "Informa de tareas, horarios y avisos urgentes.",
+        "3": "Es la superficie donde se trabaja."
+      },
+      "respuesta": { "A": "3", "B": "1", "C": "2" }
+    },
+    {
+      "id": "p7",
+      "tipo": "clasificar",
+      "enunciado": "¿Es material fungible o no fungible? Marca con una X.",
+      "categorias": ["Fungible", "No fungible"],
+      "elementos": [
+        { "texto": "Grapas.", "respuesta": "Fungible" },
+        { "texto": "Etiquetas.", "respuesta": "Fungible" },
+        { "texto": "Grapadoras.", "respuesta": "No fungible" },
+        { "texto": "Tijeras.", "respuesta": "No fungible" },
+        { "texto": "Clips.", "respuesta": "Fungible" },
+        { "texto": "Calculadora.", "respuesta": "No fungible" }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "clasificar",
+      "enunciado": "¿Es equipo de oficina o material de oficina? Marca con una X.",
+      "categorias": ["Equipo de oficina", "Material de oficina"],
+      "elementos": [
+        { "texto": "Impresora.", "respuesta": "Equipo de oficina" },
+        { "texto": "Marcador fluorescente.", "respuesta": "Material de oficina" },
+        { "texto": "Teléfono.", "respuesta": "Equipo de oficina" },
+        { "texto": "Nota adhesiva.", "respuesta": "Material de oficina" }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué tipo de silla se debe usar en la oficina?",
+      "opciones": {
+        "a": "Una silla ergonómica.",
+        "b": "La silla más barata.",
+        "c": "Cualquier silla, da igual."
+      },
+      "respuesta": "a"
+    }
+  ]
+}

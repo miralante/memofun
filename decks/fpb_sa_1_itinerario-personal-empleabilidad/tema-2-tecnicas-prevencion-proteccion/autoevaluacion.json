@@ -1,0 +1,135 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 2 · Técnicas de prevención y protección",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es la prevención?",
+      "opciones": {
+        "a": "Actuar después de que ocurra un accidente.",
+        "b": "Actuar antes, para evitar accidentes y enfermedades.",
+        "c": "Cambiar de trabajo cuando hay peligro."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué medida protege a varias personas al mismo tiempo?",
+      "opciones": {
+        "a": "Un casco.",
+        "b": "Una barandilla en una zona alta.",
+        "c": "Unos guantes."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p3",
+      "tipo": "seleccion",
+      "enunciado": "Un casco, unas gafas o unos guantes son...",
+      "opciones": {
+        "a": "Protección colectiva.",
+        "b": "EPI, protección individual.",
+        "c": "Señales de advertencia."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p4",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "Las técnicas de prevención actúan antes de que ocurra el riesgo.", "respuesta": "V" },
+        { "texto": "Un EPI protege a varias personas a la vez.", "respuesta": "F" },
+        { "texto": "Las señales pueden sustituir a la prevención.", "respuesta": "F" },
+        { "texto": "Los EPI deben estar en buen estado y usarse bien.", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta.",
+      "huecos": [
+        { "texto": "La persona que debe garantizar la seguridad en la empresa es el ___.", "respuesta": "empresario" },
+        { "texto": "El delegado de prevención es el ___ de los trabajadores.", "respuesta": "representante" }
+      ]
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada tipo de riesgo con su ejemplo. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Riesgo físico",
+        "B": "Riesgo químico",
+        "C": "Riesgo biológico",
+        "D": "Riesgo ergonómico"
+      },
+      "derecha": {
+        "1": "Gases o líquidos peligrosos.",
+        "2": "Ruido o calor.",
+        "3": "Virus o bacterias.",
+        "4": "Posturas malas o peso excesivo."
+      },
+      "respuesta": { "A": "2", "B": "1", "C": "3", "D": "4" }
+    },
+    {
+      "id": "p7",
+      "tipo": "unir",
+      "enunciado": "Une cada responsable de la prevención con su función.",
+      "izquierda": {
+        "A": "El empresario",
+        "B": "El trabajador",
+        "C": "El delegado de prevención",
+        "D": "El servicio de prevención"
+      },
+      "derecha": {
+        "1": "Es el representante de los trabajadores.",
+        "2": "Debe garantizar la seguridad.",
+        "3": "Asesora y ayuda a aplicar las medidas de prevención.",
+        "4": "Cumple las normas de seguridad."
+      },
+      "respuesta": { "A": "2", "B": "4", "C": "1", "D": "3" }
+    },
+    {
+      "id": "p8",
+      "tipo": "clasificar",
+      "enunciado": "¿Es protección colectiva o individual? Marca con una X.",
+      "categorias": ["Protección colectiva", "Protección individual (EPI)"],
+      "elementos": [
+        { "texto": "Barandillas en zonas altas.", "respuesta": "Protección colectiva" },
+        { "texto": "Redes de seguridad en obras.", "respuesta": "Protección colectiva" },
+        { "texto": "Casco.", "respuesta": "Protección individual (EPI)" },
+        { "texto": "Gafas de seguridad.", "respuesta": "Protección individual (EPI)" },
+        { "texto": "Ventilación en un espacio cerrado.", "respuesta": "Protección colectiva" },
+        { "texto": "Botas de seguridad.", "respuesta": "Protección individual (EPI)" }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "clasificar",
+      "enunciado": "¿De qué tipo es cada señal? Marca con una X.",
+      "categorias": ["Prohibición", "Advertencia", "Obligación", "Salvamento o emergencia"],
+      "elementos": [
+        { "texto": "No fumar.", "respuesta": "Prohibición" },
+        { "texto": "Peligro eléctrico.", "respuesta": "Advertencia" },
+        { "texto": "Uso obligatorio de casco.", "respuesta": "Obligación" },
+        { "texto": "Salida de emergencia.", "respuesta": "Salvamento o emergencia" }
+      ]
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál de estas cosas NO es una buena práctica para prevenir riesgos?",
+      "opciones": {
+        "a": "Mantener la zona de trabajo limpia y ordenada.",
+        "b": "Usar una máquina aunque no sepas cómo funciona.",
+        "c": "Usar siempre los EPI que te den."
+      },
+      "respuesta": "b"
+    }
+  ]
+}

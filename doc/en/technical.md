@@ -300,6 +300,50 @@ when a manifest entry exists for a given subject the EN path can
 opt to swap the invite card for the real deck link — see
 `renderEnSubjectLevel` in `app.js`).
 
+### 4.3 Self-assessment for each topic (`autoevaluacion.json`)
+
+Every topic with a `topicGroup` has, in the same folder as its decks, an
+`autoevaluacion.json` file that closes the topic (see `spec.md` §1.4).
+It is not listed in `manifest.json`: it is a test, not a deck.
+
+```json
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    { "id": "p1", "tipo": "seleccion", "enunciado": "¿Qué es la prevención de riesgos laborales?",
+      "opciones": { "a": "Trabajar más rápido.", "b": "Evitar accidentes y enfermedades.", "c": "Cobrar más por trabajos peligrosos." },
+      "respuesta": "b" }
+  ]
+}
+```
+
+`topicGroup`, `course` and `subject` carry exactly the same values as the
+topic's decks in `manifest.json` (the "Tema N · " prefix stays here, as in
+the manifest). The file content is Spanish, like the decks it accompanies.
+
+Question types (`tipo`):
+
+| `tipo` | Fields | Answer |
+|---|---|---|
+| `seleccion` | `opciones` `{letter: text}` | `respuesta`: the correct letter |
+| `vf` | `afirmaciones` `[{texto, respuesta}]` | each `respuesta`: `"V"` or `"F"` |
+| `completar` | `huecos` `[{texto, respuesta}]` (the gap is written `___`), optional `banco` | `respuesta`: the exact word |
+| `unir` | `izquierda` `{letter: text}`, `derecha` `{number: text}` | `respuesta`: `{letter: number}` |
+| `clasificar` | `categorias` `[text]`, `elementos` `[{texto, respuesta}]` | `respuesta`: one of `categorias` |
+
+Rules:
+
+- `id` is unique within the file.
+- **8 to 12 questions** per topic, mixing at least two types.
+- Every question has exactly one correct answer; no "it depends".
+- Easy-read text (`spec.md` §2.4); plain text, no `<mark>` or HTML.
+- `scripts/check.js` §13 validates the shape and that every topic with
+  decks has its file.
+
 ## 5. Accessibility rules
 
 1. Easy Read: short sentences, one idea per sentence.

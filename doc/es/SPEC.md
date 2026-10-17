@@ -71,6 +71,28 @@ barajas:
 Ver "Generating deck content" en `CLAUDE.md` para cómo se aplica esto
 al escribir o ampliar una baraja.
 
+### 1.4 Autoevaluación al final de cada tema
+
+Cada tema de una asignatura dividida en temas (el `topicGroup` de
+`decks/manifest.json`) termina con un **test de autoevaluación**. Sirve
+para que la persona usuaria compruebe, sin presión y sin nota, si ha
+retenido lo esencial del tema antes de pasar al siguiente.
+
+- **Obligatoria**: ningún tema con barajas se considera completo sin su
+  autoevaluación. `scripts/check.js` falla si falta.
+- **Del mismo temario**: las preguntas salen solo del contenido de ese
+  tema (la fuente fotografiada o su `doc/revision-*/`), nunca de temas
+  vecinos (§1.3).
+- **Lectura Fácil**: las mismas reglas de §2.4 — frases cortas, una idea
+  por frase, vocabulario cotidiano.
+- **Sin castigo**: el resultado no bloquea ningún tema ni borra el
+  progreso (§2.2).
+- **Variedad de formatos**: selección única, verdadero o falso,
+  completar con una palabra, unir parejas y clasificar en categorías,
+  en vez de un test de solo opción múltiple.
+
+El formato del fichero (`autoevaluacion.json`) está en `tecnico.md` §4.3.
+
 ---
 
 ## 2. Restricciones innegociables

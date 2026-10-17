@@ -55,6 +55,9 @@
       git worktrees, all never uploaded), and `graphify-out*` (build
       artifacts). Warns at 20 MB (still legal but worth a nudge) and
       fails at 25 MB (Cloudflare will reject the deploy).
+  13. Every topic (topicGroup) with decks has an autoevaluacion.json in
+      its folder: 8-12 questions, mixed types, valid answers
+      (spec.md §1.4, technical.md §4.3).
    Output: list of failures with the exact file. Exit code 1 if there
    are any, "OK (N checks)" otherwise.
    ============================================================ */
@@ -699,6 +702,144 @@ var inlineScriptHits = [];
   });
 })(ROOT);
 inlineScriptHits.forEach(function (hit) { failures.push(hit); });
+
+/* --- 13. Self-assessment per topic (spec.md §1.4, technical.md §4.3) ---
+   Every topicGroup in decks/manifest.json owns an autoevaluacion.json in
+   the folder of its decks. The file is a test, not a deck, so it is
+   deliberately NOT in the manifest and checked here instead. */
+(function checkSelfAssessments() {
+  var manifestPath = path.join(ROOT, 'decks', 'manifest.json');
+  var entries;
+  try {
+    entries = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  } catch (e) {
+    return; // already reported by §8
+  }
+  if (!Array.isArray(entries)) return;
+
+  var TYPES = ['seleccion', 'vf', 'completar', 'unir', 'clasificar'];
+  var folderOf = {}; // topicGroup -> folder under decks/, from the first deck
+
+  entries.forEach(function (entry) {
+    if (typeof entry.topicGroup !== 'string' || !entry.topicGroup.trim()) return;
+    if (typeof entry.file !== 'string') return;
+    if (folderOf[entry.topicGroup] === undefined) {
+      folderOf[entry.topicGroup] = path.posix.dirname(entry.file.split(path.sep).join('/'));
+    }
+  });
+
+  function isText(v) { return typeof v === 'string' && v.trim() !== ''; }
+  function isHtml(v) { return typeof v === 'string' && /<\/?[a-z]/i.test(v); }
+
+  Object.keys(folderOf).forEach(function (group) {
+    var folder = folderOf[group];
+    var label = 'decks/' + folder + '/autoevaluacion.json';
+    var file = path.join(ROOT, 'decks', folder, 'autoevaluacion.json');
+
+    if (!fs.existsSync(file)) {
+      failures.push(label + ': missing — topic "' + group + '" has decks but no self-assessment (spec.md §1.4)');
+      return;
+    }
+    checks += 1;
+
+    var data;
+    try {
+      data = JSON.parse(fs.readFileSync(file, 'utf8'));
+    } catch (e) {
+      failures.push(label + ': not valid JSON — ' + e.message);
+      return;
+    }
+    if (data.tipo !== 'autoevaluacion') failures.push(label + ': "tipo" must be "autoevaluacion"');
+    if (data.topicGroup !== group) {
+      failures.push(label + ': "topicGroup" must be "' + group + '" (same value as its decks in manifest.json)');
+    }
+    if (!Array.isArray(data.preguntas)) {
+      failures.push(label + ': "preguntas" must be an array');
+      return;
+    }
+    if (data.preguntas.length < 8 || data.preguntas.length > 12) {
+      failures.push(label + ': has ' + data.preguntas.length + ' questions — must be 8 to 12 (technical.md §4.3)');
+    }
+
+    var ids = {};
+    var usedTypes = {};
+    data.preguntas.forEach(function (q, qi) {
+      var where = label + ': preguntas[' + qi + ']';
+      if (!q || !isText(q.id)) { failures.push(where + ': missing "id"'); return; }
+      if (ids[q.id]) failures.push(where + ': duplicate id "' + q.id + '"');
+      ids[q.id] = true;
+      if (TYPES.indexOf(q.tipo) === -1) {
+        failures.push(where + ': "tipo" must be one of ' + TYPES.join(', '));
+        return;
+      }
+      usedTypes[q.tipo] = true;
+      if (!isText(q.enunciado)) failures.push(where + ': "enunciado" is empty');
+      if (isHtml(q.enunciado)) failures.push(where + ': "enunciado" must be plain text, no HTML');
+
+      if (q.tipo === 'seleccion') {
+        var letters = (q.opciones && typeof q.opciones === 'object') ? Object.keys(q.opciones) : [];
+        if (letters.length < 2) failures.push(where + ': "opciones" needs at least two options');
+        if (letters.indexOf(q.respuesta) === -1) failures.push(where + ': "respuesta" is not one of the option letters');
+        letters.forEach(function (k) {
+          if (isHtml(q.opciones[k])) failures.push(where + ': option "' + k + '" must be plain text');
+        });
+      } else if (q.tipo === 'vf') {
+        if (!Array.isArray(q.afirmaciones) || !q.afirmaciones.length) {
+          failures.push(where + ': "afirmaciones" must be a non-empty array');
+          return;
+        }
+        q.afirmaciones.forEach(function (a, ai) {
+          if (!a || !isText(a.texto)) failures.push(where + ': afirmaciones[' + ai + '] has no "texto"');
+          if (!a || (a.respuesta !== 'V' && a.respuesta !== 'F')) {
+            failures.push(where + ': afirmaciones[' + ai + '] "respuesta" must be "V" or "F"');
+          }
+        });
+      } else if (q.tipo === 'completar') {
+        if (!Array.isArray(q.huecos) || !q.huecos.length) {
+          failures.push(where + ': "huecos" must be a non-empty array');
+          return;
+        }
+        q.huecos.forEach(function (h, hi) {
+          if (!h || !isText(h.texto) || h.texto.indexOf('___') === -1) {
+            failures.push(where + ': huecos[' + hi + '] "texto" must contain the gap "___"');
+          }
+          if (!h || !isText(h.respuesta)) failures.push(where + ': huecos[' + hi + '] has no "respuesta"');
+        });
+      } else if (q.tipo === 'unir') {
+        var left = q.izquierda && typeof q.izquierda === 'object' ? Object.keys(q.izquierda) : [];
+        var right = q.derecha && typeof q.derecha === 'object' ? Object.keys(q.derecha) : [];
+        if (!left.length || !right.length) {
+          failures.push(where + ': "izquierda" and "derecha" must both have items');
+          return;
+        }
+        left.forEach(function (k) {
+          var target = q.respuesta && q.respuesta[k];
+          if (right.indexOf(target) === -1) {
+            failures.push(where + ': "respuesta" for "' + k + '" must point to a "derecha" key');
+          }
+        });
+      } else if (q.tipo === 'clasificar') {
+        if (!Array.isArray(q.categorias) || !q.categorias.length) {
+          failures.push(where + ': "categorias" must be a non-empty array');
+          return;
+        }
+        if (!Array.isArray(q.elementos) || !q.elementos.length) {
+          failures.push(where + ': "elementos" must be a non-empty array');
+          return;
+        }
+        q.elementos.forEach(function (el, ei) {
+          if (!el || !isText(el.texto)) failures.push(where + ': elementos[' + ei + '] has no "texto"');
+          if (!el || q.categorias.indexOf(el.respuesta) === -1) {
+            failures.push(where + ': elementos[' + ei + '] "respuesta" must be one of "categorias"');
+          }
+        });
+      }
+    });
+    if (Object.keys(usedTypes).length < 2) {
+      failures.push(label + ': mix at least two question types (technical.md §4.3)');
+    }
+  });
+})();
 
 /* --- Result --- */
 (function checkPublishedFileSizes() {

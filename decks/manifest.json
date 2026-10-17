@@ -980,33 +980,23 @@
     "icon": "⚛️"
   },
   {
-    "id": "fpb-sa-1-atencion-cliente",
+    "id": "fpb-sa-2-atencion-cliente",
     "topic": "Comunicación verbal vs. no verbal",
     "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
+    "course": "2º de FP Básica Servicios Administrativos",
     "subject": "Atención al Cliente",
     "amount": 15,
-    "file": "fpb_sa_1_atencion-cliente.json",
+    "file": "fpb_sa_2_atencion-cliente.json",
     "icon": "📋"
   },
   {
-    "id": "fpb-sa-1-atencion-cliente-2",
+    "id": "fpb-sa-2-atencion-cliente-2",
     "topic": "Trato amable y profesional pase lo que pase",
     "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
+    "course": "2º de FP Básica Servicios Administrativos",
     "subject": "Atención al Cliente",
     "amount": 15,
-    "file": "fpb_sa_1_atencion-cliente_2.json",
-    "icon": "📋"
-  },
-  {
-    "id": "fpb-sa-1-ciencias-aplicadas",
-    "topic": "Ciencias Aplicadas",
-    "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Aplicadas",
-    "amount": 18,
-    "file": "fpb_sa_1_ciencias-aplicadas.json",
+    "file": "fpb_sa_2_atencion-cliente_2.json",
     "icon": "📋"
   },
   {
@@ -1014,7 +1004,7 @@
     "topic": "Ciencias Sociales",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Sociales",
+    "subject": "Lengua Castellana y Sociedad",
     "amount": 18,
     "file": "fpb_sa_1_ciencias-sociales.json",
     "icon": "📋"
@@ -1026,20 +1016,31 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-    "amount": 18,
+    "amount": 15,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json",
     "icon": "🛡️"
   },
   {
-    "id": "fpb-sa-1-ipe-t1-seguridad-salud-2",
-    "topic": "Riesgos de seguridad en el trabajo",
+    "id": "fpb-sa-1-ipe-t1-condiciones-seguridad",
+    "topic": "Condiciones de seguridad",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-    "amount": 16,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad.json",
-    "icon": "⚡"
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/condiciones-seguridad.json",
+    "icon": "🦺"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t1-seguridad-salud-2",
+    "topic": "Riesgos en el trabajo",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+    "amount": 7,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-laborales.json",
+    "icon": "⚠️"
   },
   {
     "id": "fpb-sa-1-ipe-t1-seguridad-salud-3",
@@ -1059,7 +1060,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-    "amount": 16,
+    "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
     "icon": "📦"
   },
@@ -1068,8 +1069,8 @@
     "topic": "Comunicación oral vs. escrita",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Lengua Castellana",
-    "amount": 15,
+    "subject": "Lengua Castellana y Sociedad",
+    "amount": 14,
     "file": "fpb_sa_1_lengua-castellana.json",
     "icon": "📋"
   },
@@ -1078,7 +1079,7 @@
     "topic": "Sujeto y predicado de una oración",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Lengua Castellana",
+    "subject": "Lengua Castellana y Sociedad",
     "amount": 15,
     "file": "fpb_sa_1_lengua-castellana_2.json",
     "icon": "📋"
@@ -1166,22 +1167,12 @@
     "icon": "📋"
   },
   {
-    "id": "fpb-sa-2-ciencias-aplicadas",
-    "topic": "Ciencias Aplicadas",
-    "level": "principiante",
-    "course": "2º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Aplicadas",
-    "amount": 16,
-    "file": "fpb_sa_2_ciencias-aplicadas.json",
-    "icon": "📋"
-  },
-  {
     "id": "fpb-sa-2-ciencias-sociales",
     "topic": "Ciencias Sociales",
     "level": "principiante",
     "course": "2º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Sociales",
-    "amount": 17,
+    "subject": "Lengua Castellana y Sociedad",
+    "amount": 15,
     "file": "fpb_sa_2_ciencias-sociales.json",
     "icon": "📋"
   },
@@ -1190,8 +1181,8 @@
     "topic": "Diferencia entre hecho y opinión",
     "level": "principiante",
     "course": "2º de FP Básica Servicios Administrativos",
-    "subject": "Lengua Castellana",
-    "amount": 15,
+    "subject": "Lengua Castellana y Sociedad",
+    "amount": 14,
     "file": "fpb_sa_2_lengua-castellana.json",
     "icon": "📋"
   },
@@ -1200,8 +1191,8 @@
     "topic": "Tiempos verbales de pasado y futuro",
     "level": "principiante",
     "course": "2º de FP Básica Servicios Administrativos",
-    "subject": "Lengua Castellana",
-    "amount": 14,
+    "subject": "Lengua Castellana y Sociedad",
+    "amount": 12,
     "file": "fpb_sa_2_lengua-castellana_2.json",
     "icon": "📋"
   },
@@ -2946,23 +2937,13 @@
     "icon": "🏛️"
   },
   {
-    "id": "fpb-sa-1-atencion-cliente-3",
+    "id": "fpb-sa-2-atencion-cliente-3",
     "topic": "Cuidar la imagen y los datos del cliente",
     "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
+    "course": "2º de FP Básica Servicios Administrativos",
     "subject": "Atención al Cliente",
     "amount": 16,
-    "file": "fpb_sa_1_atencion-cliente_3.json",
-    "icon": "📋"
-  },
-  {
-    "id": "fpb-sa-1-ciencias-aplicadas-2",
-    "topic": "Energía, clima, ecosistemas y seguridad en el trabajo",
-    "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Aplicadas",
-    "amount": 18,
-    "file": "fpb_sa_1_ciencias-aplicadas_2.json",
+    "file": "fpb_sa_2_atencion-cliente_3.json",
     "icon": "📋"
   },
   {
@@ -2970,8 +2951,8 @@
     "topic": "España, Europa y el mundo: geografía y derechos",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Sociales",
-    "amount": 18,
+    "subject": "Lengua Castellana y Sociedad",
+    "amount": 12,
     "file": "fpb_sa_1_ciencias-sociales_2.json",
     "icon": "📋"
   },
@@ -2980,8 +2961,8 @@
     "topic": "Gramática, textos y comunicación formal",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Lengua Castellana",
-    "amount": 15,
+    "subject": "Lengua Castellana y Sociedad",
+    "amount": 12,
     "file": "fpb_sa_1_lengua-castellana_3.json",
     "icon": "📋"
   },
@@ -3377,21 +3358,11 @@
     "icon": "💼"
   },
   {
-    "id": "fpb-sa-2-ciencias-aplicadas-2",
-    "topic": "Hábitos saludables, reciclaje y señalización",
-    "level": "principiante",
-    "course": "2º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Aplicadas",
-    "amount": 4,
-    "file": "fpb_sa_2_ciencias-aplicadas_2.json",
-    "icon": "📋"
-  },
-  {
     "id": "fpb-sa-2-ciencias-sociales-2",
     "topic": "Constitución, Unión Europea e igualdad",
     "level": "principiante",
     "course": "2º de FP Básica Servicios Administrativos",
-    "subject": "Ciencias Sociales",
+    "subject": "Lengua Castellana y Sociedad",
     "amount": 6,
     "file": "fpb_sa_2_ciencias-sociales_2.json",
     "icon": "📋"
@@ -3401,7 +3372,7 @@
     "topic": "Comprensión de textos y comunicación oral",
     "level": "principiante",
     "course": "2º de FP Básica Servicios Administrativos",
-    "subject": "Lengua Castellana",
+    "subject": "Lengua Castellana y Sociedad",
     "amount": 6,
     "file": "fpb_sa_2_lengua-castellana_3.json",
     "icon": "📋"

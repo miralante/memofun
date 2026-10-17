@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "<mark>Una carta: alguien la escribe, alguien la lee, y las palabras viajan de uno a otro</mark>. Eso mismo ocurre siempre que alguien se comunica. ¿Qué tres elementos forman siempre la comunicación?",
+      "question": "<mark>Una carta: alguien la escribe y otra persona la lee</mark>. Eso mismo pasa siempre que nos comunicamos. ¿Qué tres elementos forman siempre la comunicación?",
       "answer": "<mark>Emisor, receptor y mensaje</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana/elementos-comunicacion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "<mark>Una desaparece en el momento en que se dice; la otra queda fija y se puede releer</mark>. Por eso los documentos importantes suelen hacerse así. ¿Qué tipo de comunicación queda fija por escrito?",
+      "question": "Una se pierde al decirla. <mark>La otra queda fija y se puede releer</mark>. Por eso los documentos importantes suelen hacerse así. ¿Qué tipo de comunicación queda fija por escrito?",
       "answer": "<mark>Comunicación escrita</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana/oral-escrita.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "<mark>Te quedas con el resumen útil de un texto más largo</mark>, sin quedarte solo con los detalles. Ayuda a leer más rápido y a estudiar mejor. ¿Cómo se llama lo más importante de un texto?",
+      "question": "<mark>Te quedas con el resumen de un texto largo</mark>. Dejas los detalles para después. Ayuda a leer más rápido y a estudiar mejor. ¿Cómo se llama lo más importante de un texto?",
       "answer": "<mark>Idea principal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana/esencial-texto.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "<mark>Pintas con palabras en vez de con pincel</mark>. Explicas cómo es algo o alguien: colores, formas y tamaños, sin contar una historia. ¿Cómo se llama este tipo de texto?",
+      "question": "<mark>Pintas con palabras en vez de con pincel</mark>. Explicas cómo es algo: sus colores, formas y tamaños. No cuentas ninguna historia. ¿Cómo se llama este tipo de texto?",
       "answer": "<mark>Texto descriptivo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana/texto-descriptivo.jpg",
@@ -76,19 +76,7 @@
       }
     },
     {
-      "question": "<mark>Uno avanza en el tiempo; el otro se detiene a observar</mark>. Uno cuenta qué pasa; el otro explica cómo es algo. Muchos textos combinan ambos tipos a la vez. ¿Qué tipo de texto cuenta qué pasa?",
-      "answer": "<mark>Texto narrativo</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_lengua-castellana/narrativo-descriptivo.jpg",
-        "title": "Evening Read",
-        "source": "https://www.flickr.com/photos/9350569@N08/5536312603",
-        "alt": "Una persona leyendo un libro por la tarde",
-        "autor": "ShardsOfBlue",
-        "licencia": "CC BY-SA 2.0"
-      }
-    },
-    {
-      "question": "<mark>Montas un mueble sin seguir la secuencia del manual y el resultado sale mal</mark>. Cada parte suele depender de la anterior. ¿Qué hay que respetar siempre en un texto instructivo?",
+      "question": "<mark>Montas un mueble sin seguir el manual y sale mal</mark>. Cada parte suele depender de la anterior. ¿Qué hay que respetar siempre en un texto instructivo?",
       "answer": "<mark>El orden de los pasos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana/orden-instructivo.jpg",
@@ -112,7 +100,7 @@
       }
     },
     {
-      "question": "<mark>Repites con tus palabras lo que acabas de leer, para asegurarte de haberlo entendido</mark>. Si no puedes hacerlo, quizá haga falta volver a leer el texto. ¿Qué conviene hacer después de leer un texto?",
+      "question": "<mark>Repites con tus palabras lo que acabas de leer</mark>. Así ves si lo has entendido. Si no puedes, quizá haga falta releer el texto. ¿Qué conviene hacer después de leer un texto?",
       "answer": "<mark>Resumirlo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana/resumir-texto.jpg",
@@ -172,7 +160,7 @@
       }
     },
     {
-      "question": "<mark>Es una herramienta que se usa en casi cualquier puesto de trabajo</mark>. Casi cualquier tarea implica entender documentos o redactar con claridad. Un error de comprensión puede causar problemas serios. ¿Qué habilidad ayuda en casi cualquier trabajo?",
+      "question": "<mark>Es una herramienta que se usa en casi cualquier puesto de trabajo</mark>. Casi cualquier tarea exige entender documentos o escribir con claridad. Un error de comprensión puede causar problemas serios. ¿Qué habilidad ayuda en casi cualquier trabajo?",
       "answer": "<mark>Leer y escribir bien</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana/leer-escribir-trabajo.jpg",

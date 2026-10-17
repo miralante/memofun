@@ -22,7 +22,7 @@ fuente.
 | 1. ¿Qué es la seguridad y salud? | ✅ (pag7) | `salud-y-riesgo-laboral.json` |
 | 2. El trabajo y la salud | ✅ (pag7) | `salud-y-riesgo-laboral.json` |
 | 3. Condiciones de trabajo (intro) | ✅ (pag7) | `salud-y-riesgo-laboral.json` |
-| 3.1 Condiciones de seguridad | ✅ (pag8) | `riesgos-condiciones-seguridad.json` |
+| 3.1 Condiciones de seguridad | ✅ (pag8) | `condiciones-seguridad.json` |
 | 3.2 Condiciones medioambientales | ✅ (pag9-pag10) | `riesgos-ambientales.json` |
 | 3.3 Carga de trabajo (física y mental) | ✅ (pag11) | `carga-de-trabajo-y-ergonomia.json` |
 | 4. Daños derivados del trabajo | ❌ no en la fuente | — |

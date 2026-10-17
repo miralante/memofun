@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "La empresa crea puestos de trabajo y genera riqueza para la sociedad. <mark>Es como un árbol que da frutos (empleo y dinero) para la comunidad</mark>. ¿Cómo se llama esta función de la empresa?",
+      "question": "La empresa crea empleos y riqueza para la sociedad. <mark>Es como un árbol que da frutos: empleo y dinero</mark>. ¿Cómo se llama esta función de la empresa?",
       "answer": "<mark>Crear empleo y riqueza</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/crear-empleo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Toda empresa asume riesgos: puede perder dinero, un producto puede no venderse, una máquina puede romperse. <mark>Es como cruzar la calle: siempre hay riesgo de accidente pero hay que hacerlo para llegar al otro lado</mark>. ¿Cómo se llama esta función empresarial?",
+      "question": "Toda empresa corre riesgos. Puede perder dinero o vender poco. <mark>Es como cruzar la calle: hay riesgo, pero hay que hacerlo</mark>. ¿Cómo se llama esta función empresarial?",
       "answer": "<mark>Asumir riesgos técnicos y económicos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/asumir-riesgos.jpg",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "question": "La empresa coordina máquinas, personas y dinero para producir un bien o servicio que luego vender. <mark>Es como organizar una obra: el arquitecto dibuja, los albañiles construyen, el jefe de obra coordina que todo llegue a tiempo</mark>. ¿Cómo se llama esta función?",
-      "answer": "<mark>Organizar y dirigir el proceso de producción</mark>",
+      "question": "La empresa junta máquinas, personas y dinero. Así produce algo para vender. <mark>Es como una obra: el arquitecto dibuja, los albañiles construyen</mark>. ¿Cómo se llama esta función?",
+      "answer": "<mark>Organizar y dirigir la producción</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/organizar-dirigir-produccion.jpg",
         "title": "Anales de la Construcción y de la Industria (1876)",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "La estructura formal es la que diseña la dirección de la empresa sobre el papel: organigramas, puestos, jerarquía. <mark>Es como el plano de una casa hecho por un arquitecto</mark>. ¿Cómo se llama esta parte planificada de la organización?",
+      "question": "La estructura formal está escrita en papel. Muestra los puestos y quién manda a quién. <mark>Es como el plano de una casa hecho por un arquitecto</mark>. ¿Cómo se llama esta parte escrita de la organización?",
       "answer": "<mark>Estructura formal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/estructura-formal.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "En la oficina, María y Carlos trabajan siempre juntos aunque no sea oficial; se sentan juntos, se ayudan y se comunican directamente. Esto no está en ningún organigrama pero pasa cada día. <mark>Es como los pasillos y atajos de un edificio que la gente usa aunque no estén en el plano</mark>. ¿Cómo se llama esta red de relaciones reales no planificadas?",
+      "question": "En la oficina, María y Carlos se ayudan sin que sea oficial. Se sientan juntos y hablan directo. <mark>Es como atajos de un edificio que no salen en el plano</mark>. ¿Cómo se llama esta red de relaciones que nadie ha planeado?",
       "answer": "<mark>Estructura informal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura/estructura-informal.jpg",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "question": "Una empresa real siempre tiene las relaciones oficiales (organigrama) Y las relaciones que nacen espontáneamente entre compañeros. <mark>Es como un iceberg: la parte visible es la estructura formal, pero debajo del agua está la informal que también importa</mark>. ¿Cuál es la fórmula de la organización real?",
-      "answer": "<mark>Organización real = estructura formal + estructura informal</mark>"
+      "question": "Toda empresa tiene relaciones oficiales. También tiene otras, entre compañeros. <mark>Es como un iceberg: lo informal está debajo del agua</mark>. ¿Cuál es la fórmula de la organización real?",
+      "answer": "<mark>Formal + informal</mark>"
     }
   ]
 }

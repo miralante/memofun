@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Una empresa grande necesita un plano que diga quién manda sobre quién. <mark>Es como el plano de un edificio que indica en qué piso está cada oficina</mark>. ¿Cómo se llama ese plano de la empresa?",
+      "question": "Una empresa grande necesita un plano que diga quién manda sobre quién. <mark>Es como el plano de un edificio: dice dónde está cada oficina</mark>. ¿Cómo se llama ese plano de la empresa?",
       "answer": "<mark>Organigrama</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organigrama-estructura.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "En una pyme todo el mundo sabe exactamente quién es su jefe y los trabajadores solo hablan con su responsable directo. <mark>Es como un ejército con rangos claros de general a soldado</mark>. ¿Cómo se llama este tipo de organización?",
+      "question": "En una empresa pequeña, cada persona sabe quién es su jefe. Cada trabajador solo habla con su jefe directo. <mark>Es como un ejército con rangos claros de general a soldado</mark>. ¿Cómo se llama este tipo de organización?",
       "answer": "<mark>Organización jerárquica</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organizacion-jerarquica.jpg",
@@ -28,11 +28,11 @@
       }
     },
     {
-      "question": "El Director de Producción, el Comercial y el Financiero dan órdenes directamente a los empleados, aunque no tengan al Director General encima. <mark>Es como un equipo donde varios capitanes mandan a la vez sobre el mismo jugador</mark>. ¿Qué tipo de organización es?",
+      "question": "Varios jefes, como los de Producción y Comercial, dan órdenes directas. A los empleados, aunque no tengan encima al Director General. <mark>Es como un equipo con varios capitanes a la vez</mark>. ¿Qué tipo de organización es?",
       "answer": "<mark>Organización funcional</mark>"
     },
     {
-      "question": "Una empresa que tiene estructura jerárquica abajo pero asesores y adjuntos arriba que solo informan. <mark>Es como una estructura militar donde los generales tienen asesores civiles</mark>. ¿Cómo se llama este modelo mixto?",
+      "question": "Tiene jefes abajo. Y asesores arriba, que solo informan. <mark>Es como una estructura militar donde los generales tienen asesores civiles</mark>. ¿Cómo se llama este modelo mixto?",
       "answer": "<mark>Organización mixta</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organizacion-mixta.jpg",
@@ -44,7 +44,7 @@
       }
     },
     {
-      "question": "Una empresa enorme que vende en Europa, América y Asia, y cada zona funciona casi como una empresa independiente. <mark>Es como un padre con tres hijos adultos, cada uno con su propia casa y presupuesto</mark>. ¿Cómo se llama este modelo?",
+      "question": "Una empresa vende en Europa, América y Asia. Cada zona casi funciona sola. <mark>Es como un padre con tres hijos, cada uno con su casa</mark>. ¿Cómo se llama este modelo de empresa?",
       "answer": "<mark>Organización por divisiones</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organizacion-divisiones.jpg",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "question": "La empresa se divide en secciones como Producción, Comercial, Finanzas y Recursos Humanos. <mark>Es como una orquesta dividida en cuerdas, viento y percusión, donde cada grupo hace su parte</mark>. ¿Cómo se llama cada una de esas secciones?",
+      "question": "Una empresa se divide en partes, como Producción o Finanzas. <mark>Es como una orquesta: cuerdas, viento y tambores, cada uno su parte</mark>. ¿Cómo se llama cada una de esas secciones?",
       "answer": "<mark>Áreas funcionales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/areas-funcionales.jpg",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "question": "El plano oficial de la empresa, donde aparecen todos los departamentos y quién manda sobre quién. Pero luego en la práctica hay relaciones que no están en ese plano. <mark>Es como el plano del mobiliario de una casa que no refleja dónde se sienta realmente cada uno</mark>. ¿Cómo se llama la estructura real de la empresa?",
+      "question": "El plano oficial muestra los departamentos y quién manda. Pero en la práctica hay relaciones que no salen en ese plano. <mark>Es como un plano que no muestra dónde se sienta cada uno</mark>. ¿Cómo se llama la estructura real de la empresa?",
       "answer": "<mark>Estructura informal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/estructura-informal.jpg",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "question": "Antes de hacer cualquier trabajo en la empresa se decide qué se quiere conseguir y cómo llegar. <mark>Es como antes de hacer un viaje, pensar a dónde vas y por qué ruta</mark>. ¿Cómo se llama esta primera tarea administrativa?",
+      "question": "Antes de trabajar, se decide qué se quiere lograr. <mark>Es como antes de un viaje: pensar a dónde vas</mark>. ¿Cómo se llama esta primera tarea administrativa?",
       "answer": "<mark>Planificación</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/planificacion.jpg",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "question": "Una vez decidido el plan, la empresa reparte el trabajo y los recursos entre los departamentos. <mark>Es como en una cocina de restaurante: alguien corta, alguien cocina, alguien emplata</mark>. ¿Cómo se llama esta tarea administrativa?",
+      "question": "Después, la empresa reparte el trabajo entre los departamentos. <mark>Es como en una cocina: alguien corta, alguien cocina, alguien sirve</mark>. ¿Cómo se llama esta tarea administrativa?",
       "answer": "<mark>Organización</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organizacion-tarea.jpg",
@@ -104,7 +104,7 @@
       }
     },
     {
-      "question": "El jefe guía al equipo día a día, da órdenes y motiva a los trabajadores. <mark>Es como el director de una orquesta que marca el ritmo y el tono</mark>. ¿Cómo se llama esta tarea administrativa?",
+      "question": "El jefe guía al equipo día a día. Da órdenes y anima a los trabajadores. <mark>Es como el director de una orquesta que marca el ritmo</mark>. ¿Cómo se llama esta tarea administrativa?",
       "answer": "<mark>Dirección</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/direccion.jpg",
@@ -116,7 +116,7 @@
       }
     },
     {
-      "question": "Los departamentos de una empresa necesitan coordinarse para que todo llegue a tiempo y no se cruce trabajo. <mark>Es como en un relay: los corredores tienen que pasarse el testigo en el momento justo</mark>. ¿Cómo se llama esta tarea administrativa?",
+      "question": "Los departamentos deben trabajar juntos. Así todo llega a tiempo y nadie repite trabajo. <mark>Es como una carrera de relevos: el testigo se pasa a tiempo</mark>. ¿Cómo se llama esta tarea administrativa?",
       "answer": "<mark>Coordinación</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/coordinacion.jpg",
@@ -128,7 +128,7 @@
       }
     },
     {
-      "question": "Al final de un proyecto o período, la empresa comprueba si se cumplieron los objetivos. <mark>Es como al terminar un examen: comparar lo que respondiste con lo que sabías</mark>. ¿Cómo se llama esta última tarea administrativa?",
+      "question": "Al final, la empresa mira si logró sus metas. <mark>Es como revisar un examen antes de entregarlo</mark>. ¿Cómo se llama esta última tarea administrativa?",
       "answer": "<mark>Control</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/control.jpg",

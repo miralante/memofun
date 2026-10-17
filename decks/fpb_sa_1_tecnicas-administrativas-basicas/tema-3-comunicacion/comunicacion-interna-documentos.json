@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Cuando la información se transmite desde la dirección a los empleados o al revés (de abajo a arriba), subiendo o bajando por los niveles de la empresa. <mark>Es como el telefonillo de un edificio: de planta a planta</mark>. ¿Cómo se llama este tipo de comunicación?",
+      "question": "La información sube o baja por la empresa. Va de la dirección a los empleados, o al revés. <mark>Es como el telefonillo de un edificio: de planta a planta</mark>. ¿Cómo se llama este tipo de comunicación?",
       "answer": "<mark>Comunicación vertical</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-vertical.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Cuando un trabajador envía un correo a un compañero del mismo nivel para coordinar un proyecto conjunto. <mark>Es como dos alumnos de la misma clase que se pasan un nota en clase</mark>. ¿Cómo se llama esta comunicación entre personas del mismo nivel jerárquico?",
+      "question": "Un trabajador escribe a un compañero del mismo nivel. Lo hace para organizar un proyecto juntos. <mark>Es como dos alumnos que se pasan una nota en clase</mark>. ¿Cómo se llama esta comunicación entre iguales?",
       "answer": "<mark>Comunicación horizontal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-horizontal.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Cuando el director general envía una circulaire a todos los departamentos anunciando el horario de verano. <mark>Es como un bando municipal que se coloca en todos los barrios a la vez</mark>. ¿Cómo se llama esta comunicación que va de dirección a empleados sin pasar por jerarquías intermedias?",
+      "question": "El director envía una circular a todos los departamentos. Anuncia el horario de verano. <mark>Es como un aviso pegado en todos los barrios</mark>. ¿Cómo se llama esta comunicación que baja de dirección a empleados?",
       "answer": "<mark>Comunicación descendente</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-descendente.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Cuando un empleado usa el buzón de sugerencias para proponer una idea a la dirección. <mark>Es como echar una carta al buzón de Correos: la envías y no sabes quién la leerá exactamente</mark>. ¿Cómo se llama esta comunicación que va de empleados a dirección?",
+      "question": "Un empleado propone una idea a la dirección. <mark>Es como echar una carta al buzón: no sabes quién la leerá</mark>. ¿Cómo se llama esta comunicación que va de empleados a dirección?",
       "answer": "<mark>Comunicación ascendente</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-ascendente.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Cuando en una reunión de proyecto participan personas de diferentes niveles (director, mandos medios y técnicos) para coordinarse. <mark>Es como una mesa redonda donde se sientan juntos el jefe, los adjuntos y los empleados</mark>. ¿Cómo se clasifica esta comunicación que cruza niveles?",
+      "question": "En una reunión participan personas de distintos niveles. Por ejemplo, el director, los mandos y los técnicos. <mark>Es como una mesa redonda donde todos se sientan juntos</mark>. ¿Cómo se llama esta comunicación que cruza niveles?",
       "answer": "<mark>Comunicación diagonal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-diagonal.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Cuando los empleados utilizan el correo electrónico, la intranet o el tablón de anuncios siguiendo los cauces oficiales de la empresa. <mark>Es como conducir por la derecha: es el camino marcado</mark>. ¿Cómo se llama esta comunicación que sigue la estructura organizativa de la empresa?",
+      "question": "Los empleados usan el correo, la intranet o el tablón. Siguen las vías oficiales de la empresa. <mark>Es como conducir por la derecha: es el camino marcado</mark>. ¿Cómo se llama esta comunicación que sigue las normas de la empresa?",
       "answer": "<mark>Comunicación formal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-formal.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Cuando dos compañeros hablan en la máquina del café sobre la subida de ventas sin que nadie lo anote oficialmente. <mark>Es como una conversación de bar: se dice y punto, sin paperwork</mark>. ¿Cómo se llama esta comunicación que no sigue cauces oficiales?",
+      "question": "Dos compañeros hablan junto a la máquina del café. Nadie lo anota de forma oficial. <mark>Es como una charla de bar: se dice y ya</mark>. ¿Cómo se llama esta charla que no sigue normas oficiales?",
       "answer": "<mark>Comunicación informal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-informal.jpg",
@@ -88,15 +88,15 @@
       }
     },
     {
-      "question": "Una nota breve que un departamento envía a otro dentro de la misma empresa pidiendo algo o transmitiendo una orden. <mark>Es como una nota adhesiva pegada en la puerta del despacho del compañero</mark>. ¿Cómo se llama este documento interno?",
+      "question": "Una nota corta que un departamento envía a otro. Pide algo o da una orden. <mark>Es como un post-it pegado en la puerta de un compañero</mark>. ¿Cómo se llama este documento interno?",
       "answer": "<mark>Memorando (nota interior)</mark>"
     },
     {
-      "question": "Un documento formal de una Administración Pública que envía la misma información a muchos destinatarios a la vez sin tener que escribir cartas individuales. <mark>Es como un grupo de WhatsApp donde el remitente envía un solo mensaje a todos</mark>. ¿Cómo se llama este documento?",
+      "question": "Es un documento formal que envía la misma información a muchos. <mark>Es como un grupo de WhatsApp: un solo mensaje para todos</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Circular interna</mark>"
     },
     {
-      "question": "Un aviso breve en el que una empresa privada comunica algo a todos sus trabajadores (por ejemplo, una revisión médica). <mark>Es como un post-it gigante pegado en la puerta de entrada de la oficina</mark>. ¿Cómo se llama este documento?",
+      "question": "Es un aviso breve para todos los trabajadores. Por ejemplo, para avisar de una revisión médica. <mark>Es como un cartel grande en la puerta de la oficina</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Aviso</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/aviso.jpg",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "question": "Un documento utilizado en empresas públicas que incluye el membrete, el nombre del receptor, la referencia del departamento, la descripción del asunto, la fecha y la firma. <mark>Es como una carta oficial pero interne, sin salir al exterior</mark>. ¿Cómo se llama?",
+      "question": "Se usa en empresas públicas. Tiene membrete, receptor, asunto, fecha y firma. <mark>Es como una carta oficial, pero que no sale de la empresa</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Oficio interno</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/oficio-interno.jpg",
@@ -120,7 +120,7 @@
       }
     },
     {
-      "question": "Los documentos oficiales como facturas, albaranes y pedidos que pasan entre departamentos y al exterior. <mark>Es como el sistema circulatorio: la sangre sale del corazón, va por las arterias y vuelve por las venas</mark>. ¿Cómo se llama al conjunto de documentos que circulan dentro de la empresa?",
+      "question": "Facturas, albaranes y pedidos pasan entre departamentos. <mark>Es como la sangre: sale del corazón y vuelve de nuevo</mark>. ¿Cómo se llaman estos papeles que circulan dentro de la empresa?",
       "answer": "<mark>Comunicación escrita interna</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/doc-circulan.jpg",
@@ -132,7 +132,7 @@
       }
     },
     {
-      "question": "EI documento donde se detallan de forma ordenada datos, hechos y conclusiones sobre un asunto concreto. <mark>Es como un resumen estructurado de lo que ocurrió en una reunión</mark>. ¿Cómo se llama?",
+      "question": "Es el documento que explica datos, hechos y conclusiones de un tema. <mark>Es como un resumen ordenado de lo que pasó en una reunión</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Informe</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/informe.jpg",
@@ -144,11 +144,11 @@
       }
     },
     {
-      "question": "El documento que resume los acuerdos tomados en una reunión y queda como registro oficial. <mark>Es como las minutas de una clase: alguien anota lo que se ha explicado para que los que no vinieron se enteren</mark>. ¿Cómo se llama?",
+      "question": "Resume lo acordado en una reunión. Queda como registro oficial. <mark>Es como los apuntes de clase de quien no pudo ir</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Acta</mark>"
     },
     {
-      "question": "Los envíos certificados o攻城邮件 que requieren firma de recibido; y los servicios de mensajería que permiten seguimiento en tiempo real. <mark>Es como el correo tradicional comparado con WhatsApp: ambos llevan mensajes pero con niveles distintos de rapidez y comprobación</mark>. ¿Cuál es la diferencia principal entre correo postal y mensajería?",
+      "question": "Los envíos certificados piden firma. La mensajería permite seguirlos. <mark>Es como una carta comparada con un WhatsApp</mark>. ¿Cuál es la diferencia principal entre correo postal y mensajería?",
       "answer": "<mark>Correo postal (lento, para documentos oficiales) frente a mensajería (rápida, con seguimiento)</mark>"
     }
   ]

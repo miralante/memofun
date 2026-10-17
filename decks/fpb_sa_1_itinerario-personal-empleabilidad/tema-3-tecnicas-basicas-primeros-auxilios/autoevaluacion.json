@@ -1,0 +1,133 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué significan las siglas PAS?",
+      "opciones": {
+        "a": "Proteger, Avisar, Socorrer.",
+        "b": "Parar, Atender, Salir.",
+        "c": "Preparar, Ayudar, Sanar."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "Al socorrer a una persona, ¿qué revisamos primero?",
+      "opciones": {
+        "a": "El pulso.",
+        "b": "La conciencia.",
+        "c": "La temperatura."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "Antes de ayudar, hay que asegurarse de que no hay peligro.", "respuesta": "V" },
+        { "texto": "Si alguien se quema, hay que reventar las ampollas.", "respuesta": "F" },
+        { "texto": "Si una persona tiene convulsiones, hay que sujetarla con fuerza.", "respuesta": "F" },
+        { "texto": "Nunca des comida o bebida a alguien inconsciente.", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta.",
+      "huecos": [
+        { "texto": "Si sale sangre, presiona la herida con una gasa o un paño ___.", "respuesta": "limpio" },
+        { "texto": "Si alguien se atraganta y no puede respirar, haz la maniobra de ___.", "respuesta": "Heimlich" },
+        { "texto": "Si alguien no responde pero respira, colócalo en posición lateral de ___.", "respuesta": "seguridad" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada situación con lo que hay que hacer. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Quemadura",
+        "B": "Fractura",
+        "C": "Desmayo: no responde, pero respira",
+        "D": "Atragantamiento"
+      },
+      "derecha": {
+        "1": "Enfriar la zona con agua fría (no helada) durante al menos 10 minutos.",
+        "2": "No moverla e inmovilizar con algo rígido.",
+        "3": "Colocarla de lado, en posición lateral de seguridad.",
+        "4": "Hacer la maniobra de Heimlich si no puede respirar."
+      },
+      "respuesta": { "A": "1", "B": "2", "C": "3", "D": "4" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada norma del PAS con su significado.",
+      "izquierda": {
+        "A": "Proteger",
+        "B": "Avisar",
+        "C": "Socorrer"
+      },
+      "derecha": {
+        "1": "Llamar a los servicios sanitarios.",
+        "2": "Asegurarse de que no hay peligro.",
+        "3": "Revisar la conciencia, la respiración y el pulso."
+      },
+      "respuesta": { "A": "2", "B": "1", "C": "3" }
+    },
+    {
+      "id": "p7",
+      "tipo": "clasificar",
+      "enunciado": "¿Va en el botiquín básico? Marca con una X.",
+      "categorias": ["Sí va en el botiquín", "No va en el botiquín"],
+      "elementos": [
+        { "texto": "Gasas estériles.", "respuesta": "Sí va en el botiquín" },
+        { "texto": "Vendas.", "respuesta": "Sí va en el botiquín" },
+        { "texto": "Tijeras.", "respuesta": "Sí va en el botiquín" },
+        { "texto": "Guantes desechables.", "respuesta": "Sí va en el botiquín" },
+        { "texto": "Termómetro.", "respuesta": "Sí va en el botiquín" },
+        { "texto": "Un perfume.", "respuesta": "No va en el botiquín" }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "Si alguien tiene una convulsión, ¿qué haces?",
+      "opciones": {
+        "a": "Sujetarla con fuerza.",
+        "b": "Quitar los objetos peligrosos que hay alrededor.",
+        "c": "Darle agua para que se calme."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "Si alguien sangra, ¿qué haces?",
+      "opciones": {
+        "a": "Presionar la herida con una gasa o un paño limpio.",
+        "b": "Quitar la gasa cuando se empapa.",
+        "c": "Esperar a que pare solo."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "¿Por qué son tan importantes los primeros minutos tras un accidente?",
+      "opciones": {
+        "a": "Porque lo que se haga en ellos puede ser decisivo.",
+        "b": "Porque la ayuda nunca llega.",
+        "c": "Porque la persona ya no necesita ayuda."
+      },
+      "respuesta": "a"
+    }
+  ]
+}

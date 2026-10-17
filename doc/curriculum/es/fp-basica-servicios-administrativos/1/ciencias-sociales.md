@@ -1,5 +1,5 @@
 ---
-tema: "Ciencias Sociales - FP Básica Servicios Administrativos (1º)"
+tema: "Lengua Castellana y Sociedad - FP Básica Servicios Administrativos (1º)"
 nivel: "principiante"
 cantidad: 35
 salida: "fpb_sa_1_ciencias-sociales.json"

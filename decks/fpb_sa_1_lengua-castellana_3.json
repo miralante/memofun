@@ -16,19 +16,7 @@
       }
     },
     {
-      "question": "Un texto largo tiene una idea que sostiene todo lo demás, rodeada de detalles más pequeños. <mark>Es como el tronco de un árbol, con ramas colgando alrededor</mark>. Si quitas las ramas, el árbol sigue en pie. ¿Cómo se llama esa idea central del texto?",
-      "answer": "<mark>Idea principal</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/tronco-arbol.jpg",
-        "title": "tronco de árbol",
-        "source": "https://www.flickr.com/photos/8501509@N03/1986696888",
-        "alt": "El tronco grueso de un árbol visto de cerca",
-        "autor": "Ayuda para pagar mis deudas",
-        "licencia": "CC BY 2.0"
-      }
-    },
-    {
-      "question": "Un profesor explica cómo funciona un motor, sin dar su opinión. <mark>Solo da datos, como un mapa que muestra el terreno tal cual es</mark>. No busca convencer, solo informar. ¿Cómo se llama este tipo de texto que explica un tema con claridad?",
+      "question": "Un profesor explica cómo funciona un motor, sin dar su opinión. <mark>Solo da datos, como un mapa que muestra el terreno</mark>. No busca convencer, solo informar. ¿Cómo se llama este texto que explica un tema con claridad?",
       "answer": "<mark>Texto expositivo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/mapa-carreteras.jpg",
@@ -40,7 +28,7 @@
       }
     },
     {
-      "question": "Alguien escribe por qué reciclar es buena idea, dando motivos. <mark>Es como un abogado defendiendo su caso con pruebas</mark>. Busca convencer al lector de su opinión. ¿Cómo se llama este tipo de texto que defiende una opinión con razones?",
+      "question": "Alguien escribe por qué reciclar es buena idea, dando motivos. <mark>Es como un abogado defendiendo su caso con pruebas</mark>. Busca convencer al lector de su opinión. ¿Cómo se llama este texto que defiende una opinión?",
       "answer": "<mark>Texto argumentativo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/contenedores-reciclaje.jpg",
@@ -52,7 +40,7 @@
       }
     },
     {
-      "question": "Antes de 'coche' puedes poner 'el', 'mi' o 'ese', y cada uno añade un dato distinto. <mark>Son como una etiqueta pegada delante del nombre</mark>: cuál es, de quién es o cuántos hay. ¿Cómo se llama esta clase de palabras que acompañan al sustantivo?",
+      "question": "Antes de 'coche' puedes poner 'el', 'mi' o 'ese'. <mark>Son como una etiqueta delante del nombre</mark>. Cada una dice algo distinto. ¿Cómo se llama esta clase de palabras que acompañan al sustantivo?",
       "answer": "<mark>Determinantes</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/coche-aparcado-calle.jpg",
@@ -88,7 +76,7 @@
       }
     },
     {
-      "question": "'Bonito' y 'guapo' no son la misma palabra, pero dicen casi lo mismo. <mark>Son como dos caminos distintos que llegan al mismo sitio</mark>. Se pueden intercambiar en muchas frases. ¿Cómo se llaman estas palabras con significado parecido?",
+      "question": "'Bonito' y 'guapo' son palabras distintas que dicen casi lo mismo. <mark>Son como dos caminos distintos que llegan al mismo sitio</mark>. Se pueden intercambiar en muchas frases. ¿Cómo se llaman estas palabras que quieren decir lo mismo?",
       "answer": "<mark>Sinónimos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/diccionario-lengua-espanola.jpg",
@@ -100,7 +88,7 @@
       }
     },
     {
-      "question": "'Frío' y 'caliente' significan justo lo contrario. <mark>Son como los dos extremos de una misma cuerda</mark>. Sirven para expresar ideas opuestas. ¿Cómo se llaman estas palabras de significado contrario?",
+      "question": "'Frío' y 'caliente' dicen justo lo contrario. <mark>Son como los dos extremos de una misma cuerda</mark>. Sirven para expresar ideas opuestas. ¿Cómo se llaman estas palabras que quieren decir lo contrario?",
       "answer": "<mark>Antónimos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/hielo-y-fuego.jpg",
@@ -112,7 +100,7 @@
       }
     },
     {
-      "question": "A un amigo le escribes 'hola, qué tal'. A una empresa le escribes de otra manera. <mark>Es como cambiar de chándal a traje según la ocasión</mark>. Se cuida el saludo, el tono y la despedida. ¿Cómo se llama este tipo de correo o carta con lenguaje cuidado y respetuoso?",
+      "question": "A un amigo le escribes 'hola, qué tal'. <mark>Es como cambiar de chándal a traje según la ocasión</mark>. A una empresa le escribes con más cuidado. ¿Cómo se llama un correo con lenguaje cuidado y respetuoso?",
       "answer": "<mark>Formal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/hombre-traje-corbata.jpg",
@@ -124,7 +112,7 @@
       }
     },
     {
-      "question": "Antes de hablar, una persona ya dice algo con la cara y las manos que mueve. <mark>Es como leer el ambiente de una sala nada más entrar</mark>. Esa información llega antes que las palabras. ¿Cómo se llaman emisor, receptor y mensaje en conjunto?",
+      "question": "Antes de hablar, una persona ya dice algo con gestos. <mark>Es como leer el ambiente de una sala nada más entrar</mark>. Esa información llega antes que las palabras. ¿Cómo se llaman emisor, receptor y mensaje en conjunto?",
       "answer": "<mark>Elementos de la comunicación</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/emisor-receptor-codigo.jpg",
@@ -133,30 +121,6 @@
         "alt": "Esquema que muestra el emisor, el receptor y el código de un mensaje",
         "autor": "Cielo Cortés",
         "licencia": "CC BY-SA 4.0"
-      }
-    },
-    {
-      "question": "Preparas una tarta y sigues cada paso en orden: primero esto, luego aquello. <mark>Es como seguir el mapa de un tesoro, paso a paso</mark>. Si te saltas un paso, algo sale mal. ¿Cómo se llama este tipo de texto que explica cómo hacer algo?",
-      "answer": "<mark>Texto instructivo</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/tarta-arandanos.jpg",
-        "title": "Receta tarta de arándanos casera - Recipe homemade Blueberry pie",
-        "source": "https://www.flickr.com/photos/24426584@N06/3017851988",
-        "alt": "Una tarta casera de arándanos recién hecha",
-        "autor": "Romina Campos",
-        "licencia": "CC BY 2.0"
-      }
-    },
-    {
-      "question": "Una silla puede ser 'cómoda', 'vieja' o 'roja'. <mark>Es como ponerle detalles a un dibujo ya hecho</mark>. Esa palabra no nombra la silla, solo la describe. ¿Cómo se llama esta clase de palabra que describe al sustantivo?",
-      "answer": "<mark>Adjetivo</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/silla-roja.jpg",
-        "title": "Una gran silla roja",
-        "source": "https://www.flickr.com/photos/95033136@N00/5337048078",
-        "alt": "Una gran silla de color rojo",
-        "autor": "cvander",
-        "licencia": "CC BY 2.0"
       }
     },
     {
@@ -172,7 +136,7 @@
       }
     },
     {
-      "question": "Al leer una noticia te encuentras una palabra que no conoces y la buscas. <mark>Es como fichar a un jugador nuevo para tu equipo</mark>. Ahora puedes usarla la próxima vez que la necesites. ¿Qué acabas de sumar a tu vocabulario?",
+      "question": "Al leer una noticia, encuentras una palabra que no conoces. <mark>Es como fichar a un jugador nuevo para tu equipo</mark>. Ahora puedes usarla la próxima vez que la necesites. ¿Qué acabas de sumar a tu vocabulario?",
       "answer": "<mark>Una palabra nueva</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_lengua-castellana_3/leyendo-periodico.jpg",

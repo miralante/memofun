@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "La empresa <mark>no espera al accidente para actuar</mark>. Lo hace desde el primer momento, en su proceso productivo y en su organización. ¿Cómo se llama integrar la prevención en la empresa desde el inicio?",
+      "question": "La empresa <mark>no espera al accidente para actuar</mark>. Actúa desde el primer día, en su trabajo y en su organización. ¿Cómo se llama tener la prevención en cuenta desde el inicio?",
       "answer": "<mark>Integrar la prevención de riesgos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/integrar-prevencion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Antes de empezar cualquier actividad, la empresa debe <mark>reconocer qué puede salir mal</mark>. Si ve un peligro en un puesto, lo primero es identificarlo. ¿Cómo se llama ese primer paso?",
+      "question": "Antes de empezar, la empresa debe <mark>reconocer qué puede salir mal</mark>. Si ve un peligro en un puesto, lo primero es identificarlo. ¿Cómo se llama ese primer paso?",
       "answer": "<mark>Identificar los riesgos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/identificar-riesgos.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Una vez identificados los riesgos, la empresa debe <mark>saber qué tan graves son</mark>. Solo así puede decidir qué hacer. ¿Cómo se llama ese segundo paso?",
+      "question": "Después, la empresa debe <mark>saber lo graves que son</mark>. Solo así puede decidir qué hacer. ¿Cómo se llama ese segundo paso?",
       "answer": "<mark>Evaluar los riesgos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/controlar-riesgos.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Tras evaluar, la empresa decide <mark>qué medidas poner en práctica</mark> para que nadie salga herido. ¿Cómo se llama el tercer paso?",
+      "question": "Luego, la empresa decide <mark>qué medidas tomar</mark>. Así nadie sale herido. ¿Cómo se llama el tercer paso?",
       "answer": "<mark>Adoptar medidas de control</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/prevencion.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Cuando el riesgo todavía no se ha producido, se actúa <mark>antes</mark> para evitarlo. ¿Cómo se llama ese primer grupo de medidas?",
+      "question": "Si el riesgo aún no ha pasado, se actúa <mark>antes</mark> para evitarlo. ¿Cómo se llama ese primer grupo de medidas?",
       "answer": "<mark>Técnicas de prevención</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/empresa-prevencion.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Cuando el riesgo <mark>no se ha podido eliminar</mark>, se actúa después para reducir el daño. ¿Cómo se llama ese segundo grupo de medidas?",
+      "question": "Si el riesgo <mark>no se puede quitar</mark>, se actúa después. Así se reduce el daño. ¿Cómo se llama ese segundo grupo de medidas?",
       "answer": "<mark>Técnicas de protección</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/proteccion-individual.jpg",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "question": "La prevención busca actuar <mark>sobre la persona expuesta</mark>, mientras que la protección lo hace <mark>sobre el riesgo o el medio por donde se transmite</mark>. ¿Cómo se resume esa diferencia?",
-      "answer": "<mark>Prevención: receptor · Protección: riesgo</mark>",
+      "question": "La prevención actúa <mark>sobre la persona expuesta</mark>. La protección actúa <mark>sobre el riesgo o por donde llega</mark>. ¿Cómo se resume esa diferencia?",
+      "answer": "<mark>Persona (prevención) · riesgo (protección)</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/proteccion-colectiva.jpg",
         "title": "ALSIPERCHA",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Una técnica que se aplica a <mark>todos los trabajadores a la vez</mark> es general; una que se aplica a <mark>una sola persona</mark> es individual. ¿Cómo se llaman las dos modalidades de la protección?",
+      "question": "Hay técnicas para <mark>todos los trabajadores a la vez</mark>. Otras son para <mark>una sola persona</mark>. ¿Cómo se llaman las dos modalidades de la protección?",
       "answer": "<mark>Colectiva e individual</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/senal.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "El <mark>responsable último</mark> de que toda la empresa esté segura es una sola persona. Por ley, debe garantizar la seguridad de todos. ¿Quién es?",
+      "question": "Es el <mark>responsable último</mark> de la seguridad de la empresa. Por ley, debe cuidar la seguridad de todos. ¿Quién es?",
       "answer": "<mark>El empresario</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion/empresario-garante.jpg",

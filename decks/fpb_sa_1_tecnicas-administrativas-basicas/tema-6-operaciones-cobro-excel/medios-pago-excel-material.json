@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "El pago que se realiza en el momento exacto en que se recibe la mercancía o el servicio, sin esperar. <mark>Es como pagar la compra en el supermercado antes de salir por la puerta</mark>. ¿Cómo se llama este tipo de pago?",
+      "question": "Se paga al recibir la mercancía o el servicio. No hay que esperar. <mark>Es como pagar en el supermercado antes de salir</mark>. ¿Cómo se llama este tipo de pago?",
       "answer": "<mark>Pago al contado</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/pago-contado.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Un documento firmado por el cliente donde ordena a su banco que pague una cantidad a otra persona. <mark>Es como una orden escrita y firmada que dice 'páguese a esta persona'</mark>. ¿Cómo se llama este medio de pago?",
+      "question": "Un papel firmado. El cliente ordena a su banco pagar a otra persona. <mark>Es como una orden firmada: 'páguese a esta persona'</mark>. ¿Cómo se llama este medio de pago?",
       "answer": "<mark>Cheque</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/cheque.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "El cheque lleva el nombre del banco, el IBAN, el nombre del beneficiario, el importe en número y letra, el lugar y fecha de emisión y la firma. <mark>Es como un formulario oficial con casillas que hay que rellenar para que el documento sea válido</mark>. ¿Cómo se llaman las distintas partes de un cheque?",
+      "question": "Un cheque lleva varios datos. Lleva el banco, el IBAN, quién cobra, el importe y la firma. <mark>Es como un formulario con casillas que hay que rellenar</mark>. ¿Cómo se llaman estos datos del cheque?",
       "answer": "<mark>Partes del cheque</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/partes-cheque.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Mover dinero desde una cuenta bancaria a otra cuenta, ordenándolo el cliente a su banco. <mark>Es como dar una orden de transferencia de una habitación a otra dentro del mismo hotel</mark>. ¿Cómo se llama esta operación bancaria?",
+      "question": "El cliente pide al banco mover dinero a otra cuenta. <mark>Es como pedir llevar algo de una habitación a otra del hotel</mark>. ¿Cómo se llama esta operación bancaria?",
       "answer": "<mark>Transferencia bancaria</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/transferencia-bancaria.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Una tarjeta emitida por un banco que solo permite gastar el dinero que ya tienes en la cuenta asociada: al usarla el importe se resta inmediatamente. <mark>Es como pagar con dinero efectivo pero sin llevar Bills en la cartera</mark>. ¿Cómo se llama esta tarjeta?",
+      "question": "Una tarjeta del banco gasta solo el dinero que ya tienes. Se resta de la cuenta al momento. <mark>Es como pagar con billetes, pero sin llevarlos en la cartera</mark>. ¿Cómo se llama esta tarjeta?",
       "answer": "<mark>Tarjeta de débito</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/tarjeta-debito.jpg",
@@ -64,8 +64,8 @@
       }
     },
     {
-      "question": "En una compra por internet el cliente puede pagar con tarjeta de crédito, transferencia, contra reembolso o una pasarela de pago segura. <mark>Es como las distintas formas de pagar en una tienda online</mark>. ¿Cómo se llama el conjunto de estas formas de pago?",
-      "answer": "<mark>Formas de pago en comercio electrónico (e-commerce)</mark>",
+      "question": "En internet se puede pagar de varias formas. Con tarjeta, transferencia o contra reembolso. <mark>Es como las distintas formas de pagar en una tienda online</mark>. ¿Cómo se llama el conjunto de estas formas de pago?",
+      "answer": "<mark>Pagos en comercio electrónico</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/pago-ecommerce.jpg",
         "title": "Electronic Commerce (ELEC 4616). Module 05 - Web Marketing Goals and Strategies for E-Commerce. Course material published by Bangladesh Open University. Programme: Commonwealth Executive MBA/MPA (CEMBA/CEMPA). School: School of Business (SoB).",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "question": "En la pantalla de Excel, la barra donde se escribe la fórmula y que muestra el contenido de la celda seleccionada. <mark>Es como la barra de direcciones de un navegador: te dice dónde estás y qué hay escrito</mark>. ¿Cómo se llama esta barra de Excel?",
-      "answer": "<mark>Banda de fórmulas (o barra de fórmulas)</mark>",
+      "question": "En Excel, la barra donde se escribe una fórmula. Muestra lo que hay en la celda. <mark>Es como la barra de direcciones de un navegador</mark>. ¿Cómo se llama esta barra de Excel?",
+      "answer": "<mark>Barra de fórmulas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/banda-formulas.jpg",
         "title": "Office Automation (DCSA 1302). Unit 07 - Spreadsheet Analysis. Course material published by Bangladesh Open University. Programme: Diploma in Computer Science &amp; Application (DCSA). School: School of Science &amp; Technology (SST).",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "En Excel, una selección vertical de celdas que se nombra con letras (A, B, C...). <mark>Es como una columna de un edificio: va de arriba a abajo y tiene su propia letra identificativa</mark>. ¿Cómo se llama en Excel?",
+      "question": "En Excel, una selección vertical de celdas se nombra con letras. <mark>Es como una columna de un edificio: va de arriba abajo</mark>. ¿Cómo se llama esa selección?",
       "answer": "<mark>Columna</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/columna-excel.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "En Excel, una selección horizontal de celdas que se numera desde 1 hasta 1.048.576. <mark>Es como una fila de butacas en un cine: va de izquierda a derecha y tiene su número de asiento</mark>. ¿Cómo se llama en Excel?",
+      "question": "En Excel, una selección horizontal de celdas con número. <mark>Es como una fila de butacas en un cine</mark>. ¿Cómo se llama esa selección?",
       "answer": "<mark>Fila</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/fila-excel.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "En una celda de Excel se pueden escribir textos, números o fórmulas. <mark>Es como una celda de una hoja de papel quadriculado donde puedes escribir lo que quieras</mark>. ¿Qué tipos de datos se pueden introducir en una celda de Excel?",
+      "question": "En una celda de Excel se pueden escribir textos, números o fórmulas. <mark>Es como un cuadrito de papel cuadriculado donde escribes algo</mark>. ¿Qué puedes escribir en una celda?",
       "answer": "<mark>Textos, números o fórmulas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/tipos-datos-celda.jpg",
@@ -124,8 +124,8 @@
       }
     },
     {
-      "question": "Para sumar en Excel se escribe =A1+A2; para restar, =A1-A2; para multiplicar, =A1*A2; y para dividir, =A1/A2. <mark>Es como una calculadora pero donde tú decides qué celdas se calculan</mark>. ¿Cómo se llaman estas operaciones en Excel?",
-      "answer": "<mark>Fórmulas básicas (suma, resta, multiplicación y división)</mark>",
+      "question": "En Excel, sumar es =A1+A2 y restar es =A1-A2. Multiplicar es =A1*A2 y dividir es =A1/A2. <mark>Es como una calculadora que usa tus celdas</mark>. ¿Cómo se llaman estas operaciones en Excel?",
+      "answer": "<mark>Fórmulas básicas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/formulas-basicas.jpg",
         "title": "A spectrum analyzer based on Fast Fourier Transform (FFT) techniques was implemented using the TMS320C6201 Digital Signal Processor device manufactured by Texas Instruments. Portable C programs demonstrated optimization of the FFT algorithm for maximum speed. Previously published algorithms were adapted to the unique features of this Very-Long Instruction Word (VLIW) parallel processor and application, taking into account fixed-point arithmetic, parallel operation of functional units, and a hierarchy of memory capacities and speeds. The effectiveness of the VLIW C compiler, with automatic optimization, is compared with an explicitly-scheduled assembly-language program. The resulting program was then used to demonstrate the crucial need to keep program data in the Internal Data Memory to preserve hard-won performance gains. Subjects: Spectrum Analysis",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "El IVA = subtotal × 21%; TOTAL = subtotal + IVA. <mark>Es como en una factura de restaurante: el precio sin IVA es el pedido y el IVA es el servicio; ambos suman la cuenta final</mark>. ¿Cómo se calcula el TOTAL en una factura con IVA?",
+      "question": "El IVA = subtotal × 21%; TOTAL = subtotal + IVA. <mark>Es como una cuenta de restaurante: se suma el IVA al precio</mark>. ¿Cómo se calcula el TOTAL en una factura con IVA?",
       "answer": "<mark>Subtotal + IVA (21%) = TOTAL</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material/calculo-iva.jpg",
