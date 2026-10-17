@@ -65,11 +65,12 @@ aprendizaje colaborativo": es un proyecto transversal que integra
 resultados de aprendizaje de varios módulos ya cubiertos, sin
 contenido propio que indexar. Los módulos generales de FP Básica
 ("Ámbito de Comunicación y Ciencias Sociales", "Ámbito de Ciencias
-Aplicadas") se han separado por asignatura (Lengua Castellana,
-Ciencias Sociales, Ciencias Aplicadas) para mantener la misma
-estructura que `primaria/` y `eso/`; la parte de Matemáticas del
-Ámbito de Ciencias Aplicadas queda fuera por la misma razón que en el
-resto de la biblioteca (ver nota "Sin Matemáticas" más arriba).
+Aplicadas") se han separado por asignatura (Lengua Castellana y
+Ciencias Sociales) para mantener la misma estructura que `primaria/`
+y `eso/`. El Ámbito de Ciencias Aplicadas no tiene asignatura propia
+en 1º ni en 2º de FP Básica, así que no hay carpeta para él; la parte
+de Matemáticas queda fuera por la misma razón que en el resto de la
+biblioteca (ver nota "Sin Matemáticas" más arriba).
 
 ## Estructura de cada archivo
 

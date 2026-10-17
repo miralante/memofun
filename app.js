@@ -56,10 +56,11 @@
 
   /* Subjects that are open within a course. The structure mirrors OPEN_COURSES:
      course → [open subjects]. Any subject not listed (or a course not in this
-     map) is fully open. FP Básica tiene siete asignaturas; las dos que están
-     listas (Empleabilidad y Técnicas Administrativas) son las únicas con
-     contenido real. Las demás tienen barajas en el manifest pero no se han
-     publicado — el dev page (/dev/index.html) es la referencia completa.
+     map) is fully open. 1º de FP Básica tiene cuatro asignaturas en la
+     biblioteca; las dos que están listas (Itinerario Personal para la
+     Empleabilidad y Técnicas Administrativas Básicas) son las únicas con
+     contenido publicado. Las demás tienen barajas en el manifest pero no se
+     han publicado — el dev page (/dev/index.html) es la referencia completa.
 
      Adding a subject here makes it clickable from the public index.
      Removing it makes it show a "Próximamente" badge. */
