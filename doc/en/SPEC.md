@@ -89,6 +89,17 @@ kept the essentials of the topic before moving on.
 - **Varied formats**: single choice, true/false, fill in the gap,
   matching pairs and classifying into categories, instead of a
   multiple-choice-only test.
+- **Visible, partial correction**: when the learner checks, each mistake
+  is marked in a colour that is **not red** (the focus blue in this
+  theme) as well as with a symbol and the text "Review", so it can be
+  found at a glance. Right answers show in green and are locked.
+- **Two exits after checking**: "Fix only the mistakes" reopens only the
+  missed questions and keeps the right ones locked; "Try again" starts
+  the full test over. Every new self-assessment must have both.
+- **Typed-text comparison**: a typed answer is compared without accents,
+  without capital letters and without spaces (the "raw" string). "Físico",
+  "fisico" and " F ís ico " are the same answer. Dropdown and choice
+  answers are compared exactly.
 
 The file format (`autoevaluacion.json`) is in `technical.md` §4.3.
 
@@ -140,6 +151,10 @@ AI surface in the product, not more:
 - There is no "right/wrong" grading card by card — review is free,
   untimed, unlimited passes.
 - Finishing a full pass through a deck adds 1 ⭐, never removes one.
+- Stars live **only in the study session** (`sessionStorage`): they are
+  not saved on the device, and a new visit starts at 0. There is no
+  permanent score to use as an excuse not to come back. Each deck gives
+  its star once per session.
 - Cards always come in **the deck's own order**: the JSON order *is*
   the learning sequence. There is no random or reverse button, because
   memorising works with the sequence, not against it.
@@ -199,9 +214,9 @@ like a manual:
 ### 2.6 Privacy by default
 
 - No sign-up, no accounts, no tracking cookies, no analytics.
-- **Local progress contract**: `localStorage` only holds `estrellas`
-  (integer, only added to) and `completado` (which decks have been
-  reviewed at least once). Failures, time taken, attempt counts, or
+- **Local progress contract**: `localStorage` only holds `completado`
+  (which decks have been reviewed at least once). Stars live only in
+  `sessionStorage` (see §2.2) and are never saved permanently. Failures, time taken, attempt counts, or
   anything identifying are never saved. Progress never leaves the
   device.
 
@@ -222,6 +237,11 @@ like a manual:
 ### 2.8 Autonomy
 
 Works offline (installable PWA), no login, no cost.
+
+Design principle: when a deck is finished, the end-screen button returns
+to the **topic** the deck belongs to, not to the home screen. The learner
+stays where they were and decides what to study next. Decks without a
+topic (simple mode) still return to home.
 
 ### 2.9 Simplicity for the learner
 

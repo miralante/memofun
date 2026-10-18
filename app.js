@@ -480,7 +480,7 @@
        there to prevent. */
     if (pinned && byCourse.map[pinned] && isCourseOpen(pinned)) {
       html += '<section class="quick-access">' +
-        '<p class="quick-access-label">⭐ ' + App.i18n.t('home.quickAccess') + '</p>' +
+        '<p class="quick-access-label">📌 ' + App.i18n.t('home.quickAccess') + '</p>' +
         '<div class="deck-grid" role="list">' +
         '<a class="deck-card" role="listitem" href="' + buildUrl(pinned) + '">' +
         '<span class="deck-icon" aria-hidden="true">' + courseIcon(pinned) + '</span>' +
@@ -532,7 +532,7 @@
       '<div class="heading-with-back">' + backLinkHtml(buildUrl()) +
       '<h2 class="section-heading">' + App.utils.escapeHtml(course) + '</h2></div>' +
       '<button type="button" class="btn secondary" id="btn-pin-course" aria-pressed="' + pinned + '">' +
-      (pinned ? '⭐ ' + App.i18n.t('home.pinnedButton') : '☆ ' + App.i18n.t('home.pinButton')) +
+      (pinned ? '📌 ' + App.i18n.t('home.pinnedButton') : '📌 ' + App.i18n.t('home.pinButton')) +
       '</button></div>';
 
     html += '<div class="deck-grid" role="list">' + bySubject.order.map(function (subject, i) {

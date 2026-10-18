@@ -8,6 +8,7 @@ if (window.App.i18n) {
       intro: 'Responde con calma. No hay nota ni prisa: sirve para ver qué ya sabes y qué puedes repasar.',
       check: '✅ Comprobar',
       retry: '🔁 Repetir',
+      fixWrong: '✏️ Corregir solo los errores',
       correct: '✔ Correcto',
       wrong: '✘ Revisa',
       answerIs: 'Respuesta: {answer}',

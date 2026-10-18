@@ -539,21 +539,26 @@ test('15 — completed deck shows stamp on home screen', async ({ browser }) => 
   await expect(page.locator('#deck-grid .deck-card .deck-stamp').first()).toBeVisible();
 });
 
-test('16 — star count persists after page reload', async ({ browser }) => {
+test('16 — stars live only in the session: a reload keeps them, a new visit starts at zero', async ({ browser }) => {
+  // Permanent stars left in localStorage by older versions must never show.
+  // The session stars are seeded once, so a reload only keeps what the session already had.
   const page = await openWithStorage(browser, () => {
-    localStorage.setItem('memofun:progress', JSON.stringify({
-      stars: 3,
-      completed: { 'eso-1-biologia-geologia': true }
-    }));
+    localStorage.setItem('memofun:progress', JSON.stringify({ stars: 3, completed: {} }));
+    if (!sessionStorage.getItem('memofun:session')) {
+      sessionStorage.setItem('memofun:session', JSON.stringify({ stars: 2, done: {} }));
+    }
   });
-  // Stars should show ⭐ 3 without any navigation
-  const starsText = await page.locator('#stars-total').textContent();
-  expect(starsText).toMatch(/3/);
+  const count = page.locator('#stars-total .stars-count');
+  await expect(count).toHaveText('2');
 
-  // Reload and check again
   await page.reload();
-  const starsTextAfter = await page.locator('#stars-total').textContent();
-  expect(starsTextAfter).toMatch(/3/);
+  await expect(count).toHaveText('2');
+
+  // A new browser context is a new session: no stars, and the old localStorage stars stay hidden.
+  const fresh = await openWithStorage(browser, () => {
+    localStorage.setItem('memofun:progress', JSON.stringify({ stars: 3, completed: {} }));
+  });
+  await expect(fresh.locator('#stars-total .stars-count')).toHaveText('0');
 });
 
 // ===========================================================================

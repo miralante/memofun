@@ -996,7 +996,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-    "amount": 15,
+    "amount": 11,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json",
     "icon": "🛡️"
   },
@@ -1010,17 +1010,6 @@
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/condiciones-seguridad.json",
     "icon": "🦺"
-  },
-  {
-    "id": "fpb-sa-1-ipe-t1-seguridad-salud-2",
-    "topic": "Riesgos en el trabajo",
-    "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-    "amount": 7,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-laborales.json",
-    "icon": "⚠️"
   },
   {
     "id": "fpb-sa-1-ipe-t1-seguridad-salud-3",
@@ -1040,7 +1029,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
-    "amount": 7,
+    "amount": 8,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
     "icon": "📦"
   },

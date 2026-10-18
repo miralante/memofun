@@ -41,6 +41,7 @@
   var btnPrev = document.getElementById('btn-prev');
   var btnNext = document.getElementById('btn-next');
   var btnStudyAgain = document.getElementById('btn-study-again');
+  var btnEndBack = document.getElementById('btn-end-back');
   var starsEl = document.getElementById('stars-total');
   var btnBack = document.getElementById('btn-back');
 
@@ -81,6 +82,16 @@
     if (deckTopicGroup) backUrl += '&topicGroup=' + encodeURIComponent(deckTopicGroup);
   }
   if (backUrl) btnBack.href = backUrl;
+
+  /* Design principle (SPEC §2.8): when a deck is finished, the end
+     screen's button returns to the topic the deck belongs to, not to the
+     home screen. Same target as "Volver" above, so the learner lands on
+     the topic they came from. Decks outside a topic keep the home link. */
+  if (deckTopicGroup && backUrl) {
+    btnEndBack.href = backUrl;
+    btnEndBack.setAttribute('data-i18n', 'study.backToTopic');
+    btnEndBack.textContent = App.i18n.t('study.backToTopic');
+  }
 
   function renderStars() {
     starsEl.innerHTML =

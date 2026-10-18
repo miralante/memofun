@@ -21,20 +21,24 @@
   var questionsEl = document.getElementById('test-questions');
   var btnCheck = document.getElementById('btn-check');
   var btnRetry = document.getElementById('btn-retry');
+  var btnFixWrong = document.getElementById('btn-fix-wrong');
   var resultEl = document.getElementById('test-result');
   var backEl = document.getElementById('btn-back');
 
   var test = null;
+  var wrongIdx = []; /* question indexes the last check marked as wrong */
 
   function esc(text) { return App.utils.escapeHtml(String(text)); }
 
-  /* Accent- and case-insensitive comparison for typed words only
-     ("físico" = "FISICO"). Choices are compared exactly. */
+  /* Typed-text comparison: the raw string without accents, without capital
+     letters and without any spaces ("Físico" = "fisico" = " FÍSI CO "). Only
+     typed words go through this; choices are compared exactly. */
   function sameWord(a, b) {
-    function norm(s) {
-      return String(s).trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    function raw(s) {
+      return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .toLowerCase().replace(/\s+/g, '');
     }
-    return norm(a) === norm(b);
+    return raw(a) === raw(b);
   }
 
   function sortedKeys(obj) {
@@ -66,16 +70,23 @@
     }).join('');
   }
 
+  /* With a `banco` (word bank) every gap is a dropdown holding those words,
+     so the person picks instead of typing. Without one, the gap is a free
+     text field. */
   function renderCompletar(q, qi) {
-    var bank = Array.isArray(q.banco) && q.banco.length
-      ? '<p class="test-bank">' + esc(q.banco.join(' · ')) + '</p>' : '';
+    var useBank = Array.isArray(q.banco) && q.banco.length > 0;
+    var options = useBank ? q.banco.map(function (w) {
+      return '<option value="' + esc(w) + '">' + esc(w) + '</option>';
+    }).join('') : '';
     var rows = q.huecos.map(function (h, hi) {
       var parts = String(h.texto).split('___');
-      var input = '<input class="test-gap" type="text" autocomplete="off" name="q' + qi + '-' + hi + '" ' +
-        'aria-label="' + esc(App.i18n.t('test.gapLabel')) + '">';
-      return '<p class="test-gap-line">' + esc(parts[0]) + input + esc(parts.slice(1).join('___')) + '</p>';
+      var name = 'name="q' + qi + '-' + hi + '" aria-label="' + esc(App.i18n.t('test.gapLabel')) + '"';
+      var control = useBank
+        ? '<select class="test-select test-gap" ' + name + '><option value="">—</option>' + options + '</select>'
+        : '<input class="test-gap" type="text" autocomplete="off" ' + name + '>';
+      return '<p class="test-gap-line">' + esc(parts[0]) + control + esc(parts.slice(1).join('___')) + '</p>';
     }).join('');
-    return bank + rows;
+    return rows;
   }
 
   function renderUnir(q, qi) {
@@ -147,7 +158,7 @@
       });
     } else if (q.tipo === 'completar') {
       q.huecos.forEach(function (h, hi) {
-        var input = formEl.querySelector('input[name="q' + qi + '-' + hi + '"]');
+        var input = formEl.querySelector('[name="q' + qi + '-' + hi + '"]');
         parts.push(!!input && sameWord(input.value, h.respuesta));
         expectedTexts.push(h.respuesta);
       });
@@ -175,10 +186,16 @@
 
   function checkAll() {
     var right = 0;
+    wrongIdx = [];
     test.preguntas.forEach(function (q, qi) {
       var r = checkQuestion(q, qi);
-      if (r.ok) right++;
-      var fb = questionsEl.querySelector('.test-q[data-q="' + qi + '"] .test-feedback');
+      if (r.ok) right++; else wrongIdx.push(qi);
+      var box = questionsEl.querySelector('.test-q[data-q="' + qi + '"]');
+      if (box) {
+        box.classList.toggle('is-wrong', !r.ok);
+        box.classList.toggle('is-correct', r.ok);
+      }
+      var fb = box && box.querySelector('.test-feedback');
       if (!fb) return;
       fb.className = 'test-feedback ' + (r.ok ? 'is-correct' : 'is-wrong');
       fb.textContent = r.ok
@@ -192,14 +209,34 @@
     setLocked(true);
     btnCheck.classList.add('hidden');
     btnRetry.classList.remove('hidden');
+    btnFixWrong.classList.toggle('hidden', wrongIdx.length === 0);
     btnRetry.focus();
   }
 
+  /* Reopens only the questions the last check marked as wrong. The right
+     ones stay locked with their feedback, so the person works on the
+     mistakes alone. Comprobar then checks the whole test again. */
+  function fixWrong() {
+    setLocked(true);
+    wrongIdx.forEach(function (qi) {
+      var box = questionsEl.querySelector('.test-q[data-q="' + qi + '"]');
+      if (box) box.querySelectorAll('input, select').forEach(function (el) { el.disabled = false; });
+    });
+    resultEl.textContent = '';
+    btnFixWrong.classList.add('hidden');
+    btnRetry.classList.add('hidden');
+    btnCheck.classList.remove('hidden');
+    var first = questionsEl.querySelector('.test-q[data-q="' + wrongIdx[0] + '"] input, .test-q[data-q="' + wrongIdx[0] + '"] select');
+    (first || btnCheck).focus();
+  }
+
   function retry() {
+    wrongIdx = [];
     renderQuestions();
     resultEl.textContent = '';
     setLocked(false);
     btnRetry.classList.add('hidden');
+    btnFixWrong.classList.add('hidden');
     btnCheck.classList.remove('hidden');
     btnCheck.focus();
   }
@@ -214,6 +251,7 @@
     backEl.setAttribute('href', back);
     btnCheck.addEventListener('click', checkAll);
     btnRetry.addEventListener('click', retry);
+    btnFixWrong.addEventListener('click', fixWrong);
 
     if (!/^[\w.\-\/]+$/.test(folder)) { showError(); return; }
 

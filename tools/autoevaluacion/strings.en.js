@@ -8,6 +8,7 @@ if (window.App.i18n) {
       intro: 'Take your time. There is no grade and no rush: it helps you see what you already know and what to review.',
       check: '✅ Check',
       retry: '🔁 Try again',
+      fixWrong: '✏️ Fix only the mistakes',
       correct: '✔ Correct',
       wrong: '✘ Review',
       answerIs: 'Answer: {answer}',

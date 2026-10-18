@@ -110,9 +110,29 @@
   padding: 0;
 }
 
+/* Wrong answers use the focus blue, not red: a colour that stands out from
+   the green of the right ones and is legible in both themes. The symbol and
+   the text ("✘ Revisa") carry the meaning too, so colour is never the only
+   channel. */
+.test-q.is-correct {
+  border-color: var(--color-success);
+}
+
+.test-q.is-wrong {
+  border: 2px solid var(--color-focus);
+}
+
 .test-feedback {
   margin: 0.5rem 0 0;
   font-weight: 700;
+}
+
+.test-feedback.is-correct {
+  color: var(--color-success);
+}
+
+.test-feedback.is-wrong {
+  color: var(--color-focus);
 }
 
 .test-feedback:empty {

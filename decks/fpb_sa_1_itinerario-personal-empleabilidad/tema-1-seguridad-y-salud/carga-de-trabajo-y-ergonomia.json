@@ -5,7 +5,15 @@
   "cards": [
     {
       "question": "<mark>Todo lo que el trabajo te pide en una jornada</mark>. Son aspectos físicos y mentales. Unos cansan el cuerpo y otros la cabeza. ¿Cómo se llama todo eso junto?",
-      "answer": "<mark>Carga de trabajo</mark>"
+      "answer": "<mark>Carga de trabajo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/carga-de-trabajo-workload.jpg",
+        "title": "My workload is heavy",
+        "source": "https://www.flickr.com/photos/68978695@N00/2760944358",
+        "alt": "Imagen que ilustra un trabajo con mucha carga.",
+        "autor": "Risager",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "<mark>La carga de trabajo es lo que el puesto te pide</mark>. Si esa carga puede hacerte daño, es un peligro. ¿Cómo se llama ese peligro para tu cuerpo y tu cabeza?",
@@ -40,6 +48,18 @@
         "source": "https://www.flickr.com/photos/27087959@N00/270126707",
         "alt": "Una persona que lleva varias cajas con las manos y con el cuerpo",
         "autor": "ccarlstead",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "<mark>Pasar dos horas encorvado sobre el teclado sin levantar la espalda</mark>. El cuerpo aguanta mal una postura así durante mucho tiempo. ¿Cómo se llama esa postura de trabajo?",
+      "answer": "<mark>Posturas forzadas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/forma-de-trabajar.jpg",
+        "title": "posture",
+        "source": "https://www.flickr.com/photos/43264265@N00/3344639958",
+        "alt": "Una persona de pie y de cuerpo entero, en una postura concreta.",
+        "autor": "Dan4th",
         "licencia": "CC BY 2.0"
       }
     },

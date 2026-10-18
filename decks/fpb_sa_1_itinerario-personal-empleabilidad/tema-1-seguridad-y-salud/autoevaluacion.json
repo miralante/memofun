@@ -63,7 +63,7 @@
     {
       "id": "p6",
       "tipo": "completar",
-      "enunciado": "Completa con la palabra correcta: FÍSICO, MENTAL o SOCIAL.",
+      "enunciado": "Elige la palabra correcta en cada desplegable.",
       "banco": ["FÍSICO", "MENTAL", "SOCIAL"],
       "huecos": [
         { "texto": "Si no me duele nada y mi cuerpo está sano, tengo bienestar ___.", "respuesta": "FÍSICO" },

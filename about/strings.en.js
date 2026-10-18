@@ -48,7 +48,7 @@
     "techItem2Label": 'Works offline',
     "techItem2Text": 'once installed, it opens even without an internet connection thanks to the service worker and local cache. Decks you have already opened stay available offline.',
     "techItem3Label": 'Persistence only in',
-    "techItem3Text": 'progress (stars and finished decks) lives in the device’s browser. It is never sent anywhere.',
+    "techItem3Text": 'finished decks live in the device’s browser, and stars last only as long as your study session. Nothing is ever sent anywhere.',
     "techItem4Label": 'No frameworks, no build step',
     "techItem4Text1": 'classic JavaScript compatible with older browsers and with the',
     "techItem4Text2": ' protocol. Built so a junior developer can read and modify a deck without surprises.',

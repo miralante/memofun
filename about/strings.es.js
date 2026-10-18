@@ -48,7 +48,7 @@
     "techItem2Label": 'Funciona sin conexión',
     "techItem2Text": 'una vez instalada, abre aunque no haya internet gracias al service worker y al caché local. Las barajas ya abiertas quedan disponibles offline.',
     "techItem3Label": 'Persistencia solo en',
-    "techItem3Text": 'el progreso (estrellas y barajas terminadas) vive en el navegador del dispositivo. Nunca se envía a ningún sitio.',
+    "techItem3Text": 'las barajas terminadas viven en el navegador del dispositivo, y las estrellas solo duran lo que dura tu sesión de estudio. Nunca se envía nada a ningún sitio.',
     "techItem4Label": 'Sin frameworks ni build step',
     "techItem4Text1": 'JavaScript clásico compatible con navegadores antiguos y con el protocolo',
     "techItem4Text2": '. Pensado para que un técnico novel pueda leer y modificar una baraja sin sorpresas.',

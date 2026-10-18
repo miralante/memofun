@@ -9,7 +9,7 @@
    Decks in decks/*.json are cached on every successful fetch, so a
    deck a student already opened keeps working offline.
    ============================================================ */
-var VERSION = 'memofun-v122';
+var VERSION = 'memofun-v132';
 
 var FILES = [
   './',
@@ -75,7 +75,6 @@ var FILES = [
      en D:/img_memofun/ipp/. */
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/condiciones-seguridad.json',
-  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-laborales.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json',

@@ -12,6 +12,7 @@ if (window.App.i18n) {
       transferPhrase: 'Ya sabes un poco más sobre {tema}.',
       studyAgain: '🔁 Repasar otra vez',
       backToHome: '🏠 Volver al inicio',
+      backToTopic: '📚 Volver al tema',
       finishPhrases: ['¡Has repasado toda la baraja!', '¡Listo! Sigue cuando quieras.', '¡Bien hecho! Otra vez cuando te apetezca.'],
       milestoneHalf: '¡Vas por la mitad!',
       milestoneThreeQuarters: '¡Ya casi está!',

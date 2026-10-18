@@ -3,9 +3,11 @@
    Exposes window.App.storage.get(key) / .set(key, data) / .remove(key) /
    .clearAll(). Internal prefix: 'memofun:'. No personal data, no accounts.
 
-   Progress contract (SPEC.md §2.6, same as Apptonomia): only 'progress'
-   is written by the study flow, and it only ever holds `stars`
-   (integer, only added to) and `completed` (which decks have been
+   Progress contract (SPEC.md §2.2 and §2.6): stars live only in
+   sessionStorage, for the session in which the person studies. They are
+   never written to localStorage, so a returning visit starts at zero and
+   the product gives no permanent score as an excuse not to come back.
+   localStorage 'progress' holds only `completed` (which decks have been
    studied through at least once). Never stored: failures, time taken,
    attempt counts, or anything that identifies the person.
    ========================================================================== */
@@ -63,6 +65,30 @@
     }
   }
 
+  /* Session-only record of the stars earned in this visit (sessionStorage
+     survives page changes in the same tab, and is dropped when the tab
+     closes). Shape: { stars: N, done: { deckId: true } }. */
+  var SESSION_KEY = PREFIX + 'session';
+
+  function readSession() {
+    try {
+      var raw = sessionStorage.getItem(SESSION_KEY);
+      var data = raw ? JSON.parse(raw) : {};
+      return (data && typeof data === 'object') ? data : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function writeSession(data) {
+    try {
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify(data));
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
   function clearAll() {
     try {
       var toDelete = [];
@@ -71,30 +97,38 @@
         if (k && k.indexOf(PREFIX) === 0) toDelete.push(k);
       }
       toDelete.forEach(function (k) { localStorage.removeItem(k); });
-      return true;
     } catch (e) {
-      return false;
+      /* keep going: the session record is cleared below regardless */
     }
+    try { sessionStorage.removeItem(SESSION_KEY); } catch (e) { /* ignore */ }
+    return true;
   }
 
-  /** Marks a deck as completed at least once and adds one star. Stars only
-      ever go up (SPEC.md §2.2: never subtracted as punishment). */
+  /** Marks a deck as completed at least once (kept on the device) and
+      earns one star for this session. A deck gives its star once per
+      session, so repeating it in the same visit does not inflate the
+      count (SPEC.md §2.2). Stars are never written to localStorage. */
   function completeDeck(deckId) {
+    var session = readSession();
+    session.stars = session.stars || 0;
+    session.done = session.done || {};
+    if (!session.done[deckId]) {
+      session.done[deckId] = true;
+      session.stars += 1;
+    }
+    writeSession(session);
+
     var progress = get('progress');
-    progress.stars = (progress.stars || 0) + 1;
     progress.completed = progress.completed || {};
     progress.completed[deckId] = true;
     set('progress', progress);
-    return progress;
+    return session;
   }
 
-  /** Total stars earned across every deck, shown in the header on every
-      page (same pattern as Apptonomia's totalStars()). Memofun
-      keeps a single 'progress' record rather than one per deck, so this
-      is a direct read rather than a sum across keys. */
+  /** Stars earned in this session, shown in the header on every page. Reads
+      only the session record: a visit that starts fresh shows 0. */
   function totalStars() {
-    var progress = get('progress');
-    return progress.stars || progress.estrellas || 0;
+    return readSession().stars || 0;
   }
 
   window.App.storage = {

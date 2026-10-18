@@ -90,6 +90,18 @@ retenido lo esencial del tema antes de pasar al siguiente.
 - **Variedad de formatos**: selección única, verdadero o falso,
   completar con una palabra, unir parejas y clasificar en categorías,
   en vez de un test de solo opción múltiple.
+- **Corrección visible y por partes**: al comprobar, cada fallo se marca
+  con un color que **no es el rojo** (azul de foco en el tema) además
+  del símbolo y del texto "Revisa", para localizarlo de un vistazo. Los
+  aciertos quedan en verde y bloqueados.
+- **Dos salidas tras corregir**: "Corregir solo los errores" reabre solo
+  las preguntas falladas y deja bloqueadas las acertadas; "Repetir"
+  empieza el test completo de nuevo. Cualquier autoevaluación nueva
+  debe tener las dos.
+- **Comparación de texto escrito**: la respuesta tecleada se compara sin
+  acentos, sin mayúsculas y sin espacios (cadena «raw»). "Físico",
+  "fisico" y " F ís ico " son la misma respuesta. Las opciones de
+  desplegable o selección se comparan tal cual.
 
 El formato del fichero (`autoevaluacion.json`) está en `tecnico.md` §4.3.
 
@@ -145,6 +157,10 @@ dirección — menos superficie de IA en el producto, no más:
 - No hay corrección "bien/mal" tarjeta a tarjeta — el repaso es libre,
   sin cronómetro, sin límite de vueltas.
 - Terminar una pasada completa de una baraja suma 1 ⭐, nunca se resta.
+- Las estrellas viven **solo en la sesión de estudio** (`sessionStorage`):
+  no se guardan en el dispositivo y una visita nueva empieza en 0. Así no
+  hay una puntuación permanente que sirva de excusa para no volver. Cada
+  baraja da su estrella una vez por sesión.
 - Las tarjetas salen **siempre en el orden de la baraja**: el orden del
   JSON *es* la secuencia de aprendizaje. No hay botón de orden
   aleatorio ni inverso, porque memorizar funciona con la secuencia,
@@ -208,8 +224,9 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
 
 - Sin registro, sin cuentas, sin cookies de rastreo, sin analítica.
 - **Contrato de progreso local**: `localStorage` solo guarda
-  `estrellas` (entero, solo suma) y `completado` (qué barajas se han
-  terminado de repasar al menos una vez). Nunca se guardan fallos,
+  `completado` (qué barajas se han terminado de repasar al menos una
+  vez). Las estrellas van solo en `sessionStorage` (ver §2.2) y nunca se
+  guardan de forma permanente. Nunca se guardan fallos,
   tiempo empleado, número de intentos ni nada que identifique a la
   persona. El progreso no sale del dispositivo.
 
@@ -230,6 +247,11 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
 ### 2.8 Autonomía
 
 Funciona offline (PWA instalable), sin login, sin coste.
+
+Principio de diseño: al terminar una baraja, el botón de la pantalla final
+vuelve al **tema** al que pertenece, no al inicio. Así la persona sigue
+en el mismo sitio donde estaba y decide ella qué estudiar después. Las
+barajas sin tema (modo sencillo) siguen volviendo al inicio.
 
 ### 2.9 Sencillez para la persona que estudia
 
