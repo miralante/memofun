@@ -996,6 +996,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+    "selfTest": true,
     "amount": 11,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json",
     "icon": "🛡️"
@@ -1007,6 +1008,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+    "selfTest": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/condiciones-seguridad.json",
     "icon": "🦺"
@@ -1018,6 +1020,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+    "selfTest": true,
     "amount": 21,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales.json",
     "icon": "🧪"
@@ -1029,6 +1032,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 1 · Seguridad y salud en el trabajo",
+    "selfTest": true,
     "amount": 8,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json",
     "icon": "📦"
@@ -1054,15 +1058,16 @@
     "icon": "📋"
   },
   {
-    "id": "fpb-sa-1-ta-t1-departamentos",
-    "topic": "Repaso general: empresa, organigrama y operativa administrativa",
+    "id": "fpb-sa-1-ta-t1-la-empresa",
+    "topic": "Qué es una empresa",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 17,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/departamentos.json",
+    "amount": 3,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/la-empresa.json",
     "icon": "📋",
-    "topicGroup": "Tema 1 · La empresa"
+    "topicGroup": "Tema 1 · La empresa",
+    "selfTest": true
   },
   {
     "id": "fpb-sa-1-ta-t1-estructura",
@@ -1073,7 +1078,8 @@
     "amount": 12,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json",
     "icon": "📋",
-    "topicGroup": "Tema 1 · La empresa"
+    "topicGroup": "Tema 1 · La empresa",
+    "selfTest": true
   },
   {
     "id": "fpb-sa-1-tratamiento-informatico-datos",
@@ -1124,7 +1130,8 @@
     "amount": 8,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json",
     "icon": "📋",
-    "topicGroup": "Tema 1 · La empresa"
+    "topicGroup": "Tema 1 · La empresa",
+    "selfTest": true
   },
   {
     "id": "fpb-sa-1-ta-t1-funciones",
@@ -1135,29 +1142,31 @@
     "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json",
     "icon": "📋",
-    "topicGroup": "Tema 1 · La empresa"
+    "topicGroup": "Tema 1 · La empresa",
+    "selfTest": true
   },
   {
-    "id": "fpb-sa-1-ta-t1-com-ext",
-    "topic": "Carta comercial y comunicación escrita externa",
+    "id": "fpb-sa-1-ta-t2-areas-funcionales",
+    "topic": "Áreas funcionales",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 6,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/comunicacion-escrita-externa.json",
-    "icon": "📋",
-    "topicGroup": "Tema 1 · La empresa"
-  },
-  {
-    "id": "fpb-sa-1-ta-t2-recibos",
-    "topic": "Operaciones de caja, recibos y documentos de pago",
-    "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Técnicas Administrativas Básicas",
-    "amount": 17,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/recibos-justificantes-pago.json",
+    "amount": 11,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales.json",
     "icon": "📋",
     "topicGroup": "Tema 2 · Áreas funcionales"
+  },
+  {
+    "id": "fpb-sa-1-ta-t2-departamentos-organigrama",
+    "topic": "Departamentos y organigrama",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 13,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json",
+    "icon": "📋",
+    "topicGroup": "Tema 2 · Áreas funcionales",
+    "selfTest": true
   },
   {
     "id": "fpb-sa-1-ta-t3-agenda",
@@ -1182,12 +1191,23 @@
     "topicGroup": "Tema 3 · Comunicación"
   },
   {
+    "id": "fpb-sa-1-ta-t3-com-ext",
+    "topic": "Carta comercial y comunicación escrita externa",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 6,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json",
+    "icon": "📋",
+    "topicGroup": "Tema 3 · Comunicación"
+  },
+  {
     "id": "fpb-sa-1-ta-t4-correos",
     "topic": "Correos y paquetería",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 10,
+    "amount": 12,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria.json",
     "icon": "📋",
     "topicGroup": "Tema 4 · Correos y mensajería"
@@ -1226,6 +1246,17 @@
     "topicGroup": "Tema 6 · Operaciones de cobro y pago"
   },
   {
+    "id": "fpb-sa-1-ta-t6-recibos",
+    "topic": "Operaciones de caja, recibos y documentos de pago",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 17,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json",
+    "icon": "📋",
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
+  },
+  {
     "id": "fpb-sa-1-ta-t6-excel",
     "topic": "Excel avanzado e instrumentos de pago",
     "level": "principiante",
@@ -1233,6 +1264,17 @@
     "subject": "Técnicas Administrativas Básicas",
     "amount": 9,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-avanzado-instrumentos-pago.json",
+    "icon": "📋",
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
+  },
+  {
+    "id": "fpb-sa-1-ta-t6-documentos-comerciales",
+    "topic": "Documentos comerciales: pedido, albarán y factura",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 5,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json",
     "icon": "📋",
     "topicGroup": "Tema 6 · Operaciones de cobro y pago"
   },

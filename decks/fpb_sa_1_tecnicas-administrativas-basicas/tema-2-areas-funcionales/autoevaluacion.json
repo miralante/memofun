@@ -30,12 +30,15 @@
     {
       "id": "p3",
       "tipo": "completar",
-      "enunciado": "Completa la frase con la palabra correcta.",
+      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
       "huecos": [
         { "texto": "El área que vende y distribuye bienes y servicios es el área ___.", "respuesta": "comercial" },
         { "texto": "Los ___ son divisiones o sucursales que se encargan de una actividad concreta.", "respuesta": "departamentos" },
-        { "texto": "La representación gráfica de la estructura de una empresa se llama ___.", "respuesta": "organigrama" }
-      ]
+        { "texto": "La representación gráfica de la estructura de una empresa se llama ___.", "respuesta": "organigrama" },
+        { "texto": "El área que fija los objetivos de la empresa y sus planes es el área de ___.", "respuesta": "dirección" },
+        { "texto": "El departamento que guarda y controla las existencias es el de ___.", "respuesta": "almacén" }
+      ],
+      "banco": ["comercial", "departamentos", "organigrama", "dirección", "almacén"]
     },
     {
       "id": "p4",
@@ -117,6 +120,28 @@
         "c": "El Departamento de Almacén."
       },
       "respuesta": "b"
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "En el organigrama de la unidad hay una Subdirección Financiera. ¿Qué departamentos están subordinados a ella?",
+      "opciones": {
+        "a": "Financiación y Contabilidad.",
+        "b": "Almacén, Compras y Ventas.",
+        "c": "Selección y contratación, Nóminas y Formación."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p11",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "El área de dirección establece los objetivos y los planes de la empresa.", "respuesta": "V" },
+        { "texto": "El área de producción se ocupa de administrar el dinero de la empresa.", "respuesta": "F" },
+        { "texto": "Cada departamento se encarga de una actividad concreta.", "respuesta": "V" },
+        { "texto": "El área de recursos humanos coordina las habilidades y los conocimientos de los trabajadores.", "respuesta": "V" }
+      ]
     }
   ]
 }

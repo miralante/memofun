@@ -7,81 +7,178 @@
   "preguntas": [
     {
       "id": "p1",
-      "tipo": "seleccion",
-      "enunciado": "¿Qué es una empresa?",
-      "opciones": {
-        "a": "Elementos materiales y humanos que, bien organizados, producen bienes o servicios para obtener beneficios.",
-        "b": "Un grupo de amigos que trabajan juntos.",
-        "c": "Solo un edificio."
-      },
-      "respuesta": "a"
+      "tipo": "completar",
+      "enunciado": "Completa la definición de empresa. Elige la palabra correcta en cada desplegable.",
+      "banco": ["EMPRESA", "MATERIALES", "HUMANOS", "BIENES", "SERVICIOS", "HUMANAS", "BENEFICIOS"],
+      "huecos": [
+        { "texto": "La ___ es una combinación de elementos materiales y humanos.", "respuesta": "EMPRESA" },
+        { "texto": "Los elementos ___ son las máquinas, el dinero y los materiales.", "respuesta": "MATERIALES" },
+        { "texto": "Los elementos ___ son las personas que trabajan en ella.", "respuesta": "HUMANOS" },
+        { "texto": "La empresa fabrica ___ que la gente compra.", "respuesta": "BIENES" },
+        { "texto": "También presta ___, como una reparación o una clase.", "respuesta": "SERVICIOS" },
+        { "texto": "Todo eso sirve para satisfacer las necesidades ___.", "respuesta": "HUMANAS" },
+        { "texto": "Y con ese trabajo la empresa puede obtener ___.", "respuesta": "BENEFICIOS" }
+      ]
     },
     {
       "id": "p2",
-      "tipo": "seleccion",
-      "enunciado": "Una empresa del sector terciario...",
-      "opciones": {
-        "a": "Transforma materias primas en otros productos.",
-        "b": "Ofrece servicios.",
-        "c": "Cultiva la tierra."
+      "tipo": "unir",
+      "enunciado": "Une cada grupo de empresas con el criterio que los clasifica. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Grandes, medianas, pequeñas y microempresas.",
+        "B": "Sector primario, secundario y terciario.",
+        "C": "Locales, nacionales e internacionales.",
+        "D": "Públicas y privadas.",
+        "E": "Empresario individual y colectiva o sociedad."
       },
-      "respuesta": "b"
+      "derecha": {
+        "1": "Según el número de trabajadores que tiene.",
+        "2": "Según a qué se dedica la empresa.",
+        "3": "Según dónde trabaja la empresa.",
+        "4": "Según quién pone el dinero.",
+        "5": "Según si el dueño es una persona o varias."
+      },
+      "respuesta": { "A": "1", "B": "2", "C": "3", "D": "4", "E": "5" }
     },
     {
       "id": "p3",
-      "tipo": "vf",
-      "enunciado": "Escribe V si es verdadero o F si es falso.",
-      "afirmaciones": [
-        { "texto": "El empresario dirige, controla y supervisa todas las actividades de la empresa.", "respuesta": "V" },
-        { "texto": "En una empresa pública, el propietario del capital es un particular.", "respuesta": "F" },
-        { "texto": "La estructura informal son las relaciones que surgen de forma espontánea entre las personas.", "respuesta": "V" },
-        { "texto": "La organización real es solo la organización formal.", "respuesta": "F" }
+      "tipo": "clasificar",
+      "enunciado": "¿A qué sector de actividad pertenece cada empresa? Marca con una X.",
+      "categorias": ["Sector primario", "Sector secundario", "Sector terciario"],
+      "elementos": [
+        { "texto": "Una mina de plata.", "respuesta": "Sector primario" },
+        { "texto": "Una granja de cerdos.", "respuesta": "Sector primario" },
+        { "texto": "Una pesquería.", "respuesta": "Sector primario" },
+        { "texto": "Una fábrica de muebles.", "respuesta": "Sector secundario" },
+        { "texto": "Una industria textil.", "respuesta": "Sector secundario" },
+        { "texto": "Un taller de reparación de coches.", "respuesta": "Sector secundario" },
+        { "texto": "Una peluquería.", "respuesta": "Sector terciario" },
+        { "texto": "Una academia de idiomas.", "respuesta": "Sector terciario" },
+        { "texto": "Un restaurante.", "respuesta": "Sector terciario" },
+        { "texto": "Una sucursal bancaria.", "respuesta": "Sector terciario" }
       ]
     },
     {
       "id": "p4",
-      "tipo": "completar",
-      "enunciado": "Completa la frase con la palabra correcta.",
-      "huecos": [
-        { "texto": "Según su tamaño, las empresas pueden ser grandes, medianas, pequeñas o ___.", "respuesta": "microempresas" },
-        { "texto": "Una empresa cuyo propietario es el Estado es una empresa ___.", "respuesta": "pública" },
-        { "texto": "Una de las funciones de la empresa es crear empleo y ___.", "respuesta": "riqueza" }
+      "tipo": "clasificar",
+      "enunciado": "¿De qué tamaño es cada empresa? Marca con una X.",
+      "categorias": ["Microempresa", "Pequeña", "Mediana", "Grande"],
+      "elementos": [
+        { "texto": "Una peluquería con 5 trabajadores.", "respuesta": "Microempresa" },
+        { "texto": "Una empresa con 30 trabajadores.", "respuesta": "Pequeña" },
+        { "texto": "Un colegio con 80 trabajadores.", "respuesta": "Mediana" },
+        { "texto": "Una empresa con 200 trabajadores.", "respuesta": "Mediana" },
+        { "texto": "Un supermercado con más de 250 trabajadores.", "respuesta": "Grande" }
       ]
     },
     {
       "id": "p5",
       "tipo": "unir",
-      "enunciado": "Une cada sector con su descripción. Escribe el número al lado de la letra.",
+      "enunciado": "Une cada tipo de empresa con el lugar donde trabaja. Escribe el número al lado de la letra.",
       "izquierda": {
-        "A": "Sector primario",
-        "B": "Sector secundario",
-        "C": "Sector terciario"
+        "A": "Empresa local",
+        "B": "Empresa nacional",
+        "C": "Empresa internacional"
       },
       "derecha": {
-        "1": "Ofrecen servicios.",
-        "2": "Agricultura, ganadería, pesca, extracción y bosques.",
-        "3": "Transforman materias primas en otros productos."
-      },
-      "respuesta": { "A": "2", "B": "3", "C": "1" }
-    },
-    {
-      "id": "p6",
-      "tipo": "unir",
-      "enunciado": "Une cada tipo de organización con su descripción.",
-      "izquierda": {
-        "A": "Jerárquica",
-        "B": "Funcional",
-        "C": "Por divisiones"
-      },
-      "derecha": {
-        "1": "Se organiza por autoridad y responsabilidad. Típica de las pymes.",
-        "2": "Se organiza por funciones y departamentos.",
-        "3": "Cada departamento actúa casi como una empresa. Típica de grandes empresas."
+        "1": "Trabaja en un barrio, un pueblo o una ciudad.",
+        "2": "Trabaja en todo el país.",
+        "3": "Trabaja en más de un país."
       },
       "respuesta": { "A": "1", "B": "2", "C": "3" }
     },
     {
+      "id": "p6",
+      "tipo": "clasificar",
+      "enunciado": "¿La empresa es pública o privada? Marca con una X.",
+      "categorias": ["Pública", "Privada"],
+      "elementos": [
+        { "texto": "RENFE.", "respuesta": "Pública" },
+        { "texto": "RTVE.", "respuesta": "Pública" },
+        { "texto": "Canal de Isabel II.", "respuesta": "Pública" },
+        { "texto": "Loterías y Apuestas del Estado.", "respuesta": "Pública" },
+        { "texto": "Mercadona.", "respuesta": "Privada" },
+        { "texto": "Amazon.", "respuesta": "Privada" },
+        { "texto": "Zara.", "respuesta": "Privada" },
+        { "texto": "Burger King.", "respuesta": "Privada" }
+      ]
+    },
+    {
       "id": "p7",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "Una empresa internacional trabaja en varios países.", "respuesta": "V" },
+        { "texto": "Un supermercado pertenece al sector terciario.", "respuesta": "V" },
+        { "texto": "RENFE es una empresa privada.", "respuesta": "F" },
+        { "texto": "Una fábrica pertenece al sector secundario.", "respuesta": "V" },
+        { "texto": "Una peluquería de barrio es una empresa local.", "respuesta": "V" },
+        { "texto": "Amazon es una empresa pública.", "respuesta": "F" },
+        { "texto": "El empresario dirige, controla y supervisa todas las actividades.", "respuesta": "V" },
+        { "texto": "La organización real de la empresa es solo la estructura formal.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "unir",
+      "enunciado": "Une cada forma jurídica con su descripción. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Empresario individual",
+        "B": "Empresario colectivo o sociedad"
+      },
+      "derecha": {
+        "1": "Una persona aporta el capital, dirige la empresa y asume el riesgo.",
+        "2": "Varias personas aportan el capital y arriesgan ese dinero."
+      },
+      "respuesta": { "A": "1", "B": "2" }
+    },
+    {
+      "id": "p9",
+      "tipo": "completar",
+      "enunciado": "Completa cada frase con la palabra correcta.",
+      "banco": ["INTERNACIONAL", "NACIONAL", "LOCAL", "PRIMARIO", "SECUNDARIO", "TERCIARIO", "PÚBLICA", "PRIVADA"],
+      "huecos": [
+        { "texto": "Una empresa que trabaja en varios países es una empresa ___.", "respuesta": "INTERNACIONAL" },
+        { "texto": "Una empresa que vende en toda España es una empresa ___.", "respuesta": "NACIONAL" },
+        { "texto": "Una empresa que trabaja en un barrio o un pueblo es una empresa ___.", "respuesta": "LOCAL" },
+        { "texto": "Las empresas del sector ___ obtienen productos de la naturaleza.", "respuesta": "PRIMARIO" },
+        { "texto": "Las empresas del sector ___ transforman materias primas.", "respuesta": "SECUNDARIO" },
+        { "texto": "Las empresas del sector ___ prestan servicios.", "respuesta": "TERCIARIO" },
+        { "texto": "Una empresa propiedad del Estado es una empresa ___.", "respuesta": "PÚBLICA" },
+        { "texto": "Una empresa propiedad de personas particulares es una empresa ___.", "respuesta": "PRIVADA" }
+      ]
+    },
+    {
+      "id": "p10",
+      "tipo": "unir",
+      "enunciado": "Une cada tipo de organización con su descripción. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Jerárquica",
+        "B": "Funcional",
+        "C": "Mixta",
+        "D": "Por divisiones"
+      },
+      "derecha": {
+        "1": "Se organiza por autoridad y responsabilidad. Típica de las pymes.",
+        "2": "Se organiza por funciones y departamentos.",
+        "3": "Mezcla la jerárquica y la funcional.",
+        "4": "Cada departamento funciona casi como una empresa pequeña."
+      },
+      "respuesta": { "A": "1", "B": "2", "C": "3", "D": "4" }
+    },
+    {
+      "id": "p11",
+      "tipo": "completar",
+      "enunciado": "Completa cada tarea administrativa con su nombre.",
+      "banco": ["PLANIFICACIÓN", "ORGANIZACIÓN", "DIRECCIÓN", "COORDINACIÓN", "CONTROL"],
+      "huecos": [
+        { "texto": "La empresa decide los objetivos y las estrategias: es la ___.", "respuesta": "PLANIFICACIÓN" },
+        { "texto": "El jefe da órdenes al personal y guía al equipo: es la ___.", "respuesta": "DIRECCIÓN" },
+        { "texto": "Al final se comprueba si los resultados son los programados: es el ___.", "respuesta": "CONTROL" }
+      ]
+    },
+    {
+      "id": "p12",
       "tipo": "clasificar",
       "enunciado": "¿Es una relación de estructura formal o informal? Marca con una X.",
       "categorias": ["Formal", "Informal"],
@@ -91,39 +188,6 @@
         { "texto": "Presentar un informe sobre un producto nuevo.", "respuesta": "Formal" },
         { "texto": "Formar un grupo para salir a correr después del trabajo.", "respuesta": "Informal" }
       ]
-    },
-    {
-      "id": "p8",
-      "tipo": "seleccion",
-      "enunciado": "¿Qué es la planificación en la empresa?",
-      "opciones": {
-        "a": "Fijar los objetivos, las estrategias y los planes para alcanzarlos.",
-        "b": "Comprobar al final si todo salió bien.",
-        "c": "Dar órdenes al personal."
-      },
-      "respuesta": "a"
-    },
-    {
-      "id": "p9",
-      "tipo": "seleccion",
-      "enunciado": "¿Qué función consiste en comprobar si los resultados son iguales a los programados?",
-      "opciones": {
-        "a": "Control.",
-        "b": "Dirección.",
-        "c": "Coordinación."
-      },
-      "respuesta": "a"
-    },
-    {
-      "id": "p10",
-      "tipo": "seleccion",
-      "enunciado": "¿Qué función guía, orienta e imparte instrucciones al personal?",
-      "opciones": {
-        "a": "Organización.",
-        "b": "Dirección.",
-        "c": "Planificación."
-      },
-      "respuesta": "b"
     }
   ]
 }

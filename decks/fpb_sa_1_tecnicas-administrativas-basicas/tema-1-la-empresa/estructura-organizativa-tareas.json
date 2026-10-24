@@ -68,18 +68,6 @@
       }
     },
     {
-      "question": "El plano oficial muestra los departamentos y quién manda. Pero en la práctica hay relaciones que no salen en ese plano. <mark>Es como un plano que no muestra dónde se sienta cada uno</mark>. ¿Cómo se llama la estructura real de la empresa?",
-      "answer": "<mark>Estructura informal</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/estructura-informal.jpg",
-        "title": "Módulo básico organizaciones -NOV2011",
-        "source": "https://commons.wikimedia.org/wiki/File:MODULO_BASICO_ORGANIZACIONES_-NOV2011.pdf",
-        "alt": "(imagen)",
-        "autor": "HUGOBERTO SÁNCHEZ SANCHEZ",
-        "licencia": "FAL"
-      }
-    },
-    {
       "question": "Antes de trabajar, se decide qué se quiere lograr. <mark>Es como antes de un viaje: pensar a dónde vas</mark>. ¿Cómo se llama esta primera tarea administrativa?",
       "answer": "<mark>Planificación</mark>",
       "image": {
@@ -137,6 +125,18 @@
         "alt": "(imagen)",
         "autor": "Velasquez333",
         "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Un pequeño error, como un documento mal archivado, puede causar retrasos importantes. <mark>Es como una rueda: si una pieza falla, todo se para</mark>. ¿Qué es clave en las tareas administrativas?",
+      "answer": "<mark>La organización</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/importancia-organizacion.jpg",
+        "title": "Prontuario de los presupuestos de ingresos y gastos del año de 1853",
+        "source": "https://commons.wikimedia.org/wiki/File:Por_el_Ministerio_de_Hacienda_se_ha_comunicado,_con_fecha_18_del_actual,_%C3%A1_esta_Direcci%C3%B3n_General_la_Real_orden_siguiente_(IA_A11411601).pdf",
+        "alt": "Página de un libro de cuentas antiguo con anotaciones.",
+        "autor": "España. Dirección General de Contabilidad de la Hacienda Pública",
+        "licencia": "Public domain"
       }
     }
   ]

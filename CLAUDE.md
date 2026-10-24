@@ -531,10 +531,14 @@ not AI-bulk-built.
    deck extending it) covers — don't drift into
    adjacent-but-unlisted topics just because they "read well."
    Full reasoning: `doc/en/SPEC.md` §1.3.
-8b. **Autoevaluación al final de cada tema.** Un tema (`topicGroup`) con
-   barajas lleva su `autoevaluacion.json` en la misma carpeta, con 8-12
-   preguntas del temario de ese tema. Formato y reglas: `doc/es/tecnico.md`
-   §4.3; diseño: `doc/es/spec.md` §1.4. `scripts/check.js` §13 lo exige.
+8b. **Autoevaluación al final de un tema — opt-in.** Solo se crea para los
+   temas cuyo material está subido y verificado. El tema se marca con
+   `"selfTest": true` en sus entradas de `decks/manifest.json` y lleva su
+   `autoevaluacion.json` en la misma carpeta, con 8-12 preguntas del temario
+   de ese tema. Formato y reglas: `doc/es/tecnico.md` §4.3; diseño:
+   `doc/es/spec.md` §1.4. `scripts/check.js` §13 valida los tests declarados
+   y avisa de los ficheros sueltos. No inventes autoevaluaciones de temas
+   cuyo material no esté subido.
 9. **Per-card image — always a thumbnail, on every card by
    default.** Every card in a deck should carry one `imagen` field
    with a photo/illustration as visual support (schema:

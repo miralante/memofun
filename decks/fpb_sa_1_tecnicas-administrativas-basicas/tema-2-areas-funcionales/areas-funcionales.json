@@ -1,0 +1,139 @@
+{
+  "topic": "Áreas funcionales",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Una empresa reparte su trabajo en un puñado de zonas: una fabrica, otra vende, otra lleva el dinero. <mark>Es como un supermercado: una zona trae productos, otra atiende al cliente y otra lleva las cuentas</mark>. Cada zona reúne actividades, funciones y responsabilidades, y las hace uno o varios departamentos. ¿Cómo se llama cada una de esas zonas en las que se divide el trabajo de la empresa?",
+      "answer": "<mark>Área funcional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/area-funcional.jpg",
+        "title": "Contribución al mejoramiento de la gestión del mantenimiento (SIDOR)",
+        "source": "https://commons.wikimedia.org/wiki/File:Contribuci%C3%B3n_al_mejoramiento_de_la_gesti%C3%B3n_del_mantenimiento_de_los_equipos_cr%C3%ADticos_de_la_Planta_de_Pella_en_la_empresa_SIDOR.pdf",
+        "alt": "Página de un informe técnico sobre el mantenimiento de una planta industrial.",
+        "autor": "Alfredo Davis",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "question": "Esta zona transforma las materias primas en productos terminados. Para hacerlo usa una determinada tecnología. <mark>Es como una panadería: el trigo se convierte en pan</mark>. ¿Qué área funcional transforma las materias primas en productos terminados?",
+      "answer": "<mark>Área de producción</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/produccion.jpg",
+        "title": "002 Production line - car assembly line in General Motors Manufacturing Poland - Gliwice, Poland.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice,_Poland.jpg",
+        "alt": "Una línea de montaje de coches con coches y operarios trabajando.",
+        "autor": "Marek Ślusarczyk (Tupungato)",
+        "licencia": "CC BY 3.0"
+      }
+    },
+    {
+      "question": "Esta zona distribuye y vende bienes y servicios. Lo hace en el momento y en el lugar adecuados, para llegar a los posibles clientes. <mark>Es como el del mostrador: te enseña el producto y te lo lleva</mark>. ¿Qué área funcional distribuye y vende los bienes y servicios de la empresa?",
+      "answer": "<mark>Área comercial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/comercial.jpg",
+        "title": "Wal-Mart checkout.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wal-Mart_checkout.jpg",
+        "alt": "Una cajera atiende a un cliente en la caja de un supermercado.",
+        "autor": "Ben Schumin",
+        "licencia": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "question": "Esta zona administra el dinero que tiene la empresa. Controla los gastos y los pagos. También elige los proyectos de inversión más adecuados. <mark>Es como quien lleva las cuentas de casa: paga, cobra y decide en qué gastar</mark>. ¿Qué área funcional administra el dinero de la empresa?",
+      "answer": "<mark>Área de finanzas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/finanzas.jpg",
+        "title": "National 1944 The \"National\" cash register comes from the German branch of the US National Cash Register Company NCR. What is missing here is the cash drawer. Seen in a restaurant as a decoration. Switzerland, April 29, 2022. (1/2)",
+        "source": "https://commons.wikimedia.org/wiki/File:National_Cash_Register_1944_3S-1B_-Z-4540243_(2022-04-29_Kecko).jpg",
+        "alt": "Una caja registradora de metal de los años cuarenta.",
+        "autor": "Kecko from Eastern Switzerland",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Esta zona coordina las habilidades, los conocimientos y las competencias de los trabajadores. Busca que la gente rinda al máximo. <mark>Es como el entrenador que cuida que el equipo juegue bien</mark>. ¿Qué área funcional coordina las habilidades y las competencias de los trabajadores?",
+      "answer": "<mark>Área de recursos humanos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/recursos-humanos.jpg",
+        "title": "May 1960 Pay Slip",
+        "source": "https://www.flickr.com/photos/59521130@N00/6622355997",
+        "alt": "Una hoja de nómina de sueldo antigua, con las cantidades cobradas y descontadas",
+        "autor": "D H Wright",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Esta zona fija los objetivos de la empresa. También los planes de organización, de gestión y de control. <mark>Es como el capitán que decide hacia dónde va el barco y cómo va a llegar</mark>. ¿Qué área funcional establece los objetivos y los planes de la empresa?",
+      "answer": "<mark>Área de dirección</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/direccion.jpg",
+        "title": "Hans Swarowsky teaching 1972 in Ossiach",
+        "source": "https://commons.wikimedia.org/wiki/File:Swarowsky_Class.png",
+        "alt": "Un director de orquesta en el podio, señalando el ritmo con la batuta.",
+        "autor": "Aus dem Besitz von Frau Doris Swarowsky",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Todas las empresas tienen estas cinco zonas, pero no todas pesan igual. En una fábrica pesa más Producción. En una tienda pesa más Comercial. <mark>Es como las cinco secciones de un equipo: cada una tiene su función</mark>. ¿Cuáles son las cinco áreas funcionales de una empresa?",
+      "answer": "<mark>Producción, Comercial, Finanzas, Recursos Humanos y Dirección</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/area-funcional.jpg",
+        "title": "Contribución al mejoramiento de la gestión del mantenimiento (SIDOR)",
+        "source": "https://commons.wikimedia.org/wiki/File:Contribuci%C3%B3n_al_mejoramiento_de_la_gesti%C3%B3n_del_mantenimiento_de_los_equipos_cr%C3%ADticos_de_la_Planta_de_Pella_en_la_empresa_SIDOR.pdf",
+        "alt": "Página de un informe técnico sobre el mantenimiento de una planta industrial.",
+        "autor": "Alfredo Davis",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "question": "La empresa necesita dinero para ampliar el taller y pide un préstamo a un banco. <mark>Es como pedir un préstamo para comprar una bicicleta</mark>. ¿A qué área funcional pertenece esa actividad?",
+      "answer": "<mark>Finanzas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/finanzas.jpg",
+        "title": "National 1944 The \"National\" cash register comes from the German branch of the US National Cash Register Company NCR. What is missing here is the cash drawer. Seen in a restaurant as a decoration. Switzerland, April 29, 2022. (1/2)",
+        "source": "https://commons.wikimedia.org/wiki/File:National_Cash_Register_1944_3S-1B_-Z-4540243_(2022-04-29_Kecko).jpg",
+        "alt": "Una caja registradora de metal de los años cuarenta.",
+        "autor": "Kecko from Eastern Switzerland",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "La empresa prepara un cartel publicitario para que la gente conozca sus productos. <mark>Es como el cartel que un bar pone en la puerta</mark>. ¿A qué área funcional pertenece esa actividad?",
+      "answer": "<mark>Comercial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/comercial.jpg",
+        "title": "Wal-Mart checkout.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wal-Mart_checkout.jpg",
+        "alt": "Una cajera atiende a un cliente en la caja de un supermercado.",
+        "autor": "Ben Schumin",
+        "licencia": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "question": "La empresa tiene una plaza vacante. Busca a alguien y le hace una entrevista de trabajo. <mark>Es como cuando un equipo busca un jugador nuevo</mark>. ¿A qué área funcional pertenece esa actividad?",
+      "answer": "<mark>Recursos humanos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/recursos-humanos.jpg",
+        "title": "May 1960 Pay Slip",
+        "source": "https://www.flickr.com/photos/59521130@N00/6622355997",
+        "alt": "Una hoja de nómina de sueldo antigua, con las cantidades cobradas y descontadas",
+        "autor": "D H Wright",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "La empresa fabrica los artículos con los que trabaja: necesita máquinas, materiales y horas de personal. <mark>Es como la cocina que prepara los platos del menú</mark>. ¿A qué área funcional pertenece esa actividad?",
+      "answer": "<mark>Producción</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales/produccion.jpg",
+        "title": "002 Production line - car assembly line in General Motors Manufacturing Poland - Gliwice, Poland.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice,_Poland.jpg",
+        "alt": "Una línea de montaje de coches con coches y operarios trabajando.",
+        "autor": "Marek Ślusarczyk (Tupungato)",
+        "licencia": "CC BY 3.0"
+      }
+    }
+  ]
+}

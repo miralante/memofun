@@ -153,3 +153,107 @@ Indica si las siguientes actividades corresponden a la estructura formal o infor
 ---
 
 *Mapa conceptual: 1. LA EMPRESA (1.1 FUNCIONES, 1.2 ESTRUCTURA) → 2. LA ORGANIZACIÓN EMPRESARIAL → 3. LAS TAREAS ADMINISTRATIVAS*
+
+---
+
+## AUTOevaluACIÓN DEL CENTRO (cuaderno del alumno)
+
+Fuente: fotos del cuaderno de autoevaluación del Colegio Areteia
+(`D:/img_memofun/tecnicas_administrativas/tema1/autoevaluacion_pag1..5.jpeg`).
+Es la fuente de `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/autoevaluacion.json`,
+con las respuestas corregidas: en la copia del alumno los ejercicios 7-10
+están en blanco y hay algunas respuestas con duda.
+
+### Ejercicio 1. Completa la definición de empresa
+La **EMPRESA** es una combinación de elementos **MATERIALES** y **HUMANOS**
+que, debidamente organizados, producen **BIENES** y **SERVICIOS** para
+satisfacer las necesidades **HUMANAS** y así poder obtener **BENEFICIOS**.
+
+### Ejercicio 2. Las empresas se pueden clasificar por
+- **TAMAÑO:** grandes, medianas, pequeñas y microempresas
+- **SECTOR DE ACTIVIDAD:** primario, secundario y terciario
+- **UBICACIÓN O ÁMBITO GEOGRÁFICO:** locales, nacionales e internacionales
+- **CAPITAL:** públicas y privadas
+- **FORMAS JURÍDICAS:** empresario individual y colectiva o sociedad
+
+### Ejercicio 3. Completa la clasificación de las empresas
+- **Según su tamaño:** grande (más de 250 trabajadores), mediana (entre 50 y
+  249), pequeña (menos de 50) y microempresa (menos de 10)
+- **Según la propiedad del capital:** privada (todo el capital es aportado por
+  personas o empresas privadas) y pública (todo o parte del capital es
+  propiedad del Estado)
+- **Según su forma jurídica:** empresario individual (una persona aporta el
+  capital, dirige la empresa y asume el riesgo) y empresario colectivo
+  (varias personas aportan el capital para ganar dinero y arriesgan el dinero
+  aportado)
+- **Según el ámbito geográfico:** local (una localidad, provincia o comunidad
+  autónoma), nacional (todo el territorio nacional) e internacional (más de
+  una nación)
+
+### Ejercicio 4. Completa las frases
+a. Una empresa que trabaja en varios países es **internacional**.
+b. Una empresa que vende en toda España es **nacional**.
+c. Una empresa que trabaja en un barrio o un pueblo es **local**.
+d. Las empresas del sector **primario** obtienen productos de la naturaleza.
+e. Las empresas del sector **secundario** transforman materias primas.
+f. Las empresas del sector **terciario** prestan servicios.
+g. Una empresa propiedad del Estado es una empresa **pública**.
+h. Una empresa propiedad de personas particulares es una empresa **privada**.
+i. Empresas del sector **primario**: agrícolas, ganaderas, pesqueras, extractivas
+   y forestales.
+
+### Ejercicio 5. Clasifica según el sector de actividad
+| Empresa | Sector |
+| :--- | :--- |
+| Industria textil | secundario |
+| Restaurante mexicano | terciario |
+| Academia de idiomas | terciario |
+| Mina de plata | primario |
+| Tienda de muebles | terciario |
+| Hospital privado | terciario |
+| Explotación agraria | primario |
+| Apicultura | primario |
+| Agricultor | primario |
+| Profesor | terciario |
+| Pescador | primario |
+| Operario de fábrica | secundario |
+| Dependienta | terciario |
+| Albañil | secundario |
+
+### Ejercicio 6. Rodea la respuesta correcta (sector)
+Fábrica de muebles: **secundario**. Hospital: **terciario**. Granja: **primario**.
+Tienda de ropa: **terciario**.
+
+### Ejercicio 7. Clasifica según su tamaño
+Peluquería con 5 trabajadores: **microempresa**. Colegio con 80 trabajadores:
+**mediana**. Mercadona con más de 250 trabajadores: **grande**. Tienda de
+barrio con 8 trabajadores: **microempresa**. Telefónica: **grande**.
+
+### Ejercicio 8. Clasifica según dónde desarrolla su actividad
+Burger King: **internacional**. Panadería de tu barrio: **local**. Correos:
+**nacional**. IKEA: **internacional**. Peluquería de tu pueblo: **local**.
+Renfe: **nacional**.
+
+### Ejercicio 9. Clasifica las empresas (pública o privada)
+Mercadona: **privada**. RENFE: **pública**. Amazon: **privada**. RTVE:
+**pública**. Zara: **privada**. Canal de Isabel II: **pública**. Burger King:
+**privada**. Loterías y Apuestas del Estado: **pública**.
+
+### Ejercicio 10. Verdadero o falso
+1. Una empresa internacional trabaja en varios países. **V**
+2. Un supermercado pertenece al sector terciario. **V**
+3. RENFE es una empresa privada. **F**
+4. Una fábrica pertenece al sector secundario. **V**
+5. Una peluquería de barrio es una empresa local. **V**
+6. Amazon es una empresa pública. **F**
+
+### RECUERDA (recuadro del cuaderno)
+- Primario → obtiene recursos de la naturaleza.
+- Secundario → transforma materias primas.
+- Terciario → presta servicios o vende productos.
+- Local → barrio, pueblo o ciudad. Nacional → toda España. Internacional → varios países.
+- Pública → el capital pertenece al Estado. Privada → el capital pertenece a los particulares.
+- Microempresa: menos de 10 trabajadores. Pequeña → pocos trabajadores.
+  Mediana → número intermedio. Grande → muchos trabajadores.
+- Empresario individual → aporta capital, dirige y asume el riesgo.
+  Empresario colectivo → aporta capital y el riesgo que asume es el capital aportado.

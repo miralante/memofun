@@ -369,10 +369,11 @@ Reglas:
   texto plano.
 - La pantalla que lo muestra es `tools/autoevaluacion/` (lee el JSON de
   la carpeta del tema). Aparece como una tarjeta más al final de las
-  barajas del tema en la pantalla de temas (`app.js`, `selfTestCardHtml`).
+  barajas del tema en la pantalla de temas (`app.js`, `selfTestCardHtml`),
+  **solo si ese tema declara `"selfTest": true`** en `decks/manifest.json`.
   No guarda resultados: comprobar es solo para ver qué repasar.
-- `scripts/check.js` §13 valida la forma y que cada tema con barajas
-  tenga su fichero.
+- `scripts/check.js` §13 valida la forma de cada test declarado y que
+  ningún `autoevaluacion.json` quede sin un tema que lo reclame.
 
 ## 5. Reglas de accesibilidad
 

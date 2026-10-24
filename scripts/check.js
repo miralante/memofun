@@ -704,9 +704,13 @@ var inlineScriptHits = [];
 inlineScriptHits.forEach(function (hit) { failures.push(hit); });
 
 /* --- 13. Self-assessment per topic (spec.md §1.4, technical.md §4.3) ---
-   Every topicGroup in decks/manifest.json owns an autoevaluacion.json in
-   the folder of its decks. The file is a test, not a deck, so it is
-   deliberately NOT in the manifest and checked here instead. */
+   The self-test is opt-in: only the topics whose deck entries declare
+   "selfTest": true in decks/manifest.json own an autoevaluacion.json, in
+   the folder of their decks. A topic without the flag has no test and no
+   card (app.js only draws the card when the flag is there). The file is a
+   test, not a deck, so it is deliberately NOT in the manifest and checked
+   here instead; every autoevaluacion.json on disk must belong to a topic
+   that declares it, so no orphan test survives. */
 (function checkSelfAssessments() {
   var manifestPath = path.join(ROOT, 'decks', 'manifest.json');
   var entries;
@@ -719,6 +723,7 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
 
   var TYPES = ['seleccion', 'vf', 'completar', 'unir', 'clasificar'];
   var folderOf = {}; // topicGroup -> folder under decks/, from the first deck
+  var selfTestOf = {}; // topicGroup -> true when the topic declares a test
 
   entries.forEach(function (entry) {
     if (typeof entry.topicGroup !== 'string' || !entry.topicGroup.trim()) return;
@@ -726,18 +731,20 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
     if (folderOf[entry.topicGroup] === undefined) {
       folderOf[entry.topicGroup] = path.posix.dirname(entry.file.split(path.sep).join('/'));
     }
+    if (entry.selfTest === true) selfTestOf[entry.topicGroup] = true;
   });
 
   function isText(v) { return typeof v === 'string' && v.trim() !== ''; }
   function isHtml(v) { return typeof v === 'string' && /<\/?[a-z]/i.test(v); }
 
   Object.keys(folderOf).forEach(function (group) {
+    if (!selfTestOf[group]) return; // opt-in: no test expected for this topic
     var folder = folderOf[group];
     var label = 'decks/' + folder + '/autoevaluacion.json';
     var file = path.join(ROOT, 'decks', folder, 'autoevaluacion.json');
 
     if (!fs.existsSync(file)) {
-      failures.push(label + ': missing — topic "' + group + '" has decks but no self-assessment (spec.md §1.4)');
+      failures.push(label + ': missing — topic "' + group + '" declares "selfTest": true but has no self-assessment (spec.md §1.4)');
       return;
     }
     checks += 1;
@@ -839,6 +846,29 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
       failures.push(label + ': mix at least two question types (technical.md §4.3)');
     }
   });
+
+  /* No orphan tests: an autoevaluacion.json on disk that no topic declares
+     would never be reachable from the home screen (no card) or would show
+     up under a topic that does not own it. */
+  var groupOfFolder = {};
+  Object.keys(folderOf).forEach(function (group) {
+    if (groupOfFolder[folderOf[group]] === undefined) groupOfFolder[folderOf[group]] = group;
+  });
+
+  (function walkDecks(dir) {
+    fs.readdirSync(dir, { withFileTypes: true }).forEach(function (entry) {
+      var full = path.join(dir, entry.name);
+      if (entry.isDirectory()) return walkDecks(full);
+      if (!entry.isFile() || entry.name !== 'autoevaluacion.json') return;
+      var folder = path.relative(path.join(ROOT, 'decks'), full).split(path.sep).join('/');
+      var dirName = path.posix.dirname(folder);
+      var group = groupOfFolder[dirName];
+      if (!group || !selfTestOf[group]) {
+        failures.push('decks/' + folder +
+          ': orphan self-assessment — its topic does not declare "selfTest": true in decks/manifest.json');
+      }
+    });
+  })(path.join(ROOT, 'decks'));
 })();
 
 /* --- Result --- */

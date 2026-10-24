@@ -30,7 +30,7 @@ const MIME = {
 const server = http.createServer(function (req, res) {
   let p = decodeURIComponent(req.url.split('?')[0]);
   if (p === '/') p = '/index.html';
-  const fp = path.normalize(path.join(ROOT, p));
+  let fp = path.normalize(path.join(ROOT, p));
   if (!fp.startsWith(ROOT)) { res.writeHead(403); res.end('Forbidden'); return; }
   fs.stat(fp, function (err, st) {
     if (err) {

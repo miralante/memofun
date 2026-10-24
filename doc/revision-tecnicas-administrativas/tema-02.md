@@ -25,7 +25,17 @@ Incluye todos los procesos que se realizan desde la transformación de las mater
 
 Agrupa el conjunto de actividades que distribuyen y venden bienes y servicios en el momento y lugar adecuados, para satisfacer las necesidades de los posibles clientes.
 
-*(Continuación de contenidos de otras áreas funcionales)*
+### c. Área de Finanzas
+
+La función financiera sirve para administrar el dinero que tiene la empresa. Controlando los gastos y pagos y se eligen los proyectos de inversión que sean más adecuados para la empresa.
+
+### d. Área de Recursos Humanos
+
+En esta área se realizan las actividades correspondientes para coordinar las habilidades, conocimientos y competencias de los trabajadores de una empresa, con el fin de lograr su máximo rendimiento.
+
+### e. Área de Dirección
+
+En esta área se establecen los objetivos de la empresa, planes de organización, gestión y control.
 
 ---
 
@@ -115,8 +125,8 @@ b) ¿De quién depende el Departamento de Ventas? ¿Y el de Compras? → Depende
 c) ¿Qué departamentos tienen la misma línea jerárquica que Almacén? → Compras y Ventas
 d) ¿Qué departamentos tiene subordinados la Subdirección Financiera? → Financiación y Contabilidad
 e) ¿Depende indirectamente el Departamento de Formación de la dirección general? → Sí
-f) ¿Depende alguien del Departamento de Selección y Contratación? → No (es subunit akhir)
-g) ¿Qué subdirección tiene más autoridad y responsabilidad? → Dirección general
+f) ¿Depende alguien del Departamento de Selección y Contratación? → No (es el nivel más bajo)
+g) ¿Qué subdirección tiene más autoridad y responsabilidad? → La Subdirección Comercial, porque tiene tres departamentos subordinados (Almacén, Compras y Ventas)
 h) ¿Es cierto que Contabilidad tiene menos responsabilidad que la Subdirección Financiera y esta menos que la Dirección general? → Sí
 
 ### Ejercicio 7
@@ -137,3 +147,20 @@ e) Seguridad e higiene en el trabajo → Recursos Humanos
 f) Archivo → Administración
 g) Inventarios de existencias → Almacén
 h) Facturas de ventas → Contable
+
+---
+
+## Cobertura en la app
+
+| Sección del temario | Artefacto | Cobertura |
+| :--- | :--- | :--- |
+| 1. Áreas funcionales (concepto + Producción, Comercial, Finanzas, RRHH, Dirección) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales.json` | tarjetas 1-11 |
+| 2. Departamentos (concepto y lista) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json` | tarjetas 1-9 |
+| 3. Organigramas (concepto, jerarquía, lectura) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json` | tarjetas 10-13 |
+| Ejercicios 1 y de repaso (4, 6, 8) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/autoevaluacion.json` | 11 preguntas (5 tipos) |
+
+**Total tema 2:** 2 barajas (24 tarjetas) + 1 autoevaluación (11 preguntas).
+
+Departamentos del esquema de la pág. 20 que aún no tienen tarjeta propia:
+Jurídico Legal, Técnico y Servicio Médico (se cubren de forma transversal en
+el esquema de la página y en las preguntas de clasificar de la autoevaluación).

@@ -78,8 +78,12 @@ Cada tema de una asignatura dividida en temas (el `topicGroup` de
 para que la persona usuaria compruebe, sin presión y sin nota, si ha
 retenido lo esencial del tema antes de pasar al siguiente.
 
-- **Obligatoria**: ningún tema con barajas se considera completo sin su
-  autoevaluación. `scripts/check.js` falla si falta.
+- **Opt-in por tema**: la autoevaluación se crea solo para los temas cuyo
+  material está subido y verificado. El tema se marca con `"selfTest": true`
+  en sus entradas de `decks/manifest.json`; sin esa marca no hay test ni
+  tarjeta en la pantalla de temas. `scripts/check.js` §13 valida la forma de
+  cada test declarado y avisa de los ficheros sueltos que ningún tema
+  reclama.
 - **Del mismo temario**: las preguntas salen solo del contenido de ese
   tema (la fuente fotografiada o su `doc/revision-*/`), nunca de temas
   vecinos (§1.3).

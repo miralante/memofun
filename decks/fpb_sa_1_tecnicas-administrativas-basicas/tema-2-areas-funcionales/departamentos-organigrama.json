@@ -1,0 +1,163 @@
+{
+  "topic": "Departamentos y organigrama",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Cada división de la empresa se encarga de una actividad concreta. <mark>Es como repartir los papeles de una representación: cada uno lleva su parte</mark>. Compras, ventas y almacén son algunos de ellos. ¿Cómo se llaman esas divisiones de la empresa?",
+      "answer": "<mark>Departamentos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamentos.jpg",
+        "title": "Slides from presentation by vmkern at XIV Oficina Wikimedia e Educação",
+        "source": "https://commons.wikimedia.org/wiki/File:A_qualidade_da_Wikip%C3%A9dia,_seu_parentesco_com_a_comunica%C3%A7%C3%A3o_cient%C3%ADfica_e_novas_oportunidades_de_aplica%C3%A7%C3%A3o_e_pesquisa_no_ensino_(XIV_Oficina_Wikimedia_%26_Educa%C3%A7%C3%A3o).pdf",
+        "alt": "Espacio de oficina dividido en distintos puestos de trabajo.",
+        "autor": "Vmkern",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Este departamento se encarga de conseguir los materiales que la empresa necesita. <mark>Es como ir a comprar lo que falta en casa</mark>. Negocia precios y fechas con los proveedores. ¿Qué departamento hace esto?",
+      "answer": "<mark>El departamento de compras</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-compras.jpg",
+        "title": "Audit interne des comptes débiteurs de l'industrie des boissons gazeuses",
+        "source": "https://commons.wikimedia.org/wiki/File:Auditor%C3%ADa_Interna_de_Cuentas_por_Cobrar_Industria_de_Bebidas_Carbonatadas.pdf",
+        "alt": "Documento administrativo de una auditoría de cuentas.",
+        "autor": "JuanFrancoG",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Este departamento se encarga de contratar, gestionar y cuidar al personal. <mark>Es como quienes cuidan de las personas que hacen funcionar la empresa</mark>. También gestiona las nóminas y la formación. ¿Qué departamento hace esto?",
+      "answer": "<mark>Recursos humanos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-rrhh.jpg",
+        "title": "El sistema de trabajo en la oficina local de extensión agrícola",
+        "source": "https://commons.wikimedia.org/wiki/File:El_sistema_de_trabajo_en_la_oficina_local_de_extension_agricola_(IA_CAT31100865).pdf",
+        "alt": "Página de un informe de trabajo en una oficina.",
+        "autor": "Knaus, Karl (US Agency for International Development)",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Este departamento se encarga de fabricar y preparar los productos de la empresa. <mark>Es como la cocina que prepara los platos del menú</mark>. ¿Qué departamento fabrica los productos de la empresa?",
+      "answer": "<mark>El departamento de producción</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-produccion.jpg",
+        "title": "002 Production line - car assembly line in General Motors Manufacturing Poland - Gliwice, Poland.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice,_Poland.jpg",
+        "alt": "Una línea de montaje de coches con coches y operarios trabajando.",
+        "autor": "Marek Ślusarczyk (Tupungato)",
+        "licencia": "CC BY 3.0"
+      }
+    },
+    {
+      "question": "Este departamento se encarga de vender los productos y los servicios de la empresa. <mark>Es como el que atiende al cliente en la tienda y cierra la venta</mark>. ¿Qué departamento se encarga de vender los productos y servicios?",
+      "answer": "<mark>El departamento de ventas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-ventas.jpg",
+        "title": "Waiter at work",
+        "source": "https://www.flickr.com/photos/40642065@N06/9727113021",
+        "alt": "Un camarero trabajando en un restaurante, atendiendo a los clientes",
+        "autor": "Johnragai-Moment Catcher",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Aquí se guardan las materias primas y los productos ya terminados. También se controla lo que hay y lo que falta. <mark>Es como el trastero de casa: guardas las cosas y sabes cuáles tienes</mark>. ¿Qué departamento guarda y controla las existencias de la empresa?",
+      "answer": "<mark>El departamento de almacén</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-almacen.jpg",
+        "title": "Automatisches Kleinteilelager Kühllager.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Automatisches_Kleinteilelager_K%C3%BChllager.jpg",
+        "alt": "Interior de un almacén con estanterías y cajas ordenadas.",
+        "autor": "Gilgen Logistics AG",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Este departamento lleva el dinero de la empresa. Controla los ingresos, los gastos y los pagos. <mark>Es como el que lleva la cartera y paga las facturas del mes</mark>. ¿Qué departamento administra el dinero de la empresa?",
+      "answer": "<mark>El departamento financiero</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-financiero.jpg",
+        "title": "¡¡Maldito dinero!!",
+        "source": "https://commons.wikimedia.org/wiki/File:%C2%A1%C2%A1Maldito_dinero!!_(1857).pdf",
+        "alt": "Ilustración de billetes y monedas.",
+        "autor": "Frédéric Bastiat",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Este departamento lleva la contabilidad de la empresa. Anota cada factura y cada ingreso. <mark>Es como el que apunta cada gasto en una libreta para saber cuánto se ha gastado</mark>. ¿Qué departamento lleva la contabilidad y las facturas de la empresa?",
+      "answer": "<mark>El departamento contable</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-contable.jpg",
+        "title": "Boekhouding2005.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Boekhouding2005.jpg",
+        "alt": "Libro de cuentas de una empresa abierto sobre una mesa de trabajo.",
+        "autor": "Someone Not Awful",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Este departamento se ocupa del archivo y de la correspondencia de la empresa. <mark>Es como el que guarda y ordena las cartas de la oficina</mark>. ¿Qué departamento se ocupa del archivo y de la correspondencia?",
+      "answer": "<mark>El departamento de administración</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/departamento-administracion.jpg",
+        "title": "Filing Cabinet",
+        "source": "https://www.flickr.com/photos/68751915@N05/7249752654",
+        "alt": "Un archivador de oficina con cajones llenos de carpetas ordenadas",
+        "autor": "401(K) 2013",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "question": "Un dibujo muestra la estructura de la empresa. Los departamentos aparecen como cajas unidas por líneas. <mark>Es como el plano de un edificio: te dice qué hay en cada planta</mark>. ¿Cómo se llama este dibujo que muestra los departamentos de la empresa en forma de esquema?",
+      "answer": "<mark>El organigrama</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/organigrama-def.jpg",
+        "title": "Estrategias de mercadeo para empresas costarricenses, desarrolladoras de condominios",
+        "source": "https://commons.wikimedia.org/wiki/File:Estrategias_de_mercadeo_para_empresas_costarricenses,_desarrolladoras_de_condominios.pdf",
+        "alt": "Diagrama con cajas y flechas que muestra una estructura organizativa.",
+        "autor": "Jdchava",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "question": "En el organigrama, cada caja está unida a otra. La de arriba manda y las de abajo dependen de ella. <mark>Es como un árbol: las ramas cuelgan del tronco</mark>. ¿Qué muestran las líneas que unen las cajas de un organigrama?",
+      "answer": "<mark>La jerarquía: quién depende de quién</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/organigrama-jerarquia.jpg",
+        "title": "United States Rubber Company organization chart, 1902",
+        "source": "https://commons.wikimedia.org/wiki/File:United_States_Rubber_Company_organization_chart,_1902.jpg",
+        "alt": "Organigrama de 1902 con el director general arriba y las secciones debajo.",
+        "autor": "United States Rubber Company",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "En el organigrama hay una casilla en lo más alto. De ella cuelgan todas las demás. <mark>Es como el jefe de una empresa: todos los departamentos le responden</mark>. ¿Qué casilla está por encima de todos los departamentos?",
+      "answer": "<mark>La dirección general</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/organigrama-general.jpg",
+        "title": "Organizational chart",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=2577680",
+        "alt": "Diagrama de un organigrama con la dirección general arriba y las áreas debajo.",
+        "autor": "TotoBaggins at English Wikipedia",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "question": "Si no sabes a quién preguntarle algo, miras el organigrama y buscas el departamento. <mark>Es como un mapa que te indica a qué puerta llamar</mark>. Evita perder tiempo preguntando a la persona equivocada. ¿Qué documento conviene consultar?",
+      "answer": "<mark>El organigrama</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama/consultar-organigrama.jpg",
+        "title": "An analysis of bandwidth requirements for collaborative planning",
+        "source": "https://commons.wikimedia.org/wiki/File:An_analysis_of_bandwidth_requirements_for_collaborative_planning_(IA_analysisofbandwi00dunc).pdf",
+        "alt": "Diagrama con líneas que conecta distintas partes de un plan.",
+        "autor": "Duncan, Michele A.",
+        "licencia": "Public domain"
+      }
+    }
+  ]
+}

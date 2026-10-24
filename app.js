@@ -665,7 +665,7 @@
       ' <span class="section-heading-meta">' + App.utils.escapeHtml(subject) + '</span>' +
       '</h2></div>';
     var cards = filtered.map(function (d, i) { return deckCardHtml(d, i, progress); });
-    if (filtered[0].file && filtered[0].file.indexOf('/') !== -1) {
+    if (filtered[0].file && filtered[0].file.indexOf('/') !== -1 && hasSelfTest(filtered)) {
       cards.push(selfTestCardHtml(filtered[0], filtered.length));
     }
     html += '<div class="deck-grid" role="list">' + cards.join('') + '</div>';
@@ -674,7 +674,15 @@
 
   /** The self-assessment that closes a topic (spec.md §1.4): one card after
       the topic's decks, pointing at the test screen for the topic's folder
-      (decks/<folder>/autoevaluacion.json, technical.md §4.3). */
+      (decks/<folder>/autoevaluacion.json, technical.md §4.3).
+
+      The self-test is opt-in: a topic only offers it when one of its deck
+      entries declares "selfTest": true in decks/manifest.json. Without that
+      flag there is no autoevaluacion.json for the topic and no card. */
+  function hasSelfTest(decks) {
+    return decks.some(function (d) { return d.selfTest === true; });
+  }
+
   function selfTestCardHtml(deck, i) {
     var folder = deck.file.slice(0, deck.file.lastIndexOf('/'));
     var back = studyBackFrom(buildUrl(deck.course, deck.subject, deck.topicGroup));
