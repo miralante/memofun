@@ -43,7 +43,7 @@
     {
       "id": "p3",
       "tipo": "clasificar",
-      "enunciado": "¿A qué sector de actividad pertenece cada empresa? Marca con una X.",
+      "enunciado": "¿A qué sector de actividad pertenece cada empresa? Marca el sector: primario, secundario o terciario.",
       "categorias": ["Sector primario", "Sector secundario", "Sector terciario"],
       "elementos": [
         { "texto": "Una mina de plata.", "respuesta": "Sector primario" },
@@ -61,7 +61,7 @@
     {
       "id": "p4",
       "tipo": "clasificar",
-      "enunciado": "¿De qué tamaño es cada empresa? Marca con una X.",
+      "enunciado": "¿De qué tamaño es cada empresa? Marca el tamaño: microempresa, pequeña, mediana o grande.",
       "categorias": ["Microempresa", "Pequeña", "Mediana", "Grande"],
       "elementos": [
         { "texto": "Una peluquería con 5 trabajadores.", "respuesta": "Microempresa" },
@@ -90,7 +90,7 @@
     {
       "id": "p6",
       "tipo": "clasificar",
-      "enunciado": "¿La empresa es pública o privada? Marca con una X.",
+      "enunciado": "¿La empresa es pública o privada? Marca pública o privada.",
       "categorias": ["Pública", "Privada"],
       "elementos": [
         { "texto": "RENFE.", "respuesta": "Pública" },
@@ -180,7 +180,7 @@
     {
       "id": "p12",
       "tipo": "clasificar",
-      "enunciado": "¿Es una relación de estructura formal o informal? Marca con una X.",
+      "enunciado": "¿Es una relación de estructura formal o informal? Marca formal o informal.",
       "categorias": ["Formal", "Informal"],
       "elementos": [
         { "texto": "Preguntar a un compañero sobre un contrato de trabajo.", "respuesta": "Formal" },

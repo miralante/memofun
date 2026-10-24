@@ -2,10 +2,14 @@
    (technical.md §4.3) and renders its questions: single choice (seleccion),
    true/false (vf), fill the gap (completar), matching (unir) and classifying
    (clasificar). "Comprobar" marks every question with text and a symbol, not
-   colour alone, and shows the right answers. Nothing is saved and no result
-   blocks anything: there is no grade and no penalty (spec.md §1.4, §2.2).
-   Only the answers the person gives on this screen are read; no network
-   call besides the one JSON file. */
+   colour alone, and shows the right answers. When an answer is wrong, the
+   option the person chose AND the right one are coloured inside the question
+   itself, so both can be compared in place without reading the feedback
+   line. "Corregir solo los errores" hides the answer of the questions it
+   reopens, so they are done again instead of copied. Nothing is saved and
+   no result blocks anything: there is no grade and no penalty (spec.md §1.4,
+   §2.2). Only the answers the person gives on this screen are read; no
+   network call besides the one JSON file. */
 (function () {
   'use strict';
 
@@ -184,9 +188,96 @@
     formEl.querySelectorAll('input, select').forEach(function (el) { el.disabled = locked; });
   }
 
+  /* ----- in-place marking -----
+     After "Comprobar", a wrong answer is marked inside the question: the
+     option the person chose AND the right one, both coloured, so the two
+     can be compared without reading the feedback line under the question.
+     The ✘/✔ symbols carry the meaning too, so colour is never the only
+     channel (see styles.css). */
+
+  function groupRadios(name) {
+    return Array.prototype.slice.call(formEl.querySelectorAll('input[name="' + name + '"]'));
+  }
+
+  function markChoice(input, kind) {
+    var label = input.closest('label');
+    if (!label) return;
+    var right = kind === 'right';
+    label.classList.add(right ? 'is-right-choice' : 'is-wrong-choice');
+    var mark = document.createElement('span');
+    mark.className = 'test-mark ' + (right ? 'is-right' : 'is-wrong');
+    mark.textContent = right ? '✔' : '✘';
+    mark.setAttribute('title', App.i18n.t(right ? 'test.correct' : 'test.wrong'));
+    label.appendChild(mark);
+  }
+
+  /* The right answer written next to a field the person filled in wrong. */
+  function showAnswer(el, answer) {
+    var span = document.createElement('span');
+    span.className = 'test-answer';
+    span.textContent = App.i18n.t('test.answerIs').replace('{answer}', answer);
+    el.insertAdjacentElement('afterend', span);
+  }
+
+  function markInPlace(q, qi) {
+    if (q.tipo === 'seleccion') {
+      var chosen = formEl.querySelector('input[name="q' + qi + '"]:checked');
+      if (!chosen || chosen.value === q.respuesta) return;
+      markChoice(chosen, 'wrong');
+      groupRadios('q' + qi).forEach(function (r) {
+        if (r.value === q.respuesta) markChoice(r, 'right');
+      });
+    } else if (q.tipo === 'vf') {
+      q.afirmaciones.forEach(function (a, ai) {
+        var name = 'q' + qi + '-' + ai;
+        var c = formEl.querySelector('input[name="' + name + '"]:checked');
+        if (!c || c.value === a.respuesta) return;
+        markChoice(c, 'wrong');
+        groupRadios(name).forEach(function (r) {
+          if (r.value === a.respuesta) markChoice(r, 'right');
+        });
+      });
+    } else if (q.tipo === 'clasificar') {
+      q.elementos.forEach(function (el, ei) {
+        var name = 'q' + qi + '-' + ei;
+        var c = formEl.querySelector('input[name="' + name + '"]:checked');
+        if (!c || c.value === el.respuesta) return;
+        markChoice(c, 'wrong');
+        groupRadios(name).forEach(function (r) {
+          if (r.value === el.respuesta) markChoice(r, 'right');
+        });
+      });
+    } else if (q.tipo === 'completar') {
+      q.huecos.forEach(function (h, hi) {
+        var input = formEl.querySelector('[name="q' + qi + '-' + hi + '"]');
+        if (!input || sameWord(input.value, h.respuesta)) return;
+        input.classList.add('is-wrong-field');
+        showAnswer(input, h.respuesta);
+      });
+    } else if (q.tipo === 'unir') {
+      sortedKeys(q.izquierda).forEach(function (k) {
+        var sel = formEl.querySelector('select[name="q' + qi + '-' + k + '"]');
+        if (!sel || sel.value === String(q.respuesta[k])) return;
+        sel.classList.add('is-wrong-field');
+        showAnswer(sel, q.respuesta[k]);
+      });
+    }
+  }
+
+  /* Clears the marks of a previous check so a second check starts clean. */
+  function clearMarks() {
+    questionsEl.querySelectorAll('.is-wrong-choice, .is-right-choice, .is-wrong-field')
+      .forEach(function (el) {
+        el.classList.remove('is-wrong-choice', 'is-right-choice', 'is-wrong-field');
+      });
+    questionsEl.querySelectorAll('.test-mark, .test-answer')
+      .forEach(function (el) { el.remove(); });
+  }
+
   function checkAll() {
     var right = 0;
     wrongIdx = [];
+    clearMarks();
     test.preguntas.forEach(function (q, qi) {
       var r = checkQuestion(q, qi);
       if (r.ok) right++; else wrongIdx.push(qi);
@@ -201,6 +292,7 @@
       fb.textContent = r.ok
         ? App.i18n.t('test.correct')
         : App.i18n.t('test.wrong') + ' — ' + App.i18n.t('test.answerIs').replace('{answer}', r.expected);
+      if (!r.ok) markInPlace(q, qi);
     });
     var total = test.preguntas.length;
     var message = App.i18n.t(right === total ? 'test.summaryAll' : 'test.summaryMore');
@@ -213,14 +305,38 @@
     btnRetry.focus();
   }
 
+  /* Removes the answer from a question that is reopened for another go:
+     the green ✔ on the right option, the answer written next to a field and
+     the "Respuesta: …" of the feedback line all disappear. Only the verdict
+     on the person's own choice stays (the ✘), so they know what to redo
+     without being able to copy the solution. */
+  function hideAnswer(qi) {
+    var box = questionsEl.querySelector('.test-q[data-q="' + qi + '"]');
+    if (!box) return;
+    box.querySelectorAll('.is-right-choice').forEach(function (el) {
+      el.classList.remove('is-right-choice');
+      var mark = el.querySelector('.test-mark');
+      if (mark) mark.remove();
+    });
+    box.querySelectorAll('.test-answer').forEach(function (el) { el.remove(); });
+    var fb = box.querySelector('.test-feedback');
+    if (fb) {
+      fb.className = 'test-feedback is-wrong';
+      fb.textContent = App.i18n.t('test.wrong');
+    }
+  }
+
   /* Reopens only the questions the last check marked as wrong. The right
      ones stay locked with their feedback, so the person works on the
-     mistakes alone. Comprobar then checks the whole test again. */
+     mistakes alone. The answer of a reopened question is hidden again, so
+     it has to be done from scratch. Comprobar then checks the whole test
+     again. */
   function fixWrong() {
     setLocked(true);
     wrongIdx.forEach(function (qi) {
       var box = questionsEl.querySelector('.test-q[data-q="' + qi + '"]');
       if (box) box.querySelectorAll('input, select').forEach(function (el) { el.disabled = false; });
+      hideAnswer(qi);
     });
     resultEl.textContent = '';
     btnFixWrong.classList.add('hidden');

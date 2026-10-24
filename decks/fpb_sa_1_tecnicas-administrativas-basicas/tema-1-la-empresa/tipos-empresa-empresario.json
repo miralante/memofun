@@ -16,6 +16,54 @@
       }
     },
     {
+      "question": "Tiene más de 250 personas trabajando a la vez. Muchas oficinas, muchos departamentos y un jefe para todo. <mark>Es como un rascacielos: muchas plantas y mucha gente</mark>. ¿Cómo se llama una empresa tan grande?",
+      "answer": "<mark>Gran empresa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-grande.jpg",
+        "title": "Potsdamer Plaze, Berlin, Germany",
+        "source": "https://www.flickr.com/photos/9298216@N08/6079755308",
+        "alt": "Torres de oficinas de cristal en una gran plaza de negocios",
+        "autor": "Ben124.",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Va por la mitad: tiene entre 50 y 249 trabajadores. Un colegio con 80 personas, por ejemplo. <mark>Es como un edificio de seis pisos: ni una casita ni un rascacielos</mark>. ¿Cómo se llama este tamaño de empresa?",
+      "answer": "<mark>Empresa mediana</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-mediana.jpg",
+        "title": "Bennet School 1912",
+        "source": "https://www.flickr.com/photos/26232773@N02/4193414039",
+        "alt": "Fachada de un colegio antiguo de ladrillo con ventanas altas",
+        "autor": "Stella Blu",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Menos de 50 personas trabajando. Una tienda del barrio con 8 o 10 empleados. <mark>Es como una casa de dos pisos: todo el mundo se conoce</mark>. ¿Cómo se llama este tamaño de empresa?",
+      "answer": "<mark>Pequeña empresa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-pequena.jpg",
+        "title": "Inside a small grocery store",
+        "source": "https://www.flickr.com/photos/95329455@N02/25700455236",
+        "alt": "Interior de una tienda de alimentación pequeña con estanterías de producto",
+        "autor": "simpleinsomnia",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Menos de 10 trabajadores. Una peluquería con 5 personas, un taller con 2. <mark>Es como un kiosco en la esquina: casi solo está el dueño</mark>. ¿Cómo se llama este tamaño de empresa?",
+      "answer": "<mark>Microempresa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/microempresa.jpg",
+        "title": "Street Vendor | Pudu Wet Market | March 8th",
+        "source": "https://www.flickr.com/photos/40642065@N06/13254871653",
+        "alt": "Vendedor ambulante en un puesto de mercado con toldo y mercaderías",
+        "autor": "Johnragai-Moment Catcher",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
       "question": "Unas cultivan, otras fabrican y otras dan servicios. <mark>Es como los pisos de un edificio: campo, fábrica y oficinas</mark>. ¿Cómo se llaman estos tres sectores de actividad?",
       "answer": "<mark>Sector primario, secundario y terciario</mark>",
       "image": {
@@ -25,6 +73,42 @@
         "alt": "(imagen)",
         "autor": "Asikironalio",
         "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Saca sus productos de la naturaleza: granjas, minas, pesquerías, bosques y montes. <mark>Es como recoger aceitunas, pescar un pez o cortar un árbol</mark>. ¿Cómo se llama este sector de actividad?",
+      "answer": "<mark>Sector primario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sector-primario.jpg",
+        "title": "Wheat fields, Winchester, UK",
+        "source": "https://www.flickr.com/photos/154266841@N04/51362539661",
+        "alt": "Campos de trigo dorado recién cosechados bajo el sol",
+        "autor": "John Briody Photography",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Transforma las materias primas en otros productos. El trigo se convierte en pan, el metal en coches, la madera en muebles. <mark>Es como una fábrica: coge una cosa y fabrica otra</mark>. ¿Cómo se llama este sector?",
+      "answer": "<mark>Sector secundario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sector-secundario.jpg",
+        "title": "Seagate Wuxi China Factory Tour",
+        "source": "https://www.flickr.com/photos/35034363287@N01/3009516045",
+        "alt": "Interior de una fábrica con máquinas y operarios en la línea de producción",
+        "autor": "Robert Scoble",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Presta servicios a los demás. La peluquería, el restaurante, el banco, el colegio, el autobús. <mark>Es como un taxi: no fabrica nada, pero te lleva a donde quieres</mark>. ¿Cómo se llama este sector?",
+      "answer": "<mark>Sector terciario</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sector-terciario.jpg",
+        "title": "Krishna, professional multi-lingual waiter, The Toast Bakery, the most popular insider restaurant, Boudha, Nepal",
+        "source": "https://www.flickr.com/photos/71401718@N00/2359141803",
+        "alt": "Camarero de restaurante sirviendo a los clientes en su mesa",
+        "autor": "Wonderlane",
+        "licencia": "CC BY 2.0"
       }
     },
     {
@@ -40,6 +124,42 @@
       }
     },
     {
+      "question": "Trabaja solo en su barrio, su pueblo o su ciudad. La panadería de tu calle, el taller de tu portal. <mark>Es como una fuente del pueblo: el agua sale aquí y no llega lejos</mark>. ¿Cómo se llama este tipo de empresa?",
+      "answer": "<mark>Empresa local</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-local.jpg",
+        "title": "Peillon Street",
+        "source": "https://www.flickr.com/photos/80854685@N08/8722256382",
+        "alt": "Calle estrecha de un pueblo con casas de piedra y balcones",
+        "autor": "Mark Fischer",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "question": "Trabaja en todo el país. Correos, por ejemplo, lleva cartas a toda España. <mark>Es como un tren que recorre España entero</mark>. ¿Cómo se llama este tipo de empresa?",
+      "answer": "<mark>Empresa nacional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-nacional.jpg",
+        "title": "Bandera de España",
+        "source": "https://www.flickr.com/photos/96937621@N00/14399913416",
+        "alt": "Bandera de España ondeando al viento",
+        "autor": "Contando Estrelas",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "question": "Trabaja en varios países a la vez. Una marca de ropa que vende en Europa y América. <mark>Es como un barco que cruza el mar y llega a otras playas</mark>. ¿Cómo se llama este tipo de empresa?",
+      "answer": "<mark>Empresa internacional</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-internacional.jpg",
+        "title": "Container ship at Thamesport",
+        "source": "https://www.flickr.com/photos/8706370@N02/6614272657",
+        "alt": "Barco portacontenedores atracado en el puerto",
+        "autor": "suvodeb",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
       "question": "Hay empresas del Estado, como hospitales. Y hay empresas de personas, como una panadería. <mark>Es como un parque público frente al jardín de tu casa</mark>. ¿Cómo se llama esta clasificación?",
       "answer": "<mark>Empresas públicas y privadas</mark>",
       "image": {
@@ -49,6 +169,30 @@
         "alt": "(imagen)",
         "autor": "Márcia Regina Romeiro Chuva",
         "licencia": "CC BY 4.0"
+      }
+    },
+    {
+      "question": "El capital es del Estado. RENFE, RTVE o el Banco de España. <mark>Es como un parque público: lo paga y lo cuida la ciudad</mark>. ¿Cómo se llama este tipo de empresa?",
+      "answer": "<mark>Empresa pública</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-publica.jpg",
+        "title": "South Melbourne Town Hall",
+        "source": "https://www.flickr.com/photos/47891933@N06/4852794916",
+        "alt": "Fachada de un ayuntamiento de estilo clásico con reloj en la torre",
+        "autor": "William Bullimore",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "question": "El capital es de personas particulares. Mercadona, un taller, una pizzería. <mark>Es como el jardín de tu casa: lo cuida y lo paga su dueño</mark>. ¿Cómo se llama este tipo de empresa?",
+      "answer": "<mark>Empresa privada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-privada.jpg",
+        "title": "business owner scooping ice cream",
+        "source": "https://www.flickr.com/photos/150276478@N03/34406844646",
+        "alt": "Empresario de una pizzería preparando helado con una pala",
+        "autor": "franchiseopportunitiesphotos",
+        "licencia": "CC BY-SA 2.0"
       }
     },
     {

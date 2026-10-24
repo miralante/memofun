@@ -139,6 +139,59 @@
   display: none;
 }
 
+/* ----- in-place marking -----
+   After "Comprobar", the option the person chose and the right one are
+   coloured inside the question itself, so both are visible without reading
+   the feedback line. Same rule as the question border: the wrong one uses
+   the focus blue (never red) and the right one the success green. The ✘/✔
+   symbols carry the meaning too, so colour is never the only channel, and
+   the green tint of the right option survives the themes where the blue and
+   the green are close. */
+.test-option.is-wrong-choice,
+.test-radios label.is-wrong-choice {
+  border: 2px solid var(--color-focus);
+  background: var(--color-surface-2);
+}
+
+.test-option.is-right-choice,
+.test-radios label.is-right-choice {
+  border: 2px solid var(--color-success);
+  background: var(--color-success-soft);
+}
+
+.test-radios label.is-wrong-choice,
+.test-radios label.is-right-choice {
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.test-mark {
+  font-weight: var(--weight-strong);
+  margin-left: 0.15rem;
+}
+
+.test-mark.is-wrong {
+  color: var(--color-focus);
+}
+
+.test-mark.is-right {
+  color: var(--color-success);
+}
+
+/* Fields the person filled in wrong: the field itself is outlined and the
+   right answer is written right next to it. */
+.test-gap.is-wrong-field,
+.test-select.is-wrong-field {
+  border-color: var(--color-focus);
+  border-width: 2px;
+}
+
+.test-answer {
+  color: var(--color-success);
+  font-weight: var(--weight-strong);
+  margin-left: 0.35rem;
+}
+
 .test-result {
   font-size: 1.1rem;
   font-weight: 700;

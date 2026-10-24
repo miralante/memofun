@@ -93,9 +93,18 @@ kept the essentials of the topic before moving on.
   is marked in a colour that is **not red** (the focus blue in this
   theme) as well as with a symbol and the text "Review", so it can be
   found at a glance. Right answers show in green and are locked.
+- **Marking inside the question**: when the answer is wrong, the chosen
+  option and the right one are coloured **in the question itself** (the
+  chosen one in blue with ✘, the right one in green with ✔), so both can be
+  compared without reading the note underneath. In the field questions (fill
+  in the gap, matching pairs) the field is outlined and the right answer is
+  written next to it.
 - **Two exits after checking**: "Fix only the mistakes" reopens only the
   missed questions and keeps the right ones locked; "Try again" starts
-  the full test over. Every new self-assessment must have both.
+  the full test over. Every new self-assessment must have both. When a
+  missed question is reopened **the answer is hidden** (the green ✔ and the
+  text with the solution): only the ✘ on what the learner picked stays, so it
+  has to be done again instead of copied.
 - **Typed-text comparison**: a typed answer is compared without accents,
   without capital letters and without spaces (the "raw" string). "Físico",
   "fisico" and " F ís ico " are the same answer. Dropdown and choice

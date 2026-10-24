@@ -160,4 +160,47 @@ Indica si la comunicación es formal o informal:
 7. ¿Cuál es el origen y destino de una comunicación interna?
 8. ¿Para qué se utilizan la comunicación ascendente, descendente y horizontal?
 9. Pon ejemplos de comunicación ascendente y descendente.
-10. Redacta un aviso para comunicar a los trabajadores el inicio de la segunda parte del curso sobre formación docente.
+10. Redacta la comunicación que realizaría la empresa Areteia, para comunicar a todos sus trabajadores que la segunda parte del curso sobre formación docente va a comenzar el próximo día 15 de junio. – REALIZAR EN EL CUADERNO. A modo de ejemplo, fíjate para realizar el aviso.
+
+*Aviso modelo del libro (pág. 33):*
+- Membrete: Construcciones Mayoral y Montañá, Calle Alameda s/n, Tarragona
+- AVISO — A todos los trabajadores: la segunda parte del curso sobre prevención de riesgos laborales va a comenzar el próximo día 3 de mayo de 9:00 a 13:00 horas para el turno de tarde y de 17:00 a 21:00 horas para el turno de mañana.
+- Firma y cargo: JEFE DE RECURSOS HUMANOS. Lugar y fecha: Tarragona, 20 de abril de 20XX
+
+---
+
+## Cobertura en la app
+
+| Sección del temario | Artefacto | Cobertura |
+| :--- | :--- | :--- |
+| 1. Las comunicaciones escritas (definición, externas e internas) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json` | tarjetas 1-8 |
+| 2. La comunicación interna: definición y clasificación (flujo, naturaleza, medio) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 1-6, 10-14 |
+| 2.2 Tipos de información: función de la ascendente, la descendente y la transversal | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 7-9 |
+| 3. Medios de comunicación interna (tabla de la pág. 29) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json` | tarjetas 1-10 |
+| 3.1 y 3.2 Documentación (aviso, memorando, circular interna, oficio interno, informe, acta) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 15-23 |
+| Ejercicios 1, 2, 3 y 4-10 | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/autoevaluacion.json` | 11 preguntas (5 tipos) |
+
+**Total tema 3:** 3 barajas (41 tarjetas) + 1 autoevaluación (11 preguntas).
+
+### Nota sobre la tabla de medios de la pág. 29
+
+El libro enumera catorce medios. Seis de ellos ya son tarjetas propias de la
+documentación (memorando, circulares internas, informes y actas), así que la
+baraja `medios-comunicacion-interna` recoge los diez restantes: manual del
+empleado, newsletter, correo electrónico, reuniones, intranet, sistema de
+sugerencias y quejas, encuestas, tablón de anuncios, redes sociales y
+mensajería instantánea.
+
+### Tarjetas que salen del tema
+
+- «Correo postal frente a mensajería» → es del tema 4 (Correos y mensajería).
+- «Factura, albarán y pedido», «Presupuesto», «Operaciones de caja», «Nómina»,
+  «Impresos oficiales», «Control de existencias», «Departamentos» y
+  «Organigrama» ya están cubiertos en los temas 2, 5 y 6. La baraja que las
+  juntaba todas («Agenda, archivo, sello e inventario») era un repaso general
+  de otro curso y se ha disuelto.
+- Lo que sí no tenía casa en ningún tema (agenda de trabajo, ordenar y
+  archivar, registro de entrada y salida, sello y firma, y nota de pedido) se
+  ha repartido: agenda, archivo, registro y sello a la baraja
+  `tema-5-material-oficina/archivo-registro-oficina.json`; la nota de pedido a
+  la baraja de documentos comerciales del tema 6.

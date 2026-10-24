@@ -126,7 +126,7 @@
     {
       "id": "p10",
       "tipo": "clasificar",
-      "enunciado": "¿Qué tipo de agente es? Marca con una X.",
+      "enunciado": "¿Qué tipo de agente es? Marca el tipo: físico, químico o biológico.",
       "categorias": ["Físico", "Químico", "Biológico"],
       "elementos": [
         { "texto": "El ruido fuerte de una máquina.", "respuesta": "Físico" },
@@ -140,7 +140,7 @@
     {
       "id": "p11",
       "tipo": "clasificar",
-      "enunciado": "¿Es carga física (cuerpo) o carga mental (cabeza)? Marca con una X.",
+      "enunciado": "¿Es carga física (cuerpo) o carga mental (cabeza)? Marca carga física o carga mental.",
       "categorias": ["Carga física", "Carga mental"],
       "elementos": [
         { "texto": "Levantar y mover cajas pesadas.", "respuesta": "Carga física" },

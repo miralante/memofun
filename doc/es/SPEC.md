@@ -98,10 +98,17 @@ retenido lo esencial del tema antes de pasar al siguiente.
   con un color que **no es el rojo** (azul de foco en el tema) además
   del símbolo y del texto "Revisa", para localizarlo de un vistazo. Los
   aciertos quedan en verde y bloqueados.
+- **Marcado dentro de la pregunta**: cuando la respuesta es incorrecta, la
+  opción elegida y la correcta se colorean **en la propia pregunta** (la
+  elegida en azul con ✘, la correcta en verde con ✔), para poder compararlas
+  sin leer el aviso de abajo. En las preguntas de campo (completar, unir) el
+  campo queda marcado y la respuesta correcta se escribe al lado.
 - **Dos salidas tras corregir**: "Corregir solo los errores" reabre solo
   las preguntas falladas y deja bloqueadas las acertadas; "Repetir"
   empieza el test completo de nuevo. Cualquier autoevaluación nueva
-  debe tener las dos.
+  debe tener las dos. Al reabrir una pregunta fallada **se oculta la
+  respuesta** (la ✔ verde y el texto con la solución): solo queda el ✘ sobre
+  lo que el alumno eligió, para que la vuelva a hacer en vez de copiarla.
 - **Comparación de texto escrito**: la respuesta tecleada se compara sin
   acentos, sin mayúsculas y sin espacios (cadena «raw»). "Físico",
   "fisico" y " F ís ico " son la misma respuesta. Las opciones de

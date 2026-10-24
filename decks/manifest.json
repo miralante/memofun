@@ -1070,12 +1070,36 @@
     "selfTest": true
   },
   {
+    "id": "fpb-sa-1-ta-t1-tipos",
+    "topic": "Tipos de empresa y empresario",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 20,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json",
+    "icon": "📋",
+    "topicGroup": "Tema 1 · La empresa",
+    "selfTest": true
+  },
+  {
+    "id": "fpb-sa-1-ta-t1-funciones",
+    "topic": "Funciones de la empresa y estructura organizativa",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 6,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json",
+    "icon": "📋",
+    "topicGroup": "Tema 1 · La empresa",
+    "selfTest": true
+  },
+  {
     "id": "fpb-sa-1-ta-t1-estructura",
     "topic": "Estructuras organizativas y tareas administrativas",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 12,
+    "amount": 15,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json",
     "icon": "📋",
     "topicGroup": "Tema 1 · La empresa",
@@ -1122,30 +1146,6 @@
     "icon": "📋"
   },
   {
-    "id": "fpb-sa-1-ta-t1-tipos",
-    "topic": "Tipos de empresa y empresario",
-    "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Técnicas Administrativas Básicas",
-    "amount": 8,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json",
-    "icon": "📋",
-    "topicGroup": "Tema 1 · La empresa",
-    "selfTest": true
-  },
-  {
-    "id": "fpb-sa-1-ta-t1-funciones",
-    "topic": "Funciones de la empresa y estructura organizativa",
-    "level": "principiante",
-    "course": "1º de FP Básica Servicios Administrativos",
-    "subject": "Técnicas Administrativas Básicas",
-    "amount": 6,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json",
-    "icon": "📋",
-    "topicGroup": "Tema 1 · La empresa",
-    "selfTest": true
-  },
-  {
     "id": "fpb-sa-1-ta-t2-areas-funcionales",
     "topic": "Áreas funcionales",
     "level": "principiante",
@@ -1169,34 +1169,35 @@
     "selfTest": true
   },
   {
-    "id": "fpb-sa-1-ta-t3-agenda",
-    "topic": "Agenda, archivo, registro, sello y operativa de oficina",
+    "id": "fpb-sa-1-ta-t3-comunicacion",
+    "topic": "Comunicación interna y documentos internos",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 17,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json",
+    "amount": 23,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json",
     "icon": "📋",
-    "topicGroup": "Tema 3 · Comunicación"
+    "topicGroup": "Tema 3 · Comunicación",
+    "selfTest": true
   },
   {
-    "id": "fpb-sa-1-ta-t3-comunicacion",
-    "topic": "Comunicación interna y documentos empresariales",
+    "id": "fpb-sa-1-ta-t3-medios",
+    "topic": "Medios de comunicación interna",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 15,
-    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json",
+    "amount": 10,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json",
     "icon": "📋",
     "topicGroup": "Tema 3 · Comunicación"
   },
   {
     "id": "fpb-sa-1-ta-t3-com-ext",
-    "topic": "Carta comercial y comunicación escrita externa",
+    "topic": "Comunicaciones escritas: externas e internas",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 6,
+    "amount": 8,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json",
     "icon": "📋",
     "topicGroup": "Tema 3 · Comunicación"
@@ -1211,6 +1212,17 @@
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria.json",
     "icon": "📋",
     "topicGroup": "Tema 4 · Correos y mensajería"
+  },
+  {
+    "id": "fpb-sa-1-ta-t5-archivo",
+    "topic": "Archivo, registro y sello en la oficina",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 4,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/archivo-registro-oficina.json",
+    "icon": "📋",
+    "topicGroup": "Tema 5 · Material de oficina"
   },
   {
     "id": "fpb-sa-1-ta-t5-inventario",
@@ -1269,11 +1281,11 @@
   },
   {
     "id": "fpb-sa-1-ta-t6-documentos-comerciales",
-    "topic": "Documentos comerciales: pedido, albarán y factura",
+    "topic": "Documentos comerciales: pedido, albarán, factura y nota de pedido",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 5,
+    "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json",
     "icon": "📋",
     "topicGroup": "Tema 6 · Operaciones de cobro y pago"

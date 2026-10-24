@@ -1,0 +1,141 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 3 · Comunicación",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué son las comunicaciones escritas?",
+      "opciones": {
+        "a": "Las que usan el lenguaje escrito para intercambiar información.",
+        "b": "Las que hace la empresa hacia el exterior.",
+        "c": "Las que se cuentan de viva voz en una reunión."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "El jefe de Compras escribe un correo electrónico a un proveedor. ¿Qué tipo de comunicación es?",
+      "opciones": {
+        "a": "Comunicación escrita externa.",
+        "b": "Comunicación escrita interna.",
+        "c": "Comunicación vertical descendente."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p3",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
+      "huecos": [
+        { "texto": "Las comunicaciones escritas cuyo origen y destino es la propia empresa son ___.", "respuesta": "internas" },
+        { "texto": "La comunicación que va de los empleados a la dirección es ___.", "respuesta": "ascendente" },
+        { "texto": "La comunicación que va de la dirección a los empleados es ___.", "respuesta": "descendente" },
+        { "texto": "Un ___ es una comunicación breve que informa a un gran número de trabajadores.", "respuesta": "aviso" }
+      ],
+      "banco": ["internas", "ascendente", "descendente", "aviso"]
+    },
+    {
+      "id": "p4",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "La comunicación horizontal es entre trabajadores de categorías profesionales similares.", "respuesta": "V" },
+        { "texto": "La comunicación diagonal es entre personas de distintos niveles de la organización.", "respuesta": "V" },
+        { "texto": "Una charla en la máquina del café es comunicación formal.", "respuesta": "F" },
+        { "texto": "El oficio interno es un documento de las empresas públicas.", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada situación con el tipo de comunicación según el flujo de la información. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Un trabajador comunica a su jefe que debe ausentarse dos horas para llevar a su hijo al médico.",
+        "B": "El jefe de Ventas pide al jefe de Almacén una relación de artículos.",
+        "C": "El jefe de Contabilidad pide a su secretario que le haga un informe."
+      },
+      "derecha": {
+        "1": "Ascendente",
+        "2": "Horizontal",
+        "3": "Descendente"
+      },
+      "respuesta": { "A": "1", "B": "2", "C": "3" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada medio de comunicación interna con su descripción.",
+      "izquierda": {
+        "A": "Red interna que facilita el acceso a la información de los empleados.",
+        "B": "Recoge toda la información que los empleados necesitan para trabajar y el reglamento interno.",
+        "C": "Colocado de forma estratégica para leer escritos, gráficos y carteles."
+      },
+      "derecha": {
+        "1": "Intranet",
+        "2": "Manual del empleado",
+        "3": "Tablón de anuncios"
+      },
+      "respuesta": { "A": "1", "B": "2", "C": "3" }
+    },
+    {
+      "id": "p7",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué cuatro partes tiene un memorando o nota interior?",
+      "opciones": {
+        "a": "Cabecera, De/A, cuerpo y pie.",
+        "b": "Membrete, número, asunto, lugar y fecha de emisión.",
+        "c": "Destinatario, cuerpo del mensaje, saludo y despedida, firma y cargo."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p8",
+      "tipo": "clasificar",
+      "enunciado": "¿Qué tipo de comunicación es cada caso? Marca el tipo: descendente, ascendente o transversal.",
+      "categorias": ["Descendente", "Ascendente", "Transversal"],
+      "elementos": [
+        { "texto": "El director informa a todos los trabajadores del horario de verano.", "respuesta": "Descendente" },
+        { "texto": "Un empleado propone una idea al jefe.", "respuesta": "Ascendente" },
+        { "texto": "Dos compañeros del mismo nivel coordinan un proyecto juntos.", "respuesta": "Transversal" }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Para qué se utiliza la comunicación ascendente?",
+      "opciones": {
+        "a": "Para presentar quejas y proponer ideas.",
+        "b": "Para informar sobre funciones, resultados y objetivos.",
+        "c": "Para facilitar la coordinación entre grupos de trabajo."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "Una Administración Pública da la misma información a varios departamentos sin hablar con cada uno. ¿Qué documento usa?",
+      "opciones": {
+        "a": "La circular interna.",
+        "b": "La nota de pedido.",
+        "c": "El newsletter."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p11",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "La circular interna lleva un número que la identifica.", "respuesta": "V" },
+        { "texto": "El aviso es una comunicación breve para informar a muchos destinatarios.", "respuesta": "V" },
+        { "texto": "La comunicación no verbal se apoya en gestos.", "respuesta": "V" },
+        { "texto": "El acta resume los acuerdos tomados en una reunión.", "respuesta": "V" }
+      ]
+    }
+  ]
+}

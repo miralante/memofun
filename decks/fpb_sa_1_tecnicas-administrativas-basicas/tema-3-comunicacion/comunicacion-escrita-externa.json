@@ -1,8 +1,20 @@
 {
-  "topic": "Comunicación escrita externa y carta comercial",
+  "topic": "Comunicaciones escritas: externas e internas",
   "level": "principiante",
   "locale": "es",
   "cards": [
+    {
+      "question": "Usan el lenguaje escrito para intercambiar información. Puede ser dentro de la empresa o entre la empresa y su entorno. <mark>Es como escribir en vez de hablar</mark>. ¿Cómo se llaman las comunicaciones que usan el lenguaje escrito?",
+      "answer": "<mark>Las comunicaciones escritas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa/comunicacion-externa.jpg",
+        "title": "Entrada por salida — juguete en un acto y en prosa",
+        "source": "https://commons.wikimedia.org/wiki/File:Entrada_por_salida_-_juguete_en_un_acto_y_en_prosa_(IA_entradaporsalida3851nava).pdf",
+        "alt": "(imagen)",
+        "autor": "Navarro, Calixto, 1847-1900",
+        "licencia": "Public domain"
+      }
+    },
     {
       "question": "La empresa escribe a gente de fuera, como un proveedor. Recibe también facturas de sus clientes. <mark>Es como el correo que entra y sale de tu casa</mark>. ¿Cómo se llama este tipo de comunicación escrita?",
       "answer": "<mark>Comunicación escrita externa</mark>",
@@ -16,7 +28,7 @@
       }
     },
     {
-      "question": "Es un documento formal para hablar con clientes y proveedores. <mark>Es como una carta, pero con datos oficiales de la empresa</mark>. Usa un lenguaje profesional. ¿Cómo se llama este documento comercial?",
+      "question": "Las empresas usan un documento formal para hablar con clientes y proveedores. <mark>Es como una carta, pero con datos oficiales de la empresa</mark>. Usa un lenguaje profesional. ¿Cómo se llama este documento comercial?",
       "answer": "<mark>Carta comercial</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa/carta-comercial.jpg",
@@ -52,7 +64,7 @@
       }
     },
     {
-      "question": "Tiene un destinatario, un cuerpo, un saludo y una firma. <mark>Es como un email: quién lo recibe, el mensaje y la despedida</mark>. ¿Cuáles son las partes de una carta comercial?",
+      "question": "Dentro de una carta comercial hay un destinatario, un cuerpo, un saludo y una firma. <mark>Es como un email: quién lo recibe, el mensaje y la despedida</mark>. ¿Cuáles son las partes de una carta comercial?",
       "answer": "<mark>Destinatario, cuerpo del mensaje, saludo y despedida, firma y cargo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa/partes-carta-comercial.jpg",
@@ -73,6 +85,18 @@
         "alt": "(imagen)",
         "autor": "Blogtrepreneur",
         "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "El origen y el destino son la propia empresa. Por ejemplo, un memorando de un departamento a otro. <mark>Es como una nota que se pasa de una mesa a otra dentro del mismo despacho</mark>. ¿De dónde sale y adónde va una comunicación escrita interna?",
+      "answer": "<mark>De la empresa a la propia empresa</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa/pared-documentos.jpg",
+        "title": "Massive Wall of Organized Documents",
+        "source": "https://www.flickr.com/photos/55476234@N00/2112069242",
+        "alt": "Una pared llena de documentos organizados",
+        "autor": "Zeusandhera",
+        "licencia": "CC BY-SA 2.0"
       }
     }
   ]

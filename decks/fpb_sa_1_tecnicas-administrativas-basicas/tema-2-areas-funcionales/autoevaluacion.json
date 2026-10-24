@@ -101,7 +101,7 @@
     {
       "id": "p8",
       "tipo": "clasificar",
-      "enunciado": "¿A qué área funcional pertenece cada actividad? Marca con una X.",
+      "enunciado": "¿A qué área funcional pertenece cada actividad? Marca el área: producción, comercial, finanzas o recursos humanos.",
       "categorias": ["Producción", "Comercial", "Finanzas", "Recursos Humanos"],
       "elementos": [
         { "texto": "Entrevistar a un candidato.", "respuesta": "Recursos Humanos" },

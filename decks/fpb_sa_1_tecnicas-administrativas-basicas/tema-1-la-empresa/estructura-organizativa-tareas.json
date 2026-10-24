@@ -28,7 +28,15 @@
       }
     },
     {
+      "question": "Este organigrama tiene al Director general arriba. Debajo, tres jefes de departamento: de Ventas, de Compras y de Almacén. Cada jefe manda a dos personas: comerciales, administrativos y operarios. <mark>Es como un árbol: la raíz arriba y las ramas abajo</mark>. ¿Qué tipo de organización es este organigrama?",
+      "answer": "<mark>Organización jerárquica</mark>"
+    },
+    {
       "question": "Varios jefes, como los de Producción y Comercial, dan órdenes directas. A los empleados, aunque no tengan encima al Director General. <mark>Es como un equipo con varios capitanes a la vez</mark>. ¿Qué tipo de organización es?",
+      "answer": "<mark>Organización funcional</mark>"
+    },
+    {
+      "question": "Este organigrama tiene arriba el Consejo de administración y el Director general. Debajo, tres directores: de Producción, Comercial y Financiero. El mismo empleado recibe órdenes de los tres directores. <mark>Es como un empleado con tres jefes el mismo día</mark>. ¿Qué tipo de organización es este organigrama?",
       "answer": "<mark>Organización funcional</mark>"
     },
     {
@@ -44,6 +52,10 @@
       }
     },
     {
+      "question": "Este organigrama tiene al Director general arriba. A su lado, tres asesores que solo informan: Adjunto director, Asesoría fiscal y Gabinete de estudios técnicos. Debajo, los directores de Producción, Comercial y Financiero, y un empleado. <mark>Es como un jefe que manda en su empresa y, al lado, tiene un equipo de expertos que le ayudan</mark>. ¿Qué tipo de organización es este organigrama?",
+      "answer": "<mark>Organización mixta</mark>"
+    },
+    {
       "question": "Una empresa vende en Europa, América y Asia. Cada zona casi funciona sola. <mark>Es como un padre con tres hijos, cada uno con su casa</mark>. ¿Cómo se llama este modelo de empresa?",
       "answer": "<mark>Organización por divisiones</mark>",
       "image": {
@@ -54,6 +66,10 @@
         "autor": "Burr, David H.; Arrowsmith, John",
         "licencia": "Public domain"
       }
+    },
+    {
+      "question": "Este organigrama tiene al Director general arriba y, debajo, un director para cada zona: de Europa, de América y de Asia. Cada división lleva su propia empresa. <mark>Es como tres tiendas con el mismo dueño, pero cada una va por su cuenta</mark>. ¿Qué tipo de organización es este organigrama?",
+      "answer": "<mark>Organización por divisiones</mark>"
     },
     {
       "question": "Una empresa se divide en partes, como Producción o Finanzas. <mark>Es como una orquesta: cuerdas, viento y tambores, cada uno su parte</mark>. ¿Cómo se llama cada una de esas secciones?",
@@ -80,7 +96,7 @@
       }
     },
     {
-      "question": "Después, la empresa reparte el trabajo entre los departamentos. <mark>Es como en una cocina: alguien corta, alguien cocina, alguien sirve</mark>. ¿Cómo se llama esta tarea administrativa?",
+      "question": "Después, la empresa reparte el trabajo entre los departamentos. Cada uno hace su parte. Y si algo se equivoca, la empresa entera se retrasa. <mark>Es como en una cocina: alguien corta, alguien cocina, alguien sirve</mark>. ¿Cómo se llama esta tarea administrativa?",
       "answer": "<mark>Organización</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organizacion-tarea.jpg",
@@ -125,18 +141,6 @@
         "alt": "(imagen)",
         "autor": "Velasquez333",
         "licencia": "CC BY-SA 4.0"
-      }
-    },
-    {
-      "question": "Un pequeño error, como un documento mal archivado, puede causar retrasos importantes. <mark>Es como una rueda: si una pieza falla, todo se para</mark>. ¿Qué es clave en las tareas administrativas?",
-      "answer": "<mark>La organización</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/importancia-organizacion.jpg",
-        "title": "Prontuario de los presupuestos de ingresos y gastos del año de 1853",
-        "source": "https://commons.wikimedia.org/wiki/File:Por_el_Ministerio_de_Hacienda_se_ha_comunicado,_con_fecha_18_del_actual,_%C3%A1_esta_Direcci%C3%B3n_General_la_Real_orden_siguiente_(IA_A11411601).pdf",
-        "alt": "Página de un libro de cuentas antiguo con anotaciones.",
-        "autor": "España. Dirección General de Contabilidad de la Hacienda Pública",
-        "licencia": "Public domain"
       }
     }
   ]

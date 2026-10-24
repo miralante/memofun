@@ -463,6 +463,17 @@ not AI-bulk-built.
    - If there's a `# Índice`: spread the cards across **every**
      point — none skipped, none invented that aren't in the list.
      Without one, pick the subtopics yourself.
+   - **A classification gets one card per member.** When a card
+     introduces a classification (by size, by sector, by geographical
+     scope, by ownership of the capital…), that card is only the
+     header: follow it with **one card per member** of the
+     classification, in the order the temario lists them, each with
+     its own criterion ("más de 250 trabajadores") and its own
+     concrete example. A single card that enumerates four types
+     teaches the student the NAME of the classification and nothing
+     about its members — that was the gap in
+     `fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/
+     tipos-empresa-empresario.json` until October 2026.
    - Full reasoning: `doc/en/SPEC.md` §2.5.
 4. Write the deck directly: `decks/<salida>` (or
    `decks/<slug>.json` derived from `topic` if `salida` wasn't

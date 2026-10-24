@@ -11,19 +11,21 @@ Flickr/CC-BY) al modelo nuevo (carpeta
 atribución completa de Wikimedia Commons).
 
 Concretamente:
-- **Tema 1** (5 barajas, 49 cards, 47/49 con imagen CC):
+- **Tema 1** (5 barajas, 64 cards, 58/64 con imagen CC):
   - `departamentos` 17/17
-  - `estructura-organizativa-tareas` 11/12 (falla `organizacion-funcional` — text-only)
-  - `tipos-empresa-empresario` 8/8
+  - `estructura-organizativa-tareas` 10/15 (text-only: `organizacion-funcional` + las 4 cartas de ejemplo de organigrama)
+  - `tipos-empresa-empresario` 20/20
   - `funciones-empresa-estructura` 5/6 (falla `formula-organizacion-real` — text-only)
   - `comunicacion-escrita-externa` 6/6
 - **Tema 2** (2 barajas, 24 cards, todas con imagen CC): `areas-funcionales` 11/11 +
   `departamentos-organigrama` 13/13 (auditoría de fidelidad al temario de octubre 2026:
   la baraja cubría solo «departamentos y organigrama» y dejaba fuera las cinco áreas
   funcionales; se añadió `areas-funcionales` y se reordenó la existente)
-- **Tema 3** (2 barajas, 32 cards): migración parcial
-  - `agenda-archivo-sello-inventario` 17/17 con imagen (8 Wikimedia en subdir nuevo + 9 Flickr legacy en `_3/`)
-  - `comunicacion-interna-documentos` 11/15 Wikimedia + 4 text-only (memorando, circular-interna, acta, correo-vs-mensajeria)
+- **Tema 3** (3 barajas, 41 cards): auditoría de fidelidad al temario de octubre 2026
+  - `comunicacion-interna-documentos` 23/23 con imagen (clasificación, funciones, medios de transmisión y documentación)
+  - `medios-comunicacion-interna` 10/10 (nueva, con la tabla de medios de la pág. 29 del libro)
+  - `comunicacion-escrita-externa` 8/8 (las dos ramas del §1: externas e internas)
+  - `agenda-archivo-sello-inventario` (17 cards) **disuelta**: era un repaso general de otro curso, no contenido del tema 3. Sus 12 tarjetas ya cubiertas en los temas 2, 5 y 6 se eliminaron; agenda, archivar, registro y sello pasaron al tema 5, y la nota de pedido al tema 6.
 - **Tema 4** (1 baraja, 10 cards): `correos-paqueteria` 10/10 con imagen Wikimedia
 - **Tema 5** (2 barajas, 9 cards): `inventario-control-existencias` 5/5 + `material-oficina` 4/4 con imagen Wikimedia (esta última reubicada desde t6 tras auditoría de fidelidad al MD)
 - **Tema 6** (2 barajas, 21 cards): `medios-pago-excel-material` 12/12 (medios de pago tras extraer las 4 cards de material fungible/no fungible/equipos/multifunción) + `excel-avanzado-instrumentos-pago` 9/9, todas con imagen Wikimedia
@@ -31,6 +33,28 @@ Concretamente:
 Total migrado: **123/138 cards** con imagen de Wikimedia CC-BY/-SA o Public Domain;
 13 con Flickr legacy (9 agenda t3) o text-only (4 com t3). Pendiente cleanup
 cuando se rehagan las barajas afectadas.
+
+**Octubre 2026 — ampliación de `tipos-empresa-empresario`:** +12 cards (una
+por cada tipo de tamaño, sector de actividad, ámbito geográfico y propiedad
+del capital), todas con imagen CC de Openverse/Flickr (no Wikimedia): la
+baraja pasa de 8 a 20 cards y el curso de 138 a 150.
+
+**Octubre 2026 — ejemplos de organigrama:** +4 cards en
+`estructura-organizativa-tareas` (una por cada tipo de organización, cada una
+detrás de su carta de explicación): ejemplo de organización jerárquica y
+funcional (página 10 del temario en
+`D:/img_memofun/tecnicas_administrativas/tema1/pag10.jpeg`) y ejemplo de
+organización mixta y por divisiones (página 11, `pag11.jpeg`). La baraja pasa
+de 12 a 16 cards y el curso de 150 a 154. Sin imagen: la foto de la carta se
+renderiza como miniatura de 140 px y un organigrama no se lee así; el ejemplo
+va descrito en la pista.
+
+**Octubre 2026 — fusión de las dos cartas de «organización»:** la carta de la
+tarea «Organización» y la carta de «La organización» (su importancia) se
+funden en una sola carta: la pista explica el reparto del trabajo y añade
+que, si algo falla, la empresa entera se retrasa. La baraja queda con 15
+cards (el curso, con 153) y la imagen huérfana `importancia-organizacion.jpg`
+se ha eliminado.
 
 - Departamentos de una empresa (compras, RRHH...): fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json (repartir tareas de una casa)
 - Departamento de compras: fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json (encargado de la compra grande)
@@ -50,9 +74,9 @@ cuando se rehagan las barajas afectadas.
 - Factura (qué es y qué información incluye): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json (recibo definitivo con validez legal)
 - Albarán (documento que certifica la entrega): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json (recibo de que la mercancía llegó)
 - Pedido y diferencia pedido/albarán/factura: fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json (lista de la compra oficial; pedir, recibir, pagar)
-- Archivar bien la correspondencia: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (repetición, nuevo ángulo: cada cosa en su cajón)
+- Archivar bien la correspondencia: fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/archivo-registro-oficina.json (repetición, nuevo ángulo: cada cosa en su cajón)
 - El organigrama ayuda a saber a quién preguntar: fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json (mapa que indica a qué puerta llamar)
-- Importancia de la organización administrativa: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (engranaje: si falla una pieza, afecta a todo)
+- Importancia de la organización administrativa (fusionada en la carta de la tarea «Organización»): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (si algo se equivoca, la empresa entera se retrasa)
 - Presupuesto (qué es y por qué pedir varios): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (pedir precio antes de comprar; comparar tiendas)
 - Operaciones básicas de caja: cobros y pagos sencillos: fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (monedero de la empresa siempre en movimiento)
 - Recibo y justificantes de pago: fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (prueba en papel de que se pagó)
@@ -63,31 +87,35 @@ cuando se rehagan las barajas afectadas.
 - Relación entre presupuesto y control de existencias: fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (comparar precios antes de reponer)
 - Registro claro de cobros y pagos en caja: fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (comprobar que la caja está cuadrada)
 - Las técnicas administrativas como base de cualquier oficina: fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (cimientos de un edificio)
-- Agenda de trabajo (gestión de citas y tareas de oficina): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (cuaderno donde apuntas cada cita y tarea)
-- Clasificar y archivar por orden alfabético o numérico (método concreto): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (libros de biblioteca ordenados por apellido del autor)
-- Registro de entrada y salida de documentos: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (libro de recepción que apunta quién entra y quién sale)
-- Nota de pedido y contrato de compraventa básico: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (rellenar un papel pidiendo algo, que el vendedor confirma)
-- El sello y la firma en un documento oficial: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (carta sin remitente / algo escrito a mano que te identifica + marca de la empresa)
-- Inventario (recuento completo, distinto del control continuo de existencias): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (la tienda cierra una vez al año y cuenta todo lo que tiene)
-- Departamentos (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (secciones de una orquesta: cuerda, viento, percusión)
-- Organigrama (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (panel de un edificio que indica el piso de cada oficina)
-- Factura (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (cuenta detallada de un restaurante que se guarda para Hacienda)
-- Albarán (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (hoja que firma el repartidor al entregar un paquete)
-- Pedido (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (decirle al camarero qué platos quieres antes de que los traiga)
-- Presupuesto (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (varios albañiles dan su precio antes de reformar una cocina)
-- Operaciones de caja (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (dinero de una caseta de feria guardado en un cajón y contado al final del día)
-- Nómina (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (extracto bancario mensual que resume los movimientos de la cuenta)
-- Impresos oficiales (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (papel de Hacienda con casillas fijas que no puedes cambiar)
-- Control de existencias (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (empleado del súper revisando estanterías para ver qué falta)
-- Importancia de la organización administrativa (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/agenda-archivo-sello-inventario.json (biblioteca bien organizada donde cualquier libro se encuentra en segundos)
+- Agenda de trabajo (gestión de citas y tareas de oficina): fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/archivo-registro-oficina.json (cuaderno donde apuntas cada cita y tarea)
+- Clasificar y archivar por orden alfabético o numérico (método concreto): fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/archivo-registro-oficina.json (libros de biblioteca ordenados por apellido del autor)
+- Registro de entrada y salida de documentos: fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/archivo-registro-oficina.json (libro de recepción que apunta quién entra y quién sale)
+- Nota de pedido y contrato de compraventa básico: fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json (rellenar un papel pidiendo algo, que el vendedor confirma)
+- El sello y la firma en un documento oficial: fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/archivo-registro-oficina.json (carta sin remitente / algo escrito a mano que te identifica + marca de la empresa)
+- Inventario (recuento completo, distinto del control continuo de existencias): fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/inventario-control-existencias.json (la tienda cierra una vez al año y cuenta todo lo que tiene)
+- Departamentos (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json (secciones de una orquesta: cuerda, viento, percusión)
+- Organigrama (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json (panel de un edificio que indica el piso de cada oficina)
+- Factura (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json (cuenta detallada de un restaurante que se guarda para Hacienda)
+- Albarán (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json (hoja que firma el repartidor al entregar un paquete)
+- Pedido (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json (decirle al camarero qué platos quieres antes de que los traiga)
+- Presupuesto (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (varios albañiles dan su precio antes de reformar una cocina)
+- Operaciones de caja (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (dinero de una caseta de feria guardado en un cajón y contado al final del día)
+- Nómina (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (extracto bancario mensual que resume los movimientos de la cuenta)
+- Impresos oficiales (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/recibos-justificantes-pago.json (papel de Hacienda con casillas fijas que no puedes cambiar)
+- Control de existencias (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/inventario-control-existencias.json (empleado del súper revisando estanterías para ver qué falta)
+- Importancia de la organización administrativa (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (biblioteca bien organizada donde cualquier libro se encuentra en segundos)
 - Organigrama (plano de la empresa con niveles jerárquicos): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (plano de un edificio que indica el piso de cada oficina)
 - Organización jerárquica (cadena de mando clara de arriba a abajo): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (ejército con rangos claros de general a soldado)
 - Organización funcional (varios mando dan órdenes sobre el mismo empleado): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (equipo donde varios capitanes mandan a la vez)
 - Organización mixta (jerárquica con asesores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (militares con asesores civiles)
 - Organización por divisiones (cada división funciona como empresa independiente): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (padre con tres hijos adultos, cada uno con su casa y presupuesto)
+- Ejemplo de organización jerárquica (organigrama del temario: Director general → jefes de Ventas, Compras y Almacén → sus dos empleados cada uno): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (árbol: la raíz arriba y las ramas abajo)
+- Ejemplo de organización funcional (organigrama del temario: Consejo de administración → Director general → directores de Producción, Comercial y Financiero, y el empleado depende de los tres): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (un empleado con tres jefes el mismo día)
+- Ejemplo de organización mixta (organigrama del temario: Director general con Adjunto director, Asesoría fiscal y Gabinete de estudios técnicos como asesores, más los tres directores de departamento): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (un jefe que manda en su empresa y, al lado, un equipo de expertos que le ayudan)
+- Ejemplo de organización por divisiones (organigrama del temario: Director general con un director para cada zona, Europa, América y Asia): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (tres tiendas con el mismo dueño, cada una va por su cuenta)
 - Áreas funcionales (secciones como Producción, Comercial, Finanzas): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (orquesta dividida en cuerdas, viento y percusión)
 - Planificación administrativa (decidir objetivos y cómo llegar): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (pensar la ruta antes de un viaje)
-- Organización administrativa (repartir trabajo y recursos): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (cocina de restaurante: cada uno corta, cocina, emplata)
+- Organización administrativa (repartir trabajo y recursos; si algo falla, todo se retrasa): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (cocina: alguien corta, alguien cocina, alguien sirve)
 - Dirección administrativa (guiar al equipo, dar órdenes, motivar): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (director de orquesta que marca el ritmo)
 - Coordinación administrativa (que los departamentos no se crucen): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (relay: pasarse el testigo en el momento justo)
 - Control administrativo (comprobar si se cumplieron los objetivos): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (comparar respuestas del examen con lo que sabías)
@@ -102,10 +130,9 @@ cuando se rehagan las barajas afectadas.
 - Circular interna en empresas públicas (misma info a muchos receptores): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (grupo de WhatsApp con un solo mensaje a todos)
 - Aviso en empresas privadas (comunicación breve a todos los trabajadores): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (post-it gigante en la puerta de entrada)
 - Oficio interno (documento formal de empresas públicas): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (carta oficial pero interna, sin salir al exterior)
-- Comunicación escrita interna (documentos que circulan entre departamentos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (sistema circulatorio: sangre que sale del corazón y vuelve por las venas)
+- Comunicación escrita interna (documentos que circulan entre departamentos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (sistema circulatorio: sangre que sale del corazón y vuelve por las venas)
 - Informe (documento ordenado con datos, hechos y conclusiones): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (resumen estructurado de lo tratado en una reunión)
 - Acta (registro de acuerdos tomados en una reunión): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (minutas de clase para los que no vinieron)
-- Correo postal vs. mensajería (documentos oficiales / rapidez con seguimiento): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (correo tradicional comparado con WhatsApp)
 - Material fungible (se gasta y hay que reponerlo): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material.json (comida del frigorífico: se acaba y se compra otra vez)
 - Material no fungible (duro mucho, no se consume): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material.json (sartén: la compras una vez y la usas años)
 - Equipos de oficina (máquinas duraderas como ordenadores, impresoras): fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago-excel-material.json (electrodomésticos de una cocina)
@@ -131,9 +158,21 @@ cuando se rehagan las barajas afectadas.
 - Empresas públicas y privadas según propiedad del capital: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (parque público vs jardín privado)
 - Empresario individual vs empresario social (sociedad): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (solo vs equipo: exámenes en solitario vs en grupo)
 - Funciones del empresario: dirigir, controlar y supervisar: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (capitán de barco que pone rumbo y supervisa)
+- Gran empresa (más de 250 trabajadores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (rascacielos: muchas plantas y mucha gente)
+- Empresa mediana (entre 50 y 249 trabajadores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (colegio con 80 personas: edificio de seis pisos)
+- Pequeña empresa (menos de 50 trabajadores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (casa de dos pisos: todo el mundo se conoce)
+- Microempresa (menos de 10 trabajadores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (kiosco en la esquina: casi solo el dueño)
+- Sector primario (agricultura, ganadería, pesca, minería y bosques): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (recoger aceitunas o pescar un pez)
+- Sector secundario (transforma materias primas en otros productos): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (fábrica: coge trigo y hace pan)
+- Sector terciario (presta servicios): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (taxi: no fabrica nada pero te lleva)
+- Empresa local (trabaja en una localidad, provincia o comunidad): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (fuente del pueblo: el agua sale aquí)
+- Empresa nacional (trabaja en todo un país): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (tren que recorre España entero)
+- Empresa internacional (trabaja en varios países): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (barco que cruza el mar y llega a otras playas)
+- Empresa pública (el capital es del Estado): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (parque público: lo paga la ciudad)
+- Empresa privada (el capital es de particulares): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (jardín de tu casa: lo paga su dueño)
 - Crear empleo y riqueza como función de la empresa: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (árbol que da frutos para la comunidad)
 - Asumir riesgos técnicos y económicos: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (cruzar la calle: riesgo pero necesario para avanzar)
-- Organizar y dirigir el proceso de producción: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (orquesta: arquitecto, albañiles y jefe de obra)
+- Organizar y dirigir el proceso de producción: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (obra: el jefe reparte el trabajo y dirige a los albañiles hasta levantar la casa)
 - Estructura formal de la empresa (organigrama, puestos, jerarquía): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (plano de la casa hecho por el arquitecto)
 - Estructura informal de la empresa (relaciones espontáneas entre compañeros): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (atajos y pasillos que la gente usa aunque no estén en el plano)
 - Fórmula organización real = estructura formal + estructura informal: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (iceberg: parte visible + parte bajo el agua)
@@ -141,6 +180,28 @@ cuando se rehagan las barajas afectadas.
 - Carta comercial (documento formal para comunicarse con clientes/proveedores): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (carta personal con formato profesional)
 - Membrete de la carta comercial (datos de la empresa emissora): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (cabecera que identifica al remitente)
 - Partes de la carta comercial (destinatario, cuerpo, saludo, firma): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (estructura de un email profesional)
+- Qué son las comunicaciones escritas (uso del lenguaje escrito): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (escribir en vez de hablar)
+- Comunicación escrita interna (el origen y el destino es la propia empresa): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (una nota que se pasa de una mesa a otra)
+- Comunicación interna (actividades para crear y mantener buenas relaciones): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (mantener la convivencia en un grupo)
+- Función de la comunicación ascendente (quejas, ideas, contestación): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (levantar la mano en clase)
+- Función de la comunicación descendente (funciones, resultados, actividades y objetivos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (el profesor explica el tema y los objetivos)
+- Función de la comunicación transversal (coordinar trabajadores y grupos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (pasarse el testigo en una carrera)
+- Comunicación oral como medio de transmisión: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (una conversación de café)
+- Comunicación escrita como medio de transmisión: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (dejar una nota en la mesa)
+- Comunicación no verbal como medio de transmisión: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (entender que tu compañero está cansado solo por cómo mira)
+- Estructura del memorándum (cabecera, De/A, cuerpo y pie): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (un email de la empresa: de quién es, a quién va, qué pide y quién lo firma)
+- Elementos de la circular interna (membrete, número, asunto, fecha y firma): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (un cartel oficial con número, título y firma)
+- Elementos del oficio interno (membrete, sello de salida, asunto, fecha y recibo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (una carta con sello de salida y resguardo firmado)
+- Manual del empleado (información, condiciones de trabajo y reglamento interno): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (el cuaderno de normas del cole, pero de la empresa)
+- Newsletter (revistas internas): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (el periodical del cole, pero para la plantilla)
+- Correo electrónico como medio interno (mensajes entre ordenadores en red): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (el buzón que llega a todas partes a la vez)
+- Reuniones como medio interno (individuales o en grupo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (la reunión en el patio del cole)
+- Intranet (red interna para acceder a la información de los empleados): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (una biblioteca digital donde solo entra la empresa)
+- Sistema de sugerencias y quejas: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (un buzón de sugerencias en la puerta de la oficina)
+- Encuestas (recoger la opinión de los empleados): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (una papeleta en el cole para saber qué les gusta más)
+- Tablón de anuncios (escritos, gráficos y carteles): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (el tablón del patio del cole con los avisos)
+- Redes sociales como medio interno: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (un grupo donde todo el mundo de la empresa está unido)
+- Mensajería instantánea (crear grupos de trabajo): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json (un grupo de WhatsApp del trabajo)
 - Correos como empresa pública española de paquetería: fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria.json (servicio de mensajería del Estado)
 - Líneas de Correos: básica, urgente y económica: fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria.json (autobús normal, exprés y descuento)
 - Servicio certificado de Correos (garantiza recepción con firma + indemnización): fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-paqueteria.json (envío con acuse de recibo y seguro)
