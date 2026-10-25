@@ -1,0 +1,127 @@
+{
+  "topic": "Tema 6 · La pantalla inicial de Excel",
+  "level": "1º FPB",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Al abrir Excel aparece una ventana con las barras de arriba, la rejilla en el centro y la barra de abajo. <mark>Es como el cuadro de mandos de un coche</mark>. ¿Cómo se llama esa pantalla?",
+      "answer": "<mark>La pantalla inicial</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/excel-pantalla.jpg",
+        "title": "Microsoft Excel: pantalla",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "La ventana de Excel con las barras de arriba, la rejilla de celdas y la barra de abajo",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "La pantalla de Excel tiene muchas barras. Una muestra el nombre del archivo y la aplicación. <mark>Es como el salpicadero de un coche: cada cosa tiene su sitio</mark>. ¿Cómo se llama esa barra?",
+      "answer": "<mark>Barra de título</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-titulo.jpg",
+        "title": "Microsoft Excel: barra titulo",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "La barra de título de Excel con el nombre del archivo abierto",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "A la izquierda de la barra de título hay botones. Sirven para guardar o deshacer, por ejemplo. <mark>Es como los botones de acceso rápido de un mando a distancia</mark>. ¿Cómo se llama esa barra de botones?",
+      "answer": "<mark>Barra de herramientas de acceso rápido</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/acceso-rapido.jpg",
+        "title": "Microsoft Excel: acceso rapido",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "Los botones de acceso rápido de Excel, arriba a la izquierda",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Debajo del título están las pestañas Inicio, Insertar, Diseño… y cada una abre sus herramientas. <mark>Es como las pestañas de un archivador</mark>. ¿Qué nombre tienen esas pestañas?",
+      "answer": "<mark>La barra de menús</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-menus.jpg",
+        "title": "Microsoft Excel: barra menus",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "Las pestañas de la barra de menús de Excel: Inicio, Insertar, Diseño, Fórmulas",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "La cinta grande que se despliega bajo las pestañas muestra los botones de la pestaña elegida: copiar, pegar, formato… <mark>Es como el cajón de herramientas que abres cuando necesitas una</mark>. ¿Cómo se llama esa cinta?",
+      "answer": "<mark>La banda de opciones</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/banda-opciones.jpg",
+        "title": "Microsoft Excel: banda opciones",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "La banda de opciones de Excel desplegada con los botones de la pestaña Inicio",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "En Excel, la barra donde se escribe una fórmula. Muestra lo que hay en la celda. <mark>Es como la barra de direcciones de un navegador</mark>. ¿Cómo se llama esta barra de Excel?",
+      "answer": "<mark>Barra de fórmulas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/banda-formulas.jpg",
+        "title": "Microsoft Excel: banda formulas",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "La banda de fórmulas de Excel con el nombre de la celda y el botón fx",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Abajo a la izquierda aparecen las hojas del libro: Hoja1, Hoja2… y puedes saltar de una a otra. <mark>Es como las pestañas de un archivador de carpetas</mark>. ¿Cómo se llama esa barra?",
+      "answer": "<mark>La barra de etiquetas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-etiquetas.jpg",
+        "title": "Microsoft Excel: barra etiquetas",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "La barra de etiquetas de Excel, abajo a la izquierda, con el nombre de cada hoja",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "La barra de estado muestra datos del documento. Por ejemplo, si está guardado, el zoom y la vista. <mark>Es como la barra inferior del navegador que dice 'Listo' o 'Cargando'</mark>. ¿Para qué sirve la barra de estado?",
+      "answer": "<mark>Mostrar datos del documento</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-estado.jpg",
+        "title": "Microsoft Excel: barra estado",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "La barra de estado de Excel, abajo a la derecha, con el modo de hoja y el zoom",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Excel cambia el zoom de 10% a 400%. Tiene tres vistas: normal, diseño de página y saltos de página. <mark>Es como usar unos prismáticos: te acercas o te alejas</mark>. ¿Qué permite hacer el zoom en Excel?",
+      "answer": "<mark>Acercar o alejar la vista</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/zoom.jpg",
+        "title": "Microsoft Excel: zoom",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "El control de zoom de Excel, en la esquina inferior derecha",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "La palanca que hay a la derecha y la de abajo mueven la hoja para ver celdas que no caben en pantalla. <mark>Es como correr el texto para que se vea lo que viene detrás</mark>. ¿Qué nombre tienen esas palancas?",
+      "answer": "<mark>Las barras de desplazamiento</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barras-desplazamiento.jpg",
+        "title": "Microsoft Excel: barras desplazamiento",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "La barra de desplazamiento vertical de Excel en el borde derecho de la hoja",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}

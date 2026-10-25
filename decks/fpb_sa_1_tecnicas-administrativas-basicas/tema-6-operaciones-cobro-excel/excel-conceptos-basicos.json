@@ -1,0 +1,91 @@
+{
+  "topic": "Tema 6 · Conceptos básicos de Excel",
+  "level": "1º FPB",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "En Excel, una selección vertical de celdas se nombra con letras. <mark>Es como una columna de un edificio: va de arriba abajo</mark>. ¿Cómo se llama esa selección?",
+      "answer": "<mark>Columna</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/columnas.jpg",
+        "title": "Microsoft Excel: columnas",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "Las cabeceras de las columnas de Excel, con las letras A, B, C…",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "En Excel, una selección horizontal de celdas con número. <mark>Es como una fila de butacas en un cine</mark>. ¿Cómo se llama esa selección?",
+      "answer": "<mark>Fila</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/filas.jpg",
+        "title": "Microsoft Excel: filas",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "Los números de las filas de Excel, a la izquierda de la hoja",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "En una celda de Excel se pueden escribir textos, números o fórmulas. <mark>Es como un cuadrito de papel cuadriculado donde escribes algo</mark>. ¿Qué puedes escribir en una celda?",
+      "answer": "<mark>Textos, números o fórmulas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/celdas.jpg",
+        "title": "Anzahl der Bäume pro Quadrat 1",
+        "source": "https://commons.wikimedia.org/wiki/File:Anzahl_der_B%C3%A4ume_pro_Quadrat_1.png",
+        "alt": "Celdas de una hoja de cálculo con los datos y los resultados",
+        "autor": "SlesarenkoS",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Para escribir en una hoja colocas el cursor sobre la celda y tecleas: el programa guarda solo lo que escribes. <mark>Es como rellenar las casillas de un formulario</mark>. ¿Cómo se introducen los datos en una celda?",
+      "answer": "<mark>Situar el cursor y teclear</mark>",
+      "image": {
+        "title": "Office Desk Keyboard",
+        "source": "https://www.rawpixel.com/image/8811998/office-desk-keyboard",
+        "alt": "Un teclado de oficina para teclear los datos",
+        "autor": "rawpixel",
+        "licencia": "Dominio público (CC0 1.0)",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/introducir-datos.jpg"
+      }
+    },
+    {
+      "question": "Para que el trabajo no se pierda hay que guardarlo en el disco: la primera vez eliges Guardar como y después Guardar sobrescribe lo que ya estaba. <mark>Es como guardar el documento en la carpeta antes de cerrar el programa</mark>. ¿Cómo se guarda un libro de trabajo?",
+      "answer": "<mark>Guardar o Guardar como</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/guardar.jpg",
+        "title": "Microsoft Excel: guardar",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "El botón de guardar de la barra de acceso rápido de Excel",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "En Excel, sumar es =A1+A2 y restar es =A1-A2. Multiplicar es =A1*A2 y dividir es =A1/A2. <mark>Es como una calculadora que usa tus celdas</mark>. ¿Cómo se llaman estas operaciones en Excel?",
+      "answer": "<mark>Fórmulas básicas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/formulas.jpg",
+        "title": "Yearfrac and Datedif in Excel",
+        "source": "https://commons.wikimedia.org/wiki/File:Yearfrac_and_Datedif_in_Excel.jpg",
+        "alt": "Una fórmula escrita en la barra de fórmulas de Excel, empezando por el signo igual",
+        "autor": "Umulhidayah",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "El IVA = subtotal × 21%; TOTAL = subtotal + IVA. <mark>Es como una cuenta de restaurante: se suma el IVA al precio</mark>. ¿Cómo se calcula el TOTAL en una factura con IVA?",
+      "answer": "<mark>Subtotal + IVA (21%) = TOTAL</mark>",
+      "image": {
+        "title": "Money Calculator - Billing & Invoicing",
+        "source": "https://www.flickr.com/photos/156175444@N02/36127106165",
+        "alt": "Una calculadora junto a una factura, para calcular el total con el IVA",
+        "autor": "Cerillion",
+        "licencia": "CC BY 2.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/calculo-iva.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 6 · Operaciones de cobro y pago",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuándo se hace un pago al contado?",
+      "opciones": {
+        "a": "En el momento de recibir la mercancía o la prestación del servicio.",
+        "b": "Días o meses después de recibir la mercancía.",
+        "c": "Con una letra de cambio que vence más adelante."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es un pago anticipado?",
+      "opciones": {
+        "a": "Una cantidad que se entrega a cuenta del precio final de una operación de compraventa.",
+        "b": "El pago que se hace en el momento de recibir el producto.",
+        "c": "El pago que se aplaza hasta que el cliente pueda pagar."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p3",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
+      "huecos": [
+        { "texto": "El pago que se hace días o meses después de recibir la mercancía se llama pago ___.", "respuesta": "aplazado" },
+        { "texto": "El ___ es un justificante que entrega la persona que cobra a la que paga.", "respuesta": "recibo" },
+        { "texto": "El ___ es el instrumento con el que el emisor ordena a una entidad bancaria que entregue el dinero a un beneficiario.", "respuesta": "cheque" },
+        { "texto": "La ___ bancaria es la operación que transmite dinero de una cuenta a otra.", "respuesta": "transferencia" }
+      ],
+      "banco": ["aplazado", "recibo", "cheque", "transferencia"]
+    },
+    {
+      "id": "p4",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "El pago en efectivo se puede hacer con billetes y monedas extranjeros.", "respuesta": "V" },
+        { "texto": "La tarjeta de débito se puede usar aunque la cuenta no tenga dinero.", "respuesta": "F" },
+        { "texto": "En el comercio electrónico se puede pagar contra reembolso.", "respuesta": "V" },
+        { "texto": "El IBAN es el código que identifica una cuenta bancaria.", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada instrumento de pago con lo que hace. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "El recibo.",
+        "B": "La transferencia bancaria.",
+        "C": "La tarjeta de débito."
+      },
+      "derecha": {
+        "1": "Transmite dinero de una cuenta a otra.",
+        "2": "Es el justificante que entrega la persona que cobra.",
+        "3": "Resta el importe del pago en la cuenta en el momento de usarla."
+      },
+      "respuesta": { "A": "2", "B": "1", "C": "3" }
+    },
+    {
+      "id": "p6",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué documento acompaña a la mercancía y dice lo que se ha recibido?",
+      "opciones": {
+        "a": "La factura.",
+        "b": "El albarán.",
+        "c": "El presupuesto."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p7",
+      "tipo": "unir",
+      "enunciado": "Une cada documento con lo que es. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "La factura.",
+        "B": "El albarán.",
+        "C": "El presupuesto."
+      },
+      "derecha": {
+        "1": "Documento con el precio que se pide antes de comprar.",
+        "2": "Documento que justifica lo que se ha pagado.",
+        "3": "Documento que dice lo que se ha entregado."
+      },
+      "respuesta": { "A": "2", "B": "3", "C": "1" }
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "En Excel, ¿cómo se llama el conjunto de celdas seleccionadas verticalmente, que se nombra con letras?",
+      "opciones": {
+        "a": "Una fila.",
+        "b": "Una columna.",
+        "c": "Una banda de opciones."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué hace la fórmula =A1+A2?",
+      "opciones": {
+        "a": "Resta el contenido de A2 al de A1.",
+        "b": "Suma el contenido de A1 y el de A2.",
+        "c": "Divide el contenido de A1 entre el de A2."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p10",
+      "tipo": "clasificar",
+      "enunciado": "¿En qué momento se paga cada caso? Marca el tipo de pago.",
+      "categorias": ["Pago al contado", "Pago aplazado", "Pago anticipado"],
+      "elementos": [
+        { "texto": "El cliente paga en el momento de recoger la mercancía.", "respuesta": "Pago al contado" },
+        { "texto": "La empresa entrega la mercancía y el cliente paga treinta días después.", "respuesta": "Pago aplazado" },
+        { "texto": "El cliente deja una cantidad a cuenta antes de que le entreguen el producto.", "respuesta": "Pago anticipado" }
+      ]
+    },
+    {
+      "id": "p11",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál de estos NO es una forma de pago en el comercio electrónico?",
+      "opciones": {
+        "a": "La tarjeta de crédito.",
+        "b": "El pago contra reembolso.",
+        "c": "El cheque en papel."
+      },
+      "respuesta": "c"
+    },
+    {
+      "id": "p12",
+      "tipo": "seleccion",
+      "enunciado": "¿Cómo se guarda un libro de trabajo en Excel la primera vez?",
+      "opciones": {
+        "a": "Con Guardar, que sobrescribe el archivo anterior.",
+        "b": "Con Guardar como, eligiendo dónde y con qué nombre se guarda.",
+        "c": "No hace falta guardarlo, el programa ya lo hace todo."
+      },
+      "respuesta": "b"
+    }
+  ]
+}

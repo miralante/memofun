@@ -1,66 +1,42 @@
 {
-  "topic": "Documentos comerciales: pedido, albarán y factura",
-  "level": "principiante",
+  "topic": "Tema 6 · Documentos de la compraventa",
+  "level": "1º FPB",
   "locale": "es",
   "cards": [
     {
-      "question": "Es el documento oficial que certifica una venta y su importe. <mark>Es como un recibo oficial de una compra</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor. ¿Cómo se llama este documento?",
+      "question": "Al terminar una venta, el cliente recibe un documento oficial con lo comprado y lo que tiene que pagar. <mark>Es como un recibo oficial de una compra</mark>. Incluye el precio, los impuestos y los datos de comprador y vendedor. ¿Cómo se llama este documento?",
       "answer": "<mark>Factura</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/factura-def.jpg",
-        "title": "Bill for two cups of coffee at the Sóller train station",
-        "source": "https://commons.wikimedia.org/wiki/File:Paid_bill_for_coffee.jpg",
-        "alt": "Factura con la cantidad a pagar señalada.",
-        "autor": "Kritzolina",
-        "licencia": "CC BY-SA 4.0"
+        "title": "Please pay this amount",
+        "source": "https://www.flickr.com/photos/40838054@N00/8689212",
+        "alt": "Una factura con los conceptos y el importe que hay que pagar",
+        "autor": "miguelb",
+        "licencia": "CC BY 2.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/factura.jpg"
       }
     },
     {
-      "question": "Lleva los datos de quien vende y de quien compra. Lleva también el precio y el IVA. <mark>Es como una ficha completa de toda la compra</mark>. ¿Qué documento reúne toda esta información?",
-      "answer": "<mark>La factura</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/factura-info.jpg",
-        "title": "Plan Contable Sistorg PYMES",
-        "source": "https://commons.wikimedia.org/wiki/File:Plan_Contable_Sistorg_Cuadro_de_Cuentas_PYMES.jpg",
-        "alt": "Página de un libro de cuentas con datos anotados.",
-        "autor": "Sistorg",
-        "licencia": "CC BY-SA 4.0"
-      }
-    },
-    {
-      "question": "Es el documento que acompaña a la mercancía cuando se entrega. <mark>Es como un recibo que dice que todo llegó bien</mark>. Después se usa para elaborar la factura. ¿Cómo se llama este documento?",
+      "question": "Cuando el transportista deja la mercancía en el almacén, entrega un papel con lo que ha traído. <mark>Es como un recibo que dice que todo llegó bien</mark>. Después se usa para elaborar la factura. ¿Cómo se llama este documento?",
       "answer": "<mark>Albarán</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/albaran.jpg",
-        "title": "Накладная на отпуск товара ОП-4 (delivery note)",
-        "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B0_%D0%BE%D1%82%D0%BF%D1%83%D1%81%D0%BA_%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0_%D0%9E%D0%9F-4.png",
-        "alt": "Albarán de entrega de mercancía.",
-        "autor": "Госкомстат РФ",
+        "title": "Товарная накладная",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F.jpg",
+        "alt": "Un albarán de entrega con las unidades entregadas",
+        "autor": "Wikimedia Commons",
         "licencia": "Public domain"
       }
     },
     {
-      "question": "Es el documento que pide un cliente a un proveedor. <mark>Es como una lista de la compra, pero por escrito y oficial</mark>. ¿Cómo se llama este documento?",
+      "question": "Un cliente escribe a un proveedor para pedirle los productos que necesita. <mark>Es como una lista de la compra, pero por escrito y oficial</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Pedido</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/pedido.jpg",
-        "title": "Cuadro comparativo de los modelos gerenciales",
-        "source": "https://commons.wikimedia.org/wiki/File:Cuadro_comparativo_de_los_modelos_gerenciales.pdf",
-        "alt": "Cuadro con varios apartados y columnas.",
-        "autor": "Mivdr",
-        "licencia": "CC BY-SA 3.0"
-      }
-    },
-    {
-      "question": "El pedido pide la mercancía y la factura certifica el cobro. Entre los dos hay otro: confirma que la mercancía llegó. <mark>Es como el paso intermedio de pedir, recibir y pagar</mark>. ¿Cómo se llama ese documento intermedio?",
-      "answer": "<mark>El albarán</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/diferencia-pedido-albaran-factura.jpg",
-        "title": "Material de oficina de la editorial Kylix",
-        "source": "https://commons.wikimedia.org/wiki/File:A.4_Material_de_oficina_Kylix_(nos_1-11).pdf",
-        "alt": "Página de un manual de material de oficina.",
-        "autor": "Enja",
-        "licencia": "CC BY 3.0"
+        "title": "Clipboard Hand",
+        "source": "https://stocksnap.io/photo/clipboard-hand-TRKNLIGFAJ",
+        "alt": "Una persona revisando un pedido con una tablilla",
+        "autor": "Kristin Hardwick",
+        "licencia": "CC0 1.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/pedido.jpg"
       }
     },
     {
@@ -69,10 +45,70 @@
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/nota-pedido-formulario.jpg",
         "title": "Order form",
-        "source": "https://www.flickr.com/photos/58411470@N00/7172584503",
-        "alt": "Un formulario de pedido en papel, listo para rellenar con lo que se quiere comprar",
-        "autor": "kewl",
+        "source": "https://www.flickr.com/photos/92398591@N00/142214499",
+        "alt": "Un formulario de pedido con los datos del cliente y del producto",
+        "autor": "Australian Government Department of Industry",
         "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "El pedido pide la mercancía y la factura certifica el cobro. Entre los dos hay otro: confirma que la mercancía llegó. <mark>Es como el paso intermedio de pedir, recibir y pagar</mark>. ¿Cómo se llama ese documento intermedio?",
+      "answer": "<mark>El albarán</mark>",
+      "image": {
+        "title": "papeleo",
+        "source": "https://www.flickr.com/photos/26630539@N04/2675166220",
+        "alt": "Papeles y documentos de trabajo de la empresa",
+        "autor": "Laboratorio en Movimiento",
+        "licencia": "CC BY 2.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/documentos.jpg"
+      }
+    },
+    {
+      "question": "Antes de comprar algo, pides a la empresa el precio y te lo mandan por escrito. <mark>Es como pedir precio antes de decidir si compras algo</mark>. No es un compromiso de compra, solo una estimación. ¿Cómo se llama este documento?",
+      "answer": "<mark>Presupuesto</mark>",
+      "image": {
+        "title": "Calculator and Pen with Ledger",
+        "source": "https://www.flickr.com/photos/126131780@N08/14877276186",
+        "alt": "Una calculadora y un bolígrafo sobre un libro de cuentas",
+        "autor": "seniorplanning",
+        "licencia": "CC BY 2.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/presupuesto.jpg"
+      }
+    },
+    {
+      "question": "Pedir varios permite comparar precios y condiciones entre distintos proveedores. <mark>Es como comparar precios en distintas tiendas antes de elegir dónde comprar</mark>. Ayuda a tomar una decisión más informada. ¿Qué conviene pedir antes de comprar?",
+      "answer": "<mark>Varios presupuestos</mark>",
+      "image": {
+        "title": "Does sale mean lower prices or does it mean get outta here",
+        "source": "https://www.flickr.com/photos/44124401501@N01/3186783884",
+        "alt": "Una etiqueta de precio en un escaparate, para comparar los precios",
+        "autor": "sylvar",
+        "licencia": "CC BY 2.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/varios-presupuestos.jpg"
+      }
+    },
+    {
+      "question": "Para hacer trámites hay unos papeles con un formato fijo que solo hay que rellenar. <mark>Es como una plantilla que solo hay que completar con tus datos</mark>. ¿Cómo se llaman estos documentos?",
+      "answer": "<mark>Impresos oficiales</mark>",
+      "image": {
+        "title": "Listado",
+        "source": "https://www.flickr.com/photos/91485322@N00/1222324055",
+        "alt": "Formularios oficiales impresos con los datos de la declaración",
+        "autor": "srgpicker",
+        "licencia": "CC BY 2.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/impresos.jpg"
+      }
+    },
+    {
+      "question": "Un dato mal escrito puede retrasar o invalidar todo el trámite. <mark>Es como un error en un formulario: hay que empezar de nuevo</mark>. ¿Qué conviene hacer al rellenar un impreso oficial?",
+      "answer": "<mark>Rellenarlo bien</mark>",
+      "image": {
+        "title": "Legal Contract & Signature - Cool Tones",
+        "source": "https://www.flickr.com/photos/143601516@N03/27571322193",
+        "alt": "Un contrato con un bolígrafo listo para firmarlo",
+        "autor": "Visual Content",
+        "licencia": "CC BY 2.0",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/rellenarlo.jpg"
       }
     }
   ]

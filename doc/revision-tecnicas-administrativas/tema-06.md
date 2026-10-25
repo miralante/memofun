@@ -317,3 +317,49 @@ Calcular totales por año.
 | :--- | ---: |
 
 Calcular: totales trimestrales, semestrales y anual.
+
+---
+
+## Cobertura en la app
+
+| Sección del temario | Artefacto | Cobertura |
+| :--- | :--- | :--- |
+| 1. Medios e instrumentos de pago: pago al contado, pago aplazado o a crédito y pago anticipado | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago.json` | tarjetas 1-3 |
+| 2. Medios e instrumentos de pago al contado: el pago en efectivo, el recibo, el cheque, la transferencia bancaria y la tarjeta de débito | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago.json` | tarjetas 4-9 |
+| Complemento del temario oficial con el mismo contenido: IBAN, CCC, pagaré y letra de cambio (instrumentos del pago aplazado) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago.json` | tarjetas 10-13 |
+| 3. Operaciones de pago y cobro on line: comercio electrónico, tarjeta de crédito, pago contra reembolso y pasarela de pago | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/pago-online.json` | tarjetas 1-5 |
+| Hoja de cálculo (Excel), pantalla inicial: las diez partes de la ventana | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial.json` | tarjetas 1-10 |
+| Hoja de cálculo (Excel), conceptos básicos: columnas, filas, introducir datos, guardar el libro de trabajo y fórmulas básicas | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos.json` | tarjetas 1-7 |
+| Temario oficial de documentos comerciales: factura, albarán, pedido, nota de pedido, presupuesto, impresos oficiales | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json` | tarjetas 1-9 |
+| Temario oficial de cobros y pagos: operaciones de caja, cobro, pago, justificantes, nómina y registro | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/cobros-pagos-caja.json` | tarjetas 1-7 |
+| Ejercicios de repaso (pág. 55) y ejercicios prácticos de Excel | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/autoevaluacion.json` | 12 preguntas (5 tipos) |
+
+**Total tema 6:** 6 barajas (51 tarjetas) + 1 autoevaluación (12 preguntas).
+
+### Corrección de fidelidad
+
+Las cuatro barajas que había (`medios-pago-excel-material`, `excel-avanzado-instrumentos-pago`, `recibos-justificantes-pago` y `documentos-comerciales`) mezclaban medios de pago, Excel, material de oficina, control de existencias y nóminas. Se han rehecho siguiendo las secciones numeradas del libro:
+
+- **Faltaban los tres momentos del pago.** El libro define el pago al contado, el aplazado (o a crédito) y el anticipado; la app solo tenía el primero. Se han añadido los otros dos y el pago en efectivo (papel moneda y moneda metálica nacionales o extranjeros).
+- **Faltaba el recibo como instrumento de pago.** El libro lo coloca entre los medios de pago al contado («es un justificante que entrega la persona que cobra a la que paga»), y no como un bloque aparte de recibos.
+- **Faltaban las cuatro formas de pago del comercio electrónico.** Solo estaba la lista en bloque; ahora hay una tarjeta para el comercio electrónico, la tarjeta de crédito, el pago contra reembolso y la pasarela de pago.
+- **Faltaban partes de la pantalla de Excel.** De las diez partes que enumera el libro solo había cuatro (barra de título, acceso rápido, barra de estado y zoom). Ahora están las diez.
+- **Faltaban los pasos para introducir datos y para guardar el libro** (Guardar / Guardar como), que el libro explica de forma explícita.
+- **Se han eliminado cuatro tarjetas de material y existencias** (control de existencias, existencias de material, pedido cuando escasea y presupuesto de material): esos conceptos ya están cubiertos en el tema 5 (`inventario-control-existencias` y `material-oficina`).
+- **Se han eliminado dos tarjetas con respuesta duplicada** («La factura», repetida de «Factura») y una tarjeta sin concepto verificable («La base»).
+
+### Imágenes que no ilustraban la tarjeta
+
+Las imágenes del tema 6 estaban igual que las del tema 5: casi todas eran la
+portada de un PDF escaneado o de un libro antiguo. La de «material fungible»
+era un manual de suministros ferroviarios de 1896; la del CCC era un libro de
+reptiles y aves; la de guardar justificantes era un anuncio de papel de
+mosca; la de equipos de oficina era una cubierta en negro de un catálogo de la
+Library of Congress.
+
+Las 51 imágenes se han revisado una a una y todas muestran ahora su concepto:
+fotografías del propio repositorio con su TASL original, recortes de una
+captura real de Excel 365 (una por cada parte de la ventana) y cuatro
+imágenes de Wikimedia Commons (el extracto bancario con el IBAN marcado, la
+orden de transferencia, la etiqueta de pago contra reembolso y la letra de
+cambio de 1958). Las imágenes que quedaron sin uso están borradas.

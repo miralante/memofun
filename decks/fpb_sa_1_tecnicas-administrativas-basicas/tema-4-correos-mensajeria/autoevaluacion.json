@@ -1,0 +1,141 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 4 · Correos y mensajería",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuántas líneas operativas tiene Correos?",
+      "opciones": {
+        "a": "Cuatro: básica, urgente, paquetería y económica.",
+        "b": "Tres: básica, urgente y económica.",
+        "c": "Dos: la línea normal y la línea express."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué línea de Correos lleva el producto azul y el paquete de 48 o 72 horas?",
+      "opciones": {
+        "a": "La línea básica.",
+        "b": "La línea de paquetería.",
+        "c": "La línea económica."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p3",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
+      "huecos": [
+        { "texto": "El envío más rápido de Correos lleva un distintivo con la palabra ___.", "respuesta": "URGENTE" },
+        { "texto": "Correos ofrece dos servicios telegráficos: el ___ y el burofax.", "respuesta": "fax" },
+        { "texto": "El destinatario paga el importe al recibir el envío. Ese servicio se llama ___.", "respuesta": "reembolso" },
+        { "texto": "Un buzón con número que Correos guarda en su oficina se llama ___ postal.", "respuesta": "apartado" }
+      ],
+      "banco": ["URGENTE", "fax", "reembolso", "apartado"]
+    },
+    {
+      "id": "p4",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "El telegrama se entrega con acuse de recibo.", "respuesta": "V" },
+        { "texto": "El burofax es uno de los servicios telegráficos de Correos.", "respuesta": "V" },
+        { "texto": "El sobre del correo urgente lleva un distintivo en la parte superior derecha.", "respuesta": "V" },
+        { "texto": "El aviso de recibo no se devuelve nunca al remitente.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada envío con la línea de Correos que lo transporta. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "La carta y la tarjeta postal.",
+        "B": "El postal exprés y la valija.",
+        "C": "Los libros y las publicaciones periódicas."
+      },
+      "derecha": {
+        "1": "Línea económica",
+        "2": "Línea urgente",
+        "3": "Línea básica"
+      },
+      "respuesta": { "A": "3", "B": "2", "C": "1" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada modalidad de envío con su descripción.",
+      "izquierda": {
+        "A": "Certificado",
+        "B": "Reembolso",
+        "C": "Aviso de recibo"
+      },
+      "derecha": {
+        "1": "El destinatario paga el importe del envío cuando lo recibe.",
+        "2": "Quien recibe firma con la fecha y la hora y devuelve el resguardo al remitente.",
+        "3": "El remitente firma la entrega y, si el envío se pierde, recibe una indemnización."
+      },
+      "respuesta": { "A": "3", "B": "1", "C": "2" }
+    },
+    {
+      "id": "p7",
+      "tipo": "seleccion",
+      "enunciado": "¿En qué esquina del sobre van los datos del remitente?",
+      "opciones": {
+        "a": "En la esquina superior izquierda.",
+        "b": "En la esquina inferior derecha.",
+        "c": "En el reverso del sobre, siempre debajo del sello."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "¿De qué color puede ser el sobre de un envío normal?",
+      "opciones": {
+        "a": "Azul.",
+        "b": "Blanco o de colores claros, pero nunca azul.",
+        "c": "Negro, para que se note menos."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p9",
+      "tipo": "clasificar",
+      "enunciado": "¿Qué servicio de mensajería externa es cada caso? Marca el servicio: acuse de recibo, entrega en mano o servicios internacionales.",
+      "categorias": ["Acuse de recibo", "Entrega en mano", "Servicios internacionales"],
+      "elementos": [
+        { "texto": "La entrega se confirma al remitente con una llamada de teléfono a los pocos minutos.", "respuesta": "Acuse de recibo" },
+        { "texto": "Los propios empleados de la mensajería se desplazan hasta el domicilio.", "respuesta": "Entrega en mano" },
+        { "texto": "El envío sale del país por medios aéreos y terrestres.", "respuesta": "Servicios internacionales" }
+      ]
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué servicio de mensajería asegura la entrega al día siguiente?",
+      "opciones": {
+        "a": "El servicio de 24 horas.",
+        "b": "El servicio de hora fijada.",
+        "c": "El servicio urgente diurno o nocturno."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p11",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "El servicio de valijas recoge y envía valijas entre sucursales de una misma entidad.", "respuesta": "V" },
+        { "texto": "Los envíos con retorno se emplean para devolver documentos a los remitentes.", "respuesta": "V" },
+        { "texto": "El apartado postal es un buzón con número que el cliente recoge en la oficina de Correos.", "respuesta": "V" },
+        { "texto": "El telegrama se entrega sin acuse de recibo.", "respuesta": "F" }
+      ]
+    }
+  ]
+}

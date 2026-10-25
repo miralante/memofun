@@ -1,54 +1,66 @@
 {
-  "topic": "Material y equipos de oficina",
+  "topic": "Material de oficina",
   "level": "principiante",
   "locale": "es",
   "cards": [
     {
+      "question": "En una oficina hacen falta papel, bolígrafos, carpetas, clips y sobres. Se usan mucho y hay que reponerlos. <mark>Es como la lista de cosas que siempre faltan en el cajón de la mesa</mark>. ¿Cómo se llama ese conjunto de artículos?",
+      "answer": "<mark>El material de oficina</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/papeleo-escritorio-oficina.jpg",
+        "title": "paperwork mixup",
+        "source": "https://www.flickr.com/photos/29233640@N07/9590785264",
+        "alt": "Papeleo y documentos variados sobre un escritorio de oficina",
+        "autor": "Robert Couse-Baker",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
       "question": "Grapas, clips, papel y tinta se gastan. Hay que reponerlos. <mark>Es como la comida del frigorífico: se consume y vuelve a comprar</mark>. ¿Cómo se llama este tipo de material de oficina?",
       "answer": "<mark>Material fungible</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/material-fungible.jpg",
-        "title": "95, [1] p. 21 cm Subjects: Railroads -- Management; Railroads -- Equipment and supplies",
-        "source": "https://commons.wikimedia.org/wiki/File:Railroad_supplies,_pay-rolls_and_employes._(IA_railroadsupplies00nort).pdf",
-        "alt": "(imagen)",
-        "autor": "[Norton, Benjamin] [from old catalog]",
-        "licencia": "Public domain"
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/cartucho-tinta.jpg",
+        "title": "Epson ink-jet cartridge T019 black",
+        "source": "https://commons.wikimedia.org/wiki/File:Epson_ink-jet_cartridge_T019_black-3898.jpg",
+        "alt": "Un cartucho de tinta de impresora, que se gasta y hay que reponer",
+        "autor": "Raimond Spekking",
+        "licencia": "CC BY-SA 4.0"
       }
     },
     {
       "question": "Una grapadora, una calculadora o unas tijeras no se gastan. Duran mucho tiempo. <mark>Es como una sartén: la compras una vez y la usas años</mark>. ¿Cómo se llama este tipo de material de oficina?",
       "answer": "<mark>Material no fungible</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/material-no-fungible.jpg",
-        "title": "TECHNOLOGIES TRANSFORMING TRANSPORTATION: IS THE GOVERNMENT KEEPING UP? (US Senate hearing)",
-        "source": "https://commons.wikimedia.org/wiki/File:TECHNOLOGIES_TRANSFORMING_TRANSPORTATION-_IS_THE_GOVERNMENT_KEEPING_UP%3F_(IA_gov.gpo.fdsys.CHRG-114shrg99958).pdf",
-        "alt": "(imagen)",
-        "autor": "Committee on Commerce, Science, and Transportation",
-        "licencia": "Public domain"
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/grapadora.jpg",
+        "title": "2017 Zszywacz biurowy",
+        "source": "https://commons.wikimedia.org/wiki/File:2017_Zszywacz_biurowy.jpg",
+        "alt": "Una grapadora de oficina, que se usa durante años sin gastarse",
+        "autor": "Jacek Halicki",
+        "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "question": "Son máquinas que duran, como ordenadores o impresoras. Se usan muchas veces al día. <mark>Es como los electrodomésticos de casa: funcionan muchos años</mark>. ¿Cómo se llama este conjunto de máquinas de la oficina?",
-      "answer": "<mark>Equipos de oficina</mark>",
+      "question": "Estos se gastan con el uso: las grapas, las etiquetas, el papel, los post-it, los clips, el pegamento y la tinta de la impresora. <mark>Es como la comida: en cuanto se acaba hay que comprar más</mark>. Pon un ejemplo de material de oficina fungible.",
+      "answer": "<mark>Las grapas</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/equipos-oficina.jpg",
-        "title": "Equipment arrangement using interactive computer graphics on personal computers",
-        "source": "https://commons.wikimedia.org/wiki/File:Equipment_arrangement_using_interactive_computer_graphics_on_personal_computers._(IA_equipmentarrange00meye).pdf",
-        "alt": "(imagen)",
-        "autor": "Meyers, Michael J.",
-        "licencia": "Public domain"
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/clip-adjuntar.jpg",
+        "title": "paper-clips_colored_27071-480x360",
+        "source": "https://www.flickr.com/photos/28958738@N06/4905243128",
+        "alt": "Varios clips de colores para sujetar papeles",
+        "autor": "Public Domain Photos",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "Un aparato imprime, escanea, copia y envía correos. <mark>Es como una navaja suiza: muchas funciones en un solo aparato</mark>. ¿Cómo se llama este equipo?",
-      "answer": "<mark>Aparato multifunción</mark>",
+      "question": "Estos no se gastan con el uso: las grapadoras, las taladradoras, las encuadernadoras, las tijeras y las calculadoras. <mark>Es como los electrodomésticos de casa: se usan durante años</mark>. Pon un ejemplo de material de oficina no fungible.",
+      "answer": "<mark>Una calculadora</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/aparato-multifuncion.jpg",
-        "title": "Pamphlet titled \"Hopewell Culture\" distributed by US Park Service c. 2000",
-        "source": "https://commons.wikimedia.org/wiki/File:Hopewell_Culture_1_of_4,_upper_front.pdf",
-        "alt": "(imagen)",
-        "autor": "US. Department of Interior",
-        "licencia": "Public domain"
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/calculadora.jpg",
+        "title": "Calculator",
+        "source": "https://www.flickr.com/photos/59937401@N07/5856725357",
+        "alt": "Una calculadora sobre una mesa de oficina, con un bolígrafo y billetes",
+        "autor": "Images_of_Money",
+        "licencia": "CC BY 2.0"
       }
     }
   ]

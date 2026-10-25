@@ -1,0 +1,141 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 5 · Material de oficina",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Técnicas Administrativas Básicas",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué es el material de oficina?",
+      "opciones": {
+        "a": "Los artículos necesarios para el trabajo diario en un entorno administrativo, de uso frecuente y reemplazable.",
+        "b": "Las máquinas y dispositivos duraderos que se usan en una oficina.",
+        "c": "Los muebles que hay en el puesto de trabajo."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué tipo de material se consume con el uso y hay que reponer constantemente?",
+      "opciones": {
+        "a": "El material fungible.",
+        "b": "El material no fungible.",
+        "c": "El material de inventario fijo."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p3",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
+      "huecos": [
+        { "texto": "Las grapadoras, las taladradoras y las tijeras son material ___.", "respuesta": "no fungible" },
+        { "texto": "El papel, los clips y la tinta de la impresora son material ___.", "respuesta": "fungible" },
+        { "texto": "El equipo de oficina que imprime, escanea y fotocopia a la vez es el aparato ___.", "respuesta": "multifunción" },
+        { "texto": "Las sillas de oficina diseñadas para evitar problemas de salud son las ___.", "respuesta": "ergonómicas" }
+      ],
+      "banco": ["no fungible", "fungible", "multifunción", "ergonómicas"]
+    },
+    {
+      "id": "p4",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "Una calculadora es material no fungible.", "respuesta": "V" },
+        { "texto": "Los escáneres convierten un documento en un archivo que se puede tratar con el ordenador.", "respuesta": "V" },
+        { "texto": "Las mesas auxiliares se usan para guardar documentos y materiales.", "respuesta": "V" },
+        { "texto": "Los armarios de la oficina se usan sobre todo para colgar avisos al personal.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada elemento con el tipo que le corresponde. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Grapas y clips.",
+        "B": "Tijeras y grapadoras.",
+        "C": "Impresora y escáner."
+      },
+      "derecha": {
+        "1": "Equipo de oficina",
+        "2": "Material no fungible",
+        "3": "Material fungible"
+      },
+      "respuesta": { "A": "3", "B": "2", "C": "1" }
+    },
+    {
+      "id": "p6",
+      "tipo": "unir",
+      "enunciado": "Une cada equipo de oficina con lo que hace.",
+      "izquierda": {
+        "A": "El escáner.",
+        "B": "La fotocopiadora.",
+        "C": "La impresora."
+      },
+      "derecha": {
+        "1": "Reproduce un documento en papel a partir de otro formato físico.",
+        "2": "Digitaliza un documento y lo convierte en un archivo.",
+        "3": "Reproduce en papel los archivos de texto e imágenes del ordenador."
+      },
+      "respuesta": { "A": "2", "B": "1", "C": "3" }
+    },
+    {
+      "id": "p7",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál de estos es material de oficina no fungible?",
+      "opciones": {
+        "a": "La grapadora.",
+        "b": "El papel.",
+        "c": "La tinta de la impresora."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué tipos de mesas debe tener toda oficina?",
+      "opciones": {
+        "a": "Solo mesas operativas, una por puesto de trabajo.",
+        "b": "Mesas operativas, auxiliares y una mesa de reunión.",
+        "c": "Solo una mesa de reunión grande para todos."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Para qué sirven los tablones de anuncios de la oficina?",
+      "opciones": {
+        "a": "Para custodian los documentos que la empresa debe conservar.",
+        "b": "Para enterarse de las tareas que se hacen, los horarios y los avisos urgentes.",
+        "c": "Para imprimir y escanear documentos."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p10",
+      "tipo": "clasificar",
+      "enunciado": "¿Qué tipo de elemento es cada uno? Marca el tipo: material fungible, material no fungible o equipo de oficina.",
+      "categorias": ["Material fungible", "Material no fungible", "Equipo de oficina"],
+      "elementos": [
+        { "texto": "La tinta de la impresora.", "respuesta": "Material fungible" },
+        { "texto": "Un taladrador.", "respuesta": "Material no fungible" },
+        { "texto": "Un ordenador.", "respuesta": "Equipo de oficina" }
+      ]
+    },
+    {
+      "id": "p11",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "Los equipos de oficina suelen formar parte del inventario fijo de la empresa.", "respuesta": "V" },
+        { "texto": "Los equipos de oficina necesitan mantenimiento a largo plazo.", "respuesta": "V" },
+        { "texto": "Los equipos de oficina se consumen con el uso.", "respuesta": "F" },
+        { "texto": "El material de oficina incluye el papel, los bolígrafos, las carpetas, los clips y los sobres.", "respuesta": "V" }
+      ]
+    }
+  ]
+}

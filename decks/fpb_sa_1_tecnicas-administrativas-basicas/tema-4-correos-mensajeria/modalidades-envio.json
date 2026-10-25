@@ -1,0 +1,79 @@
+{
+  "topic": "Modalidades de envío",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "Un envío certificado cuesta más y pide firma al recibirlo. Si se pierde, el remitente recibe dinero. <mark>Es como enviar un papel importante con acuse de recibo</mark>. ¿Cómo se llama este servicio de Correos?",
+      "answer": "<mark>Certificado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/certificado.jpg",
+        "title": "Gobierno de Zapopan",
+        "source": "https://commons.wikimedia.org/wiki/File:Reglamento-de-Firma-El%C3%A9ctronica-Avanzada.pdf",
+        "alt": "Página de un reglamento oficial con una firma electrónica.",
+        "autor": "Gobierno de Zapopan",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Un certificado trae los datos del remitente, los del destinatario, el tipo de producto, los servicios adicionales y la firma del cliente. <mark>Es como un parte que rellenas en la ventanilla antes de que te lo envíen</mark>. ¿Qué partes tiene el certificado de envío?",
+      "answer": "<mark>Remitente, destinatario, producto, servicios adicionales y firma</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/tarjeta-invitacion.jpg",
+        "title": "Tarjeta invitacion libro vivencias",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=49630354",
+        "alt": "Una tarjeta de invitación escrita a mano",
+        "autor": "Anucha9",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "El correo urgente es el envío más rápido de Correos. Los sobres llevan un distintivo en la parte superior derecha con la palabra URGENTE. <mark>Es como el paquete que te llega con la palabra EXPRESS pegada encima</mark>. ¿Qué distintivo llevan los sobres del correo urgente?",
+      "answer": "<mark>Un distintivo con la palabra URGENTE</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/sello-confidencial.jpg",
+        "title": "'Restricted Data' stamp",
+        "source": "https://www.flickr.com/photos/69537337@N02/6322624283",
+        "alt": "Un sello de \"información restringida\" sobre un documento",
+        "autor": "RestrictedData",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "El cliente paga al repartidor al recibir el paquete. <mark>Es como pagar al repartidor de pizza al abrir la puerta</mark>. ¿Cómo se llama este servicio de pagar al recibir?",
+      "answer": "<mark>Reembolso</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/reembolso.jpg",
+        "title": "Bette Davis - The Bride Came C.O.D., 1941 promo",
+        "source": "https://commons.wikimedia.org/wiki/File:Bette_Davis_-_The_Bride_Came_C.O.D.,_1941_promo.jpg",
+        "alt": "Cartel de una película antigua.",
+        "autor": "Warner Bros.",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Un servicio con firma, fecha y hora de quien recibe. Esa nota vuelve al remitente. <mark>Es como firmar al recoger un paquete</mark>. ¿Cómo se llama este servicio?",
+      "answer": "<mark>Aviso de recibo</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/aviso-recibo.jpg",
+        "title": "Official Journal of the European Union - C 335 of 2 September 2022 - Spanish edition",
+        "source": "https://commons.wikimedia.org/wiki/File:OJ_C_335A_of_2022_-_ES_Spanish.pdf",
+        "alt": "Página del Diario Oficial de la Unión Europea.",
+        "autor": "Publications Office of the European Union",
+        "licencia": "Public domain"
+      }
+    },
+    {
+      "question": "Cartas y postales que se envían por internet. Se envían desde la plataforma de Correos. <mark>Es como un email, pero con el sello de Correos</mark>. ¿Cómo se llama este servicio?",
+      "answer": "<mark>Correo digital</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/correo-digital.jpg",
+        "title": "El correo electrónico, en todos sus ámbitos con todas sus características globales. Trabajo Propio Autor:",
+        "source": "https://commons.wikimedia.org/wiki/File:Qu%C3%A9_es_una_cuenta_de_correo_electr%C3%B3nico.pdf",
+        "alt": "Página de un documento que explica el correo electrónico.",
+        "autor": "No machine-readable author provided.",
+        "licencia": "CC BY-SA 4.0"
+      }
+    }
+  ]
+}

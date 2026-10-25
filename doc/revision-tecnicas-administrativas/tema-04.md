@@ -153,4 +153,43 @@ Cumplimentación correcta de sobres:
 - Destinatario: parte inferior central/derecha, en 4 líneas
 
 ### Ejercicio 5
+
 Detecta y corrige errores en la cumplimentación de un envío de paquete azul certificado urgente con entrega a domicilio.
+
+---
+
+## Cobertura en la app
+
+| Sección del temario | Artefacto | Cobertura |
+| :--- | :--- | :--- |
+| 1. El servicio de Correos: líneas operativas (básica, urgente, paquetería y económica) y sus productos | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-lineas.json` | tarjetas 2-6 |
+| 1. Servicios telegráficos (fax y burofax, telegrama con entrega registrada) y gestión de buzón (apartado postal) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-lineas.json` | tarjetas 7-9 |
+| 2. Modalidades de envío (certificado, correo urgente, reembolso, aviso de recibo, correo digital) y partes del certificado | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio.json` | tarjetas 1-6 |
+| 3. Envío de correspondencia y paquetería: embalaje, normalización, requisitos del envío y dirección | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria.json` | tarjetas 1-7 |
+| 4. El servicio de mensajería externa (tabla de la pág. 39) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa.json` | tarjetas 1-12 |
+| Ejercicios 1-5 | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/autoevaluacion.json` | 11 preguntas (5 tipos) |
+
+**Total tema 4:** 4 barajas (34 tarjetas) + 1 autoevaluación (11 preguntas).
+
+### Corrección de fidelidad
+
+La tarjeta que decía «Correos tiene tres tipos de envío: básico, urgente y
+económico» era **incorrecta**: el libro describe **cuatro** líneas
+operativas (pág. 34), con la de paquetería entre la urgente y la económica.
+La lista de productos de cada línea (carta, tarjeta postal y notificación
+administrativa; postal exprés y valija; producto azul, paquete de 48 o 72
+horas y hasta 20 kilos; publicorreo, publibuzón, creamailing, libros y
+publicaciones) no tenía ninguna tarjeta y ahora sí.
+
+### Tarjeta que no es del tema
+
+- «La correspondencia» (recibir, registrar, clasificar y entregar la
+  correspondencia) viene del bloque de temario oficial «Tramitar
+  correspondencia y paquetería paso a paso» y no de una sección concreta del
+  libro. Se queda en el tema porque el envío de correspondencia es su §3.
+
+### Detalle del libro que no tenía tarjeta
+
+El apartado 2.1 del libro (pág. 37) detalla las **partes del certificado**
+(remitente, destinatario, tipo de producto, servicios adicionales y firma).
+Se han cubierto con una tarjeta dentro de `modalidades-envio`.
