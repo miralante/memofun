@@ -135,7 +135,7 @@ Esta es la regla didáctica más distintiva del proyecto.
 |---|---|---|---|
 | **Primaria** | 1–6 | Lengua castellana, Ciencias naturales, Ciencias sociales | ~139 |
 | **ESO** | 1–4 | Lengua castellana, Geografía e historia, Biología y geología, Física y química | ~93 |
-| **FP Básica — Servicios administrativos** | 1–2 | Lengua, ciencias, técnicas administrativas, ofimática, atención al cliente, tratamiento de datos | ~22 |
+| **FP Básica — Servicios administrativos** | 1–2 | Lengua, ciencias naturales y sociales, técnicas administrativas, ofimática, atención al cliente, tratamiento de datos | ~22 |
 | **FP GM — Gestión administrativa** | 1–2 | Comunicación empresarial, empresa y administración, técnica contable, operaciones, sostenibilidad, digitalización | ~26 |
 | **Mapa mundi** | — | Banderas, capitales, ciudades, continentes, geografía física, récords | ~12 |
 
@@ -163,8 +163,14 @@ Esta es la regla didáctica más distintiva del proyecto.
 
 | Nivel | Temas |
 |---|---|
-| 1 | Lengua, ciencias, ciencias sociales, itinerario personal y de empleabilidad, técnicas administrativas básicas, atención al cliente, tratamiento informático de datos |
-| 2 | Lengua, ciencias, ciencias sociales, aplicaciones básicas de ofimática, archivo y comunicación, preparación de pedidos y venta de productos |
+| 1 | Itinerario personal y de empleabilidad, técnicas administrativas básicas, tratamiento informático de datos, lengua castellana, ciencias sociales, ciencias naturales |
+| 2 | Atención al cliente, archivo y comunicación, aplicaciones básicas de ofimática, preparación de pedidos y venta de productos, lengua castellana, ciencias sociales, ciencias naturales |
+
+> «Ciencias naturales» se anuncia en la app como asignatura aún sin
+> barajas: su tarjeta sale bloqueada con «Próximamente». Lo mismo ocurre
+> con las asignaturas que tienen barajas escritas pero todavía no
+> publicadas (lengua castellana, ciencias sociales y tratamiento
+> informático de datos del 1º; todas las del 2º).
 
 #### 2.2.4 FP GM — Gestión administrativa (1–2)
 

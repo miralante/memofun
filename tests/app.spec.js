@@ -827,3 +827,57 @@ test('25 — a launched course opens its subjects from the public home', async (
   await expect(page.locator('#deck-grid .deck-card', { hasText: 'Capitales del Mundo' }).first()).toBeVisible();
   await expect(page.locator('#deck-grid .deck-card--soon')).toHaveCount(0);
 });
+
+test('26 — FPB 1 shows its whole programme: the pending subjects are locked cards', async ({ browser }) => {
+  // Locale pinned to es so the badge text is deterministic.
+  const page = await openWithStorage(browser, () => {
+    localStorage.setItem('memofun:locale', JSON.stringify('es'));
+  });
+  await page.locator('#deck-grid .deck-card', { hasText: '1º de FP Básica Servicios Administrativos' }).first().click();
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForSelector('#deck-grid .deck-card');
+
+  const cards = await page.locator('#deck-grid > .deck-grid > .deck-card').evaluateAll(nodes =>
+    nodes.map(n => ({
+      title: (n.querySelector('h3') || {}).textContent,
+      locked: n.classList.contains('deck-card--soon'),
+      tag: n.tagName,
+      href: n.getAttribute('href'),
+      badge: ((n.querySelector('.deck-soon-badge') || {}).textContent || '').trim()
+    }))
+  );
+
+  // The whole programme is on screen, in curriculum order — including
+  // Ciencias Naturales, which has no deck at all yet.
+  expect(cards.map(c => c.title)).toEqual([
+    'Itinerario Personal para la Empleabilidad',
+    'Técnicas Administrativas Básicas',
+    'Tratamiento Informático de Datos',
+    'Lengua Castellana',
+    'Ciencias Sociales',
+    'Ciencias Naturales'
+  ]);
+
+  const byTitle = {};
+  cards.forEach(c => { byTitle[c.title] = c; });
+
+  // The two published subjects open…
+  for (const title of ['Itinerario Personal para la Empleabilidad', 'Técnicas Administrativas Básicas']) {
+    expect(byTitle[title].locked).toBe(false);
+    expect(byTitle[title].tag).toBe('A');
+    expect(byTitle[title].href).toBeTruthy();
+  }
+  // …and the pending ones are the locked card: a div with the badge and
+  // no href, so they cannot be opened by mistake.
+  for (const title of [
+    'Tratamiento Informático de Datos',
+    'Lengua Castellana',
+    'Ciencias Sociales',
+    'Ciencias Naturales'
+  ]) {
+    expect(byTitle[title].locked).toBe(true);
+    expect(byTitle[title].tag).toBe('DIV');
+    expect(byTitle[title].href).toBeNull();
+    expect(byTitle[title].badge).toBe('Próximamente');
+  }
+});

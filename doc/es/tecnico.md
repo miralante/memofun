@@ -276,6 +276,17 @@ normales, así que atrás/adelante y los marcadores funcionan gratis:
   por sesión de `contenidos.md`), pero la pantalla de inicio no lo
   enseña. Es la misma regla que en las tarjetas de tema y asignatura:
   un número por nivel, y en el nivel de baraja ningún número.
+- **Asignaturas declaradas por curso** (`COURSE_SUBJECTS` en `app.js`): el
+  manifest solo conoce las asignaturas que ya tienen barajas, así que un
+  curso enseñaría un programa incompleto — el usuario ni siquiera vería
+  que Lengua Castellana, Ciencias Sociales o Ciencias Naturales forman
+  parte del curso. `COURSE_SUBJECTS` declara la lista completa de
+  asignaturas de un curso y su orden; una asignatura declarada que aún no
+  tiene baraja **igual aparece**, con la insignia "Próximamente" y sin
+  enlace (detrás no hay nada que abrir, tampoco en el espejo `/dev/`).
+  Una asignatura que llega al manifest y no está declarada se sigue
+  enseñando, al final y en el orden del manifest: añadir una baraja
+  nunca puede hacer desaparecer una asignatura de su curso.
 
 Esto añade niveles al flujo descrito en la regla 10 de §5 **solo**
 para las barajas que usan `course`/`subject` (y `topicGroup`) — las

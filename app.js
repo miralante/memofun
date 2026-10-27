@@ -56,11 +56,11 @@
 
   /* Subjects that are open within a course. The structure mirrors OPEN_COURSES:
      course → [open subjects]. Any subject not listed (or a course not in this
-     map) is fully open. 1º de FP Básica tiene cuatro asignaturas en la
-     biblioteca; las dos que están listas (Itinerario Personal para la
-     Empleabilidad y Técnicas Administrativas Básicas) son las únicas con
-     contenido publicado. Las demás tienen barajas en el manifest pero no se
-     han publicado — el dev page (/dev/index.html) es la referencia completa.
+     map) is fully open. 1º de FP Básica declara seis asignaturas (ver
+     COURSE_SUBJECTS más abajo); solo dos tienen contenido publicado (Itinerario
+     Personal para la Empleabilidad y Técnicas Administrativas Básicas). Las
+     demás tienen barajas en el manifest pero no se han publicado — el dev page
+     (/dev/index.html) es la referencia completa.
 
      Adding a subject here makes it clickable from the public index.
      Removing it makes it show a "Próximamente" badge. */
@@ -68,6 +68,39 @@
     '1º de FP Básica Servicios Administrativos': [
       'Itinerario Personal para la Empleabilidad',
       'Técnicas Administrativas Básicas'
+    ]
+  };
+
+  /* The full subject list of a course, in display order.
+
+     The manifest only knows the subjects that already have decks, so a
+     course would show an incomplete programme: the user would not even
+     see that Lengua Castellana, Ciencias Sociales or Ciencias Naturales
+     are part of it. Declaring the list here closes that gap — a subject
+     with no deck yet still gets a card, locked with "Próximamente"
+     (there is nothing to open behind it), and the grid follows the
+     curriculum order instead of the accidental order of the manifest.
+
+     A subject the manifest brings but this list doesn't mention is still
+     rendered, at the end and in manifest order: adding a deck must never
+     make a subject disappear from its course. */
+  var COURSE_SUBJECTS = {
+    '1º de FP Básica Servicios Administrativos': [
+      'Itinerario Personal para la Empleabilidad',
+      'Técnicas Administrativas Básicas',
+      'Tratamiento Informático de Datos',
+      'Lengua Castellana',
+      'Ciencias Sociales',
+      'Ciencias Naturales'
+    ],
+    '2º de FP Básica Servicios Administrativos': [
+      'Atención al Cliente',
+      'Archivo y Comunicación',
+      'Aplicaciones Básicas de Ofimática',
+      'Preparación de Pedidos y Venta de Productos',
+      'Lengua Castellana',
+      'Ciencias Sociales',
+      'Ciencias Naturales'
     ]
   };
 
@@ -224,13 +257,13 @@
      fewer generic 📘 repeats, easier to scan, still emoji. */
   var SUBJECT_ICONS = {
     'Lengua Castellana': '✍️',
-    'Lengua Castellana y Sociedad': '✍️',
     'Lengua y Literatura': '📖',
     'Literatura': '📖',
     'Biología y Geología': '🌿',
     'Física y Química': '⚗️',
     'Geografía e Historia': '🗺️',
     'Ciencias Aplicadas': '🔬',
+    'Ciencias Naturales': '🔬',
     'Ciencias Sociales': '🌍',
     'Matemáticas': '📐',
     'Inglés': '🗣️',
@@ -543,6 +576,15 @@
     var bySubject = groupBy(inCourse, function (d) { return d.subject || ''; });
     var pinned = App.storage.get('prefs').cursoFijado === course;
 
+    /* The subject list of this course: the declared one first (curriculum
+       order), then any subject the manifest brings that the declaration
+       doesn't mention — at the end, in manifest order, so a new deck can
+       never make a subject vanish from its course. */
+    var subjects = (COURSE_SUBJECTS[course] || []).slice();
+    bySubject.order.forEach(function (s) {
+      if (subjects.indexOf(s) === -1) subjects.push(s);
+    });
+
     var html = '<div class="section-header">' +
       '<div class="heading-with-back">' + backLinkHtml(buildUrl()) +
       '<h2 class="section-heading">' + App.utils.escapeHtml(course) + '</h2></div>' +
@@ -550,8 +592,10 @@
       (pinned ? '📌 ' + App.i18n.t('home.pinnedButton') : '📌 ' + App.i18n.t('home.pinButton')) +
       '</button></div>';
 
-    html += '<div class="deck-grid" role="list">' + bySubject.order.map(function (subject, i) {
-      var subjectDecks = bySubject.map[subject];
+    html += '<div class="deck-grid" role="list">' + subjects.map(function (subject, i) {
+      /* A declared subject may have no deck yet (see COURSE_SUBJECTS): it
+         still gets a card, so the course shows its whole programme. */
+      var subjectDecks = bySubject.map[subject] || [];
       /* A subject can hold two shapes, in this order of precedence:
          - decks grouped into topics (`topicGroup`) → one card per topic, so
            the sections inside a topic are never flattened into this
@@ -594,7 +638,10 @@
         '<span class="deck-icon" aria-hidden="true">' + icon + '</span>' +
         '<h3>' + App.utils.escapeHtml(subject) + '</h3>' +
         (meta ? '<span class="deck-meta">' + meta + '</span>' : '');
-      if (!isSubjectOpen(course, subject)) {
+      /* A subject with no deck yet has nothing behind it: it is the locked
+         card even in the /dev/ mirror — "Próximamente" is the truth there
+         too, because there is no content to open. */
+      if (!subjectDecks.length || !isSubjectOpen(course, subject)) {
         return '<div class="deck-card deck-card--soon' + badgeClassFor(i) + '" role="listitem">' +
           body +
           '<span class="deck-soon-badge">' + App.i18n.t('home.comingSoon') + '</span>' +

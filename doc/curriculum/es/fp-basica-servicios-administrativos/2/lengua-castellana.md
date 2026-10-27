@@ -1,5 +1,5 @@
 ---
-tema: "Lengua Castellana y Sociedad - FP Básica Servicios Administrativos (2º)"
+tema: "Lengua Castellana - FP Básica Servicios Administrativos (2º)"
 nivel: "principiante"
 cantidad: 30
 salida: "fpb_sa_2_lengua-castellana.json"

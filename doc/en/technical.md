@@ -256,6 +256,17 @@ back/forward and bookmarking work for free:
   contract (the 8–15 cards per session of `contents.md`), but the home
   screen does not show it. Same rule as the topic and subject cards:
   one number per level, and at the deck level no number at all.
+- **Subjects declared per course** (`COURSE_SUBJECTS` in `app.js`): the
+  manifest only knows the subjects that already have decks, so a course
+  would show an incomplete programme — the user would not even see that
+  Lengua Castellana, Ciencias Sociales or Ciencias Naturales are part of
+  it. `COURSE_SUBJECTS` declares a course's full subject list and its
+  order; a declared subject with no deck yet **still appears**, carrying
+  the "Coming soon" badge and no link (there is nothing behind it to
+  open, not even on the `/dev/` mirror). A subject the manifest brings
+  that is not declared is still rendered, at the end and in manifest
+  order: adding a deck can never make a subject disappear from its
+  course.
 
 This adds levels to the flow described in §5 rule 10 *only* for
 decks that opt into `course`/`subject` (and `topicGroup`) — flat

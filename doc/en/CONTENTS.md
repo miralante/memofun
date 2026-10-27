@@ -132,7 +132,7 @@ The card front is **always a clue** (see
 |---|---|---|---|
 | **Primaria** | 1–6 | Lengua castellana, Ciencias naturales, Ciencias sociales | ~139 |
 | **ESO** | 1–4 | Lengua castellana, Geografía e historia, Biología y geología, Física y química | ~93 |
-| **FP Básica — Servicios administrativos** | 1–2 | Lengua, ciencias, técnicas administrativas, ofimática, atención al cliente, tratamiento de datos | ~22 |
+| **FP Básica — Servicios administrativos** | 1–2 | Lengua, ciencias naturales y sociales, técnicas administrativas, ofimática, atención al cliente, tratamiento de datos | ~22 |
 | **FP GM — Gestión administrativa** | 1–2 | Comunicación empresarial, empresa y administración, técnica contable, operaciones, sostenibilidad, digitalización | ~26 |
 | **Mapa mundi** | — | Banderas, capitales, ciudades, continentes, geografía física, récords | ~12 |
 
@@ -160,8 +160,14 @@ The card front is **always a clue** (see
 
 | Level | Topics |
 |---|---|
-| 1 | Lengua, ciencias, ciencias sociales, itinerario personal y de empleabilidad, técnicas administrativas básicas, atención al cliente, tratamiento informático de datos |
-| 2 | Lengua, ciencias, ciencias sociales, aplicaciones básicas de ofimática, archivo y comunicación, preparación de pedidos y venta de productos |
+| 1 | Itinerario personal y de empleabilidad, técnicas administrativas básicas, tratamiento informático de datos, lengua castellana, ciencias sociales, ciencias naturales |
+| 2 | Atención al cliente, archivo y comunicación, aplicaciones básicas de ofimática, preparación de pedidos y venta de productos, lengua castellana, ciencias sociales, ciencias naturales |
+
+> "Ciencias naturales" is announced in the app as a subject with no decks
+> yet: its card ships locked with a "Coming soon" badge. The same happens
+> with the subjects whose decks are written but not published yet (lengua
+> castellana, ciencias sociales and tratamiento informático de datos of
+> the 1st year; every subject of the 2nd year).
 
 #### 2.2.4 FP GM — Gestión administrativa (1–2)
 
