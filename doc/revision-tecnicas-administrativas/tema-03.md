@@ -173,14 +173,42 @@ Indica si la comunicación es formal o informal:
 
 | Sección del temario | Artefacto | Cobertura |
 | :--- | :--- | :--- |
-| 1. Las comunicaciones escritas (definición, externas e internas) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json` | tarjetas 1-8 |
-| 2. La comunicación interna: definición y clasificación (flujo, naturaleza, medio) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 1-6, 10-14 |
-| 2.2 Tipos de información: función de la ascendente, la descendente y la transversal | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 7-9 |
+| 1. Las comunicaciones escritas (definición, externas e internas) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json` | tarjetas 1-3 |
+| 1. La carta comercial, el ejemplo que da el libro | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json` | tarjeta 4 |
+| Ejercicio 5: los documentos de la comunicación escrita de una empresa | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json` | tarjeta 5 |
+| 2. La comunicación interna: definición y clasificación (flujo, naturaleza, medio) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 1-14 |
+| 2.2 Tipos de información: función, formas utilizadas y dificultades | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json` | tarjetas 1-9 |
 | 3. Medios de comunicación interna (tabla de la pág. 29) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json` | tarjetas 1-10 |
-| 3.1 y 3.2 Documentación (aviso, memorando, circular interna, oficio interno, informe, acta) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 15-23 |
-| Ejercicios 1, 2, 3 y 4-10 | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/autoevaluacion.json` | 11 preguntas (5 tipos) |
+| 3.1 y 3.2 Documentación (aviso, memorando, circular interna, oficio interno, informe, acta) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json` | tarjetas 15-20 |
+| Ejercicios 1, 2, 3, 4, 5, 6, 8, 9 y 10 | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/autoevaluacion.json` | 12 preguntas (5 tipos) |
 
-**Total tema 3:** 3 barajas (41 tarjetas) + 1 autoevaluación (11 preguntas).
+**Total tema 3:** 4 barajas (44 tarjetas) + 1 autoevaluación (12 preguntas).
+
+### Auditoría de octubre de 2026 (segunda vuelta)
+
+La primera cobertura dejaba fuera dos cosas del temario y metía una que no
+es de este tema:
+
+- **Faltaban las columnas «formas utilizadas» y «dificultades»** de la tabla
+  2.2 de la pág. 28. Solo estaba cubierta la columna «función». Ahora las tres
+  columnas tienen sus tarjetas, en la baraja
+  `tipos-informacion-comunicacion` (9 tarjetas: función, formas y dificultades
+  de la ascendente, la descendente y la transversal).
+- **Faltaba el ejercicio 5** («enumera al menos cinco documentos que forman
+  parte de la comunicación escrita de una empresa»). Ahora es una tarjeta de
+  la baraja de comunicación escrita y una pregunta de la autoevaluación.
+- **Sobraba la estructura de la carta comercial** (membrete, fecha, partes y
+  valor legal). El tema 3 solo la menciona como ejemplo de comunicación
+  externa («p.e. carta comercial», pág. 26): su estructura es el RA3 de FPGM
+  Gestión Administrativa. Se eliminaron esas cuatro tarjetas.
+
+La autoevaluación cubre ahora el ejercicio 1 completo (los seis casos del
+libro, como pregunta de clasificar) y las preguntas 5, 6 y 10, que no estaban.
+Son 12 preguntas en total: el límite de `tecnico.md` §4.3 es de 8 a 12, así
+que las que se añadieron para cubrir los huecos se fundieron con las que ya
+había en lugar de sumar (la definición de las comunicaciones escritas, las
+cuatro partes del memorando y la función de la comunicación ascendente se
+preguntan ahora dentro de las preguntas de verdadero/falso).
 
 ### Nota sobre la tabla de medios de la pág. 29
 

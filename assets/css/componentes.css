@@ -448,6 +448,27 @@ header.app-header .tagline {
   color: var(--color-text-soft);
 }
 
+/* Deck card invitation — the card used to say how many cards the deck
+   holds ("12 tarjetas"). It no longer says: a count is a measurement,
+   not an invitation, and the person who studies doesn't need it to
+   decide whether to start. The card answers "what can I do here?"
+   instead, with a short pill under the title.
+
+   Contrast: --accent on --accent-soft is 5.6:1 in the light theme and
+   7.3:1 in the dark one (13.9:1 in high contrast), so the pill's small
+   text clears WCAG AA (4.5:1) everywhere. */
+.deck-card .deck-cta {
+  margin-top: var(--space-1);
+  padding: 4px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: var(--text-small);
+  font-weight: var(--weight-strong);
+  line-height: 1.4;
+  max-width: 100%;
+}
+
 /* "Peeled corner" completion stamp — a folded-paper triangle with a
    star tucked under it, replacing a flat badge chip. */
 .deck-card .deck-stamp {

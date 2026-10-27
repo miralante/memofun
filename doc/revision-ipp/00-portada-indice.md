@@ -111,4 +111,5 @@
 | Carpeta | Tema | Estado |
 |---|---|---|
 | `tema-1-seguridad-y-salud/` | Tema 1 | ✅ Cubierto (8 barajas, una por subsección) |
-| `tema-2-…` … `tema-8-…` | Temas 2-8 | ❌ Eliminado (alcance reducido a Tema 1) |
+| `tema-2-tecnicas-prevencion-proteccion/` | Tema 2 | ✅ Cubierto (7 barajas + autoevaluación, revisado en 2026-10) |
+| `tema-3-…` … `tema-8-…` | Temas 3-8 | ❌ Eliminado (alcance reducido a Tema 1) |

@@ -1,101 +1,125 @@
 {
-  "topic": "Concepto de primeros auxilios",
+  "topic": "Tema 3 · Técnicas básicas de primeros auxilios",
   "level": "principiante",
   "locale": "es",
   "cards": [
     {
-      "question": "Son <mark>cuidados que damos a quien se hace daño</mark>. Se dan antes de que llegue la ayuda médica. ¿Cómo se llaman?",
-      "answer": "<mark>Primeros auxilios</mark>",
+      "question": "Alguien se cae en el taller y se hace daño. Le das unos cuidados antes de que llegue el médico. <mark>Es como poner una tirita en el momento a quien se ha cortado</mark>. ¿Qué son los primeros auxilios?",
+      "answer": "<mark>Cuidados antes de la ayuda médica</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/definicion.jpg",
         "title": "Francisco Fabian Cruzat Araya, enseñando Primeros Auxilios. 4",
         "source": "https://commons.wikimedia.org/wiki/File:Francisco_Fabian_Cruzat_Araya,_ense%C3%B1ando_Primeros_Auxilios._4.jpeg",
-        "alt": "Persona enseñando técnicas de primeros auxilios a un grupo",
+        "alt": "Personas aprendiendo a hacer primeros auxilios",
         "autor": "Francisco Cruzat Araya",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "question": "Es el <mark>vehículo medicalizado</mark> que traslada a la persona herida al hospital. ¿Cómo se llama?",
-      "answer": "<mark>Ambulancia</mark>",
+      "question": "La ambulancia tarda unos minutos en llegar y lo que hagas mientras tanto puede cambiar cómo acaba la persona. <mark>Es como los primeros minutos de un partido, que deciden el resultado</mark>. ¿Por qué son tan importantes los primeros minutos?",
+      "answer": "<mark>Son decisivos para la evolución</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/ambulancia.jpg",
-        "title": "Zepper-BK 117-C2 (EC145) - Schweizerische Rettungsflugwacht",
-        "source": "https://commons.wikimedia.org/wiki/File:Zepper-BK_117-C2-(EC145)-SchweizerischeRettungsflugwacht.jpg",
-        "alt": "Helicóptero medicalizado de rescate en vuelo",
-        "autor": "Matthias Zepper",
-        "licencia": "CC BY-SA 3.0"
+        "title": "North Shore Ambulance on Highway 61 (51243769895).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3ANorth%20Shore%20Ambulance%20on%20Highway%2061%20(51243769895).jpg",
+        "alt": "Una ambulancia con las luces de emergencia encendidas",
+        "autor": "Tony Webster",
+        "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "question": "Antes de ayudar, mira <mark>si la persona está consciente y respira</mark>. También mira si tiene pulso. ¿Cómo se llama ese primer examen?",
+      "question": "Antes de tocar nada, compruebas si la persona accidentada está en peligro. <mark>Es como al empezar la clase, cuando primero ves quién está bien y quién no</mark>. ¿Cómo se llama esa comprobación inicial?",
       "answer": "<mark>Valoración primaria</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/valoracion-primaria.jpg",
-        "title": "Anales de la Sociedad Científica Argentina",
-        "source": "https://commons.wikimedia.org/wiki/File:Anales_de_la_Sociedad_Cient%C3%ADfica_Argentina_(IA_analesdelasocied2522soci).pdf",
-        "alt": "Documento histórico de la Sociedad Científica Argentina",
-        "autor": "Congreso Científico Internacional Americano (Buenos Aires)",
+        "title": "Defense.gov News Photo 100116-A-0350A-055.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3ADefense.gov%20News%20Photo%20100116-A-0350A-055.jpg",
+        "alt": "Un sanitario examina a un paciente",
+        "autor": "Sgt. Jeffrey Alexander, U.S. Army",
         "licencia": "Public domain"
       }
     },
     {
-      "question": "Si la persona <mark>no responde pero respira</mark>, se pone de lado. Así no se ahoga con la lengua. ¿Cómo se llama esa postura?",
-      "answer": "<mark>Posición lateral de seguridad</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/posicion-lateral.jpg",
-        "title": "Recovery position",
-        "source": "https://commons.wikimedia.org/wiki/File:Recovery_position.svg",
-        "alt": "Ilustración de la posición lateral de seguridad de primeros auxilios",
-        "autor": "Rama",
-        "licencia": "CC BY-SA 3.0 fr"
-      }
-    },
-    {
-      "question": "Es un número <mark>gratuito y único</mark> en toda España. Sirve para pedir ayuda urgente. ¿Cuál es ese número?",
+      "question": "Un compañero ha tenido un accidente grave y necesitas ayuda profesional cuanto antes. <mark>Es como marcar el 112 desde el móvil cuando hay una emergencia</mark>. ¿A qué número de emergencia llamas?",
       "answer": "<mark>112</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/llamar-112.jpg",
         "title": "Teléfono de emergencias 112",
         "source": "https://commons.wikimedia.org/wiki/File:Tel%C3%A9fono_de_emergencias_112_larrialdietako_telefonoa_14.jpg",
-        "alt": "Cartel de un teléfono de emergencias 112 del Gobierno Vasco",
+        "alt": "Cartel del número único de emergencias 112",
         "autor": "Gobierno Vasco Irekia",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "Si alguien <mark>se atraganta</mark>, se le abraza por detrás. Se aprieta fuerte hacia dentro y hacia arriba. ¿Cómo se llama esa maniobra?",
-      "answer": "<mark>Maniobra de Heimlich</mark>",
+      "question": "En el centro de trabajo hay una caja con gasas, vendas, tijeras y tiritas. <mark>Es como la caja de herramientas del taller, que está para usarla cuando hace falta</mark>. ¿Qué haces con el botiquín?",
+      "answer": "<mark>Usar el botiquín</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/heimlich.jpg",
-        "title": "AbdominalThrust Heimlich Manoeuvre",
-        "source": "https://commons.wikimedia.org/wiki/File:AbdominalThrust_HeimlichManoeuvre.svg",
-        "alt": "Diagrama de la maniobra de Heimlich",
-        "autor": "Evolution and evolvability",
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/usar-botiquin.jpg",
+        "title": "Botiquín de primeros auxilios, Madrid, España, 2015.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABotiqu%C3%ADn%20de%20primeros%20auxilios%2C%20Madrid%2C%20Espa%C3%B1a%2C%202015.JPG",
+        "alt": "Botiquín de primeros auxilios con su contenido",
+        "autor": "Benjamín Núñez González",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "question": "Lo más importante es <mark>no perder los nervios</mark>. Si tú estás tranquilo, ayudarás mejor. ¿Cómo se llama esa actitud?",
-      "answer": "<mark>Mantener la calma</mark>",
+      "question": "La persona se ha caído y le duele el cuello. Si la mueves, puedes empeorar el daño. <mark>Es como no tocar una pieza de cristal rota hasta saber cómo está</mark>. ¿Qué haces cuando no es necesario?",
+      "answer": "<mark>No mover a la persona</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/calma.jpg",
-        "title": "Historia de Christo paciente",
-        "source": "https://commons.wikimedia.org/wiki/File:Historia_de_Christo_paciente_(IA_historiadechrist02stan).pdf",
-        "alt": "Ilustración histórica de Cristo paciente, símbolo de calma ante el dolor",
-        "autor": "Stanyhurst, Guillaume",
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/no-mover.jpg",
+        "title": "Recovery Position.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File%3ARecovery%20Position.JPG",
+        "alt": "Persona inconsciente colocada de lado en el suelo",
+        "autor": "Basshead5000",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "question": "La persona sangra por un corte en el brazo y hay que cortar el sangrado. <mark>Es como tapar el grifo antes de que se derrame toda el agua</mark>. ¿Qué técnica básica sirve para parar una hemorragia?",
+      "answer": "<mark>Parar la hemorragia</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/hemorragia.jpg",
+        "title": "De un caso de absceso hepático abierto al peritoneo",
+        "source": "https://commons.wikimedia.org/wiki/File:De_un_caso_de_absceso_hep%C3%A1tico_abierto_al_peritoneo_y_curado_por_laparatom%C3%ADa_IA_uncasodeabsce00unkn.pdf",
+        "alt": "Lámina de un tratado médico con un caso de hemorragia",
+        "autor": "Royal College of Surgeons of England",
         "licencia": "Public domain"
       }
     },
     {
-      "question": "Es una <mark>rotura de la piel</mark>. Se limpia y se cubre con una gasa. ¿Cómo se llama?",
-      "answer": "<mark>Herida</mark>",
+      "question": "Un accidentado está en el suelo y la gente se agolpa gritando. Si tú te mantienes tranquilo, la gente te hará caso. <mark>Es como cuando alguien habla con calma y los demás bajan la voz</mark>. ¿Qué debes hacer primero?",
+      "answer": "<mark>Mantener la calma</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/herida.jpg",
-        "title": "Entierro del Juicio final y vivificacion de la astrologia herida",
-        "source": "https://commons.wikimedia.org/wiki/File:Entierro_del_Juicio_final_y_vivificacion_de_la_astrologia_herida_con_tres_llagas_en_lo_natural,_moral_y_politico_y_curada_con_tres_parches_-_parche_primero_(IA_A1090722).pdf",
-        "alt": "Portada histórica con la palabra herida, referencia a la llaga física",
-        "autor": "Diego de Torres Villarroel",
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/calma.jpg",
+        "title": "Woman sitting on the floor drinking water from a glass in a living room.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AWoman%20sitting%20on%20the%20floor%20drinking%20water%20from%20a%20glass%20in%20a%20living%20room.jpg",
+        "alt": "Una persona sentada en el suelo, tranquila",
+        "autor": "Shixart1985",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "En una emergencia hay cosas que solo debe hacer alguien que las sepa. <mark>Es como no tocar un enchufe para arreglar una lámpara: si no sabes, no lo hagas</mark>. ¿Qué debes hacer si no sabes hacerlo?",
+      "answer": "<mark>No hacer lo que no sabes</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/no-sepas-hacer.jpg",
+        "title": "Wiki Education - First aid training, February 2018-0933.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AWiki%20Education%20-%20First%20aid%20training%2C%20February%202018-0933.jpg",
+        "alt": "Formación práctica de primeros auxilios",
+        "autor": "Frank Schulenburg (Wiki Education)",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "Una persona está inconsciente o ha recibido un golpe fuerte. Darle de comer o de beber puede empeorar su estado. <mark>Es como no meterle comida a alguien que no puede tragar</mark>. ¿Qué no debes hacer nunca?",
+      "answer": "<mark>Darle comida o bebida</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/no-comer-bebida.jpg",
+        "title": "Glass-of-water.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AGlass-of-water.jpg",
+        "alt": "Un vaso de agua sobre una mesa",
+        "autor": "Derek Jensen ( Tysto )",
         "licencia": "Public domain"
       }
     }

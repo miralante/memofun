@@ -494,19 +494,21 @@ emergencia; la cuarta, el contenido del botiquín.
 
 ## Tema 2 — Técnicas de prevención y protección
 
-Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
+Revisado en 2026-10 contra las 12 páginas del módulo (`pag15`–`pag26`) de
+`D:/img_memofun/ipp/tema2/`. Las barajas viven en su propia carpeta dentro de
+la asignatura y siguen las subsecciones numeradas del libro:
 
-- `tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json` (§1) — 9 tarjetas
-- `tema-2-tecnicas-prevencion-proteccion/tecnicas-de-prevencion.json` (§2) — 16 tarjetas
-- `tema-2-tecnicas-prevencion-proteccion/tecnicas-de-proteccion.json` (§3) — 15 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json` (§1) — 7 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/tecnicas-basicas-prevencion.json` (§2.0 + §2.1) — 13 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/tipos-de-riesgo.json` (§2.2) — 5 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad.json` (§2.3) — 5 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json` (§2.4 + §2.5) — 5 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva.json` (§3a) — 6 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json` (§3b) — 9 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/autoevaluacion.json` — 12 preguntas (5 tipos)
 
-Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema2/`
-(12 imágenes, organizadas como `pag15`–`pag26`).
-
-Cobertura: las tres barajas siguen las subsecciones del temario oficial
-(1, 2, 3) sin solaparse. La primera cubre el marco general y los
-responsables; la segunda, las técnicas de prevención y los 8 principios;
-la tercera, las técnicas de protección (colectiva + EPI).
+**Total tema 2:** 7 barajas, 50 tarjetas + 1 autoevaluación. La entrada
+`selfTest` está en `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
 
 ### Conceptos y dónde se han gastado ya
 
@@ -518,11 +520,9 @@ la tercera, las técnicas de protección (colectiva + EPI).
 - Adoptar medidas de control: decidir qué hacer tras evaluar.
 - Técnicas de prevención: actuar antes de que ocurra el problema.
 - Técnicas de protección: reducir el daño de los riesgos no eliminados.
-- Diferencia prevención/protección: la primera sobre el receptor, la segunda sobre el riesgo o el medio.
-- Colectiva e individual: modalidades de la protección.
-- El empresario: garante último de la seguridad en la empresa.
+- Diferencia prevención/protección: la primera sobre la persona, la segunda sobre el riesgo o el medio.
 
-#### §2 — solo en `tecnicas-de-prevencion.json`
+#### §2.0 y §2.1 — solo en `tecnicas-basicas-prevencion.json`
 
 - Prevención de riesgos: definición, actuar antes.
 - 4 técnicas básicas: organización del trabajo, formación e información, señalización, mantenimiento de equipos.
@@ -535,45 +535,55 @@ la tercera, las técnicas de protección (colectiva + EPI).
   6. Planificar la prevención
   7. Proteger colectivamente antes que individualmente
   8. Dar instrucciones claras a los trabajadores
-- Buenas prácticas para prevenir riesgos: zona limpia, usar EPI, seguir instrucciones, informar.
+
+#### §2.2 — solo en `tipos-de-riesgo.json`
+
+- 5 tipos de riesgo: físico, químico, biológico, ergonómico y psicosocial, con su ejemplo de prevención.
+
+#### §2.3 — solo en `senalizacion-seguridad.json`
+
+- 4 tipos de señales: prohibición (rojo), advertencia (amarillo), obligación (azul) y salvamento (verde).
+- La señalización avisa pero **no sustituye** a la prevención.
+
+#### §2.4 y §2.5 — solo en `responsables-prevencion.json`
+
+- Buenas prácticas para prevenir riesgos: zona limpia, usar EPI, seguir instrucciones, informar, formación.
+- El empresario: garante de la seguridad en la empresa.
+- El trabajador: responsable de cumplir las normas.
 - Delegado de prevención: representante de los trabajadores.
 - Servicio de prevención: equipo técnico que asesora.
 
-#### §3 — solo en `tecnicas-de-proteccion.json`
+#### §3a — solo en `proteccion-colectiva.json`
 
-- Técnicas de protección: definición (reducir el daño de los riesgos no eliminados).
-- Protección colectiva: barandillas, redes de seguridad, ventilación, extintor, salida de emergencia.
-- EPI: Equipo de Protección Individual.
+- Protección colectiva: llega a todas las personas de la zona (barandilla, red, ventilación, extintor, salida de emergencia).
+
+#### §3b — solo en `equipos-proteccion-individual.json`
+
+- EPI: Equipo de Protección Individual, **obligatorio** cuando el riesgo no se puede eliminar.
 - 7 EPI del módulo: casco, gafas de seguridad, guantes, mascarilla o filtro,
-  botas de seguridad, ropa reflectante, tapones y cascos.
+  botas de seguridad, ropa reflectante, tapones y cascos para los oídos.
   - Ojo: el módulo dice textualmente "salvavidas" para el chaleco cuando la
     imagen muestra uno reflectante — es una errata del propio módulo. La
     baraja dice "ropa reflectante", que es lo que la imagen muestra.
-- Diferencia colectiva vs individual: protege a todos a la vez vs solo a una persona.
 
-### Notas para quien amplíe la serie
+### Notas para quien amplía la serie
 
-- Las imágenes de las barajas de Tema 2 se han descargado desde Wikimedia
-  Commons (CC BY / CC BY-SA / CC0 / Public Domain). El título en el JSON
-  es el nombre del archivo original de Wikimedia, que a veces no encaja
-  bien con la búsqueda en español (p. ej. "El sistema de trabajo en la
-  oficina local de extensión agrícola" para el slug `organizacion-trabajo`).
-  Si en una revisión posterior el archivo no encaja con la tarjeta, lo
-  correcto es re-buscar y reemplazar solo el `file` + `title` + `alt`,
-  manteniendo la misma `question` / `answer` / `<mark>`.
-- Openverse API devolvía HTTP 424 (Failed Dependency) en la fecha de
-  creación (2026-10-10), por lo que se usaron directamente las
-  miniaturas de Wikimedia vía `Special:FilePath`.
-
-### Notas para quien amplíe la serie
-
-- Los pictogramas no tienen fotos libres utilizables en Openverse: cada tarjeta usa un objeto
-  real que transmite la misma idea (botella de gas, dinamita, bombonas de oxígeno, llama de
-  vela, metal corroído, calavera...). Si se repite un pictograma, usar otro objeto, no la misma foto.
+- **No reutilizar una imagen que ya ilustra otra tarjeta**, ni aunque sea de
+  otra baraja: en la revisión de 2026-10 había 7 pares de tarjetas con la
+  misma foto (la señal de obligación ilustrada con unas botas, el riesgo
+  ergonómico con unos soldadores…). Para detectarlo, comparar el hash de
+  cada fichero, no solo el nombre.
+- **El `alt` tiene que describir lo que se ve**, no lo que debería verse: una
+  tarjeta que dice "señal circular azul" con una foto de botas es un fallo
+  aunque la foto sirva para otra tarjeta.
+- En este tema las imágenes vienen de Commons (CC0 / CC BY / CC BY-SA /
+  dominio público), de Flickr (CC BY) y del propio repo. Para un SVG de
+  Commons hay que pedir la miniatura rasterizada:
+  `…/thumb/<a>/<ab>/<fichero>.svg/1000px-<fichero>.svg.png`.
 - Openverse da 424 al pedir miniaturas de algunos ficheros de Wikimedia. El camino que sí
-  funciona: `_c` (800px) en Flickr en vez del `_b`, y para Commons la API con **`pageids=`
+  funciona: `_c` (800px) en Flickr en vez de `_b`, y para Commons la API con **`pageids=`
   (no `curid=`)**: `commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url&iiurlwidth=800&pageids=<id>`.
-- Si se reactivan los temas 2-8, rehacer cada baraja desde su `tema<N>/` correspondiente
+- Si se reactivan los temas 3-8, rehacer cada baraja desde su `tema<N>/` correspondiente
   con `describe_images`. **No** reutilizar el contenido de las barajas eliminadas
   (mezclaban temas).
 - **Tema 6** es el caso especial: el directorio `D:/img_memofun/ipp/tema6/` contiene

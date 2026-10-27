@@ -259,6 +259,14 @@ to study. The product must be predictable, free and easy to resume. The
 architecture that enables this scope is defined in [`technical.md`](technical.md),
 not in this product specification.
 
+A deck card **does not say how many cards it holds**. A number is a
+measurement, and the learner does not need it to decide whether to start: it
+only turns the deck into a figure to judge. The card answers a different
+question — "what can I do here?" — with an invitation to practise it. The
+deck's size is still known to the person who prepares it (`amount` in
+`decks/manifest.json`, 8–15 cards per session, `contents.md`), but it is not
+put in front of the learner.
+
 ### 2.10 Public-facing wording: "persona tipo" euphemism
 
 When presenting Memofun to **the general public** (press, talks,

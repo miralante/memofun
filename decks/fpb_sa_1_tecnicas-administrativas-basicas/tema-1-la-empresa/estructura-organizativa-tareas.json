@@ -1,5 +1,5 @@
 {
-  "topic": "Estructuras organizativas y tareas administrativas",
+  "topic": "Organización empresarial y tareas administrativas",
   "level": "principiante",
   "locale": "es",
   "cards": [
@@ -10,7 +10,7 @@
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organigrama-estructura.jpg",
         "title": "United States Rubber Company organization chart, 1902",
         "source": "https://commons.wikimedia.org/wiki/File:United_States_Rubber_Company_organization_chart,_1902.jpg",
-        "alt": "(imagen)",
+        "alt": "Organigrama antiguo de una empresa: el Presidente está arriba y debajo los jefes de cada sección, con sus grupos de trabajadores en la última fila",
         "autor": "United States Rubber Company",
         "licencia": "Public domain"
       }
@@ -28,19 +28,11 @@
       }
     },
     {
-      "question": "Este organigrama tiene al Director general arriba. Debajo, tres jefes de departamento: de Ventas, de Compras y de Almacén. Cada jefe manda a dos personas: comerciales, administrativos y operarios. <mark>Es como un árbol: la raíz arriba y las ramas abajo</mark>. ¿Qué tipo de organización es este organigrama?",
-      "answer": "<mark>Organización jerárquica</mark>"
-    },
-    {
-      "question": "Varios jefes, como los de Producción y Comercial, dan órdenes directas. A los empleados, aunque no tengan encima al Director General. <mark>Es como un equipo con varios capitanes a la vez</mark>. ¿Qué tipo de organización es?",
+      "question": "La empresa se organiza por funciones: un director de producción, otro comercial y otro financiero. El mismo trabajador recibe órdenes de los tres a la vez, en vez de depender solo de uno. <mark>Es como un jugador de fútbol que entrena con tres entrenadores distintos, cada uno en su posición</mark>. ¿Cómo se llama este tipo de organización?",
       "answer": "<mark>Organización funcional</mark>"
     },
     {
-      "question": "Este organigrama tiene arriba el Consejo de administración y el Director general. Debajo, tres directores: de Producción, Comercial y Financiero. El mismo empleado recibe órdenes de los tres directores. <mark>Es como un empleado con tres jefes el mismo día</mark>. ¿Qué tipo de organización es este organigrama?",
-      "answer": "<mark>Organización funcional</mark>"
-    },
-    {
-      "question": "Tiene jefes abajo. Y asesores arriba, que solo informan. <mark>Es como una estructura militar donde los generales tienen asesores civiles</mark>. ¿Cómo se llama este modelo mixto?",
+      "question": "Esta organización une la jerárquica y la funcional: los jefes mandan de arriba abajo, como en la jerárquica, y el trabajo se reparte por funciones, como en la funcional. Al lado del Director general hay asesores que solo informan. <mark>Es como una estructura militar donde los generales tienen asesores civiles</mark>. ¿Cómo se llama este tipo de organización?",
       "answer": "<mark>Organización mixta</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/organizacion-mixta.jpg",
@@ -52,10 +44,6 @@
       }
     },
     {
-      "question": "Este organigrama tiene al Director general arriba. A su lado, tres asesores que solo informan: Adjunto director, Asesoría fiscal y Gabinete de estudios técnicos. Debajo, los directores de Producción, Comercial y Financiero, y un empleado. <mark>Es como un jefe que manda en su empresa y, al lado, tiene un equipo de expertos que le ayudan</mark>. ¿Qué tipo de organización es este organigrama?",
-      "answer": "<mark>Organización mixta</mark>"
-    },
-    {
       "question": "Una empresa vende en Europa, América y Asia. Cada zona casi funciona sola. <mark>Es como un padre con tres hijos, cada uno con su casa</mark>. ¿Cómo se llama este modelo de empresa?",
       "answer": "<mark>Organización por divisiones</mark>",
       "image": {
@@ -65,22 +53,6 @@
         "alt": "(imagen)",
         "autor": "Burr, David H.; Arrowsmith, John",
         "licencia": "Public domain"
-      }
-    },
-    {
-      "question": "Este organigrama tiene al Director general arriba y, debajo, un director para cada zona: de Europa, de América y de Asia. Cada división lleva su propia empresa. <mark>Es como tres tiendas con el mismo dueño, pero cada una va por su cuenta</mark>. ¿Qué tipo de organización es este organigrama?",
-      "answer": "<mark>Organización por divisiones</mark>"
-    },
-    {
-      "question": "Una empresa se divide en partes, como Producción o Finanzas. <mark>Es como una orquesta: cuerdas, viento y tambores, cada uno su parte</mark>. ¿Cómo se llama cada una de esas secciones?",
-      "answer": "<mark>Áreas funcionales</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas/areas-funcionales.jpg",
-        "title": "Contribución al mejoramiento de la gestión del mantenimiento (SIDOR)",
-        "source": "https://commons.wikimedia.org/wiki/File:Contribuci%C3%B3n_al_mejoramiento_de_la_gesti%C3%B3n_del_mantenimiento_de_los_equipos_cr%C3%ADticos_de_la_Planta_de_Pella_en_la_empresa_SIDOR.pdf",
-        "alt": "(imagen)",
-        "autor": "Alfredo Davis",
-        "licencia": "CC BY-SA 3.0"
       }
     },
     {

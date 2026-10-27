@@ -1,0 +1,67 @@
+{
+  "topic": "Tema 3 · Técnicas básicas de primeros auxilios",
+  "level": "principiante",
+  "locale": "es",
+  "cards": [
+    {
+      "question": "La persona no responde, pero su pecho sigue subiéndose y bajándose. Hay que acostarla de lado. <mark>Es como dejar a alguien que se ha quedado dormido de lado</mark>. ¿Qué haces en ese caso?",
+      "answer": "<mark>Colocarla de lado</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias/pls.jpg",
+        "title": "Recovery position maneuver.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3ARecovery%20position%20maneuver.jpg",
+        "alt": "Diagrama de la maniobra de posición lateral de seguridad",
+        "autor": "Image created by Rama",
+        "licencia": "CC BY-SA 3.0 fr"
+      }
+    },
+    {
+      "question": "La persona no responde y además no respira. Hay que llamar al 112 y empezar a bombearle el pecho. <mark>Es como cuando el motor se para del todo y hay que volver a arrancarlo</mark>. ¿Qué haces?",
+      "answer": "<mark>112 y masaje cardíaco</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias/sin-respirar.jpg",
+        "title": "Chest-compression-hand-placement.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AChest-compression-hand-placement.jpg",
+        "alt": "Colocación de las manos para el masaje cardíaco",
+        "autor": "Another-anon-artist-234",
+        "licencia": "CC0"
+      }
+    },
+    {
+      "question": "La persona sangra por un corte en el brazo y presionas la herida con tela limpia. <mark>Es como tapar el grifo con el dedo para que no salga más agua</mark>. ¿Con qué lo haces?",
+      "answer": "<mark>Con una gasa limpia</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias/gasa.jpg",
+        "title": "Gauze bandage.png",
+        "source": "https://commons.wikimedia.org/wiki/File%3AGauze%20bandage.png",
+        "alt": "Gasas estériles en su paquete",
+        "autor": "im_tau",
+        "licencia": "CC BY 4.0"
+      }
+    },
+    {
+      "question": "La gasa se ha empapado de sangre, pero la herida sigue abierta. <mark>Es como cuando el papel de cocina se moja y hay que poner otra hoja encima</mark>. ¿Qué haces con la gasa empapada?",
+      "answer": "<mark>Poner otra encima</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias/otra-gasa.jpg",
+        "title": "Bandage-cleaned.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABandage-cleaned.jpg",
+        "alt": "Vendaje limpio sobre la piel protegida",
+        "autor": "Hank61bpos",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Si la herida sangra mucho, conviene subir la parte del cuerpo que sangra. <mark>Es como levantar el cubo para que no se derrame el agua</mark>. ¿Qué haces en ese caso?",
+      "answer": "<mark>Elevar la parte que sangra</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias/elevar.jpg",
+        "title": "Fire Controlman watching arm being wrapped during first aid class aboard USS Benfold (DDG-65) 180628-N-GR120-0104.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AFire%20Controlman%20watching%20arm%20being%20wrapped%20during%20first%20aid%20class%20aboard%20USS%20Benfold%20(DDG-65)%20180628-N-GR120-0104.jpg",
+        "alt": "El brazo de una persona vendado durante una clase de primeros auxilios",
+        "autor": "Mass Communication Specialist 2nd Class Anna Van Nuys",
+        "licencia": "CC BY-SA 2.0"
+      }
+    }
+  ]
+}

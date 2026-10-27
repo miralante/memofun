@@ -9,7 +9,7 @@
    Decks in decks/*.json are cached on every successful fetch, so a
    deck a student already opened keeps working offline.
    ============================================================ */
-var VERSION = 'memofun-v143';
+var VERSION = 'memofun-v144';
 
 var FILES = [
   './',
@@ -78,11 +78,16 @@ var FILES = [
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json',
-  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-de-prevencion.json',
-  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-de-proteccion.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-basicas-prevencion.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tipos-de-riesgo.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas.json',
-  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/que-hacer-en-emergencias.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-es-el-autoconocimiento.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi.json',
@@ -216,3 +221,4 @@ self.addEventListener('fetch', function (event) {
     })
   );
 });
+

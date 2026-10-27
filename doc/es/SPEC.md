@@ -271,6 +271,14 @@ instalar herramientas para estudiar. La aplicación debe resultar previsible,
 gratuita y fácil de retomar. La arquitectura que hace posible este alcance se
 define en [`tecnico.md`](tecnico.md), no en esta especificación de producto.
 
+La tarjeta de una baraja **no dice cuántas tarjetas tiene**. Un número es una
+medida, y quien estudia no lo necesita para decidir si empieza: solo convierte
+la baraja en una cifra que juzgar. La tarjeta responde a otra pregunta —"¿qué
+puedo hacer aquí?"— con una invitación a practicarla. El tamaño de la baraja
+sigue siendo conocido por quien la prepara (`amount` en
+`decks/manifest.json`, 8–15 tarjetas por sesión, `contenidos.md`), pero no se
+pone delante de quien estudia.
+
 ### 2.10 Eufemismo público: "persona tipo"
 
 Cuando se presenta Memofun de cara al **público general** (prensa,

@@ -269,6 +269,13 @@ normales, así que atrás/adelante y los marcadores funcionan gratis:
 - Curso fijado: aparece una tarjeta de "acceso rápido" al principio
   del nivel de cursos, que enlaza directamente a las asignaturas de
   ese curso.
+- Tarjeta de baraja: icono, nombre de la baraja y **una invitación a
+  practicarla** (`home.deckInvite`, clase `.deck-cta`). **No lleva el
+  número de tarjetas**: `deck.amount` se sigue guardando en
+  `decks/manifest.json` como contrato de contenido (las 8–15 tarjetas
+  por sesión de `contenidos.md`), pero la pantalla de inicio no lo
+  enseña. Es la misma regla que en las tarjetas de tema y asignatura:
+  un número por nivel, y en el nivel de baraja ningún número.
 
 Esto añade niveles al flujo descrito en la regla 10 de §5 **solo**
 para las barajas que usan `course`/`subject` (y `topicGroup`) — las

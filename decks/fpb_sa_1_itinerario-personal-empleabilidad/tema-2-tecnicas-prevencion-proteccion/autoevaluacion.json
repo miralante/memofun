@@ -1,0 +1,171 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 2 · Técnicas de prevención y protección",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál es la diferencia entre prevención y protección?",
+      "opciones": {
+        "a": "La prevención actúa antes de que ocurra el daño y la protección reduce el daño cuando el riesgo no se ha podido eliminar.",
+        "b": "La prevención protege a una sola persona y la protección a todas.",
+        "c": "Las dos cosas son lo mismo, pero se llaman de forma distinta."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
+      "huecos": [
+        { "texto": "Las técnicas de ___ evitan o disminuyen los riesgos laborales.", "respuesta": "prevención" },
+        { "texto": "Las técnicas de ___ reducen el daño de los riesgos que no se han podido eliminar.", "respuesta": "protección" },
+        { "texto": "Las señales de color rojo son de ___.", "respuesta": "prohibición" },
+        { "texto": "Las señales de color amarillo son de ___.", "respuesta": "advertencia" },
+        { "texto": "Las señales de color verde son de ___.", "respuesta": "salvamento" },
+        { "texto": "El ___ es el responsable último de la seguridad de la empresa.", "respuesta": "empresario" }
+      ],
+      "banco": ["prevención", "protección", "prohibición", "advertencia", "salvamento", "empresario"]
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "La prevención actúa sobre la persona expuesta y la protección sobre el riesgo o por donde llega.", "respuesta": "V" },
+        { "texto": "Poner señales de seguridad basta para evitar todos los accidentes.", "respuesta": "F" },
+        { "texto": "Los equipos de protección individual son obligatorios cuando quedan riesgos que no se pueden eliminar.", "respuesta": "V" },
+        { "texto": "La señalización evita que un charco en el suelo cause un accidente.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "unir",
+      "enunciado": "Une cada tipo de riesgo con lo que lo provoca. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Riesgo físico.",
+        "B": "Riesgo químico.",
+        "C": "Riesgo biológico.",
+        "D": "Riesgo ergonómico.",
+        "E": "Riesgo psicosocial."
+      },
+      "derecha": {
+        "1": "El ruido, el calor y las vibraciones.",
+        "2": "Los virus y las bacterias.",
+        "3": "Las posturas malas y el exceso de peso.",
+        "4": "El estrés y el acoso.",
+        "5": "Los gases y los líquidos peligrosos."
+      },
+      "respuesta": { "A": "1", "B": "5", "C": "2", "D": "3", "E": "4" }
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada técnica de prevención con su ejemplo. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Organización del trabajo.",
+        "B": "Formación e información.",
+        "C": "Señalización.",
+        "D": "Mantenimiento de equipos."
+      },
+      "derecha": {
+        "1": "Aprender a trabajar de forma segura y conocer los riesgos del puesto.",
+        "2": "Tener el lugar limpio y ordenado y hacer pausas si el trabajo es repetitivo.",
+        "3": "Revisar y arreglar las máquinas y las herramientas.",
+        "4": "Usar carteles de «piso mojado» o «uso obligatorio de casco»."
+      },
+      "respuesta": { "A": "2", "B": "1", "C": "4", "D": "3" }
+    },
+    {
+      "id": "p6",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál de estos es uno de los ocho principios básicos de la prevención?",
+      "opciones": {
+        "a": "Poner una alarma en cada máquina.",
+        "b": "Proteger colectivamente antes que individualmente.",
+        "c": "Hacer un seguro para todo lo que pueda romperse."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p7",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué tipo de protección es una barandilla instalada en el borde de una plataforma alta?",
+      "opciones": {
+        "a": "Protección colectiva, porque protege a todas las personas de la zona.",
+        "b": "Un equipo de protección individual.",
+        "c": "Una técnica de prevención, porque evita el riesgo."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "¿De qué tipo son las señales de seguridad de color verde?",
+      "opciones": {
+        "a": "De prohibición.",
+        "b": "De advertencia.",
+        "c": "De obligación.",
+        "d": "De salvamento."
+      },
+      "respuesta": "d"
+    },
+    {
+      "id": "p9",
+      "tipo": "unir",
+      "enunciado": "Une cada equipo de protección individual con la parte del cuerpo que protege.",
+      "izquierda": {
+        "A": "El casco.",
+        "B": "Las gafas de seguridad.",
+        "C": "Los guantes.",
+        "D": "Los tapones para los oídos.",
+        "E": "Las botas de seguridad."
+      },
+      "derecha": {
+        "1": "Las manos.",
+        "2": "La cabeza.",
+        "3": "Los pies.",
+        "4": "Los ojos y la cara.",
+        "5": "El oído."
+      },
+      "respuesta": { "A": "2", "B": "4", "C": "1", "D": "5", "E": "3" }
+    },
+    {
+      "id": "p10",
+      "tipo": "clasificar",
+      "enunciado": "¿Cada medida es una técnica de prevención o una técnica de protección? Marca el tipo.",
+      "categorias": ["Técnica de prevención", "Técnica de protección"],
+      "elementos": [
+        { "texto": "Ordenar el taller y retirar las herramientas que estorban.", "respuesta": "Técnica de prevención" },
+        { "texto": "Repartir cascos y tapones porque el ruido de las máquinas no se puede eliminar.", "respuesta": "Técnica de protección" },
+        { "texto": "Enseñar al personal cómo hacer el trabajo sin riesgos.", "respuesta": "Técnica de prevención" },
+        { "texto": "Instalar una barandilla en el borde de la plataforma de trabajo.", "respuesta": "Técnica de protección" }
+      ]
+    },
+    {
+      "id": "p11",
+      "tipo": "seleccion",
+      "enunciado": "¿Quién se encarga de la prevención de riesgos en la empresa?",
+      "opciones": {
+        "a": "Solo el empresario, que es el responsable legal.",
+        "b": "El empresario, el trabajador, el delegado de prevención y el servicio de prevención.",
+        "c": "Solo el servicio de prevención, que es el equipo técnico."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p12",
+      "tipo": "seleccion",
+      "enunciado": "¿En qué consiste evaluar los riesgos de un puesto de trabajo?",
+      "opciones": {
+        "a": "En detectar un peligro, analizarlo para conocer su gravedad y decidir qué medidas son necesarias.",
+        "b": "En dar más dinero a la empresa para que compre material.",
+        "c": "En repartir el trabajo entre más personas."
+      },
+      "respuesta": "a"
+    }
+  ]
+}

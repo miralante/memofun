@@ -69,6 +69,35 @@ Adding a new course (a new syllabus) or a new level (a new school
 year) follows the existing folder naming; see
 [`activities.md`](activities.md) §2 for the courses currently shipped.
 
+### 2.5 The card image shows the clue, not the concept
+
+When a card carries an image, the image **illustrates the clue** —the
+analogy or example marked on the front— not the concept the learner
+has to recall. If the clue says "it is like a skyscraper", the photo
+is a skyscraper; if it says "it is like a kiosk on the corner", the
+photo is a kiosk on a corner. Showing the concept (an office block
+for "medium-sized company") just repeats what the front already says
+in words and helps nobody recall it.
+
+Two traps that have already cost images:
+
+- **A PDF's thumbnail is the cover of the document, not its content.**
+  Searching Wikimedia for "planets" often returns scanned documents;
+  their thumbnail is the cover (a title, a seal, some text) and it
+  illustrates nothing. Discard by hand every candidate whose
+  `source` ends in `.pdf`, `.tif` or `.djvu`.
+- **The source description may not describe the image.** On Commons a
+  file can come with a description page about something else (the
+  page for a six-storey building with a photo of its doorway). The
+  `alt` has to describe what the image really shows, and that is
+  only verified by looking at the image.
+
+So the image is always looked at before it is accepted: existing,
+weighing little and staying under 200 KB does not mean it illustrates
+the card. And because the thumbnail is small on screen (140 px),
+composition matters: a subject legible at that size (a whole
+skyscraper, a sign, a facade), not a scene nobody can read.
+
 ## 3. The technical recipe
 
 The deck JSON schema, the validation rules and the publishing
@@ -87,6 +116,9 @@ with a chat-only AI, in
 - [ ] Card count is realistic for a single session (target 8–15
       cards per deck for the first publication; longer decks can be
       split).
+- [ ] Every image shows **the clue** of its card (the marked
+      analogy), has been **looked at** before being accepted, and its
+      `alt` describes what is really in it.
 - [ ] Deck reviewed aloud with a learner (or someone playing the
       learner) before publishing.
 - [ ] `node scripts/check.js` passes.

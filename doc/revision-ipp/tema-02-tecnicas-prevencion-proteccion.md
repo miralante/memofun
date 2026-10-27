@@ -293,3 +293,76 @@ Clasificación de EPI por parte del cuerpo protegida (del módulo pag23):
 - **Ejercicio 7** — Relaciona el Riesgo con su "Escudo" (pag25).
 - **Ejercicio 8** — Ponle nombre al responsable: empresario / trabajador / delegado de prevención (pag26).
 - **Ejercicio 9** — El Intruso de las Buenas Prácticas: 3 normas correctas y una falsa (pag26).
+---
+
+## Cobertura en la app
+
+Revisión de 2026-10: las barajas se ajustaron al temario de las páginas
+15-26 y se reorganizaron siguiendo las subsecciones numeradas del libro.
+
+| Sección del temario | Artefacto | Cobertura |
+| :--- | :--- | :--- |
+| 1. Técnicas de prevención y protección de riesgos (§1) | `decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json` | 7 tarjetas |
+| 2.0 Técnicas básicas + 2.1 Los 8 principios (§2, pag18-19) | `.../tecnicas-basicas-prevencion.json` | 13 tarjetas |
+| 2.2 Los 5 tipos de riesgo (pag20) | `.../tipos-de-riesgo.json` | 5 tarjetas |
+| 2.3 Señalización de seguridad (pag20) | `.../senalizacion-seguridad.json` | 5 tarjetas |
+| 2.4 Buenas prácticas + 2.5 Responsables (pag21) | `.../responsables-prevencion.json` | 5 tarjetas |
+| 3a Protección colectiva (pag22) | `.../proteccion-colectiva.json` | 6 tarjetas |
+| 3b Protección individual / EPI (pag23) | `.../equipos-proteccion-individual.json` | 9 tarjetas |
+| Ejercicios de repaso (pag24-26) | `.../autoevaluacion.json` | 12 preguntas (5 tipos) |
+
+**Total tema 2:** 7 barajas (50 tarjetas) + 1 autoevaluación (12 preguntas).
+La entrada con `selfTest` es `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
+
+## Qué faltaba respecto al libro
+
+- Los **cinco tipos de riesgo** (§2.2) no tenían ninguna tarjeta: la tabla
+  completa del libro (físico, químico, biológico, ergonómico y psicosocial,
+  con su ejemplo de prevención) es ahora la baraja `tipos-de-riesgo`.
+- Los **cuatro tipos de señales** (§2.3) tampoco estaban: la baraja
+  `senalizacion-seguridad` los cubre por color (prohibición, advertencia,
+  obligación, salvamento) y recuerda que la señalización **no sustituye** a
+  la prevención, que es lo que dice la página 20.
+- La idea de que **las señales de advertencia son una medida de protección
+  colectiva** (pag22) estaba repartida: ahora aparece en el enunciado de la
+  tarjeta de protección colectiva.
+- La **obligatoriedad de los EPI** (pag23) era un dato suelto: hay una
+  tarjeta propia, «Son obligatorios».
+- Los cuatro **responsables** de la prevención (§2.5) estaban incompletos y
+  ahora viven juntos en `responsables-prevencion`.
+- El tema **no tenía autoevaluación**.
+
+## Qué se corrigió
+
+- **22 de las 38 imágenes** del tema no ilustraban su tarjeta (la mascarilla
+  era un hongo, el casco un barco, la red de seguridad un cartel…). Se han
+  sustituido por 18 imágenes nuevas de Wikimedia Commons, Flickr y el propio
+  repo, todas con su TASL verificado y ≤200 KB / ≤1024 px.
+- **7 pares de tarjetas compartían la misma foto** (la señal de obligación
+  ilustrada con unas botas, el riesgo ergonómico con unos soldadores, el
+  cartel de «10 reglas» en dos tarjetas contiguas…). Ahora cada imagen
+  aparece una sola vez en todo el tema.
+- Una tarjeta, «Protección colectiva», **repetía la respuesta** de otra de la
+  misma baraja: se ha eliminado.
+- «Técnicas de protección» estaba **literalmente repetida** en dos barajas
+  (misma pregunta, misma respuesta y misma imagen): se ha eliminado la
+  repetida.
+- Las dos barajas de 17 tarjetas superaban el contrato de contenido (8-15
+  tarjetas por sesión): se han dividido siguiendo las subsecciones del
+  libro.
+- Un anglicismo en la baraja de señalización («el triángulo del coche que
+  *warns* de que algo va mal») → «*advisa*».
+- 7 preguntas que incumplían la regla R3 se han reescrito.
+
+## Validación
+
+- `node scripts/check.js` → OK (200 checks).
+- `node scripts/audit-deck-readability.js` → 0 avisos en el tema 2.
+- Recorrido Playwright de las 50 tarjetas: pregunta y respuesta no vacías,
+  `img` con `naturalWidth > 0` en las 50, sin errores de página.
+- `node scripts/navigation-check.js` → Navegación OK.
+
+> **Nota de alcance:** este escaneo (`ipp/tema2`) es el módulo de
+> *Itinerario Personal para la Empleabilidad*, no de *Técnicas Administrativas
+> Básicas*; sus ocho temas coinciden 1:1 con las ocho carpetas del curso IPE
+> en la app.

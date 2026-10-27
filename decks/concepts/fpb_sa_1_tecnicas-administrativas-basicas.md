@@ -21,11 +21,37 @@ Concretamente:
   `departamentos-organigrama` 13/13 (auditoría de fidelidad al temario de octubre 2026:
   la baraja cubría solo «departamentos y organigrama» y dejaba fuera las cinco áreas
   funcionales; se añadió `areas-funcionales` y se reordenó la existente)
-- **Tema 3** (3 barajas, 41 cards): auditoría de fidelidad al temario de octubre 2026
-  - `comunicacion-interna-documentos` 23/23 con imagen (clasificación, funciones, medios de transmisión y documentación)
-  - `medios-comunicacion-interna` 10/10 (nueva, con la tabla de medios de la pág. 29 del libro)
-  - `comunicacion-escrita-externa` 8/8 (las dos ramas del §1: externas e internas)
+- **Tema 3** (4 barajas, 44 cards): auditoría de fidelidad al temario de octubre 2026, repetida en el 26 de octubre de 2026 contra `D:/img_memofun/tecnicas_administrativas/tema3` (págs. 24-33)
+  - `comunicacion-interna-documentos` 20/20 (clasificación por flujo, naturaleza y medio de transmisión, y la documentación interna: aviso, memorando, circular interna, oficio interno, informe y acta)
+  - `medios-comunicacion-interna` 10/10 (con la tabla de medios de la pág. 29 del libro)
+  - `tipos-informacion-comunicacion` 9/9 (nueva, con las tres columnas de la tabla 2.2 de la pág. 28: función, formas utilizadas y dificultades de la ascendente, la descendente y la transversal)
+  - `comunicacion-escrita-externa` 5/5 (las dos ramas del §1: externas e internas, el ejemplo de la carta comercial y los documentos de la comunicación escrita)
   - `agenda-archivo-sello-inventario` (17 cards) **disuelta**: era un repaso general de otro curso, no contenido del tema 3. Sus 12 tarjetas ya cubiertas en los temas 2, 5 y 6 se eliminaron; agenda, archivar, registro y sello pasaron al tema 5, y la nota de pedido al tema 6.
+
+  **Octubre 2026 — fidelidad al temario del tema 3 (segunda auditoría).** El
+  temario del libro (págs. 24-33) no describe la estructura de la carta
+  comercial: el §1 solo la menciona como ejemplo de comunicación externa
+  («p.e. carta comercial»). Las cuatro tarjetas que la desglosaban (membrete,
+  fecha, partes y valor legal) eran contenido del RA3 de FPGM Gestión
+  Administrativa, así que se sustituyeron por lo que el tema sí deja fuera:
+  las columnas «formas utilizadas» y «dificultades» de la tabla 2.2 y el
+  ejercicio 5 (los documentos de la comunicación escrita de una empresa).
+  La clasificación por flujo (vertical, descendente, ascendente, horizontal,
+  diagonal) y la tabla de funciones pasaron a su propia baraja.
+
+  **Octubre 2026 — imágenes del tema 3 rehechas.** 16 de las 38 imágenes no
+  ilustraban la pista: eran portadas de PDF escaneados (un gráfico del clima
+  en checo para la comunicación horizontal, un manual de assembler para la
+  vertical, un libro negro para la ascendente, la Gaceta Oficial para la
+  formal), dos eran casi negras (la carta comercial, 17/255 de luminancia
+  media) y varias traían el `alt` sin redactar. Se sustituyeron por fotos
+  que muestran la pista (el telefonillo del edificio, la mano levantada en
+  clase, la pizarra del profesor, el montón de papeles, el buzón rotulado
+  SUGGESTION BOX) y todos los `alt` se redactaron sobre lo que se ve de
+  verdad. Al comprobar las fotos reutilizadas del repo se vio que sus `alt`
+  tampoco eran fiables («Una factura de suministro» era un cartel pintado a
+  mano; «Una máquina de escribir con una carta» eran teclas), así que las 33
+  imágenes del tema se miraron una a una.
 - **Tema 4** (1 baraja, 10 cards): `correos-paqueteria` 10/10 con imagen Wikimedia
 - **Tema 5** (2 barajas, 9 cards): `inventario-control-existencias` 5/5 + `material-oficina` 4/4 con imagen Wikimedia (esta última reubicada desde t6 tras auditoría de fidelidad al MD)
 - **Tema 6** (6 barajas, 51 cards): `medios-pago` 13/13 (medios e instrumentos de pago: contado, aplazado, anticipado, efectivo, recibo, cheque, transferencia, tarjeta de débito, IBAN, pagaré y letra de cambio) + `pago-online` 5/5 (comercio electrónico y sus cuatro formas de pago) + `excel-pantalla-inicial` 10/10 (las diez partes de la ventana de Excel) + `excel-conceptos-basicos` 7/7 (columnas, filas, datos, guardado y fórmulas) + `documentos-comerciales` 9/9 (factura, albarán, pedido, nota de pedido, presupuesto, impresos) + `cobros-pagos-caja` 7/7 (caja, cobro, pago, justificantes, nómina y registro), todas con imagen Wikimedia
@@ -45,9 +71,59 @@ detrás de su carta de explicación): ejemplo de organización jerárquica y
 funcional (página 10 del temario en
 `D:/img_memofun/tecnicas_administrativas/tema1/pag10.jpeg`) y ejemplo de
 organización mixta y por divisiones (página 11, `pag11.jpeg`). La baraja pasa
-de 12 a 16 cards y el curso de 150 a 154. Sin imagen: la foto de la carta se
-renderiza como miniatura de 140 px y un organigrama no se lee así; el ejemplo
-va descrito en la pista.
+de 12 a 16 cards y el curso de 150 a 154.
+
+**Octubre 2026 — los ejemplos de organigrama llevaron el organigrama real
+del temario (y luego se eliminaron).** Estas cards de ejemplo no tenían
+imagen (la foto entera de la página no se lee a 140 px) y el ejemplo iba
+solo descrito en la pista. Se les puso un **recorte del organigrama** de
+las páginas 10 y 11 del temario, ajustado al gráfico y sin el pie de foto
+(que regalaría la respuesta). Eran material del centro, así que su
+atribución no es de Wikimedia: en el TASL figuraba el temario del curso
+como fuente y «material propio del centro — uso educativo» como licencia.
+La card de «Organigrama» conserva el organigrama de 1902 de la United
+States Rubber Company (dominio público), al que solo se le ha redactado
+el `alt`.
+
+**Octubre 2026 — se elimina la tarjeta de «áreas funcionales».** Repetía
+el contenido de la de «organización funcional» (las secciones de la
+empresa: producción, comercial, finanzas). Se borra la card y con ella su
+imagen (`areas-funcionales.jpg`, una portada de PDF, que sale del repo).
+La baraja baja de 11 a 10 cards y el `amount` del manifest se ajusta a
+10.
+
+**Octubre 2026 — se eliminan los ejemplos de organización repetidos.**
+Quedaban dos tarjetas con la misma respuesta en cada caso: la del
+concepto (con su analogía) y la del organigrama del temario. Se borran
+las cuatro de ejemplo —jerárquica (pág. 10), funcional (pág. 10), mixta
+(pág. 11) y por divisiones (pág. 11)— por redundantes, y con ellas sus
+recortes (`organigrama-jerarquico.jpg`, `organigrama-funcional.jpg`,
+`organigrama-mixto.jpg` y `organigrama-divisiones.jpg`, que salen del
+repo; quedan en `audit-out/` por si se quieren recuperar). La baraja
+baja de 15 a 11 cards y el `amount` del manifest se ajusta a 11. Queda
+una sola tarjeta por cada tipo de organización.
+
+**Octubre 2026 — la tarjeta de «organización funcional» se reescribe.**
+Decía «A los empleados, aunque no tengan encima al Director General»:
+«tener encima» confundía y además delata una cadena de mando, que es
+justo lo que la organización funcional no es. Ahora explica lo que la
+distingue: la empresa se reparte por funciones y el mismo trabajador
+recibe órdenes de varios jefes a la vez, en vez de depender solo de uno
+(analogía: un jugador que entrena con tres entrenadores).
+
+**Octubre 2026 — la tarjeta de «organización mixta» se reescribe.** Decía
+«Tiene jefes abajo. Y asesores arriba, que solo informan» y preguntaba
+«¿Cómo se llama este modelo mixto?» —la pregunta ya lo nombraba. Ahora
+aclara lo que el temario dice: une la organización jerárquica y la
+funcional (mando en cascada y trabajo repartido por funciones), con los
+asesores que solo informan al lado del Director general.
+
+Quedan pendientes en esta baraja las 8 imágenes de las demás cards
+(jerárquica, mixta, divisiones, planificación, organización, dirección,
+coordinación y control): siguen siendo miniaturas
+de portadas de PDF con `alt` «(imagen)». La de la organización funcional se
+quedó sin imagen, que es lo que corresponde: su pista es la analogía y el
+organigrama de ejemplo ya no está.
 
 **Octubre 2026 — fusión de las dos cartas de «organización»:** la carta de la
 tarea «Organización» y la carta de «La organización» (su importancia) se
@@ -55,6 +131,74 @@ funden en una sola carta: la pista explica el reparto del trabajo y añade
 que, si algo falla, la empresa entera se retrasa. La baraja queda con 15
 cards (el curso, con 153) y la imagen huérfana `importancia-organizacion.jpg`
 se ha eliminado.
+
+**Octubre 2026 — el título de `estructura-organizativa-tareas` pasa a
+«Organización empresarial y tareas administrativas».** La baraja se titulaba
+«Estructuras organizativas y tareas administrativas», pero su contenido es el
+§2 del temario (LA ORGANIZACIÓN EMPRESARIAL: organización jerárquica,
+funcional, mixta y por divisiones) más el §3 (las tareas administrativas:
+planificación, organización, dirección, coordinación y control). La
+«estructura organizativa» es el §1.5 (estructura formal e informal), que vive
+en `funciones-empresa-estructura`. Se cambió solo el `topic` visible, en la
+entrada del manifest y en el JSON de la baraja; ni el nombre del fichero, ni
+la carpeta de imágenes, ni el `id` del manifest (que es la clave de
+localStorage: cambiarlo borraría el progreso guardado de esa baraja).
+
+**Octubre 2026 — imágenes de `tipos-empresa-empresario`: la imagen
+muestra la PISTA, no el concepto.** 13 de las 20 cards tenían una
+foto que no ilustraba la analogía marcada en el anverso: la portada
+en PDF de "Planetas del sistema solar" (clasificacion-tamano), un
+colegio de 1912 de dos plantas para "edificio de seis pisos", el
+interior de una tienda en blanco y negro para "casa de dos pisos",
+una reunión para "los pisos de un edificio", un camarero para "un
+taxi", la bandera de España para "un tren", una autopista de luces para
+"local, nacional e internacional" (solo enseñaba el nivel
+internacional) y seis miniaturas de
+portadas de PDF (documento presidencial chileno, proyecto urbanístico,
+artículo de economía, taller de habilidades, taxonomías de clubes de
+fútbol, Una ciudad flotante de Julio Verne). Se han sustituido por
+fotos que muestran la pista (los planetas a escala, los rascacielos
+de Cuatro Torres, un edificio de seis pisos, una terraza de casas de
+dos plantas, un kiosco en una esquina, un taxi,
+tren, un examen, un taller propio, un equipo de fútbol, el
+volante de un barco), todas con licencia libre y el `alt` redactado
+en español sobre lo que se ve de verdad.
+
+Tres cards se quedan sin imagen, las tres de "clasificación": la de
+"sector primario, secundario y terciario" (analogía "campo, fábrica y
+oficinas" — no hay foto libre que muestre los tres sectores a la vez), la
+de "locales, nacionales e internacionales" (analogía "calle de barrio
+frente a autopista" — la foto solo enseñaba el nivel internacional; ahora
+la pista enumera los tres niveles con un ejemplo cada uno: barrio, país
+y mundo) y la de "públicas y privadas" (analogía "parque del pueblo y
+jardín de tu casa" — la foto solo enseñaba el lado público; ahora la
+pista dice el criterio del temario, "según quién pone el dinero", con
+un ejemplo por lado). La imagen es opcional por tarjeta (tecnico.md
+§3.1) y una imagen que no ilustra la pista es peor que ninguna: las
+cards de detalle llevan ya su foto exacta (calle de pueblo, tren,
+barco, parque, pastelero). La regla queda escrita en la guía de
+creación de elementos §2.5.
+
+**Octubre 2026 — tarjeta «públicas y privadas» y «empresa pública».**
+La card de clasificación se reescribió con el criterio del temario
+("según quién pone el dinero") y un ejemplo por lado (RENFE/RTVE/Banco
+de España frente a Mercadona o una pizzería), con la analogía del
+parque del pueblo y el jardín de tu casa: la imagen, que solo
+enseñaba el lado público, se retiró. La card de «Empresa pública»
+dejó de decir "público" en el anverso (regalaba la respuesta) y su
+foto cambió del ayuntamiento de South Melbourne al parque, que es lo
+que marca su pista ("como el parque del pueblo: lo paga y lo cuida la
+ciudad"). La card de «Empresario individual o sociedad» usa ya la
+respuesta "Empresario individual o sociedad", en lugar de "social".
+
+**Octubre 2026 — «Sociedad» en lugar de «empresario social».** La card
+de la sociedad responde directamente "Sociedad" (antes "Empresario
+social (o sociedad)"), y su anverso explica el acuerdo: todos ponen
+dinero y se reparten los gastos. En la card de «Empresario individual o
+sociedad» se corrigió "comparten dinero", que sonaba a dinero en
+común, por "los dos ponen dinero y comparten los gastos". Las dos
+imágenes se renombraron en consecuencia (`individual-vs-sociedad.jpg` y
+`sociedad.jpg`): en la baraja ya no queda el término "social".
 
 - Departamentos de una empresa (compras, RRHH...): fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json (repartir tareas de una casa)
 - Departamento de compras: fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json (encargado de la compra grande)
@@ -106,14 +250,9 @@ se ha eliminado.
 - Importancia de la organización administrativa (repetición, nuevo ángulo): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (biblioteca bien organizada donde cualquier libro se encuentra en segundos)
 - Organigrama (plano de la empresa con niveles jerárquicos): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (plano de un edificio que indica el piso de cada oficina)
 - Organización jerárquica (cadena de mando clara de arriba a abajo): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (ejército con rangos claros de general a soldado)
-- Organización funcional (varios mando dan órdenes sobre el mismo empleado): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (equipo donde varios capitanes mandan a la vez)
-- Organización mixta (jerárquica con asesores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (militares con asesores civiles)
+- Organización funcional (la empresa se reparte por funciones y el mismo empleado depende de varios jefes a la vez): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (jugador que entrena con tres entrenadores, cada uno en su posición)
+- Organización mixta (une la jerárquica y la funcional: mando en cascada y trabajo repartido por funciones, con asesores que solo informan): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (militares con asesores civiles)
 - Organización por divisiones (cada división funciona como empresa independiente): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (padre con tres hijos adultos, cada uno con su casa y presupuesto)
-- Ejemplo de organización jerárquica (organigrama del temario: Director general → jefes de Ventas, Compras y Almacén → sus dos empleados cada uno): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (árbol: la raíz arriba y las ramas abajo)
-- Ejemplo de organización funcional (organigrama del temario: Consejo de administración → Director general → directores de Producción, Comercial y Financiero, y el empleado depende de los tres): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (un empleado con tres jefes el mismo día)
-- Ejemplo de organización mixta (organigrama del temario: Director general con Adjunto director, Asesoría fiscal y Gabinete de estudios técnicos como asesores, más los tres directores de departamento): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (un jefe que manda en su empresa y, al lado, un equipo de expertos que le ayudan)
-- Ejemplo de organización por divisiones (organigrama del temario: Director general con un director para cada zona, Europa, América y Asia): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (tres tiendas con el mismo dueño, cada una va por su cuenta)
-- Áreas funcionales (secciones como Producción, Comercial, Finanzas): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (orquesta dividida en cuerdas, viento y percusión)
 - Planificación administrativa (decidir objetivos y cómo llegar): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (pensar la ruta antes de un viaje)
 - Organización administrativa (repartir trabajo y recursos; si algo falla, todo se retrasa): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (cocina: alguien corta, alguien cocina, alguien sirve)
 - Dirección administrativa (guiar al equipo, dar órdenes, motivar): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json (director de orquesta que marca el ritmo)
@@ -154,9 +293,9 @@ se ha eliminado.
 - Para qué sirve la actividad de la empresa (satisfacer necesidades y obtener beneficios): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/la-empresa.json (hacemos pan que otros necesitan y así ganamos)
 - Clasificación de empresas por tamaño (gran, mediana, pequeña, micro): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (planetas grandes a pequeños)
 - Sector primario, secundario y terciario de actividad: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (campo, fábrica, servicios: los tres pisos de la economía)
-- Empresas locales, nacionales e internacionales según ámbito geográfico: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (calle de barrio vs autopista transfronteriza)
-- Empresas públicas y privadas según propiedad del capital: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (parque público vs jardín privado)
-- Empresario individual vs empresario social (sociedad): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (solo vs equipo: exámenes en solitario vs en grupo)
+- Empresas locales, nacionales e internacionales según ámbito geográfico: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (tres escalones: barrio, país, mundo)
+- Empresas públicas y privadas según quién pone el dinero: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (parque del pueblo vs jardín de tu casa)
+- Empresario individual o sociedad: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (solo vs equipo: exámenes en solitario vs en grupo; la respuesta usa "sociedad", no "social"; los dos ponen dinero y comparten los gastos)
 - Funciones del empresario: dirigir, controlar y supervisar: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (capitán de barco que pone rumbo y supervisa)
 - Gran empresa (más de 250 trabajadores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (rascacielos: muchas plantas y mucha gente)
 - Empresa mediana (entre 50 y 249 trabajadores): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (colegio con 80 personas: edificio de seis pisos)
@@ -168,24 +307,44 @@ se ha eliminado.
 - Empresa local (trabaja en una localidad, provincia o comunidad): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (fuente del pueblo: el agua sale aquí)
 - Empresa nacional (trabaja en todo un país): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (tren que recorre España entero)
 - Empresa internacional (trabaja en varios países): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (barco que cruza el mar y llega a otras playas)
-- Empresa pública (el capital es del Estado): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (parque público: lo paga la ciudad)
+- Empresa pública (el capital es del Estado): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (parque del pueblo: lo paga la ciudad; el anverso no dice "público", que era la respuesta; la foto es el parque)
 - Empresa privada (el capital es de particulares): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (jardín de tu casa: lo paga su dueño)
+- Empresario individual (una sola persona pone el dinero y dirige): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (el autónomo que abre su propio taller)
+- Sociedad (varios empresarios se unen para llevar un negocio): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario.json (equipo de fútbol: el gol es de todos; todos ponen dinero y se reparten los gastos)
 - Crear empleo y riqueza como función de la empresa: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (árbol que da frutos para la comunidad)
 - Asumir riesgos técnicos y económicos: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (cruzar la calle: riesgo pero necesario para avanzar)
 - Organizar y dirigir el proceso de producción: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (obra: el jefe reparte el trabajo y dirige a los albañiles hasta levantar la casa)
 - Estructura formal de la empresa (organigrama, puestos, jerarquía): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (plano de la casa hecho por el arquitecto)
 - Estructura informal de la empresa (relaciones espontáneas entre compañeros): fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (atajos y pasillos que la gente usa aunque no estén en el plano)
 - Fórmula organización real = estructura formal + estructura informal: fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/funciones-empresa-estructura.json (iceberg: parte visible + parte bajo el agua)
-- Comunicación escrita externa (empresa ↔ exterior, puede tener valor legal): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (correo que entra y sale de casa, no todo queda dentro)
-- Carta comercial (documento formal para comunicarse con clientes/proveedores): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (carta personal con formato profesional)
-- Membrete de la carta comercial (datos de la empresa emissora): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (cabecera que identifica al remitente)
-- Partes de la carta comercial (destinatario, cuerpo, saludo, firma): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (estructura de un email profesional)
+
+**Octubre 2026 — imágenes de `funciones-empresa-estructura`: la imagen
+muestra la PISTA.** Las 5 fotos que tenía eran miniaturas de documentos
+PDF (un libro sobre frutos ácidos, unos «slides» de *Risk Assessment*,
+los anales de la construcción, un libro de arquitecto y una zarzuela),
+es decir, la imagen no tenía nada que ver con la tarjeta, y el `alt`
+era literalmente «(imagen)». Se sustituyeron por fotos que enseñan la
+analogía marcada: un manzano con manzanas (crear empleo y riqueza), un
+grupo de personas cruzando un paso de cebra (asumir riesgos), albañiles
+en una obra (organizar y dirigir la producción), el plano de una casa
+(estructura formal) y un pasaje entre edificios (estructura informal).
+La sexta card —la fórmula del iceberg— no tenía imagen y ya tiene una:
+un iceberg con la parte que asoma y la masa que queda bajo el agua.
+- Comunicación escrita externa (empresa ↔ exterior): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (correo que entra y sale de casa, no todo queda dentro)
+- Carta comercial (el ejemplo de comunicación externa que da el libro): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (carta personal con los datos de la empresa arriba)
+- Documentos de la comunicación escrita de una empresa (ejercicio 5 del tema): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (el montón de papeles que te dan cuando compras algo)
 - Qué son las comunicaciones escritas (uso del lenguaje escrito): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (escribir en vez de hablar)
 - Comunicación escrita interna (el origen y el destino es la propia empresa): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json (una nota que se pasa de una mesa a otra)
 - Comunicación interna (actividades para crear y mantener buenas relaciones): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (mantener la convivencia en un grupo)
-- Función de la comunicación ascendente (quejas, ideas, contestación): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (levantar la mano en clase)
-- Función de la comunicación descendente (funciones, resultados, actividades y objetivos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (el profesor explica el tema y los objetivos)
-- Función de la comunicación transversal (coordinar trabajadores y grupos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (pasarse el testigo en una carrera)
+- Función de la comunicación ascendente (quejas, ideas, contestación): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (levantar la mano en clase)
+- Formas de la comunicación ascendente (buzón de sugerencias, encuestas, entrevistas, informes, reuniones y quejas): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (las seis maneras de dejarle un recado al jefe)
+- Dificultades de la comunicación ascendente (lentitud, retrasos, necesidad de respuesta rápida, inseguridad en la recepción): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (un buzón que tarda en vaciarse)
+- Función de la comunicación descendente (funciones, resultados, actividades y objetivos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (el profesor explica el tema y los objetivos)
+- Formas de la comunicación descendente (órdenes, programación de tareas, reuniones, recomendaciones e instrucciones): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (las cinco formas de repartir el trabajo)
+- Dificultades de la comunicación descendente (exceso de información, no aceptar el mensaje, órdenes contradictorias, inseguridad y transmisión lenta): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (dos papeles que se contradicen)
+- Función de la comunicación transversal (coordinar trabajadores y grupos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (pasarse el testigo en una carrera)
+- Formas de la comunicación transversal (informes, comunicados interiores y reuniones): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (la reunión donde cada grupo cuenta qué ha hecho)
+- Dificultades de la comunicación transversal (carácter informal y rivalidad entre departamentos): fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json (dos grupos del cole que no se llevan bien)
 - Comunicación oral como medio de transmisión: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (una conversación de café)
 - Comunicación escrita como medio de transmisión: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (dejar una nota en la mesa)
 - Comunicación no verbal como medio de transmisión: fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json (entender que tu compañero está cansado solo por cómo mira)

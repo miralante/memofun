@@ -250,6 +250,12 @@ back/forward and bookmarking work for free:
   (`topicGroup` travels in the URL) and its back button returns here.
 - Pinned course: a "quick access" card appears at the top of the
   course level, linking straight into that course's subjects.
+- Deck card: icon, the deck's name and **an invitation to practise it**
+  (`home.deckInvite`, `.deck-cta` class). It carries **no card count**:
+  `deck.amount` is still stored in `decks/manifest.json` as the content
+  contract (the 8–15 cards per session of `contents.md`), but the home
+  screen does not show it. Same rule as the topic and subject cards:
+  one number per level, and at the deck level no number at all.
 
 This adds levels to the flow described in §5 rule 10 *only* for
 decks that opt into `course`/`subject` (and `topicGroup`) — flat

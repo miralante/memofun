@@ -1095,11 +1095,11 @@
   },
   {
     "id": "fpb-sa-1-ta-t1-estructura",
-    "topic": "Estructuras organizativas y tareas administrativas",
+    "topic": "Organización empresarial y tareas administrativas",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 15,
+    "amount": 10,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/estructura-organizativa-tareas.json",
     "icon": "📋",
     "topicGroup": "Tema 1 · La empresa",
@@ -1174,11 +1174,22 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 23,
+    "amount": 20,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json",
     "icon": "📋",
     "topicGroup": "Tema 3 · Comunicación",
     "selfTest": true
+  },
+  {
+    "id": "fpb-sa-1-ta-t3-tipos",
+    "topic": "Tipos de información según el flujo",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Técnicas Administrativas Básicas",
+    "amount": 9,
+    "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json",
+    "icon": "🤝",
+    "topicGroup": "Tema 3 · Comunicación"
   },
   {
     "id": "fpb-sa-1-ta-t3-medios",
@@ -1197,7 +1208,7 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 8,
+    "amount": 5,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json",
     "icon": "📋",
     "topicGroup": "Tema 3 · Comunicación"
@@ -1375,32 +1386,77 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
-    "amount": 9,
+    "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json",
-    "icon": "🦺"
+    "icon": "🦺",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
+    "selfTest": true
   },
   {
-    "id": "fpb-sa-1-ipe-t2-prevencion",
-    "topic": "Técnicas de prevención",
+    "id": "fpb-sa-1-ipe-t2-basicas",
+    "topic": "Técnicas básicas y principios de la prevención",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
-    "amount": 16,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-de-prevencion.json",
-    "icon": "🦺"
+    "amount": 13,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-basicas-prevencion.json",
+    "icon": "🛠️",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
   },
   {
-    "id": "fpb-sa-1-ipe-t2-proteccion",
-    "topic": "Técnicas de protección",
+    "id": "fpb-sa-1-ipe-t2-tipos-riesgo",
+    "topic": "Los cinco tipos de riesgo",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 2 · Técnicas de prevención y protección",
-    "amount": 15,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-de-proteccion.json",
-    "icon": "🦺"
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tipos-de-riesgo.json",
+    "icon": "⚠️",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-senalizacion",
+    "topic": "Señalización de seguridad",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad.json",
+    "icon": "🚸",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-responsables",
+    "topic": "Responsables de la prevención",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json",
+    "icon": "👷",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-colectiva",
+    "topic": "Técnicas de protección colectiva",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "amount": 6,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva.json",
+    "icon": "🚧",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-epi",
+    "topic": "Equipos de protección individual",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "amount": 9,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json",
+    "icon": "🥽",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
   },
   {
     "id": "fpb-sa-1-ipe-t3-concepto",
@@ -1408,10 +1464,11 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
-    "amount": 8,
+    "amount": 10,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json",
-    "icon": "🚑"
+    "icon": "🚑",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "selfTest": true
   },
   {
     "id": "fpb-sa-1-ipe-t3-pas",
@@ -1419,21 +1476,32 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
     "amount": 8,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas.json",
-    "icon": "🚑"
+    "icon": "🆘",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
   },
   {
-    "id": "fpb-sa-1-ipe-t3-emergencias",
-    "topic": "Qué hacer en diferentes emergencias",
+    "id": "fpb-sa-1-ipe-t3-desmayos",
+    "topic": "Desmayos y hemorragias",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
-    "amount": 12,
-    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/que-hacer-en-emergencias.json",
-    "icon": "🚑"
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias.json",
+    "icon": "🩹",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t3-emergencias",
+    "topic": "Quemaduras, fracturas y convulsiones",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "amount": 10,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones.json",
+    "icon": "🔥",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
   },
   {
     "id": "fpb-sa-1-ipe-t3-botiquin",
@@ -1441,10 +1509,10 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
     "amount": 9,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json",
-    "icon": "🚑"
+    "icon": "🧰",
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
   },
   {
     "id": "fpb-sa-1-ipe-t4-autoconocimiento",

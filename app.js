@@ -343,13 +343,28 @@
     return url;
   }
 
+  /** One deck in the grid: icon, the deck's own name, and an invitation
+      to practise it.
+
+      The card does NOT show how many cards the deck holds. A count is a
+      measurement, and the person who studies doesn't need it to decide
+      whether to start — it only turns a deck into a number to judge.
+      What the card answers instead is "what can I do here?": the
+      invitation (SPEC.md §2.9, tecnico.md §4.1). The deck's own length
+      is still known to the person who prepares it: `amount` stays in
+      decks/manifest.json as the content contract (8–15 cards per
+      session, `doc/es/contenidos.md`) — it is simply not put in front
+      of the person who studies.
+
+      Same rule as the topic and subject cards above: one number per
+      level is enough, and a deck has no number at all. */
   function deckCardHtml(deck, i, progress) {
     var done = progress.completed && progress.completed[deck.id];
     return (
       '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + studyUrl(deck) + '">' +
       '<span class="deck-icon" aria-hidden="true">' + (deck.icon || iconFor(i)) + '</span>' +
       '<h3>' + App.utils.escapeHtml(deck.topic) + '</h3>' +
-      '<span class="deck-meta">' + (deck.amount || '') + ' ' + App.i18n.t('home.cards') + '</span>' +
+      '<span class="deck-cta">' + App.utils.escapeHtml(App.i18n.t('home.deckInvite')) + '</span>' +
       (done ? '<span class="deck-stamp" aria-hidden="true"></span>' : '') +
       '</a>'
     );
@@ -569,10 +584,10 @@
           ? studyUrl(subjectDecks[0], { back: studyBackFrom(buildUrl(course)) })
           : buildUrl(course, subject);
         icon = single ? (subjectDecks[0].icon || subjectIcon(subject)) : subjectIcon(subject);
-        /* Flat-deck subject — no topics by definition, so the
-           section/card count is the only honest answer; we drop it
-           and let the deck-grid itself (and the per-deck amount on the
-           next page) carry that info. */
+        /* Flat-deck subject — no topics by definition, so a topic count
+           would be a fake number; we drop the meta line entirely and let
+           the deck grid on the next page speak for itself (each deck
+           card invites to practise it, no card counts anywhere). */
         meta = '';
       }
       body =

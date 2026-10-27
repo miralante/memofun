@@ -8,7 +8,7 @@ if (window.App.i18n) {
       tagline: 'Pick a deck and practice with flashcards.',
       emptyTitle: 'No decks yet',
       emptyBody: 'Ask the person who supports you to prepare a new deck.',
-      cards: 'cards',
+      deckInvite: 'Practise this deck',
       openDeck: 'Study',
       chooseCourse: 'Choose your course',
       subjects: 'subjects',

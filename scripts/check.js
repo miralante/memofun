@@ -437,15 +437,19 @@ checks += 1;
     ['id', 'topic', 'level', 'amount', 'file'].forEach(function (field) {
       if (entry[field] === undefined) failures.push(label + ': missing "' + field + '"');
     });
-    /* `topic` and `amount` are what the home screen actually renders
-       (app.js reads deck.topic / deck.amount). A present-but-empty value
-       renders a blank <h3> and a bare "tarjetas" with no number, which is
-       invisible to every other check — see the drift guard in §10. */
+    /* `topic` is what the home screen actually renders (app.js reads
+       deck.topic). A present-but-empty value renders a blank <h3>,
+       which is invisible to every other check — see the drift guard in
+       §10. `amount` is NOT rendered any more: it stays in the manifest
+       as the content contract (8–15 cards per session, doc/es/contenidos.md),
+       but the deck card invites to practise the deck instead of counting
+       its cards (SPEC.md §2.9, guard in §11). It still has to be a
+       number, because that contract is what it means. */
     if (entry.topic !== undefined && !String(entry.topic).trim()) {
       failures.push(label + ': "topic" is empty — the home screen would show a blank title');
     }
     if (entry.amount !== undefined && !Number.isFinite(Number(entry.amount))) {
-      failures.push(label + ': "amount" is not a number — the home screen would show no card count');
+      failures.push(label + ': "amount" is not a number — it is the deck\'s card count in the content contract');
     }
     /* `topicGroup` is optional (only subjects split into topics use it),
        but when present it has to be usable: a non-empty string owned by
@@ -484,6 +488,16 @@ checks += 1;
       if (!Array.isArray(cards) || !cards.length) {
         failures.push('decks/' + entry.file + ': "cards" must be a non-empty array');
       } else {
+        /* Cards whose image comes from a document (PDF/TIF/DJVU) or whose
+           alt was never written. Both are the same defect: the picture
+           does not illustrate the card's clue (guia-crear-elementos.md
+           §2.5). A PDF's thumbnail is the document's cover, not its
+           content, so the card shows a scanned title page. Counted per
+           deck and reported as a warning: the backlog is real, but it
+           is not this gate's job to break decks that are still being
+           rewritten. */
+        var docImages = 0;
+        var missingAlt = 0;
         cards.forEach(function (card, ci) {
           /* question/pregunta → question */
           var pregunta = card.question || card.pregunta || '';
@@ -535,9 +549,24 @@ checks += 1;
                 failures.push(imgLabel + '.licencia "' + img.licencia + '" is not safe to reuse — ' +
                   'NC (non-commercial) and ND (no derivatives) licenses are not allowed, see technical.md §3.1');
               }
+              if (/\.(pdf|tif|djvu)(\?|#|$)/i.test(String(img.source || ''))) {
+                docImages += 1;
+              }
+              if (!String(img.alt || '').trim() || String(img.alt).trim() === '(imagen)') {
+                missingAlt += 1;
+              }
             }
           }
         });
+        if (docImages) {
+          warnings.push('decks/' + entry.file + ': ' + docImages + ' card(s) con la imagen sacada de un ' +
+            'documento (PDF/TIF/DJVU) — la miniatura es la portada, no la imagen; hay que sustituirla por ' +
+            'una foto que muestre la pista (guia-crear-elementos.md §2.5)');
+        }
+        if (missingAlt) {
+          warnings.push('decks/' + entry.file + ': ' + missingAlt + ' card(s) con el alt sin redactar — ' +
+            'el alt tiene que describir lo que la imagen muestra de verdad (tecnico.md §3.1)');
+        }
       }
     } catch (e) {
       failures.push('decks/' + entry.file + ': not valid JSON — ' + e.message);
@@ -651,6 +680,33 @@ checks += 1;
         'rename the read or migrate the manifest, but keep both in sync.');
     }
   });
+})();
+
+/* --- 11. The home screen must not show card counts --- */
+(function checkHomeShowsNoCardCount() {
+  /* SPEC.md §2.9 (es and en): the deck card answers "what can I do
+     here?" with an invitation to practise the deck — it never says how
+     many cards the deck holds. A count is a measurement, and it turns a
+     deck into a figure to judge.
+
+     `amount` stays in decks/manifest.json as the content contract (8–15
+     cards per session), so this guard is about the *screen*, not the
+     data: if app.js starts reading `deck.amount` again, the number is
+     back in front of the person who studies. */
+  checks += 1;
+  var appPath = path.join(ROOT, 'app.js');
+  if (!fs.existsSync(appPath)) return;
+  var src;
+  try {
+    src = fs.readFileSync(appPath, 'utf8');
+  } catch (e) {
+    return;
+  }
+  if (/\bdeck\.amount\b/.test(src)) {
+    failures.push('app.js reads `deck.amount` — the home screen would show how many cards a deck holds. ' +
+      'The deck card must invite to practise the deck instead (SPEC.md §2.9); the count stays in ' +
+      'decks/manifest.json as the content contract.');
+  }
 })();
 
 /* --- CSP: no executable inline <script> in any HTML page.

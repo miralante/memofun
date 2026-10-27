@@ -1,0 +1,268 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "Una persona se ha desmayado y no responde. ¿Qué debes hacer según respire o no?",
+      "opciones": {
+        "a": "Si respira, se la coloca de lado. Si no respira, se llama al 112 y se hace masaje cardíaco.",
+        "b": "Si respira, se la coloca de lado. Si no respira, se le da agua para que reaccione.",
+        "c": "En los dos casos hay que darle una boquilla para que respire mejor."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "completar",
+      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
+      "huecos": [
+        {
+          "texto": "La primera norma del PAS es ___.",
+          "respuesta": "proteger"
+        },
+        {
+          "texto": "La segunda norma del PAS es ___.",
+          "respuesta": "avisar"
+        },
+        {
+          "texto": "La tercera norma del PAS es ___.",
+          "respuesta": "socorrer"
+        },
+        {
+          "texto": "El primer signo vital que se comprueba es la ___.",
+          "respuesta": "conciencia"
+        },
+        {
+          "texto": "A la persona inconsciente que respira se la pone en ___ lateral.",
+          "respuesta": "posición"
+        },
+        {
+          "texto": "El número único de emergencias es el ___.",
+          "respuesta": "112"
+        }
+      ],
+      "banco": [
+        "proteger",
+        "avisar",
+        "socorrer",
+        "conciencia",
+        "posición",
+        "112"
+      ]
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        {
+          "texto": "Los primeros auxilios se dan antes de que llegue la ayuda médica.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Si una persona no responde pero respira, hay que hacerle un masaje cardíaco.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "El 112 es el número único de emergencias en toda España.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Hay que darle agua a una persona que está inconsciente.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "La maniobra de Heimlich se usa cuando alguien se atraganta.",
+          "respuesta": "V"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "unir",
+      "enunciado": "Une cada paso de la regla PAS con lo que significa. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Proteger.",
+        "B": "Avisar.",
+        "C": "Socorrer.",
+        "D": "Conciencia.",
+        "E": "Pulso."
+      },
+      "derecha": {
+        "1": "Comprobar que el lugar es seguro y que no hay más peligro.",
+        "2": "Llamar al 112 para pedir ayuda.",
+        "3": "Ayudar a la persona accidentada.",
+        "4": "Mirar si la persona responde cuando le hablas.",
+        "5": "Sentir el pulso en el cuello o en la muñeca."
+      },
+      "respuesta": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      }
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada situación de emergencia con la técnica que toca. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Se desmaya y respira.",
+        "B": "No responde y no respira.",
+        "C": "Sangra por un corte en el brazo.",
+        "D": "Se ha quemado con agua caliente.",
+        "E": "Se ha roto un hueso.",
+        "F": "Se ha atragantado y no puede respirar."
+      },
+      "derecha": {
+        "1": "Colocarla de lado.",
+        "2": "Llamar al 112 y hacer masaje cardíaco.",
+        "3": "Presionar la herida con una gasa limpia.",
+        "4": "Enfriar la zona con agua fría.",
+        "5": "Inmovilizar la zona con algo rígido.",
+        "6": "Hacer la maniobra de Heimlich."
+      },
+      "respuesta": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5",
+        "F": "6"
+      }
+    },
+    {
+      "id": "p6",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué signos vitales se comprueban y en qué orden?",
+      "opciones": {
+        "a": "Pulso, temperatura y conciencia.",
+        "b": "Conciencia, respiración y pulso.",
+        "c": "Respiración,consciousness y color de la piel."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p7",
+      "tipo": "clasificar",
+      "enunciado": "¿Cada actuación es la correcta o la incorrecta? Marca cada una.",
+      "categorias": [
+        "Actuación correcta",
+        "Actuación incorrecta"
+      ],
+      "elementos": [
+        {
+          "texto": "Colocar de lado a la persona que no responde pero sí respira.",
+          "respuesta": "Actuación correcta"
+        },
+        {
+          "texto": "Levantar la cabeza de la persona inconsciente para que respire mejor.",
+          "respuesta": "Actuación incorrecta"
+        },
+        {
+          "texto": "Avisar al 112 antes de socorrer a la persona.",
+          "respuesta": "Actuación correcta"
+        },
+        {
+          "texto": "Apartar las sillas y las mesas del alrededor durante una convulsión.",
+          "respuesta": "Actuación correcta"
+        },
+        {
+          "texto": "Quitar la gasa empapada de sangre y ponerla otra vez.",
+          "respuesta": "Actuación incorrecta"
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál de estos objetos NO tiene que estar en el botiquín básico del centro de trabajo?",
+      "opciones": {
+        "a": "Una jeringuilla para pinchar.",
+        "b": "Tijeras.",
+        "c": "Gasas estériles.",
+        "d": "Antiséptico."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p9",
+      "tipo": "unir",
+      "enunciado": "Une cada signo vital con la forma de comprobarlo. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Conciencia.",
+        "B": "Respiración.",
+        "C": "Pulso."
+      },
+      "derecha": {
+        "1": "Tocar el cuello o la muñeca.",
+        "2": "Preguntar si está bien o tocarle el hombro.",
+        "3": "Ver si el pecho sube y baja."
+      },
+      "respuesta": {
+        "A": "2",
+        "B": "3",
+        "C": "1"
+      }
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "Una persona se atraganta pero todavía tose. ¿Qué haces?",
+      "opciones": {
+        "a": "Hacerle la maniobra de Heimlich enseguida.",
+        "b": "Dejarla toser, porque el cuerpo está expulsando el bocado por su cuenta.",
+        "c": "Darle un vaso de agua."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p11",
+      "tipo": "seleccion",
+      "enunciado": "En una hemorragia, la gasa se empapa de sangre. ¿Qué haces?",
+      "opciones": {
+        "a": "Quitar la gasa, poner otra encima y apretar de nuevo.",
+        "b": "Poner otra gasa encima sin quitar la que ya está.",
+        "c": "Lavar la herida con agua antes de vendar."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p12",
+      "tipo": "clasificar",
+      "enunciado": "¿Cada consejo es una buena práctica o una mala práctica? Marca cada uno.",
+      "categorias": [
+        "Buena práctica",
+        "Mala práctica"
+      ],
+      "elementos": [
+        {
+          "texto": "Mantener la calma durante la emergencia.",
+          "respuesta": "Buena práctica"
+        },
+        {
+          "texto": "Hacer todo lo que se te ocurra, aunque no sepas hacerlo.",
+          "respuesta": "Mala práctica"
+        },
+        {
+          "texto": "No hacer nada que no sepas hacer.",
+          "respuesta": "Buena práctica"
+        },
+        {
+          "texto": "Informar si ves algo peligroso en el taller.",
+          "respuesta": "Buena práctica"
+        },
+        {
+          "texto": "Dar comida o bebida a una persona que ha recibido un golpe fuerte.",
+          "respuesta": "Mala práctica"
+        }
+      ]
+    }
+  ]
+}

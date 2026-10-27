@@ -8,7 +8,7 @@ if (window.App.i18n) {
       tagline: 'Elige una baraja y practica con tarjetas.',
       emptyTitle: 'Todavía no hay barajas',
       emptyBody: 'Pídele a la persona que te ayuda que prepare una baraja nueva.',
-      cards: 'tarjetas',
+      deckInvite: 'Practica esta baraja',
       openDeck: 'Estudiar',
       chooseCourse: 'Elige tu curso',
       subjects: 'asignaturas',

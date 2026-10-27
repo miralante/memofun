@@ -7,28 +7,6 @@
   "preguntas": [
     {
       "id": "p1",
-      "tipo": "seleccion",
-      "enunciado": "¿Qué son las comunicaciones escritas?",
-      "opciones": {
-        "a": "Las que usan el lenguaje escrito para intercambiar información.",
-        "b": "Las que hace la empresa hacia el exterior.",
-        "c": "Las que se cuentan de viva voz en una reunión."
-      },
-      "respuesta": "a"
-    },
-    {
-      "id": "p2",
-      "tipo": "seleccion",
-      "enunciado": "El jefe de Compras escribe un correo electrónico a un proveedor. ¿Qué tipo de comunicación es?",
-      "opciones": {
-        "a": "Comunicación escrita externa.",
-        "b": "Comunicación escrita interna.",
-        "c": "Comunicación vertical descendente."
-      },
-      "respuesta": "a"
-    },
-    {
-      "id": "p3",
       "tipo": "completar",
       "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
       "huecos": [
@@ -40,18 +18,20 @@
       "banco": ["internas", "ascendente", "descendente", "aviso"]
     },
     {
-      "id": "p4",
+      "id": "p2",
       "tipo": "vf",
       "enunciado": "Escribe V si es verdadero o F si es falso.",
       "afirmaciones": [
+        { "texto": "Las comunicaciones escritas usan el lenguaje escrito para intercambiar información.", "respuesta": "V" },
         { "texto": "La comunicación horizontal es entre trabajadores de categorías profesionales similares.", "respuesta": "V" },
         { "texto": "La comunicación diagonal es entre personas de distintos niveles de la organización.", "respuesta": "V" },
         { "texto": "Una charla en la máquina del café es comunicación formal.", "respuesta": "F" },
-        { "texto": "El oficio interno es un documento de las empresas públicas.", "respuesta": "V" }
+        { "texto": "El oficio interno es un documento de las empresas públicas.", "respuesta": "V" },
+        { "texto": "El memorando tiene cuatro partes: cabecera, De/A, cuerpo y pie.", "respuesta": "V" }
       ]
     },
     {
-      "id": "p5",
+      "id": "p3",
       "tipo": "unir",
       "enunciado": "Une cada situación con el tipo de comunicación según el flujo de la información. Escribe el número al lado de la letra.",
       "izquierda": {
@@ -67,7 +47,7 @@
       "respuesta": { "A": "1", "B": "2", "C": "3" }
     },
     {
-      "id": "p6",
+      "id": "p4",
       "tipo": "unir",
       "enunciado": "Une cada medio de comunicación interna con su descripción.",
       "izquierda": {
@@ -83,18 +63,7 @@
       "respuesta": { "A": "1", "B": "2", "C": "3" }
     },
     {
-      "id": "p7",
-      "tipo": "seleccion",
-      "enunciado": "¿Qué cuatro partes tiene un memorando o nota interior?",
-      "opciones": {
-        "a": "Cabecera, De/A, cuerpo y pie.",
-        "b": "Membrete, número, asunto, lugar y fecha de emisión.",
-        "c": "Destinatario, cuerpo del mensaje, saludo y despedida, firma y cargo."
-      },
-      "respuesta": "a"
-    },
-    {
-      "id": "p8",
+      "id": "p5",
       "tipo": "clasificar",
       "enunciado": "¿Qué tipo de comunicación es cada caso? Marca el tipo: descendente, ascendente o transversal.",
       "categorias": ["Descendente", "Ascendente", "Transversal"],
@@ -105,18 +74,7 @@
       ]
     },
     {
-      "id": "p9",
-      "tipo": "seleccion",
-      "enunciado": "¿Para qué se utiliza la comunicación ascendente?",
-      "opciones": {
-        "a": "Para presentar quejas y proponer ideas.",
-        "b": "Para informar sobre funciones, resultados y objetivos.",
-        "c": "Para facilitar la coordinación entre grupos de trabajo."
-      },
-      "respuesta": "a"
-    },
-    {
-      "id": "p10",
+      "id": "p6",
       "tipo": "seleccion",
       "enunciado": "Una Administración Pública da la misma información a varios departamentos sin hablar con cada uno. ¿Qué documento usa?",
       "opciones": {
@@ -127,15 +85,82 @@
       "respuesta": "a"
     },
     {
-      "id": "p11",
+      "id": "p7",
       "tipo": "vf",
       "enunciado": "Escribe V si es verdadero o F si es falso.",
       "afirmaciones": [
         { "texto": "La circular interna lleva un número que la identifica.", "respuesta": "V" },
         { "texto": "El aviso es una comunicación breve para informar a muchos destinatarios.", "respuesta": "V" },
         { "texto": "La comunicación no verbal se apoya en gestos.", "respuesta": "V" },
-        { "texto": "El acta resume los acuerdos tomados en una reunión.", "respuesta": "V" }
+        { "texto": "El acta resume los acuerdos tomados en una reunión.", "respuesta": "V" },
+        { "texto": "La comunicación ascendente sirve para presentar quejas y proponer ideas.", "respuesta": "V" },
+        { "texto": "La comunicación ascendente suele ser lenta y con retrasos.", "respuesta": "V" },
+        { "texto": "La comunicación descendente nunca produce exceso de información.", "respuesta": "F" },
+        { "texto": "La comunicación transversal es siempre formal.", "respuesta": "F" }
       ]
+    },
+    {
+      "id": "p8",
+      "tipo": "clasificar",
+      "enunciado": "Ejercicio 1 del tema: indica qué comunicaciones se consideran externas y cuáles internas.",
+      "categorias": ["Interna", "Externa"],
+      "elementos": [
+        { "texto": "El jefe de Compras envía un correo electrónico a un proveedor.", "respuesta": "Externa" },
+        { "texto": "El jefe de Recursos Humanos solicita una copia del DNI a un trabajador de la empresa.", "respuesta": "Interna" },
+        { "texto": "El jefe de Recursos Humanos recibe una carta en la que se solicita una entrevista de trabajo.", "respuesta": "Externa" },
+        { "texto": "El director general solicita un informe de las ventas del trimestre al jefe de Ventas.", "respuesta": "Interna" },
+        { "texto": "El director general envía una invitación al alcalde de su localidad para la inauguración de una nueva sucursal.", "respuesta": "Externa" },
+        { "texto": "Luis García, empleado del Departamento de Producción, pide a Recursos Humanos el periodo de vacaciones de verano.", "respuesta": "Interna" }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "Ejercicio 5 del tema: marca la opción que enumera documentos que forman parte de la comunicación escrita de una empresa.",
+      "opciones": {
+        "a": "Carta comercial, factura, albarán, pedido, presupuesto y nómina.",
+        "b": "Sala de reuniones, agenda del jefe, dirección de la empresa, número de teléfono y parada del autobús.",
+        "c": "Acta de la reunión, dirección de RRHH, organigrama, lista de correos y turno de trabajo."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p10",
+      "tipo": "seleccion",
+      "enunciado": "Ejercicio 6 del tema: define la comunicación interna.",
+      "opciones": {
+        "a": "Un conjunto de actividades realizadas por cualquier organización para crear y mantener buenas relaciones con sus miembros y entre ellos.",
+        "b": "Los mensajes que la empresa envía a sus clientes y proveedores.",
+        "c": "El sistema de correo electrónico de la empresa."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p11",
+      "tipo": "seleccion",
+      "enunciado": "Ejercicio 10 del tema: para redactar el aviso de la empresa Areteia (la segunda parte del curso de formación docente empieza el próximo día 15 de junio), ¿qué elementos lleva un aviso?",
+      "opciones": {
+        "a": "Membrete de la empresa, el texto del aviso, el lugar y la fecha, y la firma con el cargo (JEFE DE RECURSOS HUMANOS).",
+        "b": "Cabecera, De/A, cuerpo y pie.",
+        "c": "Membrete, número de circular, asunto, lugar y fecha de emisión."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p12",
+      "tipo": "unir",
+      "enunciado": "Une cada tipo de comunicación con las formas que se utilizan en ella.",
+      "izquierda": {
+        "A": "Ascendente",
+        "B": "Descendente",
+        "C": "Transversal"
+      },
+      "derecha": {
+        "1": "Órdenes, programación de tareas, reuniones, recomendaciones e instrucciones.",
+        "2": "Buzón de sugerencias, encuestas, entrevistas, informes, reuniones y quejas.",
+        "3": "Informes, comunicados interiores y reuniones."
+      },
+      "respuesta": { "A": "2", "B": "1", "C": "3" }
     }
   ]
 }

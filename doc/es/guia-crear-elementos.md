@@ -75,6 +75,35 @@ sigue el patrón de carpetas existente; consulta
 [`actividades.md`](actividades.md) §2 para los cursos que se
 distribuyen ahora.
 
+### 2.5 La imagen de la tarjeta muestra la pista, no el concepto
+
+Cuando una tarjeta lleva imagen, la imagen **ilustra la pista** —la
+analogía o el ejemplo que va marcado en el anverso—, no el concepto
+que hay que recordar. Si la pista dice "es como un rascacielos", la
+foto es un rascacielos; si dice "es como un kiosco en la esquina", la
+foto es un kiosco en una esquina. Mostrar el concepto (un edificio
+de oficinas para "empresa mediana") repite lo que el anverso ya dice
+en texto y no ayuda a recordar nada.
+
+Dos trampas que ya han costado imágenes:
+
+- **La miniatura de un PDF es la portada del documento, no su
+  contenido.** Buscar "planetas" en Wikimedia devuelve a menudo
+  documentos escaneados; su miniatura es la portada (un título, un
+  sello, un texto) y no sirve de ilustración. Descarta a mano todo
+  candidato cuyo `source` termine en `.pdf`, `.tif` o `.djvu`.
+- **La descripción de la fuente puede no describir la imagen.** En
+  Commons, un archivo puede acompañar a una ficha que habla de otra
+  cosa (la ficha de un edificio de seis pisos con la foto de su
+  portal). El `alt` tiene que describir lo que la imagen muestra de
+  verdad, y eso solo se comprueba mirando la imagen.
+
+Por eso la imagen se mira siempre antes de darla por buena: que
+exista, pese bien y no supere los 200 KB no significa que ilustre la
+tarjeta. Y como en pantalla la miniatura es pequeña (140 px), la
+composición importa: un tema legible a ese tamaño (un rascacielos
+entero, un cartel, una fachada) y no un plano imposible de leer.
+
 ## 3. La receta técnica
 
 El esquema JSON de la baraja, las reglas de validación y la lista
@@ -98,6 +127,9 @@ con un chat de IA suelto, en
 - [ ] El número de tarjetas es realista para una sesión (objetivo
       8–15 tarjetas por baraja en la primera publicación; barajas
       largas se pueden partir).
+- [ ] Cada imagen muestra **la pista** de su tarjeta (la analogía
+      marcada), se ha **mirado** antes de darla por buena y su
+      `alt` describe lo que se ve de verdad.
 - [ ] Baraja revisada en voz alta con la persona (o con alguien
       haciendo de persona) antes de publicar.
 - [ ] `node scripts/check.js` pasa.
