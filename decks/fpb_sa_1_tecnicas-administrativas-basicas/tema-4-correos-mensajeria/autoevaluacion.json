@@ -10,9 +10,9 @@
       "tipo": "seleccion",
       "enunciado": "¿Cuántas líneas operativas tiene Correos?",
       "opciones": {
-        "a": "Cuatro: básica, urgente, paquetería y económica.",
-        "b": "Tres: básica, urgente y económica.",
-        "c": "Dos: la línea normal y la línea express."
+        "a": "Seis: básica, urgente, paquetería, económica, servicios telegráficos y gestión de buzón.",
+        "b": "Cuatro: básica, urgente, paquetería y económica.",
+        "c": "Tres: básica, urgente y económica."
       },
       "respuesta": "a"
     },
@@ -33,8 +33,8 @@
       "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
       "huecos": [
         { "texto": "El envío más rápido de Correos lleva un distintivo con la palabra ___.", "respuesta": "URGENTE" },
-        { "texto": "Correos ofrece dos servicios telegráficos: el ___ y el burofax.", "respuesta": "fax" },
-        { "texto": "El destinatario paga el importe al recibir el envío. Ese servicio se llama ___.", "respuesta": "reembolso" },
+        { "texto": "Correos ofrece tres servicios telegráficos: ___, burofax y telegrama.", "respuesta": "fax" },
+        { "texto": "El destinatario paga el importe en la oficina de Correos. Ese servicio se llama ___.", "respuesta": "reembolso" },
         { "texto": "Un buzón con número que Correos guarda en su oficina se llama ___ postal.", "respuesta": "apartado" }
       ],
       "banco": ["URGENTE", "fax", "reembolso", "apartado"]
@@ -44,10 +44,10 @@
       "tipo": "vf",
       "enunciado": "Escribe V si es verdadero o F si es falso.",
       "afirmaciones": [
-        { "texto": "El telegrama se entrega con acuse de recibo.", "respuesta": "V" },
+        { "texto": "Los servicios telegráficos de Correos tienen como característica la entrega registrada.", "respuesta": "V" },
         { "texto": "El burofax es uno de los servicios telegráficos de Correos.", "respuesta": "V" },
-        { "texto": "El sobre del correo urgente lleva un distintivo en la parte superior derecha.", "respuesta": "V" },
-        { "texto": "El aviso de recibo no se devuelve nunca al remitente.", "respuesta": "F" }
+        { "texto": "El sobre del correo urgente lleva un distintivo con la palabra URGENTE.", "respuesta": "V" },
+        { "texto": "En el envío con reembolso, paga el remitente al recibir el paquete en su casa.", "respuesta": "F" }
       ]
     },
     {
@@ -57,14 +57,16 @@
       "izquierda": {
         "A": "La carta y la tarjeta postal.",
         "B": "El postal exprés y la valija.",
-        "C": "Los libros y las publicaciones periódicas."
+        "C": "Los libros y las publicaciones periódicas.",
+        "D": "El fax, el burofax y el telegrama."
       },
       "derecha": {
         "1": "Línea económica",
         "2": "Línea urgente",
-        "3": "Línea básica"
+        "3": "Línea básica",
+        "4": "Servicios telegráficos"
       },
-      "respuesta": { "A": "3", "B": "2", "C": "1" }
+      "respuesta": { "A": "3", "B": "2", "C": "1", "D": "4" }
     },
     {
       "id": "p6",
@@ -76,8 +78,8 @@
         "C": "Aviso de recibo"
       },
       "derecha": {
-        "1": "El destinatario paga el importe del envío cuando lo recibe.",
-        "2": "Quien recibe firma con la fecha y la hora y devuelve el resguardo al remitente.",
+        "1": "El destinatario paga en la oficina de Correos el importe que indica la documentación del envío.",
+        "2": "Quien recibe firma con la fecha y la hora y la nota se devuelve al remitente.",
         "3": "El remitente firma la entrega y, si el envío se pierde, recibe una indemnización."
       },
       "respuesta": { "A": "3", "B": "1", "C": "2" }
@@ -96,7 +98,7 @@
     {
       "id": "p8",
       "tipo": "seleccion",
-      "enunciado": "¿De qué color puede ser el sobre de un envío normal?",
+      "enunciado": "¿De qué color puede ser el sobre de un envío normalizado?",
       "opciones": {
         "a": "Azul.",
         "b": "Blanco o de colores claros, pero nunca azul.",
@@ -134,7 +136,21 @@
         { "texto": "El servicio de valijas recoge y envía valijas entre sucursales de una misma entidad.", "respuesta": "V" },
         { "texto": "Los envíos con retorno se emplean para devolver documentos a los remitentes.", "respuesta": "V" },
         { "texto": "El apartado postal es un buzón con número que el cliente recoge en la oficina de Correos.", "respuesta": "V" },
-        { "texto": "El telegrama se entrega sin acuse de recibo.", "respuesta": "F" }
+        { "texto": "El telegrama no forma parte de los servicios telegráficos de Correos.", "respuesta": "F" }
+      ]
+    },
+    {
+      "id": "p12",
+      "tipo": "clasificar",
+      "enunciado": "Ejercicio 1 del temario. Identifica a qué línea de servicio de Correos corresponde cada producto.",
+      "categorias": ["Línea básica", "Línea urgente", "Paquetería", "Línea económica", "Servicios telegráficos", "Gestión de buzón"],
+      "elementos": [
+        { "texto": "La tarjeta postal.", "respuesta": "Línea básica" },
+        { "texto": "La valija.", "respuesta": "Línea urgente" },
+        { "texto": "El paquete azul.", "respuesta": "Paquetería" },
+        { "texto": "El publibuzón.", "respuesta": "Línea económica" },
+        { "texto": "El burofax.", "respuesta": "Servicios telegráficos" },
+        { "texto": "El apartado postal.", "respuesta": "Gestión de buzón" }
       ]
     }
   ]

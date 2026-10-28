@@ -4,134 +4,146 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Empresas privadas como MRW, SEUR, UPS o DHL. Ofrecen envíos urgentes, incluso 24 horas. <mark>Es como taxis de paquetes: más caros, pero más rápidos</mark>. ¿Cómo se llaman estas empresas, distintas de Correos?",
-      "answer": "<mark>Empresas de mensajería externa</mark>",
+      "question": "Las empresas de mensajería dan un servicio personalizado de transporte, envío y entrega, rápido y cómodo, y son una alternativa a Correos. <mark>Es como taxis de paquetes: más caros, pero más rápidos</mark>. ¿Qué son las empresas de mensajería externa y qué servicio ofrecen?",
+      "answer": "<mark>Empresas privadas que transportan, envían y entregan de forma personalizada y rápida, como alternativa a Correos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/mensajeria-externa.jpg",
-        "title": "Official Journal of the European Union - L_202302388 of 10 October 2023 - Spanish edition",
-        "source": "https://commons.wikimedia.org/wiki/File:OJ_L_202302388_of_2023_-_ES_Spanish.pdf",
-        "alt": "Página del Diario Oficial de la Unión Europea.",
-        "autor": "Publications Office of the European Union",
-        "licencia": "Public domain"
+        "title": "UPS United Parcel Service HTS Systems.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AUPS%20United%20Parcel%20Service%20HTS%20Systems.jpg",
+        "alt": "Un repartidor con un paquete junto a la furgoneta roja de una empresa de mensajería.",
+        "autor": "MobiusDaXter",
+        "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "question": "Con el servicio de depósito o recogida en oficina, el cliente lleva el envío a la oficina de la mensajería y el destinatario lo recoge en la sucursal de su ciudad. <mark>Es como dejar el paquete en un punto de recogida y que loBuscarán allí</mark>. ¿Cómo funciona el servicio de depósito en oficina?",
-      "answer": "<mark>Lo deja en la oficina de la mensajería<br>El destinatario lo recoge en la suya</mark>",
+      "question": "Para poner en marcha un envío hay dos maneras: o el cliente contacta con la empresa de mensajería, o es el cliente quien lleva el envío a la empresa. <mark>Es como llamar al taxi o ir directamente a la parada</mark>. ¿De cuántas maneras puede entregar el cliente un envío a la empresa de mensajería?",
+      "answer": "<mark>De dos: contacting con la empresa o llevando el envío a ella</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/gastos-envio-paquete.jpg",
-        "title": "Amazon triunfa en España #7",
-        "source": "https://www.flickr.com/photos/48600106280@N01/54303216",
-        "alt": "Un paquete de mensajería listo para enviar",
-        "autor": "Alvy",
-        "licencia": "CC BY-SA 2.0"
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/dos-modalidades.jpg",
+        "title": "Receptionist - Tempe",
+        "source": "https://www.flickr.com/photos/25726561@N06/3443296284",
+        "alt": "Una recepcionista sonríe mientras atiende el teléfono en un mostrador de oficina.",
+        "autor": "Phil Sexton",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "Con el acuse de recibo, la entrega se confirma al remitente con una llamada de teléfono a los pocos minutos. <mark>Es como cuando te llaman para decirte que ya te han entregado el paquete</mark>. ¿Cómo se confirma la entrega en el acuse de recibo?",
+      "question": "En el servicio de depósito o recogida en oficina, el cliente deja el envío en la oficina de la mensajería y el destinatario lo recoge en la sucursal de su ciudad de destino. <mark>Es como dejar el paquete en un punto de recogida y que lo busquen allí</mark>. ¿Cómo funciona el servicio de depósito y recogida en oficina?",
+      "answer": "<mark>El cliente lo deja en la oficina de la mensajería<br>El destinatario lo recoge en la sucursal de destino</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/deposito-oficina.jpg",
+        "title": "Automated Postal Center and new Priority Mail box display",
+        "source": "https://www.flickr.com/photos/51526368@N03/5115759015",
+        "alt": "Una oficina de correos automatizada con un quiosco y folletos de envío.",
+        "autor": "Aranami",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Con el acuse de recibo de una mensajería, la entrega se confirma al remitente por teléfono a los pocos minutos de hacerse el reparto. <mark>Es como cuando te llaman para decirte que ya te han entregado el paquete</mark>. ¿Cómo se confirma la entrega en el servicio de acuse de recibo?",
       "answer": "<mark>Con una llamada de teléfono al remitente</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/centro-llamadas.jpg",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/acuse-recibo.jpg",
         "title": "Future call center operators",
         "source": "https://www.flickr.com/photos/51646668@N05/6172327422",
-        "alt": "Personas trabajando en un centro de atención telefónica.",
+        "alt": "Personas con auriculares delante de los ordenadores en un centro de atención telefónica.",
         "autor": "MarcinMonko",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "El servicio urgente diurno o nocturno entrega los envíos con destino y llegada en el mismo día. <mark>Es como el reparto express que llega hoy, pero el mismo día, de día o de noche</mark>. ¿Cuándo llega un envío urgente diurno o nocturno?",
+      "question": "El servicio urgente diurno o nocturno entrega los envíos con destino y llegada en el mismo día, de día o de noche. <mark>Es como el reparto express que llega hoy mismo</mark>. ¿Cuándo llegan los envíos del servicio urgente diurno o nocturno?",
       "answer": "<mark>En el mismo día</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/reparto-paquetes.jpg",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/urgente-diurno.jpg",
+        "title": "Amazon triunfa en España #7",
+        "source": "https://www.flickr.com/photos/48600106280@N01/54303216",
+        "alt": "Un almacén con estanterías y paquetes ya preparados para salir.",
+        "autor": "Alvy",
+        "licencia": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "question": "En la entrega en mano no reparte el transportista: son los propios empleados de la mensajería los que se desplazan para recoger y entregar el envío en el domicilio. <mark>Es como el repartidor que te trae la caja a la puerta y te la da en la mano</mark>. ¿Quién hace la entrega en mano?",
+      "answer": "<mark>Los empleados de la mensajería, que se desplazan al domicilio</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/entrega-mano.jpg",
         "title": "20161005-FNS-LSC-0114",
         "source": "https://www.flickr.com/photos/41284017@N08/29959656563",
-        "alt": "Reparto de paquetes y cajas desde un camion",
+        "alt": "Un repartidor entrega un paquete en la mano a un cliente en la puerta de su casa.",
         "autor": "USDAgov",
         "licencia": "CC PDM 1.0"
       }
     },
     {
-      "question": "Con la entrega en mano, son los propios empleados de la mensajería los que se desplazan para recoger y entregar los envíos en el domicilio. <mark>Es como el repartidor que te trae la caja a la puerta y te la da en la mano</mark>. ¿Quién hace la entrega en mano?",
-      "answer": "<mark>Los empleados de la mensajería</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/carta-buzon.jpg",
-        "title": "Mailbox",
-        "source": "https://www.flickr.com/photos/58883622@N02/7988605111",
-        "alt": "Una carta asomando por un buzón",
-        "autor": "Markus Grossalber",
-        "licencia": "CC BY 2.0"
-      }
-    },
-    {
-      "question": "Los servicios internacionales se hacen fuera del país, por medios aéreos y terrestres. <mark>Es como el envío que cruza el mar en un avión o un barco</mark>. ¿Por dónde salen los envíos de los servicios internacionales?",
+      "question": "Los servicios internacionales se realizan fuera del país, por medios aéreos y terrestres. <mark>Es como un envío que cruza el mar en un barco o vuela en un avión</mark>. ¿Por qué medios salen los envíos de los servicios internacionales?",
       "answer": "<mark>Por medios aéreos y terrestres</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/carta-porte-camion.jpg",
-        "title": "Adelantando a un camion",
-        "source": "https://www.flickr.com/photos/16189770@N00/229125024",
-        "alt": "Un camión de transporte en carretera",
-        "autor": "edans",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/internacionales.jpg",
+        "title": "Boeing 757 DHL Loading cargo (6884137036).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABoeing%20757%20DHL%20Loading%20cargo%20(6884137036).jpg",
+        "alt": "Un avión de carga con la mercancía metida por la puerta del fuselaje.",
+        "autor": "Curimedia",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "El servicio de 24 horas asegura la entrega al día siguiente, sin falta. <mark>Es como pedir comida a domicilio un día y que llegue al siguiente</mark>. ¿Qué entrega asegura el servicio de 24 horas?",
+      "question": "El servicio de 24 horas está pensado para cuando no hace falta mucha rapidez: asegura la entrega al día siguiente. <mark>Es como pedir comida a domicilio un día y que llegue al siguiente</mark>. ¿Qué entrega asegura el servicio de 24 horas?",
       "answer": "<mark>La entrega al día siguiente</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/inventario-almacen.jpg",
-        "title": "Warehouse interior showcasing organized shelving and packages",
-        "source": "https://commons.wikimedia.org/wiki/File:Warehouse_interior_showcasing_organized_shelving_and_packages.jpg",
-        "alt": "Estanterías de un almacén llenas de cajas bien ordenadas",
-        "autor": "Shixart1985",
-        "licencia": "CC BY 2.0"
-      }
-    },
-    {
-      "question": "Los servicios fijos o el mensajero en exclusiva contratan un mensajero para todo el tiempo que haga falta y en el horario pactado. <mark>Es como tener un repartidor fijo de la empresa, siempre disponible</mark>. ¿Qué servicio contrata un mensajero en exclusiva para el tiempo pactado?",
-      "answer": "<mark>Los servicios fijos</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/clasificacion-abc-almacen.jpg",
-        "title": "Storage, Almacen Riocaliente",
-        "source": "https://www.flickr.com/photos/23874985@N07/49614937021",
-        "alt": "Estanterías de un almacén con productos guardados",
-        "autor": "neil cummings",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/24-horas.jpg",
+        "title": "Calendar",
+        "source": "https://www.flickr.com/photos/32146215@N06/3215151141",
+        "alt": "Un calendario de pared con los días del mes numerados.",
+        "autor": "Tony in WA",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "question": "Los envíos con retorno se emplean para enviar aquelos documentos que tienen que ser devueltos a los remitentes de forma inmediata. <mark>Es como mandar un papel que te tienen que devolver con la respuesta dentro</mark>. ¿Para qué sirven los envíos con retorno?",
-      "answer": "<mark>Para devolver documentos a los remitentes</mark>",
+      "question": "Los servicios fijos o mensajero en exclusiva contratan un mensajero de forma diaria, por el tiempo necesario y en el horario pactado con el cliente. <mark>Es como tener un repartidor fijo de la empresa, siempre disponible</mark>. ¿Qué contratamos con el servicio de mensajero en exclusiva?",
+      "answer": "<mark>Un mensajero en exclusiva, por el tiempo y el horario pactados</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/almacen-cajas.jpg",
-        "title": "20110826-FS-LSC-0104",
-        "source": "https://www.flickr.com/photos/41284017@N08/6097689731",
-        "alt": "Cajas apiladas preparadas para enviar en un almacén",
-        "autor": "USDAgov",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/mensajero-exclusiva.jpg",
+        "title": "Bicycle-courier-337.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABicycle-courier-337.JPG",
+        "alt": "Un mensajero en bicicleta con el bolso de reparto en una calle de Londres.",
+        "autor": "ProfDEH",
+        "licencia": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "question": "Los envíos con retorno se emplean para mandar documentos que tienen que volver al remitente de forma inmediata, como un papel que necesita respuesta. <mark>Es como devolver algo al mismo punto de partida en cuanto está listo</mark>. ¿Para qué sirven los envíos con retorno?",
+      "answer": "<mark>Para devolver documentos a los remitentes de forma inmediata</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/envio-retorno.jpg",
+        "title": "Walmart Returns & Exchanges",
+        "source": "https://www.flickr.com/photos/98193606@N00/11855382986",
+        "alt": "Un cartel de una tienda que anuncia las devoluciones y los cambios, con una flecha.",
+        "autor": "vauvau",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "La manipulación y preparación consiste en que la empresa de mensajería prepara los envíos para su posterior expedición. <mark>Es como preparar las cajas en el almacén antes de que salga el camión</mark>. ¿De qué se ocupa la manipulación y preparación?",
-      "answer": "<mark>De preparar los envíos para su expedición</mark>",
+      "question": "En el servicio de manipulación y preparación, la empresa de mensajería prepara los envíos para su posterior expedición. <mark>Es como preparar las cajas en el almacén antes de que salga el camión</mark>. ¿De qué se ocupa la manipulación y preparación?",
+      "answer": "<mark>De manipular y preparar los envíos para su expedición</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/almacen-palets.jpg",
-        "title": "Warehouse filled with stacked pallets showcasing efficient space usage during daytime operations",
-        "source": "https://commons.wikimedia.org/w/index.php?curid=196431232",
-        "alt": "Estanterias de un almacen llenas de palets apilados",
-        "autor": "Shixart1985",
-        "licencia": "CC BY 2.0"
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/manipulacion.jpg",
+        "title": "Sprinter Van HTS-20S Ultra-Rack.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File%3ASprinter%20Van%20HTS-20S%20Ultra-Rack.JPG",
+        "alt": "Furgonetas con cajas de paquetería y una carretilla para cargar los envíos.",
+        "autor": "MobiusDaXter",
+        "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "question": "El servicio de valijas recoge y envía valijas entre sucursales de una misma entidad. <mark>Es como el coche que lleva las carpetas de la oficina a la otra oficina</mark>. ¿Entre qué se mueve el servicio de valijas?",
+      "question": "El servicio de valijas recoge y envía valijas entre sucursales de una misma entidad. <mark>Es como el coche que lleva las carpetas de una oficina a otra</mark>. ¿Entre qué se mueve el servicio de valijas?",
       "answer": "<mark>Entre sucursales de una misma entidad</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/paquetes-correo.jpg",
-        "title": "New packaging display at the United States Postal Service",
-        "source": "https://www.flickr.com/photos/51526368@N03/5116363810",
-        "alt": "Paquetes y sobres de correo apilados",
-        "autor": "Aranami",
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/servicio-valijas.jpg",
+        "title": "Vintage mail bag at the Postal Museum.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AVintage%20mail%20bag%20at%20the%20Postal%20Museum.jpg",
+        "alt": "Una valija de correo de lona con la inscripción US MAIL CITY COLLECTION.",
+        "autor": "Marcin Wichary",
         "licencia": "CC BY 2.0"
       }
     },
@@ -139,12 +151,12 @@
       "question": "Con el servicio de hora fijada, el remitente se asegura de que el destinatario recibirá el envío a la hora acordada con la empresa de mensajería. <mark>Es como concertar una cita: el repartidor llega a esa hora</mark>. ¿Qué garantiza el servicio de hora fijada?",
       "answer": "<mark>La entrega a la hora acordada</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/sello-confidencial.jpg",
-        "title": "'Restricted Data' stamp",
-        "source": "https://www.flickr.com/photos/69537337@N02/6322624283",
-        "alt": "Un sello de \"información restringida\" sobre un documento",
-        "autor": "RestrictedData",
-        "licencia": "CC BY 2.0"
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa/hora-fijada.jpg",
+        "title": "Wikipedia-Tissot-Seastar-1000-Automatic-Silver-boxed.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AWikipedia-Tissot-Seastar-1000-Automatic-Silver-boxed.jpg",
+        "alt": "Un reloj de pulsera de plata con la esfera vista de frente.",
+        "autor": "Minzoblate",
+        "licencia": "CC BY-SA 3.0"
       }
     }
   ]

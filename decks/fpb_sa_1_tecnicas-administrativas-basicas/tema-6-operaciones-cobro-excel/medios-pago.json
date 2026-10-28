@@ -9,7 +9,7 @@
       "image": {
         "title": "Wal-Mart checkout.jpg",
         "source": "https://commons.wikimedia.org/wiki/File:Wal-Mart_checkout.jpg",
-        "alt": "Un cliente paga en la caja del supermercado en el momento de recibir la mercancía",
+        "alt": "Una mano sacando billetes y monedas de la cartera",
         "autor": "Ben Schumin",
         "licencia": "CC BY-SA 2.5",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/pago-contado.jpg"
@@ -45,7 +45,7 @@
       "image": {
         "title": "Euro",
         "source": "https://www.flickr.com/photos/22388938@N06/2157854271",
-        "alt": "Monedas de euro sobre un mapa, para pagar en efectivo",
+        "alt": "Una moneda de euro apoyada sobre un billete de euro con un mapa",
         "autor": "wfabry",
         "licencia": "CC BY 2.0",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/pago-efectivo.jpg"
@@ -69,19 +69,19 @@
       "image": {
         "title": "Check Writing",
         "source": "https://www.flickr.com/photos/15923063@N00/2204277278",
-        "alt": "Una mano rellenando un cheque con el importe y el beneficiario",
+        "alt": "Una persona firmando un documento con un bolígrafo sobre una mesa",
         "autor": "CarbonNYC [in SF!]",
         "licencia": "CC BY 2.0",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/escribir-cheque.jpg"
       }
     },
     {
-      "question": "Un cheque lleva varios datos. Lleva el banco, el IBAN, quién cobra, el importe y la firma. <mark>Es como un formulario con casillas que hay que rellenar</mark>. ¿Cómo se llaman estos datos del cheque?",
+      "question": "Un cheque lleva varios datos: quién lo emite, el banco que lo paga, quién recibe el dinero, el importe, la fecha y la firma. <mark>Es como un formulario con casillas que hay que rellenar</mark>. ¿Cómo se llaman estos datos del cheque?",
       "answer": "<mark>Partes del cheque</mark>",
       "image": {
         "title": "Project 365 #251: 080911 Cheque It Out!",
         "source": "https://www.flickr.com/photos/23408922@N07/6128304362",
-        "alt": "Un cheque escrito con el beneficiario, el importe en cifras y en letras y la fecha",
+        "alt": "Un cheque cruzado con el importe escrito en letras y el nombre del beneficiario",
         "autor": "comedy_nose",
         "licencia": "CC PDM 1.0",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/cheque.jpg"
@@ -118,25 +118,13 @@
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/iban.jpg",
         "title": "WessexBankStatement",
         "source": "https://commons.wikimedia.org/wiki/File:WessexBankStatement.png",
-        "alt": "El IBAN marcado con una flecha en un extracto bancario",
+        "alt": "Un extracto bancario con el IBAN de la cuenta señalado con una flecha roja",
         "autor": "Martinvl",
         "licencia": "CC BY-SA 3.0"
       }
     },
     {
-      "question": "El CCC tiene 20 números: 2 de control y 10 de cuenta. Son 4 del banco y 4 de la oficina. <mark>Es como la matrícula del coche: dice de qué banco es</mark>. ¿Qué datos contiene el CCC?",
-      "answer": "<mark>Banco, oficina, control y cuenta</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/ccc.jpg",
-        "title": "WessexBankStatement",
-        "source": "https://commons.wikimedia.org/wiki/File:WessexBankStatement.png",
-        "alt": "El número de cuenta y el código del banco en un extracto",
-        "autor": "Martinvl",
-        "licencia": "CC BY-SA 3.0"
-      }
-    },
-    {
-      "question": "En una operación de compra, alguien firma un papel promising pagar en una fecha futura. <mark>Es como decir: te pago esto tal día</mark>. ¿Cómo se llama este instrumento de pago?",
+      "question": "En una operación de compra, alguien firma un papel prometiendo pagar en una fecha futura. <mark>Es como decir: te pago esto tal día</mark>. ¿Cómo se llama este instrumento de pago?",
       "answer": "<mark>Pagaré</mark>",
       "image": {
         "title": "Promissory Note to student May Newell, 1814",
@@ -148,7 +136,7 @@
       }
     },
     {
-      "question": "<mark>Es como una cadena: quien debe, el banco y quien cobra</mark>. ¿Cómo se llama este documento?",
+      "question": "Cuando el pago se aplaza, alguien escribe un documento para que el banco pague a un beneficiario en una fecha futura. <mark>Es como una cadena: quien debe, el banco y quien cobra</mark>. ¿Cómo se llama este instrumento de pago a crédito?",
       "answer": "<mark>Letra de cambio</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/letra-cambio.jpg",

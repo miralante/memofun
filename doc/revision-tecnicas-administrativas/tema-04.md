@@ -6,9 +6,9 @@
 
 ## Mapa Conceptual
 
-- **1. EL SERVICIO DE CORREOS** → Línea básica, Línea urgente, Línea económica
-- **2. MODALIDADES DE ENVÍO** → Paquetería, Servicios telegráficos, Gestión de buzón
-- **3. ENVÍO DE CORRESPONDENCIA** → Embalaje, Normalización
+- **1. EL SERVICIO DE CORREOS** → Línea básica, Línea urgente, Paquetería, Línea económica, Servicios telegráficos, Gestión de buzón
+- **2. MODALIDADES DE ENVÍO** → Certificado, Correo urgente, Reembolso, Aviso de recibo, Correo digital
+- **3. ENVÍO DE CORRESPONDENCIA Y PAQUETERÍA** → Embalaje, Normalización
 - **4. SERVICIO DE MENSAJERÍA EXTERNA**
 
 ---
@@ -28,7 +28,8 @@ Correos es una empresa pública responsable de los servicios electrónicos y de 
 
 ### Servicios telegráficos
 - Fax y burofax
-- Telegrama (entrega registrada)
+- Telegrama
+- Característica de la línea: **entrega registrada**
 
 ### Gestión de buzón
 - Apartado postal: la correspondencia se deposita en el casillero a disposición del titular
@@ -49,7 +50,7 @@ Correos es una empresa pública responsable de los servicios electrónicos y de 
 - Servicios: Cartas, Paquetería, Notificaciones administrativas
 
 ### Reembolso
-- El destinatario paga en la oficina la cantidad indicada en la documentación que acompaña al envío
+- El destinatario paga **en la oficina** la cantidad indicada en la documentación que acompaña al envío
 - Muy extendido en ventas por correo
 - Servicios: Paquetería, Carta, Paquete exprés
 
@@ -60,6 +61,7 @@ Correos es una empresa pública responsable de los servicios electrónicos y de 
 
 ### Correo digital
 - Carta, Tarjeta postal, Envíos publicitarios
+- El libro remite a un apartado posterior de la misma unidad
 
 ---
 
@@ -74,7 +76,7 @@ Requisitos:
 
 ### 3.2. Normalización
 
-Consiste en la adaptación de los envíos a normas de dimensiones para adoptar sistemas de mecanización.
+Consiste en la adaptación de los envíos a normas de dimensiones para adoptar sistemas de mecanización que permitan la manipulación automática de la correspondencia.
 
 Requisitos del envío:
 - **Formato:** Rectangular, americano, DIN-A5, acolchados de diferentes tamaños y de seguridad
@@ -92,7 +94,7 @@ Requisitos del envío:
 
 ## 4. El servicio de mensajería externa
 
-Las empresas de mensajería proporcionan un servicio personalizado de transporte, envío y entrega rápida, como alternativa a Correos.
+Las empresas de mensajería proporcionan un servicio personalizado de transporte, envío y entrega rápida, como alternativa a Correos. El cliente puede **contactar con la empresa** o **llevar el envío a la empresa**.
 
 **Modalidades de envío:**
 
@@ -153,7 +155,6 @@ Cumplimentación correcta de sobres:
 - Destinatario: parte inferior central/derecha, en 4 líneas
 
 ### Ejercicio 5
-
 Detecta y corrige errores en la cumplimentación de un envío de paquete azul certificado urgente con entrega a domicilio.
 
 ---
@@ -162,34 +163,85 @@ Detecta y corrige errores en la cumplimentación de un envío de paquete azul ce
 
 | Sección del temario | Artefacto | Cobertura |
 | :--- | :--- | :--- |
-| 1. El servicio de Correos: líneas operativas (básica, urgente, paquetería y económica) y sus productos | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-lineas.json` | tarjetas 2-6 |
-| 1. Servicios telegráficos (fax y burofax, telegrama con entrega registrada) y gestión de buzón (apartado postal) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-lineas.json` | tarjetas 7-9 |
-| 2. Modalidades de envío (certificado, correo urgente, reembolso, aviso de recibo, correo digital) y partes del certificado | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio.json` | tarjetas 1-6 |
-| 3. Envío de correspondencia y paquetería: embalaje, normalización, requisitos del envío y dirección | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria.json` | tarjetas 1-7 |
-| 4. El servicio de mensajería externa (tabla de la pág. 39) | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa.json` | tarjetas 1-12 |
-| Ejercicios 1-5 | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/autoevaluacion.json` | 11 preguntas (5 tipos) |
+| 1. El servicio de Correos: qué es y a quién sirve de enlace | `decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-lineas.json` | tarjeta 1 |
+| 1. Las seis líneas operativas y sus productos | `…/correos-lineas.json` | tarjetas 2-6 |
+| 1. Servicios telegráficos (fax, burofax y telegrama, con entrega registrada) | `…/correos-lineas.json` | tarjetas 7-8 |
+| 1. Gestión de buzón (apartado postal) | `…/correos-lineas.json` | tarjeta 9 |
+| 2. Modalidades de envío: certificado, correo urgente, reembolso, aviso de recibo y correo digital | `…/modalidades-envio.json` | tarjetas 1, 3-6 |
+| 2.1 Las partes del certificado (pág. 37) | `…/modalidades-envio.json` | tarjeta 2 |
+| 3. Envío de correspondencia: embalaje (tres requisitos) y normalización (para qué sirve) | `…/envio-correspondencia-paqueteria.json` | tarjetas 1-2 |
+| 3.2 Formato y color del sobre, grafía, las cuatro líneas de la dirección y la esquina del remitente | `…/envio-correspondencia-paqueteria.json` | tarjetas 3-6 |
+| 4. El servicio de mensajería externa: las dos modalidades y los once servicios de la tabla de la pág. 39 | `…/mensajeria-externa.json` | tarjetas 1-13 |
+| Ejercicios 1-5 | `…/autoevaluacion.json` | 12 preguntas (5 tipos) |
 
-**Total tema 4:** 4 barajas (34 tarjetas) + 1 autoevaluación (11 preguntas).
+**Total tema 4:** 4 barajas (34 tarjetas) + 1 autoevaluación (12 preguntas).
 
-### Corrección de fidelidad
+### Corrección de fidelidad (octubre 2026)
 
-La tarjeta que decía «Correos tiene tres tipos de envío: básico, urgente y
-económico» era **incorrecta**: el libro describe **cuatro** líneas
-operativas (pág. 34), con la de paquetería entre la urgente y la económica.
-La lista de productos de cada línea (carta, tarjeta postal y notificación
-administrativa; postal exprés y valija; producto azul, paquete de 48 o 72
-horas y hasta 20 kilos; publicorreo, publibuzón, creamailing, libros y
-publicaciones) no tenía ninguna tarjeta y ahora sí.
+- La tarjeta que decía «Correos tiene **cuatro** líneas operativas: básica, urgente,
+  paquetería y económica» era **incorrecta**: el libro describe **seis**
+  (pág. 35), con los servicios telegráficos y la gestión de buzón como líneas
+  propias. Corregida, y con tarjeta propia para cada línea.
+- Los servicios telegráficos no son dos (fax y burofax) sino **tres**: el
+  telegrama también lo es, y la característica de la línea es la **entrega
+  registrada**. La tarjeta del telegrama ya no afirma que se entregue con acuse
+  de recibo.
+- El **reembolso** se pagaba «al repartidor, en el momento de la entrega»:
+  el libro dice que **el destinatario abona en la oficina** la cantidad que
+  indica la documentación del envío (ejercicio 2). Corregido en la tarjeta y en
+  la autoevaluación.
+- El **aviso de recibo** sí devuelve la nota al remitente: se mantenía, pero se
+  dice explícitamente qué firma y qué fecha lleva.
+- La normalización exigía «un tamaño con norma DIN-A5» como si fuera
+  obligatorio: el libro da una **relación de formatos admitidos** (rectangular,
+  americano, DIN-A5, acolchados). Corregido.
+- Se añadieron los **tres requisitos del embalaje** (resistir el peso, calidad
+  del material, armonización en forma y tamaño), que solo estaban resumidos en
+  dos.
+- El enunciado de la tarjeta de requisitos repetía la respuesta dentro de la
+  pregunta; ahora la respuesta es lo que hay que recordar.
 
-### Tarjeta que no es del tema
+### Tarjetas que no son del tema
 
-- «La correspondencia» (recibir, registrar, clasificar y entregar la
-  correspondencia) viene del bloque de temario oficial «Tramitar
+- **«La correspondencia»** (recibir, registrar, clasificar y entregar la
+  correspondencia) venía del bloque de temario oficial «Tramitar
   correspondencia y paquetería paso a paso» y no de una sección concreta del
-  libro. Se queda en el tema porque el envío de correspondencia es su §3.
+  libro: el §3 trata del **envío**, no de la recepción y el registro.
+- **«Comprobar un paquete al recibirlo»** tampoco tiene respaldo en el libro.
+
+Ambas se han retirado del tema 4 y sus tarjetas del índice de conceptos.
 
 ### Detalle del libro que no tenía tarjeta
 
-El apartado 2.1 del libro (pág. 37) detalla las **partes del certificado**
-(remitente, destinatario, tipo de producto, servicios adicionales y firma).
-Se han cubierto con una tarjeta dentro de `modalidades-envio`.
+- El apartado 2.1 del libro (pág. 37) detalla las **partes del certificado**
+  (remitente, destinatario, tipo de producto, servicios adicionales y firma).
+  Cubierto con una tarjeta dentro de `modalidades-envio`.
+- El §4 (pág. 38) explica que hay **dos modalidades** para poner en marcha un
+  envío: contactar con la empresa de mensajería o llevarle el envío. Ahora
+  tiene tarjeta propia.
+
+### Auditoría de imágenes (octubre 2026)
+
+De las 34 imágenes que tenía el tema, 28 se sustituyeron por otras que
+ilustran de verdad la pista, y las 6 que se reutilizaron lo hicieron en otra
+tarjeta. La mitad no ilustraba nada: eran portadas de PDF escaneados (la
+Constitución española para las líneas, el Diario Oficial de la UE para la
+normalización y el aviso de recibo, un reglamento de firma electrónica para el
+certificado, un diccionario postal de Chile para la dirección, el Manual del
+Instructor de assembler para el servicio de mensajería, un libro sobre la
+historia del correo para la correspondencia) o imágenes de otra tarjeta (un
+almacén de cajas para la línea urgente, un sello de «rechazado» para el
+telegrama, estanterías de almacén para el mensajero en exclusiva, para los
+envíos con retorno y para el servicio de valijas).
+
+Las 34 imágenes finales se miraron **una a una** antes de darlas por buenas, y
+los 34 `alt` se redactaron sobre lo que se ve de verdad. Al comprobar las fotos
+reutilizadas del repo se confirmó otra vez que sus `alt` mienten: «Una persona
+firmando un libro de registro de visitantes» era la portada de un libro de
+1887, «Un paquete de mensajería listo para enviar» era un almacén a media
+resolución, «Reparto de paquetes y cajas desde un camión» era en realidad un
+repartidor entregando un paquete en la puerta de una casa, «Una cinta
+transportadora en una instalación industrial» era una cinta transportadora
+antigua y «Un centro postal con cajas listas para devolver un envío» era una
+oficina de correos automatizada. 24 imágenes huérfanas quedaron en
+`audit-out/huerfanos-tema4/`.

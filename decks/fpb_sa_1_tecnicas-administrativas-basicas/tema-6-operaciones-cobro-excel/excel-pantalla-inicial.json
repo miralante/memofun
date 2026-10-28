@@ -46,7 +46,7 @@
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-menus.jpg",
         "title": "Microsoft Excel: barra menus",
         "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
-        "alt": "Las pestañas de la barra de menús de Excel: Inicio, Insertar, Diseño, Fórmulas",
+        "alt": "Las pestañas de la barra de menús de Excel, con los nombres de las secciones en italiano",
         "autor": "MasterExcel.it",
         "licencia": "CC BY-SA 4.0"
       }
@@ -100,7 +100,19 @@
       }
     },
     {
-      "question": "Excel cambia el zoom de 10% a 400%. Tiene tres vistas: normal, diseño de página y saltos de página. <mark>Es como usar unos prismáticos: te acercas o te alejas</mark>. ¿Qué permite hacer el zoom en Excel?",
+      "question": "Al lado del zoom hay tres botones que cambian cómo se ve la hoja: normal, diseño de página y saltos de página. <mark>Es como los distintos puntos de vista de un mapa</mark>. ¿Cómo se llama ese grupo de botones?",
+      "answer": "<mark>Las vistas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/vistas.jpg",
+        "title": "Microsoft Excel: vistas",
+        "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
+        "alt": "Los tres botones de vista de Excel: normal, diseño de página y saltos de página",
+        "autor": "MasterExcel.it",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "question": "Excel cambia el zoom de 10% a 400% para ver la hoja más grande o más pequeña. <mark>Es como usar unos prismáticos: te acercas o te alejas</mark>. ¿Qué permite hacer el zoom en Excel?",
       "answer": "<mark>Acercar o alejar la vista</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/zoom.jpg",
@@ -118,7 +130,7 @@
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barras-desplazamiento.jpg",
         "title": "Microsoft Excel: barras desplazamiento",
         "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
-        "alt": "La barra de desplazamiento vertical de Excel en el borde derecho de la hoja",
+        "alt": "La barra de desplazamiento vertical de Excel en el borde derecho de la ventana",
         "autor": "MasterExcel.it",
         "licencia": "CC BY-SA 4.0"
       }

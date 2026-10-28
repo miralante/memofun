@@ -32,22 +32,60 @@
       "tipo": "completar",
       "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
       "huecos": [
-        { "texto": "El pago que se hace días o meses después de recibir la mercancía se llama pago ___.", "respuesta": "aplazado" },
-        { "texto": "El ___ es un justificante que entrega la persona que cobra a la que paga.", "respuesta": "recibo" },
-        { "texto": "El ___ es el instrumento con el que el emisor ordena a una entidad bancaria que entregue el dinero a un beneficiario.", "respuesta": "cheque" },
-        { "texto": "La ___ bancaria es la operación que transmite dinero de una cuenta a otra.", "respuesta": "transferencia" }
+        {
+          "texto": "El pago que se hace días o meses después de recibir la mercancía se llama pago ___.",
+          "respuesta": "aplazado"
+        },
+        {
+          "texto": "El ___ es un justificante que entrega la persona que cobra a la que paga.",
+          "respuesta": "recibo"
+        },
+        {
+          "texto": "El ___ es el instrumento con el que el emisor ordena a una entidad bancaria que entregue el dinero a un beneficiario.",
+          "respuesta": "cheque"
+        },
+        {
+          "texto": "La ___ bancaria es la operación que transmite dinero de una cuenta a otra.",
+          "respuesta": "transferencia"
+        },
+        {
+          "texto": "En Excel, las ___ se numeran desde 1 hasta 1.048.576.",
+          "respuesta": "filas"
+        }
       ],
-      "banco": ["aplazado", "recibo", "cheque", "transferencia"]
+      "banco": [
+        "aplazado",
+        "recibo",
+        "cheque",
+        "transferencia",
+        "filas"
+      ]
     },
     {
       "id": "p4",
       "tipo": "vf",
       "enunciado": "Escribe V si es verdadero o F si es falso.",
       "afirmaciones": [
-        { "texto": "El pago en efectivo se puede hacer con billetes y monedas extranjeros.", "respuesta": "V" },
-        { "texto": "La tarjeta de débito se puede usar aunque la cuenta no tenga dinero.", "respuesta": "F" },
-        { "texto": "En el comercio electrónico se puede pagar contra reembolso.", "respuesta": "V" },
-        { "texto": "El IBAN es el código que identifica una cuenta bancaria.", "respuesta": "V" }
+        {
+          "texto": "El pago en efectivo se puede hacer con billetes y monedas extranjeros.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "La tarjeta de débito se puede usar aunque la cuenta no tenga dinero.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "En el comercio electrónico se puede pagar contra reembolso.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "El IBAN es el código que identifica una cuenta bancaria.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "En Excel se puede cambiar la vista de la hoja: normal, diseño de página y saltos de página.",
+          "respuesta": "V"
+        }
       ]
     },
     {
@@ -64,18 +102,46 @@
         "2": "Es el justificante que entrega la persona que cobra.",
         "3": "Resta el importe del pago en la cuenta en el momento de usarla."
       },
-      "respuesta": { "A": "2", "B": "1", "C": "3" }
+      "respuesta": {
+        "A": "2",
+        "B": "1",
+        "C": "3"
+      }
     },
     {
       "id": "p6",
-      "tipo": "seleccion",
-      "enunciado": "¿Qué documento acompaña a la mercancía y dice lo que se ha recibido?",
-      "opciones": {
-        "a": "La factura.",
-        "b": "El albarán.",
-        "c": "El presupuesto."
-      },
-      "respuesta": "b"
+      "tipo": "clasificar",
+      "enunciado": "Diga si cada instrumento de pago se paga al contado o a crédito.",
+      "categorias": [
+        "Pago al contado",
+        "Pago aplazado o a crédito"
+      ],
+      "elementos": [
+        {
+          "texto": "La letra de cambio.",
+          "respuesta": "Pago aplazado o a crédito"
+        },
+        {
+          "texto": "El pagaré.",
+          "respuesta": "Pago aplazado o a crédito"
+        },
+        {
+          "texto": "El recibo bancario.",
+          "respuesta": "Pago aplazado o a crédito"
+        },
+        {
+          "texto": "El cheque.",
+          "respuesta": "Pago al contado"
+        },
+        {
+          "texto": "La transferencia bancaria.",
+          "respuesta": "Pago al contado"
+        },
+        {
+          "texto": "La tarjeta de débito.",
+          "respuesta": "Pago al contado"
+        }
+      ]
     },
     {
       "id": "p7",
@@ -91,7 +157,11 @@
         "2": "Documento que justifica lo que se ha pagado.",
         "3": "Documento que dice lo que se ha entregado."
       },
-      "respuesta": { "A": "2", "B": "3", "C": "1" }
+      "respuesta": {
+        "A": "2",
+        "B": "3",
+        "C": "1"
+      }
     },
     {
       "id": "p8",
@@ -119,11 +189,24 @@
       "id": "p10",
       "tipo": "clasificar",
       "enunciado": "¿En qué momento se paga cada caso? Marca el tipo de pago.",
-      "categorias": ["Pago al contado", "Pago aplazado", "Pago anticipado"],
+      "categorias": [
+        "Pago al contado",
+        "Pago aplazado",
+        "Pago anticipado"
+      ],
       "elementos": [
-        { "texto": "El cliente paga en el momento de recoger la mercancía.", "respuesta": "Pago al contado" },
-        { "texto": "La empresa entrega la mercancía y el cliente paga treinta días después.", "respuesta": "Pago aplazado" },
-        { "texto": "El cliente deja una cantidad a cuenta antes de que le entreguen el producto.", "respuesta": "Pago anticipado" }
+        {
+          "texto": "El cliente paga en el momento de recoger la mercancía.",
+          "respuesta": "Pago al contado"
+        },
+        {
+          "texto": "La empresa entrega la mercancía y el cliente paga treinta días después.",
+          "respuesta": "Pago aplazado"
+        },
+        {
+          "texto": "El cliente deja una cantidad a cuenta antes de que le entreguen el producto.",
+          "respuesta": "Pago anticipado"
+        }
       ]
     },
     {

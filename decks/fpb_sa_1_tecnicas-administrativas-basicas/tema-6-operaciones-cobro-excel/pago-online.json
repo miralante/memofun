@@ -9,15 +9,15 @@
       "image": {
         "title": "Online shopping",
         "source": "https://www.flickr.com/photos/30760216@N08/22257890101",
-        "alt": "Una persona comprando desde el móvil con la aplicación de una tienda",
+        "alt": "Un portátil con una tienda en línea y el carrito de la compra",
         "autor": "Robbert Noordzij",
         "licencia": "CC BY 2.0",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/pago-online/comercio-electronico.jpg"
       }
     },
     {
-      "question": "En internet se puede pagar de varias formas. Con tarjeta, transferencia o contra reembolso. <mark>Es como las distintas formas de pagar en una tienda online</mark>. ¿Cómo se llama el conjunto de estas formas de pago?",
-      "answer": "<mark>Pagos en comercio electrónico</mark>",
+      "question": "En el comercio electrónico se puede pagar de cuatro maneras distintas: con tarjeta, por transferencia, al recibir el pedido o a través de un intermediario. <mark>Es como las distintas formas de pagar en una tienda online</mark>. ¿Cuántas formas de pago hay en el comercio electrónico y cuáles son?",
+      "answer": "<mark>Cuatro: tarjeta de crédito, transferencia bancaria, pago contra reembolso y pasarela de pago</mark>",
       "image": {
         "title": "Credit card payment, shopping",
         "source": "https://www.rawpixel.com/image/8809237/credit-card-payment-shopping",
@@ -55,11 +55,11 @@
       "question": "Cuando pagas en una tienda online, un intermediario conecta tu banco con la tienda y te devuelve la respuesta. <mark>Es como un puente que lleva tu dinero del banco a la tienda</mark>. ¿Cómo se llama ese intermediario?",
       "answer": "<mark>La pasarela de pago</mark>",
       "image": {
-        "title": "Oficina bancaria",
-        "source": "https://www.flickr.com/photos/62518311@N00/298335659",
-        "alt": "El interior de una oficina bancaria, con el cajero y las mesas de atención",
-        "autor": "Daquella manera",
-        "licencia": "CC0",
+        "title": "Person using a credit card to make an online purchase on a laptop at home.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3APerson%20using%20a%20credit%20card%20to%20make%20an%20online%20purchase%20on%20a%20laptop%20at%20home.jpg",
+        "alt": "Una persona con una tarjeta de crédito haciendo una compra en línea desde el portátil",
+        "autor": "Shixart1985",
+        "licencia": "CC BY 2.0",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/pago-online/pasarela-pago.jpg"
       }
     }

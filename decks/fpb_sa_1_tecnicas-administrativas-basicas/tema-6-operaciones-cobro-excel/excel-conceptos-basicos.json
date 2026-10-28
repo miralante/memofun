@@ -34,7 +34,7 @@
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/celdas.jpg",
         "title": "Anzahl der Bäume pro Quadrat 1",
         "source": "https://commons.wikimedia.org/wiki/File:Anzahl_der_B%C3%A4ume_pro_Quadrat_1.png",
-        "alt": "Celdas de una hoja de cálculo con los datos y los resultados",
+        "alt": "Una hoja de cálculo con una tabla de datos y una celda seleccionada con el número 6",
         "autor": "SlesarenkoS",
         "licencia": "CC0"
       }
@@ -43,11 +43,11 @@
       "question": "Para escribir en una hoja colocas el cursor sobre la celda y tecleas: el programa guarda solo lo que escribes. <mark>Es como rellenar las casillas de un formulario</mark>. ¿Cómo se introducen los datos en una celda?",
       "answer": "<mark>Situar el cursor y teclear</mark>",
       "image": {
-        "title": "Office Desk Keyboard",
-        "source": "https://www.rawpixel.com/image/8811998/office-desk-keyboard",
-        "alt": "Un teclado de oficina para teclear los datos",
-        "autor": "rawpixel",
-        "licencia": "Dominio público (CC0 1.0)",
+        "title": "Hoja de calculo",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=22247702",
+        "alt": "Una hoja de cálculo abierta en la pantalla de un ordenador, con el teclado delante",
+        "autor": "Leonfd1992",
+        "licencia": "CC BY-SA 3.0",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/introducir-datos.jpg"
       }
     },
@@ -56,9 +56,9 @@
       "answer": "<mark>Guardar o Guardar como</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/guardar.jpg",
-        "title": "Microsoft Excel: guardar",
+        "title": "Microsoft Excel: pantalla",
         "source": "https://commons.wikimedia.org/wiki/File:Foglio_di_Lavoro_Excel.png",
-        "alt": "El botón de guardar de la barra de acceso rápido de Excel",
+        "alt": "El icono del disquete para guardar en la barra de acceso rápido de Excel",
         "autor": "MasterExcel.it",
         "licencia": "CC BY-SA 4.0"
       }
@@ -79,10 +79,10 @@
       "question": "El IVA = subtotal × 21%; TOTAL = subtotal + IVA. <mark>Es como una cuenta de restaurante: se suma el IVA al precio</mark>. ¿Cómo se calcula el TOTAL en una factura con IVA?",
       "answer": "<mark>Subtotal + IVA (21%) = TOTAL</mark>",
       "image": {
-        "title": "Money Calculator - Billing & Invoicing",
-        "source": "https://www.flickr.com/photos/156175444@N02/36127106165",
-        "alt": "Una calculadora junto a una factura, para calcular el total con el IVA",
-        "autor": "Cerillion",
+        "title": "Volkswagen Invoice.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File%3AVolkswagen%20Invoice.jpg",
+        "alt": "Una factura con las columnas de descripción, mano de obra, piezas, impuestos y total",
+        "autor": "Casey Serin",
         "licencia": "CC BY 2.0",
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/calculo-iva.jpg"
       }

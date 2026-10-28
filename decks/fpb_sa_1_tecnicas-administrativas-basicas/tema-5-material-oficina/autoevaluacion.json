@@ -136,6 +136,20 @@
         { "texto": "Los equipos de oficina se consumen con el uso.", "respuesta": "F" },
         { "texto": "El material de oficina incluye el papel, los bolígrafos, las carpetas, los clips y los sobres.", "respuesta": "V" }
       ]
+    },
+    {
+      "id": "p12",
+      "tipo": "clasificar",
+      "enunciado": "Separa los elementos en dos grupos: ¿cada uno es un equipo de oficina o un material de oficina?",
+      "categorias": ["Equipo de oficina", "Material de oficina"],
+      "elementos": [
+        { "texto": "Una impresora.", "respuesta": "Equipo de oficina" },
+        { "texto": "Un teléfono.", "respuesta": "Equipo de oficina" },
+        { "texto": "Una mesa.", "respuesta": "Equipo de oficina" },
+        { "texto": "Una perforadora.", "respuesta": "Material de oficina" },
+        { "texto": "Grapas.", "respuesta": "Material de oficina" },
+        { "texto": "Un marcador fluorescente.", "respuesta": "Material de oficina" }
+      ]
     }
   ]
 }
