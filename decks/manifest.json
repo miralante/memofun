@@ -1764,9 +1764,10 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
-    "amount": 1,
+    "amount": 2,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones.json",
-    "icon": "🧭"
+    "icon": "🧭",
+    "selfTest": true
   },
   {
     "id": "fpb-sa-1-ipe-t8-que-es-itinerario-personal",
@@ -1775,7 +1776,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
-    "amount": 2,
+    "amount": 3,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal.json",
     "icon": "🧭"
   },
@@ -1786,7 +1787,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
-    "amount": 4,
+    "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/importancia-buenas-decisiones.json",
     "icon": "🧭"
   },
@@ -1808,7 +1809,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
-    "amount": 5,
+    "amount": 6,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen.json",
     "icon": "🧭"
   },
@@ -1832,6 +1833,17 @@
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/tecnicas-mejores-decisiones.json",
+    "icon": "🧭"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t8-consejos-para-construir-itinerario",
+    "topic": "Consejos para construir tu itinerario personal",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "amount": 6,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/consejos-para-construir-itinerario.json",
     "icon": "🧭"
   },
   {

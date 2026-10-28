@@ -1,0 +1,282 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué consiste, según el texto, en tomar decisiones?",
+      "opciones": {
+        "a": "Elegir entre varias opciones posibles.",
+        "b": "Acertar siempre a la primera, sin equivocarse nunca.",
+        "c": "Resolverlo todo sin pedir ayuda a nadie.",
+        "d": "Decidir solo por cómo te sientes en ese momento."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "unir",
+      "enunciado": "Une cada etapa del proceso de toma de decisiones con lo que haces en ella. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Identificar la decisión.",
+        "B": "Conocerse a uno mismo.",
+        "C": "Buscar información.",
+        "D": "Evaluar las opciones.",
+        "E": "Tomar la decisión.",
+        "F": "Actuar.",
+        "G": "Revisar y ajustar."
+      },
+      "derecha": {
+        "1": "Reunir datos sobre las opciones: qué necesitas de cada una y qué ventajas y desventajas tienen.",
+        "2": "Comprobar si la decisión funcionó y ver si hay que cambiar algo.",
+        "3": "Saber qué te gusta, qué se te da bien y qué quieres conseguir.",
+        "4": "Saber qué decisión hay que tomar y si es grande o pequeña.",
+        "5": "Comparar las opciones y ver cuál se adapta mejor a ti y qué consecuencias tiene.",
+        "6": "Dar el primer paso y hacer un plan de acción.",
+        "7": "Elegir con seguridad, aceptando que no existe la opción perfecta."
+      },
+      "respuesta": {
+        "A": "4",
+        "B": "3",
+        "C": "1",
+        "D": "5",
+        "E": "7",
+        "F": "6",
+        "G": "2"
+      }
+    },
+    {
+      "id": "p3",
+      "tipo": "completar",
+      "enunciado": "Completa las frases con la palabra correcta. Elige una palabra de la lista.",
+      "huecos": [
+        {
+          "texto": "Tomar decisiones consiste en elegir entre varias opciones, y esa habilidad se aprende y se mejora con la ___.",
+          "respuesta": "práctica"
+        },
+        {
+          "texto": "El itinerario personal es el camino que cada persona sigue en su vida, sobre todo en lo académico y ___.",
+          "respuesta": "profesional"
+        },
+        {
+          "texto": "Decidir bien no consiste en acertar siempre, sino en elegir con conciencia y ___.",
+          "respuesta": "responsabilidad"
+        },
+        {
+          "texto": "Una de las piezas del itinerario son los estudios: FP Básica, Grado Medio, Grado Superior y, si quieres, ___.",
+          "respuesta": "Universidad"
+        },
+        {
+          "texto": "El proceso de toma de decisiones termina ___ la decisión y ajustando lo que haga falta.",
+          "respuesta": "revisando"
+        }
+      ],
+      "banco": [
+        "práctica",
+        "profesional",
+        "responsabilidad",
+        "Universidad",
+        "revisando"
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso, según el apartado «Por qué es importante tomar buenas decisiones».",
+      "afirmaciones": [
+        {
+          "texto": "Decidir bien influye en tu bienestar personal, en tus oportunidades de trabajo, en tu desarrollo y en tu satisfacción con la vida.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Decidir bien significa acertar siempre y no equivocarse nunca.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "Hay decisiones que abren puertas y otras que las cierran.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Las decisiones solo afectan a la vida profesional, no a la personal.",
+          "respuesta": "F"
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada factor que influye en tus decisiones con el ejemplo que pone el texto.",
+      "izquierda": {
+        "A": "Intereses.",
+        "B": "Habilidades.",
+        "C": "Valores.",
+        "D": "Familia y entorno.",
+        "E": "Información.",
+        "F": "Emociones."
+      },
+      "derecha": {
+        "1": "Mis padres me apoyan en estudiar FP.",
+        "2": "Me gusta ayudar a los demás.",
+        "3": "Conozco las salidas de cada opción.",
+        "4": "Quiero un trabajo estable.",
+        "5": "Tengo miedo de equivocarme.",
+        "6": "Se me da bien organizar."
+      },
+      "respuesta": {
+        "A": "2",
+        "B": "6",
+        "C": "4",
+        "D": "1",
+        "E": "3",
+        "F": "5"
+      }
+    },
+    {
+      "id": "p6",
+      "tipo": "seleccion",
+      "enunciado": "El texto avisa de que no hay un único camino bueno. ¿Qué quiere decir eso?",
+      "opciones": {
+        "a": "Que cada persona tiene su propio camino y no tiene que compararse con nadie.",
+        "b": "Que solo hay un camino bueno y todos los demás están mal.",
+        "c": "Que hay que elegir siempre el camino más rápido.",
+        "d": "Que el itinerario personal solo incluye los estudios."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p7",
+      "tipo": "clasificar",
+      "enunciado": "¿Cada elemento es una etapa del proceso de toma de decisiones o una técnica para tomar mejores decisiones?",
+      "categorias": [
+        "Una etapa del proceso de toma de decisiones",
+        "Una técnica para tomar mejores decisiones"
+      ],
+      "elementos": [
+        {
+          "texto": "Evaluar las opciones.",
+          "respuesta": "Una etapa del proceso de toma de decisiones"
+        },
+        {
+          "texto": "Revisar y ajustar.",
+          "respuesta": "Una etapa del proceso de toma de decisiones"
+        },
+        {
+          "texto": "Visualizar el futuro.",
+          "respuesta": "Una técnica para tomar mejores decisiones"
+        },
+        {
+          "texto": "Hablar con personas de confianza.",
+          "respuesta": "Una técnica para tomar mejores decisiones"
+        },
+        {
+          "texto": "Actuar.",
+          "respuesta": "Una etapa del proceso de toma de decisiones"
+        },
+        {
+          "texto": "No tener miedo a equivocarse.",
+          "respuesta": "Una técnica para tomar mejores decisiones"
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "unir",
+      "enunciado": "Une cada técnica para tomar mejores decisiones con lo que consiste.",
+      "izquierda": {
+        "A": "Visualizar el futuro.",
+        "B": "Hablar con personas de confianza.",
+        "C": "Hacer una lista de pros y contras.",
+        "D": "Escuchar tus emociones.",
+        "E": "No tener miedo a equivocarse."
+      },
+      "derecha": {
+        "1": "Consultar a orientadores, profesores o tu familia antes de decidir.",
+        "2": "Aceptar que siempre puedes corregir el rumbo.",
+        "3": "Anotar las ventajas y las desventajas de cada opción.",
+        "4": "Imaginar cómo te sentirías si eliges una de las opciones.",
+        "5": "Atender a lo que sientes, pero sin decidir solo por eso."
+      },
+      "respuesta": {
+        "A": "4",
+        "B": "1",
+        "C": "3",
+        "D": "5",
+        "E": "2"
+      }
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál de estos ejemplos corresponde al factor «Emociones»?",
+      "opciones": {
+        "a": "Tengo miedo de equivocarme.",
+        "b": "Se me da bien organizar.",
+        "c": "Quiero un trabajo estable.",
+        "d": "Mis padres me apoyan en estudiar FP."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p10",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso, según los consejos para construir tu itinerario personal.",
+      "afirmaciones": [
+        {
+          "texto": "Los planes pueden cambiar, así que hay que ser flexible.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Las metas deben estar cerradas y no se pueden modificar nunca.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "Pedir ayuda cuando la necesitas es uno de los consejos del texto.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Hay que crear el itinerario personal copiando paso a paso el camino de otra persona.",
+          "respuesta": "F"
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "tipo": "unir",
+      "enunciado": "Une cada pieza del itinerario personal con lo que incluye.",
+      "izquierda": {
+        "A": "Formación académica.",
+        "B": "Experiencias laborales.",
+        "C": "Formación complementaria.",
+        "D": "Cambios de rumbo."
+      },
+      "derecha": {
+        "1": "Prácticas, trabajos temporales o voluntariado.",
+        "2": "FP Básica, Grado Medio, Grado Superior y, si quieres, Universidad.",
+        "3": "Idiomas, informática o habilidades sociales.",
+        "4": "Si algo no te gusta, puedes cambiar de camino."
+      },
+      "respuesta": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      }
+    },
+    {
+      "id": "p12",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál de estas frases aparece en el texto entre las «frases clave para recordar»?",
+      "opciones": {
+        "a": "Puedo cambiar de dirección si lo necesito.",
+        "b": "El que no arriesga, no gana.",
+        "c": "Más vale tarde que nunca.",
+        "d": "A quien mucho abarca, poco aprieta."
+      },
+      "respuesta": "a"
+    }
+  ]
+}

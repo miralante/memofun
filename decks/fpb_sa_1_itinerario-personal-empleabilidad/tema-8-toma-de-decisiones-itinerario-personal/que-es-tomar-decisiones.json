@@ -4,14 +4,26 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Tomar decisiones es <mark>elegir entre varias opciones</mark>. Algunas son pequeñas, como qué ropa usar. Otras son importantes: qué estudiar, en qué trabajar, con quién vivir. ¿Cómo se llama esa habilidad?",
+      "question": "Consiste en elegir entre varias opciones posibles. <mark>Es como elegir por dónde tirar cuando hay varios caminos</mark>. ¿Cómo se llama esa habilidad?",
       "answer": "<mark>Tomar decisiones</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones/definicion.jpg",
         "title": "Piezas de ajedrez",
         "source": "https://commons.wikimedia.org/wiki/File:Chess_pieces.jpg",
-        "alt": "Piezas de ajedrez sobre un tablero (metáfora visual de elegir entre jugadas / opciones)",
+        "alt": "Piezas de ajedrez de marfil y madera, las chamadas Lewis chessmen, dentro de una vitrina de museo con un cartel informativo delante",
         "autor": "Andy Wright from Sheffield, UK",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Algunas decisiones son pequeñas, como qué ropa usar; otras son importantes, como qué estudiar, en qué trabajar o con quién vivir. <mark>Es como un músculo: solo se fortalece si lo usas</mark>. ¿Qué hay que hacer con esta habilidad?",
+      "answer": "<mark>Aprenderla y mejorarla con la práctica</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones/practica.jpg",
+        "title": "Fitness Model Arm Curls",
+        "source": "https://www.flickr.com/photos/121183998@N08/13335780903",
+        "alt": "Un hombre levantando una barra de pesas en un gimnasio, con mancuernas y discos al fondo",
+        "autor": "personaltrainertoronto",
         "licencia": "CC BY 2.0"
       }
     }

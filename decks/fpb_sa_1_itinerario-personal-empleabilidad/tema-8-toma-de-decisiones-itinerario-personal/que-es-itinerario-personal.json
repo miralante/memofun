@@ -4,27 +4,39 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Es el <mark>camino de cada persona</mark>. Sobre todo en lo <mark>académico y profesional</mark>. Incluye estudios, trabajo, metas y cambios de camino. ¿Cómo se llama?",
+      "question": "Es el camino que cada persona sigue en su vida, sobre todo en lo académico y profesional. <mark>Es como la ruta que marcas tú en el mapa</mark>. ¿Cómo se llama?",
       "answer": "<mark>Itinerario personal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal/definicion.jpg",
-        "title": "Panoramas de la vida (Tom II) — Juana Manuela Gorriti",
-        "source": "https://commons.wikimedia.org/wiki/File:JM_Gorriti_Panoramas_de_la_vida_2.djvu",
-        "alt": "Portada de un libro del siglo XIX sobre recortes de la vida americana",
-        "autor": "Juana Manuela Gorriti",
-        "licencia": "Public domain"
+        "title": "Person walking alone on a leaf-covered forest path, surrounded by tall dark trees in an autumn setting.",
+        "source": "https://wordpress.org/photos/photo/98468ae3ec/",
+        "alt": "Una persona vista de espaldas, caminando sola por un sendero de bosque con hojas de otoño rojas",
+        "autor": "Guste Cibulskyte",
+        "licencia": "CC0 1.0"
       }
     },
     {
-      "question": "Un buen itinerario incluye <mark>metas personales y profesionales</mark>. Son lo que quieres lograr con el tiempo. ¿Cómo se llaman esas metas?",
+      "question": "El texto avisa de que no hay un único camino bueno: cada persona tiene el suyo. <mark>Es como ir a la misma ciudad por calles distintas</mark>. ¿Qué frase resume esta idea?",
+      "answer": "<mark>No hay un solo camino correcto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal/un-camino.jpg",
+        "title": "Fork_in_path_in_park",
+        "source": "https://www.flickr.com/photos/14674348@N04/1504087870",
+        "alt": "Un sendero de tierra que se bifurca en dos ramales entre árboles y maleza",
+        "autor": "DennisM2",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Un buen itinerario incluye lo que quieres lograr con el tiempo, tanto en lo personal como en lo profesional. <mark>Es como las señales que pones en el camino para no perderte</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Metas personales y profesionales</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal/metas-personales.jpg",
-        "title": "Textos especializados (Universidad Nacional de La Plata)",
-        "source": "https://commons.wikimedia.org/wiki/File:Textos_especializados._Comprensi%C3%B3n_y_traducci%C3%B3n_por_profesionales_del_%C3%A1rea_cient%C3%ADfico-t%C3%A9cnica_y_por_traductores.djvu",
-        "alt": "Portada de una monografía académica sobre traducción especializada",
-        "autor": "Alicia Alliaud, Beatriz Cagnolati, Ana María Gentile, María Inés Urrutia",
-        "licencia": "CC BY-SA 2.5 ar"
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal/metas.jpg",
+        "title": "Mo 2007 pocket daily planner",
+        "source": "https://www.flickr.com/photos/49136729@N00/171423554",
+        "alt": "Una agenda de bolsillo negra con pestañas de colores por mes y marcapáginas pegados, sobre una mesa",
+        "autor": "lexly87 aka Duc N. Ly",
+        "licencia": "CC BY-SA 2.0"
       }
     }
   ]

@@ -9,7 +9,7 @@
    Decks in decks/*.json are cached on every successful fetch, so a
    deck a student already opened keeps working offline.
    ============================================================ */
-var VERSION = 'memofun-v147';
+var VERSION = 'memofun-v148';
 
 var FILES = [
   './',
@@ -110,6 +110,7 @@ var FILES = [
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/consejos-para-buscar-empleo.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/importancia-buenas-decisiones.json',
@@ -117,6 +118,7 @@ var FILES = [
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/tecnicas-mejores-decisiones.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/consejos-para-construir-itinerario.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_2.json',
   './decks/fpgm_ga_1_itinerario-personal-empleabilidad-1_3.json',

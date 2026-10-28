@@ -177,3 +177,140 @@ Dibuja un mapa con tus metas a:
 
 - **Tema 8:** Toma de decisiones e itinerario personal
 - **Colegio:** areteia
+
+---
+
+## Revisión de octubre de 2026 — fidelidad al cuaderno del centro
+
+Contraste con las fotos del cuaderno (`D:/img_memofun/ipp/tema8/`, págs. 73-79)
+y con `decks/concepts/fpb_sa_1_itinerario-personal-empleabilidad.md`.
+
+### Qué había y qué hay
+
+| Baraja | Antes | Ahora |
+|---|---|---|
+| `que-es-tomar-decisiones` | 1 | 2 |
+| `que-es-itinerario-personal` | 2 | 3 |
+| `importancia-buenas-decisiones` | 4 | 5 |
+| `etapas-toma-decisiones` | 7 | 7 |
+| `factores-que-influyen` | 5 | 6 |
+| `construccion-itinerario` | 4 | 4 |
+| `tecnicas-mejores-decisiones` | 5 | 5 |
+| `consejos-para-construir-itinerario` | — (no existía) | 6 |
+| **Total** | **28** | **38** |
+
+Además, el tema **no tenía autoevaluación**: se ha añadido una de **12
+preguntas** (`autoevaluacion.json`) con los cinco tipos que admite la
+herramienta (`seleccion`, `completar`, `vf`, `unir` y `clasificar`), sacada de
+las actividades 1-3 de la pag79 y de los apartados §1-§8 del cuaderno.
+
+### Correcciones de contenido
+
+- **Baraja nueva: `consejos-para-construir-itinerario` (6 tarjetas).** Los
+  cinco «Consejos para construir tu itinerario personal» de la pag78 (ser
+  flexible, tener metas claras pero abiertas, seguir aprendiendo, pedir ayuda
+  y creer en ti) eran un bloque del libro sin ninguna tarjeta. Se añade además
+  la frase clave «Puedo cambiar de dirección si lo necesito».
+- **`tecnicas-mejores-decisiones` reescrita con las 5 técnicas reales del §7**
+  (visualizar el futuro, hablar con personas de confianza, lista de pros y
+  contras, escuchar tus emociones, no tener miedo a equivocarse). Antes
+  mezclaba esas técnicas con dos consejos de la pag78 («flexibilidad» y «pedir
+  ayuda»), que han pasado a la baraja nueva.
+- **Tarjetas recuperadas por fidelidad al cuaderno**, que faltaban:
+  «Aprenderla y mejorarla con la práctica» (pag75), «No hay un solo camino
+  correcto» (pag75), «Elegir con conciencia y responsabilidad» (pag76) y el
+  factor **«Emociones»** de la tabla de la pag77.
+- **Enunciados reescritos como pista + analogía.** Casi todas las tarjetas
+  filtraban la respuesta en la propia pregunta («¿Qué es un itinerario
+  personal? … el itinerario personal»). Ahora el enunciado es una pista con
+  una analogía y la respuesta es el nombre del concepto. Comprobado que
+  **ninguna tarjeta repite la respuesta de otra de su baraja** y que ningún
+  enunciado contiene la respuesta (el validador `scripts/check.js` no lo
+  detecta).
+- **El §4 se mantiene tal cual lo da el cuaderno**: siete etapas
+  (identificar la decisión, conocerse a uno mismo, buscar información,
+  evaluar las opciones, tomar la decisión, actuar, revisar y ajustar) y los
+  seis factores con el ejemplo que pone la pag77.
+
+### Auditoría de imágenes
+
+Las **28 imágenes** del tema se revisaron **una a una, viéndolas** (no
+leyendo el `alt`, que mentía en todas: describía portadas de PDF, iconos
+genéricos o iconos rasterizados en negro). Resultado:
+
+- **37 imágenes sustituidas** (incluidas las 9 de las tarjetas nuevas) y
+  **1 conservada** (`que-es-tomar-decisiones/definicion.jpg`, las piezas de
+  ajedrez de marfil de la vitrina del Lewis Chessmen), cuyo `alt` se
+  corrigió para decir la verdad. Entre las peores:
+  - `importancia-buenas-decisiones/bienestar.jpg` era una **técnica de
+    defensa personal** (un golpe de rodilla a la ingle);
+  - `importancia-buenas-decisiones/oportunidades.jpg` era el **pleno de la
+    Asamblea Nacional de Ecuador**;
+  - `importancia-buenas-decisiones/desarrollo.jpg` era la **portada de un
+    «Plan de Desarrollo Municipal»**;
+  - `importancia-buenas-decisiones/satisfaccion.jpg` era un **mapa mundial
+    del «Satisfaction with Life Index»**;
+  - `que-es-itinerario-personal/definicion.jpg` era la **portada de
+    «Panoramas de la vida» de 1881** (y medía 1365 px de lado largo);
+  - `que-es-itinerario-personal/metas-personales.jpg` era la **portada de
+    una monografía de traducción especializada**;
+  - `etapas-toma-decisiones/identificar.jpg` era un **acórdão del Supremo
+    Tribunal Federal de Brasil**;
+  - `etapas-toma-decisiones/evaluar.jpg` era un **expediente del Tribunal
+    Supremo de Justicia de Venezuela**;
+  - `etapas-toma-decisiones/revisar.jpg` era el **Censo Nacional de
+    Población de Argentina**;
+  - `etapas-toma-decisiones/actuar.jpg` era un **folleto sobre diabetes
+    tipo 2**;
+  - `etapas-toma-decisiones/buscar-info.jpg` era una **presentación sobre
+    buscar referencias en Wikipedia**;
+  - `factores-que-influyen/intereses.jpg` era la **revista médica «La
+    Independencia Médica» de 1881**;
+  - `factores-que-influyen/habilidades.jpg` e `informacion.jpg` eran
+    **iconos genéricos de Wikimedia rasterizados sobre fondo negro** (que
+    además desaparecen en el tema oscuro);
+  - `factores-que-influyen/familia.jpg` mostraba a una familia **apoyando a
+    la comunidad LGBTQ+**, ajeno a la pista;
+  - `construccion-itinerario/formacion-continua.jpg` era una **página casi
+    negra de un libro de 1896 sobre el idioma abipón** (1531 px de lado largo);
+  - `construccion-itinerario/cambios.jpg` era la **portada del «Libro Blanco
+    del Adyacentismo»**;
+  - `tecnicas-mejores-decisiones/visualizar.jpg` era un **PNG completamente
+    negro** (el icono del ojo rasterizado sin alfa);
+  - `tecnicas-mejores-decisiones/pros-contras.jpg` era una **captura de un
+    reproductor de vídeo**;
+  - `tecnicas-mejores-decisiones/hablar-confianza.jpg` era la **portada de
+    una monografía de orientación vocacional**.
+- **Los 38 `alt` reescritos**, describiendo lo que se ve de verdad en cada
+  foto (sin «metáfora de…»).
+- **3 imágenes huérfanas** quedan en `audit-out/huerfanos-tema8/` (la portada
+  de la monografía de traducción, la página del método de entrenamiento y la
+  portada del Diario Oficial de la UE).
+- **18 imágenes huérfanas más**: la carpeta hermana
+  `assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-decisiones-itinerario-personal/`
+  (sin «de») no la referenciaba ningún JSON desde que se borró su deck en el
+  commit `76b8a51`. Contenía un fichero **corrupto de 0,4 KB** (`miedo.jpg`)
+  y un duplicado (`largo.jpg` ≡ `largoplazo.jpg`), así que se ha trasladado
+  también a `audit-out/huerfanos-tema8/`. De ella se ha rescatado
+  `orientador.jpg` (Pixabay, CC0), que sí ilustra «hablar con personas de
+  confianza».
+- Comprobado que **no hay dos imágenes idénticas** dentro del tema (hash MD5)
+  y que todas cumplen los límites del repositorio (≤ 200 KB, lado largo ≤
+  1024 px).
+
+### Cobertura frente al temario oficial
+
+Las **8 barajas** cubren los siete apartados §1-§7 del temario oficial del
+módulo más el bloque de «Consejos para construir tu itinerario personal» de
+la pag78. No queda ningún concepto del cuaderno sin tarjeta.
+
+### Verificación
+
+- `node scripts/check.js` → **OK (203 checks)**, sin ningún aviso del tema 8
+  (los 17 avisos que quedan son de otros temas: TA tema 2 e IPP temas 3-6).
+- Recorrido con Playwright de las **38 tarjetas** en la app real: **0
+  problemas** (pregunta y respuesta no vacías, `img.naturalWidth > 0` y `alt`
+  redactado en las 38). La pantalla del tema lista las 8 barajas más la
+  tarjeta de autoevaluación.
+- La autoevaluación renderiza sus **12 preguntas** (27 desplegables, 44
+  botones de opción) y la página no da ningún error de consola.

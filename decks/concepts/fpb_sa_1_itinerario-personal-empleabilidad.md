@@ -12,8 +12,8 @@ Esta asignatura cubre los **Temas 1-8** del temario oficial.
 - Tema 4: `D:/img_memofun/ipp/tema4/`, 8 páginas → 4 barajas, 44 tarjetas
 - Tema 5: `D:/img_memofun/ipp/tema5/`, 10 páginas → 6 barajas, 36 tarjetas
 - Tema 6: `D:/img_memofun/ipp/tema6/`, 8 páginas → 4 barajas, 23 tarjetas
-- Tema 7: `D:/img_memofun/ipp/tema7/`, 9 páginas → 7 barajas, 34 tarjetas
-- Tema 8: `D:/img_memofun/ipp/tema8/`, 7 páginas → 7 barajas, 28 tarjetas
+- Tema 7: `D:/img_memofun/ipp/tema7/`, 9 páginas → 8 barajas, 44 tarjetas
+- Tema 8: `D:/img_memofun/ipp/tema8/`, 7 páginas → 8 barajas, 38 tarjetas
 
 ### Cobertura del material fuente para Tema 1
 
@@ -263,13 +263,19 @@ del cuaderno del centro (`D:/img_memofun/ipp/tema7/`, págs. 63-71):
 
 Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
 
-- `tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones.json` (§1) — 1 tarjeta
-- `tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal.json` (§2) — 2 tarjetas
-- `tema-8-toma-de-decisiones-itinerario-personal/importancia-buenas-decisiones.json` (§3) — 4 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones.json` (§1) — 2 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal.json` (§2) — 3 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/importancia-buenas-decisiones.json` (§3) — 5 tarjetas
 - `tema-8-toma-de-decisiones-itinerario-personal/etapas-toma-decisiones.json` (§4) — 7 tarjetas
-- `tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen.json` (§5) — 5 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen.json` (§5) — 6 tarjetas
 - `tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario.json` (§6) — 4 tarjetas
 - `tema-8-toma-de-decisiones-itinerario-personal/tecnicas-mejores-decisiones.json` (§7) — 5 tarjetas
+- `tema-8-toma-de-decisiones-itinerario-personal/consejos-para-construir-itinerario.json` (pag78) — 6 tarjetas
+
+**38 tarjetas** en total, más una **autoevaluación de 12 preguntas**
+(`autoevaluacion.json`, tipos `seleccion`, `completar`, `vf`, `unir` y
+`clasificar`) construida con las actividades 1-3 del cuaderno y con los
+conceptos de los apartados §1-§8.
 
 Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema8/`
 (7 imágenes, organizadas como `pag73`–`pag79`).
@@ -283,16 +289,19 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema8/`
 
 #### §1 — solo en `que-es-tomar-decisiones.json`
 
-- Tomar decisiones: elegir entre varias opciones posibles; se aprende y mejora con la práctica.
+- Tomar decisiones: elegir entre varias opciones posibles.
+- Se aprende y mejora con la práctica: la habilidad se entrena usándola (tarjeta propia).
 
 #### §2 — solo en `que-es-itinerario-personal.json`
 
-- Itinerario personal: camino académico y profesional de cada persona (decisiones + experiencias + metas + cambios).
+- Itinerario personal: camino académico y profesional de cada persona.
+- No hay un solo camino correcto: cada persona tiene el suyo y no hay que compararse con nadie.
 - Metas personales y profesionales: lo que cada persona quiere ir logrando con el tiempo.
 
 #### §3 — solo en `importancia-buenas-decisiones.json`
 
 - Bienestar personal, oportunidades de trabajo, desarrollo como persona, satisfacción con la vida: las cuatro consecuencias más importantes.
+- Elegir con conciencia y responsabilidad: decidir bien no consiste en acertar siempre.
 
 #### §4 — solo en `etapas-toma-decisiones.json`
 
@@ -301,7 +310,7 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema8/`
 
 #### §5 — solo en `factores-que-influyen.json`
 
-- Intereses, habilidades, valores, familia y entorno, información: cinco factores clave que el temario oficial desarrolla (la 6ª, "emociones", queda como mención general sin baraja propia).
+- Los **6 factores** con el ejemplo que da la pag77: intereses (me gusta ayudar a los demás), habilidades (se me da bien organizar), valores (quiero un trabajo estable), familia y entorno (mis padres me apoyan en estudiar FP), información (conozco las salidas de cada opción) y emociones (tengo miedo de equivocarme).
 
 #### §6 — solo en `construccion-itinerario.json`
 
@@ -312,8 +321,13 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema8/`
 
 #### §7 — solo en `tecnicas-mejores-decisiones.json`
 
-- Visualizar el futuro, hablar con personas de confianza, lista de pros y contras, flexibilidad, pedir ayuda: cinco técnicas para tomar mejores decisiones.
-- Una técnica puede ser buena en una decisión y no en otra.
+- Las **5 técnicas** del §7: visualizar el futuro, hablar con personas de confianza, hacer una lista de pros y contras, escuchar tus emociones (sin decidir solo por ellas) y no tener miedo a equivocarse.
+- Ojo: «flexibilidad» y «pedir ayuda» **no** son técnicas del §7: son consejos de la pag78 y viven en la baraja `consejos-para-construir-itinerario`.
+
+#### pag78 — solo en `consejos-para-construir-itinerario.json`
+
+- Los **5 consejos** para construir tu itinerario: sé flexible, ten metas claras pero abiertas, sigue aprendiendo, pide ayuda cuando la necesites y cree en ti (tú eres el protagonista de tu camino).
+- La frase clave «Puedo cambiar de dirección si lo necesito».
 
 ## Tema 6 — Itinerarios académicos y profesionales
 
