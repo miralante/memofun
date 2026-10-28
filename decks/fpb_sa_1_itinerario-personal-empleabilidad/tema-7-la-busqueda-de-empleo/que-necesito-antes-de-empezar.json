@@ -4,51 +4,63 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Antes de buscar empleo, debes tener <mark>una actitud positiva y activa</mark>. ¿Qué requisito es?",
-      "answer": "<mark>Actitud positiva y activa</mark>",
+      "question": "Es el documento que resume tu formación, tu experiencia y tus habilidades. <mark>Es como la ficha que enseñas al presentarte</mark>. ¿Qué necesitas tener preparado antes de empezar a buscar empleo?",
+      "answer": "<mark>Un currículum vitae (CV)</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/actitud.jpg",
-        "title": "Pensamiento positivo y autoconfianza",
-        "source": "https://commons.wikimedia.org/wiki/File:Positive_thinking_and_self_confidence.jpg",
-        "alt": "Cartel sobre pensamiento positivo y confianza en uno mismo",
-        "autor": "Smilie027",
-        "licencia": "CC BY-SA 4.0"
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/cv.jpg",
+        "title": "Resume Design",
+        "source": "https://www.flickr.com/photos/42197599@N00/4363793985",
+        "alt": "Un currículum impreso sobre una mesa de madera, con los apartados Education, Experience, Exhibitions y Skills",
+        "autor": "CharlotWest",
+        "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "question": "Antes de buscar empleo, necesitas <mark>información</mark> sobre dónde buscar ofertas. ¿Qué requisito es?",
+      "question": "Es un texto breve que acompaña al currículum y explica por qué te interesa el puesto. <mark>Solo hace falta si te la piden</mark>. ¿Qué necesitas tener preparada antes de empezar?",
+      "answer": "<mark>Una carta de presentación</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/carta.jpg",
+        "title": "Staff Writing Letters to Service Men and Women",
+        "source": "https://www.flickr.com/photos/64018555@N03/6522729673",
+        "alt": "Dos personas frente a los ordenadores de un escritorio de oficina, una de ellas apoyada en la mesa mientras habla con la otra",
+        "autor": "MDGovpics",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Antes de buscar ofertas conviene saber en qué sector y en qué condiciones quieres trabajar. <mark>Es como decidir qué quieres comprar antes de ir al mercado</mark>. ¿Qué necesitas tener claro?",
+      "answer": "<mark>Una idea clara del tipo de trabajo que buscas</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/idea-clara.jpg",
+        "title": "01 My decluttered, ergonomic, and healthy Workstation",
+        "source": "https://www.flickr.com/photos/55391269@N08/6009475649",
+        "alt": "Un puesto de trabajo ordenado con monitor, teclado, ratón y silla frente a la ventana",
+        "autor": "Joy Mystic",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Saber dónde hay ofertas: portales, webs de empresas y contactos. <mark>Es como tener el mapa antes de empezar a caminar</mark>. ¿Qué necesitas saber antes de empezar?",
       "answer": "<mark>Información sobre dónde buscar ofertas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/info.jpg",
-        "title": "Control de calidad en las ofertas de trabajo (captura de la presentación)",
-        "source": "https://commons.wikimedia.org/wiki/File:EsLibre2020_19S.P1.10_-_Rafael_Aybar_Segura_-_Presentaci%C3%B3n_de_proyecto,_Control_de_calidad_en_las_ofertas_de_trabajo.webm",
-        "alt": "Captura de la presentación de un proyecto sobre control de calidad en ofertas de empleo",
-        "autor": "Congreso esLibre",
-        "licencia": "CC BY-SA 4.0"
+        "title": "People at the customer service desk in IKEA Torp Uddevalla",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=72202844",
+        "alt": "Un mostrador de atención al cliente con dos personas atendiendo y otras dos esperando en la cola",
+        "autor": "W.carter",
+        "licencia": "CC0 1.0"
       }
     },
     {
-      "question": "Antes de buscar empleo, debes tener <mark>una idea clara del trabajo</mark>. ¿Qué requisito es?",
-      "answer": "<mark>Idea clara del tipo de trabajo que buscas</mark>",
+      "question": "Si no te llaman no hay que abandonarlo: hay que seguir en marcha, con ganas. <mark>Es como una maratón: se puede perder un trote y seguir corriendo</mark>. ¿Qué necesitas tener antes de empezar a buscar empleo?",
+      "answer": "<mark>Una actitud positiva y activa</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/cv.jpg",
-        "title": "Currículum Vitae de Jürgen Goertz (página 18)",
-        "source": "https://commons.wikimedia.org/wiki/File:Curriculum_Vitae_(J%C3%BCrgen_Goertz)_18.jpg",
-        "alt": "Página de un currículum vitae real de un artista alemán",
-        "autor": "Gerd Fahrenhorst",
-        "licencia": "CC BY 4.0"
-      }
-    },
-    {
-      "question": "Antes de empezar a buscar empleo, necesitas tener preparado un <mark>currículum vitae</mark>. ¿Qué documento es?",
-      "answer": "<mark>Currículum vitae (CV)</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/carta.jpg",
-        "title": "Presentación de credenciales — Australia",
-        "source": "https://commons.wikimedia.org/wiki/File:Presentaci%C3%B3n_de_credenciales-_Australia_(34323252981).jpg",
-        "alt": "Acto formal de presentación de credenciales diplomáticas de Australia",
-        "autor": "Cancillería del Ecuador from Ecuador",
-        "licencia": "CC BY-SA 2.0"
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar/actitud.jpg",
+        "title": "A Day in the Life of the CEO - head office team meeting",
+        "source": "https://www.flickr.com/photos/52617155@N08/11075042884",
+        "alt": "Un grupo de personas participando en un taller, sentadas en pufs verdes",
+        "autor": "envato",
+        "licencia": "CC BY 2.0"
       }
     }
   ]

@@ -4,51 +4,63 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Es un texto breve que acompaña al currículum. Sirve para <mark>presentarte</mark>. <mark>Explica por qué te interesa el puesto</mark> y <mark>destaca tus puntos fuertes</mark>. ¿Cómo se llama?",
+      "question": "Es un texto breve que acompaña al currículum. <mark>Es como el mensaje que dejas al entregar tu CV: el CV dice quién eres, la carta dice por qué te interesa este puesto</mark>. ¿Cómo se llama?",
       "answer": "<mark>Carta de presentación</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/definicion.jpg",
-        "title": "Presentación de credenciales — Australia",
-        "source": "https://commons.wikimedia.org/wiki/File:Presentaci%C3%B3n_de_credenciales-_Australia_(34323252981).jpg",
-        "alt": "Acto formal de presentación de credenciales diplomáticas de Australia",
-        "autor": "Cancillería del Ecuador from Ecuador",
-        "licencia": "CC BY-SA 2.0"
+        "title": "An old guy I met in NY, called Henry Nass, sends these odd handwritten letters once in a while",
+        "source": "https://www.flickr.com/photos/20004023@N00/16903192292",
+        "alt": "Una carta escrita a mano con sellos de Estados Unidos, sobre una mesa",
+        "autor": "ChaTo (Carlos Castillo)",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "La carta de presentación sirve para <mark>presentarte</mark> ante la empresa. ¿Cuál es su primer propósito?",
+      "question": "Es el gesto de dar a conocer quién eres cuando entregas tu currículum. <mark>Es como el hola en la puerta: quién eres y por qué has venido</mark>. ¿Cuál es el primer propósito de la carta de presentación?",
       "answer": "<mark>Presentarte</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/presentarte.jpg",
-        "title": "La princesa loca — opereta en tres actos",
-        "source": "https://commons.wikimedia.org/wiki/File:La_princesa_loca_-_opereta_en_tres_actos_(IA_laprincesalocaop00fall).pdf",
-        "alt": "Portada de la partitura de una opereta de Leo Fall",
-        "autor": "Fall, Leo, 1873-1925",
-        "licencia": "Public domain"
+        "title": "Business people shaking hands in agreement",
+        "source": "https://www.flickr.com/photos/147875007@N03/43972154720",
+        "alt": "Un apretón de manos entre un hombre de pie y una mujer sentada frente a un portátil en una oficina",
+        "autor": "Rawpixel Ltd",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "La carta sirve para <mark>explicar por qué te interesa el puesto</mark>. ¿Cuál es su segundo propósito?",
+      "question": "Es el motivo por el que esa oferta te encaja, contado con tus palabras. <mark>Es como decirle a quien te contrata qué te ha llamado la atención de su oferta</mark>. ¿Cuál es el segundo propósito de la carta de presentación?",
       "answer": "<mark>Explicar por qué te interesa el puesto</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/puesto-interes.jpg",
-        "title": "Kasteel de Merode — Westerlo",
-        "source": "https://commons.wikimedia.org/wiki/File:Kasteel_de_Merode_-_Westerlo.jpg",
-        "alt": "Castillo medieval en Westerlo, Bélgica",
-        "autor": "BB",
-        "licencia": "CC BY-SA 4.0"
+        "title": "Office Worker",
+        "source": "https://www.flickr.com/photos/48837722@N04/8076500975",
+        "alt": "Una mujer con traje hablando por el móvil junto a la entrada de un edificio de oficinas",
+        "autor": "Much Ramblings",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "La carta de presentación sirve para <mark>destacar tus puntos fuertes</mark>. Debe ser <mark>personalizada</mark> para cada oferta de trabajo. ¿Cuál es su tercer propósito?",
+      "question": "Es la parte que deja ver lo que tú sabes hacer, y la carta debe estar <mark>personalizada</mark> para cada oferta. <mark>Es como una carta escrita a mano para esa persona</mark>. ¿Cuál es el tercer propósito de la carta de presentación?",
       "answer": "<mark>Destacar tus puntos fuertes</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/puntos-fuertes.jpg",
-        "title": "Puntos (Juan de Palafox y Mendoza)",
-        "source": "https://commons.wikimedia.org/wiki/File:Puntos,_(IA_puntos00pala_0).pdf",
-        "alt": "Portada de un libro clásico del obispo Palafox y Mendoza",
-        "autor": "Palafox y Mendoza, Juan de, 1600-1659",
-        "licencia": "Public domain"
+        "title": "20140102 Special Measures Agreement",
+        "source": "https://www.flickr.com/photos/35352823@N06/12265244455",
+        "alt": "Varias personas en traje firmando un acuerdo alrededor de una mesa, con banderas de Estados Unidos y Corea del Sur",
+        "autor": "UNC - CFC - USFK",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Uno resume de forma organizada tus datos, habilidades y experiencia en una sola página; el otro es un texto breve y personalizado que explica por qué te interesa el puesto. <mark>Es como el dossier frente a la carta que lo acompaña</mark>. ¿Cuál de los dos es el currículum?",
+      "answer": "<mark>El currículum (CV) es el que resume tus datos, habilidades y experiencia en una página</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/diferencia.jpg",
+        "title": "Herman Melville to Alexander W. Bradford [Page 3]",
+        "source": "https://www.flickr.com/photos/24029425@N06/4404529160",
+        "alt": "Una carta antigua escrita a mano, con notas al margen",
+        "autor": "Boston Public Library",
+        "licencia": "CC BY 2.0"
       }
     }
   ]

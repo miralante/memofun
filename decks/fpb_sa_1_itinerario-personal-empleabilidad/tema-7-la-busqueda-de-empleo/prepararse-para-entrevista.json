@@ -4,75 +4,111 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Es una <mark>conversación formal con la empresa</mark>. La empresa quiere conocerte antes de contratarte. ¿Cómo se llama?",
+      "question": "Es una <mark>conversación formal con la empresa</mark>, y la empresa quiere conocerte antes de contratarte. <mark>Es como un examen, pero en lugar de nota te dan un trabajo</mark>. ¿Cómo se llama?",
       "answer": "<mark>Entrevista de trabajo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/definicion.jpg",
         "title": "Mujer en una entrevista de trabajo",
         "source": "https://commons.wikimedia.org/wiki/File:Woman_on_a_Job_Interview_-_38826218972.jpg",
-        "alt": "Mujer preparándose para una entrevista de trabajo",
+        "alt": "Una mujer con gafas sentada a una mesa de cristal, con un documento impreso y un bolígrafo en la mano, hablando con otra persona",
         "autor": "amtec_photos",
         "licencia": "CC BY-SA 2.0"
       }
     },
     {
-      "question": "<mark>Antes</mark> de la entrevista debes <mark>investigar sobre la empresa</mark>. ¿Qué hay que hacer primero?",
+      "question": "Antes de la entrevista hay que estar al día de la compañía: a qué se dedica y qué hace. <mark>Es como mirar la carta de un restaurante antes de pedir</mark>. ¿Qué hay que hacer antes de la entrevista?",
       "answer": "<mark>Investigar sobre la empresa</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/investigar.jpg",
-        "title": "Cómo usar datos públicos para investigar empresas",
-        "source": "https://commons.wikimedia.org/wiki/File:Como_usar_dados_p%C3%BAblicos_para_investigar_empresas_(42484399424).jpg",
-        "alt": "Conferencia sobre uso de datos públicos para investigar empresas",
-        "autor": "Associação Brasileira de Jornalismo Investigativo",
+        "title": "Free magnifying glass newspaper photo",
+        "source": "https://www.rawpixel.com/image/5904368/photo-image-public-domain-black-newspaper",
+        "alt": "Una lupa sobre un texto impreso, examiningo la información",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0 1.0"
+      }
+    },
+    {
+      "question": "Antes de la entrevista hay que tener a mano lo que has escrito en tu <mark>documento de presentación</mark>, por si te preguntan por algo. <mark>Es como repasar el tema antes de un examen</mark>. ¿Qué hay que hacer antes de la entrevista?",
+      "answer": "<mark>Repasar tu CV</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/repasar-cv.jpg",
+        "title": "Jobseeker Makeover story featuring Julie Walraven",
+        "source": "https://www.flickr.com/photos/35873052@N05/5482200130",
+        "alt": "Una página de periódico en inglés con un currículum pegado y una nota escrita a mano al lado",
+        "autor": "JulieWalraven",
         "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "<mark>Antes</mark> de la entrevista, una de las claves es <mark>ser puntual</mark>. ¿Qué hay que cuidar?",
-      "answer": "<mark>Ser puntual</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/puntualidad.jpg",
-        "title": "Esquema de puntos calientes y fríos de mutación (en hebreo)",
-        "source": "https://commons.wikimedia.org/wiki/File:Mutation_hotspot_and_coldspot_schematic_(Hebrew)_2026.png",
-        "alt": "Esquema científico de mutaciones con etiquetas en hebreo",
-        "autor": "ג'ייפית",
-        "licencia": "CC BY-SA 4.0"
-      }
-    },
-    {
-      "question": "<mark>Durante</mark> la entrevista, una recomendación es <mark>vestir de forma adecuada</mark>. ¿Qué hay que cuidar?",
-      "answer": "<mark>Vestir de forma adecuada</mark>",
-      "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/vestimenta.jpg",
-        "title": "Tratado de medicina y cirugía legal teórica y práctica",
-        "source": "https://commons.wikimedia.org/wiki/File:Tratado_de_medicina_y_cirug%C3%ADa_legal_teorica_y_practica_-_IA_BRes060968.pdf",
-        "alt": "Portada de un tratado clásico de medicina legal",
-        "autor": "Pedro Mata y Fontanet",
-        "licencia": "Public domain"
-      }
-    },
-    {
-      "question": "En la entrevista pueden hacerte <mark>preguntas comunes</mark>. Por ejemplo: '¿Por qué quieres trabajar aquí?'. ¿Cómo se llaman?",
+      "question": "En la entrevista te harán <mark>preguntas de siempre</mark>: por qué quieres trabajar allí, qué sabes hacer bien, cómo trabajas en equipo o tus disponibilidades. <mark>Es como las preguntas de un examen tipo test</mark>. ¿Cómo las llama el texto?",
       "answer": "<mark>Preguntas comunes de entrevista</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/preguntas.jpg",
-        "title": "Seminario de Bienes Comunes Puno, Memoria y Derechos Humanos — Foto del público",
-        "source": "https://commons.wikimedia.org/wiki/File:%22Seminario_de_Bienes_Comunes_Puno,_Memoria_y_Derechos_Humanos%22_-_Foto_del_p%C3%BAblico.jpg",
-        "alt": "Asistentes a un seminario en Puno (Perú)",
-        "autor": "QM Keen",
-        "licencia": "CC BY-SA 4.0"
+        "title": "Interview",
+        "source": "https://www.flickr.com/photos/163837264@N07/29072860487",
+        "alt": "Dos personas conversando en una mesa de exterior, con un portátil y una carpeta de documentos entre los dos",
+        "autor": "Semtrio",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "<mark>Durante</mark> la entrevista, muestra interés y actitud positiva. Habla con claridad y respeto. ¿Qué hay que demostrar?",
+      "question": "Antes de la entrevista hay que tener la lista de <mark>lo que se te da bien</mark> a mano, para destacar lo que sabes. <mark>Es como preparar el producto que vas a poner a la venta en el mercado</mark>. ¿Qué hay que hacer antes de la entrevista?",
+      "answer": "<mark>Piensa en tus puntos fuertes</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/puntos-fuertes.jpg",
+        "title": "Farmers' Market",
+        "source": "https://www.flickr.com/photos/93178668@N00/511046019",
+        "alt": "Un puesto de mercado con productos expuestos sobre el mostrador",
+        "autor": "NatalieMaynor",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Si llegas tarde, mal empieza: hay que llegar con margen. <mark>Es como no llegar tarde a una cita importante</mark>. ¿Qué hay que cuidar durante la entrevista?",
+      "answer": "<mark>Ser puntual</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/puntualidad.jpg",
+        "title": "Clocking in no more. . .",
+        "source": "https://www.flickr.com/photos/61132483@N00/6346505761",
+        "alt": "Un reloj de pared de madera con péndulo, en una sala con paneles de texto",
+        "autor": "Elsie esq.",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Hay que cuidar la ropa: nada de presentarte como si fueras de paseo. <mark>Es como vestirse para una ocasión importante, no para ir a la playa</mark>. ¿Qué hay que cuidar durante la entrevista?",
+      "answer": "<mark>Vestir de forma adecuada</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/vestimenta.jpg",
+        "title": "portrait_of_a_professional_manager_using_sleek_laptop",
+        "source": "https://www.flickr.com/photos/192194531@N08/52899626571",
+        "alt": "Un hombre con traje y corbata trabajando con un portátil en una oficina",
+        "autor": "digitalcreators.ch",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Hay que mostrar interés y ganas por el puesto, sin quejarte. <mark>Es como hablar con alguien a quien quieres convencer</mark>. ¿Qué hay que demostrar durante la entrevista?",
       "answer": "<mark>Actitud positiva</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/actitud.jpg",
-        "title": "Diario Oficial de la Unión Europea, serie L, núm. 58 (2022)",
-        "source": "https://commons.wikimedia.org/wiki/File:OJ_L_58_of_2022_-_ES_Spanish.pdf",
-        "alt": "Documento oficial publicado en el Diario Oficial de la UE",
-        "autor": "Publications Office of the European Union",
-        "licencia": "Public domain"
+        "title": "Young female entrepreneur working on her laptop while holding it on her lap",
+        "source": "https://www.flickr.com/photos/26344495@N05/49505320077",
+        "alt": "Una mujer sentada en un taburete con un portátil sobre las piernas, en una pared de ladrillo",
+        "autor": "Ivan Radic",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Hay que expresarse con calma y con educación, sin gritar. <mark>Es como explicar un proyecto paso a paso, sin gritar</mark>. ¿Qué hay que hacer durante la entrevista?",
+      "answer": "<mark>Hablar con claridad y respeto</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/claridad.jpg",
+        "title": "Chase shares tips on online job searching",
+        "source": "https://www.flickr.com/photos/61212734@N02/5590138183",
+        "alt": "Tres personas alrededor de un portátil abierto sobre una mesa, una de ellas explicando algo",
+        "autor": "Gangplank HQ",
+        "licencia": "CC BY 2.0"
       }
     }
   ]

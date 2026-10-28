@@ -137,12 +137,17 @@ el ángulo tiene que ser nuevo. No volver a gastar estos pares sin uno realmente
 Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
 
 - `tema-7-la-busqueda-de-empleo/que-significa-buscar-empleo.json` (§1) — 3 tarjetas
-- `tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar.json` (§2) — 4 tarjetas
-- `tema-7-la-busqueda-de-empleo/donde-buscar-empleo.json` (§3) — 7 tarjetas
+- `tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar.json` (§2) — 5 tarjetas
+- `tema-7-la-busqueda-de-empleo/donde-buscar-empleo.json` (§3) — 5 tarjetas
+- `tema-7-la-busqueda-de-empleo/consejos-para-buscar-empleo.json` (pag68) — 5 tarjetas
 - `tema-7-la-busqueda-de-empleo/tipos-de-empleo.json` (§4) — 5 tarjetas
-- `tema-7-la-busqueda-de-empleo/curriculum-vitae.json` (§5) — 5 tarjetas
-- `tema-7-la-busqueda-de-empleo/carta-de-presentacion.json` (§6) — 4 tarjetas
-- `tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json` (§7) — 6 tarjetas
+- `tema-7-la-busqueda-de-empleo/curriculum-vitae.json` (§5) — 7 tarjetas
+- `tema-7-la-busqueda-de-empleo/carta-de-presentacion.json` (§6) — 5 tarjetas
+- `tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json` (§7) — 9 tarjetas
+
+**44 tarjetas** en total, más una **autoevaluación de 12 preguntas**
+(`autoevaluacion.json`, tipos `seleccion`, `completar`, `vf`, `unir` y
+`clasificar`) construida con los ejercicios 4-7 y las actividades del cuaderno.
 
 Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
 (9 imágenes, organizadas como `pag63`–`pag71`).
@@ -158,8 +163,8 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
 #### §1 — solo en `que-significa-buscar-empleo.json`
 
 - Buscar empleo: proceso de encontrar un trabajo adaptado a tus intereses, habilidades y necesidades.
-- Cartel de "Busco empleo": expresión visual de estar buscando trabajo.
-- Constancia y organización: además de enviar CV, hay que ser constante y organizado.
+- No es solo enviar currículums: conocerse a uno mismo, saber qué quieres hacer y preparados bien.
+- Constancia y organización: «buscar trabajo es un trabajo en sí mismo».
 
 #### §2 — solo en `que-necesito-antes-de-empezar.json`
 
@@ -172,9 +177,18 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
 #### §3 — solo en `donde-buscar-empleo.json`
 
 - Portales de empleo en internet: Infojobs, Indeed, LinkedIn, SEPE y webs de empresas.
-- Oficinas de empleo: permiten inscribirse como demandante y ofrecen cursos.
+- Oficinas de empleo: te inscriben como demandante y te informan de cursos y ofertas.
 - Redes de contacto: boca en boca entre familiares, amigos y conocidos.
 - Entrega directa: ir a empresas con el CV a preguntar si hay vacantes.
+- Recursos útiles: SEPE, TodoFP, Garantía Juvenil y Empléate.
+
+#### pag68 — solo en `consejos-para-buscar-empleo.json`
+
+- Sé constante: busca cada día.
+- Sé organizado: lleva un registro de las ofertas.
+- Sé activo: pregunta, llama y entrega tu currículum.
+- Sé positivo: no te desanimes si no te llaman.
+- Sigue formándote: mejora tus habilidades mientras buscas.
 
 #### §4 — solo en `tipos-de-empleo.json`
 
@@ -188,9 +202,23 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
 
 - Currículum vitae (CV): descripción concisa y organizada de la trayectoria.
 - Datos personales: nombre, teléfono y correo.
-- Formación: estudios realizados.
+- Formación académica: estudios realizados.
 - Experiencia laboral: trabajos previos (si los hay).
-- Habilidades e idiomas: capacidades que dominas.
+- Habilidades: lo que sabes hacer bien.
+- Idiomas y conocimientos informáticos: lo que hablas y lo que sabes de informática.
+- Reglas de estilo: claro, breve (una página) y sin faltas de ortografía.
+
+#### §7 — solo en `prepararse-para-entrevista.json`
+
+- Entrevista de trabajo: conversación formal con la empresa para conocerte.
+- Investigar sobre la empresa: tarea clave antes de la entrevista.
+- Repasar tu currículum: no llegar con desajustes delante de quien te entrevista.
+- Preguntas comunes de entrevista: "¿Por qué quieres trabajar aquí?", "¿Cómo trabajas en equipo?".
+- Piensa en tus puntos fuertes: el cuarto paso de la preparación.
+- Ser puntual: clave práctica durante la entrevista.
+- Vestir de forma adecuada: cuidado de imagen.
+- Hablar con claridad y respeto: la otra mitad de la actitud positiva.
+- Actitud positiva: mostrar interés y ganas durante la conversación.
 
 #### §6 — solo en `carta-de-presentacion.json`
 
@@ -198,15 +226,38 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
 - Presentarte: primer propósito de la carta.
 - Por qué te interesa el puesto: segundo propósito.
 - Destacar tus puntos fuertes: tercer propósito; la carta debe ser personalizada.
+- Diferencia entre CV y carta: el CV resume en una página; la carta explica el interés por el puesto.
 
-#### §7 — solo en `prepararse-para-entrevista.json`
+### Revisión de fidelidad al temario (octubre de 2026)
 
-- Entrevista de trabajo: conversación formal con la empresa para conocerte.
-- Investigar sobre la empresa: tarea clave antes de la entrevista.
-- Ser puntual: clave práctica durante la entrevista.
-- Vestir de forma adecuada: cuidado de imagen.
-- Preguntas comunes de entrevista: "¿Por qué quieres trabajar aquí?", "¿Cómo trabajas en equipo?".
-- Actitud positiva: hablar con claridad y respeto, mostrar interés.
+Contraste con `doc/revision-ipp/tema-07-la-busqueda-de-empleo.md` y con las fotos
+del cuaderno del centro (`D:/img_memofun/ipp/tema7/`, págs. 63-71):
+
+- Las **ocho barajas** del tema son `que-significa-buscar-empleo` (3),
+  `que-necesito-antes-de-empezar` (5), `donde-buscar-empleo` (5),
+  `consejos-para-buscar-empleo` (5), `tipos-de-empleo` (5),
+  `curriculum-vitae` (7), `carta-de-presentacion` (5) y
+  `prepararse-para-entrevista` (9): **44 tarjetas**.
+- **Baraja nueva: `consejos-para-buscar-empleo`.** Los cinco «Consejos para
+  buscar empleo» de la pag68 no tenían ninguna tarjeta; es un bloque del
+  libro, no una invención.
+- **Tarjetas retiradas:** las de marca (InfoJobs, LinkedIn, SEPE, TodoFP,
+  Garantía Juvenil, Empléate como respuesta). Las marcas se nombran ahora en la
+  pista de «portales de empleo en internet» y en la tarjeta «recursos
+  útiles», que es como las da el libro.
+- **Tarjeta conservada:** «oficinas de empleo» (es el §3.2 del cuaderno) y se
+  le **añade «recursos útiles»** (pag68), que no tenía ninguna tarjeta.
+- **Tarjeta nueva en `prepararse-para-entrevista`:** «Piensa en tus puntos
+  fuertes», el cuarto paso de la lista «antes de la entrevista» de la pag67.
+- Todos los enunciados se reescribieron como **pista + analogía**, y la
+  respuesta es el **nombre**: antes, casi todas las tarjetas filtraban la
+  respuesta en la propia pregunta.
+- Auditoría de imágenes: las **34 imágenes** del tema se revisaron una a una
+  (vistas, no leídas del `alt`); **32 se sustituyeron** por fotos que
+  ilustran de verdad la pista y **los 43 `alt` se redactaron** describiendo lo
+  que se ve. 5 imágenes huérfanas quedan en `audit-out/huerfanos-tema7/`.
+- Autoevaluación nueva de **12 preguntas** (5 tipos), con los ejercicios 4-7
+  del cuaderno.
 
 ## Tema 8 — Toma de decisiones e itinerario personal
 

@@ -4,63 +4,87 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Es un documento que <mark>presenta tu trayectoria profesional</mark>. Muestra formación, experiencia y otros datos. Se usa al buscar empleo. ¿Cómo se llama?",
+      "question": "Antes de buscar tu primer empleo hay que redactarlo: resume tu formación, tu experiencia y tus habilidades de forma organizada. <mark>Es como la carta que le das a alguien para que sepa quién eres</mark>. ¿Cómo se llama?",
       "answer": "<mark>Currículum vitae (CV)</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/definicion.jpg",
-        "title": "Diario Oficial de la Unión Europea, serie C, núm. 357A (2013)",
-        "source": "https://commons.wikimedia.org/wiki/File:OJ_C_357A_of_2013_-_ES_Spanish.pdf",
-        "alt": "Documento oficial publicado en el Diario Oficial de la UE",
-        "autor": "Publications Office of the European Union",
-        "licencia": "Public domain"
+        "title": "Curriculum Vitae",
+        "source": "https://www.flickr.com/photos/77476789@N00/2304874364",
+        "alt": "Un bolígrafo rojo sobre una hoja impresa con el título «CURRICULUM VITAE»",
+        "autor": "the Italian voice",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "Una sección son los <mark>datos personales</mark>: nombre, teléfono y correo. ¿Cómo se llama esa sección?",
+      "question": "Nombre, teléfono y correo electrónico. <mark>Es como la etiqueta de la puerta de tu casa: cómo localizarte</mark>. ¿Cómo se llama esa parte del currículum?",
       "answer": "<mark>Datos personales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/datos-personales.jpg",
-        "title": "Día Internacional de Protección de Datos Personales (CDMX)",
-        "source": "https://commons.wikimedia.org/wiki/File:D%C3%ADa_Internacional_de_Protecci%C3%B3n_de_Datos_Personales_CDMX_-i---i-_(32543306565).jpg",
-        "alt": "Cartel del Día Internacional de Protección de Datos Personales en Ciudad de México",
-        "autor": "Gobierno CDMX",
-        "licencia": "CC0"
+        "title": "Resume 2011",
+        "source": "https://www.flickr.com/photos/46624185@N07/5744350510",
+        "alt": "Un currículum vitae impreso en inglés, con el apartado de datos de contacto visible",
+        "autor": "ConorLuddy",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "Otra sección del currículum vitae es la <mark>formación</mark>: los <mark>estudios realizados</mark>. ¿Cómo se llama esa sección?",
-      "answer": "<mark>Formación</mark>",
+      "question": "Los estudios que has realizado. <mark>Es como tu lista de títulos, con la fecha de cada uno</mark>. ¿Cómo se llama esa parte del currículum?",
+      "answer": "<mark>Formación académica</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/formacion.jpg",
-        "title": "Formación San Miguel 1985",
-        "source": "https://commons.wikimedia.org/wiki/File:Formaci%C3%B3n_San_Miguel_1985.jpg",
-        "alt": "Fotografía de archivo de una formación militar o policial de 1985",
-        "autor": "Rlalk3",
-        "licencia": "CC BY-SA 4.0"
+        "title": "Graduates",
+        "source": "https://www.flickr.com/photos/82538355@N00/2469859496",
+        "alt": "Dos graduados con toga y capirote, con las cintas de los títulos",
+        "autor": "spakattacks",
+        "licencia": "CC BY 2.0"
       }
     },
     {
-      "question": "Otra sección es la <mark>experiencia laboral</mark>: los trabajos que has tenido. ¿Cómo se llama esa sección?",
+      "question": "Los trabajos que has tenido, si has tenido. <mark>Es como tu historial: dónde has estado y qué hiciste</mark>. ¿Cómo se llama esa parte del currículum?",
       "answer": "<mark>Experiencia laboral</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/experiencia.jpg",
-        "title": "Titulación por Experiencia Laboral",
-        "source": "https://commons.wikimedia.org/wiki/File:Titulaci%C3%B3n_por_Experiencia_Laboral.jpg",
-        "alt": "Cartel de un programa de titulación por experiencia laboral",
-        "autor": "COHACER S.C.",
+        "title": "My Desk @ SimpleGeo SF",
+        "source": "https://www.flickr.com/photos/68503235@N00/5081408605",
+        "alt": "Un escritorio de trabajo con un ordenador, unos auriculares, una planta y una taza",
+        "autor": "Jon Rohan",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Lo que sabes hacer bien. <mark>Es como la lista de herramientas que manejas</mark>. ¿Cómo se llama esa parte del currículum?",
+      "answer": "<mark>Habilidades</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/habilidades.jpg",
+        "title": "sky puzzle",
+        "source": "https://www.flickr.com/photos/35468148654@N01/501445202",
+        "alt": "Piezas de un puzle, unas encajadas y otras sueltas sobre la mesa",
+        "autor": "jared",
+        "licencia": "CC BY 2.0"
+      }
+    },
+    {
+      "question": "Los idiomas que hablas y lo que sabes de informática. <mark>Es como las llaves que llevas encima: cada una abre una puerta</mark>. ¿Cómo se llama esa parte del currículum?",
+      "answer": "<mark>Idiomas y conocimientos informáticos</mark>",
+      "image": {
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/idiomas.jpg",
+        "title": "Mi Herramienta de Trabajo y de Conocimiento",
+        "source": "https://commons.wikimedia.org/wiki/File:Mi_Herramienta_de_Trabajo_y_de_Conocimiento.jpg",
+        "alt": "Un ordenador portátil con un portal de formación en línea abierto en la pantalla",
+        "autor": "Ricardoboterorios",
         "licencia": "CC BY-SA 4.0"
       }
     },
     {
-      "question": "Otra sección del currículum vitae son las <mark>habilidades e idiomas</mark> que dominas. ¿Cómo se llama esa sección?",
-      "answer": "<mark>Habilidades e idiomas</mark>",
+      "question": "El texto pone tres condiciones de estilo, y ninguna es opcional. <mark>Es como una carta corta y bien escrita</mark>. ¿Cómo debe ser un currículum según el texto?",
+      "answer": "<mark>Claro, breve (una página) y sin faltas de ortografía</mark>",
       "image": {
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/habilidades.jpg",
-        "title": "Logo oficial del blog intercultural Dacadu (EUT+)",
-        "source": "https://commons.wikimedia.org/wiki/File:Official_logo_of_Dacadu_intercultural_blog_EUT%2B.png",
-        "alt": "Logotipo de un proyecto intercultural y multilingüe (referencia visual a idiomas y habilidades)",
-        "autor": "Dacadu Intercultural Blog",
-        "licencia": "CC BY-SA 4.0"
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/reglas.jpg",
+        "title": "Pen to Paper",
+        "source": "https://www.flickr.com/photos/33917831@N00/1574578248",
+        "alt": "Una mano con un bolígrafo corrigiendo con trazos rojos un texto impreso",
+        "autor": "Orin Zebest",
+        "licencia": "CC BY 2.0"
       }
     }
   ]

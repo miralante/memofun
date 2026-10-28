@@ -1,0 +1,272 @@
+{
+  "tipo": "autoevaluacion",
+  "idioma": "es",
+  "topicGroup": "Tema 7 · La búsqueda de empleo",
+  "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "preguntas": [
+    {
+      "id": "p1",
+      "tipo": "seleccion",
+      "enunciado": "El texto dice que buscar trabajo es un trabajo en sí mismo. ¿Qué quiere decir eso?",
+      "opciones": {
+        "a": "Que hay que dedicarle tiempo y esfuerzo cada día, con constancia y organización.",
+        "b": "Que lo único que importa es enviar muchos currículums.",
+        "c": "Que el Estado se encarga de buscar un trabajo por ti."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p2",
+      "tipo": "completar",
+      "enunciado": "Completa las frases con la palabra correcta. Elige una palabra de la lista.",
+      "huecos": [
+        {
+          "texto": "Buscar empleo es el proceso de encontrar un trabajo que se adapte a tus intereses, habilidades y ___.",
+          "respuesta": "necesidades"
+        },
+        {
+          "texto": "El currículum vitae se abrevia ___.",
+          "respuesta": "CV"
+        },
+        {
+          "texto": "El sitio web donde el Estado informa de ofertas, cursos y orientación laboral es el ___.",
+          "respuesta": "SEPE"
+        },
+        {
+          "texto": "Entre las vías para buscar empleo están los portales de empleo, las redes de ___ y la entrega directa.",
+          "respuesta": "contacto"
+        },
+        {
+          "texto": "Un empleo a jornada completa es de ___ horas diarias.",
+          "respuesta": "8"
+        }
+      ],
+      "banco": [
+        "necesidades",
+        "CV",
+        "SEPE",
+        "contacto",
+        "8"
+      ]
+    },
+    {
+      "id": "p3",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        {
+          "texto": "Buscar empleo no es solo enviar currículums: también hay que conocerse a uno mismo, saber qué quieres hacer y prepararte bien.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "El currículum vitae debe ser claro, breve (una página) y sin faltas de ortografía.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "La carta de presentación sirve para presentarte, explicar por qué te interesa el puesto y destacar tus puntos fuertes.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "La carta de presentación puede ser la misma para todas las ofertas de trabajo.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "Muchas ofertas de empleo no se publican: se comparten de boca en boca.",
+          "respuesta": "V"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "unir",
+      "enunciado": "Une cada documento con lo que es. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "El currículum vitae.",
+        "B": "La carta de presentación."
+      },
+      "derecha": {
+        "1": "Es un texto breve y personalizado que sirve para presentarte a una oferta concreta.",
+        "2": "Resume en una página tus datos, tus habilidades y tu experiencia."
+      },
+      "respuesta": {
+        "A": "2",
+        "B": "1"
+      }
+    },
+    {
+      "id": "p5",
+      "tipo": "unir",
+      "enunciado": "Une cada tipo de empleo con la característica que le corresponde.",
+      "izquierda": {
+        "A": "Primer empleo.",
+        "B": "Empleo temporal.",
+        "C": "Empleo parcial.",
+        "D": "Prácticas o becas."
+      },
+      "derecha": {
+        "1": "No requiere tener experiencia previa.",
+        "2": "Dura por un tiempo limitado.",
+        "3": "Se trabajan menos horas al día o a la semana.",
+        "4": "Sirve para aprender trabajando."
+      },
+      "respuesta": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      }
+    },
+    {
+      "id": "p6",
+      "tipo": "seleccion",
+      "enunciado": "El tema da dos definiciones. ¿Cuál corresponde al currículum vitae?",
+      "opciones": {
+        "a": "Es un texto breve y personalizado que sirve para presentarte a una oferta concreta y explicar por qué te interesa el puesto.",
+        "b": "Es un documento concreto de máximo una página que resume de forma organizada tus datos, tus habilidades y tu experiencia.",
+        "c": "Es la lista de las ofertas de trabajo que has visto en internet.",
+        "d": "Es el conjunto de documentos que entregas al empezar a trabajar en una empresa."
+      },
+      "respuesta": "b"
+    },
+    {
+      "id": "p7",
+      "tipo": "unir",
+      "enunciado": "Une cada consejo para buscar empleo con la acción que recomienda.",
+      "izquierda": {
+        "A": "Sé constante.",
+        "B": "Sé organizado.",
+        "C": "Sé activo.",
+        "D": "Sé positivo.",
+        "E": "Sigue formándote."
+      },
+      "derecha": {
+        "1": "Pregunta, llama y entrega tu currículum.",
+        "2": "Busca cada día.",
+        "3": "Lleva un registro de las ofertas a las que te presentas.",
+        "4": "No te desanimes si no te llaman.",
+        "5": "Mejora tus habilidades."
+      },
+      "respuesta": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4",
+        "E": "5"
+      }
+    },
+    {
+      "id": "p8",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso, según los consejos del texto.",
+      "afirmaciones": [
+        {
+          "texto": "Buscar trabajo es un trabajo en sí mismo, por eso hay que buscar cada día y ser constantes.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Si una empresa no te llama a la primera, debes desanimarte y dejar de buscar.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "Es una gran idea llevar un registro ordenado de las ofertas a las que te presentas.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "Mientras buscas trabajo, no vale la pena formándose ni aprender nada nuevo.",
+          "respuesta": "F"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "seleccion",
+      "enunciado": "¿Qué ofrece el SEPE, que aparece entre los recursos útiles para buscar empleo?",
+      "opciones": {
+        "a": "Ofertas de empleo, cursos y orientación.",
+        "b": "Dinero en efectivo todos los meses.",
+        "c": "Un puesto de trabajo fijo en una empresa pública.",
+        "d": "Solo formación universitaria."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p10",
+      "tipo": "clasificar",
+      "enunciado": "¿Cada aspecto se prepara antes de la entrevista o durante la entrevista?",
+      "categorias": [
+        "Antes de la entrevista",
+        "Durante la entrevista"
+      ],
+      "elementos": [
+        {
+          "texto": "Investiga sobre la empresa.",
+          "respuesta": "Antes de la entrevista"
+        },
+        {
+          "texto": "Repasa tu currículum.",
+          "respuesta": "Antes de la entrevista"
+        },
+        {
+          "texto": "Prepara respuestas a preguntas comunes.",
+          "respuesta": "Antes de la entrevista"
+        },
+        {
+          "texto": "Piensa en tus puntos fuertes.",
+          "respuesta": "Antes de la entrevista"
+        },
+        {
+          "texto": "Sé puntual.",
+          "respuesta": "Durante la entrevista"
+        },
+        {
+          "texto": "Viste de forma adecuada.",
+          "respuesta": "Durante la entrevista"
+        },
+        {
+          "texto": "Habla con claridad y respeto.",
+          "respuesta": "Durante la entrevista"
+        },
+        {
+          "texto": "Muestra interés y actitud positiva.",
+          "respuesta": "Durante la entrevista"
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "tipo": "seleccion",
+      "enunciado": "¿Cuál es la diferencia entre el currículum y la carta de presentación?",
+      "opciones": {
+        "a": "El currículum resume de forma organizada tus datos, habilidades y experiencia en una página; la carta es un texto breve y personalizado que explica por qué te interesa el puesto.",
+        "b": "El currículum se entrega en la entrevista y la carta se manda por correo.",
+        "c": "Son dos nombres distintos para el mismo documento.",
+        "d": "La carta de presentación solo hace falta si no tienes experiencia."
+      },
+      "respuesta": "a"
+    },
+    {
+      "id": "p12",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        {
+          "texto": "Los familiares, los amigos y los profesores son una vía para encontrar empleo.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "El currículum debe ocupar tres páginas para que se entienda bien.",
+          "respuesta": "F"
+        },
+        {
+          "texto": "Para preparar la entrevista hay que saber de qué se ocupa la empresa.",
+          "respuesta": "V"
+        },
+        {
+          "texto": "En la entrega directa esperas en casa a que la empresa te llame.",
+          "respuesta": "F"
+        }
+      ]
+    }
+  ]
+}

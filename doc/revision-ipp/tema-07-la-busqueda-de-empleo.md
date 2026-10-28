@@ -209,3 +209,118 @@ Es un **texto breve que acompaña al CV** y sirve para:
 - **Ejercicio 5** — (pag70)
 - **Ejercicio 6** — (pag70)
 - **Ejercicio 7** — "Escribe V (Verdadero) o F (Falso) para cada consejo sobre buscar trabajo" (pag71)
+
+---
+
+## Revisión de octubre de 2026 — fidelidad al cuaderno del centro
+
+Contraste con las fotos del cuaderno (`D:/img_memofun/ipp/tema7/`, págs. 63-71)
+y con `decks/concepts/fpb_sa_1_itinerario-personal-empleabilidad.md`.
+
+### Qué había y qué hay
+
+| Baraja | Antes | Ahora |
+|---|---|---|
+| `que-significa-buscar-empleo` | 3 | 3 |
+| `que-necesito-antes-de-empezar` | 4 | 5 |
+| `donde-buscar-empleo` | 7 | 5 |
+| `consejos-para-buscar-empleo` | — (no existía) | 5 |
+| `tipos-de-empleo` | 5 | 5 |
+| `curriculum-vitae` | 5 | 7 |
+| `carta-de-presentacion` | 4 | 5 |
+| `prepararse-para-entrevista` | 6 | 9 |
+| **Total** | **34** | **44** |
+
+Además, el tema **no tenía autoevaluación**: se ha añadido una de **12
+preguntas** (`autoevaluacion.json`) con los cinco tipos que admite la
+herramienta (`seleccion`, `completar`, `vf`, `unir` y `clasificar`), sacada de
+los ejercicios 4-7 y de las actividades del cuaderno.
+
+### Correcciones de contenido
+
+- **Baraja nueva: `consejos-para-buscar-empleo` (5 tarjetas).** Los cinco
+  «Consejos para buscar empleo» de la pag68 (ser constante, organizado, activo
+  y positivo, y seguir formándose) eran un bloque del libro sin ninguna
+  tarjeta. Las marcas (SEPE, TodoFP, Garantía Juvenil, Empléate) se han
+  tarjeta «recursos útiles», que es como las da el cuaderno.
+- **Tarjetas de marca retiradas.** InfoJobs, LinkedIn y SEPE aparecían como
+  *respuesta* de tres tarjetas. Ahora las marcas son la pista de «portales de
+  empleo en internet», que es lo que hace el libro.
+- **Tarjeta «oficinas de empleo» conservada** (es el §3.2 del cuaderno: te
+  inscriben como demandante de empleo y te informan de cursos y ofertas) y se
+  le **añade «recursos útiles»** con la pag68 (SEPE, TodoFP, Garantía Juvenil
+  y Empléate), que antes no tenía ninguna tarjeta.
+- **Tarjeta nueva en `prepararse-para-entrevista`:** «Piensa en tus puntos
+  fuertes», el cuarto paso de la lista «antes de la entrevista» (pag67), que
+  faltaba. La baraja pasa de 8 a 9 tarjetas.
+- **Tarjetas nuevas en `curriculum-vitae`:** «Idiomas y conocimientos
+  informáticos» y «Claro, breve (una página) y sin faltas de ortografía», las
+  dos reglas que la pag66 exige y que no estaban.
+- **Respuestas duplicadas dentro de una baraja.** Ninguna tarjeta repite ya la
+  respuesta de otra de la misma baraja: se comprobó tarjeta a tarjeta (el
+  validador `scripts/check.js` no lo detecta).
+- **Enunciados reescritos.** Casi todas las tarjetas filtraban la respuesta en
+  la propia pregunta («¿Qué es la carta de presentación? … la carta de
+  presentación»). Ahora el enunciado es una **pista con analogía** y la
+  respuesta es el **nombre** del concepto.
+- **Dos matices del cuaderno corregidos:** la pag66 llama «formación
+  académica» (no «formación») al apartado del currículum, y el propio §5 pide
+  que el CV sea «claro, breve (1 página) y sin faltas de ortografía».
+
+### Auditoría de imágenes
+
+Las **34 imágenes** del tema se revisaron **una a una, viéndolas** (no leyendo
+el `alt`, que en este tema mentía en casi todas). Resultado:
+
+- **32 sustituidas** porque la imagen no ilustraba la pista. Entre las peores:
+  - `carta-de-presentacion/definicion.jpg` era la **presentación de
+    credenciales diplomáticas de Australia** (y era byte a byte idéntica a
+    `que-necesito-antes-de-empezar/carta.jpg`);
+  - `carta-de-presentacion/presentarte.jpg` era la **portada de la partitura
+    de una opereta de Leo Fall**;
+  - `carta-de-presentacion/puesto-interes.jpg` era un **castillo medieval en
+    Westerlo (Bélgica)**;
+  - `carta-de-presentacion/puntos-fuertes.jpg` era una **página en blanco de
+    manuscrito** (el `alt` decía «portada de un libro»);
+  - `prepararse-para-entrevista/investigar.jpg` era un **aula de formación de
+    periodismo**;
+  - `prepararse-para-entrevista/preguntas.jpg` era el **público de un
+    seminario en Puno (Perú)**;
+  - `prepararse-para-entrevista/puntualidad.jpg` era un **diagrama de
+    mutaciones en hebreo**;
+  - `prepararse-para-entrevista/vestimenta.jpg` era la **portada de un
+    tratado de medicina legal**;
+  - `curriculum-vitae/definicion.jpg` era la **portada del Diario Oficial de
+    la UE**;
+  - `curriculum-vitae/formacion.jpg` era un **equipo de fútbol de 1985**;
+  - `curriculum-vitae/jornada.jpg` era un **acta de escrutinio electoral
+    venezolana**;
+  - `tipos-de-empleo/primer-empleo.jpg` era el **Journal Officiel de la
+    República Française**;
+  - `tipos-de-empleo/practicas.jpg` era un **gráfico de espectro político**;
+  - `donde-buscar-empleo/portales.jpg` era un **rectángulo rojo liso**;
+  - `donde-buscar-empleo/sepe.jpg` era un **retrato con gafas de sol**;
+  - `que-necesito-antes-de-empezar/actitud.jpg` era un **post-it con «I CAN'T
+    DO IT»** cortado con tijeras (justo lo contrario de lo que dice la
+    tarjeta).
+- **Los 34 `alt` reescritos**, describiendo lo que se ve de verdad en cada
+  foto.
+- **2 imágenes conservadas** por ser correctas: la fachada de la *Oficina de
+  Empleo* del Barrio de la Concepción (Madrid) —que ilustra el §3.2 «oficinas
+  de empleo» y conservó su nombre de fichero— y la foto de la entrevista con
+  el documento impreso sobre la mesa de cristal.
+- **Los 43 `alt` reescritos**, describiendo lo que se ve de verdad en cada
+  foto.
+- **5 imágenes huérfanas** quedan en `audit-out/huerfanos-tema7/` (los logos de
+  InfoJobs y LinkedIn, el retrato que hacía de SEPE, el cartel del teatro y el
+  certificado coreano).
+- Comprobado que **no hay dos imágenes idénticas** dentro del tema (hash MD5) y
+  que todas cumplen los límites del repositorio (≤ 200 KB, lado largo ≤
+  1024 px).
+
+### Cobertura frente al temario oficial
+
+Las **8 barajas** cubren los siete subapartados del §1-§7 del temario oficial
+del módulo más el bloque de «Consejos para buscar empleo» de la pag68. No
+queda ningún concepto del cuaderno sin cubrir, salvo la **foto opcional** del
+currículum (el propio libro la marca como opcional y recomendable).
