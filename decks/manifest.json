@@ -1242,7 +1242,7 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 7,
+    "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria.json",
     "icon": "📋",
     "topicGroup": "Tema 4 · Correos y mensajería"
@@ -1253,7 +1253,7 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 12,
+    "amount": 13,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa.json",
     "icon": "📋",
     "topicGroup": "Tema 4 · Correos y mensajería"
@@ -1309,7 +1309,7 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 13,
+    "amount": 12,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago.json",
     "icon": "💳",
     "topicGroup": "Tema 6 · Operaciones de cobro y pago",
@@ -1332,7 +1332,7 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Técnicas Administrativas Básicas",
-    "amount": 10,
+    "amount": 11,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial.json",
     "icon": "🖥️",
     "topicGroup": "Tema 6 · Operaciones de cobro y pago"
@@ -1677,7 +1677,8 @@
     "topicGroup": "Tema 7 · La búsqueda de empleo",
     "amount": 3,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-significa-buscar-empleo.json",
-    "icon": "💼"
+    "icon": "💼",
+    "selfTest": true
   },
   {
     "id": "fpb-sa-1-ipe-t7-que-necesito-antes-de-empezar",
@@ -1686,7 +1687,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
-    "amount": 4,
+    "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar.json",
     "icon": "💼"
   },
@@ -1697,8 +1698,19 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
-    "amount": 7,
+    "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/donde-buscar-empleo.json",
+    "icon": "💼"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t7-consejos-para-buscar-empleo",
+    "topic": "Consejos para buscar empleo",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "amount": 5,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/consejos-para-buscar-empleo.json",
     "icon": "💼"
   },
   {
@@ -1719,7 +1731,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
-    "amount": 5,
+    "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae.json",
     "icon": "💼"
   },
@@ -1730,7 +1742,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
-    "amount": 4,
+    "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion.json",
     "icon": "💼"
   },
@@ -1741,7 +1753,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
-    "amount": 6,
+    "amount": 9,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json",
     "icon": "💼"
   },
