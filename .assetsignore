@@ -14,6 +14,11 @@ test-results/
 scripts/
 doc/
 
+# Local audit workspace (gitignored): candidate images, scratch scripts and
+# deck drafts. It holds >100 MB of working files and must never be published
+# to the public Worker.
+audit-out/
+
 # Screenshots kept at the repo root for the docs. This is deliberately NOT a
 # blanket "*.png": assets/img/decks/**/*.png are the deck illustrations the
 # app loads at runtime, and the global rule left 36 of them answering 404 in
