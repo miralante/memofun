@@ -203,3 +203,101 @@ siguiente:
 - **Ejercicio 2** — Preguntas sobre desmayos, quemaduras y botiquín (pag35).
 - **Ejercicio 3** — Relaciona cada situación de emergencia con su técnica (pag35).
 - **Ejercicio 4** — Responde SÍ o NO (fractura, convulsión) (pag36).
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 3 lleva un **ancla**: una palabra del anverso que
+devuelve el término de la respuesta (por su raíz o por un sinónimo cercano),
+sin escribir el término exacto. La regla está en
+`doc/es/guia-crear-elementos.md` §2.3 y la tabla siguiente deja por escrito
+qué palabra ancla cada tarjeta, para que un repaso posterior no tenga que
+volver a descubrirlas.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| §1 Concepto | Cuidados antes de la ayuda médica | «mientras llega la ambulancia» / «lo que hagas» |
+| §1 Concepto | Son decisivos para la evolución | «cambia cómo acaba la persona» / «deciden el resultado» |
+| §1 Concepto | Valoración primaria | «comprobación inicial» / «compruebas» |
+| §1 Concepto | 112 | «el número único de emergencias» |
+| §1 Concepto | Usar el botiquín | «esa caja» / «para abrirla cuando hace falta» |
+| §1 Concepto | No mover a la persona | «Movarla puede empeorar el daño» / «no tocar» |
+| §1 Concepto | Parar la hemorragia | «cortar el sangrado» / «tapar el grifo» |
+| §1 Concepto | Mantener la calma | «tranquilo» / «habla sereno» |
+| §1 Concepto | No hacer lo que no sabes | «alguien con práctica» / «si no lo has hecho nunca» |
+| §1 Concepto | Darle comida o bebida | «no meterle nada a alguien que no puede tragar» |
+| §2 Desmayos y hemorragias | Colocarla de lado | «tumbarla para que respire bien» |
+| §2 Desmayos y hemorragias | 112 y masaje cardíaco | «pedir la ambulancia» / «bombearle el pecho» |
+| §2 Desmayos y hemorragias | Con una gasa limpia | «un paño que no tenga suciedad» |
+| §2 Desmayos y hemorragias | Poner otra encima | «cubrirlo con una hoja nueva» |
+| §2 Desmayos y hemorragias | Elevar la parte que sangra | «subir la zona afectada» / «levantar el cubo» |
+| §3 PAS | P — Proteger | «poner una barrera» / «fuera de peligro» |
+| §3 PAS | A — Avisar | «llamas a los servicios sanitarios» |
+| §3 PAS | S — Socorrer | «actúas sobre quien se ha hecho daño» / «ir corriendo a auxiliar» |
+| §3 PAS | Proteger, avisar, socorrer | «Primero que nadie se haga daño. Luego que llegue la ayuda. Al final, atender al accidentado.» |
+| §3 PAS | Conciencia | «ver si responde» / «reacciona al tocarle el hombro» |
+| §3 PAS | Respiración | «compruebas si la persona respira» / «el pecho subiéndose y bajándose» |
+| §3 PAS | Pulso | «en el cuello» / «tocar el latido» |
+| §3 PAS | Masaje cardíaco | «bombear el pecho» / «una bomba de agua» |
+| §4 Botiquín | Botiquín | «un armario o maletín» / «la caja de herramientas» |
+| §4 Botiquín | Gasas estériles | «telas sin gérmenes» / «las toallitas limpias» |
+| §4 Botiquín | Vanda | «una tira de tela que se enrolla» / «la cinta» |
+| §4 Botiquín | Tijeras | «cortar la gasa o la venda» / «dos hojas que se cierran» |
+| §4 Botiquín | Guantes desechables | «protegerte las manos» / «de un solo uso» |
+| §4 Botiquín | Suero fisiológico | «agua con sal» / «como las lágrimas» |
+| §4 Botiquín | Termómetro | «medir la temperatura» / «da los grados del cuerpo» |
+| §4 Botiquín | Tiritas | «tiras pequeñas con pegamento» / «los parches» |
+| §4 Botiquín | Antiséptico | «para que una herida no se infecte» / «el gel» |
+| §5 Emergencias | Dejarla toser | «la persona tose y consigue mover el aire» |
+| §5 Emergencias | Maniobra de Heimlich | «empujón» / «aprietas hacia dentro y hacia arriba» |
+| §5 Emergencias | Enfriar con agua fría | «bajar la temperatura de la zona» / «con el grifo» |
+| §5 Emergencias | No reventarlas | «quiere pincharlas» / «dejar que se cure la ampolla» |
+| §5 Emergencias | Con un paño limpio | «taparla para que no se ensucie» / «una tapa limpia» |
+| §5 Emergencias | Inmovilizar con algo rígido | «sujetar la zona para que el hueso no se mueva» / «entablillar» |
+| §5 Emergencias | Llamar al 112 | «el número único de emergencias» |
+| §5 Emergencias | Sujetar a la persona | «si la agarras puedes romperle un hueso» |
+| §5 Emergencias | Quitar objetos peligrosos | «apartar las sillas y las mesas» |
+| §5 Emergencias | Colocarla de lado y esperar | «dormir de costado» / «no respira bien» |
+
+### Qué se reescribió (40 tarjetas)
+
+- **Regalaban la respuesta (R3, 15 tarjetas):** «112» (el anverso lo
+  escribía), «Usar el botiquín» («botiquín»), «Parar la hemorragia»
+  («parar», «hemorragia»), «No hacer lo que no sabes» («sabes»), «Darle
+  comida o bebida» («darle», «comida»), «Colocarla de lado» («lado»),
+  «Con una gasa limpia» («limpia»), «Poner otra encima» («poner», «otra»,
+  «encima»), «Gasas estériles» («gases»), «Tijeras» («tijeras»), «Guantes
+  desechables» («guantes»), «Termómetro» («termómetro»), «Dejarla toser»
+  («toser»), «Maniobra de Heimlich» («maniobra»), «Enfriar con agua fría»
+  («agua», «fría»), «No reventarlas», «Inmovilizar con algo rígido» («algo»,
+  «rígido») y «Pulso» («pulso»).
+- **Sin ancla (R4):** las 42 tarjetas estaban marcadas, porque el mapa de
+  sinónimos del auditor no conocía el vocabulario de este tema. Ahora cada
+  ancla está **en texto plano**, no solo dentro del `<mark>`.
+- **Frases de más de 12 palabras (R1):** 13 tarjetas las traían (hasta 20
+  palabras); se han partido en frases de una idea.
+- **Tarjetas con dos `<mark>`:** nueve tarjetas de `el-botiquin-basico.json`
+  tenían dos marcas. La regla del proyecto es una por tarjeta, así que la
+  analogía se ha dejado en la marca y el resto de la pista va en texto
+  plano.
+
+### El auditor de anclas
+
+`node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios`
+daba **38 de 42 tarjetas «sin ancla» (R4)** y 15 con R3 antes de este
+trabajo. El vocabulario de primeros auxilios (botiquín, PAS, signos
+vitales, emergencias) se añadió al mapa de sinónimos de
+`scripts/audit-deck-anchors.js`. Resultado actual: **42/42 con ancla, 0 R1,
+0 R2, 0 R3**, y `node scripts/audit-deck-readability.js` sin avisos en este
+tema.
+
+### Pendiente de otra pasada (no es de anclas)
+
+Las imágenes de este tema siguen siendo miniaturas extraídas de los PDF del
+temario (`check.js` lo avisa: 4+6+7+6 tarjetas en
+`que-hacer-en-emergencias.json` y las demás). La marca describe el
+contenido real de la foto, pero para que la imagen **ilustre la pista**
+—guia-crear-elementos.md §2.6— habría que sustituirlas por fotos que
+muestren la situación descrita.
+

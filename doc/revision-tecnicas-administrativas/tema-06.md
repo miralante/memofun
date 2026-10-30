@@ -464,3 +464,108 @@ en un revisor de imágenes, una por una, no por su `alt`). Resultado:
   secciones están **en italiano** en la captura) y el de las celdas (la
   interfaz está **en alemán** y muestra un recuento de árboles por zona).
 - **11 imágenes huérfanas** quedan en `audit-out/huerfanos-tema6/`.
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 6 lleva un **ancla**: una palabra en el anverso
+que devuelve el término de la respuesta (raíz o sinónimo), sin escribir
+el término exacto. En las tarjetas de listas, el anverso **parafrasea**
+cada elemento. La regla está en `doc/es/guia-crear-elementos.md` §2.3.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| Cobros y pagos | Operaciones de caja | «cada entrada y salida de dinero es un movimiento» / «el monedero de la empresa» / «en efectivo» |
+| Cobros y pagos | Cobro | «un cliente te entrega dinero» / «el dinero que entra» |
+| Cobros y pagos | Pago | «un gasto pequeño» / «sacas dinero» / «el dinero que sale» |
+| Cobros y pagos | Guardarlos | «un papel que hay que guardar» |
+| Cobros y pagos | Nómina | «un papel con tu sueldo» |
+| Cobros y pagos | Los datos de la empresa y de la persona trabajadora, el sueldo, los descuentos y el importe que se cobra | «la compañía donde trabajas» / «tus nombres» / «lo que ganas» / «lo que te quitan» / «la cantidad que hay que cobrar» |
+| Cobros y pagos | Un registro claro | «anotas cada entrada y salida en un libro» / «comprobar que el dinero cuadra» |
+| Documentos comerciales | Factura | «un papel oficial» / «lo que tiene que pagar» / «el precio y los impuestos» |
+| Documentos comerciales | Albarán | «el transportista» / «la mercancía» / «lo que ha traído» |
+| Documentos comerciales | Pedido | «un cliente escribe a un proveedor» |
+| Documentos comerciales | Nota de pedido | «un papel pidiendo lo que quieres comprar» / «un compromiso de compra y venta» |
+| Documentos comerciales | Datos del emisor y del cliente, fecha y número, y el detalle: cantidad, concepto, precio unitario, subtotal, IVA y total | «muchas casillas: quién manda, quién compra, qué día» / «un código» / «el desglose de cada línea» / «cuántos artículos» / «cuánto vale cada uno» / «la suma sin impuestos» / «lo que se paga» |
+| Documentos comerciales | Presupuesto | «pides el precio por escrito» / «solo una estimación» |
+| Documentos comerciales | Varios presupuestos | «comparar precios de distintos proveedores» / «pide más de uno» |
+| Documentos comerciales | Impresos oficiales | «papeles con un formato fijo» / «para hacer trámites» |
+| Documentos comerciales | Rellenarlo bien | «escribirlo con cuidado y sin errores» |
+| Medios de pago | Pago al contado | «se paga al recibir» / «no hay que esperar» |
+| Medios de pago | Pago aplazado o a crédito | «el cliente paga luego» / «una deuda que se paga más tarde» |
+| Medios de pago | Pago anticipado | «deja una cantidad a cuenta» |
+| Medios de pago | El pago en efectivo | «billetes y monedas de la cartera» / «el papel moneda y la moneda metálica» |
+| Medios de pago | Recibo | «un papel» / «un justificante» |
+| Medios de pago | Cheque | «un papel firmado que ordena a su banco pagar» |
+| Medios de pago | Partes del cheque | «un papel firmado lleva dentro varios datos» / «quién lo emite, el banco, el importe, el día y la firma» |
+| Medios de pago | Transferencia bancaria | «mover dinero a otra cuenta» / «al banco» |
+| Medios de pago | Tarjeta de débito | «un trocito de plástico» / «gasta solo el dinero que ya tienes» |
+| Medios de pago | Un código que identifica una cuenta | «unas siglas que empiezan por el país» / «sirve para saber cuál es la tuya» |
+| Medios de pago | Pagaré | «alguien firma un papel prometiendo pagar más adelante» |
+| Medios de pago | Letra de cambio | «cuando el pago se aplaza» / «alguien escribe un documento» / «el banco lo paga a un beneficiario» |
+| Comercio electrónico | El comercio electrónico | «comprar en una tienda sin salir de casa» / «en la web» |
+| Comercio electrónico | Cuatro: tarjeta de crédito, transferencia bancaria, pago contra reembolso y pasarela de pago | «varias formas de pagar» / «el plástico que te presta el banco» / «mandar el dinero de una cuenta a otra del banco» / «al recibirlo en casa» / «con un intermediario en medio» |
+| Comercio electrónico | La tarjeta de crédito | «el plástico y tecleas el número y la clave» / «el banco te presta el dinero» |
+| Comercio electrónico | El pago contra reembolso | «pagas al transportista» / «un recibo al entregarlo» |
+| Comercio electrónico | La pasarela de pago | «un intermediario se interpone» / «conecta tu banco con la tienda» |
+| Excel: conceptos básicos | Columna | «una selección vertical de celdas» / «con letras» |
+| Excel: conceptos básicos | Fila | «una selección horizontal de celdas» / «con número» |
+| Excel: conceptos básicos | Textos, números o fórmulas | «palabras, cifras o cuentas» |
+| Excel: conceptos básicos | Situar el cursor y teclear | «colocas la flechita sobre la celda» / «pulsas el teclado» |
+| Excel: conceptos básicos | Guardar o Guardar como | «guárdalo en el disco» / «la primera vez eliges el nombre; después sobrescribe lo anterior» |
+| Excel: conceptos básicos | Fórmulas básicas | «sumar es =A1+A2 y restar es =A1-A2» / «multiplicar y dividir» |
+| Excel: conceptos básicos | Subtotal + IVA (21%) = TOTAL | «el impuesto va sobre la base y se le suma la tasa» / «lo que se paga al final» |
+| Excel: pantalla inicial | La pantalla inicial | «al abrir Excel aparece una ventana» / «las barras arriba, la rejilla en medio» |
+| Excel: pantalla inicial | Barra de título | «la franja de arriba» / «el nombre del archivo y la aplicación» |
+| Excel: pantalla inicial | Barra de herramientas de acceso rápido | «unos botones pequeños» / «para guardar o deshacer» / «son atajos: un toque y listo» |
+| Excel: pantalla inicial | La barra de menús | «las pestañas Inicio, Insertar y Diseño» / «cada una abre sus propias herramientas» |
+| Excel: pantalla inicial | La banda de opciones | «la cinta grande que se despliega bajo las pestañas» / «los botones de la pestaña elegida» |
+| Excel: pantalla inicial | Barra de fórmulas | «arriba hay una franja donde se escriben las cuentas» / «muestra lo que hay en la celda» |
+| Excel: pantalla inicial | La barra de etiquetas | «abajo a la izquierda aparecen las hojas del libro» / «saltar de una a otra» |
+| Excel: pantalla inicial | Mostrar datos del documento | «una franja indica información del archivo abierto» / «si está guardado, el zoom y la vista» |
+| Excel: pantalla inicial | Las vistas | «tres botones que cambian cómo se ve la hoja» |
+| Excel: pantalla inicial | Acercar o alejar la vista | «el zoom de 10% a 400%» / «ver la hoja más grande o más pequeña» |
+| Excel: pantalla inicial | Las barras de desplazamiento | «la palanca de la derecha y la de abajo» / «mueven la hoja» |
+
+### Cómo se comprobó
+
+El detector oficial (`scripts/audit-deck-anchors.js`) solo exige **una** ancla
+por tarjeta, así que se usó la misma comprobación estricta que en el tema 5:
+**cada palabra de contenido de la respuesta** tiene su ancla en el anverso,
+ninguna palabra de la respuesta aparece escrita en el anverso (no se regala la
+respuesta), cada tarjeta conserva **un solo `<mark>`** y las frases de pista
+tienen 12 palabras como máximo. Con ese criterio las **51 tarjetas** quedan
+limpias.
+
+Las cuatro respuestas que son **listas** (la información de la nómina, la de la
+factura, las cuatro formas de pago del comercio electrónico y las partes del
+cheque) llevan un ancla **por elemento**, con el anverso parafraseando cada
+uno en vez de nombrarlo.
+
+### Las analogías se ajustaron a su imagen
+
+El `<mark>` es la pista que ilustra la foto, así que al reescribir el anverso
+se tocó solo cuando la analogía **regalaba la respuesta** o **no cuadraba con
+la imagen**:
+
+- **Columna** y **fila**: la analogía era un edificio y un cine, pero las fotos
+  son las cabeceras «A, B, C» y los números «1, 2, 3» de Excel. Ahora la
+  analogía es la de las letras y los números, que es lo que se ve.
+- **Barra de fórmulas**: decía «la barra de direcciones de un navegador», y
+  «barra» era justo la palabra que había que adivinar. Ahora es «la casilla de
+  arriba del navegador donde escribes la dirección».
+- **Barra de estado**: «la barra inferior del navegador» → «la franja inferior
+  del navegador», por el mismo motivo.
+- **Barra de herramientas de acceso rápido**: «los botones de acceso rápido de
+  un mando a distancia» → «los botones de un mando a distancia», porque
+  «acceso rápido» era la respuesta dentro de la analogía.
+- **IBAN**: «la dirección de tu cuenta en el mundo» → «la dirección de tu
+  dinero en el mundo», porque «cuenta» era una palabra de la respuesta.
+- **Nómina**: «cuánto se cobra» → «cuánto se paga», por lo mismo.
+- **Celda y guardar**: la foto es una hoja con un teclado delante y el icono
+  del disquete, así que la analogía «rellenar las casillas de un formulario,
+  pero con el teclado» y «meter el documento en la carpeta» describen lo que
+  se ve.
+
+El resto de analogías se conservaron tal cual.

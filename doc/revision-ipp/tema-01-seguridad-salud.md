@@ -272,3 +272,101 @@ o **Carga Mental** (cabeza/esfuerzo).
 > Son las respuestas manuscritas del cuaderno del alumno a los ejercicios 1-4
 > del temario. Refuerzan los mismos conceptos de §1 y §2. No añaden
 > contenido nuevo respecto a pag12-pag13, solo sirven como repaso.
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 1 lleva un **ancla**: una palabra del anverso que
+devuelve el término de la respuesta (por su raíz o por un sinónimo cercano),
+sin escribir el término exacto. La regla está en
+`doc/es/guia-crear-elementos.md` §2.3 y la tabla siguiente deja por escrito
+qué palabra ancla cada tarjeta, para que un repaso posterior no tenga que
+volver a descubrirlas.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| 1. Qué es la seguridad y salud | Prevención de riesgos laborales | «evitar» / «accidentarse» |
+| 2. El trabajo y la salud | Trabajo y salud | «te encuentras» / «lo que haces» |
+| 2. El trabajo y la salud | Bienestar físico | «el cuerpo» / «funcionando bien» |
+| 2. El trabajo y la salud | Bienestar mental | «la cabeza» / «te sientes» |
+| 2. El trabajo y la salud | Bienestar social | «la gente» / «a gusto» |
+| 2. El trabajo y la salud | Físico, mental y social | «el cuerpo» / «la cabeza» / «la gente» |
+| 2. El trabajo y la salud | El lugar de trabajo | «el sitio» |
+| 3. Condiciones de trabajo | Condiciones de trabajo | «el conjunto» / «características» |
+| 3. Condiciones de trabajo | Riesgo laboral | «esa posibilidad» / «el premio malo» |
+| 3. Condiciones de trabajo | Seguridad, medioambiente, ergonomía y psicosociales | «las máquinas y el sitio» / «lo que te rodea» / «cómo mueves el cuerpo» / «cómo te sientes» |
+| 3. Condiciones de trabajo | Conocer los riesgos y protegerse | «identificar» / «cubrirte» |
+| 3.1 Condiciones de seguridad | Condiciones de seguridad | «lo que hay en tu puesto» / «a salvo» |
+| 3.1 Condiciones de seguridad | Lugares de trabajo | «las zonas» |
+| 3.1 Condiciones de seguridad | Máquinas y herramientas | «un aparato, un instrumento» / «una instalación» |
+| 3.1 Condiciones de seguridad | Riesgo eléctrico | «la corriente» |
+| 3.1 Condiciones de seguridad | Riesgo de incendio | «el fuego» / «las llamas» |
+| 3.2 Condiciones ambientales | Agentes físicos | «formas de energía» |
+| 3.2 Condiciones ambientales | Ruido | «el sonido» / «estruendo» |
+| 3.2 Condiciones ambientales | Iluminación | «la luz» / «alumbra» |
+| 3.2 Condiciones ambientales | Radiaciones | «los rayos» |
+| 3.2 Condiciones ambientales | Vibraciones | «temblores» |
+| 3.2 Condiciones ambientales | Temperatura | «el calor y el frío» |
+| 3.2 Agentes químicos | Agentes químicos | «la sustancia» / «cómo se comporta» |
+| 3.2 Agentes químicos | Físicoquímicas | «cómo se comporta» |
+| 3.2 Agentes químicos | Químicas | «se transforman» / «al mezclarse» |
+| 3.2 Agentes químicos | Toxicológicas | «sustancia que te puede hacer daño» / «ponerte malo» |
+| 3.2 Pictogramas | Peligroso para el medio | «peligro» / «entorno natural» |
+| 3.2 Pictogramas | Gas a presión | «va muy apretado» |
+| 3.2 Pictogramas | Explosivo | «reventar de golpe» / «estalla» |
+| 3.2 Pictogramas | Comburente | «arda mejor» |
+| 3.2 Pictogramas | Inflamable | «prende fuego muy fácil» |
+| 3.2 Pictogramas | Corrosivo | «destruye la superficie» |
+| 3.2 Pictogramas | Peligro para la salud | «daño al cuerpo» |
+| 3.2 Pictogramas | Toxicidad | «muy dañino» |
+| 3.2 Pictogramas | Peligro grave | «el daño puede ser serio» |
+| 3.2 Agentes biológicos | Agentes biológicos | «seres vivos» / «los gérmenes» |
+| 3.2 Agentes biológicos | Exposición | «ese contacto» |
+| 3.3 Carga de trabajo | Carga de trabajo | «el peso de todo eso» |
+| 3.3 Carga de trabajo | Riesgos ergonómicos | «postura incómoda» |
+| 3.3 Carga de trabajo | Carga física | «con el cuerpo» / «cargar peso» |
+| 3.3 Carga de trabajo | Manipulación manual | «las manos» / «mueve los objetos» |
+| 3.3 Carga de trabajo | Posturas forzadas | «encorvado» |
+| 3.3 Carga de trabajo | Esfuerzo físico | «cargar peso» / «los músculos» |
+| 3.3 Carga de trabajo | Movimientos repetitivos | «repetir» / «el mismo gesto» |
+| 3.3 Carga de trabajo | Carga mental | «la cabeza» / «piensa» / «cansa» |
+
+### Qué se reescribió (19 tarjetas)
+
+Las tarjetas cuyo anverso **regalaba la respuesta** o **no tenían ancla**
+plana se reescribieron; las demás conservan su anverso porque ya traían una
+pista que devuelve el término:
+
+- **Regalaban la respuesta (R3):** «Trabajo y salud» («salud» en el anverso),
+  «Conocer los riesgos y protegerse» («conocer»/«protegerse»), «Gas a
+  presión» («gas»), «Esfuerzo físico» («esfuerzo») y «Máquinas y
+  herramientas» («máquina»).
+- **Sin ancla:** «Prevención de riesgos laborales», «Condiciones de
+  seguridad», «Ruido», «Iluminación», «Radiaciones», «Vibraciones»,
+  «Temperatura», «Agentes químicos», «Toxicológicas», «Carga de trabajo»,
+  «Riesgos ergonómicos», «Manipulación manual», «Movimientos repetitivos» y
+  «Carga mental».
+- **Anclas nuevas** como «evitar» (prevención), «a salvo» (seguridad),
+  «identificar»/«cubrirte» (conocer/protegerse), «sonido» (ruido),
+  «temblores» (vibraciones), «el peso de todo eso» (carga de trabajo),
+  «postura incómoda» (ergonomía) y «encorvado» (posturas forzadas).
+
+### Dos marcas que no cuadraban con la imagen
+
+- «Peligroso para el medio» describía *un cielo gris con humo* mientras la
+  imagen es el rombo con un árbol y un pez: la marca ahora describe el
+  pictograma (guia-crear-elementos.md §2.6).
+- «Gas a presión» decía *botella de gas* y por tanto regalaba media
+  respuesta: ahora dice *botella de metal* y el ancla es «va muy apretado».
+
+### El auditor de anclas
+
+`node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud`
+daba **44 de 45 tarjetas «sin ancla» (R4)** antes de este trabajo. El mapa
+de sinónimos del script solo conocía el vocabulario de «técnicas
+administrativas», así que se le añadió el de este tema (prevención,
+riesgo, salud, agentes, pictogramas, carga de trabajo, ergonomía) y se
+corrigió el conteo de frases de pista, que contaba como frase el punto que
+deja el `<mark>` inicial. Resultado actual: **45/45 con ancla, 0 R3, 0 R1,
+0 R2**.

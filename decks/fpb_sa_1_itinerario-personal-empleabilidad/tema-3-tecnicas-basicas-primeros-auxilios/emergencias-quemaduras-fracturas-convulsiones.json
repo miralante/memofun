@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "La persona tose y consigue mover el aire: el cuerpo está expulsando el bocado por su cuenta. <mark>Es como toser para sacar la pelusa de la garganta</mark>. ¿Qué haces?",
+      "question": "<mark>Es como expulsar la pelusa de la garganta</mark>. La persona tose y consigue mover el aire. El cuerpo está expulsando el bocado por su cuenta. ¿Qué haces?",
       "answer": "<mark>Dejarla toser</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/toser.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "La persona no puede hablar ni respirar. Te pones detrás, rodeas su cintura con los brazos y aprietas hacia dentro y hacia arriba, por encima del ombligo. <mark>Es como expulsar con un empujón un objeto que se ha atascado en un tubo</mark>. ¿Cómo se llama esa maniobra?",
+      "question": "<mark>Es como expulsar con un empujón un objeto que se ha atascado en un tubo</mark>. La persona no puede hablar ni respirar. Te pones detrás, rodeas su cintura con los brazos. Aprietas hacia dentro y hacia arriba, por encima del ombligo. ¿Cómo se llama ese movimiento?",
       "answer": "<mark>Maniobra de Heimlich</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/heimlich.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Alguien se ha quemado con agua caliente. Hay que pasar agua fría por la zona al menos diez minutos. <mark>Es como meter la mano bajo el grifo del agua fría para que pare de quemarse</mark>. ¿Qué haces primero?",
+      "question": "Alguien se ha quemado. Hay que bajar la temperatura de la zona. Se hace con el grifo durante diez minutos. <mark>Es como meter la mano bajo el grifo para que pare de quemarse</mark>. ¿Qué haces primero?",
       "answer": "<mark>Enfriar con agua fría</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/enfriar.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "La quemadura tiene ampollas y la persona quiere reventarlas. <mark>Es como dejar que se cure la ampolla del pie que te sale tras una caminata larga</mark>. ¿Qué haces con las ampollas?",
+      "question": "La quemadura tiene ampollas y la persona quiere pincharlas. <mark>Es como dejar que se cure la ampolla del pie que te sale tras una caminata larga</mark>. ¿Qué haces con las ampollas?",
       "answer": "<mark>No reventarlas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/ampollas.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Después de enfriar la quemadura, hay que taparla para que no se ensucie. <mark>Es como cubrir la olla con una tapa limpia</mark>. ¿Con qué la cubres?",
+      "question": "Primero se enfría la quemadura. Luego hay que taparla para que no se ensucie. <mark>Es como cubrir la olla con una tapa limpia</mark>. ¿Con qué la cubres?",
       "answer": "<mark>Con un paño limpio</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/cubrir.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "La persona se ha roto un hueso. Hay que poner algo rígido junto a la zona para que el hueso no se mueva. <mark>Es como entablillar una pierna rota con una tabla</mark>. ¿Qué haces con la zona afectada?",
+      "question": "La persona se ha roto un hueso. Hay que sujetar la zona para que el hueso no se mueva. <mark>Es como entablillar una pierna rota con una tabla</mark>. ¿Qué haces con la zona afectada?",
       "answer": "<mark>Inmovilizar con algo rígido</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/inmovilizar.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Cuando hay una fractura hay que pedir ayuda profesional de inmediato. <mark>Es como avisar al 112 cuando el accidente es grave</mark>. ¿Qué haces?",
+      "question": "Cuando hay una fractura hay que pedir ayuda profesional de inmediato. <mark>Es como avisar al número único de emergencias</mark>. ¿Qué haces?",
       "answer": "<mark>Llamar al 112</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/llamar-112.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Durante una convulsión, si sujetas a la persona puedes romperle un hueso. <mark>Es como no intentar parar a alguien que se está cayendo hacia atrás</mark>. ¿Qué debes evitar?",
+      "question": "Durante una convulsión, si la agarras puedes romperle un hueso. <mark>Es como no intentar parar a alguien que se está cayendo hacia atrás</mark>. ¿Qué debes evitar?",
       "answer": "<mark>Sujetar a la persona</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/no-sujetar.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Durante una convulsión, la persona golpea con las cosas que tiene alrededor. <mark>Es como apartar las sillas y las mesas del paso de alguien que corre</mark>. ¿Qué haces alrededor de la persona?",
+      "question": "Durante una convulsión, la persona golpea con las cosas que tiene alrededor. <mark>Es como apartar las sillas y las mesas del paso de alguien que corre</mark>. ¿Qué haces alrededor de ella?",
       "answer": "<mark>Quitar objetos peligrosos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/objetos-peligrosos.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Cuando la convulsión termina, la persona puede quedarse sin aire si la dejas boca arriba. <mark>Es como dejarla de lado, como se duerme, para que respire bien</mark>. ¿Qué haces al terminar?",
+      "question": "Cuando la convulsión termina, la persona puede quedarse sin aire. Si la dejas boca arriba, no respira bien. <mark>Es como dormir de costado, para que respire bien</mark>. ¿Qué haces al terminar?",
       "answer": "<mark>Colocarla de lado y esperar</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones/de-lado.jpg",

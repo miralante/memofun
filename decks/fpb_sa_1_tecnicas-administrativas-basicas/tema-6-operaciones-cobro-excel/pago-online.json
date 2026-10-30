@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Puedes comprar en una tienda sin salir de casa: eliges el producto en la web, lo pagas y te lo envían. <mark>Es como pedir por el móvil y que te lo traigan a la puerta</mark>. ¿Cómo se llama este tipo de comercio?",
+      "question": "Puedes comprar en una tienda sin salir de casa. Eliges el producto en la web y te lo envían. <mark>Es como pedir por el móvil y que te lo traigan a la puerta</mark>. ¿Cómo se llama este tipo de venta?",
       "answer": "<mark>El comercio electrónico</mark>",
       "image": {
         "title": "Online shopping",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "En el comercio electrónico se puede pagar de cuatro maneras distintas: con tarjeta, por transferencia, al recibir el pedido o a través de un intermediario. <mark>Es como las distintas formas de pagar en una tienda online</mark>. ¿Cuántas formas de pago hay en el comercio electrónico y cuáles son?",
+      "question": "Hay varias formas de pagar en una tienda online. Puedes usar el plástico que te presta el banco. O mandar el dinero de una cuenta a otra del banco. O al recibirlo en casa, o con un intermediario en medio. <mark>Es como las distintas formas de pagar en una tienda online</mark>. ¿Cuántas formas hay y cuáles son?",
       "answer": "<mark>Cuatro: tarjeta de crédito, transferencia bancaria, pago contra reembolso y pasarela de pago</mark>",
       "image": {
         "title": "Credit card payment, shopping",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "En la tienda pasas la tarjeta y tecleas el número y la clave: el banco te presta el dinero y tú lo devuelves luego. <mark>Es como comprar ahora y pagar después con el banco de por medio</mark>. ¿Con qué se puede pagar en el comercio electrónico?",
+      "question": "Pasas el plástico y tecleas el número y la clave. El banco te presta el dinero y tú lo devuelves luego. <mark>Es como comprar ahora y pagar después con el banco de por medio</mark>. ¿Con qué se puede pagar en la tienda online?",
       "answer": "<mark>La tarjeta de crédito</mark>",
       "image": {
         "title": "Customer service",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "El pedido llega a casa y pagas al transportista, que te da el recibo. <mark>Es como pagar al repartidor cuando te abre la puerta</mark>. ¿Cómo se llama este pago en el comercio electrónico?",
+      "question": "El pedido llega a casa y pagas al transportista. El repartidor te da un recibo al entregarlo. <mark>Es como pagar al repartidor cuando te abre la puerta</mark>. ¿Cómo se llama esta forma de pagar?",
       "answer": "<mark>El pago contra reembolso</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/pago-online/contra-reembolso.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Cuando pagas en una tienda online, un intermediario conecta tu banco con la tienda y te devuelve la respuesta. <mark>Es como un puente que lleva tu dinero del banco a la tienda</mark>. ¿Cómo se llama ese intermediario?",
+      "question": "Cuando pagas en una tienda online, un intermediario se interpone. Conecta tu banco con la tienda y te responde. <mark>Es como un puente que lleva tu dinero del banco a la tienda</mark>. ¿Cómo se llama ese intermediario?",
       "answer": "<mark>La pasarela de pago</mark>",
       "image": {
         "title": "Person using a credit card to make an online purchase on a laptop at home.jpg",

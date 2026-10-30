@@ -561,7 +561,7 @@ checks += 1;
         if (docImages) {
           warnings.push('decks/' + entry.file + ': ' + docImages + ' card(s) con la imagen sacada de un ' +
             'documento (PDF/TIF/DJVU) — la miniatura es la portada, no la imagen; hay que sustituirla por ' +
-            'una foto que muestre la pista (guia-crear-elementos.md §2.5)');
+            'una foto que muestre la pista (guia-crear-elementos.md §2.6)');
         }
         if (missingAlt) {
           warnings.push('decks/' + entry.file + ': ' + missingAlt + ' card(s) con el alt sin redactar — ' +

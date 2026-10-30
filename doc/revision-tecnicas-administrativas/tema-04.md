@@ -245,3 +245,49 @@ transportadora en una instalación industrial» era una cinta transportadora
 antigua y «Un centro postal con cajas listas para devolver un envío» era una
 oficina de correos automatizada. 24 imágenes huérfanas quedaron en
 `audit-out/huerfanos-tema4/`.
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 4 lleva un **ancla**: una palabra en el anverso
+que devuelve el término de la respuesta (raíz o sinónimo), sin escribir
+el término exacto. En las tarjetas de listas, el anverso **parafrasea**
+cada elemento. La regla está en `doc/es/guia-crear-elementos.md` §2.3.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| 1. El servicio de Correos | Una empresa pública / Enlace entre ciudadanos, administraciones públicas y empresas | «Es del Estado» / «el puente que une tres mundos» |
+| 1. Las seis líneas | Básica, urgente, paquetería, económica, servicios telegráficos y gestión de buzón | «lo de siempre» / «cuando corre prisa» / «los paquetes» / «lo barato» / «la distancia» / «el buzón» |
+| 1. Línea básica | Carta, tarjeta postal y notificación administrativa | «uno para escribir» / «mandar una postal» / «avisar de un trámite oficial» |
+| 1. Línea urgente | Postal exprés y valija | «el envío más rápido» / «la bolsa de lona» |
+| 1. Paquetería | Producto azul y paquete de 48 o 72 horas / Hasta 20 kg | «un paquete de color» / «otro con dos plazos» |
+| 1. Línea económica | Publicorreo, publibuzón, creamailing, libros y publicaciones periódicas | «propaganda» / «correo para el buzón» / «cartas personalizadas» / «libros» / «revistas» |
+| 1. Servicios telegráficos | Fax, burofax y telegrama | «por cable o por teléfono» / «el papel que llega lo confirma» |
+| 1. Servicios telegráficos | El telegrama | «un mensaje muy corto que viaja por el cable» |
+| 1. Gestión de buzón | En el casillero del apartado postal, a disposición del titular | «una caja con tu nombre» / «tú vas a recogerla» |
+| 2. Modalidades de envío | El certificado | «quien recibe tiene que firmar» |
+| 2. Modalidades de envío | Datos del remitente y del destinatario, producto, servicios extra y firma | «quién manda, quién recibe, el tipo de envío y la rúbrica» |
+| 2. Modalidades de envío | Un distintivo con la palabra URGENTE | «una palabra que avisa de la prisa» |
+| 2. Modalidades de envío | Lo paga el destinatario, en la oficina de Correos | «el que recibe es quien abona el importe» / «en el mostrador» |
+| 2. Modalidades de envío | El aviso de recibo | «esa nota vuelve después al remitente» |
+| 2. Modalidades de envío | El correo digital | «por internet» |
+| 3.1 Embalaje | Resistir el peso del producto / Tener calidad en el material / Estar armonizado en forma y tamaño con el producto | «que no se rompa con lo que lleva dentro» / «que sea de confianza» / «que case con lo que lleva» |
+| 3.2 Normalización | Para adoptar sistemas de mecanización y manipular la correspondencia automáticamente | «las máquinas pueden trabajar los envíos sin que nadie los toque» |
+| 3.2 Normalización | Rectangular, americano, DIN-A5 o acolchado / Blanco o de colores claros, nunca azul | «el normal, el de solapa corta, el DIN-A5 y el de protección» / «el color debe ser suave» |
+| 3.2 Normalización | Que se entienda y se lea fácilmente | «tiene que ser clara y verse bien a la primera» |
+| 3.2 Normalización | Las cuatro líneas de la dirección postal | «el lugar más grande» / «el código con el pueblo» / «la calle con el número» / «el nombre» |
+| 3.2 Normalización | En la esquina superior izquierda | «en un rincón del sobre… arriba a la izquierda» |
+| 4. Mensajería externa | Empresas privadas de envío rápido y personalizado, alternativa a Correos | «a tu medida» / «compiten con el servicio postal» |
+| 4. Mensajería externa | De dos: contacting con la empresa o llevando el envío a ella | «llamas a la empresa» / «vas tú a dejarle el paquete» |
+| 4. Mensajería externa | Depósito y recogida en oficina | «deja el paquete en el mostrador» / «lo recoge en el punto de su ciudad» |
+| 4. Mensajería externa | Con una llamada de teléfono al remitente | «le llaman enseguida» |
+| 4. Mensajería externa | En el mismo día | «salida y llegada en una sola jornada» |
+| 4. Mensajería externa | Los empleados de la mensajería, que se desplazan al domicilio | «los propios trabajadores de la empresa» / «van a casa del cliente» |
+| 4. Mensajería externa | Por medios aéreos y terrestres | «por el aire o por tierra» |
+| 4. Mensajería externa | La entrega al día siguiente | «se lleva hoy y llega mañana» |
+| 4. Mensajería externa | Un mensajero en exclusiva, por el tiempo y el horario pactados | «un repartidor fijo» / «solo trabaja el rato que pactéis» |
+| 4. Mensajería externa | Para devolver documentos a los remitentes de forma inmediata | «que vuelva al punto de partida» |
+| 4. Mensajería externa | De manipular y preparar los envíos para su expedición | «deja las cajas listas para salir» |
+| 4. Mensajería externa | Entre sucursales de una misma entidad | «las bolsas de correo de una oficina a otra» |
+| 4. Mensajería externa | La entrega a la hora acordada | «concertas una cita» / «en el momento que has pactado» |

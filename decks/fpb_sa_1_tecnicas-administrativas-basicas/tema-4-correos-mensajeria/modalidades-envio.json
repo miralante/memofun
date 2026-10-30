@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "En el envío certificado, quien recibe tiene que firmar. La tarifa es más alta que la de un envío ordinario y, si el envío se pierde, el remitente recibe una indemnización fijada por Correos. <mark>Es como mandar un papel importante y que te firmen al recibirlo</mark>. ¿Qué servicio de Correos garantiza la recepción mediante firma y da indemnización si el envío se pierde?",
+      "question": "En este envío, quien recibe tiene que firmar. La tarifa es más alta que la de un envío ordinario. Si el envío se pierde, el remitente recibe una indemnización de Correos. <mark>Es como mandar un papel importante y que te firmen al recibirlo</mark>. ¿Qué servicio de Correos garantiza la recepción mediante firma y da indemnización si el envío se pierde?",
       "answer": "<mark>El certificado</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/certificado.jpg",
@@ -16,8 +16,8 @@
       }
     },
     {
-      "question": "Para enviar un certificado hay que rellenar un impreso autocalle. Una copia se queda el remitente como justificante y la otra se adjunta al envío. <mark>Es como un parte que rellenas en la ventanilla antes de que te lo envíen</mark>. ¿Qué cinco apartados tiene el impreso del certificado?",
-      "answer": "<mark>Datos del remitente, del destinatario, tipo de producto, servicios adicionales y firma del cliente</mark>",
+      "question": "Para enviar un certificado hay que rellenar un impreso autocalle. Pide quién manda, quién recibe, el tipo de envío y la rúbrica. Una copia se queda el que manda y la otra se adjunta. <mark>Es como un parte que rellenas en la ventanilla antes de que te lo envíen</mark>. ¿Qué cinco apartados tiene el impreso del certificado?",
+      "answer": "<mark>Datos del remitente y del destinatario, producto, servicios extra y firma</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/partes-certificado.jpg",
         "title": "Legal Contract & Signature - Cool Tones",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "El correo urgente garantiza la rapidez de la llegada: el reparto se hace en días y horas en los que el correo ordinario no reparte. Además, al envío se le pega un distintivo con una palabra. <mark>Es como el paquete que te llega con la palabra EXPRESS pegada encima</mark>. ¿Qué distintivo lleva pegado el envío por correo urgente?",
+      "question": "Este servicio garantiza la rapidez de la llegada. Reparte en días y horas en que el correo ordinario no reparte. Se pega una etiqueta con una palabra que avisa de la prisa. <mark>Es como el paquete que te llega con la palabra EXPRESS pegada encima</mark>. ¿Qué lleva pegado el envío de este servicio?",
       "answer": "<mark>Un distintivo con la palabra URGENTE</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/correo-urgente.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Cualquier envío puede enviarse a reembolso. El destinatario paga entonces en la oficina de Correos la cantidad de dinero que indica la documentación que acompaña al envío, y por eso se usa tanto en las ventas por correo. <mark>Es como una etiqueta que dice lo que tienes que pagar al recoger el paquete</mark>. ¿En el envío con reembolso, quién paga el importe y dónde lo paga?",
+      "question": "Con este servicio, el que recibe es quien abona el importe. Lo hace al recogerlo, en el mostrador de la empresa. La cantidad la dice la documentación que acompaña al envío. <mark>Es como una etiqueta que dice lo que tienes que pagar al recoger el paquete</mark>. ¿En el envío con reembolso, quién paga el importe y dónde lo paga?",
       "answer": "<mark>Lo paga el destinatario, en la oficina de Correos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/reembolso.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Con el aviso de recibo, quien recibe tiene que firmar y poner la fecha y la hora de llegada. Esa nota se devuelve después al remitente para que la confirme. <mark>Es como firmar al recoger un paquete y que el papel te vuelva al emisor</mark>. ¿Qué servicio de Correos devuelve al remitente una nota con la firma, la fecha y la hora de la entrega?",
+      "question": "Quien recibe firma y pone la fecha y la hora de llegada. Esa nota vuelve después al remitente para que la confirme. <mark>Es como firmar al recoger un paquete y que el papel te vuelva al emisor</mark>. ¿Qué servicio de Correos devuelve al remitente una nota con la firma, la fecha y la hora de la entrega?",
       "answer": "<mark>El aviso de recibo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/aviso-recibo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "El correo digital traslada por internet las cartas, las tarjetas postales y los envíos publicitarios. <mark>Es como un email, pero con el sello de Correos</mark>. ¿Qué servicio de Correos envía por internet cartas, tarjetas postales y publicidad?",
+      "question": "Lleva por internet las cartas, las tarjetas postales y la publicidad. <mark>Es como un email, pero con el sello de Correos</mark>. ¿Qué servicio de Correos envía por internet cartas, tarjetas postales y publicidad?",
       "answer": "<mark>El correo digital</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio/correo-digital.jpg",

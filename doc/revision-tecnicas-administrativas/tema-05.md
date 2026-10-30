@@ -213,3 +213,63 @@ La revisión anterior del tema ya había hecho dos cosas que se conservan:
   sobre la cultura Hopewell para el aparato multifunción, un hombre con dolor de
   espalda para las sillas ergonómicas y un grupo de programadores para la tarjeta
   «equipo o material de oficina»).
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 5 lleva un **ancla**: una palabra en el anverso
+que devuelve el término de la respuesta (raíz o sinónimo), sin escribir
+el término exacto. En las tarjetas de listas, el anverso **parafrasea**
+cada elemento. La regla está en `doc/es/guia-crear-elementos.md` §2.3.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| 1. Material de oficina | El material de oficina | «los artículos del día a día» / «el despacho» |
+| 1. Material fungible | Material fungible | «artículos que se consumen» / «se consumen» |
+| 1. Material no fungible | Material no fungible | «artículos que no se gastan» / «gastan» |
+| 1. Material fungible | Se consume con el uso. Se gasta, deteriora o desaparece con el tiempo | «se consumen al usarlos» / «se gastan» / «se estropean» / «se pierden» / «con los días» |
+| 1. Material no fungible | No se consume con el uso. Dura muchos años, aunque se desgaste | «no se gasta» / «al usarlo» / «después de muchas semanas» / «se desgasta» / «puede durar» |
+| 2. Equipos de oficina | Equipos de oficina | «máquinas y dispositivos» / «el despacho» |
+| 2. Equipos de oficina | Bienes duraderos que ahorran trabajo y hay que mantener | «de la empresa» / «duran años» / «se ahorra esfuerzo» / «hay que revisarlas» |
+| 2.1. Ordenadores | Los ordenadores | «el software adecuado» |
+| 2.1. Impresoras | Las impresoras | «ponen en papel» / «cartuchos de tinta o de tóner» |
+| 2.1. Fotocopiadoras | Las fotocopiadoras | «hacen una copia en papel» |
+| 2.1. Escáneres | Los escáneres | «digitalizan documentos» / «un papel en un archivo» |
+| 2.1. Teléfonos | Los teléfonos | «para llamar y escribir mensajes» |
+| 2.1. Aparatos multifunción | Aparato multifunción | «una sola máquina» / «varias funciones a la vez» |
+| 2.2. Mesas | Operativas, auxiliares y de reunión | «cada puesto tiene la suya» / «de apoyo, para guardar cosas» / «donde se junta la gente» |
+| 2.2. Sillas ergonómicas | Las sillas ergonómicas | «el asiento que más se debería usar» / «evitar problemas de salud» |
+| 2.2. Armarios | Para custodian documentos | «un mueble guarda los papeles» |
+| 2.2. Tablones de anuncios | Para informar de tareas, horarios y avisos | «se enteran de los pendientes» / «lo que se está haciendo» / «los turnos» / «lo urgente» |
+| 2. Distinguir equipo y material | Un equipo de oficina | «una máquina del despacho» / «artículos que se gastan» |
+| Bloque Organización — La agenda de trabajo | Agenda | «un cuaderno donde apuntas cada cita» |
+| Bloque Archivo — Ordenar el archivo | Orden alfabético o numérico | «no es al azar» / «por apellido del autor» / «con letras o con números» |
+| Bloque Archivo — El registro de entrada y salida | Registro de entrada y salida | «un libro donde se apunta quién entra y quién sale» |
+| Bloque Administración pública — El sello y la firma | El sello y la firma | «algo escrito a mano que te identifique» / «una marca que confirme la empresa» |
+| Bloque Almacén — Control continuo | Control continuo de existencias | «alguien vigila» / «día a día» |
+| Bloque Almacén — El inventario | Inventario | «una vez al año se cuenta todo» / «un listado completo» |
+| Bloque Almacén — El inventario general | Todos los bienes (material, maquinaria, mobiliario) | «todo lo que tiene la empresa» / «lo que se consume» / «las máquinas que trabajan por ti» / «los muebles donde la gente guarda las cosas» |
+| Bloque Almacén — El pedido de reposición | Generar un pedido cuando escasea el material | «se acaba» / «se pide lo que falta» |
+| Bloque Almacén — Objetivos del aprovisionamiento | Saber necesidades, pedir a tiempo, almacenar correctamente, controlar sin desperdicio | «calcular cuánto hace falta» / «pedirlo antes» / «guardarlo bien» / «vigilar que no se desperdicie» |
+
+### Cómo se comprobó
+
+El detector oficial (`scripts/audit-deck-anchors.js`) solo exige **una** ancla
+por tarjeta, así que se escribió una comprobación más exigente: **cada palabra
+de contenido de la respuesta** tiene su ancla en el anverso, ninguna palabra de
+la respuesta aparece escrita en el anverso (no se regala la respuesta) y cada
+tarjeta tiene **un solo `<mark>`**, que envuelve la analogía. Con ese criterio
+las **27 tarjetas** quedan con ancla, una por palabra, y sin spoilers.
+
+Dos de las respuestas son definiciones literales del libro (pág. 45) y se
+mantienen tal cual: el ancla apunta a cada raíz («se gastan» / «se estropean» /
+«se pierden» / «con los días»).
+
+### Correcciones de fidelidad que salieron en el pase
+
+- La tarjeta de material no fungible decía «**grapadera**», que no existe: es
+  una **grapadora** (pág. 46).
+- La tarjeta de ordenadores había perdido los **sonidos** de la lista del
+  libro (pág. 47: «documentos, imágenes, gráficos, sonidos y bases de datos»).
+  Restituidos.

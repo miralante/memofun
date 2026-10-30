@@ -164,3 +164,40 @@ h) Facturas de ventas → Contable
 Departamentos del esquema de la pág. 20 que aún no tienen tarjeta propia:
 Jurídico Legal, Técnico y Servicio Médico (se cubren de forma transversal en
 el esquema de la página y en las preguntas de clasificar de la autoevaluación).
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 2 lleva un **ancla**: una palabra en el anverso
+que devuelve el término de la respuesta (raíz o sinónimo), sin escribir
+el término exacto. La regla está en `doc/es/guia-crear-elementos.md`
+§2.3 y la tabla siguiente deja por escrito qué palabra ancla cada
+tarjeta.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| 1. Áreas funcionales | Área funcional | «actividades y **funciones**» |
+| 1.a Área de producción | Área de producción | «esta zona **fabrica**» |
+| 1.b Área comercial | Área comercial | «atiende al cliente y **cierra la venta**» |
+| 1.c Área de finanzas | Área de finanzas | «**administra** el dinero de la empresa» |
+| 1.d Área de recursos humanos | Área de recursos humanos | «las **personas** que trabajan en la empresa» |
+| 1.e Área de dirección | Área de dirección | «esta zona **dirige**: fija los objetivos» |
+| 1. Las cinco áreas | Producción, Comercial, Finanzas, Recursos Humanos y Dirección | «estas **cinco zonas**» |
+| 1. Las cinco áreas | Finanzas | «necesita **dinero**» / «un **préstamo**» |
+| 1. Las cinco áreas | Comercial | «un cartel **publicitario**» |
+| 1. Las cinco áreas | Recursos humanos | «busca **personal**» |
+| 1. Las cinco áreas | Producción | «la empresa **fabrica** los artículos» |
+| 2. Departamentos | Departamentos | «cada **división** de la empresa» |
+| 2. Departamentos | El departamento de compras | «este departamento **compra**» |
+| 2. Departamentos | Recursos humanos | «las **personas** de la empresa» |
+| 2. Departamentos | El departamento de producción | «**fabrica** y prepara los productos» |
+| 2. Departamentos | El departamento de ventas | «se encarga de **vender**» |
+| 2. Departamentos | El departamento de almacén | «aquí se **guarda** todo» |
+| 2. Departamentos | El departamento financiero | «lleva el **dinero** de la empresa» |
+| 2. Departamentos | El departamento contable | «lleva las **cuentas**» |
+| 2. Departamentos | El departamento de administración | «**administra** el archivo y la correspondencia» |
+| 3. Organigramas | El organigrama | «un **esquema** de la estructura de la empresa» |
+| 3. Organigramas | La jerarquía: quién depende de quién | «la de arriba **manda** sobre las de abajo» |
+| 3. Organigramas | La dirección general | «de ella cuelgan **todas** las demás» |
+| 3. Organigramas | El organigrama (para qué sirve) | «miras el **esquema** de la empresa» |

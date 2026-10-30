@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Se paga al recibir la mercancía o el servicio. No hay que esperar. <mark>Es como pagar en el supermercado antes de salir</mark>. ¿Cómo se llama este tipo de pago?",
+      "question": "Se paga al recibir la mercancía o el servicio. No hay que esperar a nada. <mark>Es como pagar en el supermercado antes de salir</mark>. ¿Cómo se llama esta forma de pagar?",
       "answer": "<mark>Pago al contado</mark>",
       "image": {
         "title": "Wal-Mart checkout.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "La empresa entrega la mercancía hoy, pero el cliente paga el importe dentro de treinta días. <mark>Es como comprar ahora y dejar la deuda anotada para más tarde</mark>. ¿Cómo se llama este tipo de pago?",
+      "question": "La empresa entrega la mercancía hoy y el cliente paga luego. Es una deuda que se paga más tarde. <mark>Es como comprar ahora y dejar la deuda anotada para más tarde</mark>. ¿Cómo se llama esta forma de pagar?",
       "answer": "<mark>Pago aplazado o a crédito</mark>",
       "image": {
         "title": "Pay Day",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Al comprar una máquina, el cliente deja una cantidad a cuenta y el resto lo paga cuando la reciba. <mark>Es como dejar una seña y saldar la deuda después</mark>. ¿Qué nombre tiene este pago?",
+      "question": "Al comprar una máquina, el cliente deja una cantidad a cuenta. El resto lo paga cuando la reciba. <mark>Es como dejar una seña y saldar la deuda después</mark>. ¿Qué nombre tiene esta forma de pagar?",
       "answer": "<mark>Pago anticipado</mark>",
       "image": {
         "title": "Two Person Shaking Each Others Hands",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Para pagar se sacan billetes y monedas de la cartera: el papel moneda y la moneda metálica del país, o también de otros países. <mark>Es como soltar monedas en el mostrador</mark>. ¿Qué medio de pago es?",
+      "question": "Para pagar se sacan billetes y monedas de la cartera. Son el papel moneda y la moneda metálica del país. <mark>Es como soltar monedas en el mostrador</mark>. ¿Qué forma de pagar es esta?",
       "answer": "<mark>El pago en efectivo</mark>",
       "image": {
         "title": "Euro",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Cuando cobras, entregas a quien paga un papel que confirma que el pago está hecho. <mark>Es como una prueba en papel de que pagaste</mark>. Sirve como justificante ante cualquier duda futura. ¿Cómo se llama este documento?",
+      "question": "Cuando cobras, entregas a quien paga un papel. Ahí se confirma que el pago está hecho. Sirve como justificante ante cualquier duda. <mark>Es como una prueba en papel de que pagaste</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Recibo</mark>",
       "image": {
         "title": "Board of Works receipt",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Un papel firmado. El cliente ordena a su banco pagar a otra persona. <mark>Es como una orden firmada: 'páguese a esta persona'</mark>. ¿Cómo se llama este medio de pago?",
+      "question": "Un papel firmado que ordena a su banco pagar a otra persona. <mark>Es como una orden firmada: ‘páguese a esta persona’</mark>. ¿Qué documento firmado ordena a un banco que pague?",
       "answer": "<mark>Cheque</mark>",
       "image": {
         "title": "Check Writing",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Un cheque lleva varios datos: quién lo emite, el banco que lo paga, quién recibe el dinero, el importe, la fecha y la firma. <mark>Es como un formulario con casillas que hay que rellenar</mark>. ¿Cómo se llaman estos datos del cheque?",
+      "question": "Un papel firmado lleva dentro varios datos. Quien lo emite, el banco, el importe, el día y la firma. <mark>Es como un formulario con casillas que hay que rellenar</mark>. ¿Cómo se llaman esos datos?",
       "answer": "<mark>Partes del cheque</mark>",
       "image": {
         "title": "Project 365 #251: 080911 Cheque It Out!",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "El cliente pide al banco mover dinero a otra cuenta. <mark>Es como pedir llevar algo de una habitación a otra del hotel</mark>. ¿Cómo se llama esta operación bancaria?",
+      "question": "El cliente pide al banco mover dinero a otra cuenta. <mark>Es como pedir llevar algo de una habitación a otra del hotel</mark>. ¿Cómo se llama esta operación del banco?",
       "answer": "<mark>Transferencia bancaria</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/transferencia.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Una tarjeta del banco gasta solo el dinero que ya tienes. Se resta de la cuenta al momento. <mark>Es como pagar con billetes, pero sin llevarlos en la cartera</mark>. ¿Cómo se llama esta tarjeta?",
+      "question": "Un trocito de plástico va en la cartera. Gasta solo el dinero que ya tienes en la cuenta. <mark>Es como pagar con billetes, pero sin llevarlos en la cartera</mark>. ¿Qué es ese trocito de plástico?",
       "answer": "<mark>Tarjeta de débito</mark>",
       "image": {
         "title": "Payment terminal at self-checkout",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "El IBAN es un código de tu cuenta bancaria. Sirve en todo el mundo y empieza por el país. <mark>Es como la dirección de tu cuenta en el mundo</mark>. ¿Qué es el IBAN?",
+      "question": "El IBAN son unas siglas que empiezan por el país. Sirve para saber siempre cuál es la tuya. <mark>Es como la dirección de tu dinero en el mundo</mark>. ¿Qué es el IBAN?",
       "answer": "<mark>Un código que identifica una cuenta</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/iban.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "En una operación de compra, alguien firma un papel prometiendo pagar en una fecha futura. <mark>Es como decir: te pago esto tal día</mark>. ¿Cómo se llama este instrumento de pago?",
+      "question": "En una compra, alguien firma un papel prometiendo pagar más adelante. <mark>Es como decir: te pago esto tal día</mark>. ¿Cómo se llama este papel firmado?",
       "answer": "<mark>Pagaré</mark>",
       "image": {
         "title": "Promissory Note to student May Newell, 1814",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Cuando el pago se aplaza, alguien escribe un documento para que el banco pague a un beneficiario en una fecha futura. <mark>Es como una cadena: quien debe, el banco y quien cobra</mark>. ¿Cómo se llama este instrumento de pago a crédito?",
+      "question": "Cuando el pago se aplaza, alguien escribe un documento. El banco lo paga a un beneficiario dentro de unos días. <mark>Es como una cadena: quien debe, el banco y quien cobra</mark>. ¿Cómo se llama este instrumento de pago a crédito?",
       "answer": "<mark>Letra de cambio</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago/letra-cambio.jpg",

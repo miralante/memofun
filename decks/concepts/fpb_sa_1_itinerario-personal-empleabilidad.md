@@ -39,10 +39,10 @@ está en la fuente.
 
 Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
 
-- `tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json` (§1-§3) — 18 tarjetas
-- `tema-1-seguridad-y-salud/riesgos-condiciones-seguridad.json` (§3.1) — 16 tarjetas
+- `tema-1-seguridad-y-salud/salud-y-riesgo-laboral.json` (§1-§3) — 11 tarjetas
+- `tema-1-seguridad-y-salud/condiciones-seguridad.json` (§3.1) — 5 tarjetas
 - `tema-1-seguridad-y-salud/riesgos-ambientales.json` (§3.2) — 21 tarjetas
-- `tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json` (§3.3) — 16 tarjetas
+- `tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json` (§3.3) — 8 tarjetas
 
 Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema1/`
 (11 imágenes, organizadas como `pag5`–`pag13` y `ejercicios cuaderno 1/2`).
@@ -50,6 +50,26 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema1/`
 Cobertura: las cuatro barajas siguen las secciones numeradas de la fuente
 (1, 2, 3, 3.1, 3.2, 3.3). Las secciones 4 a 8 del temario oficial quedan
 sin baraja hasta que se amplíe el material fuente.
+
+### Revisión de anclas (octubre 2026)
+
+Las 45 tarjetas del tema 1 se repasaron contra la regla del ancla
+(`doc/es/guia-crear-elementos.md` §2.3): el anverso tiene que traer una
+palabra que devuelva el término de la respuesta, sin regalar el término.
+
+- **19 tarjetas reescritas:** 5 regalaban la respuesta (R3) y 14 no tenían
+  ancla plana. Las anclas nuevas son «evitar», «a salvo», «identificar» /
+  «cubrirte», «sonido», «temblores», «el peso de todo eso», «postura
+  incómoda» o «encorvado», entre otras.
+- **Dos marcas corregidas** porque no describían la imagen: «Peligroso para
+  el medio» (decía *un cielo gris con humo* en vez del rombo) y «Gas a
+  presión» (decía *botella de gas*, que regalaba la respuesta).
+- **Tabla de anclas** en `doc/revision-ipp/tema-01-seguridad-salud.md`.
+- **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud`
+  → 45/45 con ancla, 0 R1/R2/R3. Para que el detector entendiera este
+  tema se le añadió su vocabulario a `scripts/audit-deck-anchors.js` y se
+  corrigió el conteo de frases de pista (el punto que deja el `<mark>`
+  inicial se contaba como frase).
 
 ### Conceptos y dónde se han gastado ya
 
@@ -345,6 +365,29 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema6/`
 > duplicadas de `tema5/`, pero en realidad tiene 8 imágenes únicas
 > (`pag55`–`pag62`) que cubren las 4 subsecciones del temario oficial.
 
+### Revisión de anclas (octubre 2026)
+
+Las 23 tarjetas del tema 6 se repasaron contra la regla del ancla
+(`doc/es/guia-crear-elementos.md` §2.3).
+
+- **23 tarjetas reescritas:** 21 no tenían ancla (R4) y 12 regalaban la
+  respuesta dentro de la marca (R3); 2 de ellas además arrancaban por
+  «Es…», que se lee como pregunta cerrada.
+- **Anclas nuevas** como «los recursos a tu alcance», «un asesoramiento
+  gratuito», «exámenes oficiales», «tu propia ruta, hecha a tu medida», «los
+  informes de los estudios», «elegir con datos», «varias salidas», «un nivel
+  intermedio», «el nivel más alto», «estudios generales», «estudios
+  superiores» o «formación más corta y específica».
+- **Dato corregido:** la tarjeta de «Pruebas de acceso» aplicaba «a mayores
+  de 25 años» a los ciclos y al Bachillerato; en la fuente (pag60) la edad
+  solo se aplica al acceso a la universidad.
+- **Tabla de anclas** en `doc/revision-ipp/tema-06-itinerarios-academicos-profesionales.md`.
+- **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales`
+  → 23/23 con ancla, 0 R1/R2/R3, y sin avisos de legibilidad.
+- **Pendiente:** las 23 imágenes del tema 6 son miniaturas de PDF (portadas
+  que además nombran la respuesta). `scripts/check.js` avisa de las cuatro
+  barajas; hay que sustituirlas por fotos que ilustren la pista.
+
 ### Conceptos y dónde se han gastado ya
 
 #### §1 — solo en `que-es-itinerario-academico.json`
@@ -396,6 +439,28 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema5/`
 > **Nota de numeración:** el módulo del colegio areteia numeró internamente las
 > subsecciones de forma irregular (1, 2, 4, 5, 6, 7) en lugar del 1, 2, 3, 4, 5, 6
 > del índice oficial. Las barajas siguen la numeración canónica del índice.
+
+### Revisión de anclas (octubre 2026)
+
+Las 36 tarjetas del tema 5 se repasaron contra la regla del ancla
+(`doc/es/guia-crear-elementos.md` §2.3).
+
+- **30 tarjetas reescritas:** 11 tenían la respuesta dentro de la marca y el
+  resto no tenía ancla o arrancaba por «Es…» / «Son…», que se lee como
+  pregunta cerrada.
+- **Anclas nuevas** como «capacidades que aprendes y desarrollas», «repetir
+  cada día», «seguir aprendiendo toda la vida», «el que habla y el que
+  escucha», «ponerte en el lugar del otro», «miras a quien te habla» o «las
+  cosas que se te dan bien».
+- **Tarjeta repetida que también estaba rota:** en
+  `importancia-competencias-personales.json` dos tarjetas compartían
+  respuesta («Competencias personales y sociales»). Ahora son «Competencias
+  personales», «Competencias sociales» y «Las habilidades blandas», según las
+  definiciones de pag47. El mazo sigue con 3 tarjetas y el manifiesto no
+  cambia.
+- **Tabla de anclas** en `doc/revision-ipp/tema-05-habilidades-personales.md`.
+- **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales`
+  → 36/36 con ancla, 0 R1/R2/R3, y sin avisos de legibilidad.
 
 ### Conceptos y dónde se han gastado ya
 
@@ -456,6 +521,27 @@ Cobertura: las cuatro barajas siguen las subsecciones del temario oficial
 la segunda, las cosas que debo conocer de mí mismo; la tercera, los tipos de
 habilidades; la cuarta, el análisis DAFO y los consejos.
 
+### Revisión de anclas (octubre 2026)
+
+Las 44 tarjetas del tema 4 se repasaron contra la regla del ancla
+(`doc/es/guia-crear-elementos.md` §2.3). Aquí el problema era distinto al
+de los otros temas: casi todas las barajas son de definiciones, así que el
+`<mark>` **era** la respuesta.
+
+- **43 tarjetas reescritas:** 10 tenían la respuesta dentro de la marca (y la
+  de la matriz DAFO enumeraba las cuatro partes, con sus iniciales
+  deletreando el acrónimo) y el resto no tenía ancla o arrancaba por «Es…» /
+  «Son…», que se lee como pregunta cerrada.
+- **Pista en texto plano, analogía en la marca**: la marca queda con el «Es
+  como…» que ilustra la imagen y la definición pasa a texto plano.
+- **Anclas nuevas** como «sabes quién eres», «en qué tienes soltura», «en
+  qué debes mejorar», «llegar siempre a la hora», «el campo y los árboles»,
+  «la pantalla y el ratón», «prestar oído a lo que te dice el otro»,
+  «clavar con un martillo» o «cuatro cuadrantes».
+- **Tabla de anclas** en `doc/revision-ipp/tema-04-autoconocimiento-habilidades-personales.md`.
+- **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales`
+  → 44/44 con ancla, 0 R1/R2/R3, y sin avisos de legibilidad.
+
 ### Conceptos y dónde se han gastado ya
 
 #### §1 — solo en `que-es-el-autoconocimiento.json`
@@ -494,18 +580,41 @@ habilidades; la cuarta, el análisis DAFO y los consejos.
 
 Las barajas de este tema viven en su propia carpeta dentro de la asignatura:
 
-- `tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json` (§1) — 8 tarjetas
+- `tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json` (§1) — 10 tarjetas
 - `tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas.json` (§2) — 8 tarjetas
-- `tema-3-tecnicas-basicas-primeros-auxilios/que-hacer-en-emergencias.json` (§3) — 12 tarjetas
+- `tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias.json` (§3) — 5 tarjetas
+- `tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones.json` (§3) — 10 tarjetas
 - `tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json` (§4) — 9 tarjetas
 
 Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema3/`
 (10 imágenes, organizadas como `pag27`–`pag36`).
 
-Cobertura: las cuatro barajas siguen las subsecciones del temario oficial
+Cobertura: las cinco barajas siguen las subsecciones del temario oficial
 (1, 2, 3, 4) sin solaparse. La primera cubre el concepto general; la
 segunda, la regla PAS; la tercera, los protocolos por tipo de
 emergencia; la cuarta, el contenido del botiquín.
+
+### Revisión de anclas (octubre 2026)
+
+Las 42 tarjetas del tema 3 se repasaron contra la regla del ancla
+(`doc/es/guia-crear-elementos.md` §2.3).
+
+- **40 tarjetas reescritas:** 15 regalaban la respuesta (R3) —«112» se
+  escribía entero en el anverso— y el resto no tenía ancla o traía frases
+  de 13 a 20 palabras.
+- **Anclas nuevas** como «el número único de emergencias» (112), «tumbarla
+  para que respire bien», «un paño que no tenga suciedad», «cubrirlo con
+  una hoja nueva», «subir la zona afectada», «la caja», «el botiquín»,
+  «bombear el pecho», «tocar el latido», «las dos hojas que se cierran» o
+  «telas sin gérmenes».
+- **Nueve tarjetas** del botiquín tenían dos `<mark>`; la regla del
+  proyecto es una por tarjeta.
+- **Tabla de anclas** en `doc/revision-ipp/tema-03-tecnicas-basicas-primeros-auxilios.md`.
+- **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios`
+  → 42/42 con ancla, 0 R1/R2/R3.
+- **Pendiente:** las imágenes del tema siguen siendo miniaturas de PDF
+  (`check.js` lo avisa); hay que sustituirlas por fotos que ilustren la
+  pista (§2.6).
 
 ### Conceptos y dónde se han gastado ya
 
@@ -574,6 +683,27 @@ la asignatura y siguen las subsecciones numeradas del libro:
 
 **Total tema 2:** 7 barajas, 50 tarjetas + 1 autoevaluación. La entrada
 `selfTest` está en `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
+
+### Revisión de anclas (octubre 2026)
+
+Las 50 tarjetas del tema 2 se repasaron contra la regla del ancla
+(`doc/es/guia-crear-elementos.md` §2.3): el anverso tiene que traer una
+palabra que devuelva el término de la respuesta, sin regalar el término.
+
+- **43 tarjetas reescritas:** 12 regalaban la respuesta (R3) —«Equipos de
+  Protección Individual» se escribía entero en el anverso— y el resto no
+  tenía ancla o traía frases de más de 12 palabras.
+- **Anclas nuevas** como «cada uno con lo suyo» (EPI), «a salvo», «localizar»
+  (identificar), «juzga su gravedad» (evaluar), «tapar el peligro»
+  (control), «antes» / «después» (prevención / protección), «la cabeza»,
+  «las manos», «los pulmones», «los pies», «el ruido» (EPI), «toda la zona
+  a la vez» (colectiva), «el botiquín» (salvamento), «el segundo principio»,
+  «la máquina que lo hace» (origen) o «la familia de peligros» (los cinco
+  tipos de riesgo).
+- **Tabla de anclas** en `doc/revision-ipp/tema-02-tecnicas-prevencion-proteccion.md`.
+- **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion`
+  → 50/50 con ancla, 0 R1/R2/R3. El vocabulario de este tema se añadió al
+  mapa de sinónimos de `scripts/audit-deck-anchors.js`.
 
 ### Conceptos y dónde se han gastado ya
 

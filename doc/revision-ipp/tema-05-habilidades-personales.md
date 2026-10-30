@@ -224,3 +224,93 @@ competencias:
 - **Ejercicio 3** — Une cada palabra (autoconcepto, autoestima, autopercepción) con su definición (pag54).
 - **Ejercicio 4** — Clasifica 5 ejemplos en Cualidad / Área de mejora / Interés / Valor (pag54).
 - **Ejercicio 5** — Completa DAFO e identifica si cada elemento es Interno o Externo (pag54).
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 5 lleva un **ancla**: una palabra del anverso que
+devuelve el término de la respuesta (por su raíz o por un sinónimo cercano),
+sin escribir el término exacto. La regla está en
+`doc/es/guia-crear-elementos.md` §2.3 y la tabla siguiente deja por escrito
+qué palabra ancla cada tarjeta, para que un repaso posterior no tenga que
+volver a descubrirlas.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| §1 Competencias | Competencias personales | «las habilidades y características que son solo tuyas» / «tu ficha personal» |
+| §1 Competencias | Competencias sociales | «las habilidades para interactuar y colaborar con los demás» / «el saber estar con la gente» |
+| §1 Competencias | Las habilidades blandas | «las que no son técnicas» / «hacen que la empresa funcione mejor» |
+| §2 Mejorar | Habilidades que se pueden mejorar | «capacidades que aprendes y desarrollas» |
+| §2 Mejorar | Práctica diaria | «repetir cada día hasta que te sale bien» |
+| §2 Mejorar | Esfuerzo y constancia | «entrenar todos los días aunque estés cansado» |
+| §2 Mejorar | Formación continua | «seguir aprendiendo toda la vida» |
+| §3 Gestión emocional | Gestión emocional | «reconocer y regular tus emociones» / «poner orden en lo que sientes» |
+| §3 Gestión emocional | Inteligencia emocional | «reconocer, entender y regular lo que sientes» / «saber qué pasa dentro de ti» |
+| §3 Gestión emocional | Reconocer emociones | «saber qué sientes» / «alegría, tristeza, enfado o miedo» |
+| §3 Gestión emocional | Regular emociones | «que no te dominen cuando se desbordan» / «buscar cómo calmarte» |
+| §3 Gestión emocional | Expresar emociones | «decirlo con claridad y respeto» / «contar a alguien cómo estás» |
+| §3 Gestión emocional | Empatía | «ponerte en el lugar del otro» |
+| §3 Gestión emocional | Motivación | «el impulso que te mueve» / «seguir pese a las dificultades» |
+| §3 Gestión emocional | Autoconciencia | «reconocer qué sientes en cada momento» / «sin engañarte» |
+| §3 Asertividad | Asertividad | «decir lo que piensas» / «con calma, sin agredir» |
+| §3 Asertividad | Conducta pasiva | «El Ratón» / «no dice lo que piensa por miedo» / «siempre dice que sí» |
+| §3 Asertividad | Conducta agresiva | «El León» / «grita, manda y no escucha» |
+| §3 Asertividad | Conducta asertiva | «La Persona» / «habla tranquilo y respeta» / «con educación» |
+| §3 Asertividad | Decir no respetuosamente | «negarte a algo sin ceder tus derechos» / «evitas tensiones» |
+| §4 Comunicación | Comunicación | «enviar y recibir mensajes» |
+| §4 Comunicación | Emisor y receptor | «el que habla y el que escucha» |
+| §4 Comunicación | Mensaje | «lo que uno manda al otro al hablar» / «lo que le dices a tu compañero» |
+| §4 Comunicación | Convivencia | «se relacionan con el grupo» |
+| §4 Comunicación | Comunicación eficaz | «que se te entienda» / «cuando nadie te entiende y hay que repetirlo» |
+| §5 Escucha activa | Escucha activa | «prestas atención a todos los detalles» / «el esfuerzo de entender» |
+| §5 Escucha activa | Prestar atención | «miras a quien te habla» / «no haces otra cosa mientras habla» |
+| §5 Escucha activa | Esperar turno | «espera a que acabe de hablar» |
+| §5 Escucha activa | Concentrarse en el mensaje | «no pienses en lo que vas a decir» / «toda la atención a lo que te dicen» |
+| §6 Entrevista | Entrevista de trabajo | «un proceso para entrar a un trabajo» / «hay que prepararlo bien» |
+| §6 Entrevista | 3 habilidades | «las cosas que se te dan bien» / «prepara ejemplos reales» |
+| §6 Entrevista | Técnica STAR | «cuatro partes: Situación, Tarea, Acción y Resultado» |
+| §6 Entrevista | S — Situación | «explica el contexto» / «dónde estabas» |
+| §6 Entrevista | Organización | «siempre apunto mis tareas y cumplo los plazos» |
+| §6 Entrevista | Adaptabilidad | «me adapto bien a los cambios» / «me ajusté sin problema» |
+| §6 Entrevista | Trabajo en equipo | «me gusta ayudar a mis compañeros» / «cuando lo necesitan» |
+
+### Qué se reescribió (30 tarjetas)
+
+- **La marca era la respuesta (R3, 11 tarjetas):** «Práctica diaria»,
+  «Esfuerzo y constancia», «Formación continua», «Emisor y receptor»,
+  «Mensaje», «Competencias personales y sociales» (dos veces), «Regular
+  emociones», «Conducta pasiva», «Conducta agresiva», «Conducta asertiva»,
+  «Decir no respetuosamente», «3 habilidades» y «S — Situación». Ahora la
+  pista va en texto plano y la marca queda con la analogía o con el ejemplo.
+- **Sin ancla (R4):** las 36 tarjetas estaban marcadas, porque el auditor no
+  conocía el vocabulario de este tema. Se le añadió al mapa de sinónimos
+  (competencias, gestión emocional, asertividad, comunicación, escucha
+  activa, entrevista).
+- **Legibilidad (R3 del auditor de lectura):** 7 tarjetas empezaban por
+  «Es…» o «Son…», que se lee como pregunta cerrada. Ahora empiezan por
+  «Las…», «El…», «La…», «Un…» o «Negarte a algo…».
+
+### Una tarjeta repetida que también estaba rota
+
+`importancia-competencias-personales.json` tenía **dos tarjetas con la
+misma respuesta** («Competencias personales y sociales»), lo que la guía
+prohíbe dentro de un mismo mazo. Se han separado siguiendo las definiciones
+de la fuente (pag47):
+
+- **Competencias personales** → «las habilidades y características
+  individuales».
+- **Competencias sociales** → «las habilidades necesarias para interactuar
+  y colaborar con otros».
+- **Las habilidades blandas** → el nombre con el que las valoran las
+  empresas.
+
+El mazo sigue teniendo 3 tarjetas, así que el manifiesto no cambia.
+
+### El auditor de anclas
+
+`node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales`
+daba **32 de 36 tarjetas «sin ancla» (R4)** y 12 con R3 antes de este
+trabajo. Resultado actual: **36/36 con ancla, 0 R1, 0 R2, 0 R3**, y
+`node scripts/audit-deck-readability.js` **sin avisos en este tema**.
+

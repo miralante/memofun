@@ -56,7 +56,49 @@ producto (ver [`SPEC.md`](SPEC.md) §1). Una tarjeta que incumple
 esta regla se rechaza en revisión, por muy correcto que sea su
 reverso.
 
-### 2.3 Repetición con variación
+### 2.3 El ancla: la palabra que devuelve el término
+
+Una pista sirve solo si quien estudia puede **volver al término** desde
+ella. Para eso el anverso tiene que traer un **ancla**: una palabra que
+apunte al término de la respuesta por su raíz o por un sinónimo
+cercano.
+
+| Respuesta | Ancla en el anverso | Cómo funciona |
+| --- | --- | --- |
+| Organización funcional | «se organiza por **funciones**» | misma raíz |
+| Organización mixta | «es una **mezcla** de la jerárquica y la funcional» | sinónimo |
+| Planificación | «la empresa hace un **plan**» | misma raíz |
+| Sector terciario | «**el tercero** de los tres» | orden |
+| Microempresa | «**tamaño diminuto**» | prefijo |
+
+Reglas del ancla:
+
+- **Es una pista, no la respuesta.** El ancla puede ser la raíz o un
+  sinónimo, pero **nunca el término exacto**: si el anverso dice
+  «mixta», la tarjeta ya no tiene nada que preguntar. Y al revés, si el
+  anverso dice «job» para «empleo», la persona tiene que traducar.
+- **El ancla va en el anverso, no solo en la analogía de `<mark>`.** La
+  analogía es una pista visual; el ancla es la palabra que devuelve el
+  término.
+- **El verbo vale como ancla del sustantivo.** «la empresa **organiza**
+  el trabajo» ancla «Organización»; «el jefe **dirige** al equipo»
+  ancla «Dirección». Es la misma palabra que la persona usaría después
+  al hablar del tema.
+- **Una respuesta de dos partes necesita un ancla por parte.**
+  «Elementos materiales y humanos» se ancla con «medios» (materiales)
+  y «personas» (humanos); «Dirigir, controlar y supervisar», con «pone
+  el rumbo», «vigila» y «revisa».
+- **En una tarjeta de clasificación, el ancla es la posición o el
+  criterio**: «el primero de los tres», «va por la mitad», «su tamaño
+  es enorme».
+
+Cómo se comprueba: `node scripts/audit-deck-anchors.js decks/<curso>`
+marca las tarjetas sin ancla (regla R4) y las que regalan la respuesta
+(regla R3). El detector es solo un punto de partida — su mapa de
+sinónimos cubre el vocabulario del curso que se está revisando y hay
+que confirmar cada caso a mano.
+
+### 2.4 Repetición con variación
 
 Un concepto clave puede — y debe — reaparecer en más de una tarjeta
 y más de una baraja para el mismo tema/curso. A veces de forma
@@ -66,7 +108,7 @@ revisión no descarta una tarjeta solo por parecerse a otra;
 descarta una tarjeta que se repite sin aportar ningún matiz,
 ejemplo o contexto nuevo.
 
-### 2.4 Convenciones de curso y nivel
+### 2.5 Convenciones de curso y nivel
 
 Las barajas viven en
 `tools/study/<locale>/<curso>/<nivel>/<tema>.json`. Añadir un curso
@@ -75,7 +117,7 @@ sigue el patrón de carpetas existente; consulta
 [`actividades.md`](actividades.md) §2 para los cursos que se
 distribuyen ahora.
 
-### 2.5 La imagen de la tarjeta muestra la pista, no el concepto
+### 2.6 La imagen de la tarjeta muestra la pista, no el concepto
 
 Cuando una tarjeta lleva imagen, la imagen **ilustra la pista** —la
 analogía o el ejemplo que va marcado en el anverso—, no el concepto
@@ -122,6 +164,9 @@ con un chat de IA suelto, en
       recitar.
 - [ ] Cada reverso es **una frase** en vocabulario de lectura
       fácil.
+- [ ] Cada anverso trae un **ancla**: una palabra que devuelve el
+      término de la respuesta (raíz o sinónimo), sin escribir el
+      término exacto (§2.3).
 - [ ] La repetición, cuando aparece, añade un matiz o ejemplo
       nuevo.
 - [ ] El número de tarjetas es realista para una sesión (objetivo

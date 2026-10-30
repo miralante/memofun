@@ -232,3 +232,62 @@ mensajería instantánea.
   ha repartido: agenda, archivo, registro y sello a la baraja
   `tema-5-material-oficina/archivo-registro-oficina.json`; la nota de pedido a
   la baraja de documentos comerciales del tema 6.
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 3 lleva un **ancla**: una palabra en el anverso
+que devuelve el término de la respuesta (raíz o sinónimo), sin escribir
+el término exacto. En las tarjetas de listas, el anverso **parafrasea**
+cada elemento para que el estudiante tenga que devolverle el nombre
+técnico. La regla está en `doc/es/guia-crear-elementos.md` §2.3.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| 1. Comunicaciones escritas | Las comunicaciones escritas | «se hacen por escrito» |
+| 1. Comunicaciones escritas | Comunicación escrita externa | «sale de la empresa» / «gente de fuera» |
+| 1. Comunicaciones escritas | De la empresa a la propia empresa | «están dentro» / «la misma empresa» |
+| 1. Comunicaciones escritas | La carta comercial | «dirigido a sus clientes o a sus proveedores» |
+| Ejercicio 5 | Carta comercial, factura, albarán, pedido, presupuesto y nómina | «pedir, cobrar, entregar o pagar» / «cuánto se va a gastar» |
+| 2. Comunicación interna | La comunicación interna | «dentro de la organización» |
+| 2.1 Clasificación por flujo | Comunicación vertical | «sube o baja por la empresa» |
+| 2.1 Clasificación por flujo | Comunicación descendente | «la información **baja** de la dirección» |
+| 2.1 Clasificación por flujo | Comunicación ascendente | «la información **sube** de los empleados» |
+| 2.1 Clasificación por flujo | Comunicación horizontal | «en la misma línea» |
+| 2.1 Clasificación por flujo | Comunicación diagonal | «**cruza** los niveles» |
+| 2.1 Clasificación por naturaleza | Comunicación formal | «las vías **oficiales** de la empresa» |
+| 2.1 Clasificación por naturaleza | Comunicación informal | «nadie lo anota de forma oficial» |
+| 2.1 Clasificación por medio | Comunicación oral | «se transmite con la voz» |
+| 2.1 Clasificación por medio | Comunicación escrita | «se transmite con lo escrito» |
+| 2.1 Clasificación por medio | Comunicación no verbal | «no usa palabras» |
+| 3.1 Documentación | Memorando (nota interior) | «una nota corta entre departamentos» |
+| 3.1 Documentación | Cabecera, De/A, cuerpo y pie | «arriba» / «lo que pide» / «abajo» |
+| 3.1 Documentación | Aviso | «el que **avisa** de una revisión médica» |
+| 3.2 Empresas públicas | Circular interna | «el documento que **recorre** toda la empresa» |
+| 3.2 Empresas públicas | Membrete, número, asunto, fecha y firma | «el papel de la entidad» / «un código» / «el tema» / «el día» / «quien la pone» |
+| 3.2 Empresas públicas | Oficio interno | «un documento **oficial** que no sale de la empresa» |
+| 3.2 Empresas públicas | Membrete, sello, asunto, fecha y recibo | «el papel de la entidad» / «el sello del registro» / «el tema» / «el día» / «el resguardo» |
+| Medios de la pág. 29 | El manual del empleado | «un libro con el reglamento interno» |
+| Medios de la pág. 29 | Newsletter | «una revista que trae noticias» |
+| Medios de la pág. 29 | Correo electrónico | «viaja por internet, sin papel» |
+| Medios de la pág. 29 | Reuniones | «la gente se **junta**» |
+| Medios de la pág. 29 | Intranet | «una **red interna**: solo entra quien es de la casa» |
+| Medios de la pág. 29 | Sistema de sugerencias y quejas | «lo que se les ocurre» / «lo que les molesta» |
+| Medios de la pág. 29 | Encuestas | «pregunta qué **opinan**» |
+| Medios de la pág. 29 | Tablón de anuncios | «un cartel grande en la oficina» |
+| Medios de la pág. 29 | Las redes sociales | «Facebook, Twitter o Instagram» |
+| Medios de la pág. 29 | Mensajería instantánea | «escribir mensajes **al momento**» |
+| 2.2 Tipos de información | Para presentar quejas y proponer ideas | «lo que molesta» / «lo que se le ocurre» |
+| 2.2 Tipos de información | Buzón de sugerencias, encuestas, entrevistas, informes, reuniones y quejas | «una caja para recados» / «una lista de preguntas» / «una charla a solas» / «un escrito con datos» |
+| 2.2 Tipos de información | Comunicación lenta, retrasos, necesidad de respuesta rápida e inseguridad en la recepción | «va despacio: tarda y se retrasa» |
+| 2.2 Tipos de información | Para informar sobre funciones, resultados, actividades y objetivos | «qué hace cada uno» / «cómo va la empresa» / «a dónde se va» |
+| 2.2 Tipos de información | Órdenes, programación de tareas, reuniones, recomendaciones e instrucciones | «dando indicaciones» / «mandando un trabajo a cada uno» / «lanzando un consejo» |
+| 2.2 Tipos de información | Exceso de información, no aceptar el mensaje, órdenes contradictorias, inseguridad, transmisión lenta | «manda demasiada información» / «nadie hace caso» / «se contradicen» |
+| 2.2 Tipos de información | Para coordinar a los trabajadores y los grupos de trabajo | «que las partes se **pongan de acuerdo**» |
+| 2.2 Tipos de información | Informes, comunicados interiores y reuniones | «un papel con los datos de lo hecho» / «un escrito para todos» |
+| 2.2 Tipos de información | Carácter informal y rivalidad entre miembros de diferentes departamentos | «una charla entre iguales, sin papeles» / «hay roces entre unos departamentos y otros» |
+
+Dos tarjetas dejan una palabra de la respuesta en el anverso a
+propósito, porque son objetos concretos que no se pueden parafrasear sin
+volverlos oscuros: «nota» (memorando) y «sello» (oficio interno).

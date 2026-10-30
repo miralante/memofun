@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Al abrir Excel aparece una ventana con las barras de arriba, la rejilla en el centro y la barra de abajo. <mark>Es como el cuadro de mandos de un coche</mark>. ¿Cómo se llama esa pantalla?",
+      "question": "Al abrir Excel aparece una ventana. Tiene las barras arriba, la rejilla en medio y otra barra abajo. <mark>Es como el cuadro de mandos de un coche</mark>. ¿Cómo se llama esa ventana?",
       "answer": "<mark>La pantalla inicial</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/excel-pantalla.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "La pantalla de Excel tiene muchas barras. Una muestra el nombre del archivo y la aplicación. <mark>Es como el salpicadero de un coche: cada cosa tiene su sitio</mark>. ¿Cómo se llama esa barra?",
+      "question": "La ventana de Excel tiene muchas franjas. La de arriba muestra el nombre del archivo y la aplicación. <mark>Es como el salpicadero de un coche: cada cosa tiene su sitio</mark>. ¿Cómo se llama esa franja?",
       "answer": "<mark>Barra de título</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-titulo.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "A la izquierda de la barra de título hay botones. Sirven para guardar o deshacer, por ejemplo. <mark>Es como los botones de acceso rápido de un mando a distancia</mark>. ¿Cómo se llama esa barra de botones?",
+      "question": "A la izquierda, arriba, hay unos botones pequeños. Sirven para guardar o deshacer, por ejemplo. Son atajos: un toque y listo. <mark>Es como los botones de un mando a distancia</mark>. ¿Cómo se llama esa fila de botones?",
       "answer": "<mark>Barra de herramientas de acceso rápido</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/acceso-rapido.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Debajo del título están las pestañas Inicio, Insertar, Diseño… y cada una abre sus herramientas. <mark>Es como las pestañas de un archivador</mark>. ¿Qué nombre tienen esas pestañas?",
+      "question": "Debajo del título están las pestañas Inicio, Insertar y Diseño. Cada una abre sus propias herramientas. <mark>Es como las pestañas de un archivador</mark>. ¿Qué nombre tienen esas pestañas?",
       "answer": "<mark>La barra de menús</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-menus.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "La cinta grande que se despliega bajo las pestañas muestra los botones de la pestaña elegida: copiar, pegar, formato… <mark>Es como el cajón de herramientas que abres cuando necesitas una</mark>. ¿Cómo se llama esa cinta?",
+      "question": "La cinta grande se despliega bajo las pestañas. Muestra los botones de la pestaña elegida: copiar, pegar, formato… <mark>Es como el cajón de herramientas que abres cuando necesitas una</mark>. ¿Cómo se llama esa cinta?",
       "answer": "<mark>La banda de opciones</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/banda-opciones.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "En Excel, la barra donde se escribe una fórmula. Muestra lo que hay en la celda. <mark>Es como la barra de direcciones de un navegador</mark>. ¿Cómo se llama esta barra de Excel?",
+      "question": "En Excel, arriba hay una franja donde se escriben las cuentas. Muestra lo que hay en la celda. <mark>Es como la casilla de arriba del navegador donde escribes la dirección</mark>. ¿Cómo se llama esa franja?",
       "answer": "<mark>Barra de fórmulas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/banda-formulas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Abajo a la izquierda aparecen las hojas del libro: Hoja1, Hoja2… y puedes saltar de una a otra. <mark>Es como las pestañas de un archivador de carpetas</mark>. ¿Cómo se llama esa barra?",
+      "question": "Abajo a la izquierda aparecen las hojas del libro. Hoja1, Hoja2… y puedes saltar de una a otra. <mark>Es como las pestañas de un archivador de carpetas</mark>. ¿Cómo se llama esa fila?",
       "answer": "<mark>La barra de etiquetas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-etiquetas.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "La barra de estado muestra datos del documento. Por ejemplo, si está guardado, el zoom y la vista. <mark>Es como la barra inferior del navegador que dice 'Listo' o 'Cargando'</mark>. ¿Para qué sirve la barra de estado?",
+      "question": "Abajo a la derecha, una franja indica información del archivo abierto. Por ejemplo, si está guardado, el zoom y la vista. <mark>Es como la franja inferior del navegador que dice ‘Listo’ o ‘Cargando’</mark>. ¿Para qué sirve esa franja?",
       "answer": "<mark>Mostrar datos del documento</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barra-estado.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Al lado del zoom hay tres botones que cambian cómo se ve la hoja: normal, diseño de página y saltos de página. <mark>Es como los distintos puntos de vista de un mapa</mark>. ¿Cómo se llama ese grupo de botones?",
+      "question": "Al lado del zoom, tres botones cambian cómo se ve la hoja. <mark>Es como los distintos puntos de vista de un mapa</mark>. ¿Cómo se llama ese grupo de botones?",
       "answer": "<mark>Las vistas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/vistas.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Excel cambia el zoom de 10% a 400% para ver la hoja más grande o más pequeña. <mark>Es como usar unos prismáticos: te acercas o te alejas</mark>. ¿Qué permite hacer el zoom en Excel?",
+      "question": "Excel cambia el zoom de 10% a 400%. Sirve para ver la hoja más grande o más pequeña. <mark>Es como usar unos prismáticos: te acercas o te alejas</mark>. ¿Qué permite hacer el zoom en Excel?",
       "answer": "<mark>Acercar o alejar la vista</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/zoom.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "La palanca que hay a la derecha y la de abajo mueven la hoja para ver celdas que no caben en pantalla. <mark>Es como correr el texto para que se vea lo que viene detrás</mark>. ¿Qué nombre tienen esas palancas?",
+      "question": "La palanca de la derecha y la de abajo mueven la hoja. Sirven para ver celdas que no caben en pantalla. <mark>Es como correr el texto para que se vea lo que viene detrás</mark>. ¿Qué nombre tienen esas palancas?",
       "answer": "<mark>Las barras de desplazamiento</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial/barras-desplazamiento.jpg",

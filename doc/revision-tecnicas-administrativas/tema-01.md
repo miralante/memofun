@@ -257,3 +257,55 @@ Mercadona: **privada**. RENFE: **pública**. Amazon: **privada**. RTVE:
   Mediana → número intermedio. Grande → muchos trabajadores.
 - Empresario individual → aporta capital, dirige y asume el riesgo.
   Empresario colectivo → aporta capital y el riesgo que asume es el capital aportado.
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 1 lleva un **ancla**: una palabra en el anverso
+que devuelve el término de la respuesta (raíz o sinónimo), sin escribir
+el término exacto. La regla está en `doc/es/guia-crear-elementos.md`
+§2.3 y la tabla siguiente deja por escrito qué palabra ancla cada
+tarjeta, para que un repaso posterior no tenga que volver a
+descubrirlas.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| 1.1 Qué es una empresa | Elementos materiales y humanos | «medios» / «personas» |
+| 1.1 Qué es una empresa | Bienes y servicios | «productos» |
+| 1.1 Qué es una empresa | Satisfacer necesidades y obtener beneficios | «necesita cosas» / «gana dinero» |
+| 1.2 Tipos de empresa | Clasificación por tamaño | «por su tamaño» |
+| 1.2 Tipos de empresa | Gran empresa | «su tamaño es enorme» |
+| 1.2 Tipos de empresa | Empresa mediana | «va por la mitad» |
+| 1.2 Tipos de empresa | Pequeña empresa | «trabajan solo unos pocos» |
+| 1.2 Tipos de empresa | Microempresa | «tamaño diminuto» |
+| 1.2 Tipos de empresa | Sector primario, secundario y terciario | «cultivan / fabrican / dan servicios» |
+| 1.2 Tipos de empresa | Sector primario | «el primero de los tres» |
+| 1.2 Tipos de empresa | Sector secundario | «el segundo de los tres» |
+| 1.2 Tipos de empresa | Sector terciario | «el tercero de los tres» |
+| 1.2 Tipos de empresa | Locales, nacionales e internacionales | «tu barrio / toda España / Europa y América» |
+| 1.2 Tipos de empresa | Empresa local | «trabaja solo en un sitio» |
+| 1.2 Tipos de empresa | Empresa nacional | «todo el país» |
+| 1.2 Tipos de empresa | Empresa internacional | «varios países a la vez» |
+| 1.2 Tipos de empresa | Empresas públicas y privadas | «los paga el Estado» / «sus dueños» |
+| 1.2 Tipos de empresa | Empresa pública | «el capital es del Estado» |
+| 1.2 Tipos de empresa | Empresa privada | «personas particulares, no del Estado» |
+| 1.2 Formas jurídicas | Empresario individual y sociedad | «solo» / «juntos» |
+| 1.2 Formas jurídicas | Empresario individual | «una sola persona» |
+| 1.2 Formas jurídicas | Sociedad | «se asocian» |
+| 1.3 El empresario | Dirigir, controlar y supervisar | «pone el rumbo» / «vigila» / «revisa» |
+| 1.4 Funciones de la empresa | Crear empleo y riqueza | «da trabajo a la gente» / «hace que el país crezca» |
+| 1.4 Funciones de la empresa | Asumir riesgos técnicos y económicos | «arriesga» / «fallar la máquina» / «perder dinero» |
+| 1.4 Funciones de la empresa | Organizar y dirigir la producción | «organiza y dirige» / «producir» |
+| 1.5 Estructura de la empresa | Estructura formal | «escrita en papel» / «las normas» |
+| 1.5 Estructura de la empresa | Estructura informal | «sin nada pactado» / «surge sola» |
+| 2.1 Tipos de organización | Organigrama | «un diagrama que dice quién manda sobre quién» |
+| 2.1 Tipos de organización | Organización jerárquica | «la autoridad está bien clara» / «rangos» |
+| 2.1 Tipos de organización | Organización funcional | «se organiza por funciones» |
+| 2.1 Tipos de organización | Organización mixta | «una mezcla de la jerárquica y la funcional» |
+| 2.1 Tipos de organización | Organización por divisiones | «se divide en tres zonas» |
+| 3. Tareas administrativas | Planificación | «hace un plan» |
+| 3. Tareas administrativas | Organización | «organiza el trabajo» |
+| 3. Tareas administrativas | Dirección | «dirige al equipo» |
+| 3. Tareas administrativas | Coordinación | «coordinan su trabajo» |
+| 3. Tareas administrativas | Control | «controla si logró sus metas» |

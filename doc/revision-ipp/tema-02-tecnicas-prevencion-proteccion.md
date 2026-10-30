@@ -366,3 +366,101 @@ La entrada con `selfTest` es `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
 > *Itinerario Personal para la Empleabilidad*, no de *Técnicas Administrativas
 > Básicas*; sus ocho temas coinciden 1:1 con las ocho carpetas del curso IPE
 > en la app.
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 2 lleva un **ancla**: una palabra del anverso que
+devuelve el término de la respuesta (por su raíz o por un sinónimo cercano),
+sin escribir el término exacto. La regla está en
+`doc/es/guia-crear-elementos.md` §2.3 y la tabla siguiente deja por escrito
+qué palabra ancla cada tarjeta, para que un repaso posterior no tenga que
+volver a descubrirlas.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| §1 Técnicas de prevención y protección | Integrar la prevención de riesgos | «lo incluye en su trabajo y en su organización» |
+| §1 Técnicas de prevención y protección | Identificar los riesgos | «localizarlo» / «un peligro en un puesto» |
+| §1 Técnicas de prevención y protección | Evaluar los riesgos | «estudia cada peligro» / «juzga su gravedad» |
+| §1 Técnicas de prevención y protección | Adoptar medidas de control | «qué hacer para tapar el peligro» |
+| §1 Técnicas de prevención y protección | Técnicas de prevención | «antes» / «ese primer grupo» |
+| §1 Técnicas de prevención y protección | Técnicas de protección | «después» / «ese segundo grupo» |
+| §1 Técnicas de prevención y protección | Persona (prevención) · riesgo (protección) | «sobre ti» / «sobre el peligro» |
+| §2.0 Técnicas básicas | Prevención de riesgos | «antes de que ocurra el problema» |
+| §2.0 Técnicas básicas | Organización del trabajo | «repartir las tareas» / «hacer pausas» |
+| §2.0 Técnicas básicas | Formación e información | «enseña» / «le informa» |
+| §2.0 Técnicas básicas | Señalización | «carteles y señales» / «avisan de peligros» |
+| §2.0 Técnicas básicas | Mantenimiento de equipos | «revisar y arreglar» / «para que no fallen» |
+| §2.1 Principio 1 | Evitar los riesgos | «se quita y se acabó» / «el primero de los ocho» |
+| §2.1 Principio 2 | Evaluar los riesgos | «cuánto se puede reducir» |
+| §2.1 Principio 3 | Combatir los riesgos desde el origen | «el peligro se quita de la máquina que lo hace» |
+| §2.1 Principio 4 | Adaptar el trabajo a la persona | «se adapta a quien lo hace» |
+| §2.1 Principio 5 | Tener en cuenta la evolución técnica | «herramienta más segura» / «las máquinas de hoy» |
+| §2.1 Principio 6 | Planificar la prevención | «organizar bien el trabajo» / «no improvisar» |
+| §2.1 Principio 7 | Proteger colectivamente antes que individualmente | «que protegen a todos» / «a una persona» |
+| §2.1 Principio 8 | Dar instrucciones claras a los trabajadores | «explica las normas» / «que todos las entiendan» |
+| §2.2 Tipos de riesgo | Riesgo físico | «el ruido» / «el calor» / «las vibraciones» |
+| §2.2 Tipos de riesgo | Riesgo químico | «gases y líquidos que pueden quemar» / «envenenar» |
+| §2.2 Tipos de riesgo | Riesgo biológico | «virus y bacterias» / «un microorganismo que se contagia» |
+| §2.2 Tipos de riesgo | Riesgo ergonómico | «dolor de espalda» / «cuello agachado» / «posturas malas» |
+| §2.2 Tipos de riesgo | Riesgo psicosocial | «estrés» / «agotamiento» / «acoso» |
+| §2.3 Señalización | Señales de prohibición | «círculo tachado» / «está prohibido» |
+| §2.3 Señalización | Señales de advertencia | «triángulo amarillo» / «hay un peligro» |
+| §2.3 Señalización | Señales de obligación | «círculo azul» / «hay que llevarlo puesto» |
+| §2.3 Señalización | Señales de salvamento | «cartel verde con una cruz» / «el botiquín» |
+| §2.3 Señalización | Solo avisa, no la sustituye | «no seca el suelo» / «el peligro sigue ahí» |
+| §2.4 Buenas prácticas | Buenas prácticas para prevenir riesgos | «mantener su zona limpia» / «algo peligroso» |
+| §2.5 Responsables | El empresario | «la empresa» / «dueño de la casa» |
+| §2.5 Responsables | El trabajador | «cada persona cumple las normas» |
+| §2.5 Responsables | Delegado de prevención | «los eligen» / «representa a todo el grupo» |
+| §2.5 Responsables | Servicio de prevención | «equipo técnico que asesora» / «el médico» |
+| §3a Protección colectiva | Protección colectiva | «toda la zona a la vez» / «a todas las personas» |
+| §3a Protección colectiva | Barandillas | «valla de hierro» / «en el borde de una plataforma alta» |
+| §3a Protección colectiva | Redes de seguridad | «mallas que sujetan a quien pueda caer» |
+| §3a Protección colectiva | Ventilación | «el aire no se queda parado» / «entra limpio» |
+| §3a Protección colectiva | Extintor | «apagar fuegos» |
+| §3a Protección colectiva | Salida de emergencia | «en caso de incendio hay que poder salir deprisa» / «se mantiene libre» |
+| §3b EPI | Equipos de Protección Individual | «cada uno con lo suyo» / «protege a una sola persona» |
+| §3b EPI | Son obligatorios | «cada persona tiene que ponérselas siempre» |
+| §3b EPI | Casco | «en la cabeza» |
+| §3b EPI | Gafas de seguridad | «delante de los ojos» / «la vista» |
+| §3b EPI | Guantes | «en las manos» |
+| §3b EPI | Mascarilla o filtro | «en la cara» / «los pulmones» / «retiene los gases» |
+| §3b EPI | Botas de seguridad | «en los pies» |
+| §3b EPI | Ropa reflectante | «bandas brillantes» / «para que te vean bien» |
+| §3b EPI | Tapones y cascos para los oídos | «el ruido no te haga daño» |
+
+### Qué se reescribió (43 tarjetas)
+
+- **Regalaban la respuesta (R3, 12 tarjetas):** «Equipos de Protección
+  Individual» (el anverso la escribía entera), «Gafas de seguridad»
+  («gafas»), «Integrar la prevención de riesgos» («prevención»), «Adoptar
+  medidas de control» («medidas»), «Persona (prevención) · riesgo
+  (protección)» (las cuatro), «Protección colectiva» («protección»),
+  «Barandillas», «Salida de emergencia» («salida», «emergencia»), «Delegado
+  de prevención» («prevención»), «Servicio de prevención» («prevención»),
+  las cuatro tarjetas de señales («señales») y «Dar instrucciones claras a
+  los trabajadores» («dar», «instrucciones»).
+- **Sin ancla (R4):** casi todas las restantes. Ahora la ancla está **en texto
+  plano**, no solo dentro del `<mark>`: «la cabeza», «las manos», «los
+  pulmones», «los pies», «el ruido», «toda la zona a la vez», «el botiquín»,
+  «antes» / «después», «la máquina que lo hace», «cuánto se puede reducir»…
+- **Frases de más de 12 palabras (R1):** 13 tarjetas tenían pistas de 13 a 40
+  palabras; se han partido en frases cortas de una idea.
+- **Dos tarjetas que se parecían demasiado:** «Evaluar los riesgos» aparecía
+  con casi la misma frase en `prevencion-y-proteccion-definicion.json` (el
+  segundo paso de la secuencia) y en `tecnicas-basicas-prevencion.json` (el
+  segundo principio). Ahora cada una entra por su ángulo: el *paso* y el
+  *principio*.
+
+### El auditor de anclas
+
+`node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion`
+daba **39 de 50 tarjetas «sin ancla» (R4)** y 12 con R3 antes de este
+trabajo. El mapa de sinónimos del script no conocía el vocabulario de este
+tema, así que se le añadió (EPI, señales, responsables, principios de la
+prevención, tipos de riesgo). Resultado actual: **50/50 con ancla, 0 R1,
+0 R2, 0 R3**, y `node scripts/audit-deck-readability.js` sin avisos en los
+temas 1 y 2.
+

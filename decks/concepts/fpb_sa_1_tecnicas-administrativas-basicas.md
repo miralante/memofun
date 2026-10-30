@@ -3,6 +3,301 @@
 > Registro de trabajo del agente de IA (ver CLAUDE.md → "Generating deck content" paso 7).
 > No lo lee la app ni el service worker; no necesita subir VERSION en sw.js.
 
+## Octubre 2026 — todas las tarjetas del tema 1 llevan ancla
+
+Se repassó el **tema 1** (4 barajas, 38 tarjetas) con un criterio nuevo,
+el del **ancla**: el anverso tiene que traer una palabra que devuelva el
+término de la respuesta (raíz o sinónimo), porque sin ella la pista
+explica el concepto pero no ayuda a *recuperarlo*. Antes de este
+repaso, 8 de las 38 tarjetas ya lo tenían (la de «Organización
+funcional», con «se organiza por funciones», era el ejemplo), y 30 no.
+
+El ancla **nunca** es el término exacto: si el anverso dice «mixta», la
+tarjeta ya no tiene nada que preguntar. Y el ancla va en el anverso,
+no solo dentro de la analogía de `<mark>`.
+
+Se reescribieron los 30 anversos. Los cambios de fondo:
+
+- **Las cinco tareas administrativas** (planificación, organización,
+  dirección, coordinación, control) llevan ahora el verbo: «hace un
+  plan», «organiza el trabajo», «dirige al equipo», «coordinan su
+  trabajo», «controla si logró sus metas». Es la misma palabra que la
+  persona usaría después al hablar del tema.
+- **Los cuatro tipos de organización** se anclan por su rasgo:
+  «la autoridad está bien clara» (jerárquica), «una mezcla de la
+  jerárquica y la funcional» (mixta), «se divide en tres zonas»
+  (divisiones), «un diagrama que diga quién manda sobre quién»
+  (organigrama).
+- **Los sectores de actividad** se anclan por su posición: «el primero
+  de los tres», «el segundo de los tres», «el tercero de los tres».
+- **Los tamaños de empresa** por su cualidad: «su tamaño es enorme»
+  (gran), «va por la mitad» (mediana), «trabajan solo unos pocos»
+  (pequeña), «tamaño diminuto» (microempresa). Se corrigió además la
+  pregunta de cierre de la tarjeta de «Gran empresa», que decía «¿Cómo
+  se llama una empresa tan grande?» y ya lo nombraba.
+- **«Crear empleo y riqueza»** ya no se escribía entero en el anverso
+  («La empresa crea empleos y riqueza»): ahora se ancla con «da
+  trabajo a la gente» y «hace que el país crezca». Lo mismo con
+  «Estructura formal» («está escrita en papel») y «Dirigir, controlar
+  y supervisar» («pone el rumbo», «vigila», «revisa»).
+
+Dos tarjetas se quedan a propósito con una palabra de la respuesta en el
+anverso: «Bienes y servicios» (el ancla de «bienes» es «productos» y la
+respuesta es una pareja) y «Clasificación por tamaño» (la tarjeta
+cabecera de una clasificación; el ancla es «tamaño»).
+
+Regla nueva en `doc/es/guia-crear-elementos.md` §2.3 (y en la versión
+en inglés), con `scripts/audit-deck-anchors.js` para detectarla. El
+resto del curso (temas 3 a 6) seguia sin ancla; el detector da 144 de
+156 tarjetas sin ancla en esos cuatro temas, y hay que confirmarlos a
+mano porque su mapa de sinónimos se ha ido ampliando tema a tema.
+
+## Octubre 2026 — el tema 2 también lleva ancla
+
+Se aplicó el mismo criterio del **ancla** (ver la nota del tema 1) a las
+dos barajas del **tema 2** (`areas-funcionales`, 11 tarjetas, y
+`departamentos-organigrama`, 13 tarjetas). Las 24 quedan con ancla; 22
+anversos se reescribieron y 2 ya la tenían («Departamentos», con
+«división», y «El departamento financiero», con «lleva el dinero»).
+
+- **Las cinco áreas funcionales** se anclan con el verbo del temario:
+  «Esta zona **fabrica**» (producción), «atiende al cliente y **cierra la
+  venta**» (comercial), «**administra** el dinero de la empresa»
+  (finanzas), «se ocupa de las **personas** que trabajan» (recursos
+  humanos) y «Esta zona **dirige**: fija los objetivos» (dirección).
+- **Los cinco departamentos** por su tarea, con el verbo delante:
+  «Este departamento **compra**», «**fabrica** y prepara los
+  productos», «se encarga de **vender**», «**se guarda** todo»,
+  «**lleva las cuentas**», «**administra** el archivo y la
+  correspondencia».
+- **El organigrama** se ancla con «un **esquema**» (raíz *-grama*, igual
+  que «diagrama» en el tema 1) y la jerarquía con «la de arriba **manda**
+  sobre las de abajo».
+
+Dos tarjetas cambiaron de fondo, no solo de forma:
+
+- **La tarjeta de las cinco áreas** («Producción, Comercial, Finanzas,
+  Recursos Humanos y Dirección») nombraba «Producción» y «Comercial» en el
+  anverso: andaba dos de los cinco nombres de la respuesta. Ahora dice
+  «en una fábrica pesa más la que **fabrica**» y «en una tienda, la que
+  **vende**».
+- **La tarjeta de «para qué sirve el organigrama»** escribía
+  «organigrama» en el anverso y preguntaba «¿Qué documento conviene
+  consultar?»: la respuesta estaba dada. Ahora dice «miras el
+  **esquema** de la empresa».
+
+También se ajustaron las preguntas de cierre de las cinco tarjetas de
+área, que repetían la definición («¿Qué área funcional administra el
+dinero de la empresa?»), por «¿Qué área funcional se ocupa de este
+trabajo?».
+
+Con el tema 2, la foto del detector queda: **tema 1 y tema 2 al 100 %
+con ancla**; los temas 3 a 6, pendientes.
+
+## Octubre 2026 — el tema 3 también lleva ancla
+
+Tercera vuelta del mismo trabajo: las cuatro barajas del **tema 3**
+(`comunicacion-escrita-externa` 5, `comunicacion-interna-documentos` 20,
+`medios-comunicacion-interna` 10 y `tipos-informacion-comunicacion` 9).
+Las 44 tarjetas quedan con ancla; se reescribieron 36 anversos y 8 ya la
+tenían.
+
+El problema de este tema era otro: **el anverso daba la definición y la
+pregunta de cierre la repetía**, así que la tarjeta era un recitado. Y en
+las tarjetas de listas (los elementos del memorando, de la circular y del
+oficio, y las formas y dificultades de los tres tipos de información) el
+anverso **enumeraba la respuesta entera**: «El memorando tiene cuatro
+partes: la cabecera, el De y el A, el cuerpo y el pie» con la pregunta
+«¿Qué cuatro partes tiene un memorando?».
+
+La solución fue **parafrasear en vez de nombrar**: el anverso describe la
+pieza con otras palabras y es el estudiante quien tiene que devolverle el
+nombre técnico.
+
+| Elemento | Cómo se parafrasea ahora en el anverso |
+| --- | --- |
+| Membrete | «el papel con el nombre de la entidad» |
+| Número | «un código que la identifica» |
+| Asunto | «el tema del que trata» |
+| Fecha | «dónde y el día» |
+| Firma | «el nombre de quien la pone» |
+| Recibo | «el resguardo firmado» |
+| Quejas e ideas | «lo que molesta y lo que se le ocurre» |
+| Órdenes y tareas | «mandando un trabajo a cada uno» |
+
+Las anclas del resto:
+
+- **Los tipos de comunicación** se anclan con la dirección del mensaje:
+  «sube o baja» (vertical), «baja» (descendente), «sube» (ascendente),
+  «en la misma línea» (horizontal), «cruza los niveles» (diagonal), «las
+  vías oficiales» (formal), «nadie lo anota de forma oficial» (informal),
+  «con la voz» (oral) y «no usa palabras» (no verbal).
+- **Los documentos** con su palabra clave: «nota» (memorando), «el que
+  avisa de una revisión médica» (aviso), «el documento que recorre toda la
+  empresa» (circular interna), «un documento **oficial** que no sale de la
+  empresa» (oficio interno, raíz *ofici-*), «un documento que **informa**»
+  (informe) y «el documento donde se anotan los **acuerdos**» (acta).
+- **Los medios** con su formato: «un libro con el reglamento interno»
+  (manual), «una revista que trae noticias» (newsletter), «viaja por
+  internet, sin papel» (coro electrónico), «una red interna: solo entra
+  quien es de la casa» (intranet), «una lista de preguntas» (encuestas),
+  «un cartel grande en la oficina» (tablón) y «Facebook, Twitter o
+  Instagram» (redes sociales).
+
+También se corrigió una respuesta: la de las dificultades de la
+comunicación descendente («inseguridad y transmisión lenta» →
+«inseguridad, transmisión lenta») para no pasar de las 12 palabras.
+
+Dos palabras de la respuesta se quedan en el anverso a propósito, porque
+son objetos concretos que no se pueden parafrasear sin volverlos
+oscuros: «nota» (memorando) y «sello» (oficio interno).
+
+## Octubre 2026 — el tema 4 también lleva ancla
+
+Cuarta vuelta: las cuatro barajas del **tema 4** (`correos-lineas` 9,
+`modalidades-envio` 6, `envio-correspondencia-paqueteria` 6 y
+`mensajeria-externa` 13). Las 34 tarjetas quedan con ancla y los 34
+anversos se reescribieron: aquí el anverso era, casi siempre, una copia
+literal del libro, con frases de 22 a 42 palabras.
+
+Lo que se hizo:
+
+- **Las seis líneas de Correos** se anclan por su cualidad: «una para lo
+  de siempre» (básica), «otra para cuando corre prisa» (urgente), «los
+  paquetes» (paquetería), «lo barato» (económica), «la distancia»
+  (servicios telegráficos) y «el buzón» (gestión de buzón).
+- **Los productos de cada línea**, parafraseados: «uno para escribir y
+  otro para mandar una postal» (carta y tarjeta postal), «un tercero para
+  avisar de un trámite oficial» (notificación administrativa), «un
+  paquete de color y otro con dos plazos» (producto azul y paquete de 48
+  o 72 horas), «propaganda, correo para el buzón, cartas personalizadas,
+  libros y revistas» (línea económica) y «el cable y el teléfono»
+  (servicios telegráficos).
+- **Las modalidades de envío** con su seña: «quien recibe tiene que
+  firmar» (certificado), «una etiqueta con una palabra que avisa de la
+  prisa» (correo urgente), «el que recibe es quien abona el importe… en
+  el mostrador» (reembolso), «esa nota vuelve después al remitente»
+  (aviso de recibo) y «por internet» (correo digital).
+- **El embalaje y la normalización**, con la misma técnica de
+  parafraseo: «que no se rompa con lo que lleva dentro / que sea de
+  confianza / que case con lo que lleva» (los tres requisitos) y «las
+  máquinas pueden trabajar los envíos sin que nadie los toque»
+  (mecanización y manipulación automática).
+- **Los once servicios de mensajería** se anclan con su mecánica:
+  «vas tú a dejarle el paquete» (depósito), «le llaman enseguida»
+  (acuse de recibo), «en una sola jornada» (urgente), «van a casa del
+  cliente» (entrega en mano), «por el aire o por tierra»
+  (internacionales), «se lleva hoy y llega mañana» (24 horas), «un
+  repartidor fijo de la empresa» (mensajero en exclusiva), «que vuelva
+  al punto de partida» (envíos con retorno), «deja las cajas listas para
+  salir» (manipulación), «las bolsas de correo de una oficina a otra»
+  (servicio de valijas) y «concertas una cita» (hora fijada).
+
+Tres respuestas se acortaron para no pasar de las 12 palabras por
+frase: la de las empresas de mensajería, la de los apartados del
+impreso del certificado y la tercera línea de la dirección postal.
+
+## Octubre 2026 — el tema 5 también lleva ancla
+
+Quinta vuelta: las cuatro barajas del **tema 5** (`material-oficina` 5,
+`equipos-oficina` 13, `archivo-registro-oficina` 4 e
+`inventario-control-existencias` 5). Las **27 tarjetas** quedan con ancla;
+se reescribieron **16 anversos** y los otros 11 ya la tenían.
+
+Lo que se hizo:
+
+- **El material de oficina** se ancla por el contraste entre lo que se
+  repone y lo que dura: «artículos que se consumen» (fungible), «artículos
+  que no se gastan» (no fungible) y, en las dos tarjetas de definición
+  literal del libro, una raíz por cada palabra de la respuesta: «se
+  consumen al usarlos / se gastan / se estropean / se pierden / con los
+  días».
+- **Los equipos de oficina** se anclan por su función: «el software
+  adecuado» (ordenadores), «ponen en papel» y «cartuchos de tinta o de
+  tóner» (impresoras), «hacen una copia en papel» (fotocopiadoras),
+  «digitalizan documentos» (escáneres), «para llamar y escribir
+  mensajes» (teléfonos) y «una sola máquina… varias funciones a la vez»
+  (aparato multifunción).
+- **El mobiliario** se ancla con su parafrase: «cada puesto tiene la
+  suya / de apoyo, para guardar cosas / donde se junta la gente» (las
+  tres clases de mesas), «el asiento que más se debería usar» (sillas
+  ergonómicas), «un mueble guarda los papeles» (armarios) y «se enteran
+  de los pendientes / lo que se está haciendo / los turnos / lo urgente»
+  (tablón de anuncios).
+- **Las barajas sin sección propia** (agenda, archivo, registro, sello y
+  firma, control de existencias, inventario y pedido) también quedan
+  ancladas, con el mismo criterio que los temas anteriores.
+
+El detector oficial (`scripts/audit-deck-anchors.js`) solo exige **una**
+ancla por tarjeta, así que se añadió una comprobación más exigente:
+**cada palabra de contenido de la respuesta** tiene su ancla en el
+anverso, ninguna palabra de la respuesta se escribe en el anverso y cada
+tarjeta conserva **un solo `<mark>`**, que envuelve la analogía. Con ese
+criterio estricto, las 27 tarjetas quedan limpias. El mapa de sinónimos
+del detector se amplió con el vocabulario del tema 5 (`gasta`, `deteriora`,
+`desaparece`, `desgaste`, `uso`, `tiempo`, `aparato`, `maquinaria`,
+`mobiliario`, `desperdicio`…).
+
+En el camino aparecieron dos erratas que se corrigieron: la tarjeta de
+material no fungible decía «**grapadera**» (es una **grapadora**) y la de
+ordenadores había perdido los **sonidos** de la lista del libro (pág. 47).
+
+Con el tema 5, la foto del detector queda: **temas 1 a 5 al 100 % con
+ancla** (171 de 218 tarjetas del curso); queda pendiente el tema 6.
+
+## Octubre 2026 — el tema 6 también lleva ancla
+
+Sexta vuelta y **última del curso**: las seis barajas del **tema 6**
+(`cobros-pagos-caja` 7, `documentos-comerciales` 9, `medios-pago` 12,
+`pago-online` 5, `excel-conceptos-basicos` 7 y `excel-pantalla-inicial` 11).
+Las **51 tarjetas** quedan con ancla y los **50 anversos** se reescribieron: el
+tema 6 era el que peor estaba, con 47 tarjetas sin ancla y 18 frases de pista
+de más de 12 palabras.
+
+Lo que se hizo:
+
+- **Cobros y pagos en caja**: cada operación con su ancla («cada entrada y
+  salida de dinero es un movimiento» para *operaciones de caja*, «un papel que
+  hay que guardar» para *guardarlos*, «un papel con tu sueldo» para la
+  *nómina*).
+- **Documentos comerciales**: la factura, el albarán, el pedido y la nota de
+  pedido se anclan por su función («un papel oficial», «el transportista»,
+  «un cliente escribe a un proveedor»); la tarjeta de la información de la
+  factura lleva **un ancla por cada dato** («quién manda, quién compra, qué
+  día», «un código», «el desglose de cada línea», «cuántos artículos», «cuánto
+  vale cada uno», «la suma sin impuestos», «lo que se paga»).
+- **Medios de pago**: los tres momentos del pago («se paga al recibir»,
+  «el cliente paga luego», «deja una cantidad a cuenta») y cada instrumento
+  («un trocito de plástico» para la tarjeta de débito, «un papel firmado que
+  ordena a su banco pagar» para el cheque, «unas siglas que empiezan por el
+  país» para el IBAN).
+- **Comercio electrónico**: la tarjeta de las cuatro formas de pago las
+  parafrasea una a una («el plástico que te presta el banco», «mandar el
+  dinero de una cuenta a otra del banco», «al recibirlo en casa», «con un
+  intermediario en medio») sin nombrarlas.
+- **Excel**: las once partes de la pantalla y los conceptos básicos se anclan
+  por su forma («al abrir Excel aparece una ventana», «la franja de arriba»,
+  «las pestañas Inicio, Insertar y Diseño», «abajo a la izquierda aparecen las
+  hojas del libro»).
+
+La misma comprobación estricta del tema 5 (una ancla **por palabra de
+contenido** de la respuesta, sin spoilers, un solo `<mark>` y frases de pista
+de 12 palabras como máximo) deja las 51 tarjetas limpias. El mapa de sinónimos
+del detector se amplió con el vocabulario del tema 6 (operaciones de caja,
+factura, albarán, presupuesto, cheque, pagaré, letra de cambio, IBAN,
+pasarela de pago, columnas, filas, barras de Excel…).
+
+Al reescribir se ajustaron **siete analogías** que regalaban la respuesta
+(«la barra de direcciones de un navegador» para la barra de fórmulas,
+«cuánto se cobra» para la nómina) o que no cuadraban con su foto (la columna
+de un edificio para la columna de Excel, que en la foto son las letras A, B,
+C).
+
+**Con el tema 6, el curso completo queda al 100 % con ancla: 218 de 218
+tarjetas.** Los únicos avisos que quedan en el detector son R3 deliberados de
+los temas 1 a 4 (objetos concretos que no se pueden parafrasear: «nota»,
+«sello», «buzón», «postal»…), documentados en su día.
+
 ## Migración a Wikimedia Commons (octubre 2026)
 
 Las barajas se migraron del modelo antiguo (imágenes en raíz del curso, autor
@@ -218,7 +513,7 @@ un ejemplo por lado). La imagen es opcional por tarjeta (tecnico.md
 §3.1) y una imagen que no ilustra la pista es peor que ninguna: las
 cards de detalle llevan ya su foto exacta (calle de pueblo, tren,
 barco, parque, pastelero). La regla queda escrita en la guía de
-creación de elementos §2.5.
+creación de elementos §2.6.
 
 **Octubre 2026 — tarjeta «públicas y privadas» y «empresa pública».**
 La card de clasificación se reescribió con el criterio del temario

@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Para que la mercancía llegue sin daños, el embalaje tiene que cumplir tres condiciones: resistir el peso del producto, estar hecho de un material de calidad que garantice la seguridad y estar armonizado en forma y tamaño con lo que lleva dentro. <mark>Es como preparar una mudanza para que nada se rompa</mark>. ¿Qué tres condiciones debe cumplir el embalaje de un envío?",
+      "question": "Una: que no se rompa con lo que lleva dentro. Otra: que sea de confianza. Y otra: que case con lo que lleva. <mark>Es como preparar una mudanza para que nada se rompa</mark>. ¿Qué tres condiciones debe cumplir el embalaje de un envío?",
       "answer": "<mark>Resistir el peso del producto<br>Tener calidad en el material<br>Estar armonizado en forma y tamaño con el producto</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria/embalaje.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Normalizar es adaptar los envíos a unas normas de dimensiones para poder usar sistemas de mecanización que permitan manipular la correspondencia de forma automática. <mark>Es como poner las cartas en fila para que una máquina las pueda separar</mark>. ¿Para qué sirve normalizar los envíos?",
+      "question": "Normalizar es adaptar los envíos a unas normas de dimensiones. Así las máquinas pueden trabajar los envíos sin que nadie los toque. <mark>Es como poner las cartas en fila para que una máquina las pueda separar</mark>. ¿Para qué sirve normalizar los envíos?",
       "answer": "<mark>Para adoptar sistemas de mecanización y manipular la correspondencia automáticamente</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria/normalizacion.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Los sobres admitidos son rectangulares, americanos, DIN-A5 y acolchados de distintos tamaños y de seguridad. El color del sobre debe ser blanco o de colores claros, pero nunca azul. <mark>Es como las normas de un examen: hoja limpia y sin papel de color raro</mark>. ¿Qué formatos y qué color puede tener el sobre de un envío normalizado?",
+      "question": "Los sobres admitidos tienen cuatro formas. El normal, el de solapa corta, el DIN-A5 y el de protección. El color debe ser suave y nunca azul. <mark>Es como las normas de un examen: hoja limpia y sin papel de color raro</mark>. ¿Qué formatos y qué color puede tener el sobre de un envío normalizado?",
       "answer": "<mark>Rectangular, americano, DIN-A5 o acolchado<br>Blanco o de colores claros, nunca azul</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria/formato-color.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "La letra con la que se escriben la dirección y los datos del remitente debe entenderse y leerse con facilidad. <mark>Es como la letra de un examen: que se lea sin lupa</mark>. ¿Qué condición debe cumplir la grafía de un envío normalizado?",
+      "question": "La letra de la dirección y de los datos del remitente. Tiene que ser clara y verse bien a la primera. <mark>Es como la letra de un examen: que se entienda sin lupa</mark>. ¿Qué condición debe cumplir la grafía de un envío normalizado?",
       "answer": "<mark>Que se entienda y se lea fácilmente</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria/grafia.jpg",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "question": "En el anverso del sobre, los datos del destinatario se ordenan en cuatro líneas de arriba abajo, empezando por la provincia y terminando en el nombre de quien lo recibe. <mark>Es como un formulario: de arriba abajo, sin saltarse líneas</mark>. ¿En qué orden exacto se escriben los datos de la dirección postal?",
-      "answer": "<mark>1) Nombre de la provincia<br>2) Código postal y nombre de la localidad<br>3) Tipo de vía, nombre de la vía, número de portal y piso<br>4) Nombre del destinatario</mark>",
+      "question": "Los datos de quien recibe van en cuatro líneas, de arriba abajo. Primero, el lugar más grande; segundo, el código con el pueblo. Tercero, la calle con el número; y cuarto, el nombre. <mark>Es como un formulario: de arriba abajo, sin saltarse líneas</mark>. ¿En qué orden exacto se escriben los datos en el anverso del sobre?",
+      "answer": "<mark>1) Nombre de la provincia<br>2) Código postal y nombre de la localidad<br>3) Tipo de vía, nombre de vía, número y piso<br>4) Nombre del destinatario</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria/direccion-postal.jpg",
         "title": "Coffee Creek, Indiana, September 18, 1856 - Postal Cover.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Los datos del remitente se escriben en la esquina superior izquierda del sobre, con su nombre, su dirección y su código postal. <mark>Es como la esquina de un sello de correos, que siempre está en el mismo sitio para poder leerse</mark>. ¿En qué esquina del sobre se escriben los datos del remitente?",
+      "question": "Los datos de quien manda van en un rincón del sobre. Siempre en el mismo sitio, arriba a la izquierda. Van con su nombre, su dirección y su código. <mark>Es como el sello de correos: siempre en el mismo sitio para poder leerse</mark>. ¿En qué parte del sobre se escriben los datos de quien manda?",
       "answer": "<mark>En la esquina superior izquierda</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria/remitente-sobre.jpg",

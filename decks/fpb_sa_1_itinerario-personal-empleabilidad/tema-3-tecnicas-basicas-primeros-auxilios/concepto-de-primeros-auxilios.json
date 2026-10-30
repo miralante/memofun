@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Alguien se cae en el taller y se hace daño. Le das unos cuidados antes de que llegue el médico. <mark>Es como poner una tirita en el momento a quien se ha cortado</mark>. ¿Qué son los primeros auxilios?",
+      "question": "Alguien se cae en el taller y se hace daño. Lo que hagas mientras llega la ambulancia es lo que cuenta. <mark>Es como poner una tirita en el momento a quien se ha cortado</mark>. ¿Qué son los primeros auxilios?",
       "answer": "<mark>Cuidados antes de la ayuda médica</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/definicion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "La ambulancia tarda unos minutos en llegar y lo que hagas mientras tanto puede cambiar cómo acaba la persona. <mark>Es como los primeros minutos de un partido, que deciden el resultado</mark>. ¿Por qué son tan importantes los primeros minutos?",
+      "question": "<mark>Es como los primeros minutos de un partido, que deciden el resultado</mark>. La ambulancia tarda unos minutos en llegar. Lo que hagas mientras tanto cambia cómo acaba la persona. ¿Por qué son tan importantes los primeros minutos?",
       "answer": "<mark>Son decisivos para la evolución</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/ambulancia.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Un compañero ha tenido un accidente grave y necesitas ayuda profesional cuanto antes. <mark>Es como marcar el 112 desde el móvil cuando hay una emergencia</mark>. ¿A qué número de emergencia llamas?",
+      "question": "Un compañero ha tenido un accidente grave. Necesitas ayuda profesional cuanto antes. <mark>Es como marcar el número único de emergencias desde el móvil</mark>. ¿A qué número de emergencias llamas?",
       "answer": "<mark>112</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/llamar-112.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "En el centro de trabajo hay una caja con gasas, vendas, tijeras y tiritas. <mark>Es como la caja de herramientas del taller, que está para usarla cuando hace falta</mark>. ¿Qué haces con el botiquín?",
+      "question": "En el centro de trabajo hay una caja. Dentro hay gasas, vendas, tijeras y tiritas. <mark>Es como la caja de herramientas del taller, que está para abrirla cuando hace falta</mark>. ¿Qué haces con esa caja?",
       "answer": "<mark>Usar el botiquín</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/usar-botiquin.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "La persona se ha caído y le duele el cuello. Si la mueves, puedes empeorar el daño. <mark>Es como no tocar una pieza de cristal rota hasta saber cómo está</mark>. ¿Qué haces cuando no es necesario?",
+      "question": "Se ha caído y le duele el cuello. Movarla puede empeorar el daño. <mark>Es como no tocar una pieza de cristal rota hasta saber cómo está</mark>. ¿Qué haces si no hace falta?",
       "answer": "<mark>No mover a la persona</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/no-mover.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "La persona sangra por un corte en el brazo y hay que cortar el sangrado. <mark>Es como tapar el grifo antes de que se derrame toda el agua</mark>. ¿Qué técnica básica sirve para parar una hemorragia?",
+      "question": "La persona sangra por un corte en el brazo. Hay que cortar el sangrado. <mark>Es como tapar el grifo antes de que se derrame toda el agua</mark>. ¿Qué técnica básica sirve para cortar la sangre?",
       "answer": "<mark>Parar la hemorragia</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/hemorragia.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Un accidentado está en el suelo y la gente se agolpa gritando. Si tú te mantienes tranquilo, la gente te hará caso. <mark>Es como cuando alguien habla con calma y los demás bajan la voz</mark>. ¿Qué debes hacer primero?",
+      "question": "Un accidentado está en el suelo y la gente se agolpa gritando. Si tú te mantienes tranquilo, la gente te hará caso. <mark>Es como cuando alguien habla sereno y los demás bajan la voz</mark>. ¿Qué debes hacer primero?",
       "answer": "<mark>Mantener la calma</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/calma.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "En una emergencia hay cosas que solo debe hacer alguien que las sepa. <mark>Es como no tocar un enchufe para arreglar una lámpara: si no sabes, no lo hagas</mark>. ¿Qué debes hacer si no sabes hacerlo?",
+      "question": "En una emergencia hay cosas que solo debe hacer alguien con práctica. <mark>Es como no tocar un enchufe para arreglar una lámpara</mark>. ¿Qué debes hacer si no lo has hecho nunca?",
       "answer": "<mark>No hacer lo que no sabes</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/no-sepas-hacer.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Una persona está inconsciente o ha recibido un golpe fuerte. Darle de comer o de beber puede empeorar su estado. <mark>Es como no meterle comida a alguien que no puede tragar</mark>. ¿Qué no debes hacer nunca?",
+      "question": "Una persona está inconsciente o ha recibido un golpe fuerte. Si le das de comer o de beber, puedes empeorar su estado. <mark>Es como no meterle nada a alguien que no puede tragar</mark>. ¿Qué no debes hacer nunca?",
       "answer": "<mark>Darle comida o bebida</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios/no-comer-bebida.jpg",
