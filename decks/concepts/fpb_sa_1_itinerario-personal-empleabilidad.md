@@ -65,6 +65,17 @@ palabra que devuelva el término de la respuesta, sin regalar el término.
   el medio» (decía *un cielo gris con humo* en vez del rombo) y «Gas a
   presión» (decía *botella de gas*, que regalaba la respuesta).
 - **Tabla de anclas** en `doc/revision-ipp/tema-01-seguridad-salud.md`.
+- **Pase estricto (segunda vuelta, octubre 2026):** se escribió
+  `audit-out/strict-anchors.js`, que exige el ancla **en texto plano** (no
+  solo dentro de la analogía del `<mark>`) y **una por parte** de la
+  respuesta, tal como pide la guía §2.3. En el tema 1 daba 16 avisos: 12
+  se resolvieron ampliando el mapa de sinónimos del auditor y 4
+  reescribiendo el anverso de «Posturas forzadas», «Carga mental»,
+  «Máquinas y herramientas» y «Gas a presión», que tenían el ancla dentro
+  de la marca. Además se añadió «en el trabajo» a «Riesgo laboral» y se
+  recortaron a tres las frases de pista de «Las cuatro categorías». El
+  tema 1 queda con **0 avisos** del auditor oficial, del auditor de
+  legibilidad y del comprobador estricto.
 - **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud`
   → 45/45 con ancla, 0 R1/R2/R3. Para que el detector entendiera este
   tema se le añadió su vocabulario a `scripts/audit-deck-anchors.js` y se
@@ -177,6 +188,48 @@ Tema aprobado a partir de las fotos del módulo en `D:/img_memofun/ipp/tema7/`
 > buscar"), pero la **tabla de tipos** sí está desarrollada en la pag66.
 > El **índice oficial** (7 subsecciones, 1-7) es el canónico y las 7
 > barajas siguen esa numeración.
+
+### Revisión de anclas (octubre 2026)
+
+Las 44 tarjetas del tema 7 se repasaron contra la regla del ancla
+(`doc/es/guia-crear-elementos.md` §2.3): el anverso tiene que traer una
+palabra que devuelva el término de la respuesta, **en texto plano**, no
+solo dentro de la analogía del `<mark>`.
+
+- **44 tarjetas reescritas.** Antes: 36 sin ancla (R4), 16 con frases de
+  13-30 palabras, 13 que regalaban la respuesta y 3 con dos o más `<mark>`.
+- **Anclas nuevas** como «buscar todos los días», «una lista o un cuaderno»,
+  «ve tú, pregunta y llama», «no te vengas abajo», «continúa aprendiendo»,
+  «encontrar un trabajo que encaja», «mirarse por dentro», «tener claro el
+  sector», «la ventanilla de atención», «sitios que te ayudan mucho»,
+  «tu comienzo en el mundo del trabajo», «un tiempo limitado», «un nivel
+  intermedio», «estudios generales», «estudios superiores», «tu nombre, tu
+  teléfono y tu correo», «lo que sabes hacer», «las lenguas que hablas»,
+  «que se lea fácil y que sea corta», «dar a conocer quién eres», «esa oferta
+  te encaja», «lo que tú sabes hacer», «un solo documento», «conversación
+  formal», «informarse bien de la compañía», «echar una vuelta a lo que
+  escribiste», «las de siempre», «en la cabeza», «llegar con margen», «la ropa
+  y el estilo», «ganas por el puesto», «con calma y con educación».
+- **9 respuestas recortadas a 1-6 palabras** (CLAUDE.md B.8): las de los
+  cinco «Consejos para buscar empleo» eran frases enteras («Sé constante y
+  busca cada día»); ahora son el concepto del cuaderno («Sé constante»,
+  «Sé organizado», «Sé activo», «Sé positivo», «Sigue formándote»).
+  También «Conocerte, saber qué quieres y prepararte», «Es un trabajo en sí
+  mismo», «Saber qué tipo de trabajo buscas», «Por qué te interesa el
+  puesto», «El currículum (CV)» y «Claro, breve y sin faltas».
+- **Marcas rehechas para que describan la foto**: casi todas describían una
+  analogía que no era la imagen (por ejemplo, «Es como un examen tipo test»
+  sobre una foto de dos personas conversando).
+- **Tres imágenes descolocadas corregidas** en `donde-buscar-empleo`: la
+  fachada de la Oficina de Empleo estaba en la tarjeta «Entrega directa»,
+  el intercambio de tarjetas de visita en «Oficinas de empleo» y el joven
+  entregando su currículum en «Redes de contacto». Reasignadas por lo que
+  muestran.
+- **Tabla de anclas** en `doc/revision-ipp/tema-07-la-busqueda-de-empleo.md`.
+- **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo`
+  → 44/44 con ancla, 0 R1/R2/R3, y sin avisos de legibilidad. La
+  comprobación estricta por parte (`audit-out/strict-anchors.js`, que exige
+  un ancla por parte de la respuesta en texto plano) también da 0 avisos.
 
 ### Conceptos y dónde se han gastado ya
 

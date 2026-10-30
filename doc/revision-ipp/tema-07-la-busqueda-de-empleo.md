@@ -324,3 +324,135 @@ Las **8 barajas** cubren los siete subapartados del §1-§7 del temario oficial
 del módulo más el bloque de «Consejos para buscar empleo» de la pag68. No
 queda ningún concepto del cuaderno sin cubrir, salvo la **foto opcional** del
 currículum (el propio libro la marca como opcional y recomendable).
+
+---
+
+## ANCLAS DE LAS TARJETAS (octubre 2026)
+
+Cada tarjeta del tema 7 lleva un **ancla**: una palabra del anverso, en
+**texto plano**, que devuelve el término de la respuesta (por su raíz o por un
+sinónimo cercano), sin escribir el término exacto. La regla está en
+`doc/es/guia-crear-elementos.md` §2.3 — «el ancla va en el anverso, no solo
+en la analogía de `<mark>`» — y la tabla siguiente deja por escrito qué
+palabra ancla cada tarjeta, para que un repaso posterior no tenga que volver
+a descubrirlas.
+
+| Bloque del temario | Tarjeta (respuesta) | Ancla en el anverso |
+| --- | --- | --- |
+| §1 Qué significa buscar empleo | Buscar empleo | «encontrar un trabajo que encaja» / «un trabajo» |
+| §1 Qué significa buscar empleo | Conocerte, saber qué quieres y prepararte | «mirarse por dentro» / «tener claro» / «lo que te apetece» / «dejarse preparar» |
+| §1 Qué significa buscar empleo | Es un trabajo en sí mismo | «como si fuera tu oficio» |
+| §2 Qué necesitas antes de empezar | Un currículum vitae (CV) | «el documento que resume tu formación» / «la ficha» |
+| §2 Qué necesitas antes de empezar | Una carta de presentación | «un texto breve que acompaña al currículum» |
+| §2 Qué necesitas antes de empezar | Saber qué tipo de trabajo buscas | «tener claro el sector» / «las condiciones en las que quieres trabajar» |
+| §2 Qué necesitas antes de empezar | Información sobre dónde buscar ofertas | «qué sitios tienen vacantes» / «portales, webs de empresas y contactos» |
+| §2 Qué necesitas antes de empezar | Una actitud positiva y activa | «seguir en marcha, con ganas» |
+| §3 Dónde se puede buscar empleo | Portales de empleo en internet | «sitios web donde se publican miles de ofertas» |
+| §3 Dónde se puede buscar empleo | Oficinas de empleo | «la ventanilla de atención de tu comarca» / «inscribir como demandante» |
+| §3 Dónde se puede buscar empleo | Redes de contacto | «familiares, amigos, profesores y conocidos» |
+| §3 Dónde se puede buscar empleo | Entrega directa | «acércate tú mismo con tu currículum a las empresas» |
+| §3 Dónde se puede buscar empleo | Recursos útiles | «sitios que te ayudan mucho» |
+| §4 Tipos de empleo | Primer empleo | «tu comienzo en el mundo del trabajo» / «no necesitas experiencia previa» |
+| §4 Tipos de empleo | Empleo temporal | «dura por un tiempo limitado» |
+| §4 Tipos de empleo | Prácticas o becas | «para aprender trabajando» / «entrar en el mercado» |
+| §4 Tipos de empleo | Empleo parcial | «se trabajan menos horas al día o a la semana» / «cobrar la mitad» |
+| §4 Tipos de empleo | Empleo a jornada completa | «ocho horas diarias, de lunes a viernes» / «el horario habitual» |
+| §5 Currículum vitae | Currículum vitae (CV) | «hay que redactarlo» / «un documento con tu formación» |
+| §5 Currículum vitae | Datos personales | «tu nombre, tu teléfono y tu correo electrónico» |
+| §5 Currículum vitae | Formación académica | «los estudios que has hecho» / «tu lista de títulos» |
+| §5 Currículum vitae | Experiencia laboral | «los trabajos que has tenido antes» / «los sitios donde has trabajado» |
+| §5 Currículum vitae | Habilidades | «lo que se te da bien, lo que sabes hacer» |
+| §5 Currículum vitae | Idiomas y conocimientos informáticos | «las lenguas que hablas» / «lo que manejas de los ordenadores» |
+| §5 Currículum vitae | Claro, breve y sin faltas | «que se lea fácil y que sea corta» / «que quepa en una hoja y esté bien escrito, sin erratas» |
+| §6 Carta de presentación | Carta de presentación | «un texto breve que acompaña al currículum» / «el papel que dejas» |
+| §6 Carta de presentación | Presentarte | «dar a conocer quién eres» |
+| §6 Carta de presentación | Por qué te interesa el puesto | «el motivo por el que esa oferta te encaja» |
+| §6 Carta de presentación | Destacar tus puntos fuertes | «la parte que deja ver lo que tú sabes hacer» |
+| §6 Carta de presentación | El currículum (CV) | «un documento» / «el dossier» |
+| §7 Prepararse para una entrevista | Entrevista de trabajo | «una conversación formal con la empresa» / «contratarte» |
+| §7 Prepararse para una entrevista | Investigar sobre la empresa | «informarse bien de la compañía» / «a qué se dedica y qué hace» |
+| §7 Prepararse para una entrevista | Repasar tu CV | «echar una vuelta a lo que escribiste en tu currículum» |
+| §7 Prepararse para una entrevista | Preguntas comunes de entrevista | «te van a preguntar» / «las de siempre» / «en la conversación» |
+| §7 Prepararse para una entrevista | Piensa en tus puntos fuertes | «tener en la cabeza la lista de lo que sabes hacer» / «lo que vales» |
+| §7 Prepararse para una entrevista | Ser puntual | «llegar con margen» |
+| §7 Prepararse para una entrevista | Vestir de forma adecuada | «la ropa y el estilo» / «que el conjunto encaje con la ocasión» |
+| §7 Prepararse para una entrevista | Actitud positiva | «interés y ganas por el puesto» |
+| §7 Prepararse para una entrevista | Hablar con claridad y respeto | «con calma y con educación» |
+| Consejos (pag68) | Sé constante | «buscar todos los días, aunque no salga nada» |
+| Consejos (pag68) | Sé organizado | «una lista o un cuaderno con cada sitio» |
+| Consejos (pag68) | Sé activo | «ve tú, pregunta y llama» |
+| Consejos (pag68) | Sé positivo | «no te vengas abajo: sigue con ganas» |
+| Consejos (pag68) | Sigue formándote | «continúa aprendiendo y mejorando lo que sabes hacer» |
+
+### Qué se reescribió (44 tarjetas)
+
+- **Sin ancla (R4):** 36 de las 44 tarjetas estaban marcadas, porque el
+  auditor no conocía el vocabulario de este tema. Se le añadió al mapa de
+  sinónimos (currículum, carta de presentación, carta, búsqueda de empleo,
+  oferta, portales, oficinas de empleo, redes de contacto, tipos de empleo,
+  entrevista, CV, puntualidad, Constantia/constancia, organización, actitud
+  positiva y activa, etc.).
+- **La marca era la respuesta (R3):** 13 tarjetas la tenían dentro del
+  `<mark>` («buscar cada día», «registro», «pregunta, llama y entrega»,
+  «no te desanimes», «sigue formándote», «idiomas», «carta», «universidad»,
+  «Bachillerato», «ciclo», «certificado», «profesionales»…). Ahora la pista
+  va en texto plano y la marca queda con la analogía.
+- **Frases demasiado largas:** 16 tarjetas tenían frases de 13 a 30 palabras.
+  Ahora todas las frases de pista están en 12 o menos.
+- **Varias marcas por tarjeta:** 3 tarjetas tenían dos `<mark>`
+  (`carta-de-presentacion` 4 y `donde-buscar-empleo` 2) o cuatro
+  (`donde-buscar-empleo` 5). Ahora hay una sola marca por tarjeta.
+- **Legibilidad (R3 del auditor de lectura):** 8 tarjetas arrancaban por
+  «Es…» o «Hay…», que se lee como pregunta cerrada. Ahora arrancan por
+  «Un…», «Los…», «Te…», «Cada…», «Vas…» o «Sitios…».
+
+### Respuestas recortadas (regla de 1-6 palabras)
+
+Nueve respuestas eran frases enteras y violaban `CLAUDE.md` §B.8
+(`respuesta`: 1-6 palabras, nunca una frase):
+
+| Antes | Ahora |
+| --- | --- |
+| «Sé constante y busca cada día» | «Sé constante» |
+| «Sé organizado y lleva un registro de las ofertas» | «Sé organizado» |
+| «Sé activo: pregunta, llama y entrega tu CV» | «Sé activo» |
+| «Sé positivo: no te desanimes si no te llaman» | «Sé positivo» |
+| «Sigue formándote y mejora tus habilidades» | «Sigue formándote» |
+| «Conocerte a ti mismo, saber qué quieres hacer y prepararte bien» | «Conocerte, saber qué quieres y prepararte» |
+| «Buscar trabajo es un trabajo en sí mismo» | «Es un trabajo en sí mismo» |
+| «Una idea clara del tipo de trabajo que buscas» | «Saber qué tipo de trabajo buscas» |
+| «Explicar por qué te interesa el puesto» | «Por qué te interesa el puesto» |
+| «El currículum (CV) es el que resume tus datos, habilidades y experiencia en una página» | «El currículum (CV)» |
+| «Claro, breve (una página) y sin faltas de ortografía» | «Claro, breve y sin faltas» |
+
+Los cinco «Consejos» usan ahora el encabezado que les pone el propio
+cuaderno (pag68): «Sé constante», «Sé organizado», «Sé activo», «Sé
+positivo» y «Sigue formándose».
+
+### Tres imágenes que estaban descolocadas
+
+En `donde-buscar-empleo.json` cada una de las tres tarjetas del medio
+tenía la imagen de la siguiente:
+
+| Tarjeta | Imagen que tenía | Imagen que le toca |
+| --- | --- | --- |
+| Oficinas de empleo | `redes.jpg` (intercambio de tarjetas de visita) | `oficinas.jpg` (fachada de la Oficina de Empleo) |
+| Redes de contacto | `entrega-directa.jpg` (un joven entregando su currículum) | `redes.jpg` (intercambio de tarjetas de visita) |
+| Entrega directa | `oficinas.jpg` (fachada de la Oficina de Empleo) | `entrega-directa.jpg` (un joven entregando su currículum) |
+
+Reasignadas con su `title` y su `alt` (que describen lo que se ve).
+
+### El auditor de anclas
+
+`node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo`
+daba **36 de 44 tarjetas «sin ancla» (R4)** y 16 con otros avisos antes de
+este trabajo. Resultado actual: **44/44 con ancla, 0 R1, 0 R2, 0 R3**, y
+`node scripts/audit-deck-readability.js` **sin avisos en este tema**.
+
+Además se escribió `audit-out/strict-anchors.js`, una comprobación más
+dura que el auditor oficial: exige un ancla **por parte** de la respuesta y
+en **texto plano** (la guía §2.3 dice que el ancla no puede estar solo en
+la analogía del `<mark>`), que la respuesta no se regale ni en el texto ni
+en la marca, una sola marca por tarjeta, respuesta de 1-6 palabras y 2-4
+frases de pista de 12 palabras o menos. El tema 7 da **0 avisos** con ella.
+

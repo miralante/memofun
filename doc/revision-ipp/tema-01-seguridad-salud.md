@@ -294,9 +294,9 @@ volver a descubrirlas.
 | 2. El trabajo y la salud | Físico, mental y social | «el cuerpo» / «la cabeza» / «la gente» |
 | 2. El trabajo y la salud | El lugar de trabajo | «el sitio» |
 | 3. Condiciones de trabajo | Condiciones de trabajo | «el conjunto» / «características» |
-| 3. Condiciones de trabajo | Riesgo laboral | «esa posibilidad» / «el premio malo» |
-| 3. Condiciones de trabajo | Seguridad, medioambiente, ergonomía y psicosociales | «las máquinas y el sitio» / «lo que te rodea» / «cómo mueves el cuerpo» / «cómo te sientes» |
-| 3. Condiciones de trabajo | Conocer los riesgos y protegerse | «identificar» / «cubrirte» |
+| 3. Condiciones de trabajo | Riesgo laboral | «el premio malo» / «en el trabajo es la posibilidad» |
+| 3. Condiciones de trabajo | Seguridad, medioambiente, ergonomía y psicosociales | «las máquinas, las herramientas y el sitio» / «el aire, el ruido y los líquidos» / «mover el cuerpo» / «estar con la gente» |
+| 3. Condiciones de trabajo | Conocer los riesgos y protegerse | «identificas el peligro» / «te cubres» |
 | 3.1 Condiciones de seguridad | Condiciones de seguridad | «lo que hay en tu puesto» / «a salvo» |
 | 3.1 Condiciones de seguridad | Lugares de trabajo | «las zonas» |
 | 3.1 Condiciones de seguridad | Máquinas y herramientas | «un aparato, un instrumento» / «una instalación» |
@@ -313,7 +313,7 @@ volver a descubrirlas.
 | 3.2 Agentes químicos | Químicas | «se transforman» / «al mezclarse» |
 | 3.2 Agentes químicos | Toxicológicas | «sustancia que te puede hacer daño» / «ponerte malo» |
 | 3.2 Pictogramas | Peligroso para el medio | «peligro» / «entorno natural» |
-| 3.2 Pictogramas | Gas a presión | «va muy apretado» |
+| 3.2 Pictogramas | Gas a presión | «va muy apretado» / «una botella que empuja» |
 | 3.2 Pictogramas | Explosivo | «reventar de golpe» / «estalla» |
 | 3.2 Pictogramas | Comburente | «arda mejor» |
 | 3.2 Pictogramas | Inflamable | «prende fuego muy fácil» |
@@ -327,10 +327,10 @@ volver a descubrirlas.
 | 3.3 Carga de trabajo | Riesgos ergonómicos | «postura incómoda» |
 | 3.3 Carga de trabajo | Carga física | «con el cuerpo» / «cargar peso» |
 | 3.3 Carga de trabajo | Manipulación manual | «las manos» / «mueve los objetos» |
-| 3.3 Carga de trabajo | Posturas forzadas | «encorvado» |
+| 3.3 Carga de trabajo | Posturas forzadas | «el cuello y la espalda quedan encorvados» / «esa forma de estar» |
 | 3.3 Carga de trabajo | Esfuerzo físico | «cargar peso» / «los músculos» |
 | 3.3 Carga de trabajo | Movimientos repetitivos | «repetir» / «el mismo gesto» |
-| 3.3 Carga de trabajo | Carga mental | «la cabeza» / «piensa» / «cansa» |
+| 3.3 Carga de trabajo | Carga mental | «pide mucho» / «cansa» |
 
 ### Qué se reescribió (19 tarjetas)
 
@@ -370,3 +370,44 @@ riesgo, salud, agentes, pictogramas, carga de trabajo, ergonomía) y se
 corrigió el conteo de frases de pista, que contaba como frase el punto que
 deja el `<mark>` inicial. Resultado actual: **45/45 con ancla, 0 R3, 0 R1,
 0 R2**.
+
+---
+
+## Pase estricto: el ancla en texto plano (octubre 2026, segunda vuelta)
+
+El auditor oficial busca el ancla sobre el anverso **completo**, marca
+incluida, y solo exige **una** ancla por tarjeta. Eso deja pasar tarjetas
+que no cumplen la guía §2.3: «El ancla va en el anverso, **no solo** en la
+analogía de `<mark>`», y «una respuesta de dos partes necesita un ancla por
+parte».
+
+Se escribió `audit-out/strict-anchors.js`, que cuenta como ancla solo las
+palabras del anverso **fuera** del `<mark>`, exige un ancla por parte de la
+respuesta (una palabra detrás de preposición —«de trabajo»— forma parte
+del compuesto y no necesita la suya), comprueba que la respuesta no se
+regale ni en el texto ni en la marca, que haya una sola marca, que la
+respuesta tenga 1-6 palabras y que haya 2-4 frases de pista de 12 palabras
+o menos.
+
+En el tema 1 daba **16 avisos**. Doce se resolvieron ampliando el mapa de
+sinónimos del auditor (el texto plano ya tenía la palabra, el mapa no la
+conocía) y cuatro reescribiendo el anverso:
+
+| Tarjeta | Antes | Ahora |
+| --- | --- | --- |
+| Posturas forzadas | el ancla «encorvado» estaba dentro de la marca | «el cuello y la espalda quedan encorvados», en texto plano |
+| Carga mental | el ancla «la cabeza» estaba dentro de la marca | «pide mucho» / «cansa», en texto plano |
+| Máquinas y herramientas | el ancla «un aparato, un instrumento» estaba dentro de la marca | «todo lo que usas para trabajar a diario», y la marca describe la foto (herramientas viejas sobre un banco) |
+| Gas a presión | el ancla «botella» estaba dentro de la marca | «como una botella que empuja», en texto plano |
+
+Se corrigieron además:
+
+- **Riesgo laboral:** el anverso no decía ni una palabra de «laboral»;
+  ahora dice «En el trabajo es la posibilidad de que algo te pase».
+- **Las cuatro categorías de riesgos:** el anverso tenía cinco frases de
+  pista (el máximo son cuatro); ahora son tres y la marca se queda con la
+  analogía de la estantería.
+
+Resultado tras el pase: **45/45 con ancla, 0 avisos del auditor oficial,
+0 avisos del auditor de legibilidad y 0 avisos del comprobador estricto**.
+
