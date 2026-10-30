@@ -76,7 +76,16 @@ as a large title and `pregunta` as a small caption below it (image, if
 any, to the left — `tools/study/app.js`), so `pregunta`'s own
 analogy/example phrase is also wrapped in one `<mark></mark>` span
 (not the whole clue, not the closing question) to carry the same
-highlight color. Simple HTML only (`<mark>`, `<b>`, `<i>`, `<br>`).
+highlight color.
+
+The **anchor** word — the one that returns the term, by root or close
+synonym (see `guia-crear-elementos.md` §2.3) — goes in `pregunta`
+wrapped in `<u></u>`, and renders underlined in the accent color. It
+is a different signal from the `<mark>` pill: the pill marks the
+ANALOGY (the picture), the underline marks the ANCHOR (the word). The
+anchor belongs to the clue's plain text, not inside the analogy.
+
+Simple HTML only (`<mark>`, `<b>`, `<i>`, `<u>`, `<br>`).
 `App.decks` normalizes any file with this shape; a file with no
 `tarjetas` array is rejected.
 

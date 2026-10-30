@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "<mark>El suelo que pisas, la pared que tocas, la luz que ves</mark>. Si están mal, pueden hacerte daño. Si están bien, te mantienen a salvo. ¿Cómo se llama así lo que hay en tu puesto?",
+      "question": "<mark>El suelo que pisas, la pared que tocas, la luz que ves</mark>. Si están mal, pueden hacerte daño. Si están bien, te mantienen <u>a salvo</u>. ¿Cómo se llama así <u>lo que hay en tu puesto</u>?",
       "answer": "<mark>Condiciones de seguridad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad/condiciones-seguridad.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "<mark>El almacén, la oficina, el taller donde pasas tus horas</mark>. Son las zonas del centro donde trabajas. ¿Cómo se llaman esos sitios de trabajo?",
+      "question": "<mark>El almacén, la oficina, el taller donde pasas tus horas</mark>. Son <u>las zonas</u> del centro donde trabajas. ¿Cómo se llaman esos sitios de trabajo?",
       "answer": "<mark>Lugares de trabajo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad/lugares-de-trabajo.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "<mark>Un aparato, un instrumento, una instalación del sitio</mark>. Todo lo que usas para trabajar a diario. ¿Qué nombre tienen todas esas cosas?",
+      "question": "<mark>Un montón de objetos viejos sobre un banco de madera</mark>. Todo lo que usas para trabajar a diario. <u>Un aparato, un instrumento</u> o <u>una instalación</u> del sitio. ¿Qué nombre tienen todas esas cosas?",
       "answer": "<mark>Máquinas y herramientas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad/maquinas-y-herramientas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "<mark>Tocar un cable roto y notar un calambre en la mano</mark>. La corriente pasa por tu cuerpo. ¿Cómo se llama ese peligro?",
+      "question": "<mark>Tocar un cable roto y notar un calambre en la mano</mark>. <u>La corriente</u> pasa por tu cuerpo. ¿Cómo se llama ese peligro?",
       "answer": "<mark>Riesgo eléctrico</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad/riesgo-electrico.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "<mark>Un fuego que empieza y nadie lo controla</mark>. El humo y las llamas dañan a las personas. ¿Cómo se llama ese fuego peligroso?",
+      "question": "<mark>Un fuego que empieza y nadie lo controla</mark>. El humo y <u>las llamas</u> dañan a las personas. ¿Cómo se llama ese <u>fuego</u> peligroso?",
       "answer": "<mark>Riesgo de incendio</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-condiciones-seguridad/riesgo-de-incendio.jpg",

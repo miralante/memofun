@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Dentro de la organización se hacen muchas actividades. Crean y mantienen buenas relaciones entre sus miembros. <mark>Es como el trabajo de mantener la convivencia en un grupo</mark>. ¿Cómo se llama ese conjunto de actividades de la empresa?",
+      "question": "<u>Dentro</u> de la organización se hacen muchas actividades. Crean y mantienen buenas relaciones entre sus miembros. <mark>Es como el trabajo de mantener la convivencia en un grupo</mark>. ¿Cómo se llama ese conjunto de actividades de la empresa?",
       "answer": "<mark>La comunicación interna</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/comunicacion-interna.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "La información sube o baja por la empresa. Va de la dirección a los empleados, o al revés. <mark>Es como el telefonillo de un edificio: de planta a planta</mark>. ¿Cómo se llama este tipo de comunicación?",
+      "question": "La información <u>sube o baja</u> por la empresa. Va de la dirección a los empleados, o al revés. <mark>Es como el telefonillo de un edificio: de planta a planta</mark>. ¿Cómo se llama este tipo de comunicación?",
       "answer": "<mark>Comunicación vertical</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-vertical.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "El director avisa del cambio de horario de verano. La información baja de la dirección a los empleados. <mark>Es como un aviso pegado en todos los barrios</mark>. ¿Cómo se llama esta comunicación que baja de dirección a empleados?",
+      "question": "El director avisa del cambio de horario de verano. La información <u>baja</u> de la dirección a los empleados. <mark>Es como un aviso pegado en todos los barrios</mark>. ¿Cómo se llama esta comunicación que baja de dirección a empleados?",
       "answer": "<mark>Comunicación descendente</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-descendente.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "La información sube de los empleados a la dirección. Por ejemplo, un empleado propone una idea. <mark>Es como echar una carta al buzón: no sabes quién la leerá</mark>. ¿Cómo se llama esta comunicación que va de empleados a dirección?",
+      "question": "La información <u>sube</u> de los empleados a la dirección. Por ejemplo, un empleado propone una idea. <mark>Es como echar una carta al buzón: no sabes quién la leerá</mark>. ¿Cómo se llama esta comunicación que va de empleados a dirección?",
       "answer": "<mark>Comunicación ascendente</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-ascendente.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Un trabajador escribe a un compañero del mismo nivel. Los dos están en la misma línea. Lo hacen para organizar un proyecto juntos. <mark>Es como dos alumnos de clase hablando entre ellos, de igual a igual</mark>. ¿Cómo se llama esta comunicación entre iguales?",
+      "question": "Un trabajador escribe a un compañero del <u>mismo nivel</u>. Los dos están en la misma línea. Lo hacen para organizar un proyecto juntos. <mark>Es como dos alumnos de clase hablando entre ellos, de igual a igual</mark>. ¿Cómo se llama esta comunicación entre iguales?",
       "answer": "<mark>Comunicación horizontal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-horizontal.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Esta comunicación cruza los niveles. En una reunión participan el director, los mandos y los técnicos. <mark>Es como una mesa redonda donde todos se sientan juntos</mark>. ¿Cómo se llama esta comunicación que cruza niveles?",
+      "question": "Esta comunicación <u>cruza los niveles</u>. En una reunión participan el director, los mandos y los técnicos. <mark>Es como una mesa redonda donde todos se sientan juntos</mark>. ¿Cómo se llama esta comunicación que cruza niveles?",
       "answer": "<mark>Comunicación diagonal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-diagonal.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Los empleados usan el correo, la intranet o el tablón. Siguen las vías oficiales de la empresa. Todo está previsto y por escrito. <mark>Es como conducir por la derecha: es el camino marcado</mark>. ¿Cómo se llama esta comunicación que sigue las normas de la empresa?",
+      "question": "Los empleados usan el correo, la intranet o el tablón. Siguen las vías oficiales de la empresa. Todo está <u>previsto</u> y por escrito. <mark>Es como conducir por la derecha: es el camino marcado</mark>. ¿Cómo se llama esta comunicación que sigue las normas de la empresa?",
       "answer": "<mark>Comunicación formal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-formal.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Dos compañeros hablan junto a la máquina del café. Nadie lo anota de forma oficial. <mark>Es como una charla de bar: se dice y ya</mark>. ¿Cómo se llama esta charla que no sigue normas oficiales?",
+      "question": "Dos compañeros hablan junto a la máquina del café. <u>Nadie lo anota</u> de forma oficial. <mark>Es como una charla de bar: se dice y ya</mark>. ¿Cómo se llama esta charla que no sigue normas oficiales?",
       "answer": "<mark>Comunicación informal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/com-informal.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "La información se transmite con la voz. Se habla y se escucha. <mark>Es como una conversación de café</mark>. ¿Cómo se llama la comunicación que se transmite con la voz?",
+      "question": "La información se transmite con <u>la voz</u>. Se habla y se escucha. <mark>Es como una conversación de café</mark>. ¿Cómo se llama la comunicación que se transmite con la voz?",
       "answer": "<mark>Comunicación oral</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/comunicacion-oral.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "La información se transmite con lo escrito. Se usa un texto en papel o en pantalla. <mark>Es como dejar una nota en la mesa en vez de contarlo de viva voz</mark>. ¿Cómo se llama la comunicación que se transmite con el lenguaje escrito?",
+      "question": "La información se transmite con lo escrito. Se usa <u>un texto en papel</u> o en pantalla. <mark>Es como dejar una nota en la mesa en vez de contarlo de viva voz</mark>. ¿Cómo se llama la comunicación que se transmite con el lenguaje escrito?",
       "answer": "<mark>Comunicación escrita</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/comunicacion-escrita.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "No usa palabras. Se apoya en gestos, en la cara o en el cuerpo. <mark>Es como entender que tu compañero está cansado solo por cómo mira</mark>. ¿Cómo se llama la comunicación que se apoya en gestos?",
+      "question": "No usa palabras. Se apoya en <u>gestos</u>, en la cara o en el cuerpo. <mark>Es como entender que tu compañero está cansado solo por cómo mira</mark>. ¿Cómo se llama la comunicación que se apoya en gestos?",
       "answer": "<mark>Comunicación no verbal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/comunicacion-no-verbal.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Una nota corta que un departamento envía a otro. Pide algo o da una orden. <mark>Es como un post-it pegado en la puerta de un compañero</mark>. ¿Cómo se llama este documento interno?",
+      "question": "Una <u>nota corta</u> que un departamento envía a otro. Pide algo o da una orden. <mark>Es como un post-it pegado en la puerta de un compañero</mark>. ¿Cómo se llama este documento interno?",
       "answer": "<mark>Memorando (nota interior)</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/memorando.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "Arriba, quién lo envía y a quién va. Después, lo que pide. Abajo, el día y la rúbrica. <mark>Es como un email de la empresa: de quién es, a quién va, qué pide y quién lo firma</mark>. ¿Qué cuatro apartados tiene un memorando?",
+      "question": "Arriba, quién lo envía y a quién va. Después, lo que pide. <u>Abajo</u>, el día y la rúbrica. <mark>Es como un email de la empresa: de quién es, a quién va, qué pide y quién lo firma</mark>. ¿Qué cuatro apartados tiene un memorando?",
       "answer": "<mark>Cabecera, De/A, cuerpo y pie</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/estructura-memorando.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "question": "Un documento breve para todos los trabajadores. Por ejemplo, el que avisa de una revisión médica. <mark>Es como un cartel grande en la puerta de la oficina</mark>. ¿Cómo se llama este documento?",
+      "question": "Un documento breve para todos los trabajadores. Por ejemplo, el que <u>avisa</u> de una revisión médica. <mark>Es como un cartel grande en la puerta de la oficina</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Aviso</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/aviso.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "question": "Un documento que envía el mismo mensaje a muchos departamentos. Para que la información llegue a todos. <mark>Es como un grupo de WhatsApp: un solo mensaje para todos</mark>. ¿Cómo se llama ese documento que recorre toda la empresa?",
+      "question": "Un documento que envía el mismo mensaje a muchos departamentos. Para que la información <u>llegue a todos</u>. <mark>Es como un grupo de WhatsApp: un solo mensaje para todos</mark>. ¿Cómo se llama ese documento que recorre toda la empresa?",
       "answer": "<mark>Circular interna</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/circular-interna.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "question": "Una circular interna lleva el papel de la entidad que la manda. También un código que la identifica y el tema del que trata. Luego dónde y el día, y el nombre de quien la pone. <mark>Es como un cartel oficial: un papel con el nombre, un título y la rúbrica de quien lo coloca</mark>. ¿Qué elementos lleva una circular interna?",
+      "question": "Una circular interna lleva el <u>papel de la entidad</u> que la manda. También un código que la identifica y el tema del que trata. Luego dónde y el día, y el nombre de quien la pone. <mark>Es como un cartel oficial: un papel con el nombre, un título y la rúbrica de quien lo coloca</mark>. ¿Qué elementos lleva una circular interna?",
       "answer": "<mark>Membrete, número, asunto, fecha y firma</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/elementos-circular.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "question": "Se usa en empresas públicas y es un documento oficial. No sale de la empresa: lleva el papel de la entidad. Y el nombre del receptor y el tema del que trata. <mark>Es como una carta oficial, pero que no sale de la empresa</mark>. ¿Cómo se llama este documento?",
+      "question": "Se usa en empresas públicas y es un <u>documento oficial</u>. No sale de la empresa: lleva el papel de la entidad. Y el nombre del receptor y el tema del que trata. <mark>Es como una carta oficial, pero que no sale de la empresa</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Oficio interno</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/oficio-interno.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "question": "El oficio interno lleva el papel de la entidad que lo manda. También el sello del registro, el nombre del receptor y el departamento. El tema, dónde y el día, y la rúbrica con el resguardo. <mark>Es como una carta que además lleva la marca de salida y te devuelven un papel firmado</mark>. ¿Qué elementos lleva un oficio interno?",
+      "question": "El oficio interno lleva el papel de la entidad que lo manda. También el sello del registro, el nombre del receptor y el departamento. El tema, dónde y el día, y la rúbrica con <u>el resguardo</u>. <mark>Es como una carta que además lleva la marca de salida y te devuelven un papel firmado</mark>. ¿Qué elementos lleva un oficio interno?",
       "answer": "<mark>Membrete, sello, asunto, fecha y recibo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/oficio-sello.jpg",
@@ -220,7 +220,7 @@
       }
     },
     {
-      "question": "Un documento que informa de forma ordenada. Recoge los datos, los hechos y las conclusiones de un tema. <mark>Es como un resumen ordenado de lo que pasó en una reunión</mark>. ¿Cómo se llama este documento?",
+      "question": "Un documento que informa de forma ordenada. Recoge los datos, los hechos y <u>las conclusiones</u> de un tema. <mark>Es como un resumen ordenado de lo que pasó en una reunión</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Informe</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/informe.jpg",
@@ -232,7 +232,7 @@
       }
     },
     {
-      "question": "El documento donde se anotan los acuerdos de una reunión. Queda como registro oficial. <mark>Es como los apuntes de clase de quien no pudo ir</mark>. ¿Cómo se llama este documento?",
+      "question": "El documento donde se anotan <u>los acuerdos</u> de una reunión. Queda como registro oficial. <mark>Es como los apuntes de clase de quien no pudo ir</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Acta</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos/acta.jpg",

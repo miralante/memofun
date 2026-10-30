@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Una pieza son los estudios: FP Básica, Grado Medio, Grado Superior y, si quieres, Universidad. <mark>Es como los escalones de una escalera, uno detrás de otro</mark>. ¿Cómo se llama esta pieza del itinerario?",
+      "question": "Una pieza son <u>los estudios</u>: FP Básica, Grado Medio, Grado Superior y, si quieres, Universidad. <mark>Es como los escalones de una escalera, uno detrás de otro</mark>. ¿Cómo se llama esta pieza del itinerario?",
       "answer": "<mark>Formación académica</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/fp-grados.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Otra pieza son las prácticas, los trabajos temporales o el voluntariado. <mark>Es como las etapas en las que te pruebas a ti mismo</mark>. ¿Cómo se llama esta pieza?",
+      "question": "Otra pieza son <u>las prácticas</u>, los trabajos temporales o el voluntariado. <mark>Es como las etapas en las que te pruebas a ti mismo</mark>. ¿Cómo se llama esta pieza?",
       "answer": "<mark>Experiencias laborales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/experiencia.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Otra pieza es seguir aprendiendo: idiomas, informática o habilidades sociales. <mark>Es como las herramientas extra que llevas en la mochila</mark>. ¿Cómo se llama esta pieza?",
+      "question": "Otra pieza es <u>seguir aprendiendo</u>: idiomas, informática o habilidades sociales. <mark>Es como las herramientas extra que llevas en la mochila</mark>. ¿Cómo se llama esta pieza?",
       "answer": "<mark>Formación complementaria</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/formacion-continua.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "El itinerario admite cambios: si algo no te gusta, puedes cambiar de camino. <mark>Es como la rotonda en la que puedes salir por otra calle</mark>. ¿Cómo se llama esta pieza?",
+      "question": "El itinerario admite cambios: si algo no te gusta, puedes <u>cambiar de camino</u>. <mark>Es como la rotonda en la que puedes salir por otra calle</mark>. ¿Cómo se llama esta pieza?",
       "answer": "<mark>Cambios de rumbo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario/cambios.jpg",

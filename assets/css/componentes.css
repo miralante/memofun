@@ -764,6 +764,23 @@ header.app-header .tagline {
   font-weight: var(--weight-strong);
 }
 
+/* El ANCLA —la palabra del anverso que devuelve el término de la
+   respuesta (guia-crear-elementos.md §2.3)— va envuelta en <u> y se
+   dibuja SUBRAYADA en el color de acento.
+
+   Son dos señales distintas y complementarias: la píldora de <mark>
+   marca la ANALOGÍA (la imagen que hace tangible la pista) y el
+   subrayado marca el ANCLA (la palabra que devuelve el término). El
+   texto del ancla conserva su color normal —solo cambia el subrayado—
+   para que no se confunda con la píldora ni compita con la pregunta
+   final, que va en negrita. */
+.flashcard .face u {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
 /* Visual-support thumbnail: sits to the LEFT of the card's text on
    wider viewports (read-only picture alongside the question/answer)
    and stacks above the text on narrow phones so the reading width

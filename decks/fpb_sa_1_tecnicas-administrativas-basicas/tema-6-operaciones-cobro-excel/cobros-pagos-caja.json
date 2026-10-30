@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "A diario se anotan los cobros y los pagos en efectivo. Cada entrada y salida de dinero es un movimiento anotado. <mark>Es como el monedero de la empresa, siempre en movimiento</mark>. ¿Qué nombre reciben estos movimientos de dinero?",
+      "question": "A diario se anotan los cobros y los pagos en efectivo. Cada entrada y salida de dinero es un <u>movimiento anotado</u>. <mark>Es como el monedero de la empresa, siempre en movimiento</mark>. ¿Qué nombre reciben estos movimientos de dinero?",
       "answer": "<mark>Operaciones de caja</mark>",
       "image": {
         "title": "Caja registradora antigua",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Un cliente te entrega dinero por un producto o un servicio. <mark>Es como recibir el pago justo por lo que se entrega</mark>. Debe registrarse siempre, aunque sea poco. ¿Qué nombre recibe el dinero que entra?",
+      "question": "Un cliente <u>te entrega dinero</u> por un producto o un servicio. <mark>Es como recibir el pago justo por lo que se entrega</mark>. Debe registrarse siempre, aunque sea poco. ¿Qué nombre recibe el dinero que entra?",
       "answer": "<mark>Cobro</mark>",
       "image": {
         "title": "cashier at wine store",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Para un gasto pequeño, como una copia o un envío, sacas dinero. <mark>Es como pagar un café con el cambio de la caja</mark>. También debe quedar registrado, igual que los cobros. ¿Qué nombre recibe el dinero que sale?",
+      "question": "Para un gasto pequeño, como una copia o un envío, <u>sacas dinero</u>. <mark>Es como pagar un café con el cambio de la caja</mark>. También debe quedar registrado, igual que los cobros. ¿Qué nombre recibe el dinero que sale?",
       "answer": "<mark>Pago</mark>",
       "image": {
         "title": "$900 Cash",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Cada cobro y cada pago dejan un papel que hay que guardar. Sirve para demostrar lo que se ha pagado. <mark>Es como guardar un ticket por si hay que demostrar que pagaste</mark>. ¿Qué conviene hacer con esos papeles?",
+      "question": "Cada cobro y cada pago dejan un papel que <u>hay que guardar</u>. Sirve para demostrar lo que se ha pagado. <mark>Es como guardar un ticket por si hay que demostrar que pagaste</mark>. ¿Qué conviene hacer con esos papeles?",
       "answer": "<mark>Guardarlos</mark>",
       "image": {
         "title": "Midvale Company employee Miss Froelieb at file cabinet in main office, 1930",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Cada mes, la empresa entrega un papel con tu sueldo. Ahí pone lo que has cobrado y lo que te han descontado. <mark>Es como un resumen de tu sueldo, con lo que te quitan</mark>. ¿Cómo se llama este documento?",
+      "question": "Cada mes, la empresa entrega un papel con <u>tu sueldo</u>. Ahí pone lo que has cobrado y lo que te han descontado. <mark>Es como un resumen de tu sueldo, con lo que te quitan</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Nómina</mark>",
       "image": {
         "title": "Weddestrook Defensie 1967.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "La compañía donde trabajas te entrega un papel cada mes. Están tus nombres, lo que ganas y lo que te quitan. También dice la cantidad que hay que cobrar. <mark>Es como una ficha que dice cuánto se paga y por qué</mark>. ¿Qué información básica trae ese papel?",
+      "question": "La compañía donde trabajas te entrega un papel cada mes. Están <u>tus nombres</u>, <u>lo que ganas</u> y lo que te quitan. También dice <u>la cantidad</u> que hay que cobrar. <mark>Es como una ficha que dice cuánto se paga y por qué</mark>. ¿Qué información básica trae ese papel?",
       "answer": "<mark>Los datos de la empresa y de la persona trabajadora, el sueldo, los descuentos y el importe que se cobra</mark>",
       "image": {
         "title": "May 1960 Pay Slip",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Anotas cada entrada y salida en un libro. Sirve para comprobar que el dinero cuadra. <mark>Es como revisar las cuentas de un juego al final</mark>. ¿Qué conviene llevar de los cobros y pagos en caja?",
+      "question": "<u>Anotas</u> cada entrada y salida en un libro. Sirve para comprobar que el dinero cuadra. <mark>Es como revisar las cuentas de un juego al final</mark>. ¿Qué conviene llevar de los cobros y pagos en caja?",
       "answer": "<mark>Un registro claro</mark>",
       "image": {
         "title": "Minute Book of the George Waterston Letterpress Chapel, 1913 - 1956",

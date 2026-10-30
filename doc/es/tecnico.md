@@ -81,9 +81,17 @@ pequeño debajo (imagen, si la hay, a la izquierda —
 `tools/study/app.js`), así que la propia analogía/ejemplo de
 `pregunta` también va envuelta en un `<mark></mark>` (no toda la
 pista, no la pregunta final) para llevar el mismo color de resaltado.
-HTML simple únicamente (`<mark>`, `<b>`, `<i>`, `<br>`). `App.decks`
-normaliza cualquier archivo con esta forma; un archivo sin `tarjetas`
-(array) se rechaza.
+
+La palabra **ancla** —la que devuelve el término, raíz o sinónimo
+cercano (ver `guia-crear-elementos.md` §2.3)— va en `pregunta`
+envuelta en `<u></u>`, y sale subrayada en el color de acento. Es una
+señal distinta de la píldora de `<mark>`: la píldora marca la
+analogía (la imagen) y el subrayado marca el ancla (la palabra). El
+ancla va en el texto del anverso, no dentro de la analogía.
+
+HTML simple únicamente (`<mark>`, `<b>`, `<i>`, `<u>`, `<br>`).
+`App.decks` normaliza cualquier archivo con esta forma; un archivo sin
+`tarjetas` (array) se rechaza.
 
 ### 3.1 Imagen opcional por tarjeta (`imagen`)
 

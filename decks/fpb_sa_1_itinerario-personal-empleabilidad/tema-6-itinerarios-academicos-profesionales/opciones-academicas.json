@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Tras terminar el grado básico tienes varias salidas. Puedes seguir formándote o trabajar. <mark>Es como las bocas de una bifurcación en la carretera</mark>. ¿Cómo se llaman?",
+      "question": "Tras terminar el grado básico <u>tienes varias salidas</u>. Puedes seguir formándote o trabajar. <mark>Es como las bocas de una bifurcación en la carretera</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Opciones académicas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/opciones.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Tras la ESO, dos años de estudios en un nivel intermedio. Te da un título profesional. <mark>Es como un salto que te deja a mitad de camino</mark>. ¿Cómo se llama?",
+      "question": "Tras la ESO, <u>dos años de estudios</u> en un nivel intermedio. Te da un título profesional. <mark>Es como un salto que te deja a mitad de camino</mark>. ¿Cómo se llama?",
       "answer": "<mark>Ciclo formativo de grado medio</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/grado-medio.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Viene después del nivel intermedio: son dos años más. Es el nivel más alto. Permite entrar en la universidad. <mark>Es como subir un peldaño y tocar la cima</mark>. ¿Cómo se llama?",
+      "question": "Viene después del nivel intermedio: son dos años más. Es <u>el nivel más alto</u>. Permite entrar en la universidad. <mark>Es como subir un peldaño y tocar la cima</mark>. ¿Cómo se llama?",
       "answer": "<mark>Ciclo formativo de grado superior</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/grado-superior.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Dos años de estudios generales. El puente entre la ESO y la universidad. <mark>Es como el pasillo que conecta dos plantas</mark>. ¿Cómo se llama?",
+      "question": "Dos años de <u>estudios generales</u>. El puente entre la ESO y la universidad. <mark>Es como el pasillo que conecta dos plantas</mark>. ¿Cómo se llama?",
       "answer": "<mark>Bachillerato</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/bachillerato.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Cuatro años de estudios superiores después del puente. Ahí se cursan los títulos universitarios. <mark>Es como la última planta, la más alta del edificio</mark>. ¿Cómo se llama?",
+      "question": "Cuatro años de <u>estudios superiores</u> después del puente. Ahí se cursan los títulos universitarios. <mark>Es como la última planta, la más alta del edificio</mark>. ¿Cómo se llama?",
       "answer": "<mark>Universidad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/universidad.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Formación más corta y específica, centrada en un solo oficio. Acredita una cualificación y combina teoría y práctica. <mark>Es como una receta con solo los pasos de ese oficio</mark>. ¿Cómo se llama?",
+      "question": "Formación más corta y específica, centrada en <u>un solo oficio</u>. Acredita una cualificación y combina teoría y práctica. <mark>Es como una receta con solo los pasos de ese oficio</mark>. ¿Cómo se llama?",
       "answer": "<mark>Certificado de profesionalidad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas/fp.jpg",

@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "<mark>Lo que oyes, lo que ves y lo que sientes en el cuerpo</mark>. Son distintas formas de energía. Si están en el trabajo, pueden hacer daño. ¿Cómo se llama esa familia de riesgos?",
+      "question": "<mark>Lo que oyes, lo que ves y lo que sientes en el cuerpo</mark>. Son distintas <u>formas de energía</u>. Si están en el trabajo, pueden hacer daño. ¿Cómo se llama esa familia de riesgos?",
       "answer": "<mark>Agentes físicos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/agentes-fisicos.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "<mark>El estruendo de un martillo en la calle</mark>. Es el sonido que oyes con los oídos. Si se repite, puede dejarte sordo. ¿Cómo se llama ese sonido?",
+      "question": "<mark>El estruendo de un martillo en la calle</mark>. Es <u>el sonido</u> que oyes con los oídos. Si se repite, puede dejarte sordo. ¿Cómo se llama ese sonido?",
       "answer": "<mark>Ruido</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/ruido.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "<mark>La bombilla del techo que alumbra tu mesa</mark>. Es la luz que te deja ver bien. Si falta o sobra, la vista se cansa. ¿Cómo se llama esa forma de energía?",
+      "question": "<mark>La bombilla del techo que alumbra tu mesa</mark>. Es <u>la luz</u> que te deja ver bien. Si falta o sobra, la vista se cansa. ¿Cómo se llama esa forma de energía?",
       "answer": "<mark>Iluminación</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/iluminacion.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "<mark>Los rayos que suelta una máquina de rayos X</mark>. El sol también te manda rayos por la ventana. Son una forma de energía que no oyes. ¿Cómo se llama esa forma de energía?",
+      "question": "<mark>Los rayos que suelta una máquina de rayos X</mark>. El sol también te manda <u>rayos</u> por la ventana. Son una forma de energía que no oyes. ¿Cómo se llama esa forma de energía?",
       "answer": "<mark>Radiaciones</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/radiaciones.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "<mark>El cosquilleo que sube por el brazo al usar una lijadora</mark>. La notas hasta en los dientes con la máquina encendida. Son temblores que te recorren el cuerpo. ¿Qué nombre tiene esa forma de energía?",
+      "question": "<mark>El cosquilleo que sube por el brazo al usar una lijadora</mark>. La notas hasta en los dientes con la máquina encendida. Son <u>temblores</u> que te recorren el cuerpo. ¿Qué nombre tiene esa forma de energía?",
       "answer": "<mark>Vibraciones</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/vibraciones.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "<mark>Un almacén a 40 grados en pleno agosto</mark>. O una cámara de congelación donde hace un frío helado. El calor y el frío son formas de energía. ¿Cómo se llama esa forma de energía?",
+      "question": "<mark>Un almacén a 40 grados en pleno agosto</mark>. O una cámara de congelación donde hace un frío helado. <u>El calor y el frío</u> son formas de energía. ¿Cómo se llama esa forma de energía?",
       "answer": "<mark>Temperatura</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/temperatura.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "<mark>El líquido de un bote de limpieza del aula</mark>. El peligro está en cómo se comporta la sustancia. Si está presente en el trabajo, puede hacer daño. ¿Cómo se llama esa familia de sustancias?",
+      "question": "<mark>El líquido de un bote de limpieza del aula</mark>. El peligro está en <u>cómo se comporta</u> <u>la sustancia</u>. Si está presente en el trabajo, puede hacer daño. ¿Cómo se llama esa familia de sustancias?",
       "answer": "<mark>Agentes químicos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/agentes-quimicos.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "<mark>La presión del bote y lo rápido que se incendia</mark>. Así se comporta un producto cuando lo usas o lo tocas. ¿Cómo se llama esa familia de propiedades?",
+      "question": "<mark>La presión del bote y lo rápido que se incendia</mark>. Así se <u>comporta</u> un producto cuando lo usas o lo tocas. ¿Cómo se llama esa familia de propiedades?",
       "answer": "<mark>Físicoquímicas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/fisicoquimicas.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "<mark>Que al echar dos líquidos uno en otro cambien de color</mark>. Las sustancias se transforman al mezclarse. ¿Cómo se llama esa familia de propiedades?",
+      "question": "<mark>Que al echar dos líquidos uno en otro cambien de color</mark>. Las sustancias <u>se transforman</u> <u>al mezclarse</u>. ¿Cómo se llama esa familia de propiedades?",
       "answer": "<mark>Químicas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/quimicas.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "<mark>El moho verdoso que aparece en una fruta olvidada</mark>. Es una sustancia que te puede hacer mucho daño. Comerla puede ponerte malo. ¿Cómo se llama esa familia de propiedades?",
+      "question": "<mark>El moho verdoso que aparece en una fruta olvidada</mark>. Es una sustancia que te puede hacer mucho daño. Comerla puede <u>ponerte malo</u>. ¿Cómo se llama esa familia de propiedades?",
       "answer": "<mark>Toxicológicas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/toxicologicas.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo rojo con un árbol y un pez sobre el agua</mark>. Es un peligro para el entorno natural. Avisa de que daña el aire, el agua y los seres vivos. ¿Qué nombre tiene ese rombo?",
+      "question": "<mark>Un rombo rojo con un árbol y un pez sobre el agua</mark>. Es un <u>peligro</u> para el <u>entorno natural</u>. Avisa de que daña el aire, el agua y los seres vivos. ¿Qué nombre tiene ese rombo?",
       "answer": "<mark>Peligroso para el medio</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/peligroso-para-el-medio-pictograma.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo rojo con el dibujo de una botella de metal</mark>. El aviso dice que dentro va muy apretado. ¿Qué nombre tiene ese rombo?",
+      "question": "<mark>Un rombo rojo con el dibujo de una botella de metal</mark>. El aviso dice que dentro <u>va muy apretado</u>. Como <u>una botella que empuja</u>. ¿Qué nombre tiene ese rombo?",
       "answer": "<mark>Gas a presión</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/gas-a-presion-pictograma.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo rojo con un dibujo que estalla en trozos</mark>. El aviso dice que la materia puede reventar de golpe. ¿Qué pone el rombo?",
+      "question": "<mark>Un rombo rojo con un dibujo que estalla en trozos</mark>. El aviso dice que la materia puede <u>reventar de golpe</u>. ¿Qué pone el rombo?",
       "answer": "<mark>Explosivo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/explosivo-pictograma.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo con una llama encima de un círculo</mark>. No es el fuego: es lo que hace que arda mejor. ¿Qué pone ese rombo?",
+      "question": "<mark>Un rombo con una llama encima de un círculo</mark>. No es el fuego: es lo que hace que <u>arda mejor</u>. ¿Qué pone ese rombo?",
       "answer": "<mark>Comburente</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/comburente-pictograma.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo rojo con una llama dentro</mark>. Avisa de que el producto prende fuego muy fácil. ¿Qué pone el rombo?",
+      "question": "<mark>Un rombo rojo con una llama dentro</mark>. Avisa de que el producto <u>prende fuego muy fácil</u>. ¿Qué pone el rombo?",
       "answer": "<mark>Inflamable</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/inflamable-pictograma.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo con una mano y gotas que se comen la mesa</mark>. El dibujo enseña que el líquido destruye la superficie. ¿Qué pone el rombo?",
+      "question": "<mark>Un rombo con una mano y gotas que se comen la mesa</mark>. El dibujo enseña que el líquido <u>destruye la superficie</u>. ¿Qué pone el rombo?",
       "answer": "<mark>Corrosivo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/corrosivo-pictograma.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo con un signo de exclamación dentro</mark>. El signo avisa de que puede hacer daño al cuerpo. ¿Qué pone el rombo?",
+      "question": "<mark>Un rombo con un signo de exclamación dentro</mark>. El signo avisa de que puede hacer <u>daño al cuerpo</u>. ¿Qué pone el rombo?",
       "answer": "<mark>Peligro para la salud</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/peligro-para-la-salud-pictograma.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo con una calavera y dos huesos cruzados</mark>. Ese dibujo avisa de que el producto es muy dañino. ¿Qué pone el rombo?",
+      "question": "<mark>Un rombo con una calavera y dos huesos cruzados</mark>. Ese dibujo avisa de que el producto es <u>muy dañino</u>. ¿Qué pone el rombo?",
       "answer": "<mark>Toxicidad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/toxicidad-pictograma.jpg",
@@ -220,7 +220,7 @@
       }
     },
     {
-      "question": "<mark>Un rombo con una persona y una estrella en el pecho</mark>. El dibujo avisa de que el daño puede ser serio. ¿Qué pone el rombo?",
+      "question": "<mark>Un rombo con una persona y una estrella en el pecho</mark>. El dibujo avisa de que <u>el daño puede ser serio</u>. ¿Qué pone el rombo?",
       "answer": "<mark>Peligro grave</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/peligro-grave-pictograma.jpg",
@@ -232,7 +232,7 @@
       }
     },
     {
-      "question": "<mark>Los gérmenes que vuelan cuando alguien tose</mark>. También virus y bacterias que viven en el aire. Son seres vivos que te pueden caer encima. ¿Cómo se llama esa familia de seres vivos?",
+      "question": "<mark>Los gérmenes que vuelan cuando alguien tose</mark>. También virus y bacterias que viven en el aire. Son <u>seres vivos</u> que te pueden caer encima. ¿Cómo se llama esa familia de seres vivos?",
       "answer": "<mark>Agentes biológicos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/agentes-biologicos.jpg",
@@ -244,7 +244,7 @@
       }
     },
     {
-      "question": "<mark>Un compañero está acatarrado y estornuda cerca de ti</mark>. Sus gérmenes pueden pasarte. Por eso conviene lavarse las manos. ¿Cómo se llama ese contacto con los gérmenes de otra persona?",
+      "question": "<mark>Un compañero está acatarrado y estornuda cerca de ti</mark>. Sus gérmenes pueden pasarte. Por eso conviene lavarse las manos. ¿Cómo se llama <u>ese contacto</u> con los gérmenes de otra persona?",
       "answer": "<mark>Exposición</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/riesgos-ambientales/exposicion.jpg",

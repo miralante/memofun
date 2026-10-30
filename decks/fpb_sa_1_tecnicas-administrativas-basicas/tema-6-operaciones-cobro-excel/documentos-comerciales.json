@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Al terminar una venta, el cliente recibe un papel oficial.  therein va lo comprado y lo que tiene que pagar. Lleva el precio, los impuestos y los datos de comprador y vendedor. <mark>Es como un recibo oficial de una compra</mark>. ¿Cómo se llama este documento?",
+      "question": "Al terminar una venta, el cliente recibe un papel oficial. En ella va lo comprado y <u>lo que tiene que pagar</u>. Lleva el precio, los impuestos y los datos de comprador y vendedor. <mark>Es como un recibo oficial de una compra</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Factura</mark>",
       "image": {
         "title": "Please pay this amount",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Cuando el transportista deja la mercancía en el almacén, entrega un papel. <mark>Es como un recibo que dice que todo llegó bien</mark>. Ahí consta lo que ha traído. Luego sirve para preparar la factura. ¿Cómo se llama este documento?",
+      "question": "Cuando el transportista deja la mercancía en el almacén, entrega un papel. <mark>Es como un recibo que dice que todo llegó bien</mark>. Ahí consta <u>lo que ha traído</u>. Luego sirve para preparar la factura. ¿Cómo se llama este documento?",
       "answer": "<mark>Albarán</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/albaran.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Un cliente escribe a un proveedor para pedirle los productos que necesita. <mark>Es como una lista de la compra, pero por escrito y oficial</mark>. ¿Cómo se llama este documento?",
+      "question": "Un cliente <u>escribe</u> a un proveedor para pedirle los productos que necesita. <mark>Es como una lista de la compra, pero por escrito y oficial</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Pedido</mark>",
       "image": {
         "title": "Clipboard Hand",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "<mark>Rellenas un papel pidiendo lo que quieres comprar</mark>. El vendedor debe confirmarlo antes de servirlo. Si los dos aceptan, queda un compromiso de compra y venta. ¿Cómo se llama este documento inicial?",
+      "question": "<mark>Rellenas un papel pidiendo lo que quieres comprar</mark>. El vendedor debe confirmarlo antes de servirlo. Si los dos aceptan, queda <u>un compromiso de compra</u> y venta. ¿Cómo se llama este documento inicial?",
       "answer": "<mark>Nota de pedido</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales/nota-pedido-formulario.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Son muchas casillas: quién manda, quién compra, qué día. Lleva un código y el desglose de cada línea. Cada línea dice cuántos artículos son y cuánto vale cada uno. Abajo, la suma sin impuestos y, sumados, lo que se paga. <mark>Es como un parte con todas las cuentas de la compra</mark>. ¿Qué información básica incluye este papel?",
+      "question": "Son muchas casillas: <u>quién manda</u>, <u>quién compra</u>, <u>qué día</u>. Lleva un código y el desglose de cada línea. Cada línea dice cuántos artículos son y cuánto vale cada uno. Abajo, la suma sin <u>los impuestos</u> y, sumados, lo que se paga. <mark>Es como un parte con todas las cuentas de la compra</mark>. ¿Qué información básica incluye este papel?",
       "answer": "<mark>Datos del emisor y del cliente, fecha y número, y el detalle: cantidad, concepto, precio unitario, subtotal, IVA y total</mark>",
       "image": {
         "title": "Please pay this amount",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Antes de comprar algo, pides el precio por escrito. No es un compromiso de compra, solo una estimación. <mark>Es como pedir precio antes de decidir si compras algo</mark>. ¿Cómo se llama este documento?",
+      "question": "Antes de comprar algo, pides <u>el precio por escrito</u>. No es un compromiso de compra, solo una estimación. <mark>Es como pedir precio antes de decidir si compras algo</mark>. ¿Cómo se llama este documento?",
       "answer": "<mark>Presupuesto</mark>",
       "image": {
         "title": "Calculator and Pen with Ledger",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Comparar precios de distintos proveedores ayuda a decidir mejor. <mark>Es como comparar precios en distintas tiendas antes de elegir dónde comprar</mark>. Pide más de uno y sabrás cuál te conviene. ¿Qué conviene pedir antes de comprar?",
+      "question": "<u>Comparar precios</u> de distintos proveedores ayuda a decidir mejor. <mark>Es como comparar precios en distintas tiendas antes de elegir dónde comprar</mark>. Pide más de uno y sabrás cuál te conviene. ¿Qué conviene pedir antes de comprar?",
       "answer": "<mark>Varios presupuestos</mark>",
       "image": {
         "title": "Does sale mean lower prices or does it mean get outta here",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Para hacer trámites, unos papeles con un formato fijo. Solo hay que rellenar sus casillas. <mark>Es como una plantilla que solo hay que completar con tus datos</mark>. ¿Cómo se llaman estos documentos?",
+      "question": "Para hacer trámites, <u>unos papeles</u> con un formato fijo. Solo hay que rellenar sus casillas. <mark>Es como una plantilla que solo hay que completar con tus datos</mark>. ¿Cómo se llaman estos documentos?",
       "answer": "<mark>Impresos oficiales</mark>",
       "image": {
         "title": "Filing Taxes - 1040 Form",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Un dato mal escrito puede retrasar o invalidar todo el trámite. Conviene escribirlo con cuidado y sin errores. <mark>Es como un error en un formulario: hay que empezar de nuevo</mark>. ¿Qué conviene hacer al rellenar un impreso oficial?",
+      "question": "Un dato mal escrito puede retrasar o invalidar todo el trámite. Conviene escribirlo con cuidado y <u>sin errores</u>. <mark>Es como un error en un formulario: hay que empezar de nuevo</mark>. ¿Qué conviene hacer al rellenar un impreso oficial?",
       "answer": "<mark>Rellenarlo bien</mark>",
       "image": {
         "title": "Legal Contract & Signature - Cool Tones",

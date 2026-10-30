@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "No basta con los conocimientos técnicos. También hay que desarrollar las habilidades y características que son solo tuyas. <mark>Es como tu ficha personal</mark>. ¿Cómo se llaman?",
+      "question": "No basta con los conocimientos técnicos. También hay que desarrollar las habilidades y características que son <u>solo tuyas</u>. <mark>Es como tu ficha personal</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Competencias personales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/importancia-competencias-personales/definicion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Las habilidades para interactuar con los demás. Y para colaborar con ellos en el trabajo. <mark>Es como el saber estar con la gente</mark>. ¿Cómo se llaman?",
+      "question": "Las habilidades para <u>interactuar con los demás</u>. Y para colaborar con ellos en el trabajo. <mark>Es como el saber estar con la gente</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Competencias sociales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/importancia-competencias-personales/equipo.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Las empresas valoran mucho esto. Son las que no son técnicas. Y hacen que la empresa funcione mejor. <mark>Es como el manual de convivencia de un centro</mark>. ¿Cómo se llama?",
+      "question": "Las empresas valoran mucho esto. Son las que <u>no son técnicas</u>. Y hacen que la empresa funcione mejor. <mark>Es como el manual de convivencia de un centro</mark>. ¿Cómo se llama?",
       "answer": "<mark>Las habilidades blandas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/importancia-competencias-personales/convivencia.jpg",

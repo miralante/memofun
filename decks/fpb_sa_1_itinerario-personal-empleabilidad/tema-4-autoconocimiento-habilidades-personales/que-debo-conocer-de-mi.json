@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Las características positivas de cómo eres y cómo te relacionas. Ejemplos: ser responsable, puntual o amable. <mark>Es como lo mejor de tu manera de ser</mark>. ¿Cómo se llaman?",
+      "question": "Las <u>características positivas</u> de cómo eres y cómo te relacionas. Ejemplos: ser responsable, puntual o amable. <mark>Es como lo mejor de tu manera de ser</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Cualidades personales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/cualidades.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Una cualidad: <mark>cumplir lo que prometes</mark>. Y responder de tus actos. ¿Cómo se llama?",
+      "question": "Una cualidad: <mark>cumplir lo que prometes</mark>. Y <u>responder de tus actos</u>. ¿Cómo se llama?",
       "answer": "<mark>Responsabilidad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/responsable.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Una cualidad: llegar siempre a la hora. A clase, al trabajo o a una cita. <mark>Es como el reloj que no se retrasa</mark>. ¿Cómo se llama?",
+      "question": "Una cualidad: llegar siempre <u>a la hora</u>. A clase, al trabajo o a una cita. <mark>Es como el reloj que no se retrasa</mark>. ¿Cómo se llama?",
       "answer": "<mark>Puntualidad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/puntual.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Una cualidad: <mark>tratar bien a los demás</mark>. Con educación y respeto. ¿Cómo se llama?",
+      "question": "Una cualidad: <mark>tratar bien a los demás</mark>. Con <u>educación</u> y respeto. ¿Cómo se llama?",
       "answer": "<mark>Amabilidad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/amabilidad.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Los aspectos personales, emocionales o profesionales que puedes desarrollar para crecer. <mark>No son defectos, sino oportunidades de aprendizaje</mark>. ¿Cómo se llaman?",
+      "question": "Los <u>aspectos</u> personales, emocionales o profesionales que puedes desarrollar para crecer. <mark>No son defectos, sino oportunidades de aprendizaje</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Áreas de mejora</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/area-mejora.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Un ejemplo: <mark>te pones nervioso delante de la gente</mark>. ¿Cómo se llama esa sensación?",
+      "question": "Un ejemplo: <mark>te pones nervioso</mark> <u>delante de la gente</u>. ¿Cómo se llama esa sensación?",
       "answer": "<mark>Nervios al hablar en público</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/nervios.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Otro ejemplo de área de mejora: <mark>me cuesta organizarme</mark>. ¿Cómo se llama esa habilidad por trabajar?",
+      "question": "Otro ejemplo de área de mejora: <mark>me cuesta</mark> <u>organizarme</u>. ¿Cómo se llama esa habilidad por trabajar?",
       "answer": "<mark>Organización</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/organizar.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Otro ejemplo de área de mejora: <mark>la cabeza se te va y no puedes seguir</mark>. Te cuesta concentrarte. ¿Cómo se llama esa capacidad por trabajar?",
+      "question": "Otro ejemplo de área de mejora: <mark>la cabeza se te va y no puedes seguir</mark>. Te cuesta <u>concentrarte</u>. ¿Cómo se llama esa capacidad por trabajar?",
       "answer": "<mark>Concentración</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/concentracion.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Las <mark>actividades, temas o experiencias</mark> que te gustan. ¿Cómo se llaman?",
+      "question": "Las <mark>actividades, temas o experiencias</mark> que <u>te gustan</u>. ¿Cómo se llaman?",
       "answer": "<mark>Intereses</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/intereses.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Un ejemplo de interés: <mark>me gusta el campo y los árboles</mark>. ¿Cómo se llama ese interés?",
+      "question": "Un ejemplo de interés: <mark>me gusta el campo</mark> y <u>los árboles</u>. ¿Cómo se llama ese interés?",
       "answer": "<mark>Naturaleza</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/naturaleza.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "Otro ejemplo de interés: <mark>me gusta la pantalla y el ratón</mark>. ¿Cómo se llama ese interés?",
+      "question": "Un ejemplo de interés: <mark>me gusta la pantalla</mark> y <u>el ratón</u>. ¿Cómo se llama ese interés?",
       "answer": "<mark>Informática</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/informatica.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Los <mark>principios y creencias</mark> que guían tu vida. Son tu guía para tomar decisiones. ¿Cómo se llaman?",
+      "question": "Los <mark>principios y creencias</mark> que guían tu vida. Son tu guía para <u>tomar decisiones</u>. ¿Cómo se llaman?",
       "answer": "<mark>Valores</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/valores.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "Un valor: <mark>dejarle sitio al otro y tratarlo bien</mark>. ¿Cómo se llama?",
+      "question": "Un valor: <mark>dejarle sitio al otro</mark> y <u>tratarlo bien</u>. ¿Cómo se llama?",
       "answer": "<mark>Respeto</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/respeto.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "question": "Un valor: <mark>decir siempre la verdad</mark>. Ser claro con los demás. ¿Cómo se llama?",
+      "question": "Un valor: <mark>decir siempre la verdad</mark>. <u>Ser claro</u> con los demás. ¿Cómo se llama?",
       "answer": "<mark>Honestidad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/honestidad.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "question": "Un valor: <mark>esforzarte cada día</mark>. Hacer las cosas lo mejor posible. ¿Cómo se llama?",
+      "question": "Un valor: <mark>esforzarte cada día</mark>. Hacer las cosas <u>lo mejor posible</u>. ¿Cómo se llama?",
       "answer": "<mark>Esfuerzo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/esfuerzo.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "question": "Un valor: <mark>el que ayuda a quien lo necesita</mark>. No espera nada a cambio. ¿Cómo se llama?",
+      "question": "Un valor: <mark>el que ayuda a quien lo necesita</mark>. <u>No espera nada</u> a cambio. ¿Cómo se llama?",
       "answer": "<mark>Solidaridad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi/solidaridad.jpg",

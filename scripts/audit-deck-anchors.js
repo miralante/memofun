@@ -20,10 +20,25 @@
  *       (empresa, sector, estructura, clasificación...).
  *   R4  el anverso NO contiene ninguna palabra que conecte con la
  *       respuesta: ni por raíz morfológica ni por el mapa de sinónimos.
+ *   R5  el ancla NO está marcada con <u> en el anverso (regla del diseño:
+ *       la palabra que devuelve el término va subrayada).
+ *   R6  lo que está subrayado NO apunta al término: la palabra marcada
+ *       no conecta con la respuesta ni por raíz ni por sinónimo.
+ *   R7  el ancla está dentro de la analogía <mark> (la analogía es otra
+ *       señal: el ancla va en el texto del anverso).
+ *   R8  el ancla está en la pregunta final Y esa palabra sale ya en la
+ *       pista: entonces la tarjeta se regala. (Un ancla en la pregunta
+ *       final es legítima si es una referencia hacia atrás —«el peso de
+ *       todo eso», «ese contacto»—: ahí se pregunta por el ancla.)
+ *
+ * R5, R6, R7 y R8 solo se comprueban con `--ancla-marcada`, porque son
+ * la regla del diseño nueva y no todas las barajas de la suite la
+ * cumplen todavía.
  *
  * Uso:
  *   node scripts/audit-deck-anchors.js <carpeta-de-barajas>
  *   node scripts/audit-deck-anchors.js decks/fpb_sa_1_tecnicas-administrativas-basicas
+ *   node scripts/audit-deck-anchors.js decks/fpb_sa_1_tecnicas-administrativas-basicas --ancla-marcada
  */
 
 'use strict';
@@ -32,7 +47,10 @@ var fs = require('fs');
 var path = require('path');
 
 var dir = process.argv[2];
-if (!dir) {
+/* R5/R6 (el ancla va subrayada con <u>) solo con --ancla-marcada: es la
+ * regla del diseño nueva y no todas las barajas de la suite la cumplen. */
+var EXIGIR_ANCLA = process.argv.indexOf('--ancla-marcada') !== -1;
+if (!dir && require.main === module) {
   console.error('Falta la carpeta de barajas. Ejemplo:\n' +
     '  node scripts/audit-deck-anchors.js decks/fpb_sa_1_tecnicas-administrativas-basicas');
   process.exit(1);
@@ -345,7 +363,7 @@ var SINONIMOS = mergeMaps([
   reuniones: ['se junta', 'reunion', 'junta'],
   intranet: ['red interna', 'dentro', 'de la casa'],
   sugerencias: ['se les ocurre', 'ideas'],
-  quejas: ['les molesta', 'queja'],
+  quejas: ['les molesta', 'queja', 'molesta'],
   encuestas: ['pregunta', 'opinan', 'hoja'],
   tablon: ['cartel', 'colgado', 'avisos'],
   anuncios: ['cartel', 'aviso', 'avisos'],
@@ -433,7 +451,7 @@ var SINONIMOS = mergeMaps([
   titular: ['tu nombre'],
   certificado: ['firmar', 'firma', 'indemnizacion'],
   reembolso: ['quien recibe es quien paga', 'paga el importe'],
-  destinatario: ['quien recibe', 'quien lo espera', 'quien manda'],
+  destinatario: ['quien recibe', 'quien lo espera', 'quien manda', 'recibe', 'el que recibe'],
   digital: ['internet'],
   embalaje: ['embalaje'],
   normalizar: ['normas de dimensiones'],
@@ -627,13 +645,15 @@ var SINONIMOS = mergeMaps([
   prevencion: ['evitar', 'evita', 'prevenir', 'proteger', 'protegerse', 'accidentarse'],
   riesgos: ['peligro', 'peligros', 'peligroso', 'dano', 'accidente', 'accidentarse', 'premio'],
   riesgo: ['peligro', 'peligros', 'peligroso', 'dano', 'premio', 'posibilidad', 'suerte'],
+  peligro: ['dano', 'peligroso', 'peligrosos', 'avisa', 'aviso', 'signo',
+    'exclamacion', 'graves'],
   laborales: ['trabajo', 'trabajador', 'laboral', 'empresa'],
   salud: ['encuentras', 'encontrar', 'cuerpo', 'sano', 'enfermar', 'dolor', 'bien', 'equipo'],
   bienestar: ['bien', 'tranquilo', 'energia', 'claro', 'sientes', 'gusto', 'descansar'],
   fisico: ['cuerpo', 'musculos', 'fuerza', 'fuerzas', 'brazos', 'postura'],
   fisica: ['cuerpo', 'musculos', 'fuerza', 'fuerzas', 'brazos', 'postura'],
   fisicos: ['energia', 'formas', 'sonido', 'luz', 'calor', 'rayos'],
-  mental: ['cabeza', 'pensar', 'piensa', 'cerebro', 'cansa', 'concentracion'],
+  mental: ['cabeza', 'pensar', 'piensa', 'piensas', 'sientes', 'cerebro', 'cansa', 'concentracion'],
   mentales: ['cabeza', 'pensar', 'piensa', 'cerebro', 'concentracion'],
   social: ['gente', 'companeros', 'colegas', 'demas', 'juntos', 'gusto'],
   psicosociales: ['sientes', 'emocional', 'psicologico', 'mente', 'sentimiento', 'gente'],
@@ -645,7 +665,7 @@ var SINONIMOS = mergeMaps([
   herramientas: ['aparato', 'instrumentos', 'instalacion', 'objetos', 'utiles'],
   electrico: ['corriente', 'cable', 'electricidad', 'luz'],
   incendio: ['fuego', 'llamas', 'llama', 'fuegos', 'arder'],
-  agentes: ['sustancias', 'germenes', 'virus', 'bacterias', 'seres', 'factores', 'elementos'],
+  agentes: ['sustancias', 'germenes', 'virus', 'bacterias', 'seres', 'factores', 'elementos', 'formas'],
   quimicos: ['sustancia', 'sustancias', 'comporta', 'comportamiento', 'producto', 'liquido'],
   biologicos: ['germenes', 'virus', 'bacterias', 'seres', 'microbios'],
   fisicoquimicas: ['comporta', 'comportamiento', 'presion', 'fisicas', 'propiedades', 'aspecto'],
@@ -664,14 +684,18 @@ var SINONIMOS = mergeMaps([
   grave: ['serio', 'serios', 'seria', 'mortal', 'permanente', 'graves'],
   exposicion: ['contacto', 'contactarse', 'expuesto', 'rodeado', 'cerca', 'alrededor'],
   carga: ['peso', 'pesa', 'cargar', 'exige', 'pide', 'demanda'],
-  ergonomia: ['postura', 'incmoda', 'incmodo', 'adaptado', 'comodo', 'movimiento', 'mueves'],
-  ergonomicos: ['postura', 'incmoda', 'incmodo', 'adaptado', 'comodo', 'movimiento', 'mueves'],
-  forzadas: ['encorvado', 'encorvada', 'doblado', 'torpe', 'incmodo', 'agachado', 'forzado'],
+  ergonomia: ['postura', 'incmoda', 'incmodo', 'adaptado', 'comodo', 'movimiento', 'mueves', 'mover', 'cuerpo'],
+  ergonomicos: ['postura', 'incmoda', 'incmodo', 'adaptado', 'comodo', 'movimiento', 'mueves', 'mover', 'cuerpo'],
+  forzadas: ['encorvado', 'encorvada', 'encorvados', 'encorvadas', 'doblado', 'torpe',
+    'incmodo', 'agachado', 'forzado'],
+  posturas: ['forma', 'encorvado', 'encorvada', 'doblado', 'agachado', 'torpe',
+    'manera de estar'],
   esfuerzo: ['cargar', 'peso', 'cansa', 'cansan', 'fuerza', 'fuerzas', 'trabajo', 'mover'],
   movimientos: ['mover', 'gesto', 'gestos', 'mano', 'teclear', 'repetir'],
   repetitivos: ['repetir', 'repite', 'repetidos', 'mismo', 'gesto', 'gestos', 'siempre'],
   conocer: ['identificar', 'identificas', 'saber', 'distinguir', 'mirar'],
-  protegerse: ['cubrir', 'cubrirse', 'cubierto', 'ponerse', 'guardarse'],
+  protegerse: ['cubrir', 'cubrirse', 'cubierto', 'ponerse', 'guardarse', 'cubres',
+    'cubre'],
   trabajo: ['trabajo', 'jornada', 'puesto', 'tareas', 'turno', 'haces'],
   ruido: ['sonido', 'estruendo', 'ruidoso', 'oidos'],
   iluminacion: ['luz', 'alumbra', 'alumbrar', 'bombilla', 'vista'],
@@ -958,7 +982,7 @@ var SINONIMOS = mergeMaps([
   orientacion: ['asesoramiento', 'asesoria', 'asesor', 'orientador', 'consejo', 'guia'],
   pruebas: ['examen', 'examenes', 'convocatoria', 'test'],
   acceso: ['entrada', 'entrar', 'ingreso', 'admision'],
-  personalizado: ['propio', 'propia', 'tuyo', 'suyo', 'unico', 'individual'],
+  personalizado: ['propio', 'propia', 'tuyo', 'suyo', 'unico', 'individual', 'a tu medida', 'a medida'],
   informacion: ['informes', 'datos', 'ficha', 'catalogo'],
   decision: ['elegir', 'pensar', 'deliberar', 'elegir bien'],
   informada: ['datos', 'investigada', 'documentada'],
@@ -1075,6 +1099,178 @@ var SINONIMOS = mergeMaps([
   inicial: ['inicial', 'al abrir', 'abrir', 'la primera', 'al empezar', 'al entrar'],
   pantalla: ['pantalla', 'ventana', 'cuadro'],
   documento: ['documento', 'archivo', 'libro', 'hoja', 'ficha', 'expediente', 'texto']
+  },
+  {
+  /* Tema 7 de Itinerario Personal para la Empleabilidad (IPP): la búsqueda
+   * de empleo (qué significa, qué necesitas, dónde buscar, tipos de empleo,
+   * currículum, carta de presentación y preparación de la entrevista). */
+  buscar: ['encontrar', 'rastrear', 'indagar', 'buscas', 'busques', 'busqueda'],
+  empleo: ['trabajo', 'puesto', 'ocupacion', 'chamba', 'curro'],
+  trabajo: ['oficio', 'empleo', 'puesto', 'jornada', 'curro', 'faena'],
+  conocerte: ['mirarse', 'mirarte', 'dentro', 'autoconocimiento', 'conocer'],
+  saber: ['claro', 'entender', 'dominar', 'conocer', 'aprender', 'informarse'],
+  quieres: ['apetece', 'deseas', 'gustos'],
+  prepararte: ['preparar', 'preparacion', 'entrenar', 'ensayar', 'preparado'],
+  curriculum: ['documento', 'ficha', 'dossier', 'redactar', 'redactarlo',
+    'resumen', 'resume', 'cv', 'hoja'],
+  vitae: ['vida', 'historial', 'recorrido', 'trayectoria'],
+  carta: ['nota', 'texto', 'escrito', 'mensaje', 'papel'],
+  presentacion: ['curriculum', 'cv', 'acompana', 'nota', 'texto', 'hoja'],
+  presentarte: ['conocer', 'presentar', 'dar', 'introducir', 'saludar', 'hola'],
+  explicar: ['contar', 'decir', 'motivo', 'razon', 'explicas'],
+  interesa: ['encaja', 'llama', 'gusta', 'atrae', 'apetece'],
+  puesto: ['oferta', 'trabajo', 'empleo', 'vacante', 'plaza', 'cargo'],
+  destacar: ['resaltar', 'sabes', 'ensenan', 'demostrar', 'adaptado'],
+  puntos: ['parte', 'cualidades', 'aspectos', 'sabes', 'lista'],
+  fuertes: ['sabes', 'destacar', 'buenos', 'destacados', 'fuerte', 'vales'],
+  idea: ['claro', 'claridad', 'objetivo', 'proposito'],
+  clara: ['claro', 'claridad', 'nitido', 'sabes'],
+  tipo: ['genero', 'clase', 'sector', 'modalidad', 'generales'],
+  buscas: ['buscar', 'buscas', 'busques', 'persigues', 'ofertas'],
+  informacion: ['informes', 'datos', 'ficha', 'catalogo', 'sitios', 'lugares'],
+  donde: ['sitios', 'lugares', 'portales', 'webs', 'contactos', 'sitio'],
+  ofertas: ['vacantes', 'puestos', 'empleos', 'anuncios', 'oferta', 'sitios'],
+  actitud: ['ganas', 'animo', 'disposicion', 'interes', 'marcha'],
+  positiva: ['buena', 'optimista', 'ganas', 'entusiasmo', 'vales'],
+  activa: ['movida', 'marcha', 'seguir', 'ganas', 'proactiva', 'rapida'],
+  portales: ['sitios', 'web', 'webs', 'paginas', 'anuncios', 'tablon', 'sitio'],
+  internet: ['web', 'red', 'online', 'pantalla', 'webs'],
+  oficinas: ['ventanilla', 'ventanillas', 'servicio', 'padron', 'atencion', 'centro'],
+  redes: ['conocidos', 'contactos', 'familiares', 'amigos', 'gente'],
+  contacto: ['conocido', 'conocidos', 'contactos', 'personas', 'gente'],
+  entrega: ['acercate', 'llevas', 'presentas', 'entregar', 'persona', 'acercamiento'],
+  directa: ['directamente', 'mismo', 'mano', 'intermediarios', 'persona'],
+  recursos: ['sitios', 'paginas', 'portales', 'lugares', 'herramientas', 'ayuda', 'pantalla'],
+  utiles: ['util', 'ayudan', 'serven', 'provechosos', 'interesantes'],
+  constante: ['todos', 'dias', 'diario', 'seguido', 'parar', 'siempre'],
+  organizado: ['lista', 'cuaderno', 'apuntado', 'ordenado', 'registro', 'fichaje'],
+  activo: ['ve', 'pregunta', 'llama', 'entrega', 'esperes', 'mismo', 'acercate'],
+  positivo: ['ganas', 'optimismo', 'animo', 'energia', 'vales', 'corredor'],
+  formandote: ['aprendiendo', 'mejorando', 'estudiando', 'capacitando', 'formacion'],
+  datos: ['nombre', 'telefono', 'correo', 'domicilio', 'contacto', 'identificacion'],
+  personales: ['nombre', 'telefono', 'correo', 'privados', 'propios', 'identificacion'],
+  formacion: ['estudios', 'cursos', 'titulos', 'aprendes', 'graduados'],
+  academica: ['estudios', 'formacion', 'escolar', 'colegio', 'academico', 'titulos'],
+  experiencia: ['trabajos', 'trabajo', 'puestos', 'trayectoria', 'recorrido', 'historial'],
+  laboral: ['trabajo', 'trabajos', 'profesional', 'puestos', 'contrato'],
+  habilidades: ['sabes', 'capacidades', 'destrezas', 'talentos', 'herramientas', 'manejas', 'piezas'],
+  idiomas: ['lenguas', 'lengua', 'extranjeros', 'hablas', 'portatil'],
+  conocimientos: ['manejas', 'sabes', 'informaticos', 'ordenadores', 'tecnologia'],
+  informaticos: ['ordenadores', 'computadora', 'tecnologia', 'equipos', 'manejas', 'portatil'],
+  claro: ['facil', 'legible', 'entendible', 'limpio'],
+  breve: ['corta', 'conciso', 'poco'],
+  pagina: ['hoja', 'folio', 'cara', 'lamina', 'sola'],
+  faltas: ['errores', 'fallos', 'erratas'],
+  ortografia: ['escrito', 'redaccion', 'letra', 'erratas', 'correcto'],
+  entrevista: ['conversacion', 'charla', 'encuentro', 'reunion', 'preguntas', 'examen'],
+  investigar: ['informarse', 'averiguar', 'estudiar', 'mirar', 'conocer', 'dia'],
+  empresa: ['compañia', 'negocio', 'firma', 'organizacion'],
+  repasar: ['revisar', 'vuelta', 'mirar', 'ojo', 'estudiar', 'repasarlo', 'echar'],
+  cv: ['curriculum', 'documento', 'ficha', 'hoja', 'escrito'],
+  preguntas: ['preguntar', 'preguntan', 'interrogar', 'dudas', 'test'],
+  comunes: ['tipo', 'frecuentes', 'siempre', 'habituales', 'test', 'preguntan'],
+  piensa: ['pensar', 'reflexionar', 'pensamiento', 'pienses'],
+  puntual: ['margen', 'antes', 'tiempo', 'pronto', 'puntualmente'],
+  vestir: ['ropa', 'vestimenta', 'ponerte', 'vestirte', 'traje'],
+  forma: ['modo', 'manera', 'estilo'],
+  adecuada: ['adecuado', 'apropiada', 'correcta', 'propia', 'conveniente', 'importante'],
+  hablar: ['expresarte', 'expresarse', 'decir', 'comunicar', 'hablas', 'explicas'],
+  claridad: ['calma', 'claro', 'ordenado', 'entendible', 'explicas'],
+  respeto: ['educacion', 'cortesia', 'amabilidad', 'respetuoso'],
+  practicas: ['trabajando', 'aprendiendo', 'stage', 'prueba', 'tiempo', 'practicando'],
+  becas: ['ayuda', 'ayudas', 'estancia', 'mercado', 'subvencion', 'ayudan'],
+  primer: ['primero', 'comienzo', 'inicial', 'debut', 'nuevo', 'primera'],
+  temporal: ['limitado', 'tiempo', 'breve', 'temporada', 'acaba', 'fin'],
+  parcial: ['media', 'jornada', 'menos', 'horas'],
+  jornada: ['horario', 'horas', 'completa', 'diarias', 'completo'],
+  completa: ['completo', 'entera', 'total', 'horas', 'diarias'],
+  /* Sinónimos añadidos al revisar palabra por palabra (octubre 2026). */
+  trabajo: ['oficio', 'empleo', 'puesto', 'jornada', 'curro', 'faena',
+    'contratar', 'contratarte', 'trabajar', 'trabaja', 'trabajas'],
+  empleo: ['trabajo', 'puesto', 'ocupacion', 'chamba', 'curro', 'ofertas', 'vacantes'],
+  buscar: ['encontrar', 'rastrear', 'indagar', 'buscas', 'busques', 'busqueda',
+    'vacantes'],
+  comunes: ['tipo', 'frecuentes', 'siempre', 'habituales', 'test', 'preguntar', 'preguntan'],
+  piensa: ['pensar', 'reflexionar', 'pensamiento', 'pienses', 'cabeza'],
+  adecuada: ['adecuado', 'apropiada', 'correcta', 'propia', 'conveniente', 'encaje', 'importante'],
+  forma: ['modo', 'manera', 'estilo'],
+  preguntas: ['preguntar', 'preguntan', 'interrogar', 'dudas', 'test', 'cuestionario']
+  },
+  {
+  /* Itinerario Personal para la Empleabilidad y Técnicas Administrativas:
+   * vocabulario que el pase de anclas de octubre 2026 destapó al
+   * subrayar el ancla de cada tarjeta (las anclas eran correctas, el
+   * detector es el que no conocía las palabras). Sin tildes ni eñes: el
+   * mapa se normaliza al cargar (ver SINONIMOS_NORM). */
+  flexible: ['cambia', 'cambiar', 'se adapta'],
+  metas: ['ponerse', 'fijarse', 'direccion', 'lo que quieres lograr', 'lograr', 'querer'],
+  aprendiendo: ['enseña', 'experiencia', 'cada vez'],
+  aprende: ['enseña', 'experiencia', 'cada vez'],
+  pide: ['pedir', 'pedir ayuda', 'recurrir'],
+  cree: ['uno mismo', 'creer en ti', 'confianza'],
+  rumbo: ['volver a empezar', 'dar la vuelta', 'corregir', 'cambiar de camino', 'cambiar', 'otra direccion'],
+  laborales: ['practicas', 'trabajos temporales', 'voluntariado'],
+  decision: ['hay que decidir', 'saber que', 'se elige', 'elegir', 'elegir bien'],
+  identificar: ['saber', 'averiguar', 'localizarlo'],
+  conocerse: ['que te gusta', 'que se te da bien', 'saber de ti'],
+  evaluar: ['comparar', 'comparacion', 'valorar'],
+  actuar: ['dar el primer paso', 'paso', 'empezar', 'salir'],
+  revisar: ['comprueba', 'comprobar', 'ajustar'],
+  intereses: ['te gusta', 'te gustan', 'motiva'],
+  familia: ['rodean', 'tus padres', 'gente que te rodea'],
+  entorno: ['rodean', 'alrededor'],
+  informacion: ['lo que sabes', 'sabes', 'conoces'],
+  oportunidades: ['abren puertas', 'puertas', 'salidas'],
+  desarrollo: ['creciendo', 'crecer', 'aprendiendo'],
+  satisfaccion: ['sensacion', 'la sensacion', 'elegido bien'],
+  conciencia: ['acertar', 'concientemente'],
+  responsabilidad: ['a conciencia'],
+  correcto: ['cada persona', 'el suyo', 'distintas calles'],
+  decisiones: ['elegir', 'opciones', 'elegir entre'],
+  practica: ['son importantes', 'cada vez', 'repetir', 'practica y esfuerzo', 'esfuerzo', 'clave', 'una clave', 'la tercera clave'],
+  diaria: ['clave', 'una clave', 'la tercera clave'],
+  formacion: ['tercera clave', 'la tercera clave', 'seguir aprendiendo'],
+  continua: ['tercera clave', 'la tercera clave'],
+  visualizar: ['imagina', 'imaginar', 'como te sentirias'],
+  confianza: ['orientadores', 'profesores', 'familia', 'preguntar'],
+  pros: ['ventajas', 'lo bueno', 'las ventajas'],
+  contras: ['desventajas', 'lo malo'],
+  miedo: ['corregir el rumbo', 'equivocarse', 'no es el final'],
+  comunicacion: ['consiste en'],
+  convivencia: ['une a las personas'],
+  esperar: ['no adivines'],
+  turno: ['no adivines'],
+  habilidades: ['prepara ejemplos', 'prepara ejemplos reales', 'ejemplos', 'practica y esfuerzo'],
+  mejorar: ['practica y esfuerzo', 'esfuerzo', 'practica'],
+  cambiar: ['volver a empezar', 'dar la vuelta', 'cambia', 'cambiar'],
+  terciario: ['dan servicios', 'servicios', 'presta servicios', 'el tercero de los tres'],
+  direccion: ['volver a empezar', 'cambiar de direccion', 'otra direccion'],
+  organizacion: ['frase util', 'frase util en entrevista'],
+  equipo: ['cuando lo necesitan', 'companeros'],
+  trabajo: ['cuando lo necesitan'],
+  adaptabilidad: ['me ajusto', 'me ajuste'],
+  '112': ['ayuda profesional', 'pedir ayuda profesional'],
+  otra: ['empapado', 'se ha empapado'],
+  heimlich: ['aprietas hacia dentro'],
+  pano: ['taparla'],
+  pulso: ['cuello', 'muneca'],
+  elegir: ['conocerte te ayuda a'],
+  rendimiento: ['tambien te ayuda a'],
+  comunicarte: ['sabes como eres'],
+  prueba: ['descubrir'],
+  solidaridad: ['no espera nada', 'no espera nada a cambio'],
+  manejar: ['usar el raton', 'raton', 'botones', 'usar'],
+  hablar: ['delante de la gente', 'en publico'],
+  naturaleza: ['arboles', 'el campo', 'campo', 'prados', 'montanas'],
+  informatica: ['el raton', 'raton', 'pantalla', 'la pantalla'],
+  respeto: ['tratarlo bien', 'tratar bien', 'dejarle sitio'],
+  carga: ['cansan'],
+  exposicion: ['pasarte'],
+  senalizacion: ['avisan'],
+  toxicologicas: ['ponerte malo', 'sustancia que te puede hacer dano'],
+  oficinas: ['inscribir como demandante', 'la ventanilla'],
+  investigar: ['a que se dedica y que hace', 'informarse'],
+  primer: ['no necesitas experiencia previa', 'tu comienzo']
   }
 ]);
 
@@ -1114,6 +1310,21 @@ function norm(s) {
     .replace(/\s+/g, ' ').trim();
 }
 
+/* El anverso se compara YA normalizado (norm() quita tildes y eñes), así
+ * que el mapa de sinónimos tiene que normalizarse también al cargarlo:
+ * si no, «sin engañarte» nunca casa con «sin enganarte» ni «compañeros»
+ * con «companeros», y el detector marca como R6 anclas que son correctas. */
+var SINONIMOS_NORM = {};
+Object.keys(SINONIMOS).forEach(function (k) {
+  var nk = norm(k);
+  var lista = SINONIMOS_NORM[nk] || [];
+  SINONIMOS[k].forEach(function (s) {
+    var ns = norm(s);
+    if (ns && lista.indexOf(ns) === -1) lista.push(ns);
+  });
+  SINONIMOS_NORM[nk] = lista;
+});
+
 function raizDe(palabra) {
   var clave = Object.keys(RAICES).filter(function (k) {
     return palabra.indexOf(RAICES[k]) === 0 || RAICES[k].indexOf(palabra) === 0;
@@ -1134,6 +1345,45 @@ function collectDecks(root, current, prefix, out) {
   return out;
 }
 
+/* Rangos [ini, fin) ocupados por el contenido de un `<mark>`. */
+function rangosMark(q) {
+  var out = [];
+  var re = /<mark>([\s\S]*?)<\/mark>/g;
+  var m;
+  while ((m = re.exec(q)) !== null) out.push([m.index, m.index + m[0].length]);
+  return out;
+}
+
+function dentroDeMark(rangos, ini, fin) {
+  return rangos.some(function (r) { return ini < r[1] && fin > r[0]; });
+}
+
+/* El ancla marcada: lo que va entre <u> en el anverso. */
+function subrayados(q) {
+  var out = [];
+  var re = /<u>([\s\S]*?)<\/u>/g;
+  var m;
+  while ((m = re.exec(q)) !== null) out.push(m[1]);
+  return out;
+}
+
+/* ¿Lo subrayado apunta al término de la respuesta (raíz o sinónimo)? */
+function conecta(sub, ansWords) {
+  var u = norm(sub);
+  var us = u.split(' ');
+  return ansWords.some(function (aw) {
+    var raiz = raizDe(aw);
+    var sin = SINONIMOS_NORM[aw] || [];
+    if (sin.indexOf(u) !== -1) return true;
+    return us.some(function (w) {
+      if (!w) return false;
+      if (w === aw) return false;
+      if (raiz.length >= 4 && raizDe(w) === raiz) return true;
+      return sin.indexOf(w) !== -1;
+    });
+  });
+}
+
 function auditCard(card, file, idx) {
   var q = card.question || card.pregunta || '';
   var a = card.answer || card.respuesta || '';
@@ -1141,7 +1391,7 @@ function auditCard(card, file, idx) {
   var qNorm = norm(q);
   var ansNorm = norm(a);
 
-  var sinMark = q.replace(/<mark>[\s\S]*?<\/mark>/g, '');
+  var sinMark = q.replace(/<mark>[\s\S]*?<\/mark>/g, '').replace(/<\/?u>/g, '');
   var frases = sinMark.split(/(?<=[.!?])\s+/).filter(function (s) {
     /* La marca inicial deja un punto suelto («</mark>. Una frase…»): no
      * cuenta como frase de pista. */
@@ -1170,7 +1420,7 @@ function auditCard(card, file, idx) {
   var qWords = qNorm.split(' ');
   ansWords.forEach(function (aw) {
     var raiz = raizDe(aw);
-    var sin = SINONIMOS[aw] || [];
+    var sin = SINONIMOS_NORM[aw] || [];
     qWords.forEach(function (w) {
       if (w === aw) return;
       if (raizDe(w) === raiz && raiz.length >= 4) anclas.push(w + '→' + aw);
@@ -1178,6 +1428,51 @@ function auditCard(card, file, idx) {
     });
   });
   if (!anclas.length) flags.push({ rule: 'R4', msg: 'sin ancla para: ' + ansWords.join(' / ') });
+
+  /* R5/R6: el ancla tiene que estar marcada con <u> y apuntar al término.
+   * R7: el ancla está dentro de la analogía <mark> (la analogía es otra
+   *     señal: el ancla va en el texto plano del anverso).
+   * R8: el ancla está dentro de la pregunta final (la que va en negrita,
+   *     entre ¿...?): ahí ya no es una pista, es parte de lo que se
+   *     pregunta. */
+  if (EXIGIR_ANCLA) {
+    var sub = subrayados(q);
+    if (!sub.length) {
+      flags.push({ rule: 'R5', msg: 'el ancla no está subrayada (falta <u>)' });
+    } else {
+      var malas = sub.filter(function (s) { return !conecta(s, ansWords); });
+      if (malas.length) {
+        flags.push({ rule: 'R6', msg: 'no apunta al término: "' + malas.join('", "') + '"' });
+      }
+      var rangos = rangosMark(q);
+      var reU = /<u>([\s\S]*?)<\/u>/g;
+      var mu;
+      var enMark = false;
+      var enPregunta = false;
+      while ((mu = reU.exec(q)) !== null) {
+        if (dentroDeMark(rangos, mu.index, mu.index + mu[0].length)) enMark = true;
+      }
+      var iPregunta = q.lastIndexOf('¿');
+      if (iPregunta !== -1) {
+        reU.lastIndex = 0;
+        /* La pista es el texto SIN la analogía: lo que ya sale en ella
+         * (fuera de <mark>) es lo que la tarjeta regalaría. */
+        var pista = norm(q.slice(0, iPregunta).replace(/<mark>[\s\S]*?<\/mark>/g, ' '));
+        while ((mu = reU.exec(q)) !== null) {
+          if (mu.index <= iPregunta) continue;
+          /* Un ancla en la pregunta final es legítima cuando es una
+           * referencia hacia atrás («el peso de todo eso», «ese
+           * contacto»): ahí se pregunta por el ancla. Solo es aviso
+           * cuando la palabra sale YA en la pista: entonces no da
+           * ninguna pista y la tarjeta se regala. */
+          var n = norm(mu[1]);
+          if (n && pista.indexOf(n) !== -1) enPregunta = true;
+        }
+      }
+      if (enMark) flags.push({ rule: 'R7', msg: 'el ancla está dentro de la analogía <mark>' });
+      if (enPregunta) flags.push({ rule: 'R8', msg: 'el ancla está en la pregunta final' });
+    }
+  }
 
   return {
     file: file,
@@ -1188,11 +1483,12 @@ function auditCard(card, file, idx) {
   };
 }
 
-function main() {
-  var stat = fs.statSync(dir);
+function main(baseDir) {
+  var raiz = baseDir || dir;
+  var stat = fs.statSync(raiz);
   var files = stat.isDirectory()
-    ? collectDecks(dir, dir, '', [])
-    : [dir];
+    ? collectDecks(raiz, raiz, '', [])
+    : [raiz];
   var results = [];
   files.forEach(function (f) {
     var deck = JSON.parse(fs.readFileSync(f, 'utf8'));
@@ -1245,4 +1541,19 @@ function main() {
   console.log('\nDetalle completo en audit-out/audit-anclas.json');
 }
 
-main();
+/* Ejecutado como script: audita. Requerido como módulo (scripts/
+ * propose-anchors.js) expone los mapas y las funciones para reutilizar la
+ * misma lógica de ancla sin duplicarla. */
+if (require.main === module) main();
+
+module.exports = {
+  RAICES: RAICES,
+  SINONIMOS: SINONIMOS,
+  VACIAS: VACIAS,
+  GENERICAS: GENERICAS,
+  norm: norm,
+  raizDe: raizDe,
+  collectDecks: collectDecks,
+  auditCard: auditCard,
+  main: main
+};

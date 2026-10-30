@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "En el trabajo, saber quién eres sostiene cada decisión. <mark>Es como un informe que habla de tu personalidad</mark>. ¿Cómo se resume esa frase?",
+      "question": "En el trabajo, saber quién eres <u>sostiene</u> cada decisión. <mark>Es como un informe que habla de tu personalidad</mark>. ¿Cómo se resume esa frase?",
       "answer": "<mark>El autoconocimiento es la base de todo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/importancia.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Conocerte te ayuda a <mark>encontrar el sitio que encaja con tus cualidades e intereses</mark>. ¿Cómo se llama esa elección?",
+      "question": "<u>Conocerte te ayuda a</u> <mark>encontrar el sitio que encaja con tus cualidades e intereses</mark>. ¿Cómo se llama esa elección?",
       "answer": "<mark>Elegir bien tu puesto de trabajo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/puesto.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Conocerte también te ayuda a <mark>rendir más en lo que haces cada día</mark>. ¿Cómo se llama eso?",
+      "question": "Conocerte <u>también te ayuda a</u> <mark>rendir más en lo que haces cada día</mark>. ¿Cómo se llama eso?",
       "answer": "<mark>Mejorar tu rendimiento</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/rendimiento.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "También te ayuda a <mark>explicar las cosas de forma que te entiendan</mark>. Sabes cómo eres y cómo reaccionas. ¿Cómo se llama?",
+      "question": "También te ayuda a <mark>explicar las cosas de forma que te entiendan</mark>. <u>Sabes cómo eres</u> y cómo reaccionas. ¿Cómo se llama?",
       "answer": "<mark>Comunicarte mejor con los demás</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/comunicacion.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "<mark>Es una herramienta para ver tu situación</mark>. Son cuatro cuadrantes. Uno es lo que se te da bien. Otro, lo que puedes mejorar. Y los otros dos, el entorno y sus peligros. ¿Cómo se llama esta herramienta?",
+      "question": "<mark>Es una herramienta para ver tu situación</mark>. Son <u>cuatro cuadrantes</u>. Uno es lo que se te da bien. Otro, lo que puedes mejorar. Y los otros dos, el entorno y sus peligros. ¿Cómo se llama esta herramienta?",
       "answer": "<mark>Matriz DAFO</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/dafo.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "<mark>F</mark>: la primera de la matriz DAFO. Es lo que se te da bien. ¿Cómo se llama?",
+      "question": "<mark>F</mark>: la primera de la matriz DAFO. Es lo que <u>se te da bien</u>. ¿Cómo se llama?",
       "answer": "<mark>Fortalezas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/fortalezas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "<mark>D</mark>: la segunda de la matriz DAFO. Es lo que puedes mejorar. ¿Cómo se llama?",
+      "question": "<mark>D</mark>: la segunda de la matriz DAFO. Es lo que <u>puedes mejorar</u>. ¿Cómo se llama?",
       "answer": "<mark>Debilidades</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/debilidades.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "<mark>O</mark>: la tercera de la matriz DAFO. Son ventajas que te ofrece el entorno. ¿Cómo se llama?",
+      "question": "<mark>O</mark>: la tercera de la matriz DAFO. Son <u>ventajas</u> que te ofrece el entorno. ¿Cómo se llama?",
       "answer": "<mark>Oportunidades</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/oportunidades.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "<mark>A</mark>: la cuarta de la matriz DAFO. Es lo que puede hacerte daño desde fuera. ¿Cómo se llama?",
+      "question": "<mark>A</mark>: la cuarta de la matriz DAFO. Es lo que puede hacerte daño <u>desde fuera</u>. ¿Cómo se llama?",
       "answer": "<mark>Amenazas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/amenazas.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Un consejo: piensa en cómo te sientes y por qué. <mark>Es como hablar contigo mismo</mark>. ¿Cómo se llama ese consejo?",
+      "question": "Un consejo: piensa en <u>cómo te sientes</u> y por qué. <mark>Es como hablar contigo mismo</mark>. ¿Cómo se llama ese consejo?",
       "answer": "<mark>Escúchate</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/escucharse.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "Otro consejo: preguntar a personas de confianza cómo te ven. <mark>Es como preguntarles a ellos qué ven en ti</mark>. ¿Cómo se llama?",
+      "question": "Otro consejo: preguntar a personas de confianza <u>cómo te ven</u>. <mark>Es como preguntarles a ellos qué ven en ti</mark>. ¿Cómo se llama?",
       "answer": "<mark>Pide opinión</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/pedir-opinion.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Otro consejo: <mark>repasar lo que hiciste al final de la jornada</mark>. Piensa qué hiciste bien y qué puedes mejorar. ¿Cómo se llama?",
+      "question": "Otro consejo: <mark>repasar lo que hiciste al final de la jornada</mark>. <u>Piensa</u> qué hiciste bien y qué puedes mejorar. ¿Cómo se llama?",
       "answer": "<mark>Reflexiona cada día</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/reflexionar.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "Y el último consejo: <mark>probar algo que no hayas probado nunca</mark>. Es la mejor forma de descubrir qué te gusta. ¿Cómo se llama?",
+      "question": "Y el último consejo: <mark>probar algo que no hayas probado nunca</mark>. Es la mejor forma de <u>descubrir</u> qué te gusta. ¿Cómo se llama?",
       "answer": "<mark>Prueba cosas nuevas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia/probar-nuevo.jpg",

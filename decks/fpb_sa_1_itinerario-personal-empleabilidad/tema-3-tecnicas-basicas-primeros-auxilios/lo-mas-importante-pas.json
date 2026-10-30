@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Antes de ayudar, compruebas que estáis fuera de peligro. <mark>Es como poner una barrera antes de acercarte a un charco de aceite</mark>. ¿Qué paso es el primero de la regla PAS?",
+      "question": "Antes de ayudar, compruebas que estáis <u>fuera de peligro</u>. <mark>Es como poner una barrera antes de acercarte a un charco de aceite</mark>. ¿Qué paso es el primero de la regla PAS?",
       "answer": "<mark>P — Proteger</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/proteger.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Después de proteger, llamas a los servicios sanitarios para que manden ayuda. <mark>Es como llamar por teléfono para que manden a alguien</mark>. ¿Qué paso es el segundo de la regla PAS?",
+      "question": "Después de proteger, <u>llamas a los servicios</u> sanitarios para que manden ayuda. <mark>Es como llamar por teléfono para que manden a alguien</mark>. ¿Qué paso es el segundo de la regla PAS?",
       "answer": "<mark>A — Avisar</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/avisar.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Ya el lugar es seguro y la ayuda está pedida. Ahora actúas sobre quien se ha hecho daño. <mark>Es como ir corriendo a auxiliar a un compañero que se ha caído</mark>. ¿Qué paso es el tercero de la regla PAS?",
+      "question": "Ya el lugar es seguro y la ayuda está pedida. Ahora <u>actúas sobre</u> quien se ha hecho daño. <mark>Es como ir corriendo a auxiliar a un compañero que se ha caído</mark>. ¿Qué paso es el tercero de la regla PAS?",
       "answer": "<mark>S — Socorrer</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/socorrer.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Primero que nadie se haga daño. Luego que llegue la ayuda. Al final, atender al accidentado. <mark>Es como las piezas de un motor: si una va fuera de sitio, el motor no funciona</mark>. ¿En qué orden se hacen?",
+      "question": "Primero que nadie se haga daño. Luego que llegue la ayuda. Al final, <u>atender al accidentado</u>. <mark>Es como las piezas de un motor: si una va fuera de sitio, el motor no funciona</mark>. ¿En qué orden se hacen?",
       "answer": "<mark>Proteger, avisar, socorrer</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/orden-pas.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "<mark>Es como preguntar «¿estás bien?» antes de prestarle tu bici</mark>. Al socorrer, lo primero es ver si responde cuando le hablas. También si notas que reacciona al tocarle el hombro. ¿Cómo se llama ese signo vital?",
+      "question": "<mark>Es como preguntar «¿estás bien?» antes de prestarle tu bici</mark>. Al socorrer, lo primero es ver si responde cuando le hablas. También si notas que <u>reacciona</u> al tocarle el hombro. ¿Cómo se llama ese signo vital?",
       "answer": "<mark>Conciencia</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/conciencia.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Después de la conciencia, compruebas si la persona respira. <mark>Es como verle el pecho subirse y bajarse</mark>. ¿Cómo se llama ese signo vital?",
+      "question": "Después de la conciencia, compruebas si la persona <u>respira</u>. <mark>Es como verle el pecho subirse y bajarse</mark>. ¿Cómo se llama ese signo vital?",
       "answer": "<mark>Respiración</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/respiracion.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "El último de los tres signos vitales se nota en el cuello. También en la muñeca. <mark>Es como tocar el latido a tu hermano cuando está enfermo</mark>. ¿Qué signo vital se comprueba?",
+      "question": "El último de los tres signos vitales se nota en el <u>cuello</u>. También en la muñeca. <mark>Es como tocar el latido a tu hermano cuando está enfermo</mark>. ¿Qué signo vital se comprueba?",
       "answer": "<mark>Pulso</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/pulso.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Si la persona no respira, hay que bombear el pecho. Se hace con las manos. <mark>Es como empujar una bomba de agua con las manos, una y otra vez</mark>. Se hace hasta que llegue la ayuda. ¿Cómo se llama esa técnica?",
+      "question": "Si la persona no respira, hay que <u>bombear el pecho</u>. Se hace con las manos. <mark>Es como empujar una bomba de agua con las manos, una y otra vez</mark>. Se hace hasta que llegue la ayuda. ¿Cómo se llama esa técnica?",
       "answer": "<mark>Masaje cardíaco</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas/masaje-cardiaco.jpg",

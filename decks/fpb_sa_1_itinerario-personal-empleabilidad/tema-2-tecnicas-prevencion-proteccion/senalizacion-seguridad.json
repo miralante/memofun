@@ -3,7 +3,7 @@
   "level": "principiante",
   "cards": [
     {
-      "question": "<mark>Es como un tope en la puerta: lo que marca, está prohibido</mark>. Un cartel rojo con un círculo tachado avisa de «no fumar». ¿Qué nombre tienen las de color rojo?",
+      "question": "<mark>Es como un tope en la puerta: lo que marca, está prohibido</mark>. Un cartel rojo con un círculo <u>tachado</u> avisa de «no fumar». ¿Qué nombre tienen las de color rojo?",
       "answer": "<mark>Señales de prohibición</mark>",
       "image": {
         "title": "Prohibition sign no smoking",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "question": "<mark>Es como el triángulo del coche que avisa de que algo va mal</mark>. Un triángulo amarillo avisa de que hay un peligro. Electricidad, caída o una superficie resbaladiza. ¿Qué nombre tienen las de color amarillo?",
+      "question": "<mark>Es como el triángulo del coche que avisa de que algo va mal</mark>. Un <u>triángulo</u> amarillo avisa de que hay un peligro. Electricidad, caída o una superficie resbaladiza. ¿Qué nombre tienen las de color amarillo?",
       "answer": "<mark>Señales de advertencia</mark>",
       "image": {
         "title": "Warning sign electric hazard",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "<mark>Es como el «ponte el cinturón» del coche</mark>. Un círculo azul con un casco dice que hay que llevarlo puesto. ¿Qué nombre tienen las de color azul?",
+      "question": "<mark>Es como el «ponte el cinturón» del coche</mark>. Un círculo azul con un casco dice que hay que <u>llevarlo</u> puesto. ¿Qué nombre tienen las de color azul?",
       "answer": "<mark>Señales de obligación</mark>",
       "image": {
         "title": "NTP 399 USO OBLIGATORIO DE BOTAS DE SEGURIDAD",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "question": "<mark>Es como los carteles de salida del supermercado, para encontrar la puerta</mark>. Un cartel verde con una cruz señala el botiquín. Una flecha verde marca la salida. ¿Qué nombre tienen las de color verde?",
+      "question": "<mark>Es como los carteles de salida del supermercado, para encontrar la puerta</mark>. Un cartel verde con una cruz señala el <u>botiquín</u>. Una flecha verde marca la salida. ¿Qué nombre tienen las de color verde?",
       "answer": "<mark>Señales de salvamento</mark>",
       "image": {
         "title": "Señal de salvamento",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "<mark>Es como el cartel de la puerta mojada: el peligro sigue ahí</mark>. Un cartel de «piso resbaladizo» no seca el suelo. ¿Cuál es el papel de los carteles respecto a la prevención?",
+      "question": "<mark>Es como el cartel de la puerta mojada: el peligro sigue ahí</mark>. Un cartel de «piso resbaladizo» <u>no seca</u> el suelo. ¿Cuál es el papel de los carteles respecto a la prevención?",
       "answer": "<mark>Solo avisa, no la sustituye</mark>",
       "image": {
         "title": "Wet floor sign, Broen, Esbjerg, 1.jpg",

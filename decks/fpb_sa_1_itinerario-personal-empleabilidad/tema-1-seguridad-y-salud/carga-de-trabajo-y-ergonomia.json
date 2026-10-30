@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "<mark>Todo lo que el trabajo te pide en una jornada</mark>. Unos cansan el cuerpo y otros la cabeza. ¿Cómo se llama el peso de todo eso junto?",
+      "question": "<mark>Todo lo que el trabajo te pide en una jornada</mark>. Unos cansan el cuerpo y otros la cabeza. ¿Cómo se llama <u>el peso de todo eso</u> junto?",
       "answer": "<mark>Carga de trabajo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/carga-de-trabajo-workload.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "<mark>La carga de trabajo es lo que el puesto te pide</mark>. Trabajar en postura incómoda, día tras día, es un peligro. ¿Cómo se llama ese peligro para tu cuerpo y tu cabeza?",
+      "question": "<mark>La carga de trabajo es lo que el puesto te pide</mark>. Trabajar en <u>postura incómoda</u>, día tras día, es un peligro. ¿Cómo se llama ese peligro para tu cuerpo y tu cabeza?",
       "answer": "<mark>Riesgos ergonómicos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/riesgos-ergonomicos.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "<mark>Estirar, agacharte y caminar con peso todo el día</mark>. Lo que el puesto te pide hacer con el cuerpo. ¿Cómo se llama esa parte del trabajo?",
+      "question": "<mark>Estirar, agacharte y caminar con peso todo el día</mark>. Lo que el puesto te pide hacer <u>con el cuerpo</u>. ¿Cómo se llama esa parte del trabajo?",
       "answer": "<mark>Carga física</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/carga-fisica.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "<mark>El camarero que sube cajas al almacén sin máquina</mark>. Mueve los objetos con las manos y con el cuerpo. ¿Cómo se llama esa forma de mover cosas?",
+      "question": "<mark>El camarero que sube cajas al almacén sin máquina</mark>. <u>Mueve los objetos</u> con <u>las manos</u> y con el cuerpo. ¿Cómo se llama esa forma de mover cosas?",
       "answer": "<mark>Manipulación manual</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/manipulacion-manual.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "<mark>Pasar dos horas encorvado sobre el teclado sin levantar la espalda</mark>. El cuerpo aguanta mal esa forma de estar durante horas. ¿Cómo se llama esa forma de trabajar?",
+      "question": "<mark>Pasar dos horas encorvado sobre el teclado sin levantar la espalda</mark>. El cuerpo aguanta mal <u>esa forma de estar</u> durante horas. <u>El cuello y la espalda quedan encorvados</u>. ¿Cómo se llama esa forma de trabajar?",
       "answer": "<mark>Posturas forzadas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/salud-y-riesgo-laboral/forma-de-trabajar.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "<mark>Los brazos que arden al cargar peso durante horas</mark>. Los músculos se cansan de verdad. Esto es solo una parte de lo que pide tu cuerpo. ¿Cómo se llama lo que hacen los músculos así?",
+      "question": "<mark>Los brazos que arden al cargar peso durante horas</mark>. <u>Los músculos</u> se cansan de verdad. Esto es solo una parte de lo que pide tu cuerpo. ¿Cómo se llama lo que hacen los músculos así?",
       "answer": "<mark>Esfuerzo físico</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/esfuerzo-fisico.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "<mark>Mover el ratón con el mismo gesto una y otra vez</mark>. O teclear sin parar en el ordenador toda la mañana. ¿Cómo se llama repetir siempre el mismo gesto?",
+      "question": "<mark>Mover el ratón con el mismo gesto una y otra vez</mark>. O teclear sin parar en el ordenador toda la mañana. ¿Cómo se llama <u>repetir</u> siempre <u>el mismo gesto</u>?",
       "answer": "<mark>Movimientos repetitivos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/movimientos-repetitivos.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "<mark>Una cabeza que no para de pensar en la tarea</mark>. Siempre igual de pendiente, aunque estés sentado. ¿Sabías que cansa aunque no te muevas? ¿Cómo se llama ese trabajo de la cabeza?",
+      "question": "<mark>Una persona con la cabeza llena de concentración</mark>. Ese trabajo <u>pide mucho</u>: siempre pendiente de la tarea. Y <u>cansa</u> aunque estés sentado y no te muevas. ¿Cómo se llama ese trabajo de la cabeza?",
       "answer": "<mark>Carga mental</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia/carga-mental.jpg",

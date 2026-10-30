@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Una empresa se puede clasificar por su tamaño. El criterio es el número de trabajadores que tiene. Hay gran empresa, mediana, pequeña y microempresa. <mark>Es como clasificar los planetas por su tamaño</mark>. ¿Cómo se llama esta primera clasificación?",
+      "question": "Una empresa se puede clasificar por su tamaño. <u>El criterio</u> es el número de trabajadores que tiene. Hay gran empresa, mediana, pequeña y microempresa. <mark>Es como clasificar los planetas por su tamaño</mark>. ¿Cómo se llama esta primera clasificación?",
       "answer": "<mark>Clasificación por tamaño</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/clasificacion-tamano.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Esta empresa tiene más de 250 personas trabajando a la vez. Su tamaño es enorme: muchas oficinas y un jefe para todo. <mark>Es como un rascacielos: muchas plantas y mucha gente</mark>. ¿Cómo se llama este tamaño de empresa?",
+      "question": "Esta empresa tiene más de 250 personas trabajando a la vez. Su tamaño es <u>enorme</u>: muchas oficinas y un jefe para todo. <mark>Es como un rascacielos: muchas plantas y mucha gente</mark>. ¿Cómo se llama este tamaño de empresa?",
       "answer": "<mark>Gran empresa</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-grande.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Trabajan solo unos pocos: menos de 50 personas. Una tienda del barrio con 8 o 10 empleados. <mark>Es como una casa de dos pisos: todo el mundo se conoce</mark>. ¿Cómo se llama este tamaño de empresa?",
+      "question": "Trabajan solo <u>unos pocos</u>: menos de 50 personas. Una tienda del barrio con 8 o 10 empleados. <mark>Es como una casa de dos pisos: todo el mundo se conoce</mark>. ¿Cómo se llama este tamaño de empresa?",
       "answer": "<mark>Pequeña empresa</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-pequena.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Tamaño diminuto: menos de 10 trabajadores. Una peluquería con 5 personas, un taller con 2. <mark>Es como un kiosco en la esquina: casi solo está el dueño</mark>. ¿Cómo se llama este tamaño de empresa?",
+      "question": "Tamaño <u>diminuto</u>: menos de 10 trabajadores. Una peluquería con 5 personas, un taller con 2. <mark>Es como un kiosco en la esquina: casi solo está el dueño</mark>. ¿Cómo se llama este tamaño de empresa?",
       "answer": "<mark>Microempresa</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/microempresa.jpg",
@@ -64,11 +64,11 @@
       }
     },
     {
-      "question": "Unas cultivan, otras fabrican y otras dan servicios. <mark>Es como el pan: primero se cultiva el trigo en el campo, luego la fábrica lo convierte en pan y al final la panadería te lo vende y te atiende</mark>. ¿Cómo se llaman estos tres sectores de actividad?",
+      "question": "Unas <u>cultivan</u>, otras <u>fabrican</u> y otras <u>dan servicios</u>. <mark>Es como el pan: primero se cultiva el trigo en el campo, luego la fábrica lo convierte en pan y al final la panadería te lo vende y te atiende</mark>. ¿Cómo se llaman estos tres sectores de actividad?",
       "answer": "<mark>Sector primario, secundario y terciario</mark>"
     },
     {
-      "question": "El primero de los tres: saca sus productos directamente de la naturaleza. Granjas, minas, pesquerías, bosques y montes. <mark>Es como recoger aceitunas, pescar un pez o cortar un árbol</mark>. ¿Cómo se llama este sector de actividad?",
+      "question": "El <u>primero de los tres</u>: saca sus productos directamente de la naturaleza. Granjas, minas, pesquerías, bosques y montes. <mark>Es como recoger aceitunas, pescar un pez o cortar un árbol</mark>. ¿Cómo se llama este sector de actividad?",
       "answer": "<mark>Sector primario</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sector-primario.jpg",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "question": "El segundo de los tres: transforma las materias primas en otros productos. El trigo se convierte en pan, el metal en coches. <mark>Es como una fábrica: coge una cosa y fabrica otra</mark>. ¿Cómo se llama este sector?",
+      "question": "El <u>segundo de los tres</u>: transforma las materias primas en otros productos. El trigo se convierte en pan, el metal en coches. <mark>Es como una fábrica: coge una cosa y fabrica otra</mark>. ¿Cómo se llama este sector?",
       "answer": "<mark>Sector secundario</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sector-secundario.jpg",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "question": "El tercero de los tres: presta servicios a los demás. La peluquería, el restaurante, el banco, el colegio, el autobús. <mark>Es como un taxi: no fabrica nada, pero te lleva a donde quieres</mark>. ¿Cómo se llama este sector?",
+      "question": "El <u>tercero de los tres</u>: presta servicios a los demás. La peluquería, el restaurante, el banco, el colegio, el autobús. <mark>Es como un taxi: no fabrica nada, pero te lleva a donde quieres</mark>. ¿Cómo se llama este sector?",
       "answer": "<mark>Sector terciario</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sector-terciario.jpg",
@@ -104,11 +104,11 @@
       }
     },
     {
-      "question": "Una panadería vende solo en tu barrio. Un banco tiene oficinas en toda España. Una marca de ropa vende en Europa y América. <mark>Es como subir tres escalones: primero tu barrio, luego tu país y al final el mundo entero</mark>. ¿Cómo se clasifican las empresas según dónde trabajan?",
+      "question": "Una panadería vende solo en tu barrio. Un banco tiene oficinas en toda España. Una marca de ropa vende <u>en Europa y América</u>. <mark>Es como subir tres escalones: primero tu barrio, luego tu país y al final el mundo entero</mark>. ¿Cómo se clasifican las empresas según dónde trabajan?",
       "answer": "<mark>Locales, nacionales e internacionales</mark>"
     },
     {
-      "question": "Trabaja solo en un sitio: su barrio, su pueblo o su ciudad. La panadería de tu calle, el taller de tu portal. <mark>Es como una fuente del pueblo: el agua sale aquí y no llega lejos</mark>. ¿Cómo se llama este tipo de empresa?",
+      "question": "Trabaja solo en un sitio: <u>su barrio</u>, su pueblo o su ciudad. La panadería de tu calle, el taller de tu portal. <mark>Es como una fuente del pueblo: el agua sale aquí y no llega lejos</mark>. ¿Cómo se llama este tipo de empresa?",
       "answer": "<mark>Empresa local</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-local.jpg",
@@ -120,7 +120,7 @@
       }
     },
     {
-      "question": "Trabaja en todo el país. Correos, por ejemplo, lleva cartas a toda España. <mark>Es como un tren que recorre España entero</mark>. ¿Cómo se llama este tipo de empresa?",
+      "question": "Trabaja en <u>todo el país</u>. Correos, por ejemplo, lleva cartas a toda España. <mark>Es como un tren que recorre España entero</mark>. ¿Cómo se llama este tipo de empresa?",
       "answer": "<mark>Empresa nacional</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-nacional.jpg",
@@ -132,7 +132,7 @@
       }
     },
     {
-      "question": "Trabaja en varios países a la vez. Una marca de ropa que vende en Europa y América. <mark>Es como un barco que cruza el mar y llega a otras playas</mark>. ¿Cómo se llama este tipo de empresa?",
+      "question": "Trabaja en <u>varios países</u> a la vez. Una marca de ropa que vende en Europa y América. <mark>Es como un barco que cruza el mar y llega a otras playas</mark>. ¿Cómo se llama este tipo de empresa?",
       "answer": "<mark>Empresa internacional</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-internacional.jpg",
@@ -144,11 +144,11 @@
       }
     },
     {
-      "question": "RENFE, RTVE y el Canal de Isabel II los paga el Estado. El dinero de Mercadona o de una pizzería lo ponen sus dueños. <mark>Es como el parque del pueblo y el jardín de tu casa: uno lo paga la ciudad y el otro su dueño</mark>. ¿Cómo se clasifican las empresas según quién pone el dinero?",
+      "question": "RENFE, RTVE y el Canal de Isabel II los paga <u>el Estado</u>. El dinero de Mercadona o de una pizzería lo ponen <u>sus dueños</u>. <mark>Es como el parque del pueblo y el jardín de tu casa: uno lo paga la ciudad y el otro su dueño</mark>. ¿Cómo se clasifican las empresas según quién pone el dinero?",
       "answer": "<mark>Empresas públicas y privadas</mark>"
     },
     {
-      "question": "El capital es del Estado. RENFE, RTVE o el Canal de Isabel II. <mark>Es como el parque del pueblo: lo paga y lo cuida la ciudad</mark>. ¿Cómo se llama este tipo de empresa?",
+      "question": "El capital es <u>del Estado</u>. RENFE, RTVE o el Canal de Isabel II. <mark>Es como el parque del pueblo: lo paga y lo cuida la ciudad</mark>. ¿Cómo se llama este tipo de empresa?",
       "answer": "<mark>Empresa pública</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/parque-publico.jpg",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "question": "El capital es de personas particulares, no del Estado. Mercadona, un taller, una pizzería. <mark>Es como el jardín de tu casa: lo cuida y lo paga su dueño</mark>. ¿Cómo se llama este tipo de empresa?",
+      "question": "El capital es de <u>personas particulares</u>, no del Estado. Mercadona, un taller, una pizzería. <mark>Es como el jardín de tu casa: lo cuida y lo paga su dueño</mark>. ¿Cómo se llama este tipo de empresa?",
       "answer": "<mark>Empresa privada</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresa-privada.jpg",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "question": "Juan abre una panadería solo: pone su dinero y manda él. Ana y Pedro abren un restaurante juntos. Los dos ponen dinero y comparten los gastos. <mark>Es como ir solo a un examen o ir en grupo</mark>. ¿Cómo se llaman estos dos tipos de empresario?",
+      "question": "Juan abre una panadería <u>solo</u>: pone su dinero y manda él. Ana y Pedro abren un restaurante <u>juntos</u>. Los dos ponen dinero y comparten los gastos. <mark>Es como ir solo a un examen o ir en grupo</mark>. ¿Cómo se llaman estos dos tipos de empresario?",
       "answer": "<mark>Empresario individual y sociedad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/individual-vs-sociedad.jpg",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "question": "Una sola persona crea un negocio para dar bienes o servicios. Pone su dinero y dirige el negocio. <mark>Es como el autónomo que abre su propio taller</mark>. ¿Cómo se llama este tipo de empresario?",
+      "question": "<u>Una sola persona</u> crea un negocio para dar bienes o servicios. Pone su dinero y dirige el negocio. <mark>Es como el autónomo que abre su propio taller</mark>. ¿Cómo se llama este tipo de empresario?",
       "answer": "<mark>Empresario individual</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/empresario-individual.jpg",
@@ -196,7 +196,7 @@
       }
     },
     {
-      "question": "Dos o más personas se asocian para llevar un negocio. Todos ponen dinero y se reparten los gastos. <mark>Es como un equipo de fútbol: el gol es de todos</mark>. ¿Cómo se llama cuando varios empresarios se unen así?",
+      "question": "Dos o más personas <u>se asocian</u> para llevar un negocio. Todos ponen dinero y se reparten los gastos. <mark>Es como un equipo de fútbol: el gol es de todos</mark>. ¿Cómo se llama cuando varios empresarios se unen así?",
       "answer": "<mark>Sociedad</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/sociedad.jpg",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "question": "El empresario está al frente de la empresa. Pone el rumbo y vigila que todo se haga bien. También revisa los resultados. <mark>Es como el capitán de un barco: pone el rumbo y decide</mark>. ¿Cuáles son las tres funciones principales del empresario?",
+      "question": "El empresario está al frente de la empresa. Pone <u>el rumbo</u> y vigila que todo se haga bien. También revisa los resultados. <mark>Es como el capitán de un barco: pone el rumbo y decide</mark>. ¿Cuáles son las tres funciones principales del empresario?",
       "answer": "<mark>Dirigir, controlar y supervisar</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/tipos-empresa-empresario/funciones-empresario.jpg",

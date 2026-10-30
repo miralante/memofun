@@ -85,6 +85,11 @@ Reglas del ancla:
   acento. Son dos señales distintas y complementarias: la píldora de
   `<mark>` marca la analogía (la imagen) y el subrayado marca el ancla
   (la palabra). Un anverso sin `<u>` es un anverso sin ancla visible.
+- **El ancla puede estar en la pregunta final**, cuando es una
+  referencia hacia atrás («¿Cómo se llama **el peso de todo eso**?»):
+  ahí la pregunta está pidiendo el nombre del ancla. Pero si la palabra
+  sale ya antes en la pista, entonces no da ninguna pista y la tarjeta
+  se regala.
 - **El verbo vale como ancla del sustantivo.** «la empresa **organiza**
   el trabajo» ancla «Organización»; «el jefe **dirige** al equipo»
   ancla «Dirección». Es la misma palabra que la persona usaría después

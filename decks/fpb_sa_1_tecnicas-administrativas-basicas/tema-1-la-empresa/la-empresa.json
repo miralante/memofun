@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Una empresa necesita medios para trabajar: máquinas, dinero y herramientas. Y también necesita personas que trabajen. <mark>Es como una cocina: sin utensilios ni cocinero no hay plato</mark>. ¿Qué dos elementos necesita toda empresa?",
+      "question": "Una empresa necesita <u>medios</u> para trabajar: máquinas, dinero y herramientas. Y también necesita <u>personas</u> que trabajen. <mark>Es como una cocina: sin utensilios ni cocinero no hay plato</mark>. ¿Qué dos elementos necesita toda empresa?",
       "answer": "<mark>Elementos materiales y humanos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/la-empresa/que-es-empresa.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Con esos medios bien organizados, la empresa fabrica productos. También presta servicios. <mark>Una panadería hace pan; una empresa de limpieza lava</mark>. ¿Qué produce una empresa?",
+      "question": "Con esos medios bien organizados, la empresa <u>fabrica productos</u>. También <u>presta servicios</u>. <mark>Una panadería hace pan; una empresa de limpieza lava</mark>. ¿Qué produce una empresa?",
       "answer": "<mark>Bienes y servicios</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/la-empresa/bienes-y-servicios.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "La gente necesita cosas y la empresa las cubre. Con ese trabajo, la empresa gana dinero. <mark>Es como una panadería: haces pan que otros necesitan y así ganas</mark>. ¿Qué busca la empresa con su trabajo?",
+      "question": "La gente necesita cosas y la empresa las cubre. Con ese trabajo, la empresa <u>gana</u> dinero. <mark>Es como una panadería: haces pan que otros necesitan y así ganas</mark>. ¿Qué busca la empresa con su trabajo?",
       "answer": "<mark>Satisfacer necesidades y obtener beneficios</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-1-la-empresa/la-empresa/necesidades-humanas.jpg",

@@ -3,7 +3,7 @@
   "level": "principiante",
   "cards": [
     {
-      "question": "El trabajador debe <mark>mantener su zona limpia</mark>. Debe usar los equipos de protección que le den. Y avisar si ve algo peligroso. ¿Cómo se llama esa lista de consejos?",
+      "question": "El trabajador debe <mark>mantener su zona limpia</mark>. Debe usar los equipos de protección que le den. Y avisar si ve algo <u>peligroso</u>. ¿Cómo se llama esa lista de consejos?",
       "answer": "<mark>Buenas prácticas para prevenir riesgos</mark>",
       "image": {
         "title": "Interior of The Warehouse 01 aisles.jpg",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "question": "<mark>Es como el dueño de la casa: responde de que nadie se lastime</mark>. La ley obliga a que una persona sea responsable última. Y responde de que nadie se haga daño en toda la empresa. ¿Quién es?",
+      "question": "<mark>Es como el dueño de la casa: responde de que nadie se lastime</mark>. La ley obliga a que una persona sea <u>responsable</u> última. Y responde de que nadie se haga daño en toda la empresa. ¿Quién es?",
       "answer": "<mark>El empresario</mark>",
       "image": {
         "title": "Store Owner in Market.jpg",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "<mark>Es como las normas de tráfico: las pone el ayuntamiento y las cumple cada conductor</mark>. El empresario garantiza la seguridad. Pero en el día a día cada persona cumple las normas. ¿Quién es el responsable de cumplirlas?",
+      "question": "<mark>Es como las normas de tráfico: las pone el ayuntamiento y las cumple cada conductor</mark>. El empresario garantiza la seguridad. Pero en el día a día cada <u>persona</u> cumple las normas. ¿Quién es el responsable de cumplirlas?",
       "answer": "<mark>El trabajador</mark>",
       "image": {
         "title": "Worker lifts metal panel in warehouse",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "question": "Los trabajadores eligen a una persona para que hable por ellos. <mark>Es el que representa a todo el grupo</mark>. ¿Cómo se llama esta persona?",
+      "question": "Los trabajadores <u>eligen</u> a una persona para que hable por ellos. <mark>Es el que representa a todo el grupo</mark>. ¿Cómo se llama esta persona?",
       "answer": "<mark>Delegado de prevención</mark>",
       "image": {
         "title": "Ministra de Minería junto a Delegado Presidencial en campaña de prevención",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "<mark>Es como el médico que revisa la salud de la empresa</mark>. Es un equipo técnico que asesora a la empresa. Ayuda a aplicar las medidas de seguridad. ¿Cómo se llama ese equipo?",
+      "question": "<mark>Es como el médico que revisa la salud de la empresa</mark>. Es un equipo técnico que <u>asesora</u> a la empresa. Ayuda a aplicar las medidas de seguridad. ¿Cómo se llama ese equipo?",
       "answer": "<mark>Servicio de prevención</mark>",
       "image": {
         "title": "PSM V88 D096 Occupational diseases inspection by the NY health department.png",

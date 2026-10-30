@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Máquinas y dispositivos que duran años y se usan a diario. Están en el despacho y hacen el trabajo más rápido. <mark>Es como los electrodomésticos de casa: funcionan muchos años</mark>. ¿Cómo se llama ese conjunto de máquinas?",
+      "question": "<u>Máquinas y dispositivos</u> que duran años y se usan a diario. Están en el despacho y hacen el trabajo más rápido. <mark>Es como los electrodomésticos de casa: funcionan muchos años</mark>. ¿Cómo se llama ese conjunto de máquinas?",
       "answer": "<mark>Equipos de oficina</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/oficina-equipos.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Las máquinas de la empresa duran años y hay que revisarlas. No se gastan con el uso. Con ellas se ahorra esfuerzo en las tareas. <mark>Es como un coche: dura años y hay que revisarlo</mark>. ¿Cuáles son las características de este tipo de equipos?",
+      "question": "Las máquinas de la empresa <u>duran años</u> y hay que revisarlas. No se gastan con el uso. Con ellas se <u>ahorra esfuerzo</u> en las tareas. <mark>Es como un coche: dura años y hay que revisarlo</mark>. ¿Cuáles son las características de este tipo de equipos?",
       "answer": "<mark>Bienes duraderos que ahorran trabajo y hay que mantener</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/equipo-oficina.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "En cualquier oficina hacen falta máquinas imprescindibles con el software adecuado. Sirven para hacer documentos, imágenes, gráficos, sonidos y bases de datos. <mark>Es como el cerebro de la oficina: todo pasa por él</mark>. ¿Qué equipo de la oficina cumple esa función?",
+      "question": "En cualquier oficina hacen falta máquinas imprescindibles con el <u>software</u> adecuado. Sirven para hacer documentos, imágenes, gráficos, sonidos y bases de datos. <mark>Es como el cerebro de la oficina: todo pasa por él</mark>. ¿Qué equipo de la oficina cumple esa función?",
       "answer": "<mark>Los ordenadores</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/escritorio-ordenador.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Ponen en papel los archivos de texto y las imágenes guardadas. Funcionan con cartuchos de tinta o de tóner. <mark>Es como la máquina que convierte lo que ves en pantalla en algo que puedes tocar</mark>. ¿Qué equipo saca a papel los archivos del ordenador?",
+      "question": "Ponen en papel los archivos de texto y las imágenes guardadas. Funcionan con <u>cartuchos de tinta</u> o de tóner. <mark>Es como la máquina que convierte lo que ves en pantalla en algo que puedes tocar</mark>. ¿Qué equipo saca a papel los archivos del ordenador?",
       "answer": "<mark>Las impresoras</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/impresora-laser.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Hacen una copia en papel de otro documento ya impreso. <mark>Es como hacer una copia a mano, pero al instante</mark>. ¿Qué equipo reproduce documentos en papel desde otro formato físico?",
+      "question": "Hacen una <u>copia</u> en papel de otro documento ya impreso. <mark>Es como hacer una copia a mano, pero al instante</mark>. ¿Qué equipo reproduce documentos en papel desde otro formato físico?",
       "answer": "<mark>Las fotocopiadoras</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/fotocopiadora.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Digitalizan documentos. Convierten un papel en un archivo que se puede tratar. <mark>Es como pasar la foto de un libro al móvil, pero de un libro entero</mark>. ¿Qué equipo digitaliza documentos y los convierte en archivos?",
+      "question": "<u>Digitalizan</u> documentos. Convierten un papel en un archivo que se puede tratar. <mark>Es como pasar la foto de un libro al móvil, pero de un libro entero</mark>. ¿Qué equipo digitaliza documentos y los convierte en archivos?",
       "answer": "<mark>Los escáneres</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/escaner-plano.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Es una herramienta imprescindible para llamar y escribir mensajes. Está siempre al alcance de la mano. <mark>Es como el inseparable del puesto de trabajo</mark>. ¿Qué equipo de la oficina sirve para llamar y escribir mensajes?",
+      "question": "Es una herramienta imprescindible para <u>llamar y escribir mensajes</u>. Está siempre al alcance de la mano. <mark>Es como el inseparable del puesto de trabajo</mark>. ¿Qué equipo de la oficina sirve para llamar y escribir mensajes?",
       "answer": "<mark>Los teléfonos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/telefono-antiguo.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Una sola máquina hace varias funciones a la vez. Imprime, escanea, copia y manda correos. <mark>Es como una navaja suiza: muchas herramientas en un mismo sitio</mark>. ¿Cómo se llama este equipo?",
+      "question": "Una sola máquina hace <u>varias funciones</u> a la vez. Imprime, escanea, copia y manda correos. <mark>Es como una navaja suiza: muchas herramientas en un mismo sitio</mark>. ¿Cómo se llama este equipo?",
       "answer": "<mark>Aparato multifunción</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/multifuncion.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Cada puesto tiene la suya. Hay otra de apoyo, para guardar cosas. La grande es donde se junta la gente. <mark>Es como en una casa: una mesa para cada uno y otra donde caben todos</mark>. ¿Qué tipos de mesas hay en el mobiliario de oficina?",
+      "question": "Cada puesto tiene la suya. Hay otra <u>de apoyo</u>, para guardar cosas. La grande es donde <u>se junta la gente</u>. <mark>Es como en una casa: una mesa para cada uno y otra donde caben todos</mark>. ¿Qué tipos de mesas hay en el mobiliario de oficina?",
       "answer": "<mark>Operativas, auxiliares y de reunión</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/mesa-reunion.jpg",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "question": "Un tipo de asiento es el que más se debería usar. Está diseñado para evitar problemas de salud. <mark>Es como el asiento de un coche que te sostiene la espalda</mark>. ¿Qué asientos de la oficina están diseñados para evitar problemas de salud?",
+      "question": "Un tipo de asiento es el que más se debería usar. Está diseñado para evitar <u>problemas de salud</u>. <mark>Es como el asiento de un coche que te sostiene la espalda</mark>. ¿Qué asientos de la oficina están diseñados para evitar problemas de salud?",
       "answer": "<mark>Las sillas ergonómicas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/silla-ergonomica.jpg",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "question": "Un mueble guarda los papeles que la empresa debe conservar. Los empleados consultan a menudo lo que hay allí. <mark>Es como el armario del cuarto donde guardas lo importante</mark>. ¿Para qué sirven los armarios de la oficina?",
+      "question": "Un mueble guarda <u>los papeles</u> que la empresa debe conservar. Los empleados consultan a menudo lo que hay allí. <mark>Es como el armario del cuarto donde guardas lo importante</mark>. ¿Para qué sirven los armarios de la oficina?",
       "answer": "<mark>Para custodian documentos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/archivadores.jpg",
@@ -136,7 +136,7 @@
       }
     },
     {
-      "question": "Ahí se enteran de los pendientes del día. Y también de lo que se está haciendo. Avisan de los días festivos, de los turnos y de lo urgente. <mark>Es como el tablón del patio del cole, pero en la oficina</mark>. ¿Para qué sirve el tablón de anuncios de la oficina?",
+      "question": "Ahí <u>se enteran</u> de los pendientes del día. Y también de lo que se está haciendo. Avisan de los días festivos, de los turnos y de lo urgente. <mark>Es como el tablón del patio del cole, pero en la oficina</mark>. ¿Para qué sirve el tablón de anuncios de la oficina?",
       "answer": "<mark>Para informar de tareas, horarios y avisos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/tablon-anuncios.jpg",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "question": "La impresora es una máquina del despacho. Las grapas, en cambio, son artículos que se gastan. <mark>Es como distinguir entre un coche y la gasolina que lleva</mark>. ¿Qué tipo de cosa es la impresora?",
+      "question": "La impresora es una <u>máquina del despacho</u>. Las grapas, en cambio, son artículos que se gastan. <mark>Es como distinguir entre un coche y la gasolina que lleva</mark>. ¿Qué tipo de cosa es la impresora?",
       "answer": "<mark>Un equipo de oficina</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina/escritorio-ordenado.jpg",

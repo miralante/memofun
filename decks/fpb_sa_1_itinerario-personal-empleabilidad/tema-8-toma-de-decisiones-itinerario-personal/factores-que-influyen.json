@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Es lo que te gusta o te motiva: a ti, por ejemplo, te gusta ayudar a los demás. <mark>Es como lo que te pide el cuerpo hacer en el recreo</mark>. ¿Cómo se llama este factor?",
+      "question": "Es lo que <u>te gusta</u> o te motiva: a ti, por ejemplo, te gusta ayudar a los demás. <mark>Es como lo que te pide el cuerpo hacer en el recreo</mark>. ¿Cómo se llama este factor?",
       "answer": "<mark>Intereses</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen/intereses.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Es lo que se te da bien: a ti, por ejemplo, se te da bien organizar. <mark>Es como esa cosa que todos te piden que hagas porque te sale</mark>. ¿Cómo se llama este factor?",
+      "question": "Es lo que <u>se te da bien</u>: a ti, por ejemplo, se te da bien organizar. <mark>Es como esa cosa que todos te piden que hagas porque te sale</mark>. ¿Cómo se llama este factor?",
       "answer": "<mark>Habilidades</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen/habilidades.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Son los principios que guían tu forma de actuar: tú, por ejemplo, quieres un trabajo estable. <mark>Es como el norte de la brújula: siempre sabes hacia dónde te mueves</mark>. ¿Cómo se llama este factor?",
+      "question": "Son <u>los principios</u> que guían tu forma de actuar: tú, por ejemplo, quieres un trabajo estable. <mark>Es como el norte de la brújula: siempre sabes hacia dónde te mueves</mark>. ¿Cómo se llama este factor?",
       "answer": "<mark>Valores</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen/valores.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Son las personas que te rodean: tus padres, por ejemplo, te apoyan en estudiar FP. <mark>Es como la familia que te acompaña en la carrera</mark>. ¿Cómo se llama este factor?",
+      "question": "Son las personas <u>que te rodean</u>: <u>tus padres</u>, por ejemplo, te apoyan en estudiar FP. <mark>Es como la familia que te acompaña en la carrera</mark>. ¿Cómo se llama este factor?",
       "answer": "<mark>Familia y entorno</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen/familia.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Es lo que sabes de cada opción: tú, por ejemplo, conoces las salidas de cada una. <mark>Es como el mapa que llevas en el bolsillo antes de un viaje</mark>. ¿Cómo se llama este factor?",
+      "question": "Es <u>lo que sabes</u> de cada opción: tú, por ejemplo, conoces las salidas de cada una. <mark>Es como el mapa que llevas en el bolsillo antes de un viaje</mark>. ¿Cómo se llama este factor?",
       "answer": "<mark>Información</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen/informacion.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Es lo que sientes: a ti, por ejemplo, te da miedo equivocarte. <mark>Es como las ganas que te dan antes de entrar</mark>. ¿Cómo se llama este factor?",
+      "question": "Es <u>lo que sientes</u>: a ti, por ejemplo, te da miedo equivocarte. <mark>Es como las ganas que te dan antes de entrar</mark>. ¿Cómo se llama este factor?",
       "answer": "<mark>Emociones</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen/emociones.jpg",

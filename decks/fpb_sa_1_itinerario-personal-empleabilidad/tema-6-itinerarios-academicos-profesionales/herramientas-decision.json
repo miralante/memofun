@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Los recursos a tu alcance te ayudan a elegir tu camino. <mark>Es como llevar un mapa y una brújula en la mochila</mark>. ¿Cómo se llama?",
+      "question": "Los <u>recursos a tu alcance</u> te ayudan a elegir tu camino. <mark>Es como llevar un mapa y una brújula en la mochila</mark>. ¿Cómo se llama?",
       "answer": "<mark>Herramientas para decidir el itinerario</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/orientacion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Un asesoramiento gratuito sobre tus opciones de estudios y de trabajo. <mark>Es como una guía que te enseña el camino</mark>. ¿Cómo se llama?",
+      "question": "<u>Un asesoramiento gratuito</u> sobre tus opciones de <u>estudios</u> y de trabajo. <mark>Es como una guía que te enseña el camino</mark>. ¿Cómo se llama?",
       "answer": "<mark>Orientación académica y profesional</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/asesoramiento.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Exámenes oficiales que permiten entrar en ciclos, Bachillerato o universidad. <mark>Es como una llave que abre la puerta de entrada</mark>. ¿Cómo se llaman?",
+      "question": "<u>Exámenes oficiales</u> que permiten entrar en ciclos, Bachillerato o universidad. <mark>Es como una llave que abre la puerta de entrada</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Pruebas de acceso</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/pruebas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Trazar tu propia ruta, hecha a tu medida. Es una de las mejores herramientas para decidir. <mark>Es como un traje que te ajustan solo a ti</mark>. ¿Cómo se llama?",
+      "question": "Trazar <u>tu propia ruta</u>, hecha a tu medida. Es una de las mejores herramientas para decidir. <mark>Es como un traje que te ajustan solo a ti</mark>. ¿Cómo se llama?",
       "answer": "<mark>Itinerario personalizado</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/personalizado.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Los informes de los estudios te los dan los centros. También los portales oficiales. <mark>Es como el catálogo del instituto</mark>. ¿Cómo se llama?",
+      "question": "Los <u>informes de los estudios</u> te los dan los centros. También los portales oficiales. <mark>Es como el catálogo del instituto</mark>. ¿Cómo se llama?",
       "answer": "<mark>Información académica</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/info-academica.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Elegir con datos, después de pensar bien las opciones. <mark>Es como no decidir a ciegas</mark>. ¿Cómo se llama?",
+      "question": "<u>Elegir con datos</u>, después de pensar bien las opciones. <mark>Es como no decidir a ciegas</mark>. ¿Cómo se llama?",
       "answer": "<mark>Decisión informada</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision/decision-informada.jpg",

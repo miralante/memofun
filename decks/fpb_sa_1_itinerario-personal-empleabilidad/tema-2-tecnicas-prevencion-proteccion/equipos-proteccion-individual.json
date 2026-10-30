@@ -3,7 +3,7 @@
   "level": "principiante",
   "cards": [
     {
-      "question": "<mark>Cada uno con lo suyo, sin tocar a los demás</mark>. Protege a una sola persona cada vez. ¿Cómo se llama en general lo que lleva cada uno?",
+      "question": "<mark>Cada uno con lo suyo, sin tocar a los demás</mark>. Protege a <u>una sola persona</u> cada vez. ¿Cómo se llama en general lo que lleva cada uno?",
       "answer": "<mark>Equipos de Protección Individual</mark>",
       "image": {
         "title": "Worker wearing PPE safety equipment",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "question": "<mark>Es como el cinturón: no te salva, pero si te lo pones te salva</mark>. Cuando el peligro no se puede quitar, la empresa reparte esas prendas. Cada persona tiene que ponérselas siempre. ¿Y qué pasa con ellas?",
+      "question": "<mark>Es como el cinturón: no te salva, pero si te lo pones te salva</mark>. Cuando el peligro no se puede quitar, la empresa reparte esas prendas. Cada persona <u>tiene que</u> ponérselas siempre. ¿Y qué pasa con ellas?",
       "answer": "<mark>Son obligatorios</mark>",
       "image": {
         "title": "Construction Worker, Amsterdam",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "Lo llevas en la cabeza y te protege de golpes. <mark>También de los objetos que te pueden caer encima</mark>. ¿Cómo se llama este EPI?",
+      "question": "Lo llevas en la <u>cabeza</u> y te protege de golpes. <mark>También de los objetos que te pueden caer encima</mark>. ¿Cómo se llama este EPI?",
       "answer": "<mark>Casco</mark>",
       "image": {
         "title": "Yellow hard hat",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "question": "Lo llevas delante de los ojos y te protege del polvo. <mark>También de las virutas y de las salpicaduras</mark>. ¿Cómo se llama este protector de la vista?",
+      "question": "Lo llevas delante de los <u>ojos</u> y te protege del polvo. <mark>También de las virutas y de las salpicaduras</mark>. ¿Cómo se llama este protector de la vista?",
       "answer": "<mark>Gafas de seguridad</mark>",
       "image": {
         "title": "Laboratory protection goggles-blue",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "Te los pones en las manos y te protegen de los cortes. <mark>También de los productos químicos y del calor</mark>. ¿Cómo se llama lo que te pones en las manos?",
+      "question": "Te los pones en las <u>manos</u> y te protegen de los cortes. <mark>También de los productos químicos y del calor</mark>. ¿Cómo se llama lo que te pones en las manos?",
       "answer": "<mark>Guantes</mark>",
       "image": {
         "title": "Safety gloves hand protection",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "question": "Te la pones en la cara y te protege del polvo. <mark>Deja pasar el aire y retiene los gases y los vapores</mark>. ¿Cómo se llama este protector de los pulmones?",
+      "question": "Te la pones en la <u>cara</u> y te protege del polvo. <mark>Deja pasar el aire y retiene los gases y los vapores</mark>. ¿Cómo se llama este protector de los pulmones?",
       "answer": "<mark>Mascarilla o filtro</mark>",
       "image": {
         "title": "Counterfeit 3M N95 Particulate Respirator",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "question": "Te las pones en los pies y te protegen de los golpes. <mark>También de los pinchazos y de los objetos pesados que se te caigan</mark>. ¿Cómo se llama lo que te pones en los pies?",
+      "question": "Te las pones en los <u>pies</u> y te protegen de los golpes. <mark>También de los pinchazos y de los objetos pesados que se te caigan</mark>. ¿Cómo se llama lo que te pones en los pies?",
       "answer": "<mark>Botas de seguridad</mark>",
       "image": {
         "title": "S3 safety footwear",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "question": "<mark>Es como el chaleco que lleva el peatón en la calle</mark>. Llevas bandas brillantes para que te vean bien con poca luz. ¿Cómo se llama esa prenda?",
+      "question": "<mark>Es como el chaleco que lleva el peatón en la calle</mark>. Llevas bandas <u>brillantes</u> para que te vean bien con poca luz. ¿Cómo se llama esa prenda?",
       "answer": "<mark>Ropa reflectante</mark>",
       "image": {
         "title": "Warnweste gelb.jpg",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "question": "Te pones algo para que el ruido no te haga daño. <mark>Un ruido muy fuerte puede dejarte sordo</mark>. ¿Cómo se llaman?",
+      "question": "Te pones algo para que el <u>ruido</u> no te haga daño. <mark>Un ruido muy fuerte puede dejarte sordo</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Tapones y cascos para los oídos</mark>",
       "image": {
         "title": "Tapones",

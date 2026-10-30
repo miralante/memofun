@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Antes de buscar tu primer empleo hay que redactarlo: resume tu formación, tu experiencia y tus habilidades de forma organizada. <mark>Es como la carta que le das a alguien para que sepa quién eres</mark>. ¿Cómo se llama?",
+      "question": "Antes de buscar tu primer empleo, <u>hay que redactarlo</u>. <u>Un documento con tu formación</u>, tu experiencia y tus habilidades, todo ordenado. <mark>Es como la hoja donde lo cuentas todo de ti</mark>. ¿Cómo se llama?",
       "answer": "<mark>Currículum vitae (CV)</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/definicion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Nombre, teléfono y correo electrónico. <mark>Es como la etiqueta de la puerta de tu casa: cómo localizarte</mark>. ¿Cómo se llama esa parte del currículum?",
+      "question": "<u>Tu nombre, tu teléfono y tu correo electrónico</u>. <mark>Es como la etiqueta de la puerta de tu casa: cómo localizarte</mark>. ¿Cómo se llama esa parte del currículum?",
       "answer": "<mark>Datos personales</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/datos-personales.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Los estudios que has realizado. <mark>Es como tu lista de títulos, con la fecha de cada uno</mark>. ¿Cómo se llama esa parte del currículum?",
+      "question": "<u>Los estudios que has hecho</u>, con la fecha de cada uno. <mark>Es como tu lista de títulos</mark>. ¿Cómo se llama esa parte del currículum?",
       "answer": "<mark>Formación académica</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/formacion.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Los trabajos que has tenido, si has tenido. <mark>Es como tu historial: dónde has estado y qué hiciste</mark>. ¿Cómo se llama esa parte del currículum?",
+      "question": "<u>Los trabajos que has tenido antes</u>, si has tenido alguno. <mark>Es como los sitios donde has trabajado</mark>. ¿Cómo se llama esa parte del currículum?",
       "answer": "<mark>Experiencia laboral</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/experiencia.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Lo que sabes hacer bien. <mark>Es como la lista de herramientas que manejas</mark>. ¿Cómo se llama esa parte del currículum?",
+      "question": "<u>Lo que se te da bien, lo que sabes hacer</u>. <mark>Es como las piezas que encajan contigo</mark>. ¿Cómo se llama esa parte del currículum?",
       "answer": "<mark>Habilidades</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/habilidades.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Los idiomas que hablas y lo que sabes de informática. <mark>Es como las llaves que llevas encima: cada una abre una puerta</mark>. ¿Cómo se llama esa parte del currículum?",
+      "question": "<u>Las lenguas que hablas</u> y <u>lo que manejas de los ordenadores</u>. <mark>Es como un portátil donde todo está a un clic</mark>. ¿Cómo se llama esa parte del currículum?",
       "answer": "<mark>Idiomas y conocimientos informáticos</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/idiomas.jpg",
@@ -76,8 +76,8 @@
       }
     },
     {
-      "question": "El texto pone tres condiciones de estilo, y ninguna es opcional. <mark>Es como una carta corta y bien escrita</mark>. ¿Cómo debe ser un currículum según el texto?",
-      "answer": "<mark>Claro, breve (una página) y sin faltas de ortografía</mark>",
+      "question": "Tres cosas pide el texto. <u>Que se lea fácil y que sea corta</u>. <u>Que quepa en una hoja y esté bien escrito, sin erratas</u>. <mark>Es como una carta bien escrita y que no sobra</mark>. ¿Cómo debe ser un currículum según el texto?",
+      "answer": "<mark>Claro, breve y sin faltas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae/reglas.jpg",
         "title": "Pen to Paper",

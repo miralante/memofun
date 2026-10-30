@@ -76,6 +76,16 @@ Rules for the anchor:
 - **The anchor goes on the front, not only inside the `<mark>`
   analogy.** The analogy is a visual clue; the anchor is the word that
   brings the term back.
+- **The anchor is underlined.** The word that brings the term back is
+  marked on the front with `<u></u>` and renders underlined in the accent
+  color. Two different, complementary signals: the `<mark>` pill marks
+  the ANALOGY (the picture), the underline marks the ANCHOR (the word). A
+  front without `<u>` is a front with no visible anchor.
+- **The anchor may sit in the closing question** when it is a
+  back-reference ("What do you call **all of that weight**?"): there the
+  question is asking you to name the anchor. But if the word already
+  appears in the clue, it gives no clue at all and the card gives the
+  answer away.
 - **A verb anchors its noun.** "the company **organises** the work"
   anchors "Organización"; "the boss **directs** the team" anchors
   "Dirección". It is the very word the learner will use afterwards.
@@ -89,7 +99,9 @@ Rules for the anchor:
 
 How it is checked: `node scripts/audit-deck-anchors.js decks/<course>`
 flags the cards with no anchor (rule R4) and the ones that give the
-answer away (rule R3). The detector is only a starting point — its
+answer away (rule R3). With `--ancla-marcada` it also checks that the
+anchor is underlined (R5) and that the underlined word really points at
+the term (R6). The detector is only a starting point — its
 synonym map covers the vocabulary of the course under review, and every
 case has to be confirmed by hand.
 
@@ -155,7 +167,7 @@ with a chat-only AI, in
 - [ ] Every card back is **one sentence** in easy-read vocabulary.
 - [ ] Every card front carries an **anchor**: a word that brings the
       answer term back (root or synonym) without spelling the term out
-      (§2.3).
+      (§2.3), **underlined** with `<u></u>`.
 - [ ] Repetition, when present, adds a new nuance or example.
 - [ ] Card count is realistic for a single session (target 8–15
       cards per deck for the first publication; longer decks can be

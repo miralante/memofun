@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "En todo lugar de trabajo debe haber un armario o maletín. Dentro hay material para curar heridas. <mark>Es como la caja de herramientas del taller, siempre a mano</mark>. ¿Cómo se llama ese armario?",
+      "question": "En todo lugar de trabajo debe haber un <u>armario o maletín</u>. Dentro hay material para curar heridas. <mark>Es como la caja de herramientas del taller, siempre a mano</mark>. ¿Cómo se llama ese armario?",
       "answer": "<mark>Botiquín</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/botiquin.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "<mark>Es como las toallitas limpias de un necesario</mark>. Son telas sin gérmenes que se ponen sobre la herida. ¿Cómo se llaman?",
+      "question": "<mark>Es como las toallitas limpias de un necesario</mark>. Son telas <u>sin gérmenes</u> que se ponen sobre la herida. ¿Cómo se llaman?",
       "answer": "<mark>Gasas estériles</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/gasas.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Una tira de tela que se enrolla alrededor de la gasa. Sirve para sujetarla. <mark>Es como la cinta que mantiene la compresa en su sitio</mark>. ¿Cómo se llama?",
+      "question": "Una tira de tela que <u>se enrolla</u> alrededor de la gasa. Sirve para sujetarla. <mark>Es como la cinta que mantiene la compresa en su sitio</mark>. ¿Cómo se llama?",
       "answer": "<mark>Vanda</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/vendas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Sirve para cortar la gasa o la venda. Se usa cuando hay que cambiar el vendaje. <mark>Son dos hojas que se cierran</mark>. ¿Cómo se llama ese instrumento?",
+      "question": "Sirve para <u>cortar</u> la gasa o la venda. Se usa cuando hay que cambiar el vendaje. <mark>Son dos hojas que se cierran</mark>. ¿Cómo se llama ese instrumento?",
       "answer": "<mark>Tijeras</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/tijeras.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Sirven para protegerte las manos cuando curas una herida o tocas sangre. <mark>Son de un solo uso: se tiran después</mark>. ¿Cómo se llaman?",
+      "question": "Sirven para <u>protegerte las manos</u> cuando curas una herida o tocas sangre. <mark>Son de un solo uso: se tiran después</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Guantes desechables</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/guantes.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Para limpiar una herida o los ojos se usa agua con sal. <mark>Es como las lágrimas, que también son agua con sal</mark>. ¿Cómo se llama?",
+      "question": "Para limpiar una herida o los ojos se usa <u>agua con sal</u>. <mark>Es como las lágrimas, que también son agua con sal</mark>. ¿Cómo se llama?",
       "answer": "<mark>Suero fisiológico</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/suero.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Sirve para medir la temperatura. Así se sabe si hay fiebre. <mark>Da los grados del cuerpo</mark>. ¿Cómo se llama?",
+      "question": "Sirve para <u>medir la temperatura</u>. Así se sabe si hay fiebre. <mark>Da los grados del cuerpo</mark>. ¿Cómo se llama?",
       "answer": "<mark>Termómetro</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/termometro.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Los cortes pequeños se tapan con tiras pequeñas con pegamento. <mark>Es como los parches de un pegamento</mark>. ¿Cómo se llaman?",
+      "question": "Los cortes pequeños se tapan con tiras pequeñas con <u>pegamento</u>. <mark>Es como los parches de un pegamento</mark>. ¿Cómo se llaman?",
       "answer": "<mark>Tiritas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/tiritas.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Para que una herida no se infecte se le echa un líquido. <mark>Es como el gel que te echas en un corte al jugar</mark>. ¿Cómo se llama?",
+      "question": "Para que una herida <u>no se infecte</u> se le echa un líquido. <mark>Es como el gel que te echas en un corte al jugar</mark>. ¿Cómo se llama?",
       "answer": "<mark>Antiséptico</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico/antiseptico.jpg",

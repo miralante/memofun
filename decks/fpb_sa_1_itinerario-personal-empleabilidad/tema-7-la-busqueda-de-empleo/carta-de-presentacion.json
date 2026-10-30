@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Es un texto breve que acompaña al currículum. <mark>Es como el mensaje que dejas al entregar tu CV: el CV dice quién eres, la carta dice por qué te interesa este puesto</mark>. ¿Cómo se llama?",
+      "question": "<u>Un texto breve que acompaña al currículum</u>. <mark>Es como el papel que dejas en la mesa al entregar tu CV</mark>. ¿Cómo se llama?",
       "answer": "<mark>Carta de presentación</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/definicion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Es el gesto de dar a conocer quién eres cuando entregas tu currículum. <mark>Es como el hola en la puerta: quién eres y por qué has venido</mark>. ¿Cuál es el primer propósito de la carta de presentación?",
+      "question": "El gesto de <u>dar a conocer quién eres</u> cuando entregas tu currículum. <mark>Es como el hola en la puerta: quién eres y por qué vienes</mark>. ¿Cuál es el primer propósito de la carta de presentación?",
       "answer": "<mark>Presentarte</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/presentarte.jpg",
@@ -28,8 +28,8 @@
       }
     },
     {
-      "question": "Es el motivo por el que esa oferta te encaja, contado con tus palabras. <mark>Es como decirle a quien te contrata qué te ha llamado la atención de su oferta</mark>. ¿Cuál es el segundo propósito de la carta de presentación?",
-      "answer": "<mark>Explicar por qué te interesa el puesto</mark>",
+      "question": "<u>El motivo por el que esa oferta te encaja</u>. Y lo cuentas con tus palabras. <mark>Es como contárselo a quien te contrata</mark>. ¿Cuál es el segundo propósito de la carta de presentación?",
+      "answer": "<mark>Por qué te interesa el puesto</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/puesto-interes.jpg",
         "title": "Office Worker",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Es la parte que deja ver lo que tú sabes hacer, y la carta debe estar <mark>personalizada</mark> para cada oferta. <mark>Es como una carta escrita a mano para esa persona</mark>. ¿Cuál es el tercer propósito de la carta de presentación?",
+      "question": "<u>La parte que deja ver lo que tú sabes hacer</u>. Y el texto debe estar adaptado a cada oferta. <mark>Es como un trato que tú firmas por lo que vales</mark>. ¿Cuál es el tercer propósito de la carta de presentación?",
       "answer": "<mark>Destacar tus puntos fuertes</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/puntos-fuertes.jpg",
@@ -52,8 +52,8 @@
       }
     },
     {
-      "question": "Uno resume de forma organizada tus datos, habilidades y experiencia en una sola página; el otro es un texto breve y personalizado que explica por qué te interesa el puesto. <mark>Es como el dossier frente a la carta que lo acompaña</mark>. ¿Cuál de los dos es el currículum?",
-      "answer": "<mark>El currículum (CV) es el que resume tus datos, habilidades y experiencia en una página</mark>",
+      "question": "Uno resume tus datos, habilidades y experiencia en <u>un documento</u>. El otro es un texto breve y personalizado. Explica por qué te interesa el puesto. <mark>Es como un dossier frente a la nota que lo acompaña</mark>. ¿Cuál de los dos resume todo en una sola página?",
+      "answer": "<mark>El currículum (CV)</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion/diferencia.jpg",
         "title": "Herman Melville to Alexander W. Bradford [Page 3]",

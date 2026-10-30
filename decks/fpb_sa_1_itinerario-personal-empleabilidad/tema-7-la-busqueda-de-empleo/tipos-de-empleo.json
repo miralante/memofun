@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "No requiere experiencia previa. <mark>Es tu primer trabajo de verdad</mark>. ¿Cómo se llama este tipo de empleo?",
+      "question": "<u>No necesitas experiencia previa</u> para entrar. Es <u>tu comienzo en el mundo del trabajo</u>. <mark>Es como la primera vez que entras en una empresa</mark>. ¿Cómo se llama este tipo de trabajo?",
       "answer": "<mark>Primer empleo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/primer-empleo.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Dura por un tiempo limitado. <mark>Es como un contrato de una temporada</mark>. ¿Cómo se llama este tipo de empleo?",
+      "question": "<u>Dura por un tiempo limitado</u>, y luego se acaba. <mark>Es como un contrato de una temporada</mark>. ¿Cómo se llama este tipo de trabajo?",
       "answer": "<mark>Empleo temporal</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/temporal.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Sirve para aprender trabajando. <mark>Es como hacer prácticas en una empresa</mark>. ¿Cómo se llama este tipo de empleo?",
+      "question": "Sirve <u>para aprender trabajando</u>. Te ayudan a <u>entrar en el mercado</u>. <mark>Es como el tiempo de prueba en una empresa</mark>. ¿Cómo se llama este tipo de trabajo?",
       "answer": "<mark>Prácticas o becas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/practicas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Se trabajan menos horas al día o a la semana. <mark>Es como un turno de media jornada</mark>. ¿Cómo se llama este tipo de empleo?",
+      "question": "<u>Se trabajan menos horas al día o a la semana</u>. <mark>Es como cobrar la mitad: menos horas, menos sueldo</mark>. ¿Cómo se llama este tipo de trabajo?",
       "answer": "<mark>Empleo parcial</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/parcial.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Son ocho horas diarias. <mark>Es la jornada normal de una empresa</mark>. ¿Cómo se llama este tipo de empleo?",
+      "question": "<u>Ocho horas diarias, de lunes a viernes</u>. <mark>Es el horario habitual de cualquier empresa</mark>. ¿Cómo se llama este tipo de trabajo?",
       "answer": "<mark>Empleo a jornada completa</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo/jornada.jpg",

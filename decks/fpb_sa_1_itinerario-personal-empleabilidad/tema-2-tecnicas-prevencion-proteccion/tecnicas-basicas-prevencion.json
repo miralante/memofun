@@ -3,7 +3,7 @@
   "level": "principiante",
   "cards": [
     {
-      "question": "<mark>Es como revisar el coche antes de salir de viaje</mark>. Un trabajo se prepara para que no acabe en accidente. Todo se hace antes de que ocurra el problema. ¿Cómo se llama esa forma de actuar?",
+      "question": "<mark>Es como revisar el coche antes de salir de viaje</mark>. Un trabajo se prepara para que no acabe en <u>accidente</u>. Todo se hace antes de que ocurra el problema. ¿Cómo se llama esa forma de actuar?",
       "answer": "<mark>Prevención de riesgos</mark>",
       "image": {
         "title": "Open Plan Office",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "question": "Una técnica básica es <mark>tener el lugar limpio y ordenado</mark>. Repartir las tareas y hacer pausas también es parte de ella. ¿Cómo se llama esa técnica?",
+      "question": "Una técnica básica es <mark>tener el lugar limpio y ordenado</mark>. <u>Repartir</u> las tareas y hacer pausas también es parte de ella. ¿Cómo se llama esa técnica?",
       "answer": "<mark>Organización del trabajo</mark>",
       "image": {
         "title": "Volkswagen Beetle Assembly Line",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "Otra técnica básica es <mark>enseñar al trabajador</mark>. Le enseña a trabajar sin riesgos y le informa de ellos. ¿Cómo se llama esa técnica?",
+      "question": "Otra técnica básica es <mark>enseñar al trabajador</mark>. Le <u>enseña</u> a trabajar sin riesgos y le informa de ellos. ¿Cómo se llama esa técnica?",
       "answer": "<mark>Formación e información</mark>",
       "image": {
         "title": "Safety training in workplace",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "question": "Una técnica usa <mark>carteles y señales</mark>. Avisan de peligros: 'Piso mojado' o 'Uso obligatorio de casco'. ¿Cómo se llama esta técnica?",
+      "question": "Una técnica usa <mark>carteles y señales</mark>. <u>Avisan</u> de peligros: 'Piso mojado' o 'Uso obligatorio de casco'. ¿Cómo se llama esta técnica?",
       "answer": "<mark>Señalización</mark>",
       "image": {
         "title": "Safety Signs.JPG",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "La cuarta técnica es <mark>revisar y arreglar</mark> las máquinas para que no fallen. ¿Cómo se llama esta técnica?",
+      "question": "La cuarta técnica es <mark>revisar y arreglar</mark> las máquinas para que no <u>fallen</u>. ¿Cómo se llama esta técnica?",
       "answer": "<mark>Mantenimiento de equipos</mark>",
       "image": {
         "title": "Proyecto FORSSA en el Centro Industrial de Mantenimiento Integral - SENA",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "question": "<mark>Es como no dejar la trampa puesta: lo mejor es que no exista</mark>. Es el primero de los ocho principios y el más sencillo. Si algo es peligroso, se quita y se acabó. ¿Cómo se llama ese principio?",
+      "question": "<mark>Es como no dejar la trampa puesta: lo mejor es que no exista</mark>. Es el primero de los ocho principios y el más sencillo. Si algo es peligroso, <u>se quita</u> y se acabó. ¿Cómo se llama ese principio?",
       "answer": "<mark>Evitar los riesgos</mark>",
       "image": {
         "title": "Hierarchy of Controls",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "question": "El segundo principio: el peligro no se puede quitar, <mark>pero se estudia cuánto se puede reducir</mark>. ¿Cómo se llama ese principio?",
+      "question": "El segundo principio: el <u>peligro</u> no se puede quitar, <mark>pero se estudia cuánto se puede reducir</mark>. ¿Cómo se llama ese principio?",
       "answer": "<mark>Evaluar los riesgos</mark>",
       "image": {
         "title": "Safety Site Inspections in Bulgaria (9826649).jpg",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "question": "Tercer principio: el peligro se quita <mark>de la máquina que lo hace</mark>. No protejas solo al trabajador. ¿Cómo se llama este principio?",
+      "question": "Tercer principio: el peligro se <u>quita</u> <mark>de la máquina que lo hace</mark>. No protejas solo al trabajador. ¿Cómo se llama este principio?",
       "answer": "<mark>Combatir los riesgos desde el origen</mark>",
       "image": {
         "title": "Rustic tools spread across a weathered wooden workbench showcasing craftsmanship and utility",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "question": "Cuarto principio: el trabajo se adapta <mark>a quien lo hace</mark>. Así no hay posturas incómodas ni tareas repetitivas. ¿Cómo se llama?",
+      "question": "Cuarto principio: el trabajo se adapta <mark>a quien lo hace</mark>. Así no hay posturas incómodas ni <u>tareas</u> repetitivas. ¿Cómo se llama?",
       "answer": "<mark>Adaptar el trabajo a la persona</mark>",
       "image": {
         "title": "Carrying Boxes",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "question": "Quinto principio: si aparece una herramienta más segura, se usa. <mark>Las máquinas de hoy son mejores que las de antes</mark>. ¿Cómo se llama?",
+      "question": "Quinto principio: si aparece una <u>herramienta</u> más segura, se usa. <mark>Las máquinas de hoy son mejores que las de antes</mark>. ¿Cómo se llama?",
       "answer": "<mark>Tener en cuenta la evolución técnica</mark>",
       "image": {
         "title": "01 My decluttered, ergonomic, and healthy Workstation",
@@ -123,7 +123,7 @@
       }
     },
     {
-      "question": "Sexto principio: <mark>organizar bien el trabajo</mark> para no improvisar. ¿Cómo se llama?",
+      "question": "Sexto principio: <mark>organizar bien el trabajo</mark> para no <u>improvisar</u>. ¿Cómo se llama?",
       "answer": "<mark>Planificar la prevención</mark>",
       "image": {
         "title": "Pen, Diary and Glasses",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "question": "Séptimo principio: primero van las medidas <mark>que protegen a todos</mark>. Luego, las que protegen a una persona. ¿Cómo se llama este principio?",
+      "question": "Séptimo principio: primero van las medidas <mark>que protegen a todos</mark>. Luego, las que protegen a <u>una persona</u>. ¿Cómo se llama este principio?",
       "answer": "<mark>Proteger colectivamente antes que individualmente</mark>",
       "image": {
         "title": "Machine guarding.jpg",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "question": "Octavo principio: el empresario explica las normas <mark>de forma que todos las entiendan</mark>. ¿Cómo se llama este principio?",
+      "question": "Octavo principio: el empresario explica las <u>normas</u> <mark>de forma que todos las entiendan</mark>. ¿Cómo se llama este principio?",
       "answer": "<mark>Dar instrucciones claras a los trabajadores</mark>",
       "image": {
         "title": "OSHA Safety Training (8558146).jpg",

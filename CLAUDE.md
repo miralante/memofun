@@ -423,6 +423,26 @@ not AI-bulk-built.
      surrounding sentence. One `<mark>` span per card, only around
      the concrete image/example, never around the abstract term
      being taught (that would just duplicate `respuesta`).
+   - **Underline the ANCHOR inside `pregunta` too.** A clue only works
+     if the learner can get back to the term from it, so the front must
+     carry an ANCHOR: the word that points to the term of `respuesta`
+     by root or close synonym ("la empresa **organiza** el trabajo"
+     anchors "Organización"; "es una **mezcla**" anchors "Mixta").
+     Mark that word with `<u></u>` — it renders UNDERLINED in the accent
+     color, a different signal from the `<mark>` pill: the pill marks
+     the ANALOGY (the picture), the underline marks the ANCHOR (the
+     word). The anchor lives in the plain text of the clue, never
+     inside the `<mark>` analogy, and never repeats a word of
+     `respuesta` (that would give the answer away). It may sit in the
+     closing question when it is a back-reference to the clue
+     ("el peso de todo eso", "ese contacto") — there the card is
+     asking you to name the anchor — but then the word must not
+     already appear in the clue itself.
+     `node scripts/audit-deck-anchors.js <dir> --ancla-marcada` checks
+     it: R5 (no `<u>` in the front), R6 (the underlined word does
+     not point to the term), R7 (the anchor is inside the analogy) and
+     R8 (the anchor is in the closing question and the word was
+     already in the clue).
    - Control conceptual density, not just sentence length — Easy
      Read for this audience (`doc/en/SPEC.md` §1.2: always someone
      with an intellectual disability) means short sentences AND few
@@ -452,7 +472,7 @@ not AI-bulk-built.
      clue still lands; the shorter card that still teaches the one
      idea always beats the longer one that explains more.
      `respuesta`: 1-6 words, no sentence structure needed. Simple
-     HTML only (`<mark>`, `<b>`, `<i>`, `<br>`) — never markdown.
+     HTML only (`<mark>`, `<b>`, `<i>`, `<u>`, `<br>`) — never markdown.
    - Adapt depth to `level` (principiante/intermedio/avanzado).
      Don't number cards or repeat the topic name verbatim in every
      question. Repeating a concept on purpose (see step 7 below) is

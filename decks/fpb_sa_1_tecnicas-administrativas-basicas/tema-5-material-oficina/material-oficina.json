@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "En el despacho se usan muchos artículos cada día. Papel, bolígrafos, carpetas, clips y sobres. Hay que reponerlos a menudo. <mark>Es como la lista de cosas que siempre faltan en el cajón de la mesa</mark>. ¿Cómo se llama ese conjunto de artículos?",
+      "question": "En el despacho se usan <u>muchos artículos</u> cada día. Papel, bolígrafos, carpetas, clips y sobres. Hay que reponerlos a menudo. <mark>Es como la lista de cosas que siempre faltan en el cajón de la mesa</mark>. ¿Cómo se llama ese conjunto de artículos?",
       "answer": "<mark>El material de oficina</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/papeleo-escritorio-oficina.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Los clips, el papel y la tinta son artículos que se consumen. Hay que reponerlos muy a menudo. <mark>Es como la comida del frigorífico: se consume y vuelve a comprar</mark>. ¿Cómo se llama este tipo de artículos?",
+      "question": "Los clips, el papel y la tinta son artículos que <u>se consumen</u>. Hay que reponerlos muy a menudo. <mark>Es como la comida del frigorífico: se consume y vuelve a comprar</mark>. ¿Cómo se llama este tipo de artículos?",
       "answer": "<mark>Material fungible</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/cartucho-tinta.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Una grapadora o unas tijeras no se gastan con el uso. Son artículos que duran años. <mark>Es como una sartén: la compras una vez y la usas años</mark>. ¿Cómo se llama este tipo de artículos?",
+      "question": "Una grapadora o unas tijeras no se gastan con el uso. Son <u>artículos que duran años</u>. <mark>Es como una sartén: la compras una vez y la usas años</mark>. ¿Cómo se llama este tipo de artículos?",
       "answer": "<mark>Material no fungible</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/grapadora.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Los clips y el papel se consumen al usarlos. Se gastan, se estropean y se pierden con los días. <mark>Es como la comida: en cuanto se acaba hay que comprar más</mark>. ¿Por qué hay que reponerlos constantemente?",
+      "question": "Los clips y el papel <u>se consumen</u> al usarlos. Se gastan, se estropean y se pierden con los días. <mark>Es como la comida: en cuanto se acaba hay que comprar más</mark>. ¿Por qué hay que reponerlos constantemente?",
       "answer": "<mark>Se consume con el uso. Se gasta, deteriora o desaparece con el tiempo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/clip-adjuntar.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Una grapadora bien usada sigue funcionando después de muchas semanas. Se desgasta un poco al usarlo, pero aguanta. No se gasta ni se cambia al usar. <mark>Es como los electrodomésticos de casa: no hay que sustituirlos enseguida</mark>. ¿Por qué este tipo de artículos puede durar tanto?",
+      "question": "Una grapadora bien usada sigue funcionando después de <u>muchas semanas</u>. Se <u>desgasta</u> un poco al usarlo, pero aguanta. No se gasta ni se cambia al usar. <mark>Es como los electrodomésticos de casa: no hay que sustituirlos enseguida</mark>. ¿Por qué este tipo de artículos puede durar tanto?",
       "answer": "<mark>No se consume con el uso. Dura muchos años, aunque se desgaste</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina/calculadora.jpg",

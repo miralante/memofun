@@ -209,7 +209,10 @@ No hay cronómetros visibles. El ritmo lo marca la persona usuaria.
   analogía/ejemplo dentro de `pregunta` va envuelta en
   `<mark></mark>` (el mismo color de resaltado que la píldora de
   `respuesta`), para que la pista también lleve una pista de color, no
-  solo texto plano.
+  solo texto plano. La palabra **ancla** —la que devuelve el término de
+  `respuesta`— va aparte, envuelta en `<u></u>` y subrayada en el color
+  de acento: la píldora marca la analogía y el subrayado marca el ancla,
+  dos señales distintas para dos cosas distintas.
 
 ### 2.5 Tono divertido y datos curiosos
 

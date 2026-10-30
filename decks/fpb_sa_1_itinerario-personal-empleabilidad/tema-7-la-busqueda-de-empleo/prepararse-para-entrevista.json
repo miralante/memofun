@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "Es una <mark>conversación formal con la empresa</mark>, y la empresa quiere conocerte antes de contratarte. <mark>Es como un examen, pero en lugar de nota te dan un trabajo</mark>. ¿Cómo se llama?",
+      "question": "<u>Una conversación formal con la empresa</u>, que quiere conocerte antes de <u>contratarte</u>. <mark>Es como un examen donde en vez de nota te dan el puesto</mark>. ¿Cómo se llama?",
       "answer": "<mark>Entrevista de trabajo</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/definicion.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "Antes de la entrevista hay que estar al día de la compañía: a qué se dedica y qué hace. <mark>Es como mirar la carta de un restaurante antes de pedir</mark>. ¿Qué hay que hacer antes de la entrevista?",
+      "question": "<u>Informarse bien de la compañía</u> antes de la cita. Saber <u>a qué se dedica y qué hace</u>. <mark>Es como mirar la carta de un restaurante antes de pedir</mark>. ¿Qué hay que hacer antes de la entrevista?",
       "answer": "<mark>Investigar sobre la empresa</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/investigar.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "Antes de la entrevista hay que tener a mano lo que has escrito en tu <mark>documento de presentación</mark>, por si te preguntan por algo. <mark>Es como repasar el tema antes de un examen</mark>. ¿Qué hay que hacer antes de la entrevista?",
+      "question": "<u>Echa una vuelta</u> a lo que escribiste en tu currículum. Por si te preguntan algo. <mark>Es como releer tus apuntes antes de un examen</mark>. ¿Qué hay que hacer antes de la entrevista?",
       "answer": "<mark>Repasar tu CV</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/repasar-cv.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "En la entrevista te harán <mark>preguntas de siempre</mark>: por qué quieres trabajar allí, qué sabes hacer bien, cómo trabajas en equipo o tus disponibilidades. <mark>Es como las preguntas de un examen tipo test</mark>. ¿Cómo las llama el texto?",
+      "question": "<u>Te van a preguntar</u> <u>las de siempre</u> <u>en la conversación</u>. Por qué quieres trabajar allí, qué sabes hacer bien o tus disponibilidades. <mark>Es como el cuestionario de un examen escrito</mark>. ¿Cómo las llama el texto?",
       "answer": "<mark>Preguntas comunes de entrevista</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/preguntas.jpg",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Antes de la entrevista hay que tener la lista de <mark>lo que se te da bien</mark> a mano, para destacar lo que sabes. <mark>Es como preparar el producto que vas a poner a la venta en el mercado</mark>. ¿Qué hay que hacer antes de la entrevista?",
+      "question": "<u>Tener en la cabeza la lista de lo que sabes hacer</u>. Para que vean <u>lo que vales</u>. <mark>Es como preparar el producto que vas a poner a la venta</mark>. ¿Qué hay que hacer antes de la entrevista?",
       "answer": "<mark>Piensa en tus puntos fuertes</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/puntos-fuertes.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "Si llegas tarde, mal empieza: hay que llegar con margen. <mark>Es como no llegar tarde a una cita importante</mark>. ¿Qué hay que cuidar durante la entrevista?",
+      "question": "Si llegas tarde, mal empieza: hay que <u>llegar con margen</u>. <mark>Es como no llegar tarde a una cita importante</mark>. ¿Qué hay que cuidar durante la entrevista?",
       "answer": "<mark>Ser puntual</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/puntualidad.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "Hay que cuidar la ropa: nada de presentarte como si fueras de paseo. <mark>Es como vestirse para una ocasión importante, no para ir a la playa</mark>. ¿Qué hay que cuidar durante la entrevista?",
+      "question": "Cuidar <u>la ropa y el estilo</u>. <u>Que el conjunto encaje con la ocasión</u>. <mark>Es como vestirte para una ocasión importante</mark>. ¿Qué hay que cuidar durante la entrevista?",
       "answer": "<mark>Vestir de forma adecuada</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/vestimenta.jpg",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "question": "Hay que mostrar interés y ganas por el puesto, sin quejarte. <mark>Es como hablar con alguien a quien quieres convencer</mark>. ¿Qué hay que demostrar durante la entrevista?",
+      "question": "Mostrar <u>interés y ganas por el puesto</u>, sin quejarte. <mark>Es como enseñar con ganas lo que sabes hacer</mark>. ¿Qué hay que demostrar durante la entrevista?",
       "answer": "<mark>Actitud positiva</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/actitud.jpg",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "question": "Hay que expresarse con calma y con educación, sin gritar. <mark>Es como explicar un proyecto paso a paso, sin gritar</mark>. ¿Qué hay que hacer durante la entrevista?",
+      "question": "Expresarte <u>con calma y con educación</u>, sin gritar. <mark>Es como explicar un proyecto paso a paso</mark>. ¿Qué hay que hacer durante la entrevista?",
       "answer": "<mark>Hablar con claridad y respeto</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista/claridad.jpg",

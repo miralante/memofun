@@ -3,7 +3,7 @@
   "level": "principiante",
   "cards": [
     {
-      "question": "<mark>La red que cubre todo el campo frente a la manta que solo cubre a uno</mark>. Una barandilla o un cartel cubren toda la zona a la vez. Un casco o unos guantes solo cubren a quien los lleva. ¿Cómo se llama cuando una medida llega a todas las personas?",
+      "question": "<mark>La red que cubre todo el campo frente a la manta que solo cubre a uno</mark>. Una barandilla o un cartel cubren toda la zona <u>a la vez</u>. Un casco o unos guantes solo cubren a quien los lleva. ¿Cómo se llama cuando una medida llega a todas las personas?",
       "answer": "<mark>Protección colectiva</mark>",
       "image": {
         "title": "ALSIPERCHA",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "question": "Una valla de hierro en el borde de una plataforma alta. <mark>Sirve para que nadie se caiga al vacío</mark>. ¿Cómo se llama?",
+      "question": "Una <u>valla</u> de hierro en el borde de una plataforma alta. <mark>Sirve para que nadie se caiga al vacío</mark>. ¿Cómo se llama?",
       "answer": "<mark>Barandillas</mark>",
       "image": {
         "title": "Santorini (GR), Ia -- 2017 -- 2698",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "En obras se cuelgan <mark>mallas</mark> que sujetan a quien pueda caer. ¿Cómo se llaman?",
+      "question": "En obras se cuelgan <mark>mallas</mark> que <u>sujetan</u> a quien pueda caer. ¿Cómo se llaman?",
       "answer": "<mark>Redes de seguridad</mark>",
       "image": {
         "title": "Manila, City of Makati - construction scaffolding and protective platic net.jpg",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "question": "En <mark>espacios cerrados</mark> el aire no se queda parado. Se va el viciado y entra limpio. ¿Cómo se llama esa medida?",
+      "question": "En <mark>espacios cerrados</mark> el <u>aire</u> no se queda parado. Se va el viciado y entra limpio. ¿Cómo se llama esa medida?",
       "answer": "<mark>Ventilación</mark>",
       "image": {
         "title": "Aire acondicionado en México",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "Sirve para apagar <mark>fuegos</mark> no controlados. ¿Cómo se llama?",
+      "question": "Sirve para <u>apagar</u> <mark>fuegos</mark> no controlados. ¿Cómo se llama?",
       "answer": "<mark>Extintor</mark>",
       "image": {
         "title": "Fire extinguisher tool",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "question": "<mark>Es como dejar la puerta de casa sin llave por si hay que salir corriendo</mark>. En caso de incendio hay que poder salir deprisa. Se mantiene libre y señalizada. ¿Cómo se llama esa puerta?",
+      "question": "<mark>Es como dejar la puerta de casa sin llave por si hay que salir corriendo</mark>. En caso de <u>incendio</u> hay que poder salir deprisa. Se mantiene libre y señalizada. ¿Cómo se llama esa puerta?",
       "answer": "<mark>Salida de emergencia</mark>",
       "image": {
         "title": "Salida de Emergencia",

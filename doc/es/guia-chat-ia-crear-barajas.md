@@ -74,8 +74,12 @@ REGLAS DE CONTENIDO (obligatorias):
 - Lectura Fácil: "pregunta" tiene de 2 a 4 frases de pista (máximo 12
   palabras cada una), una idea por frase, vocabulario cotidiano, voz
   activa, terminando en la pregunta corta de cierre. HTML simple
-  permitido (<b>, <i>, <br>, <mark>) — nunca markdown (nada de **, _,
+  permitido (<b>, <i>, <br>, <mark>, <u>) — nunca markdown (nada de **, _,
   #, etc.).
+- La palabra ANCLA —la que devuelve el término de "respuesta" (raíz o
+  sinónimo cercano)— va en "pregunta" envuelta en <u> y </u>, en el texto
+  del anverso y nunca dentro de la analogía de <mark>. El <mark> marca la
+  analogía; el subrayado marca el ancla.
 - Como mucho UN concepto nuevo (un nombre propio, un término técnico,
   una idea abstracta) por tarjeta — ese concepto es exactamente lo que
   nombra "respuesta". Ancla siempre ese concepto en una imagen
@@ -125,6 +129,8 @@ Antes de usarlo, comprueba a ojo:
 - [ ] ¿Cada respuesta tiene un `<mark>...</mark>` y es corta (1-6
       palabras) — nunca una frase completa, nunca la pista repetida?
 - [ ] ¿La pregunta evita nombrar el concepto por el que pregunta?
+- [ ] ¿Cada anverso trae el ancla subrayada (`<u>...</u>`) en el texto
+      plano, sin repetir ninguna palabra de la respuesta?
 - [ ] ¿Hay algo en markdown (`**negrita**`, `# título`) colado en vez
       de HTML? Corrígelo o pide que lo regenere.
 - [ ] Si diste un índice, ¿están todos los puntos cubiertos?
@@ -196,7 +202,7 @@ repetición con propósito, fidelidad al índice si diste uno.
   `fecha`, `dificultad`…) — bórralos; el esquema es exactamente
   `{tema, nivel, idioma, tarjetas}`.
 - **Usan markdown en vez de HTML** dentro de `respuesta` — solo se
-  permite `<b>`, `<i>`, `<br>`, `<mark>`.
+  permite `<b>`, `<i>`, `<br>`, `<mark>`, `<u>`.
 - **Cuentan mal las tarjetas** — pediste 15 y te da 12, o 18. Cuéntalas
   tú antes de integrar.
 - **Envuelven el JSON en una explicación** ("Aquí tienes tu baraja:

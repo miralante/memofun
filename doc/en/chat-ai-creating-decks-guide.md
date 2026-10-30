@@ -75,7 +75,11 @@ CONTENT RULES (mandatory):
 - Easy Read: "pregunta" has 2 to 4 clue sentences (max 12 words each),
   one idea per sentence, everyday vocabulary, active voice, ending in
   the short closing question. Simple HTML allowed (<b>, <i>, <br>,
-  <mark>) — never markdown (no **, _, #, etc.).
+  <mark>, <u>) — never markdown (no **, _, #, etc.).
+- The ANCHOR word — the one that brings the term of "respuesta" back
+  (root or close synonym) — goes in "pregunta" wrapped in <u> and </u>,
+  in the plain text of the front and never inside the <mark> analogy.
+  The <mark> marks the analogy; the underline marks the anchor.
 - At most ONE new concept (a proper name, a technical term, an
   abstract idea) per card — that concept is exactly what "respuesta"
   names. Always anchor it in a concrete everyday image before naming
@@ -124,6 +128,8 @@ Before using it, check by eye:
 - [ ] Does every answer have a `<mark>...</mark>` and stay short (1-6
       words) — never a full sentence, never the clue restated?
 - [ ] Does the question avoid naming the concept it's asking about?
+- [ ] Does every front carry its anchor underlined (`<u>...</u>`) in the
+      plain text, without repeating any word of the answer?
 - [ ] Any markdown (`**bold**`, `# heading`) that slipped in instead
       of HTML? Fix it or ask for a regeneration.
 - [ ] If you gave an outline, is every point covered?
@@ -197,7 +203,7 @@ purposeful repetition, faithfulness to the outline if you gave one.
   `date`, `difficulty`…) — delete them; the schema is exactly
   `{tema, nivel, idioma, tarjetas}`.
 - **Using markdown instead of HTML** inside `respuesta` — only `<b>`,
-  `<i>`, `<br>`, `<mark>` are allowed.
+  `<i>`, `<br>`, `<mark>`, `<u>` are allowed.
 - **Miscounting the cards** — you asked for 15 and got 12, or 18.
   Count them yourself before integrating.
 - **Wrapping the JSON in an explanation** ("Here's your deck:

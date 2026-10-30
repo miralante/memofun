@@ -3,7 +3,7 @@
   "level": "principiante",
   "cards": [
     {
-      "question": "<mark>No esperar al accidente para actuar</mark>. La empresa lo incluye en su trabajo y en su organización. ¿Cómo se llama incluir esto en todo desde el primer día?",
+      "question": "<mark>No esperar al accidente para actuar</mark>. La empresa lo <u>incluye</u> en su trabajo y en su organización. ¿Cómo se llama incluir esto en todo desde el primer día?",
       "answer": "<mark>Integrar la prevención de riesgos</mark>",
       "image": {
         "title": "Full-Face Helmet 9274",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "question": "Antes de empezar, la empresa debe <mark>reconocer qué puede salir mal</mark>. Si ve un peligro en un puesto, lo primero es localizarlo. ¿Cómo se llama ese primer paso?",
+      "question": "Antes de empezar, la empresa debe <mark>reconocer qué puede salir mal</mark>. Si ve un peligro en un puesto, lo primero es <u>localizarlo</u>. ¿Cómo se llama ese primer paso?",
       "answer": "<mark>Identificar los riesgos</mark>",
       "image": {
         "title": "NIOSH Health Hazard Evaluation Program",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "question": "Después, la empresa estudia cada peligro <mark>y juzga su gravedad</mark>. Solo así puede decidir qué hacer. ¿Cómo se llama ese segundo paso?",
+      "question": "Después, la empresa <u>estudia</u> cada peligro <mark>y juzga su gravedad</mark>. Solo así puede decidir qué hacer. ¿Cómo se llama ese segundo paso?",
       "answer": "<mark>Evaluar los riesgos</mark>",
       "image": {
         "title": "Risk Assessment and Risk Management",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "question": "Luego, la empresa decide <mark>qué hacer para tapar el peligro</mark>. Así nadie sale herido. ¿Cómo se llama el tercer paso?",
+      "question": "Luego, la empresa <u>decide</u> <mark>qué hacer para tapar el peligro</mark>. Así nadie sale herido. ¿Cómo se llama el tercer paso?",
       "answer": "<mark>Adoptar medidas de control</mark>",
       "image": {
         "title": "Cologne Germany Industrial-work-with-Personal-Protective-Equipment-01.jpg",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "question": "Si el riesgo aún no ha pasado, se actúa <mark>antes</mark> para evitarlo. ¿Cómo se llama ese primer grupo de medidas?",
+      "question": "Si el riesgo aún no ha pasado, se actúa <mark>antes</mark> para <u>evitar</u>lo. ¿Cómo se llama ese primer grupo de medidas?",
       "answer": "<mark>Técnicas de prevención</mark>",
       "image": {
         "title": "Interior of The Warehouse 02 aisles.jpg",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "question": "Si el riesgo <mark>no se puede quitar</mark>, se actúa después. Así se reduce el daño. ¿Cómo se llama ese segundo grupo de medidas?",
+      "question": "Si el riesgo <mark>no se puede quitar</mark>, se actúa después. Así se <u>reduce el daño</u>. ¿Cómo se llama ese segundo grupo de medidas?",
       "answer": "<mark>Técnicas de protección</mark>",
       "image": {
         "title": "High-Pressure-Cleaning with Personal Protective Equipment",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "question": "<mark>Un trabajador con casco y guantes trabajando</mark>. Un grupo de medidas actúa sobre ti. Otro actúa sobre el peligro o por donde te llega. ¿Cómo se resume esa diferencia?",
+      "question": "<mark>Un trabajador con casco y guantes trabajando</mark>. Un grupo de medidas actúa sobre ti. Otro actúa sobre el <u>peligro</u> o por donde te llega. ¿Cómo se resume esa diferencia?",
       "answer": "<mark>Persona (prevención) · riesgo (protección)</mark>",
       "image": {
         "title": "Cologne Germany Industrial-work-with-Personal-Protective-Equipment-02.jpg",

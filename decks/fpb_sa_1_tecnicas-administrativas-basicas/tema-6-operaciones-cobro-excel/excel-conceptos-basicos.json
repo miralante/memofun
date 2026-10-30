@@ -4,7 +4,7 @@
   "locale": "es",
   "cards": [
     {
-      "question": "En Excel, una selección vertical de celdas se nombra con letras. <mark>Es como las letras A, B, C… que van de arriba abajo</mark>. ¿Cómo se llama esa selección?",
+      "question": "En Excel, una selección <u>vertical</u> de celdas se nombra con letras. <mark>Es como las letras A, B, C… que van de arriba abajo</mark>. ¿Cómo se llama esa selección?",
       "answer": "<mark>Columna</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/columnas.jpg",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "question": "En Excel, una selección horizontal de celdas con número. <mark>Es como los números 1, 2, 3… que van de lado a lado</mark>. ¿Cómo se llama esa selección?",
+      "question": "En Excel, una selección <u>horizontal</u> de celdas con número. <mark>Es como los números 1, 2, 3… que van de lado a lado</mark>. ¿Cómo se llama esa selección?",
       "answer": "<mark>Fila</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/filas.jpg",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "question": "En una celda de Excel puedes escribir palabras, cifras o cuentas. <mark>Es como un cuadrito de papel cuadriculado donde escribes algo</mark>. ¿Qué puedes escribir en una celda?",
+      "question": "En una celda de Excel puedes escribir <u>palabras</u>, <u>cifras</u> o <u>cuentas</u>. <mark>Es como un cuadrito de papel cuadriculado donde escribes algo</mark>. ¿Qué puedes escribir en una celda?",
       "answer": "<mark>Textos, números o fórmulas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/celdas.jpg",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "question": "Para escribir, colocas la flechita sobre la celda. Después pulsas el teclado y el programa guarda lo escrito. <mark>Es como rellenar las casillas de un formulario, pero con el teclado</mark>. ¿Cómo se introducen los datos en una celda?",
+      "question": "Para escribir, <u>colocas la flechita</u> sobre la celda. Después pulsas el teclado y el programa guarda lo escrito. <mark>Es como rellenar las casillas de un formulario, pero con el teclado</mark>. ¿Cómo se introducen los datos en una celda?",
       "answer": "<mark>Situar el cursor y teclear</mark>",
       "image": {
         "title": "Hoja de calculo",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "question": "Para que el trabajo no se pierda, guárdalo en el disco. La primera vez eliges el nombre; después sobrescribe lo anterior. <mark>Es como meter el documento en la carpeta antes de cerrar el programa</mark>. ¿Qué hay que hacer con el libro para no perderlo?",
+      "question": "Para que el trabajo no se pierda, <u>guárdalo en el disco</u>. La primera vez eliges el nombre; después sobrescribe lo anterior. <mark>Es como meter el documento en la carpeta antes de cerrar el programa</mark>. ¿Qué hay que hacer con el libro para no perderlo?",
       "answer": "<mark>Guardar o Guardar como</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/guardar.jpg",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "question": "En Excel, sumar es =A1+A2 y restar es =A1-A2. Multiplicar es =A1*A2 y dividir es =A1/A2. <mark>Es como una calculadora que usa tus celdas</mark>. ¿Cómo se llaman estas operaciones en Excel?",
+      "question": "En Excel, <u>sumar</u> es =A1+A2 y restar es =A1-A2. Multiplicar es =A1*A2 y dividir es =A1/A2. <mark>Es como una calculadora que usa tus celdas</mark>. ¿Cómo se llaman estas operaciones en Excel?",
       "answer": "<mark>Fórmulas básicas</mark>",
       "image": {
         "file": "assets/img/decks/fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos/formulas.jpg",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question": "El impuesto va sobre la base y se le suma la tasa. Así sale lo que se paga al final. <mark>Es como una cuenta de restaurante: se suma el impuesto al precio</mark>. ¿Cómo se calcula el importe final de una factura?",
+      "question": "El impuesto va sobre <u>la base</u> y se le suma <u>la tasa</u>. Así sale lo que <u>se paga al final</u>. <mark>Es como una cuenta de restaurante: se suma el impuesto al precio</mark>. ¿Cómo se calcula el importe final de una factura?",
       "answer": "<mark>Subtotal + IVA (21%) = TOTAL</mark>",
       "image": {
         "title": "Volkswagen Invoice.jpg",
