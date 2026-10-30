@@ -276,7 +276,7 @@ descubrirlas.
 | 1.1 Qué es una empresa | Satisfacer necesidades y obtener beneficios | «necesita cosas» / «gana dinero» |
 | 1.2 Tipos de empresa | Clasificación por tamaño | «por su tamaño» |
 | 1.2 Tipos de empresa | Gran empresa | «su tamaño es enorme» |
-| 1.2 Tipos de empresa | Empresa mediana | «va por la mitad» |
+| 1.2 Tipos de empresa | Empresa mediana | «está en el medio» |
 | 1.2 Tipos de empresa | Pequeña empresa | «trabajan solo unos pocos» |
 | 1.2 Tipos de empresa | Microempresa | «tamaño diminuto» |
 | 1.2 Tipos de empresa | Sector primario, secundario y terciario | «cultivan / fabrican / dan servicios» |

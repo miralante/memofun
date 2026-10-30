@@ -31,7 +31,7 @@ Se reescribieron los 30 anversos. Los cambios de fondo:
 - **Los sectores de actividad** se anclan por su posición: «el primero
   de los tres», «el segundo de los tres», «el tercero de los tres».
 - **Los tamaños de empresa** por su cualidad: «su tamaño es enorme»
-  (gran), «va por la mitad» (mediana), «trabajan solo unos pocos»
+  (gran), «está en el medio» (mediana), «trabajan solo unos pocos»
   (pequeña), «tamaño diminuto» (microempresa). Se corrigió además la
   pregunta de cierre de la tarjeta de «Gran empresa», que decía «¿Cómo
   se llama una empresa tan grande?» y ya lo nombraba.

@@ -80,6 +80,11 @@ Reglas del ancla:
 - **El ancla va en el anverso, no solo en la analogía de `<mark>`.** La
   analogía es una pista visual; el ancla es la palabra que devuelve el
   término.
+- **El ancla va subrayada.** La palabra que devuelve el término se
+  marca en el anverso con `<u></u>` y sale subrayada en el color de
+  acento. Son dos señales distintas y complementarias: la píldora de
+  `<mark>` marca la analogía (la imagen) y el subrayado marca el ancla
+  (la palabra). Un anverso sin `<u>` es un anverso sin ancla visible.
 - **El verbo vale como ancla del sustantivo.** «la empresa **organiza**
   el trabajo» ancla «Organización»; «el jefe **dirige** al equipo»
   ancla «Dirección». Es la misma palabra que la persona usaría después
@@ -89,12 +94,14 @@ Reglas del ancla:
   y «personas» (humanos); «Dirigir, controlar y supervisar», con «pone
   el rumbo», «vigila» y «revisa».
 - **En una tarjeta de clasificación, el ancla es la posición o el
-  criterio**: «el primero de los tres», «va por la mitad», «su tamaño
+  criterio**: «el primero de los tres», «está en el medio», «su tamaño
   es enorme».
 
 Cómo se comprueba: `node scripts/audit-deck-anchors.js decks/<curso>`
 marca las tarjetas sin ancla (regla R4) y las que regalan la respuesta
-(regla R3). El detector es solo un punto de partida — su mapa de
+(regla R3). Con `--ancla-marcada` comprueba además que el ancla esté
+subrayada (R5) y que lo subrayado apunte de verdad al término (R6).
+El detector es solo un punto de partida — su mapa de
 sinónimos cubre el vocabulario del curso que se está revisando y hay
 que confirmar cada caso a mano.
 
@@ -166,7 +173,7 @@ con un chat de IA suelto, en
       fácil.
 - [ ] Cada anverso trae un **ancla**: una palabra que devuelve el
       término de la respuesta (raíz o sinónimo), sin escribir el
-      término exacto (§2.3).
+      término exacto (§2.3), y **subrayada** con `<u></u>`.
 - [ ] La repetición, cuando aparece, añade un matiz o ejemplo
       nuevo.
 - [ ] El número de tarjetas es realista para una sesión (objetivo
