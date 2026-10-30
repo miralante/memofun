@@ -273,3 +273,21 @@ mantienen tal cual: el ancla apunta a cada raíz («se gastan» / «se estropean
 - La tarjeta de ordenadores había perdido los **sonidos** de la lista del
   libro (pág. 47: «documentos, imágenes, gráficos, sonidos y bases de datos»).
   Restituidos.
+
+### Incidencia: una reescritura coló ideogramas chinos
+
+Una pasada intermedia de este mismo pase dejó en la tarjeta del tablón de
+anuncios un anverso corrupto: «¿Para qué sirve el tablón de**质量和** avisos
+de la oficina?». Así llegaron a publicarse unos caracteres chinos dentro de
+la tarjeta.
+
+Se corrigió (el anverso definitivo es «¿Para qué sirve el tablón de
+anuncios de la oficina?») y, para que no pueda volver a pasar, `scripts/check.js`
+**falla** ahora si el texto de una tarjeta o de una autoevaluación trae
+ideogramas CJK o mojibake (un UTF-8 guardado como Latin-1). Los metadatos de
+la imagen (título y autor) quedan fuera del control: hay fotografías de
+Commons con autoría japonesa.
+
+Además se subió la versión del service worker (`memofun-v149`) para que las
+PWA ya instaladas tiren la copia en caché de las barajas y no puedan seguir
+mostrando una versión vieja.

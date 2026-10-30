@@ -85,6 +85,14 @@ var failures = [];
 var warnings = [];
 var checks = 0;
 
+/* Caracteres que no pueden aparecer en el texto de una tarjeta (que es
+ * siempre español o inglés). CJK cubre ideogramas, hiragana, katakana,
+ * hangul y la puntuación CJK; MOJIBAKE cubre un UTF-8 guardado como
+ * Latin-1 («Ã©» en vez de «é», «â€œ» en vez de «“»). Los signos
+ * ««»» y los acentos españoles se excluyen a propósito. */
+var CJK = /[\u2E80-\u9FFF\u3000-\u303F\uFF01-\uFF60\uFFE0-\uFFE6]/;
+var MOJIBAKE = /[\u00C2\u00C3][\u0080-\u00A0\u00A1\u00A2\u00A3\u00A4\u00A5\u00A6\u00A7\u00A9\u00AC\u00AD\u00AE\u00AF\u00B2\u00B3\u00B4\u00B5\u00B6\u00B7\u00B8\u00B9\u00BA\u00BC\u00BD\u00BE]/;
+
 function rel(p) {
   return path.relative(ROOT, p).split(path.sep).join('/');
 }
@@ -510,6 +518,28 @@ checks += 1;
             failures.push('decks/' + entry.file + ': cards[' + ci + '].answer' +
               ' must be a non-empty string, got ' + (typeof respuesta));
           }
+          /* Texto corrupto: el contenido de una tarjeta solo puede ser
+           * español o inglés. Un anverso reescrito a mano puede colarse con
+           * ideogramas chinos (pasó con «tablón de质量的 avisos» en la tarjeta
+           * del tablón de anuncios), y un fichero guardado con la codificación
+           * equivocada deja mojibake («Ã©», «â€œ»). Los metadatos de la
+           * imagen (título y autor) sí pueden llevar otros alfabetos: hay
+           * fotografías de Commons con autoría japonesa. */
+          if (typeof pregunta === 'string' && CJK.test(pregunta)) {
+            failures.push('decks/' + entry.file + ': cards[' + ci + '].question' +
+              ' contains CJK/ideographic characters — the card text is corrupted' +
+              ' (it must be Spanish or English)');
+          }
+          if (typeof respuesta === 'string' && CJK.test(respuesta)) {
+            failures.push('decks/' + entry.file + ': cards[' + ci + '].answer' +
+              ' contains CJK/ideographic characters — the card text is corrupted' +
+              ' (it must be Spanish or English)');
+          }
+          if (MOJIBAKE.test(pregunta + ' ' + respuesta)) {
+            failures.push('decks/' + entry.file + ': cards[' + ci + ']' +
+              ' has mojibake in its text (UTF-8 read as Latin-1) — save the file' +
+              ' as UTF-8 without BOM');
+          }
           var img = card.image || card.imagen;
           if (img !== undefined) {
             var imgLabel = 'decks/' + entry.file + ': cards[' + ci + '].image';
@@ -838,6 +868,20 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
       usedTypes[q.tipo] = true;
       if (!isText(q.enunciado)) failures.push(where + ': "enunciado" is empty');
       if (isHtml(q.enunciado)) failures.push(where + ': "enunciado" must be plain text, no HTML');
+      /* Texto corrupto (ver CJK/MOJIBAKE arriba): el enunciado y sus
+       * opciones solo pueden estar en español o inglés. */
+      var textoPregunta = isText(q.enunciado) ? q.enunciado : '';
+      if (q.opciones && typeof q.opciones === 'object') {
+        Object.keys(q.opciones).forEach(function (k) {
+          if (isText(q.opciones[k])) textoPregunta += ' ' + q.opciones[k];
+        });
+      }
+      if (CJK.test(textoPregunta)) {
+        failures.push(where + ': the question text contains CJK/ideographic characters — the text is corrupted (it must be Spanish or English)');
+      }
+      if (MOJIBAKE.test(textoPregunta)) {
+        failures.push(where + ': the question text has mojibake (UTF-8 read as Latin-1) — save the file as UTF-8 without BOM');
+      }
 
       if (q.tipo === 'seleccion') {
         var letters = (q.opciones && typeof q.opciones === 'object') ? Object.keys(q.opciones) : [];
