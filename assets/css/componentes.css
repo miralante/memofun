@@ -136,6 +136,14 @@ header.app-header .tagline {
 
 /* ---------- Stars ---------- */
 
+/* Next goal under the stars counter (stars-engine.js). */
+.stars-goal {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
 .stars {
   position: relative;
   display: inline-flex;

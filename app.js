@@ -886,9 +886,16 @@
   }
   paintLanguageSelector();
 
-  document.getElementById('stars-total').innerHTML =
+  var starsTotalEl = document.getElementById('stars-total');
+  var starsTotal = App.storage.totalStars();
+  starsTotalEl.innerHTML =
     '<span class="stars-icon" aria-hidden="true">⭐<span class="spark">✦</span></span>' +
-    '<span class="stars-count">' + App.storage.totalStars() + '</span>';
+    '<span class="stars-count">' + starsTotal + '</span>';
+  // Achievements (every 10) and the next goal (ends in 5): one engine for the suite.
+  window.MiralanteStars.goal(starsTotalEl, starsTotal, {
+    reached: App.i18n.t('home.starsReached'),
+    goal: App.i18n.t('home.starsGoal')
+  });
 
   loadDecks();
 
