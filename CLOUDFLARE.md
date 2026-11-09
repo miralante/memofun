@@ -63,7 +63,7 @@ own `404.html` for an unmatched path instead of a bare empty 404.
 | `.github/workflows/ci.yml` | Pre-deploy gate (see "CI — pre-deploy gate" below) |
 | `.github/workflows/smoke-prod.yml` | Periodic smoke test against the live URL |
 
-Every section of the site (`site/`, `tools/<slug>/`, `team/`,
+Every section of the site (`site/`, `tools/<slug>/`,
 `about/`, `config/`, `legal/`, `decks/`) ships its own real
 `index.html`, so Cloudflare's implicit per-directory `index.html`
 lookup handles deep links without any rewrite rule.
