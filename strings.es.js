@@ -6,8 +6,6 @@ if (window.App.i18n) {
     home: {
       title: 'Memofun',
       tagline: 'Elige una baraja y practica con tarjetas.',
-      starsReached: 'Ya tienes {n} estrellas',
-      starsGoal: 'A por las {n} estrellas',
       emptyTitle: 'Todavía no hay barajas',
       emptyBody: 'Pídele a la persona que te ayuda que prepare una baraja nueva.',
       deckInvite: 'Practica esta baraja',

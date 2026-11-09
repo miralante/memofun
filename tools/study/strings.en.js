@@ -16,7 +16,9 @@ if (window.App.i18n) {
       finishPhrases: ["You've reviewed the whole deck!", "All done! Pick it up whenever you like.", "Nice work! Again whenever you feel like it."],
       milestoneHalf: "You're halfway there!",
       milestoneThreeQuarters: 'Almost there!',
-      starEarned: '+{n} ⭐'
+      starEarned: '+{n} ⭐',
+      starsReached: 'You already have {n} stars',
+      starsGoal: 'Go for {n} stars'
     }
   }, 'en');
 }

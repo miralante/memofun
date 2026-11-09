@@ -118,7 +118,13 @@
     var toast = document.createElement('span');
     toast.className = 'star-toast';
     toast.setAttribute('aria-hidden', 'true');
-    toast.textContent = App.i18n.t('study.starEarned').replace('{n}', gain);
+    /* The star earned, and the line "Ya tienes X estrellas · A por las Y estrellas"
+       (stars-engine.js) with it, so the progress comes with the star. */
+    toast.textContent = App.i18n.t('study.starEarned').replace('{n}', gain) + ' ' +
+      window.MiralanteStars.line(newTotal, {
+        reached: App.i18n.t('study.starsReached'),
+        goal: App.i18n.t('study.starsGoal')
+      });
     starsEl.appendChild(toast);
     /* force reflow so .show triggers the transition on the same frame
        the node is in the DOM */

@@ -6,8 +6,6 @@ if (window.App.i18n) {
     home: {
       title: 'Memofun',
       tagline: 'Pick a deck and practice with flashcards.',
-      starsReached: 'You already have {n} stars',
-      starsGoal: 'Go for {n} stars',
       emptyTitle: 'No decks yet',
       emptyBody: 'Ask the person who supports you to prepare a new deck.',
       deckInvite: 'Practise this deck',
