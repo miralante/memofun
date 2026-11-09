@@ -5,67 +5,195 @@
   "cards": [
     {
       "question": "Está junto al mar Caribe. <mark>Sus calles guardan coches antiguos de los años cincuenta, como un museo que circula sobre ruedas</mark>. Su casco antiguo es uno de los mejor conservados de América. ¿Cuál es la capital de Cuba?",
-      "answer": "<mark>La Habana</mark>"
+      "answer": "<mark>La Habana</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/01-la-habana.jpg",
+        "alt": "Coche clásico en La Habana",
+        "title": "Classic car (57 plymouth?)_Cuba 023",
+        "autor": "hoyasmeg",
+        "source": "https://www.flickr.com/photos/62126383@N00/388596054",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está en un valle rodeado de volcanes, <mark>como el corazón de un puente entre dos océanos</mark>. Cerca hay volcanes activos que se pueden visitar. ¿Cuál es la capital de Costa Rica?",
-      "answer": "<mark>San José</mark>"
+      "answer": "<mark>San José</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/02-san-jose.jpg",
+        "alt": "Volcán Poás, cerca de San José",
+        "title": "Poas Volcano, Costa Rica",
+        "autor": "dewittn",
+        "source": "https://www.flickr.com/photos/11325934@N00/2503490871",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Está junto al famoso canal del país. <mark>Desde su costa se ven rascacielos modernos y barcos cruzando el canal, como dos siglos en una misma vista</mark>. ¿Cuál es la capital de Panamá?",
-      "answer": "<mark>Ciudad de Panamá</mark>"
+      "answer": "<mark>Ciudad de Panamá</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/03-ciudad-de-panama.jpg",
+        "alt": "Skyline de Ciudad de Panamá",
+        "title": "Panama City Skyline",
+        "autor": "marissa_strniste",
+        "source": "https://www.flickr.com/photos/35892235@N02/6949884181",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Fue fundada en 1496, la ciudad europea más antigua de América aún habitada. <mark>Es como la primera página de un libro que empezó hace más de 500 años</mark>. Allí está la primera catedral de América. ¿Cuál es la capital de República Dominicana?",
-      "answer": "<mark>Santo Domingo</mark>"
+      "answer": "<mark>Santo Domingo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/04-santo-domingo.jpg",
+        "alt": "Catedral de Santo Domingo",
+        "title": "Santo Domingo Cathedral",
+        "autor": "RussBowling",
+        "source": "https://www.flickr.com/photos/15979571@N00/4291580727",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está a más de 2.600 metros de altitud. <mark>Muchos visitantes notan que respirar cuesta más, como subir varios pisos sin ascensor</mark>. Está rodeada de montañas. ¿Cuál es la capital de Colombia?",
-      "answer": "<mark>Bogotá</mark>"
+      "answer": "<mark>Bogotá</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/05-bogota.jpg",
+        "alt": "Vista de Bogotá, Colombia",
+        "title": "Bogota, Colombia",
+        "autor": "szeke",
+        "source": "https://www.flickr.com/photos/43355249@N00/37097549571",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Está muy cerca de la línea del ecuador, rodeada de volcanes. <mark>Fue la primera ciudad declarada Patrimonio de la Humanidad por la UNESCO</mark>. ¿Cuál es la capital de Ecuador?",
-      "answer": "<mark>Quito</mark>"
+      "answer": "<mark>Quito</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/06-quito.jpg",
+        "alt": "Casco antiguo de Quito",
+        "title": "Quito old town. September 2011.",
+        "autor": "Eddyl",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=19611216",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Está junto al Río de la Plata. <mark>Vive allí casi la mitad del país, como si media familia viviera en la misma habitación</mark>. Tiene una larga rambla junto al agua. ¿Cuál es la capital de Uruguay?",
-      "answer": "<mark>Montevideo</mark>"
+      "answer": "<mark>Montevideo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/07-montevideo.jpg",
+        "alt": "Rambla de Montevideo",
+        "title": "Rambla de Montevideo Rambla en 2020",
+        "autor": "Marinna",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=107653140",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Está atravesada por más de cien canales. <mark>Algunos la llaman la Venecia del norte</mark>, aunque el gobierno trabaja en realidad desde otra ciudad. ¿Cuál es la capital de los Países Bajos?",
-      "answer": "<mark>Ámsterdam</mark>"
+      "answer": "<mark>Ámsterdam</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/08-amsterdam.jpg",
+        "alt": "Canales de Ámsterdam",
+        "title": "Amsterdam canals",
+        "autor": "Jo@net",
+        "source": "https://www.flickr.com/photos/15411972@N00/5797835372",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "No es la ciudad más grande y conocida del país; esa es Zúrich. <mark>Su nombre significa oso, y por eso tiene un foso con osos</mark>. ¿Cuál es la capital de Suiza?",
-      "answer": "<mark>Berna</mark>"
+      "answer": "<mark>Berna</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/09-berna.jpg",
+        "alt": "Foso de los osos en Berna",
+        "title": "Bern - Bear Pit",
+        "autor": "roger4336",
+        "source": "https://www.flickr.com/photos/24736216@N07/3677835135",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Está junto al río Liffey. <mark>Es cuna de muchos escritores famosos, como si las palabras fueran uno de sus productos típicos</mark>. Tiene una intensa vida musical. ¿Cuál es la capital de Irlanda?",
-      "answer": "<mark>Dublín</mark>"
+      "answer": "<mark>Dublín</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/10-dublin.jpg",
+        "alt": "Temple Bar, zona de vida nocturna de Dublín",
+        "title": "Temple Bar, Dublin, Ireland",
+        "autor": "René Silvio H.",
+        "source": "https://www.flickr.com/photos/128386434@N08/15476006135",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "question": "Está en el centro de Europa. <mark>Allí trabajan varias instituciones de la Unión Europea, como una oficina central para todo un continente</mark>. Es famosa por su chocolate. ¿Cuál es la capital de Bélgica?",
-      "answer": "<mark>Bruselas</mark>"
+      "answer": "<mark>Bruselas</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/11-bruselas.jpg",
+        "alt": "Grand-Place de Bruselas",
+        "title": "Brussels Grand-Place",
+        "autor": "radkuch.13",
+        "source": "https://www.flickr.com/photos/137294100@N08/52186203330",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está en un valle rodeado de montañas. <mark>Es la última parada habitual antes de intentar escalar el Everest</mark>. Tiene templos antiguos hinduistas y budistas. ¿Cuál es la capital de Nepal?",
-      "answer": "<mark>Katmandú</mark>"
+      "answer": "<mark>Katmandú</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/12-katmandu.jpg",
+        "alt": "Plaza Durbar de Katmandú",
+        "title": "Kathmandu Durbar Square, Maju Dega 2, Nepal",
+        "autor": "Vyacheslav Argenberg",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=103055239",
+        "licencia": "CC BY 4.0"
+      }
     },
     {
       "question": "<mark>Es una de las ciudades más llenas de gente del mundo, como una caja llena hasta arriba</mark>. Su bahía fue durante siglos un puerto clave entre Asia y América. ¿Cuál es la capital de Filipinas?",
-      "answer": "<mark>Manila</mark>"
+      "answer": "<mark>Manila</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/13-manila.jpg",
+        "alt": "Bahía de Manila",
+        "title": "Manila Bay",
+        "autor": "~MVI~ (warped)",
+        "source": "https://www.flickr.com/photos/20119750@N00/2620071700",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "No es la ciudad más grande y conocida del país; esa es Karachi. <mark>Esta se construyó especialmente para ser la capital, como Brasilia o Canberra</mark>. Es una ciudad moderna junto a unas montañas. ¿Cuál es la capital de Pakistán?",
-      "answer": "<mark>Islamabad</mark>"
+      "answer": "<mark>Islamabad</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/14-islamabad.jpg",
+        "alt": "Mezquita Faisal en Islamabad",
+        "title": "Islamabad,Faisal mosque",
+        "autor": "Shami Hassan",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=102487875",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Está junto al mar Mediterráneo. <mark>Su casco antiguo sube por la colina como un laberinto de calles blancas</mark>. Es el mayor puerto del país. ¿Cuál es la capital de Argelia?",
-      "answer": "<mark>Argel</mark>"
+      "answer": "<mark>Argel</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/15-argel.jpg",
+        "alt": "Casbah de Argel",
+        "title": "Algiers Casbah RomanDeckert",
+        "autor": "RomanDeckert",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=66281110",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Es una de las ciudades más altas del mundo. <mark>Allí tiene su sede la Unión Africana, como una mesa donde se reúnen representantes de todo un continente</mark>. Su nombre significa nueva flor. ¿Cuál es la capital de Etiopía?",
-      "answer": "<mark>Adís Abeba</mark>"
+      "answer": "<mark>Adís Abeba</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_3/16-adis-abeba.jpg",
+        "alt": "Vista de Adís Abeba",
+        "title": "Addis Ababa, Ethiopia",
+        "autor": "neiljs",
+        "source": "https://www.flickr.com/photos/59367690@N00/5489344575",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

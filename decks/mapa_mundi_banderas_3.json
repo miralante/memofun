@@ -5,67 +5,195 @@
   "cards": [
     {
       "question": "Tiene cinco franjas azules y blancas, con un triángulo rojo y una estrella blanca. <mark>Esa estrella solitaria simboliza al país, como una sola luz guiando el camino</mark>. El triángulo rojo recuerda la sangre de quienes lucharon por la independencia. ¿De qué país es esta bandera?",
-      "answer": "<mark>Cuba</mark>"
+      "answer": "<mark>Cuba</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/01-cuba.png",
+        "alt": "Bandera de Cuba: franjas azules y blancas con triángulo rojo y estrella",
+        "title": "Flag of Cuba",
+        "autor": "Autor desconocido",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=15408",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Tiene cinco franjas horizontales: azul, blanca, roja, blanca y azul. <mark>La franja roja, en el centro, es el doble de ancha, como el corazón de un sándwich de colores</mark>. Es uno de los pocos países del mundo sin ejército. ¿De qué país es esta bandera?",
-      "answer": "<mark>Costa Rica</mark>"
+      "answer": "<mark>Costa Rica</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/02-costa-rica.png",
+        "alt": "Bandera de Costa Rica: franjas azules, blanca y roja",
+        "title": "Flag of Costa Rica (1838-1840)",
+        "autor": "Heraldry",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=7752358",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Está dividida en cuatro cuadros: dos blancos con una estrella cada uno, uno azul y uno rojo. <mark>El azul y el rojo representaban antes a dos partidos políticos, unidos ahora en una sola bandera</mark>. Este país es famoso por su canal, que une dos océanos. ¿De qué país es esta bandera?",
-      "answer": "<mark>Panamá</mark>"
+      "answer": "<mark>Panamá</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/03-panama.png",
+        "alt": "Bandera de Panamá: cuatro cuadros rojo, azul y blanco",
+        "title": "Flag of Panama 1925 - 2017",
+        "autor": "GiovaniRol98",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=99417916",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Tiene una gran cruz blanca que la divide en cuatro cuadros azules y rojos. <mark>Es la única bandera del mundo con un escudo justo en el centro, sobre la cruz, como una firma en mitad de la página</mark>. Su capital es la ciudad europea más antigua de América. ¿De qué país es esta bandera?",
-      "answer": "<mark>República Dominicana</mark>"
+      "answer": "<mark>República Dominicana</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/04-republica-dominicana.jpg",
+        "alt": "Bandera de República Dominicana con escudo en el centro",
+        "title": "Flag of the Dominican Republic",
+        "autor": "Oleg Yunakov",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=161024200",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Tiene tres franjas horizontales: amarilla, azul y roja. <mark>La franja amarilla ocupa la mitad de la bandera, el doble que las otras dos</mark>. Comparte estos colores con un país vecino, porque nacieron juntos hace dos siglos. ¿De qué país es esta bandera?",
-      "answer": "<mark>Colombia</mark>"
+      "answer": "<mark>Colombia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/05-colombia.jpg",
+        "alt": "Bandera de Colombia: amarilla, azul y roja",
+        "title": "Flag of Colombia",
+        "autor": "Hugo Quintero",
+        "source": "https://www.flickr.com/photos/92529460@N00/5967763363",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene las mismas franjas amarilla, azul y roja que Colombia, porque ambos países compartieron una bandera en el pasado. <mark>La diferencia está en el centro: añade un gran escudo con un cóndor, como una firma propia sobre un diseño heredado</mark>. Debe su nombre a la línea que atraviesa el país. ¿De qué país es esta bandera?",
-      "answer": "<mark>Ecuador</mark>"
+      "answer": "<mark>Ecuador</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/06-ecuador.png",
+        "alt": "Bandera de Ecuador: amarilla, azul y roja",
+        "title": "Flag of Ecuador (1830–1835)",
+        "autor": "Milenioscuro",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=10570040",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Tiene franjas blancas y azules, con un sol con cara en una esquina. <mark>Ese sol es el mismo que aparece en la bandera de Argentina, porque ambos países comparten esa parte de su historia</mark>. Tiene nueve franjas, una por cada región del país al crearse. ¿De qué país es esta bandera?",
-      "answer": "<mark>Uruguay</mark>"
+      "answer": "<mark>Uruguay</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/07-uruguay.jpg",
+        "alt": "Bandera de Uruguay con sol y franjas blancas y azules",
+        "title": "Flag of Uruguay Montevideo",
+        "autor": "Benoît Prieur",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=13313348",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Tiene tres franjas horizontales: roja, blanca y azul. Es una de las banderas tricolor más antiguas del mundo. <mark>Antes su franja superior era naranja, no roja</mark>. ¿De qué país es esta bandera?",
-      "answer": "<mark>Países Bajos</mark>"
+      "answer": "<mark>Países Bajos</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/08-paises-bajos.jpg",
+        "alt": "Antigua bandera de los Países Bajos con franja superior naranja, blanca y azul",
+        "title": "Old dutch flag",
+        "autor": "Benoit cars",
+        "source": "https://www.flickr.com/photos/67847534@N03/14622220437",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es roja con una cruz blanca en el centro. <mark>Es una de las dos únicas banderas cuadradas del mundo, junto a la del Vaticano</mark>. Este país es famoso por sus montañas y por no participar en guerras entre otros países. ¿De qué país es esta bandera?",
-      "answer": "<mark>Suiza</mark>"
+      "answer": "<mark>Suiza</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/09-suiza.jpg",
+        "alt": "Bandera de Suiza: cruz blanca sobre fondo rojo",
+        "title": "flag of Switzerland",
+        "autor": "Thomas8047",
+        "source": "https://www.flickr.com/photos/93482748@N02/13936783599",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene tres franjas verticales: verde, blanca y naranja. <mark>El verde y el naranja son dos grupos religiosos distintos, y el blanco en el medio es la paz entre ellos</mark>. Se la conoce como la isla esmeralda por el verde de sus campos. ¿De qué país es esta bandera?",
-      "answer": "<mark>Irlanda</mark>"
+      "answer": "<mark>Irlanda</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/10-irlanda.jpg",
+        "alt": "Bandera de Irlanda: verde, blanca y naranja",
+        "title": "Flag of ireland",
+        "autor": "SteuveFE",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=1506392",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene tres franjas verticales: negra, amarilla y roja. <mark>Estos colores vienen del antiguo escudo de la región, como una herencia de siglos convertida en bandera</mark>. Es un país pequeño con tres idiomas oficiales. ¿De qué país es esta bandera?",
-      "answer": "<mark>Bélgica</mark>"
+      "answer": "<mark>Bélgica</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/11-belgica.jpg",
+        "alt": "Bandera de Bélgica: negra, amarilla y roja",
+        "title": "Flag of Belgium flying, Martyrs' Square - Place des Martyrs - Martelaarsplaats, Brussels, Belgium",
+        "autor": "historic.brussels",
+        "source": "https://www.flickr.com/photos/22325431@N05/4039376521",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la única bandera del mundo que no tiene forma de rectángulo. <mark>Está formada por dos triángulos apilados, como dos banderines pequeños unidos en uno solo</mark>. Este país alberga la montaña más alta del mundo. ¿De qué país es esta bandera?",
-      "answer": "<mark>Nepal</mark>"
+      "answer": "<mark>Nepal</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/12-nepal.png",
+        "alt": "Bandera de Nepal: dos triángulos con borde azul",
+        "title": "Flag of Nepal (white background, aspect ratio 3-2)",
+        "autor": "Χ",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=70415579",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Tiene un triángulo blanco con un sol y tres estrellas, y dos franjas, azul y roja. <mark>Si se pone con la franja roja arriba, significa que el país está en guerra, como una señal de alarma escondida en el diseño</mark>. Está formado por miles de islas. ¿De qué país es esta bandera?",
-      "answer": "<mark>Filipinas</mark>"
+      "answer": "<mark>Filipinas</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/13-filipinas.png",
+        "alt": "Bandera de Filipinas: azul, roja, blanca con sol y estrellas",
+        "title": "Flag of the Philippines (navy blue)",
+        "autor": "Autor desconocido",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=20390548",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Es verde con una franja blanca vertical, una luna y una estrella. <mark>El verde es la mayoría musulmana, y la franja blanca las religiones minoritarias, como dos vecinos compartiendo una misma casa</mark>. Tiene una de las cordilleras más altas del mundo. ¿De qué país es esta bandera?",
-      "answer": "<mark>Pakistán</mark>"
+      "answer": "<mark>Pakistán</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/14-pakistan.jpg",
+        "alt": "Bandera de Pakistán: verde y blanca con luna y estrella",
+        "title": "Flag of Pakistan on National Monument",
+        "autor": "Khalid Mahmood",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=7330293",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Tiene dos franjas verticales, verde y blanca, con una media luna y una estrella rojas. <mark>El rojo recuerda la sangre de quienes lucharon por la independencia, como una firma de color sobre fondo tranquilo</mark>. Es el país más grande de África por superficie. ¿De qué país es esta bandera?",
-      "answer": "<mark>Argelia</mark>"
+      "answer": "<mark>Argelia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/15-argelia.png",
+        "alt": "Bandera nacionalista de Argelia en los años sesenta",
+        "title": "5 - Nationalist flags of Algeria in the 1960s",
+        "autor": "MingoBerlingo",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=146542601",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Tiene tres franjas horizontales: verde, amarilla y roja, con una estrella azul en el centro. <mark>Este país nunca fue colonizado, así que muchos países africanos copiaron después sus colores</mark>. Es uno de los países más antiguos del mundo. ¿De qué país es esta bandera?",
-      "answer": "<mark>Etiopía</mark>"
+      "answer": "<mark>Etiopía</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_3/16-etiopia.jpg",
+        "alt": "Bandera de Etiopía: verde, amarilla y roja",
+        "title": "ET-Ethiopian flags",
+        "autor": "Soman",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=28810442",
+        "licencia": "CC BY-SA 3.0"
+      }
     }
   ]
 }

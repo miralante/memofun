@@ -5,75 +5,219 @@
   "cards": [
     {
       "question": "Es azul con una cruz amarilla desplazada hacia un lado. Esa cruz, la <i>cruz nórdica</i>, <mark>aparece en las banderas de países vecinos, como una familia con el mismo apellido</mark>. ¿De qué país es esta bandera?",
-      "answer": "<mark>Suecia</mark>"
+      "answer": "<mark>Suecia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/01-suecia.jpg",
+        "alt": "Bandera de Suecia: azul con cruz nórdica amarilla",
+        "title": "Swedish Flag",
+        "autor": "flo_p",
+        "source": "https://www.flickr.com/photos/26599945@N08/2807953857",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es roja con una cruz azul bordeada de blanco. <mark>Tiene la misma cruz nórdica que Suecia o Dinamarca, como primos que comparten un símbolo</mark>. Ondea en un país con muchos fiordos. ¿De qué país es esta bandera?",
-      "answer": "<mark>Noruega</mark>"
+      "answer": "<mark>Noruega</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/02-noruega.png",
+        "alt": "Bandera de Noruega: cruz nórdica roja, azul y blanca",
+        "title": "Flag of Norway (c81329 for red & 14275b for blue)",
+        "autor": "Gutten på Hemsen",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=99459163",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Es roja con una cruz blanca desplazada hacia un lado. <mark>Es una de las banderas más antiguas del mundo todavía en uso, como una reliquia familiar</mark>. Según la leyenda, cayó del cielo durante una batalla. ¿De qué país es esta bandera?",
-      "answer": "<mark>Dinamarca</mark>"
+      "answer": "<mark>Dinamarca</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/03-dinamarca.png",
+        "alt": "Bandera de Dinamarca: cruz blanca sobre fondo rojo",
+        "title": "Flag of Denmark (state)",
+        "autor": "Autor desconocido",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=601918",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Es blanca con una cruz azul desplazada hacia un lado. El blanco es la nieve; el azul, los miles de lagos. <mark>Tiene más de 180.000 lagos, como un paisaje resumido en dos colores</mark>. ¿De qué país es esta bandera?",
-      "answer": "<mark>Finlandia</mark>"
+      "answer": "<mark>Finlandia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/04-finlandia.jpg",
+        "alt": "Bandera de Finlandia: azul y blanca con cruz nórdica",
+        "title": "Flag of Finland",
+        "autor": "Matti Mattila",
+        "source": "https://www.flickr.com/photos/65448940@N00/7419466288",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene dos franjas horizontales: blanca arriba y roja abajo. <mark>Es tan sencilla que parece partida justo por la mitad, como una tableta de chocolate</mark>. El blanco es la paz; el rojo, la sangre derramada en su historia. ¿De qué país es esta bandera?",
-      "answer": "<mark>Polonia</mark>"
+      "answer": "<mark>Polonia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/05-polonia.png",
+        "alt": "Bandera de Polonia: blanca y roja",
+        "title": "Flag of Poland with border",
+        "autor": "Kovmarg771",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=151906603",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Es verde con una frase religiosa escrita en árabe y una espada debajo. <mark>Por respeto a ese texto sagrado, nunca se pone a media asta ni del revés</mark>. El verde es muy importante en el islam. ¿De qué país es esta bandera?",
-      "answer": "<mark>Arabia Saudí</mark>"
+      "answer": "<mark>Arabia Saudí</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/06-arabia-saudi.jpg",
+        "alt": "Bandera de Arabia Saudí con inscripción religiosa en verde",
+        "title": "The Saudi Arabian flag. Created by Adam Jaafar in 1953.",
+        "autor": "Theyesmannoyesareyousureaboutthat",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=175905797",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Tiene tres franjas horizontales, verde, blanca y negra, con una franja roja vertical. <mark>Cada color representa a uno de los siete territorios que forman el país</mark>. Se formó como país en 1971. ¿De qué país es esta bandera?",
-      "answer": "<mark>Emiratos Árabes Unidos</mark>"
+      "answer": "<mark>Emiratos Árabes Unidos</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/07-emiratos-arabes-unidos.jpg",
+        "alt": "Bandera de los Emiratos Árabes Unidos: verde, blanca y negra con franja roja",
+        "title": "Emirati flags",
+        "autor": "samuelnabi",
+        "source": "https://www.flickr.com/photos/28309363@N07/14366676042",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es roja con una media luna blanca y una estrella. <mark>Ese símbolo se usa en varios países de mayoría musulmana, como una firma compartida</mark>. Es un país que une Europa y Asia. ¿De qué país es esta bandera?",
-      "answer": "<mark>Turquía</mark>"
+      "answer": "<mark>Turquía</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/08-turquia.png",
+        "alt": "Bandera de Turquía: roja con luna creciente y estrella blancas",
+        "title": "Flag of Turkey, vertical",
+        "autor": "Icon flag",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=76807496",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Tiene cinco franjas horizontales: roja, blanca, azul, blanca y roja. <mark>La franja azul del centro, más ancha, representa a la monarquía, como el corazón de un sándwich</mark>. El rojo es la nación; el blanco, la religión budista. ¿De qué país es esta bandera?",
-      "answer": "<mark>Tailandia</mark>"
+      "answer": "<mark>Tailandia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/09-tailandia.jpg",
+        "alt": "Bandera de Tailandia: rojo, blanco y azul",
+        "title": "National Flag of Thailand, Wang Lang Pier, Bangkok, Thailand",
+        "autor": "David McKelvey",
+        "source": "https://www.flickr.com/photos/94735786@N00/6906948994",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es roja con una gran estrella amarilla de cinco puntas. <mark>Cada punta representa a un grupo: obreros, campesinos, soldados, jóvenes e intelectuales</mark>. El rojo recuerda la lucha por la independencia. ¿De qué país es esta bandera?",
-      "answer": "<mark>Vietnam</mark>"
+      "answer": "<mark>Vietnam</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/10-vietnam.jpg",
+        "alt": "Bandera de Vietnam: roja con estrella amarilla",
+        "title": "Flag of Vietnam in front of Ho Chi Minh mausoleum",
+        "autor": "Rosino",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=9423584",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Tiene dos franjas horizontales: roja arriba y blanca abajo. <mark>Es casi idéntica a la bandera de Mónaco, aunque son países muy distintos y alejados</mark>. Este país está formado por más de 17.000 islas. ¿De qué país es esta bandera?",
-      "answer": "<mark>Indonesia</mark>"
+      "answer": "<mark>Indonesia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/11-indonesia.jpg",
+        "alt": "Bandera de Indonesia: roja y blanca",
+        "title": "National Flag of Indonesia",
+        "autor": "euthman",
+        "source": "https://www.flickr.com/photos/78147607@N00/4886750457",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es blanca con un círculo rojo y azul en el centro, rodeado de líneas negras. <mark>Ese círculo, el <i>taegeuk</i>, representa el equilibrio entre fuerzas opuestas, como el día y la noche</mark>. Las líneas representan el cielo, la tierra, el agua y el fuego. ¿De qué país es esta bandera?",
-      "answer": "<mark>Corea del Sur</mark>"
+      "answer": "<mark>Corea del Sur</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/12-corea-del-sur.jpg",
+        "alt": "Bandera de Corea del Sur con el símbolo taegeuk",
+        "title": "Flag of South Korea (cropped)",
+        "autor": "J. Patrick Fischer",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=29797120",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Es roja con una estrella verde de cinco puntas en el centro. <mark>Esa estrella se llama Sello de Salomón y simboliza la sabiduría</mark>. Está en el norte de África, frente a España. ¿De qué país es esta bandera?",
-      "answer": "<mark>Marruecos</mark>"
+      "answer": "<mark>Marruecos</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/13-marruecos.jpg",
+        "alt": "Bandera de Marruecos: roja con estrella verde",
+        "title": "The flag of Morocco",
+        "autor": "Kristian Thøgersen",
+        "source": "https://www.flickr.com/photos/92028474@N00/2757641975",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene tres franjas verticales: verde, blanca y verde. El verde son los bosques y campos; el blanco, la paz. <mark>Es el país más poblado de África</mark>. ¿De qué país es esta bandera?",
-      "answer": "<mark>Nigeria</mark>"
+      "answer": "<mark>Nigeria</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/14-nigeria.png",
+        "alt": "Bandera de Nigeria: verde, blanca y verde",
+        "title": "Flag of Nigeria (state)",
+        "autor": "Thommy",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=34830111",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Tiene franjas negras, rojas, verdes y blancas, con un escudo tradicional con dos lanzas. <mark>Ese escudo simboliza la defensa de la libertad, como el emblema de un guerrero</mark>. Este país es famoso por sus grandes safaris. ¿De qué país es esta bandera?",
-      "answer": "<mark>Kenia</mark>"
+      "answer": "<mark>Kenia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/15-kenia.png",
+        "alt": "Bandera de Kenia con escudo y lanzas",
+        "title": "Flag of Kenya (1921–1963)",
+        "autor": "Oren neu dag",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=5182272",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Tiene tres franjas verticales: roja, blanca y roja. <mark>Según la leyenda, sus colores se inspiraron en unos flamencos rojos y blancos</mark>. La versión oficial lleva además un escudo en el centro. ¿De qué país es esta bandera?",
-      "answer": "<mark>Perú</mark>"
+      "answer": "<mark>Perú</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/16-peru.jpg",
+        "alt": "Bandera de Perú: rojo, blanco y rojo",
+        "title": "Flag of Peru (1)",
+        "autor": "John Serrao",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=9064011",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Tiene una franja blanca, una roja y un cuadro azul con una estrella blanca. <mark>Se la conoce como la Estrella Solitaria, como una única luz guiando en la noche</mark>. Se parece a la bandera de Texas, aunque nacieron por separado. ¿De qué país es esta bandera?",
-      "answer": "<mark>Chile</mark>"
+      "answer": "<mark>Chile</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/17-chile.png",
+        "alt": "Bandera de Chile: blanca, roja y azul con estrella blanca",
+        "title": "Flag of Chile (1812-1814)",
+        "autor": "B1mbo",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=499775",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Es azul con la bandera del Reino Unido en una esquina y cuatro estrellas rojas. <mark>Esas estrellas forman la Cruz del Sur, la misma constelación de la bandera de Australia</mark>. Por eso a veces se confunden ambas banderas. ¿De qué país es esta bandera?",
-      "answer": "<mark>Nueva Zelanda</mark>"
+      "answer": "<mark>Nueva Zelanda</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas_2/18-nueva-zelanda.png",
+        "alt": "Bandera de Nueva Zelanda con estrellas rojas y azules",
+        "title": "Flag of New Zealand",
+        "autor": "Autor desconocido",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=18076",
+        "licencia": "CC BY-SA 3.0"
+      }
     }
   ]
 }

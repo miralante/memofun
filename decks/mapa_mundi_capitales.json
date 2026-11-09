@@ -5,79 +5,231 @@
   "cards": [
     {
       "question": "Es la ciudad donde vive el gobierno de un país. <mark>Es como la casa central de una empresa</mark>. No siempre es la más grande ni la más famosa del país. ¿Cómo se llama esa ciudad especial?",
-      "answer": "<mark>Capital</mark>"
+      "answer": "<mark>Capital</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/01-capital.jpg",
+        "alt": "Edificio del Parlamento",
+        "title": "Parliament Building",
+        "autor": "D-Stanley",
+        "source": "https://www.flickr.com/photos/79721788@N00/13571319903",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está en el centro del país. <mark>Gobiernan desde allí como desde el corazón de una estrella, con caminos en todas direcciones</mark>. Es la ciudad más poblada de España y tiene el Museo del Prado. ¿Cuál es la capital de España?",
-      "answer": "<mark>Madrid</mark>"
+      "answer": "<mark>Madrid</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/02-madrid.jpg",
+        "alt": "Museo del Prado en Madrid",
+        "title": "Prado Museum, Madrid, Spain",
+        "autor": "DBduo Photography",
+        "source": "https://www.flickr.com/photos/61926883@N00/492079399",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Está a orillas del río Sena. <mark>La Torre Eiffel es su símbolo, tan reconocible como una firma</mark>. Es la ciudad más visitada de Francia. ¿Cuál es la capital de Francia?",
-      "answer": "<mark>París</mark>"
+      "answer": "<mark>París</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/03-paris.jpg",
+        "alt": "Torre Eiffel en París",
+        "title": "Eiffel Tower from the Hilton Hotel - My story of our arrival",
+        "autor": "johntrainor",
+        "source": "https://www.flickr.com/photos/59158146@N00/2672408424",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene miles de años de historia. <mark>Caminar por sus calles es como hojear un libro de historia al aire libre</mark>. Allí está el Coliseo y vive el Papa, dentro del Vaticano. ¿Cuál es la capital de Italia?",
-      "answer": "<mark>Roma</mark>"
+      "answer": "<mark>Roma</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/04-roma.jpg",
+        "alt": "Coliseo romano en Roma",
+        "title": "Colosseum, Rome",
+        "autor": "kBandara",
+        "source": "https://www.flickr.com/photos/28792061@N05/15126580060",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está en el este del país. <mark>Un muro dividió la ciudad en dos durante casi 30 años, como una línea invisible que separaba familias</mark>, hasta caer en 1989. Hoy es una ciudad unida y muy moderna. ¿Cuál es la capital de Alemania?",
-      "answer": "<mark>Berlín</mark>"
+      "answer": "<mark>Berlín</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/05-berlin.jpg",
+        "alt": "Caída del Muro de Berlín",
+        "title": "The fall of the Berlin Wall - November 1989",
+        "autor": "gavinandrewstewart",
+        "source": "https://www.flickr.com/photos/80047676@N00/93222089",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está a orillas del río Támesis. <mark>El Big Ben marca las horas como un reloj gigante que toda la ciudad escucha</mark>. Allí vive la familia real. ¿Cuál es la capital del Reino Unido?",
-      "answer": "<mark>Londres</mark>"
+      "answer": "<mark>Londres</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/06-londres.jpg",
+        "alt": "Big Ben en Londres",
+        "title": "Big Ben London",
+        "autor": "ramonbaile",
+        "source": "https://www.flickr.com/photos/12289625@N04/1361106571",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Está junto al océano Atlántico. <mark>Sus calles suben y bajan como olas de piedra, por eso tiene tranvías amarillos tan famosos</mark>. Es una de las capitales más antiguas de Europa. ¿Cuál es la capital de Portugal?",
-      "answer": "<mark>Lisboa</mark>"
+      "answer": "<mark>Lisboa</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/07-lisboa.jpg",
+        "alt": "Tranvía amarillo en Lisboa",
+        "title": "Lisbon Tram",
+        "autor": "Martin Cooper Ipswich",
+        "source": "https://www.flickr.com/photos/92899351@N08/10721604596",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más poblada de Europa. <mark>Su Plaza Roja, con cúpulas de colores, es como un cuadro pintado en piedra</mark>. Allí está el Kremlin, sede del gobierno. ¿Cuál es la capital de Rusia?",
-      "answer": "<mark>Moscú</mark>"
+      "answer": "<mark>Moscú</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/08-moscu.jpg",
+        "alt": "Catedral de San Basilio en la Plaza Roja de Moscú",
+        "title": "Saint Basil's Cathedral, Moscow",
+        "autor": "John Pannell",
+        "source": "https://www.flickr.com/photos/57989987@N00/29615521",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "No es Nueva York, aunque mucha gente se sorprende. <mark>Es como descubrir que el capitán de un equipo no es la estrella más famosa</mark>. Allí vive el presidente, en la Casa Blanca. ¿Cuál es la capital de Estados Unidos?",
-      "answer": "<mark>Washington D.C.</mark>"
+      "answer": "<mark>Washington D.C.</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/09-washington-d-c.jpg",
+        "alt": "Casa Blanca en Washington",
+        "title": "The White House - Washington, DC",
+        "autor": "VinothChandar",
+        "source": "https://www.flickr.com/photos/44345361@N06/4774072184",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "No es Toronto, la ciudad más conocida. <mark>Se eligió a propósito por estar entre dos regiones que hablan idiomas distintos, como un punto medio justo</mark>. Allí se reúne el Parlamento. ¿Cuál es la capital de Canadá?",
-      "answer": "<mark>Ottawa</mark>"
+      "answer": "<mark>Ottawa</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/10-ottawa.jpg",
+        "alt": "Torre de la Paz del Parlamento en Ottawa",
+        "title": "Peace tower, Ottawa",
+        "autor": "Alkan de Beaumont Chaglar",
+        "source": "https://www.flickr.com/photos/7605418@N07/444206514",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es una de las urbes más grandes del mundo, construida sobre un antiguo lago. <mark>Con el tiempo, lo que flotaba sobre el agua se volvió tierra firme</mark>. Fue antes la capital azteca, llamada Tenochtitlan. ¿Cuál es la capital de México?",
-      "answer": "<mark>Ciudad de México</mark>"
+      "answer": "<mark>Ciudad de México</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/11-ciudad-de-mexico.jpg",
+        "alt": "Templo Mayor, restos de la antigua Tenochtitlan",
+        "title": "Templo Mayor, Mexico City",
+        "autor": "David Jones",
+        "source": "https://www.flickr.com/photos/45457437@N00/16728751766",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "No es Río de Janeiro. <mark>Se construyó desde cero en pocos años, como armar una ciudad entera con las piezas de un solo plano</mark>. Su forma desde el aire recuerda a un avión. ¿Cuál es la capital de Brasil?",
-      "answer": "<mark>Brasilia</mark>"
+      "answer": "<mark>Brasilia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/12-brasilia.jpg",
+        "alt": "Catedral de Brasilia",
+        "title": "Brasilia, Cathedral of Brasilia",
+        "autor": "Arian Zwegers",
+        "source": "https://www.flickr.com/photos/67769030@N07/15309099334",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está junto al Río de la Plata. <mark>Su barrio de La Boca es tan colorido como una caja de lápices de colores</mark>. Es cuna del tango. ¿Cuál es la capital de Argentina?",
-      "answer": "<mark>Buenos Aires</mark>"
+      "answer": "<mark>Buenos Aires</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/13-buenos-aires.jpg",
+        "alt": "Barrio de La Boca en Buenos Aires",
+        "title": "La Boca. Buenos Aires, Argentina",
+        "autor": "jafsegal (Thanks for the 4,5 million views)",
+        "source": "https://www.flickr.com/photos/67525885@N00/25859923280",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es una de las ciudades más pobladas del planeta. <mark>De noche, sus luces de neón la convierten en un mapa de estrellas hecho por personas</mark>. Combina templos antiguos con rascacielos modernos. ¿Cuál es la capital de Japón?",
-      "answer": "<mark>Tokio</mark>"
+      "answer": "<mark>Tokio</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/14-tokio.jpg",
+        "alt": "Skyline de Tokio",
+        "title": "Tokyo skyline",
+        "autor": "www.gilpivert.fr",
+        "source": "https://www.flickr.com/photos/109536074@N05/23690389721",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene más de 3.000 años de historia. <mark>Su Ciudad Prohibida fue el palacio de los emperadores, cerrada como un secreto guardado durante siglos</mark>. Cerca está también la Gran Muralla. ¿Cuál es la capital de China?",
-      "answer": "<mark>Pekín</mark>"
+      "answer": "<mark>Pekín</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/15-pekin.jpg",
+        "alt": "Ciudad Prohibida en Pekín",
+        "title": "Forbidden City, Beijing",
+        "autor": "D-Stanley",
+        "source": "https://www.flickr.com/photos/79721788@N00/5062716559",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está junto a la vieja ciudad de Delhi. <mark>Son como dos hermanas, una moderna y otra antigua, viviendo pared con pared</mark>. Allí está la Puerta de India, un gran monumento. ¿Cuál es la capital de India?",
-      "answer": "<mark>Nueva Delhi</mark>"
+      "answer": "<mark>Nueva Delhi</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/16-nueva-delhi.jpg",
+        "alt": "Puerta de la India en Nueva Delhi",
+        "title": "The India Gate, New Delhi",
+        "autor": "Larry Johnson",
+        "source": "https://www.flickr.com/photos/76225887@N00/5621259188",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está cerca del río Nilo. <mark>A las afueras están las pirámides de Guiza, como gigantes de piedra vigilando la ciudad desde hace miles de años</mark>. Es la ciudad más grande de África. ¿Cuál es la capital de Egipto?",
-      "answer": "<mark>El Cairo</mark>"
+      "answer": "<mark>El Cairo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/17-el-cairo.jpg",
+        "alt": "Gran Esfinge de Guiza junto a El Cairo",
+        "title": "Great Sphinx of Giza - 20080716a",
+        "autor": "Taken by the uploader, w:es:Usuario:Barcex",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=4483211",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "<mark>Es como repartir el trabajo de un jefe entre varias oficinas distintas: una gobierna, una hace las leyes y otra juzga</mark>. Ningún otro país reparte así sus capitales. ¿Cuántas capitales tiene Sudáfrica?",
-      "answer": "<mark>Tres</mark>"
+      "answer": "<mark>Tres</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/18-tres.jpg",
+        "alt": "Edificios de la Unión en Pretoria",
+        "title": "The Union Buildings, Pretoria",
+        "autor": "Robert Cutts",
+        "source": "https://www.flickr.com/photos/21678559@N06/2354358880",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "No es Sídney. <mark>Se eligió un punto medio entre dos ciudades rivales, como un árbitro que no favorece a ningún equipo</mark>. Está entre Sídney y Melbourne. ¿Cuál es la capital de Australia?",
-      "answer": "<mark>Canberra</mark>"
+      "answer": "<mark>Canberra</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales/19-canberra.jpg",
+        "alt": "Casa del Parlamento en Canberra",
+        "title": "Old & New Parliament House, Canberra, ACT",
+        "autor": "Brenden Ashton",
+        "source": "https://www.flickr.com/photos/29901446@N07/2800023900",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

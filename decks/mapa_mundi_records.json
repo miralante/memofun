@@ -5,59 +5,171 @@
   "cards": [
     {
       "question": "El mundo tiene países, ciudades y paisajes con datos curiosos y extremos. <mark>Unos son los más grandes, otros los más pequeños o los más poblados</mark>. Conocerlos ayuda a entender el planeta. ¿Cómo se llama a esos datos curiosos y extremos?",
-      "answer": "<mark>Récords</mark>"
+      "answer": "<mark>Récords</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/01-records.jpg",
+        "alt": "Libro de los récords Guinness",
+        "title": "Guinness Worlds Record Book: Gamer's Bible",
+        "autor": "Sergey Galyonkin",
+        "source": "https://www.flickr.com/photos/22974618@N00/5695964714",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es tan grande que atraviesa once husos horarios, <mark>como si un mismo país viviera en once horas distintas a la vez</mark>. Su territorio es casi el doble que el del segundo país más grande. ¿Qué país es el más grande del mundo?",
-      "answer": "<mark>Rusia</mark>"
+      "answer": "<mark>Rusia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/02-rusia.png",
+        "alt": "Mapa de Rusia con clasificación climática",
+        "title": "Russia map of Köppen climate classification",
+        "autor": "Ali Zifan (Enhanced, modified, and vectorized).",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=47085448",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Está dentro de la propia ciudad de Roma. <mark>Se podría recorrer entero caminando en menos de una hora, como dar una vuelta a un parque grande</mark>. Es la sede de la Iglesia católica. ¿Cuál es el país más pequeño del mundo?",
-      "answer": "<mark>Ciudad del Vaticano</mark>"
+      "answer": "<mark>Ciudad del Vaticano</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/03-ciudad-del-vaticano.jpg",
+        "alt": "Ciudad del Vaticano en Roma",
+        "title": "Vatican city, Rome, Italy",
+        "autor": "Giuseppe Milo (www.pixael.com)",
+        "source": "https://www.flickr.com/photos/87690240@N03/16306964043",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene más de 1.400 millones de personas, más que en toda América junta, <mark>como si un solo país reuniera a dos continentes enteros</mark>. Superó a China como el país más poblado. ¿Qué país es el más poblado del mundo?",
-      "answer": "<mark>India</mark>"
+      "answer": "<mark>India</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/04-india.jpg",
+        "alt": "Mapa de la India",
+        "title": "India-map-en",
+        "autor": "Rajeshodayanchal at Malayalam Wikipedia.",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=14861563",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Tiene doce husos horarios distintos, gracias a sus territorios repartidos por el Caribe, el Índico y el Pacífico, <mark>como islas esparcidas por el mapa</mark>. Por eso siempre es de día en algún lugar suyo. ¿Qué país tiene más husos horarios?",
-      "answer": "<mark>Francia</mark>"
+      "answer": "<mark>Francia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/05-francia.jpg",
+        "alt": "Mapa de Francia con regiones y departamentos",
+        "title": "France map Lambert-93 with regions and departments-occupation",
+        "autor": "Eric Gaba (Sting - fr:Sting) for original blank map Rama for zones",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=5285193",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Tienen catorce países vecinos cada uno, <mark>como tener catorce casas pegadas a la tuya, cada una con su propia puerta</mark>. Ambos atraviesan Europa y Asia. ¿Qué dos países tienen más países vecinos?",
-      "answer": "<mark>China y Rusia</mark>"
+      "answer": "<mark>China y Rusia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/06-china-y-rusia.png",
+        "alt": "Mapa del mundo en blanco",
+        "title": "Elastic I blank world map",
+        "autor": "Thearones",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=148970889",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Mide más de 8.800 kilómetros, <mark>como cruzar casi dos veces toda Europa en línea recta</mark>. Es una de las fronteras más tranquilas del mundo. ¿Qué frontera es la más larga del mundo?",
-      "answer": "<mark>Estados Unidos-Canadá</mark>"
+      "answer": "<mark>Estados Unidos-Canadá</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/07-estados-unidos-canada.jpg",
+        "alt": "Paso fronterizo entre Canadá y Estados Unidos",
+        "title": "Canada - United States border crossing at Vanceboro, Maine from St. Croix, New Brunswick",
+        "autor": "DShaw20",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=82029323",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Sumando todos sus tramos, mide más de 20.000 kilómetros, <mark>como si rodeara medio planeta</mark>. Se construyó a lo largo de siglos para proteger el territorio chino. ¿Cuál es la construcción hecha por personas más larga del mundo?",
-      "answer": "<mark>Gran Muralla China</mark>"
+      "answer": "<mark>Gran Muralla China</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/08-gran-muralla-china.jpg",
+        "alt": "La Gran Muralla china",
+        "title": "Great wall of china",
+        "autor": "Grumpy.Editor",
+        "source": "https://www.flickr.com/photos/22028781@N06/2286623670",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Mide más de 800 metros, <mark>como apilar más de dos veces la Torre Eiffel una sobre otra</mark>. Tiene más de 160 plantas y está en Dubái. ¿Cuál es el edificio más alto del mundo?",
-      "answer": "<mark>Burj Khalifa</mark>"
+      "answer": "<mark>Burj Khalifa</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/09-burj-khalifa.jpg",
+        "alt": "Burj Khalifa en Dubái",
+        "title": "Burj Khalifa",
+        "autor": "Rod Waddington",
+        "source": "https://www.flickr.com/photos/64607715@N05/7899106126",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Se independizó en 2011, <mark>así que es más joven que muchos adultos de hoy en día</mark>. Antes formaba parte de otro país llamado Sudán. ¿Cuál es el país más joven del mundo?",
-      "answer": "<mark>Sudán del Sur</mark>"
+      "answer": "<mark>Sudán del Sur</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/10-sudan-del-sur.png",
+        "alt": "Mapa de localización de Sudán del Sur",
+        "title": "South Sudan adm location map",
+        "autor": "NordNordWest",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=36742711",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Tiene más de dos millones de lagos, <mark>como si el país estuviera salpicado de piscinas naturales</mark>. Muchos se formaron hace miles de años por el paso de masas de hielo. ¿Qué país tiene más lagos?",
-      "answer": "<mark>Canadá</mark>"
+      "answer": "<mark>Canadá</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/11-canada.jpg",
+        "alt": "Lago Louise en Canadá",
+        "title": "Lake Louise, Canada",
+        "autor": "GCampbellHall",
+        "source": "https://www.flickr.com/photos/96391186@N06/8819397012",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Un desierto no es solo arena y calor: es un lugar donde llueve muy poco</mark>, y eso también pasa con el hielo. Por eso este continente helado cuenta como desierto. ¿Cuál es el desierto más grande del mundo?",
-      "answer": "<mark>Antártida</mark>"
+      "answer": "<mark>Antártida</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/12-antartida.jpg",
+        "alt": "Paisaje de la Antártida",
+        "title": "Antarctica landscape",
+        "autor": "szeke",
+        "source": "https://www.flickr.com/photos/43355249@N00/53139137075",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Tiene más de 900 millones de hablantes nativos, sobre todo en China. <mark>Es como el idioma de una comunidad gigante</mark>. El español y el inglés le siguen de cerca. ¿Qué idioma tiene más hablantes nativos?",
-      "answer": "<mark>Chino mandarín</mark>"
+      "answer": "<mark>Chino mandarín</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/13-chino-mandarin.jpg",
+        "alt": "Caligrafía china",
+        "title": "Chinese calligraphy",
+        "autor": "decafinata",
+        "source": "https://www.flickr.com/photos/47799429@N00/366887562",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Algunos países, como Costa Rica o Islandia, decidieron no tenerlo. <mark>En vez de gastar en armas, invierten en escuelas, hospitales o parques, como cambiar de prioridades en un presupuesto familiar</mark>. Si necesitan ayuda militar, la piden a países aliados. ¿Qué decidieron no tener esos países?",
-      "answer": "<mark>Ejército</mark>"
+      "answer": "<mark>Ejército</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_records/14-ejercito.jpg",
+        "alt": "Edificio de una escuela pública",
+        "title": "[Public School Building, Graham NC]",
+        "autor": "unclibraries_commons",
+        "source": "https://www.flickr.com/photos/122654055@N06/22680069818",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     }
   ]
 }

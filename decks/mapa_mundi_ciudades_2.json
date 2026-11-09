@@ -5,63 +5,183 @@
   "cards": [
     {
       "question": "Es la ciudad más grande de Nigeria, aunque no es la capital. <mark>Crece tan rápido que parece un pueblo convertido en gigante en pocas décadas</mark>. Es el principal puerto de África occidental. ¿Qué ciudad es?",
-      "answer": "<mark>Lagos</mark>"
+      "answer": "<mark>Lagos</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/01-lagos.jpg",
+        "alt": "Vista de Lagos, Nigeria",
+        "title": "Lagos, Nigeria",
+        "autor": "SEDACMaps",
+        "source": "https://www.flickr.com/photos/54545503@N04/5460922085",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más grande de Nueva Zelanda, aunque no es la capital. <mark>Está entre dos bahías, rodeada de agua, como flotando entre dos mares</mark>. Reúne a un tercio de la población del país. ¿Qué ciudad es?",
-      "answer": "<mark>Auckland</mark>"
+      "answer": "<mark>Auckland</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/02-auckland.jpg",
+        "alt": "Skyline de Auckland",
+        "title": "Auckland skyline",
+        "autor": "Bernard Spragg",
+        "source": "https://www.flickr.com/photos/88123769@N02/33576959126",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Es la ciudad más grande junto al mar de Arabia Saudí, aunque no es la capital. <mark>Es la puerta de entrada de millones de peregrinos hacia La Meca, como una sala de espera antes del viaje sagrado</mark>. ¿Qué ciudad es?",
-      "answer": "<mark>Jeddah</mark>"
+      "answer": "<mark>Jeddah</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/03-jeddah.jpg",
+        "alt": "Centro de Jeddah",
+        "title": "Jeddah Downtown",
+        "autor": "MNmagic",
+        "source": "https://www.flickr.com/photos/21416599@N08/51676548694",
+        "licencia": "Dominio público (PDM 1.0)"
+      }
     },
     {
       "question": "Es la ciudad más sagrada del islam. <mark>Millones de musulmanes viajan hasta allí, como el destino final de un largo camino espiritual</mark>. Solo pueden entrar personas musulmanas. ¿Qué ciudad es?",
-      "answer": "<mark>La Meca</mark>"
+      "answer": "<mark>La Meca</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/04-la-meca.jpg",
+        "alt": "La Kaaba en La Meca",
+        "title": "Kaaba, Masjid Al Haram, Mecca",
+        "autor": "shahin olakara",
+        "source": "https://www.flickr.com/photos/17735174@N03/7715863178",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es una de las tres capitales de Sudáfrica, encargada de hacer las leyes. <mark>Su Montaña de la Mesa se recorta contra el cielo como un enorme telón plano</mark>. Está donde se unen dos océanos. ¿Qué ciudad es?",
-      "answer": "<mark>Ciudad del Cabo</mark>"
+      "answer": "<mark>Ciudad del Cabo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/05-ciudad-del-cabo.jpg",
+        "alt": "Montaña de la Mesa en Ciudad del Cabo",
+        "title": "Table Mountain, Cape Town",
+        "autor": "Gurney5",
+        "source": "https://www.flickr.com/photos/15404046@N02/5083860426",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más grande de Vietnam, aunque no es la capital. <mark>Sus calles llenas de motos parecen un río que nunca deja de moverse</mark>. Antes se llamaba Saigón. ¿Qué ciudad es?",
-      "answer": "<mark>Ciudad Ho Chi Minh</mark>"
+      "answer": "<mark>Ciudad Ho Chi Minh</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/06-ciudad-ho-chi-minh.jpg",
+        "alt": "Motos en Ciudad Ho Chi Minh",
+        "title": "Ho Chi Minh City Motorbike",
+        "autor": "Mike",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=4499323",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la segunda ciudad más grande de Corea del Sur, aunque no es la capital. <mark>Su puerto es como una gran puerta de entrada y salida de mercancías</mark>. Celebra un gran festival de cine. ¿Qué ciudad es?",
-      "answer": "<mark>Busan</mark>"
+      "answer": "<mark>Busan</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/07-busan.jpg",
+        "alt": "Skyline de Busan",
+        "title": "Busan Skyline",
+        "autor": "sabrina.ariana148",
+        "source": "https://www.flickr.com/photos/125918521@N05/40295780102",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es una región especial de China, con normas propias. <mark>Sus rascacielos se amontonan entre montañas y mar, como una ciudad que creció hacia arriba por falta de espacio</mark>. Fue territorio británico hasta 1997. ¿Qué ciudad es?",
-      "answer": "<mark>Hong Kong</mark>"
+      "answer": "<mark>Hong Kong</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/08-hong-kong.jpg",
+        "alt": "Skyline de Hong Kong",
+        "title": "Hong Kong skyline at morning",
+        "autor": "Portland Seminary",
+        "source": "https://www.flickr.com/photos/35459775@N04/21643479918",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es la segunda ciudad más grande de Japón, aunque no es la capital. <mark>Es tan famosa por su comida callejera que la llaman la cocina de Japón</mark>. Tiene un castillo histórico en el centro. ¿Qué ciudad es?",
-      "answer": "<mark>Osaka</mark>"
+      "answer": "<mark>Osaka</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/09-osaka.jpg",
+        "alt": "Castillo de Osaka",
+        "title": "Ozakajō Osaka castle",
+        "autor": "JoopDorresteijn",
+        "source": "https://www.flickr.com/photos/10073573@N00/3161124065",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es una de las ciudades más grandes de Estados Unidos, aunque no es la capital. <mark>Sus rascacielos fueron el primer capítulo de un libro que luego se escribió en todo el mundo</mark>. Está junto al lago Míchigan. ¿Qué ciudad es?",
-      "answer": "<mark>Chicago</mark>"
+      "answer": "<mark>Chicago</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/10-chicago.jpg",
+        "alt": "Skyline de Chicago de noche",
+        "title": "Chicago Skyline @ Night",
+        "autor": "Rhys A.",
+        "source": "https://www.flickr.com/photos/51867225@N08/4768676199",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es una de las ciudades más grandes de Canadá, aunque no es la capital. <mark>Tiene montañas nevadas, bosques y mar juntos, como tres paisajes que se dan la mano</mark>. Es puerta comercial hacia Asia. ¿Qué ciudad es?",
-      "answer": "<mark>Vancouver</mark>"
+      "answer": "<mark>Vancouver</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/11-vancouver.jpg",
+        "alt": "Skyline de Vancouver con montañas",
+        "title": "Vancouver Skyline and Mountains HDR",
+        "autor": "keepitsurreal",
+        "source": "https://www.flickr.com/photos/14558526@N03/3348972199",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es una de las ciudades más visitadas de Marruecos, aunque no es la capital. <mark>Su mercado se llena cada tarde de música y color, como una fiesta que se repite cada día</mark>. Se la conoce como la ciudad roja. ¿Qué ciudad es?",
-      "answer": "<mark>Marrakech</mark>"
+      "answer": "<mark>Marrakech</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/12-marrakech.jpg",
+        "alt": "Plaza Jemaa el-Fnaa en Marrakech",
+        "title": "Storytellers in Jemaa el-Fnaa (Marrakech, Morocco)",
+        "autor": "Carlos ZGZ",
+        "source": "https://www.flickr.com/photos/31810462@N07/15722800436",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Es la segunda ciudad más grande de Colombia. <mark>Se la conoce como la ciudad de la eterna primavera</mark>, por su clima agradable todo el año. Tiene teleféricos que suben a barrios de montaña. ¿Qué ciudad es?",
-      "answer": "<mark>Medellín</mark>"
+      "answer": "<mark>Medellín</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/13-medellin.jpg",
+        "alt": "Metrocable de Medellín",
+        "title": "Medellin Metrocable",
+        "autor": "Onceflashcoat",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=192757041",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Es la capital de Escocia, dentro del Reino Unido. <mark>Su castillo se alza sobre una roca volcánica, como un vigilante de piedra sobre la ciudad</mark>. Cada verano celebra un gran festival de artes. ¿Qué ciudad es?",
-      "answer": "<mark>Edimburgo</mark>"
+      "answer": "<mark>Edimburgo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/14-edimburgo.jpg",
+        "alt": "Castillo de Edimburgo",
+        "title": "Edinburgh Castle",
+        "autor": "Jordan S Hatcher",
+        "source": "https://www.flickr.com/photos/58447660@N00/412481945",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es uno de los destinos turísticos más visitados de México. <mark>Hace unas décadas era una zona casi vacía, como un pueblo pequeño convertido en gran ciudad turística</mark>. Está cerca de Chichén Itzá. ¿Qué ciudad es?",
-      "answer": "<mark>Cancún</mark>"
+      "answer": "<mark>Cancún</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades_2/15-cancun.jpg",
+        "alt": "Playa de Cancún",
+        "title": "Cancun beach",
+        "autor": "ricardodiaz11",
+        "source": "https://www.flickr.com/photos/41652235@N00/4895563425",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

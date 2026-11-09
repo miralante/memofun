@@ -5,67 +5,195 @@
   "cards": [
     {
       "question": "Es una masa de tierra enorme, rodeada de mar. <mark>Es como una isla gigante donde caben muchos países</mark>. La Tierra tiene seis de estas masas de tierra. ¿Cómo se llama cada una?",
-      "answer": "<mark>Continente</mark>"
+      "answer": "<mark>Continente</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/01-continente.png",
+        "alt": "Mapa de los continentes",
+        "title": "Continents map",
+        "autor": "Siebenberghouse",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=48943426",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Es una masa de agua salada gigante, <mark>como una manta azul que cubre casi todo el planeta</mark>. Hay cinco en el mundo. ¿Cómo se llama esta gran masa de agua?",
-      "answer": "<mark>Océano</mark>"
+      "answer": "<mark>Océano</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/02-oceano.jpg",
+        "alt": "Olas del océano",
+        "title": "ocean waves",
+        "autor": "jlodder",
+        "source": "https://www.flickr.com/photos/45040421@N06/6020720070",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es el continente más largo: <mark>se extiende casi de polo a polo</mark>. Incluye países como Canadá, México, Brasil y Argentina. ¿Qué continente es?",
-      "answer": "<mark>América</mark>"
+      "answer": "<mark>América</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/03-america.jpg",
+        "alt": "Mapa de América del Sur",
+        "title": "Mapa de América del Sur; mapa da América do Sul; South America map.",
+        "autor": "thejourney1972 (South America addicted)",
+        "source": "https://www.flickr.com/photos/50694521@N00/1047113050",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es uno de los continentes más pequeños. <mark>Tiene muchos países muy juntos, como un mosaico</mark>. Incluye España, Francia e Italia. ¿Qué continente es?",
-      "answer": "<mark>Europa</mark>"
+      "answer": "<mark>Europa</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/04-europa.jpg",
+        "alt": "Mapa de localización de Europa",
+        "title": "Europe Continent Location Map",
+        "autor": "BlatantWorld.com",
+        "source": "https://www.flickr.com/photos/45150779@N04/5051752837",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es el segundo continente más grande del mundo. <mark>Tiene el desierto más grande del planeta, el Sahara</mark>. Incluye Egipto, Nigeria y Sudáfrica. ¿Qué continente es?",
-      "answer": "<mark>África</mark>"
+      "answer": "<mark>África</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/05-africa.png",
+        "alt": "Mapa de África",
+        "title": "Africa map",
+        "autor": "Original: Faigl.ladislavDerivative work: JCRules",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=25126079",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Es el continente más grande y más poblado del mundo. <mark>Vive allí más gente que en todos los demás juntos</mark>. Tiene la montaña más alta del planeta, el Everest. ¿Qué continente es?",
-      "answer": "<mark>Asia</mark>"
+      "answer": "<mark>Asia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/06-asia.jpg",
+        "alt": "Mapa de localización de Asia",
+        "title": "Asia Continent Location Map",
+        "autor": "BlatantWorld.com",
+        "source": "https://www.flickr.com/photos/45150779@N04/5051752559",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es el continente más pequeño del mundo, formado por Australia y miles de islas del Pacífico. <mark>Muchos de sus animales no existen en ningún otro lugar</mark>. ¿Qué continente es?",
-      "answer": "<mark>Oceanía</mark>"
+      "answer": "<mark>Oceanía</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/07-oceania.png",
+        "alt": "Mapa de Oceanía con clasificación climática",
+        "title": "Oceania map of Köppen climate classification",
+        "autor": "Enhanced, modified, and vectorized by Ali Zifan.",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=47085771",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "Es el continente más frío y helado del planeta, cubierto casi por completo de hielo. <mark>Casi nadie vive allí: solo lo visitan científicos para investigar</mark>. ¿Qué continente es?",
-      "answer": "<mark>Antártida</mark>"
+      "answer": "<mark>Antártida</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/08-antartida.png",
+        "alt": "Plataformas de hielo de la Antártida",
+        "title": "Antarctica ice shelves",
+        "autor": "Dimitri “Diti” Torterat",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=5025098",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es el océano más grande y más profundo del mundo, <mark>tan enorme que podría cubrir toda la tierra firme junta</mark>. Separa América de Asia y Oceanía. ¿Qué océano es?",
-      "answer": "<mark>Pacífico</mark>"
+      "answer": "<mark>Pacífico</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/09-pacifico.jpg",
+        "alt": "Mapa de localización del océano Pacífico",
+        "title": "Pacific Ocean Location Map",
+        "autor": "BlatantWorld.com",
+        "source": "https://www.flickr.com/photos/45150779@N04/4149347778",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es el segundo océano más grande del mundo. <mark>Separa América de Europa y África, como un gran pasillo de agua</mark>. Por él viajaron los primeros barcos que cruzaron entre continentes. ¿Qué océano es?",
-      "answer": "<mark>Atlántico</mark>"
+      "answer": "<mark>Atlántico</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/10-atlantico.jpg",
+        "alt": "Mapa de localización del océano Atlántico",
+        "title": "Atlantic Ocean Location Map",
+        "autor": "BlatantWorld.com",
+        "source": "https://www.flickr.com/photos/45150779@N04/4148589161",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está entre África, Asia y Oceanía. Es el tercer océano más grande del mundo. <mark>Muchas rutas comerciales antiguas pasaban por él</mark>. ¿Qué océano es?",
-      "answer": "<mark>Índico</mark>"
+      "answer": "<mark>Índico</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/11-indico.jpg",
+        "alt": "Mapa de localización del océano Índico",
+        "title": "Indian Ocean Location Map",
+        "autor": "BlatantWorld.com",
+        "source": "https://www.flickr.com/photos/45150779@N04/4149347580",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es el océano más pequeño y más frío del mundo, con gran parte de su superficie cubierta de hielo. <mark>Rodea el Polo Norte y allí viven osos polares</mark>. ¿Qué océano es?",
-      "answer": "<mark>Ártico</mark>"
+      "answer": "<mark>Ártico</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/12-artico.jpg",
+        "alt": "Mapa de localización del océano Ártico",
+        "title": "Arctic Ocean Location Map",
+        "autor": "BlatantWorld.com",
+        "source": "https://www.flickr.com/photos/45150779@N04/4148589525",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Rodea por completo el continente Antártida. Es el océano más joven, reconocido oficialmente solo desde el año 2000. <mark>Sus aguas frías son hogar de pingüinos y ballenas</mark>. ¿Qué océano es?",
-      "answer": "<mark>Antártico</mark>"
+      "answer": "<mark>Antártico</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/13-antartico.jpg",
+        "alt": "Mapa de localización del océano Antártico",
+        "title": "Antarctic Ocean (aka Southern Ocean) Location Map",
+        "autor": "BlatantWorld.com",
+        "source": "https://www.flickr.com/photos/45150779@N04/4149347670",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es una línea imaginaria que rodea la Tierra por el centro. <mark>Divide el planeta en dos mitades iguales, como cortar una naranja</mark>. Cerca de ella el clima es muy cálido. ¿Cómo se llama esta línea?",
-      "answer": "<mark>Ecuador</mark>"
+      "answer": "<mark>Ecuador</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/14-ecuador.png",
+        "alt": "Mapa del mundo con el trópico de Cáncer",
+        "title": "World map with tropic of cancer",
+        "autor": "WikiLaurent",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=7057304",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "Son las dos mitades en que el ecuador divide la Tierra, <mark>como partir una pelota por la mitad</mark>. España está en la de arriba. Cuando allí es verano, en la de abajo es invierno. ¿Cómo se llaman estas dos mitades?",
-      "answer": "<mark>Hemisferios</mark>"
+      "answer": "<mark>Hemisferios</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/15-hemisferios.jpg",
+        "alt": "Hemisferio oriental de la Tierra",
+        "title": "Herbal Earth - Eastern Hemisphere",
+        "autor": "NASA Goddard Photo and Video",
+        "source": "https://www.flickr.com/photos/24662369@N07/9083656321",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Son los dos puntos más al norte y más al sur del planeta, <mark>como los extremos de un eje invisible</mark>. El Polo Norte está sobre el mar helado. El Polo Sur está en la Antártida. ¿Cómo se llaman estos dos puntos?",
-      "answer": "<mark>Polos</mark>"
+      "answer": "<mark>Polos</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_continentes/16-polos.jpg",
+        "alt": "Aurora boreal cerca del Polo Norte",
+        "title": "Aurora Borealis, the colored lights seen in the skies around the North Pole, the Northern Lights, from Bear Lake, Alaska, Beautiful Christmas Scene, Winter Star Filled Skies, Scenic Nature",
+        "autor": "Beverly & Pack",
+        "source": "https://www.flickr.com/photos/10101046@N06/3389058334",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

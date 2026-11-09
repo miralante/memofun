@@ -5,75 +5,219 @@
   "cards": [
     {
       "question": "Está construida sobre catorce islas. <mark>Sus puentes la conectan como un rompecabezas de piedra y agua</mark>. Allí se entregan cada año los Premios Nobel. ¿Cuál es la capital de Suecia?",
-      "answer": "<mark>Estocolmo</mark>"
+      "answer": "<mark>Estocolmo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/01-estocolmo.jpg",
+        "alt": "Vista de Estocolmo",
+        "title": "Stockholm",
+        "autor": "akasped",
+        "source": "https://www.flickr.com/photos/26736723@N00/9110175810",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Está tan cerca de la naturaleza que se puede esquiar a pocos minutos del centro</mark>. Allí se entrega el Premio Nobel de la Paz. ¿Cuál es la capital de Noruega?",
-      "answer": "<mark>Oslo</mark>"
+      "answer": "<mark>Oslo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/02-oslo.jpg",
+        "alt": "Vista de Oslo, Noruega",
+        "title": "oslo, norway",
+        "autor": "Claudia Regina CC",
+        "source": "https://www.flickr.com/photos/93331158@N03/13509393733",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "<mark>Tiene más bicicletas que habitantes, como si cada persona tuviera dos ruedas propias</mark>. Allí está la estatua de la Sirenita. ¿Cuál es la capital de Dinamarca?",
-      "answer": "<mark>Copenhague</mark>"
+      "answer": "<mark>Copenhague</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/03-copenhague.jpg",
+        "alt": "Estatua de la Sirenita en Copenhague",
+        "title": "DSC00544, Little Mermaid, Copenhagen, Denmark",
+        "autor": "jimg944",
+        "source": "https://www.flickr.com/photos/21203533@N00/218907821",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está junto al mar Báltico. <mark>En invierno, el sol apenas asoma unas horas al día</mark>. Es conocida por su buen sistema educativo. ¿Cuál es la capital de Finlandia?",
-      "answer": "<mark>Helsinki</mark>"
+      "answer": "<mark>Helsinki</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/04-helsinki.jpg",
+        "alt": "Catedral de Helsinki",
+        "title": "Helsinki Cathedral",
+        "autor": "Debarshi Ray",
+        "source": "https://www.flickr.com/photos/39423133@N04/6254272877",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Fue reconstruida casi entera tras la Segunda Guerra Mundial. <mark>Su casco antiguo se levantó piedra a piedra, como un rompecabezas gigante</mark>. Hoy parece medieval, aunque es mucho más reciente. ¿Cuál es la capital de Polonia?",
-      "answer": "<mark>Varsovia</mark>"
+      "answer": "<mark>Varsovia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/05-varsovia.jpg",
+        "alt": "Casco antiguo de Varsovia",
+        "title": "Warsaw Old Town",
+        "autor": "radkuch.13",
+        "source": "https://www.flickr.com/photos/137294100@N08/52278170319",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está en pleno desierto. <mark>Ha crecido tan rápido como si pasara de pueblo a metrópoli en un día</mark>. Tiene algunos de los rascacielos más altos de Oriente Medio. ¿Cuál es la capital de Arabia Saudí?",
-      "answer": "<mark>Riad</mark>"
+      "answer": "<mark>Riad</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/06-riad.jpg",
+        "alt": "Skyline de Riad",
+        "title": "Riyadh Skyline",
+        "autor": "B.alotaby",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=69289480",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "No es la ciudad más famosa del país; esa es otra con playas y rascacielos conocidos. <mark>Es el emirato más grande y con más petróleo</mark>, y allí gobiernan los siete emiratos. ¿Cuál es la capital de los Emiratos Árabes Unidos?",
-      "answer": "<mark>Abu Dabi</mark>"
+      "answer": "<mark>Abu Dabi</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/07-abu-dabi.jpg",
+        "alt": "Gran Mezquita Sheikh Zayed en Abu Dabi",
+        "title": "Sheikh Zayed Grand Mosque: Abu Dhabi",
+        "autor": "andryn2006",
+        "source": "https://www.flickr.com/photos/84985982@N00/17595081960",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "No es la ciudad más conocida del país; esa es Estambul. <mark>Aquí gobierna el país, como un director de orquesta que no es la estrella del cartel</mark>. Se eligió capital en 1923. ¿Cuál es la capital de Turquía?",
-      "answer": "<mark>Ankara</mark>"
+      "answer": "<mark>Ankara</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/08-ankara.jpg",
+        "alt": "Vista de Ankara",
+        "title": "Ankara, Turkey",
+        "autor": "Minamie's Photo",
+        "source": "https://www.flickr.com/photos/24330894@N03/4189557623",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está atravesada por canales y por un gran río. <mark>Sus templos dorados brillan al sol como pequeños tesoros repartidos por la ciudad</mark>. Es una de las ciudades más visitadas del mundo. ¿Cuál es la capital de Tailandia?",
-      "answer": "<mark>Bangkok</mark>"
+      "answer": "<mark>Bangkok</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/09-bangkok.jpg",
+        "alt": "Templo Wat Arun en Bangkok",
+        "title": "Wat Arun Bangkok View Photo D Ramey Logan",
+        "autor": "Don Ramey Logan",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=14133410",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "No es la ciudad más grande y conocida del país: aquí está el gobierno. <mark>Tiene más de mil años de historia y calles muy estrechas en su casco antiguo</mark>. ¿Cuál es la capital de Vietnam?",
-      "answer": "<mark>Hanói</mark>"
+      "answer": "<mark>Hanói</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/10-hanoi.jpg",
+        "alt": "Calle del casco antiguo de Hanói",
+        "title": "Gorgeous little snippet of a scene in a backstreet cafe that looks like something you could see anywhere in France. Hanoi's Old Quarter has a heavy French influence.",
+        "autor": "PiktourUK",
+        "source": "https://www.flickr.com/photos/69706441@N03/33236340702",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está en una gran isla. <mark>Es una de las ciudades que más rápido se hunden, como si el suelo cediera bajo su propio peso</mark>. Por eso el país construye una nueva capital. ¿Cuál es la capital de Indonesia?",
-      "answer": "<mark>Yakarta</mark>"
+      "answer": "<mark>Yakarta</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/11-yakarta.jpg",
+        "alt": "Skyline de Yakarta",
+        "title": "Jakarta Skyline Part 2",
+        "autor": "yohanes budiyanto",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=8787780",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está atravesada por un gran río. <mark>De noche se ilumina entera, como un tablero electrónico gigante</mark>. Tiene palacios antiguos junto a rascacielos. ¿Cuál es la capital de Corea del Sur?",
-      "answer": "<mark>Seúl</mark>"
+      "answer": "<mark>Seúl</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/12-seul.jpg",
+        "alt": "Skyline de Seúl desde Namsan",
+        "title": "Seoul Skyline from Namsan",
+        "autor": "Jimmy McIntyre - Editor HDR One Magazine",
+        "source": "https://www.flickr.com/photos/73064996@N08/6907572103",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "No es la ciudad más grande y conocida del país. <mark>Aquí vive el rey, en una ciudad tranquila junto al océano Atlántico</mark>. ¿Cuál es la capital de Marruecos?",
-      "answer": "<mark>Rabat</mark>"
+      "answer": "<mark>Rabat</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/13-rabat.jpg",
+        "alt": "Torre Hassan en Rabat",
+        "title": "Hassan Tower, Rabat, Marocco (صومعة حسان )",
+        "autor": "Petar Milošević",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=153967091",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "No es la ciudad más grande y conocida del país; esa es Lagos. <mark>Se construyó en el centro del territorio, como Brasilia en Brasil</mark>. Se convirtió en capital en 1991. ¿Cuál es la capital de Nigeria?",
-      "answer": "<mark>Abuya</mark>"
+      "answer": "<mark>Abuya</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/14-abuya.jpg",
+        "alt": "Gran Mezquita de Abuya",
+        "title": "Grand Mosque Abuja Nigeria",
+        "autor": "Jeff Attaway",
+        "source": "https://www.flickr.com/photos/33398364@N08/3328307675",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está a más de 1.600 metros de altitud. <mark>Tiene un parque con leones y jirafas junto a sus rascacielos, como si la sabana fuera su vecina</mark>. Muchos safaris empiezan allí. ¿Cuál es la capital de Kenia?",
-      "answer": "<mark>Nairobi</mark>"
+      "answer": "<mark>Nairobi</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/15-nairobi.jpg",
+        "alt": "Skyline de Nairobi",
+        "title": "Nairobi Skyline",
+        "autor": "afromusing",
+        "source": "https://www.flickr.com/photos/54879137@N00/3227698829",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Está junto al océano Pacífico. <mark>Casi nunca llueve allí, aunque el cielo siempre promete lluvia y nunca la cumple</mark>. Fue clave durante la época colonial. ¿Cuál es la capital de Perú?",
-      "answer": "<mark>Lima</mark>"
+      "answer": "<mark>Lima</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/16-lima.jpg",
+        "alt": "Plaza de Armas de Lima",
+        "title": "lima plaza de armas",
+        "autor": "antonde",
+        "source": "https://www.flickr.com/photos/27302029@N00/2249385012",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Está rodeada por la cordillera de los Andes. <mark>Desde sus calles se ven montañas nevadas, como un telón de fondo que nunca cambia</mark>. Vive allí más de un tercio de la población del país. ¿Cuál es la capital de Chile?",
-      "answer": "<mark>Santiago</mark>"
+      "answer": "<mark>Santiago</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/17-santiago.jpg",
+        "alt": "Santiago de Chile al atardecer",
+        "title": "Santiago de Chile in the evening",
+        "autor": "BruceW.",
+        "source": "https://www.flickr.com/photos/46623835@N06/10003667635",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "No es la ciudad más grande y conocida del país, como pasa con Canberra en Australia. <mark>Es una de las capitales más ventosas del mundo</mark>, en el extremo sur de una isla. ¿Cuál es la capital de Nueva Zelanda?",
-      "answer": "<mark>Wellington</mark>"
+      "answer": "<mark>Wellington</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_capitales_2/18-wellington.jpg",
+        "alt": "Skyline de Wellington",
+        "title": "Wellington Skyline",
+        "autor": "Simeon W",
+        "source": "https://www.flickr.com/photos/46928881@N02/34319401232",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

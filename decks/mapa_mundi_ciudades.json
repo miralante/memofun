@@ -5,63 +5,183 @@
   "cards": [
     {
       "question": "Puede destacar por su economía, su cultura o su gente, sin ser la sede del gobierno. <mark>Es como un jugador estrella que no es el capitán del equipo</mark>. Esta baraja recorre varias ciudades así. ¿Cómo se llama una ciudad importante que no es capital de su país?",
-      "answer": "<mark>Ciudad importante</mark>"
+      "answer": "<mark>Ciudad importante</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/01-ciudad-importante.jpg",
+        "alt": "Skyline de una ciudad",
+        "title": "Perth City Skyline",
+        "autor": "cedarsx",
+        "source": "https://www.flickr.com/photos/101129090@N06/10244068985",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es una de las ciudades más visitadas de España, aunque no es la capital. <mark>Sus edificios de Gaudí, como la Sagrada Familia, parecen sacados de un cuento</mark>. Tiene playa, montaña y puerto. ¿Qué ciudad es?",
-      "answer": "<mark>Barcelona</mark>"
+      "answer": "<mark>Barcelona</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/02-barcelona.jpg",
+        "alt": "Sagrada Familia en Barcelona",
+        "title": "Sagrada Familia",
+        "autor": "Cannoy",
+        "source": "http://www.flickr.com/photos/93037422@N03/16620772297",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más grande de Turquía, aunque no es la capital. <mark>Está repartida entre dos continentes, Europa y Asia, unidos por puentes sobre el mar</mark>. Fue capital de tres imperios. ¿Qué ciudad es?",
-      "answer": "<mark>Estambul</mark>"
+      "answer": "<mark>Estambul</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/03-estambul.jpg",
+        "alt": "Puente sobre el Bósforo en Estambul",
+        "title": "Istanbul Bosphorus Bridge Mosque",
+        "autor": "Vincent_AF",
+        "source": "https://www.flickr.com/photos/25704219@N04/3554776822",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es el centro económico de Italia, aunque no es la capital. <mark>Es tan importante para la moda como una gran cocina para un restaurante famoso</mark>. Tiene una ópera muy famosa. ¿Qué ciudad es?",
-      "answer": "<mark>Milán</mark>"
+      "answer": "<mark>Milán</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/04-milan.jpg",
+        "alt": "Catedral del Duomo en Milán",
+        "title": "Milan Duomo",
+        "autor": "dungodung",
+        "source": "https://www.flickr.com/photos/16953270@N00/8870851926",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es la ciudad más conocida de Estados Unidos, aunque no es la capital. <mark>Se la llama la ciudad que nunca duerme, porque siempre hay algo abierto</mark>. Allí está la Estatua de la Libertad. ¿Qué ciudad es?",
-      "answer": "<mark>Nueva York</mark>"
+      "answer": "<mark>Nueva York</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/05-nueva-york.jpg",
+        "alt": "Estatua de la Libertad en Nueva York",
+        "title": "Statue of Liberty",
+        "autor": "Koshyk",
+        "source": "https://www.flickr.com/photos/97235261@N00/2934626028",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es muy famosa, aunque no es la capital de su país. <mark>Su estatua del Cristo Redentor abre los brazos, como dando la bienvenida a todo el mundo</mark>. Celebra uno de los mayores carnavales del planeta. ¿Qué ciudad es?",
-      "answer": "<mark>Río de Janeiro</mark>"
+      "answer": "<mark>Río de Janeiro</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/06-rio-de-janeiro.jpg",
+        "alt": "Cristo Redentor en Río de Janeiro",
+        "title": "Christ the Redeemer - Rio de Janeiro, Brazil",
+        "autor": "David Berkowitz",
+        "source": "https://www.flickr.com/photos/25897810@N00/5269512796",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más poblada de Canadá, aunque no es la capital. <mark>Es una mezcla de culturas, como un mercado con puestos de muchos países distintos</mark>. Tiene una torre muy alta, la CN Tower. ¿Qué ciudad es?",
-      "answer": "<mark>Toronto</mark>"
+      "answer": "<mark>Toronto</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/07-toronto.jpg",
+        "alt": "Torre CN de Toronto",
+        "title": "CN Tower Toronto.",
+        "autor": "Bernard Spragg",
+        "source": "https://www.flickr.com/photos/88123769@N02/48938595411",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "Es la ciudad más grande de Brasil, aunque no es la capital. <mark>Es tan grande y activa que se la compara con una colmena siempre en movimiento</mark>. Es el mayor centro financiero de Sudamérica. ¿Qué ciudad es?",
-      "answer": "<mark>São Paulo</mark>"
+      "answer": "<mark>São Paulo</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/08-sao-paulo.jpg",
+        "alt": "Skyline de São Paulo",
+        "title": "Sao Paulo Skyline",
+        "autor": "Thomas Locke Hobbs",
+        "source": "https://www.flickr.com/photos/22185138@N00/94336622",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Es el centro económico de India, aunque no es la capital. <mark>Allí nace la mayoría de las películas indias, en una industria que llaman Bollywood</mark>. Tiene uno de los puertos más activos de Asia. ¿Qué ciudad es?",
-      "answer": "<mark>Bombay</mark>"
+      "answer": "<mark>Bombay</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/09-bombay.jpg",
+        "alt": "Puerta de la India en Bombay",
+        "title": "Gateway of India, Mumbai",
+        "autor": "Andy Hay",
+        "source": "https://www.flickr.com/photos/29172291@N00/136501207",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más poblada de China, aunque no es la capital. <mark>Sus rascacielos iluminados de noche parecen sacados de una película futurista</mark>. Tiene uno de los puertos con más movimiento del mundo. ¿Qué ciudad es?",
-      "answer": "<mark>Shanghái</mark>"
+      "answer": "<mark>Shanghái</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/10-shanghai.jpg",
+        "alt": "Skyline de Shanghái",
+        "title": "Shanghai Skyline",
+        "autor": "gags9999",
+        "source": "https://www.flickr.com/photos/37398884@N03/16363177946",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más importante de los Emiratos Árabes Unidos, aunque no es su capital. <mark>Hace unas décadas era un pueblo de pescadores, y hoy tiene el edificio más alto del mundo</mark>. ¿Qué ciudad es?",
-      "answer": "<mark>Dubái</mark>"
+      "answer": "<mark>Dubái</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/11-dubai.jpg",
+        "alt": "Burj Khalifa en Dubái",
+        "title": "Burj Khalifa",
+        "autor": "Rod Waddington",
+        "source": "https://www.flickr.com/photos/64607715@N05/7899106126",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "Fue la capital de Japón durante casi mil años, antes que Tokio. <mark>Guarda templos y jardines antiguos, como una caja fuerte llena de historia</mark>. Sigue siendo el corazón cultural del país. ¿Qué ciudad es?",
-      "answer": "<mark>Kioto</mark>"
+      "answer": "<mark>Kioto</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/12-kioto.jpg",
+        "alt": "Templo en Kioto",
+        "title": "Kyoto Temple",
+        "autor": "M1key.me",
+        "source": "https://www.flickr.com/photos/91418149@N03/8300385584",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más grande de Marruecos, aunque no es la capital. Su nombre significa casa blanca, <mark>por el color de sus edificios junto al mar</mark>. Es el principal puerto del país. ¿Qué ciudad es?",
-      "answer": "<mark>Casablanca</mark>"
+      "answer": "<mark>Casablanca</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/13-casablanca.jpg",
+        "alt": "Mezquita Hassan II en Casablanca",
+        "title": "Hassan II Mosque, Casablanca",
+        "autor": "shwethashankar",
+        "source": "https://www.flickr.com/photos/64576980@N03/18913843745",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Fue fundada por Alejandro Magno hace más de 2.000 años. Tuvo una biblioteca gigantesca, <mark>como si guardara todo el conocimiento del mundo en un solo edificio</mark>. Hoy es el puerto más importante de Egipto. ¿Qué ciudad es?",
-      "answer": "<mark>Alejandría</mark>"
+      "answer": "<mark>Alejandría</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/14-alejandria.jpg",
+        "alt": "Ciudadela de Qaitbay en Alejandría",
+        "title": "Qaitbay Citadel, Alexandria, Egypt",
+        "autor": "Argenberg",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=35704524",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es la ciudad más conocida de Australia, aunque no es la capital. <mark>Su Casa de la Ópera tiene forma de velas de barco infladas por el viento</mark>. Tiene una de las bahías más bonitas del mundo. ¿Qué ciudad es?",
-      "answer": "<mark>Sídney</mark>"
+      "answer": "<mark>Sídney</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_ciudades/15-sidney.jpg",
+        "alt": "Casa de la Ópera de Sídney al anochecer",
+        "title": "Sydney Opera House at Night",
+        "autor": "edwin.11",
+        "source": "https://www.flickr.com/photos/97681386@N00/493782544",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }

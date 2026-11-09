@@ -5,79 +5,231 @@
   "cards": [
     {
       "question": "<mark>Es como la camiseta de un equipo, pero de un país</mark>. Sus colores y dibujos cuentan su historia. Ondea en escuelas y eventos deportivos. ¿Cómo se llama este símbolo de tela?",
-      "answer": "<mark>Bandera</mark>"
+      "answer": "<mark>Bandera</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/01-bandera.jpg",
+        "alt": "Bandera de tela ondeando al viento",
+        "title": "Waving Flag",
+        "autor": "Always Shooting",
+        "source": "https://www.flickr.com/photos/93199639@N05/8474395725",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Tiene tres franjas horizontales: roja, amarilla y roja, con la amarilla el doble de ancha</mark>. En el centro lleva el escudo nacional. Es una de las banderas más antiguas de Europa. ¿De qué país es esta bandera?",
-      "answer": "<mark>España</mark>"
+      "answer": "<mark>España</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/02-espana.png",
+        "alt": "Bandera de España: franjas roja, amarilla y roja",
+        "title": "Flag of Spain",
+        "autor": "Pedro A. Gracia Fajardo, escudo de Manual de Imagen Institucional de la Administración General del Estado",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=390645",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "<mark>Tiene tres franjas verticales: azul, blanca y roja, como un semáforo con colores fijos</mark>. Se la conoce como la bandera tricolor. Nació durante una revolución histórica. ¿De qué país es esta bandera?",
-      "answer": "<mark>Francia</mark>"
+      "answer": "<mark>Francia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/03-francia.png",
+        "alt": "Bandera de Francia: franjas verticales azul, blanca y roja",
+        "title": "Flag of France (2024–present)",
+        "autor": "M.Bitton",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=157469969",
+        "licencia": "CC0 1.0"
+      }
     },
     {
       "question": "<mark>Tiene tres franjas verticales: verde, blanca y roja, parecida a la francesa pero en otro orden</mark>. El verde representa las colinas y campos. El rojo y blanco vienen de Milán. ¿De qué país es esta bandera?",
-      "answer": "<mark>Italia</mark>"
+      "answer": "<mark>Italia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/04-italia.png",
+        "alt": "Bandera de Italia: franjas verticales verde, blanca y roja",
+        "title": "Flag of Italy (2003–2006)",
+        "autor": "Zscout370",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=4528423",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "<mark>Tiene tres franjas horizontales: negra, roja y amarilla, como un pastel de tres capas</mark>. Estos colores representan la unidad del pueblo. ¿De qué país es esta bandera?",
-      "answer": "<mark>Alemania</mark>"
+      "answer": "<mark>Alemania</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/05-alemania.jpg",
+        "alt": "Bandera de Alemania: franjas negra, roja y amarilla",
+        "title": "Flag of Germany",
+        "autor": "Jonathan Klinger. http://2jk.org",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=2050954",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "<mark>Mezcla tres cruces distintas, como un collage de tres países unidos en una sola tela</mark>. Tiene rojo, blanco y azul. Ondea en Londres desde hace más de 200 años. ¿Cómo se llama esta bandera?",
-      "answer": "<mark>Union Jack</mark>"
+      "answer": "<mark>Union Jack</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/06-union-jack.jpg",
+        "alt": "Bandera del Reino Unido (Union Jack)",
+        "title": "Union Jack Flag",
+        "autor": "Nick Page Photos",
+        "source": "https://www.flickr.com/photos/27506472@N04/5999491194",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Tiene verde y rojo, con un escudo dorado que muestra siete castillos</mark>. El verde simboliza la esperanza. El rojo recuerda a quienes lucharon por el país. ¿De qué país es esta bandera?",
-      "answer": "<mark>Portugal</mark>"
+      "answer": "<mark>Portugal</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/07-portugal.jpg",
+        "alt": "Bandera de Portugal: verde y roja con escudo",
+        "title": "Flag of Portugal",
+        "autor": "anthony040",
+        "source": "https://www.flickr.com/photos/24898243@N08/2536557264",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Tiene nueve franjas azules y blancas, como las olas del mar Egeo</mark>. Lleva una cruz blanca arriba, que representa la religión ortodoxa. ¿De qué país es esta bandera?",
-      "answer": "<mark>Grecia</mark>"
+      "answer": "<mark>Grecia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/08-grecia.jpg",
+        "alt": "Bandera de Grecia: franjas azules y blancas con cruz",
+        "title": "The national flag of Greece, 12-29-2019",
+        "autor": "George E. Koronaios",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=85392044",
+        "licencia": "CC BY-SA 4.0"
+      }
     },
     {
       "question": "<mark>Tiene trece franjas rojas y blancas, y estrellas blancas sobre azul</mark>. Cada estrella representa una región, como una foto de familia enorme. Las franjas recuerdan a las primeras trece colonias. ¿De qué país es esta bandera?",
-      "answer": "<mark>Estados Unidos</mark>"
+      "answer": "<mark>Estados Unidos</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/09-estados-unidos.jpg",
+        "alt": "Bandera de Estados Unidos: franjas rojas y blancas con estrellas en azul",
+        "title": "The Flag of the United States",
+        "autor": "Sam Howzit",
+        "source": "https://www.flickr.com/photos/12508217@N08/4533114049",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Tiene dos franjas rojas y una blanca, con una hoja de arce roja en el centro</mark>. El arce es un árbol muy común allí. Su color cambia a rojo intenso en otoño. ¿De qué país es esta bandera?",
-      "answer": "<mark>Canadá</mark>"
+      "answer": "<mark>Canadá</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/10-canada.jpg",
+        "alt": "Bandera de Canadá con la hoja de arce roja",
+        "title": "Flag of Canada",
+        "autor": "scazon",
+        "source": "https://www.flickr.com/photos/26416016@N02/3042385915",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Tiene tres franjas verticales, verde, blanca y roja, con un escudo al centro. <mark>El escudo muestra un águila comiendo una serpiente sobre un nopal</mark>. Esa leyenda explica dónde se fundó su capital. ¿De qué país es esta bandera?",
-      "answer": "<mark>México</mark>"
+      "answer": "<mark>México</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/11-mexico.jpg",
+        "alt": "Bandera de México: verde, blanca y roja con escudo",
+        "title": "Flag of Mexico",
+        "autor": "HockeyholicAZ",
+        "source": "https://www.flickr.com/photos/53484592@N05/8135180958",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Es verde con un rombo amarillo y un círculo azul con estrellas</mark>. Ese círculo es como un mapa del cielo nocturno. Lleva escrito el lema Ordem e Progresso. ¿De qué país es esta bandera?",
-      "answer": "<mark>Brasil</mark>"
+      "answer": "<mark>Brasil</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/12-brasil.png",
+        "alt": "Bandera de Brasil: rombo verde y amarillo con círculo azul",
+        "title": "Flag of Brazil - Map",
+        "autor": "Jefferson Souza Fenandes",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=21185981",
+        "licencia": "CC BY-SA 3.0"
+      }
     },
     {
       "question": "<mark>Tiene tres franjas horizontales, celeste, blanca y celeste, con un sol dorado con cara</mark>. Se llama Sol de Mayo. Recuerda el día en que este país buscó su independencia. ¿De qué país es esta bandera?",
-      "answer": "<mark>Argentina</mark>"
+      "answer": "<mark>Argentina</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/13-argentina.jpg",
+        "alt": "Bandera de Argentina: azul celeste y blanca",
+        "title": "flag of Argentina",
+        "autor": "Hanumann",
+        "source": "https://www.flickr.com/photos/40883475@N00/5856275453",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Es blanca con un gran círculo rojo en el centro, que representa el sol</mark>. Por eso a este país se le llama el país del sol naciente. ¿De qué país es esta bandera?",
-      "answer": "<mark>Japón</mark>"
+      "answer": "<mark>Japón</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/14-japon.jpg",
+        "alt": "Bandera de Japón: círculo rojo sobre fondo blanco",
+        "title": "Flag of Japan / Japanese Flag / Rising Sun",
+        "autor": "Dominic's pics",
+        "source": "https://www.flickr.com/photos/64097751@N00/5748161233",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es roja con cinco estrellas amarillas en una esquina. <mark>La estrella grande es como un líder, con cuatro pequeñas girando a su alrededor</mark>. El rojo representa la revolución. ¿De qué país es esta bandera?",
-      "answer": "<mark>China</mark>"
+      "answer": "<mark>China</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/15-china.jpg",
+        "alt": "Bandera de China: roja con cinco estrellas amarillas",
+        "title": "National Flag of China",
+        "autor": "Mumu X",
+        "source": "https://www.flickr.com/photos/41492866@N00/4517152032",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "<mark>Tiene tres franjas horizontales, azafrán, blanca y verde, con una rueda azul de 24 radios</mark>. Se llama Rueda de Ashoka. Representa el movimiento constante y el progreso. ¿De qué país es esta bandera?",
-      "answer": "<mark>India</mark>"
+      "answer": "<mark>India</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/16-india.jpg",
+        "alt": "Bandera de India: azafrán, blanca y verde con rueda azul",
+        "title": "National Flag of India",
+        "autor": "Sanyam Bahga",
+        "source": "https://www.flickr.com/photos/21930651@N06/12153363006",
+        "licencia": "CC BY-SA 2.0"
+      }
     },
     {
       "question": "<mark>Tiene tres franjas horizontales, roja, blanca y negra, con un águila dorada en el centro</mark>. Esa águila es el símbolo de un antiguo gobernante, Saladino. ¿De qué país es esta bandera?",
-      "answer": "<mark>Egipto</mark>"
+      "answer": "<mark>Egipto</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/17-egipto.jpg",
+        "alt": "Bandera de Egipto: rojo, blanco y negro con águila dorada",
+        "title": "Egyptian Flag",
+        "autor": "Jonathan Rashad",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=13536206",
+        "licencia": "CC BY 3.0"
+      }
     },
     {
       "question": "Es una de las banderas con más colores: verde, negro, amarillo, blanco, rojo y azul. <mark>Sus franjas se unen en forma de Y, como dos caminos que se hacen uno</mark>. Es una de las banderas más jóvenes del mundo. ¿De qué país es esta bandera?",
-      "answer": "<mark>Sudáfrica</mark>"
+      "answer": "<mark>Sudáfrica</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/18-sudafrica.jpg",
+        "alt": "Bandera de Sudáfrica: verde, amarilla, roja, azul, blanca y negra",
+        "title": "Flag of South Africa 2",
+        "autor": "Kyknoord from Cape Town, South Africa",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=10723087",
+        "licencia": "CC BY 2.0"
+      }
     },
     {
       "question": "Es azul con la bandera del Reino Unido en una esquina y estrellas blancas. <mark>Las estrellas forman la Cruz del Sur, una constelación del hemisferio sur</mark>. Tiene una estrella grande de siete puntas debajo. ¿De qué país es esta bandera?",
-      "answer": "<mark>Australia</mark>"
+      "answer": "<mark>Australia</mark>",
+      "image": {
+        "file": "assets/img/decks/mapa_mundi_banderas/19-australia.jpg",
+        "alt": "Bandera de Australia con la Cruz del Sur",
+        "title": "Flag of Australia",
+        "autor": "Johan Larsson",
+        "source": "https://www.flickr.com/photos/38305415@N00/134019385",
+        "licencia": "CC BY 2.0"
+      }
     }
   ]
 }
