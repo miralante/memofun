@@ -7,12 +7,11 @@
   'use strict';
 
   App.i18n.register({
-    "pageTitle": 'Project presentation',
-    "routeNotice": 'This page is not linked from the app. The only way here is typing the address.',
+    "pageTitle": 'About the app',
     "tagline": 'An app for autonomy.',
     "lead1": 'Memofun is a ',
     "leadStrong": 'flashcard web app',
-    "lead2": ' built so people with intellectual disabilities can review school vocabulary and concepts on their own, without pressure and with respect for their privacy.',
+    "lead2": ' built so anyone can review school vocabulary and concepts on their own, without pressure and with respect for their privacy.',
     "navOrigin": 'The origin',
     "navPrinciples": 'The principles',
     "navTech": 'How it is built',
@@ -23,7 +22,7 @@
     "originTitle": 'The origin',
     "originP1a": 'Memofun comes from a question that comes up at the end of every educational support session: ',
     "originP1em": 'what happens between one session and the next?',
-    "originP2": 'A person with an intellectual disability practices with their teacher or therapist in a clinic, but afterwards they are on their own at home, at school, or in their free time. We wanted a tool that respected that autonomy, gave families peace of mind, and served the professional as a complement between sessions, not a replacement.',
+    "originP2": 'A person practices with their teacher or therapist in a clinic, but afterwards they are on their own at home, at school, or in their free time. We wanted a tool that respected that autonomy, gave families peace of mind, and served the professional as a complement between sessions, not a replacement.',
     "originP3": 'This app is the result: about 190 flashcard decks, all in Plain Language, all accessible, all designed so the person using them can go at their own pace.',
     "principlesTitle": 'The principles we won’t compromise on',
     "principlesIntro": 'These ideas are written into the code first and the text second. If a decision breaks them, that decision is wrong.',
@@ -99,7 +98,7 @@
     "authorshipTitle": 'Who makes it',
     "authorshipP1a": 'Memofun is an initiative by ',
     "authorshipP1b": ', an independent studio working on open projects with social and educational impact.',
-    "authorshipP2": 'The app is built with the involvement of people with intellectual disabilities, families, support professionals and teachers, who test every change and review the content before it reaches production.',
+    "authorshipP2": 'The app is built with the involvement of people who use it, families, support professionals and teachers, who test every change and review the content before it reaches production.',
     "authorshipP3": 'The code, the text and the decisions are published openly so anyone or any team can audit them, learn from them, and adapt them to other contexts.',
     "collaborateTitle": 'How to help',
     "collaborateIntro": 'Memofun is an open project. There are ways to help that do not require coding:',
@@ -116,6 +115,21 @@
     "collaborateOutro1": 'All the documentation needed to get started is in the',
     "collaborateOutro3": 'and',
     "collaborateOutro4": 'files of the repository.',
-    "footerActivities": 'Go to the decks'
+    "footerActivities": 'Go to the decks',
+
+    "howTitle": 'How to use it',
+    "step1Title": 'Choose a deck',
+    "step1Text": 'Find your course and your subject. If you like, pin your course to find it faster.',
+    "step2Title": 'Read the clue',
+    "step2Text": 'Think of the answer before you look at it.',
+    "step3Title": 'Look at the answer',
+    "step3Text": 'Press "Answer" to see it, then move on to the next card.',
+    "step4Title": 'Review whenever you want',
+    "step4Text": 'When you finish a deck, you earn stars. You can review it again as many times as you like.',
+    "forTitle": 'Who it is for',
+    "forP": 'For anyone who wants to review at their own pace.',
+    "forStudents": 'Students who review between classes or at home.',
+    "forFamilies": 'Families who support the study.',
+    "forTeachers": 'Teachers and support staff who prepare new decks.'
   }, 'en');
 })();

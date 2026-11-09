@@ -7,12 +7,11 @@
   'use strict';
 
   App.i18n.register({
-    "pageTitle": 'Presentación del proyecto',
-    "routeNotice": 'Esta página no se enlaza desde la aplicación. Solo se llega escribiendo la dirección.',
+    "pageTitle": 'Sobre la app',
     "tagline": 'Una aplicación para la autonomía.',
     "lead1": 'Memofun es una ',
     "leadStrong": 'aplicación web de tarjetas de memoria',
-    "lead2": ' pensada para que las personas con discapacidad intelectual repasen por sí mismas vocabulario y conceptos del colegio, sin presión y con respeto a su privacidad.',
+    "lead2": ' pensada para que cada persona repase por sí misma vocabulario y conceptos del colegio, sin presión y con respeto a su privacidad.',
     "navOrigin": 'El origen',
     "navPrinciples": 'Los principios',
     "navTech": 'Cómo está hecha',
@@ -23,7 +22,7 @@
     "originTitle": 'El origen',
     "originP1a": 'Memofun nace de una pregunta que se repite al final de cada sesión de apoyo educativo: ',
     "originP1em": '¿qué pasa entre una sesión y la siguiente?',
-    "originP2": 'La persona con discapacidad intelectual practica con su profesora o su terapeuta en consulta, pero después está sola en casa, en el colegio o en su tiempo libre. Queríamos una herramienta que respetase esa autonomía, que diese seguridad a las familias y que sirviese a la profesional como complemento entre sesiones, no como sustituto.',
+    "originP2": 'La persona practica con su profesora o su terapeuta en consulta, pero después está sola en casa, en el colegio o en su tiempo libre. Queríamos una herramienta que respetase esa autonomía, que diese seguridad a las familias y que sirviese a la profesional como complemento entre sesiones, no como sustituto.',
     "originP3": 'Esta aplicación es el resultado: cerca de 190 barajas de tarjetas, todas en Lectura Fácil, todas accesibles, todas pensadas para que la persona usuaria pueda usarlas a su propio ritmo.',
     "principlesTitle": 'Los principios que no negociamos',
     "principlesIntro": 'Estas ideas están escritas primero en el código y después en los textos. Si una decisión las rompe, esa decisión está mal.',
@@ -99,7 +98,7 @@
     "authorshipTitle": 'Quiénes la hacen',
     "authorshipP1a": 'Memofun es una iniciativa de ',
     "authorshipP1b": ', un estudio independiente que trabaja en proyectos abiertos con impacto social y educativo.',
-    "authorshipP2": 'La aplicación se construye con la participación de personas con discapacidad intelectual, familias, profesionales de apoyo y profesorado, que prueban cada cambio y revisan el contenido antes de que llegue a producción.',
+    "authorshipP2": 'La aplicación se construye con la participación de personas que la usan, familias, profesionales de apoyo y profesorado, que prueban cada cambio y revisan el contenido antes de que llegue a producción.',
     "authorshipP3": 'El código, el texto y las decisiones se publican en abierto para que cualquier persona o equipo pueda auditarlos, aprender de ellos y adaptarlos a otros contextos.',
     "collaborateTitle": 'Cómo ayudar',
     "collaborateIntro": 'Memofun es un proyecto abierto. Hay formas de colaborar que no requieren programar:',
@@ -116,6 +115,21 @@
     "collaborateOutro1": 'Toda la documentación necesaria para empezar está en los archivos',
     "collaborateOutro3": 'y',
     "collaborateOutro4": 'del repositorio.',
-    "footerActivities": 'Ir a las barajas'
+    "footerActivities": 'Ir a las barajas',
+
+    "howTitle": 'Cómo se usa',
+    "step1Title": 'Elige una baraja',
+    "step1Text": 'Busca tu curso y tu asignatura. Si quieres, fija tu curso para encontrarlo antes.',
+    "step2Title": 'Lee la pista',
+    "step2Text": 'Piensa en la respuesta antes de mirarla.',
+    "step3Title": 'Mira la respuesta',
+    "step3Text": 'Pulsa «Respuesta» para verla y pasa a la siguiente tarjeta.',
+    "step4Title": 'Repasa cuando quieras',
+    "step4Text": 'Al terminar una baraja ganas estrellas. Puedes volver a repasarla tantas veces como quieras.',
+    "forTitle": 'Para quién es',
+    "forP": 'Para cualquier persona que quiera repasar a su ritmo.',
+    "forStudents": 'Estudiantes que repasan entre clases o en casa.',
+    "forFamilies": 'Familias que acompañan el estudio.',
+    "forTeachers": 'Docentes y profesionales de apoyo que preparan barajas nuevas.'
   }, 'es');
 })();
