@@ -43,8 +43,8 @@ const server = http.createServer((req, res) => {
     res.end('bad request');
     return;
   }
-  if (requestPath === '/') requestPath = '/index.html';
-  let file = path.resolve(ROOT, '.' + requestPath);
+  if (requestPath.endsWith('/')) requestPath += 'index.html';
+  const file = path.resolve(ROOT, '.' + requestPath);
   if (file !== ROOT && !file.startsWith(ROOT + path.sep)) {
     res.writeHead(403);
     res.end('forbidden');

@@ -10,6 +10,8 @@
    localStorage 'progress' holds only `completed` (which decks have been
    studied through at least once). Never stored: failures, time taken,
    attempt counts, or anything that identifies the person.
+   'achievements' (assets/js/achievements.js) only holds the date each
+   achievement was first earned, derived from 'progress'.
    ========================================================================== */
 (function () {
   'use strict';

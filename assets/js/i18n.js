@@ -39,6 +39,8 @@
         loading: 'Cargando…',
         dataProtection: 'Protección de datos',
         settings: 'Ajustes',
+        config: 'Configuración',
+        aboutApp: 'Sobre la app',
         home: 'Inicio',
         skipToContent: 'Ir al contenido'
       },
@@ -63,6 +65,7 @@
         dataProtection: 'Data protection',
         settings: 'Settings',
         config: 'Settings',
+        aboutApp: 'About the app',
         home: 'Home',
         skipToContent: 'Skip to content'
       },
