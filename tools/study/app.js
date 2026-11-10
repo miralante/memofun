@@ -314,8 +314,9 @@
     renderStars();
     showStarToast();
     areaEl.classList.add('hidden');
-    document.getElementById('transfer-phrase').textContent =
-      App.i18n.t('study.transferPhrase').replace('{topic}', deckTitle);
+    /* The closing reward is the shared one: the stars and the transfer sentence. */
+    App.feedback.paintReward(document.getElementById('end-reward'), App.storage.totalStars(),
+      App.i18n.t('study.transferPhrase').replace('{topic}', deckTitle));
     endScreenEl.classList.remove('hidden');
     /* Vary the headline message across sessions via App.i18n.pick so
        finishing a deck never feels scripted (still no right/wrong, no

@@ -869,24 +869,8 @@ header.app-header .tagline {
 .feedback-zone.success { background: var(--color-success-soft); color: var(--color-success); }
 .feedback-zone.encourage { background: var(--color-encourage-soft); color: var(--color-encourage); }
 
-/* ---------- Celebration overlay ---------- */
 
-.celebration {
-  position: fixed;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  background: rgba(250, 247, 242, 0.96);
-  z-index: 999;
-  text-align: center;
-  padding: var(--space-3);
-}
 
-.celebration .emoji { font-size: 64px; animation: celebrate 0.6s ease; }
-.celebration .message { font-size: var(--text-large); font-weight: var(--weight-strong); color: var(--color-success); }
 
 @keyframes celebrate {
   0% { transform: scale(0.4); opacity: 0; }
@@ -1175,3 +1159,69 @@ header.suite-header .tagline { margin: 0; max-width: none; font-size: 18px; line
 .achievement-badge-status { font-size: var(--text-small); font-weight: var(--weight-strong); color: var(--color-success); margin-top: 4px; }
 .achievement-badge.locked .achievement-badge-status { color: var(--color-text-soft); }
 .achievements-count { font-size: var(--text-base); font-weight: var(--weight-strong); margin: var(--space-1) 0 0; }
+
+/* suite:answer-round:begin
+   Miralante answer round, styles. ONE definition for every suite app.
+   Canonical source: apptonomia/scripts/suite/answer-round.css. The block between
+   the markers is copied byte for byte into each app's shared stylesheet by
+   apptonomia/scripts/sync-answer-round.js. Never edit a copy by hand. */
+.btn-entendido {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+button.bloqueada {
+  opacity: 0.6;
+}
+/* suite:answer-round:end */
+
+/* suite:reward-screen:begin
+   Miralante closing screen of an activity, styles. ONE definition for every suite app.
+   Canonical source: apptonomia/scripts/suite/reward-screen.css. Copied byte for byte
+   into each app's shared stylesheet by apptonomia/scripts/sync-answer-round.js.
+   Never edit a copy by hand. */
+.reward-stars {
+  display: inline-block;
+  font-weight: 700;
+  margin-inline-end: 0.5em;
+}
+
+.reward-summary {
+  display: inline;
+}
+/* suite:reward-screen:end */
+
+/* suite:celebrate:begin
+   Miralante closing celebration, styles. ONE definition for every suite app.
+   Canonical source: apptonomia/scripts/suite/celebrate.css. Copied byte for byte
+   into each app's shared stylesheet by apptonomia/scripts/sync-answer-round.js.
+   Never edit a copy by hand. */
+.celebration {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(250, 247, 242, 0.95);
+  z-index: 200;
+  text-align: center;
+}
+
+.celebration.hidden {
+  display: none;
+}
+
+.celebration .emoji {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.celebration .message {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-acierto, var(--color-success, var(--exito, #1f6f43)));
+}
+/* suite:celebrate:end */
