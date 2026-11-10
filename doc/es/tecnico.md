@@ -669,10 +669,7 @@ la **plantilla**; las desviaciones se indican donde apliquen.
 <body>
   <div class="container {legal|about}">
     <header class="cabecera-{legal|about}">
-      <!-- El idioma es un control de primer nivel de la cabecera, no un
-           subapartado del cajon de ajustes: el componente compartido se
-           monta dentro de .suite-controls y el engranaje se inserta el
-           solo, justo detras. No hay ningun boton de idioma en el HTML. -->
+      <!-- El idioma vive dentro del cajon del engranaje, como primera fila: el componente compartido lo mueve alli. En la cabecera solo queda el engranaje. No hay ningun boton de idioma en el HTML. -->
       <div class="suite-controls">
         <div id="locale-picker"></div>
       </div>

@@ -82,7 +82,7 @@ mecánica de castigo.
 
 ## 7. Cambiar idioma
 
-Abre el menú de idioma desde la cabecera (icono del globo 🌐).
+Abre el ⚙️ de la cabecera: el idioma está en la primera fila del cajón.
 Disponibles: **Español (predeterminado)** e **Inglés**. Consulta
 [`I18N.md`](I18N.md) para ver cómo añadir un nuevo idioma.
 
