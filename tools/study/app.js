@@ -121,7 +121,7 @@
     /* The star earned, and the line "Ya tienes X estrellas · A por las Y estrellas"
        (stars-engine.js) with it, so the progress comes with the star. */
     toast.textContent = App.i18n.t('study.starEarned').replace('{n}', gain) + ' ' +
-      window.MiralanteStars.line(newTotal, {
+      window.ApptonomiaStars.line(newTotal, {
         reached: App.i18n.t('study.starsReached'),
         goal: App.i18n.t('study.starsGoal')
       });
