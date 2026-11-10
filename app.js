@@ -852,7 +852,7 @@
        placeholder cards. Same DOM element, same i18n keys, same
        back-link semantics — just a different data source. */
     if (App.i18n.locale() === 'en') {
-      if (App.achievements) App.achievements.sync();
+      if (App.achievements) App.achievements.announce(App.achievements.sync());
       renderEnHome(grid);
       return;
     }
@@ -862,7 +862,7 @@
       var decks = res.ok ? await res.json() : [];
       /* Re-check achievements (about/) against the saved progress, so
          decks finished before achievements existed also count. */
-      if (App.achievements) App.achievements.sync(decks);
+      if (App.achievements) App.achievements.announce(App.achievements.sync(decks));
 
       if (!decks.length) {
         grid.innerHTML = emptyStateHtml();

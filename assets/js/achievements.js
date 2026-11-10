@@ -112,10 +112,25 @@
     });
   }
 
+  /** Neutral notice for new achievements, created on first use. */
+  function announce(ids) {
+    if (!ids || !ids.length) return;
+    var el = document.getElementById('achievement-notice');
+    if (!el) {
+      el = document.createElement('p');
+      el.id = 'achievement-notice';
+      el.className = 'achievement-notice';
+      el.setAttribute('aria-live', 'polite');
+      document.body.appendChild(el);
+    }
+    board.notify(el, ids);
+  }
+
   App.achievements = {
     list: CATALOG,
     unlocked: board.unlocked,
     sync: sync,
+    announce: announce,
     syncWithManifest: syncWithManifest,
     notify: function (el, ids) { board.notify(el, ids); }
   };
