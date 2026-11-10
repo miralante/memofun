@@ -76,7 +76,7 @@
       test: function (p) { return !!p.decks && hasFullSubject(p.decks, p.done); } }
   ];
 
-  var board = window.MiralanteAchievements.create({
+  var board = window.ApptonomiaAchievements.create({
     storageKey: 'memofun:achievements',
     catalog: CATALOG,
     t: function (key) { return App.i18n.t(key); }
