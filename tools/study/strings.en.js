@@ -21,4 +21,20 @@ if (window.App.i18n) {
       starsGoal: 'Go for {n} stars'
     }
   }, 'en');
+  /* Achievements (assets/js/achievements.js): neutral notice at the end of a deck. */
+  App.i18n.register({
+    achievementNew: 'New achievement: {name}',
+    achievementFirstStar: 'First star',
+    achievementFirstStarDesc: 'Finish your first deck.',
+    achievementTenStars: 'Ten stars',
+    achievementTenStarsDesc: 'Get ten stars.',
+    achievementReviewAgain: 'One more time',
+    achievementReviewAgainDesc: 'Review again a deck you already finished.',
+    achievementFullSubject: 'Whole subject',
+    achievementFullSubjectDesc: 'Finish all the decks of one subject.',
+    achievementTenDecks: 'Ten decks',
+    achievementTenDecksDesc: 'Finish ten different decks.',
+    achievementBigDeck: 'Big deck',
+    achievementBigDeckDesc: 'Finish a deck with 20 cards or more.'
+  }, 'en');
 }

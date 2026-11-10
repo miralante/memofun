@@ -21,4 +21,20 @@ if (window.App.i18n) {
       starsGoal: 'A por las {n} estrellas'
     }
   }, 'es');
+  /* Achievements (assets/js/achievements.js): neutral notice at the end of a deck. */
+  App.i18n.register({
+    achievementNew: 'Nuevo logro: {name}',
+    achievementFirstStar: 'Primera estrella',
+    achievementFirstStarDesc: 'Termina tu primera baraja.',
+    achievementTenStars: 'Diez estrellas',
+    achievementTenStarsDesc: 'Consigue diez estrellas.',
+    achievementReviewAgain: 'Otra vuelta',
+    achievementReviewAgainDesc: 'Repasa otra vez una baraja que ya terminaste.',
+    achievementFullSubject: 'Asignatura completa',
+    achievementFullSubjectDesc: 'Termina todas las barajas de una asignatura.',
+    achievementTenDecks: 'Diez barajas',
+    achievementTenDecksDesc: 'Termina diez barajas distintas.',
+    achievementBigDeck: 'Baraja grande',
+    achievementBigDeckDesc: 'Termina una baraja de 20 tarjetas o más.'
+  }, 'es');
 }

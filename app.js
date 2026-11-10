@@ -860,7 +860,7 @@
     try {
       var res = await fetch(BASE + 'decks/manifest.json', { cache: 'no-store' });
       var decks = res.ok ? await res.json() : [];
-      /* Re-check achievements (about-app/) against the saved progress, so
+      /* Re-check achievements (about/) against the saved progress, so
          decks finished before achievements existed also count. */
       if (App.achievements) App.achievements.sync(decks);
 

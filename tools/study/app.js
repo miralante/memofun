@@ -305,10 +305,13 @@
 
   function showEndScreen() {
     App.storage.completeDeck(deckId);
-    /* Unlock achievements (shown on about-app/). Silent here: the end
-       screen keeps its single celebration; the badges wait on that page. */
+    /* Unlock achievements and announce the new ones once, neutrally, in the
+       end screen (apptonomia/doc/es/spec.md §2.6). */
     if (App.achievements) {
-      App.achievements.syncWithManifest('../../decks/manifest.json', { finishedCards: cards.length });
+      App.achievements.syncWithManifest('../../decks/manifest.json', { finishedCards: cards.length })
+        .then(function (ids) {
+          App.achievements.notify(document.getElementById('achievement-notice'), ids);
+        });
     }
     if (App.feedback && App.feedback.star) App.feedback.star();
     renderStars();

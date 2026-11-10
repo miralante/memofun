@@ -243,13 +243,21 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
   guardan de forma permanente. Nunca se guardan fallos,
   tiempo empleado, número de intentos ni nada que identifique a la
   persona. El progreso no sale del dispositivo.
-- **Logros** (`about-app/`, enlazado desde el pie de la portada antes
-  de Configuración): `localStorage` `achievements` solo guarda la
-  fecha en que se consiguió cada logro por primera vez. Todos los
-  logros salen del progreso anterior (estrellas, barajas completadas,
-  tamaño de las barajas en el manifiesto), solo se suman, se borran
-  junto con el progreso y nunca dependen de rachas, velocidad ni
-  comparaciones (§2.2, §2.3, §3.7).
+- **Recompensas** (política común de la suite: `apptonomia/doc/es/spec.md`
+  §2.6). Memofun aplica esa política con estas particularidades:
+  - Las estrellas son el premio general: una por baraja repasada.
+  - Los logros son hitos del progreso guardado, sin rachas ni tiempo:
+    *Primera estrella* (1 estrella), *Diez estrellas* (10),
+    *Otra vuelta* (una baraja repasada otra vez), *Diez barajas*
+    (10 barajas distintas), *Baraja grande* (una baraja de 20 tarjetas
+    o más) y *Asignatura completa* (todas las barajas de una asignatura).
+  - Un logro nuevo se anuncia una sola vez, en la pantalla final de la
+    baraja que lo consigue (`#achievement-notice`). Los logros que
+    salen de progreso guardado antes se guardan en silencio al abrir la
+    portada, sin anuncio.
+  - Se guardan en `localStorage` (`memofun:achievements`) solo con la
+    fecha de la primera vez, se borran junto con el progreso y no
+    aparecen en "Sobre la app".
 
 ### 2.7 Accesibilidad universal
 

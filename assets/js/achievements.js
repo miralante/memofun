@@ -1,54 +1,36 @@
 /* ==========================================================================
-   Memofun — Achievements catalog, unlock rules and badge grid
-   Exposes window.App.achievements.list / .unlocked() / .achieve(id) /
-   .sync(decks, opts) / .syncWithManifest(url, opts) / .render(container).
+   Memofun — achievements catalogue ("logros").
 
-   Same shape as the sibling Teclatlon: unlocked achievements are stored
-   as { id: timestamp } (localStorage 'memofun:achievements', through
-   App.storage). Every rule is derived from data the app already keeps
-   in 'progress' (stars + completed decks) plus decks/manifest.json, so
-   people who already studied get their achievements the next time any
-   page that calls sync() loads. Nothing here ever removes a star or an
-   achievement, and there is no streak or timed goal on purpose
-   (SPEC.md §2.2, §2.3 and the closed list in §3.7).
+   The policy is the suite's (apptonomia/doc/es/spec.md §2.6): milestones
+   computed from saved progress, no streaks, no timers, no losses, shown once
+   as a neutral notice when a deck is finished, never on the "About the app"
+   page. The mechanism itself lives in ./achievements-engine.js (identical in
+   every app). This file holds only Memofun's rules and its public API:
 
-   Shown on the "About the app" page (about-app/), linked from the home
-   footer right before "Settings". Texts come from App.i18n (keys
-   achievement<Name>, achievement<Name>Desc, achievementLocked,
-   achievementUnlockedAt), registered by about-app/strings.<locale>.js.
+     App.achievements.list                    the catalogue
+     App.achievements.unlocked()              { id: timestamp }
+     App.achievements.sync(decks, opts)       check the rules now; saves the
+                                              new ones silently; returns their ids
+     App.achievements.syncWithManifest(url, opts)
+                                              sync with the saved progress, then
+                                              again with the deck manifest; resolves
+                                              to the ids unlocked by the call
+     App.achievements.notify(el, ids)         write the neutral notice into el
+
+   Rules (Memofun particularities):
+     firstStar    1 star earned
+     tenStars     10 stars earned
+     reviewAgain  a deck was reviewed again (more stars than finished decks)
+     tenDecks     10 different decks finished
+     bigDeck      a deck of BIG_DECK_CARDS cards or more finished
+     fullSubject  every deck of one course and subject finished
    ========================================================================== */
 (function () {
   'use strict';
 
   window.App = window.App || {};
 
-  var KEY = 'achievements';
   var BIG_DECK_CARDS = 20;
-
-  var LIST = [
-    { id: 'firstStar',   icon: '⭐', key: 'achievementFirstStar' },
-    { id: 'tenStars',    icon: '🌟', key: 'achievementTenStars' },
-    { id: 'reviewAgain', icon: '🔁', key: 'achievementReviewAgain' },
-    { id: 'fullSubject', icon: '🎓', key: 'achievementFullSubject' },
-    { id: 'tenDecks',    icon: '🏆', key: 'achievementTenDecks' },
-    { id: 'bigDeck',     icon: '🧠', key: 'achievementBigDeck' }
-  ];
-
-  /** Unlocked achievements as { id: timestamp }. */
-  function unlocked() {
-    var data = App.storage.get(KEY);
-    return (data && typeof data === 'object') ? data : {};
-  }
-
-  /** Idempotent: stores the first unlock time and never overwrites it.
-      Returns true only when the achievement is new. */
-  function achieve(id) {
-    var data = unlocked();
-    if (data[id]) return false;
-    data[id] = Date.now();
-    App.storage.set(KEY, data);
-    return true;
-  }
 
   function completedIds(progress) {
     var done = progress.completed || {};
@@ -75,73 +57,66 @@
     });
   }
 
-  /** Unlocks every achievement whose rule is met by the saved progress.
-      `decks` (the manifest array) is optional: without it, the rules
-      that need the deck list are simply checked later. `opts.finishedCards`
-      is the size of the deck just finished (covers decks outside the
-      manifest). Returns the ids unlocked by this call. */
-  function sync(decks, opts) {
+  var CATALOG = [
+    { id: 'firstStar', icon: '⭐', nameKey: 'achievementFirstStar', descKey: 'achievementFirstStarDesc',
+      test: function (p) { return p.stars >= 1; } },
+    { id: 'tenStars', icon: '🌟', nameKey: 'achievementTenStars', descKey: 'achievementTenStarsDesc',
+      test: function (p) { return p.stars >= 10; } },
+    { id: 'reviewAgain', icon: '🔁', nameKey: 'achievementReviewAgain', descKey: 'achievementReviewAgainDesc',
+      /* Every finished pass adds one star (App.storage.completeDeck), so more
+         stars than distinct decks means some deck was reviewed again. */
+      test: function (p) { return p.done.length >= 1 && p.stars > p.done.length; } },
+    { id: 'tenDecks', icon: '🏆', nameKey: 'achievementTenDecks', descKey: 'achievementTenDecksDesc',
+      test: function (p) { return p.done.length >= 10; } },
+    { id: 'bigDeck', icon: '🧠', nameKey: 'achievementBigDeck', descKey: 'achievementBigDeckDesc',
+      test: function (p) {
+        return p.finishedCards >= BIG_DECK_CARDS || (!!p.decks && hasBigDeck(p.decks, p.done));
+      } },
+    { id: 'fullSubject', icon: '🎓', nameKey: 'achievementFullSubject', descKey: 'achievementFullSubjectDesc',
+      test: function (p) { return !!p.decks && hasFullSubject(p.decks, p.done); } }
+  ];
+
+  var board = window.MiralanteAchievements.create({
+    storageKey: 'memofun:achievements',
+    catalog: CATALOG,
+    t: function (key) { return App.i18n.t(key); }
+  });
+
+  /** Snapshot of the saved progress plus the optional deck list and the
+      size of the deck just finished. */
+  function snapshot(decks, opts) {
     var progress = App.storage.get('progress');
-    var stars = progress.stars || 0;
-    var done = completedIds(progress);
-    var fresh = [];
-    function check(id, condition) {
-      if (condition && achieve(id)) fresh.push(id);
-    }
-    check('firstStar', stars >= 1);
-    check('tenStars', stars >= 10);
-    /* Every finished pass adds one star (App.storage.completeDeck), so
-       more stars than distinct decks means some deck was reviewed again. */
-    check('reviewAgain', done.length >= 1 && stars > done.length);
-    check('tenDecks', done.length >= 10);
-    check('bigDeck', !!(opts && opts.finishedCards >= BIG_DECK_CARDS));
-    if (Array.isArray(decks) && decks.length) {
-      check('fullSubject', hasFullSubject(decks, done));
-      check('bigDeck', hasBigDeck(decks, done));
-    }
-    return fresh;
+    return {
+      stars: progress.stars || 0,
+      done: completedIds(progress),
+      decks: Array.isArray(decks) && decks.length ? decks : null,
+      finishedCards: opts && opts.finishedCards ? opts.finishedCards : 0
+    };
+  }
+
+  function sync(decks, opts) {
+    return board.evaluate(snapshot(decks, opts));
   }
 
   /** sync() now with what is saved, then again once the manifest arrives.
-      Resolves to the deck list (or null when it could not be read). */
+      Resolves to the ids unlocked by this call (possibly none). */
   function syncWithManifest(url, opts) {
-    sync(null, opts);
+    var first = sync(null, opts);
     return fetch(url).then(function (res) {
       return res.ok ? res.json() : null;
     }).then(function (decks) {
-      if (Array.isArray(decks)) sync(decks, opts);
-      return Array.isArray(decks) ? decks : null;
-    }).catch(function () { return null; });
-  }
-
-  /** Draws one badge per achievement inside `container` (a <ul>). */
-  function render(container) {
-    if (!container) return;
-    var t = App.i18n.t;
-    var done = unlocked();
-    container.innerHTML = '';
-    LIST.forEach(function (a) {
-      var isUnlocked = !!done[a.id];
-      var dateStr = isUnlocked ? new Date(done[a.id]).toLocaleDateString(App.i18n.lang()) : null;
-      var item = document.createElement('li');
-      item.className = 'achievement-badge' + (isUnlocked ? ' unlocked' : ' locked');
-      item.innerHTML =
-        '<span class="achievement-badge-icon" aria-hidden="true">' + a.icon + '</span>' +
-        '<span class="achievement-badge-name">' + t(a.key) + '</span>' +
-        '<span class="achievement-badge-desc">' + t(a.key + 'Desc') + '</span>' +
-        '<span class="achievement-badge-status">' +
-          (isUnlocked ? t('achievementUnlockedAt').replace('{date}', dateStr) : t('achievementLocked')) +
-        '</span>';
-      container.appendChild(item);
+      var second = Array.isArray(decks) ? sync(decks, opts) : [];
+      return first.concat(second);
+    }).catch(function () {
+      return first;
     });
   }
 
-  window.App.achievements = {
-    list: LIST,
-    unlocked: unlocked,
-    achieve: achieve,
+  App.achievements = {
+    list: CATALOG,
+    unlocked: board.unlocked,
     sync: sync,
     syncWithManifest: syncWithManifest,
-    render: render
+    notify: function (el, ids) { board.notify(el, ids); }
   };
 })();

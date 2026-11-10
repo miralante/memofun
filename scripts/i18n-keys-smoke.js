@@ -40,7 +40,7 @@ const HTML_PAGES = [
   path.join(ROOT, 'index.html'),
   path.join(ROOT, 'settings', 'index.html'),
   path.join(ROOT, 'tools', 'study', 'index.html'),
-  path.join(ROOT, 'about-app', 'index.html')
+  path.join(ROOT, 'about', 'index.html')
 ].filter((f) => fs.existsSync(f));
 
 function extractRegisterCalls(file) {

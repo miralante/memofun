@@ -228,12 +228,21 @@ like a manual:
   `sessionStorage` (see §2.2) and are never saved permanently. Failures, time taken, attempt counts, or
   anything identifying are never saved. Progress never leaves the
   device.
-- **Achievements** (`about-app/`, linked from the home footer before
-  Settings): `localStorage` `achievements` only holds the date each
-  achievement was first earned. Every achievement is derived from the
-  progress above (stars, completed decks, deck sizes in the manifest),
-  only ever added, cleared together with progress, and never based on
-  streaks, speed or comparison (§2.2, §2.3, §3.7).
+- **Rewards** (the suite's common policy: `apptonomia/doc/en/spec.md`
+  §2.6). Memofun applies that policy with these particularities:
+  - Stars are the general reward: one per deck reviewed.
+  - Achievements are milestones of the saved progress, with no streaks
+    and no timers: *First star* (1 star), *Ten stars* (10), *One more
+    time* (a deck reviewed again), *Ten decks* (10 different decks),
+    *Big deck* (a deck of 20 cards or more) and *Whole subject* (every
+    deck of one subject).
+  - A new achievement is announced once, on the end screen of the deck
+    that earns it (`#achievement-notice`). Achievements that come from
+    progress saved earlier are stored silently when the home screen
+    opens, with no announcement.
+  - Stored in `localStorage` (`memofun:achievements`) with only the date
+    of the first time, cleared together with progress, and not shown on
+    "About the app".
 
 ### 2.7 Universal accessibility
 

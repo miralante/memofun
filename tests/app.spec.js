@@ -572,26 +572,29 @@ test('16 — stars live only in the session: a reload keeps them, a new visit st
   await expect(fresh.locator('#stars-total .stars-count')).toHaveText('0');
 });
 
-test('16b — footer links "Sobre la app" before Configuración and shows achievements', async ({ browser }) => {
-  // Progress saved before achievements existed: 2 stars, 1 deck → the
-  // about-app page must grant firstStar and reviewAgain retroactively.
+test('16b — footer links "Sobre la app" before Configuración and keeps achievements out of it', async ({ browser }) => {
+  // Progress saved before achievements existed: 2 stars, 1 deck. The home
+  // screen grants firstStar and reviewAgain silently (no announcement there);
+  // the about page describes the app and shows no rewards.
   const page = await openWithStorage(browser, () => {
     localStorage.setItem('memofun:progress', JSON.stringify({
       stars: 2,
       completed: { 'eso-1-biologia-geologia': true }
     }));
   }, 0);
+  await expect.poll(async () => page.evaluate(() =>
+    Object.keys(JSON.parse(localStorage.getItem('memofun:achievements') || '{}')).sort()
+  )).toEqual(['firstStar', 'reviewAgain']);
+
   const footerLinks = page.locator('footer.app-footer a');
-  await expect(footerLinks.nth(0)).toHaveAttribute('href', 'about-app/');
+  await expect(footerLinks.nth(0)).toHaveAttribute('href', 'https://apptonomia.uk/about/');
   await expect(footerLinks.nth(0)).toHaveText('Sobre la app');
   await expect(footerLinks.nth(1)).toHaveAttribute('href', 'config/');
 
   await footerLinks.nth(0).click();
-  await expect(page).toHaveURL(/about-app\/$/);
-  await expect(page.locator('h1')).toContainText('Sobre la app');
-  await expect(page.locator('#achievementsGrid .achievement-badge')).toHaveCount(6);
-  await expect(page.locator('#achievementsGrid .achievement-badge.unlocked')).toHaveCount(2);
-  await expect(page.locator('#achievementsCount')).toHaveText('Tienes 2 de 6 logros.');
+  await expect(page).toHaveURL(/about\/$/);
+  await expect(page.locator('h1')).toHaveText('Memofun');
+  await expect(page.locator('#achievementsGrid')).toHaveCount(0);
 });
 
 // ===========================================================================
