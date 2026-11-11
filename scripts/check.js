@@ -262,7 +262,6 @@ var USER_FACING_FILES = [
   path.join(ROOT, 'app.js'),
   path.join(ROOT, 'strings.es.js'),
   path.join(ROOT, 'strings.en.js'),
-  path.join(ROOT, 'offline.html'),
   path.join(ROOT, '404.html'),
   path.join(ROOT, 'legal', 'index.html')
 ]

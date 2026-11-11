@@ -13,7 +13,6 @@ var VERSION = 'memofun-v173';
 
 var FILES = [
   './',
-  './offline.html',
   './404.html',
   './manifest.json',
   './app.js',
@@ -47,7 +46,6 @@ var FILES = [
   './assets/css/locale-picker.css',
   './assets/js/locale-picker.js',
   './assets/js/locale-picker-config.js',
-  './assets/js/site-greeting.js',
   './assets/js/sw-register.js',
   './assets/fonts/atkinson-hyperlegible-400.woff2',
   './assets/fonts/atkinson-hyperlegible-700.woff2',
@@ -63,13 +61,6 @@ var FILES = [
   './assets/js/deck-loader.js',
   './assets/js/achievements-engine.js',
   './assets/js/achievements.js',
-
-  /* Public landing site/. Added when /site/ was created; bump VERSION
-     so installed PWAs refetch the shell and pick the new files. */
-  './site/',
-  './site/styles.css',
-  './site/strings.es.js',
-  './site/strings.en.js',
 
   /* IPP course — FPB Servicios Administrativos 1º.
      Alcance: Temas 1-8 del temario oficial. La 5ª baraja de Tema 1
@@ -134,7 +125,7 @@ var FILES = [
 ];
 
 /* Cloudflare answers EVERY "/x.html" URL with a 307 to its extensionless form
-   (/index.html -> /, /404.html -> /404, /offline.html -> /offline). Following
+   (/index.html -> /, /404.html -> /404). Following
    that redirect yields a response with `redirected === true`, and the Cache API
    PRESERVES that flag across a store/load round trip, so cache.addAll()
    silently poisons the entry under its original key. Chrome refuses to hand
@@ -208,7 +199,7 @@ self.addEventListener('fetch', function (event) {
     }).catch(function () {
       return caches.match(event.request).then(function (cached) {
         if (cached) return deRedirect(cached);
-        return caches.match('./offline.html').then(function (offline) {
+        return caches.match('./').then(function (offline) {
           /* This one IS a navigation response, so a poisoned entry here is
              exactly the reported failure. Sanitise it. */
           if (offline) return deRedirect(offline);

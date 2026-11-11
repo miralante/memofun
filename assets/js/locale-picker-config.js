@@ -10,8 +10,7 @@
    enough.
 
    `path: null` means "same directory as the page": memofun keeps each
-   page's strings next to its own HTML (index.html -> strings.es.js,
-   site/index.html -> site/strings.es.js), not under a js/ folder.
+   page's strings next to its own HTML (index.html -> strings.es.js), not under a js/ folder.
    `storageKey` matches the key assets/js/i18n.js writes, so the picker's
    choice and the app's own i18n core stay in sync. */
 window.LocalePickerConfig = {

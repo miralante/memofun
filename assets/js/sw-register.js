@@ -2,7 +2,7 @@
    each entry point used to carry. Two reasons to externalise it:
 
    1. The CSP (`script-src 'self'`) blocked those inline scripts, so the
-      registration silently never ran from about/, legal/ or site/.
+      registration silently never ran from about/ or legal/.
    2. It removes the per-page relative path ('./sw.js' vs '../sw.js'), which
       is exactly the kind of thing that breaks when a page moves.
 
