@@ -36,6 +36,7 @@ if (window.App.i18n) {
       enContributeGuide: 'See the contributor guide'
     },
     core: {
+      chrome: { appName: 'Memofun', portal: 'Back to the portal', about: 'About the app', legal: 'Data protection', settings: 'Settings' },
       back: '← Back',
       next: 'Next',
       previous: 'Previous',

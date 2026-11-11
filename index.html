@@ -178,7 +178,7 @@
       <p class="suite-attribution"><span data-i18n="suiteBy">Una app de</span> <a href="https://apptonomia.uk/">Apptonomia</a>.</p>
     </div>
   </div>
-  <div class="suite-controls"><div id="locale-picker"></div></div>
+  <div class="suite-controls" data-suite-header data-suite-brand="off"></div>
   <div class="suite-details"><p class="tagline" data-i18n="home.tagline">Elige una baraja y practica con tarjetas.</p><span class="stars" id="stars-total">⭐ 0</span></div>
 </header>
 
@@ -186,15 +186,7 @@
   <div id="deck-grid" aria-live="polite"></div>
 </main>
 
-<footer class="app-footer">
-  <div class="container">
-    <p>
-      <a href="https://apptonomia.uk/about/" data-i18n="core.aboutApp">Sobre la app</a>
-      · <a href="config/" data-i18n="core.config">Configuración</a>
-      · <a href="legal/" data-i18n="core.dataProtection">Protección de datos</a>
-    </p>
-  </div>
-</footer>
+<footer data-suite-footer data-suite-base="./" data-suite-settings></footer>
 
 <script src="assets/js/locale-picker-config.js?v=2ab" defer></script>
 <script src="assets/js/utils.js"></script>
@@ -216,5 +208,6 @@
      and the bump-on-every-cached-file-change rule. -->
 <script src="assets/js/sw-register.js" defer></script>
 
+  <script src="./assets/js/suite-chrome.js"></script>
 </body>
 </html>
