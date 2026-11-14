@@ -586,7 +586,7 @@ test('16b — footer links "Sobre la app" before Configuración and keeps achiev
     Object.keys(JSON.parse(localStorage.getItem('memofun:achievements') || '{}')).sort()
   )).toEqual(['firstStar', 'reviewAgain']);
 
-  const footerLinks = page.locator('footer.app-footer a');
+  const footerLinks = page.locator('footer[data-suite-footer] a');
   await expect(footerLinks.nth(0)).toHaveAttribute('href', 'https://apptonomia.uk/about/');
   await expect(footerLinks.nth(0)).toHaveText('Sobre la app');
   await expect(footerLinks.nth(1)).toHaveAttribute('href', 'config/');

@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Suite base stylesheet — the template every app of the suite follows.
+
+   ONE definition, copied byte-for-byte into each app by
+   scripts/sync-suite-base.js (check mode fails on drift). It owns the
+   shared VOCABULARY of design tokens (surfaces, text, feedback, focus,
+   shape, light and dark). It never names a brand colour: an app sets its
+   own colours and images in assets/css/brand.css, which loads AFTER this
+   file, and keeps its own components in its own stylesheets.
+
+   Load order in every app's pages:
+     1. assets/css/suite-base.css   (this file: vocabulary and defaults)
+     2. assets/css/brand.css        (the app's own brand: accent colours)
+     3. the app's own tokens and components (refine, never redefine brand)
+
+   Only variables live here, no selectors that paint elements, so adopting
+   this file cannot change how an app looks by itself.
+   ========================================================================== */
+
+:root {
+  /* Brand slots: defaults only, each app overrides them in brand.css. */
+  --accent: #005A9C;
+  --accent-soft: #E6F0FF;
+  --accent-2: #8A5A00;
+  --accent-2-soft: #F7EFDD;
+  --color-on-accent: #FFFFFF;
+
+  /* Neutral surfaces and text (light). */
+  --color-bg: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F2F2F2;
+  --color-border: #C9CED3;
+  --color-text: #1A1A2E;
+  --color-text-soft: #4A4A68;
+  --color-text-tenue: #5C5C70;
+
+  /* Feedback: praise and calm only, never a punitive red. */
+  --color-success: #2E7D32;
+  --color-success-soft: #E6F2E6;
+  --color-focus: #1B6CA8;
+
+  /* Shape and motion. */
+  --radius: 12px;
+  --radius-pill: 999px;
+  --button-min: 48px;
+  --shadow: 0 2px 8px rgba(26, 26, 46, 0.12);
+  --motion-fast: 150ms;
+}
+
+/* Dark theme: data-theme="dark" is what the app's switch sets. The brand
+   slots have their dark values in brand.css; only neutrals and feedback
+   are defined here. */
+[data-theme="dark"] {
+  --color-bg: #14161E;
+  --color-surface: #1E2230;
+  --color-surface-2: #262B3C;
+  --color-border: #39405A;
+  --color-text: #F2F0EA;
+  --color-text-soft: #B3B0C8;
+  --color-text-tenue: #9693AC;
+  --color-success: #7BD389;
+  --color-success-soft: #1E3D24;
+  --color-focus: #6FD0C4;
+  --color-on-accent: #14161E;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}

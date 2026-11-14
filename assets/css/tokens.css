@@ -23,15 +23,7 @@
   --color-text-soft: #4A4A68;
   --color-text-tenue: #6E6E86;
 
-  /* ---------- Brand accent — Apptonomia's "razonamiento" (reasoning)
-     module teal. Memofun doesn't have Apptonomia's per-module palette
-     (it's a single tool, not a catalogue), so it borrows the module
-     whose spirit is closest to studying flashcards: understanding, not
-     just memorizing. ---------- */
-  --accent: #00695C;
-  --accent-soft: #E0F0EE;
-  --accent-2: #B8860B;
-  --accent-2-soft: #F7EFDD;
+  /* ---------- Brand accents (teal and gold): see brand.css. ---------- */
 
   /* ---------- Feedback: only ever praise, never a punitive red ----------
      Exact values from Apptonomia's tokens.css — same reasoning: mistakes
@@ -124,11 +116,6 @@
   --color-text: #F2F0EA;
   --color-text-soft: #B3B0C8;
   --color-text-tenue: #9693AC;
-
-  --accent: #6FD0C4;
-  --accent-soft: #16352F;
-  --accent-2: #E0B85C;
-  --accent-2-soft: #3A2C1E;
 
   --color-success: #7BD389;
   --color-success-soft: #1E3D24;

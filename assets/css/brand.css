@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Memofun — brand. The only file that sets this app's brand colours.
+   Loads after suite-base.css (the suite template defaults) and before
+   tokens.css. Values are the ones memofun already used; moving them here
+   changes nothing on screen.
+   ========================================================================== */
+
+:root {
+  /* Brand accent — the app's primary colour (teal). */
+  --accent: #00695C;
+  --accent-soft: #E0F0EE;
+
+  /* Secondary accent — gold, for stars and the secondary highlights. */
+  --accent-2: #B8860B;
+  --accent-2-soft: #F7EFDD;
+}
+
+[data-theme="dark"] {
+  --accent: #6FD0C4;
+  --accent-soft: #16352F;
+  --accent-2: #E0B85C;
+  --accent-2-soft: #3A2C1E;
+}

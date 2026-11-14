@@ -7,7 +7,9 @@
 <meta name="theme-color" content="#FAF7F2">
 <link rel="manifest" href="../../manifest.json">
 <link rel="icon" href="../../assets/img/icono.svg" type="image/svg+xml">
-<link rel="stylesheet" href="../../assets/css/tokens.css">
+<link rel="stylesheet" href="../../assets/css/suite-base.css">
+  <link rel="stylesheet" href="../../assets/css/brand.css">
+  <link rel="stylesheet" href="../../assets/css/tokens.css">
 <link rel="stylesheet" href="../../assets/css/base.css">
 <link rel="stylesheet" href="../../assets/css/componentes.css">
   <link rel="stylesheet" href="../../assets/css/locale-picker.css?v=memofun-v4aa">
@@ -18,7 +20,7 @@
 
 <div class="top-bar container">
   <a class="btn secondary icon" id="btn-back" href="../../" aria-label="Volver" data-i18n-aria="core.back">←</a>
-  <span class="stars" id="stars-total">⭐ 0</span>
+  <span class="stars" data-suite-stars id="stars-total">⭐ 0</span>
 </div>
 <h1 id="deck-title" class="deck-title-compact container"></h1>
   <p id="deck-context" class="deck-context container hidden"></p>
@@ -57,7 +59,7 @@
     </div>
   </div>
 </main>
-  <footer data-suite-footer data-suite-base="../../" data-suite-settings></footer>
+  <footer class="container" data-suite-footer data-suite-base="../../" data-suite-settings></footer>
 
 <script src="../../assets/js/utils.js"></script>
 <script src="../../assets/js/i18n.js"></script>

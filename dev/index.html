@@ -57,7 +57,9 @@
 <meta name="theme-color" content="#FAF7F2">
 <meta name="color-scheme" content="light">
 
-<link rel="stylesheet" href="../assets/css/tokens.css?v=memofun-v2ca">
+<link rel="stylesheet" href="../assets/css/suite-base.css">
+  <link rel="stylesheet" href="../assets/css/brand.css">
+  <link rel="stylesheet" href="../assets/css/tokens.css?v=memofun-v2ca">
 <link rel="stylesheet" href="../assets/css/base.css">
 <link rel="stylesheet" href="../assets/css/componentes.css">
 <link rel="stylesheet" href="../assets/css/locale-picker.css?v=memofun-v2caa">
@@ -79,14 +81,14 @@
     </div>
   </div>
   <div class="suite-controls" data-suite-header data-suite-brand="off"></div>
-  <div class="suite-details"><p class="tagline" data-i18n="home.tagline">Elige una baraja y practica con tarjetas.</p><span class="stars" id="stars-total">⭐ 0</span></div>
+  <div class="suite-details"><p class="tagline" data-i18n="home.tagline">Elige una baraja y practica con tarjetas.</p><span class="stars" data-suite-stars id="stars-total">⭐ 0</span></div>
 </header>
 
 <main id="contenido" class="container container-wide">
   <div id="deck-grid" aria-live="polite"></div>
 </main>
 
-<footer data-suite-footer data-suite-base="../" data-suite-settings></footer>
+<footer class="container container-wide" data-suite-footer data-suite-base="../" data-suite-settings></footer>
 
 <script src="../assets/js/locale-picker-config.js?v=2ab" defer></script>
 <script src="../assets/js/utils.js"></script>
