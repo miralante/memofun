@@ -55,6 +55,28 @@
   margin: 0;
 }
 
+/* Back link of a subpage: the same bordered button as calculia's .back-link,
+   so "← Volver" looks and behaves the same in every suite app. */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--button-min);
+  padding: 6px 16px;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  color: var(--color-text);
+  font-size: var(--text-small);
+  font-weight: var(--weight-strong);
+  text-decoration: none;
+}
+
+.back-link:hover { border-color: var(--accent); }
+
+/* The subpage title takes the accent colour, as in calculia's header. */
+.suite-chrome-activity h1 { color: var(--accent); }
+
 /* ---------- Language selector (present in the header, like Apptonomia's
    idioma-selector — a language switch is a day-one decision the end
    user may need, not a "support" setting tucked away) ---------- */
