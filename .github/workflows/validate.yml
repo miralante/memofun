@@ -61,6 +61,9 @@ jobs:
       - name: Run structural, i18n, no-clinical-language and CSP checks
         run: node scripts/check.js
 
+      - name: Suite header and footer markup
+        run: node scripts/checks/suite-markup.js
+
   cache-bump:
     name: sw.js VERSION bump check
     runs-on: ubuntu-latest
