@@ -48,6 +48,13 @@
   text-align: center;
 }
 
+/* Inside the suite header's activity block the context line takes its own row
+   under the title: no pull-up margin, full width of the block. */
+.suite-chrome-activity .deck-context {
+  flex: 1 0 100%;
+  margin: 0;
+}
+
 /* ---------- Language selector (present in the header, like Apptonomia's
    idioma-selector — a language switch is a day-one decision the end
    user may need, not a "support" setting tucked away) ---------- */
