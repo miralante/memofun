@@ -262,10 +262,10 @@ like a manual:
 
 Works offline (installable PWA), no login, no cost.
 
-Design principle: when a deck is finished, the end-screen button returns
-to the **topic** the deck belongs to, not to the home screen. The learner
-stays where they were and decides what to study next. Decks without a
-topic (simple mode) still return to home.
+Design principle: the end screen of a deck has no exit button. The header's
+back link returns to the screen the learner came from (the **topic**, when the
+deck was opened from one) and to home otherwise. The learner stays where they
+were and decides what to study next.
 
 ### 2.9 Simplicity for the learner
 

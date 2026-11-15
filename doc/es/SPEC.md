@@ -277,10 +277,10 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
 
 Funciona offline (PWA instalable), sin login, sin coste.
 
-Principio de diseño: al terminar una baraja, el botón de la pantalla final
-vuelve al **tema** al que pertenece, no al inicio. Así la persona sigue
-en el mismo sitio donde estaba y decide ella qué estudiar después. Las
-barajas sin tema (modo sencillo) siguen volviendo al inicio.
+Principio de diseño: la pantalla final de una baraja no tiene botón de salida.
+El «← Volver» de la cabecera devuelve a la pantalla de la que llegó la persona
+(el **tema**, si la baraja se abrió desde uno) y, si no, al inicio. Así la
+persona sigue en el mismo sitio donde estaba y decide ella qué estudiar después.
 
 ### 2.9 Sencillez para la persona que estudia
 
