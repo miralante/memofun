@@ -276,16 +276,11 @@
     App.feedback.paintReward(document.getElementById('end-reward'), App.storage.totalStars(),
       App.i18n.t('study.transferPhrase').replace('{topic}', deckTitle));
     endScreenEl.classList.remove('hidden');
-    /* Vary the headline message across sessions via App.i18n.pick so
-       finishing a deck never feels scripted (still no right/wrong, no
-       streak — SPEC.md §2.2). The static title stays in the end screen
-       for accessibility and i18n parity; this only changes what flashes
-       in the overlay. */
-    var finishPhrases = App.i18n.t('study.finishPhrases');
-    var msg = (Array.isArray(finishPhrases) && finishPhrases.length)
-      ? finishPhrases[Math.floor(Math.random() * finishPhrases.length)]
-      : App.i18n.t('study.doneTitle');
-    App.feedback.celebrate(msg, null, window.ApptonomiaStars.line(App.storage.totalStars(), {
+    /* The achievement screen is the shared one (feedback.js, suite:celebrate): its
+       congratulation is the generic finish message, which the new star replaces
+       ("¡Has conseguido una nueva estrella!"). The static title stays in the end
+       screen for accessibility and i18n parity. */
+    App.feedback.celebrate(App.i18n.t('core.roundComplete'), null, window.ApptonomiaStars.line(App.storage.totalStars(), {
       reached: App.i18n.t('study.starsReached'),
       goal: App.i18n.t('study.starsGoal')
     }));
