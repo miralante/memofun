@@ -52,7 +52,6 @@ if (window.App.i18n) {
       doneTitle: '¡Has repasado toda la baraja!',
       studyAgain: 'Repasar otra vez',
       backToHome: 'Volver al inicio',
-      starEarned: '¡+{n} ⭐!',
       progress: 'Tarjeta {n} de {total}',
       milestoneHalf: '¡Ya llevas la mitad!',
       milestoneThreeQuarters: '¡Casi lo tienes!',

@@ -52,7 +52,6 @@ if (window.App.i18n) {
       doneTitle: 'You reviewed the whole deck!',
       studyAgain: 'Study again',
       backToHome: 'Back to home',
-      starEarned: '+{n} ⭐!',
       progress: 'Card {n} of {total}',
       milestoneHalf: 'You\'re halfway!',
       milestoneThreeQuarters: 'Almost there!',

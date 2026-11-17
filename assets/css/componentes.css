@@ -129,45 +129,6 @@
   font-size: var(--text-large);
 }
 
-/* Ephemeral "+1 ⭐" badge that pops out of the header stars chip when
-   a deck finishes, then floats up and fades. Anchored to the chip so
-   it visually "rises from" the counter; the chip itself re-renders the
-   new total via renderStars(). Hidden by default — showStarToast() in
-   tools/study/app.js toggles .show and removes the node after the
-   animation so it never stacks across repeats of the same deck. */
-.star-toast {
-  position: absolute;
-  top: -8px;
-  right: -10px;
-  padding: 4px 10px;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: var(--text-base);
-  color: var(--color-on-success);
-  background: var(--color-success);
-  border-radius: var(--radius-pill);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(0) scale(0.6);
-  transition: none;
-}
-
-.star-toast.show {
-  animation: starToast 1.6s ease-out forwards;
-}
-
-@keyframes starToast {
-  0%   { opacity: 0; transform: translateY(0) scale(0.6); }
-  15%  { opacity: 1; transform: translateY(-6px) scale(1.1); }
-  35%  { transform: translateY(-14px) scale(1); }
-  100% { opacity: 0; transform: translateY(-46px) scale(1); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .star-toast.show { animation: none; opacity: 1; transform: translateY(-6px); }
-}
-
 /* ---------- Buttons ---------- */
 
 .btn {

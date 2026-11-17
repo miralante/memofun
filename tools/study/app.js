@@ -88,39 +88,6 @@
       '<span class="stars-count">' + App.storage.totalStars() + '</span>';
   }
 
-  /* Pop a "+1 ⭐" badge out of the header stars chip when a deck
-     finishes. Visual flourish only — the count itself is already
-     updated by the renderStars() call in showEndScreen(); this just
-     makes the moment legible. Single-use: any prior toast is removed
-     first so a fast repeat doesn't stack. Skipped silently if the
-     new total is not strictly greater than the previous one
-     (e.g. deck already completed — see App.storage.completeDeck's
-     completion guard), matching SPEC.md §2.2 "stars only ever go up". */
-  function showStarToast() {
-    var newTotal = App.storage.totalStars();
-    var prev = starsEl.__lastTotalStars;
-    starsEl.__lastTotalStars = newTotal;
-    if (typeof prev !== 'number' || newTotal <= prev) return;
-    var gain = newTotal - prev;
-    var old = starsEl.querySelector('.star-toast');
-    if (old) old.remove();
-    var toast = document.createElement('span');
-    toast.className = 'star-toast';
-    toast.setAttribute('aria-hidden', 'true');
-    /* The star earned, and the line "Ya tienes X estrellas · A por las Y estrellas"
-       (stars-engine.js) with it, so the progress comes with the star. */
-    toast.textContent = App.i18n.t('study.starEarned').replace('{n}', gain) + ' ' +
-      window.ApptonomiaStars.line(newTotal, {
-        reached: App.i18n.t('study.starsReached'),
-        goal: App.i18n.t('study.starsGoal')
-      });
-    starsEl.appendChild(toast);
-    /* force reflow so .show triggers the transition on the same frame
-       the node is in the DOM */
-    void toast.offsetWidth;
-    toast.classList.add('show');
-    setTimeout(function () { if (toast.parentNode) toast.remove(); }, 1700);
-  }
 
   function progressText() {
     var base = App.i18n.t('study.progress')
@@ -304,7 +271,6 @@
     }
     if (App.feedback && App.feedback.star) App.feedback.star();
     renderStars();
-    showStarToast();
     areaEl.classList.add('hidden');
     /* The closing reward is the shared one: the stars and the transfer sentence. */
     App.feedback.paintReward(document.getElementById('end-reward'), App.storage.totalStars(),
@@ -319,7 +285,10 @@
     var msg = (Array.isArray(finishPhrases) && finishPhrases.length)
       ? finishPhrases[Math.floor(Math.random() * finishPhrases.length)]
       : App.i18n.t('study.doneTitle');
-    App.feedback.celebrate(msg);
+    App.feedback.celebrate(msg, null, window.ApptonomiaStars.line(App.storage.totalStars(), {
+      reached: App.i18n.t('study.starsReached'),
+      goal: App.i18n.t('study.starsGoal')
+    }));
   }
 
   function goNext() {
@@ -406,11 +375,6 @@
 
   async function init() {
     renderStars();
-    /* seed the toast baseline so the first completion can detect the +1
-       (see showStarToast); without this the initial render would set
-       __lastTotalStars via showStarToast's own assignment and the very
-       first finish would compare 0 vs N silently. */
-    starsEl.__lastTotalStars = App.storage.totalStars();
     if (!deckFile) {
       statusEl.textContent = App.i18n.t('study.error');
       return;
