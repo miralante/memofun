@@ -231,7 +231,7 @@ malformed. It doesn't review content quality — that's still a person's
 job (or the agent's, applying the checklist in step 4).
 
 If the deck is part of a `topicGroup` that has no self-assessment yet, the
-topic also needs its `autoevaluacion.json` in the same folder (8-12
+topic also needs its `autoevaluacion.json` in the same folder (8-15
 questions). Format in `technical.md` §4.3, design in `spec.md` §1.4;
 `check.js` fails when it is missing.
 

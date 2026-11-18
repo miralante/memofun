@@ -7,165 +7,176 @@
   "preguntas": [
     {
       "id": "p1",
+      "tipo": "completar",
+      "enunciado": "Completa la definición con la palabra correcta. Elige la palabra de la lista.",
+      "huecos": [
+        { "texto": "Las técnicas de protección son el conjunto de actividades encaminadas a eliminar o disminuir los daños que causan los ___ que no se han podido eliminar.", "respuesta": "riesgos" },
+        { "texto": "Los EPI deben estar en buen ___ y usarse correctamente.", "respuesta": "estado" },
+        { "texto": "Usar protección no es opcional, es ___.", "respuesta": "obligatorio" }
+      ],
+      "banco": ["riesgos", "estado", "obligatorio"]
+    },
+    {
+      "id": "p2",
+      "tipo": "vf",
+      "enunciado": "Escribe V si es verdadero o F si es falso.",
+      "afirmaciones": [
+        { "texto": "La prevención consiste en actuar antes de que ocurra un problema.", "respuesta": "V" },
+        { "texto": "Los EPI protegen a todos los trabajadores a la vez.", "respuesta": "F" },
+        { "texto": "Las señales de seguridad pueden sustituir a la prevención.", "respuesta": "F" },
+        { "texto": "Primero hay que proteger a todos (colectivo) y después a cada persona (individual).", "respuesta": "V" }
+      ]
+    },
+    {
+      "id": "p3",
       "tipo": "seleccion",
-      "enunciado": "¿Cuál es la diferencia entre prevención y protección?",
+      "enunciado": "¿Quién debe garantizar la seguridad en la empresa?",
       "opciones": {
-        "a": "La prevención actúa antes de que ocurra el daño; la protección actúa durante y reduce el daño de los riesgos que no se han podido eliminar.",
-        "b": "La prevención protege a una sola persona y la protección a todas.",
-        "c": "Las dos cosas son lo mismo, pero se llaman de forma distinta."
+        "a": "El empresario.",
+        "b": "El cliente.",
+        "c": "El delegado de prevención."
       },
       "respuesta": "a"
     },
     {
-      "id": "p2",
-      "tipo": "completar",
-      "enunciado": "Completa la frase con la palabra correcta. Elige la palabra de la lista.",
-      "huecos": [
-        { "texto": "Las técnicas de ___ evitan o disminuyen los riesgos laborales.", "respuesta": "prevención" },
-        { "texto": "Las técnicas de ___ reducen el daño de los riesgos que no se han podido eliminar.", "respuesta": "protección" },
-        { "texto": "Las señales de color rojo son de ___.", "respuesta": "prohibición" },
-        { "texto": "Las señales de color amarillo son de ___.", "respuesta": "advertencia" },
-        { "texto": "Las señales de color verde son de ___.", "respuesta": "salvamento" },
-        { "texto": "El ___ es el responsable último de la seguridad de la empresa.", "respuesta": "empresario" }
-      ],
-      "banco": ["prevención", "protección", "prohibición", "advertencia", "salvamento", "empresario"]
-    },
-    {
-      "id": "p3",
-      "tipo": "vf",
-      "enunciado": "Escribe V si es verdadero o F si es falso.",
-      "afirmaciones": [
-        { "texto": "La prevención actúa sobre la persona expuesta y la protección sobre el riesgo o por donde llega.", "respuesta": "V" },
-        { "texto": "Poner señales de seguridad basta para evitar todos los accidentes.", "respuesta": "F" },
-        { "texto": "Los equipos de protección individual son obligatorios cuando quedan riesgos que no se pueden eliminar.", "respuesta": "V" },
-        { "texto": "La señalización evita que un charco en el suelo cause un accidente.", "respuesta": "F" }
-      ]
-    },
-    {
       "id": "p4",
-      "tipo": "unir",
-      "enunciado": "Une cada tipo de riesgo con lo que lo provoca. Escribe el número al lado de la letra.",
-      "izquierda": {
-        "A": "Riesgo físico.",
-        "B": "Riesgo químico.",
-        "C": "Riesgo biológico.",
-        "D": "Riesgo ergonómico.",
-        "E": "Riesgo psicosocial."
-      },
-      "derecha": {
-        "1": "El ruido, el calor y las vibraciones.",
-        "2": "Los virus y las bacterias.",
-        "3": "Las posturas malas y el exceso de peso.",
-        "4": "El estrés y el acoso.",
-        "5": "Los gases y los líquidos peligrosos."
-      },
-      "respuesta": { "A": "1", "B": "5", "C": "2", "D": "3", "E": "4" }
-    },
-    {
-      "id": "p5",
-      "tipo": "unir",
-      "enunciado": "Une cada técnica de prevención con su ejemplo. Escribe el número al lado de la letra.",
-      "izquierda": {
-        "A": "Organización del trabajo.",
-        "B": "Formación e información.",
-        "C": "Señalización.",
-        "D": "Mantenimiento de equipos."
-      },
-      "derecha": {
-        "1": "Aprender a trabajar de forma segura y conocer los riesgos del puesto.",
-        "2": "Tener el lugar limpio y ordenado y hacer pausas si el trabajo es repetitivo.",
-        "3": "Revisar y arreglar las máquinas y las herramientas.",
-        "4": "Usar carteles de «piso mojado» o «uso obligatorio de casco»."
-      },
-      "respuesta": { "A": "2", "B": "1", "C": "4", "D": "3" }
-    },
-    {
-      "id": "p6",
       "tipo": "seleccion",
-      "enunciado": "¿Cuál de estos es uno de los ocho principios básicos de la prevención?",
+      "enunciado": "¿Qué NO debe hacer un trabajador?",
       "opciones": {
-        "a": "Poner una alarma en cada máquina.",
-        "b": "Proteger colectivamente antes que individualmente.",
-        "c": "Hacer un seguro para todo lo que pueda romperse."
+        "a": "Usar siempre los EPI que le den.",
+        "b": "Quitarse el casco porque hace calor.",
+        "c": "Participar en cursos de formación sobre seguridad."
       },
       "respuesta": "b"
     },
     {
-      "id": "p7",
+      "id": "p5",
       "tipo": "seleccion",
-      "enunciado": "¿Qué tipo de protección es una barandilla instalada en el borde de una plataforma alta?",
+      "enunciado": "¿Cuál NO es una técnica de prevención?",
       "opciones": {
-        "a": "Protección colectiva, porque protege a todas las personas de la zona.",
-        "b": "Un equipo de protección individual.",
-        "c": "Una técnica de prevención, porque evita el riesgo."
+        "a": "Señalización.",
+        "b": "Mantenimiento de equipos.",
+        "c": "Ponerse botas de seguridad."
       },
-      "respuesta": "a"
+      "respuesta": "c"
     },
     {
-      "id": "p8",
-      "tipo": "seleccion",
-      "enunciado": "¿De qué tipo son las señales de seguridad de color verde?",
-      "opciones": {
-        "a": "De prohibición.",
-        "b": "De advertencia.",
-        "c": "De obligación.",
-        "d": "De salvamento."
-      },
-      "respuesta": "d"
-    },
-    {
-      "id": "p9",
+      "id": "p6",
       "tipo": "unir",
-      "enunciado": "Une cada equipo de protección individual con la parte del cuerpo que protege.",
+      "enunciado": "Une cada EPI con la parte del cuerpo que protege. Escribe el número al lado de la letra.",
       "izquierda": {
         "A": "El casco.",
         "B": "Las gafas de seguridad.",
         "C": "Los guantes.",
-        "D": "Los tapones para los oídos.",
-        "E": "Las botas de seguridad."
+        "D": "Las botas de seguridad."
       },
       "derecha": {
         "1": "Las manos.",
         "2": "La cabeza.",
         "3": "Los pies.",
-        "4": "Los ojos y la cara.",
-        "5": "El oído."
+        "4": "Los ojos."
       },
-      "respuesta": { "A": "2", "B": "4", "C": "1", "D": "5", "E": "3" }
+      "respuesta": { "A": "2", "B": "4", "C": "1", "D": "3" }
     },
     {
-      "id": "p10",
+      "id": "p7",
       "tipo": "clasificar",
-      "enunciado": "¿Cada medida es una técnica de prevención o una técnica de protección? Marca el tipo.",
-      "categorias": ["Técnica de prevención", "Técnica de protección"],
+      "enunciado": "¿Prevención o protección? Marca el tipo.",
+      "categorias": ["Prevención", "Protección"],
       "elementos": [
-        { "texto": "Ordenar el taller y retirar las herramientas que estorban.", "respuesta": "Técnica de prevención" },
-        { "texto": "Repartir cascos y tapones porque el ruido de las máquinas no se puede eliminar.", "respuesta": "Técnica de protección" },
-        { "texto": "Enseñar al personal cómo hacer el trabajo sin riesgos.", "respuesta": "Técnica de prevención" },
-        { "texto": "Instalar una barandilla en el borde de la plataforma de trabajo.", "respuesta": "Técnica de protección" }
+        { "texto": "Tener el lugar de trabajo limpio y ordenado.", "respuesta": "Prevención" },
+        { "texto": "Ponerse unas gafas de seguridad.", "respuesta": "Protección" },
+        { "texto": "Recibir formación para trabajar de forma segura.", "respuesta": "Prevención" },
+        { "texto": "Usar tapones para los oídos en un taller con ruido.", "respuesta": "Protección" }
       ]
     },
     {
-      "id": "p11",
-      "tipo": "seleccion",
-      "enunciado": "¿Quién se encarga de la prevención de riesgos en la empresa?",
-      "opciones": {
-        "a": "Solo el empresario, que es el responsable legal.",
-        "b": "El empresario, el trabajador, el delegado de prevención y el servicio de prevención.",
-        "c": "Solo el servicio de prevención, que es el equipo técnico."
+      "id": "p8",
+      "tipo": "clasificar",
+      "enunciado": "¿Colectiva o individual? Marca el tipo.",
+      "categorias": ["Colectiva", "Individual"],
+      "elementos": [
+        { "texto": "Las barandillas en una zona alta.", "respuesta": "Colectiva" },
+        { "texto": "La ropa reflectante.", "respuesta": "Individual" },
+        { "texto": "Los extintores y las salidas de emergencia.", "respuesta": "Colectiva" },
+        { "texto": "La mascarilla.", "respuesta": "Individual" }
+      ]
+    },
+    {
+      "id": "p9",
+      "tipo": "unir",
+      "enunciado": "Une cada frase con el principio básico de la prevención que le toca. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Si algo es peligroso, se elimina.",
+        "B": "Si no se puede eliminar, se estudia cómo reducirlo.",
+        "C": "Usar máquinas menos ruidosas.",
+        "D": "Evitar posturas incómodas o tareas repetitivas.",
+        "E": "Organizar bien el trabajo."
       },
-      "respuesta": "b"
+      "derecha": {
+        "1": "Evitar los riesgos.",
+        "2": "Evaluar los riesgos.",
+        "3": "Combatir los riesgos desde el origen.",
+        "4": "Adaptar el trabajo a la persona.",
+        "5": "Planificar la prevención."
+      },
+      "respuesta": { "A": "1", "B": "2", "C": "3", "D": "4", "E": "5" }
+    },
+    {
+      "id": "p10",
+      "tipo": "unir",
+      "enunciado": "Relaciona cada tipo de riesgo con su prevención. Escribe el número al lado de la letra.",
+      "izquierda": {
+        "A": "Físico (ruido, calor, vibraciones).",
+        "B": "Biológico (virus, bacterias).",
+        "C": "Ergonómico (posturas malas, peso excesivo).",
+        "D": "Psicosocial (estrés, acoso)."
+      },
+      "derecha": {
+        "1": "Higiene, guantes y vacunas.",
+        "2": "Buen ambiente y apoyo psicológico.",
+        "3": "Aislamiento, ventilación y tapones.",
+        "4": "Sillas adecuadas, pausas y formación."
+      },
+      "respuesta": { "A": "3", "B": "1", "C": "4", "D": "2" }
+    },
+    {
+      "id": "p11",
+      "tipo": "clasificar",
+      "enunciado": "¿Qué tipo de señal es? Marca el tipo: prohibición, advertencia, obligación o salvamento.",
+      "categorias": ["Prohibición", "Advertencia", "Obligación", "Salvamento"],
+      "elementos": [
+        { "texto": "«Peligro eléctrico».", "respuesta": "Advertencia" },
+        { "texto": "«No pasar».", "respuesta": "Prohibición" },
+        { "texto": "«Protección obligatoria del oído».", "respuesta": "Obligación" },
+        { "texto": "«Botiquín».", "respuesta": "Salvamento" }
+      ]
     },
     {
       "id": "p12",
-      "tipo": "seleccion",
-      "enunciado": "¿En qué consiste evaluar los riesgos de un puesto de trabajo?",
-      "opciones": {
-        "a": "En detectar un peligro, analizarlo para conocer su gravedad y decidir qué medidas son necesarias.",
-        "b": "En dar más dinero a la empresa para que compre material.",
-        "c": "En repartir el trabajo entre más personas."
-      },
-      "respuesta": "a"
+      "tipo": "clasificar",
+      "enunciado": "Lee cada situación y marca el tipo de riesgo.",
+      "categorias": ["Físico", "Químico", "Biológico", "Ergonómico", "Psicosocial"],
+      "elementos": [
+        { "texto": "Una cocinera trabaja muchas horas con mucho calor.", "respuesta": "Físico" },
+        { "texto": "Un limpiador usa líquidos peligrosos en un sitio sin ventilación.", "respuesta": "Químico" },
+        { "texto": "Una auxiliar de enfermería puede contagiarse de un virus.", "respuesta": "Biológico" },
+        { "texto": "Un administrativo pasa todo el día sentado en una silla incómoda.", "respuesta": "Ergonómico" },
+        { "texto": "Una dependiente sufre acoso de un compañero.", "respuesta": "Psicosocial" }
+      ]
+    },
+    {
+      "id": "p13",
+      "tipo": "clasificar",
+      "enunciado": "Elige la medida de prevención para cada situación. El tipo de riesgo ya está escrito.",
+      "categorias": ["Tapones", "Mascarilla y guantes", "Vacunas", "Pausas", "Buen ambiente"],
+      "elementos": [
+        { "texto": "Hay mucho ruido en el taller (riesgo físico).", "respuesta": "Tapones" },
+        { "texto": "Se trabaja con gases peligrosos (riesgo químico).", "respuesta": "Mascarilla y guantes" },
+        { "texto": "Se atiende a personas con virus (riesgo biológico).", "respuesta": "Vacunas" },
+        { "texto": "Se hacen tareas repetitivas todo el día (riesgo ergonómico).", "respuesta": "Pausas" },
+        { "texto": "Hay mucho estrés en el trabajo (riesgo psicosocial).", "respuesta": "Buen ambiente" }
+      ]
     }
   ]
 }

@@ -734,7 +734,7 @@ la asignatura y siguen las subsecciones numeradas del libro:
 - `tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json` (§2.5) — 4 tarjetas
 - `tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva.json` (§3a) — 6 tarjetas
 - `tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json` (§3b) — 10 tarjetas
-- `tema-2-tecnicas-prevencion-proteccion/autoevaluacion.json` — 12 preguntas (5 tipos)
+- `tema-2-tecnicas-prevencion-proteccion/autoevaluacion.json` — 13 preguntas (5 tipos), sacadas de la hoja de autoevaluación del centro (`D:/img_memofun/ipp/tema2/autoevaluacion_pag1-3.jpeg`): sus 13 ejercicios, uno por pregunta, con las respuestas correctas del libro (no las del alumno a lápiz).
 
 **Total tema 2:** 9 barajas, 60 tarjetas + 1 autoevaluación. La entrada
 `selfTest` está en `fpb-sa-1-ipe-t2-definicion` (una sola por tema).

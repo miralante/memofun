@@ -364,7 +364,9 @@ Question types (`tipo`):
 Rules:
 
 - `id` is unique within the file.
-- **8 to 12 questions** per topic, mixing at least two types.
+- **8 to 15 questions** per topic, mixing at least two types. The upper
+  limit matches the card limit per deck (§4.1): a test can cover one
+  exercise per section of the topic.
 - Every question has exactly one correct answer; no "it depends".
 - Easy-read text (`spec.md` §2.4); plain text, no `<mark>` or HTML.
 - The screen that shows it is `tools/autoevaluacion/` (it reads the JSON

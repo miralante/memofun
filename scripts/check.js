@@ -56,7 +56,7 @@
       artifacts). Warns at 20 MB (still legal but worth a nudge) and
       fails at 25 MB (Cloudflare will reject the deploy).
   13. Every topic (topicGroup) with decks has an autoevaluacion.json in
-      its folder: 8-12 questions, mixed types, valid answers
+      its folder: 8-15 questions, mixed types, valid answers
       (spec.md §1.4, technical.md §4.3).
    Output: list of failures with the exact file. Exit code 1 if there
    are any, "OK (N checks)" otherwise.
@@ -854,8 +854,8 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
       failures.push(label + ': "preguntas" must be an array');
       return;
     }
-    if (data.preguntas.length < 8 || data.preguntas.length > 12) {
-      failures.push(label + ': has ' + data.preguntas.length + ' questions — must be 8 to 12 (technical.md §4.3)');
+    if (data.preguntas.length < 8 || data.preguntas.length > 15) {
+      failures.push(label + ': has ' + data.preguntas.length + ' questions — must be 8 to 15 (technical.md §4.3)');
     }
 
     var ids = {};

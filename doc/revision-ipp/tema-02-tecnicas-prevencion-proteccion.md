@@ -320,10 +320,53 @@ ahora hay una baraja por apartado, sin mezclar contenidos de dos epígrafes.
 | 2.5 ¿Quién se encarga de la prevención? (pag21) | `.../responsables-prevencion.json` | 4 tarjetas |
 | 3a Protección colectiva (pag22) | `.../proteccion-colectiva.json` | 6 tarjetas |
 | 3b Protección individual / EPI (pag23) | `.../equipos-proteccion-individual.json` | 10 tarjetas |
-| Ejercicios de repaso (pag24-26) | `.../autoevaluacion.json` | 12 preguntas (5 tipos) |
+| Autoevaluación del centro (hoja del alumno, 3 fotos) | `.../autoevaluacion.json` | 13 preguntas (5 tipos) |
 
-**Total tema 2:** 9 barajas (60 tarjetas) + 1 autoevaluación (12 preguntas).
+**Total tema 2:** 9 barajas (60 tarjetas) + 1 autoevaluación (13 preguntas).
 La entrada con `selfTest` es `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
+
+### La autoevaluación (hoja del cuaderno del alumno)
+
+La prueba ya no sale de los ejercicios del libro (pag24-26), sino de la **hoja
+de autoevaluación del centro** fotografiada en
+`D:/img_memofun/ipp/tema2/autoevaluacion_pag1.jpeg` … `autoevaluacion_pag3.jpeg`
+(Colegio Areteia, 1º CFGB, «Autoevaluación TEMA 2»): 13 ejercicios.
+
+El techo de `doc/es/tecnico.md` §4.3 se subió de 12 a **15 preguntas** (el
+mismo máximo que las tarjetas por baraja), así que **cada ejercicio de la hoja
+es una pregunta**, sin fundir ninguno:
+
+| Ejercicio de la hoja | Pregunta | Tipo en la app |
+| --- | --- | --- |
+| 1. Completa la definición | p1 | `completar` (3 huecos, con banco de palabras) |
+| 2. Verdadero o falso | p2 | `vf` (4 afirmaciones) |
+| 3. ¿Quién garantiza la seguridad? | p3 | `seleccion` |
+| 4. ¿Qué NO debe hacer un trabajador? | p4 | `seleccion` |
+| 5. ¿Cuál NO es una técnica de prevención? | p5 | `seleccion` |
+| 6. Une cada EPI con la parte del cuerpo | p6 | `unir` (4 pares) |
+| 7. ¿Prevención o protección? | p7 | `clasificar` (4 elementos) |
+| 8. ¿Colectiva o individual? | p8 | `clasificar` (4 elementos) |
+| 9. Completa con el principio correcto | p9 | `unir` (5 pares, en vez de escribir la palabra) |
+| 10. Relaciona el riesgo con su prevención | p10 | `unir` (4 pares, cuadro de la pag20) |
+| 11. ¿Qué tipo de señal es? | p11 | `clasificar` (4 elementos) |
+| 12. Marca el tipo de riesgo | p12 | `clasificar` (5 elementos) |
+| 13. Elige la medida de prevención | p13 | `clasificar` (5 elementos, palabras clave de la hoja) |
+
+- **El ejercicio 10 y el 13 son preguntas distintas.** El 10 empareja los cuatro
+  tipos de riesgo con su prevención (higiene, guantes y vacunas / buen ambiente
+  y apoyo psicológico / aislamiento, ventilación y tapones / sillas
+  adecuadas, pausas y formación). El 13 pide la medida para cada una de sus
+  cinco situaciones, con las palabras clave de la hoja: tapones, mascarilla y
+  guantes, vacunas, pausas y buen ambiente.
+- **Las respuestas a lápiz de la hoja son del alumno y no se han usado**: en el
+  ejercicio 7 están invertidas (dice «protección» donde el libro dice
+  prevención, y al revés). El test marca las correctas.
+- El ejercicio 9 usa las fórmulas literales de la pag19 (evitar, evaluar,
+  combatir desde el origen, adaptar, planificar).
+- Comprobado en el navegador: con las 13 respuestas correctas la pantalla dice
+  «Has acertado 13 de 13. ¡Muy bien! Lo tienes todo.»; con un error solo se
+  marca esa pregunta (✘ en la elegida y ✔ en la correcta) y aparece el botón
+  «Corregir solo los errores».
 
 Antes de esta revisión eran 7 barajas: `tecnicas-basicas-prevencion` mezclaba
 §2 con §2.1 (13 tarjetas) y `responsables-prevencion` mezclaba §2.4 con §2.5

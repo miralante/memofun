@@ -388,7 +388,9 @@ Tipos de pregunta (`tipo`):
 Reglas:
 
 - `id` único dentro del fichero.
-- Entre **8 y 12 preguntas** por tema, combinando al menos dos tipos.
+- Entre **8 y 15 preguntas** por tema, combinando al menos dos tipos.
+  El techo de 15 coincide con el de tarjetas por baraja (§4.1): un test
+  puede recoger un ejercicio por cada apartado del tema.
 - Cada pregunta tiene una única respuesta correcta; nada de
   "depende".
 - Texto en Lectura Fácil (`spec.md` §2.4); sin `<mark>` ni HTML, es
