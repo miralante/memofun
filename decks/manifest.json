@@ -1382,7 +1382,7 @@
   },
   {
     "id": "fpb-sa-1-ipe-t2-definicion",
-    "topic": "Técnicas de prevención y protección: definición",
+    "topic": "Prevención y protección de riesgos",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
@@ -1394,13 +1394,24 @@
   },
   {
     "id": "fpb-sa-1-ipe-t2-basicas",
-    "topic": "Técnicas básicas y principios de la prevención",
+    "topic": "Técnicas básicas de prevención",
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "amount": 13,
+    "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-basicas-prevencion.json",
     "icon": "🛠️",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-principios",
+    "topic": "Los 8 principios básicos de la prevención",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "amount": 8,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/principios-basicos.json",
+    "icon": "⚖️",
     "topicGroup": "Tema 2 · Técnicas de prevención y protección"
   },
   {
@@ -1420,9 +1431,20 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "amount": 5,
+    "amount": 14,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad.json",
     "icon": "🚸",
+    "topicGroup": "Tema 2 · Técnicas de prevención y protección"
+  },
+  {
+    "id": "fpb-sa-1-ipe-t2-buenas-practicas",
+    "topic": "Buenas prácticas para prevenir riesgos",
+    "level": "principiante",
+    "course": "1º de FP Básica Servicios Administrativos",
+    "subject": "Itinerario Personal para la Empleabilidad",
+    "amount": 1,
+    "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/buenas-practicas.json",
+    "icon": "🧹",
     "topicGroup": "Tema 2 · Técnicas de prevención y protección"
   },
   {
@@ -1431,7 +1453,7 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "amount": 5,
+    "amount": 4,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json",
     "icon": "👷",
     "topicGroup": "Tema 2 · Técnicas de prevención y protección"
@@ -1453,7 +1475,7 @@
     "level": "principiante",
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
-    "amount": 9,
+    "amount": 10,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json",
     "icon": "🥽",
     "topicGroup": "Tema 2 · Técnicas de prevención y protección"

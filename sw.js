@@ -10,7 +10,7 @@
    deck a student already opened keeps working offline.
    ============================================================ */
 
-var VERSION = 'memofun-v209';
+var VERSION = 'memofun-v212';
 
 var FILES = [
   './',
@@ -76,8 +76,10 @@ var FILES = [
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-1-seguridad-y-salud/carga-de-trabajo-y-ergonomia.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tecnicas-basicas-prevencion.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/principios-basicos.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/tipos-de-riesgo.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad.json',
+  './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/buenas-practicas.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva.json',
   './decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json',

@@ -767,7 +767,20 @@ var SINONIMOS = mergeMaps([
   biologico: ['virus', 'bacterias', 'microorganismo', 'germenes', 'microbios', 'contagio'],
   ergonomico: ['dolor', 'espalda', 'cuello', 'posturas', 'postura', 'peso', 'cargar', 'cuerpo', 'agachado'],
   psicosocial: ['estres', 'agotamiento', 'acoso', 'ambiente', 'emocional', 'ansiedad', 'miedo', 'mental'],
-  organizacion: ['ordena', 'ordenado', 'organiza', 'reparte', 'repartir', 'pausas', 'limpio', 'coordina']
+  organizacion: ['ordena', 'ordenado', 'organiza', 'reparte', 'repartir', 'pausas', 'limpio', 'coordina'],
+  /* Las nueve señales concretas del recuadro de la página 20 (noviembre 2026):
+   * el ancla de cada tarjeta es el pictograma que se ve en la señal, no el
+   * nombre de la señal (que es lo que se pregunta). */
+  inflamables: ['llama', 'llamas', 'prenden', 'arden', 'fuego'],
+  caida: ['cayendo', 'caer', 'cae', 'desnivel', 'vacio', 'altura'],
+  fuego: ['llama', 'llamas', 'arden', 'mechero'],
+  encender: ['llama', 'mechero', 'prender', 'fuego'],
+  tocar: ['mano', 'manos', 'dedos'],
+  obligatoria: ['obligatorio', 'obligatorias', 'hay que', 'implica'],
+  oido: ['orejeras', 'oidos', 'ruido', 'sonido', 'tapones'],
+  manguera: ['carrete', 'tubo', 'rollo', 'enrollado'],
+  incendios: ['fuego', 'llamas', 'arden'],
+  telefono: ['llamar', 'llamada', 'auricular', 'marcar']
   },
   {
   /* Tema 3 de Itinerario Personal para la Empleabilidad (IPP): técnicas

@@ -726,20 +726,41 @@ Revisado en 2026-10 contra las 12 páginas del módulo (`pag15`–`pag26`) de
 la asignatura y siguen las subsecciones numeradas del libro:
 
 - `tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json` (§1) — 7 tarjetas
-- `tema-2-tecnicas-prevencion-proteccion/tecnicas-basicas-prevencion.json` (§2.0 + §2.1) — 13 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/tecnicas-basicas-prevencion.json` (§2) — 5 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/principios-basicos.json` (§2.1) — 8 tarjetas
 - `tema-2-tecnicas-prevencion-proteccion/tipos-de-riesgo.json` (§2.2) — 5 tarjetas
-- `tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad.json` (§2.3) — 5 tarjetas
-- `tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json` (§2.4 + §2.5) — 5 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad.json` (§2.3) — 14 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/buenas-practicas.json` (§2.4) — 1 tarjeta
+- `tema-2-tecnicas-prevencion-proteccion/responsables-prevencion.json` (§2.5) — 4 tarjetas
 - `tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva.json` (§3a) — 6 tarjetas
-- `tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json` (§3b) — 9 tarjetas
+- `tema-2-tecnicas-prevencion-proteccion/equipos-proteccion-individual.json` (§3b) — 10 tarjetas
 - `tema-2-tecnicas-prevencion-proteccion/autoevaluacion.json` — 12 preguntas (5 tipos)
 
-**Total tema 2:** 7 barajas, 50 tarjetas + 1 autoevaluación. La entrada
+**Total tema 2:** 9 barajas, 60 tarjetas + 1 autoevaluación. La entrada
 `selfTest` está en `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
+
+Desde noviembre de 2026 hay **una baraja por apartado y subapartado** del
+libro (antes `tecnicas-basicas-prevencion` mezclaba §2 con §2.1 y
+`responsables-prevencion` mezclaba §2.4 con §2.5). El reparto es:
+
+| Apartado del libro | Baraja | Tarjetas |
+| --- | --- | --- |
+| 1. Prevención y protección (pag17) | `prevencion-y-proteccion-definicion.json` | 7 |
+| 2. Técnicas de prevención (pag18) | `tecnicas-basicas-prevencion.json` | 5 |
+| 2.1 Los 8 principios (pag19) | `principios-basicos.json` | 8 |
+| 2.2 Tipos de riesgo (pag20) | `tipos-de-riesgo.json` | 5 |
+| 2.3 Señalización (pag20) | `senalizacion-seguridad.json` | 14 |
+| 2.4 Buenas prácticas (pag21) | `buenas-practicas.json` | 1 |
+| 2.5 Quién se encarga (pag21) | `responsables-prevencion.json` | 4 |
+| 3a Protección colectiva (pag22) | `proteccion-colectiva.json` | 6 |
+| 3b Protección individual (pag23) | `equipos-proteccion-individual.json` | 9 |
+
+El libro solo numera 2.1, 2.2 y 2.3; el «2.0» que aparece en la documentación
+anterior era numeración inventada por la app y ya no se usa.
 
 ### Revisión de anclas (octubre 2026)
 
-Las 50 tarjetas del tema 2 se repasaron contra la regla del ancla
+Las 60 tarjetas del tema 2 se repasaron contra la regla del ancla
 (`doc/es/guia-crear-elementos.md` §2.3): el anverso tiene que traer una
 palabra que devuelva el término de la respuesta, sin regalar el término.
 
@@ -748,14 +769,14 @@ palabra que devuelva el término de la respuesta, sin regalar el término.
   tenía ancla o traía frases de más de 12 palabras.
 - **Anclas nuevas** como «cada uno con lo suyo» (EPI), «a salvo», «localizar»
   (identificar), «juzga su gravedad» (evaluar), «tapar el peligro»
-  (control), «antes» / «después» (prevención / protección), «la cabeza»,
+  (control), «antes» / «durante» (prevención / protección), «la cabeza»,
   «las manos», «los pulmones», «los pies», «el ruido» (EPI), «toda la zona
   a la vez» (colectiva), «el botiquín» (salvamento), «el segundo principio»,
   «la máquina que lo hace» (origen) o «la familia de peligros» (los cinco
   tipos de riesgo).
 - **Tabla de anclas** en `doc/revision-ipp/tema-02-tecnicas-prevencion-proteccion.md`.
 - **Auditor:** `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion`
-  → 50/50 con ancla, 0 R1/R2/R3. El vocabulario de este tema se añadió al
+  → 60/60 con ancla, 0 R1/R2/R3. El vocabulario de este tema se añadió al
   mapa de sinónimos de `scripts/audit-deck-anchors.js`.
 
 ### Conceptos y dónde se han gastado ya
@@ -767,13 +788,16 @@ palabra que devuelva el término de la respuesta, sin regalar el término.
 - Evaluar los riesgos: saber qué tan graves son los peligros identificados.
 - Adoptar medidas de control: decidir qué hacer tras evaluar.
 - Técnicas de prevención: actuar antes de que ocurra el problema.
-- Técnicas de protección: reducir el daño de los riesgos no eliminados.
+- Técnicas de protección: actuar durante, mientras el riesgo está presente, para reducir el daño de los riesgos no eliminados.
 - Diferencia prevención/protección: la primera sobre la persona, la segunda sobre el riesgo o el medio.
 
-#### §2.0 y §2.1 — solo en `tecnicas-basicas-prevencion.json`
+#### §2 — solo en `tecnicas-basicas-prevencion.json`
 
 - Prevención de riesgos: definición, actuar antes.
 - 4 técnicas básicas: organización del trabajo, formación e información, señalización, mantenimiento de equipos.
+
+#### §2.1 — solo en `principios-basicos.json`
+
 - 8 principios básicos de la prevención (Ley de Protección de Riesgos Laborales):
   1. Evitar los riesgos
   2. Evaluar los riesgos
@@ -792,10 +816,17 @@ palabra que devuelva el término de la respuesta, sin regalar el término.
 
 - 4 tipos de señales: prohibición (rojo), advertencia (amarillo), obligación (azul) y salvamento (verde).
 - La señalización avisa pero **no sustituye** a la prevención.
+- 9 señales concretas del recuadro de la página 20, una por tarjeta:
+  materiales inflamables, caída a distinto nivel, prohibido fumar y encender
+  fuego, no tocar, vía obligatoria para peatones, protección obligatoria del
+  oído, extintor, manguera contra incendios y teléfono de salvamento.
 
-#### §2.4 y §2.5 — solo en `responsables-prevencion.json`
+#### §2.4 — solo en `buenas-practicas.json`
 
-- Buenas prácticas para prevenir riesgos: zona limpia, usar EPI, seguir instrucciones, informar, formación.
+- Buenas prácticas para prevenir riesgos: zona limpia, usar EPI, seguir instrucciones, no usar máquinas que no conoces, informar de lo peligroso y participar en la formación.
+
+#### §2.5 — solo en `responsables-prevencion.json`
+
 - El empresario: garante de la seguridad en la empresa.
 - El trabajador: responsable de cumplir las normas.
 - Delegado de prevención: representante de los trabajadores.
@@ -807,7 +838,12 @@ palabra que devuelva el término de la respuesta, sin regalar el término.
 
 #### §3b — solo en `equipos-proteccion-individual.json`
 
-- EPI: Equipo de Protección Individual, **obligatorio** cuando el riesgo no se puede eliminar.
+- **Qué significa EPI:** las tres letras son *Equipo de Protección Individual*
+  (la primera, la ropa que te dan; la segunda, lo que esa ropa hace por ti;
+  la tercera, que es para una sola persona).
+- **Protección individual:** protege a una sola persona y a cada persona por
+  separado; nunca a dos a la vez.
+- EPI: **obligatorio** cuando el riesgo no se puede eliminar.
 - 7 EPI del módulo: casco, gafas de seguridad, guantes, mascarilla o filtro,
   botas de seguridad, ropa reflectante, tapones y cascos para los oídos.
   - Ojo: el módulo dice textualmente "salvavidas" para el chaleco cuando la
