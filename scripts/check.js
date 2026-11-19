@@ -58,6 +58,11 @@
   13. Every topic (topicGroup) with decks has an autoevaluacion.json in
       its folder: 8-15 questions, mixed types, valid answers
       (spec.md §1.4, technical.md §4.3).
+  14. Draft topics: every deck of a topic agrees on the optional
+      "draft": true flag (a topic is either a draft or it isn't), and a
+      draft topic declares no "selfTest" and owns no autoevaluacion.json
+      — a draft is not signed off yet, so it has no auto-assessment
+      (technical.md §4.1).
    Output: list of failures with the exact file. Exit code 1 if there
    are any, "OK (N checks)" otherwise.
    ============================================================ */
@@ -814,6 +819,7 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
   var TYPES = ['seleccion', 'vf', 'completar', 'unir', 'clasificar'];
   var folderOf = {}; // topicGroup -> folder under decks/, from the first deck
   var selfTestOf = {}; // topicGroup -> true when the topic declares a test
+  var draftOf = {}; // topicGroup -> true when the topic is still a draft
 
   entries.forEach(function (entry) {
     if (typeof entry.topicGroup !== 'string' || !entry.topicGroup.trim()) return;
@@ -822,6 +828,7 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
       folderOf[entry.topicGroup] = path.posix.dirname(entry.file.split(path.sep).join('/'));
     }
     if (entry.selfTest === true) selfTestOf[entry.topicGroup] = true;
+    if (entry.draft === true) draftOf[entry.topicGroup] = true;
   });
 
   function isText(v) { return typeof v === 'string' && v.trim() !== ''; }
@@ -968,11 +975,57 @@ inlineScriptHits.forEach(function (hit) { failures.push(hit); });
       var dirName = path.posix.dirname(folder);
       var group = groupOfFolder[dirName];
       if (!group || !selfTestOf[group]) {
-        failures.push('decks/' + folder +
-          ': orphan self-assessment — its topic does not declare "selfTest": true in decks/manifest.json');
+        if (group && draftOf[group]) {
+          failures.push('decks/' + folder +
+            ': a draft topic ("draft": true) has no self-assessment — delete the file or take the topic out of draft');
+        } else {
+          failures.push('decks/' + folder +
+            ': orphan self-assessment — its topic does not declare "selfTest": true in decks/manifest.json');
+        }
       }
     });
   })(path.join(ROOT, 'decks'));
+})();
+
+/* --- 14. Draft topics (technical.md §4.1) ---
+   A topic whose deck entries declare "draft": true is still being
+   written: the home screen shows it locked, with the "Borrador" badge
+   instead of a link. Two invariants keep that state honest:
+     • every deck of a topic agrees on the flag — a topic is either a
+       draft or it is not, never half of one;
+     • a draft topic declares no "selfTest": a draft is not signed off,
+       so it has no auto-assessment yet (the file side is checked in
+       §13, which refuses a self-assessment file in a draft topic). */
+(function checkDraftTopics() {
+  var manifestPath = path.join(ROOT, 'decks', 'manifest.json');
+  var entries;
+  try {
+    entries = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  } catch (e) {
+    return; // already reported by §8
+  }
+  if (!Array.isArray(entries)) return;
+  checks += 1;
+
+  var draftOf = {}; // topicGroup -> true when the topic is a draft
+  var mixed = {}; // topicGroup -> true when its decks disagree
+
+  entries.forEach(function (entry) {
+    if (typeof entry.topicGroup !== 'string' || !entry.topicGroup.trim()) return;
+    var group = entry.topicGroup;
+    var isDraft = entry.draft === true;
+    if (draftOf[group] === undefined) draftOf[group] = isDraft;
+    if (draftOf[group] !== isDraft) mixed[group] = true;
+    if (isDraft && entry.selfTest === true) {
+      failures.push('decks/manifest.json: topic "' + group + '" is a draft ("draft": true) but its entry "' +
+        entry.id + '" declares "selfTest": true — a draft topic has no auto-assessment');
+    }
+  });
+
+  Object.keys(mixed).forEach(function (group) {
+    failures.push('decks/manifest.json: topic "' + group +
+      '" mixes draft and non-draft entries — a topic is either a draft or it is not');
+  });
 })();
 
 /* --- Result --- */

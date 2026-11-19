@@ -535,6 +535,11 @@ not AI-bulk-built.
    fails on that prefix and on a `topicGroup` reused under two
    subjects. Deck path and manifest `file` follow the same
    convention: `decks/<slug>/topic-<n>-<topic>/<seccion>.json`.
+   If the topic is not signed off yet, mark **every** one of its deck
+   entries with `"draft": true`: the topic's card then ships locked
+   with the "Borrador" badge — the same badge shape as "Próximamente"
+   — and the topic has no self-assessment. `scripts/check.js` §14
+   fails when a topic's entries disagree about the flag.
 6. Tell the user what you generated and where, and that you've
    applied the review checklist yourself
    (`doc/es/guia-interna-crear-barajas.md` §4) — but if the topic
@@ -584,7 +589,9 @@ not AI-bulk-built.
    de ese tema. Formato y reglas: `doc/es/tecnico.md` §4.3; diseño:
    `doc/es/spec.md` §1.4. `scripts/check.js` §13 valida los tests declarados
    y avisa de los ficheros sueltos. No inventes autoevaluaciones de temas
-   cuyo material no esté subido.
+   cuyo material no esté subido. **Un tema en borrador (`"draft": true`) no
+   tiene autoevaluación**: ni `"selfTest": true` ni `autoevaluacion.json`
+   (`scripts/check.js` §14).
 9. **Per-card image — always a thumbnail, on every card by
    default.** Every card in a deck should carry one `imagen` field
    with a photo/illustration as visual support (schema:

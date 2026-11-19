@@ -237,6 +237,35 @@ two levels). `check.js` §8 fails on that prefix, and on a `topicGroup`
 reused under two subjects. The file path follows the same convention:
 `decks/<slug>/topic-<n>-<topic>/<seccion>.json`.
 
+**Optional `draft`** — marks a topic as a **draft**: the teacher has not
+signed it off yet, so it is not published. It is declared on **every** deck
+entry of the topic (`check.js` rule 14 fails when some entries declare it
+and others do not):
+
+```json
+{ "id": "fpb-sa-1-ipe-t3-concepto", "topic": "Concepto de primeros auxilios",
+  "level": "principiante", "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+  "draft": true,
+  "amount": 10, "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json",
+  "icon": "🚑" }
+```
+
+On the home screen, a draft topic shows up as a **locked** card — a `<div>`
+with no `href` — carrying the **"Draft"** badge, in the very same shape as
+the "Coming soon" badge of the unpublished courses and subjects (same CSS
+class, `.deck-soon-badge`). Only the card is locked, not the route:
+`?course=&subject=&topicGroup=` still resolves, and the `/dev/` mirror
+(`data-access="full"`) opens every topic, drafts included, because it is the
+complete reference of what exists.
+
+A draft topic has **no self-assessment**: it declares no `"selfTest": true`
+and owns no `autoevaluacion.json` in its folder (`check.js` rule 13 flags
+the stray file, rule 14 the `selfTest` on a draft). To publish a topic:
+remove the `"draft": true` from its entries, add `"selfTest": true` to one
+of them and write its `autoevaluacion.json` (§4.3).
+
 ### 4.1 Home screen navigation (courses/subjects/topics)
 
 Driven entirely by `?course=&subject=&topicGroup=` query params on
@@ -276,6 +305,12 @@ back/forward and bookmarking work for free:
   that is not declared is still rendered, at the end and in manifest
   order: adding a deck can never make a subject disappear from its
   course.
+- **Topics in draft** (`"draft": true` on their deck entries): a topic the
+  teacher has not signed off yet is not a link but a locked card — a `<div>`
+  with no `href` — carrying the **"Draft"** badge, in the same shape as the
+  "Coming soon" one (same CSS class). Published topics keep their link. As
+  with courses and subjects, it is the card that is locked, not the route:
+  the `/dev/` mirror opens every topic, drafts included.
 
 This adds levels to the flow described in §5 rule 10 *only* for
 decks that opt into `course`/`subject` (and `topicGroup`) — flat
@@ -330,7 +365,9 @@ opt to swap the invite card for the real deck link — see
 
 Every topic with a `topicGroup` has, in the same folder as its decks, an
 `autoevaluacion.json` file that closes the topic (see `spec.md` §1.4).
-It is not listed in `manifest.json`: it is a test, not a deck.
+It is not listed in `manifest.json`: it is a test, not a deck. The only
+exception is a topic **in draft** (`"draft": true`): a draft is not
+published, so it has no self-assessment either.
 
 ```json
 {

@@ -171,6 +171,11 @@ Esta es la regla didáctica más distintiva del proyecto.
 > con las asignaturas que tienen barajas escritas pero todavía no
 > publicadas (lengua castellana, ciencias sociales y tratamiento
 > informático de datos del 1º; todas las del 2º).
+>
+> Dentro de las dos asignaturas publicadas, los temas que el profesor
+> todavía no ha dado por bueno (del itinerario, los temas 3 a 8; de
+> técnicas administrativas, los temas 2 a 6) salen con la insignia
+> «Borrador» y sin enlace, y no tienen autoevaluación.
 
 #### 2.2.4 FP GM — Gestión administrativa (1–2)
 

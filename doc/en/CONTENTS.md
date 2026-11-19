@@ -168,6 +168,11 @@ The card front is **always a clue** (see
 > with the subjects whose decks are written but not published yet (lengua
 > castellana, ciencias sociales and tratamiento informático de datos of
 > the 1st year; every subject of the 2nd year).
+>
+> Inside the two published subjects, the topics the teacher has not signed
+> off yet (themes 3 to 8 of the itinerary; themes 2 to 6 of técnicas
+> administrativas) ship with a "Draft" badge and no link, and have no
+> self-assessment.
 
 #### 2.2.4 FP GM — Gestión administrativa (1–2)
 

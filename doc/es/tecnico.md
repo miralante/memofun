@@ -252,6 +252,35 @@ niveles). La regla 8 de `check.js` falla si un `topic` que declara
 aparece bajo dos asignaturas distintas. La ruta del fichero sigue la
 misma convención: `decks/<slug>/tema-<n>-<tema>/<seccion>.json`.
 
+**`draft` (opcional)** — marca un tema como **borrador**: el profesor
+todavía no lo ha dado por bueno, así que no está publicado. Se declara
+en **todas** las entradas de baraja del tema (`scripts/check.js` regla 14
+falla si unas entradas lo declaran y otras no):
+
+```json
+{ "id": "fpb-sa-1-ipe-t3-concepto", "topic": "Concepto de primeros auxilios",
+  "level": "principiante", "course": "1º de FP Básica Servicios Administrativos",
+  "subject": "Itinerario Personal para la Empleabilidad",
+  "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+  "draft": true,
+  "amount": 10, "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json",
+  "icon": "🚑" }
+```
+
+En la pantalla de inicio, la tarjeta del tema en borrador sale **bloqueada**
+—un `<div>` sin `href`— con la insignia **"Borrador"**, exactamente con la
+misma forma que la insignia "Próximamente" de los cursos y asignaturas sin
+publicar (misma clase CSS, `.deck-soon-badge`). Solo se bloquea la tarjeta,
+no la ruta: `?course=&subject=&topicGroup=` sigue resolviendo, y el espejo
+`/dev/` (`data-access="full"`) abre todos los temas, borradores incluidos,
+porque es la referencia completa de lo que existe.
+
+Un tema en borrador **no tiene autoevaluación**: no declara `"selfTest": true`
+ni deja un `autoevaluacion.json` en su carpeta (la regla 13 de `check.js`
+avisa del fichero suelto y la regla 14 del `selfTest` en un borrador). Para
+publicar un tema: quita el `"draft": true` de sus entradas, añade
+`"selfTest": true` a una de ellas y crea su `autoevaluacion.json` (§4.3).
+
 ### 4.1 Navegación de la pantalla de inicio (cursos/asignaturas/topics)
 
 Todo se controla con los parámetros `?curso=&asignatura=&topicGroup=` en
@@ -295,6 +324,14 @@ normales, así que atrás/adelante y los marcadores funcionan gratis:
   Una asignatura que llega al manifest y no está declarada se sigue
   enseñando, al final y en el orden del manifest: añadir una baraja
   nunca puede hacer desaparecer una asignatura de su curso.
+- **Temas en borrador** (`"draft": true` en las entradas de sus barajas):
+  un tema que el profesor todavía no ha dado por bueno no sale como
+  enlace, sino como tarjeta bloqueada —un `<div>` sin `href`— con la
+  insignia **"Borrador"**, con la misma forma que la insignia
+  "Próximamente" (misma clase CSS). Los temas publicados siguen siendo
+  enlaces. Igual que con los cursos y las asignaturas, se bloquea la
+  tarjeta, no la ruta: el espejo `/dev/` abre todos los temas, borradores
+  incluidos.
 
 Esto añade niveles al flujo descrito en la regla 10 de §5 **solo**
 para las barajas que usan `course`/`subject` (y `topicGroup`) — las
@@ -354,7 +391,9 @@ invitación por el enlace a la baraja real — ver
 
 Cada tema con `topicGroup` tiene, en la misma carpeta que sus barajas,
 un fichero `autoevaluacion.json` que cierra el tema (ver `spec.md` §1.4).
-No está en `manifest.json`: no es una baraja, es un test.
+No está en `manifest.json`: no es una baraja, es un test. La única
+excepción es un tema **en borrador** (`"draft": true`): un borrador no
+está publicado y, por tanto, no tiene autoevaluación.
 
 ```json
 {

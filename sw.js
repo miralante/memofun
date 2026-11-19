@@ -10,7 +10,7 @@
    deck a student already opened keeps working offline.
    ============================================================ */
 
-var VERSION = 'memofun-v214';
+var VERSION = 'memofun-v215';
 
 var FILES = [
   './',

@@ -917,3 +917,124 @@ test('26 — FPB 1 shows its whole programme: the pending subjects are locked ca
     expect(byTitle[title].badge).toBe('Próximamente');
   }
 });
+
+// ===========================================================================
+// DRAFT TOPICS — the topics that are not signed off yet
+//
+// A topic whose deck entries declare "draft": true in decks/manifest.json
+// is not published: its card is a div with no href and the "Borrador" badge
+// — the very same badge shape the coming-soon cards use. Published topics
+// keep their link. See isTopicDraft() in app.js.
+// ===========================================================================
+
+/** The topic cards of a subject level: title, whether the card is locked,
+    its tag, its href and the text of its badge (if any). */
+async function topicCards(page) {
+  return page.locator('#deck-grid > .deck-grid > .deck-card').evaluateAll(nodes =>
+    nodes.map(n => ({
+      title: (n.querySelector('h3') || {}).textContent,
+      locked: n.classList.contains('deck-card--soon'),
+      tag: n.tagName,
+      href: n.getAttribute('href'),
+      badge: ((n.querySelector('.deck-soon-badge') || {}).textContent || '').trim()
+    }))
+  );
+}
+
+/** Open the FPB course and one of its subjects from the public home. */
+async function openSubjectTopics(browser, subjectName) {
+  const page = await openWithStorage(browser, () => {
+    localStorage.setItem('memofun:locale', JSON.stringify('es'));
+  });
+  await page.locator('#deck-grid .deck-card', { hasText: '1º de FP Básica Servicios Administrativos' }).first().click();
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForSelector('#deck-grid .deck-card');
+  await page.locator('#deck-grid .deck-card', { hasText: subjectName }).first().click();
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForSelector('#deck-grid .deck-card');
+  return page;
+}
+
+test('27 — the itinerary topics in draft wear the "Borrador" badge', async ({ browser }) => {
+  const page = await openSubjectTopics(browser, 'Itinerario Personal para la Empleabilidad');
+  const cards = await topicCards(page);
+  const byTitle = {};
+  cards.forEach(c => { byTitle[c.title] = c; });
+
+  // Published: the first two topics of the itinerary open…
+  for (const title of [
+    'Tema 1 · Seguridad y salud en el trabajo',
+    'Tema 2 · Técnicas de prevención y protección'
+  ]) {
+    expect(byTitle[title], title).toBeTruthy();
+    expect(byTitle[title].locked, title).toBe(false);
+    expect(byTitle[title].tag, title).toBe('A');
+    expect(byTitle[title].href, title).toBeTruthy();
+  }
+
+  // …and the six that are still being written are locked, with the draft
+  // badge in the same shape as the coming-soon one.
+  for (const title of [
+    'Tema 3 · Técnicas básicas de primeros auxilios',
+    'Tema 4 · Autoconocimiento y habilidades personales',
+    'Tema 5 · Habilidades personales',
+    'Tema 6 · Itinerarios académicos y profesionales',
+    'Tema 7 · La búsqueda de empleo',
+    'Tema 8 · Toma de decisiones e itinerario personal'
+  ]) {
+    expect(byTitle[title], title).toBeTruthy();
+    expect(byTitle[title].locked, title).toBe(true);
+    expect(byTitle[title].tag, title).toBe('DIV');
+    expect(byTitle[title].href, title).toBeNull();
+    expect(byTitle[title].badge, title).toBe('Borrador');
+  }
+});
+
+test('28 — the administrative-techniques topics in draft wear the "Borrador" badge', async ({ browser }) => {
+  const page = await openSubjectTopics(browser, 'Técnicas Administrativas Básicas');
+  const cards = await topicCards(page);
+  const byTitle = {};
+  cards.forEach(c => { byTitle[c.title] = c; });
+
+  // Only the first topic is published.
+  const published = 'Tema 1 · La empresa';
+  expect(byTitle[published]).toBeTruthy();
+  expect(byTitle[published].locked).toBe(false);
+  expect(byTitle[published].tag).toBe('A');
+  expect(byTitle[published].href).toBeTruthy();
+
+  for (const title of [
+    'Tema 2 · Áreas funcionales',
+    'Tema 3 · Comunicación',
+    'Tema 4 · Correos y mensajería',
+    'Tema 5 · Material de oficina',
+    'Tema 6 · Operaciones de cobro y pago'
+  ]) {
+    expect(byTitle[title], title).toBeTruthy();
+    expect(byTitle[title].locked, title).toBe(true);
+    expect(byTitle[title].tag, title).toBe('DIV');
+    expect(byTitle[title].href, title).toBeNull();
+    expect(byTitle[title].badge, title).toBe('Borrador');
+  }
+});
+
+test('29 — the /dev/ mirror opens the draft topics', async ({ browser }) => {
+  // The mirror is the complete reference of what exists: a draft topic is
+  // locked in public, but here it is a link like any other.
+  const page = await browser.newPage();
+  await page.goto(
+    DEV_BASE + 'index.html?course=' + encodeURIComponent('1º de FP Básica Servicios Administrativos') +
+    '&subject=' + encodeURIComponent('Itinerario Personal para la Empleabilidad')
+  );
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForSelector('#deck-grid .deck-card');
+
+  await expect(page.locator('#deck-grid .deck-card--soon')).toHaveCount(0);
+  const cards = await topicCards(page);
+  expect(cards.length).toBe(8);
+  for (const card of cards) {
+    expect(card.locked, card.title).toBe(false);
+    expect(card.tag, card.title).toBe('A');
+    expect(card.href, card.title).toBeTruthy();
+  }
+});

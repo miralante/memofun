@@ -1154,7 +1154,8 @@
     "amount": 11,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/areas-funcionales.json",
     "icon": "📋",
-    "topicGroup": "Tema 2 · Áreas funcionales"
+    "topicGroup": "Tema 2 · Áreas funcionales",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t2-departamentos-organigrama",
@@ -1166,7 +1167,7 @@
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-2-areas-funcionales/departamentos-organigrama.json",
     "icon": "📋",
     "topicGroup": "Tema 2 · Áreas funcionales",
-    "selfTest": true
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t3-comunicacion",
@@ -1178,7 +1179,7 @@
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-interna-documentos.json",
     "icon": "📋",
     "topicGroup": "Tema 3 · Comunicación",
-    "selfTest": true
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t3-tipos",
@@ -1189,7 +1190,8 @@
     "amount": 9,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/tipos-informacion-comunicacion.json",
     "icon": "🤝",
-    "topicGroup": "Tema 3 · Comunicación"
+    "topicGroup": "Tema 3 · Comunicación",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t3-medios",
@@ -1200,7 +1202,8 @@
     "amount": 10,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/medios-comunicacion-interna.json",
     "icon": "📋",
-    "topicGroup": "Tema 3 · Comunicación"
+    "topicGroup": "Tema 3 · Comunicación",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t3-com-ext",
@@ -1211,7 +1214,8 @@
     "amount": 5,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-3-comunicacion/comunicacion-escrita-externa.json",
     "icon": "📋",
-    "topicGroup": "Tema 3 · Comunicación"
+    "topicGroup": "Tema 3 · Comunicación",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t4-correos",
@@ -1223,7 +1227,7 @@
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/correos-lineas.json",
     "icon": "📋",
     "topicGroup": "Tema 4 · Correos y mensajería",
-    "selfTest": true
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t4-modalidades",
@@ -1234,7 +1238,8 @@
     "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/modalidades-envio.json",
     "icon": "📋",
-    "topicGroup": "Tema 4 · Correos y mensajería"
+    "topicGroup": "Tema 4 · Correos y mensajería",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t4-envio",
@@ -1245,7 +1250,8 @@
     "amount": 6,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/envio-correspondencia-paqueteria.json",
     "icon": "📋",
-    "topicGroup": "Tema 4 · Correos y mensajería"
+    "topicGroup": "Tema 4 · Correos y mensajería",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t4-mensajeria",
@@ -1256,7 +1262,8 @@
     "amount": 13,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-4-correos-mensajeria/mensajeria-externa.json",
     "icon": "📋",
-    "topicGroup": "Tema 4 · Correos y mensajería"
+    "topicGroup": "Tema 4 · Correos y mensajería",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t5-archivo",
@@ -1267,7 +1274,8 @@
     "amount": 4,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/archivo-registro-oficina.json",
     "icon": "📋",
-    "topicGroup": "Tema 5 · Material de oficina"
+    "topicGroup": "Tema 5 · Material de oficina",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t5-inventario",
@@ -1278,7 +1286,8 @@
     "amount": 5,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/inventario-control-existencias.json",
     "icon": "📋",
-    "topicGroup": "Tema 5 · Material de oficina"
+    "topicGroup": "Tema 5 · Material de oficina",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t5-material-oficina",
@@ -1289,7 +1298,8 @@
     "amount": 5,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/material-oficina.json",
     "icon": "📋",
-    "topicGroup": "Tema 5 · Material de oficina"
+    "topicGroup": "Tema 5 · Material de oficina",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t5-equipos",
@@ -1301,7 +1311,7 @@
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-5-material-oficina/equipos-oficina.json",
     "icon": "📋",
     "topicGroup": "Tema 5 · Material de oficina",
-    "selfTest": true
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t6-medios-pago",
@@ -1313,7 +1323,7 @@
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/medios-pago.json",
     "icon": "💳",
     "topicGroup": "Tema 6 · Operaciones de cobro y pago",
-    "selfTest": true
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t6-pago-online",
@@ -1324,7 +1334,8 @@
     "amount": 5,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/pago-online.json",
     "icon": "🛒",
-    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t6-excel-pantalla",
@@ -1335,7 +1346,8 @@
     "amount": 11,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-pantalla-inicial.json",
     "icon": "🖥️",
-    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t6-excel-conceptos",
@@ -1346,7 +1358,8 @@
     "amount": 7,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/excel-conceptos-basicos.json",
     "icon": "📊",
-    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t6-documentos-comerciales",
@@ -1357,7 +1370,8 @@
     "amount": 9,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/documentos-comerciales.json",
     "icon": "📄",
-    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ta-t6-cobros-pagos",
@@ -1368,7 +1382,8 @@
     "amount": 7,
     "file": "fpb_sa_1_tecnicas-administrativas-basicas/tema-6-operaciones-cobro-excel/cobros-pagos-caja.json",
     "icon": "💶",
-    "topicGroup": "Tema 6 · Operaciones de cobro y pago"
+    "topicGroup": "Tema 6 · Operaciones de cobro y pago",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-tratamiento-informatico-datos-3",
@@ -1490,7 +1505,7 @@
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/concepto-de-primeros-auxilios.json",
     "icon": "🚑",
     "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
-    "selfTest": true
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ipe-t3-pas",
@@ -1501,7 +1516,8 @@
     "amount": 8,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/lo-mas-importante-pas.json",
     "icon": "🆘",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ipe-t3-desmayos",
@@ -1512,7 +1528,8 @@
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/desmayos-y-hemorragias.json",
     "icon": "🩹",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ipe-t3-emergencias",
@@ -1523,7 +1540,8 @@
     "amount": 10,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/emergencias-quemaduras-fracturas-convulsiones.json",
     "icon": "🔥",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ipe-t3-botiquin",
@@ -1534,7 +1552,8 @@
     "amount": 9,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-3-tecnicas-basicas-primeros-auxilios/el-botiquin-basico.json",
     "icon": "🧰",
-    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios"
+    "topicGroup": "Tema 3 · Técnicas básicas de primeros auxilios",
+    "draft": true
   },
   {
     "id": "fpb-sa-1-ipe-t4-autoconocimiento",
@@ -1543,6 +1562,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-es-el-autoconocimiento.json",
     "icon": "🔍"
@@ -1554,6 +1574,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "draft": true,
     "amount": 16,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/que-debo-conocer-de-mi.json",
     "icon": "🔍"
@@ -1565,6 +1586,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "draft": true,
     "amount": 10,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/habilidades-personales.json",
     "icon": "🔍"
@@ -1576,6 +1598,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 4 · Autoconocimiento y habilidades personales",
+    "draft": true,
     "amount": 13,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-4-autoconocimiento-habilidades-personales/analisis-personal-importancia.json",
     "icon": "🔍"
@@ -1587,6 +1610,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 5 · Habilidades personales",
+    "draft": true,
     "amount": 3,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/importancia-competencias-personales.json",
     "icon": "🤝"
@@ -1598,6 +1622,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 5 · Habilidades personales",
+    "draft": true,
     "amount": 4,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/como-mejorar-habilidades.json",
     "icon": "🤝"
@@ -1609,6 +1634,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 5 · Habilidades personales",
+    "draft": true,
     "amount": 13,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/gestion-emocional-y-asertividad.json",
     "icon": "🤝"
@@ -1620,6 +1646,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 5 · Habilidades personales",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/comunicacion.json",
     "icon": "🤝"
@@ -1631,6 +1658,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 5 · Habilidades personales",
+    "draft": true,
     "amount": 4,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/escucha-activa.json",
     "icon": "🤝"
@@ -1642,6 +1670,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 5 · Habilidades personales",
+    "draft": true,
     "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-5-habilidades-personales/habilidades-en-entrevista.json",
     "icon": "🤝"
@@ -1653,6 +1682,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "draft": true,
     "amount": 4,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/que-es-itinerario-academico.json",
     "icon": "🎓"
@@ -1664,6 +1694,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "draft": true,
     "amount": 6,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/opciones-academicas.json",
     "icon": "🎓"
@@ -1675,6 +1706,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "draft": true,
     "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/entorno-sociolaboral.json",
     "icon": "🎓"
@@ -1686,6 +1718,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 6 · Itinerarios académicos y profesionales",
+    "draft": true,
     "amount": 6,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-6-itinerarios-academicos-profesionales/herramientas-decision.json",
     "icon": "🎓"
@@ -1697,10 +1730,10 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 3,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-significa-buscar-empleo.json",
-    "icon": "💼",
-    "selfTest": true
+    "icon": "💼"
   },
   {
     "id": "fpb-sa-1-ipe-t7-que-necesito-antes-de-empezar",
@@ -1709,6 +1742,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/que-necesito-antes-de-empezar.json",
     "icon": "💼"
@@ -1720,6 +1754,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/donde-buscar-empleo.json",
     "icon": "💼"
@@ -1731,6 +1766,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/consejos-para-buscar-empleo.json",
     "icon": "💼"
@@ -1742,6 +1778,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/tipos-de-empleo.json",
     "icon": "💼"
@@ -1753,6 +1790,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/curriculum-vitae.json",
     "icon": "💼"
@@ -1764,6 +1802,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/carta-de-presentacion.json",
     "icon": "💼"
@@ -1775,6 +1814,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 7 · La búsqueda de empleo",
+    "draft": true,
     "amount": 9,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-7-la-busqueda-de-empleo/prepararse-para-entrevista.json",
     "icon": "💼"
@@ -1786,10 +1826,10 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 2,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-tomar-decisiones.json",
-    "icon": "🧭",
-    "selfTest": true
+    "icon": "🧭"
   },
   {
     "id": "fpb-sa-1-ipe-t8-que-es-itinerario-personal",
@@ -1798,6 +1838,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 3,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/que-es-itinerario-personal.json",
     "icon": "🧭"
@@ -1809,6 +1850,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/importancia-buenas-decisiones.json",
     "icon": "🧭"
@@ -1820,6 +1862,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 7,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/etapas-toma-decisiones.json",
     "icon": "🧭"
@@ -1831,6 +1874,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 6,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/factores-que-influyen.json",
     "icon": "🧭"
@@ -1842,6 +1886,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 4,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/construccion-itinerario.json",
     "icon": "🧭"
@@ -1853,6 +1898,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 5,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/tecnicas-mejores-decisiones.json",
     "icon": "🧭"
@@ -1864,6 +1910,7 @@
     "course": "1º de FP Básica Servicios Administrativos",
     "subject": "Itinerario Personal para la Empleabilidad",
     "topicGroup": "Tema 8 · Toma de decisiones e itinerario personal",
+    "draft": true,
     "amount": 6,
     "file": "fpb_sa_1_itinerario-personal-empleabilidad/tema-8-toma-de-decisiones-itinerario-personal/consejos-para-construir-itinerario.json",
     "icon": "🧭"

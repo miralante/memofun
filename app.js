@@ -448,7 +448,11 @@
       subject is already on the subject card above. Re-stating how many
       sections/cards a topic holds here was the noisy sibling of that
       number — same metric, different angle, contradicted at the deck
-      level the moment anyone wanted exact truth. */
+      level the moment anyone wanted exact truth.
+
+      A topic in draft ("draft": true in decks/manifest.json) is locked
+      the same way a coming-soon course is: no href, and the very same
+      badge shape, only reading "Borrador" instead of "Próximamente". */
   function topicCardHtml(topicGroup, i, groupDecks) {
     var single = groupDecks.length === 1;
     /* For a topic with just one deck, clicking takes the user straight
@@ -459,10 +463,31 @@
     var href = single
       ? studyUrl(groupDecks[0], { back: studyBackFrom(buildUrl(groupDecks[0].course, groupDecks[0].subject)) })
       : buildUrl(groupDecks[0].course, groupDecks[0].subject, topicGroup);
-    return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
+    var body =
       '<span class="deck-icon" aria-hidden="true">' + (single ? (groupDecks[0].icon || topicIcon(topicGroup)) : topicIcon(topicGroup)) + '</span>' +
-      '<h3>' + App.utils.escapeHtml(topicGroup) + '</h3>' +
+      '<h3>' + App.utils.escapeHtml(topicGroup) + '</h3>';
+    if (isTopicDraft(groupDecks)) {
+      return '<div class="deck-card deck-card--soon' + badgeClassFor(i) + '" role="listitem">' +
+        body +
+        '<span class="deck-soon-badge">' + App.i18n.t('home.draft') + '</span>' +
+        '</div>';
+    }
+    return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
+      body +
       '</a>';
+  }
+
+  /* Is this topic still a draft? A topic is a draft when its deck entries
+     declare "draft": true in decks/manifest.json — the teacher hasn't
+     signed the topic off yet, so it is not published.
+
+     Only the card is locked, not the route: the same rule the course and
+     subject locks follow (the path behind ?topicGroup= still resolves).
+     The /dev/ mirror (data-access="full") opens every topic, drafts
+     included — it is the complete reference of what exists. */
+  function isTopicDraft(groupDecks) {
+    if (FULL_ACCESS) return false;
+    return groupDecks.some(function (d) { return d.draft === true; });
   }
 
   /** One course on the home grid.

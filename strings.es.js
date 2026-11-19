@@ -19,6 +19,7 @@ if (window.App.i18n) {
       otherTopics: 'Otros temas',
       quickAccess: 'Acceso rápido',
       comingSoon: 'Próximamente',
+      draft: 'Borrador',
       continue: 'Continuar →',
       pinButton: 'Fijar como mi curso',
       pinnedButton: 'Curso fijado',
