@@ -450,9 +450,10 @@
       number — same metric, different angle, contradicted at the deck
       level the moment anyone wanted exact truth.
 
-      A topic in draft ("draft": true in decks/manifest.json) is locked
-      the same way a coming-soon course is: no href, and the very same
-      badge shape, only reading "Borrador" instead of "Próximamente". */
+      A topic in draft ("draft": true in decks/manifest.json) opens like any
+      other topic — a draft is meant to be reviewed — but says so: the very
+      same badge shape as the coming-soon one, only reading "Borrador"
+      instead of "Próximamente". */
   function topicCardHtml(topicGroup, i, groupDecks) {
     var single = groupDecks.length === 1;
     /* For a topic with just one deck, clicking takes the user straight
@@ -467,10 +468,13 @@
       '<span class="deck-icon" aria-hidden="true">' + (single ? (groupDecks[0].icon || topicIcon(topicGroup)) : topicIcon(topicGroup)) + '</span>' +
       '<h3>' + App.utils.escapeHtml(topicGroup) + '</h3>';
     if (isTopicDraft(groupDecks)) {
-      return '<div class="deck-card deck-card--soon' + badgeClassFor(i) + '" role="listitem">' +
+      /* A draft keeps its link: the badge is the message, and the topic has
+         to stay reachable so it can be reviewed. What changes is that the
+         card says which state it is in. */
+      return '<a class="deck-card deck-card--draft' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
         body +
         '<span class="deck-soon-badge">' + App.i18n.t('home.draft') + '</span>' +
-        '</div>';
+        '</a>';
     }
     return '<a class="deck-card' + badgeClassFor(i) + '" role="listitem" href="' + href + '">' +
       body +
@@ -481,12 +485,12 @@
      declare "draft": true in decks/manifest.json — the teacher hasn't
      signed the topic off yet, so it is not published.
 
-     Only the card is locked, not the route: the same rule the course and
-     subject locks follow (the path behind ?topicGroup= still resolves).
-     The /dev/ mirror (data-access="full") opens every topic, drafts
-     included — it is the complete reference of what exists. */
+     The draft does NOT lock anything: its card opens the topic like any
+     other, because a draft exists to be reviewed. Only the badge and the
+     dimmed icon say "not finished yet". The /dev/ mirror
+     (data-access="full") shows the same badge, so the two screens never
+     disagree about what is a draft. */
   function isTopicDraft(groupDecks) {
-    if (FULL_ACCESS) return false;
     return groupDecks.some(function (d) { return d.draft === true; });
   }
 

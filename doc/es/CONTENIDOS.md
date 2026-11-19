@@ -174,8 +174,8 @@ Esta es la regla didáctica más distintiva del proyecto.
 >
 > Dentro de las dos asignaturas publicadas, los temas que el profesor
 > todavía no ha dado por bueno (del itinerario, los temas 3 a 8; de
-> técnicas administrativas, los temas 2 a 6) salen con la insignia
-> «Borrador» y sin enlace, y no tienen autoevaluación.
+> técnicas administrativas, los temas 2 a 6) se abren con la insignia
+> «Borrador» —para poder revisarlos— y no tienen autoevaluación.
 
 #### 2.2.4 FP GM — Gestión administrativa (1–2)
 

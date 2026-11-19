@@ -536,10 +536,12 @@ not AI-bulk-built.
    subjects. Deck path and manifest `file` follow the same
    convention: `decks/<slug>/topic-<n>-<topic>/<seccion>.json`.
    If the topic is not signed off yet, mark **every** one of its deck
-   entries with `"draft": true`: the topic's card then ships locked
-   with the "Borrador" badge — the same badge shape as "Próximamente"
-   — and the topic has no self-assessment. `scripts/check.js` §14
-   fails when a topic's entries disagree about the flag.
+   entries with `"draft": true`: the topic's card then carries the
+   "Borrador" badge — the same badge shape as "Próximamente" — and the
+   topic has no self-assessment. The card still opens (a draft is there
+   to be reviewed); only the badge and the dimmed icon say "not finished
+   yet". `scripts/check.js` §14 fails when a topic's entries disagree
+   about the flag.
 6. Tell the user what you generated and where, and that you've
    applied the review checklist yourself
    (`doc/es/guia-interna-crear-barajas.md` §4) — but if the topic

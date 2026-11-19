@@ -922,9 +922,9 @@ test('26 — FPB 1 shows its whole programme: the pending subjects are locked ca
 // DRAFT TOPICS — the topics that are not signed off yet
 //
 // A topic whose deck entries declare "draft": true in decks/manifest.json
-// is not published: its card is a div with no href and the "Borrador" badge
-// — the very same badge shape the coming-soon cards use. Published topics
-// keep their link. See isTopicDraft() in app.js.
+// is not published, but it IS open: the card keeps its link (a draft exists
+// to be reviewed) and wears the "Borrador" badge — the very same badge
+// shape the coming-soon cards use. See isTopicDraft() in app.js.
 // ===========================================================================
 
 /** The topic cards of a subject level: title, whether the card is locked,
@@ -934,6 +934,7 @@ async function topicCards(page) {
     nodes.map(n => ({
       title: (n.querySelector('h3') || {}).textContent,
       locked: n.classList.contains('deck-card--soon'),
+      draft: n.classList.contains('deck-card--draft'),
       tag: n.tagName,
       href: n.getAttribute('href'),
       badge: ((n.querySelector('.deck-soon-badge') || {}).textContent || '').trim()
@@ -955,7 +956,7 @@ async function openSubjectTopics(browser, subjectName) {
   return page;
 }
 
-test('27 — the itinerary topics in draft wear the "Borrador" badge', async ({ browser }) => {
+test('27 — the itinerary topics in draft wear the "Borrador" badge and still open', async ({ browser }) => {
   const page = await openSubjectTopics(browser, 'Itinerario Personal para la Empleabilidad');
   const cards = await topicCards(page);
   const byTitle = {};
@@ -968,12 +969,15 @@ test('27 — the itinerary topics in draft wear the "Borrador" badge', async ({ 
   ]) {
     expect(byTitle[title], title).toBeTruthy();
     expect(byTitle[title].locked, title).toBe(false);
+    expect(byTitle[title].draft, title).toBe(false);
     expect(byTitle[title].tag, title).toBe('A');
     expect(byTitle[title].href, title).toBeTruthy();
+    expect(byTitle[title].badge, title).toBe('');
   }
 
-  // …and the six that are still being written are locked, with the draft
-  // badge in the same shape as the coming-soon one.
+  // …and the six that are still being written say so with the draft badge,
+  // in the same shape as the coming-soon one — but they still open: a
+  // draft is there to be reviewed.
   for (const title of [
     'Tema 3 · Técnicas básicas de primeros auxilios',
     'Tema 4 · Autoconocimiento y habilidades personales',
@@ -983,11 +987,18 @@ test('27 — the itinerary topics in draft wear the "Borrador" badge', async ({ 
     'Tema 8 · Toma de decisiones e itinerario personal'
   ]) {
     expect(byTitle[title], title).toBeTruthy();
-    expect(byTitle[title].locked, title).toBe(true);
-    expect(byTitle[title].tag, title).toBe('DIV');
-    expect(byTitle[title].href, title).toBeNull();
+    expect(byTitle[title].locked, title).toBe(false);
+    expect(byTitle[title].draft, title).toBe(true);
+    expect(byTitle[title].tag, title).toBe('A');
+    expect(byTitle[title].href, title).toBeTruthy();
     expect(byTitle[title].badge, title).toBe('Borrador');
   }
+
+  // Clicking a draft topic opens it: its sections are listed.
+  await page.locator('#deck-grid .deck-card', { hasText: 'Tema 3 · Técnicas básicas de primeros auxilios' }).first().click();
+  await page.waitForLoadState('domcontentloaded');
+  await page.waitForSelector('#deck-grid .deck-card');
+  await expect(page.locator('#deck-grid .deck-card', { hasText: 'Concepto de primeros auxilios' }).first()).toBeVisible();
 });
 
 test('28 — the administrative-techniques topics in draft wear the "Borrador" badge', async ({ browser }) => {
@@ -1000,8 +1011,10 @@ test('28 — the administrative-techniques topics in draft wear the "Borrador" b
   const published = 'Tema 1 · La empresa';
   expect(byTitle[published]).toBeTruthy();
   expect(byTitle[published].locked).toBe(false);
+  expect(byTitle[published].draft).toBe(false);
   expect(byTitle[published].tag).toBe('A');
   expect(byTitle[published].href).toBeTruthy();
+  expect(byTitle[published].badge).toBe('');
 
   for (const title of [
     'Tema 2 · Áreas funcionales',
@@ -1011,16 +1024,17 @@ test('28 — the administrative-techniques topics in draft wear the "Borrador" b
     'Tema 6 · Operaciones de cobro y pago'
   ]) {
     expect(byTitle[title], title).toBeTruthy();
-    expect(byTitle[title].locked, title).toBe(true);
-    expect(byTitle[title].tag, title).toBe('DIV');
-    expect(byTitle[title].href, title).toBeNull();
+    expect(byTitle[title].locked, title).toBe(false);
+    expect(byTitle[title].draft, title).toBe(true);
+    expect(byTitle[title].tag, title).toBe('A');
+    expect(byTitle[title].href, title).toBeTruthy();
     expect(byTitle[title].badge, title).toBe('Borrador');
   }
 });
 
-test('29 — the /dev/ mirror opens the draft topics', async ({ browser }) => {
-  // The mirror is the complete reference of what exists: a draft topic is
-  // locked in public, but here it is a link like any other.
+test('29 — the /dev/ mirror marks the same topics as draft', async ({ browser }) => {
+  // The mirror and the public home must never disagree about what is a
+  // draft: same badge, same links.
   const page = await browser.newPage();
   await page.goto(
     DEV_BASE + 'index.html?course=' + encodeURIComponent('1º de FP Básica Servicios Administrativos') +
@@ -1037,4 +1051,7 @@ test('29 — the /dev/ mirror opens the draft topics', async ({ browser }) => {
     expect(card.tag, card.title).toBe('A');
     expect(card.href, card.title).toBeTruthy();
   }
+  // Six of the eight are drafts, and they say so here too.
+  expect(cards.filter(c => c.draft).length).toBe(6);
+  expect(cards.filter(c => c.badge === 'Borrador').length).toBe(6);
 });

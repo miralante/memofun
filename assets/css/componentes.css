@@ -479,6 +479,26 @@
   color: var(--color-text-soft);
 }
 
+/* Draft topic card (a topic that is written but not signed off yet).
+   Unlike .deck-card--soon, this one IS a link: a draft exists to be
+   reviewed, so the card keeps the pointer, the hover lift and the accent
+   border of a live card. What it does not get is the "click here and
+   everything works" look of a finished topic, so:
+     • the icon recedes exactly as it does on the locked card (it is
+       aria-hidden decoration, so dimming it costs no contrast);
+     • the title keeps its full contrast, because it is the name of
+       something the reader is about to open;
+     • the "Borrador" badge says the state, in the very same shape as the
+       "Próximamente" badge (same .deck-soon-badge class).
+
+   The badge is the message: a card that looks disabled but opens would be
+   the confusing kind, and a card that looks live without saying it is a
+   draft would hide the fact that the content is not finished. */
+.deck-card.deck-card--draft .deck-icon {
+  opacity: 0.6;
+  filter: saturate(0.5);
+}
+
 .deck-soon-badge {
   margin-top: var(--space-1);
   align-self: center;

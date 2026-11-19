@@ -171,8 +171,8 @@ The card front is **always a clue** (see
 >
 > Inside the two published subjects, the topics the teacher has not signed
 > off yet (themes 3 to 8 of the itinerary; themes 2 to 6 of técnicas
-> administrativas) ship with a "Draft" badge and no link, and have no
-> self-assessment.
+> administrativas) open with a "Draft" badge —so they can be reviewed— and
+> have no self-assessment.
 
 #### 2.2.4 FP GM — Gestión administrativa (1–2)
 

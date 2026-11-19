@@ -267,13 +267,17 @@ falla si unas entradas lo declaran y otras no):
   "icon": "🚑" }
 ```
 
-En la pantalla de inicio, la tarjeta del tema en borrador sale **bloqueada**
-—un `<div>` sin `href`— con la insignia **"Borrador"**, exactamente con la
-misma forma que la insignia "Próximamente" de los cursos y asignaturas sin
-publicar (misma clase CSS, `.deck-soon-badge`). Solo se bloquea la tarjeta,
-no la ruta: `?course=&subject=&topicGroup=` sigue resolviendo, y el espejo
-`/dev/` (`data-access="full"`) abre todos los temas, borradores incluidos,
-porque es la referencia completa de lo que existe.
+En la pantalla de inicio, la tarjeta del tema en borrador **se abre igual
+que las demás** —un borrador existe para poder revisarlo— pero lleva la
+insignia **"Borrador"**, exactamente con la misma forma que la insignia
+"Próximamente" de los cursos y asignaturas sin publicar (misma clase CSS,
+`.deck-soon-badge`). Lo único que se atenúa es el icono; el título y el
+resto de la tarjeta conservan su aspecto y su contraste, porque la tarjeta
+sigue siendo un enlace con su hover.
+
+La insignia es el mensaje: una tarjeta que pareciera cerrada pero se
+abriera sería confusa, y una que pareciera terminada sin decirlo
+escondería que el contenido no está terminado.
 
 Un tema en borrador **no tiene autoevaluación**: no declara `"selfTest": true`
 ni deja un `autoevaluacion.json` en su carpeta (la regla 13 de `check.js`
@@ -325,13 +329,11 @@ normales, así que atrás/adelante y los marcadores funcionan gratis:
   enseñando, al final y en el orden del manifest: añadir una baraja
   nunca puede hacer desaparecer una asignatura de su curso.
 - **Temas en borrador** (`"draft": true` en las entradas de sus barajas):
-  un tema que el profesor todavía no ha dado por bueno no sale como
-  enlace, sino como tarjeta bloqueada —un `<div>` sin `href`— con la
-  insignia **"Borrador"**, con la misma forma que la insignia
-  "Próximamente" (misma clase CSS). Los temas publicados siguen siendo
-  enlaces. Igual que con los cursos y las asignaturas, se bloquea la
-  tarjeta, no la ruta: el espejo `/dev/` abre todos los temas, borradores
-  incluidos.
+  un tema que el profesor todavía no ha dado por bueno se abre igual que
+  los demás —un borrador está para poder revisarlo— pero su tarjeta lleva
+  la insignia **"Borrador"**, con la misma forma que la insignia
+  "Próximamente" (misma clase CSS). Los temas publicados no llevan
+  insignia.
 
 Esto añade niveles al flujo descrito en la regla 10 de §5 **solo**
 para las barajas que usan `course`/`subject` (y `topicGroup`) — las

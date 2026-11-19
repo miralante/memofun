@@ -252,13 +252,16 @@ and others do not):
   "icon": "🚑" }
 ```
 
-On the home screen, a draft topic shows up as a **locked** card — a `<div>`
-with no `href` — carrying the **"Draft"** badge, in the very same shape as
-the "Coming soon" badge of the unpublished courses and subjects (same CSS
-class, `.deck-soon-badge`). Only the card is locked, not the route:
-`?course=&subject=&topicGroup=` still resolves, and the `/dev/` mirror
-(`data-access="full"`) opens every topic, drafts included, because it is the
-complete reference of what exists.
+On the home screen, a draft topic opens like any other topic — a draft
+exists so it can be reviewed — but its card carries the **"Draft"** badge,
+in the very same shape as the "Coming soon" badge of the unpublished
+courses and subjects (same CSS class, `.deck-soon-badge`). Only the icon is
+dimmed; the title and the rest of the card keep their look and their
+contrast, because the card is still a link with its hover.
+
+The badge is the message: a card that looked shut but opened would be
+confusing, and a card that looked finished without saying so would hide the
+fact that the content is not.
 
 A draft topic has **no self-assessment**: it declares no `"selfTest": true`
 and owns no `autoevaluacion.json` in its folder (`check.js` rule 13 flags
@@ -306,11 +309,10 @@ back/forward and bookmarking work for free:
   order: adding a deck can never make a subject disappear from its
   course.
 - **Topics in draft** (`"draft": true` on their deck entries): a topic the
-  teacher has not signed off yet is not a link but a locked card — a `<div>`
-  with no `href` — carrying the **"Draft"** badge, in the same shape as the
-  "Coming soon" one (same CSS class). Published topics keep their link. As
-  with courses and subjects, it is the card that is locked, not the route:
-  the `/dev/` mirror opens every topic, drafts included.
+  teacher has not signed off yet opens like any other topic — a draft is
+  there to be reviewed — but its card carries the **"Draft"** badge, in the
+  same shape as the "Coming soon" one (same CSS class). Published topics
+  carry no badge.
 
 This adds levels to the flow described in §5 rule 10 *only* for
 decks that opt into `course`/`subject` (and `topicGroup`) — flat
