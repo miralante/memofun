@@ -572,10 +572,13 @@ test('16 — stars live only in the session: a reload keeps them, a new visit st
   await expect(fresh.locator('#stars-total .stars-count')).toHaveText('0');
 });
 
-test('16b — footer links "Sobre la app" before Configuración and keeps achievements out of it', async ({ browser }) => {
+test('16b — footer links "Sobre la app" and "Protección de datos", no longer repeats Ajustes, and keeps achievements out of it', async ({ browser }) => {
   // Progress saved before achievements existed: 2 stars, 1 deck. The home
   // screen grants firstStar and reviewAgain silently (no announcement there);
   // the about page describes the app and shows no rewards.
+  //
+  // The footer no longer links to config/: the gear in the header is the
+  // single settings access, so a second entry to the same page was noise.
   const page = await openWithStorage(browser, () => {
     localStorage.setItem('memofun:progress', JSON.stringify({
       stars: 2,
@@ -587,13 +590,18 @@ test('16b — footer links "Sobre la app" before Configuración and keeps achiev
   )).toEqual(['firstStar', 'reviewAgain']);
 
   const footerLinks = page.locator('footer[data-suite-footer] a');
-  await expect(footerLinks.nth(0)).toHaveAttribute('href', 'https://apptonomia.uk/about/');
+  await expect(footerLinks).toHaveCount(2);
+  await expect(footerLinks.nth(0)).toHaveAttribute('href', './about/');
   await expect(footerLinks.nth(0)).toHaveText('Sobre la app');
-  await expect(footerLinks.nth(1)).toHaveAttribute('href', 'config/');
+  await expect(footerLinks.nth(1)).toHaveAttribute('href', './legal/');
+  await expect(footerLinks.nth(1)).toHaveText('Protección de datos');
+  await expect(page.locator('footer[data-suite-footer] a[href*="config"]')).toHaveCount(0);
 
   await footerLinks.nth(0).click();
   await expect(page).toHaveURL(/about\/$/);
-  await expect(page.locator('h1')).toHaveText('Memofun');
+  // The about page's own title is its heading; the app's name sits in the brand.
+  await expect(page.locator('h1')).toHaveText('Sobre la app');
+  await expect(page.locator('.suite-chrome-name')).toHaveText('Memofun');
   await expect(page.locator('#achievementsGrid')).toHaveCount(0);
 });
 

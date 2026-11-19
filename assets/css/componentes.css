@@ -49,7 +49,9 @@
 }
 
 /* Inside the suite header's activity block the context line takes its own row
-   under the title: no pull-up margin, full width of the block. */
+   under the title: no pull-up margin, full width of the block. The activity
+   block has to wrap for that to happen — see the note at the end of this
+   file, where this app overrides the shared block's `nowrap`. */
 .suite-chrome-activity .deck-context {
   flex: 1 0 100%;
   margin: 0;
@@ -1356,3 +1358,24 @@ main.is-celebrating > :not(.celebration) {
 /* Page body (suite-body, see the shared block): memofun widths. The home screen keeps its wider grid. */
 .suite-body { --suite-body-max: var(--container-max); --suite-body-gutter: clamp(12px, 3vw, var(--space-2)); }
 .suite-header + main.suite-body { --suite-body-max: var(--container-max-wide); }
+
+/* ---------- Study screen: the deck title and its context line ----------
+
+   The shared suite block (suite:suite-chrome) keeps `flex-wrap: nowrap` on
+   the activity block, because the back link and the title must stay on one
+   row on every subpage. The study screen puts a third item there: the quiet
+   context line ("Tema 1 · Seguridad y salud en el trabajo"), a flex item
+   with flex-basis 100% that is meant to take its own row under the title.
+
+   With `nowrap` that line could not start a row of its own, so it took the
+   whole width of the block and squeezed the title down to almost nothing:
+   the title text overflowed its box and was drawn on top of the context
+   line ("Salud, trabajo y riesgo laboral" over "Tema 1 · …").
+
+   This app's own override, after the synced block so it wins. It changes
+   nothing on the pages without a context line: there the block holds the
+   back link and the title only, and the title (flex-basis 0) still grows
+   into the space that is left over beside the back link. */
+.suite-chrome-activity {
+  flex-wrap: wrap;
+}
