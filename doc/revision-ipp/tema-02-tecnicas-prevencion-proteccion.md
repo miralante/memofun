@@ -311,7 +311,7 @@ ahora hay una baraja por apartado, sin mezclar contenidos de dos epígrafes.
 
 | Sección del temario | Artefacto | Cobertura |
 | :--- | :--- | :--- |
-| 1. Técnicas de prevención y protección de riesgos (§1, pag17) | `decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json` | 7 tarjetas |
+| 1. Técnicas de prevención y protección de riesgos (§1, pag17) | `decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/prevencion-y-proteccion-definicion.json` | 6 tarjetas |
 | 2. Técnicas de prevención (§2, pag18) | `.../tecnicas-basicas-prevencion.json` | 5 tarjetas |
 | 2.1 Los 8 principios básicos (pag19) | `.../principios-basicos.json` | 8 tarjetas |
 | 2.2 Los 5 tipos de riesgo (pag20) | `.../tipos-de-riesgo.json` | 5 tarjetas |
@@ -322,7 +322,7 @@ ahora hay una baraja por apartado, sin mezclar contenidos de dos epígrafes.
 | 3b Protección individual / EPI (pag23) | `.../equipos-proteccion-individual.json` | 10 tarjetas |
 | Autoevaluación del centro (hoja del alumno, 3 fotos) | `.../autoevaluacion.json` | 13 preguntas (5 tipos) |
 
-**Total tema 2:** 9 barajas (60 tarjetas) + 1 autoevaluación (13 preguntas).
+**Total tema 2:** 9 barajas (59 tarjetas) + 1 autoevaluación (13 preguntas).
 La entrada con `selfTest` es `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
 
 ### La autoevaluación (hoja del cuaderno del alumno)
@@ -499,6 +499,22 @@ la numeración «2.0» era inventada.
   queda por debajo del objetivo de 8-15 tarjetas por sesión; la alternativa
   es abrir una tarjeta por cada consejo (con imagen propia para cada una).
 
+### Tarjeta eliminada (19 de noviembre de 2026)
+
+Por indicación del profesor se elimina la última tarjeta de
+`prevencion-y-proteccion-definicion.json`: **«Persona (prevención) · riesgo
+(protección)»** (anverso: «Un trabajador con casco y guantes trabajando. Un
+grupo de medidas actúa sobre ti. Otro actúa sobre el peligro o por donde te
+llega. ¿Cómo se resume esa diferencia?»).
+
+- La baraja pasa de 7 a 6 tarjetas, y su imagen (`persona-riesgo.jpg`) se
+  borra: ya no la usa ninguna tarjeta del tema.
+- `decks/manifest.json`: el `amount` de `fpb-sa-1-ipe-t2-definicion` pasa de 7
+  a 6.
+- **Aviso:** la baraja queda por debajo del objetivo de 8-15 tarjetas por
+  sesión (ya estaba en 7). Si hay que recuperarla, su sitio natural es §1 del
+  temario, con un ancla nueva.
+
 ### Auditoría de imágenes (noviembre de 2026)
 
 Las 50 imágenes del tema se repasaron una a una con el listón del profesor:
@@ -563,6 +579,21 @@ la pista de su tarjeta).
 > navegador para confirmar que la ficha de Pixabay sigue apuntando a la foto
 > correcta.
 
+### Imagen del riesgo psicosocial (19 de noviembre de 2026)
+
+Por indicación del profesor, la imagen de la carta «Riesgo psicosocial»
+(`tipos-de-riesgo.json`) se sustituye: era una persona con la cabeza apoyada en
+las manos entre el papeleo de su trabajo, y la pista de la tarjeta es otra
+cosa («Es como llevar la mochila cargada de problemas todo el día. Cuando el
+trabajo se acumula aparecen el estrés y el agotamiento»). Ahora la foto es
+**una persona en la oficina, con las manos en la frente frente al ordenador,
+preocupada y agotada**: un trabajador preocupado con su trabajo, no un papeleo.
+
+- Ficha: «Disappointed Woman Working on Laptop», autor `userpilot1`, CC BY 2.0
+  (Openverse → Flickr). Se envía la miniatura: 600×424 px y 26 KB.
+- `alt` reescrito: «Una mujer en la oficina, con las manos en la frente frente
+  al ordenador, preocupada y agotada».
+
 ### Las nueve señales concretas (noviembre de 2026)
 
 El recuadro de la página 20 trae nueve señales dibujadas, y ninguna tenía
@@ -571,31 +602,62 @@ tarjeta. `senalizacion-seguridad` pasa de 5 a 14 cartas: las cuatro de tipo
 sustituye». Cada carta es una señal, con el pictograma real de la señal como
 imagen y la pregunta por su nombre.
 
-| Señal del libro | Fichero en Commons | Licencia | Autor |
-| --- | --- | --- | --- |
-| Materiales inflamables | `Big guy 637's series 3 safety sign W002.svg` | CC0 | Bigguy637 |
-| Caída a distinto nivel | `NTP 399 PELIGRO, ATENCIÓN PELIGRO DE CAÍDAS.svg` | CC0 | Bigguy637 |
-| Prohibido fumar y encender fuego | `S.I. No. 132-1995 Prohibition - Smoking and naked flames prohibited.svg` | Dominio público | Desconocido |
-| No tocar | `HSA, Safety signs for the classroom - Sign 47 - Do not touch.svg` | Dominio público | Desconocido |
-| Vía obligatoria para peatones | `ISO 7010 M024.svg` | Dominio público | ISO |
-| Protección obligatoria del oído | `NTP 399 USO OBLIGATORIO DE PROTECCIÓN AUDITIVA.svg` | CC0 | Bigguy637 |
-| Extintor | `NTP 399.010 Señal 1.01.svg` | Dominio público | Desconocido |
-| Manguera contra incendios | `BS 5499-5.0101 Fire hose reel.svg` | Dominio público | Desconocido |
-| Teléfono de salvamento | `Real Decreto 485-1997 Señal 5.06.svg` | Dominio público | Ministerio de Trabajo y Economía Social (España) |
+| Señal del libro | Fichero instalado | Origen |
+| --- | --- | --- |
+| Materiales inflamables | `senal-inflamables.jpg` | recorte de la página 20 |
+| Caída a distinto nivel | `senal-caida.jpg` | recorte de la página 20 |
+| Prohibido fumar y encender fuego | `senal-prohibido-fumar.jpg` | recorte de la página 20 |
+| No tocar | `senal-no-tocar.jpg` | recorte de la página 20 |
+| Vía obligatoria para peatones | `senal-via-peatones.jpg` | recorte de la página 20 |
+| Protección obligatoria del oído | `senal-proteccion-oido.jpg` | recorte de la página 20 |
+| Extintor | `senal-extintor.jpg` | recorte de la página 20 |
+| Manguera contra incendios | `senal-manguera-incendios.jpg` | recorte de la página 20 |
+| Teléfono de salvamento | `senal-telefono-salvamento.jpg` | recorte de la página 20 |
 
-- Todas se descargan como miniatura de 960 px de Commons y se re-codifican a
-  **JPEG real** (45-87 KB, lado largo 900 px): el sitio sirve `nosniff`, así que
-  un PNG con extensión `.jpg` no se pintaría.
-- La del **teléfono** es la señal 5.06 del **Real Decreto 485/1997**, que es
-  el propio reglamento español de señalización: sale idéntica a la del libro.
-- La de **no tocar** es la del HSA irlandés (dominio público); la alternativa
-  más fiel al dibujo del libro —«EEC Safety Sign 1992»— lleva una licencia a
-  medida de Eur-Lex que no está en la lista de licencias admitidas por el
-  repositorio, así que se ha descartado.
-- La de **materiales inflamables** es un triángulo amarillo; en el libro el
-  fondo del triángulo se ve naranja por el degrade de la foto del módulo.
+> **Cambio de noviembre de 2026 (a petición del profesor):** estas nueve
+> imágenes ya **no** son los pictogramas sueltos de Wikimedia Commons, sino los
+> **dibujos reales del recuadro de la página 20 del libro**, recortados de
+> `pag20.jpeg` (1216×1600) y ampliados ×2 con filtrado bicúbico. Así la carta
+> enseña la señal tal y como aparece en el material del curso.
+>
+> - Ficha: `source` = «Itinerario Personal para la Empleabilidad, página 20
+>   (recuadro de señales)», `autor` = «Material del curso *Itinerario Personal
+>   para la Empleabilidad* (Colegio Areteia)», `licencia` = «Material propio del
+>   curso, uso educativo».
+> - La foto de la página sale **apagada** (la luz se cae hacia el margen), así
+>   que cada recorte lleva una **curva de tono por pixel**: realce del contraste
+>   (×1,18), claridad (+16) y saturación (×1,25). Se hace píxel a píxel con
+>   `LockBits` sobre un bitmap de 24 bpp porque el atributo `SetGamma` de GDI+
+>   deja el bitmap en un estado que luego no se puede guardar («Error genérico en
+>   GDI+») y una `ColorMatrix` dejaba la imagen en blanco.
+> - Resultado: **JPEG real**, 156-244 px de lado, 5,6-9,4 KB cada una.
+> - Recorte de la **cruz verde de primeros auxilios** disponible
+>   (`test-results/senales/primeros-auxilios.jpg`): se ofrece para la carta de
+>   salvamento si el profesor la prefiere a la del teléfono.
+> - Las **cuatro cartas de tipo** (prohibición, advertencia, obligación y
+>   salvamento) y el cierre siguen con sus fotos: en la página 20 no hay
+>   dibujo propio para ellas.
 
 ## Validación
+
+**Ronda de noviembre de 2026 (recortes del libro, carta suprimida y foto del
+riesgo psicosocial):**
+
+- `node scripts/check.js` → OK (202 checks; los 17 avisos de «imagen sacada de
+  un documento» son preexistentes y de otros temas).
+- `node scripts/checks/suite-markup.js` → 8 páginas montan cabecera y pie.
+- `node scripts/check-version-bump.js` → OK (VERSION `memofun-v216` → `memofun-v224`).
+- `node scripts/smoke-sw.js` → SW smoke PASS (`memofun-v224`).
+- `node scripts/i18n-keys-smoke.js` → todas las claves registradas en todos los idiomas.
+- `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion --ancla-marcada`
+  → 9 barajas, 59 tarjetas, 59 con ancla, 0 avisos.
+- `node scripts/ui-smoke.js` → UI Playwright PASS (8 rutas, 81 interacciones).
+- Recorrido Playwright de la baraja de señalización (14 cartas): las 14
+  imágenes cargan (`naturalWidth > 0`), con `alt` redactado y sin errores de consola.
+- Firma y peso de las 13 imágenes de la baraja: **JPEG real** (`FF D8`) en las 13,
+  de 5,6 KB a 78 KB (todas por debajo del tope de 200 KB).
+
+**Escaneo anterior (octubre de 2026, del tema completo):**
 
 - `node scripts/check.js` → OK (209 checks).
 - `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion --ancla-marcada`
@@ -635,7 +697,6 @@ volver a descubrirlas.
 | §1 Técnicas de prevención y protección | Adoptar medidas de control | «qué hacer para tapar el peligro» |
 | §1 Técnicas de prevención y protección | Técnicas de prevención | «antes» / «ese primer grupo» |
 | §1 Técnicas de prevención y protección | Técnicas de protección | «durante» / «reduce el daño» |
-| §1 Técnicas de prevención y protección | Persona (prevención) · riesgo (protección) | «sobre ti» / «sobre el peligro» |
 | §2 Técnicas básicas | Prevención de riesgos | «antes de que ocurra el problema» |
 | §2 Técnicas básicas | Organización del trabajo | «repartir las tareas» / «hacer pausas» |
 | §2 Técnicas básicas | Formación e información | «enseña» / «le informa» |
