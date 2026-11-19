@@ -23,7 +23,6 @@ if (window.App.i18n) {
       continue: 'Continuar →',
       pinButton: 'Fijar como mi curso',
       pinnedButton: 'Curso fijado',
-      completedOf: '{done}/{total} completadas',
       seoTitle: 'Tarjetas de memoria para aprender a tu ritmo',
       metaDescription: 'Memofun es una aplicación web gratuita y sin registro de tarjetas de memoria (flashcards) para estudiar y repasar a tu ritmo: barajas por curso y asignatura, sin distracciones. Parte de la suite Apptonomia.',
       enInviteTitle: '¿Nos ayudas con la versión en inglés?',

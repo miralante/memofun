@@ -310,6 +310,14 @@ normales, así que atrás/adelante y los marcadores funcionan gratis:
 - Curso fijado: aparece una tarjeta de "acceso rápido" al principio
   del nivel de cursos, que enlaza directamente a las asignaturas de
   ese curso.
+- Tarjeta de curso: icono, nombre y **cuántas asignaturas tiene**
+  ("5 asignaturas"). Nada más: el avance del curso (cuántas barajas
+  están ya completadas) **no** se enseña en la rejilla. Ese dato
+  contestaba una pregunta que la rejilla no plantea —la rejilla es
+  para elegir dónde estudiar— y empujaba a mirar un contador de
+  progreso antes de haber empezado. El avance vive donde corresponde:
+  en el sello ⭐ de cada baraja ya repasada y en el progreso de la
+  asignatura, no en la lista de cursos.
 - Tarjeta de baraja: icono, nombre de la baraja y **una invitación a
   practicarla** (`home.deckInvite`, clase `.deck-cta`). **No lleva el
   número de tarjetas**: `deck.amount` se sigue guardando en

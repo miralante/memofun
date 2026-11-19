@@ -1055,3 +1055,36 @@ test('29 — the /dev/ mirror marks the same topics as draft', async ({ browser 
   expect(cards.filter(c => c.draft).length).toBe(6);
   expect(cards.filter(c => c.badge === 'Borrador').length).toBe(6);
 });
+
+test('30 — a course card shows how many subjects it has, and nothing else', async ({ browser }) => {
+  // The grid is for choosing where to study, so the course card says how
+  // many subjects it holds and stops there — even when there is progress
+  // behind it. The completed-decks counter ("5 asignaturas · 11/89
+  // completadas") used to sit here and answered a question the grid
+  // never asks.
+  const page = await openWithStorage(browser, () => {
+    localStorage.setItem('memofun:locale', JSON.stringify('es'));
+    localStorage.setItem('memofun:progress', JSON.stringify({
+      stars: 1,
+      completed: {
+        'fpb-sa-1-ipe-t1-seguridad-salud': true,
+        'fpb-sa-1-ipe-t1-condiciones-seguridad': true
+      }
+    }));
+  });
+  await page.waitForSelector('#deck-grid .deck-card');
+
+  const metas = await page.locator('#deck-grid > .deck-grid > .deck-card .deck-meta').evaluateAll(nodes =>
+    nodes.map(n => n.textContent.trim())
+  );
+  expect(metas.length).toBeGreaterThan(0);
+  for (const meta of metas) {
+    expect(meta).toMatch(/^\d+ asignaturas$/);
+    expect(meta).not.toContain('completadas');
+  }
+
+  // The FPB course is on the grid with its own subject count.
+  const fpb = await page.locator('#deck-grid > .deck-grid > .deck-card', { hasText: '1º de FP Básica Servicios Administrativos' })
+    .first().locator('.deck-meta').textContent();
+  expect(fpb.trim()).toBe('5 asignaturas');
+});

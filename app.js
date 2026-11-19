@@ -430,14 +430,6 @@
       App.utils.escapeHtml(App.i18n.t('core.back')) + '">←</a>';
   }
 
-  /** How many of these decks are already marked completed — a derived
-      read of the same progress.completed map used for the per-deck ⭐
-      badge, never a new tracked field (SPEC.md §2.6). */
-  function completedCount(decks, progress) {
-    var done = (progress && progress.completed) || {};
-    return decks.filter(function (d) { return done[d.id]; }).length;
-  }
-
   /** A "Tema N · …" group card: opens the topic level, where its sections
       are listed on their own. Falls back to the deck itself when a topic
       only ever has one section — the same shortcut
@@ -570,12 +562,14 @@
     html += '<div class="deck-grid" role="list">' + byCourse.order.map(function (course, i) {
       var courseDecks = byCourse.map[course];
       var subjectCount = groupBy(courseDecks, function (d) { return d.subject || ''; }).order.length;
-      var done = completedCount(courseDecks, progress);
+      /* The course card says how many subjects it has — and nothing else.
+         It used to add how many of its decks were already finished
+         ("5 asignaturas · 11/89 completadas"): a number nobody asked for
+         on the grid, and one that answered a question the course card
+         doesn't raise. How far along someone is lives where it belongs,
+         on the decks themselves (the ⭐ stamp) and in the progress of
+         the subject, not in the list of courses to choose from. */
       var meta = subjectCount + ' ' + App.i18n.t('home.subjects');
-      if (done > 0) {
-        meta += ' · ' + App.i18n.t('home.completedOf')
-          .replace('{done}', done).replace('{total}', courseDecks.length);
-      }
       return courseCardHtml(course, i, meta);
     }).join('') + '</div>';
 

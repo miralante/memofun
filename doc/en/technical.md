@@ -291,6 +291,13 @@ back/forward and bookmarking work for free:
   (`topicGroup` travels in the URL) and its back button returns here.
 - Pinned course: a "quick access" card appears at the top of the
   course level, linking straight into that course's subjects.
+- Course card: icon, name and **how many subjects it holds**
+  ("5 subjects"). Nothing else: the course's progress (how many decks are
+  already finished) is **not** shown in the grid. That number answered a
+  question the grid never asks — the grid is for choosing where to study —
+  and pushed a progress counter in front of someone who hadn't started
+  yet. Progress lives where it belongs: on the ⭐ stamp of each finished
+  deck and in the subject's own progress, not in the list of courses.
 - Deck card: icon, the deck's name and **an invitation to practise it**
   (`home.deckInvite`, `.deck-cta` class). It carries **no card count**:
   `deck.amount` is still stored in `decks/manifest.json` as the content

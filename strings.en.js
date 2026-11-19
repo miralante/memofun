@@ -23,7 +23,6 @@ if (window.App.i18n) {
       continue: 'Continue →',
       pinButton: 'Pin as my course',
       pinnedButton: 'Course pinned',
-      completedOf: '{done}/{total} completed',
       seoTitle: 'Flashcards to learn at your own pace',
       metaDescription: 'Memofun is a free, no-signup flashcard web app for studying at your own pace: decks organised by course and subject, with no distractions. Part of the Apptonomia suite.',
       enInviteTitle: 'Help us build the English version',
