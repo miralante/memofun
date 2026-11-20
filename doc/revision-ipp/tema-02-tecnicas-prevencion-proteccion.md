@@ -748,8 +748,9 @@ calidad»). Las nueve señales se ilustran ahora con su **vector normativo**:
   no se enciende nada» + «Un círculo rojo con un mechero y una llama tachados en
   diagonal», sin usar «fumar», «encender», «fuego» ni «prohibido», que son
   palabras de su respuesta (R3).
-- Reproducible con los scripts one-off: `recortar-senales-libro.ps1` (recorte
-  del recuadro de la página 20, encuadre y curva de tono) →
+- Reproducible con los scripts one-off: `descargar-vectores.ps1` (descarga de
+  los vectores de Commons) → `renderizar-vectores.js` (rasterizado a JPEG con
+  Chromium) → `instalar-senales.js` (copia a la carpeta del deck) →
   `hoja-contactos-senales.ps1` (hoja 3×3 para revisarlas de una vez) →
   `verificar-jpg.js` (firma JPEG real de las imágenes).
 

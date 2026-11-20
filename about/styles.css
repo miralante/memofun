@@ -16,8 +16,7 @@
    .about-intro (.tagline, .lead, .aviso-ruta, .eyebrow opcional), nav.indice,
    main.stack > section.card, .principios-grid > .principio[style="--acento…"],
    .areas-grid > .area (.area-cifra), .nota-cifras, .pasos, .lista,
-   .siblings-grid > a.sibling (.picto, .sibling-texto > .nombre + .detalle,
-   .flecha-externa), footer.pie-about.
+   footer.pie-about.
    ========================================================================== */
 
 .about {
@@ -133,35 +132,6 @@
   font-size: var(--about-small);
 }
 
-/* Grid de proyectos hermanos ----------------------------------------------- */
-.about .siblings-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: var(--about-space);
-  margin-top: var(--about-space);
-}
-.about .sibling {
-  display: flex;
-  align-items: center;
-  gap: var(--about-space);
-  padding: var(--about-space);
-  background: var(--about-surface);
-  border: 3px solid var(--about-border);
-  border-radius: var(--about-radius);
-  text-decoration: none;
-  color: var(--about-text);
-  transition: border-color 0.15s ease, transform 0.15s ease;
-}
-.about .sibling:hover, .about .sibling:focus-visible {
-  border-color: var(--about-focus);
-  transform: scale(1.02);
-}
-.about .sibling .picto { font-size: 36px; flex-shrink: 0; }
-.about .sibling-texto { display: flex; flex-direction: column; gap: 2px; flex: 1; }
-.about .sibling .nombre { font-weight: 800; color: var(--about-focus); }
-.about .sibling .detalle { font-size: var(--about-small); color: var(--about-text-soft); }
-.about .sibling .flecha-externa { font-size: 1.2em; color: var(--about-text-soft); flex-shrink: 0; }
-
 /* Enlace a la portada de la app (arriba y abajo de la página) ------------- */
 .about .volver-portada { margin: 0; text-align: center; }
 .about .volver-portada a {
@@ -183,5 +153,5 @@
 @media (max-width: 640px) {
   .about .about-intro .tagline { font-size: 1.2em; }
   .about section { padding: var(--about-space); }
-  .about .principios-grid, .about .areas-grid, .about .siblings-grid { grid-template-columns: 1fr; }
+  .about .principios-grid, .about .areas-grid { grid-template-columns: 1fr; }
 }
