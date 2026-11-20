@@ -13,8 +13,8 @@ const DEST = path.join(REPO, 'assets', 'img', 'decks', 'fpb_sa_1_itinerario-pers
 
 // rendered name -> file name in the deck folder
 const MAP = {
-  'ntp-inflamables': 'senal-inflamables.jpg',
-  'w011-caida-nivel': 'senal-caida.jpg',
+  'rd485-1-01': 'senal-inflamables.jpg',
+  'rd485-1-15': 'senal-caida.jpg',
   'p003-no-fuego': 'senal-prohibido-fumar.jpg',
   'p010-no-tocar': 'senal-no-tocar.jpg',
   'm024-via-peatones': 'senal-via-peatones.jpg',

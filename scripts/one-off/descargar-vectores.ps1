@@ -43,6 +43,11 @@ $files = @{
   'ntp-inflamables'         = @{ file = 'NTP 399 NTP 399 PELIGRO, SUSTANCIAS O MATERIAS INFLAMABLES O PELIGRO INFLAMABLE.svg'; png = $true }
   'ntp-caidas'              = @{ file = 'NTP 399 PELIGRO, ATENCIÓN PELIGRO DE CAÍDAS.svg'; png = $true }
   'ntp-proteccion-auditiva' = @{ file = 'NTP 399 USO OBLIGATORIO DE PROTECCIÓN AUDITIVA.svg'; png = $true }
+  # Spanish rule (RD 485/1992, NTP 399): the warning triangles that the deck
+  # actually uses. Their names carry accents, so they only come through the
+  # rendered PNG endpoint.
+  'rd485-1-01'              = @{ file = 'Real Decreto 485-1997 Señal 1.01.svg'; png = $true }
+  'rd485-1-15'              = @{ file = 'Real Decreto 485-1997 Señal 1.15.svg'; png = $true }
 }
 
 function Get-ThumbUrl {

@@ -605,72 +605,83 @@ tarjeta. `senalizacion-seguridad` pasa de 5 a 14 cartas: las cuatro de tipo
 sustituye a la prevención». Cada carta es una señal, con el pictograma real de
 la señal como imagen y la pregunta por su nombre.
 
-| Señal del libro | Fichero instalado | Origen |
+| Señal del libro | Fichero instalado | Vector oficial |
 | --- | --- | --- |
-| Materiales inflamables | `senal-inflamables.jpg` | Recuadro de la página 20 del libro |
-| Caída a distinto nivel | `senal-caida.jpg` | Recuadro de la página 20 del libro |
-| Prohibido fumar y encender fuego | `senal-prohibido-fumar.jpg` | Recuadro de la página 20 del libro |
-| No tocar | `senal-no-tocar.jpg` | Recuadro de la página 20 del libro |
-| Vía obligatoria para peatones | `senal-via-peatones.jpg` | Recuadro de la página 20 del libro |
-| Protección obligatoria del oído | `senal-proteccion-oido.jpg` | Recuadro de la página 20 del libro |
-| Extintor | `senal-extintor.jpg` | Recuadro de la página 20 del libro |
-| Manguera contra incendios | `senal-manguera-incendios.jpg` | Recuadro de la página 20 del libro |
-| Teléfono de salvamento | `senal-telefono-salvamento.jpg` | Recuadro de la página 20 del libro |
+| Materiales inflamables | `senal-inflamables.jpg` | Real Decreto 485/1992, señal 1.01 |
+| Caída a distinto nivel | `senal-caida.jpg` | Real Decreto 485/1992, señal 1.15 |
+| Prohibido fumar y encender fuego | `senal-prohibido-fumar.jpg` | ISO 7010 P003 |
+| No tocar | `senal-no-tocar.jpg` | ISO 7010 P010 |
+| Vía obligatoria para peatones | `senal-via-peatones.jpg` | ISO 7010 M024 |
+| Protección obligatoria del oído | `senal-proteccion-oido.jpg` | ISO 7010 M003 |
+| Extintor | `senal-extintor.jpg` | ISO 7010 F001 |
+| Manguera contra incendios | `senal-manguera-incendios.jpg` | ISO 7010 F002 |
+| Teléfono de salvamento | `senal-telefono-salvamento.jpg` | ISO 7010 E004 |
 
-> **Las nueve imágenes son los dibujos reales del recuadro de la página 20 del
-> libro**, recortados de `pag20.jpeg` (1216×1600) y rehechos para que se lean en
-> la tarjeta. Así la carta enseña la señal tal y como aparece en el material del
-> curso, que es lo que el alumno tiene delante en el temario y en el examen.
+> **Las nueve imágenes son los vectores oficiales de las señales**, descargados de
+> Wikimedia Commons y rasterizados por los scripts one-off. Es la misma señal que
+> la del recuadro del libro, pero en su versión oficial: se lee nítida en la
+> tarjeta y **con el color verdadero**, que la fotografía de la página falsea (el
+> triángulo de materiales inflamables sale naranja en la foto del libro y es
+> amarillo).
 >
-> - Ficha: `source` = «Itinerario Personal para la Empleabilidad, página 20
->   (recuadro de señales)», `autor` = «Material del curso *Itinerario Personal
->   para la Empleabilidad* (Colegio Areteia)», `licencia` = «Material propio del
->   curso, uso educativo».
-> - La foto de la página sale **apagada** (la luz se cae hacia el margen), así
->   que cada recorte lleva una **curva de tono por pixel**: una sola curva
->   calculada sobre la luminancia y aplicada igual a los tres canales, más un
->   +35 % de saturación. Se hace píxel a píxel con `LockBits` sobre un bitmap de
->   24 bpp porque el atributo `SetGamma` de GDI+ deja el bitmap en un estado que
->   luego no se puede guardar («Error genérico en GDI+») y una `ColorMatrix`
->   dejaba la imagen en blanco.
-> - El recorte sale **encuadrado solo**: el papel del libro y los rótulos son
->   grises y negros, así que la caja de la señal se busca por saturación y se
->   recorta con un margen de 4 px (así no se cuela el rótulo del libro).
-> - Resultado: **512 px de lado largo**, **JPEG real** (`FF D8 FF`), 20-31 KB
->   cada una.
-> - Reproducible con `scripts/one-off/recortar-senales-libro.ps1` (recorte,
->   encuadre y tono) y `scripts/one-off/hoja-contactos-senales.ps1` (hoja 3×3
->   para revisarlas todas de una vez).
-> - Recorte de la **cruz verde de primeros auxilios** disponible
->   (`test-results/senales/primeros-auxilios.jpg`): se ofrece para la carta de
->   salvamento si el profesor la prefiere a la del teléfono.
+> - Ficha TASL: `title` = el nombre de la señal, `source` = la URL del fichero
+>   original en Commons, `autor` = el autor del vector, `licencia` = CC0 o
+>   dominio público. Las de la ISO 7010 llevan «Public domain» y las del Real
+>   Decreto 485/1992 «Dominio público (España)».
+> - Rasterizado: **1024×1024 px**, fondo blanco, señal centrada y **JPEG real**
+>   (`FF D8 FF`), entre 21 y 84 KB.
+> - Reproducible con `scripts/one-off/descargar-vectores.ps1` (descarga),
+>   `scripts/one-off/renderizar-vectores.js` (rasterizado con Chromium) y
+>   `scripts/one-off/instalar-senales.js` (copia a la carpeta del deck).
+>   `scripts/one-off/hoja-contactos-senales.ps1` genera la hoja 3×3 para
+>   revisarlas todas de una vez.
+> - **Trampa de descarga:** `upload.wikimedia.org` responde **429** a las ráfagas
+>   desde la misma IP. Los ficheros del Real Decreto 485/1992 llevan `ñ` y
+>   acentos en el nombre, así que solo entran por el **PNG que Commons ya
+>   rasteriza** (`thumb.wikimedia.org/.../1280px-<nombre>.svg.png`), que es el
+>   mismo dibujo. Para el resto, `Special:FilePath/<nombre>` sí funciona.
 > - Las **cuatro cartas de tipo** (prohibición, advertencia, obligación y
 >   salvamento) y el cierre siguen con sus fotos: en la página 20 no hay
->   dibujo propio para ellas.   dibujo propio para ellas.
+>   dibujo propio para ellas.
 
-### Por qué se descartaron los vectores oficiales (noviembre de 2026)
+### Por qué las señales son los vectores oficiales (noviembre de 2026)
 
-Durante un momento las nueve señales se ilustraron con los **vectores oficiales**
-de la familia normativa que usa el propio libro (NTP 399 en España = ISO 7010),
-descargados de Wikimedia Commons y rasterizados por el script. Se descartaron
-porque **no son el mismo dibujo que el del libro**, y la tarjeta tiene que
-enseñar la señal tal y como aparece en el temario:
+La primera versión ilustró las nueve señales con los **recortes del recuadro de
+la página 20** del libro. Se descartaron porque la foto no da calidad de tarjeta
+(papel de fondo, sombras, ruido, 156-244 px) y, sobre todo, porque **falsea el
+color**: en la fotografía el triángulo de materiales inflamables se ve naranja
+cuando el oficial es amarillo.
 
-| Señal | Vector oficial | Dibujo del libro |
+El profesor pidió explícitamente el vector oficial («es el mismo y da más
+calidad»). Las nueve señales se ilustran ahora con su **vector normativo**:
+
+| Señal | Vector oficial | Qué cambia respecto al dibujo del libro |
 | --- | --- | --- |
-| Materiales inflamables | triángulo **amarillo** con la llama | triángulo **naranja** con la llama |
-| Caída a distinto nivel | triángulo naranja W011 | triángulo naranja, otra variante del pictograma |
-| Prohibido fumar y encender fuego | **cerilla** encendida | **llama y mechero** |
-| Extintor | cuadrado con el aparato **y llamas** | cuadrado con el aparato, **sin llamas** |
-| Manguera contra incendios | cuadrado con el carrete **y llamas** | cuadrado con el carrete, **sin llamas** |
+| Materiales inflamables | Real Decreto 485/1992, señal 1.01: triángulo **amarillo** con la llama | en la foto del libro se ve naranja |
+| Caída a distinto nivel | Real Decreto 485/1992, señal 1.15: triángulo **amarillo** con la persona cayendo por un borde | otra variante del pictograma |
+| Prohibido fumar y encender fuego | ISO 7010 P003, **cerilla** encendida | el libro dibuja llama y mechero |
+| Extintor | ISO 7010 F001, cuadrado con el aparato **y llamas** | el libro lo dibuja sin llamas |
+| Manguera contra incendios | ISO 7010 F002, cuadrado con el carrete **y llamas** | el libro lo dibuja sin llamas |
 
-- Se volvió al recorte del libro, pero **rehecho** (encuadre automático + curva
-  de tono sobre la luminancia), para que se lea bien en la tarjeta: el recorte
-  crudo salía sucio (ruido de la foto, papel de fondo, sombras y 156-244 px).
-- Ficha TASL y procedure los quedan descritos en el apartado anterior.
-- **El enunciado de «Prohibido fumar y encender fuego» vuelve a describir el
-  dibujo del libro** («un mechero y una llama tachados»), que es lo que se ve
-  en la imagen de la tarjeta.
+- **Siete de las nueve son de la ISO 7010** (P003, P010, M024, M003, F001, F002
+  y E004). Las dos señales triangulares —materiales inflamables y caída a
+  distinto nivel— son de la **norma española**, el Real Decreto 485/1992 (la
+  NTP 399), cuyo vector es dominio público del Gobierno de España (reproducido
+  en la Guía Técnica del INSST de 2023).
+- **Las dos triangulares se eligen por el color.** La ISO 7010 W011 (caída a
+  distinto nivel) se rasteriza en **ámbar** (`#F9A800`), un tono que en la
+  tarjeta se ve **naranja**: justo el error que produce la fotografía del
+  libro y que el profesor pidió corregir. La norma española usa el **amarillo**
+  de la advertencia (`#E8D91E`), que es el color verdadero del triángulo, y
+  además las dos señales quedan del mismo estilo y del mismo color.
+- En la norma española el riesgo de caída también tiene una variante «PELIGRO»,
+  con el triángulo **rojo** (`NTP 399 PELIGRO, ATENCIÓN PELIGRO DE CAÍDAS`): no
+  es la que avisa de un desnivel, que es la de advertencia, en amarillo.
+- El **enunciado de «Prohibido fumar y encender fuego»** se ajusta al vector
+  oficial: «un círculo rojo con una llama de cerilla tachada. La llama va
+  tachada».
+- El **enunciado de «Materiales inflamables»** cambia «una llama en la base»
+  por «una llama en el centro», que es donde está en el vector español.
 - El resto de ajustes de texto de este apartado (analogía de la protección del
   oído, la del extintor y la del cierre) no dependían de la imagen: los sostiene
   la revisión del profesor, no el dibujo.
@@ -790,6 +801,31 @@ principios: si el módulo trae una enumeración, una carta por elemento.
 
 
 ## Validación
+
+**Ronda de noviembre de 2026 (las nueve señales vuelven a ser los vectores
+oficiales, con la de caída a distinto nivel de la norma española):**
+
+- `node scripts/check.js` → OK (202 checks; los 17 avisos de «imagen sacada de
+  un documento» son preexistentes y de otros temas).
+- `node scripts/check-version-bump.js` → OK (VERSION `memofun-v233` →
+  `memofun-v234`) y `asset-token check passed (memofun)`.
+- `node scripts/smoke-sw.js` → SW smoke PASS (`memofun-v234`).
+- `node scripts/i18n-keys-smoke.js` → todas las claves registradas en todos los idiomas.
+- `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion --ancla-marcada`
+  → 9 barajas, **64 tarjetas, 64 con ancla, 0 avisos**.
+- `node scripts/ui-smoke.js` → UI Playwright PASS (8 rutas, 80 interacciones).
+- Recorrido de la baraja en la app con `scripts/one-off/revisar-senales-app.js`
+  (Chromium): las **14 imágenes cargan con `200 image/jpeg`**, `naturalWidth > 0`
+  y `alt` redactado, una por carta y en orden.
+- Firma y tamaño: **JPEG real** (`FF D8 FF`) en las 14; las nueve señales
+  son de **1024×1024 px** y pesan entre 32 y 86 KB.
+- Revisión visual con dos hojas: `scripts/one-off/hoja-contactos-senales.ps1`
+  (los ficheros de las nueve) y `scripts/one-off/capturar-tarjetas-senales.js`
+  (la imagen de cada señal tal y como se ve dentro de la tarjeta). Así se detectó
+  que la ISO 7010 W011 se rasteriza en **ámbar** y se veía naranja, y se cambió
+  por las señales **1.01** (materiales inflamables) y **1.15** (caída a
+  distinto nivel) del Real Decreto 485/1992, que son **amarillas** y del mismo
+  estilo.
 
 **Ronda de noviembre de 2026 (las nueve señales vuelven a ser los dibujos del
 recuadro de la página 20 del libro):**
