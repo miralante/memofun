@@ -13,8 +13,10 @@
      2. assets/css/brand.css        (the app's own brand: accent colours)
      3. the app's own tokens and components (refine, never redefine brand)
 
-   Only variables live here, no selectors that paint elements, so adopting
-   this file cannot change how an app looks by itself.
+   The vocabulary part holds only variables. The one block that paints
+   elements is the achievement screen (suite:celebrate), synced from
+   scripts/suite/celebrate.css: adopting this file adds that screen and
+   changes nothing else in how an app looks.
    ========================================================================== */
 
 :root {
@@ -64,3 +66,56 @@
   --color-on-accent: #14161E;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
+
+/* suite:celebrate:begin
+   Apptonomia achievement screen, styles. ONE definition for every suite app.
+   Canonical source: apptonomia/scripts/suite/celebrate.css. Copied byte for byte
+   into each app's shared stylesheet by apptonomia/scripts/sync-answer-round.js.
+   Never edit a copy by hand. The achievement is a state of the page: while it is
+   shown, <main> carries .is-celebrating and the activity's own content is hidden. */
+.celebration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.celebration.hidden {
+  display: none;
+}
+
+main.is-celebrating > :not(.celebration) {
+  display: none;
+}
+
+.celebration .emoji {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.celebration .message {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-acierto, var(--color-success, var(--exito, #1f6f43)));
+}
+
+.celebration .goal {
+  max-width: 32rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.celebration .goal.hidden {
+  display: none;
+}
+
+.celebration .celebration-more {
+  min-height: 56px;
+  min-width: min(100%, 14rem);
+  font-size: 1.25rem;
+}
+/* suite:celebrate:end */
