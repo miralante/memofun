@@ -316,13 +316,13 @@ ahora hay una baraja por apartado, sin mezclar contenidos de dos epígrafes.
 | 2.1 Los 8 principios básicos (pag19) | `.../principios-basicos.json` | 8 tarjetas |
 | 2.2 Los 5 tipos de riesgo (pag20) | `.../tipos-de-riesgo.json` | 5 tarjetas |
 | 2.3 Señalización de seguridad (pag20) | `.../senalizacion-seguridad.json` | 14 tarjetas |
-| 2.4 Buenas prácticas para prevenir riesgos (pag21) | `.../buenas-practicas.json` | 1 tarjeta |
+| 2.4 Buenas prácticas para prevenir riesgos (pag21) | `.../buenas-practicas.json` | 6 tarjetas |
 | 2.5 ¿Quién se encarga de la prevención? (pag21) | `.../responsables-prevencion.json` | 4 tarjetas |
 | 3a Protección colectiva (pag22) | `.../proteccion-colectiva.json` | 6 tarjetas |
 | 3b Protección individual / EPI (pag23) | `.../equipos-proteccion-individual.json` | 10 tarjetas |
 | Autoevaluación del centro (hoja del alumno, 3 fotos) | `.../autoevaluacion.json` | 13 preguntas (5 tipos) |
 
-**Total tema 2:** 9 barajas (59 tarjetas) + 1 autoevaluación (13 preguntas).
+**Total tema 2:** 9 barajas (64 tarjetas) + 1 autoevaluación (13 preguntas).
 La entrada con `selfTest` es `fpb-sa-1-ipe-t2-definicion` (una sola por tema).
 
 ### La autoevaluación (hoja del cuaderno del alumno)
@@ -475,7 +475,7 @@ la numeración «2.0» era inventada.
 | 2.1 (pag19) | `principios-basicos.json` | 8 | **nueva**: los 8 principios salen de `tecnicas-basicas-prevencion` |
 | 2.2 (pag20) | `tipos-de-riesgo.json` | 5 | sin cambios |
 | 2.3 (pag20) | `senalizacion-seguridad.json` | 14 | ampliada con las nueve señales concretas del recuadro de la página 20 |
-| 2.4 (pag21) | `buenas-practicas.json` | 1 | **nueva**: sale de `responsables-prevencion` |
+| 2.4 (pag21) | `buenas-practicas.json` | 6 | **rehecha**: una tarjeta por cada una de las seis prácticas |
 | 2.5 (pag21) | `responsables-prevencion.json` | 4 | se queda con los 4 responsables |
 | 3a (pag22) | `proteccion-colectiva.json` | 6 | sin cambios |
 | 3b (pag23) | `equipos-proteccion-individual.json` | 9 | sin cambios |
@@ -489,15 +489,13 @@ la numeración «2.0» era inventada.
   (`fpb-sa-1-ipe-t2-definicion`).
 - `sw.js`: los dos JSON nuevos se añaden a la lista de precarga para que la
   baraja funcione sin conexión.
-- **Pendiente de decisión:** §2.4 es, en el libro, una lista de seis consejos
-  («mantén la zona limpia», «usa los EPI», «sigue las instrucciones», «no uses
-  máquinas que no conoces», «informa de algo peligroso», «participa en la
-  formación») bajo un único epígrafe, así que de momento son **una sola
-  tarjeta**. Su anverso enumera ya **los seis consejos de la página 21**
-  (en cuatro frases de pista, dentro del límite de la guía), y el ancla sigue
-  siendo «algo peligroso» → «riesgos». Es la baraja más corta del tema y
-  queda por debajo del objetivo de 8-15 tarjetas por sesión; la alternativa
-  es abrir una tarjeta por cada consejo (con imagen propia para cada una).
+- **§2.4 son seis cartas, una por práctica** (noviembre de 2026): la baraja
+  estaba antes como **una sola tarjeta** que enumeraba los seis consejos de la
+  página 21 en el anverso; por indicación del profesor («aparece como sola en
+  una baraja, hay que rehacer esta baraja, es un lío y no se entiende») se
+  rehizo **una carta por cada una de las seis prácticas** del §2.4, cada una con
+  su propia imagen y su propio ancla. Ver la sección «Las seis buenas
+  prácticas» más abajo.
 
 ### Tarjeta eliminada (19 de noviembre de 2026)
 
@@ -535,7 +533,12 @@ la pista de su tarjeta).
 | `principios-basicos` | Evitar los riesgos | diagrama NIOSH en inglés | interruptor general con candado (energía aislada) |
 | `principios-basicos` | Combatir los riesgos desde el origen | herramientas oxidadas y apagadas | botón de parada de emergencia en el panel |
 | `principios-basicos` | Adaptar el trabajo a la persona | hombre cargando cajas en un triciclo | puesto de trabajo con mesa de altura regulable |
-| `buenas-practicas` | Buenas prácticas | pasillo de juguetes (duplicado) | herramientas guardadas en su sitio |
+| `buenas-practicas` | Zona de trabajo limpia y ordenada | pasillo de juguetes (duplicado) | herramientas de un taller de joyería guardadas en su sitio |
+| `buenas-practicas` | Usar siempre los EPI | — | operarios de una obra con casco y chaleco |
+| `buenas-practicas` | Seguir las instrucciones de seguridad | — | grupo escuchando el parte antes de empezar a trabajar |
+| `buenas-practicas` | No usar máquinas si no sabes cómo funcionan | — | operarios bloqueando un cuadro eléctrico con candado y etiqueta |
+| `buenas-practicas` | Informar si ves algo peligroso | — | inspectora de seguridad con libreta revisando un camión |
+| `buenas-practicas` | Participar en cursos de formación | — | reunión de seguridad con un grupo de trabajadores |
 | `responsables-prevencion` | El empresario | puesto de mercado informal en Senegal | comercio de barrio en Cardiff |
 | `responsables-prevencion` | El trabajador | trabajador **sin EPI** con un lápiz en la boca | trabajador con casco, gafas y medidor de ruido |
 | `responsables-prevencion` | Delegado de prevención | ministra y «Delegado Presidencial» (cargos políticos) | asamblea del consejo de trabajo |
@@ -598,21 +601,21 @@ preocupada y agotada**: un trabajador preocupado con su trabajo, no un papeleo.
 
 El recuadro de la página 20 trae nueve señales dibujadas, y ninguna tenía
 tarjeta. `senalizacion-seguridad` pasa de 5 a 14 cartas: las cuatro de tipo
-(por color), las nueve señales concretas y el cierre «solo avisa, no la
-sustituye». Cada carta es una señal, con el pictograma real de la señal como
-imagen y la pregunta por su nombre.
+(por color), las nueve señales concretas y el cierre «la señalización no
+sustituye a la prevención». Cada carta es una señal, con el pictograma real de
+la señal como imagen y la pregunta por su nombre.
 
 | Señal del libro | Fichero instalado | Origen |
 | --- | --- | --- |
-| Materiales inflamables | `senal-inflamables.jpg` | recorte de la página 20 |
-| Caída a distinto nivel | `senal-caida.jpg` | recorte de la página 20 |
-| Prohibido fumar y encender fuego | `senal-prohibido-fumar.jpg` | recorte de la página 20 |
-| No tocar | `senal-no-tocar.jpg` | recorte de la página 20 |
-| Vía obligatoria para peatones | `senal-via-peatones.jpg` | recorte de la página 20 |
-| Protección obligatoria del oído | `senal-proteccion-oido.jpg` | recorte de la página 20 |
-| Extintor | `senal-extintor.jpg` | recorte de la página 20 |
-| Manguera contra incendios | `senal-manguera-incendios.jpg` | recorte de la página 20 |
-| Teléfono de salvamento | `senal-telefono-salvamento.jpg` | recorte de la página 20 |
+| Materiales inflamables | `senal-inflamables.jpg` | NTP 399 (Wikimedia Commons) |
+| Caída a distinto nivel | `senal-caida.jpg` | ISO 7010 W011 (Wikimedia Commons) |
+| Prohibido fumar y encender fuego | `senal-prohibido-fumar.jpg` | ISO 7010 P003 (Wikimedia Commons) |
+| No tocar | `senal-no-tocar.jpg` | ISO 7010 P010 (Wikimedia Commons) |
+| Vía obligatoria para peatones | `senal-via-peatones.jpg` | ISO 7010 M024 (Wikimedia Commons) |
+| Protección obligatoria del oído | `senal-proteccion-oido.jpg` | ISO 7010 M003 (Wikimedia Commons) |
+| Extintor | `senal-extintor.jpg` | ISO 7010 F001 (Wikimedia Commons) |
+| Manguera contra incendios | `senal-manguera-incendios.jpg` | ISO 7010 F002 (Wikimedia Commons) |
+| Teléfono de salvamento | `senal-telefono-salvamento.jpg` | ISO 7010 E004 (Wikimedia Commons) |
 
 > **Cambio de noviembre de 2026 (a petición del profesor):** estas nueve
 > imágenes ya **no** son los pictogramas sueltos de Wikimedia Commons, sino los
@@ -638,7 +641,185 @@ imagen y la pregunta por su nombre.
 >   salvamento) y el cierre siguen con sus fotos: en la página 20 no hay
 >   dibujo propio para ellas.
 
+### Las nueve señales, rehechas con los vectores oficiales (noviembre de 2026)
+
+Los recortes de la página 20 se veían **sucios**: ruido de la foto del libro,
+fondo de papel, sombras, borde de página y una resolución de 156-244 px que
+no aguantaba ni el tamaño de tarjeta del móvil. La señal que aparece en la
+tarjeta es, además, la pista visual de la pregunta: si la imagen no se lee,
+la tarjeta no funciona.
+
+Las nueve se han sustituido por los **vectores oficiales** de la misma familia
+normativa que usa el propio libro (NTP 399 en España = ISO 7010), descargados
+de Wikimedia Commons y rasterizados por el propio script:
+
+| Señal | Fichero oficial | Licencia | Autor |
+| --- | --- | --- | --- |
+| Materiales inflamables | `NTP 399 … PELIGRO INFLAMABLE.svg` | CC0 | Bigguy637 |
+| Caída a distinto nivel | `ISO 7010 W011.svg` | Public domain | MaxxL |
+| Prohibido fumar y encender fuego | `ISO 7010 P003.svg` | Public domain | ISO |
+| No tocar | `ISO 7010 P010.svg` | Public domain | ISO |
+| Vía obligatoria para peatones | `ISO 7010 M024.svg` | Public domain | ISO |
+| Protección obligatoria del oído | `ISO 7010 M003.svg` | Public domain | ISO |
+| Extintor | `ISO 7010 F001.svg` | Public domain | MaxxL |
+| Manguera contra incendios | `ISO 7010 F002.svg` | Public domain | MaxxL |
+| Teléfono de salvamento | `ISO 7010 E004.svg` | Public domain | MaxxL |
+
+- Rasterizado en **1024×1024 sobre fondo blanco**, el signo centrado y con
+  margen, con Chromium (`scripts/one-off/renderizar-vectores.js`). Los SVG de
+  ISO 7010 vienen sin `viewBox`, así que el script lo inyecta a partir del
+  `width`/`height`; sin eso el dibujo se queda en su tamaño en píxeles y
+  aparece encogido en una esquina.
+- **JPEG real** de 32-84 KB (el sitio sirve `X-Content-Type-Options: nosniff`:
+  un PNG renombrado a `.jpg` no se pintaría en producción).
+- Ficha TASL actualizada: `source` = la página del fichero en Commons,
+  `autor` = ISO / MaxxL / Bigguy637, `licencia` = «Public domain» o «CC0»,
+  y `alt` describiendo lo que se ve de verdad (no «dibujado en el recuadro de
+  señales del libro», que ya no es cierto).
+- **Dos ajustes de texto que exigía la imagen nueva** (el enunciado ya no
+  encajaba con el pictograma oficial):
+  - «Prohibido fumar y encender fuego»: el dibujo es una **cerilla** encendida,
+    no un mechero. El enunciado pasa de «ni cigarros ni mecheros … un mechero y
+    una llama tachados» a «ni un pitillo ni una brasa … una llama de cerilla
+    tachada». La analogía se reescribió además para no regalar la respuesta
+    (R3: el anverso no puede decir «fumar», «encender» ni «fuego»).
+  - «Caída a distinto nivel»: el triángulo oficial es **naranja**, no amarillo
+    como el recorte del libro. Solo se corrige el `alt`, que describía el
+    color; el enunciado no lo nombraba.
+- **Un tercer ajuste de texto, ya no por la imagen sino por la revisión del
+  profesor** (noviembre de 2026): en «Protección obligatoria del oído» la
+  analogía «Es como el aviso del jefe antes de que arranque la máquina» no se
+  entendía —no decía de qué cartel se trata ni por qué hacía falta. Se
+  reescribe como «Es como el cartel de la puerta del taller: hay tanto ruido
+  que sin cascos no se trabaja», que explica las tres cosas: dónde está el
+  cartel, por qué hace falta (el ruido) y que es de cumplimiento obligatorio.
+  El ancla «orejeras» sigue en el anverso y **fuera** de la analogía (R7), y el
+  anverso no dice «oído» ni «obligatoria» (R3).
+- **Un cuarto ajuste, también por la revisión del profesor** (noviembre de
+  2026): en «Extintor» la analogía «Es como el botiquín de la cocina: colgado
+  en la pared, a la vista» no encajaba — un botiquín de primeros auxilios no
+  tiene nada que ver con un equipo contra incendios; solo se conservaba el
+  «colgado en la pared». Se reescribe como «Es como el cartel del cuarto de
+  contraincendios: te dice dónde encontrar el equipo de emergencias», que es
+  justo lo que hace la señal F001: **marcar dónde está el aparato**. El ancla
+  «apagar» se mantiene en el anverso y fuera de la analogía, y la analogía no
+  dice «extintor» (R3).
+- **Un quinto ajuste, en la carta de cierre y por la revisión del profesor**
+  (noviembre de 2026): el cierre preguntaba «¿Cuál es el papel de los carteles
+  respecto a la prevención?» y respondía «Solo avisa, no la sustituye», una
+  formulation rara que además mezclaba dos planos. Se reescribe con la
+  formulación literal del temario:
+  - **pág. 20 §2.3**: «Cuando las medidas de prevención no hayan podido
+    eliminar los riesgos o reducirlos suficientemente, será necesario utilizar
+    medidas de señalización, pero no usarlas de manera que sustituya la
+    PREVENCIÓN» y «Las señales ayudan a informar y advertir».
+  - **Autoevaluación del tema 2, pregunta 2**: «Las señales de seguridad pueden
+    sustituir a la prevención» → **falso**.
+  - **pág. 17 §1**: prevención = actuar **antes**, sobre el receptor;
+    protección = actuar sobre el riesgo o el medio de transmisión, «evitan o
+    disminuyen los daños laborales de los riesgos que no se han podido
+    eliminar».
+
+  Carta final: anverso «Las señales informan y advierten. Se ponen cuando el
+  riesgo no se ha podido quitar. Si la empresa se queda solo con las señales,
+  ¿qué regla se está incumpliendo?» y respuesta «La señalización no sustituye
+  a la prevención». El anverso **no** dice «señalización» ni «prevención» (R3:
+  la respuesta no se regala) y el ancla «no seca el suelo» sigue apuntando al
+  «sustituye» de la respuesta (R6).
+- **Las cuatro cartas de tipo** (prohibición, advertencia, obligación y
+  salvamento) y el cierre no se tocan: no venían del recorte del libro.
+- **Un sexto ajuste, en la carta de la manguera (noviembre de 2026):** la
+  analogía «Es como el tubo de agua que guardan en el garaje» no explicaba
+  qué era ese equipo ni por qué se señaliza: un tubo en un garaje no dice nada
+  de la red de agua del edificio ni de que ese equipo se usa cuando hay fuego.
+  Se reescribe como «Es como el rollo de tubo que hay en la escalera de los
+  bloques: está conectado a la red de agua», que explica las tres cosas: dónde
+  está, que es un rollo (el ancla «carrete») y de dónde sale el agua. El
+  anverso sigue sin decir «manguera» ni «incendios» (R3) y el ancla «carrete»
+  continúa apuntando a la respuesta.
+- **Un séptimo ajuste, unificando las dos analogías de «la gasolinera»
+  (noviembre de 2026):** «Materiales inflamables» y «Prohibido fumar y encender
+  fuego» usaban el cartel de la gasolinera con dos frases distintas («avisa del
+  fuego antes de que salga» y «ni un pitillo ni una brasa»), lo que rompía la
+  lectura de las dos señales como parte de la misma familia. Se unifican con
+  el **mismo esqueleto**: las dos empiezan «Es como el cartel de la
+  gasolinera: avisa de…» y lo que las distingue es el matiz (una avisa, la otra
+  prohíbe) más el pictograma. La de «Prohibido fumar» pasa a «avisa de que ahí
+  no se enciende nada» + «La llama va tachada», sin usar «fumar», «encender»,
+  «fuego» ni «prohibido», que son palabras de su respuesta (R3).
+- Reproducible con los scripts one-off: `descargar-vectores.ps1` →
+  `renderizar-vectores.js` → `instalar-senales.js` → `actualizar-senales.js` →
+  `verificar-jpg.js`.
+
+### Las seis buenas prácticas (noviembre de 2026)
+
+La baraja `buenas-practicas.json` era **una sola tarjeta** que metía los seis
+consejos de la página 21 en el anverso y respondía «Buenas prácticas para
+prevenir riesgos»: era un lío y no se entendía nada. Por indicación del
+profesor se rehace **con una carta por cada una de las seis prácticas** del
+§2.4 —el criterio que ya se aplicó a las nueve señales y a los ocho
+principios: si el módulo trae una enumeración, una carta por elemento.
+
+| # | Carta (respuesta) | Ancla en el anverso | Imagen |
+| --- | --- | --- | --- |
+| 1 | Mantener la zona de trabajo limpia y ordenada | «puesto» | `zona-de-trabajo-limpia.jpg` |
+| 2 | Usar siempre los EPI que te den | «casco» | `epi.jpg` |
+| 3 | Seguir las instrucciones de seguridad | «normas» | `instrucciones-seguridad.jpg` |
+| 4 | No usar máquinas si no sabes cómo funcionan | «equipo» | `maquinas.jpg` |
+| 5 | Informar si ves algo peligroso | «avisa» | `informar.jpg` |
+| 6 | Participar en cursos de formación sobre seguridad | «clase» | `formacion.jpg` |
+
+- **Analogía + ancla + respuesta**: cada carta sigue el patrón del mazo de
+  señalización: una analogía de la vida cotidiana dentro de `<mark>` (que no
+  regala la respuesta), el ancla subrayada con `<u>` **fuera** de la analogía
+  (R7) y la pregunta final. Ejemplos: «Es como tener la cocina en orden: cada
+  utensilio en su sitio» (1), «Es como el casco de la moto: te lo dan porque sin
+  él no conduces» (2), «Es como el aparato que no reconoces: primero preguntas
+  y después lo tocas» (4).
+- **Imágenes**: tres se reutilizan del repo porque encajan bien (`epi.jpg` de
+  `equipos-proteccion-individual`, `formacion.jpg` de
+  `tecnicas-basicas-prevencion` y la de taller de joyería, antes reutilizada
+  como `buenas-practicas.jpg` y renombrada a `zona-de-trabajo-limpia.jpg`); las
+  tres que faltaban se descargan de Wikimedia Commons con licencia verificada
+  (`Safety briefing before digging`, BLMUtah, dominio público; `Lockout
+  Tagout`, NAVFAC, dominio público; `Safety Inspector Shawna Harden…`,
+  OregonDOT, CC BY 2.0). Todas en **JPEG real** y por debajo de 200 KB.
+- **Anclas y el mapa de sinónimos**: el auditor (`--ancla-marcada`) exige que
+  el ancla conecte con una palabra de la respuesta. Para la carta de los EPI
+  hizo falta añadir la clave `epi` al bloque del tema 2 en
+  `scripts/audit-deck-anchors.js` (`casco`, `gafas`, `guantes`, `botas`,
+  `mascarilla`), porque el índice del mapa es la **palabra exacta de la
+  respuesta**: «casco» no estaba indexado como sinónimo de «epi».
+- Un ajuste de texto por el límite de frases de pista (R1): la pista «Si no te
+  han explicado cómo va el equipo, mejor ni lo arranques» tenía 13 palabras y
+  pasa a «Si no te han explicado cómo va el equipo, ni lo arranques» (12).
+- `decks/manifest.json`: `amount` de `fpb-sa-1-ipe-t2-buenas-practicas` pasa
+  de 1 a 6. `sw.js`: VERSION `memofun-v230` → `memofun-v231` (cambia el JSON de
+  la baraja y el manifest, los dos dentro de `FILES`).
+
+
 ## Validación
+
+**Ronda de noviembre de 2026 (baraja de buenas prácticas rehecha a 6 cartas):**
+
+- `node scripts/check.js` → OK (202 checks; los 17 avisos de «imagen sacada de
+  un documento» son preexistentes y de otros temas).
+- `node scripts/check-version-bump.js` → OK (VERSION `memofun-v230` →
+  `memofun-v231`) y `asset-token check passed (memofun)`.
+- `node scripts/smoke-sw.js` → SW smoke PASS (`memofun-v231`).
+- `node scripts/i18n-keys-smoke.js` → todas las claves registradas en todos los idiomas.
+- `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion --ancla-marcada`
+  → 9 barajas, **64 tarjetas, 64 con ancla, 0 avisos**.
+- `node scripts/ui-smoke.js` → UI Playwright PASS (8 rutas, 82 interacciones).
+- Recorrido en el navegador de las 6 cartas nuevas: las 6 imágenes cargan
+  (`200 OK`, `image/jpeg`), con su `alt` redactado y sin errores de consola
+  (solo el aviso preexistente `[i18n] missing key: core.chrome.byline`, del
+  cromo compartido, que cae al diccionario propio y no afecta a esta baraja).
+  El contador muestra «Tarjeta 6 de 6».
+- Firma y tamaño de las 6 imágenes: **JPEG real** (`FF D8 FF`) en las 6, de 29
+  KB a 176 KB (todas por debajo del tope de 200 KB) y lado largo ≤ 1024 px
+  (`maquinas.jpg` venía a 1280 px y se reescaló a 1024×534 con
+  `scripts/one-off/redimensionar-imagen.ps1`).
 
 **Ronda de noviembre de 2026 (recortes del libro, carta suprimida y foto del
 riesgo psicosocial):**
@@ -728,8 +909,13 @@ volver a descubrirlas.
 | §2.3 Señalización | Extintor | «apagar» |
 | §2.3 Señalización | Manguera contra incendios | «carrete» |
 | §2.3 Señalización | Teléfono de salvamento | «llamar» |
-| §2.3 Señalización | Solo avisa, no la sustituye | «no seca el suelo» / «el peligro sigue ahí» |
-| §2.4 Buenas prácticas | Buenas prácticas para prevenir riesgos | «mantener su zona de trabajo limpia y ordenada» / «algo peligroso» |
+| §2.3 Señalización | La señalización no sustituye a la prevención | «no seca el suelo» |
+| §2.4 Buenas prácticas | Zona de trabajo limpia y ordenada | «puesto» |
+| §2.4 Buenas prácticas | Usar siempre los EPI que te den | «casco» |
+| §2.4 Buenas prácticas | Seguir las instrucciones de seguridad | «normas» |
+| §2.4 Buenas prácticas | No usar máquinas si no sabes cómo funcionan | «equipo» |
+| §2.4 Buenas prácticas | Informar si ves algo peligroso | «avisa» |
+| §2.4 Buenas prácticas | Participar en cursos de formación sobre seguridad | «clase» |
 | §2.5 Responsables | El empresario | «la empresa» / «dueño de la casa» |
 | §2.5 Responsables | El trabajador | «cada persona cumple las normas» |
 | §2.5 Responsables | Delegado de prevención | «los eligen» / «representa a todo el grupo» |

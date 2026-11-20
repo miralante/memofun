@@ -780,7 +780,12 @@ var SINONIMOS = mergeMaps([
   oido: ['orejeras', 'oidos', 'ruido', 'sonido', 'tapones'],
   manguera: ['carrete', 'tubo', 'rollo', 'enrollado'],
   incendios: ['fuego', 'llamas', 'arden'],
-  telefono: ['llamar', 'llamada', 'auricular', 'marcar']
+  telefono: ['llamar', 'llamada', 'auricular', 'marcar'],
+  /* §2.4 Buenas prácticas (página 21): una tarjeta por cada una de las seis
+   * prácticas, con el ancla en el objeto que se ve en la imagen. */
+  epi: ['casco', 'gafas', 'guantes', 'botas', 'mascarilla',
+    'equipo de proteccion individual', 'proteccion individual'],
+  maquinas: ['equipo', 'aparato']
   },
   {
   /* Tema 3 de Itinerario Personal para la Empleabilidad (IPP): técnicas

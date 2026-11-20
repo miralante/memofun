@@ -258,6 +258,12 @@ como quien le cuenta algo interesante a un amigo, no como un manual:
   - Se guardan en `localStorage` (`memofun:achievements`) solo con la
     fecha de la primera vez, se borran junto con el progreso y no
     aparecen en "Sobre la app".
+  - La pantalla de logros (bloque compartido `suite:celebrate`) cierra cada
+    baraja con la línea de progreso «Ya tienes X estrellas · A por las Y
+    estrellas»: X es el número de estrellas que tienes ahora y Y el
+    siguiente múltiplo de 5 (`stars-engine.js` → `goalFor`). Igual que en
+    calculia, routime y sinonimia, X no es el hito de logros: la línea
+    nunca se queda a medias por no haber llegado a los diez.
 
 ### 2.7 Accesibilidad universal
 

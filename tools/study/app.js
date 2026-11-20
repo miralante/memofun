@@ -259,6 +259,22 @@
   function renderCard() { flip(paintQuestion); }
   function revealAnswer() { flip(paintAnswer); }
 
+  /* The progress line of the achievement screen: "Ya tienes X estrellas · A por
+     las Y estrellas", with X = the stars the person has now and Y = the next
+     goal (the nearest multiple of 5). The sibling apps build it exactly this
+     way (calculia's App.feedback.starsGoal, routime's starsGoal). The stars
+     engine's line() would put only the last milestone (a multiple of 10) in
+     the first half, so the line would lose it until the tenth star. mark() is
+     still called: the achievement screen asks the engine takeNewStar() to know
+     whether the total went up and a new star has to be congratulated. */
+  function starsGoal(total) {
+    var stars = window.ApptonomiaStars;
+    if (!stars) return '';
+    stars.mark(total);
+    return App.i18n.t('study.starsReached').replace('{n}', total) + ' · ' +
+      App.i18n.t('study.starsGoal').replace('{n}', stars.goalFor(total));
+  }
+
   function showEndScreen() {
     App.storage.completeDeck(deckId);
     /* Unlock achievements and announce the new ones once, neutrally, in the
@@ -280,10 +296,7 @@
        congratulation is the generic finish message, which the new star replaces
        ("¡Has conseguido una nueva estrella!"). The static title stays in the end
        screen for accessibility and i18n parity. */
-    App.feedback.celebrate(App.i18n.t('core.roundComplete'), null, window.ApptonomiaStars.line(App.storage.totalStars(), {
-      reached: App.i18n.t('study.starsReached'),
-      goal: App.i18n.t('study.starsGoal')
-    }));
+    App.feedback.celebrate(App.i18n.t('core.roundComplete'), null, starsGoal(App.storage.totalStars()));
   }
 
   function goNext() {
