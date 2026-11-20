@@ -607,85 +607,74 @@ la señal como imagen y la pregunta por su nombre.
 
 | Señal del libro | Fichero instalado | Origen |
 | --- | --- | --- |
-| Materiales inflamables | `senal-inflamables.jpg` | NTP 399 (Wikimedia Commons) |
-| Caída a distinto nivel | `senal-caida.jpg` | ISO 7010 W011 (Wikimedia Commons) |
-| Prohibido fumar y encender fuego | `senal-prohibido-fumar.jpg` | ISO 7010 P003 (Wikimedia Commons) |
-| No tocar | `senal-no-tocar.jpg` | ISO 7010 P010 (Wikimedia Commons) |
-| Vía obligatoria para peatones | `senal-via-peatones.jpg` | ISO 7010 M024 (Wikimedia Commons) |
-| Protección obligatoria del oído | `senal-proteccion-oido.jpg` | ISO 7010 M003 (Wikimedia Commons) |
-| Extintor | `senal-extintor.jpg` | ISO 7010 F001 (Wikimedia Commons) |
-| Manguera contra incendios | `senal-manguera-incendios.jpg` | ISO 7010 F002 (Wikimedia Commons) |
-| Teléfono de salvamento | `senal-telefono-salvamento.jpg` | ISO 7010 E004 (Wikimedia Commons) |
+| Materiales inflamables | `senal-inflamables.jpg` | Recuadro de la página 20 del libro |
+| Caída a distinto nivel | `senal-caida.jpg` | Recuadro de la página 20 del libro |
+| Prohibido fumar y encender fuego | `senal-prohibido-fumar.jpg` | Recuadro de la página 20 del libro |
+| No tocar | `senal-no-tocar.jpg` | Recuadro de la página 20 del libro |
+| Vía obligatoria para peatones | `senal-via-peatones.jpg` | Recuadro de la página 20 del libro |
+| Protección obligatoria del oído | `senal-proteccion-oido.jpg` | Recuadro de la página 20 del libro |
+| Extintor | `senal-extintor.jpg` | Recuadro de la página 20 del libro |
+| Manguera contra incendios | `senal-manguera-incendios.jpg` | Recuadro de la página 20 del libro |
+| Teléfono de salvamento | `senal-telefono-salvamento.jpg` | Recuadro de la página 20 del libro |
 
-> **Cambio de noviembre de 2026 (a petición del profesor):** estas nueve
-> imágenes ya **no** son los pictogramas sueltos de Wikimedia Commons, sino los
-> **dibujos reales del recuadro de la página 20 del libro**, recortados de
-> `pag20.jpeg` (1216×1600) y ampliados ×2 con filtrado bicúbico. Así la carta
-> enseña la señal tal y como aparece en el material del curso.
+> **Las nueve imágenes son los dibujos reales del recuadro de la página 20 del
+> libro**, recortados de `pag20.jpeg` (1216×1600) y rehechos para que se lean en
+> la tarjeta. Así la carta enseña la señal tal y como aparece en el material del
+> curso, que es lo que el alumno tiene delante en el temario y en el examen.
 >
 > - Ficha: `source` = «Itinerario Personal para la Empleabilidad, página 20
 >   (recuadro de señales)», `autor` = «Material del curso *Itinerario Personal
 >   para la Empleabilidad* (Colegio Areteia)», `licencia` = «Material propio del
 >   curso, uso educativo».
 > - La foto de la página sale **apagada** (la luz se cae hacia el margen), así
->   que cada recorte lleva una **curva de tono por pixel**: realce del contraste
->   (×1,18), claridad (+16) y saturación (×1,25). Se hace píxel a píxel con
->   `LockBits` sobre un bitmap de 24 bpp porque el atributo `SetGamma` de GDI+
->   deja el bitmap en un estado que luego no se puede guardar («Error genérico en
->   GDI+») y una `ColorMatrix` dejaba la imagen en blanco.
-> - Resultado: **JPEG real**, 156-244 px de lado, 5,6-9,4 KB cada una.
+>   que cada recorte lleva una **curva de tono por pixel**: una sola curva
+>   calculada sobre la luminancia y aplicada igual a los tres canales, más un
+>   +35 % de saturación. Se hace píxel a píxel con `LockBits` sobre un bitmap de
+>   24 bpp porque el atributo `SetGamma` de GDI+ deja el bitmap en un estado que
+>   luego no se puede guardar («Error genérico en GDI+») y una `ColorMatrix`
+>   dejaba la imagen en blanco.
+> - El recorte sale **encuadrado solo**: el papel del libro y los rótulos son
+>   grises y negros, así que la caja de la señal se busca por saturación y se
+>   recorta con un margen de 4 px (así no se cuela el rótulo del libro).
+> - Resultado: **512 px de lado largo**, **JPEG real** (`FF D8 FF`), 20-31 KB
+>   cada una.
+> - Reproducible con `scripts/one-off/recortar-senales-libro.ps1` (recorte,
+>   encuadre y tono) y `scripts/one-off/hoja-contactos-senales.ps1` (hoja 3×3
+>   para revisarlas todas de una vez).
 > - Recorte de la **cruz verde de primeros auxilios** disponible
 >   (`test-results/senales/primeros-auxilios.jpg`): se ofrece para la carta de
 >   salvamento si el profesor la prefiere a la del teléfono.
 > - Las **cuatro cartas de tipo** (prohibición, advertencia, obligación y
 >   salvamento) y el cierre siguen con sus fotos: en la página 20 no hay
->   dibujo propio para ellas.
+>   dibujo propio para ellas.   dibujo propio para ellas.
 
-### Las nueve señales, rehechas con los vectores oficiales (noviembre de 2026)
+### Por qué se descartaron los vectores oficiales (noviembre de 2026)
 
-Los recortes de la página 20 se veían **sucios**: ruido de la foto del libro,
-fondo de papel, sombras, borde de página y una resolución de 156-244 px que
-no aguantaba ni el tamaño de tarjeta del móvil. La señal que aparece en la
-tarjeta es, además, la pista visual de la pregunta: si la imagen no se lee,
-la tarjeta no funciona.
+Durante un momento las nueve señales se ilustraron con los **vectores oficiales**
+de la familia normativa que usa el propio libro (NTP 399 en España = ISO 7010),
+descargados de Wikimedia Commons y rasterizados por el script. Se descartaron
+porque **no son el mismo dibujo que el del libro**, y la tarjeta tiene que
+enseñar la señal tal y como aparece en el temario:
 
-Las nueve se han sustituido por los **vectores oficiales** de la misma familia
-normativa que usa el propio libro (NTP 399 en España = ISO 7010), descargados
-de Wikimedia Commons y rasterizados por el propio script:
+| Señal | Vector oficial | Dibujo del libro |
+| --- | --- | --- |
+| Materiales inflamables | triángulo **amarillo** con la llama | triángulo **naranja** con la llama |
+| Caída a distinto nivel | triángulo naranja W011 | triángulo naranja, otra variante del pictograma |
+| Prohibido fumar y encender fuego | **cerilla** encendida | **llama y mechero** |
+| Extintor | cuadrado con el aparato **y llamas** | cuadrado con el aparato, **sin llamas** |
+| Manguera contra incendios | cuadrado con el carrete **y llamas** | cuadrado con el carrete, **sin llamas** |
 
-| Señal | Fichero oficial | Licencia | Autor |
-| --- | --- | --- | --- |
-| Materiales inflamables | `NTP 399 … PELIGRO INFLAMABLE.svg` | CC0 | Bigguy637 |
-| Caída a distinto nivel | `ISO 7010 W011.svg` | Public domain | MaxxL |
-| Prohibido fumar y encender fuego | `ISO 7010 P003.svg` | Public domain | ISO |
-| No tocar | `ISO 7010 P010.svg` | Public domain | ISO |
-| Vía obligatoria para peatones | `ISO 7010 M024.svg` | Public domain | ISO |
-| Protección obligatoria del oído | `ISO 7010 M003.svg` | Public domain | ISO |
-| Extintor | `ISO 7010 F001.svg` | Public domain | MaxxL |
-| Manguera contra incendios | `ISO 7010 F002.svg` | Public domain | MaxxL |
-| Teléfono de salvamento | `ISO 7010 E004.svg` | Public domain | MaxxL |
+- Se volvió al recorte del libro, pero **rehecho** (encuadre automático + curva
+  de tono sobre la luminancia), para que se lea bien en la tarjeta: el recorte
+  crudo salía sucio (ruido de la foto, papel de fondo, sombras y 156-244 px).
+- Ficha TASL y procedure los quedan descritos en el apartado anterior.
+- **El enunciado de «Prohibido fumar y encender fuego» vuelve a describir el
+  dibujo del libro** («un mechero y una llama tachados»), que es lo que se ve
+  en la imagen de la tarjeta.
+- El resto de ajustes de texto de este apartado (analogía de la protección del
+  oído, la del extintor y la del cierre) no dependían de la imagen: los sostiene
+  la revisión del profesor, no el dibujo.
 
-- Rasterizado en **1024×1024 sobre fondo blanco**, el signo centrado y con
-  margen, con Chromium (`scripts/one-off/renderizar-vectores.js`). Los SVG de
-  ISO 7010 vienen sin `viewBox`, así que el script lo inyecta a partir del
-  `width`/`height`; sin eso el dibujo se queda en su tamaño en píxeles y
-  aparece encogido en una esquina.
-- **JPEG real** de 32-84 KB (el sitio sirve `X-Content-Type-Options: nosniff`:
-  un PNG renombrado a `.jpg` no se pintaría en producción).
-- Ficha TASL actualizada: `source` = la página del fichero en Commons,
-  `autor` = ISO / MaxxL / Bigguy637, `licencia` = «Public domain» o «CC0»,
-  y `alt` describiendo lo que se ve de verdad (no «dibujado en el recuadro de
-  señales del libro», que ya no es cierto).
-- **Dos ajustes de texto que exigía la imagen nueva** (el enunciado ya no
-  encajaba con el pictograma oficial):
-  - «Prohibido fumar y encender fuego»: el dibujo es una **cerilla** encendida,
-    no un mechero. El enunciado pasa de «ni cigarros ni mecheros … un mechero y
-    una llama tachados» a «ni un pitillo ni una brasa … una llama de cerilla
-    tachada». La analogía se reescribió además para no regalar la respuesta
-    (R3: el anverso no puede decir «fumar», «encender» ni «fuego»).
-  - «Caída a distinto nivel»: el triángulo oficial es **naranja**, no amarillo
-    como el recorte del libro. Solo se corrige el `alt`, que describía el
-    color; el enunciado no lo nombraba.
 - **Un tercer ajuste de texto, ya no por la imagen sino por la revisión del
   profesor** (noviembre de 2026): en «Protección obligatoria del oído» la
   analogía «Es como el aviso del jefe antes de que arranque la máquina» no se
@@ -745,11 +734,13 @@ de Wikimedia Commons y rasterizados por el propio script:
   el **mismo esqueleto**: las dos empiezan «Es como el cartel de la
   gasolinera: avisa de…» y lo que las distingue es el matiz (una avisa, la otra
   prohíbe) más el pictograma. La de «Prohibido fumar» pasa a «avisa de que ahí
-  no se enciende nada» + «La llama va tachada», sin usar «fumar», «encender»,
-  «fuego» ni «prohibido», que son palabras de su respuesta (R3).
-- Reproducible con los scripts one-off: `descargar-vectores.ps1` →
-  `renderizar-vectores.js` → `instalar-senales.js` → `actualizar-senales.js` →
-  `verificar-jpg.js`.
+  no se enciende nada» + «Un círculo rojo con un mechero y una llama tachados en
+  diagonal», sin usar «fumar», «encender», «fuego» ni «prohibido», que son
+  palabras de su respuesta (R3).
+- Reproducible con los scripts one-off: `recortar-senales-libro.ps1` (recorte
+  del recuadro de la página 20, encuadre y curva de tono) →
+  `hoja-contactos-senales.ps1` (hoja 3×3 para revisarlas de una vez) →
+  `verificar-jpg.js` (firma JPEG real de las imágenes).
 
 ### Las seis buenas prácticas (noviembre de 2026)
 
@@ -799,6 +790,25 @@ principios: si el módulo trae una enumeración, una carta por elemento.
 
 
 ## Validación
+
+**Ronda de noviembre de 2026 (las nueve señales vuelven a ser los dibujos del
+recuadro de la página 20 del libro):**
+
+- `node scripts/check.js` → OK (202 checks; los 17 avisos de «imagen sacada de
+  un documento» son preexistentes y de otros temas).
+- `node scripts/check-version-bump.js` → OK (VERSION `memofun-v232` →
+  `memofun-v233`) y `asset-token check passed (memofun)`.
+- `node scripts/smoke-sw.js` → SW smoke PASS (`memofun-v233`).
+- `node scripts/i18n-keys-smoke.js` → todas las claves registradas en todos los idiomas.
+- `node scripts/audit-deck-anchors.js decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion --ancla-marcada`
+  → 9 barajas, **64 tarjetas, 64 con ancla, 0 avisos**.
+- `node scripts/ui-smoke.js` → UI Playwright PASS (8 rutas, 77 interacciones).
+- Las nueve imágenes: **JPEG real** (`FF D8 FF`), 512 px de lado largo, 20-31 KB
+  cada una, y las nueve sirven `200 image/jpeg` en la app.
+- Recorrido en el navegador de la baraja de señalización: el pictograma se ve
+  completo en la tarjeta, el `alt` describe el dibujo del libro y el enunciado
+  de «Prohibido fumar y encender fuego» vuelve a describir ese dibujo («un
+  mechero y una llama tachados en diagonal»).
 
 **Ronda de noviembre de 2026 (baraja de buenas prácticas rehecha a 6 cartas):**
 
