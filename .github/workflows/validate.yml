@@ -47,7 +47,7 @@ concurrency:
 
 jobs:
   check:
-    name: node scripts/check.js
+    name: npm run lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -59,7 +59,7 @@ jobs:
           node-version: '20'
 
       - name: Run structural, i18n, no-clinical-language and CSP checks
-        run: node scripts/check.js
+        run: npm run lint
 
       - name: Suite header and footer markup
         run: node scripts/checks/suite-markup.js
@@ -149,13 +149,23 @@ jobs:
           node-version: '20'
 
       - name: Install UI test dependencies
-        run: npm install --no-save --no-audit --no-fund playwright
+        # Installs both devDependencies the browser suites need: the
+        # `playwright` package (the crawler and the specs' runner) and
+        # `@playwright/test` (the test runner itself).
+        run: npm install --no-audit --no-fund
 
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
       - name: Run Playwright UI smoke
         run: npm run test:ui
+
+      - name: Run Playwright spec suite
+        # The written regression suite (tests/app.spec.js): deck navigation,
+        # the settings drawer and the language inside it. Until now only the
+        # crawler above ran in CI, so these 34 tests caught nothing
+        # automatically.
+        run: npm run test:playwright
 
       - name: Run service-worker smoke
         run: npm run test:sw
