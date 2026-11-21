@@ -20,6 +20,7 @@ window.LocalePickerConfig = {
      preferencias. Coste: un clic más para llegar al idioma. */
   languageInDrawer: true,
   storageKey: 'memofun:locale',
+  storagePrefix: 'memofun:',
   path: null,
   requiredLocales: ['es', 'en'],
   defaultLocale: 'en',
