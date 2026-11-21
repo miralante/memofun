@@ -335,7 +335,7 @@ este es el producto original del que nació el grupo.
 | [Teclatlon](https://teclatlon.apptonomia.uk/) | Mecanografía con el teclado físico | [github.com/miralante/teclatlon](https://github.com/miralante/teclatlon) |
 
 La guía canónica de Cloudflare / despliegue para el grupo vive en
-[`CLOUDFLARE.md` de Apptonomia](https://github.com/miralante/apptonomia/blob/master/CLOUDFLARE.md).
+[`CLOUDFLARE.md` de Apptonomia](https://github.com/miralante/apptonomia/blob/main/CLOUDFLARE.md).
 Este repo usa el modelo **Workers + static assets** — ver
 [`CLOUDFLARE.md`](CLOUDFLARE.md) para la guía local.
 
