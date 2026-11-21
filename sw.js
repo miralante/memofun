@@ -10,7 +10,7 @@
    deck a student already opened keeps working offline.
    ============================================================ */
 
-var VERSION = 'memofun-v241';
+var VERSION = 'memofun-v242';
 
 var FILES = [
   './',
@@ -27,10 +27,6 @@ var FILES = [
   './legal/styles.css',
   './legal/strings.es.js',
   './legal/strings.en.js',
-  './config/',
-  './config/app.js',
-  './config/strings.es.js',
-  './config/strings.en.js',
   './tools/study/',
   './tools/study/app.js',
   './tools/study/strings.es.js',

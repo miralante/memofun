@@ -24,9 +24,7 @@ window.LocalePickerConfig = {
   path: null,
   requiredLocales: ['es', 'en'],
   defaultLocale: 'en',
-  /* No settingsHref: the drawer's "more settings" link is gone. Memofun
-     already reaches config/ from its own navigation, and the /config/ route
-     owns the success-sound switch, so the shared drawer keeps only theme,
-     text size and high contrast. */
+  /* No settingsHref: the drawer's "more settings" link is gone. The shared
+     drawer keeps only theme, text size and high contrast. */
   soundSettings: false
 };
