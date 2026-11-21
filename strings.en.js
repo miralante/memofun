@@ -39,6 +39,7 @@ if (window.App.i18n) {
       chrome: { appName: 'Memofun' },
       back: '← Back',
       next: 'Next',
+      understood: 'Got it',
       previous: 'Previous',
       skipToContent: 'Skip to content',
       settings: 'Settings',

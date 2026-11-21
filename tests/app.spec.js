@@ -418,8 +418,15 @@ async function advanceCard(page) {
   // (paintQuestion is NOT called, so the counter does not change).
   if (before.current === before.total) {
     await page.locator('#btn-next').click();
-    // showEndScreen() runs asynchronously; wait for the end screen to appear.
-    await page.waitForSelector('#end-screen:not(.hidden)', { timeout: 15000 });
+    /* The shared reward screen (suite:celebrate) takes over <main>: the CSS
+       hides everything that is not the celebration, so the end screen only
+       comes out when the learner dismisses the reward with "A por más".
+       That dismissal is the `after` hook the study tool passes (see
+       tools/study/app.js): it reveals the end screen instead of reloading
+       the activity. */
+    await page.waitForSelector('#app-celebration:not(.hidden)', { timeout: 15000 });
+    await page.locator('#app-celebration .celebration-more').click();
+    await page.waitForSelector('#end-screen', { state: 'visible', timeout: 15000 });
     return false;
   }
 

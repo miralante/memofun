@@ -73,7 +73,7 @@ jobs:
         with:
           # Need enough history to diff against the parent of the current
           # HEAD — the script uses HEAD~1 (or DIFF_BASE) as the diff base.
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -157,15 +157,17 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Run Playwright UI smoke
-        run: npm run test:ui
+      - name: Run the UI crawler
+        # The crawler (scripts/ui-smoke.js) walks every public route and
+        # presses every control it finds. It is the wide net.
+        run: npm run test:crawl
 
       - name: Run Playwright spec suite
         # The written regression suite (tests/app.spec.js): deck navigation,
         # the settings drawer and the language inside it. Until now only the
         # crawler above ran in CI, so these 34 tests caught nothing
         # automatically.
-        run: npm run test:playwright
+        run: npm run test:ui
 
       - name: Run service-worker smoke
         run: npm run test:sw

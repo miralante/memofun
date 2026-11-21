@@ -295,8 +295,19 @@
     /* The achievement screen is the shared one (feedback.js, suite:celebrate): its
        congratulation is the generic finish message, which the new star replaces
        ("¡Has conseguido una nueva estrella!"). The static title stays in the end
-       screen for accessibility and i18n parity. */
-    App.feedback.celebrate(App.i18n.t('core.roundComplete'), null, starsGoal(App.storage.totalStars()));
+       screen for accessibility and i18n parity.
+       The shared block takes over <main> while it is on screen (the CSS hides
+       everything that is not the celebration), so the end screen underneath only
+       comes out when the learner dismisses the reward with "A por más" — that
+       dismissal is the `after` hook of the shared block (doc/es/flujo-navegacion.md
+       §3). Without it, "A por más" reloaded the activity and this end screen was
+       never seen: the achievement notice stayed in a hidden element and "Repasar
+       otra vez" — the way to review a deck again, the achievement "Otra vuelta" —
+       was unreachable. */
+    App.feedback.celebrate(
+      App.i18n.t('core.roundComplete'),
+      function () { endScreenEl.classList.remove('hidden'); },
+      starsGoal(App.storage.totalStars()));
   }
 
   function goNext() {
