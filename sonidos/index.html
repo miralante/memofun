@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" data-i18n-title="sounds.title">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memofun</title>
+<meta name="theme-color" content="#FAF7F2">
+<!-- Hidden route: not linked from the home screen, aimed at the person
+     supporting the studying (family/teacher). -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../assets/img/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/suite-base.css">
+<link rel="stylesheet" href="../assets/css/brand.css">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/componentes.css">
+<link rel="stylesheet" href="../assets/css/locale-picker.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido" data-i18n="core.skipToContent">Ir al contenido</a>
+
+<div class="container">
+  <div data-suite-header data-suite-logo="../assets/img/icono.svg" data-suite-name="Memofun" data-suite-byline></div>
+  <div class="suite-chrome-activity" data-suite-activity>
+  <a href="../" class="back-link" data-i18n="core.back">← Volver</a>
+  <h1 data-i18n="sounds.title">Sonidos de acierto</h1>
+</div>
+<main id="contenido" class="suite-body">
+  <section class="panel">
+    <p class="tagline" data-i18n="sounds.note">Esto no afecta a la voz que lee las tarjetas, solo al sonido corto al terminar una baraja.</p>
+    <div class="pref-group" id="sounds-group" role="group" aria-labelledby="sounds-heading">
+      <h2 id="sounds-heading" data-i18n="sounds.label">Sonidos de acierto</h2>
+      <button type="button" class="btn-pref" data-value="on" aria-pressed="false" data-i18n="sounds.on">🔊 Activados</button>
+      <button type="button" class="btn-pref" data-value="off" aria-pressed="false" data-i18n="sounds.off">🔇 Desactivados</button>
+    </div>
+  </section>
+</main>
+
+<footer data-suite-footer data-suite-base="../"></footer>
+</div>
+
+<script src="../assets/js/utils.js"></script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/storage.js"></script>
+<script src="../strings.es.js"></script>
+<script src="../strings.en.js"></script>
+<script src="strings.es.js"></script>
+<script src="strings.en.js"></script>
+<script src="app.js"></script>
+
+  <script src="../assets/js/locale-picker-config.js"></script>
+  <script src="../assets/js/locale-picker.js" defer></script>
+  <script src="../assets/js/suite-chrome.js"></script>
+</body>
+</html>
