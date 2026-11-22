@@ -9,6 +9,8 @@ if (window.App.i18n) {
       loading: 'Cargando la baraja…',
       error: 'No se pudo abrir esta baraja.',
       doneTitle: '¡Has repasado toda la baraja!',
+      finishedTitle: '¡Has terminado la baraja!',
+      finishDeck: '🏁 Terminar',
       transferPhrase: 'Ya sabes un poco más sobre {tema}.',
       studyAgain: '🔁 Repasar otra vez',
       backToHome: '🏠 Volver al inicio',

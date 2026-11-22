@@ -127,6 +127,13 @@
     return session;
   }
 
+  /** True when the deck was studied through at least once on this device,
+      before the current pass. Used to tell a first finish from a review. */
+  function isCompleted(deckId) {
+    var progress = get('progress');
+    return !!(progress && progress.completed && progress.completed[deckId]);
+  }
+
   /** Stars earned in this session, shown in the header on every page. Reads
       only the session record: a visit that starts fresh shows 0. */
   function totalStars() {
@@ -139,6 +146,7 @@
     remove: remove,
     clearAll: clearAll,
     completeDeck: completeDeck,
+    isCompleted: isCompleted,
     totalStars: totalStars
   };
 })();

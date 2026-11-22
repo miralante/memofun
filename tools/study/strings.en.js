@@ -11,6 +11,8 @@ if (window.App.i18n) {
       doneTitle: "You've reviewed the whole deck!",
       transferPhrase: 'You now know a little more about {tema}.',
       studyAgain: '🔁 Study again',
+      finishedTitle: 'You finished the deck!',
+      finishDeck: '🏁 Finish',
       backToHome: '🏠 Back to home',
       backToTopic: '📚 Back to the topic',
       finishPhrases: ["You've reviewed the whole deck!", "All done! Pick it up whenever you like.", "Nice work! Again whenever you feel like it."],

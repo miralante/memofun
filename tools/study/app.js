@@ -41,6 +41,8 @@
   var btnPrev = document.getElementById('btn-prev');
   var btnNext = document.getElementById('btn-next');
   var btnStudyAgain = document.getElementById('btn-study-again');
+  var endTitleEl = document.getElementById('end-title');
+  var btnFinish = document.getElementById('btn-finish');
   var starsEl = document.getElementById('stars-total');
   var btnBack = document.getElementById('btn-back');
 
@@ -81,6 +83,8 @@
     if (deckTopicGroup) backUrl += '&topicGroup=' + encodeURIComponent(deckTopicGroup);
   }
   if (backUrl) btnBack.href = backUrl;
+  /* "Terminar" on the end screen leaves the deck, to the same place as "Volver". */
+  btnFinish.href = btnBack.href;
 
   function renderStars() {
     starsEl.innerHTML =
@@ -276,7 +280,11 @@
   }
 
   function showEndScreen() {
+    /* First finish of this deck on this device: "terminado". A later pass:
+       "repasado". Checked before completeDeck() marks it as done. */
+    var firstTime = !App.storage.isCompleted(deckId);
     App.storage.completeDeck(deckId);
+    endTitleEl.textContent = App.i18n.t(firstTime ? 'study.finishedTitle' : 'study.doneTitle');
     /* Unlock achievements and announce the new ones once, neutrally, in the
        end screen (apptonomia/doc/es/spec.md §2.6). */
     if (App.achievements) {
@@ -290,7 +298,7 @@
     areaEl.classList.add('hidden');
     /* The closing reward is the shared one: the stars and the transfer sentence. */
     App.feedback.paintReward(document.getElementById('end-reward'), App.storage.totalStars(),
-      App.i18n.t('study.transferPhrase').replace('{topic}', deckTitle));
+      App.i18n.t('study.transferPhrase').replace('{tema}', deckTitle));
     endScreenEl.classList.remove('hidden');
     /* The achievement screen is the shared one (feedback.js, suite:celebrate): its
        congratulation is the generic finish message, which the new star replaces

@@ -51,11 +51,12 @@
   <!-- End screen: persistent, no auto-redirect — the person decides
        when to leave (SPEC.md §2.7 autonomy). -->
   <div id="end-screen" class="end-screen hidden">
-    <h2 data-i18n="study.doneTitle">¡Has repasado toda la baraja!</h2>
+    <h2 id="end-title" data-i18n="study.doneTitle">¡Has repasado toda la baraja!</h2>
     <p id="end-reward" class="end-reward"></p>
     <p id="achievement-notice" class="achievement-notice" aria-live="polite"></p>
     <div class="btn-row">
       <button id="btn-study-again" class="btn" type="button" data-i18n="study.studyAgain">Repasar otra vez</button>
+      <a id="btn-finish" class="btn secondary" href="../../" data-i18n="study.finishDeck">Terminar</a>
     </div>
   </div>
 </main>
