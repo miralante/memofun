@@ -51,18 +51,6 @@
       }
     },
     {
-      "question": "Sirve para <u>apagar</u> <mark>fuegos</mark> no controlados. ¿Cómo se llama?",
-      "answer": "<mark>Extintor</mark>",
-      "image": {
-        "title": "Fire extinguisher tool",
-        "source": "https://commons.wikimedia.org/wiki/File:Fire_extinguisher_tool.jpg",
-        "alt": "Un extintor portátil listo para usar",
-        "autor": "Denis kasozi",
-        "licencia": "CC BY 4.0",
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva/extintor.jpg"
-      }
-    },
-    {
       "question": "<mark>Es como dejar la puerta de casa sin llave por si hay que salir corriendo</mark>. En caso de <u>incendio</u> hay que poder salir deprisa. Se mantiene libre y señalizada. ¿Cómo se llama esa puerta?",
       "answer": "<mark>Salida de emergencia</mark>",
       "image": {
@@ -72,6 +60,18 @@
         "autor": "Contando Estrelas from Vigo",
         "licencia": "CC BY-SA 2.0",
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva/salida-emergencia.jpg"
+      }
+    },
+    {
+      "question": "Sirve para <u>apagar</u> <mark>fuegos</mark> no controlados. ¿Cómo se llama?",
+      "answer": "<mark>Extintor</mark>",
+      "image": {
+        "title": "Fire extinguisher tool",
+        "source": "https://commons.wikimedia.org/wiki/File:Fire_extinguisher_tool.jpg",
+        "alt": "Un extintor portátil listo para usar",
+        "autor": "Denis kasozi",
+        "licencia": "CC BY 4.0",
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/proteccion-colectiva/extintor.jpg"
       }
     }
   ]

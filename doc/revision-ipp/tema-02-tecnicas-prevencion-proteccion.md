@@ -965,6 +965,32 @@ ya estaba en el anverso («Te ponen el casco, las gafas y los guantes»).
   enunciado de un ejercicio distinto y ahí la frase completa sí ajuda.
 
 
+### El orden de la baraja de protección colectiva (22 de noviembre de 2026)
+
+Por indicación del profesor, la carta «**Salida de emergencia**» de
+`proteccion-colectiva.json` pasa de ser la última a ir **justo antes del
+extintor**:
+
+| | Antes | Ahora |
+| --- | --- | --- |
+| 1 | Protección colectiva | Protección colectiva |
+| 2 | Barandillas | Barandillas |
+| 3 | Redes de seguridad | Redes de seguridad |
+| 4 | Ventilación | Ventilación |
+| 5 | Extintor | **Salida de emergencia** |
+| 6 | Salida de emergencia | Extintor |
+
+El contenido de las seis cartas no cambia: solo el orden. La pág. 22 del libro
+los agrupa («Extintores y salidas de emergencia»), así que el orden sigue
+siendo fiel al libro; lo que se busca es que la puerta por la que se sale esté
+antes que el extintor, que es lo que se usa en el peor momento.
+
+- La tabla de anclas de este documento se reordena igual (las filas de «Salida
+  de emergencia» y «Extintor» cambian de sitio dentro de §3a).
+- `sw.js`: VERSION `memofun-v253` → `memofun-v254` (el JSON de la baraja está
+  dentro de `FILES`).
+
+
 ## Validación
 
 **Ronda de noviembre de 2026 (las nueve señales vuelven a ser los vectores
@@ -1135,8 +1161,8 @@ volver a descubrirlas.
 | §3a Protección colectiva | Barandillas | «valla» / «en el borde de una plataforma alta» |
 | §3a Protección colectiva | Redes de seguridad | «mallas que sujetan a quien pueda caer» |
 | §3a Protección colectiva | Ventilación | «el aire no se queda parado» / «entra limpio» |
-| §3a Protección colectiva | Extintor | «apagar fuegos» |
 | §3a Protección colectiva | Salida de emergencia | «en caso de incendio hay que poder salir deprisa» / «se mantiene libre» |
+| §3a Protección colectiva | Extintor | «apagar fuegos» |
 | §3b EPI | Equipos de Protección Individual | «la ropa que te dan» / «una sola persona» |
 | §3b EPI | Protección individual | «cada uno con lo suyo» / «protege a una sola persona» |
 | §3b EPI | Son obligatorios | «cada persona tiene que ponérselas siempre» |
