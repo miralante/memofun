@@ -193,6 +193,7 @@ function compareLocales(dir, label) {
 }
 
 compareLocales(ROOT, 'strings.<locale>.js');
+if (fs.existsSync(path.join(ROOT, 'importar'))) compareLocales(path.join(ROOT, 'importar'), 'importar/');
 if (fs.existsSync(path.join(ROOT, 'tools', 'study'))) compareLocales(path.join(ROOT, 'tools', 'study'), 'tools/study/');
 if (fs.existsSync(path.join(ROOT, 'about'))) compareLocales(path.join(ROOT, 'about'), 'about/');
 
@@ -269,6 +270,8 @@ var USER_FACING_FILES = [
   path.join(ROOT, '404.html'),
   path.join(ROOT, 'legal', 'index.html')
 ]
+  .concat(listJs(path.join(ROOT, 'importar')))
+  .concat([path.join(ROOT, 'importar', 'index.html')])
   .concat(listJs(path.join(ROOT, 'tools', 'study')))
   .concat([path.join(ROOT, 'tools', 'study', 'index.html')])
   .concat(listJs(path.join(ROOT, 'about')))
@@ -421,6 +424,7 @@ headersContent.split('\n').filter(function (line) {
 
   [
     path.join(ROOT, 'index.html'),
+    path.join(ROOT, 'importar', 'index.html'),
     path.join(ROOT, 'tools', 'study', 'index.html'),
     path.join(ROOT, 'about', 'index.html')
   ].filter(function (f) { return fs.existsSync(f); }).forEach(checkDomain);
