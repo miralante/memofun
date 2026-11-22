@@ -3,6 +3,18 @@
   "level": "principiante",
   "cards": [
     {
+      "question": "<mark>Es como el cartel de la puerta mojada: avisa del peligro, pero el suelo sigue mojado</mark>. Un cartel de «piso resbaladizo» <u>no seca</u> el suelo. Las señales informan y advierten. Se ponen cuando el riesgo no se ha podido quitar. Si la empresa se queda solo con las señales, ¿qué regla se está incumpliendo?",
+      "answer": "<mark>La señalización no sustituye a la prevención</mark>",
+      "image": {
+        "title": "Wet floor sign, Broen, Esbjerg, 1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wet_floor_sign,_Broen,_Esbjerg,_1.jpg",
+        "alt": "Un cartel de suelo mojado junto a un cubo y un cono",
+        "autor": "Kent Madsen",
+        "licencia": "CC BY-SA 2.0",
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad/senalizacion.jpg"
+      }
+    },
+    {
       "question": "<mark>Es como un tope en la puerta: lo que marca, está prohibido</mark>. Un cartel rojo con un círculo <u>tachado</u> avisa de «no fumar». ¿Qué nombre tienen las de color rojo?",
       "answer": "<mark>Señales de prohibición</mark>",
       "image": {
@@ -156,18 +168,6 @@
         "autor": "MaxxL",
         "licencia": "Public domain",
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad/senal-telefono-salvamento.jpg"
-      }
-    },
-    {
-      "question": "<mark>Es como el cartel de la puerta mojada: avisa del peligro, pero el suelo sigue mojado</mark>. Un cartel de «piso resbaladizo» <u>no seca</u> el suelo. Las señales informan y advierten. Se ponen cuando el riesgo no se ha podido quitar. Si la empresa se queda solo con las señales, ¿qué regla se está incumpliendo?",
-      "answer": "<mark>La señalización no sustituye a la prevención</mark>",
-      "image": {
-        "title": "Wet floor sign, Broen, Esbjerg, 1.jpg",
-        "source": "https://commons.wikimedia.org/wiki/File:Wet_floor_sign,_Broen,_Esbjerg,_1.jpg",
-        "alt": "Un cartel de suelo mojado junto a un cubo y un cono",
-        "autor": "Kent Madsen",
-        "licencia": "CC BY-SA 2.0",
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/senalizacion-seguridad/senalizacion.jpg"
       }
     }
   ]

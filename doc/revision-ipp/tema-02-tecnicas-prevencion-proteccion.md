@@ -2,7 +2,7 @@
 
 **Fuente:** `D:/img_memofun/ipp/tema2/` — 12 páginas (`pag15`–`pag26`)
 **Generado:** 2026-10-10 (a partir de extracción `describe_images`)
-**Actualizado:** 2026-11-17 (correcciones indicadas por el profesor)
+**Actualizado:** 2026-11-22 (analogía del principio 1 rehecha)
 
 ---
 
@@ -532,6 +532,7 @@ la pista de su tarjeta).
 | `tecnicas-basicas-prevencion` | Mantenimiento de equipos | un monoplaza de fórmula | operario reparando un motor en un taller |
 | `principios-basicos` | Evitar los riesgos | diagrama NIOSH en inglés | interruptor general con candado (energía aislada) |
 | `principios-basicos` | Combatir los riesgos desde el origen | herramientas oxidadas y apagadas | botón de parada de emergencia en el panel |
+| `principios-basicos` | Tener en cuenta la evolución técnica | puesto de trabajo con dos monitores de 2010 | brazo robótico de una fábrica |
 | `principios-basicos` | Adaptar el trabajo a la persona | hombre cargando cajas en un triciclo | puesto de trabajo con mesa de altura regulable |
 | `buenas-practicas` | Zona de trabajo limpia y ordenada | pasillo de juguetes (duplicado) | herramientas de un taller de joyería guardadas en su sitio |
 | `buenas-practicas` | Usar siempre los EPI | — | operarios de una obra con casco y chaleco |
@@ -766,7 +767,7 @@ principios: si el módulo trae una enumeración, una carta por elemento.
 | # | Carta (respuesta) | Ancla en el anverso | Imagen |
 | --- | --- | --- | --- |
 | 1 | Mantener la zona de trabajo limpia y ordenada | «puesto» | `zona-de-trabajo-limpia.jpg` |
-| 2 | Usar siempre los EPI que te den | «casco» | `epi.jpg` |
+| 2 | Usa siempre los EPI | «casco» | `epi.jpg` |
 | 3 | Seguir las instrucciones de seguridad | «normas» | `instrucciones-seguridad.jpg` |
 | 4 | No usar máquinas si no sabes cómo funcionan | «equipo» | `maquinas.jpg` |
 | 5 | Informar si ves algo peligroso | «avisa» | `informar.jpg` |
@@ -799,6 +800,169 @@ principios: si el módulo trae una enumeración, una carta por elemento.
 - `decks/manifest.json`: `amount` de `fpb-sa-1-ipe-t2-buenas-practicas` pasa
   de 1 a 6. `sw.js`: VERSION `memofun-v230` → `memofun-v231` (cambia el JSON de
   la baraja y el manifest, los dos dentro de `FILES`).
+
+
+### La analogía del principio 1 (22 de noviembre de 2026)
+
+Por indicación del profesor, la primera carta de `principios-basicos.json`
+(«Evitar los riesgos») deja de hablar de una **trampa**: la imagen mental de la
+trampa no era un peligro que se evita, sino un engaño que se tiende, y no
+explicaba el principio. Se sustituye por una analogía de **evitar un
+peligro**, con el patrón de siempre: analogía dentro de `<mark>`, ancla
+subrayada con `<u>` fuera de la analogía (R7), pregunta final.
+
+- **Antes:** «Es como no dejar la trampa puesta: lo mejor es que no exista».
+- **Ahora:** «Es como cruzar la calle con el semáforo en rojo: no corres más
+  rápido para pasar antes, simplemente esperas a que se ponga verde».
+
+La analogía nueva enseña justo la diferencia entre el principio 1 y el
+principio 2: ante el semáforo **no se reduce el peligro** (correr más rápido)
+**ni se protege** (un chaleco), **simplemente no se entra en el peligro**; el
+peligro se elimina antes de que exista. El resto de la carta no se toca: la
+pista «Si algo es peligroso, <u>se quita</u> y se acabó» y la imagen
+(`jerarquia-controles.jpg`, el interruptor general bloqueado con un candado)
+siguen encajando.
+
+- El ancla «se quita» / «el primero de los ocho» no cambia, así que la tabla
+  de anclas de este documento sigue siendo válida.
+- `sw.js`: VERSION `memofun-v246` → `memofun-v247` (el JSON de la baraja está
+  dentro de `FILES`).
+
+
+### La analogía del principio 3 (22 de noviembre de 2026)
+
+Por indicación del profesor, la tercera carta de `principios-basicos.json»
+(«Combatir los riesgos desde el origen») también se reescribe. Los dos
+problemas que señalaba:
+
+1. **Hablaba de quitar el peligro de la máquina**, que es el lenguaje del
+   principio 1 («evitar»), no del 3. El libro (pág. 19) lo pone con un
+   ejemplo: «**usar máquinas menos ruidosas**» — el mismo ejemplo que usa la
+   autoevaluación (opción C del ejercicio «Completa con el principio
+   correcto»).
+2. **No daba ninguna pista** de «combatir» ni de «desde el origen».
+
+- **Antes:** «Tercer principio: el peligro se <u>quita</u> *de la máquina que
+  lo hace*. No protejas solo al trabajador».
+- **Ahora:** «*Es como el ruido del motor: no te tapas los oídos, cambias el
+  motor por uno menos ruidoso*. Tercer principio: el peligro se
+  **combate donde nace**. Se actúa en la máquina, no en el trabajador».
+
+La analogía nueva hace las dos cosas a la vez: usa el ejemplo del libro
+(máquina menos ruidosa) y contrasta las dos salidas incorrectas —**reducir** el
+ruido con tapones en el operario* (protección individual) frente a **cambiar
+la fuente** del ruido. El texto plano da el ancla: «combate» apunta a
+«combatir» y «donde nace» apunta a «desde el origen».
+
+- **Mapa de sinónimos del auditor**: `scripts/audit-deck-anchors.js` gana
+  `combate` en la clave `combatir` (mismo criterio que cuando se añadió `epi`
+  para la carta de los EPI): «combate» es el verbo de la respuesta, pero el
+  anverso no puede escribir «combatir» (R3, sería la respuesta regalada).
+- **Alt de la imagen**: el botón de parada de emergencia se mantiene (seguir
+  siendo «actuar sobre la máquina que produce el peligro»), pero su descripción
+  ya no dice «que quita el peligro de la propia máquina»: ahora es «se actúa
+  sobre el equipo que produce el peligro, no sobre el trabajador».
+- La tabla de anclas de este documento se actualiza: el ancla del principio 3
+  pasa de «el peligro se quita de la máquina que lo hace» a «combate donde
+  nace» / «en la máquina, no en el trabajador».
+- `sw.js`: VERSION `memofun-v248` → `memofun-v249` (el JSON de la baraja está
+  dentro de `FILES`).
+
+
+### La analogía del principio 5 (22 de noviembre de 2026)
+
+La quinta carta de `principios-basicos.json` («Tener en cuenta la evolución
+técnica») no explicaba qué significa: el anverso ponía «Las máquinas de hoy
+son mejores que las de antes» dentro del `<mark>` —sin analogía— y el texto
+plano («si aparece una herramienta más segura, se usa») no llegaba a explicar
+**que la evolución técnica trae consigo máquinas más seguras**, que es lo que
+pedía el profesor y lo que dice el libro (pág. 19): «usar nuevas herramientas
+más seguras».
+
+- **Antes:** «Quinto principio: si aparece una <u>herramienta</u> más segura, se
+  usa. *Las máquinas de hoy son mejores que las de antes*».
+- **Ahora:** «*Es como los coches de ahora: frenan solos y avisan antes de
+  chocar; los de hace treinta años no*. Quinto principio: las
+  **máquinas nuevas** ya vienen más seguras. Cuando aparece una herramienta más
+  segura, se usa».
+
+La analogía nueva da el contraste «antes / ahora» que faltaba (el coche de
+hace treinta años frente al de hoy) y el texto plano dice sin rodeos la idea del
+principio: las máquinas nuevas ya vienen más seguras y, cuando aparece una
+herramienta más segura, se usa. El ancla «máquinas nuevas» apunta a la vez a
+«técnica» («maquinas») y a «evolución» («nuevas»), así que las dos partes de la
+respuesta tienen pista.
+
+- **Imagen sustituida**: la foto anterior era un puesto de trabajo con dos
+  monitores de 2010, que no ilustraba nada de «equipos más seguros»; ahora es
+  un **brazo robótico** (`brazo-robotico.jpg`, rawpixel, CC0 1.0), reutilizado
+  del repo (venía en `fpgm_ga_2_digitalizacion-sectores-productivos_2`). Su
+  `alt`: «la máquina de hoy hace el trabajo más exacto y pesado sin exponer al
+  operario». La imagen antigua (`evolucion-tecnica.jpg`) queda huérfana y se
+  borra.
+- La tabla de anclas de este documento se actualiza: el ancla del principio 5
+  pasa de «herramienta más segura» / «las máquinas de hoy» a «máquinas
+  nuevas» / «herramienta más segura».
+- `sw.js`: VERSION `memofun-v249` → `memofun-v250` (el JSON de la baraja está
+  dentro de `FILES`).
+
+
+### El orden de la baraja de señalización (22 de noviembre de 2026)
+
+Por indicación del profesor, la carta «**La señalización no sustituye a la
+prevención**» pasa de ser la última de `senalizacion-seguridad.json` a ser la
+**primera**.
+
+El motivo es que esa carta es el marco de todo el apartado §2.3: explica que
+las señales **informan y advierten**, y que se ponen *cuando el riesgo no se
+ha podido quitar*. Si va al final, el alumno ve primero las nueve señales
+concretas y el «piso resbaladizo» llega como una conclusión suelta; si va
+primero, entiende antes de qué estamos hablando y las cuatro familias de
+señales (prohibición, advertencia, obligación y salvamento) se entienden como lo
+que son: un aviso, no una solución.
+
+| | Antes | Ahora |
+| --- | --- | --- |
+| 1 | Señales de prohibición | **La señalización no sustituye a la prevención** |
+| 2 | Señales de advertencia | Señales de prohibición |
+| 3 | Señales de obligación | Señales de advertencia |
+| 4 | Señales de salvamento | Señales de obligación |
+| 5 | Materiales inflamables | Señales de salvamento |
+| … | … | … |
+| 14 | La señalización no sustituye a la prevención | Teléfono de salvamento |
+
+- El contenido de las 14 cartas no cambia: solo el orden. La imagen de la
+  carta que se mueve (`senalizacion.jpg`, el cartel de suelo mojado) también
+  es la que ilustra el ancla «no seca el suelo».
+- La tabla de anclas de este documento se reordena igual: la fila de «La
+  señalización no sustituye a la prevención» pasa a encabezar el bloque §2.3.
+- `sw.js`: VERSION `memofun-v250` → `memofun-v251` (el JSON de la baraja está
+  dentro de `FILES`).
+- **Aviso heredado**: el auditor de legibilidad marca (R5) la carta de la
+  manguera contra incendios porque su analogía dice «el rollo de tubo que hay
+  en la escalera»; es un **falso positivo** (aquí «rollo» es el carrete
+  enrollado, no la interjección), pero el aviso aparece en el informe. Con una
+  palabra menos («el tubo enrollado que hay en la escalera») desaparece.
+
+
+### El rótulo de la carta de los EPI (22 de noviembre de 2026)
+
+Por indicación del profesor, la respuesta de la segunda carta de
+`buenas-practicas.json` se acorta: de «Usar siempre los EPI que te den» a
+**«Usa siempre los EPI»**. Se queda con el contenido que el alumno debe
+recordar (el uso permanente del equipo) y se quita el matiz «que te den», que
+ya estaba en el anverso («Te ponen el casco, las gafas y los guantes»).
+
+- El anverso no cambia y el ancla sigue siendo el **«casco»** (el mapa de
+  sinónimos del auditor ya lo tenía: `epi` → «casco»).
+- Ojo con el anverso: al acortar la respuesta, la palabra «EPI» no puede
+  aparecer en la pregunta (R3, sería la respuesta regalada). La carta no la
+  usa, así que sigue limpia.
+- La tabla de anclas y la tabla de las seis buenas prácticas de este documento
+  se actualizan con el rótulo nuevo.
+- En la **autoevaluación** la opción «Usar siempre los EPI que le den.» del
+  ejercicio «¿Qué NO debe hacer un trabajador?» se deja como estaba: es el
+  enunciado de un ejercicio distinto y ahí la frase completa sí ajuda.
 
 
 ## Validación
@@ -932,9 +1096,9 @@ volver a descubrirlas.
 | §2 Técnicas básicas | Mantenimiento de equipos | «revisar y arreglar» / «para que no fallen» |
 | §2.1 Principio 1 | Evitar los riesgos | «se quita y se acabó» / «el primero de los ocho» |
 | §2.1 Principio 2 | Evaluar los riesgos | «cuánto se puede reducir» |
-| §2.1 Principio 3 | Combatir los riesgos desde el origen | «el peligro se quita de la máquina que lo hace» |
+| §2.1 Principio 3 | Combatir los riesgos desde el origen | «combate donde nace» / «en la máquina, no en el trabajador» |
 | §2.1 Principio 4 | Adaptar el trabajo a la persona | «se adapta a quien lo hace» |
-| §2.1 Principio 5 | Tener en cuenta la evolución técnica | «herramienta más segura» / «las máquinas de hoy» |
+| §2.1 Principio 5 | Tener en cuenta la evolución técnica | «máquinas nuevas» / «herramienta más segura» |
 | §2.1 Principio 6 | Planificar la prevención | «organizar bien el trabajo» / «no improvisar» |
 | §2.1 Principio 7 | Proteger colectivamente antes que individualmente | «que protegen a todos» / «a una persona» |
 | §2.1 Principio 8 | Dar instrucciones claras a los trabajadores | «explica las normas» / «que todos las entiendan» |
@@ -943,6 +1107,7 @@ volver a descubrirlas.
 | §2.2 Tipos de riesgo | Riesgo biológico | «virus y bacterias» / «un microorganismo que se contagia» |
 | §2.2 Tipos de riesgo | Riesgo ergonómico | «dolor de espalda» / «cuello agachado» / «posturas malas» |
 | §2.2 Tipos de riesgo | Riesgo psicosocial | «estrés» / «agotamiento» / «acoso» |
+| §2.3 Señalización | La señalización no sustituye a la prevención | «no seca el suelo» |
 | §2.3 Señalización | Señales de prohibición | «círculo tachado» / «está prohibido» |
 | §2.3 Señalización | Señales de advertencia | «triángulo amarillo» / «hay un peligro» |
 | §2.3 Señalización | Señales de obligación | «círculo azul» / «es obligatorio llevarlas puestas» |
@@ -956,9 +1121,8 @@ volver a descubrirlas.
 | §2.3 Señalización | Extintor | «apagar» |
 | §2.3 Señalización | Manguera contra incendios | «carrete» |
 | §2.3 Señalización | Teléfono de salvamento | «llamar» |
-| §2.3 Señalización | La señalización no sustituye a la prevención | «no seca el suelo» |
 | §2.4 Buenas prácticas | Zona de trabajo limpia y ordenada | «puesto» |
-| §2.4 Buenas prácticas | Usar siempre los EPI que te den | «casco» |
+| §2.4 Buenas prácticas | Usa siempre los EPI | «casco» |
 | §2.4 Buenas prácticas | Seguir las instrucciones de seguridad | «normas» |
 | §2.4 Buenas prácticas | No usar máquinas si no sabes cómo funcionan | «equipo» |
 | §2.4 Buenas prácticas | Informar si ves algo peligroso | «avisa» |

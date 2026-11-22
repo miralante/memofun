@@ -3,7 +3,7 @@
   "level": "principiante",
   "cards": [
     {
-      "question": "<mark>Es como no dejar la trampa puesta: lo mejor es que no exista</mark>. Es el primero de los ocho principios y el más sencillo. Si algo es peligroso, <u>se quita</u> y se acabó. ¿Cómo se llama ese principio?",
+      "question": "<mark>Es como cruzar la calle con el semáforo en rojo: no corres más rápido para pasar antes, simplemente esperas a que se ponga verde</mark>. Es el primero de los ocho principios y el más sencillo. Si algo es peligroso, <u>se quita</u> y se acabó. ¿Cómo se llama ese principio?",
       "answer": "<mark>Evitar los riesgos</mark>",
       "image": {
         "title": "Glavno stikalo, zavarovano pred neželenim vklopom.JPG",
@@ -27,12 +27,12 @@
       }
     },
     {
-      "question": "Tercer principio: el peligro se <u>quita</u> <mark>de la máquina que lo hace</mark>. No protejas solo al trabajador. ¿Cómo se llama este principio?",
+      "question": "<mark>Es como el ruido del motor: no te tapas los oídos, cambias el motor por uno menos ruidoso</mark>. Tercer principio: el peligro se <u>combate donde nace</u>. Se actúa en la máquina, no en el trabajador. ¿Cómo se llama este principio?",
       "answer": "<mark>Combatir los riesgos desde el origen</mark>",
       "image": {
         "title": "Emergency stop button on a control panel in a factory.jpg",
         "source": "https://commons.wikimedia.org/wiki/File:Emergency_stop_button_on_a_control_panel_in_a_factory.jpg",
-        "alt": "Un botón rojo de parada de emergencia en el panel de control de una máquina, que quita el peligro de la propia máquina",
+        "alt": "Un botón rojo de parada de emergencia en el panel de control de una máquina: se actúa sobre el equipo que produce el peligro, no sobre el trabajador",
         "autor": "Shixart1985",
         "licencia": "CC BY 2.0",
         "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/principios-basicos/combatir-origen.jpg"
@@ -51,15 +51,15 @@
       }
     },
     {
-      "question": "Quinto principio: si aparece una <u>herramienta</u> más segura, se usa. <mark>Las máquinas de hoy son mejores que las de antes</mark>. ¿Cómo se llama?",
+      "question": "<mark>Es como los coches de ahora: frenan solos y avisan antes de chocar; los de hace treinta años no</mark>. Quinto principio: las <u>máquinas nuevas</u> ya vienen más seguras. Cuando aparece una herramienta más segura, se usa. ¿Cómo se llama?",
       "answer": "<mark>Tener en cuenta la evolución técnica</mark>",
       "image": {
-        "title": "01 My decluttered, ergonomic, and healthy Workstation",
-        "source": "https://www.flickr.com/photos/55391269@N08/6009475649",
-        "alt": "Un puesto de trabajo con las herramientas y el mueble de hoy, más seguros y más ergonómicos",
-        "autor": "Joy Mystic",
-        "licencia": "CC BY 2.0",
-        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/principios-basicos/evolucion-tecnica.jpg"
+        "title": "Robotic arm machine in the lab",
+        "source": "https://www.rawpixel.com/image/4042554/photo-image-technology-table-wall",
+        "alt": "Un brazo robótico: la máquina de hoy hace el trabajo más exacto y pesado sin exponer al operario",
+        "autor": "(autor desconocido)",
+        "licencia": "CC0 1.0",
+        "file": "assets/img/decks/fpb_sa_1_itinerario-personal-empleabilidad/tema-2-tecnicas-prevencion-proteccion/principios-basicos/brazo-robotico.jpg"
       }
     },
     {

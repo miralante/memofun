@@ -752,7 +752,7 @@ var SINONIMOS = mergeMaps([
   informacion: ['informa', 'informar', 'avisa', 'datos', 'noticias'],
   mantenimiento: ['revisar', 'revisa', 'arreglar', 'arregla', 'reparar', 'conservar', 'fallan', 'fallen', 'cuida'],
   evitar: ['elimina', 'eliminar', 'quita', 'quitar', 'se quita', 'no exista', 'apartar', 'primero'],
-  combatir: ['quita', 'elimina', 'ataca', 'lucha', 'aparta', 'origen', 'fuente'],
+  combatir: ['quita', 'elimina', 'ataca', 'lucha', 'aparta', 'origen', 'fuente', 'combate'],
   origen: ['origen', 'fuente', 'maquina', 'donde', 'empezando'],
   evolucion: ['nuevas', 'nueva', 'moderna', 'actualizada', 'de hoy', 'mejor', 'mejora', 'progreso'],
   tecnica: ['herramientas', 'herramienta', 'tecnologia', 'equipo', 'maquinas', 'moderno', 'utiles'],
