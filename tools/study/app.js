@@ -41,7 +41,6 @@
   var btnPrev = document.getElementById('btn-prev');
   var btnNext = document.getElementById('btn-next');
   var btnStudyAgain = document.getElementById('btn-study-again');
-  var endTitleEl = document.getElementById('end-title');
   var btnFinish = document.getElementById('btn-finish');
   var starsEl = document.getElementById('stars-total');
   var btnBack = document.getElementById('btn-back');
@@ -280,11 +279,7 @@
   }
 
   function showEndScreen() {
-    /* First finish of this deck on this device: "terminado". A later pass:
-       "repasado". Checked before completeDeck() marks it as done. */
-    var firstTime = !App.storage.isCompleted(deckId);
     App.storage.completeDeck(deckId);
-    endTitleEl.textContent = App.i18n.t(firstTime ? 'study.finishedTitle' : 'study.doneTitle');
     /* Unlock achievements and announce the new ones once, neutrally, in the
        end screen (apptonomia/doc/es/spec.md §2.6). */
     if (App.achievements) {
