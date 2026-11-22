@@ -103,10 +103,16 @@ retenido lo esencial del tema antes de pasar al siguiente.
   elegida en azul con ✘, la correcta en verde con ✔), para poder compararlas
   sin leer el aviso de abajo. En las preguntas de campo (completar, unir) el
   campo queda marcado y la respuesta correcta se escribe al lado.
-- **Dos salidas tras corregir**: "Corregir solo los errores" reabre solo
+- **Tres salidas tras corregir**: "Corregir solo los errores" reabre solo
   las preguntas falladas y deja bloqueadas las acertadas; "Repetir"
-  empieza el test completo de nuevo. Cualquier autoevaluación nueva
-  debe tener las dos. Al reabrir una pregunta fallada **se oculta la
+  empieza el test completo de nuevo; "Terminar" cierra la autoevaluación y
+  vuelve a la pantalla desde la que se llegó (el mismo destino que
+  "Volver"). Cualquier autoevaluación nueva debe tener las tres.
+  "Terminar" aparece **siempre que el test está comprobado**, haya fallos o
+  no: quien suspende también tiene que poder salir. Con todas las respuestas
+  correctas el foco pasa a "Terminar" (el paso natural es cerrar, no repetir)
+  y al reabrir el test ("Repetir" o "Corregir solo los errores") "Terminar"
+  se oculta otra vez. Al reabrir una pregunta fallada **se oculta la
   respuesta** (la ✔ verde y el texto con la solución): solo queda el ✘ sobre
   lo que el alumno eligió, para que la vuelva a hacer en vez de copiarla.
 - **Comparación de texto escrito**: la respuesta tecleada se compara sin

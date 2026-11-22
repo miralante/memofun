@@ -26,6 +26,7 @@
   var btnCheck = document.getElementById('btn-check');
   var btnRetry = document.getElementById('btn-retry');
   var btnFixWrong = document.getElementById('btn-fix-wrong');
+  var btnEnd = document.getElementById('btn-end');
   var resultEl = document.getElementById('test-result');
   var backEl = document.getElementById('btn-back');
 
@@ -301,8 +302,14 @@
     setLocked(true);
     btnCheck.classList.add('hidden');
     btnRetry.classList.remove('hidden');
+    /* "Terminar" is what closes the self-assessment: it leaves to the same
+     * place as "Volver". It shows as soon as the test is checked, because
+     * finishing the test is always an option — with every answer right it was
+     * the only thing missing: the person had "Repetir" and nothing else. */
+    btnEnd.classList.remove('hidden');
     btnFixWrong.classList.toggle('hidden', wrongIdx.length === 0);
-    btnRetry.focus();
+    /* With everything right, the next step is to finish, not to repeat. */
+    if (wrongIdx.length === 0) btnEnd.focus(); else btnRetry.focus();
   }
 
   /* Removes the answer from a question that is reopened for another go:
@@ -341,6 +348,7 @@
     resultEl.textContent = '';
     btnFixWrong.classList.add('hidden');
     btnRetry.classList.add('hidden');
+    btnEnd.classList.add('hidden');
     btnCheck.classList.remove('hidden');
     var first = questionsEl.querySelector('.test-q[data-q="' + wrongIdx[0] + '"] input, .test-q[data-q="' + wrongIdx[0] + '"] select');
     (first || btnCheck).focus();
@@ -353,6 +361,7 @@
     setLocked(false);
     btnRetry.classList.add('hidden');
     btnFixWrong.classList.add('hidden');
+    btnEnd.classList.add('hidden');
     btnCheck.classList.remove('hidden');
     btnCheck.focus();
   }
@@ -365,6 +374,9 @@
 
   function start() {
     backEl.setAttribute('href', back);
+    /* "Terminar" closes the self-assessment and leaves to the same place as
+     * "Volver" (the study screen's end screen does the same). */
+    btnEnd.setAttribute('href', back);
     btnCheck.addEventListener('click', checkAll);
     btnRetry.addEventListener('click', retry);
     btnFixWrong.addEventListener('click', fixWrong);

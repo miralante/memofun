@@ -452,6 +452,24 @@ Reglas:
 - `scripts/check.js` §13 valida la forma de cada test declarado y que
   ningún `autoevaluacion.json` quede sin un tema que lo reclame.
 
+La pantalla `tools/autoevaluacion/` tiene cuatro botones (`index.html`):
+
+| Botón | Elemento | Cuándo se ve | Qué hace |
+| --- | --- | --- | --- |
+| "✅ Comprobar" | `<button id="btn-check">` | siempre hasta comprobar | corrige el test entero |
+| "✏️ Corregir solo los errores" | `<button id="btn-fix-wrong">` | comprobado **con** fallos | reabre solo las preguntas falladas |
+| "🔁 Repetir" | `<button id="btn-retry">` | comprobado | vuelve a empezar el test entero |
+| "🏁 Terminar" | `<a id="btn-end">` | comprobado | cierra la autoevaluación |
+
+"Terminar" es un `<a>` (no un `<button>`) porque es una salida, no una
+acción sobre el test: su `href` se fija en `start()` con el mismo destino
+que "Volver" (`?back=`), igual que hace el botón de fin de la baraja de
+estudio (`tools/study/app.js`, `btnFinish.href = btnBack.href`). Aparece
+en cuanto el test está comprobado —con fallos o sin ellos— para que
+siempre haya una salida; se oculta al reabrir el test con "Repetir" o
+"Corregir solo los errores". Cuando no hay ningún fallo, el foco pasa a
+"Terminar"; si hay fallos, el foco sigue en "Repetir".
+
 ## 5. Reglas de accesibilidad
 
 1. Lectura Fácil: frases cortas, una idea por frase.
