@@ -26,5 +26,6 @@ window.LocalePickerConfig = {
   defaultLocale: 'en',
   /* No settingsHref: the drawer's "more settings" link is gone. The shared
      drawer keeps only theme, text size and high contrast. */
-  soundSettings: false
+  soundSettings: true,
+  soundStorageKey: 'memofun:sounds'
 };
