@@ -1,7 +1,7 @@
 # Third-party licenses
 
 The main code in this repository is licensed under the
-[MIT License](LICENSE) of the Miralante Memofun project. This file
+[GNU AGPL v3.0 License](LICENSE) of the Miralante Memofun project. This file
 documents the licenses of the **third-party images** shipped per
 deck card.
 

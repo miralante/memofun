@@ -119,4 +119,4 @@ Si vas a preparar barajas para una persona usuaria, el paso a paso canónico est
 
 ## Créditos y licencia
 
-Memofun es un proyecto de código abierto, distribuido bajo la licencia MIT. El contenido de las barajas está curado por quien mantiene el proyecto y por colaboradores, nunca se genera en tiempo de ejecución.
+Memofun es un proyecto de código abierto, distribuido bajo la licencia GNU AGPL v3.0. El contenido de las barajas está curado por quien mantiene el proyecto y por colaboradores, nunca se genera en tiempo de ejecución.

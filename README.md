@@ -4,7 +4,7 @@
 >
 > 🚀 **Try it live:** [memofun.apptonomia.uk](https://memofun.apptonomia.uk/)
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GNU AGPL v3.0 License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
 [![No dependencies](https://img.shields.io/badge/dependencies-none-success.svg)](#-features)
 [![Static site](https://img.shields.io/badge/build-none-informational.svg)](#-features)
 [![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8.svg)](manifest.json)
@@ -247,7 +247,7 @@ for how to report a suspected issue privately (preferred channel:
 Memofun ships **two** licences, one per asset kind:
 
 - The **code** (HTML/CSS/JS) belongs to its contributors, under the
-  **MIT** license (see [`LICENSE`](LICENSE)).
+  **GNU AGPL v3.0** license (see [`LICENSE`](LICENSE)).
 - **Deck content** (questions, answers) is licensed under **Creative
   Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)**, unless a
   specific deck states otherwise.

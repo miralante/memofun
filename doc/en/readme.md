@@ -119,4 +119,4 @@ If you are preparing decks for a learner, the canonical step-by-step lives in [`
 
 ## Credits and licence
 
-Memofun is an open source project, distributed under the MIT licence. Deck content is curated by the maintainers and contributors, never generated live at runtime.
+Memofun is an open source project, distributed under the GNU AGPL v3.0 licence. Deck content is curated by the maintainers and contributors, never generated live at runtime.
