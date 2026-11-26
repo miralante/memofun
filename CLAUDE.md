@@ -1,18 +1,10 @@
 # CLAUDE.md — AI agent workflow
 
-## Shared Playwright installation
+## CI/CD and browser tests
 
-Playwright and its browsers are installed globally for the machine by
-`dev/setups/pc-playwright-first-setup.ps1` or
-`pc-playwright-next-setup.ps1`. Run the project's existing browser-test
-command (for example, `npm run test:ui`) or invoke the global CLI with
-`playwright test`.
-
-Do not add `playwright` or `@playwright/test` to project dependencies, install
-Playwright with `npm`/`npx`, or run `npx playwright install`. The setup scripts
-manage the shared browser cache under `{drive}\apps\playwright_browsers`.
-Always attempt the relevant browser test; if the global CLI or browsers are
-unavailable, report that blocker and continue with the other checks.
+Use this repository's configured test commands. See the
+[project CI/CD guide](CI-CD.md)
+for this project's Cloudflare deployment steps and the suite-wide test matrix.
 
 ## About this project
 
@@ -95,7 +87,7 @@ location.
 | Content ingestion (`config.md` → deck, written by the AI agent), step by step | [`doc/en/internal-creating-decks-guide.md`](doc/en/internal-creating-decks-guide.md) ↔ [`doc/es/guia-interna-crear-barajas.md`](doc/es/guia-interna-crear-barajas.md) |
 | Same, but via a generic AI chat with no repo access (support role copies a prompt, pastes the JSON back) | [`doc/en/chat-ai-creating-decks-guide.md`](doc/en/chat-ai-creating-decks-guide.md) ↔ [`doc/es/guia-chat-ia-crear-barajas.md`](doc/es/guia-chat-ia-crear-barajas.md) |
 | Internationalization | [`doc/en/I18N.md`](doc/en/I18N.md) ↔ [`doc/es/I18N.md`](doc/es/I18N.md) |
-| Cloudflare deploy | [`CLOUDFLARE.md`](CLOUDFLARE.md) |
+| Cloudflare deploy | [`CI-CD.md`](CI-CD.md) |
 | Human contribution flow | [`CONTRIBUTING.md`](CONTRIBUTING.md) ↔ [`CONTRIBUTING.es.md`](CONTRIBUTING.es.md) |
 | Roadmap and closed decisions | Git only: `git log` |
 | AI agent operational flow | `CLAUDE.md` (this file) |
@@ -219,7 +211,7 @@ should be cached):
 The cost of bumping is one integer; the cost of not bumping is
 "the deployed app keeps serving the old version after a deploy".
 Bump liberally rather than conservatively. Full contract:
-[`CLOUDFLARE.md`](CLOUDFLARE.md) § "Cache contract". This rule is
+[`CI-CD.md`](CI-CD.md) § "Cache contract". This rule is
 also the source of §A.2.3 step 2.
 
 ### B.1.1 File-shard contract (suite-wide)

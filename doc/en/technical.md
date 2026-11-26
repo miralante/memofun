@@ -451,7 +451,7 @@ must keep parity. `App.i18n.register()` from each `strings.<locale>.js`.
 
 ## 7. Deployment
 
-Cloudflare Workers (static assets). See [`CLOUDFLARE.md`](../../CLOUDFLARE.md).
+Cloudflare Workers (static assets). See [`CI-CD.md`](../../CI-CD.md).
 
 ### 7.1 Service worker (`sw.js`)
 
@@ -482,7 +482,7 @@ after editing `sw.js` or any file listed in `FILES` — the same check that runs
 as the `cache-bump` job in CI. The rule is the same: bump on every commit that
 touches a file in `FILES` (or adds one).
 
-See [`CLOUDFLARE.md`](../../CLOUDFLARE.md) §"Cache contract" for the full
+See [`CI-CD.md`](../../CI-CD.md) §"Cache contract" for the full
 deploy contract. This section of `tecnico.md` is the canonical reference for
 the memofun SW contract.
 ## 8. How a deck's content gets generated
@@ -939,7 +939,7 @@ of these, stop and re-read this section".
   `subpages.css`.** These all belong to the retired SPA-merge
   model.
 - **No `_redirects` SPA catch-all.** Cloudflare rejects it
-  as a loop; documented in `CLOUDFLARE.md` and in the deploy
+  as a loop; documented in `CI-CD.md` and in the deploy
   recipe.
 - **No `data-app-blocked="mobile"` flash.** The pre-paint
   script is a single inline `<script>` in `<head>`; do not
@@ -1012,7 +1012,7 @@ in one repo, mirror it across the others in the same PR.
   build on this pattern.
 - [`I18N.md`](I18N.md) — how to add a new language while keeping
   the i18n invariants intact.
-- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) — deploy and SW/header
+- [`CI-CD.md`](../../CI-CD.md) — deploy and SW/header
   contracts at the Cloudflare Workers level.
 - [`SPEC.md`](SPEC.md) §"Mandatory rule" — the accessibility and
   no-clinical-mention invariants every page must respect.

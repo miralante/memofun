@@ -57,6 +57,6 @@ doc/
 | [`guia-interna-crear-barajas.md`](guia-interna-crear-barajas.md) | Paso a paso para generar y publicar una baraja nueva con una IA que tiene acceso al repositorio (rol de apoyo, sin tocar código). |
 | [`guia-chat-ia-crear-barajas.md`](guia-chat-ia-crear-barajas.md) | Lo mismo, pero con un chat de IA suelto (ChatGPT, Claude.ai…) sin acceso al repositorio. |
 | [`I18N.md`](I18N.md) | Cómo funciona el español/inglés de la interfaz y cómo añadir textos o idiomas. |
-| [`../../CLOUDFLARE.md`](../../CLOUDFLARE.md) | Despliegue en Cloudflare Workers. |
+| [`../../CI-CD.md`](../../CI-CD.md) | Despliegue en Cloudflare Workers. |
 | [`../../CLAUDE.md`](../../CLAUDE.md) | Reglas para agentes de IA que toquen este repositorio. |
 | [`../../CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) | Cómo contribuir código o contenido. |

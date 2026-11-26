@@ -6,7 +6,7 @@
 # just a static-assets binding. This is Cloudflare's current recommended
 # path for static sites, and the same model the sibling projects
 # (Sinonimia, Okeymoney, Teclatlon, Calculia) use — see their
-# CLOUDFLARE.md and the canonical guide in Apptonomia's CLOUDFLARE.md.
+# CI-CD.md and the canonical guide in Apptonomia's CI-CD.md.
 #
 # See: https://developers.cloudflare.com/workers/static-assets/
 
@@ -17,7 +17,7 @@ compatibility_date = "2026-08-11"
 # development files). That file replaced a `[build] command = "rm -rf .git"`
 # hook: `rm` only exists on POSIX shells, so the deploy failed outright on
 # Windows ("'rm' no se recognize como un comando"). The hook also deleted the
-# local repository. See .assetsignore and CLOUDFLARE.md.
+# local repository. See .assetsignore and CI-CD.md.
 
 [assets]
 directory = "."

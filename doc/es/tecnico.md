@@ -501,7 +501,7 @@ Ver [`I18N.md`](I18N.md). Resumen: `es` es la fuente de la verdad,
 
 ## 7. Despliegue
 
-Cloudflare Workers (static assets). Ver [`CLOUDFLARE.md`](../../CLOUDFLARE.md).
+Cloudflare Workers (static assets). Ver [`CI-CD.md`](../../CI-CD.md).
 
 ### 7.1 Service worker (`sw.js`)
 
@@ -528,7 +528,7 @@ después de editar `sw.js` o cualquier archivo listado en `FILES` — el mismo
 check que corre el job `cache-bump` en CI. La regla sigue siendo la misma:
 bumpear en cada commit que toque un archivo de `FILES` (o añada uno nuevo).
 
-Ver [`CLOUDFLARE.md`](../../CLOUDFLARE.md) §"Cache contract" para el
+Ver [`CI-CD.md`](../../CI-CD.md) §"Cache contract" para el
 contrato de despliegue completo. Esta sección del `tecnico.md` es la
 fuente canónica para el SW contract de memofun.
 ## 8. Cómo se genera el contenido de una baraja
@@ -1002,7 +1002,7 @@ de usar uno de estos, para y vuelve a leer esta sección".
   `subpages.css`.** Todos pertenecen al modelo de fusión
   SPA retirado.
 - **Sin `_redirects` SPA catch-all.** Cloudflare lo
-  rechaza como loop; documentado en `CLOUDFLARE.md` y en
+  rechaza como loop; documentado en `CI-CD.md` y en
   la receta de deploy.
 - **Sin flash de `data-app-blocked="mobile"`.** El script
   pre-paint es un único `<script>` inline en `<head>`; no
@@ -1081,7 +1081,7 @@ demás en el mismo PR.
   que se construyen sobre este patrón.
 - [`I18N.md`](I18N.md) — Cómo añadir un idioma manteniendo
   las invariantes de i18n intactas.
-- [`CLOUDFLARE.md`](../../CLOUDFLARE.md) — Contratos de
+- [`CI-CD.md`](../../CI-CD.md) — Contratos de
   deploy y SW/headers a nivel de Cloudflare Workers.
 - [`SPEC.md`](SPEC.md) §"Mandatory rule" — Las invariantes
   de accesibilidad y "ninguna mención clínica" que cada
