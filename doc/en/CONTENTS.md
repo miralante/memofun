@@ -245,8 +245,8 @@ the root [`CLAUDE.md`](CLAUDE.md) §"UNE 153101 reference").
 When a card has a hint, the hint is a **partial reveal of the
 back**, never a different question. This is the suite's
 "hint-before-answer" rule (see
-[`creating-elements-guide.md`](creating-elements-guide.md) §3
-and the canonical Routime guide).
+[`creating-elements-guide.md`](creating-elements-guide.md) §2.2
+and Apptonomia's canonical guide §3).
 
 ---
 

@@ -249,8 +249,8 @@ quien estudia (ver [`SPEC.md`](SPEC.md) §3 y la regla del suite en
 Cuando una tarjeta tiene pista, la pista es un **revelado
 parcial del reverso**, nunca una pregunta distinta. Esta es la
 regla "pista-antes-de-la-respuesta" del suite (ver
-[`guia-crear-elementos.md`](guia-crear-elementos.md) §3 y la
-guía canónica de Routime).
+[`guia-crear-elementos.md`](guia-crear-elementos.md) §2.2 y la
+guía canónica de Apptonomia §3).
 
 ---
 
