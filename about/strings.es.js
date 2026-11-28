@@ -6,7 +6,7 @@
 
   App.i18n.register({
     "pageTitle": "Sobre la app",
-    "backToCover": "← Volver",
+    "backToCover": "Menú de Teclatlon",
     "tagline": "Una aplicación para la autonomía.",
     "lead1": "Memofun es una ",
     "leadStrong": "aplicación web de tarjetas de memoria",

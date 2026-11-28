@@ -37,7 +37,7 @@ if (window.App.i18n) {
     },
     core: {
       chrome: { appName: 'Memofun' },
-      back: '← Back',
+      back: 'Teclatlon menu',
       next: 'Next',
       understood: 'Got it',
       previous: 'Previous',

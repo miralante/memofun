@@ -43,7 +43,7 @@
     es: {
       core: {
         appName: 'Memofun',
-        back: '← Volver',
+        back: 'Menú de Teclatlon',
         close: 'Cerrar',
         next: 'Siguiente →',
         previous: '← Anterior',
@@ -73,7 +73,7 @@
     en: {
       core: {
         appName: 'Memofun',
-        back: '← Back',
+        back: 'Teclatlon menu',
         close: 'Close',
         next: 'Next →',
         previous: '← Previous',

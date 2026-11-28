@@ -6,7 +6,7 @@
 
   App.i18n.register({
     "pageTitle": "About the app",
-    "backToCover": "← Back",
+    "backToCover": "Teclatlon menu",
     "tagline": "An app for autonomy.",
     "lead1": "Memofun is a ",
     "leadStrong": "flashcard web app",
