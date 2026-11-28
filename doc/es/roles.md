@@ -1,27 +1,34 @@
 # Roles del proyecto
 
-Memofun tiene **tres roles diferenciados**, igual que el resto de la
-familia de proyectos (Apptonomia, Calculia, Okeymoney, Sinonimia,
-Teclatlon):
+Todos los proyectos de la suite Miralante tienen los **mismos tres roles**,
+con los mismos nombres. Este archivo es idéntico en los ocho proyectos.
 
-| Rol | Quién es | Cómo participa | Dónde mira primero |
+> ⚠️ **No edites la copia de un solo proyecto.** El archivo canónico es
+> `apptonomia/doc/es/roles.md` (espejo en inglés: `apptonomia/doc/en/roles.md`).
+> Cámbialo ahí y cópialo a los demás proyectos. Los detalles propios de cada
+> proyecto (quién es la persona usuaria, qué pantallas usa, qué archivos
+> leer primero) van en el `README.md` y el `CLAUDE.md` de ese proyecto, no aquí.
+
+| Rol | Quién es | Cómo participa | Dónde mirar primero |
 |---|---|---|---|
-| 👤 **Persona usuaria** (con discapacidad intelectual) | Repasa las barajas | Usa `index.html` y `tools/study/` de forma autónoma. No toca `settings/` ni pide barajas al agente. | La aplicación |
-| ❤️ **Apoyo**: familia, docente | Prepara y revisa el contenido | Pide al agente de IA del proyecto que escriba una baraja a partir de un tema, o de un tema + índice detallado si ya tiene un temario propio; revisa el resultado y lo publica en `decks/`. Usa `settings/` para importar barajas propias o ajustar texto/idioma. | [`CONTRIBUTING.es.md`](../../CONTRIBUTING.es.md) |
-| 💻 **Construcción**: desarrollador/a | Programa la aplicación | Mantiene el código, revisa PRs, despliega. | [`tecnico.md`](tecnico.md) |
+| 👤 **Persona usuaria** | La persona que usa la app para aprender, practicar o resolver algo. La suite está pensada para lectura fácil. | Usa la app por su cuenta. No participa en el desarrollo. | La propia app — no hay nada más que leer |
+| ❤️ **Apoyo** | Familia, docente, terapeuta o cualquier persona que ayuda a la persona usuaria a elegir y usar la app, sin tomar sus decisiones por ella. | Elige la app o el contenido adecuado para una necesidad, la prepara para la persona usuaria e informa de problemas o de textos poco claros. | [`README.md`](README.md) |
+| 💻 **Construcción** | Desarrolladoras y mantenedoras que cambian el código, el contenido, las pruebas o el despliegue. | Edita el código, revisa las pull requests y despliega, siguiendo las reglas del proyecto. | [`CLAUDE.md`](CLAUDE.md), después [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
-> 💡 La persona usuaria final es siempre alguien con discapacidad
-> intelectual. Las decisiones de contenido, lenguaje e interfaz se
-> piensan siempre desde su experiencia. Lo que queda fuera de su
-> participación son las decisiones técnicas — no por exclusión, sino
-> porque es el ámbito de apoyo/construcción.
+> 💡 **La persona usuaria es el público.** Cada decisión sobre la interfaz,
+> los textos y la accesibilidad se toma pensando en su experiencia. Las
+> decisiones técnicas corresponden al rol de Construcción.
 
-## Por dónde empezar, según tu perfil
+Una persona puede tener más de un rol: un familiar puede ser Apoyo y, además,
+usar la app junto con la persona usuaria.
+
+---
+
+## 🗺️ Por dónde empezar, según perfil
 
 | Si eres… | Empieza por… |
 |---|---|
-| 👤 Persona usuaria o familiar directo | La aplicación — no hace falta leer nada más |
-| ❤️ Familiar o docente que prepara contenido con una IA que tiene acceso al repositorio (Claude Code, Cursor, Cowork…) | [`guia-interna-crear-barajas.md`](guia-interna-crear-barajas.md) — paso a paso completo |
-| ❤️ Familiar o docente que prepara contenido con un chat de IA suelto (ChatGPT, Claude.ai…), o que no sabe cuál de los dos casos es el suyo | [`guia-ia-crear-barajas.md`](guia-ia-crear-barajas.md) — elige tu camino |
-| 🤔 Solo quiero entender qué es | [`SPEC.md`](SPEC.md) |
-| 💻 Desarrollador/a | [`tecnico.md`](tecnico.md) |
+| 👤 Persona usuaria, o familiar que usa la app con ella | La app. No hay nada más que leer. |
+| ❤️ Apoyo | El [`README.md`](README.md) de la app |
+| 💻 Desarrolladora o mantenedora | [`CLAUDE.md`](CLAUDE.md), después [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| 🤔 Solo quieres entender qué es el proyecto | [`README.md`](README.md) |

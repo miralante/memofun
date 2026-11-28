@@ -1,26 +1,34 @@
 # Project roles
 
-Memofun has **three distinct roles**, same as the rest of the
-apps of the Miralante suite (Apptonomia, Calculia, Okeymoney,
-Sinonimia, Teclatlon):
+Every project in the Miralante suite has the **same three roles**, with the
+same names. This file is identical in all eight projects.
 
-| Role | Who | How they participate | Where they look first |
+> ⚠️ **Do not edit the copy in a single project.** The canonical file is
+> `apptonomia/doc/en/roles.md` (Spanish mirror: `apptonomia/doc/es/roles.md`).
+> Change it there and copy it to the other projects. Project-specific details
+> (who the end user is, which screens they use, which files to read first)
+> belong in that project's `README.md` and `CLAUDE.md`, not here.
+
+| Role | Who they are | How they take part | Where they look first |
 |---|---|---|---|
-| 👤 **End user** (with an intellectual disability) | Reviews decks | Uses `index.html` and `tools/study/` autonomously. Doesn't touch `settings/` or ask the agent for decks. | The app |
-| ❤️ **Support**: family, teacher | Prepares and reviews content | Asks the project's AI agent to write a deck from a topic, or a topic + a detailed outline if they already have their own syllabus; reviews the output and publishes it to `decks/`. Uses `settings/` to import their own decks or adjust text size/language. | [`CONTRIBUTING.md`](../../CONTRIBUTING.md) |
-| 💻 **Build**: developer | Codes the app | Maintains the code, reviews PRs, deploys. | [`technical.md`](technical.md) |
+| 👤 **End user** | The person who uses the app to learn, practise or get things done. The suite is built for easy-read use. | Uses the app on their own. Does not take part in development. | The app itself — nothing else to read |
+| ❤️ **Support** | Family, teacher, therapist or any person who helps the end user choose and use the app, without taking its decisions for them. | Picks the right app or content for a need, sets it up for the end user, and reports problems or unclear wording. | [`README.md`](README.md) |
+| 💻 **Build** | Developers and maintainers who change the code, content, tests or deployment. | Edits the code, reviews pull requests and deploys, following the project's rules. | [`CLAUDE.md`](CLAUDE.md), then [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
-> 💡 The end user is always someone with an intellectual disability.
-> Content, language and interface decisions are always made with their
-> experience in mind. What's out of their scope is purely technical
-> decisions — not exclusion, just the support/build domain.
+> 💡 **The end user is the audience.** Every decision about the interface,
+> the wording and the accessibility is taken with their experience in mind.
+> Technical decisions belong to the Build role.
 
-## Where to start, by profile
+A person can hold more than one role: a family member can be Support and
+also use the app with the end user.
+
+---
+
+## 🗺️ Where to start, by profile
 
 | If you are… | Start with… |
 |---|---|
-| 👤 End user or direct family member | The app — nothing else to read |
-| ❤️ Family/teacher preparing content with an AI that has repo access (Claude Code, Cursor, Cowork…) | [`internal-creating-decks-guide.md`](internal-creating-decks-guide.md) — full step-by-step |
-| ❤️ Family/teacher preparing content with a standalone AI chat (ChatGPT, Claude.ai…), or unsure which case applies | [`ai-creating-decks-guide.md`](ai-creating-decks-guide.md) — pick your path |
-| 🤔 Just want to understand what it is | [`SPEC.md`](SPEC.md) |
-| 💻 Developer | [`technical.md`](technical.md) |
+| 👤 End user, or a family member who uses the app with them | The app. Nothing else to read. |
+| ❤️ Support | The [`README.md`](README.md) of the app |
+| 💻 Developer or maintainer | [`CLAUDE.md`](CLAUDE.md), then [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| 🤔 Only want to understand what the project is | [`README.md`](README.md) |
